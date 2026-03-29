@@ -1,0 +1,1957 @@
+{
+  "generated": "2026-03-29",
+  "total_count": 195,
+  "source": "COTxGNN",
+  "drugs": [
+    {
+      "slug": "db00002",
+      "name": "Cetuximab",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "squamous cell carcinoma of colon",
+      "txgnn_score": "",
+      "url": "/drugs/db00002/"
+    },
+    {
+      "slug": "db00005",
+      "name": "Etanercept",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "rheumatoid arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00005/"
+    },
+    {
+      "slug": "db00009",
+      "name": "Alteplase",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "stroke disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db00009/"
+    },
+    {
+      "slug": "db00043",
+      "name": "Omalizumab",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "allergic asthma",
+      "txgnn_score": "",
+      "url": "/drugs/db00043/"
+    },
+    {
+      "slug": "db00051",
+      "name": "Adalimumab",
+      "evidence_level": "L5",
+      "indication_count": 15,
+      "original_indication": "",
+      "predicted_indication": "rheumatoid arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00051/"
+    },
+    {
+      "slug": "db00060",
+      "name": "Interferon Beta-1A",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00060/"
+    },
+    {
+      "slug": "db00065",
+      "name": "Infliximab",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "original_indication": "",
+      "predicted_indication": "rheumatoid arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00065/"
+    },
+    {
+      "slug": "db00068",
+      "name": "Interferon Beta-1B",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00068/"
+    },
+    {
+      "slug": "db00072",
+      "name": "Trastuzumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "HER2 positive breast carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00072/"
+    },
+    {
+      "slug": "db00073",
+      "name": "Rituximab",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "lymphoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00073/"
+    },
+    {
+      "slug": "db00082",
+      "name": "Pegvisomant",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hyperpituitarism",
+      "txgnn_score": "",
+      "url": "/drugs/db00082/"
+    },
+    {
+      "slug": "db00087",
+      "name": "Alemtuzumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00087/"
+    },
+    {
+      "slug": "db00099",
+      "name": "Filgrastim",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "constitutional neutropenia",
+      "txgnn_score": "",
+      "url": "/drugs/db00099/"
+    },
+    {
+      "slug": "db00108",
+      "name": "Natalizumab",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "inflammatory bowel disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00108/"
+    },
+    {
+      "slug": "db00110",
+      "name": "Palivizumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "respiratory syncytial virus infectious disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00110/"
+    },
+    {
+      "slug": "db00112",
+      "name": "Bevacizumab",
+      "evidence_level": "L5",
+      "indication_count": 20,
+      "original_indication": "",
+      "predicted_indication": "peritoneum cancer",
+      "txgnn_score": "",
+      "url": "/drugs/db00112/"
+    },
+    {
+      "slug": "db00136",
+      "name": "Calcitriol",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "phosphorus metabolism disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00136/"
+    },
+    {
+      "slug": "db00177",
+      "name": "Valsartan",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00177/"
+    },
+    {
+      "slug": "db00178",
+      "name": "Ramipril",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "stroke disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db00178/"
+    },
+    {
+      "slug": "db00186",
+      "name": "Lorazepam",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "original_indication": "",
+      "predicted_indication": "status epilepticus",
+      "txgnn_score": "",
+      "url": "/drugs/db00186/"
+    },
+    {
+      "slug": "db00188",
+      "name": "Bortezomib",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "lymphosarcoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00188/"
+    },
+    {
+      "slug": "db00190",
+      "name": "Carbidopa",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "early-onset parkinsonism-intellectual disability syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db00190/"
+    },
+    {
+      "slug": "db00193",
+      "name": "Tramadol",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "osteoarthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00193/"
+    },
+    {
+      "slug": "db00198",
+      "name": "Oseltamivir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "influenza",
+      "txgnn_score": "",
+      "url": "/drugs/db00198/"
+    },
+    {
+      "slug": "db00203",
+      "name": "Sildenafil",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "erectile dysfunction (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00203/"
+    },
+    {
+      "slug": "db00210",
+      "name": "Adapalene",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "acne (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00210/"
+    },
+    {
+      "slug": "db00265",
+      "name": "Crotamiton",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "Norwegian scabies",
+      "txgnn_score": "",
+      "url": "/drugs/db00265/"
+    },
+    {
+      "slug": "db00287",
+      "name": "Travoprost",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "open-angle glaucoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00287/"
+    },
+    {
+      "slug": "db00299",
+      "name": "Penciclovir",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "herpes labialis",
+      "txgnn_score": "",
+      "url": "/drugs/db00299/"
+    },
+    {
+      "slug": "db00303",
+      "name": "Ertapenem",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "bacterial pneumonia",
+      "txgnn_score": "",
+      "url": "/drugs/db00303/"
+    },
+    {
+      "slug": "db00317",
+      "name": "Gefitinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00317/"
+    },
+    {
+      "slug": "db00349",
+      "name": "Clobazam",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "cutis verticis gyrata",
+      "txgnn_score": "",
+      "url": "/drugs/db00349/"
+    },
+    {
+      "slug": "db00350",
+      "name": "Minoxidil",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00350/"
+    },
+    {
+      "slug": "db00355",
+      "name": "Aztreonam",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "rhinoscleroma",
+      "txgnn_score": "",
+      "url": "/drugs/db00355/"
+    },
+    {
+      "slug": "db00367",
+      "name": "Levonorgestrel",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "osteoporosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00367/"
+    },
+    {
+      "slug": "db00373",
+      "name": "Timolol",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00373/"
+    },
+    {
+      "slug": "db00374",
+      "name": "Treprostinil",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "pulmonary arterial hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00374/"
+    },
+    {
+      "slug": "db00404",
+      "name": "Alprazolam",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "mixed anxiety and depressive disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db00404/"
+    },
+    {
+      "slug": "db00419",
+      "name": "Miglustat",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "Gaucher disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00419/"
+    },
+    {
+      "slug": "db00442",
+      "name": "Entecavir",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "chronic hepatitis B virus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db00442/"
+    },
+    {
+      "slug": "db00471",
+      "name": "Montelukast",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "vasomotor rhinitis",
+      "txgnn_score": "",
+      "url": "/drugs/db00471/"
+    },
+    {
+      "slug": "db00482",
+      "name": "Celecoxib",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "osteoarthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00482/"
+    },
+    {
+      "slug": "db00494",
+      "name": "Entacapone",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "original_indication": "",
+      "predicted_indication": "early-onset parkinsonism-intellectual disability syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db00494/"
+    },
+    {
+      "slug": "db00502",
+      "name": "Haloperidol",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "psychotic disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db00502/"
+    },
+    {
+      "slug": "db00503",
+      "name": "Ritonavir",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "hepatitis C virus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db00503/"
+    },
+    {
+      "slug": "db00519",
+      "name": "Trandolapril",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00519/"
+    },
+    {
+      "slug": "db00535",
+      "name": "Cefdinir",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "staphylococcus aureus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db00535/"
+    },
+    {
+      "slug": "db00554",
+      "name": "Piroxicam",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "arthropathy",
+      "txgnn_score": "",
+      "url": "/drugs/db00554/"
+    },
+    {
+      "slug": "db00559",
+      "name": "Bosentan",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "systemic sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00559/"
+    },
+    {
+      "slug": "db00582",
+      "name": "Voriconazole",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "fusariosis",
+      "txgnn_score": "",
+      "url": "/drugs/db00582/"
+    },
+    {
+      "slug": "db00601",
+      "name": "Linezolid",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "staphylococcus aureus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db00601/"
+    },
+    {
+      "slug": "db00625",
+      "name": "Efavirenz",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db00625/"
+    },
+    {
+      "slug": "db00642",
+      "name": "Pemetrexed",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00642/"
+    },
+    {
+      "slug": "db00654",
+      "name": "Latanoprost",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "open-angle glaucoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00654/"
+    },
+    {
+      "slug": "db00669",
+      "name": "Sumatriptan",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "paroxysmal Hemicrania",
+      "txgnn_score": "",
+      "url": "/drugs/db00669/"
+    },
+    {
+      "slug": "db00678",
+      "name": "Losartan",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00678/"
+    },
+    {
+      "slug": "db00683",
+      "name": "Midazolam",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "anxiety",
+      "txgnn_score": "",
+      "url": "/drugs/db00683/"
+    },
+    {
+      "slug": "db00724",
+      "name": "Imiquimod",
+      "evidence_level": "L5",
+      "indication_count": 11,
+      "original_indication": "",
+      "predicted_indication": "skin disease",
+      "txgnn_score": "",
+      "url": "/drugs/db00724/"
+    },
+    {
+      "slug": "db00745",
+      "name": "Modafinil",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "narcolepsy-cataplexy syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db00745/"
+    },
+    {
+      "slug": "db00758",
+      "name": "Clopidogrel",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "intracranial embolism",
+      "txgnn_score": "",
+      "url": "/drugs/db00758/"
+    },
+    {
+      "slug": "db00760",
+      "name": "Meropenem",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "streptococcal meningitis",
+      "txgnn_score": "",
+      "url": "/drugs/db00760/"
+    },
+    {
+      "slug": "db00762",
+      "name": "Irinotecan",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "pancreatic adenocarcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db00762/"
+    },
+    {
+      "slug": "db00770",
+      "name": "Alprostadil",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "tetralogy of fallot",
+      "txgnn_score": "",
+      "url": "/drugs/db00770/"
+    },
+    {
+      "slug": "db00783",
+      "name": "Estradiol",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "obsolete atrophic vulva",
+      "txgnn_score": "",
+      "url": "/drugs/db00783/"
+    },
+    {
+      "slug": "db00787",
+      "name": "Acyclovir",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "chickenpox",
+      "txgnn_score": "",
+      "url": "/drugs/db00787/"
+    },
+    {
+      "slug": "db00790",
+      "name": "Perindopril",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00790/"
+    },
+    {
+      "slug": "db00796",
+      "name": "Candesartan Cilexetil",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00796/"
+    },
+    {
+      "slug": "db00814",
+      "name": "Meloxicam",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "osteoarthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db00814/"
+    },
+    {
+      "slug": "db00820",
+      "name": "Tadalafil",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "pulmonary hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db00820/"
+    },
+    {
+      "slug": "db00829",
+      "name": "Diazepam",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "Wernicke-Korsakoff syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db00829/"
+    },
+    {
+      "slug": "db00864",
+      "name": "Tacrolimus",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "dermatitis, atopic",
+      "txgnn_score": "",
+      "url": "/drugs/db00864/"
+    },
+    {
+      "slug": "db00879",
+      "name": "Emtricitabine",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db00879/"
+    },
+    {
+      "slug": "db00897",
+      "name": "Triazolam",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "insomnia (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db00897/"
+    },
+    {
+      "slug": "db00905",
+      "name": "Bimatoprost",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "hypertrichosis of eyelid",
+      "txgnn_score": "",
+      "url": "/drugs/db00905/"
+    },
+    {
+      "slug": "db00922",
+      "name": "Levosimendan",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "congestive heart failure",
+      "txgnn_score": "",
+      "url": "/drugs/db00922/"
+    },
+    {
+      "slug": "db00938",
+      "name": "Salmeterol",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "allergic asthma",
+      "txgnn_score": "",
+      "url": "/drugs/db00938/"
+    },
+    {
+      "slug": "db00966",
+      "name": "Telmisartan",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "stroke disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db00966/"
+    },
+    {
+      "slug": "db00973",
+      "name": "Ezetimibe",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "hyperlipidemia, familial combined, LPL related",
+      "txgnn_score": "",
+      "url": "/drugs/db00973/"
+    },
+    {
+      "slug": "db00996",
+      "name": "Gabapentin",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "restless legs syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db00996/"
+    },
+    {
+      "slug": "db01004",
+      "name": "Ganciclovir",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "cytomegalovirus retinitis",
+      "txgnn_score": "",
+      "url": "/drugs/db01004/"
+    },
+    {
+      "slug": "db01029",
+      "name": "Irbesartan",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db01029/"
+    },
+    {
+      "slug": "db01048",
+      "name": "Abacavir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db01048/"
+    },
+    {
+      "slug": "db01058",
+      "name": "Praziquantel",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "opisthorchiasis",
+      "txgnn_score": "",
+      "url": "/drugs/db01058/"
+    },
+    {
+      "slug": "db01068",
+      "name": "Clonazepam",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "anxiety disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db01068/"
+    },
+    {
+      "slug": "db01083",
+      "name": "Orlistat",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "obesity disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db01083/"
+    },
+    {
+      "slug": "db01126",
+      "name": "Dutasteride",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "benign prostatic hyperplasia (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db01126/"
+    },
+    {
+      "slug": "db01136",
+      "name": "Carvedilol",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db01136/"
+    },
+    {
+      "slug": "db01166",
+      "name": "Cilostazol",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "intermittent vascular claudication",
+      "txgnn_score": "",
+      "url": "/drugs/db01166/"
+    },
+    {
+      "slug": "db01175",
+      "name": "Escitalopram",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "endogenous depression",
+      "txgnn_score": "",
+      "url": "/drugs/db01175/"
+    },
+    {
+      "slug": "db01188",
+      "name": "Ciclopirox",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "seborrheic dermatitis",
+      "txgnn_score": "",
+      "url": "/drugs/db01188/"
+    },
+    {
+      "slug": "db01197",
+      "name": "Captopril",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db01197/"
+    },
+    {
+      "slug": "db01202",
+      "name": "Levetiracetam",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "partial epilepsy",
+      "txgnn_score": "",
+      "url": "/drugs/db01202/"
+    },
+    {
+      "slug": "db01216",
+      "name": "Finasteride",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "benign prostatic hyperplasia (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db01216/"
+    },
+    {
+      "slug": "db01229",
+      "name": "Paclitaxel",
+      "evidence_level": "L5",
+      "indication_count": 37,
+      "original_indication": "",
+      "predicted_indication": "peritoneum cancer",
+      "txgnn_score": "",
+      "url": "/drugs/db01229/"
+    },
+    {
+      "slug": "db01235",
+      "name": "Levodopa",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "early-onset parkinsonism-intellectual disability syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db01235/"
+    },
+    {
+      "slug": "db01248",
+      "name": "Docetaxel",
+      "evidence_level": "L5",
+      "indication_count": 14,
+      "original_indication": "",
+      "predicted_indication": "prostate carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db01248/"
+    },
+    {
+      "slug": "db01254",
+      "name": "Dasatinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "blast phase chronic myelogenous leukemia, BCR-ABL1 positive",
+      "txgnn_score": "",
+      "url": "/drugs/db01254/"
+    },
+    {
+      "slug": "db01257",
+      "name": "Eculizumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "neuromyelitis optica",
+      "txgnn_score": "",
+      "url": "/drugs/db01257/"
+    },
+    {
+      "slug": "db01264",
+      "name": "Darunavir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db01264/"
+    },
+    {
+      "slug": "db01268",
+      "name": "Sunitinib",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "clear cell renal carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db01268/"
+    },
+    {
+      "slug": "db01269",
+      "name": "Panitumumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "metastatic malignant neoplasm in the colon",
+      "txgnn_score": "",
+      "url": "/drugs/db01269/"
+    },
+    {
+      "slug": "db01270",
+      "name": "Ranibizumab",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "retinopathy of prematurity",
+      "txgnn_score": "",
+      "url": "/drugs/db01270/"
+    },
+    {
+      "slug": "db01281",
+      "name": "Abatacept",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "juvenile arthritis due to defect in LACC1",
+      "txgnn_score": "",
+      "url": "/drugs/db01281/"
+    },
+    {
+      "slug": "db01406",
+      "name": "Danazol",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "endometriosis (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db01406/"
+    },
+    {
+      "slug": "db01590",
+      "name": "Everolimus",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "clear cell renal carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db01590/"
+    },
+    {
+      "slug": "db01598",
+      "name": "Imipenem",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "original_indication": "",
+      "predicted_indication": "endocarditis",
+      "txgnn_score": "",
+      "url": "/drugs/db01598/"
+    },
+    {
+      "slug": "db01601",
+      "name": "Lopinavir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db01601/"
+    },
+    {
+      "slug": "db01606",
+      "name": "Tazobactam",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "staphylococcus aureus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db01606/"
+    },
+    {
+      "slug": "db01609",
+      "name": "Deferasirox",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "beta-thalassemia intermedia",
+      "txgnn_score": "",
+      "url": "/drugs/db01609/"
+    },
+    {
+      "slug": "db03904",
+      "name": "Urea",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "seborrheic dermatitis",
+      "txgnn_score": "",
+      "url": "/drugs/db03904/"
+    },
+    {
+      "slug": "db04815",
+      "name": "Clioquinol",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "dermatophytosis of groin and perianal area",
+      "txgnn_score": "",
+      "url": "/drugs/db04815/"
+    },
+    {
+      "slug": "db04854",
+      "name": "Febuxostat",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "obsolete hyperuricemia (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db04854/"
+    },
+    {
+      "slug": "db05541",
+      "name": "Brivaracetam",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "partial motor epilepsy",
+      "txgnn_score": "",
+      "url": "/drugs/db05541/"
+    },
+    {
+      "slug": "db05578",
+      "name": "Ramucirumab",
+      "evidence_level": "L5",
+      "indication_count": 10,
+      "original_indication": "",
+      "predicted_indication": "fibrolamellar hepatocellular carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db05578/"
+    },
+    {
+      "slug": "db05679",
+      "name": "Ustekinumab",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "psoriatic arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db05679/"
+    },
+    {
+      "slug": "db06081",
+      "name": "Caplacizumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "thrombocytopenic purpura",
+      "txgnn_score": "",
+      "url": "/drugs/db06081/"
+    },
+    {
+      "slug": "db06168",
+      "name": "Canakinumab",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "autosomal recessive familial Mediterranean fever",
+      "txgnn_score": "",
+      "url": "/drugs/db06168/"
+    },
+    {
+      "slug": "db06186",
+      "name": "Ipilimumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "metastatic melanoma",
+      "txgnn_score": "",
+      "url": "/drugs/db06186/"
+    },
+    {
+      "slug": "db06237",
+      "name": "Avanafil",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "erectile dysfunction (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db06237/"
+    },
+    {
+      "slug": "db06262",
+      "name": "Droxidopa",
+      "evidence_level": "L5",
+      "indication_count": 11,
+      "original_indication": "",
+      "predicted_indication": "early-onset parkinsonism-intellectual disability syndrome",
+      "txgnn_score": "",
+      "url": "/drugs/db06262/"
+    },
+    {
+      "slug": "db06273",
+      "name": "Tocilizumab",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "temporal arteritis",
+      "txgnn_score": "",
+      "url": "/drugs/db06273/"
+    },
+    {
+      "slug": "db06343",
+      "name": "Teprotumumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "endocrine exophthalmos",
+      "txgnn_score": "",
+      "url": "/drugs/db06343/"
+    },
+    {
+      "slug": "db06366",
+      "name": "Pertuzumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "HER2 positive breast carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db06366/"
+    },
+    {
+      "slug": "db06403",
+      "name": "Ambrisentan",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "pulmonary arterial hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db06403/"
+    },
+    {
+      "slug": "db06612",
+      "name": "Mepolizumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "eosinophilic pneumonia",
+      "txgnn_score": "",
+      "url": "/drugs/db06612/"
+    },
+    {
+      "slug": "db06626",
+      "name": "Axitinib",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "renal cell carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db06626/"
+    },
+    {
+      "slug": "db06643",
+      "name": "Denosumab",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "osteoporosis",
+      "txgnn_score": "",
+      "url": "/drugs/db06643/"
+    },
+    {
+      "slug": "db06650",
+      "name": "Ofatumumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "acute lymphoblastic/lymphocytic leukemia",
+      "txgnn_score": "",
+      "url": "/drugs/db06650/"
+    },
+    {
+      "slug": "db06674",
+      "name": "Golimumab",
+      "evidence_level": "L5",
+      "indication_count": 6,
+      "original_indication": "",
+      "predicted_indication": "rheumatoid arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db06674/"
+    },
+    {
+      "slug": "db06809",
+      "name": "Plerixafor",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "plasma cell myeloma",
+      "txgnn_score": "",
+      "url": "/drugs/db06809/"
+    },
+    {
+      "slug": "db06811",
+      "name": "Polidocanol",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "varicose disease",
+      "txgnn_score": "",
+      "url": "/drugs/db06811/"
+    },
+    {
+      "slug": "db06817",
+      "name": "Raltegravir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db06817/"
+    },
+    {
+      "slug": "db08816",
+      "name": "Ticagrelor",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "peripheral arterial disease",
+      "txgnn_score": "",
+      "url": "/drugs/db08816/"
+    },
+    {
+      "slug": "db08828",
+      "name": "Vismodegib",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "sebaceous adenocarcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db08828/"
+    },
+    {
+      "slug": "db08865",
+      "name": "Crizotinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db08865/"
+    },
+    {
+      "slug": "db08870",
+      "name": "Brentuximab Vedotin",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "Hodgkin's paragranuloma",
+      "txgnn_score": "",
+      "url": "/drugs/db08870/"
+    },
+    {
+      "slug": "db08875",
+      "name": "Cabozantinib",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "clear cell renal carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db08875/"
+    },
+    {
+      "slug": "db08879",
+      "name": "Belimumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "pediatric systemic lupus erythematosus",
+      "txgnn_score": "",
+      "url": "/drugs/db08879/"
+    },
+    {
+      "slug": "db08885",
+      "name": "Aflibercept",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "macular degeneration",
+      "txgnn_score": "",
+      "url": "/drugs/db08885/"
+    },
+    {
+      "slug": "db08889",
+      "name": "Carfilzomib",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "plasma cell myeloma",
+      "txgnn_score": "",
+      "url": "/drugs/db08889/"
+    },
+    {
+      "slug": "db08893",
+      "name": "Mirabegron",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "overactive bladder (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db08893/"
+    },
+    {
+      "slug": "db08931",
+      "name": "Riociguat",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "pulmonary arterial hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db08931/"
+    },
+    {
+      "slug": "db08932",
+      "name": "Macitentan",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "pulmonary arterial hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db08932/"
+    },
+    {
+      "slug": "db08934",
+      "name": "Sofosbuvir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hepatitis C virus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db08934/"
+    },
+    {
+      "slug": "db08935",
+      "name": "Obinutuzumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "acute lymphoblastic/lymphocytic leukemia",
+      "txgnn_score": "",
+      "url": "/drugs/db08935/"
+    },
+    {
+      "slug": "db09033",
+      "name": "Vedolizumab",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "inflammatory bowel disease",
+      "txgnn_score": "",
+      "url": "/drugs/db09033/"
+    },
+    {
+      "slug": "db09035",
+      "name": "Nivolumab",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db09035/"
+    },
+    {
+      "slug": "db09037",
+      "name": "Pembrolizumab",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db09037/"
+    },
+    {
+      "slug": "db09053",
+      "name": "Ibrutinib",
+      "evidence_level": "L5",
+      "indication_count": 9,
+      "original_indication": "",
+      "predicted_indication": "lymphoplasmacytic lymphoma",
+      "txgnn_score": "",
+      "url": "/drugs/db09053/"
+    },
+    {
+      "slug": "db09061",
+      "name": "Cannabidiol",
+      "evidence_level": "L5",
+      "indication_count": 5,
+      "original_indication": "",
+      "predicted_indication": "developmental and epileptic encephalopathy",
+      "txgnn_score": "",
+      "url": "/drugs/db09061/"
+    },
+    {
+      "slug": "db09065",
+      "name": "Cobicistat",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db09065/"
+    },
+    {
+      "slug": "db09074",
+      "name": "Olaparib",
+      "evidence_level": "L5",
+      "indication_count": 27,
+      "original_indication": "",
+      "predicted_indication": "peritoneum cancer",
+      "txgnn_score": "",
+      "url": "/drugs/db09074/"
+    },
+    {
+      "slug": "db09080",
+      "name": "Olodaterol",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "COPD, severe early onset",
+      "txgnn_score": "",
+      "url": "/drugs/db09080/"
+    },
+    {
+      "slug": "db09082",
+      "name": "Vilanterol",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "COPD, severe early onset",
+      "txgnn_score": "",
+      "url": "/drugs/db09082/"
+    },
+    {
+      "slug": "db09101",
+      "name": "Elvitegravir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "AIDS",
+      "txgnn_score": "",
+      "url": "/drugs/db09101/"
+    },
+    {
+      "slug": "db09122",
+      "name": "Peginterferon Beta-1A",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "relapsing-remitting multiple sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db09122/"
+    },
+    {
+      "slug": "db09302",
+      "name": "Alirocumab",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "atherosclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db09302/"
+    },
+    {
+      "slug": "db09303",
+      "name": "Evolocumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "homozygous familial hypercholesterolemia",
+      "txgnn_score": "",
+      "url": "/drugs/db09303/"
+    },
+    {
+      "slug": "db09324",
+      "name": "Sulbactam",
+      "evidence_level": "L5",
+      "indication_count": 8,
+      "original_indication": "",
+      "predicted_indication": "staphylococcus aureus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db09324/"
+    },
+    {
+      "slug": "db09331",
+      "name": "Daratumumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "plasma cell myeloma",
+      "txgnn_score": "",
+      "url": "/drugs/db09331/"
+    },
+    {
+      "slug": "db11085",
+      "name": "Resorcinol",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "dermatitis",
+      "txgnn_score": "",
+      "url": "/drugs/db11085/"
+    },
+    {
+      "slug": "db11362",
+      "name": "Selexipag",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "pulmonary arterial hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db11362/"
+    },
+    {
+      "slug": "db11363",
+      "name": "Alectinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db11363/"
+    },
+    {
+      "slug": "db11569",
+      "name": "Ixekizumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "spondyloarthropathy, susceptibility to",
+      "txgnn_score": "",
+      "url": "/drugs/db11569/"
+    },
+    {
+      "slug": "db11580",
+      "name": "Ravulizumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "paroxysmal nocturnal hemoglobinuria",
+      "txgnn_score": "",
+      "url": "/drugs/db11580/"
+    },
+    {
+      "slug": "db11581",
+      "name": "Venetoclax",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "acute lymphoblastic/lymphocytic leukemia",
+      "txgnn_score": "",
+      "url": "/drugs/db11581/"
+    },
+    {
+      "slug": "db11595",
+      "name": "Atezolizumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "transitional cell carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db11595/"
+    },
+    {
+      "slug": "db11613",
+      "name": "Velpatasvir",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hepatitis C virus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db11613/"
+    },
+    {
+      "slug": "db11644",
+      "name": "Tafamidis",
+      "evidence_level": "L5",
+      "indication_count": 4,
+      "original_indication": "",
+      "predicted_indication": "AH amyloidosis",
+      "txgnn_score": "",
+      "url": "/drugs/db11644/"
+    },
+    {
+      "slug": "db11714",
+      "name": "Durvalumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "transitional cell carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db11714/"
+    },
+    {
+      "slug": "db11718",
+      "name": "Encorafenib",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "metastatic melanoma",
+      "txgnn_score": "",
+      "url": "/drugs/db11718/"
+    },
+    {
+      "slug": "db11817",
+      "name": "Baricitinib",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "rheumatoid arthritis",
+      "txgnn_score": "",
+      "url": "/drugs/db11817/"
+    },
+    {
+      "slug": "db11820",
+      "name": "Nifurtimox",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "Chagas disease",
+      "txgnn_score": "",
+      "url": "/drugs/db11820/"
+    },
+    {
+      "slug": "db11866",
+      "name": "Romosozumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "osteoporosis",
+      "txgnn_score": "",
+      "url": "/drugs/db11866/"
+    },
+    {
+      "slug": "db11921",
+      "name": "Deflazacort",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "Duchenne muscular dystrophy",
+      "txgnn_score": "",
+      "url": "/drugs/db11921/"
+    },
+    {
+      "slug": "db11945",
+      "name": "Avelumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "cutaneous neuroendocrine carcinoma",
+      "txgnn_score": "",
+      "url": "/drugs/db11945/"
+    },
+    {
+      "slug": "db11967",
+      "name": "Binimetinib",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "metastatic melanoma",
+      "txgnn_score": "",
+      "url": "/drugs/db11967/"
+    },
+    {
+      "slug": "db11988",
+      "name": "Ocrelizumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "progressive multiple sclerosis",
+      "txgnn_score": "",
+      "url": "/drugs/db11988/"
+    },
+    {
+      "slug": "db12023",
+      "name": "Benralizumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "eosinophilic pneumonia",
+      "txgnn_score": "",
+      "url": "/drugs/db12023/"
+    },
+    {
+      "slug": "db12070",
+      "name": "Letermovir",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "cytomegalovirus infection",
+      "txgnn_score": "",
+      "url": "/drugs/db12070/"
+    },
+    {
+      "slug": "db12130",
+      "name": "Lorlatinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db12130/"
+    },
+    {
+      "slug": "db12141",
+      "name": "Gilteritinib",
+      "evidence_level": "L5",
+      "indication_count": 15,
+      "original_indication": "",
+      "predicted_indication": "myeloid leukemia",
+      "txgnn_score": "",
+      "url": "/drugs/db12141/"
+    },
+    {
+      "slug": "db12159",
+      "name": "Dupilumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "dermatitis, atopic",
+      "txgnn_score": "",
+      "url": "/drugs/db12159/"
+    },
+    {
+      "slug": "db12267",
+      "name": "Brigatinib",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "non-small cell lung carcinoma (disease)",
+      "txgnn_score": "",
+      "url": "/drugs/db12267/"
+    },
+    {
+      "slug": "db12281",
+      "name": "Luspatercept",
+      "evidence_level": "L5",
+      "indication_count": 7,
+      "original_indication": "",
+      "predicted_indication": "beta-thalassemia intermedia",
+      "txgnn_score": "",
+      "url": "/drugs/db12281/"
+    },
+    {
+      "slug": "db12661",
+      "name": "Urapidil",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "malignant hypertension",
+      "txgnn_score": "",
+      "url": "/drugs/db12661/"
+    },
+    {
+      "slug": "db13161",
+      "name": "Nusinersen",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "spinal muscular atrophy",
+      "txgnn_score": "",
+      "url": "/drugs/db13161/"
+    },
+    {
+      "slug": "db13923",
+      "name": "Emicizumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hemophilia",
+      "txgnn_score": "",
+      "url": "/drugs/db13923/"
+    },
+    {
+      "slug": "db13999",
+      "name": "Moroctocog Alfa",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hemophilia",
+      "txgnn_score": "",
+      "url": "/drugs/db13999/"
+    },
+    {
+      "slug": "db14012",
+      "name": "Burosumab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "hereditary hypophosphatemic rickets",
+      "txgnn_score": "",
+      "url": "/drugs/db14012/"
+    },
+    {
+      "slug": "db14042",
+      "name": "Galcanezumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "migraine disorder",
+      "txgnn_score": "",
+      "url": "/drugs/db14042/"
+    },
+    {
+      "slug": "db14597",
+      "name": "Lanadelumab",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hereditary angioedema",
+      "txgnn_score": "",
+      "url": "/drugs/db14597/"
+    },
+    {
+      "slug": "db14738",
+      "name": "Turoctocog Alfa Pegol",
+      "evidence_level": "L5",
+      "indication_count": 2,
+      "original_indication": "",
+      "predicted_indication": "hemophilia",
+      "txgnn_score": "",
+      "url": "/drugs/db14738/"
+    },
+    {
+      "slug": "db14811",
+      "name": "Isatuximab",
+      "evidence_level": "L5",
+      "indication_count": 1,
+      "original_indication": "",
+      "predicted_indication": "plasma cell myeloma",
+      "txgnn_score": "",
+      "url": "/drugs/db14811/"
+    },
+    {
+      "slug": "db15035",
+      "name": "Zanubrutinib",
+      "evidence_level": "L5",
+      "indication_count": 3,
+      "original_indication": "",
+      "predicted_indication": "lymphosarcoma",
+      "txgnn_score": "",
+      "url": "/drugs/db15035/"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Colombia INVIMA Field Mapping Configuration
+
+country_code: "CO"
+language: "es"
+regulatory_agency: "INVIMA"
+
+data_source:
+  name: "Código Único de Medicamentos Vigentes"
+  url: "https://datos.gov.co/resource/i7cb-raxc.json"
+  format: JSON
+  encoding: utf-8
+
+field_mapping:
+  license_id: "expediente"
+  brand_name_local: "producto"
+  brand_name_en: "principioactivo"
+  ingredients: "principioactivo"
+  indication: "descripcionatc"
+  dosage_form: "formafarmaceutica"
+  manufacturer: "titular"
+  approval_date: "fechaexpedicion"
+  status: "estado"
+
+withdrawn_statuses:
+  - "Cancelado"
+  - "Suspendido"
+  - "Vencido"
+
+ingredient_separator: "+"
+date_format: "%Y-%m-%d"
+encoding: "utf-8"
