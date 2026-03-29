@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db09031-mucocutaneous-leishmaniasis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db09031"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "mucocutaneous leishmaniasis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}

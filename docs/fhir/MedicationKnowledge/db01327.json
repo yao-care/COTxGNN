@@ -1,0 +1,31 @@
+{
+  "resourceType": "MedicationKnowledge",
+  "id": "db01327",
+  "status": "active",
+  "code": {
+    "coding": [
+      {
+        "system": "https://cotxgnn.yao.care/drugs",
+        "code": "db01327",
+        "display": "DB01327"
+      }
+    ]
+  },
+  "intendedJurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "urn:iso:std:iso:3166",
+          "code": "CO",
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}
