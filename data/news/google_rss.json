@@ -1,12 +1,12 @@
 {
-  "fetched_at": "2026-04-11T10:34:24.838025+00:00",
+  "fetched_at": "2026-04-11T11:30:25.915733+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "773e8403da1e",
+      "id": "2eb16aa4e6d6",
       "title": "Qué debes tener en cuenta antes de comenzar a usar las inyecciones para adelgazar, según los expertos - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1M0RuSzZiZmpzVWFfTGtvWTcwRlZXSlh6WGpJWDVraWRIQ1FQQ0toOUpCTkdUaVR1SDE1U19tQVR6bWF6cEcyYzNEWWVkbVI3emZ2WjB6MzN3TnfSAWBBVV95cUxQanVSNGRKOEpESWJnM3JOWFhRRnVGY3F4QmtRdWhSTWdhOGg3eHRwXzVpUUdWbURfd3BTVFg3ZVVQVGdEa0JLcWUtSUIxRlNUTnk0VXZxVER2V29vbG1CMWM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA1M0RuSzZiZmpzVWFfTGtvWTcwRlZXSlh6WGpJWDVraWRIQ1FQQ0toOUpCTkdUaVR1SDE1U19tQVR6bWF6cEcyYzNEWWVkbVI3emZ2WjB6MzN3Tnc?oc=5",
       "published": "2026-04-08T10:21:08+00:00",
       "source": {
         "name": "BBC",
@@ -154,6 +154,26 @@
       }
     },
     {
+      "id": "b2abf0f7253c",
+      "title": "Ibagué refuerza el uso seguro de medicamentos en farmacias - elcronista.co",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZEp1QUVuVlM4UjVXSms3aWdjMkVad05XUDl4VUFub280d0F0dHBGa2poeGNvWkcwcjhvNl9rSW5FOXBZS3pISVl0SzJ5Nk9wTjNINU1FdFpHVVVpdGJveUprMXVLMXFSb3hJUUFkYjdKc1I5MktmelRUMzRBY21OUWlrb2hxRW1aODByUDFDckttQ20zMnc?oc=5",
+      "published": "2026-04-11T05:13:04+00:00",
+      "source": {
+        "name": "elcronista.co",
+        "url": "https://elcronista.co"
+      }
+    },
+    {
+      "id": "213d5bff48cd",
+      "title": "“No hay desabastecimiento generalizado de medicamentos para la salud mental”: Minsalud - El Espectador",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkVUYW11TTBwdWFZVEJ6UFlGOHNVY0lrWjhnYVU1RUZoTlh0eFRiR0ZwelZCSmRfRTliVmYwSG1OM0dHb1kwTG9oNWF6bnZDQ202SmVTemxiT2pERW92azRFYlVPVmU4WDRwa0VYUWNMZjBQTWs2UDEzbnhhZ3lEcWxWalJGT1AyR2xJc3NUTGRPbTJRRlFjQkNvdlltd2dOS21GcmpVX05rSDJfUm8xRlpKeEEtcWN5Tk1V0gHPAUFVX3lxTE1idWxidGl3MXBSM2lNLWhkeG1sXzViNHplQWV4S0M0S0RMWTdQTVRTY2s0dU5Ob2dXMDJCamFxV3J5eUZGd2ZsX2hMOElscUhYb3VlUmRvUXpla2RxR0hpQTJOMzRfVGpJUHZUZ2EybDlkMG9hR2RGRk02UVhfbGUwZFJra1VyelM1bHoxdzRPTDhIRUdEZENNczYwYnA0YUVHdDlLMVJuYklVYm5FblgycmlvR0JQMjY4ejV0NUF1d1lMcGtyVk9jcmREQzN5cw?oc=5",
+      "published": "2026-04-07T14:54:00+00:00",
+      "source": {
+        "name": "El Espectador",
+        "url": "https://www.elespectador.com"
+      }
+    },
+    {
       "id": "4136525af140",
       "title": "Gobierno de Asfura identifica medicamentos vencidos por valor de 109 millones de lempiras - Infobae",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdENKTkN5UFZnYmIwczlqYlNNS2FVV1Q2RkxldksxbVVhMEVtdnZfYWpBbHVKdUVWbEVFZ25FYXVQWTBydFQxdWJGc1pzZldIUGdUeFlGNVl5WFZjbU1QSzVFLWdtOTdtZlZYbFpCZWpVTzIteGswNTVBX1pQTDdxNVN0c0QxdWZxWUJBUzk2WXEzVzVxbThvaU5wT1BYTUxfTWppbV9yOS00c2FoMVdLdzFSbTVMTlE4V3NiRWlpZ3FtWE1zcV9PZ0lxZE01aUXSAeoBQVVfeXFMTnFab2E1S21mdF90R2tKd0o1d2dVRERzRmRnQjh5ZldJUlNpdWEwNkJkMmVXM1hwcDNKeHVIay1QQlIxWXFKcnhzV3pwWGZUeHZydjNOZG9pLWNvUklLQU41c0ZPM3RDRURFSW44bGNweHRudWNJWHQ2Zm0wYVA1dnJlTWRTWWJWU1NvMnhaNWxaSWZaeE9NWUwxWUx0N0RyQ2djQkFqVUlEbTN3T0hJQ0g4ZFRBSUU5UEw3VWJCdUtHR3VyZ0NkZHc3QTVVMzJIa2lmQlJOUVEybWN5Z1ZmWlVnTEhzMC1Sc3Bn?oc=5",
@@ -171,16 +191,6 @@
       "source": {
         "name": "Vietnam.vn",
         "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "213d5bff48cd",
-      "title": "“No hay desabastecimiento generalizado de medicamentos para la salud mental”: Minsalud - El Espectador",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUkVUYW11TTBwdWFZVEJ6UFlGOHNVY0lrWjhnYVU1RUZoTlh0eFRiR0ZwelZCSmRfRTliVmYwSG1OM0dHb1kwTG9oNWF6bnZDQ202SmVTemxiT2pERW92azRFYlVPVmU4WDRwa0VYUWNMZjBQTWs2UDEzbnhhZ3lEcWxWalJGT1AyR2xJc3NUTGRPbTJRRlFjQkNvdlltd2dOS21GcmpVX05rSDJfUm8xRlpKeEEtcWN5Tk1V0gHPAUFVX3lxTE1idWxidGl3MXBSM2lNLWhkeG1sXzViNHplQWV4S0M0S0RMWTdQTVRTY2s0dU5Ob2dXMDJCamFxV3J5eUZGd2ZsX2hMOElscUhYb3VlUmRvUXpla2RxR0hpQTJOMzRfVGpJUHZUZ2EybDlkMG9hR2RGRk02UVhfbGUwZFJra1VyelM1bHoxdzRPTDhIRUdEZENNczYwYnA0YUVHdDlLMVJuYklVYm5FblgycmlvR0JQMjY4ejV0NUF1d1lMcGtyVk9jcmREQzN5cw?oc=5",
-      "published": "2026-04-07T14:54:00+00:00",
-      "source": {
-        "name": "El Espectador",
-        "url": "https://www.elespectador.com"
       }
     },
     {
@@ -204,16 +214,6 @@
       }
     },
     {
-      "id": "c67db63d86dc",
-      "title": "No paran las quejas por la entrega de medicamentos de la Nueva EPS - El Olfato",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzJJakZwY3VEWTZsQlM4Q3ZZSTZMUzZlbzRhLUxqVk9TZ0NOWlZZNnpJN3JDb01NQ1JUY2E0LUI3U0RMbWM1Qld5Z2Y5SDhTcmhiT1ZuaGtnQXNNcTNhOUcxOEpvbXZYNFdHU2ZLRThRQVV5OU9YV2JjS2ZUR2x3YnRBS1M2V3pTSV9QdGRISTlPV0dpNnV6dA?oc=5",
-      "published": "2026-04-10T15:51:21+00:00",
-      "source": {
-        "name": "El Olfato",
-        "url": "https://elolfato.com"
-      }
-    },
-    {
       "id": "ae4db624a25f",
       "title": "Usuarios del sistema de salud tendrían que utilizar hasta el 90% de sus ingresos para cubrir medicamentos que no les entregan - Defensoría del Pueblo de Colombia",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVQwSUhmbGlMa0FhVUo4VlpsS1Jpa1ZWbDRaVGQzMlZnU1lHRlhRQ1VEdGNEaFMxYWF6NFlpRVJOcU4wMThTcnRCdlQwX3Z6YkxveHpHWTRjcTVmRnRpeTI5VE5YUlpBRWVGNDNVazdsNzYxRjZRWFA5YWhNMlVEZVpNc3ZsZDA1clh2LVdB?oc=5",
@@ -224,13 +224,13 @@
       }
     },
     {
-      "id": "ee8e0639250b",
-      "title": "Capital sudamericana será sede de importante encuentro internacional sobre tecnológicos medicamentos que redefinen el futuro del sector - NTN24",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcjVxU2h2bzc1aUY5TVBNTTl1blhCeU5tWndma2QwMENsWVpib2N4dDdZRWZRQjg1SHhYNE1vZlM5V1JWQWU4TVdrM1RQYWxFM3RCdHBJTEk5aUplVzEydmcxaGIzUGtmRHd0Q0Rsc0xIUEIwVmdrMEZ4WmxxVVV6WjhTS1I2RFhseGJQMDJrbVVROTlsU1poMGt0UHZxcHIzTnA5TUVxWU5BdE94NjhOeDZIQjFITnlOOG5OLUhMZnNEZDJjV3lrNXFOREJoWVJPSXdiQjlRYU00WnRWOWtjT0FNS0lYMlVyY0NsVnBSYVVzRkloRVpldkhuTURua1hfWjdiaW5ocjRXN1nSAYsCQVVfeXFMTXR2R3cycm96TjBrMW1ydW1VaEZ4NTY2angzc04yRGJXbG5OaDg3MngtU1VidUI4dlJmVmRPN2swWDgtYzR0RmFLeF9sQ1pCdU9odF80UzlKU3gtM0MwaUplQlZWYnQ5R3h1TjdUdzlDUGdNQ01MNTRTNk1XRzhkR01Kd2YwRGF0SlNLNkhsbWpLMHFRR0hkX1NHRVY4QnIzQi1QVmpkOGF1U3hSX0RkRnBjMWVyNXROajNsUDdCdVVHbFlOVmo2bmVsUmwyQldCaG1KMmU5ZEFPQ2IxSXktNWFrR3EyelZZd09CelJxQl94Ukh1cUpLSC15RndTZXV2MEZGV0hNek1fVkpv?oc=5",
-      "published": "2026-04-10T17:50:50+00:00",
+      "id": "c67db63d86dc",
+      "title": "No paran las quejas por la entrega de medicamentos de la Nueva EPS - El Olfato",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdzJJakZwY3VEWTZsQlM4Q3ZZSTZMUzZlbzRhLUxqVk9TZ0NOWlZZNnpJN3JDb01NQ1JUY2E0LUI3U0RMbWM1Qld5Z2Y5SDhTcmhiT1ZuaGtnQXNNcTNhOUcxOEpvbXZYNFdHU2ZLRThRQVV5OU9YV2JjS2ZUR2x3YnRBS1M2V3pTSV9QdGRISTlPV0dpNnV6dA?oc=5",
+      "published": "2026-04-10T15:51:21+00:00",
       "source": {
-        "name": "NTN24",
-        "url": "https://www.ntn24.com"
+        "name": "El Olfato",
+        "url": "https://elolfato.com"
       }
     },
     {
@@ -274,13 +274,13 @@
       }
     },
     {
-      "id": "ef8e61112f66",
-      "title": "Crisis en salud aumenta ante medicamentos vencidos y falta de infraestructura - Canal 6 Honduras",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkpqa0NFbW1ZUDR4bUlSWEthclVQUVF5QWxLNFdJZ0s0VFV1UU16eEE0dHVfa3RGUzBlNEszMlprc1QwWUZIREZaMWxfRGVrY0N4aXVVRHVqUUlpcmZQQjJwTEJISjdTajFpaFZsdE9uc2xEVWNfZy1DZW5pblFWeDREbVl1dXlMRDg1Sm5lWGZCaXVvVVo0NVF1cVctOFMzRUs1R0RLWTFWYXBGbVNn?oc=5",
-      "published": "2026-04-11T00:55:24+00:00",
+      "id": "ee8e0639250b",
+      "title": "Capital sudamericana será sede de importante encuentro internacional sobre tecnológicos medicamentos que redefinen el futuro del sector - NTN24",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPcjVxU2h2bzc1aUY5TVBNTTl1blhCeU5tWndma2QwMENsWVpib2N4dDdZRWZRQjg1SHhYNE1vZlM5V1JWQWU4TVdrM1RQYWxFM3RCdHBJTEk5aUplVzEydmcxaGIzUGtmRHd0Q0Rsc0xIUEIwVmdrMEZ4WmxxVVV6WjhTS1I2RFhseGJQMDJrbVVROTlsU1poMGt0UHZxcHIzTnA5TUVxWU5BdE94NjhOeDZIQjFITnlOOG5OLUhMZnNEZDJjV3lrNXFOREJoWVJPSXdiQjlRYU00WnRWOWtjT0FNS0lYMlVyY0NsVnBSYVVzRkloRVpldkhuTURua1hfWjdiaW5ocjRXN1nSAYsCQVVfeXFMTXR2R3cycm96TjBrMW1ydW1VaEZ4NTY2angzc04yRGJXbG5OaDg3MngtU1VidUI4dlJmVmRPN2swWDgtYzR0RmFLeF9sQ1pCdU9odF80UzlKU3gtM0MwaUplQlZWYnQ5R3h1TjdUdzlDUGdNQ01MNTRTNk1XRzhkR01Kd2YwRGF0SlNLNkhsbWpLMHFRR0hkX1NHRVY4QnIzQi1QVmpkOGF1U3hSX0RkRnBjMWVyNXROajNsUDdCdVVHbFlOVmo2bmVsUmwyQldCaG1KMmU5ZEFPQ2IxSXktNWFrR3EyelZZd09CelJxQl94Ukh1cUpLSC15RndTZXV2MEZGV0hNek1fVkpv?oc=5",
+      "published": "2026-04-10T17:50:50+00:00",
       "source": {
-        "name": "Canal 6 Honduras",
-        "url": "https://canal6hn.com"
+        "name": "NTN24",
+        "url": "https://www.ntn24.com"
       }
     },
     {
@@ -291,6 +291,16 @@
       "source": {
         "name": "La FM",
         "url": "https://www.lafm.com.co"
+      }
+    },
+    {
+      "id": "ef8e61112f66",
+      "title": "Crisis en salud aumenta ante medicamentos vencidos y falta de infraestructura - Canal 6 Honduras",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVkpqa0NFbW1ZUDR4bUlSWEthclVQUVF5QWxLNFdJZ0s0VFV1UU16eEE0dHVfa3RGUzBlNEszMlprc1QwWUZIREZaMWxfRGVrY0N4aXVVRHVqUUlpcmZQQjJwTEJISjdTajFpaFZsdE9uc2xEVWNfZy1DZW5pblFWeDREbVl1dXlMRDg1Sm5lWGZCaXVvVVo0NVF1cVctOFMzRUs1R0RLWTFWYXBGbVNn?oc=5",
+      "published": "2026-04-11T00:55:24+00:00",
+      "source": {
+        "name": "Canal 6 Honduras",
+        "url": "https://canal6hn.com"
       }
     },
     {
@@ -387,7 +397,7 @@
       "id": "bf4c3445b25d",
       "title": "Capital Salud elimina 80% de autorizaciones y amplía red de farmacias para usuarios - Bogota.gov.co",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRzBOd2k3MzhNSldKM2VOVzQ3QU5IWnZwa3RuWjVBQnlDQkd3WFlYWnBPcGR0aW9ray1KaUhMUnlmdzJrZFpSUDR5OFlMb3Eyei0xQi1qVlVhdGJsaFR3VDk4RFotM3VHQmlEbU1vdjE2SDMzWjRJbVBpUTlrRnAxcS1ialZ2VmRNS3NDTVNuMFZjdk9hY2VQMmxVTUUwc0dFMmw5b0pYNFdENFU?oc=5",
-      "published": "2025-10-01T07:00:00+00:00",
+      "published": "2025-10-01T23:23:40+00:00",
       "source": {
         "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
@@ -414,13 +424,13 @@
       }
     },
     {
-      "id": "dedc4ae63215",
-      "title": "Nuevo estudio sobre resistencia a los fármacos de Leishmania donovani, con coautoría de la científica venezolana Dra. Alicia Ponte-Sucre - La Web de la Salud",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTWVFRnNibk9xV1RiUVlhNm1OWjhaWmhJSGNXMEFoLWRJUmE5UE5DQ3J4cno3YUxaUUpGQ3A4TUszaG9qaUhnSnNOZTRteHk3ZGRabGd4d2d3eThuSjVhM05aMUVZaU1oUDR0UGxscEswNlBPb2FRMFNieEJsNFN1RVM3Q0J2V0dfblFNMHVya1Bsek02U2tIZGxZSUFKVE5DV0lKRlNPUGJyaXVmd1NUVlZhSk81TkJDQ3ZEU1NMZ2ZjblFkMmJidUxFVzlKRkJyUzM2aktXUHJqODVBTWhPVG9GbDE4bGhLcWRfc0pQa09YX0N3?oc=5",
-      "published": "2026-04-10T18:26:22+00:00",
+      "id": "7e8ea392cc5d",
+      "title": "Secretaría de Salud adelanta inspecciones en clínicas de Ibagué para evaluar condiciones de medicamentos - El Irreverente Ibagué",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd1E3Q1VwdURVYkcyVDRHWWRzR2Roc2puUGhBWFlpRzFpM29IWUJWY2NVOGlkZ1NUUWdLc2ROY3FYMDdwd3RyTU1tMUpVbTl3SzB6V2J2RXFZa01XdmdJbzZyMHRaU0VHOW94dUFnUkJjQnMwbzViUjdmTUlVWGt0U0hGaXVweHZMV2ktQVR4bU9EcGg2N0xZdllkS1BLTHRndWpEREZYX2VNZmdKM01OSGtibk9DOWVmZ3BNRFpnZm1sb1hUdzI0X3ExWHZVcjZWU0t4YW82bFNmakt0OHAyOWg5Uk9uX2s?oc=5",
+      "published": "2026-04-09T21:08:34+00:00",
       "source": {
-        "name": "La Web de la Salud",
-        "url": "https://lawebdelasalud.com"
+        "name": "El Irreverente Ibagué",
+        "url": "https://elirreverenteibague.com"
       }
     },
     {
@@ -434,23 +444,13 @@
       }
     },
     {
-      "id": "b8f3f55d8ac7",
-      "title": "Medicamentos en domicilios: el proyecto del Pro para regular el desuso - Editor Mendoza",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVB6WDNfd2hpckRrQWdNUGRLZE9abFQ4RDdEWXdmeGg3LTRxQjJacWFSVTBQMm42aW5fVnVrYWVuMFJZZWxZaFBXMWRlWjdYU0dlQ3NwOHVfQVJGWmRxbTZBMXRJSFd3RUIwaVZOMS00TGJSTVprYU94UnNzUWVxdUQ3UEdHZTl1UDRFZ3l3V1hwSzNrSXAyalhNeUUxbUpqV3M0MnNLdUNPNGhUQnhR?oc=5",
-      "published": "2026-04-10T15:33:00+00:00",
+      "id": "dedc4ae63215",
+      "title": "Nuevo estudio sobre resistencia a los fármacos de Leishmania donovani, con coautoría de la científica venezolana Dra. Alicia Ponte-Sucre - La Web de la Salud",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPTWVFRnNibk9xV1RiUVlhNm1OWjhaWmhJSGNXMEFoLWRJUmE5UE5DQ3J4cno3YUxaUUpGQ3A4TUszaG9qaUhnSnNOZTRteHk3ZGRabGd4d2d3eThuSjVhM05aMUVZaU1oUDR0UGxscEswNlBPb2FRMFNieEJsNFN1RVM3Q0J2V0dfblFNMHVya1Bsek02U2tIZGxZSUFKVE5DV0lKRlNPUGJyaXVmd1NUVlZhSk81TkJDQ3ZEU1NMZ2ZjblFkMmJidUxFVzlKRkJyUzM2aktXUHJqODVBTWhPVG9GbDE4bGhLcWRfc0pQa09YX0N3?oc=5",
+      "published": "2026-04-10T18:26:22+00:00",
       "source": {
-        "name": "Editor Mendoza",
-        "url": "https://eleditormendoza.com.ar"
-      }
-    },
-    {
-      "id": "7e8ea392cc5d",
-      "title": "Secretaría de Salud adelanta inspecciones en clínicas de Ibagué para evaluar condiciones de medicamentos - El Irreverente Ibagué",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNd1E3Q1VwdURVYkcyVDRHWWRzR2Roc2puUGhBWFlpRzFpM29IWUJWY2NVOGlkZ1NUUWdLc2ROY3FYMDdwd3RyTU1tMUpVbTl3SzB6V2J2RXFZa01XdmdJbzZyMHRaU0VHOW94dUFnUkJjQnMwbzViUjdmTUlVWGt0U0hGaXVweHZMV2ktQVR4bU9EcGg2N0xZdllkS1BLTHRndWpEREZYX2VNZmdKM01OSGtibk9DOWVmZ3BNRFpnZm1sb1hUdzI0X3ExWHZVcjZWU0t4YW82bFNmakt0OHAyOWg5Uk9uX2s?oc=5",
-      "published": "2026-04-09T21:08:34+00:00",
-      "source": {
-        "name": "El Irreverente Ibagué",
-        "url": "https://elirreverenteibague.com"
+        "name": "La Web de la Salud",
+        "url": "https://lawebdelasalud.com"
       }
     },
     {
@@ -461,6 +461,16 @@
       "source": {
         "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
+      }
+    },
+    {
+      "id": "b8f3f55d8ac7",
+      "title": "Medicamentos en domicilios: el proyecto del Pro para regular el desuso - Editor Mendoza",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVB6WDNfd2hpckRrQWdNUGRLZE9abFQ4RDdEWXdmeGg3LTRxQjJacWFSVTBQMm42aW5fVnVrYWVuMFJZZWxZaFBXMWRlWjdYU0dlQ3NwOHVfQVJGWmRxbTZBMXRJSFd3RUIwaVZOMS00TGJSTVprYU94UnNzUWVxdUQ3UEdHZTl1UDRFZ3l3V1hwSzNrSXAyalhNeUUxbUpqV3M0MnNLdUNPNGhUQnhR?oc=5",
+      "published": "2026-04-10T15:33:00+00:00",
+      "source": {
+        "name": "Editor Mendoza",
+        "url": "https://eleditormendoza.com.ar"
       }
     },
     {
@@ -534,16 +544,6 @@
       }
     },
     {
-      "id": "37a611fb816d",
-      "title": "Sobrecostos en medicamentos, equipos y especialidades médicas en Bogotá, denunció concejal Rubén Torrado - Concejo de Bogotá",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNUFib0ZjclY4SHpVWGJDUGtVU25IY3A5T2g5TlBtMFJHZVdiNkdmMWZvVnFTaDNCYnZEdXNWMDlLclNhNGFzd0d3UFdEd1RjRHAzTzVYZ0M2MndxcmlGWnp5eFl5NE5LQlU3NmNjMElxYllrWnNEbTlzeVdNX1VTQzhldmlYa0t4OHF0SlR1LTktODExUmh2UWxDenRxZ1J3Sktma0lPYjFweUhnbVVRZGpJWm9ZWEgzNE1NUHVaOUhudlhYTXZ2R2UyYw?oc=5",
-      "published": "2026-02-18T08:00:00+00:00",
-      "source": {
-        "name": "Concejo de Bogotá",
-        "url": "https://concejodebogota.gov.co"
-      }
-    },
-    {
       "id": "43cbc9be96b7",
       "title": "Capital Salud transforma la entrega de medicamentos: acceso directo en farmacias Audifarma - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wbVAxdEcyTE9iZzRoYWNXRFBQMzJVX0JoQnQ2X0diT0E2RlRTc283Nl9HbVZxaFZoZ1UyR3drWFIzTno5RVVBdV9NTkxiSzdjSlhiLVJnZ00tMUNja2gyNzAtOTI3ZkRaZHhiNHIzQnk3WGVkVy1vYUVvZW9sN00?oc=5",
@@ -614,13 +614,13 @@
       }
     },
     {
-      "id": "5b38a7078921",
-      "title": "Continúa estrategia de la Gobernación del Valle para agilizar entrega de medicamentos de las EPS - Gobernación del valle",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNb05KelloWE1UbzBEclBEYldJY1lZdU4wR3ZxUkhyeGxxc3pJb2tMTUJkSmJnVGpDSVRBWmxuUEdMZzVGMDdZRzRvczRXZ2Q0N3FwaWFCdUFMcTU3NGwyV0Y3LVNVeDRfbkVXYWFlNnQyMUw0TVhsV1VfWUE1clBpWDctZzRFNXFndnVCek8tNkNkT3NJYlQ2TlRKbWZXdl9aUlBpdEx4V0ZPSUVBYmFYZm51dm80Q1dGOEFGNmhSVmVzNW5KMlh5RHlCcUFFc05qNzc4aE9DV3FtV1RTdl9YMnpFa2E?oc=5",
-      "published": "2025-10-10T07:00:00+00:00",
+      "id": "31f6055b4b77",
+      "title": "Entre el 60% y el 80% de usuarias(os) y pacientes no reciben sus medicamentos en Colombia - Defensoría del Pueblo de Colombia",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcEVSUHpuUjF0UkZZMGNzc3dwVi1TVlBqOFVlclMzVmhTeWtkODdGUWUzdjkxOF82alpNMURabTVpNkZsTy1pQTV4R0VBXzJZYTVOSmlUY3NmajBETzdsa2UwTWh4Sld3a2NLanRiWlBkbzhDaEZMWnV2OWFQa0tneFk4a2hfand3T3dMTUI2eFgtZDFzVE4zNzFuSUxIcHlZdXc3NnV2Tlg3bS1IeGxQQ0I0WGRfQQ?oc=5",
+      "published": "2025-08-13T07:00:00+00:00",
       "source": {
-        "name": "Gobernación del valle",
-        "url": "https://www.valledelcauca.gov.co"
+        "name": "Defensoría del Pueblo de Colombia",
+        "url": "https://www.defensoria.gov.co"
       }
     },
     {
@@ -631,16 +631,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "31f6055b4b77",
-      "title": "Entre el 60% y el 80% de usuarias(os) y pacientes no reciben sus medicamentos en Colombia - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcEVSUHpuUjF0UkZZMGNzc3dwVi1TVlBqOFVlclMzVmhTeWtkODdGUWUzdjkxOF82alpNMURabTVpNkZsTy1pQTV4R0VBXzJZYTVOSmlUY3NmajBETzdsa2UwTWh4Sld3a2NLanRiWlBkbzhDaEZMWnV2OWFQa0tneFk4a2hfand3T3dMTUI2eFgtZDFzVE4zNzFuSUxIcHlZdXc3NnV2Tlg3bS1IeGxQQ0I0WGRfQQ?oc=5",
-      "published": "2025-08-13T07:00:00+00:00",
-      "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
       }
     },
     {
@@ -664,26 +654,6 @@
       }
     },
     {
-      "id": "0faa57d8b244",
-      "title": "Nuevas simulaciones predicen la facilidad de inyectar medicamentos con anticuerpos - consalud.es",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGkyRXJaMkl4ODd1S0hPcXdsUkFXZE1MQm5uNjZFRTZEbjFBXzZjRUpYV1JteXRsZF9KdGFGRWZVeThLM3dwX0xqS2doN3lpc1RTTVBoRUswWmNKaVViTWhGd0pYVGJ6QnFvdEtVWUdJNHpmX0Z3SXkxMEZsdG11MlhWcUlyZmREVjI0enN5eF9iYkgtd3RjN2lNb0FOSmk5U19EejdkcTV2VkNiNmZrZWZQQU5HcTEzVGdKSWtiaUlDME1ZVUx1bF92ank?oc=5",
-      "published": "2026-04-11T05:00:00+00:00",
-      "source": {
-        "name": "consalud.es",
-        "url": "https://www.consalud.es"
-      }
-    },
-    {
-      "id": "ac7a129ada52",
-      "title": "Terapias con suero vitaminado encienden las alarmas en Colombia - Minuto60",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONHJxd1VzLWt6cXJpOGJUdHF3UmJidy1MZWRQTmVydXp4eDJMdkYyeExtRzAtTlEwb0I2b2FudjNtNmZwRjZuRGlBMi1SOEpzSWlLZzFrZDJVZzRlLXlLS0ZLaV9pTWpNLVR4Wnp1WTIwZ2Q1aXp5bVBDY2F0MkFqVW1B?oc=5",
-      "published": "2026-04-10T23:00:31+00:00",
-      "source": {
-        "name": "Minuto60",
-        "url": "https://www.minuto60.com"
-      }
-    },
-    {
       "id": "9ac26a15bfe4",
       "title": "Secretaría de Salud de Boyacá recuerda obligatoriedad de inscripción para el manejo de medicamentos de control especial - Gobernación de Boyacá",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPNnlHZVktYzhNVjJVVm0zUnY0dXFFVnVMcW1ieHdCVUtWcWY0bjNxdnRzSFpBNlh5SmY0VmlLY05oU2dueno0MlB3VFp4VUJUZ0d0Q2hIamVIVjIwcXAxQXRNMlA1Z25GaVlSYU9qZlNpUFBSVy00VWhFaFRmNDlKZWl0dlkzUU95ZktTYnlyUGxiOW0xU183U2ppZmpTTTJkWE5UMmFJYjdUVktucnZGT3JLenFxZTlITVlROWUyTkdURDhtTFd5N01rYmgtNGE0QmVYVWJiZmhsSmhvRHlN?oc=5",
@@ -694,13 +664,23 @@
       }
     },
     {
-      "id": "9f3fe1214ca4",
-      "title": "Ministros de Salud y jefes de gestión de medicamentos: la “herencia” para el próximo Gobierno - Gestión",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMlFEZGQ2Unlqd016ZUFmRVFsZEJfMGJacnUyVXFfR2poT3JIaFRHSzFvd2JPeDM1Mkx1SFFtMFg2cE96eW5WNUkxazVVaEdRZUJFSFhWUWJqNTZRcWJnLVZoaFNaY3NGQ3JtaDhSamMtckctTTlIS3dfV3Q5Qm1hZVpBSGVIOURjNFRqR2F2S05RMU9aTlBnd1IxNnplVjVwNlJZLXpSbVRtbmlhb25SS00zaEFqSURPbW1hQmZtV0tuREw2Vk93QVR2dmF3VGZacjI5NnQzMnI1eWtLRzhDUmdYdV9qRTJE?oc=5",
-      "published": "2026-04-10T23:45:00+00:00",
+      "id": "e09547aca6eb",
+      "title": "Demoras de 79 días en medicamentos para cáncer en la sangre y 500 barreras reportadas por pacientes - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9HeXZZbWdGOG5kTzVuLUJZa182WlpUOUVWS3Z2OE02TnIwaTBibUpZRlVraFhSNnZxaHN1R0RvTEQwODNmeHlNeEloRnQyaXA2YkkwUENHTnpjdnV6Wk5IM0gzVWt5TlBENXIyM2NfMjQ0M3Njd1RTWmtYSQ?oc=5",
+      "published": "2026-02-06T08:00:00+00:00",
       "source": {
-        "name": "Gestión",
-        "url": "https://gestion.pe"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "ac7a129ada52",
+      "title": "Terapias con suero vitaminado encienden las alarmas en Colombia - Minuto60",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONHJxd1VzLWt6cXJpOGJUdHF3UmJidy1MZWRQTmVydXp4eDJMdkYyeExtRzAtTlEwb0I2b2FudjNtNmZwRjZuRGlBMi1SOEpzSWlLZzFrZDJVZzRlLXlLS0ZLaV9pTWpNLVR4Wnp1WTIwZ2Q1aXp5bVBDY2F0MkFqVW1B?oc=5",
+      "published": "2026-04-10T23:00:31+00:00",
+      "source": {
+        "name": "Minuto60",
+        "url": "https://www.minuto60.com"
       }
     },
     {
@@ -721,6 +701,16 @@
       "source": {
         "name": "Defensoría del Pueblo de Colombia",
         "url": "https://www.defensoria.gov.co"
+      }
+    },
+    {
+      "id": "9f3fe1214ca4",
+      "title": "Ministros de Salud y jefes de gestión de medicamentos: la “herencia” para el próximo Gobierno - Gestión",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOMlFEZGQ2Unlqd016ZUFmRVFsZEJfMGJacnUyVXFfR2poT3JIaFRHSzFvd2JPeDM1Mkx1SFFtMFg2cE96eW5WNUkxazVVaEdRZUJFSFhWUWJqNTZRcWJnLVZoaFNaY3NGQ3JtaDhSamMtckctTTlIS3dfV3Q5Qm1hZVpBSGVIOURjNFRqR2F2S05RMU9aTlBnd1IxNnplVjVwNlJZLXpSbVRtbmlhb25SS00zaEFqSURPbW1hQmZtV0tuREw2Vk93QVR2dmF3VGZacjI5NnQzMnI1eWtLRzhDUmdYdV9qRTJE?oc=5",
+      "published": "2026-04-10T23:45:00+00:00",
+      "source": {
+        "name": "Gestión",
+        "url": "https://gestion.pe"
       }
     },
     {
@@ -774,6 +764,16 @@
       }
     },
     {
+      "id": "0faa57d8b244",
+      "title": "Nuevas simulaciones predicen la facilidad de inyectar medicamentos con anticuerpos - consalud.es",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObGkyRXJaMkl4ODd1S0hPcXdsUkFXZE1MQm5uNjZFRTZEbjFBXzZjRUpYV1JteXRsZF9KdGFGRWZVeThLM3dwX0xqS2doN3lpc1RTTVBoRUswWmNKaVViTWhGd0pYVGJ6QnFvdEtVWUdJNHpmX0Z3SXkxMEZsdG11MlhWcUlyZmREVjI0enN5eF9iYkgtd3RjN2lNb0FOSmk5U19EejdkcTV2VkNiNmZrZWZQQU5HcTEzVGdKSWtiaUlDME1ZVUx1bF92ank?oc=5",
+      "published": "2026-04-11T05:00:00+00:00",
+      "source": {
+        "name": "consalud.es",
+        "url": "https://www.consalud.es"
+      }
+    },
+    {
       "id": "fa993120e37d",
       "title": "Berberina: beneficios y mitos del mal llamado “Ozempic natural” - EL PAÍS",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNlVyXy1KRkdUVUs5dHNhQXNNVFJHeUtkLUs4VmxWS2lCX096cWRxZW1yU2dieklWSG1zTHhPa2J1cTlaamZadHRCc0x2QXpEXzRsUmk3RkxuNDNMRmhsUk55OEtnaG9xOHFjb3pSQml5d0NHcV9Wcmp2QllzYloxZDFHREVfbTVUODNEbnhkMF83U0VuWjd1NW1KdUd6SHNxSE12UVdVQWJQN1Foamg4QnNKY9IBxwFBVV95cUxQaTdMSnVrVjZpNG1PTDBwbnQ2eTVFWk9sS2RuZ1Q0OTZ2dVZBb21WQVkxdTRUbnFDVjFqWElKY2FVOXlieGRtVVlLcHRCck0wckJrTGxFT21XTk5MLVJWMXNvMDIxZ3VKUlFYZ1pSUnZJS1Fva3I0U1N1QUhTQW4wTUV4WmNvZUY4S1JUczAwSFd2UHJOVnd6QUxFeGc2a1NXSVFJR016Y2ZLZTNjOGpoT0dzLUVfbzk4VDIzTlBjV3Bxc1R4X3NZ?oc=5",
@@ -784,16 +784,6 @@
       }
     },
     {
-      "id": "5b85c286b402",
-      "title": "La geopolítica de los medicamentos - La Jornada",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUW11Nkl5ckZUXzlnMTRUcnFhbXROZXBWTjE2Tjg0UlFVSmtkZVNLZkp3SW1mOXVMeUZjei1jbnpGb0hWb1pVM1Vja2w5N2QwTlJ3QXphU0NkbHF3bVVHaWpnQk0yS044QUxlUkJOLUJyZDBXb0plb1g5ampmR1ZCS3Y5SWVjaXItdHpqTm1tTktsdw?oc=5",
-      "published": "2026-04-09T06:04:00+00:00",
-      "source": {
-        "name": "La Jornada",
-        "url": "https://www.jornada.com.mx"
-      }
-    },
-    {
       "id": "b014875615a1",
       "title": "Nueva EPS reactiva entrega de medicamentos con Colsubsidio: conoce los 40 puntos habilitados - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ma0czb20wSmJNQ2prU0VBUVR1RWQ3aFR2UTYtaTBoLTNydzBWc3FnVWl0NWlrcTNPdkVNUUYzZGhXRTlJM1pYbWEzMk12X0JHSTc0Y2xLZFhlODNSbGJ2OHFrazhZTWxJcGhpZGh3V1JHNGpDYTRyMlltMA?oc=5",
@@ -801,6 +791,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "5b85c286b402",
+      "title": "La geopolítica de los medicamentos - La Jornada",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUW11Nkl5ckZUXzlnMTRUcnFhbXROZXBWTjE2Tjg0UlFVSmtkZVNLZkp3SW1mOXVMeUZjei1jbnpGb0hWb1pVM1Vja2w5N2QwTlJ3QXphU0NkbHF3bVVHaWpnQk0yS044QUxlUkJOLUJyZDBXb0plb1g5ampmR1ZCS3Y5SWVjaXItdHpqTm1tTktsdw?oc=5",
+      "published": "2026-04-09T06:04:00+00:00",
+      "source": {
+        "name": "La Jornada",
+        "url": "https://www.jornada.com.mx"
       }
     },
     {
@@ -834,16 +834,6 @@
       }
     },
     {
-      "id": "c1ae8552c8e2",
-      "title": "Amazon y Lilly se alían para dispensar la nueva píldora adelgazante en quioscos con entrega el mismo día - Gaceta de salud",
-      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPVGIwamlWekFfZ3M0V2kzTHF3ZUtjV2Zfa1BfNDdjYmVScGYyS01KU1NVVXV4SEMwbDV0eWhCQTVXZEFOLWV1djUyVjJ4WEdEblNUcE92bEQtLS1YaTl6UTZJV2lBZXpMXzZEYVowLXQ4TVBnQnJNdllkWDgyVWxWUi1nOExSUFNxOEo1SHBkZXJXbTJkQU1neDhoTmY3ZEhMYVRNY0hGRHVSSjRFMHQwWGNQUy1xVUhrN2JMX2V4U0VJNFM1ajBJcF9jVUpLR0xKR09Xam1VYUNyVDdCWVpLODYzd3RZQTJ6aTd0Q0M0c2lnUXRiYnBrUXFTQ25Nd0xWdXlMNHdYSFFCSW4ycTgyRnZyMXAyNDE1UVE?oc=5",
-      "published": "2026-04-10T08:19:24+00:00",
-      "source": {
-        "name": "Gaceta de salud",
-        "url": "https://www.gacetadesalud.com"
-      }
-    },
-    {
       "id": "8ee81bd8a484",
       "title": "Capital Salud EPS mejora la entrega de medicamentos con apoyo de COHAN - Bogota.gov.co",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVlNnV2RkVGpEWXYySjNRWEx2R3cxdlJDdGxKaURFU09XLWl5aXZDOUtHQzU0TkhaM05wVGlBNUNIbVZiWWV0UHh4anRDNEUxLURYcnIzSE80UFZ1N0RtbDM1NjFCNVNPQ0pyRk5ORWFhQ0VpckJzWTdCMkFYaUczQThzcHh1ZmxGUDE2eWZZb0ZkcHFONWZhR0tycEEybnI3UHBQeFJDdC1Bdw?oc=5",
@@ -851,6 +841,16 @@
       "source": {
         "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
+      }
+    },
+    {
+      "id": "c1ae8552c8e2",
+      "title": "Amazon y Lilly se alían para dispensar la nueva píldora adelgazante en quioscos con entrega el mismo día - Gaceta de salud",
+      "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPVGIwamlWekFfZ3M0V2kzTHF3ZUtjV2Zfa1BfNDdjYmVScGYyS01KU1NVVXV4SEMwbDV0eWhCQTVXZEFOLWV1djUyVjJ4WEdEblNUcE92bEQtLS1YaTl6UTZJV2lBZXpMXzZEYVowLXQ4TVBnQnJNdllkWDgyVWxWUi1nOExSUFNxOEo1SHBkZXJXbTJkQU1neDhoTmY3ZEhMYVRNY0hGRHVSSjRFMHQwWGNQUy1xVUhrN2JMX2V4U0VJNFM1ajBJcF9jVUpLR0xKR09Xam1VYUNyVDdCWVpLODYzd3RZQTJ6aTd0Q0M0c2lnUXRiYnBrUXFTQ25Nd0xWdXlMNHdYSFFCSW4ycTgyRnZyMXAyNDE1UVE?oc=5",
+      "published": "2026-04-10T08:19:24+00:00",
+      "source": {
+        "name": "Gaceta de salud",
+        "url": "https://www.gacetadesalud.com"
       }
     },
     {
@@ -924,16 +924,6 @@
       }
     },
     {
-      "id": "103bb558e6f8",
-      "title": "El viceministro de Salud: Otra pérdida millonaria por más medicamentos vencidos - Diario La Tribuna Honduras",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkZidVAzaWN3WmRPdXBNUkRjVUF4TXhVemlCUEl1V0ZfSDk0MmRSNjZ6OHdtTTJ0R0x6RDRnYTNEUTJWOTllMnBqMnh0VVdkcUQ2NnhZb1FJQzItT2NvT29KalFLUkdjV2FqUks5dTY2clh3YTVMRVRkbTFQc1dPMjJ0WWJONy1IZzVTQ0Z3MVJpQlg4YUhnVEh0MEVxcTVPel9abHIxckt6QWI3eGVJLUZtbF9qZw?oc=5",
-      "published": "2026-04-11T10:00:55+00:00",
-      "source": {
-        "name": "Diario La Tribuna Honduras",
-        "url": "https://www.latribuna.hn"
-      }
-    },
-    {
       "id": "1b77e91b4078",
       "title": "No hay desabastecimiento generalizado de medicamentos en el país - adres.gov.co",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzVFZzI3RFF0OHBnMzhFSVA5WEU4d2ExX1dhakVXVGxPcVFPc05HYUdCZk16YlBBamRqenM2dEZBUld2ZWF0Qm1JencydFVTMVFGci1hVHJwQ1FrdW42ZVhaUnhpODl6NF9GWXJONUpBVHBQOFpCM0JKMXI4Mnl6LUY2MmtQR0hGOVI2MHYzZDA0SFRKbUg1LThOTDdLVHc4TTA4b0l4VjI1UHEwYzNCSEZqbw?oc=5",
@@ -941,16 +931,6 @@
       "source": {
         "name": "adres.gov.co",
         "url": "https://www.adres.gov.co"
-      }
-    },
-    {
-      "id": "1416ce319f9e",
-      "title": "Gobernación ha recibido más de 1.500 reportes por problemas con entrega de medicamentos de EPS - Gobernación del valle",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM1dPOEw1UjlaRGtBdlktNmlDaTVXNDZKcl9Xc0ZQZFhIMjNqeFpYaVlYUUN2MlNqVGtsdkFLYlY5djltaGpHd0NLUDlBRUdVcjNvWHpWTUhHS2lpUnVjcFpzOW9vQXVTbkgwRk1CN2w1c3lhckpJYVk3LTFKT0JMNHZMX2w2MjBmUkdaLXZIdTZQeUJJR0ZOM1JrSTR3NUR0X2l2UUR6Y09ueXRlZ0kyeGd3ZDN0QlZZcmI1d3Rvc1dFRmJZeUU4RTVaRHM0Z2xETHZ0QU5ab3VMcGNfcE9sQg?oc=5",
-      "published": "2025-07-14T07:00:00+00:00",
-      "source": {
-        "name": "Gobernación del valle",
-        "url": "https://www.valledelcauca.gov.co"
       }
     },
     {
@@ -971,6 +951,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "103bb558e6f8",
+      "title": "El viceministro de Salud: Otra pérdida millonaria por más medicamentos vencidos - Diario La Tribuna Honduras",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSkZidVAzaWN3WmRPdXBNUkRjVUF4TXhVemlCUEl1V0ZfSDk0MmRSNjZ6OHdtTTJ0R0x6RDRnYTNEUTJWOTllMnBqMnh0VVdkcUQ2NnhZb1FJQzItT2NvT29KalFLUkdjV2FqUks5dTY2clh3YTVMRVRkbTFQc1dPMjJ0WWJONy1IZzVTQ0Z3MVJpQlg4YUhnVEh0MEVxcTVPel9abHIxckt6QWI3eGVJLUZtbF9qZw?oc=5",
+      "published": "2026-04-11T10:00:55+00:00",
+      "source": {
+        "name": "Diario La Tribuna Honduras",
+        "url": "https://www.latribuna.hn"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Salud con lupa",
         "url": "https://saludconlupa.com"
+      }
+    },
+    {
+      "id": "2a781c876df9",
+      "title": "Pacientes Colombia advierte que la negociación conjunta de medicamentos no resuelve la escasez de recursos - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MNGNmcDRwT0dwMDB1dGxPS0wyRUdBM3lvSXQ1Q3hOenh1SjJ5MThyckstMU1sdlB6LXhqX3l6MHpmOWZLYW1MLTViSF90Yk5PM0JCYV9FUlVtamV2RmZWZW5TUFVzb2NhUVBQZjZiR25GQUNnN21HWUI5VQ?oc=5",
+      "published": "2025-09-01T07:00:00+00:00",
+      "source": {
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     }
   ]
