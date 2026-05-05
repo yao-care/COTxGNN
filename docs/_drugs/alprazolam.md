@@ -2,7 +2,7 @@
 layout: default
 title: Alprazolam
 parent: 僅模型預測 (L5)
-nav_order: 26
+nav_order: 30
 evidence_level: L5
 indication_count: 3
 ---
