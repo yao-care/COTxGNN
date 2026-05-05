@@ -2,7 +2,7 @@
 layout: default
 title: Leucina
 parent: 僅模型預測 (L5)
-nav_order: 73
+nav_order: 110
 evidence_level: L5
 indication_count: 0
 ---

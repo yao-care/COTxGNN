@@ -2,7 +2,7 @@
 layout: default
 title: Alprostadil
 parent: 僅模型預測 (L5)
-nav_order: 27
+nav_order: 31
 evidence_level: L5
 indication_count: 10
 ---
