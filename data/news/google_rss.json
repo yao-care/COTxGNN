@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-09T15:52:42.377436+00:00",
+  "fetched_at": "2026-05-09T16:55:16.453644+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "ae1a08a95ace",
+      "title": "Crisis de medicamentos en Colombia: acceso limitado y elevado gasto de bolsillo afectan gravemente a los pacientes - Concejo de Bogotá",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZZanhQZFREYm84XzBPdGFPS1ptS05VbHdKSUtnUUR6enN3WElhXzBzdmV5ZlVVc0otR21IWXBaS3BFa0lIbnZSTkIzWXRUcVBNd21IRm5CUWVxX1JrUGdxNVFHU3JldzQ4NDJ4ajU0MEh6RDJkejB5cEpFRUF2UlBzNWNoalp3cDBERUdoVE84cEMyNDdNTkNHdzMySmw0Q0N0TlZ6ZjNyV1hZcjVydm80NjAwRFlsTmJvVTNldWFMTHdsMmNiYWVB?oc=5",
+      "published": "2025-11-27T08:00:00+00:00",
+      "source": {
+        "name": "Concejo de Bogotá",
+        "url": "https://concejodebogota.gov.co"
+      }
+    },
+    {
       "id": "b5c06fc232cd",
       "title": "La clave para revertir el hígado graso inicial de forma definitiva y sin medicamentos - Infobae",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNR2tDTWpXcnA2S2thZUI0MF81bEVITUF1eU9pQnJxbVd1dzd2VFJ6YjAwWXExSlE0cUl6MkNsTC1mRmtWZ0RZOTVWb3ZRNVZ2VlgxUVFVSzRxWm1QQURMdmJRMjA2VE1YUWlUbGpQTFNnRFcxQU1GMFNBV0tST2dBcDN6RmdrZi1RQlpNRmJGM01yODVjUGloc2kwTHRGTWZtUC1YMGJZRDBJTEVzYkdpRTZHQUFCSDRsRmd6cHFtSG1fYTI4YV9j0gHiAUFVX3lxTE9QT0ZjWDNDUEpJQVdCUGM1NHNXWFRtN1lHZzdHTDN6TTlzWDVVT3ZydFhiSG9UbFBkcW9Bc0J0SWVKNVExbmNpV21ud3J1T3gxbVNGVzBDVjI3MmpHTkgzdExHTzNzSi1mbTVuYW9BdGZlWkRCVlFtc1QxZXVYV0lyYnVrQlItZEV0QzVicVZRcFlIYVZzX29zRzdDajk0SDlnQ2k1U3lfZlFnVmJ0d25MMTNSQk1DVHVVVTBscVItenlUaDR6MUZTT2FMYS1oMnY5RnpWTkE2bzdEdG9uWGtsQWc?oc=5",
@@ -191,16 +201,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "9d66b517c4ef",
-      "title": "SuperSalud instaló en Cali una inspección de verificación rápida a gestores farmacéuticos - Caracol Radio",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaWVXU3N3VkpiMkNSVHZTQTZJcU16TDhNRGNaYmRLbE1pbkhkQWdVN3pwTFFVdklCYnFTOGRhZEp0Wk1xbERBQ1lyZ2trT3BLeDNqVUJKUVJhOEV4YnJXTFlBMF9zZDFFcWR4aVZuMFNXcTNEb2V0RTBSTzJ5d0F0cFIwVVMzaTBzWGJITG9QNkVSVnEtMWFvemJMZGRDYzBHdmZoTnJsYnNheUh4T3NiYWlvb1AzS3dhVC0xV2FtSDlBd9IB1gFBVV95cUxPOUdjWWdrUEUwaE1hUmhjYXlQbFlhbkFaZTdidDlXc2VETEh0NTNnZUd3bjdMQlNGaEEyMlBKX3ZQbGtmMU1RQ1U5eUI5RUJoVUZvNHNkNk5paHlwQkl0bDh2N2xEdlRXR1NZNmNaUi13dkxvdHdfc0RCa2pvRzBLWUdhVTRZdDBBRmRnUU5WRVg5emJaTmpCbTBuenE1dDdmSndJWksxMVBxTFFQWTFMS2hrcGtab210bFhCU01xSVhKQ0NuSU1xaEtYeHctbVlOYWJFSHBR?oc=5",
-      "published": "2026-05-07T19:38:56+00:00",
-      "source": {
-        "name": "Caracol Radio",
-        "url": "https://caracol.com.co"
       }
     },
     {
@@ -264,13 +264,13 @@
       }
     },
     {
-      "id": "ae1a08a95ace",
-      "title": "Crisis de medicamentos en Colombia: acceso limitado y elevado gasto de bolsillo afectan gravemente a los pacientes - Concejo de Bogotá",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZZanhQZFREYm84XzBPdGFPS1ptS05VbHdKSUtnUUR6enN3WElhXzBzdmV5ZlVVc0otR21IWXBaS3BFa0lIbnZSTkIzWXRUcVBNd21IRm5CUWVxX1JrUGdxNVFHU3JldzQ4NDJ4ajU0MEh6RDJkejB5cEpFRUF2UlBzNWNoalp3cDBERUdoVE84cEMyNDdNTkNHdzMySmw0Q0N0TlZ6ZjNyV1hZcjVydm80NjAwRFlsTmJvVTNldWFMTHdsMmNiYWVB?oc=5",
-      "published": "2025-11-27T08:00:00+00:00",
+      "id": "f4f10061b76d",
+      "title": "No hay desabastecimiento generalizado de medicamentos para tratamientos de salud mental y antiepilépticos en Colombia - ADRES",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVdqZXFiQ05KNXdoWEg2blpNOXY0VHpDbDJPT3lzOWxyMFNNZmVBX1dudURjRGNlZDF6blVmalROc0F5aFZsSnJzT1Q2VEIyeG5SZENJb2FlNU5CYTFBTTBOVkFWdVk5OWVmWlJxX3ZESGxId21DSHkySVZYQkRuNU1JQzg3OGpnTHd5cFFpT0NoMzl6VkY5ajg2eGZLdnlMVzZxUnJOUERRMURsLW81RUZBakJ6Ym5aSnY0?oc=5",
+      "published": "2026-04-07T19:13:54+00:00",
       "source": {
-        "name": "Concejo de Bogotá",
-        "url": "https://concejodebogota.gov.co"
+        "name": "ADRES",
+        "url": "https://www.adres.gov.co"
       }
     },
     {
@@ -281,16 +281,6 @@
       "source": {
         "name": "Blu Radio",
         "url": "https://www.bluradio.com"
-      }
-    },
-    {
-      "id": "f4f10061b76d",
-      "title": "No hay desabastecimiento generalizado de medicamentos para tratamientos de salud mental y antiepilépticos en Colombia - ADRES",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVdqZXFiQ05KNXdoWEg2blpNOXY0VHpDbDJPT3lzOWxyMFNNZmVBX1dudURjRGNlZDF6blVmalROc0F5aFZsSnJzT1Q2VEIyeG5SZENJb2FlNU5CYTFBTTBOVkFWdVk5OWVmWlJxX3ZESGxId21DSHkySVZYQkRuNU1JQzg3OGpnTHd5cFFpT0NoMzl6VkY5ajg2eGZLdnlMVzZxUnJOUERRMURsLW81RUZBakJ6Ym5aSnY0?oc=5",
-      "published": "2026-04-07T19:13:54+00:00",
-      "source": {
-        "name": "ADRES",
-        "url": "https://www.adres.gov.co"
       }
     },
     {
@@ -374,16 +364,6 @@
       }
     },
     {
-      "id": "6bd38eb11fcd",
-      "title": "Cómo identificar medicamentos falsificados y evitar riesgos - elsalvador.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUo4Q1ByVXd3OTRLRlBOWFl4QWZDdkNwUmQ0b0xYSC1UMkpFNHVpOVBSQjFnblliWU1XWVJEcTh6UTU1THFZYmlaS3dLWFVLZVlvVTFNUWZPNmJmRzZtUExTaEdVcTlRUVpYa19VQ09MSldsVG05N3JqUFVPZWd4c25MdUc?oc=5",
-      "published": "2026-05-09T13:35:29+00:00",
-      "source": {
-        "name": "elsalvador.com",
-        "url": "https://www.elsalvador.com"
-      }
-    },
-    {
       "id": "aee14a4afc7f",
       "title": "Plan de Choque de la Superintendencia de Salud busca garantizar la entrega oportuna de medicamentos en Colombia - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1saWlGelJDdzdGR2taVG9IcXo5ZmdPcllrcUZFY05YbXhFY3lxRE56T2RQUUxRQXE2cGktc3JrY1lYVWFEeFpONzF5eEVRYUtWRWVHVFQtUDVpOERIamp0U0pjb2tsVHh4MnNkaGZUYUNyTWY3WHIyUDZxSQ?oc=5",
@@ -391,6 +371,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "6bd38eb11fcd",
+      "title": "Cómo identificar medicamentos falsificados y evitar riesgos - elsalvador.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMUo4Q1ByVXd3OTRLRlBOWFl4QWZDdkNwUmQ0b0xYSC1UMkpFNHVpOVBSQjFnblliWU1XWVJEcTh6UTU1THFZYmlaS3dLWFVLZVlvVTFNUWZPNmJmRzZtUExTaEdVcTlRUVpYa19VQ09MSldsVG05N3JqUFVPZWd4c25MdUc?oc=5",
+      "published": "2026-05-09T13:35:29+00:00",
+      "source": {
+        "name": "elsalvador.com",
+        "url": "https://www.elsalvador.com"
       }
     },
     {
@@ -414,16 +404,6 @@
       }
     },
     {
-      "id": "4acf3daf6316",
-      "title": "El “food noise”, el hábito negativo relacionado con la comida que eliminan los medicamentos para adelgazar - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2drcE4wbHNaNTFnX0tjeGt2M3BLMUtiUFlrdmh4eDdDaGkxUW9MZ2lrX2d1Z2k2TDJvOGVzZ2N3cE5vaGhFOWl3TWJCN3Z5cEdRLThyUlpxOWdTVHlHQXRJc0xOdHNQVk1pakYwZnlvUXNsSDROaWRJZUx5aVNXME42azM4Tlc3X2ZTWUZzZXpCWDZZR3c?oc=5",
-      "published": "2026-05-09T06:00:00+00:00",
-      "source": {
-        "name": "Yahoo",
-        "url": "https://es-us.noticias.yahoo.com"
-      }
-    },
-    {
       "id": "2b35e46597fc",
       "title": "Nueva regulación del precio máximo de venta de los medicamentos en Colombia (proyecto circular 20 de 2026) - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52OVVxMExlUk9QN210cEt2VngxNjBPVzluelRVdG84R0YwYVhwXzJjTWppRUhuMUdILUZGNjk4cDJ5R0dobFkxc0Fjc2p6WlQxVHdfSlAzVWpwcXB3QkFKNUhpLVV5dWxoYUZGcHktMXM0UWRFcEE?oc=5",
@@ -434,13 +414,13 @@
       }
     },
     {
-      "id": "fb427c3ec512",
-      "title": "Prophamarcy será el nuevo gestor farmacéutico de Nueva EPS para 120 mil usuarios en el Atlántico - ELHERALDO.CO",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZE5iMTdqSE5DUDlqd3hGOVdBNi1kZ3RSS2RlOTVpaGZQeFJVaElsLUdnZzRnYmFMSGpoeDVMZ3U1N1ZOLXN2Yk9yVlJQdkVNT2RMTGlnVmVSTGQ3M1d4bmhfWDdaNHVzNlJ0TGZUUzVZZmxZQTdhNU5sel84OFAtVkF1UFl2U3paUTFuSVVtYU1vYUZJQVFmX1c4Mm5WXzJkN3kyd2RYY0RWOUtaUkdxM2ZwXzZqSy0xNkhIQ05kNnh6OXhMdkZIc2tSYWFRUmhRSkVQMC1TYlFseWvSAfYBQVVfeXFMTjRUbDBCUnhmNzA3NWRNazRwTDJvQkp6RFFUbzg0QXFQMkQyR0E5Q2p0SWRnR1NGUVVoZzBmVGp4RHJWZEg1OVV0TDZfMEd4cV9EaVh3VXRRb1NKTWRnNUN3MlVUb2lQYkpLT3ZNQWxsOHF0NjVnSjNKcy1JcGszRkZhb0YzUDQxc3hKOFRNYzdYdEtjelVmS1R6S1p0a0trejZITTVfY0pBekY3a2lJOG1TQVAtb3dIMnNEX0d2NnVhQnVLYUREa2s1eUU2UWJ5ZUNEVWtpRGZMeFZUend2MVY0SUgzSHBJNjlGTDFONWFZYlowbEZ3?oc=5",
-      "published": "2026-05-08T17:31:03+00:00",
+      "id": "4acf3daf6316",
+      "title": "El “food noise”, el hábito negativo relacionado con la comida que eliminan los medicamentos para adelgazar - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2drcE4wbHNaNTFnX0tjeGt2M3BLMUtiUFlrdmh4eDdDaGkxUW9MZ2lrX2d1Z2k2TDJvOGVzZ2N3cE5vaGhFOWl3TWJCN3Z5cEdRLThyUlpxOWdTVHlHQXRJc0xOdHNQVk1pakYwZnlvUXNsSDROaWRJZUx5aVNXME42azM4Tlc3X2ZTWUZzZXpCWDZZR3c?oc=5",
+      "published": "2026-05-09T06:00:00+00:00",
       "source": {
-        "name": "ELHERALDO.CO",
-        "url": "https://www.elheraldo.co"
+        "name": "Yahoo",
+        "url": "https://es-us.noticias.yahoo.com"
       }
     },
     {
@@ -471,6 +451,26 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "97e646fa2710",
+      "title": "Las \"trabas\" ocultas a los genéricos de Ozempic en Chile: cuestionan criterios del ISP - BioBioChile",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPR0tIWnV6R1JtSVNqcFdoVHQtVFdfWlJZQWpmT0d4WHBrX1pYRGY2WmZhUXFIQldPVGhyQU1WM3RKaEJvaXl0Tm5aNmZsQkJGQ2E4dkMwVkZDTWZQRDlnTzZwVXQ1eXdxYkswNEtYQXJXZDRheHhGeUZiZm5GQTB2RVp1ZHNodmxFeFdHbVNURGR3Zl9HYVZkYml2S0ZJQTBOR3Q0bDJ4Q0U2YklUVUdldUpyM1NvMjI2eHRUY1h6QklPR3BxVFBybUxWc3VWZzhRLXRZREtWeFg1Rm1BTHRMaXUwZFp6REdBVHVVT2xrWDcwSThKMGZnRV9Nbw?oc=5",
+      "published": "2026-05-09T14:45:27+00:00",
+      "source": {
+        "name": "BioBioChile",
+        "url": "https://www.biobiochile.cl"
+      }
+    },
+    {
+      "id": "fb427c3ec512",
+      "title": "Prophamarcy será el nuevo gestor farmacéutico de Nueva EPS para 120 mil usuarios en el Atlántico - ELHERALDO.CO",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZE5iMTdqSE5DUDlqd3hGOVdBNi1kZ3RSS2RlOTVpaGZQeFJVaElsLUdnZzRnYmFMSGpoeDVMZ3U1N1ZOLXN2Yk9yVlJQdkVNT2RMTGlnVmVSTGQ3M1d4bmhfWDdaNHVzNlJ0TGZUUzVZZmxZQTdhNU5sel84OFAtVkF1UFl2U3paUTFuSVVtYU1vYUZJQVFmX1c4Mm5WXzJkN3kyd2RYY0RWOUtaUkdxM2ZwXzZqSy0xNkhIQ05kNnh6OXhMdkZIc2tSYWFRUmhRSkVQMC1TYlFseWvSAfYBQVVfeXFMTjRUbDBCUnhmNzA3NWRNazRwTDJvQkp6RFFUbzg0QXFQMkQyR0E5Q2p0SWRnR1NGUVVoZzBmVGp4RHJWZEg1OVV0TDZfMEd4cV9EaVh3VXRRb1NKTWRnNUN3MlVUb2lQYkpLT3ZNQWxsOHF0NjVnSjNKcy1JcGszRkZhb0YzUDQxc3hKOFRNYzdYdEtjelVmS1R6S1p0a0trejZITTVfY0pBekY3a2lJOG1TQVAtb3dIMnNEX0d2NnVhQnVLYUREa2s1eUU2UWJ5ZUNEVWtpRGZMeFZUend2MVY0SUgzSHBJNjlGTDFONWFZYlowbEZ3?oc=5",
+      "published": "2026-05-08T17:31:03+00:00",
+      "source": {
+        "name": "ELHERALDO.CO",
+        "url": "https://www.elheraldo.co"
       }
     },
     {
@@ -531,16 +531,6 @@
       "source": {
         "name": "Universidad de Antioquia",
         "url": "https://www.udea.edu.co"
-      }
-    },
-    {
-      "id": "97e646fa2710",
-      "title": "Las \"trabas\" ocultas a los genéricos de Ozempic en Chile: cuestionan criterios del ISP - BioBioChile",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPR0tIWnV6R1JtSVNqcFdoVHQtVFdfWlJZQWpmT0d4WHBrX1pYRGY2WmZhUXFIQldPVGhyQU1WM3RKaEJvaXl0Tm5aNmZsQkJGQ2E4dkMwVkZDTWZQRDlnTzZwVXQ1eXdxYkswNEtYQXJXZDRheHhGeUZiZm5GQTB2RVp1ZHNodmxFeFdHbVNURGR3Zl9HYVZkYml2S0ZJQTBOR3Q0bDJ4Q0U2YklUVUdldUpyM1NvMjI2eHRUY1h6QklPR3BxVFBybUxWc3VWZzhRLXRZREtWeFg1Rm1BTHRMaXUwZFp6REdBVHVVT2xrWDcwSThKMGZnRV9Nbw?oc=5",
-      "published": "2026-05-09T14:45:27+00:00",
-      "source": {
-        "name": "BioBioChile",
-        "url": "https://www.biobiochile.cl"
       }
     },
     {
@@ -864,16 +854,6 @@
       }
     },
     {
-      "id": "61a0d0e5f730",
-      "title": "Cerca de la mitad de los usuarios puede confundir los medicamentos por culpa del diseño similar de su caja - novaciencia.es",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX2xOaGFlQTNELWdUenhxWndlTXBSSXhETlU5bW5rcWV6Rnp1RnNtRVdKRGlqMEJyd0JNeTRiYXZ4aXVuanh6am5tYTZELUR5bXdzUk1kTjZrU083U1FPS1dlVEZ3Ymw1UUd2bGxaUkFjdnNXa3JNejF3c1E0WURMV0JCb2NRZGp4dFhsWVlvQS1tWUxxNlAtSXJDYW1UTFdEZFRBV0ptc0lzZzF1bG1DWkpXR01zUDdoa2NCSHVaeXd6YWN4QnprT0lB?oc=5",
-      "published": "2026-05-07T10:21:47+00:00",
-      "source": {
-        "name": "novaciencia.es",
-        "url": "https://novaciencia.es"
-      }
-    },
-    {
       "id": "dddf8503aa3c",
       "title": "Pliegos y condiciones de la negociación conjunta de medicamentos y tecnologías en salud: análisis de coyuntura - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMXg3YUV4d2lTckJid2FoU19IUFlST1dzVllFTE90aUZqb2dDY1QwdE40Z3dXTjVMWVIyaFpoMjNzTDZQcnhwdGJ0OHBGY2VEU0lUT0liak1WZmpDMXM0UUk1aGtKbnlLak16Vk1TNGhkNURRM21CdTBDSDltRVdwcA?oc=5",
@@ -881,6 +861,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "61a0d0e5f730",
+      "title": "Cerca de la mitad de los usuarios puede confundir los medicamentos por culpa del diseño similar de su caja - novaciencia.es",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX2xOaGFlQTNELWdUenhxWndlTXBSSXhETlU5bW5rcWV6Rnp1RnNtRVdKRGlqMEJyd0JNeTRiYXZ4aXVuanh6am5tYTZELUR5bXdzUk1kTjZrU083U1FPS1dlVEZ3Ymw1UUd2bGxaUkFjdnNXa3JNejF3c1E0WURMV0JCb2NRZGp4dFhsWVlvQS1tWUxxNlAtSXJDYW1UTFdEZFRBV0ptc0lzZzF1bG1DWkpXR01zUDdoa2NCSHVaeXd6YWN4QnprT0lB?oc=5",
+      "published": "2026-05-07T10:21:47+00:00",
+      "source": {
+        "name": "novaciencia.es",
+        "url": "https://novaciencia.es"
       }
     },
     {
@@ -914,33 +904,13 @@
       }
     },
     {
-      "id": "492506536db8",
-      "title": "El Gobierno busca que sólo médicos especialistas puedan recetar medicamentos para cada patología - La Voz del Interior",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbWVQNHJHRTVPU2tFUkNFbTJmRkI1dnZvSXJGbDcycmpzUGxsRWl4aElMNjMyU19aRENUbllKd0l0WmJ2QzU1NHB4V3VYajE0YVJtSkszZXB6UmNqY2czSXhfLV9yZWk2M3B6ejdrWlZlWkNfLXFOcHo3NUVacmw5cnNOQmg4cGhVY2ZYbmlneDdRZjZ6QzdteVVtNVlmcXNYcHIzVkpmdFFBSFl2SU5hNlVhS2ZRZVZIbkpsVjN2R3hjOXFuWGsxQnVySjVodw?oc=5",
-      "published": "2026-05-08T19:57:01+00:00",
+      "id": "56594df1b8b1",
+      "title": "No hay desabastecimiento generalizado de medicamentos en el país - ADRES",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzVFZzI3RFF0OHBnMzhFSVA5WEU4d2ExX1dhakVXVGxPcVFPc05HYUdCZk16YlBBamRqenM2dEZBUld2ZWF0Qm1JencydFVTMVFGci1hVHJwQ1FrdW42ZVhaUnhpODl6NF9GWXJONUpBVHBQOFpCM0JKMXI4Mnl6LUY2MmtQR0hGOVI2MHYzZDA0SFRKbUg1LThOTDdLVHc4TTA4b0l4VjI1UHEwYzNCSEZqbw?oc=5",
+      "published": "2025-10-01T07:00:00+00:00",
       "source": {
-        "name": "La Voz del Interior",
-        "url": "https://www.lavoz.com.ar"
-      }
-    },
-    {
-      "id": "e048d43fb301",
-      "title": "Experto alerta sobre riesgo mortal del fentanilo tras venta ilegal en feria libre - El Mostrador",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbnJGdTJJN3pHVTZHRDIyVV9Bbk9TaEVhUEd5ZlhmOGlVWkJuanJBWVg0dEEzZlBNa2RvOFNmc1h3emM4S3dSc3FyQ25sSjRQVHBqVFMta01BQk9qOXp4eEdBcDRQZ0c2YTNTZDFNdHo3R0VOS245eEpmYzJaUy1DODVJYVZYUWZsYzYweTN6MkNkNklvNmIwYVdraUJPRzlvUWhOVTNZYTdqbkhHT3RpTWliQ2tOSFBXRHdzeW9LLWhRQWVrd0ZkOXpxQ2J2UHpyaFIwQnY1c0w1YVNxV1dz?oc=5",
-      "published": "2026-05-09T09:13:02+00:00",
-      "source": {
-        "name": "El Mostrador",
-        "url": "https://www.elmostrador.cl"
-      }
-    },
-    {
-      "id": "0cc3a4dbb1ba",
-      "title": "El Ministerio de Salud de Gaza: La vida de los pacientes con talasemia corre peligro por la escasez de medicamentos especializados - saba.ye",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IeHdWazMyZEJSU0hFaTFvZklEYXRrOXJsX2pxZU4tVWlwWTBydFhmM0VGbUJ2X3VwRzI5T1QzZWhlMWJ2dnFZSXBneDMyeXc?oc=5",
-      "published": "2026-05-09T08:33:59+00:00",
-      "source": {
-        "name": "saba.ye",
-        "url": "https://www.saba.ye"
+        "name": "ADRES",
+        "url": "https://www.adres.gov.co"
       }
     },
     {
@@ -954,13 +924,13 @@
       }
     },
     {
-      "id": "56594df1b8b1",
-      "title": "No hay desabastecimiento generalizado de medicamentos en el país - ADRES",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZzVFZzI3RFF0OHBnMzhFSVA5WEU4d2ExX1dhakVXVGxPcVFPc05HYUdCZk16YlBBamRqenM2dEZBUld2ZWF0Qm1JencydFVTMVFGci1hVHJwQ1FrdW42ZVhaUnhpODl6NF9GWXJONUpBVHBQOFpCM0JKMXI4Mnl6LUY2MmtQR0hGOVI2MHYzZDA0SFRKbUg1LThOTDdLVHc4TTA4b0l4VjI1UHEwYzNCSEZqbw?oc=5",
-      "published": "2025-10-01T07:00:00+00:00",
+      "id": "e048d43fb301",
+      "title": "Experto alerta sobre riesgo mortal del fentanilo tras venta ilegal en feria libre - El Mostrador",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbnJGdTJJN3pHVTZHRDIyVV9Bbk9TaEVhUEd5ZlhmOGlVWkJuanJBWVg0dEEzZlBNa2RvOFNmc1h3emM4S3dSc3FyQ25sSjRQVHBqVFMta01BQk9qOXp4eEdBcDRQZ0c2YTNTZDFNdHo3R0VOS245eEpmYzJaUy1DODVJYVZYUWZsYzYweTN6MkNkNklvNmIwYVdraUJPRzlvUWhOVTNZYTdqbkhHT3RpTWliQ2tOSFBXRHdzeW9LLWhRQWVrd0ZkOXpxQ2J2UHpyaFIwQnY1c0w1YVNxV1dz?oc=5",
+      "published": "2026-05-09T09:13:02+00:00",
       "source": {
-        "name": "ADRES",
-        "url": "https://www.adres.gov.co"
+        "name": "El Mostrador",
+        "url": "https://www.elmostrador.cl"
       }
     },
     {
@@ -968,6 +938,36 @@
       "title": "Inició la negociación conjunta de medicamentos en las 9 EPS intervenidas – Preoferta hasta el 25 de agosto - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBPT0hjd3c3UkpVV0dLSkZkZUVuRzVQTmpqbmtPVkdjZ1NWcXlUZDJKX2VzUC1fTzd3Nmpja1loRVBueTB3WjlydlluNjlubjZtLU5UbDdGVVRaX0h6WGJJdHpOMHBtWUZvX3FaZjhUelFwUQ?oc=5",
       "published": "2025-08-15T07:00:00+00:00",
+      "source": {
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "0cc3a4dbb1ba",
+      "title": "El Ministerio de Salud de Gaza: La vida de los pacientes con talasemia corre peligro por la escasez de medicamentos especializados - saba.ye",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IeHdWazMyZEJSU0hFaTFvZklEYXRrOXJsX2pxZU4tVWlwWTBydFhmM0VGbUJ2X3VwRzI5T1QzZWhlMWJ2dnFZSXBneDMyeXc?oc=5",
+      "published": "2026-05-09T08:33:59+00:00",
+      "source": {
+        "name": "saba.ye",
+        "url": "https://www.saba.ye"
+      }
+    },
+    {
+      "id": "492506536db8",
+      "title": "El Gobierno busca que sólo médicos especialistas puedan recetar medicamentos para cada patología - La Voz del Interior",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbWVQNHJHRTVPU2tFUkNFbTJmRkI1dnZvSXJGbDcycmpzUGxsRWl4aElMNjMyU19aRENUbllKd0l0WmJ2QzU1NHB4V3VYajE0YVJtSkszZXB6UmNqY2czSXhfLV9yZWk2M3B6ejdrWlZlWkNfLXFOcHo3NUVacmw5cnNOQmg4cGhVY2ZYbmlneDdRZjZ6QzdteVVtNVlmcXNYcHIzVkpmdFFBSFl2SU5hNlVhS2ZRZVZIbkpsVjN2R3hjOXFuWGsxQnVySjVodw?oc=5",
+      "published": "2026-05-08T19:57:01+00:00",
+      "source": {
+        "name": "La Voz del Interior",
+        "url": "https://www.lavoz.com.ar"
+      }
+    },
+    {
+      "id": "aa754e83dd72",
+      "title": "Ministerio de Salud lanza el Modelo de Tiempos de Espera: así se controlarán las demoras en citas, tratamientos y medicamentos - Resolución 2117 de 2025 - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aQmpoS0RzX1ZkazhraldRelk3MUx1ZHAzLTRpazM0am9VejBVTzd2YjItZXkwdDlTc2VMWThMa2Y4bnV5Y3B3WjY4blJQR2lidmoxQWk2el9pTXE5U0RmeG5jVE0ydFdsNGN1b1lqdlFoQ0NfbFRJbw?oc=5",
+      "published": "2025-10-17T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -984,16 +984,6 @@
       }
     },
     {
-      "id": "aa754e83dd72",
-      "title": "Ministerio de Salud lanza el Modelo de Tiempos de Espera: así se controlarán las demoras en citas, tratamientos y medicamentos - Resolución 2117 de 2025 - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aQmpoS0RzX1ZkazhraldRelk3MUx1ZHAzLTRpazM0am9VejBVTzd2YjItZXkwdDlTc2VMWThMa2Y4bnV5Y3B3WjY4blJQR2lidmoxQWk2el9pTXE5U0RmeG5jVE0ydFdsNGN1b1lqdlFoQ0NfbFRJbw?oc=5",
-      "published": "2025-10-17T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
       "id": "00db67d2da6a",
       "title": "Gobernación recibe alrededor de 700 quejas diarias por retrasos con medicamentos, busca solución a dificultades con las EPS - Gobernación del valle",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNYzB3OUM0OE1BX2s4SEdjV3NjbjJjWGw3LUF0RTlWWTZyNmo4akRzSXVZRldOVW1ZZWdwUlNDeHBKX1VEVmx0UG5XZkxUMnhYVjlaQnhzUllrZUZrSjNwMzJqc0xNQ2x2dlYwTlRWc2VPOGxNbTdGTk9yRWRLOVpIa3dEVk16OS04MkJpcjNJOGdVUktJQkVIUGluMlNYaEFFeW5PNkIyWE5sNUYyel9fWXhidmE3MG5GRlZabDZHNzlhVnRKMDZmQkJoZTQ2cUk?oc=5",
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Gobernación del valle",
         "url": "https://www.valledelcauca.gov.co"
+      }
+    },
+    {
+      "id": "3c95f4885976",
+      "title": "Secretaría de Salud del Tolima expresa preocupación por incumplimientos de la Nueva EPS en la entrega de medicamentos - Gobernación del Tolima",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPT2FCNXd6d01mUjlMRGdkNEdram5mNnMwMnJvX1hKWGt1NHhrOFpFcFZtRzNDdG16NkNtam9nd25SR2hmSXQ1Wk9tcURaV3l0VDFRUUtaQnBkRTFoa0Ztcml6ak50czZ4c1hTMlJTR0hYSUVYVTVJQThEbV9XWk13RnM3QWlQdExkTkZUVWZhUXpGUGV5aGFSZEdVYVctSlVJeTd5X3NsMGh0b0xORHFQWExTOFhlUWdmbFRHc3U0bFdHQkVzWC1HVWN1SWZUNUt6VjdDSnJIU1ZGWXk5M25FY1R5a21DX0lh?oc=5",
+      "published": "2026-01-19T08:00:00+00:00",
+      "source": {
+        "name": "Gobernación del Tolima",
+        "url": "https://tolima.gov.co"
       }
     }
   ]
