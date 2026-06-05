@@ -2,7 +2,7 @@
 layout: default
 title: Golimumab
 parent: 僅模型預測 (L5)
-nav_order: 87
+nav_order: 130
 evidence_level: L5
 indication_count: 5
 ---

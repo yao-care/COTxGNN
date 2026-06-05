@@ -2,7 +2,7 @@
 layout: default
 title: Lamivudina
 parent: 僅模型預測 (L5)
-nav_order: 100
+nav_order: 145
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Latanoprost
 parent: 僅模型預測 (L5)
-nav_order: 104
+nav_order: 149
 evidence_level: L5
 indication_count: 10
 ---
