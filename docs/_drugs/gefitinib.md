@@ -2,7 +2,7 @@
 layout: default
 title: Gefitinib
 parent: 僅模型預測 (L5)
-nav_order: 84
+nav_order: 127
 evidence_level: L5
 indication_count: 10
 ---

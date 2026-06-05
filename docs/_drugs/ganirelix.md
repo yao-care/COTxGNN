@@ -2,7 +2,7 @@
 layout: default
 title: Ganirelix
 parent: 僅模型預測 (L5)
-nav_order: 83
+nav_order: 126
 evidence_level: L5
 indication_count: 10
 ---

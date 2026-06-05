@@ -2,7 +2,7 @@
 layout: default
 title: Interferon Beta-1B
 parent: 僅模型預測 (L5)
-nav_order: 93
+nav_order: 136
 evidence_level: L5
 indication_count: 2
 ---

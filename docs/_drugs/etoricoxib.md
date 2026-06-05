@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: 僅模型預測 (L5)
-nav_order: 74
+nav_order: 117
 evidence_level: L5
 indication_count: 10
 ---
