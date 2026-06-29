@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-29T16:52:08.455203+00:00",
+  "fetched_at": "2026-06-29T19:03:48.101648+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -14,6 +14,16 @@
       }
     },
     {
+      "id": "de7b4fe05caa",
+      "title": "Medicare comenzará a cubrir medicamentos para la pérdida de peso el 1 de julio. Esto es lo que necesitas saber - CNN en Español",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbGFuWWZKaGhLMXlCelItbVZnNWhGalFKajk1UWU0NFdpY0xvT3lGRnl4STBUaDc5elFZaUxKdk56VjlOMlRQMzRzUDhkQzZYWGNWOWlKdGhyZmpqNFRWV1hUb3BqMnItYnR4dEFKRDdTY3AwZEU4LTR4VUx5VEJCNVpyYms0LTM1U1R1Vzc4Vm9sS1UxT0E?oc=5",
+      "published": "2026-06-29T17:33:00+00:00",
+      "source": {
+        "name": "CNN en Español",
+        "url": "https://cnnespanol.cnn.com"
+      }
+    },
+    {
       "id": "b28290e083d7",
       "title": "Las claves de la integración de la farmacia hospitalaria en la atención a la salud mental - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV2l4X01vS0d4dFpKT1NGX3M4XzdYT1MwTExJblU4QnYtX3lPQXNBcURONjlpTzVtZ1lwbEp0Q0ZISmtOby1qaDhQbnZPZU1yckhUV1FyR0lDQlpzcnpfVVVTdVdNY1pMeS01ZjE2WmpKMWg5QnJDQUI1TW9BYnYwMnVGNndDdGxDVjJWNzRFTzdFZzBsaEFqdEwzeUp3aE0?oc=5",
@@ -21,6 +31,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "c30268d84c84",
+      "title": "Noticias sobre salud y medicamentos en Comunicar Salud - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOGN6VlZFLURnTTZXME5JeldrRWhfSkN4SzBZMkotUEVrVVczUEtEOGNWeDFtUWhfNW9CdGo2ZkNwdkxFYWdHdENKamhxMFJWQ2FXbDB4b0hLai1pT2R2OTU2NmZpRmtKQm1fMUducU5zMjQ5OFUybGlZV1JHMHlHWmRSZDFyUFpKNDdB?oc=5",
+      "published": "2026-06-29T18:09:45+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -34,13 +54,13 @@
       }
     },
     {
-      "id": "3f7cacc683b5",
-      "title": "Red Argentina de Centros de Información de Medicamentos - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LRllaeG5tSUp0MzhVNktOQ016VVc2R1hveVYyb3BkV2wxaWdhZXRleVJvcWNZeXd3Z2pkbmFPTndFQ0RpcW1LeXo4aHVPcC1rRkxn?oc=5",
-      "published": "2026-06-29T15:48:32+00:00",
+      "id": "de21d0fc8cc7",
+      "title": "AAJM tacha de \"lamentable\" la enmienda para garantizar el secreto de los acuerdos sobre precios de medicamentos - Infosalus",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOVp3NFpYSUtIVWtkM3Yxb20wM2hDNXZ2UFY0c1VqUjFURXpCdVV6QTVJb0ZlR2g5djZiV1NuVGdzTHRjczNDNGJlNm9JSm5McXV1TmM3TEh3MWJKVWNqVUpmTFVlQWE3NHhhY2haZ3RlYmd2N1haYjlWVzVxUlV2WlR6U2ZOclVvYVVmSktqRzV0SlBLMGR1NGxnMVQtb2RfQ0lqcmRfSDBEWl8zWEliSlJMSVVLbGZpcTBoRXNlMjBVdU5oZ3ZXTS1nWVBpVzVZbGtXSWNNZWpZd0g4?oc=5",
+      "published": "2026-06-29T16:43:51+00:00",
       "source": {
-        "name": "Universidad Nacional de Córdoba",
-        "url": "https://cime.fcq.unc.edu.ar"
+        "name": "Infosalus",
+        "url": "https://www.infosalus.com"
       }
     },
     {
@@ -54,13 +74,143 @@
       }
     },
     {
-      "id": "7d88c5074099",
-      "title": "La institución explicó que se desconoce la composición, la fabricación, la trazabilidad y las condiciones de transporte y almacenamiento del producto en cápsulas, lo que podría afectar a quienes lo consumen - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNOTU0SkhsYlVGekFDUlE5Ti1nVzZpOFRnTDQ0dngxTkZEdXZmZTQ0TG92bWhSUUVyOTZ1UzJWQTI0SHBVdmZWdzZDNU1qd0JtbUkyX3p1dXNBMHlnMS1pU0F6ODUzWTlwMENDMHg4cDdXX2UxS1IyN1pxdlV1amNLOWFPTFBtV1I3RmRUS041SzhnWU5KVThlSnJEdFFPLThIX3FOaUJVeFB2REkxUkpqQ01sZ21vckYyNnA4ODA2OWxReXlKR3oyb3BLT1A4TWl2eU42T2lJck11MzdIZTFNVmtfei1tYlJQNlZPRUxPc2VEZnotQjJQTw?oc=5",
-      "published": "2026-06-29T16:13:03+00:00",
+      "id": "805f3e31f1a5",
+      "title": "Padilla responde a Podemos sobre la confidencialidad en el precio de los medicamentos: \"Trump ha cambiado el panorama\" - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJvYmZMbUZwVFJScG9ZSXJwYjNnWTl4akRxeDZGSnZaM19ET0lZM3JIUEdrYkczbWU5RkwzaDI4VnBoMjBIaEJ6OVY5Z2ZxZWdza0tUb0RieG5VT1RmSDh1aU5teFVmZ1BpTmJNRHBMZEsteVRmaWhIRWFzamFnZ3pRYkdyeHhTT2lyNHh0Qmk2dnpIQWt0SWpfbVpzZw?oc=5",
+      "published": "2026-06-29T10:44:39+00:00",
       "source": {
-        "name": "facebook.com",
-        "url": "https://www.facebook.com"
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "f13b109476f7",
+      "title": "Farmacovigilancia y COVID-19. - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43QUd6Y0JyejJtY2pTOHBQLXYxb3VkZTh3QkVvem5WclhaaG5NMldJTTFPZTVHSlo3OC1tMFR1N0RYOUpfMTdqcWJZNUllT2NWeEtuTHlBSzN5Q3BscVczNTc0ai1FTGlJ?oc=5",
+      "published": "2026-06-29T18:05:34+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "da54d57eca8f",
+      "title": "Nuevo coronavirus COVID-19: Información oficial del Ministerio de Salud de la Nación - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM3ZjTUxkY1JXNzN0YThvWGhBUXhsX3FES285Um5iVzJxSmM1c0RlTVYzbUdvdkttQVl5NzhKQU93ZThhSTViSjZGT3ZoMXJJXzh2M0RqTlNXdEZxSGtYV3pxN25pNDFvWjRjLXRRNzViaHIxSXN5YW9ETEFzV0NnMkZLc1RURmNqWGdJTTVTQUhXUVRxMmNyN2ZBZVV3NDFMQmZFT1cyNXBiaXlaTXpxbVFLYUZfMGRmM2xEaE9XMUc2SGx6X0FIdV9HZTJzVW1wcWphRmZUM0tnYURX?oc=5",
+      "published": "2026-06-29T18:16:15+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "53c5b79b2ffa",
+      "title": "Las ventas mundiales de medicamentos crecerán más de un 7% anual hasta 2032 - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWl94NUdBcVJEdlNPRFlhMjRsOWM3ZUN5SGROOE0yZXJPalZGSGtWRGpiZlRwSmpOeDRLQTYtem1oM0pWVXRSWG1nT3k5dy1WWmlzdFVsaGxGX3g5WE1QQUY3NzY4RVN3bWx2X2FyQURLNHpORkpuWkJWUkpzdUZTQVpZdlRUZWlOcVNr?oc=5",
+      "published": "2026-06-29T06:27:19+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "3ffaa8c7b8b7",
+      "title": "COVID-19: Materiales de comunicación OPS - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE55MkJvZFZPQVJINnVYNWFZNUtwc00xZkNUazZGbHVxSm9MOXh2WkFhSmp5T1dTOVNiT3JOWFVMRlJ3R3MxVklBX0Y2Z3E4VzdHRWRHZzB2RVd1S2xORE5RY28zWWZUMDBlOGRzMlFaSzFUZXliZDh3?oc=5",
+      "published": "2026-06-29T17:55:05+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "a7801147485f",
+      "title": "Informe sobre medicamentos “off-label” en pediatría - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ0FDaWN6dVhfX1AxNXhtUnk5ZUd3bzVTVXc5SUtVWjM0R21PQUUtUXdCblhmMzFrN3R4djlaaU1Ub1ZFUXRpT3hnYzZUajBzaEthdy1QLTEwWU80MmVnVDVuTjFmNi1OR0dscE5sN0xNU0tJZllqWDJFbzBpRktid1B3TFc?oc=5",
+      "published": "2026-06-29T18:08:25+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "ec689f99dfc8",
+      "title": "RACIM: Ficha técnica de Vitamina C - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5udGlOX0JuS0EyTnJucklId0JQeUg2enVFNmpad1gwZ1I2NFBpU1NUR2pWeG1MMVZsSEVndERoeTZzQk4zVkNOV0MzU19YaV9jQXNUeFAtODlnOEdUVHVfSDV3al83TGlkOUp1ZEp3OA?oc=5",
+      "published": "2026-06-29T18:10:56+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "f6a34f32f1c2",
+      "title": "Manual para el Desarrollo y Funcionamiento de Centros de Información de Medicamentos - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ3BPNmJUcVh2QlRjS2ZtTEUtb1JqQ1lIWjhyVzVSTFJQMFA3YTB2WGVTR1dBN1VmSnpsVGJQaER4R1h6Z3l5ZUFrT3h5alFXWDNGM2hweE44YU9FVlM2d1drUlJ2N0pRVDBISGhoS0hUV0hBdGZLVTVwbGdnR3BDTDZlWXhQU1ozRWNGWEFDdWVSNG1wdVZHNWJZcTdKR3FHQUI3aGFGY1dENzU1QlFvVHBhYw?oc=5",
+      "published": "2026-06-29T18:14:54+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "6b3054fb273a",
+      "title": "Día de la Salud Universal 2025: 12 de diciembre - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTU93QTFDV1I2ZFBmcDMwSno1Rkw1LXp6Z1c5aHIzVUdJVFlRb3ZiR0EyLVNwM21OLUh1MXhjM2FLdVlWdG0zdGxCamcydFpGbEFqQW0zMkhwZUdPckZzTFYtYjdhU19rVDl0UldVdjEzQzM0ZldMSzY2TmFTVFBCZg?oc=5",
+      "published": "2026-06-29T18:07:51+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "f7c0bf412c1d",
+      "title": "Boletines Salud y Fármacos (mayo 2026, cuarta entrega) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSnpYb29hVXlJOS03cFpKTTdXZWg3MkhRMmJjV1lGRVBtNkt1azZHM3hYdTItSUtWOHhCYVdHNzNIdmlhT2tKb0l1UXFDYWRyOFZMNGFBTHJSQy11YjR0eXhEMjdfX0VGZ1JaVWVuUkdvV01xWkpCam9oZXZIVEwxbDkyVTh4Y00?oc=5",
+      "published": "2026-06-29T18:08:40+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "f3497e9011f5",
+      "title": "RACIM hace un llamado al uso racional de medicamentos - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQekxKa0N2M3RFSUJyQWh4ODA5ODlNZ09MSXpQTkxUTk5hOElGTVo2ZXhGWUcyeXJxTWRsQnVqZERieDlzODd4d1NYY0o4X2lTZDdzYkFjX2JBWGtxVXlSOG9wQ1pubnhHbXVSd3ZsLXY3UklqbFVJYlBkMFZyUGRWdnBOQlFqTi1BbEE?oc=5",
+      "published": "2026-06-29T18:12:06+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "32cab63160a2",
+      "title": "Vacunación con Moderna de 6 meses a 3 años y refuerzo de 3 y 4 años - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZnpuME8yRjZwdUo1QU9YcEkzWW95V2cxbFFlZHluSjFNVHJxZ3ZpdVFKdndQdVdMVWZ5ZDVhcVQzTkQtUlgxZ1VCUXlOUmN2ZXFDVWhTa2I2Zy1sYUE5eWJ0ZEZOajhXQnc3RFFWNmU2bzVfcTF2SnYza1BubTd5MHVBcS1YYVdNV0xRZzFvdWNEbWFXOElEMnhrc3o?oc=5",
+      "published": "2026-06-29T18:12:29+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "085a37b8400d",
+      "title": "Actualizaciones basadas en evidencia COVID-19 (Argentina) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTdaekNvX1lpWElKcldzeFBxUXA3OHBZVzY2ZEg0S1pXUjhqa1BJcTJtUV94aWNxTXptamVFVjQ1TDFrb0pZTHQtUXF2bnIwTXllTU8xaFVTd0ljV3RuSURGZ2tyQU1DcVBQcEtZZ2JNZFhYMDVYTlFQekVMX3h2WFlKQWo0RE51VmFxaw?oc=5",
+      "published": "2026-06-29T18:10:07+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "1eb6e6ca72fa",
+      "title": "Boletines Salud y Fármacos (mayo 2026, segunda entrega) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZzhfNUF0Y0NQX216WEtpZktIZWdsNG1McU51TGNtQ1dpWnBXNDA1M05DcXUzcFQ0amZVOTYtY0FoVjhZZDFjajcwdEotdHNpRkV1emRJcW9qa3huM0lOSHlQdW9HNGt5dzlUTEJhbUdSZ3E5WWpaVE5qbmxSZ0RIU2ZhM3BEYXVf?oc=5",
+      "published": "2026-06-29T17:55:23+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -84,13 +234,73 @@
       }
     },
     {
-      "id": "de21d0fc8cc7",
-      "title": "AAJM tacha de \"lamentable\" la enmienda para garantizar el secreto de los acuerdos sobre precios de medicamentos - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOVp3NFpYSUtIVWtkM3Yxb20wM2hDNXZ2UFY0c1VqUjFURXpCdVV6QTVJb0ZlR2g5djZiV1NuVGdzTHRjczNDNGJlNm9JSm5McXV1TmM3TEh3MWJKVWNqVUpmTFVlQWE3NHhhY2haZ3RlYmd2N1haYjlWVzVxUlV2WlR6U2ZOclVvYVVmSktqRzV0SlBLMGR1NGxnMVQtb2RfQ0lqcmRfSDBEWl8zWEliSlJMSVVLbGZpcTBoRXNlMjBVdU5oZ3ZXTS1nWVBpVzVZbGtXSWNNZWpZd0g4?oc=5",
-      "published": "2026-06-29T16:43:51+00:00",
+      "id": "00ada1943268",
+      "title": "Red CIMLAC: Mitos y verdades sobre la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1cm1ueExBUmI4OV9KZGlySXJsWHlhMERmb1c2eDlGcXN3VHc3ZXNxdzUwemIzQzBBVDRCeDZTVnlrdmxrNzNkRXhvbDU4V3JzTWFYay1SRTZ4VlBnNU5pQ3dXdk1WRERnekY1WWNERHhYM2MxT1kzdTBHNDhlUkU?oc=5",
+      "published": "2026-06-29T18:07:25+00:00",
       "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "c65448e3fc6b",
+      "title": "Riesgos infecciosos asociados a los fármacos biológicos utilizados en enfermedades inflamatorias de origen inmune - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRXRIakl5dTBPZVlYZDBXZExKNU5wSWxRZUV1TkdOMUo2aU9SSmdZZjFJQy1pcW13NkN2ZFZSdkJ1eEczdmZiRnl0Mi1TWW1VdEdkMnJZR0VSQlVleHdGNHh0SjNvLUpTZ3V4UzcxYWplVkY0QjZnTmp0bE9qOUNTZmdLWUdKYmduUTBHVHo3bHk4VFBPazhhV1lVanN0ZUdEVUJ1d1ZnX3owczBOSThDX0FDdUdoWlV1QnZWVlB2WkJvanhYeFJEUmNGZDFVV0VKbFlyT1ZVUFVkQQ?oc=5",
+      "published": "2026-06-29T18:16:13+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "1b26058f54c7",
+      "title": "Actualización del manual del vacunador de Sputnik V - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc3VrZGt1VzZCTUxScTBCbjlQZ0xxaDlNckZpMkRGVUZORkhfakUtQWQ0ZVhaamRGU3BqVDhjQnVBQnEtdzR3T2pKSWdMWHRpeDNDV1AtbEhJQWVjaVJKOUdFb0lLaVNuTXVCYlNqVjh4RXhqanhfY3pNZEpQUTBqd0R5NnE3RTA?oc=5",
+      "published": "2026-06-29T18:08:42+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "46ebf8875e93",
+      "title": "Boletines Salud y Fármacos (mayo 2026, primera entrega) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN1VVSlNqY3JnaXJCQW9JUWJ5eVZ3OE5XSU9WYzJvdFUycmtQUjZjc0plbS1ZZGVkNWNuUXkzRWJzQ3RPVzRYTXZLQjRSaGZWVjlhdS1JQXY2d3lPVVEyUHB0ZEd4X0VEMXZzUUt4X2Y2dFBjOWRZbzZCS1FuQndtZXJPQjhWVkla?oc=5",
+      "published": "2026-06-29T17:55:39+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "1b0a2be15693",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUVZtTEtsR2dCWU1FZ0paaS1mVkNZVzhUR0trZDdLbWhuOUFabTduUzBmRy03cUkyUk9TZmJMUHVDd0R2VjFyNV9BNk5qUUR4OC1oaTcxMTNIdlFlUmd1SFpJdGdtUDBXR2VFR1YtaTR1RlRyS3Y1MzBPWUFlZ0piaVpCQU1xTDBpYm5GekpJQTRHR3dDTUpvTVV5bjhwSk1PV29yOE5kZTEzckxI?oc=5",
+      "published": "2026-06-29T17:58:13+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "ee5fe562855f",
+      "title": "Entender la infodemia y la desinformación en la lucha contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdFNfb3BhZHBWRWpiUGZSWmtGOENrcnhsN1RPTE5KdGtLTDB1ZURuaHBNZkpNYmN5OG45cDMtWEFNRGV0SlFhMEx2S29QcTdfMnNwTXdhcXBMRE1kNnkxS2RLYUdtWThNUU5nUE9FR1BmYVlEaE1YZFE4aUlEbm04N1EtT1hQam1RV3JESTZzS0ktTEFmUk5nMWdFX3dMQTA2RHNn?oc=5",
+      "published": "2026-06-29T18:13:23+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "a004bd2a76e3",
+      "title": "COVID – 19 Evidencias del Tratamiento Farmacológico - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPT0VCeU1SbzB3NnRXX1duQzQzaDJMX2Q4QXNES2dTZ1RuWi1yNVBaZUdpeTFRMEJvRldOeE5aQzloNWJWM3BkV1pEaGFsdHI3VVdzMlBoRWZ3aE5HYnU5M3VwS21WZVUzWHREQmVldHVmWnlFOGZGVEFQNkFjaUF4YjFEXzk?oc=5",
+      "published": "2026-06-29T18:08:28+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -104,73 +314,93 @@
       }
     },
     {
-      "id": "57857132d10e",
-      "title": "Expertos de Europa y América Latina impulsan una agenda común para mejorar el acceso equitativo a vacunas y medicamentos - Notimérica",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUkVaYUpuWml3empycVlWYWp1MG9jVWFiZ3FMVVVUc29ldUV2SVhKbDE0UTdJSVdxNndIZUQzZGdZZGNtNUxMRWpsWGJIYlpEbnU3b282SzctZU9yaHloRFVrSkZaWUtFRjlCOWF1bk93NGhHM0x1Z2dKLV90ZURwYnlwdUdpQUdJekNOZmN2U0FyOF9felpBQ25RTGN6dmU2azhENV96UWRzVGFTQUl2T2Jpc3czWVdVRlU5cnVaQU9LU0tRUGxCaFljdnY5M3dRUHA4dlhSaUhoZmtubElKZU1sU0E2Nm5HQTRseHluSkVMWnc?oc=5",
-      "published": "2026-06-29T09:11:53+00:00",
-      "source": {
-        "name": "Notimérica",
-        "url": "https://www.notimerica.com"
-      }
-    },
-    {
-      "id": "31703c193aa6",
-      "title": "Invima prendió las alarmas por supuestos medicamentos para adelgazar vendidos en redes - Pulzo",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV21WanU4OGNPTGdnaU90OHVDUlhYOEtPODkyTUpCbWdDc1hOVlo5OWp3bXFMOWFMbWk2ZmJ1TUdyaUg3NjFYa2ZxeTRxa0VJVWxNTGdpMjNLdHFScVY4c1B6NGtVelFKZy1DTUZjc0dxUFUxZjE2eENfMHU3YTRfQWNBdFRrSDQ0YUhjdDJIbmJuU1BTTjJkcFZsbFhqQ3Fo0gGmAUFVX3lxTE5LakdaZEtwV0R5R3I1d2Q5SjRQT2FTSDJoTlV1ZHc5LVRBQ0xwX0hZa1MwTkgxd3J6X3VQbGpvSDZHU0xXbUpqVVBTa0lSODFlM2gzckNsUXcyTVFxSnNfTEwwdUdmRTE0QnFZMTJqQjdwV0pXVkhYcENxQnV4VGw5SVZOZE5uY0JIbVJaOTduSUxQVlFTbzFoYjhVdzlLRUU4M0F6X1E?oc=5",
-      "published": "2026-06-29T13:17:39+00:00",
-      "source": {
-        "name": "Pulzo",
-        "url": "https://www.pulzo.com"
-      }
-    },
-    {
-      "id": "95ac2be30c47",
-      "title": "ADRES e Invima firman acuerdo para analizar prescripción, suministro y gasto en medicamentos - ADRES",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3NObnluVVRTTkNYdk9aMEtFczRyTF9JYV9uMjVhUEJQUWd3SFhRbmRNZklGNU94aVcyZFlvZTJjV0wwZFpOczl4cDlqanBLcC1KY1A4U00tYmtxcVZydmFuWGMxemNNejNZOWtmNlBJQ2pFRl9xa251MVJXVmx0VmJqb1Z1aG5CNG8xSFMwSHI4cWRYdTJyNF9veWVncnhQdE9IUFowSzBoTkZkRWNMaS1Td3Q?oc=5",
-      "published": "2026-06-17T07:00:00+00:00",
-      "source": {
-        "name": "ADRES",
-        "url": "https://www.adres.gov.co"
-      }
-    },
-    {
-      "id": "5315501bbb63",
-      "title": "“La salud de los vallecaucanos requiere soluciones integrales y urgentes”: Gobernadora tras llegada de medicamentos en respuesta a Emergencia Humanitaria - Gobernación del valle",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2h0Z1VHa2UyUkp3WWdGdXV0bTh6emNheENBMEhUbWNiMXlpUzg0X3ZGcVJJLWpoMGRDdUp2X0g4Wjl2Sks2eVRuVzE2X1doMEJRX0l4OFBNeVZiTkpRem12a2xocnBWRXNvRUEzVzdmWkZBSWIzcm5Tb2ZEejEwaURfaGFELUt1Rk96SDZJNDJfVkxMV1hkVnA1a0ttXzJyTVhRT3hBb25Ca2ZCT3FZcFRmYWVtRUV5d2M1d2Y3MnNORUk?oc=5",
-      "published": "2026-06-11T17:07:00+00:00",
-      "source": {
-        "name": "Gobernación del valle",
-        "url": "https://www.valledelcauca.gov.co"
-      }
-    },
-    {
-      "id": "805f3e31f1a5",
-      "title": "Padilla responde a Podemos sobre la confidencialidad en el precio de los medicamentos: \"Trump ha cambiado el panorama\" - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObmJvYmZMbUZwVFJScG9ZSXJwYjNnWTl4akRxeDZGSnZaM19ET0lZM3JIUEdrYkczbWU5RkwzaDI4VnBoMjBIaEJ6OVY5Z2ZxZWdza0tUb0RieG5VT1RmSDh1aU5teFVmZ1BpTmJNRHBMZEsteVRmaWhIRWFzamFnZ3pRYkdyeHhTT2lyNHh0Qmk2dnpIQWt0SWpfbVpzZw?oc=5",
-      "published": "2026-06-29T10:44:39+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
-      }
-    },
-    {
-      "id": "fb13d8121366",
-      "title": "Notas informativas del Instituto de Salud Pública (Chile, junio 2026) - Universidad Nacional de Córdoba",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5iZWZybHJhZFItY1VkZFFoeDVqT2Z0cGhEcXRrRmxQMHpQMEFhUzNiaWxoLW8xbURyTkRjY19qNFM2eE9pNlZ2WElvNA?oc=5",
-      "published": "2026-06-29T13:42:56+00:00",
+      "id": "c3b6272c6fc6",
+      "title": "OPS: Seguridad de vacunas COVID-19 en las Américas - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOWjJWYUlnTVdrMTdNVWtHbzBDa3lrZWUySC1rRmJESER1c3lqVzFpMG45MUlWVVhYV1dQUzl6V0UxbHlxNHZSQXJGLWFpbllnWkhvMWhQUjVVbHh1VmNxNXg3MkxveUhETWUxdzB1d0lUT3VQTlBXb0N6eTFQLTFTbXR0cU8?oc=5",
+      "published": "2026-06-29T18:10:47+00:00",
       "source": {
         "name": "Universidad Nacional de Córdoba",
         "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
-      "id": "a695f5a36291",
-      "title": "Minsalud fija nuevas reglas para que EPS y gestores garanticen medicamentos completos y a tiempo - Circular Externa 017 - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tZzBnNkFzZHhlTnloREU3cnFqMkZXaUVqckZRYWVVQzBsVFBwZUh4NmhNbnFuMEpiY2IyZldldWZpdk1hbmdFVm1PblhMTWE5T09Lc1l1QzJ4NzZ4cmRac0Z6N2s0b05qa241THlHckVzN3FjaVphYzA3eXBzOWc?oc=5",
-      "published": "2026-05-13T21:32:58+00:00",
+      "id": "cd5c9dd01323",
+      "title": "Nota informativa de Farmacovigilancia (Chile) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA5alo1Tzkzc1ZlNXgzRWxBaGNQY3VueTlFOXJDcndrc1FRZ21peEotVnJQeDNxYVZMekF5ZEtXZ0dEbEZjdGtJY0NtM3BkWHRJU1BBUmpkVm4wakxRamhRRlNBQXhyRjVIZ294WHNWV2tHRURsVE9qWDlGLUw?oc=5",
+      "published": "2026-06-29T18:07:35+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "316d32e1b567",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3VwOE5qUzZyd2dybjQ3eUxfVm5tR3RNVzZLbS1WYkpsWUVFQnpkd1MtR1QxM25xSG5nZzU0NURQa3RLSjMxSE0tYXhqRnN2d1ZqTVowUUY1d2dkS1B2TDdPeGtKMTF4NENveEJOTmxkN2pVM2Y0NEpzdnQwakF6R1dvYktwTlAzdUZJcjdSMnU0azB5NmoxSmZaa3oxNnQzRjRtT3NJYlI1dGF1?oc=5",
+      "published": "2026-06-29T18:14:11+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "86c54fab0ef0",
+      "title": "Coadministración de vacunas contra COVID-19 con otras vacunas - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTk5xZ2lnZ2I1UjJ5dkhNV1BnSjMxdWNSdkIwVDBIanFDYnhCeXZxYVp4endyZ1ZjUElHeFRSbEJNYW5PS2tWU2lFRHBzM3JUaWY1TGNidXNyMElTamdCOWVQR01sNE0yeEFqMXB6NGdLbHh5X2hFX1dyNE5XM1paeFRlc0JVVkhVMldkVjVqWU9SNEpK?oc=5",
+      "published": "2026-06-29T18:11:25+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "f83e2bb28a10",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUEx4OTJvWGtySW4zQ2NXOXc2U2JhS19rUENObG5mTmp0Nm5hRVdrQjlyOUh1TUw2N1cybFBRXzlNVmUwVnkzbHQzMDlySW5KUXg5bGlVM2RXOTJWOWdMZngxb3BNNW9NZUlLTEV4U3JGRzJ1RkVfUWxpZGFsUFY5VVZKRlhGbHNPT3ExYUE5REJ3UWN0Z3dPb2JsYmdybVhvSWFGeWtfTDRndGM?oc=5",
+      "published": "2026-06-29T17:58:04+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "aff847551771",
+      "title": "MINISTERIO DE SALUD GESTIONA DONACIÓN DE MEDICAMENTOS PARA VENEZUELA - Ministerio de Salud y Deportes",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPR1N3a1oxODNpWUlTMHp6TElETkZrcDRBeG1tOUtwdUMwUGtnWDJUMFc0amV3VlRLQ0hDWUU0WVJIZmswVXBlU1VUM2RBOHVUanh4dE94WGpFd25WUHR3LUpqQzhpOTlobXF6M1AxVnJqTF9wOGUtWHh0MG5sMjc0cVFjaklObmJyVi05QV9qZlBMcUkwd1Rabk9EamZpMk81bHQ4?oc=5",
+      "published": "2026-06-29T18:57:19+00:00",
+      "source": {
+        "name": "Ministerio de Salud y Deportes",
+        "url": "https://www.minsalud.gob.bo"
+      }
+    },
+    {
+      "id": "492444f78afa",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeWZVUGZSWHA1Q2dOVEtBZjc0a052N0tGRFRVTFNzNXNUZ0pidU1CNFMxSlNUTmxaaTVWTmoydkR4dl81bFdKb0IwZV9MakMxOFF0NXQ2WVRBdlpUS1Z2MGlLUmpNQ2dlRGEzcnJjMGYyQTdJelhfQXJ0aHgteFpudzdVTlZUVjFqaEtFN3ZfUnJDaFozd2ZhcGJOdlJXaVFqeFlJWUJLM3lQenJO?oc=5",
+      "published": "2026-06-29T18:14:09+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "c65875e598da",
+      "title": "Plasma de convalecientes para el tratamiento de pacientes con COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQa0p0cFBsaURKUzdwd1lxUXNSRGtORHFjSEIyOXFoRlNCYzZwRFhTSVFqYkd6dVRHbkFWYlF4cUR3bGJXZl9EMWo5ajlQUTRWNjBLZUJqb05ONFJ0T1hPTzB3U25IRnJWOXkwRWd5MHNaa0pzM0t3WXVBdGhxT2tQV2RYZnpEMkdIRXdZNFFYN1dPalNXWU1FbFl2VlUzZm5D?oc=5",
+      "published": "2026-06-29T17:57:10+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "b0273cbdf0e1",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQlVCclNfZVhYLXVhcnAwWVFrTFFpeUphYjBsbXY3R1oyWG1oTVp1cXowNTI1ZDNHSXlwOHdYd2hlTmNqTms3THp1NDd0Vks5cEczWVlLV2VKRng5aUMzalhvbi1OTWh4eGF0UUpmUHcxYWFzOE44TW1uc1o0Ujg2TTlUOTdxaFNlR284WXlzb1NDSmRrVE5kblJFMWtKdkc2Tk1rbFFzQlNaeW5u?oc=5",
+      "published": "2026-06-29T17:55:29+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -184,6 +414,146 @@
       }
     },
     {
+      "id": "100cba022ab2",
+      "title": "Boletín de Farmacovigilancia (Chile, febrero 2024) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbkVJVjBnSEJ1VXBKZWEzWTdqODNaaUE0YzYyNzJTZkUwVGd1YU5keUZ6Wkhxd1lWdnRGOXd3SVdOT04xM3dZQ0dZNG50MWVIMFFsamd2dFRzZkNLcHNWeHdLQ2tWaEVwZ0d0cG1GbVJhZFhfTGx3M0ZfUHJQU3huc3Rn?oc=5",
+      "published": "2026-06-29T18:08:09+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "f5f6b3c3649f",
+      "title": "La EMA recomienda la autorización de la tercera vacuna frente a la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVFTV0tjZXc3NVFWdFJuNGZFZ2lsaU84b0dEdkR1cVYwSTFHczh6MEFnNXFkLXI0MFhZRTRrcnFleGY0SEVKdHlueWRuekliSW1PWlFHTmRvOC1CdWU4bWJlamlxUUJNdWRxbGNzTk1BRTdUZzZQNjl3REN4ekYyLVpZMEFPVkdiRnNIczJ6bUljVWZoQ01Gb1R0Zy1iZHN2TGJ2WVgzbw?oc=5",
+      "published": "2026-06-29T18:13:52+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "079810884478",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVVBXbmdGU3BpZW5hT1phSERvWjRYU01mcC00SXFqUC1lS1FWS2ljUGY0RFZyRUJfNHRiTzBpMXh6eGo5TVJlcmM1OXpFczJHUnFnaWR4Q09JYjQwTmRnanJGaF9EbWtpMEFUMnY3R1dfRHVxUFc0cm1ZczJoWjV5T1hBc056MnlsMm16bGpDVV9pM29fQUVrbXFIaHNRbDVKNFJaN3owNXlTQno3?oc=5",
+      "published": "2026-06-29T18:14:08+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "620cba60e5a4",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMWduS3d4M0ZLbnhoX1pfb253X3FhMEFXdzMyd0lpWUw2VHc5eHlIYzZhemxwRnJLdkJvYVZHMWxKZk44R1ZWdkVCRWY5TWtiUVlBNjdFUWxrZXQwUF9jS29OWExTb0x2UFp5R3otWU84bzB3dVBIazQtOVlIc3JfSWJ3a1ViZkdSQ1BCMEJYLWl3YlEyb3FOSUpqMDllLW41dmphbXpyOUQzaVE?oc=5",
+      "published": "2026-06-29T17:55:45+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "6bbe60f2b877",
+      "title": "La evidencia en tiempos de coronavirus (COVID-19) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQanQ4NDNlYlVpbkJKQWp6X3Zxa1E5UTBjS1dPaGZERDQxRG4tNjQ1UTBHQkk2bVVuU2VTMVZnQ1o3dS1zZE1xZXh4MHBvWFVNbnJ4NnJNRVVIRmU0TGtvUG5uMlhxWUVQZS1XNXhROHBTaEo3ZTRpaGlqN1lreXlGOThB?oc=5",
+      "published": "2026-06-29T18:08:06+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "98c7796ad715",
+      "title": "La EMA indica que el balance beneficio/riesgo de la vacuna de AstraZeneca continúa siendo favorable - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM21uMFlYMmpsM2s3Y1FtaU1zTzgtRkJER1JlRUJXdDRUU1NJM25NMFkyc3ktSVVsbl94TkMyODRmY25jc256dmRfRGZpRElabkRRTDRrVEwxTHlRQ09oREJpajJaQ3dLR3Z1QUkxaWtCX0NfT3Q4RWhoY3YwZUxxV2hoeGdTOW04UDZabVNMOUNKMm9FMXhkTVcwczJhazh6cXU1eHhILXh1TDRuRmZ0andNN2tFYzN6NG1rZUZWclJDWndUbUVV?oc=5",
+      "published": "2026-06-29T18:15:46+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "d7f0187e06e9",
+      "title": "Webinarios recientes de la Red CIMLAC - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1saHhiU0lPQlM4czZyQkJMZzQ5SHJvQmJPUWV2ZUVqaXJQeVBWT1ZkeXl1aTBYSEcyOE10cFV6ZEpJbjdaa1FSOGQxcml1VzBUdXRxOEVrMjlMb254RVc5ajRncWdQZE5FTThMeUN5VWxMZVJs?oc=5",
+      "published": "2026-06-29T17:58:44+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "2e5dc24e7a31",
+      "title": "18° Informe de vigilancia de seguridad en vacunas (junio 2022) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaFJwRWlwWkJ3LXktNUJfYXpNY0hJZUw4cFJvbWtTcU5ReFVwbFZPU1FJenpPaGhUTVoyWk5NYktQRlV5T2xJSkRNci1uaW9ZYmZrSkxuRzhhTjJpVlJ4eGlvLV9BcHpYLWlxa0xGdWxqd2lJX0lhT3lyRkFjQTJlNHM5NTR4Nm9VNUJsa1RyMzV6UQ?oc=5",
+      "published": "2026-06-29T17:55:08+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "46151820b8c0",
+      "title": "OPS: Día Mundial del Sida 2025 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5YdWsxQzBOWVBJenkzMWdWNTlvRzkzUjdCM21GZ0stVXFraDZZcC1pUXE1RHB1aDFyMDc4VXZ2UDgyRVJHcGR6SHY5WGRFTWE5bzNKMVRURWRPTXQ3UDk3a0hqb28wQWp0ZGc?oc=5",
+      "published": "2026-06-29T18:09:12+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "ae180ca7ca26",
+      "title": "OPS: informes breves sobre vacunas contra COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZmdkcDIweGg5UmJLZHg5aWJ1ZmRoUWFnbGw0bEd4Q3l1V1FDU0REYXJrOFdEZERXb28wRHdLZHZVcUNfSjJpQURHMnJwVUJQWFVpYS01RFlnbS1Fck9wTC1Jb3I2NHJHMDZreVNvbmhndWl1N2ZsVnU0NjNaU2VHOHZqWFU?oc=5",
+      "published": "2026-06-29T18:08:26+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "4f238d1ad53e",
+      "title": "Tratamientos dirigidos o personalizados: conceptos y nomenclatura - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdG5FVXBNR2VGNW1sNWZESE5EVWtBdUVDaTVRTmQ4NHo3MHJzSmlnbnV6RGFhcVFNMC1SZFRZbElGMUswZ3JOdnMxTHdHbExiNGgyREc1bGtNNTVQWUQ4TGVKc0hvNWlaMEZoQ1dnSlNwLW9PUTduckFxRENMUXpCVFVSQmdVV21mU1gxUGRoaWZkWDlObEFHQQ?oc=5",
+      "published": "2026-06-29T18:11:57+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "82a4f2007c2c",
+      "title": "Deprescripción en demencia - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1PYWV2WUdYWjdaR3RWRkpvbWd6anNsVDF5VGlBR1FKTHlKVjdXX3ZySWp3VzlLcmd4ZkE0V0dKNlM4blRWZDdOMHR2bEpaZXQ5RDNITGFkdDdNMVB6YXpEUmxzb3RSZw?oc=5",
+      "published": "2026-06-29T18:05:32+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "4ee4ce577c80",
+      "title": "¿Por qué las vacunas frente a la COVID19 cumplen con las garantías de calidad, seguridad y eficacia? - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZjNwR2M1QVNyYWRxcmhPRmVPbzZBbk9yNnRfNGVRbXhQT3YyQVFIemN5VXZ0eGtqcDdUeVlEUm8yMkItcXZYRW5ZNlFvOWFZcVp3ZDF3TVdhdUZmYXpRcDRiQzVueXI5YmFwaWZhek1QX1FYV1p0REZUdlJkV0JnMFgwUWx1d0Y0dUVISkhWSFh0dFY1QTR0ZlROcHdRdmRHU0g3ekFkQlpTNy0wWUFmMXg2VEpEeEF0NjFXSG5HRFFjM1FJ?oc=5",
+      "published": "2026-06-29T17:58:04+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "a69fe86f945d",
+      "title": "OPS: Información regional y global consolidada sobre ESAVI contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1FrRHowY3dYVWowZ0RHVEF2MGlybWVTcGVnU3NIWDBSc3BHdkVfTXdwU19yVVZtOVNmdDNfVjdFRzRTTXZZcU5ZQzU5OTRqU0kza3dhS2dBdjVWZ085LUVnVmlKLWNzd2JaQ3UtNGxoRW5HaTlmd09LcUg1cHdpcDFRamRMcm1Rb1NZY3FpVGNXakJWUDM4YXdPVVRRSTNBZmxTdGVwaXk?oc=5",
+      "published": "2026-06-29T18:13:55+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "6e9def9ff6ed",
       "title": "Las hoja de ruta para impulsar la vacunación desde las farmacias: más competencias, mejor acceso y financiación estable - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxONDNaQVR1dlNfSFhjTzJ1M2lWT2l3ejN3U2tPZVpndUF6SFZtX2NrYVJSODhZYVFvZGZobVdwNmxQZjBidXJYRU1QR1NZVG9HMGk5Qk9udGMwTk8wZmJYV2gzeXJCMmlGV01BdTMxR0t6Nmo0MURYR2hDVWNPWURORVFscnZ4a0dOblc4TkMzSjFLMGcwN0dVRVg4aXViV2c2d2F0RUEya09mN0Jrd1BDUDhMelpSWGhLbnZ6WDNuNFQtR0xmX29XZDVjWGpMM0wtLUx4YUhCU3IwVGtYc3FDRExJWjg3Mmlr?oc=5",
@@ -191,6 +561,106 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "95ac2be30c47",
+      "title": "ADRES e Invima firman acuerdo para analizar prescripción, suministro y gasto en medicamentos - ADRES",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3NObnluVVRTTkNYdk9aMEtFczRyTF9JYV9uMjVhUEJQUWd3SFhRbmRNZklGNU94aVcyZFlvZTJjV0wwZFpOczl4cDlqanBLcC1KY1A4U00tYmtxcVZydmFuWGMxemNNejNZOWtmNlBJQ2pFRl9xa251MVJXVmx0VmJqb1Z1aG5CNG8xSFMwSHI4cWRYdTJyNF9veWVncnhQdE9IUFowSzBoTkZkRWNMaS1Td3Q?oc=5",
+      "published": "2026-06-17T07:00:00+00:00",
+      "source": {
+        "name": "ADRES",
+        "url": "https://www.adres.gov.co"
+      }
+    },
+    {
+      "id": "ca4675e94314",
+      "title": "Boletín DIME: Actualización de las terapias farmacológicas para COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1U5TTZRTlhVY3NWV1NZQ0RJU2VsMlYySEpvWjJSNG5xX21iVkZvelBIN2dKbXAzSnRRZVE0YlQzZ1h1Z0I0dHFDeUhKaFVnZGE4SndoMG9ld1N4SDhKendQYlJlMWRCdzV5TlNQNkFZNDlkZXFjbjlFMlAxRHBybkFrRFJnN2Q2Z0t3SkFIRmd4VnlxM21FOTMtWk9HMGUtbXc?oc=5",
+      "published": "2026-06-29T18:13:19+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "725e265a7402",
+      "title": "Variables subrogadas y aprobación acelerada de medicamentos (enero 2025) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTzl4bDZJaFNKcVZ6YTU1eld2YlN5dGwwQm52WUdCZFNadzRDV3lOUDQtYVZTNDdJSGtSZW1CV09SQWNnaTQwcFN4S2lPVGtuZFdESzJrNnFLblBxVGtZd0cwN0V3WUlXVWgtNUU0cENoSUlHcHhHRnp4VmZ2WHFlSVhIVG5Xb0Y0ZWVjeXpnajUycXp1OG5SYVJQSDY3cUZx?oc=5",
+      "published": "2026-06-29T18:13:05+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "57857132d10e",
+      "title": "Expertos de Europa y América Latina impulsan una agenda común para mejorar el acceso equitativo a vacunas y medicamentos - Notimérica",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOUkVaYUpuWml3empycVlWYWp1MG9jVWFiZ3FMVVVUc29ldUV2SVhKbDE0UTdJSVdxNndIZUQzZGdZZGNtNUxMRWpsWGJIYlpEbnU3b282SzctZU9yaHloRFVrSkZaWUtFRjlCOWF1bk93NGhHM0x1Z2dKLV90ZURwYnlwdUdpQUdJekNOZmN2U0FyOF9felpBQ25RTGN6dmU2azhENV96UWRzVGFTQUl2T2Jpc3czWVdVRlU5cnVaQU9LU0tRUGxCaFljdnY5M3dRUHA4dlhSaUhoZmtubElKZU1sU0E2Nm5HQTRseHluSkVMWnc?oc=5",
+      "published": "2026-06-29T09:11:53+00:00",
+      "source": {
+        "name": "Notimérica",
+        "url": "https://www.notimerica.com"
+      }
+    },
+    {
+      "id": "ea6d8260f4ee",
+      "title": "Medicare inicia programa piloto para ofrecer medicamentos de pérdida de peso a 50 dólares - Univision",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNa3h3TTJRUGhoNU1NeS1FQUg1OXYxdjRBN1dQREl5SkNyTjFfdE9CdHMwYVB6aWtkaW9aU1RlcE8tZlFjZ1dhZXRJd3FpRkttZjB5dHdiWlo1NlVmVlRTVUszRHptclEta2tDcTN0V1VsTjNJdk5KX0hLVHBTMjlkUUZSLUs3cW9PVkRWVk5zWFkwMl9EYkFsNTBZS0ttZWluSktZZ0R1UlJSbHI1RWpOaXZlNXdhNTliRlpURWY1ZFpCOHZJdTVabElIQVBMdWFGWHlrcTZncS14UWJiSHg0?oc=5",
+      "published": "2026-06-29T17:43:00+00:00",
+      "source": {
+        "name": "Univision",
+        "url": "https://www.univision.com"
+      }
+    },
+    {
+      "id": "372af6552bc2",
+      "title": "Proyecto_Vac_Med_medicamentos_vacunas - Instituto de Salud Carlos III.",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSTZBNVFQT3JCV0p1RXFSVzUwNHlINzZQb1BVb3NsbW13ang1WWUtTlBDREZjbnRTZ0RYN1NBUVYwZkVNcjh4cnVhQWJSSlJVa1dwVDhFS3RyNjlhc3VzYkNSWXpWSS10WFBIWE5QUHpsR0JnNU5CTmZhRGdKUUN2a3k5Wl8td2E0T1E?oc=5",
+      "published": "2026-06-29T08:14:01+00:00",
+      "source": {
+        "name": "Instituto de Salud Carlos III.",
+        "url": "https://www.isciii.es"
+      }
+    },
+    {
+      "id": "cd8a6e5bf659",
+      "title": "Red CIMLAC Informa (abril 2022) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pVTVJbENQN08tV1RtRWVMaVhLRnBCSUhKbEF0b2pXc2NzOGI2ZS1GbE5mZmk5T3daUHVGYlJPLUUtQ0FGYTZ0QVpDYm0tbHA3a2NVby1aMkxnTHZkX1FEcHpUYWZIRVU5cXc?oc=5",
+      "published": "2026-06-29T18:05:40+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "893aebb90f84",
+      "title": "AEMPS: Vacuna frente a la COVID-19 de Janssen y riesgo de síndrome de Guillain-Barré - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN0s0a0ZZaWNROUVSZ0lMaEItSTI0YjBVM1dvd2Q0Wlk2cGRGaENxNFFtaUl5MlJqcml6aGE3WHNjZDhsQjgyeE1DeXJWQzd1Ym9lWExidm1LQWdyZm9BdGh2LUR6YXJkVzA1SXl6d1FmUnlpczFRMmRpZ0NVYmdSa2xwOFhPdTZLVGhrOE1rdGwzUmxqclRCckhGZ0tIQVFmeV9ORXk4bnhqemo4ZmFMMldn?oc=5",
+      "published": "2026-06-29T18:14:27+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "3fe973eda159",
+      "title": "Actualización de los Lineamientos Técnicos Campaña Nacional de Vacunación contra la COVID-19 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORVBjbnBhX05QX19QSkx5RElCTzh0U0Y2S19pVURFbGp4bF9QeEU1VUw3ZkZWOUItQVZhY2xtMTNCeVRYai1tTnJCRFYtSWE3c0VXUXlkUkEwLXJJZlhOOGUtNGZoeWxuYlFmb2FTd0Zyclpyc2R6WTZ3VVRhdWVwZ05iS1lYQ2w4LVR6anJyZ2xCS1VhcFp6LUZ6eWYtN3hJZThJc1B0M2hwR0hiN1laSUZ3VWZEUEp5UC14VXVR?oc=5",
+      "published": "2026-06-29T18:15:22+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "31703c193aa6",
+      "title": "Invima prendió las alarmas por supuestos medicamentos para adelgazar vendidos en redes - Pulzo",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV21WanU4OGNPTGdnaU90OHVDUlhYOEtPODkyTUpCbWdDc1hOVlo5OWp3bXFMOWFMbWk2ZmJ1TUdyaUg3NjFYa2ZxeTRxa0VJVWxNTGdpMjNLdHFScVY4c1B6NGtVelFKZy1DTUZjc0dxUFUxZjE2eENfMHU3YTRfQWNBdFRrSDQ0YUhjdDJIbmJuU1BTTjJkcFZsbFhqQ3Fo0gGmAUFVX3lxTE5LakdaZEtwV0R5R3I1d2Q5SjRQT2FTSDJoTlV1ZHc5LVRBQ0xwX0hZa1MwTkgxd3J6X3VQbGpvSDZHU0xXbUpqVVBTa0lSODFlM2gzckNsUXcyTVFxSnNfTEwwdUdmRTE0QnFZMTJqQjdwV0pXVkhYcENxQnV4VGw5SVZOZE5uY0JIbVJaOTduSUxQVlFTbzFoYjhVdzlLRUU4M0F6X1E?oc=5",
+      "published": "2026-06-29T13:17:39+00:00",
+      "source": {
+        "name": "Pulzo",
+        "url": "https://www.pulzo.com"
       }
     },
     {
@@ -204,6 +674,26 @@
       }
     },
     {
+      "id": "5315501bbb63",
+      "title": "“La salud de los vallecaucanos requiere soluciones integrales y urgentes”: Gobernadora tras llegada de medicamentos en respuesta a Emergencia Humanitaria - Gobernación del valle",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2h0Z1VHa2UyUkp3WWdGdXV0bTh6emNheENBMEhUbWNiMXlpUzg0X3ZGcVJJLWpoMGRDdUp2X0g4Wjl2Sks2eVRuVzE2X1doMEJRX0l4OFBNeVZiTkpRem12a2xocnBWRXNvRUEzVzdmWkZBSWIzcm5Tb2ZEejEwaURfaGFELUt1Rk96SDZJNDJfVkxMV1hkVnA1a0ttXzJyTVhRT3hBb25Ca2ZCT3FZcFRmYWVtRUV5d2M1d2Y3MnNORUk?oc=5",
+      "published": "2026-06-11T17:07:00+00:00",
+      "source": {
+        "name": "Gobernación del valle",
+        "url": "https://www.valledelcauca.gov.co"
+      }
+    },
+    {
+      "id": "331bd3bd60ab",
+      "title": "Informe de situación COVID-19 OPS/OMS Argentina: 10 de febrero del 2022 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMENDQm9MRUZHaWZXcW1sN1dqOTlOd0F2Y3pyU0RjaGtkaExXSHItTlNKNzFDSXB2ZTYxYVI2MjRyRW1NSlB5SUtBRU9mOEhYT09tOEx1Y2Rra1JDRmF0OWgwWEhfYmt0OG1mZXlXR0VsRWd3T19FM0lFUEl3YkpJN0dWTlpXNFNZRlNFcGVIeFpEeDQ1QVJZd1FzWGZrdXZE?oc=5",
+      "published": "2026-06-29T18:13:06+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
       "id": "f3c063f0f1da",
       "title": "Errores de conservación de medicamentos en verano, un eje clave en la atención farmacéutica - Diariofarma",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQlVSVzl6NGxRdUV0VUNOUG9hMzJsX01HcElBQlltZ3JMZjNjd2pZV3lBUVhFTWJCQm9YLTdMaUVTeDFVbV9ZNXAtUktYNTJvb0Y1dnJqZHU4YW1yOHpfZzN1NmlLdks1X0JaNGF6Q25IYWZsM2hvOVdiVEE5azhBa1FrTUF3b0VGN0lEakpuYkJRYW11d1hGNm5MY1d2NUxzOUU3S3Z4QWNuaHFLQnZMeTdGMXgxV0hrSlpmd2R3X3BuYW8?oc=5",
@@ -211,6 +701,36 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "79d9c7934cd3",
+      "title": "Vacunación contra COVID-19: Primer refuerzo en niños y niñas de 5 a 11 años (Argentina) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd21fT29fMmcwTXVNM3ZwYTBFdEtRQ2ZMT0lsQkhKTjY5MkR3N1ZIdXh6eHB0T0tCQUhNaWt3aHhGYWRWZVBkenp0V0lCZHFJcXlreFRmSmxzeEdPS1BGN0JWUXczTUlVYl9PSFU5SWczNzBid1ltS1VzenhJNFVqYzRSLWVvY1hzOUFTZHFIVFhEbUxqWEFaZGJnaG8xR1pFWDZNQ0ltdWNOY01BZHYyb0xSdw?oc=5",
+      "published": "2026-06-29T17:58:16+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "273d7ad425d3",
+      "title": "Actualización viva en curso de opciones terapéuticas COVID-19: resumen de la evidencia | Revisión rápida 15/03/22 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQTBWUFhSdWhadHQ1a3NVWDU3TGp6dmMwSWU4ckxsSkhic1laVlk0SDZqU09ETG14ZmVOSTJLbVB6bFREazZaLXRQbS1jQUZMV2V4TE95M2NWYlNNSDdlTzJFcGwxS2Z6bkpVb2ZKdGVpOV90ZDJrdDFTTDlBQXVRMVk0NVp0d2ZyUWpxR2lSNklxWVBzdjcyVVRDSVhSdllnQkJLOWh4c2ZjTXRmSjdyQkdGbTVjcThXRG9mQ2p0ZVN4dC1ndVVzdXliNHNNZUN3djFoaVBB?oc=5",
+      "published": "2026-06-29T18:16:08+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "83c5115401e7",
+      "title": "Novedades en hipertensión arterial 2024-2025 (FoliaDOC) - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTVE4cEZFa01BM3U0dUlVbDFLWFZOWjhjNWh1LU1JSF9uZDlMZ1RNYXZzQzF4MXpLVnlpd0ZCdWh3TkZDTGxBY0lmU2FSTjNSLThEY0N4VUVoQlQzdTBHbzhnZE1tb2R2SEhLbDFlaWprbzFWLTVScGxfVWQ3NzVRbnJZX0xteFhXZHc?oc=5",
+      "published": "2026-06-29T18:09:07+00:00",
+      "source": {
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -224,13 +744,13 @@
       }
     },
     {
-      "id": "f4f10061b76d",
-      "title": "No hay desabastecimiento generalizado de medicamentos para tratamientos de salud mental y antiepilépticos en Colombia - ADRES",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVdqZXFiQ05KNXdoWEg2blpNOXY0VHpDbDJPT3lzOWxyMFNNZmVBX1dudURjRGNlZDF6blVmalROc0F5aFZsSnJzT1Q2VEIyeG5SZENJb2FlNU5CYTFBTTBOVkFWdVk5OWVmWlJxX3ZESGxId21DSHkySVZYQkRuNU1JQzg3OGpnTHd5cFFpT0NoMzl6VkY5ajg2eGZLdnlMVzZxUnJOUERRMURsLW81RUZBakJ6Ym5aSnY0?oc=5",
-      "published": "2026-04-28T07:00:00+00:00",
+      "id": "efc2423682f0",
+      "title": "Informe de situación COVID-19 OPS/OMS Argentina: 10 de enero del 2022 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbWJ0MmJEaGtldE1tUnJGdkpyUDhMeG9kTDBvay1ZZlJ5OVRJUUUxclh4LXpIY0N2U29pSjJTWk1TNXRmRTUyRVlwZ3JHeU5vSmcyNjBNTWdRendUdDVoZVMtLUJRc3l6STRYVTFIRTBRdnRWeWFCX1pWOEt0WUJYY0lOSXVqSTdnN0p2OHFWQzlJMC10RlFwT2NKMk1CQQ?oc=5",
+      "published": "2026-06-29T18:12:40+00:00",
       "source": {
-        "name": "ADRES",
-        "url": "https://www.adres.gov.co"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -244,73 +764,43 @@
       }
     },
     {
-      "id": "a1ec7a1c3ee9",
-      "title": "El cansancio y la falta de aire al hacer pequeños esfuerzos pueden ser una de las primeras señales de anemia por falta de hierro - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQUkFmeDFOUlNheFZfSUJUOVRuSGVzNHFqdVpJczhvWWJKS1o4OFBMMGlfVlVEajNER0xQTDNra1FuX3Ywb3lJRm5ndVdsVHc2WUx0b3VSN3l1M1Z3SGNfYzFwVmhEYnhCcmtxWkxGUW1zYWoteUlLV3hlNHRqR05RaldaU19jWjVtbHlqWDdzNS1rMmM1d0tyNTBYYVM3dGZCYzUyVmFpWDdKQWFacmprQmhOQkFiamlKODZTd3hLdjZaS1JiaXBwUXpoUEJWeW1mWl8wWktwX1N1NThoal8xSTJjSTBCRzRmS3F5V0oySk9oQ1FiU25pYW5Wb3VjSkpkUDdz?oc=5",
-      "published": "2026-06-29T11:20:00+00:00",
+      "id": "45cb7aa25dde",
+      "title": "DOMPERIDONA Y RIESGO CARDIACO Datos respaldan necesidad de restringir su uso - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOHBUc2lHM1kzM2ZqWVZ3eDBYYXdNMlB1QXN1UUo3WFNiOUtlY1BxblR2RGNWb0tDUFZDUTZXRWt4TV9fd1NNajBlbFgyRVhQenI3dnR6QlJSV2FxSnA4dlNQQklWT1NFX1pSYUprRk8zZDJObXA5ZlFpdUFDaS1CODVfaHQzbEVlazJBekx3TlBTdkZwWDNXSjN1RF9WMjZnOTRXNU5TbUE?oc=5",
+      "published": "2026-06-29T18:13:57+00:00",
       "source": {
-        "name": "Tua Saúde",
-        "url": "https://www.tuasaude.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
-      "id": "da57425b8ab3",
-      "title": "Angelini Pharma y Banco Farmacéutico refuerzan su compromiso con la celebración de su séptima jornada de voluntariado - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZEhlRlJHaGtDOWpBVEtkdkFXQ2dlek1JSktBT3hDMHBBcXcwX213cWkwZlgzbHRJV0thdGprQWRIRDRwOU5tWnRzR2lWVjNlWndPVjMwZ0ZUSkZHUml6RXdVdW5JR2xjZlM3eW5RTXVEajB5Y3NZb1ZqQ0hlM2pXNnJ4b1oybEdxaDJHb0VSUjdqY3ZoeDBtaTNLY2ZjaGo2UGQ5ZUhvaXg0YW51bUdaNUp0b1AxM21JdGZvWVZ1ZjIxTV8xMmtIWg?oc=5",
-      "published": "2026-06-29T10:27:11+00:00",
+      "id": "6b51bc26d6d6",
+      "title": "Estudio de vida real con cannabidiol farmacéutico en epilepsia resistente - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUmEzbldnQmFDdUpoeklpRzhieGZPQkxOZGtQWERLZVBHNGNlbHE3enhCdUVkZTZyUExrZ25iSVp0cGpwell5V2lidXZyTWpzbnc3WDhSU21mTGNmOC1uUkxBaUY2QWg4bUdKcURCNmlPdlNjTjN4WjhWV1BBN3NoOF9sM0YxbDZnd2VGUTI5WEtkRXVsTFpJcEdwV0k0TndoaExNcQ?oc=5",
+      "published": "2026-06-29T17:55:30+00:00",
       "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
-      "id": "e2e2d31c7cfd",
-      "title": "RDA de dispensación de medicamentos en Colombia: Minsalud cierra el ciclo de trazabilidad farmacéutica - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSHVKQWdzTmo4QnlDd3dPNVpIdTY4TFdfMW5fM2YzRi1DeW9ob0ttenhjb2p2ZEpxMmJZQ1o3ZUk0RjhneHNweFZoUUhFVkZIamxqU2pfMFBONnBDaEl2RnpnV3l2eFdKMlctZG9rRklYb2RPbUtfb21aOHhxUGhDSQ?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
+      "id": "528a87f995da",
+      "title": "FDA autorizó para uso de emergencia la Vacuna COVID-19 Janssen - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVFVuX0NrMjRUSFVHVFdWeVNjLTc3SWpFM3JKOElPUEJFM0pCY0NFdFRFdXY2NXZPSmVtX3ZmXy1EMmlqRzRnTGJnUFdoMzl1LTk4ajZyZVFvd0htUUcwWVZoVUY0TzVlSFBpNF9pMTlRaUtOOUlsQmE0eVBJUzVtWGFJOFplaE5zU09zdGxUVFVRSDVwMkE?oc=5",
+      "published": "2026-06-29T18:11:43+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
-      "id": "c3a0fff1f61f",
-      "title": "Inspecciones sorpresa buscan agilizar entrega de medicamentos e insumos a pacientes de Manizales - Centro de Información – Alcaldía de Manizales",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajVfV3B0bzh2RDBrMldjREdMay1PaXY0cGxuLTlZV2JJYlpWZE42RzlaZHM3WXdJdVg5UlR2ZkxQTzNrVEZsUm0xcmVGNDl2NGoxWEFuTGlPdVFxbkU5XzZ0eUVEVjlUNHQ0ZVNlR3RtMi1Hc0ZwN29jemV0bmZ5NEZfN29tMU9hcDN2NnlWYnhTV29KWnc4by00dlhfM3ZPVVhJQl9lTXdqT0ZkWDRiZ1JxbFVETEFEOEVkTUR6R0d0S1JVN0tXN2d6Z3h5dVFmQktkTlFrektvQQ?oc=5",
-      "published": "2026-05-21T07:00:00+00:00",
+      "id": "5ace07464c12",
+      "title": "OPS: Semana de Vacunación en las Américas 2026 - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00LS1pNVg5X3FDUXM3U0ZCdTdXTHplaER1Tms5ZG1jZm1VZjJxQXRHcG5GUTVrWEVzU3JYSXlBLXpfUFZSMExyR2lzYkpDS0NsUjVqMWhaWVRrNW5TVDVRbWVjb1BELUlaeGhSWEJfV3pDenlyU1hJdWdhSkRfbGM?oc=5",
+      "published": "2026-06-29T18:07:15+00:00",
       "source": {
-        "name": "Centro de Información – Alcaldía de Manizales",
-        "url": "https://centrodeinformacion.manizales.gov.co"
-      }
-    },
-    {
-      "id": "2f79b390d918",
-      "title": "Más de 63.000 medicamentos represados ponen en riesgo la salud de afiliados a Nueva EPS en Manizales - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXNzRGUxaWdoY1g5QkNieEQ3S1F5aENzRlFsMjhuQkRJeEVyTi1TczE4VmRxQ2ZUS2g4dG9YZGxuM0YtVE9HOXM1RlJvY2NrRmJCbHRYTjJZdUhKR2kyMzNuTWRMQ3NOenRuWkVzcnZDVFhnY2wzRHMtM044amx6UTBQSjZrZTFIVWxXS2dBeGlXVHYxMGp3ZlBvbGJwSlBiZGhKWVMtMldOcV8zV0ZSeDlIN3l6emp4QTlGdVRWVXQ2Tm8?oc=5",
-      "published": "2026-03-21T21:41:46+00:00",
-      "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
-      }
-    },
-    {
-      "id": "5322e35a729a",
-      "title": "Los nuevos fármacos para reducir peso: quién debería usarlos - Real Academia Europea de Doctores",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT3lIbXo3RjlyVWtWYTE1bnY2UWo2MkJhdzNGVnh4NGkzOVdBLTBCS2hHcEZjSWtJbEk5OGx5VzhSeHM2X2x2ZW5wZlJVeXVTTGE4cVNqcWY3WjJaUkxvekhRWktkdTZVYmxVS280V3NCY1NaejJqVUlMcmpTU2phcjEzaGhWQXRJ?oc=5",
-      "published": "2026-06-29T08:22:09+00:00",
-      "source": {
-        "name": "Real Academia Europea de Doctores",
-        "url": "https://raed.academy"
-      }
-    },
-    {
-      "id": "225dd8b31c13",
-      "title": "Osteoartritis: La forma más sencilla de reducir el dolor sin medicación ni cirugía - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZDZQaGZoV0lsbEZJSTUtRGNQNGwzX1ZEZXlnWk9yd19NSkZnc3Boc1lQTmpHOXZRWjUtcXNWVGZ1RXpkd1IyS0dxcUJRZzZjcG9nbG02SDkzZmFfZ3JKa0VLN3hpRXhuM01ndGdBYjdCMmdtWTRzM2JpUDE4aF9DYTVmSjJINXVQbnJ4d2ZRWUFZVVp6cWxycGNxbzBqdC04TFRRR0lQS1psczlTbzRjbkVmeGxZQ1BWbWd3Nnc0R0d3Mkxn?oc=5",
-      "published": "2026-06-29T06:40:00+00:00",
-      "source": {
-        "name": "Tua Saúde",
-        "url": "https://www.tuasaude.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
       }
     },
     {
@@ -324,13 +814,23 @@
       }
     },
     {
-      "id": "1a819b6a921b",
-      "title": "MinSalud expone retos de acceso, costos y producción de medicamentos en Colombia durante el Foro Farmacéutico Latinoamericano – ASINFAR - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOeVRqM1pDU0JJdXYwTVBNMnVTOVJCOGhFQXd3eXp0YWo3b3Z1NFpLNDI4Q0F0cTNRMHFBV0NnNmc0czU0OHB6bEkzUGZrVXUtcUc4ajVodW9mdF9GYlBLdDBaVTdTSkI0MHVSc2tCVktLQVdDX2N6NmxQTQ?oc=5",
-      "published": "2026-05-05T07:00:00+00:00",
+      "id": "56ef1b096644",
+      "title": "OPS: Día Mundial de la Diabetes 2025 | 14 de noviembre - Universidad Nacional de Córdoba",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONU9Mbk5IelZOWHhLWThRcjA1VFk3U05lazlobW9GVFlGY241NHFqbnQxNmw1Z2lHWXBvcE1LRTE4aDZJcGREZWt3Vi16SGRUTkZPR2xqYm9nNHJ1YllZRWNhSENnTG1zckQwVWFsZlpicEVYZjQtTzFPcHpwNE1nSE9OZkZyY00?oc=5",
+      "published": "2026-06-29T18:08:44+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Universidad Nacional de Córdoba",
+        "url": "https://cime.fcq.unc.edu.ar"
+      }
+    },
+    {
+      "id": "3f3d86d09ab6",
+      "title": "Conservación de medicamentos en verano: los errores que más preocupan a los farmacéuticos - Colegio Oficial de Farmacéuticos de Madrid",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM1ZwVEF0a1ViakNieDF6LVhQT0QteUlHZEVESmpPdXBFSTUzbGhtYzR4c1FLNjA0RDhNWXhDNUoxN1BpMnFlZVdwSEV3aDdkOGxDU1g1UDJHbDd1aG9qSjM4VGh6ZkJOTWZJZnkxVUVnd09rRXZ2SlA2LXU5dnNmelRQSHBXdzFUUE9ZdklNMDByVGxzbXdaZGVHbGlBZXVtckJqZUJPUUNuNXAwNmQ0eDI5Z25wWVBo?oc=5",
+      "published": "2026-06-29T11:41:51+00:00",
+      "source": {
+        "name": "Colegio Oficial de Farmacéuticos de Madrid",
+        "url": "https://www.cofm.es"
       }
     },
     {
@@ -344,66 +844,6 @@
       }
     },
     {
-      "id": "a4769b068a77",
-      "title": "Medicamentos UPC: Circular 19 de 2026 deja sin efecto reporte por MIPRES y activa ruta por RDA - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ibHU1R0pXVXZFSXBYblp6RjUyZWtucGhpU3ljQlpBV2VTWEdadkpTSm1ta2M5WGR4ZDU2aVh2cUY3N0QtQ1dTZHFJNmZ6WGhwZXFWZnJKel9iUl9lZzl5bjdoQy14M1ZNeGE1ak1oMDhvZw?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "331b9b9eda59",
-      "title": "Usuarios del sistema de salud tendrían que utilizar hasta el 90% de sus ingresos para cubrir medicamentos que no les entregan - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVQwSUhmbGlMa0FhVUo4VlpsS1Jpa1ZWbDRaVGQzMlZnU1lHRlhRQ1VEdGNEaFMxYWF6NFlpRVJOcU4wMThTcnRCdlQwX3Z6YkxveHpHWTRjcTVmRnRpeTI5VE5YUlpBRWVGNDNVazdsNzYxRjZRWFA5YWhNMlVEZVpNc3ZsZDA1clh2LVdB?oc=5",
-      "published": "2025-11-05T08:00:00+00:00",
-      "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
-      }
-    },
-    {
-      "id": "2414b1014612",
-      "title": "Las EPS deberán garantizar continuidad en tratamientos y medicamentos tras nuevas medidas del Ministerio de Salud - MinSalud",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbjN1dWpuUTA2S2g1dFpzV20xQ1czYUwyLTJ2NXpZTGpMaVpaaFpNY2I3VkgtYkFzTjBaNnBIeVZkZ0k5bHhxQXB5dEN0TlZzalNtWjRveGlNWmwyOWppa21lN0dpdlBFNzAtOEJ2dGpnRTZpa2JMU0R5TFNvbTQ5eHpDTnRKX0JSYnZxZXBvMTAxRmZWQldmS1VPUmJTb0tVNHFiTjRPd0Z4UnBaZllhdlJKZ3JLUGl3Z29aRGpkYTc2dw?oc=5",
-      "published": "2026-05-16T13:01:29+00:00",
-      "source": {
-        "name": "MinSalud",
-        "url": "https://www.minsalud.gov.co"
-      }
-    },
-    {
-      "id": "f1d7baead3fa",
-      "title": "Medicamentos esenciales - World Health Organization (WHO)",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
-      "published": "2026-01-26T08:00:00+00:00",
-      "source": {
-        "name": "World Health Organization (WHO)",
-        "url": "https://www.who.int"
-      }
-    },
-    {
-      "id": "955e8e79a522",
-      "title": "FDA retira del mercado más de 900,000 frascos de medicamentos para el corazón y los riñones - El Diario NY",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU3JQQXhMcl9TU1hUYWdDR2VZY1BidkhCOTN3bE45WG5uQUtQVkR4eUZMdURLZGdnLUhScS1wQ20wTG1xQlVvU1ctUENCUmxnbzdrYnpyX2lId3UwREJmZEppeFJxdm9wZUgzLUdYWTRQclNwNFF0NkwwaTBaMXlZTkhQWWNlX2x5SGR1a0Q5SW1CeTdWRXA1ejQ0d3RRQllZb1BVYnhLaXVjWDA4QlpKblhqaHZBS1F5WWtycnJPdzVaNk0?oc=5",
-      "published": "2026-06-29T03:29:00+00:00",
-      "source": {
-        "name": "El Diario NY",
-        "url": "https://eldiariony.com"
-      }
-    },
-    {
-      "id": "6b76c8c69b42",
-      "title": "Producción de medicamentos en Colombia: camino a la autonomía farmacéutica - Universidad de Antioquia",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNVTVZbVVOU1NGMHVyVTlMRVEwNGFBNnBwYWJhT0xpcURJbDN4b0NnQ1FsQ3RIYjF3X0lGNFlROXJ2M1g4SXEwRlZ2QjdGbWhjdF80S1MxQnQtc2ZuODdxREpjX2JROFFzN3BSZ0VxcnhfZ3JOVmF3Rzl1SVJZa2RBMFJ2Q0FyVWpnaGRjQkx5c1ZkUGFWZTltMWdiano1Z1pOZFp2SU9oU1dobWI0RGR3cXd6RENlVjgzWGNUaUFVd1ZYaTd3OUxUMnFzcVZLRnhqMjJkSmZkNkRXRUp1ektBbWJJYw?oc=5",
-      "published": "2026-04-21T14:29:58+00:00",
-      "source": {
-        "name": "Universidad de Antioquia",
-        "url": "https://www.udea.edu.co"
-      }
-    },
-    {
       "id": "887aa2123c87",
       "title": "República Dominicana dispone envío de importante cargamento de medicamentos a Venezuela tras los terremotos - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQ2doVzlZTm5BTkt4Y2hjNXBLLXVUN1dNOVBrdHdzQjdNV1FvVXNhX0VTUGxfQU9FTC1Pai1yYVV2bGdmMXR4RkJJZi13eTYwOHp3ZXBKWGpLMnlrYUhBTThKXy16cnFIRkM0N0QtOWN4b3JCM1JxNGowZnl1RUR0YmdTczhUNzI4ZHR4bGV6Nllvb2xTbG1JUHFFZzM4MVh0a2JrU015dWdGSlYtYnVSUzVlN1FaendnR1EtS0cxTmNleEZ2QmVVa3pBTkh0b3VRNTJGaUk5QzhzVWNkVEFOV0RhV0VZOXhRV0xuYWxmenJGTHBxSFdj0gGSAkFVX3lxTFBwSmNtbWlzZExrWnNfSWoybzBzdTQ3UTlWWFR4Z05OYXBNRDVrTTB1VWxxT2ZNaGZQcUZsOXcwSzIydWR5d1NxS3ZKN05zdmFnTENFYUlsVDVTYnZpYkF6QXJoNHB3N2hPUnJPZmZsOVptSnNzQnU3ajBlM0ZXY2htaThBWFNFU1Rtd3Z5WWtwWHVqYVIzc0hLd1UwM2lLT2RuNTNHUGNLYUpaTmlQNUpYUElKWnVmeVk4SW1RbkVveElMZkpybXdGTXpjZ2xnSzhwQXNKTjcwWGFUNjhvUjV1VHBIX2RyMGJqUVlpNi1LVERTYlpHcXpwM3k1M25pcXhRbE80YWVBUW1DTGFSRUJQWkE?oc=5",
@@ -414,30 +854,10 @@
       }
     },
     {
-      "id": "669a0bcf449d",
-      "title": "Un medicamento para la diabetes previene enfermedades del corazón - OkDiario",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVlB6UkFscWVsRkt5TmlONThtY29JdUh2NlNocWlTQXQ1WVM5ODlndTRwSV80ZEp1TndWU2lJdWtUajMwNmNHOERndzFkRV9SWXdCWEFsMGd3V2VqQU9Fa0VsWlpWc2tlU2hOWklMNHVzZDgtc2UxdllLbXQ5M0JyUWNhS09XSEFJeUJQbnJ2d1pURTFz0gGaAUFVX3lxTE9MUFd2NkpxMVc3Y0NNQlRVR2R4bkRzZzRDMzFfV3VZVGpQVHNOd2dMTUtldmRIdFdZZ0hTVEZHSHZQUkxadk5mVUhMcXZXanY5OThLZ3k0SDlnWmRodEFTQ2MwU0RmWmswTjQwbkZqcDZ1R2Jza2l0MjhlSmxYaFhnMjE1bFNIYk9COVc1RFM5akRZSmpldk1kSlE?oc=5",
-      "published": "2026-06-29T03:40:49+00:00",
-      "source": {
-        "name": "OkDiario",
-        "url": "https://okdiario.com"
-      }
-    },
-    {
-      "id": "dd41232e8d36",
-      "title": "España regula la evaluación de tecnologías sanitarias: nuevo filtro para medicamentos, dispositivos y salud digital - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FYzNPMTlweUgxekRCTEtyVDlweVY2cWZYR3pPQ1JSNy1MamxsQXZmRDlfVVM4WWFiaWlXZlMwSkdSV3RPN3hsQ1Q1am1mbTBYeDV6bUxTSzhWMXJOVHczQ0s4aVBLanFRdy1uU2NJeDlzd0lnd1V0eQ?oc=5",
-      "published": "2026-06-01T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "b6b351d74cf7",
-      "title": "Asociación Colombiana de Psiquiatría advierte problemas de disponibilidad de medicamentos esenciales para salud mental en Colombia - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0tJek95ZmFZWHdPbUgxNkxPejMtdjFLRFFZeDJCUi1GaHBNWTlYQXh4NlpXcU5KRUtOWF83TmhMOFltc2V4SDI0bDFVeDU2Qm9LQ3lDa05uZlRqb29oLUo1T1lpR09nWFVBcmo5ak1jNjY3TlVFV0Z2dGNaQ0w3eQ?oc=5",
-      "published": "2026-03-20T07:00:00+00:00",
+      "id": "a695f5a36291",
+      "title": "Minsalud fija nuevas reglas para que EPS y gestores garanticen medicamentos completos y a tiempo - Circular Externa 017 - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tZzBnNkFzZHhlTnloREU3cnFqMkZXaUVqckZRYWVVQzBsVFBwZUh4NmhNbnFuMEpiY2IyZldldWZpdk1hbmdFVm1PblhMTWE5T09Lc1l1QzJ4NzZ4cmRac0Z6N2s0b05qa241THlHckVzN3FjaVphYzA3eXBzOWc?oc=5",
+      "published": "2026-05-13T21:32:58+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -454,43 +874,13 @@
       }
     },
     {
-      "id": "0274a15d5854",
-      "title": "Medicamentos almacenados y pacientes en espera: hallazgo de la Supersalud en gestor farmacéutico de Bucaramanga - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB6MF9EdXhaNVlabk83bmdSaUkxbkc5N3A5dFRueHl1bTV4aG10QjZnTWFRaDdGWGhBdWh2TGk3VlpvQ1NTX3FlZmR4QUZuZFEtRnRURVU2LTRRejFjODctYkVVWUtMLUlaZjJvQWtVTllxYXhEdE1iT25MVEVEUQ?oc=5",
-      "published": "2026-05-15T07:00:00+00:00",
+      "id": "669a0bcf449d",
+      "title": "Un medicamento para la diabetes previene enfermedades del corazón - OkDiario",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVlB6UkFscWVsRkt5TmlONThtY29JdUh2NlNocWlTQXQ1WVM5ODlndTRwSV80ZEp1TndWU2lJdWtUajMwNmNHOERndzFkRV9SWXdCWEFsMGd3V2VqQU9Fa0VsWlpWc2tlU2hOWklMNHVzZDgtc2UxdllLbXQ5M0JyUWNhS09XSEFJeUJQbnJ2d1pURTFz0gGaAUFVX3lxTE9MUFd2NkpxMVc3Y0NNQlRVR2R4bkRzZzRDMzFfV3VZVGpQVHNOd2dMTUtldmRIdFdZZ0hTVEZHSHZQUkxadk5mVUhMcXZXanY5OThLZ3k0SDlnWmRodEFTQ2MwU0RmWmswTjQwbkZqcDZ1R2Jza2l0MjhlSmxYaFhnMjE1bFNIYk9COVc1RFM5akRZSmpldk1kSlE?oc=5",
+      "published": "2026-06-29T03:40:49+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "35513699d81e",
-      "title": "Crisis en salud en Guainía: quejas aumentan 31 %, tutelas suman 217 y 82,9 % reporta fallas en medicamentos - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNenNqd1djU0RMZGJRUXBzWFdMV1dZNGtOSWFqbk1KajdSM2VHTE9WVzBrRVd4QnlaUHo5NGM1czNjcl9MMnhUNFBwaDdzeWs5NkhyUmRienRHWktsS0NZQV93ZW5TbmFPREFFWEE3cU52NXNwTzJRX3J5RDl6cTU1SG1vX0I4RHVpY2k4ZUhiVnFwOTBmdzBMMy12SGQyODJSZTlWUl9PVkV2UE9Ya2tFRnBpYjFiSXFxMWJRY3hHU2d2MVluRVlEYWh4OFp3Zw?oc=5",
-      "published": "2026-04-17T17:45:43+00:00",
-      "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
-      }
-    },
-    {
-      "id": "676461301c8b",
-      "title": "Qué se sabe de lecanemab, el fármaco contra el Alzheimer que divide a los expertos - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYUdFWHpYdExnYjE5Sy1vc0ozeEF1SnZLZ1pkVDlfNWxiVEwzRjRzSUdrN1JKUHlrdG1aWk1lTnE0b2tocFlEY2xadGFId1hvQmd3WllIYWFUZUdYVlFzc1Y4czNaZGFjVVNWUS1IdnZzbDA1dHA2NF9tb3R4UmFXZVpaeFFvWmtZNjFTTi02Ymdzck9vX00xcTNpNGlpeVk0R3E2UzlQRUR5cFlvaG1v?oc=5",
-      "published": "2026-06-29T06:03:46+00:00",
-      "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
-      }
-    },
-    {
-      "id": "fd5196adadd9",
-      "title": "Supersalud implementaría vigilancia estricta en 1.000 farmacias, por retrasos en entrega de medicamentos - Ámbito Jurídico",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNFNwOXdZSl8tTFFwM2JsbWpjYVlNWjZrcGsxV2JTWG83c1c4SGNUdjRURzRxZmNrcUJKOHRJN3VrN1JUTTdBMWdZTnhxQVgyZHdNQlM0NnphNS1MREVHc3NtLWd3RUNWa2NERGNueUJydVJ5c2huOTNNOGZGeGtxM1NGMkFETENPbWczdS04OHJlWXF1TkZGU1BmWVlTZGwzaS1SbEdJdjhuZE1zMFg0eVJSbGtlelRpV2F2bkxWQQ?oc=5",
-      "published": "2026-06-04T07:00:00+00:00",
-      "source": {
-        "name": "Ámbito Jurídico",
-        "url": "https://www.ambitojuridico.com"
+        "name": "OkDiario",
+        "url": "https://okdiario.com"
       }
     },
     {
@@ -504,110 +894,50 @@
       }
     },
     {
-      "id": "f5dd71cfa8b3",
-      "title": "MinSalud actualiza exclusiones en salud: el listado oficial queda con 117 servicios y tecnologías no financiados con recursos públicos - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZHI3ZFNyNlRkTW5zNnp3N1AzTnBYN1NZWDktbW5KT1MxMlU2aUI4QVBOLXRoUHczQXhOX1JzNmR4bG9qUWVNUWkxZFJhT1BvdVZIbmVrZ3NUbFcwa3NQbGpmaDBTdWFyTUE0eWNqRVNNZEtFT1E?oc=5",
-      "published": "2026-04-22T07:00:00+00:00",
+      "id": "910e7ca81529",
+      "title": "RD de Precios: Sanidad flexibiliza el SPR para reforzar la competencia y el suministro - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT21zS2NwRjVFcDRmNkhxWVlQd2NsZ2o5R1RVTEpLX0JrVmptcXVQQlhwSThlc2h1WG9MRXdBalNpdFlwckFJUjlHS3ZpbHZGUEZRb2d3Z0s3eVdtYnM4ajFVaXk4dkttLXhCMnZzMlZSV1VNVjJOMWxVVXp1LUpfREFRcEh4TWNMUVA0eTAwbWg4LV9RMmt1bTB5b25SbU5mTU5zU2t2Qld3YVRtejc4b0tnNDNEdVI1TVkwQQ?oc=5",
+      "published": "2026-06-28T18:44:23+00:00",
+      "source": {
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "a4769b068a77",
+      "title": "Medicamentos UPC: Circular 19 de 2026 deja sin efecto reporte por MIPRES y activa ruta por RDA - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ibHU1R0pXVXZFSXBYblp6RjUyZWtucGhpU3ljQlpBV2VTWEdadkpTSm1ta2M5WGR4ZDU2aVh2cUY3N0QtQ1dTZHFJNmZ6WGhwZXFWZnJKel9iUl9lZzl5bjdoQy14M1ZNeGE1ak1oMDhvZw?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
       }
     },
     {
-      "id": "e16e46d269f9",
-      "title": "Plan de Choque de Medicamentos: Supersalud verifica puntos de dispensación en Cali, ¿qué encontró? - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLcHhTR1hIY19pc1kxR2Fsc0dBc2wxcS1MTkZOMHpwTjZNZDFjUS1pTlZsYmhPNzZkSWpQRkwxcTBYWXNHQzFSMExpZU5vd2pDMDZMbXlKYV9hRHZLUVVrTnlEa0xQVlVqd3NaTVlvVS1EQ3RCa3RZ?oc=5",
-      "published": "2026-05-07T22:14:23+00:00",
+      "id": "fd5196adadd9",
+      "title": "Supersalud implementaría vigilancia estricta en 1.000 farmacias, por retrasos en entrega de medicamentos - Ámbito Jurídico",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNFNwOXdZSl8tTFFwM2JsbWpjYVlNWjZrcGsxV2JTWG83c1c4SGNUdjRURzRxZmNrcUJKOHRJN3VrN1JUTTdBMWdZTnhxQVgyZHdNQlM0NnphNS1MREVHc3NtLWd3RUNWa2NERGNueUJydVJ5c2huOTNNOGZGeGtxM1NGMkFETENPbWczdS04OHJlWXF1TkZGU1BmWVlTZGwzaS1SbEdJdjhuZE1zMFg0eVJSbGtlelRpV2F2bkxWQQ?oc=5",
+      "published": "2026-06-04T07:00:00+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Ámbito Jurídico",
+        "url": "https://www.ambitojuridico.com"
       }
     },
     {
-      "id": "ae1a08a95ace",
-      "title": "Crisis de medicamentos en Colombia: acceso limitado y elevado gasto de bolsillo afectan gravemente a los pacientes - Concejo de Bogotá",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU0ZZanhQZFREYm84XzBPdGFPS1ptS05VbHdKSUtnUUR6enN3WElhXzBzdmV5ZlVVc0otR21IWXBaS3BFa0lIbnZSTkIzWXRUcVBNd21IRm5CUWVxX1JrUGdxNVFHU3JldzQ4NDJ4ajU0MEh6RDJkejB5cEpFRUF2UlBzNWNoalp3cDBERUdoVE84cEMyNDdNTkNHdzMySmw0Q0N0TlZ6ZjNyV1hZcjVydm80NjAwRFlsTmJvVTNldWFMTHdsMmNiYWVB?oc=5",
-      "published": "2025-11-27T08:00:00+00:00",
+      "id": "f4f10061b76d",
+      "title": "No hay desabastecimiento generalizado de medicamentos para tratamientos de salud mental y antiepilépticos en Colombia - ADRES",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPVVdqZXFiQ05KNXdoWEg2blpNOXY0VHpDbDJPT3lzOWxyMFNNZmVBX1dudURjRGNlZDF6blVmalROc0F5aFZsSnJzT1Q2VEIyeG5SZENJb2FlNU5CYTFBTTBOVkFWdVk5OWVmWlJxX3ZESGxId21DSHkySVZYQkRuNU1JQzg3OGpnTHd5cFFpT0NoMzl6VkY5ajg2eGZLdnlMVzZxUnJOUERRMURsLW81RUZBakJ6Ym5aSnY0?oc=5",
+      "published": "2026-04-28T07:00:00+00:00",
       "source": {
-        "name": "Concejo de Bogotá",
-        "url": "https://concejodebogota.gov.co"
+        "name": "ADRES",
+        "url": "https://www.adres.gov.co"
       }
     },
     {
-      "id": "4592b1c66a62",
-      "title": "Minsalud derogaría Circular 044 sobre MIPRES: medicamentos UPC se registrarían en el RDA - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDTVk3LWc5UWl4cTVyb1RfVW1ta2pkOUkxaVdhTTdkUlQ5VWZoYk9VUk1JLVFfUXB1elhRRzY4XzFVVDZDR2tWbmVlMnpXSlBMd0MxbUpGMG5JbVNFbjlETXhFT0xMcGhLdkRwS3R5c2V3dw?oc=5",
-      "published": "2026-05-20T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "aee14a4afc7f",
-      "title": "Plan de Choque de la Superintendencia de Salud busca garantizar la entrega oportuna de medicamentos en Colombia - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1saWlGelJDdzdGR2taVG9IcXo5ZmdPcllrcUZFY05YbXhFY3lxRE56T2RQUUxRQXE2cGktc3JrY1lYVWFEeFpONzF5eEVRYUtWRWVHVFQtUDVpOERIamp0U0pjb2tsVHh4MnNkaGZUYUNyTWY3WHIyUDZxSQ?oc=5",
-      "published": "2025-12-01T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "7798f0ea8fa0",
-      "title": "Medicamentos, deuda hospitalaria y telemedicina: los ejes de la propuesta de salud de Paloma Valencia - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFcU9iaUJ0enJrdzZiU3lpMHBsWEcwNzV3NHpncm1nZC15SXVfYjZfckNkbUdwdElFeGhjSGRWOHlibWh6b0J1dzE5bEJEZTBWazVFdWVJanJMMkhTOFp5MlBLWHdzcWN1LUNrVFY4UV8yRFk?oc=5",
-      "published": "2026-05-07T12:44:11+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "bf7585962363",
-      "title": "Realidad de la crisis de medicamentos en Colombia y su uso eficiente - Bancolombia",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1GMFBxVFRnRzEtSEVhWmh2S2hScEQ0NXVsT2pscWVoWkVldk15Z1Q4N3M2cTU2MmdPaXp3YlgxMjlCckRqSTJJcjhBY0l6R0tCWGFGSDNMQXVHdHVSejVBM21lcDVCcUR3QV9SQU9ZNnY5ajJfdktYaFZ2d1NuWHZGTXE3V090STNwVkFYQVM1dTBFWUZldzAyMmIwUFhUQlFJbHM0dkdlUElwQ1lFSXVFeDd5Q0tpQ2VRNzZlaFV1MTdOYnVUOFBB?oc=5",
-      "published": "2026-04-06T07:00:00+00:00",
-      "source": {
-        "name": "Bancolombia",
-        "url": "https://www.bancolombia.com"
-      }
-    },
-    {
-      "id": "b444119b60a8",
-      "title": "Top 25 Empresas en el mercado mundial de tratamiento de hemorragias postparto - Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNSGlpcXYtdEUzT3I1a2U1MXNnNEg3Zkl0THJwSTZDaXpjN3FXVlVZdzc3MW5ZRmJmcnFETTBkMjM4YTFHOENhSjB3aWd1VkR3bjU3dmNtbzdRc25sdDVodVhJd3JJclFTTzN1ZFJxVGVlQVBKaHJBOWZBY1gwV2VWSjlvQTQ0WVlOWFFxWWZSTFFlbWpHc1c1VUdEZmFFMkUza3d4Rld0OFlhakhFdnlIT0ZRdXBRVDhCa0NqM3oxcXFyY2ZKNzFaTDdLMk1LQTBjUnJiODA4UFNTUlk0WVJEV3FhbGZJVnAwV3c4?oc=5",
-      "published": "2026-06-28T18:21:53+00:00",
-      "source": {
-        "name": "Spherical Insights",
-        "url": "https://www.sphericalinsights.com"
-      }
-    },
-    {
-      "id": "861148f5678b",
-      "title": "Minsalud alerta por retos en redes sociales con medicamentos y pide vigilancia reforzada ante intoxicaciones con acetaminofén - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xbFlFQ1VxT1owQk93cC1JR3k1bThCanY3MEk4S25JQ05vZUV5N3BoaHlZb29lVTBUNWRIdWphWWhPT19pVTludEpPdl9Ddlo1S3JIeFdhWGloNEN3R0J5bXprTkZ4dzJ3Q0lfYXhJM0pvQ21lbzhmTW5R?oc=5",
-      "published": "2026-03-18T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "bb2f03408314",
-      "title": "¿Hay desabastecimiento de medicamentos para salud mental en Colombia? Ministerio de Salud responde - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53X0RqQTcwNXBabTlBS01pSFhvU3NpN3VtTGhfcDZvTEJ4S2hUTWV1djJHSkNuV0U2WER4d0NBbkhGU0VMR0t1cUNrMzI1SEZ4LWxIa3BNdHFQeENPLVRVeVNXc0twZjV4c09jaDdUS3l3d2NKSjA2U1Fyalowb2c?oc=5",
-      "published": "2026-04-07T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "c3504585ee8e",
-      "title": "Propuesta de salud de Cepeda pone el foco en EPS, medicamentos y atención urgente - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBoUi12OF9FN2x1TVRrdV9fOFI5QWhjdlE4VDRGdXRSQUFwMkRucFkxdXl2aWhFdk1GdnJXal9hOWotS3ltVmRHVUtCM21GTEIxejh1Y0NybkpDNWl4cDZhR3NOUndkOTNYRjhOc19B?oc=5",
-      "published": "2026-05-04T13:54:08+00:00",
+      "id": "e2e2d31c7cfd",
+      "title": "RDA de dispensación de medicamentos en Colombia: Minsalud cierra el ciclo de trazabilidad farmacéutica - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSHVKQWdzTmo4QnlDd3dPNVpIdTY4TFdfMW5fM2YzRi1DeW9ob0ttenhjb2p2ZEpxMmJZQ1o3ZUk0RjhneHNweFZoUUhFVkZIamxqU2pfMFBONnBDaEl2RnpnV3l2eFdKMlctZG9rRklYb2RPbUtfb21aOHhxUGhDSQ?oc=5",
+      "published": "2026-05-19T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -624,30 +954,20 @@
       }
     },
     {
-      "id": "2fce3cbdd74d",
-      "title": "Una planta pública de Colombia inicia la producción industrial de un medicamento contra la malaria - EL PAÍS",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQT1psZFhUa1NzM0tLWWh6aWxmZFFHbFRnUGdUY2Z3Yjl1bjlERVNEOUtYdF8xTThGeXVIdS1FdDlKRGpYcExfaElWYXd3U3dRSm83SDVmZWRWUEViOXlsTHprTVczZnFLaGs4Z2xGT0VYVWtrLXpXb0l3VTF3TVBQSmotWldjRWRpNldZcGtBUFRyLUNzQmp5V3ZCbWNsU1dzTmo3ZWdZQ1FuX21acEQ0UUp4UUswYzRsSHFuVWh2N1IydjVTc3hXYm1mZXl3VUlGblBsMkZTNEpXdnpvYW1HWFlQR27SAfgBQVVfeXFMT1E1eU84OW9mYW1CdXdxaEZlNnZ5dTZBV2NZS3hWcVQtTVFVUHBVcnpacks5SndzMXo1RTVfZFdIOW9wSG9WS09FNWpiQUZPbGNrQ3h6Ylk4QUhRTmkzZFhfU0xpdEM3QmtSeDRja3EtMmNsREgyT21TQUVXU3RNREFkV1FKbjJ3TVpoQnVvUW5NMVliWFdHdWdqU01FVjFSTlpqUi1GaXlGOFptNGR1enZvdnJJclJDYklIRFRRTVdEZ21LbW5FQ2wtR1Z4TGdQM0Y1SnJQcFVfOHZjeFMwSjY2Q2tNOWJGUmF3aFRlckYxeGlwM3o4Tno?oc=5",
-      "published": "2026-05-19T07:00:00+00:00",
+      "id": "c3a0fff1f61f",
+      "title": "Inspecciones sorpresa buscan agilizar entrega de medicamentos e insumos a pacientes de Manizales - Centro de Información – Alcaldía de Manizales",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajVfV3B0bzh2RDBrMldjREdMay1PaXY0cGxuLTlZV2JJYlpWZE42RzlaZHM3WXdJdVg5UlR2ZkxQTzNrVEZsUm0xcmVGNDl2NGoxWEFuTGlPdVFxbkU5XzZ0eUVEVjlUNHQ0ZVNlR3RtMi1Hc0ZwN29jemV0bmZ5NEZfN29tMU9hcDN2NnlWYnhTV29KWnc4by00dlhfM3ZPVVhJQl9lTXdqT0ZkWDRiZ1JxbFVETEFEOEVkTUR6R0d0S1JVN0tXN2d6Z3h5dVFmQktkTlFrektvQQ?oc=5",
+      "published": "2026-05-21T07:00:00+00:00",
       "source": {
-        "name": "EL PAÍS",
-        "url": "https://elpais.com"
+        "name": "Centro de Información – Alcaldía de Manizales",
+        "url": "https://centrodeinformacion.manizales.gov.co"
       }
     },
     {
-      "id": "b9957876dcbd",
-      "title": "Plan de Beneficios en Salud 2026 – Resolucion 2765 de 2025 - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5bUhnQzBaNVgzVjBRdnA5bV92SGlaczlhZG1qelVEWkRocUR3MlotVzR5MTJWNFRLbWIwTEVmTGNPUVZNNlR0ZDRTeF9ERzFPemVwWDVfX3BTa1dLc3FzSFIwWjVBRTg2Uk9hSQ?oc=5",
-      "published": "2026-01-01T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "234e78c168ae",
-      "title": "Circular Externa 044 de 2025: A reportar por MIPRES los medicamentos UPC prescritos en el ámbito ambulatorio - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5EWHVLa29JblRtRmJ1VkhaY0hlWFU2NU9ucWZVVV9pMkFTRWhWTWgwNElkMVR2b2VoOFJ5TERNOExZRl9GR3JaRlRJOGFrandWS2hUZXhqcE9FRnBRTVJLcHE5WExRSjJWRUJoUkdXbk51bGVJcWI5ejF2OTU?oc=5",
-      "published": "2025-12-31T08:00:00+00:00",
+      "id": "dd41232e8d36",
+      "title": "España regula la evaluación de tecnologías sanitarias: nuevo filtro para medicamentos, dispositivos y salud digital - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FYzNPMTlweUgxekRCTEtyVDlweVY2cWZYR3pPQ1JSNy1MamxsQXZmRDlfVVM4WWFiaWlXZlMwSkdSV3RPN3hsQ1Q1am1mbTBYeDV6bUxTSzhWMXJOVHczQ0s4aVBLanFRdy1uU2NJeDlzd0lnd1V0eQ?oc=5",
+      "published": "2026-06-01T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -664,136 +984,6 @@
       }
     },
     {
-      "id": "a48d0aad13f5",
-      "title": "La cobertura de Medicare para el medicamento de pérdida de peso GLP-1 comienza en julio de 2026. - es.qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRHhtSjFzRzhKUy1wY3NkTi1fYnNaU2xQRjNJcFN5VVBxWnB6SmJnUjlXV3AxUDlSS1k4WFpPbjVqMlQ3TmpMc3drN2EwYXlNQ0dnQWxNS2MtMDQ1Q2N0YmxWM09IcjVTakFTck50UUpPV0ZhV2tCUU11WC1kemg1WTVFTVF3UHhpdlc5Qm5VbGNreldyZ0t6ODQwWnloWmRZX09z?oc=5",
-      "published": "2026-06-29T11:51:57+00:00",
-      "source": {
-        "name": "es.qz.com",
-        "url": "https://es.qz.com"
-      }
-    },
-    {
-      "id": "791e80144700",
-      "title": "Medicare está a punto de cubrir los medicamentos GLP-1 para la pérdida de peso en personas mayores: Lo que debes saber - es.qz.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRTNodVhxUEE0Q05LdVpnLVdTV2tFUENrYW50RjRDSW9DOTR4WmpUSnc0R2l0d3c4a0o1UGhRLVllblNOZUJDY21JS1pya2xFX3pVOG5Ha3NFWVFvcTU5SlNteVY3YVVfaGpralpjaVF5bVhlTHQ2MDhKajRFOVZ0NktMREtNcGJnMmwzc0RsM1JUeWtNN2tqdXNTZVlUN0hJaHQ0QUR0bVpVUQ?oc=5",
-      "published": "2026-06-29T12:20:03+00:00",
-      "source": {
-        "name": "es.qz.com",
-        "url": "https://es.qz.com"
-      }
-    },
-    {
-      "id": "abc5c643bba6",
-      "title": "Cruz Verde dejará de dispensar medicamentos del PBS a afiliados de EPS Sanitas: ¿hasta cuándo seguirá la entrega? - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94MmNGbGlnY2w0UnUzT1FQUlVseC1ZZFNhXzBCekpwVW1pNllXUkxHa1dJY3FKdHJpczQ2ZE9tOVhCenluS3dEcFB4aUJBTlBITHZDcTlYTE9EZFVWc1NzZmZJWXZGMVFyRmFGa2U2SUtBRU5YS3NadGxZSGVKdw?oc=5",
-      "published": "2026-04-13T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "1f3a7e46b598",
-      "title": "Defensoría urge pacto por la soberanía sanitaria para garantizar acceso a medicamentos esenciales en todo el país - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNY1cyUlRwakhBVlI5T3RpMWJZUURUZGhESzNhTEF3NENXQk9NQmFOa0JfQXRUaWh3eTVVY1IxNGFGNm9SZmdLbG9saWdZRHNNZ2RFYXNQT1RDbmx1d1g3dmVUbjJtVG9VM2o4TzI1dnRHWWIwdklQdk1XcVppZmpycVlCbl9aWlltRm1XQWdPM2owWl9HbEhvanRSZ1dUR1Nic0ctV1pPazdya0Z6RmJsX3ZpVQ?oc=5",
-      "published": "2026-01-28T08:00:00+00:00",
-      "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
-      }
-    },
-    {
-      "id": "3921d1ffeef5",
-      "title": "Drogas La Rebaja entregará medicamentos de Nueva EPS a cerca de 70.000 afiliados: conozca cómo será la nueva ruta - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWXl0cWtJSURLUHV0dkhVZ19JNk1mV2xsVHdXSG1mVF91OGM2TXZDb1lkUkJ1QU80MDlqeVBneTA1dEdOV2hndFZKRnlEOVdTcDdzdlgzbkFXN1BvX2lCMlNhUkx3TzNjQ2dJdUs5MG1OU1BrRVE?oc=5",
-      "published": "2026-05-12T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "0216989b5d39",
-      "title": "La OMS respalda el uso de medicamentos para bajar de peso, calificando de enfermedad crónica la obesidad - UN News",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE90MDczcXlJWVB3ekdmZUIzMWxta2U0UWhLdnFlbkZxNlpDV3FBZlUzeXNoMk5KZ2hZdkw4cmNsUm5OMFNXcFVXUmM3SHBKNzZGbGRLaWdFUQ?oc=5",
-      "published": "2025-12-01T08:00:00+00:00",
-      "source": {
-        "name": "UN News",
-        "url": "https://news.un.org"
-      }
-    },
-    {
-      "id": "9a7357164092",
-      "title": "Europa y América Latina refuerzan su alianza para garantizar un acceso justo a vacunas y medicamentos - Demócrata",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdEh2aW04SmtFVFVGOUtraXZyZGNRZlZ6WFZuVXphcEhrRVFXVUpGZzdtb2x3Uy14cUxxUmVuVnhKZ05yN2ZhQ25rSHNveGl2Qlo4WWpLMzRuWldGS2JpVmlkM2VDNktYTjBkemNva3J1RkhBRzFXNEI4RlBRSTRsZnBuOHdzYy1yaGtDazRXaUVmRUtGbTBDaEMwVUNORUZmY1NMV3VkVEhiSlRnb28tZHp2cWo2Q24yeVJwazk5NmRSbE5TY1lGUkQ2dm5fVGQ00gHWAUFVX3lxTE56Rk1LWGR6WjBmR2VlbVNzTGxuQXptN3hQdXFwRDA2U0VjMVV0R1BuRElfY1ZRbnFlV1hocUtjd1BWTnlMNGFqYk1LSG0ydjRJZEZKZGVsV2llYXdSX19tV0hLSThqcVVuTEE2NENtVmp1S3c4SWJtLW5CbDRCZDdHMW1lMjhFZVB3Vjh3cUJGU0U2TnFKYVNiZ3VtdnVZN3hkb2RZSWl0LXd3QmZRSEdCYlo1QW9TcWZCVWVxMVJlZnRnUi1TRlBfVUstOUxSSGtlMEN0alE?oc=5",
-      "published": "2026-06-29T09:12:34+00:00",
-      "source": {
-        "name": "Demócrata",
-        "url": "https://www.democrata.es"
-      }
-    },
-    {
-      "id": "5af279c6ba49",
-      "title": "Desigualdad en acceso a medicamentos persiste mientras crece el negocio farmacéutico - Periódico UNAL",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXM5Q3FRV0ZhQS1vNm9TOGdqZWdUcXRIQ0ppcWVFYVdTM2gtNmo5QjBfOHRnbnJhOEtmdDFpWkZBSVhKZWJINkozNThxRF9mQXZJUFdMRXlnaF9naGZlSDBkR25INkpxVDRkNFBHX0ZGOU94M3NfYXM4OHVGSG9NY1dveXVTdkRsWDVJS2RfWW5NN2lZemdRWGVfZzB6aTlLc0N0NnZpME1UcDFsY0x2UlpjZDAtaXRtaXBOYXNjeFE?oc=5",
-      "published": "2026-03-26T07:00:00+00:00",
-      "source": {
-        "name": "Periódico UNAL",
-        "url": "https://periodico.unal.edu.co"
-      }
-    },
-    {
-      "id": "c7b396bf3e4b",
-      "title": "Ante reportes de uso indebido de medicamentos GLP-1 indicados para tratar la obesidad en adultos, la OPS pide reforzar la farmacovigilancia - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2poT3dYVC1ZRHpSVkJ4elN1YmthUXBpY1hMNnlZMmY1akNFRmFCR3lXUjN6ZGo2cWRNS21fNHdTbFM4andZM0hSYVdqWk5lRjdwQkdYWWthVHlqZEFOb1h3Y0RHcnRkbXJ3RVY1UF9MWlFuUXZDUF9BZzN5TE5QLXFSZHhIbm5kNUFadk9ubWd5Y0loem5qZ1VfOTVPU3lURl9SdEJpQVFQXzdZUGs1cno4RGExNENaNXc?oc=5",
-      "published": "2026-03-03T08:00:00+00:00",
-      "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
-      }
-    },
-    {
-      "id": "ab461fba6711",
-      "title": "Nueva EPS anuncia $482.000 millones para 601 prestadores y acuerdos para normalizar entrega de medicamentos - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE90Ylc4S04zSTA2MUJkamRnNlZZaTV4V2g1U0hNLWh0UmE1elgyOTlXdnB3SzRRZ1NWVDZMbFhHWXZiZFZJVW1DeDFjX0w3WGV5R29XbWIzWGQ0c1BiSExLYm5qbEZaSUN1ajBub002SlA3WEZ0bnBNbF9B?oc=5",
-      "published": "2026-05-15T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "b8b72a185cae",
-      "title": "Capital Salud transforma la entrega de medicamentos: acceso directo en farmacias Audifarma - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0wbVAxdEcyTE9iZzRoYWNXRFBQMzJVX0JoQnQ2X0diT0E2RlRTc283Nl9HbVZxaFZoZ1UyR3drWFIzTno5RVVBdV9NTkxiSzdjSlhiLVJnZ00tMUNja2gyNzAtOTI3ZkRaZHhiNHIzQnk3WGVkVy1vYUVvZW9sN00?oc=5",
-      "published": "2025-10-02T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "115c98f14848",
-      "title": "Luz verde para la construcción de nueva sede de la Planta de Medicamentos Esenciales de la UdeA - Universidad de Antioquia",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOVpLcXY1cEZLRF95SmNyQXRKM1VUZFp0Snk3SEl2NnE4SHk3S25UaEpsUUszdFZLc1hLV1ZEajdmMFBIMUtWS0xlMVVUek9kZXlnQ1ZCV3RyNGk4cHdaa1Y4S2ZOaDFEMlM3Zy1KN29YRGpHZnJjWFJEa2E2MDI1NndqUjJ6QVF3WjhIV2Z4amF5QjdKNjBISXNsM0FHSWhINDUxc1o0UEJKenFjZmpmZjR4aUhJelV0dWJoVFJ6V3c4SDVGa0JPUUpBd1VUZDJmWWN2OGd4WnE3QndhalE?oc=5",
-      "published": "2026-02-13T12:29:30+00:00",
-      "source": {
-        "name": "Universidad de Antioquia",
-        "url": "https://www.udea.edu.co"
-      }
-    },
-    {
-      "id": "c6e7ea6dc1b5",
-      "title": "La muerte de una mujer mientras reclamaba medicamentos para su familia devela el agravamiento de la crisis de la salud en Colombia - EL PAÍS",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUDkyQnhqcWhiUlVTNGMxbWQ0aU9RQnpfajA4MWZxb1ZyZEJPb01UMnV5UERRaFUtWklZd256MkJlaWZmSVBsV1JRX1Z3OEhoZ3JKUWM5ZS1rTzhvRldZSjRvRU1CUWVSSkN4TU83VEZ0UVFUWWxSLWhCTXFONnF6cWdrdlVzNGd0UU5yY3lSdVJKSjRFVWU5ZXNEWERNbU1TVjJ0c3NyZ2dHXzQyUXpiT0dTOWN2dF9ralprUlJjdGxGQWZpVVhhS1RVNVdRYmVqVWYzSDI3dlQ4aWd2c0owSDRBMFJ3czZXSU92SXRVeGNjRDB4N2Jj0gGLAkFVX3lxTE93OUZfU1hobWxQTU1HNlp4MGlvTng0UXJTcXZ4TzRkY1k3cGpiem9vTl9RcXJRSW5IcEFQdHNXWGU4OXFaZVRQazhDdGk3NnZnRGFGQzkzRllQTjZHQk9Tekh6X1hkU1Q5cWdEQTJhWUtzbWxTQ0JJWGZGN3lFTG9CZnp4YWpfajRLN3NmSW5KWFhQVk5tMkpiN214aS1uaWtsb19JWFR0Nk9QNjZfamE1UUQtUWZIaWtfclRmUjhtSWtmVnJ0VU9tMlF1bVh6Yk5SUmZnNlp2T1h1ZXNJS0pOa2VlLS1uMnp2N1NmYlBOWlJ0YTNHbGV3MUt3QjNGTE5Ud0U0bnVKR1NVZw?oc=5",
-      "published": "2026-02-25T08:00:00+00:00",
-      "source": {
-        "name": "EL PAÍS",
-        "url": "https://elpais.com"
-      }
-    },
-    {
       "id": "f9ec4b0d2882",
       "title": "Estados presionan a gestores de medicamentos para planes médicos en busca de bajar precios - Telemundo Dallas",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVTZCZXI5MXdRbHFoQ2xUSjNjWE9Qb01sRmVTWC02VmNmZi01cXhGRHNnay1aRXYyQVJwWVFSekdGTDFCNklZLWRvVEVOdDB0TlNqWmJHdzZ6N05LaTVGeWJqSFBfOGZuRHlKSEFRRFlsUlB1T1Y3NTdsdnhrQzJ4a0FoNUpHdnNzNzlicWd2STNEamVfRWoxd3dldHNFWHExVHgwOWp6RU12ZnRCbVZCRUtmMWI1N3QtQXBEUmNSeUNUNzNpMFHSAc4BQVVfeXFMTnltQkt3U3o5VjkxYjRCMDMxa3dqbUZ2cFRMd2ZvYUh2TjhGMlZ0dWhmd3VRLVRDRThXV1NGXzZIRGxmMEVxRjRXdnpYUFAyVjJ0aFduM3pRU3ZPNlpxTnB1dmdKYlNuZjQ4RlNTMHJzSW5UWjM5bkNTOHRlakdjZHpzZGplR3A2dkZtTkYwaXpIZ0JnM0JxdlppNkJBWnlyN3ItanhadE13U1hMaU9RWUF2YkFidHV1SHFzU0JCUm1ReEZYY3FVVGIzajY5YlE?oc=5",
@@ -804,203 +994,13 @@
       }
     },
     {
-      "id": "bfc897857851",
-      "title": "Estos son los medicamentos y tratamientos que las EPS dejarán de entregar gratis en Colombia - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUV5XzM3Y3FUNTRiRmFucm12Q0RwdEtDSjBVejM0a3NneUpiOXpMV1RmUlE2clNyNzBKSFZyRWlXMnNpa0xVUlJlU1RueHVmUmluRk1Ua3l0bTltcEs4anN6blBtWG44UGVuNkkzaXdueG9iZVVsamJQZEs4eWoxaDZ4QUZrY0pUbTdpcU9DTmhHcmlGdGltQjdMaWdSQ2JucksyTWswdG0zY19rWWNHODZNbWY1Z0kyR2NwRm1kTGhhNUZVbnJacG5UcDRMN25YdlNF0gHuAUFVX3lxTFA4YUpSV2dZY2M0cUNWa1I4U1lfbGd6RTdxMC1BY19KMXBDQmEwYk9OVUR4WFpqcmJldG5Wc0xzVFhXeU91ZUdza2JsbjFzSzdQSXB6cVkxRUdqMmM3LVo4cjdTWEx5ODdOZkNtWTRUZDFDVGVSYmF5Mk5LTFo3bjNRQ0YxaURJRkRzTHRob3F1UzhONlR2VXk1SkI2aExMWE5uam94b0ozMlFfZ05tcmhRSjRTeC1zdnFobS15STNXNUJkNkNmWUtOUURUU1YyNlhOU1ZsRUJxVkJDNXhaM24xZjRiTnYwVEpDZUlxQXc?oc=5",
-      "published": "2026-05-09T07:00:00+00:00",
+      "id": "9a7357164092",
+      "title": "Europa y América Latina refuerzan su alianza para garantizar un acceso justo a vacunas y medicamentos - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdEh2aW04SmtFVFVGOUtraXZyZGNRZlZ6WFZuVXphcEhrRVFXVUpGZzdtb2x3Uy14cUxxUmVuVnhKZ05yN2ZhQ25rSHNveGl2Qlo4WWpLMzRuWldGS2JpVmlkM2VDNktYTjBkemNva3J1RkhBRzFXNEI4RlBRSTRsZnBuOHdzYy1yaGtDazRXaUVmRUtGbTBDaEMwVUNORUZmY1NMV3VkVEhiSlRnb28tZHp2cWo2Q24yeVJwazk5NmRSbE5TY1lGUkQ2dm5fVGQ00gHWAUFVX3lxTE56Rk1LWGR6WjBmR2VlbVNzTGxuQXptN3hQdXFwRDA2U0VjMVV0R1BuRElfY1ZRbnFlV1hocUtjd1BWTnlMNGFqYk1LSG0ydjRJZEZKZGVsV2llYXdSX19tV0hLSThqcVVuTEE2NENtVmp1S3c4SWJtLW5CbDRCZDdHMW1lMjhFZVB3Vjh3cUJGU0U2TnFKYVNiZ3VtdnVZN3hkb2RZSWl0LXd3QmZRSEdCYlo1QW9TcWZCVWVxMVJlZnRnUi1TRlBfVUstOUxSSGtlMEN0alE?oc=5",
+      "published": "2026-06-29T09:12:34+00:00",
       "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "ec300530492d",
-      "title": "El Estado compró más de 140 mil medicamentos oncológicos defectuosos que acabaron en la basura - Salud con lupa",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRzc3QVVLMWR0TXF2bENUQzRkRTB5bmY4MXdLZWpwSTFxbjdXVXd1MXk3UTdTUXhwMGNWZDRQT2JpRThrN1d1MnNTcGZOLWdVdHc0ZUgzOG1saWxOODFQT3ZBenhxS1oySkVlSHExNGx4Q2JBQk1EdkY3THJxc0dlWjhoQ05RMmJvbUNwODQzczdTZjRtSXJGbDMyUFItMG9nMHdHT0gzU0l5cDJXM1NlZVNuSHdRZmFpRUpNZFdfZURjNUc0R2M3cg?oc=5",
-      "published": "2026-02-12T08:00:00+00:00",
-      "source": {
-        "name": "Salud con lupa",
-        "url": "https://saludconlupa.com"
-      }
-    },
-    {
-      "id": "985a912b6c2c",
-      "title": "El miedo a las estatinas: una calculadora estima el riesgo real de complicaciones - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUJGQ0duUkZnamVpMTNLMHpMV2Zwd3RGd084S1hJVWk3SXNqMnZGMTN6R0hKN3ZCVnFlTmRmSS05Nm5iazVMMkxjcjEzaHlwbVNQVGpDdTZZTzF4ZnpFeEd6WG1vdVlyWTJ2RzBmcUNTYU16MnliZ1U1S09TUlJEMnIyckVjTEdVWHJtSnEwcExEZDdaeThseWg5RURFYVdKSGkxTVRob01NNjZHRXhhbXQ1NGo0RUxCVXBoR0xkUnNtQQ?oc=5",
-      "published": "2026-06-29T05:40:48+00:00",
-      "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
-      }
-    },
-    {
-      "id": "4db9ec5668dc",
-      "title": "La circular 044 de 2025, no crea trámites ni barreras: fortalece la entrega oportuna de medicamentos y aumenta la transparencia en la gestión de los mismos - MinSalud",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNRVpMX05XaW4zalVrdmtTdld6eWcyaDA2OXVfclhJbW9HWDRvaWhZQUphR0FxMjBJRkRSZXY5d2czbTl0WTN1c3pDM2tYY1BEVUpCYXFjWVhPdk52N2ZiUmFwQkppclpvMXB0bFJvZkxhY2FYWFFkNGd4eU10YWlDVmJwSU9MMUJzUlZUeDZzanh6Vk5ZTjNOOG9GaEdPbVpmUFFUTFI5T2VBbXhxcU9Wd3hhVHBXZUIyY2pUVXhDbC12eUo3VG5SZko1aVhVN2x1dVBiX0pzQ3o1QzdPeG03dEJmWWthRENIZXZvN1pHVGY?oc=5",
-      "published": "2026-01-02T08:00:00+00:00",
-      "source": {
-        "name": "MinSalud",
-        "url": "https://www.minsalud.gov.co"
-      }
-    },
-    {
-      "id": "58a35a274e81",
-      "title": "Radiografía de la Defensoría del Pueblo: el 90% de los pacientes no recibe sus medicamentos y las tutelas por salud aumentaron un 34% en el último año - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBybnFLaWl3cWVoVFVuc1JnTWpRZ1NOanA4LU5wVmhDd0R4S1YxMmZpaHJ1RlVpcTdpbGwtMlQ1bm1ta2otdXdrb3lxT1lJeHQ2VXUwZ1dBclY2eEdHbG43aWJmQXRRZEY4TllDZTRIdXJZX0ZXZk9CYWdpc3k?oc=5",
-      "published": "2025-11-05T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "1d625e97f7ed",
-      "title": "Capital Salud eliminó el 80% de autorizaciones y logró cero filas en entrega de medicamentos en Bogotá - Bogota.gov.co",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMnJBVk8ySUh4WkR2SEpqY0h5azJEZ3pBUlFnMTkxbFJnRUsxZlRiR1lvWVJjUzFCMVZLQV9yZkw4aEJUS2Zhd1dXQ0RSSHQ5anlzbndITW9iaE1KeHlUeDk2Q3FSQjZzOW44b1JMdzB3cVJ5Z21hVmNCeU4wbFcwNzVGcm9lSGdmS1UzMmN3RVBKUEUxVXZMR0gtRnc1c2dreHZ4ZVphb3pwUQ?oc=5",
-      "published": "2026-03-03T03:04:09+00:00",
-      "source": {
-        "name": "Bogota.gov.co",
-        "url": "https://bogota.gov.co"
-      }
-    },
-    {
-      "id": "684cb28d4f0a",
-      "title": "La revolucionaria técnica que permite observar en directo el recorrido del litio en pacientes con trastorno bipolar - Gaceta de salud",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQNDE0UGktLVVHWDEyY1hwWlhhM0dPR2hzU3Frc1BFNXFkNVRkWlZHa3lKS1BEUE84NnZkOFR3aUN2VnJBU1J4M19nc0lCMDkxU1BTdHE4M01kUmQ0LUpNakMzQXdKal9ybTlhN3MzbDhqZUxna1hSTEVkYVNvTFpia3VMZFhwNHNLMk1BYzZYcFdmazdGd2tkbzcwdFZ6NzZTTWhucHRZT0NVS0lNMXNKNFd5RVgxdXJWU2pyejdPMzREamVyeExWZFQ2cEs4TVZyZWg2b245cW53OS1lTVRPTzV1VVpEbnFsNWZiQWNYRTBGYVh6aDRiR2c0TGM1anlvbkEtc0pFUGVCcWFIcXFTU3VkVmZwSnFNeTNTVmx2TUxHakhRYzNoRw?oc=5",
-      "published": "2026-06-29T10:45:42+00:00",
-      "source": {
-        "name": "Gaceta de salud",
-        "url": "https://www.gacetadesalud.com"
-      }
-    },
-    {
-      "id": "d6cc3520aa96",
-      "title": "Capital Salud elimina 80% de autorizaciones y amplía red de farmacias para usuarios - Bogota.gov.co",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRzBOd2k3MzhNSldKM2VOVzQ3QU5IWnZwa3RuWjVBQnlDQkd3WFlYWnBPcGR0aW9ray1KaUhMUnlmdzJrZFpSUDR5OFlMb3Eyei0xQi1qVlVhdGJsaFR3VDk4RFotM3VHQmlEbU1vdjE2SDMzWjRJbVBpUTlrRnAxcS1ialZ2VmRNS3NDTVNuMFZjdk9hY2VQMmxVTUUwc0dFMmw5b0pYNFdENFU?oc=5",
-      "published": "2025-10-01T07:00:00+00:00",
-      "source": {
-        "name": "Bogota.gov.co",
-        "url": "https://bogota.gov.co"
-      }
-    },
-    {
-      "id": "7aa576552fe0",
-      "title": "La 385.ª Compañía de Cooperación Económica (XV Cuerpo de Ejército) proporciona exámenes médicos y medicamentos gratuitos a la población de Laos. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS1FuTjZETTd0NVFlR3hTVGc1VTlNcW1wUHA2Sm9vbVAtbUVGTWZoVEllalkybE9HdzdONWU2TkxJc2EybkxUMkstTkhZSHpVeUJoVFVKUFBaYzBKYmVzU3ZuaklQXzQzZUx3c2V0U0t2VWJ5Z3FhaUY2NVlDWE5ncUFETk9sVGlwMlV0cG1qajd2Um9FS2ZmQ0prM2Y3OFU3LVlaUW1sYzdYUElPZkt6QlQxMHRFNHkwZlE?oc=5",
-      "published": "2026-06-29T13:36:14+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
-      }
-    },
-    {
-      "id": "937df249161d",
-      "title": "Nueva EPS y entrega de medicamentos en Tolima bajo presión por transición del operador farmacéutico - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95Y21DaUp5aFR3MkJmeUxwUEpsUjJhRFd0cWI2b3dNbmg3aGlHNGwxTm44dUlvaVVLYzV4T3JvUFhHamdpYzE5LUZfSFhNWExSUmtUTnZyY1Rwb1kyZ2RIV0VmX1hvUnNnN0xSVm9HYTNfcktlYkkweFA5LWMtQQ?oc=5",
-      "published": "2026-01-20T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "bd4dd09019b0",
-      "title": "La PGN estableció que la falta de suministro oportuno del medicamento incidió en el deterioro del estado de salud del menor Kevin Acosta, lo que pudo generar su fallecimiento - procuraduria.gov.co",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOEJkZ0VXWV9ySlhoWENfQ1V3TEVnV20yaUlxd3ctQzRjbER1blItaGVIM3dTb09MbzQ1cjBrQXdDemZ5Nkp6dlFjZUFYZXgyVWpEOXl1T2NpWUdnLXNORWdMR2ZOV2RvNXUtVjc0OVZ0OUU1a1oyLWhvOXJfS3FUUEdaQkt2UEF4di1JeDhvYWZjQ2I4TW1sQ0dKenpzWlpuREtRMWw3aFA5bGVrMkNNUGxJTFFJNHBYWUhEZUhVTzh4aklfUVRBT3RzVmRFdDlGUFY4?oc=5",
-      "published": "2026-03-17T07:00:00+00:00",
-      "source": {
-        "name": "procuraduria.gov.co",
-        "url": "https://www.procuraduria.gov.co"
-      }
-    },
-    {
-      "id": "2b35e46597fc",
-      "title": "Nueva regulación del precio máximo de venta de los medicamentos en Colombia (proyecto circular 20 de 2026) - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE52OVVxMExlUk9QN210cEt2VngxNjBPVzluelRVdG84R0YwYVhwXzJjTWppRUhuMUdILUZGNjk4cDJ5R0dobFkxc0Fjc2p6WlQxVHdfSlAzVWpwcXB3QkFKNUhpLVV5dWxoYUZGcHktMXM0UWRFcEE?oc=5",
-      "published": "2025-12-27T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "d829a66aed4f",
-      "title": "Gran Plan de Salud de Trump: propone pagos directos a ciudadanos, recortes en medicamentos y “máxima transparencia” de precios - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUzg2ZHhLM2s5d3VVbk9EVHRqZVRuN2M3X3VoN3VHLTBwQWowcFFQRlliMzZCeHZXUnRJcGtXUUhSUV9jRjJNd2VkemIyZDNkem5iRWpCNFRXTFpUazlXYlZTd1ZDbUhYMVR0TS1HbzhmdkMtUEJJTUVyN0dTMkZHOA?oc=5",
-      "published": "2026-01-16T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "ebb0487720ce",
-      "title": "Supersalud presenta avances en estabilización de giros y compra centralizada de medicamentos - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nRFZEWnhOYjZwd0JRUUlCbTh2Mmx2Smh2bkR0RURiMGd6V1BVZ1BWVU16LTJlZWs0bFRENXhOMWtYbnpwamNxT3pXTVRvaThxQ0xjMnVlQ3E0clNMRXRJSjAxOUpIcEtsYlRoQ2l3QmZQU1QyM01xRUJFZWo?oc=5",
-      "published": "2025-09-02T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "fe6e8621d325",
-      "title": "Corte Constitucional alerta: incumplimientos en salud por sobrecostos de medicamentos y negaciones de servicios - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBKWm9rRmJ5S09sdkx4RDZOd1Fjam8xWUVUMzVDZExQdWtFRG9SRkFXelFBTFoxWktJYVlLS2pPWWxUeU9RN3Fycm11YVlBb01sQVhOSnNSNkNtNXdpbFR4YUtLbE9qYWdsaTFKY0h0RFpwRk5mZnc?oc=5",
-      "published": "2025-10-03T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "cd77ee51467f",
-      "title": "Actualización de listados de estupefacientes, psicotrópicos, precursores y medicamentos de control especial - Resolución 116 de 2026 - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9RcEpVRkdTcXVpU3hOT2JqMXRNRTRLX0x5VTk5TGpkbXFZM09wRlV2VjJOUUlNeDA3bHBHdWQ0U3dKUXk3SWc4R2tEYnAyMjQzY3E1OUxRYTg5ZUVsUEs3Y053S0lXVC0ydXg1bkFjLTZPOFBTbGdSZHJJelE?oc=5",
-      "published": "2026-02-03T08:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "87858cf273ab",
-      "title": "Gobernación de Antioquia envió ayuda humanitaria con medicamentos y vacunas a Urabá - Gobernación de Antioquia",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQamR1NHpTelJKSHJTZHhPOTMtUi01YktDUURJeWprRGlYbDZldVE1ZGRLek5JTnVDZG52SHBKVHJhZ1dIRThpTHpJOExYQ3FqMks3d3J6N1ltd3Boc1FCbkhRUWZpMTlTc3NLSWc3UERjYXBzZ05fdWltN1pudHZSTFVzM0hnWlpCMjdadnFCUjViNW1GNUhSN0dNN3FiUmRPNnI2cjNPTDJFSDZZTHU2RjZEM1B5RGM1LXBBemgtTUdFaEZGeG9FNWJaTjVBTkk?oc=5",
-      "published": "2026-02-15T08:00:00+00:00",
-      "source": {
-        "name": "Gobernación de Antioquia",
-        "url": "https://antioquia.gov.co"
-      }
-    },
-    {
-      "id": "64652252d513",
-      "title": "Minsalud alista proyecto de circular que actualiza el reporte SISMED y fija nuevas reglas de reporte para medicamentos - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5OWWxVaERCT0JEQ1plNjNsdk5mMEhsTU85UTlITGVNaV9ic1I3d0lhaGlqOTBOYnNKNnJnczJINVRUUjlUY3pvNVFPOHJ0SUNVYUdZeHptX1QtVGpRZFpNYkRCY3Q0dkgxYm1EdWFpdkc1Qm5fZk9kYQ?oc=5",
-      "published": "2026-03-09T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "bb1a8427cacb",
-      "title": "Por la protección de la salud de los colombianos - policia.gov.co",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBxaWF0cDc3WFVvWkFxdU1TRWlRMXBWcHJfODVwVFZDWFVDRkVNbllDekQ1dkgzd25EMXVRUWppNzZ6SWQ0U3d0NEVvMGJPMG9XTWI3dnBZdm5qQnQ4b1RZRGVfVUM2U1pxelNmNXJhd2JCU3BsTmxTNGtEZw?oc=5",
-      "published": "2025-11-04T08:00:00+00:00",
-      "source": {
-        "name": "policia.gov.co",
-        "url": "https://www.policia.gov.co"
-      }
-    },
-    {
-      "id": "f5983d370569",
-      "title": "Ojo: estos 100 tratamientos ya no serán cubiertos por el sistema de salud, sino por su bolsillo | El Colombiano - El Colombiano",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMTZCZEdPR3Z2UFZpa1NhbmxTdzZqNG94cXh3amFnOXhEb0lkQnc3bHRCellWcHBYTDZaUjFfa2l5b01XQ2NtTzIxSDBjaHFBajh4NXlBTzhjQ3Nydk81WWJuMWxTSVo3RkdIYl96NHIybzlIb3paTDVCOEFCQmZrRk5EaDNiZE5pS0NqOTUwekZkVTZOaWfSAZsBQVVfeXFMT19lckZicmV5SDV5MkE1Mm5QVEl2VW11WFp1NFItSTE2aXFBWGw0TWxselRCLV9KNGZzd1NqanZTbnBLZU1OTU5EM1lKejNHQnpmQmFTMWdiLUNKWk9Qal83MnBYOE9uR1ktUEhTbDFGNkFQYWppSTRnWW9wSzVBZ3BTTkZCUUtRd0Y2UnpqU1F1dkxZMXV4MGMzSTg?oc=5",
-      "published": "2026-04-23T07:00:00+00:00",
-      "source": {
-        "name": "El Colombiano",
-        "url": "https://www.elcolombiano.com"
+        "name": "Demócrata",
+        "url": "https://www.democrata.es"
       }
     }
   ]
