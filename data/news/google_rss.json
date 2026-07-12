@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-12T20:47:57.079155+00:00",
+  "fetched_at": "2026-07-12T21:50:11.695715+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -54,16 +54,6 @@
       }
     },
     {
-      "id": "0ffde7863596",
-      "title": "Los expertos tienen claro que Ozempic no es perfecto: \"Perder peso no significa automáticamente mejorar todos los aspectos de la salud\" - Xataka",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ1Z6VGFQbGZ2WTdwU1h5eDNMRzQtNWpfcWYxeW5sdUcyV1JFRTNfNDJkbXhnU0xmSDhFZWFERkY4M21IRF9LZkpxUk1LalpTWUhXMWM3ZjVuTlpTYTJhOVYzMG5kWDg5akNiWjhWY21zeDMyQW9GWXloSkhxV3I4V2dCeGJZMkN6OFc3LWlhcXpTM3NBaFhOczM3WHZERE42WWxQWVZJeW4tU29fbXJFYXNoazdfM2tXbV92RW1nYkVqMFo3b21fNXpONmJNeDdvejEydlZBcm1MbkRqWHlRQVdkRVdieGJfdkYw0gHwAUFVX3lxTE9NNzJjOUFuZHVUTGtxU0lDeWdRU2NLdlNEZV9yU1k0WUdmSEVKYmFTbkpJNlp5X2JRYlFCYTczemdjVzNNQkFmX3c1eW1uRXI3VDJDMm5Xb2EwRHpzdWZ6RTlSV2poRTRQR0d5TlhnVEE3N1VXUy12WXRxc0xhQzM1U1lJUFdGc0s2b1RENV9TZmNUMmFDbUN6M3RPTVpvRjFjX1hIVXREMVVzbXVwR3FpZk5tUUQyTG10eHVoMHNSMkZmdFB5QWlMUzdnaUVHMEFRODlrSF9Yd2d0WkUyRzgtUWFEUHFaalZOVHRoOE0tVQ?oc=5",
-      "published": "2026-07-10T16:01:58+00:00",
-      "source": {
-        "name": "Xataka",
-        "url": "https://www.xataka.com"
-      }
-    },
-    {
       "id": "afc415d16b55",
       "title": "Alerta en Bucaramanga por panfletos que ofrecen dinero a cambio de medicamentos contra el cáncer - Noticias RCN",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSlJTbkJ0QW1ZeE55MTBiU19XWFpFV3NtbHVISkxLOENvb3l5SV9QOEFfbXF0UW5YeGtNeWJUY2pWOUJXZXNBVU5qcDI3TFJmSmhqVU1DbzNkbjhHbEd2WUx2aHlWT2pHeWpuT0pPR05iQUxUb0c2U1dsSkI0d1o5cE4xWkFsN19fdkVtbGFjNmdfTEtvSHdPckF0NmRhNHh0WHpEUUtiR1lCN0xHaEExUWN3RFBWWVVkZEHSAboBQVVfeXFMTk5IMDRVUHJWV0NGbEhpcU5kQmJ3TTFST0ZzUG4tS3Q2QkpndzJqaWRjazB0azZxNWdnWmFGQzFHenE4SnZpdkpMNlRnNHhQMGxlWmpUN2Z0Z2tDbnpFbDRtTUFFd0ZxYmtXblpFQXlWZkV1ano2Q2dHdkFGdUxtNDd2YU1MM1FvcDZqZUw5UkhVdXRiUnl5N2hVRF9DN1djU1JOeXVBWmZuaHloN1k3SlRUU2g3ZTljcGhR?oc=5",
@@ -101,6 +91,16 @@
       "source": {
         "name": "elpais.com.co",
         "url": "https://www.elpais.com.co"
+      }
+    },
+    {
+      "id": "76c282b018be",
+      "title": "Supersalud reporta caída del 22 % en las quejas en el sistema de salud entre marzo y junio - bluradio.com",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORTEzcXBpbDY0M0NtYU1QTDRDZ3N6OWJLNEFTMzNNckNmVmZRZ3hkZkxoM2tkU1V4cE9VTnZWTGg2cVg3Smc5d1hXV2hZSWxuaVhlSE1YVEJDM1N3VVlKaVpoZ295elJ6dHVwSmJHSnJlMEtvYWVpa2VNNzFweWJnNHFiTzJ5eDBnUDN6VGlvN0p3YXRqY2xhY2FQZlFjMHZHUlZHTHI1ZGhkOG5MQWdvejg1eG1fM1NmbVRQUmJhRm4wUdIBzwFBVV95cUxOVWszemJYRkpXRnFwR1k0RWtCYTBzVHJ1OWxjTkVST0FoRnhQY2FNUjJtT2NlUWE5WGJZVE1saEZjalRTZVFuWXMyT3FjTFYwbFNKV21FWmU1YkdEQlFoQzZEa1lKOTNfWlhVQ3JWWE1sMTE5b0dJMVgxYXVaQll2WEJDSUs2QU12blVldUdaRUdveVB3UkhmT1o4Q2tpUXNsbmxSc296TjJna3BkcER2dTh5SExwVEtIRG5iM21OeUtKOVJxQUFldElRcm0td3M?oc=5",
+      "published": "2026-07-11T18:55:36+00:00",
+      "source": {
+        "name": "bluradio.com",
+        "url": "https://www.bluradio.com"
       }
     },
     {
@@ -244,26 +244,6 @@
       }
     },
     {
-      "id": "e18ce01f810a",
-      "title": "Los remedios de uso crónico para jubilados subieron el doble que sus haberes en los últimos 60 días - Diario El Argentino",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSjl4cmNMelV4UmdvZzhjdzFOc1NRNUNibTVzMExTUUZ1OFM4STByQ0o1YUlGT3BvZ00xMTM5YXNHenBBMzUyclc4QnBTb25YMnprOS1HQVkzU2hTX0RRdi1ZbUczZGFwZHpCY01KNWM4T1J6ZEliLU1Ub21IQlhDMGl0eHgwelMzRnJMVlNRQzN2TUF4U3YwWWFYX3E5a2xQUWowbkxQck1yRnZ4QkJYamFlSmZWWjk3a2dRZENwb1ZLdFIxMThDaEYtVWRRSlN0ekRCNNIB0wFBVV95cUxQdHNnR0UtTFN1dk5DZWQtQTNIX1h4dEZ3RGVGVnViRlRPZDViTUtZUXZnaTIyRV8waWFKMDBMbGJqeER3eGlyandzLXB1UXRYU0RmRUNfMmozeW1Mbmdfb0VLZFJvY0lxYXROc2NuV2poN1lwT0t4czBDOF9vT3FvS0hFWWV1WU43QXV0ZmU2UmpKTUhtNkdOQjAtZE1VazZPWHlnNVQ0S0FjdXh1NzVXMTN6ZmdPOS1iQlR5SGdvalR6WUUtVU43S1pmdlUxaXB4TE1z?oc=5",
-      "published": "2026-07-12T17:30:00+00:00",
-      "source": {
-        "name": "Diario El Argentino",
-        "url": "https://diarioelargentino.com"
-      }
-    },
-    {
-      "id": "0a44f2bce74b",
-      "title": "Camargo analizará el uso seguro de las pastillas para dormir ante el aumento del consumo de benzodiazepinas - unican.es",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IOXVrNmt5bkFXOW9sZ2lGcDVydEZIMlZqNWV5em9BNF9hb0VqQTRiZHltNGlOR1BDemQxVl9ZZVF5cXM4NElLaWRuMDlCWUw4T0JwbGpMekhjVmlidHNvQXE3Q2lnTGdZMTJCV1hhNTRvRkdGQTR4czR5TkItYVU?oc=5",
-      "published": "2026-07-12T07:03:03+00:00",
-      "source": {
-        "name": "unican.es",
-        "url": "https://web.unican.es"
-      }
-    },
-    {
       "id": "e2e2d31c7cfd",
       "title": "RDA de dispensación de medicamentos en Colombia: Minsalud cierra el ciclo de trazabilidad farmacéutica - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSHVKQWdzTmo4QnlDd3dPNVpIdTY4TFdfMW5fM2YzRi1DeW9ob0ttenhjb2p2ZEpxMmJZQ1o3ZUk0RjhneHNweFZoUUhFVkZIamxqU2pfMFBONnBDaEl2RnpnV3l2eFdKMlctZG9rRklYb2RPbUtfb21aOHhxUGhDSQ?oc=5",
@@ -291,6 +271,26 @@
       "source": {
         "name": "Defensoría del Pueblo de Colombia",
         "url": "https://www.defensoria.gov.co"
+      }
+    },
+    {
+      "id": "e18ce01f810a",
+      "title": "Los remedios de uso crónico para jubilados subieron el doble que sus haberes en los últimos 60 días - Diario El Argentino",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSjl4cmNMelV4UmdvZzhjdzFOc1NRNUNibTVzMExTUUZ1OFM4STByQ0o1YUlGT3BvZ00xMTM5YXNHenBBMzUyclc4QnBTb25YMnprOS1HQVkzU2hTX0RRdi1ZbUczZGFwZHpCY01KNWM4T1J6ZEliLU1Ub21IQlhDMGl0eHgwelMzRnJMVlNRQzN2TUF4U3YwWWFYX3E5a2xQUWowbkxQck1yRnZ4QkJYamFlSmZWWjk3a2dRZENwb1ZLdFIxMThDaEYtVWRRSlN0ekRCNNIB0wFBVV95cUxQdHNnR0UtTFN1dk5DZWQtQTNIX1h4dEZ3RGVGVnViRlRPZDViTUtZUXZnaTIyRV8waWFKMDBMbGJqeER3eGlyandzLXB1UXRYU0RmRUNfMmozeW1Mbmdfb0VLZFJvY0lxYXROc2NuV2poN1lwT0t4czBDOF9vT3FvS0hFWWV1WU43QXV0ZmU2UmpKTUhtNkdOQjAtZE1VazZPWHlnNVQ0S0FjdXh1NzVXMTN6ZmdPOS1iQlR5SGdvalR6WUUtVU43S1pmdlUxaXB4TE1z?oc=5",
+      "published": "2026-07-12T17:30:00+00:00",
+      "source": {
+        "name": "Diario El Argentino",
+        "url": "https://diarioelargentino.com"
+      }
+    },
+    {
+      "id": "0a44f2bce74b",
+      "title": "Camargo analizará el uso seguro de las pastillas para dormir ante el aumento del consumo de benzodiazepinas - unican.es",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IOXVrNmt5bkFXOW9sZ2lGcDVydEZIMlZqNWV5em9BNF9hb0VqQTRiZHltNGlOR1BDemQxVl9ZZVF5cXM4NElLaWRuMDlCWUw4T0JwbGpMekhjVmlidHNvQXE3Q2lnTGdZMTJCV1hhNTRvRkdGQTR4czR5TkItYVU?oc=5",
+      "published": "2026-07-12T07:03:03+00:00",
+      "source": {
+        "name": "unican.es",
+        "url": "https://web.unican.es"
       }
     },
     {
@@ -334,16 +334,6 @@
       }
     },
     {
-      "id": "e8843b8cb0f6",
-      "title": "Guillermo Martín Melgar, farmacéutico: \"Si tomas medicamentos nunca deberías mezclarlos con el café\" - El HuffPost",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSmdKelRiZWVBUlgzd1FTaUZySENLRDY2TjVFMlFDbUlJcWtvUmx2WFV5TlQ1QVNveG5DY05BcG4wa2FCU3FKZmdBeU1LX2czY1RmeHBWbFlyZzNlUmxRRFNMTGliemVpQ2hxcFpNUXRBVXpZa0VHamNBTU9rLXlwQUFfeG5NWFh1UDJtUWt5YWw3b2Nha3o3VnN0VXJJVDFZQjBWdi1wTlJtNVlBZnZGaWJUUXlDclJid3BlV0VhTU1JTGNYd0xDdTUzMWR4SlBWTFhzSmZ6dnUwVnfSAe8BQVVfeXFMUEQ3RXA5Vk5uVWdoUjRPeS12b0FFekJTMjNtei13OW5zZDk5MTg0SE9FT1JwR0EzdG5Zbkl1RUNFN0J4TDdkWmhpX0hTN0lxZkFMVzNZZmp4a1poVE1rcmlZQXI2dml0Wm5EMXBnMGthU08tN1lmLUtrYXFxQnZuRVRONk9JTTFJZHJJUmk0QzBfeVliNF90VTNBWkpVRDhhX2J4TnNvVmxMZldya3B2YW1uUU1pS2ZjdUJLTmRmSG9YcUhzMlZSWVQ5TFBBSDBrWndhTWlya2E3S0dCNWVoSU50UmRvZDVxSC1UMlFncGc?oc=5",
-      "published": "2026-07-12T17:00:06+00:00",
-      "source": {
-        "name": "El HuffPost",
-        "url": "https://www.huffingtonpost.es"
-      }
-    },
-    {
       "id": "95ac2be30c47",
       "title": "ADRES e Invima firman acuerdo para analizar prescripción, suministro y gasto en medicamentos - ADRES",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY3NObnluVVRTTkNYdk9aMEtFczRyTF9JYV9uMjVhUEJQUWd3SFhRbmRNZklGNU94aVcyZFlvZTJjV0wwZFpOczl4cDlqanBLcC1KY1A4U00tYmtxcVZydmFuWGMxemNNejNZOWtmNlBJQ2pFRl9xa251MVJXVmx0VmJqb1Z1aG5CNG8xSFMwSHI4cWRYdTJyNF9veWVncnhQdE9IUFowSzBoTkZkRWNMaS1Td3Q?oc=5",
@@ -361,6 +351,16 @@
       "source": {
         "name": "Diariofarma",
         "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "e8843b8cb0f6",
+      "title": "Guillermo Martín Melgar, farmacéutico: \"Si tomas medicamentos nunca deberías mezclarlos con el café\" - El HuffPost",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNSmdKelRiZWVBUlgzd1FTaUZySENLRDY2TjVFMlFDbUlJcWtvUmx2WFV5TlQ1QVNveG5DY05BcG4wa2FCU3FKZmdBeU1LX2czY1RmeHBWbFlyZzNlUmxRRFNMTGliemVpQ2hxcFpNUXRBVXpZa0VHamNBTU9rLXlwQUFfeG5NWFh1UDJtUWt5YWw3b2Nha3o3VnN0VXJJVDFZQjBWdi1wTlJtNVlBZnZGaWJUUXlDclJid3BlV0VhTU1JTGNYd0xDdTUzMWR4SlBWTFhzSmZ6dnUwVnfSAe8BQVVfeXFMUEQ3RXA5Vk5uVWdoUjRPeS12b0FFekJTMjNtei13OW5zZDk5MTg0SE9FT1JwR0EzdG5Zbkl1RUNFN0J4TDdkWmhpX0hTN0lxZkFMVzNZZmp4a1poVE1rcmlZQXI2dml0Wm5EMXBnMGthU08tN1lmLUtrYXFxQnZuRVRONk9JTTFJZHJJUmk0QzBfeVliNF90VTNBWkpVRDhhX2J4TnNvVmxMZldya3B2YW1uUU1pS2ZjdUJLTmRmSG9YcUhzMlZSWVQ5TFBBSDBrWndhTWlya2E3S0dCNWVoSU50UmRvZDVxSC1UMlFncGc?oc=5",
+      "published": "2026-07-12T17:00:06+00:00",
+      "source": {
+        "name": "El HuffPost",
+        "url": "https://www.huffingtonpost.es"
       }
     },
     {
@@ -454,26 +454,6 @@
       }
     },
     {
-      "id": "f287da3384c7",
-      "title": "Un ensayo clínico apunta una terapia para aliviar parcialmente la fatiga del covid persistente - Somos Pacientes",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaThWNDg5WFJwUng5MEdnbzJ0VlhYZktHazZpYlFENUwxWW15ZjNyU3cyX21nTXYzMnpCQS1IdzdiVjZNQ2dreFVPQVhfMVRKT0lQT2VTa1JSZlB3VlFQU1dMbkFnM1BOWVk2bGZyWnZQYWdmck1NTFJicFpsX0JpSVpld0hZX3dzb2psRmZpMHFCblJGTzNUWVE4bU0xZk5zc1hkT3ZrRTNQdGJXR0s2QmQ0dUtnbVNNVTJuZFYtOGtTcHpoOW1ZUG9tbUxjOHJ2T2tFM3dHUkxpLVBWNnhWTzRFb3NFQXpQ?oc=5",
-      "published": "2026-07-12T11:34:46+00:00",
-      "source": {
-        "name": "Somos Pacientes",
-        "url": "https://www.somospacientes.com"
-      }
-    },
-    {
-      "id": "151833ade0c3",
-      "title": "Atallah: \"Ningún niño con Atrofia Muscular Espinal quedará sin acceso al tratamiento que necesita\" - Diario de Salud",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXYzRThVcWEySlVpYWZ2S3pCMkI4ZzNPdGdSTy11ZVB2N1oyWGgtYjI5bXRLaVNSaDQwTFh3X1VSdUs1Q2hXelJlSXNycS13TlZCaTNuTHBRQXRmcmU2c0dxVFdNVmVnamZzTUxUM21NVE41bHUzZTJXUUh2ZWNvSTZnc0xRQTdPcjhVOTNHenpqQVFIcEhZempIb0Z0TkhxZ19TSFhzMlFQVnVWWDVGeUVKR0Z1QlF1U0hQWXVKRHdpX2p2RFU2R3ZPVUFnb1NlZzFxX2FMMVVoUQ?oc=5",
-      "published": "2026-07-12T19:35:00+00:00",
-      "source": {
-        "name": "Diario de Salud",
-        "url": "https://www.diariodesalud.com.do"
-      }
-    },
-    {
       "id": "5315501bbb63",
       "title": "“La salud de los vallecaucanos requiere soluciones integrales y urgentes”: Gobernadora tras llegada de medicamentos en respuesta a Emergencia Humanitaria - Gobernación del valle",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa2h0Z1VHa2UyUkp3WWdGdXV0bTh6emNheENBMEhUbWNiMXlpUzg0X3ZGcVJJLWpoMGRDdUp2X0g4Wjl2Sks2eVRuVzE2X1doMEJRX0l4OFBNeVZiTkpRem12a2xocnBWRXNvRUEzVzdmWkZBSWIzcm5Tb2ZEejEwaURfaGFELUt1Rk96SDZJNDJfVkxMV1hkVnA1a0ttXzJyTVhRT3hBb25Ca2ZCT3FZcFRmYWVtRUV5d2M1d2Y3MnNORUk?oc=5",
@@ -494,6 +474,16 @@
       }
     },
     {
+      "id": "f287da3384c7",
+      "title": "Un ensayo clínico apunta una terapia para aliviar parcialmente la fatiga del covid persistente - Somos Pacientes",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQaThWNDg5WFJwUng5MEdnbzJ0VlhYZktHazZpYlFENUwxWW15ZjNyU3cyX21nTXYzMnpCQS1IdzdiVjZNQ2dreFVPQVhfMVRKT0lQT2VTa1JSZlB3VlFQU1dMbkFnM1BOWVk2bGZyWnZQYWdmck1NTFJicFpsX0JpSVpld0hZX3dzb2psRmZpMHFCblJGTzNUWVE4bU0xZk5zc1hkT3ZrRTNQdGJXR0s2QmQ0dUtnbVNNVTJuZFYtOGtTcHpoOW1ZUG9tbUxjOHJ2T2tFM3dHUkxpLVBWNnhWTzRFb3NFQXpQ?oc=5",
+      "published": "2026-07-12T11:34:46+00:00",
+      "source": {
+        "name": "Somos Pacientes",
+        "url": "https://www.somospacientes.com"
+      }
+    },
+    {
       "id": "331b9b9eda59",
       "title": "Usuarios del sistema de salud tendrían que utilizar hasta el 90% de sus ingresos para cubrir medicamentos que no les entregan - Defensoría del Pueblo de Colombia",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdVQwSUhmbGlMa0FhVUo4VlpsS1Jpa1ZWbDRaVGQzMlZnU1lHRlhRQ1VEdGNEaFMxYWF6NFlpRVJOcU4wMThTcnRCdlQwX3Z6YkxveHpHWTRjcTVmRnRpeTI5VE5YUlpBRWVGNDNVazdsNzYxRjZRWFA5YWhNMlVEZVpNc3ZsZDA1clh2LVdB?oc=5",
@@ -511,6 +501,16 @@
       "source": {
         "name": "Defensoría del Pueblo de Colombia",
         "url": "https://www.defensoria.gov.co"
+      }
+    },
+    {
+      "id": "151833ade0c3",
+      "title": "Atallah: \"Ningún niño con Atrofia Muscular Espinal quedará sin acceso al tratamiento que necesita\" - Diario de Salud",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQNXYzRThVcWEySlVpYWZ2S3pCMkI4ZzNPdGdSTy11ZVB2N1oyWGgtYjI5bXRLaVNSaDQwTFh3X1VSdUs1Q2hXelJlSXNycS13TlZCaTNuTHBRQXRmcmU2c0dxVFdNVmVnamZzTUxUM21NVE41bHUzZTJXUUh2ZWNvSTZnc0xRQTdPcjhVOTNHenpqQVFIcEhZempIb0Z0TkhxZ19TSFhzMlFQVnVWWDVGeUVKR0Z1QlF1U0hQWXVKRHdpX2p2RFU2R3ZPVUFnb1NlZzFxX2FMMVVoUQ?oc=5",
+      "published": "2026-07-12T19:35:00+00:00",
+      "source": {
+        "name": "Diario de Salud",
+        "url": "https://www.diariodesalud.com.do"
       }
     },
     {
@@ -554,16 +554,6 @@
       }
     },
     {
-      "id": "0393bf383fc4",
-      "title": "Salud Pública destina RD$300 millones para tratamiento de niños con Atrofia Muscular Espinal - Acento",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdm56TmxtSGxoMVF2cHNZMnlEVXE1UGQwQ3ZYS2Q3akg3NlMwTkVCUUJvV3lqVWpzSzBlSTBiemc3bGlIZWJybGFhNThmRGhJZklPc1E4Z3JZUmZYby1VWXdRQlliUDgwTTd2dldMc29PUTI4Z3hFdDMweThSSW16ck1PUjhfVG9VeWVsNDJzb25GZ2pZZmlhcW84VVNtOGZMbGtLcUg1RjRuRl95WmVjRG8ycDdCNER1YTVrTlhkWVU3Zk83UmlQd1lSdEzSAcwBQVVfeXFMTXZuek5sbUhsaDFRdnBzWTJ5RFVxNVBkMEN2WEtkN2pINzZTME5FQlFCb1d5alVqc0swZUkwYnpnN2xpSGVicmxhYTU4ZkRoSWZJT3NROGdyWVJmWG8tVVl3UUJZYlA4ME03dnZXTHNvT1EyOGd4RXQzMHk4UkltenJNT1I4X1RvVXllbDQyc29uRmdqWWZpYXFvOFVTbThmTGxrS3FINUY0bkZfeVplY0RvMnA3QjREdWE1a05YZFlVN2ZPN1JpUHdZUnRM?oc=5",
-      "published": "2026-07-12T14:33:43+00:00",
-      "source": {
-        "name": "Acento",
-        "url": "https://acento.com.do"
-      }
-    },
-    {
       "id": "f5dd71cfa8b3",
       "title": "MinSalud actualiza exclusiones en salud: el listado oficial queda con 117 servicios y tecnologías no financiados con recursos públicos - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1MZHI3ZFNyNlRkTW5zNnp3N1AzTnBYN1NZWDktbW5KT1MxMlU2aUI4QVBOLXRoUHczQXhOX1JzNmR4bG9qUWVNUWkxZFJhT1BvdVZIbmVrZ3NUbFcwa3NQbGpmaDBTdWFyTUE0eWNqRVNNZEtFT1E?oc=5",
@@ -571,16 +561,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "ed5a927965cc",
-      "title": "SALUD | El 33% de los conductores canarios coge el volante bajo los efectos de medicamentos que pueden afectar a la conducción - elblogoferoz.com",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMjBUODdyVmRhQmxMWmJORXFWR1JRa1dkeXpZVXhGU2x2TmpHam1WU3dXWThqS0VFTk45RF9XMVJjMHhpaHEyMkpJR2lMMWtqSURCS08yMmhjeV9uQjkyeU44Z0VKYkZHUTNHTDFRYVluZjJhd0plNGVObjJ2bzhRT2Frano1bTlKVm12b1BPai1Ubi1acTUyMkpqZU5xX0M2aU1qako4MjFCR000c1YzYjBVSnBfSzJBS09STGZFdDJVLTVLLU5DbmpVMWZRU2xKd3JwRDFwdmc3bEF1dFpvc3NCT2ExN2tUU09JRk5jMHJXZWk5Q2xz?oc=5",
-      "published": "2026-07-12T11:00:00+00:00",
-      "source": {
-        "name": "elblogoferoz.com",
-        "url": "https://www.elblogoferoz.com"
       }
     },
     {
@@ -611,6 +591,26 @@
       "source": {
         "name": "Bancolombia",
         "url": "https://www.bancolombia.com"
+      }
+    },
+    {
+      "id": "ed5a927965cc",
+      "title": "SALUD | El 33% de los conductores canarios coge el volante bajo los efectos de medicamentos que pueden afectar a la conducción - elblogoferoz.com",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNMjBUODdyVmRhQmxMWmJORXFWR1JRa1dkeXpZVXhGU2x2TmpHam1WU3dXWThqS0VFTk45RF9XMVJjMHhpaHEyMkpJR2lMMWtqSURCS08yMmhjeV9uQjkyeU44Z0VKYkZHUTNHTDFRYVluZjJhd0plNGVObjJ2bzhRT2Frano1bTlKVm12b1BPai1Ubi1acTUyMkpqZU5xX0M2aU1qako4MjFCR000c1YzYjBVSnBfSzJBS09STGZFdDJVLTVLLU5DbmpVMWZRU2xKd3JwRDFwdmc3bEF1dFpvc3NCT2ExN2tUU09JRk5jMHJXZWk5Q2xz?oc=5",
+      "published": "2026-07-12T11:00:00+00:00",
+      "source": {
+        "name": "elblogoferoz.com",
+        "url": "https://www.elblogoferoz.com"
+      }
+    },
+    {
+      "id": "0393bf383fc4",
+      "title": "Salud Pública destina RD$300 millones para tratamiento de niños con Atrofia Muscular Espinal - Acento",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNdm56TmxtSGxoMVF2cHNZMnlEVXE1UGQwQ3ZYS2Q3akg3NlMwTkVCUUJvV3lqVWpzSzBlSTBiemc3bGlIZWJybGFhNThmRGhJZklPc1E4Z3JZUmZYby1VWXdRQlliUDgwTTd2dldMc29PUTI4Z3hFdDMweThSSW16ck1PUjhfVG9VeWVsNDJzb25GZ2pZZmlhcW84VVNtOGZMbGtLcUg1RjRuRl95WmVjRG8ycDdCNER1YTVrTlhkWVU3Zk83UmlQd1lSdEzSAcwBQVVfeXFMTXZuek5sbUhsaDFRdnBzWTJ5RFVxNVBkMEN2WEtkN2pINzZTME5FQlFCb1d5alVqc0swZUkwYnpnN2xpSGVicmxhYTU4ZkRoSWZJT3NROGdyWVJmWG8tVVl3UUJZYlA4ME03dnZXTHNvT1EyOGd4RXQzMHk4UkltenJNT1I4X1RvVXllbDQyc29uRmdqWWZpYXFvOFVTbThmTGxrS3FINUY0bkZfeVplY0RvMnA3QjREdWE1a05YZFlVN2ZPN1JpUHdZUnRM?oc=5",
+      "published": "2026-07-12T14:33:43+00:00",
+      "source": {
+        "name": "Acento",
+        "url": "https://acento.com.do"
       }
     },
     {
@@ -664,16 +664,6 @@
       }
     },
     {
-      "id": "e618eb884fc5",
-      "title": "Secretaría de Salud de Soledad y Supersalud fortalecen vigilancia a gestores farmacéuticos para garantizar una atención oportuna - ELHERALDO.CO",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOX3RTZE5jX25QMjY1OFJQVmtBQVowY2dHLTBFRVM0RFNFY0VjalVXamJndnZfU2VMUmlRUGNUODdzdHJVajZKS2xfWHZJTzVxQU5fUjBSNXU4MkZYbjdCbDNhWWw4NGFyTC1hcmY4cElJTEl1eF84aUdyWUF3Uk9OUGlTV1lCRVRuQldEbE9aUnNuckEzeUgyRmd4c0dMUEhvM1NCMGxKcVc0VWRXd3ZkRUtTYWhOMGNSOGM3SlJSRzV5aTZ5djdZZzJaSkkwUE1LWG5KbXRicWJ4RGUxMER0SkMyMTVPc01DQTRrZ3pQbjh2RjhtSGwtSm5WeUIxS0FsdjJYaGlB0gGgAkFVX3lxTE9FWlRSQ3BHUnZyTTNsNm8xaWVjR0g0TnZGYl81SDZLVHgyS2czUHNGTnNXVms4aEdIbEQwTEZUTXFldWhyRW8waVBkQlU5REtsc2NOOFNWUDNkMzBfSXB2S3VpWTRNdnVsdW1BeVBLaDY4SEhmNzJFOUNqc3o0YW5QNHV0NHpGTkNkd09haTh0OVZzSGRXZy1fNTNVRDZNQkFBMzFCSU5WQzJxdmtEUFF1OF83dTZJb0dFZ0tCUEEyamU1cDlpZmpfVGJsQmh4M3V5V21VTkpfemJpV0pfZUs3b0FaNndlR1dNclhUYmU5MndXWGl6SmgyRllSLU1wMHo5RE5DRFo5bllmdkhWVkVONFdLcjcyUEdfSlpPc1NLSg?oc=5",
-      "published": "2026-07-09T15:55:38+00:00",
-      "source": {
-        "name": "ELHERALDO.CO",
-        "url": "https://www.elheraldo.co"
-      }
-    },
-    {
       "id": "7798f0ea8fa0",
       "title": "Medicamentos, deuda hospitalaria y telemedicina: los ejes de la propuesta de salud de Paloma Valencia - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFcU9iaUJ0enJrdzZiU3lpMHBsWEcwNzV3NHpncm1nZC15SXVfYjZfckNkbUdwdElFeGhjSGRWOHlibWh6b0J1dzE5bEJEZTBWazVFdWVJanJMMkhTOFp5MlBLWHdzcWN1LUNrVFY4UV8yRFk?oc=5",
@@ -681,6 +671,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "e618eb884fc5",
+      "title": "Secretaría de Salud de Soledad y Supersalud fortalecen vigilancia a gestores farmacéuticos para garantizar una atención oportuna - ELHERALDO.CO",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOX3RTZE5jX25QMjY1OFJQVmtBQVowY2dHLTBFRVM0RFNFY0VjalVXamJndnZfU2VMUmlRUGNUODdzdHJVajZKS2xfWHZJTzVxQU5fUjBSNXU4MkZYbjdCbDNhWWw4NGFyTC1hcmY4cElJTEl1eF84aUdyWUF3Uk9OUGlTV1lCRVRuQldEbE9aUnNuckEzeUgyRmd4c0dMUEhvM1NCMGxKcVc0VWRXd3ZkRUtTYWhOMGNSOGM3SlJSRzV5aTZ5djdZZzJaSkkwUE1LWG5KbXRicWJ4RGUxMER0SkMyMTVPc01DQTRrZ3pQbjh2RjhtSGwtSm5WeUIxS0FsdjJYaGlB0gGgAkFVX3lxTE9FWlRSQ3BHUnZyTTNsNm8xaWVjR0g0TnZGYl81SDZLVHgyS2czUHNGTnNXVms4aEdIbEQwTEZUTXFldWhyRW8waVBkQlU5REtsc2NOOFNWUDNkMzBfSXB2S3VpWTRNdnVsdW1BeVBLaDY4SEhmNzJFOUNqc3o0YW5QNHV0NHpGTkNkd09haTh0OVZzSGRXZy1fNTNVRDZNQkFBMzFCSU5WQzJxdmtEUFF1OF83dTZJb0dFZ0tCUEEyamU1cDlpZmpfVGJsQmh4M3V5V21VTkpfemJpV0pfZUs3b0FaNndlR1dNclhUYmU5MndXWGl6SmgyRllSLU1wMHo5RE5DRFo5bllmdkhWVkVONFdLcjcyUEdfSlpPc1NLSg?oc=5",
+      "published": "2026-07-09T15:55:38+00:00",
+      "source": {
+        "name": "ELHERALDO.CO",
+        "url": "https://www.elheraldo.co"
       }
     },
     {
@@ -721,6 +721,16 @@
       "source": {
         "name": "Pan American Health Organization (PAHO)",
         "url": "https://www.paho.org"
+      }
+    },
+    {
+      "id": "0ffde7863596",
+      "title": "Los expertos tienen claro que Ozempic no es perfecto: \"Perder peso no significa automáticamente mejorar todos los aspectos de la salud\" - Xataka",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQ1Z6VGFQbGZ2WTdwU1h5eDNMRzQtNWpfcWYxeW5sdUcyV1JFRTNfNDJkbXhnU0xmSDhFZWFERkY4M21IRF9LZkpxUk1LalpTWUhXMWM3ZjVuTlpTYTJhOVYzMG5kWDg5akNiWjhWY21zeDMyQW9GWXloSkhxV3I4V2dCeGJZMkN6OFc3LWlhcXpTM3NBaFhOczM3WHZERE42WWxQWVZJeW4tU29fbXJFYXNoazdfM2tXbV92RW1nYkVqMFo3b21fNXpONmJNeDdvejEydlZBcm1MbkRqWHlRQVdkRVdieGJfdkYw0gHwAUFVX3lxTE9NNzJjOUFuZHVUTGtxU0lDeWdRU2NLdlNEZV9yU1k0WUdmSEVKYmFTbkpJNlp5X2JRYlFCYTczemdjVzNNQkFmX3c1eW1uRXI3VDJDMm5Xb2EwRHpzdWZ6RTlSV2poRTRQR0d5TlhnVEE3N1VXUy12WXRxc0xhQzM1U1lJUFdGc0s2b1RENV9TZmNUMmFDbUN6M3RPTVpvRjFjX1hIVXREMVVzbXVwR3FpZk5tUUQyTG10eHVoMHNSMkZmdFB5QWlMUzdnaUVHMEFRODlrSF9Yd2d0WkUyRzgtUWFEUHFaalZOVHRoOE0tVQ?oc=5",
+      "published": "2026-07-10T16:01:58+00:00",
+      "source": {
+        "name": "Xataka",
+        "url": "https://www.xataka.com"
       }
     },
     {
@@ -814,16 +824,6 @@
       }
     },
     {
-      "id": "3d84c905d76e",
-      "title": "Actualización sanitaria y regulación los principales aspectos del encuentro liderado por Asocoldro en Boyacá - Boyacá 7 Días",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdFZvUV9oLWF4WWU3WlVrbEdfMlRVUENQYjlmRGp3VTVlYUt4SklMbnI1Z2J3dk1sRXpTOE9mRHRXWnF1ZHFLcXdpeVVldU41VnI0NHBfYnVOVWVYQkFUVGFDOWxqcEp5ZWZZNlUwUU04QnVlT0tkZ3VGMDRLWmNwcm5VVzFHUm5EU1FSVTN5X2VkTkp0SFB2YkdjamtObXVOZU1LMGNUNE42b3lSYUpJY3NNQURydmFreXRsUWEwM0h6ZFM4c24tUVE1bS0tTVNiLUdwRHJxdURrZXlmWVliSg?oc=5",
-      "published": "2026-07-10T15:32:48+00:00",
-      "source": {
-        "name": "Boyacá 7 Días",
-        "url": "https://boyaca7dias.com.co"
-      }
-    },
-    {
       "id": "115c98f14848",
       "title": "Luz verde para la construcción de nueva sede de la Planta de Medicamentos Esenciales de la UdeA - Universidad de Antioquia",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOVpLcXY1cEZLRF95SmNyQXRKM1VUZFp0Snk3SEl2NnE4SHk3S25UaEpsUUszdFZLc1hLV1ZEajdmMFBIMUtWS0xlMVVUek9kZXlnQ1ZCV3RyNGk4cHdaa1Y4S2ZOaDFEMlM3Zy1KN29YRGpHZnJjWFJEa2E2MDI1NndqUjJ6QVF3WjhIV2Z4amF5QjdKNjBISXNsM0FHSWhINDUxc1o0UEJKenFjZmpmZjR4aUhJelV0dWJoVFJ6V3c4SDVGa0JPUUpBd1VUZDJmWWN2OGd4WnE3QndhalE?oc=5",
@@ -834,6 +834,16 @@
       }
     },
     {
+      "id": "3d84c905d76e",
+      "title": "Actualización sanitaria y regulación los principales aspectos del encuentro liderado por Asocoldro en Boyacá - Boyacá 7 Días",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdFZvUV9oLWF4WWU3WlVrbEdfMlRVUENQYjlmRGp3VTVlYUt4SklMbnI1Z2J3dk1sRXpTOE9mRHRXWnF1ZHFLcXdpeVVldU41VnI0NHBfYnVOVWVYQkFUVGFDOWxqcEp5ZWZZNlUwUU04QnVlT0tkZ3VGMDRLWmNwcm5VVzFHUm5EU1FSVTN5X2VkTkp0SFB2YkdjamtObXVOZU1LMGNUNE42b3lSYUpJY3NNQURydmFreXRsUWEwM0h6ZFM4c24tUVE1bS0tTVNiLUdwRHJxdURrZXlmWVliSg?oc=5",
+      "published": "2026-07-10T15:32:48+00:00",
+      "source": {
+        "name": "Boyacá 7 Días",
+        "url": "https://boyaca7dias.com.co"
+      }
+    },
+    {
       "id": "bfc897857851",
       "title": "Estos son los medicamentos y tratamientos que las EPS dejarán de entregar gratis en Colombia - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOYUV5XzM3Y3FUNTRiRmFucm12Q0RwdEtDSjBVejM0a3NneUpiOXpMV1RmUlE2clNyNzBKSFZyRWlXMnNpa0xVUlJlU1RueHVmUmluRk1Ua3l0bTltcEs4anN6blBtWG44UGVuNkkzaXdueG9iZVVsamJQZEs4eWoxaDZ4QUZrY0pUbTdpcU9DTmhHcmlGdGltQjdMaWdSQ2JucksyTWswdG0zY19rWWNHODZNbWY1Z0kyR2NwRm1kTGhhNUZVbnJacG5UcDRMN25YdlNF0gHuAUFVX3lxTFA4YUpSV2dZY2M0cUNWa1I4U1lfbGd6RTdxMC1BY19KMXBDQmEwYk9OVUR4WFpqcmJldG5Wc0xzVFhXeU91ZUdza2JsbjFzSzdQSXB6cVkxRUdqMmM3LVo4cjdTWEx5ODdOZkNtWTRUZDFDVGVSYmF5Mk5LTFo3bjNRQ0YxaURJRkRzTHRob3F1UzhONlR2VXk1SkI2aExMWE5uam94b0ozMlFfZ05tcmhRSjRTeC1zdnFobS15STNXNUJkNkNmWUtOUURUU1YyNlhOU1ZsRUJxVkJDNXhaM24xZjRiTnYwVEpDZUlxQXc?oc=5",
@@ -841,16 +851,6 @@
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
-      }
-    },
-    {
-      "id": "10611b96ae1e",
-      "title": "Supersalud superó las 1.000 inspecciones a dispensarios de medicamentos y reportó reducción en reclamaciones - IFM Noticias",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxONGQtaklPbDExTjl2dG9Dc3pBQXktN1pVR2lkUE9KWDZYak13dDJubDhKckRkR1pYMUYtLXh4WWZvN2ZqU1lJUXBqNTVIWUloN0pRdUpsUFkzalJfMXNuYU1iSHNvNTN4bWpzOC1ldHJ3UndmdGcwTGlZTzJZTEwwRFQyVTdMTE9oWjVYQmN0MU1OQUNJeWFlWnpMaTdtbFpBSUlhR2dPdFZabnlnZnIyWEJ0VW9WQk1ZUFZXN0lGUFFYNlZEZV9yOGtyd2N3SFRwR0N6cQ?oc=5",
-      "published": "2026-07-09T17:08:19+00:00",
-      "source": {
-        "name": "IFM Noticias",
-        "url": "https://ifmnoticias.com"
       }
     },
     {
@@ -874,16 +874,6 @@
       }
     },
     {
-      "id": "4b4073097899",
-      "title": "José M. Ordovás, experto en Nutrición, Envejecimiento y Genómica, sobre los GLP-1: “Perder peso no significa mejorar todos los aspectos de la salud” - cuidateplus.marca.com",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQN21OMTRqUW1TZDRYcUZOaWduUk94UkthaHhpRlBERm1qM3VHYnhFY1FQb0RvYmIwMHUwSzlkWkhFX0FwMnBNQ2ljV2JueDl5MDUxeEdKVXI5cUNTajFDOE1VZGwxRWdnLVYxcWFaemlNREdLNngzWFhvZ2NFZG5oNERBYndoOU0tbkZGZ2k0bGYtc2ZtTVBhQkdBTVZYbVNOMXR1VjdzdmtEa2xvM2h0NWRTZnA4WGN4WjBNNHRZZGNiTVhHNUstczZ0aWkwUTIzeEpfRkRGc3pYRW1IWVMwUlVsS1M4RHQyN0t3WnJubjRhdTdx0gH6AUFVX3lxTFAxc1Qza0p3djlsVlBJR2hDNmdxT2JjOVdFemNBay0tN3doX0RTYW9JZGt5bHV6dFB3U3ZKUGhJLUN1dkJ6VzBTVV9tbUc2OUxPd25hcmxUMnU3Um1OcTJhUGVRUktlY0RtaUUtaFZhVTFITHlzQXFvQ0hKbXFrd094SXlETmpBdU90bHg1RXBnMXpWNi1DdXpUZUNYWUJHQ2c0Q1h6TWZGcHZoZTE1dGFnbDY1SllPQmEySzlLSW82ZVFoa2ZoX1RQcFg2dDl1RURIYXRkdWo1aHNQcDZNLWZfaVhxckJScmdEQlFJUGFidWdfTzZxd0tEQmc?oc=5",
-      "published": "2026-07-09T10:01:00+00:00",
-      "source": {
-        "name": "cuidateplus.marca.com",
-        "url": "https://cuidateplus.marca.com"
-      }
-    },
-    {
       "id": "5af279c6ba49",
       "title": "Desigualdad en acceso a medicamentos persiste mientras crece el negocio farmacéutico - Periódico UNAL",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdXM5Q3FRV0ZhQS1vNm9TOGdqZWdUcXRIQ0ppcWVFYVdTM2gtNmo5QjBfOHRnbnJhOEtmdDFpWkZBSVhKZWJINkozNThxRF9mQXZJUFdMRXlnaF9naGZlSDBkR25INkpxVDRkNFBHX0ZGOU94M3NfYXM4OHVGSG9NY1dveXVTdkRsWDVJS2RfWW5NN2lZemdRWGVfZzB6aTlLc0N0NnZpME1UcDFsY0x2UlpjZDAtaXRtaXBOYXNjeFE?oc=5",
@@ -901,6 +891,16 @@
       "source": {
         "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
+      }
+    },
+    {
+      "id": "4b4073097899",
+      "title": "José M. Ordovás, experto en Nutrición, Envejecimiento y Genómica, sobre los GLP-1: “Perder peso no significa mejorar todos los aspectos de la salud” - cuidateplus.marca.com",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQN21OMTRqUW1TZDRYcUZOaWduUk94UkthaHhpRlBERm1qM3VHYnhFY1FQb0RvYmIwMHUwSzlkWkhFX0FwMnBNQ2ljV2JueDl5MDUxeEdKVXI5cUNTajFDOE1VZGwxRWdnLVYxcWFaemlNREdLNngzWFhvZ2NFZG5oNERBYndoOU0tbkZGZ2k0bGYtc2ZtTVBhQkdBTVZYbVNOMXR1VjdzdmtEa2xvM2h0NWRTZnA4WGN4WjBNNHRZZGNiTVhHNUstczZ0aWkwUTIzeEpfRkRGc3pYRW1IWVMwUlVsS1M4RHQyN0t3WnJubjRhdTdx0gH6AUFVX3lxTFAxc1Qza0p3djlsVlBJR2hDNmdxT2JjOVdFemNBay0tN3doX0RTYW9JZGt5bHV6dFB3U3ZKUGhJLUN1dkJ6VzBTVV9tbUc2OUxPd25hcmxUMnU3Um1OcTJhUGVRUktlY0RtaUUtaFZhVTFITHlzQXFvQ0hKbXFrd094SXlETmpBdU90bHg1RXBnMXpWNi1DdXpUZUNYWUJHQ2c0Q1h6TWZGcHZoZTE1dGFnbDY1SllPQmEySzlLSW82ZVFoa2ZoX1RQcFg2dDl1RURIYXRkdWo1aHNQcDZNLWZfaVhxckJScmdEQlFJUGFidWdfTzZxd0tEQmc?oc=5",
+      "published": "2026-07-09T10:01:00+00:00",
+      "source": {
+        "name": "cuidateplus.marca.com",
+        "url": "https://cuidateplus.marca.com"
       }
     },
     {
@@ -954,16 +954,6 @@
       }
     },
     {
-      "id": "0e76fb03debf",
-      "title": "Ministro de Salud Pública anuncia tratamiento para niños con atrofia muscular espinal - eldia.com.do",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2pqYXMxeFZLd1lvQi1Sc041UThtbk1kTHRzWmgxVlhjVW9fTHVlcUZvYVJRQU9SbGoyZTM1YzJEeExjVTVLZ0tLR2RfemJyVnhSdmQ1VDJSMFVxSVhranJpM205d1BNOERidmlkNmN4ZjlHcWpDMDVPZFJscW96ZU05cC1OWklwNTczeGxxS2tEUW9DckZ6aTI2a2tjak11X0dmVzBIUG0tV00?oc=5",
-      "published": "2026-07-12T17:48:14+00:00",
-      "source": {
-        "name": "eldia.com.do",
-        "url": "https://eldia.com.do"
-      }
-    },
-    {
       "id": "f5983d370569",
       "title": "Ojo: estos 100 tratamientos ya no serán cubiertos por el sistema de salud, sino por su bolsillo | El Colombiano - El Colombiano",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMTZCZEdPR3Z2UFZpa1NhbmxTdzZqNG94cXh3amFnOXhEb0lkQnc3bHRCellWcHBYTDZaUjFfa2l5b01XQ2NtTzIxSDBjaHFBajh4NXlBTzhjQ3Nydk81WWJuMWxTSVo3RkdIYl96NHIybzlIb3paTDVCOEFCQmZrRk5EaDNiZE5pS0NqOTUwekZkVTZOaWfSAZsBQVVfeXFMT19lckZicmV5SDV5MkE1Mm5QVEl2VW11WFp1NFItSTE2aXFBWGw0TWxselRCLV9KNGZzd1NqanZTbnBLZU1OTU5EM1lKejNHQnpmQmFTMWdiLUNKWk9Qal83MnBYOE9uR1ktUEhTbDFGNkFQYWppSTRnWW9wSzVBZ3BTTkZCUUtRd0Y2UnpqU1F1dkxZMXV4MGMzSTg?oc=5",
@@ -981,6 +971,16 @@
       "source": {
         "name": "Salud con lupa",
         "url": "https://saludconlupa.com"
+      }
+    },
+    {
+      "id": "0e76fb03debf",
+      "title": "Ministro de Salud Pública anuncia tratamiento para niños con atrofia muscular espinal - eldia.com.do",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOT2pqYXMxeFZLd1lvQi1Sc041UThtbk1kTHRzWmgxVlhjVW9fTHVlcUZvYVJRQU9SbGoyZTM1YzJEeExjVTVLZ0tLR2RfemJyVnhSdmQ1VDJSMFVxSVhranJpM205d1BNOERidmlkNmN4ZjlHcWpDMDVPZFJscW96ZU05cC1OWklwNTczeGxxS2tEUW9DckZ6aTI2a2tjak11X0dmVzBIUG0tV00?oc=5",
+      "published": "2026-07-12T17:48:14+00:00",
+      "source": {
+        "name": "eldia.com.do",
+        "url": "https://eldia.com.do"
       }
     },
     {
