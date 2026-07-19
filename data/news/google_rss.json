@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-19T14:54:49.797747+00:00",
+  "fetched_at": "2026-07-19T15:57:14.178324+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -41,16 +41,6 @@
       "source": {
         "name": "La Patria",
         "url": "https://www.lapatria.com"
-      }
-    },
-    {
-      "id": "23695ab07c46",
-      "title": "La pastilla para el colesterol de Merck obtiene la autorización de la FDA de Estados Unidos - CNN en Español",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdzJTQkQwb1ZFZkhzZlRVNFVYbTBhZUFSTW1LNGhqZkZCZ3ZRenBWNzlPcDRYMnJySnlIV1hhY2pEU0dZTUlrNHdLaVFqQlpsNUtwQ0tlQnlacXNJcDMwVjlZaFNDRHVoclFNZ2JoX1VDaU5oOExSV0xJbUhQMU9hSmdIbTJoeWVRMTNabQ?oc=5",
-      "published": "2026-07-16T20:24:00+00:00",
-      "source": {
-        "name": "CNN en Español",
-        "url": "https://cnnespanol.cnn.com"
       }
     },
     {
@@ -124,6 +114,16 @@
       }
     },
     {
+      "id": "5215f8bd88ed",
+      "title": "Colombia amplía las alternativas de tratamiento para niños con cáncer con 71 nuevos usos de medicamentos - El Tiempo",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOTV1TlJ6VjdlNFZ1LTg3RXQ4SndQdjhsNjlHRTBPZVNZS09fMFhiNWtHZXZ0MUdLdkc3YzlVLUhaSE9KajdqbWh0V1pNUjc3bVhqcGVsWGk5aVZoSnd0a3dPZjE1V2JZZ3dlcDFWM1JRNldLYjNiN1dYTlJIbnk4MXFualVRVmV4MWxCWGgzQkxZbzFGanU0dGZsak1mb2c4ZENPM0VMU3lWUHlSejM4R2tWU3RkdVhNcGFpX1NOTG9UMjh0RjdUekJjV0w5ZnRvOHBqWWFPWXUzUDTSAeABQVVfeXFMUFBaWFBWRDljMGZLbXdjS0F1OVR0dWU2T0Fla0F6V21mbGdLN1pQZ05ha2VuOUpjdG1Idko1aDh5eXJBdTVSUXNIU0dxQXN6ZXYyLXBXQ250d21kWmViYkNfdDZDSzJRNFV1cTUxMjRkOUl2dTFzM0tkekxVNkltTWNLWWloaGlROEIta3dQUU14MDZtLU5XMzRqLVU2TmM0c3pSdjVlNjFuTVRKbDREMTRyNThILWRwaW45ZHlBbUk2WUthZFFUOUM5OGY4VjlMUGVfMUF3akdmYWJMOUZqdDE?oc=5",
+      "published": "2026-07-17T22:58:46+00:00",
+      "source": {
+        "name": "El Tiempo",
+        "url": "https://www.eltiempo.com"
+      }
+    },
+    {
       "id": "266251de43b3",
       "title": "Minsalud prepara nuevas reglas para la compra centralizada de medicamentos para VIH: así se ampliaría el acceso al esquema DLT - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04S191ZDdtcFBnaFU4WlNURnRRN041b2p5Y0tsLW9hd2Z1a2t5RXEyZE5OR2Q5dzZJX0dDQlNvc01HOERfczlaeHV0MlJORHU4UkRmT3dLZ2pPd0xjVlFNb0V1NU9KX004RWpJaGNuWjNtTVNSWGhnYUIwUnNhZw?oc=5",
@@ -164,6 +164,16 @@
       }
     },
     {
+      "id": "6f3b719f29da",
+      "title": "Padilla exige \"nuevas métricas\" para separar el precio del fármaco de su valor en salud - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZ1JBZ1Z4YXF3SGw3c2JmWlRhZVpiUmtvM1VuaFFZNy02VEZmV1EzbVk4NjFJdENmM0dNRHdsRWlfTFlzYmRzWTVJdkJRTjRIdU5ib3l2TE4xWVdOemtfYU9OR0NXMmhyTm1sdGlkWjk3ZUJRSzVRaGRGdlRQSEp6Y1ZDWjB0MG51YjRhNEdicWlJZjk4RE55R1VNN1lOUkEwQWhaaDlVYXg3UWx3b25Da09TbTM5WWFUbFBTdQ?oc=5",
+      "published": "2026-07-19T15:08:48+00:00",
+      "source": {
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
+      }
+    },
+    {
       "id": "0d780c54cef2",
       "title": "Alzheimer: Medicamentos vs Cuidados. El reto de la asignación racional de recursos - Redacción Médica",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQbV8ydUk5QXVNVjB1dGRRR25PU2NtMFBFU0phc2hRdWxQaFA0bkx5WjhsYmFDRzF2S01uUVZ5YmhYWFp6UnYwajh5ZlZWM0J6RUdyNTBBU0VEc3pTWm1vVEtfZTZURGJwUkNrNXpBUFdPa3RkV2Z5RmZLLUp6XzJxNm5SMVVVdlBzWUhacGp0b1NXWjQ1dGt5bHFuZkt1S0Itc05tZWIxTU85bGRqUVIxX0ZuOWlBTTZaV1V5WDBoYTZxbXNHNWJLa01xdjVUcjNNWEVzMkVhUllIS09s0gHXA0FVX3lxTE9aWDZKZHd2c01MRGQzUVZ0VXlYclA1YUNsamhUOVp2RVB1U20ybzZ5S0ZZSk9GRTFuYk9CRVJsVExEMHo3OFhENFNJVUlTS0VWclNqNll4SVdYUlZ4dUFZM1lqbi1fZk5OY0FSb2pHZjJrMDlwZUZ2SUd2aXRIcnlHMGxGTmlHNHZWcDBPQjgtRk9kbk9BdW80VGg3OFBHWjZnQVF5ZmNleWhaeUttMF9CV0tRMktJSnRTemc2UEE5d0VudjV2MHUxSDNKM3NYN2c4TlVhSjR1R0ZUUks3TWMyV1gyZ0N1V19RREI3ZXZ4dHN4SVU4UGJfalR6NWFPTHZtbUNkLXhXZUExcWhtenB4dXNSaUZYWk5uZ0RHSFRvVklfY3lQbnM2QmFtZFJNV0NyR3RyUjBzbXJvMkZzN1JrS2hQRXBQM2NXN0FrMGRka243U19wZ2VESGtfSy1NdFREUFV0RDF6Y1dMMVJ1ODR2SDRFWkRaVmtKTFJKQnpsNjVmZm81UXg4a09WcnVMZkVxUzNGX2hZZEhveW42cFktcHN2OTlfb3RfQ0x3WC1pTG5ibTFyVzJFMTJXQVlfU1hHQnh3QVRkNk1zZFhoWXVRWGhsNDJNaw?oc=5",
@@ -184,16 +194,6 @@
       }
     },
     {
-      "id": "f175ef408ac2",
-      "title": "Cierran otro centro estético en Tunjuelito tras hallar medicamentos vencidos y más de 400 insumos irregulares - El Tiempo",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZGNjV1J2QXBDQy0wZFB5Y2sxVUxhS2YwdkJwZFZRb1ltdUp5WkV6TnlvX3NjUnA1SjV3VlFmc1hIQU93WXk5WFpxa1dsMk0wblo1ZWZoR1RSMTdkZ0tkc3NZTVoyWWRXQ254blZGZ2VpX3NFYmZQbWVVTXdnazJVbWJ6SnhZWkVzcUQyM2ZBaExjRUFCRTVfWEhYMl9qdFczVGw5SjJxMnp2RVJCd3I0NTZ4RWVEVTdTSF9EMUVPZ0J6eDB5YmFUM3pabTlPMk9TRlJUNU5PeFZHTnJUbE5SbG56SdIB6AFBVV95cUxOTlBBVi1GaC1CV3QyWmtwRExxVFZYRTM2LWJ3YTdOYl9YWUVoYzVDb3RnZkVDRGJOcGZXSHUtRzBtMVhxOFBXMzZzaDV4aUYyN3JsaEdjZTBhbzBsbjBpNWFUd0JIamI5QURBWXJ2NEg2SmRaejJtaUFRbkVNTnhzRllERmVDSm1vTkw4V01NSWhtWkxWS2NNam1ibnpGV1JySUNGUnlscDhQTzN4WjFBLVRfaDRfel9fWmhEbWxMWTZvd3lZa2FFZFZMbUhPRGVaNzUzOE5mcC1JSlI4a3VLMHZxNmpUdVVE?oc=5",
-      "published": "2026-07-18T19:14:27+00:00",
-      "source": {
-        "name": "El Tiempo",
-        "url": "https://www.eltiempo.com"
-      }
-    },
-    {
       "id": "9b0f9fd25cfb",
       "title": "Gestores famacéuticos estarían negando medicamentos para ejercer presión y que las EPS paguen su deudas: “Es ilegal” - Infobae",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPS1c0Y1NpQ25xUllRZm01SENuQmJETWQteVpQVllHWk5IMC1GTFg1VUpIMW5BMnVvaDNWUU1WLUI1WFA5emNkcjN6dW84SEFESDZCZWdlWGlvcUFzVVBWMlB2UVdQQ09GWjNodGVFU3RpcEwzUXV1VE5VLXVqZ1BmaHdNUWd4N3FlQ0JKRXByVjRweXVRVmdGZkJnalpnREJVV1A0ajNXOGM0cUpHMmNETElmODY2YTYtakRDYWNUakxOWmUyN2psV011dGZSZnZuc1cxMEJaUkxNWUF5eWpLYldLMVNlM2JRYUp6SHpVZ9IBigJBVV95cUxPa0VYM2hFbTZFVWZHekkxM2ZoTWtwN3pUeTd2RHJodjF4MDdOTmxkQ0NJd1NSZS0wWFRVUVpVallwSzN1OW1PN3RLaTY2dzdtdGZIM0VFSXlJbDFyVU5KUFhtX0l6MllNXzgzQzRIOWJSQkhhUjY0NG5iOVA4OEpqOWNoT3RwNUhhY0dKWkYyWUlxNXlkWTlWWUNtUWJfcElsQWU5Nk1jX0h1c0FrdXhnVGtseEpnYWlvdG81TFJpc0kyalBsRTVqQi1CMDEwWTE5NjE2cm01aEhOaUtUZkxVTnBVVVUxdlRkR2RuQm9OaDU4S3M2Zl9xWnU2RURacDhqdm5UeXdTMmdKZw?oc=5",
@@ -201,6 +201,16 @@
       "source": {
         "name": "Infobae",
         "url": "https://www.infobae.com"
+      }
+    },
+    {
+      "id": "f175ef408ac2",
+      "title": "Cierran otro centro estético en Tunjuelito tras hallar medicamentos vencidos y más de 400 insumos irregulares - El Tiempo",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPZGNjV1J2QXBDQy0wZFB5Y2sxVUxhS2YwdkJwZFZRb1ltdUp5WkV6TnlvX3NjUnA1SjV3VlFmc1hIQU93WXk5WFpxa1dsMk0wblo1ZWZoR1RSMTdkZ0tkc3NZTVoyWWRXQ254blZGZ2VpX3NFYmZQbWVVTXdnazJVbWJ6SnhZWkVzcUQyM2ZBaExjRUFCRTVfWEhYMl9qdFczVGw5SjJxMnp2RVJCd3I0NTZ4RWVEVTdTSF9EMUVPZ0J6eDB5YmFUM3pabTlPMk9TRlJUNU5PeFZHTnJUbE5SbG56SdIB6AFBVV95cUxOTlBBVi1GaC1CV3QyWmtwRExxVFZYRTM2LWJ3YTdOYl9YWUVoYzVDb3RnZkVDRGJOcGZXSHUtRzBtMVhxOFBXMzZzaDV4aUYyN3JsaEdjZTBhbzBsbjBpNWFUd0JIamI5QURBWXJ2NEg2SmRaejJtaUFRbkVNTnhzRllERmVDSm1vTkw4V01NSWhtWkxWS2NNam1ibnpGV1JySUNGUnlscDhQTzN4WjFBLVRfaDRfel9fWmhEbWxMWTZvd3lZa2FFZFZMbUhPRGVaNzUzOE5mcC1JSlI4a3VLMHZxNmpUdVVE?oc=5",
+      "published": "2026-07-18T19:14:27+00:00",
+      "source": {
+        "name": "El Tiempo",
+        "url": "https://www.eltiempo.com"
       }
     },
     {
@@ -304,13 +314,13 @@
       }
     },
     {
-      "id": "5215f8bd88ed",
-      "title": "Colombia amplía las alternativas de tratamiento para niños con cáncer con 71 nuevos usos de medicamentos - El Tiempo",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQOTV1TlJ6VjdlNFZ1LTg3RXQ4SndQdjhsNjlHRTBPZVNZS09fMFhiNWtHZXZ0MUdLdkc3YzlVLUhaSE9KajdqbWh0V1pNUjc3bVhqcGVsWGk5aVZoSnd0a3dPZjE1V2JZZ3dlcDFWM1JRNldLYjNiN1dYTlJIbnk4MXFualVRVmV4MWxCWGgzQkxZbzFGanU0dGZsak1mb2c4ZENPM0VMU3lWUHlSejM4R2tWU3RkdVhNcGFpX1NOTG9UMjh0RjdUekJjV0w5ZnRvOHBqWWFPWXUzUDTSAeABQVVfeXFMUFBaWFBWRDljMGZLbXdjS0F1OVR0dWU2T0Fla0F6V21mbGdLN1pQZ05ha2VuOUpjdG1Idko1aDh5eXJBdTVSUXNIU0dxQXN6ZXYyLXBXQ250d21kWmViYkNfdDZDSzJRNFV1cTUxMjRkOUl2dTFzM0tkekxVNkltTWNLWWloaGlROEIta3dQUU14MDZtLU5XMzRqLVU2TmM0c3pSdjVlNjFuTVRKbDREMTRyNThILWRwaW45ZHlBbUk2WUthZFFUOUM5OGY4VjlMUGVfMUF3akdmYWJMOUZqdDE?oc=5",
-      "published": "2026-07-17T22:58:46+00:00",
+      "id": "23695ab07c46",
+      "title": "La pastilla para el colesterol de Merck obtiene la autorización de la FDA de Estados Unidos - CNN en Español",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdzJTQkQwb1ZFZkhzZlRVNFVYbTBhZUFSTW1LNGhqZkZCZ3ZRenBWNzlPcDRYMnJySnlIV1hhY2pEU0dZTUlrNHdLaVFqQlpsNUtwQ0tlQnlacXNJcDMwVjlZaFNDRHVoclFNZ2JoX1VDaU5oOExSV0xJbUhQMU9hSmdIbTJoeWVRMTNabQ?oc=5",
+      "published": "2026-07-16T20:24:00+00:00",
       "source": {
-        "name": "El Tiempo",
-        "url": "https://www.eltiempo.com"
+        "name": "CNN en Español",
+        "url": "https://cnnespanol.cnn.com"
       }
     },
     {
@@ -734,16 +744,6 @@
       }
     },
     {
-      "id": "77bb5602e85b",
-      "title": "🍴🏃 Ellos son el doctor Víctor Mundo, Director Médico de la división Consumer Health de Bayer; la doctora Aída Jiménez, Directora de la Sección Técnica de la Salud Global en la Sociedad Mexicana de Salud Pública; el doctor Fernando Fon, Director Ejecutiv - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQW4wdFpkdVkxb084YjZldDVWZlJZLVVZS3RFZmlsQl9yM2pFSGpvMnpfdk5KWnRBVEdaSHNXYjA3WGd4M2hjNXFqUGFoMm5KaUdYZjVmNDg5Q0g0SUhSaTd1V1JkLVl5SXRUbmZCWWlqd2JFVGJ2bV9UeDFyajdQb2pvYTBxVlA0TGlfbzRoTndlWUdFcDdTZmRGU2tRb292aVZNaVY3ZEtsQUEyQzVqdzRBN1l2b2FuREpXeVI0ZHpmQlE0R0ZGeEw0Z0xTdFFsbG41enF0X3FUNkVwT2FycTF4NTRYejNvOW5lUUVTNA?oc=5",
-      "published": "2026-07-18T20:00:56+00:00",
-      "source": {
-        "name": "facebook.com",
-        "url": "https://www.facebook.com"
-      }
-    },
-    {
       "id": "015647d9b13b",
       "title": "Indignación con Sanidad por rechazar la financiación de dos medicamentos para el Alzheimer - Libertad Digital",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOV0J5SDMtUHN5dXk4V210a25hakNGUWcwWXJocUN4Rl8wNWh0WUhmQVdXS0tnU3ZsMVZqWDRvaUQ0V2FySm5xR3hBWDdUSU10b2dLMFRWanBtbFVOcVhrM2NFOE16T21lUVpSM3JGSEdPcjlURzV4X05ZemxCUktCTEhEVmNHSHRZS29nQlNGZmZZaVZ5c1RUMnlrc3hvMVhUT1lmRXdHWlJIWU1idUx0MEtiQzNEYTRSTVJiTG9FeDhSSUZEVXpta2gzUUJfVGx0dVh4VFFqdGd1STduV1ZGNXU1alNrZFE4cWM2OGJZRWdyUGs3bmfSAYACQVVfeXFMT0wzeGxFcXFJS0hKc3pnQ1BsaDVQclJfelJURW90QXM5X2I0Tlk3N3JpUVlWRXd4eXZUbHdEdzJWdUJLMjdVSWVJR0c4cmc1YkdPOUZHR3kwWWhRQkNCUTdmaFFBS0RqcGhtSEx4RnlSangxNFVwVlFRTGdpU0hmaHVnSTZpOUVpN2RzUkx3NDJqUTNfV2pXNmNrWXd1RE9WeWpud1hOZmp2X09LWUxGUzNTN2ZSWThNSXJxdGR5SmdUcmZERnZmUmd1VnJEOFpzZWx0WmNiYWk4NG4tb3ZJQkJHeG5TdHV6Y2pCU0pBcU41MmZWN0swUVZEM1lNMEZpTw?oc=5",
@@ -774,16 +774,6 @@
       }
     },
     {
-      "id": "6a3cbde5092b",
-      "title": "Top 20 Empresas en Global Analgesics Market - Spherical Insights",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ0FVTkFJZVFSZmVfQV9GVTNqSUN4c2dud0lZUzBlQUlqSFpqQmdmcnptb1B2VG1RY1E1OXcwRkxxZ3VQcHVlQmlGMFJ6SkFyeWt0ZEVDUElMRVVaandicjJHc2JLYXpKeHBaajJzbjFyMWtOOEo1aEpPQWMtaE5xeXB4TGJzeE52VHhuUWxzM2E0UHI1clU2b0ZVcHhCbnY0MG9sSWNEbGNxUUlHdEtUWFJCZU0yZ0xfaFB4TjhXb1pQdGpRLXQxNTViOA?oc=5",
-      "published": "2026-07-18T17:23:43+00:00",
-      "source": {
-        "name": "Spherical Insights",
-        "url": "https://www.sphericalinsights.com"
-      }
-    },
-    {
       "id": "861148f5678b",
       "title": "Minsalud alerta por retos en redes sociales con medicamentos y pide vigilancia reforzada ante intoxicaciones con acetaminofén - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xbFlFQ1VxT1owQk93cC1JR3k1bThCanY3MEk4S25JQ05vZUV5N3BoaHlZb29lVTBUNWRIdWphWWhPT19pVTludEpPdl9Ddlo1S3JIeFdhWGloNEN3R0J5bXprTkZ4dzJ3Q0lfYXhJM0pvQ21lbzhmTW5R?oc=5",
@@ -794,6 +784,16 @@
       }
     },
     {
+      "id": "77bb5602e85b",
+      "title": "🍴🏃 Ellos son el doctor Víctor Mundo, Director Médico de la división Consumer Health de Bayer; la doctora Aída Jiménez, Directora de la Sección Técnica de la Salud Global en la Sociedad Mexicana de Salud Pública; el doctor Fernando Fon, Director Ejecutiv - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQW4wdFpkdVkxb084YjZldDVWZlJZLVVZS3RFZmlsQl9yM2pFSGpvMnpfdk5KWnRBVEdaSHNXYjA3WGd4M2hjNXFqUGFoMm5KaUdYZjVmNDg5Q0g0SUhSaTd1V1JkLVl5SXRUbmZCWWlqd2JFVGJ2bV9UeDFyajdQb2pvYTBxVlA0TGlfbzRoTndlWUdFcDdTZmRGU2tRb292aVZNaVY3ZEtsQUEyQzVqdzRBN1l2b2FuREpXeVI0ZHpmQlE0R0ZGeEw0Z0xTdFFsbG41enF0X3FUNkVwT2FycTF4NTRYejNvOW5lUUVTNA?oc=5",
+      "published": "2026-07-18T20:00:56+00:00",
+      "source": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
+      }
+    },
+    {
       "id": "bb2f03408314",
       "title": "¿Hay desabastecimiento de medicamentos para salud mental en Colombia? Ministerio de Salud responde - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53X0RqQTcwNXBabTlBS01pSFhvU3NpN3VtTGhfcDZvTEJ4S2hUTWV1djJHSkNuV0U2WER4d0NBbkhGU0VMR0t1cUNrMzI1SEZ4LWxIa3BNdHFQeENPLVRVeVNXc0twZjV4c09jaDdUS3l3d2NKSjA2U1Fyalowb2c?oc=5",
@@ -801,16 +801,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "966b3da53cf5",
-      "title": "Impulsan un sistema de alerta temprana para evitar el desabastecimiento de medicamentos - El Nacional - El diario de los lectores influyentes",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFpzdHJZeEQ3VlZacEVQYWEyZXJNaThnSGVDbU4yTnBzd3MwblZkVDFiNmxFX0ZhekJMRU1nNXp4bENmWDEyZGsyVmZhRlBycWtRVEJTTE9wbnB3TWt6WGFlRDNzR1gzYy1jaTRadWN4cENWYm9qRHZQaEVSV0VQeTRvbjA1Y0pkXzBZNk5EajFxOVp5RkZraURyWmdESERTRHRUY05zVDgyZW42V0pYeERMaGhzQdIBuwFBVV95cUxORWowV3phNHBMcURLNkFBcnhNUXU4RXpzQ19wT1VNZjhsMWs2MTN1N0h3MTlPbDA1YzNMQnhjT0ZpMXI5SURzdDlhQnBnbEx1dFBzWWVFSWdkYnRabmJsZEJXYU1STTZ5MWhtV25yNlVCTG5wR1l6UjR2YzlFcHZ5U200ajJMcUkyQW5LVk5vUnJxMHFhUjlZanZESUJHSmIwS1ZBc3Z4M21LVDd3ckpTYnZTT2I3OHh4b19z?oc=5",
-      "published": "2026-07-19T10:30:00+00:00",
-      "source": {
-        "name": "El Nacional - El diario de los lectores influyentes",
-        "url": "https://elnacional.com.py"
       }
     },
     {
@@ -834,6 +824,16 @@
       }
     },
     {
+      "id": "966b3da53cf5",
+      "title": "Impulsan un sistema de alerta temprana para evitar el desabastecimiento de medicamentos - El Nacional - El diario de los lectores influyentes",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVFpzdHJZeEQ3VlZacEVQYWEyZXJNaThnSGVDbU4yTnBzd3MwblZkVDFiNmxFX0ZhekJMRU1nNXp4bENmWDEyZGsyVmZhRlBycWtRVEJTTE9wbnB3TWt6WGFlRDNzR1gzYy1jaTRadWN4cENWYm9qRHZQaEVSV0VQeTRvbjA1Y0pkXzBZNk5EajFxOVp5RkZraURyWmdESERTRHRUY05zVDgyZW42V0pYeERMaGhzQdIBuwFBVV95cUxORWowV3phNHBMcURLNkFBcnhNUXU4RXpzQ19wT1VNZjhsMWs2MTN1N0h3MTlPbDA1YzNMQnhjT0ZpMXI5SURzdDlhQnBnbEx1dFBzWWVFSWdkYnRabmJsZEJXYU1STTZ5MWhtV25yNlVCTG5wR1l6UjR2YzlFcHZ5U200ajJMcUkyQW5LVk5vUnJxMHFhUjlZanZESUJHSmIwS1ZBc3Z4M21LVDd3ckpTYnZTT2I3OHh4b19z?oc=5",
+      "published": "2026-07-19T10:30:00+00:00",
+      "source": {
+        "name": "El Nacional - El diario de los lectores influyentes",
+        "url": "https://elnacional.com.py"
+      }
+    },
+    {
       "id": "358d3f133bc2",
       "title": "Circular 021 actualiza el SISMED: ¿qué cambia en el reporte de precios de medicamentos? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rSmVDSUExZVd2VWtGY3RxcDl2OHdsck1Ic2plMG9JMFZqTVNoY3d4OHYteURtSG5WSVB1c21GNlZnOUJMQmFhLTRMbWp6b3dRV3RfOGJaWVdGenI3QTN6MDQ1NTExTm5qSnBqVUJET0RtOTJ0V2c?oc=5",
@@ -841,6 +841,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "6a3cbde5092b",
+      "title": "Top 20 Empresas en Global Analgesics Market - Spherical Insights",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQ0FVTkFJZVFSZmVfQV9GVTNqSUN4c2dud0lZUzBlQUlqSFpqQmdmcnptb1B2VG1RY1E1OXcwRkxxZ3VQcHVlQmlGMFJ6SkFyeWt0ZEVDUElMRVVaandicjJHc2JLYXpKeHBaajJzbjFyMWtOOEo1aEpPQWMtaE5xeXB4TGJzeE52VHhuUWxzM2E0UHI1clU2b0ZVcHhCbnY0MG9sSWNEbGNxUUlHdEtUWFJCZU0yZ0xfaFB4TjhXb1pQdGpRLXQxNTViOA?oc=5",
+      "published": "2026-07-18T17:23:43+00:00",
+      "source": {
+        "name": "Spherical Insights",
+        "url": "https://www.sphericalinsights.com"
       }
     },
     {
@@ -991,16 +1001,6 @@
       "source": {
         "name": "Periódico UNAL",
         "url": "https://periodico.unal.edu.co"
-      }
-    },
-    {
-      "id": "7c3400091e59",
-      "title": "Arriban medicamentos esenciales para asegurar el tratamiento continuo de niñas y niños con cáncer en Bolivia - Pan American Health Organization (PAHO)",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX0I4clBZajVOMEI5ZXh3b0VIdHlPMmVub2piNFd5d3NYS2dWbGtHbzg4OXhWSmV3NHNfMDlqTTVER2ZNYUprcVMyZ2tEMTJ0RnI4WjVNMGU2QW5yR2JqQ3BJTENUa3NYdHBNVnRka2JMWXRiUW51clhxRVNPcnROa2dySzNrN1R6S1ZUYUlFRnFtVl83eG9CM3pvVTJWS2wwLXVDM3VGdHcxeEx6bWlGRllPem5QeFVmazVwaU5R?oc=5",
-      "published": "2026-06-25T07:00:00+00:00",
-      "source": {
-        "name": "Pan American Health Organization (PAHO)",
-        "url": "https://www.paho.org"
       }
     }
   ]
