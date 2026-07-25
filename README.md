@@ -1,5 +1,8 @@
 # COTxGNN - Colombia: Reposicionamiento de Medicamentos
 
+> 本專案由 **藥提醒科技有限公司**（[yao.care](https://www.yao.care)）開發與維運。
+> COTxGNN 站台：<https://cotxgnn.yao.care/>｜產品總覽：<https://www.yao.care/medical/txgnn/>
+
 [![Website](https://img.shields.io/badge/Website-cotxgnn.yao.care-blue)](https://cotxgnn.yao.care)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -345,3 +348,4 @@ Cite tambien el articulo original de TxGNN:
   doi={10.1038/s41591-023-02233-x}
 }
 ```
+
