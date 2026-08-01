@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-01T22:57:32.046830+00:00",
+  "fetched_at": "2026-08-01T23:57:30.573731+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -224,12 +224,12 @@
       }
     },
     {
-      "id": "d4241c928e80",
-      "title": "Adulta mayor denuncia odisea para obtener medicamento de su hijo en Soacha - citytv.eltiempo.com",
+      "id": "dd57056a00e4",
+      "title": "Adulta mayor denuncia odisea para obtener medicamento de su hijo en Soacha - City Tv",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQR1FjQmVZT2ZXeGljTWVfM2ZhUFB0VFh3SnhNTkRLekg1Z0xTRURwQ2s4UzBYeld0WmNOeThDQk9iMWN3RUd5X3ZMMzRZNVlIc25pLVRzQi1CLWRvdmxaa0dyWE5HamlyUHBoZEptLXJyMXMwNGcwUHdrR21Eb3ZMNnJEd1gtWldBT2psWHBNSWJob2c5MHR1OGR2RTVOR2hraGZlWlE5b3NKM3dfT0RQdjBaX3lQSWxpUEZVWGc3aEdsQ0Z3TnZoWjhzZVVlZTdKRHpDYWcxWGVLZw?oc=5",
       "published": "2026-08-01T05:56:17+00:00",
       "source": {
-        "name": "citytv.eltiempo.com",
+        "name": "City Tv",
         "url": "https://citytv.eltiempo.com"
       }
     },
@@ -324,16 +324,6 @@
       }
     },
     {
-      "id": "419d2a3c9d03",
-      "title": "Preocupa a farmacéuticos la ampliación de medicamentos de venta libre: “No son inocuos” - El Litoral",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdmhxa3FzY0dYNUl4SVZSTkFhQ0UtdllVRzVVODVja2s5bzA2TU9DZ2lPZm5yVlRtNDhUU3ZWbjFLVUQ4NFA2R0NQN2NtVzRqZ1FPejc2al9Qc2E4aEF3Z2hFLWlvYkJLZFIxZnVWTUU3UEhVS3lHQzNMNklqaDY1aE53bUxweG93OGVDY19mRHBxRkZVSW1rdGU4ZGt2ZE9hdXpyR2M0ZUpQRDBZX3lKY1NrTWhYVWI2QWJERtIBwgFBVV95cUxQMWVEcHNXbHdyOXVheWItUzRkelV2WDJjdFp3UU9fSThPeGp2V2NtamxrLVpHUVlDNUo1c0w1WjJFblBod21DcXJEaERRUlhPTmhOYTlfQnZ4ZnQzb3FZLWQ5My1BQWNiV2hBRnN3cnhxOU5hbnQ3X2traGNwZGRSYTBkTXN4aVNsR25PanBWZ3VFUkRvZFdLajZ3WVJORDRHbzlDT0owOTRuLVp6SWZWdkRPVHl4SllrSUROZVdTU2pBQQ?oc=5",
-      "published": "2026-08-01T10:12:34+00:00",
-      "source": {
-        "name": "El Litoral",
-        "url": "https://www.ellitoral.com"
-      }
-    },
-    {
       "id": "186766f44d3a",
       "title": "La farmacia rural: el último servicio, la atención más cercana - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeXVQZlBTV0N4LWNGZ3c0Q0FrYktDdE9fRno1QUgzVTF3bGhjc0lqRXgxTHhLY1lOYXNHOGN6NUZ2ck5ORTFsXy1YZ3lTTHRGampCdFdKdzBERUZyX1k5MDRsVFM0ZE5aZTZDVXlBWFptLUxldkN1MzRVOEpBb0Z2SXZLMA?oc=5",
@@ -341,6 +331,16 @@
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "419d2a3c9d03",
+      "title": "Preocupa a farmacéuticos la ampliación de medicamentos de venta libre: “No son inocuos” - El Litoral",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdmhxa3FzY0dYNUl4SVZSTkFhQ0UtdllVRzVVODVja2s5bzA2TU9DZ2lPZm5yVlRtNDhUU3ZWbjFLVUQ4NFA2R0NQN2NtVzRqZ1FPejc2al9Qc2E4aEF3Z2hFLWlvYkJLZFIxZnVWTUU3UEhVS3lHQzNMNklqaDY1aE53bUxweG93OGVDY19mRHBxRkZVSW1rdGU4ZGt2ZE9hdXpyR2M0ZUpQRDBZX3lKY1NrTWhYVWI2QWJERtIBwgFBVV95cUxQMWVEcHNXbHdyOXVheWItUzRkelV2WDJjdFp3UU9fSThPeGp2V2NtamxrLVpHUVlDNUo1c0w1WjJFblBod21DcXJEaERRUlhPTmhOYTlfQnZ4ZnQzb3FZLWQ5My1BQWNiV2hBRnN3cnhxOU5hbnQ3X2traGNwZGRSYTBkTXN4aVNsR25PanBWZ3VFUkRvZFdLajZ3WVJORDRHbzlDT0owOTRuLVp6SWZWdkRPVHl4SllrSUROZVdTU2pBQQ?oc=5",
+      "published": "2026-08-01T10:12:34+00:00",
+      "source": {
+        "name": "El Litoral",
+        "url": "https://www.ellitoral.com"
       }
     },
     {
@@ -374,16 +374,6 @@
       }
     },
     {
-      "id": "cfd5b8c152bb",
-      "title": "Exitosa Noticias. . 🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | Minsa anunció que habrá libre competencia en el sector salud para la reducción en el precio de medicamentos. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐 http://exitosanoticias.pe - facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbUZid2RrdzdNQ3pib1h6bFNYRlRHQWhIaWkzNlpZbUN3OGdjaUROLTFRS2QyOHlvQ0ZNOE5JbU1fdnE4R1hFSE1sc1F3cmJNUzJXaGhnbExrbzJTVmE2V1k1RmZxa2wzODludEFldkpfVFYwOVdERkdfa1NVcnFWUmFNYXoyNm54ZHNsX0hsNVpnalM0YzM0Rjg2dGdudjItRkFqUnFESlpTNnVLd3JvVVhNZ1A0QlFTSi1yNkhuVXItUV9QTldxbDQ4ZWZjUlFYSnFnb19tendOWGxpQWZZLU9uOXVTTTk4MmFkcUpSdEZONjA?oc=5",
-      "published": "2026-08-01T12:51:20+00:00",
-      "source": {
-        "name": "facebook.com",
-        "url": "https://www.facebook.com"
-      }
-    },
-    {
       "id": "a695f5a36291",
       "title": "Minsalud fija nuevas reglas para que EPS y gestores garanticen medicamentos completos y a tiempo - Circular Externa 017 - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tZzBnNkFzZHhlTnloREU3cnFqMkZXaUVqckZRYWVVQzBsVFBwZUh4NmhNbnFuMEpiY2IyZldldWZpdk1hbmdFVm1PblhMTWE5T09Lc1l1QzJ4NzZ4cmRac0Z6N2s0b05qa241THlHckVzN3FjaVphYzA3eXBzOWc?oc=5",
@@ -394,12 +384,22 @@
       }
     },
     {
-      "id": "4db178a26533",
-      "title": "Alerta farmacéutica por Amlodipino: ISP ordena retirar este lote de remedio de hipertensión - El Mostrador",
+      "id": "cfd5b8c152bb",
+      "title": "Exitosa Noticias. . 🔴🔵 #ExitosaPerú🇵🇪🇵🇪 | Minsa anunció que habrá libre competencia en el sector salud para la reducción en el precio de medicamentos. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐 http://exitosanoticias.pe - facebook.com",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbUZid2RrdzdNQ3pib1h6bFNYRlRHQWhIaWkzNlpZbUN3OGdjaUROLTFRS2QyOHlvQ0ZNOE5JbU1fdnE4R1hFSE1sc1F3cmJNUzJXaGhnbExrbzJTVmE2V1k1RmZxa2wzODludEFldkpfVFYwOVdERkdfa1NVcnFWUmFNYXoyNm54ZHNsX0hsNVpnalM0YzM0Rjg2dGdudjItRkFqUnFESlpTNnVLd3JvVVhNZ1A0QlFTSi1yNkhuVXItUV9QTldxbDQ4ZWZjUlFYSnFnb19tendOWGxpQWZZLU9uOXVTTTk4MmFkcUpSdEZONjA?oc=5",
+      "published": "2026-08-01T12:51:20+00:00",
+      "source": {
+        "name": "facebook.com",
+        "url": "https://www.facebook.com"
+      }
+    },
+    {
+      "id": "e9ef618a99da",
+      "title": "Alerta farmacéutica por Amlodipino: ISP ordena retirar este lote de remedio de hipertensión - elmostrador.cl",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdlpITTV4bDBEZWxqWHExNVpXSUlpWXdnMEVFVVJYc3hsTFlZTWZibnlwOTBqaEI1U3p3MXh0ZUlDaVBsUkFsVGxoeGZpQ0R2Wmdzb1dhLUlmSTI2VUNXRXo0VVhleV9lUV9GR09jWExUYk5MWUNoQmIxR1pvekJjcFYwdzJpRW54VGU5M3ktd29UWFNLbjI3cmRGQmdvRmwzTEZCcmJvbjF4WU11dFZHSl9fUG92T3pCLUh1c0cwRFZSWlFmY2Ficm9GZHMwMWJKTTNrRURzT0Zmdw?oc=5",
       "published": "2026-08-01T15:40:16+00:00",
       "source": {
-        "name": "El Mostrador",
+        "name": "elmostrador.cl",
         "url": "https://www.elmostrador.cl"
       }
     },
@@ -414,16 +414,6 @@
       }
     },
     {
-      "id": "9f5fc02589b5",
-      "title": "Aranceles de Trump a medicamentos: ¿cómo afectarán a la industria farmacéutica? - La Silla Rota",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNEJ1NUFWdl9sMzI5SUhSOHVQWjZFb1JrSFVlZW5WeHVIUGIyTmtyT2RZM2dUdnUwY2RweW1BSGZHdE5Jd2hYZGM4LXIzYWF6ZWZxZzJGR05BNjhkSEQwdThOeExWZC1YcE1yUzRkN2FNTGVZTk84OGVYLW5QZzB2a3R1TkZ1RXVNMXFwTVlYTGNVZkpFWjRfd1JwNldQNzFPRkVXNnZXUWJmRlg0aFdKeTB3eXMzOHBpTXZjek9oNzQ?oc=5",
-      "published": "2026-08-01T15:16:00+00:00",
-      "source": {
-        "name": "La Silla Rota",
-        "url": "https://lasillarota.com"
-      }
-    },
-    {
       "id": "db252af2a462",
       "title": "Nueva EPS demora entrega de medicamento de $32 millones a abuelita en Cali - CW+",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTXNEWVUxUk1TZWxmZ256SzF1Q09FOEJySVBuR1NVVlQzVUhVdmowaWwyLXByUEFDTTZrVGNZd3ZFUjZKdDBDSGktbGlhb3RvWmUxYy1Na2tYaHdaWHNHYkNoel9CTlM4YjVjbmc1SUF3NGNQaFJzSFkyMGx1WkJYSnEzdFRINzluc2RtU0pQU2NSREN3TzNlZDJWT09IQUxJU1NOejdoakc1SWs4S2s4WUZaRHYtdHdoUmhtQlAxN1ZiZw?oc=5",
@@ -434,6 +424,16 @@
       }
     },
     {
+      "id": "9f5fc02589b5",
+      "title": "Aranceles de Trump a medicamentos: ¿cómo afectarán a la industria farmacéutica? - La Silla Rota",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNEJ1NUFWdl9sMzI5SUhSOHVQWjZFb1JrSFVlZW5WeHVIUGIyTmtyT2RZM2dUdnUwY2RweW1BSGZHdE5Jd2hYZGM4LXIzYWF6ZWZxZzJGR05BNjhkSEQwdThOeExWZC1YcE1yUzRkN2FNTGVZTk84OGVYLW5QZzB2a3R1TkZ1RXVNMXFwTVlYTGNVZkpFWjRfd1JwNldQNzFPRkVXNnZXUWJmRlg0aFdKeTB3eXMzOHBpTXZjek9oNzQ?oc=5",
+      "published": "2026-08-01T15:16:00+00:00",
+      "source": {
+        "name": "La Silla Rota",
+        "url": "https://lasillarota.com"
+      }
+    },
+    {
       "id": "fd202dcf5637",
       "title": "El Ministerio de Salud negó que los medicamentos de un CAPS estén vencidos y calificó de \"mal intencionada\" la denuncia de un influencer - Tendencia de Noticias",
       "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQR3laNGc4amlzWVA4c3dja09hQ3g0S2tsbUYwS05iemw5YWw4TWJqOFltYkJMcjZZZTZJeW5RbzVzOW1lNUs2ZkczQ0pqR0I5eDVWMlFMT0hkMUZxbEVVa1FNcE9TeUhNZW4wWGE1VkJKUWJPMVZwa0RKc0NROW4wQzJxMUg2b3pFLTNTRk1wXzR1c3FQQTg2WGsycEF5MzU1TjFtSFRqS2FYUVUtdGJKcENHRGRrcDlZWXk0MUl6QkRuc0RIZU1jUEJqU1hocHpzT3Qtck1zOXI4OWlZdmJKTDVqQjVPRkNSczlTSVpGbm41NDZiUXNJQl9ib0VmQmhmS1lmN2V5ektSUVBp?oc=5",
@@ -441,16 +441,6 @@
       "source": {
         "name": "Tendencia de Noticias",
         "url": "https://tendenciadenoticias.com.ar"
-      }
-    },
-    {
-      "id": "6146b499a545",
-      "title": "Ministerio de Salud garantiza distribución constante de insumos y medicamentos en centros asistenciales de Mérida - MPPS",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEctNmxwS3VYZGh0d3BRcTJ2dERzb0JOMzYtczdOZklSSE9aWkowS09rcDhCN1BFd0lQUTdTcEJtcUhEcmg2Rl9UWGh5X0d2MkNKNUlTUFJZRVREUk9nQjZuWENkV09xS3dMdVF5RFd4NXd4ZHkwRjRNQUJhRllSTWd4RHpCWU12WWd2YTZzT0RnejNQUTBQeVlmMVFjOXdTS0psQnF6ejRYYlYzM09jc0hjMms2X1hOVnhlSklFamJzRC1aWlJtMWVmZG1uX2M?oc=5",
-      "published": "2026-07-31T17:09:57+00:00",
-      "source": {
-        "name": "MPPS",
-        "url": "https://mpps.gob.ve"
       }
     },
     {
@@ -474,6 +464,16 @@
       }
     },
     {
+      "id": "6146b499a545",
+      "title": "Ministerio de Salud garantiza distribución constante de insumos y medicamentos en centros asistenciales de Mérida - MPPS",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPOEctNmxwS3VYZGh0d3BRcTJ2dERzb0JOMzYtczdOZklSSE9aWkowS09rcDhCN1BFd0lQUTdTcEJtcUhEcmg2Rl9UWGh5X0d2MkNKNUlTUFJZRVREUk9nQjZuWENkV09xS3dMdVF5RFd4NXd4ZHkwRjRNQUJhRllSTWd4RHpCWU12WWd2YTZzT0RnejNQUTBQeVlmMVFjOXdTS0psQnF6ejRYYlYzM09jc0hjMms2X1hOVnhlSklFamJzRC1aWlJtMWVmZG1uX2M?oc=5",
+      "published": "2026-07-31T17:09:57+00:00",
+      "source": {
+        "name": "MPPS",
+        "url": "https://mpps.gob.ve"
+      }
+    },
+    {
       "id": "8d5313815860",
       "title": "Pacientes, IPS y farmacéuticas reaccionan a llegada de Vesga a MinSalud: “Celebramos nombramiento” - Blu Radio",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdnRiWFhXQ1ZMeGszTGhuYkkxSFJ5bEZNVTc4M1JaaTg4dk50ZFBHT3g4OVFUbEpTNkh4bVVMT3dOQXNJclRPWE1WcXliWXllUmRxdVFQVGNQYy1FUDRYd25Yb2dIY1NPRnFOOHVxampUVlVUcEFiNWZwOGEwLTMzTms1SjN6aWlJdV9FZVdfMkpueVlfWUs1Qk51UXVDUzJVRUZBamlfcmFGbDhnLUdEV1RKMGNkUnVIZXd5RDJsSUFGMGJ1Q202TVFR0gHXAUFVX3lxTE5TT1pnc2VNS3hGT0lzWlM4YlVVVkFZYU1NYUEzRlBGbGhmb1RnaWd4dVAxT1FQRVhRU2wxdVJMcENORjc4eFZHRWgzMzFobGZXZEwyclR4amhRbmxnd0xjOV9McDY4dDVCRkplTF9ZWlNVRUozdV9CXzFsTGRvX012NjRzb29QSGxYZ2lBLWgybWlDUU5XTU9xVWdFaTZWV2g4MDF6V200QnRVRnJSVWlPUmtiLTJDYlo0ZVBHYlg2WjVablM4aHFaWkhlT2E1bkhtNms0U1g0?oc=5",
@@ -481,16 +481,6 @@
       "source": {
         "name": "Blu Radio",
         "url": "https://www.bluradio.com"
-      }
-    },
-    {
-      "id": "e3f5192abdfe",
-      "title": "Los medicamentos para la prevención del VIH deben ser accesibles en todo el mundo - Médicos Sin Fronteras Argentina",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGV5ai1Rcy1ISnhPM0JITlI1Zkl5MlJHWi0tME5wSWNLVGdPYm5ReGdDYzVFRWhIc2ZqaTdIUElwMzU4X2hhTkd1TGptSXNHUko1YnhLenhkRFZ6dV96ZF9Sai1qMjh1OHJmUjhBcDlKWnBBOFcxVFJrcGFCXzFrb3EtOVRWdVMzWk9BRmd1SElZcWlKOXdfLUxfSkdXVUFEcHpQcnVJZ05qUWF0Mkk0N3BENm5YclE?oc=5",
-      "published": "2026-07-31T07:00:00+00:00",
-      "source": {
-        "name": "Médicos Sin Fronteras Argentina",
-        "url": "https://www.msf.org.ar"
       }
     },
     {
@@ -504,6 +494,16 @@
       }
     },
     {
+      "id": "e3f5192abdfe",
+      "title": "Los medicamentos para la prevención del VIH deben ser accesibles en todo el mundo - Médicos Sin Fronteras Argentina",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWGV5ai1Rcy1ISnhPM0JITlI1Zkl5MlJHWi0tME5wSWNLVGdPYm5ReGdDYzVFRWhIc2ZqaTdIUElwMzU4X2hhTkd1TGptSXNHUko1YnhLenhkRFZ6dV96ZF9Sai1qMjh1OHJmUjhBcDlKWnBBOFcxVFJrcGFCXzFrb3EtOVRWdVMzWk9BRmd1SElZcWlKOXdfLUxfSkdXVUFEcHpQcnVJZ05qUWF0Mkk0N3BENm5YclE?oc=5",
+      "published": "2026-07-31T07:00:00+00:00",
+      "source": {
+        "name": "Médicos Sin Fronteras Argentina",
+        "url": "https://www.msf.org.ar"
+      }
+    },
+    {
       "id": "c3a0fff1f61f",
       "title": "Inspecciones sorpresa buscan agilizar entrega de medicamentos e insumos a pacientes de Manizales - Centro de Información – Alcaldía de Manizales",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajVfV3B0bzh2RDBrMldjREdMay1PaXY0cGxuLTlZV2JJYlpWZE42RzlaZHM3WXdJdVg5UlR2ZkxQTzNrVEZsUm0xcmVGNDl2NGoxWEFuTGlPdVFxbkU5XzZ0eUVEVjlUNHQ0ZVNlR3RtMi1Hc0ZwN29jemV0bmZ5NEZfN29tMU9hcDN2NnlWYnhTV29KWnc4by00dlhfM3ZPVVhJQl9lTXdqT0ZkWDRiZ1JxbFVETEFEOEVkTUR6R0d0S1JVN0tXN2d6Z3h5dVFmQktkTlFrektvQQ?oc=5",
@@ -511,16 +511,6 @@
       "source": {
         "name": "Centro de Información – Alcaldía de Manizales",
         "url": "https://centrodeinformacion.manizales.gov.co"
-      }
-    },
-    {
-      "id": "fdc873d2abf2",
-      "title": "Farmacéuticos de Santa Fe alertan sobre los peligros de la ampliación de medicamentos de venta libre - Mirador Provincial",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeTJYZkVFSkwwMFNxb0c5Z1JWU2pWQ3NBZWtTWDdia0N2MERRTjgyTGwyZDJhMTN3ZDEtSVlKWk93QnRReF85Tl9SN2FoR0RsZzFTQVVlSlljbkZGcEt2c0k4eGQ3V095QzV2c1YwQnFtQmhDMEJHN2dfRFcwY2tnaWMtMW5MZGdkYkZpWFVweHNtUjNIdXU0Q3N1dVNfdmRuVzFpQXgxaWt2Z1FILUJwbk1tWW4zUFJReWktSzliSlBwN0czNXh3TDZ4ZWVUcVFUVFdpZ29fMnhxenBuTGtz?oc=5",
-      "published": "2026-08-01T12:40:57+00:00",
-      "source": {
-        "name": "Mirador Provincial",
-        "url": "https://www.miradorprovincial.com"
       }
     },
     {
@@ -544,13 +534,13 @@
       }
     },
     {
-      "id": "2cc011e80c52",
-      "title": "Gobierno retira 1 453 medicamentos irregulares del mercado - El Comercio",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczRuV1NJMVF3SlhjN0lIdGJ0NjFYM1dGU3NMWDdiUC16N2FIZjlPYjgzV2VIMTlhemhaMVVFMkNRRmU1VllMcklxNnBKWU1CVnZjX0dWcHgxVFo2TndZQ0hDcV8yeGtQZmlyd29KTmpxUkdCX3ZSLVA1U3lzYjFhbzlZZ3NZV0V5Q25pNnphLWJ1ZkpqWVdTVFoycDlhdw?oc=5",
-      "published": "2026-07-31T23:49:42+00:00",
+      "id": "fdc873d2abf2",
+      "title": "Farmacéuticos de Santa Fe alertan sobre los peligros de la ampliación de medicamentos de venta libre - Mirador Provincial",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPeTJYZkVFSkwwMFNxb0c5Z1JWU2pWQ3NBZWtTWDdia0N2MERRTjgyTGwyZDJhMTN3ZDEtSVlKWk93QnRReF85Tl9SN2FoR0RsZzFTQVVlSlljbkZGcEt2c0k4eGQ3V095QzV2c1YwQnFtQmhDMEJHN2dfRFcwY2tnaWMtMW5MZGdkYkZpWFVweHNtUjNIdXU0Q3N1dVNfdmRuVzFpQXgxaWt2Z1FILUJwbk1tWW4zUFJReWktSzliSlBwN0czNXh3TDZ4ZWVUcVFUVFdpZ29fMnhxenBuTGtz?oc=5",
+      "published": "2026-08-01T12:40:57+00:00",
       "source": {
-        "name": "El Comercio",
-        "url": "https://www.elcomercio.com"
+        "name": "Mirador Provincial",
+        "url": "https://www.miradorprovincial.com"
       }
     },
     {
@@ -584,13 +574,13 @@
       }
     },
     {
-      "id": "e1ad73ff264d",
-      "title": "Estudio analiza cómo personalizar los medicamentos GLP-1 para cada paciente - wfla.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQM2xITTNieTVUUXl1RWZlaTlBQmdCeEdidHpxQlpYWDFSQ2JTZVZMMFBfN1lCOWZWOTVJTzdfZVBBTi1RZURsVEhmTDV0ZFNObVN0NThHWjEtb2Z0cVFLU1lmZEpBdFprdTFoVVBqaE1aMzllM01pbjdpTFh6YkJ2dVMwWUdvRDV1WmxzdjNlaDRvVUhTQmFNbXQwSHZQOXd1aXVPY2FyTEc4bVdzWmhUdkpVVlJxNUtzLUpOZzE2U0ZQaE8xQmfSAcsBQVVfeXFMTzlqdkdHTXBnSVVfeVJXeTVzMzRiQlFZejBCY3hsOXdvd2ZHU0stTEF4a3lpczkzeTFieEM2RHJHUnRsLVY5OTFXUlVrNjRORk4xZGN2UDFGUDlXd3hLUm5yUTFXb2xWOEhNcjVOS1M0MldmQnUxSDhrcldKU29HN1Nra3NWZERXYlRsOERtckl0NTVMRWpkRU9zTnNta2kyOUhOeG4xTFpScFgza0Y0bThCUmxZWW1DUE5OWWhiYlJGWXozOHVIS3NiMnM?oc=5",
-      "published": "2026-07-31T10:04:43+00:00",
+      "id": "2cc011e80c52",
+      "title": "Gobierno retira 1 453 medicamentos irregulares del mercado - El Comercio",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPczRuV1NJMVF3SlhjN0lIdGJ0NjFYM1dGU3NMWDdiUC16N2FIZjlPYjgzV2VIMTlhemhaMVVFMkNRRmU1VllMcklxNnBKWU1CVnZjX0dWcHgxVFo2TndZQ0hDcV8yeGtQZmlyd29KTmpxUkdCX3ZSLVA1U3lzYjFhbzlZZ3NZV0V5Q25pNnphLWJ1ZkpqWVdTVFoycDlhdw?oc=5",
+      "published": "2026-07-31T23:49:42+00:00",
       "source": {
-        "name": "wfla.com",
-        "url": "https://www.wfla.com"
+        "name": "El Comercio",
+        "url": "https://www.elcomercio.com"
       }
     },
     {
@@ -654,16 +644,6 @@
       }
     },
     {
-      "id": "7bf6307e2af0",
-      "title": "La Confederación Farmacéutica Argentina alertó que un medicamento de venta libre “no es inocuo” - el1digital.com.ar",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWmR3NWd0UTFvNXlBMGt4b0dCOWJJSUxjaTBvMWZ0bERaUXF3cnY5Y2dxT1A4b1hoTHRvcVFJRmZ1emcxNmJfRl9nVGQwQVhiSkx2clpnOEp2b0FyUXZOck1MMjE5Q2tqWW56MEFOeTllSUp0NEJ1ckxOWWQ3TkFjUEZFQzNCVFV6MHZBNzg5SWhNOTZmNEhQeWc0MTZUTm9jb3hwcWxOaUxoUFJyY2FuU2J0V3JsWDBHbHF5c05oTlhtdnVjM21tZndUY2luUQ?oc=5",
-      "published": "2026-08-01T11:03:51+00:00",
-      "source": {
-        "name": "el1digital.com.ar",
-        "url": "https://www.el1digital.com.ar"
-      }
-    },
-    {
       "id": "c1b10d7c7c37",
       "title": "Supersalud evidencia fallas en entrega de medicamentos a usuarios de Famisanar en dispensario Ramédicas - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fWU5KcHZtVmt1U1JPSzlHOXRUN3h1ZmNqWnp2emlfLWUzbk9RcVVSQ2R4SHpZU1NGQ0dLMmlnaXQ3Uk5UY2d1SGlIb2FyYmtJTndCM0NlX3BxOFhkNDJOWmU5WG9Kbk9fMHBHRXVyVy1iYTJzTU4tU0NQaHZGdk0?oc=5",
@@ -671,6 +651,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "2f79b390d918",
+      "title": "Más de 63.000 medicamentos represados ponen en riesgo la salud de afiliados a Nueva EPS en Manizales - Defensoría del Pueblo de Colombia",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXNzRGUxaWdoY1g5QkNieEQ3S1F5aENzRlFsMjhuQkRJeEVyTi1TczE4VmRxQ2ZUS2g4dG9YZGxuM0YtVE9HOXM1RlJvY2NrRmJCbHRYTjJZdUhKR2kyMzNuTWRMQ3NOenRuWkVzcnZDVFhnY2wzRHMtM044amx6UTBQSjZrZTFIVWxXS2dBeGlXVHYxMGp3ZlBvbGJwSlBiZGhKWVMtMldOcV8zV0ZSeDlIN3l6emp4QTlGdVRWVXQ2Tm8?oc=5",
+      "published": "2026-03-21T21:41:46+00:00",
+      "source": {
+        "name": "Defensoría del Pueblo de Colombia",
+        "url": "https://www.defensoria.gov.co"
       }
     },
     {
@@ -684,13 +674,13 @@
       }
     },
     {
-      "id": "2f79b390d918",
-      "title": "Más de 63.000 medicamentos represados ponen en riesgo la salud de afiliados a Nueva EPS en Manizales - Defensoría del Pueblo de Colombia",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOcXNzRGUxaWdoY1g5QkNieEQ3S1F5aENzRlFsMjhuQkRJeEVyTi1TczE4VmRxQ2ZUS2g4dG9YZGxuM0YtVE9HOXM1RlJvY2NrRmJCbHRYTjJZdUhKR2kyMzNuTWRMQ3NOenRuWkVzcnZDVFhnY2wzRHMtM044amx6UTBQSjZrZTFIVWxXS2dBeGlXVHYxMGp3ZlBvbGJwSlBiZGhKWVMtMldOcV8zV0ZSeDlIN3l6emp4QTlGdVRWVXQ2Tm8?oc=5",
-      "published": "2026-03-21T21:41:46+00:00",
+      "id": "7bf6307e2af0",
+      "title": "La Confederación Farmacéutica Argentina alertó que un medicamento de venta libre “no es inocuo” - el1digital.com.ar",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWmR3NWd0UTFvNXlBMGt4b0dCOWJJSUxjaTBvMWZ0bERaUXF3cnY5Y2dxT1A4b1hoTHRvcVFJRmZ1emcxNmJfRl9nVGQwQVhiSkx2clpnOEp2b0FyUXZOck1MMjE5Q2tqWW56MEFOeTllSUp0NEJ1ckxOWWQ3TkFjUEZFQzNCVFV6MHZBNzg5SWhNOTZmNEhQeWc0MTZUTm9jb3hwcWxOaUxoUFJyY2FuU2J0V3JsWDBHbHF5c05oTlhtdnVjM21tZndUY2luUQ?oc=5",
+      "published": "2026-08-01T11:03:51+00:00",
       "source": {
-        "name": "Defensoría del Pueblo de Colombia",
-        "url": "https://www.defensoria.gov.co"
+        "name": "el1digital.com.ar",
+        "url": "https://www.el1digital.com.ar"
       }
     },
     {
@@ -794,16 +784,6 @@
       }
     },
     {
-      "id": "07b7c0947877",
-      "title": "Federación Médica alerta sobre mafias en el sistema de salud y pide \"mano dura\" para enfrentar redes irregulares - FM Mundo",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMXN4a1lGdUgtTFhBU1V4OEQ4QW51cm1IbFVzaFdZNFR4R0d1MDBRTzZyVVNpc1c0dHlnaDNlRW5oT2JYVm4wNlNhczUwbVVkOW96a2wtU0JyajRKSmdveWo0U0YxYllCclB3Ry0taW8tSldodlNSOTJCM2ZnZVQ2Vm1Bek1PZFl1eGpnMl9FMDRYME1nYnhhYU1pLVRBQ1Vpb25SV1VOUDk5RUFBbXRidDVnYzhEb3JMNk1rR0FEbFhPa0RsTHRHZnQwTmE5RFdlZzlkMkF4ZGpMUQ?oc=5",
-      "published": "2026-08-01T00:18:00+00:00",
-      "source": {
-        "name": "FM Mundo",
-        "url": "https://fmmundo.com"
-      }
-    },
-    {
       "id": "c44fddaf916d",
       "title": "Medicamentos de alto costo - Diario Digital El Calbucano",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5FRG5fM3FaaVpfYUdJMW5vMHROdnA5TlJ4cndkV3lLTDB1dUZuejZZSGhSY25SUEFzbzdYREgzWE5RV3otM05PQzZCb2dORDhHUEpzdWlFNzlvUjlYUGNuX0pNM2p5b1kyOUJNaGdkYw?oc=5",
@@ -841,16 +821,6 @@
       "source": {
         "name": "laopinion.com",
         "url": "https://laopinion.com"
-      }
-    },
-    {
-      "id": "b0c1ce6bec76",
-      "title": "Descuentos Fonasa medicamentos: Cómo buscar remedios baratos en farmacias - El Mostrador",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcVRWLWFfUVJQSE1hTlRVQzF0MTQ5R2t6eE93My1DbTNrSmFBRHJ3V3FZUk1lcUxzOTVlWHBxM1lheC1IMTdWU1ZraW5ISEJqQ2FHd3IzNTZOS3hvTkdiWVlJZWZqUHlCQWI3REp3bTN0UzNER2Q5eEVnbm1lRENIQ3c4aFlialZxei1hTGJSaWVHVWw1cEF2Qnd1UUhsX1NWNTNwMnRBaE5BY1BBNnNJMmo3VXdDcXdqSGVNRW1DXzRhcFh0SEZlOFM1TmNJXy12QzloeVpuakFrbncyeGhFMWhwRQ?oc=5",
-      "published": "2026-08-01T15:30:21+00:00",
-      "source": {
-        "name": "El Mostrador",
-        "url": "https://www.elmostrador.cl"
       }
     },
     {
@@ -924,6 +894,26 @@
       }
     },
     {
+      "id": "cab377fbb260",
+      "title": "Descuentos Fonasa medicamentos: Cómo buscar remedios baratos en farmacias - elmostrador.cl",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQcVRWLWFfUVJQSE1hTlRVQzF0MTQ5R2t6eE93My1DbTNrSmFBRHJ3V3FZUk1lcUxzOTVlWHBxM1lheC1IMTdWU1ZraW5ISEJqQ2FHd3IzNTZOS3hvTkdiWVlJZWZqUHlCQWI3REp3bTN0UzNER2Q5eEVnbm1lRENIQ3c4aFlialZxei1hTGJSaWVHVWw1cEF2Qnd1UUhsX1NWNTNwMnRBaE5BY1BBNnNJMmo3VXdDcXdqSGVNRW1DXzRhcFh0SEZlOFM1TmNJXy12QzloeVpuakFrbncyeGhFMWhwRQ?oc=5",
+      "published": "2026-08-01T15:30:21+00:00",
+      "source": {
+        "name": "elmostrador.cl",
+        "url": "https://www.elmostrador.cl"
+      }
+    },
+    {
+      "id": "07b7c0947877",
+      "title": "Federación Médica alerta sobre mafias en el sistema de salud y pide \"mano dura\" para enfrentar redes irregulares - FM Mundo",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOMXN4a1lGdUgtTFhBU1V4OEQ4QW51cm1IbFVzaFdZNFR4R0d1MDBRTzZyVVNpc1c0dHlnaDNlRW5oT2JYVm4wNlNhczUwbVVkOW96a2wtU0JyajRKSmdveWo0U0YxYllCclB3Ry0taW8tSldodlNSOTJCM2ZnZVQ2Vm1Bek1PZFl1eGpnMl9FMDRYME1nYnhhYU1pLVRBQ1Vpb25SV1VOUDk5RUFBbXRidDVnYzhEb3JMNk1rR0FEbFhPa0RsTHRHZnQwTmE5RFdlZzlkMkF4ZGpMUQ?oc=5",
+      "published": "2026-08-01T00:18:00+00:00",
+      "source": {
+        "name": "FM Mundo",
+        "url": "https://fmmundo.com"
+      }
+    },
+    {
       "id": "843f8ac647d6",
       "title": "Central recibe nueva carga de medicamentos e insumos para los servicios de salud - mspbs.gov.py",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVlVKc0pzWHFSS0MzMFZvYXlvNS1pUjhEYTFOZHJldUFSSHJBNW0xcFFFZ3BoVnEzNHpVQ0xjaU1GVERGQm9wV0VjaDZsd2s2NkJfVmZ4V3NrUWVPakhMel8zQzZ3Y3MtOFUzOFJmRXhoTlF1WWI5SWlJWURscTJCUGkwUVhzYk1NT21vdk5RM0FTd2EzNUMyeGRaNDVLaVBWZ0MtbEJMalBqNTFxNzgwQm1WbDE1bkRwSXJhZkRmS3Y?oc=5",
@@ -944,6 +934,16 @@
       }
     },
     {
+      "id": "bf7585962363",
+      "title": "Realidad de la crisis de medicamentos en Colombia y su uso eficiente - Bancolombia",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1GMFBxVFRnRzEtSEVhWmh2S2hScEQ0NXVsT2pscWVoWkVldk15Z1Q4N3M2cTU2MmdPaXp3YlgxMjlCckRqSTJJcjhBY0l6R0tCWGFGSDNMQXVHdHVSejVBM21lcDVCcUR3QV9SQU9ZNnY5ajJfdktYaFZ2d1NuWHZGTXE3V090STNwVkFYQVM1dTBFWUZldzAyMmIwUFhUQlFJbHM0dkdlUElwQ1lFSXVFeDd5Q0tpQ2VRNzZlaFV1MTdOYnVUOFBB?oc=5",
+      "published": "2026-04-06T07:00:00+00:00",
+      "source": {
+        "name": "Bancolombia",
+        "url": "https://www.bancolombia.com"
+      }
+    },
+    {
       "id": "05f2ca063b82",
       "title": "Operativo en hospitales de Guayaquil detecta más de 1.400 medicamentos irregulares - eltelegrafo.com.ec",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbVAxUk90ZGtmYk5iTVhuYm5UQ1ZzbGJFcjQzWExMMjk3TU9PQVZtdmZoZlJ0XzBkM3dsbDRxWVd6SElka09YZWJzempPX1YzcUNhc2xISU1UdkxONkdtQmlLWHlRZk5jMGZKYWtmaloyX2dLZ255ak9FQ2dmVGlLQ0tsSXBpc1dVNFNhZVdCaDFhSy0tUFBXUHJFek5OVFlRaHRJSlExU0ZSR2NFdnlCNVJaUE16NmtOdkY2aHZRZUpwQ2p2SW5uekNvMHl0WElOZEFZ?oc=5",
@@ -951,16 +951,6 @@
       "source": {
         "name": "eltelegrafo.com.ec",
         "url": "https://www.eltelegrafo.com.ec"
-      }
-    },
-    {
-      "id": "5ed22c9655af",
-      "title": "Realidad de la crisis de medicamentos en Colombia y su uso eficiente - bancolombia.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQcG1GMFBxVFRnRzEtSEVhWmh2S2hScEQ0NXVsT2pscWVoWkVldk15Z1Q4N3M2cTU2MmdPaXp3YlgxMjlCckRqSTJJcjhBY0l6R0tCWGFGSDNMQXVHdHVSejVBM21lcDVCcUR3QV9SQU9ZNnY5ajJfdktYaFZ2d1NuWHZGTXE3V090STNwVkFYQVM1dTBFWUZldzAyMmIwUFhUQlFJbHM0dkdlUElwQ1lFSXVFeDd5Q0tpQ2VRNzZlaFV1MTdOYnVUOFBB?oc=5",
-      "published": "2026-04-06T07:00:00+00:00",
-      "source": {
-        "name": "bancolombia.com",
-        "url": "https://www.bancolombia.com"
       }
     },
     {
@@ -1001,6 +991,16 @@
       "source": {
         "name": "Pan American Health Organization (PAHO)",
         "url": "https://www.paho.org"
+      }
+    },
+    {
+      "id": "0b0c841bbecf",
+      "title": "El fenómeno Ozempic desata en Silicon Valley la fiebre de los péptidos: 'moléculas mágicas' que prometen 'hackear' la salud - El Periódico",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObE12M3JHQmNYanhCNjB6cXd1MFI2WmNlcVJtbGl0cVJ4SC1pVHowQ1VSb2JRUmwzMDVVbW1kZUNidmxwMXN0N04yQUEyVmx5Smh0Smg0c0c5WloyaDhuTzFlU0d3bS1ZaEdxNHNCX0lncXBOaVBXUTI2akhzVUhCRWJHVGNXVFlWUkg2V1l0V0FkZmRtTWZFU0tPcHZFc1lqamZESkN0cGpKS0ViQm8wRHp4OFFfSjgxMFFKR21OUTVoZFA3NkRoYVJMN21jcjRVbmphb1pfcDLSAdgBQVVfeXFMTUFtY1VfZ0otSDk0dnlaTF9MSjQ5OGl6ekVuRXl1cXZ2bm1yaUg4LXZuM2l5SHQ2LWlYS1VxWnN3bnBBeGZEMF9vSjhuZXBWbVlLNGxUTm04cmVLRkN5dGE2cXE5WGh1MTZmNjk0S21PZGtsQmZZT2J1VkUycEhkT2tMQVQtc0Ewa0t4OTl5NW1obnhhTDlsRjV4SDhGRXRoQ0VDeWQxUXhDWHBsMWZZc1FubFI4Z2dNWk00Q2h5aGF5ZlFJS1IzUVFnT1VxWU0zSXBycmJ4eUs4?oc=5",
+      "published": "2026-08-01T08:01:12+00:00",
+      "source": {
+        "name": "El Periódico",
+        "url": "https://www.elperiodico.com"
       }
     }
   ]
