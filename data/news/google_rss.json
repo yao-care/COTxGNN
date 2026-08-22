@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-22T20:20:57.064977+00:00",
+  "fetched_at": "2026-08-22T21:20:35.786866+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -7,7 +7,7 @@
       "id": "32183ae416a1",
       "title": "La Farmacia Vaticana en primera línea atendiendo a los más vulnerables - Vatican News",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWVVDclpncjRUcUtoTVVKc2traHk3ci1ReUgzOFozNFlDMkdTMnhYWkROYjRDQ0RnOFRXSEMtb003T2xNSTRPY0M3QXBfNUpUbURITk9XdXk4MUlfcXZMSVp1NXd4dkNyRWp4Vm0zV1BGQ1pKY0VHMHdDUjAtUlhXaHFLSVhlaXd3ZUNtZW5FeDRid29jZHZPbUp1cHZOTjJqc1JSVmdOOWk3ejIycGdHVDAzME5aNnR5cGNLNFJR?oc=5",
-      "published": "2026-08-21T11:30:36+00:00",
+      "published": "2026-08-22T17:25:16+00:00",
       "source": {
         "name": "Vatican News",
         "url": "https://www.vaticannews.va"
@@ -154,16 +154,6 @@
       }
     },
     {
-      "id": "a7b2bdbdd58e",
-      "title": "Bogotá envía medicamentos y tecnología a Quimbaya para apoyar atención tras el terremoto - Caracol Radio",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRkUybXpZOGUySTYzemxlVDhzZUVhWW55M014Mi1CdlpYaURsTHg2ZFE1aDFMU3lZdmF6VElnWWZiRjc0NGdwUnN5UlJpZjhFLVNDTThFOVpqSHNWcDk0Q1ZVa3B3dVNERkl5MGFudUZJcnhWa0VrLU02QV9wTGFqYTNRc3U1S0I1SVZ3aktYNHdUX1g0VV9NV3pyTEE5SjFMeTZfQmJvcHBKVHZTSDVSSHVGdVhfNWtncTJLMmFUc03SAdQBQVVfeXFMTldLMmhOX3hJZHJydVVXWE81RUNPSmVjUkdvLU50MVl6MzA5aXNZNUVUMlBCVnFiLTV0V0hnb0xsakZTcndKQUFqUGwyVVhNaHNfLUFuVWJwVDlRV1JwcEJFeHdBQnZMbTB5VWhtQ0pBMTRmTzlucFVUZUUteXpGcjRxOVlCQTVyTHhvNnR5dEpjWXNxVVJUdm5NaTZNRXRlWkhiTS1lWnFQUHE2bmp2dkpkTEVXYm5ybGtYcDdVOHR5S0RYdEN4VHMxSGxFZlpvaC01bWs?oc=5",
-      "published": "2026-08-21T22:07:53+00:00",
-      "source": {
-        "name": "Caracol Radio",
-        "url": "https://caracol.com.co"
-      }
-    },
-    {
       "id": "67b251f1af6e",
       "title": "Autoridades agradecen solidaridad y orientan sobre la gestión de medicamentos - Centro de Información – Alcaldía de Manizales",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWlZmNF9LaWJheS1Wa0NJSUpXR3dJazhObHF3dEExTHBqaVh4MHZxN2I5ejl2akc3Sl9wbW1uakJSTWVyVExzZlhlS0FtcENsZzdFZU0zd3dnc0d0dUZvTHhMZFFpZUhCc043R2tFeUhYQnE4dlhYYVF5SkdiMnFQd2hpU1E1MzQ2S1FsNVhwX2FzWm9YWjRHaVo1R3ZhSllXQ1hKdGlIZDZVVDN6dWVSeHcyR21OQ213SlotVEktRjVMLXRKX2x6al95Zw?oc=5",
@@ -171,6 +161,16 @@
       "source": {
         "name": "Centro de Información – Alcaldía de Manizales",
         "url": "https://centrodeinformacion.manizales.gov.co"
+      }
+    },
+    {
+      "id": "a7b2bdbdd58e",
+      "title": "Bogotá envía medicamentos y tecnología a Quimbaya para apoyar atención tras el terremoto - Caracol Radio",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRkUybXpZOGUySTYzemxlVDhzZUVhWW55M014Mi1CdlpYaURsTHg2ZFE1aDFMU3lZdmF6VElnWWZiRjc0NGdwUnN5UlJpZjhFLVNDTThFOVpqSHNWcDk0Q1ZVa3B3dVNERkl5MGFudUZJcnhWa0VrLU02QV9wTGFqYTNRc3U1S0I1SVZ3aktYNHdUX1g0VV9NV3pyTEE5SjFMeTZfQmJvcHBKVHZTSDVSSHVGdVhfNWtncTJLMmFUc03SAdQBQVVfeXFMTldLMmhOX3hJZHJydVVXWE81RUNPSmVjUkdvLU50MVl6MzA5aXNZNUVUMlBCVnFiLTV0V0hnb0xsakZTcndKQUFqUGwyVVhNaHNfLUFuVWJwVDlRV1JwcEJFeHdBQnZMbTB5VWhtQ0pBMTRmTzlucFVUZUUteXpGcjRxOVlCQTVyTHhvNnR5dEpjWXNxVVJUdm5NaTZNRXRlWkhiTS1lWnFQUHE2bmp2dkpkTEVXYm5ybGtYcDdVOHR5S0RYdEN4VHMxSGxFZlpvaC01bWs?oc=5",
+      "published": "2026-08-21T22:07:53+00:00",
+      "source": {
+        "name": "Caracol Radio",
+        "url": "https://caracol.com.co"
       }
     },
     {
@@ -194,10 +194,20 @@
       }
     },
     {
-      "id": "e1ad89cf36c1",
-      "title": "Cúrcuma y cerebro: qué dice la evidencia sobre la curcumina y la memoria - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdjhvNUlHT05jWUhLUy1md1FpNjc0enFoQm1NNElFN3dlQm5VbXRib1EwLUVLQzdycWltUGRia3ZpZXllT1FtU2taYjhqUDZ2MUZsWDVYV1c4Q3FRalVqNHVQYzQ0UWtDVzNMVW1TRS1yR3gyV1EzQVdTcU9OVHBmZk4tTGl2UmVzdTg5WVhXYjdrRDVLQnR3WjBvRDd4Mjd4dUZiQUxsNG5HMjFmUEQ5R1NYTkxjVTA?oc=5",
-      "published": "2026-08-22T13:35:00+00:00",
+      "id": "597332f6e908",
+      "title": "Invima alerta por venta ilegal de gel en Colombia y advierte sobre 'riesgos para la salud' - Portafolio.co",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMEkzQnRMTm84Z09FWGJxLUtQYU8tRWlua1laQ0V5RDl1Ujg0d21Pb0RCeTZ3X0daMEgzUHBtRWhQS2F6eGQ1MnVadmRnd1ltb0RkQnFaTkNYNHFVb2VraE5JV0pvWVlMV3NMZEFubFlVZ2Z6dEkwZDBFbnNFbTBqcC02NXgtVHk4YWJFOEE4aUxmMkV6WHV4WDdsYVpjMkVIclhyZHh0NWJLSjZTZm1uVWhpX20xb2Q4ZU1mRXlxUG53NWNNOEpDbHlOSU9vdG14SGVtc2pR0gHbAUFVX3lxTFBEd3BWaDdiamFKTFRvcFNfbEE1ODJWeGV2T2pmRGtCVHBtQjdJT2x2X1RmcVppN3NZN3ZSQ2g3UkN6MFRWSFZtdzNLc2JNMHc2NkF1aWtIbmZud3BzLV9ub29lUEJ4ekFGcThRcDN0MXU0Z2pYRUtsblNoQTdQaE5NOXNsN0dhVzFrY19ITWpHS0NkUG0xQkFpQ2dMYlBTek9uTjZZVU8yWFZ2UnMySUNzY0d1dWFYRmJPZjVmcHpyYWVVakM3dGVoMVN2Q1lSbmVtaXc2bW94TjBYcw?oc=5",
+      "published": "2026-08-22T18:03:00+00:00",
+      "source": {
+        "name": "Portafolio.co",
+        "url": "https://www.portafolio.co"
+      }
+    },
+    {
+      "id": "715df328f79a",
+      "title": "Retención de líquidos: qué la causa realmente y qué hábitos ayudan a reducirla - Tua Saúde",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEtiSkN4ajV6MUcwWFZRSVVQUWR4UE1kRXFCemEyamN6R1BrSzQ3b3FzeHNQbUJDRkxKM3ZMUEU3R2Z5dTh4UDJ0a1FmWDNGaURyeUxIR3RUZW9qYzdYRGpIRUdWMUhDSjZJZjlDRWR0SUpCdkFzMmtySjJMQlZSTTRwVDNyRklUd2tGN1M4QWhaVXgwanpIV3VUaFdPa0g5dFRoVUFRUWdxUExZdHI2SGlESW12RzEwcTk2X1g5SQ?oc=5",
+      "published": "2026-08-22T10:45:00+00:00",
       "source": {
         "name": "Tua Saúde",
         "url": "https://www.tuasaude.com"
@@ -224,10 +234,10 @@
       }
     },
     {
-      "id": "715df328f79a",
-      "title": "Retención de líquidos: qué la causa realmente y qué hábitos ayudan a reducirla - Tua Saúde",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaEtiSkN4ajV6MUcwWFZRSVVQUWR4UE1kRXFCemEyamN6R1BrSzQ3b3FzeHNQbUJDRkxKM3ZMUEU3R2Z5dTh4UDJ0a1FmWDNGaURyeUxIR3RUZW9qYzdYRGpIRUdWMUhDSjZJZjlDRWR0SUpCdkFzMmtySjJMQlZSTTRwVDNyRklUd2tGN1M4QWhaVXgwanpIV3VUaFdPa0g5dFRoVUFRUWdxUExZdHI2SGlESW12RzEwcTk2X1g5SQ?oc=5",
-      "published": "2026-08-22T10:45:00+00:00",
+      "id": "e1ad89cf36c1",
+      "title": "Cúrcuma y cerebro: qué dice la evidencia sobre la curcumina y la memoria - Tua Saúde",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdjhvNUlHT05jWUhLUy1md1FpNjc0enFoQm1NNElFN3dlQm5VbXRib1EwLUVLQzdycWltUGRia3ZpZXllT1FtU2taYjhqUDZ2MUZsWDVYV1c4Q3FRalVqNHVQYzQ0UWtDVzNMVW1TRS1yR3gyV1EzQVdTcU9OVHBmZk4tTGl2UmVzdTg5WVhXYjdrRDVLQnR3WjBvRDd4Mjd4dUZiQUxsNG5HMjFmUEQ5R1NYTkxjVTA?oc=5",
+      "published": "2026-08-22T13:35:00+00:00",
       "source": {
         "name": "Tua Saúde",
         "url": "https://www.tuasaude.com"
@@ -274,6 +284,16 @@
       }
     },
     {
+      "id": "f68d04c90864",
+      "title": "Diputados: proponen garantizar ubicación y entrega de medicamentos en redes de salud - Agencia Andina",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RrVHpQVVB1Uk1naFBFWERYd3ZyTzYtY0lUVjBxVWNMWWx0Rmt5bDBJVzBwY0ZhYjRMcGl1ZHQ2cWhBelhQUmNRcmlpQ085WWNyWm1mTVFXM3E3YjV2TGJGTU9NRlpHSC1fZ2NoMDRZaUx0MEd6U3ZnVW16YzJ6b0dvYkw5RkFmM2ZFR0x3aWZDaGhnU2F2X2t1X095bkhaMFFEN2tUd3NYbzd1YkF1ZzFFTXIzaE96cjNjclRB?oc=5",
+      "published": "2026-08-22T21:19:37+00:00",
+      "source": {
+        "name": "Agencia Andina",
+        "url": "https://andina.pe"
+      }
+    },
+    {
       "id": "7e9fb47e4ba3",
       "title": "¡No se confíe! La publicidad de medicamentos con receta debe estar autorizada - Ministerio de Salud Costa Rica",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVFNqaEE1OTRSeHdlWnhGaG1TWm1yOF9DRlFSNVBRc244VW9Ld0EwV0plT3drc2VFUGF1Sk13NnF0WlpuS3FicjI1dU91Y0U3XzY4eXZ1Qjh3Q2NnaXZuelBUUXVZbWg1TUJvOTBWcFhWOFJLdFpNcE5QbWtoMmp5QURoSXRETDUtdG1fVVJkc3MwTmRzZ1EtTFJleGdzMFNkUHpNMm9wSXFUNi1OMFdkcHdMQTk2THhkZzNkMDVWTmtlQ3ZlY1NsdndSUmpvUjh4emtwdnZOWnpGa3BrUDBDODExSk0?oc=5",
@@ -281,16 +301,6 @@
       "source": {
         "name": "Ministerio de Salud Costa Rica",
         "url": "https://www.ministeriodesalud.go.cr"
-      }
-    },
-    {
-      "id": "f68d04c90864",
-      "title": "Diputados: proponen garantizar ubicación y entrega de medicamentos en redes de salud - Agencia Andina",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb0RrVHpQVVB1Uk1naFBFWERYd3ZyTzYtY0lUVjBxVWNMWWx0Rmt5bDBJVzBwY0ZhYjRMcGl1ZHQ2cWhBelhQUmNRcmlpQ085WWNyWm1mTVFXM3E3YjV2TGJGTU9NRlpHSC1fZ2NoMDRZaUx0MEd6U3ZnVW16YzJ6b0dvYkw5RkFmM2ZFR0x3aWZDaGhnU2F2X2t1X095bkhaMFFEN2tUd3NYbzd1YkF1ZzFFTXIzaE96cjNjclRB?oc=5",
-      "published": "2026-08-22T20:10:56+00:00",
-      "source": {
-        "name": "Agencia Andina",
-        "url": "https://andina.pe"
       }
     },
     {
@@ -311,6 +321,16 @@
       "source": {
         "name": "BC Noticias Manizales",
         "url": "https://www.bcnoticias.com.co"
+      }
+    },
+    {
+      "id": "4dccdd867bd9",
+      "title": "Quejas por entrega de medicamentos en Neiva - Diario del Huila",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83Z2tIY2w1Vjc2d2xXQWJ5bjJhdkdYQS00RFpQWGRBNmticzA3LUczMDY1RnNQV1g4XzcyQlB4ZTJ4eHFZUldLdzZNcGt6NG9Cd2J4eHR1cV8zN2lHU1djeUg1bXQ4eTBWQ2R0VHRqTGoybHJiVXZQeEh4OA?oc=5",
+      "published": "2026-08-22T09:32:03+00:00",
+      "source": {
+        "name": "Diario del Huila",
+        "url": "https://diariodelhuila.com"
       }
     },
     {
@@ -374,16 +394,6 @@
       }
     },
     {
-      "id": "4064e3687b5c",
-      "title": "Ministerio de Salud recuerda que publicidad de medicamentos bajo receta requiere autorización previa - Delfino.cr",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU1NKVnZlRFplelhjakxkUGd3R016SDJhTUFYdE83SHRjZXViMDdia0hUTTFRMW9vNjJ6WnJ6SmZLdG9tYWZzZ1hIeGpEWm13YjJGTi0yX2VHMTVHM1pUMVAxSG5EUlFKOTNNRDRIMV93THpNc1E2b2JaR0tOQVVwNDlPSkZlUzBTNVdFY2swMm5CWUtvTVBGTXpsZnNqNW1mU1ViNW5rV0U3UDVJOUZOVTVkdzRubFJWZXVpN0JUMG1mVDhOWXc?oc=5",
-      "published": "2026-08-20T17:39:58+00:00",
-      "source": {
-        "name": "Delfino.cr",
-        "url": "https://delfino.cr"
-      }
-    },
-    {
       "id": "501780146105",
       "title": "Desabastecimiento de medicamentos en Colombia: Minsalud prepara nuevas alertas, reportes obligatorios y compras centralizadas - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSkl6TDNLU1UxOHdHVmhUdzl3cEhhMU14OVpsRU01alJYRFFYdU83eGJpeFVva1puVWk1cGE5TENKMUhjVk9DMkxJcV9uU1RJblFFUi1UZEdHYm9uZ3NqRWlIOHNGR0k5TXFrdEpVc3RTYlVob2J5aWJBX2dyLWlnSQ?oc=5",
@@ -391,6 +401,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "4064e3687b5c",
+      "title": "Ministerio de Salud recuerda que publicidad de medicamentos bajo receta requiere autorización previa - Delfino.cr",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU1NKVnZlRFplelhjakxkUGd3R016SDJhTUFYdE83SHRjZXViMDdia0hUTTFRMW9vNjJ6WnJ6SmZLdG9tYWZzZ1hIeGpEWm13YjJGTi0yX2VHMTVHM1pUMVAxSG5EUlFKOTNNRDRIMV93THpNc1E2b2JaR0tOQVVwNDlPSkZlUzBTNVdFY2swMm5CWUtvTVBGTXpsZnNqNW1mU1ViNW5rV0U3UDVJOUZOVTVkdzRubFJWZXVpN0JUMG1mVDhOWXc?oc=5",
+      "published": "2026-08-20T17:39:58+00:00",
+      "source": {
+        "name": "Delfino.cr",
+        "url": "https://delfino.cr"
       }
     },
     {
@@ -524,16 +544,6 @@
       }
     },
     {
-      "id": "18fdc7051b43",
-      "title": "¿Puedes donar sangre después de los 50? - AARP",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHhCTEZmRFRZWjBla1BzRFZJdGJNd0ZEM2JwZS0wX2psY3JDWVZISi1nRnN5RU9odk5UUHhZOXpNQXQ2Qzd3Z3ZVdDViR3JWSkFJQTZuUjlPaUhBQUlkNldMSDZ6SHdIMmY1V2thY1VYaElPWVBZaVlXQVMyamhVM215ZExORGVtVGpPc3QzbXVmTGpzb2Y4M0FIdw?oc=5",
-      "published": "2026-08-19T07:00:00+00:00",
-      "source": {
-        "name": "AARP",
-        "url": "https://www.aarp.org"
-      }
-    },
-    {
       "id": "266251de43b3",
       "title": "Minsalud prepara nuevas reglas para la compra centralizada de medicamentos para VIH: así se ampliaría el acceso al esquema DLT - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04S191ZDdtcFBnaFU4WlNURnRRN041b2p5Y0tsLW9hd2Z1a2t5RXEyZE5OR2Q5dzZJX0dDQlNvc01HOERfczlaeHV0MlJORHU4UkRmT3dLZ2pPd0xjVlFNb0V1NU9KX004RWpJaGNuWjNtTVNSWGhnYUIwUnNhZw?oc=5",
@@ -541,6 +551,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "18fdc7051b43",
+      "title": "¿Puedes donar sangre después de los 50? - AARP",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMHhCTEZmRFRZWjBla1BzRFZJdGJNd0ZEM2JwZS0wX2psY3JDWVZISi1nRnN5RU9odk5UUHhZOXpNQXQ2Qzd3Z3ZVdDViR3JWSkFJQTZuUjlPaUhBQUlkNldMSDZ6SHdIMmY1V2thY1VYaElPWVBZaVlXQVMyamhVM215ZExORGVtVGpPc3QzbXVmTGpzb2Y4M0FIdw?oc=5",
+      "published": "2026-08-19T07:00:00+00:00",
+      "source": {
+        "name": "AARP",
+        "url": "https://www.aarp.org"
       }
     },
     {
@@ -574,16 +594,6 @@
       }
     },
     {
-      "id": "0c4c5e81856d",
-      "title": "El fenómeno de la rápida pérdida de peso con fármacos ¿Quiénes se benefician? - Ciencia UNAM",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDhCaWhELXAtNWZfdG5UNTlWUVRBNFNPcGFVdmZTOUJONUloc0JGU0NQbGVIZGZyOGJkT2F4Q2p1NGpxUnh5b1JOM0JCVVRRUUhnSmU1eGIwSXJJbUFZck5XVkRCeEFGa296V1RwdVUzM3IzakY5ek1XT0FrNGx2Y2JRdTB4SXphRUxnYlgxM20xN1J6MVdvVDJzWGhNYzRjazRGRzNmZ3oxenpkbDhN?oc=5",
-      "published": "2026-08-20T17:29:31+00:00",
-      "source": {
-        "name": "Ciencia UNAM",
-        "url": "https://ciencia.unam.mx"
-      }
-    },
-    {
       "id": "f1d7baead3fa",
       "title": "Medicamentos esenciales - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
@@ -591,6 +601,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "0c4c5e81856d",
+      "title": "El fenómeno de la rápida pérdida de peso con fármacos ¿Quiénes se benefician? - Ciencia UNAM",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNDhCaWhELXAtNWZfdG5UNTlWUVRBNFNPcGFVdmZTOUJONUloc0JGU0NQbGVIZGZyOGJkT2F4Q2p1NGpxUnh5b1JOM0JCVVRRUUhnSmU1eGIwSXJJbUFZck5XVkRCeEFGa296V1RwdVUzM3IzakY5ek1XT0FrNGx2Y2JRdTB4SXphRUxnYlgxM20xN1J6MVdvVDJzWGhNYzRjazRGRzNmZ3oxenpkbDhN?oc=5",
+      "published": "2026-08-20T17:29:31+00:00",
+      "source": {
+        "name": "Ciencia UNAM",
+        "url": "https://ciencia.unam.mx"
       }
     },
     {
@@ -744,16 +764,6 @@
       }
     },
     {
-      "id": "24bf320771e0",
-      "title": "Medicamentos para bajar de peso provocan disminución en cirugías bariátricas - Telemundo",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRkRyXzBxUzA3am41MC11b2tFZ3Jla25DNl9QLXFGRG92bmU5WHVVeUp1eWRURFVqUHRHZnU1R1RNX05TVDlkNVZOY2otck1BNExJNkQ3SVZzckR3VllPNk9FUkNSUGNVTnVWY1VhQXZkaDdNbmM4dEZTcDM0eWVzclpROXp0VEtXdmtqWk5qVmVLUVYtMWJKQ05RN25SUnk4MnZqMGxvMkFQSU5vN0lLSW5qX0NySFFwYzRSUnpHRVdrSGlwZTRHVDRPR2VYd0l2U1lxYTlBYnpfaHRiZmFQWU15TXpRc3NTUXRNaFBsblNkVE9NXzdN?oc=5",
-      "published": "2026-08-20T04:21:00+00:00",
-      "source": {
-        "name": "Telemundo",
-        "url": "https://www.telemundo.com"
-      }
-    },
-    {
       "id": "e16e46d269f9",
       "title": "Plan de Choque de Medicamentos: Supersalud verifica puntos de dispensación en Cali, ¿qué encontró? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLcHhTR1hIY19pc1kxR2Fsc0dBc2wxcS1MTkZOMHpwTjZNZDFjUS1pTlZsYmhPNzZkSWpQRkwxcTBYWXNHQzFSMExpZU5vd2pDMDZMbXlKYV9hRHZLUVVrTnlEa0xQVlVqd3NaTVlvVS1EQ3RCa3RZ?oc=5",
@@ -834,16 +844,6 @@
       }
     },
     {
-      "id": "e21aeb948c43",
-      "title": "La farmacología clínica es el puente entre la investigación y el paciente - Univadis",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUJNdVBJVmF5SWxGMGhXTnpIck5TM3kxaUc4SS0tQWRtQ2N2VmJuemFEalFFeUtsdkFIYndVcnJMZG9FSldVRnNiX1d6c0dtOWFtQ2hwTDNDeHI4UW0yeVcyd3Fya1U0OUY3cDJfR2dZb1VLRW5kM19FbmFCSHU1V284bTFqRERpckRIYVBJMnlrRklMZ005QmlsYw?oc=5",
-      "published": "2026-08-20T12:30:08+00:00",
-      "source": {
-        "name": "Univadis",
-        "url": "https://www.univadis.es"
-      }
-    },
-    {
       "id": "8018297e842b",
       "title": "Honduras fortalece su cadena de suministro para mejorar el acceso a medicamentos esenciales - Pan American Health Organization (PAHO)",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN3FnVmZwbk45UFBQTFdSZm5IOUxXeVZMY0pJT09lOHJKeU02dngxR3RTQ1NOdTRwblhoZnQ5SDBwQlR2YUoyME4wNGhETDhJdWZGcGh2LVFqd1IwajNHSGk4UGhrbE90WlltbURQamJrMjRsNXk4YV9ud2V2V3V5VXNKRU5OOV9sSy1YaUFQT1Zzb3JyaXA1djQ3TkZoVkxDSTQtRXk3ZUhrQUNzd0VtckJOUE5OQQ?oc=5",
@@ -864,6 +864,16 @@
       }
     },
     {
+      "id": "e21aeb948c43",
+      "title": "La farmacología clínica es el puente entre la investigación y el paciente - Univadis",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONUJNdVBJVmF5SWxGMGhXTnpIck5TM3kxaUc4SS0tQWRtQ2N2VmJuemFEalFFeUtsdkFIYndVcnJMZG9FSldVRnNiX1d6c0dtOWFtQ2hwTDNDeHI4UW0yeVcyd3Fya1U0OUY3cDJfR2dZb1VLRW5kM19FbmFCSHU1V284bTFqRERpckRIYVBJMnlrRklMZ005QmlsYw?oc=5",
+      "published": "2026-08-20T12:30:08+00:00",
+      "source": {
+        "name": "Univadis",
+        "url": "https://www.univadis.es"
+      }
+    },
+    {
       "id": "b9957876dcbd",
       "title": "Plan de Beneficios en Salud 2026 – Resolucion 2765 de 2025 - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA5bUhnQzBaNVgzVjBRdnA5bV92SGlaczlhZG1qelVEWkRocUR3MlotVzR5MTJWNFRLbWIwTEVmTGNPUVZNNlR0ZDRTeF9ERzFPemVwWDVfX3BTa1dLc3FzSFIwWjVBRTg2Uk9hSQ?oc=5",
@@ -871,16 +881,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "056b20e33e9f",
-      "title": "Inyecciones para adelgazar: qué está aprobado, qué sigue en investigación y cuáles son los riesgos - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaTRzOElqN1pwN2xXUVVOUHczdlpwZEZFR3JoOTBBaEtYOFJFZXE2amFkbDcwUXE5OHRjSk45SV90dGtfeVpjc0hkZG1GcmQ3RzFSRHFDak9RcjNpa3VYZFNObm5mQTd4cWlSQTltRTN4SzZRRk9NQ21JWG9iTklyaHU4aWYzNmV3MFFpSm1vMHNjWldEOHZESXp5TnNUYkE4cHlZbVVNV2pERTYtNFZWVlNpc2h2bEptaVZnUFg1eF96bnFVV3h4MHpvNFZ2ZG1nbGM3d9IB7wFBVV95cUxQZ1RlUXFqWHBuZ1NUUHlWWVVmUUM2NHZzZEtUR0liclNjWjkxRUZMbGlRSm9CZ3dSYXRnRkNtdjNMb2ZDX2kwQVNzLTVDYUdSRElzZjJZOVIzMkhMVkR1eXZBcXk5VjJCNndsVXRSOG16czJtTU5ra3FnV2ZESlpxajJISGNaUGtoNldFZkY5SlVhZzNfRDQxVFhpZFVMLXlvb21pMTJFVjdVcjlhX0VFbng2QW1rTUtNMnQ1bXRqT3BXazk2b0ZpejJmQTEtWGhyalJ5YnhYY0xnYmRHWDJ1S3prME9yUUtkWU56SjBBUQ?oc=5",
-      "published": "2026-08-21T21:01:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
       }
     },
     {
@@ -914,16 +914,6 @@
       }
     },
     {
-      "id": "e3cde051756f",
-      "title": "\"La Reini\" contó que se inyectó retatrutida: qué se sabe del fármaco experimental para adelgazar que no está aprobado y se vende por redes - Chequeado",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUw4eFNFY3FtWVdLRkRhU3VLaU02S0hZa0kyUnZWYkdvYzZFR0dJb2JxV3VJMHdGbzN4bno1WURvR0k4VWRQQmhNZ05femVDVHF4RTFJcVU2ekhJa01rdVUwVnpsLUxKRFZhcDdGUC1NbkF4MEpLNE1YQU5yNklMMWVzZU1ybUVWcmJ1M1ZPQlRYWUd2bjZkUTNFOVhXeHdwLW51M3podGt6SVI1blZYYThESTQ2cFoxYXBlSnVzMGlIZ1FqM2JqTlprOHQ4eXFraWVZV2d0WWRtdjVXWWExWFZfRnJwQzg?oc=5",
-      "published": "2026-08-19T20:34:54+00:00",
-      "source": {
-        "name": "Chequeado",
-        "url": "https://chequeado.com"
-      }
-    },
-    {
       "id": "358d3f133bc2",
       "title": "Circular 021 actualiza el SISMED: ¿qué cambia en el reporte de precios de medicamentos? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rSmVDSUExZVd2VWtGY3RxcDl2OHdsck1Ic2plMG9JMFZqTVNoY3d4OHYteURtSG5WSVB1c21GNlZnOUJMQmFhLTRMbWp6b3dRV3RfOGJaWVdGenI3QTN6MDQ1NTExTm5qSnBqVUJET0RtOTJ0V2c?oc=5",
@@ -931,6 +921,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "e3cde051756f",
+      "title": "\"La Reini\" contó que se inyectó retatrutida: qué se sabe del fármaco experimental para adelgazar que no está aprobado y se vende por redes - Chequeado",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUw4eFNFY3FtWVdLRkRhU3VLaU02S0hZa0kyUnZWYkdvYzZFR0dJb2JxV3VJMHdGbzN4bno1WURvR0k4VWRQQmhNZ05femVDVHF4RTFJcVU2ekhJa01rdVUwVnpsLUxKRFZhcDdGUC1NbkF4MEpLNE1YQU5yNklMMWVzZU1ybUVWcmJ1M1ZPQlRYWUd2bjZkUTNFOVhXeHdwLW51M3podGt6SVI1blZYYThESTQ2cFoxYXBlSnVzMGlIZ1FqM2JqTlprOHQ4eXFraWVZV2d0WWRtdjVXWWExWFZfRnJwQzg?oc=5",
+      "published": "2026-08-19T20:34:54+00:00",
+      "source": {
+        "name": "Chequeado",
+        "url": "https://chequeado.com"
       }
     },
     {
@@ -954,16 +954,6 @@
       }
     },
     {
-      "id": "be860e293058",
-      "title": "Dejar el alcohol para socializar mejor parecía una buena idea. El problema es que algunos lo están sustituyendo por medicamentos - Xataka México",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeERieGgyZTZ4eFFlbHplYjkyWTBoWlBtYVEzaHQyNTJXUC1pbUg3VmE5R0t1d0MzTHAzcE9GbG9iTE5pb0R0TFN4RjBnZUlLWFNKOUNBZVpSNnNtbDNFeTZXTnBzVk5LWFY3eVdudXg3Qlc0QzRqVzdrSExNbWozLWw2UTZqQlFFdjBvZWVCdV92M2Z6WUJPZ2RNQmJnbzRkaE5lYy1ER29uWlhkMWkzZFJ1VFd0MGtuMmNjMnJDWFRDNldkNzBXVWpvLUk2VXZKYXJUZ01ROW9fdDZBMklXRUh2SjbSAeoBQVVfeXFMTUhORGxibGFJM0hxQWFWYlJHWnNmYVpTVXUza3ktYVg4cUlUOW8xVVVaX0N1SU5QNVdlUTNIeEU1SmJxLU14S3V1TmJCeEtDd3YxZFJBdFNxRENYMlFYb3cxMklZcHliSFc1MmFKNG9sS0RPVUN3RkZFMVI5RWdWVm9Zc3JDRFBURVlJa2tBdWoyZloxcTZudzZISS1tMmNBU3paTmRPRVdPMHlhVGdNOVRsaXVfVjRaaXkzcnhtYTVUUlMzVUxuUkJGUGVlU2dhUWN2RHd1REV2dVlMWnkxRXBBbi1IUW5Ubkl3?oc=5",
-      "published": "2026-08-21T18:01:33+00:00",
-      "source": {
-        "name": "Xataka México",
-        "url": "https://www.xataka.com.mx"
-      }
-    },
-    {
       "id": "abc5c643bba6",
       "title": "Cruz Verde dejará de dispensar medicamentos del PBS a afiliados de EPS Sanitas: ¿hasta cuándo seguirá la entrega? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94MmNGbGlnY2w0UnUzT1FQUlVseC1ZZFNhXzBCekpwVW1pNllXUkxHa1dJY3FKdHJpczQ2ZE9tOVhCenluS3dEcFB4aUJBTlBITHZDcTlYTE9EZFVWc1NzZmZJWXZGMVFyRmFGa2U2SUtBRU5YS3NadGxZSGVKdw?oc=5",
@@ -981,6 +971,16 @@
       "source": {
         "name": "EL PAÍS",
         "url": "https://elpais.com"
+      }
+    },
+    {
+      "id": "be860e293058",
+      "title": "Dejar el alcohol para socializar mejor parecía una buena idea. El problema es que algunos lo están sustituyendo por medicamentos - Xataka México",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeERieGgyZTZ4eFFlbHplYjkyWTBoWlBtYVEzaHQyNTJXUC1pbUg3VmE5R0t1d0MzTHAzcE9GbG9iTE5pb0R0TFN4RjBnZUlLWFNKOUNBZVpSNnNtbDNFeTZXTnBzVk5LWFY3eVdudXg3Qlc0QzRqVzdrSExNbWozLWw2UTZqQlFFdjBvZWVCdV92M2Z6WUJPZ2RNQmJnbzRkaE5lYy1ER29uWlhkMWkzZFJ1VFd0MGtuMmNjMnJDWFRDNldkNzBXVWpvLUk2VXZKYXJUZ01ROW9fdDZBMklXRUh2SjbSAeoBQVVfeXFMTUhORGxibGFJM0hxQWFWYlJHWnNmYVpTVXUza3ktYVg4cUlUOW8xVVVaX0N1SU5QNVdlUTNIeEU1SmJxLU14S3V1TmJCeEtDd3YxZFJBdFNxRENYMlFYb3cxMklZcHliSFc1MmFKNG9sS0RPVUN3RkZFMVI5RWdWVm9Zc3JDRFBURVlJa2tBdWoyZloxcTZudzZISS1tMmNBU3paTmRPRVdPMHlhVGdNOVRsaXVfVjRaaXkzcnhtYTVUUlMzVUxuUkJGUGVlU2dhUWN2RHd1REV2dVlMWnkxRXBBbi1IUW5Ubkl3?oc=5",
+      "published": "2026-08-21T18:01:33+00:00",
+      "source": {
+        "name": "Xataka México",
+        "url": "https://www.xataka.com.mx"
       }
     },
     {
