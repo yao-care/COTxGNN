@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-25T10:31:39.903049+00:00",
+  "fetched_at": "2026-08-25T11:26:10.502468+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
@@ -34,12 +34,12 @@
       }
     },
     {
-      "id": "e66d62710e92",
-      "title": "La escasez de medicamentos se ceba con los iraníes enfermos - DW.com",
+      "id": "e253468af3e9",
+      "title": "La escasez de medicamentos se ceba con los iraníes enfermos - dw.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQd3VxbnctalVaRVYxMGNIeHB5YlZSdDhxS0hjRWVTaXUzV1NmU3hkU0pvOEpHSlY5MDN5MHlxRFhIQjNMT0hJQVFMVzNLTFNrOWQxOFp1QlZDU3hkRVFRZjRJbEthOWFnNGRHc3BVblRFQjU3cWtPUEdFMHNhRnhPT0c4UjF6dGtSUzJ5WGRPV3RsQXh5UXEyVUltbW9CQdIBngFBVV95cUxPRzBpYmZlMlFnTk1IMnl4X0x1MjExV1VWSHZLa0x0MVRfaF9VNi1ZbkdOc2FtTm8xOEpTVkY2NFpkOF9CaVdldlF6Slg2cHZKTWtWemprejhfR0VPdXhKSG5PT3hBWWd0cldaVGlwTUVNN3NLS09oNWFzaUkxeEZWd3dfSWNTU3NJY1RTVHh1NjFMUEctcXFDeU9JUGxrZw?oc=5",
       "published": "2026-08-24T18:54:52+00:00",
       "source": {
-        "name": "DW.com",
+        "name": "dw.com",
         "url": "https://www.dw.com"
       }
     },
@@ -71,6 +71,16 @@
       "source": {
         "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
+      }
+    },
+    {
+      "id": "7d3af8030c39",
+      "title": "Identifican tres moléculas que podrían ayudar a tratar el Alzheimer - El Olfato",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQemdzLVkxbDhrTDdUbmc5OEY3T2lNWVJsRkxlTGdUZ2liVzF0S1Fmby14VGFkZXNqSDQyRE1CeEo2UUF0WVFmQWtjVVo4TDI0YktqYUtZNXk1N0RJbzAyeGwwQ24yOElrd1owcTVyTy1idDgwWUZGNGdTSDhsX08zUjRfWUZDWDQteUVxSGtEeElmcTlSUUloNjlB?oc=5",
+      "published": "2026-08-25T10:34:54+00:00",
+      "source": {
+        "name": "El Olfato",
+        "url": "https://elolfato.com"
       }
     },
     {
@@ -111,16 +121,6 @@
       "source": {
         "name": "Pan American Health Organization (PAHO)",
         "url": "https://www.paho.org"
-      }
-    },
-    {
-      "id": "670d9b92b41e",
-      "title": "Salud: ¿Por qué no todas las personas con presión arterial alta en EEUU toma el tratamiento que necesita? - Univision",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORmQ5VUFjTE9QUEUzMEhDOFc3V0ltdk5Va0JUeTUweWdINDBwQk1rdmxzNnQ2clJ6bVVxRDhRNE14c2hvVGRack9TTGVjQllXWE91ano0dWZUVzQ1dDd4dFc4dFdEWFRSa09taWQzZktMbGtWcmV6Z0xKTHhTOEItOWZvZEo3SDRGTGpTdnFIZk9DVTJ5TExubzFidlBBZ2dlWk8zRnFxY1N3MDJSQXF3UVZzSWdGYndXMFF4Wk55amN1SXlsYkMyS2NVTExuRTZJU21tOGRCNjlqVXM?oc=5",
-      "published": "2026-08-24T19:48:00+00:00",
-      "source": {
-        "name": "Univision",
-        "url": "https://www.univision.com"
       }
     },
     {
@@ -234,16 +234,6 @@
       }
     },
     {
-      "id": "0db5a7bfa41e",
-      "title": "Medicamentos suben 53.6% desde 2018; gasto de bolsillo en salud alcanza 6 mil 421 pesos por hogar - MILENIO",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTU1Rb0FmRVkyMDFJSU9CdWRJOUF3RUZ2SWJXT0xwbmZIZVRHOFpxeWpZWnJUYlNERkZvYldTQ2RmQzQ3eUxtc3o2LVF5S0JGT25ZMjRsMVhNZ21fSWgtNFdjQmdOb1RoQjFjQjdDTTVpbEkwR2wtTFVSYnBMTzFycFZBNUk4dmpJdUdleGc3aEZ1V0swam4xV2V4Z9IBmwFBVV95cUxPYTZlZk12QVViZ0VXanNMMndpdnNYazdjS2U4WGxya29ybnVZTnBCWTVicnJXb2d3MHctY0huSy11Qm1QZXNMdDJXcXQzQjIyZFFnTzlkNG40LW4wbDc5Q2dadHFYMDlHc0pGQkQyd05NOGhua2NveFVRS0hkUXRBTHpsRV9lQ2dwbHphMWdxTkJzamY1TElJeTcyaw?oc=5",
-      "published": "2026-08-24T18:37:00+00:00",
-      "source": {
-        "name": "MILENIO",
-        "url": "https://www.milenio.com"
-      }
-    },
-    {
       "id": "c3a0fff1f61f",
       "title": "Inspecciones sorpresa buscan agilizar entrega de medicamentos e insumos a pacientes de Manizales - Centro de Información – Alcaldía de Manizales",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajVfV3B0bzh2RDBrMldjREdMay1PaXY0cGxuLTlZV2JJYlpWZE42RzlaZHM3WXdJdVg5UlR2ZkxQTzNrVEZsUm0xcmVGNDl2NGoxWEFuTGlPdVFxbkU5XzZ0eUVEVjlUNHQ0ZVNlR3RtMi1Hc0ZwN29jemV0bmZ5NEZfN29tMU9hcDN2NnlWYnhTV29KWnc4by00dlhfM3ZPVVhJQl9lTXdqT0ZkWDRiZ1JxbFVETEFEOEVkTUR6R0d0S1JVN0tXN2d6Z3h5dVFmQktkTlFrektvQQ?oc=5",
@@ -261,6 +251,26 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "0db5a7bfa41e",
+      "title": "Medicamentos suben 53.6% desde 2018; gasto de bolsillo en salud alcanza 6 mil 421 pesos por hogar - MILENIO",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTU1Rb0FmRVkyMDFJSU9CdWRJOUF3RUZ2SWJXT0xwbmZIZVRHOFpxeWpZWnJUYlNERkZvYldTQ2RmQzQ3eUxtc3o2LVF5S0JGT25ZMjRsMVhNZ21fSWgtNFdjQmdOb1RoQjFjQjdDTTVpbEkwR2wtTFVSYnBMTzFycFZBNUk4dmpJdUdleGc3aEZ1V0swam4xV2V4Z9IBmwFBVV95cUxPYTZlZk12QVViZ0VXanNMMndpdnNYazdjS2U4WGxya29ybnVZTnBCWTVicnJXb2d3MHctY0huSy11Qm1QZXNMdDJXcXQzQjIyZFFnTzlkNG40LW4wbDc5Q2dadHFYMDlHc0pGQkQyd05NOGhua2NveFVRS0hkUXRBTHpsRV9lQ2dwbHphMWdxTkJzamY1TElJeTcyaw?oc=5",
+      "published": "2026-08-24T18:37:00+00:00",
+      "source": {
+        "name": "MILENIO",
+        "url": "https://www.milenio.com"
+      }
+    },
+    {
+      "id": "670d9b92b41e",
+      "title": "Salud: ¿Por qué no todas las personas con presión arterial alta en EEUU toma el tratamiento que necesita? - Univision",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORmQ5VUFjTE9QUEUzMEhDOFc3V0ltdk5Va0JUeTUweWdINDBwQk1rdmxzNnQ2clJ6bVVxRDhRNE14c2hvVGRack9TTGVjQllXWE91ano0dWZUVzQ1dDd4dFc4dFdEWFRSa09taWQzZktMbGtWcmV6Z0xKTHhTOEItOWZvZEo3SDRGTGpTdnFIZk9DVTJ5TExubzFidlBBZ2dlWk8zRnFxY1N3MDJSQXF3UVZzSWdGYndXMFF4Wk55amN1SXlsYkMyS2NVTExuRTZJU21tOGRCNjlqVXM?oc=5",
+      "published": "2026-08-24T19:48:00+00:00",
+      "source": {
+        "name": "Univision",
+        "url": "https://www.univision.com"
       }
     },
     {
@@ -314,13 +324,13 @@
       }
     },
     {
-      "id": "4dc83a887fba",
-      "title": "Los nuevos fármacos para perder peso podrían ayudar a mejorar la salud mental - Infosalus",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQzFZYzlDTmEyb3hKMkxJaHlLSUt3WUJ5eDBjMWltUWtpd2w2cFZCVFJMLXVhbmduYTdUX2pEVXdUZFo5OHFpVzNQaHNFWTRZVTlUb0tfQ1RYNTN5U29DNG40WlVlalVqZmp6Yl9JUnAwQ29aQjh6Yml1c1g5RGFTSmxwcnl0Z01tUktnbmtuSWRzUlNyOEhxcTI0ZXppbV9xXzEtdDBEczJxdHVPNU9XMUZYekw0VzVYMkM4dnZpNzlGQW9KN05n?oc=5",
-      "published": "2026-08-24T16:41:12+00:00",
+      "id": "1a819b6a921b",
+      "title": "MinSalud expone retos de acceso, costos y producción de medicamentos en Colombia durante el Foro Farmacéutico Latinoamericano – ASINFAR - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOeVRqM1pDU0JJdXYwTVBNMnVTOVJCOGhFQXd3eXp0YWo3b3Z1NFpLNDI4Q0F0cTNRMHFBV0NnNmc0czU0OHB6bEkzUGZrVXUtcUc4ajVodW9mdF9GYlBLdDBaVTdTSkI0MHVSc2tCVktLQVdDX2N6NmxQTQ?oc=5",
+      "published": "2026-05-05T07:00:00+00:00",
       "source": {
-        "name": "Infosalus",
-        "url": "https://www.infosalus.com"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     },
     {
@@ -334,13 +344,13 @@
       }
     },
     {
-      "id": "1a819b6a921b",
-      "title": "MinSalud expone retos de acceso, costos y producción de medicamentos en Colombia durante el Foro Farmacéutico Latinoamericano – ASINFAR - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOeVRqM1pDU0JJdXYwTVBNMnVTOVJCOGhFQXd3eXp0YWo3b3Z1NFpLNDI4Q0F0cTNRMHFBV0NnNmc0czU0OHB6bEkzUGZrVXUtcUc4ajVodW9mdF9GYlBLdDBaVTdTSkI0MHVSc2tCVktLQVdDX2N6NmxQTQ?oc=5",
-      "published": "2026-05-05T07:00:00+00:00",
+      "id": "4dc83a887fba",
+      "title": "Los nuevos fármacos para perder peso podrían ayudar a mejorar la salud mental - Infosalus",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQzFZYzlDTmEyb3hKMkxJaHlLSUt3WUJ5eDBjMWltUWtpd2w2cFZCVFJMLXVhbmduYTdUX2pEVXdUZFo5OHFpVzNQaHNFWTRZVTlUb0tfQ1RYNTN5U29DNG40WlVlalVqZmp6Yl9JUnAwQ29aQjh6Yml1c1g5RGFTSmxwcnl0Z01tUktnbmtuSWRzUlNyOEhxcTI0ZXppbV9xXzEtdDBEczJxdHVPNU9XMUZYekw0VzVYMkM4dnZpNzlGQW9KN05n?oc=5",
+      "published": "2026-08-24T16:41:12+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Infosalus",
+        "url": "https://www.infosalus.com"
       }
     },
     {
@@ -384,13 +394,13 @@
       }
     },
     {
-      "id": "d96107e7f568",
-      "title": "Inician ventas del primer tratamiento contra cáncer de esófago: este país lo comercializa - Blu Radio",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcWx1WTNhUlNpeVVUekRZN1NvQm1YaEdwRlczVmFRYXlqeDE4SmdUSlBPamtnejlOc21QME1kSFJnWFVPNWJVcjYwajdIT1ZQMGVHdmo2NFQ4V3U5S2pPTWllZ1pjY3lHMzh3UlRxdkkwRkFXbU1nMjlDak5mTUVsbTVQdVFHT1BmVDFUZURHcmhWM2FQOURPZUw0MkZsLWlIbnhIRi0yMkpJcEJjdUFwVHB5MTdPT0pxcjJETk1zMi12UdIBzwFBVV95cUxOZ3VHMlZGaTZVM3liZkgxUFFYS3Q2WXhHbFo0Q2RTQ09oa1JRZmpJOGdQdGxKbl9UVVdQcjFzTVAxRXNjTDIyNUc3X3IyVEpPeWloWFh3cmRQV2UySHNrYkIzN2xORnhkUFczUWJVeFFoUWJZN1hBY0pGbmh6Ym4tdEt0MDQwOVFXRmJyUU5xdUJNSWFPOUYzMDZ6XzkyMVJaQVRGSFE4ZVJ5RmxjYUlfbUZYVHREeVRaRWJYN20tTjJ6aEQ4V3ZNMEFNUV92SGc?oc=5",
-      "published": "2026-08-25T02:37:29+00:00",
+      "id": "af6403ca4a14",
+      "title": "Bajan los precios de medicamentos: LLegó la circular 22 de 2026 de regulación - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoVEl6WnU0Q2labnlzR0tKZXRPVlJhZkUyQjRuOHBBLUFQX0diTTU2U0Z0WFNPQjQzQlVFd2JILVRyMTQ1N3RaY3EtWF9BeVNORjZjZENPZy1lcDlDRnhoU05SektlMnNvQkRnZ3V0bFo3Tkd5OW1vTVB4MlBBZw?oc=5",
+      "published": "2026-06-20T07:00:00+00:00",
       "source": {
-        "name": "Blu Radio",
-        "url": "https://www.bluradio.com"
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
       }
     },
     {
@@ -404,16 +414,6 @@
       }
     },
     {
-      "id": "af6403ca4a14",
-      "title": "Bajan los precios de medicamentos: LLegó la circular 22 de 2026 de regulación - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoVEl6WnU0Q2labnlzR0tKZXRPVlJhZkUyQjRuOHBBLUFQX0diTTU2U0Z0WFNPQjQzQlVFd2JILVRyMTQ1N3RaY3EtWF9BeVNORjZjZENPZy1lcDlDRnhoU05SektlMnNvQkRnZ3V0bFo3Tkd5OW1vTVB4MlBBZw?oc=5",
-      "published": "2026-06-20T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
       "id": "f1d7baead3fa",
       "title": "Medicamentos esenciales - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SSmk4R0Z0OGVxMlMwNm1lNkN1d1Z3VC1vQV9xNWs0Umh2OVdyVE5ldVFsdUsxWnZvaXVpZTVzSzVJY1RnQTdzX0pfNFQ4OTBkWHRudnBpZWI2Wi0yR2FGWkpMSEQwRnpEeU1oUDBmVUdFVUZIN1h4WE1Gcw?oc=5",
@@ -421,6 +421,16 @@
       "source": {
         "name": "World Health Organization (WHO)",
         "url": "https://www.who.int"
+      }
+    },
+    {
+      "id": "d96107e7f568",
+      "title": "Inician ventas del primer tratamiento contra cáncer de esófago: este país lo comercializa - Blu Radio",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcWx1WTNhUlNpeVVUekRZN1NvQm1YaEdwRlczVmFRYXlqeDE4SmdUSlBPamtnejlOc21QME1kSFJnWFVPNWJVcjYwajdIT1ZQMGVHdmo2NFQ4V3U5S2pPTWllZ1pjY3lHMzh3UlRxdkkwRkFXbU1nMjlDak5mTUVsbTVQdVFHT1BmVDFUZURHcmhWM2FQOURPZUw0MkZsLWlIbnhIRi0yMkpJcEJjdUFwVHB5MTdPT0pxcjJETk1zMi12UdIBzwFBVV95cUxOZ3VHMlZGaTZVM3liZkgxUFFYS3Q2WXhHbFo0Q2RTQ09oa1JRZmpJOGdQdGxKbl9UVVdQcjFzTVAxRXNjTDIyNUc3X3IyVEpPeWloWFh3cmRQV2UySHNrYkIzN2xORnhkUFczUWJVeFFoUWJZN1hBY0pGbmh6Ym4tdEt0MDQwOVFXRmJyUU5xdUJNSWFPOUYzMDZ6XzkyMVJaQVRGSFE4ZVJ5RmxjYUlfbUZYVHREeVRaRWJYN20tTjJ6aEQ4V3ZNMEFNUV92SGc?oc=5",
+      "published": "2026-08-25T02:37:29+00:00",
+      "source": {
+        "name": "Blu Radio",
+        "url": "https://www.bluradio.com"
       }
     },
     {
@@ -534,6 +544,16 @@
       }
     },
     {
+      "id": "890a5342c51b",
+      "title": "“La generación sobria”: reemplazan el alcohol por medicamentos para la ansiedad y encienden una alerta - Canal26",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWGxLalc0VFNFOXlDcWQ0U0pTM0tJeDhNQ3l2RkxKNTdLOF9RcDdKNU1xRTFDSDBSVzcyUGFhS1hBNmF5V1RsYjhWRkhGZkdHV0lUUG0zNU9YV21MWTg1U050MzMzaVhxRWpxa3NtY3liTVhFZTRBUU9ldkxEUE9CR2JBdFV3bHczNmdWM0VpN0V3bWdTTVF4c3Y5dnlRd08wY01tN21pTFl1a0hmdXA4WXNEZmRvVjhPLUpld2pZcmJaX0x0S1NvTGE1aEVwZWZ3Q1p0eVhMTlhWSGI3bWRNUnNKc0hFVm5W?oc=5",
+      "published": "2026-08-24T22:31:11+00:00",
+      "source": {
+        "name": "Canal26",
+        "url": "https://www.canal26.com"
+      }
+    },
+    {
       "id": "4592b1c66a62",
       "title": "Minsalud derogaría Circular 044 sobre MIPRES: medicamentos UPC se registrarían en el RDA - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDTVk3LWc5UWl4cTVyb1RfVW1ta2pkOUkxaVdhTTdkUlQ5VWZoYk9VUk1JLVFfUXB1elhRRzY4XzFVVDZDR2tWbmVlMnpXSlBMd0MxbUpGMG5JbVNFbjlETXhFT0xMcGhLdkRwS3R5c2V3dw?oc=5",
@@ -551,16 +571,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "aac5977f219d",
-      "title": "Noemí Insua, farmacéutica: \"Cuando hay dolor inflamatorio, el ibuprofeno es lo mejor\" - Xataka México",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNE1JbmhWWGNGSW95RE03QlN6SEtfdnFKV0hWOHRjak9fS1lpRnpxUjVLT2x5TzZRcXhiWmVsbUwtM0FJSFRxelZ0TGY0bzhOM3RETFhSN2N3ak5yOHp2YV85NTRqMXhmNGo4Y0RLMnZ4aWVTZGJCMlB3VGxIcmlNTG9ES3FxdHYtU0ZlTTZaX2U0R2dhUl93UmtJY2FtZzF0THNYQlNZMkRhNzdRSjVuMjZ1dl_SAboBQVVfeXFMTlNkS3J5RnkzUTFycEJDUTFaLTFJZTlTVmdVMGZvYmRlNjdIbGI4QmxoLVlhLXVhaWRpeHNDN2hITmkzWDg2QzN6d3dvODdjSVJpalIzNldPU1VlT2Nid1E4MzFra1h6Ujc4ME1pMm91cWI5ZE94TUgzOUFkS0ltcF9zdkhiVUFhWVFucHEwMjRPVnJSZW1TUWxLX1RNTTdDanB6R1R4Z0w4NW03NlFBejdoalNOMG9FMUVB?oc=5",
-      "published": "2026-08-25T06:01:33+00:00",
-      "source": {
-        "name": "Xataka México",
-        "url": "https://www.xataka.com.mx"
       }
     },
     {
@@ -604,6 +614,16 @@
       }
     },
     {
+      "id": "aac5977f219d",
+      "title": "Noemí Insua, farmacéutica: \"Cuando hay dolor inflamatorio, el ibuprofeno es lo mejor\" - Xataka México",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNE1JbmhWWGNGSW95RE03QlN6SEtfdnFKV0hWOHRjak9fS1lpRnpxUjVLT2x5TzZRcXhiWmVsbUwtM0FJSFRxelZ0TGY0bzhOM3RETFhSN2N3ak5yOHp2YV85NTRqMXhmNGo4Y0RLMnZ4aWVTZGJCMlB3VGxIcmlNTG9ES3FxdHYtU0ZlTTZaX2U0R2dhUl93UmtJY2FtZzF0THNYQlNZMkRhNzdRSjVuMjZ1dl_SAboBQVVfeXFMTlNkS3J5RnkzUTFycEJDUTFaLTFJZTlTVmdVMGZvYmRlNjdIbGI4QmxoLVlhLXVhaWRpeHNDN2hITmkzWDg2QzN6d3dvODdjSVJpalIzNldPU1VlT2Nid1E4MzFra1h6Ujc4ME1pMm91cWI5ZE94TUgzOUFkS0ltcF9zdkhiVUFhWVFucHEwMjRPVnJSZW1TUWxLX1RNTTdDanB6R1R4Z0w4NW03NlFBejdoalNOMG9FMUVB?oc=5",
+      "published": "2026-08-25T06:01:33+00:00",
+      "source": {
+        "name": "Xataka México",
+        "url": "https://www.xataka.com.mx"
+      }
+    },
+    {
       "id": "e16e46d269f9",
       "title": "Plan de Choque de Medicamentos: Supersalud verifica puntos de dispensación en Cali, ¿qué encontró? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLcHhTR1hIY19pc1kxR2Fsc0dBc2wxcS1MTkZOMHpwTjZNZDFjUS1pTlZsYmhPNzZkSWpQRkwxcTBYWXNHQzFSMExpZU5vd2pDMDZMbXlKYV9hRHZLUVVrTnlEa0xQVlVqd3NaTVlvVS1EQ3RCa3RZ?oc=5",
@@ -631,16 +651,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "890a5342c51b",
-      "title": "“La generación sobria”: reemplazan el alcohol por medicamentos para la ansiedad y encienden una alerta - Canal26",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWGxLalc0VFNFOXlDcWQ0U0pTM0tJeDhNQ3l2RkxKNTdLOF9RcDdKNU1xRTFDSDBSVzcyUGFhS1hBNmF5V1RsYjhWRkhGZkdHV0lUUG0zNU9YV21MWTg1U050MzMzaVhxRWpxa3NtY3liTVhFZTRBUU9ldkxEUE9CR2JBdFV3bHczNmdWM0VpN0V3bWdTTVF4c3Y5dnlRd08wY01tN21pTFl1a0hmdXA4WXNEZmRvVjhPLUpld2pZcmJaX0x0S1NvTGE1aEVwZWZ3Q1p0eVhMTlhWSGI3bWRNUnNKc0hFVm5W?oc=5",
-      "published": "2026-08-24T22:31:11+00:00",
-      "source": {
-        "name": "Canal26",
-        "url": "https://www.canal26.com"
       }
     },
     {
@@ -684,16 +694,6 @@
       }
     },
     {
-      "id": "bd11056c4d73",
-      "title": "Paraguay busca mejorar salud y medicamentos con reforma del Instituto de Previsión Social - es.christiandaily.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUGcyUy1BdHNtaWpvc2ZnUDdBZXpfRmJiLVhrVlY5NWI2bHB0NFhwQXVNT3hFRVZzQjB1dzZ4LWpiUDlhWXltSm42VFJlUDQzajJIOGtVT0JEUkhUcHdlamVYUlJfdWVudFVHWjUwVEw3MjZmeW1ObzFvVXRORGNDLXpLc3hjaEFYczczeDFONHgxQ1dmb1U0OEJDa1dwZm8?oc=5",
-      "published": "2026-08-25T02:45:41+00:00",
-      "source": {
-        "name": "es.christiandaily.com",
-        "url": "https://es.christiandaily.com"
-      }
-    },
-    {
       "id": "2e629f63af86",
       "title": "60 días para responder: Corte Suprema exige a Nueva EPS y al Gobierno un plan por pacientes sin servicios ni medicamentos - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBja3BteWJ4d1Q5OGZaSFlHcDlnS3Z4UV9KeldiOGFyTVZodTlSNjcySTByY0U2d2YzczZRMHFSLTR5dkp5MFFKbDhsRk5Fei1oLVVjNDVoQ1Q3Z2hMRU5zTUtGNjNkQldRanBBOEZDTUlKYy0tdFRSalQtZWhqZTA?oc=5",
@@ -731,6 +731,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "bd11056c4d73",
+      "title": "Paraguay busca mejorar salud y medicamentos con reforma del Instituto de Previsión Social - es.christiandaily.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUGcyUy1BdHNtaWpvc2ZnUDdBZXpfRmJiLVhrVlY5NWI2bHB0NFhwQXVNT3hFRVZzQjB1dzZ4LWpiUDlhWXltSm42VFJlUDQzajJIOGtVT0JEUkhUcHdlamVYUlJfdWVudFVHWjUwVEw3MjZmeW1ObzFvVXRORGNDLXpLc3hjaEFYczczeDFONHgxQ1dmb1U0OEJDa1dwZm8?oc=5",
+      "published": "2026-08-25T02:45:41+00:00",
+      "source": {
+        "name": "es.christiandaily.com",
+        "url": "https://es.christiandaily.com"
       }
     },
     {
@@ -774,16 +784,6 @@
       }
     },
     {
-      "id": "39c549853b84",
-      "title": "Noemí Insua, farmacéutica: “En la espalda, cuando hay dolor inflamatorio, como el de una hernia, por ejemplo, - Diario AS",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRnlZTGJqby1EMnNpWjVPd1FKZWIxVkxGTFl4X0lMdXNBYXFqUmh1aEVRSDFVVW9Gb0YzTTBqemxVQ2g5MlhOc2NQUnNuZDFCR1JVUnF1WV9sVkIyTUI1MndaNVMwbGY4N05TTlJtVkdqYnRwYnh0RGlyYTg3YUhWblE0elZGQURTcmR5ZkUtRFJVSlhfcHE1VkZ1QW1IbGREUFoxUk1YLU5oVmRfaWxwbXNQQTM5eWpFNlZsVHVUX1c4aVozS2FCRHVVTnFoeVU1YzItbHpkTklJQUpEVkxkMWxsdHR1WXBZaG0yS0NwcVdIRzVqNUdMX0Jyd9IBjwJBVV95cUxPQ3ZYRG1SQWEtdXdNTzVub2ZMNnNkcU5PcS1YZjNSTlN1cUhYeTFER0xVcHJjTTZ0MktlWVE3YVFLbS1PSGhqUDNRZWtGWXp6VzVqakJoODVpZXdiTy1qcUgzRTZ5VFBCWl9pblZvUkR0S3BuTEt0Zk5fb0JWXzVRUXhrWDlmUHdkWHRxU0k4ZmdKaU9hT1JKaThkQ011S2FNclV5NDZFVlV4LTcwdDFBUjNvZ0hncDc5ZFNnN3pXc2xkXzNxbjJ2eXo2OURPVjdES29HWEZhQ2paUmhlRHJ6c3llaGRnbUpET3BEVTlId0dqajlhamF4d2JPdWQxTVJRT1BRR0pDYTJRQ0NsVzRN?oc=5",
-      "published": "2026-08-24T10:38:38+00:00",
-      "source": {
-        "name": "Diario AS",
-        "url": "https://as.com"
-      }
-    },
-    {
       "id": "abc5c643bba6",
       "title": "Cruz Verde dejará de dispensar medicamentos del PBS a afiliados de EPS Sanitas: ¿hasta cuándo seguirá la entrega? - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94MmNGbGlnY2w0UnUzT1FQUlVseC1ZZFNhXzBCekpwVW1pNllXUkxHa1dJY3FKdHJpczQ2ZE9tOVhCenluS3dEcFB4aUJBTlBITHZDcTlYTE9EZFVWc1NzZmZJWXZGMVFyRmFGa2U2SUtBRU5YS3NadGxZSGVKdw?oc=5",
@@ -811,6 +811,16 @@
       "source": {
         "name": "EL PAÍS",
         "url": "https://elpais.com"
+      }
+    },
+    {
+      "id": "39c549853b84",
+      "title": "Noemí Insua, farmacéutica: “En la espalda, cuando hay dolor inflamatorio, como el de una hernia, por ejemplo, - Diario AS",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRnlZTGJqby1EMnNpWjVPd1FKZWIxVkxGTFl4X0lMdXNBYXFqUmh1aEVRSDFVVW9Gb0YzTTBqemxVQ2g5MlhOc2NQUnNuZDFCR1JVUnF1WV9sVkIyTUI1MndaNVMwbGY4N05TTlJtVkdqYnRwYnh0RGlyYTg3YUhWblE0elZGQURTcmR5ZkUtRFJVSlhfcHE1VkZ1QW1IbGREUFoxUk1YLU5oVmRfaWxwbXNQQTM5eWpFNlZsVHVUX1c4aVozS2FCRHVVTnFoeVU1YzItbHpkTklJQUpEVkxkMWxsdHR1WXBZaG0yS0NwcVdIRzVqNUdMX0Jyd9IBjwJBVV95cUxPQ3ZYRG1SQWEtdXdNTzVub2ZMNnNkcU5PcS1YZjNSTlN1cUhYeTFER0xVcHJjTTZ0MktlWVE3YVFLbS1PSGhqUDNRZWtGWXp6VzVqakJoODVpZXdiTy1qcUgzRTZ5VFBCWl9pblZvUkR0S3BuTEt0Zk5fb0JWXzVRUXhrWDlmUHdkWHRxU0k4ZmdKaU9hT1JKaThkQ011S2FNclV5NDZFVlV4LTcwdDFBUjNvZ0hncDc5ZFNnN3pXc2xkXzNxbjJ2eXo2OURPVjdES29HWEZhQ2paUmhlRHJ6c3llaGRnbUpET3BEVTlId0dqajlhamF4d2JPdWQxTVJRT1BRR0pDYTJRQ0NsVzRN?oc=5",
+      "published": "2026-08-24T10:38:38+00:00",
+      "source": {
+        "name": "Diario AS",
+        "url": "https://as.com"
       }
     },
     {
@@ -854,13 +864,13 @@
       }
     },
     {
-      "id": "748adc76658b",
-      "title": "El error provocó que el joven sufriera daños en múltiples órganos internos. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU29aSjRPRlJKeTNNbFc3bFRQN0p3VW5CRktVR3R3dVpMSWJ0cjRTWFFnbnhmSWIxeGZpSGNXbHhDY0ZGWWpUb1pPb0NONHB6UlNUcjhrVVR1Z1M0RTNkM0tJMGcyNmZqMWNzVEU4a0hxdG01UjF6WUVYa0lmV094NmlRSjlBODNIZ01HUVdzUWN4NWM?oc=5",
-      "published": "2026-08-25T03:28:11+00:00",
+      "id": "b352c76bc0a1",
+      "title": "Siete de cada 10 hogares gastan más de $30 mil al mes en medicamentos - La Tercera",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHJRTFB3S2tfaUhaU3hUX290XzB5R01iVC1fd0oyZG5nQ21CZ1BlVGwzSHh3TEFhUkYtbXN0aU9nNUNfdmJpQWlFN1F1VUQ0MjNRVjlsZ1pMLXg5cFQ2d2lHN29NYkdlemQ0Z0l4d2xFcmNMSHp2QVdVOEJfeFN0blFyV3ZwVW41c1hISDJralJSTEx0NFJCSU9RdG94Ni1ZbllWeUs1a2lrTk16bWtWNTVR0gHTAUFVX3lxTE95QnNBbFRnMGhqVll2N2UtNXI2c0lpNHU0eGpBTFhGdU5jNDNfelFpRGpOVnNaZDlIY09yUEhSMEFtbXNsQlBHSVFFU1VZWUgzXy04d1l1WGRxZ2xOem5nX0VIQVp6WFdhVnE4dDR6V1Q2M1BMQkRSZFY1SXV3ZDNINWZWWHQxYmhJT3loVWJESkIwX1lfMnF4aHpfWlJ4Yk0wZnJYNWVrTTU2WU1vel9JNGltbjA1bkVyU19aamNaQ0Z5YXdvdlBoZDlOWkc1WlROWVE?oc=5",
+      "published": "2026-08-24T10:00:01+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "La Tercera",
+        "url": "https://www.latercera.com"
       }
     },
     {
@@ -874,16 +884,6 @@
       }
     },
     {
-      "id": "b352c76bc0a1",
-      "title": "Siete de cada 10 hogares gastan más de $30 mil al mes en medicamentos - La Tercera",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcHJRTFB3S2tfaUhaU3hUX290XzB5R01iVC1fd0oyZG5nQ21CZ1BlVGwzSHh3TEFhUkYtbXN0aU9nNUNfdmJpQWlFN1F1VUQ0MjNRVjlsZ1pMLXg5cFQ2d2lHN29NYkdlemQ0Z0l4d2xFcmNMSHp2QVdVOEJfeFN0blFyV3ZwVW41c1hISDJralJSTEx0NFJCSU9RdG94Ni1ZbllWeUs1a2lrTk16bWtWNTVR0gHTAUFVX3lxTE95QnNBbFRnMGhqVll2N2UtNXI2c0lpNHU0eGpBTFhGdU5jNDNfelFpRGpOVnNaZDlIY09yUEhSMEFtbXNsQlBHSVFFU1VZWUgzXy04d1l1WGRxZ2xOem5nX0VIQVp6WFdhVnE4dDR6V1Q2M1BMQkRSZFY1SXV3ZDNINWZWWHQxYmhJT3loVWJESkIwX1lfMnF4aHpfWlJ4Yk0wZnJYNWVrTTU2WU1vel9JNGltbjA1bkVyU19aamNaQ0Z5YXdvdlBoZDlOWkc1WlROWVE?oc=5",
-      "published": "2026-08-24T10:00:01+00:00",
-      "source": {
-        "name": "La Tercera",
-        "url": "https://www.latercera.com"
-      }
-    },
-    {
       "id": "c7b396bf3e4b",
       "title": "Ante reportes de uso indebido de medicamentos GLP-1 indicados para tratar la obesidad en adultos, la OPS pide reforzar la farmacovigilancia - Pan American Health Organization (PAHO)",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa2poT3dYVC1ZRHpSVkJ4elN1YmthUXBpY1hMNnlZMmY1akNFRmFCR3lXUjN6ZGo2cWRNS21fNHdTbFM4andZM0hSYVdqWk5lRjdwQkdYWWthVHlqZEFOb1h3Y0RHcnRkbXJ3RVY1UF9MWlFuUXZDUF9BZzN5TE5QLXFSZHhIbm5kNUFadk9ubWd5Y0loem5qZ1VfOTVPU3lURl9SdEJpQVFQXzdZUGs1cno4RGExNENaNXc?oc=5",
@@ -894,16 +894,6 @@
       }
     },
     {
-      "id": "0c9eea200e18",
-      "title": "«Búscalo por fuera»: la respuesta que recibió el padre de Yosmany Mayeta ante la falta de medicamentos en... - CiberCuba",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNekZyX3JOTFdrOEpHRk5tQVg3cmJSWU1YRWhJcWdycE9vZmxkT3VHcllMTnEyVGVtNzJEODUzQ2JYVlN6blVTLURidDNlWHRqRjBuQW9PTWlsWGx2ZHdJVC1veTA1dTBodXliNmNsYmZyX0lRb1BHU0NuSnlOYTB1bkF6V1ZMNG85VnQ1cUlDaDhXV29ldTlTZGp1QTN2c1prSVlQQTBwWGlwejRLUXBpeV93UHAtY3ZpYXl1b0hXN1FfWHQ00gHEAUFVX3lxTE16RnJfck5MV2s4SkdGTm1BWDdyYlJZTVhFaElxZ3JwT29mbGRPdUdyWUxOcTJUZW03MkQ4NTNDYlhWU3puVVMtRGJ0M2VYdGpGMG5Bb09NaWxYbHZkd0lULW95MDV1MGh1eWI2Y2xiZnJfSVFvUEdTQ25KeU5hMHVuQXpXVkw0bzlWdDVxSUNoOFdXb2V1OVNkanVBM3ZzWmtJWVBBMHBYaXB6NEtRcGl5X3dQcC1jdmlheXVvSFc3UV9YdDQ?oc=5",
-      "published": "2026-08-24T21:37:56+00:00",
-      "source": {
-        "name": "CiberCuba",
-        "url": "https://www.cibercuba.com"
-      }
-    },
-    {
       "id": "06cfbf1b57a3",
       "title": "Udea recibirá $350.000 millones para construir una planta de medicamentos - LaRepublica.co",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNjNBWGdtbTd0UEdBbFE1MmRJWFo1bldXUk5Xbi1mcjhEeWI5blNCQkNXM0l1OFJRYnZfbkNVV3c5VUwwSVlXQkZQZXRXQXlyb2UyRFBzdHphOVBJYndPaF80ei1JTmd6VjhZbEFjQ3h3Q0l5N3B2cEJtOTc0SEJoMTFUa3ByTlhYTjg1MnRTeEVjaWxlYkVhSEhfSzJuTzhuNWtLaDN5WlUwRzh1Mk1qeS1kZ1BIbEXSAbcBQVVfeXFMUDh0cTlMUGxYODJxeHJzT3NmZV9rdm9FSGFYdjh2Zk5jeTZKZWgxUjdMaHRtN1hwbjF1M1VUbDVLMENaZE5FdFJWaXFMNV92MExoMzlycWJMVGtuY2tmd05MRWh3andjS2lISTZYdHp2aXVwaU1YSEVfRTZFSklOaG5Jb2p2Tll3WVdORUhMUklVWGFSUWtiYnVOWUZJQkZVY0xTTUZKNzNQVER5TThHMmZGbHBiaG1v?oc=5",
@@ -911,6 +901,16 @@
       "source": {
         "name": "LaRepublica.co",
         "url": "https://www.larepublica.co"
+      }
+    },
+    {
+      "id": "0c9eea200e18",
+      "title": "«Búscalo por fuera»: la respuesta que recibió el padre de Yosmany Mayeta ante la falta de medicamentos en... - CiberCuba",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNekZyX3JOTFdrOEpHRk5tQVg3cmJSWU1YRWhJcWdycE9vZmxkT3VHcllMTnEyVGVtNzJEODUzQ2JYVlN6blVTLURidDNlWHRqRjBuQW9PTWlsWGx2ZHdJVC1veTA1dTBodXliNmNsYmZyX0lRb1BHU0NuSnlOYTB1bkF6V1ZMNG85VnQ1cUlDaDhXV29ldTlTZGp1QTN2c1prSVlQQTBwWGlwejRLUXBpeV93UHAtY3ZpYXl1b0hXN1FfWHQ00gHEAUFVX3lxTE16RnJfck5MV2s4SkdGTm1BWDdyYlJZTVhFaElxZ3JwT29mbGRPdUdyWUxOcTJUZW03MkQ4NTNDYlhWU3puVVMtRGJ0M2VYdGpGMG5Bb09NaWxYbHZkd0lULW95MDV1MGh1eWI2Y2xiZnJfSVFvUEdTQ25KeU5hMHVuQXpXVkw0bzlWdDVxSUNoOFdXb2V1OVNkanVBM3ZzWmtJWVBBMHBYaXB6NEtRcGl5X3dQcC1jdmlheXVvSFc3UV9YdDQ?oc=5",
+      "published": "2026-08-24T21:37:56+00:00",
+      "source": {
+        "name": "CiberCuba",
+        "url": "https://www.cibercuba.com"
       }
     },
     {
@@ -964,13 +964,13 @@
       }
     },
     {
-      "id": "cc61ab3e936b",
-      "title": "📲#Huayabazo | ¡El remedio a los problemas en el sector Salud de #Yucatán es, \"ponerse la camiseta\"! El gobernador 'Huacho' Díaz Mena pide a trabajadores del Nuevo #HospitalOHorán \"ponerse la camiseta\" ante la falta de personal, insumos y hasta medi - instagram.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzaTVDYVBMcFYyYlU3RVg2VjdEZHRYT28zT1Z4T2NySml5NTZBckRrRWpBazVWOWlsSWFsSFhOaTIzLUVBR0tKcFZPemZKUEZ0c1Z0alFR?oc=5",
-      "published": "2026-08-24T18:14:32+00:00",
+      "id": "e5bd7271bd98",
+      "title": "Farmacias Similares, su historia, negocio y modelo de salud - Sociedad Noticias",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQd1E3eUZMbl80N2NjaFdTQ1l0OExFbTJhc2tlWEpqUFdZa0ZqZlBzaVQxcTlBQzkta2dIMVhaYXJFMk0zWi1ERmluRTVqUFNINnhhUF81VmJyVmJxUEdXdDVUOXViVEVlY0Q2cGxxdk1GMUZsMy1ZMHVBWUNDYjEtQnBGZzBCNHlRZl9fTmJvNnB1MXF6TDV6Y0oyNTlkempQ?oc=5",
+      "published": "2026-08-25T10:30:00+00:00",
       "source": {
-        "name": "instagram.com",
-        "url": "https://www.instagram.com"
+        "name": "Sociedad Noticias",
+        "url": "https://sociedad-noticias.com"
       }
     },
     {
