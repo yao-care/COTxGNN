@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tacrolimus
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 218
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ La evidencia clínica es robusta: un ensayo Fase 3 multicéntrico completado (NC
 - Evaluar estrategia de registro sanitario: actualmente sin licencias activas en Colombia, lo que requiere proceso de registro ante INVIMA para formulaciones tópicas (ungüento 0.03% y 0.1%)
 - Confirmar disponibilidad de la cadena de suministro y condiciones de almacenamiento para formulaciones tópicas en el contexto colombiano
 - Establecer protocolo de monitoreo para uso prolongado, con especial atención al riesgo teórico de inmunosupresión local y el aviso de recuadro negro de la FDA (riesgo de malignidad con uso a largo plazo)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

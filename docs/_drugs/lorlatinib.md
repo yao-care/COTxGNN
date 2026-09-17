@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lorlatinib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 163
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Lorlatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La predicción de TxGNN para fibromatosis gingival carece por completo de eviden
 - Tramitar el registro sanitario ante el INVIMA como prerrequisito para cualquier uso clínico en Colombia
 - Revisar si la señal de TxGNN persiste al reconfigurar el grafo de conocimiento con datos más granulares sobre fibromatosis gingival
 - Considerar si indicaciones de mayor evidencia (p. ej., CPCNP ALK-positivo, neuroblastoma ALK-driven) son prioritarias para una estrategia de entrada al mercado colombiano
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acetato De Abiraterona
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 18
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Acetato De Abiraterona
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -138,10 +138,10 @@ No se generaron predicciones de nuevas indicaciones por parte del modelo TxGNN p
 - Completar los datos de mecanismo de acción desde DrugBank (DG002 — Alta)
 - Re-ejecutar la predicción TxGNN una vez que el fármaco esté correctamente mapeado en el grafo de conocimiento
 - Verificar el estado regulatorio en Colombia, dado que abiraterona está ampliamente disponible a nivel mundial (posible error de consulta con el nombre en español "ACETATO DE ABIRATERONA")
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Etanercept
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 115
-evidence_level: L5
+evidence_level: L3
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -126,10 +126,10 @@ La evidencia disponible revela una paradoja clínica que impide recomendar el av
 - Realizar una revisión sistemática que diferencie cuantitativamente el uso terapéutico de la vasculitis inducida por etanercept, con datos de incidencia comparativa
 - Consultar con especialistas en reumatología para definir el perfil de paciente (VR severa vs. leve, ANCA+ vs. ANCA-) que podría beneficiarse neto del tratamiento
 - Antes de cualquier uso, tramitar el registro sanitario ante INVIMA con la indicación correspondiente
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gefitinib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 127
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Gefitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La conexión mecanística propuesta entre la inhibición del EGFR y la fibromato
 - Obtener datos completos de seguridad: advertencias INVIMA/EMA, contraindicaciones e interacciones farmacológicas relevantes
 - Definir una vía regulatoria en Colombia (registro sanitario o uso bajo protocolo de investigación)
 - Análisis de expresión génica y proteómica en tejido gingival fibromatoso para validar la diana EGFR
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beclometasona Dipropionato
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Beclometasona Dipropionato
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -95,10 +95,10 @@ El Evidence Pack no contiene predicciones de TxGNN ni datos regulatorios aplicab
 - Normalizar el término de búsqueda en INVIMA (posiblemente registrado como "BECLOMETASONA" o con nombre comercial como "Beclosol", "Qvar", "Beconase") y re-ejecutar la consulta.
 - Con `drugbank_id` confirmado, re-ejecutar el pipeline TxGNN para obtener `predicted_indications`.
 - Una vez obtenidas las predicciones, re-generar este informe con la plantilla completa.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

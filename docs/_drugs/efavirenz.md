@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Efavirenz
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 107
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Efavirenz
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ La indicación predicha (infección por SIV) no representa una oportunidad de re
 - Obtener datos de MOA completos desde DrugBank (DG002) para análisis mecanístico estructurado
 - Consultar el prospecto del INVIMA o EMA/FDA para recuperar advertencias y contraindicaciones formales (DG001)
 - Evaluar viabilidad de registro sanitario en Colombia si se identificara una indicación con evidencia L2 o superior
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

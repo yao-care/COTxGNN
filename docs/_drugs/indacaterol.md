@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Indacaterol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 135
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Indacaterol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ A pesar del altísimo puntaje TxGNN (99.54%), la predicción para NSIAD carece p
 - **Gestión de registro sanitario en Colombia**: el fármaco no está comercializado en el país; cualquier investigación requeriría aprobación de INVIMA para uso en investigación
 
 > **Nota clínica adicional**: Entre las 10 indicaciones predichas por TxGNN para Indacaterol, la indicación **"bronchial disease" (rango 7)** presenta el nivel de evidencia más alto (L1), con más de 37 ensayos clínicos y 20 publicaciones, y una recomendación de **"Proceed with Guardrails"**. Esta corresponde esencialmente al uso broncodilatador ya establecido del fármaco (EPOC/asma), lo que valida el modelo pero no constituye reposicionamiento propiamente dicho. Las demás indicaciones nuevas predichas (rangos 1–6 y 8–10) son todas L5/Hold sin evidencia de respaldo.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

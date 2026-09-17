@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lopinavir
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 161
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Lopinavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ La infección por SIV es una enfermedad exclusiva de primates no humanos sin apl
 - Gestionar el registro sanitario ante el INVIMA si se contempla la comercialización en Colombia
 - Evaluar las indicaciones humanas de mayor rango predichas por TxGNN con evidencia clínica directa (p. ej., otras enfermedades infecciosas virales o indicaciones no virales)
 - En caso de interés investigativo preclínico, definir si los hallazgos en modelos SIV son trasladables a estrategias antivirales de amplio espectro
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

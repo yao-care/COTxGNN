@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Elvitegravir
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 108
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Elvitegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La predicción del TxGNN refleja una relación biológica genuina y bien documen
 - Clarificar si la indicación objetivo tiene relevancia traslacional para humanos, por ejemplo, en el contexto de desarrollo de formulaciones preventivas de VIH (PrEP/PEP) donde los modelos SIV/SHIV en macacos son el estándar de validación preclínica
 - Obtener información de seguridad, advertencias y contraindicaciones desde el prospecto oficial (ficha técnica / INVIMA)
 - Evaluar si existen ensayos clínicos en humanos con formulaciones que contengan elvitegravir para prevención del VIH que pudieran constituir un pivot traslacional desde los datos de SIV
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

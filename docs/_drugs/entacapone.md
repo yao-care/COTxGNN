@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entacapone
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entacapone
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -100,10 +100,10 @@ Aunque el puntaje TxGNN de 99.76% es elevado y existe una plausibilidad mecanís
 - Completar el perfil de MOA y seguridad del fármaco (actualmente en Data Gap: DG001 y DG002)
 - Evaluación de la expresión y actividad de COMT en tejido cerebral con patología PLA2G6
 - Registro sanitario en Colombia como prerequisito regulatorio para cualquier uso clínico futuro
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Misoprostol
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 173
-evidence_level: L5
+evidence_level: L4
 indication_count: 2
 ---
 
 # Misoprostol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La predicción TxGNN presenta respaldo mecanístico parcial y válido únicament
 - Información de seguridad y contraindicaciones del prospecto oficial (datos actualmente no disponibles)
 - Definición clara del subtipo de amenorrea objetivo antes de cualquier desarrollo clínico, dado que el mecanismo solo aplica a la etiología uterina y no a la funcional u hormonal
 - Evaluación de viabilidad regulatoria para obtener registro sanitario INVIMA si se decide avanzar en Colombia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

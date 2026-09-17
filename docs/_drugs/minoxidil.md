@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Minoxidil
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 172
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Minoxidil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -102,10 +102,10 @@ La evidencia disponible se limita a tres reportes de caso y observaciones no con
 - Evaluar la seguridad de uso prolongado (tópico u oral) en población pediátrica, dado que los casos reportados incluyen pacientes menores de edad
 - Registrar el producto ante INVIMA como prerrequisito para cualquier uso clínico formal en Colombia
 - Considerar colaboración con registros internacionales de enfermedades raras para ampliar la cohorte de pacientes disponibles para investigación
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

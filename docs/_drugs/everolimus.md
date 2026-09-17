@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Everolimus
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 118
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Everolimus
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -124,10 +124,10 @@ El ensayo clínico de Fase II NCT03114527 evaluó directamente Everolimus en lip
 - Revisar en detalle los resultados de eficacia del NCT03114527 (PMID 37967116) para cuantificar tasa de respuesta objetiva, SLP y perfil de toxicidad en DDLPS
 - Confirmar el subtipo histológico de liposarcoma con mayor probabilidad de respuesta (el ensayo se enfocó en DDLPS; otros subtipos como liposarcoma mixoide/pleomórfico pueden tener diferente sensibilidad a mTOR)
 - Considerar diseño de protocolo de estudio piloto en Colombia que incluya determinación de estado de activación de la vía mTOR como biomarcador de selección
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

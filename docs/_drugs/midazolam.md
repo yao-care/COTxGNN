@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Midazolam
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 170
-evidence_level: L5
+evidence_level: L2
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -118,10 +118,10 @@ Aunque la predicción TxGNN tiene una base mecanística sólida (midazolam actú
 - Realizar un análisis de mercado en Colombia que identifique si existen formulaciones orales de midazolam (vs. formulaciones parenterales típicas) que sean viables para el tratamiento del insomnio
 - Revisar si existe una ventana de reposicionamiento en nichos específicos (insomnio agudo situacional, insomnio perioperatorio) donde midazolam podría tener ventajas sobre los hipnóticos actuales disponibles en el mercado colombiano
 - Evaluar el marco regulatorio de INVIMA para benzodiazepinas hipnóticas y los requisitos de un posible registro de la indicación de insomnio
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

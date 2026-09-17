@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Piroxicam
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 198
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Piroxicam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -111,10 +111,10 @@ Existen dos ensayos clínicos directos con piroxicam en población pediátrica c
 - **Datos de seguridad pediátrica**: Obtener el perfil completo de toxicidad GI y renal en menores, incluyendo advertencias y contraindicaciones actualizadas
 - **Ensayos clínicos contemporáneos**: Los estudios directos son de 1986–1987; se recomienda evaluar la necesidad de estudios modernos bajo criterios diagnósticos actuales de AIJ (ILAR 2001)
 - **Plan de farmacovigilancia pediátrica**: Protocolo de monitoreo de función renal, hepática y gastrointestinal para uso en población menor de 18 años
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

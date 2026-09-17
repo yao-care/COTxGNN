@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Febuxostat
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 121
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Febuxostat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -110,10 +110,10 @@ El mecanismo farmacológico de Febuxostat en hipouricemia renal es biológicamen
 - Evaluar la viabilidad regulatoria ante el INVIMA para uso compasivo u off-label, especialmente en población pediátrica y atlética
 - Revisar el perfil de seguridad de Febuxostat en pacientes con urato sérico basal muy bajo bajo inhibición prolongada de XOR (riesgo teórico de hipouricemia profunda)
 - Considerar que las indicaciones predichas en rangos 2 y 3 (deficiencia parcial de HPRT y síndrome de Lesch-Nyhan) comparten el mismo eje XOR, lo que podría justificar un programa de desarrollo conjunto para enfermedades raras del metabolismo de purinas
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Denosumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 97
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Denosumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -113,10 +113,10 @@ A pesar de que el puntaje TxGNN es muy alto (99.63%), la ausencia total de evide
 - Datos completos de mecanismo de acción (MOA) desde DrugBank para fortalecer el análisis de plausibilidad biológica
 - Ficha técnica y advertencias de seguridad oficiales (junta técnica INVIMA o FDA label) para completar la evaluación S1
 - Evaluación de viabilidad regulatoria en Colombia (registro INVIMA) antes de cualquier desarrollo clínico local
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

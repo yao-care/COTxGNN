@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Brigatinib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 72
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Brigatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La predicción TxGNN para fibromatosis gingival carece completamente de respaldo
 - Evaluar de forma independiente las indicaciones con mayor potencial mecanístico: la indicación de **rango #8** (tumores con ALK+ / neuroendocrinos pulmonares, evidencia **L4**) presenta base mecanística más sólida para exploración como pregunta de investigación
 - Investigar el perfil emergente en **schwannomatosis relacionada con NF2** (detectado en análisis de rango #10): ensayo clínico prospectivo publicado en NEJM ([PMID 38904277](https://pubmed.ncbi.nlm.nih.gov/38904277/)) evidencia respuesta tumoral vía inhibición de FAK por brigatinib, independiente de ALK — este hallazgo merece una evaluación independiente con nivel de evidencia **L3**
 - Considerar la señal de seguridad de **síndrome de lisis tumoral fatal** reportada con brigatinib ([PMID 34987411](https://pubmed.ncbi.nlm.nih.gov/34987411/)) en la evaluación de riesgo para cualquier indicación nueva
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

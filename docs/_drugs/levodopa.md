@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Levodopa
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Levodopa
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -100,10 +100,10 @@ La predicción TxGNN se basa exclusivamente en similitud de grafo de conocimient
 - Revisión de literatura sobre el papel de receptores dopaminérgicos en linfocitos T CD8+ en contextos de neuroinflamación
 - Evaluación de seguridad completa (advertencias, contraindicaciones, interacciones) mediante descarga del prospecto oficial de TFDA o EMA
 - Consideración de si el perfil de efectos adversos de Levodopa (discinesias, hipotensión ortostática, psicosis) es compatible con la población pediátrica afectada por Encefalitis de Rasmussen
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

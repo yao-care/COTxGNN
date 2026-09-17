@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Atezolizumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 47
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Atezolizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -65,10 +65,10 @@ El Evidence Pack no contiene ninguna indicación predicha por TxGNN ni informaci
 - Obtener el mecanismo de acción (MOA) desde DrugBank API — severidad High (DG002)
 - Descargar y analizar el prospecto oficial (package insert) para extraer advertencias y contraindicaciones — severidad Blocking (DG001)
 - Evaluar viabilidad de registro ante INVIMA para ingreso al mercado colombiano
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

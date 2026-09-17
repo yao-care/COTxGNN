@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Entecavir
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 112
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Entecavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -162,10 +162,10 @@ La predicción TxGNN de mayor rango (hepatitis C crónica) no tiene base mecaní
 - Confirmar disponibilidad comercial del fabricante y existencia de versiones genéricas aprobadas para el mercado latinoamericano
 - Para el contexto VIH/VHB (Rango 3): diseñar protocolo de farmacovigilancia que garantice cobertura antirretroviral completa antes de introducir ETV y monitoreo de mutación M184V
 - Completar los datos de seguridad local (DG001: prospecto INVIMA/TFDA) antes de avanzar a la evaluación de seguridad formal
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

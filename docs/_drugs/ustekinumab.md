@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ustekinumab
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 233
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 ---
 
 # Ustekinumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -120,10 +120,10 @@ Dos ensayos clínicos de Fase 2 completados (NCT01806662 y NCT01945086) han eval
 - Identificación del subgrupo respondedor óptimo: pacientes con DA crónica, fenotipo Th1/Th17 elevado o de origen asiático, donde el beneficio mecanístico es mayor
 - Seguimiento del estudio en curso NCT05535738 (Fase 2/3) para datos mecanísticos adicionales en piel inflamada
 - Comparación con alternativas disponibles (dupilumab, tralokinumab) en términos de eficacia, seguridad y acceso para contextualizar la viabilidad de reposicionamiento en el mercado colombiano
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

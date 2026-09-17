@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Olaparib
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 182
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 ---
 
 # Olaparib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -132,10 +132,10 @@ Olaparib cuenta con evidencia de Nivel L1 para carcinoma de mama femenino BRCA1/
 - Definición de plan de manejo de toxicidades hematológicas (anemia, neutropenia) y estrategia de monitoreo periódico
 - Evaluación de cobertura por el sistema de salud colombiano (SGSSS/EPS) para terapias de precisión oncológica
 - Revisión del prospecto oficial (FDA/EMA) para completar datos de advertencias, contraindicaciones e interacciones farmacológicas (actualmente no disponibles en el Evidence Pack local)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

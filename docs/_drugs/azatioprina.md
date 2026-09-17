@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azatioprina
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 55
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Azatioprina
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -82,10 +82,10 @@ El Evidence Pack está incompleto en sus componentes fundamentales — no hay in
 - **Re-ejecutar el pipeline TxGNN** con el identificador DrugBank correcto y verificar que el nodo del fármaco esté presente en el grafo de conocimiento
 - **Verificar el INN de entrada:** "AZATIOPRINA" es la denominación en español; el pipeline puede requerir el INN en inglés (`azathioprine`) o el DrugBank ID (`DB00993`) para la búsqueda correcta
 - **Evaluar registro en Colombia:** Si el fármaco no está comercializado bajo este nombre, investigar si existen equivalentes o presentaciones importadas con registro INVIMA
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

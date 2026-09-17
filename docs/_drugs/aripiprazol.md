@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aripiprazol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Aripiprazol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -123,10 +123,10 @@ El Evidence Pack está incompleto de forma crítica: no hay indicaciones predich
 3. **Obtener prospecto oficial:** Descargar el PDF del prospecto desde INVIMA o fuente regulatoria equivalente para extraer advertencias, contraindicaciones y MOA aprobado.
 4. **Verificar cobertura en Colombia:** Confirmar si Aripiprazol tiene registros sanitarios bajo variantes de nombre (ej. marcas comerciales como Abilify, Arip MT, etc.).
 5. **Repetir la generación del Evidence Pack** una vez resueltas las brechas DG001 y DG002.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

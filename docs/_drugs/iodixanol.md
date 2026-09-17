@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Iodixanol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Iodixanol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ La predicción del modelo TxGNN de nivel L5 (solo predicción computacional) car
 - Registro sanitario en Colombia (actualmente sin presencia de mercado)
 - Revisión crítica del modelo TxGNN para identificar y mitigar el sesgo de "tool confound" en fármacos de uso diagnóstico
 - De considerarse alguna evaluación futura, requerirá estudios preclínicos de mecanismo desde cero, lo cual no es justificable con la evidencia actual
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

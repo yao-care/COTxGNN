@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Leuprolide Acetato
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Leuprolide Acetato
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -89,10 +89,10 @@ El análisis no puede completarse debido a la ausencia de predicciones de TxGNN 
 - **\[Crítico\]** Verificar que el nodo de Leuprolide Acetato esté correctamente mapeado en el Knowledge Graph de TxGNN — el `drugbank_id: null` sugiere un problema de mapeo que puede estar bloqueando la generación de predicciones
 - **\[Crítico\]** Re-ejecutar el pipeline de predicción TxGNN una vez resuelto el mapeo del nodo
 - Verificar si existe algún registro de Leuprolide Acetato bajo nombres comerciales alternativos (p. ej., Lupron, Eligard, Enantone) en bases de datos regulatorias colombianas
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

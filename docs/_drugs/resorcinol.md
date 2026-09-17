@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resorcinol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 207
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Resorcinol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La predicción de TxGNN se basa exclusivamente en la estructura del grafo de con
 - Evaluación de seguridad completa: advertencias clave, contraindicaciones e interacciones farmacológicas (actualmente sin datos disponibles)
 - Consideración especial de los efectos disruptores tiroideos documentados de Resorcinol en uso sistémico o sobre superficies extensas
 - Registro sanitario en Colombia (INVIMA) como prerrequisito para cualquier desarrollo clínico local
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Maraviroc
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 166
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Maraviroc
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -97,10 +97,10 @@ No existe ninguna evidencia experimental —ni ensayos clínicos ni publicacione
 - Evidencia preclínica de expresión funcional de CCR5 en tejidos endocrinos afectados por MEN antes de considerar cualquier hipótesis de reposicionamiento
 - Registro sanitario ante INVIMA como prerequisito para cualquier desarrollo clínico en Colombia
 - Considerar priorizar la evaluación de indicaciones con mayor plausibilidad mecanística identificadas en este mismo Evidence Pack: en particular **Rank 3/5 — Linfoma T Cutáneo Primario** (con literatura sobre el eje CCR5/ACKR1 en tumores T) y **Rank 10 — Carcinoma de Mama HER2+** (con evidencia preclínica directa que demuestra que CCL5 autocrina → CCR5 → ERK activa resistencia a trastuzumab, constituyendo la hipótesis de reposicionamiento con mayor solidez mecanística del conjunto)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

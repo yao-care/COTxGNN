@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Iobenguane
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 137
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Iobenguane
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -124,10 +124,10 @@ Las 20 publicaciones identificadas documentan únicamente el uso **diagnóstico*
 - Desarrollar estudios preclínicos (modelos animales de hipotensión ortostática neurogénica) que confirmen o descarten efecto farmacológico activo
 - Evaluar la viabilidad regulatoria y logística en Colombia: iobenguane es un radiofármaco que exige infraestructura de medicina nuclear especializada, actualmente ausente en la mayoría de los centros ambulatorios
 - Gestionar el registro sanitario ante el INVIMA antes de cualquier investigación clínica local, dado que el medicamento no está comercializado en el país
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

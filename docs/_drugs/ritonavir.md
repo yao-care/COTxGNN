@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ritonavir
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 209
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Ritonavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -110,10 +110,10 @@ La actividad de ritonavir frente a SIV está sustentada in vitro y en modelos de
 - Obtener datos completos del mecanismo de acción (MOA) y advertencias de seguridad del prospecto oficial (actualmente con brecha de datos)
 - Gestionar registro sanitario ante el INVIMA si se requiere uso clínico o investigativo en Colombia
 - Evaluar si existe potencial traslacional hacia una indicación humana derivada (p. ej., optimización de booster farmacocinético en cepas resistentes) que justifique escalar la evidencia a nivel clínico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

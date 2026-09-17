@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baclofen
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 59
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baclofen
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -98,10 +98,10 @@ El Evidence Pack está incompleto en sus campos más críticos: no hay indicacio
 2. **Resolver DG001 (Bloqueante):** Descargar y parsear el prospecto (package insert) para obtener indicaciones aprobadas, advertencias y contraindicaciones — el `query_log` muestra éxito en `tfda_package_insert` pero los datos no se integraron al pack
 3. **Re-ejecutar el modelo TxGNN** con el Knowledge Graph completo una vez que los datos Drug-Level estén disponibles
 4. **Verificar pipeline de integración:** El log muestra `result_status: "success"` para DrugBank y TFDA package insert, pero los datos no se reflejan en los campos del pack — hay un posible error de integración en el paso de consolidación del Evidence Pack
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Azelastina Hcl
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 56
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Azelastina Hcl
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -110,10 +110,10 @@ El Evidence Pack de Azelastina HCL no contiene indicaciones predichas por TxGNN 
 2. **Resolver DG002 (High):** Consultar DrugBank (ID pendiente de confirmación) para obtener el mecanismo de acción (antagonismo H1 selectivo y propiedades antiinflamatorias adicionales).
 3. **Reejecutar el pipeline TxGNN:** Con el DrugBank ID confirmado, regenerar las predicciones de indicaciones candidatas (`predicted_indications`) para que el análisis de reposicionamiento pueda completarse.
 4. **Verificar presencia en mercado colombiano:** Explorar si existen registros bajo nombres comerciales alternativos (p. ej. Allergodil, Azep) que no hayan sido capturados bajo el INN exacto "AZELASTINA HCL".
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

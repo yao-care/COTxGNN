@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Losartan
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 164
-evidence_level: L5
+evidence_level: L4
 indication_count: 8
 ---
 
 # Losartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **8** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 8
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -100,10 +100,10 @@ La conexión mecanística entre Losartan y la enfermedad renal hipertensiva mali
 - Obtención de datos completos de MOA desde DrugBank para sustentar el análisis formal de mecanismo en el informe regulatorio
 - Recuperación de datos de seguridad (advertencias, contraindicaciones, interacciones farmacológicas) del prospecto TFDA o equivalente internacional
 - Evaluación regulatoria y tramitación de registro sanitario ante INVIMA como condición previa a cualquier uso clínico en Colombia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

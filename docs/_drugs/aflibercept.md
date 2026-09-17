@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aflibercept
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 1
@@ -10,12 +10,12 @@ indication_count: 1
 # Aflibercept
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -89,10 +89,10 @@ La predicción de TxGNN descansa exclusivamente en patrones del grafo de conocim
 - Revisar la lógica de inferencia del grafo de conocimiento para determinar si la ruta "Aflibercept → ROP → Esotropia" está etiquetada correctamente como relación terapéutica o como señal adversa
 - Realizar búsqueda bibliográfica ampliada en oftalmología sobre mecanismos VEGF-dependientes en esotropia no neovascular
 - Completar los datos de seguridad (advertencias, contraindicaciones, DDI) desde la ficha técnica oficial para habilitar la evaluación S1 de seguridad, actualmente bloqueada (DG001)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
