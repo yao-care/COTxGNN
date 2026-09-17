@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Aprepitant
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Aprepitant
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -101,10 +101,10 @@ El pipeline TxGNN no generó predicciones de reposicionamiento para APREPITANT e
 - **[DG002 — Alta]** Completar el mecanismo de acción consultando DrugBank API (DB00673) — se requiere para el análisis de relevancia mecanística del modelo TxGNN
 - Re-ejecutar el pipeline TxGNN una vez resueltas las brechas DG001 y DG002
 - Verificar si hay datos de indicaciones originales para APREPITANT en DrugBank que no fueron capturados en esta corrida (el query log registra 1 resultado de DrugBank pero `original_indications` aparece vacío)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

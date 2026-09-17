@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Turoctocog Alfa Pegol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 232
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Turoctocog Alfa Pegol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -94,10 +94,10 @@ A pesar del puntaje TxGNN de 99.997%, la conexión mecanística entre el Factor 
 - Reclasificar como indicación prioritaria la **pseudo-enfermedad de von Willebrand** (Rank 2, puntuación 99.996%, mecanismo más coherente: descenso secundario de FVIII por pérdida del complejo vWF–FVIII) o la **deficiencia adquirida de factores de coagulación** (Rank 4, puntuación 99.974%, alineación directa con el efecto de clase del rFVIII)
 - Búsqueda bibliográfica ampliada sobre uso de FVIII en trastornos hemorrágicos plaquetarios raros (no restringida al fármaco específico)
 - Gestión de registro ante INVIMA si se decide avanzar con la indicación mejor soportada mecanísticamente
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

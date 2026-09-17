@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Cobicistat
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Cobicistat
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ Las tres indicaciones predichas por TxGNN para cobicistat son clasificadas como 
 - Consultar las indicaciones aprobadas globalmente (EMA, FDA) para enriquecer el contexto de uso real
 - Evaluar si existen otras indicaciones predichas en el ranking completo de TxGNN con mayor plausibilidad biológica en humanos y al menos evidencia L3 o superior
 - Obtener datos de seguridad (advertencias, contraindicaciones, interacciones) desde el prospecto TFDA o ficha técnica EMA antes de cualquier evaluación posterior
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

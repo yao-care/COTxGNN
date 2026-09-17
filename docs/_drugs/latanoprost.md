@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Latanoprost
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 149
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Latanoprost
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -95,10 +95,10 @@ El Evidence Pack versión 4 de Latanoprost está incompleto: no contiene indicac
 - **[Requerido]** Re-ejecutar el pipeline TxGNN para que genere indicaciones predichas; revisar si el nodo de Latanoprost existe en el grafo de conocimiento con los identificadores correctos (DrugBank ID: DB00654)
 - **[Requerido]** Verificar si Latanoprost puede ser importado/registrado en Colombia antes de evaluar cualquier ruta de reposicionamiento local
 - **[Opcional]** Confirmar si existen datos de eficacia en indicaciones distintas al glaucoma en la literatura existente (p. ej., cicatrización de heridas, neuroprotección ocular)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

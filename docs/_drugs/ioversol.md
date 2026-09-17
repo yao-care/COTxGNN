@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ioversol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Ioversol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -96,10 +96,10 @@ La predicción de TxGNN para susceptibilidad a osteoartritis carece de cualquier
 - Establecer una hipótesis mecanística plausible que conecte Ioversol con la fisiopatología de la osteoartritis de forma independiente al efecto de embolización de otros agentes yodados
 - Estudios preclínicos in vitro/in vivo sobre efectos de Ioversol en cartílago, sinoviocitos o mediadores inflamatorios articulares, previos a cualquier consideración clínica
 - Revisión sistemática del contexto de aparición de Ioversol en la literatura de osteoartritis para confirmar si se trata exclusivamente de uso diagnóstico auxiliar
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

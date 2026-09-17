@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Docetaxel
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 101
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -139,10 +139,10 @@ Docetaxel cuenta con el más alto nivel de evidencia disponible (L1) para su uso
 - Evaluar cadena de suministro: requisitos de almacenamiento (temperatura controlada 2-25°C), preparación en unidad de farmacia oncológica certificada y disponibilidad de G-CSF para profilaxis
 - Establecer protocolos institucionales de manejo de citotóxicos conforme a normativa colombiana vigente
 - Revisar interacciones farmacológicas clínicamente relevantes con CYP3A4 (ketoconazol, eritromicina) antes del uso clínico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

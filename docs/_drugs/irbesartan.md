@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Irbesartan
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Irbesartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -98,10 +98,10 @@ La predicción TxGNN posee coherencia mecanística clara (bloqueo ARB → inhibi
 - Verificación del MOA completo en DrugBank (DG002) y obtención de la ficha técnica/prospecto con advertencias y contraindicaciones (DG001)
 - Evaluación de la posibilidad de uso con supervisión especializada nefrológica, dado que la indicación comparte fisiopatología directa con el mecanismo de acción conocido del fármaco
 - Evaluación de viabilidad regulatoria y trámite de registro INVIMA en Colombia si la evidencia preliminar es favorable
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

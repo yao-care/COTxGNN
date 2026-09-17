@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Belimumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 6
@@ -10,12 +10,12 @@ indication_count: 6
 # Belimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ La predicción TxGNN para el trastorno primario de liberación plaquetaria carec
 - Obtener y analizar el prospecto aprobado para documentar advertencias clave, contraindicaciones e interacciones farmacológicas
 - Evaluar de forma separada la indicación de rango 4 (*trombocitopenia aloinmune fetal y neonatal*), que presenta la racionalidad mecanística más plausible de este expediente, pero requiere análisis de seguridad materno-fetal especializado antes de cualquier avance
 - Gestionar el trámite de registro sanitario ante INVIMA si se contempla investigación clínica local con este compuesto
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

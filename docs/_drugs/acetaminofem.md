@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Acetaminofem
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 17
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Acetaminofem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ No existen predicciones de nuevas indicaciones generadas por TxGNN, ni registros
 - **Obtener el identificador DrugBank** para habilitar la consulta de mecanismo de acción y propiedades farmacológicas
 - **Obtener datos de seguridad** (advertencias, contraindicaciones, interacciones) desde el prospecto o fuentes regulatorias
 - **Re-ejecutar el modelo TxGNN** una vez que el compuesto esté correctamente identificado y vinculado en el grafo de conocimiento
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

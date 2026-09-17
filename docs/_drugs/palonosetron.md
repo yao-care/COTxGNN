@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palonosetron
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 5
@@ -10,12 +10,12 @@ indication_count: 5
 # Palonosetron
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **5** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 5
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ La predicción TxGNN para palonosetron en trastorno de migraña carece de soport
 - Realizar búsqueda dirigida de estudios preclínicos de palonosetron en modelos de dolor nociceptivo o trigeminovascular
 - Determinar si la predicción TxGNN deriva de similitudes en el grafo de conocimiento con otros antagonistas 5-HT3 que sí cuenten con datos en migraña, para evaluar la robustez del modelo
 - Confirmar el estado regulatorio ante INVIMA antes de cualquier iniciativa de registro en Colombia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

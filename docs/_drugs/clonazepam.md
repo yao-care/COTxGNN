@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Clonazepam
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 89
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Clonazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -108,10 +108,10 @@ La evidencia acumulada — una revisión Cochrane, la guía AASM 2025, un ECA do
 - Establecer criterios de selección de pacientes: SPI moderado-severo refractario a agonistas dopaminérgicos y sin historial de abuso de sustancias o dependencia a benzodiazepinas
 - Definir protocolos de duración máxima del tratamiento y plan de monitoreo para prevenir dependencia
 - Valorar estudios de farmacovigilancia en subpoblaciones colombianas, especialmente pacientes con enfermedad renal crónica, donde la evidencia de seguridad de clonazepam es particularmente favorable
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

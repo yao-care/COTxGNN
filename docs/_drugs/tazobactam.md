@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Tazobactam
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 220
-evidence_level: L5
+evidence_level: L1
 indication_count: 2
 ---
 
 # Tazobactam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -122,10 +122,10 @@ La evidencia de Fase 3 es robusta y directa: el ensayo ASPECT-NP demostró la no
 - Definir qué combinación específica es el candidato de reposicionamiento relevante para Colombia: piperacilina/tazobactam (acceso amplio, genérico disponible) vs. ceftolozano/tazobactam (indicación HAP/VAP por MDR-*P. aeruginosa*, mayor costo)
 - Evaluar el perfil de resistencia local de *P. aeruginosa* y Enterobacterales en UCI colombianas para validar la pertinencia del uso de combinaciones con tazobactam frente al patrón epidemiológico local
 - Diseñar un plan de farmacovigilancia activa dado el riesgo de selección de resistencias en entornos de alta presión antibiótica
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

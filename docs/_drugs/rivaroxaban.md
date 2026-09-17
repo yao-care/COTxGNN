@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Rivaroxaban
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 210
-evidence_level: L5
+evidence_level: L4
 indication_count: 4
 ---
 
 # Rivaroxaban
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -104,10 +104,10 @@ A pesar del elevado puntaje TxGNN (99.57%), la evidencia disponible es exclusiva
 - Datos de mecanismo de acción (MOA) desde DrugBank para confirmar la hipótesis PAR-2 en sinovitis
 - Al menos un estudio preclínico en modelos de artritis reumatoide que valide el vínculo biológico Factor Xa–inflamación sinovial
 - Revisión de viabilidad regulatoria para obtención de registro sanitario en Colombia antes de cualquier desarrollo clínico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

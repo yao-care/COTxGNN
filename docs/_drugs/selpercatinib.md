@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Selpercatinib
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 213
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Selpercatinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -105,10 +105,10 @@ La predicción del modelo TxGNN se apoya en una conexión mecanística indirecta
 - Datos de expresión y actividad de RET en tejido vascular pulmonar humano de pacientes con HAP
 - Obtención del mecanismo de acción formal (MOA) y advertencias del prospecto para completar la evaluación de seguridad (gaps DG001 y DG002 pendientes)
 - Gestión de registro sanitario en Colombia como requisito previo para cualquier ensayo clínico local
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

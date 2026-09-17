@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Baricitinib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 61
 evidence_level: L5
 indication_count: 2
@@ -10,12 +10,12 @@ indication_count: 2
 # Baricitinib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -81,10 +81,10 @@ El paquete de evidencia está incompleto. Faltan las predicciones TxGNN y los da
 - Descargar y parsear el prospecto oficial para extraer advertencias y contraindicaciones (`DG001`)
 - Ejecutar el pipeline TxGNN completo para obtener predicciones de nuevas indicaciones con puntaje y evidencia asociada
 - Verificar el estado regulatorio en Colombia (INVIMA) y confirmar si existe registro sanitario bajo nombre de marca
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

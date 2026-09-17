@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Ipilimumab
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 141
-evidence_level: L5
+evidence_level: L2
 indication_count: 2
 ---
 
 # Ipilimumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **2** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 2
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -142,10 +142,10 @@ Existen ensayos clínicos de Fase 2 completados que evalúan específicamente ip
 - Revisar ficha técnica internacional (FDA Label / EMA SmPC de Yervoy®) para datos completos de seguridad y dosificación
 - Evaluar biomarcadores predictivos de respuesta: TMB, expresión de PD-L1, firma IFN-γ tumoral y densidad de infiltración linfocitaria (TIL) para seleccionar los pacientes con mayor probabilidad de beneficio
 - Considerar la inclusión de pacientes colombianos en ensayos clínicos activos relevantes (ej. NCT04949113 — NADINA, NCT02224781 — DREAMseq) como vía de acceso regulado al fármaco con monitoreo prospectivo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

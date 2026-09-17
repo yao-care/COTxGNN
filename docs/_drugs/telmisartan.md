@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Telmisartan
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Telmisartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La predicción TxGNN para angina de Prinzmetal carece por completo de respaldo e
 - Estudios preclínicos que evalúen el efecto del bloqueo AT1R y la activación PPARγ en modelos de espasmo coronario
 - Revisión de seguridad completa: advertencias del prospecto (FDA/EMA), contraindicaciones e interacciones farmacológicas
 - Análisis comparativo frente al estándar de tratamiento (bloqueadores de canales de calcio) antes de cualquier diseño de estudio clínico
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

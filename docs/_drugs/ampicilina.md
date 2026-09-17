@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ampicilina
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Ampicilina
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -86,10 +86,10 @@ TxGNN no generó ninguna predicción de nueva indicación para Ampicilina debido
 - Re-ejecutar el pipeline TxGNN con el DrugBank ID corregido y evaluar si se generan predicciones
 - Verificar en INVIMA con términos de búsqueda alternativos (*Ampicillin*, nombres de marca) para confirmar o descartar presencia en el mercado colombiano
 - Revisar si el pipeline de reposicionamiento tiene configurado el dominio terapéutico correcto (antiinfecciosos vs. oncología) para este tipo de fármaco
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

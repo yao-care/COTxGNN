@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Lorazepam
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 162
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Lorazepam
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -117,10 +117,10 @@ La eficacia de Lorazepam como agente hipnótico cuenta con respaldo directo de e
 - Definir criterios de exclusión para poblaciones de alto riesgo (adultos mayores, pacientes con antecedentes de abuso de sustancias, insuficiencia respiratoria)
 - Evaluar posicionamiento frente a alternativas ya aprobadas en Colombia (antagonistas de orexina, z-drugs) como terapias de primera línea para insomnio crónico
 - Implementar sistema de farmacovigilancia activa para detección temprana de dependencia en la indicación de insomnio
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

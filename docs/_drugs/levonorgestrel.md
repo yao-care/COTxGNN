@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Levonorgestrel
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 160
-evidence_level: L5
+evidence_level: L2
 indication_count: 6
 ---
 
 # Levonorgestrel
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **6** 個
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 6
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -117,10 +117,10 @@ Existe evidencia clínica directa de calidad moderada-alta (incluyendo un ECA pu
 - **Datos de mecanismo de acción (MOA) completos**: cuantificar la actividad androgénica relativa vs efecto de SHBG según dosis y formulación específica
 - **Información de seguridad completa**: advertencias, contraindicaciones y perfil de interacciones farmacológicas conforme a normativa colombiana
 - **Análisis comparativo vs progestinas antiandrogénicas**: definir ventaja diferencial de LNG frente a drospirenona o norgestimato para acné, dada la evidencia de inferioridad relativa ya documentada
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

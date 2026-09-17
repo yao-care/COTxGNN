@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Etoricoxib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Etoricoxib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -107,10 +107,10 @@ A pesar de un puntaje TxGNN de 99.90%, la evidencia clínica directa para etoric
 - Diseñar un estudio piloto de Fase 2 específico para migraña episódica moderada-severa si la revisión de seguridad es favorable
 - Evaluar con especial cuidado el riesgo cardiovascular de etoricoxib en la población migrañosa, dado que la migraña con aura es un factor de riesgo independiente de accidente cerebrovascular
 - Iniciar el proceso de registro sanitario en INVIMA como prerequisito para cualquier investigación clínica en Colombia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

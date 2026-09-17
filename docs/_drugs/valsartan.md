@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Valsartan
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 234
-evidence_level: L5
+evidence_level: L4
 indication_count: 7
 ---
 
 # Valsartan
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **7** 個
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 7
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -98,10 +98,10 @@ El puntaje TxGNN es muy alto (99.97%) y la coherencia mecanística entre el bloq
 - Obtener datos formales de mecanismo de acción (MOA) y perfil de seguridad de Valsartan (advertencias, contraindicaciones) mediante consulta a DrugBank y ficha técnica oficial
 - Verificar el estado real de comercialización en Colombia (INVIMA), ya que Valsartan tiene amplia distribución global y la ausencia de registros puede reflejar una limitación de la fuente de datos
 - **Evaluar priorizar la indicación de Cardiopatía Pulmonar Crónica** (rank 6): con 7 ensayos clínicos (incluyendo Phase 4 RCT completados con sacubitril/valsartan) y 20 publicaciones —entre ellas análisis post-hoc de PARADIGM-HF y PARAGON-HF—, constituye la indicación con mayor evidencia disponible en este análisis y cuenta con recomendación *Proceed with Guardrails* (Nivel L2)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

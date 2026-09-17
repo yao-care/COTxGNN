@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Darunavir
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Darunavir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -99,10 +99,10 @@ La predicción del modelo TxGNN para el síndrome de inmunodeficiencia adquirida
 - Modelado por dinámica molecular comparativo entre las proteasas del VIH-1 y del FIV para cuantificar la afinidad de unión de Darunavir
 - Verificación del mecanismo de acción (MOA) completo mediante consulta de DrugBank (pendiente, severidad Alta según el registro de brechas del Evidence Pack)
 - Reorientar la estrategia de reposicionamiento hacia la indicación de Rango 2 (infección por SIV), que cuenta con evidencia animal (L3) y una base mecanística más sólida
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

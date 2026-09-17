@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Raltegravir
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 202
-evidence_level: L5
+evidence_level: L3
 indication_count: 3
 ---
 
 # Raltegravir
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -106,10 +106,10 @@ La infección por SIV es un modelo animal de investigación en primates no human
 - Redirigir el análisis hacia indicaciones humanas de mayor potencial: otras infecciones retrovirales emergentes o co-infecciones en personas viviendo con VIH
 - Si el objetivo es investigación preclínica: definir protocolo de estudios NHP con Raltegravir para plataformas de cura del VIH y evaluar co-financiamiento con grupos de investigación en VIH
 - Evaluar viabilidad de registro en Colombia si se identifica una indicación humana válida que justifique el trámite ante INVIMA
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

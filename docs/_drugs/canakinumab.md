@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Canakinumab
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 79
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Canakinumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -136,10 +136,10 @@ La FMF presenta una coincidencia mecanística directa con el blanco farmacológi
 - Evaluar la viabilidad de financiamiento mediante ADRES/EPS o tutelas, dado el alto costo de los biológicos de uso en enfermedades raras
 - Confirmar la disponibilidad de reumatólogos o inmunólogos con experiencia en enfermedades autoinflamatorias monogénicas para supervisión clínica local
 - Datos detallados del MOA de la fuente DrugBank (pendiente por Data Gap DG002) para completar la caracterización farmacológica oficial del informe
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

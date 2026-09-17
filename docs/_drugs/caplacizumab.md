@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Caplacizumab
-parent: 僅模型預測 (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 81
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 ---
 
 # Caplacizumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -132,10 +132,10 @@ Caplacizumab cuenta con evidencia de Nivel L1 —respaldada por dos ECA pivotale
 - Completar el campo de mecanismo de acción (MOA) en la base de datos local (DrugBank ID: DB06081)
 - Evaluar la estrategia de acceso en Colombia: cadena de distribución adecuada para biológico inyectable, evaluación de inclusión en el Plan de Beneficios en Salud (PBS) o rutas de recobro/acceso excepcional
 - Identificar centros de referencia en Colombia con capacidad diagnóstica para medición de actividad de ADAMTS13 y manejo especializado de PTT
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

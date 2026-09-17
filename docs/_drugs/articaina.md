@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Articaina
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 45
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Articaina
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -83,10 +83,10 @@ El pipeline TxGNN no generó ninguna indicación candidata para Articaína en es
 - **Re-ejecutar TxGNN:** Con los datos de MOA y categorías DrugBank completos, el modelo podría generar candidatos de indicación. La ausencia de predicciones puede estar relacionada con la falta de nodos de entrada en el knowledge graph.
 - **Verificar INN normalizado:** Confirmar que el identificador "ARTICAINA" (con mayúsculas, sin tilde) esté correctamente mapeado en el vocabulario del pipeline; la variante correcta en inglés es "articaine" y en español "articaína".
 - **Registros sanitarios en Colombia:** Evaluar si el producto se comercializa bajo combinaciones fijas (p. ej., articaína + epinefrina) que podrían no estar indexadas bajo el INN genérico solo.
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

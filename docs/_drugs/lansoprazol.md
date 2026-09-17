@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lansoprazol
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Lansoprazol
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -79,10 +79,10 @@ El Evidence Pack está incompleto en sus tres dimensiones críticas: ausencia de
 - Extraer el mecanismo de acción (MOA) del resultado ya disponible en DrugBank
 - Recuperar el prospecto oficial obtenido en la consulta `tfda_package_insert` e integrar advertencias, contraindicaciones e interacciones farmacológicas
 - Verificar si existe registro INVIMA vigente en Colombia (el fármaco podría estar registrado bajo un nombre comercial diferente o con grafía alternativa)
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

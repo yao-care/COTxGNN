@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Teprotumumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Teprotumumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -103,10 +103,10 @@ De las 10 indicaciones predichas, 6 corresponden al espectro Turner/anomalías d
 - Registro sanitario INVIMA previo a cualquier evaluación de uso en Colombia
 - Evidencia preclínica que demuestre beneficio neto de la inhibición de IGF-1R en el contexto de síndrome de Turner antes de considerar cualquier ensayo clínico
 - Descarte formal de interacción antagónica con hormona de crecimiento exógena en modelos animales Turner
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

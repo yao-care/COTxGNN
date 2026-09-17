@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Abemaciclib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 13
 evidence_level: L5
 indication_count: 0
@@ -10,12 +10,12 @@ indication_count: 0
 # Abemaciclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **0** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 0
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -47,7 +47,7 @@ y el paquete de evidencia presenta **múltiples brechas de datos críticas** que
 | Nueva Indicación Predicha | — Sin predicciones generadas — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin datos de respaldo) |
-| Estado de Mercado en Taiwán | ✗ No comercializado (未上市) |
+| Estado de Mercado en Taiwán | ✗ No comercializado (Not marketed) |
 | Número de Registros Sanitarios (TFDA) | 0 |
 | Decisión Recomendada | **Hold** |
 
@@ -77,7 +77,7 @@ Actualmente no hay literatura relacionada disponible en el Evidence Pack.
 
 ## Información de Mercado en Taiwán
 
-Abemaciclib **no cuenta con registros sanitarios vigentes** ante la TFDA (Administración de Alimentos y Medicamentos de Taiwán). El estado de mercado reportado es **"未上市" (no comercializado)**.
+Abemaciclib **no cuenta con registros sanitarios vigentes** ante la TFDA (Administración de Alimentos y Medicamentos de Taiwán). El estado de mercado reportado es **"Not marketed" (no comercializado)**.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------------------|---------------------|---------------------|---------------------|
@@ -127,10 +127,10 @@ El Evidence Pack para Abemaciclib presenta brechas de datos críticas (DG001 con
 - 🔄 Verificar si Abemaciclib cuenta con registro sanitario en Taiwán bajo otro nombre comercial o INN
 - 🔄 Re-ejecutar el modelo TxGNN una vez completados los datos de entrada
 - 📋 Evaluar la posibilidad de incluir indicaciones exploradas internacionalmente (NSCLC, glioblastoma, cáncer colorrectal) como candidatas de referencia para el modelo
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Galcanezumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 125
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Galcanezumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -97,10 +97,10 @@ Las tres indicaciones predichas por TxGNN corresponden a trastornos de la coagul
 - Obtener datos completos de seguridad y contraindicaciones desde el prospecto oficial (FDA/EMA/INVIMA)
 - Revisar si existe alguna hipótesis publicada que conecte la señalización de CGRP con trastornos trombóticos o de la coagulación
 - Considerar re-ejecutar el modelo TxGNN con datos de entrada enriquecidos (proteínas diana, rutas de señalización completas) para mejorar la especificidad de las predicciones y reducir falsos positivos en enfermedades biológicamente no relacionadas
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

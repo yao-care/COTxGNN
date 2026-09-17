@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Modafinil
-parent: 僅模型預測 (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 174
-evidence_level: L5
+evidence_level: L3
 indication_count: 1
 ---
 
 # Modafinil
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **1** 個
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 1
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -121,10 +121,10 @@ La predicción TxGNN refleja solapamiento computacional en la red sueño-vigilia
 - **Prospecto oficial (DG001):** Recuperar advertencias y contraindicaciones de INVIMA o FDA para completar evaluación de seguridad S1
 - **Definición de subpoblación objetivo:** Distinguir insomnio primario (contraindicado mecanísticamente) de insomnio comórbido con fatiga/SDE (potencialmente viable), insomnio post-COVID, o insomnio en pacientes oncológicos post-quimioterapia
 - **Revisión de datos de NCT06404086/NCT06404099 (RECOVER-SLEEP):** Extraer brazo de modafinil/armodafinil si aplica, dada la relevancia emergente del insomnio post-COVID
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

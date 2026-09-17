@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Obinutuzumab
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 179
 evidence_level: L5
 indication_count: 3
@@ -10,12 +10,12 @@ indication_count: 3
 # Obinutuzumab
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **3** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 3
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -112,10 +112,10 @@ La predicción TxGNN para LLC/SLL con hipermutación somática de IGHV carece de
 - Datos completos de MOA y perfil de seguridad desde DrugBank y prospecto oficial FDA/EMA (resolución de Data Gaps DG001 y DG002)
 - Evaluación de si esta subindicación aporta valor clínico diferencial frente a la indicación general de LLC
 - **Prioridad alternativa recomendada:** Generar evaluación separada para **linfoma folicular** (Rango 3 en esta evaluación, TxGNN 99.18%, Nivel L1, Decisión: *Proceed with Guardrails*), que cuenta con evidencia Phase 3 robusta — ensayo pivotal GALLIUM (n=1,401) y más de 50 ensayos clínicos registrados —, y representa el candidato con mayor respaldo clínico para gestión de acceso de obinutuzumab en Colombia
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

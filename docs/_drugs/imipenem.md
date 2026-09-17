@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Imipenem
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 133
 evidence_level: L5
 indication_count: 10
@@ -10,12 +10,12 @@ indication_count: 10
 # Imipenem
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **10** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 10
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -97,10 +97,10 @@ La predicción de Imipenem para esclerodermia difusa carece completamente de bas
 - Evidencia de actividad biológica en modelos in vitro o in vivo de fibrosis o autoinmunidad
 - Revisión de la arquitectura del grafo TxGNN para determinar si la propagación de la señal hacia nodos de esclerodermia es un patrón sistemático de falsos positivos en enfermedades autoinmunes
 - Considerar redirigir el análisis hacia las indicaciones de rango inferior con mayor respaldo clínico real, como **Fiebre Tifoidea** (Rank 6, L3, Proceed with Guardrails) o **Infección por Staphylococcus aureus** (Rank 9, L2, Proceed with Guardrails), donde Imipenem ya cuenta con ensayos clínicos y literatura sustancial
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Palbociclib
-parent: 僅模型預測 (L5)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 4
@@ -10,12 +10,12 @@ indication_count: 4
 # Palbociclib
 {: .fs-9 }
 
-證據等級: **L5** | 預測適應症: **4** 個
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
 
-## 目錄
+## Índice
 {: .no_toc .text-delta }
 
 1. TOC
@@ -25,7 +25,7 @@ indication_count: 4
 
 <div id="pharmacist">
 
-## 藥師評估報告
+## Informe de evaluación farmacéutica
 
 </div>
 
@@ -112,10 +112,10 @@ La predicción de TxGNN para hipertiroidismo carece de respaldo biológico direc
 - Revisión mecanística formal del papel de CDK4/6 en la fisiopatología del hipertiroidismo (incluyendo enfermedad de Graves y bocio nodular tóxico)
 - Datos completos del mecanismo de acción (MOA) de palbociclib con fuente DrugBank o literatura primaria
 - Información de seguridad oficial (advertencias, contraindicaciones) del prospecto aprobado por FDA o EMA, ante la ausencia de registro INVIMA
-## Disclaimer
+## Descargo de responsabilidad
 
-This content is for research purposes only and does not constitute medical advice.
-Clinical validation is required before any clinical application.
+Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
+Se requiere validación clínica antes de cualquier aplicación clínica.
 
 ---
 
