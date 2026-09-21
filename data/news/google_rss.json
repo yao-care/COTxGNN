@@ -1,15 +1,15 @@
 {
-  "fetched_at": "2026-09-21T20:47:44.636582+00:00",
+  "fetched_at": "2026-09-21T23:50:21.433324+00:00",
   "source": "Google News Health RSS",
   "count": 100,
   "articles": [
     {
-      "id": "4d6ac0043243",
-      "title": "Autoridades de salud exigen entrega oportuna de medicamentos a usuarios de Nueva EPS en Manizales - centrodeinformacion.manizales.gov.co",
+      "id": "c1f83520ffb0",
+      "title": "Autoridades de salud exigen entrega oportuna de medicamentos a usuarios de Nueva EPS en Manizales - Centro de Información – Alcaldía de Manizales",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbU1YRTRTUG4zOUdqVXVlZXVCZUhwRkF3VU1PRDBUYVRZWER0bHoxTUNkeVRlNVJUQ2pDX3V4VFFNMUpncE9iVHVIcUJEcDIzc2tzSFpzNmZ5VlV4RG40bEVPN0lPdEJ6ZWhUT1NRVFFNaXlIa0d2MWM2WlRKVElkdjF3dFhqR1pPeDdNd0F3WGpiMXJjeUFoUmlCNnRsSG04T2xWblU3dnR0alhtczJmVHlaR0JLeGxXN0hncTFncl9DN3ZBUXIwZXNBNVN3Znh1ejQ1aW1iN1AwcG8?oc=5",
       "published": "2026-09-21T15:46:05+00:00",
       "source": {
-        "name": "centrodeinformacion.manizales.gov.co",
+        "name": "Centro de Información – Alcaldía de Manizales",
         "url": "https://centrodeinformacion.manizales.gov.co"
       }
     },
@@ -74,13 +74,23 @@
       }
     },
     {
-      "id": "327a3499c820",
-      "title": "Medicamentos importados concentran el 85,7 % del gasto farmacéutico en Colombia - eldiario.com.co",
+      "id": "cef4253efe5f",
+      "title": "Medicamentos importados concentran el 85,7 % del gasto farmacéutico en Colombia - El Diario - Noticias Pereira, Colombia y el Mundo",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWVRhSDlWQVVmT0U1cUEwN1NxblRmcGV3NkJLRE4zRHlYRW55T2lXVF9rT1JKVkVoSEdDR18wUHZHYnBZTmtOZDBDUVFkajNKbjQ2dlY5VHdsbGdpc2xVU2tuYTR5OVhkMFE0QWJaa0t3MjFIWmRYVHVQcm1FTk5NY2drWExfM2JwaTE5akZ5REdBX1djVENhRzZNaWIwS29GUVBrWUZxY0dqaEJtVDN4YWRJRXd6ZnpN?oc=5",
       "published": "2026-09-21T20:07:38+00:00",
       "source": {
-        "name": "eldiario.com.co",
+        "name": "El Diario - Noticias Pereira, Colombia y el Mundo",
         "url": "https://www.eldiario.com.co"
+      }
+    },
+    {
+      "id": "26c8bb5a3676",
+      "title": "El lío con los nuevos medicamentos de control especial que llevó a Minsalud a tomar medidas - elespectador.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTjQ3QjFFZ2xzVlh4MjdMaXRPa19uaHJKWW92ek5OZEJZaHJTa1FNTHVfWGxwMXlJTDBFeWphSDlCYW9veFA3bHNzUmRsS1ZwcDFuVUh1clc3OVFrWE5EQmY2dEZsQWhQYWF3WTBkbWpOV2x1ZF9rMy15Z3U2NHpRVGVjRTdEZzd1RVZ0eDRBNk9hdG1vZE5aZHpsZEg2Tm5fQUhndDV3WlRhUURHR3pkNGFyYzFIcUtpNzU0S19qUdIB0wFBVV95cUxOMklTaWxLUmFDZXVoNjV3SFhtdFRzTlJkQWR0aUR3ZUF5elBoaDUwVVZNLW5GcEllMGZfeFkyTkppUWVLNi1zMlNjeG9tVVFtT1RfQXkxTUZMUFpEWXFYc0RDVU1oUXIzUW4zOWtsQzF6LW9QMjI1eTdGaFJRVHlqSEhNQXJfUDdfMVE3eUhFYXFfRTlDR3FZazZfU1Q0WDU0QzNHdjMybTI4Rlp3TFBTOW5BSFJBVnFUazJxbDFoanJ0UlpvcVZCRmZHM2xUOXhRX3Fn?oc=5",
+      "published": "2026-09-18T10:27:00+00:00",
+      "source": {
+        "name": "elespectador.com",
+        "url": "https://www.elespectador.com"
       }
     },
     {
@@ -94,13 +104,13 @@
       }
     },
     {
-      "id": "26c8bb5a3676",
-      "title": "El lío con los nuevos medicamentos de control especial que llevó a Minsalud a tomar medidas - elespectador.com",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTjQ3QjFFZ2xzVlh4MjdMaXRPa19uaHJKWW92ek5OZEJZaHJTa1FNTHVfWGxwMXlJTDBFeWphSDlCYW9veFA3bHNzUmRsS1ZwcDFuVUh1clc3OVFrWE5EQmY2dEZsQWhQYWF3WTBkbWpOV2x1ZF9rMy15Z3U2NHpRVGVjRTdEZzd1RVZ0eDRBNk9hdG1vZE5aZHpsZEg2Tm5fQUhndDV3WlRhUURHR3pkNGFyYzFIcUtpNzU0S19qUdIB0wFBVV95cUxOMklTaWxLUmFDZXVoNjV3SFhtdFRzTlJkQWR0aUR3ZUF5elBoaDUwVVZNLW5GcEllMGZfeFkyTkppUWVLNi1zMlNjeG9tVVFtT1RfQXkxTUZMUFpEWXFYc0RDVU1oUXIzUW4zOWtsQzF6LW9QMjI1eTdGaFJRVHlqSEhNQXJfUDdfMVE3eUhFYXFfRTlDR3FZazZfU1Q0WDU0QzNHdjMybTI4Rlp3TFBTOW5BSFJBVnFUazJxbDFoanJ0UlpvcVZCRmZHM2xUOXhRX3Fn?oc=5",
-      "published": "2026-09-18T10:27:00+00:00",
+      "id": "505b8bb67ed1",
+      "title": "¿Dolor de garganta o gripa?: estas son las razones para no tomar antibióticos sin orientación médica - La Patria",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcU1xZ1ZCanE2V2ZTeVZpYmxFX21aSkdYTVhEM0draV8yMkV2TFE1UHNMZFh0b0dVYVY4Z1VSM1JRN213RmVGbEgyZno4OHF3dTZ4VExDeEtkc3ZGbnFoSndmS1gwWkxmN1lkWmttOThWdm5aQ2x4QWpFdXljNnN1N1RxOTZOOG9NeEZQWFZxYjNJNDU0U1E5OFdaQWV2NU41VmFjRWU3eU1NNnM2X0ZjaWJQNzJqQTRsYUd4NVNn?oc=5",
+      "published": "2026-09-21T19:36:59+00:00",
       "source": {
-        "name": "elespectador.com",
-        "url": "https://www.elespectador.com"
+        "name": "La Patria",
+        "url": "https://www.lapatria.com"
       }
     },
     {
@@ -124,6 +134,16 @@
       }
     },
     {
+      "id": "fc3f73335554",
+      "title": "Presupuesto de Salud para 2027 prioriza medicamentos y compromisos financieros - La Nación",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcHpYMlVSQ0preHZNclNkdTVDZ05qZ3VPV3duS3B4SDJRMFdHT0k5dFctWUZBSFJ4bERjOXBza0x1SS05NWVZUUN1YkRZQ2p4dmtzd25FeVNHR2pBNjQxSERmUFlwWXpBU3hrNkEwMk1pY1F1b0J1bTFDUl9ZV2tCZy1Tb2VsLXFLdnNscnlGekdpLURwQ3pDMGcyVTdDbXFja2IzS2JpVU91TUpiRUpiUFlSZW1KNVVzeTY1LUItWDJTb2liaXc?oc=5",
+      "published": "2026-09-21T20:07:06+00:00",
+      "source": {
+        "name": "La Nación",
+        "url": "https://www.lanacion.com.py"
+      }
+    },
+    {
       "id": "4888118198b9",
       "title": "Demandan a fabricantes de medicamentos GLP-1 por causar problemas de visión y ceguera - Univision",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPUlcxcEZzemlfQVJpa2tJd29Td0hIbExIX3VoQmpIV2poLVh2NVpPaW9veF91N0h6UG1CZ3dlREhzbGpTMkFFWVpqa0I5clFSbk43RzBGOG1zUDVFRzM2a3VBd2pTczhvNmpfTUc0YUloUFVjYUh6aWJzbndmSDBybDhEUHVmeG5HX3dWZWwzV05pY2lyb0Y5WUdtN0dQaTlJbGR0NTNpUzZ3OHRESFBGOHQwMkFxVnIyYUZaazUwMElwX3laOGVpVTRlczlKekhnckNjcnZNcjlTZw?oc=5",
@@ -131,16 +151,6 @@
       "source": {
         "name": "Univision",
         "url": "https://www.univision.com"
-      }
-    },
-    {
-      "id": "1f25ae193906",
-      "title": "Invima alerta por 49 medicamentos y suplementos fraudulentos vendidos por internet - Noticias RCN",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdHZaUTU1dEFJRFBhM0pJR3RjWHFsbE9NbTNLZHVKcmRldUFmY3ZRMWh3R0R2cDR4QlJoazc0UTlmQXVDd2hvNHlINFF4NXBpNzJtMVVsZmZCa1h6NklJMGxlSEVRTEprLWJyOE1XWFMyTENFMjgtMU5aX1NWM2d0dzE0MGU1RmpzUnZ3OFB0OFRCRlhPbVB0SjBHN1h6QWI2NjNaS0c2WGlXbVVkcC1tVk4zR2Z5OUkzUlh2NmJKclo5Yzc0cTVYN2FUZ2xlak9BQ3fSAdIBQVVfeXFMUEx5RnMzY1VWUEpfYVZDT3RDVkw3c3g1cG1uNW41Mm5EZHBBZjZ3QzZ1OVMyYk5KdjF1d3BiZ2JNSDR5cUItY1ctXzR0RFpTcDNybWdYWThidjJteUNZNVVpQzRmRWxXSy1EV0lUSDlFVE9RTWJ1amtIRF9jQUNLTTJEU2R2b1BHc1F4Rl9oZEZBbDhfamVvbnE1cjlXMkxqODFzTjNabzZPcmZNTmhfZzNPNnBhQXk0Q2tpZTN2bHlxYzJVaGxhSldPQlZXWDRUbHFR?oc=5",
-      "published": "2026-09-21T13:48:52+00:00",
-      "source": {
-        "name": "Noticias RCN",
-        "url": "https://www.noticiasrcn.com"
       }
     },
     {
@@ -154,16 +164,6 @@
       }
     },
     {
-      "id": "4dc765666ebb",
-      "title": "Qué competencias tienen los farmacéuticos europeos frente al modelo español - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeTBvV1pNd0Z6UXYybWVESkhOUTdSWU1HaW5hM0QxaWgzbjdrcXMwd185cEs0SlI2Sm85bVUxa2FTcFpaeXpxWnZROHRsMEFVZDZNNHNWQnNtTE44OTZJMndoWFpDMlBmU2FBSmphYWNtMW1sN3otcG5vaDc0TWgwNE10Y2pMQUktWlo5NUR6eklHdG1Sc09SSA?oc=5",
-      "published": "2026-09-21T07:20:42+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
-      }
-    },
-    {
       "id": "a3483f804a7e",
       "title": "La EMA y HMA abren el proceso de comentarios sobre la nueva guía de EU-IN para investigadores - El Globalfarma",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSE5PY3dzU3NBZ3ZjOEJROWtEU3hBTWdUUWg4Rk1zX3h5OTVtYk9CblBQYkRSM19FRzhpSTF5MmVYLUdzSVZiVUxrVU4tc29hU2tEVHhYRC02a1dnVm9GZGJ0SjhzdXh3WXA4MHYydUpfWjNnRTg1bnZzc1JkR19ENGRGeGhudFg2cFRhY1ZkRWk2ZmMyVUlHUmp1SUxCZXJmdXNZ?oc=5",
@@ -174,10 +174,10 @@
       }
     },
     {
-      "id": "95388ad44804",
-      "title": "SIGRE: 25 años convirtiendo los ODS en acción - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPU3QxT0dWUHZMLTg0UGFKTnVuTWxXUVdKc2ZuZnlyMTlCcUlJbXpfVTBoUzFtbUFxb0pRdXRFVTFGUmo1OGtXUGVGd1FPekM3eTREcEtzS3lZVDJBYUtMNW5lb0JIUzRxdGUzbm9XdGUyaGxhdWo2VG1QVjFaUWFLUjdpUzhxNjRNWXc?oc=5",
-      "published": "2026-09-21T15:27:11+00:00",
+      "id": "4dc765666ebb",
+      "title": "Qué competencias tienen los farmacéuticos europeos frente al modelo español - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeTBvV1pNd0Z6UXYybWVESkhOUTdSWU1HaW5hM0QxaWgzbjdrcXMwd185cEs0SlI2Sm85bVUxa2FTcFpaeXpxWnZROHRsMEFVZDZNNHNWQnNtTE44OTZJMndoWFpDMlBmU2FBSmphYWNtMW1sN3otcG5vaDc0TWgwNE10Y2pMQUktWlo5NUR6eklHdG1Sc09SSA?oc=5",
+      "published": "2026-09-21T07:20:42+00:00",
       "source": {
         "name": "El Globalfarma",
         "url": "https://elglobalfarma.com"
@@ -194,23 +194,13 @@
       }
     },
     {
-      "id": "372d777547ef",
-      "title": "Salud Municipal concretó una jornada de acceso gratuito a medicamentos destinados a tratamientos de enfermedades crónicas - comodoro.gov.ar",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMGdUY3NVWDdTam9JNWlWclhfOTJRZzBnR2JfLWYtV1RJNm5HbUU2N2NBTGgtTGphUXRRV3hBV01uZ20zOGUtVjVmZGRITXRpTVByaHlxWk80TndZM2RjZnMtWkdQNjJYN0NtelRYQjc1aWZaNnp3M09CRUpnZWVIRnB6SW9Zcld0UTdPY2RnUXhwZEU2ZlVta2xUZ24xdG1NNGVZUG1OUldOMENPQ3Rkc0x3bERaY1UzR19xWVpKUzdvV0ZrYVF5OGxZWXVDREtFb0NmX0poMlRORHVlcktidXhPb0RZcUZGWjhnRTVyR0dqWkk?oc=5",
-      "published": "2026-09-21T19:43:09+00:00",
+      "id": "1f25ae193906",
+      "title": "Invima alerta por 49 medicamentos y suplementos fraudulentos vendidos por internet - Noticias RCN",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdHZaUTU1dEFJRFBhM0pJR3RjWHFsbE9NbTNLZHVKcmRldUFmY3ZRMWh3R0R2cDR4QlJoazc0UTlmQXVDd2hvNHlINFF4NXBpNzJtMVVsZmZCa1h6NklJMGxlSEVRTEprLWJyOE1XWFMyTENFMjgtMU5aX1NWM2d0dzE0MGU1RmpzUnZ3OFB0OFRCRlhPbVB0SjBHN1h6QWI2NjNaS0c2WGlXbVVkcC1tVk4zR2Z5OUkzUlh2NmJKclo5Yzc0cTVYN2FUZ2xlak9BQ3fSAdIBQVVfeXFMUEx5RnMzY1VWUEpfYVZDT3RDVkw3c3g1cG1uNW41Mm5EZHBBZjZ3QzZ1OVMyYk5KdjF1d3BiZ2JNSDR5cUItY1ctXzR0RFpTcDNybWdYWThidjJteUNZNVVpQzRmRWxXSy1EV0lUSDlFVE9RTWJ1amtIRF9jQUNLTTJEU2R2b1BHc1F4Rl9oZEZBbDhfamVvbnE1cjlXMkxqODFzTjNabzZPcmZNTmhfZzNPNnBhQXk0Q2tpZTN2bHlxYzJVaGxhSldPQlZXWDRUbHFR?oc=5",
+      "published": "2026-09-21T13:48:52+00:00",
       "source": {
-        "name": "comodoro.gov.ar",
-        "url": "https://www.comodoro.gov.ar"
-      }
-    },
-    {
-      "id": "0d3e4a0293f1",
-      "title": "Directiva de Aguas Residuales: el sector farmacéutico y de autocuidado cifra en 201 millones anuales el coste del nuevo tratamiento cuaternario - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUhIUnFKU2ZRcE9NdGF3Y214emc5MUpRRFM2ckZncUg2N2hrQi1Va3VIRGxZc2tMdFlId1NzV3NNWi1CNTZ1ZERLRlo5a2pvOUFuVFR6UmZoMmtYdVpWbWdpbDVSanowV1dSSlZxWXl1UVBKUmczYWItUHFEVUFJRDRPVHUwdGdOeURfQmsxaHpGdGktdjE5TmVEZUdYZGI0NlozYkprNWtvQ3ZCbTYwclVYRFlRNGpBT2M5X19vTVljWHVmdFhaWTB4TjB4OUFVYmdF?oc=5",
-      "published": "2026-09-21T12:32:50+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
+        "name": "Noticias RCN",
+        "url": "https://www.noticiasrcn.com"
       }
     },
     {
@@ -224,23 +214,13 @@
       }
     },
     {
-      "id": "73028d159b83",
-      "title": "Día Mundial del Farmacéutico: visibilizar su papel esencial en la salud y el bienestar de la población - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNjU5Zkt5NUJnMzRWR19OUWZVWi1UMmNha1EzaDZHeEJyb2ZuRWQ1NVpaMGlSaUR1VHA1TU5ONEx3TjI2b1FsNVBQYXdKMDVpVzB5MGV1Y1RBTXQxaVJhdHZRSURfV2hTbkozRlQ4M0FFbk5rM25iSEUtWmp6aFRTeWExczJnbHRsSXB0S1kweEE0SUktVnY4YU5BejdMQUFlUVRXWF9pOW5Wd1RQLVMtSFdBYmNvb2dDZWFCbE1YTkVuT3A0Vk5Fcmx2ZjN0aGdoVUE?oc=5",
-      "published": "2026-09-21T12:12:22+00:00",
+      "id": "372d777547ef",
+      "title": "Salud Municipal concretó una jornada de acceso gratuito a medicamentos destinados a tratamientos de enfermedades crónicas - comodoro.gov.ar",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMGdUY3NVWDdTam9JNWlWclhfOTJRZzBnR2JfLWYtV1RJNm5HbUU2N2NBTGgtTGphUXRRV3hBV01uZ20zOGUtVjVmZGRITXRpTVByaHlxWk80TndZM2RjZnMtWkdQNjJYN0NtelRYQjc1aWZaNnp3M09CRUpnZWVIRnB6SW9Zcld0UTdPY2RnUXhwZEU2ZlVta2xUZ24xdG1NNGVZUG1OUldOMENPQ3Rkc0x3bERaY1UzR19xWVpKUzdvV0ZrYVF5OGxZWXVDREtFb0NmX0poMlRORHVlcktidXhPb0RZcUZGWjhnRTVyR0dqWkk?oc=5",
+      "published": "2026-09-21T19:43:09+00:00",
       "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
-      }
-    },
-    {
-      "id": "e3e9a61caae0",
-      "title": "El CHMP recomienda la autorización de Tecvayli para mieloma múltiple en recaída o refractario que han recibido al menos un tratamiento previo - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcU5IejNIZ19TRjU2MDdPSzlRSHBlRmlidTdJY1o2blRnY3JiNEZ4c0JoeS00cWdpdzF6QlprTkVZdVVFMU9kVzhQMXk3bTZ4OWtiSmFkMktDSkFjZ2tBTF9YVnZBdDRESkZRbnRuRG9ZZHhjaFlSamJSeUtDaUd4dDI5dzdzcHE5NTNoZ1lrUmpVV0w4Zlp1cWhFQmJYZWEwMl80RHBsY2NWUkVUZURmQU4wakowbkJyVndFZjJ2NVpaeFJablRVR2ZVSjIyN0k5VGNlYkgtNXpfQ2Y2WDVsaVdLY0ZtQQ?oc=5",
-      "published": "2026-09-21T10:10:25+00:00",
-      "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
+        "name": "comodoro.gov.ar",
+        "url": "https://www.comodoro.gov.ar"
       }
     },
     {
@@ -264,13 +244,33 @@
       }
     },
     {
-      "id": "78175f6a3610",
-      "title": "Más de 2,6 millones de medicamentos e insumos llegan a hospitales y centros de salud de Guayas - Eloriente.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGwxZ2RTVTQ0Y1lNal8zbTFLOE5seEFUMVczMGFjbE8zRzhqVkZZUWdrSHRoaGtvR1dpbDlvTE9FY2g1b2xzWUY2N3FENWNxTUVidFk1WlROSDlxMlJpcVdyY1llMG1QanNzOUxJRnJDMFFBdmRjanZ1ZmpHNTF0UnZoaWFkUE56LVEzd3FFVjVKc2xkNHVOc1pmRG94dGl2aGdfUllmZVZ3VWRKUS0wUg?oc=5",
-      "published": "2026-09-21T16:32:23+00:00",
+      "id": "0d3e4a0293f1",
+      "title": "Directiva de Aguas Residuales: el sector farmacéutico y de autocuidado cifra en 201 millones anuales el coste del nuevo tratamiento cuaternario - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObUhIUnFKU2ZRcE9NdGF3Y214emc5MUpRRFM2ckZncUg2N2hrQi1Va3VIRGxZc2tMdFlId1NzV3NNWi1CNTZ1ZERLRlo5a2pvOUFuVFR6UmZoMmtYdVpWbWdpbDVSanowV1dSSlZxWXl1UVBKUmczYWItUHFEVUFJRDRPVHUwdGdOeURfQmsxaHpGdGktdjE5TmVEZUdYZGI0NlozYkprNWtvQ3ZCbTYwclVYRFlRNGpBT2M5X19vTVljWHVmdFhaWTB4TjB4OUFVYmdF?oc=5",
+      "published": "2026-09-21T12:32:50+00:00",
       "source": {
-        "name": "Eloriente.com",
-        "url": "https://www.eloriente.com"
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
+      "id": "73028d159b83",
+      "title": "Día Mundial del Farmacéutico: visibilizar su papel esencial en la salud y el bienestar de la población - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNjU5Zkt5NUJnMzRWR19OUWZVWi1UMmNha1EzaDZHeEJyb2ZuRWQ1NVpaMGlSaUR1VHA1TU5ONEx3TjI2b1FsNVBQYXdKMDVpVzB5MGV1Y1RBTXQxaVJhdHZRSURfV2hTbkozRlQ4M0FFbk5rM25iSEUtWmp6aFRTeWExczJnbHRsSXB0S1kweEE0SUktVnY4YU5BejdMQUFlUVRXWF9pOW5Wd1RQLVMtSFdBYmNvb2dDZWFCbE1YTkVuT3A0Vk5Fcmx2ZjN0aGdoVUE?oc=5",
+      "published": "2026-09-21T12:12:22+00:00",
+      "source": {
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
+      }
+    },
+    {
+      "id": "e3e9a61caae0",
+      "title": "El CHMP recomienda la autorización de Tecvayli para mieloma múltiple en recaída o refractario que han recibido al menos un tratamiento previo - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOcU5IejNIZ19TRjU2MDdPSzlRSHBlRmlidTdJY1o2blRnY3JiNEZ4c0JoeS00cWdpdzF6QlprTkVZdVVFMU9kVzhQMXk3bTZ4OWtiSmFkMktDSkFjZ2tBTF9YVnZBdDRESkZRbnRuRG9ZZHhjaFlSamJSeUtDaUd4dDI5dzdzcHE5NTNoZ1lrUmpVV0w4Zlp1cWhFQmJYZWEwMl80RHBsY2NWUkVUZURmQU4wakowbkJyVndFZjJ2NVpaeFJablRVR2ZVSjIyN0k5VGNlYkgtNXpfQ2Y2WDVsaVdLY0ZtQQ?oc=5",
+      "published": "2026-09-21T10:10:25+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
       }
     },
     {
@@ -294,33 +294,23 @@
       }
     },
     {
-      "id": "7defec48ec75",
-      "title": "Cofares lanza el spot ‘Donde otros no llegan’ para poner en valor la contribución de sus cerca de 12.000 socios - El Globalfarma",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckxMaThzVHBuSTV0bFdrUnVQUmZ4MHBZVWdyNXBjVzFkeGhOUmctcG5ES3NaNFJ4YmhQb09oZHJST1hlVHhtb0ExVnRYVjVxSzlQeFA4Tm0xQktwNV95cTJGZDZzeldwajd0QTg0VF9LRHBUcG8tZVZhbG4xQ1RFbjVQbk9Uamp6Wnd2RmhqbGRBSENZaUZaYXF1X01teVN3azI1Ug?oc=5",
-      "published": "2026-09-21T15:07:55+00:00",
+      "id": "cfe9531fd7ad",
+      "title": "Más de 2,6 millones de medicamentos e insumos llegan a hospitales y centros de salud de Guayas - ElOriente.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeGwxZ2RTVTQ0Y1lNal8zbTFLOE5seEFUMVczMGFjbE8zRzhqVkZZUWdrSHRoaGtvR1dpbDlvTE9FY2g1b2xzWUY2N3FENWNxTUVidFk1WlROSDlxMlJpcVdyY1llMG1QanNzOUxJRnJDMFFBdmRjanZ1ZmpHNTF0UnZoaWFkUE56LVEzd3FFVjVKc2xkNHVOc1pmRG94dGl2aGdfUllmZVZ3VWRKUS0wUg?oc=5",
+      "published": "2026-09-21T16:32:23+00:00",
       "source": {
-        "name": "El Globalfarma",
-        "url": "https://elglobalfarma.com"
+        "name": "ElOriente.com",
+        "url": "https://www.eloriente.com"
       }
     },
     {
-      "id": "e0c332a48e14",
-      "title": "Salud implementó un nuevo vademécum para optimizar la compra de medicamentos en Chubut - Canal 12 Web",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3lYeEh0eG5DMnBjY1R3b0gwclAyY084eVRJSWRDak1Jd2J3SzdkNGRxWHB1ZkRPUEdOTkIyQWhCckZfVVZOVjFxQmRMLVZQX3hKM0VmVlAtSTktOF9qZXIxSGZSUWc1MXlpVFlxaVBCODdzN3ViZFVESk44QnJtUzd2RzNzWlRrQVRQVDdYUWZ4NkxoVnZxSzdUclFjaDNzQTBMYTROSl9ycmRxd2sw?oc=5",
-      "published": "2026-09-21T13:57:33+00:00",
+      "id": "7f0a58abac05",
+      "title": "Diabetes, presión y obesidad: el mercado ilegal de medicamentos ya vale $38 mil 500 millones - sumedico.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNR3NPVkpGYVc3cGpaVDI5ZEVGcFJsSzh2ZXM5T1VKZGpNQkVhOE4zVHpfTkpsaDRVRGxiall5dGNoa3VWY3UtaEFHa2dDZTRtdzNKTmlfWWRud1l2cjF2ZTJOUDZIS1FMTWRrblE3bUdQRmtNODFnd0JseDNFRTI0NnJFcWtaVFYwNHNVeWEweXR5cTV4STEyTGF2QUJiOEJwU0RGTUxFdnNNRnBHVzVMNnFydGktUmpuT3RxWnVMUUJzUjkwLVVwemxtczVUVTZadC1DUzFTemlaU0ZpTmRrZThXcw?oc=5",
+      "published": "2026-09-21T21:51:00+00:00",
       "source": {
-        "name": "Canal 12 Web",
-        "url": "https://canal12web.com"
-      }
-    },
-    {
-      "id": "fc3f73335554",
-      "title": "Presupuesto de Salud para 2027 prioriza medicamentos y compromisos financieros - La Nación",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcHpYMlVSQ0preHZNclNkdTVDZ05qZ3VPV3duS3B4SDJRMFdHT0k5dFctWUZBSFJ4bERjOXBza0x1SS05NWVZUUN1YkRZQ2p4dmtzd25FeVNHR2pBNjQxSERmUFlwWXpBU3hrNkEwMk1pY1F1b0J1bTFDUl9ZV2tCZy1Tb2VsLXFLdnNscnlGekdpLURwQ3pDMGcyVTdDbXFja2IzS2JpVU91TUpiRUpiUFlSZW1KNVVzeTY1LUItWDJTb2liaXc?oc=5",
-      "published": "2026-09-21T20:03:45+00:00",
-      "source": {
-        "name": "La Nación",
-        "url": "https://www.lanacion.com.py"
+        "name": "sumedico.com",
+        "url": "http://www.sumedico.com"
       }
     },
     {
@@ -374,6 +364,16 @@
       }
     },
     {
+      "id": "7defec48ec75",
+      "title": "Cofares lanza el spot ‘Donde otros no llegan’ para poner en valor la contribución de sus cerca de 12.000 socios - El Globalfarma",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckxMaThzVHBuSTV0bFdrUnVQUmZ4MHBZVWdyNXBjVzFkeGhOUmctcG5ES3NaNFJ4YmhQb09oZHJST1hlVHhtb0ExVnRYVjVxSzlQeFA4Tm0xQktwNV95cTJGZDZzeldwajd0QTg0VF9LRHBUcG8tZVZhbG4xQ1RFbjVQbk9Uamp6Wnd2RmhqbGRBSENZaUZaYXF1X01teVN3azI1Ug?oc=5",
+      "published": "2026-09-21T15:07:55+00:00",
+      "source": {
+        "name": "El Globalfarma",
+        "url": "https://elglobalfarma.com"
+      }
+    },
+    {
       "id": "d27c81bb0f74",
       "title": "Salud del Valle inicia segunda fase de atención para estabilizar pacientes, garantizar tratamientos y medicamentos - Gobernación del valle",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOTzQ4WjNHVnNvNzZWSnE4MC1BTldrUG1wa3BNT0JySEhFUHpoXzVIeWVHeV9YVHc0ZThPTnNacW9sWVZNWUx2SVpDWjhpUFNoLTFRcjFEaDQwVno4d09RNGdseWFYMTFSZjF1SjhRbTZXWDJCYWtFV2FSN3ZONGRaSmZ2TjloLWdTMlRUVkZPVUJnd1h0emNRV1IxZzZ6SzVZWGh1cC1yYmVKY01zVTE5YmJHWU9rNXIzaTh6SW9GTi1IZEEta2JwV0RrN1czX3ZfV2pibml5WGgySlIxUTZwSmlRTHBMMjMtb0J5OHF5Rl9MTy1fTWM5bndIMA?oc=5",
@@ -381,6 +381,16 @@
       "source": {
         "name": "Gobernación del valle",
         "url": "https://www.valledelcauca.gov.co"
+      }
+    },
+    {
+      "id": "c3a0fff1f61f",
+      "title": "Inspecciones sorpresa buscan agilizar entrega de medicamentos e insumos a pacientes de Manizales - Centro de Información – Alcaldía de Manizales",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOajVfV3B0bzh2RDBrMldjREdMay1PaXY0cGxuLTlZV2JJYlpWZE42RzlaZHM3WXdJdVg5UlR2ZkxQTzNrVEZsUm0xcmVGNDl2NGoxWEFuTGlPdVFxbkU5XzZ0eUVEVjlUNHQ0ZVNlR3RtMi1Hc0ZwN29jemV0bmZ5NEZfN29tMU9hcDN2NnlWYnhTV29KWnc4by00dlhfM3ZPVVhJQl9lTXdqT0ZkWDRiZ1JxbFVETEFEOEVkTUR6R0d0S1JVN0tXN2d6Z3h5dVFmQktkTlFrektvQQ?oc=5",
+      "published": "2026-05-21T07:00:00+00:00",
+      "source": {
+        "name": "Centro de Información – Alcaldía de Manizales",
+        "url": "https://centrodeinformacion.manizales.gov.co"
       }
     },
     {
@@ -394,22 +404,52 @@
       }
     },
     {
-      "id": "5519e5b17d6e",
-      "title": "Secretaría de Salud de Manizales mantiene seguimiento a entrega de medicamentos de las EPS - centrodeinformacion.manizales.gov.co",
+      "id": "e0c332a48e14",
+      "title": "Salud implementó un nuevo vademécum para optimizar la compra de medicamentos en Chubut - Canal 12 Web",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQR3lYeEh0eG5DMnBjY1R3b0gwclAyY084eVRJSWRDak1Jd2J3SzdkNGRxWHB1ZkRPUEdOTkIyQWhCckZfVVZOVjFxQmRMLVZQX3hKM0VmVlAtSTktOF9qZXIxSGZSUWc1MXlpVFlxaVBCODdzN3ViZFVESk44QnJtUzd2RzNzWlRrQVRQVDdYUWZ4NkxoVnZxSzdUclFjaDNzQTBMYTROSl9ycmRxd2sw?oc=5",
+      "published": "2026-09-21T13:57:33+00:00",
+      "source": {
+        "name": "Canal 12 Web",
+        "url": "https://canal12web.com"
+      }
+    },
+    {
+      "id": "e95e695f6429",
+      "title": "Gasto en salud supera 35% del ingreso familiar y lleva a buscar medicinas en marketplaces y tianguis - El Economista",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNSG9RMEFtR1VOZC1ySlRlZWdRSnFiRnJLUTA0dUJoU0JQN0UxT1R6WnM3VlE5MHVpRmJMLU94d3FTZ3JRbmhQOW0wallyblpkSDRIUk5tSGNuRnFTQzJNSDJyaVVyclBCTXNVWG5qcXNFNmwyeXR0Vlo5aG9RV1kwQzJBQ2FOR0VMamtqdnFBRkpSYWZFaTRVQUU3YWdjYXpzSXdzcnJReHZ3X0FIQ1RQc24zWV9xY2czXzJCckN5SGpUZ011Tngyc0QyeFl5YUJEOU5CbGJCc0V5QnhJLXfSAeMBQVVfeXFMT3drZW0zZGtqbE01cklCaVZBVXJERDJ3VDFWNTAwWG1wMmRVanZURHNsRjdsSjdYN2h3Zm9GeEw5WkR1cExsV285VXg4UVZERFF6SDlxNHJHRllYNlNQRjBUd0tQNVVZa3FRelRDNlA5Nko4NkxDQ3lIbS1EaElDeDhIMFlHSXEwNkw1TGNFWXVQQjFGUUVscXZJSzhDOE44NDR1eFV1S19sNHJoc2hHdUFvb1VWNWtjNUV0cFlvSkE1NUlEcnZFM2FMNjdrWkV6MWN5VFhUS3J6aDFDRnhxeGJSWUE?oc=5",
+      "published": "2026-09-21T21:46:22+00:00",
+      "source": {
+        "name": "El Economista",
+        "url": "https://www.eleconomista.com.mx"
+      }
+    },
+    {
+      "id": "ae2e19f5d4b3",
+      "title": "Medicamentos pirata, sin control en las redes sociales - El Sol de México",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR3FQek1ZeFdENGNKcUdDMzduVE9ITnMyTTBWOHM4a3lPMmpsRlpoTkdPbWVfdHlBcS14RzZSUW1ubUtXN2RQVmtvOEE5NWMxSklJQ09QZGZVRzJpZUFMRkJaQlZZZlRXc0FRWWZqX2ZscVhtUnp5dWhwdGRzZzRPNUd1VEJ4dWFqQjZhaENCcktORTBqcHVmcEFnWlJmTGFfd3lQVHUxS3VzOWs?oc=5",
+      "published": "2026-09-21T21:00:00+00:00",
+      "source": {
+        "name": "El Sol de México",
+        "url": "https://oem.com.mx"
+      }
+    },
+    {
+      "id": "fb48ba6a7aee",
+      "title": "Secretaría de Salud de Manizales mantiene seguimiento a entrega de medicamentos de las EPS - Centro de Información – Alcaldía de Manizales",
       "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNVTJSZTZzOXlyTXN3ZmJjVjhSdkFuRmtvVUlScTlDVjByN2V1bFZlTkRmM1c0X1E2MGxTbk9vWW1pbjAycjJ2S0ZlOUVxUjE3TkRmVDM1bG93MUVQTGtqOHRLRlFHeHhiSlVzbm5JSFZOcWdlLVRLVTNlN3ZiSnQ5VWc3djBDZUtPbWpoNGFIcDBhUGVPSFN3a0IzcE0ybnNKaldFWEx1UDF0MVNkdm1ER0swby1xNF9pMTNIcE5QeUllbDBmeFBtcmpjS013RWFyeTlVRm5NaHlnU1UwZXBGUU5PSWNUcVItQ19DTEw0T0Q4QlRhWndoQXI5T3NxQ0E?oc=5",
       "published": "2026-06-12T07:00:00+00:00",
       "source": {
-        "name": "centrodeinformacion.manizales.gov.co",
+        "name": "Centro de Información – Alcaldía de Manizales",
         "url": "https://centrodeinformacion.manizales.gov.co"
       }
     },
     {
-      "id": "d56d6d0737ad",
-      "title": "Tips para donar medicamentos y elementos aseo por terremoto en Bogotá - bogota.gov.co",
+      "id": "06f1e20bc770",
+      "title": "Tips para donar medicamentos y elementos aseo por terremoto en Bogotá - Bogota.gov.co",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMTUwSm51ZUNrNlFneDk3RU02WHF0cTBDemhLcW9zMjRfQy1sX3FWUGQ3S3lacUc4SDFxN183cjEtc2JmcU1aVmx3b1psMkdsUTNjQlEzRzhWRnhQNXVTblIwLTZsOHZlQU9yUkVYSjkyNVQxV3dwNUp4T2V1cXJlaFJITzh4N2IwaWpjc21DeGxrYXlTdkRvWTZIOWRFeVpEX1RqWWZRVTJIajA?oc=5",
       "published": "2026-08-16T01:07:23+00:00",
       "source": {
-        "name": "bogota.gov.co",
+        "name": "Bogota.gov.co",
         "url": "https://bogota.gov.co"
       }
     },
@@ -444,16 +484,6 @@
       }
     },
     {
-      "id": "9a6ab1c0f8ca",
-      "title": "La ANMAT prohibió la venta y uso de un medicamento dermatológico - Infobae",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWk0tR1BRblBybS1vaWpHb1dWYjU3OVhPckVxeU5xZ0hzZ00xMGdqZVh6SC1aTmFLSzk0NWlYLVhCNC1pSEVnWUNEZHQ3U3ZsdER1bUN1YXlfMUJJaG9GQjZKRHpQamsyU1haNEd4NXB3bndOX3dKd1lyVnctZ0tjWGxrZ091Qk96ZGo1RmxKaUptQktJTGtxZFJqSVAyM0pJTF9rbVoxc1R2MDg0S0HSAcgBQVVfeXFMTlNta1VhOTZBQ3VjUm94LTRiSEVfRlJnN0dYNm9wemg1TXN6aUlUOE5zNGlncGJSNEI0RXBiU09FUW1pbDVrMTF1a3RRbFZTMV9Gdmh1SDFIM3RWZmg2Z295Qi1zak9CSl9CRExVVWw5Zk02d3ZSa2NZOWVnMnVBWjItQ2tjSUJ1cjNJMnpxd0tnS19HSi1RQ084R0x3LTF5VWhyWWp3MUY0a1cxSGNPYy1ERXc0anFIbVRZLWJYZGlyWndxZ3R4STQ?oc=5",
-      "published": "2026-09-21T08:26:00+00:00",
-      "source": {
-        "name": "Infobae",
-        "url": "https://www.infobae.com"
-      }
-    },
-    {
       "id": "d9cc5c82aaa7",
       "title": "IETS identifica registros de medicamentos pagados hasta 1.834 veces el precio máximo regulado - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9STlZGT2ZJTFNScFVRWTQyZHVqckt2YkJJdk1SQmYtOUF5MmVuQmtqaVVIQnllM3QteEpNY085UDBWX0dXTjlDVkxBa0E2UklwY2w5el81RUtOT00zQUl0MXJGNmhHcHo2NnE1QnY1TFJ1YTd4OXBJaVF3THo?oc=5",
@@ -461,6 +491,16 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "fd116dc10a38",
+      "title": "Comisión de DH en Veracruz atiende tres quejas por falta de medicamentos durante 2026 - La Jornada",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSml3V2FfNlllcUtzSF9saklNQ3o0eVpxTWt1aC02Vjd3ejJhVkd0TWRFZ3p3SlFKcWY1T0pGSnBLeXZja25CS00xY1A2WTFFbHVfT2E5ZkRGM0xkakRlclhxam1GaVc4QTlTTGpSVVFNSlltM0ZoU0g4NEV5Z0JEcmFNbkx1N05fcE9TWWMtSUdjRm9lM09hRVFETVc5ejAwZVM5WDFrY3EzcjhsSEV5em1IS1huRUVoellkOE41d3RIb3FiSThEdDYxeHJtb2JqREN3QWR3?oc=5",
+      "published": "2026-09-21T22:16:00+00:00",
+      "source": {
+        "name": "La Jornada",
+        "url": "https://www.jornada.com.mx"
       }
     },
     {
@@ -474,16 +514,6 @@
       }
     },
     {
-      "id": "68a0b5f82765",
-      "title": "Esta fue la última aparición pública de Presley Gerber abrazando a sus padres tras hablar sobre la salud mental: “Tomé medicamentos” - El Heraldo de México",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPMy1Wa3Q3QVdzUmJmc2ZOMkFjSFNYMlRtZXV6TlBMd1BtdlI4Nnc1MWMtS2liTlpqQlBGZlZZRmh3NjRHU2FYT1dhQ0ZoUGRXWXpLbzJybzl2bzRRQmhHVElDWDFCOW1obmdmbFlqcjRDSlZMdUVWZHN5UGY1Y1llbkRhY1ZiZUI2SHVfTU5ON1FNR0JpRWRIMTJKMW5oeGZmbjJrVXZ2ZTZIMTVBRnNockdMSmRNTF9UQU0yYllEQVNvR19QcExhbURlc0pOOGNiSkp3MEtCekwzbEN6Yi1YcUFwM08tbFZHaVhNUVZwSktuNFk5WXVXSEg3c0JmUEo2VzBiaU5ZRGdmWktCczBlZmdvRFU5RGctaDJjOGd3?oc=5",
-      "published": "2026-09-21T13:01:00+00:00",
-      "source": {
-        "name": "El Heraldo de México",
-        "url": "https://heraldodemexico.com.mx"
-      }
-    },
-    {
       "id": "bf3b2eae23a3",
       "title": "Supersalud pone en consulta el Plan 1000 para agilizar la entrega de medicamentos en farmacias críticas del país - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQcVNOTkY0bkpHTU45RWJsU29BT0lVSGQ2MUU4YkRtckNEOVNuWkxsTDZtZUNtUUFkZW8ybENldXhnWkRFNC1ZaGRuNWRQTDlkeDhpYl9MNmZZSHJwWk5JNHBiY1ZmcWhVN05OczE1YWtyam5aVHZwX0o2QVRmZFctMg?oc=5",
@@ -494,13 +524,23 @@
       }
     },
     {
-      "id": "cf06d0334cbb",
-      "title": "El Ministerio de Salud propone añadir 120 enfermedades más para las que se podrán expedir recetas ambulatorias con una validez máxima de 90 días. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOM2JsYjJYd2x3ZUFvVXdJVEZaMzQwZlpfNVJVYXB4VDF6T3BiaDVEcU9WanZiLTBrMTMtbmx2bnMwNmFQbWlXdGdlSjBacFBoNmhnSzYzR25xN1BnTWlmZ3JTRnk4dlNfeDdFQ21sMWxtaGNzX2lUQW1kLVFZWnRHYTI0ZHJIMnk2Vjd2RGxPS3hXQ203a0RrRnJMYVEtUQ?oc=5",
-      "published": "2026-09-21T12:08:20+00:00",
+      "id": "9a6ab1c0f8ca",
+      "title": "La ANMAT prohibió la venta y uso de un medicamento dermatológico - Infobae",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWk0tR1BRblBybS1vaWpHb1dWYjU3OVhPckVxeU5xZ0hzZ00xMGdqZVh6SC1aTmFLSzk0NWlYLVhCNC1pSEVnWUNEZHQ3U3ZsdER1bUN1YXlfMUJJaG9GQjZKRHpQamsyU1haNEd4NXB3bndOX3dKd1lyVnctZ0tjWGxrZ091Qk96ZGo1RmxKaUptQktJTGtxZFJqSVAyM0pJTF9rbVoxc1R2MDg0S0HSAcgBQVVfeXFMTlNta1VhOTZBQ3VjUm94LTRiSEVfRlJnN0dYNm9wemg1TXN6aUlUOE5zNGlncGJSNEI0RXBiU09FUW1pbDVrMTF1a3RRbFZTMV9Gdmh1SDFIM3RWZmg2Z295Qi1zak9CSl9CRExVVWw5Zk02d3ZSa2NZOWVnMnVBWjItQ2tjSUJ1cjNJMnpxd0tnS19HSi1RQ084R0x3LTF5VWhyWWp3MUY0a1cxSGNPYy1ERXc0anFIbVRZLWJYZGlyWndxZ3R4STQ?oc=5",
+      "published": "2026-09-21T08:26:00+00:00",
       "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Infobae",
+        "url": "https://www.infobae.com"
+      }
+    },
+    {
+      "id": "68a0b5f82765",
+      "title": "Esta fue la última aparición pública de Presley Gerber abrazando a sus padres tras hablar sobre la salud mental: “Tomé medicamentos” - El Heraldo de México",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPMy1Wa3Q3QVdzUmJmc2ZOMkFjSFNYMlRtZXV6TlBMd1BtdlI4Nnc1MWMtS2liTlpqQlBGZlZZRmh3NjRHU2FYT1dhQ0ZoUGRXWXpLbzJybzl2bzRRQmhHVElDWDFCOW1obmdmbFlqcjRDSlZMdUVWZHN5UGY1Y1llbkRhY1ZiZUI2SHVfTU5ON1FNR0JpRWRIMTJKMW5oeGZmbjJrVXZ2ZTZIMTVBRnNockdMSmRNTF9UQU0yYllEQVNvR19QcExhbURlc0pOOGNiSkp3MEtCekwzbEN6Yi1YcUFwM08tbFZHaVhNUVZwSktuNFk5WXVXSEg3c0JmUEo2VzBiaU5ZRGdmWktCczBlZmdvRFU5RGctaDJjOGd3?oc=5",
+      "published": "2026-09-21T13:01:00+00:00",
+      "source": {
+        "name": "El Heraldo de México",
+        "url": "https://heraldodemexico.com.mx"
       }
     },
     {
@@ -531,16 +571,6 @@
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "8222104fde22",
-      "title": "Se recomendó la prescripción ambulatoria de medicamentos para 372 enfermedades durante un máximo de 90 días. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbnJmMjZJRV9hTXVqTTFIUlN6QzBiNnpPRHFNVFJ0cFRwYm12RHNIRV9KU2N2RXV6UjRwRGoyUnRqcEMxTnRnejZiX0ItTGd4elMzTkRYR2tLNlVtZGhoNmtEVThrajBrODRtbVAyWDBZY1hyZnVrRVI3WnRETGhQUEtMN01RR3d3?oc=5",
-      "published": "2026-09-21T10:09:01+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
       }
     },
     {
@@ -604,6 +634,16 @@
       }
     },
     {
+      "id": "0425e72318d0",
+      "title": "Se recomendó la prescripción ambulatoria de medicamentos para 372 enfermedades durante un máximo de 90 días. - vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbnJmMjZJRV9hTXVqTTFIUlN6QzBiNnpPRHFNVFJ0cFRwYm12RHNIRV9KU2N2RXV6UjRwRGoyUnRqcEMxTnRnejZiX0ItTGd4elMzTkRYR2tLNlVtZGhoNmtEVThrajBrODRtbVAyWDBZY1hyZnVrRVI3WnRETGhQUEtMN01RR3d3?oc=5",
+      "published": "2026-09-21T10:09:01+00:00",
+      "source": {
+        "name": "vietnam.vn",
+        "url": "https://www.vietnam.vn"
+      }
+    },
+    {
       "id": "d70b9a809fb0",
       "title": "Resistencia a los antimicrobianos - World Health Organization (WHO)",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3RVcWdla1NmQ1JMeU5JbnNyWmVmYzBJMDF2X3Z3R3llU1RIWkNvVmt6c3lweG1ielBSNldtZm1CV2xObVpPN0VESDBEN0dWLWUzbzFLSnpya01SbFBJbTdER3lYekJQaXdHeUlGU0dHU05JdVp0Y3ZESGMwNVZPQnZn?oc=5",
@@ -644,20 +684,20 @@
       }
     },
     {
-      "id": "7e9dbe54b1d6",
-      "title": "Central pública de compras de medicamentos 2026: La Rebaja - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMYkVUaVdQM0xkbk1yNkV2SE8ydVB3bEhYdno1SmoxNUx6aG5uWGM4R1I2Y3pRRENBd21CSERrWUE1WTZMa0pfSktEaUozQWxaNV9zS0FtMjJrQk5yMGx3YzI2YmZxX2xNVk9hVi1yR21aZVpTTGZScDB1R3FnSEU?oc=5",
-      "published": "2026-01-21T08:00:00+00:00",
+      "id": "c1b10d7c7c37",
+      "title": "Supersalud evidencia fallas en entrega de medicamentos a usuarios de Famisanar en dispensario Ramédicas - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fWU5KcHZtVmt1U1JPSzlHOXRUN3h1ZmNqWnp2emlfLWUzbk9RcVVSQ2R4SHpZU1NGQ0dLMmlnaXQ3Uk5UY2d1SGlIb2FyYmtJTndCM0NlX3BxOFhkNDJOWmU5WG9Kbk9fMHBHRXVyVy1iYTJzTU4tU0NQaHZGdk0?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
       }
     },
     {
-      "id": "c1b10d7c7c37",
-      "title": "Supersalud evidencia fallas en entrega de medicamentos a usuarios de Famisanar en dispensario Ramédicas - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fWU5KcHZtVmt1U1JPSzlHOXRUN3h1ZmNqWnp2emlfLWUzbk9RcVVSQ2R4SHpZU1NGQ0dLMmlnaXQ3Uk5UY2d1SGlIb2FyYmtJTndCM0NlX3BxOFhkNDJOWmU5WG9Kbk9fMHBHRXVyVy1iYTJzTU4tU0NQaHZGdk0?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
+      "id": "7e9dbe54b1d6",
+      "title": "Central pública de compras de medicamentos 2026: La Rebaja - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBMYkVUaVdQM0xkbk1yNkV2SE8ydVB3bEhYdno1SmoxNUx6aG5uWGM4R1I2Y3pRRENBd21CSERrWUE1WTZMa0pfSktEaUozQWxaNV9zS0FtMjJrQk5yMGx3YzI2YmZxX2xNVk9hVi1yR21aZVpTTGZScDB1R3FnSEU?oc=5",
+      "published": "2026-01-21T08:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -674,16 +714,6 @@
       }
     },
     {
-      "id": "2c6fb7db6ef8",
-      "title": "Pacientes y expertos piden incorporar el valor social al evaluar medicamentos huérfanos - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWGd5VDRiR0tqdmE3REJ0cXNLWnpuUEtQLUFnQTdQMmFOMFRhVDhHVTZac2dlYUc2azlCTndnZHRjbVlNWXZ5Q2FXVkNkajFpMFRoaHFacTBhNi1XdXg0NG8yQ2xVSUJQaTNCbG5kQ19uel9aNXlCVFBUVDRiY1J2ZXl6QWtkVUdNZWNfUGRjNFJhM1JhUkltc3Q3VTdpX1VibDZ6Y3RzbEJ3T2NFM1lRREtnTEVHQ0kzTDV1MDZNUQ?oc=5",
-      "published": "2026-09-20T09:27:19+00:00",
-      "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
-      }
-    },
-    {
       "id": "38f293fe6e14",
       "title": "El llamado del Ministerio de Salud para quienes quieran donar medicamentos tras el terremoto - elespectador.com",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNT2Jvc21nWVJGdks0VkdIelJqaTNuY1NrM2p1VzFvdWdjVEQwS2tucmkyNzFkc3YyWnc5alpVWnRFRUg4elBtT1pCcUhrNHVIZC1zMmJreXBaOXY4cG9Idml1ZHpSN1lNMkdjRi1GTGU1elV1XzdqX2xHVjJfNEI5ZTE4Wl9hYmgtQ1cxUnFOeFJtQXhQcjNiSzJCTlNTNjVPaXNackQxeS11d2Vta2FLcmxLX2RXRVQwcUdEZGNfeEhuLXfSAdcBQVVfeXFMT2FHdWRNdGo0NzJPY19hNEFBNm5kZWJlUzlCdmxybVFKMWFjMGVCVEVnV3dON3VCMXUwT1VYZXdSUUh6aElLTURFYVNRYklJVVVUTVRJVkx0UlJBUTJIYWZEWHRQT0dRMHBjMnJldkhZRDdxSndNRVc5enBQTy1STWhCbVVtMV9xaDNtdWhnamtKcVdwNUVfRG0yaG5DbjJYS2F1OUx4Z3NydVZZX0VkY3BDcjlHSlF0X01wdUtkZ1hySU5qb3F0bHZCNVZrVktXYTgzV2x2elE?oc=5",
@@ -694,20 +724,20 @@
       }
     },
     {
-      "id": "4592b1c66a62",
-      "title": "Minsalud derogaría Circular 044 sobre MIPRES: medicamentos UPC se registrarían en el RDA - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDTVk3LWc5UWl4cTVyb1RfVW1ta2pkOUkxaVdhTTdkUlQ5VWZoYk9VUk1JLVFfUXB1elhRRzY4XzFVVDZDR2tWbmVlMnpXSlBMd0MxbUpGMG5JbVNFbjlETXhFT0xMcGhLdkRwS3R5c2V3dw?oc=5",
-      "published": "2026-05-20T19:17:04+00:00",
+      "id": "9ada0a1242c4",
+      "title": "EMA abre agenda sobre medicamentos y salud de la mujer: señales regulatorias que Colombia debería monitorear - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fZnZVb3ZRU1c5RGpJV1ZPeUo2a3BYSkdHS3p2UThieTRxMHI2VnhESHdma1g4dWNMT1FjTzFpZnd0bE1kblhYTE5wWHpuU3NaWGxraVFKZHhSUXNiTVhTeDdwbnBKNHdPSUR2TEc2azhtbDA?oc=5",
+      "published": "2026-07-02T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
       }
     },
     {
-      "id": "9ada0a1242c4",
-      "title": "EMA abre agenda sobre medicamentos y salud de la mujer: señales regulatorias que Colombia debería monitorear - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fZnZVb3ZRU1c5RGpJV1ZPeUo2a3BYSkdHS3p2UThieTRxMHI2VnhESHdma1g4dWNMT1FjTzFpZnd0bE1kblhYTE5wWHpuU3NaWGxraVFKZHhSUXNiTVhTeDdwbnBKNHdPSUR2TEc2azhtbDA?oc=5",
-      "published": "2026-07-02T07:00:00+00:00",
+      "id": "4592b1c66a62",
+      "title": "Minsalud derogaría Circular 044 sobre MIPRES: medicamentos UPC se registrarían en el RDA - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBDTVk3LWc5UWl4cTVyb1RfVW1ta2pkOUkxaVdhTTdkUlQ5VWZoYk9VUk1JLVFfUXB1elhRRzY4XzFVVDZDR2tWbmVlMnpXSlBMd0MxbUpGMG5JbVNFbjlETXhFT0xMcGhLdkRwS3R5c2V3dw?oc=5",
+      "published": "2026-05-20T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -731,6 +761,16 @@
       "source": {
         "name": "Bancolombia",
         "url": "https://www.bancolombia.com"
+      }
+    },
+    {
+      "id": "cca96ec415f7",
+      "title": "Noboa acusa a ciertos médicos de recetar fármacos sin stock y gremio responde: “el problema no está en quien prescribe” - Vistazo",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObU9UcERDZmNTYXBwM2ZZZ09QeHhaQ2d0TXhSbGp0aGRrekMzenFLN19ySndQUHhsTlpIVGhFcjRmMTdZMFhpbDdlVTdhMEI1Y2RYRGVmM1N2UF91VU1QdTRUaHAyaGJta0tFbmFzU1c4ZU9xYWJTajNLUlc4dnM2NlBXTFZvdHJGcEp6WjZwbnlTeWgyanhNMkROSVpPR3BCakVLTXJnY0cwNWdDVFRaVHM1dG1QNXc0NGFneHJCMXdfVWh3LVHSAcsBQVVfeXFMTXBHSmRGM204UVlVWjQ5TUJWd1N1eEVwQzJVbEFaWEIxOXlrbFZWQVRsdXl4TWJzOUQ4QlB6d3MtR29UTmNvNS02d3cxY2JucnNGMU5tWlZ2S1ExelVhb09zZ29PS01xZFNOSlZpT3Nnb3pqNmd5akpjZ1RYWjVHMWtuUWZ1QUdWS0RUVnB5eEZQWS1lRVd6R0xKMTBLVmh5Ti1jb1V0RHd4S19MWVJhRTZvQjQtVmJrNC1LaGtSWEMtMHhlTnYxdDVGT2M?oc=5",
+      "published": "2026-09-21T22:31:00+00:00",
+      "source": {
+        "name": "Vistazo",
+        "url": "https://www.vistazo.com"
       }
     },
     {
@@ -784,33 +824,13 @@
       }
     },
     {
-      "id": "bb10ece4c92a",
-      "title": "Más de 60 años de compromiso con la salud animal y humana - RTVE.es",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSUZfT1JYbVBiSE1NYXpUMXFLS0lOc2puZEkxTnp3OGRCVlhQbTlUSEpTVW8wTEpLZXNNamJTRE5MMkpQV1lYWjZIVjl4N0ZFTFVNV2syXzA0RVhjNlFEdkdzN05uakFCTkNfeUdXT0ZINGtTVk15eTY2Z1oxdjFUaTlVNkl5MnI0eGlUY1IxQWZldw?oc=5",
-      "published": "2026-09-21T08:30:00+00:00",
+      "id": "912e11cb382b",
+      "title": "Tras diagnóstico de diabetes, Pritzker revela tratamiento que lo ayudó a perder peso - Telemundo Chicago",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQQ0RQM1JaVVdZZmhjcC1ZREplSUM1OEJEZlhROVdUYVo4bzd0dWU4ekxjYnpQcXUtZ0lfNnpoRlN1aEExRjVCSUFHX1Q0a3otMWhlMG1PNjM5VDg3Y2RDT3NjeU1WTW5WWXBUMExEbEVvUXJ3ZmY2X0tnRU1OVTBFcnpsZHNNcGc3eEg3TDVmY1JKY2U4bnp4Z2pZX3F3bzBrZ0FfZzEtcnF1X3ByS1HSAbYBQVVfeXFMUGE1ZUgzM3Z6STdxdVZWaVlVYzdoUk1jM0NSak9HTjdwUXdFWENzczJ1bUpyNnA3ZUxsWHMyX3ZNTlVYZUFsb2tDMGhrNUEwOFVLX1h4alk0a0tkOXE1aV9zai03c1JBMW9naktZZ2hudGc4V181eXNfUjg3enBIZHhwdGFYMDhza1BJd09nRU02N1ZYR2J4LUs2dzdSU0kzQzVmZUZobFotZlhCZTRWZWlKeHdZa3c?oc=5",
+      "published": "2026-09-21T22:39:54+00:00",
       "source": {
-        "name": "RTVE.es",
-        "url": "https://www.rtve.es"
-      }
-    },
-    {
-      "id": "aa3525f8e3a8",
-      "title": "Fentanilo en el Hospital Santa Teresita: Salud aseguró que no detectó faltantes tras la denuncia - Canal 12 Web",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUHlYY0ZGRERIdlFfc1ZVdkJscWFvY00xVF90d0Q3ZVliNWxtak4yQVhCTE1ISkdLcDI0WTFnalp4ZVlxam1NcV9pZVBxR1lEQkoxSW13dndKZHd6bjVQVHJwNEJJSEp3QW52QWxsU2dlNEFXWER0dncyRmUwZ2xlQXY4NlJUeC1LYlFzX3NNakt2eVVuUVI4anV4N3ZJQ1BaRnRzLWxMdzgwVGptTHg4NUZrNHRWcHpDWVNn?oc=5",
-      "published": "2026-09-21T13:51:57+00:00",
-      "source": {
-        "name": "Canal 12 Web",
-        "url": "https://canal12web.com"
-      }
-    },
-    {
-      "id": "d41ccc5180c8",
-      "title": "Se han presentado propuestas para permitir recetas de hasta 90 días para 118 enfermedades adicionales, reduciendo así la necesidad de visitas al médico y de recetas. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYjIwenlvWnlRTHFDNVhBbU13UkVqdzZ4bm5LNWVrZU5NQl9WSlV2UktMd1gyWERnTDQ4eEdpMUNob1BBT2F0R3p2RUxUcTJmU0E3SzZTUVA0UTJvU3NvbGdGa2gycldZZ2dPSzR0QnMyU2k3OXZKTG1nWlprNWZJaXpsWVBMWTZPUGdDenNrMWtyeFh1MTdUTU5KSkFBZTdieWpGLXdR?oc=5",
-      "published": "2026-09-21T08:10:21+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Telemundo Chicago",
+        "url": "https://www.telemundochicago.com"
       }
     },
     {
@@ -834,16 +854,6 @@
       }
     },
     {
-      "id": "b62760e8e1cf",
-      "title": "Madrid notificará a través de la tarjeta sanitaria si el fármaco tiene visado - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazBpOWRyTzVrVXVvVTlXbFpPNzQyd05ZbmF0bnNqR0NvM3o3QzJJSlR6Ql9tbzV2NkEwT1EtT2JZSGlycm0xRENUem1yMjRmVW1xOUlXUkFYRmk1T1pjY05EQS1lT2pDSXFHeEk5T182SnFfRnY2alNfUC1pS2g1X1EzaFhYYV8tTHl0MHg1V3MtQzVpd3FvQndmaU55dDhoWFROM3hwbXg3NDBfVGNnNW13?oc=5",
-      "published": "2026-09-21T16:07:23+00:00",
-      "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
-      }
-    },
-    {
       "id": "861148f5678b",
       "title": "Minsalud alerta por retos en redes sociales con medicamentos y pide vigilancia reforzada ante intoxicaciones con acetaminofén - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xbFlFQ1VxT1owQk93cC1JR3k1bThCanY3MEk4S25JQ05vZUV5N3BoaHlZb29lVTBUNWRIdWphWWhPT19pVTludEpPdl9Ddlo1S3JIeFdhWGloNEN3R0J5bXprTkZ4dzJ3Q0lfYXhJM0pvQ21lbzhmTW5R?oc=5",
@@ -864,23 +874,13 @@
       }
     },
     {
-      "id": "412afe5049e5",
-      "title": "Más allá de perder peso: los medicamentos para la obesidad muestran potencial para frenar los atracones y la comida emocional - consalud.es",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbkpkZjREdldmMWk2LWpsUE9YQWpzcHVTMDVLUEh2Nmo5MHZ1Nkp3WS13dnV4ejFjd19DT3dJR1gwWXJXMGZWY2I1bVhtZjFncXd2SjNyVzlOMFo4WkFlWjVRYXlZclJYTW8xbW05dS1ldU9jekZKYzB3Z01hemFod1dFelozaHo5VDNnYUxCb2lmUDh1VkpGRzZ6a3RwUDJpYmNIZUQ4QldjdlJDQ0N4SnBuMzk4OHJFRWdlT2kzR0ViQ196Zmh6bmdEbXozLUhKdmlYTjl5MlU2RTc2WmRyYklybEpJcExSNjQyUlFJTVRmeHk2aW9Nam1WSjZmQkF5?oc=5",
-      "published": "2026-09-21T06:30:00+00:00",
+      "id": "bb10ece4c92a",
+      "title": "Más de 60 años de compromiso con la salud animal y humana - RTVE.es",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSUZfT1JYbVBiSE1NYXpUMXFLS0lOc2puZEkxTnp3OGRCVlhQbTlUSEpTVW8wTEpLZXNNamJTRE5MMkpQV1lYWjZIVjl4N0ZFTFVNV2syXzA0RVhjNlFEdkdzN05uakFCTkNfeUdXT0ZINGtTVk15eTY2Z1oxdjFUaTlVNkl5MnI0eGlUY1IxQWZldw?oc=5",
+      "published": "2026-09-21T08:30:00+00:00",
       "source": {
-        "name": "consalud.es",
-        "url": "https://www.consalud.es"
-      }
-    },
-    {
-      "id": "002b3b633dd1",
-      "title": "Las patronales farmacéuticas españolas piden prudencia al aplicar la directiva de aguas - Diariofarma",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbk1USTRDVjlzZTAwU2xjUE0xNUcyNmc5cmNnX3JoTWEwU18tQ3VuNi1TbERJNGZJMHNmck80Zm9fUzRjMWs3WG1BbXVmRzlKVGlVWDlmME5GRHBLOEhSbHdhQnR5NmxndDI3Z0Y3MTRObVFQODJ1elVZU0FqT05GWk9zdXJPa0JyWkNKUVV5aS0zbVBYdjVpSEVvTnB6akJNeUJCYTNYNEt2RU8xbkpkUzRB?oc=5",
-      "published": "2026-09-21T12:34:02+00:00",
-      "source": {
-        "name": "Diariofarma",
-        "url": "https://diariofarma.com"
+        "name": "RTVE.es",
+        "url": "https://www.rtve.es"
       }
     },
     {
@@ -888,6 +888,16 @@
       "title": "Drogas La Rebaja entregará medicamentos de Nueva EPS a cerca de 70.000 afiliados: conozca cómo será la nueva ruta - consultorsalud",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5PWXl0cWtJSURLUHV0dkhVZ19JNk1mV2xsVHdXSG1mVF91OGM2TXZDb1lkUkJ1QU80MDlqeVBneTA1dEdOV2hndFZKRnlEOVdTcDdzdlgzbkFXN1BvX2lCMlNhUkx3TzNjQ2dJdUs5MG1OU1BrRVE?oc=5",
       "published": "2026-05-12T07:00:00+00:00",
+      "source": {
+        "name": "consultorsalud",
+        "url": "https://consultorsalud.com"
+      }
+    },
+    {
+      "id": "358d3f133bc2",
+      "title": "Circular 021 actualiza el SISMED: ¿qué cambia en el reporte de precios de medicamentos? - consultorsalud",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rSmVDSUExZVd2VWtGY3RxcDl2OHdsck1Ic2plMG9JMFZqTVNoY3d4OHYteURtSG5WSVB1c21GNlZnOUJMQmFhLTRMbWp6b3dRV3RfOGJaWVdGenI3QTN6MDQ1NTExTm5qSnBqVUJET0RtOTJ0V2c?oc=5",
+      "published": "2026-06-09T07:00:00+00:00",
       "source": {
         "name": "consultorsalud",
         "url": "https://consultorsalud.com"
@@ -904,13 +914,23 @@
       }
     },
     {
-      "id": "358d3f133bc2",
-      "title": "Circular 021 actualiza el SISMED: ¿qué cambia en el reporte de precios de medicamentos? - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rSmVDSUExZVd2VWtGY3RxcDl2OHdsck1Ic2plMG9JMFZqTVNoY3d4OHYteURtSG5WSVB1c21GNlZnOUJMQmFhLTRMbWp6b3dRV3RfOGJaWVdGenI3QTN6MDQ1NTExTm5qSnBqVUJET0RtOTJ0V2c?oc=5",
-      "published": "2026-06-09T07:00:00+00:00",
+      "id": "aa3525f8e3a8",
+      "title": "Fentanilo en el Hospital Santa Teresita: Salud aseguró que no detectó faltantes tras la denuncia - Canal 12 Web",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUHlYY0ZGRERIdlFfc1ZVdkJscWFvY00xVF90d0Q3ZVliNWxtak4yQVhCTE1ISkdLcDI0WTFnalp4ZVlxam1NcV9pZVBxR1lEQkoxSW13dndKZHd6bjVQVHJwNEJJSEp3QW52QWxsU2dlNEFXWER0dncyRmUwZ2xlQXY4NlJUeC1LYlFzX3NNakt2eVVuUVI4anV4N3ZJQ1BaRnRzLWxMdzgwVGptTHg4NUZrNHRWcHpDWVNn?oc=5",
+      "published": "2026-09-21T13:51:57+00:00",
       "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
+        "name": "Canal 12 Web",
+        "url": "https://canal12web.com"
+      }
+    },
+    {
+      "id": "ee8d940fed94",
+      "title": "\"Busquen soluciones, no culpables\": el mensaje de los médicos al Gobierno - expreso.ec",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQk9Kb0M1Zk5ZYVBweVowTk5hS3VWSXNUbTdvLVRwLUlnMDBDaDNYN3FjTVE5YzN1bFhWRUJoZnB6RWRGR3Bwa09ERU9leFdja3R3c2U1dHg5TVF0dktOOENOODNIWEZ1RDhpN3dZZHBNWktjR21IRnV6T2s5WUtINVBreUFQZ3I4cVNZS2NKNjhRc0FPdzNPdHlTME1hR2VfSWc?oc=5",
+      "published": "2026-09-21T20:59:55+00:00",
+      "source": {
+        "name": "expreso.ec",
+        "url": "https://www.expreso.ec"
       }
     },
     {
@@ -954,13 +974,13 @@
       }
     },
     {
-      "id": "288e646636b9",
-      "title": "La ANMAT prohibió la venta y uso de cualquier producto médico de una marca específica - Perfil",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNclZUYU5Mc2FseVB5YlZiWWZZaDRxSWhRejY2NWRJZVVQVlFHTGFiUHJIZGlycFZqTjJIR2h3VnRHQmozbVBBR3NkSjVJWEYzcjNNNGc2M0REaGU1TGEwdzhaUXhRZlBqSzZaQUs1c2R1Tno1Zk52dnVVOFo0UTNsM2NEMHNuM2x0V2NKWXp3V1BSSWpkU2gyMjVrcWlXTlV4SE9nd2xCN3QtelBjeWZuVG9JVmhZSktray1kdEZWXzVFbFVoMkxyMDlVVDJiRHYyVU8zNlg5cUhhcXpGeDdtaENUUnBnQkVaWFYwZGl4OUVvY2hmdEpwUjg3ZWJOUEHSAYQCQVVfeXFMT1M1VzMwQWIxZlNfWk5idGVDNk5zekpYaTUteUtEOFdCN3NxdXRzY0FfdHl6RGhhdmItUmNZdVFzX1Q2X3YzemluU1BlTVVqY0pSS1RWd2hTa1ZtWU9HUEJTX2IyZTBQVzI1d1FMUWlYbTZxaUIzdFViQVF2emFGNTFPUEhHTElSVENOT3VGaTVIazZUWTIxMDBhU003alVVdFFJcHQ0M1hFYnBJTHU5SGpWV0RmdHRvaFFZNkoxQnEwbFB5S2RaUU1PZ3BiSmVnXzg0MFdoVEVjZ0czLXpRaktqdG1ZdDhIMEJaejlaN2pqdnl1UFR4UzRXVGR1RW5FR3ozWTU?oc=5",
-      "published": "2026-09-21T09:47:00+00:00",
+      "id": "b62760e8e1cf",
+      "title": "Madrid notificará a través de la tarjeta sanitaria si el fármaco tiene visado - Diariofarma",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazBpOWRyTzVrVXVvVTlXbFpPNzQyd05ZbmF0bnNqR0NvM3o3QzJJSlR6Ql9tbzV2NkEwT1EtT2JZSGlycm0xRENUem1yMjRmVW1xOUlXUkFYRmk1T1pjY05EQS1lT2pDSXFHeEk5T182SnFfRnY2alNfUC1pS2g1X1EzaFhYYV8tTHl0MHg1V3MtQzVpd3FvQndmaU55dDhoWFROM3hwbXg3NDBfVGNnNW13?oc=5",
+      "published": "2026-09-21T16:07:40+00:00",
       "source": {
-        "name": "Perfil",
-        "url": "https://www.perfil.com"
+        "name": "Diariofarma",
+        "url": "https://diariofarma.com"
       }
     },
     {
@@ -974,33 +994,13 @@
       }
     },
     {
-      "id": "115c98f14848",
-      "title": "Luz verde para la construcción de nueva sede de la Planta de Medicamentos Esenciales de la UdeA - Universidad de Antioquia",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPOVpLcXY1cEZLRF95SmNyQXRKM1VUZFp0Snk3SEl2NnE4SHk3S25UaEpsUUszdFZLc1hLV1ZEajdmMFBIMUtWS0xlMVVUek9kZXlnQ1ZCV3RyNGk4cHdaa1Y4S2ZOaDFEMlM3Zy1KN29YRGpHZnJjWFJEa2E2MDI1NndqUjJ6QVF3WjhIV2Z4amF5QjdKNjBISXNsM0FHSWhINDUxc1o0UEJKenFjZmpmZjR4aUhJelV0dWJoVFJ6V3c4SDVGa0JPUUpBd1VUZDJmWWN2OGd4WnE3QndhalE?oc=5",
-      "published": "2026-02-13T12:29:30+00:00",
+      "id": "cf0f6f4ab2fb",
+      "title": "Fortalecen stock de medicamentos e insumos en Alto Paraguay - mspbs.gov.py",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUkZjV1NtN1BSWEtSWTBwUlJyRXFCMGIyQlBzXzhwWldFeUVmMlZhUGFFWW9JN2pvYWdqZHE2Vjk1RUl0by1QYmV1eGxhOExtalI4S212VGZoNWxNY0Q0R3BwVEozejJrVDBIa09xT0drcEJZR2NDMlRFS3dJQlIwUjZ2VVlWMFYxWW5JekZBVEJENzFXMGZ6VVFLNlNzZFVWd25BOA?oc=5",
+      "published": "2026-09-17T13:51:47+00:00",
       "source": {
-        "name": "Universidad de Antioquia",
-        "url": "https://www.udea.edu.co"
-      }
-    },
-    {
-      "id": "bb2f03408314",
-      "title": "¿Hay desabastecimiento de medicamentos para salud mental en Colombia? Ministerio de Salud responde - consultorsalud",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53X0RqQTcwNXBabTlBS01pSFhvU3NpN3VtTGhfcDZvTEJ4S2hUTWV1djJHSkNuV0U2WER4d0NBbkhGU0VMR0t1cUNrMzI1SEZ4LWxIa3BNdHFQeENPLVRVeVNXc0twZjV4c09jaDdUS3l3d2NKSjA2U1Fyalowb2c?oc=5",
-      "published": "2026-04-07T07:00:00+00:00",
-      "source": {
-        "name": "consultorsalud",
-        "url": "https://consultorsalud.com"
-      }
-    },
-    {
-      "id": "22d3abb5b194",
-      "title": "Ministerio de Salud ordena a EPS mantener atención y medicamentos para afectados por el terremoto nacional - Portafolio.co",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbmRfRHNrT01CRi1HTnVCckJLU2hyM2lGOVlfNFN5Ymltd3NZNDdtTDE2Rm1QVWhQVEhFV1FPNE1oQlZjN194ajVQUHktdzdLbGxFYVUxZ1JMdnpNQ1hTMV94QWh6STlpNjZuczh6ZDJTNWRLaVRBM3N2c3gycDdzQkR5aldBRVZmWHVkS2ROWllmek9sX1Y1Q05mTThHVHVPbG45MnBLTHRlZjRlTEJkRnZXZUhSZ3VYSE9aOXlEZnVLLU9TWHFTdDZneEllQkhEbXRDY2IxNlRYMDZXSEc0c20xWmFDUXBaTUF2OEx3?oc=5",
-      "published": "2026-08-16T07:00:00+00:00",
-      "source": {
-        "name": "Portafolio.co",
-        "url": "https://www.portafolio.co"
+        "name": "mspbs.gov.py",
+        "url": "https://www.mspbs.gov.py"
       }
     }
   ]
