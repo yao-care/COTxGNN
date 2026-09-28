@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db11590-male-infertility-due-to-gonadal-dysgenesis",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db11590"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "male infertility due to gonadal dysgenesis"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.5
+    }
+  ]
+}
