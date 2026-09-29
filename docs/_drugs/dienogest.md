@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dienogest
-parent: Evidencia Moderada (L3-L4)
-nav_order: 100
-evidence_level: L3
+parent: Solo Predicción del Modelo (L5)
+nav_order: 163
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dienogest
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,76 +29,68 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Dienogest: De Endometriosis a Amenorrea
+# Dienogest: De Indicación Original No Detallada a Amenorrea
 
 ## Resumen en Una Frase
 
-Dienogest es un progestágeno de cuarta generación (conocido comercialmente como Visanne®), utilizado a nivel internacional para el tratamiento de la endometriosis, aunque actualmente no cuenta con registros sanitarios en Colombia.
-El modelo TxGNN predice que podría ser relevante para el manejo de la **Amenorrea**, con **4 ensayos clínicos** que actualmente respaldan esta dirección.
-Cabe señalar que la amenorrea figura como un efecto farmacológico esperado del Dienogest en el contexto de endometriosis, lo que otorga una interpretación mecanística particular —y paradójica— a esta predicción.
-
----
+Dienogest es un progestágeno que en Colombia se comercializa en combinación con etinilestradiol. Los estudios clínicos encontrados lo evalúan sobre todo en endometriosis.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero la amenorrea es un efecto farmacológico conocido del tratamiento y no una enfermedad que el fármaco cure.
+Hay **4 ensayos clínicos** (todos en endometriosis, es decir, evidencia indirecta) y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Endometriosis (referencial; sin registros aprobados en Colombia) |
+| Indicación Original | Dienogest y etinilestradiol (texto registrado en INVIMA; describe la composición del producto, no una indicación clínica) |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 (solo evidencia indirecta, en endometriosis) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde DrugBank. Según la información conocida por los ensayos clínicos disponibles, Dienogest es un progestágeno de cuarta generación con alta selectividad por el receptor de progesterona y actividad antiandrogénica moderada. En su uso validado para endometriosis, actúa suprimiendo la ovulación y la proliferación endometrial mediante la inhibición del eje hipotálamo-hipófisis-ovario, lo que frecuentemente resulta en amenorrea como efecto farmacológico deseado y marcador de eficacia terapéutica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, dienogest es un progestágeno que suprime la ovulación y la proliferación del endometrio. Su eficacia en el contexto ginecológico (principalmente endometriosis) se ha estudiado ampliamente.
 
-La relación entre Dienogest y amenorrea es, por tanto, bidireccional y mecanísticamente compleja: el fármaco **induce** amenorrea como parte de su eficacia en endometriosis, en lugar de **tratar** la amenorrea primaria como condición independiente. El ensayo NCT07204093 aborda directamente este fenómeno al evaluar estrategias de add-back de estradiol transdérmico para gestionar la sintomatología hipoestrógénica derivada de la amenorrea inducida por Dienogest, lo que representa la línea de evidencia más directamente relacionada con la predicción.
+La relación entre la indicación original y la nueva es débil. La amenorrea es un efecto esperado del tratamiento con dienogest, no una condición que este fármaco trate. El puntaje alto de TxGNN probablemente refleja esta asociación fármaco-fenotipo y no un beneficio terapéutico real.
 
-Es crucial distinguir el subtipo de amenorrea al interpretar esta predicción: (1) como indicador de eficacia terapéutica en endometriosis, la asociación está bien respaldada; (2) como tratamiento de amenorrea primaria o funcional de origen diferente, la dirección farmacológica es opuesta y carece de sustento mecanístico. El TxGNN probablemente captura esta asociación bidireccional en el grafo de conocimiento, lo que requiere una validación clínica dirigida antes de cualquier decisión de desarrollo.
-
----
+Por lo tanto, la predicción es mecanísticamente coherente como efecto farmacológico, pero no respalda un uso terapéutico para tratar la amenorrea. Los cuatro ensayos encontrados incluyeron pacientes con endometriosis.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Activo (no reclutando) | 138 | Compara estradiol transdérmico + Dienogest vs. drospirenona en endometriosis; evalúa directamente la gestión de síntomas hipoestrógénicos —incluyendo amenorrea inducida— como endpoint principal de satisfacción del paciente |
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Fase 3 | Reclutando | 290 | RCT de no inferioridad: Indinol Forto® 200 mg vs. Visanne® 2 mg en endometriosis; si los endpoints menstruales son primarios, este estudio podría escalar la evidencia a nivel L1 |
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completado | 968 | Estudio observacional real-world de Visanne® en endometriosis (n=968); la amenorrea figura como resultado secundario y provee datos de incidencia en práctica clínica habitual |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completado | 895 | Cohorte prospectiva en mujeres asiáticas con endometriosis; foco en calidad de vida y seguridad a largo plazo; datos de amenorrea como variable derivada secundaria |
-
----
+| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completado | 968 | Estudio observacional en práctica clínica real de dienogest (Visanne) en endometriosis. La amenorrea sería, como mucho, una observación secundaria. |
+| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Fase 3 | Reclutando | 290 | Estudio aleatorizado, abierto y de no inferioridad que compara Indinol Forto 200 mg con Visanne 2 mg en endometriosis. Aún sin resultados. |
+| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completado | 895 | Cohorte observacional sobre calidad de vida y seguridad a largo plazo de dienogest en mujeres asiáticas con endometriosis. |
+| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Activo, sin reclutamiento | 138 | Compara estradiol transdérmico con dienogest frente a drospirenona en endometriosis, con satisfacción de la paciente como objetivo. |
 
 ## Información de Mercado en Colombia
 
-Dienogest no cuenta con registros sanitarios vigentes ante el INVIMA. El fármaco no está comercializado en Colombia en ninguna de sus formas farmacéuticas.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20093177 | DIENILLE® COMPRIMIDO RECUBIERTOS (EXELTIS S.A.S.) | Tableta recubierta | Dienogest y etinilestradiol |
 
----
+Los datos recibidos repiten el mismo registro sanitario. El total reportado es de 20 registros, pero solo se dispone del detalle de este.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN refleja una asociación farmacológica real pero de dirección paradójica — Dienogest induce amenorrea como efecto terapéutico en endometriosis y no la trata como condición primaria. Sumado a la ausencia de registros sanitarios en Colombia y a la falta de evidencia directa para amenorrea como indicación independiente, no es posible avanzar en el desarrollo de este candidato en la etapa actual.
+La amenorrea es un efecto conocido de dienogest y no un objetivo terapéutico. Los cuatro ensayos son indirectos (endometriosis), sin resultados sobre amenorrea y sin literatura de apoyo. El puntaje alto del modelo no es suficiente por sí solo.
 
 **Para avanzar se necesita:**
-- Clarificación del subtipo de amenorrea objetivo: inducida por progestágenos (amenorrea terapéutica) vs. amenorrea primaria vs. amenorrea funcional hipotalámica
-- Datos completos de mecanismo de acción (MOA) desde DrugBank API
-- Información de seguridad completa: advertencias, contraindicaciones y perfil de interacciones del prospecto oficial
-- Estrategia regulatoria para registro inicial en Colombia ante el INVIMA
-- Resultados del ensayo NCT07164183 (Fase 3, actualmente en reclutamiento) para confirmar si los endpoints menstruales son incluidos como criterios de evaluación primarios
+- Definir si el objetivo real es la supresión menstrual deseada (efecto terapéutico) o el tratamiento de amenorrea patológica, que sería un uso distinto.
+- Verificar la condición y los desenlaces del ensayo de Fase 3 (NCT07164183).
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- Advertencias y contraindicaciones del prospecto de INVIMA.
+- Datos de seguridad del producto en combinación con etinilestradiol.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

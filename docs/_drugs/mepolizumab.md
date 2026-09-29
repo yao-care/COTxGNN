@@ -2,7 +2,7 @@
 layout: default
 title: Mepolizumab
 parent: Evidencia Moderada (L3-L4)
-nav_order: 168
+nav_order: 274
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,79 +29,67 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# MEPOLIZUMAB: De Enfermedades Eosinofílicas a Trombocitopenia por Destrucción Inmune
+# Mepolizumab: De Indicación No Registrada a Trombocitopenia por Destrucción Inmune
 
 ## Resumen en Una Frase
 
-Mepolizumab es un anticuerpo monoclonal anti-IL-5 utilizado para el tratamiento de enfermedades eosinofílicas graves, incluyendo el síndrome hipereosinofílico (HES) y el asma eosinofílica severa.
-El modelo TxGNN predice que podría ser efectivo para **Trombocitopenia por Destrucción Inmune**,
-con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta dirección.
-
----
+Mepolizumab es un anticuerpo monoclonal anti-IL-5 que reduce los eosinófilos y se comercializa en Colombia como NUCALA®. Los registros disponibles no especifican su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por destrucción inmune**,
+pero actualmente hay **0 ensayos clínicos** y solo **1 publicación** (un reporte de caso), por lo que la evidencia es muy débil.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrado en Colombia — sin licencias INVIMA disponibles |
-| Nueva Indicación Predicha | Trombocitopenia por Destrucción Inmune |
+| Indicación Original | No especificada en los registros (el campo de indicación solo repite el nombre del principio activo) |
+| Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
 | Puntaje de Predicción TxGNN | 99.66% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, Mepolizumab es un anticuerpo monoclonal humanizado dirigido contra la interleucina-5 (IL-5), citocina clave en la proliferación, diferenciación, reclutamiento y supervivencia de los eosinófilos. Su eficacia en condiciones hipereosinofílicas —asma eosinofílica grave, granulomatosis eosinofílica con poliangeítis (EGPA) y síndrome hipereosinofílico (HES)— ha sido ampliamente documentada.
+Mepolizumab es un anticuerpo anti-IL-5 que bloquea esta vía y reduce los eosinófilos. El único respaldo es un reporte de caso: un paciente con un síndrome inmune hipereosinofílico resistente a esteroides mejoró con mepolizumab, junto con una mejoría de una microangiopatía trombótica mixta. Esto sugiere una posible contribución de los eosinófilos a algunas citopenias inmunes.
 
-La conexión con la trombocitopenia por destrucción inmune se sustenta en una vía indirecta: las proteínas granulares de los eosinófilos, en particular la proteína básica mayor (MBP) y la proteína catiónica eosinofílica (ECP), pueden activar las plaquetas y promover respuestas inmunitarias aberrantes. En pacientes con HES se ha documentado trombocitopenia inmunomediada de carácter secundario, y la reducción de la carga eosinofílica conseguida con Mepolizumab podría mejorar indirectamente este fenómeno.
+Sin embargo, el vínculo es indirecto. La trombocitopenia inmune se debe sobre todo a la destrucción de plaquetas mediada por autoanticuerpos y a una producción plaquetaria deficiente. Las vías de IL-5 y eosinófilos no se consideran centrales en este mecanismo. El título del reporte de caso está truncado, así que no se puede confirmar que la trombocitopenia haya sido un desenlace documentado.
 
-No obstante, la vinculación mecanística es esencialmente indirecta y secundaria a la indicación original en HES. El único respaldo documental disponible (PMID 28648630) corresponde a un reporte de caso de HES con disfunción inmunitaria y anomalías plaquetarias asociadas, y no a un estudio diseñado específicamente para evaluar trombocitopenia inmune aislada. La solidez de esta predicción es, por tanto, limitada y de carácter exploratorio.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+El puntaje TxGNN de 0.997 es solo una predicción computacional y no equivale a evidencia clínica. Las otras cuatro predicciones del modelo (trastorno de liberación plaquetaria, enfermedad de von Willebrand tipo plaquetario, trombocitopenia autoinmune y trombastenia de Glanzmann) tienen aún menos respaldo. La mayoría parecen artefactos del grafo de conocimiento, por compartir vecinos de trastornos plaquetarios o hemorrágicos.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Reporte de Caso | Blood Cells, Molecules & Diseases | Paciente con HES resistente a esteroides e inmunopatía hipereosinofílica: la administración de Mepolizumab resolvió el cuadro hipereosinofílico y se observó mejoría concomitante de la microangiopatía trombótica mixta, sugiriendo que la reducción de la carga eosinofílica puede mitigar alteraciones plaquetarias secundarias |
-
----
+|------|-----|------|------|---------|
+| [28648630](https://pubmed.ncbi.nlm.nih.gov/28648630/) | 2018 | Reporte de caso | Blood Cells Mol Dis | Un síndrome inmune hipereosinofílico resistente a esteroides se resolvió con mepolizumab, con mejoría concomitante de una microangiopatía trombótica mixta (asociada a síndrome hemolítico urémico atípico) |
 
 ## Información de Mercado en Colombia
 
-Mepolizumab no cuenta con registros sanitarios INVIMA vigentes en Colombia. No existen productos comercializados bajo esta denominación en el mercado colombiano.
+Los 5 registros listados en los datos corresponden al mismo número sanitario y al mismo producto, por lo que se muestran una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20188045 | NUCALA® 100MG/ML SOLUCIÓN INYECTABLE (GlaxoSmithKline Colombia S.A.) | Solución inyectable | No detallada (el registro solo indica "Mepolizumab") |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La única publicación disponible es un reporte de caso aislado sobre HES con complicaciones plaquetarias de origen secundario, no un estudio diseñado para trombocitopenia inmune independiente; además, no existe ningún ensayo clínico registrado que evalúe esta indicación, lo que impide avanzar hacia etapas de desarrollo clínico en este momento.
+No hay ensayos clínicos y la única publicación es un reporte de caso sobre un síndrome hipereosinofílico, no sobre trombocitopenia inmune. El mecanismo de la trombocitopenia inmune (autoanticuerpos) no se relaciona claramente con la vía IL-5/eosinófilos, por lo que la predicción debe tratarse como una pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Confirmar y documentar el mecanismo de acción completo de Mepolizumab (anti-IL-5) desde fuentes regulatorias oficiales
-- Búsqueda ampliada de series de casos u estudios observacionales que documenten el efecto de Mepolizumab en trombocitopenia inmunomediada aislada (independiente del HES)
-- Revisión de la ficha técnica y prospectos aprobados en otras jurisdicciones (EMA, FDA) para advertencias, contraindicaciones y poblaciones especiales
-- Diseño de un estudio exploratorio (Fase 1/2) que evalúe esta indicación específica antes de considerar cualquier desarrollo regulatorio ante INVIMA
-- Evaluación de la viabilidad de acceso al medicamento en Colombia, dado que actualmente no se encuentra comercializado en el país
+- Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad)
+- Confirmar la indicación aprobada y el mecanismo de acción del fármaco en DrugBank e INVIMA
+- Revisar el texto completo del reporte de caso (PMID 28648630) para verificar si la trombocitopenia fue un desenlace documentado
+- Buscar estudios que relacionen los eosinófilos o la IL-5 con la trombocitopenia inmune
+- Evaluar si existen ensayos clínicos en otros registros, como ICTRP, antes de reconsiderar la decisión
+
+*Este informe es solo una referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

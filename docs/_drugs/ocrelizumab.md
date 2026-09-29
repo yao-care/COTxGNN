@@ -2,7 +2,7 @@
 layout: default
 title: Ocrelizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 180
+nav_order: 299
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,75 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Ocrelizumab: De Esclerosis Múltiple a Carcinoma de Mama HER2 Positivo
+# Ocrelizumab: De Indicación No Especificada en el Registro a Carcinoma de Mama HER2 Positivo
 
 ## Resumen en Una Frase
 
-Ocrelizumab es un anticuerpo monoclonal humanizado anti-CD20 aprobado para el tratamiento de la esclerosis múltiple recurrente y primaria progresiva, cuyo mecanismo central es la depleción de linfocitos B CD20+. El modelo TxGNN predice que podría ser efectivo para el **Carcinoma de Mama HER2 Positivo**, aunque actualmente **no existen ensayos clínicos ni publicaciones científicas** que respalden directamente esta indicación. La evidencia se limita por completo a la inferencia computacional del modelo.
-
----
+Ocrelizumab es un anticuerpo monoclonal anti-CD20 que depleta linfocitos B. El registro sanitario colombiano solo lista el nombre del principio activo y no detalla la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama HER2 positivo**, pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Esclerosis Múltiple (recurrente y primaria progresiva) |
-| Nueva Indicación Predicha | Carcinoma de Mama HER2 Positivo |
+| Indicación Original | No especificada en el registro (el campo solo indica "OCRELIZUMAB") |
+| Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Lo que se sabe es que ocrelizumab es un anticuerpo anti-CD20 que depleta células B.
 
-Ocrelizumab es un anticuerpo monoclonal humanizado que se une selectivamente a la proteína CD20 expresada en la superficie de linfocitos B pre-B y maduros, induciendo su depleción mediante citotoxicidad celular dependiente de anticuerpos (ADCC), citotoxicidad dependiente del complemento (CDC) y apoptosis. En esclerosis múltiple, este mecanismo suprime la neuroinflamación mediada por células B autorreactivas. No se dispone de datos de MOA confirmados en el Evidence Pack para esta evaluación.
+No se identifica un vínculo creíble con el carcinoma de mama HER2 positivo. No se conoce que las células tumorales de este subtipo expresen CD20 como diana terapéutica. El puntaje alto (0.999) es una predicción basada en grafos de conocimiento y no debe interpretarse como evidencia de eficacia.
 
-La hipótesis de reposicionamiento se sustenta en el papel teórico de las células B reguladoras (Bregs) en el microambiente tumoral (TME) del cáncer de mama HER2+. Las Bregs pueden suprimir la inmunidad antitumoral al inhibir la actividad de células T citotóxicas; por tanto, su depleción mediada por anti-CD20 podría, en teoría, favorecer una respuesta inmune antitumoral más efectiva. Sin embargo, esta hipótesis no establece ninguna conexión directa con la vía de señalización HER2/ERBB2, que constituye el principal motor oncogénico de este subtipo.
-
-Debe enfatizarse que el papel de las células B en el TME del cáncer de mama HER2+ es biológicamente bidireccional: ciertas subpoblaciones ejercen efectos antitumorales mientras otras pueden promover la progresión tumoral. Esta ambigüedad fundamental, sumada a la ausencia absoluta de evidencia clínica o experimental, hace que esta predicción sea **altamente especulativa** y no apta para avanzar a ninguna fase clínica sin validación preclínica previa.
-
----
+Las otras cuatro predicciones del modelo también son subtipos de cáncer de mama (receptor de progesterona positivo, subtipo similar a mama normal, luminal A/B y receptor de progesterona negativo), todas con puntajes cercanos a 0.998. Dos de ellas tienen puntajes idénticos, lo que sugiere propagación por vecindad en la ontología y no señales independientes. Una hipótesis futura solo podría apoyarse en la biología de los linfocitos B infiltrantes de tumor, y hoy no existe ningún estudio que la sustente.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+Nota: para la cuarta predicción (tumor de mama luminal A o B) se recuperaron publicaciones, pero corresponden a coincidencias por la letra "B" (biología de células B, vacunas contra hepatitis B, alelos HLA-B, bacterioclorofila b). Ninguna trata sobre ocrelizumab, CD20 ni cáncer de mama, por lo que no elevan el nivel de evidencia.
 
 ## Información de Mercado en Colombia
 
-Ocrelizumab no cuenta con ningún registro sanitario aprobado en Colombia y no se encuentra comercializado en el país. No existen licencias vigentes en la base de datos consultada.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20115374 | OCREVUS® concentrado para solución para infusión 300 mg/10 mL (F. Hoffmann-La Roche Ltd.) | Solución concentrada para infusión | No detallada (el registro solo indica "OCRELIZUMAB") |
 
----
+Nota: el registro devuelve varias entradas duplicadas del mismo número de registro sanitario, por lo que se muestra una sola fila.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se obtuvieron advertencias ni contraindicaciones, y no se encontraron interacciones farmacológicas registradas.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-A pesar de que el puntaje TxGNN es elevado (99.89%), la predicción carece por completo de respaldo clínico o experimental para esta indicación específica (nivel de evidencia L5), y el mecanismo propuesto —depleción de Bregs en el microambiente tumoral— es puramente teórico, sin validación en modelos de cáncer de mama HER2+.
+La predicción es solo del modelo (L5), sin ensayos clínicos ni literatura pertinente, y sin un mecanismo plausible que conecte la depleción de células B con el cáncer de mama HER2 positivo. Además, faltan datos de seguridad y del mecanismo de acción, por lo que no se justifica avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) confirmados y evaluación de su relevancia oncológica en el TME del cáncer de mama HER2+
-- Estudios preclínicos (modelos in vitro e in vivo) que validen el efecto de la depleción de células B CD20+ en modelos de cáncer de mama HER2+
-- Clarificación del perfil funcional de las células B presentes en el TME (pro-tumoral vs. antitumoral) en este subtipo específico
-- Evaluación de seguridad oncológica específica, ya que el perfil de Ocrelizumab está establecido en esclerosis múltiple, no en oncología
-- Obtención de registro sanitario en Colombia antes de cualquier uso clínico o investigativo en el país
+- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
+- Obtener el mecanismo de acción desde DrugBank.
+- Confirmar la indicación aprobada en Colombia, ya que el registro solo indica el nombre del principio activo.
+- Realizar una búsqueda bibliográfica dirigida (ocrelizumab/anti-CD20 y cáncer de mama, linfocitos B infiltrantes de tumor) que reemplace los resultados irrelevantes actuales.
+- Evaluar si existe alguna base preclínica antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

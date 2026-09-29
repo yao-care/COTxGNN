@@ -2,7 +2,7 @@
 layout: default
 title: Leuprolide Acetato
 parent: Solo Predicción del Modelo (L5)
-nav_order: 156
+nav_order: 253
 evidence_level: L5
 indication_count: 0
 ---

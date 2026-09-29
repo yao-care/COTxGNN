@@ -2,7 +2,7 @@
 layout: default
 title: Treprostinil
 parent: Solo Predicción del Modelo (L5)
-nav_order: 230
+nav_order: 395
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Treprostinil es un análogo estable de la prostaciclina (PGI₂), aprobado internacionalmente para el tratamiento de la hipertensión arterial pulmonar (HAP) en sus diversas formas, aunque actualmente sin registro sanitario en Colombia. El modelo TxGNN predice que podría ser efectivo para la **Malformación Arteriovenosa Pulmonar (MAVP)**, sin embargo, **no existe ningún ensayo clínico ni publicación** que respalde directamente esta dirección. La preocupación mecanística adicional —vasodilatación de cortocircuitos de baja resistencia con posible agravamiento de la hipoxemia— hace que esta predicción requiera cautela especial antes de cualquier avance.
+Treprostinil es un análogo de la prostaciclina que en el registro sanitario colombiano figura solo con el nombre del principio activo. Por su uso conocido, se emplea en la hipertensión arterial pulmonar (dato a confirmar con el prospecto, porque el registro no trae la indicación).
+El modelo TxGNN predice que podría ser efectivo para **malformación arteriovenosa pulmonar**, pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -41,23 +42,23 @@ Treprostinil es un análogo estable de la prostaciclina (PGI₂), aprobado inter
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial pulmonar (aprobación internacional; sin registro en Colombia) |
-| Nueva Indicación Predicha | Malformación arteriovenosa pulmonar (MAVP) |
+| Indicación Original | No especificada en el registro (solo aparece "TREPROSTINILO"). Uso conocido: hipertensión arterial pulmonar, por verificar con el prospecto |
+| Nueva Indicación Predicha | Malformación arteriovenosa pulmonar |
 | Puntaje de Predicción TxGNN | 99.70% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Treprostinil es un análogo sintético de la prostaciclina con mayor estabilidad química que el epoprostenol, lo que le permite administrarse por vías subcutánea, intravenosa, inhalada y oral. Su mecanismo central implica la activación de los receptores IP (IP receptor) y DP1, elevando el AMPc intracelular en las células del músculo liso vascular y las plaquetas. Esto produce vasodilatación pulmonar sostenida, inhibición de la agregación plaquetaria y efectos antiproliferativos sobre el remodelado vascular. La literatura incluida en este Evidence Pack (ensayos para HAP asociada a cardiopatía congénita, enfermedad del tejido conectivo e infección por VIH) confirma este perfil farmacológico bien establecido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, treprostinil es un análogo de la prostaciclina que actúa sobre el receptor IP y produce vasodilatación pulmonar. Su eficacia en enfermedad vascular pulmonar está establecida en otros contextos.
 
-La malformación arteriovenosa pulmonar (MAVP) es una anomalía estructural congénita o adquirida en la que arterias y venas pulmonares se comunican directamente, eludiendo la circulación capilar. A diferencia de la HAP —donde la vasodilatación es el objetivo terapéutico central—, en la MAVP no existe hipertensión arterial pulmonar ni disfunción del músculo liso como mecanismo primario. La lesión es esencialmente anatómica: un cortocircuito de baja resistencia.
+En este caso la relación con la nueva indicación es débil y la dirección del efecto es incierta. La malformación arteriovenosa pulmonar consiste en conexiones anormales entre arterias y venas, con paso de sangre sin oxigenar (cortocircuito). En ese escenario, una vasodilatación adicional podría aumentar el cortocircuito y empeorar la hipoxemia. Es decir, el efecto podría ser perjudicial.
 
-Aquí reside la preocupación mecanística clave: Treprostinil, al producir vasodilatación pulmonar generalizada, podría aumentar el flujo sanguíneo a través del cortocircuito malformado en lugar de corregirlo, con el riesgo de **agravar la hipoxemia** en lugar de mejorarla. El alto puntaje TxGNN (99.70%) probablemente refleja la proximidad topológica entre los nodos de "prostaciclina" y "vasculatura pulmonar" en el grafo de conocimiento, más que una predicción biológica validada para MAVP específicamente. No existe ningún respaldo clínico ni preclínico que contradiga o confirme esta hipótesis.
+El puntaje alto de TxGNN (99.70%) refleja una asociación en el grafo de conocimiento, no evidencia clínica. Sin ensayos ni literatura, esta predicción debe considerarse solo una hipótesis.
 
 ---
 
@@ -75,7 +76,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Treprostinil no cuenta con registros sanitarios vigentes ante el INVIMA. No hay productos comercializados en Colombia para este ingrediente farmacéutico activo.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20154250 | TYVASO® 0.6 MG/ML AMPOLLA (Ferrer Internacional S.A.) | Solución para inhalación | TREPROSTINILO |
+
+Los cinco registros devueltos corresponden al mismo número sanitario (20154250), por lo que se muestra una sola vez. Además de la solución para inhalación, se reporta una presentación de solución inyectable.
 
 ---
 
@@ -90,15 +95,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN para MAVP carece de todo respaldo empírico (nivel L5) y presenta una preocupación mecanística activa: la vasodilatación pulmonar inducida por Treprostinil podría aumentar el flujo a través del cortocircuito de baja resistencia y empeorar la hipoxemia, lo que invierte la dirección terapéutica esperada.
+La predicción no tiene ensayos clínicos ni publicaciones (L5). Además, el mecanismo del fármaco (vasodilatación) podría empeorar el cortocircuito propio de esta enfermedad, por lo que no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos (modelos animales de MAVP) que evalúen el efecto hemodinámico de agonistas del receptor IP
-- Confirmación del mecanismo de acción detallado (MOA) de Treprostinil obtenida de fuentes regulatorias primarias (DrugBank, TFDA)
-- Evaluación de seguridad específica para la fisiopatología de MAVP: monitoreo de saturación de oxígeno y parámetros hemodinámicos bajo vasodilatación pulmonar
-- **Considerar prioritariamente** las indicaciones con mayor soporte en este mismo Evidence Pack:
-  - **Rango 2 — HAP asociada a cardiopatía congénita (CHD-PAH)**: Nivel L2, evidencia directa con Treprostinil subcutáneo/IV, decisión *Proceed with Guardrails*
-  - **Rango 3 — HAP asociada a enfermedad del tejido conectivo (CTD-PAH)**: Nivel L2, cohorte clínica directa desde 2004, decisión *Proceed with Guardrails*
+- Obtener y revisar el prospecto de INVIMA (indicación aprobada, advertencias y contraindicaciones), hoy sin datos.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Generar evidencia preclínica o fisiológica que demuestre que treprostinil no agrava el cortocircuito en este tipo de malformación.
+- Priorizar otras indicaciones predichas para el mismo fármaco, que tienen respaldo mucho mayor:
+  - Hipertensión arterial pulmonar asociada a enfermedad del tejido conectivo (L2, Proceed with Guardrails).
+  - Hipertensión arterial pulmonar asociada a cardiopatía congénita (L3, Proceed with Guardrails).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

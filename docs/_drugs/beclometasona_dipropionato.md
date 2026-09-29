@@ -2,7 +2,7 @@
 layout: default
 title: Beclometasona Dipropionato
 parent: Solo Predicción del Modelo (L5)
-nav_order: 64
+nav_order: 81
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Ofatumumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 181
+nav_order: 301
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Ofatumumab: De Leucemia Linfocítica Crónica a LLC/SLL con Hipermutación Somática de IgHV
+# Ofatumumab: De Indicación Original No Especificada a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas con Hipermutación Somática de IGHV
 
 ## Resumen en Una Frase
 
-Ofatumumab es un anticuerpo monoclonal anti-CD20 totalmente humano, originalmente aprobado por la FDA en 2009 para el tratamiento de la leucemia linfocítica crónica (CLL) refractaria a fludarabina y alemtuzumab, sin registro sanitario vigente en Colombia.
-El modelo TxGNN predice que podría ser efectivo para la **CLL/SLL con hipermutación somática de la región variable de cadena pesada de inmunoglobulina (IgHV)**, un subtipo molecular de pronóstico favorable dentro del espectro de la CLL.
-Sin embargo, **no existen ensayos clínicos ni publicaciones** específicos para este subtipo molecular con ofatumumab; la evidencia es exclusivamente indirecta, derivada de estudios en CLL general.
+Ofatumumab es un anticuerpo monoclonal anti-CD20 comercializado en Colombia como KESIMPTA (solución inyectable). Los datos disponibles no indican para qué enfermedad se aprobó originalmente.
+El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica crónica/linfoma linfocítico de células pequeñas con hipermutación somática de IGHV**, pero para esta indicación exacta hay **0 ensayos clínicos** y **0 publicaciones** que la respalden.
 
 ---
 
@@ -43,55 +42,45 @@ Sin embargo, **no existen ensayos clínicos ni publicaciones** específicos para
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfocítica crónica refractaria (aprobación FDA 2009; sin registro INVIMA en Colombia) |
-| Nueva Indicación Predicha | CLL/SLL con hipermutación somática de IgHV (subtipo molecular IgHV-mutado) |
+| Indicación Original | No especificada (el registro solo dice «OFATUMUMAB») |
+| Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas con hipermutación somática del gen de la región variable de la cadena pesada de inmunoglobulina (IGHV) |
 | Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L4 (sin estudios clínicos directos en este subtipo molecular) |
-| Estado de Mercado en Colombia | ✗ No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 2 (ambos con el mismo número de registro, 20190663) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción provenientes de la fuente primaria (DrugBank). Sin embargo, según la información clínica conocida, ofatumumab es un anticuerpo monoclonal IgG1κ de segunda generación dirigido contra el antígeno CD20. A diferencia de rituximab, se une a un epítopo único proximal a la membrana de la molécula CD20, lo que confiere una actividad de citotoxicidad dependiente del complemento (CDC) significativamente superior, además de actividad de citotoxicidad mediada por células dependiente de anticuerpos (ADCC). Su eficacia en CLL general ha sido ampliamente comprobada en múltiples ensayos clínicos Fase 2 y 3.
+No se dispone de datos detallados de mecanismo de acción en el campo original de DrugBank. La justificación del análisis indica que ofatumumab se une a un epítopo de CD20 cercano a la membrana de los linfocitos B y los destruye por citotoxicidad dependiente del complemento (CDC) y por citotoxicidad celular dependiente de anticuerpos (ADCC).
 
-La CLL/SLL con mutación somática de IgHV es el subtipo molecular en el que las células B leucémicas han transitado por el centro germinal, acumulando mutaciones somáticas en la región variable de la cadena pesada de inmunoglobulina. Este subtipo se asocia a un perfil de pronóstico más favorable y a mayor sensibilidad a la quimioinmunoterapia. Dado que el antígeno CD20 se expresa en las células B malignas de ambos subtipos (IgHV-mutado e IgHV-no mutado), el mecanismo anti-CD20 de ofatumumab es teóricamente aplicable a esta clasificación molecular.
+La LLC/LLP con mutación de IGHV es un subtipo molecular de la leucemia linfocítica crónica, una neoplasia de linfocitos B que expresan CD20. Por eso, dirigirse a CD20 es biológicamente plausible.
 
-No obstante, el estado de mutación de IgHV no ha sido investigado de forma específica como variable predictiva de respuesta en los estudios clínicos de ofatumumab. La predicción de TxGNN se basa en la proximidad topológica en el grafo de conocimiento entre el fármaco y este subtipo, sin respaldo de datos clínicos directos. Esta indicación se clasifica actualmente como **Pregunta de Investigación** (L4) y requiere generación de hipótesis antes de avanzar a diseño de estudio.
+Esta plausibilidad viene del mecanismo y de la enfermedad madre (LLC/LLP). Para este subtipo específico no hay ninguna evidencia clínica ni bibliográfica; solo existe el puntaje del modelo.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos registrados que evalúen ofatumumab específicamente en CLL/SLL con hipermutación somática de IgHV.
-
-> **Contexto:** Para CLL/SLL en general (indicación de rango 5 en este Evidence Pack), existe evidencia sólida con múltiples ensayos Fase 3 completados (incluyendo el estudio DUO y RESONATE), donde ofatumumab figura como brazo de control activo estándar, confirmando su eficacia en CLL refractaria/recaída. La aplicabilidad al subtipo IgHV-mutado requiere análisis de subgrupos en esos datos.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura publicada que evalúe específicamente ofatumumab en CLL/SLL con hipermutación somática de IgHV.
+Actualmente no hay literatura relacionada disponible para esta indicación específica.
 
 ---
 
 ## Información de Mercado en Colombia
 
-Ofatumumab no cuenta con registros sanitarios vigentes ante el INVIMA. El medicamento no se encuentra comercializado en Colombia a la fecha de corte de datos (junio 2026). No existen licencias aprobadas locales que consultar.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20190663 | KESIMPTA (Novartis Pharma AG) | Solución inyectable | OFATUMUMAB (el registro no detalla la indicación) |
 
----
-
-## Citotoxicidad
-
-| Item | Contenido |
-|------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — anticuerpo monoclonal anti-CD20 de segunda generación (no citotóxico convencional) |
-| Riesgo de Mielosupresión | Moderado — linfopenia B profunda esperada por mecanismo; riesgo de neutropenia e infecciones oportunistas (incluyendo reactivación de hepatitis B) |
-| Clasificación de Emetogenicidad | Baja (anticuerpos monoclonales tienen potencial emetogénico mínimo) |
-| Ítems de Monitoreo | Hemograma completo con diferencial antes de cada ciclo; serología de hepatitis B (HBsAg, Anti-HBc) previo al inicio; función hepática y renal periódica |
-| Protección en Manejo | No requiere manejo como citotóxico convencional; seguir protocolos estándar para biológicos intravenosos; preparación y administración por personal entrenado en reacciones infusionales |
+El registro aparece duplicado en los datos (2 entradas idénticas). Por eso se muestra una sola fila.
 
 ---
 
@@ -106,14 +95,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existe evidencia clínica directa que evalúe ofatumumab en CLL/SLL con mutación somática de IgHV como subtipo molecular diferenciado; la predicción de TxGNN representa una hipótesis mecanística plausible basada en la expresión de CD20 en este subtipo, pero carece de sustento clínico independiente para avanzar sin generación previa de datos exploratorios.
+Para este subtipo (IGHV mutado) solo existe el puntaje de predicción, sin ensayos ni publicaciones (nivel L5). Además, no hay datos de seguridad ni de indicación aprobada en Colombia.
 
 **Para avanzar se necesita:**
-- Análisis de subgrupos retrospectivos por estado de mutación IgHV en los ensayos existentes de ofatumumab en CLL (p. ej., RESONATE, DUO)
-- Datos de expresión cuantitativa de CD20 comparando CLL IgHV-mutado frente a IgHV-no mutado
-- Obtención y revisión del prospecto oficial (FDA/EMA) para completar datos de MOA, advertencias y contraindicaciones
-- Evaluación de la viabilidad de acceso al medicamento en Colombia (importación por uso compasivo o programa de acceso especial ante el INVIMA), dado el estado de no comercialización
-- Definición de hipótesis clínica y diseño de estudio prospectivo si el análisis de subgrupos es favorable
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
+- Confirmar la indicación aprobada de KESIMPTA. La presentación registrada es una solución inyectable; según conocimiento general (no consta en el Evidence Pack), esa marca corresponde a la formulación subcutánea usada en esclerosis múltiple, no a la formulación intravenosa usada en LLC. Hay que verificar la compatibilidad de vía de administración, que sigue pendiente.
+- Obtener el mecanismo de acción desde DrugBank.
+- Evaluar la indicación más general de la misma familia, **LLC/LLP** (puntaje 99.55%, nivel L1), que sí tiene ensayos de Fase 3 (por ejemplo NCT00824265, NCT01039376 y NCT01313689) y un metaanálisis. Ese nodo ya está marcado como «Proceed with Guardrails», con la advertencia de que puede ser un uso ya aprobado y no un reposicionamiento. Además, ofatumumab ha sido desplazado en gran parte por los inhibidores de BTK y BCL2.
+- El **linfoma folicular** (nivel L2) tiene un ensayo aleatorizado de Fase 2 (CALGB 50904) y estudios de Fase 2. La ventaja incremental frente a rituximab u obinutuzumab no está demostrada.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

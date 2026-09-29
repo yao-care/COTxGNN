@@ -2,7 +2,7 @@
 layout: default
 title: Levodopa
 parent: Solo Predicción del Modelo (L5)
-nav_order: 159
+nav_order: 257
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,77 +29,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# LEVODOPA: De Enfermedad de Parkinson a Encefalitis Subaguda de Rasmussen
+# Levodopa: De Levodopa con inhibidor de descarboxilasa e inhibidor de COMT a Encefalitis Subaguda de Rasmussen
 
 ## Resumen en Una Frase
 
-Levodopa es el precursor de dopamina más ampliamente utilizado, indicado clásicamente para el tratamiento de la enfermedad de Parkinson y otros trastornos del movimiento dopaminérgicos.
-El modelo TxGNN predice que podría ser efectivo para la **Encefalitis Subaguda de Rasmussen**,
-sin embargo, actualmente **no existen ensayos clínicos ni publicaciones** que respalden directamente esta dirección.
-
----
+Levodopa es un precursor de la dopamina que en Colombia se comercializa en combinación con un inhibidor de descarboxilasa y un inhibidor de COMT (Stalevo). El registro sanitario solo indica la composición y no describe la indicación clínica.
+El modelo TxGNN predice que podría ser efectivo para la **Encefalitis Subaguda de Rasmussen**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Parkinson (precursor dopaminérgico) |
-| Nueva Indicación Predicha | Encefalitis Subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Indicación Original | Levodopa con inhibidor de descarboxilasa e inhibidor de COMT (el registro solo indica la composición, no una indicación clínica) |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
+| Puntaje de Predicción TxGNN | 99.06% (posición 6917 en el ranking del modelo) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, Levodopa es el precursor directo de la dopamina en el sistema nervioso central: cruza la barrera hematoencefálica y es convertida en dopamina por la enzima DOPA descarboxilasa, restaurando los niveles de neurotransmisor en los ganglios basales. Su eficacia en la enfermedad de Parkinson ha sido ampliamente comprobada durante décadas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, levodopa es un precursor de la dopamina y en Colombia se comercializa en combinación con un inhibidor de descarboxilasa y un inhibidor de COMT. Con los datos suministrados no se puede establecer un vínculo mecanístico respaldado por evidencia entre este fármaco y la nueva indicación.
 
-La conexión propuesta con la Encefalitis de Rasmussen es de naturaleza indirecta y especulativa. La dopamina —metabolito activo de Levodopa— ejerce efectos inmunomoduladores: los receptores D1/D5 se expresan en microglía y linfocitos T, con capacidad potencial de inhibir citocinas proinflamatorias vía la vía del AMPc. Dado que la Encefalitis de Rasmussen es una neuroinflamación crónica mediada por linfocitos T CD8+ que afecta un hemisferio cerebral, existe una hipótesis mecanística de que la señalización dopaminérgica podría modular indirectamente la infiltración de células T.
+La encefalitis de Rasmussen es una enfermedad neuroinflamatoria rara, crónica, unilateral y mediada por linfocitos T. Se manifiesta con convulsiones focales refractarias (a menudo epilepsia parcial continua), atrofia hemisférica progresiva y deterioro neurológico. Levodopa actúa sobre la vía dopaminérgica y no sobre la patología inmunomediada. Cualquier relación, como un efecto dopaminérgico sobre la neuroinflamación o sobre alteraciones del movimiento asociadas, sería especulativa.
 
-Sin embargo, esta cadena causal carece de validación experimental directa. El modelo TxGNN probablemente detectó similitud a nivel de grafo de conocimiento a través del nodo compartido de neuroinflamación con la enfermedad de Parkinson, no a través de evidencia clínica o preclínica directa. Levodopa no posee actividad antiepiléptica ni inmunosupresora conocida, lo que hace que este reposicionamiento sea altamente especulativo en el estado actual.
-
----
+El puntaje alto (99.06%) podría reflejar cercanía en el grafo de conocimiento, por ejemplo genes o fenotipos neurológicos compartidos, y no una relevancia causal. Antes de invertir más recursos hay que revisar manualmente la ruta del grafo que llevó a esta predicción.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Levodopa no cuenta con registros sanitarios activos en Colombia (INVIMA). No se encontraron licencias registradas para este principio activo.
+Los 5 registros devueltos corresponden al mismo registro sanitario y al mismo producto, por lo que se presentan una sola vez. En total existen 20 registros sanitarios.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19995528 | Stalevo® comprimidos con cubierta pelicular 200/50/200 mg (Sandoz GmbH) | Tableta recubierta (vía oral) | Levodopa, inhibidor de descarboxilasa e inhibidor de COMT (solo composición) |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN se basa exclusivamente en similitud de grafo de conocimiento (nivel L5), sin ningún ensayo clínico, estudio observacional ni publicación de literatura que respalde la eficacia de Levodopa en Encefalitis de Rasmussen. La conexión mecanística propuesta es especulativa e indirecta, y Levodopa carece de actividad inmunosupresora o antiepiléptica conocida que pudiera justificar su uso en esta enfermedad autoinmune grave.
+La predicción se apoya solo en el puntaje del modelo, sin ensayos clínicos ni literatura, y el mecanismo de acción de levodopa (dopaminérgico) no explica de forma evidente una enfermedad inmunomediada como la encefalitis de Rasmussen. Además, faltan los datos de seguridad del prospecto de INVIMA.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) completo desde DrugBank para validar la hipótesis de inmunomodulación dopaminérgica
-- Estudios preclínicos (modelos animales de encefalitis autoinmune) que demuestren efecto modificador de la enfermedad con Levodopa o dopamina
-- Revisión de literatura sobre el papel de receptores dopaminérgicos en linfocitos T CD8+ en contextos de neuroinflamación
-- Evaluación de seguridad completa (advertencias, contraindicaciones, interacciones) mediante descarga del prospecto oficial de TFDA o EMA
-- Consideración de si el perfil de efectos adversos de Levodopa (discinesias, hipotensión ortostática, psicosis) es compatible con la población pediátrica afectada por Encefalitis de Rasmussen
+- Revisar manualmente la ruta del grafo de TxGNN que conecta levodopa con la encefalitis de Rasmussen.
+- Obtener el mecanismo de acción detallado (por ejemplo, desde DrugBank).
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), y precisar la indicación clínica aprobada.
+- Hacer una búsqueda sistemática de ensayos clínicos y literatura, incluidos reportes de caso, sobre levodopa o dopaminérgicos en la encefalitis de Rasmussen.
+- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración, hoy pendientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

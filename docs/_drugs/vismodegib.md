@@ -2,7 +2,7 @@
 layout: default
 title: Vismodegib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 238
+nav_order: 408
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,81 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vismodegib: De Carcinoma Basocelular a Meduloblastoma con Extensa Nodularidad
+# Vismodegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
 
 ## Resumen en Una Frase
 
-Vismodegib es el primer inhibidor de la vía de señalización Hedgehog aprobado a nivel global (FDA/EMA), utilizado para el tratamiento del carcinoma basocelular (BCC) localmente avanzado o metastásico. El modelo TxGNN predice que podría ser efectivo para el **meduloblastoma con extensa nodularidad (MBEN)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta indicación hasta la fecha. La predicción se sustenta en una coherencia mecanicista muy sólida: el MBEN es el subtipo de meduloblastoma SHH con mayor nivel de activación de la vía Hedgehog, el mismo blanco farmacológico de vismodegib.
-
----
+Vismodegib (Erivedge®) es un inhibidor oral de la vía Hedgehog que actúa sobre Smoothened (SMO). Se comercializa para el carcinoma basocelular avanzado.
+El modelo TxGNN predice que podría ser efectivo para **meduloblastoma con nodularidad extensa**,
+pero para esta indicación hay **0 ensayos clínicos** y **0 publicaciones** que la respalden, por lo que la predicción es solo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | Carcinoma basocelular localmente avanzado o metastásico (aprobación global FDA/EMA; sin registro en Colombia) |
-| Nueva Indicacion Predicha | Meduloblastoma con extensa nodularidad (MBEN) |
-| Puntaje de Prediccion TxGNN | 99.93% |
+| Indicación Original | Carcinoma basocelular avanzado (el registro sanitario solo consigna el texto "VISMODEGIB", sin describir la indicación) |
+| Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
+| Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Numero de Registros Sanitarios | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (todos con el mismo número de registro, 20048393) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, vismodegib inhibe la proteína Smoothened (SMO) de la vía Hedgehog. Su eficacia en el carcinoma basocelular, un tumor impulsado por la activación de PTCH1/SMO, está establecida, y mecanísticamente podría ser aplicable a tumores con señalización Hedgehog aberrante.
 
-Vismodegib actúa como inhibidor selectivo y directo de SMO (Smoothened), un receptor transmembrana clave en la vía de señalización Hedgehog. En condiciones fisiológicas, el receptor PTCH1 suprime la actividad de SMO; cuando PTCH1 o PTCH2 presentan mutaciones de pérdida de función, SMO queda constitutivamente activo, activando los factores de transcripción de la familia GLI y desencadenando proliferación celular desregulada. Este es el mecanismo central que sustentó su aprobación en carcinoma basocelular, y el mismo que hace biológicamente plausible su aplicación en MBEN.
+El meduloblastoma con nodularidad extensa se asocia estrechamente con el subgrupo SHH del meduloblastoma, en el que la señalización Hedgehog anómala impulsa el tumor. Por eso el vínculo es biológicamente plausible.
 
-El meduloblastoma con extensa nodularidad (MBEN) pertenece al subtipo molecular SHH del meduloblastoma y representa la variante con mayor grado de activación de la vía Hedgehog. Las mutaciones en PTCH1/PTCH2 que conducen a la activación persistente de SMO son alteraciones definitorias de este subtipo tumoral, lo que establece una coincidencia directa entre el blanco molecular del fármaco y la fisiopatología del tumor. La justificación biológica es, por tanto, de alta coherencia mecanicista.
+Aun así, no se aportaron ensayos ni literatura para esta indicación, y un puntaje alto del modelo no es evidencia clínica. Además, el uso pediátrico plantea una preocupación por el cierre prematuro e irreversible de las placas de crecimiento.
 
-Sin embargo, esta base mecanicista sólida no ha sido respaldada todavía por ninguna evidencia clínica o preclínica específica para MBEN. La predicción del modelo TxGNN se apoya exclusivamente en la topología del grafo de conocimiento biomédico (nivel L5), sin ensayos clínicos ni publicaciones directamente relacionados. Una prioridad inmediata sería la búsqueda de estudios pediátricos de Fase 1/2 en meduloblastoma SHH en términos generales —en bases de datos del NCI pediátrico, SIOPE e ITCC— que podrían incluir cohortes de pacientes con MBEN o servir como punto de partida para estudios específicos.
+## Evidencia de Ensayos Clínicos
 
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
----
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20048393 | ERIVEDGE® (F. Hoffmann-La Roche Ltda., Basilea, Suiza) | Cápsula dura | VISMODEGIB (el registro no detalla la indicación) |
+
+Las 4 entradas de licencia del paquete de evidencia son idénticas, por eso se muestran una sola vez.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Terapia dirigida (inhibidor selectivo de SMO / vía Hedgehog; no es citotóxico convencional) |
-| Riesgo de Mielosupresion | Bajo (el mecanismo de acción dirigido no produce supresión hematológica significativa de forma habitual) |
-| Clasificacion de Emetogenicidad | Baja |
-| Items de Monitoreo | Función hepática, función renal, peso corporal, prueba de embarazo obligatoria antes y durante el tratamiento |
-| Proteccion en Manejo | Alto riesgo teratogénico (Categoría X en embarazo); requiere programa de gestión de riesgos (REMS); evitar cualquier contacto en personas embarazadas o con posibilidad de embarazo |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de la vía Hedgehog/SMO) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y la normativa institucional de manejo de antineoplásicos orales |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Riesgo en población pediátrica**: en el meduloblastoma, el uso en niños genera preocupación por el cierre prematuro e irreversible de las placas de crecimiento.
+- **Efectos asociados a vismodegib en otras indicaciones** (según el análisis del paquete de evidencia): teratogenicidad, espasmos musculares, alopecia y disgeusia.
+- No se identificaron interacciones farmacológicas registradas.
 
----
+Consultar el prospecto para información de seguridad completa.
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-Aunque la coherencia mecanicista entre vismodegib y el MBEN es muy sólida —ambos comparten la vía SMO/Hedgehog activada por mutaciones en PTCH1/PTCH2—, la ausencia total de ensayos clínicos y publicaciones específicas para esta indicación impide avanzar más allá de una pregunta de investigación en nivel L5.
+**Justificación:**
+La predicción para meduloblastoma con nodularidad extensa es de nivel L5: solo hay un puntaje del modelo, sin ensayos ni publicaciones. El riesgo en pediatría requiere una evaluación específica antes de avanzar.
 
 **Para avanzar se necesita:**
-- Búsqueda sistemática de ensayos Fase 1/2 en meduloblastoma SHH (NCI Pediatric Oncology Branch, SIOPE, ITCC) que incluyan o permitan identificar cohortes MBEN
-- Datos sobre la penetración de vismodegib en el sistema nervioso central (evaluación del paso por la barrera hematoencefálica), factor crítico dada la localización del tumor
-- Datos de farmacocinética y perfil de seguridad en población pediátrica (el MBEN afecta predominantemente a niños menores de 3 años)
-- Datos detallados del mecanismo de acción (actualmente con brecha de información en el sistema)
-- Gestión del trámite de registro sanitario INVIMA en Colombia si la investigación clínica avanza a etapas posteriores
+- Datos de mecanismo de acción (MOA) desde DrugBank
+- Prospecto de INVIMA con advertencias y contraindicaciones
+- Evidencia preclínica o clínica de vismodegib en meduloblastoma del subgrupo SHH
+- Evaluación de seguridad pediátrica, en particular el efecto sobre las placas de crecimiento
+
+**Nota sobre otras indicaciones predichas en el mismo análisis:**
+- **Cáncer de piel** (puntaje 99.82%, nivel L2, "Proceed with Guardrails"): 23 ensayos y 20 publicaciones, con fase 1, varias fase 2 y un estudio de seguridad de una sola rama con 1232 pacientes. Se centra en el carcinoma basocelular, donde vismodegib ya está comercializado, y no debe extrapolarse a otros cánceres de piel.
+- **Xeroderma pigmentoso** (puntaje 99.91%, nivel L4, "Research Question"): 3 reportes de caso de vismodegib para carcinoma basocelular en pacientes con xeroderma pigmentoso. Estos respaldan la actividad contra el tumor, no el tratamiento de la enfermedad de base.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

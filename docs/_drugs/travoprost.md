@@ -2,7 +2,7 @@
 layout: default
 title: Travoprost
 parent: Solo Predicción del Modelo (L5)
-nav_order: 229
+nav_order: 394
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,71 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Travoprost: De Glaucoma de Ángulo Abierto a Calcifilaxi Visceral
+# Travoprost: De Glaucoma e Hipertensión Ocular a Calcifilaxis Visceral
 
 ## Resumen en Una Frase
 
-Travoprost es un análogo sintético de prostaglandina F2α que actúa como agonista del receptor FP, utilizado internacionalmente para reducir la presión intraocular en el glaucoma de ángulo abierto y la hipertensión ocular. El modelo TxGNN predice que podría ser efectivo para la **calcifilaxi visceral**, una enfermedad vascular rara y grave caracterizada por calcificación de la capa media vascular y trombosis oclusiva. Actualmente **no existen ensayos clínicos ni publicaciones científicas** que respalden directamente esta indicación predicha.
-
----
+Travoprost es un agonista tópico del receptor FP de prostaglandinas, usado originalmente para reducir la presión intraocular en glaucoma e hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Glaucoma de ángulo abierto / Hipertensión ocular (indicación establecida internacionalmente; sin registro en Colombia) |
-| Nueva Indicación Predicha | Calcifilaxi visceral (Visceral calciphylaxis) |
-| Puntaje de Predicción TxGNN | 99.9998% |
+| Indicación Original | Glaucoma de ángulo abierto e hipertensión ocular (el texto del registro sanitario solo dice "TRAVOPROST", sin describir la indicación; esta se toma de los ensayos y del uso conocido del fármaco) |
+| Nueva Indicación Predicha | Calcifilaxis visceral |
+| Puntaje de Predicción TxGNN | 99.9998% (puntaje saturado, no discrimina entre candidatos) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en esta indicación específica. Según la información farmacológica conocida, Travoprost es un agonista selectivo del receptor FP (receptor de prostaglandina F2α) que reduce la presión intraocular principalmente aumentando el drenaje uveoescleral del humor acuoso. Estudios clínicos oftálmicos han documentado directamente su capacidad de inducir vasodilatación retiniana y aumentar el flujo sanguíneo coroideo (NCT00308945), lo que confirma una actividad vascular real, aunque restringida al contexto ocular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, travoprost es un agonista del receptor FP de prostaglandinas que se aplica por vía tópica oftálmica. Su eficacia en glaucoma e hipertensión ocular está bien establecida.
 
-La calcifilaxi visceral es una enfermedad rara y potencialmente mortal que involucra calcificación de la capa media de vasos de pequeño y mediano calibre, asociada a trombosis microvascular e isquemia tisular progresiva. Teóricamente, el agonismo del receptor FP podría influir en la señalización de calcio del músculo liso vascular a través de la vía de las prostaglandinas, lo que representaría un nexo mecanístico con la fisiopatología de la calcifilaxi. La vía PGF2α participa en la regulación del tono vascular sistémico, lo que justifica que el modelo TxGNN establezca una conexión de proximidad en el grafo de conocimiento.
+Para calcifilaxis visceral **no existe un vínculo mecanístico establecido**. El puntaje del modelo (cercano a 1.0) está saturado y no distingue entre candidatos. No hay ensayos ni literatura que apoyen esta indicación.
 
-Sin embargo, esta conexión es altamente especulativa. El propio análisis del Evidence Pack señala que el alto puntaje de TxGNN probablemente refleja la cercanía de Travoprost a nodos de enfermedades vasculares en el grafo de conocimiento farmacológico, más que una relación farmacológica directa con la calcifilaxi. No existe ningún estudio preclínico ni clínico que valide este vínculo, y los datos de seguridad para administración sistémica de Travoprost son inexistentes.
-
----
+Además, la dosificación tópica ocular produce una exposición sistémica mínima. Eso hace poco probable que el fármaco llegue a los tejidos vasculares y viscerales afectados en esta enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con calcifilaxi visceral registrados para Travoprost.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación predicha.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Travoprost **no cuenta con registros sanitarios activos ante el INVIMA**. El medicamento no se encuentra comercializado en el mercado colombiano a la fecha de este informe (junio 2026). No hay licencias, formas farmacéuticas ni indicaciones aprobadas disponibles para consulta.
+Los registros de la fuente estaban repetidos; la tabla muestra los dos registros sanitarios distintos (de 20 en total).
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20219978 | GLAUCOPROST SOLUCIÓN OFTÁLMICA ESTÉRIL | Solución oftálmica | TRAVOPROST (sin texto de indicación detallado) |
+| 19950508 | GLAUCOPROST SOLUCION OFTALMICA | Solución oftálmica | TRAVOPROST (sin texto de indicación detallado) |
+
+Titular de ambos registros: MEGALABS COLOMBIA S.A.S.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Se advierte que los datos de seguridad disponibles corresponden exclusivamente al uso tópico oftálmico; los perfiles de seguridad para administración sistémica no han sido evaluados.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para calcifilaxi visceral es de nivel L5 —solo predicción del modelo, sin ningún respaldo de estudios reales—, combinada con la ausencia total de presencia regulatoria de Travoprost en Colombia, lo que hace inviable el avance en el desarrollo de esta indicación en el contexto colombiano sin pasos previos sustanciales.
+La predicción no tiene respaldo clínico ni bibliográfico (nivel L5) ni un mecanismo plausible para un fármaco tópico ocular. Los demás candidatos revisados (rangos 2 a 10) tampoco tienen evidencia a favor: siete son solo predicción y los otros dos solo aportan evidencia indirecta o de seguridad. Por ejemplo, el reporte de caso de derrame uveal inducido por travoprost en síndrome de Sturge-Weber es una señal de precaución, no de beneficio.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos que evalúen la actividad del agonismo del receptor FP en modelos de calcificación vascular y trombosis microvascular
-- Datos completos del mecanismo de acción (MOA) con evaluación de su aplicabilidad a la patología de calcifilaxi
-- Perfil de seguridad sistémica: los datos actuales solo cubren uso oftálmico tópico local y no son extrapolables
-- Definición de una ruta de administración viable para alcanzar tejidos viscerales afectados
-- Obtención de registro sanitario ante INVIMA como requisito previo a cualquier desarrollo clínico en Colombia
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Una hipótesis mecanística explícita que relacione la señalización del receptor FP con la calcifilaxis visceral, con estudios preclínicos que la apoyen
+- Datos de exposición sistémica que justifiquen cualquier efecto fuera del ojo
+- Advertencias y contraindicaciones del prospecto de INVIMA para completar el análisis de seguridad
+
+*Los resultados son solo para referencia de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

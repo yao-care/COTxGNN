@@ -2,15 +2,15 @@
 layout: default
 title: Modafinil
 parent: Evidencia Moderada (L3-L4)
-nav_order: 174
-evidence_level: L3
+nav_order: 289
+evidence_level: L4
 indication_count: 1
 ---
 
 # Modafinil
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,98 +29,94 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Modafinil: De Somnolencia Excesiva a Insomnio
+# Modafinilo: De Somnolencia Excesiva (uso conocido) a Insomnio
 
 ## Resumen en Una Frase
 
-Modafinil es un agente promotor de vigilia aprobado internacionalmente para el tratamiento de la somnolencia excesiva asociada a narcolepsia, trastorno del sueño por trabajo en turnos y apnea obstructiva del sueño.
-El modelo TxGNN predice que podría ser efectivo para **Insomnio (disease)**, con **29 ensayos clínicos** y **19 publicaciones** identificados en torno a esta dirección, aunque la gran mayoría evalúan modalidades relacionadas (fatiga, somnolencia diurna, ritmo circadiano) y no el insomnio primario de forma directa.
-La plausibilidad mecanística es indirecta y controversial: el perfil promotor de vigilia del fármaco actúa en dirección opuesta al objetivo terapéutico del insomnio clásico por hiperactivación.
-
----
+Modafinilo es un agente promotor de la vigilia, conocido por su uso en la somnolencia excesiva de la narcolepsia, la apnea obstructiva del sueño y el trastorno del sueño por turnos de trabajo.
+El modelo TxGNN predice que podría ser efectivo para **Insomnio**, pero la predicción no tiene respaldo farmacológico claro: se recuperaron **29 ensayos clínicos** y **20 publicaciones**, y casi todos tratan el insomnio o la fatiga como síntoma comórbido, no como objetivo de tratamiento con modafinilo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Sin registro sanitario en Colombia; internacionalmente: somnolencia excesiva (narcolepsia, SWSD, OSA) |
+| Item | Contenido |
+|------|------|
+| Indicación Original | No especificada en el registro (el texto del registro solo dice «MODAFINIL»). El uso conocido es la somnolencia excesiva. |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.85% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Modafinil ejerce su efecto principal mediante la inhibición del transportador de dopamina (DAT), lo que eleva los niveles sinápticos de dopamina y activa de forma secundaria los sistemas noradrenérgico, histaminérgico y de orexina/hipocretina. Este perfil farmacológico explica su potente acción promotora de vigilia y su indicación consolidada en trastornos caracterizados por somnolencia diurna excesiva.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, modafinilo es un agente promotor de la vigilia, farmacológicamente distinto de otros estimulantes. Su eficacia está comprobada en la somnolencia excesiva asociada a narcolepsia, apnea obstructiva del sueño y trastorno del sueño por turnos.
 
-La relación entre la indicación original y el insomnio es paradójica pero computacionalmente plausible. TxGNN detecta solapamiento de rutas en el circuito de regulación sueño-vigilia: tanto el insomnio como los trastornos de hipersomnia comparten nodos en la red biológica (homeostasis circadiana, vías de orexina, modulación de la adenosina). El modelo asigna un puntaje elevado porque el fármaco "toca" ese circuito, no porque la dirección del efecto sea terapéutica para el insomnio. Posibles vínculos indirectos incluyen: (1) corrección del desalineamiento circadiano para consolidar la vigilia diurna y mejorar la regularidad del sueño nocturno; (2) tratamiento de la fatiga/somnolencia diurna en comorbilidades neurológicas u oncológicas, con mejora secundaria de la arquitectura del sueño; (3) normalización de la homeostasis sueño-vigilia vía orexina en subpoblaciones con disfunción circadiana.
+Aquí la predicción es débil. Tanto la indicación original como el insomnio pertenecen al dominio sueño-vigilia, y eso probablemente explica el puntaje alto del modelo, que es una predicción basada en grafos y no en una razón farmacológica. Además, un fármaco que promueve la vigilia debería empeorar el insomnio, y el insomnio figura como efecto adverso descrito del producto. Lo más probable es que el vínculo sea un artefacto del grafo de conocimiento.
 
-Sin embargo, para el insomnio primario cuyo núcleo fisiopatológico es la **hiperactivación (hyperarousal)** cortical y autonómica, el efecto promotor de vigilia de modafinil actúa en dirección fundamentalmente opuesta al objetivo terapéutico. No se dispone de datos detallados sobre el mecanismo de acción completo en la base de datos consultada (Data Gap DG002). Esta limitación impide el análisis mecanístico completo y es un factor de riesgo crítico para este reposicionamiento.
-
----
+Los ensayos y publicaciones recuperados mencionan el insomnio como síntoma comórbido o desenlace. Casi todos evalúan la fatiga o la somnolencia diurna. Como el registro no trae indicaciones originales, no es posible una comparación de referencia.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|-----------------|------|--------|-------------|----------------------|
-| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Fase 2 | Completado | 138 | CBT ± Armodafinil para insomnio y fatiga post-quimioterapia en cáncer de mama; insomnio como endpoint primario — **único ensayo con insomnio como objetivo directo y alta relevancia** |
-| [NCT01019187](https://clinicaltrials.gov/study/NCT01019187) | Fase 2 | Completado | 226 | TCA ± Armodafinil para insomnio y fatiga en sobrevivientes de cáncer post-quimioterapia; evalúa eficacia de CBT y fármaco en reducción de insomnio |
-| [NCT01011218](https://clinicaltrials.gov/study/NCT01011218) | Fase 2 | Completado | 70 | Terapia conductual breve ± Armodafinil 150 mg/día para insomnio en pacientes con cáncer de mama; 4 brazos de randomización |
-| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | **Modafinil vs. placebo en insomnio primario** ± CBT-I; examina función diurna e intensidad del insomnio — única evidencia directa con Modafinil en insomnio primario |
-| [NCT02552303](https://clinicaltrials.gov/study/NCT02552303) | NA | Completado | 39 | Armodafinil ± CBT-I para insomnio comórbido con trastorno respiratorio del sueño (OSA); evalúa continuidad del sueño y adherencia a CPAP |
-| [NCT01965925](https://clinicaltrials.gov/study/NCT01965925) | Fase 4 | Completado | 18 | Modafinil para disfunción circadiana y cognitiva en trastorno bipolar estable; solapamiento entre desregulación circadiana e insomnio |
-| [NCT06404086](https://clinicaltrials.gov/study/NCT06404086) | Fase 2 | Completado | 830 | RECOVER-SLEEP: plataforma de intervenciones para trastornos del sueño en secuelas post-COVID (PASC); protocolo flexible multiintervención |
-| [NCT06404099](https://clinicaltrials.gov/study/NCT06404099) | Fase 2 | Activo (no recluta) | 361 | RECOVER-SLEEP continuación: evaluación comparativa de intervenciones para disturbios del sueño en PASC |
-| [NCT01080807](https://clinicaltrials.gov/study/NCT01080807) | Fase 4 | Completado | 385 | Armodafinil 150 mg para somnolencia excesiva en trastorno del sueño por turnos (SWD); mejora de condición clínica al final del turno |
-| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Fase 4 | Terminado | 2 | Modafinil para trastornos sueño-vigilia en adultos mayores; terminado prematuramente por reclutamiento insuficiente |
+Los ensayos más cercanos al tema son los que nombran el insomnio de forma explícita. Casi todos usan armodafinilo (enantiómero R del modafinilo), lo que los hace evidencia indirecta. Ninguno tiene calificación de relevancia completada, salvo NCT01091974 (grado B).
 
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00124384](https://clinicaltrials.gov/study/NCT00124384) | Fase 4 | Completado | 40 | Modafinilo solo o con terapia cognitivo-conductual para el insomnio (TCC-I) en insomnio primario. Evalúa función diurna y gravedad del insomnio. Es el único que prueba modafinilo directamente en insomnio, pero es pequeño. |
+| [NCT01019187](https://clinicaltrials.gov/study/NCT01019187) | Fase 2 | Completado | 226 | TCC con o sin armodafinilo para insomnio y fatiga tras quimioterapia en sobrevivientes de cáncer. |
+| [NCT01091974](https://clinicaltrials.gov/study/NCT01091974) | Fase 2 | Completado | 138 | ECA de cuatro brazos de TCC-I y armodafinilo en pacientes con cáncer de mama con trastornos del sueño. Calificado B (indirecto: el fármaco apunta a la fatiga, no al inicio del sueño). |
+| [NCT01011218](https://clinicaltrials.gov/study/NCT01011218) | Fase 2 | Completado | 70 | Piloto de terapia conductual breve o TCC-I, con o sin armodafinilo 150 mg/día, para insomnio en cáncer de mama. |
+| [NCT02552303](https://clinicaltrials.gov/study/NCT02552303) | N/A | Completado | 39 | Armodafinilo y/o TCC-I en insomnio comórbido con apnea del sueño; mide continuidad del sueño y adherencia a CPAP. |
+| [NCT00626210](https://clinicaltrials.gov/study/NCT00626210) | Fase 4 | Terminado | 2 | Modafinilo para alteraciones sueño-vigilia en adultos mayores. Terminado con solo 2 participantes, sin valor estadístico. |
+| [NCT06404099](https://clinicaltrials.gov/study/NCT06404099) | Fase 2 | Activo, no recluta | 361 | Protocolo de plataforma RECOVER-SLEEP para alteraciones del sueño en COVID prolongado. |
+| [NCT06404086](https://clinicaltrials.gov/study/NCT06404086) | Fase 2 | Completado | 830 | Segundo protocolo de la plataforma RECOVER-SLEEP, mismo objetivo. |
+| [NCT00582491](https://clinicaltrials.gov/study/NCT00582491) | N/A | Completado | 44 | Modafinilo, sueño y cognición en dependencia de cocaína, con 16 noches de internación. |
+| [NCT00917748](https://clinicaltrials.gov/study/NCT00917748) | Fase 3 | Completado | 84 | Modafinilo para fatiga en cáncer de mama o próstata con docetaxel. El trastorno del sueño es un desenlace secundario. |
+
+Los ensayos de Fase 3 recuperados con armodafinilo (NCT01305408, NCT01072630, NCT01072929) son de depresión bipolar y no aportan evidencia para insomnio.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revisión Basada en Evidencia | *Drugs* | Revisión comprehensiva de usos aprobados e investigacionales de modafinil; cubre ECA doble ciego en somnolencia excesiva, fatiga y cognición en múltiples condiciones |
-| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Revisión Sistemática y Metaanálisis | *Parkinsonism & Related Disorders* | Intervenciones farmacológicas para somnolencia diurna y trastornos del sueño en Parkinson; evalúa nivel de evidencia de modafinil vs. comparadores |
-| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revisión Sistemática (MDS-EBM) | *Movement Disorders* | Actualización MDS sobre tratamientos de síntomas no motores en Parkinson, incluyendo insomnio y somnolencia; revisión de máxima jerarquía metodológica |
-| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Revisión / Metaanálisis | *PLoS ONE* | Eficacia de modafinil en fatiga y somnolencia excesiva en trastornos neurológicos; resultados inconsistentes entre estudios; señala perfil de seguridad favorable |
-| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revisión | *Expert Opinion on Pharmacotherapy* | Manejo farmacológico y no farmacológico de trastornos del sueño en Parkinson; modafinil mencionado como opción para somnolencia diurna |
-| [15824337](https://pubmed.ncbi.nlm.nih.gov/15824337/) | 2005 | ECA Aleatorizado | *Neurology* | Modafinil para fatiga en esclerosis múltiple; ECA doble ciego placebo-controlado; no mostró diferencia significativa en fatiga global aunque sí en fatiga subjetiva leve |
-| [18219235](https://pubmed.ncbi.nlm.nih.gov/18219235/) | 2008 | ECA Aleatorizado | *J Head Trauma Rehabilitation* | Modafinil para fatiga y somnolencia excesiva en traumatismo craneoencefálico crónico; evidencia de efecto moderado sobre somnolencia objetiva |
-| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Revisión | *Neurotherapeutics* | Tratamiento de trastornos del sueño en Parkinson; CBT e iluminoterapia señalados para insomnio; modafinil evaluado indirectamente |
-| [18805301](https://pubmed.ncbi.nlm.nih.gov/18805301/) | 2008 | Revisión | *Revue Neurologique* | Narcolepsia con cataplejía; modafinil como tratamiento estándar para somnolencia diurna; menciona insomnio de mantenimiento como síntoma comórbido |
-| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revisión | *Drugs* | Trastorno del sueño por trabajo en turnos; modafinil como tratamiento de primera línea; discute la disrupción del ritmo circadiano como factor común con insomnio |
+|------|-----|------|------|---------|
+| [15824337](https://pubmed.ncbi.nlm.nih.gov/15824337/) | 2005 | ECA | Neurology | Modafinilo frente a placebo para la fatiga en esclerosis múltiple. |
+| [18219235](https://pubmed.ncbi.nlm.nih.gov/18219235/) | 2008 | ECA | J Head Trauma Rehabil | Modafinilo para fatiga y somnolencia diurna en lesión cerebral traumática crónica. |
+| [24312590](https://pubmed.ncbi.nlm.nih.gov/24312590/) | 2013 | Metaanálisis | PLoS One | Eficacia y seguridad de modafinilo en fatiga y somnolencia diurna asociadas a trastornos neurológicos. |
+| [27010071](https://pubmed.ncbi.nlm.nih.gov/27010071/) | 2016 | Metaanálisis | Parkinsonism Relat Disord | Intervenciones farmacológicas para somnolencia y trastornos del sueño en Parkinson. |
+| [18729534](https://pubmed.ncbi.nlm.nih.gov/18729534/) | 2008 | Revisión | Drugs | Revisión basada en evidencia de los usos aprobados y en investigación de modafinilo. |
+| [22021174](https://pubmed.ncbi.nlm.nih.gov/22021174/) | 2011 | Revisión | Mov Disord | Revisión de la Movement Disorder Society sobre tratamientos de síntomas no motores del Parkinson. |
+| [24272458](https://pubmed.ncbi.nlm.nih.gov/24272458/) | 2014 | Revisión | Neurotherapeutics | Tratamiento de los trastornos del sueño en Parkinson; para el insomnio la evidencia preliminar favorece TCC y terapia de luz. |
+| [39535843](https://pubmed.ncbi.nlm.nih.gov/39535843/) | 2024 | Revisión | Expert Opin Pharmacother | Manejo farmacológico y no farmacológico de las alteraciones del sueño en Parkinson. |
+| [17181377](https://pubmed.ncbi.nlm.nih.gov/17181377/) | 2006 | Revisión | Drugs | Carga y manejo del trastorno del sueño por turnos de trabajo. |
+| [17060310](https://pubmed.ncbi.nlm.nih.gov/17060310/) | 2006 | Serie de casos | Am J Hosp Palliat Care | Modafinilo reduce la fatiga en Charcot-Marie-Tooth tipo 1A. |
 
----
+Ninguna de estas publicaciones prueba modafinilo como tratamiento del insomnio.
+
+## Información de Mercado en Colombia
+
+El registro reporta 20 entradas, pero las cinco recuperadas son idénticas (mismo registro sanitario), por lo que se muestran una sola vez.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19968570 | VIGIA® 100 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (el registro no detalla la indicación) |
 
 ## Consideraciones de Seguridad
 
-Actualmente no se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en este Evidence Pack (DG001: falta de prospecto oficial; DDI: no encontrado).
-
-> Consultar el prospecto para información de seguridad.
-
-**Nota de alerta mecanística:** Dado que modafinil es un agente promotor de vigilia, existe riesgo inherente de **agravar el insomnio** en pacientes con hiperactivación cortical, que es la presentación más frecuente del insomnio primario. Este riesgo debe evaluarse explícitamente en cualquier diseño de ensayo clínico antes de avanzar.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN refleja solapamiento computacional en la red sueño-vigilia, pero la dirección farmacológica de modafinil (promotor de vigilia) es opuesta al objetivo terapéutico del insomnio primario por hiperactivación; la evidencia directa es escasa (un único ensayo Phase 4 con n=40 en insomnio primario, NCT00124384), y el fármaco no cuenta con registro sanitario en Colombia ni datos de seguridad validados localmente.
+La predicción de TxGNN (99.85%) no tiene sustento farmacológico. Modafinilo promueve la vigilia y puede causar insomnio, y ningún ensayo grande y directo lo respalda para tratar el insomnio. Solo NCT00124384 lo prueba directamente, con 40 pacientes, y el resto es evidencia indirecta con armodafinilo. Por eso el nivel de evidencia se mantiene en L4.
 
 **Para avanzar se necesita:**
-
-- **Datos de MOA completos (DG002):** Confirmar si existe subpoblación (p. ej., insomnio con somnolencia diurna comórbida, narcolepsia, insomnio post-COVID con disfunción circadiana) donde el efecto promotor de vigilia sea terapéuticamente coherente con el objetivo
-- **Resultados de NCT00124384:** Obtener publicación primaria del ensayo Phase 4 sobre modafinil en insomnio primario para cuantificar eficacia real y dirección del efecto
-- **Prospecto oficial (DG001):** Recuperar advertencias y contraindicaciones de INVIMA o FDA para completar evaluación de seguridad S1
-- **Definición de subpoblación objetivo:** Distinguir insomnio primario (contraindicado mecanísticamente) de insomnio comórbido con fatiga/SDE (potencialmente viable), insomnio post-COVID, o insomnio en pacientes oncológicos post-quimioterapia
-- **Revisión de datos de NCT06404086/NCT06404099 (RECOVER-SLEEP):** Extraer brazo de modafinil/armodafinil si aplica, dada la relevancia emergente del insomnio post-COVID
+- Revisar los resultados de NCT00124384 y calificar su relevancia, que sigue pendiente. El resumen del Evidence Pack indica que ningún estudio prueba modafinilo en insomnio, lo cual contradice este ensayo.
+- Obtener el mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), requisito bloqueante para el tamizaje de seguridad.
+- Aclarar la indicación original aprobada en Colombia, ya que el registro solo muestra el nombre del fármaco.
+- Sin un ECA propio de modafinilo en insomnio con resultados favorables, no se recomienda avanzar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

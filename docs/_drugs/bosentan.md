@@ -2,15 +2,15 @@
 layout: default
 title: Bosentan
 parent: Evidencia Moderada (L3-L4)
-nav_order: 70
-evidence_level: L3
+nav_order: 94
+evidence_level: L4
 indication_count: 9
 ---
 
 # Bosentan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,82 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-Usando el skill `txgnn-pipeline` para orientar la generación del informe de reposicionamiento.
-
-Analizando el Evidence Pack: indicación top es **artritis reumatoide** (Rank 1), nivel L3, sin registros en Colombia. Procedo a generar el informe completo.
-
----
-
-# Bosentan: De Hipertensión Arterial Pulmonar a Artritis Reumatoide
+# Bosentán: De Hipertensión Arterial Pulmonar a Artritis Reumatoide
 
 ## Resumen en Una Frase
 
-Bosentan es un antagonista dual de los receptores de endotelina (ETA/ETB), reconocido globalmente como tratamiento de primera línea para la hipertensión arterial pulmonar (HAP).
-El modelo TxGNN predice que podría ser efectivo para **Artritis Reumatoide**,
-con **1 ensayo clínico** (de relevancia indirecta) y **16 publicaciones** que actualmente exploran esta dirección.
-
----
+Bosentán es un antagonista dual de los receptores de endotelina (ETA/ETB). La literatura recuperada lo describe como tratamiento de la hipertensión arterial pulmonar, aunque el registro sanitario colombiano no detalla su indicación. El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, pero la evidencia es débil: **1 ensayo clínico** (en arteritis de células gigantes, no en artritis reumatoide) y **16 publicaciones**, casi todas revisiones o estudios en animales.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión Arterial Pulmonar (HAP) |
-| Nueva Indicación Predicha | Artritis Reumatoide |
+| Indicación Original | No detallada en el registro (el texto registrado es solo «BOSENTAN»); la literatura lo asocia con hipertensión arterial pulmonar |
+| Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 99.80% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción en las bases de datos consultadas. Sin embargo, según la literatura científica publicada, Bosentan es un antagonista dual de los receptores de endotelina tipo A y tipo B (ETA/ETB) que bloquea la acción de la endotelina-1 (ET-1), un potente vasoconstrictor y mediador inflamatorio. Su eficacia en la hipertensión arterial pulmonar ha sido ampliamente comprobada en ensayos Phase 3 (RAPIDS-1/2), donde reduce la resistencia vascular pulmonar al antagonizar los efectos vasoconstrictores y proliferativos de la ET-1 sobre el endotelio pulmonar.
+Bosentán bloquea los receptores de endotelina ETA y ETB. La endotelina participa en la inflamación de la membrana sinovial y en la remodelación de los vasos sanguíneos. El registro no trae un campo formal de mecanismo de acción; esta descripción proviene del análisis de racionalidad de la predicción.
 
-En la artritis reumatoide (AR), el tejido sinovial presenta niveles elevados de ET-1. Esta molécula actúa a través del receptor ETA para promover la liberación de TNF-α, amplificar la cascada inflamatoria sinovial y contribuir a la hipernociception articular (dolor crónico de origen inflamatorio). Al bloquear de forma dual los receptores ETA y ETB, Bosentan podría interrumpir este circuito de retroalimentación inflamatoria, reduciendo tanto la sinovitis como la sensibilización nociceptiva característica de la AR.
+Los estudios en animales apoyan la idea. En ratones con artritis inducida por colágeno, bosentán redujo la enfermedad, y el TNF-α parece intervenir en la activación de los genes del sistema de endotelina (PMID 22249931). En un modelo de artritis por zimosán, las endotelinas modularon la inflamación (PMID 18515326).
 
-Estudios en modelos animales respaldan esta hipótesis: el modelo de artritis inducida por colágeno (CIA) en ratones demuestra que Bosentan mejora significativamente los marcadores de artritis (PMID 22249931), y estudios mecanísticos adicionales confirman que la ET-1 participa activamente en la inflamación articular mediada por citoquinas clave como IL-15 e IL-17 (PMID 16766656, 19969421). No obstante, hasta la fecha no existen ensayos clínicos directos en humanos con AR, lo que limita el nivel de evidencia a **L3** y justifica una recomendación de **Hold** mientras se consolida la base preclínica.
-
----
+Aun así, **no se encontraron datos de eficacia en personas con artritis reumatoide**. La literatura clínica trata sobre todo de hipertensión pulmonar asociada a enfermedades del tejido conectivo, un problema distinto. Por ahora la predicción es una hipótesis de investigación y no una indicación respaldada clínicamente.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Fase 2 | Aún no reclutando | 40 | Evalúa Bosentan + glucocorticoides vs. glucocorticoides solos en Arteritis de Células Gigantes (GCA). Objetivo: superioridad en supervivencia libre de fracaso a 12 meses. Relevancia para AR es indirecta: GCA y AR comparten vías inmuno-inflamatorias (eje TNF/IL-6), pero son entidades clínicas distintas con resultados no solapables. |
-
-> ⚠️ **Nota de relevancia**: El único ensayo clínico identificado tiene como objetivo la Arteritis de Células Gigantes (GCA), **no la Artritis Reumatoide**. Su relevancia para AR es indirecta (Grado C). No existen ensayos clínicos directos de Bosentan en AR registrados a la fecha de corte (2026-05-06).
-
----
+| [NCT06957002](https://clinicaltrials.gov/study/NCT06957002) | Fase 2 | Aún no recluta | 40 | Bosentán más glucocorticoides frente a glucocorticoides solos en arteritis de células gigantes, con supervivencia libre de fallo a 12 meses como criterio principal. No es un ensayo en artritis reumatoide y no tiene resultados |
 
 ## Evidencia de Literatura
 
+No hay ensayos aleatorizados. La evidencia son estudios en animales, revisiones y un reporte de caso.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Modelo animal (CIA) | Inflammation Research | Bosentan (antagonista dual ETA/ETB) mejora la artritis inducida por colágeno en ratones; TNF-α induce la expresión de genes del sistema endotelínico en tejido articular inflamado — evidencia preclínica más directa disponible |
-| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Estudio mecanístico animal | J Leukocyte Biology | Las endotelinas modulan la acumulación de neutrófilos y la formación de edema articular en el modelo de artritis por zymosan; los niveles de ET-1 están elevados en plasma y membrana sinovial de pacientes con AR |
-| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Estudio mecanístico animal | PNAS | IL-15 induce hipernociception mecánica en ratones a través de la liberación secuencial de IFN-γ, endotelina y prostaglandina; el antagonismo dual ERA inhibe esta cadena — mecanismo relevante al dolor crónico en AR |
-| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Estudio mecanístico animal | Pain | IL-17 induce hipernociception articular dosis-dependiente en el modelo de artritis por antígeno (mBSA) en ratones; refuerza el papel del eje citoquinas-endotelina en la fisiopatología del dolor en AR |
-| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Revisión | Rheum Dis Clin North Am | HAP asociada a enfermedades del tejido conectivo (incluyendo AR) conlleva mortalidad de 10-15% en el primer año; revisión de opciones terapéuticas con ERA y diagnóstico temprano |
-| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Revisión | Rheumatology (Oxford) | Vasculitis y HAP en LES y síndrome de Sjögren; justificación del uso de ERA en vasculopatías asociadas a enfermedades reumáticas del tejido conectivo |
-| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Revisión | Lupus | HAP como complicación de enfermedades del tejido conectivo incluyendo AR, dermatomiositis y síndrome de Sjögren; sustenta el papel de la ET-1 como diana terapéutica en reumatología |
-| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Revisión | Curr Opin Rheumatology | Revisión del estado del arte en enfermedades cutáneas reumáticas: fisiopatología, medidas de resultado y terapias emergentes; contexto general del campo |
-| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Reporte de caso | Kardiologia Polska | Niña de 8.5 años con síndrome de Eisenmenger tratada con Bosentan que desarrolló simultáneamente artritis reumatoide juvenil; único caso documentado de coexistencia, sin interacción terapéutica adversa reportada |
-| [18238768](https://pubmed.ncbi.nlm.nih.gov/18238768/) | 2008 | Revisión | AJHP | Opciones terapéuticas actuales y emergentes para complicaciones de esclerosis sistémica; contextualiza el uso de ERA en el espectro de enfermedades reumáticas con componente vascular |
+| [22249931](https://pubmed.ncbi.nlm.nih.gov/22249931/) | 2012 | Preclínico (modelo animal) | Inflamm Res | Bosentán mejora la artritis inducida por colágeno en ratones; el TNF-α interviene en la activación del sistema de endotelina |
+| [18515326](https://pubmed.ncbi.nlm.nih.gov/18515326/) | 2008 | Preclínico (modelo animal) | J Leukoc Biol | Las endotelinas modulan la inflamación en artritis por zimosán, con participación de LTB4, TNF-α y CXCL-1 |
+| [16766656](https://pubmed.ncbi.nlm.nih.gov/16766656/) | 2006 | Preclínico (modelo animal) | PNAS | La hipernocicepción inducida por IL-15 se inhibe con un antagonista dual de receptores de endotelina |
+| [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Reporte de caso | Kardiol Pol | Niña con síndrome de Eisenmenger y artritis reumatoide juvenil; mejoró clínicamente con bosentán para el síndrome de Eisenmenger, sin que esto pruebe eficacia en artritis |
+| [24268012](https://pubmed.ncbi.nlm.nih.gov/24268012/) | 2014 | Revisión | Rheum Dis Clin North Am | Hipertensión pulmonar asociada a enfermedades del tejido conectivo: pronóstico y opciones de tratamiento |
+| [16218473](https://pubmed.ncbi.nlm.nih.gov/16218473/) | 2005 | Revisión | Lupus | Hipertensión pulmonar en enfermedades del tejido conectivo, poco frecuente en artritis reumatoide |
+| [19487226](https://pubmed.ncbi.nlm.nih.gov/19487226/) | 2009 | Revisión | Rheumatology (Oxford) | Vasculopatía e hipertensión pulmonar asociadas a lupus, Sjögren y vasculitis |
+| [19851110](https://pubmed.ncbi.nlm.nih.gov/19851110/) | 2010 | Revisión | Curr Opin Rheumatol | Manifestaciones cutáneas de enfermedades reumáticas; sin datos específicos de bosentán en artritis reumatoide |
+| [19969421](https://pubmed.ncbi.nlm.nih.gov/19969421/) | 2010 | Preclínico (no específico de bosentán) | Pain | La IL-17 media el dolor articular en artritis inducida por antígeno en ratones |
+| [21165350](https://pubmed.ncbi.nlm.nih.gov/21165350/) | 2010 | Sin clasificar | Can Respir J | Tratamiento de la hipertensión pulmonar en enfermedad del tejido conectivo con enfermedad pulmonar intersticial |
 
----
+## Información de Mercado en Colombia
+
+El registro indica 8 licencias en total, pero los datos entregados solo muestran 2 números de registro distintos. El registro 20174462 aparece repetido 4 veces con datos idénticos y aquí se lista una sola vez.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20174462 | BOSENTAN 125 MG (Clínicos y Hospitalarios de Colombia S.A.S.) | Tableta recubierta | No detallada (el registro solo indica «BOSENTAN») |
+| 20103607 | TABOSEN® 125 MG (Xinetix Pharma S.A.S.) | Tableta | No detallada (el registro solo indica «BOSENTAN») |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia actual para Bosentan en artritis reumatoide se limita a modelos animales y estudios mecanísticos preclínicos (Nivel L3), sin ningún ensayo clínico directo en humanos. Aunque el fundamento biológico es plausible —ET-1 elevada en tejido sinovial activa la cascada inflamatoria vía ETA— la brecha entre la evidencia preclínica y la clínica es demasiado amplia para justificar avanzar en este momento. Adicionalmente, Bosentan no se encuentra comercializado en Colombia, lo que representa una barrera regulatoria adicional.
+La predicción para artritis reumatoide tiene un puntaje TxGNN alto (99.80%), pero solo la respaldan estudios en animales, revisiones sobre otras enfermedades y un reporte de caso sin valor de eficacia. No hay ningún estudio clínico en artritis reumatoide (evidencia L4, etapa S0, «pregunta de investigación»).
 
 **Para avanzar se necesita:**
-- Confirmación formal del mecanismo de acción (MOA) mediante consulta a DrugBank API y ficha técnica oficial
-- Obtención del prospecto INVIMA/TFDA para evaluación completa de advertencias, contraindicaciones e interacciones
-- Evaluación de interacciones farmacológicas con DMARDs convencionales usados en AR (metotrexato, leflunomida, sulfasalazina)
-- Diseño y registro de un ensayo clínico Fase 2 específico en pacientes con AR activa refractaria
-- Análisis de viabilidad regulatoria para uso compasivo o importación en Colombia ante INVIMA
+- Obtener y analizar el prospecto de INVIMA (advertencias, contraindicaciones e interacciones), que hoy no está disponible y bloquea cualquier tamizaje de seguridad.
+- Confirmar la indicación aprobada y el mecanismo de acción desde fuentes oficiales (INVIMA y DrugBank).
+- Buscar evidencia clínica directa en artritis reumatoide, ya sea con estudios en humanos o con un ensayo piloto bien diseñado.
+- Priorizar otra predicción del mismo fármaco: **esclerosis sistémica limitada** (rank 3, L3, etapa S2, «Proceed with Guardrails»). Tiene un estudio observacional de 300 pacientes con úlceras digitales (NCT05168215) y una revisión sistemática con metaanálisis de 2023 (PMID 36974107). Antes de subir su nivel a L1 o L2 hay que verificar si esa revisión incluye ensayos de Fase 3.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Todo candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

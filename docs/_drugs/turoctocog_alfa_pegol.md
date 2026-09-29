@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 232
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog Alfa Pegol: De Hemofilia A a Trastorno Primario de Liberación Plaquetaria
+# Turoctocog alfa pegol: De Coagulación (Factor VIII) a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Turoctocog alfa pegol es un Factor VIII recombinante pegilado (rFVIII-PEG), diseñado para la prevención y tratamiento de hemorragias en pacientes con hemofilia A (deficiencia congénita del Factor VIII).
-El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, sin embargo **no existen ensayos clínicos ni publicaciones** que respalden actualmente esta dirección.
-La evidencia disponible se limita únicamente a la predicción computacional, lo que sitúa esta indicación en nivel L5.
-
----
+Turoctocog alfa pegol es un factor VIII de coagulación recombinante pegilado, comercializado en Colombia como ESPEROCT® y registrado para la coagulación por factor VIII.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Hemofilia A (deficiencia congénita del Factor VIII) |
+|------|------|
+| Indicación Original | Coagulación factores VIII |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
 | Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, turoctocog alfa pegol es un Factor VIII recombinante con pegilación en el sitio O-glucosilado del dominio B (clase: terapia de reemplazo de factor de coagulación). Su eficacia en hemofilia A está comprobada: actúa como cofactor en el complejo Xase (FIXa–FVIIIa) para amplificar exponencialmente la generación de trombina durante la fase de coagulación secundaria. La pegilación extiende su vida media a aproximadamente 19 horas, lo que permite una dosificación profiláctica menos frecuente.
+Turoctocog alfa pegol es un factor VIII recombinante pegilado. El factor VIII actúa como cofactor del factor IXa en el complejo tenasa, que impulsa la cascada de coagulación. Actualmente no se dispone de datos detallados del mecanismo de acción en las fuentes consultadas; la descripción anterior proviene de la clase del fármaco.
 
-El trastorno primario de liberación plaquetaria (defecto en la secreción de gránulos δ y/o α) afecta la hemostasia primaria: la activación y amplificación plaquetaria inicial tras la adhesión al subendotelio. El Factor VIII, en cambio, opera en la hemostasia secundaria. Existe un punto de cruce biológico: la trombina generada por el complejo Xase puede retroactivar plaquetas vía receptores PAR-1/PAR-4, pero esta relación es indirecta, mediada por múltiples pasos y no constituye una corrección causal del defecto de liberación granular subyacente.
+Los trastornos de liberación (secreción) plaquetaria son defectos intrínsecos de la plaqueta. Reponer factor VIII no corregiría ese defecto, por lo que no se identifica un mecanismo directo que conecte el fármaco con esta enfermedad. El puntaje alto de TxGNN proviene de relaciones en el grafo de conocimiento, no de evidencia clínica.
 
-En consecuencia, la conexión mecanística entre rFVIII-PEG y el trastorno primario de liberación plaquetaria es débil. El elevado puntaje TxGNN probablemente refleja la proximidad de nodos de enfermedades hemorrágicas en el grafo de conocimiento (Knowledge Graph), más que una relación farmacológica directa. En el mismo perfil de predicción existen indicaciones con mayor justificación mecanística —notablemente la pseudo-enfermedad de von Willebrand (Rank 2) y la deficiencia adquirida de factores de coagulación (Rank 4)— que representan oportunidades de reposicionamiento más sólidas.
-
----
+Las demás predicciones del top 10 siguen el mismo patrón. La mayoría son defectos plaquetarios (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, defecto del receptor de colágeno, trombocitopenias constitucionales y aloinmune), y el factor VIII no actúa sobre ellos. La única con plausibilidad mecanística es la **deficiencia adquirida de factores de coagulación** (puntaje 99.974%), que se considera solo una pregunta de investigación. Es una categoría muy amplia, y en la hemofilia A adquirida los autoanticuerpos inhibidores neutralizarían el producto. Además, el término "flood factor deficiency" no es claro y podría ser un artefacto de mapeo de la ontología.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
+
+Se reportan 20 registros sanitarios. Los 5 registros del listado son idénticos (mismo número de registro, mismo producto), por lo que se presentan en una sola fila.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20189841 | ESPEROCT® 1000UI (Novo Nordisk A/S) | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII |
+
+También existe una presentación en polvo liofilizado para reconstituir a solución inyectable.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-A pesar del puntaje TxGNN de 99.997%, la conexión mecanística entre el Factor VIII recombinante pegilado y el trastorno primario de liberación plaquetaria es indirecta y carece por completo de respaldo en ensayos clínicos o literatura publicada. La indicación se clasifica en L5 (solo predicción computacional), y el análisis de racionalidad mecanística no identifica una relación causal directa que justifique avanzar a evaluación de seguridad.
+La predicción no tiene ensayos clínicos ni literatura (nivel L5). Además, no existe un mecanismo plausible que conecte el factor VIII con los defectos plaquetarios predichos.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de acción (MOA) completo mediante consulta de DrugBank API (DG002)
-- Obtener las advertencias y contraindicaciones del prospecto oficial (DG001)
-- Reclasificar como indicación prioritaria la **pseudo-enfermedad de von Willebrand** (Rank 2, puntuación 99.996%, mecanismo más coherente: descenso secundario de FVIII por pérdida del complejo vWF–FVIII) o la **deficiencia adquirida de factores de coagulación** (Rank 4, puntuación 99.974%, alineación directa con el efecto de clase del rFVIII)
-- Búsqueda bibliográfica ampliada sobre uso de FVIII en trastornos hemorrágicos plaquetarios raros (no restringida al fármaco específico)
-- Gestión de registro ante INVIMA si se decide avanzar con la indicación mejor soportada mecanísticamente
+- Datos detallados del mecanismo de acción (MOA) y de la indicación original desde DrugBank
+- Prospecto de INVIMA con advertencias y contraindicaciones
+- Definir el subtipo concreto de "deficiencia adquirida de factores de coagulación", el único candidato mecanísticamente plausible, y revisar la literatura antes de reconsiderarlo
+- Verificar el término "flood factor deficiency" contra la ontología de origen
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

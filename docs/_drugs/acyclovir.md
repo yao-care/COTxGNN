@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acyclovir
-parent: Evidencia Moderada (L3-L4)
-nav_order: 21
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 25
+evidence_level: L5
 indication_count: 10
 ---
 
 # Acyclovir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,82 +29,68 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-El skill confirma que este es trabajo de pipeline TxGNN — procedo a generar el informe de evaluación siguiendo el formato del sistema para el Evidence Pack proporcionado.
-
----
-
-# Acyclovir: De Infección por Herpes Simple a Queratoconjuntivitis Epitelial Puntata
+# Aciclovir: De Infecciones por Herpesvirus a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-Acyclovir es un antiviral clásico de la familia de los análogos de nucleósidos, reconocido internacionalmente por su eficacia en el tratamiento de infecciones por virus Herpes Simple (HSV-1/2) y Varicela-Zoster (VZV), aunque actualmente no cuenta con registro sanitario en Colombia. El modelo TxGNN predice que podría ser efectivo para la **Queratoconjuntivitis Epitelial Puntata**, con **0 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta dirección, ambas de carácter indirecto y sin evaluar esta indicación de forma directa.
-
----
+Aciclovir es un antiviral que en Colombia se comercializa con 20 registros sanitarios, entre ellos un ungüento tópico y una tableta recubierta oral. Su uso conocido es contra virus herpes (HSV/VZV), aunque el texto de indicación de los registros solo indica el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**, con **0 ensayos clínicos** y **2 publicaciones** que no evalúan aciclovir, por lo que no hay respaldo real para esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por Herpes Simple / Varicela-Zoster (sin registro sanitario en Colombia) |
-| Nueva Indicación Predicha | Queratoconjuntivitis Epitelial Puntata |
+| Indicación Original | ACICLOVIR (el registro solo indica el principio activo, sin texto de indicación) |
+| Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 99.67% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Acyclovir es un profármaco análogo acíclico de guanosina que, al ser fosforilado selectivamente por la timidina quinasa codificada por los herpesvirus (HSV/VZV), se convierte en un potente inhibidor de la ADN polimerasa viral, deteniendo la replicación del virus en las células infectadas. Aunque los datos formales del mecanismo de acción no están disponibles en el expediente actual, el conocimiento farmacológico establecido es sólido: esta selectividad por la timidina quinasa viral le confiere tanto su eficacia antiherpética como una limitación fundamental para actuar sobre otros patógenos que carecen de dicha enzima.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, aciclovir se activa mediante la timidina cinasa viral del HSV y del VZV, y por eso es eficaz contra las infecciones por esos herpesvirus.
 
-La conexión con la queratoconjuntivitis epitelial puntata (QEP) tiene un sustento biológico plausible: el HSV-1 es uno de los agentes etiológicos reconocidos de esta patología ocular superficial. De hecho, las formulaciones oftálmicas de Acyclovir (ungüento al 3%) están aprobadas en Europa y otros mercados para la queratitis herpética superficial, que puede manifestarse precisamente como QEP. En este sentido, el modelo TxGNN captura una asociación real entre el fármaco y la patología corneal herpética.
+La queratitis epitelial punteada suele ser de origen adenoviral y, con menos frecuencia, herpético o microsporidial. Solo la causa herpética se relaciona con el mecanismo de aciclovir. Los adenovirus y los microsporidios no dependen de esa timidina cinasa, así que no se espera un efecto antiviral relevante en ellos.
 
-Sin embargo, la evidencia disponible en el expediente para esta indicación específica es notablemente débil. Las dos únicas publicaciones recuperadas son series de casos que abordan condiciones distintas: la primera describe lipidosis corneal inducida por fármacos en pacientes con SIDA (sin relación con Acyclovir en QEP), y la segunda reporta queratoconjuntivitis por microsporidios (infección parasitaria intracelular, no viral). No existe ningún ensayo clínico registrado para esta combinación fármaco-indicación. La predicción del modelo, aunque mecanísticamente plausible, parece capturar una asociación general de "Acyclovir + patología ocular herpética" sin evidencia suficiente para esta presentación clínica específica.
-
----
+El puntaje alto de TxGNN (0.997) es una predicción basada en el grafo de conocimiento y no tiene respaldo clínico. Ninguno de los dos artículos recuperados prueba aciclovir en esta condición.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Acyclovir en queratoconjuntivitis epitelial puntata.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [7825685](https://pubmed.ncbi.nlm.nih.gov/7825685/) | 1995 | Serie de Casos | American Journal of Ophthalmology | Dos pacientes con SIDA bajo tratamiento para infecciones oportunistas desarrollaron cambios bilaterales en la superficie ocular compatibles con lipidosis corneal inducida por fármacos que se unen a fosfolípidos lisosomales. Evidencia indirecta; no evalúa Acyclovir en QEP. |
-| [21934222](https://pubmed.ncbi.nlm.nih.gov/21934222/) | 2011 | Serie de Casos | Indian Journal of Pathology & Microbiology | Serie de casos de queratoconjuntivitis microsporidiana en una cohorte de la India oriental. Infección parasitaria intracelular (Microsporidia), sin vínculo directo con HSV ni con Acyclovir como tratamiento. |
-
----
+|------|-----|------|------|---------|
+| [7825685](https://pubmed.ncbi.nlm.nih.gov/7825685/) | 1995 | Serie de casos | American Journal of Ophthalmology | Dos pacientes con SIDA desarrollaron lipidosis corneal por fármacos que se unen a fosfolípidos lisosomales. No evalúa aciclovir. |
+| [21934222](https://pubmed.ncbi.nlm.nih.gov/21934222/) | 2011 | Serie de casos | Indian Journal of Pathology & Microbiology | Características de la queratoconjuntivitis microsporidial en una cohorte del este de la India. No evalúa aciclovir. |
 
 ## Información de Mercado en Colombia
 
-Acyclovir **no cuenta con ningún registro sanitario vigente en Colombia** (INVIMA). El medicamento figura con estado **no comercializado**, con un total de **0 licencias activas**. No existe base regulatoria local para evaluar formulaciones disponibles ni indicaciones aprobadas en el mercado nacional en este momento.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 219368 | VIREX® UNGÜENTO (EUROFARMA COLOMBIA S.A.S.) | Ungüento tópico | ACICLOVIR (solo el nombre del principio activo) |
 
----
+El paquete de evidencia repite este mismo registro cinco veces, por lo que se muestra una sola vez. Además del ungüento tópico, el farmaco tiene autorizada la tableta recubierta por vía oral. Ninguna de las formas listadas es oftálmica, y la compatibilidad de vía para esta indicación no ha sido evaluada.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN es mecanísticamente plausible dado el papel reconocido del HSV en la patología corneal superficial, pero carece completamente de evidencia clínica directa para queratoconjuntivitis epitelial puntata: ningún ensayo clínico registrado y las dos publicaciones disponibles son evidencia indirecta e irrelevante para esta indicación (nivel L4). Sumado a que Acyclovir no está comercializado en Colombia, la barrera regulatoria y evidencial es considerable para avanzar.
+La predicción no tiene ensayos clínicos y la literatura recuperada no prueba aciclovir. Además, la causa más frecuente (adenovirus) no es susceptible al mecanismo del fármaco.
 
 **Para avanzar se necesita:**
-- Búsqueda dirigida de estudios clínicos con Acyclovir oftálmico (ungüento 3% o colirio) específicamente en queratoconjuntivitis herpética superficial y QEP
-- Verificar si las fichas técnicas europeas o de EE.UU. de las formulaciones oftálmicas de Acyclovir incluyen la QEP como indicación explícita o implícita
-- Obtención del prospecto completo y datos de mecanismo de acción formal (consulta DrugBank API, DG002)
-- Datos de seguridad y advertencias de la ficha de INVIMA o equivalente internacional (DG001)
-- Evaluación de viabilidad de registro o importación ante INVIMA para formulación oftálmica
+- Definir el agente causal. Solo la queratitis epitelial herpética tendría un vínculo mecanístico plausible con aciclovir.
+- Una búsqueda dirigida de literatura sobre aciclovir en queratitis herpética epitelial.
+- Datos de seguridad del prospecto de INVIMA y evaluación de una formulación oftálmica, ya que las formas registradas son tópica cutánea y oral.
+- Como referencia, entre las otras predicciones de este fármaco, **verruga común** tiene la evidencia más sólida (nivel L2, seis ensayos, cuatro de ellos comparaciones aleatorizadas de aciclovir intralesional). Conviene evaluarla en un informe aparte.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

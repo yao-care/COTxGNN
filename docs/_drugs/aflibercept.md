@@ -2,7 +2,7 @@
 layout: default
 title: Aflibercept
 parent: Solo Predicción del Modelo (L5)
-nav_order: 24
+nav_order: 29
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,37 +29,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-Usando `txgnn-pipeline` para verificar el contexto del proyecto. Ahora procedo a generar el informe de evaluación con base en el Evidence Pack provisto.
-
----
-
-# Aflibercept: De Neovascularización Ocular a Esotropia
+# Aflibercept: De Indicación Original No Documentada a Esotropía
 
 ## Resumen en Una Frase
 
-Aflibercept es una proteína de fusión recombinante que actúa como receptor señuelo (decoy receptor) para VEGF-A, VEGF-B y PlGF, originalmente empleado en el tratamiento de condiciones neovasculares oculares y oncológicas.
-El modelo TxGNN predice que podría ser efectivo para **Esotropia** (estrabismo convergente),
-con **0 ensayos clínicos** y **0 publicaciones** que actualmente respaldan esta dirección. La predicción carece de sustento mecanístico directo y enfrenta una paradoja clínica documentada.
+Aflibercept es un fármaco comercializado en Colombia como solución inyectable intravítrea (Eylia®, Bayer), pero el registro disponible no detalla su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **esotropía**,
+aunque actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro en Colombia (0 licencias INVIMA) |
-| Nueva Indicación Predicha | Esotropia |
+| Indicación Original | No disponible (el registro sanitario solo repite el nombre del principio activo, "AFLIBERCEPT") |
+| Nueva Indicación Predicha | Esotropía |
 | Puntaje de Predicción TxGNN | 99.38% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aflibercept es una proteína de fusión recombinante (VEGF Trap) que actúa como receptor señuelo competitivo para VEGF-A, VEGF-B y el factor de crecimiento placentario (PlGF), inhibiendo la angiogénesis patológica. Se utiliza clínicamente en degeneración macular neovascular relacionada con la edad (DMRE húmeda), edema macular diabético y retinopatía del prematuro (ROP); en su variante oncológica (ziv-aflibercept/Zaltrap) se emplea en cáncer colorrectal metastásico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción ni de una lista de indicaciones originales en el registro. Por eso no es posible trazar el puntaje de 0.994 hacia una vía biológica concreta.
 
-La conexión con esotropia parece haberse generado a través de una ruta indirecta en el grafo de conocimiento: **Aflibercept → ROP → Esotropia**. Esta inferencia, sin embargo, enfrenta una **paradoja direccional crítica**: el tratamiento anti-VEGF de la ROP suprime la vascularización periférica retiniana y, según la literatura disponible, puede *inducir* estrabismo —incluida la esotropia— como efecto adverso, no como resultado terapéutico. La asociación capturada por el modelo refleja, por tanto, una señal de toxicidad conocida, no una relación de eficacia.
+En general se conoce a aflibercept como un "señuelo" de factores de crecimiento vascular (VEGF-A, VEGF-B y PlGF). Sin embargo, ese dato no forma parte del registro suministrado y no se ha verificado aquí.
 
-No existe evidencia mecanística que sustente que la inhibición del VEGF pueda corregir la coordinación del movimiento ocular extrínseco ni el tono muscular para revertir la esotropia. El alto puntaje de TxGNN (99.38%) probablemente refleja correlación estructural en el grafo, no causalidad terapéutica, y debe interpretarse con precaución ante la ausencia total de evidencia clínica y preclínica de soporte.
+La esotropía es principalmente un trastorno de la alineación ocular (acomodativo, sensorial o neuromuscular). En los datos no consta ningún mecanismo dependiente de VEGF que la explique. Cualquier justificación antiangiogénica o relacionada con los músculos extraoculares es, por ahora, especulativa. El puntaje del modelo no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,7 +67,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Aflibercept no cuenta con ningún registro sanitario activo en Colombia. El fármaco no está comercializado en ninguna presentación en el país según los datos disponibles al corte de este informe.
+Los 5 registros listados en los datos corresponden al mismo registro sanitario y producto, por lo que se muestran una sola vez. El total informado es de 20 registros.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20039088 | EYLIA® Solución para Inyección Intravítrea (Bayer A.G.) | Solución inyectable | AFLIBERCEPT (el texto no detalla la indicación) |
 
 ## Consideraciones de Seguridad
 
@@ -82,13 +82,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN descansa exclusivamente en patrones del grafo de conocimiento (nivel L5, sin evidencia clínica ni preclínica), y el análisis mecanístico identifica una paradoja direccional: la inhibición del VEGF está documentada como causa de esotropia en contextos de ROP tratada, no como tratamiento de dicha condición.
+No hay ensayos clínicos ni literatura, y no se puede establecer un vínculo mecanístico entre aflibercept y la esotropía con los datos disponibles. La predicción se basa solo en el modelo (nivel L5).
 
 **Para avanzar se necesita:**
-- Obtener el MOA completo desde DrugBank o la ficha técnica EMA/FDA y verificar si existe algún vínculo plausible con la motilidad ocular extrínseca
-- Revisar la lógica de inferencia del grafo de conocimiento para determinar si la ruta "Aflibercept → ROP → Esotropia" está etiquetada correctamente como relación terapéutica o como señal adversa
-- Realizar búsqueda bibliográfica ampliada en oftalmología sobre mecanismos VEGF-dependientes en esotropia no neovascular
-- Completar los datos de seguridad (advertencias, contraindicaciones, DDI) desde la ficha técnica oficial para habilitar la evaluación S1 de seguridad, actualmente bloqueada (DG001)
+- Obtener el mecanismo de acción y las indicaciones originales (DrugBank y prospecto de INVIMA).
+- Descargar y analizar el prospecto de INVIMA para advertencias y contraindicaciones, un requisito bloqueante para el tamizaje de seguridad.
+- Hacer una búsqueda dirigida de literatura y ensayos sobre aflibercept/anti-VEGF en esotropía y estrabismo.
+- Evaluar la plausibilidad biológica y la compatibilidad de la vía de administración (actualmente solo hay forma intravítrea).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

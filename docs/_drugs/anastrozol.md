@@ -2,7 +2,7 @@
 layout: default
 title: Anastrozol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 39
+nav_order: 50
 evidence_level: L5
 indication_count: 0
 ---

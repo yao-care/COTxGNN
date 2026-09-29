@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alteplase
-parent: Solo Predicción del Modelo (L5)
-nav_order: 32
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 40
+evidence_level: L4
 indication_count: 9
 ---
 
 # Alteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# ALTEPLASE: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+# Alteplasa: De Indicación No Especificada en el Registro a Infarto de Miocardio Posteroinferior
 
 ## Resumen en Una Frase
 
-ALTEPLASE (DB00009) es un fármaco registrado en DrugBank cuya indicación original y mecanismo de acción no están disponibles en el Evidence Pack actual. El modelo TxGNN **no generó indicaciones predichas** para este candidato en la iteración presente, lo que impide realizar una evaluación de reposicionamiento completa. Se requiere completar los datos faltantes antes de poder continuar con el análisis.
+Alteplasa es un activador del plasminógeno específico de la fibrina. El registro sanitario colombiano disponible solo muestra el nombre del principio activo y no describe una indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio posteroinferior**,
+pero solo **0 ensayos clínicos** y **1 publicación** (un estudio de cohorte indirecto) respaldan hoy esta dirección.
 
 ---
 
@@ -41,31 +43,53 @@ ALTEPLASE (DB00009) es un fármaco registrado en DrugBank cuya indicación origi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos disponibles |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | No disponible |
-| Nivel de Evidencia | — (evaluación no aplicable) |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No especificada (el registro solo indica "ALTEPLASE") |
+| Nueva Indicación Predicha | Infarto de miocardio posteroinferior |
+| Puntaje de Predicción TxGNN | 99.79% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (todos con el mismo número, 33103) |
+| Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por Qué No Hay Predicción Disponible?
+## ¿Por qué es Razonable esta Predicción?
 
-El pipeline TxGNN no generó indicaciones predichas para ALTEPLASE en esta ejecución. Existen tres factores que probablemente contribuyeron a este resultado:
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el paquete de evidencia. Aun así, alteplasa es un activador del plasminógeno específico de la fibrina que disuelve trombos. Biológicamente, esto es coherente con la oclusión de una arteria coronaria responsable de un infarto.
 
-**Primero**, los campos de indicación original (`original_indications`) y mecanismo de acción (`original_moa`) están vacíos en el Evidence Pack. El modelo TxGNN depende del grafo de conocimiento farmacológico para establecer relaciones entre el fármaco y nuevas indicaciones; sin esta información de entrada, el modelo no puede trazar conexiones mecanísticas significativas.
+El paquete de evidencia no trae la indicación original del fármaco. Por eso no se puede comparar formalmente la indicación original con la nueva. Esa relación debe confirmarse con la etiqueta aprobada antes de sacar conclusiones.
 
-**Segundo**, todo el perfil de seguridad —advertencias clave, contraindicaciones e interacciones farmacológicas— está ausente. La ausencia de datos de seguridad impide completar el nodo del fármaco en el grafo, reduciendo la densidad de conexiones disponibles para la predicción.
+La única publicación de apoyo es un estudio de 2005 sobre angioplastia de rescate en pacientes con infarto agudo en quienes falló la trombólisis. Es evidencia indirecta: no evalúa alteplasa para este subtipo de infarto. Por eso la predicción es plausible en lo mecanístico, pero sigue sin demostrarse en lo clínico.
 
-**Tercero**, ALTEPLASE no cuenta con registros sanitarios activos en Colombia (0 licencias), lo que elimina la señal regulatoria local que normalmente complementa la predicción del modelo.
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [16294818](https://pubmed.ncbi.nlm.nih.gov/16294818/) | 2005 | Cohorte | Archivos de Cardiología de México | Evalúa a corto plazo los resultados clínicos y angiográficos de la angioplastia coronaria de rescate en infarto agudo con falla de la trombólisis. No prueba alteplasa para este subtipo. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-ALTEPLASE no cuenta con registros sanitarios activos en Colombia según los datos consultados. No hay licencias vigentes registradas en la base de datos de INVIMA para este principio activo.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 33103 | ACTILYSE 50 MG (Boehringer Ingelheim International GmbH) | Polvo liofilizado para reconstituir a solución inyectable | Solo figura el nombre "ALTEPLASE"; el texto de indicación no está detallado |
+
+Los 4 registros del paquete corresponden al mismo número sanitario y se muestran una sola vez.
+
+---
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -74,15 +98,13 @@ ALTEPLASE no cuenta con registros sanitarios activos en Colombia según los dato
 **Decisión: Hold**
 
 **Justificación:**
-La ausencia total de predicciones TxGNN y la insuficiencia de datos fundamentales (indicación original, mecanismo de acción, perfil de seguridad) hacen imposible emitir una recomendación de reposicionamiento en esta etapa.
+No hay ensayos clínicos y la única publicación es un estudio de cohorte indirecto, que no prueba alteplasa en este subtipo de infarto. El puntaje alto del modelo (99.79%) no compensa la falta de evidencia directa. Tampoco hay datos de seguridad ni de indicación original con los que avanzar.
 
 **Para avanzar se necesita:**
-
-- [ ] **MOA y indicaciones originales**: Consultar DrugBank API (`DB00009`) para obtener mecanismo de acción, categorías farmacológicas e indicaciones aprobadas
-- [ ] **Advertencias y contraindicaciones**: Descargar y analizar el prospecto oficial desde TFDA o INVIMA para completar el perfil de seguridad
-- [ ] **Interacciones farmacológicas**: Realizar consulta DDI con datos completos del fármaco una vez disponibles los campos básicos
-- [ ] **Re-ejecución del pipeline TxGNN**: Con los datos completos, volver a ejecutar la predicción para generar indicaciones candidatas de reposicionamiento
-- [ ] **Verificación regulatoria**: Confirmar estado actual en INVIMA Colombia con denominación común internacional y posibles sinónimos comerciales
+- Obtener el prospecto de INVIMA (indicaciones aprobadas, advertencias y contraindicaciones)
+- Completar los datos de mecanismo de acción desde DrugBank
+- Buscar estudios que evalúen alteplasa directamente en infarto posteroinferior, idealmente ensayos de fase 2/3
+- Revisar si esta indicación ya está cubierta por el uso aprobado en infarto agudo de miocardio, lo que cambiaría el enfoque del reposicionamiento
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

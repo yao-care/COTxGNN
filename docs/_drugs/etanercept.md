@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Etanercept
-parent: Evidencia Moderada (L3-L4)
-nav_order: 115
-evidence_level: L3
+parent: Solo Predicción del Modelo (L5)
+nav_order: 186
+evidence_level: L5
 indication_count: 6
 ---
 
 # Etanercept
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,17 +29,13 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 </div>
 
-Usando `txgnn-pipeline` para guiar la generación del informe de reposicionamiento. Procedo ahora a redactar el informe completo basado en el Evidence Pack proporcionado.
-
----
-
 # Etanercept: De Artritis Reumatoide a Vasculitis Reumatoide
 
 ## Resumen en Una Frase
 
-Etanercept (Enbrel) es una proteína de fusión del receptor p75 de TNF-α, ampliamente utilizada a nivel internacional para el tratamiento de la artritis reumatoide, artritis psoriásica, espondilitis anquilosante y artritis idiopática juvenil, aunque actualmente no cuenta con registros sanitarios activos en Colombia.
-El modelo TxGNN predice que podría ser efectivo para la **Vasculitis Reumatoide**, una de las manifestaciones extraarticulares más graves de la AR,
-con **1 ensayo clínico interventivo directo** (Fase 1/2 en vasculitis sistémica ANCA+, completado) y **20 publicaciones** que respaldan esta dirección — aunque la evidencia revela una dualidad crítica: el fármaco puede tanto tratar como paradójicamente inducir vasculitis.
+Etanercept es una proteína de fusión que bloquea el TNF-alfa. Se usa en enfermedades inflamatorias como la artritis reumatoide, la artritis idiopática juvenil, la artritis psoriásica, la espondilitis anquilosante y la psoriasis (según la literatura; el registro sanitario colombiano solo consigna el nombre del principio activo).
+El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**, con un puntaje alto (99.71%).
+Sin embargo, esta dirección está respaldada solo indirectamente: **6 ensayos clínicos** (ninguno evalúa directamente la vasculitis reumatoide) y **20 publicaciones**, muchas de las cuales describen vasculitis *asociada* al uso de etanercept.
 
 ---
 
@@ -47,23 +43,27 @@ con **1 ensayo clínico interventivo directo** (Fase 1/2 en vasculitis sistémic
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Artritis reumatoide (indicación reconocida internacionalmente; sin registro activo en Colombia) |
-| Nueva Indicación Predicha | Vasculitis Reumatoide |
+| Indicación Original | No especificada en el registro (el texto registrado solo dice «Etanercept»); por la literatura: artritis reumatoide y otras enfermedades inflamatorias |
+| Nueva Indicación Predicha | Vasculitis reumatoide |
 | Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L3 (existe una revisión sistemática, pero es indirecta y de nivel de casos; el paquete de evidencia la calificó de forma más conservadora como L4) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Etanercept es una proteína de fusión dimérica compuesta por el dominio extracelular del receptor p75 de TNF-α (TNFR2) ligado a la fracción Fc de IgG1 humana. Actúa como receptor señuelo soluble que captura TNF-α soluble y unido a membrana, impidiendo su interacción con los receptores celulares y bloqueando la cascada inflamatoria mediada por NF-κB. Si bien no se dispone de datos detallados del mecanismo de acción en el presente paquete de evidencia (Data Gap en MOA), la acción anti-TNF-α de etanercept es ampliamente documentada en la literatura y constituye la base de su eficacia en múltiples enfermedades inflamatorias articulares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la literatura, etanercept es una proteína de fusión formada por dos cadenas del receptor p75 del TNF unidas a la porción Fc de la IgG1. Se une al TNF-alfa y bloquea su actividad biológica, y su eficacia está demostrada en artritis reumatoide y otras enfermedades inflamatorias.
 
-La vasculitis reumatoide (VR) es una complicación extraarticular grave de la AR de larga evolución, caracterizada por inflamación necrotizante de los vasos sanguíneos. El TNF-α se expresa de forma marcadamente elevada en las lesiones vasculares, promoviendo la adhesión leucocitaria, la activación del endotelio y el daño orgánico sistémico. Desde una perspectiva mecanística, el bloqueo de TNF-α resulta teóricamente atractivo: al suprimir esta citocina pivotal se podría controlar la inflamación vascular de forma análoga a su efecto sobre la sinovitis en AR.
+La vasculitis reumatoide es una de las manifestaciones extraarticulares más graves de la artritis reumatoide. Como el TNF-alfa impulsa la inflamación en la artritis reumatoide, bloquearlo es plausible en su complicación vascular. Una revisión sistemática de 2021 ya evaluó el uso de fármacos biológicos en esta enfermedad.
 
-Sin embargo, existe una paradoja clínica documentada que representa la mayor preocupación de seguridad de esta indicación: múltiples publicaciones —incluyendo estudios de cohorte, series de casos y reportes individuales— registran que los inhibidores de TNF-α, incluyendo etanercept, pueden **inducir paradójicamente vasculitis cutánea y sistémica**. El mecanismo propuesto involucra la sobrexpresión de interferón-α, la formación de autoanticuerpos (ANA, anti-dsDNA) y la deposición de inmunocomplejos en la pared vascular. Esta dualidad terapéutica-adversa exige una evaluación de seguridad prioritaria antes de cualquier avance en esta indicación.
+Aun así, la evidencia directa es débil y contradictoria:
+
+- El único ensayo de Fase 2 con etanercept en vasculitis es en granulomatosis de Wegener, una vasculitis distinta.
+- La literatura describe repetidamente vasculitis, incluida la cutánea y la asociada a ANCA, que aparece **durante** el tratamiento con etanercept.
+- El puntaje alto del modelo no está respaldado por datos clínicos, y las señales de seguridad apuntan en sentido opuesto.
 
 ---
 
@@ -71,12 +71,12 @@ Sin embargo, existe una paradoja clínica documentada que representa la mayor pr
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Fase 1/2 | Completado | 60 | Único ensayo interventivo directo: evaluación de etanercept (TNFR:Fc) en granulomatosis de Wegener (vasculitis sistémica ANCA+). Comparado con prednisona + agente citotóxico como estándar. Es la evidencia interventiva más relevante disponible para esta indicación, aunque de grado Fase 1/2. |
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún no reclutando | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia total de hombro; no específico para vasculitis, relevancia indirecta para manejo de biológicos en contexto quirúrgico. |
-| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completado | 184 | Estudio observacional multicéntrico de tocilizumab en AR con respuesta inadecuada a DMARDs o un biológico; evalúa patrones de práctica clínica en AR, sin enfoque en subgrupo de vasculitis. |
-| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completado | 1,754 | Características basales y rutas de tratamiento en AR moderada en práctica real (cohorte etanercept vs. terapias no biológicas, BSRBR); sin enfoque específico en vasculitis. |
-| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completado | 808 | Estudio transversal de patrones de uso de bDMARDs en AR en China; no específico para vasculitis reumatoide. |
-| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750,000 | Gran estudio observacional sobre incidencia de enfermedades inflamatorias inmunomediadas en pacientes tratados con biológicos; proporciona contexto de riesgo de comorbilidades autoinmunes, relevancia indirecta. |
+| [NCT00001901](https://clinicaltrials.gov/study/NCT00001901) | Fase 2 | Completado | 60 | Etanercept en granulomatosis de Wegener (vasculitis sistémica relacionada, no reumatoide); evidencia indirecta |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún sin reclutar | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos con artroplastia de hombro; no evalúa eficacia en vasculitis |
+| [NCT01579006](https://clinicaltrials.gov/study/NCT01579006) | N/A | Completado | 184 | Estudio no intervencionista de tocilizumab en artritis reumatoide; sin desenlace de vasculitis |
+| [NCT01557322](https://clinicaltrials.gov/study/NCT01557322) | N/A | Completado | 1754 | Estudio de práctica real en artritis reumatoide moderada (etanercept vs. tratamientos no biológicos); sin desenlace de vasculitis |
+| [NCT02590562](https://clinicaltrials.gov/study/NCT02590562) | N/A | Completado | 808 | Estudio transversal de patrones de uso de biológicos en artritis reumatoide en China; no evalúa eficacia |
+| [NCT05696106](https://clinicaltrials.gov/study/NCT05696106) | N/A | Desconocido | 750000 | Registro del riesgo de nuevas enfermedades inmunomediadas tras usar biológicos; evalúa riesgo, no eficacia |
 
 ---
 
@@ -84,32 +84,35 @@ Sin embargo, existe una paradoja clínica documentada que representa la mayor pr
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Revisión Sistemática | Clinical Rheumatology | Revisión PRISMA del uso de fármacos biológicos en vasculitis reumatoide; evalúa el arsenal terapéutico biológico disponible incluyendo agentes anti-TNF, con resultados de morbilidad y mortalidad. |
-| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Revisión | Nephrology, Dialysis, Transplantation | Analiza el rol potencial del bloqueo de TNF-α en vasculitis asociada a ANCA y glomerulonefritis; documenta evidencia de TNF-α en la patofisiología de la enfermedad vascular. |
-| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Estudio de Cohorte | RMD Open | Compara el riesgo de eventos tipo lupus y tipo vasculitis en pacientes con AR tratados con TNFi vs. nbDMARDs (registro BSRBR-RA); datos cuantitativos de riesgo farmacoespecífico. |
-| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Revisión | Journal of Rheumatology | Revisa el riesgo de vasculitis asociado al bloqueo de TNF-α; debate el perfil de seguridad y los mecanismos de vasculitis inducida por anti-TNF. |
-| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Serie de Casos | Scandinavian Journal of Immunology | Caracterización inmunológica de vasculitis cutánea asociada a etanercept e infliximab; propone el mecanismo de autoinmunidad inducida por inhibición de TNF. |
-| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Reporte de Caso | Arthritis and Rheumatism | Nodulosis acelerada y vasculitis tras terapia con etanercept en AR; una de las primeras alertas documentadas sobre el efecto paradójico del anti-TNF. |
-| [31632872](https://pubmed.ncbi.nlm.nih.gov/31632872/) | 2019 | Reporte de Caso | Cureus | Nefropatía asociada a etanercept con formación de autoanticuerpos y vasculitis renal; describe el mecanismo de autoinmunidad sistémica inducida por inhibidores de TNF-α. |
-| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | Reporte de Caso | BMC Nephrology | Caso de AR con desarrollo secuencial de nefropatía membranosa y vasculitis asociada a ANCA; destaca el papel del uso creciente de biológicos en la aparición de nefropatía. |
-| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | Reporte de Caso | Journal of Rheumatology | Nefritis lúpica proliferativa y vasculitis leucocitoclástica durante tratamiento con etanercept; documenta una manifestación paradójica grave con implicaciones de seguridad relevantes. |
-| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | Reporte de Caso | Case Reports in Medicine | Vasculitis de grandes vasos en paciente con AR bajo terapia anti-TNF; describe clasificación como vasculitis inducida por agente biológico y debate el manejo clínico. |
+| [33058033](https://pubmed.ncbi.nlm.nih.gov/33058033/) | 2021 | Revisión sistemática | Clinical Rheumatology | Revisa el uso de fármacos biológicos en la vasculitis reumatoide, una manifestación grave que requiere corticoides o inmunosupresores |
+| [28391344](https://pubmed.ncbi.nlm.nih.gov/28391344/) | 2017 | Revisión | Nephrology Dialysis Transplantation | Analiza si bloquear el TNF-alfa sirve en vasculitis asociada a ANCA y glomerulonefritis |
+| [15468348](https://pubmed.ncbi.nlm.nih.gov/15468348/) | 2004 | Revisión | Journal of Rheumatology | Bloqueo del TNF-alfa y riesgo de vasculitis |
+| [28123776](https://pubmed.ncbi.nlm.nih.gov/28123776/) | 2017 | Cohorte | RMD Open | Compara el riesgo de eventos tipo lupus y tipo vasculitis en pacientes con artritis reumatoide tratados con anti-TNF frente a FARME no biológicos (registro BSRBR-RA) |
+| [15853915](https://pubmed.ncbi.nlm.nih.gov/15853915/) | 2005 | Serie de casos | Scandinavian Journal of Immunology | Inmunología de la vasculitis cutánea asociada a etanercept e infliximab; la autoinmunidad, incluida la vasculitis, es rara pero posible |
+| [12209493](https://pubmed.ncbi.nlm.nih.gov/12209493/) | 2002 | Reporte de caso | Arthritis and Rheumatism | Nodulosis acelerada y vasculitis tras etanercept en artritis reumatoide |
+| [11792895](https://pubmed.ncbi.nlm.nih.gov/11792895/) | 2002 | No clasificado | Rheumatology (Oxford) | Vasculitis cutánea asociada a etanercept e infliximab |
+| [15801034](https://pubmed.ncbi.nlm.nih.gov/15801034/) | 2005 | No clasificado | Journal of Rheumatology | Nefritis lúpica proliferativa y vasculitis leucocitoclástica durante el tratamiento con etanercept |
+| [25544845](https://pubmed.ncbi.nlm.nih.gov/25544845/) | 2014 | No clasificado | Case Reports in Medicine | Vasculitis de grandes vasos en un paciente con artritis reumatoide bajo tratamiento anti-TNF |
+| [41327089](https://pubmed.ncbi.nlm.nih.gov/41327089/) | 2025 | Reporte de caso | BMC Nephrology | Paciente con artritis reumatoide que desarrolló sucesivamente nefropatía membranosa y vasculitis asociada a ANCA |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Etanercept actualmente **no cuenta con registros sanitarios activos ante el INVIMA en Colombia**. No se encontraron licencias registradas para ninguna indicación, forma farmacéutica o fabricante.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20211583 | ALTEBREL® 50MG/ML (RTM Healthcare Private Limited) | Solución inyectable | Solo consta el nombre del principio activo («Etanercept») |
+| 19978839 | ENBREL® 25 MG solución para inyección (Pfizer S.A.S.) | Solución inyectable | Solo consta el nombre del principio activo («Etanercept») |
 
-> No hay registros sanitarios de etanercept disponibles en Colombia a la fecha de corte (2026-05-05).
+Los datos muestran 20 registros en total; en el listado recibido solo aparecen 2 números de registro distintos, repetidos varias veces.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No hay datos de interacciones farmacológicas en el paquete de evidencia (consulta sin resultados). Consultar el prospecto para informacion de seguridad.
 
-> **Nota clínica relevante derivada de la literatura:** Aunque los datos formales de seguridad (advertencias y contraindicaciones del prospecto) no están disponibles en este paquete de evidencia, múltiples publicaciones indexadas documentan que etanercept puede **inducir paradójicamente vasculitis cutánea y sistémica**, así como nefritis lúpica y vasculitis asociada a ANCA. Este hallazgo es de especial relevancia para la indicación evaluada y debe considerarse prioritario en cualquier evaluación beneficio-riesgo.
+Señal de seguridad de la literatura: varios reportes y series de casos describen vasculitis (cutánea, de grandes vasos o asociada a ANCA), lupus inducido y nefropatía durante el tratamiento con etanercept. Esto debe pesar en contra de cualquier uso en vasculitis reumatoide.
 
 ---
 
@@ -118,14 +121,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible revela una paradoja clínica que impide recomendar el avance: aunque el mecanismo anti-TNF-α es teóricamente aplicable a la vasculitis reumatoide, el único ensayo interventivo directo es de Fase 1/2 (insuficiente para establecer eficacia neta), y múltiples publicaciones —incluyendo estudios de cohorte y series de casos— documentan que etanercept puede **inducir** vasculitis paradójica a través de sobrexpresión de interferón-α y deposición de inmunocomplejos. Adicionalmente, la ausencia total de registros sanitarios en Colombia y la falta de datos de seguridad locales formales impiden pasar la evaluación inicial de seguridad (Etapa S1).
+El puntaje del modelo es muy alto (99.71%), pero ningún ensayo prueba etanercept en vasculitis reumatoide. El único estudio de Fase 2 es en otra vasculitis, y la literatura señala con frecuencia que etanercept puede provocar vasculitis. Por ahora es una pregunta de investigación, no una candidata para avanzar.
 
 **Para avanzar se necesita:**
-- Recuperar y analizar los datos de MOA completos desde DrugBank (remediation DG002) y las advertencias/contraindicaciones del prospecto oficial (remediation DG001)
-- Obtener y revisar en detalle los resultados publicados del ensayo NCT00001901 (Fase 1/2 en granulomatosis de Wegener, n=60)
-- Realizar una revisión sistemática que diferencie cuantitativamente el uso terapéutico de la vasculitis inducida por etanercept, con datos de incidencia comparativa
-- Consultar con especialistas en reumatología para definir el perfil de paciente (VR severa vs. leve, ANCA+ vs. ANCA-) que podría beneficiarse neto del tratamiento
-- Antes de cualquier uso, tramitar el registro sanitario ante INVIMA con la indicación correspondiente
+- Evidencia directa de etanercept en vasculitis reumatoide (series de casos comparativas o un estudio prospectivo).
+- Revisar los datos de la revisión sistemática de 2021 para ver qué biológicos y con qué resultados, y separar la vasculitis reumatoide de la vasculitis paradójica inducida por anti-TNF.
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Obtener el mecanismo de acción desde DrugBank.
+- Nota: en este mismo paquete, las predicciones de espondilopatía inflamatoria y de artritis reumatoide juvenil poliarticular tienen evidencia mucho más sólida (nivel L1), pero corresponden a usos ya establecidos, no a reposicionamiento nuevo.
+
+*Este resultado es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

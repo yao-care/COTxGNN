@@ -2,7 +2,7 @@
 layout: default
 title: Penciclovir
 parent: Solo Predicción del Modelo (L5)
-nav_order: 195
+nav_order: 321
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# PENCICLOVIR: De Infección por Herpes a Fasciolasis
+# Penciclovir: De Indicación Original No Especificada a Fascioliasis
 
 ## Resumen en Una Frase
 
-Penciclovir es un análogo de guanosina acíclico (antiviral nucleosídico), utilizado originalmente para el tratamiento de infecciones por virus del herpes simple (HSV) mediante la inhibición de la ADN polimerasa viral dependiente de la timidina quinasa viral.
-El modelo TxGNN predice que podría ser efectivo para **Fasciolasis** con un puntaje de 99.06%,
-sin embargo, **no existen ensayos clínicos ni publicaciones científicas** que respalden actualmente esta dirección — la evidencia se limita exclusivamente a la predicción del modelo.
+Penciclovir es un análogo nucleósido de la guanosina con acción antiviral, comercializado en Colombia como crema tópica. El registro sanitario no detalla su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ---
 
@@ -43,23 +42,23 @@ sin embargo, **no existen ensayos clínicos ni publicaciones científicas** que 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por herpes (antiviral nucleosídico) |
-| Nueva Indicación Predicha | Fasciolasis |
+| Indicación Original | No especificada en el registro (el texto solo repite el nombre del principio activo, "Penciclovir") |
+| Nueva Indicación Predicha | Fascioliasis |
 | Puntaje de Predicción TxGNN | 99.06% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la información disponible en el análisis de reposicionamiento, Penciclovir es un análogo de guanosina acíclico cuyo mecanismo antiviral depende críticamente de la timidina quinasa viral (TK viral) para su fosforilación intracelular hacia la forma trifosfato activa. Dicha forma activa inhibe competitivamente la ADN polimerasa viral, deteniendo la replicación del herpesvirus.
+**Esta predicción no tiene un fundamento biológico creíble con los datos disponibles.** Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Por farmacología general, penciclovir es un análogo nucleósido de la guanosina. La timidina quinasa viral lo fosforila y luego inhibe la ADN polimerasa de los herpesvirus.
 
-La fasciolasis es una parasitosis causada por tremátodos hepáticos (*Fasciola hepatica* o *F. gigantica*), patógenos que pertenecen a la clase Trematoda. Sus vías de metabolismo de nucleótidos no presentan homología con la timidina quinasa viral de la que depende Penciclovir para ser activado. En consecuencia, la plausibilidad mecanística de esta predicción es **baja**: no existe un sustrato enzimático identificado en el parásito que permita la activación del fármaco ni una diana bioquímica directa que justifique actividad antihelmíntica.
+La fascioliasis es una infección causada por trematodos parásitos del género *Fasciola*. Estos organismos no tienen timidina quinasa viral ni ADN polimerasa viral, así que el mecanismo antiviral de penciclovir no aplica. El tratamiento estándar de la fascioliasis es el triclabendazol, que actúa por un mecanismo distinto.
 
-La puntuación alta del modelo TxGNN (99.06%) probablemente surge de similitudes topológicas dentro del grafo de conocimiento — por ejemplo, nodos compartidos relacionados con inhibición de replicación de ADN o metabolismo de nucleósidos — más que de una relación biológica directamente validada. A la fecha no existen datos in vitro ni en modelos animales que demuestren actividad de Penciclovir sobre trematodos.
+El puntaje de 0.99 proviene solo de una predicción de grafo de conocimiento. Puede reflejar artefactos de la topología del grafo y no una relación farmacológica real. Además, la única presentación registrada en Colombia es una crema tópica. La fascioliasis es una infección sistémica del hígado y las vías biliares, por lo que la vía de administración tampoco sería compatible.
 
 ---
 
@@ -77,13 +76,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Penciclovir no cuenta con registros sanitarios vigentes en Colombia. El total de licencias activas es **0** y el producto no se encuentra comercializado en el mercado nacional.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20205701 | PENCIVIRAL® CREMA (PHARMA LASER LTDA) | Crema tópica | Solo indica el principio activo: Penciclovir |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. La consulta de interacciones farmacológicas no arrojó resultados.
 
 ---
 
@@ -92,13 +93,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN carece de respaldo mecanístico plausible: el mecanismo de acción de Penciclovir depende de la timidina quinasa viral, enzima ausente en los tremátodos causantes de la fasciolasis. La ausencia total de ensayos clínicos, literatura publicada y registros sanitarios en Colombia impide avanzar hacia ninguna etapa de evaluación clínica.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos, sin literatura y sin un mecanismo plausible. El mecanismo antiviral de penciclovir no aplica a un parásito, y la crema tópica no es compatible con una infección sistémica.
 
 **Para avanzar se necesita:**
-- Estudios in vitro que demuestren actividad de Penciclovir sobre *Fasciola hepatica*
-- Identificación de una diana molecular viable en el parásito (p. ej., una quinasa homóloga que pueda fosforilar el fármaco)
-- Datos de seguridad y farmacocinética relevantes para la indicación parasitaria
-- Obtención de registro sanitario en Colombia antes de cualquier uso clínico o investigativo
+- Un vínculo mecanístico plausible entre penciclovir y *Fasciola*, por ejemplo con estudios preclínicos in vitro o in vivo
+- Evidencia publicada o ensayos que respalden la asociación
+- Datos de mecanismo de acción confirmados desde DrugBank
+- El prospecto del INVIMA con advertencias y contraindicaciones
+- Una evaluación de la vía de administración, ya que la presentación registrada es solo tópica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

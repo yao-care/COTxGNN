@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Emtricitabine
-parent: Evidencia Moderada (L3-L4)
-nav_order: 110
-evidence_level: L3
+parent: Solo Predicción del Modelo (L5)
+nav_order: 177
+evidence_level: L5
 indication_count: 3
 ---
 
 # Emtricitabine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,94 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Emtricitabina: De Infección por VIH-1 a Infección por Virus de Inmunodeficiencia Simiana
+# Emtricitabina: De Combinación con Tenofovir Alafenamida (Registro INVIMA) a Infección por el Virus de Inmunodeficiencia Simia (SIV)
 
 ## Resumen en Una Frase
 
-Emtricitabina (FTC) es un inhibidor nucleosídico de la transcriptasa inversa (INTI), componente esencial de la terapia antirretroviral combinada (cART) para el tratamiento de la infección por VIH-1 en humanos.
-El modelo TxGNN predice que podría ser efectivo para la **Infección por Virus de Inmunodeficiencia Simiana (SIV)**, con **0 ensayos clínicos válidos en humanos** y **20 publicaciones en modelos de primates no humanos** que actualmente respaldan esta dirección.
-Sin embargo, debe tenerse en cuenta que el SIV es un patógeno de primates no humanos utilizado como modelo experimental del VIH, no una indicación clínica humana convencional.
-
----
+Emtricitabina es un antirretroviral que en Colombia se comercializa en combinación con tenofovir alafenamida (por ejemplo Descovy® y Vyvalto).
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de inmunodeficiencia simia (SIV)**.
+Esta dirección tiene **2 ensayos clínicos** (ambos con relevancia baja, en VIH humano) y **20 publicaciones**, casi todas estudios en macacos, que la respaldan de forma indirecta.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 (terapia antirretroviral combinada) |
-| Nueva Indicación Predicha | Infección por Virus de Inmunodeficiencia Simiana (SIV) |
+| Indicación Original | Emtricitabina y tenofovir alafenamida (el registro no detalla el texto de la indicación) |
+| Nueva Indicación Predicha | Infección por el virus de inmunodeficiencia simia (SIV) |
 | Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 (estudios preclínicos en animales) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el sistema. Según la información conocida, emtricitabina es un análogo nucleosídico de la citidina que, tras su fosforilación intracelular a FTC-trifosfato, se incorpora como pseudosustrato en la cadena del ADN viral en crecimiento, causando terminación prematura de cadena. Su eficacia como antirretroviral de primera línea en infección por VIH-1 ha sido ampliamente validada en ensayos clínicos de Fase 3 en humanos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, emtricitabina es un inhibidor nucleosídico de la transcriptasa inversa (INTI), análogo de la citidina. Se usa en combinación con tenofovir, y su eficacia frente al VIH está bien establecida. Mecanísticamente podría ser aplicable al SIV.
 
-El vínculo mecanístico con el SIV es biológicamente coherente: tanto el SIV como el VIH-1 pertenecen a la familia de los lentivirus de primates, y sus transcriptasas inversas comparten alta conservación estructural. Múltiples estudios en primates no humanos (macacos) han demostrado que FTC, solo o en combinación con tenofovir, inhibe eficazmente la replicación del SIV/SHIV, con protección documentada tanto en modelos de profilaxis pre-exposición (PrEP) como en modelos de tratamiento activo.
+El SIV es un lentivirus de primates no humanos que depende de la transcriptasa inversa, igual que el VIH. Por eso el vínculo biológico es plausible. Esto se apoya en farmacología general, no en un análisis específico del mecanismo de este fármaco.
 
-No obstante, existe una limitación fundamental para el reposicionamiento clínico: el SIV es esencialmente una enfermedad animal utilizada como modelo experimental del VIH en primates no humanos. No existe una indicación clínica humana de "infección por SIV", por lo que esta predicción refleja la solidez del modelo animal antes que una oportunidad de reposicionamiento farmacológico clínico convencional. La alta puntuación TxGNN (99.92%) refleja la proximidad biológica entre VIH y SIV en el grafo de conocimiento, no necesariamente una brecha terapéutica humana sin cubrir.
-
----
+La literatura encontrada usa a los macacos como modelo traslacional para la profilaxis preexposición (PrEP) y el tratamiento del VIH. Estos estudios no son evidencia de una indicación en humanos. Ningún ensayo en humanos evalúa directamente el SIV.
 
 ## Evidencia de Ensayos Clínicos
 
-Los 2 registros recuperados de ClinicalTrials.gov corresponden a ensayos en infección por VIH humano — no en SIV — y ninguno es aplicable directamente a esta indicación (uno fue retirado sin inscripción; el otro estudia inmunomodulación en pacientes VIH). Ambos fueron clasificados como Grado C (mismatched) por el sistema de relevancia.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00863668](https://clinicaltrials.gov/study/NCT00863668) | N/A | Retirado | 0 | Cinética de decaimiento del VIH con raltegravir en humanos. No incluye población con SIV ni datos sobre emtricitabina. |
+| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Fase 1/2 | Desconocido | 12 | Vedolizumab combinado con terapia antirretroviral en personas con VIH. El objetivo es el VIH humano, no el SIV, y el aporte de emtricitabina no es claro. |
 
-Actualmente no hay ensayos clínicos registrados para el tratamiento o prevención de la infección por SIV en humanos, lo cual es esperado dado que el SIV es una enfermedad de primates no humanos.
-
----
+Ambos ensayos se clasificaron con relevancia baja (grado C) y son, como mucho, indirectos.
 
 ## Evidencia de Literatura
 
+No se identificaron ECA. La lista da prioridad a las revisiones y luego a los estudios animales más cercanos a emtricitabina.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Estudio NHP controlado | J Infect Dis | TAF solo o combinado con FTC previene infección vaginal por SHIV en macacos; apoya uso de FTC como componente de PrEP |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Estudio NHP | J Infect Dis | FTC + TAF oral protege macacos contra infección rectal por SHIV (hasta 19 exposiciones semanales) |
-| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Estudio NHP controlado | J Infect Dis | FTC/TDF oral previene infección vaginal por SHIV incluso con coinfección por Chlamydia y Trichomonas |
-| [29788316](https://pubmed.ncbi.nlm.nih.gov/29788316/) | 2018 | Estudio NHP | J Infect Dis | Gel vaginal con FTC/TFV brinda protección dual vaginal y rectal frente a SHIV en macacos |
-| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Estudio NHP controlado | J Infect Dis | FTC/TDF intermitente mantiene eficacia profiláctica contra SHIV portador de mutación K65R (resistente a tenofovir) |
-| [32128569](https://pubmed.ncbi.nlm.nih.gov/32128569/) | 2020 | Estudio NHP | J Infect Dis | Comparación cabotegravir LA vs. FTC/TDF oral en modelo de transmisión peneana de SHIV; ambos con alta eficacia |
-| [22814162](https://pubmed.ncbi.nlm.nih.gov/22814162/) | 2012 | Estudio NHP | Jpn J Infect Dis | Doble dosis oral de FTC/TDF previene infección por SHIV altamente patogénico (KS661c) en macacos cynomolgus |
-| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Estudio NHP | J Virology | Truvada (FTC/TDF) intermitente protege contra SHIV-M184V (variante resistente a FTC) por vía rectal |
-| [19656878](https://pubmed.ncbi.nlm.nih.gov/19656878/) | 2009 | Estudio NHP | J Virology | Gel tópico con TFV ± FTC otorga protección completa frente a desafíos vaginales repetidos con SHIV |
-| [18216122](https://pubmed.ncbi.nlm.nih.gov/18216122/) | 2008 | Estudio animal | J Virology | ART con FTC + tenofovir suprime SIVagm en monos verdes africanos; modela dinámica viral en hospederos naturales |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Revisión | Pharmacotherapy | Revisión de la profilaxis preexposición sistémica para VIH como estrategia para reducir la transmisión en personas en riesgo. |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Revisión | Curr Opin HIV AIDS | Lecciones de los modelos animales de profilaxis antirretroviral (oral y tópica) y próximos pasos en investigación preclínica de PrEP. |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Estudio animal (macaco) | J Infect Dis | Evalúa si tenofovir alafenamida sola o con emtricitabina previene la infección vaginal por SHIV con exposiciones repetidas. |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Estudio animal (macaco) | J Infect Dis | Según el título, la combinación oral de emtricitabina y tenofovir alafenamida protege a los macacos de la infección rectal por SHIV. |
+| [29788316](https://pubmed.ncbi.nlm.nih.gov/29788316/) | 2018 | Estudio animal (macaco) | J Infect Dis | Evalúa un gel vaginal de emtricitabina/tenofovir frente a exposiciones rectales repetidas al SHIV. |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Estudio animal (macaco) | J Infect Dis | Según el título, emtricitabina + tenofovir disoproxil previene la infección vaginal por SHIV en macacos con *Chlamydia* y *Trichomonas*. |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Estudio animal (macaco) | J Infect Dis | Evalúa la eficacia profiláctica oral de emtricitabina/tenofovir frente a un SHIV resistente a tenofovir (mutación K65R). |
+| [22814162](https://pubmed.ncbi.nlm.nih.gov/22814162/) | 2012 | Estudio animal (macaco) | Jpn J Infect Dis | Según el título, la doble administración oral de emtricitabina/tenofovir antes de la exposición protege frente a un SHIV altamente patogénico. |
+| [21632769](https://pubmed.ncbi.nlm.nih.gov/21632769/) | 2011 | Estudio animal (macaco) | J Virol | Evalúa la profilaxis intermitente con Truvada frente a un SHIV resistente a emtricitabina (mutación M184V). |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Estudio animal (macaco) | J Virol | En macacos neonatos con SIVmac251 tratados con lamivudina o emtricitabina, la mutación M184V apareció en 5 semanas. |
 
----
+La mayoría de estos estudios usa SHIV (un virus quimérico simio-humano), no SIV puro. Aun así, muestran de forma consistente que la combinación con emtricitabina puede prevenir la infección en macacos.
 
 ## Información de Mercado en Colombia
 
-Emtricitabina no cuenta con registros sanitarios activos ante el INVIMA. El medicamento no está comercializado en el mercado colombiano en ninguna presentación.
+Se muestran los registros únicos. El registro 20131470 aparece varias veces en los datos y aquí se lista una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20131470 | DESCOVY® 200MG/25MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina y tenofovir alafenamida |
+| 20148969 | VYVALTO | Tableta recubierta | Emtricitabina y tenofovir alafenamida |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente coherente — FTC inhibe la transcriptasa inversa tanto de VIH como de SIV por el mismo mecanismo — pero la infección por SIV es una enfermedad de primates no humanos sin correlato clínico humano directo; no existe una indicación médica humana que reposicionar, y el medicamento no está comercializado en Colombia.
+La predicción del SIV tiene plausibilidad biológica, pero la evidencia es solo preclínica (L4). Los dos ensayos clínicos son de baja relevancia y estudian VIH humano, no SIV. El SIV es una infección de primates no humanos y no una indicación humana.
+
+Las otras predicciones del modelo tampoco justifican avanzar:
+- **Síndrome de inmunodeficiencia adquirida felina:** nivel L4, sin evidencia específica de emtricitabina.
+- **Trastorno del neurodesarrollo raro:** nivel L5, sin ensayos ni literatura ni vínculo mecanístico.
 
 **Para avanzar se necesita:**
-- Clarificar el objetivo estratégico: ¿reposicionamiento en investigación veterinaria/preclínica o exploración de modelos de VIH en NHP?
-- Obtener datos de MOA desde DrugBank (DG002) para completar el análisis mecanístico formal
-- Evaluar la indicación de rango 2 (**síndrome de inmunodeficiencia adquirida felina / FAIDS**) como candidato veterinario clínicamente más accionable, dado que existe un estudio publicado en gatos domésticos con FTC (PMID 37112803)
-- Si el objetivo es Colombia, iniciar trámite de registro ante INVIMA para emtricitabina, dado que el mercado local actualmente no cuenta con ningún producto aprobado
+- Aclarar si el interés está en el SIV como modelo preclínico o en una indicación humana ya cubierta por el VIH (por ejemplo PrEP).
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones) antes de cualquier evaluación de seguridad.
+- Confirmar qué texto de indicación aprobada figura en los registros sanitarios, porque hoy solo aparece la composición.
+- Verificar la evidencia específica de emtricitabina, con lectura de los textos completos, en los estudios con SHIV/SIV y en el estudio felino.
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

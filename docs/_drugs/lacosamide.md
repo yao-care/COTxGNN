@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Lacosamide
-parent: Evidencia Alta (L1-L2)
-nav_order: 144
-evidence_level: L2
+parent: Evidencia Moderada (L3-L4)
+nav_order: 235
+evidence_level: L3
 indication_count: 10
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,35 +29,37 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Lacosamide: De Epilepsia Focal a Trastorno Afectivo Bipolar Maníaco
+# Lacosamida: De Epilepsia Focal a Trastorno Bipolar Maníaco
 
 ## Resumen en Una Frase
 
-Lacosamide es un antiepiléptico de tercera generación (comercializado internacionalmente como Vimpat®), utilizado como tratamiento de crisis epilépticas focales en adultos. El modelo TxGNN predice que podría ser efectivo para el **Trastorno Afectivo Bipolar Maníaco**, con **1 ensayo clínico** y **14 publicaciones** que actualmente respaldan esta dirección. La predicción está sustentada por mecanismos compartidos con estabilizadores del estado de ánimo ya aprobados, así como por evidencia preliminar de estudios piloto realizados directamente en pacientes con trastorno bipolar sin epilepsia comórbida.
+Lacosamida es un anticonvulsivo que actúa sobre los canales de sodio dependientes de voltaje y se usa como tratamiento adyuvante de la epilepsia de inicio focal.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno bipolar maníaco**,
+con **1 ensayo clínico** (Fase 3, aún en reclutamiento) y **14 publicaciones**, de las cuales solo unas pocas tratan directamente el trastorno bipolar.
 
 ---
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Epilepsia focal (crisis de inicio focal en adultos) |
-| Nueva Indicación Predicha | Trastorno Afectivo Bipolar Maníaco |
+| Indicación Original | Epilepsia de inicio focal (el texto del registro INVIMA solo dice «LACOSAMIDA», sin indicación detallada) |
+| Nueva Indicación Predicha | Trastorno bipolar maníaco (manic bipolar affective disorder) |
 | Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales de mecanismo de acción en el sistema regulatorio colombiano. Sin embargo, según la información disponible internacionalmente, lacosamide actúa principalmente mediante la **inactivación lenta selectiva de los canales de sodio dependientes de voltaje (Nav)**, promoviendo una estabilización prolongada de la membrana neuronal. Este mecanismo es homólogo al de otros antiepilépticos que ya son pilares del tratamiento del trastorno bipolar, particularmente lamotrigina y carbamazepina, lo que provee una base farmacológica traslacional sólida para el reposicionamiento.
+Lacosamida potencia la inactivación lenta de los canales de sodio dependientes de voltaje y podría modular la proteína CRMP2. Esto estabiliza las membranas neuronales y reduce la hiperexcitabilidad. La base de datos consultada no incluye una descripción formal del mecanismo de acción del fármaco (DrugBank); esta explicación proviene del análisis mecanístico del modelo y de la literatura.
 
-Un segundo mecanismo relevante involucra la proteína **CRMP-2** (*Collapsin Response Mediator Protein-2*): lacosamide se une a CRMP-2 e inhibe su fosforilación, modulando la vía de señalización del factor neurotrófico **BDNF**, que participa directamente en la plasticidad sináptica y la regulación del estado de ánimo. Este eje CRMP-2/BDNF representa un sustrato biológico independiente que refuerza la credibilidad de la predicción de TxGNN más allá de la analogía de clase farmacológica.
+Varios antiepilépticos que actúan sobre canales de sodio, como lamotrigina y carbamazepina, son estabilizadores del ánimo establecidos. Por eso es plausible que lacosamida tenga un efecto similar en el trastorno bipolar. Un caso clínico de 2017 describe además la estabilización del ánimo con lacosamida en una paciente con trastorno del ánimo y epilepsia frontotemporal.
 
-Epilepsia y trastorno bipolar comparten una fisiopatología de hiperexcitabilidad neuronal, lo que explica históricamente por qué valproato, lamotrigina y carbamazepina son tratamientos de primera línea en el trastorno bipolar. Estudios observacionales han documentado mejorías en síntomas depresivos y ansiosos en pacientes epilépticos tratados con lacosamide (PMID 29253680), y un ensayo piloto prospectivo de 12 semanas demostró eficacia en depresión bipolar en pacientes **sin** epilepsia comórbida (PMID 33666402), confirmando que el efecto sobre el estado de ánimo no es exclusivamente secundario al control de las crisis.
+Hay una salvedad importante: los datos clínicos disponibles se refieren a la **depresión bipolar** y a cuadros mixtos, no a la manía aguda. El único ensayo de Fase 3 sigue en reclutamiento y no tiene resultados, así que todavía no cuenta como evidencia directa.
 
 ---
 
@@ -65,7 +67,7 @@ Epilepsia y trastorno bipolar comparten una fisiopatología de hiperexcitabilida
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Fase 3 | Reclutando | 40 | Evalúa lacosamide como augmentación a tratamiento de primera o segunda línea en episodios depresivos mayores del trastorno bipolar tipo I y II (aleatorizado, doble ciego, controlado). Inicio: enero 2026; finalización estimada: enero 2027. ⚠️ El prefijo NCT «07» es inusual (el máximo actual en ClinicalTrials.gov es ~NCT06); se recomienda verificar la validez del registro antes de citarlo formalmente. Muestra de n=40 es pequeña para un estudio Fase 3 convencional. |
+| [NCT07412132](https://clinicaltrials.gov/study/NCT07412132) | Fase 3 | Reclutando | 40 | Ensayo aleatorizado, doble ciego y controlado que evalúa lacosamida como tratamiento de aumento en episodios depresivos mayores de trastorno bipolar I y II. Inicio en enero de 2026, finalización prevista para enero de 2027. Sin resultados. Se dirige al polo depresivo, no a la manía. |
 
 ---
 
@@ -73,41 +75,53 @@ Epilepsia y trastorno bipolar comparten una fisiopatología de hiperexcitabilida
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Ensayo Piloto Abierto | J Clin Psychopharmacology | Primer ensayo prospectivo de 12 semanas evaluando eficacia y seguridad de lacosamide específicamente en depresión bipolar, en pacientes sin epilepsia comórbida. |
-| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Cohorte Retrospectiva | Psychiatry Clin Neurosci | Comparación a 30 días de lacosamide frente a otros antiepilépticos en pacientes hospitalizados con trastorno bipolar sin epilepsia; primer estudio con grupo de comparación en esta población. |
-| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Estudio Prospectivo Multicéntrico | Epilepsy & Behavior | Lacosamide mejoró síntomas depresivos y ansiosos en epilepsia focal refractaria, tanto por control de crisis como por efecto intrínseco del fármaco, apoyando un efecto directo sobre el estado de ánimo. |
-| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Reporte de Caso | Acta Bio-Medica Atenei Parmensis | Estabilización clínica con lacosamide en trastorno del estado de ánimo comórbido con PTSD y epilepsia frontotemporal; discute la inactivación lenta de Nav como base del efecto estabilizador del ánimo. |
-| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Reporte de Caso (Señal de Seguridad) | Indian J Psychological Medicine | Neutropenia precipitada por lacosamide en paciente con trastorno bipolar y epilepsia comórbida. Señal de seguridad hematológica relevante para el uso psiquiátrico. |
-| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Reporte de Caso | Cureus | Manejo de trastorno bipolar I con epilepsia y PNES comórbidas durante el embarazo; lacosamide formó parte del régimen evaluado, aportando perspectiva de uso en poblaciones especiales. |
-| [40777679](https://pubmed.ncbi.nlm.nih.gov/40777679/) | 2025 | Reporte de Caso | Cureus | Paciente con trastorno bipolar y síndrome de abstinencia de xilazina/fentanilo tratado con lacosamide; ilustra el uso en contextos de comorbilidad psiquiátrica compleja con disregulación autonómica. |
-| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Revisión Mecanística | ACS Chemical Neuroscience | Revisión sobre la drogabilidad de CRMP-2; describe cómo lacosamide, al unirse a CRMP-2, regula el tráfico de canales iónicos y la señalización BDNF, sustentando el mecanismo de acción en trastornos del ánimo. |
-| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Revisión TDM | Therapeutic Drug Monitoring | Actualización 2018 sobre monitoreo terapéutico de antiepilépticos; reconoce el uso emergente de lacosamide en dolor y trastorno bipolar como indicaciones off-label con base clínica. |
-| [40072331](https://pubmed.ncbi.nlm.nih.gov/40072331/) | 2025 | Análisis Retrospectivo de Base de Datos | Epilepsia | Análisis de vida real sobre rangos de concentración plasmática de lacosamide y otros anticonvulsivos; referencia de utilidad para establecer rangos de monitoreo terapéutico en uso psiquiátrico. |
+| [30251375](https://pubmed.ncbi.nlm.nih.gov/30251375/) | 2018 | Cohorte retrospectiva | Psychiatry Clin Neurosci | Compara durante 30 días a pacientes con trastorno bipolar sin epilepsia tratados con lacosamida frente a un grupo control retrospectivo tratado con otros antiepilépticos. Es el primer estudio de lacosamida en trastorno bipolar. |
+| [33666402](https://pubmed.ncbi.nlm.nih.gov/33666402/) | 2021 | Ensayo piloto abierto | J Clin Psychopharmacol | Piloto abierto de 12 semanas sobre eficacia y seguridad de lacosamida en depresión bipolar. El resumen no está disponible en los datos. |
+| [29253680](https://pubmed.ncbi.nlm.nih.gov/29253680/) | 2018 | Estudio prospectivo multicéntrico | Epilepsy Behav | Evalúa el efecto de lacosamida sobre síntomas de depresión y ansiedad en epilepsia focal refractaria. Es evidencia indirecta, en población con epilepsia. |
+| [28845834](https://pubmed.ncbi.nlm.nih.gov/28845834/) | 2017 | Reporte de caso | Acta Biomed | Estabilización clínica con lacosamida de un trastorno del ánimo con TEPT y epilepsia frontotemporal. |
+| [30275630](https://pubmed.ncbi.nlm.nih.gov/30275630/) | 2018 | Reporte de caso | Indian J Psychol Med | Neutropenia precipitada por lacosamida en un paciente con trastorno bipolar y epilepsia. Es una señal de seguridad. |
+| [38304661](https://pubmed.ncbi.nlm.nih.gov/38304661/) | 2024 | Reporte de caso | Cureus | Paciente embarazada con trastorno bipolar I, epilepsia y otras comorbilidades. Aporta poca información sobre eficacia. |
+| [32693579](https://pubmed.ncbi.nlm.nih.gov/32693579/) | 2020 | Revisión | ACS Chem Neurosci | Revisa CRMP2 como diana farmacológica y su papel en el tráfico de canales iónicos. Apoya el mecanismo propuesto. |
+| [37782796](https://pubmed.ncbi.nlm.nih.gov/37782796/) | 2023 | Preclínico / mecanístico | PNAS | Estructuras crio-EM de Nav1.7 unido a fármacos antiepilépticos como lamotrigina. Es evidencia mecanística de clase, no de lacosamida. |
+| [29957667](https://pubmed.ncbi.nlm.nih.gov/29957667/) | 2018 | Revisión | Ther Drug Monit | Actualización sobre monitoreo de niveles de antiepilépticos. Menciona su uso en trastorno bipolar, pero el tema principal es otro. |
+
+---
+
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20010104 | VIMPAT® 150 MG TABLETAS (UCB Pharma S.A.) | Tableta recubierta | Solo figura el principio activo: «LACOSAMIDA» |
+
+En total hay 20 registros sanitarios. Los datos entregados muestran únicamente el registro 20010104, repetido varias veces.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto (FDA/EMA) para información completa de advertencias, contraindicaciones e interacciones farmacológicas.
+- **Señal de seguridad en la literatura**: un reporte de caso (PMID 30275630) describe neutropenia asociada a lacosamida en un paciente con trastorno bipolar. Conviene vigilar el hemograma.
 
-> **Señal de seguridad identificada en evidencia revisada:** PMID 30275630 reporta un caso de **neutropenia** precipitada por lacosamide en un paciente con trastorno bipolar y epilepsia comórbida. Se recomienda incluir monitoreo hematológico de rutina (hemograma completo) en cualquier protocolo de uso psiquiátrico de lacosamide.
+Consultar el prospecto para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones).
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN está respaldada por una base mecanística farmacológicamente sólida (inactivación lenta de Nav y modulación del eje CRMP-2/BDNF), evidencia piloto prospectiva en depresión bipolar, y un ensayo de Fase 3 actualmente en reclutamiento. Sin embargo, la ausencia de comercialización en Colombia, la falta de datos de seguridad formales disponibles localmente, y la pendiente confirmación del ensayo NCT07412132 obligan a avanzar con cautela y bajo monitoreo estricto.
+La predicción es plausible desde el mecanismo, pero la evidencia es de nivel L3: cohorte retrospectiva, piloto abierto y casos clínicos. El único ensayo de Fase 3 sigue en reclutamiento, no tiene resultados y estudia depresión bipolar, no manía. Además, existe una señal de neutropenia.
 
 **Para avanzar se necesita:**
-- Verificar la validez del registro NCT07412132 directamente en ClinicalTrials.gov (prefijo «07» inusual) y confirmar su elegibilidad como evidencia de Fase 3
-- Obtener el prospecto completo de FDA o EMA para caracterizar el perfil de advertencias, contraindicaciones e interacciones farmacológicas
-- Completar el perfil de MOA mediante consulta a DrugBank API (DB06218)
-- Establecer plan de monitoreo hematológico ante la señal de neutropenia identificada (PMID 30275630)
-- Evaluar la vía regulatoria para importación o registro ante INVIMA dado que lacosamide no está actualmente comercializado en Colombia
-- Monitorear los resultados del ensayo de Fase 3 NCT07412132 (finalización estimada: enero 2027)
+- Resultados del ensayo NCT07412132 y, en lo posible, un ensayo controlado específico en manía aguda
+- Datos controlados y de mayor tamaño que confirmen los hallazgos del piloto abierto y de la cohorte retrospectiva
+- Descargar y analizar el prospecto de INVIMA para completar la revisión de seguridad (este vacío bloquea el tamizaje de seguridad)
+- Datos del mecanismo de acción desde DrugBank
+- Plan de monitoreo hematológico por el riesgo de neutropenia
+
+**Nota:** para la misma molécula, la predicción de **migraña** tiene mucha más evidencia (nivel L1, con un ECA doble ciego publicado frente a propranolol, PMID 41863672). Ese resultado requiere replicación independiente y se evalúa por separado.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

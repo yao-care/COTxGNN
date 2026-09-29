@@ -2,7 +2,7 @@
 layout: default
 title: Droxidopa
 parent: Solo Predicción del Modelo (L5)
-nav_order: 102
+nav_order: 168
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,76 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Droxidopa: De Hipotensión Ortostática Neurógena a Prionopatía Variable Sensible a Proteasas
+# Droxidopa: De Hipotensión Ortostática Neurogénica a Prionopatía Variablemente Sensible a Proteasas
 
 ## Resumen en Una Frase
 
-Droxidopa es un aminoácido sintético precursor de norepinefrina, utilizado principalmente para el tratamiento de la hipotensión ortostática neurógena (HON) asociada a enfermedades neurodegenerativas como la enfermedad de Parkinson, la atrofia multisistémica y la falla autonómica pura.
-El modelo TxGNN predice que podría ser efectivo para la **prionopatía variable sensible a proteasas (VPSPr)**,
-sin embargo, **no existe actualmente ningún ensayo clínico ni publicación científica** que respalde esta dirección, y la plausibilidad mecanística es extremadamente baja.
-
----
+Droxidopa es un precursor aminoacídico sintético de la noradrenalina, comercializado para la hipotensión ortostática neurogénica sintomática.
+El modelo TxGNN predice que podría ser efectivo para la **prionopatía variablemente sensible a proteasas (VPSPr)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipotensión ortostática neurógena (no comercializado en Colombia) |
-| Nueva Indicación Predicha | Prionopatía variable sensible a proteasas (VPSPr) |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice «DROXIDOPA»); según la información disponible, hipotensión ortostática neurogénica |
+| Nueva Indicación Predicha | Prionopatía variablemente sensible a proteasas (VPSPr) |
 | Puntaje de Predicción TxGNN | 99.33% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 7 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Droxidopa actúa como profármaco del neurotransmisor norepinefrina (NE): tras su administración oral, es convertido por la DOPA descarboxilasa en NE funcional, lo que aumenta el tono adrenérgico periférico y central. Su mecanismo es esencialmente simpaticomimético, orientado a corregir deficiencias en la transmisión noradrenérgica.
+Los datos disponibles no respaldan un vínculo mecanístico. Droxidopa es un precursor de la noradrenalina: la enzima DOPA descarboxilasa la convierte en noradrenalina, y por eso se usa para la hipotensión ortostática neurogénica. No hay datos curados de mecanismo de acción (MOA) en DrugBank para contrastar la predicción.
 
-La prionopatía variable sensible a proteasas (VPSPr) es una enfermedad priónica humana extremadamente rara, cuya patología central radica en el plegamiento anómalo de la proteína priónica (PrP) y su posterior propagación. Los mecanismos implicados son la conversión conformacional de PrP, la disfunción mitocondrial y la neuroinflación glial, ninguno de los cuales tiene una relación biológica conocida con la señalización adrenérgica.
+La VPSPr es una enfermedad priónica esporádica y rara, causada por la proteína priónica mal plegada. No se conoce ninguna vía que conecte el reemplazo de noradrenalina con el mal plegamiento, la propagación del prion o la neurodegeneración.
 
-El alto puntaje TxGNN (0.9932) se explica probablemente por la proximidad topológica de los nodos de enfermedades neurodegenerativas dentro del grafo de conocimiento, no por una conexión mecanística real. No existen datos de MOA detallados en este paquete de evidencia, y el análisis de la justificación de reposicionamiento incluido en los datos concluye explícitamente que no hay evidencia de que la señalización adrenérgica pueda influir sobre la dinámica, depuración o inhibición de la neurotoxicidad de las proteínas priónicas. Esta predicción debe interpretarse como un artefacto del modelo, no como una hipótesis biológicamente fundamentada.
-
----
+El puntaje de 0.993 es únicamente una predicción del modelo. Podría reflejar cercanía en el grafo de conocimiento con términos neurodegenerativos o autonómicos, y no una relación biológica validada. Por ahora la predicción debe tratarse como una hipótesis sin sustento mecanístico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Droxidopa en prionopatía variable sensible a proteasas.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible sobre el uso de Droxidopa en prionopatía variable sensible a proteasas.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Droxidopa no cuenta con ningún registro sanitario vigente en Colombia. El fármaco no está comercializado en el país.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20178274 | XIDROPA® 300 (LABORATORIOS LEGRAND S.A.) | Cápsula dura | Droxidopa (el registro no detalla la indicación) |
 
----
+Nota: el sistema reporta 7 registros en total, pero el detalle recibido repite el mismo número de registro (20178274), por lo que se muestra una sola vez.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico, publicación científica ni justificación mecanística plausible que respalde el uso de Droxidopa en la prionopatía variable sensible a proteasas. El alto puntaje TxGNN refleja únicamente proximidad estructural en el grafo de conocimiento entre enfermedades neurodegenerativas, y no una conexión biológica real. La predicción no supera el umbral mínimo de plausibilidad para avanzar.
+La predicción no tiene ensayos clínicos, literatura ni un mecanismo plausible que la respalde (nivel L5). Además, la VPSPr es una enfermedad priónica sin vínculo conocido con la vía noradrenérgica.
 
-**Para reconsiderar se necesitaría:**
-- Evidencia preclínica (estudios in vitro o in vivo) que demuestre efecto de la norepinefrina o Droxidopa sobre la dinámica de PrP o la neuroprotección en modelos priones
-- Al menos un reporte de caso o estudio exploratorio en la literatura científica
-- Datos de MOA completos (actualmente marcados como [Data Gap]) para establecer una cadena de plausibilidad biológica
-- Resolución del estatus regulatorio en Colombia antes de cualquier evaluación de viabilidad comercial
+**Para avanzar se necesita:**
+- Obtener del prospecto de INVIMA las advertencias y contraindicaciones (brecha de seguridad bloqueante)
+- Completar los datos de mecanismo de acción desde DrugBank
+- Revisar por qué el modelo asocia droxidopa con la VPSPr (vecindad en el grafo) y buscar estudios preclínicos que sustenten una hipótesis biológica
+- Aclarar el detalle de los 7 registros sanitarios y la indicación aprobada en el registro colombiano
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

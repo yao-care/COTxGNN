@@ -2,7 +2,7 @@
 layout: default
 title: Lebrikizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 150
+nav_order: 244
 evidence_level: L5
 indication_count: 0
 ---

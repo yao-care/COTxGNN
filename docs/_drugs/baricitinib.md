@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 61
+nav_order: 78
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,58 +29,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Baricitinib: Evaluación de Reposicionamiento — Paquete de Evidencia Incompleto
+# Baricitinib: De Indicación No Especificada en el Registro a Síndrome de Displasia Rizomélica con Microftalmia Colobomatosa
 
 ## Resumen en Una Frase
 
-Baricitinib (DB11817) es un fármaco identificado en este paquete de evidencia, pero **el modelo TxGNN no ha generado predicciones de nuevas indicaciones** en la versión actual del Evidence Pack (v4). Las brechas de datos bloqueantes — mecanismo de acción no disponible y ausencia de registros sanitarios — impiden completar la evaluación de reposicionamiento en esta etapa.
-
----
+Baricitinib se comercializa en Colombia como tableta recubierta (Olumiant), pero el registro sanitario solo consigna el nombre del principio activo y no una indicación original.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de displasia rizomélica con microftalmia colobomatosa**,
+sin **ningún ensayo clínico** ni **publicación** que respalde esta dirección; es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este paquete |
-| Nueva Indicación Predicha | Sin predicciones TxGNN en este paquete |
-| Puntaje de Predicción TxGNN | — |
-| Nivel de Evidencia | L5 (sin estudios disponibles en este paquete) |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Indicación Original | No especificada (el registro solo dice "BARICITINIB") |
+| Nueva Indicación Predicha | Síndrome de displasia rizomélica con microftalmia colobomatosa |
+| Puntaje de Predicción TxGNN | 99.94% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué No Hay Predicción Disponible?
+Los datos del mecanismo de acción no están disponibles en el Evidence Pack. En términos generales, baricitinib se conoce como inhibidor de JAK1/JAK2, pero esto no proviene de un MOA registrado en los datos recibidos.
 
-El pipeline recibió datos de una sola fuente (`drugbank`) de las múltiples requeridas para activar el modelo TxGNN. Esto generó dos brechas críticas que paralizan el análisis:
+La enfermedad predicha es un síndrome raro del desarrollo con malformaciones oculares y esqueléticas. No se aportó ningún papel establecido de la vía JAK-STAT en su patogenia, por lo que **no hay un vínculo mecanístico sustentado por los datos**. El puntaje de 0.9994 es solo una salida del modelo y puede reflejar la topología del grafo de conocimiento más que una biología real. No debe leerse como respaldo clínico.
 
-**Brecha 1 — Mecanismo de Acción (MOA):** No se dispone de datos sobre cómo actúa el fármaco a nivel molecular. Esta información es el insumo central para que TxGNN evalúe la plausibilidad biológica de nuevas indicaciones. Sin ella, el modelo no puede establecer conexiones terapéuticas confiables.
+También se predijo otra enfermedad: el **síndrome de braquidactilia-sindactilia** (puntaje 99.94%, también L5, Hold). Tampoco tiene ensayos ni literatura, y su vínculo con la inhibición de JAK1/JAK2 no está respaldado por los datos.
 
-**Brecha 2 — Seguridad regulatoria:** No se cargaron las advertencias, contraindicaciones ni el prospecto oficial. Esta información es obligatoria para completar la evaluación de seguridad inicial (S1) antes de cualquier análisis de reposicionamiento.
+## Evidencia de Ensayos Clínicos
 
-Como consecuencia directa de estas brechas, el campo `predicted_indications` se encuentra vacío en este paquete, por lo que no es posible generar el informe de evaluación en su formato completo.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Colombia
+
+Se muestran los registros principales. Todos corresponden al registro sanitario 20157001 (Eli Lilly and Company), con presentaciones repetidas en los datos.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20157001 | Olumiant 2 mg | Tableta recubierta | Solo consta el nombre del principio activo (baricitinib) |
+| 20157001 | Olumiant 4 mg | Tableta recubierta | Solo consta el nombre del principio activo (baricitinib) |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El paquete de evidencia está incompleto. Faltan las predicciones TxGNN y los datos de seguridad validados, lo que hace imposible avanzar con la evaluación de reposicionamiento de forma responsable.
+La predicción se apoya únicamente en el puntaje del modelo (L5), sin ensayos, literatura ni vínculo mecanístico plausible. Además, faltan datos de seguridad y del mecanismo de acción.
 
 **Para avanzar se necesita:**
-- Completar la consulta de mecanismo de acción (MOA) desde DrugBank API (`DG002`)
-- Descargar y parsear el prospecto oficial para extraer advertencias y contraindicaciones (`DG001`)
-- Ejecutar el pipeline TxGNN completo para obtener predicciones de nuevas indicaciones con puntaje y evidencia asociada
-- Verificar el estado regulatorio en Colombia (INVIMA) y confirmar si existe registro sanitario bajo nombre de marca
+- Obtener el mecanismo de acción desde DrugBank y evaluar si la vía JAK-STAT se relaciona con la enfermedad predicha
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad
+- Aclarar la indicación original aprobada, ya que el registro solo muestra el nombre del fármaco
+- Someter las predicciones a revisión de expertos y buscar evidencia preclínica o de mecanismo antes de cualquier seguimiento
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

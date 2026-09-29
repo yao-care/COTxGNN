@@ -2,7 +2,7 @@
 layout: default
 title: Letermovir
 parent: Solo Predicción del Modelo (L5)
-nav_order: 153
+nav_order: 249
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,70 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# LETERMOVIR: Evaluación Pendiente por Datos Insuficientes
+# Letermovir: De Infección por Citomegalovirus (CMV) a Candidiasis Vulvovaginal
 
 ## Resumen en Una Frase
 
-LETERMOVIR (DrugBank ID: DB12070) es un fármaco identificado en el sistema, sin indicaciones originales registradas en este Evidence Pack.
-El modelo TxGNN no ha generado indicaciones predichas en el paquete de evidencia actual,
-por lo que la evaluación de reposicionamiento **no puede completarse** hasta que se subsanen las brechas de datos críticas.
-
----
+Letermovir es un antiviral que actúa contra el citomegalovirus humano (CMV). Está comercializado en Colombia como PREVYMIS 240 mg tabletas. El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, y no se identificó un vínculo mecanístico creíble.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible |
-| Nueva Indicación Predicha | No disponible |
-| Puntaje de Predicción TxGNN | No disponible |
-| Nivel de Evidencia | — |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No especificada en el registro (el texto solo repite "LETERMOVIR"); por su mecanismo, antiviral contra CMV |
+| Nueva Indicación Predicha | Candidiasis vulvovaginal |
+| Puntaje de Predicción TxGNN | 99.88% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 2 (ambos con el mismo número, 20194849) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No se Puede Completar la Evaluación
+Letermovir inhibe el complejo terminasa del ADN del CMV (pUL56/pUL89/pUL51), una pieza esencial para empaquetar el genoma viral. Este complejo no tiene homólogo fúngico conocido, y letermovir no tiene actividad antifúngica establecida contra *Candida*.
 
-El Evidence Pack presenta tres brechas que bloquean el análisis:
+Por eso la relación entre la indicación original (una infección viral) y la nueva (una infección fúngica de la mucosa vaginal) no es clara. El puntaje de 99.88% (posición 1453 en el ranking del modelo) proviene solo del grafo de conocimiento. Probablemente refleja asociaciones indirectas, como poblaciones de pacientes en común (receptores de trasplante propensos a infecciones oportunistas), y no un efecto farmacológico directo sobre *Candida*.
 
-**1. Sin indicaciones predichas por TxGNN**
-El campo `predicted_indications` está vacío. No se han generado candidatos de reposicionamiento para LETERMOVIR en este ciclo de pipeline. Sin una indicación objetivo, no es posible redactar ningún análisis de mecanismo, tabla de ensayos clínicos ni tabla de literatura.
+Además, el mecanismo de acción no está documentado en los datos de entrada, así que la predicción no se puede contrastar con un mecanismo registrado. La compatibilidad de vía de administración (oral frente a la vía requerida para esta indicación) tampoco está evaluada.
 
-**2. Sin mecanismo de acción (DG002 – Severidad Alta)**
-El campo `original_moa` contiene un dato ausente. Esto impide analizar si el mecanismo original del fármaco es aplicable a nuevas indicaciones y reduce la calidad de cualquier recomendación.
+## Evidencia de Ensayos Clínicos
 
-**3. Sin advertencias ni contraindicaciones (DG001 – Severidad Bloqueante)**
-La información de seguridad regulatoria no está disponible. De acuerdo con el propio Evidence Pack, esta brecha es **bloqueante** para la evaluación inicial de seguridad (S1). No se puede emitir una recomendación clínica sin este dato.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-LETERMOVIR **no cuenta con ningún registro sanitario activo en Colombia** (0 licencias). El fármaco no se encuentra comercializado en el mercado local, lo que incrementa la complejidad regulatoria para cualquier iniciativa de reposicionamiento y requerirá un proceso de registro de novo ante el INVIMA.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20194849 | PREVYMIS 240MG TABLETAS (MERCK SHARP & DOHME LLC) | Tableta | LETERMOVIR (el registro no detalla la indicación) |
 
----
+El registro aparece duplicado en los datos, por eso se cuentan 2 registros con el mismo número.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack de LETERMOVIR carece de indicaciones predichas por TxGNN, de datos de mecanismo de acción y de información de seguridad regulatoria; sin estos tres elementos no es posible emitir ninguna recomendación de reposicionamiento fundamentada.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y no hay un mecanismo plausible que conecte la inhibición de la terminasa del CMV con la candidiasis. Con estos datos no se justifica avanzar.
 
 **Para avanzar se necesita:**
-- Ejecutar (o re-ejecutar) el pipeline TxGNN para generar `predicted_indications` para LETERMOVIR
-- Obtener los datos de MOA desde la API de DrugBank y completar el campo `original_moa` (DG002)
-- Descargar y parsear el prospecto oficial para extraer advertencias y contraindicaciones (DG001 — **Bloqueante**)
-- Confirmar las indicaciones originales aprobadas en mercados de referencia (FDA / EMA) para completar el campo `original_indications`
-- Evaluar estrategia de registro ante INVIMA dado que el fármaco no tiene presencia en Colombia
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad)
+- Completar el mecanismo de acción desde DrugBank
+- Buscar evidencia preclínica de actividad antifúngica in vitro de letermovir contra *Candida*
+- Evaluar la compatibilidad de vía de administración (la presentación local es solo oral en tabletas)
+- Reevaluar la decisión solo si aparece evidencia real que respalde la hipótesis
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

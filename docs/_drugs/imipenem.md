@@ -2,7 +2,7 @@
 layout: default
 title: Imipenem
 parent: Solo Predicción del Modelo (L5)
-nav_order: 133
+nav_order: 219
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,74 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-El skill de txgnn-pipeline confirma el contexto del proyecto. Procedo a generar el informe completo basándome en las instrucciones del sistema y el Evidence Pack proporcionado.
-
----
-
-# Imipenem: De Infecciones Bacterianas Graves a Esclerodermia Difusa
+# Imipenem: De Infecciones Bacterianas (antibacteriano carbapenémico) a Esclerodermia Difusa
 
 ## Resumen en Una Frase
 
-Imipenem es un antibiótico carbapenem de amplio espectro, reconocido globalmente como tratamiento de reserva para infecciones bacterianas graves causadas por microorganismos multirresistentes, aunque actualmente no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Esclerodermia Difusa**, con un puntaje de predicción del **99.99%**;
-sin embargo, esta indicación **no cuenta con ningún ensayo clínico ni publicación científica** de respaldo, lo que genera serias dudas sobre la validez clínica de la predicción.
-
----
+Imipenem es un antibiótico carbapenémico, comercializado en Colombia en combinación con cilastatina y utilizado para tratar infecciones bacterianas.
+El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro formal en Colombia (antibiótico carbapenem de uso hospitalario para infecciones bacterianas graves) |
+| Indicación Original | Imipenem y cilastatina (texto de registro INVIMA; no detalla la indicación) |
 | Nueva Indicación Predicha | Esclerodermia difusa |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información farmacológica establecida, Imipenem es un antibiótico de la clase carbapenems que actúa inhibiendo las proteínas fijadoras de penicilina (PBP1a, PBP1b, PBP2 y PBP3), lo cual interfiere con la síntesis de la pared celular bacteriana de manera irreversible. Esta actividad le confiere eficacia frente a una amplia gama de bacterias Gram-positivas, Gram-negativas y anaerobias, incluyendo cepas productoras de β-lactamasas de espectro extendido (ESBL).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el Evidence Pack. Según la información conocida, imipenem es un antibiótico carbapenémico que inhibe las proteínas fijadoras de penicilina (PBP) de la pared bacteriana, y en Colombia se comercializa combinado con cilastatina. Su eficacia está establecida en infecciones bacterianas, no en enfermedades autoinmunes ni fibróticas.
 
-La esclerodermia difusa es una enfermedad autoinmune sistémica caracterizada por fibrosis progresiva de la piel y órganos internos. Su fisiopatología involucra la activación excesiva del factor de crecimiento transformante beta (TGF-β), producción de autoanticuerpos específicos (anti-Scl-70, anti-centrómero) y daño al endotelio vascular. Estos mecanismos no presentan ningún punto de intersección conocido con la inhibición de PBPs que ejerce Imipenem.
+**En este caso la predicción no tiene un fundamento mecanístico plausible.** La esclerodermia difusa (esclerosis sistémica) es una enfermedad autoinmune y fibrosante. Imipenem no tiene actividad antifibrótica ni inmunomoduladora conocida que sea relevante para ella.
 
-El puntaje TxGNN extremadamente elevado (0.9999) para esta indicación se debe, con alta probabilidad, a una **propagación indirecta en el grafo de conocimiento** a través de nodos relacionados con inmunidad e inflamación, constituyendo un **falso positivo algorítmico**. El análisis de racionalidad de reposicionamiento incluido en el propio Evidence Pack confirma esta interpretación: no existe ninguna hipótesis mecanística, dato in vitro, modelo animal ni reporte clínico que conecte Imipenem con el tratamiento de la esclerodermia.
-
----
+El puntaje alto de TxGNN (99.99%) refleja únicamente una predicción del modelo. No hay ensayos clínicos ni literatura que la sustenten, por lo que debe tratarse como una señal computacional sin validación.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19982795 | Imipenem y Cilastatina 1 g | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
+
+Nota: el Evidence Pack lista cinco entradas idénticas bajo el mismo número de registro (fabricante: Farmalógica S.A.), por lo que se muestra una sola fila. El total de registros informado es 20.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de Imipenem para esclerodermia difusa carece completamente de base mecanística plausible y no cuenta con ninguna evidencia clínica ni preclínica de respaldo (Nivel L5). El alto puntaje TxGNN refleja con alta probabilidad un artefacto de propagación en el grafo de conocimiento entre nodos de inflamación/autoinmunidad, no una señal terapéutica genuina. Esta indicación no merece inversión de recursos de investigación en el estado actual.
+La predicción para esclerodermia difusa es solo del modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Identificación de cualquier hipótesis mecanística que conecte la inhibición de PBPs bacterianas con la fisiopatología autoinmune/fibrótica de la esclerodermia
-- Evidencia de actividad biológica en modelos in vitro o in vivo de fibrosis o autoinmunidad
-- Revisión de la arquitectura del grafo TxGNN para determinar si la propagación de la señal hacia nodos de esclerodermia es un patrón sistemático de falsos positivos en enfermedades autoinmunes
-- Considerar redirigir el análisis hacia las indicaciones de rango inferior con mayor respaldo clínico real, como **Fiebre Tifoidea** (Rank 6, L3, Proceed with Guardrails) o **Infección por Staphylococcus aureus** (Rank 9, L2, Proceed with Guardrails), donde Imipenem ya cuenta con ensayos clínicos y literatura sustancial
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- El prospecto de INVIMA con advertencias y contraindicaciones, para poder hacer el cribado de seguridad.
+- Una hipótesis biológica que conecte un carbapenémico con la fibrosis o la autoinmunidad. Sin ella, no se justifica ningún estudio.
+
+**Otras predicciones del mismo fármaco con más respaldo (para priorización):**
+- **Infección por *Staphylococcus aureus*** (nivel L2, TxGNN 99.95%): incluye un ensayo de Fase 4 completado de fosfomicina más imipenem en endocarditis por SARM (NCT00871104, n=50). El ensayo de Fase 3 listado (NCT03583333) no se pudo confirmar como específico para *S. aureus*. La eficacia frente a SARM no es confiable con imipenem solo.
+- **Fiebre tifoidea** (nivel L3, TxGNN 99.98%): series retrospectivas sugieren uso de carbapenémicos como agente de reserva en cepas extensamente resistentes (XDR). No hay ensayo prospectivo controlado, y el uso choca con la política de control de carbapenémicos.
+- **Salmonelosis** (nivel L4) y **fiebre paratifoidea** (nivel L4): hay datos in vitro y de vigilancia de resistencia, pero ningún resultado clínico específico.
+
+Estas indicaciones son antibacterianas, coherentes con el uso original del fármaco, y merecen evaluación por separado.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

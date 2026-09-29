@@ -2,7 +2,7 @@
 layout: default
 title: Resorcinol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 207
+nav_order: 343
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,41 +29,43 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Resorcinol: De Agente Queratolítico a Acné Queloide
+# Resorcinol: De Uso Dermatologico Topico (indicacion no detallada en el registro) a Acne Queloide
 
 ## Resumen en Una Frase
 
-Resorcinol es un agente queratolítico y antiséptico de uso tópico, históricamente empleado en el tratamiento de afecciones cutáneas como acné, dermatitis seborreica y psoriasis leve. El modelo TxGNN predice que podría ser efectivo para **Acné Queloide (Acne Keloid)**, con **0 ensayos clínicos** y **0 publicaciones** que actualmente respaldan esta dirección. La predicción se sustenta exclusivamente en la proximidad estructural dentro del grafo de conocimiento biomédico.
+Resorcinol es un principio activo de uso topico dermatologico. En Colombia figura en una solucion topica que lo combina con acido salicilico y acido benzoico, pero el registro no detalla la indicacion aprobada.
+El modelo TxGNN predice que podria ser efectivo para **acne queloide**, con un puntaje alto (99.83%).
+Actualmente hay **0 ensayos clinicos** y **0 publicaciones** que respalden esta direccion, por lo que es solo una prediccion del modelo.
 
 ---
 
-## Resumen Rápido
+## Resumen Rapido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Agente queratolítico para afecciones cutáneas con hiperqueratinización (acné, dermatitis seborreica) |
-| Nueva Indicación Predicha | Acné Queloide (Acne Keloid) |
-| Puntaje de Predicción TxGNN | 99.83% |
+|------|------|
+| Indicacion Original | No especificada. El registro solo lista los componentes de la formula: acido salicilico, acido benzoico y resorcinol |
+| Nueva Indicacion Predicha | Acne queloide |
+| Puntaje de Prediccion TxGNN | 99.83% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Hold |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Numero de Registros Sanitarios | 12 |
+| Decision Recomendada | Hold |
 
 ---
 
-## ¿Por qué es Razonable esta Predicción?
+## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de Resorcinol en la base de datos consultada. Según la información conocida, Resorcinol es un derivado fenólico con propiedades queratolíticas (disolución de queratina), antisépticas y antiinflamatorias leves. Su uso histórico incluye formulaciones tópicas —pastas y lociones— para el tratamiento del acné, la psoriasis leve y otras dermatosis hiperqueratósicas; mecanísticamente, podría ser aplicable al componente queratolítico del acné queloide.
+Actualmente no se dispone de datos detallados sobre el mecanismo de accion. Segun la informacion conocida, resorcinol es un agente topico queratolitico y antiseptico. En Colombia se comercializa en una solucion topica combinada con acido salicilico y acido benzoico. Su uso en afecciones dermatologicas como el acne es conocido, y mecanisticamente podria ser aplicable al acne queloide.
 
-El acné queloide (foliculitis queloidea de la nuca) presenta dos componentes patológicos diferenciados: una fase inflamatoria folicular inicial —comparable al acné vulgar— y una fase cicatricial con sobreproducción de colágeno que genera la lesión queloidea. La lógica de la predicción apunta al primer componente: la acción queratolítica de Resorcinol podría reducir la obstrucción folicular e hiperqueratinización que desencadena el ciclo inflamatorio. Esta conexión es plausible y explica la proximidad en el grafo de conocimiento.
+La relacion entre ambos usos es indirecta e hipotetica. El acne queloide es una inflamacion cronica de los foliculos pilosos de la nuca y el cuero cabelludo, con formacion de cicatrices. Un agente queratolitico y antiseptico podria influir en la inflamacion folicular superficial. No hay estudios que lo confirmen ni datos de mecanismo que permitan sustentarlo.
 
-Sin embargo, el componente central del queloide —la proliferación excesiva de fibroblastos y depósito de colágeno— no tiene correspondencia directa con ningún mecanismo conocido de Resorcinol. La relevancia mecanística global se considera de moderada a baja, y la ausencia total de evidencia clínica o preclínica publicada confirma que esta predicción está en etapa puramente exploratoria.
+El puntaje de 0.998 refleja la proximidad en el grafo de conocimiento del modelo, no una demostracion farmacologica. Por eso esta direccion debe verse como una pregunta de investigacion.
 
 ---
 
-## Evidencia de Ensayos Clínicos
+## Evidencia de Ensayos Clinicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clinicos relacionados registrados.
 
 ---
 
@@ -73,32 +75,39 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Información de Mercado en Colombia
+## Informacion de Mercado en Colombia
 
-Resorcinol no cuenta con registros sanitarios activos en Colombia (INVIMA). No se identificaron licencias comerciales vigentes para este compuesto en la base de datos consultada.
+| Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
+|---------|------|------|-----------|
+| 20052715 | QUERAFAR® Solucion Topica | Solucion topica | Acido salicilico, acido benzoico, resorcinol (solo componentes, sin indicacion detallada) |
+
+Nota: el registro indica 12 registros sanitarios en total, pero los datos recibidos muestran un unico registro (20052715, fabricante Farmacoop) repetido varias veces. Se presenta una sola vez para no duplicar la informacion.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para informacion de seguridad.
 
 ---
 
-## Conclusión y Próximos Pasos
+## Conclusion y Proximos Pasos
 
-**Decisión: Hold**
+**Decision: Hold**
 
-**Justificación:**
-La predicción de TxGNN se basa exclusivamente en la estructura del grafo de conocimiento (Nivel de Evidencia L5), sin ningún respaldo en ensayos clínicos ni publicaciones científicas indexadas. La conexión mecanística existe de forma parcial para el componente acneiforme de la enfermedad, pero es insuficiente para el componente queloide que define la condición, lo que no justifica avanzar en esta etapa.
+**Justificacion:**
+La prediccion se basa unicamente en el modelo (nivel L5), sin ensayos clinicos ni literatura, y sin datos de mecanismo ni de seguridad. La evidencia actual no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) desde DrugBank y literatura especializada
-- Búsqueda bibliográfica ampliada sobre el uso histórico de pastas de Resorcinol en acné cicatricial y queloidea
-- Estudios preclínicos que evalúen el efecto de Resorcinol en modelos de fibrosis cutánea o formación de queloide
-- Evaluación de seguridad completa: advertencias clave, contraindicaciones e interacciones farmacológicas (actualmente sin datos disponibles)
-- Consideración especial de los efectos disruptores tiroideos documentados de Resorcinol en uso sistémico o sobre superficies extensas
-- Registro sanitario en Colombia (INVIMA) como prerrequisito para cualquier desarrollo clínico local
+- Obtener el mecanismo de accion desde DrugBank
+- Descargar y analizar el prospecto de INVIMA para conocer advertencias y contraindicaciones
+- Confirmar la indicacion aprobada real del producto y aclarar los 12 registros sanitarios
+- Hacer una busqueda dirigida de literatura y ensayos sobre resorcinol en acne queloide
+- Evaluar la compatibilidad de la via de administracion (la solucion topica disponible frente a lo que requeriria la nueva indicacion)
+
+**Otras predicciones del modelo:** dermatomiositis amiopatica, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis cronica atrofica e hidroa vacciniforme familiar. Todas son de nivel L5, sin vinculo mecanistico plausible identificado y con recomendacion Hold. En el caso neonatal, la posible absorcion sistemica de resorcinol es una preocupacion de seguridad que exigiria una revision muy cuidadosa.
+
+*Este informe es solo de referencia para investigacion y no constituye consejo medico. Cualquier candidato de reposicionamiento requiere validacion clinica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

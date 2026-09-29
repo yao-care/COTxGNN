@@ -2,7 +2,7 @@
 layout: default
 title: Gilteritinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 128
+nav_order: 209
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,17 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-El skill `txgnn-pipeline` confirma el contexto del proyecto. Ahora procedo a generar el informe con base en el Evidence Pack proporcionado.
-
----
-
-# GILTERITINIB: De Leucemia Mieloide Aguda a Polio Bulbar
+# Gilteritinib: De Leucemia Mieloide Aguda con Mutación FLT3 a Poliomielitis Bulbar
 
 ## Resumen en Una Frase
 
-Gilteritinib es un inhibidor dual de las quinasas FLT3/AXL, aprobado internacionalmente para el tratamiento de la leucemia mieloide aguda (LMA) con mutación en FLT3, aunque actualmente no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Polio Bulbar**,
-sin embargo, actualmente **no existen ensayos clínicos ni publicaciones científicas** que respalden esta dirección — la predicción se apoya exclusivamente en la proximidad topológica del grafo de conocimiento, sin validación mecanística.
+Gilteritinib es un inhibidor de FLT3/AXL, conocido por su uso en la leucemia mieloide aguda (LMA) recidivante o refractaria con mutación FLT3. Esta información proviene de conocimiento general, porque el registro no trae indicaciones originales.
+El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción puramente computacional.
 
 ---
 
@@ -47,55 +43,66 @@ sin embargo, actualmente **no existen ensayos clínicos ni publicaciones cientí
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro en Colombia (aprobado internacionalmente para LMA con mutación FLT3) |
-| Nueva Indicación Predicha | Polio Bulbar |
+| Indicación Original | No especificada en el registro (el texto del registro solo dice «GILTERITINIB»). Por conocimiento general: LMA con mutación FLT3 |
+| Nueva Indicación Predicha | Poliomielitis bulbar (bulbar polio) |
 | Puntaje de Predicción TxGNN | 99.10% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Con base en la información conocida, gilteritinib es un inhibidor dual de las tirosina quinasas FLT3 y AXL, utilizado en oncohematología para el tratamiento de LMA con mutaciones en FLT3. Su acción sobre AXL ha despertado interés en el contexto de infecciones virales, dado que esta quinasa participa en la entrada celular de patógenos como Zika, SARS-CoV-2 y Ébola mediante el mecanismo de captación de cuerpos apoptóticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Por conocimiento general, gilteritinib es un inhibidor de las quinasas FLT3 y AXL, aprobado para la LMA recidivante o refractaria con mutación FLT3.
 
-No obstante, el enlace mecanístico hacia la polio bulbar es sumamente débil. El poliovirus utiliza el receptor CD155/PVR para ingresar a las células del sistema nervioso central, un proceso en el que ni FLT3 ni AXL tienen un rol documentado. La polio bulbar representa la forma más grave de poliomielitis, con compromiso de los centros respiratorios y vasomotores del tronco encefálico, y no hay evidencia preclínica ni clínica que sugiera que la inhibición de estas quinasas ofrezca neuroprotección en este contexto.
+Solo se puede plantear una conexión especulativa. Los receptores AXL/TAM modulan la inmunidad antiviral innata y actúan como cofactores de entrada de algunos virus con envoltura. Sin embargo, el poliovirus es un enterovirus sin envoltura que usa el receptor CD155, por lo que este argumento es débil.
 
-El alto puntaje TxGNN (0.9910) se explica, con mayor probabilidad, por la proximidad topológica entre los nodos de enfermedades neurológicas en el grafo de conocimiento, y no por una relación farmacológica subyacente validada. Esta predicción debe interpretarse como una señal exploratoria de muy bajo grado de prioridad, no como evidencia de eficacia potencial.
+No existe un vínculo mecanístico directo establecido. El puntaje alto de TxGNN (0.991) proviene solo del grafo de conocimiento y no tiene respaldo clínico ni preclínico en los datos disponibles. Además, la poliomielitis bulbar se previene eficazmente con vacunación, lo que reduce el valor práctico de este reposicionamiento.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para gilteritinib en polio bulbar.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para gilteritinib en polio bulbar.
+Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20170124 | XOSPATA 40MG | Tableta recubierta | Solo figura «GILTERITINIB» (sin texto de indicación) |
+| 20170124 | XOSPATA 40MG | Tableta recubierta | Solo figura «GILTERITINIB» (sin texto de indicación) |
+
+Fabricante: Astellas Pharma US. Inc. Vía de administración: oral. Las dos entradas comparten el mismo número de registro.
 
 ---
 
 ## Citotoxicidad
 
-> Gilteritinib es un agente antineoplásico (inhibidor de quinasas FLT3/AXL) indicado internacionalmente para leucemia mieloide aguda, por lo que aplica esta sección.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de tirosina quinasas FLT3/AXL) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de quinasas FLT3/AXL) |
+| Riesgo de Mielosupresión | Preocupación señalada en el análisis de seguridad; consultar el prospecto para detalles |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma completo con diferencial, función hepática (ALT/AST), función renal (creatinina), electrocardiograma (intervalo QT) |
-| Protección en Manejo | Debe seguir las regulaciones vigentes de manejo de fármacos citotóxicos |
+| Items de Monitoreo | Hemograma, función hepática, electrocardiograma (intervalo QT) y vigilancia del síndrome de diferenciación |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Los datos de advertencias y contraindicaciones del prospecto de INVIMA aún no están disponibles. Consultar el prospecto para información de seguridad.
+
+Como referencia general (no proviene del registro), en un uso fuera de oncología preocupan la mielosupresión, la prolongación del QT, el síndrome de diferenciación y la hepatotoxicidad.
 
 ---
 
@@ -104,13 +111,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para gilteritinib en polio bulbar carece por completo de soporte mecanístico, preclínico o clínico: no existen ensayos registrados, ni publicaciones, ni un enlace biológico plausible entre la inhibición de FLT3/AXL y la infección por poliovirus o la protección de neuronas bulbares. El nivel de evidencia L5 (solo predicción del modelo) y la ausencia de registro sanitario en Colombia hacen inviable cualquier avance en este momento.
+La predicción no tiene ningún ensayo clínico ni publicación, el vínculo mecanístico es débil (el poliovirus no depende de AXL) y el perfil de riesgo de un inhibidor de quinasas es desfavorable para una infección prevenible por vacuna.
 
 **Para avanzar se necesita:**
-- Verificación del mecanismo de acción (MOA) completo desde DrugBank o fuente primaria
-- Evidencia preclínica que demuestre algún efecto de FLT3/AXL sobre replicación o patogénesis del poliovirus
-- Revisión de la arquitectura del grafo TxGNN para identificar si la predicción proviene de un artefacto topológico (nodos de enfermedades neurológicas densamente conectados)
-- Registro sanitario en Colombia como requisito previo a cualquier evaluación clínica local
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Evidencia preclínica que respalde un papel de FLT3/AXL en la infección por poliovirus
+- Confirmar la indicación aprobada real de XOSPATA en el registro colombiano
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Solo Predicción del Modelo (L5)
-nav_order: 166
+nav_order: 269
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Maraviroc es un antagonista selectivo del receptor de quimiocinas CCR5, aprobado internacionalmente para el tratamiento de la infección por VIH-1 en pacientes con virus CCR5-trópico. El modelo TxGNN predice que podría ser efectivo para **Neoplasia Endocrina Múltiple (MEN)**, con **0 ensayos clínicos** y **0 publicaciones** que actualmente respaldan esta dirección. La puntuación de predicción es muy alta (99.82%), pero la evidencia experimental es inexistente y la plausibilidad mecanística es débil.
+Maraviroc es un antagonista del receptor CCR5, conocido como antirretroviral para la infección por VIH-1. Esta indicación original no consta en el registro colombiano, que solo indica el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **Neoplasia Endocrina Múltiple**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -41,23 +42,23 @@ Maraviroc es un antagonista selectivo del receptor de quimiocinas CCR5, aprobado
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Infección por VIH-1 con virus CCR5-trópico (aprobado internacionalmente; no comercializado en Colombia) |
-| Nueva Indicación Predicha | Neoplasia Endocrina Múltiple |
+| Indicación Original | El registro solo consigna «MARAVIROC», sin texto de indicación. Se asume VIH-1 por el uso conocido del fármaco, no por los datos del registro |
+| Nueva Indicación Predicha | Neoplasia endocrina múltiple |
 | Puntaje de Predicción TxGNN | 99.82% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 15 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde las fuentes consultadas. Según la información conocida, Maraviroc es un antagonista selectivo y reversible del receptor de quimiocinas CCR5, un co-receptor presente en la superficie de las células CD4+. Al bloquear la unión de la glicoproteína gp120 del VIH-1 al co-receptor CCR5, impide la fusión viral y la entrada del virus a la célula huésped. Su eficacia en infección por VIH-1 CCR5-trópico está ampliamente documentada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, maraviroc es un antagonista de CCR5, un receptor de quimiocinas que participa en la migración de células inmunes.
 
-La neoplasia endocrina múltiple (MEN1 y MEN2) son síndromes hereditarios impulsados por mutaciones germinales en los genes *MEN1* o *RET*, respectivamente, que producen tumores en glándulas endocrinas como paratiroides, hipófisis y suprarrenales. No existe ninguna conexión directa y establecida entre el eje CCR5 y la fisiopatología de estos síndromes. El rationale interno del Evidence Pack indica que el alto puntaje del modelo posiblemente refleja conexiones distantes en el grafo de conocimiento a través de nodos de tumores endocrinos e inmunoregulación, sin respaldo en biología molecular directa.
+**No hay un vínculo mecanístico respaldado por los datos entre CCR5 y la neoplasia endocrina múltiple.** El puntaje de 99.82% es únicamente una predicción del modelo, sin ensayos ni literatura que la acompañen. Tampoco se ha establecido un papel de CCR5 en la biología tumoral asociada a este síndrome.
 
-En consecuencia, aunque TxGNN asigna una puntuación de 99.82%, la hipótesis carece de un mecanismo molecular articulado que conecte el bloqueo de CCR5 con MEN1/MEN2. Esta predicción se interpreta como un probable artefacto de propagación en el grafo de conocimiento (*graph leakage*) hasta que emerja evidencia experimental de soporte.
+Por eso esta predicción debe tomarse como una hipótesis de bajo respaldo. La similitud con la indicación original no ha sido evaluada y sigue pendiente.
 
 ---
 
@@ -75,13 +76,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Maraviroc no cuenta con registros sanitarios activos en Colombia. El fármaco está aprobado por la FDA (2007) y la EMA para el tratamiento de VIH-1, pero no ha sido registrado ante el INVIMA. Para cualquier uso clínico local sería necesario iniciar un proceso de registro sanitario desde cero.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19989116 | CELSENTRI® 150 MG (GlaxoSmithKline Colombia S.A.) | Tableta recubierta | Solo consigna «MARAVIROC» |
+
+Los datos entregados muestran 5 filas idénticas del mismo registro (19989116), por lo que se presenta una sola. El total declarado es de 15 registros, pero el detalle de los demás no estaba incluido.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. El Evidence Pack no trae advertencias, contraindicaciones ni interacciones farmacológicas (la consulta de interacciones no arrojó resultados).
 
 ---
 
@@ -90,13 +95,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existe ninguna evidencia experimental —ni ensayos clínicos ni publicaciones— que conecte Maraviroc con el tratamiento de neoplasia endocrina múltiple, y la plausibilidad mecanística es muy baja dado que el eje CCR5 no tiene un rol conocido en la fisiopatología de MEN1/MEN2.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura y sin un mecanismo plausible documentado. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-- Datos completos del mecanismo de acción (MOA) desde DrugBank para fundamentar análisis de similitud mecanística
-- Evidencia preclínica de expresión funcional de CCR5 en tejidos endocrinos afectados por MEN antes de considerar cualquier hipótesis de reposicionamiento
-- Registro sanitario ante INVIMA como prerequisito para cualquier desarrollo clínico en Colombia
-- Considerar priorizar la evaluación de indicaciones con mayor plausibilidad mecanística identificadas en este mismo Evidence Pack: en particular **Rank 3/5 — Linfoma T Cutáneo Primario** (con literatura sobre el eje CCR5/ACKR1 en tumores T) y **Rank 10 — Carcinoma de Mama HER2+** (con evidencia preclínica directa que demuestra que CCL5 autocrina → CCR5 → ERK activa resistencia a trastuzumab, constituyendo la hipótesis de reposicionamiento con mayor solidez mecanística del conjunto)
+- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante).
+- Obtener el mecanismo de acción desde DrugBank y evaluar si CCR5 tiene algún papel en la neoplasia endocrina múltiple.
+- Realizar una búsqueda dirigida de literatura y ensayos sobre maraviroc y este síndrome.
+- Considerar priorizar otras indicaciones del mismo fármaco con más respaldo. Por ejemplo, el carcinoma de mama HER2 positivo (nivel L4) tiene evidencia preclínica que vincula el eje CCL5/CCR5 con la resistencia a trastuzumab.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

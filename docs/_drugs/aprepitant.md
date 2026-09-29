@@ -2,7 +2,7 @@
 layout: default
 title: Aprepitant
 parent: Solo Predicción del Modelo (L5)
-nav_order: 42
+nav_order: 53
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# APREPITANT: Evaluación Pendiente — Datos Insuficientes para Reposicionamiento
+# Aprepitant: De Indicación Original no Detallada en el Registro a Síndrome Nefrogénico de Antidiuresis Inapropiada (NSIAD)
 
 ## Resumen en Una Frase
 
-APREPITANT es un fármaco registrado en DrugBank (DB00673), sin indicaciones originales documentadas en el paquete de evidencia actual.
-El pipeline TxGNN **no generó predicciones de reposicionamiento** en esta ejecución, posiblemente debido a datos de entrada incompletos.
-**No hay ensayos clínicos ni publicaciones** asociadas a indicaciones predichas que respalden una evaluación en este momento.
+Aprepitant es un antagonista del receptor NK1 comercializado en Colombia como EMEND®. El registro sanitario consultado no detalla su indicación original, solo repite el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada**, con un puntaje muy alto (99.97%).
+Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que es solo una señal del modelo.
 
 ---
 
@@ -43,49 +43,51 @@ El pipeline TxGNN **no generó predicciones de reposicionamiento** en esta ejecu
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este paquete de evidencia |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 — Sin estudios reales (predicción no generada) |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "APREPITANT") |
+| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) |
+| Puntaje de Predicción TxGNN | 99.97% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 12 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por Qué No Hay Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-El paquete de evidencia presenta múltiples brechas de datos críticas que impidieron completar el pipeline de reposicionamiento:
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información disponible, aprepitant es un antagonista del receptor de neurocinina 1 (NK1), es decir, bloquea la señal de la sustancia P.
 
-El mecanismo de acción (MOA) figura como no disponible, lo cual es una brecha de severidad **Alta** que afecta directamente el análisis de relevancia mecanística. Sin MOA, el modelo TxGNN no puede establecer conexiones biológicas plausibles entre el fármaco y posibles nuevas indicaciones.
+El NSIAD se debe a mutaciones que activan de forma excesiva el receptor V2 de la vasopresina (AVPR2). Esto hace que el riñón retenga agua aunque la hormona antidiurética no esté elevada. Aprepitant no actúa sobre el receptor V2 ni sobre el manejo renal del agua.
 
-Adicionalmente, las advertencias clave y contraindicaciones no están disponibles en este paquete, lo que representa una brecha **Bloqueante** (DG001) que impide la evaluación de seguridad inicial. La combinación de estas dos brechas dejó al pipeline sin suficiente información para generar candidatos de reposicionamiento confiables.
-
-No se encontraron registros sanitarios ni licencias activas en el mercado colombiano, lo que limita también la evaluación regulatoria de viabilidad comercial.
+**Conclusión de la evaluación:** no se identificó un vínculo mecanístico entre la indicación original y la nueva. El puntaje alto del modelo no tiene respaldo en mecanismo, ensayos ni literatura, y debe leerse como un posible artefacto del grafo de conocimiento.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados (sin indicaciones predichas disponibles para vincular).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible (sin indicaciones predichas disponibles para vincular).
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
 ## Información de Mercado en Colombia
 
-APREPITANT no cuenta con registros sanitarios activos en Colombia. No hay datos de licencias que reportar en este paquete de evidencia.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19945183 | EMEND® 80 MG/125 MG (MERCK SHARP & DOHME LLC) | Cápsula dura | APREPITANT |
+
+El mismo registro aparece repetido cinco veces en los datos recibidos. Aquí se muestra una sola vez.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco en los datos recibidos.
 
 ---
 
@@ -94,13 +96,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El pipeline TxGNN no generó predicciones de reposicionamiento para APREPITANT en esta ejecución debido a brechas de datos bloqueantes (MOA ausente y datos de seguridad incompletos); sin una indicación predicha, no es posible realizar una evaluación de reposicionamiento.
+No hay ensayos, literatura ni mecanismo plausible que respalde el uso de aprepitant en NSIAD. La predicción del modelo es la única evidencia (nivel L5).
 
 **Para avanzar se necesita:**
-- **[DG001 — Bloqueante]** Obtener las advertencias y contraindicaciones oficiales del prospecto desde fuente regulatoria Colombia (INVIMA) o referencia internacional (FDA/EMA)
-- **[DG002 — Alta]** Completar el mecanismo de acción consultando DrugBank API (DB00673) — se requiere para el análisis de relevancia mecanística del modelo TxGNN
-- Re-ejecutar el pipeline TxGNN una vez resueltas las brechas DG001 y DG002
-- Verificar si hay datos de indicaciones originales para APREPITANT en DrugBank que no fueron capturados en esta corrida (el query log registra 1 resultado de DrugBank pero `original_indications` aparece vacío)
+- Descargar el prospecto de INVIMA para completar la información de advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
+- Obtener el mecanismo de acción desde DrugBank para respaldar el análisis mecanístico.
+- Revisar las otras nueve predicciones del modelo. Todas tienen nivel L5 y también quedan en Hold. La más plausible biológicamente es la **hemorragia subaracnoidea** (rank 9). Los modelos preclínicos de lesión cerebral sugieren que los antagonistas NK1 podrían reducir la inflamación neurogénica y el edema, pero no se recuperó ningún ensayo ni publicación. Sigue siendo solo una pregunta de investigación.
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

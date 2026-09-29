@@ -2,7 +2,7 @@
 layout: default
 title: Ezetimibe
 parent: Evidencia Alta (L1-L2)
-nav_order: 120
+nav_order: 194
 evidence_level: L1
 indication_count: 4
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-# Ezetimibe: De Hipercolesterolemia a Hiperlipoproteinemia
+# Ezetimiba: De Combinaciones con Simvastatina a Hiperlipoproteinemia
 
 ## Resumen en Una Frase
 
-Ezetimibe es un inhibidor selectivo de la absorción intestinal de colesterol, utilizado internacionalmente para el tratamiento de la hipercolesterolemia primaria y las hiperlipidemias mixtas, aunque actualmente no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Hiperlipoproteinemia**,
-con **50 ensayos clínicos** y **19 publicaciones** que actualmente respaldan esta dirección.
+Ezetimiba es un inhibidor de la absorción intestinal de colesterol. En Colombia está registrada en combinaciones con simvastatina (registro INVIMA 20138715).
+El modelo TxGNN predice que podría ser efectiva para **hiperlipoproteinemia**, con **50 ensayos clínicos** y **19 publicaciones** que respaldan esta dirección.
+Esta predicción se parece más a una confirmación de uso ya establecido que a un reposicionamiento real.
 
 ---
 
@@ -43,65 +43,71 @@ con **50 ensayos clínicos** y **19 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro aprobado en Colombia (uso internacional establecido: hipercolesterolemia) |
+| Indicación Original | Combinaciones de simvastatina (paquetes), según el registro sanitario |
 | Nueva Indicación Predicha | Hiperlipoproteinemia |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción a partir de las fuentes consultadas en este Evidence Pack. Sin embargo, según la literatura científica disponible, Ezetimibe actúa mediante la inhibición selectiva de la proteína NPC1L1 (Niemann-Pick C1-Like 1) en el borde en cepillo del intestino delgado, bloqueando la reabsorción de colesterol dietético y biliar. Esta acción reduce el transporte de colesterol exógeno hacia la circulación portal, disminuyendo los niveles de LDL-C aproximadamente un 15–20% en monoterapia, o un 15–25% adicional cuando se combina con estatinas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, ezetimiba inhibe la proteína NPC1L1, que media la absorción intestinal de colesterol, y con ello reduce el colesterol LDL (LDL-C). Su acción es aditiva a la de las estatinas, que reducen la síntesis hepática de colesterol.
 
-La hiperlipoproteinemia engloba un espectro de trastornos del metabolismo lipídico caracterizados por niveles elevados de lipoproteínas en plasma, incluyendo LDL-colesterol y/o triglicéridos. Dado que el mecanismo central de Ezetimibe actúa directamente sobre la patología de fondo de estas condiciones —la absorción excesiva de colesterol externo—, la predicción del modelo TxGNN es mecanísticamente coherente y esperada. La eficacia en hiperlipidemia mixta ha sido demostrada en múltiples ensayos clínicos de Fase 3, particularmente en combinación con fenofibrato o estatinas.
+La indicación registrada en Colombia (combinaciones con simvastatina) ya es de tipo hipolipemiante. La hiperlipoproteinemia es el mismo campo terapéutico. Por eso el puntaje alto del modelo es coherente, y la predicción equivale casi a confirmar un uso ya existente.
 
-La fortaleza de la predicción (99.63%) refleja la solidez de la evidencia disponible: Ezetimibe ha sido evaluado en ensayos pivotales de Fase 3 directamente en poblaciones con hiperlipoproteinemia, y actúa como comparador de referencia estándar en estudios de nuevas terapias hipolipemiantes (inhibidores de PCSK9, obicetrapib, inclisiran), consolidando su posición como tratamiento de base en este espectro de enfermedad. La ausencia de registro en Colombia representa la principal brecha, no la falta de evidencia clínica.
+Cabe señalar que el paquete de datos no trae indicaciones originales ni mecanismo de acción para este fármaco. Conviene corregir esa carencia antes de usar el resultado en etapas posteriores.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran 10 de los 50 ensayos registrados, elegidos por su relación directa con ezetimiba.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01763827](https://clinicaltrials.gov/study/NCT01763827) | Fase 3 | Completado | 615 | Evolocumab vs placebo y ezetimibe en adultos con riesgo Framingham ≤10%; ezetimibe como comparador activo de referencia para cambio porcentual en LDL-C |
-| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Fase 4 | Completado | 245 | PRECISE-IVUS: Inhibidor de absorción de colesterol (ezetimibe) vs inhibidor de síntesis (estatina) en regresión de placa coronaria medida por ultrasonido intravascular |
-| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Fase 3 | Completado | 611 | Eficacia y seguridad de Ezetimibe/Simvastatina más fenofibrato en hiperlipidemia mixta (colesterol elevado + triglicéridos elevados) |
-| [NCT06005597](https://clinicaltrials.gov/study/NCT06005597) | Fase 3 | Completado | 407 | Combinación fija de obicetrapib 10 mg + ezetimibe 10 mg en HeFH y/o ASCVD; confirma ezetimibe como componente de base del tratamiento |
-| [NCT00092560](https://clinicaltrials.gov/study/NCT00092560) | Fase 3 | Completado | 587 | Eficacia y seguridad de la coadministración de fenofibrato y ezetimibe en hiperlipidemia mixta |
-| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Fase 3 | Completado | 576 | Evaluación adicional de la coadministración de fenofibrato y ezetimibe en hiperlipidemia mixta |
-| [NCT05611528](https://clinicaltrials.gov/study/NCT05611528) | Fase 3 | Completado | 10 | Evinacumab en HoFH en contexto de vida real en Canadá; ezetimibe figura como terapia de fondo estándar |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Eficacia y seguridad de ezetimibe (SCH58235) 10 mg combinado con atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
-| [NCT03434613](https://clinicaltrials.gov/study/NCT03434613) | Fase 4 | Completado | 64 | Rosuvastatina 5 mg en monoterapia vs rosuvastatina 5 mg/ezetimibe 10 mg en pacientes con hiperlipidemia y enfermedad hepática grasa no alcohólica |
-| [NCT04433533](https://clinicaltrials.gov/study/NCT04433533) | Fase 4 | Desconocido | 200 | Rosuvastatina/ezetimibe vs rosuvastatina en monoterapia en pacientes coreanos con disfunción diastólica del ventrículo izquierdo e hiperlipidemia |
+| [NCT00093899](https://clinicaltrials.gov/study/NCT00093899) | Fase 3 | Completado | 611 | Ezetimiba/simvastatina más fenofibrato en hiperlipidemia mixta |
+| [NCT00092560](https://clinicaltrials.gov/study/NCT00092560) | Fase 3 | Completado | 587 | Coadministración de fenofibrato y ezetimiba en hiperlipidemia mixta |
+| [NCT00092573](https://clinicaltrials.gov/study/NCT00092573) | Fase 3 | Completado | 576 | Seguridad y eficacia de fenofibrato con ezetimiba en hiperlipidemia mixta |
+| [NCT00349284](https://clinicaltrials.gov/study/NCT00349284) | Fase 3 | Completado | 181 | Fenofibrato 145 mg, ezetimiba 10 mg y su combinación en dislipidemia tipo IIb con síndrome metabólico |
+| [NCT02451098](https://clinicaltrials.gov/study/NCT02451098) | Fase 3 | Completado | 385 | Atorvastatina + ezetimiba frente a atorvastatina sola en hipercolesterolemia primaria (doble ciego, diseño factorial) |
+| [NCT00552097](https://clinicaltrials.gov/study/NCT00552097) | Fase 3 | Completado | 720 | ENHANCE: ezetimiba + simvastatina en dosis alta frente a simvastatina sola sobre la progresión de la aterosclerosis carotídea en hipercolesterolemia familiar heterocigota |
+| [NCT01043380](https://clinicaltrials.gov/study/NCT01043380) | Fase 4 | Completado | 245 | Regresión de placa coronaria por ultrasonido intravascular: inhibidor de absorción (ezetimiba) frente a inhibidor de síntesis |
+| [NCT00092833](https://clinicaltrials.gov/study/NCT00092833) | Fase 3 | Terminado | 49 | Uso de tratamiento de ezetimiba 10 mg/día en hipercolesterolemia familiar homocigota o sitosterolemia homocigota |
+| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Ezetimiba 10 mg con atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
+| [NCT06789432](https://clinicaltrials.gov/study/NCT06789432) | Fase 4 | Reclutando | 500 | Combinación fija atorvastatina/ezetimiba 10/10 mg frente a atorvastatina 20 mg en población de Bangladesh |
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran 10 de las 19 publicaciones recuperadas. La única de ellas clasificada como ECA y centrada en ezetimiba es TANDEM (2025).
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | ECA Fase 3 | Lancet | Ensayo TANDEM: Combinación fija de obicetrapib y ezetimibe reduce significativamente el LDL-C en pacientes con HeFH y ASCVD; demuestra el valor complementario de ezetimibe |
-| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | ECA | JAMA | Inhibidor oral de PCSK9 (enlicitide) en HeFH; ezetimibe como comparador de referencia de segunda línea en pacientes que no alcanzan metas con terapia disponible |
-| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Revisión | Mol Med Reports | Revisión de fármacos actuales para hiperlipidemia; ezetimibe descrito como inhibidor de NPC1L1 con eficacia establecida para reducir LDL-C y prevenir ASCVD |
-| [37762244](https://pubmed.ncbi.nlm.nih.gov/37762244/) | 2023 | Revisión | Int J Mol Sci | Hiperlipidemia posprandial: fisiopatología, aterogénesis y tratamientos; papel de la absorción intestinal de lípidos como diana terapéutica |
-| [35593194](https://pubmed.ncbi.nlm.nih.gov/35593194/) | 2022 | Revisión | J Cardiovasc Pharmacol Ther | Revisión comprehensiva de inhibidores de PCSK9; ezetimibe posicionado como tratamiento estándar de base en pacientes intolerantes a estatinas o con LDL-C no controlado |
-| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Revisión | JACC | Nuevas terapias emergentes para reducción de LDL-C y ApoB; ezetimibe forma parte de la base terapéutica establecida junto con estatinas e inhibidores de PCSK9 |
-| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | Revisión | Curr Cardiol Rep | Hipercolesterolemia familiar: carga global y enfoques; ezetimibe citado como pilar del tratamiento en combinación con estatinas |
-| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Consenso | Eur Heart J | Declaración de consenso de la Sociedad Europea de Aterosclerosis: FH subdiagnosticada y subtratada; ezetimibe recomendado como tratamiento de segunda línea |
-| [18376001](https://pubmed.ncbi.nlm.nih.gov/18376001/) | 2008 | Editorial | N Engl J Med | Reducción del colesterol y ezetimibe: análisis de eficacia clínica y debate sobre relevancia de los resultados del ensayo ENHANCE |
-| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Revisión | Drug Ther Bull | Actualización sobre ezetimibe: eficacia demostrada como monoterapia y en combinación con estatinas para reducción de LDL-C y colesterol total |
+| [40347969](https://pubmed.ncbi.nlm.nih.gov/40347969/) | 2025 | ECA | Lancet | TANDEM: combinación fija de obicetrapib y ezetimiba para reducir el LDL-C, fase 3 doble ciego controlada con placebo |
+| [41206969](https://pubmed.ncbi.nlm.nih.gov/41206969/) | 2026 | ECA | JAMA | Inhibidor oral de PCSK9 (enlicitida) en hipercolesterolemia familiar heterocigota; ezetimiba no es el fármaco evaluado, aporta contexto terapéutico |
+| [40682836](https://pubmed.ncbi.nlm.nih.gov/40682836/) | 2025 | Revisión | Mol Med Rep | Avances en fármacos actuales para la hiperlipidemia y su relación con la prevención de enfermedad cardiovascular aterosclerótica |
+| [19654419](https://pubmed.ncbi.nlm.nih.gov/19654419/) | 2009 | Revisión | Drug Ther Bull | Actualización sobre ezetimiba: reduce el LDL-C y el colesterol total, sola o con estatina |
+| [18376001](https://pubmed.ncbi.nlm.nih.gov/18376001/) | 2008 | Comentario | N Engl J Med | Comentario editorial sobre la reducción de colesterol y ezetiba (sin resumen disponible) |
+| [33766264](https://pubmed.ncbi.nlm.nih.gov/33766264/) | 2021 | Revisión | J Am Coll Cardiol | Terapias nuevas y emergentes para reducir LDL-C y apoB, sobre la base de estatinas, ezetimiba e inhibidores de PCSK9 |
+| [30702994](https://pubmed.ncbi.nlm.nih.gov/30702994/) | 2019 | Revisión | Circ Res | Panorama de los agentes reductores de colesterol y su eficacia y seguridad |
+| [25939291](https://pubmed.ncbi.nlm.nih.gov/25939291/) | 2015 | Revisión | Cardiol Clin | Hipercolesterolemia familiar: estatinas, ezetimiba y otras opciones que reducen el LDL-C |
+| [34480646](https://pubmed.ncbi.nlm.nih.gov/34480646/) | 2021 | Revisión | Curr Cardiol Rep | Carga global y abordaje de la hipercolesterolemia familiar |
+| [23956253](https://pubmed.ncbi.nlm.nih.gov/23956253/) | 2013 | Guía/Consenso | Eur Heart J | Consenso de la Sociedad Europea de Aterosclerosis sobre el infradiagnóstico y el infratratamiento de la hipercolesterolemia familiar |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Según los datos disponibles en este Evidence Pack, **Ezetimibe no cuenta con registros sanitarios INVIMA activos en Colombia** (0 licencias registradas). No existen productos aprobados para listar.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20138715 | EZIT-ST 10/10 (Hetero Labs Limited) | Tableta | SIMVASTATINA COMBINACIONES PAQUETES |
 
-Este hallazgo es relevante desde la perspectiva de reposicionamiento: a pesar de la ausencia de registro local, el fármaco cuenta con amplio reconocimiento internacional y es componente estándar en guías clínicas globales para el manejo de hiperlipoproteinemia. La obtención del registro sanitario ante INVIMA es el principal paso regulatorio requerido.
+El paquete reporta 20 registros en total. Las cinco entradas detalladas corresponden todas al mismo registro 20138715, por lo que se muestra una sola vez.
 
 ---
 
@@ -116,14 +122,17 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Múltiples ensayos clínicos de Fase 3 completados respaldan la eficacia de Ezetimibe en hiperlipoproteinemia, y el fármaco actúa como comparador estándar de referencia en los principales estudios internacionales de nuevas terapias hipolipemiantes. La predicción TxGNN (99.63%) y el nivel de evidencia L1 reflejan una base clínica robusta; la principal restricción no es la evidencia clínica sino la ausencia de registro sanitario en Colombia.
+Hay múltiples ensayos de Fase 3 completados con ezetimiba (sola o combinada) en hiperlipidemia mixta e hipercolesterolemia, y el fármaco ya está comercializado en Colombia en una combinación hipolipemiante. La evidencia es sólida (L1), pero faltan datos de seguridad locales y el paquete de datos tiene vacíos.
 
 **Para avanzar se necesita:**
-- Iniciar proceso de registro ante INVIMA con el expediente de aprobaciones internacionales disponibles (FDA, EMA, entre otras)
-- Obtener y analizar el prospecto oficial (o equivalente internacional) para extraer advertencias clave, contraindicaciones e interacciones farmacológicas relevantes
-- Completar los datos de mecanismo de acción (MOA) desde DrugBank para el análisis mecanístico formal
-- Evaluar el perfil de interacciones farmacológicas (DDI) en el contexto clínico colombiano, especialmente con estatinas, fibratos, ciclosporina y anticoagulantes
-- Identificar el acceso a fabricantes o distribuidores autorizados para la comercialización local
+- Descargar y revisar el prospecto de INVIMA para obtener advertencias y contraindicaciones (actualmente sin datos).
+- Completar los datos del mecanismo de acción (DrugBank) y las indicaciones originales, hoy vacías.
+- Confirmar qué indicación exacta cubre el registro colombiano, ya que el texto disponible ("combinaciones de simvastatina") es poco específico.
+- Como referencia, la segunda predicción (hipercolesterolemia familiar) también alcanza L1 y Proceed with Guardrails. La tercera (déficit de colesterol 7α-hidroxilasa, L4) es solo una pregunta de investigación. La cuarta (déficit de CETP, L5) queda en Hold, con un vínculo mecanístico débil.
+
+---
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de aplicarse.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Carvedilol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 84
+nav_order: 115
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,75 +29,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Carvedilol: De Hipertensión y Falla Cardíaca a Hipertensión Renovascular Maligna
+# Carvedilol: De Indicación Original No Especificada a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Carvedilol es un bloqueador adrenérgico dual α₁/β ampliamente establecido en el manejo de la hipertensión arterial, la insuficiencia cardíaca crónica y la disfunción ventricular izquierda post-infarto de miocardio. El modelo TxGNN predice que podría ser efectivo para la **Hipertensión Renovascular Maligna**, con un puntaje de predicción del **99.55%**. Sin embargo, actualmente **no existen ensayos clínicos ni publicaciones científicas** que respalden específicamente esta nueva indicación, lo que sitúa la evidencia en el nivel más bajo (L5).
-
----
+Carvedilol es un betabloqueador no selectivo con bloqueo alfa-1 y efecto vasodilatador. El registro sanitario colombiano no especifica su indicación original, porque el campo solo repite el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en registros locales (fármaco no comercializado en Colombia) |
-| Nueva Indicación Predicha | Hipertensión Renovascular Maligna |
+| Indicación Original | No especificada (el registro solo dice "CARVEDILOL") |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99.55% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por Qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según el conocimiento general, carvedilol bloquea los receptores beta y alfa-1 adrenérgicos, lo que dilata los vasos y reduce la presión arterial. Además, el bloqueo beta disminuye la liberación de renina, un mecanismo relevante en la hipertensión de origen renovascular.
 
-Carvedilol actúa mediante un bloqueo adrenérgico dual: bloquea los receptores α₁ (reduciendo la resistencia vascular periférica) y los receptores β no selectivamente (disminuyendo la frecuencia cardíaca, el gasto cardíaco y la secreción de renina). A diferencia de otros betabloqueadores, Carvedilol también posee propiedades antioxidantes significativas, que le confieren efectos protectores adicionales sobre órganos diana. Esta combinación de acciones farmacológicas justifica en parte la predicción del modelo.
+Esto da una plausibilidad biológica razonable para bajar la presión arterial. Sin embargo, no hay ensayos ni literatura para esta indicación, así que el puntaje de 99.55% es solo una predicción del modelo. La hipertensión maligna es una emergencia hipertensiva que normalmente se maneja con fármacos intravenosos titulables, por lo que un fármaco oral como carvedilol difícilmente sería de primera línea.
 
-La hipertensión renovascular maligna se origina por una activación severa del eje renina-angiotensina-aldosterona (SRAA) secundaria a hipoperfusión renal, típicamente causada por estenosis de la arteria renal. El bloqueo β de Carvedilol sobre las células yuxtaglomerulares suprime directamente la secreción de renina, mientras que el bloqueo α₁ reduce la carga presorial sistémica. Este mecanismo dual representa una conexión teórica coherente con la fisiopatología de la indicación predicha.
-
-No obstante, existe una limitación clínica relevante que el modelo no pondera directamente: en pacientes con estenosis bilateral de arteria renal o riñón único funcionante, la reducción del gasto cardíaco inducida por el bloqueo β puede comprometer gravemente la perfusión glomerular. Por esta razón, aunque la predicción es mecanísticamente plausible, Carvedilol no sería una opción de primera línea en este contexto, y su uso requeriría selección cuidadosa de pacientes y validación clínica específica.
-
----
+Las dos primeras predicciones (hipertensión renovascular maligna y enfermedad renal hipertensiva maligna) tienen puntajes idénticos. Probablemente son nodos muy cercanos en el grafo de conocimiento y no deben contarse como señales independientes.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Carvedilol en Hipertensión Renovascular Maligna.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible específicamente para Carvedilol en Hipertensión Renovascular Maligna.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Carvedilol no cuenta con registros sanitarios activos en Colombia según la base de datos consultada (INVIMA). No existen licencias registradas ni formas farmacéuticas aprobadas para comercialización local.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 218019 | DILATREND TABLETAS 6.25MG (CHEPLAPHARM ARZNEIMITTEL GMBH) | Tableta | No detallada (solo indica "CARVEDILOL") |
 
----
+Se reportan 20 registros en total, pero los datos recibidos solo incluyen este registro (repetido cinco veces). Las formas farmacéuticas disponibles son orales: tableta y tableta recubierta.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN presenta un puntaje elevado (99.55%) y una base mecanística plausible (supresión de renina vía bloqueo β y reducción de resistencia vascular vía bloqueo α₁), pero la ausencia total de ensayos clínicos, publicaciones científicas, datos de seguridad locales y registros en Colombia impide avanzar en cualquier etapa de desarrollo. El nivel de evidencia L5 indica que la predicción descansa únicamente en el modelo computacional, sin respaldo clínico o preclínico específico.
+La predicción no tiene ensayos clínicos ni literatura, por lo que se queda en nivel L5 como pregunta de investigación. Además, la hipertensión maligna se maneja normalmente con fármacos intravenosos, no con carvedilol oral.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción completo (MOA) desde DrugBank API para reforzar el análisis de relación mecanística
-- Revisar la ficha técnica oficial (INVIMA / EMA / FDA) para extraer advertencias, contraindicaciones y perfiles de seguridad relevantes
-- Realizar una búsqueda bibliográfica ampliada sobre Carvedilol en modelos preclínicos de hipertensión renovascular o estudios de función renal en pacientes hipertensos tratados con carvedilol
-- Evaluar estudios observacionales o análisis de subgrupos de ensayos de insuficiencia cardíaca que incluyan pacientes con compromiso renovascular
-- Iniciar proceso de registro sanitario ante INVIMA como prerequisito para cualquier planificación de uso clínico local
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones, que hoy bloquean el tamizaje de seguridad.
+- Completar los datos de mecanismo de acción (por ejemplo, desde DrugBank).
+- Confirmar la indicación aprobada real de carvedilol en Colombia.
+- Hacer una búsqueda dirigida de literatura sobre carvedilol e hipertensión renovascular o maligna. Los estudios recuperados para otras predicciones hablan de hipoxia en general y no mencionan carvedilol.
+- Tener en cuenta que las otras cuatro predicciones también son L5. Las dos de hipertensión pulmonar y Braddock quedan en Hold, y en hipertensión pulmonar hay además una preocupación de seguridad por el bloqueo beta no selectivo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

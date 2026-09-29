@@ -2,15 +2,15 @@
 layout: default
 title: Olodaterol
 parent: Evidencia Moderada (L3-L4)
-nav_order: 184
-evidence_level: L3
+nav_order: 305
+evidence_level: L4
 indication_count: 2
 ---
 
 # Olodaterol
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,75 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Olodaterol: De Enfermedad Pulmonar Obstructiva Crónica a Bronquitis
+# Olodaterol: De EPOC a Bronquitis
 
 ## Resumen en Una Frase
 
-Olodaterol es un broncodilatador de acción ultralarga (LABA) indicado para el tratamiento de mantenimiento de la Enfermedad Pulmonar Obstructiva Crónica (EPOC) en múltiples países, aunque actualmente no está comercializado en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Bronquitis**, con **3 ensayos clínicos** y **2 publicaciones** que actualmente respaldan esta dirección, principalmente de forma indirecta a través de estudios en poblaciones con EPOC que incluyen bronquitis crónica como fenotipo principal.
-
----
+Olodaterol es un broncodilatador beta2-agonista de acción prolongada (LABA), comercializado en Colombia en combinación con bromuro de tiotropio (Spiolto® Respimat®) y usado en la enfermedad pulmonar obstructiva crónica (EPOC).
+El modelo TxGNN predice que podría ser efectivo para **bronquitis**,
+pero solo hay **3 ensayos clínicos** y **2 publicaciones** relacionados, y ninguno evalúa la bronquitis como indicación propia (todos tratan la EPOC en general).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad Pulmonar Obstructiva Crónica (EPOC) — broncodilatador de mantenimiento |
+| Indicación Original | Olodaterol y bromuro de tiotropio (texto del registro INVIMA; no detalla la indicación explícitamente, aunque el uso establecido es EPOC) |
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Olodaterol es un agonista β₂-adrenérgico de alta selectividad y larga duración (LABA). Su mecanismo de acción se basa en la activación de receptores β₂ en el músculo liso bronquial, lo que incrementa el AMPc intracelular mediante la activación de la adenilato ciclasa. El AMPc elevado activa la PKA, que inhibe la fosforilación de la cadena ligera de miosina, produciendo relajación del músculo liso de la vía aérea y broncodilatación sostenida durante 24 horas con una sola dosis diaria. Adicionalmente, la activación de receptores β₂ puede suprimir la desgranulación de mastocitos y reducir la liberación de mediadores proinflamatorios.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, olodaterol es un agonista selectivo de los receptores beta2-adrenérgicos de acción prolongada. Relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida. En Colombia se comercializa combinado con el antimuscarínico tiotropio.
 
-La bronquitis crónica es uno de los dos fenotipos clásicos de la EPOC, caracterizada por hipersecreción de moco, inflamación de la vía aérea y obstrucción al flujo aéreo. El componente obstructivo y broncoespástico de la bronquitis puede ser directamente aliviado por un agonista β₂ de larga duración como olodaterol. La superposición fisiopatológica entre bronquitis crónica y EPOC es tal que la mayoría de los estudios clínicos de olodaterol incluyen pacientes con bronquitis crónica dentro de la población con EPOC estudiada.
+La bronquitis crónica es un fenotipo dentro de la EPOC, por lo que existe un vínculo plausible: un broncodilatador eficaz en la EPOC podría aliviar la obstrucción en pacientes con bronquitis crónica.
 
-Desde el punto de vista clínico, el estudio de vigilancia poscomercialización NCT02850978 incluyó explícitamente pacientes japoneses con EPOC en sus fenotipos de bronquitis crónica y enfisema. Esto respalda la plausibilidad de la predicción del modelo TxGNN, aunque la evidencia para bronquitis como indicación primaria e independiente de la EPOC sigue siendo indirecta, sin ensayos controlados con bronquitis como criterio de inclusión principal.
-
----
+Sin embargo, todos los estudios y publicaciones encontrados abordan la EPOC en su conjunto, no la bronquitis como indicación diferenciada. No hay evidencia directa para la bronquitis aguda, donde el beneficio de un broncodilatador no está demostrado. El puntaje tan alto del modelo (99.84%) probablemente refleja el solapamiento con la EPOC y es solo una predicción.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A (PMS) | Completado | 1.335 | Vigilancia poscomercialización de tiotropio+olodaterol en pacientes japoneses con EPOC (bronquitis crónica y enfisema); evaluó seguridad y efectividad a largo plazo en entorno del mundo real, con datos de tolerabilidad directamente aplicables al fenotipo bronquítico |
-| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | Completado | 11.316 | Estudio de vida real comparando TIO/OLO vs FF/UMEC/VI en EPOC; evalúa utilización de recursos de salud y resultados clínicos incluyendo el fenotipo de bronquitis crónica como parte del espectro de la EPOC |
-| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | Completado | 22.155 | Estudio de utilización de medicamentos para EPOC en Europa; cubre población con bronquitis crónica y evalúa patrones de uso de broncodilatadores (el fármaco principal es aclidinium; datos de olodaterol no extraíbles de forma independiente) |
-
----
+| [NCT03333018](https://clinicaltrials.gov/study/NCT03333018) | N/A | Completado | 22155 | Estudio de utilización de aclidinio (otro fármaco) en usuarios nuevos con EPOC en Europa; relación solo tangencial con olodaterol |
+| [NCT02850978](https://clinicaltrials.gov/study/NCT02850978) | N/A | Completado | 1335 | Vigilancia poscomercialización en Japón del uso prolongado de tiotropio + olodaterol en EPOC (bronquitis crónica, enfisema); observacional, aporta datos de seguridad y efectividad |
+| [NCT05127304](https://clinicaltrials.gov/study/NCT05127304) | N/A | Completado | 11316 | Uso de recursos sanitarios y costos al iniciar tiotropio/olodaterol frente a fluticasona/umeclidinio/vilanterol en EPOC; sin evidencia de eficacia en bronquitis |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Revisión Narrativa | Am J Health-Syst Pharm | Revisión exhaustiva de la farmacología, farmacocinética, eficacia y seguridad de olodaterol como LABA de una vez al día para EPOC; proporciona base mecanística aplicable a bronquitis crónica |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guía Clínica | Basic Clin Pharmacol Toxicol | Guía finlandesa nacional de EPOC estable: diagnóstico y farmacoterapia; posiciona los broncodilatadores de larga duración como piedra angular del tratamiento en un espectro que incluye bronquitis crónica |
-
----
+| [27354040](https://pubmed.ncbi.nlm.nih.gov/27354040/) | 2016 | Revisión | Am J Health Syst Pharm | Revisión de la farmacología, farmacocinética, eficacia y seguridad de olodaterol, LABA de una dosis diaria, en EPOC |
+| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guía/Revisión | Basic Clin Pharmacol Toxicol | Guía finlandesa de diagnóstico y farmacoterapia de la EPOC estable, orientada a atención primaria |
 
 ## Información de Mercado en Colombia
 
-Olodaterol no cuenta con registros sanitarios activos ante INVIMA en Colombia. El medicamento no está comercializado en el país, por lo que cualquier estrategia de acceso requeriría iniciar un proceso de registro sanitario o importación bajo modalidades especiales.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20082364 | SPIOLTO® RESPIMAT® (Boehringer Ingelheim International GmbH) | Solución para inhalación | Olodaterol y bromuro de tiotropio |
 
----
+El Evidence Pack informa 8 registros en total, pero solo 5 entradas, todas con el mismo número de registro (20082364), por lo que se muestra una sola vez.
 
 ## Consideraciones de Seguridad
 
-> Consultar el prospecto oficial para información completa de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas de olodaterol no estuvieron disponibles en este Evidence Pack y representan una brecha de datos de severidad bloqueante para la evaluación de seguridad inicial (ver Data Gap DG001).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El mecanismo de acción de olodaterol es farmacológicamente coherente con el manejo del componente obstructivo de la bronquitis crónica, que coexiste habitualmente con la EPOC en la práctica clínica. Sin embargo, la evidencia directa para bronquitis como indicación primaria es limitada e indirecta, sin ensayos controlados que aborden bronquitis como criterio de inclusión principal. Adicionalmente, el fármaco carece de registro sanitario en Colombia, lo que constituye una barrera regulatoria significativa.
+No hay ensayos ni literatura que evalúen la bronquitis como indicación propia; toda la evidencia corresponde a la EPOC, y el puntaje del modelo es solo una predicción. Además, el beneficio de un broncodilatador en la bronquitis aguda no está demostrado.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial (INVIMA, EMA o FDA) para completar la evaluación de advertencias y contraindicaciones (Data Gap DG001 — bloqueante)
-- Confirmar el mecanismo de acción detallado mediante consulta a DrugBank API (Data Gap DG002 — alta severidad)
-- Identificar y evaluar ensayos clínicos que aborden bronquitis como indicación primaria, diferenciada del espectro EPOC
-- Definir la subpoblación objetivo: bronquitis crónica en el contexto de EPOC vs. bronquitis aguda aislada
-- Evaluar la viabilidad de registro sanitario ante INVIMA o explorar vías de acceso bajo uso compasivo o importación especial
-- Completar el análisis de interacciones farmacológicas (DDI — no encontrado en esta versión del pack)
+- Estudios clínicos o revisiones que evalúen específicamente la bronquitis crónica (y no solo la EPOC en general)
+- Confirmar la indicación aprobada y la dosis en el prospecto de INVIMA, que hoy no está disponible en los datos
+- Datos del mecanismo de acción desde DrugBank
+- Información de advertencias y contraindicaciones del prospecto, para el cribado de seguridad (en particular, seguridad cardiovascular de los LABA)
+
+**Nota:** Para el análisis de la EPOC (segunda predicción, con nivel de evidencia L1 y varios ensayos de Fase 3), se trataría de la confirmación de un uso ya establecido y no de un reposicionamiento real.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

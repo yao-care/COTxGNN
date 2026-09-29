@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 83
+nav_order: 114
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,75 +29,82 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-El skill `txgnn-pipeline` confirma el contexto del proyecto. Procedo ahora a generar el informe de evaluación de reposicionamiento basándome en el Evidence Pack proporcionado.
-
----
-
-# Carfilzomib: De Mieloma Múltiple a Melanoma Cutáneo Maligno (CMM7)
+# Carfilzomib: De Mieloma Múltiple a CMM7 (Subtipo de Melanoma)
 
 ## Resumen en Una Frase
 
-Carfilzomib es un inhibidor irreversible del proteasoma aprobado internacionalmente para el tratamiento del mieloma múltiple en recaída o refractario, aunque no cuenta con registro sanitario en Colombia. El modelo TxGNN predice que podría ser efectivo para **CMM7** (Melanoma Cutáneo Maligno tipo 7), con **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta indicación específica. La predicción se basa exclusivamente en similitud topológica del grafo de conocimiento biológico, por lo que debe interpretarse como señal exploratoria en etapa muy temprana.
+Carfilzomib es un inhibidor del proteasoma que se comercializa en Colombia como KYPROLIS®. El registro sanitario no declara su indicación, pero en el uso clínico general se emplea contra el mieloma múltiple.
+El modelo TxGNN predice que podría ser efectivo para **CMM7 (un subtipo de melanoma)**, con un puntaje alto (99.37%) pero **0 ensayos clínicos y 0 publicaciones** específicas para este subtipo.
+Para el melanoma en general solo hay **5 publicaciones**, todas preclínicas o indirectas, y ningún ensayo clínico.
 
 ---
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Mieloma múltiple (aprobación internacional; sin registro en Colombia) |
-| Nueva Indicación Predicha | CMM7 (Melanoma Cutáneo Maligno tipo 7) |
+| Item | Contenido |
+|------|------|
+| Indicación Original | Mieloma múltiple (según conocimiento general del fármaco). El texto de indicación del registro solo repite el nombre "CARFILZOMIB" |
+| Nueva Indicación Predicha | CMM7 (subtipo de melanoma) |
 | Puntaje de Predicción TxGNN | 99.37% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 para CMM7. Para melanoma en general sería L4 (solo estudios preclínicos) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde las fuentes consultadas. Por su clase farmacológica conocida, Carfilzomib es un inhibidor irreversible del proteasoma 20S (subunidad β5, clase epoxicetona), que actúa acumulando proteínas mal plegadas en la célula tumoral a través de la Respuesta a Proteínas Desplegadas (Unfolded Protein Response, UPR), desencadenando apoptosis. Este mecanismo no es exclusivo del mieloma: cualquier célula tumoral con alta dependencia proteosómica puede ser vulnerable, lo que representa la base biológica general de su extrapolación a neoplasias sólidas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, carfilzomib es un inhibidor del proteasoma. Su eficacia en mieloma múltiple es conocida, y mecanísticamente podría ser aplicable al melanoma. Bloquear el proteasoma puede inducir apoptosis (muerte celular programada) en células tumorales.
 
-CMM7 es un código de clasificación para un subtipo específico de melanoma cutáneo maligno. El puntaje TxGNN de 0.9937 se origina en la proximidad topológica que el modelo infiere entre el mecanismo de Carfilzomib y los nodos moleculares del melanoma dentro del grafo de conocimiento, sin contar con ensayos clínicos ni literatura que respalden directamente esta subclasificación. Cabe destacar que para el diagnóstico más amplio de **melanoma** (indicación relacionada, rango 5 del mismo perfil predictivo), existe evidencia preclínica preliminar en células B16-F1 (PMID 33671902, nivel L4), lo que le da sustento biológico a la familia de indicaciones melanoma, pero no al subtipo CMM7 de forma específica.
+El único respaldo experimental proviene de un estudio in vitro en células de melanoma murino B16-F1 (PMID 33671902). Allí, carfilzomib combinado con bortezomib aumentó la muerte celular apoptótica. Este resultado no demuestra eficacia ni seguridad en humanos.
 
-La predicción debe tratarse como hipótesis generada por IA pendiente de validación. La ausencia de estudios in vivo, de modelos de CMM7, y la falta de definición clínica estandarizada de este subtipo representan barreras importantes antes de cualquier desarrollo ulterior.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados para Carfilzomib en CMM7.
+La predicción para CMM7 se basa solo en la asociación general con melanoma, sin evidencia propia del subtipo. Las otras predicciones del modelo tienen limitaciones similares:
+- **Melanoma leptomeníngeo pediátrico:** no se ha establecido que carfilzomib penetre el sistema nervioso central, lo que es una barrera adicional.
+- **Melanoma uveal de células epitelioides:** biológicamente distinto del melanoma cutáneo, por lo que los datos preclínicos no pueden asumirse transferibles.
+- **Melanoma vulvar:** no se recuperaron ensayos ni literatura para melanoma mucoso.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Carfilzomib en CMM7.
+No hay literatura específica para CMM7. Las siguientes publicaciones corresponden a la predicción de **melanoma en general** (rango 5) y son todas preclínicas o indirectas.
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Preclínico (in vitro, línea celular murina) | Biology | Carfilzomib combinado con bortezomib aumentó la apoptosis en células de melanoma B16-F1, con activación de caspasas 3, 8, 9 y 12 |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | In silico (acoplamiento molecular) | J Biomol Struct Dyn | Reposicionamiento de fármacos clínicos contra dianas de quinasas en diez tipos de cáncer, incluido melanoma. Evidencia computacional, no clínica |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preclínico (mecanístico) | Matrix Biol | Bortezomib y carfilzomib activan la vía NF-κB e inducen heparanasa en células de mieloma, lo que se asocia a un fenotipo tumoral más agresivo. No evalúa melanoma |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preclínico (mecanístico, células humanas de melanoma) | Mol Cancer Res | El gen ZFAND2a regula la supervivencia celular en melanoma humano mediante la ligasa E3 cIAP2. Por el resumen disponible, no parece probar carfilzomib como terapia |
+| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preclínico (mecanístico) | Leukemia | Moléculas PROTAC dirigidas a proteínas BET son activas en modelos preclínicos de mieloma. No evalúa carfilzomib en melanoma |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Carfilzomib no cuenta con registros sanitarios activos en Colombia (INVIMA). El fármaco no está comercializado en el mercado colombiano. Cualquier uso futuro requeriría tramitar registro sanitario ante INVIMA previo a cualquier estudio o comercialización local.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20087826 | KYPROLIS® (AMGEN INC.) | Polvo liofilizado (para reconstituir a solución inyectable) | El texto registrado solo indica "CARFILZOMIB" |
+
+Los cinco registros devueltos corresponden al mismo número sanitario, por lo que se muestra una sola fila. El total declarado es de 20 registros.
 
 ---
 
 ## Citotoxicidad
 
-| Ítem | Contenido |
-|------|-----------|
-| Clasificación de Citotoxicidad | Citotóxico convencional — Inhibidor irreversible del Proteasoma (clase epoxicetona) |
-| Riesgo de Mielosupresión | Alto — neutropenia, trombocitopenia y anemia son eventos adversos frecuentes documentados en su uso para mieloma múltiple |
-| Clasificación de Emetogenicidad | Baja a moderada |
-| Ítems de Monitoreo | Hemograma completo con diferencial, función renal y hepática, presión arterial, función cardíaca (fracción de eyección ventricular izquierda — FEVI) |
-| Protección en Manejo | Debe seguir regulaciones de manejo de fármacos citotóxicos; administración intravenosa exclusivamente en entorno hospitalario controlado |
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor del proteasoma) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto. En general se esperan hemograma y función hepática y renal |
+| Protección en Manejo | Manejar como fármaco antineoplásico, según las regulaciones locales para fármacos citotóxicos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. La búsqueda de interacciones farmacológicas no arrojó resultados.
 
 ---
 
@@ -106,16 +113,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-CMM7 es un subtipo de melanoma sin ningún ensayo clínico ni publicación que respalde directamente el uso de Carfilzomib, y la puntuación TxGNN de 99.37% refleja similitud topológica en el grafo de conocimiento biológico, no evidencia clínica o preclínica real. Adicionalmente, el fármaco no está registrado en Colombia, lo que añade una barrera regulatoria significativa.
+El puntaje del modelo es alto, pero no hay ensayos clínicos ni literatura específica para CMM7 (nivel L5). Para melanoma en general solo existen estudios preclínicos e indirectos (L4), y un resultado en células murinas no establece eficacia ni seguridad en humanos.
 
 **Para avanzar se necesita:**
+- Obtener y revisar el prospecto de INVIMA, con advertencias y contraindicaciones, para poder hacer el tamizaje de seguridad. Este es el bloqueo principal.
+- Completar el mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
+- Buscar evidencia específica del subtipo CMM7 y estudios en modelos de melanoma humano, in vitro e in vivo.
+- Evaluar la penetración en el sistema nervioso central antes de considerar enfermedad leptomeníngea.
+- Definir la compatibilidad de la vía de administración, que está pendiente. En Colombia solo se registra como polvo liofilizado inyectable.
 
-- Confirmar la definición clínica exacta y los criterios diagnósticos del subtipo CMM7
-- Obtener datos de mecanismo de acción (MOA) completos desde DrugBank o literatura primaria
-- Realizar estudios preclínicos in vitro en líneas celulares de melanoma cutáneo (punto de partida: aprovechar la evidencia existente en células B16-F1, PMID 33671902)
-- Escalar a modelos in vivo antes de considerar cualquier indicación clínica
-- Descargar y analizar la ficha técnica de referencia (FDA/EMA) para completar perfil de seguridad (advertencias, contraindicaciones, DDI)
-- Evaluar viabilidad de registro sanitario ante INVIMA Colombia como requisito previo a cualquier desarrollo clínico local
+Los resultados son solo para fines de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Ravulizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 206
+nav_order: 342
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ravulizumab: De Hemoglobinuria Paroxística Nocturna a Neutropenia Congénita Grave por Deficiencia de G6PC3
+# Ravulizumab: De Indicación No Detallada en el Registro a Neutropenia Congénita Grave Autosómica Recesiva por Deficiencia de G6PC3
 
 ## Resumen en Una Frase
 
-Ravulizumab es un anticuerpo monoclonal anti-C5 de larga duración, aprobado internacionalmente para el tratamiento de la hemoglobinuria paroxística nocturna (PNH) y el síndrome hemolítico urémico atípico (aHUS), cuya acción consiste en bloquear el componente terminal de la cascada del complemento.
-El modelo TxGNN predice que podría ser efectivo para la **Neutropenia Congénita Grave de tipo autosómico recesivo por deficiencia de G6PC3**,
-con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección — la predicción se basa exclusivamente en señales del modelo.
-
----
+Ravulizumab es un inhibidor de acción prolongada del componente C5 del complemento. En Colombia se comercializa como ULTOMIRIS®, pero el registro no detalla su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. Se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Hemoglobinuria paroxística nocturna (PNH) / SHU atípico (referencia internacional; no registrado en Colombia) |
-| Nueva Indicación Predicha | Neutropenia congénita grave AR por deficiencia de G6PC3 |
+| Indicación Original | No especificada en el registro (el texto de INVIMA solo indica «RAVULIZUMAB») |
+| Nueva Indicación Predicha | Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (todos con el mismo número de registro, 20224196) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales de mecanismo de acción en el Evidence Pack. Con base en la información contextual presente en las racionalizaciones del modelo, Ravulizumab es un inhibidor del componente C5 del complemento: bloquea la escisión de C5 en C5a y C5b, impidiendo la formación del complejo de ataque a la membrana (MAC) y la liberación de C5a anafilatóxina. Su ventaja sobre eculizumab radica en una vida media más prolongada (administración cada 8 semanas), manteniendo supresión sostenida del complemento terminal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, ravulizumab es un inhibidor de C5 de acción prolongada. Su uso establecido es en enfermedades mediadas por complemento, como la hemoglobinuria paroxística nocturna (HPN).
 
-La Neutropenia Congénita Grave AR por deficiencia de G6PC3 es un trastorno metabólico que compromete la subunidad catalítica 3 de la glucosa-6-fosfatasa, provocando acumulación de metabolitos tóxicos, estrés del retículo endoplásmico (ER stress) y apoptosis acelerada de los precursores de neutrófilos en la médula ósea. El modelo postula que la activación del complemento en el microambiente medular podría agravar el daño tisular, y que la inhibición de C5 ejercería un efecto protector indirecto sobre la maduración de los granulocitos.
+**La predicción no tiene un vínculo mecanístico establecido.** La deficiencia de G6PC3 causa neutropenia por alteración del metabolismo de la glucosa-6-fosfato y por apoptosis de los neutrófilos. No es una enfermedad por desregulación del complemento. El puntaje alto de TxGNN proviene del grafo de conocimiento y no de evidencia biológica o clínica.
 
-Sin embargo, la conexión mecanística es extremadamente débil y no está respaldada por ningún dato experimental ni clínico. El puntaje elevado del modelo (99.96%) probablemente refleja efectos de agrupamiento topológico en el grafo de conocimiento: las múltiples subvariantes de neutropenia congénita grave comparten nodos de enfermedad, lo que genera puntuaciones altas por proximidad de grafo más que por relación farmacológica directa. La racionalización del propio sistema cataloga este hallazgo como posible **falso positivo por efecto de clúster de enfermedades raras**.
-
----
+Además, el bloqueo del complemento terminal aumenta el riesgo de infecciones por bacterias encapsuladas, con advertencia en recuadro por enfermedad meningocócica. En pacientes que ya son neutropénicos, este riesgo es una preocupación de seguridad importante.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Ravulizumab no cuenta con registros sanitarios activos ante el INVIMA y no se encuentra comercializado en Colombia para ninguna indicación. Para poder avanzar con cualquier uso en el país sería necesario iniciar un proceso de registro sanitario o explorar vías de acceso excepcional (uso compasivo / importación por indicación médica).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20224196 | ULTOMIRIS® (ASTRAZENECA COLOMBIA S.A.S.) | Solución concentrada para infusión | Solo figura «RAVULIZUMAB»; el registro no detalla la indicación |
 
----
+Los 4 registros contabilizados corresponden al mismo número y al mismo producto, por eso se presenta una sola fila.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Advertencia principal (según el análisis del Evidence Pack)**: el bloqueo del complemento terminal conlleva advertencia en recuadro por infección meningocócica grave y mayor riesgo de infecciones por bacterias encapsuladas.
+- **Poblaciones de riesgo**: en pacientes neutropénicos o con inmunodeficiencias primarias, este riesgo podría representar un daño neto.
 
----
+Para advertencias y contraindicaciones completas, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya exclusivamente en señales del modelo TxGNN sin ningún ensayo clínico ni publicación de respaldo (Nivel de Evidencia L5), y el enlace mecanístico entre la inhibición de C5 y el ER stress por deficiencia de G6PC3 es teórico y muy débil — el elevado puntaje refleja muy probablemente proximidad topológica entre subtipos de neutropenia congénita en el grafo de conocimiento, no una relación farmacológica real.
+La predicción es solo del modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de C5 y la neutropenia por deficiencia de G6PC3. Además, el riesgo de infección por el bloqueo del complemento es especialmente preocupante en esta población. Las otras 9 indicaciones predichas también son L5 y están en Hold.
 
 **Para avanzar se necesita:**
-
-- Datos formales de mecanismo de acción (MOA) de DrugBank para Ravulizumab, como prerrequisito para el análisis de relevancia mecanística
-- Estudios preclínicos (modelos animales G6PC3-KO) que demuestren activación del complemento en el microambiente medular como parte de la patología
-- Evidencia de biomarcadores de complemento (C3b, C5b-9/MAC) en pacientes diagnosticados con SCN por deficiencia de G6PC3
-- Registro sanitario de Ravulizumab ante el INVIMA como prerrequisito regulatorio en Colombia
-- Análisis de viabilidad económica: al ser un biológico de alto costo destinado a una enfermedad ultra-rara, cualquier desarrollo clínico requiere evaluación de costo-efectividad y exploración de mecanismos de acceso (fondos de enfermedades huérfanas, acuerdos con fabricante)
+- Un vínculo mecanístico demostrado, con estudios preclínicos que justifiquen la inhibición de C5 en esta enfermedad
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente
+- Confirmar la indicación aprobada en Colombia, ya que el registro solo muestra el nombre del principio activo
+- Datos del mecanismo de acción desde DrugBank
+- Una evaluación de riesgo-beneficio de la infección por bacterias encapsuladas en pacientes neutropénicos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

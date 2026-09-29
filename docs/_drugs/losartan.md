@@ -2,7 +2,7 @@
 layout: default
 title: Losartan
 parent: Evidencia Moderada (L3-L4)
-nav_order: 164
+nav_order: 265
 evidence_level: L4
 indication_count: 8
 ---
@@ -29,77 +29,74 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Losartan: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+# Losartán: De Antihipertensivo (ARA II) a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Losartan es un antagonista selectivo del receptor AT₁ de angiotensina II (ARA-II), utilizado globalmente para el tratamiento de la hipertensión arterial, la insuficiencia cardíaca y la nefropatía diabética. El modelo TxGNN predice que podría ser efectivo para la **Enfermedad Renal Hipertensiva Maligna**, con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta dirección. La predicción se sustenta en la superposición directa entre el mecanismo de acción del fármaco y la vía patológica central de esta enfermedad.
-
----
+Losartán es un antagonista del receptor de angiotensina II tipo 1 (AT1), conocido como antihipertensivo. En Colombia se comercializa sola y combinada con un diurético.
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**,
+pero hoy solo hay **0 ensayos clínicos** y **1 publicación preclínica** (modelo animal) que apunten en esa dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (indicación globalmente reconocida; sin registro INVIMA activo en Colombia) |
-| Nueva Indicación Predicha | Enfermedad Renal Hipertensiva Maligna |
+| Indicación Original | El registro sanitario solo indica "LOSARTAN" (sin texto de indicación). Uso conocido: antagonista del receptor AT1 |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 99.73% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 6 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Losartan actúa como antagonista selectivo del receptor AT₁ de angiotensina II, bloqueando de forma competitiva los efectos vasoconstrictores, proliferativos y profibróticos que ejerce la angiotensina II sobre las células mesangiales renales, la vasculatura aferente glomerular y el sistema nervioso simpático renal. Este perfil farmacológico lo convierte en un candidato mecanísticamente coherente para enfermedades donde el eje RAAS se encuentra hiperactivado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, losartán es un bloqueador del receptor AT1 de la angiotensina II. Como antihipertensivo, su eficacia para controlar la presión arterial es conocida, y mecanísticamente podría ser aplicable a la enfermedad renal hipertensiva maligna.
 
-La enfermedad renal hipertensiva maligna (nefroangiosclerosis maligna) se caracteriza por hipertensión arterial severa con daño renal agudo mediado precisamente por la activación descontrolada del eje angiotensina II / NF-κB, que promueve la proliferación de células mesangiales, la isquemia glomerular y la fibrosis tubulointersticial progresiva. El estudio de Ávila et al. (PMID 30809002, 2019) confirma en modelo animal murino que este eje es la vía patológica central en la nefroangiosclerosis hipertensiva maligna, alineándose de forma directa con el blanco molecular de Losartan.
+La enfermedad renal hipertensiva maligna (nefroesclerosis hipertensiva maligna) es el daño renal grave que produce una hipertensión muy severa. El único artículo de apoyo (PMID 30809002) describe, en un modelo de rata, que la angiotensina II y la vía NF-κB participan en el daño renal de este cuadro. Bloquear el receptor AT1 encaja con ese mecanismo.
 
-La conexión entre la indicación original y la nueva indicación predicha es de alta coherencia: ambas comparten como denominador común la hiperactivación del RAAS y el daño vascular mediado por angiotensina II; la diferencia reside en la severidad del fenotipo clínico y el compromiso renal agudo específico de la forma maligna. Sin embargo, la evidencia disponible aún se limita al nivel preclínico y no cuenta con estudios clínicos controlados en humanos para esta subentidad específica.
-
----
+Este respaldo es indirecto. El estudio es preclínico, no prueba losartán en pacientes y, según los datos disponibles, tampoco confirma que se haya evaluado losartán. El vínculo se basa en la farmacología general de los ARA II.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [30809002](https://pubmed.ncbi.nlm.nih.gov/30809002/) | 2019 | Estudio Animal / Mecanístico | Hypertension Research | En un modelo de ratas Munich-Wistar con hipertensión maligna inducida (unineftrectomía + sobrecarga de sal), confirma que el eje Ang II / NF-κB es el mecanismo patológico central de la nefroangiosclerosis hipertensiva maligna; el inhibidor de NF-κB atenúa el daño renal, respaldando directamente la relevancia del bloqueo RAAS como estrategia terapéutica |
-
----
+|------|-----|------|------|---------|
+| [30809002](https://pubmed.ncbi.nlm.nih.gov/30809002/) | 2019 | Preclínico (modelo animal) | Hypertension Research | En ratas con modelo de nefroesclerosis hipertensiva maligna (uninefrectomía y sobrecarga de sal), se estudia el papel de la angiotensina II y del sistema NF-κB en el daño renal |
 
 ## Información de Mercado en Colombia
 
-Losartan no cuenta con registros sanitarios INVIMA activos en Colombia. El fármaco no se encuentra comercializado bajo ninguna marca en el mercado colombiano según los datos disponibles al corte de este informe (2026-06-04).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20189581 | SANTANIL® 50 mg | Tableta recubierta | Losartán (el registro no detalla la indicación) |
+| 20263318 | LOSAN HCT® | Tableta recubierta | Losartán y diuréticos (el registro no detalla la indicación) |
 
----
+Nota: el total declarado es de 6 registros, pero los datos entregados solo muestran 2 números de registro distintos (con filas repetidas).
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La conexión mecanística entre Losartan y la enfermedad renal hipertensiva maligna es farmacológicamente sólida (bloqueo AT₁ → inhibición del eje Ang II / NF-κB patológico), pero la totalidad de la evidencia disponible se reduce a un único estudio en modelo animal. La ausencia completa de ensayos clínicos específicos para esta subentidad y de estudios observacionales en humanos impide avanzar más allá de la etapa de hipótesis investigativa en este momento.
+La predicción tiene un puntaje alto (99.73%), pero solo la respalda un estudio preclínico indirecto (L4), sin ensayos clínicos. Además, faltan los datos de seguridad del prospecto de INVIMA, que bloquean el paso al cribado de seguridad. En el estado actual es una pregunta de investigación, no una candidata para avanzar.
 
 **Para avanzar se necesita:**
-- Búsqueda dirigida de estudios observacionales o cohortes retrospectivas en pacientes con nefroangiosclerosis maligna tratados con ARA-II (incluidos otros fármacos de la misma clase como irbesartán, valsartán)
-- Diseño y registro de un ensayo clínico exploratorio (Fase 2) específico para hipertensión maligna con compromiso renal
-- Obtención de datos completos de MOA desde DrugBank para sustentar el análisis formal de mecanismo en el informe regulatorio
-- Recuperación de datos de seguridad (advertencias, contraindicaciones, interacciones farmacológicas) del prospecto TFDA o equivalente internacional
-- Evaluación regulatoria y tramitación de registro sanitario ante INVIMA como condición previa a cualquier uso clínico en Colombia
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es el vacío bloqueante.
+- Obtener el mecanismo de acción desde DrugBank.
+- Confirmar si el estudio PMID 30809002 evaluó losartán o un bloqueador del sistema renina-angiotensina.
+- Buscar evidencia clínica (ensayos o estudios observacionales) en enfermedad renal hipertensiva maligna.
+- Definir el criterio de seguridad renal, ya que la estenosis de la arteria renal es una precaución conocida de los ARA II.
+
+**Otras predicciones del modelo:** la hipertensión renovascular maligna (L4) tiene solo un reporte de caso y un artículo de métodos en ratas. La enfermedad de pequeño vaso cerebral (L4) tiene un ensayo cruzado con antihipertensivos (PMID 37863608) cuyo diseño y uso de losartán no se pueden confirmar con los datos entregados. Las demás predicciones (hipertensión pulmonar, síndrome de Braddock, angina de Prinzmetal y síndrome familiar de hematuria con tortuosidad arteriolar retiniana) son L5, sin evidencia real, y quedan en Hold.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Etonogestrel
 parent: Solo Predicción del Modelo (L5)
-nav_order: 116
+nav_order: 189
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,89 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Etonogestrel: De Anticoncepción a Amenorrea
+# Etonogestrel: De Progestágeno + Estrógeno (Anticoncepción Hormonal) a Amenorrea
 
 ## Resumen en Una Frase
 
-Etonogestrel es un progestágeno sintético utilizado principalmente como anticonceptivo de larga duración en implante subdérmico (Implanon/Nexplanon), cuyo mecanismo principal es la supresión del eje hipotálamo-hipófisis-ovario.
-El modelo TxGNN predice que podría estar asociado con **Amenorrea (enfermedad)**,
-con **1 ensayo clínico** y **2 publicaciones** recuperadas, aunque ninguna respalda directamente su uso como tratamiento de la amenorrea.
-
-> ⚠️ **Nota de interpretación:** El análisis de plausibilidad mecanística sugiere que esta predicción puede reflejar una **confusión de dirección causal**: etonogestrel *induce* amenorrea como efecto farmacológico, en lugar de *tratar* la amenorrea como condición patológica.
-
----
+Etonogestrel es un progestágeno que en Colombia se comercializa en un sistema de liberación (anillo) combinado con un estrógeno, y su uso conocido es la anticoncepción hormonal.
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero la predicción no tiene respaldo directo: hay **1 ensayo clínico** y **2 publicaciones**, todos indirectos o no relacionados con esta indicación.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Anticoncepción hormonal de larga duración (implante subdérmico) |
+|------|------|
+| Indicación Original | Progestágeno + estrógeno (categoría registrada ante INVIMA; uso comercializado: anticoncepción) |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L4 (estudios de mecanismo; sin ensayos diseñados para tratar amenorrea) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 (ningún estudio evalúa la amenorrea como objetivo terapéutico) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde la fuente DrugBank (gap identificado). Sin embargo, por información farmacológica conocida, etonogestrel es un progestágeno sintético de tercera generación —metabolito activo del desogestrel— que actúa como agonista selectivo del receptor de progesterona (PR). Su principal mecanismo anticonceptivo es la supresión del pico de LH, inhibición de la ovulación y alteración del moco cervical.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, etonogestrel es un progestágeno que suprime la ovulación y adelgaza el endometrio. Su eficacia como anticonceptivo está comprobada, pero no hay una vía mecanística documentada hacia el tratamiento de la amenorrea.
 
-La relación entre etonogestrel y la amenorrea es directa, pero **en sentido inverso al de un reposicionamiento terapéutico tradicional**: el fármaco suprime el eje HPO (hipotálamo-hipófisis-ovario), lo que frecuentemente provoca amenorrea como consecuencia farmacológica en usuarias del implante (entre el 20–30% de las usuarias reportan ausencia de sangrado). El modelo TxGNN probablemente detectó esta fuerte asociación en el grafo de conocimiento y la interpretó como indicación tratable.
-
-Existe un escenario de reposicionamiento conceptualmente posible: el uso de **amenorrea inducida como objetivo terapéutico** en condiciones como endometriosis severa o menorragia refractaria. No obstante, ninguno de los ensayos o publicaciones recuperadas está diseñado con ese objetivo, por lo que la evidencia clínica dirigida es inexistente en este paquete de evidencia.
-
----
+Aquí la predicción es poco plausible. La amenorrea es un efecto esperado del etonogestrel, no un objetivo terapéutico. El puntaje alto de TxGNN probablemente refleja una asociación fármaco-fenotipo del grafo de conocimiento (el fármaco provoca o se vincula con amenorrea), no una razón para tratarla. Usar un fármaco que induce amenorrea para tratar amenorrea no tiene sentido biológico sin una justificación adicional, por ejemplo un subtipo específico de amenorrea o un esquema de uso distinto.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|-----------------|------|--------|-------------|----------------------|
-| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Completado | 498 | Evaluación de eficacia anticonceptiva del implante de etonogestrel en uso extendido (4.º y 5.º año). El sangrado/amenorrea se evalúa como resultado secundario de seguridad, **no como indicación terapéutica de amenorrea**. |
-
-> **Advertencia de relevancia (Grado C):** El único ensayo recuperado está diseñado para eficacia anticonceptiva. La amenorrea es un resultado secundario de patrón de sangrado, no un objetivo de tratamiento.
-
----
+|---------|------|------|------|---------|
+| [NCT04626596](https://clinicaltrials.gov/study/NCT04626596) | Fase 3 | Completado | 498 | Estudio abierto, multicéntrico y de brazo único sobre la eficacia anticonceptiva y la seguridad del implante de etonogestrel (MK-8415) entre el 4.º y el 5.º año de uso en mujeres de 35 años o menos. No evalúa la amenorrea como desenlace; es evidencia indirecta, a lo sumo de perfil de seguridad. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA | Contraception | Comparación de Implanon (una varilla) vs. Norplant (seis cápsulas) en 200 mujeres durante 2–4 años en China. Sin embarazos; evalúa patrones de sangrado incluyendo amenorrea como resultado de tolerabilidad, no de tratamiento. |
-| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | ECA (protocolo) | Trials | Protocolo de ensayo para BIO101 en deterioro respiratorio por COVID-19. **Sin relación con etonogestrel ni con amenorrea.** Posible falso positivo en la búsqueda bibliográfica. |
-
-> **Nota:** Ninguna de las publicaciones recuperadas evalúa etonogestrel como tratamiento de la amenorrea. La publicación PMID 33430924 es un falso positivo no relacionado con el fármaco ni la indicación.
-
----
+|------|-----|------|------|---------|
+| [10549446](https://pubmed.ncbi.nlm.nih.gov/10549446/) | 1999 | ECA | Contraception | Comparó en China el implante de una varilla (Implanon) con el de seis cápsulas (Norplant) en 200 mujeres sanas durante 2 años. No hubo embarazos y se analizaron los patrones de sangrado. Es indirecto: no trata amenorrea. |
+| [33430924](https://pubmed.ncbi.nlm.nih.gov/33430924/) | 2021 | Protocolo de ECA | Trials | Protocolo del estudio COVA (BIO101) para prevenir el deterioro respiratorio en COVID-19. No guarda relación con etonogestrel ni con amenorrea. |
 
 ## Información de Mercado en Colombia
 
-Etonogestrel **no cuenta con registros sanitarios vigentes en Colombia** según los datos disponibles. No se han encontrado licencias de comercialización, por lo que no hay productos aprobados que listar.
+Los cinco registros listados en el Evidence Pack corresponden al mismo registro sanitario, por lo que se muestra una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20128300 | EXELRING ® | Sistemas de liberación | Progestágeno + estrógeno |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-> Los datos de advertencias clave, contraindicaciones e interacciones farmacológicas no están disponibles en este paquete de evidencia. Se recomienda revisar la ficha técnica oficial de Implanon/Nexplanon y consultar las bases de datos de seguridad de DrugBank y la FDA antes de cualquier evaluación clínica.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN refleja una **confusión de dirección causal**: etonogestrel suprime el eje HPO e *induce* amenorrea como efecto farmacológico esperado, pero esto no equivale a una indicación terapéutica para tratar la amenorrea patológica. El único ensayo recuperado (Fase 3) estudia eficacia anticonceptiva, no tratamiento de amenorrea; la evidencia de literatura no es relevante para la indicación predicha; y el fármaco no está comercializado en Colombia, lo que añade una barrera regulatoria adicional.
+No hay estudios que evalúen etonogestrel como tratamiento de la amenorrea. La evidencia disponible es solo anticonceptiva e indirecta, y el mecanismo del fármaco va en sentido contrario a la indicación predicha. Las otras cuatro predicciones (patologías benignas de mama) tampoco tienen ensayos ni literatura (L5).
 
-**Para reconsiderar se necesita:**
-- Redefinir la hipótesis clínica: si el objetivo es evaluar la **amenorrea inducida como beneficio terapéutico** (p. ej., en endometriosis o menorragia), reformular la indicación y buscar evidencia específica para esas condiciones
-- Obtener el mecanismo de acción completo desde DrugBank (Data Gap DG002) para confirmar la selectividad PR y sus efectos endometriales
-- Consultar las advertencias y contraindicaciones del prospecto oficial (Data Gap DG001) antes de cualquier evaluación de seguridad
-- Verificar si existen ensayos diseñados específicamente para amenorrea inducida como endpoint primario terapéutico en condiciones ginecológicas crónicas
+**Para avanzar se necesita:**
+- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que bloquea el tamizaje de seguridad.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Confirmar si la predicción refleja solo la amenorrea como efecto adverso o asociado al fármaco, y no un uso terapéutico.
+- Si se insiste en la indicación, definir un subtipo específico de amenorrea y buscar evidencia clínica directa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

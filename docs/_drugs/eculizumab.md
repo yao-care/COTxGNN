@@ -2,7 +2,7 @@
 layout: default
 title: Eculizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 106
+nav_order: 172
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Eculizumab: De Hemoglobinuria Paroxística Nocturna a Hematopoyesis Cíclica
+# Eculizumab: De Inhibidor del Complemento C5 a Hematopoyesis Cíclica
 
 ## Resumen en Una Frase
 
-Eculizumab es un anticuerpo monoclonal humanizado inhibidor del complemento C5, reconocido internacionalmente por su eficacia en hemoglobinuria paroxística nocturna (HPN) y síndrome hemolítico urémico atípico (aHUS) — enfermedades donde la activación descontrolada del complemento destruye eritrocitos y daña órganos.
-El modelo TxGNN predice que podría ser efectivo para **Hematopoyesis Cíclica** (neutropenia cíclica),
-sin embargo, **no existe ningún ensayo clínico ni publicación directa** que respalde esta dirección, y el enlace mecanístico es débil.
-
----
+Eculizumab es un anticuerpo monoclonal que inhibe la proteína C5 del complemento. El registro colombiano no detalla su indicación original, pero la literatura recuperada lo asocia con enfermedades mediadas por complemento como la hemoglobinuria paroxística nocturna (HPN) y el síndrome hemolítico urémico atípico (SHUa).
+El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección específica. Se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Hemoglobinuria paroxística nocturna / Síndrome hemolítico urémico atípico (inferido de literatura; sin registro formal en Colombia) |
-| Nueva Indicación Predicha | Hematopoyesis Cíclica (Cyclic Hematopoiesis) |
+|------|------|
+| Indicación Original | No especificada en el registro (el texto de INVIMA solo repite el nombre del principio activo) |
+| Nueva Indicación Predicha | Hematopoyesis cíclica |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 13 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción desde las fuentes consultadas. No obstante, la literatura presente en este Evidence Pack permite inferir con certeza que Eculizumab actúa como **inhibidor de la proteína complemento C5**: bloquea su escisión en C5a y C5b, impidiendo la formación del complejo de ataque a la membrana (MAC/C5b-9). Esta supresión selectiva de la vía terminal del complemento le confiere eficacia en la HPN —donde la ausencia de CD55/CD59 permite hemólisis intravascular masiva— y en el aHUS, donde mutaciones en reguladores del complemento desencadenan microangiopatía trombótica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, eculizumab es un inhibidor del complemento C5 que bloquea la activación terminal del complemento. Su eficacia se ha documentado en enfermedades causadas por complemento descontrolado, como la HPN, el SHUa y la miastenia gravis.
 
-La **hematopoyesis cíclica** es un trastorno genético raro causado principalmente por mutaciones en el gen *ELANE* (elastasa de neutrófilos). La acumulación de elastasa mal plegada activa la respuesta a proteínas desplegadas (UPR) y ciclos de apoptosis en precursores mieloides, generando oscilaciones periódicas (~cada 21 días) en el recuento de neutrófilos. **La vía del complemento C5 no tiene ningún papel conocido en este mecanismo patogénico**, y no existe evidencia preclínica ni clínica que sugiera un efecto terapéutico de su inhibición en esta enfermedad.
+La hematopoyesis cíclica es un trastorno de la producción de neutrófilos, generalmente ligado a variantes del gen *ELANE*. No se ha establecido ningún mecanismo impulsado por el complemento en esta enfermedad. Por eso, aunque el puntaje del modelo es alto, **no hay un vínculo mecanístico plausible** que lo respalde.
 
-El alto puntaje TxGNN (0.9997) refleja muy probablemente **proximidad topológica en el grafo de conocimiento biológico** —es decir, que la hematopoyesis cíclica comparte vecindad de nodos con enfermedades hematológicas donde Eculizumab ya tiene indicación, como la HPN— más que similitud mecanística real. El modelo captura relaciones de red, no causalidad farmacológica.
-
----
+Es probable que la predicción refleje patrones del grafo de conocimiento, y no una relación biológica demostrada. Debe tratarse como una hipótesis sin validar.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Eculizumab en hematopoyesis cíclica.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Eculizumab en hematopoyesis cíclica.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Eculizumab no cuenta con ningún registro sanitario vigente en Colombia. El fármaco no está comercializado en el mercado local, lo que representa una barrera adicional significativa para cualquier uso clínico.
+Hay 13 registros sanitarios en total. Los datos recibidos muestran 2 registros únicos, cuyas entradas estaban repetidas:
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20164753 | ELIZARIA® 10 MG/ML | Solución concentrada para infusión | No especificada en el registro |
+| 20254329 | BKEMV® 300 MG | Solución concentrada para infusión | No especificada en el registro |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en las fuentes consultadas para este análisis.
+Consultar el prospecto para información de seguridad.
 
-> **Nota:** Eculizumab es un inmunosupresor que bloquea la defensa del complemento contra bacterias encapsuladas. En todos sus usos aprobados internacionalmente se exige vacunación obligatoria contra *Neisseria meningitidis* antes del inicio del tratamiento, debido al riesgo de infecciones meningocócicas potencialmente fatales. Esta precaución es conocida y crítica, independientemente de la indicación.
-
----
+Como nota de contexto, eculizumab aumenta el riesgo de infección meningocócica. Esto sería una preocupación importante en pacientes con neutropenia, que es el cuadro de las indicaciones predichas.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN para hematopoyesis cíclica carece de fundamento mecanístico directo: la enfermedad está impulsada por mutaciones en *ELANE* que generan ciclos de apoptosis en precursores mieloides, un proceso completamente distinto a la patología mediada por complemento que Eculizumab trata. No existen ensayos clínicos, estudios observacionales ni publicaciones que respalden esta indicación, y el fármaco no cuenta con registro sanitario en Colombia, lo que añade una barrera regulatoria y de acceso adicional.
+La predicción no tiene ensayos clínicos ni literatura que la respalden (nivel L5). Además, no existe un mecanismo conocido que conecte la inhibición de C5 con la neutropenia cíclica. El riesgo de infecciones graves en pacientes neutropénicos refuerza la cautela.
+
+Los otros nueve candidatos del ranking (neutropenias congénitas, deficiencia de p14 y trastorno de liberación plaquetaria) tampoco tienen respaldo clínico. Las publicaciones asociadas a algunos de ellos tratan de HPN, SHUa o miastenia gravis, y coinciden por el nombre del fármaco, no por la enfermedad.
 
 **Para avanzar se necesita:**
-- Evidencia preclínica (modelos animales o estudios in vitro) que demuestre algún efecto de la inhibición de C5 en la neutropenia cíclica
-- Datos completos de mecanismo de acción (MOA) desde DrugBank para confirmar o descartar vínculos con la vía ELANE/UPR
-- Advertencias y contraindicaciones del prospecto oficial (actualmente con datos faltantes en el Evidence Pack)
-- Evaluación de viabilidad regulatoria y de acceso, dado que Eculizumab no está registrado en Colombia y es un biológico de alto costo
+- Datos del mecanismo de acción desde DrugBank y una hipótesis biológica que vincule el complemento con la neutropenia cíclica
+- Advertencias y contraindicaciones del prospecto de INVIMA, ya que la evaluación de seguridad no puede avanzar sin ellas
+- Búsqueda dirigida de estudios preclínicos o reportes de caso que relacionen la inhibición de C5 con la producción de neutrófilos
+- Confirmación de la indicación aprobada de cada registro sanitario
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 125
+nav_order: 206
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,74 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Galcanezumab: De Indicacion No Registrada en Colombia a Deficiencia de Cofactor 2 de Heparina
+# Galcanezumab: De Migraña y Cefalea en Racimos a Deficiencia de Cofactor II de la Heparina
 
 ## Resumen en Una Frase
 
-Galcanezumab es un anticuerpo monoclonal anti-CGRP (péptido relacionado con el gen de la calcitonina) que actúa sobre la vía de regulación neurovascular; no cuenta con indicaciones registradas ni registros sanitarios activos en Colombia según los datos disponibles. El modelo TxGNN predice que podría ser efectivo para **Deficiencia de Cofactor 2 de Heparina**, sin embargo, actualmente no existen **ensayos clínicos ni publicaciones** que respalden esta dirección, y el análisis mecanístico revela una **ausencia de relación biológica plausible** entre el mecanismo del fármaco y las enfermedades predichas.
-
----
+Galcanezumab es un anticuerpo monoclonal contra el péptido relacionado con el gen de la calcitonina (CGRP), comercializado como EMGALITY para la migraña y la cefalea en racimos.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor II de la heparina**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, y no se identificó un vínculo mecanístico plausible.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos registrados en Colombia |
-| Nueva Indicación Predicha | Deficiencia de Cofactor 2 de Heparina (*heparin cofactor 2 deficiency*) |
+| Indicación Original | No especificada en el registro (el texto del registro solo repite «GALCANEZUMAB»). Según el análisis mecanístico: migraña y cefalea en racimos |
+| Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina |
 | Puntaje de Predicción TxGNN | 99.50% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El campo de mecanismo de acción formal está marcado como dato faltante en este conjunto de datos; sin embargo, el análisis de racionalidad mecanística del Evidence Pack confirma que Galcanezumab se une y neutraliza el CGRP (péptido relacionado con el gen de la calcitonina), modulando la vía de regulación neurovascular. Esta es la base de su uso en la prevención de migraña y cefalea en racimos, aunque dicha indicación no aparece registrada en Colombia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP, una molécula vasodilatadora implicada en la inflamación neurogénica del sistema trigeminovascular. Su eficacia se ha establecido en migraña y cefalea en racimos.
 
-La Deficiencia de Cofactor 2 de Heparina (HC2) es un trastorno de la coagulación: HC2 es un inhibidor de serina proteasa que suprime la trombina a través de la vía del dermatán sulfato. Su fisiopatología pertenece íntegramente al sistema de coagulación, un dominio biológico completamente independiente de la señalización neuropeptídica del CGRP.
+La deficiencia de cofactor II de la heparina es la pérdida hereditaria de una serpina que inhibe la trombina. El bloqueo del CGRP no reemplaza ni aumenta esta proteína, ni actúa sobre la cascada de coagulación. **Por eso no se identificó un vínculo mecanístico plausible.**
 
-Según el análisis del Evidence Pack, la relación mecanística entre galcanezumab y las tres indicaciones predichas es **extremadamente baja o inexistente**: inhibir el CGRP no genera ningún efecto conocido sobre la actividad del cofactor 2 de heparina, sobre la función de antitrombina ni sobre la regulación del Factor V. Las vías biológicas son ortogonales entre sí, lo que sugiere que la puntuación alta del modelo TxGNN refleja posiblemente artefactos de la representación gráfica del conocimiento más que una relación farmacológica real.
+El puntaje alto (0.995) probablemente refleja un artefacto del grafo de conocimiento y no una señal biológica real. Las otras dos predicciones principales tienen el mismo problema:
 
----
+- **Deficiencia de antitrombina tipo 2** (99.41%)
+- **Exceso de factor V con trombosis espontánea** (99.41%)
+
+Ambas son trastornos de la coagulación, sin ensayos, sin literatura y sin relación mecanística con la inhibición del CGRP.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para ninguna de las indicaciones predichas (*heparin cofactor 2 deficiency*, *antithrombin deficiency type 2*, *factor 5 excess with spontaneous thrombosis*).
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para ninguna de las indicaciones predichas.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Galcanezumab no cuenta con registros sanitarios activos en Colombia. El fármaco no ha sido aprobado ni comercializado en el país según los datos de INVIMA disponibles en este análisis.
+Se reportan 20 registros sanitarios. Las 5 entradas detalladas en el paquete corresponden al mismo registro, que se muestra una sola vez:
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20155001 | EMGALITY (Eli Lilly and Company) | Solución inyectable | GALCANEZUMAB (el registro no detalla la indicación) |
+
+**Nota:** los metadatos del paquete indican como fuente `tfda` y un identificador de candidato `TW-`, lo que sugiere origen taiwanés. Conviene verificar que estos registros correspondan realmente a INVIMA (Colombia).
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las tres indicaciones predichas por TxGNN corresponden a trastornos de la coagulación cuya fisiopatología es biológicamente orthogonal al mecanismo de acción de galcanezumab (inhibición de CGRP en la vía neurovascular). No existe ningún ensayo clínico, publicación científica ni fundamento mecanístico que respalde el reposicionamiento en esta dirección; la evidencia se limita únicamente a la predicción computacional del modelo (Nivel L5).
+La predicción no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre el bloqueo del CGRP y las deficiencias de proteínas anticoagulantes. El CGRP es vasodilatador, por lo que su bloqueo exigiría una revisión de seguridad vascular y trombótica antes de cualquier uso en pacientes con tendencia a la trombosis.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción formal (MOA) desde DrugBank API para descartar efectos pleiotrópicos no documentados
-- Obtener datos completos de seguridad y contraindicaciones desde el prospecto oficial (FDA/EMA/INVIMA)
-- Revisar si existe alguna hipótesis publicada que conecte la señalización de CGRP con trastornos trombóticos o de la coagulación
-- Considerar re-ejecutar el modelo TxGNN con datos de entrada enriquecidos (proteínas diana, rutas de señalización completas) para mejorar la especificidad de las predicciones y reducir falsos positivos en enfermedades biológicamente no relacionadas
+- Verificar el origen regulatorio (INVIMA vs. TFDA) y obtener el prospecto con advertencias y contraindicaciones
+- Completar los datos de mecanismo de acción desde DrugBank
+- Revisar la seguridad vascular y trombótica de la inhibición del CGRP
+- Evidencia preclínica o de mecanismo que justifique la predicción, antes de considerar cualquier estudio clínico
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

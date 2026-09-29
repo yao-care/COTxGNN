@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Velpatasvir
-parent: Evidencia Moderada (L3-L4)
-nav_order: 235
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 403
+evidence_level: L5
 indication_count: 10
 ---
 
 # Velpatasvir
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Velpatasvir: De Hepatitis C Viral Crónica a Infección por Virus de Hepatitis B
+# Velpatasvir: De Hepatitis C Crónica a Infección por el Virus de la Hepatitis B
 
 ## Resumen en Una Frase
 
-Velpatasvir es un inhibidor altamente selectivo de la proteína NS5A del virus de la hepatitis C (VHC), aprobado internacionalmente como componente de las combinaciones sofosbuvir/velpatasvir (Epclusa®) y sofosbuvir/velpatasvir/voxilaprevir (Vosevi®) para el tratamiento de la hepatitis C crónica de todos los genotipos.
-El modelo TxGNN predice que podría ser efectivo para la **Infección por Virus de Hepatitis B (VHB)**, con **26 ensayos clínicos** y **20 publicaciones** identificadas; sin embargo, la totalidad de esta evidencia corresponde a estudios dirigidos al VHC, sin ningún dato de eficacia directa contra el VHB.
+Velpatasvir es un inhibidor de la proteína NS5A del virus de la hepatitis C (VHC). En Colombia se comercializa combinado con sofosbuvir (Epclusa®).
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la hepatitis B (VHB)**, pero la evidencia real es muy débil. De **26 ensayos clínicos** y **20 publicaciones** asociados, ninguno demuestra eficacia contra el VHB: casi todos son sobre hepatitis C, y el único dato relacionado con VHB es una señal de seguridad (reactivación del VHB durante el tratamiento del VHC).
 
 ---
 
@@ -42,66 +42,80 @@ El modelo TxGNN predice que podría ser efectivo para la **Infección por Virus 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hepatitis C viral crónica (contexto clínico; sin registro en Colombia) |
-| Nueva Indicación Predicha | Infección por Virus de Hepatitis B |
+| Indicación Original | Sofosbuvir + Velpatasvir (el registro no detalla el texto de la indicación; los ensayos y la literatura corresponden a hepatitis C crónica) |
+| Nueva Indicación Predicha | Infección por el virus de la hepatitis B |
 | Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 (solo mecanismo y señales indirectas; sin estudios de eficacia en VHB) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (todos corresponden al mismo registro, 20126648) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Velpatasvir es un inhibidor de segunda generación de la proteína NS5A del VHC, un componente estructural esencial del complejo de replicación viral. Al bloquear esta proteína, velpatasvir impide la formación del complejo replicativo y la ensamblaje de nuevas partículas virales. Combinado con sofosbuvir (inhibidor de NS5B), logra tasas de respuesta virológica sostenida superiores al 95% en todos los genotipos del VHC, lo que lo convierte en uno de los antivirales de acción directa más eficaces disponibles.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Según la información conocida, velpatasvir es un inhibidor de NS5A del VHC y se usa junto con sofosbuvir (inhibidor de la polimerasa NS5B) en una tableta de dosis fija. Su eficacia contra el VHC está bien documentada en múltiples ensayos de fase 2 y 3.
 
-La base mecanística para su aplicación en la infección por VHB es, sin embargo, extremadamente débil. El VHB pertenece a la familia Hepadnaviridae y replica su ADN circular parcialmente bicatenario mediante transcripción inversa — un mecanismo completamente distinto al del VHC, que es un virus ARN monocatenario de sentido positivo. El genoma del VHB no codifica ninguna proteína homóloga al NS5A del VHC ni posee un dominio de unión equivalente sobre el cual velpatasvir pueda ejercer su acción inhibidora. No existe ninguna base estructural o funcional conocida para la actividad antiviral cruzada.
+La relación con el VHB es débil. Ambos son virus que infectan el hígado y comparten proximidad en el grafo de conocimiento, pero el VHB no tiene una proteína equivalente a NS5A. Por eso no se identifica un vínculo antiviral directo plausible. El puntaje alto de TxGNN probablemente refleja esa cercanía entre virus hepatotrópicos, no una razón mecanística.
 
-La revisión de los 26 ensayos clínicos y 20 publicaciones identificados confirma esta limitación de forma contundente: todos los estudios tienen el VHC como indicación primaria. El VHB aparece únicamente en dos contextos: (1) como comorbilidad en pacientes con coinfección VHC/VHB que reciben profilaxis con tenofovir para prevenir la reactivación del VHB durante el tratamiento del VHC, y (2) como señal de seguridad en forma de reactivación del VHB tras el inicio de antivirales de acción directa para VHC. La predicción de TxGNN probablemente refleja la proximidad semántica entre los nodos "hepatitis B" y "hepatitis C" en el grafo de conocimiento biomédico, no un vínculo terapéutico real.
+El único hallazgo clínico relacionado con VHB es de seguridad. Se han descrito casos de reactivación del VHB en pacientes coinfectados con VHC tratados con antivirales de acción directa, incluido un reporte con sofosbuvir/velpatasvir. Esto no respalda el uso de velpatasvir para tratar hepatitis B, sino que exige vigilancia.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-De los 26 ensayos identificados, ninguno evalúa la eficacia de velpatasvir contra el VHB como objetivo terapéutico primario. Se presentan los más relevantes en el contexto de coinfección o monitoreo de VHB:
+Se muestran los 10 ensayos más relevantes de los 26 asociados. Solo el primero involucra pacientes con VHB, y lo hace como prevención de reactivación, no como tratamiento del VHB con velpatasvir.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Desconocido | 120 | SOF/VEL + profilaxis con TAF en pacientes con coinfección VHC/VHB de genotipos 1-6; diseño orientado a prevenir reactivación del VHB, no a tratar el VHB directamente |
-| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completado | 33.808 | Gran estudio observacional de seguridad de antivirales de acción directa (n=33.808); monitorea la reactivación del VHB como evento adverso durante el tratamiento del VHC, no como diana de eficacia |
-| [NCT04695769](https://clinicaltrials.gov/study/NCT04695769) | Fase 4 | Completado | 281 | SOF/VEL/VOX + ribavirina en retratamiento de VHC crónico sin respuesta previa; población puede incluir coinfectados con VHB, pero el punto primario es la RVS del VHC |
-| [NCT02625909](https://clinicaltrials.gov/study/NCT02625909) | Fase 3 | Completado | 222 | Tratamiento de infección reciente por VHC con SOF/VEL en usuarios de drogas inyectables y coinfectados con VIH; sin datos de VHB |
-| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Fase 1 | Completado | 15 | Interacción farmacocinética de SOF/VEL/VOX con anticonceptivos hormonales; población con VHC, sin relación con VHB |
-
-> ⚠️ **Advertencia metodológica**: La totalidad de los 26 ensayos identificados fue diseñada para el tratamiento del VHC. El VHB no figura como hipótesis de eficacia en ninguno de ellos.
+| [NCT04997564](https://clinicaltrials.gov/study/NCT04997564) | Fase 4 | Desconocido | 120 | SOF/VEL por 12 semanas con tenofovir alafenamida (TAF) profiláctico en coinfección VHC/VHB, con o sin cirrosis compensada (China) |
+| [NCT03423641](https://clinicaltrials.gov/study/NCT03423641) | N/A | Completado | 33808 | Estudio de seguridad de antivirales de acción directa en hepatitis C; podría informar el riesgo de reactivación del VHB, sin evaluar tratamiento del VHB |
+| [NCT02625909](https://clinicaltrials.gov/study/NCT02625909) | Fase 3 | Completado | 222 | ECA de SOF/VEL en hepatitis C de adquisición reciente, con o sin VIH; solo eficacia contra VHC |
+| [NCT02996682](https://clinicaltrials.gov/study/NCT02996682) | Fase 3 | Completado | 102 | SOF/VEL ± ribavirina en hepatitis C con cirrosis descompensada |
+| [NCT02201901](https://clinicaltrials.gov/study/NCT02201901) | Fase 3 | Completado | 268 | SOF/VEL con o sin ribavirina en hepatitis C con cirrosis Child-Pugh B |
+| [NCT01858766](https://clinicaltrials.gov/study/NCT01858766) | Fase 2 | Completado | 379 | SOF + velpatasvir (GS-5816) en hepatitis C sin tratamiento previo; no es un ensayo de VHB |
+| [NCT03250910](https://clinicaltrials.gov/study/NCT03250910) | Fase 4 | Completado | 228 | Velpatasvir genérico + sofosbuvir en coinfección VHC/VIH |
+| [NCT04695769](https://clinicaltrials.gov/study/NCT04695769) | Fase 4 | Completado | 281 | ECA de ribavirina adyuvante con SOF/VEL/voxilaprevir en hepatitis C sin respuesta previa |
+| [NCT02533427](https://clinicaltrials.gov/study/NCT02533427) | Fase 1 | Completado | 15 | Interacción farmacológica con anticonceptivo hormonal en voluntarios sanos; no evalúa VHB |
+| [NCT03513393](https://clinicaltrials.gov/study/NCT03513393) | Fase 1 | Completado | 11 | Efecto de la cola (bebida ácida) sobre la absorción de velpatasvir en voluntarios tratados con omeprazol |
 
 ---
 
 ## Evidencia de Literatura
 
+No hay ensayos aleatorizados sobre VHB. Se muestran las publicaciones más relacionadas con VHB, ordenadas por relevancia.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Reporte de caso | J Med Case Reports | Reactivación del VHB sostenida por mutante de escape inmune del HBsAg en paciente anti-HBc positivo durante tratamiento con SOF/VEL para VHC; representa una señal de seguridad, no de eficacia antiVHB |
-| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Cohorte real | J Virus Eradication | Efectividad de SOF/VEL en pacientes chinos con VHC, incluyendo subgrupo con coinfección VHC/VHB; los datos de VHB se limitan al monitoreo de reactivación |
-| [35248213](https://pubmed.ncbi.nlm.nih.gov/35248213/) | 2022 | Cohorte real | Lancet Gastroenterol Hepatol | SOF/VEL para VHC genotipo 4 naïve en Ruanda (SHARED-3); SVR12 elevada; sin datos de VHB |
-| [35248212](https://pubmed.ncbi.nlm.nih.gov/35248212/) | 2022 | Ensayo brazo único | Lancet Gastroenterol Hepatol | SOF/VEL/VOX para retratamiento de VHC GT4 con falla previa a DAA en Ruanda; sin datos de VHB |
-| [33217040](https://pubmed.ncbi.nlm.nih.gov/33217040/) | 2021 | Cohorte real | J Gastroenterol Hepatol | SOF/VEL en cohorte real de VHC genotipo 3 con cirrosis y coinfección; el VHB aparece como comorbilidad, sin análisis de eficacia antiVHB |
-| [38910758](https://pubmed.ncbi.nlm.nih.gov/38910758/) | 2024 | Estudio descriptivo | Cureus | Eficacia de SOF/VEL en pacientes con VHC e insuficiencia renal crónica; sin datos de VHB |
-| [32405174](https://pubmed.ncbi.nlm.nih.gov/32405174/) | 2020 | Cohorte clínica | J Clin Exp Hepatol | SOF/VEL en enfermedad renal terminal y trasplante renal con VHC; sin datos de VHB |
-| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | Cohorte clínica | J Viral Hepatitis | Resultados de tratamiento simplificado con SOF/VEL para VHC en Myanmar; pacientes coinfectados con VHB tratados concurrentemente con tenofovir, no con velpatasvir |
+| [31542053](https://pubmed.ncbi.nlm.nih.gov/31542053/) | 2019 | Reporte de caso | J Med Case Rep | Reactivación del VHB, sostenida por una variante de escape del HBsAg, en un paciente anti-HBc positivo tratado con sofosbuvir/velpatasvir por hepatitis C |
+| [39735164](https://pubmed.ncbi.nlm.nih.gov/39735164/) | 2024 | Estudio observacional | J Virus Erad | Efectividad y seguridad de SOF/VEL en pacientes chinos con hepatitis C, incluidos subgrupos con coinfección VHC/VHB |
+| [32935438](https://pubmed.ncbi.nlm.nih.gov/32935438/) | 2021 | No clasificado | J Viral Hepat | Estrategia simplificada de SOF/VEL en Myanmar; los pacientes coinfectados con VHB recibieron tenofovir de forma concurrente |
+| [33217040](https://pubmed.ncbi.nlm.nih.gov/33217040/) | 2021 | Cohorte | J Gastroenterol Hepatol | Eficacia y seguridad de SOF/VEL ± ribavirina en hepatitis C genotipo 3, incluyendo pacientes con coinfección |
+| [34092970](https://pubmed.ncbi.nlm.nih.gov/34092970/) | 2021 | Revisión | World J Gastroenterol | Avances en hepatitis viral pediátrica; el tratamiento del VHB sigue lejos de ser curativo, mientras que el del VHC ya dispone de antivirales de acción directa |
+| [41734217](https://pubmed.ncbi.nlm.nih.gov/41734217/) | 2025 | Estudio retrospectivo | Klin Mikrobiol Infekc Lek | Evaluación de frecuencia, eficacia y tolerancia del tratamiento antiviral de hepatitis B y C en niños (Ostrava) |
+| [29369303](https://pubmed.ncbi.nlm.nih.gov/29369303/) | 2018 | Reporte de congreso | AIDS Rev | Resumen de novedades sobre hepatitis virales y antivirales pangenotípicos contra el VHC |
+| [40414600](https://pubmed.ncbi.nlm.nih.gov/40414600/) | 2025 | Estudio transversal | Ann Hepatol | Comparación global de precios de fármacos para hepatitis B y C; no aporta datos de eficacia |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Velpatasvir no cuenta con ningún registro sanitario vigente ante el INVIMA. No se encuentran presentaciones comercializadas en Colombia bajo esta sustancia activa, ni como producto único ni como parte de combinaciones a dosis fijas.
+Los 4 registros del paquete de evidencia son entradas idénticas del mismo registro sanitario, por lo que se muestran una sola vez.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20126648 | EPCLUSA® (GILEAD SCIENCES IRELAND UC) | Tableta recubierta (vía oral) | Sofosbuvir + Velpatasvir |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. En el paquete de evidencia no hay advertencias, contraindicaciones ni interacciones registradas para este fármaco.
+
+Como observación de la evidencia recopilada (no del prospecto):
+- **Reactivación del VHB:** hay un reporte de caso de reactivación durante el tratamiento con sofosbuvir/velpatasvir en un paciente anti-HBc positivo. Antes de usar antivirales de acción directa, conviene tamizar por VHB en pacientes con hepatitis C.
+- **Absorción de velpatasvir:** depende del pH. Un ensayo de fase 1 indica que los inhibidores de la bomba de protones como omeprazol reducen la absorción entre 26% y 56%.
+- **Antirretrovirales:** en pacientes con VIH se describen interacciones con algunos esquemas, por ejemplo con efavirenz y regímenes potenciados.
 
 ---
 
@@ -110,13 +124,19 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Velpatasvir carece de base mecanística para actuar sobre el VHB: su diana específica (NS5A) no tiene homólogo en el genoma del VHB. Los 26 ensayos clínicos y 20 publicaciones identificadas corresponden íntegramente a estudios del VHC, donde el VHB aparece únicamente como señal de seguridad (riesgo de reactivación) o como comorbilidad que requiere manejo paralelo con antivirales específicos (tenofovir/entecavir). No existe ningún dato de eficacia antiviral directa de velpatasvir frente al VHB.
+- El puntaje de TxGNN es alto (99.87%), pero no hay ningún estudio que demuestre actividad de velpatasvir contra el VHB. Además, el VHB carece de un blanco equivalente a NS5A.
+- Toda la evidencia disponible es sobre hepatitis C. La única señal relacionada con VHB es un riesgo de seguridad (reactivación), no un beneficio terapéutico.
+- Las otras predicciones del modelo (hepatitis E, hepatitis A, VIH, entre otras) también quedan en Hold, con evidencia L4 o L5.
 
 **Para avanzar se necesita:**
-- Datos de actividad in vitro de velpatasvir frente al VHB (modelos HepG2.2.15 u otros sistemas de replicación del VHB)
-- Datos completos del mecanismo de acción (MOA) desde DrugBank para evaluar posibles efectos pleiotrópicos no relacionados con NS5A
-- Estudios de estructura comparada entre NS5A del VHC y proteínas equivalentes del ciclo replicativo del VHB (proteína core, polimerasa viral) para descartar o confirmar actividad cruzada residual
-- Análisis regulatorio de INVIMA si se contempla en el futuro el registro de velpatasvir en Colombia para su indicación aprobada (VHC)
+- Datos de actividad antiviral in vitro de velpatasvir frente al VHB (líneas celulares con replicación viral).
+- Datos detallados del mecanismo de acción y análisis de la relación mecanística con el VHB.
+- Prospecto de INVIMA (advertencias y contraindicaciones) para completar el análisis de seguridad.
+- Datos de reactivación del VHB con esta combinación y un protocolo de tamizaje y monitoreo (HBsAg, anti-HBc, ADN del VHB) en pacientes coinfectados.
+- Seguimiento de los resultados de NCT04997564, el único ensayo con pacientes VHC/VHB.
+
+---
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

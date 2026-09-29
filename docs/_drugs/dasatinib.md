@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dasatinib
-parent: Evidencia Alta (L1-L2)
-nav_order: 95
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 150
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dasatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,93 +29,94 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Dasatinib: De Leucemia Mieloide Crónica a Sarcoma de Ewing
+# Dasatinib: De Indicación Original No Especificada en el Registro a Sarcoma de Ewing
 
 ## Resumen en Una Frase
 
-Dasatinib es un inhibidor oral de múltiples tirosina quinasas (BCR-ABL/Src), aprobado globalmente para el tratamiento de la leucemia mieloide crónica (LMC) y la leucemia linfoblástica aguda Philadelphia positiva, aunque actualmente no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para el **Sarcoma de Ewing**, con **2 ensayos clínicos relevantes** (incluyendo un Fase II completado en sarcomas avanzados con 366 pacientes) y **9 publicaciones** que actualmente respaldan esta dirección.
-La base mecanística se sustenta en la dependencia del Sarcoma de Ewing de la quinasa Src, objetivo molecular directo de dasatinib.
-
----
+El registro sanitario de INVIMA solo lista el nombre "DASATINIB" y no detalla su indicación original. Según el propio Evidence Pack, es un inhibidor multiquinasa comercializado, con datos de leucemia mieloide crónica (LMC).
+El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, con **3 ensayos clínicos registrados** (solo 2 evalúan dasatinib) y **9 publicaciones**, la mayoría preclínicas o de revisión.
+La evidencia clínica directa es escasa y una revisión señala que dasatinib **fracasó como agente único** en Ewing y rabdomiosarcoma.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia mieloide crónica (LMC) / Leucemia linfoblástica aguda Philadelphia positiva |
+| Indicación Original | No especificada en el registro (el texto del registro solo dice "DASATINIB") |
 | Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Puntaje de Predicción TxGNN | 99.90% (posición 1257) |
+| Nivel de Evidencia | L2 (con reservas: ensayo Fase 2 completado, no aleatorizado, de múltiples histologías y sin resultados específicos para Ewing) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dasatinib es un inhibidor de tirosina quinasa de amplio espectro que actúa potentemente sobre BCR-ABL, las quinasas de la familia Src, c-KIT y el receptor del factor de crecimiento derivado de plaquetas (PDGFR), con una potencia más de 325 veces superior a la del imatinib frente a BCR-ABL. Aunque los datos detallados de mecanismo de acción no están disponibles en el conjunto de datos actual, su clase farmacológica (inhibidor dual BCR-ABL/Src) está bien establecida en la literatura.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información del Evidence Pack, dasatinib es un inhibidor multiquinasa que bloquea BCR-ABL y las quinasas de la familia SRC (también c-KIT y PDGFR). Su eficacia en leucemia mieloide crónica está respaldada por un ECA de Fase 3 (DASISION).
 
-El Sarcoma de Ewing es un tumor óseo y de tejidos blandos que afecta predominantemente a adolescentes y adultos jóvenes, con pronóstico sombrío en estadios metastásicos o recurrentes. Estudios mecanísticos han demostrado que el estrés microambiental induce la activación de Src en las células de Sarcoma de Ewing, promoviendo la formación de invadopodios y el fenotipo invasivo (PMID 27566104). Adicionalmente, la proteína de fusión EWS-FLI1 interactúa con el complejo FAK-Src en vías de señalización prometastásicas (PMID 35655525), lo que ubica a Src como un conductor clave del comportamiento maligno de este tumor.
+El vínculo con el sarcoma de Ewing es principalmente preclínico. Los estudios muestran que la señalización Src/FAK participa en la invasión, la formación de invadopodios y la migración de las células de Ewing. En líneas celulares, dasatinib tiene actividad antiproliferativa y antimigratoria. Además, inhibe la migración y la invasión en distintas líneas de sarcoma humano.
 
-Dado que dasatinib inhibe simultáneamente Src, FAK (vía Src) y c-KIT, su perfil molecular cubre las principales vías de progresión descritas en el Sarcoma de Ewing. Estudios in vitro han confirmado actividad antiproliferativa y antimigratoria directa en líneas celulares de este tumor (PMID 18202781, PMID 17363602). Sin embargo, los datos del ensayo Fase II en sarcomas avanzados (NCT00464620) sugieren que la monoterapia con dasatinib presenta eficacia limitada en este subtipo específico, orientando la investigación hacia estrategias de combinación con quimioterapia convencional.
-
----
+Sin embargo, la revisión de van Erp et al. (2022) indica que dasatinib como agente único no funcionó en Ewing ni en rabdomiosarcoma en un estudio de Fase 2. El vínculo mecanístico es plausible, pero el beneficio clínico no está confirmado. Las combinaciones (por ejemplo, con inhibidores de FAK o con quimioterapia) son la vía que la literatura propone explorar.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Fase 2 | Completado | 366 | Dasatinib en sarcomas avanzados (cohorte amplia incluyendo Sarcoma de Ewing); evaluación de tasa de respuesta y supervivencia libre de progresión a 6 meses; provee datos de subgrupo aplicables a Ewing |
-| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Fase 1/2 | Terminado | 7 | Dasatinib + ifosfamida/carboplatino/etopósido (ICE) en sarcomas pediátricos, incluyendo explícitamente Sarcoma de Ewing; terminado prematuramente por dificultades de reclutamiento; aporta datos preliminares de seguridad de la combinación |
-
----
+| [NCT00788125](https://clinicaltrials.gov/study/NCT00788125) | Fase 1/2 | Terminado | 7 | Dasatinib con ifosfamida, carboplatino y etopósido en tumores sólidos pediátricos. Terminó con solo 7 pacientes, por lo que la evidencia es muy limitada. |
+| [NCT00464620](https://clinicaltrials.gov/study/NCT00464620) | Fase 2 | Completado | 366 | Dasatinib como agente único en sarcomas avanzados (respuesta y supervivencia libre de progresión a 6 meses). Los resultados específicos de Ewing no están en los datos proporcionados. |
+| [NCT06500819](https://clinicaltrials.gov/study/NCT06500819) | Fase 1 | Reclutando | 41 | CAR-T anti-B7-H3 en tumores sólidos pediátricos. No involucra dasatinib y no aporta evidencia para este fármaco. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Preclínico in vitro | Cancer Research | Dasatinib inhibe migración e invasión en diversas líneas celulares de sarcomas humanos e induce apoptosis en sarcomas óseos dependientes de Src; primera demostración preclínica directa en mesénquima |
-| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Preclínico in vitro | Oncology Reports | Actividad antiproliferativa y antimigratoria de dasatinib confirmada en líneas celulares de Sarcoma de Ewing; c-KIT y PDGFR identificados como blancos relevantes en este subtipo |
-| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Traslacional/Mecanístico | Neoplasia | Estrés microambiental induce activación dependiente de Src y formación de invadopodios en Sarcoma de Ewing; establece el fundamento mecanístico central para inhibición de Src |
-| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Traslacional/Mecanístico | Neoplasia | Tenascina C coopera con Src para promover invasión en Sarcoma de Ewing; amplía el modelo de activación Src en el contexto del microambiente tumoral |
-| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Preclínico/Traslacional | Sarcoma | Complejo FAK-Src como blanco terapéutico en Sarcoma de Ewing, DSRCT y rabdomiosarcoma; dasatinib como agente único fue insuficiente en Fase II, sugiriendo que la combinación FAK+Src es la estrategia a explorar |
-| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Revisión | Oncology Letters | Revisión sistemática sobre el papel crítico de la señalización Src en proliferación, apoptosis, invasión y microambiente tumoral en sarcomas; sustenta a Src como blanco terapéutico válido en la clase |
+| [35655525](https://pubmed.ncbi.nlm.nih.gov/35655525/) | 2022 | Revisión | Sarcoma | Dasatinib como agente único fracasó en Ewing y rabdomiosarcoma en un estudio de Fase 2. Se revisa el complejo FAK-Src como blanco combinado. |
+| [26170970](https://pubmed.ncbi.nlm.nih.gov/26170970/) | 2015 | Revisión | Oncol Lett | Src participa en proliferación, invasión y metástasis, y es un posible blanco en sarcomas. |
+| [17363602](https://pubmed.ncbi.nlm.nih.gov/17363602/) | 2007 | Preclínico | Cancer Res | Dasatinib inhibe la migración e invasión en líneas de sarcoma e induce apoptosis en sarcomas óseos dependientes de SRC. |
+| [18202781](https://pubmed.ncbi.nlm.nih.gov/18202781/) | 2008 | Preclínico | Oncol Rep | Actividad antiproliferativa y antimigratoria in vitro de dasatinib en líneas de neuroblastoma y sarcoma de Ewing. |
+| [27566104](https://pubmed.ncbi.nlm.nih.gov/27566104/) | 2016 | Preclínico | Neoplasia | El estrés microambiental activa invadopodios y migración en Ewing de forma dependiente de Src. |
+| [31521948](https://pubmed.ncbi.nlm.nih.gov/31521948/) | 2019 | Preclínico | Neoplasia | Tenascina C y Src cooperan para promover invadopodios en Ewing. |
+| [35190971](https://pubmed.ncbi.nlm.nih.gov/35190971/) | 2022 | Revisión | Curr Treat Options Oncol | Terapia sistémica del condrosarcoma. Relación indirecta con el fármaco. |
+| [29776413](https://pubmed.ncbi.nlm.nih.gov/29776413/) | 2018 | Preclínico | Cell Commun Signal | Plerixafor promueve la proliferación de líneas de Ewing. No evalúa dasatinib. |
+| [32999666](https://pubmed.ncbi.nlm.nih.gov/32999666/) | 2020 | Reporte de caso | Case Rep Oncol | Anomalía cromosómica en crisis blástica de LMC. Sin relación directa con Ewing. |
 
----
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20002502 | SPRYCEL ® 100 MG TABLETA RECUBIERTA (Bristol Myers Squibb de Colombia S.A.) | Tableta recubierta (vía oral) | Solo figura "DASATINIB"; el registro no detalla la indicación |
+
+Nota: los cinco registros listados en el Evidence Pack son idénticos (mismo número 20002502). Se muestran una sola vez. El total de registros reportado es 20.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa — clase BCR-ABL/Src/c-KIT/PDGFR) |
-| Riesgo de Mielosupresión | Moderado (neutropenia y trombocitopenia reportadas con frecuencia en estudios de LMC; vigilancia hematológica obligatoria) |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Hemograma completo con diferencial (semanal en inducción), función hepática y renal, monitoreo de retención de líquidos y efusión pleural/pericárdica |
-| Protección en Manejo | Seguir regulaciones estándar de manejo de fármacos antineoplásicos; precauciones de preparación y administración según normativa vigente |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multiquinasa de BCR-ABL y familia SRC) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto (como mínimo, hemograma y función hepática y renal) |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y las normas institucionales de manejo de antineoplásicos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información completa de seguridad. Los datos de advertencias clave, contraindicaciones e interacciones farmacológicas no están disponibles en el conjunto de datos actual. Cabe destacar que la literatura reporta efusión pleural como evento adverso relevante asociado a dasatinib en tratamientos prolongados (PMID 36448074, PMID 36346055), lo cual debe considerarse en el diseño del monitoreo clínico.
+- **Señales reportadas en la literatura recuperada (en pacientes con LMC, no en Ewing):** derrame pleural, quilotórax, neumonitis intersticial e infecciones de piel y tejidos blandos en adolescentes. Estas señales provienen de reportes y series de casos, y deben confirmarse en el prospecto.
 
----
+No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en el Evidence Pack. Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existe una base mecanística sólida (inhibición Src/FAK/c-KIT) respaldada por múltiples estudios preclínicos y traslacionales en Sarcoma de Ewing; sin embargo, el único ensayo Fase II clínico completado en sarcomas avanzados (NCT00464620) documentó que dasatinib como agente único no demostró eficacia suficiente en el subtipo Ewing, lo que limita la recomendación de avanzar a uso clínico sin datos específicos de combinación.
+El mecanismo (inhibición de SRC) es plausible y el puntaje TxGNN es alto. Aun así, la evidencia clínica directa es mínima: un ensayo terminado con 7 pacientes y un ensayo Fase 2 de sarcomas mixtos sin resultados específicos de Ewing. La literatura indica además que dasatinib como agente único no funcionó en Ewing.
 
 **Para avanzar se necesita:**
-- Análisis de subgrupo específico para Sarcoma de Ewing derivado del ensayo NCT00464620
-- Datos completos de mecanismo de acción (MOA) y perfil de seguridad oficial (prospecto INVIMA o referencia internacional reconocida)
-- Diseño de ensayo clínico dedicado a Sarcoma de Ewing con dasatinib en combinación (ej. con régimen ICE u otros esquemas de quimioterapia en segunda línea)
-- Obtención de registro sanitario ante INVIMA como requisito previo para cualquier uso clínico en Colombia
-- Plan de monitoreo de efusión pleural y parámetros hematológicos adaptado a la población pediátrica y de adultos jóvenes predominante en esta indicación
+- Resultados por subtipo (Ewing) del ensayo NCT00464620 y de NCT00788125.
+- Datos de mecanismo de acción y de seguridad (prospecto de INVIMA, que sigue pendiente).
+- Evaluación de estrategias combinadas (por ejemplo, con inhibidores de FAK o con quimioterapia) antes de considerar un estudio clínico.
+- Definir la indicación original aprobada en Colombia, ya que el registro solo lista el nombre del fármaco.
+
+*Este informe es solo una referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

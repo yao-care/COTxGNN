@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Candesartan Cilexetil
-parent: Evidencia Moderada (L3-L4)
-nav_order: 80
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 109
+evidence_level: L5
 indication_count: 5
 ---
 
 # Candesartan Cilexetil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,17 +29,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-Con la guía del pipeline cargada, procedo a generar el informe completo a partir del Evidence Pack.
-
----
-
-# Candesartan Cilexetil: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+# Candesartán cilexetilo: De Indicación Original No Especificada a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Candesartan cilexetil es un bloqueador del receptor de angiotensina tipo 1 (ARB), ampliamente reconocido para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca congestiva.
-El modelo TxGNN predice que podría ser efectivo para la **Hipertensión Renovascular Maligna**, con una base mecanística directamente plausible dado su modo de acción sobre el eje renina-angiotensina.
-Sin embargo, **no se encontraron ensayos clínicos ni publicaciones específicas** que respalden el uso de candesartan en esta indicación concreta, y existen advertencias de seguridad críticas que deben evaluarse antes de cualquier avance.
+Candesartán cilexetilo es un antagonista del receptor de angiotensina II tipo 1 (ARA-II) comercializado en Colombia. Los registros sanitarios disponibles no detallan su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada solo en el modelo.
 
 ---
 
@@ -47,23 +43,32 @@ Sin embargo, **no se encontraron ensayos clínicos ni publicaciones específicas
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial / Insuficiencia cardíaca (clase ARB; sin registro activo en Colombia) |
-| Nueva Indicación Predicha | Hipertensión Renovascular Maligna |
+| Indicación Original | No especificada (el registro solo indica el texto "CANDESARTAN") |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99.68% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia suministrado. Con base en la farmacología conocida de la clase terapéutica, candesartan cilexetil es un antagonista selectivo del receptor AT1 de angiotensina II. Al bloquear este receptor, inhibe la vasoconstricción mediada por angiotensina II, la retención de sodio y la estimulación simpática, reduciendo así la presión arterial sistémica y la carga renal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, candesartán es un bloqueador del receptor AT1 de angiotensina II. Al bloquear este receptor reduce la vasoconstricción mediada por el sistema renina-angiotensina-aldosterona (SRAA), y mecanísticamente podría ser aplicable a la hipertensión renovascular.
 
-La hipertensión renovascular maligna tiene como mecanismo fisiopatológico central la estenosis de la arteria renal → isquemia renal → liberación masiva de renina → elevación aguda de angiotensina II → vasoconstricción sistémica y renal intensa mediada por AT1. Esta cadena de eventos hace que el bloqueo del receptor AT1 por candesartan sea **directamente relevante a nivel mecanístico**. Otros ARBs de la misma clase (losartán, irbesartán) ya cuentan con evidencia de uso en hipertensión renovascular general, lo que respalda la plausibilidad de esta predicción.
+La hipertensión renovascular maligna depende en gran medida del SRAA. Por eso el vínculo biológico es plausible. Las demás indicaciones predichas comparten el mismo puntaje o uno muy cercano (0.997). Esto sugiere que provienen de una vecindad similar en el grafo de conocimiento y no de evidencia independiente.
 
-No obstante, la variante **"maligna"** de la hipertensión renovascular es frecuentemente una emergencia hipertensiva con daño orgánico agudo (retinopatía, lesión renal aguda), y exige una advertencia crítica: la estenosis bilateral de arterias renales o la estenosis de arteria renal en riñón único constituyen **contraindicaciones absolutas** para los ARBs en general, incluyendo candesartan. Su uso en estos contextos puede precipitar un deterioro renal agudo severo e irreversible. La ausencia de datos clínicos específicos para candesartan en esta indicación impide avanzar más allá del estadio de hipótesis mecanística.
+Este vínculo es teórico. No hay ensayos ni literatura que lo confirmen, y los datos de indicación original y de mecanismo de acción están incompletos. El puntaje alto de TxGNN es solo una predicción del modelo.
+
+Otras indicaciones predichas (todas con nivel L5 y recomendación Hold):
+
+| Rango | Indicación predicha | Puntaje | Observación |
+|------|------|------|------|
+| 2 | Enfermedad renal hipertensiva maligna | 99.68% | Vínculo plausible por daño vascular mediado por el SRAA; sin ensayos ni literatura |
+| 3 | Hipertensión pulmonar por enfermedad pulmonar o hipoxia | 99.67% | Las publicaciones recuperadas son de biología general de la hipoxia y no evalúan candesartán ni ningún ARA-II |
+| 4 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.67% | Categoría heterogénea; no permite establecer una justificación específica |
+| 5 | Síndrome de Braddock | 99.56% | Sin vínculo mecanístico identificable; probable artefacto del grafo |
 
 ---
 
@@ -81,7 +86,11 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Candesartan cilexetil **no cuenta con registros sanitarios activos en Colombia (INVIMA)**. El estado de mercado es "no comercializado" y no se identificaron licencias aprobadas en la consulta realizada. Cualquier uso clínico futuro requeriría tramitar el registro sanitario correspondiente ante el INVIMA.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19995395 | CANDEPREX® 16 MG TABLETAS (MEGALABS COLOMBIA S.A.S) | Tableta (vía oral) | CANDESARTAN (sin descripción de indicación) |
+
+Nota: los 5 registros listados en el Evidence Pack son idénticos (mismo número de registro y mismo producto). El total informado es de 20 registros sanitarios.
 
 ---
 
@@ -89,7 +98,12 @@ Candesartan cilexetil **no cuenta con registros sanitarios activos en Colombia (
 
 Consultar el prospecto para información de seguridad.
 
-> **Advertencia crítica derivada del análisis mecanístico:** Los ARBs, incluyendo candesartan, están contraindicados en pacientes con estenosis bilateral de arterias renales o estenosis de arteria renal en riñón único — condiciones frecuentes en el contexto de hipertensión renovascular maligna. El uso en esta población puede desencadenar deterioro agudo de la función renal. Se requiere evaluación anatómica vascular (ej. angiografía o eco-Doppler renal) antes de considerar cualquier ARB en este escenario.
+Del análisis de racionalidad (no del prospecto) se desprenden estos riesgos que deben evaluarse antes de cualquier propuesta:
+- **Función renal**: los ARA-II pueden causar deterioro agudo de la función renal en estenosis bilateral de arteria renal o riñón único. Esto es especialmente relevante en hipertensión renovascular.
+- **Hiperpotasemia**: requiere revisión específica en lesión renal grave.
+- **Hipertensión pulmonar por enfermedad pulmonar**: los vasodilatadores pueden empeorar el acoplamiento ventilación-perfusión en pulmón hipóxico.
+
+No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ---
 
@@ -98,15 +112,17 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque la base mecanística de candesartan como antagonista AT1 es farmacológicamente plausible para la hipertensión renovascular maligna, la ausencia total de ensayos clínicos específicos y de literatura directa, combinada con contraindicaciones de seguridad críticas en esta población (estenosis arterial renal bilateral), hace que el perfil riesgo-beneficio sea actualmente incierto. La recomendación es mantener en estado de "pregunta de investigación" hasta obtener evidencia clínica robusta.
+Las cinco indicaciones predichas tienen nivel de evidencia L5: no hay ensayos clínicos ni literatura pertinente, y el puntaje de 99.68% proviene solo del modelo. Además, falta el prospecto de INVIMA (brecha bloqueante para el tamizaje de seguridad) y el riesgo renal de los ARA-II exige evaluación específica.
 
 **Para avanzar se necesita:**
-- Obtener datos completos del mecanismo de acción (MOA) desde DrugBank y la ficha técnica oficial
-- Revisar advertencias y contraindicaciones del prospecto (actualmente en Data Gap)
-- Identificar y analizar estudios observacionales o series de casos con ARBs (clase) en hipertensión renovascular maligna que puedan extrapolarse
-- Diseñar protocolo de estudio piloto con criterios de inclusión/exclusión estrictos (excluir estenosis bilateral de arteria renal)
-- Evaluar viabilidad de registro sanitario en Colombia (INVIMA) para esta indicación
-- Consultar con nefrólogos y especialistas en hipertensión para validar la hipótesis clínica antes de inversión en investigación
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), brecha bloqueante.
+- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank.
+- Realizar una búsqueda dirigida de literatura sobre ARA-II o candesartán en hipertensión renovascular maligna y en enfermedad renal hipertensiva maligna.
+- Buscar ensayos clínicos específicos de ARA-II en estas indicaciones.
+- Definir un plan de seguridad renal (creatinina, potasio, estenosis de arteria renal) antes de considerar cualquier propuesta.
+- Descartar la indicación de síndrome de Braddock, que probablemente es un artefacto del grafo, salvo que aparezca evidencia independiente.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Todo candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

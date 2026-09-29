@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abatacept
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 12
-evidence_level: L5
+evidence_level: L4
 indication_count: 10
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,94 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# ABATACEPT: Evaluación Preliminar — Sin Indicaciones Predichas Disponibles
+# Abatacept: De Artritis Reumatoide a Vasculitis Reumatoide
 
 ## Resumen en Una Frase
 
-Abatacept (DrugBank: DB01281) es una proteína de fusión CTLA-4-Ig conocida internacionalmente como modulador selectivo de la coestimulación de células T, utilizada principalmente en artritis reumatoide y otras enfermedades autoinmunes. Sin embargo, el Evidence Pack actual **no contiene indicaciones predichas por TxGNN**, y el fármaco **no se encuentra comercializado en Colombia** (sin registros sanitarios INVIMA). Se requiere completar múltiples brechas de datos antes de avanzar en la evaluación de reposicionamiento.
-
----
+Abatacept es una proteína de fusión CTLA4-Ig que bloquea la coestimulación de los linfocitos T. En el contexto de la evidencia se usa en artritis reumatoide, aunque el registro de INVIMA no detalla la indicación.
+El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**, pero solo hay **1 ensayo clínico** (no pertinente) y **20 publicaciones** (sobre todo reportes de caso, con resultados contradictorios).
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en el Evidence Pack (sin registros sanitarios ni indicaciones listadas) |
-| Nueva Indicación Predicha | — Sin predicciones TxGNN disponibles — |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (solo datos de identificación, sin predicciones ni estudios) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+|------|------|
+| Indicación Original | No especificada en el registro (el texto de INVIMA solo repite «ABATACEPT»). El contexto de la evidencia apunta a artritis reumatoide |
+| Nueva Indicación Predicha | Vasculitis reumatoide |
+| Puntaje de Predicción TxGNN | 99.91% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por qué se Encuentra en Hold esta Evaluación?
+Abatacept bloquea la interacción CD80/CD86-CD28, una señal de coestimulación necesaria para activar los linfocitos T. Al reducir esa activación, atenúa la autoinmunidad mediada por células T que subyace a la artritis reumatoide y a sus manifestaciones fuera de las articulaciones, como la vasculitis. La base de datos no trae una descripción detallada del mecanismo de acción; este resumen proviene de la justificación mecanística incluida en el paquete de evidencia.
 
-Abatacept es un agente biológico ampliamente conocido a nivel mundial. Es una proteína de fusión compuesta por el dominio extracelular de CTLA-4 humano unido al fragmento Fc de IgG1, que actúa modulando selectivamente la coestimulación de células T al unirse a CD80/CD86 en las células presentadoras de antígeno, bloqueando la interacción con CD28. Esta acción lo hace eficaz en enfermedades autoinmunes como la artritis reumatoide, la artritis idiopática juvenil y la artritis psoriásica.
+La vasculitis reumatoide es una complicación extraarticular de la artritis reumatoide. Comparte con ella la base inmunológica, por lo que un fármaco que controla la enfermedad articular podría, en teoría, ayudar en la vasculitis.
 
-No obstante, el Evidence Pack actual presenta **brechas de datos críticas** que impiden una evaluación completa de reposicionamiento:
-
-1. **Sin predicciones TxGNN**: El array `predicted_indications` está vacío, lo que significa que el modelo no ha generado (o no se han incluido) candidatos de nuevas indicaciones para este fármaco.
-2. **Sin datos regulatorios en Colombia**: Abatacept no cuenta con registros sanitarios INVIMA, lo que implica que no está comercializado en el país y cualquier uso requeriría importación o trámite regulatorio especial.
-3. **Sin datos de mecanismo de acción (MOA) en el pack**: Aunque el MOA de abatacept es bien documentado en la literatura internacional, el Evidence Pack no incluye esta información, limitando el análisis de plausibilidad mecánica automatizado.
-
----
+Sin embargo, la evidencia es contradictoria. Hay casos con mejoría rápida tras abatacept, incluso cuando fallaron el metotrexato, los anti-TNF y el tocilizumab. También hay casos de vasculitis de aparición nueva durante el tratamiento con abatacept. Esto indica que el vínculo mecanístico es plausible, pero no está demostrado.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados en el Evidence Pack, dado que no se generaron indicaciones predichas por TxGNN.
-
----
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Aún no recluta | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia de hombro. No evalúa la eficacia de abatacept en vasculitis |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en el Evidence Pack, dado que no se generaron indicaciones predichas por TxGNN.
+No se encontraron ensayos aleatorizados. Se muestran las 10 publicaciones más pertinentes; el resto son revisiones generales, estudios de vacunación y otros temas de contexto.
 
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Reporte de caso | Cureus | Abatacept como opción terapéutica en vasculitis reumatoide, en una paciente con artritis reumatoide e inmunodeficiencia común variable, en quien el rituximab implicaba riesgo |
+| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Reporte de caso | Modern Rheumatology | Mujer de 38 años con vasculitis reumatoide pese a metotrexato y anti-TNF; abatacept mejoró rápidamente sus síntomas |
+| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Reporte de caso | Joint Bone Spine | Vasculitis reumatoide de aparición nueva durante abatacept, con mejoría posterior tras rituximab (sin resumen disponible; según el título) |
+| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Reporte de caso | Ophthalmic Plastic and Reconstructive Surgery | Vasculitis orbitaria en una paciente con artritis reumatoide que recibía abatacept; hubo progresión pese a ciclofosfamida |
+| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Reporte de caso | Internal Medicine | Nefritis asociada a ANCA durante abatacept y adalimumab; se atenuó con tocilizumab |
+| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohorte | Annals of the Rheumatic Diseases | Utilidad de las pruebas ANA seriadas para predecir lupus y vasculitis inducidos por biológicos en artritis reumatoide |
+| [33595833](https://pubmed.ncbi.nlm.nih.gov/33595833/) | 2021 | Revisión sistemática | BioDrugs | Trastornos glomerulares inmunomediados inducidos por biológicos y fármacos sintéticos dirigidos en enfermedades reumáticas |
+| [24840285](https://pubmed.ncbi.nlm.nih.gov/24840285/) | 2014 | Revisión sistemática y cohorte | Autoimmunity Reviews | Trastornos renales autoinmunes inducidos por biológicos en artritis reumatoide, espondilitis anquilosante y artritis psoriásica |
+| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Revisión | Journal of Clinical Medicine | Diagnóstico y manejo de la epiescleritis y escleritis asociadas a artritis reumatoide |
+| [31174819](https://pubmed.ncbi.nlm.nih.gov/31174819/) | 2018 | Revisión | Best Practice & Research Clinical Rheumatology | Compromiso del sistema nervioso central (incluida la vasculitis cerebral) en artritis reumatoide y sus implicaciones con biológicos |
 
 ## Información de Mercado en Colombia
 
-Abatacept **no se encuentra comercializado en Colombia**. No se identificaron registros sanitarios INVIMA activos.
+Los cinco registros listados corresponden al mismo Registro Sanitario y al mismo producto, por lo que se presentan una sola vez.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------------------|---------------------|---------------------|---------------------|
-| — | — | — | — |
-
-> **Nota:** A nivel internacional, abatacept se comercializa bajo la marca **Orencia®** (Bristol-Myers Squibb) en forma de solución inyectable para infusión intravenosa y solución para inyección subcutánea.
-
----
+|---------|------|------|-----------|
+| 20041743 | ORENCIA® solución inyectable para administración subcutánea 125 mg/ml (Bristol Myers Squibb de Colombia S.A.) | Solución inyectable | No detallada en el registro (solo indica «ABATACEPT») |
 
 ## Consideraciones de Seguridad
 
-No se dispone de datos de seguridad en el Evidence Pack actual (advertencias, contraindicaciones e interacciones farmacológicas no disponibles).
-
-> Consultar el prospecto internacional del producto (Orencia® / Abatacept) para información completa de seguridad. Entre las precauciones conocidas internacionalmente se incluyen: riesgo de infecciones graves, reactivación de hepatitis B, y precaución en pacientes con EPOC.
-
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Fuente de Remediación |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Drug_Level | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No se puede iniciar la evaluación de seguridad (S1) | Descargar y analizar prospecto PDF del ente regulatorio |
-| DG002 | Drug_Level | Mecanismo de acción (MOA) | Alta | Afecta el análisis de relación mecánica con nuevas indicaciones | Consultar API de DrugBank |
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack de abatacept carece de los elementos fundamentales para una evaluación de reposicionamiento: no hay indicaciones predichas por TxGNN, no hay datos de MOA integrados, y el fármaco no está comercializado en Colombia. Sin predicciones del modelo, no es posible evaluar la plausibilidad de nuevas indicaciones.
+La predicción del modelo es muy alta (99.91%), pero se apoya únicamente en reportes de caso con resultados opuestos. No hay ensayos clínicos que evalúen abatacept en vasculitis reumatoide, y la evidencia se ubica en L4. Los casos de vasculitis de aparición nueva durante el tratamiento exigen cautela.
 
 **Para avanzar se necesita:**
-- **Ejecutar la predicción TxGNN** para generar candidatos de nuevas indicaciones para abatacept
-- **Resolver DG001 (Bloqueante)**: Obtener y analizar el prospecto oficial para extraer advertencias y contraindicaciones
-- **Resolver DG002**: Integrar los datos de mecanismo de acción desde DrugBank API
-- **Evaluar el contexto regulatorio colombiano**: Determinar si existe algún programa de acceso o trámite INVIMA en curso para abatacept
-- **Recopilar evidencia**: Una vez generadas las predicciones, buscar ensayos clínicos y literatura de respaldo en ClinicalTrials.gov y PubMed
+- Series de casos más amplias, estudios observacionales o un ensayo prospectivo que evalúe abatacept en vasculitis reumatoide
+- Aclarar si la vasculitis emergente bajo abatacept es un efecto paradójico del fármaco o progresión de la enfermedad
+- El prospecto de INVIMA (advertencias y contraindicaciones) y la indicación aprobada de cada registro, actualmente sin datos
+- Datos detallados del mecanismo de acción desde DrugBank
+- Evaluar por separado otras indicaciones predichas con evidencia más sólida, como la artritis idiopática juvenil poliarticular (nivel L1 en este mismo paquete)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

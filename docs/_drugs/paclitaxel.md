@@ -2,7 +2,7 @@
 layout: default
 title: Paclitaxel
 parent: Evidencia Alta (L1-L2)
-nav_order: 187
+nav_order: 311
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,13 +29,11 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Paclitaxel: De Agente Antineoplásico (Taxano) a Carcinoma de Mama Femenino
+# Paclitaxel: De Indicación No Especificada en el Registro a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-Paclitaxel es un agente quimioterapéutico citotóxico de la clase taxano, ampliamente utilizado en el tratamiento de neoplasias malignas mediante la estabilización de microtúbulos e inducción de apoptosis.
-El modelo TxGNN predice que podría ser efectivo para **Carcinoma de Mama Femenino**,
-con **50 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Paclitaxel es un antineoplásico citotóxico (taxano) que cuenta con registro sanitario vigente en Colombia, pero el texto de indicación aprobada solo repite el nombre del principio activo. El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **50 ensayos clínicos** y **20 publicaciones** asociados. Es una señal confirmatoria: el cáncer de mama es un uso establecido de paclitaxel, no un reposicionamiento nuevo.
 
 ---
 
@@ -43,57 +41,75 @@ con **50 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos en registro consultado (base de datos INVIMA no reporta registros activos) |
-| Nueva Indicación Predicha | Carcinoma de Mama Femenino |
-| Puntaje de Predicción TxGNN | 99.995% |
+| Indicación Original | No especificada (el registro solo dice "PACLITAXEL") |
+| Nueva Indicación Predicha | Carcinoma de mama femenino |
+| Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Sin registro activo en base de datos consultada |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Paclitaxel es el representante más conocido de la clase taxano, cuyo mecanismo de acción se basa en la **estabilización de microtúbulos**: se une a la subunidad β de la tubulina e inhibe su despolimerización, lo que provoca la formación de haces anormales de microtúbulos, el arresto del ciclo celular en la transición G2/M y la activación de la vía apoptótica intrínseca. A diferencia de los agentes dirigidos, este mecanismo es independiente del estado de receptores hormonales (ER/PR) o HER2, lo que confiere amplitud de acción en todos los subtipos moleculares del carcinoma de mama.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, paclitaxel estabiliza los microtúbulos, lo que provoca detención mitótica y apoptosis en células tumorales de rápida división. Ese mecanismo no depende de receptores hormonales ni de dianas específicas.
 
-Las células del carcinoma de mama presentan un índice proliferativo elevado —especialmente en subtipos de alto grado como triple negativo (TNBC) y luminal B—, lo que las convierte en blancos particularmente sensibles a los agentes mitóticos como paclitaxel. La relación entre su uso antineoplásico general y el carcinoma de mama femenino es directa: la dependencia de la maquinaria de división celular en tumores de alta proliferación es la base mecanística que sustenta tanto las predicciones del modelo TxGNN como la evidencia clínica acumulada.
+El cáncer de mama es un escenario de uso consolidado de paclitaxel. La literatura recuperada lo describe como tratamiento de primera línea frecuente y uno de los antineoplásicos más utilizados. Por eso la predicción no representa un hallazgo nuevo, sino que confirma un uso ya establecido. Los ensayos de fase 3 incluyen paclitaxel como parte de esquemas adyuvantes y neoadyuvantes en cáncer de mama.
 
-Actualmente, paclitaxel es un componente estándar de los esquemas neoadyuvantes y adyuvantes para cáncer de mama a nivel mundial, confirmado en múltiples ensayos de Fase 3 completados que abarcan contextos HER2+, HER2−, ER+ y triple negativo. El puntaje de 99.995% del modelo TxGNN refleja con precisión la solidez de esta evidencia clínica robusta.
+Como el registro colombiano no detalla la indicación aprobada, conviene verificar en el prospecto de INVIMA si el cáncer de mama figura de forma explícita.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
+Se listan 10 de los 50 ensayos, priorizando fase 3 completados y estudios con paclitaxel como componente directo.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Fase 3 | Completado | 444 | Lapatinib + paclitaxel vs. placebo + paclitaxel en cáncer de mama HER2+ metastásico; evaluación directa de eficacia de paclitaxel como backbone en primera línea metastásica |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Completado | 3270 | Terapia adyuvante con/sin trastuzumab tras quimioterapia incluyendo paclitaxel semanal en cáncer de mama HER2-low; mayor ensayo en términos de reclutamiento |
-| [NCT00003088](https://clinicaltrials.gov/study/NCT00003088) | Fase 3 | Completado | 2005 | Quimioterapia secuencial (doxorrubicina → paclitaxel → ciclofosfamida) vs. concurrente en cáncer de mama con ganglios positivos estadio II/IIIA; estableció la secuencia óptima de administración |
-| [NCT01901146](https://clinicaltrials.gov/study/NCT01901146) | Fase 3 | Completado | 725 | ABP 980 vs. trastuzumab en cáncer de mama temprano HER2+ con paclitaxel como backbone quimioterapéutico; eficacia y seguridad del biosimilar |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Fase 3 | Completado | 478 | Docetaxel vs. paclitaxel en quimioterapia adyuvante de alta densidad de dosis para cáncer de mama con ganglios axilares positivos |
-| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Fase 3 | Completado | 280 | FEC → paclitaxel + trastuzumab vs. paclitaxel + trastuzumab → FEC + trastuzumab en cáncer de mama HER2+ operable; optimización del esquema neoadyuvante |
-| [NCT00455533](https://clinicaltrials.gov/study/NCT00455533) | Fase 2 | Completado | 384 | Ixabepilona vs. paclitaxel como continuación de AC en neoadyuvancia; estudio aleatorizado de biomarcadores con paclitaxel como brazo control activo |
-| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Fase 2 | Completado | 200 | Paclitaxel + trastuzumab adyuvante en cáncer de mama estadio II/IIIA HER2+; uno de los primeros ensayos en establecer la sinergia paclitaxel-trastuzumab |
-| [NCT02280252](https://clinicaltrials.gov/study/NCT02280252) | Fase 2 | Completado | 69 | Paclitaxel concurrente con radioterapia en cáncer de mama localmente avanzado (LABC) en cohorte multiétnica multinacional; respuesta patológica y supervivencia |
-| [NCT00272987](https://clinicaltrials.gov/study/NCT00272987) | Fase 3 | Terminado | 63 | Paclitaxel + trastuzumab + lapatinib vs. paclitaxel + trastuzumab en cáncer de mama HER2+ metastásico; terminado en fase de seguridad inicial (63/765 planeados) |
+| [NCT00003088](https://clinicaltrials.gov/study/NCT00003088) | Fase 3 | Completado | 2005 | Doxorrubicina, ciclofosfamida y paclitaxel en esquemas secuenciales o concurrentes, con intervalos de 14 o 21 días, en cáncer de mama con ganglios positivos |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Completado | 3270 | Quimioterapia adyuvante (incluye paclitaxel semanal) con o sin trastuzumab en cáncer de mama HER2-bajo |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Fase 3 | Completado | 478 | Docetaxel frente a paclitaxel tras FEC en esquema de dosis densa, como adyuvancia en cáncer de mama con ganglios positivos |
+| [NCT00513292](https://clinicaltrials.gov/study/NCT00513292) | Fase 3 | Completado | 280 | Comparación de dos secuencias neoadyuvantes (FEC seguido de paclitaxel + trastuzumab, y la secuencia inversa) en cáncer de mama HER2-positivo |
+| [NCT00281658](https://clinicaltrials.gov/study/NCT00281658) | Fase 3 | Completado | 444 | Lapatinib + paclitaxel frente a placebo + paclitaxel en cáncer de mama metastásico ErbB2 amplificado |
+| [NCT00016276](https://clinicaltrials.gov/study/NCT00016276) | Fase 3 | Terminado | 396 | AC con o sin dexrazoxano, seguido de paclitaxel semanal con o sin trastuzumab, en cáncer de mama HER2+ etapa IIIA/IIIB/IV |
+| [NCT00455533](https://clinicaltrials.gov/study/NCT00455533) | Fase 2 | Completado | 384 | Ixabepilona frente a paclitaxel tras AC en cáncer de mama temprano, con biomarcadores |
+| [NCT00003992](https://clinicaltrials.gov/study/NCT00003992) | Fase 2 | Completado | 200 | Paclitaxel + trastuzumab adyuvante en cáncer de mama temprano HER2 positivo |
+| [NCT00054028](https://clinicaltrials.gov/study/NCT00054028) | Fase 1/2 | Completado | 31 | Suramina combinada con paclitaxel en cáncer de mama metastásico avanzado |
+| [NCT01848197](https://clinicaltrials.gov/study/NCT01848197) | No aplica | Desconocido | 1000 | Paclitaxel cada 2 semanas frente a semanal como tratamiento adyuvante |
+
+Algunos ensayos del listado completo no evalúan paclitaxel como intervención principal, por ejemplo los de cuidados de soporte o de otros tipos de cáncer. En varios títulos truncados el papel exacto de paclitaxel no está confirmado.
 
 ---
 
 ## Evidencia de Literatura
 
+Se listan 10 de las 20 publicaciones. Se excluyen los estudios de laboratorio, salvo dos que ayudan a explicar el mecanismo y la resistencia.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Revisión | Biomolecules | Resumen integral del mecanismo de acción de paclitaxel (estabilización de microtúbulos, G2/M, apoptosis) y aplicaciones clínicas en cáncer de mama; análisis sistemático de mecanismos de resistencia |
-| [39317691](https://pubmed.ncbi.nlm.nih.gov/39317691/) | 2024 | Revisión | Chem Biol Drug Des | Combinaciones terapéuticas con paclitaxel en carcinoma mamario; identificación computacional de pares sinérgicos e biomarcadores in vivo |
-| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | ECA | Cancer | Ensayo multicéntrico de Fase II: eficacia y toxicidad de doxorrubicina + paclitaxel en carcinoma mamario metastásico; tasa de respuesta objetiva documentada |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Revisión | Drug Ther Bull | Evaluación comparativa de paclitaxel y docetaxel en cáncer de mama y ovario; análisis del momento en que la licencia se extendió al carcinoma mamario metastásico |
-| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Cohorte | BioMed Res Int | Eficacia de EC + paclitaxel semanal + trastuzumab neoadyuvante en carcinoma mamario HER2+; tasa de respuesta patológica completa en práctica clínica real |
-| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | Traslacional | J Immunother Cancer | Paclitaxel reprograma los macrófagos asociados al tumor potenciando el bloqueo de PD-1 en cáncer de mama triple negativo; mecanismo inmunomodulador adicional |
-| [20665703](https://pubmed.ncbi.nlm.nih.gov/20665703/) | 2011 | In vitro + Clínico | J Cell Physiol | ZD6474 (inhibidor dual EGFR/VEGFR) potencia los efectos antiproliferativos y apoptóticos de paclitaxel en carcinoma mamario con sobreexpresión de EGFR |
-| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Genómica | Nat Commun | Variantes germinales TEKT4 enriquecidas en tumores post-tratamiento como mecanismo principal de resistencia a paclitaxel en cáncer de mama; implicaciones para selección de pacientes |
-| [17272681](https://pubmed.ncbi.nlm.nih.gov/17272681/) | 2007 | Traslacional | Mol Pharmacol | Estatmina media resistencia a paclitaxel y vinblastina mediante despolimerización microtubular alterada; reversión de resistencia en líneas celulares de carcinoma mamario |
-| [14508823](https://pubmed.ncbi.nlm.nih.gov/14508823/) | 2003 | Traslacional | Cancer | Trastuzumab + paclitaxel inhibe la angiogénesis mediada por ErbB-2 mediante supresión de Akt; efecto antiangiogénico superior al de cada agente por separado |
+| [15305399](https://pubmed.ncbi.nlm.nih.gov/15305399/) | 2004 | ECA | Cancer | Administración concomitante frente a secuencial de epirrubicina y paclitaxel como primera línea en cáncer de mama metastásico (diseño de no inferioridad) |
+| [11751485](https://pubmed.ncbi.nlm.nih.gov/11751485/) | 2001 | ECA fase II | Clin Cancer Res | Doxorrubicina seguida de paclitaxel y ciclofosfamida, secuencial frente a concurrente, en adyuvancia con dosis densas (resultados a 5 años) |
+| [31783552](https://pubmed.ncbi.nlm.nih.gov/31783552/) | 2019 | Revisión | Biomolecules | Mecanismos de acción de paclitaxel y efectos clínicos en cáncer de mama; la resistencia es una barrera importante |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Revisión | Drug Ther Bull | Revisión de paclitaxel y docetaxel en cáncer de mama y ovario, con la ampliación de la licencia a cáncer de mama metastásico |
+| [11147586](https://pubmed.ncbi.nlm.nih.gov/11147586/) | 2000 | Estudio clínico fase II | Cancer | Eficacia y toxicidad de doxorrubicina + paclitaxel en cáncer de mama metastásico; papel del tratamiento previo con antraciclinas |
+| [32461977](https://pubmed.ncbi.nlm.nih.gov/32461977/) | 2020 | Estudio de mundo real | Biomed Res Int | Quimioterapia neoadyuvante con epirrubicina/ciclofosfamida y paclitaxel semanal + trastuzumab en cáncer de mama HER2+ |
+| [24068539](https://pubmed.ncbi.nlm.nih.gov/24068539/) | 2013 | Fase I-II | Breast Cancer Res Treat | Tipifarnib con paclitaxel semanal y AC en cáncer de mama localmente avanzado |
+| [11745249](https://pubmed.ncbi.nlm.nih.gov/11745249/) | 2001 | Estudio clínico | Cancer | Papel de paclitaxel en el tratamiento multimodal del carcinoma inflamatorio de mama |
+| [39009452](https://pubmed.ncbi.nlm.nih.gov/39009452/) | 2024 | Mecanismo | J Immunother Cancer | Efecto de paclitaxel sobre macrófagos asociados a tumor y su relación con la potenciación del bloqueo de PD-1 en cáncer de mama triple negativo |
+| [24823476](https://pubmed.ncbi.nlm.nih.gov/24823476/) | 2014 | Preclínico/genómico | Nat Commun | Variantes de TEKT4 asociadas a resistencia de cáncer de mama a paclitaxel |
+
+---
+
+## Información de Mercado en Colombia
+
+Los 5 registros mostrados en el paquete de evidencia corresponden al mismo número de registro sanitario. El total reportado es de 20 registros.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19976519 | PACLITAXEL 100 MG SOLUCIÓN INYECTABLE | Solución inyectable | PACLITAXEL (sin indicación descrita; el texto solo repite el nombre del principio activo) |
+
+Fabricante: Fresenius Kabi Oncology Limited (Baddi).
 
 ---
 
@@ -101,17 +117,21 @@ Actualmente, paclitaxel es un componente estándar de los esquemas neoadyuvantes
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional — clase Taxano (inhibidor de la despolimerización de microtúbulos, agente antimicrotubular estabilizador) |
-| Riesgo de Mielosupresión | **Alto** — neutropenia es la toxicidad limitante de dosis; leucopenia, trombocitopenia y anemia son frecuentes; riesgo de neutropenia febril requiere profilaxis con G-CSF en esquemas de alta densidad de dosis |
-| Clasificación de Emetogenicidad | **Baja a moderada** — esquema semanal: bajo potencial emetogénico; esquema cada 3 semanas (175 mg/m²): potencial moderado; profilaxis antiemética de corto plazo recomendada |
-| Ítems de Monitoreo | Hemograma completo con diferencial (antes de cada ciclo), función hepática (AST, ALT, fosfatasa alcalina, bilirrubina), función renal, evaluación de neuropatía periférica sensitiva/motora en cada visita |
-| Protección en Manejo | Cumplimiento obligatorio de normativas de manejo de fármacos citotóxicos: preparación en cabina de bioseguridad clase II tipo B, equipo de protección personal (doble guante de nitrilo, bata impermeable de manga larga, protección ocular y respiratoria), protocolo de derrames disponible |
+| Clasificación de Citotoxicidad | Citotóxico convencional (taxano, agente antimicrotúbulo) |
+| Riesgo de Mielosupresión | Alto según la clase (la neutropenia es habitual y limitante de dosis); el paquete no incluye datos de toxicidad |
+| Clasificación de Emetogenicidad | Baja, según la categoría del fármaco |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, signos de neuropatía periférica y de reacciones de hipersensibilidad |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+Estos datos provienen de la clase farmacológica y no del paquete de evidencia. Consultar las advertencias y precauciones del prospecto.
 
 ---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
+
+Los ensayos incluidos señalan la neuropatía periférica inducida por paclitaxel como la principal toxicidad limitante de dosis. Hay estudios de prevención y manejo (NCT07109817, NCT03022162).
 
 ---
 
@@ -120,14 +140,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Múltiples ensayos de Fase 3 completados —con hasta 3.270 participantes— respaldan la eficacia y seguridad de paclitaxel en carcinoma de mama femenino en los contextos neoadyuvante, adyuvante y metastásico, abarcando todos los subtipos moleculares; el puntaje TxGNN de 99.995% refleja con precisión esta evidencia clínica consolidada a nivel global.
+Hay múltiples ensayos de fase 3 completados con paclitaxel en cáncer de mama (por ejemplo NCT00003088, NCT00431080, NCT00513292 y NCT00281658), lo que sostiene el nivel de evidencia L1. Se avanza con salvaguardas porque no es un reposicionamiento novedoso y porque faltan datos regulatorios y de seguridad locales.
 
 **Para avanzar se necesita:**
-- Verificar directamente en INVIMA el estado actualizado de registros sanitarios para paclitaxel y sus formulaciones (convencional, nab-paclitaxel/Abraxane) en Colombia
-- Completar el perfil de seguridad obteniendo el prospecto oficial: advertencias de caja negra (reacciones de hipersensibilidad severas, mielosupresión), contraindicaciones absolutas e interacciones farmacológicas relevantes
-- Obtener datos del mecanismo de acción completo desde DrugBank para el análisis formal de relación mecanística
-- Definir el subgrupo de pacientes objetivo (TNBC, HER2+, ER+/luminal B) que maximizará el impacto del plan de reposicionamiento en el contexto colombiano
-- Evaluar la cadena de suministro y costos comparativos entre formulación convencional y nab-paclitaxel para acceso en el sistema de salud colombiano
+- Descargar y revisar el prospecto de INVIMA para confirmar la indicación aprobada en cáncer de mama y obtener advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad)
+- Datos del mecanismo de acción desde DrugBank
+- Confirmar el rol de paclitaxel en los ensayos con títulos truncados
+- Plan de monitoreo hematológico y de neuropatía, y verificación del manejo como fármaco citotóxico
+- Las predicciones de menor rango (ER-negativo y ER-positivo en L1; carcinoma de Ehrlich, bilateral, nipple, y los dos rabdomiosarcomas en Hold) requieren evaluación aparte. Los dos rabdomiosarcomas no tienen ninguna evidencia recuperada
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

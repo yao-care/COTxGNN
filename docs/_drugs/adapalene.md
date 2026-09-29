@@ -2,7 +2,7 @@
 layout: default
 title: Adapalene
 parent: Solo Predicción del Modelo (L5)
-nav_order: 23
+nav_order: 27
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,75 +29,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como referencia de contexto. Ahora procedo a generar el informe de evaluación de reposicionamiento basado en el Evidence Pack proporcionado.
-
----
-
-# Adapalene: De Acné Vulgaris a Zinc Elevado en Plasma
+# Adapaleno: De Acné a Zinc Plasmático Elevado
 
 ## Resumen en Una Frase
 
-Adapalene es un retinoide sintético de tercera generación, ampliamente utilizado en dermatología para el tratamiento tópico del acné vulgaris.
-El modelo TxGNN predice que podría ser efectivo para **Zinc Elevado en Plasma** (*zinc, elevated plasma*),
-sin embargo, actualmente **no existe ningún ensayo clínico ni publicación científica** que respalde esta dirección — la predicción se sustenta exclusivamente en el modelo computacional.
-
----
+Adapaleno es un retinoide tópico de tercera generación (agonista de RAR-beta/gamma), comercializado para el acné.
+El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado**,
+pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Sin registros sanitarios en Colombia (conocido por acné vulgaris) |
-| Nueva Indicación Predicha | Zinc Elevado en Plasma |
+|------|------|
+| Indicación Original | Acné (según el análisis de referencia; el registro sanitario solo dice «ADAPALENE») |
+| Nueva Indicación Predicha | Zinc plasmático elevado |
 | Puntaje de Predicción TxGNN | 99.51% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, el adapaleno es un retinoide tópico de tercera generación que actúa sobre los receptores RAR-beta y RAR-gamma, y su uso establecido es el acné.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, adapalene es un retinoide naphthaleno-ácido que actúa selectivamente sobre los receptores nucleares RAR-β y RAR-γ del ácido retinoico. A diferencia de los retinoides de primera generación, no se une a las proteínas transportadoras de retinoides en plasma (CRABP), lo que le confiere un perfil de tolerabilidad tópica más favorable. Su eficacia en acné vulgaris ha sido ampliamente demostrada en ensayos de Fase 3.
+No se ha demostrado un vínculo mecanístico con la nueva indicación. La única conexión especulativa es la interacción entre la vitamina A y el zinc: el zinc se necesita para sintetizar la proteína de unión al retinol y para el metabolismo de los retinoides. Sin embargo, el adapaleno tópico tiene absorción sistémica mínima, por lo que un efecto sobre el zinc plasmático es poco plausible sin más datos.
 
-Existe una conexión biológica plausible entre los retinoides y la homeostasis del zinc: la vitamina A y sus análogos requieren dedos de zinc (*zinc fingers*) en los receptores RAR/RXR para su activación transcripcional. El zinc es cofactor esencial en la cadena de señalización retinoides → RAREs (elementos de respuesta al ácido retinoico). Teóricamente, la modulación de estas vías por adapalene podría influir en el equilibrio de zinc intracelular y plasmático, activando o reprimiendo genes involucrados en el transporte y metabolismo del zinc (ej. metalotioneínas, transportadores ZIP/ZnT).
-
-Sin embargo, esta conexión es especulativa: la predicción de TxGNN con puntaje de 99.51% señala una asociación estadística en el grafo de conocimiento biomédico, pero no ha sido validada experimentalmente. La indicación "zinc, elevated plasma" es una entidad metabólica poco convencional como objetivo terapéutico primario, lo que refuerza la necesidad de investigación traslacional antes de avanzar.
-
----
+Además, el zinc plasmático elevado es un hallazgo de laboratorio, no una enfermedad con un tratamiento farmacológico establecido. Por eso esta predicción podría ser un artefacto del grafo de conocimiento y no una señal biológica real.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
+
+El registro sanitario 208651 aparece repetido cinco veces en los datos; se muestra una sola vez.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 208651 | DIFFERIN® GEL (GALDERMA S.A) | Gel tópico | ADAPALENE (el registro no detalla la indicación) |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN es muy alto (99.51%), la ausencia total de evidencia clínica y preclínica publicada (nivel L5), combinada con el hecho de que "zinc elevado en plasma" es una indicación atípica para un retinoide tópico, no justifica avanzar hacia desarrollo clínico en este momento. Además, adapalene no está comercializado en Colombia, lo que representa una barrera regulatoria adicional.
+La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos ni literatura. Además, no hay un mecanismo plausible: la absorción sistémica del adapaleno tópico es mínima y el zinc elevado es un hallazgo de laboratorio, no una enfermedad tratable.
 
 **Para avanzar se necesita:**
-- Obtener datos del mecanismo de acción (MOA) desde DrugBank/FDA label para confirmar la plausibilidad del vínculo con el metabolismo del zinc
-- Realizar búsqueda bibliográfica ampliada: retinoides + zinc homeostasis + plasma zinc levels
-- Estudios preclínicos in vitro que midan niveles de zinc intracelular y plasmático bajo exposición a adapalene
-- Evaluar la relevancia clínica de "zinc elevado en plasma" como entidad nosológica tratable (diagnóstico diferencial: hiperzincemia primaria vs. secundaria)
-- Configurar alerta de monitoreo en ClinicalTrials.gov y PubMed para evidencia emergente sobre esta combinación
+- Obtener el prospecto de INVIMA y extraer advertencias y contraindicaciones.
+- Completar el mecanismo de acción desde DrugBank.
+- Revisar si hay literatura sobre retinoides y homeostasis del zinc.
+- Confirmar que «zinc plasmático elevado» sea un objetivo terapéutico válido.
+- Evaluar la compatibilidad de vía de administración (tópica frente a sistémica), hoy pendiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

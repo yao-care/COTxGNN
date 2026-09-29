@@ -2,7 +2,7 @@
 layout: default
 title: Ustekinumab
 parent: Evidencia Alta (L1-L2)
-nav_order: 233
+nav_order: 401
 evidence_level: L2
 indication_count: 10
 ---
@@ -29,97 +29,87 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ustekinumab: De Psoriasis y Enfermedad de Crohn a Dermatitis
+# Ustekinumab: De Indicación Original No Especificada en el Registro a Dermatitis
 
 ## Resumen en Una Frase
 
-Ustekinumab (Stelara®) es un anticuerpo monoclonal humano anti-IL-12/IL-23, aprobado internacionalmente para el tratamiento de psoriasis en placas moderada-grave, artritis psoriásica, enfermedad de Crohn y colitis ulcerosa.
-El modelo TxGNN predice que podría ser efectivo para **Dermatitis** (especialmente dermatitis atópica),
-con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
-
----
+Ustekinumab es un anticuerpo monoclonal humano que bloquea la subunidad p40 compartida por IL-12 e IL-23. La literatura incluida en el paquete lo describe como indicado en psoriasis, artritis psoriásica, enfermedad de Crohn y colitis ulcerosa. El modelo TxGNN predice que podría ser efectivo para **dermatitis**, con **7 ensayos clínicos** y **20 publicaciones** relacionados. La evidencia directa se limita a dermatitis atópica, en estudios de Fase 2 pequeños y con señal clínica débil.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Psoriasis en placas moderada-grave, artritis psoriásica, enfermedad de Crohn, colitis ulcerosa (aprobaciones internacionales; sin registro en Colombia) |
-| Nueva Indicación Predicha | Dermatitis (Dermatitis Atópica) |
+| Indicación Original | No especificada en el registro (el texto del registro INVIMA solo repite «USTEKINUMAB») |
+| Nueva Indicación Predicha | Dermatitis |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+No se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, ustekinumab es un antagonista de IL-12/IL-23 que bloquea la subunidad p40 y suprime la activación de las vías Th1, Th17 y Th22. Su eficacia está establecida en enfermedades inflamatorias inmunomediadas, en particular la psoriasis.
 
-Ustekinumab es un anticuerpo monoclonal IgG1 humano que bloquea la subunidad p40 compartida por las interleucinas IL-12 e IL-23, dos citocinas clave en la regulación de la respuesta inmune Th1 y Th17. Sus indicaciones aprobadas internacionalmente —psoriasis, artritis psoriásica, enfermedad de Crohn y colitis ulcerosa— comparten como denominador común la hiperactivación de estas vías inflamatorias, lo que confirma un perfil farmacológico orientado a la modulación de la inmunidad adaptativa mediada por linfocitos T.
+La relación con la dermatitis es parcial. La dermatitis atópica está impulsada sobre todo por la vía Th2, pero en algunos subtipos (asiáticos, pediátricos, intrínsecos) también participan Th17 y Th22. Esto da una plausibilidad biológica parcial, aunque la señal clínica observada es débil e inconsistente.
 
-La dermatitis atópica (DA) se clasifica clásicamente como una enfermedad de predominio Th2, pero estudios de transcriptómica cutánea han demostrado que la forma crónica y la presentación en pacientes adultos y de origen asiático también exhiben activación significativa de los ejes Th1 y Th17. El bloqueo de p40 por ustekinumab puede modular este componente inflamatorio mixto, ofreciendo una base mecanística plausible para su uso en DA. Esta hipótesis ha sido directamente investigada en ensayos clínicos Fase 2, doble ciego, controlados con placebo en pacientes con DA moderada-grave, tanto en población occidental como japonesa.
-
-La similitud inmunológica entre la psoriasis —indicación plenamente aprobada— y determinadas formas de DA refuerza la coherencia de la predicción del modelo TxGNN: ambas enfermedades comparten disfunción de la barrera cutánea, infiltración de células T activadas y señalización anómala de citocinas. Los datos robustos de seguridad acumulados en psoriasis y artritis psoriásica sirven además como plataforma de referencia para estimar el perfil de riesgo en esta extensión de indicación.
-
----
+Conviene tener presente que la evidencia disponible se refiere sobre todo a dermatitis atópica y dermatitis de contacto, no a la dermatitis en general. No se encontró ningún ensayo de Fase 3 de ustekinumab en dermatitis.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Fase 2 | Completado | 32 | Estudio piloto aleatorizado de ustekinumab en adultos con DA crónica con respuesta subóptima a terapia previa; evaluó eficacia directa en el target de indicación |
-| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Fase 2 | Completado | 79 | Estudio multicéntrico, aleatorizado, doble ciego, controlado con placebo en pacientes japoneses adultos con DA grave; comparó 2 dosis de ustekinumab vs. placebo |
-| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completado | 1000 | Estudio observacional retrospectivo farmacogenético sobre supervivencia a 10 años de terapias biológicas en psoriasis moderada-grave; evalúa influencia de variantes genéticas y factores cardiometabólicos en durabilidad del tratamiento |
-| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Fase 2/3 | En curso | 45 | Estudio de inflamación cutánea mediante modelo de dermatitis por contacto con ampollas de succión; evalúa múltiples biológicos incluyendo ustekinumab para caracterizar mecanismos de acción en piel |
-| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | No iniciado | 10 | Estudio de microdispositivo cutáneo in situ para probar medicamentos aprobados por FDA directamente sobre DA y psoriasis; muestra muy reducida, relevancia limitada |
-| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completado | 126 | Evaluación de riesgo cardiovascular en pacientes con psoriasis grave bajo agentes biológicos; provee contexto de seguridad sistémica a largo plazo para la clase farmacológica |
-| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Fase 3 | Completado | 676 | Estudio CLEAR: secukinumab (anti-IL-17A) vs. ustekinumab en psoriasis en placas moderada-grave; ustekinumab actuó como comparador activo, confirmando su eficacia establecida en enfermedades inflamatorias cutáneas |
-
----
+| [NCT01945086](https://clinicaltrials.gov/study/NCT01945086) | Fase 2 | Completado | 79 | Ensayo aleatorizado, doble ciego y controlado con placebo de dos dosis de ustekinumab en dermatitis atópica grave en adultos japoneses. Evidencia directa, pero la literatura publicada no muestra superioridad clara sobre placebo. |
+| [NCT01806662](https://clinicaltrials.gov/study/NCT01806662) | Fase 2 | Completado | 32 | Piloto aleatorizado en dermatitis atópica crónica con respuesta subóptima a terapias previas. Directo pero pequeño; sirve para generar hipótesis, no para concluir eficacia. |
+| [NCT05535738](https://clinicaltrials.gov/study/NCT05535738) | Fase 2/3 | En reclutamiento | 45 | Estudio mecanístico con un modelo de dermatitis de contacto y biológicos (incluido ustekinumab), con ampollas por succión. Estudia la respuesta inflamatoria de la piel, no la eficacia terapéutica. |
+| [NCT02074982](https://clinicaltrials.gov/study/NCT02074982) | Fase 3 | Completado | 676 | Estudio CLEAR de secukinumab frente a ustekinumab en psoriasis en placas. Indirecto: ustekinumab es el comparador y no se evalúa en dermatitis. |
+| [NCT07041112](https://clinicaltrials.gov/study/NCT07041112) | N/A | Completado | 1000 | Estudio farmacogenético observacional sobre la supervivencia a 10 años de biológicos en psoriasis. Relación tangencial con la dermatitis. |
+| [NCT01356758](https://clinicaltrials.gov/study/NCT01356758) | N/A | Completado | 126 | Evaluación de riesgo cardiovascular en psoriasis grave tratada con biológicos. No corresponde a una indicación de dermatitis. |
+| [NCT07352566](https://clinicaltrials.gov/study/NCT07352566) | Fase 4 | Aún no reclutando | 10 | Microdispositivo cutáneo in situ para probar fármacos aprobados directamente en la piel (dermatitis atópica y psoriasis). Estudio metodológico y exploratorio, sin evidencia de eficacia. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | ECA | Experimental Dermatology | Fase 2 RDBPC en 33 pacientes con DA moderada-grave; evaluó eficacia y seguridad de ustekinumab vs. placebo; evidencia directa sobre el target de indicación |
-| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | ECA | British Journal of Dermatology | ECA Fase 2 en pacientes japoneses con DA grave; evaluó ustekinumab anti-IL-12/23 como potencial tratamiento, con datos de eficacia y seguridad |
-| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Revisión Sistemática + Metaanálisis | Allergy | Evaluación crítica de evidencia para tratamientos sistémicos (incluyendo ustekinumab) en DA moderada-grave; base para guías clínicas EAACI |
-| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Revisión Sistemática | Journal of Dermatological Treatment | Revisión sistemática de eficacia y seguridad de ustekinumab específicamente en el tratamiento de DA; síntesis de evidencia disponible |
-| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Cohorte de Vida Real | Journal of Dermatological Treatment | Análisis de evidencia del mundo real sobre efectividad de ustekinumab en pacientes con DA; complementa datos de ensayos controlados |
-| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Estudio Mecanístico | Journal of the American Academy of Dermatology | Ustekinumab en DA grave: demuestra regulación a la baja de expresión Th2/Th22; sustento molecular para la hipótesis mecanística |
-| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Revisión Narrativa | Dermatologic Therapy | Síntesis de usos fuera de etiqueta de ustekinumab incluyendo DA; revisión de ensayos clínicos y estudios observacionales disponibles |
-| [39987634](https://pubmed.ncbi.nlm.nih.gov/39987634/) | 2025 | Análisis de Seguridad en Vida Real | International Immunopharmacology | Evaluación de eventos adversos de ustekinumab en psoriasis y artritis psoriásica mediante base de datos FDA FAERS; perfil de seguridad actualizado |
-| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Revisión | Children (Basel) | Revisión narrativa de biológicos y terapias dirigidas para DA pediátrica, psoriasis, alopecia areata e hidradenitis supurativa en EE.UU. |
-| [38847375](https://pubmed.ncbi.nlm.nih.gov/38847375/) | 2024 | Revisión Sistemática | Journal of Cutaneous Medicine and Surgery | Respuesta a terapia biológica en participantes con piel de color con psoriasis y DA moderada-grave; datos de generalización étnica relevantes para Colombia |
-
----
+| [27304428](https://pubmed.ncbi.nlm.nih.gov/27304428/) | 2017 | ECA | Experimental Dermatology | Estudio de Fase 2, doble ciego y controlado con placebo, con 33 pacientes con dermatitis atópica moderada a grave, aleatorizados a ustekinumab o placebo. |
+| [28338223](https://pubmed.ncbi.nlm.nih.gov/28338223/) | 2017 | ECA | British Journal of Dermatology | Eficacia y seguridad de ustekinumab en pacientes japoneses con dermatitis atópica grave (Fase 2, controlado con placebo). |
+| [29164954](https://pubmed.ncbi.nlm.nih.gov/29164954/) | 2018 | Revisión sistemática | J Dermatol Treat | Evalúa la eficacia y seguridad de ustekinumab en dermatitis atópica. |
+| [33074565](https://pubmed.ncbi.nlm.nih.gov/33074565/) | 2021 | Revisión sistemática / metaanálisis | Allergy | Evidencia sobre tratamientos sistémicos de la dermatitis atópica moderada a grave, base de la guía clínica de la EAACI. |
+| [29098604](https://pubmed.ncbi.nlm.nih.gov/29098604/) | 2018 | Revisión sistemática / metaanálisis | Am J Clin Dermatol | Analiza si los biológicos son eficaces en dermatitis atópica, una enfermedad con opciones sistémicas limitadas. |
+| [33849369](https://pubmed.ncbi.nlm.nih.gov/33849369/) | 2022 | Cohorte (mundo real) | J Dermatol Treat | Evalúa la efectividad de ustekinumab en dermatitis atópica; los reportes previos eran anecdóticos y con resultados contradictorios. |
+| [36208443](https://pubmed.ncbi.nlm.nih.gov/36208443/) | 2022 | Revisión | Dermatologic Therapy | Sintetiza los usos fuera de indicación de ustekinumab. |
+| [27745907](https://pubmed.ncbi.nlm.nih.gov/27745907/) | 2017 | Estudio clínico | J Am Acad Dermatol | Tratamiento con ustekinumab en dermatitis atópica grave, con regulación a la baja de la expresión de Th2/Th22. |
+| [39201826](https://pubmed.ncbi.nlm.nih.gov/39201826/) | 2024 | Revisión narrativa | Children (Basel) | Biológicos y terapias dirigidas en alopecia areata, psoriasis, dermatitis atópica e hidradenitis supurativa pediátricas en EE. UU. |
+| [37929636](https://pubmed.ncbi.nlm.nih.gov/37929636/) | 2024 | Reporte de caso | Australas J Dermatol | Terapia dual con ustekinumab y dupilumab en un paciente con enfermedad de Crohn grave y dermatitis atópica; sin interferencia entre los fármacos tras 7 meses. |
 
 ## Información de Mercado en Colombia
 
-Ustekinumab no cuenta con registros sanitarios activos ante el INVIMA. No se dispone de licencias locales que listar. El acceso en Colombia requeriría importación por excepción o gestión de uso bajo protocolo específico.
+Se registran 20 entradas de licencia. Varias corresponden al mismo registro sanitario, por lo que se muestran una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20264141 | UZTOK® (PHARMALAB PHL LABORATORIOS S.A.S) | Solución inyectable | USTEKINUMAB (el registro no detalla la indicación) |
+| 20009810 | STELARA® 45 MG/0.5 ML (JANSSEN CILAG S.A.) | Solución inyectable | USTEKINUMAB (el registro no detalla la indicación) |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se obtuvieron advertencias ni contraindicaciones del prospecto INVIMA, y no se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Dos ensayos clínicos de Fase 2 completados (NCT01806662 y NCT01945086) han evaluado directamente ustekinumab en DA moderada-grave, respaldados por revisiones sistemáticas y datos de vida real que confirman actividad clínica; sin embargo, los resultados han sido mixtos y el fármaco carece de aprobación regulatoria para esta indicación, lo que exige diseño cuidadoso, monitoreo activo de seguridad y una estrategia de acceso local bien definida.
+Las dos únicas evidencias directas son ensayos de Fase 2 pequeños en dermatitis atópica, y la literatura sugiere que no hay superioridad clara frente a placebo. No existe ningún ensayo de Fase 3 en dermatitis. Además, falta la información de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad. Por ahora se considera una pregunta de investigación, no una candidata para avanzar.
 
 **Para avanzar se necesita:**
-- Datos completos de mecanismo de acción (MOA) obtenidos desde DrugBank API (DG002 pendiente)
-- Advertencias, contraindicaciones e interacciones del prospecto oficial de TFDA/FDA (DG001 pendiente — clasificado como **Blocking**)
-- Estrategia de acceso regulatorio en Colombia: ustekinumab no está registrado localmente; evaluar vía de importación por excepción o uso compasivo ante INVIMA
-- Identificación del subgrupo respondedor óptimo: pacientes con DA crónica, fenotipo Th1/Th17 elevado o de origen asiático, donde el beneficio mecanístico es mayor
-- Seguimiento del estudio en curso NCT05535738 (Fase 2/3) para datos mecanísticos adicionales en piel inflamada
-- Comparación con alternativas disponibles (dupilumab, tralokinumab) en términos de eficacia, seguridad y acceso para contextualizar la viabilidad de reposicionamiento en el mercado colombiano
+- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante).
+- Completar los datos del mecanismo de acción y de las indicaciones originales desde DrugBank.
+- Aclarar la indicación: «dermatitis» es un término amplio, y la evidencia se limita a dermatitis atópica y de contacto. Habría que definir el subtipo y el fenotipo (por ejemplo, con predominio Th17/Th22).
+- Revisar en detalle los resultados de los ECA de Fase 2 (NCT01945086 y PMID 27304428/28338223) y la revisión sistemática de PMID 29164954, antes de plantear cualquier estudio de Fase 3.
+- Las otras 9 predicciones (por ejemplo, dermatomiositis neonatal, acné queloide, retinopatía diabética) tienen nivel L5, sin ensayos ni literatura, y quedan en Hold.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

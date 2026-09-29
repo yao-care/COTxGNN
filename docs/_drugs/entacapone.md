@@ -2,7 +2,7 @@
 layout: default
 title: Entacapone
 parent: Solo Predicción del Modelo (L5)
-nav_order: 111
+nav_order: 178
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Entacapone: De Enfermedad de Parkinson a PLA2G6-Associated Neurodegeneration
+# Entacapona: De Terapia Adyuvante con Levodopa a Neurodegeneración Asociada a PLA2G6
 
 ## Resumen en Una Frase
 
-Entacapone es un inhibidor de la catecol-O-metiltransferasa (COMT), originalmente utilizado como terapia adyuvante al levodopa/carbidopa en el tratamiento de la Enfermedad de Parkinson.
-El modelo TxGNN predice que podría ser efectivo para **PLA2G6-Associated Neurodegeneration (PLAN)**, una forma rara de neurodegeneración asociada a acumulación de hierro cerebral (NBIA tipo 2).
-Actualmente **no se registran ensayos clínicos ni publicaciones** que respalden directamente esta dirección; la predicción se sustenta únicamente en el modelo computacional.
-
----
+Entacapona es un inhibidor periférico de la COMT que prolonga la acción de la levodopa. En Colombia figura en un registro de una combinación con levodopa e inhibidor de descarboxilasa (uso en enfermedad de Parkinson).
+El modelo TxGNN predice que podría ser efectiva para **neurodegeneración asociada a PLA2G6**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Enfermedad de Parkinson (terapia adyuvante con levodopa/carbidopa) |
-| Nueva Indicación Predicha | PLA2G6-Associated Neurodegeneration (PLAN) |
+|------|------|
+| Indicación Original | Levodopa e inhibidor de descarboxilasa (texto del registro INVIMA) |
+| Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
 | Puntaje de Predicción TxGNN | 99.76% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, la entacapona es un inhibidor periférico de la COMT (catecol-O-metiltransferasa). Al bloquear la degradación periférica de la levodopa, prolonga su efecto. Por eso se usa como complemento de la levodopa en la enfermedad de Parkinson.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. No obstante, Entacapone es ampliamente reconocido como un inhibidor selectivo, reversible y periférico de la COMT, enzima responsable de la degradación de la dopamina y del levodopa en plasma. Al bloquear la COMT, Entacapone prolonga la vida media del levodopa y aumenta su biodisponibilidad cerebral, potenciando la señal dopaminérgica en el estriado.
+La enfermedad asociada a PLA2G6 puede incluir distonía-parkinsonismo (PARK14). Por eso es concebible un fundamento dopaminérgico **sintomático**: la entacapona podría ayudar con los síntomas parkinsonianos si el paciente recibe levodopa. Sin embargo, no modificaría el defecto de fondo, que afecta el metabolismo de fosfolípidos y el remodelado de membranas.
 
-PLAN (PLA2G6-associated neurodegeneration) es una forma de NBIA causada por mutaciones en el gen PLA2G6, que codifica una fosfolipasa independiente de calcio. Clínicamente cursa con síntomas parkinsonianos prominentes —rigidez, bradicinesia, distonía— junto con deterioro cognitivo y neurodegeneración nigroestriatal progresiva, características que comparten una fisiopatología dopaminérgica semejante a la Enfermedad de Parkinson clásica.
-
-La plausibilidad mecanística es teórica: si la pérdida de neuronas dopaminérgicas en PLAN compromete el sistema nigroestriatal de forma análoga a la EP, la inhibición de COMT podría prolongar el efecto de levodopa en los pacientes que responden a esta terapia. Sin embargo, como señala el propio Evidence Pack, el alto puntaje del modelo podría reflejar nodos compartidos entre PD y PLAN en el grafo de conocimiento más que evidencia farmacológica directa. La validación preclínica específica es indispensable antes de avanzar.
-
----
+La predicción se apoya solo en el modelo. No se recuperaron ensayos ni literatura para esta indicación. El puntaje alto de TxGNN debe interpretarse con cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Entacapone no cuenta con registros sanitarios activos en Colombia. No existen productos comercializados con este principio activo en el mercado colombiano a la fecha de corte de datos (2026-06-04).
+Los 5 registros devueltos corresponden al mismo número de registro sanitario (20147960), por lo que se muestra una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20147960 | LEVOCAPONE 50/12.5/200 TABLETA RECUBIERTA (HUMAX PHARMACEUTICAL S.A.) | Tableta recubierta (vía oral) | Levodopa e inhibidor de descarboxilasa |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje TxGNN de 99.76% es elevado y existe una plausibilidad mecanística basada en la convergencia dopaminérgica entre PLAN y la Enfermedad de Parkinson, la ausencia total de evidencia clínica o preclínica directa —combinada con la posibilidad de que la predicción sea un artefacto del grafo de conocimiento— impide avanzar sin investigación confirmatoria previa.
+La predicción es solo del modelo (L5), sin ensayos ni literatura. El fundamento mecanístico se limita al alivio sintomático del parkinsonismo y no aborda la causa de la enfermedad.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos en modelos animales de PLAN (knockout PLA2G6) para evaluar la respuesta a la inhibición de COMT
-- Revisión sistemática de casos clínicos de PLAN tratados con levodopa, que permitan inferir el potencial beneficio adyuvante de Entacapone
-- Completar el perfil de MOA y seguridad del fármaco (actualmente en Data Gap: DG001 y DG002)
-- Evaluación de la expresión y actividad de COMT en tejido cerebral con patología PLA2G6
-- Registro sanitario en Colombia como prerequisito regulatorio para cualquier uso clínico futuro
+- Datos del mecanismo de acción (DrugBank) y del prospecto de INVIMA (advertencias y contraindicaciones).
+- Revisión de casos o series clínicas de parkinsonismo/distonía en pacientes con mutaciones PLA2G6 tratados con levodopa y entacapona.
+- Priorizar otras predicciones del mismo fármaco con mejor respaldo indirecto: la **demencia con cuerpos de Lewy** (L4, con estudios in vitro y de modelos celulares) y el **parkinsonismo juvenil** (racional biológico plausible, sin evidencia específica).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
