@@ -19,7 +19,7 @@ field_mapping:
   dosage_form: "formafarmaceutica"
   manufacturer: "titular"
   approval_date: "fechaexpedicion"
-  status: "estado"
+  status: "estadoregistro"
 
 withdrawn_statuses:
   - "Cancelado"
