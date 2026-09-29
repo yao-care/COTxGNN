@@ -2,7 +2,7 @@
 layout: default
 title: Obinutuzumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 179
+nav_order: 298
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,89 +29,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# OBINUTUZUMAB: De Leucemia Linfocítica Crónica a LLC/SLL con Hipermutación Somática de IGHV
+# Obinutuzumab: De Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas con Hipermutación Somática del Gen IGHV
 
 ## Resumen en Una Frase
 
-Obinutuzumab es un anticuerpo monoclonal anti-CD20 glicoingenierizado de tipo II, utilizado globalmente para el tratamiento de la leucemia linfocítica crónica (LLC) y el linfoma folicular, aunque **no cuenta con registro sanitario INVIMA en Colombia**.
-El modelo TxGNN predice que podría ser efectivo para **LLC/SLL con hipermutación somática de IGHV** (subgrupo molecular de mejor pronóstico dentro de la LLC), con un puntaje de predicción de 99.21%.
-No existe ningún ensayo clínico ni publicación científica específica que respalde esta subindicación molecular, situándola en evidencia nivel L5 (predicción pura del modelo).
-
----
+Obinutuzumab es un anticuerpo monoclonal anti-CD20 comercializado en Colombia como Gazyva®. El registro sanitario disponible no detalla su indicación original, solo menciona el principio activo.
+El modelo TxGNN predice que podría ser efectivo para **leucemia linfocítica crónica/linfoma linfocítico de células pequeñas (LLC/LLCP) con hipermutación somática del gen IGHV**.
+Por ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción para este subtipo específico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leucemia linfocítica crónica y linfoma folicular (uso global aprobado; sin registro INVIMA en Colombia) |
-| Nueva Indicación Predicha | LLC/SLL con hipermutación somática de IGHV |
+| Indicación Original | No especificada (el texto aprobado en el registro solo dice "OBINUTUZUMAB") |
+| Nueva Indicación Predicha | LLC/LLCP con hipermutación somática del gen de la región variable de la cadena pesada de inmunoglobulina (IGHV) |
 | Puntaje de Predicción TxGNN | 99.21% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios INVIMA | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (las 4 filas corresponden al mismo número de registro, 20065694) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos detallados de mecanismo de acción no están disponibles en el Evidence Pack, sin embargo la farmacología de obinutuzumab está bien documentada en la literatura científica global. Se trata de un anticuerpo monoclonal anti-CD20 tipo II, totalmente humanizado y glicoingenierizado mediante defucosilación de la región Fc: la modificación de la región bisagra-codo (elbow-hinge) mejora la muerte celular directa por apoptosis en comparación con rituximab, mientras que la defucosilación amplifica la afinidad por el receptor FcγRIIIa, potenciando la citotoxicidad celular dependiente de anticuerpos (ADCC) mediada por células NK y la fagocitosis celular dependiente de anticuerpos (ADCP). A diferencia de rituximab, presenta menor actividad de citotoxicidad dependiente de complemento (CDC reducida), lo que puede traducirse en menor riesgo de reacciones de infusión severas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, obinutuzumab es un anticuerpo monoclonal anti-CD20 de tipo II, con glicoingeniería. Su mecanismo incluye muerte celular directa, citotoxicidad celular dependiente de anticuerpos y fagocitosis.
 
-Las células de LLC/SLL expresan consistentemente el antígeno CD20 en su superficie, independientemente del estado mutacional de IGHV. La subpoblación con IGHV mutado (≥2% de desviación de la línea germinal) corresponde al subtipo de LLC de pronóstico más favorable, con evolución clínica más indolente y mayor sobrevida libre de progresión. Dado que la expresión de CD20 es estructuralmente independiente del estado mutacional de IGHV, el mecanismo de obinutuzumab es teóricamente aplicable a este subgrupo molecular específico.
+El CD20 se expresa en las células B de la LLC/LLCP. Por eso, mecanísticamente, un anticuerpo anti-CD20 podría ser aplicable a esta enfermedad, y la predicción es biológicamente plausible.
 
-No obstante, existe una limitación metodológica relevante: el puntaje TxGNN para LLC/SLL IGHV-mutado (0.9921) es idéntico al del subtipo IGHV no mutado (Rango 2), lo que indica que el modelo no distingue entre ambas subclasificaciones moleculares. Esta observación sugiere que la predicción refleja la relación general obinutuzumab-LLC/SLL, más que una especificidad clínica diferencial hacia el subtipo IGHV mutado como entidad independiente.
-
----
+Sin embargo, no se recuperaron ensayos ni literatura para este subtipo molecular. Además, el puntaje es idéntico al del subtipo "LLC/LLCP pregerminal" (rank 2), lo que sugiere nodos solapados en la ontología y no señales independientes. Con los datos entregados, la predicción específica del subtipo no se puede verificar.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para LLC/SLL con hipermutación somática de IGHV como indicación específica.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para LLC/SLL con hipermutación somática de IGHV como indicación específica.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Obinutuzumab no cuenta con registros sanitarios INVIMA vigentes en Colombia. El fármaco no está disponible comercialmente en el mercado colombiano.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20065694 | GAZYVA® concentrado para solución para infusión, 1000 mg/vial 40 mL (F. Hoffmann-La Roche Ltd.) | Solución concentrada para infusión | Solo figura el principio activo: OBINUTUZUMAB |
 
----
+Los 4 registros de la fuente son filas duplicadas del mismo número de registro, por lo que aquí se muestran una sola vez.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia oncológica dirigida (anticuerpo monoclonal anti-CD20 tipo II, glicoingenierizado; no es quimioterapia citotóxica convencional) |
-| Riesgo de Mielosupresión | Moderado-alto — neutropenia es el efecto adverso hematológico más frecuente, documentada en los ensayos GALLIUM y GADOLIN; trombocitopenia reportada con menor frecuencia |
-| Clasificación de Emetogenicidad | Baja (anticuerpo monoclonal de administración intravenosa) |
-| Ítems de Monitoreo | Hemograma completo con diferencial (antes de cada ciclo), función hepática y renal, monitoreo de reacciones a la infusión (IRR) durante y post-administración, síndrome de lisis tumoral (riesgo elevado en primeras dosis con alta carga tumoral), serología HBV previa al inicio (riesgo de reactivación) |
-| Protección en Manejo | Preparación y administración por personal oncológico capacitado en entorno hospitalario; premedicación antihistamínica, antipirética y corticoide requerida antes de cada infusión para reducir riesgo de IRR; precauciones estándar para biológicos oncológicos IV |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-CD20 con glicoingeniería) |
+| Riesgo de Mielosupresión, Emetogenicidad, Monitoreo y Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
+La consulta de interacciones farmacológicas no devolvió resultados. Esto no demuestra que no existan interacciones.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN para LLC/SLL con hipermutación somática de IGHV carece de cualquier evidencia clínica directa (L5), obinutuzumab no está registrado en Colombia (barrera regulatoria primaria), y la identidad de puntajes entre los subtipos IGHV mutado y no mutado indica que el modelo no agrega especificidad clínica diferencial para este subgrupo molecular en particular.
+La predicción para este subtipo (puntaje 99.21%) es solo del modelo (nivel L5), sin ensayos ni publicaciones específicos. Además, faltan la indicación original, el mecanismo de acción y los datos de seguridad locales.
+
+Otra predicción del mismo fármaco, el **linfoma folicular** (rank 3, puntaje 99.18%), sí tiene respaldo sólido. Incluye el ensayo de Fase 3 completado GALLIUM (NCT01332968, n=1401) y varios estudios de Fase 1/2 con combinaciones. Esa indicación podría ser un uso ya establecido y no un reposicionamiento real. Conviene evaluarla por separado y verificar su estado regulatorio en Colombia.
 
 **Para avanzar se necesita:**
-- Gestión de acceso al mercado colombiano: registro INVIMA, importación para uso investigacional o acceso por vía compasiva
-- Búsqueda de análisis de subgrupos IGHV-mutado dentro de ensayos clínicos existentes de obinutuzumab en LLC (p. ej., ensayo CLL11), como datos secundarios que podrían elevar el nivel de evidencia
-- Datos completos de MOA y perfil de seguridad desde DrugBank y prospecto oficial FDA/EMA (resolución de Data Gaps DG001 y DG002)
-- Evaluación de si esta subindicación aporta valor clínico diferencial frente a la indicación general de LLC
-- **Prioridad alternativa recomendada:** Generar evaluación separada para **linfoma folicular** (Rango 3 en esta evaluación, TxGNN 99.18%, Nivel L1, Decisión: *Proceed with Guardrails*), que cuenta con evidencia Phase 3 robusta — ensayo pivotal GALLIUM (n=1,401) y más de 50 ensayos clínicos registrados —, y representa el candidato con mayor respaldo clínico para gestión de acceso de obinutuzumab en Colombia
+- Verificar si la LLC ya es una indicación aprobada en el prospecto de INVIMA, y así determinar si es reposicionamiento real.
+- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Obtener el mecanismo de acción y la indicación original desde DrugBank.
+- Buscar evidencia específica por subtipo IGHV (mutado o no mutado) en LLC/LLCP.
+- Corregir la duplicación de registros sanitarios en la fuente de datos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

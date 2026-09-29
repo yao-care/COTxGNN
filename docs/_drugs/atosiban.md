@@ -2,7 +2,7 @@
 layout: default
 title: Atosiban
 parent: Solo Predicción del Modelo (L5)
-nav_order: 49
+nav_order: 64
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Atosiban: Evaluación de Reposicionamiento — Datos Insuficientes
+# Atosiban: De Tocolisis en Parto Prematuro a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Atosiban (DB09059) es un fármaco registrado en DrugBank sin indicaciones originales documentadas en este Evidence Pack.
-El modelo TxGNN **no generó predicciones de nuevas indicaciones** para este compuesto en el ciclo de análisis actual.
-No se dispone de evidencia de ensayos clínicos ni literatura asociada a posibles indicaciones de reposicionamiento.
-
----
+Atosiban es un antagonista de los receptores de oxitocina y vasopresina V1A, usado en el contexto de la tocolisis (frenar el trabajo de parto prematuro).
+El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | — |
-| Nivel de Evidencia | L5 (sin estudios reales disponibles) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | El registro sanitario solo consigna «ATOSIBAN» como texto de indicación. El uso tocolítico proviene del contexto de los estudios recuperados. |
+| Nueva Indicación Predicha | Glaucoma hereditario primario |
+| Puntaje de Predicción TxGNN | 99.92% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No se Generaron Predicciones
+Atosiban antagoniza los receptores de oxitocina y de vasopresina V1A. Los datos de mecanismo de acción de DrugBank no están disponibles en este paquete, así que la descripción anterior se basa solo en la información contextual de las predicciones.
 
-El modelo TxGNN no produjo indicaciones predichas para Atosiban en este ciclo de análisis. Esto puede deberse a tres causas principales:
+No se ha establecido un vínculo mecanístico entre este mecanismo y el glaucoma hereditario primario. El puntaje del modelo es alto (99.92%), pero es solo una predicción, sin ensayos ni literatura que la sustenten. La similitud con la indicación original tampoco ha sido evaluada.
 
-**1. Datos de entrada insuficientes.** El mecanismo de acción (MOA) figura como dato faltante (DG002), lo que limita la capacidad del grafo de conocimiento para establecer conexiones biológicas relevantes entre Atosiban y enfermedades candidatas.
+Por ahora no puede afirmarse que la predicción sea razonable desde el punto de vista biológico. Requiere una revisión mecanística previa, por ejemplo si existe señalización de oxitocina o vasopresina relevante en la regulación de la presión intraocular.
 
-**2. Baja conectividad en el Knowledge Graph.** Si Atosiban tiene pocos nodos de interacción documentados (dianas moleculares, vías de señalización, fenotipos), el modelo no puede calcular puntuaciones de similitud con confianza suficiente para generar candidatos.
+## Evidencia de Ensayos Clínicos
 
-**3. Umbral de puntuación no alcanzado.** Es posible que existan predicciones candidatas que no superaron el umbral mínimo de confianza configurado para este pipeline, por lo que fueron descartadas antes de incluirse en el Evidence Pack.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción de Atosiban en este Evidence Pack. De acuerdo con la información científica conocida, Atosiban es un antagonista competitivo de los receptores de oxitocina y vasopresina (subtipo V1a), utilizado como agente tocolítico para inhibir las contracciones uterinas prematuras; sin embargo, estos datos **no están registrados en el Evidence Pack recibido** y deben ser incorporados antes de reanálisis.
+## Evidencia de Literatura
 
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Atosiban **no cuenta con registros sanitarios activos** en el mercado colombiano según los datos disponibles en este análisis. Las consultas realizadas el 2026-03-29 arrojaron cero licencias registradas.
+Hay 8 registros sanitarios en total. Los datos disponibles corresponden a estos productos únicos (varias filas del origen estaban duplicadas):
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20131614 | EVERPREM® Solución para infusión 6.75 mg/0.9 mL | Solución para infusión | ATOSIBAN |
+| 20131612 | EVERPREM® Concentrado para solución para infusión 37.5 mg/5 mL | Solución concentrada para infusión | ATOSIBAN |
+
+Ambos productos son de EVER Valinject GmbH y se administran por infusión.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack recibido carece de predicciones TxGNN, indicaciones originales documentadas y datos de mecanismo de acción, lo que impide realizar una evaluación de reposicionamiento fundamentada. No existe base suficiente para recomendar avance en ninguna dirección terapéutica.
+La predicción para glaucoma hereditario primario es de nivel L5: no tiene ensayos clínicos, literatura ni vínculo mecanístico establecido. Con solo el puntaje del modelo no hay base para avanzar.
+
+Entre las 10 principales predicciones, la única con algo de literatura indirecta es «enfermedad vascular» (L4). Esa evidencia es preclínica y sugiere que antagonizar oxitocina podría ser neutral o perjudicial, no beneficioso.
 
 **Para avanzar se necesita:**
-- Completar el dato de mecanismo de acción (MOA) consultando la DrugBank API — remediation de DG002
-- Descargar y parsear la ficha técnica/prospecto para obtener indicaciones aprobadas, advertencias y contraindicaciones — remediation de DG001
-- Re-ejecutar el pipeline TxGNN con los datos de MOA, dianas moleculares y vías actualizados para obtener predicciones de nuevas indicaciones
-- Verificar si Atosiban tiene registro vigente en INVIMA o en otras bases regulatorias latinoamericanas relevantes
+- Datos del mecanismo de acción (MOA) desde DrugBank para analizar el vínculo con el glaucoma.
+- Revisión de literatura específica sobre oxitocina o vasopresina y presión intraocular o neuroprotección retiniana.
+- Evaluación de compatibilidad de vía de administración: atosiban está registrado solo en infusión, y el glaucoma requeriría probablemente una vía ocular o local.
+- Advertencias y contraindicaciones del prospecto de INVIMA para el tamizaje de seguridad.
+- Estudios preclínicos que respalden la hipótesis antes de considerar ensayos clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 208
+nav_order: 345
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,72 +33,62 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Risdiplam es un modulador de splicing de ARNm desarrollado para el tratamiento de la Atrofia Muscular Espinal (AME), actuando sobre el gen SMN2 para aumentar los niveles de la proteína SMN funcional en el sistema neuromuscular.
-El modelo TxGNN predice que podría ser efectivo para **Acné**,
-sin embargo, **no existe ninguna evidencia clínica ni preclínica** que respalde esta dirección — ni ensayos clínicos ni publicaciones registradas apoyan esta predicción.
-
----
+Risdiplam es un fármaco de administración oral comercializado en Colombia como EVRYSDI. Los datos del registro no especifican su indicación original. Por conocimiento general, se usa en la atrofia muscular espinal.
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Atrofia Muscular Espinal (AME) |
+| Indicación Original | No especificada en los datos (el registro solo dice "RISDIPLAM"; la atrofia muscular espinal proviene de conocimiento general) |
 | Nueva Indicación Predicha | Acné |
 | Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 9 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Sin embargo, Risdiplam (conocido comercialmente como Evrysdi®) es un fármaco de pequeña molécula desarrollado por Roche para la Atrofia Muscular Espinal (AME). Su mecanismo central consiste en modificar el splicing del pre-ARNm de SMN2, promoviendo la inclusión del exón 7 y aumentando la producción de la proteína SMN de longitud completa, que es crítica para la supervivencia de las neuronas motoras espinales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción, y la lista de indicaciones originales está vacía. Por conocimiento general, risdiplam es un modulador del empalme del pre-ARNm de SMN2, usado en la atrofia muscular espinal. Los datos proporcionados no permiten establecer un vínculo mecanístico con el acné.
 
-El acné vulgar, en cambio, tiene una fisiopatología completamente ajena a este mecanismo: sobreactivación de las glándulas sebáceas impulsada por andrógenos, queratinización anormal del folículo piloso, proliferación excesiva de *Cutibacterium acnes* y una cascada inflamatoria mediada por IL-1α, TNF-α e IL-8. No existe ninguna vía molecular publicada que conecte los niveles de proteína SMN con la secreción de sebo, la señalización de receptores androgénicos ni la respuesta inmune frente a *C. acnes*.
+El acné depende principalmente de la hiperqueratinización folicular, la producción de sebo, la colonización por *Cutibacterium acnes* y la inflamación. Risdiplam no tiene una conexión establecida con ninguna de estas vías.
 
-La puntuación elevada de TxGNN (0.9945) muy probablemente es un **falso positivo estadístico** originado en la co-ocurrencia de términos como "inflamación" en el grafo de conocimiento, y no refleja una relación biológica real. La conexión mecanística entre Risdiplam y el acné se considera extremadamente débil y sin sustento científico actual.
-
----
+El puntaje de TxGNN (0.9945) es solo una predicción basada en un grafo de conocimiento y no constituye evidencia clínica. Su base no se puede interpretar con estos datos. El puntaje alto podría deberse a artefactos de la topología del grafo, ya que el fármaco no tiene indicaciones originales ni mecanismo anotados que anclen la predicción. La similitud con la indicación original y la compatibilidad de vías de administración quedan pendientes de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Risdiplam no cuenta con registros sanitarios activos en Colombia. La consulta a la base regulatoria no arrojó ninguna licencia registrada para este principio activo.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20197087 | EVRYSDI (F. HOFFMANN - LA ROCHE LTD.) | Polvo para reconstituir a solución oral | Solo aparece el texto "RISDIPLAM" (sin indicación detallada) |
 
----
+Los datos traen 5 registros idénticos del mismo número sanitario (20197087) y reportan 9 registros en total. Por eso se muestra una sola fila. La única vía de administración registrada es la oral.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece por completo de respaldo experimental o clínico (Nivel L5), y el análisis mecanístico indica que la conexión entre el mecanismo de acción de Risdiplam —modulación del splicing de SMN2 en el sistema neuromuscular— y la fisiopatología del acné es biológicamente incoherente. La puntuación alta de TxGNN es casi con certeza un artefacto estadístico del grafo de conocimiento por co-ocurrencia de vocabulario inflamatorio, no una señal de reposicionamiento real.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre risdiplam y el acné. El puntaje alto de TxGNN no compensa esta falta de respaldo.
 
 **Para avanzar se necesita:**
-- Identificación de cualquier vía biológica compartida entre la proteína SMN y la patología del acné (actualmente inexistente en la literatura publicada)
-- Estudios preclínicos in vitro o in vivo que demuestren actividad de Risdiplam en modelos de acné
-- Datos completos de MOA y perfil de seguridad (actualmente ausentes en el Evidence Pack)
-- Registro sanitario en Colombia como requisito previo a cualquier evaluación clínica local
+- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), que actualmente bloquea el tamizaje de seguridad
+- Completar el mecanismo de acción desde DrugBank y analizar si existe un vínculo real con la fisiopatología del acné
+- Confirmar la indicación original aprobada en Colombia
+- Buscar estudios preclínicos o de mecanismo que justifiquen la hipótesis
+- Evaluar la compatibilidad de la vía de administración (oral) con las formulaciones habituales para acné
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

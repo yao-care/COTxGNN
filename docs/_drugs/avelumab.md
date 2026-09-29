@@ -2,7 +2,7 @@
 layout: default
 title: Avelumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 52
+nav_order: 67
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# AVELUMAB: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+# Avelumab: De Indicación No Especificada en el Registro a Tumor Asociado al Herpesvirus Humano 8
 
 ## Resumen en Una Frase
 
-AVELUMAB (DB11945) es un fármaco registrado en DrugBank pero sin indicaciones originales ni datos de mecanismo de acción disponibles en este Evidence Pack.
-El modelo TxGNN **no generó indicaciones predichas** para este candidato en la versión actual del pipeline.
-Sin indicaciones predichas ni datos de seguridad validados, no es posible completar la evaluación de reposicionamiento en este momento.
-
----
+Avelumab es un anticuerpo anti-PD-L1 comercializado en Colombia como BAVENCIO®. El registro sanitario solo indica "AVELUMAB" y no detalla la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **tumores asociados al herpesvirus humano 8** (como el sarcoma de Kaposi), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa solo en el modelo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos disponibles |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 (sin estudios reales) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "AVELUMAB") |
+| Nueva Indicación Predicha | Tumor asociado al herpesvirus humano 8 |
+| Puntaje de Predicción TxGNN | 99.97% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 2 (ambos con el mismo número, 20131917) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No Es Posible Completar la Predicción
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, avelumab es un anticuerpo anti-PD-L1, es decir, una inmunoterapia que bloquea el eje PD-1/PD-L1 para reactivar la respuesta inmune contra las células tumorales.
 
-El Evidence Pack de AVELUMAB presenta dos vacíos críticos que impiden el análisis estándar de reposicionamiento:
+La hipótesis mecanística es que el agotamiento inmunológico por el eje PD-1/PD-L1 es plausible en tumores causados por virus, como el sarcoma de Kaposi. En ese escenario, bloquear PD-L1 podría restaurar la respuesta inmune contra el tumor.
 
-**1. Ausencia de indicaciones predichas:** El campo `predicted_indications` está vacío. El modelo TxGNN no generó candidatos de reposicionamiento para este fármaco en el ciclo de análisis actual (corte: 2026-04-20). Esto puede deberse a umbrales de score no alcanzados o a limitaciones en el grafo de conocimiento para este nodo farmacológico.
+Esta relación es solo una inferencia general. No se suministraron ensayos, literatura ni datos de expresión de PD-L1 para este tumor, y la similitud con la indicación original no se pudo evaluar. La predicción se apoya únicamente en el puntaje del grafo de conocimiento.
 
-**2. Mecanismo de acción no disponible (DG002 — Severidad Alta):** Sin datos de MOA no es posible argumentar la plausibilidad biológica de ninguna indicación potencial, ni establecer relación entre la indicación original y nuevas dianas terapéuticas.
+## Evidencia de Ensayos Clínicos
 
-Adicionalmente, los datos regulatorios de INVIMA confirmaron **cero registros sanitarios** en Colombia, y los datos de seguridad (advertencias, contraindicaciones) son igualmente inaccesibles en esta versión del pack (DG001 — Severidad Bloqueante).
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-AVELUMAB no cuenta con ningún registro sanitario activo en Colombia al momento del corte de datos (2026-04-20). No se encontraron licencias en la consulta a INVIMA.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20131917 | BAVENCIO® (MERCK S.A.) | Solución para infusión | AVELUMAB (sin texto de indicación detallado) |
 
----
+El Evidence Pack lista dos registros con el mismo número y los mismos datos, por lo que aquí se muestra una sola vez.
+
+## Citotoxicidad
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en este Evidence Pack.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El pipeline TxGNN no produjo indicaciones predichas para AVELUMAB, y los datos de MOA y seguridad presentan vacíos bloqueantes que impiden cualquier análisis de reposicionamiento fundamentado.
+La predicción tiene un puntaje alto (99.97%), pero es solo computacional (L5), sin ensayos ni literatura, y la indicación aprobada localmente no está detallada. No hay base suficiente para avanzar.
 
 **Para avanzar se necesita:**
-
-- **[DG001 — Bloqueante]** Obtener y parsear el prospecto oficial (PDF INVIMA/FDA/EMA) para extraer advertencias y contraindicaciones
-- **[DG002 — Alto]** Consultar DrugBank API para recuperar el mecanismo de acción completo (targets, pathways, categorías farmacológicas)
-- **Re-ejecutar el modelo TxGNN** una vez que el grafo de conocimiento incluya datos actualizados de AVELUMAB, o revisar si el nodo del fármaco está correctamente mapeado en el KG
-- Verificar si AVELUMAB tiene sinónimos o nombres alternativos que puedan estar generando resultados bajo otro identificador en el pipeline
+- Obtener el prospecto de INVIMA (advertencias y contraindicaciones) para poder hacer el tamizaje de seguridad.
+- Consultar el mecanismo de acción en DrugBank.
+- Buscar ensayos clínicos y literatura sobre avelumab en sarcoma de Kaposi y otros tumores asociados a HHV-8.
+- Reunir datos de expresión de PD-L1 en estos tumores.
+- Como referencia, otras predicciones del mismo Evidence Pack tienen un vínculo más plausible: el carcinoma urotelial de uretra prostática (L4) y el carcinoma de células transicionales sarcomatoide de pelvis renal (L3). Pueden ser candidatas más prometedoras para priorizar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

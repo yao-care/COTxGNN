@@ -2,7 +2,7 @@
 layout: default
 title: Acetato De Hidrocortisona
 parent: Solo Predicción del Modelo (L5)
-nav_order: 19
+nav_order: 21
 evidence_level: L5
 indication_count: 0
 ---

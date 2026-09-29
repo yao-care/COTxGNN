@@ -2,7 +2,7 @@
 layout: default
 title: Nifurtimox
 parent: Solo Predicción del Modelo (L5)
-nav_order: 178
+nav_order: 294
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Enfermedad de Chagas a Analbuminemia Congénita
+# Nifurtimox: De Indicación No Detallada en el Registro a Analbuminemia Congénita
 
 ## Resumen en Una Frase
 
-Nifurtimox es un fármaco antiparasitario utilizado para el tratamiento de la Enfermedad de Chagas (tripanosomiasis americana) y la tripanosomiasis africana, cuyo mecanismo conocido consiste en la activación de nitroredutasas que generan especies reactivas de oxígeno (ROS) con efecto citotóxico sobre los parásitos. El modelo TxGNN predice como primera indicación la **analbuminemia congénita**, con un puntaje de confianza del **99.58%**; sin embargo, no existe ningún ensayo clínico ni publicación científica que respalde esta asociación, y el análisis mecanístico la identifica como **probable falso positivo del modelo**. En total, las **7 indicaciones predichas** presentan nivel de evidencia L5 (solo predicción computacional), sin respaldo experimental ni clínico para ninguna de ellas.
+Nifurtimox es un antiprotozoario del grupo de los nitrofuranos. En Colombia está registrado como LAMPIT® (Bayer), pero el texto del registro no detalla su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Es una predicción puramente computacional, sin un vínculo mecanístico identificable.
 
 ---
 
@@ -41,67 +43,54 @@ Nifurtimox es un fármaco antiparasitario utilizado para el tratamiento de la En
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Chagas (Tripanosomiasis Americana) |
-| Nueva Indicación Predicha | Analbuminemia Congénita |
+| Indicación Original | No detallada en el registro (el campo solo dice «NIFURTIMOX») |
+| Nueva Indicación Predicha | Analbuminemia congénita |
 | Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (2 números de registro únicos, cada uno aparece duplicado) |
 | Decisión Recomendada | Hold |
 
 ---
 
-## ¿Por Qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack (brecha de datos identificada como DG002). No obstante, a partir del análisis mecanístico contenido en los razonamientos de reposicionamiento, se sabe que Nifurtimox es un compuesto nitrofurano que actúa mediante la **activación de nitroredutasas** presentes en los parásitos, generando radicales libres y ROS que producen daño oxidativo al ADN y otras macromoléculas del parásito, con efecto citotóxico selectivo sobre *Trypanosoma cruzi* y *T. brucei*.
+**No se identificó un vínculo mecanístico que la respalde.** Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Nifurtimox es un nitrofurano antiprotozoario cuya actividad depende de la activación por nitrorreductasas del parásito y del estrés oxidativo que esta genera.
 
-La analbuminemia congénita es una enfermedad genética rara causada por mutaciones en el gen *ALB*, que resulta en una deficiencia severa en la síntesis de albúmina hepática. **No existe ninguna intersección bioquímica conocida** entre la vía ROS/nitroredutasa de Nifurtimox y las vías de síntesis de proteínas plasmáticas. El propio análisis interno del paquete de evidencia señala que el alto puntaje del modelo (0.9958) es sospechoso de derivar de **conexiones indirectas en el grafo de conocimiento** entre nodos de metabolismo de proteínas plasmáticas, constituyendo un desplazamiento de nodos por asociación indirecta (*indirect node linking bias*).
+La analbuminemia congénita es un defecto genético raro de la síntesis de albúmina. No hay una razón farmacológica plausible por la cual un antiparasitario con este mecanismo pueda corregirla. El puntaje de 0.996 refleja solo la similitud dentro del grafo de conocimiento, no biología demostrada.
 
-En conclusión, aunque TxGNN asigna un puntaje extremadamente alto a esta predicción, la evaluación mecanística no sustenta ninguna relación plausible entre Nifurtimox y la analbuminemia congénita. Este caso ilustra la importancia de la interpretación crítica humana como capa de validación posterior al modelo computacional.
-
----
-
-## Resumen Comparativo de Todas las Indicaciones Predichas
-
-Dado que la totalidad de las indicaciones predichas presentan nivel L5 sin evidencia externa, se incluye a continuación un panorama comparativo de las 7 predicciones para facilitar la priorización:
-
-| Rango | Indicación | Puntaje TxGNN | Recomendación | Evaluación Mecanística |
-|-------|-----------|:------------:|:-------------:|----------------------|
-| 1 | Analbuminemia congénita | 99.58% | Hold | Falso positivo probable — sin intersección MOA/ALB |
-| 2 | Hiperamylasemia | 99.47% | Hold | Falso positivo probable — toxicidad GI como confundidor en KG |
-| 3 | Síndrome de hiperviscosidad policlonal | 99.47% | Hold | Contaminación probable por nodo inflamatorio de Chagas |
-| 4 | Incompatibilidad de grupo sanguíneo | 99.24% | Hold | Artefacto de agrupamiento en grafo — sin mecanismo aplicable |
-| 5 | Gamapatía monoclonal | 99.16% | Research Question | Hipótesis ROS → citotoxicidad en células plasmáticas; requiere datos preclínicos |
-| 6 | Enfermedad hematológica premaligna | 99.11% | Research Question | Hipótesis ROS → toxicidad selectiva en células con defectos de reparación de ADN |
-| 7 | Enfermedad hematológica con neuropatía periférica | 99.06% | Hold | ⚠️ Inversión de efecto adverso — Nifurtimox **causa** neuropatía periférica |
-
-> **Nota de seguridad crítica (Rango 7):** La indicación de rango 7 representa un caso de *adverse effect inversion* — el modelo confundió el nodo de efecto adverso de Nifurtimox (neuropatía periférica documentada con uso prolongado) con una asociación terapéutica. Utilizar Nifurtimox en esta indicación conllevaría un riesgo significativo de **inducir o agravar** la neuropatía periférica. Este caso debe marcarse como falso positivo por contaminación de efectos adversos en el grafo de conocimiento.
+Por ello, la predicción debe leerse como una hipótesis del modelo sin sustento clínico, preclínico ni bibliográfico en los datos recibidos.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para ninguna de las 7 indicaciones predichas. (Búsqueda realizada en ClinicalTrials.gov e ICTRP el 2026-04-20.)
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para ninguna de las 7 indicaciones predichas. (Búsqueda realizada en PubMed el 2026-04-20.)
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
 ## Información de Mercado en Colombia
 
-Nifurtimox **no está comercializado en Colombia**. La consulta al INVIMA realizada el 2026-03-29 no arrojó ningún registro sanitario activo. La adquisición actual se realiza por vía de importación directa o a través de programas de acceso especial (Bayer AG es el fabricante de Lampit®, el producto de referencia).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20215184 | LAMPIT® 30MG COMPRIMIDOS (Bayer AG) | Tableta | NIFURTIMOX (sin detalle de indicación) |
+| 20215915 | LAMPIT® 120MG (Bayer AG) | Tableta | NIFURTIMOX (sin detalle de indicación) |
+
+Nota: los datos traen 4 entradas, pero corresponden a solo 2 números de registro; cada uno aparece dos veces.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad completa.
+Consultar el prospecto para información de seguridad.
 
-> **Alerta prioritaria:** El análisis de la indicación de rango 7 documenta que Nifurtimox es causa conocida de **neuropatía periférica sensitiva y motora** con uso prolongado (especialmente >90 días), efecto adverso de relevancia regulatoria señalado por la FDA. Cualquier evaluación clínica futura en indicaciones que involucren el sistema nervioso debe considerar este riesgo como limitante principal.
+Como dato de contexto, el propio análisis de la predicción señala que la neuropatía periférica es un efecto adverso conocido de nifurtimox. Esto es relevante para cualquier uso en condiciones hematológicas asociadas a neuropatía.
 
 ---
 
@@ -110,14 +99,16 @@ Consultar el prospecto para información de seguridad completa.
 **Decisión: Hold**
 
 **Justificación:**
-Todas las 7 indicaciones predichas por TxGNN presentan nivel de evidencia L5, sin respaldo en ensayos clínicos ni literatura científica para ninguna de ellas. El análisis mecanístico identifica 5 de las 7 predicciones como probables falsos positivos derivados de artefactos en el grafo de conocimiento (bias por nodos indirectos, contaminación por efectos adversos, agrupamiento de nodos de enfermedades hematológicas). Solo las indicaciones de gamapatía monoclonal (rango 5) y enfermedad hematológica premaligna (rango 6) presentan una hipótesis mecanística teóricamente plausible vía citotoxicidad por ROS, catalogadas como "Research Question" pendientes de validación preclínica.
+No existe ningún ensayo clínico ni publicación que respalde la predicción (nivel L5), y no se identificó un mecanismo plausible entre nifurtimox y la analbuminemia congénita. Las otras seis predicciones (hiperamilasemia, síndrome de hiperviscosidad policlonal, incompatibilidad de grupo sanguíneo, gammapatía monoclonal, enfermedad hematológica premaligna y enfermedad hematológica asociada a neuropatía periférica) también tienen nivel L5, tampoco tienen evidencia y quedan en Hold.
 
 **Para avanzar se necesita:**
-- Obtener datos de MOA completos desde DrugBank (DG002) para confirmar el perfil de actividad ROS/nitroredutasa aplicable a células hematológicas
-- Realizar estudios de citotoxicidad *in vitro* en líneas celulares de células plasmáticas (para rango 5) y líneas de MDS/smoldering myeloma (para rango 6) como primer paso de validación preclínica
-- Evaluar el perfil de hematotoxicidad de Nifurtimox antes de cualquier exploración en indicaciones hematológicas, dado el riesgo de mielosupresión potencial
-- Verificar mecanismos de acceso regulatorio al INVIMA para investigación clínica, ya que el fármaco no está comercializado en Colombia
-- Marcar las predicciones de rangos 1–4 y 7 como **candidatas a falso positivo** para retroalimentación al pipeline de TxGNN, con especial énfasis en el caso de rango 7 como ejemplo de *adverse effect node contamination*
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad.
+- Completar el mecanismo de acción desde DrugBank para poder evaluar un vínculo mecanístico.
+- Aclarar la indicación aprobada en los registros de INVIMA, ya que el texto solo repite el nombre del fármaco.
+- Realizar una búsqueda dirigida de literatura y ensayos, incluidos estudios preclínicos, antes de reconsiderar la hipótesis.
+- Depurar los registros duplicados en los datos de mercado.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

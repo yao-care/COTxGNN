@@ -2,7 +2,7 @@
 layout: default
 title: Iohexol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 139
+nav_order: 227
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,41 +29,37 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-El skill de TxGNN cubre flujos de entrenamiento y despliegue. La tarea actual es generación de informe desde un Evidence Pack, regida por el prompt v5 del sistema. Procedo directamente.
-
----
-
-# IOHEXOL: De Agente de Contraste Radiológico a Insomnio
+# Iohexol: De Medio de Contraste Radiográfico a Insomnio
 
 ## Resumen en Una Frase
 
-Iohexol es un agente de contraste yodado no iónico utilizado exclusivamente en procedimientos de diagnóstico por imagen (tomografía computarizada, angiografía, mielografía), sin indicación terapéutica aprobada en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Insomnio**, con un puntaje de **99.87%**.
-Sin embargo, esta predicción cuenta con **0 ensayos clínicos** y **0 publicaciones** de respaldo, y representa con alta probabilidad un falso positivo del modelo.
+Iohexol es un medio de contraste radiográfico yodado no iónico, usado como ayuda para obtener imágenes diagnósticas.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+La predicción es solo computacional y no tiene sustento mecanístico ni clínico.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Sin indicación terapéutica aprobada en Colombia |
+|------|------|
+| Indicación Original | IOHEXOL (el texto del registro solo repite el nombre del principio activo; por su naturaleza, medio de contraste radiográfico) |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 6 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción provenientes de DrugBank. No obstante, iohexol es un agente de contraste yodado no iónico ampliamente conocido: su mecanismo es **estrictamente físico**, basado en la atenuación de rayos X para mejorar la visualización de estructuras anatómicas en estudios de imagen. No posee actividad farmacológica sobre el sistema nervioso central, no se une a receptores del sueño (GABA-A, histamina H₁, orexina, melatonina) ni modula ningún neurotransmisor relacionado con el ciclo sueño-vigilia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, iohexol es un agente de contraste yodado no iónico, farmacológicamente inerte, que no tiene actividad conocida sobre receptores del sistema nervioso central. DrugBank tampoco lista indicaciones originales para este fármaco.
 
-El elevado puntaje TxGNN (0.9987) es un **falso positivo típico de redes neuronales sobre grafos de conocimiento**: iohexol aparece en una gran variedad de contextos clínicos (medición de tasa de filtración glomerular, procedimientos intervencionistas guiados por imagen, estudios cardiovasculares), lo que genera un nodo de muy alta conectividad en el grafo. Esta conectividad infla artificialmente la puntuación sin reflejar ningún vínculo biológico real con el insomnio.
+Por ello, **no se identifica un vínculo mecanístico** entre iohexol y el insomnio, ni una vía relacionada con el sueño. El puntaje de 99.87% proviene únicamente de asociaciones del grafo de conocimiento y no de un efecto farmacológico demostrado. La relación entre la indicación original (diagnóstico por imagen) y el insomnio (trastorno del sueño) es inexistente desde el punto de vista terapéutico.
 
-En conclusión, no existe ningún fundamento mecanístico que justifique explorar iohexol como tratamiento del insomnio. La ausencia total de ensayos clínicos y literatura específica para esta indicación confirma que la predicción carece completamente de sustento empírico.
+Un puntaje alto en TxGNN no equivale a plausibilidad biológica. Sin evidencia adicional, esta predicción debe considerarse probablemente un artefacto del modelo.
 
 ---
 
@@ -79,6 +75,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20139023 | IOHEXOL INYECCION 300MG/ML (Unique Pharmaceutical Laboratories) | Solución inyectable | IOHEXOL |
+
+Nota: los datos reportan 6 registros sanitarios en total, pero el detalle disponible muestra un único número de registro (20139023), repetido. Aquí se presenta una sola vez.
+
+---
+
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
@@ -90,13 +96,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Iohexol es un agente de diagnóstico sin actividad farmacológica CNS demostrada; no existe ninguna base biológica que justifique su uso en el tratamiento del insomnio, y la evidencia disponible es exclusivamente la predicción del modelo (L5), sin respaldo en ensayos clínicos ni publicaciones. Adicionalmente, la segunda indicación predicha —**ansiedad** (rank 2, score 99.24%)— sigue el mismo patrón de falso positivo: los 6 ensayos clínicos identificados tienen todos relevancia Grado C (iohexol fue utilizado únicamente como herramienta de medición de GFR o medio de contraste para guía de imagen, no como agente terapéutico), y la única mención de ansiedad en la literatura corresponde a un evento adverso reportado *tras* la administración de iohexol, no a un efecto terapéutico.
+No existe ningún ensayo clínico ni publicación que respalde el uso de iohexol en insomnio, y no hay mecanismo plausible: es un agente de contraste inerte. La predicción (nivel L5) se basa solo en el modelo.
 
-**Para avanzar se necesitaría:**
-- Identificar un mecanismo farmacológico activo sobre el SNC (actualmente inexistente para iohexol)
-- Evidencia de efecto terapéutico directo sobre el insomnio en estudios preclínicos o estudios de mecanismo
-- Revisión de seguridad para administración crónica o sistémica (iohexol actualmente se usa solo de forma aguda y puntual como contraste)
-- Corrección del sesgo de alta conectividad nodal en el modelo TxGNN para evitar falsos positivos en agentes de diagnóstico
+También se evaluó la segunda predicción del modelo, **ansiedad** (puntaje 99.25%). Los 5 ensayos y 6 publicaciones recuperados mencionan iohexol solo como marcador de tasa de filtración glomerular, contraste procedimental o contexto de efectos adversos, y ninguno evalúa iohexol como tratamiento. Tampoco sustenta un reposicionamiento.
+
+**Para avanzar se necesita:**
+- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones.
+- Consultar DrugBank para obtener el mecanismo de acción.
+- Identificar alguna hipótesis biológica que conecte iohexol con el sueño. Sin ella, se recomienda no invertir más recursos en esta predicción.
+- Verificar el conteo y el detalle de los 6 registros sanitarios en INVIMA.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

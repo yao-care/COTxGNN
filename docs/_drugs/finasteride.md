@@ -2,7 +2,7 @@
 layout: default
 title: Finasteride
 parent: Solo Predicción del Modelo (L5)
-nav_order: 123
+nav_order: 200
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,17 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-Usando el skill **txgnn-pipeline** para orientar la generación del informe de reposicionamiento, y aplicando el formato del sistema (v5) al Evidence Pack de FINASTERIDE. A continuación el informe completo:
-
----
-
-# Finasteride: De Alopecia Androgénica / Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita Tipo Ambras
+# Finasterida: De Indicación No Especificada en el Registro a Hipertricosis Universal Congénita Tipo Ambras
 
 ## Resumen en Una Frase
 
-Finasteride es un inhibidor de la 5α-reductasa utilizado principalmente para el tratamiento de la hiperplasia prostática benigna (HPB) y la alopecia androgénica masculina, actuando mediante la reducción de dihidrotestosterona (DHT).
-El modelo TxGNN predice que podría ser efectivo para la **Hipertricosis Universal Congénita Tipo Ambras (Síndrome de Ambras)**,
-con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección. La plausibilidad mecanística es extremadamente débil, ya que el síndrome de Ambras es una enfermedad genética estructural sin dependencia androgénica.
+Finasterida es un inhibidor de la 5-alfa reductasa tipo II, que reduce la dihidrotestosterona (DHT) y se usa en trastornos dependientes de andrógenos. En Colombia está comercializada, pero el registro sanitario no detalla su indicación aprobada.
+El modelo TxGNN predice que podría ser efectiva para **hipertricosis universal congénita tipo Ambras**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Es una predicción puramente computacional.
 
 ---
 
@@ -47,49 +42,65 @@ con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperplasia prostática benigna / Alopecia androgénica masculina (sin registro en Colombia) |
-| Nueva Indicación Predicha | Hipertricosis Universal Congénita Tipo Ambras |
+| Indicación Original | No especificada (el texto del registro solo repite "FINASTERIDE") |
+| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Finasteride actúa como inhibidor selectivo de la enzima 5α-reductasa tipo II, bloqueando la conversión de testosterona en dihidrotestosterona (DHT). La DHT es el andrógeno activo que miniaturiza los folículos pilosos en la alopecia androgénica y que estimula el crecimiento del tejido prostático en la HPB. Al reducir los niveles séricos y tisulares de DHT en aproximadamente un 70%, finasteride interrumpe estas vías andrógeno-dependientes. Sin embargo, los datos de mecanismo de acción completo están actualmente marcados como pendientes en la fuente DrugBank (Data Gap), por lo que el análisis se basa en el conocimiento farmacológico establecido.
+Finasterida inhibe la 5-alfa reductasa tipo II, la enzima que convierte la testosterona en DHT. Por eso es relevante en el crecimiento del cabello dependiente de andrógenos. La base de datos no trae un campo formal de mecanismo de acción (MOA), por lo que esta descripción proviene del análisis mecanístico incluido en el paquete de evidencia.
 
-La conexión mecanística entre finasteride y el Síndrome de Ambras es, no obstante, extremadamente débil. El síndrome de Ambras (hipertricosis universalis congenita tipo Ambras) está causado por mutaciones en los genes TRPS1/EXT1, que producen una alteración estructural y genética del desarrollo folicular completamente independiente de señales androgénicas. Los folículos afectados en esta condición no responden a DHT, por lo que la inhibición de su síntesis no tendría efecto terapéutico relevante.
+La dirección de la predicción (reducir el exceso de vello) es plausible en teoría. Sin embargo, el síndrome de Ambras es un trastorno congénito que en gran parte no depende de andrógenos. Se asocia con reordenamientos cromosómicos en 8q22 que afectan al gen *TRPS1*. Por lo tanto, el vínculo mecanístico es **especulativo** y no hay datos que lo respalden.
 
-La discordancia entre el alto puntaje del modelo (99.99%) y la baja plausibilidad biológica indica que TxGNN ha identificado una correlación topológica en el grafo de conocimiento —ambas condiciones involucran el folículo piloso— sin que exista una relación causal real. Este es un caso ilustrativo de las limitaciones de los modelos de predicción basados en grafos cuando la similitud ontológica no refleja similitud mecanística.
+El puntaje alto de TxGNN (99.99%) refleja la cercanía en el grafo de conocimiento entre finasterida y los trastornos del cabello. No constituye evidencia clínica.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para la indicación Hipertricosis Universal Congénita Tipo Ambras.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la indicación Hipertricosis Universal Congénita Tipo Ambras.
+Actualmente no hay literatura relacionada disponible.
+
+---
+
+## Otras Predicciones del Modelo (Contexto)
+
+| # | Indicación Predicha | Puntaje | Evidencia | Decisión |
+|---|------|------|------|------|
+| 2 | Hipertricosis (enfermedad) | 99.99% | L4: 1 ensayo (Fase 4, sin relación directa con finasterida) y 4 revisiones generales de trastornos del cabello | Pregunta de investigación |
+| 3 | Malformación con componente dental/periodontal | 99.99% | L5: 20 artículos sobre periodontitis, ninguno menciona finasterida | Hold |
+| 4 | Síndrome con malformación de Dandy-Walker | 99.99% | L5: sin datos | Hold |
+| 5 | Anomalía genética aislada del tallo piloso | 99.99% | L5: sin datos | Hold |
+| 6 | Tricomegalia familiar aislada | 99.15% | L5: sin datos | Hold |
+
+Ninguna de estas predicciones tiene estudios que evalúen finasterida directamente. La hipertricosis es la única con algo de contexto, pero es indirecto. Por definición no depende de andrógenos y el ensayo recuperado (NCT04293822) evalúa cetirizina tópica frente a minoxidil en alopecia androgenética.
 
 ---
 
 ## Información de Mercado en Colombia
 
-Finasteride no cuenta con registros sanitarios vigentes en Colombia (0 registros encontrados en la consulta INVIMA).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA (Hetero Labs Limited) | Tableta recubierta | Solo figura "FINASTERIDE" (sin texto de indicación) |
+
+**Nota:** el sistema reporta 20 registros en total, pero las 5 filas disponibles corresponden todas al mismo número (20135117). Solo se pudo verificar un registro distinto. La vía de administración es oral (tableta recubierta y tableta cubierta con película).
 
 ---
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-> **Nota:** Los datos de advertencias clave, contraindicaciones e interacciones farmacológicas no están disponibles en el Evidence Pack actual (marcados como Data Gap). Se recomienda obtener el prospecto oficial como paso previo a cualquier evaluación clínica.
 
 ---
 
@@ -98,13 +109,18 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN obtiene un puntaje extremadamente alto (99.99%) pero carece de toda evidencia clínica o preclínica de soporte (nivel L5), y el mecanismo de acción de finasteride —inhibición de DHT— no tiene relevancia biológica para el Síndrome de Ambras, que es una enfermedad genética estructural no andrógeno-dependiente. La predicción refleja correlación ontológica, no mecanismo farmacológico.
+La predicción principal no tiene ensayos clínicos ni literatura (nivel L5), y el vínculo mecanístico es especulativo porque el síndrome de Ambras no depende de andrógenos. Un puntaje alto del modelo no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Identificar una hipótesis mecanística biológicamente plausible que vincule la inhibición de 5α-reductasa (o metabolitos como allopregnanolona) con los genes TRPS1/EXT1 o la vía de desarrollo folicular implicada en el síndrome de Ambras
-- Datos de estudios preclínicos (in vitro / modelos animales) en hipertricosis congénita de base genética
-- Confirmar el MOA completo de finasteride vía consulta a DrugBank API (actualmente Data Gap)
-- Obtener el prospecto oficial (INVIMA / TFDA) para evaluación completa del perfil de seguridad antes de considerar cualquier avance
+- Descargar y revisar el prospecto de INVIMA para completar advertencias, contraindicaciones e indicación aprobada
+- Confirmar el MOA en DrugBank (DB01216)
+- Depurar los registros sanitarios duplicados para contar los 20 registros reales
+- Buscar evidencia mecanística o reportes de casos de inhibidores de 5-alfa reductasa en hipertricosis congénita
+- Evaluar como línea alternativa la hipertricosis general (rango 2) y trastornos del cabello dependientes de andrógenos, donde el mecanismo sí es aplicable
+
+---
+
+*Este informe es solo para referencia de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Valsartan
 parent: Evidencia Moderada (L3-L4)
-nav_order: 234
+nav_order: 402
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,75 +29,70 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Valsartan: De Hipertensión Arterial a Enfermedad Renal Hipertensiva Maligna
+# Valsartán: De Valsartán y Diuréticos (combinación registrada) a Enfermedad Renal Hipertensiva Maligna
 
 ## Resumen en Una Frase
 
-Valsartan es un bloqueador selectivo del receptor de angiotensina II tipo 1 (ARB), ampliamente utilizado a nivel mundial para el tratamiento de la hipertensión arterial, la insuficiencia cardíaca con fracción de eyección reducida y la cardioprotección post-infarto de miocardio.
-El modelo TxGNN predice que podría ser efectivo para la **Enfermedad Renal Hipertensiva Maligna** (indicación #1 por puntaje), con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta dirección.
-Cabe destacar que la indicación **Cardiopatía Pulmonar Crónica** (rank 6) presenta la evidencia más sólida del análisis completo: **7 ensayos clínicos** y **20 publicaciones** (Nivel L2, recomendación: *Proceed with Guardrails*).
-
----
+Valsartán está registrado en Colombia como componente de combinaciones con diuréticos (por ejemplo, Diovan HCT).
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**,
+pero actualmente hay **0 ensayos clínicos** y **1 publicación preclínica** (sobre otro fármaco, avosentán), por lo que la evidencia directa es muy limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial (ARB de clase global; sin registro en base de datos local) |
-| Nueva Indicación Predicha | Enfermedad Renal Hipertensiva Maligna |
+| Indicación Original | Valsartán y diuréticos |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos formales sobre el mecanismo de acción en la fuente de datos consultada. Sin embargo, Valsartan es un antagonista selectivo del receptor AT1 de angiotensina II, cuya acción principal consiste en interrumpir el eje renina-angiotensina-aldosterona (RAAS): al bloquear el AT1, inhibe la vasoconstricción, la secreción de aldosterona, la fibrosis renal mediada por TGF-β y la proliferación de células mesangiales. Su eficacia en hipertensión, insuficiencia cardíaca y nefroprotección ha sido documentada en múltiples ensayos controlados aleatorios de gran escala (IDNT, RENAAL, Val-HeFT, PARADIGM-HF).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, valsartán es un bloqueador del receptor de angiotensina II tipo 1 (ARA-II), su uso en hipertensión está establecido, y mecanísticamente podría ser aplicable a la enfermedad renal hipertensiva maligna.
 
-La enfermedad renal hipertensiva maligna se caracteriza por una activación aberrante y autosostenida del RAAS: la hipertensión maligna genera isquemia renal que eleva renina y angiotensina II, perpetuando un ciclo de daño vascular (necrosis fibrinoide), proteinuria y deterioro progresivo de la función renal. Mecanísticamente, el bloqueo AT1 por valsartan podría interrumpir este ciclo al reducir la presión intraglomerular, limitar la fibrosis y disminuir la proteinuria, efectos que los ARBs han demostrado en nefropatía diabética e hipertensiva general.
+La hipertensión maligna y la nefropatía hipertensiva se asocian con una sobreactivación del sistema renina-angiotensina-aldosterona (SRAA). Bloquear el receptor AT1 es, por tanto, un vínculo biológicamente plausible con la indicación original relacionada con la presión arterial.
 
-El puntaje TxGNN de 99.97% refleja una alta coherencia mecanística entre el perfil farmacológico de valsartan y esta entidad clínica. No obstante, los ensayos IDNT y RENAAL evaluaron nefropatía hipertensiva general, no la forma maligna como entidad diferenciada, y la única publicación disponible en la búsqueda estudia avosentan (antagonista de endotelina) en un modelo animal de hipertensión maligna, sin datos directos sobre valsartan. La brecha entre coherencia mecanística y evidencia clínica directa justifica una evaluación cautelosa.
-
----
+Sin embargo, el vínculo es **indirecto**. La única publicación recuperada evaluó avosentán, un antagonista de endotelina, en ratas transgénicas con nefropatía hipertensiva. No evaluó valsartán. Por eso la plausibilidad se apoya en el mecanismo de clase y no en datos propios del fármaco.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Experimental (animal) | Pharmacological Research | En ratas transgénicas con sobreexpresión de renina/angiotensinógeno humano, avosentan mostró efecto nefroprotector contra nefropatía hipertensiva a dosis sin retención de líquidos; respalda indirectamente que el bloqueo del RAAS es relevante en hipertensión renal maligna, aunque el fármaco estudiado **no es valsartan** |
+| [24368192](https://pubmed.ncbi.nlm.nih.gov/24368192/) | 2014 | Estudio preclínico (otro fármaco: avosentán) | Pharmacological Research | En ratas transgénicas con renina y angiotensinógeno humanos, avosentán protegió frente a la nefropatía hipertensiva con dosis que no causaron retención de líquidos. No involucra valsartán. |
 
-> ⚠️ La publicación disponible estudia avosentan (antagonista de endotelina), no valsartan. La relevancia para la indicación predicha es de carácter mecanístico e indirecto.
+## Información de Mercado en Colombia
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19980966 | DIOVAN® HCT 320 / 12.5 MG (Novartis Pharma A.G.) | Tableta recubierta | Valsartán y diuréticos |
+
+Nota: el paquete de datos indica 20 registros en total, pero las entradas recibidas corresponden todas al mismo registro (19980966), por lo que se muestra una sola vez.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje TxGNN es muy alto (99.97%) y la coherencia mecanística entre el bloqueo AT1 y el ciclo RAAS de la hipertensión renal maligna es sólida, pero la única publicación disponible estudia un fármaco diferente en modelos animales y no existe ningún ensayo clínico registrado para esta indicación específica, lo que limita el nivel de evidencia a L4 y no permite avanzar sin investigación adicional.
+La predicción tiene un puntaje alto en TxGNN, pero no hay ensayos clínicos y la única publicación es preclínica y de otro fármaco. La evidencia es indirecta (nivel L4) y no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Búsqueda dirigida de estudios observacionales, series de casos o reportes clínicos de ARBs en crisis hipertensivas con daño renal agudo o crónico (e.g., "malignant hypertension with AKI/CKD")
-- Revisión de guías internacionales de manejo de emergencias hipertensivas con compromiso renal para identificar el rol actual de los ARBs
-- Obtener datos formales de mecanismo de acción (MOA) y perfil de seguridad de Valsartan (advertencias, contraindicaciones) mediante consulta a DrugBank y ficha técnica oficial
-- Verificar el estado real de comercialización en Colombia (INVIMA), ya que Valsartan tiene amplia distribución global y la ausencia de registros puede reflejar una limitación de la fuente de datos
-- **Evaluar priorizar la indicación de Cardiopatía Pulmonar Crónica** (rank 6): con 7 ensayos clínicos (incluyendo Phase 4 RCT completados con sacubitril/valsartan) y 20 publicaciones —entre ellas análisis post-hoc de PARADIGM-HF y PARAGON-HF—, constituye la indicación con mayor evidencia disponible en este análisis y cuenta con recomendación *Proceed with Guardrails* (Nivel L2)
+- Estudios preclínicos o clínicos que evalúen específicamente valsartán (o ARA-II de la misma clase) en nefropatía hipertensiva maligna
+- Datos de mecanismo de acción confirmados desde DrugBank
+- Advertencias y contraindicaciones del prospecto de INVIMA para completar el tamizaje de seguridad
+- Confirmar el listado completo de los 20 registros sanitarios y sus indicaciones aprobadas
+
+Como referencia, otra predicción del mismo análisis, hipertensión renovascular maligna, cuenta con un estudio preclínico de clase ARA-II (PMID 11560862) que apoya el mecanismo. También sigue sin tener ensayos clínicos con valsartán.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

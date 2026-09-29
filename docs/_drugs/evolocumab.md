@@ -2,7 +2,7 @@
 layout: default
 title: Evolocumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 119
+nav_order: 193
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,72 +29,59 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-El skill TxGNN Pipeline está orientado a gestión de la infraestructura del modelo; no aplica a la redacción de este informe. Procedo directamente con el formato de Informe de Evaluación definido en el system prompt.
-
----
-
-# Evolocumab: De Hipercolesterolemia a Forma Sintomática de Hemofilia en Portadoras Femeninas
+# Evolocumab: De Reducción de LDL-C a Forma Sintomática de Hemofilia en Mujeres Portadoras
 
 ## Resumen en Una Frase
 
-Evolocumab es un anticuerpo monoclonal inhibidor de PCSK9, aprobado globalmente para el tratamiento de la hipercolesterolemia y la reducción del riesgo cardiovascular en adultos de alto riesgo. El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de hemofilia en portadoras femeninas**, sin embargo, el fundamento mecanístico es extremadamente débil y la predicción es considerada un probable falso positivo de arquitectura. Actualmente no existen **ensayos clínicos ni publicaciones** que respalden esta dirección terapéutica.
-
----
+Evolocumab es un anticuerpo monoclonal que inhibe PCSK9 y se usa para reducir el colesterol LDL (LDL-C).
+El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de hemofilia en mujeres portadoras**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que se basa solo en el grafo de conocimiento.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Hipercolesterolemia / reducción de riesgo cardiovascular (no registrado en Colombia) |
-| Nueva Indicación Predicha | Forma sintomática de hemofilia en portadoras femeninas |
+|------|------|
+| Indicación Original | No registrada de forma explícita (el campo de indicación en INVIMA solo repite "EVOLOCUMAB"); por su mecanismo, reducción de LDL-C |
+| Nueva Indicación Predicha | Forma sintomática de hemofilia en mujeres portadoras |
 | Puntaje de Predicción TxGNN | 99.82% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 14 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Evolocumab actúa como inhibidor de PCSK9 (*Proprotein Convertase Subtilisin/Kexin type 9*), una serina proteasa hepática que marca los receptores de LDL para su degradación lisosómica. Al bloquear la unión de PCSK9 al receptor de LDL, Evolocumab incrementa el reciclaje de dichos receptores en la superficie del hepatocito, lo que resulta en una mayor captación de LDL-C circulante y reducciones de hasta 60% en el colesterol LDL plasmático. Su mecanismo es, por tanto, exclusivamente lipídico-cardiovascular.
+El registro del fármaco no incluye datos del mecanismo de acción ni de la indicación original. Según lo que se sabe del fármaco, evolocumab es un anticuerpo monoclonal que neutraliza PCSK9. Con ello favorece el reciclaje del receptor de LDL y reduce el LDL-C.
 
-La forma sintomática de hemofilia en portadoras femeninas surge de la herencia heterocigota del gen *F8* (factor VIII), ligado al cromosoma X. La inactivación aleatoria del cromosoma X (*lyonización sesgada*) puede resultar en niveles insuficientes de factor VIII y en manifestaciones hemorrágicas clínicas. Este mecanismo patológico —perteneciente al sistema de coagulación intrínseco— no tiene intersección biológica conocida con el eje PCSK9/receptor LDL.
+**No se identifica un vínculo mecanístico plausible** con la nueva indicación. Evolocumab no tiene efecto conocido sobre los niveles de factor VIII o IX ni sobre la cascada de coagulación, que son la base de la hemofilia. El puntaje alto (0.998) refleja cercanía en el grafo de conocimiento, no una razón biológica ni datos clínicos.
 
-> ⚠️ **Advertencia de interpretación:** El análisis de racionalidad mecanística concluye que esta predicción es muy probablemente un **falso positivo** generado por la co-ocurrencia densa de nodos de enfermedades hematológicas en el grafo de conocimiento de TxGNN. El puntaje elevado (99.82%) refleja un artefacto de la topología del grafo, no una relación terapéutica real. Esta misma limitación se observa en las seis indicaciones predichas del presente Evidence Pack, todas dentro del espacio de enfermedades hematológicas sin conexión mecanística con PCSK9.
+Por eso esta predicción debe leerse como una señal computacional sin respaldo, no como una hipótesis terapéutica.
 
----
+## Información de Mercado en Colombia
 
-## Evidencia de Ensayos Clínicos
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20087350 | REPATHA® 140 MG/ML (AMGEN MANUFACTURING LIMITED LLC) | Solución inyectable | Solo figura el nombre del principio activo (EVOLOCUMAB); no hay texto de indicación |
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+Nota: el sistema reporta 14 registros en total, pero los datos recibidos solo contienen entradas duplicadas del registro 20087350, por lo que se muestra una sola vez.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto oficial (FDA/EMA) para información completa de seguridad, advertencias y contraindicaciones.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de cualquier respaldo mecanístico, clínico o bibliográfico. El análisis de racionalidad integrado en el Evidence Pack identifica explícitamente esta indicación como un artefacto del modelo —generado por la proximidad de nodos hematológicos en el grafo— y no como una hipótesis terapéutica válida. Con nivel de evidencia L5 y cero ensayos o publicaciones asociadas, no existe base suficiente para avanzar.
+No existen ensayos clínicos ni literatura para esta indicación (nivel L5), y tampoco hay un mecanismo biológico que la sustente. El puntaje TxGNN por sí solo no basta para avanzar. Las otras cinco predicciones del modelo también tienen nivel L5 y ninguna cuenta con evidencia clínica.
 
 **Para avanzar se necesita:**
-- Completar el perfil de seguridad descargando e interpretando el prospecto oficial de Evolocumab (FDA/EMA/INVIMA) para llenar las brechas DG001 y DG002
-- Verificar en DrugBank si existe alguna interacción secundaria de PCSK9 con vías de coagulación (literatura de biología básica)
-- Revisar el grafo de conocimiento TxGNN para evaluar si el cluster de nodos hematológicos requiere re-ponderación o filtrado de falsos positivos sistémicos
-- Redirigir el análisis hacia candidatos de reposicionamiento con mayor plausibilidad mecanística fuera del espacio hematológico
+- Un vínculo mecanístico plausible entre la inhibición de PCSK9 y la hemofilia, que hoy no existe
+- Búsqueda dirigida de estudios preclínicos o clínicos que relacionen PCSK9 con la coagulación
+- Datos del prospecto de INVIMA (advertencias y contraindicaciones), pendientes de obtener
+- Datos del mecanismo de acción desde DrugBank para completar el registro
+- Texto real de la indicación aprobada en Colombia, ya que el campo actual solo contiene el nombre del fármaco
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

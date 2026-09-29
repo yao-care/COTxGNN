@@ -2,7 +2,7 @@
 layout: default
 title: Lamotrigina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 146
+nav_order: 238
 evidence_level: L5
 indication_count: 0
 ---

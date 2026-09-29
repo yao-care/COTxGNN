@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Sunitinib
-parent: Evidencia Alta (L1-L2)
-nav_order: 217
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 369
+evidence_level: L5
 indication_count: 10
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sunitinib: De Carcinoma de Células Renales a Liposarcoma
+# Sunitinib: De Indicación No Especificada en el Registro a Liposarcoma
 
 ## Resumen en Una Frase
 
-Sunitinib es un inhibidor multiobjetivo de tirosina quinasa globalmente reconocido como tratamiento de primera línea para el carcinoma de células renales (ccRCC) y tumores del estroma gastrointestinal (GIST), aunque no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Liposarcoma**,
-con **3 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta dirección.
+Sunitinib es un inhibidor multidiana de tirosina quinasas. Se conoce sobre todo por su uso en cáncer renal, tumores del estroma gastrointestinal (GIST) y tumores neuroendocrinos de páncreas. El registro de INVIMA no detalla su indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **3 ensayos clínicos** (todos de Fase 2, uno con un fármaco distinto) y **9 publicaciones**. La evidencia proviene de estudios de Fase 2 no aleatorizados en poblaciones mixtas de sarcoma.
 
 ---
 
@@ -43,23 +42,23 @@ con **3 ensayos clínicos** y **9 publicaciones** que actualmente respaldan esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carcinoma de células renales / GIST (indicación global reconocida; sin registro en Colombia) |
+| Indicación Original | No especificada en el registro (el campo de INVIMA solo dice "SUNITINIB") |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nivel de Evidencia | L2 (según el Evidence Pack; los ensayos de Fase 2 completados son de brazo único, no aleatorizados) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 (el detalle disponible muestra 3 números de registro únicos) |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Sin embargo, según la información conocida, sunitinib pertenece a la clase de inhibidores de tirosina quinasa con receptores múltiples (RTK inhibidor), bloqueando entre otros VEGFR1/2/3, PDGFRα/β, KIT y FLT3. Su eficacia en carcinoma de células renales y GIST ha sido ampliamente comprobada a nivel global, y mecanísticamente es aplicable al liposarcoma a través de vías compartidas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información del análisis de reposicionamiento, sunitinib inhibe VEGFR, PDGFR, KIT y FLT3. Esto bloquea la angiogénesis y la señalización de factores de crecimiento que impulsan el crecimiento tumoral.
 
-El liposarcoma desdiferenciado presenta con frecuencia amplificación de PDGFRA y sobreexpresión de VEGF; al inhibir PDGFRα/β y VEGFR, sunitinib puede bloquear simultáneamente las señales de proliferación tumoral y angiogénesis. El subtipo mixoide con fusión FUS-DDIT3 también cuenta con reportes de activación de la vía PDGFR relacionada, lo que refuerza la base mecanística de la predicción del modelo TxGNN.
+El fármaco tiene eficacia comprobada en tumores donde estas vías son centrales, como el GIST resistente a imatinib y el carcinoma renal. La angiogénesis y la señalización de PDGFR son impulsores plausibles en los sarcomas de tejidos blandos, incluido el liposarcoma. Por eso, mecanísticamente, el fármaco podría ser aplicable.
 
-Los sarcomas de tejidos blandos y el RCC comparten dependencia de la señalización VEGF/PDGFR, explicando por qué sunitinib ha sido explorado en ambas entidades. Los ensayos clínicos directos en sarcomas de tejidos blandos —incluyendo liposarcoma— demuestran actividad antitumoral, aunque las tasas de respuesta son modestas comparadas con las observadas en RCC.
+Sin embargo, la predicción del modelo es mucho más fuerte que la evidencia clínica. Los datos disponibles son de Fase 2 no aleatorizados, en poblaciones mixtas de sarcoma, con actividad limitada reportada en liposarcoma. No existen datos de Fase 3 ni aleatorizados. Por lo tanto, el puntaje tan alto de TxGNN no está respaldado por eficacia clínica demostrada.
 
 ---
 
@@ -67,9 +66,9 @@ Los sarcomas de tejidos blandos y el RCC comparten dependencia de la señalizaci
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Completado | 48 | Sunitinib vía oral una vez al día en sarcoma de tejidos blandos metastásico e irresecable; incluye explícitamente liposarcoma, leiomiosarcoma, fibrosarcoma y MFH; evalúa dosis y actividad antitumoral |
-| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Completado | 53 | Sunitinib en dosificación continua en sarcomas no-GIST metastásicos, localmente avanzados o recurrentes; diseño específico para sarcomas con enfoque en respuesta y tolerabilidad |
-| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Completado | 131 | Regorafenib (inhibidor RTK de la misma clase) en múltiples subtipos de sarcoma; sustentado en actividad previa de sunitinib en GIST y sarcomas de tejidos blandos; evidencia indirecta de clase terapéutica |
+| [NCT00474994](https://clinicaltrials.gov/study/NCT00474994) | Fase 2 | Completado | 53 | Sunitinib en dosificación continua en sarcomas no GIST metastásicos, localmente avanzados o recurrentes. Es la población más relevante, e incluye histologías de liposarcoma. |
+| [NCT00400569](https://clinicaltrials.gov/study/NCT00400569) | Fase 2 | Completado | 48 | Estudio abierto de un solo centro con sunitinib oral en sarcoma de tejidos blandos metastásico o irresecable (leiomiosarcoma, liposarcoma, fibrosarcoma, histiocitoma fibroso maligno). Los datos disponibles no confirman una cohorte definida de liposarcoma. |
+| [NCT02048371](https://clinicaltrials.gov/study/NCT02048371) | Fase 2 | Completado | 131 | Protocolo SARC024 con **regorafenib** (no sunitinib) en subtipos seleccionados de sarcoma. Es relevante solo como comparación dentro de la misma clase de fármacos. |
 
 ---
 
@@ -77,21 +76,27 @@ Los sarcomas de tejidos blandos y el RCC comparten dependencia de la señalizaci
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Ensayo Fase 2 | Int J Cancer | Sunitinib en tres subtipos prevalentes de STS (leiomiosarcoma, **liposarcoma**, MFH); evalúa seguridad y eficacia en pacientes en recaída o refractarios con alteraciones moleculares accionables similares a GIST |
-| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Reporte de Caso | Anticancer Res | Beneficio clínico duradero de sunitinib en **liposarcoma metastásico** con múltiples líneas previas; documentación directa de actividad en este subtipo específico |
-| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Revisión Traslacional | Cancers | Alteraciones genéticas, epigenéticas y transcriptómicas en liposarcoma para selección de terapia dirigida; contextualiza opciones actuales e identifica dianas como PDGFRA relevantes para sunitinib |
-| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Ann Oncol | Tratamiento de STS impulsado por histología; menciona actividad de sunitinib en el espectro de terapias dirigidas para subtipos específicos incluyendo liposarcoma y sarcomas con perfil PDGFR |
-| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Revisión | Expert Rev Anticancer Ther | Terapias emergentes para STS en adultos; describe el papel de sunitinib y otros TKIs en segunda línea o enfermedad metastásica irresecable con evidencia de actividad parcial |
-| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magyar Onkologia | Tratamiento médico de STS basado en subtipo histológico; revisa evidencia de inhibidores de tirosina quinasa incluyendo sunitinib en liposarcoma y otros subtipos con dianas moleculares |
-| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Estudio Molecular | Oncotarget | Secuenciación de nueva generación en condrosarcoma mixoide extraesquelético; identifica factores predictivos de beneficio a sunitinib incluyendo activación de vías PDGFR/VEGFR |
-| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Protocolo de Ensayo | BMC Cancer | Protocolo del ensayo REGOSARC (regorafenib en STS avanzado); fundamenta el uso de inhibidores de RTK en sarcomas citando actividad previa documentada de sunitinib en esta indicación |
-| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Cohorte | Am J Surg Pathol | Sarcoma miofibroblástico inflamatorio mixoide con alteraciones moleculares accionables; amplía el espectro de sarcomas con potencial de terapia dirigida y contexto biológico relevante |
+| [21154746](https://pubmed.ncbi.nlm.nih.gov/21154746/) | 2011 | Fase 2 de brazo único | Int J Cancer | Estudio unicéntrico de seguridad y eficacia de sunitinib en sarcomas de tejidos blandos recaídos o refractarios, centrado en leiomiosarcoma, liposarcoma e histiocitoma fibroso maligno. |
+| [38254762](https://pubmed.ncbi.nlm.nih.gov/38254762/) | 2024 | Revisión | Cancers | Alteraciones genéticas, epigenéticas y transcriptómicas del liposarcoma para la selección de terapias dirigidas. |
+| [24712007](https://pubmed.ncbi.nlm.nih.gov/24712007/) | 2014 | Revisión | Magyar Onkologia | El tratamiento médico de los sarcomas de tejidos blandos se orienta cada vez más por el subtipo histológico. |
+| [24555529](https://pubmed.ncbi.nlm.nih.gov/24555529/) | 2014 | Revisión | Expert Rev Anticancer Ther | Terapias emergentes para sarcoma de tejidos blandos en adultos. |
+| [22987955](https://pubmed.ncbi.nlm.nih.gov/22987955/) | 2012 | Revisión | Ann Oncol | Terapia guiada por histología. Menciona trabectedina como activa en liposarcoma, con actividad muy alta en el mixoide. |
+| [23482782](https://pubmed.ncbi.nlm.nih.gov/23482782/) | 2013 | Reporte de caso | Anticancer Res | Beneficio clínico prolongado con sunitinib en un caso de liposarcoma metastásico muy pretratado. |
+| [38717131](https://pubmed.ncbi.nlm.nih.gov/38717131/) | 2024 | Serie de casos | Am J Surg Pathol | Análisis clinicopatológico de 25 casos de sarcoma miofibroblástico inflamatorio mixoide. Relevancia indirecta. |
+| [28423517](https://pubmed.ncbi.nlm.nih.gov/28423517/) | 2017 | Cohorte genómica | Oncotarget | Secuenciación de condrosarcoma mixoide extraesquelético. Evalúa factores predictivos de beneficio con sunitinib. Relevancia indirecta. |
+| [25884155](https://pubmed.ncbi.nlm.nih.gov/25884155/) | 2015 | Protocolo de ensayo (regorafenib) | BMC Cancer | Protocolo REGOSARC de Fase 2 aleatorizado con regorafenib en sarcoma avanzado. No evalúa sunitinib. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Sunitinib no cuenta con ningún registro sanitario vigente ante el INVIMA. No existen productos comercializados en Colombia bajo esta denominación común internacional.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20196041 | RENISUN® 12.5MG CÁPSULAS DURAS | Cápsula dura | No especifica indicación (solo indica "SUNITINIB") |
+| 20193310 | RENISUN® 50MG CÁPSULAS DURAS | Cápsula dura | No especifica indicación (solo indica "SUNITINIB") |
+| 20194945 | RENISUN® 37.5MG CÁPSULAS DURAS | Cápsula dura | No especifica indicación (solo indica "SUNITINIB") |
+
+Todos los registros pertenecen a HB HUMAN BIOSCIENCE S.A.S. El sistema reporta 8 registros en total, pero el detalle disponible muestra solo 3 números únicos (5 filas, con duplicados).
 
 ---
 
@@ -99,11 +104,11 @@ Sunitinib no cuenta con ningún registro sanitario vigente ante el INVIMA. No ex
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — Inhibidor multiobjetivo de tirosina quinasa (RTK inhibidor; clase oral antineoplásico) |
-| Riesgo de Mielosupresión | Moderado — neutropenia y trombocitopenia son efectos adversos frecuentes documentados en ensayos clínicos de sarcoma y RCC |
-| Clasificación de Emetogenicidad | Baja a moderada (oral; menor potencial emetogénico que citotóxicos convencionales) |
-| Items de Monitoreo | Hemograma completo con diferencial, ALT/AST (función hepática), creatinina (función renal), TSH (función tiroidea), ECG (intervalo QTc), presión arterial en cada ciclo |
-| Protección en Manejo | Cumplir regulaciones de manejo de antineoplásicos orales; precauciones de seguridad para medicamentos citotóxicos según protocolo institucional |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multiquinasa de tirosina quinasas: VEGFR, PDGFR, KIT, FLT3) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática y renal. Según los estudios revisados, también presión arterial, función tiroidea (hipotiroidismo) y función cardíaca, por la toxicidad cardiovascular descrita. |
+| Protección en Manejo | Consultar el prospecto y las regulaciones locales de manejo de fármacos antineoplásicos |
 
 ---
 
@@ -111,21 +116,23 @@ Sunitinib no cuenta con ningún registro sanitario vigente ante el INVIMA. No ex
 
 Consultar el prospecto para información de seguridad.
 
+Los estudios revisados describen hipertensión, toxicidad cardíaca, toxicidad cutánea e hipotiroidismo asociados a sunitinib. No hay datos estructurados de advertencias, contraindicaciones ni interacciones farmacológicas en el Evidence Pack.
+
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Dos ensayos clínicos de Fase 2 completados evalúan directamente sunitinib en sarcomas de tejidos blandos (incluyendo liposarcoma), respaldados por un reporte de caso con beneficio clínico duradero en liposarcoma metastásico y múltiples revisiones sistemáticas que sustentan la actividad de inhibidores RTK en esta entidad. La base mecanística mediante inhibición de PDGFRα/β en tumores con amplificación PDGFRA es biológicamente coherente, aunque la evidencia no alcanza nivel de Fase 3 ni cuenta con aprobación regulatoria específica.
+Los estudios de Fase 2 disponibles son de brazo único, con poblaciones mixtas de sarcoma y actividad limitada reportada en liposarcoma. No hay datos aleatorizados ni de Fase 3. El alto puntaje de TxGNN (99.87%) no está respaldado por eficacia clínica. Además, falta la información de seguridad del prospecto de INVIMA, que impide avanzar al tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener datos completos de MOA y perfil de seguridad (advertencias, contraindicaciones) desde el prospecto oficial y DrugBank
-- Iniciar proceso de evaluación de registro sanitario ante el INVIMA para viabilidad de acceso en Colombia
-- Identificar subtipos histológicos de liposarcoma con mayor probabilidad de respuesta (desdiferenciado con amplificación PDGFRA vs. mixoide vs. bien diferenciado)
-- Diseñar protocolo de monitoreo cardiovascular (QTc, hipertensión, fracción de eyección) dado el perfil de toxicidad cardíaca conocido de sunitinib
-- Evaluar secuenciación terapéutica y criterios de selección de pacientes para uso compasivo o ensayo clínico en Colombia
+- Obtener las advertencias y contraindicaciones del prospecto de INVIMA (brecha bloqueante).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Confirmar si NCT00400569 y NCT00474994 incluyeron cohortes de liposarcoma y cuáles fueron los resultados por subtipo.
+- Aclarar la indicación aprobada en el registro colombiano, que hoy solo dice "SUNITINIB".
+- Contar con evidencia prospectiva o aleatorizada específica en liposarcoma antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Docetaxel
 parent: Evidencia Alta (L1-L2)
-nav_order: 101
+nav_order: 164
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,116 +29,108 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Docetaxel: De Taxano Antineoplásico a Carcinoma de Mama Femenino
+# Docetaxel: De Indicación Original No Especificada en el Registro a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-Docetaxel (Taxotere) es un agente citotóxico de la clase de los taxanos, ampliamente utilizado en oncología mundial para el tratamiento de tumores sólidos; sin embargo, actualmente **no cuenta con ningún registro sanitario INVIMA en Colombia** (0 licencias activas).
-El modelo TxGNN predice que podría ser efectivo para el **Carcinoma de Mama Femenino**, con **más de 30 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta indicación.
-Dado que docetaxel ya es estándar global para esta patología pero carece de registro colombiano, esta evaluación constituye un análisis de viabilidad para su introducción formal al mercado nacional.
-
----
+Docetaxel es un antineoplásico del grupo de los taxanos. El registro sanitario colombiano no especifica su indicación original, ya que el texto solo repite el nombre del fármaco.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **50 ensayos clínicos** y **20 publicaciones** recuperados en esta dirección.
+Esta predicción probablemente corresponde a un uso ya establecido y no a un reposicionamiento genuino, por lo que conviene confirmarla contra el prospecto aprobado.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin aprobación en Colombia; globalmente indicado para cáncer de mama, pulmón, próstata y gástrico |
+| Indicación Original | No especificada (el registro solo indica "DOCETAXEL") |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 99.90% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 12 |
 | Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la farmacología general de la clase, docetaxel es un taxano que estabiliza los microtúbulos y bloquea la mitosis. Esto es relevante para tumores que proliferan rápidamente, como el cáncer de mama.
 
-Docetaxel es un taxano de segunda generación que ejerce su acción antineoplásica uniéndose con alta afinidad a la subunidad β-tubulina de los microtúbulos, estabilizando el polímero e inhibiendo su despolimerización. Este mecanismo bloquea la progresión de la mitosis en la transición G2/M e induce la apoptosis celular. Si bien los datos formales de mecanismo de acción (MOA) no están disponibles en el sistema actual, la farmacología de docetaxel está extensamente documentada desde su primera revisión clínica en 1995 (PMID 7595719) y es una de las características mejor comprendidas en oncología.
+El registro colombiano tampoco detalla la indicación original, así que no es posible comparar formalmente la indicación de origen con la nueva. Aun así, la evidencia clínica recuperada es directa: hay múltiples ensayos de Fase 3 completados en cáncer de mama, en escenarios adyuvante, neoadyuvante y metastásico. El puntaje muy alto de TxGNN (0.999) coincide con esa evidencia.
 
-El carcinoma de mama es una de las indicaciones más consolidadas para los taxanos en general y para docetaxel en particular. Las células tumorales mamarias, especialmente los subtipos HER2-positivo y triple negativo (TNBC), exhiben alta sensibilidad a los agentes que interfieren con la dinámica de los microtúbulos. Múltiples ensayos clínicos de Fase 3 —con miles de participantes cada uno— han confirmado el beneficio de docetaxel tanto en el contexto adyuvante (complementando regímenes de antraciclinas) como en el metastásico, constituyendo desde hace décadas uno de los pilares del tratamiento oncológico mamario global.
-
-La predicción de TxGNN con un puntaje del 99.90% (rango 1259) es altamente concordante con la evidencia acumulada: la ausencia de docetaxel del mercado colombiano representa una brecha regulatoria —no una incertidumbre clínica— que limita el acceso de pacientes colombianas a un tratamiento oncológico esencial y de eficacia demostrada.
-
----
+Es probable que el cáncer de mama ya sea una indicación aprobada de docetaxel. Por eso, esta señal probablemente no representa un reposicionamiento real. Antes de presentarla como indicación nueva, debe confirmarse contra el prospecto aprobado por INVIMA.
 
 ## Evidencia de Ensayos Clínicos
 
+Se listan 10 de los 50 ensayos recuperados, priorizando los de Fase 3 y los que evalúan docetaxel directamente. El paquete no incluye resultados de eficacia, solo los resúmenes de diseño.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | Fase 3 | Completado | 150 | RCT multicéntrico comparando docetaxel semanal vs CMF en mujeres ≥65 años o no candidatas a antraciclinas con cáncer de mama de alto riesgo; evalúa docetaxel como alternativa eficaz en tratamiento adyuvante |
-| [NCT00002544](https://clinicaltrials.gov/study/NCT00002544) | Fase 3 | Completado | 300 | RCT: mitoxantrone vs FAC como quimioterapia de primera línea en cáncer de mama metastásico con pronóstico desfavorable; establece marco de referencia para taxanos en este contexto |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Fase 3 | Completado | 2411 | RCT: AC preoperatorio vs AC seguido de docetaxel (pre o postoperatorio) en cáncer de mama operable estadios II-III; gran estudio que define el papel del docetaxel en el entorno neoadyuvante/adyuvante |
-| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Completado | 3270 | RCT: TC o AC-paclitaxel solos vs combinados con trastuzumab en cáncer de mama invasivo HER2-bajo; el ensayo más amplio que evalúa regímenes basados en docetaxel |
-| [NCT00089479](https://clinicaltrials.gov/study/NCT00089479) | Fase 3 | Completado | 2611 | RCT abierto: AC→docetaxel vs AC→docetaxel+capecitabina en cáncer de mama de alto riesgo; confirma la eficacia del esquema basado en docetaxel y evalúa la adición de capecitabina |
-| [NCT04066335](https://clinicaltrials.gov/study/NCT04066335) | N/A | Desconocido | 1498 | Estudio observacional de seguridad de Nanoxel M (docetaxel nanoparticulado); proporciona datos de seguridad en mundo real con gran muestra, relevante para formulaciones alternativas |
-| [NCT02413320](https://clinicaltrials.gov/study/NCT02413320) | Fase 2 | Completado | 101 | RCT: carboplatino+docetaxel vs carboplatino+paclitaxel seguido de AC en cáncer de mama triple negativo estadios I-III; evalúa regímenes con platino en TNBC |
-| [NCT00003565](https://clinicaltrials.gov/study/NCT00003565) | Fase 2 | Completado | 109 | Estudio farmacocinético poblacional en pacientes caucásicos y afroamericanos con tumores sólidos (incluye cáncer de mama); documenta diferencias de PK entre grupos étnicos, relevante para dosificación en poblaciones diversas |
-| [NCT00379015](https://clinicaltrials.gov/study/NCT00379015) | Fase 2 | Completado | 38 | Neoadyuvante: epirrubicina/ciclofosfamida seguido de docetaxel+trastuzumab en cáncer de mama localmente avanzado HER2+; evalúa combinación de taxano con anticuerpo monoclonal anti-HER2 |
-| [NCT03076372](https://clinicaltrials.gov/study/NCT03076372) | Fase 1 | Desconocido | 34 | MM-310 (formulación liposomal de profármaco de docetaxel dirigida al receptor EphA2) en tumores sólidos; evalúa una nueva formulación de docetaxel con mayor selectividad tumoral |
-
----
+| [NCT00193011](https://clinicaltrials.gov/study/NCT00193011) | Fase 3 | Completado | 150 | Docetaxel semanal vs CMF adyuvante en cáncer de mama de alto riesgo en mujeres >65 años o no candidatas a antraciclinas |
+| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Fase 3 | Completado | 2411 | AC preoperatorio con o sin docetaxel (antes o después de la cirugía) en cáncer de mama operable estadio II-III |
+| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Fase 3 | Completado | 478 | FE75C en dosis densas con G-CSF seguido de docetaxel vs paclitaxel, adyuvante con ganglios positivos |
+| [NCT00089479](https://clinicaltrials.gov/study/NCT00089479) | Fase 3 | Completado | 2611 | Tras AC, docetaxel + capecitabina vs docetaxel solo en cáncer de mama de alto riesgo (supervivencia global) |
+| [NCT01354522](https://clinicaltrials.gov/study/NCT01354522) | Fase 3 | Completado | 204 | TAC vs TCX (docetaxel, ciclofosfamida, capecitabina) adyuvante en HER2 negativo de alto riesgo |
+| [NCT01275677](https://clinicaltrials.gov/study/NCT01275677) | Fase 3 | Completado | 3270 | Quimioterapia adyuvante (docetaxel + ciclofosfamida o AC seguido de paclitaxel semanal) con o sin trastuzumab |
+| [NCT02003209](https://clinicaltrials.gov/study/NCT02003209) | Fase 3 | Completado | 315 | Docetaxel, carboplatino, trastuzumab y pertuzumab neoadyuvante, con o sin privación estrogénica, en HR+/HER2+ |
+| [NCT00002544](https://clinicaltrials.gov/study/NCT00002544) | Fase 3 | Completado | 300 | Mitoxantrona con o sin docetaxel en cáncer de mama metastásico de mal pronóstico |
+| [NCT02748213](https://clinicaltrials.gov/study/NCT02748213) | Fase 2 | Completado | 225 | Trastuzumab + docetaxel con o sin capecitabina en cáncer de mama avanzado HER2 positivo |
+| [NCT00025493](https://clinicaltrials.gov/study/NCT00025493) | Fase 2 | Terminado anticipadamente | 27 | Docetaxel en monoterapia en mujeres ≥70 años con cáncer de mama metastásico |
 
 ## Evidencia de Literatura
 
+Se listan 10 de las 20 publicaciones, con prioridad para ECA y revisiones. Los hallazgos se resumen solo a partir de los resúmenes disponibles.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | ECA (Fase 3) | J Clin Oncol | ABC trials: TC×6 vs regímenes TaxAC (TAC, AC-T, AC-TX) como terapia adyuvante; TC no inferior en algunos subgrupos; confirma la eficacia de los esquemas con docetaxel frente a regímenes con antraciclinas |
-| [15161988](https://pubmed.ncbi.nlm.nih.gov/15161988/) | 2004 | Revisión narrativa | The Oncologist | Revisión de 10 años de experiencia clínica con paclitaxel y docetaxel en cáncer de mama; documenta beneficios en entorno metastásico, adyuvante y neoadyuvante, con docetaxel mostrando ventajas sobre paclitaxel en varios escenarios |
-| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Revisión | J Clin Oncol | Primera revisión comprensiva del perfil preclínico y clínico de docetaxel (Taxotere); establece las bases de su uso oncológico incluyendo actividad en tumores sólidos |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Fase 2 | Cancer | Capecitabina+docetaxel+epirrubicina (TEX) como primera línea en cáncer de mama localmente avanzado/metastásico; demuestra actividad y manejabilidad de la triple combinación oral-IV |
-| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Revisión | Drug Ther Bull | Paclitaxel y docetaxel en cáncer de mama y ovárico; discute la extensión de licencias de docetaxel para cáncer de mama metastásico y los beneficios comparativos frente a paclitaxel |
-| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Fase IIb (ECA) | J Clin Oncol | Doxorrubicina+docetaxel dosis-densa ± tamoxifeno como terapia preoperatoria en cáncer de mama primario operable; demuestra altas tasas de respuesta patológica con el esquema dosis-denso |
-| [19856651](https://pubmed.ncbi.nlm.nih.gov/19856651/) | 2009 | Fase 2 (dosis) | Tumori | Docetaxel+gemcitabina semanal en cáncer de mama metastásico resistente a antraciclinas; muestra que la administración semanal permite preservar la calidad de vida con toxicidad manejable |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Fase 2 | Breast Cancer (Tokyo) | Docetaxel+ciclofosfamida+trastuzumab (HER-TC) como neoadyuvante en cáncer de mama HER2+; evalúa régimen libre de antraciclinas con respuesta patológica completa como endpoint primario |
-| [9364543](https://pubmed.ncbi.nlm.nih.gov/9364543/) | 1997 | Fase 2 | Oncology | Combinación docetaxel/vinorelbina en cáncer de mama metastásico; establece actividad de ambos agentes como monofármacos con tasas de respuesta documentadas |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohorte retrospectiva | Anti-Cancer Drugs | Asociación entre quimioterapia adyuvante con docetaxel y linfedema relacionado con cáncer de mama; documenta la retención de líquidos como efecto adverso relevante a monitorear |
-
----
+| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | ECA | J Clin Oncol | Ensayos ABC: docetaxel + ciclofosfamida (TC) por 6 ciclos vs regímenes estándar con antraciclina y taxano en cáncer de mama temprano |
+| [11481357](https://pubmed.ncbi.nlm.nih.gov/11481357/) | 2001 | Estudio aleatorizado fase IIb | J Clin Oncol | Doxorrubicina y docetaxel en dosis densas con G-CSF, con o sin tamoxifeno, como terapia preoperatoria |
+| [15161988](https://pubmed.ncbi.nlm.nih.gov/15161988/) | 2004 | Revisión | Oncologist | Papel de docetaxel y paclitaxel en cáncer de mama: beneficios en enfermedad metastásica, adyuvante y neoadyuvante |
+| [7595719](https://pubmed.ncbi.nlm.nih.gov/7595719/) | 1995 | Revisión | J Clin Oncol | Perfil preclínico y clínico de docetaxel |
+| [9282422](https://pubmed.ncbi.nlm.nih.gov/9282422/) | 1997 | Revisión | Drug Ther Bull | Revisión de paclitaxel y docetaxel en cáncer de mama y de ovario |
+| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Ensayo fase 2 | Cancer | Capecitabina con docetaxel y epirrubicina (TEX) en primera línea de cáncer de mama avanzado |
+| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Ensayo fase 2 | Oncology | Docetaxel y gemcitabina semanales en primera línea de cáncer de mama metastásico |
+| [15585076](https://pubmed.ncbi.nlm.nih.gov/15585076/) | 2004 | Ensayo fase 2 | Clin Breast Cancer | Docetaxel/cisplatino como quimioterapia primaria en cáncer de mama localmente avanzado |
+| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Estudio clínico | Breast Cancer | Docetaxel, ciclofosfamida y trastuzumab neoadyuvantes en cáncer de mama HER2 positivo |
+| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohorte retrospectiva | Anti-Cancer Drugs | Relación entre quimioterapia adyuvante con docetaxel y linfedema asociado al cáncer de mama |
 
 ## Información de Mercado en Colombia
 
-Docetaxel **no cuenta con ningún registro sanitario INVIMA activo** en Colombia. La búsqueda en la base de datos regulatoria no arrojó licencias registradas para este principio activo.
+Los cinco registros recuperados son entradas idénticas del mismo registro sanitario. Se muestran consolidados en una sola fila; el total reportado es de 12 registros.
 
-> Actualmente no existen registros sanitarios INVIMA para docetaxel en Colombia. Su uso en el territorio nacional, de existir, correspondería a importación bajo modalidades especiales o uso compasivo.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19969842 | DOCETAXEL 80 MG INYECTABLE (BLAU FARMACEUTICA COLOMBIA S.A.S) | Solución concentrada para infusión | Sin texto de indicación (solo figura "DOCETAXEL") |
 
----
+También hay presentaciones registradas como solución inyectable.
 
 ## Citotoxicidad
 
-Docetaxel es un agente antineoplásico citotóxico de la familia de los taxanos. Se confirma su inclusión en esta sección por cumplir los criterios: clase taxano/quimioterapia citotóxica, indicación original en cáncer (tumores sólidos), y categoría de quimioterapia citotóxica convencional.
+Estos datos provienen de la clase farmacológica y no del paquete de evidencia, que no incluye datos de toxicidad. Deben confirmarse con el prospecto.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional — clase Taxano (taxoide semisintético); agente estabilizador de microtúbulos |
-| Riesgo de Mielosupresión | **Alto** — la neutropenia es la toxicidad limitante de dosis; neutropenia grado 3-4 reportada en 65-85% de pacientes en esquemas cada 3 semanas. Se recomienda considerar profilaxis primaria con G-CSF en regímenes de dosis estándar o alta intensidad |
-| Clasificación de Emetogenicidad | **Baja a moderada** (nivel 1 como agente único según clasificación MASCC/ESMO); el riesgo aumenta en combinación con agentes altamente emetogénicos como cisplatino o ciclofosfamida |
-| Ítems de Monitoreo | Hemograma completo con diferencial antes de cada ciclo (ANC ≥1500/mm³ para administrar), función hepática (ALT, AST, bilirrubina, fosfatasa alcalina — reducción de dosis si elevadas), función renal, peso corporal y signos de retención de líquidos/edema, evaluación de neuropatía periférica (escala NCI-CTCAE) |
-| Protección en Manejo | Requiere manejo obligatorio como fármaco citotóxico: preparación exclusiva en cabina de seguridad biológica clase II, uso de EPP completo (guantes dobles de nitrilo, bata impermeable de manga larga, protección ocular, mascarilla FFP2), transporte en contenedores sellados, gestión de residuos conforme a normativa de medicamentos peligrosos vigente en Colombia (Decreto 4741 de 2005 y resoluciones concordantes) |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (taxano, antimicrotúbulos) |
+| Riesgo de Mielosupresión | Alto (neutropenia es la toxicidad típica de la clase) |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma con diferencial, función hepática, función renal, seguimiento de retención de líquidos y neuropatía periférica |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Docetaxel cuenta con el más alto nivel de evidencia disponible (L1) para su uso en carcinoma de mama femenino, respaldado por múltiples ensayos de Fase 3 completados con más de 2.000 pacientes cada uno, décadas de experiencia clínica global y una posición consolidada como estándar de tratamiento internacional; su ausencia del mercado colombiano (0 registros INVIMA) representa una brecha regulatoria —no una incertidumbre clínica— que justifica actuar con guardianes de calidad y proceso formal de registro.
+Hay varios ensayos de Fase 3 completados en cáncer de mama, lo que da un nivel de evidencia L1, y el puntaje de TxGNN es muy alto. Sin embargo, es probable que esta sea una indicación ya establecida y no un reposicionamiento. Además, falta la información de seguridad del prospecto de INVIMA, que es un vacío bloqueante para el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener y procesar el prospecto oficial (FDA/EMA) para documentar advertencias clave, contraindicaciones, interacciones farmacológicas y guías de ajuste de dosis (datos actualmente marcados como [Data Gap])
-- Compilar el dossier regulatorio completo para solicitud de registro INVIMA, incluyendo estudios pivotales de Fase 3, informe de farmacovigilancia y datos de bioequivalencia (si aplica formulación genérica)
-- Definir plan de farmacovigilancia activa adaptado a la población colombiana, con foco en neutropenia febril, retención de líquidos y neuropatía periférica
-- Evaluar cadena de suministro: requisitos de almacenamiento (temperatura controlada 2-25°C), preparación en unidad de farmacia oncológica certificada y disponibilidad de G-CSF para profilaxis
-- Establecer protocolos institucionales de manejo de citotóxicos conforme a normativa colombiana vigente
-- Revisar interacciones farmacológicas clínicamente relevantes con CYP3A4 (ketoconazol, eritromicina) antes del uso clínico
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Confirmar si el cáncer de mama figura en la indicación aprobada del registro 19969842 y en los demás registros.
+- Obtener el mecanismo de acción desde DrugBank.
+- Obtener los resultados de eficacia de los ensayos de Fase 3 clave, ya que el paquete solo trae los diseños.
+
+Entre las otras predicciones del modelo, sarcoma de Ewing y rabdomiosarcoma tienen evidencia L2, casi siempre en combinación con gemcitabina. La predicción de carcinoma de pulmón de células pequeñas parece un desajuste de mapeo, pues la evidencia recuperada corresponde a cáncer de pulmón de células no pequeñas. Los resultados de este informe son solo para investigación y no constituyen consejo médico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

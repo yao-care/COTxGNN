@@ -2,7 +2,7 @@
 layout: default
 title: Palivizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 189
+nav_order: 314
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,66 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Palivizumab: De Prevención de Infección por VSR a Neoplasia Benigna de Lengua
+# Palivizumab: De Prevención de la Infección por VRS a Neoplasia Benigna de la Lengua
 
 ## Resumen en Una Frase
 
-Palivizumab es un anticuerpo monoclonal IgG1 humanizado dirigido contra la proteína F del virus sincitial respiratorio (VSR), utilizado originalmente para la prevención de infecciones graves por VSR en lactantes y niños prematuros de alto riesgo.
-El modelo TxGNN predice que podría ser efectivo para **Neoplasia Benigna de Lengua**, sin embargo, esta predicción actualmente **no cuenta con ensayos clínicos ni publicaciones científicas** que la respalden.
-
----
+Palivizumab es un anticuerpo monoclonal humanizado dirigido contra la proteína F del virus sincitial respiratorio (VRS), y está comercializado en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la lengua**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de infección grave por VSR en pacientes pediátricos de alto riesgo |
-| Nueva Indicación Predicha | Neoplasia benigna de lengua |
+| Indicación Original | El registro sanitario solo indica "PALIVIZUMAB" como texto de indicación, sin describir el uso aprobado. Por su mecanismo, el fármaco se dirige al VRS. |
+| Nueva Indicación Predicha | Neoplasia benigna de la lengua |
 | Puntaje de Predicción TxGNN | 99.94% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 12 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+No se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que neutraliza la proteína F del VRS, es decir, actúa contra un antígeno viral.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde las fuentes consultadas. Según la información conocida, Palivizumab es un anticuerpo monoclonal IgG1 humanizado que actúa neutralizando el VSR al unirse con alta afinidad al sitio antigénico A de la proteína F viral, bloqueando la fusión del virus con las células epiteliales del tracto respiratorio.
+**No se identificó un vínculo mecanístico plausible** entre esta acción y la neoplasia benigna de la lengua. No se conoce ninguna diana relacionada con el VRS en este tumor, y la similitud con la indicación original no ha sido evaluada.
 
-La relación entre la indicación original (prevención de VSR en vías respiratorias) y la nueva indicación predicha (neoplasia benigna de lengua) presenta baja plausibilidad biológica. El VSR infecta predominantemente células epiteliales respiratorias, mientras que los tumores benignos de lengua se originan por mecanismos de proliferación local —como mutaciones somáticas o hiperplasia reactiva— independientes de la infección por VSR. Palivizumab carece de actividad antiproliferativa documentada y no posee dominios de unión a receptores de superficie en células tumorales de la cavidad oral.
-
-El análisis de racionalidad mecanística incluido en este paquete de evidencia confirma que no existe un enlace biológico conocido entre el mecanismo de neutralización viral de Palivizumab y el desarrollo o tratamiento de neoplasias benignas de lengua. La alta puntuación TxGNN (99.94%) puede reflejar correlaciones estructurales en el grafo de conocimiento biomédico, pero no implica plausibilidad clínica ni mecanística en este caso concreto.
-
----
+Además, los puntajes de las diez candidatas predichas son casi idénticos (entre 99.935% y 99.939%). Esto sugiere un artefacto del modelo y no una señal específica de enfermedad, así que el puntaje de 99.94% no debe interpretarse como evidencia biológica. Las otras nueve candidatas (por ejemplo, neoplasia de epiglotis, neuroblastoma cervical y quiste del conducto tirogloso) tampoco tienen ensayos, literatura ni respaldo mecanístico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Palivizumab no cuenta con registros sanitarios activos ante el INVIMA. El medicamento no se encuentra comercializado en Colombia.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20094809 | SYNAGIS® 100 MG SOLUCIÓN PARA INYECCIÓN (AstraZeneca Colombia S.A.S) | Solución inyectable | PALIVIZUMAB (el texto no detalla la indicación) |
 
----
+Nota: se reportan 12 registros en total, pero los datos recibidos solo incluyen entradas repetidas del mismo número de registro (20094809), por lo que se muestra una sola fila.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para neoplasia benigna de lengua alcanza nivel de evidencia L5 (únicamente predicción computacional, sin estudios reales de ningún tipo) y carece de plausibilidad mecanística documentada, dado que Palivizumab es un anticuerpo antiviral sin actividad antitumoral conocida ni presencia en el mercado colombiano.
+La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un anticuerpo anti-VRS y esta neoplasia benigna. Los puntajes casi idénticos entre candidatas indican probable artefacto del modelo.
 
 **Para avanzar se necesita:**
-- Obtención del mecanismo de acción completo (MOA) mediante consulta directa de DrugBank API y ficha técnica oficial
-- Identificación de alguna hipótesis biológica que conecte la neutralización del VSR con la proliferación de tejido oral benigno (p. ej., coinfección viral, modulación inmune local)
-- Búsqueda de estudios in vitro o modelos preclínicos que exploren efectos pleiotrópicos de anticuerpos anti-VSR en tejidos de cavidad oral
-- Tramitar registro sanitario ante el INVIMA antes de cualquier evaluación clínica en Colombia
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues su ausencia impide el tamizaje de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Identificar una hipótesis biológica que conecte al fármaco con la nueva indicación, y buscar estudios preclínicos o clínicos que la respalden
+- Confirmar la indicación aprobada real en el registro sanitario, ya que el texto actual solo repite el nombre del fármaco
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

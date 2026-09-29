@@ -2,7 +2,7 @@
 layout: default
 title: Crizotinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 92
+nav_order: 141
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,86 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Crizotinib: De Cáncer de Pulmón No Microcítico a Fibromatosis Gingival
+# Crizotinib: De Indicación Original No Especificada en el Registro a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Crizotinib es un inhibidor de tirosina quinasa dirigido contra los receptores ALK, ROS1 y c-MET, aprobado originalmente para el tratamiento del cáncer de pulmón no microcítico (CPNM) con reordenamientos genéticos ALK+ o ROS1+. El modelo TxGNN predice que podría ser efectivo para la **Fibromatosis Gingival**, sin embargo, actualmente **no existen ensayos clínicos ni publicaciones científicas** que respalden esta dirección. El alto puntaje del modelo (99.81%) es probablemente resultado de propagación de proximidad en la red de grafos biológica, y no de una conexión mecanística real.
-
----
+Crizotinib es un inhibidor de quinasas (ALK, ROS1 y MET) que se comercializa en Colombia como XALKORI®, pero el registro sanitario local no detalla su indicación original.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de pulmón no microcítico (CPNM) con reordenamiento ALK+/ROS1+ (inferido de literatura; sin registro en Colombia) |
-| Nueva Indicación Predicha | Fibromatosis Gingival |
+| Indicación Original | No especificada (el texto del registro solo repite el nombre "CRIZOTINIB", sin indicación) |
+| Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este Evidence Pack. Sin embargo, según la información disponible en la literatura científica incluida en este informe, Crizotinib es un inhibidor competitivo de ATP que bloquea las tirosina quinasas receptoras ALK (quinasa de linfoma anaplásico), ROS1 y c-MET. Su eficacia en el cáncer de pulmón no microcítico con reordenamientos EML4-ALK y fusiones ROS1 ha sido ampliamente demostrada y cuenta con aprobación de la FDA.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida en el resto del paquete, crizotinib es un inhibidor de tirosina quinasas (ALK, ROS1 y MET) usado en oncología. Con los datos suministrados no se puede establecer un vínculo mecanístico con la fibromatosis gingival.
 
-La fibromatosis gingival es una condición caracterizada por el engrosamiento progresivo del tejido gingival, asociada principalmente a mutaciones en los genes SOS1 y HRAS que activan vías de señalización de crecimiento celular. Los blancos terapéuticos de Crizotinib (ALK, ROS1, c-MET) no tienen una relación mecanística conocida con las vías SOS1/HRAS responsables de la fibromatosis gingival.
+La fibromatosis gingival es un sobrecrecimiento fibroso benigno de las encías. No hay ningún ensayo clínico ni publicación que relacione crizotinib con esta condición, y tampoco se pudo evaluar su similitud con la indicación original.
 
-El análisis de racionalidad del reposicionamiento concluye que la alta puntuación TxGNN (0.998) es probablemente un **falso positivo por propagación de proximidad en la red de grafos biológica**, y no refleja una conexión biológica real entre el mecanismo de acción del fármaco y la fisiopatología de la fibromatosis gingival. No existe evidencia clínica, preclínica ni mecanística que sustente este reposicionamiento en la actualidad.
-
----
+El puntaje alto (99.81%, posición 2136 en el ranking del modelo) es solo una señal computacional. No sustituye a la evidencia experimental o clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Crizotinib en Fibromatosis Gingival.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Crizotinib en Fibromatosis Gingival.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Crizotinib no cuenta con registros sanitarios activos ante el INVIMA. El fármaco no está comercializado en el mercado colombiano a la fecha de corte de datos (2026-06-04).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20083808 | XALKORI® 200MG CÁPSULAS (PFIZER S.A.S.) | Cápsula dura | CRIZOTINIB (el registro no detalla la indicación) |
 
----
+El paquete muestra 5 entradas idénticas del mismo registro 20083808, por lo que se presenta una sola fila. El total informado es de 20 registros sanitarios.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — Inhibidor de tirosina quinasa ALK/ROS1/c-MET (no citotóxico convencional) |
-| Riesgo de Mielosupresión | Bajo a moderado (neutropenia reportada; menor incidencia que quimioterapia citotóxica tradicional) |
-| Clasificación de Emetogenicidad | Baja a moderada (antineoplásico oral; riesgo menor al de platinos o antraciclinas) |
-| Items de Monitoreo | Función hepática (ALT/AST/bilirrubina), hemograma completo, ECG con intervalo QT, radiografía o TC de tórax (monitoreo de neumonitis intersticial) |
-| Protección en Manejo | Requiere medidas estándar de protección para antineoplásicos orales; manipulación con guantes; evitar trituración de cápsulas |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas ALK/ROS1/MET) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar el prospecto. La literatura recuperada para otras predicciones de este fármaco describe hepatotoxicidad (incluido un caso de falla hepática fulminante), toxicidad cardíaca (bradicardia, prolongación del QT) y enfermedad pulmonar intersticial |
+| Protección en Manejo | Consultar el prospecto y las regulaciones locales de manejo de fármacos antineoplásicos |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La fibromatosis gingival es causada por mutaciones en SOS1/HRAS que no tienen intersección mecanística conocida con los blancos terapéuticos de Crizotinib (ALK/ROS1/MET). La ausencia total de ensayos clínicos y literatura específica, combinada con el nivel de evidencia L5, indica que la predicción TxGNN es muy probablemente un falso positivo por propagación de proximidad en la red de grafos y no debe avanzar a evaluación clínica sin hipótesis mecanística sustentada.
+No existen ensayos ni publicaciones que respalden crizotinib en fibromatosis gingival, y el mecanismo no explica la predicción. Además, el perfil de toxicidad descrito en la literatura recuperada para otras predicciones (hígado, corazón, pulmón) pesa en contra de un uso exploratorio en una condición benigna.
 
 **Para avanzar se necesita:**
-- Completar el mecanismo de acción (MOA) de Crizotinib mediante consulta a la API de DrugBank (DB08865)
-- Descargar y analizar el prospecto oficial para obtener advertencias, contraindicaciones e interacciones farmacológicas
-- Realizar búsqueda bibliográfica exploratoria sobre posible rol de c-MET o ALK en fibroblastos gingivales o en vías de señalización HRAS/SOS1
-- Verificar si existe evidencia de reposicionamiento en otras fibromatosis (p. ej., fibromatosis désmoides) donde c-MET ha sido investigado, antes de descartar definitivamente
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, ya que hoy bloquea el tamizaje de seguridad.
+- Completar el mecanismo de acción desde DrugBank y la indicación aprobada real del registro.
+- Buscar literatura preclínica o series de casos que relacionen ALK, ROS1 o MET con la fibromatosis gingival.
+- Considerar priorizar otras predicciones del mismo fármaco con más soporte. Por ejemplo, el carcinoma del hilio pulmonar (posición 4) tiene casos clínicos en pacientes con fusión ALK o ROS1 y quedó como pregunta de investigación (nivel L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

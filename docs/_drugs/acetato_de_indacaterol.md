@@ -2,7 +2,7 @@
 layout: default
 title: Acetato De Indacaterol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 20
+nav_order: 22
 evidence_level: L5
 indication_count: 0
 ---

@@ -2,7 +2,7 @@
 layout: default
 title: Pembrolizumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 193
+nav_order: 319
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,82 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pembrolizumab: De Inmunoterapia Oncologica a Fibromatosis Gingival
+# Pembrolizumab: De Indicación Oncológica (no detallada en el registro) a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Pembrolizumab es un anticuerpo monoclonal anti-PD-1 reconocido globalmente como inmunoterapia de primera y segunda linea para multiples tipos de cancer, incluyendo melanoma, cancer de pulmon no celulas pequenas (NSCLC), cancer colorrectal MSI-H y otros tumores solidos con alta expresion de PD-L1.
-El modelo TxGNN predice que podria ser efectivo para **Fibromatosis Gingival**,
-sin embargo, actualmente **no existen ensayos clinicos ni publicaciones** que respalden esta direccion, y la conexion biologica es biologicamente cuestionable.
+Pembrolizumab (Keytruda®) es un anticuerpo monoclonal que se comercializa en Colombia. El registro sanitario solo indica el nombre del principio activo y no detalla la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección. Es una predicción puramente computacional.
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No registrado en Colombia (farmaco no comercializado) |
-| Nueva Indicacion Predicha | Fibromatosis Gingival |
-| Puntaje de Prediccion TxGNN | 99.40% |
+| Indicación Original | No especificada (el texto del registro solo dice "PEMBROLIZUMAB") |
+| Nueva Indicación Predicha | Fibromatosis gingival |
+| Puntaje de Predicción TxGNN | 99.40% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Numero de Registros Sanitarios | 0 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (todos corresponden al mismo número de registro, 20085509) |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que es Razonable esta Prediccion?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la literatura recuperada para otras predicciones del mismo fármaco, pembrolizumab es un anticuerpo anti-PD-1 que restaura la actividad antitumoral de los linfocitos T. Su eficacia está comprobada en cáncer de pulmón no microcítico y otros tumores malignos.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion en el Evidence Pack. Sin embargo, Pembrolizumab es un anticuerpo monoclonal humanizado IgG4 dirigido contra el receptor de muerte programada 1 (PD-1). Su mecanismo consiste en bloquear la interaccion entre PD-1 y sus ligandos PD-L1/PD-L2, impidiendo la inhibicion de los linfocitos T y permitiendo que el sistema inmune reconozca y ataque celulas tumorales que expresan PD-L1. Esta es la base de sus aprobaciones en multiples tumores solidos con alta carga mutacional o alta expresion de PD-L1.
+La fibromatosis gingival es un sobrecrecimiento fibrótico de la encía. No hay una relación con la vía PD-1 respaldada por los datos disponibles. El puntaje alto (0.994) refleja solo la cercanía en el grafo de conocimiento del modelo, no una razón biológica demostrada. Sin datos de mecanismo de acción no es posible evaluar la plausibilidad mecanística, y la similitud con la indicación original queda pendiente de análisis.
 
-La fibromatosis gingival hereditaria es una enfermedad benigna de origen genetico, causada por mutaciones en los genes SOS1 o GINGF, que provocan proliferacion de fibroblastos gingivales sin transformacion maligna. A diferencia de los tumores solidos donde pembrolizumab ha demostrado eficacia, esta condicion no involucra mecanismos de escape inmunologico mediados por el eje PD-1/PD-L1. La expresion de PD-L1 en tejido fibromatoso benigno es tipicamente nula o insignificante, y la enfermedad carece de la carga mutacional (TMB) que suele correlacionarse con respuesta a inhibidores de punto de control.
+## Evidencia de Ensayos Clínicos
 
-Desde el punto de vista clinico, la relacion riesgo-beneficio es claramente desfavorable: el tratamiento estandar para la fibromatosis gingival es la gingivectomia quirurgica o el seguimiento, sin necesidad de terapia sistemica. La exposicion a pembrolizumab impondria un riesgo de eventos adversos inmunomediados (irAE) del 10-20% para una condicion no amenazante para la vida. El alto puntaje del modelo TxGNN (99.40%) probablemente refleja correlaciones estructurales en el grafo de conocimiento biologico, no una relacion terapeutica directa.
-
----
-
-## Evidencia de Ensayos Clinicos
-
-Actualmente no hay ensayos clinicos relacionados registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
+
+Los cuatro registros del paquete de evidencia son idénticos, por lo que se muestran una sola vez.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20085509 | KEYTRUDA® 100 MG (MERCK SHARP & DOHME CORP.) | Solución inyectable | PEMBROLIZUMAB (el texto no detalla la indicación) |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Inmunoterapia — Inhibidor de punto de control inmune (anti-PD-1); no es citotoxico convencional |
-| Riesgo de Mielosupresion | Bajo (no produce mielosupresion directa; puede ocurrir anemia hemolitica autoinmune o trombocitopenia inmunomediada de forma infrecuente) |
-| Clasificacion de Emetogenicidad | Muy baja |
-| Items de Monitoreo | Funcion tiroidea (TSH/T4L), funcion hepatica (ALT/AST/bilirrubina), funcion renal (creatinina), cortisol basal, glucosa, hemograma completo; signos de neumonitis, colitis y dermatitis inmunomediada |
-| Proteccion en Manejo | Producto biologico refrigerado (2–8 °C); no requiere las medidas de proteccion de citotoxicos convencionales (sin riesgo de citotoxicidad por contacto), pero debe manejarse bajo protocolos de oncologia para productos biologicos |
-
----
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo monoclonal anti-PD-1) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
----
+## Conclusión y Próximos Pasos
 
-## Conclusion y Proximos Pasos
+**Decisión: Hold**
 
-**Decision: Hold**
-
-**Justificacion:**
-La fibromatosis gingival es una enfermedad benigna de origen genetico cuya fisiopatologia no involucra el eje PD-1/PD-L1 ni mecanismos de escape inmunologico tumoral. No existe ninguna evidencia clinica o preclinca que respalde el uso de pembrolizumab en esta condicion, y el perfil riesgo-beneficio es claramente desfavorable.
+**Justificación:**
+No existen ensayos clínicos ni publicaciones para esta indicación, y no hay una razón mecanística que la respalde. El puntaje del modelo es la única evidencia (L5), por lo que no justifica avanzar.
 
 **Para avanzar se necesita:**
-- Datos de expresion de PD-L1 y densidad de linfocitos infiltrantes en biopsias de tejido de fibromatosis gingival
-- Hipotesis biologica explicita que vincule el bloqueo del eje PD-1/PD-L1 con la proliferacion de fibroblastos gingivales
-- Registro sanitario de pembrolizumab ante INVIMA Colombia como prerequisito para cualquier investigacion clinica local
-- Evaluacion de la decision TxGNN frente a indicaciones de mayor rango biologico plausible (por ejemplo, lung hilum carcinoma o pulmonary sulcus neoplasm, donde existen mecanismos de accion directamente aplicables y evidencia clinica indirecta de Fase 3)
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y el texto completo de la indicación aprobada.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Encontrar alguna evidencia preclínica o clínica que vincule PD-1 con la fibromatosis gingival. Si no aparece, descartar la candidatura.
+- Priorizar otras predicciones del mismo fármaco, como el carcinoma del hilio pulmonar (nivel L4). Tienen una relación mecanística más plausible con la indicación oncológica conocida.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

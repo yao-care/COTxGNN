@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Durvalumab
-parent: Evidencia Moderada (L3-L4)
-nav_order: 104
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 170
+evidence_level: L5
 indication_count: 10
 ---
 
 # Durvalumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,89 +29,78 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Durvalumab: De Carcinoma Urotelial de Vejiga a Carcinoma Urotelial de Uretra Prostática
+# Durvalumab: De Indicación Original No Registrada a Carcinoma Urotelial de la Uretra Prostática
 
 ## Resumen en Una Frase
 
-Durvalumab es un anticuerpo monoclonal inhibidor de PD-L1, aprobado globalmente para el carcinoma urotelial de vejiga músculo-invasivo, carcinoma pulmonar de células no pequeñas en estadio III irresecable y carcinoma hepatobiliar, entre otros tumores sólidos. El modelo TxGNN predice que podría ser efectivo para el **Carcinoma Urotelial de Uretra Prostática**, aunque actualmente **no existen ensayos clínicos ni publicaciones** específicas para esta indicación; la racionalidad se sustenta exclusivamente en el efecto de clase urotelial y la biología compartida del PD-L1.
-
----
+Durvalumab es un anticuerpo que bloquea PD-L1 y se comercializa en Colombia como Imfinzi®. El registro disponible no detalla su indicación original: el campo de indicación aprobada solo repite el nombre del fármaco.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de la uretra prostática**, pero por ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Carcinoma urotelial de vejiga (aprobación global; sin registro en Colombia) |
-| Nueva Indicación Predicha | Carcinoma urotelial de uretra prostática |
+|------|------|
+| Indicación Original | No especificada (el texto del registro solo dice «DURVALUMAB») |
+| Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
 | Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 16 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Durvalumab es un anticuerpo monoclonal humano de tipo IgG1 kappa que actúa como inhibidor del ligando de muerte programada 1 (PD-L1). Al bloquear la unión de PD-L1 con sus receptores PD-1 y CD80 (B7.1), Durvalumab restaura la capacidad citotóxica de los linfocitos T infiltrantes de tumor, revirtiendo el mecanismo de escape inmunológico que caracteriza a los carcinomas uroteliales. Aunque los datos de mecanismo de acción no están disponibles en el JSON de entrada, este perfil está bien documentado en la literatura internacional y justifica la predicción del modelo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Aun así, durvalumab es conocido como un bloqueador de PD-L1, y el bloqueo de PD-1/PD-L1 es una estrategia establecida en el carcinoma urotelial.
 
-El carcinoma urotelial de uretra prostática comparte con el carcinoma urotelial vesical la misma estirpe histológica (células de transición), el mismo patrón de expresión elevada de PD-L1 y mecanismos equivalentes de supresión inmunológica mediada por el eje PD-1/PD-L1. La uretra prostática es una extensión anatómica directa del tracto urinario inferior, por lo que las células tumorales en este sitio presentan características moleculares prácticamente idénticas a las del carcinoma urotelial vesical, indicación para la que Durvalumab ya cuenta con aprobación regulatoria global.
+La uretra prostática es una localización del tracto urinario cuyo tumor tiene histología urotelial, similar a la del cáncer de vejiga. Por esa cercanía, el mecanismo podría ser aplicable en teoría.
 
-El concepto de efecto de clase (class effect) en inhibidores de PD-L1 para tumores uroteliales, independientemente del sitio anatómico de origen, constituye la base teórica de esta predicción. Sin embargo, la uretra prostática como localización anatómica específica carece por completo de datos clínicos o traslacionales independientes, lo que limita la certeza al nivel mecanístico-preclínico y obliga a una postura de espera activa.
-
----
+Esta extrapolación se apoya solo en la similitud histológica y en un puntaje alto del modelo. No hay ensayos ni literatura que confirmen que funcione en esta localización específica.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación específica.
-
----
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-Durvalumab no cuenta con registros sanitarios vigentes ante el INVIMA. El fármaco no está comercializado en Colombia y no se encontraron licencias registradas en la base de datos consultada (búsqueda realizada el 2026-03-29, resultado: 0 registros).
+Los 5 registros mostrados en los datos corresponden al mismo registro sanitario y al mismo producto, por lo que se presentan en una sola fila. El total informado es de 16 registros.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20143749 | IMFINZI® 50 MG/ML CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN (AstraZeneca Colombia S.A.S) | Solución concentrada para infusión | DURVALUMAB (sin detalle de indicación) |
 
 ## Citotoxicidad
 
-Durvalumab es un fármaco antineoplásico de la categoría inmunoterapia oncológica (inhibidor de punto de control inmunitario).
-
 | Item | Contenido |
-|------|-----------|
-| Clasificación de Citotoxicidad | Inmunoterapia — Inhibidor de PD-L1 (anticuerpo monoclonal IgG1 kappa; no citotóxico convencional) |
-| Riesgo de Mielosupresión | Bajo directo — no causa aplasia medular; riesgo de citopenias autoinmunes (anemia hemolítica, trombocitopenia inmune) infrecuente pero documentado |
-| Clasificación de Emetogenicidad | Mínima — los anticuerpos monoclonales administrados por vía intravenosa presentan potencial emetogénico mínimo según clasificación ASCO/MASCC |
-| Items de Monitoreo | Hemograma con diferencial, ALT/AST/bilirrubina (hepatitis inmuno-mediada), TSH/T4 libre (tiroiditis), glucemia en ayunas (diabetes tipo 1 inmuno-mediada), creatinina (nefritis), radiografía/TC tórax (neumonitis) |
-| Protección en Manejo | Precauciones estándar para biológicos IV; no requiere las precauciones de citotóxico convencional (sin riesgo mutagénico/teratogénico por exposición cutánea a derrames) |
-
----
+|------|------|
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad completa (advertencias, contraindicaciones e interacciones farmacológicas no disponibles en esta versión del Evidence Pack).
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Si bien la racionalidad mecanística es coherente —el efecto de clase PD-L1 en carcinoma urotelial es biológicamente sólido—, la ausencia total de datos clínicos específicos para la uretra prostática como sitio anatómico independiente impide avanzar hacia evaluación clínica o regulatoria en este momento.
+Para esta indicación solo existe la predicción del modelo (L5), sin ensayos clínicos ni literatura. El puntaje alto de TxGNN no basta para avanzar.
+
+Entre las otras indicaciones predichas, el carcinoma urotelial de vejiga infiltrante con variante sarcomatoide (rank 3) tiene el respaldo más cercano. Se trata del ensayo NCT03912818, de Fase 2, que fue terminado con solo 7 pacientes y por eso no permite sacar conclusiones.
 
 **Para avanzar se necesita:**
-- Identificar series de casos o estudios retrospectivos de carcinoma urotelial de uretra prostática tratado con inhibidores de PD-L1/PD-1
-- Obtener datos de expresión de PD-L1 (por inmunohistoquímica, 22C3 o SP142) específicos para tumores uroteliales de uretra prostática
-- Completar la ficha de seguridad de Durvalumab con el prospecto oficial (advertencias de reacciones inmuno-mediadas, contraindicaciones y potenciales interacciones)
-- Evaluar viabilidad de acceso en Colombia mediante importación especial o programa de uso compasivo, dado el estado de no comercialización ante el INVIMA
-- Considerar reclasificar la prioridad de investigación hacia las indicaciones de mayor evidencia del mismo Evidence Pack (p. ej., carcinoma urotelial vesical sarcomatoide variante infiltrante, Rank 3, con recomendación "Proceed with Guardrails")
+- Buscar ensayos y literatura específicos sobre durvalumab en carcinoma urotelial de la uretra prostática.
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, que hoy es un vacío bloqueante para el tamizaje de seguridad.
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Confirmar la indicación original aprobada en Colombia, porque el registro solo muestra el nombre del fármaco.
+- Evaluar la compatibilidad de vía de administración, que sigue pendiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

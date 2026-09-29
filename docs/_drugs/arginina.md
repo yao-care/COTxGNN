@@ -2,7 +2,7 @@
 layout: default
 title: Arginina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 43
+nav_order: 54
 evidence_level: L5
 indication_count: 0
 ---

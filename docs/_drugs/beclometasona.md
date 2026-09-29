@@ -2,7 +2,7 @@
 layout: default
 title: Beclometasona
 parent: Solo Predicción del Modelo (L5)
-nav_order: 63
+nav_order: 80
 evidence_level: L5
 indication_count: 0
 ---

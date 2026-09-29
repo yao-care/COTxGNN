@@ -2,7 +2,7 @@
 layout: default
 title: Axitinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 53
+nav_order: 68
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,73 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# AXITINIB: Evaluación de Reposicionamiento Pendiente – Evidence Pack Incompleto
+# Axitinib: De Carcinoma de Células Renales Avanzado a Carcinoma Renal con Translocaciones Xp11.2/Fusiones del Gen TFE3
 
 ## Resumen en Una Frase
 
-AXITINIB (DrugBank: DB06626) es un inhibidor selectivo de tirosina quinasa dirigido a VEGFR-1/2/3, aprobado internacionalmente para el carcinoma de células renales avanzado.
-El presente Evidence Pack (v4, corte 2026-04-20) **no contiene predicciones TxGNN** ni datos estructurados de indicación original, mecanismo de acción o seguridad.
-Sin una indicación predicha, **no es posible completar la evaluación de reposicionamiento** en esta versión del paquete.
-
----
+Axitinib es un inhibidor oral de los receptores VEGFR1-3, utilizado en el tratamiento del carcinoma de células renales (CCR) avanzado.
+El modelo TxGNN predice que podría ser efectivo para el **carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TFE3**,
+con **1 ensayo clínico** (fase 2, sin resultados publicados) y **ninguna publicación** que respalden actualmente esta dirección específica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en este Evidence Pack |
-| Nueva Indicación Predicha | Sin predicción disponible |
-| Puntaje de Predicción TxGNN | No disponible |
-| Nivel de Evidencia | L5 – Sin estudios reales en este paquete |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | Carcinoma de células renales avanzado (el texto del registro INVIMA solo dice "AXITINIB" y no detalla la indicación; esta se toma de la evidencia clínica del paquete) |
+| Nueva Indicación Predicha | Carcinoma de células renales asociado a translocaciones Xp11.2/fusiones del gen TFE3 |
+| Puntaje de Predicción TxGNN | 99.90% |
+| Nivel de Evidencia | L5 (criterio estricto: el único ensayo no está completado y no tiene resultados; el Evidence Pack sugiere L2) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
+
+Actualmente no se dispone de datos detallados de DrugBank sobre el mecanismo de acción. Según la información del paquete de evidencia, axitinib es un inhibidor selectivo de VEGFR1-3 (con actividad más débil sobre PDGFR y KIT) que bloquea la angiogénesis tumoral. Su eficacia en el CCR de células claras está respaldada por ensayos de fase 3: AXIS en segunda línea, y KEYNOTE-426 y JAVELIN Renal 101 en primera línea combinado con inmunoterapia.
+
+El CCR con fusión TFE3 es un tumor muy vascularizado. Por eso el bloqueo antiangiogénico es mecanísticamente plausible, y los inhibidores de VEGFR habrían mostrado actividad en series retrospectivas. Esas series no forman parte de los datos recibidos, así que no se pueden verificar aquí.
+
+Esta variante es biológicamente distinta del CCR de células claras, que es el que domina los ensayos pivotales. Por eso la extrapolación es indirecta y hoy se apoya en la cercanía en el grafo de conocimiento y en un ensayo pequeño en curso.
+
+## Evidencia de Ensayos Clínicos
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT03595124](https://clinicaltrials.gov/study/NCT03595124) | Fase 2 | Activo, sin reclutamiento | 15 | Ensayo aleatorizado de axitinib + nivolumab frente a nivolumab solo en CCR con translocación TFE, irresecable o metastásico, en todos los grupos de edad. Sin resultados disponibles; la muestra es muy pequeña y la finalización está prevista para nov. 2026. |
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible para esta indicación específica.
 
 ## Información de Mercado en Colombia
 
-AXITINIB **no cuenta con registros sanitarios vigentes en Colombia**. La consulta realizada el 2026-03-29 no encontró licencias activas.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20210813 | GLENMARK AXZYB® 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Solo figura el principio activo: AXITINIB |
+| 20056375 | INLYTA® 1 MG TABLETA RECUBIERTA | Tableta recubierta | Solo figura el principio activo: AXITINIB |
 
-> No hay registros sanitarios que listar para este fármaco.
-
----
+Nota: el paquete reporta 20 registros en total, pero solo se incluyeron 5 entradas, de las cuales 4 son duplicados del registro 20210813.
 
 ## Citotoxicidad
 
-AXITINIB pertenece a la clase de agentes antineoplásicos de terapia dirigida, por lo que aplica la sección de citotoxicidad con base en su perfil farmacológico conocido. Los datos del Evidence Pack para este apartado están pendientes de incorporación desde el prospecto recuperado.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida – Inhibidor de tirosina quinasa (VEGFR-1/2/3) |
-| Riesgo de Mielosupresión | Bajo a moderado (menor que quimioterapia citotóxica convencional) |
-| Clasificación de Emetogenicidad | Baja |
-| Ítems de Monitoreo | Presión arterial, función tiroidea (TSH), función hepática (ALT/AST), función renal, hemograma |
-| Protección en Manejo | Seguir precauciones estándar para agentes antineoplásicos orales |
-
-> **Nota:** Estos datos provienen del perfil farmacológico general de AXITINIB. El prospecto fue recuperado exitosamente (log ID 4) pero aún no ha sido incorporado al campo de seguridad del Evidence Pack.
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa de VEGFR1-3) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Presión arterial (hipertensión), función hepática, y signos de sangrado o trombosis (según las salvaguardas del paquete de evidencia) |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-> Consultar el prospecto para información de seguridad. El registro del pipeline confirma que se recuperó 1 prospecto (fuente: `tfda_package_insert`, 2026-03-29), pero los datos de advertencias y contraindicaciones no fueron cargados en los campos estructurados de este Evidence Pack.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack v4 de AXITINIB presenta brechas de datos en múltiples campos críticos: no se generaron predicciones TxGNN (`predicted_indications: []`), los campos de indicación original y mecanismo de acción están vacíos, y los datos de seguridad del prospecto recuperado no fueron incorporados. Sin una indicación predicha, no existe base para el análisis de reposicionamiento.
+Para esta variante específica solo existe un ensayo de fase 2 pequeño (n=15), aún sin resultados, y ninguna publicación. La predicción es mecanísticamente plausible, pero todavía no hay evidencia clínica que la confirme.
 
 **Para avanzar se necesita:**
-- **Ejecutar el pipeline TxGNN** para generar `predicted_indications` (el fármaco existe en DrugBank – log ID 3 confirmó 1 resultado)
-- **Incorporar datos de DrugBank** a los campos `original_moa` y `original_indications`
-- **Parsear el prospecto recuperado** (log ID 4: `tfda_package_insert`, éxito) hacia los campos `safety.key_warnings` y `safety.contraindications`
-- **Evaluar viabilidad de ingreso al mercado colombiano**: AXITINIB no tiene registro sanitario vigente; se debe determinar si procede solicitud de registro nuevo o importación bajo mecanismo especial
-- Actualizar el Evidence Pack a **v5** con los datos completos antes de reclasificar la decisión
+- Resultados del ensayo NCT03595124, cuya finalización está prevista para noviembre de 2026.
+- Datos de eficacia específicos para CCR con fusión TFE3, por ejemplo las series retrospectivas mencionadas en el análisis mecanístico.
+- Datos del mecanismo de acción desde DrugBank.
+- Advertencias y contraindicaciones del prospecto INVIMA, requeridas para el tamizaje de seguridad.
+- Vigilar hipertensión, función hepática, riesgo de sangrado o trombosis e interacciones con CYP3A4 si se avanza.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Meloxicam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 167
+nav_order: 273
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Meloxicam: De Osteoartritis y Artritis Reumatoide a Acromesomelic Dysplasia, Hunter-Thompson Type
+# Meloxicam: De AINE (indicación original no registrada) a Displasia Acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Meloxicam es un antiinflamatorio no esteroideo (AINE) con selectividad preferencial por COX-2, utilizado ampliamente para el manejo del dolor e inflamación en condiciones como osteoartritis, artritis reumatoide y artritis idiopática juvenil.
-El modelo TxGNN predice que podría ser efectivo para **Acromesomelic Dysplasia, Hunter-Thompson Type** (displasia acromesomélica tipo Hunter-Thompson),
-sin embargo, **no existen ensayos clínicos ni publicaciones** que respalden actualmente esta dirección, situando la evidencia exclusivamente en la predicción computacional.
-
----
+Meloxicam es un antiinflamatorio no esteroideo (AINE) inhibidor de la COX-2. Los registros sanitarios colombianos del Evidence Pack no describen su indicación original.
+El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomélica tipo Hunter-Thompson**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Además, el análisis mecanístico no encuentra un vínculo plausible.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No disponible en el registro colombiano (sin licencias activas) |
-| Nueva Indicación Predicha | Acromesomelic dysplasia, Hunter-Thompson type |
+|------|------|
+| Indicación Original | No disponible. El texto de indicación registrado solo dice "MELOXICAM" |
+| Nueva Indicación Predicha | Displasia acromesomélica tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este Evidence Pack. Según la información conocida, Meloxicam es un AINE con inhibición preferencial de COX-2 que actúa suprimiendo la síntesis de prostaglandinas mediante la inhibición de las ciclooxigenasas 1 y 2. Este mecanismo produce efectos antiinflamatorios, analgésicos y antipiréticos, siendo utilizado clásicamente para osteoartritis, artritis reumatoide y artritis idiopática juvenil.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Meloxicam pertenece a la clase de los AINE y actúa inhibiendo la COX-2, con lo que reduce la síntesis de prostaglandinas y la inflamación y el dolor asociados.
 
-La displasia acromesomélica tipo Hunter-Thompson es una condición genética causada por mutaciones en el gen **GDF5/CDMP-1**, que genera anomalías estructurales en el desarrollo de los segmentos medios de las extremidades (cúbito, radio, tibia, peroné). Se trata de un defecto del desarrollo óseo de origen genético, no de una enfermedad inflamatoria primaria.
+La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética causada por pérdida de función de *CDMP1/GDF5*. El defecto está en el crecimiento óseo, y la inhibición de la COX-2 no actúa sobre esa vía. El análisis no identifica un vínculo plausible entre ambos.
 
-Según el análisis de racionalidad incluido en este Evidence Pack, la conexión mecanística es extremadamente débil: la inhibición de prostaglandinas por Meloxicam podría teóricamente aliviar inflamación secundaria, pero no tiene ningún efecto modificador sobre la causa genética subyacente. El puntaje elevado de TxGNN probablemente refleja un efecto de agrupamiento de nodos de enfermedades esqueléticas dentro del grafo de conocimiento, más que una relación biológica directa y verificable. La predicción carece de credibilidad biológica suficiente para justificar investigación clínica en esta indicación específica.
-
----
+El puntaje TxGNN es muy alto (99.92%), pero probablemente refleja cercanía en el grafo de conocimiento y no una relación farmacológica real. Por eso esta predicción debe tratarse como un artefacto del modelo mientras no se demuestre lo contrario.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
+
+Se reportan 20 registros en total. En la muestra de 5 filas, los registros aparecen repetidos, por lo que se listan solo los 2 registros distintos.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19986264 | MEPROGAL 15MG TABLETA | Tableta | MELOXICAM (sin descripción de indicación) |
+| 227880 | ARTRICLOX 15 MG TABLETAS | Tableta | MELOXICAM (sin descripción de indicación) |
+
+La vía de administración disponible es oral.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para displasia acromesomélica tipo Hunter-Thompson no cuenta con respaldo clínico ni preclínico: no existen ensayos clínicos ni publicaciones que apoyen este uso, y el análisis mecanístico evidencia una conexión biológica extremadamente débil entre la inhibición de prostaglandinas (mecanismo de Meloxicam) y la patogénesis genético-estructural de esta displasia.
+No hay ensayos ni literatura que respalden la predicción, y el análisis mecanístico indica que la COX-2 no participa en la patogenia de la enfermedad. Con evidencia L5 (solo predicción del modelo), no se justifica avanzar.
 
 **Para avanzar se necesita:**
-- Completar el perfil de seguridad del fármaco: obtener advertencias, contraindicaciones e interacciones desde el prospecto oficial
-- Confirmar el mecanismo de acción detallado (MOA) mediante consulta a DrugBank API
-- Obtener registro sanitario o reconocimiento de comercialización en Colombia para viabilidad regulatoria
-- Considerar priorizar indicaciones con mayor plausibilidad biológica identificadas en el mismo pack:
-  - **Espondiloartropatía** (Rank 6, L4): respaldo indirecto de clase (AINE como primera línea en SpA según guías ASAS/EULAR)
-  - **Artritis idiopática juvenil RF+ poliarticular** (Rank 8, L4): FDA ha aprobado Meloxicam en JIA pediátrica; existe literatura de seguridad disponible (PMID 25057265)
+- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones.
+- Obtener los datos de mecanismo de acción desde DrugBank.
+- Confirmar la indicación original aprobada de meloxicam, ya que el registro local solo muestra el nombre del principio activo.
+- Revisar las otras predicciones del listado con mayor plausibilidad biológica:
+  - Espondiloartropatía, susceptibilidad a (puesto 6). Los AINE son terapia de primera línea, pero no hay ensayos ni literatura en el paquete.
+  - Artritis idiopática juvenil poliarticular con factor reumatoide positivo (puesto 8). Solo hay un estudio de seguridad de clase con celecoxib y AINE no selectivos, no específico de meloxicam. Podría ser un uso ya establecido y no un reposicionamiento, lo que debe verificarse contra el etiquetado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

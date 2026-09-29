@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 135
+nav_order: 221
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,83 +29,65 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como contexto de proyecto. Procedo a generar el informe a partir del Evidence Pack proporcionado.
-
----
-
-# Indacaterol: De EPOC/Asma a Síndrome Nefrogénico de Antidiuresis Inapropiada
+# Indacaterol: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
 
 ## Resumen en Una Frase
 
-Indacaterol es un agonista β₂-adrenérgico de acción ultralarga (ultra-LABA) aprobado internacionalmente para el tratamiento de la Enfermedad Pulmonar Obstructiva Crónica (EPOC) y el asma, aunque actualmente no se encuentra registrado en Colombia.
-El modelo TxGNN predice que podría ser efectivo para el **Síndrome Nefrogénico de Antidiuresis Inapropiada (NSIAD)**,
-con **0 ensayos clínicos** y **0 publicaciones** que respalden actualmente esta dirección; la predicción se basa exclusivamente en conexiones del grafo de conocimiento biomédico.
-
----
+Indacaterol es un agonista beta2 de acción ultra-prolongada, utilizado en enfermedades obstructivas de las vías respiratorias. En Colombia se comercializa dentro de una combinación inhalada con mometasona. El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | EPOC / Asma (ultra-LABA de acción prolongada; clase farmacológica establecida) |
-| Nueva Indicación Predicha | Síndrome Nefrogénico de Antidiuresis Inapropiada (NSIAD) |
+| Item | Contenido |
+|------|------|
+| Indicación Original | FORMOTEROL Y MOMETASONA (texto tal como figura en el registro INVIMA; no describe con claridad una indicación) |
+| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 99.54% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción desde las fuentes regulatorias colombianas. Con base en el conocimiento farmacológico establecido, Indacaterol es un agonista β₂-adrenérgico de acción ultralarga (ultra-LABA) cuyo mecanismo central consiste en la activación de receptores β₂ en el músculo liso bronquial: esto eleva el AMP cíclico (AMPc) intracelular, activa la proteína quinasa A (PKA) y produce relajación muscular con broncodilatación sostenida de 24 horas. Es parte de combinaciones de dosis fija ampliamente estudiadas (IND/GLY, IND/GLY/MOM) para EPOC y asma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, indacaterol es un agonista beta2-adrenérgico de acción ultra-prolongada que relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida. Su uso está establecido en la enfermedad pulmonar obstructiva crónica (EPOC) y en combinaciones fijas para asma.
 
-El Síndrome Nefrogénico de Antidiuresis Inapropiada (NSIAD) es una enfermedad de origen genético causada por mutaciones de ganancia de función en el receptor de vasopresina tipo 2 (AVPR2), que mantiene el receptor constitutivamente activo, elevando de forma sostenida el AMPc independientemente de la vasopresina. La conexión hipotética explorada por TxGNN se apoya en que la señalización β₂ → AMPc↑ → PKA podría, teóricamente, cruzarse con la vía downstream ya activa del receptor AVPR2, ya que ambas convergen en el segundo mensajero AMPc.
+**Con la evidencia disponible, la predicción no parece razonable desde el punto de vista mecanístico.** El síndrome nefrogénico de antidiuresis inapropiada surge de variantes con ganancia de función del receptor V2 de la vasopresina (AVPR2), una vía distinta de la señalización beta2-adrenérgica. No se identificó ningún vínculo entre ambas.
 
-Sin embargo, esta intersección de señalización nunca ha sido validada en el contexto específico del NSIAD, ni existen datos preclínicos o hipótesis clínicas formales al respecto. La marcada discrepancia entre el altísimo puntaje TxGNN (99.54%) y la ausencia total de evidencia real coloca esta predicción en la categoría clásica de **"predicción exclusiva por grafo" (graph-predicted only)**, sin respaldo experimental independiente.
-
----
+El puntaje alto de TxGNN refleja una asociación en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe leerse como una hipótesis computacional, no como una señal de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con NSIAD e Indacaterol registrados.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con NSIAD e Indacaterol disponible.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Indacaterol no cuenta con ningún registro sanitario activo en Colombia. El fármaco no se encuentra comercializado en el mercado colombiano a la fecha de corte de este informe (2026-05-05).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20209060 | ATECTURA® BREEZHALER® 150/80 MCG polvo para inhalación cápsula dura (Novartis Pharma AG) | Cápsula dura | FORMOTEROL Y MOMETASONA |
 
----
+Nota: los 5 registros listados en el paquete de evidencia son idénticos (mismo número, producto e indicación), por lo que se muestran una sola vez. El total reportado es de 20 registros.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-A pesar del altísimo puntaje TxGNN (99.54%), la predicción para NSIAD carece por completo de evidencia clínica o preclínica de respaldo. La conexión mecanística propuesta entre la señalización β₂ y el receptor constitutivamente activo AVPR2 es puramente hipotética y ningún estudio la ha explorado, lo que impide avanzar con confianza hacia investigación traslacional o clínica.
+La predicción es solo del modelo (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la agonía beta2 y la ganancia de función de AVPR2. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- **Estudios preclínicos**: modelos celulares o animales de NSIAD que validen la hipótesis de interacción β₂ → AMPc / AVPR2 como concepto de prueba
-- **Datos de MOA completos**: consultar DrugBank (DB05039) para confirmar el perfil de receptor y los efectos sistémicos conocidos
-- **Información de seguridad**: obtener advertencias, contraindicaciones y perfil de interacciones farmacológicas desde el prospecto oficial (TFDA/EMA/FDA)
-- **Evaluación de viabilidad de ruta de administración**: Indacaterol es un fármaco inhalado con biodisponibilidad sistémica muy baja (<2%); sería necesario evaluar si este perfil farmacocinético permite alcanzar concentraciones renales terapéuticas o si se requeriría una formulación alternativa
-- **Gestión de registro sanitario en Colombia**: el fármaco no está comercializado en el país; cualquier investigación requeriría aprobación de INVIMA para uso en investigación
+- Un vínculo mecanístico creíble, apoyado en estudios preclínicos o de mecanismo, entre la vía beta2-adrenérgica y la vía de AVPR2
+- Confirmar la indicación original en el prospecto de INVIMA, ya que el texto del registro solo menciona "formoterol y mometasona"
+- Datos de mecanismo de acción, advertencias y contraindicaciones desde DrugBank e INVIMA
 
-> **Nota clínica adicional**: Entre las 10 indicaciones predichas por TxGNN para Indacaterol, la indicación **"bronchial disease" (rango 7)** presenta el nivel de evidencia más alto (L1), con más de 37 ensayos clínicos y 20 publicaciones, y una recomendación de **"Proceed with Guardrails"**. Esta corresponde esencialmente al uso broncodilatador ya establecido del fármaco (EPOC/asma), lo que valida el modelo pero no constituye reposicionamiento propiamente dicho. Las demás indicaciones nuevas predichas (rangos 1–6 y 8–10) son todas L5/Hold sin evidencia de respaldo.
+**Observación complementaria:** dentro de las predicciones del mismo paquete, "enfermedad bronquial" (posición 7) tiene evidencia L1 y recomendación "Proceed with Guardrails". Sin embargo, corresponde a un uso en asma y EPOC que es esencialmente el uso habitual del fármaco, no un reposicionamiento nuevo. Si se desea una evaluación completa de esa indicación, conviene generar un informe separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

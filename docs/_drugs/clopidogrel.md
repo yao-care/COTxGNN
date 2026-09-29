@@ -2,7 +2,7 @@
 layout: default
 title: Clopidogrel
 parent: Evidencia Moderada (L3-L4)
-nav_order: 90
+nav_order: 136
 evidence_level: L3
 indication_count: 8
 ---
@@ -29,68 +29,73 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Clopidogrel: De Enfermedad Cardiovascular Ateroesclerótica a Migraña con Aura de Tronco Cerebral
+# Clopidogrel: De Prevención de Eventos Trombóticos Vasculares a Migraña con Aura del Tronco Encefálico
 
 ## Resumen en Una Frase
 
-Clopidogrel es un inhibidor irreversible del receptor plaquetario P2Y12, ampliamente utilizado a nivel mundial para la prevención de eventos aterotrombóticos en síndrome coronario agudo, ictus isquémico y enfermedad arterial periférica, aunque actualmente no cuenta con registro sanitario en Colombia. El modelo TxGNN predice que podría ser efectivo para la **migraña con aura de tronco cerebral**, con **0 ensayos clínicos específicos** y **16 publicaciones** que actualmente respaldan esta dirección. La evidencia disponible proviene principalmente de estudios observacionales y un ensayo piloto aleatorizado, todos ellos en pacientes con foramen oval permeable (FOP), lo que sugiere un subgrupo específico de beneficio potencial.
+Clopidogrel es un antiagregante plaquetario, usado originalmente para prevenir eventos trombóticos vasculares como el síndrome coronario agudo y el ictus isquémico.
+El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**,
+pero no hay **ningún ensayo clínico** registrado para esta indicación exacta. Hay **16 publicaciones** recuperadas, la mayoría sobre migraña con aura asociada a foramen oval permeable (FOP) o a cierre de comunicación interauricular, no específicamente sobre aura de tronco encefálico.
 
 ---
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
+| Item | Contenido |
 |------|------|
-| Indicación Original | Prevención de eventos aterotrombóticos (síndrome coronario agudo, ictus isquémico, enfermedad arterial periférica) |
-| Nueva Indicación Predicha | Migraña con aura de tronco cerebral |
+| Indicación Original | No especificada en el registro INVIMA (el texto solo repite "CLOPIDOGREL"). Según la literatura recuperada: prevención de eventos trombóticos vasculares (síndrome coronario agudo e ictus isquémico) |
+| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
 | Puntaje de Predicción TxGNN | 99.44% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 10 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aunque los datos formales de mecanismo de acción no están disponibles en este Evidence Pack, Clopidogrel es una tienopiridina cuyo perfil farmacológico está bien caracterizado en la literatura científica: inhibe de forma irreversible el receptor P2Y12 en las plaquetas, bloqueando la agregación inducida por ADP y reduciendo la liberación plaquetaria de serotonina (5-HT), tromboxano A₂ y otros mediadores vasoactivos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de datos. Lo que sigue es una inferencia, no un dato confirmado. Clopidogrel bloquea de forma irreversible el receptor plaquetario P2Y12, lo que reduce la agregación de las plaquetas. Su eficacia como antitrombótico está bien establecida en enfermedad vascular.
 
-La migraña con aura de tronco cerebral (anteriormente denominada migraña basilar) involucra mecanismos de depresión cortical propagada a nivel del tronco encefálico (BS-CSD) y alteraciones en la vasculatura de la arteria basilar. En pacientes con foramen oval permeable (FOP), los microémbolos del circuito venoso pueden eludir el filtro pulmonar y activar directamente los núcleos trigeminales del tronco cerebral, desencadenando el fenómeno de aura y la cefalea. Al reducir la activación plaquetaria y la liberación de mediadores vasoactivos, Clopidogrel podría interrumpir este mecanismo de disparo en el subgrupo de pacientes con FOP significativo como factor contribuyente.
+La conexión con la migraña se apoya en una hipótesis: la activación plaquetaria, la liberación de serotonina derivada de las plaquetas y los microémbolos paradójicos que pasan por cortocircuitos derecha-izquierda (por ejemplo, un FOP) podrían desencadenar la migraña con aura. Si esto fuera cierto, bloquear P2Y12 podría reducir esos desencadenantes. Los estudios recuperados van en esa línea: el uso de clopidogrel se ha asociado con menos migraña en pacientes con FOP o tras el cierre de defectos septales auriculares.
 
-No obstante, la conexión mecanística tiene límites claros: la migraña con aura de tronco cerebral también involucra canalopatías iónicas (gen *CACNA1A*) y alteraciones en el umbral de CSD que no son modificables por agentes antiplaquetarios. El beneficio potencial de Clopidogrel estaría restringido al subgrupo con shunt derecha-izquierda demostrado, y no aplica a la población general de migrañosos con aura basilar de origen primario.
+Hay que ser cautos. No se ha demostrado ningún mecanismo específico para el aura de tronco encefálico. La evidencia se concentra en un subgrupo (migraña con cortocircuito derecha-izquierda), y no se puede extrapolar sin más a esta variante ni a la migraña en general.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos registrados específicamente para la indicación de migraña con aura de tronco cerebral.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
-> **Contexto clínico**: Los ensayos clínicos con Clopidogrel en el espectro de la migraña están registrados bajo la categoría más amplia de "migraña" (Rank 2 de este informe), donde existe evidencia de mayor jerarquía, incluyendo el ensayo completado CANOA (NCT00799045, N=220, Fase 4) y el ensayo en curso COMPETE (NCT05546320, N=1.000, Fase 4).
+Nota: la segunda indicación predicha, "migraña" en general, sí tiene ensayos con clopidogrel (por ejemplo, [NCT00799045](https://clinicaltrials.gov/study/NCT00799045), CANOA, Fase 4, completado, 220 participantes). Corresponde evaluarla por separado.
 
 ---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión Sistemática | *Headache* | Explora la evidencia disponible sobre el rol de los antitrombóticos como medicación preventiva de migraña; incluye análisis de clopidogrel |
-| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | ECA | *European Heart Journal* | Ensayo PRIMA: cierre percutáneo de FOP vs tratamiento médico en migraña con aura refractaria; clopidogrel como componente del brazo de cierre |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA Piloto | *Cephalalgia* | Clopidogrel como tratamiento profiláctico de migraña: primer ensayo piloto aleatorizado controlado con este fármaco en población migrañosa general |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte Observacional | *J Investig Med* | Clopidogrel 75 mg/día añadido al régimen profiláctico existente por 3–6 meses en migrañosos refractarios con FOP; FOP presente en 56.8% de los pacientes |
-| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Observacional | *Heart* | Clopidogrel reduce migraña con aura tras cierre transcatéter de FOP y comunicación interauricular (CIA); primer reporte que vincula clopidogrel con reducción de migraña con aura |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Piloto Abierto | *Neurology* | Estudio TRACTOR: ticagrelor (otro inhibidor P2Y12) reproduce efectos similares a clopidogrel en migraña refractaria con FOP, reforzando el papel del eje P2Y12 |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Cohorte Retrospectiva | *Neurology* | Revisión retrospectiva de tienopiridinas (clopidogrel y prasugrel) en migrañosos con FOP; reporta reducción de frecuencia de ataques en subgrupo respondedor |
-| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Revisión Retrospectiva | *Cephalalgia* | Clopidogrel como terapia primaria en migrañosos con shunt derecha-izquierda; vincula activación plaquetaria y embolización paradójica con la fisiopatología de la migraña con aura |
-| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Serie de Casos | *J Interv Cardiol* | Migraña intensa en 5/13 pacientes tras cierre percutáneo de CIA; alivio casi inmediato con 300 mg de clopidogrel, sugiriendo rol mediado por plaquetas |
-| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Caso Clínico | *Cephalalgia* | Migraña de novo tras cierre de CIA; antiagregantes plaquetarios incluyendo clopidogrel asociados a mejoría de síntomas migrañosos post-procedimiento |
+|------|-----|------|------|---------|
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA piloto | Cephalalgia | Ensayo aleatorizado piloto de clopidogrel como profilaxis de migraña, motivado por reportes anecdóticos de que podría prevenir las crisis |
+| [26908949](https://pubmed.ncbi.nlm.nih.gov/26908949/) | 2016 | ECA (dispositivo, no fármaco) | European Heart Journal | Ensayo PRIMA: cierre percutáneo de FOP en migraña con aura refractaria. Respalda la asociación FOP-migraña, pero no evalúa clopidogrel |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión sistemática | Headache | Explora la evidencia del papel de los antitrombóticos como prevención de la migraña |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte | Journal of Investigative Medicine | Clopidogrel 75 mg/día añadido al tratamiento preventivo en migraña refractaria con FOP, con seguimiento a 3 y 6 meses |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Cohorte | Heart | Clopidogrel redujo la migraña con aura tras el cierre transcatéter de FOP y defectos septales auriculares |
+| [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Revisión retrospectiva | Cephalalgia | Clopidogrel como terapia primaria en pacientes con migraña y lesiones de cortocircuito derecha-izquierda |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Revisión retrospectiva | Neurology | Uso fuera de indicación de tienopiridinas en migraña con FOP |
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Estudio piloto abierto (ticagrelor) | Neurology | Estudio piloto (TRACTOR) con ticagrelor, otro inhibidor de P2Y12, en migraña/FOP refractaria. No es clopidogrel |
+| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Serie de pacientes (sin clasificar) | J Interv Cardiol | Migraña intensa en 5 de 13 pacientes tras el cierre de defecto septal auricular, con alivio casi inmediato tras 300 mg de clopidogrel |
+| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Sin clasificar | Cephalalgia | Migraña de novo tras cierre de defecto septal auricular, con eficacia exclusiva de ticlopidina (análogo de clopidogrel) |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Clopidogrel **no cuenta con registros sanitarios INVIMA activos** a la fecha de corte de este informe (2026-06-04). No está comercializado en Colombia bajo ninguna forma farmacéutica ni concentración disponible en el mercado local.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20198152 | CLOPIDOGREL 75 MG TABLETAS RECUBIERTAS (Laboratorios Richmond) | Tableta recubierta | No detallada (solo figura "CLOPIDOGREL") |
+| 19942021 | CLOPIDOGREL 75 MG TABLETA RECUBIERTA (Laboratorios La Santé) | Tableta recubierta | No detallada (solo figura "CLOPIDOGREL") |
 
-> **Nota para la estrategia regulatoria**: Dado que Clopidogrel es un fármaco esencial de amplio uso global con múltiples aprobaciones internacionales (FDA, EMA, entre otras), la ruta regulatoria para su introducción al mercado colombiano deberá iniciarse desde el proceso de registro ante INVIMA, lo que representa un prerrequisito para cualquier aplicación clínica o estudio local.
+Nota: se reportan 10 registros en total, pero los datos recibidos solo detallan 2 números de registro únicos, algunos repetidos en varias líneas.
 
 ---
 
@@ -105,16 +110,16 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación específica de migraña con aura de tronco cerebral no cuenta con ensayos clínicos directos registrados, y la evidencia disponible (16 publicaciones, predominantemente observacionales, en su mayoría en el contexto de FOP/CIA) corresponde a un nivel L3 que no es suficiente para respaldar una estrategia de reposicionamiento formal e independiente en esta subpoblación. Adicionalmente, Clopidogrel no está registrado en Colombia, lo que añade una barrera regulatoria significativa antes de cualquier aplicación clínica.
-
-> **Recomendación paralela**: La indicación de **migraña (general)** — Rank 2 de este informe — alcanza nivel de evidencia L2 con la recomendación "Proceed with Guardrails", respaldada por el ensayo completado CANOA (JAMA y JAMA Cardiology) y el ensayo en curso COMPETE (N=1.000). Esta indicación más amplia representa la estrategia prioritaria de exploración.
+Aunque el puntaje TxGNN es alto (99.44%), no hay ensayos clínicos para migraña con aura del tronco encefálico. La evidencia disponible es observacional o piloto y se centra en migraña con aura y FOP. Además, faltan los datos de seguridad del prospecto INVIMA, que son un vacío bloqueante para avanzar.
 
 **Para avanzar se necesita:**
-- Consultar DrugBank API para obtener datos formales de mecanismo de acción (MOA) — remediación DG002
-- Obtener y analizar el prospecto oficial (PDF INVIMA o FDA/EMA) para completar advertencias, contraindicaciones e interacciones farmacológicas — remediación DG001
-- Iniciar proceso de registro sanitario ante INVIMA como prerrequisito regulatorio colombiano
-- Diseñar protocolo de ensayo clínico específico en migraña con aura de tronco cerebral con confirmación de FOP mediante ecocardiografía con contraste
-- Considerar estrategia conjunta con la indicación de migraña general (Rank 2) para mayor eficiencia regulatoria y clínica
+- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), que es un requisito bloqueante.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar evidencia específica de aura de tronco encefálico, o decidir si conviene evaluar la indicación más amplia de migraña con aura y cortocircuito derecha-izquierda.
+- Revisar los resultados de los ensayos de la indicación "migraña" ([NCT00799045](https://clinicaltrials.gov/study/NCT00799045), [NCT05546320](https://clinicaltrials.gov/study/NCT05546320)).
+- Evaluar el riesgo de sangrado y las interacciones farmacológicas en la población migrañosa antes de cualquier uso fuera de indicación.
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

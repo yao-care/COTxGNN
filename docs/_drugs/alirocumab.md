@@ -2,7 +2,7 @@
 layout: default
 title: Alirocumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 28
+nav_order: 35
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,62 +29,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# ALIROCUMAB: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+# Alirocumab: De Indicación No Registrada (Inhibidor de PCSK9) a Ictiosis Ligada al X sin Deficiencia de Esteroide Sulfatasa
 
 ## Resumen en Una Frase
 
-ALIROCUMAB es un anticuerpo monoclonal inhibidor de PCSK9, conocido por su uso en el tratamiento de la hipercolesterolemia primaria y la reducción del riesgo cardiovascular.
-En este ciclo de evaluación, el modelo TxGNN **no generó indicaciones predichas** para este compuesto,
-por lo que no es posible completar un análisis de reposicionamiento en este momento.
-
----
+Alirocumab es un anticuerpo monoclonal que neutraliza PCSK9 y reduce el colesterol LDL. Los datos recibidos no traen una indicación original explícita.
+El modelo TxGNN predice que podría ser efectivo para **ictiosis ligada al X sin deficiencia de esteroide sulfatasa**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipercolesterolemia / Reducción de LDL-C |
-| Nueva Indicación Predicha | Sin predicciones disponibles en este ciclo |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | N/A |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Indicación Original | No disponible. El único texto registrado en las licencias es "ALIROCUMAB" (el nombre del principio activo, no una indicación) |
+| Nueva Indicación Predicha | Ictiosis ligada al X sin deficiencia de esteroide sulfatasa |
+| Puntaje de Predicción TxGNN | 99.43% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué no hay Predicciones Disponibles?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el campo del fármaco. Según la información conocida, alirocumab es un anticuerpo que neutraliza PCSK9. Con ello aumenta el reciclaje del receptor de LDL en el hígado y reduce el colesterol LDL.
 
-El Evidence Pack de ALIROCUMAB (DB09302) fue procesado con brechas de datos críticas que impiden la generación de predicciones:
+**No se identificó un vínculo mecanístico plausible** con la nueva indicación. La ictiosis ligada al X se relaciona con la esteroide sulfatasa y con la acumulación de sulfato de colesterol en la piel. Esa vía no depende del eje PCSK9/receptor de LDL.
 
-1. **Mecanismo de acción no cargado**: El pipeline no recuperó los datos de MOA desde DrugBank en este ciclo. Sin esta información, el grafo de conocimiento (KG) no puede construir las relaciones farmacológicas necesarias para TxGNN.
+El puntaje alto de TxGNN (0.994) proviene únicamente de la predicción del grafo de conocimiento. No está respaldado por estudios clínicos ni por literatura, así que debe leerse como una hipótesis sin sustento y no como una señal de eficacia.
 
-2. **Indicaciones originales ausentes**: El campo `original_indications` llegó vacío, lo que elimina los nodos de anclaje requeridos por el modelo para explorar indicaciones adyacentes.
+## Evidencia de Ensayos Clínicos
 
-3. **Array de predicciones vacío**: Como resultado de los puntos anteriores, `predicted_indications` no contiene ninguna entrada.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-Desde el punto de vista del conocimiento farmacológico de dominio, ALIROCUMAB actúa como inhibidor de PCSK9 (Proprotein Convertase Subtilisin/Kexin Type 9), un anticuerpo monoclonal completamente humano que previene la degradación de los receptores de LDL en la superficie hepática, reduciendo así los niveles plasmáticos de LDL-C entre un 40–60%. Este mecanismo tiene interés teórico de reposicionamiento en áreas como enfermedad renal crónica, inflamación sistémica o síndrome metabólico, pero sin predicciones del modelo validadas no es posible emitir una recomendación fundamentada de reposicionamiento.
+## Evidencia de Literatura
 
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-ALIROCUMAB no cuenta con registros sanitarios activos ante INVIMA y no está comercializado en Colombia. No hay licencias registradas en este ciclo de consulta.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20117604 | PRALUENT® 75MG/ML SOLUCIÓN INYECTABLE (Sanofi-Aventis de Colombia S.A.) | Solución inyectable | Solo figura "ALIROCUMAB"; el texto de la indicación no está detallado |
 
----
+Las cinco entradas devueltas corresponden al mismo registro 20117604, por eso se muestra una sola fila. El total informado es de 20 registros.
+
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack no contiene indicaciones predichas, datos de MOA ni información de seguridad recuperable, lo que hace imposible completar el análisis de reposicionamiento. No hay base de datos suficiente para emitir ninguna recomendación clínica o regulatoria.
+La predicción no tiene ensayos, literatura ni un mecanismo plausible (L5). El puntaje alto de TxGNN no compensa esa falta de sustento.
 
 **Para avanzar se necesita:**
-- Ejecutar nuevamente el pipeline TxGNN con los datos de MOA completos recuperados desde DrugBank (DB09302)
-- Descargar e interpretar el prospecto del fabricante (Praluent® / Sanofi-Regeneron) para completar advertencias, contraindicaciones y perfil de seguridad
-- Cargar las indicaciones aprobadas de referencia (FDA/EMA) como nodos de anclaje en el grafo de conocimiento
-- Verificar si existe solicitud de registro pendiente ante INVIMA o programas de acceso especial en Colombia
+- Una hipótesis biológica nueva que conecte PCSK9 o el metabolismo del colesterol con la ictiosis ligada al X. Sin ella no se justifica seguir con este candidato.
+- Confirmar la indicación original aprobada en INVIMA, ya que el registro solo muestra el nombre del fármaco.
+- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones) y completar el mecanismo de acción desde DrugBank.
+
+**Nota sobre otros candidatos del mismo paquete:** hay predicciones con más respaldo que la principal.
+- *Enfermedad del proceso catabólico del colesterol* (rank 5, L3, "Research Question"): un ensayo de Fase 3 completado con inhibición de PCSK9 (NCT03207945, n=118) y varias revisiones. La evidencia es solo a nivel de clase y no confirma que el fármaco usado fuera alirocumab. Además, podría coincidir con el uso ya aprobado y no ser un reposicionamiento real.
+- *Xantomatosis* (rank 3, L4, "Research Question"): plausible de forma indirecta, por reducción del colesterol LDL. Los dos reportes de caso recuperados no muestran que se haya evaluado alirocumab.
+- *Defecto de síntesis de colesterol con trastorno del desarrollo sexual 46,XY* (rank 6): en principio está mecanísticamente contraindicado, porque reducir el colesterol LDL podría ser perjudicial.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

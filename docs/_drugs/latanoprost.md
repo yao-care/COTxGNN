@@ -2,7 +2,7 @@
 layout: default
 title: Latanoprost
 parent: Solo Predicción del Modelo (L5)
-nav_order: 149
+nav_order: 243
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,72 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Latanoprost: Evaluación Incompleta — Sin Indicaciones Predichas Disponibles
+# Latanoprost: De Glaucoma e Hipertensión Ocular a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Latanoprost es un análogo de prostaglandina F2α ampliamente conocido por su uso en el tratamiento del glaucoma y la hipertensión ocular.
-El modelo TxGNN **no generó indicaciones predichas** para este fármaco en el Evidence Pack actual (v4, corte: 2026-04-20),
-por lo que no es posible evaluar una nueva dirección terapéutica en esta versión del informe.
-
----
+Latanoprost es un análogo de la prostaglandina F2-alfa que se usa en gotas oftálmicas, y según su uso conocido se emplea contra el glaucoma y la hipertensión ocular.
+El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
+con **1 ensayo clínico** (Fase 2, completado) y **0 publicaciones** que respaldan esta dirección.
+Esta predicción se parece más a una extensión de población (formas hereditarias o pediátricas) que a un reposicionamiento propiamente dicho.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | No registrada en el Evidence Pack (conocida externamente: glaucoma / hipertensión ocular) |
-| Nueva Indicación Predicha | — Sin datos |
-| Puntaje de Predicción TxGNN | — Sin datos |
-| Nivel de Evidencia | L5 (sin estudios reales en este pack) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+| Item | Contenido |
+|------|------|
+| Indicación Original | Glaucoma e hipertensión ocular (uso conocido). El texto del registro INVIMA solo dice "LATANOPROST", sin indicación explícita |
+| Nueva Indicación Predicha | Glaucoma hereditario primario |
+| Puntaje de Predicción TxGNN | 99.88% |
+| Nivel de Evidencia | L2 (provisional) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No se Puede Completar la Predicción
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, latanoprost es agonista del receptor FP de prostaglandinas. Reduce la presión intraocular al aumentar el drenaje del humor acuoso por la vía uveoescleral, y esa presión elevada es el principal factor de riesgo modificable del glaucoma.
 
-El Evidence Pack recibido presenta dos brechas de datos críticas que impiden la evaluación estándar:
+La indicación original (glaucoma e hipertensión ocular) y la nueva (glaucoma hereditario primario) comparten el mismo problema de fondo, que es la presión intraocular alta. Lo que cambia es la causa, en este caso genética. Por eso el puntaje tan alto del modelo es coherente con el mecanismo.
 
-1. **`predicted_indications` vacío**: El pipeline TxGNN no devolvió ninguna indicación candidata para LATANOPROST (DB00654). Sin una indicación predicha, no existe base para analizar la relación mecanística ni evaluar la evidencia clínica asociada.
+Un punto de cautela es que la respuesta en formas hereditarias o pediátricas, refractarias a cirugía, es menos predecible que en el glaucoma del adulto. El único ensayo disponible usa además una terapia combinada, así que no aísla el efecto del latanoprost.
 
-2. **Mecanismo de acción ausente** (`original_moa: "[Data Gap]"`): Aunque la literatura científica general describe a Latanoprost como un agonista del receptor FP de prostaglandinas que reduce la presión intraocular incrementando el drenaje uveoescleral, este dato no fue cargado desde DrugBank en la versión actual del pack. Esto bloquea el análisis de relevancia mecanística.
+## Evidencia de Ensayos Clínicos
 
-Adicionalmente, Latanoprost **no tiene registros sanitarios en Colombia** (total_licenses: 0), lo cual representa una barrera regulatoria adicional para cualquier ruta de reposicionamiento local.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Completado | 37 | Evalúa el efecto hipotensor ocular de latanoprost (análogo de prostaglandina) y dorzolamida (inhibidor de anhidrasa carbónica) en glaucoma pediátrico primario refractario a cirugía, además de su seguridad. El protocolo se modificó de 96 a 68 ojos. Relevancia: B |
 
----
+El diseño combina dos fármacos y la muestra es pequeña. Además, el título del ensayo está truncado, por lo que no se puede confirmar la población exacta (hereditaria o congénita) ni el comparador.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Latanoprost no cuenta con registros sanitarios activos en Colombia. No hay licencias que listar.
+Se registraron 20 licencias en total. Las cinco entradas de muestra corresponden al mismo registro, por lo que se presenta una sola fila.
 
-> Nota: El fármaco existe en el mercado global (e.g., Xalatan® de Pfizer), pero no se encontraron aprobaciones INVIMA en la consulta del 2026-03-29.
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19947216 | LATANOX® (PROCAPS S.A.) | Solución oftálmica | LATANOPROST (el registro solo indica el principio activo, sin texto de indicación) |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-> Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en este Evidence Pack. Se identificaron como brechas de datos de severidad **Blocking** (DG001) y **High** (DG002).
-
----
+No se encontraron interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El Evidence Pack versión 4 de Latanoprost está incompleto: no contiene indicaciones predichas por TxGNN, carece de datos de mecanismo de acción y no registra presencia en el mercado colombiano. No existe base suficiente para recomendar avance en ninguna dirección terapéutica nueva.
+El mecanismo es directo y el fármaco ya está comercializado en Colombia en forma oftálmica. Existe además un ensayo de Fase 2 completado en glaucoma pediátrico. Sin embargo, la evidencia es limitada (un solo ensayo con terapia combinada, sin literatura) y falta la información de seguridad del prospecto, por lo que se recomienda avanzar solo con salvaguardas.
 
 **Para avanzar se necesita:**
+- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que es un requisito para la evaluación de seguridad
+- Consultar el registro completo del ensayo NCT01527682 para confirmar la población, el comparador y la contribución específica del latanoprost
+- Obtener datos de mecanismo de acción desde DrugBank
+- Corregir el campo de indicaciones originales, que está vacío, ya que la predicción es en la práctica una extensión de población
+- Revisar la literatura sobre uso de latanoprost en glaucoma pediátrico y hereditario
 
-- **[Bloqueante]** Obtener el mecanismo de acción (MOA) desde DrugBank API — remediation DG002
-- **[Bloqueante]** Cargar advertencias y contraindicaciones desde el prospecto TFDA/FDA — remediation DG001
-- **[Requerido]** Re-ejecutar el pipeline TxGNN para que genere indicaciones predichas; revisar si el nodo de Latanoprost existe en el grafo de conocimiento con los identificadores correctos (DrugBank ID: DB00654)
-- **[Requerido]** Verificar si Latanoprost puede ser importado/registrado en Colombia antes de evaluar cualquier ruta de reposicionamiento local
-- **[Opcional]** Confirmar si existen datos de eficacia en indicaciones distintas al glaucoma en la literatura existente (p. ej., cicatrización de heridas, neuroprotección ocular)
+**Nota sobre otras predicciones:** las otras nueve predicciones del modelo (por ejemplo, calcifilaxis visceral, síndromes del desierto torácico, hipotricosis) tienen nivel L5 y decisión Hold. Solo la hipotricosis del cuero cabelludo tiene un fundamento biológico plausible, por el efecto conocido de las prostaglandinas sobre el crecimiento del pelo, pero no hay evidencia clínica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

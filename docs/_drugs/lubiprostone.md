@@ -2,7 +2,7 @@
 layout: default
 title: Lubiprostone
 parent: Solo Predicción del Modelo (L5)
-nav_order: 165
+nav_order: 268
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lubiprostone: De Constipación Crónica a Alopecia
+# Lubiprostona: De Indicación No Especificada en el Registro a Alopecia
 
 ## Resumen en Una Frase
 
-Lubiprostone es un derivado bicíclico del ácido graso estructuralmente relacionado con la prostaglandina E1, aprobado originalmente en Estados Unidos para el tratamiento de la constipación idiopática crónica, el síndrome de intestino irritable con constipación (SII-C) y la constipación inducida por opioides.
-El modelo TxGNN predice que podría ser efectivo para **Alopecia**, con un puntaje de confianza del **99.93%**.
-Sin embargo, actualmente **no existe ningún ensayo clínico ni publicación científica** que respalde directamente esta dirección de reposicionamiento.
-
----
+Lubiprostona es un activador del canal de cloruro ClC-2, derivado bicíclico del ácido graso PGE1, comercializado en Colombia como MOVIPROST® 8 mcg. El registro sanitario solo consigna el nombre del principio activo y no incluye el texto de la indicación original.
+El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero hay **0 ensayos clínicos** y **0 publicaciones** que lo respalden. Se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Constipación idiopática crónica / SII-C / Constipación inducida por opioides (aprobación FDA; sin registros en Colombia) |
+| Indicación Original | No especificada (el registro solo indica "LUBIPROSTONE") |
 | Nueva Indicación Predicha | Alopecia |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## ¿Por Qué es Razonable esta Predicción?
+No se dispone de datos formales del mecanismo de acción original en el Evidence Pack. Según el análisis de razonamiento incluido, lubiprostona es un activador del canal de cloruro ClC-2 y un ácido graso bicíclico derivado de la PGE1, con acción local en el intestino y absorción sistémica mínima.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Con base en la información farmacológica conocida, Lubiprostone actúa principalmente activando los canales de cloro tipo 2 (ClC-2) en el epitelio intestinal, lo que aumenta la secreción de fluido intestinal y facilita el tránsito. Adicionalmente, posee actividad agonista sobre los receptores de prostaglandina EP1 y EP4, con menor actividad sobre EP2.
+El único vínculo especulativo es que los análogos de prostaglandinas de receptor FP (por ejemplo, bimatoprost) pueden influir en el crecimiento del cabello. Sin embargo, lubiprostona no tiene actividad establecida sobre el receptor FP ni sobre el folículo piloso. Por eso el puntaje de 99.93% debe leerse como una asociación del grafo de conocimiento y no como evidencia farmacológica.
 
-La hipótesis de reposicionamiento para alopecia descansa en la biología de las prostaglandinas en el folículo piloso: la prostaglandina E2 (PGE2), al actuar sobre receptores EP2 y EP4, promueve la entrada del folículo a la fase de crecimiento (anágena), mientras que la prostaglandina D2 (PGD2) ejerce el efecto contrario. La estructura derivada de PGE1 de Lubiprostone le confiere teóricamente la capacidad de modular el microambiente folicular a través de esta vía.
-
-No obstante, esta conexión es marcadamente indirecta: Lubiprostone actúa principalmente en la mucosa intestinal con biodisponibilidad sistémica muy baja, y no existe ninguna evidencia preclínica (in vitro, modelos animales) ni clínica que haya explorado su efecto sobre el ciclo folicular capilar. La predicción del modelo TxGNN captura una relación de red entre entidades biológicas, pero la plausibilidad biológica en este caso es especulativa.
-
----
+Las demás predicciones del modelo tampoco tienen respaldo real. Incluyen otras formas de alopecia e hipotricosis, hipertensión pulmonar, enfermedad de Raynaud, enfermedad vascular periférica, feocromocitoma y cardiopatía cifoescoliótica. Todas están en nivel L5 y sin literatura. El único ensayo vinculado, en hipertensión pulmonar (NCT02813369), corresponde a otro fármaco (naloxegol) y no es utilizable como evidencia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Lubiprostone en alopecia.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Lubiprostone en alopecia.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Lubiprostone no cuenta con ningún registro sanitario activo en Colombia (INVIMA). El medicamento no está comercializado en el país.
+Los cinco registros devueltos corresponden al mismo número de registro sanitario, por lo que se muestra una sola fila. El total informado es de 20 registros.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20057095 | MOVIPROST® 8 MCG (TECNOQUÍMICAS S.A.) | Cápsula blanda | Solo figura el nombre "LUBIPROSTONE", sin texto de indicación |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en el Evidence Pack actual.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN alcanza un puntaje elevado (99.93%), pero la evidencia de soporte es completamente inexistente: no hay ensayos clínicos, no hay publicaciones en PubMed, y el mecanismo propuesto (actividad EP2/EP4 en folículos pilosos) es altamente especulativo dado que el perfil farmacológico de Lubiprostone está orientado al epitelio gastrointestinal con biodisponibilidad sistémica mínima. La puntuación TxGNN refleja conectividad en redes biológicas, no validación experimental.
+No existe ningún ensayo ni publicación para alopecia, y el vínculo mecanístico es especulativo. La absorción sistémica mínima de lubiprostona hace poco probable un efecto sobre el folículo piloso. La predicción no tiene respaldo más allá del modelo (L5).
 
 **Para avanzar se necesita:**
-- Estudios in vitro que evalúen el efecto de Lubiprostone sobre células de papila dérmica o queratinocitos foliculares
-- Modelos animales de alopecia (ratón C3H/HeJ o depilación química) para confirmar efecto in vivo
-- Aclarar si alguna formulación tópica podría superar la limitación de baja biodisponibilidad sistémica
-- Obtener datos completos de MOA desde DrugBank y advertencias desde INVIMA / FDA package insert
-- Explorar si las indicaciones de mayor plausibilidad mecanística del mismo Evidence Pack (p. ej., hipertensión pulmonar, enfermedad vascular periférica) ofrecen una ruta regulatoria más viable como prioridad alternativa
+- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad
+- Completar el mecanismo de acción desde DrugBank
+- Confirmar la indicación original aprobada en Colombia, ya que el registro solo trae el nombre
+- Realizar estudios preclínicos, por ejemplo en folículo piloso o modelos de alopecia, antes de considerar cualquier ensayo clínico
+- Evaluar la compatibilidad de vía de administración, hoy pendiente, ya que el producto es oral y la alopecia suele requerir acción tópica o sistémica
+
+*Estos resultados son solo para referencia de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

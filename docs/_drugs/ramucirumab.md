@@ -2,7 +2,7 @@
 layout: default
 title: Ramucirumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 204
+nav_order: 339
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,89 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramucirumab: De Adenocarcinoma Gástrico/Gastroesofágico a Adenocarcinoma de Ligamento Uterino
+# Ramucirumab: De Indicación Oncológica No Especificada en el Registro a Adenocarcinoma del Ligamento Uterino
 
 ## Resumen en Una Frase
 
-Ramucirumab es un anticuerpo monoclonal anti-VEGFR2 aprobado internacionalmente para el tratamiento del adenocarcinoma gástrico o de la unión gastroesofágica, cáncer colorrectal metastásico, cáncer de pulmón no microcítico y carcinoma hepatocelular.
-El modelo TxGNN predice que podría ser efectivo para **Adenocarcinoma de Ligamento Uterino (uterine ligament adenocarcinoma)**,
-sin embargo, actualmente **no existen ensayos clínicos ni publicaciones** que respalden directamente esta indicación, situándose en el nivel de evidencia más incipiente (L5).
-
----
+Ramucirumab es un anticuerpo que bloquea el receptor VEGFR2 y está comercializado en Colombia como CYRAMZA®. El texto del registro sanitario solo repite el nombre del principio activo y no detalla la indicación original.
+El modelo TxGNN predice que podría ser efectivo para **adenocarcinoma del ligamento uterino**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción basada únicamente en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Adenocarcinoma gástrico/gastroesofágico (aprobación internacional; sin registro INVIMA en Colombia) |
-| Nueva Indicación Predicha | Adenocarcinoma de Ligamento Uterino |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "RAMUCIRUMAB") |
+| Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino |
 | Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Ramucirumab es un anticuerpo monoclonal IgG1 humano que se une con alta afinidad al dominio extracelular del receptor VEGFR2 (receptor del factor de crecimiento endotelial vascular tipo 2), bloqueando la unión de sus ligandos principales (VEGF-A, VEGF-C, VEGF-D) e inhibiendo la señalización pro-angiogénica. Este mecanismo está validado clínicamente en múltiples tumores sólidos: adenocarcinoma gástrico/gastroesofágico (en combinación con paclitaxel o en monoterapia), cáncer colorrectal metastásico (combinado con FOLFIRI), cáncer de pulmón no microcítico (con docetaxel) y carcinoma hepatocelular (con erlotinib).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información disponible, ramucirumab es un anticuerpo que bloquea VEGFR2, un receptor clave de la angiogénesis (formación de nuevos vasos sanguíneos que alimentan al tumor). Mecanísticamente, bloquear esta vía podría ser aplicable a los adenocarcinomas ginecológicos.
 
-El adenocarcinoma de ligamento uterino pertenece a las neoplasias malignas que surgen del parametrio profundo y tejidos de soporte uterino. La vía VEGF/VEGFR2 desempeña un papel reconocido en la angiogénesis de tumores ginecológicos. El precedente más relevante es la aprobación de bevacizumab (anti-VEGF-A) por la FDA para cáncer de cérvix recurrente/metastásico, lo que confirma que la señalización VEGF es un blanco terapéutico activo en neoplasias uterinas y del parametrio. Ramucirumab, al actuar directamente sobre el receptor VEGFR2 en lugar del ligando circulante, podría ofrecer una inhibición angiogénica más precisa y sostenida en este contexto.
+La relación con la indicación original es difícil de evaluar porque el registro no la detalla. Los datos sugieren que el fármaco se usa en adenocarcinomas gastrointestinales, y por eso algunas predicciones tienen una analogía histológica débil, como las variantes de células en anillo de sello e intestinal del adenocarcinoma mucinoso cervical.
 
-No obstante, el adenocarcinoma de ligamento uterino es un subtipo tumoral extremadamente raro, con literatura clínica prácticamente inexistente. La predicción TxGNN se sustenta en la similitud biológica de la red de conocimiento con otras neoplasias responsivas a inhibición VEGFR2, pero carece de validación clínica directa en esta entidad específica. La ausencia total de ensayos clínicos o publicaciones dirigidas a esta combinación fármaco-enfermedad refleja tanto la rareza del tumor como la etapa exploratoria de esta hipótesis de reposicionamiento.
-
----
+Hay que ser prudentes. No se recuperó ningún ensayo ni publicación que vincule ramucirumab con esta entidad. Además, "adenocarcinoma del ligamento uterino" es una entidad extremadamente rara y probablemente un nodo de la ontología, más que una población clínica real. Las otras nueve predicciones principales (adenocarcinoma endocervical, carcinoma adenoide quístico del cuello uterino y otras variantes ginecológicas) tienen puntajes casi idénticos (≈99.94%) y el mismo nivel de evidencia L5. La más plausible clínicamente es el carcinoma endocervical, donde la vía VEGF ya se aprovecha con bevacizumab (un anticuerpo contra VEGF-A).
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Ramucirumab en adenocarcinoma de ligamento uterino.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para Ramucirumab en adenocarcinoma de ligamento uterino.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Ramucirumab no cuenta con registros sanitarios INVIMA activos en Colombia. El medicamento no se encuentra comercializado en el país. Para su uso eventual en investigación clínica, sería necesario tramitar una importación por vía de uso compasivo o protocolo de investigación aprobado por el INVIMA.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20111011 | CYRAMZA® (ELI LILLY & COMPANY) | Solución concentrada para infusión | RAMUCIRUMAB |
 
----
+Nota: el paquete de datos muestra 5 entradas, todas con el mismo número de registro 20111011, y reporta 20 registros en total.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — anticuerpo monoclonal anti-angiogénico (inhibidor de VEGFR2); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo a moderado (neutropenia no es el mecanismo primario de toxicidad; posible leucopenia leve en combinación con quimioterapia) |
-| Clasificación de Emetogenicidad | Baja (administración IV; náuseas poco frecuentes como evento de infusión) |
-| Items de Monitoreo | Presión arterial (hipertensión como toxicidad frecuente), proteinuria (tira reactiva y relación proteína/creatinina en orina), hemograma completo, función hepática (AST, ALT, bilirrubina), función renal (creatinina, TFGe), vigilancia de hemorragia y eventos tromboembólicos |
-| Protección en Manejo | Aplicar protocolos estándar de manejo de medicamentos antineoplásicos biotecnológicos (preparación en cabina de bioseguridad, EPP completo, descarte como residuo peligroso citotóxico) |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal contra VEGFR2) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias y contraindicaciones no están disponibles en la fuente local consultada (sin registro INVIMA). Se recomienda revisar el prospecto FDA/EMA de Cyramza® (ramucirumab) para las advertencias sobre hemorragia grave, perforación gastrointestinal, alteración de la cicatrización de heridas, hipertensión arterial y síndrome de encefalopatía posterior reversible (PRES), que son las advertencias de recuadro negro reconocidas internacionalmente para este medicamento.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La base mecanística es biológicamente plausible —inhibición VEGFR2 en tumores ginecológicos con soporte indirecto del precedente bevacizumab en cérvix—, pero el adenocarcinoma de ligamento uterino es un subtipo extremadamente raro sin ninguna evidencia clínica directa (L5), y ramucirumab carece de registro INVIMA en Colombia, lo que representa una barrera regulatoria y logística significativa para cualquier desarrollo clínico inmediato.
+La predicción tiene un puntaje alto (99.95%), pero es solo del modelo (L5). No hay ensayos ni publicaciones, y la entidad predicha es tan rara que probablemente no corresponde a una población clínica real.
 
 **Para avanzar se necesita:**
-- Obtener los datos completos de mecanismo de acción (MOA) y perfil de seguridad desde DrugBank y el prospecto FDA/EMA (actualmente en Data Gap)
-- Realizar búsqueda de series de casos o reportes de adenocarcinoma de ligamento uterino tratados con agentes anti-VEGF/VEGFR para establecer la base de evidencia de nivel L4
-- Evaluar la expresión inmunohistoquímica de VEGFR2 en muestras de adenocarcinoma de ligamento uterino disponibles en biobancos
-- Consultar con oncólogos ginecológicos especializados sobre la viabilidad epidemiológica de un protocolo de investigación (número de casos accesibles)
-- Explorar la posibilidad de incluir esta indicación en un basket trial o umbrella trial existente de ramucirumab en tumores ginecológicos raros
+- Descargar y analizar el prospecto de INVIMA para completar la información de seguridad (advertencias y contraindicaciones), que hoy bloquea el tamizaje de seguridad.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Aclarar la indicación original aprobada en Colombia, porque el registro solo muestra el nombre del principio activo.
+- Buscar evidencia directa de ramucirumab en cáncer de cuello uterino o ginecológico. Se sugiere priorizar el carcinoma endocervical sobre las entidades ultra raras.
+- Verificar si "adenocarcinoma del ligamento uterino" corresponde a una población clínica real o solo a un nodo de la ontología.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

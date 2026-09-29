@@ -2,15 +2,15 @@
 layout: default
 title: Clioquinol
 parent: Evidencia Moderada (L3-L4)
-nav_order: 87
-evidence_level: L3
+nav_order: 131
+evidence_level: L4
 indication_count: 7
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,75 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-Usando el skill `txgnn-pipeline` como contexto de referencia del pipeline de reposicionamiento. Procedo a generar el informe de evaluación con base en el Evidence Pack proporcionado.
-
----
-
-# Clioquinol: De Antiséptico Tópico a Candidiasis Cutánea
+# Clioquinol: De Betametasona y Antibióticos (combinación tópica) a Candidiasis Cutánea
 
 ## Resumen en Una Frase
 
-Clioquinol (Vioform) es un derivado de la 8-hidroxiquinolina históricamente utilizado como antiséptico y antifúngico tópico en formulaciones combinadas para infecciones cutáneas secundarias. El modelo TxGNN predice que podría ser efectivo para **Candidiasis Cutánea**, con **0 ensayos clínicos** modernos registrados y **6 publicaciones** (principalmente de los años 1965–1988) que respaldan esta dirección. La evidencia disponible corresponde a estudios comparativos y series clínicas, sin ECAs actualizados ni registro sanitario activo en Colombia.
-
----
+Clioquinol es un antimicrobiano tópico que en Colombia se comercializa en cremas combinadas con corticoide y antibióticos, como la crema tópica BETAGEN (betametasona y antibióticos).
+El modelo TxGNN predice que podría ser efectivo para la **candidiasis cutánea**, pero **no hay ensayos clínicos registrados** y solo hay **6 publicaciones**, antiguas (1965-1988) e indirectas.
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | No registrado en Colombia; uso histórico como antiséptico tópico (Vioform / Locacorten-Vioform) |
-| Nueva Indicación Predicha | Candidiasis Cutánea |
+|------|------|
+| Indicación Original | Betametasona y antibióticos (combinación tópica) |
+| Nueva Indicación Predicha | Candidiasis cutánea |
 | Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos oficiales del mecanismo de acción en este paquete de evidencia. Con base en la clase farmacológica conocida, clioquinol es un derivado de la **8-hidroxiquinolina** con actividad antifúngica y antibacteriana. Su acción frente a *Candida spp.* se atribuye principalmente a la **quelación de iones Cu²⁺ y Zn²⁺** esenciales para el metabolismo fúngico: al privar al hongo de estos metales, se alteran enzimas críticas como la superóxido dismutasa (SOD) y los citocromos de la cadena respiratoria, comprometiendo adicionalmente la integridad de la membrana celular fúngica. Este mecanismo es distinto al de los azoles (inhibición de la síntesis de ergosterol) y los polienos (formación de poros en la membrana), lo que lo posiciona como candidato a terapia complementaria o de rescate.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el clioquinol es un antimicrobiano tópico con actividad antifúngica. Se le atribuye una acción quelante de metales y de tipo ionóforo, pero esto es una inferencia y no un dato confirmado en la información recibida. Mecanísticamente podría ser aplicable a la candidiasis cutánea.
 
-La relación entre el uso histórico de clioquinol y la candidiasis cutánea no es especulativa: la formulación **Locacorten-Vioform** (clioquinol 3% + flumetasona tópica) fue ampliamente utilizada en los años 1970–1980 para dermatosis inflamatorias complicadas con infección secundaria por *Candida* y bacterias. Los estudios recuperados documentan directamente esta experiencia clínica, lo que confiere al puntaje TxGNN de 99.84% una base histórica concreta en lugar de una extrapolación teórica pura.
+En las indicaciones aprobadas en Colombia, el clioquinol aparece dentro de combinaciones de corticoide con antibióticos, es decir, para dermatosis inflamatorias con componente infeccioso. La candidiasis cutánea es una infección superficial de la piel, por lo que la distancia clínica con el uso actual es corta. Aun así, la literatura solo evalúa el clioquinol dentro de cremas combinadas. Algunas combinaciones citadas contienen otro antifúngico (anfotericina, nistatina, tolnaftato), y no se puede aislar la contribución propia del clioquinol.
 
-Sin embargo, la evidencia existente es antigua (ninguna publicación posterior a 1988 en esta indicación específica), los diseños metodológicos son limitados para los estándares actuales, y el perfil de seguridad sistémico de clioquinol —asociado a neuropatía subaguda mielo-óptica (SMON) en uso oral, documentado principalmente en Japón— exige que cualquier aplicación clínica futura se restrinja exclusivamente a formulaciones tópicas de baja concentración (≤3%) con monitoreo dermatológico activo.
+El puntaje alto de TxGNN (0.998) es solo una predicción. La evidencia es antigua, indirecta y sin ensayos registrados. Además, el clioquinol sistémico tiene antecedentes de neurotoxicidad (SMON), por lo que cualquier uso debería limitarse a la vía tópica.
 
----
+De las demás indicaciones predichas, la más coherente mecanísticamente es la **micosis superficial** (L4). Su evidencia también es débil: un estudio preclínico de 2021 y un reporte clínico de 1958. Las predicciones de tiña profunda, granuloma de Majocchi e infecciones ectotrix/endotrix (L5) no tienen evidencia y normalmente requieren tratamiento sistémico. En la predicción de dermatofitosis de cuero cabelludo o barba, las 20 publicaciones recuperadas son falsos positivos por palabras clave y no aportan respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | Estudio Comparativo Aleatorizado | J Int Med Res | En 154 pacientes (67 con candidiasis cutánea), la crema BGI (conteniendo yodoclorohidroxiquina/clioquinol) mostró respuesta terapéutica equivalente a la crema HNN; evidencia de eficacia comparable del clioquinol tópico |
-| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Serie Clínica (doble ciego) | Dermatologica | En 430 pacientes, Locacorten-Vioform (clioquinol 3%) fue altamente eficaz en dermatosis complicadas con infección secundaria; mayor conversión microbiológica vs. monoterapias y placebo |
-| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Ensayo Clínico No Aleatorizado | Curr Ther Res | Evaluación clínica de combinación halcinonida-antifúngico que incluye clioquinol en candidiasis cutánea; resultados clínicos favorables |
-| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Estudio Comparativo | Curr Med Res Opin | En 40 pacientes con candidiasis cutánea, HNA (halcinonida-neomicina-anfotericina) logró 95% de respuesta excelente vs. 43% para yodoclorohidroxiquina-hidrocortisona (clioquinol como comparador activo); sugiere eficacia inferior frente a antifúngicos más modernos |
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Observacional (in vitro) | Przegl Dermatol | Entre múltiples aditivos evaluados sobre *C. albicans*, clioquinol mostró el efecto fungicida más potente en soluciones jabonosas alcalinas |
-| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Reporte de Caso | Z Haut Geschlechtskr | Reporte sobre el rol de levaduras en la etiología de la acrodermatitis enteropática de Danbolt-Closs con referencia al uso de clioquinol |
-
----
+|------|-----|------|------|---------|
+| [6459255](https://pubmed.ncbi.nlm.nih.gov/6459255/) | 1981 | ECA comparativo | J Int Med Res | Dos cremas de corticoide con antimicrobianos (una con clioquinol) en 154 pacientes, 67 con candidiasis cutánea; respuestas terapéuticas equivalentes. El contenido de clioquinol no está verificado en el resumen. |
+| [128475](https://pubmed.ncbi.nlm.nih.gov/128475/) | 1975 | Estudio clínico doble ciego | Dermatologica | Crema de corticoide con clioquinol (3%) en 430 pacientes con dermatosis con infección bacteriana secundaria; mejor resultado que cada componente solo y que el placebo. No evalúa candidiasis. |
+| [155507](https://pubmed.ncbi.nlm.nih.gov/155507/) | 1979 | Evaluación clínica | Curr Med Res Opin | Una crema con anfotericina logró respuesta excelente en 95% de 40 pacientes con candidiasis cutánea. El control (yodoclorhidroxiquina-hidrocortisona) alcanzó 43%. Indirecto: el fármaco probado no contiene clioquinol. |
+| [136333](https://pubmed.ncbi.nlm.nih.gov/136333/) | 1976 | Evaluación clínica | Curr Ther Res | Evaluación de una combinación de corticoide con antifúngico. Sin resumen disponible; evidencia indirecta. |
+| [4220930](https://pubmed.ncbi.nlm.nih.gov/4220930/) | 1965 | Reporte observacional | Z Haut Geschlechtskr | Papel de las levaduras en la acrodermatitis enteropática. Relación indirecta con el clioquinol. |
+| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Estudio in vitro | Przegl Dermatol | Aditivos de jabones frente a cepas de *Candida albicans*, para prevención de infección ocupacional. Indirecto. |
 
 ## Información de Mercado en Colombia
 
-Clioquinol no cuenta con registros sanitarios activos en Colombia. INVIMA no registra ninguna licencia vigente para este principio activo (consulta actualizada a mayo de 2026). No existen formulaciones aprobadas bajo este INN en el mercado colombiano actual.
+Los cinco registros del paquete corresponden al mismo registro sanitario, repetido; se muestra una sola vez. El paquete indica 20 registros en total, pero no detalla los demás.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19972065 | BETAGEN CREMA TOPICA | Crema tópica | Betametasona y antibióticos |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
-> **Nota de alerta histórica:** El uso sistémico (oral) de clioquinol fue retirado o severamente restringido en múltiples países a partir de los años 1970 debido a casos de **neuropatía subaguda mielo-óptica (SMON)**, documentada principalmente en Japón. Las formulaciones tópicas en concentraciones bajas (≤3%) se consideran de menor riesgo sistémico, pero deben utilizarse bajo supervisión médica, en áreas limitadas y por períodos cortos. Se requiere revisión completa del prospecto antes de cualquier uso clínico.
-
----
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La indicación de clioquinol tópico para candidiasis cutánea cuenta con evidencia histórica de nivel L3 —incluyendo un ensayo doble ciego en 430 pacientes y estudios comparativos aleatorizados— que documenta eficacia real en formulaciones tipo Locacorten-Vioform. Sin embargo, la antigüedad de los datos (todos anteriores a 1990), la ausencia de ensayos clínicos modernos, los resultados mixtos de eficacia comparativa (43% vs. antifúngicos más potentes) y el perfil de seguridad sistémico (SMON por vía oral) exigen guardrails claros antes de cualquier desarrollo clínico.
+Aunque el puntaje de TxGNN es alto y la candidiasis cutánea es una infección superficial compatible con el uso tópico, no hay ensayos registrados. La literatura es antigua e indirecta, y no permite aislar el efecto del clioquinol frente a otros antifúngicos o corticoides de las combinaciones. El paquete de evidencia tampoco incluye datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Confirmar el mecanismo de acción completo (MOA) mediante consulta a DrugBank API — pendiente según el paquete de evidencia (DG002)
-- Obtener y revisar prospectos de formulaciones tópicas actualmente autorizadas en la UE, EE. UU. o Japón para validar el perfil de seguridad por vía tópica
-- Investigar si existen formulaciones combinadas que contengan clioquinol (p. ej., clioquinol + corticoesteroide) registradas en INVIMA o en proceso de registro bajo otro INN
-- Evaluar la posibilidad de realizar un estudio clínico moderno (fase 2 observacional o retrospectivo) que actualice la evidencia en candidiasis cutánea
-- Establecer criterios de exclusión explícitos: pacientes con antecedentes neurológicos, aplicación en áreas extensas, uso superior a 4 semanas, o riesgo de absorción sistémica aumentada
+- Obtener del prospecto de INVIMA las advertencias y contraindicaciones (brecha de seguridad bloqueante).
+- Confirmar el mecanismo de acción en DrugBank.
+- Revisar el texto completo de los estudios de 1975-1981 para verificar el contenido de clioquinol y la respuesta específica en candidiasis.
+- Buscar estudios in vitro o clínicos con clioquinol solo, frente a *Candida*.
+- Limitar cualquier evaluación a la vía tópica, por el antecedente de neurotoxicidad sistémica (SMON).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

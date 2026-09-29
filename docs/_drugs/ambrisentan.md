@@ -2,7 +2,7 @@
 layout: default
 title: Ambrisentan
 parent: Solo Predicción del Modelo (L5)
-nav_order: 33
+nav_order: 41
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ambrisentan: Evaluación de Reposicionamiento – Datos Insuficientes para Predicción
+# Ambrisentán: De Hipertensión Arterial Pulmonar a Malformación Arteriovenosa Pulmonar
 
 ## Resumen en Una Frase
 
-Ambrisentan es un antagonista del receptor de endotelina (ERA) registrado internacionalmente para el tratamiento de la hipertensión arterial pulmonar. El Evidence Pack actual **no contiene indicaciones originales ni predicciones TxGNN**, lo que impide completar la evaluación de reposicionamiento; se requiere re-ejecución del pipeline con los datos faltantes antes de poder emitir una recomendación fundamentada.
-
----
+Ambrisentán es un antagonista selectivo del receptor de endotelina tipo A, comercializado para la hipertensión arterial pulmonar (HAP).
+El modelo TxGNN predice que podría ser efectivo para la **malformación arteriovenosa pulmonar**,
+pero hay **0 ensayos clínicos** y solo **1 publicación** (un reporte de caso que trata la HAP como comorbilidad, no la malformación). La predicción se apoya casi solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin datos en el Evidence Pack |
-| Nueva Indicación Predicha | Sin predicciones disponibles |
-| Puntaje de Predicción TxGNN | N/D |
-| Nivel de Evidencia | L5 – solo predicción del modelo, sin estudios reales en el pack |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Indicación Original | Hipertensión arterial pulmonar. El texto de INVIMA solo consigna el nombre del principio activo ("AMBRISENTAN"). |
+| Nueva Indicación Predicha | Malformación arteriovenosa pulmonar |
+| Puntaje de Predicción TxGNN | 99.41% |
+| Nivel de Evidencia | L4 (según el Evidence Pack; sin estudios preclínicos ni de mecanismo, solo un reporte de caso tangencial) |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Brechas Críticas que Bloquean la Evaluación
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente. Por farmacología general, ambrisentán bloquea el receptor de endotelina A (ETA), lo que reduce la vasoconstricción y el remodelado vascular en la HAP. Su eficacia en HAP está comprobada.
 
-El Evidence Pack recibido presenta cuatro brechas que impiden completar el análisis:
+Las malformaciones arteriovenosas pulmonares son cortocircuitos estructurales, típicamente asociados a telangiectasia hemorrágica hereditaria (THH). La terapia vasodilatadora o antiproliferativa de la HAP no es un tratamiento establecido para ellas. El único indicio es un reporte de caso de HAP en un paciente con THH. Ese caso trata la HAP como comorbilidad y no la malformación en sí.
 
-**1. Sin indicaciones originales registradas** (`original_indications: []`): Las consultas al sistema regulatorio colombiano (INVIMA) no retornaron indicaciones aprobadas localmente. Sin este punto de partida, no es posible establecer la relación mecanística entre la indicación de origen y una nueva candidata.
+El alto puntaje de TxGNN es una predicción basada en grafos de conocimiento y no equivale a evidencia clínica. Por ahora el vínculo mecanístico con esta indicación es débil.
 
-**2. Sin predicciones TxGNN** (`predicted_indications: []`): El modelo no generó ningún candidato de reposicionamiento. Esto probablemente se debe a la ausencia del MOA y de las indicaciones originales como entradas al grafo de conocimiento.
+## Evidencia de Ensayos Clínicos
 
-**3. Mecanismo de acción no disponible** (`original_moa`): Este dato es el insumo principal para el análisis de relevancia mecanística. Sin él, no se puede argumentar por qué una nueva indicación sería biológicamente plausible.
+Actualmente no hay ensayos clínicos relacionados registrados
 
-**4. Datos de seguridad ausentes**: Las advertencias clave y contraindicaciones no fueron recuperadas del prospecto oficial (consulta TFDA/INVIMA pendiente de procesamiento).
+## Evidencia de Literatura
 
-> **Nota contextual (fuera del Evidence Pack):** En la literatura farmacológica general, Ambrisentan (DB06403) es conocido como antagonista selectivo del receptor ETA de endotelina, aprobado por FDA (Letairis®) y EMA (Volibris®) para hipertensión arterial pulmonar Clase II-III. Sin embargo, estos datos **no provienen del Evidence Pack actual** y no deben usarse formalmente hasta que sean validados por las fuentes primarias definidas en el protocolo.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Reporte de caso | World J Clin Cases | Paciente con telangiectasia hemorrágica hereditaria (THH) que presentó HAP; se describen manifestaciones, tratamiento y análisis genético familiar para crear conciencia sobre esta multimorbilidad poco frecuente y de mal pronóstico. |
 
 ## Información de Mercado en Colombia
 
-Ambrisentan **no cuenta con registros sanitarios activos en Colombia**. La consulta al sistema regulatorio colombiano realizada el 2026-03-29 devolvió cero resultados. No existe ninguna licencia vigente para este fármaco en el país.
+Hay 20 registros en total. Los 5 primeros corresponden al mismo registro sanitario, por lo que se muestra una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20151854 | XETAM® 5 MG TABLETAS RECUBIERTAS (XINETIX PHARMA S.A.S.) | Tableta recubierta | Solo consigna el principio activo: AMBRISENTAN |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: no se encontraron interacciones en la fuente consultada (0 registros). Esto podría ser una limitación de los datos y no ausencia real de interacciones.
+- **Nota de riesgo**: el análisis del Evidence Pack indica que ambrisentán tiene una advertencia de toxicidad embriofetal. Los ARE (antagonistas de receptores de endotelina) también pueden empeorar la anemia y la retención de líquidos.
 
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack carece de los datos mínimos requeridos para ejecutar la evaluación: sin indicaciones originales, sin predicciones TxGNN y sin perfil de seguridad, cualquier recomendación resultaría infundada. El pipeline debe completarse antes de retomar este candidato.
+La predicción no tiene ensayos clínicos y solo un reporte de caso tangencial. No hay un mecanismo terapéutico establecido para las malformaciones arteriovenosas pulmonares, por lo que el puntaje de TxGNN por sí solo no basta para avanzar.
+
+Para el mismo fármaco, el Evidence Pack contiene candidatas mejor respaldadas: HAP asociada a cardiopatía congénita y HAP asociada a enfermedad del tejido conectivo (ambas L2, "Proceed with Guardrails"). Conviene priorizarlas.
 
 **Para avanzar se necesita:**
-- **DG002 (Alta):** Consultar DrugBank API para obtener el MOA y las indicaciones aprobadas de Ambrisentan
-- **DG001 (Bloqueante):** Descargar y parsear el prospecto oficial (TFDA/FDA) para extraer advertencias y contraindicaciones
-- **Re-ejecución del pipeline TxGNN:** Una vez completados DG001 y DG002, re-ejecutar el modelo para generar predicciones de nuevas indicaciones
-- **Consulta INVIMA expandida:** Verificar si existen registros de combinaciones o presentaciones equivalentes que contengan Ambrisentan en el mercado colombiano
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Advertencias y contraindicaciones del prospecto de INVIMA
+- Evidencia preclínica o clínica que vincule el bloqueo de ETA con el tratamiento de la malformación arteriovenosa pulmonar (por ejemplo, en pacientes con THH)
+- Evaluación de seguridad, incluida la toxicidad embriofetal
+
+*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

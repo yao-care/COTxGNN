@@ -2,15 +2,15 @@
 layout: default
 title: Dupilumab
 parent: Evidencia Moderada (L3-L4)
-nav_order: 103
-evidence_level: L3
+nav_order: 169
+evidence_level: L4
 indication_count: 10
 ---
 
 # Dupilumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,64 +29,67 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# DUPILUMAB: De Dermatitis Atópica a Bronquitis
+# Dupilumab: De Indicación Original No Especificada en el Registro a Bronquitis
 
 ## Resumen en Una Frase
 
-Dupilumab es un anticuerpo monoclonal humanizado que bloquea el receptor de IL-4/IL-13 (IL-4Rα), aprobado globalmente para dermatitis atópica moderada a grave y asma eosinofílica, aunque no cuenta con registro sanitario vigente en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Bronquitis**, con **1 ensayo clínico** y **6 publicaciones** que actualmente respaldan esta dirección.
-La evidencia disponible proviene principalmente de estudios en asma y enfermedades respiratorias de tipo Th2, con mecanismo directamente aplicable a la inflamación bronquial eosinofílica, aunque sin ensayos clínicos diseñados específicamente para bronquitis.
+Dupilumab es un anticuerpo monoclonal que bloquea el receptor IL-4Rα y se comercializa en Colombia como DUPIXENT®. El texto de los registros sanitarios solo menciona el principio activo, sin indicación original.
+El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero la evidencia es indirecta: **1 ensayo clínico** (rinosinusitis crónica) y **6 publicaciones** (sobre todo asma y EPOC) apoyan esta dirección.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | Dermatitis atópica moderada-grave / Asma eosinofílica (aprobación global; sin registro en Colombia) |
+|------|------|
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "Dupilumab") |
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en fuentes regulatorias colombianas. Según la información conocida, dupilumab es un anticuerpo monoclonal IgG4 humanizado que bloquea la subunidad alfa del receptor de IL-4 (IL-4Rα), inhibiendo simultáneamente la señalización de IL-4 e IL-13 —citocinas centrales de la respuesta inflamatoria tipo Th2—. Su eficacia en asma eosinofílica y dermatitis atópica ha sido ampliamente comprobada en ensayos de Fase 3, y mecanisticamente podría ser aplicable a la bronquitis de fenotipo T2.
+Dupilumab bloquea la subunidad IL-4Rα. Con ello interrumpe la señalización de IL-4 e IL-13, dos citocinas clave de la inflamación tipo 2. No hay datos detallados del mecanismo de acción en DrugBank, así que esta descripción proviene del análisis de reposicionamiento del propio paquete de evidencia.
 
-La bronquitis eosinofílica y la bronquitis plástica comparten con el asma alérgica un sustrato fisiopatológico común: hipersecreción de moco mediada por IL-13, infiltración eosinofílica de la vía aérea e hiperrespuesta bronquial impulsada por la señalización IL-4/IL-13 y la vía Th2. En la bronquitis plástica eosinofílica pediátrica, la formación de moldes bronquiales está directamente asociada a la activación de células caliciformes por IL-13. Al bloquear este eje, dupilumab ofrece una base mecanística sólida para su potencial aplicación en bronquitis de fenotipo T2 elevado.
+El puente biológico plausible son las enfermedades de la vía aérea con inflamación tipo 2, como el asma eosinofílica y la bronquitis plástica eosinofílica. Dupilumab ya cuenta con estudios en asma, EPOC y rinosinusitis crónica. En esos cuadros, bloquear IL-4/IL-13 podría reducir la inflamación de las vías respiratorias.
 
-La predicción del modelo TxGNN con un puntaje de 99.92% refleja la estrecha proximidad en la red de conocimiento entre el asma eosinofílica (indicación ya aprobada) y la bronquitis eosinofílica crónica. El único ensayo clínico disponible evalúa dupilumab en rinosinusitis crónica sin pólipos (CRSsNP) —inflamación tipo 2 de vías respiratorias superiores con mecanismo análogo— pero no aborda directamente el tracto respiratorio inferior. La literatura de Nivel 1 documenta eficacia en asma mediante el mismo mecanismo, y reportes especializados describen beneficio en bronquitis eosinofílica plástica pediátrica, lo que constituye respaldo indirecto pero científicamente relevante.
+Aun así, el puntaje de 99.92% es solo una predicción computacional. Ninguno de los estudios aportados evalúa dupilumab en bronquitis general. El único ítem específico de bronquitis es una publicación de baja jerarquía sobre bronquitis plástica eosinofílica pediátrica.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|------------------|------|--------|------------|----------------------|
-| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Completado | 33 | Evaluación de dupilumab en rinosinusitis crónica sin pólipos (CRSsNP); inflamación tipo 2 de vías respiratorias superiores con mecanismo compartido con bronquitis eosinofílica; estudia múltiples endotipos de CRS excluyendo pólipos nasales; evidencia indirecta de eficacia anti-T2 en mucosa respiratoria |
+|---------|------|------|------|---------|
+| [NCT04362501](https://clinicaltrials.gov/study/NCT04362501) | Fase 2 | Completado | 33 | Ensayo aleatorizado, doble ciego y controlado con placebo de dupilumab en rinosinusitis crónica sin pólipos nasales. Es un estudio de vía aérea superior, no de bronquitis, y solo apoya de forma indirecta la biología tipo 2. |
 
 ---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | ECA Fase 3 (extensión) | The Lancet Respiratory Medicine | TRAVERSE: seguridad y eficacia a largo plazo de dupilumab en asma moderada-grave durante más de 1 año; evidencia de beneficio sostenido en inflamación bronquial tipo Th2 más allá de los estudios pivotales de 1 año |
-| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Metaanálisis | The Journal of Asthma | Metaanálisis de ECAs: dupilumab reduce significativamente las exacerbaciones asmáticas y mejora el FEV1 en asma no controlada; mayor beneficio en pacientes con fenotipo eosinofílico elevado |
-| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Revisión sistemática | Tuberculosis and Respiratory Diseases | Revisión integral de terapias farmacológicas para prevenir exacerbaciones de EPOC; incluye biológicos anti-Th2 como terapias emergentes para subgrupos con componente eosinofílico y solapamiento con bronquitis crónica |
-| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revisión / Serie de casos | Pediatric Pulmonology | Terapias novedosas para bronquitis eosinofílica plástica pediátrica; describe dupilumab como opción terapéutica prometedora dado el papel central de IL-4/IL-13 en la formación de moldes bronquiales eosinofílicos |
-| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Observacional / Mecanístico | Chest | Tratamiento anti-T2 (incluyendo dupilumab) mejora defectos de ventilación bronquial por RM en asma grave con eosinofilia en esputo; evidencia directa del impacto en obstrucción bronquial mediada por la vía Th2 |
-| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revisión | Expert Opinion on Pharmacotherapy | Manejo de asma con bronquitis crónica y enfisema inducidos por tabaco; discute solapamiento mecanístico asma-EPOC y el papel incierto de biológicos dirigidos en pacientes fumadores con inflamación mixta |
+|------|-----|------|------|---------|
+| [30273510](https://pubmed.ncbi.nlm.nih.gov/30273510/) | 2019 | Metaanálisis de ECA | J Asthma | Evalúa la eficacia y seguridad de dupilumab frente a placebo en asma no controlada, a partir de ensayos aleatorizados. |
+| [34597534](https://pubmed.ncbi.nlm.nih.gov/34597534/) | 2022 | Extensión abierta (TRAVERSE) | Lancet Respir Med | Seguridad y eficacia a largo plazo de dupilumab en asma moderada a grave, más allá de 1 año. |
+| [32428511](https://pubmed.ncbi.nlm.nih.gov/32428511/) | 2020 | Estudio prospectivo de imagen | Chest | Efecto de la terapia biológica anti-T2 sobre la ventilación pulmonar medida por resonancia magnética en asma dependiente de prednisona. |
+| [39904363](https://pubmed.ncbi.nlm.nih.gov/39904363/) | 2025 | Revisión | Tuberc Respir Dis | Revisión de terapias farmacológicas para prevenir exacerbaciones de EPOC, incluidos agentes novedosos. |
+| [30196731](https://pubmed.ncbi.nlm.nih.gov/30196731/) | 2018 | Revisión | Expert Opin Pharmacother | Desafíos del manejo del asma asociada a enfermedades de la vía aérea inducidas por el tabaco, entre ellas la bronquitis crónica. |
+| [38488768](https://pubmed.ncbi.nlm.nih.gov/38488768/) | 2024 | Revisión / basado en casos | Pediatr Pulmonol | Terapias novedosas para la bronquitis plástica eosinofílica pediátrica. Es el único ítem específico de bronquitis y no tiene resumen disponible. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Dupilumab (DB12159) **no cuenta con ningún registro sanitario activo en Colombia (INVIMA)**. El medicamento no está comercializado en el mercado colombiano. Para su eventual uso, se requeriría iniciar un proceso de registro sanitario ante el INVIMA o gestionar una importación individual mediante autorización especial. No se encontraron fichas de licencias, formas farmacéuticas ni indicaciones aprobadas en el sistema regulatorio colombiano.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20156864 | DUPIXENT® 200MG (SANOFI-AVENTIS DE COLOMBIA S.A.) | Solución inyectable | No especifica indicación; solo figura el principio activo (Dupilumab) |
+
+Las cinco entradas listadas en los datos corresponden al mismo registro sanitario, por eso se muestra una sola fila. El total reportado es de 20 registros.
 
 ---
 
@@ -101,14 +104,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Si bien la base mecanística para dupilumab en bronquitis eosinofílica es científicamente sólida —compartiendo la misma vía IL-4/IL-13 con el asma eosinofílica globalmente aprobada—, la ausencia de ensayos clínicos diseñados específicamente para bronquitis como entidad diagnóstica primaria, combinada con la falta de registro sanitario en Colombia, impide recomendar avance clínico inmediato.
+No hay estudios de dupilumab en bronquitis general. La evidencia disponible es indirecta (asma, EPOC, rinosinusitis crónica) y el único ítem específico es una publicación de baja jerarquía sobre bronquitis plástica eosinofílica. El puntaje de TxGNN es una predicción y no confirma eficacia.
 
 **Para avanzar se necesita:**
-- Ensayos clínicos específicos en bronquitis eosinofílica crónica, particularmente en pacientes con biomarcadores T2 elevados (FeNO ≥25 ppb, eosinófilos en sangre ≥300/μL)
-- Datos de seguridad formales: advertencias INVIMA, contraindicaciones locales y evaluación de interacciones farmacológicas
-- Inicio del proceso de registro sanitario ante el INVIMA como requisito regulatorio previo a cualquier uso en Colombia
-- Confirmación del perfil MOA completo mediante consulta de la ficha técnica oficial (DrugBank API o monografía del fabricante Sanofi/Regeneron)
-- Definición de la subpoblación de bronquitis con fenotipo Th2 para maximizar la selección de pacientes respondedores y diseñar un estudio de prueba de concepto
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que hoy es un vacío bloqueante para el tamizaje de seguridad.
+- Consultar el mecanismo de acción detallado en DrugBank.
+- Definir el fenotipo de bronquitis a estudiar (por ejemplo, con inflamación tipo 2 o eosinofílica) y buscar estudios específicos de ese fenotipo.
+- Confirmar la indicación original aprobada en el registro sanitario, porque el texto actual solo indica el principio activo.
+- Revisar los resultados del ensayo NCT04362501 para evaluar su relevancia en vía aérea.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

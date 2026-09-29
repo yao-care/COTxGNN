@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Abacavir
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 11
-evidence_level: L5
+evidence_level: L4
 indication_count: 3
 ---
 
 # Abacavir
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,80 +29,75 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Abacavir: Evaluación de Reposicionamiento — Sin Indicaciones Predichas
-
----
+# Abacavir: De Infección por VIH a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Abacavir es un inhibidor nucleósido de la transcriptasa reversa (NRTI) utilizado en el tratamiento de la infección por VIH-1.
-El modelo TxGNN **no ha generado predicciones de nuevas indicaciones** para este fármaco en el ciclo de análisis actual,
-y los datos disponibles en el Evidence Pack son insuficientes para realizar una evaluación completa.
+Abacavir es un inhibidor nucleósido de la transcriptasa inversa (NRTI). En Colombia se comercializa en combinaciones antirretrovirales de dosis fija con lamivudina y con zidovudina más lamivudina.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (FIV)**.
+Hay **4 ensayos clínicos** y **1 publicación**, pero todos los ensayos son en VIH-1 humano y la única publicación es un estudio *in vitro*. La evidencia directa es muy limitada.
 
 ---
 
 ## Resumen Rápido
 
 | Item | Contenido |
-|------|-----------|
-| Indicación Original | VIH-1 (información de referencia general; no disponible en datos regulatorios del pack) |
-| Nueva Indicación Predicha | — Sin predicciones generadas por TxGNN |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | L5 — Solo datos de referencia, sin predicción ni estudios asociados |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
+|------|------|
+| Indicación Original | El registro INVIMA solo lista la composición de la combinación ("ABACAVIR/ZIDOVUDINA/LAMIVUDINA"), no un texto de indicación. El uso conocido de estas combinaciones es la infección por VIH. |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 99.79% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 8 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por qué no se Generaron Predicciones?
+## ¿Por qué es Razonable esta Predicción?
 
-Abacavir (DrugBank ID: DB01048) es un análogo nucleósido que actúa inhibiendo la transcriptasa reversa del VIH-1. Pertenece a la clase de los NRTI y se utiliza ampliamente, en combinación con otros antirretrovirales, para el manejo de la infección por VIH-1. No se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack actual (`original_moa` reportado como brecha de datos).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción curados en la base de datos. Según la farmacología general, abacavir es un análogo nucleósido carbocíclico de guanosina. Dentro de la célula se fosforila a carbovir trifosfato, que detiene la elongación del ADN viral.
 
-El modelo TxGNN no generó indicaciones predichas (`predicted_indications: []`) para este fármaco en el presente ciclo de análisis. Esto puede deberse a que el perfil farmacológico de Abacavir, altamente específico para la inhibición de la replicación retroviral, no muestra señales suficientes de transferibilidad a otras patologías dentro del grafo de conocimiento del modelo.
+El FIV es un lentivirus con transcriptasa inversa, muy similar al VIH a nivel molecular y clínico. Por eso el gato doméstico se usa como modelo animal del VIH, y varios inhibidores de la transcriptasa inversa activos contra el VIH también lo son contra el FIV. La actividad de abacavir contra el FIV es, por tanto, mecanísticamente plausible.
 
-Adicionalmente, Abacavir no cuenta con registros sanitarios vigentes en el mercado colombiano, lo que limita la viabilidad regulatoria inmediata de cualquier esfuerzo de reposicionamiento en esta jurisdicción.
+El puntaje alto de TxGNN probablemente refleja el papel conocido de abacavir contra el VIH-1 y la cercanía entre los nodos de VIH y FIV en el grafo de conocimiento. Este vínculo se apoya en farmacología general y no en un registro curado. Además, el FIV es una enfermedad veterinaria y no una indicación humana, lo que limita su relevancia para el mercado colombiano de medicamentos de uso humano.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados con nuevas indicaciones registrados, dado que no se generaron predicciones de reposicionamiento.
+Los cuatro ensayos son en VIH-1 humano. Ninguno evalúa el FIV, y abacavir es parte del esquema de fondo, no el objeto de estudio.
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Fase 3 | Completado | 844 | Dolutegravir + abacavir/lamivudina vs Atripla durante 96 semanas en adultos con VIH-1 sin tratamiento previo. Apoya la eficacia y seguridad antirretroviral en humanos (relevancia: B). |
+| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Fase 2 | Completado | 208 | Estudio de selección de dosis de dolutegravir con abacavir/lamivudina o tenofovir/emtricitabina. Abacavir es parte del esquema, pero no el objeto de evaluación (relevancia: B). |
+| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Completado | 828 | Dolutegravir vs raltegravir con abacavir/lamivudina o tenofovir/emtricitabina como base. Abacavir es solo una de las opciones de base (relevancia: C). |
+| [NCT01499199](https://clinicaltrials.gov/study/NCT01499199) | Fase 3 | Completado | 13 | Estudio de un solo brazo de dolutegravir + abacavir/lamivudina, con farmacocinética en plasma y líquido cefalorraquídeo. Evidencia indirecta (relevancia: C). |
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada con nuevas indicaciones disponible en el Evidence Pack.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [11684314](https://pubmed.ncbi.nlm.nih.gov/11684314/) | 2002 | Estudio *in vitro* (tipo no verificado) | Antiviral Research | Efecto combinado de zidovudina, lamivudina y abacavir para suprimir la replicación del FIV *in vitro*. El FIV se usa como modelo animal del VIH y varios inhibidores de la transcriptasa inversa activos contra el VIH también lo son contra el FIV. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Abacavir **no se encuentra comercializado** en Colombia. No se identificaron registros sanitarios vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------------------|---------------------|--------------------|---------------------|
-| — | — | — | Sin registros disponibles |
+|---------|------|------|-----------|
+| 20203375 | SELMIVIR® | Tableta recubierta | Abacavir/zidovudina/lamivudina (solo composición) |
+| 20140104 | KAVIDUVIR® tableta recubierta | Tableta recubierta | Lamivudina y abacavir (solo composición) |
+
+Los datos traen 5 filas, pero 4 corresponden al mismo registro 20203375, por lo que se muestran solo los 2 registros únicos. El total informado es de 8 registros sanitarios.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad no están disponibles en el Evidence Pack actual (advertencias, contraindicaciones e interacciones farmacológicas reportados como brechas de datos).
-
-> **Nota de referencia general (fuera del Evidence Pack):** Abacavir presenta una asociación conocida con reacciones de hipersensibilidad potencialmente fatales en pacientes portadores del alelo HLA-B\*5701. Se recomienda prueba de genotipado HLA-B\*5701 antes de iniciar tratamiento. Consultar el prospecto del producto para información completa de seguridad.
-
----
-
-## Brechas de Datos Identificadas
-
-El Evidence Pack reporta las siguientes brechas críticas que limitan la evaluación:
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Fuente de Remediación |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No se puede realizar la evaluación inicial de seguridad (S1) | TFDA — Descargar y analizar PDF del prospecto |
-| DG002 | Nivel de Fármaco | Mecanismo de acción (MOA) | **Alta** | Afecta el análisis de relación mecanística | DrugBank — Consultar API de DrugBank |
+Consultar el prospecto para información de seguridad.
 
 ---
 
@@ -111,14 +106,16 @@ El Evidence Pack reporta las siguientes brechas críticas que limitan la evaluac
 **Decisión: Hold**
 
 **Justificación:**
-No se generaron predicciones de reposicionamiento por parte del modelo TxGNN para Abacavir. Además, el fármaco no está comercializado en Colombia (0 registros sanitarios), y existen brechas de datos bloqueantes que impiden una evaluación de seguridad adecuada. No hay base suficiente para avanzar en este momento.
+La predicción del FIV es mecanísticamente plausible, pero solo tiene un estudio *in vitro* de 2002 como respaldo directo. Los ensayos de Fase 2/3 son en VIH-1 humano y no sirven como evidencia de eficacia en FIV. Además, no hay datos de seguridad del prospecto INVIMA.
 
 **Para avanzar se necesita:**
-- Resolución de la brecha DG001: Obtener advertencias y contraindicaciones del prospecto oficial
-- Resolución de la brecha DG002: Obtener datos detallados del mecanismo de acción desde DrugBank
-- Ejecución de un nuevo ciclo de predicción TxGNN con datos de entrada completos
-- Evaluación de viabilidad regulatoria en Colombia (registro sanitario inexistente)
-- Si en un futuro ciclo se generan predicciones, re-evaluar con evidencia clínica y de literatura
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Obtener el mecanismo de acción curado desde DrugBank.
+- Verificar el tipo de estudio y el modelo del PMID 11684314 (hoy sin confirmar).
+- Buscar estudios veterinarios o en modelo felino específicos de abacavir.
+- Definir si una indicación veterinaria es relevante para el alcance del proyecto en Colombia.
+
+**Otras predicciones:** el modelo también sugiere infección por virus de inmunodeficiencia de simios (SIV, L4, solo un estudio *in vitro* indirecto, Hold) y un trastorno del neurodesarrollo raro (L5, sin evidencia ni vínculo mecanístico, Hold). Ninguna de las dos debe orientar decisiones por ahora.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

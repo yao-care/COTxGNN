@@ -2,7 +2,7 @@
 layout: default
 title: Trandolapril
 parent: Solo Predicción del Modelo (L5)
-nav_order: 227
+nav_order: 391
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,87 +29,79 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Trandolapril: De Hipertensión Arterial a Hipertensión Renovascular Maligna
+# Trandolapril: De Trandolapril con Bloqueadores de Canales del Calcio a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA), utilizado globalmente para el tratamiento de la hipertensión arterial y la insuficiencia cardíaca, aunque actualmente no cuenta con registro sanitario en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Hipertensión Renovascular Maligna**, con una puntuación de predicción del 99.92%.
-Sin embargo, **no se encontraron ensayos clínicos ni literatura directamente relevante** que respalden esta indicación específica, y existe una paradoja de seguridad conocida que requiere evaluación cuidadosa.
-
----
+Trandolapril es un inhibidor de la enzima convertidora de angiotensina (IECA). En Colombia está registrado como Tarka® SR, en combinación con un bloqueador de canales del calcio.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial / Insuficiencia cardíaca (indicación global; sin registro en Colombia) |
-| Nueva Indicación Predicha | Hipertensión Renovascular Maligna |
+| Indicación Original | Trandolapril y bloqueadores de canales del calcio (texto del registro; no detalla una enfermedad específica) |
+| Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en este paquete de evidencia. Según la información conocida y los fundamentos de reposicionamiento incluidos en el análisis, Trandolapril es un IECA que bloquea el eje RAAS al inhibir la conversión de angiotensina I a angiotensina II (Ang II). Al reducir los niveles de Ang II, disminuye la vasoconstricción y la retención de sodio y agua, resultando en una reducción sostenida de la presión arterial sistémica y de la presión intraglomerular renal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, trandolapril es un inhibidor de la ACE. Este tipo de fármacos bloquea el sistema renina-angiotensina-aldosterona (SRAA), y su uso está registrado en Colombia junto con bloqueadores de canales del calcio. Mecanísticamente podría ser aplicable a la hipertensión renovascular maligna.
 
-La hipertensión renovascular maligna es una forma grave de hipertensión secundaria vinculada a estenosis de la arteria renal, en la que el eje RAAS se encuentra marcadamente sobreactivado. Teóricamente, los IECAs representan el bloqueo directo del mecanismo fisiopatológico central, lo que sustenta la plausibilidad topológica de la predicción del modelo TxGNN. Esta similitud estructural en el grafo de conocimiento explica la puntuación elevada.
+La lógica de la predicción es que la activación del SRAA es central en la hipertensión renovascular. Por eso, el bloqueo de este sistema es plausible desde la farmacología de clase. Esto no está confirmado por los datos suministrados. Además, el registro colombiano no describe una enfermedad concreta como indicación original, por lo que la comparación entre indicación original y nueva no se puede establecer con precisión.
 
-Sin embargo, existe una advertencia crítica reconocida: en pacientes con estenosis bilateral de la arteria renal o estenosis en riñón único funcionante, los IECAs pueden precipitar insuficiencia renal aguda al eliminar la vasoconstricción compensatoria de la arteriola eferente. Esta paradoja —mecanismo teóricamente favorable frente a riesgo de daño renal agudo— es la razón principal por la que la predicción no puede avanzar sin una evaluación clínica rigurosa de la población objetivo.
-
----
+Los inhibidores de la ACE tienen una preocupación conocida de seguridad renal en la estenosis bilateral de la arteria renal. Esto exigiría una revisión de seguridad específica. El puntaje TxGNN de 0.999 es solo una predicción del modelo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Trandolapril en hipertensión renovascular maligna.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura directamente relacionada con Trandolapril en hipertensión renovascular maligna disponible.
+Actualmente no hay literatura relacionada disponible.
 
-> **Nota sobre el panorama de evidencia completo:** Para la indicación de rango 4 (hipertensión pulmonar por enfermedad pulmonar/hipoxia) se recuperaron 20 publicaciones en PubMed; sin embargo, todas corresponden a biología general de la hipoxia (HIF-1α, hipoxemia, etc.) sin evaluar trandolapril directamente, y no constituyen evidencia de nivel farmacológico. La evidencia más relevante de todo el paquete se encuentra en la indicación de rango 6 (enfermedad cardíaca pulmonar crónica), con un estudio preclínico directo sobre trandolapril (ver tabla a continuación).
+## Otras Indicaciones Predichas (Referencia)
 
-### Evidencia de Literatura — Enfermedad Cardíaca Pulmonar Crónica (Indicación de Mayor Relevancia, Rango 6)
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [8989645](https://pubmed.ncbi.nlm.nih.gov/8989645/) | 1996 | Estudio Animal (Preclínico) | Journal of Cardiac Failure | Tratamiento prolongado con trandolapril mejoró las propiedades contráctiles alteradas de vasos en ratas con insuficiencia cardíaca crónica, sugiriendo que los IECAs corrigen la disfunción vascular aumentada en CHF |
-
----
+| Indicación Predicha | Puntaje TxGNN | Evidencia | Recomendación |
+|------|------|------|------|
+| Enfermedad renal hipertensiva maligna | 99.92% | Sin ensayos ni literatura (L5) | Hold |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.92% | Sin ensayos ni literatura (L5) | Hold |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.92% | 20 publicaciones recuperadas, pero son literatura general sobre hipoxia y ninguna menciona trandolapril ni IECA (L5) | Hold |
+| Síndrome de Braddock | 99.88% | Sin ensayos ni literatura (L5) | Hold |
+| Cardiopatía pulmonar crónica | 99.19% | 1 estudio en ratas (PMID 8989645, 1996) sobre trandolapril a largo plazo y vasoconstricción aumentada en insuficiencia cardíaca crónica; evidencia preclínica indirecta (L4) | Pregunta de investigación |
 
 ## Información de Mercado en Colombia
 
-Trandolapril **no cuenta con ningún registro sanitario activo en Colombia** y no se comercializa en el mercado colombiano en ninguna forma farmacéutica.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 230359 | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales del calcio |
 
----
+Los datos suministrados muestran cinco filas idénticas del mismo registro (230359, Laboratorio Franco Colombiano Lafrancol S.A.S.), por lo que se presenta una sola. El total declarado es de 20 registros sanitarios. La vía de administración disponible es oral.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-> **Alerta mecanística relevante:** Basado en el mecanismo de acción conocido de los IECAs y en el fundamento de reposicionamiento incluido en el paquete, se debe tener precaución especial ante el riesgo de **insuficiencia renal aguda** en pacientes con estenosis bilateral de la arteria renal —escenario directamente relacionado con la indicación predicha. Los datos formales de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en este paquete de evidencia y deben obtenerse antes de cualquier evaluación clínica.
-
----
+Consultar el prospecto para información de seguridad. No hay datos de interacciones farmacológicas en la consulta realizada.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción TxGNN para hipertensión renovascular maligna tiene plausibilidad mecanística razonable al involucrar la sobreactivación del eje RAAS, pero no existe ningún ensayo clínico ni literatura directa que respalde esta indicación específica, y la indicación predicha presenta un riesgo de seguridad conocido (insuficiencia renal aguda en estenosis bilateral) que puede ser contradictorio con el uso de IECAs en este subgrupo de pacientes.
+La indicación predicha solo tiene respaldo del modelo (L5), sin ensayos clínicos ni literatura directa sobre trandolapril. Tampoco hay información de seguridad del prospecto, y existe una preocupación renal conocida de la clase IECA en la estenosis bilateral de la arteria renal.
 
 **Para avanzar se necesita:**
-- Completar datos formales de mecanismo de acción (MOA) desde DrugBank API
-- Obtener advertencias, contraindicaciones e interacciones farmacológicas del prospecto oficial (actualmente todos en déficit de datos)
-- Evaluar si ensayos clínicos existentes de IECAs en hipertensión renovascular incluyen subgrupos con estenosis unilateral donde el uso es más seguro
-- Investigar datos de seguridad renal específicos de trandolapril en pacientes con estenosis de arteria renal antes de cualquier escalada de evidencia
-- Considerar como indicación alternativa prioritaria la **enfermedad cardíaca pulmonar crónica** (Rango 6, Nivel L4), que cuenta con evidencia preclínica directa de trandolapril (PMID 8989645) y un mecanismo de acción más favorable sin la contraindicación de daño renal agudo
+- Obtener del INVIMA el prospecto con advertencias y contraindicaciones, que hoy bloquea el tamizaje de seguridad
+- Consultar el mecanismo de acción en DrugBank para analizar el vínculo mecanístico
+- Búsqueda dirigida de literatura y ensayos sobre trandolapril o IECA en hipertensión renovascular maligna
+- Revisión de seguridad renal específica, en particular para estenosis bilateral de la arteria renal
+- Evaluar la cardiopatía pulmonar crónica como pregunta de investigación preclínica
+
+*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Brentuximab Vedotin
 parent: Evidencia Moderada (L3-L4)
-nav_order: 71
+nav_order: 95
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,111 +29,97 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
----
-
-# Brentuximab Vedotin: De Linfoma de Hodgkin a Linfoma Folicular
+# Brentuximab Vedotina: De Indicación Original No Especificada en el Registro a Linfoma Folicular
 
 ## Resumen en Una Frase
 
-Brentuximab vedotin es un conjugado anticuerpo-fármaco (ADC) anti-CD30 aprobado internacionalmente para el tratamiento del Linfoma de Hodgkin clásico y el Linfoma Anaplásico de Células Grandes sistémico (sALCL).
-El modelo TxGNN predice que podría ser efectivo para **Linfoma Folicular**,
-con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección de investigación.
-
----
+Brentuximab vedotina es un conjugado anticuerpo-fármaco dirigido a CD30, comercializado en Colombia como ADCETRIS® (Takeda). El registro sanitario colombiano no detalla su indicación aprobada; la literatura lo asocia con linfoma de Hodgkin y linfoma anaplásico de células grandes sistémico.
+El modelo TxGNN predice que podría ser efectivo para **linfoma folicular**, con **6 ensayos clínicos** y **20 publicaciones** asociados. Solo **1 ensayo** es específico de linfoma folicular (aún en reclutamiento y sin datos de eficacia), y la mayoría de las publicaciones tratan otros linfomas.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Linfoma de Hodgkin clásico / Linfoma Anaplásico de Células Grandes sistémico (sALCL) |
-| Nueva Indicación Predicha | Linfoma Folicular |
+| Indicación Original | BRENTUXIMAB VEDOTINA (el registro INVIMA solo repite el nombre del principio activo, sin describir la indicación) |
+| Nueva Indicación Predicha | Linfoma folicular |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 9 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Brentuximab vedotin es un conjugado anticuerpo-fármaco (ADC) compuesto por un anticuerpo monoclonal anti-CD30 unido covalentemente al agente citotóxico MMAE (monometil auristatina E), un potente inhibidor de la polimerización de microtúbulos. El mecanismo central consiste en la unión selectiva del anticuerpo al antígeno CD30 expresado en la superficie celular, seguida de la internalización del complejo y la liberación intracelular de MMAE, lo que desencadena la detención del ciclo celular en fase G2/M y la apoptosis de la célula tumoral. Los datos detallados de mecanismo de acción no están disponibles en el banco de datos consultado, pero este perfil farmacodinámico es ampliamente reconocido en la literatura clínica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, brentuximab vedotina es un conjugado anticuerpo-fármaco dirigido a CD30 que transporta MMAE, un agente citotóxico. Su eficacia en linfomas CD30 positivos está documentada en la literatura, y mecanísticamente podría ser aplicable a subconjuntos de linfoma folicular con expresión de CD30.
 
-El linfoma folicular (FL) es un linfoma de células B de bajo grado en el que la expresión de CD30 es históricamente baja, afectando a menos del 10% de los casos en estadios indolentes. No obstante, cuando el FL experimenta transformación histológica hacia Linfoma Difuso de Células B Grandes (DLBCL) o Linfoma Anaplásico de Células Grandes (ALCL), la expresión de CD30 puede aumentar de manera significativa. Adicionalmente, existe un subconjunto de FL no transformado con expresión detectable de CD30 que representa un potencial blanco terapéutico para BV. Esta lógica de selección por biomarcador sustenta el interés exploratorio en esta indicación.
+La relación entre la indicación original y la nueva es débil. El linfoma folicular suele tener expresión de CD30 baja o nula. Por eso la lógica de reposicionamiento solo se sostiene en subgrupos CD30 positivos o en enfermedad transformada. Un ejemplo es el caso publicado de transformación de linfoma folicular grado I a linfoma anaplásico de células grandes CD30+, con respuesta completa a brentuximab vedotina.
 
-Sin embargo, el ecosistema de ensayos clínicos en esta área presenta señales de advertencia importantes: de 6 ensayos registrados relacionados, 5 fueron terminados prematuramente o retirados sin datos. Solo un ensayo permanece activo y es directamente relevante (NCT04587687). Esta concentración de abandonos sugiere que la ejecución de estudios de BV en FL enfrenta dificultades operativas o de selección de pacientes que aún no han sido resueltas. La recomendación es esperar los resultados del ensayo activo antes de tomar decisiones de desarrollo.
-
----
+El puntaje de TxGNN es muy alto (99.89%), pero no está respaldado por una justificación clara de expresión del blanco. Debe leerse como una señal para investigación y no como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Fase 2 | En reclutamiento | 23 | BV + Bendamustina en FL recaído/refractario; único ensayo activo con relevancia directa; objetivo primario es la tasa de respuesta global en pacientes con expresión de CD30 |
-| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Fase 1/2 | Terminado | 20 | BV + Rituximab como terapia de primera línea en linfomas CD30+ y/o EBV+; FL como subgrupo secundario no principal; terminado con datos limitados |
-| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Fase 2 | Terminado | 25 | Rituximab + Bendamustina ± BV en DLBCL CD30+ recaído/refractario; terminado prematuramente, razón no especificada; evidencia incompleta |
-| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Fase 2 | Retirado | 0 | BV + Rituximab ± Bendamustina en trastorno linfoproliferativo post-trasplante CD20/CD30+; retirado sin inclusión de pacientes, sin datos disponibles |
-| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Fase 2 | Retirado | 0 | BV + Pembrolizumab en PTCL sistémico recurrente; retirado sin datos, relevancia indirecta para FL |
-| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Fase 2 | Retirado | 0 | BV + Bendamustina + Rituximab en LNH de células B CD30+ R/R; retirado sin inclusión; patrón de abandono refuerza la dificultad de ejecución en esta área |
-
-> ⚠️ **Señal de alerta**: 5 de los 6 ensayos registrados fueron terminados o retirados sin generar datos utilizables. Esta tasa de abandono es inusualmente alta y debe considerarse en la evaluación de riesgo de desarrollo.
-
----
+| [NCT04587687](https://clinicaltrials.gov/study/NCT04587687) | Fase 2 | Reclutando | 23 | BV + bendamustina en linfoma folicular en recaída/refractario. Es el único ensayo específico de la indicación; sin datos de eficacia todavía |
+| [NCT02594163](https://clinicaltrials.gov/study/NCT02594163) | Fase 2 | Terminado | 25 | Aleatorizado: rituximab + bendamustina con o sin BV en LDCGB CD30+ en recaída/refractario. Terminado por bajo reclutamiento y sin resultados; es un linfoma B agresivo, no folicular |
+| [NCT01805037](https://clinicaltrials.gov/study/NCT01805037) | Fase 1/2 | Terminado | 20 | BV + rituximab como primera línea en linfomas CD30+ y/o EBV+ de histologías mixtas |
+| [NCT02623920](https://clinicaltrials.gov/study/NCT02623920) | Fase 2 | Retirado | 0 | BV + bendamustina + rituximab en linfoma B no Hodgkin CD30+ en recaída/refractario. Sin pacientes ni datos |
+| [NCT04138875](https://clinicaltrials.gov/study/NCT04138875) | Fase 2 | Retirado | 0 | Rituximab + BV + bendamustina en trastornos linfoproliferativos postrasplante recién diagnosticados. Sin datos |
+| [NCT04795869](https://clinicaltrials.gov/study/NCT04795869) | Fase 2 | Retirado | 0 | BV + pembrolizumab en linfoma T periférico recurrente. Sin datos |
 
 ## Evidencia de Literatura
 
+No se identificaron ensayos aleatorizados. La literatura consiste sobre todo en revisiones, series retrospectivas y reportes de caso, y la mayor parte trata linfoma T periférico (PTCL), no linfoma folicular.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Reporte de caso | Gulf Journal of Oncology | Transformación de FL Grado I a ALCL CD30+/ALK1− con respuesta completa a BV + metotrexato en altas dosis; única evidencia directa de actividad de BV en FL transformado |
-| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Revisión | Leukemia Research Reports | Inmunoterapia en LNH indolente incluyendo FL; discute anticuerpos monoclonales y agentes emergentes en este contexto |
-| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Cohorte prospectiva | Advances in Therapy | BV + Ciclofosfamida, Epirubicina y Prednisona en PTCL CD30+ no tratado; datos de mundo real incluyendo ALCL y AITL con tasas de respuesta global |
-| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Estudio Fase 2 | Blood Advances | BV + Gemcitabina en PTCL R/R con ≥5% de células CD30+; evaluación de ORR tras 4 ciclos de inducción seguida de mantenimiento con BV |
-| [41409526](https://pubmed.ncbi.nlm.nih.gov/41409526/) | 2025 | Reporte de caso | Skin Appendage Disorders | Alopecia mucinosa extensa con respuesta a BV en micosis fungoide foliculotrópica; ilustra actividad de BV en linfomas de patrón folicular CD30+ |
-| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | Revisión | Hematological Oncology | PTCL heterogéneo con >30 subtipos; actualización de clasificación ICC/WHO 2022 y rol de BV en regímenes de primera línea para subtipos CD30+ |
-| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Revisión | Blood | Tratamiento de PTCL nodal común: BV+CHP para enfermedad CD30+; discute CD30 como biomarcador de selección terapéutica |
-| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Revisión | Hematology (ASH Education) | BV y agentes novedosos en el manejo del PTCL: perspectivas de incorporación en práctica clínica y combinaciones emergentes |
-| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Revisión | Bone Marrow Transplantation | Terapias de mantenimiento post-TASP en linfomas incluyendo FL; contexto de BV como mantenimiento post-trasplante en HL de alto riesgo |
-| [38028985](https://pubmed.ncbi.nlm.nih.gov/38028985/) | 2023 | Reporte de caso | Case Reports in Hematology | Transformación de FL a DLBCL EBV+ y LH clásico EBV+; evidencia de que FL puede transformarse en neoplasias CD30-positivas susceptibles a BV |
-
----
+| [40758949](https://pubmed.ncbi.nlm.nih.gov/40758949/) | 2025 | Estudio fase 2 | Blood Advances | Gemcitabina + BV seguida de mantenimiento con BV en PTCL en recaída/refractario con ≥5% de células CD30+ (LYSA) |
+| [35663281](https://pubmed.ncbi.nlm.nih.gov/35663281/) | 2022 | Revisión | Leukemia Research Reports | Inmunoterapia en linfomas no Hodgkin indolentes, incluido el linfoma folicular |
+| [38306597](https://pubmed.ncbi.nlm.nih.gov/38306597/) | 2024 | Revisión | Blood | Tratamiento actual y futuro de los subtipos comunes de PTCL, incluido BV + CHP en enfermedad CD30+ |
+| [39644004](https://pubmed.ncbi.nlm.nih.gov/39644004/) | 2024 | Revisión | Hematology (ASH Education Program) | Incorporación de agentes nuevos, incluido BV, en el manejo del PTCL |
+| [40517441](https://pubmed.ncbi.nlm.nih.gov/40517441/) | 2025 | Revisión | Hematological Oncology | Panorama del PTCL y perspectivas terapéuticas |
+| [28967896](https://pubmed.ncbi.nlm.nih.gov/28967896/) | 2018 | Revisión | Bone Marrow Transplantation | Terapias de mantenimiento tras trasplante autólogo en linfoma, con mención del linfoma folicular |
+| [34797505](https://pubmed.ncbi.nlm.nih.gov/34797505/) | 2022 | Estudio retrospectivo | Advances in Therapy | BV + ciclofosfamida, epirrubicina y prednisona en PTCL sin tratamiento previo, en práctica real |
+| [32476657](https://pubmed.ncbi.nlm.nih.gov/32476657/) | 2020 | Reporte de caso | Gulf Journal of Oncology | Transformación de linfoma folicular grado I a linfoma anaplásico CD30+ ALK1−, con respuesta completa a BV y metotrexato en dosis altas |
+| [38028985](https://pubmed.ncbi.nlm.nih.gov/38028985/) | 2023 | Reporte de caso | Case Reports in Hematology | Transformación de linfoma folicular a LDCGB EBV+ y linfoma de Hodgkin clásico EBV+ |
+| [41409526](https://pubmed.ncbi.nlm.nih.gov/41409526/) | 2025 | Reporte de caso | Skin Appendage Disorders | Mucinosis folicular extensa asociada a linfoma T cutáneo, con respuesta a BV. Es una entidad distinta del linfoma folicular |
 
 ## Información de Mercado en Colombia
 
-Brentuximab vedotin **no cuenta con registros sanitarios activos ante el INVIMA** a la fecha del corte de datos (2026-05-06). El medicamento no se encuentra comercializado en Colombia en ninguna de sus presentaciones. Para su uso en el país se requeriría importación bajo modalidad de uso compasivo o mediante autorización especial de importación.
+Los 5 registros listados en el Evidence Pack son idénticos (mismo número de registro, producto y fabricante), por lo que se presentan en una sola fila.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20058697 | ADCETRIS® (Takeda Colombia S.A.S) | Polvo estéril para reconstituir a solución inyectable | BRENTUXIMAB VEDOTINA (sin descripción de indicación) |
 
 ## Citotoxicidad
 
+Los datos de toxicidad no vienen del Evidence Pack; los valores siguientes son de conocimiento general de la clase y deben confirmarse en el prospecto de INVIMA.
+
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — Conjugado anticuerpo-fármaco (ADC) anti-CD30 con payload citotóxico MMAE (inhibidor de microtúbulos, clase auristatina) |
-| Riesgo de Mielosupresión | Moderado a alto (neutropenia y trombocitopenia son toxicidades frecuentes reportadas en los ensayos pivotales de HL y sALCL) |
-| Clasificación de Emetogenicidad | Baja a moderada |
-| Ítems de Monitoreo | Hemograma completo con diferencial (antes de cada ciclo); función hepática y renal; evaluación clínica de neuropatía periférica sensitiva y/o motora (toxicidad limitante de dosis); vigilancia de infecciones oportunistas |
-| Protección en Manejo | Debe seguir regulaciones de manejo de fármacos citotóxicos; preparación y administración bajo condiciones de seguridad para ADC, incluyendo equipo de protección personal apropiado |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (conjugado anticuerpo-fármaco anti-CD30 con carga citotóxica MMAE) |
+| Riesgo de Mielosupresión | Medio (neutropenia descrita con frecuencia en la clase) |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, signos de neuropatía periférica e infecciones |
+| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos para preparación y administración |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La expresión de CD30 en linfoma folicular es baja en condiciones basales (<10%), lo que restringe severamente el universo de pacientes elegibles. La alta tasa de terminación y retiro de ensayos clínicos (5 de 6) representa una señal de advertencia sobre la viabilidad del desarrollo en esta indicación. La decisión de avanzar debe condicionarse a los resultados del único ensayo activo (NCT04587687), cuya finalización está prevista para diciembre 2026.
+El único ensayo específico de linfoma folicular (NCT04587687) sigue reclutando y no tiene datos de eficacia. El resto de la evidencia corresponde a otros linfomas, y el linfoma folicular suele ser CD30 bajo o negativo. El puntaje alto de TxGNN no compensa la falta de un fundamento claro de expresión del blanco.
 
 **Para avanzar se necesita:**
-- Resultados del ensayo NCT04587687 (BV + Bendamustina en FL R/R), esperados a finales de 2026
-- Determinación del umbral de expresión de CD30 requerido para selección de pacientes con FL en Colombia
-- Datos de seguridad completos del prospecto oficial (actualmente no disponibles en el Evidence Pack)
-- Evaluación de la viabilidad de acceso al medicamento en Colombia (sin registro INVIMA vigente; considerar importación por uso compasivo o estudios clínicos locales)
-- Análisis de la razón de terminación de los 5 ensayos fallidos para descartar señales de seguridad no documentadas
+- Resultados de NCT04587687 y datos sobre la expresión de CD30 en linfoma folicular en recaída/refractario
+- Descarga y análisis del prospecto de INVIMA, para obtener la indicación aprobada, advertencias y contraindicaciones, que hoy bloquean el tamizaje de seguridad
+- Datos del mecanismo de acción desde DrugBank
+- Considerar otras indicaciones predichas con más evidencia. La más avanzada es la neoplasia de células B (evidencia L2), respaldada por un ensayo de fase 3 en LDCGB en recaída/refractario (NCT04404283, BV + lenalidomida + rituximab, en curso) y por ensayos completados de fase 1/2
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

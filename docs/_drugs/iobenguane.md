@@ -2,7 +2,7 @@
 layout: default
 title: Iobenguane
 parent: Evidencia Moderada (L3-L4)
-nav_order: 137
+nav_order: 225
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,101 +29,91 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Iobenguane: De Radiofármaco Diagnóstico Neuroendocrino a Trastorno Hipotensivo
+# Iobenguano: De Uso Radiofarmacéutico (131I) a Trastorno Hipotensivo
 
 ## Resumen en Una Frase
 
-Iobenguane (MIBG, meta-iodobenzylguanidine) es un análogo de la norepinefrina utilizado principalmente como radiofármaco para imagen diagnóstica de tumores neuroendocrinos y evaluación de la inervación simpática cardíaca.
-El modelo TxGNN predice que podría ser efectivo para **Trastorno Hipotensivo**,
-con **0 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
-
----
+El iobenguano (MIBG) es un análogo de la noradrenalina marcado con yodo radiactivo. En Colombia está registrado como iobenguano (131I), y en la literatura se usa como trazador de imagen y como agente antitumoral.
+El modelo TxGNN predice que podría ser efectivo para **trastorno hipotensivo**, pero hay **0 ensayos clínicos** y **20 publicaciones** relacionadas, y ninguna demuestra un efecto terapéutico sobre la hipotensión. Todas usan el MIBG como marcador diagnóstico o pronóstico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin registro disponible en Colombia (radiofármaco diagnóstico/terapéutico neuroendocrino) |
-| Nueva Indicación Predicha | Trastorno Hipotensivo (Hypotensive disorder) |
+| Indicación Original | IOBENGUANE (131I). El registro no incluye un texto de indicación descriptivo |
+| Nueva Indicación Predicha | Trastorno hipotensivo |
 | Puntaje de Predicción TxGNN | 99.90% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 4 (2 números de registro únicos, con entradas duplicadas) |
 | Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados de mecanismo de acción en la base de datos. Según la literatura, el iobenguano es un análogo de la noradrenalina. El transportador de noradrenalina lo capta en las terminales simpáticas posganglionares, y por eso sirve para visualizar la inervación simpática, por ejemplo la cardíaca.
 
-Iobenguane (MIBG) es un análogo estructural de la norepinefrina que se internaliza activamente en las células que expresan el transportador de norepinefrina (NET). En las terminaciones nerviosas simpáticas postganglionares cardíacas, MIBG imita el metabolismo de la norepinefrina endógena, lo que permite cuantificar la densidad de inervación simpática mediante imagen nuclear: con ¹²³I para diagnóstico funcional, y con ¹³¹I para terapia ablativa en tumores neuroendocrinos (neuroblastoma, feocromocitoma).
+La relación con la hipotensión es indirecta. La captación cardíaca reducida de MIBG marca la denervación simpática cardíaca. Esa denervación se asocia con la hipotensión ortostática neurogénica en la enfermedad de Parkinson y en trastornos relacionados.
 
-El trastorno hipotensivo —en particular la hipotensión ortostática neurogénica— tiene como sustrato patofisiológico central la denervación simpática postganglionar cardíaca y periférica. Esta denervación, bien documentada en enfermedad de Parkinson, atrofia multisistémica y otras neuropatías autonómicas, reduce la liberación de norepinefrina durante los cambios posturales, generando caídas sostenidas de presión arterial. Las 20 publicaciones identificadas confirman que la captación reducida de MIBG en la gammagrafía cardíaca es un biomarcador establecido de esta denervación, y que existe correlación directa entre el grado de captación y la severidad de la hipotensión ortostática.
-
-Sin embargo, la totalidad de la evidencia disponible es de naturaleza **diagnóstica**: iobenguane se utiliza como trazador para cuantificar el déficit simpático, no como intervención terapéutica. Para establecer una hipótesis de reposicionamiento válida, sería indispensable articular un mecanismo por el cual iobenguane pudiera mejorar activamente la presión arterial —por ejemplo, incrementando la disponibilidad o liberación de norepinefrina— superando su rol pasivo de trazador. Este eslabón mecanístico fundamental carece por completo de soporte experimental o conceptual documentado en la literatura actual.
-
----
+**Esta predicción probablemente refleja una asociación en el grafo de conocimiento (trazador diagnóstico ligado a falla autonómica) y no un efecto terapéutico.** La literatura apoya al MIBG como marcador de la denervación de fondo. No muestra que trate la hipotensión. Los reportes de caso de feocromocitoma y paraganglioma tratan de un tumor secretor de catecolaminas y no de tratamiento de la hipotensión.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Iobenguane en trastorno hipotensivo.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|----------------------|
-| [34568970](https://pubmed.ncbi.nlm.nih.gov/34568970/) | 2021 | Cohorte Prospectiva | J Neural Transm | Hipotensión ortostática se asocia con denervación simpática cardíaca (MIBG reducido) y mayor daño neuronal (neurofilamento ligero elevado) en EP temprana |
-| [39232705](https://pubmed.ncbi.nlm.nih.gov/39232705/) | 2024 | Transversal | BMC Neurology | Taquicardia embotada en cambios posturales (marcador de hipotensión ortostática neurogénica) se asocia directamente a denervación cardíaca por MIBG en iRBD prodrómica |
-| [26944118](https://pubmed.ncbi.nlm.nih.gov/26944118/) | 2016 | Transversal | J Neurological Sciences | Hipotensión ortostática y denervación simpática cardíaca (MIBG) se presentan conjuntamente en EP con trastorno de conducta del sueño REM |
-| [27091624](https://pubmed.ncbi.nlm.nih.gov/27091624/) | 2016 | Transversal | Movement Disorders | Hipotensión ortostática y deterioro cognitivo en EP comparten mecanismo vascular: hipoperfusión cerebral episódica por déficit simpático |
-| [24332912](https://pubmed.ncbi.nlm.nih.gov/24332912/) | 2014 | Revisión | Parkinsonism Relat Disord | Gammagrafía MIBG muestra alta sensibilidad/especificidad para EP premotor; fibras simpáticas cardíacas son afectadas precozmente en la enfermedad |
-| [30919499](https://pubmed.ncbi.nlm.nih.gov/30919499/) | 2019 | Revisión | Movement Disorders | MIBG validado como uno de 16 marcadores prodromales de EP con evidencia prospectiva robusta acumulada en la última década |
-| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revisión | Drugs Aging | Prevalencia de hipotensión ortostática sintomática hasta 20% en EP; fallo autonómico periférico y fármacos dopaminérgicos son los factores determinantes |
-| [33476877](https://pubmed.ncbi.nlm.nih.gov/33476877/) | 2021 | Serie de Casos | Parkinsonism Relat Disord | MIBG cardíaco útil para distinguir denervación simpática en enfermedad de Perry (proteinopatía TDP-43) vs. enfermedades con cuerpos de Lewy |
-| [11322922](https://pubmed.ncbi.nlm.nih.gov/11322922/) | 2001 | Revisión Clínica | Biochem Pharmacol | Revisión de MIBG como agente antineoplásico (familia guanidino); base farmacológica de su actividad anticancerosa y similitudes estructurales con norepinefrina |
-| [32169989](https://pubmed.ncbi.nlm.nih.gov/32169989/) | 2020 | Reporte de Caso | BMJ Case Reports | Paraganglioma vesical con síncope y crisis hipotensivas por micción; MIBG integrado al diagnóstico de tumores secretores catecolaminas |
-
----
+|------|-----|------|------|---------|
+| [30919499](https://pubmed.ncbi.nlm.nih.gov/30919499/) | 2019 | Revisión | Mov Disord | Avances en marcadores de la enfermedad de Parkinson prodrómica durante la última década |
+| [24332912](https://pubmed.ncbi.nlm.nih.gov/24332912/) | 2014 | Revisión | Parkinsonism Relat Disord | La gammagrafía miocárdica con MIBG detecta de forma temprana la denervación simpática cardíaca en el Parkinson premotor |
+| [11482743](https://pubmed.ncbi.nlm.nih.gov/11482743/) | 2001 | Revisión | Drugs Aging | Fisiopatología y manejo de la hipotensión ortostática en el Parkinson (prevalencia sintomática de hasta 20%) |
+| [27091624](https://pubmed.ncbi.nlm.nih.gov/27091624/) | 2016 | Revisión | Mov Disord | Relación entre hipotensión ortostática y deterioro cognitivo en el Parkinson: no está claro si es causal o asociativa |
+| [39232705](https://pubmed.ncbi.nlm.nih.gov/39232705/) | 2024 | Cohorte | BMC Neurol | La taquicardia atenuada, indicador de hipotensión ortostática neurogénica, se relaciona con la denervación simpática cardíaca en el trastorno de conducta del sueño REM aislado |
+| [26944118](https://pubmed.ncbi.nlm.nih.gov/26944118/) | 2016 | Cohorte | J Neurol Sci | En Parkinson con trastorno de conducta del sueño REM se evaluó la relación entre hipotensión ortostática y denervación simpática cardíaca |
+| [34568970](https://pubmed.ncbi.nlm.nih.gov/34568970/) | 2021 | Cohorte | J Neural Transm | Se relacionó la cadena ligera de neurofilamentos plasmática con la hipotensión ortostática y la denervación cardíaca en el Parkinson temprano (77 pacientes, 54 controles) |
+| [33476877](https://pubmed.ncbi.nlm.nih.gov/33476877/) | 2021 | Serie de casos | Parkinsonism Relat Disord | La gammagrafía con MIBG como biomarcador diagnóstico en la enfermedad de Perry |
+| [11322922](https://pubmed.ncbi.nlm.nih.gov/11322922/) | 2001 | Revisión (farmacología) | Biochem Pharmacol | El MIBG tiene uso establecido como agente anticancerígeno y similitud estructural con la noradrenalina |
+| [29880316](https://pubmed.ncbi.nlm.nih.gov/29880316/) | 2018 | No clasificado | Parkinsonism Relat Disord | Hipotensión ortostática con noradrenalina plasmática alta y denervación simpática central en el Parkinson temprano |
 
 ## Información de Mercado en Colombia
 
-Iobenguane no cuenta con registros sanitarios vigentes ante el INVIMA. No se encontraron licencias aprobadas ni formas farmacéuticas comercializadas en Colombia a la fecha de corte de este informe (2026-05-05).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 229122 | MIBG- 131- T | Sin dato | IOBENGUANE (131I) |
+| 228909 | MIBG-131-D | Sin dato | IOBENGUANE (131I) |
 
----
+Ambos productos son de Quirúrgicos Ltda. Los datos traen 4 entradas, pero corresponden a solo 2 números de registro, cada uno repetido.
 
 ## Citotoxicidad
 
-La formulación terapéutica ¹³¹I-iobenguane posee propiedades antineoplásicas documentadas: es un radiofármaco aprobado para el tratamiento de feocromocitoma/paraganglioma irresecable (Azedra®, FDA 2018) y neuroblastoma de alto riesgo. La literatura confirma explícitamente su uso en quimioterapia (PMID 11322922).
+La literatura describe el MIBG como agente anticancerígeno establecido. Los productos registrados en Colombia son de iobenguano marcado con 131I, un radiofármaco.
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Radiofármaco terapéutico citotóxico (emisor beta/gamma ¹³¹I; análogo de norepinefrina con captación selectiva en tejido simpático) |
-| Riesgo de Mielosupresión | Alto (mielosupresión es la toxicidad limitante de dosis documentada para ¹³¹I-MIBG; trombocitopenia y neutropenia frecuentes) |
-| Clasificación de Emetogenicidad | Baja a moderada |
-| Items de Monitoreo | Hemograma completo con diferencial, función tiroidea (riesgo de captación tiroidea si no hay bloqueo previo), función renal y hepática, presión arterial |
-| Protección en Manejo | Requiere instalaciones certificadas de medicina nuclear con protección radiológica; manejo exclusivo por personal entrenado en radiofármacos terapéuticos |
-
----
+| Clasificación de Citotoxicidad | Radiofármaco dirigido (análogo de noradrenalina marcado con 131I) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Por ser radiofármaco, requiere seguir la normativa de manejo de material radiactivo |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las 20 publicaciones identificadas documentan únicamente el uso **diagnóstico** de iobenguane como trazador de denervación simpática cardíaca; no existe ninguna hipótesis terapéutica articulada, ningún ensayo de intervención ni ningún modelo experimental que respalde el reposicionamiento de iobenguane como tratamiento del trastorno hipotensivo. La predicción del modelo TxGNN refleja una asociación de conocimiento en el grafo (denervación simpática ↔ hipotensión), pero no implica causalidad terapéutica.
+No hay ensayos clínicos, y la literatura usa el MIBG solo como marcador diagnóstico o pronóstico de la denervación simpática, sin evidencia de beneficio terapéutico en la hipotensión. El puntaje alto del modelo (99.90%) parece reflejar una asociación del grafo de conocimiento y no un efecto terapéutico.
 
 **Para avanzar se necesita:**
-- Formular y validar un mecanismo de acción terapéutico explícito: demostrar cómo iobenguane podría mejorar la presión arterial (p. ej., incremento de norepinefrina disponible, modulación del NET) más allá de su función como trazador
-- Desarrollar estudios preclínicos (modelos animales de hipotensión ortostática neurogénica) que confirmen o descarten efecto farmacológico activo
-- Evaluar la viabilidad regulatoria y logística en Colombia: iobenguane es un radiofármaco que exige infraestructura de medicina nuclear especializada, actualmente ausente en la mayoría de los centros ambulatorios
-- Gestionar el registro sanitario ante el INVIMA antes de cualquier investigación clínica local, dado que el medicamento no está comercializado en el país
+- Obtener y analizar el prospecto del INVIMA (advertencias, contraindicaciones), pendiente para el tamizaje de seguridad
+- Completar los datos de mecanismo de acción desde DrugBank
+- Definir si se plantea un uso terapéutico o solo diagnóstico. Para uso terapéutico haría falta evidencia preclínica o clínica de beneficio en la hipotensión, y hoy no la hay
+- Como referencia, entre las otras predicciones del modelo, la **atrofia multisistémica** tiene mayor respaldo (nivel L3, varios estudios de cohorte y de precisión diagnóstica). Ese respaldo corresponde a la **gammagrafía con 123I-MIBG para el diagnóstico diferencial frente al Parkinson**, no a un tratamiento
+
+*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

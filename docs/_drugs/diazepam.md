@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diazepam
-parent: Evidencia Alta (L1-L2)
-nav_order: 99
-evidence_level: L1
+parent: Evidencia Moderada (L3-L4)
+nav_order: 161
+evidence_level: L3
 indication_count: 10
 ---
 
 # Diazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,92 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Diazepam: De Trastorno de Ansiedad a Insomnio
+# Diazepam: De Indicación Original No Documentada a Insomnio
 
 ## Resumen en Una Frase
 
-Diazepam (Valium) es una benzodiacepina históricamente utilizada para el tratamiento de trastornos de ansiedad, espasmos musculares y convulsiones.
-El modelo TxGNN predice que podría ser efectivo para **Insomnio**,
-con **24 ensayos clínicos** y **18 publicaciones** que actualmente respaldan esta dirección.
-
----
+Diazepam es una benzodiacepina que actúa sobre los receptores GABA-A. En Colombia está registrado como solución inyectable, pero el registro sanitario no detalla la indicación original (solo repite el nombre del fármaco).
+El modelo TxGNN predice que podría ser efectivo para **insomnio**.
+Se encontraron **24 ensayos clínicos** y **18 publicaciones** asociados a la búsqueda, pero ninguno evalúa diazepam como tratamiento del insomnio en un estudio prospectivo reciente. La evidencia directa se limita a un estudio comparativo de 1981.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno de ansiedad (benzodiacepina de amplio espectro; uso histórico consolidado) |
-| Nueva Indicación Predicha | Insomnio (insomnia disease) |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | No disponible (el registro solo indica "DIAZEPAM") |
+| Nueva Indicación Predicha | Insomnio |
+| Puntaje de Predicción TxGNN | 99.9997% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué es Razonable esta Predicción?
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, diazepam es un modulador alostérico positivo de los receptores GABA-A. Al reforzar la inhibición GABAérgica produce efectos sedantes e hipnóticos, por lo que mecanísticamente podría ser aplicable al insomnio.
 
-Diazepam actúa como modulador alostérico positivo (PAM) del receptor GABA-A, prolongando el tiempo de apertura del canal de cloruro (Cl⁻) y potenciando la inhibición neuronal tónica y fásica. Este mecanismo produce efectos sedantes e hipnóticos directamente relacionados con la fisiopatología del insomnio: la hiperactivación cortical y la insuficiencia GABAérgica son dos de los principales mecanismos patológicos identificados en el insomnio crónico. La literatura reciente (PMID 39581171, 2024) confirma explícitamente que diazepam, como PAM prototípico del GABA-A, exhibe efectos terapéuticos reconocidos en epilepsia, ansiedad e insomnio.
+Esta predicción no descubre un mecanismo nuevo. Las benzodiacepinas ya se usan para el insomnio en varias regiones, así que la pregunta es de posicionamiento y seguridad, no de biología. El metabolito de larga duración (nordiazepam) se asocia a sedación al día siguiente, deterioro cognitivo y riesgo de dependencia.
 
-La relación entre ansiedad e insomnio es intrínseca desde el punto de vista clínico y neurobiológico: ambas condiciones comparten el sustrato de la hiperactivación del sistema nervioso central mediada por déficits en la señalización inhibitoria. Las benzodiacepinas han sido el tratamiento de primera línea histórico para el insomnio de corta duración, con diazepam siendo uno de los compuestos de referencia en ensayos comparativos controlados con doble ciego desde la década de 1980 (PMID 6113175). Además, diazepam se usa sistemáticamente como control positivo en modelos preclínicos de insomnio (PCPA, tirotoxicosis, CUMS), lo que confirma su efecto sedante-hipnótico bien establecido.
-
-Cabe destacar que la predicción TxGNN con puntaje 99.99% no representa un reposicionamiento en sentido estricto, sino la formalización de una indicación históricamente reconocida pero desplazada por alternativas más seguras (Z-drogas, antagonistas de orexina) en las guías clínicas modernas. La robustez de la señal refleja la conectividad mecanística directa entre diazepam y los circuitos del sueño en el grafo de conocimiento farmacológico.
-
----
+Como las indicaciones originales y el MOA están vacíos en los datos, hay que verificar la línea base antes de sacar conclusiones.
 
 ## Evidencia de Ensayos Clínicos
 
+Ninguno de los ensayos evalúa diazepam como tratamiento del insomnio. La mayoría trata la discontinuación de hipnóticos o son coincidencias por palabras clave.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Fase 3 | Activo (sin reclutamiento) | 260 | Protocolo de reducción gradual ciega de hipnóticos (benzodiacepinas y Z-drogas) combinado con TCC-I para mejorar tasas de discontinuación; confirma uso extendido de BZD en insomnio |
-| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Fase 2 | Completado | 74 | Velocidad de reducción y rasgos personales en discontinuación de sedantes hipnóticos (benzodiacepinas); >65% de pacientes con prescripción hipnótica la usan por más de un año |
-| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | N/A | Completado | 188 | Nuevo mecanismo para ayudar a adultos mayores a discontinuar hipnóticos; evalúa estrategias más allá de la reducción gradual y la TCC-I |
-| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | N/A | Completado | 128 | Terapia de Aceptación y Compromiso (ACT) en telepsicología vs. apoyo psicológico para reducción de benzodiacepinas en insomnio con dependencia hipnótica |
-| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Fase 4 | Completado | 17 | Combinación de ramelteon (agonista melatoninérgico) con reducción gradual de hipnóticos BZD/no-BZD en insomnio crónico |
-| [NCT02648776](https://clinicaltrials.gov/study/NCT02648776) | N/A | Desconocido | 1400 | Cohorte prospectiva taiwanesa sobre patrones de uso de hipnóticos en adultos mayores; evalúa eficacia, seguridad y características farmacocinéticas incluyendo benzodiacepinas |
-| [NCT02530580](https://clinicaltrials.gov/study/NCT02530580) | Fase 1 | Completado | 12 | Estudio cruzado de AZD7325 (nuevo modulador GABA selectivo) vs. diazepam como referencia activa; proporciona datos PK de diazepam en contexto GABA-A/insomnio |
-| [NCT02281175](https://clinicaltrials.gov/study/NCT02281175) | N/A | Completado | 114 | Intervención psicosocial PASSE-65+ para reducción gradual de benzodiacepinas en adultos mayores con insomnio, ansiedad y depresión |
-
----
+| [NCT02831894](https://clinicaltrials.gov/study/NCT02831894) | Fase 2 | Completado | 74 | Efecto del ritmo de reducción gradual en la suspensión de hipnóticos en personas con insomnio |
+| [NCT04050176](https://clinicaltrials.gov/study/NCT04050176) | Fase 3 | Activo, sin reclutar | 260 | Reducción gradual "ciega" de hipnóticos más terapia cognitivo-conductual para el insomnio (TCC-I) frente a reducción abierta |
+| [NCT04751851](https://clinicaltrials.gov/study/NCT04751851) | N/A | Completado | 128 | Terapia de aceptación y compromiso (ACT) por telepsicología en el retiro de benzodiacepinas en insomnio con dependencia |
+| [NCT03687086](https://clinicaltrials.gov/study/NCT03687086) | N/A | Completado | 188 | Mecanismo novedoso para ayudar a adultos mayores a dejar los somníferos |
+| [NCT03461042](https://clinicaltrials.gov/study/NCT03461042) | Fase 4 | Completado | 17 | Ramelteón para reducir o suspender hipnóticos benzodiacepínicos y no benzodiacepínicos en insomnio crónico |
+| [NCT05935553](https://clinicaltrials.gov/study/NCT05935553) | Fase 2/3 | Reclutando | 93 | Baclofeno para mejorar la reducción gradual de benzodiacepinas en dependencia |
+| [NCT01893632](https://clinicaltrials.gov/study/NCT01893632) | Fase 2 | Terminado | 2 | Gabapentina en dependencia de benzodiacepinas (terminado con solo 2 participantes) |
+| [NCT04364321](https://clinicaltrials.gov/study/NCT04364321) | N/A | Desconocido | 74 | Clonazepam en dosis única frente a diazepam intermitente para prevenir convulsiones febriles recurrentes (otra condición) |
+| [NCT05646693](https://clinicaltrials.gov/study/NCT05646693) | Fase 2 | Desconocido | 58 | Combinación con amitriptilina, perfenazina y diazepam en tinnitus crónico (otra condición) |
+| [NCT02281175](https://clinicaltrials.gov/study/NCT02281175) | N/A | Completado | 114 | Intervención psicosocial para ayudar a adultos mayores a reducir benzodiacepinas |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | ECA | J Int Med Res | ECA doble ciego (n=100): lormetazepam 1 mg vs. diazepam 5 mg en trastornos del sueño como síntoma concomitante; lormetazepam superior en latencia de inicio y duración del sueño ininterrumpido; ambos clínicamente eficaces |
-| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Revisión | Bioorganic Chemistry | Revisión sistemática de moduladores GABA-A: diazepam confirmado como PAM prototípico con aplicaciones terapéuticas en epilepsia, ansiedad e insomnio; analiza efectos secundarios de sedación, problemas de memoria y adicción |
-| [40570297](https://pubmed.ncbi.nlm.nih.gov/40570297/) | 2025 | Cohorte | Sleep | Uso crónico de BZD/BZRA en adultos mayores con insomnio crónico altera macroarquitectura del sueño NREM, oscilaciones lentas y husos del sueño; relevante para evaluación de riesgo-beneficio a largo plazo |
-| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | Preclínico | Nature Neuroscience | Diazepam a largo plazo deteriora la plasticidad estructural de espinas dendríticas (via microglía/TSPO), causando deterioro cognitivo en ratones; alerta de seguridad crítica para uso crónico |
-| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Clínico-molecular | Cell Mol Biol Lett | Uso prolongado de benzodiacepinas (diazepam) y Z-drogas se asocia a mayor riesgo de cáncer de mama vía receptores GABA-A; señal de seguridad a largo plazo para poblaciones específicas |
-| [37776625](https://pubmed.ncbi.nlm.nih.gov/37776625/) | 2023 | Preclínico | J Pharm Biomed Anal | Diazepam utilizado como control positivo estándar en modelo de insomnio inducido por PCPA en ratas; evalúa modulación metabólica y de vías biológicas relacionadas con el sueño |
-| [34983880](https://pubmed.ncbi.nlm.nih.gov/34983880/) | 2021 | Preclínico | Exp Neurobiology | Validación de modelo de insomnio asociado a tirotoxicosis (estimulación simpática); diazepam confirma su eficacia como referencia hipnótica positiva |
-| [40350874](https://pubmed.ncbi.nlm.nih.gov/40350874/) | 2025 | Preclínico | China J Chin Materia Medica | Diazepam (2 mg/kg) como grupo control positivo en modelo CUMS de depresión-insomnio en ratones; respalda su efecto hipnótico como estándar de referencia preclínico |
-
----
+| [6113175](https://pubmed.ncbi.nlm.nih.gov/6113175/) | 1981 | Estudio comparativo doble ciego | J Int Med Res | Lormetazepam 1 mg frente a diazepam 5 mg durante 7 días en 100 pacientes ambulatorios con insomnio. Lormetazepam fue significativamente mejor en reducir el tiempo para dormirse y en prolongar el sueño continuo |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanálisis | Acta Pharm | Evalúa tranquilizantes en adultos mayores con enfermedades crónicas: dosis, resultados y efectos adversos |
+| [39581171](https://pubmed.ncbi.nlm.nih.gov/39581171/) | 2024 | Revisión | Bioorg Chem | Aplicaciones clínicas de moduladores de GABA-A (incluido diazepam) en epilepsia, ansiedad e insomnio, con efectos secundarios como sedación |
+| [35196378](https://pubmed.ncbi.nlm.nih.gov/35196378/) | 2022 | Intervención no aleatorizada | Fam Pract | Discontinuación del uso crónico de benzodiacepinas en atención primaria |
+| [35228700](https://pubmed.ncbi.nlm.nih.gov/35228700/) | 2022 | Preclínico | Nat Neurosci | El diazepam a largo plazo aumenta la fagocitosis de espinas dendríticas por la microglía y deteriora la cognición en ratones vía TSPO |
+| [40583063](https://pubmed.ncbi.nlm.nih.gov/40583063/) | 2025 | Estudio clínico y molecular | Cell Mol Biol Lett | El uso prolongado de benzodiacepinas y fármacos Z se asocia a mayor riesgo de cáncer de mama |
+| [6114852](https://pubmed.ncbi.nlm.nih.gov/6114852/) | 1981 | Revisión | Drugs | Propiedades farmacológicas y eficacia del triazolam en insomnio (no es diazepam) |
+| [29479317](https://pubmed.ncbi.nlm.nih.gov/29479317/) | 2018 | Revisión | Front Pharmacol | Fórmulas herbales con Suanzaoren para el insomnio (no involucra diazepam) |
+| [40350874](https://pubmed.ncbi.nlm.nih.gov/40350874/) | 2025 | Preclínico | Zhongguo Zhong Yao Za Zhi | Extractos de Ziziphi Spinosae Semen en ratones, con diazepam como control positivo |
+| [37776625](https://pubmed.ncbi.nlm.nih.gov/37776625/) | 2023 | Preclínico | J Pharm Biomed Anal | Metabolómica de Naoling Pian en ratas con insomnio, con diazepam como control positivo |
 
 ## Información de Mercado en Colombia
 
-Diazepam **no cuenta con registros sanitarios activos en Colombia** según los datos disponibles. El medicamento presenta estado **No comercializado** con **0 registros sanitarios** en la base de datos consultada (corte: 2026-06-04). No se dispone de tabla de registros sanitarios al no existir licencias activas.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20019151 | DIAZEPAM SOLUCION INYECTABLE 10 MG /2ML | Solución inyectable | Solo figura "DIAZEPAM" (sin indicación detallada) |
 
----
+Se reportan 20 registros en total. Los cinco detalles disponibles son entradas repetidas del mismo registro (20019151, Laboratorio Biosano S.A.), por eso se muestra una sola fila.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
-
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Las benzodiacepinas, incluyendo diazepam, cuentan con una base clínica bien documentada para el insomnio de corta duración desde la década de 1980 (ECA, PMID 6113175) y múltiples ensayos de Fase 2-3 vigentes que confirman su uso real en práctica clínica. El puntaje TxGNN de 99.99% refleja la robusta conectividad mecanística GABA-A → circuitos del sueño. Sin embargo, las guías clínicas modernas desplazan a las benzodiacepinas como primera línea en insomnio crónico por sus riesgos de dependencia, deterioro cognitivo y señales de seguridad oncológica emergentes, lo que exige guardrails estrictos para cualquier expansión de indicación.
+Ningún ensayo evalúa diazepam para insomnio. La única evidencia directa es un estudio comparativo de 1981 en el que lormetazepam superó a diazepam. La literatura reciente se centra en riesgos (deterioro cognitivo, dependencia) y en cómo suspender estos fármacos, no en promoverlos. Además, faltan los datos de seguridad del prospecto de INVIMA, que son bloqueantes.
 
 **Para avanzar se necesita:**
-- Obtener datos formales de mecanismo de acción (MOA desde DrugBank API) para completar el análisis mecanístico
-- Descargar y analizar el prospecto oficial (INVIMA/TFDA) para extraer advertencias, contraindicaciones e interacciones farmacológicas
-- Gestionar registro sanitario ante INVIMA si se considera comercialización en Colombia (actualmente sin registro)
-- Diseñar plan de monitoreo de seguridad específico: evaluación del riesgo de dependencia, deterioro cognitivo en adultos mayores y señales de seguridad oncológica (cáncer de mama, PMID 40583063)
-- Definir claramente el subpoblación objetivo y duración máxima de tratamiento (insomnio agudo vs. crónico) en el contexto regulatorio colombiano
-- Revisar compatibilidad con guías clínicas colombianas de manejo del insomnio, donde las benzodiacepinas han sido desplazadas por alternativas con mejor perfil de seguridad
+- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Obtener el mecanismo de acción desde DrugBank y verificar las indicaciones originales.
+- Comparar diazepam frente a los hipnóticos actuales, con atención a adultos mayores, dependencia y sedación residual.
+- Fusionar esta entrada con la predicción "trastorno del sueño: inicio y mantenimiento" (mismo espacio clínico) para la decisión final.
+
+Las otras nueve predicciones tienen evidencia L4 o L5 y quedan también en Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

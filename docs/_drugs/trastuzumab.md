@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Evidencia Moderada (L3-L4)
-nav_order: 228
-evidence_level: L3
+parent: Evidencia Alta (L1-L2)
+nav_order: 392
+evidence_level: L2
 indication_count: 10
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,96 +29,95 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Trastuzumab: De Cáncer de Mama HER2-Positivo a Carcinoma de Mama Subtipo Normal Breast-Like
+# Trastuzumab: De Indicación No Especificada en el Registro a Carcinoma de Mama de Subtipo Tipo Mama Normal
 
 ## Resumen en Una Frase
 
-Trastuzumab es un anticuerpo monoclonal humanizado dirigido contra el receptor HER2 (ErbB2), reconocido mundialmente como terapia estándar para el cáncer de mama y gástrico HER2-positivo.
-El modelo TxGNN predice que podría ser efectivo para el **Subtipo Normal Breast-Like del Carcinoma de Mama**,
-con **12 ensayos clínicos** y **1 publicación** que actualmente respaldan esta dirección de investigación.
-
----
+En Colombia, el registro INVIMA no detalla una indicación clínica original para trastuzumab, y solo lista el texto "Pertuzumab y trastuzumab" en un producto combinado. El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama de subtipo tipo mama normal (normal breast-like)**, con **12 ensayos clínicos** y **1 publicación** asociados a esta predicción. La evidencia es en su mayoría indirecta: casi todos los estudios evalúan cáncer de mama HER2-positivo en general, no este subtipo específico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Cáncer de mama y gástrico HER2-positivo (indicación global; sin registro activo en Colombia) |
-| Nueva Indicación Predicha | Subtipo Normal Breast-Like del Carcinoma de Mama |
+| Indicación Original | "Pertuzumab y trastuzumab" (texto del registro INVIMA; describe la composición del producto, no una indicación clínica) |
+| Nueva Indicación Predicha | Carcinoma de mama de subtipo tipo mama normal (normal breast-like) |
 | Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 20 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Trastuzumab es un anticuerpo monoclonal humanizado de tipo IgG1 que se une con alta afinidad al dominio extracelular IV del receptor HER2. Su mecanismo de acción comprende el bloqueo de la homodimerización y heterodimerización del receptor, la inhibición de la vía de señalización PI3K/Akt, la inducción de citotoxicidad celular dependiente de anticuerpos (ADCC) y la modulación del crecimiento tumoral. Aunque los datos formales de mecanismo de acción del DrugBank no estuvieron disponibles en este análisis, el mecanismo de Trastuzumab está ampliamente documentado en la literatura oncológica internacional. Su eficacia en cáncer de mama HER2-positivo ha transformado el pronóstico de este subtipo durante las últimas tres décadas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información disponible, trastuzumab actúa sobre el receptor HER2 y forma parte de regímenes combinados, como el producto Phesgo (pertuzumab + trastuzumab) registrado en Colombia. Su uso en cáncer de mama HER2-positivo aparece respaldado por numerosos ensayos, y mecanísticamente podría ser aplicable a esta nueva indicación solo si el tumor expresa HER2.
 
-El subtipo Normal Breast-Like (clasificación PAM50) se caracteriza por un perfil de expresión génica que se asemeja al tejido mamario normal y adiposo, con baja actividad proliferativa y marcadores luminales tenues. De manera crítica, este subtipo presenta una tasa de amplificación de HER2 inferior al 5%, lo que representa una desconexión biológica fundamental con el mecanismo de acción de Trastuzumab. Los ensayos clínicos identificados corresponden mayoritariamente a estudios en cáncer de mama HER2-positivo que incluyen análisis de subtipos moleculares, pero no están diseñados específicamente para el subtipo normal breast-like.
+La relación entre la indicación original y la nueva es débil. El registro no especifica una indicación original, y el subtipo "tipo mama normal" es una etiqueta de clasificación molecular (PAM50), no un tumor definido por HER2. El beneficio de trastuzumab depende del estado HER2 del tumor, no de la etiqueta del subtipo.
 
-La predicción de TxGNN con puntuación alta (99.90%) probablemente refleja la proximidad en el espacio de características del grafo de conocimiento entre el subtipo normal breast-like y otros subtipos de carcinoma mamario donde Trastuzumab tiene eficacia demostrada. La racionalidad mecanística es débil: únicamente en los casos excepcionales en que este subtipo coexiste con amplificación HER2 confirmada (IHC 3+ o FISH+) existiría justificación biológica para considerar Trastuzumab.
-
----
+El puntaje TxGNN es muy alto (99.90%), pero probablemente refleja la asociación general del fármaco con el cáncer de mama y no un vínculo específico con este subtipo. La evidencia más cercana es el ensayo ATREZZO, que evalúa trastuzumab en enfermedad HER2-positiva con receptor de estrógeno negativo o subtipo PAM50 no luminal. Aun así, no estudia directamente el subtipo tipo mama normal.
 
 ## Evidencia de Ensayos Clínicos
 
+Se muestran 10 de los 12 ensayos identificados, priorizados por relevancia evaluada y por participación de trastuzumab. Los ensayos sin evaluación de relevancia figuran como pendientes en el Evidence Pack.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Fase 2 | Activo, sin reclutamiento | 55 | Estudio ATREZZO: Atezolizumab + Trastuzumab + Vinorelbina en HER2+ avanzado con ER negativo o PAM50 No-luminal; es el ensayo más directamente relevante para el subtipo normal-like por su selección explícita de enfermedad no-luminal |
-| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Activo, sin reclutamiento | 720 | ECA fase 3 de Paclitaxel ± Carboplatino neoadyuvante en cáncer de mama triple negativo; incluye caracterización de subtipos moleculares y proporciona contexto de fondo para el subtipo basal-like/normal-like |
-| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Completado | 23 | Trastuzumab + Pertuzumab + Paclitaxel preoperatorio en cáncer de mama inflamatorio HER2+; incluye análisis de subtipos moleculares PAM50 que permite inferencia sobre subgrupo normal-like |
-| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Fase 2 | Reclutando | 25 | Vacuna WOKVAC + quimioterapia neoadyuvante + terapia anti-HER2; investiga respuesta inmune combinada; no estratifica por subtipo molecular |
-| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fases 1/2 | Reclutando | 46 | Organoides derivados de tumor para guiar tratamiento neoadyuvante HER2+; ~60% de tasa de respuesta completa patológica con doble bloqueo anti-HER2; enfoque metodológico sin especificidad de subtipo |
-| [NCT06328387](https://clinicaltrials.gov/study/NCT06328387) | Fases 1/2 | Desconocido | 120 | Hidroxicloroquina + conjugado anticuerpo-fármaco (T-DXd o SG) en cáncer de mama avanzado; explora autophagia como mecanismo de resistencia |
-| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Reclutando | 370 | Estudio ARIADNE: T-DXd vs tratamiento estándar neoadyuvante en HER2+ no metastásico; diseño impulsado por biomarcadores biológicos |
-| [NCT01670877](https://clinicaltrials.gov/study/NCT01670877) | Fase 2 | Completado | 56 | Neratinib en HER2 mutado no amplificado; evalúa la pregunta inversa al subtipo de interés; proporciona referencia sobre actividad HER2 sin amplificación |
-| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Reclutando | 74 | Optimización de tratamiento anti-HER2 neoadyuvante y adyuvante en mujeres nigerianas con HER2+; sin estratificación por subtipo molecular |
-| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Fase 2 | Reclutando | 716 | FASCINATE-N: Plataforma de investigación prospectiva de terapia neoadyuvante de precisión basada en subtipos clínicos; explora refinamiento de clasificación molecular y nuevos blancos terapéuticos |
-
----
+| [NCT04759248](https://clinicaltrials.gov/study/NCT04759248) | Fase 2 | Activo, sin reclutar | 55 | Atezolizumab + trastuzumab + vinorelbina en cáncer de mama HER2+ avanzado, con dos cohortes: receptor de estrógeno negativo o PAM50 no luminal. Es el ensayo más cercano a la pregunta del subtipo. |
+| [NCT03168880](https://clinicaltrials.gov/study/NCT03168880) | Fase 3 | Activo, sin reclutar | 720 | Paclitaxel semanal con o sin carboplatino como neoadyuvancia en cáncer de mama triple negativo. El resumen no menciona trastuzumab y no hay resultados disponibles. |
+| [NCT01796197](https://clinicaltrials.gov/study/NCT01796197) | Fase 2 | Completado | 23 | Paclitaxel + trastuzumab + pertuzumab preoperatorio en cáncer de mama inflamatorio. Muestra pequeña y relación indirecta con el subtipo. |
+| [NCT04329065](https://clinicaltrials.gov/study/NCT04329065) | Fase 2 | Reclutando | 25 | Vacuna WOKVAC con quimioterapia neoadyuvante y anticuerpo monoclonal anti-HER2 en cáncer de mama. |
+| [NCT04750122](https://clinicaltrials.gov/study/NCT04750122) | Fase 1/2 | Reclutando | 46 | Terapia neoadyuvante guiada por cribado de fármacos in vitro en cáncer de mama temprano HER2+. |
+| [NCT05659056](https://clinicaltrials.gov/study/NCT05659056) | Fase 2 | Reclutando | 65 | Pirotinib + trastuzumab + Abraxane neoadyuvante en cáncer de mama HER2-enriched (subtipo intrínseco). |
+| [NCT06348134](https://clinicaltrials.gov/study/NCT06348134) | Fase 2 | Reclutando | 74 | Terapia anti-HER2 neoadyuvante y adyuvante en mujeres nigerianas con cáncer de mama HER2+. |
+| [NCT05582499](https://clinicaltrials.gov/study/NCT05582499) | Fase 2 | Reclutando | 716 | Plataforma de terapia neoadyuvante de precisión por subtipos clínicos en cáncer de mama operable (Fudan, FASCINATE-N). |
+| [NCT06585969](https://clinicaltrials.gov/study/NCT06585969) | Fase 3 | Retirado | 0 | Trastuzumab deruxtecán vs. inhibidores de CDK4/6 en cáncer de mama no luminal A, RE+/HER2-bajo. Retirado, y prueba un fármaco distinto. |
+| [NCT05900206](https://clinicaltrials.gov/study/NCT05900206) | Fase 2 | Reclutando | 370 | Trastuzumab deruxtecán y selección neoadyuvante guiada por biología en cáncer de mama HER2+ (ARIADNE). El fármaco experimental no es trastuzumab. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Morfológico/Observacional | Breast Cancer (Tokyo, Japan) | Caracterización citológica e histológica del subtipo basal-like; describe los 5 subtipos PAM50 del carcinoma mamario (luminal A, luminal B, normal breast-like, sobreexpresión de HER2 y basal-like) y su asociación con diferentes esquemas de quimioterapia y pronóstico clínico |
+| [19466513](https://pubmed.ncbi.nlm.nih.gov/19466513/) | 2009 | Cohorte | Breast Cancer (Tokio) | Describe las características morfológicas y citopatológicas del subtipo basal-like del carcinoma de mama y resume los cinco subtipos moleculares (luminal A, luminal B, tipo mama normal, HER2 y basal-like). No evalúa trastuzumab ni el subtipo tipo mama normal. |
 
----
+## Información de Mercado en Colombia
+
+El Evidence Pack reporta 20 registros sanitarios, pero solo incluye 5 entradas detalladas, todas duplicadas del mismo registro. Por eso se presenta una sola fila.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab (el registro no detalla la indicación clínica) |
+
+También se registran formas de polvo para solución inyectable en otros registros.
 
 ## Citotoxicidad
 
+Trastuzumab se trata como fármaco antineoplásico porque todas las indicaciones predichas y los ensayos asociados son oncológicos.
+
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida — anticuerpo monoclonal anti-HER2 (IgG1 humanizado); no es un agente citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo en monoterapia; puede incrementarse significativamente al combinarse con quimioterapia citotóxica (especialmente taxanos y antraciclinas) |
-| Clasificación de Emetogenicidad | Mínima a baja |
-| Ítems de Monitoreo | Fracción de eyección ventricular izquierda (FEVI) basal y cada 3 meses durante el tratamiento; reacciones a la infusión (fiebre, escalofríos, hipotensión); función pulmonar; hemograma diferencial al combinarse con quimioterapia |
-| Protección en Manejo | Como medicamento biológico, no requiere las precauciones de manipulación de citotóxicos convencionales; seguir protocolos institucionales para preparación y administración de anticuerpos monoclonales |
-
----
+| Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo dirigido contra HER2), no citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El subtipo Normal Breast-Like del carcinoma de mama presenta una tasa de amplificación HER2 inferior al 5%, lo que debilita de forma fundamental la conexión mecanística con Trastuzumab. La evidencia clínica disponible (nivel L3) proviene de estudios en cáncer de mama HER2-positivo que no estratifican específicamente por este subtipo, y la única publicación identificada es un estudio observacional sobre caracterización morfológica. La alta puntuación de TxGNN refleja probable proximidad en el grafo de conocimiento, no una relación terapéutica establecida.
+La predicción del modelo es muy alta, pero la evidencia para este subtipo específico es indirecta. El beneficio de trastuzumab depende del estado HER2 y no del subtipo molecular, y la única publicación asociada trata otro subtipo (basal-like). Además, no hay datos de seguridad del prospecto INVIMA, lo que impide avanzar al tamizaje de seguridad. Cabe notar que las predicciones de receptor de progesterona positivo y luminal tienen más evidencia, pero corresponden en gran parte a usos ya establecidos en cáncer de mama HER2-positivo.
 
 **Para avanzar se necesita:**
-- Estudios traslacionales que caractericen la frecuencia real de HER2 3+ (IHC o FISH+) dentro de tumores clasificados como Normal Breast-Like por PAM50
-- Análisis de subgrupos en estudios existentes con clasificación PAM50 que reporten la respuesta a Trastuzumab en pacientes normal breast-like con HER2 amplificado
-- Datos formales de MOA y ficha técnica actualizada (DrugBank)
-- Definición de criterios de selección de pacientes: la amplificación HER2 confirmada es condición necesaria antes de cualquier uso en este subtipo
-- Obtención de registro sanitario ante el INVIMA previo a cualquier uso en Colombia
+- Obtener del sitio de INVIMA el prospecto con advertencias y contraindicaciones (brecha bloqueante).
+- Consultar el mecanismo de acción en DrugBank para analizar el vínculo mecanístico.
+- Confirmar la indicación original aprobada en Colombia, ya que el registro solo indica la composición del producto.
+- Determinar si el subtipo tipo mama normal incluye tumores HER2-positivos, y buscar estudios que analicen la respuesta a trastuzumab en ese subtipo.
+- Completar la evaluación de relevancia de los ensayos pendientes.
+- Verificar los 20 registros sanitarios, ya que solo se recibió el detalle de uno.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

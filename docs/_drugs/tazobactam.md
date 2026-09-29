@@ -2,7 +2,7 @@
 layout: default
 title: Tazobactam
 parent: Evidencia Alta (L1-L2)
-nav_order: 220
+nav_order: 373
 evidence_level: L1
 indication_count: 2
 ---
@@ -29,99 +29,93 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **2**
 
 </div>
 
-# Tazobactam: De Inhibidor de Beta-Lactamasas a Neumonía
+# Tazobactam: De Combinación Piperacilina/Inhibidor Enzimático a Neumonía
 
 ## Resumen en Una Frase
 
-Tazobactam es un inhibidor de beta-lactamasas de la clase sulfona, utilizado como componente de combinaciones antibióticas (piperacilina/tazobactam, ceftolozano/tazobactam) para el tratamiento de infecciones bacterianas graves por gérmenes resistentes, sin registros sanitarios como monofármaco en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **Neumonía** (incluyendo neumonía nosocomial y asociada a ventilador por patógenos MDR),
-con **más de 10 ensayos clínicos directamente relevantes** —incluyendo múltiples de Fase 3 completados— y **20 publicaciones en PubMed** que respaldan sólidamente esta dirección.
-
----
+Tazobactam es un inhibidor de betalactamasas que en Colombia se comercializa junto con piperacilina (registro sanitario: "piperacilina e inhibidor enzimático").
+El modelo TxGNN predice que podría ser efectivo para **neumonía**,
+con **50 ensayos clínicos** y **20 publicaciones** relacionados. Casi toda la evidencia corresponde a combinaciones fijas (piperacilina/tazobactam, ceftolozano/tazobactam), no a tazobactam solo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Inhibidor de beta-lactamasas en combinaciones para infecciones bacterianas complicadas (intraabdominal, respiratoria, urinaria) |
-| Nueva Indicación Predicha | Neumonía (Nosocomial / Asociada a Ventilador) |
+| Indicación Original | Piperacilina e inhibidor enzimático (texto del registro sanitario; no describe una enfermedad específica) |
+| Nueva Indicación Predicha | Neumonía |
 | Puntaje de Predicción TxGNN | 99.46% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ No comercializado (como monofármaco) |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | ✓ Comercializado |
+| Número de Registros Sanitarios | 16 |
 | Decisión Recomendada | Proceed with Guardrails |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Tazobactam es un inhibidor de beta-lactamasas tipo sulfona que bloquea las enzimas Ambler clase A (incluyendo ESBL y KPC) y parcialmente clase C, producidas por bacterias resistentes que normalmente inactivarían al antibiótico beta-lactámico acompañante. Al combinarse con piperacilina o ceftolozano, tazobactam restaura la actividad bactericida contra patógenos productores de enzimas, especialmente *Pseudomonas aeruginosa* multirresistente (MDR) y Enterobacterales productores de ESBL, las cuales son causas frecuentes de fracaso terapéutico en infecciones graves.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, tazobactam es un inhibidor de betalactamasas sin actividad antibacteriana propia. Protege al antibiótico betalactámico con el que se combina (piperacilina o ceftolozano) de la hidrólisis por enzimas de clase A y algunas de clase C en bacterias Gram negativas.
 
-La neumonía nosocomial (HAP) y la neumonía asociada a ventilador (VAP) son causadas con alta frecuencia precisamente por estos patógenos en entornos de UCI. Las combinaciones que contienen tazobactam logran concentraciones pulmonares adecuadas y alcanzan el objetivo farmacodinámico crítico (%T>MIC) necesario para la eficacia clínica. El mecanismo es directamente aplicable a esta indicación: la inhibición de beta-lactamasas desbloquea la actividad del beta-lactámico compañero contra los agentes causales más problemáticos de HAP/VAP en unidades de cuidados intensivos.
+Esas bacterias son causa frecuente de neumonía nosocomial y asociada a ventilador. Por eso el mecanismo es aplicable a la nueva indicación, y el puntaje alto de TxGNN (99.46%) es coherente con él.
 
-El ensayo pivotal ASPECT-NP (Phase 3 RCT, n=726, *Lancet Infectious Diseases* 2019) demostró de forma inequívoca la no inferioridad de ceftolozano/tazobactam frente a meropenem en neumonía nosocomial ventilada por Gram-negativos. Adicionalmente, múltiples ensayos de Fase 3 (RESTORE-IMI 2, estudio IMI/REL chino, levofloxacino vs. PIP/TAZO) han utilizado piperacilina/tazobactam como comparador activo de referencia en HABP/VABP, validando implícitamente su eficacia como estándar de tratamiento en esta indicación.
-
----
+Este caso es en gran parte **uso ya aprobado, no reposicionamiento novedoso**. Las combinaciones con tazobactam ya se usan y comercializan para neumonía. La evidencia respalda las combinaciones fijas, no tazobactam como agente único.
 
 ## Evidencia de Ensayos Clínicos
 
+Se registraron 50 ensayos relacionados. Se listan los 10 más relevantes, priorizando los que evalúan regímenes con tazobactam. En varios, piperacilina/tazobactam es el comparador y no el agente en prueba.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02070757](https://clinicaltrials.gov/study/NCT02070757) | Fase 3 | Completado | 726 | ASPECT-NP: ceftolozano/tazobactam vs. meropenem en neumonía nosocomial ventilada (VABP/HABP); objetivo primario de mortalidad a 28 días demostró no inferioridad |
-| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Fase 3 | Completado | 537 | RESTORE-IMI 2: imipenem/cilastatina/relebactam vs. piperacilina/tazobactam en HABP/VABP; PIP/TAZO como comparador activo estándar en mortalidad total |
-| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | Fase 3 | Completado | 274 | IMI/REL vs. piperacilina/tazobactam en HABP/VABP; ensayo doble ciego multinacional, PIP/TAZO como referencia activa |
-| [NCT00253955](https://clinicaltrials.gov/study/NCT00253955) | Fase 3 | Completado | 460 | Levofloxacino 750 mg/día vs. piperacilina/tazobactam en HAP leve-moderada (UCI y sala general); no inferioridad en curación clínica al final del tratamiento |
-| [NCT01796717](https://clinicaltrials.gov/study/NCT01796717) | Fase 2/3 | Desconocido | 50 | Optimización de PIP/TAZO (4,5 g c/6 h): infusión prolongada vs. intermitente para neumonía nosocomial por patógenos con MIC elevado; evaluación de respuesta clínica y PK/PD |
-| [NCT03581370](https://clinicaltrials.gov/study/NCT03581370) | Fase 3 | Reclutando | 80 | Ceftolozano/tazobactam: infusión 4 horas vs. 1 hora (2 g c/8 h) en VAP por *Pseudomonas aeruginosa*; comparación de exposición farmacocinética en equilibrio |
-| [NCT06977347](https://clinicaltrials.gov/study/NCT06977347) | N/A | No iniciado | 100 | Monoterapia PIP/TAZO vs. combinación con fluoroquinolona en neumonía grave adquirida en comunidad (Corea del Sur); evidencia prospectiva para uso antipseudomonal empírico |
-| [NCT04257812](https://clinicaltrials.gov/study/NCT04257812) | N/A | Desconocido | 20 | Monitoreo terapéutico de niveles plasmáticos (TDM) de ceftolozano/tazobactam en pacientes críticos; análisis del impacto clínico de los regímenes de dosis utilizados |
-| [NCT00438269](https://clinicaltrials.gov/study/NCT00438269) | Fase 2 | Completado | 80 | Terapia antimicrobiana apropiada en UCI (piloto RCT); evaluación de estrategia de antibióticos de amplio espectro —incluyendo PIP/TAZO— con ajuste guiado por cultivos |
-| [NCT04223752](https://clinicaltrials.gov/study/NCT04223752) | Fase 1 | Completado | 41 | Seguridad, tolerabilidad y farmacocinética de ceftolozano/tazobactam en pacientes pediátricos con neumonía nosocomial; primer estudio PK/PD pediátrico de esta combinación |
-
----
+| [NCT02070757](https://clinicaltrials.gov/study/NCT02070757) | Fase 3 | Completado | 726 | Ceftolozano/tazobactam vs meropenem en neumonía nosocomial ventilada; objetivo principal: no inferioridad en mortalidad por todas las causas a día 28 |
+| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Fase 3 | Completado | 537 | Imipenem/cilastatina/relebactam vs piperacilina/tazobactam en neumonía nosocomial o asociada a ventilador; no inferioridad en mortalidad |
+| [NCT03583333](https://clinicaltrials.gov/study/NCT03583333) | Fase 3 | Completado | 274 | Estudio multinacional doble ciego: imipenem/relebactam vs piperacilina/tazobactam en HABP/VABP |
+| [NCT00253955](https://clinicaltrials.gov/study/NCT00253955) | Fase 3 | Completado | 460 | Levofloxacino 750 mg vs piperacilina/tazobactam 4 g/500 mg cada 8 h en neumonía nosocomial leve a moderada; no inferioridad |
+| [NCT01796717](https://clinicaltrials.gov/study/NCT01796717) | Fase 2/3 | Desconocido | 50 | Infusión prolongada vs regular de piperacilina/tazobactam en neumonía nosocomial en UCI; respuesta clínica, farmacocinética y seguridad |
+| [NCT01853982](https://clinicaltrials.gov/study/NCT01853982) | Fase 3 | Terminado | 4 | Ceftolozano/tazobactam vs piperacilina/tazobactam en neumonía asociada a ventilador; terminado con solo 4 participantes |
+| [NCT03581370](https://clinicaltrials.gov/study/NCT03581370) | Fase 3 | Reclutando | 80 | Infusión corta vs prolongada de ceftolozano/tazobactam en neumonía asociada a ventilador por *P. aeruginosa*; comparación de exposición farmacocinética |
+| [NCT06977347](https://clinicaltrials.gov/study/NCT06977347) | N/A | Aún no reclutando | 100 | Piperacilina/tazobactam solo vs combinado con fluoroquinolona en neumonía comunitaria grave (Corea del Sur) |
+| [NCT06972537](https://clinicaltrials.gov/study/NCT06972537) | N/A | Reclutando | 42 | Dosificación guiada por modelo vs empírica de piperacilina/tazobactam en neumonía de adultos mayores |
+| [NCT04276480](https://clinicaltrials.gov/study/NCT04276480) | N/A | Completado | 9 | Piperacilina/tazobactam empírica en neumonía asociada a ventilador con colonización por Enterobacterias BLEE; muestra muy pequeña |
 
 ## Evidencia de Literatura
 
+Se encontraron 20 publicaciones. Se listan las 10 más relevantes, con prioridad para ECA, revisiones y cohortes.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31563344](https://pubmed.ncbi.nlm.nih.gov/31563344/) | 2019 | ECA Fase 3 | Lancet Infect Dis | ASPECT-NP: ceftolozano/tazobactam no inferior a meropenem en neumonía nosocomial por Gram-negativos; eficacia y seguridad comparables en mortalidad a 28 días |
-| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | ECA Fase 3 | Clin Infect Dis | RESTORE-IMI 2: imipenem/cilastatina/relebactam no inferior a PIP/TAZO en HABP/VABP; confirma a piperacilina/tazobactam como estándar comparador activo robusto |
-| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | ECA Fase 3 | Int J Infect Dis | IMI/REL vs. piperacilina/tazobactam en HABP/VABP (pacientes críticamente enfermos en China); evaluación de no inferioridad en mortalidad y respuesta microbiológica |
-| [38971203](https://pubmed.ncbi.nlm.nih.gov/38971203/) | 2024 | Revisión Sistemática | Int J Antimicrob Agents | PK/PD de nuevos beta-lactámicos y combinaciones beta-lactámico/inhibidor para neumonía por GNB resistentes a carbapenems; guía para optimización de dosis |
-| [38823453](https://pubmed.ncbi.nlm.nih.gov/38823453/) | 2024 | Revisión Sistemática + Metaanálisis | Clin Microbiol Infect | Metaanálisis en red de regímenes antibióticos empíricos para HAP no asociada a ventilador; PIP/TAZO figura como opción estándar de referencia en los algoritmos comparativos |
-| [38902935](https://pubmed.ncbi.nlm.nih.gov/38902935/) | 2025 | Cohorte Retrospectiva | Clin Infect Dis | Tasas de resistencia emergente bajo tratamiento: ceftazidima/avibactam vs. ceftolozano/tazobactam en bacteremia/neumonía por MDR-*P. aeruginosa*; C/T mostró menor tasa de resistencia adquirida (10% vs. 40%, p=0,002) |
-| [39701120](https://pubmed.ncbi.nlm.nih.gov/39701120/) | 2025 | Estudio de Efectividad Comparativa | Lancet Infect Dis | CACTUS: ceftolozano/tazobactam vs. ceftazidima/avibactam para infecciones invasivas por MDR-*P. aeruginosa* en EE.UU. (estudio multicéntrico real-world, mayor hasta la fecha) |
-| [35488823](https://pubmed.ncbi.nlm.nih.gov/35488823/) | 2022 | Revisión Narrativa | Rev Esp Quimioter | Ceftolozano/tazobactam en neumonía nosocomial: espectro antimicrobiano, características PK/PD, evidencia clínica disponible y criterios de selección de pacientes |
-| [32662691](https://pubmed.ncbi.nlm.nih.gov/32662691/) | 2020 | Revisión Narrativa | Expert Rev Anti-infect Ther | Ceftolozano/tazobactam para HAP: revisión de eficacia en infecciones por bacilos Gram-negativos no fermentadores (especialmente *P. aeruginosa* MDR) en UCI |
-| [38688353](https://pubmed.ncbi.nlm.nih.gov/38688353/) | 2024 | Consenso de Expertos | Int J Antimicrob Agents | Guía práctica SIMIT/SPILF para infecciones por GNB multirresistentes: posicionamiento de piperacilina/tazobactam y ceftolozano/tazobactam en el arsenal terapéutico actual |
-
----
+| [31563344](https://pubmed.ncbi.nlm.nih.gov/31563344/) | 2019 | ECA | Lancet Infect Dis | ASPECT-NP: ceftolozano/tazobactam vs meropenem en neumonía nosocomial por Gram negativos; Fase 3 de no inferioridad |
+| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | ECA | Clin Infect Dis | RESTORE-IMI 2: imipenem/cilastatina/relebactam vs piperacilina/tazobactam en HABP/VABP |
+| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | ECA | Int J Infect Dis | Fase 3 de no inferioridad de imipenem/relebactam vs piperacilina/tazobactam en HABP/VABP |
+| [38823453](https://pubmed.ncbi.nlm.nih.gov/38823453/) | 2024 | Revisión sistemática | Clin Microbiol Infect | Metaanálisis en red de ECA sobre regímenes empíricos en neumonía nosocomial no asociada a ventilador |
+| [38971203](https://pubmed.ncbi.nlm.nih.gov/38971203/) | 2024 | Revisión sistemática | Int J Antimicrob Agents | Farmacocinética y farmacodinamia de nuevos betalactámicos y combinaciones con inhibidores en neumonía por bacterias Gram negativas resistentes a carbapenémicos |
+| [39701120](https://pubmed.ncbi.nlm.nih.gov/39701120/) | 2025 | Cohorte | Lancet Infect Dis | CACTUS: efectividad de ceftazidima-avibactam vs ceftolozano-tazobactam en *P. aeruginosa* multirresistente (estudio observacional retrospectivo) |
+| [38902935](https://pubmed.ncbi.nlm.nih.gov/38902935/) | 2025 | Cohorte | Clin Infect Dis | Menor resistencia emergente con ceftolozano-tazobactam que con ceftazidima-avibactam (10% vs 40%) en bacteriemia o neumonía por *P. aeruginosa* multirresistente |
+| [38862579](https://pubmed.ncbi.nlm.nih.gov/38862579/) | 2024 | Observacional | Sci Rep | Cefepima vs piperacilina/tazobactam en neumonía comunitaria grave en UCI (2026 pacientes, estimación por máxima verosimilitud dirigida) |
+| [34158237](https://pubmed.ncbi.nlm.nih.gov/34158237/) | 2021 | Observacional | J Infect Chemother | Ceftriaxona vs piperacilina/tazobactam y carbapenémicos en neumonía por aspiración (pareamiento por puntaje de propensión) |
+| [41305690](https://pubmed.ncbi.nlm.nih.gov/41305690/) | 2025 | Reporte de caso | Medicine | Linfohistiocitosis hemofagocítica inducida por piperacilina-tazobactam en un paciente con neumonía comunitaria; señal de seguridad rara pero grave |
 
 ## Información de Mercado en Colombia
 
-Tazobactam **no cuenta con registros sanitarios vigentes como monofármaco en Colombia** (estado INVIMA: no comercializado, 0 registros). La molécula está disponible en el país exclusivamente a través de combinaciones de dosis fija con antibióticos beta-lactámicos (piperacilina/tazobactam, ceftolozano/tazobactam), cuyos registros sanitarios corresponden a los productos combinados y no al tazobactam como principio activo independiente.
+Hay 16 registros sanitarios en total. Los registros del extracto corresponden todos al mismo producto, que se lista una sola vez.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20089767 | AUROTAZ-P 4.5 G | Polvo estéril para reconstituir a solución inyectable | Piperacilina e inhibidor enzimático |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia de Fase 3 es robusta y directa: el ensayo ASPECT-NP demostró la no inferioridad de ceftolozano/tazobactam frente a meropenem en neumonía nosocomial ventilada, y múltiples ensayos Fase 3 completados han utilizado piperacilina/tazobactam como comparador activo estándar en HABP/VABP, validando su eficacia con nivel L1. La puntuación TxGNN de 99,46% y el contexto mecanístico (inhibición de beta-lactamasas en patógenos causantes de HAP/VAP) son plenamente coherentes con esta evidencia.
+Hay varios ECA de Fase 3 completados con regímenes que contienen tazobactam en neumonía nosocomial y asociada a ventilador (nivel L1), y las combinaciones ya están comercializadas en Colombia. La evidencia aplica solo a combinaciones fijas. En varios ensayos piperacilina/tazobactam es el comparador, y el uso ya está en gran parte aprobado, por lo que no es reposicionamiento novedoso.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción (MOA) detallado de tazobactam desde DrugBank (actualmente [Data Gap])
-- Consultar advertencias, contraindicaciones e interacciones del prospecto INVIMA o equivalente colombiano (datos de seguridad ausentes en el Evidence Pack actual)
-- Definir qué combinación específica es el candidato de reposicionamiento relevante para Colombia: piperacilina/tazobactam (acceso amplio, genérico disponible) vs. ceftolozano/tazobactam (indicación HAP/VAP por MDR-*P. aeruginosa*, mayor costo)
-- Evaluar el perfil de resistencia local de *P. aeruginosa* y Enterobacterales en UCI colombianas para validar la pertinencia del uso de combinaciones con tazobactam frente al patrón epidemiológico local
-- Diseñar un plan de farmacovigilancia activa dado el riesgo de selección de resistencias en entornos de alta presión antibiótica
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que actualmente falta
+- Confirmar que el registro sanitario colombiano incluya neumonía como indicación aprobada; el texto actual no la detalla
+- Datos detallados del mecanismo de acción (MOA) desde DrugBank
+- Confirmar los brazos de tratamiento de los ensayos con títulos truncados
+- Incluir en el plan de monitoreo de seguridad la reacción adversa rara pero grave reportada (linfohistiocitosis hemofagocítica), que puede quedar enmascarada por una procalcitonina elevada
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
