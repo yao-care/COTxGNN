@@ -2,7 +2,7 @@
 layout: default
 title: Naproxen
 parent: Solo Predicción del Modelo (L5)
-nav_order: 292
+nav_order: 461
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,32 +29,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Naproxeno: De Combinaciones con Tiocolchicósido a Síndrome de Braquidactilia-Sindactilia
+# Naproxeno: De Combinaciones con Tiocolchicósido/Naproxeno a Síndrome de Braquidactilia-Sindactilia
 
 ## Resumen en Una Frase
 
-El naproxeno es un antiinflamatorio no esteroideo (AINE) que en Colombia se comercializa, entre otros productos, en una combinación con tiocolchicósido. Sus usos clásicos son la artritis reumatoide, la osteoartritis, la espondilitis anquilosante, la tendinitis, la bursitis, la gota aguda y la dismenorrea primaria.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquidactilia-sindactilia**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Naproxeno es un antiinflamatorio no esteroideo (AINE) que en Colombia se registró bajo licencias de naproxeno solo y de productos asociados con tiocolchicósido, todas ellas hoy canceladas.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquidactilia-sindactilia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Combinaciones con tiocolchicósido (texto del registro INVIMA) |
+| Indicación Original | Combinaciones de tiocolchicósido |
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
 | Puntaje de Predicción TxGNN | 99.35% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información farmacológica disponible, el naproxeno es un inhibidor no selectivo de COX-1 (PTGS1) y COX-2 (PTGS2), y por eso reduce la síntesis de prostaglandinas. Su eficacia como analgésico y antiinflamatorio en las indicaciones mencionadas está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, el naproxeno es un inhibidor no selectivo de las ciclooxigenasas COX-1 y COX-2 (PTGS1 y PTGS2), lo que reduce la síntesis de prostaglandinas. Su uso clínico conocido incluye artritis reumatoide, artrosis, espondilitis anquilosante, tendinitis, bursitis, gota aguda y dismenorrea primaria.
 
-Sin embargo, **no se ha establecido un vínculo mecanístico** con la nueva indicación. El síndrome de braquidactilia-sindactilia es una malformación congénita de las extremidades. Los datos no conectan la inhibición de prostaglandinas con su patogénesis. El único respaldo es el puntaje del modelo TxGNN (0.994). Como la información de mecanismo de acción del registro está ausente, tampoco se pudo revisar si el fármaco y los genes de la enfermedad comparten dianas. La similitud con la indicación original queda pendiente de evaluar.
+El síndrome de braquidactilia-sindactilia es una malformación congénita rara de las extremidades, de origen genético y del desarrollo. No se ha identificado una vía plausible que conecte la inhibición de prostaglandinas con su causa subyacente. En el mejor de los casos, un beneficio sería sintomático (dolor o inflamación) y no modificaría la enfermedad.
 
-Un puntaje alto por sí solo no indica un efecto terapéutico plausible. Otras tres predicciones del modelo (síndrome de microftalmia colobomatosa con displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia con amelogénesis imperfecta) también son síndromes congénitos raros. Todas tienen puntajes de 0.991 a 0.992, sin evidencia adicional ni vínculo mecanístico.
+El puntaje alto (99.35%) refleja una predicción del modelo, probablemente por cercanía en la red del grafo de conocimiento, y no un mecanismo biológico validado. Debe tratarse como una hipótesis por contrastar, no como un hallazgo accionable. Las otras tres predicciones principales (síndrome de microftalmia colobomatosa-displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia-amelogénesis imperfecta) son igualmente enfermedades genéticas raras, con puntajes de 99.2%, 99.2% y 99.1%, también sin evidencia de respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,28 +68,30 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20240091 | MIDOL ® (ANGLOPHARMA S.A.) | Tableta recubierta | Combinaciones tiocolchicósido |
-
-Los datos recibidos repiten este mismo registro cinco veces, por lo que aquí aparece una sola vez. El total reportado es de 20 registros sanitarios. También hay formas farmacéuticas orales (tableta recubierta) y otras (cápsula blanda).
+| 20240091 | MIDOL ® (cancelado) | Tableta recubierta | Combinaciones de tiocolchicósido |
+| 20210473 | RELAFEN® Tabletas Recubiertas (cancelado) | Tableta recubierta | Tiocolchicósida |
+| 20024731 | DURAFLEX ® 500MG (cancelado) | Cápsula blanda | Naproxeno |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** hipertensión, insuficiencia hepática y enfermedad hepática, enfermedad renal, insuficiencia cardíaca congestiva, enfermedad coronaria y aterosclerosis coronaria, infarto de miocardio y trombosis coronaria, accidente cerebrovascular y enfermedad cerebrovascular, infarto cerebral, trastornos de la coagulación, anemia (incluida la macrocítica) y hemoglobinopatías, epilepsia, diabetes mellitus y cetoacidosis diabética, osteoporosis (incluida la posmenopáusica), obesidad, hiperplasia prostática benigna, enfermedad de la vesícula biliar, piouréter y abuso/dependencia de sustancias.
+- **Interacciones farmacológicas:** los datos compilados solo registran la farmacología sobre sus dianas humanas, COX-1 (PTGS1) y COX-2 (PTGS2); no hay interacciones con otros fármacos con nivel de gravedad definido.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible que conecte la inhibición de COX con una malformación congénita de las extremidades. Además, la información de seguridad del prospecto de INVIMA no está disponible, lo que impide avanzar a la evaluación de seguridad.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre la inhibición de COX y una malformación congénita de origen genético. Además, todos los registros sanitarios del naproxeno en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Completar el mecanismo de acción desde DrugBank y hacer un análisis independiente de dianas y vías frente a los genes de la enfermedad.
-- Buscar literatura y ensayos que relacionen AINE o prostaglandinas con este síndrome.
-- Definir la vía de administración requerida y confirmar su compatibilidad con las formas disponibles en Colombia.
-
-*Los resultados son solo para fines de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
+- Revisión de literatura que explore un vínculo biológico entre la vía de prostaglandinas y el síndrome
+- Prospecto oficial de INVIMA con advertencias y contraindicaciones, para el análisis de seguridad
+- Aclarar la situación regulatoria (registros cancelados) y la compatibilidad de vías de administración
+- Considerar priorizar otras indicaciones con mayor plausibilidad biológica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

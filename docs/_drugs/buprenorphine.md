@@ -2,7 +2,7 @@
 layout: default
 title: Buprenorphine
 parent: Evidencia Moderada (L3-L4)
-nav_order: 102
+nav_order: 121
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,32 +29,32 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Buprenorfina: De Dolor Severo y Dependencia de Opioides a Porfiria Aguda Intermitente
+# Buprenorfina: De Buprenorfina (indicación no detallada) a Porfiria Aguda Intermitente
 
 ## Resumen en Una Frase
 
-La buprenorfina es un opioide sintético utilizado para tratar el dolor severo y la dependencia de opioides. El registro sanitario colombiano solo indica el nombre del principio activo, y el uso clínico proviene de la base farmacológica de la consulta.
-El modelo TxGNN predice que podría ser efectiva para la **porfiria aguda intermitente**, pero hay **0 ensayos clínicos** y solo **1 publicación** (un reporte de caso sobre manejo anestésico, no sobre tratamiento de la enfermedad).
+Buprenorfina es un opioide agonista parcial del receptor mu (y antagonista del receptor kappa), utilizado para tratar el dolor intenso y la dependencia de opioides.
+El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermitente**, pero **no hay ensayos clínicos** y solo **1 publicación** (un reporte de caso sobre manejo anestésico de 1993) relacionada, que no demuestra beneficio terapéutico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | "BUPRENORFINA" según el registro (solo nombra el principio activo, sin indicación explícita). Según la farmacología: dolor severo y dependencia de opioides |
+| Indicación Original | Buprenorfina (el registro sanitario no detalla la indicación; en la práctica, dolor intenso y dependencia de opioides) |
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
 | Puntaje de Predicción TxGNN | 99.41% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Lo que sí se conoce por la base farmacológica es que la buprenorfina actúa sobre los receptores opioides μ (gen OPRM1) y κ (gen OPRK1). Su eficacia en dolor severo y dependencia de opioides está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la buprenorfina actúa sobre el receptor opioide mu (OPRM1) y el receptor kappa (OPRK1), y se emplea en dolor intenso y dependencia de opioides.
 
-Sin embargo, no existe un mecanismo terapéutico demostrado que conecte la buprenorfina con la porfiria aguda intermitente. La única publicación disponible describe el manejo anestésico de una paciente con esta enfermedad. Muestra un uso perioperatorio, no un tratamiento de la porfiria.
+No se identificó un vínculo mecanístico claro con la porfiria aguda intermitente. La única publicación recuperada describe el manejo anestésico de una paciente con esta enfermedad, es decir, un tema de seguridad perioperatoria de fármacos anestésicos y analgésicos, no un beneficio terapéutico. El dolor abdominal es una manifestación frecuente de los ataques, pero esto no respalda por sí solo que la buprenorfina trate la enfermedad de fondo.
 
-El puntaje alto de TxGNN proviene de la proximidad en el grafo de conocimiento y no está respaldado por evidencia clínica. La predicción debe tomarse como una hipótesis de investigación y no como una señal de eficacia.
+El puntaje alto del modelo (99.41%) no está respaldado por datos clínicos. El uso de opioides en porfiria se considera sobre todo un tema de seguridad (riesgo porfirinogénico), no una opción de tratamiento.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -64,38 +64,45 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Reporte de caso | Masui (Japanese Journal of Anesthesiology) | Manejo anestésico de una mujer de 40 años con sospecha de porfiria aguda intermitente, operada por un tumor maligno de ovario (histerectomía radical modificada). Es un reporte perioperatorio, no un estudio de tratamiento de la enfermedad |
+| [8301837](https://pubmed.ncbi.nlm.nih.gov/8301837/) | 1993 | Reporte de caso | Masui (Japanese Journal of Anesthesiology) | Manejo anestésico de una paciente de 40 años con sospecha de porfiria aguda intermitente sometida a histerectomía radical por tumor ovario maligno; no evalúa eficacia de buprenorfina |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19967654 | TRANSTEC® 70 MCG / H (GRUNENTHAL GMBH.) | Solución para uso transdérmico (parche) | BUPRENORFINA (sin indicación detallada en el registro) |
-
-Nota: los 5 registros recibidos corresponden al mismo producto y al mismo número de registro, por lo que se presentan una sola vez. El total reportado es de 20 registros.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 19967654 | TRANSTEC® 70 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Cancelado |
+| 19967651 | TRANSTEC® 35 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Cancelado |
 
 ## Consideraciones de Seguridad
 
-- **Porfiria y medicamentos**: la seguridad de los fármacos en porfiria debe verificarse por separado, porque algunos agentes pueden desencadenar crisis agudas. Esta verificación es indispensable antes de considerar cualquier uso en esta enfermedad.
+- **Enfermedades asociadas a contraindicación o precaución** (según el grafo de conocimiento de TxGNN, no según el prospecto): 
+  - Respiratorias: enfermedad pulmonar obstructiva crónica (incluida la de inicio temprano grave), insuficiencia respiratoria.
+  - Cardiovasculares: síndrome de QT largo (incluido el familiar), torsades de pointes, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica, insuficiencia de la válvula pulmonar.
+  - Hepáticas y biliares: enfermedad hepática, enfermedad de la vesícula biliar, hepatitis C (aguda y crónica), hepatitis B crónica.
+  - Endocrinas: insuficiencia suprarrenal, enfermedad de Addison, hipotiroidismo, mixedema, hipotiroidismo congénito.
+  - Gastrointestinales y urinarias: íleo paralítico, obstrucción intestinal, miopatía visceral familiar, hiperplasia prostática benigna, estenosis uretral.
+  - Neurológicas: hipertensión intracraneal, pseudotumor cerebral.
+  - Dependencia: dependencia de drogas, trastornos relacionados con sustancias.
+- **Interacciones farmacológicas**: los datos disponibles describen únicamente la farmacología de la unión a receptores (receptor kappa y receptor mu), sin interacciones con otros fármacos.
+- **Consideración específica para la nueva indicación**: los opioides pueden tener riesgo porfirinogénico, por lo que la seguridad en porfiria aguda intermitente requiere una evaluación cuidadosa.
 
-Para el resto de la información de seguridad (advertencias, contraindicaciones e interacciones farmacológicas), consultar el prospecto.
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es alto (99.41%), pero no hay ensayos clínicos y la única publicación es un reporte de caso anestésico sin valor terapéutico. Además, no existe un mecanismo plausible identificado. La evidencia se clasifica como L4.
+La predicción de TxGNN para porfiria aguda intermitente carece de ensayos clínicos y de un vínculo mecanístico claro; la única publicación es un reporte de caso sobre manejo anestésico. Además, los registros sanitarios en Colombia están cancelados y existe una preocupación de seguridad (riesgo porfirinogénico de los opioides).
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) de buprenorfina y una hipótesis mecanística concreta hacia la porfiria aguda intermitente
-- Revisión de la seguridad de buprenorfina en porfiria (riesgo de desencadenar crisis agudas)
-- Advertencias y contraindicaciones del prospecto de INVIMA
-- Evidencia preclínica o clínica que evalúe buprenorfina como tratamiento de la porfiria
+- Datos del mecanismo de acción y análisis de un posible vínculo mecanístico con la porfiria aguda intermitente.
+- Revisión de la seguridad porfirinogénica de la buprenorfina en la literatura y bases de datos especializadas.
+- Advertencias y contraindicaciones del prospecto del INVIMA.
+- Aclarar la situación regulatoria, ya que ambos registros están cancelados.
+- Estudios preclínicos o clínicos que evalúen un beneficio terapéutico real.
 
-Las otras cinco indicaciones predichas (discinesia orolingual-facial-bucal, trastorno de tics crónico, punta-onda continua durante el sueño, temblores benignos del lactante y enfermedad extrapiramidal y del movimiento) tienen evidencia L4 o L5 y tampoco justifican avanzar por ahora.
-
-*Este informe es solo para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+**Otras predicciones del modelo (todas con decisión Hold):** discinesia linguo-facial-bucal (99.32%, evidencia indirecta L4, centrada en agitación en demencia y farmacología general), trastorno de tics crónico (99.13%, L5), punta-onda continua durante el sueño (99.05%, L5; los opioides podrían reducir el umbral convulsivo), ataques de estremecimiento benignos (99.03%, L5) y enfermedad extrapiramidal y de movimiento (99.03%, L5). Ninguna cuenta con ensayos clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

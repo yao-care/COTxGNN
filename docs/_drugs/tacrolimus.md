@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tacrolimus
-parent: Solo Predicción del Modelo (L5)
-nav_order: 370
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 600
+evidence_level: L1
 indication_count: 3
 ---
 
 # Tacrolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,83 +29,95 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tacrolimus: De Indicación Original No Especificada a Dermatitis Seborreica
+# Tacrolimus: De Indicación No Especificada (Inmunosupresor) a Dermatitis Seborreica
 
 ## Resumen en Una Frase
 
-Tacrolimus es un inhibidor de la calcineurina con 20 registros sanitarios en Colombia, pero el registro no especifica su indicación original. El modelo TxGNN predice que podría ser efectivo para **dermatitis seborreica**, con **2 ensayos clínicos** (uno de Fase 3 y otro de Fase 4, ambos completados) y **20 publicaciones** que respaldan esta dirección.
+Tacrolimus es un inhibidor de la calcineurina cuyo registro sanitario en Colombia no detalla la indicación aprobada (solo figura el nombre del principio activo).
+El modelo TxGNN predice que podría ser efectivo para **dermatitis seborreica**,
+con **2 ensayos clínicos** (uno de Fase 3 completado) y **20 publicaciones** que actualmente respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada. El texto del registro solo dice «TACROLIMUS» |
+| Indicación Original | No especificada en los registros (el texto de indicación solo indica "Tacrolimus") |
 | Nueva Indicación Predicha | Dermatitis seborreica |
 | Puntaje de Predicción TxGNN | 99.26% |
-| Nivel de Evidencia | L1 (según el Evidence Pack). Solo hay un ensayo Fase 3 completado en esta enfermedad, pero varios ECA publicados lo respaldan |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El Evidence Pack no trae datos de mecanismo de acción para este fármaco. Lo que se sabe de la farmacología conocida y de la literatura revisada es que tacrolimus inhibe la calcineurina. Con ello bloquea la activación de los linfocitos T y la liberación de citocinas proinflamatorias.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tacrolimus inhibe la calcineurina, lo que bloquea la activación de los linfocitos T dependiente de NFAT y reduce la liberación de citocinas proinflamatorias como la IL-2.
 
-La dermatitis seborreica es una enfermedad inflamatoria crónica que afecta sobre todo la cara y el cuero cabelludo, con recaídas frecuentes. Tiene un componente inmunitario asociado a la respuesta frente a la levadura *Malassezia*. Por eso un inhibidor tópico de la calcineurina puede reducir el enrojecimiento y la descamación sin causar la atrofia cutánea de los corticoides.
+La dermatitis seborreica es una enfermedad inflamatoria crónica de la piel, con recaídas frecuentes, en la que interviene una respuesta inmunitaria frente a la levadura *Malassezia*. Al calmar el componente inflamatorio, un inhibidor de la calcineurina tópico es una alternativa plausible a los corticoides, cuyo uso prolongado tiene efectos adversos. El mismo mecanismo sustenta su uso establecido en la dermatitis atópica.
 
-Los ensayos y las publicaciones evalúan tacrolimus en ungüento, sobre todo al 0.1%, como tratamiento de mantenimiento en dermatitis seborreica facial grave. Los registros sanitarios colombianos que aparecen en los datos corresponden a cápsulas orales de liberación prolongada. La vía de administración de la evidencia es, por tanto, distinta a la de los productos registrados.
+Cabe señalar que este vínculo mecanístico se basa en conocimiento farmacológico general y no en el registro suministrado. Además, la evidencia corresponde a la formulación **tópica** (ungüento), mientras que los registros colombianos identificados son de formas orales (cápsulas).
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Completado | 120 | Ungüento de tacrolimus (Protopic) como tratamiento de mantenimiento de la dermatitis seborreica grave en la cara de adultos. Busca reducir recaídas y el uso de corticoides tópicos. No se suministraron resultados, por lo que el tamaño del efecto no está verificado |
-| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Completado | 104 | Uso proactivo de tacrolimus 0.1% en ungüento, una o dos veces por semana, para mantener la remisión de la dermatitis seborreica facial del adulto y reducir las exacerbaciones |
+| [NCT02004860](https://clinicaltrials.gov/study/NCT02004860) | Fase 3 | Completado | 120 | Ungüento de tacrolimus (Protopic) como tratamiento de mantenimiento de la dermatitis seborreica grave en la cara de adultos, para reducir recaídas y uso de corticoides tópicos |
+| [NCT01591070](https://clinicaltrials.gov/study/NCT01591070) | Fase 4 | Completado | 104 | Uso proactivo de tacrolimus 0.1% una o dos veces por semana para mantener la remisión de la dermatitis seborreica facial del adulto |
+
+Los diseños detallados y los resultados de estos ensayos no están en los datos compilados y deben verificarse.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33010323](https://pubmed.ncbi.nlm.nih.gov/33010323/) | 2021 | ECA | J Am Acad Dermatol | Estudio multicéntrico, doble ciego, de tacrolimus 0.1% frente a ciclopirox olamina 1% como mantenimiento en dermatitis seborreica facial grave |
-| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | ECA | Ann Dermatol | Terapia de mantenimiento de la dermatitis seborreica facial con tacrolimus 0.1% en ungüento, siguiendo el régimen intermitente usado en dermatitis atópica |
-| [22101215](https://pubmed.ncbi.nlm.nih.gov/22101215/) | 2012 | ECA | J Am Acad Dermatol | Ensayo aleatorizado a simple ciego que compara hidrocortisona 1% con tacrolimus 0.1% en ungüento en adultos con dermatitis seborreica facial |
-| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Ensayo clínico | Ann Parasitol | Comparó sertaconazol 2% con tacrolimus 0.03% en crema en 60 pacientes con dermatitis seborreica |
-| [37067129](https://pubmed.ncbi.nlm.nih.gov/37067129/) | 2023 | Ensayo comparativo | Indian J Dermatol Venereol Leprol | Itraconazol oral durante dos días más tacrolimus tópico frente a tacrolimus tópico solo, como mantenimiento en Vietnam. Sin resumen disponible; se describe según el título |
-| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Revisión sistemática | Am J Clin Dermatol | Tratamiento tópico de la dermatitis seborreica facial: antifúngicos, queratolíticos y corticoides |
-| [39219446](https://pubmed.ncbi.nlm.nih.gov/39219446/) | 2024 | Revisión sistemática y metaanálisis en red (indirecta) | Clin Exp Allergy | Tratamientos tópicos antiinflamatorios para el eccema. Es evidencia indirecta, pues no trata la dermatitis seborreica |
-| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Revisión | Am J Clin Dermatol | Los inhibidores tópicos de la calcineurina son una alternativa segura a los corticoides, con efectos adversos a largo plazo limitados |
-| [12833030](https://pubmed.ncbi.nlm.nih.gov/12833030/) | 2003 | Estudio piloto abierto | J Am Acad Dermatol | 18 pacientes tratados con tacrolimus 0.1% hasta 28 días. 11 (61%) lograron aclaramiento total |
-| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Revisión | Expert Opin Pharmacother | Tacrolimus tópico en dermatitis atópica y otras enfermedades cutáneas inflamatorias. Explica su acción como inhibidor de la calcineurina |
+| [27804089](https://pubmed.ncbi.nlm.nih.gov/27804089/) | 2017 | Revisión sistemática | Am J Clin Dermatol | Revisa los tratamientos tópicos de la dermatitis seborreica facial (antifúngicos, queratolíticos, corticoides) |
+| [26512166](https://pubmed.ncbi.nlm.nih.gov/26512166/) | 2015 | Estudio clínico | Ann Dermatol | Terapia de mantenimiento con tacrolimus 0.1% en dermatitis seborreica facial |
+| [19222250](https://pubmed.ncbi.nlm.nih.gov/19222250/) | 2009 | Revisión | Am J Clin Dermatol | Los inhibidores tópicos de la calcineurina como alternativa segura a los corticoides en dermatitis seborreica |
+| [19213227](https://pubmed.ncbi.nlm.nih.gov/19213227/) | 2009 | Revisión | J Drugs Dermatol | Estado actual y perspectivas terapéuticas de la dermatitis seborreica facial |
+| [15461548](https://pubmed.ncbi.nlm.nih.gov/15461548/) | 2004 | Revisión | Expert Opin Pharmacother | Ungüento de tacrolimus en dermatitis atópica y otras enfermedades cutáneas inflamatorias |
+| [24171300](https://pubmed.ncbi.nlm.nih.gov/24171300/) | 2013 | Estudio clínico | Ann Parasitol | Comparación de sertaconazol 2% y tacrolimus 0.03% en crema en 60 pacientes con dermatitis seborreica |
+| [31476936](https://pubmed.ncbi.nlm.nih.gov/31476936/) | 2019 | Revisión | J Cutan Med Surg | Uso fuera de indicación de inhibidores tópicos de la calcineurina en trastornos dermatológicos |
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19983582 | PROGRAF® XL CÁPSULAS DE LIBERACIÓN PROLONGADA DE 0.5 MG (Astellas Pharma US, Inc.) | Cápsula de liberación prolongada | TACROLIMUS (el registro no detalla la indicación) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 19983582 | PROGRAF® XL cápsulas de liberación prolongada de 0.5 mg | Cápsula de liberación prolongada | Tacrolimus | Cancelado |
+| 20192450 | Tacrolimus 3 mg cápsulas duras de liberación prolongada | Cápsula de liberación prolongada | Tacrolimus | Cancelado |
+| 20230266 | TALIMUZ® 1 mg | Cápsula dura | Tacrolimus | Cancelado |
 
-Los cinco registros de la muestra corresponden al mismo número de registro sanitario, por lo que se presentan una sola vez. El total reportado es de 20 registros, y los datos incluyen también la forma «cápsula dura». No aparece ningún producto tópico en los datos suministrados.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** hipertensión, síndrome de QT largo (incluido el familiar) y torsades de pointes, insuficiencia hepática, enfermedad renal, epilepsia, hiperglucemia, diabetes mellitus y cetoacidosis diabética, infecciones (herpes simple, herpes zóster, mononucleosis infecciosa, infección crónica por virus de Epstein-Barr, leucoencefalopatía multifocal progresiva), cáncer y linfomas (incluido el linfoma primario del sistema nervioso central), delirio, síndrome de leucoencefalopatía posterior y anemia aplásica hereditaria. Estas asociaciones se refieren sobre todo al uso sistémico.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Entre las de nivel **mayor** figuran anfotericina B (incluida la formulación de complejo lipídico), loperamida, mesalazina, omeprazol y balsalazida. Entre las de nivel **moderado** figuran acarbosa, famotidina, rabeprazol, hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, metformina, pioglitazona, alogliptina, albiglutida, aprepitant y metronidazol.
+- **Señal de seguridad en la literatura:** existe un metaanálisis sobre el riesgo de cáncer con inhibidores tópicos de la calcineurina en dermatitis atópica (PMID 36370744), que justifica el monitoreo a largo plazo. Otro estudio describe niveles sistémicos elevados con aplicación oclusiva (PMID 16549924).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un ensayo Fase 3 completado, un ensayo Fase 4 completado y varios ECA publicados que evalúan tacrolimus 0.1% en ungüento como mantenimiento de la dermatitis seborreica facial. El puntaje TxGNN es muy alto y coincide con la evidencia clínica. Aun así, faltan los resultados cuantitativos de los ensayos y datos de seguridad locales, y los productos registrados en Colombia son orales.
+Existe un ensayo de Fase 3 completado y un estudio de Fase 4 completado específicamente en dermatitis seborreica con tacrolimus tópico, además de revisiones que respaldan el mecanismo. Sin embargo, solo hay un ensayo de Fase 3 (el nivel L1 asignado exige confirmar la solidez de los resultados) y en Colombia no hay registros vigentes de tacrolimus tópico.
 
 **Para avanzar se necesita:**
-- Confirmar si existe en Colombia una presentación tópica (ungüento) registrada ante INVIMA.
-- Obtener y analizar los resultados de NCT02004860 y NCT01591070.
-- Obtener del prospecto de INVIMA las advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción.
-- Definir las salvaguardas de uso: uso fuera de indicación (off-label) en la cara, con ciclos cortos o mantenimiento intermitente. Vigilar ardor local, foliculitis e infección, y dar consejería sobre la advertencia de recuadro de los inhibidores tópicos de la calcineurina en uso prolongado.
-
-**Otras predicciones del modelo:**
-- *Dermatitis* (99.17%) está respaldada sobre todo por evidencia en dermatitis atópica, donde tacrolimus tópico ya es una terapia establecida.
-- *Parapsoriasis* (99.24%) solo tiene reportes de caso sobre pitiriasis liquenoide. Es una pregunta de investigación (L4) y no está lista para decisión.
+- Verificar los diseños y resultados de los ensayos NCT02004860 y NCT01591070 (aleatorización, enmascaramiento, desenlaces).
+- Obtener el prospecto en INVIMA (advertencias y contraindicaciones) y confirmar la situación regulatoria de una formulación tópica, ya que los registros colombianos identificados son orales y están cancelados.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir un plan de monitoreo de seguridad a largo plazo (riesgo de neoplasias, absorción sistémica, infecciones cutáneas).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

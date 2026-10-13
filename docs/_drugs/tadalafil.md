@@ -2,7 +2,7 @@
 layout: default
 title: Tadalafil
 parent: Solo Predicción del Modelo (L5)
-nav_order: 371
+nav_order: 601
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Tadalafilo: De Indicación No Especificada en el Registro a Hipertricosis Universal Congénita Tipo Ambras
+# Tadalafilo: De Indicación No Especificada a Hipertricosis Universal Congénita tipo Ambras
 
 ## Resumen en Una Frase
 
-Tadalafilo es un inhibidor de la fosfodiesterasa 5 (PDE5) comercializado en Colombia, pero el registro sanitario disponible no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para la **hipertricosis universal congénita tipo Ambras**,
-con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+Tadalafilo es un inhibidor de la fosfodiesterasa tipo 5 (PDE5) que cuenta con registros sanitarios en Colombia, aunque el texto de indicación registrado solo menciona el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -43,23 +42,23 @@ con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice «TADALAFIL») |
+| Indicación Original | No especificada en el registro (el texto de indicación solo indica "TADALAFIL") |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, el tadalafilo es un inhibidor de PDE5 que actúa sobre la vía del GMP cíclico (cGMP).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tadalafilo es un inhibidor de PDE5 que aumenta el GMP cíclico (cGMP) y produce vasodilatación. Esta clase de fármacos se utiliza en disfunción eréctil e hipertensión arterial pulmonar, aunque la indicación aprobada en los registros colombianos no está detallada.
 
-**No se identificó un mecanismo plausible.** El síndrome de Ambras es una condición congénita ligada a reordenamientos cromosómicos cerca de la región del gen *TRPS1* (efecto de posición). El tadalafilo no tiene acción conocida sobre los genes que regulan el desarrollo del folículo piloso.
+La relación con la nueva indicación es débil. La hipertricosis tipo Ambras es un trastorno congénito del crecimiento del vello, asociado a reordenamientos genómicos que producen un efecto de posición sobre el locus TRPS1. Una conexión indirecta podría pasar por cambios en el flujo sanguíneo folicular o en la señalización de cGMP, pero esto es especulativo y no está establecido.
 
-El puntaje alto de TxGNN (0.9998) proviene solo de asociaciones en el grafo de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. Debe interpretarse con cautela.
+La predicción de TxGNN parece derivarse únicamente de similitudes en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Además, existe una posible alerta de dirección del efecto: vasodilatadores como el minoxidil inducen hipertricosis como efecto adverso, lo que sugiere que el fármaco podría, en el mejor de los casos, no ser útil y, en el peor, agravar el problema.
 
 ---
 
@@ -71,23 +70,28 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal.
+
+Entre las otras predicciones, solo la migraña con aura de tronco encefálico (puesto 8) tiene una publicación: un reporte de caso de 2006 (PMID [17059442](https://pubmed.ncbi.nlm.nih.gov/17059442/), *Cephalalgia*) que describe aura migrañosa típica sin cefalea asociada a tadalafilo. Es una señal de evento adverso, no de beneficio terapéutico.
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007296 | CIALIS® 5 MG (ELI LILLY AND COMPANY) | Tableta recubierta | Solo figura el principio activo: TADALAFIL |
-
-Nota: el paquete de evidencia informa 20 registros en total, pero las entradas entregadas corresponden todas al mismo registro sanitario (20007296), por lo que se muestra una sola vez. La única vía de administración registrada es la oral.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20007296 | CIALIS® 5 MG | Tableta recubierta | TADALAFIL | Cancelado |
+| 20065415 | IRTAL® 5 MG tabletas recubiertas | Tableta recubierta | TADALAFIL | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del prospecto): insuficiencia hepática, epilepsia, estenosis aórtica y enfermedades de la válvula aórtica, trastornos hipotensivos, trastornos de la coagulación, síndrome coronario agudo, infarto de miocardio, accidente cerebrovascular y trastornos cerebrovasculares, anemia falciforme y otras hemoglobinopatías, mieloma de células plasmáticas, leucemia, priapismo, enfermedad de Peyronie, pérdida de audición, y miocardiopatía hipertrófica (incluida la familiar).
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Entre las principales de nivel moderado figuran aprepitant, dexametasona, claritromicina, cimetidina, miconazol, clotrimazol, lorcaserina y los inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina). También se registran interacciones de nivel menor (papaverina) y de nivel desconocido (pantoprazol, glimepirida, doxiciclina, morfina, metformina, omeprazol).
+- **Señales de la predicción**: los vasodilatadores se asocian a hipertricosis como efecto adverso, y tadalafilo se ha asociado a aura migrañosa en un reporte de caso.
+
+No se dispone de las advertencias del prospecto; se recomienda consultarlo.
 
 ---
 
@@ -96,16 +100,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni publicaciones para esta indicación, y no existe un mecanismo plausible que conecte la inhibición de PDE5 con un defecto genético del desarrollo del folículo piloso. La predicción parece un artefacto del grafo de conocimiento y no justifica avanzar.
-
-Las otras siete predicciones del modelo tampoco tienen respaldo clínico y quedan en Hold. En migraña con aura del tronco encefálico hay un solo reporte de caso (PMID 17059442, 2006), y sugiere que el tadalafilo podría desencadenar aura, no tratarla. Esto amerita una revisión de señales de seguridad.
+La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, con un mecanismo especulativo y posible dirección de efecto contraria. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de INVIMA las advertencias y contraindicaciones, que hoy son un vacío bloqueante para el tamizaje de seguridad.
-- Confirmar la indicación original aprobada en Colombia, porque el registro solo lista el principio activo.
-- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Buscar evidencia preclínica o clínica que vincule la vía PDE5/cGMP con la biología del folículo piloso o con *TRPS1*. Sin ella, no se justifica continuar con esta indicación.
-- Priorizar la revisión de la señal de seguridad de migraña con aura antes de considerar cualquier otra indicación.
+- Obtener el prospecto de INVIMA para completar las advertencias y contraindicaciones.
+- Consultar el mecanismo de acción en DrugBank para analizar el vínculo mecanístico.
+- Aclarar la indicación aprobada original, ya que el registro solo muestra el nombre del principio activo.
+- Realizar estudios preclínicos que respalden un vínculo entre PDE5/cGMP y el crecimiento del vello en este trastorno.
+- Evaluar el estado regulatorio (registros cancelados) y la compatibilidad de vías de administración.
+- Considerar otras predicciones con mayor plausibilidad, como la cardiopatía kifoescoliótica (por la hipertensión pulmonar asociada), aunque también carece de evidencia directa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

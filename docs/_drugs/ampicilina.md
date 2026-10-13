@@ -2,7 +2,7 @@
 layout: default
 title: Ampicilina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 48
+nav_order: 55
 evidence_level: L5
 indication_count: 0
 ---

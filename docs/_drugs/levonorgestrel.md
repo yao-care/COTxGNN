@@ -2,7 +2,7 @@
 layout: default
 title: Levonorgestrel
 parent: Evidencia Moderada (L3-L4)
-nav_order: 259
+nav_order: 401
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,103 +29,78 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Levonorgestrel: De Anticoncepción Hormonal a Acné
+# Levonorgestrel: De Levonorgestrel (anticoncepción hormonal) a Acné
 
 ## Resumen en Una Frase
 
-Levonorgestrel es una progestina sintética usada en Colombia en sistemas intrauterinos (Jaydess®) y en tabletas orales, principalmente con fines anticonceptivos.
-El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidencia directa es escasa: **5 ensayos clínicos** revisados, ninguno con acné como objetivo, y **20 publicaciones**, de las cuales solo unas pocas tratan el acné, casi siempre con levonorgestrel combinado con etinilestradiol.
-
----
+Levonorgestrel es un progestágeno sintético utilizado originalmente como anticonceptivo (sistema intrauterino y tableta de 0,75 mg), según los registros sanitarios colombianos.
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero no hay ensayos clínicos registrados y la literatura disponible es indirecta: no demuestra un beneficio del levonorgestrel solo en el acné.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LEVONORGESTREL (el registro sanitario solo repite el nombre del principio activo y no describe la indicación; el uso anticonceptivo se deduce de los productos y de la literatura) |
+| Indicación Original | Levonorgestrel (el registro no detalla la indicación; los productos son un sistema intrauterino y una tableta anticonceptiva) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 99,88% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, levonorgestrel es una progestina derivada de la 19-nortestosterona con actividad androgénica residual (PMID 7825629). Su eficacia como anticonceptivo, en sistemas intrauterinos, implantes y píldoras, está bien documentada en la literatura. Mecanísticamente podría ser aplicable al acné por la vía hormonal descrita a continuación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el levonorgestrel es un progestágeno derivado de la 19-nortestosterona: inhibe la ovulación, modifica el moco cervical y el endometrio, y en el sistema intrauterino ejerce una fuerte acción antiproliferativa local sobre el endometrio.
 
-El acné depende en buena parte de los andrógenos. Levonorgestrel suprime las gonadotropinas y, combinado con etinilestradiol, puede elevar la SHBG (globulina fijadora de hormonas sexuales) y reducir los andrógenos libres, lo que podría mejorar las lesiones. Un ensayo aleatorizado con etinilestradiol 20 µg y levonorgestrel 100 µg en acné moderado (PMID 12196750) apunta en esa dirección.
+La relación con el acné es débil y, en parte, contraria a lo esperado. El levonorgestrel conserva cierta actividad androgénica residual, lo cual es opuesto a lo que se busca en el acné. El beneficio dermatológico de los anticonceptivos combinados suele atribuirse al componente estrogénico y a progestágenos antiandrogénicos (por ejemplo, acetato de clormadinona). Los productos con levonorgestrel solo (sistema intrauterino, implante, píldora de progestágeno solo) no son tratamientos establecidos para el acné, y algunas publicaciones sugieren que podrían empeorarlo.
 
-Sin embargo, **el sentido del efecto no está resuelto**. La propia androgenicidad de levonorgestrel podría empeorar el acné. Una revisión (PMID 15025547) reporta que la combinación etinilestradiol/clormadinona fue más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado. El puntaje alto de TxGNN (0.999) proviene de una predicción basada en redes de conocimiento y no demuestra beneficio clínico.
-
----
+El puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento con los anticonceptivos hormonales, y no un efecto terapéutico directo. Por eso la predicción debe considerarse una pregunta de investigación y no una hipótesis respaldada.
 
 ## Evidencia de Ensayos Clínicos
 
-Ningún ensayo evalúa el acné como desenlace. Todos fueron clasificados con relevancia baja (grado C).
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00161226](https://clinicaltrials.gov/study/NCT00161226) | N/A | Terminado | 44 | Sistema intrauterino de levonorgestrel para prevenir cáncer de endometrio en mujeres de 40-50 años con IMC > 35. No evalúa acné. |
-| [NCT01650168](https://clinicaltrials.gov/study/NCT01650168) | N/A | Completado | 101,498 | Cohorte de seguridad de un anticonceptivo de nomegestrol/estradiol frente a anticonceptivos con levonorgestrel. No está diseñado para acné. |
-| [NCT05492487](https://clinicaltrials.gov/study/NCT05492487) | Fase 2 | Desconocido | 60 | Piloto de tratamiento conservador de la fertilidad en hiperplasia endometrial atípica (Mirena frente a megestrol). No relacionado con acné. |
-| [NCT00480532](https://clinicaltrials.gov/study/NCT00480532) | N/A | Completado | 131 | Anticonceptivos orales continuos con doxiciclina para reducir el sangrado no programado. La doxiciclina se menciona solo como antibiótico de uso común. |
-| [NCT05570786](https://clinicaltrials.gov/study/NCT05570786) | Fase 2 | Completado | 100 | Implante subdérmico de gestrinona frente a placebo para dolor pélvico por endometriosis. No es levonorgestrel ni acné. |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes para acné y androgenicidad, con prioridad para los ensayos aleatorizados y luego las revisiones.
+Se recuperaron 20 publicaciones; la mayoría son revisiones generales sobre anticoncepción hormonal. Las más relevantes para el acné son:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | ECA (aleatorizado, controlado con placebo) | J Am Acad Dermatol | Evalúa un anticonceptivo oral de etinilestradiol 20 µg + levonorgestrel 100 µg en acné moderado, con la hipótesis de que reducir los andrógenos biodisponibles mejora el acné. |
-| [10717776](https://pubmed.ncbi.nlm.nih.gov/10717776/) | 1999 | Estudio aleatorizado, abierto, multicéntrico | Contraception | Compara perfiles androgénicos y resultados clínicos de dos anticonceptivos con el mismo etinilestradiol (20 µg) y distinta progestina, una de ellas levonorgestrel. |
-| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Revisión | Drugs | Etinilestradiol/clormadinona fue significativamente más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado. |
-| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Revisión | Am J Med | Describe la androgenicidad de las progestinas; las derivadas de la 19-nortestosterona, como levonorgestrel, conservan cierta actividad androgénica. |
-| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Revisión | Am J Clin Dermatol | Beneficios dermatológicos de etinilestradiol/clormadinona en acné, hirsutismo, seborrea y alopecia femenina por exceso de andrógenos. |
-| [16796485](https://pubmed.ncbi.nlm.nih.gov/16796485/) | 2006 | Revisión | J Womens Health | Compara drospirenona con levonorgestrel y otras progestinas; la drospirenona, por sus propiedades antiandrogénicas, podría reducir el acné y el hirsutismo. |
-| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Sistema intrauterino de levonorgestrel para hiperplasia endometrial. No trata acné. |
-| [14688179](https://pubmed.ncbi.nlm.nih.gov/14688179/) | 2004 | Estudio clínico (diseño no verificado) | Hum Reprod | Levonorgestrel intrauterino en el tratamiento sintomático de la endometriosis. No trata acné. |
-
----
+| [12196750](https://pubmed.ncbi.nlm.nih.gov/12196750/) | 2002 | ECA (ensayo aleatorizado controlado con placebo) | J Am Acad Dermatol | Evalúa un anticonceptivo oral combinado de dosis baja (20 µg de etinilestradiol + 100 µg de levonorgestrel) en acné moderado; el efecto corresponde a la combinación con estrógeno, no al levonorgestrel solo |
+| [15025547](https://pubmed.ncbi.nlm.nih.gov/15025547/) | 2004 | Revisión | Drugs | Etinilestradiol/acetato de clormadinona fue significativamente más eficaz que etinilestradiol/levonorgestrel en acné papulopustular leve a moderado |
+| [21895044](https://pubmed.ncbi.nlm.nih.gov/21895044/) | 2011 | Revisión | Am J Clin Dermatol | Beneficios dermatológicos de etinilestradiol/clormadinona en acné, hirsutismo y seborrea por hiperandrogenismo |
+| [30088446](https://pubmed.ncbi.nlm.nih.gov/30088446/) | 2018 | Revisión | Curr Drug Targets | Interacciones moleculares de distintos esteroides en la producción de sebo |
+| [7825629](https://pubmed.ncbi.nlm.nih.gov/7825629/) | 1995 | Revisión | Am J Med | Describe la androgenicidad de los progestágenos, incluidos los derivados de 19-carbonos usados en anticonceptivos |
+| [11727177](https://pubmed.ncbi.nlm.nih.gov/11727177/) | 2001 | Revisión | Semin Reprod Med | Sistemas intrauterinos liberadores de progestágeno: anticoncepción y reducción del sangrado menstrual |
+| [32909630](https://pubmed.ncbi.nlm.nih.gov/32909630/) | 2020 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Sistema intrauterino de levonorgestrel en hiperplasia endometrial (no relacionado con acné) |
+| [14688179](https://pubmed.ncbi.nlm.nih.gov/14688179/) | 2004 | Estudio clínico | Hum Reprod | Levonorgestrel intrauterino en endometriosis (no relacionado con acné) |
 
 ## Información de Mercado en Colombia
 
-Los 20 registros reportados incluyen cinco entradas idénticas del mismo registro sanitario, que se muestran aquí una sola vez. Además de los sistemas intrauterinos, existen presentaciones orales en tableta.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20046501 | JAYDESS® (Bayer A.G.) | Implantes y sistemas intrauterinos e intraoculares | LEVONORGESTREL (sin texto de indicación detallado) |
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|-----|
+| 20046501 | JAYDESS® | Implantes y sistemas intrauterinos e intraoculares | Levonorgestrel | Cancelado |
+| 20080147 | POSTCOID® 0.75 MG | Tableta | Levonorgestrel | Cancelado |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
----
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): hipertensión, epilepsia, trastornos de ansiedad y neuróticos, distimia, porfirias, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus y cetoacidosis diabética, hipotiroidismo, lupus eritematoso sistémico, asma, trastornos de la coagulación sanguínea, hipertrigliceridemia, e hipercalcemia y trastornos del metabolismo del fósforo.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones, todas las mostradas de nivel moderado. Las principales corresponden a antidiabéticos (acarbosa, canagliflozina, dapagliflozina, ertugliflozina, exenatida, linagliptina, liraglutida, nateglinida y diversas insulinas), además de aprepitant, clotrimazol, fenilbutirato de glicerol y linaclotida.
+- Los datos de advertencias y contraindicaciones del prospecto de INVIMA no están disponibles; consultar el prospecto para esa información.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es alta (99.88%), pero ningún ensayo clínico revisado evalúa acné y la única evidencia directa es un ensayo con levonorgestrel combinado con etinilestradiol, sin poder atribuir el efecto al levonorgestrel. Además, la androgenicidad de levonorgestrel podría empeorar el acné, y una revisión indica que otras combinaciones son más eficaces.
+La predicción se apoya solo en el modelo y en literatura indirecta; no hay ensayos clínicos, y el perfil androgénico del levonorgestrel va en contra de un beneficio en acné. Además, no existen registros sanitarios vigentes en Colombia. Las otras cinco indicaciones predichas (síndrome de Worth, osteoporosis asociada al embarazo, vitreorretinopatía inflamatoria neovascular, adenosis de mama de conducto romo y adenosis apocrina de mama) tampoco tienen evidencia (nivel L5) ni un vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
-- Revisar el texto completo de los ensayos y publicaciones con acné como desenlace, para separar el efecto de levonorgestrel del de etinilestradiol.
-- Definir el sentido del efecto: comparar levonorgestrel con progestinas antiandrogénicas (clormadinona, drospirenona) en acné.
-- Obtener el prospecto de INVIMA, con advertencias y contraindicaciones, y los datos de mecanismo de acción desde DrugBank.
-- Confirmar la indicación aprobada de los registros sanitarios, que hoy solo repiten el nombre del principio activo.
-- Definir la vía y forma farmacéutica, pues el acné implicaría exposición sistémica (oral) y no el sistema intrauterino.
-
-Las demás predicciones (síndrome de Worth, osteoporosis asociada al embarazo, vitreorretinopatía inflamatoria neovascular autosómica dominante, adenosis de mama de conducto romo y adenosis apocrina de mama) tienen nivel L5, sin ensayos ni literatura, y también quedan en Hold.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción desde DrugBank.
+- Advertencias y contraindicaciones del prospecto de INVIMA.
+- Revisión de la evidencia comparativa que muestre si el levonorgestrel solo mejora, no cambia o empeora el acné.
+- Ensayos clínicos específicos, si se decide continuar, con atención a las contraindicaciones señaladas.
+- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Cobicistat
 parent: Solo Predicción del Modelo (L5)
-nav_order: 138
+nav_order: 176
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,67 +29,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Cobicistat: De Combinación Darunavir/Cobicistat a Síndrome de Inmunodeficiencia Adquirida Felina
+# Cobicistat: De Combinación Darunavir/Cobicistat (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Cobicistat se comercializa en Colombia dentro de la combinación darunavir/cobicistat (PREZCOBIX®). El registro sanitario no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que por ahora es solo una señal del modelo.
+Cobicistat es un potenciador farmacocinético que se usaba en la combinación darunavir/cobicistat, indicada en Colombia como parte del tratamiento antirretroviral.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Darunavir y cobicistat (el registro solo indica la combinación, sin describir la indicación) |
+| Indicación Original | Darunavir y cobicistat |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 8 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información del análisis, cobicistat es un inhibidor de CYP3A basado en mecanismo y funciona como potenciador farmacocinético. No tiene actividad antiviral propia. En los esquemas contra el VIH-1 aumenta la exposición a otros antirretrovirales, como darunavir, atazanavir o elvitegravir.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, cobicistat es un inhibidor de CYP3A basado en el mecanismo, utilizado como potenciador farmacocinético de inhibidores de la proteasa del VIH-1 (como darunavir) y de inhibidores de la integrasa (como elvitegravir). No tiene actividad antiviral intrínseca.
 
-La única razón para plantear la nueva indicación es una analogía. El virus de inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH-1. Sin embargo, su proteasa y su integrasa son distintas a las del VIH-1. No se ha demostrado que un esquema potenciado funcione en gatos, y la farmacología de CYP3A en felinos no está caracterizada. El puntaje alto (0.999) probablemente refleja cercanía en el grafo de conocimiento con nodos relacionados con el VIH, y no evidencia independiente.
+El puntaje alto (0.999) probablemente refleja la cercanía en la red de conocimiento con nodos de VIH y lentivirus, a través de sus combinaciones antirretrovirales aprobadas, y no un efecto directo sobre el virus de inmunodeficiencia felina (FIV). Cualquier beneficio dependería de administrarlo junto con un antiviral activo contra el FIV, y no hay datos que demuestren que dicha combinación funcione en gatos.
 
-TxGNN generó otras dos predicciones con el mismo tipo de limitaciones, ambas de nivel L5 y con decisión Hold:
-- **Infección por virus de inmunodeficiencia simia** (puntaje 99.92%, idéntico al felino, lo que sugiere que ambas provienen del mismo vecindario del grafo). Cobicistat solo podría servir como potenciador de otros antirretrovirales en un modelo de macacos, por lo que por sí solo no aporta evidencia de eficacia.
-- **Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y disminución de la sustancia blanca cortical** (puntaje 99.91%). No se identificó ningún vínculo mecanístico plausible. Es probable que sea un artefacto del grafo.
+Cabe señalar que las otras dos predicciones del modelo tienen un puntaje igualmente alto pero poca solidez. La infección por el virus de inmunodeficiencia simia (SIV) es un modelo cercano del VIH, por lo que sería plausible solo como potenciador en regímenes combinados y en investigación preclínica o veterinaria. El trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de la sustancia blanca cortical no tiene un vínculo mecanístico identificable y probablemente es un artefacto de la conectividad del grafo de conocimiento.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en Colombia
+---
 
-Los cinco registros detallados en los datos corresponden al mismo número de registro sanitario, por lo que se presentan una sola vez. El total reportado es de 8 registros.
+## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20104155 | PREZCOBIX® TABLETAS RECUBIERTAS (JANSSEN CILAG S.A.) | Tableta recubierta | Darunavir y cobicistat |
+| 20104155 (cancelado) | PREZCOBIX® tabletas recubiertas (Janssen Cilag S.A.) | Tableta recubierta | Darunavir y cobicistat |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Entre las de nivel **mayor** figuran loperamida, triamcinolona, cisaprida y budesonida. Entre las de nivel **moderado** figuran hidrocortisona, aprepitant, betametasona, clotrimazol, dexametasona, fenfluramina, metoclopramida, repaglinida y claritromicina. Prucalopride tiene nivel **menor**. Muchas de estas interacciones son coherentes con la inhibición de CYP3A.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Las tres predicciones son de nivel L5, sin ensayos ni literatura, y cobicistat no tiene actividad antiviral propia. El puntaje alto parece reflejar la estructura del grafo y no eficacia. La indicación felina además corresponde a medicina veterinaria, lo que exige un marco regulatorio distinto al de un registro humano.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y cobicistat carece de actividad antiviral propia. Además, el único registro sanitario en Colombia está cancelado y existen numerosas interacciones farmacológicas.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) desde DrugBank.
-- Prospecto de INVIMA con advertencias y contraindicaciones, que hoy es un vacío bloqueante para el tamizaje de seguridad.
-- Estudios preclínicos que muestren un beneficio farmacocinético de cobicistat en gatos, junto con un antirretroviral activo contra FIV.
-- Confirmar si esta línea tiene sentido dentro del alcance de reposicionamiento en humanos, ya que las tres predicciones son veterinarias o sin vínculo mecanístico.
+- Datos del mecanismo de acción desde DrugBank
+- Advertencias y contraindicaciones del prospecto de INVIMA
+- Estudios preclínicos o veterinarios que evalúen cobicistat como potenciador de un antiviral activo contra el FIV
+- Evaluación de la compatibilidad de vía de administración y similitud con la indicación original (aún pendientes)
+- Aclarar la relevancia clínica y regulatoria de una indicación veterinaria frente al uso humano en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Maraviroc
 parent: Solo Predicción del Modelo (L5)
-nav_order: 269
+nav_order: 418
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Maraviroc: De Infección por VIH-1 a Neoplasia Endocrina Múltiple
+# Maraviroc: De Infección por VIH (CCR5-trópico) a Neoplasia Endocrina Múltiple
 
 ## Resumen en Una Frase
 
-Maraviroc es un antagonista del receptor CCR5, conocido como antirretroviral para la infección por VIH-1. Esta indicación original no consta en el registro colombiano, que solo indica el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **Neoplasia Endocrina Múltiple**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Maraviroc es un antagonista del receptor de quimiocinas CCR5, comercializado en Colombia como Celsentri® (GlaxoSmithKline) y, según la información conocida, utilizado originalmente como antirretroviral contra el VIH. El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múltiple**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ---
 
@@ -42,23 +41,23 @@ El modelo TxGNN predice que podría ser efectivo para **Neoplasia Endocrina Múl
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro solo consigna «MARAVIROC», sin texto de indicación. Se asume VIH-1 por el uso conocido del fármaco, no por los datos del registro |
+| Indicación Original | MARAVIROC (el registro sanitario no detalla la indicación; según la información conocida, infección por VIH) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
 | Puntaje de Predicción TxGNN | 99.82% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 15 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, maraviroc es un antagonista de CCR5, un receptor de quimiocinas que participa en la migración de células inmunes.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, maraviroc es un antagonista de CCR5, un receptor de quimiocinas que participa en la entrada del VIH a las células y en la migración de células inmunitarias hacia sitios de inflamación.
 
-**No hay un vínculo mecanístico respaldado por los datos entre CCR5 y la neoplasia endocrina múltiple.** El puntaje de 99.82% es únicamente una predicción del modelo, sin ensayos ni literatura que la acompañen. Tampoco se ha establecido un papel de CCR5 en la biología tumoral asociada a este síndrome.
+Las neoplasias endocrinas múltiples (MEN) son síndromes hereditarios impulsados principalmente por mutaciones en genes como MEN1 y RET. Los datos compilados no respaldan un mecanismo plausible mediado por CCR5 en estos síndromes. La relación entre la indicación original y la nueva es, por ahora, solo una asociación del grafo de conocimiento, sin vínculo mecanístico demostrado.
 
-Por eso esta predicción debe tomarse como una hipótesis de bajo respaldo. La similitud con la indicación original no ha sido evaluada y sigue pendiente.
+Por ello, la predicción debe considerarse una hipótesis exploratoria. Cabe señalar que otras predicciones del mismo modelo tienen un sustento biológico algo más razonable, por ejemplo el cáncer de mama HER2 positivo (eje CCL5-CCR5 y resistencia a trastuzumab, evidencia preclínica) y la infección por citomegalovirus (nivel L4, solo evidencia indirecta), aunque tampoco cuentan con ensayos clínicos.
 
 ---
 
@@ -70,23 +69,27 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para neoplasia endocrina múltiple.
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19989116 | CELSENTRI® 150 MG (GlaxoSmithKline Colombia S.A.) | Tableta recubierta | Solo consigna «MARAVIROC» |
-
-Los datos entregados muestran 5 filas idénticas del mismo registro (19989116), por lo que se presenta una sola. El total declarado es de 15 registros, pero el detalle de los demás no estaba incluido.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 19989116 | CELSENTRI® 150 MG | Tableta recubierta | MARAVIROC | Cancelado |
+| 19989118 | CELSENTRI® 300 MG | Tableta recubierta | MARAVIROC | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. El Evidence Pack no trae advertencias, contraindicaciones ni interacciones farmacológicas (la consulta de interacciones no arrojó resultados).
+- **Contraindicaciones sugeridas por el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo, no texto de prospecto): enfermedad hepática y lesión hepática inducida por fármacos, infección crónica por virus de hepatitis B y C, enfermedad renal (crónica, insuficiencia renal crónica y terminal), enfermedad coronaria, infarto de miocardio, trombosis coronaria e isquemia miocárdica, hipotensión ortostática, síndrome de taquicardia postural ortostática, atrofia multisistémica, enfermedad de la vesícula biliar, piouréter, hemoglobinopatía y enfermedades infecciosas.
+- **Interacciones farmacológicas**: se identificaron 93 interacciones. Entre las principales:
+  - **Mayor**: claritromicina.
+  - **Moderadas** (ejemplos): aprepitant, dexametasona, cimetidina, eliglustat, naltrexona, clotrimazol, miconazol, rolapitant, cobicistat, deferasirox, diazóxido, fentolamina, prometazina, epoprostenol y fostamatinib.
+
+Consultar el prospecto para información de seguridad complementaria.
 
 ---
 
@@ -95,13 +98,14 @@ Consultar el prospecto para información de seguridad. El Evidence Pack no trae 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura y sin un mecanismo plausible documentado. No hay base suficiente para avanzar.
+La predicción (99.82%) se basa solo en el grafo de conocimiento, sin ensayos clínicos ni publicaciones, y no existe un mecanismo plausible mediado por CCR5 en los síndromes MEN. Además, los registros sanitarios en Colombia están cancelados y el perfil de seguridad es relevante.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante).
-- Obtener el mecanismo de acción desde DrugBank y evaluar si CCR5 tiene algún papel en la neoplasia endocrina múltiple.
-- Realizar una búsqueda dirigida de literatura y ensayos sobre maraviroc y este síndrome.
-- Considerar priorizar otras indicaciones del mismo fármaco con más respaldo. Por ejemplo, el carcinoma de mama HER2 positivo (nivel L4) tiene evidencia preclínica que vincula el eje CCL5/CCR5 con la resistencia a trastuzumab.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura dirigida y estudios preclínicos que evalúen el papel de CCR5 en MEN.
+- Evaluar candidatas alternativas con mayor sustento (p. ej., cáncer de mama HER2 positivo, infección por CMV) antes de invertir en esta indicación.
+- Aclarar la situación regulatoria, dado que los registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

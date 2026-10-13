@@ -2,7 +2,7 @@
 layout: default
 title: Carvedilol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 115
+nav_order: 139
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,66 +29,111 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Carvedilol: De Indicación Original No Especificada a Hipertensión Renovascular Maligna
+# Carvedilol: De Indicación Registrada (Carvedilol) a Hipertensión Renovascular Maligna
 
 ## Resumen en Una Frase
 
-Carvedilol es un betabloqueador no selectivo con bloqueo alfa-1 y efecto vasodilatador. El registro sanitario colombiano no especifica su indicación original, porque el campo solo repite el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Carvedilol es un betabloqueante no selectivo con actividad bloqueadora alfa-1, registrado en Colombia como medicamento de un solo principio activo (tabletas), cuyos dos registros sanitarios están actualmente cancelados.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión renovascular maligna**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica.
+La predicción es solo computacional (nivel de evidencia L5).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo dice "CARVEDILOL") |
+| Indicación Original | Carvedilol (el registro sanitario no detalla la indicación; solo repite el nombre del fármaco) |
 | Nueva Indicación Predicha | Hipertensión renovascular maligna |
 | Puntaje de Predicción TxGNN | 99.55% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según el conocimiento general, carvedilol bloquea los receptores beta y alfa-1 adrenérgicos, lo que dilata los vasos y reduce la presión arterial. Además, el bloqueo beta disminuye la liberación de renina, un mecanismo relevante en la hipertensión de origen renovascular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, carvedilol es un betabloqueante no selectivo con actividad bloqueadora alfa-1, y su eficacia en hipertensión e insuficiencia cardíaca está bien establecida en la práctica clínica. Mecanísticamente, podría ser aplicable a formas graves de hipertensión por su efecto vasodilatador.
 
-Esto da una plausibilidad biológica razonable para bajar la presión arterial. Sin embargo, no hay ensayos ni literatura para esta indicación, así que el puntaje de 99.55% es solo una predicción del modelo. La hipertensión maligna es una emergencia hipertensiva que normalmente se maneja con fármacos intravenosos titulables, por lo que un fármaco oral como carvedilol difícilmente sería de primera línea.
+La hipertensión renovascular maligna depende en gran medida de la activación del sistema renina-angiotensina. El betabloqueo de carvedilol reduce la liberación de renina, lo que ofrece solo un apoyo indirecto. El bloqueo alfa-1 aporta vasodilatación, pero no hay estudios específicos en esta indicación.
 
-Las dos primeras predicciones (hipertensión renovascular maligna y enfermedad renal hipertensiva maligna) tienen puntajes idénticos. Probablemente son nodos muy cercanos en el grafo de conocimiento y no deben contarse como señales independientes.
+Cabe señalar que el puntaje TxGNN es idéntico al de la enfermedad renal hipertensiva maligna (segunda predicción), lo que sugiere una vecindad compartida en el grafo de conocimiento y no evidencia independiente. Por ello, el puntaje alto no debe interpretarse como respaldo clínico.
+
+### Otras predicciones del modelo
+
+| Posición | Indicación Predicha | Puntaje TxGNN | Nivel | Recomendación |
+|------|------|------|------|------|
+| 2 | Enfermedad renal hipertensiva maligna | 99.55% | L5 | Hold |
+| 3 | Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.54% | L5 | Hold |
+| 4 | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.54% | L4 | Pregunta de investigación |
+| 5 | Síndrome de Braddock | 99.37% | L5 | Hold |
+
+Sobre la hipertensión pulmonar: los betabloqueantes se usan con cautela por el posible deterioro de la función del ventrículo derecho, y la tolerabilidad respiratoria del betabloqueo no selectivo en enfermedad pulmonar es una preocupación de seguridad. En el síndrome de Braddock no se pudo establecer un vínculo mecanístico claro.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para hipertensión renovascular maligna.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal.
+
+Para la cuarta predicción (hipertensión pulmonar por enfermedad pulmonar y/o hipoxia) se recuperaron publicaciones con apoyo únicamente indirecto y preclínico. Las más relevantes:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [26291659](https://pubmed.ncbi.nlm.nih.gov/26291659/) | 2015 | Estudio animal (rata) | Eur J Pharmacol | Carvedilol revirtió la hipertensión inducida por hipoxia intermitente crónica; es hipertensión sistémica, no pulmonar |
+| [19789971](https://pubmed.ncbi.nlm.nih.gov/19789971/) | 2009 | Revisión | Cardiovasc Drugs Ther | Efectos respiratorios de los betabloqueantes en insuficiencia cardíaca; el concepto de contraindicación en función pulmonar alterada se ha cuestionado |
+| [16639551](https://pubmed.ncbi.nlm.nih.gov/16639551/) | 2006 | Estudio preclínico | Pflugers Arch | Carvedilol inhibió la hipertrofia ventricular derecha inducida por hipoxia hipobárica crónica |
+| [20508210](https://pubmed.ncbi.nlm.nih.gov/20508210/) | 2010 | Estudio animal (rata) | Am J Respir Crit Care Med | El bloqueo adrenérgico revirtió la remodelación y disfunción del corazón derecho en ratas con hipertensión pulmonar |
+| [24798657](https://pubmed.ncbi.nlm.nih.gov/24798657/) | 2014 | Estudio cruzado (11 pacientes) | J Clin Hypertens | Comparó carvedilol 20 mg vs nifedipino 40 mg nocturnos sobre la presión arterial durante el sueño en hipertensos con apnea del sueño |
+| [10862260](https://pubmed.ncbi.nlm.nih.gov/10862260/) | 2000 | Revisión | Presse Med | Intoxicación por betabloqueantes; carvedilol figura entre los más tóxicos |
+
+Varias de las publicaciones recuperadas no guardan relación con la indicación (derivados indólicos, colangiocarcinoma, cáncer de mama triple negativo, melanoma uveal).
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 218019 | DILATREND TABLETAS 6.25MG (CHEPLAPHARM ARZNEIMITTEL GMBH) | Tableta | No detallada (solo indica "CARVEDILOL") |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 218019 | DILATREND TABLETAS 6.25MG (CHEPLAPHARM ARZNEIMITTEL GMBH) | Tableta | Carvedilol | Cancelado |
+| 19969274 | CARVEDILOL 25 MG TABLETAS RECUBIERTAS (LABORATORIOS LA SANTE S.A.) | Tableta recubierta | Carvedilol | Cancelado |
 
-Se reportan 20 registros en total, pero los datos recibidos solo incluyen este registro (repetido cinco veces). Las formas farmacéuticas disponibles son orales: tableta y tableta recubierta.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto del prospecto): insuficiencia hepática, bronquitis, asma (incluidas las formas intrínseca y alérgica), diabetes mellitus, cetoacidosis diabética, trastornos hipotensivos, enfermedad vascular periférica, claudicación intermitente, enfermedad arterial periférica, bloqueo auriculoventricular, enfisema pulmonar, enfermedad bronquial, angina de Prinzmetal, síndrome del seno enfermo (incluida su forma familiar), anafilaxia y síndrome del iris flácido intraoperatorio.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; las principales son:
+  - **Mayor**: epinefrina.
+  - **Moderada**: hidrocortisona, hioscina (hiosciamina), bupropión, triamcinolona, morfina, atropina, dexametasona, lorcaserina, betametasona, budesonida, canagliflozina, acetohexamida, y sales de calcio (fosfato, acetato, carbonato, citrato).
+  - **Menor**: ácido acetilsalicílico, hidróxido de aluminio, attapulgita.
+- **Preocupación específica**: la tolerabilidad respiratoria del betabloqueo no selectivo en pacientes con enfermedad pulmonar (relevante para las predicciones de hipertensión pulmonar) y el uso cauteloso en hipertensión pulmonar por posible deterioro del ventrículo derecho.
+
+No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura, por lo que se queda en nivel L5 como pregunta de investigación. Además, la hipertensión maligna se maneja normalmente con fármacos intravenosos, no con carvedilol oral.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura para hipertensión renovascular maligna. Además, ambos registros sanitarios en Colombia están cancelados, y el vínculo mecanístico (reducción de renina por betabloqueo) es solo indirecto.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones, que hoy bloquean el tamizaje de seguridad.
-- Completar los datos de mecanismo de acción (por ejemplo, desde DrugBank).
-- Confirmar la indicación aprobada real de carvedilol en Colombia.
-- Hacer una búsqueda dirigida de literatura sobre carvedilol e hipertensión renovascular o maligna. Los estudios recuperados para otras predicciones hablan de hipoxia en general y no mencionan carvedilol.
-- Tener en cuenta que las otras cuatro predicciones también son L5. Las dos de hipertensión pulmonar y Braddock quedan en Hold, y en hipertensión pulmonar hay además una preocupación de seguridad por el bloqueo beta no selectivo.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Revisar sistemáticamente la literatura clínica sobre betabloqueantes/carvedilol en hipertensión renovascular maligna y nefropatía hipertensiva.
+- Aclarar el estado regulatorio: confirmar si existe algún registro vigente o si se requeriría un nuevo trámite ante INVIMA.
+- Evaluar la seguridad en poblaciones con enfermedad respiratoria o pulmonar antes de considerar cualquier indicación de hipertensión pulmonar.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

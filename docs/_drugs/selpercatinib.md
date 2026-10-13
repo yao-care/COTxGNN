@@ -2,7 +2,7 @@
 layout: default
 title: Selpercatinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 357
+nav_order: 582
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Selpercatinib: De Cáncer con Alteraciones en RET a Hipertensión Pulmonar
+# Selpercatinib: De Indicación Original (no especificada en el registro) a Hipertensión Pulmonar
 
 ## Resumen en Una Frase
 
-Selpercatinib es un inhibidor selectivo de la quinasa RET. Según la literatura revisada, se usa en cáncer de pulmón de células no pequeñas con fusión de RET y en carcinoma medular de tiroides. El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero por ahora no hay **ningún ensayo clínico** ni **publicación** que estudie directamente esta indicación. La predicción se basa solo en el modelo.
+Selpercatinib es un inhibidor selectivo de la cinasa RET, comercializado en Colombia como Retsevmo® (Eli Lilly); el texto del registro sanitario solo repite el nombre del principio activo, sin precisar la indicación.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**, pero **no hay ensayos clínicos ni publicaciones que respalden directamente esta indicación**: las tres publicaciones recuperadas tratan sobre cánceres con alteración de RET y perfiles de eventos adversos.
 
 ---
 
@@ -41,23 +42,23 @@ Selpercatinib es un inhibidor selectivo de la quinasa RET. Según la literatura 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro. El texto de indicación del registro solo repite el nombre del fármaco. El uso oncológico se deduce de la literatura. |
+| Indicación Original | No especificada (el registro solo indica "SELPERCATINIB") |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
 | Puntaje de Predicción TxGNN | 99.18% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, selpercatinib es un inhibidor selectivo de la quinasa RET. Su actividad se ha descrito en tumores con alteraciones de RET, como el cáncer de pulmón con fusión de RET y el carcinoma medular de tiroides. Mecanísticamente, su aplicación a la hipertensión pulmonar es **especulativa**.
+Selpercatinib es un inhibidor selectivo de la cinasa RET. Este dato proviene del conocimiento general del fármaco, ya que los datos compilados para este informe no incluyen el mecanismo de acción detallado. Se usa en tumores con alteraciones de RET, como el cáncer de pulmón de células no pequeñas con fusión de RET y el carcinoma medular de tiroides, como reflejan las publicaciones recuperadas.
 
-El papel de la señalización de RET en la remodelación vascular pulmonar no está establecido en los datos disponibles. El puntaje del modelo es alto (0.992), pero no hay respaldo biológico ni clínico que lo acompañe. Además, la hipertensión sistémica es un evento adverso conocido de selpercatinib, por lo que cualquier uso en una enfermedad vascular pulmonar requeriría una revisión cuidadosa de la seguridad cardiovascular.
+La relación entre la indicación original (oncología con alteración de RET) y la hipertensión pulmonar **no es evidente**. El puntaje alto de TxGNN (0.99) proviene de una predicción basada en grafos de conocimiento y no de evidencia experimental o clínica. En los datos compilados no se establece un mecanismo plausible mediado por RET en el remodelado vascular pulmonar.
 
-El modelo también predijo otras dos indicaciones: **migraña** (99.17%) y **migraña con aura de tronco encefálico** (99.05%). Ninguna tiene ensayos ni literatura. La conexión con migraña es solo una hipótesis: RET es receptor de ligandos de la familia GDNF y se expresa en algunas neuronas sensoriales, lo que sugiere un posible vínculo con las vías del dolor trigeminal. Esto tampoco está respaldado por evidencia.
+Conviene aclarar que los reportes de eventos adversos de inhibidores de RET pueden mencionar efectos cardiovasculares o hipertensivos, pero se refieren a hipertensión sistémica y constituyen una señal de seguridad, no evidencia terapéutica para hipertensión pulmonar.
 
 ---
 
@@ -69,23 +70,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Ninguna de las publicaciones encontradas estudia hipertensión pulmonar. Solo describen el uso y el perfil de seguridad de selpercatinib en oncología.
+Ninguna de las publicaciones evalúa selpercatinib en hipertensión pulmonar; se listan como contexto del fármaco.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Análisis retrospectivo | Ther Adv Med Oncol | Análisis retrospectivo (SIREN) de pacientes con cáncer de pulmón de células no pequeñas con fusión de RET tratados con selpercatinib mediante un programa de acceso. Evalúa su eficacia en la práctica real. |
-| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Estudio de farmacovigilancia | Front Pharmacol | Compara los eventos adversos de pralsetinib y selpercatinib con datos reales del sistema FAERS de la FDA. |
-| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Reporte de caso | Cureus | Carcinoma medular de tiroides metastásico en NEM 2B con mutación RET M918T. Describe los retos del manejo a largo plazo y la terapia dirigida. |
+| [34178121](https://pubmed.ncbi.nlm.nih.gov/34178121/) | 2021 | Análisis retrospectivo | Therapeutic Advances in Medical Oncology | Experiencia en vida real de selpercatinib en CPNM con fusión de RET tratado mediante un programa de acceso (SIREN) |
+| [39372206](https://pubmed.ncbi.nlm.nih.gov/39372206/) | 2024 | Estudio de farmacovigilancia | Frontiers in Pharmacology | Compara los eventos adversos de pralsetinib y selpercatinib con datos reales del sistema FAERS |
+| [41918669](https://pubmed.ncbi.nlm.nih.gov/41918669/) | 2026 | Reporte de caso | Cureus | Carcinoma medular de tiroides metastásico en MEN 2B con mutación RET M918T; retos del manejo a largo plazo y terapia dirigida |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Los 20 registros corresponden al mismo producto (los cinco primeros son idénticos), por lo que se muestra una sola vez.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20232108 | RETSEVMO ® 80 MG (ELI LILLY AND COMPANY) | Cápsula dura | El registro solo indica "SELPERCATINIB", sin texto de indicación |
+| 20232108 | RETSEVMO® 80 MG (cancelado) | Cápsula dura | SELPERCATINIB |
+| 20232107 | RETSEVMO® 40 MG (cancelado) | Cápsula dura | SELPERCATINIB |
 
 ---
 
@@ -93,19 +93,26 @@ Los 20 registros corresponden al mismo producto (los cinco primeros son idéntic
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de la quinasa RET) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Presión arterial (la hipertensión es un evento adverso conocido). Para otros parámetros, consultar el prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor selectivo de la cinasa RET) |
+| Riesgo de Mielosupresión | Sin datos específicos en la información compilada |
+| Clasificación de Emetogenicidad | Sin datos específicos en la información compilada |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Advertencia principal**: la hipertensión sistémica es un evento adverso conocido de selpercatinib. Es especialmente relevante si se considera su uso en una enfermedad vascular pulmonar.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Entre las de nivel **mayor** figuran:
+  - Antiácidos y reductores de acidez gástrica: famotidina, ranitidina, cimetidina, omeprazol, rabeprazol, dexlansoprazol y óxido de magnesio.
+  - Aprepitant.
+  - Claritromicina.
+  - Dexametasona.
 
-Para las demás advertencias, contraindicaciones e interacciones farmacológicas, consultar el prospecto.
+  Entre las de nivel **moderado** figuran hidrocortisona, triamcinolona, betametasona, budesonida, pioglitazona, loperamida, bisacodilo, saxagliptina y polietilenglicol con electrolitos.
+- **Perfil de seguridad general**: según el análisis de las predicciones, el perfil conocido de selpercatinib incluye hipertensión, prolongación del QT y hepatotoxicidad, lo que exige cautela en cualquier uso fuera de oncología.
+
+Consultar el prospecto para advertencias y contraindicaciones, ya que no se dispone de ellas en los datos compilados.
 
 ---
 
@@ -114,16 +121,14 @@ Para las demás advertencias, contraindicaciones e interacciones farmacológicas
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5). No hay ensayos clínicos ni literatura que estudien selpercatinib en hipertensión pulmonar. El vínculo mecanístico es especulativo y el perfil de seguridad, en particular la hipertensión, plantea una preocupación adicional.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA, con sus advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción (MOA) desde DrugBank.
-- Realizar estudios preclínicos que respalden un papel de RET en la remodelación vascular pulmonar.
-- Hacer una revisión formal de la seguridad cardiovascular, dado el riesgo de hipertensión.
-- Aclarar la indicación aprobada en Colombia, porque el registro solo repite el nombre del fármaco.
-
-*Este informe es solo de referencia para la investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Establecer una hipótesis mecanística sobre la vía RET en la vasculatura pulmonar, con estudios preclínicos que la respalden.
+- Aclarar la disponibilidad del fármaco en Colombia, dado que los registros están cancelados.
+- Evaluar la relación beneficio-riesgo, en particular los efectos cardiovasculares, antes de considerar un uso no oncológico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

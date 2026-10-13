@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Alteplase
-parent: Evidencia Moderada (L3-L4)
-nav_order: 40
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 42
+evidence_level: L5
 indication_count: 9
 ---
 
 # Alteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Alteplasa: De Indicación No Especificada en el Registro a Infarto de Miocardio Posteroinferior
+# Alteplasa: De Indicación Registrada (Alteplasa) a Infarto de Miocardio Posteroinferior
 
 ## Resumen en Una Frase
 
-Alteplasa es un activador del plasminógeno específico de la fibrina. El registro sanitario colombiano disponible solo muestra el nombre del principio activo y no describe una indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio posteroinferior**,
-pero solo **0 ensayos clínicos** y **1 publicación** (un estudio de cohorte indirecto) respaldan hoy esta dirección.
+Alteplasa es un activador del plasminógeno tisular recombinante (trombolítico), registrado en Colombia con el producto Actilyse 50 mg, cuyo registro sanitario figura hoy como cancelado.
+El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio posteroinferior**, pero **no hay ensayos clínicos ni publicaciones** específicos para esta indicación que respalden la predicción.
 
 ---
 
@@ -43,37 +42,45 @@ pero solo **0 ensayos clínicos** y **1 publicación** (un estudio de cohorte in
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "ALTEPLASE") |
+| Indicación Original | Alteplasa (el registro no detalla la indicación aprobada más allá del nombre del principio activo) |
 | Nueva Indicación Predicha | Infarto de miocardio posteroinferior |
 | Puntaje de Predicción TxGNN | 99.79% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 4 (todos con el mismo número, 33103) |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en el paquete de evidencia. Aun así, alteplasa es un activador del plasminógeno específico de la fibrina que disuelve trombos. Biológicamente, esto es coherente con la oclusión de una arteria coronaria responsable de un infarto.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, alteplasa es un activador del plasminógeno tisular recombinante: convierte el plasminógeno en plasmina, que disuelve la fibrina de los coágulos.
 
-El paquete de evidencia no trae la indicación original del fármaco. Por eso no se puede comparar formalmente la indicación original con la nueva. Esa relación debe confirmarse con la etiqueta aprobada antes de sacar conclusiones.
+En el infarto de miocardio, la causa habitual es un trombo que ocluye una arteria coronaria. La disolución del trombo es, por tanto, un enfoque mecanísticamente coherente. Esto explica el puntaje alto del modelo (99.79%).
 
-La única publicación de apoyo es un estudio de 2005 sobre angioplastia de rescate en pacientes con infarto agudo en quienes falló la trombólisis. Es evidencia indirecta: no evalúa alteplasa para este subtipo de infarto. Por eso la predicción es plausible en lo mecanístico, pero sigue sin demostrarse en lo clínico.
+Un matiz importante: la trombólisis ya es una estrategia establecida en el infarto con elevación del ST en general. El infarto posteroinferior es probablemente un subtipo de un uso ya conocido y no un reposicionamiento genuino. El puntaje es solo una predicción computacional.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para infarto de miocardio posteroinferior.
 
 ---
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [16294818](https://pubmed.ncbi.nlm.nih.gov/16294818/) | 2005 | Cohorte | Archivos de Cardiología de México | Evalúa a corto plazo los resultados clínicos y angiográficos de la angioplastia coronaria de rescate en infarto agudo con falla de la trombólisis. No prueba alteplasa para este subtipo. |
+Actualmente no hay literatura relacionada disponible para esta indicación específica.
+
+### Otras indicaciones predichas con evidencia (contexto)
+
+Las siguientes predicciones secundarias sí cuentan con algo de evidencia, aunque mayormente indirecta:
+
+| Indicación | Puntaje TxGNN | Nivel | Evidencia disponible |
+|------|------|------|---------|
+| Infarto de miocardio septal | 99.77% | L4 | 3 publicaciones: un estudio de 1996 sobre función ventricular izquierda tras trombólisis tardía con alteplasa ([8763515](https://pubmed.ncbi.nlm.nih.gov/8763515/)), un reporte de caso de 2023 ([37754803](https://pubmed.ncbi.nlm.nih.gov/37754803/)) y una cohorte de 2025 ([40281444](https://pubmed.ncbi.nlm.nih.gov/40281444/)). Indirecta, no específica del subtipo |
+| Trombofilia | 99.43% | L2 | 1 ensayo Fase 2 en reclutamiento ([NCT05540834](https://clinicaltrials.gov/study/NCT05540834), 70 participantes, tPA guiado por pruebas viscoelásticas en insuficiencia respiratoria aguda protrombótica) y numerosos reportes de caso |
+| Estenosis coronaria | 99.14% | L2 | Sin ensayos registrados. Incluye un ensayo aleatorizado doble ciego de alteplasa vs. placebo en dolor torácico en reposo ([8299637](https://pubmed.ncbi.nlm.nih.gov/8299637/), 1993) y un estudio en angina inestable ([8721695](https://pubmed.ncbi.nlm.nih.gov/8721695/), 1996) |
 
 ---
 
@@ -81,15 +88,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 33103 | ACTILYSE 50 MG (Boehringer Ingelheim International GmbH) | Polvo liofilizado para reconstituir a solución inyectable | Solo figura el nombre "ALTEPLASE"; el texto de indicación no está detallado |
-
-Los 4 registros del paquete corresponden al mismo número sanitario y se muestran una sola vez.
+| 33103 (cancelado) | ACTILYSE 50 MG (Boehringer Ingelheim International GmbH) | Polvo liofilizado para reconstituir a solución inyectable | ALTEPLASE |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados. Debe consultarse el prospecto para esa información. Tampoco se identificaron contraindicaciones en el grafo de conocimiento.
+
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Entre las revisadas:
+  - **Mayores**: abciximab, fondaparinux, apixabán, acalabrutinib, anisindiona, deferasirox, ibritumomab tiuxetán y tositumomab. En su mayoría implican un riesgo aditivo de sangrado.
+  - **Moderadas**: ácido acetilsalicílico, ibuprofeno, ketorolaco, fluvoxamina, fosinopril, ácido aminocaproico, aprotinina, fenfluramina, dexfenfluramina y sibutramina.
+- Por su mecanismo, el sangrado es el riesgo central a vigilar, sobre todo en combinación con anticoagulantes y antiagregantes.
 
 ---
 
@@ -98,13 +108,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la única publicación es un estudio de cohorte indirecto, que no prueba alteplasa en este subtipo de infarto. El puntaje alto del modelo (99.79%) no compensa la falta de evidencia directa. Tampoco hay datos de seguridad ni de indicación original con los que avanzar.
+La predicción para el infarto posteroinferior carece de ensayos y literatura específicos (L5). Además, probablemente corresponde a un subtipo de un uso ya establecido de la trombólisis, y no a un reposicionamiento real. El único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (indicaciones aprobadas, advertencias y contraindicaciones)
-- Completar los datos de mecanismo de acción desde DrugBank
-- Buscar estudios que evalúen alteplasa directamente en infarto posteroinferior, idealmente ensayos de fase 2/3
-- Revisar si esta indicación ya está cubierta por el uso aprobado en infarto agudo de miocardio, lo que cambiaría el enfoque del reposicionamiento
+- Aclarar si esta indicación aporta algo más allá de la trombólisis ya establecida en infarto con elevación del ST.
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, ya que su ausencia impide el análisis de seguridad.
+- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Confirmar la situación regulatoria vigente de alteplasa en Colombia (registro cancelado) y la disponibilidad de otros productos.
+- Si se busca una línea con más potencial, evaluar la trombofilia (ensayo Fase 2 NCT05540834 en curso) o la estenosis coronaria, siempre con atención al riesgo de sangrado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

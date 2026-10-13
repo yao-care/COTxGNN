@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Cyanocobalamin
-parent: Evidencia Moderada (L3-L4)
-nav_order: 142
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 182
+evidence_level: L5
 indication_count: 1
 ---
 
 # Cyanocobalamin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,70 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Cianocobalamina: De Multivitaminas y Minerales (Combinaciones) a Enfermedad Metabólica de la Biotina
+# Cianocobalamina: De Multivitamínicos / Complejo B a Enfermedad Metabólica de la Biotina
 
 ## Resumen en Una Frase
 
-La cianocobalamina (vitamina B12) se comercializa en Colombia principalmente como componente de productos multivitamínicos y de minerales.
+La cianocobalamina (vitamina B12) se comercializó en Colombia dentro de productos multivitamínicos y de complejo B.
 El modelo TxGNN predice que podría ser efectiva para la **enfermedad metabólica de la biotina**,
-pero los **16 ensayos clínicos** y **20 publicaciones** encontrados no demuestran esta indicación de forma directa. Solo aportan contexto indirecto sobre vitaminas y errores innatos del metabolismo.
+pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicación** de carácter general (una revisión sobre producción biotecnológica de vitaminas), por lo que la evidencia es únicamente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | Multivitaminas y otros minerales, incluidas combinaciones |
-| Nueva Indicación Predicha | Enfermedad metabólica de la biotina (biotin metabolic disease) |
+| Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 99.60% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la cianocobalamina es un cofactor vitamínico y se usa en Colombia sobre todo dentro de combinaciones multivitamínicas. Mecanísticamente podría relacionarse con la enfermedad metabólica de la biotina por la vecindad bioquímica entre ambas vitaminas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la cianocobalamina es una forma de vitamina B12, cofactor de la metionina sintasa y de la metilmalonil-CoA mutasa. Su uso se ha dado en productos multivitamínicos y de complejo B.
 
-La conexión es indirecta. La biotina y la cobalamina participan en la degradación del propionato y de aminoácidos de cadena ramificada. La propionil-CoA carboxilasa, dependiente de biotina, produce metilmalonil-CoA. Esta molécula es convertida después por la metilmalonil-CoA mutasa, que depende de adenosilcobalamina. Por eso las revisiones sobre trastornos sensibles a vitaminas suelen agrupar cobalamina, folato y biotina.
+La biotina, por su parte, es cofactor de carboxilasas (como la propionil-CoA carboxilasa y la piruvato carboxilasa). Ambas vitaminas participan en rutas relacionadas, como el metabolismo del propionato y del metilmalonato, lo que podría explicar la asociación detectada por el modelo basado en grafos de conocimiento.
 
-Sin embargo, ninguna fuente muestra que la cianocobalamina corrija un defecto primario de biotina, como la deficiencia de biotinidasa o de holocarboxilasa sintetasa. En esos casos el tratamiento establecido es la propia biotina. El puntaje tan alto (99.60%) probablemente refleja la similitud entre vitaminas y las vías compartidas dentro del grafo de conocimiento, y no una eficacia validada.
+Sin embargo, esta relación es una inferencia computacional por cercanía de rutas y no está validada clínicamente. La vitamina B12 no corrige la deficiencia de biotinidasa ni la de holocarboxilasa sintetasa, cuyo tratamiento estándar es la suplementación con biotina. Por ello, la plausibilidad mecanística es limitada.
 
 ## Evidencia de Ensayos Clínicos
 
-Ningún ensayo evalúa la cianocobalamina en enfermedad metabólica de la biotina. Los siguientes son los más cercanos, en su mayoría estudios de suplementación con vitaminas o micronutrientes.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01173315](https://clinicaltrials.gov/study/NCT01173315) | Fase 2 | Completado | 75 | Suplementación de vitaminas y minerales sobre neuropatía y nefropatía en diabetes tipo 2. Es el más cercano a un ensayo de combinación vitamínica, pero la población y los desenlaces no coinciden con la indicación predicha. |
-| [NCT02426775](https://clinicaltrials.gov/study/NCT02426775) | Fase 3 | Completado | 33 | Ácido carglúmico (Carbaglu®) en acidemia propiónica o metilmalónica. No evalúa cobalamina, pero es un ensayo en trastornos metabólicos afines. |
-| [NCT01643187](https://clinicaltrials.gov/study/NCT01643187) | Fase 2 | Desconocido | 1000 | Alimento fortificado frente a leche sobre el estado de micronutrientes (incluida vitamina B12) en niños desnutridos. |
-| [NCT07592897](https://clinicaltrials.gov/study/NCT07592897) | Fase 4 | Aún no reclutando | 50 | Complejo vitamínico B en la recuperación de la parestesia del nervio alveolar inferior. Sin resultados. |
-| [NCT04312152](https://clinicaltrials.gov/study/NCT04312152) | No aplica | Desconocido | 200 | Terapia de soporte metabólico (Q10 ubiquinol con complejo de vitaminas B y E) en autismo y síndrome de Phelan-McDermid. El efecto de la cobalamina no se puede aislar. |
-| [NCT03360435](https://clinicaltrials.gov/study/NCT03360435) | No aplica | Completado | 99 | Absorción de vitaminas por parche transdérmico tras cirugía bariátrica. Relación solo tangencial. |
-| [NCT05832190](https://clinicaltrials.gov/study/NCT05832190) | No aplica | Terminado | 5 | Fibra más biotina para mejorar la microbiota antes de cirugía bariátrica. Terminado con 5 participantes, sin relación con cobalamina. |
-| [NCT03444155](https://clinicaltrials.gov/study/NCT03444155) | No aplica | Completado | 30 | Estudio piloto cruzado de complejos de vitamina B naturales frente a sintéticos, sobre biodisponibilidad. |
-| [NCT01474486](https://clinicaltrials.gov/study/NCT01474486) | No aplica | Completado | 40 | Intervención con multimicronutrientes en insuficiencia cardíaca congestiva. |
-| [NCT02302729](https://clinicaltrials.gov/study/NCT02302729) | No aplica | Completado | 1730 | Polvo de micronutrientes frente a placebo en niños con desnutrición crónica en Guatemala. Sin vínculo con la biotina. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-No se encontraron ensayos controlados aleatorizados. La literatura es principalmente de revisión y de contexto, y ninguna publicación prueba el efecto de la cianocobalamina en una enfermedad metabólica de la biotina.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23622402](https://pubmed.ncbi.nlm.nih.gov/23622402/) | 2013 | Revisión | Handbook of Clinical Neurology | Trastornos sensibles a vitaminas (cobalamina, folato, biotina, B1 y E). Describe errores innatos del transporte y metabolismo de estas vitaminas. Es la fuente más cercana a la hipótesis. |
-| [38203763](https://pubmed.ncbi.nlm.nih.gov/38203763/) | 2024 | Revisión | Int J Mol Sci | Deficiencia de B12 y sistema nervioso. Menciona la síntesis de succinil-CoA a partir de metilmalonil-CoA y biotina, y sus mecanismos moleculares. |
-| [1909779](https://pubmed.ncbi.nlm.nih.gov/1909779/) | 1991 | Estudio clínico metabólico (sin clasificar) | Pediatric Research | Metabolismo del propionato marcado con 13C en pacientes con acidemia propiónica, acidemia metilmalónica (algunos respondedores a B12) y deficiencia múltiple de carboxilasas. |
-| [958746](https://pubmed.ncbi.nlm.nih.gov/958746/) | 1976 | Revisión | Pediatric Clinics of North America | Aminoacidopatías que responden a megadosis de vitaminas del complejo B como cofactores enzimáticos. Recomienda ensayos terapéuticos por la seguridad de estos compuestos. |
-| [6152513](https://pubmed.ncbi.nlm.nih.gov/6152513/) | 1983 | Sin clasificar (sin resumen) | Advances in Clinical Chemistry | Errores innatos del metabolismo sensibles a vitaminas. Solo se dispone del título. |
-| [7027768](https://pubmed.ncbi.nlm.nih.gov/7027768/) | 1981 | Revisión | Acta Vitaminologica et Enzymologica | Vitaminas en enfermedades metabólicas: malabsorción, errores del metabolismo vitamínico y síndromes dependientes de vitaminas. |
-| [11031989](https://pubmed.ncbi.nlm.nih.gov/11031989/) | 2000 | Revisión (sin resumen) | Ryoikibetsu Shokogun Shirizu | Síndrome de dependencia de vitaminas. Solo se dispone del título. |
-| [25388747](https://pubmed.ncbi.nlm.nih.gov/25388747/) | 2015 | Revisión | Endocr Metab Immune Disord Drug Targets | Vitaminas y diabetes tipo 2, con mención de niveles de tiamina, piridoxina y biotina. |
-| [36476407](https://pubmed.ncbi.nlm.nih.gov/36476407/) | 2023 | Modelo animal (sin clasificar) | J Endocrinol | La deficiencia de B12 en ratas hembra produce intolerancia a la glucosa y cetogénesis. |
-| [41692080](https://pubmed.ncbi.nlm.nih.gov/41692080/) | 2026 | Revisión | Clinics in Dermatology | Papel de las vitaminas B en el metabolismo celular y la dermatología. Contexto general. |
+| [1368195](https://pubmed.ncbi.nlm.nih.gov/1368195/) | 1992 | Revisión | Journal of Chemical Technology and Biotechnology | Revisión sobre la producción biotecnológica de vitaminas, coenzimas y bioquímicos relacionados; no evalúa eficacia clínica en enfermedad metabólica de la biotina |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19908281 | SUPRAVITAL (PROCAPS S.A.) | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
-
-Los cinco registros listados en los datos corresponden al mismo número sanitario (19908281), por lo que se muestra una sola vez. El fármaco tiene 20 registros en total, y se encontraron presentaciones en cápsula blanda y solución inyectable.
+| 19908281 (cancelado) | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
+| 32856 (cancelado) | ANTIDOL B12® AMPOLLAS | Solución inyectable | Complejo B |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las analizadas, la mayoría son de nivel **menor**, principalmente con antiácidos y reductores de la acidez gástrica (famotidina, ranitidina, cimetidina, nizatidina, omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol), además de cloruro de potasio. Otras interacciones tienen nivel no clasificado, entre ellas metformina, glimepirida, acarbosa, rosiglitazona, morfina, mesalazina, doxiciclina y sucralfato.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto (99.60%), pero ningún ensayo ni publicación respalda directamente que la cianocobalamina sea útil en enfermedades metabólicas de la biotina, donde la biotina es el tratamiento establecido. El respaldo se limita a una relación bioquímica plausible (nivel L4), sin datos clínicos directos.
+La predicción se basa solo en el modelo (puntaje alto, pero sin ensayos clínicos y con una única revisión general sin relación directa). Además, el tratamiento estándar de los trastornos del metabolismo de la biotina es la biotina misma, y no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde fuentes curadas (por ejemplo, DrugBank) para contrastar el vínculo con la vía de la biotina.
-- Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para el tamizaje de seguridad.
-- Evidencia directa: estudios en pacientes con deficiencia de biotinidasa o de holocarboxilasa sintetasa, o en otros trastornos sensibles a vitaminas, que evalúen la cianocobalamina sola.
-- Definir la población objetivo y verificar la compatibilidad de las vías de administración.
+- Datos del mecanismo de acción de la cianocobalamina que sustenten el vínculo con el metabolismo de la biotina
+- Revisión sistemática de literatura específica sobre vitamina B12 y trastornos del metabolismo de la biotina
+- Prospecto con advertencias y contraindicaciones (INVIMA u otra fuente)
+- Verificación de la situación regulatoria actual, dado que ambos registros están cancelados
+- Evaluación de compatibilidad de vías de administración
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

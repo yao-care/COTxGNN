@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Acetylcysteine
-parent: Evidencia Alta (L1-L2)
-nav_order: 24
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 25
+evidence_level: L5
 indication_count: 10
 ---
 
 # Acetylcysteine
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,92 +29,121 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetilcisteína: De Mucolítico (indicación no detallada en el registro) a Enfermedad Trombótica
+# Acetilcisteína: De Acetilcisteína (mucolítico) a Enfermedad Trombótica
 
 ## Resumen en Una Frase
 
-La acetilcisteína (NAC) es un fármaco mucolítico y antioxidante comercializado en Colombia. Los registros sanitarios solo mencionan el principio activo y no detallan la indicación aprobada.
-El modelo TxGNN predice que podría ser efectiva para **enfermedad trombótica**, sobre todo en púrpura trombocitopénica trombótica (PTT) y microangiopatía trombótica asociada a trasplante (MAT-AT).
-Hay **10 ensayos clínicos** y **20 publicaciones** asociados a esta predicción. Solo un ensayo de Fase 3 está completado y no se aportaron resultados.
+La acetilcisteína (N-acetilcisteína, NAC) es un agente mucolítico y antioxidante, registrado en Colombia bajo la indicación genérica "acetilcisteína".
+El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótica**,
+con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, aunque la evidencia se concentra en microangiopatías trombóticas (PTT y TA-TMA) y no en trombosis en general.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada en el registro (el texto registrado es solo "Acetilcisteína"); uso conocido como mucolítico |
-| Nueva Indicación Predicha | Enfermedad trombótica (thrombotic disease) |
+| Indicación Original | Acetilcisteína (el registro no detalla la indicación clínica) |
+| Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Hold |
+| Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la acetilcisteína actúa como mucolítico rompiendo puentes disulfuro en el moco, y también como antioxidante que repone glutatión.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, la acetilcisteína es un tiol con acción mucolítica y antioxidante, y su uso en patología respiratoria está bien establecido.
 
-Esa misma capacidad de reducir puentes disulfuro es la base de la hipótesis trombótica. La NAC podría reducir los multímeros ultragrandes del factor de von Willebrand (VWF), disminuyendo su capacidad de unirse a plaquetas. Esto sería relevante en la PTT, donde la deficiencia de ADAMTS13 permite acumular esos multímeros y formar trombos microvasculares. Además, su efecto antioxidante podría reducir el daño endotelial, lo que apoya su uso en la MAT-AT.
+Mecanísticamente, el NAC puede reducir los puentes disulfuro del factor de von Willebrand (VWF), disminuyendo el tamaño de sus multímeros y su capacidad de unirse a las plaquetas. Esto está respaldado por modelos preclínicos en ratón y babuino de púrpura trombótica trombocitopénica (PTT). Además, su efecto antioxidante podría atenuar la lesión endotelial, relevante en la microangiopatía trombótica asociada a trasplante (TA-TMA).
 
-La relación con la indicación original es indirecta: no es la misma enfermedad, pero comparte el mecanismo bioquímico (acción sobre puentes disulfuro y estrés oxidativo). Hay respaldo preclínico en modelos de PTT en ratón y babuino, además de ensayos clínicos en humanos. La señal es más fuerte en PTT y MAT-AT que en otras condiciones trombóticas.
+Conviene precisar que la evidencia se concentra en microangiopatías trombóticas (PTT, TA-TMA) y en trombocitopenia inmune (PTI), y no en la trombosis en general. Existe un ensayo de Fase 3 completado, pero los datos disponibles no incluyen sus resultados, por lo que la eficacia no está confirmada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03252925](https://clinicaltrials.gov/study/NCT03252925) | Fase 3 | Completado | 170 | Seguridad y eficacia de NAC en MAT asociada a trasplante de progenitores hematopoyéticos. Evidencia directa, sin resultados disponibles |
-| [NCT05907486](https://clinicaltrials.gov/study/NCT05907486) | Fase 3 | Desconocido | 260 | NAC para prevenir eventos trombóticos tras trasplante alogénico de progenitores hematopoyéticos. Sin resultados |
-| [NCT07279610](https://clinicaltrials.gov/study/NCT07279610) | Fase 2/3 | Activo, sin reclutar | 44 | Estudio de un solo brazo de NAC como tratamiento de MAT-AT. Resultados aún no disponibles |
-| [NCT03636932](https://clinicaltrials.gov/study/NCT03636932) | Fase 2 | Completado | 40 | RENACTIF: ECA doble ciego cruzado de NAC para reducir el fenotipo trombótico en insuficiencia renal |
-| [NCT01808521](https://clinicaltrials.gov/study/NCT01808521) | Fase 1 temprana | Completado | 3 | Piloto de NAC intravenosa en sospecha de PTT en pacientes con plasmaféresis. Muestra muy pequeña, solo genera hipótesis |
-| [NCT03460808](https://clinicaltrials.gov/study/NCT03460808) | Fase 1/2 | Desconocido | 200 | Atorvastatina + NAC + danazol en trombocitopenia inmune (PTI) resistente o recidivante. Relevancia indirecta (trombocitopenia, no trombosis) |
-| [NCT04368598](https://clinicaltrials.gov/study/NCT04368598) | Fase 2 | Desconocido | 44 | Dexametasona a dosis altas + NAC en PTI recién diagnosticada. Relevancia indirecta |
-| [NCT06518044](https://clinicaltrials.gov/study/NCT06518044) | Fase 2 | Desconocido | 30 | NAC para favorecer la recuperación hematopoyética en anemia aplásica grave tras trasplante. No es indicación trombótica |
-| [NCT05551624](https://clinicaltrials.gov/study/NCT05551624) | Fase 1 temprana | Completado | 15 | Atorvastatina + NAC sobre el recuento plaquetario en PTI. Relevancia indirecta |
-| [NCT07662525](https://clinicaltrials.gov/study/NCT07662525) | No aplica | Aún sin reclutar | 50 | Atorvastatina + NAC + romiplostim en PTI resistente a corticoides. Relevancia indirecta |
+| [NCT03252925](https://clinicaltrials.gov/study/NCT03252925) | Fase 3 | Completado | 170 | NAC en microangiopatía trombótica asociada a trasplante (TA-TMA); sin resultados disponibles |
+| [NCT07279610](https://clinicaltrials.gov/study/NCT07279610) | Fase 2/3 | Activo, no recluta | 44 | NAC de un solo brazo en TA-TMA; sin resultados disponibles |
+| [NCT03636932](https://clinicaltrials.gov/study/NCT03636932) | Fase 2 | Completado | 40 | ECA doble ciego, cruzado: NAC para reducir el fenotipo trombótico en insuficiencia renal |
+| [NCT01808521](https://clinicaltrials.gov/study/NCT01808521) | Fase 1 temprana | Completado | 3 | Estudio piloto de NAC intravenoso en sospecha de PTT; muestra demasiado pequeña |
+| [NCT04368598](https://clinicaltrials.gov/study/NCT04368598) | Fase 2 | Desconocido | 44 | Dexametasona a dosis altas + NAC en trombocitopenia inmune (PTI) recién diagnosticada; relevancia indirecta |
+| [NCT03460808](https://clinicaltrials.gov/study/NCT03460808) | Fase 1/2 | Desconocido | 200 | Atorvastatina + NAC + danazol en PTI resistente o recaída; relevancia indirecta |
+| [NCT05551624](https://clinicaltrials.gov/study/NCT05551624) | Fase 1 temprana | Completado | 15 | Atorvastatina + NAC sobre el recuento plaquetario en PTI; relevancia indirecta |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35940529](https://pubmed.ncbi.nlm.nih.gov/35940529/) | 2022 | ECA | Transplant Cell Ther | Ensayo abierto, aleatorizado y controlado con placebo de NAC como profilaxis de MAT-AT tras trasplante (Soochow). El resumen disponible no incluye los resultados |
-| [41977015](https://pubmed.ncbi.nlm.nih.gov/41977015/) | 2026 | Revisión sistemática | J Clin Med | Revisión sistemática y valoración crítica de la NAC en PTT refractaria o recidivante |
-| [42338865](https://pubmed.ncbi.nlm.nih.gov/42338865/) | 2026 | Revisión sistemática | Cureus | La NAC se ha explorado como terapia adyuvante en PTT por su capacidad de reducir puentes disulfuro |
-| [37311880](https://pubmed.ncbi.nlm.nih.gov/37311880/) | 2023 | Cohorte | Ann Hematol | Cohorte retrospectiva sobre la asociación entre NAC y mortalidad hospitalaria en PTT adquirida. Su uso sigue siendo controvertido |
-| [28011677](https://pubmed.ncbi.nlm.nih.gov/28011677/) | 2017 | Preclínico | Blood | NAC en modelos de PTT en ratón y babuino, que respaldan el mecanismo sobre el VWF |
-| [32243196](https://pubmed.ncbi.nlm.nih.gov/32243196/) | 2020 | Revisión | Expert Rev Hematol | Fármacos reposicionados y nuevos agentes en PTT, entre ellos la NAC junto a rituximab, bortezomib y caplacizumab |
-| [33540569](https://pubmed.ncbi.nlm.nih.gov/33540569/) | 2021 | Revisión | J Clin Med | Fisiopatología, diagnóstico y manejo de la PTT (contexto de la enfermedad) |
-| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Revisión | Blood | Revisión general de la PTT y su relación con la deficiencia de ADAMTS13 |
-| [39737637](https://pubmed.ncbi.nlm.nih.gov/39737637/) | 2025 | Reporte de caso | J Pediatr Hematol Oncol | Caso de PTT congénita con insuficiencia renal aguda tratado con plasmaféresis y NAC |
-| [28961512](https://pubmed.ncbi.nlm.nih.gov/28961512/) | 2018 | Preclínico | Redox Biol | En diabetes, la NAC atenúa la activación plaquetaria sistémica y la trombosis de vasos cerebrales |
+| [41977015](https://pubmed.ncbi.nlm.nih.gov/41977015/) | 2026 | Revisión sistemática | J Clin Med | Revisión sistemática y análisis crítico del NAC en PTT |
+| [42338865](https://pubmed.ncbi.nlm.nih.gov/42338865/) | 2026 | Revisión sistemática | Cureus | NAC como terapia adyuvante en PTT, recaída y enfermedad refractaria |
+| [37311880](https://pubmed.ncbi.nlm.nih.gov/37311880/) | 2023 | Cohorte retrospectiva | Ann Hematol | Asociación entre NAC y mortalidad hospitalaria en PTT adquirida; su uso sigue siendo controvertido |
+| [28011677](https://pubmed.ncbi.nlm.nih.gov/28011677/) | 2017 | Preclínico (ratón/babuino) | Blood | NAC en modelos animales de PTT |
+| [32243196](https://pubmed.ncbi.nlm.nih.gov/32243196/) | 2020 | Revisión | Expert Rev Hematol | Fármacos reposicionados y nuevos agentes en PTT, incluido el NAC |
+| [28416507](https://pubmed.ncbi.nlm.nih.gov/28416507/) | 2017 | Revisión | Blood | Visión general de la PTT y su fisiopatología |
+| [33540569](https://pubmed.ncbi.nlm.nih.gov/33540569/) | 2021 | Revisión | J Clin Med | Fisiopatología, diagnóstico y manejo de la PTT |
+| [36410267](https://pubmed.ncbi.nlm.nih.gov/36410267/) | 2022 | Revisión | J Infect Public Health | NAC en COVID-19, con estado protrombótico y estrés oxidativo |
+| [32614622](https://pubmed.ncbi.nlm.nih.gov/32614622/) | 2021 | Revisión | Platelets | Estrategias antiplaquetarias dirigidas a VWF y GPIb |
+| [34448938](https://pubmed.ncbi.nlm.nih.gov/34448938/) | 2021 | Revisión | Lung | Uso de tioles en COVID-19 |
+
+---
 
 ## Información de Mercado en Colombia
 
-El paquete lista 20 registros sanitarios. Los datos entregados incluyen entradas repetidas de solo 2 registros únicos, que se muestran a continuación. También hay una forma en jarabe en las formas farmacéuticas registradas.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19970253 | Rinofluimucil® Solución Nasal | Solución nasal | Acetilcisteína (el registro no detalla la indicación) |
-| 20094856 | Fluiq® 600 mg | Polvo | Acetilcisteína (el registro no detalla la indicación) |
+| 19970253 | Rinofluimucil® solución nasal (Zambon Colombia) | Solución nasal | Acetilcisteína (cancelado) |
+| 20094856 | Fluiq® 600 mg (Eurofarma Colombia) | Polvo | Acetilcisteína (cancelado) |
+| 19904497 | Fluimucil® 2% (Zambon Colombia) | Jarabe | Acetilcisteína (cancelado) |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con contraindicación según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no texto de prospecto): úlcera péptica, trastorno hipotensivo, insuficiencia respiratoria, asma, enfermedad bronquial y várices esofágicas.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales con nivel clasificado:
+  - Insulina humana inhalada de acción rápida: **moderada**.
+  - Carbón activado: **leve**.
+  - Otras (manitol, bupropión, calcitriol, pantoprazol, glimepirida, doxiciclina, morfina, metformina, omeprazol, sucralfato, entre otras): nivel no clasificado.
+
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto oficial.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La señal es prometedora en PTT y MAT-AT, con un ensayo de Fase 3 completado, otro de Fase 2/3 en curso y respaldo preclínico. Sin embargo, no hay resultados publicados de esos ensayos y falta la información de seguridad del prospecto, lo que bloquea el tamizaje de seguridad. Por ello, por ahora es una pregunta de investigación y no una recomendación de uso.
+Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso en TA-TMA, además de revisiones sistemáticas en PTT y respaldo preclínico del mecanismo. Sin embargo, no se dispone de resultados publicados de los ensayos, la evidencia se limita a microangiopatías trombóticas y el nivel L1 requiere ≥2 ECA de Fase 3 completados, criterio que los datos disponibles no cumplen estrictamente (solo hay un ensayo de Fase 3 completado), por lo que el nivel real podría ser inferior. Además, los tres registros sanitarios colombianos están cancelados.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Obtener los resultados de NCT03252925, del ECA de PMID 35940529 y de NCT07279610.
-- Confirmar la vía de administración: los estudios en PTT usaron NAC intravenosa, y en los datos de Colombia solo aparecen solución nasal, polvo y jarabe.
-- Consultar los datos de mecanismo de acción en DrugBank para completar el análisis mecanístico.
-- Definir la población objetivo (PTT frente a MAT-AT frente a prevención de trombosis) antes de un estudio piloto local.
+- Obtener los resultados del ensayo NCT03252925 y del NCT07279610.
+- Confirmar el nivel de evidencia con los resultados reales de los ensayos.
+- Delimitar la indicación a microangiopatías trombóticas (PTT, TA-TMA) en lugar de enfermedad trombótica en general.
+- Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones (brecha de seguridad bloqueante).
+- Consultar el mecanismo de acción en DrugBank.
+- Evaluar la situación regulatoria en Colombia, dado que no hay registros vigentes.
+- Plan de monitoreo de seguridad, considerando las enfermedades con contraindicación en el grafo (asma, enfermedad bronquial, úlcera péptica, hipotensión, várices esofágicas).
 
-*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+---
+
+### Otras indicaciones predichas (referencia)
+
+| Indicación | Puntaje TxGNN | Nivel | Recomendación |
+|------|------|------|------|
+| Síndrome de ojo seco | 99.87% | L2 | Proceed with Guardrails (mayor respaldo para la formulación de quitosano-NAC; sin ensayo de Fase 3) |
+| Enfermedad de la cavidad nasal | 99.92% | L4 | Hold |
+| Faringitis | 99.80% | L4 | Hold |
+| Enfermedad traqueal | 99.57% | L4 | Hold |
+| Ataque isquémico transitorio | 99.53% | L4 | Hold |
+| Glaucoma de ángulo cerrado, laringofaringitis aguda, laringotraqueítis | — | L5 | Hold (sin ensayos ni literatura) |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

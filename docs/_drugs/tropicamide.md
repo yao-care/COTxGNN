@@ -2,7 +2,7 @@
 layout: default
 title: Tropicamide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 399
+nav_order: 648
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,15 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tropicamida: De Midriasis Oftálmica a Síndrome de Cauda Equina
-
----
+# Tropicamida: De Combinaciones de Tropicamida (Oftalmología) a Síndrome de la Cola de Caballo
 
 ## Resumen en Una Frase
 
-Tropicamida es un anticolinérgico de uso oftálmico tópico, utilizado originalmente como midriático de acción corta para examinar el cristalino, el humor vítreo y la retina.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de cauda equina**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+Tropicamida es un anticolinérgico de uso oftálmico tópico, registrado en Colombia en combinaciones de tropicamida y fenilefrina para dilatar la pupila (midriasis).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola de caballo**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
 
 ---
 
@@ -45,23 +42,30 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tropicamida en combinaciones (midriático oftálmico) |
-| Nueva Indicación Predicha | Síndrome de cauda equina |
+| Indicación Original | Tropicamida en combinaciones (solución oftálmica) |
+| Nueva Indicación Predicha | Síndrome de la cola de caballo |
 | Puntaje de Predicción TxGNN | 99.53% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Tropicamida es un antagonista muscarínico. Según los datos de farmacología disponibles, actúa sobre los receptores muscarínicos M2, M3, M4 y M5. Se usa en forma de solución oftálmica para dilatar la pupila durante exámenes del ojo. No se dispone de una descripción detallada del mecanismo de acción en el registro; lo anterior se basa en sus dianas farmacológicas conocidas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la tropicamida es un antagonista muscarínico (anticolinérgico). Los datos farmacológicos la vinculan con los receptores muscarínicos M2, M3, M4 y M5, y se usa como midriático de acción corta para examinar el cristalino, el humor vítreo y la retina.
 
-La relación con el síndrome de cauda equina es solo indirecta. Los antimuscarínicos pueden reducir la hiperactividad del detrusor en la disfunción vesical neurogénica que sigue a este síndrome, y por eso el modelo pudo asociar el fármaco con la enfermedad. Sin embargo, el síndrome de cauda equina es una urgencia quirúrgica por compresión nerviosa. Aliviar síntomas no resolvería la enfermedad de fondo.
+El síndrome de la cola de caballo se produce por la compresión de las raíces nerviosas y causa disfunción de vejiga, intestino y sensibilidad. Un anticolinérgico podría, en teoría, actuar sobre la hiperactividad del detrusor, pero no trata la causa de fondo, que requiere descompresión quirúrgica. El puntaje alto (0.995) probablemente refleja cercanía en el grafo de conocimiento por síntomas vesicales o intestinales neurogénicos compartidos, y no un efecto terapéutico demostrado.
 
-Además, la tropicamida oftálmica tiene una exposición sistémica mínima, por lo que no hay una vía plausible para llegar al efecto buscado. El puntaje alto (99.53%) puede reflejar una asociación general con la clase anticolinérgica y no un efecto específico de la tropicamida. Este razonamiento se apoya en farmacología general, no en datos propios del registro.
+Además, el fármaco solo está aprobado en forma oftálmica, con exposición sistémica mínima, por lo que no existe una vía de administración plausible para esta indicación.
+
+### Otras predicciones del modelo (todas con evidencia L5 y decisión Hold)
+
+| Posición | Indicación Predicha | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Vejiga neurogénica (término obsoleto en la ontología) | 99.13% | El antagonismo muscarínico es un mecanismo establecido (como oxibutinina o tolterodina), pero la tropicamida no tiene estudios para este uso y existen alternativas aprobadas y mejor estudiadas. |
+| 3 | Síndrome del intestino irritable | 99.12% | Los antiespasmódicos antimuscarínicos se usan en este síndrome, pero los efectos anticolinérgicos (estreñimiento, boca seca, taquicardia) podrían empeorar los síntomas. |
 
 ---
 
@@ -79,17 +83,28 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Se reportan 20 registros sanitarios en total. Los cinco primeros del listado corresponden al mismo registro, por lo que se muestra una sola vez:
+Los tres registros sanitarios están cancelados; no hay productos vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20069775 | T-P OFTENO (Laboratorios Sophia S.A. de C.V.) | Solución oftálmica | Tropicamida combinaciones |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20069775 | T-P OFTENO | Solución oftálmica | Tropicamida combinaciones | Cancelado |
+| 20215215 | FOTORRETIN® Solución Oftálmica Estéril | Solución oftálmica | Fenilefrina combinaciones | Cancelado |
+| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento TxGNN (PrimeKG) asocia la tropicamida con las siguientes enfermedades:
+  - Glaucoma de ángulo abierto, glaucoma de ángulo cerrado e hipertensión ocular
+  - Hipertensión y trastorno hipertensivo
+  - Diabetes mellitus y cetoacidosis diabética
+  - Paro cardíaco súbito, enfermedad de la conducción cardíaca, isquemia miocárdica y enfermedad arterial coronaria
+  - Hipertiroidismo, enfermedad de Graves y tirotoxicosis
+- **Interacciones farmacológicas:** la consulta se completó y reportó 4 registros, todos de farmacología de receptores (no interacciones con otros fármacos): unión a los receptores muscarínicos M2, M3, M4 y M5. No se identificaron interacciones con otros medicamentos.
+- **Consideración adicional:** el uso sistémico implicaría los efectos adversos anticolinérgicos típicos (boca seca, estreñimiento, taquicardia), relevantes para varias de las condiciones listadas.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado.
 
 ---
 
@@ -98,17 +113,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos ni literatura (nivel L5). Además, la tropicamida oftálmica no alcanza una exposición sistémica relevante, y el síndrome de cauda equina requiere tratamiento quirúrgico urgente, no sintomático.
-
-Las otras dos predicciones (vejiga neurogénica e intestino irritable) también quedan en Hold por las mismas razones: no hay evidencia y ya existen antimuscarínicos orales establecidos.
+La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco solo existe en forma oftálmica, sin registros vigentes en Colombia, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
 
 **Para avanzar se necesita:**
-- Datos formales del mecanismo de acción y de la exposición sistémica tras la administración oftálmica.
-- Prospecto de INVIMA con advertencias y contraindicaciones, para poder hacer el tamizaje de seguridad.
-- Para la predicción de vejiga neurogénica, remapear el término obsoleto de la ontología a uno vigente (por ejemplo, hiperactividad neurogénica del detrusor) antes de reevaluar.
-- Estudios preclínicos o de farmacocinética que justifiquen una vía de administración distinta a la oftálmica.
-
-*Los resultados de este informe son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Datos del mecanismo de acción (consulta a la API de DrugBank).
+- Advertencias y contraindicaciones del prospecto en INVIMA (descargar y analizar el PDF).
+- Evidencia preclínica o clínica que respalde un efecto sobre la función vesical o intestinal neurogénica.
+- Una formulación sistémica con estudios farmacocinéticos y de seguridad, si se decidiera continuar.
+- Comparación con alternativas ya aprobadas (oxibutinina, tolterodina) para las indicaciones de vejiga neurogénica y síndrome del intestino irritable.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

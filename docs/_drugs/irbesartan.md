@@ -2,7 +2,7 @@
 layout: default
 title: Irbesartan
 parent: Solo Predicción del Modelo (L5)
-nav_order: 230
+nav_order: 355
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,72 +29,106 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Irbesartán: De Indicación No Especificada en el Registro a Enfermedad Renal Hipertensiva Maligna
+# Irbesartán: De Irbesartán (indicación sin detallar) a Hipertensión Renal Maligna
 
 ## Resumen en Una Frase
 
-Irbesartán está comercializado en Colombia, pero el registro sanitario solo indica el nombre del principio activo y no declara una indicación original en texto.
-El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipertensiva maligna**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Irbesartán es un antagonista del receptor de angiotensina II tipo 1 (AT1), registrado en Colombia bajo el nombre de su principio activo, sin que el registro detalle la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, con un puntaje muy alto, pero **sin ensayos clínicos ni publicaciones** que respalden específicamente esta indicación.
+La predicción se apoya solo en el modelo computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo dice "IRBESARTAN") |
+| Indicación Original | IRBESARTAN (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 99.31% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Como conocimiento farmacológico general (no como evidencia de los datos suministrados), el irbesartán es un bloqueador del receptor de angiotensina II tipo 1 (ARA-II). Este tipo de fármaco reduce la presión arterial y la presión dentro de los glomérulos del riñón.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, irbesartán es un antagonista selectivo del receptor AT1 de angiotensina II, con efectos antihipertensivos y renoprotectores establecidos.
 
-Desde ese punto de vista, un vínculo con el daño renal causado por la hipertensión es biológicamente plausible. Sin embargo, el puntaje de TxGNN (0.993) es solo una predicción, y no hay estudios que la confirmen.
+El bloqueo del sistema renina-angiotensina es biológicamente plausible en el daño renal de origen hipertensivo, y esto explica la cercanía entre el uso original del fármaco y la nueva indicación, reflejada en el puntaje alto del modelo (0.993).
 
-Además, la hipertensión maligna es una emergencia hipertensiva que normalmente se maneja con fármacos intravenosos de dosis ajustable. Un ARA-II oral no sería tratamiento de primera línea para la fase aguda. Un posible uso tendría que ser complementario o de control a largo plazo, y eso requeriría estudios específicos.
+Sin embargo, la hipertensión maligna es una emergencia aguda que normalmente se maneja con fármacos parenterales de acción rápida, por lo que un ARA-II oral en monoterapia difícilmente sería el tratamiento principal. Esta predicción debe considerarse hipótesis computacional, no evidencia clínica.
+
+**Otras indicaciones predichas (para contexto):**
+
+| Indicación | Puntaje TxGNN | Nivel | Recomendación |
+|---|---|---|---|
+| Hipertensión renovascular maligna | 99.31% | L5 | Hold |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.25% | L4 | Pregunta de investigación |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.25% | L5 | Hold |
+
+La hipertensión pulmonar asociada a hipoxia es la que cuenta con más literatura mecanística (ver más abajo), aunque exclusivamente preclínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para la indicación principal (enfermedad renal hipertensiva maligna), ni para las demás indicaciones predichas.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal no hay literatura disponible. La siguiente tabla corresponde a la literatura de la indicación de rango 3 (hipertensión pulmonar por enfermedad pulmonar/hipoxia), la única con publicaciones. Se omiten los trabajos ajenos al irbesartán (extractos herbales, reporte de caso de roxadustat).
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [35288835](https://pubmed.ncbi.nlm.nih.gov/35288835/) | 2022 | Revisión | Inflammopharmacology | Efectos pleiotrópicos de los antagonistas AT1 en hipoxia por isquemia cardíaca |
+| [30356256](https://pubmed.ncbi.nlm.nih.gov/30356256/) | 2018 | Preclínico (in vitro) | PLoS One | Irbesartán protege a cardiomiocitos bajo estrés hipóxico |
+| [34626328](https://pubmed.ncbi.nlm.nih.gov/34626328/) | 2022 | Preclínico (animal) | Sleep & Breathing | Irbesartán atenúa la apoptosis cardíaca inducida por apnea del sueño |
+| [17142340](https://pubmed.ncbi.nlm.nih.gov/17142340/) | 2007 | Preclínico (animal) | Am J Physiol Heart Circ Physiol | Irbesartán inhibe la angiogénesis coronaria estimulada por hipoxia intermitente en ratas neonatas |
+| [34147903](https://pubmed.ncbi.nlm.nih.gov/34147903/) | 2021 | Preclínico (animal) | Biomed Pharmacother | Irbesartán mejora el mal de montaña crónico en ratas mediante el metabolismo del colesterol |
+| [34286497](https://pubmed.ncbi.nlm.nih.gov/34286497/) | 2021 | Sin clasificar | Eur Rev Med Pharmacol Sci | Irbesartán mejora el estrés oxidativo en ratas con hipertensión pulmonar de altura, mediante la flora intestinal |
+| [15526904](https://pubmed.ncbi.nlm.nih.gov/15526904/) | 2004 | Preclínico (animal) | Renal Failure | Irbesartán reduce la nefrotoxicidad por ciclosporina |
+| [30525078](https://pubmed.ncbi.nlm.nih.gov/30525078/) | 2018 | Preclínico (animal) | Regenerative Therapy | El pretratamiento con un ARA-II anuló los beneficios de láminas de células madre tras infarto de miocardio |
+
+Ningún estudio evalúa directamente la presión arterial pulmonar en pacientes.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20048718 | CORIONAL® 300 MG TABLETAS RECUBIERTAS (CLOSTER PHARMA S.A.S.) | Tableta recubierta (vía oral) | IRBESARTAN (solo se indica el principio activo) |
+| 20048718 (cancelado) | CORIONAL® 300 MG TABLETAS RECUBIERTAS | Tableta recubierta | IRBESARTAN |
 
-Nota: el paquete de datos reporta 20 registros en total, pero las entradas disponibles corresponden todas al mismo registro sanitario, por lo que se muestra una sola vez.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** pancreatitis, angioedema (incluido el hereditario, el adquirido y el inducido por bloqueadores del sistema renina-angiotensina-aldosterona), lupus eritematoso sistémico, miopatía y enfermedades musculares, rabdomiólisis, diabetes mellitus y cetoacidosis diabética, hipotensión, hiperparatiroidismo, encefalopatía hepática, anuria, gota, hipercalcemia, nefrocalcinosis, obstrucción de la arteria renal y deficiencia de potasio, entre otras.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Las de nivel **mayor** más relevantes son con **citrato de potasio** y **bicarbonato de potasio** (riesgo de hiperpotasemia). Entre las de nivel moderado figuran corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina), insulinas, ácido acetilsalicílico, morfina y bupropión.
+- **Precaución específica:** en la hipertensión renovascular, los ARA-II pueden provocar deterioro agudo de la función renal en estenosis bilateral de arteria renal o en riñón único. Esto debe resolverse antes de cualquier consideración de reposicionamiento.
+
+No se dispone de advertencias del prospecto; consultar el prospecto para el resto de la información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni literatura específica sobre irbesartán en esta indicación (nivel L5). Además, la hipertensión maligna se trata normalmente con fármacos intravenosos, y faltan los datos de seguridad del prospecto.
-
-Las otras tres indicaciones predichas tampoco tienen respaldo suficiente:
-- **Hipertensión renovascular maligna:** Hold. Los ARA-II tienen un riesgo renal conocido en la estenosis bilateral de la arteria renal, por lo que la seguridad debe revisarse antes de avanzar.
-- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia:** Hold. Las 20 publicaciones recuperadas tratan de hipoxia en general y ninguna evalúa irbesartán ni otro ARA-II.
-- **Hipertensión pulmonar de mecanismo multifactorial poco claro:** Hold. No hay ningún dato aparte del puntaje.
+La predicción tiene un puntaje alto, pero es solo computacional (L5), sin ensayos clínicos ni literatura específica. Además, el fármaco no tiene registro vigente en Colombia y la hipertensión maligna se maneja habitualmente con terapia parenteral.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío de datos bloqueante.
-- Obtener el mecanismo de acción desde DrugBank (DB01029).
-- Hacer una búsqueda dirigida de literatura y ensayos sobre ARA-II en enfermedad renal hipertensiva maligna.
-- Confirmar cuál es la indicación aprobada del irbesartán en el registro colombiano, ya que el texto actual solo trae el nombre del fármaco.
-- Evaluar la compatibilidad de la vía de administración (oral) con el escenario clínico de una emergencia hipertensiva.
+- Datos del mecanismo de acción (MOA) desde DrugBank
+- Prospecto de INVIMA con advertencias y contraindicaciones, para la revisión de seguridad
+- Revisión sistemática de literatura clínica sobre ARA-II en hipertensión maligna y nefroesclerosis hipertensiva
+- Evaluación del estado regulatorio (registro cancelado) y de la compatibilidad de vía de administración
+- Si se desea priorizar una línea de investigación alternativa, explorar la hipertensión pulmonar asociada a hipoxia, que cuenta con evidencia preclínica (nivel L4), con estudios clínicos de seguridad y eficacia previos a cualquier decisión
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

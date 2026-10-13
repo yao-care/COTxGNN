@@ -2,7 +2,7 @@
 layout: default
 title: Baricitinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 78
+nav_order: 91
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,67 +29,64 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Baricitinib: De Indicación No Especificada en el Registro a Síndrome de Displasia Rizomélica con Microftalmia Colobomatosa
+# Baricitinib: De Indicación Original (BARICITINIB) a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
 
 ## Resumen en Una Frase
 
-Baricitinib se comercializa en Colombia como tableta recubierta (Olumiant), pero el registro sanitario solo consigna el nombre del principio activo y no una indicación original.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de displasia rizomélica con microftalmia colobomatosa**,
-sin **ningún ensayo clínico** ni **publicación** que respalde esta dirección; es una predicción puramente computacional.
+Baricitinib es un fármaco de administración oral registrado en Colombia (INVIMA) bajo el nombre comercial OLUMIANT, cuyo texto de indicación aprobada solo menciona el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa con displasia rizomélica**, con una puntuación muy alta (99,94 %).
+Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo dice "BARICITINIB") |
-| Nueva Indicación Predicha | Síndrome de displasia rizomélica con microftalmia colobomatosa |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Indicación Original | BARICITINIB (el registro no detalla una indicación clínica específica) |
+| Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa con displasia rizomélica |
+| Puntaje de Predicción TxGNN | 99,94 % |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos del mecanismo de acción no están disponibles en el Evidence Pack. En términos generales, baricitinib se conoce como inhibidor de JAK1/JAK2, pero esto no proviene de un MOA registrado en los datos recibidos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, baricitinib es un inhibidor de las quinasas JAK1 y JAK2, que modulan la señalización inflamatoria JAK-STAT.
 
-La enfermedad predicha es un síndrome raro del desarrollo con malformaciones oculares y esqueléticas. No se aportó ningún papel establecido de la vía JAK-STAT en su patogenia, por lo que **no hay un vínculo mecanístico sustentado por los datos**. El puntaje de 0.9994 es solo una salida del modelo y puede reflejar la topología del grafo de conocimiento más que una biología real. No debe leerse como respaldo clínico.
+No se identificó un vínculo biológico plausible entre esa inhibición y este síndrome raro del desarrollo. Este tipo de síndromes suele originarse en defectos genéticos del desarrollo o estructurales, y no en inflamación mediada por JAK-STAT. Por ello, la predicción probablemente sea un artefacto de la topología del grafo de conocimiento.
 
-También se predijo otra enfermedad: el **síndrome de braquidactilia-sindactilia** (puntaje 99.94%, también L5, Hold). Tampoco tiene ensayos ni literatura, y su vínculo con la inhibición de JAK1/JAK2 no está respaldado por los datos.
+La única base de apoyo es la puntuación elevada del modelo. Sin ensayos, literatura ni datos de mecanismo, la razonabilidad de la predicción no puede confirmarse.
 
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+*Nota: otra predicción del modelo (rango 2) es el síndrome de braquidactilia-sindactilia (puntuación 99,94 %). Tampoco tiene ensayos ni literatura, y no se identificó un vínculo mecanístico entre la inhibición de JAK1/JAK2 y esta malformación congénita de las extremidades. También se clasifica como L5 y Hold.*
 
 ## Información de Mercado en Colombia
 
-Se muestran los registros principales. Todos corresponden al registro sanitario 20157001 (Eli Lilly and Company), con presentaciones repetidas en los datos.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20157001 | Olumiant 2 mg | Tableta recubierta | Solo consta el nombre del principio activo (baricitinib) |
-| 20157001 | Olumiant 4 mg | Tableta recubierta | Solo consta el nombre del principio activo (baricitinib) |
+| 20157001 | OLUMIANT 2 MG (ELI LILLY AND COMPANY) | Tableta recubierta | BARICITINIB (estado: cancelado) |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+**Interacciones Farmacológicas** (100 interacciones registradas; se listan las principales):
+
+- **Gravedad mayor:** hidrocortisona, triamcinolona (incluida la oftálmica), betametasona, budesonida, dexametasona, prednisolona, prednisona, deferiprona, ibritumomab tiuxetán, iobenguano (I-131) y tositumomab (I-131).
+- **Gravedad moderada:** morfina (incluida la liposomal), ácido acetilsalicílico, nitisinona y opio.
+- **Gravedad menor:** acetato, gluconato y sulfato de zinc.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (L5), sin ensayos, literatura ni vínculo mecanístico plausible. Además, faltan datos de seguridad y del mecanismo de acción.
+La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción desde DrugBank y evaluar si la vía JAK-STAT se relaciona con la enfermedad predicha
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad
-- Aclarar la indicación original aprobada, ya que el registro solo muestra el nombre del fármaco
-- Someter las predicciones a revisión de expertos y buscar evidencia preclínica o de mecanismo antes de cualquier seguimiento
+- Datos detallados del mecanismo de acción (MOA) y análisis de su relación con la fisiopatología del síndrome.
+- Estudios preclínicos o literatura que sustenten un vínculo entre la vía JAK-STAT y este síndrome.
+- Advertencias y contraindicaciones del prospecto de INVIMA, para completar la evaluación de seguridad.
+- Aclarar la situación regulatoria (registro cancelado) y la indicación aprobada original.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

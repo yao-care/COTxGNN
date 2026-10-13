@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olaparib
-parent: Solo Predicción del Modelo (L5)
-nav_order: 303
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 480
+evidence_level: L1
 indication_count: 1
 ---
 
 # Olaparib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Olaparib: De Inhibidor de PARP (Indicación Original No Especificada en el Registro) a Carcinoma de Mama Femenino
+# Olaparib: De Indicación Original (OLAPARIB, sin texto detallado) a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-Olaparib es un inhibidor de PARP de administración oral, comercializado en Colombia como Lynparza® 150 mg (AstraZeneca). El registro sanitario solo consigna el nombre del principio activo, sin texto de indicación.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con un puntaje de **99.09%**.
-Lo respaldan **51 ensayos clínicos** registrados y **20 publicaciones**. La evidencia más sólida viene de los ensayos de Fase 3 OlympiA y OlympiAD, y el beneficio se limita a pacientes con mutaciones germinales BRCA1/2 y enfermedad HER2 negativa.
+Olaparib es un inhibidor de PARP comercializado en Colombia como Lynparza®; los registros sanitarios solo consignan "OLAPARIB" como indicación, sin detalle de la enfermedad aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **carcinoma de mama femenino**,
+con **30 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, incluidos ensayos de Fase 3 en cáncer de mama con mutación germinal de BRCA.
 
 ---
 
@@ -43,46 +43,44 @@ Lo respaldan **51 ensayos clínicos** registrados y **20 publicaciones**. La evi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro colombiano (el texto registrado solo dice «OLAPARIB») |
+| Indicación Original | OLAPARIB (el registro no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.09% |
-| Nivel de Evidencia | L1 (basado en la literatura de ECA de Fase 3; ver nota abajo) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Puntaje de Predicción TxGNN | 99,09 % |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
-
-> **Nota sobre el nivel L1:** los ensayos de Fase 3 listados con número NCT son en su mayoría de cáncer de ovario o estudios de extensión. La clasificación L1 se apoya principalmente en las publicaciones de los ECA de Fase 3 OlympiA y OlympiAD, no en los registros NCT.
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los campos suministrados. Según la literatura citada, olaparib inhibe PARP1/2 y atrapa la enzima PARP sobre el ADN. En tumores con mutaciones germinales en BRCA1/BRCA2, la reparación por recombinación homóloga está deficiente. Las roturas de cadena sencilla no reparadas se convierten en roturas de doble cadena en las horquillas de replicación, lo que produce letalidad sintética.
+Olaparib es un inhibidor de PARP (poli-ADP-ribosa polimerasa). Los datos compilados para este informe no incluyen el mecanismo de acción original, pero el mecanismo está bien caracterizado: en tumores con mutaciones germinales de BRCA1/2, la reparación por recombinación homóloga está deficiente. Al inhibir PARP, las roturas de cadena simple no se reparan y se convierten en roturas de doble cadena que la célula no puede corregir con precisión, lo que lleva a la muerte de la célula tumoral (letalidad sintética).
 
-Como BRCA1 y BRCA2 son genes de susceptibilidad al cáncer de mama y ovario, la vulnerabilidad que explota el fármaco existe también en los tumores de mama con esas mutaciones. Este mecanismo es coherente con el puntaje alto de TxGNN.
+Este mecanismo se aplica directamente al cáncer de mama con mutaciones de BRCA. Los estudios de Fase 3 OlympiAD (enfermedad metastásica) y OlympiA (tratamiento adyuvante) respaldan su uso en cáncer de mama HER2-negativo con mutación germinal de BRCA. Además, un estudio de Fase 2 (TBCRC 048) sugiere actividad en tumores con mutaciones en otros genes de recombinación homóloga, como PALB2.
 
-El beneficio está restringido por biomarcadores: mutación germinal BRCA1/2 y enfermedad HER2 negativa. No se ha demostrado para el cáncer de mama en general. Algunos estudios exploran poblaciones con deficiencia de recombinación homóloga (HRD) sin mutación germinal BRCA, con resultados aún preliminares.
+La evidencia es más sólida en la población con mutación de BRCA y **no debe extrapolarse al cáncer de mama no seleccionado**. Dado que la indicación original en Colombia solo figura como "OLAPARIB", la relación entre ambas indicaciones debe confirmarse con la documentación regulatoria vigente.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-De los 51 ensayos identificados, se listan los 10 con mayor relevancia para cáncer de mama.
+Se listan los ensayos más relevantes de los 30 identificados.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Fase 2 | Completado | 99 | Estudio no aleatorizado de olaparib (AZD2281) en cáncer de mama y ovario recurrente, con mutación BRCA o triple negativo. Evalúa tasa de respuesta y marcadores. Evidencia directa, pero sin grupo control |
-| [NCT05498155](https://clinicaltrials.gov/study/NCT05498155) | Fase 2 | Activo, sin reclutar | 50 | Olaparib solo o con durvalumab como terapia neoadyuvante en cáncer de mama temprano HER2 negativo con mutación BRCA |
-| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Fase 1 | Completado | 25 | Carboplatino-olaparib seguido de olaparib frente a capecitabina en cáncer de mama avanzado BRCA1/2, HER2 negativo, primera línea |
-| [NCT01116648](https://clinicaltrials.gov/study/NCT01116648) | Fase 1/2 | Activo, sin reclutar | 155 | Cediranib con olaparib frente a olaparib solo en cáncer de ovario recurrente o cáncer de mama triple negativo recurrente |
-| [NCT01445418](https://clinicaltrials.gov/study/NCT01445418) | Fase 1 | Completado | 103 | Olaparib con carboplatino en cáncer de mama y ovario con mutación BRCA1/2 o mama triple negativo esporádico |
+| [NCT00679783](https://clinicaltrials.gov/study/NCT00679783) | Fase 2 | Completado | 99 | Estudio abierto no aleatorizado de olaparib (AZD2281) en pacientes con mutación BRCA conocida o cáncer de mama triple negativo; prueba de concepto temprana |
+| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Fase 4 | Completado | 202 | Estudio prospectivo multicéntrico en India (cáncer de ovario sensible a platino y cáncer de mama metastásico con BRCA1/2 germinal); relevancia para mama por verificar |
+| [NCT01623349](https://clinicaltrials.gov/study/NCT01623349) | Fase 1 | Completado | 118 | Inhibidor de PI3K (BKM120 o BYL719) con olaparib en cáncer de mama triple negativo o de ovario seroso de alto grado recurrente; seguridad y dosis |
+| [NCT01237067](https://clinicaltrials.gov/study/NCT01237067) | Fase 1 | Completado | 77 | Estudio farmacocinético/farmacodinámico con olaparib y carboplatino en cánceres ginecológicos y de mama refractarios o recurrentes |
+| [NCT04683679](https://clinicaltrials.gov/study/NCT04683679) | Fase 2 | Reclutando | 34 | Pembrolizumab y radioterapia ablativa con o sin olaparib en cáncer de mama metastásico triple negativo o HR+/HER2-; sin resultados aún |
+| [NCT02684318](https://clinicaltrials.gov/study/NCT02684318) | Fase 1/2 | Desconocido | 100 | PM01183 (lurbinectedina) con olaparib en tumores sólidos avanzados; sin resultados publicados |
+| [NCT01116648](https://clinicaltrials.gov/study/NCT01116648) | Fase 1/2 | Activo, no recluta | 155 | Cediranib con olaparib frente a olaparib solo en cáncer de ovario o de mama triple negativo recurrente |
+| [NCT02418624](https://clinicaltrials.gov/study/NCT02418624) | Fase 1 | Completado | 25 | Carboplatino-olaparib seguido de olaparib frente a capecitabina en cáncer de mama avanzado HER2-negativo con BRCA1/2 mutado; fase I para definir dosis |
 | [NCT03109080](https://clinicaltrials.gov/study/NCT03109080) | Fase 1 | Completado | 24 | Olaparib con radioterapia en cáncer de mama triple negativo inflamatorio, localmente avanzado, metastásico o con enfermedad residual |
-| [NCT02208375](https://clinicaltrials.gov/study/NCT02208375) | Fase 1 | Activo, sin reclutar | 159 | Olaparib con vistusertib o capivasertib en cáncer recurrente de endometrio, mama triple negativo y ovario |
-| [NCT04330040](https://clinicaltrials.gov/study/NCT04330040) | Fase 4 | Completado | 202 | Estudio poscomercialización en India, en ovario platino-sensible y cáncer de mama metastásico con mutación germinal BRCA1/2 |
-| [NCT07187674](https://clinicaltrials.gov/study/NCT07187674) | N/A | Aún no reclutando | 20 | Estudio exploratorio de un solo brazo: QL1706 con olaparib y paclitaxel, neoadyuvante en cáncer de mama triple negativo HRD positivo |
-| [NCT05209529](https://clinicaltrials.gov/study/NCT05209529) | Fase 2 | Retirado | 0 | Olaparib con o sin durvalumab neoadyuvante en cáncer de mama triple negativo asociado a BRCA. Nunca inscribió pacientes |
+| [NCT07695259](https://clinicaltrials.gov/study/NCT07695259) | Fase 4 | Reclutando | 45 | Olaparib con trastuzumab y pertuzumab neoadyuvante en mujeres mayores con cáncer de mama HER2-positivo |
 
-Varios ensayos de Fase 3 listados (por ejemplo NCT02282020 y NCT03402841) corresponden a cáncer de ovario y no se cuentan como evidencia directa en mama.
+Entre los demás ensayos hay estudios de fase 1 con combinaciones de olaparib y un ensayo de extensión de Fase 3 (NCT04421963). Su aporte directo al cáncer de mama es limitado.
 
 ---
 
@@ -90,16 +88,16 @@ Varios ensayos de Fase 3 listados (por ejemplo NCT02282020 y NCT03402841) corres
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | ECA (Fase 3) | N Engl J Med | OlympiA: olaparib adyuvante en cáncer de mama temprano con mutación BRCA1/2 |
-| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | ECA (Fase 3) | Ann Oncol | Análisis de supervivencia global de OlympiA: olaparib adyuvante frente a placebo en cáncer de mama temprano de alto riesgo con variantes germinales BRCA1/2 |
-| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | ECA (Fase 3) | N Engl J Med | OlympiAD: olaparib en cáncer de mama metastásico con mutación germinal BRCA |
-| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | ECA (Fase 3) | Ann Oncol | OlympiAD, supervivencia global final y tolerabilidad frente a quimioterapia a elección del médico |
-| [36893711](https://pubmed.ncbi.nlm.nih.gov/36893711/) | 2023 | ECA (Fase 3) | Eur J Cancer | OlympiAD con seguimiento extendido. En el análisis final la mediana de supervivencia global fue 19.3 meses con olaparib frente a 17.1 con quimioterapia (P = 0.513) |
-| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Fase 2, un brazo | J Clin Oncol | TBCRC 048: olaparib en cáncer de mama metastásico con mutaciones somáticas BRCA1/2 o en otros genes de recombinación homóloga |
-| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Fase 2 aleatorizado | Cancer Cell | I-SPY2: durvalumab, olaparib y paclitaxel elevaron la tasa de respuesta patológica completa en cáncer de mama HER2 negativo (del 20% al 37%) |
-| [39520738](https://pubmed.ncbi.nlm.nih.gov/39520738/) | 2024 | Fase 2 | Breast | NOBROLA: olaparib en cáncer de mama triple negativo avanzado con HRD y sin mutación germinal BRCA1/2 |
-| [38112922](https://pubmed.ncbi.nlm.nih.gov/38112922/) | 2024 | Fase 3b, mundo real | Breast Cancer Res Treat | LUCY, análisis final de supervivencia global y seguridad en cáncer de mama metastásico BRCA mutado, HER2 negativo |
-| [33710534](https://pubmed.ncbi.nlm.nih.gov/33710534/) | 2021 | Revisión | Target Oncol | Panorama de los inhibidores de PARP (olaparib y talazoparib) en cáncer de mama con mutación germinal BRCA, HER2 negativo |
+| [34081848](https://pubmed.ncbi.nlm.nih.gov/34081848/) | 2021 | ECA | N Engl J Med | Olaparib adyuvante en cáncer de mama temprano con mutación germinal de BRCA1/2 (OlympiA) |
+| [36228963](https://pubmed.ncbi.nlm.nih.gov/36228963/) | 2022 | ECA (supervivencia global) | Ann Oncol | Análisis de supervivencia global de OlympiA en cáncer de mama temprano de alto riesgo, HER2-negativo, con BRCA1/2 |
+| [28578601](https://pubmed.ncbi.nlm.nih.gov/28578601/) | 2017 | ECA | N Engl J Med | Olaparib en cáncer de mama metastásico con mutación germinal de BRCA (OlympiAD) |
+| [30689707](https://pubmed.ncbi.nlm.nih.gov/30689707/) | 2019 | ECA (supervivencia global final) | Ann Oncol | Resultados finales de supervivencia global y tolerabilidad de OlympiAD frente a quimioterapia de elección del médico |
+| [38588696](https://pubmed.ncbi.nlm.nih.gov/38588696/) | 2024 | Fase II-III aleatorizado | Nature | PARTNER: olaparib neoadyuvante con quimioterapia en cáncer de mama triple negativo con BRCA1/2 no mutado (n=559) |
+| [33119476](https://pubmed.ncbi.nlm.nih.gov/33119476/) | 2020 | Ensayo Fase 2 | J Clin Oncol | TBCRC 048: olaparib en cáncer de mama metastásico con mutaciones somáticas de BRCA1/2 o en otros genes de recombinación homóloga |
+| [34143979](https://pubmed.ncbi.nlm.nih.gov/34143979/) | 2021 | Ensayo Fase 2 | Cancer Cell | I-SPY2: durvalumab con olaparib y paclitaxel neoadyuvante en cáncer de mama HER2-negativo de alto riesgo; mayor tasa de respuesta patológica completa |
+| [25366685](https://pubmed.ncbi.nlm.nih.gov/25366685/) | 2015 | Ensayo Fase 2 | J Clin Oncol | Olaparib en monoterapia en cánceres avanzados con BRCA1/2 germinal |
+| [32249603](https://pubmed.ncbi.nlm.nih.gov/32249603/) | 2020 | Revisión | Future Oncol | Revisión de olaparib en cáncer de mama avanzado con BRCA1/2 germinal |
+| [39742383](https://pubmed.ncbi.nlm.nih.gov/39742383/) | 2024 | Revisión sistemática | Breast J | Tratamientos dirigidos en cáncer de mama triple negativo metastásico |
 
 ---
 
@@ -107,9 +105,10 @@ Varios ensayos de Fase 3 listados (por ejemplo NCT02282020 y NCT03402841) corres
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20124752 | LYNPARZA® 150 MG (AstraZeneca Colombia S.A.S.) | Tableta recubierta (oral) | No especificada; el registro solo indica «OLAPARIB» |
+| 20124752 (cancelado) | LYNPARZA® 150 MG | Tableta recubierta | OLAPARIB |
+| 20142204 (cancelado) | LYNPARZA® 100 MG | Tableta recubierta | OLAPARIB |
 
-Los datos muestran 20 registros en total, pero las entradas disponibles corresponden todas al mismo número de registro sanitario, por lo que se presenta una sola fila.
+Ambos registros, de AstraZeneca Colombia, figuran como cancelados; actualmente no hay registros vigentes.
 
 ---
 
@@ -120,14 +119,19 @@ Los datos muestran 20 registros en total, pero las entradas disponibles correspo
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de PARP) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma completo y funciones hepática y renal; ajustar según el prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto; en general, hemograma y función hepática y renal |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales:
+  - **Mayores**: aprepitant, dexametasona y claritromicina.
+  - **Moderadas**: metformina, bupropión, cimetidina, miconazol, clotrimazol, glibenclamida, ondansetrón, repaglinida, rosuvastatina y simvastatina, entre otras.
+  - **Menores**: prucaloprida.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -136,15 +140,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Los ECA de Fase 3 OlympiA (adyuvante) y OlympiAD (metastásico) respaldan a olaparib en cáncer de mama con mutación germinal BRCA1/2 y HER2 negativo, y el mecanismo de letalidad sintética es coherente. Sin embargo, el beneficio se limita a esa población, la lista de ensayos NCT es mayormente no específica de mama y faltan los datos de seguridad locales.
+Dos ensayos de Fase 3 (OlympiAD y OlympiA) respaldan la eficacia de olaparib en cáncer de mama HER2-negativo con mutación germinal de BRCA, lo que corresponde a un nivel de evidencia L1. Sin embargo, la evidencia se limita a poblaciones seleccionadas por biomarcador, y en Colombia no hay registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para advertencias y contraindicaciones, requisito previo al tamizaje de seguridad.
-- Confirmar si la indicación de mama figura en el registro sanitario colombiano, ya que el texto registrado solo dice «OLAPARIB».
-- Obtener el mecanismo de acción desde DrugBank para completar el análisis mecanístico.
-- Definir criterios de selección por biomarcadores (mutación germinal BRCA1/2, HER2 negativo) y disponibilidad de pruebas genéticas.
-- Completar la evaluación de relevancia de los ensayos y publicaciones pendientes, y verificar los títulos truncados.
-- Aclarar el beneficio en pacientes sin mutación germinal BRCA (HRD, triple negativo), donde los datos aún son preliminares.
+- Verificar el estado regulatorio actual en Colombia, dado que ambos registros están cancelados, y precisar la indicación aprobada.
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Restringir el uso a pacientes con mutación de BRCA1/2 (u otros genes de recombinación homóloga) confirmada por pruebas genéticas.
+- Elaborar un plan de manejo de las interacciones mayores (aprepitant, dexametasona, claritromicina) y de monitoreo hematológico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

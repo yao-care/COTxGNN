@@ -2,7 +2,7 @@
 layout: default
 title: Secnidazole
 parent: Solo Predicción del Modelo (L5)
-nav_order: 356
+nav_order: 581
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Secnidazol: De Vaginosis Bacteriana y Tricomoniasis a Vaginitis Atrófica Posmenopáusica
+# Secnidazol: De Antimicrobiano Nitroimidazol a Vaginitis Atrófica Posmenopáusica
 
 ## Resumen en Una Frase
 
-Secnidazol es un antimicrobiano del grupo de los 5-nitroimidazoles, comercializado en Colombia. El texto del registro sanitario no detalla la indicación, pero la literatura lo asocia con vaginosis bacteriana y tricomoniasis. El modelo TxGNN predice que podría ser efectivo para **vaginitis atrófica posmenopáusica** (puntaje 99.70%), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción concreta.
+Secnidazol es un antimicrobiano de la familia de los 5-nitroimidazoles, registrado en Colombia como principio activo único y en combinación con otros derivados imidazólicos.
+El modelo TxGNN predice que podría ser efectivo para **vaginitis atrófica posmenopáusica**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. La predicción se apoya solo en el modelo.
 
 ---
 
@@ -41,87 +42,60 @@ Secnidazol es un antimicrobiano del grupo de los 5-nitroimidazoles, comercializa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice "Secnidazol"). Según la literatura: vaginosis bacteriana y tricomoniasis |
+| Indicación Original | Secnidazol (el registro sanitario solo menciona el principio activo y las combinaciones de derivados imidazólicos, sin detallar la indicación clínica) |
 | Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
 | Puntaje de Predicción TxGNN | 99.70% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Por la información conocida, secnidazol es un 5-nitroimidazol. Su forma reducida daña el ADN de anaerobios y protozoarios sensibles, y por eso es eficaz en infecciones vaginales como la vaginosis bacteriana y la tricomoniasis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, secnidazol es un 5-nitroimidazol: su grupo nitro se reduce dentro de organismos anaerobios y protozoarios, y genera radicales que dañan el ADN del microorganismo. Por eso se usa contra infecciones anaerobias y protozoarias, como la vaginosis bacteriana y la tricomoniasis.
 
-**En este caso la predicción principal es poco plausible.** La vaginitis atrófica se debe a la deficiencia de estrógenos, no a un patógeno anaerobio o protozoario sensible a nitroimidazoles. Los datos no sustentan ningún mecanismo para secnidazol en esta enfermedad. El puntaje alto probablemente refleja cercanía en el grafo de conocimiento con otras entidades de vaginitis, no una relación biológica real.
+La vaginitis atrófica posmenopáusica tiene un origen distinto. Se debe a la deficiencia de estrógenos y al adelgazamiento del epitelio vaginal, no a una infección por anaerobios o protozoarios, que es el terreno de acción de secnidazol. **No se identifica un vínculo mecanístico claro** entre el fármaco y esta enfermedad.
+
+El puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento entre secnidazol y otras afecciones vaginales, y no un fundamento farmacológico. Esta predicción debe tomarse como una señal estadística sin respaldo biológico evidente.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para vaginitis atrófica posmenopáusica.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para vaginitis atrófica posmenopáusica.
-
----
-
-## Otras Indicaciones Predichas con Evidencia
-
-Entre las 7 indicaciones predichas, solo tres tienen ensayos o publicaciones. Ninguna es un reposicionamiento novedoso.
-
-| Indicación | Puntaje TxGNN | Nivel | Decisión | Comentario |
-|------|------|------|------|------|
-| Flujo vaginal | 99.41% | L1 | Proceed with Guardrails | Es un síntoma de vaginosis bacteriana y tricomoniasis, es decir, usos ya establecidos |
-| Vulvovaginitis tricomonal | 99.37% | L1 | Proceed with Guardrails | Uso establecido. Ningún ensayo figura directamente bajo esta indicación |
-| Candidiasis vulvovaginal | 99.16% | L4 | Research Question | Secnidazol no tiene actividad antifúngica establecida |
-
-Las otras cuatro predicciones (vaginitis atrófica, úlcera vulvar, neoplasia vulvar y leucoplasia vaginal) son solo predicciones del modelo (L5, Hold), sin ensayos ni literatura.
-
-**Ensayos clínicos (flujo vaginal):**
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03935217](https://clinicaltrials.gov/study/NCT03935217) | Fase 3 | Completado | 147 | Dosis oral única de Solosec® 2 g vs placebo (tratamiento diferido, doble ciego) en tricomoniasis. El título está truncado y se infiere que es el ensayo pivotal (no confirmado) |
-| [NCT02147899](https://clinicaltrials.gov/study/NCT02147899) | Fase 2 | Completado | 215 | SYM-1219 (secnidazol) vs placebo, aleatorizado y doble ciego, en vaginosis bacteriana |
-| [NCT02111629](https://clinicaltrials.gov/study/NCT02111629) | Fase 3 | Completado | 118 | Fluconazol + secnidazol en flujo vaginal sintomático (Bogotá, Colombia). La combinación impide atribuir el efecto a secnidazol solo |
-| [NCT03937869](https://clinicaltrials.gov/study/NCT03937869) | Fase 4 | Completado | 40 | Estudio abierto de seguridad de dosis única de 2 g en adolescentes con vaginosis bacteriana. No aporta eficacia comparativa |
-| [NCT05033743](https://clinicaltrials.gov/study/NCT05033743) | Fase 2/3 | Completado | 24 | Secnidazol semanal durante 18 semanas para prevenir vaginosis bacteriana recurrente. Piloto pequeño y uso distinto |
-
-**Literatura destacada:**
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [28867602](https://pubmed.ncbi.nlm.nih.gov/28867602/) | 2017 | ECA | Am J Obstet Gynecol | Fase 3 doble ciego controlado con placebo de secnidazol 2 g en dosis única para vaginosis bacteriana |
-| [20885970](https://pubmed.ncbi.nlm.nih.gov/20885970/) | 2010 | ECA | Infect Dis Obstet Gynecol | Fase 3 de no inferioridad, secnidazol vs metronidazol en vaginosis bacteriana |
-| [33768237](https://pubmed.ncbi.nlm.nih.gov/33768237/) | 2021 | ECA (probable Fase 3; por confirmar) | Clin Infect Dis | Eficacia y seguridad de secnidazol en dosis única vs placebo en tricomoniasis |
-| [31129560](https://pubmed.ncbi.nlm.nih.gov/31129560/) | 2019 | Revisión sistemática y metaanálisis | Eur J Obstet Gynecol Reprod Biol | Eficacia y seguridad de secnidazol 2 g en dosis única para vaginosis bacteriana |
-| [39463760](https://pubmed.ncbi.nlm.nih.gov/39463760/) | 2024 | Revisión sistemática y metaanálisis en red | Front Cell Infect Microbiol | Comparación de eficacia y seguridad de distintos fármacos en vaginosis bacteriana |
-| [29323627](https://pubmed.ncbi.nlm.nih.gov/29323627/) | 2018 | Estudio abierto Fase 3 | J Womens Health | Seguridad de dosis única de 2 g en mujeres y adolescentes con vaginosis bacteriana |
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros en total. Los datos recibidos solo incluyen dos registros distintos (el 43991 aparece repetido y se muestra una sola vez).
+Los cuatro registros sanitarios están cancelados; no hay ninguno vigente.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20085584 | Secnidazol 1 g tabletas (Pentacoop S.A.) | Tableta recubierta | Solo figura "Secnidazol" (sin indicación detallada) |
-| 43991 | Secnidazol 500 mg tabletas (Colmed Ltda) | Tableta | Solo figura "Secnidazol" (sin indicación detallada) |
-
-También hay formas orales en tableta cubierta con película.
+| 20085584 | Secnidazol 1 g Tabletas | Tableta recubierta | Secnidazol |
+| 43991 | Secnidazol 500 mg Tabletas | Tableta | Secnidazol |
+| 53919 | Secnidazol 1 g | Tableta cubierta con película | Secnidazol |
+| 20232574 | Segnivag Duo® | Tableta recubierta | Combinaciones de imidazol derivados |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 92 interacciones. Las 20 listadas en los datos compilados son todas de nivel moderado (fuente: DDInter). Entre las principales:
+  - Otros nitroimidazoles: metronidazol y tinidazol.
+  - Estatinas: rosuvastatina, simvastatina y atorvastatina.
+  - Antineoplásicos: paclitaxel, cabazitaxel, carboplatino, bortezomib, carfilzomib, trastuzumab emtansina y brentuximab vedotina.
+  - Otros: amiodarona, levodopa, adalimumab, certolizumab pegol, auranofina, ácido picosulfúrico y yoduros radiactivos (I-123 e I-131).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -130,16 +104,18 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (vaginitis atrófica posmenopáusica) es solo del modelo, sin estudios y sin mecanismo plausible, ya que la enfermedad es hormonal y no infecciosa. Las indicaciones con evidencia sólida (vaginosis bacteriana y tricomoniasis) son usos ya establecidos, no reposicionamiento.
+La predicción tiene un puntaje alto, pero carece de ensayos clínicos, de literatura y de un mecanismo plausible. La vaginitis atrófica se debe a deficiencia estrogénica, no a infección, y hoy no hay ningún registro vigente de secnidazol en Colombia. No se recomienda avanzar con esta indicación.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para verificar indicaciones, advertencias y contraindicaciones autorizadas
-- Completar los datos del mecanismo de acción (DrugBank)
-- Confirmar la fase y el diseño de la publicación PMID 33768237 y su vínculo con NCT03935217
-- Para el flujo vaginal y la tricomoniasis: limitar el uso a casos confirmados por NAAT, microscopía o criterios clínicos, tratar a las parejas y hacer seguimiento
-- No priorizar vaginitis atrófica, úlcera vulvar, neoplasia vulvar ni leucoplasia vaginal sin evidencia mecanística nueva
+- Una hipótesis mecanística que justifique el uso de un antimicrobiano en un cuadro de origen hormonal, o descartar la predicción como artefacto del modelo.
+- Estudios preclínicos o clínicos que muestren algún efecto en vaginitis atrófica.
+- Datos de seguridad del prospecto (advertencias y contraindicaciones).
+- Confirmar el estado regulatorio y la disponibilidad del producto en Colombia, dado que todos los registros están cancelados.
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+**Nota sobre otras predicciones del modelo:**
+En los datos compilados, otras indicaciones tienen más respaldo que la de este informe, aunque en gran parte son usos ya conocidos del fármaco (no reposicionamiento propiamente dicho). Merecen evaluación aparte:
+- **Flujo vaginal**: nivel L1, con ensayos de Fase 3 y metaanálisis de secnidazol en dosis única de 2 g para vaginosis bacteriana. Recomendación: Proceed with Guardrails.
+- **Vulvovaginitis tricomonásica**: nivel L2, con un estudio de Fase 3 publicado (PMID 33768237). Recomendación: Proceed with Guardrails.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

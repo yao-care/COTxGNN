@@ -2,7 +2,7 @@
 layout: default
 title: Panitumumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 316
+nav_order: 497
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Panitumumab: De Anticuerpo Anti-EGFR (indicación original no especificada en el registro) a Osteoporosis Inducida por Fármacos
+# Panitumumab: De Indicación Registrada (sin texto descriptivo) a Osteoporosis Inducida por Fármacos
 
 ## Resumen en Una Frase
 
-Panitumumab es un anticuerpo monoclonal humano dirigido contra el receptor EGFR, comercializado en Colombia como Vectibix®. El registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Panitumumab es un anticuerpo monoclonal anti-EGFR; su registro sanitario en Colombia (Vectibix®) no incluye un texto de indicación descriptivo y actualmente está cancelado.
+El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ---
 
@@ -42,45 +42,33 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo repite "PANITUMUMAB") |
-| Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
+| Indicación Original | Panitumumab (el registro solo repite el nombre del principio activo, sin indicación descrita) |
+| Nueva Indicación Predicha | Osteoporosis inducida por fármacos (drug-induced osteoporosis) |
 | Puntaje de Predicción TxGNN | 99.13% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 8 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Panitumumab es un anticuerpo monoclonal totalmente humano que bloquea el EGFR. Esta señalización participa en la diferenciación de los osteoblastos y en la regulación de la osteoclastogénesis, lo que crea un vínculo teórico con el metabolismo óseo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, panitumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento epidérmico (EGFR), usado en oncología.
 
-Sin embargo, este vínculo es débil y la dirección del efecto es incierta. Los estudios preclínicos sugieren que inhibir el EGFR podría **reducir** la formación de hueso en lugar de protegerlo. El bloqueo del EGFR también causa hipomagnesemia, lo que podría empeorar la salud ósea.
+La señalización de EGFR participa en la diferenciación de los osteoblastos y en la remodelación ósea, por lo que bloquearla podría afectar el metabolismo óseo. Sin embargo, este vínculo sugiere más bien un **posible efecto adverso** (por ejemplo, efectos óseos asociados a hipomagnesemia) que un beneficio terapéutico. La dirección del efecto (beneficio o daño) no está resuelta.
 
-El puntaje alto de TxGNN (0.991) proviene solo de un análisis de grafos. Puede reflejar cercanía en la red biológica y no un beneficio terapéutico real. Por ahora, la predicción no tiene respaldo clínico ni bibliográfico.
+El puntaje alto de TxGNN (99.13%) es solo una predicción del modelo, sin respaldo de ensayos clínicos ni literatura. Por ello, debe interpretarse con cautela.
 
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+**Otra predicción del modelo:** retinopatía diabética no proliferativa grave (puntaje 99.05%, nivel L5, decisión Hold). Existe un vínculo especulativo por la transactivación de EGFR en la señalización vascular retiniana y las vías relacionadas con VEGF. Al ser un anticuerpo de administración sistémica con un perfil de toxicidad importante (dermatológica, hipomagnesemia) y sin datos oculares, el vínculo sigue siendo hipotético.
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20025916 | VECTIBIX® 20 MG/ML (AMGEN EUROPE B.V.) | Solución concentrada para infusión | PANITUMUMAB (el texto no describe una indicación clínica) |
-
-Nota: el paquete de datos reporta 8 registros en total, pero las 5 entradas recibidas corresponden al mismo número de registro (20025916) y son idénticas, por lo que se muestran una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20025916 | VECTIBIX® 20 MG/ML (Amgen Europe B.V.) | Solución concentrada para infusión | PANITUMUMAB | Cancelado |
 
 ---
 
@@ -91,19 +79,18 @@ Nota: el paquete de datos reporta 8 registros en total, pero las 5 entradas reci
 | Clasificación de Citotoxicidad | Terapia dirigida (anticuerpo monoclonal anti-EGFR) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Magnesio y electrolitos (el bloqueo del EGFR causa hipomagnesemia); además, vigilancia de la superficie ocular y la piel |
+| Items de Monitoreo | Según la información conocida de la clase: electrolitos (especialmente magnesio y calcio), piel y función general; confirmar en el prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Advertencias del prospecto INVIMA**: no disponibles en el Evidence Pack (brecha de datos clasificada como bloqueante).
-- **Preocupaciones propias de la clase anti-EGFR (del análisis de racionalidad)**:
-  - Hipomagnesemia, que podría agravar la salud ósea.
-  - Toxicidad de la superficie ocular (ojo seco, queratitis, tricomegalia), relevante para la segunda predicción (retinopatía diabética).
+- **Interacciones Farmacológicas:** se identificaron 27 interacciones; en los datos compilados se detallan 20.
+  - **Mayores:** amiodarona, trióxido de arsénico, bevacizumab, dofetilida, dronedarona, droperidol, ácido aminolevulínico, irinotecán (incluido el liposomal) y levacetilmetadol.
+  - **Moderadas:** inhibidores de la bomba de protones (rabeprazol, omeprazol, dexlansoprazol, esomeprazol, lansoprazol, pantoprazol), metoxaleno, ácido aminolevulínico tópico, disopiramida e idelalisib.
 
-Consultar el prospecto para información de seguridad completa.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -112,14 +99,14 @@ Consultar el prospecto para información de seguridad completa.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos ni literatura, y la evidencia preclínica sugiere un posible efecto adverso sobre el hueso. La segunda predicción de TxGNN, retinopatía diabética no proliferativa grave (puntaje 99.05%), también es L5 y Hold. Su mecanismo es especulativo y la toxicidad ocular de los anti-EGFR es una preocupación adicional.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura. El vínculo mecanístico sugiere un posible daño óseo más que un beneficio, y el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es una brecha bloqueante.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Aclarar la indicación original aprobada en Colombia, porque el registro solo muestra el nombre del fármaco.
-- Revisar estudios preclínicos sobre el efecto del bloqueo del EGFR en osteoblastos y osteoclastos, para determinar si el efecto es protector o perjudicial.
-- Verificar la compatibilidad de vía de administración y la similitud con la indicación original, que siguen pendientes.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente no disponible.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Aclarar la dirección del efecto (beneficio o daño) sobre el hueso mediante estudios preclínicos o revisión de la literatura.
+- Verificar la situación regulatoria y la disponibilidad real del producto en Colombia.
+- Evaluar la compatibilidad de vías de administración, ya que un anticuerpo sistémico podría no ser adecuado para las nuevas indicaciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

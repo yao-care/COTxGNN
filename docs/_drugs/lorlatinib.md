@@ -2,7 +2,7 @@
 layout: default
 title: Lorlatinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 264
+nav_order: 411
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,94 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorlatinib: De Cáncer de Pulmón de Células No Pequeñas ALK-positivo a Fibromatosis Gingival
+# Lorlatinib: De Indicación Registrada (Sin Texto Específico) a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Lorlatinib es un inhibidor macrocíclico de tirosina quinasa (ALK/ROS1) de tercera generación, usado originalmente para el cáncer de pulmón de células no pequeñas (CPCNP) ALK-positivo.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Lorlatinib es un inhibidor de tirosina quinasa de tercera generación dirigido a ALK/ROS1, registrado en Colombia bajo el nombre comercial Lorbrena® y utilizado en el cáncer de pulmón de células no pequeñas ALK-positivo. El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** con un puntaje alto (99.81%), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CPCNP ALK-positivo (el registro sanitario solo consigna el texto "LORLATINIB", sin indicación explícita) |
+| Indicación Original | LORLATINIB (el registro sanitario no detalla el texto de la indicación; el uso conocido es el cáncer de pulmón de células no pequeñas ALK-positivo) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 8 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, lorlatinib es un inhibidor de las quinasas ALK y ROS1. Su eficacia en el CPCNP con reordenamientos de ALK o ROS1 está bien documentada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, lorlatinib es un inhibidor de ALK y ROS1 de tercera generación, con penetración en el sistema nervioso central, cuya eficacia en el cáncer de pulmón ALK-positivo está bien establecida.
 
-**No se identificó un vínculo mecanístico** con la fibromatosis gingival. Esta es una enfermedad de sobrecrecimiento fibroso de las encías y no se conoce como un proceso impulsado por ALK o ROS1. El puntaje alto de TxGNN (0.998; posición 2110 en el ranking del modelo) proviene solo de patrones del grafo de conocimiento. No lo respalda ningún estudio clínico ni publicación.
+**No se identificó un vínculo mecanístico** entre la inhibición de ALK/ROS1 y la fibromatosis gingival. No se conoce una patología impulsada por ALK en esta enfermedad. El puntaje alto de TxGNN refleja una asociación calculada sobre una red de conocimiento, no una evidencia biológica o clínica.
 
-Por lo tanto, esta predicción debe tratarse como una hipótesis sin sustento actual. Que el puntaje sea alto no equivale a que exista evidencia.
+Por lo tanto, la prediccion debe considerarse una hipótesis sin respaldo, y no una señal de reposicionamiento sólida.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-El fabricante de ambos registros es PFIZER S.A.S. El Evidence Pack repite varias veces el registro 20210581, por lo que aquí aparece una sola vez. El total informado es de 8 registros sanitarios.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20210581 | LORBRENA® 25 MG | Tableta recubierta | LORLATINIB | Cancelado |
+| 20209759 | LORBRENA® 100 MG | Tableta recubierta | LORLATINIB | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20210581 | LORBRENA® 25 MG | Tableta recubierta | LORLATINIB (el registro solo indica el principio activo) |
-| 20209759 | LORBRENA® 100 MG | Tableta recubierta | LORLATINIB (el registro solo indica el principio activo) |
+Ambos registros, de Pfizer S.A.S., están cancelados; actualmente no hay registros vigentes en Colombia.
+
+---
 
 ## Citotoxicidad
-
-Lorlatinib se clasifica como antineoplásico por su uso en cáncer de pulmón.
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | La literatura recuperada describe hiperlipidemia y alteraciones metabólicas, toxicidad pulmonar (incluido síndrome de dificultad respiratoria aguda), síndrome nefrótico y efectos sobre el sistema nervioso central. Se sugiere vigilar perfil lipídico, función renal, síntomas respiratorios y estado neurocognitivo, según el prospecto |
-| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y las regulaciones locales de manejo de antineoplásicos |
+| Items de Monitoreo | Perfil lipídico (hipercolesterolemia e hipertrigliceridemia), función hepática, función pulmonar y síntomas neurocognitivos, según la literatura recopilada |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay datos de interacciones farmacológicas en la consulta realizada.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en la consulta realizada. Entre las mostradas, las de nivel **Mayor** son con **dexametasona** y **claritromicina**. Las de nivel **Moderado** incluyen hidrocortisona, triamcinolona, betametasona, aprepitant, bupropión, morfina, cimetidina, alosetrón, clorpropamida, glimepirida, dapagliflozina, empagliflozina, saxagliptina, linagliptina, dronabinol, eliglustat, naldemedina y naloxegol.
+- **Señales de la literatura recopilada** (reportes de casos y farmacovigilancia): hiperlipidemia/dislipidemia y efectos metabólicos, síndrome de dificultad respiratoria aguda, síndrome de Sweet y toxicidad pulmonar con anticuerpos anti-GD2 concurrentes.
+
+Para advertencias y contraindicaciones formales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni publicaciones que la respalden (nivel L5). Además, no existe un vínculo mecanístico plausible entre la inhibición de ALK/ROS1 y la fibromatosis gingival.
+La predicción para fibromatosis gingival carece de ensayos clínicos, literatura y vínculo mecanístico plausible (nivel L5). Además, los registros sanitarios en Colombia están cancelados, lo que limita la viabilidad local.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA para completar el tamizaje de seguridad (brecha bloqueante)
-- Complementar los datos de mecanismo de acción desde DrugBank
-- Buscar evidencia preclínica que relacione las vías ALK/ROS1 con la fibromatosis gingival
-- Considerar otras predicciones del mismo fármaco con mejor sustento. Por ejemplo, "carcinoma del hilio pulmonar" (L4) se apoya en un reporte de caso de lorlatinib neoadyuvante en cáncer de pulmón ALK-positivo. Aun así, esta es una pregunta de investigación sobre un uso ya aprobado y no un reposicionamiento a una enfermedad nueva.
+- Datos del mecanismo de acción y una hipótesis biológica que vincule ALK/ROS1 con la fibromatosis gingival.
+- Estudios preclínicos que respalden la plausibilidad.
+- Obtener el prospecto del INVIMA con advertencias y contraindicaciones, y aclarar el estado regulatorio actual del producto en Colombia.
+- Considerar otras predicciones del modelo con mayor soporte: *neoplasia benigna de pulmón* (L1) y *tumor de células germinales de pulmón* (L2). Ambas requieren curación manual, pues la evidencia recuperada corresponde a cáncer de pulmón ALK-positivo (ya cubierto por la indicación aprobada) y a neuroblastoma, no a las enfermedades predichas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

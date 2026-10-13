@@ -2,7 +2,7 @@
 layout: default
 title: Apixaban
 parent: Evidencia Moderada (L3-L4)
-nav_order: 52
+nav_order: 60
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,76 +29,88 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Apixabán: De Inhibidor Directo del Factor Xa (anticoagulante) a Trastorno de Migraña
+# Apixabán: De Inhibidor Directo del Factor Xa a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Apixabán es un anticoagulante oral que inhibe directamente el factor Xa. En Colombia está registrado bajo esa categoría farmacológica.
-El modelo TxGNN predice que podría ser efectivo para **migraña** (*migraine disorder*), pero la evidencia es débil: **1 ensayo clínico** sin relación directa con migraña y **4 publicaciones** (casi todas reportes de caso), dos de las cuales apuntan en sentido contrario.
+Apixabán es un inhibidor directo del factor Xa, registrado en Colombia como anticoagulante oral.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero la evidencia es muy limitada: **1 ensayo clínico** con relevancia baja (no evalúa apixabán ni migraña de forma directa) y **3 publicaciones** (dos reportes de caso con resultados contradictorios y un estudio retrospectivo).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | Inhibidores directos del factor Xa |
-| Nueva Indicación Predicha | Migraña (*migraine disorder*) |
+| Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 99.02% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, apixabán es un inhibidor directo del factor Xa de la coagulación, con eficacia establecida como anticoagulante. Mecanísticamente, su aplicación a migraña es solo una hipótesis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, apixabán pertenece a la clase de los inhibidores directos del factor Xa, que bloquean la cascada de coagulación y reducen la formación de trombina y de coágulos.
 
-El único vínculo plausible es la hipótesis del foramen oval permeable (FOP). Microémbolos o sustancias vasoactivas que cruzan un cortocircuito derecha-izquierda podrían desencadenar migraña con aura, de modo que un tratamiento antitrombótico podría reducir los ataques. No hay evidencia directa de que apixabán actúe sobre la fisiopatología de la migraña (CGRP, depresión cortical propagada, activación trigeminovascular).
+Una hipótesis plantea que la migraña con aura, sobre todo en pacientes con foramen oval permeable (FOP) o con anticuerpos antifosfolípidos, podría involucrar microtrombos o embolia paradójica. En ese escenario, la anticoagulación podría, en teoría, reducir las crisis.
 
-La predicción descansa en la inferencia del grafo de conocimiento (puntaje TxGNN 0.99) y no en biología validada. Los dos reportes de caso específicos de apixabán van en sentido contrario. Uno describe empeoramiento de la migraña con aura tras iniciar apixabán. El otro describe resolución con warfarina pero no con apixabán.
+Sin embargo, el vínculo es débil e indirecto. Los reportes de caso disponibles se contradicen: uno describe empeoramiento de la migraña con aura tras iniciar apixabán, y otro describe resolución del aura con warfarina pero no con apixabán. Esto sugiere ausencia de beneficio consistente y posiblemente una señal negativa. El puntaje alto de TxGNN es una predicción computacional y no refleja eficacia clínica demostrada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Completado | 664 | Ensayo CLOSE: cierre de FOP vs. anticoagulantes vs. antiagregantes para prevenir recurrencia de ictus. La población son pacientes con ictus criptogénico y FOP. La migraña no es un desenlace evaluado y el brazo anticoagulante no es específico de apixabán. Aporta solo contexto indirecto. |
+| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Completado | 664 | Cierre del foramen oval permeable o anticoagulantes frente a antiplaquetarios para prevenir la recurrencia de ictus. No evalúa migraña como objetivo ni apixabán específicamente; relevancia baja (grado C). |
 
-Aunque es de Fase 3, este ensayo no constituye evidencia directa para migraña y no permite asignar nivel L1.
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Estudio retrospectivo (75 pacientes) | Lupus | Evalúa la respuesta a terapia antitrombótica en migraña refractaria con anticuerpos antifosfolípidos. El resumen disponible no detalla resultados ni los fármacos usados. |
-| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Reporte de caso con revisión | The Neurologist | Migraña con aura que empeoró tras iniciar apixabán. La literatura sobre anticoagulantes orales directos en migraña es escasa y controvertida. |
-| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Reporte de caso | Headache | Mujer de 55 años con 12 años de remisión de migraña con aura bajo warfarina. Los síntomas reaparecieron con apixabán y se resolvieron al retomar warfarina. |
-| [29611190](https://pubmed.ncbi.nlm.nih.gov/29611190/) | 2018 | Reporte de caso | Headache | Migraña vestibular que resolvió con warfarina y topiramato. No es específico de apixabán. |
+| [33402037](https://pubmed.ncbi.nlm.nih.gov/33402037/) | 2021 | Estudio retrospectivo (75 pacientes) | Lupus | Respuesta a terapia antitrombótica en migraña refractaria con anticuerpos antifosfolípidos; no es específico de apixabán. |
+| [37582651](https://pubmed.ncbi.nlm.nih.gov/37582651/) | 2023 | Reporte de caso con revisión | The Neurologist | Migraña con aura que empeoró tras iniciar apixabán; la literatura sobre anticoagulantes orales directos y migraña es escasa y controvertida. |
+| [28960288](https://pubmed.ncbi.nlm.nih.gov/28960288/) | 2017 | Reporte de caso | Headache | Paciente con migraña con aura en remisión durante 12 años con warfarina; los síntomas reaparecieron con apixabán y cedieron al reanudar warfarina. |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20254500 | CARDIOTEC® 2.5 MG TABLETAS RECUBIERTAS (FAES FARMA COLOMBIA S.A.S.) | Tableta recubierta | Inhibidores directos del factor Xa |
+| 20254500 (cancelado) | CARDIOTEC® 2.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Inhibidores directos del factor Xa |
 
-El Evidence Pack informa 20 registros en total, pero solo el registro 20254500 aparece con detalle, repetido varias veces. Por eso se lista una sola vez.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las principales mostradas:
+  - **Gravedad mayor**: ácido acetilsalicílico, cobicistat, deferasirox, ibritumomab tiuxetán, tositumomab y tositumomab (I-131).
+  - **Gravedad moderada**: aprepitant, claritromicina, clotrimazol, dexametasona, dexfenfluramina, eliglustat, fenfluramina, miconazol, rolapitant, sibutramina, troglitazona, yoduro I-123, yoduro I-131 y sugammadex.
+
+Como apixabán es un anticoagulante, el riesgo de sangrado con fármacos que afectan la hemostasia (por ejemplo, ácido acetilsalicílico) debe considerarse con especial cuidado. Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje TxGNN es alto (99.02%), pero no existe evidencia clínica directa de apixabán en migraña. El único ensayo de Fase 3 evalúa otro desenlace, y los reportes de caso específicos de apixabán sugieren falta de beneficio o incluso empeoramiento.
+La evidencia se limita a un ensayo de baja relevancia y a reportes de caso contradictorios, con una posible señal negativa. El puntaje alto de TxGNN no está respaldado por datos clínicos, y el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de apixabán, para evaluar un vínculo biológico real con la migraña
-- Advertencias y contraindicaciones del prospecto INVIMA, requisito previo para el tamizaje de seguridad
-- Estudios específicos de apixabán en migraña, especialmente en pacientes con FOP o anticuerpos antifosfolípidos, y análisis de los resultados de migraña en ensayos de FOP
-- Comparación con los antitrombóticos de los estudios existentes (warfarina, heparina) para entender por qué los casos con apixabán no respondieron
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y revisar las advertencias y contraindicaciones del prospecto de INVIMA.
+- Completar los datos del mecanismo de acción desde DrugBank para evaluar el vínculo mecanístico.
+- Verificar el texto completo del estudio retrospectivo en pacientes con anticuerpos antifosfolípidos.
+- Generar evidencia clínica específica de apixabán en migraña (por ejemplo, estudios observacionales o un ensayo piloto en subpoblaciones con FOP o anticuerpos antifosfolípidos).
+- Aclarar la situación regulatoria local, dado que el único registro está cancelado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

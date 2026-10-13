@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Methylprednisolone
-parent: Evidencia Moderada (L3-L4)
-nav_order: 280
-evidence_level: L3
+parent: Evidencia Alta (L1-L2)
+nav_order: 437
+evidence_level: L2
 indication_count: 10
 ---
 
 # Methylprednisolone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,97 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Metilprednisolona: De Enfermedades Inflamatorias e Inmunomediadas a Alopecia Areata
+# Metilprednisolona: De Corticosteroide Sistémico a Alopecia Areata
 
 ## Resumen en Una Frase
 
-La metilprednisolona es un corticoide sistémico usado para tratar múltiples afecciones inflamatorias y alérgicas, como artritis, lupus, psoriasis y colitis ulcerosa.
-El modelo TxGNN predice que podría ser efectiva para **alopecia areata**.
-Hay **17 ensayos clínicos** y **20 publicaciones** recuperados. Solo **1 ensayo** (Fase 4, sin grupo control confirmado) y varias series de casos y estudios retrospectivos evalúan directamente la metilprednisolona en esta enfermedad.
+Metilprednisolona es un glucocorticoide sistémico, registrado en Colombia en tabletas orales recubiertas de 16 mg. El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con **1 ensayo clínico** (Fase 4, completado) y **20 publicaciones** que actualmente respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | PREDNISOLONA (texto tal como figura en el registro; no describe una indicación clínica). Según la farmacología, el uso general son afecciones inflamatorias y alérgicas. |
+| Indicación Original | Prednisolona / metilprednisolona (el registro sanitario no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados; ninguno vigente) |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de una descripción detallada del mecanismo de acción. Los registros farmacológicos indican que la metilprednisolona actúa sobre el **receptor de glucocorticoides (NR3C1)**. También figura una relación con el canal TRPC5, sin detalle funcional. Como glucocorticoide, su efecto principal es antiinflamatorio e inmunosupresor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la metilprednisolona es un glucocorticoide que actúa sobre el receptor de glucocorticoides (NR3C1), y su uso clínico abarca numerosas condiciones inflamatorias y autoinmunes (artritis, lupus, psoriasis, colitis ulcerosa y trastornos alérgicos).
 
-La alopecia areata es una enfermedad autoinmune en la que los linfocitos T atacan el folículo piloso. Un fármaco que suprime la inflamación mediada por células T tiene, por tanto, un fundamento biológico claro. Por eso los corticoides en pulsos de dosis altas se usan desde hace décadas en formas graves o extensas.
+La alopecia areata es un ataque autoinmune mediado por linfocitos T contra el folículo piloso, con pérdida del privilegio inmunológico. Los glucocorticoides en dosis altas en pulsos suprimen la activación de los linfocitos T y la señalización de citocinas proinflamatorias, lo que ofrece un mecanismo plausible para frenar el ataque inmunitario y permitir el rebrote del cabello.
 
-Ese respaldo es sobre todo clínico y de series de casos, no de ensayos controlados. Los estudios muestran respuestas en enfermedad reciente o extensa, pero también recaídas frecuentes al reducir la dosis. Una revisión sobre alopecia total y universal señala que ningún tratamiento estaba aprobado por la FDA hasta ese momento.
+El uso de corticosteroides en pulsos para formas graves o de progresión rápida ya está documentado en la literatura, tanto por vía oral como intravenosa, lo que respalda la razonabilidad de la predicción del modelo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Solo 3 de los 17 ensayos recuperados tratan alopecia y esteroides. Los otros 14 corresponden a lupus eritematoso sistémico, cáncer de próstata y cefalea, con otros fármacos. No aportan evidencia sobre la metilprednisolona en alopecia areata y no se listan.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Fase 4 | Completado | 42 | Metilprednisolona oral en mega pulsos (dosis más altas y más frecuentes) en alopecia areata grave resistente a tratamiento. Es el único ensayo que prueba directamente el fármaco. El diseño probablemente es de un solo brazo, por lo que no equivale a un ECA de Fase 3. |
-| [NCT07101471](https://clinicaltrials.gov/study/NCT07101471) | N/A (observacional) | Completado | 296 | Seguridad y efectividad de tofacitinib en alopecia, con o sin prednisolona adyuvante. Sirve como comparador contextual, no como evidencia de metilprednisolona. |
-| [NCT01017510](https://clinicaltrials.gov/study/NCT01017510) | N/A | Desconocido | 20 | Compara dos técnicas de inyección intralesional de esteroides (Dermojet vs. jeringa) en alopecia areata. No se confirma cuál esteroide se usa. |
+| [NCT01167946](https://clinicaltrials.gov/study/NCT01167946) | Fase 4 | Completado | 42 | Metilprednisolona oral en pulsos de dosis alta y mayor frecuencia en alopecia areata grave resistente a tratamiento (2003–2010). Estudio poscomercialización pequeño; el diseño (control, cegamiento) debe verificarse. |
+
+---
 
 ## Evidencia de Literatura
 
-No hay ensayos controlados aleatorizados entre las publicaciones recuperadas. Los hallazgos se resumen a partir de títulos y resúmenes disponibles.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Revisión sistemática | Dermatol Ther | Ciclosporina con y sin corticoides sistémicos en alopecia areata, con resultados variables. |
-| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Revisión | Dermatol Pract Concept | Eficacia, recaídas, efectos adversos y factores pronósticos de la terapia de pulsos de corticoides. |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatr Dermatol | Dosis y administración de pulsos de corticoides en niños con alopecia areata. Los esquemas no están bien establecidos. |
-| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Cohorte retrospectiva | Dermatol Ther | Compara metilprednisolona sola (14 pacientes) con metilprednisolona más metotrexato (12 pacientes) en alopecia areata extensa. |
-| [9777767](https://pubmed.ncbi.nlm.nih.gov/9777767/) | 1998 | Estudio prospectivo abierto | J Am Acad Dermatol | Pulso intravenoso único de metilprednisolona en 45 pacientes con alopecia areata grave de menos de 12 meses de evolución. |
-| [12746668](https://pubmed.ncbi.nlm.nih.gov/12746668/) | 2003 | Estudio abierto | Ann Dermatol Venereol | Pulsos intravenosos mensuales repetidos en 66 pacientes con alopecia areata grave. |
-| [23336179](https://pubmed.ncbi.nlm.nih.gov/23336179/) | 2014 | Serie clínica | J Dermatol Treat | Pulsos de metilprednisolona en alopecia areata extensa, planteados como opción para evitar los efectos de esteroides a largo plazo. |
-| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Serie clínica | Indian J Dermatol Venereol Leprol | Pulsos intravenosos de metilprednisolona en alopecia areata grave y resistente a tratamiento. |
-| [25872976](https://pubmed.ncbi.nlm.nih.gov/25872976/) | 2015 | Estudio clínico | Pediatr Dermatol | Altas tasas de recaída pese a intervención temprana con metilprednisolona intravenosa en alopecia areata infantil grave. |
-| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Estudio clínico | Saudi Med J | Publicación del régimen de mega pulsos orales en alopecia areata grave resistente, probablemente del mismo grupo del ensayo NCT01167946. |
+| [32270396](https://pubmed.ncbi.nlm.nih.gov/32270396/) | 2020 | Revisión sistemática | Dermatology and Therapy | Ciclosporina con y sin corticosteroides sistémicos en alopecia areata |
+| [37992355](https://pubmed.ncbi.nlm.nih.gov/37992355/) | 2023 | Revisión | Dermatology Practical & Conceptual | Eficacia, recaídas, efectos adversos y factores pronósticos de la terapia en pulsos de corticosteroides |
+| [28378336](https://pubmed.ncbi.nlm.nih.gov/28378336/) | 2017 | Revisión | International Journal of Dermatology | Opciones de tratamiento en alopecia total y universal |
+| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatric Dermatology | Dosificación y administración de corticosteroides en pulsos en niños con alopecia areata |
+| [25566921](https://pubmed.ncbi.nlm.nih.gov/25566921/) | 2015 | Estudio clínico | Indian J Dermatol Venereol Leprol | Metilprednisolona intravenosa en pulsos en alopecia areata grave |
+| [35986630](https://pubmed.ncbi.nlm.nih.gov/35986630/) | 2022 | Cohorte retrospectiva | Dermatologic Therapy | Metilprednisolona sola vs. combinada con metotrexato en alopecia areata extensa (26 pacientes) |
+| [21592197](https://pubmed.ncbi.nlm.nih.gov/21592197/) | 2011 | Cohorte | J Dermatol | Factores pronósticos de la terapia en pulsos de metilprednisolona (70 pacientes) |
+| [12746668](https://pubmed.ncbi.nlm.nih.gov/12746668/) | 2003 | Estudio abierto | Ann Dermatol Venereol | Pulsos intravenosos mensuales en alopecia areata grave (66 pacientes) |
+| [22426909](https://pubmed.ncbi.nlm.nih.gov/22426909/) | 2012 | Estudio clínico | Saudi Medical Journal | Eficacia y seguridad de metilprednisolona oral en megapulsos en alopecia areata grave resistente |
+| [8274789](https://pubmed.ncbi.nlm.nih.gov/8274789/) | 1993 | Serie de casos | Dermatology | Pulsos de 250 mg IV dos veces al día por 3 días en 9 pacientes; en 8 se detuvo la evolución del episodio |
+
+---
 
 ## Información de Mercado en Colombia
 
-El registro entrega 20 licencias en total. Las filas recibidas son repetidas del mismo registro sanitario, por lo que se muestra una sola vez.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128975 | METILPREDNISOLONA 16 MG (Laboratorios MK S.A.S.) | Tableta recubierta (vía oral) | PREDNISOLONA (texto del registro; no detalla la indicación) |
+| 20128975 (cancelado) | Metilprednisolona 16 mg | Tableta recubierta | Prednisolona |
+| 20136274 (cancelado) | Precort® 16 mg tabletas recubiertas | Tableta recubierta | Metilprednisolona |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no del prospecto):** hipertensión, epilepsia, hiperglucemia, insuficiencia cardíaca congestiva, queratitis por herpes simple, sarampión, trastornos del ciclo de la urea (deficiencia de carbamoil fosfato sintetasa I, citrulinemia, hiperargininemia) y diversas deficiencias hipofisarias (hipopituitarismo, deficiencia de hormona de crecimiento, hipogonadismo hipogonadotrópico, síndrome de Kallmann, síndrome de Sheehan, entre otras).
+- **Interacciones y dianas farmacológicas:** el fármaco actúa sobre el receptor de glucocorticoides (NR3C1) y presenta interacción farmacológica con el canal TRPC5. No se dispone de niveles de severidad clínica.
+- La revisión de la literatura señala que los pulsos de corticosteroides pueden asociarse a efectos adversos y a altas tasas de recaída tras suspender (por ejemplo, en alopecia areata infantil).
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un fundamento biológico sólido (alopecia areata autoinmune y un corticoide inmunosupresor). También hay un ensayo de Fase 4 específico, series clínicas y revisiones sobre pulsos de metilprednisolona. Sin embargo, no hay ningún ECA, por lo que el nivel se limita a L3. Las otras predicciones del modelo tienen evidencia nula o tangencial y quedan en "Hold" o "Research Question".
-
-**Salvaguardas sugeridas:**
-- Reservar para enfermedad grave o extensa.
-- Anticipar recaídas al reducir la dosis.
-- Monitorear los efectos adversos propios de los esteroides.
+Existe un ensayo de Fase 4 completado y numerosos estudios clínicos y revisiones que respaldan el uso de metilprednisolona en pulsos en alopecia areata grave, con un mecanismo biológicamente plausible. Sin embargo, no hay ECA de Fase 3 y los dos registros sanitarios en Colombia están cancelados, por lo que se requiere cautela.
 
 **Para avanzar se necesita:**
-- Un ensayo controlado aleatorizado de metilprednisolona en alopecia areata, idealmente comparado con inhibidores de JAK u otros esteroides.
-- El prospecto del INVIMA con advertencias y contraindicaciones, hoy no disponible.
-- Los resultados y el diseño real de NCT01167946.
-- Verificar la compatibilidad de vía: en Colombia solo consta la tableta oral de 16 mg, mientras que gran parte de la literatura usa pulsos intravenosos.
-- Aclarar el texto de indicación del registro sanitario ("PREDNISOLONA").
+- Verificar el diseño del ensayo NCT01167946 (control, cegamiento, resultados publicados).
+- Obtener las advertencias y contraindicaciones del prospecto de INVIMA (hoy faltantes, lo que bloquea el tamizaje de seguridad).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir la situación regulatoria: no hay registro vigente, por lo que habría que reactivar o solicitar uno nuevo con la vía de administración pertinente.
+- Establecer un plan de monitoreo de seguridad (presión arterial, glucemia, riesgo infeccioso) y la vía y régimen de pulsos.
+
+**Otras predicciones del modelo:** nefrosis idiopática sensible a esteroides (nivel L3, solo revisiones y estudios retrospectivos; pregunta de investigación). Las demás indicaciones (alopecia mucinosa, efluvio telógeno, foliculitis decalvante, entre otras) tienen solo predicción del modelo (L5) y se recomienda **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

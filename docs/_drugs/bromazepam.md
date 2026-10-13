@@ -2,7 +2,7 @@
 layout: default
 title: Bromazepam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 99
+nav_order: 117
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,11 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Bromazepam: De Ansiolítico (benzodiacepina) a Trastorno de Migraña
+# Bromazepam: De Indicación Registrada (Bromazepam) a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Bromazepam es una benzodiacepina comercializada en Colombia como Lexotan. El registro sanitario solo repite el nombre del fármaco y no detalla la indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero solo hay **1 ensayo clínico** indirecto y **ninguna publicación** que respalde esta dirección.
+Bromazepam es una benzodiazepina que contó con registros sanitarios en Colombia, hoy cancelados, cuya indicación registrada figura solo con el nombre del propio principio activo.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección.
 
 ---
 
@@ -41,33 +42,29 @@ Bromazepam es una benzodiacepina comercializada en Colombia como Lexotan. El reg
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo dice "BROMAZEPAM"); por su clase, se entiende como ansiolítico |
+| Indicación Original | Bromazepam (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 99.06% |
-| Nivel de Evidencia | L5 (el paquete de evidencia indica L4, pero no hay estudios preclínicos ni de mecanismo; el único ensayo es indirecto) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 13 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Bromazepam es una benzodiacepina. Esta clase suele entenderse como moduladora alostérica positiva de los receptores GABA-A, con efectos ansiolíticos, sedantes y relajantes musculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento general de la clase, bromazepam es una benzodiazepina que potencia la señalización del receptor GABA-A, lo que produce efectos ansiolíticos, sedantes y relajantes musculares.
 
-Un vínculo con la migraña solo sería indirecto, por ejemplo a través de la ansiolisis, la relajación muscular o la sedación. Los datos disponibles no respaldan ningún mecanismo específico para migraña, y las benzodiacepinas no están establecidas como tratamiento de esta enfermedad.
+Un posible vínculo con la migraña sería la reducción de la hiperexcitabilidad cortical y trigeminovascular, además del alivio de la ansiedad o la tensión muscular que suelen acompañar a la migraña. Este razonamiento es especulativo y no proviene de evidencia directa.
 
-El puntaje de 0.99 es solo una predicción computacional y no está corroborado por evidencia clínica. Por eso conviene tratarlo como una hipótesis inicial, no como una señal de eficacia.
+Conviene ser prudente: el puntaje de 0.99 es solo una predicción del modelo. Las benzodiazepinas no son terapias establecidas para la migraña y su uso conlleva riesgos de dependencia, sedación y cefalea por abuso de medicación. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04410536](https://clinicaltrials.gov/study/NCT04410536) | Fase 4 | Completado | 25 | Programa de retirada domiciliaria con abordaje conductual en cefalea por abuso de medicación durante la emergencia de Covid-19; evalúa recaídas al año |
-
-Este ensayo es evidencia indirecta (relevancia C). Trata la cefalea por abuso de medicación, una condición relacionada con la migraña. Los datos no muestran que bromazepam sea el fármaco en estudio ni que se haya probado como tratamiento de migraña. Además, es pequeño y no es un ECA de Fase 2 o 3.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -81,15 +78,16 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19920700 | LEXOTAN TABLETAS 3 MG (CHEPLAPHARM ARZNEIMITTEL GMBH) | Tableta | BROMAZEPAM (el registro no detalla la indicación) |
-
-Los datos reportan 13 registros en total. Los listados recibidos corresponden al mismo número de registro, 19920700, repetido, por lo que aquí se muestra una sola vez.
+| 19920700 (cancelado) | LEXOTAN TABLETAS 3 MG | Tableta | Bromazepam |
+| 227603 (cancelado) | BROMAZEPAM 6 MG TABLETA | Tableta | Bromazepam |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+Consultar el prospecto para información de seguridad.
+
+No se encontraron interacciones farmacológicas registradas en la consulta realizada.
 
 ---
 
@@ -98,13 +96,14 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo. El único ensayo es indirecto, pequeño y no evalúa bromazepam para migraña, y no hay literatura ni mecanismo específico que lo sustente.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, los dos registros sanitarios en Colombia están cancelados y las benzodiazepinas no son terapia establecida para migraña, con riesgos relevantes de dependencia y cefalea por abuso de medicación.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo al tamizaje de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank y analizar el vínculo con la migraña.
-- Buscar literatura y ensayos que evalúen directamente bromazepam u otras benzodiacepinas en migraña.
-- Confirmar la indicación aprobada real del producto en Colombia, ya que el registro solo indica el nombre del fármaco.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues sin esta información no es posible avanzar al tamizaje de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión sistemática de la literatura sobre benzodiazepinas en migraña.
+- Evaluar la similitud con la indicación original y la compatibilidad de vías de administración.
+- Aclarar el estado regulatorio, dado que no existen registros vigentes en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

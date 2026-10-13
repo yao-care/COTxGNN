@@ -2,7 +2,7 @@
 layout: default
 title: Azithromycin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 73
+nav_order: 85
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,69 +29,95 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azitromicina: De Antibacteriano Macrólido (Indicación No Detallada en el Registro) a Síndrome de Hiperviscosidad Policlonal
+# Azitromicina: De Indicación Original (Azitromicina) a Síndrome de Hiperviscosidad Policlonal
 
 ## Resumen en Una Frase
 
-La azitromicina es un antibiótico macrólido de administración oral, comercializado en Colombia.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de hiperviscosidad policlonal**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+Azitromicina es un antibiótico macrólido, registrado en Colombia bajo la indicación genérica "azitromicina".
+El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada en los registros (el texto del registro solo dice «Azitromicina») |
+| Indicación Original | Azitromicina (el registro sanitario no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 7 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la azitromicina es un antibiótico macrólido, su eficacia antibacteriana está ampliamente comprobada, y su perfil farmacológico incluye interacción con el receptor de motilina (MLNR) y con el receptor del gusto amargo TAS2R4. Sin embargo, no existe un vínculo mecanístico documentado con el síndrome de hiperviscosidad policlonal.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la azitromicina es un antibiótico macrólido con actividad antibacteriana y propiedades inmunomoduladoras y antiinflamatorias descritas en la literatura general.
 
-El síndrome de hiperviscosidad policlonal es una condición en la que la sangre se vuelve más espesa de lo normal por exceso de proteínas (inmunoglobulinas). No se recuperó ningún ensayo ni publicación que relacione la azitromicina con este cuadro. Por eso, la puntuación alta del modelo (99.81%) debe leerse como una señal para explorar, no como evidencia de eficacia.
+Los datos compilados no respaldan un vínculo mecanístico entre la azitromicina y el síndrome de hiperviscosidad policlonal. El puntaje alto de TxGNN (0.998) proviene únicamente de las relaciones del grafo de conocimiento y no está acompañado de ensayos clínicos, literatura ni análisis de similitud con la indicación original.
+
+Por tanto, esta predicción debe considerarse una hipótesis sin sustento y no una recomendación de uso.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+
+Como referencia, entre las demás predicciones del modelo, la única con ensayos registrados es "trastorno hematológico congénito" (enfermedad de células falciformes). Allí aparecen dos ensayos con azitromicina o macrólidos que fueron **retirados sin inscribir pacientes**, por lo que no generaron datos:
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | Fase 1/2 | Retirado | 0 | Macrólidos para mejorar el VEF1 en adultos con enfermedad de células falciformes |
+| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | Fase 1 | Retirado | 0 | Profilaxis con azitromicina del síndrome torácico agudo en enfermedad de células falciformes |
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Reclutando | 5000 | Estudio general de farmacocinética y seguridad de fármacos poco estudiados en niños; no específico de enfermedades hematológicas |
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para el síndrome de hiperviscosidad policlonal.
+
+---
 
 ## Información de Mercado en Colombia
 
-Los registros recibidos tenían la misma licencia repetida cuatro veces; aquí se muestran una sola vez. Las formas farmacéuticas reportadas son tableta y tableta recubierta, ambas de vía oral.
+Los 7 registros sanitarios están **cancelados**; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19911014 | PENFLUZ 500 MG TABLETAS | Tableta | Azitromicina (el registro no detalla indicaciones) |
-| 20068317 | AKRIBACT® | Tableta | Azitromicina (el registro no detalla indicaciones) |
+| 19911014 | PENFLUZ 500 MG TABLETAS | Tableta | Azitromicina |
+| 20068317 | AKRIBACT® | Tableta | Azitromicina |
+| 19970784 | AZITROFAR® TABLETAS | Tableta | Azitromicina |
+| 20189232 | AZITROMICINA 500MG | Tableta recubierta | Azitromicina |
+| 20099969 | MILAGRAM® TABLETAS | Tableta | Azitromicina |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: no se reportaron interacciones con otros fármacos. Los dos registros recibidos corresponden a dianas farmacológicas de la azitromicina (receptor de motilina y TAS2R4), no a interacciones medicamentosas.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: síndrome de QT largo (incluido el familiar), torsades de pointes, enfermedad hepática, enfermedad de la vesícula biliar, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, miastenia gravis, enfermedad de la unión neuromuscular, trastornos de la audición y enfermedades del sistema auditivo.
+- **Interacciones farmacológicas**: la consulta no identificó interacciones fármaco-fármaco clásicas. Solo se registraron dos interacciones farmacológicas con dianas humanas: el receptor de motilina (MLNR) y el receptor del gusto amargo TAS2R4.
 
-Consultar el prospecto para información de seguridad sobre advertencias y contraindicaciones.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ningún ensayo clínico ni publicación de respaldo (nivel L5), y no hay un mecanismo plausible documentado. La azitromicina está ampliamente disponible en Colombia, pero eso no sustituye la evidencia para esta nueva indicación.
+La predicción para síndrome de hiperviscosidad policlonal es de nivel L5: solo puntaje del modelo, sin ensayos, sin literatura y sin mecanismo plausible. Además, no hay registros sanitarios vigentes en Colombia y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción desde DrugBank para evaluar un posible vínculo con la hiperviscosidad.
-- Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones.
-- Hacer una búsqueda de literatura más amplia y dirigida al síndrome de hiperviscosidad policlonal.
-- Considerar otras predicciones del mismo análisis con algo más de señal:
-  - **Gammapatía monoclonal**: hay un estudio preclínico in vitro (PMID 23546223) en el que macrólidos, incluida la azitromicina, bloquean la autofagia y sensibilizan células de mieloma a bortezomib. Está catalogada como pregunta de investigación (L4).
-  - **Trastorno hematológico congénito (enfermedad de células falciformes)**: hay dos ensayos de azitromicina directamente relacionados (NCT02630394 y NCT02960503), pero ambos fueron retirados con 0 participantes, por lo que no aportan datos clínicos.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
+- Obtener el mecanismo de acción desde DrugBank para evaluar un posible vínculo mecanístico.
+- Buscar evidencia preclínica o clínica específica en síndrome de hiperviscosidad policlonal.
+- Considerar priorizar otras predicciones con señales más concretas, como la enfermedad de células falciformes (síndrome torácico agudo; actualmente solo con ensayos retirados) o la gammapatía monoclonal (evidencia preclínica in vitro en mieloma sobre bloqueo de autofagia), aunque ambas siguen siendo de evidencia indirecta.
+- Aclarar la situación regulatoria (registros cancelados) antes de cualquier plan de desarrollo local.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

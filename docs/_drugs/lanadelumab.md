@@ -2,7 +2,7 @@
 layout: default
 title: Lanadelumab
 parent: Evidencia Alta (L1-L2)
-nav_order: 240
+nav_order: 377
 evidence_level: L1
 indication_count: 10
 ---
@@ -29,98 +29,100 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Lanadelumab: De Indicación Original No Registrada a Deficiencia del Inhibidor de C1
+# Lanadelumab: De Lanadelumab (indicación no detallada en el registro) a Deficiencia de Inhibidor de C1
 
 ## Resumen en Una Frase
 
-Lanadelumab es un anticuerpo monoclonal humano que inhibe la calicreína plasmática. En Colombia se comercializa como TAKHZYRO®, pero el registro no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia del inhibidor de C1** (angioedema hereditario, AEH), con **22 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
-Este caso no es reposicionamiento en sentido estricto: es un uso ya establecido en la literatura y en varios países.
+Lanadelumab es un anticuerpo monoclonal humano que inhibe la calicreína plasmática. En el registro sanitario colombiano figura solo con su nombre genérico, sin texto de indicación detallado.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de inhibidor de C1** (angioedema hereditario, AEH), con **5 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
+Cabe aclarar que esta predicción coincide con la indicación ya establecida del fármaco (profilaxis del AEH), por lo que no es un reposicionamiento en sentido estricto.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto INVIMA solo dice «LANADELUMAB») |
-| Nueva Indicación Predicha | Deficiencia del inhibidor de C1 (angioedema hereditario) |
+| Indicación Original | Lanadelumab (el registro INVIMA solo repite el nombre del fármaco; no describe la indicación) |
+| Nueva Indicación Predicha | Deficiencia de inhibidor de C1 |
 | Puntaje de Predicción TxGNN | 99.996% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lanadelumab es un anticuerpo monoclonal completamente humano que inhibe la calicreína plasmática. Actualmente no se dispone de datos detallados de mecanismo de acción en el Evidence Pack. Este mecanismo proviene de la literatura publicada (PMID 30267321).
+Lanadelumab es un anticuerpo monoclonal completamente humano dirigido contra la calicreína plasmática (gen KLKB1). Los datos compilados no incluyen una descripción formal del mecanismo de acción, pero la literatura y la información farmacológica disponibles describen de forma consistente este mecanismo.
 
-En la deficiencia del inhibidor de C1, las mutaciones en *SERPING1* dejan la calicreína sin control. Esto produce exceso de bradicinina, un vasodilatador que causa los ataques de angioedema. Bloquear la calicreína ataca directamente ese paso, por lo que el vínculo mecanístico es directo.
+En la deficiencia de inhibidor de C1 (mutaciones en SERPING1), la calicreína plasmática pierde su freno natural. Esto genera un exceso de bradicinina, un vasodilatador que provoca los episodios de angioedema. Al inhibir directamente la calicreína, lanadelumab actúa sobre el origen de la cascada.
 
-Como la indicación original no está registrada, no se puede comparar con la nueva. El propio análisis de racionalidad indica que la falta de indicación original y de MOA es una brecha de curación de datos y que esta es una indicación ya establecida. Las series de casos en angioedema adquirido por deficiencia de C1-INH (PMID 33556593 y 36379410) son pequeñas y de menor nivel de evidencia.
+Esta indicación corresponde al uso establecido del fármaco: la FDA y la EMA lo aprobaron en 2018 para prevenir ataques de AEH tipos I y II en pacientes de 12 años o más. La ausencia de datos de mecanismo y el estado "solo cancelado" en Colombia podrían deberse a limitaciones en la calidad de los datos y conviene verificarlos.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran 10 de 22 ensayos registrados, priorizando Fase 3.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02586805](https://clinicaltrials.gov/study/NCT02586805) | Fase 3 | Completado | 125 | Estudio HELP, aleatorizado, doble ciego y controlado con placebo: profilaxis a largo plazo de ataques de AEH tipo I y II |
-| [NCT02741596](https://clinicaltrials.gov/study/NCT02741596) | Fase 3 | Completado | 212 | Extensión abierta de HELP: seguridad y eficacia a largo plazo en la prevención de ataques |
-| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Fase 3 | Completado | 21 | Estudio SPRING: seguridad, farmacocinética y farmacodinamia en niños de 2 a <12 años |
+| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Completado | 20 | Estudio abierto multicéntrico de seguridad, farmacocinética y eficacia en pacientes chinos con AEH (26 semanas de tratamiento) |
+| [NCT04070326](https://clinicaltrials.gov/study/NCT04070326) | Fase 3 | Completado | 21 | Estudio SPRING: seguridad, farmacocinética y farmacodinamia en niños de 2 a <12 años con AEH |
 | [NCT04180163](https://clinicaltrials.gov/study/NCT04180163) | Fase 3 | Completado | 12 | Eficacia y seguridad en pacientes japoneses con AEH tipo I o II |
-| [NCT05460325](https://clinicaltrials.gov/study/NCT05460325) | Fase 3 | Completado | 20 | Seguridad, farmacocinética y eficacia en pacientes chinos durante 26 semanas |
-| [NCT04687137](https://clinicaltrials.gov/study/NCT04687137) | Fase 3 | Completado | 12 | Programa de acceso ampliado en Japón para adolescentes y adultos con AEH |
-| [NCT04444895](https://clinicaltrials.gov/study/NCT04444895) | Fase 3 | Completado | 73 | Seguridad y eficacia a largo plazo en angioedema no histaminérgico con C1-INH normal (población distinta) |
-| [NCT04130191](https://clinicaltrials.gov/study/NCT04130191) | N/A | Completado | 140 | ENABLE: efectividad a largo plazo en práctica real, comparando ataques antes y después del tratamiento |
-| [NCT04861090](https://clinicaltrials.gov/study/NCT04861090) | N/A | Completado | 207 | Revisión retrospectiva de historias clínicas: proporción de pacientes libres de ataques en práctica real |
-| [NCT04955964](https://clinicaltrials.gov/study/NCT04955964) | N/A | Completado | 48 | Estudio poscomercialización en Argentina: eficacia, efectividad y seguridad en mayores de 12 años |
+| [NCT05397431](https://clinicaltrials.gov/study/NCT05397431) | N/A | Activo, sin reclutamiento | 155 | Encuesta posterior a la comercialización en Japón sobre efectos adversos y mejoría de síntomas con uso prolongado |
+| [NCT04583007](https://clinicaltrials.gov/study/NCT04583007) | N/A | Ya no disponible | N/A | Programa de acceso expandido para prevención de ataques en niños de 2 a <12 años y en angioedema no histaminérgico con C1-INH normal; no aporta evidencia de eficacia |
+
+---
 
 ## Evidencia de Literatura
 
-Se muestran 10 de 20 publicaciones, priorizando ECA, revisiones y luego estudios observacionales.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | ECA | JAMA | Efecto de lanadelumab frente a placebo en la prevención de ataques de AEH (estudio HELP) |
-| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Extensión abierta (Fase 3) | Allergy | Efectividad y seguridad a largo plazo en mayores de 12 años con AEH tipo 1/2 (HELP OLE) |
-| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Revisión sistemática | Clin Rev Allergy Immunol | Proporción y características de los ataques que ocurren pese a la profilaxis a largo plazo |
-| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Metaanálisis en red | Drugs in R&D | Comparación indirecta de eficacia, seguridad y calidad de vida entre profilaxis (garadacimab, lanadelumab, C1-INH subcutáneo, berotralstat) |
-| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Comparación indirecta de tratamientos | J Comp Eff Res | Lanadelumab frente a un concentrado de C1-INH en pacientes pediátricos menores de 12 años |
-| [39701274](https://pubmed.ncbi.nlm.nih.gov/39701274/) | 2025 | Observacional multipaís | J Allergy Clin Immunol Pract | Efectividad en el mundo real de lanadelumab en AEH (estudio INTEGRATED) |
-| [30539362](https://pubmed.ncbi.nlm.nih.gov/30539362/) | 2019 | Revisión | BioDrugs | Estudios preclínicos y de Fase I de lanadelumab en AEH con deficiencia de C1-INH |
-| [32187470](https://pubmed.ncbi.nlm.nih.gov/32187470/) | 2020 | Revisión | N Engl J Med | Revisión general del angioedema hereditario |
-| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Serie de casos | J Allergy Clin Immunol Pract | Eficacia de lanadelumab en angioedema adquirido con deficiencia de C1-INH |
-| [36379410](https://pubmed.ncbi.nlm.nih.gov/36379410/) | 2023 | Serie de casos | J Allergy Clin Immunol Pract | Eficacia de lanadelumab en angioedema por deficiencia adquirida de C1-INH |
+| [30480729](https://pubmed.ncbi.nlm.nih.gov/30480729/) | 2018 | ECA | JAMA | Ensayo aleatorizado (HELP) de lanadelumab frente a placebo en la prevención de ataques de AEH |
+| [34287942](https://pubmed.ncbi.nlm.nih.gov/34287942/) | 2022 | Extensión abierta | Allergy | Estudio HELP OLE: efectividad y seguridad a largo plazo en pacientes ≥12 años con AEH tipo 1/2 |
+| [40434599](https://pubmed.ncbi.nlm.nih.gov/40434599/) | 2025 | Metaanálisis en red | Drugs in R&D | Comparación indirecta de terapias de profilaxis a largo plazo en AEH |
+| [39508959](https://pubmed.ncbi.nlm.nih.gov/39508959/) | 2024 | Revisión sistemática | Clin Rev Allergy Immunol | Ataques en pacientes que reciben profilaxis a largo plazo |
+| [40504359](https://pubmed.ncbi.nlm.nih.gov/40504359/) | 2025 | Cohorte | Adv Ther | Estudio EMPOWER: efectividad y seguridad en la práctica real hasta 36 meses |
+| [39836016](https://pubmed.ncbi.nlm.nih.gov/39836016/) | 2025 | Comparación indirecta | J Comp Eff Res | Lanadelumab frente a inhibidor de C1 en pacientes pediátricos con AEH |
+| [31560114](https://pubmed.ncbi.nlm.nih.gov/31560114/) | 2019 | Revisión | Drugs | Revisión de lanadelumab en AEH; reducción significativa de ataques frente a placebo en el ensayo HELP |
+| [30267321](https://pubmed.ncbi.nlm.nih.gov/30267321/) | 2018 | Revisión | Drugs | Primera aprobación global; anticuerpo que inhibe la calicreína plasmática |
+| [33556593](https://pubmed.ncbi.nlm.nih.gov/33556593/) | 2021 | Reporte de caso | J Allergy Clin Immunol Pract | Eficacia de lanadelumab en angioedema adquirido con deficiencia de inhibidor de C1 |
+| [39399485](https://pubmed.ncbi.nlm.nih.gov/39399485/) | 2024 | Reporte de caso | Front Immunol | Uso en paciente trasplantado renal con AEH y alto riesgo cardiovascular |
+
+---
 
 ## Información de Mercado en Colombia
 
-Los 5 registros del Evidence Pack comparten el mismo número sanitario, por lo que se muestran en una sola fila.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20154566 | TAKHZYRO® (TAKEDA COLOMBIA S.A.S) | Solución inyectable | El registro solo indica «LANADELUMAB», sin texto de indicación |
+| 20154566 (cancelado) | TAKHZYRO® (Takeda Colombia S.A.S) | Solución inyectable | Lanadelumab |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La búsqueda de interacciones farmacológicas no devolvió resultados.
+- **Interacciones farmacológicas**: la consulta se completó y devolvió un único registro, de naturaleza farmacológica y no de interacción con otro medicamento. Se trata de su blanco terapéutico, la calicreína plasmática (KLKB1), que lanadelumab inhibe. No se identificaron interacciones con otros fármacos.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay dos ensayos de Fase 3 completados en AEH (HELP y su extensión), un ECA publicado en JAMA y numerosos estudios de práctica real. El nivel de evidencia es L1 y el mecanismo es directo. Como es una indicación ya establecida, el trabajo pendiente es documental y regulatorio, no de descubrimiento.
-
-Las otras 9 predicciones (rank 2 a 10: serpinopatías, pancreatitis, trastornos plaquetarios, miopatías inflamatorias, etc.) no tienen ensayos ni literatura. Están en nivel L5 con decisión **Hold**, y las asociaciones parecen artefactos de proximidad en el grafo.
+Existen un ECA de referencia (HELP, JAMA 2018), tres ensayos de Fase 3 completados y abundante evidencia de práctica real que respaldan el uso en AEH. Sin embargo, el registro en Colombia está cancelado y faltan datos de seguridad del prospecto, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones, un requisito previo al tamizaje de seguridad.
-- Aclarar el texto de indicación aprobada en los registros colombianos, que hoy solo dice «LANADELUMAB».
-- Completar los datos de mecanismo de acción en DrugBank.
-- Verificar los registros duplicados del mismo número sanitario.
-- Definir el alcance en angioedema adquirido por deficiencia de C1-INH, donde solo hay series de casos pequeñas.
-- Considerar la posible prolongación del aPTT por la vía de contacto al interpretar pruebas de coagulación.
+- Aclarar el estado regulatorio: confirmar por qué el registro 20154566 figura cancelado y si existe otro registro vigente.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Confirmar el mecanismo de acción en DrugBank.
+- Verificar que la indicación original del registro corresponda a la profilaxis del AEH.
+- Plan de monitoreo de seguridad para poblaciones específicas (pediátrica, trasplantados).
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Otras predicciones del modelo:** las demás indicaciones (serpinopatía con polimerización tóxica de serpina, pancreatitis, enfermedad de von Willebrand tipo plaquetario, trastornos de función plaquetaria, miopatías inflamatorias, trombastenia de Glanzmann, síndrome de Scott) no tienen ensayos ni literatura, carecen de un vínculo mecanístico plausible y se clasifican como L5 con decisión **Hold**. Probablemente son artefactos del grafo de conocimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

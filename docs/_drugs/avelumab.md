@@ -2,7 +2,7 @@
 layout: default
 title: Avelumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 67
+nav_order: 78
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,96 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avelumab: De Indicación No Especificada en el Registro a Tumor Asociado al Herpesvirus Humano 8
+# Avelumab: De Avelumab (indicación no detallada) a Tumor Relacionado con el Herpesvirus Humano 8
 
 ## Resumen en Una Frase
 
-Avelumab es un anticuerpo anti-PD-L1 comercializado en Colombia como BAVENCIO®. El registro sanitario solo indica "AVELUMAB" y no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **tumores asociados al herpesvirus humano 8** (como el sarcoma de Kaposi), pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa solo en el modelo computacional.
+Avelumab es un anticuerpo monoclonal anti-PD-L1 comercializado en Colombia como BAVENCIO®; el registro sanitario disponible no detalla una indicación específica, pues solo repite el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **tumor relacionado con el herpesvirus humano 8** (por ejemplo, sarcoma de Kaposi), pero **actualmente no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; la predicción se basa únicamente en el modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice "AVELUMAB") |
-| Nueva Indicación Predicha | Tumor asociado al herpesvirus humano 8 |
+| Indicación Original | No especificada en el registro (el texto solo indica "Avelumab") |
+| Nueva Indicación Predicha | Tumor relacionado con el herpesvirus humano 8 |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 2 (ambos con el mismo número, 20131917) |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, avelumab es un anticuerpo anti-PD-L1, es decir, una inmunoterapia que bloquea el eje PD-1/PD-L1 para reactivar la respuesta inmune contra las células tumorales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, avelumab es un anticuerpo anti-PD-L1 (inhibidor de punto de control inmunitario) que bloquea la interacción entre PD-L1 y su receptor PD-1, con lo que restablece la actividad de los linfocitos T contra las células tumorales.
 
-La hipótesis mecanística es que el agotamiento inmunológico por el eje PD-1/PD-L1 es plausible en tumores causados por virus, como el sarcoma de Kaposi. En ese escenario, bloquear PD-L1 podría restaurar la respuesta inmune contra el tumor.
+Los tumores relacionados con el herpesvirus humano 8, como el sarcoma de Kaposi, muestran expresión de PD-L1 y evasión inmunitaria impulsada por el virus, por lo que el bloqueo de puntos de control es biológicamente plausible. Sin embargo, este vínculo es solo una hipótesis: no hay ensayos ni literatura en los datos compilados, y la relación con la indicación original no pudo evaluarse porque el registro no detalla una indicación.
 
-Esta relación es solo una inferencia general. No se suministraron ensayos, literatura ni datos de expresión de PD-L1 para este tumor, y la similitud con la indicación original no se pudo evaluar. La predicción se apoya únicamente en el puntaje del grafo de conocimiento.
+Otras predicciones del listado, como las inmunodeficiencias primarias (deficiencia de adenosina desaminasa, disgenesia reticular, inmunodeficiencia combinada no grave e hipoplasia inmunoeritromieloide), carecen de un mecanismo plausible y probablemente son artefactos de la red del modelo. Las predicciones más creíbles por precedente de clase son las del carcinoma urotelial (uretra prostática y pelvis renal con diferenciación sarcomatoide), dado que avelumab tiene uso establecido como terapia de mantenimiento en carcinoma urotelial avanzado. Esas indicaciones podrían solaparse con el uso ya aprobado, por lo que no serían reposicionamiento en sentido estricto.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20131917 | BAVENCIO® (MERCK S.A.) | Solución para infusión | AVELUMAB (sin texto de indicación detallado) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20131917 | BAVENCIO® (MERCK S.A.) | Solución para infusión | Avelumab | Cancelado |
 
-El Evidence Pack lista dos registros con el mismo número y los mismos datos, por lo que aquí se muestra una sola vez.
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo monoclonal anti-PD-L1) |
+| Riesgo de Mielosupresión | Bajo en general; no es un citotóxico convencional. Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma, función hepática, renal y tiroidea, por posibles eventos adversos inmunomediados |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 3 interacciones de nivel **Mayor** (fuente: DDInter):
+  - Lenalidomida
+  - Pomalidomida
+  - Talidomida
+
+Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dispone de esa información en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.97%), pero es solo computacional (L5), sin ensayos ni literatura, y la indicación aprobada localmente no está detallada. No hay base suficiente para avanzar.
+La predicción para tumores relacionados con el herpesvirus humano 8 es de nivel L5: solo hay puntaje del modelo, sin ensayos ni literatura. Además, el único registro sanitario en Colombia está cancelado, lo que limita la viabilidad local inmediata.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones) para poder hacer el tamizaje de seguridad.
-- Consultar el mecanismo de acción en DrugBank.
-- Buscar ensayos clínicos y literatura sobre avelumab en sarcoma de Kaposi y otros tumores asociados a HHV-8.
-- Reunir datos de expresión de PD-L1 en estos tumores.
-- Como referencia, otras predicciones del mismo Evidence Pack tienen un vínculo más plausible: el carcinoma urotelial de uretra prostática (L4) y el carcinoma de células transicionales sarcomatoide de pelvis renal (L3). Pueden ser candidatas más prometedoras para priorizar.
+- Búsqueda dirigida de ensayos y literatura sobre avelumab en sarcoma de Kaposi y otros tumores relacionados con HHV-8
+- Para carcinoma urotelial de uretra prostática y de pelvis renal sarcomatoide (candidatos más creíbles, marcados como preguntas de investigación): revisión específica de subgrupos del tracto superior y de histología sarcomatoide, y aclarar si se solapan con la indicación ya aprobada
+- Datos detallados del mecanismo de acción (consulta a DrugBank)
+- Prospecto de INVIMA con advertencias y contraindicaciones para completar el tamizaje de seguridad
+- Aclarar el estado regulatorio actual en Colombia (registro cancelado) y la indicación aprobada original
+- Evaluar la relevancia clínica de las interacciones mayores con lenalidomida, pomalidomida y talidomida
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

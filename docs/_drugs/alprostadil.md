@@ -2,7 +2,7 @@
 layout: default
 title: Alprostadil
 parent: Evidencia Moderada (L3-L4)
-nav_order: 39
+nav_order: 41
 evidence_level: L3
 indication_count: 10
 ---
@@ -29,92 +29,97 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Alprostadil: De Indicación No Especificada en el Registro a Malformación Aórtica
+# Alprostadil: De Alprostadil (indicación no detallada en el registro) a Malformación Aórtica
 
 ## Resumen en Una Frase
 
-Alprostadil (prostaglandina E1) está comercializado en Colombia en presentaciones inyectables. Sin embargo, los registros sanitarios consultados solo repiten el nombre del principio activo y no detallan una indicación aprobada.
-El modelo TxGNN predice que podría ser útil para la **malformación aórtica**, con **2 ensayos clínicos** (ninguno con evidencia de eficacia directa) y **20 publicaciones** que respaldan sobre todo su uso como terapia puente en lesiones aórticas que dependen del conducto arterioso.
+Alprostadil (prostaglandina E1) figura en los registros sanitarios colombianos, aunque el texto de indicación del registro solo repite el nombre del principio activo, sin detallar un uso específico.
+El modelo TxGNN predice que podría ser efectivo para **malformación aórtica**, con **0 ensayos clínicos** y **8 publicaciones** que actualmente respaldan esta dirección (principalmente reportes de caso, estudios descriptivos y revisiones).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice "ALPROSTADIL") |
-| Nueva Indicación Predicha | Malformación aórtica (aortic malformation) |
+| Indicación Original | ALPROSTADIL (el registro no especifica una indicación detallada) |
+| Nueva Indicación Predicha | Malformación aórtica |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según el análisis de la predicción, alprostadil (PGE1) relaja el músculo liso del conducto arterioso a través de los receptores EP y la señalización de AMPc, y así mantiene el conducto abierto. Esa permeabilidad sostiene la perfusión sistémica en lesiones aórticas que dependen del conducto, como el arco aórtico interrumpido, la estenosis aórtica crítica y la atresia aórtica con ventrículo izquierdo hipoplásico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, alprostadil es un análogo sintético de la prostaglandina E1 (PGE1), que relaja el músculo liso vascular y, en particular, el del conducto arterioso.
 
-La literatura recuperada coincide con este mecanismo. La revisión de Jonas (2015) señala que la introducción de PGE1 a finales de los años 70 revolucionó el manejo del arco aórtico interrumpido. Además, un caso de 2020 describe su uso en una coartación severa con conducto cerrado. Un estudio clásico de 1982 encontró mejoría metabólica o circulatoria transitoria en 6 de 7 lactantes con ventrículo izquierdo hipoplásico y atresia aórtica.
+En recién nacidos con cardiopatías congénitas "ducto-dependientes", la circulación sistémica o pulmonar depende de que el conducto arterioso permanezca abierto. La infusión de alprostadil mantiene esa permeabilidad y funciona como puente hasta la reparación quirúrgica. Esto ocurre en lesiones como el arco aórtico interrumpido, la coartación y la transposición de grandes arterias, todas descritas en la literatura revisada.
 
-Conviene precisar el alcance. Alprostadil funciona como **terapia puente** hasta la reparación quirúrgica y no modifica la enfermedad. Además, el vínculo se apoya en la fisiología del conducto y no en una acción directa sobre la malformación aórtica. La evidencia es en su mayoría descriptiva (series de casos, reportes y revisiones).
+Es importante precisar que el fármaco **no corrige la malformación**: solo estabiliza al paciente mientras se llega a la cirugía. Por ello, la "nueva indicación" debe entenderse como soporte hemodinámico neonatal en malformaciones aórticas ducto-dependientes, y no como tratamiento curativo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04054115](https://clinicaltrials.gov/study/NCT04054115) | Fase 1 | Terminado | 10 | Efectos agudos de alprostadil sobre el flujo cerebral y pulmonar tras la conexión cavopulmonar bidireccional (cardiopatía congénita univentricular). Terminó con solo 10 pacientes y su población no es específica de malformación aórtica. |
-| [NCT02042092](https://clinicaltrials.gov/study/NCT02042092) | No aplica | Completado | 39 | Comparación transversal de ecografía Doppler color y angiorresonancia en vasculitis de grandes vasos. No evalúa alprostadil, así que no aporta evidencia de eficacia. |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-No se encontraron ensayos clínicos aleatorizados. Predominan revisiones, series y reportes de casos.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [26686446](https://pubmed.ncbi.nlm.nih.gov/26686446/) | 2015 | Revisión | Semin Thorac Cardiovasc Surg | El uso de PGE1 revolucionó el manejo del arco aórtico interrumpido. Se recomienda estabilizar al paciente antes de la reparación neonatal en una sola etapa. |
-| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Revisión / evaluación clínica | Pharmacotherapy | Evaluación de alprostadil en cardiopatías congénitas del lactante. La infusión dilata el conducto y mejora el flujo pulmonar. |
-| [7201134](https://pubmed.ncbi.nlm.nih.gov/7201134/) | 1982 | Serie de casos | Pediatr Cardiol | Siete lactantes con ventrículo izquierdo hipoplásico y atresia aórtica. Seis tuvieron mejoría transitoria, pero 4 de los 5 no operados fallecieron poco después. |
-| [6537955](https://pubmed.ncbi.nlm.nih.gov/6537955/) | 1984 | Serie de casos | J Am Coll Cardiol | Diecisiete neonatos con infusión prolongada de PGE1 (promedio de 39 días), que incluyó 2 casos de coartación aórtica. |
-| [31010402](https://pubmed.ncbi.nlm.nih.gov/31010402/) | 2020 | Reporte de caso y revisión | World J Pediatr Congenit Heart Surg | Prematuro con coartación severa y conducto cerrado, manejado con PGE1 hasta la cirugía. Sugiere un papel de la prostaglandina incluso sin conducto permeable. |
-| [10771966](https://pubmed.ncbi.nlm.nih.gov/10771966/) | 1998 | Serie clínica | Indian J Pediatr | PGE1 como paliación de primera etapa en neonatos con cardiopatías dependientes del conducto. |
-| [10216540](https://pubmed.ncbi.nlm.nih.gov/10216540/) | 1998 | Experiencia clínica | Indian Pediatr | Experiencia india con PGE1 en cardiopatías congénitas dependientes del conducto. Puede salvar la vida. |
-| [30347623](https://pubmed.ncbi.nlm.nih.gov/30347623/) | 2019 | Revisión | J Neonatal Perinatal Med | Estrategias de alimentación enteral y riesgo de enterocolitis necrosante en lactantes con infusión de PGE1. |
-| [25263728](https://pubmed.ncbi.nlm.nih.gov/25263728/) | 2014 | Reporte de caso (efecto adverso) | J Perinatol | Estenosis pilórica hipertrófica transitoria por infusión prolongada de PGE1. |
-| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Estudio clínico (diseño poco claro) | Zhonghua Yi Xue Za Zhi | Efecto de alprostadil y ulinastatina sobre la inflamación y la lesión pulmonar tras circulación extracorpórea en niños con cardiopatía congénita. |
+| [19080093](https://pubmed.ncbi.nlm.nih.gov/19080093/) | 2008 | Estudio clínico | Zhonghua Yi Xue Za Zhi | Efecto de alprostadil y ulinastatina sobre la respuesta inflamatoria y la lesión pulmonar tras circulación extracorpórea en niños con cardiopatía congénita |
+| [6763200](https://pubmed.ncbi.nlm.nih.gov/6763200/) | 1982 | Evaluación clínica (serie de casos) | Pharmacotherapy | Alprostadil dilata el conducto arterioso y aumenta el flujo pulmonar en lactantes con malformaciones congénitas dependientes del conducto |
+| [15362549](https://pubmed.ncbi.nlm.nih.gov/15362549/) | 2004 | Revisión | Kyobu Geka | Estrategia en transposición de grandes arterias: alprostadil alfadex mantiene el conducto abierto para preservar la función del ventrículo izquierdo |
+| [41167776](https://pubmed.ncbi.nlm.nih.gov/41167776/) | 2025 | Cohorte retrospectiva | Zhonghua Fu Chan Ke Za Zhi | Modo y momento del parto en 123 fetos con cardiopatía congénita compleja |
+| [42469655](https://pubmed.ncbi.nlm.nih.gov/42469655/) | 2026 | Cohorte retrospectiva | BMC Pregnancy and Childbirth | Manejo perinatal integrado de cardiopatía congénita fetal compleja |
+| [30184041](https://pubmed.ncbi.nlm.nih.gov/30184041/) | 2018 | Reporte de caso | Braz J Cardiovasc Surg | Reparación de ventana aortopulmonar compleja; alprostadil y milrinona usados antes de la cirugía para contrarrestar la presión pulmonar elevada |
+| [19068708](https://pubmed.ncbi.nlm.nih.gov/19068708/) | 2008 | Reporte de caso | Kyobu Geka | Arco aórtico interrumpido tipo B en neonato; alprostadil mantuvo el conducto abierto antes de la reparación en un tiempo |
+| [20029353](https://pubmed.ncbi.nlm.nih.gov/20029353/) | 2009 | Estudio en animales | Minerva Chirurgica | Alprostadil atenuó la lesión por isquemia-reperfusión en músculo esquelético de rata (relevancia indirecta) |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se registran 20 registros sanitarios en total. Los datos disponibles muestran los siguientes registros distintos (el registro 20093133 aparece repetido varias veces):
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20270758 | ALPROSTADIL 20 MCG / ML SOLUCIÓN INYECTABLE (ADS PHARMA S.A.S.) | Solución inyectable | ALPROSTADIL (sin indicación detallada) |
-| 20093133 | DALVEOL 20 MCG/ML SOLUCIÓN INYECTABLE (CLOSTER PHARMA S.A.S.) | Inyectables | ALPROSTADIL (sin indicación detallada) |
+| 20270758 | Alprostadil 20 mcg/mL solución inyectable (ADS Pharma) | Solución inyectable | ALPROSTADIL (cancelado) |
+| 20093133 | Dalveol 20 mcg/mL solución inyectable (Closter Pharma) | Inyectables | ALPROSTADIL (cancelado) |
+| 19926427 | Alprostapint 20 µg ampollas (Pint Pharma) | Solución concentrada para infusión | ALPROSTADIL (cancelado) |
+| 20256489 | Vesglandin-E 500 mcg/mL solución inyectable (Vesalius Pharma) | Solución inyectable | ALPROSTADIL (cancelado) |
+| 19954356 | Caverject 20 mcg (Pfizer) | Polvo liofilizado para reconstituir a solución inyectable | ALPROSTADIL (cancelado) |
 
-Otras formas farmacéuticas registradas en el conjunto de licencias: solución concentrada para infusión y polvo liofilizado para reconstituir a solución inyectable.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones no están disponibles en esta evaluación.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto)**: se asocian relaciones de contraindicación con síndrome de dificultad respiratoria (neonatal y agudo), trastornos hipotensivos, enfermedades de la coagulación, anemia falciforme y hemoglobinopatías, mieloma de células plasmáticas, leucemias (linfoide, mieloide, linfoblástica aguda), policitemia, trombocitosis, priapismo, enfermedad de Peyronie y otras afecciones del pene (balanitis, balanopostitis, estenosis uretral), uretritis, estenosis pilórica y enfermedad pulmonar.
+- **Interacciones farmacológicas**: se identificaron 59 interacciones; las de nivel moderado incluyen canagliflozina, dapagliflozina, empagliflozina, ertugliflozina, lorcaserina y sapropterina. Otras (por ejemplo, morfina, metformina, omeprazol, prednisona, vancomicina, anfotericina B) tienen nivel de gravedad no clasificado.
+- **Riesgos señalados en la literatura**: en el uso neonatal se describen apnea, hipotensión y fiebre. Con infusión prolongada se han reportado hiperplasia antral e hipertrofia pilórica con obstrucción de salida gástrica, y un caso de síndrome pseudo-Bartter con alteraciones electrolíticas.
 
-Como señales tomadas de la literatura (no del prospecto), la infusión prolongada de PGE1 en neonatos se ha asociado con:
-- Estenosis pilórica hipertrófica transitoria e hiperplasia foveolar antral (PMID 25263728 y 23521358).
-- Fiebre, exantema, apnea, diarrea, irritabilidad y rubor. También se describen necrosis de grasa parda e hiperostosis cortical (PMID 23521358).
-- Cambio de color tipo arlequín relacionado con la dosis (PMID 15461766).
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe respaldo mecanístico directo y una larga trayectoria clínica neonatal en lesiones aórticas dependientes del conducto. Aun así, la evidencia es de nivel L3 (series y reportes de casos, sin ECA), y los dos ensayos identificados no demuestran eficacia. Además, alprostadil actúa como terapia puente, no como tratamiento modificador de la enfermedad.
+Existe un uso clínico establecido de alprostadil para mantener la permeabilidad del conducto en malformaciones aórticas ducto-dependientes, respaldado por literatura (serie de casos, reportes de caso, revisión), pero sin ensayos clínicos registrados. La evidencia es de nivel L3 y el uso debe limitarse a la circulación neonatal ducto-dependiente bajo vigilancia especializada.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
-- Confirmar con el registro sanitario si la indicación de ductus arterioso ya está aprobada en Colombia, ya que el texto solo dice "ALPROSTADIL".
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Definir un protocolo de uso hospitalario neonatal con monitoreo de apnea, presión arterial y complicaciones gastrointestinales en infusiones prolongadas.
-- Tener en cuenta que las demás indicaciones predichas tienen menor soporte: las relacionadas con tricúspide y la comunicación septal son de nivel L3-L4 y quedan como preguntas de investigación, mientras que el resto son L5 y quedan en espera (Hold).
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones oficiales), pues hoy no hay datos de seguridad en etiqueta.
+- Confirmar el mecanismo de acción mediante DrugBank.
+- Verificar la situación regulatoria: los 5 registros están cancelados, por lo que no hay producto vigente en el mercado colombiano.
+- Definir un protocolo de monitoreo para apnea, hipotensión, fiebre, electrolitos y signos de obstrucción gástrica en infusiones prolongadas.
+- Revisar con un especialista los textos completos de la literatura para confirmar su relevancia específica con la malformación aórtica.
 
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Nota sobre otras predicciones:** las demás indicaciones predichas (estenosis tricuspídea congénita, displasia valvular congénita, agenesia de la válvula tricúspide, entre otras) carecen de ensayos y de literatura y quedan en *Hold*. El defecto septal cardíaco cuenta con solo cuatro reportes indirectos (nivel L4), y el bocio endémico no presenta un vínculo mecanístico plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

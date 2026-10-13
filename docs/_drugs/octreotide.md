@@ -2,7 +2,7 @@
 layout: default
 title: Octreotide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 300
+nav_order: 477
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,69 +29,99 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Octreotida: De Tumores Productores de Hormona de Crecimiento a Queratosis Folicular Invertida Vulvar
+# Octreotida: De Octreotido (indicación registrada sin detalle) a Queratosis Folicular Invertida Vulvar
 
 ## Resumen en Una Frase
 
-Octreotida es un análogo de la somatostatina, utilizado originalmente en tumores productores de hormona de crecimiento y tumores hipofisarios secretores de TSH.
-El modelo TxGNN predice que podría ser efectivo para **queratosis folicular invertida vulvar**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción computacional.
+Octreotida es un análogo de la somatostatina que cuenta con un registro sanitario en Colombia (Sandostatin®), actualmente cancelado, cuyo texto de indicación se limita al nombre del principio activo ("Octreotido"). El modelo TxGNN predice que podría ser efectivo para **queratosis folicular invertida vulvar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción; se trata de una señal puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | OCTREOTIDO (el registro sanitario solo repite el nombre del principio activo, sin texto de indicación explícito) |
+| Indicación Original | Octreotido (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Queratosis folicular invertida vulvar |
-| Puntaje de Predicción TxGNN | 99,58% |
+| Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información farmacológica disponible, octreotida es un péptido análogo de la somatostatina que actúa sobre los receptores de somatostatina SST2, SST3 y SST5 (genes SSTR2, SSTR3 y SSTR5). Su uso comprobado incluye tumores productores de hormona de crecimiento, tumores hipofisarios secretores de TSH y la obtención de imágenes en medicina nuclear de tumores neuroendocrinos que expresan receptores de somatostatina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, octreotida es un péptido análogo de la somatostatina que se une a los receptores de somatostatina SST2, SST3 y SST5. Su uso clínico conocido incluye tumores productores de hormona de crecimiento (acromegalia), tumores hipofisarios secretores de TSH y la obtención de imágenes de medicina nuclear de tumores neuroendocrinos que expresan receptores de somatostatina.
 
-**Los datos no respaldan un vínculo mecanístico entre este mecanismo y la queratosis folicular invertida vulvar.** Esta es una lesión epitelial benigna, y no hay evidencia que conecte la señalización de somatostatina con ella. El único sustento es el puntaje del modelo (0,996), que es una salida computacional y no evidencia clínica ni preclínica. La relación entre la indicación original y la nueva sigue sin evaluarse.
+La relación entre estas indicaciones y la queratosis folicular invertida vulvar, una lesión epidérmica benigna, **no está respaldada por los datos disponibles**. Un papel de la señalización de receptores de somatostatina en la proliferación de queratinocitos benignos es meramente especulativo.
 
-Además, el modelo predijo como segunda indicación la **queratosis seborreica**, con un puntaje casi idéntico (99,55%) y también sin ensayos ni publicaciones. Esa similitud sugiere que el modelo podría estar captando un patrón de similitud entre enfermedades de la misma clase (lesiones queratinocíticas benignas) y no una señal específica del fármaco. Además, estas lesiones suelen tratarse con fines estéticos, por lo que la relación beneficio-riesgo de un péptido sistémico no está clara.
+El puntaje alto de TxGNN (99.58%) es solo una predicción del modelo. La segunda predicción, queratosis seborreica (99.55%), probablemente comparte la misma señal de vecindad en el grafo de conocimiento y no constituye evidencia independiente. Por tanto, esta predicción debe considerarse una hipótesis exploratoria.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007947 | SANDOSTATIN® AMPOLLAS 0.1 MG (NOVARTIS PHARMA AG) | Solución inyectable | OCTREOTIDO (sin indicación explícita en el registro) |
+| 20007947 (cancelado) | SANDOSTATIN® AMPOLLAS 0.1 MG | Solución inyectable | Octreotido |
 
-Los 12 registros indicados provienen de este mismo número de registro sanitario y producto; las cinco entradas recibidas eran idénticas. La única vía de administración registrada corresponde a solución inyectable.
+El único registro, a nombre de Novartis Pharma AG, está cancelado, por lo que actualmente no hay producto vigente en Colombia con este principio activo según los datos compilados.
+
+---
+
+## Citotoxicidad
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia dirigida a receptores (análogo peptídico de somatostatina); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Sin datos en la información compilada; consultar el prospecto |
+| Clasificación de Emetogenicidad | Sin datos; consultar el prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de precaución según el grafo de conocimiento (TxGNN/PrimeKG):** estas relaciones provienen del grafo de conocimiento y no del texto del prospecto, por lo que deben verificarse con la ficha técnica oficial. Las condiciones asociadas son:
+  - Metabólicas y endocrinas: hiperglucemia, hipoglucemia, diabetes mellitus, cetoacidosis diabética, hipotiroidismo (incluido el congénito), mixedema, deficiencia de vitamina B12.
+  - Hepatobiliares: cirrosis hepática, enfermedad hepática, enfermedad de la vesícula biliar, colelitiasis, colecistolitiasis, coledocolitiasis.
+  - Gastrointestinales: íleo, obstrucción intestinal.
+  - Cardiovasculares: paro cardíaco súbito, enfermedad de la conducción cardíaca.
+  - Renales: insuficiencia renal, uremia.
+- **Interacciones farmacológicas:** los datos disponibles describen únicamente la afinidad farmacológica de octreotida por los receptores SST2, SST3 y SST5; no se identificaron interacciones con otros fármacos con nivel de gravedad asignado.
 
-Los datos de interacciones recibidos corresponden a la unión con los receptores SST2, SST3 y SST5, es decir, información farmacológica de dianas. No incluyen interacciones con otros medicamentos.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura y sin un vínculo mecanístico verificable. La forma inyectable sistémica tampoco tiene una compatibilidad de vía evaluada para una lesión cutánea benigna.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico respaldado por los datos y con el único registro sanitario colombiano cancelado. No hay base para avanzar en este momento.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto aprobado por INVIMA (advertencias y contraindicaciones), requisito para cualquier evaluación de seguridad.
-- Completar los datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank) para evaluar un posible vínculo con la queratosis folicular invertida vulvar.
-- Realizar una búsqueda dirigida de literatura y ensayos sobre somatostatina o análogos en lesiones queratinocíticas benignas.
-- Evaluar la compatibilidad de vía de administración y la relación beneficio-riesgo frente a los tratamientos habituales.
-- Verificar si el puntaje casi idéntico de las dos indicaciones predichas refleja un sesgo del modelo por clase de enfermedad.
+- Datos del mecanismo de acción (consulta a DrugBank) y análisis de un posible vínculo entre la señalización de somatostatina y la queratinocitosis benigna.
+- Revisión sistemática de literatura y de registros de ensayos para queratosis folicular invertida y queratosis seborreica.
+- Obtención y análisis del prospecto oficial (INVIMA u otra fuente) para advertencias y contraindicaciones, necesario antes de cualquier evaluación de seguridad.
+- Aclarar el estado regulatorio en Colombia (registro cancelado) y la disponibilidad de otras presentaciones de octreotida.
+- Evaluar la compatibilidad de la vía de administración (la presentación conocida es inyectable) con una lesión cutánea/vulvar benigna.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

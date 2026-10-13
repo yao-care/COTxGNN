@@ -2,7 +2,7 @@
 layout: default
 title: Ampicillin
 parent: Evidencia Moderada (L3-L4)
-nav_order: 49
+nav_order: 56
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ampicilina: De «Ampicilina e Inhibidor Enzimático» a Laringitis
+# Ampicilina: De Ampicilina con Inhibidor Enzimático a Laringitis
 
 ## Resumen en Una Frase
 
-La ampicilina es un antibiótico betalactámico. En Colombia, el texto del registro sanitario solo dice «ampicilina e inhibidor enzimático», sin detallar la indicación.
-El modelo TxGNN predice que podría ser efectiva para **laringitis**.
-Solo hay **1 ensayo clínico**, sobre otro fármaco (amoxicilina/clavulanato), y **20 publicaciones**, casi todas reportes de caso y revisiones que no evalúan la ampicilina directamente.
+Ampicilina es un antibiótico betalactámico, registrado en Colombia como ampicilina con inhibidor enzimático.
+El modelo TxGNN predice que podría ser efectivo para **laringitis**, pero **no hay ensayos clínicos registrados** y solo **20 publicaciones** de apoyo indirecto (sobre epiglotitis, abscesos laríngeos y profilaxis perioperatoria, no sobre laringitis en sí).
 
 ---
 
@@ -43,54 +42,46 @@ Solo hay **1 ensayo clínico**, sobre otro fármaco (amoxicilina/clavulanato), y
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ampicilina e inhibidor enzimático (texto del registro; no describe una indicación clínica específica) |
+| Indicación Original | Ampicilina e inhibidor enzimático |
 | Nueva Indicación Predicha | Laringitis |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según el conocimiento general, la ampicilina es un betalactámico que inhibe las proteínas fijadoras de penicilina de la bacteria y bloquea así la síntesis de su pared celular. Su eficacia contra infecciones bacterianas sensibles es conocida desde hace décadas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la ampicilina es un betalactámico que inhibe la síntesis de la pared celular bacteriana, y su eficacia en infecciones bacterianas está comprobada.
 
-El vínculo con la laringitis existe, pero es limitado. Las infecciones bacterianas de la laringe y la región supraglótica, como la epiglotitis o el absceso laríngeo, podrían ser sensibles a un betalactámico. Sin embargo, la mayoría de las laringitis son virales, y contra ellas un antibiótico no tiene efecto esperable. La predicción solo sería plausible para un subgrupo bacteriano.
+Mecanísticamente existe un vínculo plausible con infecciones bacterianas de la laringe, como la epiglotitis y el absceso laríngeo, ya que la ampicilina tiene actividad frente a patógenos respiratorios altos comunes (*Haemophilus influenzae*, *Streptococcus* spp.).
 
-El puntaje alto de TxGNN refleja la asociación en el grafo de conocimiento entre antibióticos e infecciones de vías respiratorias altas. No demuestra eficacia de la ampicilina en laringitis.
+Sin embargo, la mayoría de las laringitis son de origen viral, y la literatura recuperada trata sobre epiglotitis, abscesos y profilaxis perioperatoria, no sobre laringitis propiamente dicha. El respaldo es, por tanto, **indirecto**.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01406275](https://clinicaltrials.gov/study/NCT01406275) | N/A | Completado | 363 | Vigilancia posterior a la comercialización de CLAVAMOX® (amoxicilina/clavulanato) en jarabe pediátrico, en Japón. Cubre infecciones de piel, faringitis, laringitis, amigdalitis, bronquitis, cistitis y pielonefritis (excepto otitis media). |
-
-**Nota:** este estudio es de otro fármaco y no es un ensayo de eficacia. No confirma que la laringitis sea la condición estudiada (relevancia: C). No aporta evidencia directa para la ampicilina.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-No se encontró ningún ECA. Los estudios están ordenados por tipo (revisiones antes que reportes de caso) y fecha.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Reporte de caso y revisión | Ann Otol Rhinol Laryngol | Los abscesos laríngeos son raros en la era antibiótica. Se presenta un caso en un paciente con diabetes no controlada y una revisión de casos modernos. |
-| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Evaluación de guías (AGREE II) | CoDAS | Evalúa la calidad metodológica de las guías clínicas para laringitis y faringitis. |
-| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión | Anaesth Intensive Care | 161 niños con epiglotitis aguda: 45 complicaciones y 5 muertes. Recomienda intubación nasotraqueal como manejo de la vía aérea. |
-| [5314768](https://pubmed.ncbi.nlm.nih.gov/5314768/) | 1971 | Revisión | Br Med J | Epiglotitis en adultos (sin resumen disponible). |
-| [5046782](https://pubmed.ncbi.nlm.nih.gov/5046782/) | 1972 | Revisión | Arch Dis Child | Manejo del crup agudo (sin resumen disponible). |
-| [30579693](https://pubmed.ncbi.nlm.nih.gov/30579693/) | 2019 | Reporte de caso | Auris Nasus Larynx | Actinomicosis laríngea en una adolescente de 14 años tras un trasplante de médula ósea. |
-| [34986973](https://pubmed.ncbi.nlm.nih.gov/34986973/) | 2023 | Reporte de caso y revisión | Auris Nasus Larynx | Epiglotitis aguda probablemente causada por COVID-19, con lesiones laríngeas erosivas. |
-| [6465636](https://pubmed.ncbi.nlm.nih.gov/6465636/) | 1984 | Serie de casos | Ann Emerg Med | Tres adultos con epiglotitis; el diagnóstico suele pasar inadvertido y puede haber obstrucción de la vía aérea. |
-| [3347186](https://pubmed.ncbi.nlm.nih.gov/3347186/) | 1988 | Serie de casos | Med J Aust | Tres casos de epiglotitis del adulto, con énfasis en la variabilidad clínica y la dificultad diagnóstica. |
-| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Estudio observacional | Otolaryngol Head Neck Surg | Relaciona el antibiótico perioperatorio elegido en laringectomía con infección de herida, dehiscencia y complicaciones por antibióticos. |
-
-**Nota:** ninguna de estas publicaciones muestra que la ampicilina sea eficaz en laringitis. Son en su mayoría descripciones de la enfermedad o de infecciones laríngeas específicas.
+| [3977063](https://pubmed.ncbi.nlm.nih.gov/3977063/) | 1985 | Revisión (serie de casos) | Anaesth Intensive Care | 161 niños con epiglotitis aguda; 45 complicaciones y 5 muertes; se recomienda intubación nasotraqueal para el manejo de la vía aérea |
+| [2603419](https://pubmed.ncbi.nlm.nih.gov/2603419/) | 1989 | Revisión | West J Med | 9 adultos con epiglotitis aguda; 4 requirieron intubación; en 6 el diagnóstico inicial fue incorrecto |
+| [35923122](https://pubmed.ncbi.nlm.nih.gov/35923122/) | 2023 | Reporte de caso/Revisión | Ann Otol Rhinol Laryngol | Absceso laríngeo espontáneo en paciente con diabetes no controlada y revisión de casos modernos |
+| [25944348](https://pubmed.ncbi.nlm.nih.gov/25944348/) | 2015 | Cohorte | Otolaryngol Head Neck Surg | Las complicaciones de la laringectomía se asocian con la elección del antibiótico perioperatorio |
+| [34986973](https://pubmed.ncbi.nlm.nih.gov/34986973/) | 2023 | Reporte de caso | Auris Nasus Larynx | Epiglotitis aguda probablemente causada por COVID-19 |
+| [38145982](https://pubmed.ncbi.nlm.nih.gov/38145982/) | 2024 | Cohorte | Eur Arch Otorhinolaryngol | Microbiología y estrategia antibiótica en abscesos de cuello en pacientes con diabetes |
+| [3026014](https://pubmed.ncbi.nlm.nih.gov/3026014/) | 1986 | Revisión | Rev Infect Dis | Sulbactam/ampicilina en epiglotitis aguda pediátrica, ante la resistencia de Hib por betalactamasas |
+| [6881564](https://pubmed.ncbi.nlm.nih.gov/6881564/) | 1983 | Estudio clínico | Anesth Analg | 23 niños con epiglotitis tratados con ampicilina o cloranfenicol; criterios de duración de intubación |
+| [3290661](https://pubmed.ncbi.nlm.nih.gov/3290661/) | 1988 | Estudio clínico | Monatsschr Kinderheilkd | Cambio en la resistencia de *H. influenzae* b a la ampicilina y sus consecuencias terapéuticas |
+| [39879424](https://pubmed.ncbi.nlm.nih.gov/39879424/) | 2025 | Evaluación de guías | CoDAS | Calidad metodológica de guías clínicas para laringitis y faringitis (AGREE II) |
 
 ---
 
@@ -98,15 +89,16 @@ No se encontró ningún ECA. Los estudios están ordenados por tipo (revisiones 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático |
-
-El paquete de evidencia informa 12 registros en total, pero solo detalla uno (20166599), repetido cinco veces con datos idénticos. Aquí se muestra una sola vez. El fabricante es Eugia Pharma Specialities Limited. La forma farmacéutica es inyectable.
+| 20166599 (cancelado) | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto de prospecto): enfermedad renal, función renal alterada, piouréter, enfermedad hematológica, enfermedad ulcerosa péptica, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, mononucleosis infecciosa, síndrome de infección crónica por virus de Epstein-Barr y nefropatía aguda por uratos.
+- **Interacciones Farmacológicas**: se identificaron 61 interacciones. Entre las de nivel moderado destacan doxiciclina, minociclina, tetraciclina, kanamicina, balsalazida, lansoprazol, dexlansoprazol y ácido picosulfúrico. La interacción con claritromicina es de nivel menor. Otras (omeprazol, pantoprazol, vancomicina, morfina, prednisona, hidrocortisona, ranitidina, entre otras) tienen nivel no clasificado.
+
+Para advertencias y contraindicaciones del prospecto, consultar el inserto oficial.
 
 ---
 
@@ -115,16 +107,32 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Hay solo un ensayo sobre otro fármaco y sin relación de eficacia confirmada. La literatura es descriptiva (reportes de caso y revisiones) y no evalúa la ampicilina en laringitis. Además, la mayoría de las laringitis son virales, por lo que un antibiótico solo tendría sentido en casos bacterianos específicos como la epiglotitis. Con esta base, la evidencia corresponde a un nivel L4.
+La predicción de TxGNN es muy alta (99.97%), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener del sitio de INVIMA el prospecto con advertencias y contraindicaciones, para completar el tamizaje de seguridad.
-- Aclarar la indicación aprobada real de los productos con ampicilina y su inhibidor enzimático.
-- Definir el subgrupo de interés, por ejemplo laringitis o epiglotitis bacteriana confirmada, y buscar estudios que usen específicamente ampicilina.
-- Consultar la base de datos de DrugBank para completar los datos del mecanismo de acción.
-- Considerar otras predicciones del mismo modelo antes de invertir en esta. Por ejemplo, la uretritis gonocócica tiene evidencia histórica más directa (varios ensayos comparativos con ampicilina), aunque hoy está limitada por la resistencia bacteriana.
+- Datos del mecanismo de acción desde DrugBank
+- Advertencias y contraindicaciones del prospecto en INVIMA
+- Estudios clínicos específicos de laringitis bacteriana, con vigilancia de resistencia (betalactamasas) en *H. influenzae*
+- Evaluar el sentido de la indicación frente a las guías actuales, dado que ya existen alternativas estándar
+- Revisar el estado regulatorio, al no haber registros vigentes
 
-*Este informe es solo para fines de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+---
+
+### Otras indicaciones predichas (referencia)
+
+Todas con recomendación **Hold**:
+
+| Indicación | Puntaje TxGNN | Nivel | Observación |
+|---|---|---|---|
+| Uretritis gonocócica | 99.36% | L3 | Indicación histórica (ensayos comparativos de los años 70-80); obsoleta por resistencia |
+| Uretritis por *Ureaplasma* | 99.36% | L5 | Sin sustento biológico: *Ureaplasma* carece de pared celular |
+| Rinosinusitis crónica | 99.34% | L4 | Evidencia solo microbiológica; papel limitado de antibióticos |
+| Sinusitis etmoidal crónica | 99.33% | L4 | Evidencia indirecta |
+| Gingivitis | 99.28% | L4 | Los antibióticos sistémicos no están indicados |
+| Neoplasia de seno paranasal | 99.20% | L5 | Sin fundamento mecanístico ni literatura; probable artefacto del modelo |
+| Artritis bacteriana | 99.11% | L3 | Mecanismo coherente, pero sin ensayos y con resistencia en *S. aureus* |
+| Conjuntivitis | 99.04% | L4 | Evidencia microbiológica; el estándar son agentes tópicos |
+| Pericoronitis | 99.04% | L4 | Faltan datos específicos; el tratamiento principal es el desbridamiento local |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

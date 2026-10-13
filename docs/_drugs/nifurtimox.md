@@ -2,7 +2,7 @@
 layout: default
 title: Nifurtimox
 parent: Solo Predicción del Modelo (L5)
-nav_order: 294
+nav_order: 467
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Indicación No Detallada en el Registro a Analbuminemia Congénita
+# Nifurtimox: De Indicación Original (no especificada en el registro) a Analbuminemia Congénita
 
 ## Resumen en Una Frase
 
-Nifurtimox es un antiprotozoario del grupo de los nitrofuranos. En Colombia está registrado como LAMPIT® (Bayer), pero el texto del registro no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
-Es una predicción puramente computacional, sin un vínculo mecanístico identificable.
+Nifurtimox es un antiprotozoario del grupo de los nitrofuranos, registrado en Colombia bajo la marca Lampit®, cuyo texto de indicación en el registro sanitario solo indica el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con una puntuación muy alta (99.58%), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ---
 
@@ -43,23 +42,34 @@ Es una predicción puramente computacional, sin un vínculo mecanístico identif
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada en el registro (el campo solo dice «NIFURTIMOX») |
+| Indicación Original | No especificada en el registro (el texto aprobado solo indica "NIFURTIMOX") |
 | Nueva Indicación Predicha | Analbuminemia congénita |
 | Puntaje de Predicción TxGNN | 99.58% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 4 (2 números de registro únicos, cada uno aparece duplicado) |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-**No se identificó un vínculo mecanístico que la respalde.** Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Nifurtimox es un nitrofurano antiprotozoario cuya actividad depende de la activación por nitrorreductasas del parásito y del estrés oxidativo que esta genera.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nifurtimox es un antiprotozoario nitrofurano cuya actividad depende de la nitrorreducción y la generación de especies reactivas de oxígeno y nitrógeno en los tripanosomas.
 
-La analbuminemia congénita es un defecto genético raro de la síntesis de albúmina. No hay una razón farmacológica plausible por la cual un antiparasitario con este mecanismo pueda corregirla. El puntaje de 0.996 refleja solo la similitud dentro del grafo de conocimiento, no biología demostrada.
+La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina, causado por variantes del gen ALB. **No se identifica ninguna vía plausible** que conecte el mecanismo del fármaco con la corrección de la deficiencia de albúmina. La puntuación alta de TxGNN (0.996) es solo una predicción basada en el grafo de conocimiento y no está respaldada por datos clínicos ni de literatura.
 
-Por ello, la predicción debe leerse como una hipótesis del modelo sin sustento clínico, preclínico ni bibliográfico en los datos recibidos.
+En conclusión, esta predicción debe considerarse una señal computacional sin sustento biológico demostrado.
+
+### Otras indicaciones predichas (todas con evidencia L5 y recomendación Hold)
+
+| Rango | Enfermedad | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Hiperamilasemia | 99.47% | Es un hallazgo de laboratorio, no una enfermedad diana; nifurtimox no modula la amilasa |
+| 3 | Síndrome de hiperviscosidad policlonal | 99.47% | Sin efecto conocido sobre inmunoglobulinas ni viscosidad plasmática |
+| 4 | Incompatibilidad de grupo sanguíneo | 99.24% | El mecanismo oxidativo podría ser riesgoso en contextos hemolíticos (p. ej., deficiencia de G6PD) |
+| 5 | Gammapatía monoclonal | 99.16% | Sin evidencia en trastornos de células plasmáticas |
+| 6 | Enfermedad hematológica premaligna | 99.11% | Relación riesgo-beneficio desfavorable en población asintomática |
+| 7 | Enfermedad hematológica asociada a neuropatía periférica adquirida | 99.06% | Preocupación de seguridad: nifurtimox se asocia con neuropatía periférica |
 
 ---
 
@@ -77,20 +87,26 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20215184 | LAMPIT® 30MG COMPRIMIDOS (Bayer AG) | Tableta | NIFURTIMOX (sin detalle de indicación) |
-| 20215915 | LAMPIT® 120MG (Bayer AG) | Tableta | NIFURTIMOX (sin detalle de indicación) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20215184 | LAMPIT® 30MG COMPRIMIDOS | Tableta | NIFURTIMOX | Cancelado |
+| 20215915 | LAMPIT® 120MG | Tableta | NIFURTIMOX | Cancelado |
 
-Nota: los datos traen 4 entradas, pero corresponden a solo 2 números de registro; cada uno aparece dos veces.
+Ambos registros pertenecen a BAYER AG y están cancelados; actualmente no hay registros vigentes en Colombia.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas** (5 registradas):
+  - **Etanol**: gravedad **mayor**.
+  - **Ritonavir**: gravedad moderada.
+  - **Tipranavir**: gravedad moderada.
+  - ***Bifidobacterium longum infantis***: gravedad moderada.
+  - ***Lactobacillus acidophilus***: gravedad moderada.
+- **Alertas derivadas del análisis de las predicciones**: nifurtimox se asocia con neuropatía periférica y otros efectos neurológicos adversos, por lo que su uso en afecciones que ya involucran neuropatía requeriría una justificación sólida. Además, su mecanismo de estrés oxidativo podría ser peligroso en contextos hemolíticos (p. ej., deficiencia de G6PD).
 
-Como dato de contexto, el propio análisis de la predicción señala que la neuropatía periférica es un efecto adverso conocido de nifurtimox. Esto es relevante para cualquier uso en condiciones hematológicas asociadas a neuropatía.
+Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ---
 
@@ -99,16 +115,15 @@ Como dato de contexto, el propio análisis de la predicción señala que la neur
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico ni publicación que respalde la predicción (nivel L5), y no se identificó un mecanismo plausible entre nifurtimox y la analbuminemia congénita. Las otras seis predicciones (hiperamilasemia, síndrome de hiperviscosidad policlonal, incompatibilidad de grupo sanguíneo, gammapatía monoclonal, enfermedad hematológica premaligna y enfermedad hematológica asociada a neuropatía periférica) también tienen nivel L5, tampoco tienen evidencia y quedan en Hold.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre nifurtimox y la analbuminemia congénita. Además, el fármaco no tiene registros vigentes en Colombia y hay señales de seguridad relevantes.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad.
-- Completar el mecanismo de acción desde DrugBank para poder evaluar un vínculo mecanístico.
-- Aclarar la indicación aprobada en los registros de INVIMA, ya que el texto solo repite el nombre del fármaco.
-- Realizar una búsqueda dirigida de literatura y ensayos, incluidos estudios preclínicos, antes de reconsiderar la hipótesis.
-- Depurar los registros duplicados en los datos de mercado.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto del INVIMA para advertencias y contraindicaciones (brecha de seguridad bloqueante).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Aclarar la indicación original aprobada, ya que el registro solo contiene el nombre del principio activo.
+- Realizar estudios preclínicos o de mecanismo que justifiquen un vínculo biológico con la nueva indicación.
+- Evaluar la situación regulatoria (registros cancelados) y la compatibilidad de vías de administración.
+- Considerar priorizar otras predicciones solo si aparece evidencia independiente; hasta ahora ninguna tiene respaldo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

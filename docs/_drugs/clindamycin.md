@@ -2,7 +2,7 @@
 layout: default
 title: Clindamycin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 130
+nav_order: 165
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,73 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Clindamicina: De Clindamicina (combinaciones) a Queratoconjuntivitis Epitelial Punteada
+# Clindamicina: De Clindamicina (Combinaciones) a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-La clindamicina es un antibiótico de la clase de las lincosamidas. En Colombia está registrada en productos de uso vaginal (óvulos y cremas vaginales).
-El modelo TxGNN predice que podría ser efectiva para **queratoconjuntivitis epitelial punteada**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata únicamente de una predicción del modelo.
+Clindamicina es un antibiótico lincosamida, registrado en Colombia en presentaciones vaginales (óvulos y cremas) para el tratamiento de infecciones ginecológicas.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicación; se trata únicamente de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Clindamicina (combinaciones). El registro solo indica el nombre del principio activo, sin una indicación clínica detallada |
+| Indicación Original | Clindamicina combinaciones |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la clindamicina es una lincosamida que inhibe la síntesis de proteínas bacterianas. Su uso comercializado en Colombia corresponde a presentaciones vaginales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la clindamicina es un antibiótico del grupo de las lincosamidas que inhibe la síntesis de proteínas bacterianas y es activo principalmente frente a bacterias Gram positivas. Su eficacia en infecciones ginecológicas locales es la base de su uso original.
 
-La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele ser de origen viral o no infeccioso, por lo que no existe una justificación antibacteriana establecida para la clindamicina. Un antibiótico solo tendría sentido si hubiera una sobreinfección bacteriana, y eso no equivale a una indicación de reposicionamiento.
+La relación con la nueva indicación es débil. La queratopatía epitelial punteada suele ser de origen no infeccioso (ojo seco, toxicidad o infección viral), por lo que un mecanismo antibacteriano no resulta claramente relevante. Además, la clindamicina sistémica difícilmente alcanzaría la superficie ocular en concentraciones útiles.
 
-Por ahora, el puntaje alto de TxGNN (99.97%) no está acompañado de ensayos, literatura ni un vínculo mecanístico verificable. Debe leerse como una hipótesis del modelo, no como evidencia de eficacia.
+En consecuencia, el puntaje alto del modelo (99.97%) no está respaldado por evidencia clínica ni por un vínculo mecanístico claro. Debe interpretarse como una hipótesis para generar ideas, no como una recomendación terapéutica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+Como referencia, la segunda indicación predicha (queratitis por exposición, puntaje 99.80%) cuenta con literatura indirecta sobre queratitis infecciosa (por *Staphylococcus aureus* y *Bacillus cereus*). Ninguno de esos estudios evalúa la clindamicina para esa indicación, y las demás indicaciones predichas tampoco tienen respaldo clínico relevante.
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20131113 | PRIVARE® 2C1019541002 (MEDPHARMA S.A.S.) | Óvulo | Clindamicina combinaciones |
-| 20129610 | CLINDASHER® Crema Vaginal (Distribuciones Farmacéuticas Herson S.A.S) | Crema vaginal | Clindamicina |
-| 20097862 | GYNO BACLIN® (Bioquímico Pharma S.A.) | Crema vaginal | Clindamicina |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20131113 | PRIVARE® 2C1019541002 | Óvulo | Clindamicina combinaciones | Cancelado |
+| 20129610 | CLINDASHER® Crema Vaginal | Crema vaginal | Clindamicina | Cancelado |
+| 20097862 | GYNO BACLIN® | Crema vaginal | Clindamicina | Cancelado |
+| 20014120 | VAGYLIN | Crema vaginal | Clindamicina | Cancelado |
 
-Los datos recibidos incluyen solo 3 registros únicos de los 20 reportados. Ninguna de las formas listadas es oftálmica.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con contraindicación según el grafo de conocimiento (no proviene del prospecto)**: insuficiencia hepática, enfermedad de Crohn, enfermedad inflamatoria intestinal, colitis ulcerosa, colitis por *Clostridium difficile*, enfermedad diarreica, enterocolitis necrosante perinatal, dermatitis atópica, dermatitis exfoliativa, dermatitis, quemadura solar y candidiasis vulvovaginal.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total. Las de nivel moderado incluyen balsalazida, claritromicina, ácido picosulfúrico, atapulgita y caolín. Entre las de nivel no clasificado figuran anfotericina B, ácido acetilsalicílico, amoxicilina, bupropión, pantoprazol, glimepirida, doxiciclina, clotrimazol, morfina, metformina, omeprazol, sucralfato, rosiglitazona, lansoprazol y vancomicina.
 
-Como dato adicional, los estudios recuperados para otra predicción del modelo (enfermedad animal no humana) describen a la clindamicina como un factor de riesgo reconocido para infección por *Clostridioides difficile*. Este punto debe verificarse en el prospecto.
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5), y no hay una base mecanística antibacteriana plausible para una queratoconjuntivitis mayormente viral o no infecciosa. Además, las formas comercializadas en Colombia son vaginales, no oftálmicas.
+La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, todos los registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Obtener del INVIMA el prospecto con advertencias y contraindicaciones, hoy sin información
-- Completar los datos del mecanismo de acción desde DrugBank
-- Buscar estudios preclínicos o clínicos que relacionen la clindamicina con queratoconjuntivitis epitelial punteada
-- Evaluar la compatibilidad de vía de administración, ya que no hay presentación oftálmica registrada
-- Revisar si otras predicciones con algo de literatura (por ejemplo, queratitis por exposición, con casos de infecciones oculares bacterianas) merecen priorizarse. Aun así, ninguna de esa literatura trata directamente la indicación evaluada
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Datos del mecanismo de acción de la clindamicina y análisis de su relevancia para la superficie ocular
+- Estudios preclínicos o de farmacocinética ocular que respalden una vía tópica oftálmica
+- Revisión del prospecto (advertencias y contraindicaciones) para completar la evaluación de seguridad
+- Confirmar la causa (infecciosa o no) de la queratopatía epitelial punteada, para definir si hay un papel plausible de un antibacteriano
+- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

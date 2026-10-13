@@ -2,7 +2,7 @@
 layout: default
 title: Galcanezumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 206
+nav_order: 308
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,73 +29,63 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Galcanezumab: De Migraña y Cefalea en Racimos a Deficiencia de Cofactor II de la Heparina
+# Galcanezumab: De Indicación Original no especificada a Deficiencia del Cofactor 2 de la Heparina
 
 ## Resumen en Una Frase
 
-Galcanezumab es un anticuerpo monoclonal contra el péptido relacionado con el gen de la calcitonina (CGRP), comercializado como EMGALITY para la migraña y la cefalea en racimos.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia de cofactor II de la heparina**,
-pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, y no se identificó un vínculo mecanístico plausible.
+Galcanezumab es un anticuerpo monoclonal que neutraliza el péptido relacionado con el gen de la calcitonina (CGRP). Se usa para la prevención de la migraña y la cefalea en racimos, aunque el registro sanitario colombiano solo menciona el nombre del principio activo y no detalla la indicación.
+El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor 2 de la heparina**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto del registro solo repite «GALCANEZUMAB»). Según el análisis mecanístico: migraña y cefalea en racimos |
-| Nueva Indicación Predicha | Deficiencia de cofactor II de la heparina |
+| Indicación Original | No especificada en el registro sanitario (solo figura el nombre del principio activo) |
+| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina |
 | Puntaje de Predicción TxGNN | 99.50% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, galcanezumab es un anticuerpo monoclonal que neutraliza el CGRP, una molécula vasodilatadora implicada en la inflamación neurogénica del sistema trigeminovascular. Su eficacia se ha establecido en migraña y cefalea en racimos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, galcanezumab neutraliza el CGRP, un neuropéptido que participa en la señalización del dolor trigeminovascular y en la vasodilatación.
 
-La deficiencia de cofactor II de la heparina es la pérdida hereditaria de una serpina que inhibe la trombina. El bloqueo del CGRP no reemplaza ni aumenta esta proteína, ni actúa sobre la cascada de coagulación. **Por eso no se identificó un vínculo mecanístico plausible.**
+La deficiencia del cofactor 2 de la heparina es un trastorno de los inhibidores de la coagulación, en el que se reduce la inhibición de la trombina (gen SERPIND1). No se conoce que la señalización del CGRP regule la actividad de este cofactor ni la inhibición de la trombina.
 
-El puntaje alto (0.995) probablemente refleja un artefacto del grafo de conocimiento y no una señal biológica real. Las otras dos predicciones principales tienen el mismo problema:
+**No se identificó un vínculo mecanístico creíble.** El puntaje alto de TxGNN (99.50%) proviene únicamente de asociaciones en un grafo de conocimiento y no está respaldado por fundamento biológico, ensayos clínicos ni literatura. Las otras dos predicciones de mayor rango tienen la misma limitación:
 
-- **Deficiencia de antitrombina tipo 2** (99.41%)
-- **Exceso de factor V con trombosis espontánea** (99.41%)
+- **Deficiencia de antitrombina tipo 2** (99.41%): es un defecto funcional de SERPINC1, y el CGRP no influye en la función de la antitrombina ni en la cascada de coagulación.
+- **Exceso de factor V con trombosis espontánea** (99.41%): es una anomalía de la vía de coagulación sin relación conocida con el CGRP. Además, los anticuerpos contra la vía del CGRP tienen precauciones cardiovasculares y vasculares (por ejemplo, hipertensión y eventos de tipo Raynaud notificados tras la comercialización), por lo que una población propensa a trombosis requeriría mayor escrutinio de seguridad.
 
-Ambas son trastornos de la coagulación, sin ensayos, sin literatura y sin relación mecanística con la inhibición del CGRP.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+---
 
 ## Información de Mercado en Colombia
 
-Se reportan 20 registros sanitarios. Las 5 entradas detalladas en el paquete corresponden al mismo registro, que se muestra una sola vez:
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20155001 | EMGALITY (Eli Lilly and Company) | Solución inyectable | GALCANEZUMAB (el registro no detalla la indicación) |
+| 20155001 (cancelado) | EMGALITY (Eli Lilly and Company) | Solución inyectable | Galcanezumab (sin indicación detallada) |
 
-**Nota:** los metadatos del paquete indican como fuente `tfda` y un identificador de candidato `TW-`, lo que sugiere origen taiwanés. Conviene verificar que estos registros correspondan realmente a INVIMA (Colombia).
-
-## Consideraciones de Seguridad
-
-Consultar el prospecto para información de seguridad.
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre el bloqueo del CGRP y las deficiencias de proteínas anticoagulantes. El CGRP es vasodilatador, por lo que su bloqueo exigiría una revisión de seguridad vascular y trombótica antes de cualquier uso en pacientes con tendencia a la trombosis.
+La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y la revisión no encontró un vínculo mecanístico creíble. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Verificar el origen regulatorio (INVIMA vs. TFDA) y obtener el prospecto con advertencias y contraindicaciones
-- Completar los datos de mecanismo de acción desde DrugBank
-- Revisar la seguridad vascular y trombótica de la inhibición del CGRP
-- Evidencia preclínica o de mecanismo que justifique la predicción, antes de considerar cualquier estudio clínico
+- Datos del mecanismo de acción (MOA) desde DrugBank para evaluar mejor un posible vínculo biológico
+- El prospecto de INVIMA con advertencias y contraindicaciones, para poder realizar la evaluación de seguridad
+- Evidencia preclínica o clínica que conecte la inhibición del CGRP con la regulación de la coagulación
+- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de la vía de administración
+- Evaluación de seguridad cardiovascular y vascular específica para poblaciones con tendencia trombótica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

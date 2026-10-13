@@ -2,7 +2,7 @@
 layout: default
 title: Rufinamide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 352
+nav_order: 573
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Rufinamida: De Antiepiléptico (indicación no detallada en el registro) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
-
----
+# Rufinamida: De Rufinamida (indicación original no detallada) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
 
 ## Resumen en Una Frase
 
-Rufinamida es un medicamento comercializado en Colombia como tableta recubierta (INOVELON® 400 mg). Su registro sanitario solo indica el nombre del principio activo y no detalla la indicación original. El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Rufinamida es un antiepiléptico registrado en Colombia bajo el nombre comercial INOVELON®, cuyo registro sanitario no detalla el texto de la indicación aprobada (solo figura el nombre del principio activo).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**, pero **no hay ensayos clínicos ni publicaciones** que respalden actualmente esta dirección.
 
 ---
 
@@ -43,30 +42,23 @@ Rufinamida es un medicamento comercializado en Colombia como tableta recubierta 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto del registro solo dice "RUFINAMIDA") |
+| Indicación Original | RUFINAMIDA (el registro no especifica el texto de la indicación) |
 | Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
 | Puntaje de Predicción TxGNN | 99.57% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 4 entradas (todas con el mismo número de registro, 20153553) |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, rufinamida es un fármaco antiepiléptico. Por farmacología general (no proviene de los datos suministrados), actúa como modulador de canales de sodio con actividad anticonvulsivante. Mecanísticamente, esto hace plausible un vínculo con una epilepsia refractaria como el FIRES. Este vínculo no está verificado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información general conocida, rufinamida es un modulador de los canales de sodio dependientes de voltaje: prolonga su estado inactivo y reduce la descarga neuronal repetitiva. Está aprobada a nivel internacional para el síndrome de Lennox-Gastaut.
 
-Hay una limitación importante. El FIRES se asocia en buena parte con neuroinflamación, y el bloqueo de canales de sodio por sí solo podría no abordarla. La predicción del modelo es entonces una hipótesis de partida, no una conclusión.
+En teoría, este mecanismo podría ofrecer control sintomático de las crisis en el FIRES, un síndrome epiléptico refractario. Sin embargo, el FIRES está impulsado en buena parte por neuroinflamación, un proceso que el bloqueo de canales de sodio no aborda directamente. Por ello, el vínculo mecanístico es especulativo y se apoya únicamente en el alto puntaje de predicción del modelo (0.996).
 
-Además de FIRES, TxGNN predice otras cuatro indicaciones, todas con puntajes cercanos al 99.4%–99.5% y todas con nivel L5, sin ensayos ni literatura:
-
-- Mioclonías perioral con ausencias.
-- Epilepsia fotosensible del lóbulo occipital.
-- Epilepsia infantil atípica con puntas centrotemporales.
-- Espasmos epilépticos criptogénicos de inicio tardío.
-
-En la epilepsia infantil atípica con puntas centrotemporales, algunos bloqueadores de canales de sodio pueden agravar las crisis. Ese caso requeriría una revisión de seguridad antes de cualquier paso adicional.
+Otras indicaciones predichas con puntajes similares (todas con nivel de evidencia L5 y sin ensayos ni literatura) son: mioclonías perorales con ausencias (99.51%), epilepsia occipital fotosensible (99.44%), epilepsia infantil atípica con espigas centrotemporales (99.44%) y espasmos epilépticos criptogénicos de inicio tardío (99.44%). En el caso de las mioclonías perorales con ausencias, cabe advertir que los moduladores de canales de sodio pueden agravar algunos tipos de crisis generalizadas, en particular las ausencias.
 
 ---
 
@@ -84,17 +76,26 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20153553 | INOVELON® 400 MG (BIOTOSCANA FARMA S.A.) | Tableta recubierta | RUFINAMIDA (el registro solo indica el principio activo) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20153553 | INOVELON® 400 MG | Tableta recubierta | RUFINAMIDA | Cancelado |
 
-Los datos traen cuatro entradas idénticas del mismo registro 20153553. Se muestran una sola vez.
+El fabricante registrado es BIOTOSCANA FARMA S.A. No existe actualmente ningún registro vigente en Colombia.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento utilizado por el modelo asocia el fármaco con las siguientes condiciones: insuficiencia hepática, enfermedad hepática, enfermedad de la vesícula biliar, leucopenia, trastorno de ansiedad, trastorno neurótico y trastorno distímico. Deben verificarse contra el prospecto oficial.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; las 20 mostradas son de nivel moderado. Entre las principales están:
+  - Corticoides: hidrocortisona, prednisona, betametasona, triamcinolona
+  - Vitamina D y análogos: colecalciferol, calcifediol, calcitriol
+  - Opioides y afines: morfina, difenoxina, difenoxilato
+  - Cannabinoides: dronabinol, nabilona
+  - Antieméticos y procinéticos: ondansetrón, metoclopramida, rolapitant
+  - Otros: pioglitazona, bupropión, eliglustat, naloxegol, nitisinona
+
+  Dado que el listado completo supera lo mostrado, se recomienda revisar las 100 interacciones antes de cualquier uso clínico.
 
 ---
 
@@ -103,14 +104,14 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Faltan además los datos de mecanismo de acción y de seguridad, y el mecanismo podría no cubrir la neuroinflamación propia del FIRES.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, el mecanismo de acción no explica bien la fisiopatología inflamatoria del FIRES, y el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto del INVIMA (advertencias y contraindicaciones) y analizarlo.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar la indicación original aprobada, porque el registro solo muestra el nombre del principio activo.
-- Buscar ensayos clínicos y literatura sobre rufinamida en FIRES y en las demás indicaciones predichas.
-- Revisar la seguridad antes de considerar la epilepsia infantil atípica con puntas centrotemporales.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha de seguridad bloqueante para el tamizaje de seguridad).
+- Realizar una revisión sistemática de la literatura sobre rufinamida en FIRES y otras epilepsias refractarias.
+- Evaluar la viabilidad de reactivar o tramitar un nuevo registro sanitario, y la compatibilidad de la vía de administración (oral) con la necesidad clínica.
+- Verificar las contraindicaciones hepáticas y hematológicas señaladas por el grafo de conocimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

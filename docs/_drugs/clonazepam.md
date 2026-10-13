@@ -2,7 +2,7 @@
 layout: default
 title: Clonazepam
 parent: Evidencia Moderada (L3-L4)
-nav_order: 135
+nav_order: 172
 evidence_level: L3
 indication_count: 3
 ---
@@ -29,84 +29,103 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Clonazepam: De Indicación No Especificada en el Registro a Síndrome de Piernas Inquietas
+# Clonazepam: De Clonazepam (indicación no especificada en el registro) a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase
 
-Clonazepam es una benzodiazepina comercializada en Colombia. El registro sanitario consultado no detalla su indicación original: solo repite el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas inquietas**, con un puntaje de 99.65%.
-No hay **ensayos clínicos** registrados para esta predicción. Sí hay **20 publicaciones**, entre ellas una guía clínica de 2025, una revisión sistemática Cochrane y un ensayo cruzado pequeño de 1984.
+Clonazepam es una benzodiazepina de acción prolongada que cuenta con registros sanitarios en Colombia, aunque el texto de indicación del registro solo menciona el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas inquietas**, con **0 ensayos clínicos** registrados y **19 publicaciones** que actualmente respaldan esta dirección (incluyendo una guía de la AASM, una revisión sistemática Cochrane y un estudio pequeño controlado con placebo).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "CLONAZEPAM") |
-| Nueva Indicación Predicha | Síndrome de piernas inquietas (restless legs syndrome) |
+| Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 99.65% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Por farmacología general, clonazepam es un modulador alostérico positivo del receptor GABA-A. Ese mecanismo reduce la excitabilidad neuronal y favorece el sueño.
+Clonazepam es un modulador alostérico positivo del receptor GABA-A. En el síndrome de piernas inquietas (SPI) se considera que reduce la molestia sensorial y la fragmentación del sueño mediante efectos inhibitorios y sedantes centrales, y que disminuye los movimientos periódicos de las piernas durante el sueño. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada, por lo que esta explicación se basa en el conocimiento farmacológico general.
 
-En el síndrome de piernas inquietas, el efecto plausible sería disminuir la activación sensitivo-motora y los movimientos periódicos de las piernas, y consolidar el sueño. Sería un efecto sintomático, no modificador de la enfermedad. La literatura recopilada señala que cerca del 25% de una muestra de 16,694 personas tratadas por este síndrome recibía benzodiazepinas, sola o combinadas con otros tratamientos.
+La relación con la indicación original es indirecta, ya que el registro colombiano no detalla la indicación aprobada. El vínculo mecanístico es sintomático y no modificador de la enfermedad: clonazepam no actúa sobre las vías dopaminérgicas ni del hierro, que son centrales en la fisiopatología del SPI.
 
-El puntaje TxGNN (99.65%) proviene de un grafo de conocimiento y **no constituye evidencia clínica**. Por eso, la razonabilidad de la predicción se apoya en la literatura y no en el puntaje.
+En la literatura aparecen una revisión Cochrane sobre benzodiazepinas en SPI (PMID 28319266), un estudio temprano cruzado, doble ciego y controlado con placebo en 6 pacientes (PMID 6380197), un estudio de laboratorio de sueño controlado con placebo (PMID 11313161) y una guía AASM 2025 (PMID 39324694). El contexto de las guías sugiere que las benzodiazepinas no son de primera línea; la recomendación exacta sobre clonazepam debe verificarse en el texto completo. Los títulos disponibles no permiten confirmar si existen ECA de alto nivel específicos para clonazepam.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía clínica | J Clin Sleep Med | Guía de la Academia Americana de Medicina del Sueño con recomendaciones de tratamiento para síndrome de piernas inquietas y trastorno de movimientos periódicos de las extremidades, en adultos y niños |
-| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión sistemática | Cochrane Database Syst Rev | Evalúa las benzodiazepinas, en particular clonazepam, para el síndrome de piernas inquietas |
-| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática y metaanálisis | J Clin Sleep Med | Revisa qué categorías de fármacos suprimen los movimientos periódicos de las piernas durante el sueño en este síndrome |
-| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Revisión | Tremor Other Hyperkinet Mov | Panorama histórico del papel de las benzodiazepinas, incluido clonazepam, con 17 artículos sobre su uso en el síndrome y en los movimientos periódicos del sueño |
-| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | ECA (cruzado, doble ciego) | Acta Neurol Scand | En 6 pacientes, clonazepam mejoró frente a placebo la calidad subjetiva del sueño y la disestesia de las piernas; la eficacia a largo plazo requiere confirmación |
-| [31942156](https://pubmed.ncbi.nlm.nih.gov/31942156/) | 2019 | Estudio aleatorizado abierto | J Midlife Health | Compara clonazepam con nortriptilina en mujeres mayores de 40 años con síndrome de piernas inquietas |
-| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión basada en evidencia | Mov Disord | Revisión del grupo de trabajo de la Movement Disorder Society sobre las modalidades de tratamiento |
-| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión | Neurotherapeutics | Revisión de los cambios recientes en el tratamiento del síndrome |
-| [9444111](https://pubmed.ncbi.nlm.nih.gov/9444111/) | 1997 | Revisión | ANNA J | Clonazepam como una de las opciones en el síndrome de piernas inquietas de la enfermedad renal terminal; su perfil farmacocinético indica seguridad con función renal alterada |
-| [17876423](https://pubmed.ncbi.nlm.nih.gov/17876423/) | 2007 | Consenso de expertos | Arq Neuropsiquiatr | Opinión de expertos brasileños sobre diagnóstico y manejo del síndrome |
+| [39324694](https://pubmed.ncbi.nlm.nih.gov/39324694/) | 2025 | Guía | J Clin Sleep Med | Guía de práctica clínica de la AASM para el tratamiento del SPI y del trastorno por movimientos periódicos de las extremidades en adultos y niños |
+| [28319266](https://pubmed.ncbi.nlm.nih.gov/28319266/) | 2017 | Revisión sistemática | Cochrane Database Syst Rev | Evalúa las benzodiazepinas (en particular clonazepam) para el SPI |
+| [38708125](https://pubmed.ncbi.nlm.nih.gov/38708125/) | 2024 | Revisión | Tremor Other Hyperkinet Mov | Panorama histórico del uso de benzodiazepinas, incluido clonazepam, en SPI; cerca del 25 % de 16 694 pacientes tratados recibía benzodiazepinas |
+| [11313161](https://pubmed.ncbi.nlm.nih.gov/11313161/) | 2001 | Estudio controlado con placebo | Eur Neuropsychopharmacol | Efectos agudos de 1 mg de clonazepam sobre el sueño y el despertar en SPI y movimientos periódicos de las piernas |
+| [6380197](https://pubmed.ncbi.nlm.nih.gov/6380197/) | 1984 | Estudio clínico pequeño (cruzado, doble ciego) | Acta Neurol Scand | En 6 pacientes, mejoría significativa de la calidad subjetiva del sueño y la disestesia; eficacia a largo plazo por confirmar |
+| [18925578](https://pubmed.ncbi.nlm.nih.gov/18925578/) | 2008 | Revisión | Mov Disord | Revisión basada en evidencia de la Movement Disorder Society sobre tratamientos del SPI |
+| [36692194](https://pubmed.ncbi.nlm.nih.gov/36692194/) | 2023 | Revisión sistemática y metaanálisis | J Clin Sleep Med | Respuesta farmacológica de los movimientos periódicos de las piernas en pacientes con SPI |
+| [20156514](https://pubmed.ncbi.nlm.nih.gov/20156514/) | 2010 | Estudio clínico | Prog Neuropsychopharmacol Biol Psychiatry | Equivalencia de dosis propuesta entre clonazepam y pramipexol en SPI |
+| [39787099](https://pubmed.ncbi.nlm.nih.gov/39787099/) | 2025 | Estudio clínico | Sleep | Efectos diferenciales de agonistas dopaminérgicos y clonazepam sobre movimientos de grandes grupos musculares en SPI |
+| [24363103](https://pubmed.ncbi.nlm.nih.gov/24363103/) | 2014 | Revisión | Neurotherapeutics | Panorama del tratamiento del SPI |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se reportan 20 registros en total. Los cinco listados en el paquete son entradas repetidas del mismo registro, por lo que se muestra una sola fila.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS (Laboratorios Siegfried S.A.S.) | Tableta recubierta | CLONAZEPAM (sin texto de indicación detallado) |
+| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | CLONAZEPAM (cancelado) |
+| 19954442 | SEDATRIL® 2 MG | Tableta | CLONAZEPAM (cancelado) |
 
-Las formas farmacéuticas disponibles son orales (tableta recubierta y tableta).
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se recuperaron advertencias, contraindicaciones ni interacciones farmacológicas del registro local.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** insuficiencia hepática y enfermedad hepática, trastorno de ansiedad, trastorno neurótico, trastorno distímico, porfiria (incluida la hereditaria), enfermedad renal, piouréter, enfermedad de la vesícula biliar, glaucoma de ángulo abierto y de ángulo cerrado, síndrome de apnea obstructiva del sueño, síndrome de hipoventilación central congénita, insuficiencia respiratoria, y trastornos por abuso o dependencia de sustancias.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones; entre las principales:
+  - **Mayores:** morfina y morfina liposomal (riesgo de depresión respiratoria y sedación aditiva).
+  - **Moderadas:** bupropión, aprepitant, omeprazol, cimetidina, claritromicina, dronabinol, nabilona, metoclopramida, opio, sibutramina y teduglutida.
+  - **Menores:** antiácidos como óxido de magnesio, hidróxido de aluminio y carbonato de calcio.
+- **Señales de la literatura:** un reporte de caso de manía asociada con clonazepam (PMID 1949970). Para otras indicaciones, la larga vida media, la sedación al día siguiente, la dependencia, las caídas y el riesgo cognitivo exigen cautela en adultos mayores.
 
-Como consideración general de la clase, cualquier trabajo posterior debería ponderar el riesgo de dependencia, tolerancia y efectos cognitivos de las benzodiazepinas.
+Para las advertencias del prospecto, consultar el prospecto del producto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Hay literatura que apoya el uso de clonazepam en el síndrome de piernas inquietas, incluida una guía clínica reciente y una revisión Cochrane. Sin embargo, no hay ensayos clínicos registrados, el único ECA identificado es pequeño y antiguo (n=6), y falta la información de seguridad del prospecto colombiano, lo que bloquea el tamizaje de seguridad.
+Aunque el puntaje del modelo es alto y existe literatura directa (revisión Cochrane, guía AASM, estudios pequeños), no hay ensayos clínicos registrados ni ECA de gran escala que respalden clonazepam en SPI, y las benzodiazepinas no son de primera línea. Además, en Colombia ambos registros sanitarios están cancelados, y no hay datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
-- Datos del mecanismo de acción desde DrugBank
-- Revisar el contenido de la guía AASM 2025 y la revisión Cochrane 2017 para confirmar la postura sobre clonazepam
-- Definir la indicación original aprobada en Colombia, ya que el registro solo repite el nombre del fármaco
-- Evaluar el riesgo de dependencia y tolerancia frente a las alternativas disponibles para uso crónico
+- Verificar en el texto completo de la guía AASM 2025 y de la revisión Cochrane la recomendación exacta sobre clonazepam.
+- Obtener el prospecto del INVIMA para las advertencias y contraindicaciones oficiales.
+- Aclarar la indicación aprobada original y la situación regulatoria (registros cancelados) en Colombia.
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Definir un plan de seguridad para riesgos de dependencia, sedación, depresión respiratoria y combinación con opioides.
 
-**Otras predicciones (referencia):** insomnio (nivel L4, evidencia solo indirecta; ningún ensayo probó clonazepam en insomnio primario) y neoplasia del nervio trigémino (Hold; solo reportes de caso sobre control de síntomas, sin evidencia de efecto antineoplásico).
+---
+
+**Otras predicciones del modelo (para referencia):**
+- **Insomnio** (TxGNN 99.32%, nivel de evidencia L4, Hold): la literatura es mayormente indirecta y no hay ensayos clínicos.
+- **Neoplasia del nervio trigémino** (TxGNN 99.30%, nivel de evidencia L5, Hold): solo predicción computacional, sin evidencia ni mecanismo antitumoral plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Flutamide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 202
+nav_order: 300
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,129 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Flutamida: De Indicación No Especificada en el Registro a Susceptibilidad a Cáncer de Próstata/Cerebro
+# Flutamida: De Cáncer de Próstata Avanzado a Susceptibilidad Genética a Cáncer de Próstata/Cerebro
 
 ## Resumen en Una Frase
 
-Flutamida es un antiandrógeno oral que actúa sobre el receptor de andrógenos y se usa en cáncer de próstata localmente confinado o metastásico. El registro sanitario colombiano solo menciona el nombre del principio activo, sin describir la indicación.
-El modelo TxGNN predice que podría ser efectiva para **susceptibilidad a cáncer de próstata/cerebro**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción específica.
+La flutamida es un antiandrógeno no esteroideo, utilizado originalmente para el cáncer de próstata localmente confinado y metastásico. El modelo TxGNN predice que podría ser efectivo para **susceptibilidad genética a cáncer de próstata/cerebro**, pero para esta predicción concreta **no hay ensayos clínicos ni publicaciones** que la respalden. Además, se trata de un fenotipo de predisposición genética, no de una indicación tratable.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice «FLUTAMIDA») |
-| Nueva Indicación Predicha | Susceptibilidad a cáncer de próstata/cerebro |
-| Puntaje de Predicción TxGNN | 99,98 % |
+| Indicación Original | Registro sanitario sin detalle de indicación (solo figura "FLUTAMIDA"). Según los datos farmacológicos, cáncer de próstata |
+| Nueva Indicación Predicha | Susceptibilidad genética a cáncer de próstata/cerebro |
+| Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 6 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según los datos farmacológicos disponibles, flutamida es un antagonista del receptor de andrógenos (gen *AR*). Su uso clínico documentado es el cáncer de próstata localmente confinado o metastásico. Mecanísticamente, el bloqueo de andrógenos es plausible para el cáncer de próstata.
+La flutamida es un antagonista del receptor de andrógenos (AR). Aunque no se dispone de datos detallados del mecanismo de acción en la información compilada, los datos farmacológicos confirman que actúa sobre este receptor. Bloquea la señalización de los andrógenos en los tejidos que dependen de ellos, y por eso se usa en el cáncer de próstata.
 
-El problema está en la etiqueta predicha. «Susceptibilidad» es un concepto de riesgo genético, no una enfermedad tratable. La parte «cáncer cerebral» no tiene un vínculo mecanístico identificado con el bloqueo androgénico. El puntaje alto de TxGNN es solo una predicción del modelo, sin ensayos ni literatura que la sostengan.
+Un vínculo con el cáncer de próstata es biológicamente plausible. Sin embargo, la entrada predicha es un **fenotipo de susceptibilidad genética**, no una enfermedad con tratamiento clínico definido. Por eso el puntaje, muy alto, debe interpretarse solo como una predicción del modelo. No se identificaron estudios que evalúen la flutamida en esta condición, y la similitud con la indicación original aún no ha sido evaluada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta predicción.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para esta predicción.
+
+---
+
+## Otras Predicciones con Mayor Respaldo
+
+Entre las 10 predicciones evaluadas, otras tienen más evidencia que la primera:
+
+| Rango | Enfermedad Predicha | Puntaje TxGNN | Nivel | Recomendación |
+|---|---|---|---|---|
+| 4 | Neoplasia benigna del sistema reproductor | 99.98% | L3 | Pregunta de investigación |
+| 6 | Cáncer de órganos reproductores masculinos | 99.98% | L1 | Proceed with Guardrails |
+| 2, 3, 5, 7 | Fibroma de próstata, tumor de Brenner, leiomioma de próstata, tumor filodes prostático benigno | 99.98% | L5 | Hold |
+| 8-10 | VIH, infección por SIV, SIDA felino | 99.86%-99.92% | L5 | Hold |
+
+**Cáncer de órganos reproductores masculinos (rango 6):**
+- Es la entrada mejor respaldada, con ensayos de Fase 2 y Fase 3.
+- Incluye el ensayo de quimioprevención de Fase 2 con flutamida en neoplasia intraepitelial prostática ([NCT00006214](https://clinicaltrials.gov/study/NCT00006214), n=63, completado).
+- Incluye ensayos de Fase 3 de terapia hormonal en cáncer de próstata, como [NCT00003026](https://clinicaltrials.gov/study/NCT00003026) (n=966), [NCT00002855](https://clinicaltrials.gov/study/NCT00002855) (n=306), [NCT00936390](https://clinicaltrials.gov/study/NCT00936390) (n=1538) y [NCT00003645](https://clinicaltrials.gov/study/NCT00003645) (n=64, terminado).
+- Esta entrada en gran medida **describe de nuevo el uso ya establecido en cáncer de próstata**. No es un hallazgo novedoso de reposicionamiento.
+- En muchos de esos ensayos de Fase 3 no está confirmado qué papel tuvo la flutamida.
+
+**Neoplasia benigna del sistema reproductor (rango 4):**
+- La evidencia es pequeña, antigua y mayormente farmacodinámica.
+- Incluye un estudio en hombres con hiperplasia prostática benigna ([PMID 1722793](https://pubmed.ncbi.nlm.nih.gov/1722793/), 1991) y estudios de terapia combinada con agonista de LHRH ([PMID 1989458](https://pubmed.ncbi.nlm.nih.gov/1989458/)).
+
+Las predicciones sobre VIH y virus de inmunodeficiencia animal no tienen un vínculo mecanístico plausible y probablemente reflejan artefactos de la red del modelo.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 35440 | ETACONIL DE 250 MG COMPRIMIDOS (ASOFARMA DE MEXICO S.A. DE C.V.) | Tableta | Solo figura «FLUTAMIDA», sin texto de indicación |
+| 35440 (cancelado) | ETACONIL DE 250 MG COMPRIMIDOS | Tableta | FLUTAMIDA |
 
-El pack contiene entradas repetidas del mismo registro 35440, por lo que aquí se muestra una sola vez.
+---
 
 ## Citotoxicidad
+
+La flutamida se usa como tratamiento antineoplásico en cáncer de próstata, pero no es un citotóxico convencional.
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia hormonal (antiandrógeno no esteroideo), no citotóxico convencional |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Función hepática (prioritaria); además hemograma y función renal según el prospecto |
+| Items de Monitoreo | Función hepática (por el riesgo de hepatotoxicidad señalado en los datos compilados); consultar el prospecto para parámetros adicionales |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Advertencias Principales**: hepatotoxicidad con advertencia en recuadro, según la nota de racionalidad del pack. Falta confirmarla con el prospecto de INVIMA.
-- **Interacciones Farmacológicas**: la consulta se completó, pero solo devolvió el receptor de andrógenos como blanco farmacológico. No hay interacciones con otros fármacos listadas.
+- **Hepatotoxicidad:** los datos compilados señalan una advertencia de caja (boxed warning) por hepatotoxicidad como salvaguarda clave. Sería una preocupación adicional en poblaciones que usan fármacos de metabolismo hepático, como los antirretrovirales.
+- **Condiciones asociadas a contraindicación** (grafo de conocimiento TxGNN/PrimeKG, no texto del prospecto):
+  - insuficiencia hepática y enfermedad hepática
+  - enfermedad de la vesícula biliar
+  - metahemoglobinemia (incluida la causada por deficiencia de metahemoglobina reductasa) y sulfohemoglobinemia
+  - hiperbilirrubinemia, hiperbilirrubinemia hereditaria y síndrome de Gilbert
+  - deficiencia de G6PD
+  - enfermedad por depósito de glucógeno
+  - cistinuria
+  - galactosemia
+  - deficiencia de piruvato deshidrogenasa E3
+- **Interacciones farmacológicas:** la consulta no devolvió interacciones medicamentosas clínicas. Solo muestra la unión de la flutamida a su diana, el receptor de andrógenos (AR).
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es un concepto de riesgo genético, no una enfermedad tratable. No tiene ensayos ni literatura propios (nivel L5, etapa S0), y el puntaje alto del modelo no basta por sí solo.
-
-Otras predicciones del mismo fármaco merecen revisión aparte:
-- **Cáncer de órganos reproductivos masculinos** (rank 6): nivel L2, con un ensayo Fase 2 aleatorizado que incluye flutamida (NCT00450463). Probablemente corresponde a una indicación ya vigente, es decir, confirmación de uso existente y no reposicionamiento.
-- **Neoplasia benigna del sistema reproductivo** (rank 4): nivel L3, solo estudios pequeños y antiguos.
+- La predicción principal es un fenotipo de susceptibilidad genética, no una indicación tratable, y no tiene ensayos ni literatura. El respaldo es solo el puntaje del modelo (L5).
+- Además, el único registro sanitario en Colombia está cancelado, existe un riesgo de hepatotoxicidad y hay antiandrógenos más nuevos como bicalutamida y enzalutamida.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias, contraindicaciones, indicación aprobada real del registro 35440)
-- Completar el mecanismo de acción desde DrugBank
-- Aclarar la definición de «susceptibilidad a cáncer de próstata/cerebro» o priorizar las predicciones con evidencia real
-- Definir un plan de monitoreo hepático si se avanza con cualquier indicación
+- Definir si la entrada "susceptibilidad a cáncer de próstata/cerebro" corresponde a una indicación clínicamente abordable.
+- Si se quiere continuar, reorientar la evaluación hacia la predicción de cáncer de órganos reproductores masculinos (rango 6, L1). Para ello hay que verificar cuáles ensayos usaron flutamida realmente y tener presente que esa evidencia describe un uso ya establecido.
+- Obtener el prospecto con advertencias y contraindicaciones oficiales, un vacío de información que bloquea el tamizaje de seguridad.
+- Obtener datos detallados del mecanismo de acción.
+- Evaluar la viabilidad regulatoria, dado que el estado de mercado es "solo cancelado", y comparar con alternativas antiandrogénicas disponibles.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Tenofovir Alafenamide
-parent: Solo Predicción del Modelo (L5)
-nav_order: 376
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 612
+evidence_level: L4
 indication_count: 3
 ---
 
 # Tenofovir Alafenamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,84 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tenofovir alafenamida: De Hepatitis B crónica a infección por virus de inmunodeficiencia simia (SIV)
+# Tenofovir alafenamida: De Hepatitis B Crónica a Infección por Virus de Inmunodeficiencia Simia
 
 ## Resumen en Una Frase
 
-Tenofovir alafenamida (TAF) es un profármaco de tenofovir, comercializado en Colombia como VEMLIDY® y usado para tratar la infección crónica por el virus de la hepatitis B (también está aprobado para VIH-1).
-El modelo TxGNN predice que podría ser efectivo para la **infección por virus de inmunodeficiencia simia (SIV)**, con **1 ensayo clínico** poco relevante y **10 publicaciones**, todas en modelos animales o metodológicas.
-Como el SIV no es una enfermedad humana, esta predicción no representa una indicación nueva para personas.
+Tenofovir alafenamida (TAF) es un profármaco de tenofovir, registrado en Colombia bajo el nombre VEMLIDY® y utilizado para tratar la infección crónica por el virus de la hepatitis B.
+El modelo TxGNN predice que podría ser efectivo para la **infección por virus de inmunodeficiencia simia (SIV)**,
+con **0 ensayos clínicos** y **8 publicaciones** (todas preclínicas en modelos animales) que respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hepatitis B crónica (según la ficha de farmacología; el texto del registro INVIMA solo dice "TENOFOVIR ALAFENAMIDA", sin indicación) |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia (SIV) |
+| Indicación Original | Tenofovir alafenamida (el registro sanitario no detalla el texto de la indicación; según la información farmacológica, se usa en hepatitis B crónica) |
+| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia |
 | Puntaje de Predicción TxGNN | 99.89% |
-| Nivel de Evidencia | L4 (solo estudios preclínicos en animales) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 2 (ambas entradas corresponden al mismo registro, 20134171) |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, TAF es un profármaco de tenofovir, un inhibidor nucleotídico de la transcriptasa inversa. Su eficacia en VIH-1 y en hepatitis B ya está comprobada, y mecanísticamente podría ser aplicable a virus con transcriptasa inversa, como el SIV.
+TAF es un inhibidor nucleotídico de la transcriptasa inversa. Su metabolito activo, el difosfato de tenofovir, termina la elongación del ADN viral. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe, pero esta descripción corresponde a su farmacología conocida.
 
-El SIV es el modelo en primates no humanos del VIH. La literatura en macacos es coherente con la plausibilidad biológica: TAF, solo o combinado, se ha probado como profilaxis y en estrategias de remisión.
+El SIV y el SHIV son lentivirus estrechamente relacionados con el VIH y comparten la misma diana (la transcriptasa inversa), por lo que la predicción es biológicamente plausible. Los estudios en macacos muestran protección preclínica: profilaxis preexposición oral con emtricitabina/TAF, implantes de TAF, insertos tópicos y profilaxis posexposición.
 
-Sin embargo, la relación entre la indicación original y la predicha es de cercanía con el VIH, que ya es un uso aprobado. Lo más probable es que el puntaje alto (99.89%) refleje esa proximidad en el grafo de conocimiento y no una señal nueva de reposicionamiento.
+Importante: el SIV es un modelo de VIH en primates no humanos, no una indicación clínica en sí misma. La evidencia es indirecta para uso humano; respalda la actividad antirretroviral ya conocida de TAF, pero **no constituye una nueva oportunidad de reposicionamiento**. El tratamiento y la profilaxis del VIH-1 en humanos ya están cubiertos por productos existentes con TAF.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03577782](https://clinicaltrials.gov/study/NCT03577782) | Fase 1/2 | Desconocido | 12 | Vedolizumab combinado con terapia antirretroviral para lograr remisión virológica permanente en personas con VIH sin tratamiento previo. Es un estudio en VIH humano, no en SIV; TAF probablemente forma parte del esquema antirretroviral base y no es el fármaco en investigación (el título está truncado y no puede confirmarse). Relevancia baja (grado C). |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-Todas las publicaciones son estudios en animales o metodológicos, sin estudios en humanos. Solo una usa SIV; las demás usan SHIV (virus quimérico simio/humano).
+Todos los estudios son preclínicos (modelos animales).
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Estudio animal (macaco, SHIV) | J Infect Dis | Insertos vaginales con TAF/elvitegravir dieron protección extendida tras la exposición; el trabajo previo del grupo mostró 93% y 100% de protección al aplicarlos 4 horas antes o después de la exposición. |
-| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Estudio animal (macaco, SHIV) | J Infect Dis | Compara TAF/emtricitabina oral con TAF solo frente a exposiciones vaginales repetidas. El resumen disponible no incluye los resultados. |
-| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Estudio animal (macaco, SHIV) | J Infect Dis | La combinación oral de emtricitabina y TAF protegió a macacos de la infección rectal por SHIV. |
-| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Estudio animal (macaco) | J Antimicrob Chemother | Evalúa seguridad y eficacia de un implante biodegradable de TAF para protección vaginal. El resumen disponible no incluye los resultados. |
-| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Estudio animal (macaco infantil, SIV) | J Acquir Immune Defic Syndr | Evalúa tenofovir disoproxil oral y GS-7340 (TAF) tópico frente a exposiciones orales repetidas a SIV virulento. Es la única publicación con SIV. |
-| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Estudio animal (macaco, RT-SHIV) | Nat Commun | Emtricitabina/TAF oral más cabotegravir/rilpivirina de acción prolongada, con y sin un agente inmune (n=4 por grupo), en busca de remisión viral. |
-| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Estudio animal (macaco, SHIV) | J Infect Dis | Insertos rectales con TAF/elvitegravir dieron protección parcial tras la exposición (82.9%). |
-| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Desarrollo de modelo animal | Front Immunol | Modelo de ratón humanizado para probar estrategias antivirales contra SIV y VIH. |
-| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Protocolo metodológico | PLoS One | Protocolo para dar antirretrovirales orales a macacos con alto cumplimiento. |
-| [22740713](https://pubmed.ncbi.nlm.nih.gov/22740713/) | 2012 | Estudio animal (macaco, SHIV) | J Infect Dis | La profilaxis oral previa a la exposición redujo la inflamación y la pérdida de CD4 en la infección aguda por SHIV con brecha de protección. |
+| [27465645](https://pubmed.ncbi.nlm.nih.gov/27465645/) | 2016 | Preclínico (macacos) | J Infect Dis | La combinación oral emtricitabina/TAF protege a macacos de la infección rectal por SHIV (PrEP) |
+| [31362305](https://pubmed.ncbi.nlm.nih.gov/31362305/) | 2019 | Preclínico (macacos) | J Infect Dis | Comparación de eficacia de TAF/FTC oral o TAF solo frente a infección vaginal por SHIV |
+| [35913838](https://pubmed.ncbi.nlm.nih.gov/35913838/) | 2022 | Preclínico (macacos) | J Antimicrob Chemother | Implante biodegradable de TAF: seguridad y eficacia para protección vaginal |
+| [38134382](https://pubmed.ncbi.nlm.nih.gov/38134382/) | 2024 | Preclínico (macacos) | J Infect Dis | Insertos vaginales de TAF/elvitegravir ofrecen protección posexposición prolongada |
+| [39632836](https://pubmed.ncbi.nlm.nih.gov/39632836/) | 2024 | Preclínico (macacos) | Nat Commun | Remisión de SHIV con inicio temprano de tratamiento (FTC/TAF oral más cabotegravir/rilpivirina de acción prolongada) |
+| [41342257](https://pubmed.ncbi.nlm.nih.gov/41342257/) | 2026 | Preclínico (macacos) | J Infect Dis | Protección posexposición parcial con insertos rectales de TAF/elvitegravir |
+| [39559349](https://pubmed.ncbi.nlm.nih.gov/39559349/) | 2024 | Desarrollo de modelo (ratón humanizado) | Front Immunol | Modelo de ratón de doble propósito para probar estrategias antivirales contra SIV y VIH |
+| [31730629](https://pubmed.ncbi.nlm.nih.gov/31730629/) | 2019 | Métodos preclínicos | PLoS One | Entrenamiento de macacos rhesus para recibir terapia antirretroviral oral diaria |
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20134171 | VEMLIDY® (GILEAD SCIENCES IRELAND UC.) | Tableta recubierta | El registro solo indica el principio activo "TENOFOVIR ALAFENAMIDA", sin texto de indicación |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20134171 | VEMLIDY® | Tableta recubierta | Tenofovir alafenamida | Cancelado |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas**: la consulta se completó con un solo registro, que es una relación de farmacología con el receptor del gusto TAS2R39, sin nivel de gravedad. No es una interacción medicamentosa clínica.
+**Interacciones y farmacología:** la base de datos farmacológica registra una interacción con el receptor del gusto amargo TAS2R39 (diana humana), sin nivel de gravedad clínica asignado. No tiene relevancia clínica establecida.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+No se dispone de advertencias ni contraindicaciones del prospecto. Consultar el prospecto para información de seguridad adicional.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El SIV es un virus de primates no humanos, por lo que no existe una indicación clínica nueva que evaluar. La evidencia es solo preclínica (L4) y sirve como modelo del uso ya aprobado en VIH. El puntaje alto de TxGNN parece reflejar la cercanía con el VIH en el grafo de conocimiento.
-
-Las otras dos predicciones tampoco justifican avanzar: el sida felino y el trastorno del neurodesarrollo con marcha atáxica no tienen ensayos ni literatura. La segunda no muestra un vínculo mecanístico plausible.
+La evidencia es exclusivamente preclínica en primates no humanos (L4) y no representa una nueva indicación para humanos, ya que TAF ya se usa en VIH-1. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Confirmar con el equipo si la predicción sobre SIV debe descartarse como indicación humana y tratarse solo como validación del modelo.
-- Descargar y revisar el prospecto de INVIMA, para completar advertencias y contraindicaciones.
-- Corregir el campo de indicación del registro sanitario, que solo contiene el nombre del principio activo.
-- Complementar el mecanismo de acción desde DrugBank.
-- Revisar por qué el registro 20134171 aparece duplicado.
+- Aclarar si existe un interés real de reposicionamiento, dado que la indicación predicha es un modelo animal del VIH
+- Obtener datos del mecanismo de acción (MOA) desde DrugBank
+- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones
+- Verificar el estado regulatorio actual de TAF en Colombia (otros productos con TAF en combinación)
+
+**Nota sobre otras predicciones:** las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo con marcha atáxica) tienen puntajes altos (99.89% y 99.87%), pero carecen de ensayos y literatura. La primera es una indicación veterinaria y la segunda no tiene vínculo mecanístico creíble, probablemente un artefacto del grafo de conocimiento. Ambas se mantienen en **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

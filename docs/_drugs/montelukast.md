@@ -2,7 +2,7 @@
 layout: default
 title: Montelukast
 parent: Solo Predicción del Modelo (L5)
-nav_order: 290
+nav_order: 454
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,89 +29,107 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Montelukast: De Asma (uso conocido) a Bronquitis
+# Montelukast: De Indicación No Detallada en el Registro a Bronquitis
 
 ## Resumen en Una Frase
 
-Montelukast es un antagonista del receptor de leucotrienos CysLT1, conocido y comercializado sobre todo para el asma. El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **20 ensayos clínicos** y **20 publicaciones** asociados. La evidencia directa en bronquitis es limitada: los ensayos más específicos tienen estado desconocido y no hay resultados publicados.
+Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). En Colombia solo figura un registro sanitario, hoy cancelado, cuyo texto de indicación se limita al nombre del fármaco. El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, buena parte de esa evidencia se refiere a bronquiolitis y bronquiolitis obliterante, no a bronquitis en sentido estricto.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo repite "MONTELUKAST"); el uso conocido es asma |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "MONTELUKAST"). La literatura lo describe como fármaco para asma y rinitis alérgica |
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L2 (apoyado principalmente por un ensayo de Fase 3 en bronquiolitis y estudios en bronquitis eosinofílica) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 10 |
+| Nivel de Evidencia | L2 (un ensayo de Fase 3 completado; no hay dos ECA de Fase 3 completados) |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos de DrugBank no incluyen el mecanismo de acción (MOA) de este farmaco. Según la literatura y el análisis de reposicionamiento, montelukast bloquea el receptor CysLT1. Así reduce la inflamación de las vías aéreas mediada por leucotrienos cisteínicos, el reclutamiento de eosinófilos y la broncoconstricción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura revisada, montelukast es un antagonista selectivo del receptor CysLT1. Bloquea los efectos de los leucotrienos, mediadores inflamatorios que provocan broncoconstricción, aumento de la secreción de moco y reclutamiento de eosinófilos.
 
-El asma y varias formas de bronquitis comparten esta vía inflamatoria, especialmente la bronquitis eosinofílica no asmática y la bronquitis obstructiva recurrente en niños. También es plausible en la sibilancia posviral y la bronquiolitis, donde se activa la vía de leucotrienos durante la infección por VRS.
+La relación con la bronquitis es plausible. Los leucotrienos participan en la inflamación de la vía aérea inferior. Varios estudios exploran montelukast en cuadros cercanos: bronquiolitis viral en lactantes, bronquitis obstructiva recurrente en niños, bronquitis eosinofílica no asmática y bronquiolitis obliterante tras trasplante. La literatura señala que los leucotrienos cisteinílicos se liberan durante la infección por virus respiratorio sincitial (VRS), lo que respalda la hipótesis.
 
-Para la bronquitis infecciosa común, en cambio, la evidencia es débil. La predicción es más razonable para los subtipos eosinofílico y obstructivo que para la bronquitis en general.
+El puntaje del modelo debe leerse con cautela. La mayoría de los ensayos son sobre bronquiolitis, un cuadro distinto de la bronquitis. Además, la relevancia de los ensayos para esta indicación aún no ha sido evaluada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT04613180](https://clinicaltrials.gov/study/NCT04613180) | Fase 4 | Desconocido | 100 | Montelukast en niños de 1 a 7 años con bronquitis obstructiva recurrente; sin resultados disponibles |
-| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Fase 4 | Desconocido | 63 | Montelukast añadido a budesonida inhalada en bronquitis eosinofílica no asmática (tos); aleatorizado, doble ciego |
-| [NCT02479074](https://clinicaltrials.gov/study/NCT02479074) | Fase 4 | Completado | 49 | Respuesta de la tos crónica a prednisolona o montelukast según feNO |
-| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Fase 3 | Completado | 1125 | Dos dosis de montelukast frente a placebo en síntomas respiratorios de la bronquiolitis por VRS (niños de 3 a 24 meses) |
-| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | NA | Completado | 141 | Montelukast diario frente a placebo sobre la duración de la enfermedad aguda en bronquiolitis viral |
-| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | NA | Completado | 51 | Montelukast frente a placebo en bronquiolitis aguda por VRS; evalúa evolución clínica y citocinas |
-| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | NA | Completado | 146 | Montelukast en bronquiolitis aguda y sibilancias posbronquiolitis en lactantes de 3 a 12 meses |
-| [NCT03369119](https://clinicaltrials.gov/study/NCT03369119) | Fase 4 | Completado | 100 | Montelukast oral añadido al tratamiento estándar en preescolares hospitalizados por asma aguda |
-| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Fase 2 | Completado | 25 | Montelukast en bronquiolitis obliterante tras trasplante de células madre |
-| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Fase 2 | Completado | 36 | Combinación fluticasona, azitromicina y montelukast en bronquiolitis obliterante tras trasplante |
+| [NCT00076973](https://clinicaltrials.gov/study/NCT00076973) | Fase 3 | Completado | 1125 | Dos dosis de montelukast (MK0476) vs. placebo para síntomas respiratorios de bronquiolitis por VRS en niños de 3 a 24 meses |
+| [NCT00863317](https://clinicaltrials.gov/study/NCT00863317) | N/A | Completado | 141 | Montelukast diario vs. placebo, doble ciego, sobre la duración de la enfermedad aguda en lactantes con primera bronquiolitis |
+| [NCT01370187](https://clinicaltrials.gov/study/NCT01370187) | N/A | Completado | 146 | Montelukast en bronquiolitis aguda y sibilancias posbronquiolitis en lactantes de 3 a 12 meses |
+| [NCT00524693](https://clinicaltrials.gov/study/NCT00524693) | N/A | Completado | 51 | Montelukast vs. placebo en bronquiolitis aguda por VRS: evolución clínica y perfil de citoquinas |
+| [NCT04613180](https://clinicaltrials.gov/study/NCT04613180) | Fase 4 | Desconocido | 100 | Eficacia de montelukast para tratar y prevenir la bronquitis obstructiva recurrente en niños de 1 a 7 años |
+| [NCT01121016](https://clinicaltrials.gov/study/NCT01121016) | Fase 4 | Desconocido | 63 | Montelukast añadido a budesonida inhalada en bronquitis eosinofílica no asmática (tos crónica/subaguda), doble ciego |
+| [NCT00394160](https://clinicaltrials.gov/study/NCT00394160) | Fase 2 | Completado | 12 | Seguridad y perfil plasmático de montelukast en gránulos en lactantes de 1 a 3 meses con bronquiolitis |
+| [NCT00656058](https://clinicaltrials.gov/study/NCT00656058) | Fase 2 | Completado | 25 | Montelukast para bronquiolitis obliterante tras trasplante de progenitores hematopoyéticos, en niños y adultos |
+| [NCT01307462](https://clinicaltrials.gov/study/NCT01307462) | Fase 2 | Completado | 36 | Combinación fluticasona, azitromicina y montelukast en bronquiolitis obliterante tras trasplante de células madre |
+| [NCT01211509](https://clinicaltrials.gov/study/NCT01211509) | Fase 4 | Completado | 30 | Montelukast vs. placebo para frenar el síndrome de bronquiolitis obliterante tras trasplante pulmonar |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | ECA | Chin Med J | Montelukast añadido a budesonida frente a budesonida sola en bronquitis eosinofílica no asmática; evalúa inflamación, tos y calidad de vida |
-| [22819521](https://pubmed.ncbi.nlm.nih.gov/22819521/) | 2012 | Estudio piloto | Respir Med | Montelukast añadido frente a budesonida en doble dosis en bronquitis eosinofílica no asmática |
-| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | Revisión sistemática | Pediatr Allergy Immunol | Eficacia de montelukast para prevenir las sibilancias posbronquiolitis |
-| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | Revisión | Ther Adv Respir Dis | Potencial terapéutico de montelukast en bronquiolitis obliterante tras trasplante de pulmón o de células madre |
-| [35114411](https://pubmed.ncbi.nlm.nih.gov/35114411/) | 2022 | Ensayo de Fase 2 | Transplant Cell Ther | Ensayo prospectivo de un solo brazo de montelukast en bronquiolitis obliterante tras trasplante hematopoyético |
-| [26475726](https://pubmed.ncbi.nlm.nih.gov/26475726/) | 2016 | Ensayo de Fase 2 | Biol Blood Marrow Transplant | Fluticasona, azitromicina y montelukast en bronquiolitis obliterante de inicio reciente (36 pacientes) |
-| [25846070](https://pubmed.ncbi.nlm.nih.gov/25846070/) | 2016 | Estudio clínico | World J Pediatr | Bronquiolitis por VRS con coinfección por Mycoplasma y tratamiento adicional con montelukast |
-| [18296556](https://pubmed.ncbi.nlm.nih.gov/18296556/) | 2008 | Farmacocinética | J Clin Pharmacol | Farmacocinética y tolerabilidad de montelukast en gránulos en 12 lactantes de 1 a 3 meses con bronquiolitis |
-| [20442434](https://pubmed.ncbi.nlm.nih.gov/20442434/) | 2010 | Preclínico (ratón) | Am J Respir Crit Care Med | Montelukast durante la infección primaria por VRS previene hiperreactividad e inflamación tras la reinfección |
-| [29308548](https://pubmed.ncbi.nlm.nih.gov/29308548/) | 2018 | Revisión | Indian J Pediatr | Manejo de la sibilancia recurrente en preescolares, incluida la bronquiolitis/bronquitis |
+| [25773054](https://pubmed.ncbi.nlm.nih.gov/25773054/) | 2015 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Evalúa los inhibidores de leucotrienos, como montelukast, en bronquiolitis de lactantes y niños pequeños |
+| [24118637](https://pubmed.ncbi.nlm.nih.gov/24118637/) | 2014 | Revisión sistemática | Pediatr Allergy Immunol | Eficacia de montelukast para prevenir sibilancias tras bronquiolitis por VRS |
+| [25563311](https://pubmed.ncbi.nlm.nih.gov/25563311/) | 2015 | Estudio clínico | Chin Med J | Montelukast añadido a budesonida en bronquitis eosinofílica no asmática: efecto sobre inflamación de la vía aérea, tos y calidad de vida |
+| [29704475](https://pubmed.ncbi.nlm.nih.gov/29704475/) | 2018 | Guía/Panel de expertos | Chest | Revisiones sistemáticas sobre tratamientos de la tos crónica posterior a bronquiolitis viral aguda en niños |
+| [38504551](https://pubmed.ncbi.nlm.nih.gov/38504551/) | 2024 | Revisión | Ther Adv Respir Dis | Potencial terapéutico y posibles mecanismos de montelukast en bronquiolitis obliterante tras trasplante pulmonar y de progenitores hematopoyéticos |
+| [38485149](https://pubmed.ncbi.nlm.nih.gov/38485149/) | 2024 | Guía de práctica clínica | Eur Respir J | Guías ERS/EBMT para el tratamiento de la enfermedad de injerto contra huésped crónica pulmonar en adultos |
+| [40926299](https://pubmed.ncbi.nlm.nih.gov/40926299/) | 2025 | Consenso | Br J Haematol | Consenso de Taiwán sobre diagnóstico, vigilancia y manejo de la enfermedad de injerto contra huésped crónica pulmonar |
+| [30038355](https://pubmed.ncbi.nlm.nih.gov/30038355/) | 2019 | Revisión | Bone Marrow Transplant | Retos diagnósticos y terapéuticos del síndrome de bronquiolitis obliterante |
+| [28545478](https://pubmed.ncbi.nlm.nih.gov/28545478/) | 2017 | Preclínico (ratas) | J Cardiothorac Surg | Papel de LTB4 y montelukast en la bronquiolitis obliterante asociada a trasplante |
+| [14766663](https://pubmed.ncbi.nlm.nih.gov/14766663/) | 2004 | Comentario | Am J Respir Crit Care Med | Comentario sobre montelukast en bronquiolitis por VRS |
+
+---
 
 ## Información de Mercado en Colombia
 
-Los 5 registros listados en los datos corresponden al mismo número de registro sanitario y al mismo producto, por lo que se muestra una sola vez. El total reportado es de 10 registros.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190806 | BONVENT® (TECNOFAR TQ S.A.S.) | Tableta masticable | Solo figura "MONTELUKAST" (sin indicación detallada) |
+| 20190806 (cancelado) | BONVENT® | Tableta masticable | Solo consta el nombre "MONTELUKAST", sin texto de indicación |
+
+Fabricante: TECNOFAR TQ S.A.S. No hay registros vigentes para este fármaco.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Advertencia neuropsiquiátrica (según la literatura)**: la FDA emitió en 2020 una advertencia en recuadro negro por eventos neuropsiquiátricos con montelukast. Los estudios observacionales posteriores dan resultados mixtos, especialmente en niños (por ejemplo, PMID 37758273 y 39836401). Esto importa porque la población pediátrica es la más relevante para esta predicción.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las de nivel moderado incluyen dexametasona, metronidazol, miconazol, nateglinida, nitisinona y troglitazona. Otras interacciones listadas tienen nivel sin clasificar, entre ellas calcitriol, fentermina, pantoprazol, glimepirida, mesalazina, doxiciclina, clotrimazol, acarbosa, morfina, metformina, omeprazol, rosiglitazona, lansoprazol y sucralfato.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento del modelo asocia el fármaco con trastorno de ansiedad, trastorno neurótico, trastorno distímico, ansiedad, síndrome hipereosinofílico y vasculitis cutánea. Esto debe verificarse con fuentes clínicas.
+- **Señal neuropsiquiátrica**: la literatura incluida señala que la FDA emitió en 2020 una advertencia en recuadro negro por eventos neuropsiquiátricos. Los estudios de cohorte y las revisiones sistemáticas citados en los datos compilados examinan este riesgo, también en niños.
 
-No se dispone de advertencias, contraindicaciones ni interacciones farmacológicas del prospecto de INVIMA. Consultar el prospecto para información de seguridad.
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no están disponibles en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente plausible y el puntaje TxGNN es muy alto. Sin embargo, la evidencia directa en bronquitis se limita a ensayos pequeños de bronquitis eosinofílica y a un ensayo de bronquitis obstructiva recurrente con estado desconocido. Las revisiones señalan resultados poco concluyentes en bronquiolitis. Además, falta el prospecto de INVIMA, un vacío bloqueante para el tamizaje de seguridad.
+Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa bronquiolitis por VRS en lactantes, no bronquitis, y los datos disponibles no muestran sus resultados. El resto son estudios pequeños de Fase 2 o 4 y revisiones, con relevancia aún por evaluar. Además, no hay registro sanitario vigente en Colombia y no se pudo revisar la información de seguridad del prospecto, lo cual impide avanzar al tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), incluida la advertencia neuropsiquiátrica.
-- Confirmar el mecanismo de acción en DrugBank y las indicaciones originales aprobadas.
-- Definir el subtipo objetivo (bronquitis eosinofílica u obstructiva recurrente en niños) y buscar resultados de NCT04613180 y NCT01121016.
-- Realizar una revisión sistemática de los ensayos en bronquitis eosinofílica y bronquiolitis.
-- Nota: las indicaciones predichas de asma (L1) y enfermedad pulmonar obstructiva (L1, sustentada sobre todo por asma) tienen evidencia más sólida, pero corresponden a usos ya conocidos y no a un reposicionamiento real.
+- Obtener y analizar el prospecto del registro en INVIMA (advertencias y contraindicaciones oficiales).
+- Obtener los datos del mecanismo de acción desde DrugBank.
+- Definir con precisión la indicación objetivo (bronquitis aguda, bronquitis obstructiva recurrente en niños, bronquitis eosinofílica o bronquiolitis) y revisar los resultados publicados de NCT00076973 y de la revisión Cochrane de 2015.
+- Evaluar la relevancia de cada ensayo y publicación para la indicación elegida.
+- Elaborar un plan de monitoreo neuropsiquiátrico, sobre todo si la población objetivo son niños.
+- Aclarar la situación regulatoria: no hay registro vigente en Colombia.
+- Como referencia, en los datos compilados otras predicciones tienen mayor respaldo: asma (L1, Proceed with Guardrails) y eccema atópico (L1, Research Question).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

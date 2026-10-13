@@ -2,7 +2,7 @@
 layout: default
 title: Sulfamethoxazole
 parent: Evidencia Moderada (L3-L4)
-nav_order: 366
+nav_order: 596
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,69 +29,89 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Sulfametoxazol: De Sulfametoxazol y Trimetoprima (indicación no detallada en el registro) a Conjuntivitis Contagiosa Aguda
+# Sulfametoxazol: De Sulfametoxazol y Trimetoprim a Conjuntivitis Contagiosa Aguda
 
 ## Resumen en Una Frase
 
-Sulfametoxazol es un antibacteriano de la clase de las sulfonamidas. En Colombia se comercializa en combinación con trimetoprima, y el registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa aguda**, pero hoy solo cuenta con **0 ensayos clínicos** y **1 publicación** observacional indirecta, que no evalúa el fármaco.
+Sulfametoxazol es un antibacteriano del grupo de las sulfonamidas, registrado en Colombia en combinación con trimetoprim.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa aguda**,
+con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta dirección (un estudio de bacteriología y susceptibilidad antimicrobiana, no de eficacia del fármaco).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sulfametoxazol y trimetoprima (el registro solo indica la composición, no una indicación clínica) |
+| Indicación Original | Sulfametoxazol y trimetoprim |
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Sulfametoxazol inhibe la enzima bacteriana dihidropteroato sintasa y bloquea la síntesis de folato, por lo que es plausible que actúe contra las bacterias que causan la conjuntivitis bacteriana aguda. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Este mecanismo proviene de la justificación mecanística de la predicción y no pudo contrastarse con una fuente primaria.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sulfametoxazol es una sulfonamida que inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato. Su uso como antibacteriano (habitualmente combinado con trimetoprim) está bien establecido, y mecanísticamente podría ser aplicable a infecciones bacterianas oculares.
 
-La relación con la indicación original es indirecta, porque el registro colombiano no especifica para qué se aprobó el producto. El puntaje de 0.996 es únicamente una predicción del modelo.
+La conjuntivitis aguda contagiosa es con frecuencia de origen bacteriano (por ejemplo, *Haemophilus influenzae*, *Streptococcus pneumoniae* y *Staphylococcus aureus*), por lo que un mecanismo antibacteriano es biológicamente plausible. Además, las sulfonamidas se han usado históricamente por vía tópica en infecciones oculares (por ejemplo, sulfacetamida), lo que respalda la verosimilitud de la predicción.
 
-Hay varias limitaciones:
-- Las formas virales y alérgicas de conjuntivitis contagiosa no responderían a un antibacteriano.
-- El estudio citado no muestra que se haya probado sulfametoxazol.
-- El sulfametoxazol sistémico no es un tratamiento estándar de la conjuntivitis, y cualquier uso ocular de sulfonamidas sería tópico.
-- Las presentaciones registradas en Colombia son solo orales (suspensión y tableta), y la compatibilidad de vía de administración aún está pendiente de evaluar.
+Sin embargo, conviene ser cautos: el sulfametoxazol sistémico no es un tratamiento establecido para la conjuntivitis, la única publicación disponible es un estudio de susceptibilidad y no evalúa la eficacia de este fármaco, y el puntaje alto de TxGNN es una predicción computacional que no sustituye la evidencia clínica.
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Observacional (vigilancia bacteriológica y de sensibilidad antimicrobiana, pediátrica) | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | Análisis retrospectivo de casos de conjuntivitis bacteriana aguda presunta en un hospital pediátrico de Patras (Grecia occidental). Describe la bacteriología y los patrones de sensibilidad a antibióticos, y confirma que la enfermedad suele tratarse de forma empírica con antibióticos tópicos de amplio espectro. El resumen disponible está truncado y no muestra datos sobre sulfametoxazol. |
+| [31788487](https://pubmed.ncbi.nlm.nih.gov/31788487/) | 2019 | Cohorte (retrospectivo) | Medical Hypothesis, Discovery & Innovation Ophthalmology Journal | Análisis retrospectivo de la bacteriología y los patrones de susceptibilidad antimicrobiana en conjuntivitis bacteriana aguda infantil en el oeste de Grecia. No evalúa directamente la eficacia del sulfametoxazol. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Las entradas de la lista se repetían, por lo que se muestran solo los registros únicos (de un total de 20).
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20077704 | MEDIPRIM F SUSPENSION | Suspensión oral | Sulfametoxazol y trimetoprima |
-| 19985112 | MEDIPRIM F (R) TABLETA | Tableta | Sulfametoxazol y trimetoprima |
+| 20077704 | MEDIPRIM F SUSPENSION (cancelado) | Suspensión oral | Sulfametoxazol y trimetoprim |
+| 19985112 | MEDIPRIM F (R) TABLETA (cancelado) | Tableta | Sulfametoxazol y trimetoprim |
+
+Ambos registros figuran como cancelados; no hay registros vigentes.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento (no provienen del prospecto):** porfiria (incluida la hereditaria y los trastornos del metabolismo de porfirinas), enfermedad renal, insuficiencia renal, uremia, glomerulonefritis, piuria/pioureter, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia por deficiencia de ácido fólico, deficiencia de G6PD, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, enfermedad por almacenamiento de glucógeno, cistinuria y galactosemia.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en total; las principales visibles son:
+  - *Moderadas:* sulfonilureas (clorpropamida, glimepirida, acetohexamida, glipizida, glibenclamida), insulinas (humana, aspart, degludec, detemir, glargina, glulisina), balsalazida y ácido picosulfúrico (posible riesgo de hipoglucemia con antidiabéticos).
+  - *Leves:* famotidina, claritromicina, dolasetrón, palonosetrón, cisaprida y granisetrón.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo y en un estudio observacional indirecto que no evalúa sulfametoxazol, sin ensayos clínicos registrados. Además, faltan la información de seguridad del prospecto y la indicación original, y no hay una vía de administración compatible con uso ocular.
+La predicción se apoya únicamente en el modelo y en un estudio de susceptibilidad sin evaluación directa del fármaco (nivel L4), sin ensayos clínicos. Además, todos los registros sanitarios en Colombia están cancelados, lo que limita el desarrollo práctico.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un dato bloqueante para el tamizaje de seguridad.
-- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank.
-- Buscar evidencia directa del uso de sulfametoxazol (o sulfonamidas tópicas) en conjuntivitis bacteriana, incluidos ensayos clínicos y datos de sensibilidad.
-- Evaluar la compatibilidad de vía y formulación, ya que los productos colombianos son solo orales.
-- Aclarar qué formas de conjuntivitis contagiosa (bacteriana, viral, alérgica) serían el objetivo real.
+- Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
+- Advertencias y contraindicaciones del prospecto de INVIMA
+- Evidencia clínica directa sobre la eficacia de sulfametoxazol (o su combinación) en conjuntivitis bacteriana
+- Evaluación de la compatibilidad de vías de administración (probable formulación oftálmica tópica frente a las formas orales registradas)
+- Análisis de viabilidad regulatoria y comercial dado que no hay registros vigentes
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

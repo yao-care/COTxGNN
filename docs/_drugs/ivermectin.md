@@ -2,7 +2,7 @@
 layout: default
 title: Ivermectin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 234
+nav_order: 363
 evidence_level: L5
 indication_count: 9
 ---
@@ -29,74 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Ivermectina: De Infecciones Parasitarias a Candidiasis Vulvovaginal
+# Ivermectina: De Ivermectina (indicación no detallada en el registro) a Candidiasis Vulvovaginal
 
 ## Resumen en Una Frase
 
-La ivermectina es un antiparasitario de uso oral (y tópico) que se emplea contra infecciones parasitarias y piojos de la cabeza.
-El modelo TxGNN predice que podría ser efectiva para **candidiasis vulvovaginal**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+Ivermectina es un antiparasitario de uso oral y tópico, comercializado en Colombia en solución oral y crema tópica; el registro sanitario solo consigna el nombre del principio activo como indicación.
+El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro INVIMA solo indica "IVERMECTINA" (sin indicación explícita). Según la farmacología, infecciones parasitarias (excepto tenias) y pediculosis |
+| Indicación Original | Ivermectina (el registro INVIMA no detalla la indicación; el uso conocido es antiparasitario) |
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
 | Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente. Según la información conocida, la ivermectina actúa sobre los canales de cloruro activados por glutamato de los invertebrados, lo que explica su eficacia antiparasitaria. En humanos, la base de datos farmacológica la vincula con el receptor de glicina, el receptor nicotínico α7 (CHRNA7) y los receptores P2X4 y P2X7.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la ivermectina actúa sobre los canales de cloruro activados por glutamato de los invertebrados, lo que explica su eficacia antiparasitaria. En humanos, los datos farmacológicos compilados la vinculan con el receptor de glicina, el receptor nicotínico de acetilcolina α7 y los receptores purinérgicos P2X4 y P2X7.
 
-Los hongos no tienen un blanco equivalente claro. Por eso no se puede establecer un vínculo mecanístico directo entre la ivermectina y *Candida* con los datos disponibles. El puntaje alto de TxGNN probablemente refleja cercanía en el grafo de conocimiento (por ejemplo, con nodos relacionados con candidiasis) y no una relación biológica demostrada.
+Los hongos carecen de los canales de cloruro activados por glutamato, por lo que no existe un mecanismo antifúngico establecido contra *Candida*. La relación entre la indicación original (infecciones parasitarias) y la nueva (candidiasis vulvovaginal) es débil: ambas son infecciones, pero con agentes y dianas muy distintos.
 
-La indicación original (parasitosis) y la nueva (infección fúngica de la mucosa vulvovaginal) son enfermedades infecciosas, pero de organismos distintos. Hoy la predicción debe tratarse como una hipótesis sin respaldo, no como una oportunidad de reposicionamiento validada.
+El puntaje alto de TxGNN (99.95%) refleja una asociación en el grafo de conocimiento, no evidencia de eficacia. Las demás predicciones del modelo (candidiasis esofágica, congénita, neonatal e invasiva, vulvovaginitis, VPH anogenital, vaginitis atrófica posmenopáusica) siguen el mismo patrón: sin ensayos y sin mecanismo plausible.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para candidiasis vulvovaginal.
+
+Entre las otras predicciones, las dos publicaciones vinculadas no respaldan eficacia antifúngica. Ambas son reportes de caso sobre usos antiparasitarios:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [35835488](https://pubmed.ncbi.nlm.nih.gov/35835488/) | 2022 | Reporte de caso | BMJ Case Reports | Estrongiloidiasis diseminada tras tratamiento prolongado con corticoesteroides; no demuestra actividad contra candidiasis esofágica |
+| [10098288](https://pubmed.ncbi.nlm.nih.gov/10098288/) | 1999 | Reporte de caso | Australas J Dermatol | Dos niños inmunocomprometidos con sarna costrosa tratados con éxito con ivermectina oral; uno tenía candidiasis mucocutánea crónica, pero el resultado se refiere a la sarna |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se listan los registros únicos entre los 20 registros sanitarios; la fuente repite algunas filas.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20253293 | SIMPIOX | Solución oral | IVERMECTINA (sin indicación detallada en el registro) |
-| 19979253 | IVERMECTINA 0.6% GOTAS | Solución oral | IVERMECTINA (sin indicación detallada en el registro) |
-| 19980678 | QUANOX | Solución oral | IVERMECTINA (sin indicación detallada en el registro) |
+| 20253293 | SIMPIOX | Solución oral | IVERMECTINA (cancelado) |
+| 19979253 | IVERMECTINA 0.6% GOTAS | Solución oral | IVERMECTINA (cancelado) |
+| 19980678 | QUANOX | Solución oral | IVERMECTINA (cancelado) |
+| 19938258 | KILOX 0.6% GOTAS | Solución oral | IVERMECTINA (cancelado) |
+| 20082013 | SOOLANTRA® 10 MG/G CREMA | Crema tópica | IVERMECTINA (cancelado) |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta terminó sin interacciones fármaco-fármaco documentadas. Las 4 entradas devueltas son blancos farmacológicos: receptor de glicina, receptor nicotínico α7, P2X4 (rata) y P2X7. No son interacciones clínicas con otros medicamentos.
-- **Poblaciones especiales**: dos predicciones del modelo (candidiasis congénita y neonatal) implicarían uso pediátrico o neonatal, que requeriría evidencia de seguridad propia.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: loiasis y filariasis.
+- **Interacciones farmacológicas / farmacología de dianas**: se identificaron 4 dianas humanas o de modelo animal: receptor de glicina (todos los subtipos), receptor nicotínico de acetilcolina α7, P2X4 (rata) y P2X7. No se dispone de niveles de gravedad.
+- Se señalan además preocupaciones sobre la seguridad neonatal, con datos limitados, relevantes para las predicciones de candidiasis congénita y neonatal.
 
-Consultar el prospecto para información de seguridad, advertencias y contraindicaciones.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5): no hay ensayos ni literatura, y no hay un blanco fúngico plausible para la ivermectina. Las otras 8 predicciones (candidiasis esofágica, VPH anogenital, vulvovaginitis, etc.) tienen el mismo nivel de evidencia. Los dos artículos vinculados, sobre estrongiloidiasis y sarna costrosa, tratan usos antiparasitarios y no candidiasis.
+La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, todos los registros sanitarios en Colombia están cancelados y la información de seguridad del prospecto no está disponible.
 
 **Para avanzar se necesita:**
-- Actividad antifúngica in vitro de la ivermectina contra *Candida* (por ejemplo, CMI en *C. albicans* y *C. glabrata*)
-- Datos del mecanismo de acción desde DrugBank, para evaluar un posible blanco fúngico
-- Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para cualquier evaluación de seguridad
-- Comparación con los tratamientos antifúngicos estándar (azoles, nistatina), que ya tienen eficacia demostrada
-- Evidencia de seguridad específica antes de considerar poblaciones pediátricas o neonatales
-
-*Este informe es solo de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Datos de mecanismo de acción detallados (consulta a DrugBank).
+- Prospecto de INVIMA con advertencias y contraindicaciones, para el tamizaje de seguridad.
+- Estudios preclínicos in vitro de actividad contra *Candida* que justifiquen continuar.
+- Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).
+- Comparación con terapias ya aprobadas (azoles, equinocandinas), que son eficaces.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

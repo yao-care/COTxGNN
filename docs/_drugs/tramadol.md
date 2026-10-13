@@ -2,7 +2,7 @@
 layout: default
 title: Tramadol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 390
+nav_order: 634
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,65 +33,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Tramadol es un analgésico opioide comercializado en Colombia, solo o combinado con diclofenaco. El registro sanitario no detalla su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa solo en el modelo.
+Tramadol es un analgésico opioide, registrado en Colombia solo o combinado con diclofenaco y en una asociación con paracetamol, para el tratamiento del dolor.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | TRAMADOL (el registro no especifica la indicación; uso conocido como analgésico) |
+| Indicación Original | Tramadol (registros de tramadol solo, tramadol + diclofenaco y asociación con paracetamol) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Hoy no hay datos detallados de mecanismo de acción en DrugBank para este fármaco. Por su farmacología conocida, el tramadol es agonista del receptor opioide mu e inhibidor de la recaptación de serotonina y noradrenalina. Esto le da efecto analgésico, pero no modifica la enfermedad.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tramadol es un analgésico que actúa como agonista de receptores opioides mu e inhibidor de la recaptación de monoaminas (serotonina y noradrenalina), y su utilidad en el dolor está establecida.
 
-La displasia acromesomélica tipo Hunter-Thompson es un defecto del crecimiento esquelético causado por alteraciones en CDMP1/GDF5. El tramadol no actúa sobre esa vía. En el mejor de los casos podría aliviar el dolor de forma sintomática.
+La displasia acromesomélica tipo Hunter-Thompson es una enfermedad esquelética rara causada por mutaciones con pérdida de función en CDMP1/GDF5. Tramadol no actúa sobre la vía de señalización GDF5/BMP, por lo que **no se identifica un vínculo mecanístico creíble** entre el fármaco y la enfermedad.
 
-El puntaje de 99.99% es una predicción del modelo, sin estudios que la respalden. Por eso no se considera un vínculo mecanístico plausible y se clasifica como hipótesis sin sustento clínico.
+El puntaje alto de TxGNN refleja una predicción basada en el grafo de conocimiento, probablemente por vecinos de red compartidos relacionados con el dolor o el sistema esquelético. Sin ensayos ni literatura, esta predicción no tiene respaldo clínico. En el mejor de los casos, tramadol podría ofrecer alivio sintomático del dolor, no modificación de la enfermedad.
+
+Otras predicciones del modelo (por ejemplo, braquiolmia, pseudoacondroplasia, artritis idiopática juvenil y espondiloartropatía) tampoco muestran vínculos mecanísticos directos; en el mejor de los casos, solo una justificación sintomática indirecta.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal. (Para otra indicación predicha, la artritis idiopática juvenil, se recuperó una revisión sobre ketoprofeno pediátrico, que no aporta evidencia directa sobre tramadol.)
 
-Las otras nueve indicaciones predichas también son L5 y Hold. Solo la artritis idiopática juvenil tiene dos publicaciones recuperadas, una sobre ketoprofeno y un reporte de caso sobre anemia falciforme con artritis. Ninguna evalúa tramadol.
+---
 
 ## Información de Mercado en Colombia
 
-Se listan los registros únicos disponibles en los datos (el paquete repite entradas).
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20080775 | TRAMASINDOL® 100 MG/ML SOLUCION ORAL (Laboratorios Blaskov S.A.S.) | Solución oral | Tramadol |
-| 20154923 | DICLOFENACO SODICO / TRAMADOL HCL 25 MG/25 MG (Tecnoquímicas S.A.) | Tableta recubierta | Tramadol y diclofenaco |
+| 20080775 | TRAMASINDOL® 100 MG/ML SOLUCIÓN ORAL | Solución oral | Tramadol (cancelado) |
+| 20154923 | DICLOFENACO SÓDICO / TRAMADOL HCL 25 MG/25 MG | Tableta recubierta | Tramadol y diclofenaco (cancelado) |
+| 19948799 | FASTFEN JARABE | Jarabe | Paracetamol, combinaciones excluyendo sicolépticos (cancelado) |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se cargaron advertencias, contraindicaciones ni interacciones farmacológicas. Como opioide, el tramadol exige cautela en población pediátrica.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** hipertensión, insuficiencia hepática, enfermedad hepática y cirrosis, epilepsia, trastornos de ansiedad, abuso de sustancias y dependencia, síndrome de abstinencia (incluido el alcohólico), insuficiencia respiratoria, intoxicación por paracetamol, síndrome serotoninérgico, hipertensión intracraneal y pseudotumor cerebral, diabetes y cetoacidosis diabética, hiperlipidemia, enfermedad de la vesícula biliar, síndrome de Wernicke-Korsakoff, e infecciones del sistema nervioso central.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones; entre las de nivel **mayor** figuran alvimopán, bupropión, cisaprida, dexfenfluramina, dietilpropión, dolasetrón, dronabinol, efedrina y fenfluramina. Entre las de nivel moderado figuran atropina, bisacodilo, cimetidina, claritromicina, famotidina y eliglustat.
+- **Consideración pediátrica:** el uso de opioides en niños conlleva riesgos, como la variabilidad de CYP2D6 y la depresión respiratoria.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya que no se dispone de ellas en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni literatura que apoyen el uso de tramadol en esta enfermedad, y su mecanismo no se relaciona con la vía CDMP1/GDF5. La predicción es solo del modelo (L5).
+La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre tramadol y la displasia acromesomélica tipo Hunter-Thompson. Además, el fármaco no tiene registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (bloquea el tamizaje de seguridad)
-- Obtener el mecanismo de acción desde DrugBank
-- Aclarar la indicación aprobada real en los registros sanitarios
-- Encontrar evidencia biológica o clínica que vincule al tramadol con la displasia acromesomélica, más allá del alivio sintomático del dolor
-- Comparar con las otras nueve predicciones, todas L5 y Hold, antes de invertir esfuerzo adicional
+- Datos del mecanismo de acción y evidencia preclínica que conecte tramadol con la vía GDF5/BMP (hoy no existe).
+- Obtener el prospecto de INVIMA para advertencias y contraindicaciones oficiales.
+- Aclarar la situación regulatoria, ya que los 3 registros están cancelados.
+- Considerar otras indicaciones predichas con posible beneficio sintomático (por ejemplo, dolor en artritis idiopática juvenil o espondiloartropatía), con evaluación de seguridad específica, sobre todo en población pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

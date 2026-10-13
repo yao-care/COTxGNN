@@ -2,7 +2,7 @@
 layout: default
 title: Mirtazapine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 287
+nav_order: 449
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Mirtazapina: De Trastorno Depresivo Mayor a Síndrome de Ohdo y Variantes
+# Mirtazapina: De Mirtazapina (indicación registrada) a Síndrome de Ohdo y variantes
 
 ## Resumen en Una Frase
 
-La mirtazapina es un antidepresivo que se usa para el trastorno depresivo mayor. El modelo TxGNN predice que podría ser efectiva para el **síndrome de Ohdo y variantes**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Es solo una señal del modelo, sin evidencia real, y no tiene un vínculo mecanístico plausible.
+Mirtazapina es un antidepresivo cuyos registros sanitarios en Colombia figuran bajo el nombre del principio activo, sin un texto de indicación detallado; en la literatura farmacológica se usa para el trastorno depresivo mayor.
+El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y variantes**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción puramente computacional.
 
 ---
 
@@ -41,56 +43,58 @@ La mirtazapina es un antidepresivo que se usa para el trastorno depresivo mayor.
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según la referencia farmacológica; el texto de los registros sanitarios solo dice «Mirtazapina» y no detalla la indicación) |
+| Indicación Original | Mirtazapina (el texto de indicación registrado en INVIMA solo menciona el nombre del principio activo) |
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
 | Puntaje de Predicción TxGNN | 99.42% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según los datos farmacológicos disponibles, la mirtazapina tiene la mayor afinidad por los adrenorreceptores α2 (α2A > α2C > α2B) y por los receptores serotoninérgicos 5-HT2A y 5-HT2C. Su eficacia en el trastorno depresivo mayor es conocida, y a veces se combina con ISRS o IRSN en depresión grave.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general y los datos de afinidad por receptores, la mirtazapina es un antidepresivo noradrenérgico y serotoninérgico específico: tiene mayor afinidad por los adrenoceptores α2 (α2A, α2B, α2C) y por los receptores serotoninérgicos 5-HT2A y 5-HT2C, donde actúa como antagonista.
 
-**No se identificó un vínculo mecanístico que respalde la predicción.** El síndrome de Ohdo (relacionado con KAT6B, regulación epigenética y de la cromatina) no tiene una conexión conocida con la vía adrenérgica/serotoninérgica. Es un síndrome congénito raro del neurodesarrollo, sin un blanco sintomático plausible para este fármaco. El puntaje de 99.42% es solo una salida del modelo.
+El síndrome de Ohdo y sus variantes son trastornos raros del neurodesarrollo, asociados comúnmente con mutaciones en KAT6B y desregulación de la cromatina o de mecanismos epigenéticos. **No se identifica una vía plausible** que conecte el perfil receptorial de la mirtazapina con la etiología genética de la enfermedad. El puntaje alto de TxGNN (0.994) refleja una asociación calculada a partir del grafo de conocimiento, no evidencia biológica ni clínica independiente.
 
-Las otras dos predicciones tampoco tienen respaldo:
-- **Síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo** (99.11%): es casi con certeza un nodo duplicado de la primera predicción, así que no cuenta como señal independiente.
-- **Tortícolis paroxística benigna de la infancia** (99.11%): el vínculo es solo especulativo, porque se la considera un equivalente migrañoso y algunos agentes serotoninérgicos o antihistamínicos se usan en la profilaxis de la migraña. No hay evidencia para la mirtazapina. Además, usar un antidepresivo sedante en lactantes requeriría una justificación de seguridad muy sólida, y el trastorno se resuelve solo con el tiempo.
+Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado de ánimo) sería especulativo y no está respaldado por los datos disponibles.
 
----
+**Otras predicciones del modelo (todas con nivel L5 y recomendación Hold):**
 
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+| Posición | Enfermedad | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo | 99.11% | Se solapa con la predicción principal (espectro KAT6B); probablemente refleja la misma asociación del grafo |
+| 3 | Tortícolis paroxística benigna de la infancia | 99.11% | Una conexión especulativa sería la modulación serotoninérgica (antagonismo 5-HT2 usado en profilaxis de migraña), pero no hay estudios y la condición se resuelve sola; faltan datos de seguridad en lactantes y los antidepresivos llevan advertencias pediátricas |
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | Mirtazapina (sin detalle de indicación) |
-| 19928993 | MIRTAPAX ® | Tableta recubierta | Mirtazapina (sin detalle de indicación) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Cancelado |
+| 19928993 | MIRTAPAX ® | Tableta recubierta | MIRTAZAPINA | Cancelado |
+| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Cancelado |
+| 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Cancelado |
 
-*Se muestran los registros únicos; los demás registros del listado repiten estos números. En total hay 20 registros sanitarios.*
+Los cuatro registros son de monofármaco y están cancelados; actualmente no hay productos vigentes en Colombia.
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Perfil de receptores (no son interacciones con otros fármacos):** la mirtazapina se une a los receptores 5-HT2A, 5-HT2C, α2A, α2B y α2C humanos. La referencia farmacológica indica que a veces se combina con un ISRS o un IRSN en depresión grave, por lo que conviene vigilar el efecto aditivo serotoninérgico y adrenérgico en cualquier combinación.
+- **Contraindicaciones y condiciones de riesgo según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento asocia la mirtazapina con las siguientes condiciones:
+  - Neurológicas y psiquiátricas: epilepsia, trastorno bipolar maníaco, síndrome serotoninérgico, acatisia inducida por fármacos, atrofia multisistémica.
+  - Cardiovasculares: hipotensión ortostática, trastornos hipotensivos, síndrome de taquicardia postural ortostática, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, infarto de miocardio, trombosis coronaria.
+  - Hematológicas: neutropenia, agranulocitosis, hemoglobinopatías.
+  - Hepáticas, biliares y renales: enfermedad hepática, enfermedad de la vesícula biliar, función renal alterada.
+  - Metabólicas: hipertrigliceridemia, obesidad (incluida la monogénica).
+- **Perfil farmacológico (receptores diana):** receptores 5-HT2A, 5-HT2C, y adrenoceptores α2A, α2B y α2C. Esta información describe el perfil de unión a receptores y no constituye una lista de interacciones fármaco-fármaco clínicas.
+- **Población pediátrica:** los antidepresivos llevan advertencias pediátricas y no hay datos de seguridad en lactantes, relevante para la tercera predicción.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -99,14 +103,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-- La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no hay un vínculo mecanístico plausible entre la mirtazapina y el síndrome de Ohdo.
-- Las tres predicciones son débiles, y dos de ellas parecen ser el mismo nodo duplicado.
+La predicción es puramente computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre el perfil receptorial de la mirtazapina y la causa genética del síndrome de Ohdo. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide la evaluación de seguridad inicial.
-- Completar los datos del mecanismo de acción (por ejemplo, consultando DrugBank) para poder analizar un posible vínculo mecanístico.
-- Encontrar alguna evidencia preclínica o clínica que conecte la mirtazapina con la vía de KAT6B o con los síntomas del síndrome de Ohdo.
-- Aclarar la indicación aprobada en los registros, que hoy solo repiten el nombre del principio activo.
+- Datos oficiales del mecanismo de acción (consulta a DrugBank)
+- Advertencias y contraindicaciones del prospecto de INVIMA
+- Evidencia preclínica o mecanística que conecte la acción de la mirtazapina con la vía KAT6B/epigenética
+- Revisión de literatura dirigida sobre síndrome de Ohdo y antidepresivos
+- Clarificar la situación regulatoria (registros cancelados) si se considerara avanzar
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

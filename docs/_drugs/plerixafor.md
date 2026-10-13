@@ -2,7 +2,7 @@
 layout: default
 title: Plerixafor
 parent: Solo Predicción del Modelo (L5)
-nav_order: 327
+nav_order: 520
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,77 +29,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Plerixafor: De Movilización de Células Madre Hematopoyéticas a Mieloma de Células Plasmáticas Indolente
+# Plerixafor: De Movilizador de Células Madre Hematopoyéticas a Mieloma de Células Plasmáticas Indolente
 
 ## Resumen en Una Frase
 
-Plerixafor es un antagonista del receptor CXCR4 que se usa como agente de movilización de células madre hematopoyéticas. Los datos de INVIMA no detallan la indicación, pues solo repiten el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **mieloma de células plasmáticas indolente**, pero hasta ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica.
+Plerixafor es un antagonista del receptor CXCR4, utilizado como movilizador de células madre hematopoyéticas en pacientes con linfoma no Hodgkin y mieloma múltiple que requieren trasplante autólogo.
+El modelo TxGNN predice que podría ser efectivo para **mieloma de células plasmáticas indolente**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicación específica; por ahora es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo dice "PLERIXAFOR"). El uso conocido es la movilización de células madre. |
+| Indicación Original | El registro sanitario solo indica el nombre del principio activo ("PLERIXAFOR"); según los datos farmacológicos, movilización de células madre hematopoyéticas |
 | Nueva Indicación Predicha | Mieloma de células plasmáticas indolente |
-| Puntaje de Predicción TxGNN | 99.97% (posición 402 del ranking del modelo) |
+| Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 9 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, plerixafor bloquea el eje CXCL12-CXCR4, que retiene las células en la médula ósea. Su uso comprobado es movilizar células madre hacia la sangre para su recolección.
+Plerixafor bloquea el receptor CXCR4 (y también interactúa con ACKR3). Al interrumpir el eje CXCL12-CXCR4, que mantiene las células ancladas en la médula ósea, libera células madre hacia la sangre periférica. Por eso se usa para recolectarlas antes de un trasplante. Los datos compilados no incluyen una descripción detallada del mecanismo de acción, pero este efecto farmacológico está bien documentado.
 
-Las células plasmáticas dependen de ese mismo eje para permanecer en la médula ósea, por lo que la hipótesis es plausible. Sin embargo, el papel actual de plerixafor en el mieloma es de apoyo (movilización de células madre para trasplante). Ese uso **no** demuestra actividad contra la enfermedad en sí.
+La relación con la nueva indicación es plausible. Las células de mieloma dependen del nicho de la médula ósea, y bloquear CXCR4 podría alterar ese anclaje. Sin embargo, el uso actual de plerixafor en mieloma múltiple es de **apoyo** (recolectar células para el trasplante), no una acción sobre la enfermedad. No hay datos que demuestren actividad contra la enfermedad en su forma indolente.
 
-El puntaje de 99.97% es solo una salida del modelo. No hay estudios que confirmen la predicción para esta indicación.
+La predicción debe tomarse como una hipótesis. El puntaje del modelo es muy alto, pero no se aportó ningún estudio que lo confirme.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para mieloma de células plasmáticas indolente.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
-## Señal Adicional: Leucemia Mieloide (Otra Predicción del Mismo Fármaco)
-
-Entre las predicciones de plerixafor, la **leucemia mieloide** (posición 7, puntaje 99.02%) es la única con evidencia real:
-
-- Hay más de 30 ensayos clínicos, casi todos de Fase 1 o Fase 1/2.
-- Ejemplos completados: [NCT00512252](https://clinicaltrials.gov/study/NCT00512252) (n=52, con MEC en LMA refractaria), [NCT01352650](https://clinicaltrials.gov/study/NCT01352650) (n=71, con decitabina en mayores de 60 años) y [NCT00943943](https://clinicaltrials.gov/study/NCT00943943) (n=33, con sorafenib y G-CSF en LMA con FLT3).
-- Hay publicaciones de Fase 1/2, como [22308295](https://pubmed.ncbi.nlm.nih.gov/22308295/) (Blood, 2012) y [29724902](https://pubmed.ncbi.nlm.nih.gov/29724902/) (Haematologica, 2018), además de una revisión sistemática con metaanálisis, [32877869](https://pubmed.ncbi.nlm.nih.gov/32877869/) (Leukemia Research, 2020).
-- El paquete la clasifica como L2 con recomendación "Research Question". No hay datos aleatorizados que muestren beneficio en supervivencia o remisión.
-
-Las otras predicciones (CMM7, melanomas, bronquitis) son L5, sin ensayos ni literatura, y tienen recomendación Hold.
-
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20255171 | PLERIXAFOR 24 MG SOLUCIÓN INYECTABLE (Avalon Pharmaceutical S.A) | Solución inyectable | PLERIXAFOR (el registro no detalla la indicación) |
-| 20056150 | MOZOBIL® (Genzyme Corporation) | Solución inyectable | PLERIXAFOR (el registro no detalla la indicación) |
+| 20255171 | Plerixafor 24 mg solución inyectable (Avalon Pharmaceutical S.A.) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
+| 20056150 | Mozobil® (Genzyme Corporation) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
+| 20187826 | Aurople­ristem 20 mg/ml (Eugia Pharma Specialities Limited) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
 
-El paquete informa 9 registros en total, pero solo incluye 5 filas, que corresponden a estos 2 números distintos (el 20255171 aparece 4 veces).
+Los tres registros están **cancelados**; actualmente no hay registros vigentes en Colombia.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del texto del prospecto): trombocitopenia, enfermedad con función renal alterada y leucemia.
+- **Interacciones farmacológicas**: la consulta no identificó interacciones con otros fármacos. Solo se registraron los blancos farmacológicos de plerixafor, CXCR4 y ACKR3.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para mieloma de células plasmáticas indolente solo existe la predicción del modelo (L5), sin ensayos ni publicaciones. Además, el papel de plerixafor en mieloma es de apoyo y no demuestra efecto contra la enfermedad.
+La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayos ni literatura, y el uso actual de plerixafor en mieloma es de apoyo y no sobre la enfermedad. Además, no hay registros sanitarios vigentes en Colombia.
+
+**Nota sobre otras predicciones:** Entre las indicaciones predichas, la **leucemia mieloide** es la que tiene más respaldo (27 ensayos de fase 1 y 1/2, y revisiones sobre CXCR4 en leucemia mieloide aguda; nivel L2). Aun así, los ensayos son pequeños, de brazo único y varios terminaron antes de tiempo, por lo que no se ha demostrado superioridad frente al tratamiento estándar. Si se busca una línea de reposicionamiento, conviene evaluarla como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos que evalúen plerixafor como tratamiento del mieloma indolente, y no solo como movilizador.
-- Datos de seguridad del prospecto de INVIMA (advertencias y contraindicaciones), que hoy faltan.
-- Datos del mecanismo de acción desde DrugBank para fortalecer el análisis mecanístico.
-- Si se busca una línea con más respaldo, evaluar la leucemia mieloide, que tiene evidencia de Fase 1/2 pero sin datos aleatorizados.
+- Estudios preclínicos o clínicos de plerixafor específicos en mieloma de células plasmáticas indolente
+- Datos detallados del mecanismo de acción
+- Prospecto con advertencias y contraindicaciones oficiales
+- Aclarar la situación regulatoria en Colombia, ya que los tres registros están cancelados
+- Evaluación de seguridad dadas las contraindicaciones señaladas (trombocitopenia, alteración renal)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

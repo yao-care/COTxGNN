@@ -2,15 +2,15 @@
 layout: default
 title: Ceftriaxone
 parent: Evidencia Moderada (L3-L4)
-nav_order: 117
-evidence_level: L4
+nav_order: 144
+evidence_level: L3
 indication_count: 7
 ---
 
 # Ceftriaxone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,72 +29,100 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Ceftriaxona: De Infecciones Bacterianas a Hiperamilasemia
+# Ceftriaxona: De Indicación Registrada (Ceftriaxona) a Otitis Media Infecciosa
 
 ## Resumen en Una Frase
 
-Ceftriaxona es un antibiótico betalactámico (cefalosporina de tercera generación), usado originalmente para tratar infecciones bacterianas.
-El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero **no hay ensayos clínicos** y solo hay **3 publicaciones**, ninguna de las cuales demuestra un beneficio terapéutico.
-La predicción tiene un puntaje alto, pero no está respaldada por datos clínicos.
+Ceftriaxona es un antibiótico betalactámico (cefalosporina) registrado en Colombia bajo el nombre del principio activo, sin una indicación detallada en el registro sanitario.
+El modelo TxGNN predice que podría ser efectivo para **otitis media infecciosa**, con **1 ensayo clínico** (de contexto, que no evalúa ceftriaxona) y **19 publicaciones** relacionadas.
+Esta predicción corresponde en gran medida a un uso antimicrobiano ya conocido, más que a un reposicionamiento novedoso.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el campo solo dice «Ceftriaxona»); se asume uso antibacteriano |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.39% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Hold |
+| Indicación Original | Ceftriaxona (el registro no detalla indicaciones específicas) |
+| Nueva Indicación Predicha | Otitis media infecciosa |
+| Puntaje de Predicción TxGNN | 99.26% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
+| Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ceftriaxona es una cefalosporina bactericida con actividad contra patógenos comunes como *Streptococcus pneumoniae*, *Haemophilus influenzae* y varias enterobacterias. Su eficacia en infecciones bacterianas está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ceftriaxona es una cefalosporina betalactámica que inhibe la síntesis de la pared celular bacteriana, y su eficacia antibacteriana está bien establecida.
 
-**Este caso no muestra una razón mecanística clara.** La hiperamilasemia es un hallazgo de laboratorio (amilasa sérica elevada), no una enfermedad que se trate directamente, y la ceftriaxona no tiene un efecto conocido sobre la amilasa. El puntaje alto del modelo no está respaldado por datos clínicos.
+La otitis media aguda es causada principalmente por *Streptococcus pneumoniae*, *Haemophilus influenzae* y *Moraxella catarrhalis*, patógenos contra los cuales ceftriaxona tiene actividad. Una dosis única intramuscular es una alternativa establecida cuando el tratamiento oral falla o no es tolerado.
 
-La única señal en la literatura es un estudio de 1999 sobre profilaxis con ceftriaxona tras papilosfinterotomía endoscópica. Es más plausible que el beneficio observado se deba a la prevención de infección biliar (colangitis) y no a una reducción de la amilasa. Además, el análisis del paquete señala que el lodo biliar y la pancreatitis son efectos adversos descritos de la ceftriaxona, lo que va en sentido contrario a la indicación predicha.
+Por ello, el vínculo mecanístico es sólido, pero se trata de un uso antiinfeccioso esperable de la clase y no de un reposicionamiento propiamente dicho. El estado "solo cancelado" en Colombia indica que se retiró un producto específico, no necesariamente la clase de fármaco.
+
+Otras predicciones del modelo (hiperamilasemia, síndrome de hiperviscosidad policlonal, analbuminemia congénita, incompatibilidad de grupo sanguíneo) carecen de justificación mecanística y probablemente son artefactos de la red del modelo. Otitis media supurativa y otitis media crónica tienen evidencia indirecta y limitada (en la crónica predominan *Pseudomonas*, *S. aureus* y biopelículas, para los que ceftriaxona no es de primera línea).
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT02567825](https://clinicaltrials.gov/study/NCT02567825) | N/A | Completado | 250 | Colocación de tubos de timpanostomía vs. manejo no quirúrgico en niños con otitis media aguda recurrente. No evalúa ceftriaxona; relevancia solo contextual. |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10458061](https://pubmed.ncbi.nlm.nih.gov/10458061/) | 1999 | Estudio clínico (diseño poco claro) | Bratislavske lekarske listy | 30 pacientes recibieron 1 g de ceftriaxona como profilaxis tras papilosfinterotomía endoscópica y se compararon con 30 sin antibiótico. Las bacterias biliares más frecuentes (*Pseudomonas aeruginosa*, *E. coli*) fueron sensibles a ceftriaxona. |
-| [7522351](https://pubmed.ncbi.nlm.nih.gov/7522351/) | 1994 | Observacional (no relacionado con ceftriaxona) | Southern Medical Journal | 38 pacientes con hemorragia intracraneal: 25 tenían lipasa elevada y 17 también amilasa, sin pancreatitis. No evalúa ceftriaxona. |
-| [36263834](https://pubmed.ncbi.nlm.nih.gov/36263834/) | 2023 | Reporte de caso | Rev Esp Enferm Dig | Síndrome de Weil (leptospirosis) con hemorragia digestiva alta por úlcera gástrica. Aporta poco a la hipótesis. |
+| [8989332](https://pubmed.ncbi.nlm.nih.gov/8989332/) | 1997 | ECA | Pediatrics | Dosis única intramuscular de ceftriaxona vs. 10 días de trimetoprima-sulfametoxazol oral en otitis media aguda |
+| [11099083](https://pubmed.ncbi.nlm.nih.gov/11099083/) | 2000 | Estudio clínico | Pediatr Infect Dis J | Eficacia bacteriológica y clínica de ceftriaxona intramuscular de 1 día vs. 3 días en otitis media aguda no respondedora |
+| [9877360](https://pubmed.ncbi.nlm.nih.gov/9877360/) | 1998 | Estudio clínico | Pediatr Infect Dis J | Eficacia bacteriológica de ceftriaxona intramuscular por 3 días en otitis media aguda no respondedora |
+| [12166789](https://pubmed.ncbi.nlm.nih.gov/12166789/) | 2002 | Consenso | Clin Pediatr | Recomendaciones de consenso para el tratamiento de la otitis media aguda |
+| [10688388](https://pubmed.ncbi.nlm.nih.gov/10688388/) | 2000 | Revisión | Clin Ther | Revisión de recomendaciones de tratamiento antimicrobiano de la otitis media aguda |
+| [35841649](https://pubmed.ncbi.nlm.nih.gov/35841649/) | 2022 | Cohorte | Int J Pediatr Otorhinolaryngol | Factores asociados al uso de ceftriaxona en otitis media aguda en atención primaria de EE. UU.; preocupación por resistencia antimicrobiana |
+| [39361280](https://pubmed.ncbi.nlm.nih.gov/39361280/) | 2024 | Revisión | JAMA Netw Open | Prescripción óptima de antibióticos ambulatorios pediátricos |
+| [20802367](https://pubmed.ncbi.nlm.nih.gov/20802367/) | 2010 | Revisión | Otol Neurotol | Prevención y tratamiento de meningitis y otitis media aguda en niños con implantes cocleares |
+| [20660544](https://pubmed.ncbi.nlm.nih.gov/20660544/) | 2010 | Revisión | Pediatrics | Infecciones del sitio quirúrgico, otitis media aguda y meningitis en niños con implantes cocleares |
+| [32796134](https://pubmed.ncbi.nlm.nih.gov/32796134/) | 2020 | Reporte de caso | Eur J Microbiol Immunol | Otitis media crónica por *Vibrio cholerae* no O1/no O139, tratada con ciprofloxacino y ceftriaxona |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20163214 | CEFTRINOX® 1000 MG POLVO ESTÉRIL PARA RECONSTITUIR (Nectar Lifesciences Limited) | Polvo estéril para reconstituir a solución inyectable | Solo figura «Ceftriaxona» (sin texto de indicación) |
+| 20163214 (cancelado) | CEFTRINOX® 1000 MG | Polvo estéril para reconstituir a solución inyectable | CEFTRIAXONA |
 
-El pack de evidencia lista cinco entradas idénticas del mismo registro 20163214. Aquí se muestra una sola. El total de registros reportado es 20.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento del modelo** (no provienen del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, ictericia neonatal, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal y anemia hemolítica.
+- **Interacciones farmacológicas** (100 interacciones registradas; principales):
+  - **Mayores:** cloruro de calcio, glucoheptonato de calcio y gluconato de calcio.
+  - **Moderadas:** kanamicina, neomicina, estreptomicina y ácido picosulfúrico.
+  - Otras interacciones tienen nivel de gravedad no clasificado (por ejemplo, anfotericina B, ácido acetilsalicílico, amoxicilina y doxiciclina).
+
+Para advertencias y contraindicaciones de etiqueta, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios que evalúen ceftriaxona para reducir la amilasa. La hiperamilasemia es un hallazgo de laboratorio, y la ceftriaxona se asocia a pancreatitis y lodo biliar. El puntaje de 99.39% es solo una predicción del modelo.
+La actividad de ceftriaxona contra los patógenos típicos de la otitis media aguda está respaldada por un ECA comparativo y recomendaciones de consenso, pero se trata de un uso antiinfeccioso ya conocido y no de un reposicionamiento novedoso. No hay ensayos clínicos que evalúen ceftriaxona en esta indicación, y el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que no está disponible en el pack.
-- Completar el mecanismo de acción desde DrugBank.
-- Confirmar la indicación original aprobada, ya que el registro solo muestra el nombre del principio activo.
-- Antes de considerar esta indicación, definir si hay una pregunta clínica real detrás de la hiperamilasemia (p. ej., una enfermedad subyacente) y no solo un hallazgo de laboratorio.
-
-**Nota adicional:** entre las otras predicciones del pack, *otitis media infecciosa* tiene mayor respaldo (nivel L1, «Proceed with Guardrails»). Es probable que sea un uso ya establecido y no un reposicionamiento, por lo que conviene evaluarla por separado.
+- Obtener el prospecto vigente (advertencias y contraindicaciones) y confirmar si existen otros registros de ceftriaxona vigentes en Colombia.
+- Definir el mecanismo de acción a partir de DrugBank.
+- Establecer salvaguardas de uso racional de antimicrobianos: reservar ceftriaxona para falla del tratamiento oral o cuando la vía oral no sea factible, con vigilancia de resistencia.
+- Atender las interacciones mayores con calcio (especialmente en neonatos) y las contraindicaciones señaladas (enfermedad hepatobiliar, ictericia neonatal, antecedentes de colitis por *C. difficile*).
+- Mantener en espera (Hold) las demás predicciones sin base mecanística; otitis media supurativa y crónica requerirían estudios adicionales, ya que la evidencia disponible es indirecta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

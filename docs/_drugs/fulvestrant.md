@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Fulvestrant
-parent: Solo Predicción del Modelo (L5)
-nav_order: 205
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 304
+evidence_level: L4
 indication_count: 10
 ---
 
 # Fulvestrant
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fulvestrant: De Cáncer de Mama con Receptores Hormonales Positivos a Infección por VIH
+# Fulvestrant: De Indicación Registrada (texto "FLUVESTRANT") a Infección por VIH
 
 ## Resumen en Una Frase
 
-Fulvestrant es un degradador selectivo del receptor de estrógenos (SERD). Su uso establecido, según los ensayos clínicos del paquete de evidencia, es el cáncer de mama con receptores hormonales positivos.
-El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero hay **0 ensayos clínicos** y **1 publicación** que no trata sobre el VIH (estudia HTLV-1). La predicción es solo del modelo y carece de respaldo real.
+Fulvestrant es un antagonista y degradador del receptor de estrógenos, utilizado en cáncer de mama con receptores hormonales positivos. En Colombia, el texto de indicación de sus registros sanitarios figura únicamente como "FLUVESTRANT" (un error de transcripción del nombre del fármaco).
+El modelo TxGNN predice que podría ser efectivo para **infección por VIH** (enfermedad infecciosa), pero actualmente **no hay ensayos clínicos** y solo **2 publicaciones** relacionadas, una de ellas preclínica in vitro y la otra sobre otro retrovirus (HTLV-1), por lo que la evidencia es muy limitada.
 
 ---
 
@@ -42,23 +42,23 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro INVIMA solo repite el nombre del fármaco ("FLUVESTRANT") y no describe una indicación. El cáncer de mama con receptores hormonales positivos se infiere de los ensayos asociados. |
+| Indicación Original | FLUVESTRANT (texto del registro INVIMA, sin una indicación clínica descrita) |
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Fulvestrant es un degradador selectivo del receptor de estrógenos y no tiene actividad antiviral conocida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fulvestrant es un antagonista del receptor de estrógenos alfa (ERα) que además favorece su degradación, y su eficacia en cáncer de mama con receptores hormonales positivos está bien establecida. Esta descripción proviene del conocimiento general del fármaco y no de los datos compilados.
 
-No se identifica un vínculo mecanístico creíble entre el bloqueo y la degradación del receptor de estrógenos y la infección por VIH. El puntaje alto (99.91%) proviene de la proximidad entre nodos en el grafo de conocimiento, probablemente con otras enfermedades retrovirales. No refleja evidencia biológica ni clínica.
+El vínculo con el VIH es indirecto. El ERα se expresa en los linfocitos T CD4+ y se ha planteado que podría influir en la transcripción y la latencia del VIH. Un estudio de 2026 evaluó cómo interactúan los ligandos del ERα (incluido fulvestrant) y los agentes reversores de latencia en estas células. Esto sugiere que fulvestrant podría modular la reversión de la latencia viral, pero se trata de evidencia preclínica in vitro, sin datos en humanos.
 
-Por eso esta predicción debe leerse como una hipótesis del modelo y no como una candidata respaldada. El puntaje del modelo, por alto que sea, no sustituye la evidencia experimental.
+La otra publicación identificada trata sobre la mielopatía asociada a HTLV-1, un retrovirus distinto del VIH, por lo que no constituye evidencia directa. La relación entre la indicación original (oncología hormonal) y la nueva (infección viral) es por tanto débil y se apoya sobre todo en similitudes del grafo de conocimiento.
 
 ---
 
@@ -72,17 +72,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Análisis multicohorte de ómicas (preprint) | Research Square | Estudia la mielopatía asociada a HTLV-1 (HAM), no el VIH. Identifica mecanismos de la enfermedad y posibles dianas terapéuticas. No evalúa fulvestrant contra el VIH, por lo que no respalda la predicción. |
+| [42430506](https://pubmed.ncbi.nlm.nih.gov/42430506/) | 2026 | Estudio preclínico in vitro | JCI Insight | Evalúa el efecto del estrógeno, de fulvestrant y de los agentes reversores de latencia del VIH sobre el ERα en linfocitos T CD4+; apunta a un posible papel del ER en la latencia del VIH |
+| [40343334](https://pubmed.ncbi.nlm.nih.gov/40343334/) | 2025 | Análisis ómico multicohorte | Research Square | Estudio de mecanismos y dianas terapéuticas en la mielopatía asociada a HTLV-1; es un retrovirus distinto y no aporta evidencia directa sobre el VIH |
 
 ---
 
 ## Información de Mercado en Colombia
 
-El registro contiene entradas repetidas del mismo producto; se muestra una sola vez.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190314 | FULVESANT® 250 MG/5 ML (Laboratorios Legrand S.A.) | Solución inyectable | "FLUVESTRANT" (el texto no describe una indicación) |
+| 20190314 (cancelado) | FULVESANT® 250 MG/5 ML | Solución inyectable | FLUVESTRANT |
+| 19955642 (cancelado) | FASLODEX® 250 MG / 5 ML | Solución inyectable | FLUVESTRANT |
 
 ---
 
@@ -90,17 +90,18 @@ El registro contiene entradas repetidas del mismo producto; se muestra una sola 
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia hormonal dirigida (degradador selectivo del receptor de estrógenos, SERD); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia hormonal (antagonista y degradador del receptor de estrógenos); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Bajo en general; sin embargo, el grafo de conocimiento lista la trombocitopenia entre las enfermedades contraindicadas, por lo que se recomienda precaución |
+| Clasificación de Emetogenicidad | Baja |
+| Ítems de Monitoreo | Hemograma con recuento de plaquetas, función hepática, parámetros de coagulación |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (aristas fármaco-enfermedad de PrimeKG, no texto del prospecto): enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia y trastornos de la coagulación sanguínea.
+- **Interacciones farmacológicas**: se identificaron 92 posibles interacciones, todas con nivel de gravedad desconocido. Entre las principales figuran warfarina (relevante por el riesgo hemorrágico, dado que se administra por vía intramuscular), metformina, simvastatina, ácido acetilsalicílico, dexametasona, prednisona, omeprazol, pantoprazol, ondansetrón y morfina.
 
 ---
 
@@ -109,13 +110,14 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para VIH se basa solo en el puntaje del modelo. No hay ensayos clínicos, la única publicación trata sobre HTLV-1 y no existe un mecanismo antiviral plausible para un degradador del receptor de estrógenos.
+La predicción para VIH tiene un puntaje alto en el modelo, pero solo cuenta con un estudio preclínico in vitro y sin ensayos clínicos, lo que corresponde a un nivel de evidencia L4. Además, los registros sanitarios en Colombia están cancelados y la indicación registrada está mal transcrita.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos (in vitro o en modelos animales) que muestren algún efecto de fulvestrant sobre el VIH
-- Una hipótesis mecanística explícita que conecte la señalización de estrógenos con la biología del VIH
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), pues el registro actual no las incluye
-- Datos completos del mecanismo de acción desde DrugBank
+- Datos de mecanismo de acción confirmados, por ejemplo mediante consulta a DrugBank.
+- Estudios preclínicos adicionales (in vitro e in vivo) sobre fulvestrant y la latencia del VIH, con replicación independiente.
+- Obtener y revisar el prospecto de INVIMA para completar las advertencias y contraindicaciones, ya que esta brecha impide avanzar al tamizaje de seguridad.
+- Aclarar la situación regulatoria en Colombia, dado que ambos registros están cancelados.
+- Evaluar si el posible efecto de reversión de latencia tiene sentido clínico, pues el bloqueo estrogénico podría tener efectos inmunológicos no deseados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

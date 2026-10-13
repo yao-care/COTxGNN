@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Colchicine
-parent: Evidencia Moderada (L3-L4)
-nav_order: 140
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 179
+evidence_level: L5
 indication_count: 3
 ---
 
 # Colchicine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Colchicina: De Gota a Malaria por Plasmodium falciparum
+# Colchicina: De Colchicina (indicación no detallada en el registro) a Fiebre Mediterránea Familiar
 
 ## Resumen en Una Frase
 
-La colchicina es un alcaloide oral que se usa sobre todo contra la gota y otras enfermedades autoinflamatorias. El registro sanitario colombiano solo indica "COLCHICINA", sin especificar una indicación.
-El modelo TxGNN predice que podría ser efectiva para **malaria por Plasmodium falciparum**, pero hoy hay **0 ensayos clínicos** y **6 publicaciones** de laboratorio o serología, ninguna de las cuales evalúa colchicina directamente.
+La colchicina es un fármaco de uso oral con registros sanitarios en Colombia, que hoy figuran todos como cancelados. Según fuentes farmacológicas, se usa sobre todo para la gota y para enfermedades autoinflamatorias como la enfermedad de Behçet.
+El modelo TxGNN predice que podría ser efectiva para **fiebre mediterránea familiar (forma autosómica dominante)**, respaldada por **0 ensayos clínicos** y **19 publicaciones**, en su mayoría revisiones. Este uso ya es conocido y está establecido, por lo que no constituye un reposicionamiento novedoso.
 
 ---
 
@@ -42,77 +42,91 @@ El modelo TxGNN predice que podría ser efectiva para **malaria por Plasmodium f
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Gota (según la referencia farmacológica); el texto del registro INVIMA solo dice "COLCHICINA" |
-| Nueva Indicación Predicha | Malaria por Plasmodium falciparum |
-| Puntaje de Predicción TxGNN | 99.60% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Hold |
+| Indicación Original | Colchicina (el registro sanitario no detalla la indicación; según fuentes farmacológicas, gota y enfermedades autoinflamatorias) |
+| Nueva Indicación Predicha | Fiebre mediterránea familiar, autosómica dominante |
+| Puntaje de Predicción TxGNN | 99.38% |
+| Nivel de Evidencia | L4 (según los datos aportados; probablemente subestima la evidencia clínica real) |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 5 (0 vigentes, 5 cancelados) |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No hay un mecanismo de acción detallado en el paquete de evidencia. Sí se sabe que la colchicina se une a la tubulina (el paquete lista TUBB, tubulina beta clase I, como blanco) y altera los microtúbulos. Por eso interfiere con la división celular y con la actividad de los neutrófilos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de fármacos. Según la información compilada, la colchicina se une a la tubulina (en particular a la tubulina beta clase I) e inhibe el ensamblaje de los microtúbulos. Esto reduce la quimiotaxis de neutrófilos y la activación del inflamasoma NLRP3.
 
-La lógica de la predicción es que algunos compuestos que actúan sobre el citoesqueleto inhiben *P. falciparum* in vitro. Es el caso de los tubulozoles y de la curcumina, que alteró los microtúbulos del parásito. Sin embargo, ninguno de los seis artículos recuperados prueba colchicina. Además, la tubulina de *Plasmodium* se considera poco sensible a la colchicina, y un artículo señala que difiere de la de los mamíferos.
+La fiebre mediterránea familiar (FMF) es la enfermedad autoinflamatoria prototípica. Está causada por mutaciones de ganancia de función en el gen *MEFV* (proteína pirina), que provocan inflamación neutrofílica mediada por IL-1β. La colchicina es el tratamiento de primera línea desde hace décadas: previene las crisis y la amiloidosis renal. Las revisiones recuperadas lo confirman, y señalan que entre un 5% y un 10% de los pacientes son resistentes o intolerantes, en cuyo caso se usan agentes biológicos como canakinumab.
 
-Por lo tanto, el vínculo es indirecto e hipotético. El puntaje alto de TxGNN (0.996) es solo una predicción del modelo y no está respaldado por datos clínicos.
+Hay una salvedad: la entrada de la enfermedad corresponde a la forma autosómica dominante, mientras que la forma clásica es autosómica recesiva. Debe verificarse la correspondencia del subtipo. Además, como este uso ya está respaldado por guías clínicas, conviene marcarlo como **indicación ya conocida**.
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados en los datos compilados.
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran las publicaciones más relevantes (de 19 recuperadas), priorizando revisiones y comentarios de mayor nivel.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23505424](https://pubmed.ncbi.nlm.nih.gov/23505424/) | 2013 | In vitro | PloS one | La curcumina altera los microtúbulos de *P. falciparum*; no evalúa colchicina |
-| [2655935](https://pubmed.ncbi.nlm.nih.gov/2655935/) | 1989 | In vitro | Cell biology international reports | Sustancias que se unen a tubulina y actina inhiben el parásito in vitro; el tubulozol-T aparece como antimalárico prometedor |
-| [2670249](https://pubmed.ncbi.nlm.nih.gov/2670249/) | 1989 | In vitro | Cell biology international reports | Mismo estudio que el anterior (registro duplicado en PubMed) |
-| [2221861](https://pubmed.ncbi.nlm.nih.gov/2221861/) | 1990 | In vitro | Antimicrobial agents and chemotherapy | Los tubulozoles reducen la síntesis de proteínas del parásito; la colcemida (análogo de la colchicina) tuvo un efecto similar |
-| [7511206](https://pubmed.ncbi.nlm.nih.gov/7511206/) | 1994 | In vitro | Molecular and cellular biology | La expresión del gen pfmdr1 en células de mamífero aumenta la sensibilidad a cloroquina; sin relación directa con colchicina |
-| [6362934](https://pubmed.ncbi.nlm.nih.gov/6362934/) | 1984 | Observacional (serología) | Clinical and experimental immunology | El 82% de los pacientes con malaria aguda tenía anticuerpos contra filamentos intermedios del citoesqueleto |
+| [37298536](https://pubmed.ncbi.nlm.nih.gov/37298536/) | 2023 | Revisión | Int J Mol Sci | Actualización sobre FMF, resistencia al tratamiento y adherencia |
+| [32806879](https://pubmed.ncbi.nlm.nih.gov/32806879/) | 2020 | Revisión | Turk J Med Sci | Patogénesis (mutaciones de *MEFV*/pirina), diagnóstico y enfoques terapéuticos |
+| [29768139](https://pubmed.ncbi.nlm.nih.gov/29768139/) | 2018 | Revisión | N Engl J Med | Canakinumab en síndromes de fiebre recurrente autoinflamatoria, incluida la FMF |
+| [30686512](https://pubmed.ncbi.nlm.nih.gov/30686512/) | 2019 | Revisión | Presse Med | FMF como el síndrome de fiebre periódica hereditario más frecuente |
+| [28413100](https://pubmed.ncbi.nlm.nih.gov/28413100/) | 2017 | Revisión | Semin Arthritis Rheum | La colchicina es el tratamiento de referencia; definición y causas de resistencia o intolerancia |
+| [38925725](https://pubmed.ncbi.nlm.nih.gov/38925725/) | 2024 | Revisión/Comentario | J Am Coll Cardiol | Inflamación, colchicina y enfermedad aterosclerótica, con la FMF como caso de referencia |
+| [36062765](https://pubmed.ncbi.nlm.nih.gov/36062765/) | 2022 | Revisión | Clin Exp Rheumatol | La colchicina es el fármaco de elección desde 1972; inhibición de IL-1 en casos con problemas |
+| [41460254](https://pubmed.ncbi.nlm.nih.gov/41460254/) | 2025 | Estudio observacional | Eur J Pediatr | Crecimiento y desarrollo puberal en niños con FMF tratados con colchicina |
 
 ---
 
 ## Información de Mercado en Colombia
 
+Los 5 registros sanitarios están cancelados; actualmente no hay productos vigentes.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20055858 | COLCHICINA 0.5 MG TABLETAS (Memphis Products S.A.) | Tableta | COLCHICINA |
-| 20253882 | SOVUSTA® (Alkem Laboratories Limited) | Tableta | COLCHICINA |
-
-El paquete informa 20 registros en total, pero solo detalla 2 números únicos; el resto aparecen repetidos. Todas las presentaciones son orales.
+| 20055858 | Colchicina 0.5 mg tabletas | Tableta | Colchicina |
+| 20253882 | Sovusta® | Tableta | Colchicina |
+| 20010760 | Colchicina tabletas 0.5 mg | Tableta | Colchicina |
+| 36324 | Colchimedio 0.5 mg tabletas | Tableta | Colchicina |
+| 19948217 | Colchicina 0.5 mg tabletas | Tableta | Colchicina |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta de interacciones se completó y devolvió 7 registros. En realidad son blancos farmacológicos de la colchicina, no interacciones con otros medicamentos: receptor de glicina α1 y α2, receptor de glicina (todos los subtipos), TAS2R4, TAS2R46, BRD4 y tubulina beta clase I. Todavía no hay un listado de interacciones clínicas (por ejemplo con inhibidores de CYP3A4 o P-gp).
+- **Contraindicaciones señaladas por el grafo de conocimiento (no provienen del prospecto):** insuficiencia hepática, deterioro de la función renal, enfermedades hematológicas (trombocitopenia, leucopenia, agranulocitosis, neutropenia y sus variantes congénitas, anemia aplásica), úlcera péptica, enfermedades diarreicas, y miopatías o rabdomiólisis.
+- **Interacciones y dianas farmacológicas:** se registraron 7 asociaciones farmacológicas con receptores de glicina (GLRA1, GLRA2), receptores del gusto (TAS2R4, TAS2R46), BRD4 y tubulina beta clase I. Son dianas moleculares, no interacciones medicamentosas clínicas.
+- La literatura indica un índice terapéutico estrecho. Los niveles del fármaco dependen de la glicoproteína P y del CYP3A4, por lo que conviene vigilar los inhibidores de estas vías.
 
-Consultar el prospecto para el resto de la información de seguridad.
+No se dispone de advertencias del prospecto; se debe consultar el prospecto del producto para la información de seguridad completa.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia se limita a estudios in vitro con otros compuestos y a una serología, sin ensayos clínicos ni datos con colchicina. La tubulina de *Plasmodium* es poco sensible a la colchicina, y el fármaco tiene un índice terapéutico estrecho. Solo el puntaje del modelo respalda la predicción.
+La colchicina es el tratamiento de primera línea establecido para la fiebre mediterránea familiar y la literatura lo respalda de forma consistente. Sin embargo, los datos aportados no incluyen ensayos clínicos, y hoy no hay registros vigentes en Colombia. Por eso se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Ensayos in vitro de colchicina contra cultivos de *P. falciparum*, incluidas cepas resistentes a cloroquina, con comparación de toxicidad frente a células humanas
-- Obtener el mecanismo de acción completo desde DrugBank
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones
-- Un listado real de interacciones farmacológicas, con foco en CYP3A4 y P-gp
-- Confirmar la indicación original del fármaco, porque el campo del registro solo repite el nombre
+- Verificar el subtipo de la enfermedad (forma autosómica dominante frente a la clásica recesiva).
+- Confirmar que se trata de una indicación ya conocida y no de un reposicionamiento novedoso.
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
+- Confirmar el mecanismo de acción en DrugBank.
+- Aclarar el estado regulatorio: todos los registros están cancelados, así que habría que reactivarlos o tramitar uno nuevo.
+- Definir un plan de monitoreo de seguridad (función renal y hepática, hemograma, interacciones con inhibidores de CYP3A4 y glicoproteína P).
 
-**Nota:** en el mismo paquete, la indicación de rango 2 (fiebre mediterránea familiar) corresponde a un uso ya establecido de la colchicina. Tiene nivel L3 y recomendación "Proceed with Guardrails". No es un hallazgo de reposicionamiento nuevo, y el subtipo "autosómico dominante" debe verificarse frente a la forma recesiva habitual. El rango 3 (dermatofibrosarcoma protuberans) no tiene ninguna evidencia (L5, Hold).
-
----
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Otras predicciones del modelo (no recomendadas por ahora):**
+- *Malaria por Plasmodium falciparum* (99.60%, L5, Hold): la evidencia es solo indirecta (estudios preclínicos sobre curcumina y pfmdr1) y la toxicidad del huésped a dosis antiparasitarias limita la plausibilidad.
+- *Dermatofibrosarcoma protuberans* (99.37%, L5, Hold): no hay ensayos ni literatura; la enfermedad se trata con cirugía e imatinib y no hay evidencia que la conecte con la colchicina.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

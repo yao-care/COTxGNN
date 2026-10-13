@@ -2,7 +2,7 @@
 layout: default
 title: Etofenamate
 parent: Solo Predicción del Modelo (L5)
-nav_order: 188
+nav_order: 268
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,77 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etofenamato: De Antiinflamatorio (indicación original no especificada) a Espondiloartropatía (susceptibilidad)
+# Etofenamato: De Etofenamato (indicación no detallada en el registro) a Espondilitis Anquilosante
 
 ## Resumen en Una Frase
 
-Etofenamato es un antiinflamatorio no esteroideo (AINE) del grupo de los fenamatos. En Colombia se comercializa como solución inyectable, pero los registros disponibles no detallan su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **espondiloartropatía (susceptibilidad genética)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
-La segunda predicción, **espondilitis anquilosante**, cuenta con un único estudio farmacocinético indirecto.
+Etofenamato es un antiinflamatorio no esteroideo (AINE) del grupo de los fenamatos, con un registro sanitario en Colombia (hoy cancelado) en solución inyectable; el texto de indicación del registro solo repite el nombre del producto.
+El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosante**, con **0 ensayos clínicos** y **1 publicación** (un estudio farmacocinético) que respaldan indirectamente esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ETOFENAMATO (el registro solo repite el nombre del principio activo y no describe una indicación) |
-| Nueva Indicación Predicha | Espondiloartropatía, susceptibilidad a (etiqueta de predisposición genética) |
-| Puntaje de Predicción TxGNN | 99.9996% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Indicación Original | ETOFENAMATO (el registro no detalla una indicación clínica específica) |
+| Nueva Indicación Predicha | Espondilitis anquilosante (predicción de mayor puntaje: «susceptibilidad genética a espondiloartropatía», un término genético y no una condición tratable) |
+| Puntaje de Predicción TxGNN | 99.998% (espondilitis anquilosante); 99.9996% (susceptibilidad a espondiloartropatía) |
+| Nivel de Evidencia | L4 (espondilitis anquilosante); L5 para la mayoría de las demás predicciones |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+**Nota sobre la indicación principal:** la predicción con mayor puntaje es «susceptibilidad genética a espondiloartropatía», un término genético que no corresponde a una condición tratable. Por ello el informe se centra en la espondilitis anquilosante, la primera predicción clínicamente relevante y la única con alguna literatura asociada.
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información recibida. Etofenamato es un AINE de la clase de los fenamatos, que actúa por inhibición de la ciclooxigenasa (COX). Los AINE son tratamiento sintomático de primera línea en las espondiloartritis, por lo que existe un vínculo biológico plausible.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el etofenamato es un AINE tópico del grupo de los fenamatos que inhibe la ciclooxigenasa (COX). Esto reduce la inflamación y el dolor mediados por prostaglandinas.
 
-Sin embargo, la primera predicción es una etiqueta de **predisposición genética**, no un estado clínico tratable. Un AINE podría aliviar los síntomas inflamatorios de una espondiloartritis, pero ningún dato respalda este término específico. El puntaje alto del modelo no equivale a evidencia clínica.
+Los AINE son tratamiento sintomático de primera línea en la espondiloartritis y la espondilitis anquilosante. Por eso la relación entre un antiinflamatorio y esta enfermedad es mecanísticamente plausible.
 
-La predicción más coherente con el mecanismo es la de **espondilitis anquilosante** (rango 2, puntaje 99.9984%). Aun así, su respaldo se limita a evidencia indirecta, como se detalla más abajo.
+Sin embargo, la evidencia es indirecta. La única publicación vinculada demuestra que el etofenamato llega al suero y al líquido sinovial tras iontoforesis, lo que indica penetración tisular, pero no demuestra eficacia en espondilitis anquilosante. Además, la administración tópica a articulaciones axiales profundas podría ser una limitación.
+
+Las demás predicciones carecen de respaldo: varias son enfermedades genéticas esqueléticas (displasia acromesomélica tipo Hunter-Thompson, síndrome de braquiolmia-amelogénesis imperfecta, pseudoacondroplasia) donde un AINE no actúa sobre la patología de fondo, probablemente por artefactos del grafo del modelo. En la vasculitis reumatoide, que se trata con inmunosupresores, un AINE tópico difícilmente sería adecuado.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible para la primera predicción.
-
-**Evidencia indirecta para la segunda predicción (espondilitis anquilosante):**
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Estudio farmacocinético | Arzneimittel-Forschung | Tras 5 días de iontoforesis con gel de etofenamato (100 mg/día) en 11 pacientes con dolor lumbar y 13 con sinovitis de rodilla, se midió el fármaco en suero y líquido sinovial. Demuestra penetración tisular, pero no eficacia ni seguridad en espondilitis anquilosante. |
+| [11455681](https://pubmed.ncbi.nlm.nih.gov/11455681/) | 2001 | Estudio farmacocinético | Arzneimittel-Forschung | Tras 5 días de iontoforesis con gel de etofenamato (100 mg diarios) en 11 pacientes con lumbalgia y 13 con sinovitis de rodilla, se midieron concentraciones del fármaco en suero y líquido sinovial, con lo que se confirma su penetración. No evalúa eficacia en espondilitis anquilosante. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Los 5 registros listados en los datos corresponden al mismo número de registro sanitario (20069025), repetido. El total declarado es de 20.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20069025 | ETOFENAMATO 1G/2ML (Laboratorios MK S.A.S) | Solución inyectable | ETOFENAMATO (sin texto de indicación descriptivo) |
+| 20069025 (cancelado) | ETOFENAMATO 1G/2ML (Laboratorios MK S.A.S) | Solución inyectable | ETOFENAMATO |
 
-**Nota de vía de administración:** la única forma farmacéutica registrada es inyectable. La evidencia farmacocinética disponible corresponde a un gel tópico aplicado por iontoforesis. La compatibilidad de vía para las indicaciones predichas está pendiente de evaluar.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas en los datos compilados para este informe.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal es solo del modelo (nivel L5): es una etiqueta genética sin estado clínico tratable, sin ensayos ni literatura. La predicción de espondilitis anquilosante es más plausible (L4), pero su único respaldo es un estudio de penetración tisular con otra vía de administración.
+Las predicciones se basan casi por completo en el modelo: no hay ensayos clínicos y la única publicación es un estudio farmacocinético sin datos de eficacia. Además, el único registro sanitario en Colombia está cancelado y no se dispone de información de seguridad. Para espondilitis anquilosante el planteamiento puede mantenerse como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que sin él no es posible el tamizaje de seguridad.
-- Consultar el mecanismo de acción en DrugBank para sustentar el análisis mecanístico.
-- Aclarar la indicación original real del producto inyectable registrado.
-- Reorientar la evaluación hacia espondilitis anquilosante y buscar estudios de eficacia y seguridad de etofenamato en esa condición.
-- Evaluar la compatibilidad de vía de administración (inyectable frente a tópica).
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable antes de cualquier evaluación de seguridad.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Estudios de eficacia del etofenamato en espondilitis anquilosante o dolor axial, y evaluación de si la vía tópica alcanza articulaciones profundas.
+- Aclarar la situación regulatoria (registro cancelado) y la disponibilidad de una formulación adecuada en Colombia.
+- Descartar las predicciones sin plausibilidad biológica (enfermedades genéticas esqueléticas, vasculitis reumatoide) de cualquier priorización.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Resorcinol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 343
+nav_order: 555
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,43 +29,42 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Resorcinol: De Uso Dermatologico Topico (indicacion no detallada en el registro) a Acne Queloide
+# Resorcinol: De Combinaciones Tópicas (Ácido Salicílico, Ácido Benzoico, Resorcinol) a Acné Queloide
 
 ## Resumen en Una Frase
 
-Resorcinol es un principio activo de uso topico dermatologico. En Colombia figura en una solucion topica que lo combina con acido salicilico y acido benzoico, pero el registro no detalla la indicacion aprobada.
-El modelo TxGNN predice que podria ser efectivo para **acne queloide**, con un puntaje alto (99.83%).
-Actualmente hay **0 ensayos clinicos** y **0 publicaciones** que respalden esta direccion, por lo que es solo una prediccion del modelo.
+Resorcinol es un agente tópico queratolítico y antiséptico, registrado en Colombia únicamente como parte de soluciones tópicas combinadas (con ácido salicílico y ácido benzoico), cuyos registros sanitarios hoy están cancelados.
+El modelo TxGNN predice que podría ser efectivo para **acné queloide**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ---
 
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No especificada. El registro solo lista los componentes de la formula: acido salicilico, acido benzoico y resorcinol |
-| Nueva Indicacion Predicha | Acne queloide |
-| Puntaje de Prediccion TxGNN | 99.83% |
+| Indicación Original | Ácido salicílico, ácido benzoico, resorcinol (combinación) |
+| Nueva Indicación Predicha | Acné queloide |
+| Puntaje de Predicción TxGNN | 99.83% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Numero de Registros Sanitarios | 12 |
-| Decision Recomendada | Hold |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
+| Decisión Recomendada | Hold |
 
 ---
 
-## Por que es Razonable esta Prediccion?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion. Segun la informacion conocida, resorcinol es un agente topico queratolitico y antiseptico. En Colombia se comercializa en una solucion topica combinada con acido salicilico y acido benzoico. Su uso en afecciones dermatologicas como el acne es conocido, y mecanisticamente podria ser aplicable al acne queloide.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, resorcinol es un queratolítico y antiséptico tópico que se usa en productos para acné y dermatitis seborreica, y en Colombia se registró en soluciones tópicas combinadas.
 
-La relacion entre ambos usos es indirecta e hipotetica. El acne queloide es una inflamacion cronica de los foliculos pilosos de la nuca y el cuero cabelludo, con formacion de cicatrices. Un agente queratolitico y antiseptico podria influir en la inflamacion folicular superficial. No hay estudios que lo confirmen ni datos de mecanismo que permitan sustentarlo.
+La relación con la nueva indicación es plausible: el acné queloide es una enfermedad folicular e inflamatoria de la piel, y la acción queratolítica y antimicrobiana de resorcinol podría actuar sobre las lesiones foliculares. De las seis indicaciones predichas, esta es la más verosímil desde el punto de vista biológico.
 
-El puntaje de 0.998 refleja la proximidad en el grafo de conocimiento del modelo, no una demostracion farmacologica. Por eso esta direccion debe verse como una pregunta de investigacion.
+Sin embargo, el puntaje de 0.998 es solo una predicción computacional. No hay ensayos ni literatura que la validen, y la falta de datos del mecanismo limita el análisis. Las otras cinco predicciones (dermatomiositis amiopática, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis crónica atrófica e hidroa vacciniforme familiar) carecen de un vínculo mecanístico claro o creíble.
 
 ---
 
-## Evidencia de Ensayos Clinicos
+## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clinicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -75,39 +74,50 @@ Actualmente no hay literatura relacionada disponible.
 
 ---
 
-## Informacion de Mercado en Colombia
+## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
+Los dos registros sanitarios están cancelados; no hay productos vigentes.
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20052715 | QUERAFAR® Solucion Topica | Solucion topica | Acido salicilico, acido benzoico, resorcinol (solo componentes, sin indicacion detallada) |
-
-Nota: el registro indica 12 registros sanitarios en total, pero los datos recibidos muestran un unico registro (20052715, fabricante Farmacoop) repetido varias veces. Se presenta una sola vez para no duplicar la informacion.
+| 20052715 | Querafar® Solución Tópica | Solución tópica | Ácido salicílico, ácido benzoico, resorcinol (cancelado) |
+| 19977478 | Mesalit Solución Tópica | Solución tópica | Varias combinaciones (cancelado) |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento de TxGNN (PrimeKG) asocia resorcinol con las siguientes enfermedades, entre otras:
+  - Metahemoglobinemia (incluida la debida a deficiencia de metahemoglobina reductasa) y sulfohemoglobinemia
+  - Deficiencia de G6PD
+  - Enfermedad renal
+  - Diabetes mellitus y cetoacidosis diabética
+  - Epilepsia
+  - Enfermedades cardiovasculares: paro cardíaco súbito, enfermedad del sistema de conducción cardíaco, enfermedad vascular periférica, claudicación intermitente y enfermedad arterial periférica
+  - Insuficiencia respiratoria
+  - Dermatitis, dermatitis seborreica, foliculitis y exantema
+  - Verrugas comunes e infección anogenital por VPH
+  - Otras: piouréter, enfermedad por depósito de glucógeno, cistinuria, galactosemia y deficiencia de piruvato deshidrogenasa E3
+- **Población neonatal y pediátrica:** resorcinol puede absorberse por la piel y tiene riesgos de toxicidad sistémica en lactantes, como metahemoglobinemia y efectos tiroideos. Esto es especialmente relevante para las indicaciones pediátricas predichas.
+- **Interacciones farmacológicas:** no se encontraron interacciones registradas.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
-## Conclusion y Proximos Pasos
+## Conclusión y Próximos Pasos
 
-**Decision: Hold**
+**Decisión: Hold**
 
-**Justificacion:**
-La prediccion se basa unicamente en el modelo (nivel L5), sin ensayos clinicos ni literatura, y sin datos de mecanismo ni de seguridad. La evidencia actual no basta para avanzar.
+**Justificación:**
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay productos vigentes con resorcinol en Colombia. Aunque el acné queloide es la indicación más plausible, falta validación y hay señales de seguridad que deben aclararse.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de accion desde DrugBank
-- Descargar y analizar el prospecto de INVIMA para conocer advertencias y contraindicaciones
-- Confirmar la indicacion aprobada real del producto y aclarar los 12 registros sanitarios
-- Hacer una busqueda dirigida de literatura y ensayos sobre resorcinol en acne queloide
-- Evaluar la compatibilidad de la via de administracion (la solucion topica disponible frente a lo que requeriria la nueva indicacion)
-
-**Otras predicciones del modelo:** dermatomiositis amiopatica, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis cronica atrofica e hidroa vacciniforme familiar. Todas son de nivel L5, sin vinculo mecanistico plausible identificado y con recomendacion Hold. En el caso neonatal, la posible absorcion sistemica de resorcinol es una preocupacion de seguridad que exigiria una revision muy cuidadosa.
-
-*Este informe es solo de referencia para investigacion y no constituye consejo medico. Cualquier candidato de reposicionamiento requiere validacion clinica antes de su uso.*
+- Obtener y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad)
+- Obtener datos del mecanismo de acción desde DrugBank
+- Revisar la literatura sobre resorcinol tópico en acné queloide y trastornos foliculares afines
+- Evaluar la absorción sistémica y la seguridad, sobre todo en poblaciones pediátricas, y las contraindicaciones del grafo de conocimiento (G6PD, metahemoglobinemia, enfermedad renal)
+- Confirmar la situación regulatoria y la viabilidad de una nueva formulación, dado que los registros actuales están cancelados
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

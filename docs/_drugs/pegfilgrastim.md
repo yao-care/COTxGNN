@@ -2,7 +2,7 @@
 layout: default
 title: Pegfilgrastim
 parent: Solo Predicción del Modelo (L5)
-nav_order: 318
+nav_order: 504
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,69 +29,83 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Pegfilgrastim: De Neutropenia Inducida por Quimioterapia a Retinopatía Diabética No Proliferativa Severa
+# Pegfilgrastim: De Pegfilgrastim (indicación sin detallar) a Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Pegfilgrastim es un análogo de acción prolongada del factor estimulante de colonias de granulocitos (G-CSF). Se usa para estimular la producción de neutrófilos, en general para reducir la neutropenia en pacientes con quimioterapia. Esta indicación proviene de conocimiento general, porque el registro local solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa severa**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Pegfilgrastim es un factor estimulante de colonias de granulocitos (G-CSF) de acción prolongada, registrado en Colombia bajo licencias que solo mencionan el nombre del principio activo como indicación.
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**, con un puntaje muy alto, pero **sin ensayos clínicos ni publicaciones** que respalden actualmente esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto registrado es solo "PEGFILGRASTIM") |
-| Nueva Indicación Predicha | Retinopatía diabética no proliferativa severa |
+| Indicación Original | PEGFILGRASTIM (el registro sanitario no detalla la indicación) |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información suministrada. Según lo conocido, pegfilgrastim es un G-CSF de larga duración que estimula la producción de neutrófilos y moviliza células progenitoras hematopoyéticas y endoteliales. Su uso en neutropenia está establecido, pero el vínculo con la retinopatía diabética es **hipotético** y no está respaldado por los datos entregados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, pegfilgrastim es un análogo de G-CSF de acción prolongada que estimula la producción de neutrófilos y moviliza células progenitoras hematopoyéticas. Su uso establecido se relaciona con la recuperación de neutrófilos, y mecanísticamente podría ser aplicable a la retinopatía diabética por vías indirectas.
 
-Una hipótesis especulativa es que la movilización de células progenitoras podría ayudar a reparar la microvasculatura retiniana dañada. Sin embargo, el efecto podría ser el contrario. El G-CSF podría favorecer la neovascularización y la inflamación retiniana mediada por neutrófilos, incluida la leucostasis, procesos implicados en la retinopatía diabética. La dirección del efecto no está resuelta.
+Una hipótesis posible es que la movilización de células progenitoras derivadas de la médula ósea favorezca la reparación vascular, o que module la inflamación. Además, la diabetes se asocia con una movilización deficiente de progenitores. Sin embargo, esta relación es especulativa y no ha sido verificada con los datos compilados para este informe.
 
-El puntaje de TxGNN (0.9989) es solo una predicción del modelo y no constituye evidencia clínica. La segunda predicción, **retinopatía diabética** (puntaje 99.73%), es una enfermedad más amplia que se solapa con la primera. Probablemente sea una predicción correlacionada y no un respaldo independiente.
+También existe un riesgo opuesto: la activación de neutrófilos y la inflamación inducidas por G-CSF podrían agravar el daño vascular retiniano. La relación entre la indicación original (hematológica) y la nueva (microvascular ocular) es lejana, y la predicción se apoya únicamente en el puntaje del modelo.
 
-## Evidencia de Ensayos Clínicos
+Cabe señalar que la "retinopatía diabética" (puntaje 99.73%) es la categoría general de la indicación anterior y no aporta evidencia independiente.
 
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+---
 
 ## Información de Mercado en Colombia
 
-Los registros aparecen repetidos en los datos. La tabla muestra los registros únicos.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Cancelado |
+| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Cancelado |
+| 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Cancelado |
+| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM |
-| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM |
+---
+
+## Citotoxicidad
+
+Pegfilgrastim no es un fármaco antineoplásico citotóxico (es un factor de crecimiento hematopoyético), por lo que esta sección no aplica.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: Se identificaron 100 interacciones en total. Entre las 20 revisadas, todas son de nivel **moderado**. Las principales incluyen:
+  - Antineoplásicos y quimioterápicos: paclitaxel, mercaptopurina, azacitidina, trióxido de arsénico, altretamina, trimetrexato, asparaginasa, abemaciclib.
+  - Anticuerpos y terapias biológicas: alemtuzumab, aldesleukina, belantamab mafodotina, ibritumomab tiuxetán, tositumomab (incluido el marcado con I-131).
+  - Radiofármacos: iobenguano (I-131), fludesoxiglucosa (18F).
+  - Otros: pegvaliasa, levamisol, acalabrutinib, avapritinib.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5, sin ensayos ni publicaciones), y no hay mecanismo documentado. Además, el G-CSF podría empeorar la retinopatía diabética, por lo que la dirección del efecto es incierta.
+La predicción se sustenta solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo es incierto, con un posible efecto adverso sobre la inflamación retiniana, y los cuatro registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Revisar estudios preclínicos y de mecanismo sobre G-CSF, angiogénesis retiniana y leucostasis.
-- Aclarar la dirección del efecto (beneficio o daño) antes de considerar ensayos.
-- Evaluar la compatibilidad de la vía de administración, hoy pendiente, ya que el producto disponible es una solución inyectable.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente actualmente.
+- Complementar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
+- Realizar una revisión de literatura y ensayos preclínicos sobre G-CSF y retinopatía diabética, incluyendo el riesgo de empeoramiento inflamatorio.
+- Evaluar la viabilidad de la vía de administración y la situación regulatoria, dado que no hay registros vigentes.
+- Contar con evidencia preclínica o clínica inicial antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

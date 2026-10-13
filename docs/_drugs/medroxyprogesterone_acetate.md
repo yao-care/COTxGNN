@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Solo Predicción del Modelo (L5)
-nav_order: 271
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 422
+evidence_level: L4
 indication_count: 10
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetato de Medroxiprogesterona: De Progestágeno Sintético (Indicación No Especificada en el Registro) a Amenorrea
+# Acetato de medroxiprogesterona: De Medroxiprogesterona (uso registrado) a Amenorrea
 
 ## Resumen en Una Frase
 
-El acetato de medroxiprogesterona (MPA) es un progestágeno sintético comercializado en Colombia, pero el registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **10 ensayos clínicos** y **20 publicaciones** asociados. Solo 2 de esos ensayos tienen relación directa o cercana con el tema, y la mayoría de las publicaciones son revisiones sobre anticoncepción.
+El acetato de medroxiprogesterona (MPA) es una progestina sintética, registrada en Colombia bajo licencias de INVIMA como medroxiprogesterona (tabletas y suspensión inyectable).
+El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay ensayos clínicos registrados y la literatura recuperada trata sobre todo de anticoncepción, por lo que la evidencia directa es muy limitada.
 
 ---
 
@@ -42,61 +42,48 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **10 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica «Medroxiprogesterona», sin texto de indicación) |
+| Indicación Original | Medroxiprogesterona (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 (según el Evidence Pack; la evidencia es indirecta, ver nota abajo) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Proceed with Guardrails |
-
-> **Nota sobre el nivel de evidencia:** ningún ensayo de Fase 2/3 completado evalúa directamente al MPA como tratamiento de la amenorrea. El ensayo más cercano (NCT03309176, Fase 4) usa sangrado por privación inducido por progestágeno como paso previo a la inducción de ovulación. Por eso el L2 debe leerse con cautela.
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la farmacología general, el MPA es un progestágeno sintético. Provoca la transformación secretora del endometrio previamente estimulado por estrógenos y, al suspenderse, induce sangrado por privación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, el MPA es una progestina sintética. En mujeres con estrógenos adecuados y amenorrea secundaria, induce la transformación secretora del endometrio y el sangrado por deprivación, que es la base de la prueba de reto con progestágeno.
 
-Esto encaja con la amenorrea anovulatoria o secundaria en mujeres con estrógeno endógeno suficiente. En ese contexto, el progestágeno se usa para provocar un sangrado y comprobar la respuesta del endometrio, o para regular el ciclo. Este vínculo proviene de la farmacología general y no de los datos del Evidence Pack, cuyos campos de indicación original y mecanismo están vacíos.
+La literatura recuperada trata principalmente del uso anticonceptivo (Depo-Provera e inyectables), donde la amenorrea es un efecto esperado y no una condición tratada. Ningún artículo del conjunto evalúa directamente el MPA como tratamiento de la amenorrea.
 
-La relación con la indicación original no puede evaluarse con los datos disponibles, porque el registro colombiano no especifica el texto de indicación. Aun así, la predicción es coherente con el perfil hormonal del fármaco.
+Además, el MPA ya se usa clínicamente en la amenorrea secundaria en muchas jurisdicciones, por lo que esto podría ser un uso existente o cercano a la indicación autorizada, más que un reposicionamiento genuino. La falta de datos de mecanismo y el estado de mercado (solo registros cancelados) limitan la confirmación.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03309176](https://clinicaltrials.gov/study/NCT03309176) | Fase 4 | Completado | 42 | ECA de viabilidad: ¿es necesario el sangrado por privación inducido por progesterona antes de inducir la ovulación con clomifeno en mujeres con oligo o amenorrea? Los brazos exactos no están confirmados. |
-| [NCT02449161](https://clinicaltrials.gov/study/NCT02449161) | Fase 3 | Terminado | 60 | ECA de MPA después de la ablación endometrial, con la tasa de amenorrea endometrial como desenlace. Ajuste indirecto (población posablación). |
-| [NCT00808132](https://clinicaltrials.gov/study/NCT00808132) | Fase 3 | Completado | 1886 | Bazedoxifeno/estrógenos conjugados frente a placebo y comparador activo en mujeres posmenopáusicas. El MPA probablemente es comparador; no evalúa amenorrea. |
-| [NCT01463202](https://clinicaltrials.gov/study/NCT01463202) | Fase 4 | Completado | 184 | Momento de la administración posparto de DMPA y su efecto en la lactancia. Anticoncepción, no tratamiento de amenorrea. |
-| [NCT00392093](https://clinicaltrials.gov/study/NCT00392093) | Fase 4 | Completado | 108 | Terapia hormonal en mujeres peri y posmenopáusicas con lupus: actividad de la enfermedad y densidad ósea. Sin relación con amenorrea. |
-| [NCT01300676](https://clinicaltrials.gov/study/NCT01300676) | Fase 2/3 | Completado | 79 | Miel de Tualang frente a terapia hormonal en mujeres posmenopáusicas (perfil de seguridad). Periférico. |
-| [NCT06671548](https://clinicaltrials.gov/study/NCT06671548) | Fase 3 | Reclutando | 120 | Relugolix frente a placebo en sangrado menstrual abundante por miomas. No está claro el papel del MPA. |
-| [NCT03018366](https://clinicaltrials.gov/study/NCT03018366) | Fase 2 | Completado | 29 | Aterosclerosis e inflamación en mujeres jóvenes con amenorrea hipotalámica funcional. Solo contexto hormonal. |
-| [NCT07020429](https://clinicaltrials.gov/study/NCT07020429) | No aplica | Aún no recluta | 276 | Fórmula herbal china en insuficiencia ovárica prematura. El MPA sería, a lo sumo, terapia de fondo. |
-| [NCT02792153](https://clinicaltrials.gov/study/NCT02792153) | Fase 1 | Retirado | 0 | Estradiol y extinción del miedo a alimentos en anorexia nerviosa. Sin participantes, sin evidencia. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
+Se muestran las publicaciones más relevantes (todas son revisiones o textos de tipo descriptivo; ninguna evalúa el MPA como tratamiento de la amenorrea).
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38530848](https://pubmed.ncbi.nlm.nih.gov/38530848/) | 2024 | ECA | PloS one | Ensayo WHICH: compara DMPA-IM y NET-EN en niveles de estradiol y efectos menstruales, psicológicos y conductuales relevantes al riesgo de VIH. |
-| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Revisión sistemática | Cochrane Database Syst Rev | Anticonceptivos inyectables combinados: alta eficacia y aceptabilidad limitada por los cambios en el patrón de sangrado. |
-| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Revisión sistemática | Cochrane Database Syst Rev | Versión anterior de la misma revisión Cochrane sobre inyectables combinados. |
-| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Revisión | J Reprod Med | Asesoría y manejo de efectos secundarios en usuarias de DMPA para anticoncepción. |
-| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Revisión | Int J Gynaecol Obstet | Anticoncepción posparto: el retorno de la ovulación es impredecible aun durante la amenorrea posparto. |
-| [6232474](https://pubmed.ncbi.nlm.nih.gov/6232474/) | 1984 | Revisión | Obstet Gynecol Annu | Enfermedad ovárica poliquística, un contexto frecuente de oligo o amenorrea. |
-| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Revisión | Int J Fertil Menopausal Stud | Opciones anticonceptivas de acción prolongada, con eficacia inferior a 1 embarazo por 100 mujeres-año. |
-| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Revisión | Drug Intell Clin Pharm | Infertilidad inducida por fármacos y su efecto sobre el eje hipotálamo-hipófisis-gónada. |
-| [7139435](https://pubmed.ncbi.nlm.nih.gov/7139435/) | 1982 | Sin clasificar | CMAJ | Debate sobre usos adicionales del DMPA. Sin resumen disponible. |
-| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Revisión | IARC Monogr | Monografía sobre el riesgo carcinogénico del acetato de medroxiprogesterona. |
-
-> Ninguna de las publicaciones evalúa directamente al MPA como tratamiento de la amenorrea. La mayoría trata de anticoncepción.
+| [23641480](https://pubmed.ncbi.nlm.nih.gov/23641480/) | 2013 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Los anticonceptivos inyectables combinados son un método reversible y muy eficaz; su aceptabilidad puede verse limitada por los cambios en el patrón de sangrado |
+| [18843662](https://pubmed.ncbi.nlm.nih.gov/18843662/) | 2008 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Versión anterior de la revisión sobre inyectables combinados |
+| [8178904](https://pubmed.ncbi.nlm.nih.gov/8178904/) | 1994 | Revisión | Am J Obstet Gynecol | DMPA 150 mg intramuscular cada 3 meses con eficacia anticonceptiva superior al 99 %; usado por 30 millones de mujeres en más de 90 países |
+| [8725701](https://pubmed.ncbi.nlm.nih.gov/8725701/) | 1996 | Revisión | J Reprod Med | Asesoría y manejo de efectos secundarios en usuarias de DMPA |
+| [8829701](https://pubmed.ncbi.nlm.nih.gov/8829701/) | 1996 | Revisión | Int J Fertil Menopausal Stud | Opciones anticonceptivas de acción prolongada, con tasas de embarazo inferiores a 1 por 100 mujeres-año |
+| [6119259](https://pubmed.ncbi.nlm.nih.gov/6119259/) | 1981 | Revisión | Int J Gynaecol Obstet | Anticoncepción posparto; la amenorrea posparto no garantiza ausencia de ovulación |
+| [6141923](https://pubmed.ncbi.nlm.nih.gov/6141923/) | 1984 | Revisión | Drug Intell Clin Pharm | Fármacos asociados con infertilidad por efecto en el eje hipotálamo-hipófisis-gónadas |
+| [120837](https://pubmed.ncbi.nlm.nih.gov/120837/) | 1979 | Revisión | IARC Monographs | Monografía sobre el riesgo carcinogénico del acetato de medroxiprogesterona |
+| [1604074](https://pubmed.ncbi.nlm.nih.gov/1604074/) | 1992 | Revisión | Rev Med Liege | Anticoncepción hormonal |
+| [8492647](https://pubmed.ncbi.nlm.nih.gov/8492647/) | 1993 | Revisión | MCN Am J Matern Child Nurs | Depo-Provera |
 
 ---
 
@@ -104,31 +91,44 @@ La relación con la indicación original no puede evaluarse con los datos dispon
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 21776 | PROVERA 5MG TABLETAS (Pfizer S.A.S.) | Tableta | Solo figura «Medroxiprogesterona», sin texto de indicación |
-
-Los cinco registros listados en el Evidence Pack son entradas repetidas del mismo producto. En total hay 20 registros. Además de la vía oral (tableta), existe la forma de suspensión inyectable.
+| 21776 | PROVERA 5 MG TABLETAS (cancelado) | Tableta | Medroxiprogesterona |
+| 40914 | PROVERA 10 MG TABLETAS (cancelado) | Tableta | Medroxiprogesterona |
+| 20237472 | MEDROXI-ONE (cancelado) | Suspensión inyectable | Medroxiprogesterona acetato |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento (no provienen del prospecto):** hipertensión, insuficiencia y enfermedad hepática, enfermedad de la vesícula biliar, enfermedad renal, epilepsia, trastornos de ansiedad y distimia, hipotiroidismo, osteoporosis (incluida la posmenopáusica), lupus eritematoso sistémico, asma, diabetes mellitus y cetoacidosis diabética, hipertrigliceridemia, hipercalcemia (incluida la de origen maligno), nefrocalcinosis, trastornos del metabolismo del fósforo, abuso o dependencia de sustancias y carcinoma de mama femenino.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones (nivel moderado en las principales mostradas). Destacan los antidiabéticos (acarbosa, metformina, glimepirida, clorpropamida, inhibidores de SGLT2 como canagliflozina, dapagliflozina y empagliflozina, inhibidores de DPP-4 como alogliptina y saxagliptina, agonistas de GLP-1 como liraglutida, semaglutida, dulaglutida y albiglutida, y las insulinas aspart, degludec y detemir), además de aprepitant, dexametasona, claritromicina y pegvaliasa.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no están disponibles en los datos compilados.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El mecanismo progestagénico es plausible para la amenorrea con estrógeno endógeno adecuado y el puntaje TxGNN es muy alto. Sin embargo, la evidencia clínica directa es escasa: un ECA de Fase 4 de viabilidad y un ECA de Fase 3 terminado en población posablación. Además, faltan por completo los datos de seguridad del prospecto, por lo que se avanza solo con salvaguardas.
+La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la literatura disponible no evalúa el MPA como tratamiento de la amenorrea. Además, los tres registros sanitarios están cancelados y faltan datos de seguridad del prospecto, lo que impide avanzar con seguridad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad.
-- Obtener el mecanismo de acción desde DrugBank y confirmar la indicación aprobada en Colombia.
-- Definir qué tipo de amenorrea (secundaria, anovulatoria, con estrógeno adecuado) sería la población objetivo y descartar embarazo y otras causas antes de su uso.
-- Buscar ensayos que evalúen directamente al MPA en amenorrea; los actuales son indirectos.
-- Tomar las otras predicciones con cautela. Las de mama fibroquística y displasia mamaria benigna tienen evidencia débil y antigua, con dirección de efecto incierta. Las de endometriosis solo tienen respaldo mecanístico. Las de hipoplasia renal parecen artefactos del grafo de conocimiento.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Aclarar si el uso en amenorrea secundaria ya está autorizado en otras jurisdicciones (podría no ser un reposicionamiento genuino).
+- Buscar literatura clínica directa sobre MPA en amenorrea, como la prueba de reto con progestágeno y ensayos de tratamiento.
+- Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay registros cancelados.
+
+---
+
+### Otras indicaciones predichas (referencia)
+
+Las demás predicciones tienen evidencia más débil:
+- **Enfermedad fibroquística de mama** (L3): dos estudios antiguos (1983 y 1988) describen uso del MPA, pero con diseño no verificado. Los estudios de terapia hormonal sugieren que la combinación estrógeno-progestina puede aumentar la densidad mamaria y la proliferación epitelial, lo que plantea una preocupación de seguridad.
+- **Displasia mamaria benigna, endometriosis cervical** (L4, Hold): la literatura recuperada es mayormente irrelevante o proviene de modelos animales.
+- **Endometriosis rectovaginal, endometriosis en cicatriz cutánea, adenosis apocrina y de conductos romos** (L5, Hold): solo hay predicción del modelo, sin estudios.
+- **Hipoplasia renal (ambas variantes)** (L5, Hold): no hay vínculo mecanístico plausible; probablemente sea un artefacto del grafo de conocimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

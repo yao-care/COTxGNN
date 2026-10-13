@@ -2,7 +2,7 @@
 layout: default
 title: Etoricoxib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 190
+nav_order: 271
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etoricoxib: De Indicación Original No Especificada en el Registro a Trastorno de Migraña
+# Etoricoxib: De Indicación No Especificada en el Registro a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Etoricoxib es un antiinflamatorio que inhibe la enzima COX-2 y está comercializado en Colombia, aunque el registro sanitario disponible no detalla su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con un puntaje muy alto (99.90%).
-Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción específica, por lo que se trata solo de una hipótesis del modelo.
+Etoricoxib es un inhibidor selectivo de la COX-2 (antiinflamatorio no esteroideo). Sus registros sanitarios en Colombia solo mencionan el nombre del principio activo como indicación, sin detallar el uso aprobado. En la literatura científica se utiliza para artritis reumatoide, osteoartritis, dolor lumbar crónico, espondilitis anquilosante, dolor agudo y gota.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero **no hay ensayos clínicos** y solo **1 publicación** (una revisión exploratoria no específica del fármaco) respalda directamente esta predicción.
 
 ---
 
@@ -43,23 +42,27 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica el nombre del principio activo, "Etoricoxib") |
-| Nueva Indicación Predicha | Trastorno de migraña |
+| Indicación Original | No especificada en el registro sanitario (solo figura "Etoricoxib"); en la literatura: artritis reumatoide, osteoartritis, dolor lumbar crónico, espondilitis anquilosante, dolor agudo y gota |
+| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 99.90% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, etoricoxib es un inhibidor selectivo de la COX-2, y mecanísticamente podría ser aplicable a la migraña.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada. Según la información conocida, etoricoxib es un inhibidor selectivo de la COX-2 (gen PTGS2), por lo que reduce la producción de prostaglandinas. Su eficacia en dolor e inflamación musculoesquelética está documentada en la literatura.
 
-La hipótesis es que al bloquear la COX-2 se reduce la producción de prostaglandinas. Estas participan en la neuroinflamación y en la sensibilización del sistema trigeminovascular, dos procesos asociados con el dolor de la migraña.
+En la migraña, la prostaglandina E2 dependiente de COX-2 contribuye a la inflamación neurogénica y a la sensibilización trigeminovascular, por lo que la actividad de clase AINE es mecanísticamente plausible. Un estudio preclínico de 2017 en ganglios trigéminos de rata mostró que AINE, incluido etoricoxib, modifican la liberación de CGRP y PGE2; sin embargo, ese estudio está vinculado a otra entidad (susceptibilidad a migraña) y no constituye evidencia clínica.
 
-Este vínculo es **plausible pero no verificado**. El puntaje del modelo es alto, pero no hay ensayos ni literatura que muestren que etoricoxib funcione en migraña. No se pudo comparar la similitud con la indicación original porque el registro no la especifica.
+Es importante subrayar que el puntaje TxGNN muy alto es solo una predicción computacional. La única publicación vinculada directamente a migraña es una revisión exploratoria sobre cefalea por ayuno en Ramadán, que no es específica de etoricoxib y no aporta datos de eficacia.
+
+**Otras predicciones del modelo (todas en nivel L5 o L4):**
+- **Cefalea (headache disorder, 99.31%)** y **cefalea trigémino-autonómica (99.15%)**: son las mejor respaldadas (nivel L4), con reportes de casos y series pequeñas de respuesta a etoricoxib en cefalea punzante primaria, cefalea tusígena y cefaleas sensibles a indometacina. No hay ensayos controlados.
+- Migraña con aura de tronco encefálico, susceptibilidad a migraña, atrodermia vermiculada, uleritema ofriógenes, hipertensión pulmonar, hiperplasia prostática benigna y cardiopatía cifoescoliótica: sin respaldo clínico. En hipertensión pulmonar y cardiopatía, el perfil de riesgo del fármaco sugiere más daño que beneficio.
 
 ---
 
@@ -71,24 +74,45 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal (trastorno de migraña):
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [42841395](https://pubmed.ncbi.nlm.nih.gov/42841395/) | 2026 | Revisión exploratoria | Pain Management | Revisa la cefalea atribuida al ayuno (p. ej., en Ramadán); no es específica de etoricoxib y no ofrece datos de eficacia |
+
+Evidencia relacionada de cefaleas afines (indicaciones secundarias del modelo):
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [35277974](https://pubmed.ncbi.nlm.nih.gov/35277974/) | 2022 | Serie de casos/Observacional | Headache | Cefaleas sensibles a indometacina que responden a etoricoxib y celecoxib, con menor riesgo gastrointestinal que indometacina |
+| [36893522](https://pubmed.ncbi.nlm.nih.gov/36893522/) | 2023 | Reporte de caso | Clin Neurol Neurosurg | Dos pacientes con cefalea tusígena secundaria que respondieron a etoricoxib |
+| [18171381](https://pubmed.ncbi.nlm.nih.gov/18171381/) | 2008 | Reporte/serie de casos | Eur J Neurol | Cefalea punzante primaria con respuesta a etoricoxib |
+| [17883876](https://pubmed.ncbi.nlm.nih.gov/17883876/) | 2007 | Reporte de caso | J Med Case Rep | Cefalea punzante idiopática tratada con etoricoxib |
+| [29209105](https://pubmed.ncbi.nlm.nih.gov/29209105/) | 2017 | Preclínico (animal/in vitro) | Mediators Inflamm | Nimesulida, etoricoxib y ketoprofeno modifican la liberación de CGRP y PGE2 en ganglios trigéminos de rata |
+| [25229174](https://pubmed.ncbi.nlm.nih.gov/25229174/) | 2014 | Reporte de caso (evento adverso) | Clin Neuropharmacol | Síndrome de vasoconstricción cerebral reversible posiblemente inducido por etoricoxib (señal de seguridad) |
+| [21373319](https://pubmed.ncbi.nlm.nih.gov/21373319/) | 2010 | Reporte de caso (evento adverso) | Int J Emerg Med | Hiperpotasemia grave y disfunción renal aguda inducidas por etoricoxib junto con telmisartán y dieta baja en sodio |
 
 ---
 
 ## Información de Mercado en Colombia
 
-El paquete de datos reporta 20 registros. Las filas recibidas corresponden solo a dos números de registro distintos, y cuatro de ellas están repetidas (20219448). Aquí se muestran los dos registros únicos.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20219448 | XICOX® 60 MG (PROCAPS S.A.) | Tableta recubierta | No especificada (solo figura "Etoricoxib") |
-| 20226690 | MEDIKET® 90 MG (FARMET DISTRIBUCIONES S.A.S.) | Tableta recubierta | No especificada (solo figura "Etoricoxib") |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Cancelado |
+| 20226690 | MEDIKET® 90 MG tabletas recubiertas | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Cancelado |
+| 20070877 | ANEXIA® 60 MG | Tableta cubierta con película | Etoricoxib (sin detalle de indicación) | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas / farmacología:** la consulta se completó y registró una única entrada, que corresponde a la diana farmacológica COX-2 (PTGS2) de etoricoxib, no a una interacción con otro fármaco.
+- **Señales de seguridad en la literatura:**
+  - Posible síndrome de vasoconstricción cerebral reversible asociado a etoricoxib (reporte de caso, 2014).
+  - Hiperpotasemia grave y disfunción renal aguda en un paciente que tomaba telmisartán y seguía una dieta baja en sodio (reporte de caso, 2010).
+  - Como clase, los inhibidores de COX-2 se asocian a riesgo cardiovascular, retención de sodio y líquidos, y aumento de la presión arterial; esto es relevante en pacientes mayores.
+
+Consultar el prospecto para información completa sobre advertencias y contraindicaciones, ya que no se dispuso de ese texto para este informe.
 
 ---
 
@@ -97,14 +121,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para migraña tiene un puntaje alto, pero no cuenta con ningún ensayo ni publicación que la respalde (nivel L5). Además, falta el prospecto de INVIMA, necesario para el primer filtro de seguridad.
+La predicción para trastorno de migraña tiene un puntaje TxGNN alto, pero se mantiene en nivel L5: no hay ensayos clínicos y la única publicación vinculada no es específica del fármaco ni aporta datos de eficacia. Además, los 3 registros sanitarios en Colombia están cancelados y no se dispuso de las advertencias y contraindicaciones del prospecto. La mejor evidencia se encuentra en cefaleas primarias afines (cefalea y cefalea trigémino-autonómica, nivel L4), aunque se limita a reportes de casos.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que es el requisito bloqueante.
-- Obtener los datos del mecanismo de acción desde DrugBank.
-- Confirmar la indicación aprobada de cada registro sanitario, ya que el campo solo contiene el nombre del principio activo.
-- Buscar ensayos clínicos o estudios específicos de etoricoxib en migraña.
-- Como línea alternativa, evaluar la indicación vecina **trastorno de cefalea** (nivel L4). Tiene 5 reportes o series de casos con etoricoxib en cefalea punzante primaria, cefalea tusígena y cefaleas que responden a indometacina, pero ninguno es un ensayo controlado. Uno de esos reportes describe un síndrome de vasoconstricción cerebral reversible posiblemente inducido por etoricoxib, una señal de seguridad que debe evaluarse antes de cualquier desarrollo.
+- Obtener y analizar el prospecto aprobado por INVIMA (advertencias y contraindicaciones), así como confirmar la indicación original registrada.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una búsqueda dirigida de ensayos clínicos y literatura específica de etoricoxib en migraña (aguda y profiláctica).
+- Valorar priorizar las cefaleas sensibles a indometacina y trigémino-autonómicas como pregunta de investigación, con un diseño controlado.
+- Evaluar el perfil de riesgo cardiovascular, renal y cerebrovascular en la población objetivo.
+- Aclarar la situación comercial en Colombia, dado que no hay registros vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

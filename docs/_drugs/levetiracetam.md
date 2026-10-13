@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Solo Predicción del Modelo (L5)
-nav_order: 254
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 395
+evidence_level: L1
 indication_count: 10
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,126 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Levetiracetam: De Indicación Original No Especificada en el Registro a Epilepsia Visual
+# Levetiracetam: De Epilepsia (Indicación Registrada) a Estado Epiléptico
 
 ## Resumen en Una Frase
 
-Levetiracetam es un antiepiléptico comercializado en Colombia. Los registros sanitarios revisados solo repiten el nombre del principio activo y no detallan su indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **epilepsia visual** (crisis desencadenadas por estímulos visuales), pero los **8 ensayos clínicos** y las **20 publicaciones** identificados son de epilepsia en general y ninguno es específico de esta condición. Es una predicción respaldada solo de forma indirecta.
+Levetiracetam es un fármaco antiepiléptico que modula la proteína de vesículas sinápticas SV2A. En Colombia sus registros sanitarios solo aparecen con el texto "LEVETIRACETAM" como indicación, sin detalle clínico.
+El modelo TxGNN predice que podría ser efectivo para **estado epiléptico**, con **16 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Esta predicción coincide con la práctica clínica actual, por lo que podría no ser un reposicionamiento en sentido estricto.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el campo solo dice "LEVETIRACETAM") |
-| Nueva Indicación Predicha | Epilepsia visual |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta y de mecanismo; ningún estudio específico para epilepsia visual) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Hold |
+| Indicación Original | LEVETIRACETAM (el registro no detalla la indicación; en la práctica, epilepsia/crisis convulsivas) |
+| Nueva Indicación Predicha | Estado epiléptico (status epilepticus) |
+| Puntaje de Predicción TxGNN | 99.91% |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Decisión Recomendada | Proceed with Guardrails |
+
+**Nota sobre la selección de la indicación:** los datos incluyen 10 indicaciones predichas. La predicción de mayor puntaje es "epilepsia visual" (99.98%), pero tiene nivel de evidencia L4, sin ensayos clínicos y sin literatura específica. Este informe se centra en el **estado epiléptico**, la indicación con la evidencia más sólida (L1). Las demás indicaciones se resumen al final.
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El campo de mecanismo de acción (MOA) del Evidence Pack está vacío. El análisis mecanístico asociado a la predicción indica que levetiracetam actúa principalmente uniéndose a la proteína de vesícula sináptica 2A (SV2A). Esto modula la liberación presináptica de neurotransmisores y reduce el disparo neuronal hipersincrónico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura recuperada, levetiracetam se une a la proteína de vesículas sinápticas SV2A e inhibe la liberación de neurotransmisores. También se describe una posible inhibición de canales de calcio tipo L.
 
-La epilepsia visual, o fotosensible, se caracteriza por descargas hipersincrónicas provocadas por luces intermitentes o patrones visuales. Un fármaco que amortigua esa hipersincronía es una hipótesis plausible.
+La indicación original (epilepsia, crisis focales y generalizadas) y el estado epiléptico comparten la misma base fisiopatológica: hiperexcitabilidad neuronal con fallo de los mecanismos de terminación de las crisis. Reducir la liberación sináptica de neurotransmisores es una vía plausible para detener crisis prolongadas.
 
-Hay que ser cauteloso: el puntaje TxGNN es muy alto, pero probablemente refleja la asociación genérica entre fármacos antiepilépticos y las convulsiones, no una evidencia específica. De hecho, siete subtipos de crisis reflejas comparten exactamente el mismo puntaje (99.95%), lo que sugiere un efecto de proximidad en la ontología. La evidencia debe tratarse como indirecta, a nivel de clase de fármacos.
+La predicción está respaldada por ensayos de Fase 3 con diseño robusto. Las guías y revisiones ya incluyen a levetiracetam como opción de segunda línea tras las benzodiacepinas. Por ello, esta predicción refleja más una práctica ya establecida que un hallazgo nuevo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
+Se listan los 10 ensayos más relevantes de los 16 registrados.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03107507](https://clinicaltrials.gov/study/NCT03107507) | Fase 4 | Desconocido | 40 | Eficacia de levetiracetam en el control de convulsiones neonatales. Misma clase de resultado, pero población distinta |
-| [NCT00203216](https://clinicaltrials.gov/study/NCT00203216) | N/A | Completado | 31 | Estudio abierto de un solo centro sobre profilaxis de migraña con o sin aura (alteraciones visuales). No es específico de epilepsia visual |
-| [NCT04277936](https://clinicaltrials.gov/study/NCT04277936) | Fase 2 | Terminado | 1 | Modulación de la hiperactividad del hipocampo en psicosis. Terminado con 1 participante; no relevante |
-| [NCT07336992](https://clinicaltrials.gov/study/NCT07336992) | Fase 3 | No reclutando aún | 580 | Levetiracetam profiláctico tras hemorragia intracerebral. Previene crisis sintomáticas agudas, no epilepsia refleja; sin resultados |
-| [NCT00855738](https://clinicaltrials.gov/study/NCT00855738) | Fase 4 | Completado | 111 | Estudio observacional de nuevos antiepilépticos como primera biterapia en epilepsia focal. Efectividad general |
-| [NCT00105040](https://clinicaltrials.gov/study/NCT00105040) | Fase 2 | Completado | 87 | Estudio de seguridad cognitiva, controlado con placebo, en niños con crisis parciales refractarias. Sin población con desencadenante visual |
-| [NCT04559529](https://clinicaltrials.gov/study/NCT04559529) | Fase 2 | Completado | 62 | Hiperactividad del hipocampo en trastornos psicóticos. Enfermedad distinta |
-| [NCT04573803](https://clinicaltrials.gov/study/NCT04573803) | Fase 3 | No reclutando aún | 1649 | Ensayo MAST: manejo de crisis tras traumatismo craneoencefálico (fenitoína vs. levetiracetam). Indirecto y sin resultados |
+| [NCT01960075](https://clinicaltrials.gov/study/NCT01960075) | Fase 3 | Completado | 478 | Comparación ciega de fosfenitoína, ácido valproico y levetiracetam en estado epiléptico refractario a benzodiacepinas (ESETT) |
+| [NCT01150331](https://clinicaltrials.gov/study/NCT01150331) | Fase 3 | Completado | 203 | Levetiracetam IV + clonazepam vs. clonazepam solo en estado epiléptico tónico-clónico prehospitalario |
+| [NCT02920060](https://clinicaltrials.gov/study/NCT02920060) | Fase 2 | Completado | 80 | Levetiracetam vs. valproato en niños con estado epiléptico convulsivo refractario |
+| [NCT04926844](https://clinicaltrials.gov/study/NCT04926844) | Fase 2 | Completado | 144 | Levetiracetam + midazolam en estado epiléptico convulsivo generalizado pediátrico |
+| [NCT07046611](https://clinicaltrials.gov/study/NCT07046611) | Fase 2/3 | Reclutando | 124 | Ketamina + levetiracetam vs. levetiracetam solo como segunda línea en niños |
+| [NCT06907173](https://clinicaltrials.gov/study/NCT06907173) | Fase 3 | Reclutando | 770 | KESETT: ketamina adicional a levetiracetam vs. levetiracetam solo |
+| [NCT06403150](https://clinicaltrials.gov/study/NCT06403150) | Fase 4 | Completado | 62 | Levetiracetam vs. fosfenitoína en estado epiléptico convulsivo, abierto |
+| [NCT04176887](https://clinicaltrials.gov/study/NCT04176887) | Fase 4 | Desconocido | 60 | Levetiracetam vs. fenitoína en estado epiléptico pediátrico |
+| [NCT07052136](https://clinicaltrials.gov/study/NCT07052136) | N/A | Completado | 138 | Levetiracetam vs. ácido valproico en estado epiléptico pediátrico |
+| [NCT07098728](https://clinicaltrials.gov/study/NCT07098728) | N/A | Reclutando | 180 | Levetiracetam IV vs. fenobarbital IV en niños con crisis prolongadas refractarias a benzodiacepinas |
 
-Además, el pack incluye NCT04833907 (terapia génica AVASPA en enfermedad de Canavan), que no evalúa levetiracetam y se excluyó de la tabla.
+---
 
 ## Evidencia de Literatura
 
-Ninguna de las publicaciones aborda la epilepsia visual. Se listan las de mayor nivel de evidencia sobre levetiracetam en epilepsia en general.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32385134](https://pubmed.ncbi.nlm.nih.gov/32385134/) | 2020 | ECA | Pediatrics | Levetiracetam vs. fenobarbital en convulsiones neonatales: evalúa eficacia y seguridad |
-| [35963261](https://pubmed.ncbi.nlm.nih.gov/35963261/) | 2022 | ECA (Fase 3) | The Lancet Neurology | Ensayo PEACH: levetiracetam profiláctico para prevenir crisis en la fase aguda de hemorragia intracerebral |
-| [38678766](https://pubmed.ncbi.nlm.nih.gov/38678766/) | 2024 | ECA | Seizure | Fenitoína vs. levetiracetam en crisis sintomáticas agudas de niños con síndrome de encefalitis aguda |
-| [30487494](https://pubmed.ncbi.nlm.nih.gov/30487494/) | 2018 | ECA | Mymensingh Med J | Fenobarbital vs. levetiracetam en epilepsia infantil: eficacia y tolerabilidad |
-| [34286461](https://pubmed.ncbi.nlm.nih.gov/34286461/) | 2022 | Revisión sistemática/metaanálisis | Neurocritical Care | Levetiracetam como profilaxis de crisis en cuidados neurocríticos (hemorragia intracerebral, TCE, neurocirugía, HSA) |
-| [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Revisión sistemática/metaanálisis en red | Journal of Neurology | Comparación de eficacia y seguridad de fármacos antiepilépticos en epilepsias generalizadas idiopáticas |
-| [40450767](https://pubmed.ncbi.nlm.nih.gov/40450767/) | 2025 | Revisión sistemática/metaanálisis | Epilepsy & Behavior | Levetiracetam frente a otros fármacos en crisis mioclónicas de epilepsia generalizada idiopática, en especial epilepsia mioclónica juvenil |
-| [30884401](https://pubmed.ncbi.nlm.nih.gov/30884401/) | 2019 | Revisión sistemática | Epilepsy & Behavior | Levetiracetam vs. carbamazepina en epilepsia rolándica infantil |
-| [38316735](https://pubmed.ncbi.nlm.nih.gov/38316735/) | 2024 | Guía clínica | Neurocritical Care | Guía de profilaxis de crisis en adultos con TCE moderado-grave |
-| [34260837](https://pubmed.ncbi.nlm.nih.gov/34260837/) | 2021 | Revisión | N Engl J Med | Manejo inicial de una crisis epiléptica en adultos |
+| [31774955](https://pubmed.ncbi.nlm.nih.gov/31774955/) | 2019 | ECA | N Engl J Med | Ensayo aleatorizado de tres anticonvulsivantes en estado epiléptico refractario a benzodiacepinas |
+| [32203691](https://pubmed.ncbi.nlm.nih.gov/32203691/) | 2020 | ECA (análisis secundario) | Lancet | ESETT por grupo de edad: eficacia y seguridad de levetiracetam, fosfenitoína y valproato |
+| [33190679](https://pubmed.ncbi.nlm.nih.gov/33190679/) | 2020 | ECA | Health Technol Assess | EcLiPSE: levetiracetam como alternativa a fenitoína de segunda línea en niños |
+| [35333156](https://pubmed.ncbi.nlm.nih.gov/35333156/) | 2022 | Revisión basada en evidencia | Health Technol Assess | Tratamiento prehospitalario y de urgencias del estado epiléptico convulsivo en adultos |
+| [38580318](https://pubmed.ncbi.nlm.nih.gov/38580318/) | 2024 | Revisión | Semin Neurol | Fenitoína, ácido valproico y levetiracetam se recomiendan en la fase urgente, con perfiles de seguridad y eficacia similares |
+| [38830068](https://pubmed.ncbi.nlm.nih.gov/38830068/) | 2024 | Revisión | Continuum | Panorama del manejo emergente del estado epiléptico |
+| [38117319](https://pubmed.ncbi.nlm.nih.gov/38117319/) | 2024 | Revisión | Intensive Care Med | Estado epiléptico en UCI: diagnóstico y manejo |
+| [37391637](https://pubmed.ncbi.nlm.nih.gov/37391637/) | 2023 | Revisión | Pediatr Rev | Benzodiacepinas, levetiracetam, fosfenitoína y valproato pueden detener el estado epiléptico |
+| [34659919](https://pubmed.ncbi.nlm.nih.gov/34659919/) | 2021 | Revisión | Cureus | Comparación entre fenitoína y levetiracetam en estado epiléptico |
+| [39626562](https://pubmed.ncbi.nlm.nih.gov/39626562/) | 2025 | Guía | Brain Dev | Guías japonesas 2023 para el estado epiléptico pediátrico |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se listan los registros únicos, porque el pack repite el mismo registro en varias filas.
+Los cuatro registros sanitarios están **cancelados**; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20122152 | LEVETIRACETAM 1000 MG TABLETAS RECUBIERTAS (Laboratorios Lapроff S.A.S.) | Tableta recubierta | No detallada (solo figura "LEVETIRACETAM") |
-| 20098490 | CONVULAM SOLUCIÓN ORAL (Saluspharma Labs S.A.S.) | Solución oral | No detallada (solo figura "LEVETIRACETAM") |
+| 20122152 | Levetiracetam 1000 mg tabletas recubiertas | Tableta recubierta | LEVETIRACETAM |
+| 20098490 | Convulam solución oral | Solución oral | LEVETIRACETAM |
+| 19999765 | Keppra concentrado para solución para perfusión 100 mg/ml | Solución inyectable | LEVETIRACETAM |
+| 19936411 | Keppra tabletas 1000 mg | Tableta recubierta | LEVETIRACETAM |
 
-En total hay 20 registros sanitarios. También existen presentaciones de solución inyectable.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** trastornos de ansiedad, trastornos neuróticos, trastorno distímico, enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, trastornos psicóticos y esquizofreniformes, trastorno esquizoafectivo, trastorno mental, neutropenia, agranulocitosis, leucopenia, pancitopenia y trastorno de despersonalización. Deben verificarse contra la ficha técnica.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Las de nivel moderado incluyen morfina (incluida la liposomal), dronabinol, metoclopramida, nabilona, opio y sibutramina. Otras tienen nivel desconocido, por ejemplo calcitriol, pantoprazol, glimepirida, mesalazina, doxiciclina, clotrimazol, metformina, omeprazol, lansoprazol, vancomicina, atropina, levocarnitina y triamcinolona.
+- **Señales de seguridad en la literatura:** reportes de hiponatremia, hiperplasia gingival, agravamiento de crisis (hasta 18% en ciertas poblaciones) e irritabilidad o efectos conductuales.
+
+No se dispone del prospecto de INVIMA, por lo que las advertencias y contraindicaciones oficiales deben consultarse en el prospecto.
+
+---
+
+## Otras Indicaciones Predichas (Resumen)
+
+| Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
+|------|------|------|------|
+| Epilepsia visual | 99.98% | L4 | Hold |
+| Crisis audiogénicas | 99.96% | L4 | Pregunta de investigación (evidencia sobre todo animal) |
+| Epilepsia de inicio por sobresalto | 99.96% | L3 | Pregunta de investigación (estudios pequeños y casos) |
+| Crisis por lectura | 99.94% | L4 | Pregunta de investigación |
+| Crisis por pensamiento, micción, alimentación u orgasmo | 99.96% | L5 | Hold (sin evidencia específica) |
+| Deficiencia de beta-cetotiolasa | 99.90% | L5 | Hold (probable artefacto del grafo, sin vínculo mecanístico) |
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-No existe ningún ensayo ni publicación específica de epilepsia visual. El puntaje TxGNN alto parece un artefacto de proximidad con otras crisis reflejas, y el respaldo se limita a la plausibilidad del mecanismo (SV2A) y a evidencia general de epilepsia. Aunque el pack la clasifica como "Research Question" (pregunta de investigación), no hay base para avanzar.
+Dos ensayos de Fase 3 completados (NCT01960075 con 478 pacientes y NCT01150331 con 203) y un ECA publicado en NEJM respaldan el uso de levetiracetam en estado epiléptico, lo que corresponde al nivel L1. Sin embargo, esto ya forma parte de la práctica clínica, y en Colombia no hay registros vigentes.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), requisito bloqueante para el tamizaje de seguridad, y confirmar las indicaciones aprobadas en Colombia.
-- Consultar el mecanismo de acción en DrugBank para completar el análisis mecanístico.
-- Buscar evidencia específica en epilepsia fotosensible o desencadenada por estímulos visuales (series de casos, estudios de provocación fotoparoxística).
-- Priorizar otras indicaciones predichas mejor respaldadas. **Estado epiléptico** tiene evidencia L1 (ensayos de Fase 3 como ESETT, PMID 31774955), aunque corresponde a una práctica ya establecida y no a un reposicionamiento novedoso. **Epilepsia por sobresalto** tiene evidencia L3 con datos clínicos específicos.
+- Confirmar la situación regulatoria: los cuatro registros están cancelados, por lo que debe verificarse si existe algún producto vigente o si se requiere una nueva solicitud ante INVIMA.
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha de datos bloqueante para la evaluación de seguridad).
+- Complementar los datos del mecanismo de acción desde DrugBank.
+- Definir dosificación por edad y un plan de monitoreo de efectos adversos conductuales, función renal, hiponatremia y parámetros hematológicos, dadas las señales de seguridad del grafo y la literatura.
+- Revisar la vía de administración: el estado epiléptico requiere formulación intravenosa, y el único registro inyectable (Keppra, concentrado para perfusión) está cancelado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

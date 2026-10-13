@@ -2,7 +2,7 @@
 layout: default
 title: Cyclosporine
 parent: Evidencia Moderada (L3-L4)
-nav_order: 143
+nav_order: 185
 evidence_level: L4
 indication_count: 7
 ---
@@ -29,15 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Ciclosporina: De Inmunosupresión en Trasplante a Enfermedad Granulomatosa Crónica Autosómica Recesiva
-
----
+# Ciclosporina: De Indicación Original (Ciclosporina, sin detalle de indicación) a Enfermedad Granulomatosa Crónica Autosómica Recesiva
 
 ## Resumen en Una Frase
 
-La ciclosporina es un inmunosupresor que inhibe la activación de los linfocitos T y se usa para evitar el rechazo en trasplantes de órganos y tejidos.
-El modelo TxGNN predice que podría ser efectiva para la **enfermedad granulomatosa crónica autosómica recesiva (EGC)**,
-pero solo hay **1 ensayo clínico** (indirecto) y **1 publicación** (sobre trasplante de células madre), sin evidencia directa de eficacia.
+La ciclosporina es un inmunosupresor inhibidor de la calcineurina, utilizado principalmente para prevenir el rechazo en trasplantes. En los registros sanitarios colombianos solo aparece mencionada como "ciclosporina", sin detalle de indicación.
+El modelo TxGNN predice que podría ser efectiva para **enfermedad granulomatosa crónica autosómica recesiva**, pero actualmente solo hay **0 ensayos clínicos** y **1 publicación** indirecta (un estudio de cohorte sobre trasplante de células madre) que se relaciona con esta dirección.
 
 ---
 
@@ -45,31 +42,29 @@ pero solo hay **1 ensayo clínico** (indirecto) y **1 publicación** (sobre tras
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro INVIMA solo indica "CICLOSPORINA" (sin texto de indicación). Según la farmacología, se usa como inmunosupresor en trasplantes. |
-| Nueva Indicación Predicha | Enfermedad granulomatosa crónica, autosómica recesiva |
+| Indicación Original | Ciclosporina (el registro sanitario no detalla la indicación) |
+| Nueva Indicación Predicha | Enfermedad granulomatosa crónica autosómica recesiva |
 | Puntaje de Predicción TxGNN | 99.68% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 6 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la ciclosporina es un inmunosupresor que bloquea la activación de los linfocitos T. Se une a las ciclofilinas (PPIA y PPID) y, por esa vía, inhibe la calcineurina. Su eficacia para prevenir el rechazo de injertos está comprobada.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la ciclosporina es un inhibidor de la calcineurina que bloquea la activación de los linfocitos T, y su eficacia en la prevención del rechazo de trasplantes está bien establecida. Los datos de farmacología señalan además que se une a la peptidil-prolil isomerasa A (PPIA) y D (PPID), y que interactúa con transportadores como ABCG2, OATP1B1, OATP1B3 y SLC10A1, y con el receptor FPR1.
 
-La relación con la EGC aparece solo de forma indirecta. En la literatura, la ciclosporina figura como base de la profilaxis de la enfermedad injerto contra huésped (EICH) en el trasplante alogénico de células madre, que es el tratamiento curativo de la EGC. Es decir, es un apoyo del procedimiento y no trata el defecto de fondo, que está en la NADPH oxidasa.
+La enfermedad granulomatosa crónica es una inmunodeficiencia hereditaria causada por un defecto de la NADPH oxidasa. La ciclosporina no corrige ese defecto. El único artículo recuperado trata del trasplante de células madre hematopoyéticas en esta enfermedad, donde la ciclosporina podría formar parte de la profilaxis de la enfermedad injerto contra huésped. Es un apoyo indirecto: la ciclosporina sería un agente de soporte en el trasplante y no un tratamiento de la enfermedad de fondo.
 
-Mecanísticamente no hay un vínculo que sugiera que inhibir la calcineurina corrija la patología de la EGC. Además, inmunosuprimir a pacientes que ya son propensos a infecciones graves podría aumentar el riesgo. El puntaje alto de TxGNN refleja una asociación del grafo de conocimiento y no evidencia de eficacia.
+Por tanto, el puntaje alto del modelo no está respaldado por evidencia clínica directa, y la plausibilidad mecanística es limitada.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01917708](https://clinicaltrials.gov/study/NCT01917708) | Fase 1 | Completado | 10 | Abatacept combinado con ciclosporina y micofenolato como profilaxis de EICH en niños con trasplante de células madre no emparentado por enfermedades no malignas. La ciclosporina es tratamiento de fondo, no el fármaco en estudio, y el ensayo no es específico de EGC. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -77,30 +72,32 @@ Mecanísticamente no hay un vínculo que sugiera que inhibir la calcineurina cor
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohorte | J Allergy Clin Immunol | Supervivencia excelente tras trasplante de células madre de donante hermano o no emparentado en EGC. El resumen disponible no evalúa la ciclosporina como tratamiento de la EGC. |
+| [22078471](https://pubmed.ncbi.nlm.nih.gov/22078471/) | 2012 | Cohorte | J Allergy Clin Immunol | Excelente supervivencia tras trasplante de células madre de donante hermano o no emparentado en enfermedad granulomatosa crónica. Es evidencia indirecta: no evalúa la ciclosporina como tratamiento de la enfermedad. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Se muestran los primeros registros sin repetir (el paquete incluye entradas duplicadas).
+Todos los registros sanitarios están cancelados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 33038 | SANDIMMUN NEORAL® cápsulas blandas con microemulsión 25 mg (Novartis Pharma A.G.) | Cápsula blanda | CICLOSPORINA |
-| 33037 | SANDIMMUN® NEORAL® cápsula blanda microemulsión 100 mg (Novartis Pharma A.G.) | Cápsula blanda | CICLOSPORINA |
-| 20070206 | CITABICLOS® 100 (Megalabs Colombia S.A.S) | Cápsula blanda | CICLOSPORINA |
+| 33038 | Sandimmun Neoral cápsulas blandas con microemulsión 25 mg | Cápsula blanda | Ciclosporina |
+| 33037 | Sandimmun Neoral cápsula blanda microemulsión 100 mg | Cápsula blanda | Ciclosporina |
+| 20070206 | Citabiclos 100 | Cápsula blanda | Ciclosporina |
+| 51612 | Sandimmun Neoral cápsula blanda con microemulsión 50 mg | Cápsula blanda | Ciclosporina |
+| 24092 | Sandimmun concentrado para perfusión 50 mg/ml | Solución inyectable | Ciclosporina |
 
-También existen presentaciones en solución inyectable y emulsión.
+Existe un sexto registro cancelado (19937980, Restasis emulsión oftálmica, AbbVie), que no se muestra en la tabla por el límite de cinco registros.
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones y transportadores**: la consulta farmacológica identificó 7 dianas o transportadores con los que interactúa la ciclosporina: FPR1, ABCG2, SLC10A1, OATP1B1 (SLCO1B1), OATP1B3 (SLCO1B3), PPIA y PPID. La inhibición de transportadores como OATP1B1/1B3 y ABCG2 puede modificar la exposición a otros fármacos que dependan de ellos. No hay niveles de gravedad asignados.
-- **Riesgo específico en EGC**: la inmunosupresión podría agravar el riesgo de infecciones graves en estos pacientes.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento del modelo asocia la ciclosporina con enfermedades en las que podría estar contraindicada, entre ellas hipertensión, epilepsia, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, enfermedades infecciosas (incluidas las oculares y la conjuntivitis), hipertrigliceridemia, hiperbilirrubinemia (incluido el síndrome de Gilbert), púrpura trombocitopénica, hipertensión intracraneal/pseudotumor cerebral, cáncer y neoplasias (incluidos linfoma y linfoma primario del sistema nervioso central).
+- **Interacciones y dianas farmacológicas:** se identificaron 7 interacciones o dianas: FPR1, ABCG2, SLC10A1, OATP1B1, OATP1B3, PPIA y PPID. Varias son transportadores relevantes para la disposición de otros fármacos, por lo que pueden generar interacciones clínicamente importantes.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -109,13 +106,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN (99.68%) no está respaldada por evidencia directa. Solo hay un ensayo de Fase 1 donde la ciclosporina es tratamiento de fondo y un estudio de cohorte sobre trasplante de células madre. No existe un mecanismo plausible que vincule la inhibición de calcineurina con la corrección de la EGC, y el perfil inmunosupresor añade un riesgo de infección en esta población.
+La predicción se apoya en un solo estudio indirecto sobre trasplante de células madre, sin ensayos clínicos, y la ciclosporina no actúa sobre el defecto de fondo de la enfermedad. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y de las indicaciones originales (por ejemplo, desde la API de DrugBank).
-- Prospecto de INVIMA con advertencias y contraindicaciones, para completar el tamizaje de seguridad.
-- Estudios que evalúen la ciclosporina como tratamiento de la EGC y no solo como profilaxis de EICH en trasplante.
-- Análisis de la relación beneficio-riesgo de la inmunosupresión en pacientes con EGC.
+- Datos del mecanismo de acción que justifiquen un vínculo con la enfermedad granulomatosa crónica.
+- Evidencia clínica directa, o confirmar si el papel de la ciclosporina se limita a la profilaxis de la enfermedad injerto contra huésped en el trasplante.
+- Obtener las advertencias y contraindicaciones del prospecto (INVIMA).
+- Aclarar la situación regulatoria en Colombia, ya que los 6 registros están cancelados.
+- Evaluar el perfil de seguridad (nefrotoxicidad, neurotoxicidad, hipertensión, interacciones) en pacientes pediátricos con esta enfermedad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

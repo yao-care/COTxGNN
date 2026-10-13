@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Decitabine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 151
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 199
+evidence_level: L4
 indication_count: 1
 ---
 
 # Decitabine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,79 +29,104 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Decitabina: De Síndromes Mielodisplásicos a Citopenia Refractaria de la Infancia
+# Decitabina: De Decitabina (indicación registrada sin detalle) a Citopenia Refractaria de la Infancia
 
 ## Resumen en Una Frase
 
-Decitabina es un agente hipometilante que inhibe la ADN metiltransferasa y está establecido en los síndromes mielodisplásicos (SMD) del adulto.
-El modelo TxGNN predice que podría ser efectivo para la **citopenia refractaria de la infancia**, la forma pediátrica de SMD.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, así que se trata solo de una predicción del modelo.
+Decitabina es un agente hipometilante (inhibidor de la ADN metiltransferasa) conocido por su uso en síndromes mielodisplásicos; en Colombia sus registros sanitarios solo mencionan el nombre del principio activo como indicación, sin describir la enfermedad.
+El modelo TxGNN predice que podría ser efectiva para **citopenia refractaria de la infancia**,
+con **0 ensayos clínicos** y **2 publicaciones** (un estudio de cohorte y un reporte de caso) que actualmente respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro sanitario (el texto solo dice «Decitabina»). Según la farmacología conocida: síndromes mielodisplásicos del adulto |
+| Indicación Original | Los registros solo indican "Decitabina", sin enfermedad especificada |
 | Nueva Indicación Predicha | Citopenia refractaria de la infancia |
 | Puntaje de Predicción TxGNN | 99.03% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 13 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Decitabina es un agente hipometilante que inhibe la ADN metiltransferasa. Los datos de DrugBank recibidos no traen el mecanismo de acción original. Esta descripción se apoya en la farmacología general del fármaco, en la que se basa la hipótesis de reposicionamiento.
+Los datos compilados para este informe no incluyen el mecanismo de acción de la decitabina. Según el conocimiento farmacológico general, es un agente hipometilante que inhibe la ADN metiltransferasa y se usa en síndromes mielodisplásicos (SMD). Esta descripción proviene de conocimiento general y no de los datos suministrados.
 
-La citopenia refractaria de la infancia (CRI) es la entidad provisional de la OMS para el SMD pediátrico. Por eso existe una relación biológica plausible con la indicación conocida en adultos, y mecanísticamente el fármaco podría ser aplicable.
+La citopenia refractaria de la infancia es el subtipo más común de SMD pediátrico. Ambas condiciones comparten una biología de hematopoyesis clonal con metilación aberrante del ADN, lo que ofrece una base plausible para la predicción.
 
-Hay que tomar esta conexión con cautela. La CRI suele ser hipocelular y puede solaparse con síndromes de falla medular y con aplasia de origen inmunitario. Los datos suministrados no demuestran que el tratamiento hipometilante del SMD del adulto se traslade a este escenario. El vínculo se apoya solo en la farmacología general y en el puntaje de TxGNN (0.990).
+El puntaje alto de TxGNN (0.99) es solo una predicción computacional y no constituye evidencia clínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [35624441](https://pubmed.ncbi.nlm.nih.gov/35624441/) | 2022 | Cohorte (probablemente retrospectivo, inferido del título) | BMC Pediatrics | Experiencia de 10 años en un centro con decitabina combinada con un régimen mínimamente mielosupresor como puente al trasplante alogénico de progenitores hematopoyéticos en SMD pediátrico |
+| [42125547](https://pubmed.ncbi.nlm.nih.gov/42125547/) | 2026 | Reporte de caso | Experimental and Therapeutic Medicine | Niño de 8 años con SMD (citopenia refractaria de la infancia) no elegible para trasplante ni inmunosupresión, tratado con decitabina en monoterapia |
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 13 registros en total. Los registros recibidos son idénticos entre sí, por lo que se muestra una sola fila:
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19991325 | DACOGEN ® (Janssen Cilag S.A.) | Polvo liofilizado para reconstituir a solución inyectable | Decitabina (el registro no detalla la indicación) |
+| 19991325 (cancelado) | DACOGEN ® | Polvo liofilizado para reconstituir a solución inyectable | Decitabina |
+| 20195412 (cancelado) | AURODECINJET 50 MG | Polvo liofilizado para reconstituir a solución inyectable | Decitabina |
+| 20097119 (cancelado) | REDTIBIN 50 MG/VIAL | Polvo liofilizado | Decitabina |
+
+---
 
 ## Citotoxicidad
 
-Los datos recibidos no incluyen categorías de DrugBank ni datos de toxicidad. La clasificación siguiente se basa en la farmacología general del fármaco y debe confirmarse con el prospecto.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (agente hipometilante, análogo de nucleósido) |
-| Riesgo de Mielosupresión | Alto (neutropenia, trombocitopenia y anemia son esperables) |
-| Clasificación de Emetogenicidad | Baja a media |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Clasificación de Citotoxicidad | Citotóxico convencional (agente hipometilante, análogo de nucleósido); clasificación basada en conocimiento general |
+| Riesgo de Mielosupresión | Alto, según conocimiento general. Las asociaciones del grafo de conocimiento con neutropenia, trombocitopenia y agranulocitosis son coherentes con este riesgo |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial y plaquetas, función hepática y renal |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones asociadas a contraindicación en el grafo de conocimiento** (no provienen del texto del prospecto): enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, diabetes mellitus, cetoacidosis diabética, neutropenia y agranulocitosis.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Las principales de nivel **Mayor** son:
+  - Deferiprona
+  - Samario (153Sm) lexidronam
+  - Adalimumab
+  - Baricitinib
+
+  Entre las de nivel **Moderado** figuran palifermina, cloruro de estroncio Sr-89, mercaptopurina, roflumilast, cloranfenicol, zidovudina, aldesleucina, alemtuzumab, ganciclovir, gemcitabina, anakinra, azatioprina y vacunas (toxoide tetánico, ántrax).
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.03%), pero es solo una predicción del modelo (L5), sin ensayos clínicos ni literatura. Además, no hay datos de seguridad ni de mecanismo de acción en el paquete de evidencia.
+La evidencia es de nivel L4: no hay ensayos clínicos, solo un estudio de cohorte y un reporte de caso. Además, en Colombia no existe ningún registro sanitario vigente y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Revisión de la literatura y de registros de ensayos sobre decitabina en SMD pediátrico y CRI
-- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad)
-- Completar el mecanismo de acción desde DrugBank
-- Definir la indicación aprobada real del registro sanitario
-- Evaluar la compatibilidad de vía de administración y la seguridad en población pediátrica
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir la indicación original aprobada, ya que los registros solo mencionan el nombre del principio activo.
+- Evaluar la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación.
+- Generar evidencia clínica prospectiva (por ejemplo, ensayos de fase 2) en citopenia refractaria de la infancia.
+- Establecer un plan de monitoreo hematológico dado el alto riesgo de mielosupresión y las interacciones de nivel Mayor.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

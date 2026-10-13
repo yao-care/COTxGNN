@@ -2,7 +2,7 @@
 layout: default
 title: Metformin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 278
+nav_order: 434
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Metformina: De Indicación No Especificada en el Registro a Síndrome de la Persona Rígida Clásico
+# Metformina: De Metformina (indicación sin detallar) a Síndrome de la Persona Rígida Clásico
 
 ## Resumen en Una Frase
 
-La metformina está comercializada en Colombia, pero el texto de indicación del registro sanitario solo dice «Metformina» y no detalla el uso aprobado.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de la persona rígida clásico**, con un puntaje alto (99.45%).
-Hasta ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, así que se trata solo de una predicción del modelo.
+Metformina está registrada en Colombia con una indicación aprobada que solo figura como "METFORMINA", sin detalle de la enfermedad tratada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de la persona rígida clásico**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -43,30 +42,32 @@ Hasta ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro INVIMA solo indica «Metformina») |
-| Nueva Indicación Predicha | Síndrome de la persona rígida clásico (*classic stiff person syndrome*) |
+| Indicación Original | METFORMINA (el registro sanitario no detalla la enfermedad; el texto aprobado solo repite el nombre del fármaco) |
+| Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
 | Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Tampoco hay una indicación original documentada que permita compararla con la nueva. Por eso no se puede establecer una relación sólida entre ambas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, metformina es un antidiabético oral cuya acción se asocia a la activación de AMPK, y podría tener efectos inmunomoduladores de forma especulativa.
 
-Como hipótesis, la metformina activa la vía AMPK y modula mTOR, lo que podría tener un efecto inmunomodulador. El síndrome de la persona rígida es un trastorno autoinmune, a menudo asociado a anticuerpos anti-GAD65. Este vínculo es especulativo y no está validado. Se apoya únicamente en el puntaje del modelo.
+El síndrome de la persona rígida es un trastorno neurológico autoinmune, típicamente asociado a anticuerpos anti-GAD65, con alteración de la señalización GABAérgica. No se ha establecido un vínculo mecanístico directo con metformina. Además, este síndrome suele coexistir con diabetes tipo 1, lo cual es un factor de confusión y no una evidencia a favor.
 
-Otras predicciones del modelo para este fármaco tienen el mismo nivel de evidencia (L5, sin ensayos ni literatura):
+El puntaje alto (0.994) es solo una predicción computacional. La variante "síndrome de la extremidad rígida focal" tiene exactamente el mismo puntaje, lo que sugiere que la predicción proviene de la similitud entre nodos de enfermedad y no de evidencia independiente.
 
-| Enfermedad predicha | Puntaje TxGNN | Comentario |
+**Otras predicciones del modelo (todas L5, sin evidencia, recomendación Hold):**
+
+| Enfermedad | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Síndrome de la extremidad rígida focal | 99.45% | Mismo puntaje que el síndrome clásico, probablemente por la misma señal del modelo; no es evidencia independiente |
-| Opsismodisplasia | 99.40% | Posible vínculo por la vía PI3K/Akt e insulina (gen INPPL1/SHIP2); hipótesis sin verificar |
-| Síndrome de disfunción sensible a tiamina | 99.40% | Posible interacción con transportadores de tiamina; podría ser un riesgo de seguridad más que un beneficio |
-| Lipodistrofia localizada inducida por fármacos | 99.06% | Vínculo indirecto y especulativo por la sensibilidad a la insulina en el tejido adiposo |
+| Síndrome de la extremidad rígida focal | 99.45% | Variante del espectro de la persona rígida; misma justificación especulativa |
+| Opsismodisplasia | 99.40% | Displasia esquelética por mutaciones en INPPL1; posible solapamiento especulativo en rutas PI3K/AKT/mTOR |
+| Síndrome de disfunción sensible a tiamina | 99.40% | Metformina solo podría aliviar el componente diabético; además se asocia a alteración de vitamina B12 |
+| Lipodistrofia localizada inducida por fármacos | 99.06% | Racional indirecto por uso en otras lipodistrofias; sin evidencia para la forma localizada |
 
 ---
 
@@ -84,17 +85,21 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los datos recibidos contienen 5 filas idénticas del mismo registro sanitario. Se muestra una sola vez.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20235551 | WILMETINA 500 MG TABLETAS RECUBIERTAS (BRAINPHARMA S.A.S.) | Tableta recubierta (vía oral) | Metformina (sin detalle de indicación) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20235551 | WILMETINA 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | METFORMINA | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** insuficiencia hepática y enfermedad hepática, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, insuficiencia adrenocortical, enfermedad del timo, piouréter, y diversos déficits hipofisarios e hipogonadismos hipogonadotróficos (incluido el síndrome de Kallmann y el síndrome de Sheehan).
+- **Interacciones farmacológicas:** se identificaron 100 interacciones; entre las mostradas, las de nivel **mayor** son:
+  - Acetazolamida
+  - Etanol (alcohol)
+
+  Entre las de nivel moderado se encuentran dolutegravir, abemaciclib, fenilefrina, ranitidina, formoterol, pseudoefedrina, ketorolaco, nifedipino, epinefrina, ibuprofeno, etinilestradiol, hidrocortisona, salbutamol, hidroclorotiazida y acetohexamida.
+- Las advertencias y contraindicaciones del prospecto no están disponibles; consultar el prospecto para esa información.
 
 ---
 
@@ -103,16 +108,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos, literatura ni mecanismo documentado. Además, faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la revisión de seguridad.
+La predicción se basa solo en el modelo computacional (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico establecido. Además, el único registro sanitario en Colombia está cancelado y la indicación original no está detallada.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es el punto bloqueante.
-- Obtener el mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Aclarar la indicación aprobada real, porque el registro solo indica «Metformina».
-- Buscar literatura y ensayos sobre metformina en el síndrome de la persona rígida y trastornos autoinmunes afines.
-- Confirmar la compatibilidad de la vía de administración y la similitud con la indicación original, hoy pendientes.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito para la evaluación de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar y verificar literatura preclínica o clínica sobre metformina en síndrome de la persona rígida (considerando el sesgo por la comorbilidad con diabetes tipo 1).
+- Aclarar la indicación original aprobada y la situación regulatoria actual, dado que no hay registros vigentes.
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original (actualmente pendientes).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

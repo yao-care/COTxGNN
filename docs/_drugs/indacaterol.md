@@ -2,7 +2,7 @@
 layout: default
 title: Indacaterol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 221
+nav_order: 341
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Indacaterol: De Indicación Original No Especificada a Síndrome Nefrogénico de Antidiuresis Inapropiada
+# Indacaterol: De Formoterol y Mometasona (combinación respiratoria) a Síndrome Nefrogénico de Antidiuresis Inapropiada
 
 ## Resumen en Una Frase
 
-Indacaterol es un agonista beta2 de acción ultra-prolongada, utilizado en enfermedades obstructivas de las vías respiratorias. En Colombia se comercializa dentro de una combinación inhalada con mometasona. El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+Indacaterol es un agonista beta-2 adrenérgico de acción ultra-prolongada, cuyo registro sanitario en Colombia lo asocia a una combinación respiratoria (texto registrado: "formoterol y mometasona").
+El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénico de antidiuresis inapropiada (NSIAD)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | FORMOTEROL Y MOMETASONA (texto tal como figura en el registro INVIMA; no describe con claridad una indicación) |
-| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
+| Indicación Original | Formoterol y mometasona (texto del registro sanitario) |
+| Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) |
 | Puntaje de Predicción TxGNN | 99.54% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, indacaterol es un agonista beta2-adrenérgico de acción ultra-prolongada que relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida. Su uso está establecido en la enfermedad pulmonar obstructiva crónica (EPOC) y en combinaciones fijas para asma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, indacaterol es un agonista beta-2 adrenérgico de acción ultra-prolongada que relaja el músculo liso de las vías respiratorias mediante la vía del receptor beta-2 y el AMPc. Su eficacia en enfermedad obstructiva de las vías aéreas (asma, EPOC) está documentada.
 
-**Con la evidencia disponible, la predicción no parece razonable desde el punto de vista mecanístico.** El síndrome nefrogénico de antidiuresis inapropiada surge de variantes con ganancia de función del receptor V2 de la vasopresina (AVPR2), una vía distinta de la señalización beta2-adrenérgica. No se identificó ningún vínculo entre ambas.
+La relación entre la indicación original y la nueva es débil. El NSIAD es causado por variantes de ganancia de función en el gen *AVPR2* (receptor V2 de la vasopresina). Existe un único vínculo especulativo: la agonía beta-2 eleva el AMPc, que también es la señal posterior a la activación del receptor V2. Esta hipótesis **no tiene respaldo en datos**, y no se encontró un vínculo mecanístico establecido.
 
-El puntaje alto de TxGNN refleja una asociación en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe leerse como una hipótesis computacional, no como una señal de eficacia.
+En conclusión, la predicción se basa únicamente en el modelo y debe considerarse una hipótesis sin confirmar. Puede tratarse de un artefacto del grafo de conocimiento.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20209060 | ATECTURA® BREEZHALER® 150/80 MCG polvo para inhalación cápsula dura (Novartis Pharma AG) | Cápsula dura | FORMOTEROL Y MOMETASONA |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Cancelado |
+| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Cancelado |
 
-Nota: los 5 registros listados en el paquete de evidencia son idénticos (mismo número, producto e indicación), por lo que se muestran una sola vez. El total reportado es de 20 registros.
+Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto del prospecto): hipertensión, síndrome de QT largo (incluido el familiar), epilepsia, hiperglucemia, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, paro cardíaco súbito, enfermedad de conducción cardíaca, tirotoxicosis/hipertiroidismo/enfermedad de Graves y enfermedad coronaria.
+- **Interacciones farmacológicas** (100 registradas; se listan las principales):
+  - *Moderadas*: antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, saxagliptina, albiglutida, canagliflozina, dapagliflozina, clorpropamida), epinefrina, isometepteno, famotidina y claritromicina.
+  - *Menores*: corticosteroides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida, beclometasona) y aprepitant.
+
+Se recomienda consultar el prospecto para las advertencias y contraindicaciones oficiales.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la agonía beta2 y la ganancia de función de AVPR2. No hay base para avanzar.
+La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción del modelo, sin ensayos ni literatura, y sin mecanismo plausible establecido. Además, no hay producto vigente en Colombia.
 
 **Para avanzar se necesita:**
-- Un vínculo mecanístico creíble, apoyado en estudios preclínicos o de mecanismo, entre la vía beta2-adrenérgica y la vía de AVPR2
-- Confirmar la indicación original en el prospecto de INVIMA, ya que el texto del registro solo menciona "formoterol y mometasona"
-- Datos de mecanismo de acción, advertencias y contraindicaciones desde DrugBank e INVIMA
+- Datos del mecanismo de acción (consulta a DrugBank) y un análisis mecanístico formal del vínculo entre la agonía beta-2 y la señalización del receptor V2.
+- Estudios preclínicos que respalden la hipótesis antes de considerar ensayos clínicos.
+- Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones.
+- Verificar la disponibilidad regional, dado que solo existen registros cancelados.
 
-**Observación complementaria:** dentro de las predicciones del mismo paquete, "enfermedad bronquial" (posición 7) tiene evidencia L1 y recomendación "Proceed with Guardrails". Sin embargo, corresponde a un uso en asma y EPOC que es esencialmente el uso habitual del fármaco, no un reposicionamiento nuevo. Si se desea una evaluación completa de esa indicación, conviene generar un informe separado.
+**Nota sobre otras predicciones:** de las 10 indicaciones predichas, solo la **enfermedad bronquial** (puntaje 99.18%, posición 7) tiene evidencia real: 24 ensayos clínicos (incluidos varios de Fase 3 completados, como NCT02554786 con 2216 participantes) y 20 publicaciones, con nivel L1 y decisión *Proceed with Guardrails*. Sin embargo, esto equivale en gran medida a reconfirmar el uso respiratorio ya conocido y no a un reposicionamiento genuino. Además, muchos ensayos usan combinaciones de dosis fijas, por lo que no se puede aislar el aporte de indacaterol solo. Un ensayo de Fase 3 (NCT04206761) fue retirado con 0 participantes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

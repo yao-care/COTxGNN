@@ -2,7 +2,7 @@
 layout: default
 title: Miglustat
 parent: Solo Predicción del Modelo (L5)
-nav_order: 284
+nav_order: 444
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,102 +29,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Miglustat: De Enfermedad de Gaucher tipo 1 a Enfermedad de Tay-Sachs
+# Miglustat: De Enfermedad de Gaucher a Síndrome de Ictiosis Autosómica con Curso Fatal
 
 ## Resumen en Una Frase
 
-Miglustat es un inhibidor oral de la glucosilceramida sintasa, desarrollado originalmente para la enfermedad de Gaucher tipo 1.
-El modelo TxGNN lo predice para muchas enfermedades. La primera de la lista (ictiosis autosómica) no tiene ningún respaldo, así que este informe se centra en **Enfermedad de Tay-Sachs**, la predicción con evidencia real (posición 7 del ranking).
-Tiene **5 ensayos clínicos** y **20 publicaciones**, pero la evidencia clínica **no respalda eficacia** de forma clara.
+Miglustat es un inhibidor oral de la glucosilceramida sintasa, utilizado originalmente en la enfermedad de Gaucher tipo 1.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de ictiosis autosómica con curso fatal**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Enfermedad de Gaucher tipo 1 (según la literatura; el registro INVIMA solo dice «MIGLUSTATO», sin texto de indicación) |
-| Nueva Indicación Predicha | Enfermedad de Tay-Sachs (posición 7; la posición 1, ictiosis autosómica, es L5 sin evidencia) |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L2 (limitado por estudios pequeños de PK/seguridad, no ECA de eficacia) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 10 filas en el paquete (2 registros únicos: 20261973 y 20010809) |
-| Decisión Recomendada | Hold (el paquete lo califica como «pregunta de investigación») |
+| Indicación Original | Enfermedad de Gaucher (uso clínico documentado). El texto del registro sanitario solo indica "MIGLUSTATO", sin detalle |
+| Nueva Indicación Predicha | Síndrome de ictiosis autosómica con curso fatal |
+| Puntaje de Predicción TxGNN | 99.83% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El paquete de datos no trae el mecanismo de acción desde DrugBank. Según la literatura incluida, miglustat inhibe la glucosilceramida sintasa y reduce la síntesis de glucoesfingolípidos. Esta estrategia se llama terapia de reducción de sustrato.
+Miglustat inhibe la enzima glucosilceramida sintasa (gen UGCG). Con ello reduce la síntesis de glicoesfingolípidos. Este mecanismo, llamado terapia de reducción de sustrato, es la base de su uso en la enfermedad de Gaucher.
 
-En la enfermedad de Tay-Sachs, la deficiencia de hexosaminidasa A provoca acumulación de gangliósido GM2 en las neuronas. Frenar su síntesis es, en teoría, una vía lógica. Esta es la relación más sólida entre la indicación original y la nueva, y hay ratones con Tay-Sachs donde un compuesto análogo (NB-DNJ) previno el almacenamiento de GM2 (PMID 9103204).
+La ictiosis es un grupo de trastornos de la barrera cutánea. Una posible conexión es el metabolismo alterado de esfingolípidos y ceramidas en la piel. En ese contexto, modular la glucosilceramida sintasa podría tener algún efecto. **Esta relación es especulativa**: los datos disponibles no incluyen estudios que la respalden, y la similitud con la indicación original no ha sido evaluada.
 
-Sin embargo, en humanos los resultados no acompañan. Un ECA en Tay-Sachs de inicio tardío (12 meses) no mostró beneficio neurológico claro. En la forma infantil, dos pacientes no detuvieron su deterioro, aunque el fármaco alcanzó concentraciones significativas en LCR. Una revisión sistemática de 2023 concluye eficacia limitada o no concluyente.
-
-### Otras predicciones del modelo
-
-Ninguna tiene ensayos ni literatura. Todas son L5 y Hold.
-
-| Enfermedad | Puntaje | Comentario |
-|---|---|---|
-| Ictiosis autosómica con curso fatal | 99.83% | Sin vínculo establecido. Inhibir la glucosilceramida sintasa reduciría, no restauraría, los lípidos epidérmicos |
-| Enfermedad de depósito de ésteres de colesterilo | 99.82% | Es un trastorno de lipasa ácida lisosomal, no de glucoesfingolípidos. Probable cercanía en la red |
-| Enfermedad de Krabbe | 99.78% | Vínculo indirecto: la galactosilceramida no depende de esta enzima |
-| Leucodistrofia metacromática | 99.77% | Vínculo débil: el sulfátido deriva de galactosilceramida |
-| Enfermedad de Wolman | 99.76% | Sin justificación mecanística (deficiencia de lipasa ácida lisosomal) |
-| Encefalopatía por deficiencia de prosaposina | 99.75% | El vínculo más creíble entre las no-GM2, pero ultra rara y sin evidencia clínica |
-| Neoplasia benigna de glándula suprarrenal | 99.74% | Sin vínculo plausible, probable artefacto del grafo |
-| Ictiosis recesiva ligada al X | 99.73% | Vía no glucoesfingolipídica. El efecto sobre la barrera cutánea podría ser contraproducente |
-| Neurodegeneración asociada a ácido graso hidroxilasa | 99.72% | Es un déficit de lípidos hidroxilados, no acumulación de sustrato. Requiere evidencia preclínica |
+El puntaje del modelo es muy alto (99.83%), pero es solo una predicción computacional. No debe interpretarse como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00418847](https://clinicaltrials.gov/study/NCT00418847) | Fase 2 | Completado | 5 | Farmacocinética y tolerabilidad de dosis únicas y múltiples de miglustat en gangliosidosis GM2 juvenil |
-| [NCT00672022](https://clinicaltrials.gov/study/NCT00672022) | Fase 3 | Completado | 10 | Farmacocinética, seguridad y tolerabilidad en GM2 infantil (Tay-Sachs clásico y Sandhoff infantil). No es un ECA de eficacia |
-| [NCT03822013](https://clinicaltrials.gov/study/NCT03822013) | Fase 3 | Terminado | 30 | Encuesta de efectos de miglustat sobre síntomas neurológicos y sistémicos en formas infantiles de Sandhoff y Tay-Sachs. Terminado, lo que limita la interpretación |
-| [NCT02030015](https://clinicaltrials.gov/study/NCT02030015) | Fase 4 | Terminado | 16 | Syner-G: miglustat más dieta cetogénica en gangliosidosis. El efecto no puede atribuirse solo a miglustat |
-| [NCT07399704](https://clinicaltrials.gov/study/NCT07399704) | Fase 2 | Reclutando | 21 | Estudio abierto a largo plazo de nizubaglustat (otro fármaco) en GM2 o Niemann-Pick C, con o sin miglustat previo. Solo apoyo contextual |
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [19346952](https://pubmed.ncbi.nlm.nih.gov/19346952/) | 2009 | ECA | Genet Med | Miglustat en Tay-Sachs de inicio tardío, 12 meses controlado más 24 de extensión. Sin beneficio neurológico claro |
-| [37209042](https://pubmed.ncbi.nlm.nih.gov/37209042/) | 2023 | Revisión sistemática | Eur J Neurol | Eficacia y seguridad de miglustat en gangliosidosis GM2. Resultados previos inconsistentes, conclusión limitada |
-| [16434676](https://pubmed.ncbi.nlm.nih.gov/16434676/) | 2006 | Serie pequeña (2 pacientes) | Neurology | En Tay-Sachs infantil no detuvo el deterioro neurológico. Sí hubo concentración significativa en LCR y se previno la macrocefalia |
-| [28476546](https://pubmed.ncbi.nlm.nih.gov/28476546/) | 2017 | Cohorte de historia natural | Mol Genet Metab | Línea de tiempo clínica de gangliosidosis infantiles. Sin tratamientos aprobados. Miglustat limitado por efectos secundarios gastrointestinales |
-| [32867370](https://pubmed.ncbi.nlm.nih.gov/32867370/) | 2020 | Revisión | Int J Mol Sci | Características clínicas, fisiopatología y terapias actuales de las gangliosidosis GM2 |
-| [30524313](https://pubmed.ncbi.nlm.nih.gov/30524313/) | 2018 | Revisión | Front Physiol | Nuevos enfoques terapéuticos para Tay-Sachs |
-| [30743792](https://pubmed.ncbi.nlm.nih.gov/30743792/) | 2009 | Revisión | Expert Rev Endocrinol Metab | Terapia de reducción de sustrato con miglustat en trastornos de glucoesfingolípidos con afectación cerebral |
-| [12808890](https://pubmed.ncbi.nlm.nih.gov/12808890/) | 2003 | Perfil del fármaco | Curr Opin Investig Drugs | Miglustat lanzado para Gaucher tipo 1 y en desarrollo para Tay-Sachs, Fabry y Niemann-Pick C |
-| [16151419](https://pubmed.ncbi.nlm.nih.gov/16151419/) | 2005 | Reporte de caso | Bone Marrow Transplant | Trasplante alogénico de médula seguido de terapia de reducción de sustrato en un niño con Tay-Sachs subagudo (sin resumen disponible) |
-| [9103204](https://pubmed.ncbi.nlm.nih.gov/9103204/) | 1997 | Preclínico (ratón) | Science | El inhibidor NB-DNJ previno la acumulación de GM2 en cerebro de ratones con Tay-Sachs |
+Actualmente no hay literatura relacionada disponible para esta indicación.
+
+> **Nota:** entre las demás indicaciones predichas, la **enfermedad de Tay-Sachs** (puesto 7 en el ranking, puntaje 99.75%) sí cuenta con evidencia. Incluye 4 ensayos clínicos (NCT00672022, Fase 3, completado, 10 participantes; NCT03822013, Fase 3, terminado, 30 participantes; NCT00418847, Fase 2; NCT02030015, Fase 4, terminado). También tiene 11 publicaciones, entre ellas un ECA en Tay-Sachs de inicio tardío (PMID 19346952) y una revisión sistemática (PMID 37209042). Esa indicación tiene nivel L1 y recomendación "Research Question". Los ensayos son pequeños y se centran en farmacocinética y seguridad, y no se dispone de sus conclusiones de eficacia. Merece un informe propio.
 
 ## Información de Mercado en Colombia
 
-El paquete repite las mismas filas, así que aquí se muestran una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20261973 | MIGLUSTAT 100 MG - CÁPSULAS DURAS (GLOBAL-TEC COLOMBIA SAS) | Cápsula dura | MIGLUSTATO | Cancelado |
+| 20010809 | ZAVESCA® 100 MG (JANSSEN CILAG S.A.) | Cápsula dura | MIGLUSTATO | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20010809 | ZAVESCA® 100 MG (Janssen Cilag S.A.) | Cápsula dura | Solo figura «MIGLUSTATO» |
-| 20261973 | MIGLUSTAT 100 MG - CÁPSULAS DURAS (Global-Tec Colombia SAS) | Cápsula dura | Solo figura «MIGLUSTATO» |
+Ningún registro está vigente actualmente. Cualquier uso en Colombia requeriría una nueva gestión regulatoria.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. El paquete no incluye advertencias ni contraindicaciones de INVIMA, y no se encontraron interacciones farmacológicas registradas.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** enfermedad del sistema nervioso periférico, neuropatía periférica y función renal deteriorada.
+- **Interacciones farmacológicas:** se identificó una interacción de nivel **moderado** con imiglucerasa (fuente: DDInter).
 
-La literatura señala que el uso de miglustat está limitado por efectos secundarios gastrointestinales (PMID 28476546). Su perfil de seguridad se conoce por su uso comercializado.
+No se dispone de las advertencias ni contraindicaciones del prospecto. Consultar el prospecto para información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo de reducción de sustrato es coherente con Tay-Sachs, pero los datos clínicos disponibles (ECA en inicio tardío, serie infantil, revisión sistemática de 2023) no muestran eficacia clara. Los estudios de Fase 3 son pequeños y de PK/seguridad, por lo que la evidencia queda en L2 y como pregunta de investigación. Las demás predicciones (incluida la de la posición 1) son solo del modelo, sin evidencia.
+La predicción para el síndrome de ictiosis autosómica con curso fatal se basa solo en el modelo (nivel L5), sin ensayos ni literatura. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Prospecto INVIMA con advertencias y contraindicaciones (brecha bloqueante DG001)
-- Datos de mecanismo de acción desde DrugBank (DG002)
-- Evaluación de regímenes combinados, como el estudio Syner-G (miglustat más dieta cetogénica), y comparación con inhibidores de la glucosilceramida sintasa que penetran mejor en el SNC
-- Para la prosaposina, la única predicción no-GM2 con vínculo creíble: una señal preclínica o de casos antes de cualquier consideración clínica
+- Revisión bibliográfica dirigida que busque estudios preclínicos sobre el papel de la glucosilceramida sintasa y los esfingolípidos en este tipo de ictiosis
+- Evaluación de la similitud con la indicación original
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
+- Aclarar la situación regulatoria, dado que los dos registros están cancelados
+- Considerar priorizar la evaluación de Tay-Sachs/gangliosidosis GM2, que tiene la evidencia más sólida entre las indicaciones predichas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

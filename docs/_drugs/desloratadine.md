@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Desloratadine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 155
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 203
+evidence_level: L1
 indication_count: 6
 ---
 
 # Desloratadine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,88 +29,98 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Desloratadina: De Antihistamínico para Rinitis y Urticaria a Urticaria por Frío
+# Desloratadina: De Desloratadina (indicación no detallada en el registro) a Urticaria por Frío
 
 ## Resumen en Una Frase
 
-La desloratadina es un antihistamínico H1 de segunda generación, usado en general para los síntomas de la rinitis alérgica y la urticaria.
-El modelo TxGNN predice que podría ser efectiva para la **urticaria por frío**,
-con **3 ensayos clínicos** (todos completados) y **7 publicaciones** (3 de ellas ensayos clínicos aleatorizados) que respaldan esta dirección.
+Desloratadina es un antihistamínico de segunda generación que bloquea el receptor H1, utilizado en condiciones alérgicas como la rinitis y la urticaria.
+El modelo TxGNN predice que podría ser efectivo para **urticaria por frío**,
+con **2 ensayos clínicos** (ambos de Fase 4, completados) y **6 publicaciones** (3 ECA, 2 revisiones y 1 reporte de caso) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto de INVIMA solo dice «DESLORATADINA»). La farmacología general la describe para rinitis y urticaria alérgicas |
-| Nueva Indicación Predicha | Urticaria por frío (*cold urticaria*) |
+| Indicación Original | DESLORATADINA (el registro sanitario no detalla el texto de la indicación; se usa en rinitis alérgica y urticaria) |
+| Nueva Indicación Predicha | Urticaria por frío |
 | Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L1 (asignado en el paquete de evidencia; los ensayos son de Fase 4, no de Fase 3) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 7 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La desloratadina es un agonista inverso selectivo del receptor H1 de histamina (gen *HRH1*) de acción periférica. Los datos de DrugBank no traen el mecanismo de acción, pero la base de farmacología lo confirma como su blanco principal.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información conocida, la desloratadina es un antagonista selectivo (agonista inverso) del receptor H1 periférico. Su eficacia en condiciones alérgicas como la rinitis y la urticaria está bien establecida, y mecanísticamente es aplicable a la urticaria por frío.
 
-La urticaria por frío es una urticaria física en la que los mastocitos liberan histamina tras la exposición al frío, y esa histamina produce los habones y el prurito. Su tratamiento de primera línea son los antihistamínicos H1, el mismo mecanismo que ya se usa en la urticaria y la rinitis alérgica. Por eso el mecanismo es aplicable y la predicción es coherente.
+La urticaria por frío está mediada por la degranulación de mastocitos y la liberación de histamina tras la exposición al frío. El bloqueo H1 actúa directamente sobre la vía efectora principal. Además, aumentar la dosis de antihistamínicos de segunda generación (hasta 4 veces la dosis estándar) es una estrategia respaldada por las guías clínicas, y los ensayos de escalada de dosis disponibles son coherentes con ella.
 
-Un punto de cautela: gran parte de la evidencia usa dosis mayores que la dosis aprobada de 5 mg (10 y 20 mg). El uso sería fuera de indicación y dependiente de la dosis. Además, el estado de indicación aprobada debe verificarse por separado, porque el registro de INVIMA no detalla las indicaciones.
+Conviene hacer una salvedad: la evidencia proviene de ensayos de Fase 4, no de Fase 3, y el fármaco ya está aprobado para urticaria crónica. Por ello, esta predicción se parece más a una extensión de una indicación de clase existente que a un reposicionamiento en sentido estricto.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Fase 4 | Completado | 30 | Estudio multicéntrico doble ciego con escalada de dosis (5, 10 y 20 mg) en urticaria adquirida por frío. Busca la dosis suficiente para inhibir los síntomas. Relevancia directa (grado A) |
-| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Fase 4 | Completado | 33 | Estudio cruzado aleatorizado, doble ciego, controlado con placebo. Compara 5 mg frente a 20 mg en lesiones de urticaria por frío inducidas experimentalmente (termografía, volumetría y fotografía). Grado B |
-| [NCT01940393](https://clinicaltrials.gov/study/NCT01940393) | Fase 4 | Completado | 150 | Compara 5 antihistamínicos en urticaria en población de Latinoamérica tropical. No indica el subtipo de urticaria, por lo que puede no ser específico de urticaria por frío. Grado B |
+| [NCT01444196](https://clinicaltrials.gov/study/NCT01444196) | Fase 4 | Completado | 30 | Estudio multicéntrico, doble ciego, de escalada de dosis (5, 10 y 20 mg) en urticaria por frío adquirida; busca la dosis suficiente para inhibir los síntomas |
+| [NCT00600847](https://clinicaltrials.gov/study/NCT00600847) | Fase 4 | Completado | 33 | Estudio cruzado, aleatorizado, doble ciego y controlado con placebo; compara 5 mg vs. 20 mg en lesiones inducidas experimentalmente (termografía, volumetría y fotografía) |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | ECA | J Allergy Clin Immunol | La desloratadina en dosis altas reduce el volumen de los habones y mejora los umbrales de provocación por frío frente a la dosis estándar (cruzado, con placebo) |
-| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | ECA | Br J Dermatol | Medición del umbral crítico de temperatura en urticaria por frío con escalada de dosis de antihistamínico H1. Busca predecir la respuesta individual |
-| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | ECA | J Dermatol Treat | Desloratadina 5 mg durante 4 días en 12 pacientes con urticaria por frío, evaluada con prueba de cubo de hielo antes y después del tratamiento |
-| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Revisión | Drugs | Etiología, manejo y opciones de tratamiento de la urticaria crónica (contexto general) |
-| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Revisión | Allergy | Ebastina en rinitis alérgica y urticaria crónica idiopática. Trata otro antihistamínico, por lo que es solo evidencia de contexto |
-| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Reporte de caso | Qatar Med J | Primer caso de urticaria por frío tras anafilaxia por picadura de hormiga negra |
-| [29698807](https://pubmed.ncbi.nlm.nih.gov/29698807/) | 2018 | Reporte de caso | J Allergy Clin Immunol Pract | Urticaria por frío dependiente de alimentos, una nueva variante de urticaria física (sin resumen disponible) |
+| [19201016](https://pubmed.ncbi.nlm.nih.gov/19201016/) | 2009 | ECA | J Allergy Clin Immunol | Con dosis alta de desloratadina disminuyó el volumen de la roncha y mejoraron los umbrales de provocación por frío frente a la dosis estándar (estudio cruzado controlado con placebo) |
+| [22242678](https://pubmed.ncbi.nlm.nih.gov/22242678/) | 2012 | ECA | Br J Dermatol | Medición del umbral crítico de temperatura en urticaria por frío con escalada de dosis de antihistamínicos H1 |
+| [14754651](https://pubmed.ncbi.nlm.nih.gov/14754651/) | 2004 | ECA | J Dermatolog Treat | 5 mg de desloratadina durante 4 días, probada con cubos de hielo en 12 pacientes con urticaria por frío |
+| [15516152](https://pubmed.ncbi.nlm.nih.gov/15516152/) | 2004 | Revisión | Drugs | Etiología, manejo y opciones de tratamiento de la urticaria crónica |
+| [19032340](https://pubmed.ncbi.nlm.nih.gov/19032340/) | 2008 | Revisión | Allergy | Ebastina en rinitis alérgica y urticaria crónica idiopática (otro antihistamínico; evidencia indirecta) |
+| [38025339](https://pubmed.ncbi.nlm.nih.gov/38025339/) | 2023 | Reporte de caso | Qatar Med J | Urticaria por frío tras anafilaxia por mordedura de hormiga negra (relevancia indirecta) |
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros sanitarios en total. La tabla muestra los registros únicos de los datos recibidos, ya que varias filas estaban repetidas.
+Los 7 registros sanitarios están cancelados; actualmente no hay ningún registro vigente.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20196512 | SINNALLER® | Tableta recubierta | DESLORATADINA (el texto no detalla la indicación) |
-| 20106242 | HISTALINE | Tableta recubierta | DESLORATADINA (el texto no detalla la indicación) |
-
-También existen presentaciones en jarabe. Los fabricantes de los registros mostrados son GIMED S.A.S. (SINNALLER®) y MED LINE COLOMBIA S.A.S. (HISTALINE).
+| 20196512 | SINNALLER® | Tableta recubierta | DESLORATADINA |
+| 20106242 | HISTALINE | Tableta recubierta | DESLORATADINA |
+| 20075867 | RINILORAN® JARABE | Jarabe | DESLORATADINA |
+| 20137626 | NEWTARPAN® tableta cubierta 5 mg | Tableta recubierta | DESLORATADINA |
+| 20262256 | DESLORIX 50MG/100ML JARABE | Jarabe | DESLORATADINA |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias y contraindicaciones de INVIMA no están disponibles.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento TxGNN (PrimeKG) asocia el fármaco con las siguientes enfermedades, que conviene evaluar con cautela:
+  - Cardiovasculares: hipertensión, enfermedad coronaria, aterosclerosis y arteriosclerosis.
+  - Renales y hepáticas: enfermedad renal, piouréter, enfermedad hepática y enfermedad de la vesícula biliar.
+  - Metabólicas y endocrinas: diabetes mellitus, cetoacidosis diabética, hipertiroidismo, enfermedad de Graves y tirotoxicosis.
+  - Otras: hiperplasia prostática benigna y glaucoma de ángulo cerrado.
+- **Interacciones farmacológicas**: la consulta se completó y solo se encontró la interacción farmacológica con el receptor H1 (su diana terapéutica). No se identificaron interacciones con otros fármacos. Se ha descrito actividad antiviral in vitro contra SARS-CoV-2, probablemente por fosfolipidosis, sin relevancia clínica establecida.
 
-Como precaución específica de esta predicción, algunos ensayos usaron dosis de hasta 20 mg, cuatro veces la dosis aprobada de 5 mg. La seguridad y la tolerabilidad en esas dosis deben confirmarse antes de cualquier uso.
+Para advertencias y contraindicaciones basadas en el prospecto, consultar el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Tres ensayos completados de Fase 4 y tres ECA publicados respaldan directamente el uso de desloratadina, incluso en dosis altas, en la urticaria adquirida por frío. Como el uso es fuera de indicación y depende de la dosis, se requieren salvaguardas.
+Hay ensayos de Fase 4 completados, controlados y doble ciego, además de varios ECA que respaldan el uso de desloratadina (incluso a dosis elevadas) en urticaria por frío, y el mecanismo H1 es coherente. Sin embargo, las muestras son pequeñas, no hay ensayos de Fase 3 y actualmente no hay registros vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones
-- Confirmar si la urticaria por frío está entre las indicaciones aprobadas en Colombia
-- Confirmar la seguridad y tolerabilidad de dosis superiores a 5 mg
-- Verificar el subtipo de urticaria en NCT01940393 y la relación de NCT01444196 con la urticaria por frío (inferida del título y la literatura)
-- Completar los datos del mecanismo de acción en DrugBank
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que sigue pendiente.
+- Confirmar los datos del mecanismo de acción en DrugBank.
+- Definir el camino regulatorio, ya que todos los registros están cancelados (nuevo registro o reactivación).
+- Evaluar la seguridad de las dosis superiores a la estándar (hasta 4 veces) y en poblaciones con las comorbilidades señaladas.
+- Confirmar la compatibilidad de la vía de administración y la forma farmacéutica.
 
-**Otras predicciones del modelo (sin evidencia suficiente):**
-- **Enfermedad de la cavidad nasal:** L4, pregunta de investigación. La evidencia son modelos animales y un estudio con loratadina; el único ensayo (NCT04088721) no confirma que el fármaco sea desloratadina.
-- **Laringofaringitis aguda, dermatitis atópica recalcitrante, respuesta IgE atópica y conjuntivitis por rosácea:** L5, Hold. No hay ensayos ni literatura, y el respaldo mecanístico es débil.
+## Otras Predicciones de Menor Respaldo
+
+| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
+|------|------|------|------|
+| Enfermedad de la cavidad nasal | 99.87% | L4 | Pregunta de investigación (solo estudios en animales) |
+| Laringofaringitis aguda | 99.85% | L5 | Hold |
+| Dermatitis atópica recalcitrante | 99.75% | L5 | Hold |
+| Respuesta IgE atópica | 99.64% | L5 | Hold |
+| Conjuntivitis por rosácea | 99.40% | L5 | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

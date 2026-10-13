@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Midazolam
-parent: Solo Predicción del Modelo (L5)
-nav_order: 283
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 442
+evidence_level: L3
 indication_count: 1
 ---
 
 # Midazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,91 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Midazolam: De Indicación No Especificada en el Registro a Insomnio
+# Midazolam: De Midazolam (indicación no especificada en el registro) a Insomnio
 
 ## Resumen en Una Frase
 
-Midazolam es una benzodiacepina de acción corta, comercializada en Colombia como solución inyectable. El registro sanitario no detalla su indicación original: el texto solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **insomnio**. Esta dirección cuenta con **4 ensayos clínicos publicados de tipo ECA en la literatura (1981-1990)**, aunque de los **32 ensayos registrados** ninguno evalúa midazolam como tratamiento directo del insomnio.
+Midazolam es una benzodiazepina de acción corta; en Colombia sus registros sanitarios solo mencionan "Midazolam" como indicación, sin detallar el uso aprobado.
+El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensayos clínicos** (de relevancia indirecta) y **10 publicaciones** que actualmente respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice «Midazolam») |
+| Indicación Original | Midazolam (el registro no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 99.74% |
-| Nivel de Evidencia | L2 (basado en ECAs publicados en literatura; ver la nota en la conclusión) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la farmacología conocida de la clase, midazolam es un modulador alostérico positivo de los receptores GABA-A. Potencia la señalización inhibitoria GABAérgica, lo que produce efecto sedante-hipnótico, acorta la latencia del sueño y aumenta su duración. Este mecanismo es inferido de la clase y no proviene del registro suministrado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico de la clase, el midazolam es una benzodiazepina de acción corta que actúa como modulador alostérico positivo de los receptores GABA-A, potenciando la neurotransmisión inhibitoria y produciendo efectos sedantes e hipnóticos.
 
-Este mecanismo es el mismo de otras benzodiacepinas hipnóticas, como flurazepam, que se usan en el insomnio. Su vida media muy corta y su inicio rápido encajan con las dificultades para conciliar el sueño. El puntaje alto de TxGNN es coherente con esta farmacología.
+Este mecanismo es compartido con benzodiazepinas hipnóticas ya aprobadas (por ejemplo, flurazepam y triazolam), por lo que el vínculo biológico con el insomnio es plausible y coherente con el alto puntaje de TxGNN. Esta relación se infiere de la farmacología de la clase, no de datos directos del registro.
 
-Los ECAs históricos apoyan la predicción. Midazolam oral mostró eficacia hipnótica en pacientes con insomnio secundario a enfermedades neuromusculares y musculoesqueléticas. Las principales preocupaciones de seguridad de la clase son los efectos residuales al día siguiente, la tolerancia, la dependencia y el insomnio de rebote.
+Además, el midazolam por vía oral fue estudiado y usado históricamente como hipnótico en varios países. Por ello, esta predicción se parece más a un "redescubrimiento" de un uso ya estudiado que a un reposicionamiento verdaderamente novedoso.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se identificaron 32 ensayos, y solo se muestran los más relevantes. Ninguno prueba midazolam como tratamiento del insomnio primario. En la mayoría, el sueño es un desenlace secundario en contextos perioperatorios o de cuidados intensivos, o midazolam es solo el comparador.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Completado | 111 | Calidad del sueño postoperatorio con sedación de dexmedetomidina vs. midazolam en resección transuretral de próstata. Es el ensayo más pertinente (relevancia B), pero el contexto es perioperatorio y midazolam actúa como comparador |
-| [NCT06407518](https://clinicaltrials.gov/study/NCT06407518) | N/A | Reclutando | 280 | Midazolam oral preoperatorio frente a placebo sobre el dolor postoperatorio en pacientes con trastorno del sueño o ansiedad sometidos a cirugía colorrectal laparoscópica |
-| [NCT01966315](https://clinicaltrials.gov/study/NCT01966315) | N/A | Terminado | 5 | Sueño medido por polisomnografía de 24 h con dexmedetomidina vs. midazolam en pacientes ventilados en UCI. Terminado con muy pocos participantes |
-| [NCT00826553](https://clinicaltrials.gov/study/NCT00826553) | Fase 1 | Terminado | 6 | Polisomnografía en pacientes ventilados sedados con agonistas α2 vs. agonistas GABA. Terminado con muy pocos participantes |
-| [NCT00744380](https://clinicaltrials.gov/study/NCT00744380) | N/A | Completado | 23 | Dexmedetomidina vs. midazolam para facilitar la extubación en pacientes de UCI. No mide sueño |
-| [NCT04082767](https://clinicaltrials.gov/study/NCT04082767) | Fase 3 | Desconocido | 120 | Dexmedetomidina vs. midazolam para sedación en niños críticos ventilados. Evalúa sedación, no insomnio |
-| [NCT04149626](https://clinicaltrials.gov/study/NCT04149626) | Fase 2 | Desconocido | 60 | Sedación con dexmedetomidina, midazolam o remifentanilo en cirugía ortopédica bajo anestesia regional. Midazolam es comparador |
-| [NCT07336095](https://clinicaltrials.gov/study/NCT07336095) | Fase 3 | Aún no recluta | 195 | Melatonina oral vs. midazolam oral como premedicación en niños sometidos a amigdalectomía. El objetivo es la ansiedad |
-| [NCT06480500](https://clinicaltrials.gov/study/NCT06480500) | Fase 2 | Reclutando | 110 | TCC por internet más ketamina intravenosa para suicidalidad en depresión resistente, con midazolam como control activo |
+| [NCT02142595](https://clinicaltrials.gov/study/NCT02142595) | Fase 4 | Completado | 111 | Compara la calidad del sueño posoperatorio con dexmedetomidina vs. midazolam en resección transuretral de próstata. Contexto de sedación perioperatoria; el midazolam es comparador (evidencia indirecta). |
+| [NCT00886314](https://clinicaltrials.gov/study/NCT00886314) | N/A | Desconocido | 80 | Médicos payaso vs. premedicación sedante (midazolam) para la ansiedad de niños en cirugía. El desenlace es ansiedad, no sueño; relevancia mínima. |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | ECA | Br J Clin Pharmacol | Doble ciego en 30 mujeres con insomnio secundario a enfermedad neuromuscular. Midazolam 15 mg fue un hipnótico eficaz, mejor tolerado que Vesparax y sin causar resaca al día siguiente |
-| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | ECA | J Clin Psychopharmacol | Estudio multicéntrico doble ciego que comparó flurazepam y midazolam durante 14 días en insomnes crónicos. Evalúa sueño, desempeño y niveles plasmáticos |
-| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ECA | J Clin Psychopharmacol | Resumen ejecutivo del mismo estudio multicéntrico de 14 días con flurazepam y midazolam (sin resumen disponible) |
-| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | ECA | Arzneimittel-Forschung | Búsqueda de dosis (10-30 mg por vía oral) en 75 pacientes hospitalizados con insomnio leve a moderado. Se determinó el rango óptimo de dosis |
-| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Uso clínico de hipnóticos: las benzodiacepinas con distintos perfiles farmacocinéticos son clínicamente eficaces, y se discute la necesidad de contar con varios hipnóticos |
-| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Revisión | Orvosi Hetilap | Revisión sobre insomnio e hipoperfusión cerebral. Es contexto general y no aborda midazolam |
-| [36615100](https://pubmed.ncbi.nlm.nih.gov/36615100/) | 2022 | Otro (estudio piloto) | J Clin Med | Lemborexant para insomnio y prevención de delirio tras procedimientos endoscópicos bajo sedación profunda. Señala que las benzodiacepinas podrían aumentar el delirio |
-| [22729271](https://pubmed.ncbi.nlm.nih.gov/22729271/) | 2013 | Preclínico | Psychopharmacology | Efectos de zolpidem sobre sedación, ansiedad y memoria en modelo animal. Es evidencia de otro hipnótico |
-| [21396773](https://pubmed.ncbi.nlm.nih.gov/21396773/) | 2011 | Preclínico | Pain | Alteración del sueño en un modelo murino de dolor neuropático asociada a cambios en la transmisión GABAérgica en la corteza cingulada |
+| [2121802](https://pubmed.ncbi.nlm.nih.gov/2121802/) | 1990 | ECA | J Clin Psychopharmacol | Estudio multicéntrico, doble ciego, de 14 días en insomnes crónicos: compara sueño, desempeño y estado de ánimo con flurazepam y midazolam. |
+| [2229461](https://pubmed.ncbi.nlm.nih.gov/2229461/) | 1990 | ECA | J Clin Psychopharmacol | Resumen ejecutivo del estudio multicéntrico de flurazepam vs. midazolam en insomnio crónico (sin resumen disponible). |
+| [6120704](https://pubmed.ncbi.nlm.nih.gov/6120704/) | 1981 | ECA | Arzneimittel-Forschung | Estudio piloto de búsqueda de dosis (10–30 mg orales) en 75 pacientes hospitalizados con insomnio leve a moderado. |
+| [6138072](https://pubmed.ncbi.nlm.nih.gov/6138072/) | 1983 | Estudio clínico | Br J Clin Pharmacol | Doble ciego en 30 mujeres con insomnio secundario a enfermedad neuromuscular: midazolam 15 mg fue un hipnótico eficaz, mejor tolerado que Vesparax y sin somnolencia residual. |
+| [2883820](https://pubmed.ncbi.nlm.nih.gov/2883820/) | 1986 | Revisión | Acta Psychiatr Scand Suppl | Revisión del uso clínico de hipnóticos y de la necesidad de variedad de benzodiazepinas con distintos perfiles farmacocinéticos. |
+| [17988972](https://pubmed.ncbi.nlm.nih.gov/17988972/) | 2007 | Revisión | Orvosi Hetilap | Revisión sobre insomnio e hipoperfusión cerebral (relevancia general, no específica de midazolam). |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se registran 20 entradas de licencia. Las 5 primeras corresponden al mismo registro sanitario, por lo que se muestra una sola vez.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20198997 | RELACUM® SOLUCION INYECTABLE (Laboratorios PISA S.A. de C.V.) | Solución inyectable | Midazolam (el registro no detalla la indicación) |
+| 20198997 | RELACUM® SOLUCIÓN INYECTABLE | Solución inyectable | Midazolam (estado: cancelado) |
+| 20209565 | SERRACLINICS | Solución inyectable | Midazolam (estado: cancelado) |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se cuenta con advertencias ni contraindicaciones del registro sanitario, y no se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN, no texto de prospecto): enfermedad pulmonar obstructiva crónica (incluida la de inicio temprano grave), cirrosis hepática, glaucoma de ángulo cerrado, enfermedad renal crónica, insuficiencia renal crónica e insuficiencia renal terminal.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las principales de nivel moderado figuran morfina, claritromicina, aprepitant, bupropión, cimetidina, ranitidina, omeprazol, metoclopramida, miconazol, clotrimazol, dronabinol, nabilona, eluxadolina, teduglutida y fenilbutirato de glicerol. De nivel menor: dexametasona, betametasona, óxido de magnesio, hidróxido de aluminio y carbonato de calcio. Cabe destacar los depresores del SNC, los opioides y los inhibidores de CYP3A4.
+
+No se dispone de advertencias del prospecto; consultar el prospecto para información de seguridad adicional.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existen ECAs históricos de midazolam oral en insomnio y el mecanismo es coherente, pero esa evidencia es antigua (1981-1990). Ninguno de los 32 ensayos registrados prueba midazolam como tratamiento del insomnio, y ni la Fase 2/3 completada que exige el nivel L2 ni un ensayo Fase 3 completado en insomnio están presentes, por lo que el nivel L2 debe leerse con cautela. Además, los datos de seguridad locales faltan por completo, y la única presentación registrada en Colombia es inyectable, mientras que los ECAs usaron la vía oral.
+Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados. Además, falta la información de seguridad del prospecto, lo que impide el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha bloqueante de seguridad)
-- Confirmar el mecanismo de acción en DrugBank
-- Verificar la indicación aprobada real del registro sanitario 20198997
-- Evaluar la compatibilidad de vía de administración, dado que la presentación local es inyectable y la evidencia de insomnio es oral
-- Revisar la seguridad frente a alternativas actuales, considerando efectos residuales, tolerancia, dependencia e insomnio de rebote
-- Buscar evidencia contemporánea (ECAs recientes) que confirme la eficacia en insomnio
-
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
+- Confirmar el mecanismo de acción mediante DrugBank.
+- Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada.
+- Evaluar alternativas ya aprobadas para insomnio, dado el perfil de interacciones y las contraindicaciones.
+- Revisar evidencia más reciente que compare midazolam oral con hipnóticos actuales.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

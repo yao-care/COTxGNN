@@ -2,7 +2,7 @@
 layout: default
 title: Vitamin A
 parent: Solo Predicción del Modelo (L5)
-nav_order: 409
+nav_order: 663
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,86 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vitamin A: De Retinol (Vit A) a Deficiencia Congénita de Protrombina
+# Vitamina A: De Suplemento de Retinol a Enfermedad Perinatal
 
 ## Resumen en Una Frase
 
-La vitamina A (retinol) está registrada en Colombia como cápsulas de retinol y se usa como suplemento vitamínico.
-El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita de protrombina**, pero **ninguno de los 5 ensayos clínicos** recuperados evalúa vitamina A y **no hay publicaciones** que respalden esta dirección.
-La predicción se basa casi exclusivamente en el modelo.
+La vitamina A (retinol) está registrada en Colombia como suplemento en cápsulas de retinol (vitamina A).
+El modelo TxGNN predice que podría ser efectivo para **enfermedad congénita por deficiencia de protrombina** (primera posición del ranking), pero sin ningún ensayo clínico ni publicación que lo respalde; la indicación con mayor soporte entre las candidatas es **enfermedad perinatal**, con **1 ensayo clínico** y **múltiples revisiones sistemáticas Cochrane** centradas en bebés prematuros de muy bajo peso.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Retinol (Vit A) |
-| Nueva Indicación Predicha | Deficiencia congénita de protrombina |
+| Indicación Original | Retinol (vitamina A) |
+| Nueva Indicación Predicha | Deficiencia congénita de protrombina (rank 1 del modelo) |
 | Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L5 (para la indicación principal); la candidata con más soporte, enfermedad perinatal, alcanza L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la vitamina A (retinol) es un nutriente esencial de uso establecido en Colombia como suplemento en cápsulas. No hay datos que sustenten una acción sobre la coagulación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la vitamina A es un micronutriente liposoluble cuyos metabolitos (retinoides) actúan sobre receptores nucleares RAR/RXR y regulan la diferenciación, la proliferación y la apoptosis celular, además de la visión, la inmunidad y la integridad del epitelio.
 
-La síntesis de protrombina depende de la vitamina K, no de la vitamina A. La deficiencia congénita de protrombina es un trastorno genético de la coagulación, y no se identificó ningún vínculo mecanístico creíble entre la vitamina A y esta enfermedad.
+Para la indicación principal predicha, la deficiencia congénita de protrombina, la predicción **no parece tener sustento biológico**. Se trata de un trastorno genético de la coagulación cuya vía plausible es la síntesis de factores dependientes de la vitamina K, no de la vitamina A. El puntaje alto probablemente refleja cercanía en la red de conocimiento del modelo (por ser ambas vitaminas liposolubles) y no una relación terapéutica real.
 
-El puntaje alto de TxGNN (99.97%) no está respaldado por evidencia clínica ni bibliográfica. Probablemente refleja asociaciones generales del modelo dentro de la red de conocimiento, y no un efecto específico de la vitamina A.
+Entre las demás candidatas, la más coherente es **enfermedad perinatal**. La vitamina A es necesaria para el desarrollo y la reparación del epitelio pulmonar, y los recién nacidos prematuros nacen con reservas bajas, lo que se asocia con displasia broncopulmonar. Otras candidatas (lesión, trastorno de proliferación celular, trastorno inducido por radiación o químicos) tienen una justificación general e indirecta, y varias (malformación esofágica, displasia cemento-ósea, displasia odontomaxilar segmentaria) no tienen evidencia alguna.
 
 ## Evidencia de Ensayos Clínicos
 
+Para la indicación principal (deficiencia congénita de protrombina) no hay ensayos clínicos registrados. Los ensayos disponibles corresponden a otras candidatas:
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03534752](https://clinicaltrials.gov/study/NCT03534752) | N/A | Completado | 220 | Estudio retrospectivo de adultos con errores innatos del metabolismo en Suiza francófona; sin intervención con vitamina A |
-| [NCT02392767](https://clinicaltrials.gov/study/NCT02392767) | N/A | Completado | 25 | Suplemento combinado (L-arginina, Pycnogenol, vitamina K2, vitaminas B y ácido fólico) en hipertensión; no evalúa vitamina A |
-| [NCT04384341](https://clinicaltrials.gov/study/NCT04384341) | N/A | Completado | 448 | Pérdida ósea en hemofilia; otro trastorno de coagulación, sin intervención con vitamina A |
-| [NCT00168077](https://clinicaltrials.gov/study/NCT00168077) | Fase 3 | Completado | 40 | Concentrado de complejo de protrombina (Beriplex P/N) en deficiencia adquirida de factores por anticoagulación oral; no evalúa vitamina A ni la enfermedad congénita |
-| [NCT00562783](https://clinicaltrials.gov/study/NCT00562783) | Fase 2 | Completado | 90 | Vitalliver en cirrosis descompensada; no se puede confirmar que el agente sea vitamina A ni que aplique a un trastorno de coagulación |
-
-Ninguno de estos ensayos puede considerarse evidencia directa.
+| [NCT01203488](https://clinicaltrials.gov/study/NCT01203488) | Fase 1/2 | Completado | 807 | Vitamina A en dosis altas en recién nacidos de peso extremadamente bajo (401-1000 g), para evaluar supervivencia sin displasia broncopulmonar y riesgo de sepsis (candidata: lesión) |
+| [NCT02102711](https://clinicaltrials.gov/study/NCT02102711) | N/A | Completado | 62 | Vitamina A oral en neonatos <1500 g para prevenir displasia broncopulmonar y retinopatía del prematuro (candidata: lesión) |
+| [NCT01115478](https://clinicaltrials.gov/study/NCT01115478) | N/A | Completado | 2500 | Suplementación con zinc y/o vitamina A para reducir malaria placentaria y resultados adversos del embarazo (candidata: enfermedad perinatal; relevancia limitada) |
+| [NCT04000789](https://clinicaltrials.gov/study/NCT04000789) | N/A | Desconocido | 96 | Gotas oftálmicas de vitamina A + vitamina E + hialuronato en retinopatía diabética (candidata: trastorno de proliferación celular; relevancia baja) |
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal no hay literatura disponible. Las publicaciones más relevantes de las demás candidatas son:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [27552058](https://pubmed.ncbi.nlm.nih.gov/27552058/) | 2016 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Suplementación de vitamina A para prevenir mortalidad y morbilidad en recién nacidos de muy bajo peso |
+| [21975731](https://pubmed.ncbi.nlm.nih.gov/21975731/) | 2011 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Versión previa de la misma revisión; vitamina A y enfermedad pulmonar crónica del prematuro |
+| [17943744](https://pubmed.ncbi.nlm.nih.gov/17943744/) | 2007 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Actualización previa sobre morbilidad a corto y largo plazo en prematuros |
+| [34105132](https://pubmed.ncbi.nlm.nih.gov/34105132/) | 2021 | Metaanálisis | J Spec Oper Med | Revisa la asociación entre vitamina A y riesgo de fractura ósea (señal de seguridad) |
+| [31697447](https://pubmed.ncbi.nlm.nih.gov/31697447/) | 2019 | Revisión | Nutr Clin Pract | Papel de la vitamina A y los retinoides en la cicatrización de heridas |
+| [34181622](https://pubmed.ncbi.nlm.nih.gov/34181622/) | 2021 | Revisión sistemática | Plast Reconstr Surg | Intervenciones nutricionales en el cuidado de heridas; poca evidencia para vitaminas y minerales |
+| [40901583](https://pubmed.ncbi.nlm.nih.gov/40901583/) | 2025 | Revisión | World J Hepatol | Toxicidad de la vitamina A y patología hepática |
+| [29173522](https://pubmed.ncbi.nlm.nih.gov/29173522/) | 2017 | Revisión | Gastroenterol Clin North Am | Vitaminas y minerales en enfermedad inflamatoria intestinal; la vitamina A dio resultados decepcionantes |
+| [24419474](https://pubmed.ncbi.nlm.nih.gov/24419474/) | 2014 | Revisión | Hautarzt | Retinoides en dermatofarmacología y regulación de la proliferación celular |
+| [39233460](https://pubmed.ncbi.nlm.nih.gov/39233460/) | 2024 | Revisión | Skin Res Technol | Cosmecéuticos en fotoenvejecimiento |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19960905 | VITAMINA A CAPSULAS (C.I. Farmacápsulas S.A.S.) | Cápsula dura | Retinol (Vit A) |
-
-Se registran 20 entradas en total. Los 5 registros principales devueltos corresponden al mismo número sanitario y al mismo producto, por eso se muestran una sola vez.
+| 19960905 | VITAMINA A CAPSULAS (C.I. Farmacápsulas S.A.S.) | Cápsula dura | Retinol (vitamina A) — estado: cancelado |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento del modelo** (relaciones fármaco-enfermedad, no texto de prospecto): enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, úlcera péptica, sarcoidosis, hipercalcemia, nefrocalcinosis, nefrolitiasis, hiperoxaluria primaria, anemia falciforme, anemia hemolítica, hemocromatosis hereditaria, hemosiderosis, enfermedad de Wilson, enfermedad inflamatoria intestinal, colitis ulcerosa, gastroenteritis, hipervitaminosis y arteriosclerosis obliterante, entre otras.
+- **Interacciones farmacológicas** (68 registradas): las de nivel **mayor** incluyen retinoides (isotretinoína, acitretina, tretinoína) y tetraciclinas (doxiciclina, tetraciclina, minociclina, omadaciclina, demeclociclina, eravaciclina, oxitetraciclina, sarecyclina). De nivel **moderado**: bexaroteno, colestiramina, colesevelam, colestipol, sevelámero y selpercatinib. De nivel **menor**: orlistat.
+- **Señales de la literatura**: la vitamina A en exceso es teratogénica y se asocia con toxicidad hepática y mayor riesgo de fracturas óseas, lo que es especialmente relevante en candidatas del desarrollo (malformaciones) y en el embarazo.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo cuenta con el puntaje del modelo (nivel L5). No hay ensayos que evalúen vitamina A, no hay literatura, y la biología de la protrombina depende de la vitamina K, por lo que no existe un vínculo mecanístico creíble.
+La indicación con mayor puntaje del modelo (deficiencia congénita de protrombina) carece de evidencia y de plausibilidad biológica. La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (consulta a DrugBank), actualmente ausentes.
-- Advertencias y contraindicaciones del prospecto de INVIMA, actualmente no disponibles y pendientes para cualquier tamizaje de seguridad.
-- Evidencia preclínica o clínica directa de vitamina A en trastornos de la coagulación. Sin ella, no se recomienda continuar con esta indicación.
-
-**Nota:** en este mismo Evidence Pack, la indicación predicha en 7.º lugar, *enfermedad perinatal*, tiene evidencia de nivel L1 (Fase 3 y revisiones Cochrane) y decisión *Proceed with Guardrails*. Corresponde a un uso nutricional ya establecido, en poblaciones específicas como recién nacidos de muy bajo peso, y no a un reposicionamiento nuevo. Conviene evaluarla en un informe aparte.
+- Obtener las advertencias y contraindicaciones del prospecto en INVIMA (brecha bloqueante para el tamizaje de seguridad).
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Verificar los ensayos clínicos aleatorizados primarios detrás de las revisiones Cochrane, porque el nivel L1 de enfermedad perinatal se basa en esas revisiones y no en ensayos incluidos en los datos.
+- Delimitar la indicación perinatal a una condición concreta (por ejemplo, displasia broncopulmonar en prematuros de muy bajo peso) y evaluar la vía de administración (intramuscular) y su viabilidad.
+- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

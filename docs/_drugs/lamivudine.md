@@ -2,7 +2,7 @@
 layout: default
 title: Lamivudine
 parent: Evidencia Moderada (L3-L4)
-nav_order: 237
+nav_order: 374
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Lamivudina: De Infección por VIH/Hepatitis B a Infección por Virus de Inmunodeficiencia Símica (SIV)
+# Lamivudina: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia de los Simios
 
 ## Resumen en Una Frase
 
-Lamivudina es un inhibidor nucleósido de la transcriptasa inversa, usado en humanos contra el VIH-1 y la hepatitis B crónica.
-El modelo TxGNN predice que podría ser efectiva para la **infección por el virus de inmunodeficiencia símica (SIV)**, con **0 ensayos clínicos** y **20 publicaciones** (todas preclínicas, en macacos o in vitro, o revisiones). SIV es una enfermedad de modelo animal, así que esta señal respalda de forma indirecta el uso ya aprobado en VIH y no abre una oportunidad nueva en humanos.
+Lamivudina es un inhibidor nucleósido de la transcriptasa inversa, registrado en Colombia solo o en combinación con otros antirretrovirales (abacavir, dolutegravir, tenofovir y doravirina).
+El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de la inmunodeficiencia de los simios (SIV)**, con **0 ensayos clínicos** y **15 publicaciones** (todas preclínicas, de revisión o indirectas) que respaldan esta dirección. Es una indicación de modelo animal, no un uso terapéutico humano.
 
 ---
 
@@ -42,23 +42,25 @@ El modelo TxGNN predice que podría ser efectiva para la **infección por el vir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo dice "LAMIVUDINA" (sin indicación específica). Uso conocido: VIH-1 y hepatitis B crónica |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia símica (SIV) |
+| Indicación Original | Lamivudina (solo y en combinaciones con abacavir, tenofovir/doravirina y abacavir/dolutegravir) |
+| Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios (SIV) |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, lamivudina es un inhibidor nucleósido de la transcriptasa inversa (NRTI). Su eficacia en VIH-1 y hepatitis B está comprobada, y mecanísticamente podría ser aplicable al SIV.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, lamivudina es un inhibidor nucleósido de la transcriptasa inversa (NRTI) con actividad contra la transcriptasa inversa del VIH, y su eficacia en la infección por VIH está establecida como parte de regímenes combinados.
 
-El SIV es un lentivirus muy cercano al VIH y también depende de la transcriptasa inversa para replicarse. Por eso es biológicamente plausible que un NRTI lo inhiba. De hecho, el SIV en macacos se usa como modelo experimental del VIH: en estos estudios se ha visto que la mutación M184V, que confiere resistencia a lamivudina, aparece rápidamente en el SIV, igual que en pacientes con VIH-1.
+El SIV es un lentivirus muy cercano al VIH y posee una transcriptasa inversa homóloga, por lo que la actividad de lamivudina es mecanísticamente plausible. Los estudios en macacos describen la mutación de resistencia M184V en la transcriptasa inversa del SIV (la mutación clásica de resistencia a lamivudina) y muestran supresión viral con regímenes antirretrovirales combinados.
 
-Sin embargo, la evidencia proviene de estudios en animales y de laboratorio, en gran parte con combinaciones de varios antirretrovirales. Sirve para entender el fármaco, pero no constituye una nueva indicación para pacientes.
+Es importante precisar que se trata de una indicación de modelo animal/veterinario: no constituye un uso terapéutico humano y no existen ensayos clínicos en humanos. Además, en los estudios con combinaciones no se puede aislar la contribución individual de lamivudina.
+
+Otras predicciones del modelo tienen un respaldo menor: la infección por el virus de la inmunodeficiencia felina (FIV, evidencia veterinaria y preclínica, L4), la hepatitis C crónica (sin vínculo mecanístico esperado, ya que el VHC no usa transcripción inversa) y dos enfermedades (un trastorno del neurodesarrollo raro y una hiperlipidemia familiar combinada obsoleta) sin vínculo mecanístico ni literatura (L5).
 
 ---
 
@@ -70,20 +72,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-No hay ensayos aleatorizados. La evidencia son estudios animales, estudios in vitro y revisiones.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Estudio animal | AIDS | Evalúa la profilaxis posexposición con zidovudina, lamivudina e indinavir tras exposición vaginal en macacos |
-| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Estudio animal/in vitro | J Virol | La mutación M184V (resistencia a lamivudina) surge en 5 semanas en macacos recién nacidos y reduce la aptitud viral del SIV |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Estudio animal | J Virol | Rápido descenso viral en macacos infectados con SIV tratados con terapia antirretroviral cuádruple |
-| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Estudio animal | J Virol | Efavirenz, lamivudina y tenofovir suprimen la carga viral en macacos infectados con RT-SHIV |
-| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Estudio animal/in vitro | J Virol | Tenofovir selecciona la reversión de M184V en el SIV, incluso con lamivudina presente |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | Estudio in vitro | Antivir Ther | Compara la sensibilidad de VIH-2, SIV y SHIV a 16 antivirales aprobados |
-| [20868521](https://pubmed.ncbi.nlm.nih.gov/20868521/) | 2010 | Estudio animal | Retrovirology | El efecto de un tratamiento antirretroviral corto sobre la carga de SIV en tejidos depende del momento de inicio |
-| [22615988](https://pubmed.ncbi.nlm.nih.gov/22615988/) | 2012 | Estudio animal | PLoS One | Impacto del tratamiento corto sobre la infección por SIV de los órganos genitales masculinos |
-| [14610172](https://pubmed.ncbi.nlm.nih.gov/14610172/) | 2003 | Estudio animal | J Virol | Cinética de proliferación linfocitaria en macacos con SIV y efecto preliminar de la terapia temprana (vínculo con el fármaco poco claro) |
-| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Revisión | Curr Opin HIV AIDS | Revisión sobre islatravir en VIH-1 (lamivudina no es el tema central) |
+| [12021341](https://pubmed.ncbi.nlm.nih.gov/12021341/) | 2002 | Preclínico | J Virol | En macacos neonatos infectados con SIVmac251 tratados con lamivudina o emtricitabina, la mutación M184V surgió en 5 semanas, reproduciendo la resistencia observada en humanos |
+| [19240457](https://pubmed.ncbi.nlm.nih.gov/19240457/) | 2009 | Preclínico | AIDS | Profilaxis posexposición con zidovudina, lamivudina e indinavir para prevenir la transmisión vaginal de SIV en macacos |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclínico | J Virol | Decaimiento viral rápido en macacos infectados con SIV tratados con terapia antirretroviral cuádruple |
+| [12502828](https://pubmed.ncbi.nlm.nih.gov/12502828/) | 2003 | Preclínico | J Virol | La reversión de M184V en la transcriptasa inversa del SIV es seleccionada por tenofovir, incluso con lamivudina presente |
+| [15919889](https://pubmed.ncbi.nlm.nih.gov/15919889/) | 2005 | Preclínico | J Virol | Supresión de la carga viral con efavirenz, lamivudina y tenofovir en macacos infectados con un SIV quimérico (RT-SHIV) |
+| [31658118](https://pubmed.ncbi.nlm.nih.gov/31658118/) | 2020 | Revisión | Curr Opin HIV AIDS | Revisión sobre islatravir para tratamiento y prevención del VIH-1 (relevancia indirecta) |
+| [17045247](https://pubmed.ncbi.nlm.nih.gov/17045247/) | 2007 | Revisión | Biochem Pharmacol | Revisión de fosfonatos nucleósidos acíclicos frente a VIH, VHB, VHC y otros virus (relevancia indirecta) |
+| [39509655](https://pubmed.ncbi.nlm.nih.gov/39509655/) | 2024 | Epidemiología | AIDS Rev | Carga de las epidemias de VIH-1 y VIH-2 en Costa de Marfil; los SIV son precursores biológicos del VIH (relevancia indirecta) |
 
 ---
 
@@ -91,15 +89,21 @@ No hay ensayos aleatorizados. La evidencia son estudios animales, estudios in vi
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19990398 | LAMIVUDINA 10 MG/ML SOLUCIÓN ORAL (Aurobindo Pharma Limited, Unit III) | Solución oral | LAMIVUDINA (sin indicación específica en el registro) |
+| 19990398 | Lamivudina 10 mg/mL solución oral | Solución oral | Lamivudina |
+| 20085320 | Abacavir 600 mg + Lamivudina 300 mg tabletas recubiertas | Tableta recubierta | Lamivudina y abacavir |
+| 20160000 | Delstrigo® tabletas recubiertas | Tableta recubierta | Lamivudina, tenofovir disoproxilo y doravirina |
+| 20081132 | Triumeq® 50 mg / 600 mg / 300 mg | Tableta recubierta | Lamivudina, abacavir y dolutegravir |
 
-Los datos traen 5 entradas idénticas de este mismo registro, por lo que se muestra una sola. En total se reportan 20 registros sanitarios, con formas orales de solución y tableta recubierta.
+Los cuatro registros figuran como cancelados.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / enfermedades de riesgo (según el grafo de conocimiento del modelo, no texto de prospecto)**: insuficiencia hepática, enfermedad renal, pancreatitis, enfermedades hepáticas y de la vesícula biliar, miopatías y miositis, neutropenia, agranulocitosis, anemia, hipertrigliceridemia, hígado graso, acidosis láctica, entre otras.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Las de nivel moderado incluyen lactitol, manitol, naltrexona, orlistat y sorbitol. Otras (por ejemplo metformina, omeprazol, morfina, cimetidina y vancomicina) figuran con nivel de gravedad desconocido.
+
+Consultar el prospecto para información de seguridad adicional.
 
 ---
 
@@ -108,12 +112,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para SIV y toda la evidencia es preclínica (L4). Además, el SIV es una enfermedad animal, por lo que no representa una nueva indicación humana. Lamivudina ya está comercializada en Colombia para sus usos aprobados. Las otras predicciones del modelo (SIDA felino, hepatitis C crónica y dos trastornos raros) también quedan en Hold.
+La predicción se apoya únicamente en estudios preclínicos en macacos, sin ensayos clínicos, y corresponde a un modelo animal sin aplicación terapéutica humana. Además, lamivudina no tiene registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el cribado de seguridad)
-- Obtener el mecanismo de acción desde DrugBank
-- Definir si existe algún objetivo humano relevante; de lo contrario, considerar esta predicción solo como respaldo del uso ya aprobado en VIH
+- Definir si existe un objetivo de investigación relevante (por ejemplo, uso como herramienta en modelos animales) o si la predicción debe descartarse para uso humano
+- Datos del mecanismo de acción confirmados a partir de fuentes como DrugBank
+- Advertencias y contraindicaciones del prospecto oficial de INVIMA
+- Aclarar la situación regulatoria (registros cancelados) si se considerara cualquier uso en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

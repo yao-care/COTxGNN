@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clofarabine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 133
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 168
+evidence_level: L1
 indication_count: 10
 ---
 
 # Clofarabine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,126 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clofarabina: De Leucemia Linfoblástica Aguda Pediátrica Recidivante/Refractaria a Leucemia Mieloide
+# Clofarabina: De CLOFARABINA (registro INVIMA) a Leucemia Mieloide
 
 ## Resumen en Una Frase
 
-Clofarabina es un análogo de nucleósidos de purina, usado originalmente en pacientes pediátricos con leucemia linfoblástica aguda (LLA) recidivante o refractaria.
-El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**,
-con **50 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Clofarabina es un análogo de nucleósidos de purina, registrado en Colombia bajo la indicación "CLOFARABINA" (sin detalle de indicación en el texto del registro) y utilizado en la práctica clínica para la leucemia linfoblástica aguda (LLA) pediátrica refractaria o recidivante.
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con un puntaje de 99.88%.
+Esta dirección está respaldada por **43 ensayos clínicos** (incluidos 2 de Fase 3 completados) y **20 publicaciones** compiladas para este informe.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El texto del registro INVIMA solo dice "CLOFARABINA", sin indicación explícita. Según la farmacología: LLA pediátrica recidivante/refractaria |
+| Indicación Original | CLOFARABINA (el registro INVIMA no detalla la indicación; en la literatura, LLA pediátrica refractaria/recidivante) |
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 99.88% |
-| Nivel de Evidencia | L1 (por regla: 2 ensayos Fase 3 completados; el Evidence Pack asigna L2, ver nota abajo) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 10 |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-> **Nota sobre el nivel de evidencia:** los ensayos Fase 3 completados NCT01471444 y NCT02085408 cumplen el criterio L1, pero su relevancia aún está pendiente de revisión manual en el Evidence Pack, que por eso asigna L2. Conviene confirmar los resultados antes de sostener L1.
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El campo original de mecanismo de acción viene vacío en el Evidence Pack. Aun así, la farmacología y la literatura permiten describirlo. Clofarabina es un análogo de nucleósidos de purina de segunda generación, diseñado para reunir las mejores cualidades de fludarabina y cladribina. Inhibe la ribonucleótido reductasa (blancos RRM1 y RRM2) y la ADN polimerasa. Esto reduce los desoxinucleótidos disponibles para replicar el ADN, e induce apoptosis.
+Los datos compilados no incluyen el mecanismo de acción registrado para este fármaco. Según la farmacología conocida, la clofarabina es un análogo de desoxiadenosina de segunda generación. Su metabolito trifosfato inhibe la ribonucleótido reductasa (subunidades RRM1 y RRM2, ambas confirmadas como dianas en los datos de farmacología) y las ADN polimerasas, además de alterar la función mitocondrial e inducir apoptosis en células en proliferación.
 
-La LLA y la leucemia mieloide son leucemias agudas de células blásticas en proliferación rápida. Un fármaco que bloquea la síntesis de ADN debería actuar sobre ambas. Esto es coherente con la evidencia: clofarabina se ha estudiado en leucemia mieloide aguda (LMA) y síndromes mielodisplásicos, sola o combinada con citarabina, idarrubicina, daunorrubicina y regímenes de acondicionamiento para trasplante.
+La leucemia linfoblástica aguda y la leucemia mieloide son neoplasias hematológicas con blastos de proliferación rápida, sensibles a antimetabolitos que interrumpen la síntesis de ADN. Por ello, el mecanismo es directamente relevante para las neoplasias mieloides, y la clofarabina ya se usa fuera de su indicación aprobada en LMA recidivante o refractaria en adultos.
 
-Este razonamiento mecanístico se apoya en farmacología conocida y en la literatura, no en el campo MOA de la fuente. El puntaje TxGNN (0.9988) coincide con la señal clínica observada.
+El puntaje TxGNN muy alto (0.9988) es coherente con la evidencia clínica disponible, que incluye ensayos de Fase 2 y Fase 3 en LMA.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran 10 de 50 ensayos, priorizando Fase 3 y los relacionados directamente con LMA.
+Se muestran los ensayos más relevantes (de un total de 43 registrados para esta indicación):
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Fase 3 | Completado | 727 | Clofarabina como inducción y postremisión vs. daunorrubicina + citarabina, seguido de decitabina oNo, en LMA de novo en mayores de 60 años |
-| [NCT01471444](https://clinicaltrials.gov/study/NCT01471444) | Fase 3 | Completado | 256 | Aleatorizado: fludarabina-clofarabina vs. fludarabina sola con busulfán IV antes de trasplante alogénico en LMA/SMD |
-| [NCT05477589](https://clinicaltrials.gov/study/NCT05477589) | Fase 3 | Reclutando | 170 | CloFluBu vs. BuCyMel como acondicionamiento en niños con LMA sometidos a trasplante alogénico |
-| [NCT00932412](https://clinicaltrials.gov/study/NCT00932412) | Fase 2 | Completado | 735 | Clofarabina/citarabina intermedia (CLARA) vs. citarabina en dosis altas como consolidación en LMA de novo en jóvenes |
-| [NCT01252667](https://clinicaltrials.gov/study/NCT01252667) | Fase 2 | Completado | 44 | Clofarabina con TBI en dosis baja para reducir recaídas tras trasplante en LMA |
-| [NCT00814164](https://clinicaltrials.gov/study/NCT00814164) | Fase 2 | Terminado | 21 | Clofarabina + daunorrubicina en LMA nueva en ≥60 años, con evaluación de mecanismos de resistencia |
-| [NCT00088218](https://clinicaltrials.gov/study/NCT00088218) | Fase 2 | Completado | 95 | Clofarabina sola vs. combinada con citarabina en dosis baja en LMA y SMD de alto riesgo sin tratamiento previo, ≥60 años |
-| [NCT00042354](https://clinicaltrials.gov/study/NCT00042354) | Fase 2 | Completado | 40 | Clofarabina en LMA pediátrica recidivante o refractaria |
-| [NCT00299156](https://clinicaltrials.gov/study/NCT00299156) | Fase 2 | Completado | 65 | Clofarabina oral semanal en síndrome mielodisplásico (neoplasia mieloide relacionada) |
-| [NCT01041508](https://clinicaltrials.gov/study/NCT01041508) | Fase 1 | Completado | 18 | Viabilidad de clofarabina con TBI en dosis baja como acondicionamiento no mieloablativo |
+| [NCT02085408](https://clinicaltrials.gov/study/NCT02085408) | Fase 3 | Completado | 727 | Clofarabina como inducción y postremisión frente a daunorrubicina + citarabina estándar, seguida de decitabina u observación, en LMA recién diagnosticada en mayores de 60 años |
+| [NCT00317642](https://clinicaltrials.gov/study/NCT00317642) | Fase 3 | Completado | 326 | Clofarabina + citarabina frente a citarabina sola, doble ciego, en LMA recidivante/refractaria en mayores de 55 años |
+| [NCT01295307](https://clinicaltrials.gov/study/NCT01295307) | Fase 2 | Completado | 86 | Clofarabina como terapia de rescate en LMA recidivante o refractaria |
+| [NCT00067028](https://clinicaltrials.gov/study/NCT00067028) | Fase 2 | Completado | 116 | Clofarabina con citarabina y/o idarrubicina en LMA recidivante, SMD de alto grado o crisis blástica de LMC |
+| [NCT00469014](https://clinicaltrials.gov/study/NCT00469014) | Fase 2 | Completado | 72 | Busulfán-fludarabina-clofarabina con trasplante alogénico en LMA avanzada refractaria, SMD y LMC |
+| [NCT01193400](https://clinicaltrials.gov/study/NCT01193400) | Fase 2 | Terminado | 75 | Inducción y consolidación con clofarabina + citarabina a dosis bajas en LMA de 60 años o más |
+| [NCT01101880](https://clinicaltrials.gov/study/NCT01101880) | Fase 2 | Completado | 50 | Clofarabina con citarabina a dosis altas y G-CSF en LMA recién diagnosticada o SMD avanzado |
+| [NCT00044889](https://clinicaltrials.gov/study/NCT00044889) | Fase 2 | Completado | 40 | Clofarabina en monoterapia en LMA refractaria o recidivante de adultos |
+| [NCT01643668](https://clinicaltrials.gov/study/NCT01643668) | Fase 2 | Completado | 34 | Acondicionamiento de intensidad reducida con busulfán/clofarabina antes de trasplante alogénico |
+| [NCT01160354](https://clinicaltrials.gov/study/NCT01160354) | Fase 1/2 | Terminado | 22 | Plerixafor + clofarabina en LMA no tratada en mayores de 60 años; cerrado antes de la parte 2 |
+
+---
 
 ## Evidencia de Literatura
 
-Se muestran 10 de 20 publicaciones. Hay un ECA Fase 3 y no se recuperaron reportes de caso relevantes.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31246522](https://pubmed.ncbi.nlm.nih.gov/31246522/) | 2019 | ECA Fase 3 | J Clin Oncol | Ensayo AML08: clofarabina puede sustituir antraciclinas y etopósido en la inducción de LMA infantil, con menor exposición a estos fármacos |
-| [32187883](https://pubmed.ncbi.nlm.nih.gov/32187883/) | 2020 | Estudio Fase 2 | Cancer Med | Clofarabina + citarabina + mitoxantrona (CLAM) en LMA refractaria/recidivante: altas tasas de respuesta y buen puente al trasplante |
-| [31637757](https://pubmed.ncbi.nlm.nih.gov/31637757/) | 2020 | Fase I/II | Am J Hematol | Clofarabina con TBI de 2 Gy como acondicionamiento no mieloablativo en adultos con LMA no aptos para regímenes intensos |
-| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Cohorte | Transplant Cell Ther | Clofarabina + busulfán (acondicionamiento mieloablativo) en neoplasias mieloides activas |
-| [40746302](https://pubmed.ncbi.nlm.nih.gov/40746302/) | 2025 | Fase I/II | Br J Haematol | Bisantreno + fludarabina + clofarabina como rescate en 21 pacientes con LMA refractaria o recidivante |
-| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Revisión | Leuk Lymphoma | Papel de clofarabina en LMA; inhibe ribonucleótido reductasa y ADN polimerasa, con mayor estabilidad que sus precursores |
-| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Revisión | Crit Rev Oncol Hematol | Clofarabina en adultos con LMA: desarrollo en monoterapia y estrategias de combinación en primera y segunda línea |
-| [19852733](https://pubmed.ncbi.nlm.nih.gov/19852733/) | 2009 | Revisión | Future Oncol | Actividad significativa en LMA del adulto; podría integrarse a regímenes de inducción y consolidación |
-| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Revisión | Leuk Lymphoma | Tres mecanismos propuestos (inhibición de la ribonucleótido reductasa, incorporación al ADN, apoptosis) y sinergia esperada con otros agentes |
-| [16316309](https://pubmed.ncbi.nlm.nih.gov/16316309/) | 2005 | Revisión | Expert Opin Pharmacother | Actividad como agente único en leucemias agudas (LMA y LLA) |
+| [22957815](https://pubmed.ncbi.nlm.nih.gov/22957815/) | 2013 | Revisión | Leukemia & Lymphoma | Papel de la clofarabina en LMA; inhibe la ribonucleótido reductasa y la ADN polimerasa, con mayor resistencia a la desaminación que sus precursores |
+| [25457773](https://pubmed.ncbi.nlm.nih.gov/25457773/) | 2015 | Revisión | Critical Reviews in Oncology/Hematology | Clofarabina en LMA de adultos: monoterapia y estrategias de combinación en primera y segunda línea |
+| [22170975](https://pubmed.ncbi.nlm.nih.gov/22170975/) | 2012 | Revisión | Annals of Pharmacotherapy | Eficacia y tolerabilidad en LMA no tratada de adultos mayores |
+| [19852733](https://pubmed.ncbi.nlm.nih.gov/19852733/) | 2009 | Revisión | Future Oncology | Actividad significativa en LMA; combinación segura con otros agentes |
+| [19463072](https://pubmed.ncbi.nlm.nih.gov/19463072/) | 2009 | Revisión | Expert Opin Pharmacother | Nueva opción de tratamiento en LMA |
+| [16316309](https://pubmed.ncbi.nlm.nih.gov/16316309/) | 2005 | Revisión | Expert Opin Pharmacother | Actividad como agente único en leucemias agudas |
+| [21591997](https://pubmed.ncbi.nlm.nih.gov/21591997/) | 2011 | Revisión | Expert Opin Investig Drugs | Uso en síndromes mielodisplásicos; posible efecto sobre la metilación del ADN a dosis bajas |
+| [36336258](https://pubmed.ncbi.nlm.nih.gov/36336258/) | 2023 | Estudio clínico | Transplantation and Cellular Therapy | Acondicionamiento mieloablativo clofarabina + busulfán en neoplasias mieloides activas |
+| [24081220](https://pubmed.ncbi.nlm.nih.gov/24081220/) | 2014 | Reporte de caso | J Oncol Pharm Pract | Toxicidad renal inducida por clofarabina en un paciente con LMA refractaria |
+| [17852710](https://pubmed.ncbi.nlm.nih.gov/17852710/) | 2007 | Revisión | Leukemia & Lymphoma | Tres mecanismos propuestos: inhibición de la ribonucleótido reductasa, incorporación al ADN e inducción de apoptosis |
+
+---
 
 ## Información de Mercado en Colombia
 
-El Evidence Pack lista 5 entradas, todas idénticas, del mismo registro. Se presentan una sola vez.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20137192 | RELUKA® Solución Concentrada para Infusión Inyectable (MSN Laboratories Private Limited) | Solución concentrada para infusión | Solo figura "CLOFARABINA" (sin texto de indicación) |
+| 20137192 | RELUKA® Solución concentrada para infusión inyectable | Solución concentrada para infusión | CLOFARABINA (cancelado) |
+| 20094735 | CLOFAZIC® 20MG/20ML | Solución inyectable | CLOFARABINA (cancelado) |
 
-También se registra la forma "solución inyectable" entre las presentaciones disponibles.
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de nucleósidos de purina) |
-| Riesgo de Mielosupresión | Alto, esperable en este tipo de antimetabolito. Un estudio español (PMID 22431002) reporta toxicidades hematológicas e infecciosas de grado >3 |
-| Clasificación de Emetogenicidad | Sin datos en el Evidence Pack. Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal (monitoreo general para citotóxicos) |
+| Riesgo de Mielosupresión | Alto: la literatura y las contraindicaciones del grafo de conocimiento señalan neutropenia, trombocitopenia, anemia y agranulocitosis como riesgos relevantes |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática (incluida bilirrubina), función renal, presión arterial y signos de síndrome de fuga capilar |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta de DDI se completó, pero las 2 entradas son blancos farmacológicos (RRM1 y RRM2), no interacciones con otros medicamentos. Un estudio de farmacocinética (NCT01169012) evaluó el efecto de cimetidina sobre el aclaramiento de clofarabina.
-- **Otras señales de la literatura**: se reportó un caso pediátrico de hipersensibilidad con desensibilización exitosa (PMID 34907607).
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados. Se presenta la siguiente información complementaria:
 
-Consultar el prospecto para advertencias y contraindicaciones. El prospecto de INVIMA aún no se ha revisado.
+- **Condiciones asociadas a contraindicación según el grafo de conocimiento (no proviene del prospecto)**: enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia (incluida la macrocítica), hiperbilirrubinemia (incluido el síndrome de Gilbert), trastornos hipotensivos, insuficiencia renal, uremia, síndrome de fuga capilar, infecciones (incluidas las fúngicas y la dermatofitosis).
+- **Interacciones y dianas farmacológicas**: no se registraron interacciones con otros fármacos. Se identificaron como dianas la subunidad catalítica M1 (RRM1) y la subunidad reguladora M2 (RRM2) de la ribonucleótido reductasa.
+- **Toxicidad renal**: la literatura describe un caso de lesión renal asociada a clofarabina en un adulto con LMA refractaria.
+
+Consultar el prospecto para la información de seguridad completa.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay abundante evidencia clínica en leucemia mieloide, incluidos dos ensayos Fase 3 completados, un ECA Fase 3 publicado en LMA infantil y múltiples estudios Fase 2. Además, el mecanismo es coherente y el fármaco ya está comercializado en Colombia. Sin embargo, la mayoría de los estudios son combinaciones o regímenes de acondicionamiento, y no se dispone de los datos de seguridad del prospecto local.
+Dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y múltiples estudios de Fase 2 respaldan la actividad de la clofarabina en leucemia mieloide, y el mecanismo es directamente relevante. Sin embargo, no hay registros sanitarios vigentes en Colombia y el perfil de toxicidad (mielosupresión, daño hepático y renal, fuga capilar) exige salvaguardas.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), el vacío que hoy bloquea el tamizaje de seguridad.
-- Confirmar la indicación efectivamente aprobada en el registro 20137192, porque el texto solo dice "CLOFARABINA".
-- Revisar los resultados de NCT02085408 y NCT01471444 para consolidar el nivel de evidencia (L1 o L2).
-- Definir la población objetivo (adultos mayores, pediátrica o acondicionamiento pre-trasplante) y un plan de monitoreo hematológico.
-- Tener en cuenta que la LLA, otra indicación predicha, ya está en la indicación original del fármaco, así que su novedad como reposicionamiento es limitada.
+- Verificar los resultados publicados de los dos ensayos de Fase 3, ya que los datos compilados no incluyen desenlaces de eficacia ni supervivencia.
+- Obtener el prospecto actualizado en INVIMA para completar el análisis de advertencias y contraindicaciones (brecha crítica de datos).
+- Confirmar el mecanismo de acción en DrugBank.
+- Definir la vía regulatoria en Colombia, dado que ambos registros están cancelados.
+- Diseñar un plan de monitoreo hematológico, hepático y renal, con criterios de exclusión basados en las condiciones señaladas por el grafo de conocimiento.
+
+---
+
+**Nota sobre otras indicaciones predichas:** La leucemia linfoblástica aguda (nivel L2) y la crisis blástica de leucemia mieloide crónica (nivel L2) también cuentan con evidencia de Fase 2. Neuroblastoma (L4) y las demás predicciones, como ganglioneuroblastoma y los subtipos de leucemia linfocítica crónica (L5), carecen de evidencia específica y quedan en espera (Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

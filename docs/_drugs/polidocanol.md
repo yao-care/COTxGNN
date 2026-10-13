@@ -2,7 +2,7 @@
 layout: default
 title: Polidocanol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 328
+nav_order: 522
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,95 +29,97 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Polidocanol: De Várices de Miembros Inferiores a Várices Esofágicas con Sangrado
+# Polidocanol: De Indicación No Especificada a Várices Esofágicas con Sangrado
 
 ## Resumen en Una Frase
 
-Polidocanol es un agente esclerosante inyectable, cuyo uso aprobado descrito en la literatura es el tratamiento de várices y venas arácnidas de las piernas.
+Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia (actualmente cancelados), pero cuyo texto de indicación aprobada no detalla un uso clínico específico.
 El modelo TxGNN predice que podría ser efectivo para **várices esofágicas con sangrado**,
-con **7 ensayos clínicos** y **20 publicaciones** asociados a esta dirección. Solo 1 de esos ensayos prueba directamente lauromacrogol (polidocanol) en várices esofágicas, y la mayor parte de la literatura es antigua.
+con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro INVIMA (el texto solo dice «POLIDOCANOL»). La literatura describe su uso aprobado en várices y venas arácnidas |
+| Indicación Original | Polidocanol (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Várices esofágicas con sangrado |
 | Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L2 (ver nota abajo) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
+| Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la sección de literatura) |
+| Estado de Mercado en Colombia | Solo cancelados |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
-> **Nota sobre el nivel de evidencia:** el paquete de evidencia asigna L1, pero solo hay un ensayo de Fase 3 completado (NCT00161915), y no se puede confirmar que incluya un brazo de polidocanol. Por eso no se cumple el criterio de L1 (≥2 ECAs de Fase 3 completados) y se asigna L2. La literatura incluye varios ECAs, pero son antiguos (1989-1999).
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos de mecanismo de acción en DrugBank. Aun así, el mecanismo de polidocanol está bien establecido: es un detergente esclerosante. Inyectado dentro o junto a una várice, daña el endotelio y provoca trombosis y fibrosis, con lo que obstruye el vaso.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento establecido en la literatura, polidocanol es un esclerosante de tipo detergente que daña el endotelio vascular, provocando trombosis y fibrosis del vaso en el que se inyecta.
 
-Es el mismo mecanismo de su uso comercializado en várices de las piernas. Las várices esofágicas también son vasos dilatados que se pueden obliterar por esclerosis. La escleroterapia endoscópica de várices esofágicas, incluida la que usa lauromacrogol (el mismo compuesto que polidocanol), es una práctica clínica de larga data.
+La escleroterapia endoscópica de várices esofágicas aplica directamente este mecanismo para obliterar las várices que sangran. Por ello, la predicción del modelo es mecanísticamente coherente. Cabe señalar que no se trata de una señal novedosa de reposicionamiento: es un uso clínico ya establecido (incluido el uso fuera de indicación en algunas regiones) y descrito en publicaciones desde la década de 1980.
 
-Por eso, el puntaje alto de TxGNN refleja en gran medida un uso ya conocido, más que un hallazgo nuevo. La práctica actual favorece la ligadura con bandas, y el papel de polidocanol frente a ella requiere confirmación comparativa.
+Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualquier plan de uso.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02361593](https://clinicaltrials.gov/study/NCT02361593) | No aplica | Completado | 120 | Escleroterapia endoscópica con lauromacrogol asistida por capuchón transparente en várices esofágicas. Es el único ensayo que prueba el fármaco directamente en la indicación |
-| [NCT00161915](https://clinicaltrials.gov/study/NCT00161915) | Fase 3 | Completado | No reportada | Sellante de fibrina vs. ligadura (con o sin polidocanol) para hemostasia y prevención de resangrado en várices esofágicas sangrantes |
-| [NCT01923064](https://clinicaltrials.gov/study/NCT01923064) | No aplica | Completado | 96 | Cianoacrilato con lipiodol vs. cianoacrilato con lauromacrogol en várices gástricas. Apoyo indirecto |
-| [NCT02468206](https://clinicaltrials.gov/study/NCT02468206) | No aplica | Completado | 64 | Cianoacrilato vs. BRTO para prevenir resangrado de várices gástricas. Solo contexto |
-| [NCT02468167](https://clinicaltrials.gov/study/NCT02468167) | No aplica | Desconocido | 70 | Cianoacrilato vs. BRTO en sangrado agudo de várices gástricas. Solo contexto |
-| [NCT02468180](https://clinicaltrials.gov/study/NCT02468180) | No aplica | Desconocido | 70 | Profilaxis primaria de sangrado de várices gástricas: cianoacrilato vs. BRTO. Solo contexto |
-| [NCT05500625](https://clinicaltrials.gov/study/NCT05500625) | No aplica | Desconocido | 70 | Coil guiado por ecoendoscopia más cianoacrilato vs. BRTO en várices gástricas. Solo contexto |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
+Se priorizan los estudios aleatorizados, seguidos de revisiones y otros diseños.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [9255525](https://pubmed.ncbi.nlm.nih.gov/9255525/) | 1997 | ECA | Endoscopy | Estudio prospectivo en pacientes cirróticos con várices esofágicas sangrantes: cianoacrilato más polidocanol o polidocanol solo, en manejo de emergencia y a largo plazo |
-| [2693076](https://pubmed.ncbi.nlm.nih.gov/2693076/) | 1989 | ECA | Endoscopy | Etanolamina vs. polidocanol en 50 pacientes cirróticos. Erradicación de várices: 81% con etanolamina y 64.1% con polidocanol (diferencia no significativa) |
-| [9514542](https://pubmed.ncbi.nlm.nih.gov/9514542/) | 1998 | Estudio comparativo | J Hepatol | Pegamento de fibrina vs. polidocanol para prevenir el resangrado temprano de várices esofágicas |
-| [10385713](https://pubmed.ncbi.nlm.nih.gov/10385713/) | 1999 | ECA | Gastrointest Endosc | Ligadura sola vs. ligadura combinada con escleroterapia en várices esofágicas sangrantes |
-| [10376453](https://pubmed.ncbi.nlm.nih.gov/10376453/) | 1999 | ECA | Endoscopy | Ligadura combinada con escleroterapia vs. ligadura sola para erradicar más rápido las várices sangrantes |
-| [35879573](https://pubmed.ncbi.nlm.nih.gov/35879573/) | 2022 | Estudio prospectivo aleatorizado | Surg Endosc | Escleroterapia con compresión de balón vs. ligadura endoscópica de várices: comparación de tasa de erradicación y eficacia |
-| [29473522](https://pubmed.ncbi.nlm.nih.gov/29473522/) | 2017 | Revisión | Curr Clin Pharmacol | Revisión de usos fuera de indicación de polidocanol, aprobado para várices y venas arácnidas |
-| [36509625](https://pubmed.ncbi.nlm.nih.gov/36509625/) | 2023 | Cohorte | Arch Pediatr | Escleroterapia paravaricosa con polidocanol en várices cardiales de niños y adolescentes: evaluación de eficacia y seguridad |
-| [6609102](https://pubmed.ncbi.nlm.nih.gov/6609102/) | 1984 | Cohorte | Gut | Con polidocanol al 3% (34 pacientes), 20 (59%) desarrollaron estenosis o disfagia esofágica |
-| [32517718](https://pubmed.ncbi.nlm.nih.gov/32517718/) | 2020 | Revisión sistemática | BMC Gastroenterol | Riesgo agrupado de resangrado de várices gastroesofágicas tras cianoacrilato. Evidencia indirecta |
+| [9255525](https://pubmed.ncbi.nlm.nih.gov/9255525/) | 1997 | ECA | Endoscopy | Estudio prospectivo de cianoacrilato con polidocanol, o polidocanol solo, en el manejo de urgencia y a largo plazo de várices esofágicas en cirróticos |
+| [10385713](https://pubmed.ncbi.nlm.nih.gov/10385713/) | 1999 | ECA | Gastrointest Endosc | Ligadura frente a ligadura combinada con escleroterapia en várices esofágicas con sangrado |
+| [2693076](https://pubmed.ncbi.nlm.nih.gov/2693076/) | 1989 | ECA | Endoscopy | Etanolamina vs. polidocanol en erradicación de várices (81% vs. 64%, sin diferencia significativa) |
+| [29473522](https://pubmed.ncbi.nlm.nih.gov/29473522/) | 2017 | Revisión | Curr Clin Pharmacol | Revisión basada en evidencia de usos fuera de indicación de polidocanol |
+| [32517718](https://pubmed.ncbi.nlm.nih.gov/32517718/) | 2020 | Revisión sistemática | BMC Gastroenterol | Riesgo de resangrado de várices gastroesofágicas tras tratamiento inicial con cianoacrilato |
+| [7942715](https://pubmed.ncbi.nlm.nih.gov/7942715/) | 1994 | Metaanálisis | Am J Gastroenterol | Escleroterapia endoscópica profiláctica y su efecto sobre la supervivencia |
+| [36509625](https://pubmed.ncbi.nlm.nih.gov/36509625/) | 2023 | Cohorte | Arch Pediatr | Escleroterapia con polidocanol para várices cardiales en niños y adolescentes |
+| [10434360](https://pubmed.ncbi.nlm.nih.gov/10434360/) | 1999 | Comparativo | J UOEH | Ligadura endoscópica vs. escleroterapia con polidocanol: hemostasia 100% en ambos; resangrado 40.0% vs. 29.6% |
+| [6609102](https://pubmed.ncbi.nlm.nih.gov/6609102/) | 1984 | Cohorte (eventos adversos) | Gut | Estenosis o disfagia en 59% de 34 pacientes tras escleroterapia con polidocanol al 3% |
+| [20737152](https://pubmed.ncbi.nlm.nih.gov/20737152/) | 2011 | Serie de casos | Eur Radiol | Escleroterapia con espuma de polidocanol en BRTO para várices gástricas fúndicas |
+
+**Nota:** los tres ECA citados son de tamaño modesto y antiguos, y evalúan en su mayoría el esclerosante dentro de estrategias endoscópicas; la guía actual favorece la ligadura con bandas. Por ello el nivel L1 debe interpretarse con cautela.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20018886 | ETOXIVEN® 3% | Solución inyectable | POLIDOCANOL |
-| 20017789 | ETOXIVEN® 1% | Solución inyectable | POLIDOCANOL |
+| 20018886 | ETOXIVEN® 3% | Solución inyectable | Polidocanol (estado: cancelado) |
+| 20017789 | ETOXIVEN® 1% | Solución inyectable | Polidocanol (estado: cancelado) |
 
-Ambos productos son del fabricante Franco Arango & Cía S.A.S. El registro no detalla la indicación en texto.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Eventos adversos descritos en la literatura:** tras escleroterapia endoscópica con polidocanol al 3% se observaron estenosis esofágica o disfagia en 59% de los pacientes de una cohorte (20 de 34). Se describe además riesgo de ulceración, y la escleroterapia puede agravar la hipertensión portal al suprimir cortocircuitos portosistémicos.
 
-Los datos de advertencias, contraindicaciones e interacciones no están disponibles. Como referencia, la literatura de escleroterapia con polidocanol describe estenosis y disfagia esofágica (59% en una cohorte de 34 pacientes, PMID 6609102) y sangrado gástrico posterior a la escleroterapia (PMID 1778718).
+No se dispone de datos de interacciones farmacológicas en la información compilada. Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La escleroterapia endoscópica con polidocanol/lauromacrogol en várices esofágicas tiene un mecanismo sólido y varios ECAs históricos. Sin embargo, la evidencia directa reciente es limitada (un solo ensayo directo, de fase NA) y faltan datos de seguridad del prospecto colombiano.
+La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido. Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con bandas, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto INVIMA las advertencias y contraindicaciones, un vacío bloqueante para el tamizaje de seguridad
-- Confirmar si el brazo de polidocanol está presente en NCT00161915
-- Verificar que la concentración y la forma inyectable de ETOXIVEN® 1% y 3% sean adecuadas para uso endoscópico
-- Comparar polidocanol frente a la ligadura con bandas, que es el estándar actual
-- Definir un plan de monitoreo de estenosis, disfagia y sangrado post-procedimiento
-
-**Otras predicciones del modelo:** «várices esofágicas sin sangrado» (L2) queda como pregunta de investigación, porque la evidencia es sobre todo indirecta. Las otras 8 indicaciones predichas (enfermedades retinianas, monosomía X e hipoplasia inmunoeritromieloide) no tienen estudios ni vínculo mecanístico plausible, y quedan en Hold como probables artefactos del grafo de conocimiento.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Todo candidato de reposicionamiento requiere validación clínica.*
+- Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia (ambos registros están cancelados)
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
+- Confirmar el mecanismo de acción en DrugBank
+- Definir un plan de monitoreo de eventos adversos (estenosis, ulceración, resangrado) y comparar frente a la ligadura con bandas
+- Otras indicaciones predichas (por ejemplo, várices sin sangrado) presentan evidencia indirecta (L3) y se consideran preguntas de investigación; las predichas de rango inferior (enfermedades retinianas, monosomía X, entre otras) carecen de evidencia y de plausibilidad mecanística, por lo que se recomienda mantenerlas en espera (Hold)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

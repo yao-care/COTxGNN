@@ -2,7 +2,7 @@
 layout: default
 title: Belimumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 84
+nav_order: 97
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Belimumab: De Lupus Eritematoso Sistémico a Trastorno Primario de Liberación Plaquetaria
+# Belimumab: De Indicación No Especificada a Trastorno de Liberación Primaria de Plaquetas
 
 ## Resumen en Una Frase
 
-Belimumab es un anticuerpo monoclonal anti-BLyS (BAFF) que se comercializa en Colombia como Benlysta (GlaxoSmithKline). Su uso conocido es el lupus eritematoso sistémico, aunque el registro INVIMA del paquete de datos solo consigna el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de liberación plaquetaria**, con **1 ensayo clínico** de baja relevancia y **ninguna publicación** que respalde esta dirección.
+Belimumab es un anticuerpo monoclonal que neutraliza BLyS (BAFF), registrado en Colombia bajo el nombre comercial Benlysta; en los datos compilados el texto de indicación aprobada solo repite el nombre del principio activo, sin especificar la enfermedad.
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de plaquetas**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ---
 
@@ -42,31 +43,35 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lupus eritematoso sistémico (indicación conocida del fármaco; en el registro INVIMA el texto aprobado dice solamente «BELIMUMAB») |
-| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Indicación Original | No especificada (el registro INVIMA solo indica "BELIMUMAB") |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Belimumab es un anticuerpo monoclonal anti-BLyS (BAFF) que reduce la supervivencia de los linfocitos B y la producción de autoanticuerpos. Ese mecanismo es el que sustenta su uso en enfermedades autoinmunes mediadas por anticuerpos.
+Belimumab es un anticuerpo monoclonal que neutraliza BLyS (BAFF), con lo que reduce la supervivencia de los linfocitos B y la producción de autoanticuerpos. Los datos compilados no incluyen el mecanismo de acción detallado de DrugBank, por lo que este resumen se basa en el conocimiento general del fármaco.
 
-Los trastornos primarios de liberación plaquetaria son, sobre todo, defectos intrínsecos de los gránulos o de la señalización plaquetaria. No son enfermedades autoinmunes, así que no hay un vínculo mecanístico claro con la inhibición de linfocitos B. El puntaje TxGNN muy alto (0.9996) proviene de patrones del grafo de conocimiento y no de biología que lo respalde. La única vía concebible sería una variante autoinmune adquirida, sin datos que la sostengan.
+Los trastornos de liberación primaria de plaquetas suelen ser defectos funcionales hereditarios (secreción de gránulos o señalización plaquetaria) y no están mediados por linfocitos B. **No se aprecia un vínculo mecanístico plausible.** El puntaje de 99.96% es una predicción basada en el grafo de conocimiento y no está respaldada por ningún ensayo ni publicación.
 
-Entre las otras predicciones del modelo, la más coherente biológicamente es la **trombocitopenia aloinmune fetal y neonatal (FNAIT)**. Sus aloanticuerpos maternos (principalmente anti-HPA-1a) podrían, en teoría, reducirse con la modulación de linfocitos B y células plasmáticas. Sin embargo, el uso en embarazo tiene datos de seguridad limitados y hay transferencia placentaria de IgG. El estándar actual es la inmunoglobulina intravenosa, con o sin corticosteroides. No existe evidencia clínica, así que sigue siendo solo una hipótesis. Las demás predicciones (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, macrotrombocitopenia autosómica dominante, retinopatía diabética no proliferativa severa) carecen de sustento biológico.
+Entre las demás indicaciones predichas, solo la trombocitopenia aloinmune fetal y neonatal (TAIFN) tiene un vínculo biológico teórico, porque está mediada por aloanticuerpos maternos. Aun así, no hay estudios de belimumab en embarazo para esta finalidad, el manejo actual se basa en inmunoglobulina intravenosa (con o sin corticoides) y el paso placentario de anticuerpos IgG plantea dudas de seguridad fetal. Las otras predicciones (seudo-enfermedad de von Willebrand, trombastenia de Glanzmann, retinopatía diabética no proliferativa grave y macrotrombocitopenia autosómica dominante) tampoco cuentan con una justificación mecanística sólida.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01610492](https://clinicaltrials.gov/study/NCT01610492) | Fase 2 | Completado | 14 | Estudio mecanístico abierto de belimumab en glomerulonefropatía membranosa idiopática con autoanticuerpos anti-PLA2R positivos. Es otra enfermedad, sin relación con los trastornos plaquetarios. Se calificó con relevancia C y probablemente es una coincidencia espuria de la búsqueda. |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ---
 
@@ -74,15 +79,39 @@ Entre las otras predicciones del modelo, la más coherente biológicamente es la
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20048122 | BENLYSTA 120 MG POLVO LIOFILIZADO CONCENTRADO PARA SOLUCION PARA INFUSION (GlaxoSmithKline Colombia S.A.) | Polvo liofilizado para reconstituir a solución inyectable | BELIMUMAB (el registro no detalla el texto de la indicación) |
+| 20048122 (cancelado) | Benlysta 120 mg polvo liofilizado concentrado para solución para infusión | Polvo liofilizado para reconstituir a solución inyectable | Belimumab |
+| 20066631 (cancelado) | Benlysta 400 mg polvo liofilizado concentrado para solución para infusión | Polvo liofilizado para reconstituir a solución inyectable | Belimumab |
 
-Nota: las 5 entradas del paquete de datos corresponden al mismo registro sanitario y se presentan aquí una sola vez.
+Ambos registros, de GlaxoSmithKline Colombia S.A., figuran como cancelados; no hay registros vigentes.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas:** se identificaron 69 interacciones en total. Entre las revisadas, las de nivel **mayor** incluyen:
+  - Adalimumab
+  - Baricitinib
+  - Certolizumab pegol
+  - Vacuna BCG (cepa Tice, antígeno vivo)
+
+  Las de nivel **moderado** incluyen:
+  - Roflumilast
+  - Azatioprina
+  - Alemtuzumab
+  - Anakinra
+  - Canakinumab
+  - Alefacept
+  - Vacunas (toxoide tetánico, ántrax, adenovirus tipo 4, cólera vivo)
+  - Candida albicans
+  - Bifidobacterium longum infantis
+
+  Las de nivel **menor** corresponden a sales de zinc (acetato, gluconato, sulfato y cloruro).
+
+  En conjunto, el patrón sugiere un riesgo aditivo de inmunosupresión y precaución con vacunas vivas.
+
+- **Consideración adicional:** el paso placentario de anticuerpos IgG y los datos limitados en embarazo son relevantes si se evaluara su uso en TAIFN.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -91,14 +120,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal tiene un puntaje TxGNN muy alto, pero no cuenta con ningún estudio real ni base mecanística: el único ensayo asociado es de otra enfermedad y de relevancia baja. Las 6 predicciones están en nivel L5, y solo la FNAIT merece considerarse como pregunta de investigación.
+La predicción tiene un puntaje alto en el modelo, pero no cuenta con ensayos clínicos ni publicaciones, y el mecanismo de BAFF no se relaciona de manera plausible con un defecto funcional plaquetario hereditario. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones, que es un vacío de datos bloqueante para el tamizaje de seguridad.
-- Obtener datos del mecanismo de acción desde DrugBank para el análisis mecanístico formal.
-- Revisar la literatura sobre belimumab y otros agentes anti-BAFF en trombocitopenias inmunes o aloinmunes, y evaluar la FNAIT como hipótesis.
-- Analizar la seguridad en el embarazo antes de cualquier consideración en FNAIT.
-- Descartar por ahora las demás predicciones, salvo que aparezca evidencia nueva.
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones, y aclarar la indicación original aprobada.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura y de registros de ensayos específica para la indicación predicha.
+- Si se desea explorar una alternativa, priorizar la TAIFN, evaluando antes la seguridad en embarazo y la transferencia placentaria.
+- Confirmar el estado regulatorio actual en Colombia, dado que los dos registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

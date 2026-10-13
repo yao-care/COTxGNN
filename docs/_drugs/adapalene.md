@@ -2,7 +2,7 @@
 layout: default
 title: Adapalene
 parent: Solo Predicción del Modelo (L5)
-nav_order: 27
+nav_order: 28
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,67 +29,76 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Adapaleno: De Acné a Zinc Plasmático Elevado
+# Adapaleno: De Indicación Dermatológica Tópica a Zinc Plasmático Elevado
 
 ## Resumen en Una Frase
 
-Adapaleno es un retinoide tópico de tercera generación (agonista de RAR-beta/gamma), comercializado para el acné.
+Adapaleno es un retinoide tópico de tercera generación, comercializado en Colombia en geles tópicos (por ejemplo, Differin® Gel).
 El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado**,
-pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Acné (según el análisis de referencia; el registro sanitario solo dice «ADAPALENE») |
+| Indicación Original | Adapaleno (el registro sanitario no detalla la indicación; solo menciona el principio activo) |
 | Nueva Indicación Predicha | Zinc plasmático elevado |
 | Puntaje de Predicción TxGNN | 99.51% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, el adapaleno es un retinoide tópico de tercera generación que actúa sobre los receptores RAR-beta y RAR-gamma, y su uso establecido es el acné.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el adapaleno es un retinoide tópico que se une selectivamente a los receptores RAR-beta y RAR-gamma, y modula la diferenciación de los queratinocitos y la inflamación cutánea.
 
-No se ha demostrado un vínculo mecanístico con la nueva indicación. La única conexión especulativa es la interacción entre la vitamina A y el zinc: el zinc se necesita para sintetizar la proteína de unión al retinol y para el metabolismo de los retinoides. Sin embargo, el adapaleno tópico tiene absorción sistémica mínima, por lo que un efecto sobre el zinc plasmático es poco plausible sin más datos.
+La relación con la nueva indicación es débil. El zinc plasmático elevado es un hallazgo sistémico (por ejemplo, por suplementación excesiva, hemoconcentración o alteraciones renales o del transporte de zinc) y no una enfermedad con una vía evidente que responda a retinoides. Una posible conexión indirecta, como la interacción entre el retinol, su proteína transportadora y el zinc, es especulativa y no tiene respaldo en los datos disponibles.
 
-Además, el zinc plasmático elevado es un hallazgo de laboratorio, no una enfermedad con un tratamiento farmacológico establecido. Por eso esta predicción podría ser un artefacto del grafo de conocimiento y no una señal biológica real.
+Además, el adapaleno tópico tiene baja absorción sistémica, lo que hace aún menos plausible un efecto sobre el zinc plasmático. El puntaje del modelo (0.995) refleja solo una asociación basada en grafos de conocimiento, sin vínculo mecanístico establecido.
 
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+---
 
 ## Información de Mercado en Colombia
 
-El registro sanitario 208651 aparece repetido cinco veces en los datos; se muestra una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 208651 | Differin® Gel | Gel tópico | Adapalene | Cancelado |
+| 19996391 | Zudenina® Plus Gel | Gel tópico | Adapaleno. Combinaciones | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 208651 | DIFFERIN® GEL (GALDERMA S.A) | Gel tópico | ADAPALENE (el registro no detalla la indicación) |
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: respuesta fotoparoxística, enfermedad por fotosensibilidad, dermatitis exfoliativa y dermatitis.
+- **Interacciones farmacológicas**: se identificaron 58 interacciones potenciales, todas con nivel de gravedad no clasificado ("desconocido"). Entre las incluidas en los datos figuran:
+  - Antibióticos: doxiciclina, tetraciclina, minociclina, metronidazol
+  - Inhibidores de la bomba de protones y antiácidos: omeprazol, pantoprazol, rabeprazol, ranitidina
+  - Corticoides: prednisona, triamcinolona, budesonida
+  - Antihistamínicos: cetirizina, loratadina, fexofenadina
+  - Otros: ibuprofeno, fluconazol, clopidogrel, bupropión, loperamida, escopolamina
+
+Para advertencias y contraindicaciones según la etiqueta, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos ni literatura. Además, no hay un mecanismo plausible: la absorción sistémica del adapaleno tópico es mínima y el zinc elevado es un hallazgo de laboratorio, no una enfermedad tratable.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un retinoide tópico de baja absorción sistémica y el zinc plasmático elevado. Además, los dos registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA y extraer advertencias y contraindicaciones.
-- Completar el mecanismo de acción desde DrugBank.
-- Revisar si hay literatura sobre retinoides y homeostasis del zinc.
-- Confirmar que «zinc plasmático elevado» sea un objetivo terapéutico válido.
-- Evaluar la compatibilidad de vía de administración (tópica frente a sistémica), hoy pendiente.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Revisión de literatura que explore una posible relación entre retinoides y homeostasis del zinc
+- Evaluar si la vía tópica es compatible con una indicación sistémica, dada la baja absorción
+- Confirmar la relevancia clínica de la indicación predicha antes de invertir en estudios adicionales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

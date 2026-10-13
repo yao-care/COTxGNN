@@ -2,7 +2,7 @@
 layout: default
 title: Durvalumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 170
+nav_order: 242
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,78 +29,100 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Durvalumab: De Indicación Original No Registrada a Carcinoma Urotelial de la Uretra Prostática
+# Durvalumab: De Indicación Original No Especificada a Carcinoma Urotelial de la Uretra Prostática
 
 ## Resumen en Una Frase
 
-Durvalumab es un anticuerpo que bloquea PD-L1 y se comercializa en Colombia como Imfinzi®. El registro disponible no detalla su indicación original: el campo de indicación aprobada solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma urotelial de la uretra prostática**, pero por ahora hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción concreta.
+Durvalumab es un anticuerpo anti-PD-L1 comercializado en Colombia como IMFINZI®. En los datos compilados para este informe, el registro sanitario no detalla una indicación aprobada (solo figura el nombre del principio activo).
+El modelo TxGNN predice que podría ser efectivo para el **carcinoma urotelial de la uretra prostática**, pero **no hay ensayos clínicos ni publicaciones** que respalden específicamente esta indicación.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice «DURVALUMAB») |
+| Indicación Original | No disponible (el registro sanitario solo indica "DURVALUMAB", sin texto de indicación) |
 | Nueva Indicación Predicha | Carcinoma urotelial de la uretra prostática |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 16 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Aun así, durvalumab es conocido como un bloqueador de PD-L1, y el bloqueo de PD-1/PD-L1 es una estrategia establecida en el carcinoma urotelial.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, durvalumab es un anticuerpo monoclonal que bloquea PD-L1, restableciendo la capacidad del sistema inmune para atacar células tumorales. Este mecanismo está establecido en el carcinoma urotelial de vejiga.
 
-La uretra prostática es una localización del tracto urinario cuyo tumor tiene histología urotelial, similar a la del cáncer de vejiga. Por esa cercanía, el mecanismo podría ser aplicable en teoría.
+El carcinoma urotelial de la uretra prostática comparte la histología urotelial con el de vejiga, por lo que es biológicamente plausible que dependa de una vía PD-L1 similar. Esto hace coherente la predicción del modelo.
 
-Esta extrapolación se apoya solo en la similitud histológica y en un puntaje alto del modelo. No hay ensayos ni literatura que confirmen que funcione en esta localización específica.
+Sin embargo, esta plausibilidad es una extrapolación: no se aportaron ensayos ni literatura para este sitio anatómico específico, por lo que la predicción sigue siendo solo computacional.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
+*Nota de contexto:* para otras indicaciones predichas de la misma familia urotelial sí existen ensayos (por ejemplo, [NCT03912818](https://clinicaltrials.gov/study/NCT03912818), Fase 2, terminado con solo 7 participantes, en cáncer de vejiga de histología variante; y [NCT02812420](https://clinicaltrials.gov/study/NCT02812420), Fase 1 temprana, 54 participantes, en carcinoma urotelial músculo-invasivo). No son específicos de la uretra prostática y no sustentan conclusiones de eficacia para ella.
+
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación.
+Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
-Los 5 registros mostrados en los datos corresponden al mismo registro sanitario y al mismo producto, por lo que se presentan en una sola fila. El total informado es de 16 registros.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20143749 | IMFINZI® 50 MG/ML CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN (AstraZeneca Colombia S.A.S) | Solución concentrada para infusión | DURVALUMAB (sin detalle de indicación) |
+| 20143749 (cancelado) | IMFINZI® 50 MG/ML concentrado para solución para infusión (AstraZeneca Colombia S.A.S) | Solución concentrada para infusión | DURVALUMAB (sin texto de indicación detallado) |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Inmunoterapia (anticuerpo anti-PD-L1) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Inmunoterapia (inhibidor del punto de control inmune anti-PD-L1) |
+| Riesgo de Mielosupresión | Bajo en general, a diferencia de los citotóxicos convencionales; consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Hemograma, función hepática, renal y tiroidea; vigilancia de eventos adversos inmunomediados |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas:** se identificaron 81 interacciones en total. Las más relevantes de la muestra disponible son:
+  - **Mayor:** adalimumab.
+  - **Moderadas:** corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona, metilprednisolona, deflazacort), roflumilast, alefacept, alemtuzumab, anakinra, toxoide tetánico y vacuna contra el ántrax.
+  - **Menores:** sales de zinc (acetato, gluconato, sulfato, cloruro).
+
+  Es de esperar que los inmunosupresores interfieran con el efecto inmunomediado del fármaco.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para esta indicación solo existe la predicción del modelo (L5), sin ensayos clínicos ni literatura. El puntaje alto de TxGNN no basta para avanzar.
-
-Entre las otras indicaciones predichas, el carcinoma urotelial de vejiga infiltrante con variante sarcomatoide (rank 3) tiene el respaldo más cercano. Se trata del ensayo NCT03912818, de Fase 2, que fue terminado con solo 7 pacientes y por eso no permite sacar conclusiones.
+La predicción tiene un puntaje alto (99.98%) y es mecanísticamente plausible, pero está en nivel L5: no existen ensayos ni literatura específicos para el carcinoma urotelial de la uretra prostática. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Buscar ensayos y literatura específicos sobre durvalumab en carcinoma urotelial de la uretra prostática.
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, que hoy es un vacío bloqueante para el tamizaje de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Confirmar la indicación original aprobada en Colombia, porque el registro solo muestra el nombre del fármaco.
-- Evaluar la compatibilidad de vía de administración, que sigue pendiente.
+- Búsqueda de evidencia clínica y publicaciones específicas en carcinoma urotelial de uretra prostática, o estudios en urotelial de vejiga que incluyan este subsitio.
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- Prospecto con advertencias y contraindicaciones, descargado del sitio de INVIMA.
+- Aclarar la indicación aprobada original y el motivo de la cancelación del registro, y evaluar la situación regulatoria vigente en Colombia.
+- Análisis de compatibilidad de vía de administración y similitud con la indicación original (actualmente pendientes).
+- Considerar otras predicciones con más evidencia, como el carcinoma urotelial de vejiga de variante sarcomatoide (L2) y el carcinoma endocervical (L3), como candidatas prioritarias.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

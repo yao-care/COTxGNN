@@ -2,7 +2,7 @@
 layout: default
 title: Canakinumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 108
+nav_order: 129
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,71 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Canakinumab: De Indicación Original No Especificada a Infarto Hepático
+# Canakinumab: De Indicación No Especificada en el Registro a Infarto Hepático
 
 ## Resumen en Una Frase
 
-Canakinumab es un anticuerpo monoclonal anti-IL-1β comercializado en Colombia como Ilaris®, pero el registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **infarto hepático**, con un puntaje muy alto (99.86%).
-Actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+Canakinumab es un anticuerpo monoclonal que bloquea la interleucina-1β (IL-1β). En Colombia su registro sanitario solo menciona el nombre del principio activo, sin una indicación específica. El modelo TxGNN predice que podría ser efectivo para **infarto hepático**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el campo del registro solo dice "CANAKINUMAB") |
-| Nueva Indicación Predicha | Infarto hepático (hepatic infarction) |
+| Indicación Original | No especificada (el texto del registro solo indica "Canakinumab") |
+| Nueva Indicación Predicha | Infarto hepático |
 | Puntaje de Predicción TxGNN | 99.86% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 4 (todos con el mismo número, 20135091) |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, canakinumab es un anticuerpo monoclonal que neutraliza la interleucina-1β (IL-1β). Su indicación original no consta en el registro colombiano, por lo que no se puede comparar con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, canakinumab neutraliza la IL-1β, una citocina clave en las enfermedades autoinflamatorias.
 
-Con los datos disponibles, **no se identifica un vínculo mecanístico ni clínico** entre el bloqueo de IL-1β y la necrosis hepática isquémica. El puntaje alto de TxGNN (99.86%) no está respaldado por ningún ensayo ni publicación. Por eso la predicción debe tratarse como una hipótesis que requiere análisis adicional, no como una señal de eficacia.
+El infarto hepático es una necrosis isquémica del hígado causada por un evento vascular, es decir, una interrupción del flujo sanguíneo. No existe un fundamento mecanístico establecido que relacione el bloqueo de la IL-1β con esta condición. La relación entre la indicación original y la nueva no ha sido evaluada.
+
+La predicción se basa únicamente en el puntaje del modelo. Sin estudios que la respalden, debe tomarse como una hipótesis y no como una señal de eficacia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20135091 | ILARIS® SOLUCIÓN INYECTABLE 150 MG/ML (Novartis Pharma A.G.) | Solución inyectable | CANAKINUMAB (el registro no detalla la indicación) |
+| 20135091 | ILARIS® Solución Inyectable 150 mg/mL (Novartis Pharma A.G.) | Solución inyectable | Canakinumab (sin indicación específica) |
 
-Nota: los 4 registros del paquete de datos son entradas idénticas del mismo número sanitario, por eso se muestran una sola vez.
+Este registro se encuentra **cancelado**, por lo que actualmente no hay registros vigentes en Colombia.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+**Interacciones Farmacológicas:** se identificaron 100 interacciones potenciales. Las principales, de nivel moderado salvo indicación contraria, son:
+- **Corticosteroides:** hidrocortisona, triamcinolona (incluida la oftálmica), dexametasona, betametasona, budesonida, prednisolona y prednisona.
+- **Anticoagulantes:** apixabán, dicumarol, rivaroxabán y warfarina.
+- **Estatinas:** simvastatina.
+- **Radiofármacos y anticuerpos radiomarcados:** ibritumomab tiuxetán, iobenguano (I-131), tositumomab y tositumomab (I-131).
+- **Interacciones menores:** sales de zinc (acetato, gluconato y sulfato).
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos, publicaciones ni un mecanismo plausible que la respalde. No conviene avanzar con esta indicación hasta contar con una base biológica y clínica.
+La predicción para infarto hepático es solo del modelo (L5): no hay ensayos ni literatura, y no existe una relación mecanística plausible entre el bloqueo de IL-1β y un evento isquémico vascular. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), necesario antes de cualquier evaluación de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Confirmar la indicación aprobada en Colombia.
-- Revisar la literatura sobre IL-1β e isquemia o lesión hepática para ver si existe justificación biológica.
+- Estudios preclínicos o clínicos que sustenten un papel de la IL-1β en el infarto hepático.
+- Datos detallados del mecanismo de acción y análisis de su relación con la nueva indicación.
+- Información de seguridad del prospecto (advertencias y contraindicaciones).
+- Verificar la situación regulatoria y de acceso, dado que el registro está cancelado.
 
-**Otras indicaciones predichas con más respaldo (referencia):**
-- **Fiebre mediterránea familiar** (puntaje 99.41%, L3): hay estudios de cohortes, una revisión sistemática con metaanálisis (PMID 37769252) y reportes de uso de canakinumab en pacientes resistentes a colchicina. Los ensayos de Fase 2/3 listados corresponden a otras enfermedades autoinflamatorias, no a esta. Es la candidata con mejor evidencia del paquete.
-- **Síndrome de Blau** (L3): respuesta clínica y transcripcional reportada en un caso (PMID 23124805), sin ensayos registrados.
-- **Síndrome de fiebre periódica-enterocolitis infantil-autoinflamatorio** (L4): evidencia indirecta de clase, basada en revisiones sobre CAPS, FMF y PFAPA.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+**Nota adicional:** entre las demás predicciones del modelo para canakinumab, la **fiebre mediterránea familiar** tiene evidencia mucho más sólida (nivel L1). Cuenta con tres ensayos de Fase 3 completados, aunque abiertos, pequeños y centrados en síndromes periódicos asociados a criopirina, además de revisiones sistemáticas y metaanálisis. Se recomienda evaluarla en un informe aparte, con salvaguardas como limitar su uso a pacientes resistentes o intolerantes a colchicina y monitorear infecciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

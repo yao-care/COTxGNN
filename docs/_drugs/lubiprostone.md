@@ -2,7 +2,7 @@
 layout: default
 title: Lubiprostone
 parent: Solo Predicción del Modelo (L5)
-nav_order: 268
+nav_order: 416
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lubiprostona: De Indicación No Especificada en el Registro a Alopecia
+# Lubiprostona: De Estreñimiento Crónico a Alopecia
 
 ## Resumen en Una Frase
 
-Lubiprostona es un activador del canal de cloruro ClC-2, derivado bicíclico del ácido graso PGE1, comercializado en Colombia como MOVIPROST® 8 mcg. El registro sanitario solo consigna el nombre del principio activo y no incluye el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero hay **0 ensayos clínicos** y **0 publicaciones** que lo respalden. Se trata de una predicción puramente computacional.
+Lubiprostona es un activador del canal de cloruro ClC-2, conocido como agente de la clase de las prostonas, que cuenta con registros sanitarios en Colombia (actualmente cancelados) y cuyo uso clínico conocido es el tratamiento del estreñimiento crónico y del síndrome de intestino irritable.
+El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "LUBIPROSTONE") |
+| Indicación Original | Lubiprostona (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Alopecia |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos formales del mecanismo de acción original en el Evidence Pack. Según el análisis de razonamiento incluido, lubiprostona es un activador del canal de cloruro ClC-2 y un ácido graso bicíclico derivado de la PGE1, con acción local en el intestino y absorción sistémica mínima.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información farmacológica conocida, lubiprostona es un activador del canal de cloruro ClC-2 (gen CLCN2), derivado de un metabolito de la prostaglandina E1, y se usa en estreñimiento crónico y síndrome de intestino irritable.
 
-El único vínculo especulativo es que los análogos de prostaglandinas de receptor FP (por ejemplo, bimatoprost) pueden influir en el crecimiento del cabello. Sin embargo, lubiprostona no tiene actividad establecida sobre el receptor FP ni sobre el folículo piloso. Por eso el puntaje de 99.93% debe leerse como una asociación del grafo de conocimiento y no como evidencia farmacológica.
+La relación con la alopecia es especulativa. La señalización de las prostaglandinas influye en el ciclo del cabello (los análogos de PGF2α favorecen el crecimiento y la PGD2 lo inhibe), pero no existe evidencia directa que vincule la activación de ClC-2 con la biología del folículo piloso. El puntaje alto de TxGNN refleja únicamente proximidad en la red de conocimiento.
 
-Las demás predicciones del modelo tampoco tienen respaldo real. Incluyen otras formas de alopecia e hipotricosis, hipertensión pulmonar, enfermedad de Raynaud, enfermedad vascular periférica, feocromocitoma y cardiopatía cifoescoliótica. Todas están en nivel L5 y sin literatura. El único ensayo vinculado, en hipertensión pulmonar (NCT02813369), corresponde a otro fármaco (naloxegol) y no es utilizable como evidencia.
+Otras predicciones de la lista (hipotricosis congénita, hipotricosis simple del cuero cabelludo y alopecia areata difusa) parecen derivarse de la cercanía con otros fenotipos de pérdida de cabello. En la alopecia areata, de naturaleza autoinmune (vía JAK/STAT), lubiprostona no tiene acción inmunomoduladora conocida. Para hipertensión pulmonar, enfermedad de Raynaud y enfermedad vascular periférica existe un argumento débil por la clase de las prostanoides vasodilatadores, pero lubiprostona tiene absorción sistémica mínima y no se ha demostrado que actúe sobre receptores IP ni que produzca vasodilatación.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-Los cinco registros devueltos corresponden al mismo número de registro sanitario, por lo que se muestra una sola fila. El total informado es de 20 registros.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20057095 | MOVIPROST® 8 MCG | Cápsula blanda | LUBIPROSTONE | Cancelado |
+| 20028573 | MODULEX 24 MCG | Cápsula blanda | CARBONO DIOXIDO PRODUCTOS FARMACOLOGICOS | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20057095 | MOVIPROST® 8 MCG (TECNOQUÍMICAS S.A.) | Cápsula blanda | Solo figura el nombre "LUBIPROSTONE", sin texto de indicación |
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: Se identificó una interacción de nivel **moderado** con **idelalisib** (fuente: DDInter). Además, la base farmacológica confirma como blanco principal el canal ClC-2 (CLCN2), sin que esto constituya una interacción con otro fármaco.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo ni publicación para alopecia, y el vínculo mecanístico es especulativo. La absorción sistémica mínima de lubiprostona hace poco probable un efecto sobre el folículo piloso. La predicción no tiene respaldo más allá del modelo (L5).
+La predicción para alopecia se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin vínculo mecanístico directo entre la activación de ClC-2 y el folículo piloso. Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), un vacío bloqueante para el tamizaje de seguridad
-- Completar el mecanismo de acción desde DrugBank
-- Confirmar la indicación original aprobada en Colombia, ya que el registro solo trae el nombre
-- Realizar estudios preclínicos, por ejemplo en folículo piloso o modelos de alopecia, antes de considerar cualquier ensayo clínico
-- Evaluar la compatibilidad de vía de administración, hoy pendiente, ya que el producto es oral y la alopecia suele requerir acción tópica o sistémica
-
-*Estos resultados son solo para referencia de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de INVIMA para completar la revisión de advertencias y contraindicaciones (vacío bloqueante para el tamizaje de seguridad)
+- Completar los datos del mecanismo de acción desde DrugBank
+- Estudios preclínicos que evalúen el efecto de lubiprostona o de la vía ClC-2/prostanoides en el folículo piloso
+- Evaluar la compatibilidad de vía de administración (la forma actual es oral en cápsula blanda, mientras que la alopecia suele requerir abordaje tópico o dirigido)
+- Aclarar la situación regulatoria, dado que los dos registros están cancelados
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

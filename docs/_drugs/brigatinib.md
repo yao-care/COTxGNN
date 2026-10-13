@@ -2,7 +2,7 @@
 layout: default
 title: Brigatinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 96
+nav_order: 114
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,76 +29,99 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brigatinib: De Cáncer de Pulmón de Células No Pequeñas ALK Positivo a Fibromatosis Gingival
+# Brigatinib: De la indicación registrada (sin texto descriptivo) a Fibromatosis gingival
 
 ## Resumen en Una Frase
 
-Brigatinib es un inhibidor de tirosina quinasa (ALK/EGFR) comercializado en Colombia, originalmente utilizado para el cáncer de pulmón de células no pequeñas (CPCNP) ALK positivo.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Brigatinib es un inhibidor de la quinasa del linfoma anaplásico (ALK), conocido por su uso en cáncer de pulmón no microcítico (CPNM) ALK positivo; en Colombia, sus registros sanitarios solo consignan el nombre del principio activo como indicación.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero esta predicción no cuenta con **ningún ensayo clínico ni publicación** que la respalde.
+Se trata de una predicción basada únicamente en el grafo de conocimiento, sin evidencia real.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CPCNP ALK positivo (el texto del registro sanitario solo indica el nombre "BRIGATINIB") |
+| Indicación Original | Brigatinib (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.89% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 15 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, brigatinib es un inhibidor de quinasas (ALK/EGFR) de nueva generación. Su eficacia en el CPCNP ALK positivo está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura conocida, brigatinib es un inhibidor de tirosina quinasas de nueva generación, con actividad principal frente a ALK y, según el análisis del modelo, también frente a EGFR y FAK. Su eficacia en CPNM ALK positivo está respaldada por el ensayo de fase 3 ALTA-1L.
 
-No se pudo establecer un vínculo mecanístico entre esta clase de inhibición y la fibromatosis gingival con los datos disponibles. El puntaje alto de TxGNN (99.89%) es solo una predicción del modelo, sin ensayos ni literatura que la sustenten. Cualquier relación con la inhibición de ALK o EGFR sería especulativa.
+Sin embargo, el análisis de los datos compilados **no identificó un vínculo mecanístico plausible** entre la inhibición de estas quinasas y la fibromatosis gingival, una condición de crecimiento excesivo del tejido gingival, generalmente benigno. La alta puntuación del modelo refleja una asociación dentro del grafo de conocimiento, no una relación biológica demostrada.
 
-La similitud entre la indicación original (un tumor maligno pulmonar) y la nueva (un sobrecrecimiento fibroso benigno de la encía) todavía no ha sido evaluada.
+Además, el perfil de toxicidad de un inhibidor de quinasas difícilmente se justificaría para una lesión benigna como esta, salvo que existiera evidencia clínica sólida, que hoy no existe.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-El paquete reporta 15 registros. Las 5 entradas de la muestra corresponden al mismo registro sanitario, por lo que se muestra una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20193913 | ALUNBRIG® 90MG | Tableta recubierta | BRIGATINIB | Cancelado |
+| 20193910 | ALUNBRIG® 30MG | Tableta recubierta | BRIGATINIB | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20193913 | ALUNBRIG® 90MG (TAKEDA COLOMBIA S.A.S) | Tableta recubierta | BRIGATINIB (el registro no detalla la indicación) |
+Ambos registros pertenecen a Takeda Colombia S.A.S. y se encuentran cancelados; actualmente no hay registros vigentes.
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas, ALK) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto; como práctica general, hemograma, función hepática y renal |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 posibles interacciones. Entre las principales:
+  - **Mayores**: aprepitant, dexametasona, claritromicina.
+  - **Moderadas**: antiácidos y supresores de ácido (famotidina, ranitidina, rabeprazol, cimetidina), antidiabéticos (metformina, pioglitazona, alogliptina, acarbosa, canagliflozina, dapagliflozina, clorpropamida, acetohexamida, albiglutida), loperamida, morfina, cisaprida y clotrimazol.
+
+Para advertencias y contraindicaciones, consultar el prospecto. Un reporte de caso en la literatura compilada describe un síndrome de lisis tumoral fatal asociado a brigatinib en un paciente con adenocarcinoma de pulmón.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (L5), sin ensayos clínicos ni literatura que la respalden, y no se identificó un mecanismo plausible.
+La predicción para fibromatosis gingival es solo una puntuación del modelo (nivel L5), sin ensayos, sin publicaciones y sin un vínculo mecanístico identificable. Además, los registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Búsqueda de literatura específica para brigatinib y fibromatosis gingival
-- Datos del mecanismo de acción desde DrugBank
-- Prospecto de INVIMA con advertencias y contraindicaciones
-- Como nota, entre las demás predicciones del modelo, la relacionada con la schwannomatosis asociada a NF2 tiene respaldo indirecto, con un estudio clínico en NEJM 2024 (PMID 38904277). Podría evaluarse como una pregunta de investigación más prometedora.
+- Datos del mecanismo de acción (MOA) desde DrugBank.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
+- Revisión de literatura biológica que conecte las vías ALK/EGFR/FAK con la fibromatosis gingival.
+- Confirmar la situación regulatoria y la disponibilidad real del producto en Colombia.
+
+**Observación sobre otras predicciones del modelo:** de las predicciones adicionales, la asociada al síndrome de leucomelanodermia-infantilismo-discapacidad intelectual-hipodoncia-hipotricosis presenta literatura que en realidad corresponde a la **schwannomatosis relacionada con NF2**. Allí hay un reporte clínico (NEJM 2024) y un estudio preclínico que muestran reducción tumoral con brigatinib, probablemente mediante inhibición de FAK. Es una señal de reposicionamiento creíble, pero debe reasignarse a la schwannomatosis relacionada con NF2 para una evaluación formal, y no atribuirse al síndrome listado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

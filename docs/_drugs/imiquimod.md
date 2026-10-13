@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Imiquimod
-parent: Evidencia Alta (L1-L2)
-nav_order: 220
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 339
+evidence_level: L5
 indication_count: 10
 ---
 
 # Imiquimod
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,101 +29,102 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Imiquimod: De Indicación No Especificada en el Registro a Neoplasia Premaligna
+# Imiquimod: De Indicación Original (no especificada en el registro) a Neoplasia Premaligna
 
 ## Resumen en Una Frase
 
-Imiquimod es un modulador inmunitario de uso tópico, comercializado en Colombia en crema (Virosupril®). El texto del registro sanitario solo menciona el principio activo, sin describir la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia premaligna**, con **19 ensayos clínicos** y **9 publicaciones** asociados. Muchos de los ensayos usan imiquimod solo como adyuvante de vacunas en tumores ya invasivos.
+Imiquimod es un inmunomodulador de uso tópico (crema) que en Colombia contó con registros sanitarios, hoy cancelados, aunque el registro no detalla la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia premaligna**, con **2 ensayos clínicos** y **9 publicaciones** que respaldan esta dirección.
+La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes) y otro terminado prematuramente con solo 9 participantes.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "IMIQUIMOD") |
-| Nueva Indicación Predicha | Neoplasia premaligna (pre-malignant neoplasm) |
+| Indicación Original | No especificada en el registro INVIMA (solo figura el nombre del principio activo) |
+| Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L1 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Imiquimod es un agonista del receptor TLR7. Al aplicarse sobre la lesión, induce inmunidad innata y adaptativa local: liberación de interferón alfa, TNF-alfa e IL-12 y reclutamiento de linfocitos T citotóxicos. Los datos de mecanismo de DrugBank no están disponibles en el paquete de evidencia. La descripción anterior proviene del análisis de racional de reposicionamiento.
+No se dispone de datos detallados sobre el mecanismo de acción en el registro compilado. Según el conocimiento farmacológico establecido, imiquimod es un agonista del receptor tipo Toll 7 (TLR7) que activa localmente la inmunidad innata y adaptativa (interferón alfa, TNF-alfa, IL-12). Esta activación favorece la eliminación de células epiteliales displásicas.
 
-Este mecanismo es plausible para eliminar epitelio displásico. Las revisiones y estudios incluidos cubren queratosis actínica, neoplasia intraepitelial vulvar y anal, papulosis bowenoide, neoplasia intraepitelial cervical (NIC) y lentigo maligno.
+Este mecanismo es coherente con su uso establecido en queratosis actínica, una lesión premaligna cutánea, y con su empleo fuera de indicación en neoplasias intraepiteliales (cervical, vulvar, anal) y en papulosis bowenoide. Por ello, la predicción de TxGNN para neoplasia premaligna resulta biológicamente plausible.
 
-Un matiz importante: la queratosis actínica ya es un uso con indicación en etiqueta. Por eso, parte de la señal predicha se solapa con la indicación existente y no es del todo una indicación nueva. Las lesiones premalignas genitales, cervicales y orales sí serían usos nuevos.
+Cabe aclarar que este vínculo se apoya en la farmacología conocida de imiquimod y no en el campo de mecanismo de acción del registro, que está vacío.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 9 ensayos más relevantes para lesiones premalignas o intraepiteliales, de un total de 19 registrados.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03233412](https://clinicaltrials.gov/study/NCT03233412) | Fase 2 | Completado | 90 | ECA de imiquimod tópico en lesiones intraepiteliales cervicales de alto grado |
-| [NCT01720407](https://clinicaltrials.gov/study/NCT01720407) | Fase 3 | Completado | 259 | Imiquimod neoadyuvante para reducir el tamaño de la escisión en lentigo maligno de la cara (proliferación melanocítica intraepidérmica) |
-| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Terminado | 9 | ECA de imiquimod tópico en NIC de alto grado. Terminado con solo 9 pacientes, sin poder estadístico |
-| [NCT00941811](https://clinicaltrials.gov/study/NCT00941811) | Fase 2 | Completado | 5 | Estudio exploratorio de imiquimod en neoplasia intraepitelial vulvar (NIV 2/3) y verrugas anogenitales, con análisis de mecanismos inmunitarios |
-| [NCT04219358](https://clinicaltrials.gov/study/NCT04219358) | Fase 1 | Terminado | 49 | ECA que compara imiquimod 5 %, 0.05 % y gel nanoencapsulado 0.05 % en queilitis actínica |
-| [NCT01229319](https://clinicaltrials.gov/study/NCT01229319) | Fase 4 | Desconocido | 20 | Imiquimod 3.75 % tras crioterapia en queratosis actínicas hipertróficas de manos y antebrazos |
-| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Completado | 20 | Estudio abierto de imiquimod 5 % en queratosis actínicas de la cabeza |
-| [NCT02242929](https://clinicaltrials.gov/study/NCT02242929) | Fase 3 | Desconocido | 145 | Escisión quirúrgica frente a curetaje más imiquimod en carcinoma basocelular nodular (enfermedad invasiva) |
-| [NCT04883645](https://clinicaltrials.gov/study/NCT04883645) | Fase 1 temprana | Completado | 16 | Imiquimod neoadyuvante en carcinoma oral de células escamosas en estadio temprano (enfermedad invasiva) |
+| [NCT00175643](https://clinicaltrials.gov/study/NCT00175643) | Fase 3 | Completado | 20 | Estudio abierto de imiquimod crema 5% tres días por semana en queratosis actínicas de la cabeza; evalúa la duración del efecto. Diseño de un solo brazo y muestra pequeña. |
+| [NCT02329171](https://clinicaltrials.gov/study/NCT02329171) | Fase 3 | Terminado | 9 | Ensayo aleatorizado de imiquimod tópico en neoplasia intraepitelial cervical de alto grado (CIN 2-3) como alternativa a la escisión. Terminado con solo 9 participantes, sin potencia para concluir sobre eficacia. |
 
-Los demás ensayos usan imiquimod como adyuvante de vacunas en glioma, melanoma, próstata y pulmón. No aportan evidencia sobre lesiones premalignas.
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Revisión (Cochrane) | Cochrane Database Syst Rev | Intervenciones para la neoplasia intraepitelial del canal anal, condición premaligna asociada a VPH |
-| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Revisión (Cochrane) | Cochrane Database Syst Rev | Tratamientos médicos para la neoplasia intraepitelial vulvar de alto grado |
-| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revisión | Int J Mol Sci | Terapia fotodinámica combinada para cáncer de piel no melanoma |
-| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revisión | Skin Therapy Lett | Manejo actual de las queratosis actínicas, lesiones premalignas con potencial de progresar a carcinoma escamoso |
-| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revisión | Semin Cutan Med Surg | Estrategias tópicas (fluorouracilo, diclofenaco, imiquimod, terapia fotodinámica) para cáncer de piel no melanoma y lesiones precursoras |
-| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclínico | Urol Oncol | Farmacocinética de agonistas de TLR7 (TMX-101 y TMX-202) en rata para cáncer de vejiga; no evalúa imiquimod directamente |
-| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Reporte de caso | Int J STD AIDS | Tratamiento exitoso de NIV de alto grado con imiquimod 5 % en una receptora de trasplante renal |
-| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Reporte de caso | Int J STD AIDS | Aclaramiento de papulosis bowenoide del pene con crema de imiquimod 5 %, bien tolerada |
-| [18931984](https://pubmed.ncbi.nlm.nih.gov/18931984/) | 2008 | Otro (reporte de caso) | Hautarzt | Imagen por tomografía de coherencia óptica de poroqueratosis actínica; relevancia indirecta |
+| [23235673](https://pubmed.ncbi.nlm.nih.gov/23235673/) | 2012 | Revisión (Cochrane) | Cochrane Database Syst Rev | Intervenciones para la neoplasia intraepitelial del canal anal, asociada a VPH, especialmente en hombres VIH positivos que tienen sexo con hombres. |
+| [21491403](https://pubmed.ncbi.nlm.nih.gov/21491403/) | 2011 | Revisión (Cochrane) | Cochrane Database Syst Rev | Intervenciones médicas para la neoplasia intraepitelial vulvar de alto grado, con alta morbilidad y recurrencia tras la cirugía. |
+| [26516853](https://pubmed.ncbi.nlm.nih.gov/26516853/) | 2015 | Revisión | Int J Mol Sci | Tratamientos combinados con terapia fotodinámica para cáncer de piel no melanoma. |
+| [20505896](https://pubmed.ncbi.nlm.nih.gov/20505896/) | 2010 | Revisión | Skin Therapy Lett | Manejo actual de las queratosis actínicas, lesiones premalignas con potencial de progresar a carcinoma escamoso. |
+| [15584683](https://pubmed.ncbi.nlm.nih.gov/15584683/) | 2004 | Revisión | Semin Cutan Med Surg | Estrategias tópicas (fluorouracilo, diclofenaco, imiquimod, terapia fotodinámica) para cáncer de piel no melanoma y lesiones precursoras. |
+| [30284955](https://pubmed.ncbi.nlm.nih.gov/30284955/) | 2019 | Reporte de caso | Int J STD AIDS | Tratamiento exitoso de neoplasia intraepitelial vulvar de alto grado con imiquimod 5% en una receptora de trasplante renal. |
+| [15601490](https://pubmed.ncbi.nlm.nih.gov/15601490/) | 2004 | Reporte de caso | Int J STD AIDS | Resolución de papulosis bowenoide del pene con imiquimod 5%, bien tolerada. |
+| [29500135](https://pubmed.ncbi.nlm.nih.gov/29500135/) | 2018 | Preclínico | Urol Oncol | Farmacocinética y farmacodinamia de agonistas TLR7 en modelo de rata; contexto de uso en lesiones (pre)malignas. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Según el paquete de evidencia, hay 20 registros. En la muestra disponible solo aparecen dos números de registro distintos, repetidos varias veces.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128548 | VIROSUPRIL® CREMA 3.75 % (MEGALABS COLOMBIA S.A.S) | Crema tópica | Solo figura el principio activo (imiquimod); sin texto de indicación |
-| 19967737 | VIROSUPRIL® CREMA (MEGALABS COLOMBIA S.A.S) | Crema tópica | Solo figura el principio activo (imiquimod); sin texto de indicación |
+| 20128548 (cancelado) | VIROSUPRIL® CREMA 3.75% | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
+| 19967737 (cancelado) | VIROSUPRIL® CREMA | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
+
+Ambos registros pertenecen a MEGALABS COLOMBIA S.A.S y están cancelados, por lo que actualmente no hay productos vigentes con imiquimod como único principio activo.
+
+---
 
 ## Consideraciones de Seguridad
 
-No hay datos de advertencias, contraindicaciones ni interacciones farmacológicas en el paquete de evidencia. Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** respuesta fotoparoxística, enfermedad por fotosensibilidad, enfermedad autoinmune, enfermedad injerto contra huésped y quemadura solar.
+- **Interacciones farmacológicas:** se identificaron 59 posibles interacciones, todas con nivel de gravedad no clasificado. Entre las primeras listadas figuran pantoprazol, morfina, omeprazol, lansoprazol, prednisona, simvastatina, loperamida, prednisolona, ácido acetilsalicílico, bupropión, budesonida, warfarina, clopidogrel e hidroxicloroquina.
+- **Señales de la literatura:** se describió conversión maligna de papilomatosis oral florida durante el tratamiento con imiquimod, y casos aislados de eritema multiforme y liquen planopilar asociados a su uso tópico. Esto exige cautela, sobre todo en mucosas.
 
-La literatura asociada a otras indicaciones predichas señala eventos que conviene vigilar:
-- Conversión maligna de una papilomatosis oral y labial florida durante el tratamiento tópico con imiquimod ([PMID 12719972](https://pubmed.ncbi.nlm.nih.gov/12719972/)).
-- Carcinoma mucinoso cutáneo que apareció en una enfermedad de Paget extramamaria tras 2 meses de imiquimod 5 % ([PMID 21885944](https://pubmed.ncbi.nlm.nih.gov/21885944/)).
-- Eritema multiforme en un paciente con síndrome de Gorlin ([PMID 29173871](https://pubmed.ncbi.nlm.nih.gov/29173871/)).
-- Liquen planopilar tras imiquimod 5 % ([PMID 24575881](https://pubmed.ncbi.nlm.nih.gov/24575881/)).
+No se dispone de las advertencias del prospecto de INVIMA; se recomienda consultarlo.
 
-Son reportes de caso y no permiten estimar frecuencia.
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un ensayo de Fase 2 completado en NIC de alto grado (90 pacientes) y un ensayo de Fase 3 completado en lentigo maligno (259 pacientes). El mecanismo TLR7 es plausible y hay revisiones que respaldan su uso en lesiones intraepiteliales. Sin embargo, el único ECA de Fase 3 directamente dirigido a NIC se terminó con 9 pacientes, y parte de la señal se solapa con la queratosis actínica, que ya es un uso en etiqueta.
+Hay un ensayo de Fase 3 completado en queratosis actínica y literatura que respalda el uso de imiquimod en lesiones premalignas, con un mecanismo plausible. Sin embargo, los ensayos son muy pequeños, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones, que hoy es un vacío bloqueante para el tamizaje de seguridad.
-- Confirmar el mecanismo de acción en DrugBank y aclarar la indicación aprobada de los registros Virosupril®.
-- Definir qué lesión premaligna se prioriza (NIC, NIV, queilitis actínica u otra) y cuál sería su vía de administración, ya que la compatibilidad de vía aún no está evaluada.
-- Revisar los resultados publicados de NCT03233412 y NCT01720407 antes de proponer un estudio confirmatorio.
-- Tratar las demás predicciones como preguntas de investigación o mantenerlas en espera. La neoplasia benigna de mucosa bucal (L4) tiene una señal de seguridad de conversión maligna. Las restantes (neuroblastoma cervical, quiste odontogénico, neoplasia benigna de lengua, teratoma nasofaríngeo, neoplasia quística, neoplasia del oído interno, neoplasia de glándula salival mayor y schwannoma del foramen yugular) tienen evidencia nula o solo indirecta (L4-L5) y quedan en Hold.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual es un requisito bloqueante para el tamizaje de seguridad.
+- Confirmar el mecanismo de acción en DrugBank.
+- Definir la lesión premaligna específica (queratosis actínica, neoplasia intraepitelial cervical, vulvar, anal) y la población objetivo, dado que el término es muy amplio.
+- Evaluar la vía regulatoria, ya que los registros actuales están cancelados.
+- Establecer un plan de monitoreo de reacciones locales y de seguridad en mucosas, con atención a fotosensibilidad y enfermedades autoinmunes.
 
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+---
+
+*Nota: otras predicciones de menor rango (neoplasia benigna de mucosa bucal, quiste odontogénico, entre otras) cuentan con evidencia más débil o nula y no se desarrollan en este informe.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Doxylamine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 167
+nav_order: 236
 evidence_level: L5
 indication_count: 4
 ---
@@ -29,67 +29,100 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Doxilamina: De Combinaciones con Doxilamina a Urticaria Alérgica
+# Doxilamina: De Combinaciones de Doxilamina a Urticaria Alérgica
 
 ## Resumen en Una Frase
 
-Doxilamina es un antihistamínico H1 de primera generación (etanolamina). En Colombia está registrada como componente de combinaciones farmacéuticas.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata solo de una predicción del modelo.
+Doxilamina es un antihistamínico H1 de primera generación (clase etanolamina), registrado en Colombia bajo la indicación genérica "Doxilamina. Combinaciones".
+El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje muy alto (99.85%).
+Sin embargo, actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: la evidencia se limita a la predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Doxilamina, combinaciones |
+| Indicación Original | Doxilamina. Combinaciones |
 | Nueva Indicación Predicha | Urticaria alérgica |
 | Puntaje de Predicción TxGNN | 99.85% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L5 (solo predicción del modelo, sin estudios reales; el análisis mecanístico de clase sugiere un componente L4 en el sentido de plausibilidad farmacológica, pero sin estudios específicos) |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, la doxilamina es un antagonista del receptor H1 de histamina de primera generación. Su uso está comprobado en productos combinados comercializados en Colombia, y mecanísticamente podría ser aplicable a la urticaria alérgica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción específico de este fármaco en los datos compilados. Según la información conocida de la clase, la doxilamina es un antihistamínico H1 de primera generación (etanolamina) con propiedades anticolinérgicas y sedantes. Su eficacia como antihistamínico está establecida a nivel de clase, y mecanísticamente podría ser aplicable a la urticaria alérgica.
 
-La urticaria alérgica está mediada por histamina. Por eso el bloqueo del receptor H1 es coherente con la predicción del modelo, que tiene un puntaje muy alto (0.998). Sin embargo, la plausibilidad por clase (otros antihistamínicos H1) no cuenta como evidencia específica de la doxilamina.
+La urticaria alérgica está mediada por histamina liberada por mastocitos, que produce ronchas y eritema. El bloqueo del receptor H1 es, por tanto, un mecanismo directamente relevante, y los antihistamínicos H1 de primera generación se han utilizado históricamente para esta condición como clase.
 
-Hay una limitación importante. Los antihistamínicos de segunda generación ya son el tratamiento estándar en urticaria. La sedación y la carga anticolinérgica de la doxilamina tendrían que compararse con esas alternativas antes de justificar un estudio.
+Es importante matizar: este vínculo se apoya en la farmacología de clase y no en datos específicos de doxilamina. Además, las guías actuales prefieren antihistamínicos de segunda generación no sedantes, lo que limita el valor agregado de doxilamina en esta indicación.
+
+### Otras indicaciones predichas (para contexto)
+
+| Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Comentario |
+|------|------|------|------|------|
+| Enfermedad de la cavidad nasal | 99.36% | L5 | Hold | Categoría amplia e inespecífica; el efecto antihistamínico y de sequedad anticolinérgica podría reducir rinorrea y congestión, pero no puede vincularse a una patología definida |
+| Laringofaringitis aguda | 99.34% | L5 | Hold | Generalmente infecciosa; el beneficio sería solo sintomático (goteo posnasal, tos) |
+| Urticaria por frío | 99.26% | L5 | Research Question | Urticaria física mediada por histamina; plausible a nivel de clase, pero sin evidencia específica y con preferencia guiada por antihistamínicos de segunda generación |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20069694 | PLURIAMIN® TABLETAS DE LIBERACIÓN RETARDADA (Laboratorio Franco Colombiano - Lafrancol S.A.S.) | Tableta de liberación retardada | Doxilamina. Combinaciones |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20069694 | PLURIAMIN® Tabletas de Liberación Retardada (Laboratorio Franco Colombiano - Lafrancol S.A.S.) | Tableta de liberación retardada | Doxilamina. Combinaciones | Cancelado |
 
-Nota: los datos recibidos muestran 20 registros en total. Los cinco primeros corresponden al mismo número de registro, por lo que se presenta una sola fila. La vía de administración disponible es la oral.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento asocia a la doxilamina con contraindicaciones en las siguientes condiciones, lo que es coherente con su perfil anticolinérgico y sedante de clase:
+  - **Oculares:** glaucoma de ángulo cerrado, hipertensión ocular.
+  - **Urinarias:** hiperplasia prostática benigna, obstrucción del cuello vesical.
+  - **Cardiovasculares:** hipertensión, enfermedad coronaria, infarto de miocardio, aterosclerosis, taquicardia ventricular.
+  - **Hepáticas y digestivas:** insuficiencia hepática, hepatopatía, pancreatitis, enfermedad de la vesícula biliar, úlcera péptica.
+  - **Endocrinas y metabólicas:** diabetes mellitus, cetoacidosis diabética, hipertiroidismo (enfermedad de Graves, tirotoxicosis).
+  - **Otras:** hemoglobinopatía, intoxicación por paracetamol, abuso/dependencia de sustancias.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en total. Las de mayor gravedad son de nivel **Mayor**, con **cloruro de potasio** y **citrato de potasio**. Entre las de nivel **Moderado** destacan:
+  - Otros anticolinérgicos: atropina, escopolamina, hiosciamina, glicopirronio, diciclomina, clidinio, propantelina, mepenzolato, metescopolamina.
+  - Depresores del SNC y opioides: morfina (incluida liposomal), opio, loperamida, eluxadolina.
+  - Cannabinoides: dronabinol, nabilona.
+  - Otros: metoclopramida.
+
+No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para información de seguridad adicional.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni literatura que la respalden (nivel L5). Además, los antihistamínicos de segunda generación ya cubren esta necesidad con mejor perfil de sedación. Las otras predicciones del modelo (enfermedad de la cavidad nasal, laringofaringitis aguda y urticaria por frío) están en la misma situación: solo predicción, sin evidencia.
+La evidencia se limita a una predicción computacional (puntaje 99.85%) sin ensayos clínicos ni literatura. Además, el único registro sanitario en Colombia está cancelado, y las guías actuales prefieren antihistamínicos de segunda generación no sedantes para la urticaria, lo que reduce el valor agregado del reposicionamiento.
 
 **Para avanzar se necesita:**
-- Búsqueda sistemática de ensayos clínicos y literatura específicos de doxilamina en urticaria
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Información de seguridad del prospecto INVIMA (advertencias y contraindicaciones), necesaria antes de cualquier evaluación de seguridad
-- Justificación clínica frente a los antihistamínicos de segunda generación
-- Evaluación de compatibilidad de vía de administración y similitud con la indicación original, hoy pendientes
+- Datos del mecanismo de acción específico del fármaco (DrugBank).
+- Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para el tamizaje de seguridad.
+- Búsqueda de ensayos clínicos y literatura específicos de doxilamina en urticaria.
+- Análisis comparativo frente a antihistamínicos de segunda generación (eficacia, sedación, perfil anticolinérgico).
+- Verificación de la situación regulatoria: confirmar si existe algún producto vigente con doxilamina en Colombia y la compatibilidad de las vías de administración.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

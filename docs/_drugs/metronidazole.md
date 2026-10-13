@@ -2,7 +2,7 @@
 layout: default
 title: Metronidazole
 parent: Solo Predicción del Modelo (L5)
-nav_order: 281
+nav_order: 440
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,92 +29,99 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metronidazol: De Indicación Original No Detallada en el Registro (Nitroimidazol Antimicrobiano) a Neumocistosis
+# Metronidazol: De Metronidazol (derivados imidazólicos) a Neumocistosis
 
 ## Resumen en Una Frase
 
-Metronidazol es un antimicrobiano de la familia de los nitroimidazoles, comercializado en Colombia en tabletas y formas vaginales. El registro sanitario no detalla su indicación clínica original: solo repite el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero **no hay ningún ensayo clínico relevante** y la literatura recuperada (10 publicaciones revisadas) no muestra eficacia de metronidazol contra *Pneumocystis*. La predicción se apoya solo en el modelo.
+Metronidazol es un antimicrobiano derivado del imidazol, con registros sanitarios en Colombia para metronidazol solo y en combinaciones de imidazoles (hoy todos cancelados).
+El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no hay ensayos clínicos y la literatura disponible (10 publicaciones) es solo descriptiva (revisiones y reportes de caso), sin evidencia directa de eficacia.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | METRONIDAZOL (el registro no especifica una indicación clínica) |
+| Indicación Original | Metronidazol / combinaciones de imidazol derivados |
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, metronidazol es un nitroimidazol activo contra bacterias anaerobias y protozoos, pero no contra hongos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, metronidazol es un nitroimidazol activo contra bacterias anaerobias y protozoos (Trichomonas, Giardia, Entamoeba), mediante la activación reductora de su grupo nitro.
 
-Aquí la predicción **no resulta razonable** desde el punto de vista mecanístico. *Pneumocystis* es un hongo y metronidazol no tiene actividad antifúngica. El tratamiento estándar de la neumocistosis es trimetoprima-sulfametoxazol (TMP-SMX), y una de las revisiones recuperadas (1980) ya lo señala así.
+La relación con la nueva indicación es débil. *Pneumocystis jirovecii* es un hongo que carece de la vía de activación dependiente de nitrorreductasa, por lo que **no existe una justificación mecanística establecida**. El puntaje alto de TxGNN probablemente refleja la cercanía en la red del conocimiento con fármacos antiparasitarios, y no una actividad real. El tratamiento estándar es trimetoprima-sulfametoxazol.
 
-El puntaje alto de TxGNN probablemente es un artefacto del grafo de conocimiento, causado por vecinos compartidos como "antiinfeccioso" o "infección oportunista". Los casos clínicos recuperados mencionan metronidazol solo como tratamiento de una infección concurrente (por ejemplo, amebiasis), no como tratamiento de la neumocistosis.
+En conjunto, esta predicción debe considerarse una señal del modelo sin respaldo biológico claro. Entre las demás candidatas, la **poliposis en capuchón (cap polyposis)** (puntaje TxGNN 99.73%, nivel L4) tiene la plausibilidad mecanística más sólida según los datos compilados, y podría merecer una evaluación aparte.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se recuperaron 25 ensayos, y **ninguno evalúa metronidazol ni *Pneumocystis***. La clasificación de relevancia otorga grado C a los 10 primeros y deja el resto pendiente. Se muestran los 10 clasificados:
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03451630](https://clinicaltrials.gov/study/NCT03451630) | No aplica | Completado | 1400 | Modelos integrados de atención para adultos con necesidades complejas; sin relación con el fármaco |
-| [NCT02362750](https://clinicaltrials.gov/study/NCT02362750) | No aplica | Completado | 991 | Modelos de atención a sobrevivientes de cáncer; no relacionado |
-| [NCT04576715](https://clinicaltrials.gov/study/NCT04576715) | No aplica | Completado | 101 | Manejo del traumatismo craneal leve pediátrico; no relacionado |
-| [NCT06638099](https://clinicaltrials.gov/study/NCT06638099) | No aplica | Completado | 195 | Uso de monitores continuos de glucosa en diabetes tipo 2; no relacionado |
-| [NCT04198974](https://clinicaltrials.gov/study/NCT04198974) | No aplica | Activo, sin reclutar | 12500 | Prevención del consumo de sustancias en adolescentes; no relacionado |
-| [NCT02208947](https://clinicaltrials.gov/study/NCT02208947) | Fase 3 | Terminado | 77 | Incentivos para planificación anticipada de cuidados; aunque figura como Fase 3, no es un ensayo farmacológico |
-| [NCT02571673](https://clinicaltrials.gov/study/NCT02571673) | No aplica | Completado | 65 | Herramienta de supervivencia en cáncer de cabeza y cuello; no relacionado |
-| [NCT06597123](https://clinicaltrials.gov/study/NCT06597123) | No aplica | No reclutando aún | 150 | Entrenamiento en entrevista motivacional con IA; no relacionado |
-| [NCT03542084](https://clinicaltrials.gov/study/NCT03542084) | No aplica | Completado | 305 | Interconsultas de endocrinología para control glucémico; no relacionado |
-| [NCT04463914](https://clinicaltrials.gov/study/NCT04463914) | No aplica | Completado | 649 | Aplicación móvil de activación conductual para depresión; no relacionado |
+---
 
 ## Evidencia de Literatura
 
-Se priorizan las revisiones sobre los reportes de caso. Ninguna publicación demuestra eficacia de metronidazol en neumocistosis.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Revisión | Mayo Clin Proc | Panorama de los antiparasitarios y sus problemas (resistencia, toxicidad, disponibilidad) |
-| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Revisión | Am Fam Physician | Metronidazol para amebiasis y tricomoniasis; TMP-SMX como fármaco de elección para neumonía por *Pneumocystis* |
-| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Revisión | Clin Pharmacokinet | Justificación farmacocinética de las terapias antiprotozoarias |
-| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Revisión | Clin Pharm | Complicaciones infecciosas del SIDA; la neumonía por *P. carinii* es la más frecuente |
-| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Revisión | Top Antivir Med | Las infecciones oportunistas asociadas al VIH siguen siendo relevantes; sin datos de metronidazol |
-| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Revisión | Rev Infect Dis | Crítica de los ensayos de profilaxis antimicrobiana; tema general, no específico |
-| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Reporte de caso | Am Rev Respir Dis | Neumonía por *P. carinii* y citomegalovirus en un adulto previamente tratado con metronidazol por diarrea; el fármaco no se usó como tratamiento |
-| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Reporte de caso | Kansenshogaku Zasshi | Metronidazol resolvió una disentería amebiana; la neumonía por *P. carinii* apareció después, sin relación de tratamiento |
-| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Reporte de caso | J Formos Med Assoc | Perforación de colon en un paciente con SIDA por citomegalovirus y amebiasis; sin neumocistosis |
-| [42178576](https://pubmed.ncbi.nlm.nih.gov/42178576/) | 2026 | Reporte de caso | J Med Case Rep | Absceso cerebeloso por *S. intermedius* como primera manifestación de sarcoidosis; tangencial |
+| [1545596](https://pubmed.ncbi.nlm.nih.gov/1545596/) | 1992 | Revisión | Mayo Clin Proc | Panorama de agentes antiparasitarios, resistencia y toxicidad; no demuestra eficacia de metronidazol en neumocistosis |
+| [7355683](https://pubmed.ncbi.nlm.nih.gov/7355683/) | 1980 | Revisión | Am Fam Physician | Metronidazol es de elección en amebiasis y tricomoniasis; para neumonía por Pneumocystis se indica trimetoprima-sulfametoxazol |
+| [1782741](https://pubmed.ncbi.nlm.nih.gov/1782741/) | 1991 | Revisión | Clin Pharmacokinet | Justificación farmacocinética de la terapia antiprotozoaria en huéspedes normales e inmunocomprometidos |
+| [2996829](https://pubmed.ncbi.nlm.nih.gov/2996829/) | 1985 | Revisión | Clin Pharm | Terapias para infecciones oportunistas del SIDA; la neumonía por P. carinii es la más frecuente |
+| [26518395](https://pubmed.ncbi.nlm.nih.gov/26518395/) | 2015 | Revisión | Top Antivir Med | Infecciones oportunistas relacionadas con VIH siguen siendo relevantes en 2015 |
+| [6282154](https://pubmed.ncbi.nlm.nih.gov/6282154/) | 1982 | Reporte de caso | Am Rev Respir Dis | Neumonía por P. carinii y citomegalovirus en adulto previamente sano, antes tratado con metronidazol y tetraciclina por diarrea |
+| [2338506](https://pubmed.ncbi.nlm.nih.gov/2338506/) | 1990 | Reporte de caso | Kansenshogaku Zasshi | Dos pacientes con SIDA; metronidazol se usó para amebiasis, no para neumocistosis |
+| [6771863](https://pubmed.ncbi.nlm.nih.gov/6771863/) | 1980 | Revisión | Rev Infect Dis | Crítica de ensayos de profilaxis antimicrobiana |
+| [16496064](https://pubmed.ncbi.nlm.nih.gov/16496064/) | 2005 | Reporte de caso | J Formos Med Assoc | Perforación de colon en paciente con SIDA por citomegalovirus y colitis amebiana |
+| [42178576](https://pubmed.ncbi.nlm.nih.gov/42178576/) | 2026 | Reporte de caso | J Med Case Rep | Absceso cerebeloso por *Streptococcus intermedius* como primera manifestación de sarcoidosis |
+
+Ninguna publicación muestra que metronidazol sea eficaz contra la neumocistosis; la relación es contextual (pacientes con SIDA u otras infecciones tratadas con metronidazol).
+
+---
 
 ## Información de Mercado en Colombia
 
-El paquete de evidencia lista 5 filas, pero corresponden a solo 2 registros únicos (de un total de 20 registros sanitarios).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Cancelado |
+| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Cancelado |
+| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20174992 | SOLMETRIN® 500 MG TABLETAS (ANGLOPHARMA S.A.) | Tableta | METRONIDAZOL |
-| 20162295 | METRONIDAZOL 10% + CLOTRIMAZOL 2% (MEMPHIS PRODUCTS S.A.) | Crema vaginal | COMBINACIONES DE IMIDAZOL DERIVADOS |
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones o condiciones de riesgo según el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN, no texto de prospecto): insuficiencia hepática, enfermedad hepática, enfermedad renal, epilepsia, enfermedades hematológicas (neutropenia, leucopenia, agranulocitosis), trastornos de la coagulación, neuropatía periférica y enfermedades del sistema nervioso periférico, enfermedades cerebrales, enfermedades del nervio óptico y vías visuales, insuficiencia cardíaca congestiva, diabetes mellitus y cetoacidosis diabética, gota, enfermedad de la vesícula biliar, dermatitis, meningitis no infecciosa, piouréter y abuso o dependencia de sustancias.
+- **Interacciones farmacológicas** (100 interacciones registradas; se muestran las más relevantes):
+  - **Mayor:** etanol (riesgo de reacción tipo disulfiram).
+  - **Moderadas:** paclitaxel, adalimumab, trastuzumab emtansina, etinilestradiol, estradiol, butalbital, amiodarona, celecoxib, amobarbital, loperamida.
+  - **Menores:** abiraterona, tramadol, famotidina, salbutamol, alfuzosina, amisulprida, amitriptilina, anagrelida, propofol.
+
+No se dispuso de advertencias ni contraindicaciones del prospecto de INVIMA; se recomienda consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene nivel de evidencia L5: no hay ensayos relevantes ni literatura que respalde eficacia. Además, no existe un vínculo mecanístico plausible, porque metronidazol no tiene actividad antifúngica y la terapia estándar (TMP-SMX) ya está bien establecida.
+No existen ensayos clínicos, la literatura es solo descriptiva y no muestra eficacia, y el mecanismo de acción del metronidazol no es plausible frente a *Pneumocystis* (hongo sin la vía de activación nitrorreductasa). Existe un tratamiento estándar eficaz (trimetoprima-sulfametoxazol). Además, todos los registros en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (consultar DrugBank).
-- Advertencias y contraindicaciones del prospecto de INVIMA, hoy sin datos.
-- Solo si hubiera hipótesis mecanística nueva, estudios preclínicos in vitro contra *Pneumocystis*. En caso contrario, no continuar con esta indicación.
-- Redirigir el esfuerzo a otras predicciones del mismo fármaco con más respaldo: **úlcera de vulva** (nivel L3, serie retrospectiva de 22 pacientes con enfermedad de Crohn vulvar más casos de amebiasis genital) y **pólipos con capuchón (*cap polyposis*)** (nivel L4, reportes de caso).
+- Datos del mecanismo de acción y estudios preclínicos que justifiquen actividad contra *Pneumocystis*
+- Estudios in vitro o en modelos animales de eficacia
+- Prospecto de INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad)
+- Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local
+- Considerar priorizar otras indicaciones con mejor respaldo, como la poliposis en capuchón (L4) y otras candidatas de enfermedad inflamatoria intestinal o úlceras vulvares
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

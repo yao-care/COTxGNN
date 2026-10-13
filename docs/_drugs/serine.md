@@ -2,7 +2,7 @@
 layout: default
 title: Serine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 358
+nav_order: 583
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,66 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Serina: De Emulsiones Lipídicas (Nutrición Parenteral) a Miopatía Visceral Familiar
+# Serina: De Emulsiones Lipídicas a Miopatía Visceral Familiar
 
 ## Resumen en Una Frase
 
-La serina es un aminoácido que en Colombia se comercializa como componente de una emulsión inyectable de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO).
-El modelo TxGNN predice que podría ser efectiva para la **miopatía visceral familiar**,
-pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: es solo una predicción del modelo.
+La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado.
+El modelo TxGNN predice que podría ser efectiva para **miopatía visceral familiar**, pero no hay **ningún ensayo clínico** ni **publicación** que respalde esta predicción específica.
+Se trata de una predicción puramente computacional (nivel de evidencia L5).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Emulsiones lipídicas (nutrición parenteral) |
+| Indicación Original | Emulsiones lipídicas |
 | Nueva Indicación Predicha | Miopatía visceral familiar |
 | Puntaje de Predicción TxGNN | 99.99% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la serina es un aminoácido que forma parte de una mezcla de nutrición parenteral. Su uso como nutriente está establecido en ese contexto, pero no hay un mecanismo documentado que la conecte con la miopatía visceral familiar.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la serina es un aminoácido proteinogénico que forma parte de una formulación de nutrición parenteral. Su uso registrado se limita al aporte nutricional, no a un efecto terapéutico sobre una enfermedad específica.
 
-La miopatía visceral familiar es una enfermedad hereditaria del músculo liso del tubo digestivo. Suele causar seudoobstrucción intestinal. La relación con la indicación original es indirecta. Los pacientes con fallo intestinal pueden requerir nutrición parenteral, pero eso no implica que la serina trate la enfermedad.
+Los datos compilados no respaldan un vínculo mecanístico entre la serina y la patología del músculo liso visceral (por ejemplo, las variantes del gen ACTG2 asociadas a la miopatía visceral familiar). La alta puntuación del modelo parece reflejar proximidad en el grafo de conocimiento, no evidencia biológica o clínica directa.
 
-El puntaje de 99.99% proviene únicamente del modelo. No hay ensayos ni literatura que lo confirmen. Por eso esta predicción debe considerarse una hipótesis sin sustento clínico.
+Cabe señalar que las otras predicciones de mayor rango (seudoobstrucción intestinal, obstrucción intestinal, displasia neuronal intestinal) pertenecen al mismo grupo de trastornos de motilidad intestinal, lo que sugiere una señal compartida del grafo y no evidencia específica para cada enfermedad. La similitud con la indicación original queda pendiente de evaluar.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para miopatía visceral familiar.
+
+Como referencia, la segunda predicción (obstrucción intestinal) recuperó publicaciones, pero ninguna evalúa la serina como tratamiento. Provienen de coincidencias con la palabra «serina» (por ejemplo, la quinasa serina/treonina STK11 en el síndrome de Peutz-Jeghers), por lo que no constituyen evidencia a favor del fármaco. Lo mismo ocurre con las publicaciones sobre PRSS56 (una serina proteasa) en glaucoma de ángulo cerrado.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20216947 | NUTRIFLEX® OMEGA SPECIAL NOVO (B. BRAUN MEDICAL S.A.) | Emulsión inyectable | Emulsiones lipídicas |
+| 20216947 (cancelado) | NUTRIFLEX® OMEGA SPECIAL NOVO (B. Braun Medical S.A.) | Emulsión inyectable | Emulsiones lipídicas |
 
-Los datos reportan 20 registros en total. Las cinco filas disponibles corresponden todas al mismo número de registro (20216947) y al mismo producto, por eso se muestra una sola fila.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no provenientes del prospecto): epilepsia, trastornos de ansiedad y otros trastornos mentales (neuróticos, psicóticos, esquizoafectivos, distimia), abuso/dependencia de sustancias, enfermedad renal (incluida enfermedad renal crónica y terminal, nefrolitiasis, nefrocalcinosis, nefropatía aguda por uratos), diabetes mellitus y cetoacidosis diabética, hipercalcemia (incluida la de origen maligno), trastornos del metabolismo del fósforo, sarcoidosis, enfermedad cardíaca y cardiovascular, fibrilación ventricular, intoxicación digitálica, déficit de vitamina B12 y anemia megaloblástica. Estas señales deben verificarse y no sustituyen la información del prospecto.
+- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no estaban disponibles en los datos compilados.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura y no hay mecanismo de acción documentado (nivel L5). Los resultados que el sistema recuperó para otras indicaciones predichas, como la obstrucción intestinal y el glaucoma de ángulo cerrado, parecen coincidencias de palabras clave. Por ejemplo, "serine protease" o "serine/threonine kinase" no se refieren al aminoácido serina como fármaco. Por lo tanto, no sustentan el reposicionamiento.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura que evalúen la serina para miopatía visceral familiar. Además, el único registro sanitario en Colombia está cancelado y la literatura recuperada para otras indicaciones proviene de coincidencias con el término «serina».
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de la serina (DrugBank) y análisis de su vínculo con la biología de la miopatía visceral familiar
-- Prospecto del INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad
-- Búsqueda dirigida de estudios preclínicos o clínicos sobre serina en seudoobstrucción intestinal o miopatías viscerales
-- Evaluación de compatibilidad de vía de administración (actualmente solo hay una emulsión inyectable)
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), una brecha de datos bloqueante para el tamizaje de seguridad.
+- Consultar el mecanismo de acción en DrugBank y evaluar un posible vínculo con la fisiopatología de la miopatía visceral familiar.
+- Realizar una búsqueda dirigida de literatura y ensayos que evalúen la serina (no términos relacionados) en trastornos de motilidad intestinal.
+- Evaluar la compatibilidad de vías de administración y la similitud con la indicación original (hoy pendientes).
+- Considerar estudios preclínicos antes de cualquier avance clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

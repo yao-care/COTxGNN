@@ -2,7 +2,7 @@
 layout: default
 title: Pregabalin
 parent: Evidencia Moderada (L3-L4)
-nav_order: 333
+nav_order: 532
 evidence_level: L4
 indication_count: 6
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Pregabalina: De Dolor Neuropático a Tendinitis
+# Pregabalina: De Indicación Registrada (Pregabalina) a Tendinitis
 
 ## Resumen en Una Frase
 
-La pregabalina es un ligando de la subunidad alfa2-delta de los canales de calcio dependientes de voltaje, conocido por su uso en dolor neuropático. El registro sanitario colombiano solo consigna el nombre del principio activo, sin texto de indicación.
-El modelo TxGNN predice que podría ser efectiva para **tendinitis**, pero hay **0 ensayos clínicos** y solo **6 publicaciones**, todas indirectas: analgesia perioperatoria, casos y estudios preclínicos. Ninguna prueba la pregabalina como tratamiento de la tendinitis.
+Pregabalina es un ligando de la subunidad alfa2-delta de los canales de calcio dependientes de voltaje, registrada en Colombia bajo el nombre genérico "Pregabalina" (el registro no detalla una indicación específica).
+El modelo TxGNN predice que podría ser efectivo para **tendinitis**, con **0 ensayos clínicos** y **6 publicaciones** de relevancia indirecta.
+Cabe destacar que la indicación con mayor respaldo entre las predichas es la **migraña** (1 ensayo de Fase 3 retirado y varios ECA pediátricos), que se comenta en la conclusión.
 
 ---
 
@@ -42,29 +43,27 @@ El modelo TxGNN predice que podría ser efectiva para **tendinitis**, pero hay *
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro INVIMA (el texto solo dice "PREGABALINA"). Uso conocido: dolor neuropático |
+| Indicación Original | Pregabalina (el registro sanitario no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Tendinitis |
 | Puntaje de Predicción TxGNN | 99.71% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La pregabalina se une a la subunidad alfa2-delta de los canales de calcio dependientes de voltaje. Esto reduce la liberación de neurotransmisores excitatorios y la sensibilización central del dolor. Por eso se usa en dolor neuropático.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos principal. Según la información conocida, pregabalina se une a la subunidad alfa2-delta de los canales de calcio dependientes de voltaje, lo que reduce la liberación de neurotransmisores excitadores y atenúa la señalización del dolor neuropático y de la sensibilización central.
 
-En la tendinitis, el vínculo mecanístico sería indirecto. El fármaco podría aliviar el dolor asociado a la tendinopatía, pero no actúa sobre la patología del tendón (inflamación, degeneración o reparación tisular). Las publicaciones encontradas apoyan solo su uso como analgésico perioperatorio (por ejemplo, tras reparación artroscópica del manguito rotador) y en contextos de dolor neuropático.
-
-El puntaje TxGNN es muy alto (0.997), pero es una predicción basada en grafos de conocimiento y no está respaldado por datos clínicos. Debe leerse como una hipótesis de alivio sintomático, no de tratamiento de la enfermedad.
+Este mecanismo podría aliviar el dolor asociado a la tendinopatía, pero no hay evidencia de que actúe sobre la patología tendinosa de fondo. La literatura disponible es indirecta: analgesia perioperatoria tras reparación artroscópica del manguito rotador, reportes de caso y un reporte de discapacidad asociada a fluoroquinolonas. El puntaje TxGNN, muy alto, no está respaldado por datos clínicos directos.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 ---
 
@@ -72,12 +71,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | ECA | Arthroscopy | Tras reparación artroscópica del manguito rotador, la pregabalina oral perioperatoria logró puntajes de dolor postoperatorio equivalentes al bloqueo interescalénico del plexo braquial. Es analgesia posquirúrgica, no tratamiento de tendinitis. |
-| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Cohorte retrospectiva | J Orthop Sci | Evalúa el efecto analgésico y ahorrador de opioides de la pregabalina tras cirugía del manguito rotador. La literatura previa mostraba resultados contradictorios. |
-| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial | Arthroscopy | Comentario sobre el síndrome piriforme y su tratamiento con neurólisis del ciático y liberación del tendón piriforme. No evalúa pregabalina. |
-| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Reporte de caso | Pain Pract | Caso de atrapamiento del nervio cutáneo femoral posterior por tendinitis de isquiotibiales en un corredor de maratón. No evalúa pregabalina. |
-| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Caso/Revisión | Praxis | Discapacidad asociada a fluoroquinolonas (incluidas tendinopatías) tras ciprofloxacino. Relación tangencial con la pregabalina. |
-| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclínico | Adv Pharmacol Pharm Sci | Un extracto vegetal atenuó la neuropatía periférica inducida por vincristina en ratas. Aparece por coincidencia temática y no evalúa pregabalina en tendinitis. |
+| [32839073](https://pubmed.ncbi.nlm.nih.gov/32839073/) | 2021 | Cohorte retrospectiva (clasificada como ECA) | J Orthop Sci | Evalúa el efecto analgésico y ahorrador de opioides de pregabalina tras reparación artroscópica del manguito rotador; resultados previos conflictivos |
+| [34052386](https://pubmed.ncbi.nlm.nih.gov/34052386/) | 2022 | ECA | Arthroscopy | Pregabalina perioperatoria vs. bloqueo interescalénico del plexo braquial tras reparación del manguito rotador; compara dolor posoperatorio y consumo de opioides |
+| [40818536](https://pubmed.ncbi.nlm.nih.gov/40818536/) | 2025 | Editorial | Arthroscopy | Síndrome piriforme y síndrome glúteo profundo; sin relación directa con pregabalina en tendinitis |
+| [37051935](https://pubmed.ncbi.nlm.nih.gov/37051935/) | 2023 | Reporte de caso | Pain Pract | Pinzamiento del nervio cutáneo femoral posterior tras maratón, por tendinitis de isquiotibiales |
+| [41017607](https://pubmed.ncbi.nlm.nih.gov/41017607/) | 2025 | Revisión/Reporte de caso | Praxis | Discapacidad asociada a fluoroquinolonas (ciprofloxacino), que incluye tendinopatías |
+| [39703364](https://pubmed.ncbi.nlm.nih.gov/39703364/) | 2024 | Preclínico (animal) | Adv Pharmacol Pharm Sci | Extracto de *Cissus quadrangularis* atenúa la neuropatía periférica inducida por vincristina en ratas |
 
 ---
 
@@ -85,15 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190070 | LIMIAR ® 150 MG (Momenta Farmacéutica S.A.S.) | Cápsula dura | Solo se consigna "PREGABALINA" (sin texto de indicación) |
-
-Nota: en el conjunto de datos recibido, los cinco registros listados corresponden al mismo número de registro (20190070). El total reportado es de 20 registros sanitarios.
+| 20190070 (cancelado) | LIMIAR ® 150 MG CÁPSULA DURA | Cápsula dura | PREGABALINA |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (según el grafo de conocimiento TxGNN, no según el prospecto):** trastorno de ansiedad, trastorno neurótico, trastorno distímico, trombocitopenia, angioedema (adquirido, hereditario, no histamínico e inducido por bloqueadores del sistema renina-angiotensina-aldosterona), miopatía, enfermedad muscular y del músculo esquelético, parálisis periódica familiar, rabdomiólisis, fascitis nodular, insuficiencia renal y bloqueo auriculoventricular.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Entre las principales:
+  - **Mayor:** morfina y morfina liposomal.
+  - **Moderada:** pioglitazona, rosiglitazona, troglitazona, difenoxina, difenoxilato, dronabinol, nabilona, metoclopramida, opio y sibutramina.
+  - **Nivel no definido:** calcitriol, vitamina A, fentermina, pantoprazol, glimepirida, sucralfato, palonosetrón y nistatina.
+- La combinación con opioides y otros depresores del sistema nervioso central merece especial atención.
+- En la literatura de migraña se mencionan, además, sedación, disfunción sexual y riesgos relacionados con el sueño.
 
 ---
 
@@ -102,13 +105,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni estudios que prueben la pregabalina para tendinitis. La literatura solo respalda la analgesia perioperatoria y el dolor neuropático, y el alto puntaje TxGNN no tiene respaldo clínico.
+Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, reportes de caso y un estudio preclínico) y no hay ensayos clínicos. Además, el único registro sanitario en Colombia está cancelado, y no se dispone de advertencias ni contraindicaciones del prospecto.
 
 **Para avanzar se necesita:**
-- Estudios clínicos que evalúen la pregabalina en tendinopatía, con desenlaces de dolor y función, y no solo analgesia posquirúrgica
-- Descargar y analizar el prospecto INVIMA para completar la revisión de advertencias y contraindicaciones
-- Datos detallados de mecanismo de acción desde DrugBank
-- Considerar priorizar otra indicación predicha: **migraña** tiene evidencia más sólida (nivel L2). Incluye ECA pediátricos frente a valproato y propranolol y estudios preclínicos sobre depresión cortical propagada. Su ensayo de Fase 3 (NCT00447369) fue retirado, por lo que no hay datos confirmatorios.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Diseñar estudios clínicos específicos de pregabalina en tendinopatía, con desenlaces sobre la patología y no solo sobre el dolor.
+- Verificar la situación regulatoria actual de pregabalina en Colombia, dado que el único registro está cancelado.
+- **Línea alternativa:** la **migraña** (puntaje TxGNN 99.47%, nivel L2) cuenta con ECA pediátricos frente a propranolol y valproato, una red de metaanálisis y evidencia preclínica de inhibición de la depresión cortical propagada. Su único ensayo de Fase 3 (NCT00447369) fue retirado, por lo que se recomienda tratarla como pregunta de investigación que requiere estudios controlados en adultos antes de cualquier recomendación.
+- Las demás predicciones (miositis granulomatosa idiopática, miositis fibrosa, miositis por cuerpos de inclusión y migraña con aura de tronco encefálico) carecen de respaldo clínico y deben mantenerse en Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

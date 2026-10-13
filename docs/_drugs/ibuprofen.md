@@ -2,7 +2,7 @@
 layout: default
 title: Ibuprofen
 parent: Solo Predicción del Modelo (L5)
-nav_order: 218
+nav_order: 333
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,68 +29,84 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Ibuprofeno: De Analgésico y Antipirético a Displasia Acromesomélica tipo Hunter-Thompson
+# Ibuprofeno: De Ibuprofeno (indicación no detallada) a Displasia acromesomélica tipo Hunter-Thompson
 
 ## Resumen en Una Frase
 
-Ibuprofeno es un antiinflamatorio no esteroideo (AINE) de uso amplio como analgésico y antipirético, comercializado en Colombia, entre otras presentaciones, como suspensión oral pediátrica.
-El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, una displasia esquelética rara, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Ibuprofeno es un antiinflamatorio no esteroideo (AINE) ampliamente utilizado por sus efectos analgésico y antipirético; en Colombia su único registro sanitario corresponde a una suspensión oral pediátrica.
+El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ibuprofeno (el texto del registro INVIMA solo indica el nombre del principio activo; el uso clínico conocido es analgésico y antipirético) |
+| Indicación Original | Ibuprofeno (el registro no detalla la indicación; uso conocido: analgésico y antipirético) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 99.74% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Los datos farmacológicos disponibles indican que ibuprofeno actúa sobre COX-1 y COX-2, es decir, es un inhibidor no selectivo de la ciclooxigenasa. También aparecen como dianas PPAR-γ, ASIC1, SMCT1 y el transportador de aminoácidos acoplado a protones 1 (PAT1). Su eficacia como analgésico y antipirético está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el ibuprofeno es un inhibidor no selectivo de la ciclooxigenasa (COX-1 y COX-2), y su eficacia como analgésico y antipirético está bien establecida.
 
-**No se ha podido establecer un vínculo mecanístico** entre esta acción y la displasia acromesomélica tipo Hunter-Thompson. Esta enfermedad es una displasia esquelética rara que probablemente se origina en un defecto de señalización de factores de crecimiento (vía GDF5, no verificada en los datos suministrados). No es un proceso mediado por COX ni una condición inflamatoria. La indicación original (dolor y fiebre) y la nueva indicación no tienen similitud clínica ni fisiopatológica demostrada.
+La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético causado por variantes de pérdida de función en el gen *CDMP1/GDF5*, que alteran la señalización de BMP. No se identifica un mecanismo plausible que conecte la inhibición de COX con la corrección de ese defecto.
 
-El puntaje de 0.997 (posición 2747 en el ranking del modelo) refleja solo cercanía en el grafo de conocimiento. Por sí solo no justifica avanzar sin evidencia adicional.
+El puntaje alto (0.997) probablemente refleja la cercanía en el grafo de conocimiento entre displasias esqueléticas raras, y no una relación biológica demostrada. En el mejor de los casos, el ibuprofeno podría servir como manejo sintomático del dolor, lo cual sería cuidado de soporte y no reposicionamiento.
+
+Otras predicciones del modelo (todas L5, sin evidencia y con recomendación Hold) incluyen: síndrome de braquiolmia-amelogénesis imperfecta, miosclerosis, braquiolmia, síndrome de braquidactilia-sindactilia, pseudoacondroplasia y síndrome de microftalmía colobomatosa-displasia rizomélica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 227672 | ADVIL® CHILDREN SUSPENSION ORAL PARA NIÑOS (HALEON COLOMBIA S.A.S) | Suspensión oral | IBUPROFENO (el registro no detalla la indicación) |
+| 227672 (cancelado) | ADVIL® CHILDREN SUSPENSION ORAL PARA NIÑOS (HALEON COLOMBIA S.A.S) | Suspensión oral | IBUPROFENO |
 
-Se reportan 20 registros sanitarios en total. Los 5 registros incluidos en el paquete de evidencia son entradas repetidas del mismo número (227672), por lo que se muestran una sola vez. La única vía de administración documentada es la oral.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen de un prospecto):** el modelo asocia el ibuprofeno con posibles contraindicaciones en hipertensión, insuficiencia hepática, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, enfermedad ulcerosa péptica, enfermedad inflamatoria intestinal, lupus eritematoso sistémico, trastornos de la coagulación, accidente cerebrovascular, infarto cerebral e infarto de miocardio, entre otras (epilepsia, EPOC, hipotiroidismo, diabetes, cetoacidosis diabética, hiperplasia prostática benigna, hipotensión, deficiencia de potasio y abuso de sustancias).
+- **Interacciones y dianas farmacológicas:** se identificaron 6 dianas: COX-1 (PTGS1), COX-2 (PTGS2), PPAR-γ, ASIC1, SMCT1 (SLC5A8) y el transportador de aminoácidos acoplado a protones 1 (SLC36A1). No hay niveles de severidad de interacción con otros fármacos.
+- **Consideración adicional:** la exposición prenatal a AINE plantea preocupaciones de seguridad, lo que desfavorece su uso en malformaciones congénitas del desarrollo.
+
+Consultar el prospecto para información de seguridad completa.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo TxGNN (nivel de evidencia L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible que conecte la inhibición de COX con una displasia esquelética de origen genético. Las otras seis predicciones del ranking (síndrome braquiolmia-amelogénesis imperfecta, miosclerosis, braquiolmia, síndrome braquidactilia-sindactilia, pseudoacondroplasia y síndrome de microftalmia colobomatosa-displasia rizomélica) tienen el mismo nivel de evidencia y la misma recomendación.
+La predicción es solo computacional (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción completo desde DrugBank.
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para el cribado de seguridad.
-- Hacer una búsqueda sistemática en PubMed y ClinicalTrials.gov, con y sin nombre del fármaco, sobre la vía GDF5/BMP y el uso de AINE en esta displasia.
-- Confirmar la fisiopatología de la enfermedad con fuentes independientes.
-- Si hay evidencia mecanística, evaluar estudios preclínicos antes de considerar estudios clínicos. Un posible beneficio sintomático (dolor articular) no constituye una indicación de reposicionamiento.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Datos del mecanismo de acción y del prospecto aprobado (advertencias y contraindicaciones) para completar el análisis de seguridad
+- Estudios preclínicos que demuestren un vínculo biológico entre la inhibición de COX y la patogenia de la enfermedad
+- Verificar la situación regulatoria actual del ibuprofeno en Colombia (registros vigentes de otros productos)
+- Evaluación de la ruta de administración y de la población objetivo (pediátrica, con posible riesgo en etapas del desarrollo)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

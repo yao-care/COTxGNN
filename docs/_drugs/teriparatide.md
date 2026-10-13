@@ -2,7 +2,7 @@
 layout: default
 title: Teriparatide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 381
+nav_order: 619
 evidence_level: L5
 indication_count: 10
 ---
@@ -33,61 +33,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Teriparatida es el fragmento activo (1-34) de la hormona paratiroidea humana. Se usa para tratar la osteoporosis en pacientes con alto riesgo de fractura. El modelo TxGNN predice que podría ser efectivo para la **úlcera duodenal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción, que por ahora es solo una señal del modelo.
+La teriparatida es un fragmento activo de la hormona paratiroidea (PTH 1-34), utilizado originalmente para tratar la osteoporosis en pacientes con alto riesgo de fractura. El modelo TxGNN predice que podría ser efectiva para **úlcera duodenal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se basa únicamente en el modelo computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Osteoporosis en pacientes con alto riesgo de fractura (el registro de INVIMA solo indica «TERIPARATIDE», sin texto de indicación) |
+| Indicación Original | Osteoporosis en pacientes con alto riesgo de fractura (el registro sanitario solo indica el nombre del principio activo, "Teriparatide", sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Úlcera duodenal |
 | Puntaje de Predicción TxGNN | 99.86% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Por la información farmacológica registrada, teriparatida actúa sobre los receptores de la hormona paratiroidea PTH1R y PTH2R. Es un agente anabólico óseo que estimula la actividad de los osteoblastos, y su eficacia en osteoporosis está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica conocida, la teriparatida es un péptido que actúa sobre los receptores PTH1R y PTH2R. En el hueso y el riñón estimula la formación ósea mediada por osteoblastos, y su eficacia en osteoporosis ha sido comprobada.
 
-Para la úlcera duodenal no se identificó un mecanismo plausible. Se trata de una lesión de la mucosa gastrointestinal, ligada al ácido, a *H. pylori* o a los antiinflamatorios, y no tiene relación conocida con la señalización de la PTH ni con la formación de hueso. El puntaje alto (99.86%) probablemente refleja conexiones indirectas en el grafo de conocimiento, no un vínculo biológico demostrado.
+**No se identifica una relación mecanística plausible con la úlcera duodenal.** La indicación original (fragilidad ósea) y la nueva (lesión de la mucosa duodenal) pertenecen a sistemas distintos, y los datos disponibles no respaldan ningún papel de la señalización de PTH1R en la cicatrización de la mucosa duodenal.
 
-Por eso esta predicción debe leerse como una hipótesis sin respaldo. No hay razón mecanística ni datos clínicos que justifiquen avanzar.
+El puntaje alto de TxGNN (99.86%) es una predicción basada en grafos de conocimiento. Probablemente refleja la cercanía entre nodos de enfermedades en la red y no un hallazgo biológico o clínico. Por ello debe tratarse como una señal computacional sin validación.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Solo figura «TERIPARATIDE», sin texto de indicación |
+| 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Teriparatide (sin texto de indicación detallado); estado: cancelado |
 
-El total reportado es de 20 registros. Los cinco detalles entregados corresponden al mismo número de registro (20177308), por lo que se muestra una sola fila. La única forma farmacéutica registrada es la solución inyectable.
+El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (no provienen del texto del prospecto): hipotensión, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, osteosarcoma óseo, enfermedad ósea de Paget, enfermedad de Paget juvenil, osteomalacia, raquitismo, urolitiasis, osteodistrofia renal, osteítis fibrosa e hiperparatiroidismo.
+- **Interacciones farmacológicas:** no se reportan interacciones con otros fármacos. La consulta solo devolvió información de los blancos farmacológicos (receptores PTH1R y PTH2R).
+
+Las advertencias y contraindicaciones del prospecto de INVIMA no están disponibles. Consultar el prospecto para información de seguridad completa.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para úlcera duodenal es de nivel L5, sin ensayos ni literatura, y no existe un mecanismo biológico plausible que la sustente. No hay base para avanzar.
+La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Un vínculo mecanístico documentado entre la señalización PTH1R/PTH2R y la fisiopatología de la úlcera duodenal, o estudios preclínicos que lo sugieran.
-- Los datos de seguridad del prospecto de INVIMA (advertencias y contraindicaciones), que faltan y bloquean el análisis de seguridad.
-- Los datos del mecanismo de acción desde DrugBank.
-
-**Otras predicciones del mismo fármaco.** La predicción con mayor respaldo no es la principal de esta lista. Es la **osteoporosis asociada al embarazo y la lactancia**, con nivel L3 (recomendación: Proceed with Guardrails). Cuenta con 2 ensayos clínicos indirectos, una revisión sistemática con metaanálisis y un estudio de cohorte retrospectivo sobre el uso de teriparatida, pero ningún ECA. El mecanismo encaja directamente con este fármaco. Se recomienda evaluarla en un informe aparte. Además, la pérdida ósea en la amenorrea hipotalámica funcional (L4) puede tratarse como pregunta de investigación.
+- Una hipótesis mecanística que justifique el papel de PTH1R/PTH2R en la mucosa duodenal, y estudios preclínicos que la respalden.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
+- Datos detallados del mecanismo de acción (MOA).
+- Confirmar la situación regulatoria (registro cancelado) y la disponibilidad de producto en Colombia.
+- Priorizar otras predicciones del mismo fármaco con mejor sustento. Por ejemplo, la osteoporosis asociada al embarazo y la lactancia tiene literatura observacional (nivel L3) y una relación biológica coherente con el mecanismo de la teriparatida. Esta evidencia debería verificarse en los textos completos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

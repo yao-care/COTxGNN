@@ -2,7 +2,7 @@
 layout: default
 title: Crizotinib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 141
+nav_order: 181
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,75 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Crizotinib: De Indicación Original No Especificada en el Registro a Fibromatosis Gingival
+# Crizotinib: De Indicación Registrada (Crizotinib) a Fibromatosis Gingival
 
 ## Resumen en Una Frase
 
-Crizotinib es un inhibidor de quinasas (ALK, ROS1 y MET) que se comercializa en Colombia como XALKORI®, pero el registro sanitario local no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET) cuyo único registro sanitario en Colombia (Xalkori®, Pfizer) figura hoy como cancelado, y el texto de indicación registrado solo repite el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con un puntaje muy alto (99.81%), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción basada únicamente en el grafo de conocimiento, sin evidencia real que la sustente.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo repite el nombre "CRIZOTINIB", sin indicación) |
+| Indicación Original | No especificada en el registro (el texto de indicación solo dice "CRIZOTINIB"); en la literatura, cáncer de pulmón de células no pequeñas ALK/ROS1 positivo |
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 99.81% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida en el resto del paquete, crizotinib es un inhibidor de tirosina quinasas (ALK, ROS1 y MET) usado en oncología. Con los datos suministrados no se puede establecer un vínculo mecanístico con la fibromatosis gingival.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, crizotinib inhibe las quinasas ALK, ROS1 y MET, y su eficacia está comprobada en el cáncer de pulmón de células no pequeñas con reordenamientos de ALK o ROS1.
 
-La fibromatosis gingival es un sobrecrecimiento fibroso benigno de las encías. No hay ningún ensayo clínico ni publicación que relacione crizotinib con esta condición, y tampoco se pudo evaluar su similitud con la indicación original.
+La relación entre la indicación original (un cáncer impulsado por oncogenes quinasa) y la fibromatosis gingival (un sobrecrecimiento fibroso benigno de la encía) **no es evidente**. No se identificó ninguna vía de ALK, ROS1 o MET vinculada con la patología de la fibromatosis gingival, y no hay ensayos ni literatura que apoyen un vínculo.
 
-El puntaje alto (99.81%, posición 2136 en el ranking del modelo) es solo una señal computacional. No sustituye a la evidencia experimental o clínica.
+Por lo tanto, el puntaje alto del modelo debe interpretarse con cautela: es una asociación derivada del grafo de conocimiento, no una hipótesis mecanística respaldada. Cualquier avance requeriría primero establecer una justificación biológica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20083808 | XALKORI® 200MG CÁPSULAS (PFIZER S.A.S.) | Cápsula dura | CRIZOTINIB (el registro no detalla la indicación) |
+| 20083808 | XALKORI® 200MG CÁPSULAS (Pfizer S.A.S.) | Cápsula dura | CRIZOTINIB (estado: cancelado) |
 
-El paquete muestra 5 entradas idénticas del mismo registro 20083808, por lo que se presenta una sola fila. El total informado es de 20 registros sanitarios.
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasas ALK/ROS1/MET) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de tirosina quinasa ALK/ROS1/MET) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar el prospecto. La literatura recuperada para otras predicciones de este fármaco describe hepatotoxicidad (incluido un caso de falla hepática fulminante), toxicidad cardíaca (bradicardia, prolongación del QT) y enfermedad pulmonar intersticial |
-| Protección en Manejo | Consultar el prospecto y las regulaciones locales de manejo de fármacos antineoplásicos |
+| Items de Monitoreo | Hemograma, función hepática y renal; según la literatura revisada, vigilancia de función hepática y de ritmo/QT cardíaco |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Entre las de nivel **Mayor** destacan claritromicina, cisaprida, dolasetrón, eliglustat y granisetrón. Entre las de nivel **Moderado** figuran famotidina, metformina, loperamida, bupropión, aprepitant, dexametasona, budesonida, bisacodilo, clotrimazol y varios laxantes (ácido picosulfúrico, polietilenglicol, aceite de ricino, glicerina).
+- **Señales de la literatura revisada** (casos clínicos en pacientes con cáncer): insuficiencia hepática fulminante fatal, toxicidad cardíaca (bradicardia, prolongación del QT, síndrome del seno enfermo), esofagitis erosiva en un paciente pediátrico y eritema multiforme.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos ni publicaciones que respalden crizotinib en fibromatosis gingival, y el mecanismo no explica la predicción. Además, el perfil de toxicidad descrito en la literatura recuperada para otras predicciones (hígado, corazón, pulmón) pesa en contra de un uso exploratorio en una condición benigna.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de ALK/ROS1/MET y la fibromatosis gingival. Además, el único registro sanitario en Colombia está cancelado y el perfil de seguridad de crizotinib (hepático y cardíaco) es poco favorable para una enfermedad benigna.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, ya que hoy bloquea el tamizaje de seguridad.
-- Completar el mecanismo de acción desde DrugBank y la indicación aprobada real del registro.
-- Buscar literatura preclínica o series de casos que relacionen ALK, ROS1 o MET con la fibromatosis gingival.
-- Considerar priorizar otras predicciones del mismo fármaco con más soporte. Por ejemplo, el carcinoma del hilio pulmonar (posición 4) tiene casos clínicos en pacientes con fusión ALK o ROS1 y quedó como pregunta de investigación (nivel L4).
+- Datos detallados del mecanismo de acción y una hipótesis biológica que conecte las vías ALK/ROS1/MET con la fibromatosis gingival
+- Estudios preclínicos que muestren un efecto sobre fibroblastos gingivales o modelos de la enfermedad
+- Información de seguridad del prospecto del INVIMA (advertencias y contraindicaciones)
+- Aclarar el estado regulatorio en Colombia (registro cancelado) y la viabilidad de acceso al producto
+- Evaluar el balance riesgo-beneficio frente a alternativas para una condición benigna
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

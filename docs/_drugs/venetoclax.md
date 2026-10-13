@@ -2,7 +2,7 @@
 layout: default
 title: Venetoclax
 parent: Evidencia Moderada (L3-L4)
-nav_order: 404
+nav_order: 656
 evidence_level: L4
 indication_count: 10
 ---
@@ -29,12 +29,11 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Venetoclax: De Indicación Original No Declarada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (Subtipo de Pre-Centro Germinal)
+# Venetoclax: De Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo de centro pregerminal)
 
 ## Resumen en Una Frase
 
-Venetoclax es un inhibidor selectivo de BCL-2 que se comercializa en Colombia como tabletas recubiertas. El registro sanitario consultado no incluye un texto de indicación aprobada, solo el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica crónica/linfoma linfocítico de células pequeñas del subtipo pre-centro germinal**, pero hoy la evidencia es mínima: **0 ensayos clínicos** y **1 publicación** indirecta.
+Venetoclax es un inhibidor oral de BCL-2. Su registro sanitario en Colombia solo consigna el nombre del principio activo y no detalla la indicación aprobada. El modelo TxGNN predice que podría ser efectivo en **leucemia linfocítica crónica/linfoma linfocítico de células pequeñas (LLC/LLCP) del subtipo de centro pregerminal**, pero solo hay **0 ensayos clínicos** y **1 publicación** indirecta que respalden esta predicción. Además, este subtipo pertenece a una indicación ya establecida de venetoclax, por lo que no es un reposicionamiento genuino.
 
 ---
 
@@ -42,23 +41,29 @@ El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice "VENETOCLAX") |
-| Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas de pre-centro germinal |
-| Puntaje de Predicción TxGNN | 99,55 % |
+| Indicación Original | No especificada en el registro (el texto aprobado solo repite el nombre "Venetoclax") |
+| Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas del centro pregerminal (LLC/LLCP con IGHV no mutado) |
+| Puntaje de Prediccion TxGNN | 99.55% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado; 0 vigentes) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone en DrugBank de datos detallados sobre el mecanismo de acción. Según el análisis del paquete de evidencia, venetoclax es un inhibidor selectivo de BCL-2 (mimético de BH3). Las células de LLC/LLP dependen de la sobreexpresión de BCL-2 para sobrevivir, de modo que el mecanismo encaja bien con esta enfermedad.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Venetoclax se conoce como un inhibidor selectivo de la proteína antiapoptótica BCL-2. Al bloquearla, restablece la muerte celular programada en células malignas que dependen de BCL-2 para sobrevivir.
 
-Hay un punto que conviene aclarar antes de tratar esto como reposicionamiento. El paquete indica que venetoclax suele estar autorizado para LLC/LLP. Por eso esta entrada probablemente corresponde a un subtipo de una indicación ya existente y no a un reposicionamiento genuino. Como el registro colombiano no lista la indicación, esta conclusión debe verificarse contra la etiqueta oficial.
+La LLC/LLCP es una neoplasia de linfocitos B con marcada dependencia de BCL-2, por lo que el encaje mecanístico es fuerte. El subtipo predicho corresponde a la LLC con genes IGHV no mutados, de origen pregerminal y pronóstico desfavorable. Según el análisis de los datos, este subtipo forma parte de una indicación ya establecida de venetoclax (LLC/LLCP). Por eso la predicción es biológicamente plausible, pero más una confirmación que un hallazgo nuevo.
 
-La única publicación disponible es una revisión sobre la estructura y función del receptor de células B (BCR) en la LLC. Distingue el subtipo de pre-centro germinal (IGHV no mutado, peor pronóstico) del de post-centro germinal (IGHV mutado, mejor pronóstico). Esa revisión aporta contexto biológico, pero no evalúa venetoclax.
+La única publicación vinculada es una revisión sobre la estructura y función del receptor de células B (BCR) tumoral en la LLC. Aporta contexto biológico sobre este subtipo, pero no evalúa venetoclax directamente. Por ello la evidencia es indirecta.
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados para este subtipo específico.
 
 ---
 
@@ -66,9 +71,7 @@ La única publicación disponible es una revisión sobre la estructura y funció
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Revisión / análisis biológico | Cancers | Revisa la estructura y función del BCR tumoral en LLC. Describe los subtipos de pre-centro germinal (IGHV no mutado, mal pronóstico) y post-centro germinal (IGHV mutado, buen pronóstico). No evalúa venetoclax directamente. |
-
-*Actualmente no hay ensayos clínicos relacionados registrados para esta indicación específica.*
+| [35158929](https://pubmed.ncbi.nlm.nih.gov/35158929/) | 2022 | Revisión / análisis traslacional | Cancers | Analiza la estructura y función del receptor de células B tumoral en la LLC. Distingue la LLC con IGHV no mutado (origen pregerminal, mal pronóstico) de la mutada (origen postgerminal, buen pronóstico). Es evidencia indirecta sobre biología, no sobre venetoclax. |
 
 ---
 
@@ -76,10 +79,9 @@ La única publicación disponible es una revisión sobre la estructura y funció
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20139971 | VENCLEXTA® 100 MG | Tableta recubierta | VENETOCLAX (solo se lista el principio activo) |
-| 20139971 | VENCLEXTA® 10 MG | Tableta recubierta | VENETOCLAX (solo se lista el principio activo) |
+| 20139971 (cancelado) | VENCLEXTA® 100 MG TABLETA RECUBIERTA (ABBVIE S.A.S.) | Tableta recubierta | Solo consigna el nombre del principio activo ("Venetoclax"), sin indicación detallada |
 
-Titular: ABBVIE S.A.S. Vía de administración: oral. Las cinco filas del paquete corresponden al mismo número de registro, repetido por presentación, por lo que aquí se muestran las dos presentaciones distintas.
+Venetoclax no tiene ningún registro vigente en Colombia. El único registro existente está cancelado.
 
 ---
 
@@ -87,17 +89,42 @@ Titular: ABBVIE S.A.S. Vía de administración: oral. Las cinco filas del paquet
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de BCL-2) |
-| Riesgo de Mielosupresión | Presente. La literatura del paquete señala la mielosupresión y el síndrome de lisis tumoral como los eventos más comunes con venetoclax. |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de BCL-2, mimético de BH3) |
+| Riesgo de Mielosupresión | Medio a alto. La literatura describe citopenias (neutropenia, trombocitopenia) como eventos frecuentes |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial (citopenias), signos de síndrome de lisis tumoral, función hepática y renal, electrolitos |
+| Items de Monitoreo | Hemograma con diferencial, función renal y hepática, electrolitos, ácido úrico y fósforo (riesgo de síndrome de lisis tumoral) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas:** la consulta de interacciones se completó y arrojó 100 interacciones. Entre las 20 listadas, las de nivel **mayor** son:
+  - Aprepitant
+  - Dexametasona
+  - Claritromicina
+  - Eliglustat
+  - Rolapitant
+  - Fidaxomicina
+  - Cobicistat
+  - Deferiprona
+  - Samario (153Sm) lexidronam
+
+  Las de nivel **moderado** incluyen:
+  - Alvimopán
+  - Loperamida
+  - Cimetidina
+  - Naldemedina
+  - Metreleptina
+  - Miconazol
+  - Rifaximina
+  - Clotrimazol
+  - Troglitazona
+  - Deferasirox
+
+  La de nivel **menor** es naloxegol.
+- Venetoclax es sustrato de CYP3A. Los inhibidores de esta enzima, como los azoles (p. ej., posaconazol) y los macrólidos, pueden requerir ajuste de dosis.
+- Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -106,13 +133,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para este subtipo y la única publicación es una revisión biológica indirecta. La predicción de TxGNN es plausible por el mecanismo, pero este paquete no basta para respaldarla. Además, la entrada probablemente ya está cubierta por la indicación general de LLC/LLP, por lo que no está claro que sea un reposicionamiento real.
+La evidencia específica para este subtipo es mínima: no hay ensayos clínicos y la única publicación es una revisión biológica indirecta. Además, el subtipo ya forma parte de una indicación establecida de venetoclax (LLC/LLCP), por lo que no constituye un hallazgo de reposicionamiento. En Colombia no existe ningún registro vigente.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA para confirmar la indicación autorizada (¿ya incluye LLC/LLP?) y obtener advertencias y contraindicaciones. Sin esto no se puede pasar al tamizaje de seguridad.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Buscar literatura y ensayos específicos de venetoclax en LLC/LLP con IGHV no mutado, por ejemplo el estudio MURANO (PMID 40009494), que aparece en el paquete bajo otra entrada.
-- Nota: el paquete contiene otras indicaciones predichas con más respaldo, como leucemia mieloide (L1, Phase 3 con VIALE-A) y linfoma folicular (L2), que conviene evaluar en informes separados.
+- Obtener y analizar el prospecto del INVIMA (advertencias, contraindicaciones e indicaciones aprobadas) para completar la evaluación de seguridad.
+- Obtener datos detallados del mecanismo de acción desde DrugBank.
+- Aclarar la situación regulatoria: el registro está cancelado y el texto de indicación no detalla el uso aprobado.
+- Reorientar el análisis hacia candidatos con evidencia clínica específica, como linfoma folicular (L2) o leucemia mieloide crónica BCR-ABL1 positiva (L2). La leucemia mieloide (L1) ya es un uso clínico establecido.
+- Diseñar un plan de monitoreo para síndrome de lisis tumoral, citopenias e interacciones con inhibidores de CYP3A.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

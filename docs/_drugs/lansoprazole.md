@@ -2,7 +2,7 @@
 layout: default
 title: Lansoprazole
 parent: Evidencia Moderada (L3-L4)
-nav_order: 242
+nav_order: 380
 evidence_level: L4
 indication_count: 2
 ---
@@ -29,68 +29,84 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Lansoprazol: De Trastornos Ácido-Pépticos a Reflujo Duodenogástrico
+# Lansoprazol: De Lansoprazol (indicación no detallada) a Reflujo Duodenogástrico
 
 ## Resumen en Una Frase
 
-Lansoprazol es un inhibidor de la bomba de protones (IBP) usado para enfermedades relacionadas con el ácido gástrico, como úlcera péptica y enfermedad por reflujo gastroesofágico. El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**, pero **no hay ensayos clínicos** que lo respalden y solo existen **2 publicaciones** de apoyo indirecto: una revisión general de IBP y un estudio en ratas que señala un posible riesgo.
+Lansoprazol es un inhibidor de la bomba de protones, registrado en Colombia bajo el producto LANZOR® 30 mg cápsula; el registro sanitario no detalla una indicación específica más allá del nombre del principio activo.
+El modelo TxGNN predice que podría ser efectivo para **Reflujo Duodenogástrico**, pero actualmente no hay ensayos clínicos y solo **1 publicación** (una revisión general sobre inhibidores de la bomba de protones) respalda esta dirección de forma indirecta.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto del registro solo dice "LANSOPRAZOL"). Según la literatura: úlcera péptica, infección por *H. pylori*, reflujo gastroesofágico, lesiones por AINE y síndrome de Zollinger-Ellison |
+| Indicación Original | LANSOPRAZOL (el registro no especifica la indicación) |
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
 | Puntaje de Predicción TxGNN | 99.69% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Por conocimiento general, lansoprazol pertenece a la clase de los IBP, que reducen la secreción de ácido gástrico, y su eficacia en enfermedades ácido-pépticas está bien establecida. Mecanísticamente, esa supresión ácida podría aliviar la irritación de la mucosa gástrica causada por el contenido duodenal que refluye.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, lansoprazol pertenece a la clase de los inhibidores de la bomba de protones (IBP), que suprimen la secreción de ácido gástrico.
 
-Sin embargo, el reflujo duodenogástrico depende sobre todo de la bilis y de la motilidad digestiva. Reducir el ácido no ataca la causa. Por eso el vínculo se apoya en la farmacología general de los IBP y no en datos propios del fármaco. El puntaje de 99.69% es solo una predicción computacional.
+El reflujo duodenogástrico consiste en el paso de contenido duodenal (bilis y secreciones pancreáticas) hacia el estómago. La supresión ácida podría reducir la lesión de la mucosa y los síntomas en un reflujo mixto ácido/biliar, pero no evita el reflujo en sí. Por lo tanto, el vínculo es sintomático e indirecto.
+
+El puntaje alto de TxGNN (0.997) es una predicción computacional y no constituye evidencia clínica. La relación mecanística se apoya únicamente en el mecanismo conocido de la clase de los IBP.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | Eur J Clin Pharmacol | Los IBP son el tratamiento de primera elección en úlcera péptica, infección por *H. pylori*, reflujo gastroesofágico, lesiones por AINE y síndrome de Zollinger-Ellison. No trata el reflujo duodenogástrico |
-| [15052437](https://pubmed.ncbi.nlm.nih.gov/15052437/) | 2004 | Estudio animal (rata) | Gastric Cancer | Estudia el efecto combinado del reflujo gastroduodenal y la inhibición ácida. El título indica que lansoprazol favoreció la carcinogénesis gástrica en ratas con reflujo, lo que es una señal de alerta |
+| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualización del uso clínico y la farmacocinética de los IBP, que son de primera elección en úlcera péptica, infección por *H. pylori*, enfermedad por reflujo gastroesofágico, lesiones por AINE y síndrome de Zollinger-Ellison. No aborda directamente el reflujo duodenogástrico. |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20057384 | LANZOR® 30 MG CÁPSULA (NOVAMED S.A.S.) | Cápsula dura | LANSOPRAZOL (el registro no detalla la indicación) |
+| 20057384 (cancelado) | LANZOR® 30 MG CÁPSULA | Cápsula dura | LANSOPRAZOL |
 
-Nota: las entradas devueltas comparten el mismo número de registro, por lo que se muestran una sola vez. El total reportado es de 20 registros.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento (PrimeKG, no provienen del prospecto):** hipertensión, síndrome de QT largo, torsades de pointes, insuficiencia hepática, porfiria, enfermedad renal, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, osteoporosis, trastornos de coagulación, accidente cerebrovascular, infarto de miocardio, anemia, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal y miastenia gravis. Estas relaciones son asociaciones del grafo y deben verificarse con la información oficial del producto.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones; las primeras 20 incluyen:
+  - **Mayores:** acalabrutinib, atazanavir.
+  - **Moderadas:** hidroclorotiazida, anfotericina B, amikacina, anfetamina, ampicilina, fenofibrato, apalutamida, aprepitant, atorvastatina, bosutinib, brigatinib, bromocriptina, entre otras.
+  - **Menores:** ácido acetilsalicílico, axitinib, brivaracetam, cianocobalamina.
 
-Como señal de precaución, el estudio en ratas (2004) sugiere que la supresión ácida con lansoprazol podría promover carcinogénesis gástrica en presencia de reflujo duodenogástrico. Es un dato preclínico y no se ha confirmado en humanos.
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para esta indicación, el mecanismo no aborda la causa del reflujo duodenogástrico y la única evidencia específica es un estudio en ratas con una señal de riesgo. El alto puntaje de TxGNN es solo una predicción computacional. La segunda predicción del modelo, obstrucción duodenal, tampoco tiene un vínculo mecanístico creíble y también queda en Hold.
+La predicción se apoya solo en el puntaje del modelo y en una revisión general de IBP, sin ensayos clínicos específicos para reflujo duodenogástrico. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (consulta a DrugBank)
-- Advertencias y contraindicaciones del prospecto de INVIMA
-- Estudios clínicos o de observación específicos en reflujo duodenogástrico
-- Evaluación del riesgo de carcinogénesis gástrica señalado en el estudio animal
-- Aclarar la indicación aprobada en el registro sanitario
+- Estudios clínicos o literatura específica sobre lansoprazol en reflujo duodenogástrico.
+- Datos del mecanismo de acción confirmados desde DrugBank.
+- Prospecto oficial de INVIMA con advertencias y contraindicaciones.
+- Verificar la situación regulatoria actual (registro cancelado) y la viabilidad de comercialización.
+- Evaluar de forma clínica las contraindicaciones del grafo de conocimiento y las interacciones mayores.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Agomelatine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 30
+nav_order: 31
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,94 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Agomelatina: De Trastorno Depresivo Mayor a Tortícolis Paroxística Benigna de la Infancia
+# Agomelatina: De Antidepresivo (AGOMELATINA) a Tortícolis Paroxística Benigna de la Infancia
 
 ## Resumen en Una Frase
 
-Agomelatina es un antidepresivo (comercializado como Valdoxan®) que se usa para el trastorno depresivo mayor.
-El modelo TxGNN predice que podría ser efectivo para la **tortícolis paroxística benigna de la infancia**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+Agomelatina es un antidepresivo que actúa sobre los receptores de melatonina (MT1/MT2) y serotonina (5-HT2C), registrado en Colombia bajo el nombre comercial Valdoxan®.
+El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística benigna de la infancia**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trastorno depresivo mayor (según los datos de farmacología; el registro sanitario solo indica "AGOMELATINA") |
+| Indicación Original | AGOMELATINA (el registro sanitario no detalla la indicación; el uso conocido es el trastorno depresivo mayor) |
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según el conocimiento farmacológico general, agomelatina es agonista de los receptores de melatonina MT1 y MT2 y antagonista del receptor de serotonina 5-HT2C. Su eficacia en la depresión mayor está establecida y es su uso autorizado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, agomelatina es agonista de los receptores de melatonina MT1 y MT2 y antagonista del receptor serotoninérgico 5-HT2C. Estos blancos también aparecen en los datos farmacológicos de interacciones (5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2).
 
-La tortícolis paroxística benigna de la infancia es un trastorno pediátrico episódico, similar a una canalopatía, que a menudo se asocia con variantes del gen CACNA1A. No se identificó ninguna vía plausible que conecte la farmacología de agomelatina (ritmos circadianos, modulación serotoninérgica y dopaminérgica frontocortical) con esta enfermedad.
+**La predicción tiene una plausibilidad mecanística muy baja.** La tortícolis paroxística benigna de la infancia es un trastorno pediátrico autolimitado, a menudo asociado a variantes genéticas de canales iónicos (frecuentemente CACNA1A). No se identificó ninguna superposición con las vías melatoninérgicas o serotoninérgicas.
 
-El puntaje alto (99.96%) proviene solo de la proximidad en el grafo de conocimiento, no de evidencia clínica ni mecanística. Por eso esta predicción debe leerse como una señal computacional sin sustento farmacológico visible.
+El puntaje alto del modelo (99.96%) refleja una predicción basada en la red de conocimiento, sin respaldo clínico o experimental. Debe interpretarse con cautela.
+
+### Otras predicciones del modelo (contexto)
+
+Estas candidatas se mencionan solo como contexto; no son el foco del informe:
+
+| Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
+|------|------|------|------|
+| Agorafobia | 99.95% | L5 | Plausibilidad indirecta por la actividad ansiolítica en ansiedad generalizada; sin evidencia específica |
+| Trastorno neurótico | 99.90% | L4 | Categoría amplia y antigua; solo una revisión general de antidepresivos |
+| Melancolía | 99.88% | L4 | Subtipo depresivo dentro de la indicación aprobada; no es un reposicionamiento real |
+| Depresión neurótica | 99.88% | L4 | Término antiguo cercano a la distimia; evidencia general de depresión |
+| Distimia | 99.86% | L4 | Un metaanálisis de antidepresivos en distimia (2011), sin demostrar que incluya agomelatina |
+
+Las predicciones restantes (síndrome de Ohdo y variantes, conjuntivitis leñosa, síndrome de Keppen-Lubinsky) son solo predicciones sin vínculo mecanístico ni evidencia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para tortícolis paroxística benigna de la infancia.
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros sanitarios en total. Los 5 primeros devueltos son entradas idénticas del mismo registro, por lo que se muestra una sola fila.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20014920 | VALDOXAN® 25 MG (LES LABORATOIRES SERVIER) | Comprimido | AGOMELATINA | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20014920 | VALDOXAN® 25 MG (Les Laboratoires Servier) | Comprimido | AGOMELATINA (el registro no detalla la indicación) |
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas:** la consulta se completó, pero los 5 resultados son dianas farmacológicas de agomelatina, no interacciones con otros fármacos. Son los receptores 5-HT2A (HTR2A), 5-HT2B (HTR2B), 5-HT2C (HTR2C), MT1 (MTNR1A) y MT2 (MTNR1B). No hay niveles de severidad de interacciones.
+- **Interacciones farmacológicas**: la consulta se completó y devolvió 5 registros, todos de farmacología de blancos (no interacciones con otros medicamentos): receptores 5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2. No se identificaron interacciones medicamentosas con nivel de gravedad asignado.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura, y no se identificó un vínculo mecanístico plausible con una enfermedad episódica de tipo canalopatía en niños. El puntaje alto del modelo por sí solo no basta para avanzar.
+La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad y el único registro sanitario en Colombia está cancelado. No hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde DrugBank
-- Prospecto de INVIMA con advertencias y contraindicaciones, para el tamizaje de seguridad
-- Si se busca una línea de investigación con mayor respaldo, priorizar otras predicciones del mismo fármaco: melancolía, depresión neurótica y trastorno distímico (L4, "Research Question"). Las dos primeras coinciden con el uso ya autorizado, por lo que no serían un reposicionamiento propiamente dicho, y la evidencia disponible es en su mayoría de clase o de revisión, sin ensayos específicos.
+- Datos detallados del mecanismo de acción (MOA) y una hipótesis biológica que relacione los receptores MT1/MT2/5-HT2C con la fisiopatología de la enfermedad
+- Obtención y revisión del prospecto de INVIMA (advertencias y contraindicaciones), necesaria antes de cualquier evaluación de seguridad
+- Búsqueda de evidencia preclínica o clínica específica para esta indicación
+- Verificación del estado regulatorio de agomelatina en otras jurisdicciones
+- Considerar priorizar las indicaciones dentro del área depresiva (melancolía, distimia), que tienen evidencia indirecta de nivel L4, aunque no constituyen reposicionamiento real al estar cerca de la indicación original
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

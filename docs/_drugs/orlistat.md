@@ -2,7 +2,7 @@
 layout: default
 title: Orlistat
 parent: Solo Predicción del Modelo (L5)
-nav_order: 308
+nav_order: 486
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,32 +29,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Orlistat: De Indicación No Especificada en el Registro a Hipervitaminosis
+# Orlistat: De Obesidad (Inhibición de Lipasas) a Hipervitaminosis
 
 ## Resumen en Una Frase
 
-Orlistat es un inhibidor de las lipasas gástrica y pancreática que reduce la absorción de grasa de la dieta. En Colombia está registrado y comercializado, pero el texto del registro solo menciona el nombre del principio activo, sin describir una indicación.
-El modelo TxGNN predice que podría ser efectivo para **hipervitaminosis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
+Orlistat es un inhibidor de las lipasas gástrica y pancreática, que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo (todos hoy cancelados).
+El modelo TxGNN predice que podría ser efectivo para **hipervitaminosis**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es solo una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | "ORLISTAT" (el registro sanitario no incluye un texto de indicación descriptivo) |
+| Indicación Original | Orlistat (el texto de indicación del registro solo indica el nombre del principio activo) |
 | Nueva Indicación Predicha | Hipervitaminosis |
 | Puntaje de Predicción TxGNN | 99.42% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en DrugBank para este farmaco. El análisis del modelo indica que orlistat inhibe las lipasas gástrica y pancreática, con lo que disminuye la absorción de grasa de la dieta.
+Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción. Según la información conocida, orlistat inhibe las lipasas gástrica y pancreática y reduce la absorción de grasa de la dieta en alrededor de un 30 %.
 
-Como consecuencia, orlistat reduce también la absorción de las vitaminas liposolubles (A, D, E y K), un efecto adverso ya descrito en su etiquetado. Esto da una razón plausible, pero no verificada, para pensar en un posible uso en el exceso de vitaminas liposolubles. No aplicaría a la hipervitaminosis por vitaminas hidrosolubles.
+Las vitaminas liposolubles (A, D, E y K) se absorben junto con la grasa de la dieta, por lo que orlistat disminuye su absorción. Esto es precisamente lo que explica su efecto adverso conocido: la deficiencia de vitaminas liposolubles. Mecanísticamente, esa misma propiedad podría ser útil para reducir la sobrecarga de vitaminas liposolubles en la hipervitaminosis.
 
-El vínculo no se pudo contrastar con datos curados del farmaco, porque faltan sus indicaciones originales y su mecanismo de acción. Por ahora es solo una hipótesis. Además, el manejo estándar de la hipervitaminosis es retirar la fuente de la vitamina. Cualquier uso de orlistat tendría que sopesarse frente al riesgo de deficiencia de otras vitaminas liposolubles y a los efectos adversos gastrointestinales.
+El puntaje alto de TxGNN probablemente refleja este vínculo farmacológico, pero sigue siendo una predicción computacional. Además, la hipervitaminosis es heterogénea: el exceso de vitaminas hidrosolubles no se vería afectado por la inhibición de lipasas. El uso clínico también estaría limitado por el tratamiento estándar actual (suspender la fuente de la vitamina y dar cuidados de soporte), por los efectos adversos gastrointestinales y por el riesgo de provocar deficiencia de otras vitaminas liposolubles.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,31 +69,34 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20102710 | FINOBES ® 120 MG. (JOINPHARM S.A.S) | Cápsula dura | ORLISTAT |
-
-Nota: las 5 entradas recibidas corresponden al mismo registro sanitario (20102710) y se muestran una sola vez. El total reportado es de 20 registros.
+| 20102710 | FINOBES ® 120 MG. (cancelado) | Cápsula dura | Orlistat |
+| 19979566 | ORLISTAT 120 MG CÁPSULAS (cancelado) | Cápsula dura | Orlistat |
+| 20091755 | ANGIOSTAT 120 MG CÁPSULAS (cancelado) | Cápsula dura | Orlistat |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** insuficiencia hepática, hiperoxaluria primaria, anorexia nerviosa, bulimia nerviosa, trastornos por deficiencia vitamínica, colestasis (incluida la colestasis intrahepática recurrente benigna y la familiar) y lesión hepática inducida por fármacos.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en total; entre las revisadas, la mayoría son de nivel moderado. Ejemplos:
+  - Antirretrovirales: abacavir, lamivudina, atazanavir, emtricitabina.
+  - Antidiabéticos: acarbosa, albiglutida, alogliptina, metformina, canagliflozina, clorpropamida.
+  - Otros: amiodarona, asparaginasa, brentuximab vedotina, calaspargasa pegol, cannabidiol, clofarabina.
+  - De nivel menor: colecalciferol, calcifediol y calcitriol (relevantes por su relación con las vitaminas liposolubles).
 
-Como dato relevante para esta hipótesis, la reducción de la absorción de vitaminas liposolubles (A, D, E, K) es un efecto adverso conocido de orlistat. No se encontraron interacciones farmacológicas registradas en la consulta realizada.
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto (99.42%), pero no hay ningún ensayo clínico ni publicación que respalde la asociación con hipervitaminosis (nivel L5). Además, el manejo estándar es retirar la fuente de la vitamina, y el efecto de orlistat sobre las vitaminas liposolubles podría causar deficiencias en lugar de un beneficio terapéutico.
+La predicción se basa solo en el modelo y en un vínculo farmacológico plausible, sin ensayos clínicos ni literatura que la respalden (nivel L5). Además, los registros sanitarios en Colombia están todos cancelados y existe riesgo de deficiencias vitamínicas y otros problemas de seguridad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad)
-- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank
-- Hacer una búsqueda sistemática de literatura y ensayos clínicos sobre orlistat en hipervitaminosis por vitaminas liposolubles
-- Evaluar el balance riesgo-beneficio: riesgo de deficiencia de otras vitaminas y efectos gastrointestinales
-- Aclarar el tipo de hipervitaminosis (liposoluble o hidrosoluble) al que aplicaría la hipótesis
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Revisión de la literatura preclínica y clínica sobre orlistat y los niveles de vitaminas liposolubles.
+- Datos del mecanismo de acción confirmados por fuentes como DrugBank.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Definir qué tipos de hipervitaminosis (vitaminas liposolubles) serían objetivo y compararlos con el tratamiento estándar.
+- Aclarar la situación regulatoria, dado que todos los registros están cancelados, y evaluar la compatibilidad de vías de administración y formulaciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

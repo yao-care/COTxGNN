@@ -2,7 +2,7 @@
 layout: default
 title: Bendamustine
 parent: Evidencia Alta (L1-L2)
-nav_order: 85
+nav_order: 98
 evidence_level: L1
 indication_count: 10
 ---
@@ -33,115 +33,100 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-La bendamustina es un agente alquilante bifuncional que se usa en oncohematología. En Colombia, el registro sanitario solo consigna el texto «BENDAMUSTINE» y no detalla una indicación original.
-El modelo TxGNN predice que podría ser efectiva para **linfoma de células del manto**, con **50 ensayos clínicos** y **20 publicaciones** asociados. Entre ellos hay ensayos de Fase 3 completados y ensayos aleatorizados publicados en revistas de alto impacto.
-
----
+Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia (actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.
+El modelo TxGNN predice que podría ser efectivo para **Linfoma de Células del Manto**,
+con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo dice «BENDAMUSTINE») |
-| Nueva Indicación Predicha | Linfoma de células del manto (mantle cell lymphoma) |
+| Indicación Original | BENDAMUSTINE (el registro no detalla una enfermedad específica) |
+| Nueva Indicación Predicha | Linfoma de células del manto |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 2 (ambos con el mismo número, 20154170) |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en esta fuente. Según la información conocida, la bendamustina es un agente alquilante bifuncional con rasgos similares a los análogos de purina. Provoca entrecruzamiento del ADN y catástrofe mitótica en las células tumorales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, la bendamustina es un agente alquilante con una estructura similar a la de los análogos de purinas: provoca entrecruzamiento del ADN y roturas de cadena, con actividad tanto en células en división como en células quiescentes.
 
-El registro colombiano no indica para qué enfermedad fue aprobada, así que no se puede comparar directamente con la indicación original. La relación mecanística se apoya en su actividad en neoplasias de células B indolentes y del manto, que ya está establecida en la práctica clínica. El puntaje alto de TxGNN es coherente con esa actividad.
+Este mecanismo es coherente con su actividad en neoplasias de células B como el linfoma de células del manto (LCM). La combinación de bendamustina con rituximab (BR) es un esquema base establecido en LCM, y los programas de fase 3 más recientes la combinan con inhibidores de BTK (ibrutinib, acalabrutinib, orelabrutinib, zanubrutinib).
 
-La combinación bendamustina + rituximab (BR) es el eje de varios ensayos de Fase 3 en linfoma de células del manto. En ellos se compara con R-CHOP/R-CVP o con fludarabina + rituximab, o se le añade un inhibidor de BTK (ibrutinib, acalabrutinib). La predicción no es solo teórica: refleja un uso clínico ya documentado.
-
----
+Cabe señalar que el registro colombiano no especifica la indicación original, por lo que no es posible establecer una relación formal entre ésta y la nueva indicación. La razonabilidad de la predicción se apoya en el mecanismo y en la evidencia clínica con regímenes basados en bendamustina.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes de un total de 50 recuperados. Muchos de los restantes no estudian bendamustina en linfoma de células del manto.
+Se listan los ensayos más relevantes (de un total de 44 identificados para esta indicación):
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Fase 3 | Completado | 447 | Estudio BRIGHT: BR frente a R-CHOP/R-CVP en primera línea de linfoma no Hodgkin indolente o de células del manto, con la tasa de respuesta completa como objetivo principal |
-| [NCT01776840](https://clinicaltrials.gov/study/NCT01776840) | Fase 3 | Completado | 523 | Ibrutinib + BR frente a placebo + BR en mayores de 65 años con linfoma de células del manto recién diagnosticado |
-| [NCT02972840](https://clinicaltrials.gov/study/NCT02972840) | Fase 3 | Activo, sin reclutar | 635 | Acalabrutinib + BR frente a placebo + BR en linfoma de células del manto sin tratamiento previo |
-| [NCT01456351](https://clinicaltrials.gov/study/NCT01456351) | Fase 3 | Completado | 230 | Estudio de no inferioridad de BR frente a fludarabina + rituximab en linfomas de bajo grado y del manto recurrentes |
-| [NCT05868395](https://clinicaltrials.gov/study/NCT05868395) | Fase 2 | Reclutando | 16 | Polatuzumab + bendamustina + rituximab en linfoma de células del manto en recaída o refractario |
-| [NCT05245656](https://clinicaltrials.gov/study/NCT05245656) | Fase 2 | Reclutando | 90 | RB alternado con RBAC frente a RB solo en ancianos no candidatos a trasplante con diagnóstico reciente |
-| [NCT06136351](https://clinicaltrials.gov/study/NCT06136351) | Fase 2 | Reclutando | 23 | Zanubrutinib + BR en pacientes de edad avanzada, con alteraciones de TP53 o intolerancia a quimioterapia |
-| [NCT01737177](https://clinicaltrials.gov/study/NCT01737177) | Fase 2 | Completado | 42 | Bendamustina + lenalidomida + rituximab (R2-B) como segunda línea en primera recaída o refractariedad |
-| [NCT00992134](https://clinicaltrials.gov/study/NCT00992134) | Fase 2 | Completado | 41 | Rituximab + bendamustina + citarabina (R-BAC) en pacientes no elegibles para regímenes intensivos o trasplante |
-| [NCT01661881](https://clinicaltrials.gov/study/NCT01661881) | Fase 2 | Activo, sin reclutar | 23 | Rituximab/bendamustina seguido de rituximab/citarabina en pacientes sin tratamiento previo elegibles para trasplante |
-
----
+| [NCT00991211](https://clinicaltrials.gov/study/NCT00991211) | Fase 3 | Completado | 549 | Bendamustina + rituximab vs. CHOP + rituximab en primera línea de linfomas indolentes y LCM (no inferioridad en supervivencia libre de progresión) |
+| [NCT00877006](https://clinicaltrials.gov/study/NCT00877006) | Fase 3 | Completado | 447 | Estudio BRIGHT: BR vs. R-CVP/R-CHOP en linfoma no Hodgkin indolente o LCM sin tratamiento previo |
+| [NCT01776840](https://clinicaltrials.gov/study/NCT01776840) | Fase 3 | Completado | 523 | Ibrutinib + BR vs. placebo + BR en LCM recién diagnosticado (≥65 años) |
+| [NCT02972840](https://clinicaltrials.gov/study/NCT02972840) | Fase 3 | Activo, sin reclutar | 635 | Acalabrutinib + BR vs. placebo + BR en LCM sin tratamiento previo |
+| [NCT06363994](https://clinicaltrials.gov/study/NCT06363994) | Fase 3 | Reclutando | 476 | Orelabrutinib + BR vs. BR en LCM sin tratamiento previo; resultados aún no disponibles |
+| [NCT06084936](https://clinicaltrials.gov/study/NCT06084936) | Fase 3 | Reclutando | 182 | Glofitamab vs. elección del investigador (BR o R-lenalidomida) en LCM en recaída/refractario |
+| [NCT00891839](https://clinicaltrials.gov/study/NCT00891839) | Fase 2 | Completado | 45 | Bendamustina + rituximab en LCM en recaída/refractario |
+| [NCT04115631](https://clinicaltrials.gov/study/NCT04115631) | Fase 2 | Activo, sin reclutar | 360 | Tres esquemas con BR, citarabina y acalabrutinib en LCM sin tratamiento previo (≤70 años) |
+| [NCT03834688](https://clinicaltrials.gov/study/NCT03834688) | Fase 2 | Completado | 33 | Venetoclax + BR en LCM sin tratamiento previo, mayores de 60 años |
+| [NCT00740415](https://clinicaltrials.gov/study/NCT00740415) | Fase 2 | Completado | 39 | Bortezomib con quimioinmunoterapia en primera línea de LCM en pacientes mayores (n pequeño) |
 
 ## Evidencia de Literatura
 
-Se muestran las 10 publicaciones más relevantes de 20. Los hallazgos se resumen a partir de los resúmenes disponibles.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | ECA Fase 3 | Lancet | BR frente a R-CHOP como primera línea en linfomas indolentes y de células del manto (estudio de no inferioridad) |
-| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | ECA Fase 3 | Blood | Estudio BRIGHT: BR frente a R-CHOP/R-CVP en linfoma indolente o de células del manto sin tratamiento previo |
-| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | ECA (seguimiento) | J Clin Oncol | Resultados a 5 años del estudio BRIGHT, con datos de eficacia y seguridad a largo plazo |
-| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | ECA | N Engl J Med | Ibrutinib + BR seguido de mantenimiento con rituximab en pacientes mayores con linfoma de células del manto sin tratamiento previo |
-| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | ECA | J Clin Oncol | Acalabrutinib + BR en linfoma de células del manto sin tratamiento previo, con la hipótesis de menor toxicidad que ibrutinib |
-| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | ECA Fase 2/3 | Lancet | ENRICH: ibrutinib + rituximab frente a inmunoquimioterapia (R-CHOP o BR) en mayores de 60 años |
-| [40975105](https://pubmed.ncbi.nlm.nih.gov/40975105/) | 2025 | Ensayo Fase 2 | Lancet Haematol | FIL_V-RBAC: RBAC seguido de venetoclax en pacientes mayores con linfoma de células del manto de alto riesgo |
-| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Ensayo Fase 2 (análisis agrupado) | Blood Adv | Inducción con rituximab/bendamustina y rituximab/citarabina antes del trasplante autólogo en pacientes elegibles |
-| [41380101](https://pubmed.ncbi.nlm.nih.gov/41380101/) | 2026 | Estudio retrospectivo | Blood Adv | 911 pacientes tratados con BR de primera línea; evalúa el beneficio del mantenimiento con rituximab |
-| [41132246](https://pubmed.ncbi.nlm.nih.gov/41132246/) | 2025 | Guía clínica | HemaSphere | Guías EHA-EU MCL para el diagnóstico y tratamiento del linfoma de células del manto |
-
----
+| [23433739](https://pubmed.ncbi.nlm.nih.gov/23433739/) | 2013 | ECA | Lancet | BR frente a R-CHOP en primera línea de linfomas indolentes y LCM: ensayo de fase 3 de no inferioridad |
+| [35657079](https://pubmed.ncbi.nlm.nih.gov/35657079/) | 2022 | ECA | N Engl J Med | Ibrutinib añadido a BR y seguido de mantenimiento con rituximab en LCM sin tratamiento previo en pacientes mayores |
+| [40311141](https://pubmed.ncbi.nlm.nih.gov/40311141/) | 2025 | ECA | J Clin Oncol | Acalabrutinib + BR en LCM sin tratamiento previo; busca mejorar resultados con menor toxicidad que ibrutinib |
+| [41052510](https://pubmed.ncbi.nlm.nih.gov/41052510/) | 2025 | ECA | Lancet | ENRICH: ibrutinib + rituximab vs. inmunoquimioterapia (R-CHOP o BR) en LCM, ≥60 años |
+| [32985902](https://pubmed.ncbi.nlm.nih.gov/32985902/) | 2021 | ECA (protocolo) | Future Oncol | Fase 3 de zanubrutinib + rituximab vs. BR en LCM sin tratamiento previo y no candidatos a trasplante |
+| [24591201](https://pubmed.ncbi.nlm.nih.gov/24591201/) | 2014 | ECA | Blood | Estudio BRIGHT: BR frente a R-CHOP/R-CVP en linfoma no Hodgkin indolente o LCM |
+| [30811293](https://pubmed.ncbi.nlm.nih.gov/30811293/) | 2019 | Fase 2/seguimiento | J Clin Oncol | Seguimiento a 5 años del estudio BRIGHT |
+| [32126141](https://pubmed.ncbi.nlm.nih.gov/32126141/) | 2020 | Fase 2 | Blood Adv | Inducción con rituximab/bendamustina y rituximab/citarabina en LCM elegible para trasplante |
+| [40975105](https://pubmed.ncbi.nlm.nih.gov/40975105/) | 2025 | Fase 2 | Lancet Haematol | R-BAC seguido de venetoclax en pacientes mayores con LCM de alto riesgo |
+| [41132246](https://pubmed.ncbi.nlm.nih.gov/41132246/) | 2025 | Guía | HemaSphere | Guías EHA-EU MCL Network para el diagnóstico y tratamiento del LCM |
 
 ## Información de Mercado en Colombia
 
-Los dos registros del Evidence Pack tienen el mismo número, 20154170, y los mismos datos, por lo que se presenta una sola fila.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20154170 | Bendamustina clorhidrato 100 mg polvo liofilizado para inyección (Laboratorio Kemex S.A) | Polvo liofilizado para reconstituir a solución inyectable | BENDAMUSTINE (sin indicación detallada) |
-
----
+| 20154170 (cancelado) | Bendamustina Clorhidrato 100 mg polvo liofilizado para inyección (Laboratorio Kemex S.A.) | Polvo liofilizado para reconstituir a solución inyectable | BENDAMUSTINE |
 
 ## Citotoxicidad
 
-El Evidence Pack no incluye datos de toxicidad. Los valores de la tabla salen de la clase del fármaco (agente alquilante) y deben confirmarse en el prospecto.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante bifuncional) |
-| Riesgo de Mielosupresión | Medio a alto, esperable en alquilantes; confirmar en las advertencias del prospecto |
-| Clasificación de Emetogenicidad | Media, según la categoría del fármaco; confirmar en el prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, vigilancia de infecciones |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos (preparación con protección del personal) |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante) |
+| Riesgo de Mielosupresión | Alto: el grafo de conocimiento asocia el fármaco con contraindicación en trombocitopenia, neutropenia, agranulocitosis y anemia. Consultar las advertencias del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones / condiciones de riesgo (según el grafo de conocimiento TxGNN, no texto de prospecto)**: insuficiencia hepática, enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia y anemia macrocítica.
+- **Interacciones farmacológicas** (100 interacciones registradas; se destacan las de mayor gravedad):
+  - **Mayor**: deferiprona, samario (153Sm) lexidronam.
+  - **Moderada** (ejemplos): omeprazol, esomeprazol, cimetidina, cafeína, deferasirox, ticlopidina, mercaptopurina, cloranfenicol, roflumilast, osilodrostat, ácido obeticólico, palifermina, albendazol, primaquina.
 
----
+Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay varios ensayos de Fase 3 completados (BRIGHT y el estudio de BR frente a fludarabina + rituximab, entre otros) y ensayos aleatorizados publicados en revistas de alto impacto que sostienen el uso de bendamustina + rituximab en linfoma de células del manto (nivel L1). Aun así, el registro colombiano no especifica una indicación y no hay datos de seguridad locales, por lo que conviene avanzar con salvaguardas.
+Existen múltiples ensayos de fase 3 completados (incluidos NCT00991211 y NCT00877006) y varias publicaciones en ECA que respaldan el uso de bendamustina más rituximab en LCM, por lo que el nivel de evidencia es L1. Sin embargo, el único registro sanitario colombiano está cancelado, faltan datos de seguridad del prospecto, y el perfil hematológico es de alto riesgo, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias, contraindicaciones e interacciones), que hoy falta.
-- Confirmar si el registro sanitario 20154170 incluye linfoma de células del manto entre sus indicaciones aprobadas o si el uso sería fuera de indicación.
-- Complementar el mecanismo de acción con datos de DrugBank.
-- Definir un plan de monitoreo hematológico y de infecciones, y limitar el uso a centros con experiencia en quimioterapia citotóxica.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Aclarar la situación regulatoria: el registro 20154170 está cancelado y no hay registro vigente en Colombia.
+- Definir un plan de monitoreo hematológico, hepático y renal, y manejo de interacciones (en especial deferiprona y samario).
+- Verificar si la indicación de LCM está cubierta en un registro vigente o requiere una nueva solicitud ante INVIMA.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

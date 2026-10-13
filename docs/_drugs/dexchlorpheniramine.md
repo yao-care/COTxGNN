@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dexchlorpheniramine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 159
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 209
+evidence_level: L3
 indication_count: 2
 ---
 
 # Dexchlorpheniramine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Dexclorfeniramina es un antihistamínico H1 de primera generación. En Colombia se comercializa dentro de una combinación pediátrica con acetaminofén (paracetamol).
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, pero hoy no hay **ningún ensayo clínico** registrado. Solo hay **6 publicaciones**, casi todas de farmacodinamia o indirectas.
+Dexclorfeniramina es un antihistamínico H1 de primera generación; en Colombia su único registro sanitario conocido (una solución oral pediátrica combinada con acetaminofén) figura como "combinaciones de paracetamol excluyendo psicolépticos".
+El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**,
+con **0 ensayos clínicos** y **3 publicaciones** (solo una de ellas, un estudio farmacodinámico, usa directamente dexclorfeniramina como comparador) que actualmente respaldan esta dirección.
 
 ---
 
@@ -42,25 +43,25 @@ El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, p
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Combinaciones de paracetamol excluyendo psicolépticos (texto de clasificación, no una indicación clínica detallada) |
+| Indicación Original | Paracetamol combinaciones excluyendo sicolépticos |
 | Nueva Indicación Predicha | Urticaria alérgica |
 | Puntaje de Predicción TxGNN | 99.89% |
-| Nivel de Evidencia | L3 (débil: estudios farmacodinámicos e indirectos, sin ensayos en pacientes con urticaria) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 6 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información conocida, la dexclorfeniramina es un antagonista del receptor H1 de primera generación. En Colombia se usa en una combinación pediátrica con acetaminofén, y mecanísticamente podría ser aplicable a la urticaria alérgica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los registros compilados. Según el conocimiento farmacológico general, la dexclorfeniramina es un antagonista (agonista inverso) del receptor de histamina H1 de primera generación. Su indicación registrada en Colombia se refiere a la combinación con paracetamol y no refleja su actividad antihistamínica.
 
-En la urticaria alérgica, la histamina liberada por los mastocitos produce ronchas, eritema y prurito. Bloquear el receptor H1 ataca ese mecanismo de forma directa, y por eso el puntaje alto de TxGNN es biológicamente plausible. Esta explicación se basa en la clase del fármaco y no en datos del registro.
+En la urticaria alérgica, la histamina liberada por los mastocitos es el principal mediador de ronchas, eritema y prurito. Por ello, el bloqueo H1 es un mecanismo directo y coherente con el alto puntaje de TxGNN (99.89%).
 
-La indicación original registrada (combinaciones de paracetamol) no guarda una relación directa con la urticaria. La predicción se apoya en el efecto antihistamínico del componente, no en la indicación de la combinación comercial.
+Conviene matizar que esto se parece más a un uso propio de la clase antihistamínica que a un reposicionamiento verdadero. La pregunta abierta es si los agentes de primera generación ofrecen alguna ventaja frente a los de segunda generación, dada su carga sedante y anticolinérgica.
 
-La segunda predicción del modelo, **urticaria por frío** (puntaje 99.61%), tiene la misma lógica de clase. No tiene ensayos ni literatura, así que es solo una predicción (nivel L5, Hold).
+Como segunda predicción, la **urticaria por frío** (puntaje 99.61%) es biológicamente plausible por el mismo mecanismo, pero no cuenta con ensayos ni literatura en los datos compilados, por lo que es solo una predicción computacional (nivel L5, Hold).
 
 ---
 
@@ -74,12 +75,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Ensayo aleatorizado fase I (farmacodinámico) | Eur J Pharm Sci | Compara bilastina oral, dexclorfeniramina parenteral y una nueva bilastina parenteral en la inhibición de la roncha y el eritema inducidos por histamina. El resumen disponible está truncado y no incluye resultados. |
-| [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/) | 2018 | Estudio farmacodinámico comparativo | An Bras Dermatol | Compara la supresión de roncha y eritema por los principales antihistamínicos H1 comercializados en Brasil. |
-| [39803](https://pubmed.ncbi.nlm.nih.gov/39803/) | 1979 | Reporte de caso | Dermatologica | Urticaria por contacto con calor en una mujer joven. El papel de la dexclorfeniramina no es claro. |
-| [28601540](https://pubmed.ncbi.nlm.nih.gov/28601540/) | 2017 | Reporte clínico / revisión | Am J Med | Fibrilación auricular en anafilaxia. La dexclorfeniramina aparece probablemente como cotratamiento, por lo que la relevancia es indirecta. |
-| [26179134](https://pubmed.ncbi.nlm.nih.gov/26179134/) | 2015 | Reporte de caso | Contact Dermatitis | Angioedema palpebral y dermatitis de contacto alérgica por un cerumenolítico. Relevancia indirecta. |
-| [2523357](https://pubmed.ncbi.nlm.nih.gov/2523357/) | 1989 | Estudio in vitro / ex vivo | Int Arch Allergy Appl Immunol | Inhibición de la quimiotaxis de eosinófilos por cetirizina. Es mecanístico y no evalúa dexclorfeniramina directamente. |
+| [39265704](https://pubmed.ncbi.nlm.nih.gov/39265704/) | 2024 | Ensayo aleatorizado de fase I (farmacodinámico) | Eur J Pharm Sci | Compara la inhibición de la roncha y el eritema inducidos por histamina entre bilastina oral, dexclorfeniramina parenteral (comparador) y una nueva formulación parenteral de bilastina |
+| [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/) | 2018 | Estudio farmacodinámico | An Bras Dermatol | Evalúa la supresión de roncha y eritema en la prueba de histamina por los principales antihistamínicos H1 comercializados en Brasil |
+| [39803](https://pubmed.ncbi.nlm.nih.gov/39803/) | 1979 | Estudio clínico-inmunológico / serie de casos | Dermatologica | Describe un caso de urticaria por contacto con calor adquirida; su relación con la dexclorfeniramina no puede confirmarse solo con el título |
 
 ---
 
@@ -87,15 +85,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 50400 | CORICIDIN® GOTAS PEDIÁTRICAS CON ACETAMINOFEN (Bayer S.A.) | Solución oral | Paracetamol combinaciones excluyendo psicolépticos |
-
-El registro reporta 6 licencias, pero el listado contiene entradas repetidas del mismo registro 50400, por lo que solo se muestra una fila.
+| 50400 (cancelado) | CORICIDIN® GOTAS PEDIATRICAS CON ACETAMINOFEN (BAYER S.A.) | Solución oral | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento TxGNN asocia el fármaco con contraindicación en las siguientes condiciones:
+  - Cardiovasculares: hipertensión, hipotensión, enfermedad coronaria, infarto de miocardio, trombosis coronaria, aterosclerosis coronaria y arteriosclerosis.
+  - Hepáticas, renales y digestivas: insuficiencia y enfermedad hepática, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, úlcera gástrica y péptica, enfermedad inflamatoria intestinal, colitis por *Clostridium difficile* y enterocolitis necrotizante perinatal.
+  - Endocrinas y metabólicas: hipotiroidismo (incluidos mixedema y congénito), diabetes mellitus y cetoacidosis diabética.
+  - Otras: epilepsia, hiperplasia prostática benigna, hipertensión ocular, hemoglobinopatías, piourete y abuso/dependencia de sustancias.
+- **Interacciones farmacológicas:** no se encontraron interacciones registradas en la consulta realizada.
+
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no están disponibles en los datos compilados.
 
 ---
 
@@ -104,14 +107,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo H1 es plausible y el puntaje del modelo es alto. Sin embargo, la evidencia se limita a estudios farmacodinámicos de roncha y eritema y a reportes indirectos, sin ensayos clínicos en pacientes con urticaria. Además, no se cuenta con las advertencias ni las contraindicaciones del prospecto de INVIMA, lo que bloquea la evaluación de seguridad.
+La evidencia para urticaria alérgica es de nivel L3 y se limita a estudios farmacodinámicos en los que la dexclorfeniramina es sobre todo un comparador, sin ensayos clínicos registrados. Además, el único registro sanitario en Colombia está cancelado y no hay datos oficiales de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que hoy es el vacío bloqueante.
-- Confirmar el mecanismo de acción en DrugBank.
-- Revisar el texto completo del estudio 39265704 y buscar ensayos clínicos en urticaria con dexclorfeniramina como fármaco de estudio.
-- Evaluar la compatibilidad de vía: el producto colombiano es una solución oral pediátrica en combinación con acetaminofén, mientras que la evidencia farmacodinámica usó la vía parenteral.
-- Considerar el perfil sedante propio de los antihistamínicos de primera generación, señalado en la literatura, dentro de un plan de monitoreo.
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones oficiales), un vacío de información que bloquea el cribado de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Buscar ensayos clínicos o revisiones sistemáticas que comparen específicamente la dexclorfeniramina con antihistamínicos de segunda generación en urticaria.
+- Evaluar la compatibilidad de vías y formas farmacéuticas disponibles, dado que no hay productos vigentes en el país.
+- Para urticaria por frío, verificar la literatura de forma independiente antes de cualquier consideración.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

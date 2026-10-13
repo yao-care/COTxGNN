@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dorzolamide
-parent: Evidencia Alta (L1-L2)
-nav_order: 166
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 233
+evidence_level: L5
 indication_count: 10
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,70 +29,83 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Dorzolamida: De Glaucoma de Ángulo Abierto a Glaucoma Hereditario Primario
+# Dorzolamida: De Combinaciones de Timolol a Glaucoma Hereditario Primario
 
 ## Resumen en Una Frase
 
-Dorzolamida es un inhibidor de la anhidrasa carbónica que se aplica en gotas oftálmicas para reducir la presión intraocular en el glaucoma de ángulo abierto y la hipertensión ocular.
-El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**,
-con **1 ensayo clínico** (Fase 2) y **ninguna publicación** que respalden actualmente esta dirección.
+Dorzolamida es un inhibidor tópico de la anhidrasa carbónica. En Colombia estuvo registrada en una solución oftálmica combinada con timolol (indicación registrada: "Timolol combinaciones"). El modelo TxGNN predice que podría ser efectiva para **glaucoma hereditario primario**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Combinaciones con timolol (texto del registro sanitario). DrugBank no lista indicaciones originales; el uso clínico conocido es reducir la presión intraocular en glaucoma de ángulo abierto e hipertensión ocular |
+| Indicación Original | Combinaciones de timolol |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la farmacología conocida, la dorzolamida inhibe la anhidrasa carbónica II en el cuerpo ciliar. Esto reduce la secreción de humor acuoso y baja la presión intraocular.
+Dorzolamida inhibe la anhidrasa carbónica (principalmente la isoforma II) en los procesos ciliares del ojo. Esto reduce la formación de bicarbonato y la secreción de humor acuoso, y con ello baja la presión intraocular (PIO). También se ha descrito su unión a las isoformas CA1, CA7, CA12 y CA14. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Aun así, según la información conocida, dorzolamida es un hipotensor ocular de uso establecido, y mecanísticamente podría ser aplicable a un glaucoma en el que la presión intraocular elevada sea el problema central.
 
-Este efecto no depende de la causa del glaucoma, así que es plausible que sirva también en las formas hereditarias. Aun así, la dorzolamida ya está comercializada para glaucoma. Por eso esta predicción se parece más a una extensión de su uso actual que a un reposicionamiento verdadero.
+La relación entre la indicación original y la nueva es de proximidad clínica. Ambas tienen que ver con el control de la presión intraocular en glaucoma. El glaucoma hereditario primario es una forma de origen genético, y reducir la producción de humor acuoso es plausible como medida sintomática.
 
-Otras indicaciones predichas por el modelo (alopecia, hipotricosis, insuficiencia cardíaca congestiva, insuficiencia respiratoria) no tienen un vínculo mecanístico creíble ni evidencia clínica. Probablemente son artefactos del grafo de conocimiento. Las entradas de glaucoma de ángulo abierto (posiciones 6 y 7) corresponden al uso ya aprobado y tienen evidencia L1.
+Sin embargo, el puntaje alto de TxGNN probablemente refleja cercanía semántica con el glaucoma de ángulo abierto, no evidencia independiente para esta entidad. No se encontraron ensayos ni literatura específicos. La predicción es plausible, pero no está demostrada.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01527682](https://clinicaltrials.gov/study/NCT01527682) | Fase 2 | Completado | 37 | Evalúa el efecto hipotensor ocular de latanoprost y dorzolamida en glaucoma pediátrico primario refractario a cirugía, y su seguridad. No se pudo confirmar la población exacta (congénito o hereditario del adulto) ni que la dorzolamida fuera el inhibidor de anhidrasa carbónica usado. Muestra pequeña |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20254363 | DORZOTRISOL T SOLUCIÓN OFTÁLMICA (Laboratorios Incobra S.A.) | Solución oftálmica | Timolol combinaciones |
+| 20254363 | DORZOTRISOL T SOLUCIÓN OFTÁLMICA | Solución oftálmica | Timolol combinaciones |
 
-Los datos recibidos indican 12 registros en total, pero las 5 filas entregadas corresponden todas al mismo registro sanitario. Por eso solo se muestra uno.
+Este único registro (fabricante: Laboratorios Incobra S.A.) figura como **cancelado**. Esto se refiere solo a ese producto y no significa que la molécula esté retirada.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó, pero solo devolvió interacciones farmacológicas con dianas (anhidrasa carbónica 1, 7, 12 y 14), no interacciones con otros medicamentos.
-- No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA. Consultar el prospecto para la información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del texto del prospecto): diabetes mellitus, cetoacidosis diabética, miastenia gravis (incluida la de inicio en adultos), enfermedad de la unión neuromuscular, hipertiroidismo, enfermedad de Graves, tirotoxicosis, hipoglucemia, bloqueo auriculoventricular, enfisema pulmonar, enfermedad bronquial y anafilaxia. Varias de estas asociaciones probablemente reflejan el componente timolol (betabloqueador) de las combinaciones, por lo que deben verificarse en el prospecto del producto.
+- **Interacciones farmacológicas:** la consulta no devolvió interacciones medicamentosas clínicas. Registró cuatro dianas farmacológicas (anhidrasas carbónicas 1, 7, 12 y 14). Como precaución general, conviene revisar el uso concomitante con inhibidores orales de la anhidrasa carbónica.
+- **Precauciones generales:** verificar hipersensibilidad a sulfonamidas y función renal.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para esta indicación es un único ensayo de Fase 2 pequeño (n=37), cuya población y uso de dorzolamida no se pudieron confirmar, y no hay publicaciones. Además, faltan los datos de seguridad del prospecto de INVIMA. El uso en glaucoma de ángulo abierto ya está respaldado (L1), pero eso no valida el glaucoma hereditario primario.
+No existe ningún ensayo clínico ni publicación para glaucoma hereditario primario. El puntaje de 99.99% parece derivar de la cercanía con el glaucoma de ángulo abierto, para el cual dorzolamida ya es un tratamiento establecido (uso en su indicación habitual, no reposicionamiento). Además, el único registro sanitario local está cancelado.
 
 **Para avanzar se necesita:**
-- Confirmar en el registro del ensayo NCT01527682 la población incluida y si la dorzolamida fue el inhibidor de anhidrasa carbónica usado.
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que actualmente bloquea el tamizaje de seguridad.
-- Datos de mecanismo de acción desde DrugBank.
-- Búsqueda de literatura específica sobre dorzolamida en glaucoma hereditario o pediátrico.
-- Si se avanza, incluir salvaguardas por alergia a sulfonamidas, compromiso del endotelio corneal e insuficiencia renal, según el análisis del Evidence Pack.
+- Evidencia clínica o de series de casos de dorzolamida en glaucoma hereditario o congénito primario, incluida la población pediátrica. Existe un ensayo de Fase 2 en glaucoma pediátrico, pero se asocia a la entidad de glaucoma de ángulo abierto y debe evaluarse por separado.
+- Confirmar la disponibilidad de un producto con registro vigente en Colombia.
+- Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos detallados del mecanismo de acción.
+- Definir un plan de seguridad (sulfonamidas, función renal y, si se usa en combinación con timolol, las contraindicaciones cardiorrespiratorias y metabólicas).
+- Para las entidades de glaucoma de ángulo abierto, que tienen evidencia de nivel L1 (varios ensayos de Fase 3 y 4 y revisiones sistemáticas), tratar el caso como uso en su indicación habitual y no como reposicionamiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

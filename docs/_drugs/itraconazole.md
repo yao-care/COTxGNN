@@ -2,7 +2,7 @@
 layout: default
 title: Itraconazole
 parent: Evidencia Moderada (L3-L4)
-nav_order: 233
+nav_order: 361
 evidence_level: L4
 indication_count: 1
 ---
@@ -29,79 +29,100 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Itraconazol: De Antifúngico (indicación original no detallada en el registro) a Neumocistosis
+# Itraconazol: De Indicación Original (ITRACONAZOL, sin detalle) a Neumocistosis
 
 ## Resumen en Una Frase
 
-Itraconazol es un antifúngico azólico comercializado en Colombia como solución oral. Los registros locales no detallan su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero **no hay ensayos clínicos** y las **20 publicaciones** halladas no demuestran eficacia directa contra *Pneumocystis*.
+Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral (los dos registros sanitarios están cancelados).
+El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un puntaje alto (99.34%), pero **sin ensayos clínicos** registrados y con **20 publicaciones** de apoyo indirecto, ninguna que demuestre eficacia contra *Pneumocystis*.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto de los registros solo dice «ITRACONAZOL») |
+| Indicación Original | ITRACONAZOL (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 99.34% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 3 (2 números de registro únicos en el listado) |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Itraconazol pertenece a la clase de los azoles antifúngicos, que inhiben la enzima CYP51 (lanosterol 14-alfa-desmetilasa) y bloquean la síntesis de ergosterol de la membrana fúngica.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, itraconazol inhibe la lanosterol 14-alfa-desmetilasa fúngica (CYP51), bloqueando la síntesis de ergosterol de la membrana celular. Su eficacia en infecciones fúngicas sistémicas está bien establecida, aunque el registro local no detalla la indicación aprobada.
 
-**La predicción tiene poco respaldo biológico.** *Pneumocystis jirovecii* tiene poco o ningún ergosterol en su membrana celular, por lo que el mecanismo azólico no debería ser activo contra él. El tratamiento y la profilaxis estándar son trimetoprima-sulfametoxazol, con atovacuona, pentamidina y dapsona como alternativas.
+La relación con la neumocistosis es **débil**. *Pneumocystis jirovecii* es taxonómicamente un hongo, pero su membrana contiene muy poco ergosterol y depende sobre todo de colesterol y esteroles relacionados. Esto limita la plausibilidad de un mecanismo azólico, y los azoles no están establecidos como eficaces contra *Pneumocystis*.
 
-La literatura vincula itraconazol con la neumocistosis sobre todo por infecciones fúngicas que aparecen junto a ella o que se previenen a la vez. Son ejemplos la histoplasmosis, la talaromicosis y las infecciones invasivas por hongos filamentosos y levaduras, en pacientes con VIH, trasplantados o neutropénicos. Es probable que esa co-ocurrencia explique el puntaje alto del modelo de grafos. La similitud con la indicación original no pudo evaluarse porque no hay datos de indicación ni de MOA.
+El puntaje alto del modelo (0.993) probablemente refleja la asociación de itraconazol con la clase antifúngica y su uso en los mismos contextos de infecciones oportunistas (VIH, trasplante, neutropenia), y no un mecanismo validado contra este patógeno. La predicción debe interpretarse con cautela.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Ninguna publicación evalúa itraconazol como tratamiento de la neumocistosis. Los estudios describen coinfecciones o profilaxis de infecciones fúngicas en general.
+Las publicaciones son en su mayoría revisiones y series de casos sobre infecciones oportunistas. Ninguna evalúa itraconazol como tratamiento de la neumocistosis. Se listan las más relevantes:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|---------|---------|
-| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | ECA | HIV Medicine | Ensayo fase III doble ciego con placebo de itraconazol en cápsulas para prevenir infecciones fúngicas profundas en pacientes con VIH. El resumen disponible no reporta resultados ni evalúa neumocistosis. |
-| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohorte | Transplantation Proceedings | Experiencia de un centro con infecciones fúngicas invasivas tras trasplante renal. |
-| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revisión | Drugs | Terapia y profilaxis de infecciones sistémicas por protozoos, incluido *P. carinii*. |
-| [15250025](https://pubmed.ncbi.nlm.nih.gov/15250025/) | 2004 | Revisión | Clinical Infectious Diseases | Profilaxis antimicrobiana en neutropenia febril. Trimetoprima-sulfametoxazol previene eficazmente la neumonía por *P. carinii*. |
-| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Revisión | BMJ Clinical Evidence | Profilaxis primaria y secundaria de infecciones oportunistas en VIH. |
-| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Revisión | Seminars in Respiratory Infections | Infecciones tras trasplante de pulmón y su prevención. |
-| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Revisión | Current Clinical Topics in Infectious Diseases | Profilaxis y tratamiento de infecciones en receptores de trasplante de médula ósea. |
-| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Revisión | Clinical Pharmacokinetics | Penetración de antifúngicos y otros antiinfecciosos en el líquido de revestimiento epitelial pulmonar. |
-| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Reporte de caso | Frontiers in Immunology | Coinfección por *Talaromyces marneffei* y *P. jirovecii* en un niño con mutación de STAT1. |
-| [40949034](https://pubmed.ncbi.nlm.nih.gov/40949034/) | 2025 | Reporte de caso | Germs | Coinfección pulmonar por *P. jirovecii* e *Histoplasma capsulatum* en un paciente inmunocomprometido sin VIH. |
+|------|-----|------|------|---------|
+| [11737382](https://pubmed.ncbi.nlm.nih.gov/11737382/) | 2001 | ECA (fase III, doble ciego) | HIV Medicine | Itraconazol en cápsulas como profilaxis de infecciones fúngicas profundas en pacientes con VIH inmunodeficientes; no se evalúa específicamente *Pneumocystis* |
+| [21973267](https://pubmed.ncbi.nlm.nih.gov/21973267/) | 2011 | Revisión | Clin Pharmacokinet | Penetración de antifúngicos y otros antiinfecciosos en el líquido epitelial pulmonar |
+| [21418688](https://pubmed.ncbi.nlm.nih.gov/21418688/) | 2010 | Revisión | BMJ Clin Evid | Profilaxis primaria y secundaria de infecciones oportunistas en VIH |
+| [15250025](https://pubmed.ncbi.nlm.nih.gov/15250025/) | 2004 | Revisión | Clin Infect Dis | Profilaxis antimicrobiana en neutropenia febril; la prevención de neumonía por *Pneumocystis* se basa en trimetoprim-sulfametoxazol |
+| [2121456](https://pubmed.ncbi.nlm.nih.gov/2121456/) | 1990 | Revisión | Drugs | Terapia y profilaxis de infecciones sistémicas por protozoos, incluido *Pneumocystis carinii* |
+| [8016481](https://pubmed.ncbi.nlm.nih.gov/8016481/) | 1993 | Revisión | Semin Respir Infect | Infecciones tras trasplante de pulmón |
+| [8397916](https://pubmed.ncbi.nlm.nih.gov/8397916/) | 1993 | Revisión | Curr Clin Top Infect Dis | Profilaxis y tratamiento de infecciones en receptores de trasplante de médula ósea |
+| [26036497](https://pubmed.ncbi.nlm.nih.gov/26036497/) | 2015 | Cohorte | Transplant Proc | Infecciones fúngicas invasivas tras trasplante renal en un solo centro |
+| [36891307](https://pubmed.ncbi.nlm.nih.gov/36891307/) | 2023 | Reporte de caso | Front Immunol | Coinfección por *Talaromyces marneffei* y *P. jirovecii* en un niño con mutación de STAT1 |
+| [2233233](https://pubmed.ncbi.nlm.nih.gov/2233233/) | 1990 | Serie de casos | Medicine | Histoplasmosis diseminada en SIDA: hallazgos clínicos, diagnóstico y tratamiento |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20122550 | ITRACONAZOL 10 MG/ML (Clínicos y Hospitalarios de Colombia S.A.S.) | Solución oral | No detallada (solo indica «ITRACONAZOL») |
-| 20095994 | FUNGITRAL® 1G/100 ML (Salusphara Labs S.A.S) | Solución oral | No detallada (solo indica «ITRACONAZOL») |
+| 20122550 | ITRACONAZOL 10 MG/ ML (cancelado) | Solución oral | ITRACONAZOL |
+| 20095994 | FUNGITRAL® 1G/100 ML (cancelado) | Solución oral | ITRACONAZOL |
 
-El registro 20095994 aparece duplicado en los datos de origen.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento de TxGNN (PrimeKG) asocia itraconazol con condiciones como síndrome de QT largo (incluido el familiar), torsades de pointes, insuficiencia cardíaca congestiva, cardiomiopatía (incluida la hipertrófica), cardiopatía isquémica y enfermedad arterial coronaria, enfermedad hepática y lesión hepática inducida por fármacos, enfermedad renal y función renal alterada, EPOC, neuropatía periférica, trastornos visuales y pérdida de audición, entre otras.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total; entre las muestras disponibles, las de nivel **mayor** son:
+  - Loperamida
+  - Triamcinolona
+  - Budesonida
+
+  Hay además interacciones moderadas (por ejemplo famotidina, ranitidina, omeprazol, rabeprazol, cimetidina, dexametasona, hidrocortisona, betametasona, aprepitant y alosetrón) y menores (por ejemplo metformina, pioglitazona y anfotericina B).
+
+La información de advertencias y contraindicaciones del prospecto no está disponible; consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es alto (99.34%), pero no hay ensayos clínicos ni estudios que muestren eficacia de itraconazol contra *Pneumocystis*. Además, la ausencia de ergosterol en el organismo hace improbable el mecanismo azólico. Ya existen tratamientos estándar eficaces.
+No hay ensayos clínicos ni estudios que respalden itraconazol contra la neumocistosis, y el fundamento mecanístico es débil porque *Pneumocystis* carece prácticamente de ergosterol. El puntaje alto del modelo parece reflejar una asociación de clase y de contexto clínico. Además, ambos registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Descargar y revisar los prospectos de INVIMA (advertencias y contraindicaciones) para completar el tamizaje de seguridad.
-- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank.
-- Buscar estudios preclínicos o clínicos que evalúen directamente itraconazol frente a *Pneumocystis*. Sin ellos, el candidato permanece en L4.
-- Aclarar si el vínculo del modelo proviene solo de la co-ocurrencia con otras micosis, en cuyo caso probablemente sea un artefacto del grafo.
+- Estudios preclínicos o in vitro que demuestren actividad de itraconazol contra *Pneumocystis jirovecii*
+- Datos del mecanismo de acción y comparación con la terapia estándar (trimetoprim-sulfametoxazol)
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para el cribado de seguridad
+- Evaluar el estado regulatorio local, ya que no hay registros vigentes
+- Evaluar los riesgos cardiovasculares (QT largo) y las interacciones en la población objetivo (VIH, trasplante)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

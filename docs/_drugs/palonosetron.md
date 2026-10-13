@@ -2,7 +2,7 @@
 layout: default
 title: Palonosetron
 parent: Solo Predicción del Modelo (L5)
-nav_order: 315
+nav_order: 496
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,72 +29,93 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Palonosetrón: De Indicación Original No Detallada a Trastorno de Migraña
+# Palonosetrón: De Antiemético (indicación no detallada en el registro) a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Palonosetrón es un antagonista del receptor 5-HT3 comercializado en Colombia como solución inyectable. El registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero **no hay ensayos clínicos** y solo existe **1 publicación**, un reporte de caso que describe al fármaco como **inductor** de cefalea de tipo migrañoso, es decir, en sentido contrario a la predicción.
+Palonosetrón es un antagonista del receptor 5-HT3, registrado en Colombia como solución inyectable; el texto de indicación del registro sanitario solo repite el nombre del fármaco, sin detallar el uso aprobado.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero **no hay ensayos clínicos** y la única publicación disponible es un reporte de caso que describe cefalea tipo migraña **inducida** por el fármaco, es decir, una señal de seguridad y no de beneficio.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada (el registro solo repite el nombre "PALONOSETRON") |
+| Indicación Original | No especificada en el registro (el texto aprobado solo indica "PALONOSETRON") |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 99.74% |
-| Nivel de Evidencia | L4 (según el Evidence Pack; la única evidencia es un reporte de caso en dirección opuesta) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 2 (ambos con el mismo número de registro, 20156752) |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Palonosetrón pertenece a la clase de los antagonistas del receptor 5-HT3 y está registrado en Colombia como solución inyectable de 250 mcg/5 mL. El registro no indica la indicación aprobada, así que no es posible construir un vínculo mecanístico sólido con la migraña a partir de los datos disponibles.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, palonosetrón es un antagonista del receptor de serotonina 5-HT3, utilizado clásicamente para prevenir las náuseas y vómitos asociados a la quimioterapia y al periodo posoperatorio. Las vías serotoninérgicas participan en la fisiopatología de la migraña, lo cual podría explicar la asociación detectada por el modelo.
 
-Además, la señal clínica disponible apunta en contra de la predicción. El único reporte de caso (PMID 21132477) describe cefalea de tipo migrañoso **inducida** por palonosetrón. La cefalea es un efecto adverso conocido de esta clase de fármacos. Por eso, el puntaje alto (0.997) probablemente refleja una asociación en el grafo de conocimiento y no una señal terapéutica real.
+Sin embargo, la predicción es **únicamente basada en la red de conocimiento** (proximidad en el grafo). La única publicación asociada (PMID 21132477) reporta que palonosetrón **provocó** cefalea tipo migraña, lo que va en dirección opuesta a un efecto terapéutico. Por ello, el vínculo mecanístico es especulativo y la dirección clínica del efecto es desfavorable.
 
-Las otras cuatro predicciones del modelo tampoco tienen respaldo:
-- **Migraña con aura de tronco encefálico:** sin ensayos ni literatura, y probablemente se explica por su cercanía en el grafo con la migraña.
-- **Susceptibilidad a migraña con o sin aura:** la literatura recuperada trata de genética de la epilepsia y no examina palonosetrón.
-- **Atrofodermia vermiculada y uleritema ofriógenes:** son dermatosis foliculares raras sin vínculo plausible con el antagonismo 5-HT3.
+Las otras predicciones del modelo tampoco cuentan con respaldo: "migraña con aura del tronco encefálico" (99.67%) deriva probablemente de su cercanía con el nodo general de migraña; "susceptibilidad a migraña con o sin aura" (99.44%) es un fenotipo de predisposición genética y no una condición tratable; "atrofodermia vermiculada" (99.13%) y "uleritema ofriógenes" (99.07%) son trastornos cutáneos raros sin ninguna justificación farmacológica identificable, probablemente artefactos del grafo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Reporte de caso | Canadian Journal of Anaesthesia | Describe cefalea de tipo migrañoso inducida por palonosetrón. Sugiere que el fármaco puede desencadenar el cuadro, no tratarlo. El registro no incluye resumen; el hallazgo se toma del título. |
+| [21132477](https://pubmed.ncbi.nlm.nih.gov/21132477/) | 2011 | Reporte de caso | Can J Anaesth | Describe cefalea tipo migraña inducida por palonosetrón; es una señal de seguridad, no evidencia de beneficio terapéutico |
+
+Nota: una revisión de 2026 (PMID 42748473, *Eur Heart J Cardiovasc Pharmacother*) sobre prolongación del QT asociada a antieméticos se vinculó a una predicción relacionada (susceptibilidad a migraña). Es relevante para la seguridad cardiaca, no para la eficacia en migraña.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20156752 | PALONOSETRON 250.0 MCG /5 ML SOLUCION INYECTABLE (HB Human Bioscience S.A.S.) | Solución inyectable | PALONOSETRON (sin detalle de indicación) |
+| 20156752 (cancelado) | Palonosetron 250 mcg/5 mL solución inyectable (HB Human Bioscience S.A.S.) | Solución inyectable | PALONOSETRON (sin detalle de indicación) |
 
-Nota: los dos registros del Evidence Pack son idénticos y comparten el mismo número de registro, por eso se muestran una sola vez.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No hay advertencias, contraindicaciones ni interacciones farmacológicas registradas en el Evidence Pack.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las analizadas, las de nivel **mayor** incluyen:
+  - Opioides y analgésicos: fentanilo, alfentanilo, tramadol
+  - Dextrometorfano
+  - Triptanes: almotriptán, sumatriptán
+  - Antiarrítmicos y fármacos con riesgo de QT: amiodarona, amisulprida, anagrelida
+  - Antidepresivo: amitriptilina
 
-Como dato de contexto, la cefalea es un efecto adverso conocido de los antagonistas 5-HT3. Esto es relevante si se evalúa el fármaco en pacientes con migraña.
+  Entre las de nivel **moderado** figuran abiraterona, dihidrocodeína, codeína, famotidina, formoterol, adenosina, salbutamol, alfuzosina, propofol y loperamida.
+
+  Varias de estas combinaciones sugieren riesgo de síndrome serotoninérgico o de prolongación del QT. Cabe destacar que los triptanes, tratamiento habitual de la migraña, figuran como interacción mayor, lo que complicaría un eventual uso en esta indicación.
+- **Señal de seguridad en la indicación propuesta**: reporte de cefalea tipo migraña inducida por palonosetrón.
+- **Riesgo cardiaco**: la literatura reciente señala que los antieméticos pueden prolongar el intervalo QT.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos, y la única publicación específica del fármaco sugiere que palonosetrón puede provocar cefalea de tipo migrañoso. El puntaje alto de TxGNN parece un artefacto del grafo de conocimiento y no una señal terapéutica.
+La predicción es solo del modelo (nivel L5): no existen ensayos clínicos y la única publicación describe que el fármaco causa cefalea tipo migraña. Además, el único registro sanitario en Colombia está cancelado, y el resto de las predicciones carece de base mecanística.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (advertencias, contraindicaciones e indicación aprobada), un vacío que hoy bloquea el tamizaje de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Buscar evidencia directa sobre antagonistas 5-HT3 en migraña (ensayos, revisiones sistemáticas y datos de farmacovigilancia sobre cefalea).
-- Reevaluar solo si aparece evidencia de beneficio. De lo contrario, descartar la indicación, junto con las otras cuatro predicciones sin sustento.
+- Obtener el prospecto del INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad)
+- Completar los datos de mecanismo de acción desde DrugBank
+- Revisión sistemática de la literatura sobre antagonistas 5-HT3 y migraña, para determinar si existe algún efecto terapéutico o solo riesgo de cefalea
+- Evidencia preclínica o clínica que revierta la señal de seguridad actual
+- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vías de administración antes de cualquier desarrollo local
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

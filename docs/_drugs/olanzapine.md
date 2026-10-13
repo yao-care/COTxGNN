@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Olanzapine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 302
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 479
+evidence_level: L3
 indication_count: 3
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Olanzapina: De Antipsicótico (Esquizofrenia y Trastorno Bipolar) a Tortícolis Paroxística Benigna de la Infancia
+# Olanzapina: De Indicación Original (OLANZAPINA) a Agorafobia
 
 ## Resumen en Una Frase
 
-La olanzapina es un antipsicótico utilizado para tratar la esquizofrenia y el trastorno bipolar.
-El modelo TxGNN predice que podría ser efectiva para la **tortícolis paroxística benigna de la infancia**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Olanzapina es un antipsicótico de segunda generación, registrado en Colombia bajo el nombre del principio activo (el texto de indicación aprobada solo indica "OLANZAPINA"); en farmacología se usa para esquizofrenia, otras psicosis y trastorno bipolar.
+El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **0 ensayos clínicos** y **6 publicaciones** (en su mayoría indirectas, centradas en trastorno de pánico resistente al tratamiento) que respaldan esta dirección.
 
 ---
 
@@ -43,23 +42,23 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo dice "Olanzapina", sin indicación específica. Según la fuente farmacológica: esquizofrenia, otras enfermedades psicóticas y trastorno bipolar |
-| Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99.54% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Indicación Original | OLANZAPINA (el registro sanitario no detalla la indicación; en farmacología: esquizofrenia, psicosis y trastorno bipolar) |
+| Nueva Indicación Predicha | Agorafobia |
+| Puntaje de Predicción TxGNN | 99.47% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción formal de la olanzapina. Los datos farmacológicos muestran que el fármaco interactúa con varios receptores: serotonina (5-HT1A, 1B, 1D, 1E, 1F, 2A, 2C, 6 y 7), dopamina D2, histamina H1 y adrenérgicos α1A y α1D. Solo se documenta expresamente el antagonismo del receptor α1A, asociado a la hipotensión ortostática.
+Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción. Según la información farmacológica disponible, olanzapina se une a múltiples receptores: antagoniza receptores de serotonina (5-HT2A, 5-HT2C, entre otros), dopamina D2, histamina H1 y adrenérgicos alfa-1. Estos sistemas participan en la regulación de los circuitos de ansiedad y pánico.
 
-La tortícolis paroxística benigna de la infancia es una condición pediátrica rara y autolimitada. Suele asociarse a variantes del gen CACNA1A y al espectro de la migraña. No hay una relación mecanística clara con el uso original de la olanzapina, que son las enfermedades psiquiátricas del adulto.
+La agorafobia suele presentarse junto con el trastorno de pánico. La evidencia disponible se refiere sobre todo al pánico resistente a tratamiento, donde se ha probado olanzapina como terapia de aumento junto con un ISRS. Por ello, la relación con la agorafobia es indirecta.
 
-Por eso el puntaje de 99.54% proviene únicamente de la predicción basada en grafos de conocimiento del modelo, sin estudios que lo respalden. Además, usar un antipsicótico en lactantes plantearía preocupaciones de seguridad importantes, por lo que requeriría una justificación muy sólida.
+Los tratamientos de primera línea (ISRS y terapia cognitivo-conductual) están bien establecidos. La carga metabólica de olanzapina limitaría su uso, en el mejor de los casos, a casos refractarios.
 
 ---
 
@@ -71,25 +70,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [40946318](https://pubmed.ncbi.nlm.nih.gov/40946318/) | 2026 | Revisión sistemática | Psychotherapy and Psychosomatics | Revisión integrativa de opciones farmacológicas, psicoterapéuticas y de neuroestimulación en trastornos de ansiedad resistentes al tratamiento |
+| [26635099](https://pubmed.ncbi.nlm.nih.gov/26635099/) | 2016 | Revisión sistemática | Expert Opinion on Pharmacotherapy | Trastorno de pánico resistente: cerca de un tercio de los pacientes persiste con síntomas tras el tratamiento |
+| [16415705](https://pubmed.ncbi.nlm.nih.gov/16415705/) | 2006 | Ensayo abierto | J Clin Psychopharmacol | 31 pacientes con pánico (con o sin agorafobia) resistente a ISRS; olanzapina 5 mg/día añadida durante 12 semanas |
+| [25012437](https://pubmed.ncbi.nlm.nih.gov/25012437/) | 2014 | Cohorte | J Affect Disord | Impacto de ansiedad comórbida (incluida agorafobia) y TOC en la evolución a 24 meses del trastorno bipolar I |
+| [15470803](https://pubmed.ncbi.nlm.nih.gov/15470803/) | 2004 | Reporte de caso | Pharmacopsychiatry | Remisión completa de pánico con olanzapina más paroxetina |
+| [10739446](https://pubmed.ncbi.nlm.nih.gov/10739446/) | 2000 | Reporte de caso | Am J Psychiatry | Olanzapina y crisis de pánico |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Se muestran los registros distintos entre los 5 primeros devueltos (el registro 19974414 aparecía repetido).
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19974414 | OLANZAPINA 5 MG TABLETAS RECUBIERTAS (Laboratorios La Santé S.A.) | Tableta recubierta | OLANZAPINA (el texto del registro no detalla la indicación) |
-| 19968710 | PROLANZ® FAST 10 MG (Eurofarma Colombia S.A.S) | Tableta dispersable | OLANZAPINA (el texto del registro no detalla la indicación) |
+| 19974414 (cancelado) | OLANZAPINA 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | OLANZAPINA |
+| 19968710 (cancelado) | PROLANZ® FAST 10 MG | Tableta dispersable | OLANZAPINA |
+| 19968711 (cancelado) | PROLANZ FAST 5 MG | Tableta dispersable | OLANZAPINA |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó con 13 registros, pero corresponden a unión con receptores (datos farmacológicos), no a interacciones con otros medicamentos. Los receptores son 5-HT1A, 5-HT1B, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A, 5-HT2C, 5-HT6, 5-HT7, α1A, α1D, D2 y H1. El antagonismo α1A se asocia con hipotensión ortostática (datos en ratas).
-- **Población pediátrica**: el uso de un antipsicótico en lactantes exigiría una evaluación de seguridad muy rigurosa.
+- **Contraindicaciones / condiciones de riesgo (según el grafo de conocimiento, no según el prospecto)**: se asocian con olanzapina enfermedades como hipotensión ortostática, insuficiencia y enfermedad hepática, cirrosis, epilepsia, diabetes mellitus, cetoacidosis diabética, hiperglucemia, hiperlipidemia, hipertrigliceridemia, obesidad, neutropenia, agranulocitosis, hiperplasia prostática benigna, enfermedad de la vesícula biliar, trastornos de coagulación, accidente cerebrovascular, infarto cerebral, infarto de miocardio y cáncer de mama femenino.
+- **Perfil farmacológico relevante**: el antagonismo de receptores alfa-1 adrenérgicos se asocia con hipotensión ortostática; el antagonismo de H1 se relaciona con sedación.
+- **Interacciones farmacológicas**: los datos compilados describen únicamente la unión a receptores (serotonina, dopamina, histamina, adrenérgicos), no interacciones con otros medicamentos específicos.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -98,16 +106,13 @@ Se muestran los registros distintos entre los 5 primeros devueltos (el registro 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni publicaciones, no existe una justificación mecanística y la indicación afecta a lactantes, donde el perfil de seguridad de un antipsicótico es preocupante. El puntaje del modelo por sí solo no basta para avanzar.
+La evidencia se limita a un ensayo abierto pequeño y reportes de caso en pánico resistente, sin ensayos registrados ni datos aleatorizados para agorafobia. Además, todos los registros sanitarios en Colombia están cancelados y el perfil metabólico de olanzapina exige cautela.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
-- Obtener el mecanismo de acción desde DrugBank.
-- Buscar evidencia mecanística que conecte la olanzapina con la tortícolis paroxística benigna (variantes de CACNA1A, espectro de migraña).
-- Evaluar la seguridad en población pediátrica antes de cualquier consideración clínica.
-- Priorizar las otras indicaciones predichas para este fármaco, que tienen más respaldo: **agorafobia** (L3, con un ensayo abierto de 12 semanas en trastorno de pánico resistente y reportes de caso) y **trastorno distímico** (L4, evidencia indirecta). Ambas figuran como "Research Question".
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Ensayos controlados aleatorizados en agorafobia o trastorno de pánico con agorafobia
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de INVIMA
+- Aclarar la situación regulatoria en Colombia (todos los registros cancelados)
+- Evaluación de riesgo-beneficio metabólico frente a los tratamientos de primera línea (ISRS, TCC)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Deferasirox
 parent: Evidencia Moderada (L3-L4)
-nav_order: 152
+nav_order: 200
 evidence_level: L4
 indication_count: 5
 ---
@@ -29,73 +29,87 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Deferasirox: De Quelación de Hierro (Sobrecarga de Hierro) a Infección por VIH
+# Deferasirox: De Indicación No Especificada a Infección por VIH
 
 ## Resumen en Una Frase
 
-Deferasirox es un quelante oral de hierro, utilizado en el manejo de la sobrecarga de hierro transfusional, por ejemplo en talasemia.
-El modelo TxGNN predice que podría ser efectivo para la **infección por VIH**, pero la predicción se apoya solo en **0 ensayos clínicos** y **2 publicaciones** (un estudio mecanístico in vitro y una revisión general del fármaco). El único estudio mecanístico sugiere un efecto posiblemente contrario al deseado.
+Deferasirox es un quelante de hierro de administración oral cuyos registros sanitarios en Colombia no detallan la indicación aprobada (solo figura el nombre del principio activo).
+El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pero actualmente no hay ensayos clínicos y solo se dispone de **2 publicaciones**, una de ellas un estudio preclínico con apoyo indirecto.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto registrado solo indica «DEFERASIROX») |
+| Indicación Original | No especificada en los registros (solo figura "Deferasirox") |
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 99.40% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, deferasirox es un quelante de hierro, su uso en la sobrecarga de hierro transfusional está establecido, y la hipótesis es que la modulación del hierro celular podría influir en la biología del VIH.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, deferasirox es un quelante de hierro, y mecanísticamente podría ser aplicable a la infección por VIH a través del control de la disponibilidad de hierro.
 
-La relación entre la indicación original y la nueva es indirecta. Un estudio de 2021 (PMID 34550543) muestra que el hierro en los endolisosomas **restringe** la transactivación del promotor viral (LTR) mediada por la proteína Tat del VIH-1, al aumentar la oligomerización de Tat y la expresión de β-catenina. Si esto es así, quelar el hierro con deferasirox podría **liberar esa restricción y favorecer la transcripción viral** en lugar de suprimirla.
+Un estudio preclínico de 2021 (PMID 34550543) sugiere que el hierro en los endolisosomas restringe la transactivación del LTR del VIH-1 mediada por la proteína Tat, al aumentar su oligomerización y la expresión de β-catenina. Esto ofrece un fundamento plausible pero **indirecto**: se trata de un estudio in vitro que no evalúa deferasirox en pacientes con VIH.
 
-Por eso la dirección del efecto es desfavorable o, en el mejor de los casos, incierta. El puntaje alto de TxGNN (0.994) proviene de una predicción basada en grafos de conocimiento, sin validación clínica. No debe interpretarse como evidencia de eficacia.
+La otra publicación (PMID 16529348) es una descripción general de nuevos fármacos y no respalda una indicación en VIH. Por ello, la predicción descansa principalmente en el puntaje del modelo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Estudio preclínico/mecanístico in vitro | Journal of Neurovirology | El hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina. Sugiere que quelar hierro podría ser desfavorable. |
-| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revisión (resumen de fármacos nuevos) | J Am Pharm Assoc | Revisión general de fármacos nuevos, entre ellos deferasirox. No es específica para VIH. |
+| [34550543](https://pubmed.ncbi.nlm.nih.gov/34550543/) | 2021 | Preclínico/In vitro | Journal of Neurovirology | El hierro endolisosomal restringe la transactivación del LTR del VIH-1 mediada por Tat, al aumentar la oligomerización de Tat y la expresión de β-catenina |
+| [16529348](https://pubmed.ncbi.nlm.nih.gov/16529348/) | 2006 | Revisión | J Am Pharm Assoc | Descripción general de nuevos fármacos (ramelteón, tipranavir, nepafenaco y deferasirox); no respalda directamente la indicación en VIH |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS (MSN Laboratories Private Limited) | Tableta recubierta | DEFERASIROX (el registro no detalla la indicación) |
+| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS (cancelado) | Tableta recubierta | DEFERASIROX |
+| 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE (cancelado) | Tableta dispersable | DEFERASIROX |
 
-Se reportan 20 registros en total. Los datos entregados detallan solo un registro sanitario distinto (repetido en varias filas). Por vía oral también existen tabletas dispersables.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no del prospecto)**: el grafo de conocimiento TxGNN (PrimeKG) asocia deferasirox con contraindicación en, entre otras, insuficiencia hepática, enfermedad renal, función renal alterada, cirrosis, trombocitopenia, neutropenia (incluidas formas congénitas), agranulocitosis, anemia, hiperbilirrubinemia, síndrome de Gilbert, úlcera péptica activa, hipertensión ocular, síndrome de disfunción multiorgánica y cáncer. Estos datos no provienen del texto del prospecto y deben verificarse.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las 20 mostradas:
+  - **Mayor**: hidrocortisona, dexametasona, betametasona, triamcinolona, ácido acetilsalicílico, mesalazina, balsalazida y las formulaciones de anfotericina B (convencional, complejo lipídico, sulfato de colesterilo y liposomal).
+  - **Moderada**: rabeprazol, pioglitazona, alosetrón, aprepitant, claritromicina, saxagliptina, hidróxido de aluminio, cisaprida y dexfenfluramina.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para VIH y la evidencia es de nivel L4, con un único estudio in vitro cuya dirección de efecto podría ser contraria a la hipótesis. El puntaje de TxGNN por sí solo no basta para avanzar.
+La predicción para VIH tiene un puntaje alto del modelo, pero solo cuenta con un estudio preclínico indirecto y sin ensayos clínicos (nivel L4). Además, los registros en Colombia están cancelados y el perfil de seguridad (toxicidad hepática, renal y hematológica) exige cautela.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de deferasirox (por ejemplo, desde DrugBank) para evaluar el vínculo con la biología del VIH.
-- Estudios in vitro o in vivo que aclaren si quelar hierro favorece o inhibe la replicación del VIH.
-- Advertencias y contraindicaciones del prospecto de INVIMA para el cribado de seguridad.
-- Confirmar la indicación aprobada en los registros colombianos, porque el texto disponible solo dice «DEFERASIROX».
-
-**Nota sobre otras predicciones (todas en Hold):**
-- La hepatitis C crónica (rank 2, L4) tiene solo un vínculo indirecto: un posible beneficio de apoyo al reducir la carga de hierro hepático, no un efecto antiviral.
-- «Hiperlipidemia combinada familiar obsoleta» (rank 4) corresponde a un término obsoleto de la ontología. Debe remapearse o excluirse.
-- Las predicciones de rank 3 y 5 (trastorno del neurodesarrollo y dermatofibrosarcoma protuberans) no tienen ensayos ni literatura, y su nivel es L5.
+- Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank)
+- Prospecto de INVIMA con advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad)
+- Estudios preclínicos adicionales y, de ser favorables, ensayos clínicos de deferasirox en VIH
+- Aclarar la indicación aprobada original y la situación regulatoria actual en Colombia
+- Evaluar el perfil de seguridad en pacientes con VIH, dadas las posibles contraindicaciones hematológicas, hepáticas y renales
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

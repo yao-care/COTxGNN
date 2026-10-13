@@ -2,7 +2,7 @@
 layout: default
 title: Beclomethasone Dipropionate
 parent: Evidencia Moderada (L3-L4)
-nav_order: 82
+nav_order: 95
 evidence_level: L3
 indication_count: 1
 ---
@@ -29,86 +29,102 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Dipropionato de Beclometasona: De Asma y Rinitis Alérgica a Eccema Atópico
+# Dipropionato de Beclometasona: De Beclometasona (indicación no detallada en el registro) a Eccema Atópico
 
 ## Resumen en Una Frase
 
-El dipropionato de beclometasona es un corticosteroide sintético (profármaco) que se usa por inhalación y vía nasal en asma y rinitis alérgica.
-El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, con **0 ensayos clínicos registrados** y **18 publicaciones**. Solo una es un ensayo aleatorizado, de 1984 y con 26 niños.
+El dipropionato de beclometasona es un glucocorticoide sintético que en Colombia se registró en presentaciones inhaladas y nasales (aerosoles, soluciones y suspensiones para inhalación); el texto de indicación del registro solo dice "BECLOMETASONA".
+El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero actualmente hay **0 ensayos clínicos** y solo **9 publicaciones** de apoyo indirecto (revisiones, estudios pequeños y estudios preclínicos o de laboratorio).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Asma y rinitis alérgica, según la base farmacológica consultada. El texto de los registros INVIMA solo dice "BECLOMETASONA", sin indicación detallada. |
+| Indicación Original | BECLOMETASONA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 99,41% |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro del fármaco. Lo que sigue proviene del conocimiento general de la clase de los glucocorticoides. El dipropionato de beclometasona es un profármaco. Su metabolito activo, el beclometasona-17-monopropionato, se une al receptor de glucocorticoides. Así suprime la señalización proinflamatoria (NF-κB/AP-1) y reduce citocinas como IL-4, IL-5, IL-13 y TNF-α, además del reclutamiento de células inflamatorias.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento de la clase, el dipropionato de beclometasona es un glucocorticoide sintético con actividad antiinflamatoria e inmunosupresora potente. Actúa mediante la activación del receptor de glucocorticoides, lo que reduce la transcripción de citocinas proinflamatorias (por ejemplo, las de tipo Th2) y disminuye la infiltración de células inflamatorias. Es un profármaco, por lo que su afinidad directa por el receptor es limitada.
 
-El asma, la rinitis alérgica y el eccema atópico comparten una inflamación de tipo alérgico (Th2). Por eso los corticosteroides tópicos son el tratamiento antiinflamatorio estándar del eccema. Esto hace biológicamente plausible el puntaje alto de TxGNN.
+El eccema atópico (dermatitis atópica) es una enfermedad inflamatoria de la piel con predominio Th2, y los corticosteroides tópicos son una clase de tratamiento establecida para ella. Por ello, el puntaje alto del modelo es coherente con el razonamiento por clase farmacológica.
 
-Hay dos límites importantes. El único estudio clínico directo (1984) usó beclometasona oral más nasal, una vía poco habitual para el eccema. Además, las presentaciones colombianas identificadas son inhaladas o nasales, no dérmicas.
+Conviene precisar que el uso de beclometasona en eccema ya es conocido. Más que un reposicionamiento novedoso, se trata de la confirmación de un uso de clase. La pregunta abierta es qué evidencia existe para formulaciones específicas (oral, micelar, vendajes húmedos oclusivos) y cuál es su perfil de seguridad, sobre todo en niños.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
+
+Ninguna publicación es un ensayo controlado aleatorizado. Se listan por relevancia (estudios clínicos primero, luego revisiones y estudios preclínicos o de laboratorio).
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6434024](https://pubmed.ncbi.nlm.nih.gov/6434024/) | 1984 | ECA (doble ciego, cruzado) | Br Med J (Clin Res Ed) | En 26 niños con eccema atópico grave, 4 semanas de beclometasona oral más nasal mejoraron significativamente más que el placebo. No hubo efectos adversos observados, aunque el cortisol urinario de 24 horas bajó ligeramente. |
-| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Estudio clínico | Acta Derm Venereol Suppl | Con beclometasona oral (media de 1000 µg/día) se logró control estable en 10 de 14 niños con dermatitis atópica grave. Se observó desaceleración del crecimiento lineal, por lo que se vigiló el crecimiento y la función adrenal. |
-| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Estudio clínico (seguridad de clase) | J Dermatol Treat | Se evaluaron crecimiento y recambio óseo en 8 niños con vendajes oclusivos húmedos con esteroides para eccema atópico. |
-| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Revisión | Neuroimmunomodulation | Analiza la supresión adrenal por corticosteroides intranasales en rinitis alérgica, que suele coexistir con asma y dermatitis atópica. |
-| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Estudio in vitro | J Allergy Clin Immunol | Los esteroides tópicos aumentaron la producción espontánea de IgE in vitro en pacientes con dermatitis atópica, lo que plantea dudas sobre su efecto en casos graves. |
-| [19874229](https://pubmed.ncbi.nlm.nih.gov/19874229/) | 2009 | Preclínico (ratones) | Immunopharmacol Immunotoxicol | Compara el efecto antiinflamatorio local y los efectos sistémicos de la mometasona con los de la beclometasona. La mometasona resultó más potente en edema de oreja inducido. |
-| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Preclínico (formulación) | AAPS PharmSciTech | Micelas de dipropionato de beclometasona en hidrogel para uso dérmico, probadas en un modelo animal de dermatitis subcrónica. |
-| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | Estudio comparativo | Nihon Hifuka Gakkai Zasshi | Estudio sobre efectos sistémicos de la beclometasona tópica frente a valerato de betametasona y fluocinonida. No hay resumen disponible. |
-| [9463794](https://pubmed.ncbi.nlm.nih.gov/9463794/) | 1998 | Revisión (comparador de clase) | Drugs | Revisión de la mometasona tópica, análogo de la beclometasona, con eficacia similar a otros glucocorticoides de potencia equivalente en dermatitis atópica. |
-| [37023229](https://pubmed.ncbi.nlm.nih.gov/37023229/) | 2023 | Computacional | J Chem Inf Model | Método de reposicionamiento basado en grafos de conocimiento. Es respaldo indirecto de la predicción. |
+| [1476023](https://pubmed.ncbi.nlm.nih.gov/1476023/) | 1992 | Estudio clínico (serie pequeña) | Acta Derm Venereol Suppl | Beclometasona oral en dermatitis atópica infantil grave: control estable en 10 de 14 pacientes (dosis media de 1000 µg/día), pero con evidencia de desaceleración del crecimiento lineal |
+| [14522624](https://pubmed.ncbi.nlm.nih.gov/14522624/) | 2003 | Estudio clínico | J Dermatol Treat | Efectos sobre crecimiento a corto plazo y recambio óseo en 8 niños con vendajes húmedos oclusivos con esteroides para eccema atópico (enfoque en seguridad) |
+| [374799](https://pubmed.ncbi.nlm.nih.gov/374799/) | 1979 | Estudio clínico comparativo | Nihon Hifuka Gakkai Zasshi | Efectos sistémicos de la beclometasona tópica frente a valerato de betametasona y fluocinonida (seguridad/farmacología) |
+| [19571596](https://pubmed.ncbi.nlm.nih.gov/19571596/) | 2009 | Revisión | Neuroimmunomodulation | Corticosteroides intranasales y supresión adrenal; evidencia indirecta de seguridad |
+| [11488426](https://pubmed.ncbi.nlm.nih.gov/11488426/) | 2001 | Revisión | Jpn J Pharmacol | Fármacos para enfermedades alérgicas; los glucocorticoides son los más eficaces y la beclometasona se aplica por inhalación |
+| [14616123](https://pubmed.ncbi.nlm.nih.gov/14616123/) | 2003 | Revisión | Allergy | Alergia a corticosteroides en asma; evidencia indirecta |
+| [7813169](https://pubmed.ncbi.nlm.nih.gov/7813169/) | 1994 | Revisión | Clin Ter | Alergia en el embarazo; evidencia indirecta |
+| [30911861](https://pubmed.ncbi.nlm.nih.gov/30911861/) | 2019 | Estudio preclínico | AAPS PharmSciTech | Micelas de beclometasona en hidrogel evaluadas en un modelo animal de dermatitis subcrónica |
+| [8765824](https://pubmed.ncbi.nlm.nih.gov/8765824/) | 1996 | Estudio in vitro | J Allergy Clin Immunol | Los esteroides tópicos aumentaron in vitro la producción espontánea de IgE en pacientes con dermatitis atópica (señal de cautela) |
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros en total. Los dos siguientes son los que aparecen en los datos recibidos. El registro 20262343 aparecía repetido y se muestra una sola vez.
+Los cinco registros sanitarios están cancelados; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20262343 | Beclometasona dipropionato 250 mcg solución para inhalación oral (Seven Pharma Colombia) | Solución para inhalación | Solo consta "BECLOMETASONA" |
-| 19992495 | Eclosynt-Nas (Faes Farma Colombia) | Aerosol | Solo consta "BECLOMETASONA" |
+| 20262343 | Beclometasona dipropionato 250 mcg solución para inhalación oral | Solución para inhalación | BECLOMETASONA |
+| 19992495 | Eclosynt-Nas | Aerosoles | BECLOMETASONA |
+| 20084123 | Beclort® 250 mcg suspensión para inhalación | Suspensión para inhalación | BECLOMETASONA |
+| 20012688 | Beclometasona dipropionato 50 mcg/dosis aerosol nasal | Aerosoles | BECLOMETASONA |
+| 19924207 | Beclometasona 50 mcg/dosis solución para inhalación | Solución para inhalación | BECLOMETASONA |
 
-Las formas farmacéuticas identificadas son solución para inhalación, aerosol y suspensión para inhalación.
+Todas las presentaciones registradas son inhaladas o nasales; ninguna es de uso dérmico.
+
+---
 
 ## Consideraciones de Seguridad
 
-No hay advertencias ni contraindicaciones del prospecto INVIMA disponibles en el paquete de evidencia. Consultar el prospecto para esa información.
+- **Contraindicaciones según el grafo de conocimiento del modelo (no provienen del prospecto):** enfermedad hepática, enfermedad de la vesícula biliar, sarampión, queratitis por herpes simple, insuficiencia adrenocortical, enfermedad de Addison, infección por varicela zóster, infecciones fúngicas, dermatofitosis, hipertensión ocular, glaucoma, infecciones parasitarias, enfermedades infecciosas en general, enfermedades de las vías respiratorias inferiores y superiores, enfermedades de los senos paranasales y de la cavidad nasal, infecciones micobacterianas y lepra.
+- **Interacciones farmacológicas:** se identificó una entrada de farmacología, con el receptor ADGRG3 (receptor acoplado a proteína G de adhesión). No es una interacción clínica con otro medicamento y no tiene nivel de gravedad asignado.
+- **Seguridad sistémica según la literatura:** los estudios disponibles señalan riesgo de supresión del eje hipotálamo-hipófisis-adrenal, desaceleración del crecimiento lineal y alteración del recambio óseo en niños, y posible aumento de la producción de IgE in vitro.
 
-La literatura de clase muestra que la exposición sistémica importa en el eccema pediátrico:
-- **Supresión del eje hipotálamo-hipófiso-adrenal (HPA):** se ha descrito con corticosteroides intranasales (PMID 19571596). En el ensayo de 1984 hubo una ligera reducción del cortisol urinario.
-- **Crecimiento:** con beclometasona oral en niños con dermatitis atópica grave se observó desaceleración del crecimiento lineal (PMID 1476023).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente plausible y el puntaje es alto. Sin embargo, la evidencia directa se limita a un ECA pequeño de 1984 con una vía atípica, sin ensayos registrados. Además, falta la información de seguridad del prospecto INVIMA, que es un vacío bloqueante para pasar a la etapa de tamizaje de seguridad.
+El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, todos los registros colombianos están cancelados y ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto INVIMA para obtener advertencias y contraindicaciones.
-- Completar los datos de mecanismo de acción y de indicación original desde DrugBank.
-- Definir la vía de administración pertinente para eccema, ya que las presentaciones colombianas identificadas son inhaladas o nasales.
-- Revisar en detalle la literatura restante y buscar estudios más recientes, o ensayos en registros como ICTRP.
-- Diseñar un plan de vigilancia de seguridad sistémica (eje HPA y crecimiento) para población pediátrica.
-
-*Este informe es solo de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de aplicarse.*
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir la formulación y vía de administración (tópica, oral u otra) y verificar su compatibilidad con los registros disponibles; no existe actualmente un registro vigente ni dérmico.
+- Revisar la evidencia clínica de beclometasona tópica frente a otros corticosteroides tópicos ya aprobados para eccema atópico.
+- Evaluar el perfil de seguridad pediátrico (crecimiento, función adrenal, recambio óseo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

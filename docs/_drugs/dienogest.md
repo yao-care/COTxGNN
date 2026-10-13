@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dienogest
-parent: Solo Predicción del Modelo (L5)
-nav_order: 163
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 220
+evidence_level: L4
 indication_count: 10
 ---
 
 # Dienogest
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,68 +29,91 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dienogest: De Indicación Original No Detallada a Amenorrea
+# Dienogest: De Dienogest y Etinilestradiol a Amenorrea
 
 ## Resumen en Una Frase
 
-Dienogest es un progestágeno que en Colombia se comercializa en combinación con etinilestradiol. Los estudios clínicos encontrados lo evalúan sobre todo en endometriosis.
-El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero la amenorrea es un efecto farmacológico conocido del tratamiento y no una enfermedad que el fármaco cure.
-Hay **4 ensayos clínicos** (todos en endometriosis, es decir, evidencia indirecta) y **0 publicaciones** que respalden esta dirección.
+Dienogest es un progestágeno que, según el registro sanitario de INVIMA, figuraba con la indicación "Dienogest y Etinilestradiol" (anticoncepción hormonal combinada). El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay ensayos clínicos registrados y solo se dispone de **7 publicaciones** de apoyo indirecto, por lo que esta predicción debe considerarse una pregunta de investigación y no una indicación terapéutica.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dienogest y etinilestradiol (texto registrado en INVIMA; describe la composición del producto, no una indicación clínica) |
+| Indicación Original | Dienogest y Etinilestradiol |
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta, en endometriosis) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, dienogest es un progestágeno que suprime la ovulación y la proliferación del endometrio. Su eficacia en el contexto ginecológico (principalmente endometriosis) se ha estudiado ampliamente.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, dienogest es un progestágeno de cuarta generación con actividad antiovulatoria y supresora del endometrio. Reduce la producción ovárica de estradiol y provoca atrofia endometrial.
 
-La relación entre la indicación original y la nueva es débil. La amenorrea es un efecto esperado del tratamiento con dienogest, no una condición que este fármaco trate. El puntaje alto de TxGNN probablemente refleja esta asociación fármaco-fenotipo y no un beneficio terapéutico real.
+Aquí hay un punto importante: la amenorrea es un **efecto farmacológico esperado** de dienogest, sobre todo en el tratamiento de la endometriosis, y no una enfermedad que el fármaco cure. En la amenorrea hipoestrogénica o anovulatoria, un progestágeno solo podría usarse para provocar sangrado por deprivación o proteger el endometrio, lo cual no trata la causa de fondo.
 
-Por lo tanto, la predicción es mecanísticamente coherente como efecto farmacológico, pero no respalda un uso terapéutico para tratar la amenorrea. Los cuatro ensayos encontrados incluyeron pacientes con endometriosis.
+Por lo tanto, el puntaje alto de TxGNN probablemente refleja una asociación entre dienogest y los cambios en el patrón menstrual, y no una relación terapéutica real. La relación con la indicación original (anticoncepción hormonal) es de tipo farmacodinámico, pero no demuestra beneficio clínico en amenorrea como enfermedad.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04495855](https://clinicaltrials.gov/study/NCT04495855) | N/A | Completado | 968 | Estudio observacional en práctica clínica real de dienogest (Visanne) en endometriosis. La amenorrea sería, como mucho, una observación secundaria. |
-| [NCT07164183](https://clinicaltrials.gov/study/NCT07164183) | Fase 3 | Reclutando | 290 | Estudio aleatorizado, abierto y de no inferioridad que compara Indinol Forto 200 mg con Visanne 2 mg en endometriosis. Aún sin resultados. |
-| [NCT02425462](https://clinicaltrials.gov/study/NCT02425462) | N/A | Completado | 895 | Cohorte observacional sobre calidad de vida y seguridad a largo plazo de dienogest en mujeres asiáticas con endometriosis. |
-| [NCT07204093](https://clinicaltrials.gov/study/NCT07204093) | N/A | Activo, sin reclutamiento | 138 | Compara estradiol transdérmico con dienogest frente a drospirenona en endometriosis, con satisfacción de la paciente como objetivo. |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
+
+## Evidencia de Literatura
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [39090694](https://pubmed.ncbi.nlm.nih.gov/39090694/) | 2024 | Revisión sistemática/Metaanálisis | BMC Pharmacol Toxicol | Resume los eventos adversos de dienogest en endometriosis y adenomiosis, y su prevalencia durante el tratamiento |
+| [29161960](https://pubmed.ncbi.nlm.nih.gov/29161960/) | 2018 | Estudio de cohorte retrospectivo | Reprod Sci | 514 mujeres con endometrioma ovárico tratadas con dienogest 2 mg; evalúa eficacia, seguridad y recurrencia a largo plazo (>12 meses) |
+| [34405378](https://pubmed.ncbi.nlm.nih.gov/34405378/) | 2022 | Revisión | Rev Endocr Metab Disord | Base endocrina de los tratamientos hormonales de la endometriosis (dependencia de estrógenos y resistencia a progesterona) |
+| [41329046](https://pubmed.ncbi.nlm.nih.gov/41329046/) | 2026 | Estudio clínico/mecanístico | Eur J Contracept Reprod Health Care | Dienogest 2 mg en endometriosis; los tratamientos hormonales buscan inducir amenorrea y un ambiente hipoestrogénico |
+| [40543564](https://pubmed.ncbi.nlm.nih.gov/40543564/) | 2025 | Revisión/Imagen | J Pediatr Adolesc Gynecol | Visualización avanzada (3D/RV) en anomalías müllerianas obstructivas; relación solo indirecta |
+| [34918698](https://pubmed.ncbi.nlm.nih.gov/34918698/) | 2021 | Reporte de caso | Medicine | Tumor de células de la granulosa ovárica en paciente con síndrome de ovario poliquístico; relación solo indirecta |
+| [42438810](https://pubmed.ncbi.nlm.nih.gov/42438810/) | 2026 | Reporte de caso | JCEM Case Reports | Hiperparatiroidismo primario que se manifestó tras iniciar dienogest 0.5 mg dos veces al día por menorragia |
+
+Ninguna de estas publicaciones demuestra que dienogest trate la amenorrea como enfermedad.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20093177 | DIENILLE® COMPRIMIDO RECUBIERTOS (EXELTIS S.A.S.) | Tableta recubierta | Dienogest y etinilestradiol |
+| 20093177 (cancelado) | DIENILLE® comprimido recubierto | Tableta recubierta | DIENOGEST Y ETINILESTRADIOL |
 
-Los datos recibidos repiten el mismo registro sanitario. El total reportado es de 20 registros, pero solo se dispone del detalle de este.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN, no texto de prospecto): hipertensión, epilepsia, trastornos de ansiedad y neuróticos, distimia, porfiria, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hipotiroidismo, lupus eritematoso sistémico, asma, diabetes mellitus y cetoacidosis diabética, hipertrigliceridemia, hipercalcemia y nefrocalcinosis, trastornos del metabolismo del fósforo, carcinoma de mama femenino y tromboflebitis.
+- **Interacciones farmacológicas**: se identificaron 37 interacciones. Entre las de nivel **mayor** figuran sugammadex, griseofulvina, bexaroteno, brigatinib, dabrafenib y encorafenib. Entre las de nivel **moderado** se incluyen linaclotida, metreleptina, prucaloprida, miltefosina, adalimumab, alefacept, anakinra, asparaginasa, canakinumab, certolizumab pegol, cladribina, emapalumab y enasidenib. Con etanol la interacción es de nivel menor.
+- **Reporte de caso relevante**: un caso de hiperparatiroidismo primario que se hizo evidente tras el uso de dienogest sugiere vigilar el metabolismo del calcio.
+
+No se dispone del texto de advertencias y contraindicaciones del prospecto de INVIMA; consultarlo antes de cualquier avance.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La amenorrea es un efecto conocido de dienogest y no un objetivo terapéutico. Los cuatro ensayos son indirectos (endometriosis), sin resultados sobre amenorrea y sin literatura de apoyo. El puntaje alto del modelo no es suficiente por sí solo.
+La amenorrea es un efecto esperado de dienogest y no una enfermedad tratable con él; no existen ensayos clínicos y la literatura es solo indirecta (nivel L4). Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Definir si el objetivo real es la supresión menstrual deseada (efecto terapéutico) o el tratamiento de amenorrea patológica, que sería un uso distinto.
-- Verificar la condición y los desenlaces del ensayo de Fase 3 (NCT07164183).
-- Datos del mecanismo de acción (MOA) desde DrugBank.
-- Advertencias y contraindicaciones del prospecto de INVIMA.
-- Datos de seguridad del producto en combinación con etinilestradiol.
+- Replantear la pregunta: definir si el interés real es el manejo del sangrado o la endometriosis, indicaciones donde la evidencia de dienogest es más sólida
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
+- Complementar los datos del mecanismo de acción desde DrugBank
+- Evaluar la situación regulatoria actual en Colombia, dado que no hay registro vigente
+- Definir un plan de seguridad que tenga en cuenta las contraindicaciones del grafo de conocimiento y las interacciones de nivel mayor
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

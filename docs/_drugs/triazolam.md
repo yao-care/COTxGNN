@@ -2,15 +2,15 @@
 layout: default
 title: Triazolam
 parent: Evidencia Moderada (L3-L4)
-nav_order: 397
-evidence_level: L3
+nav_order: 644
+evidence_level: L4
 indication_count: 1
 ---
 
 # Triazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,85 +29,99 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Triazolam: De Indicación No Especificada en el Registro a Trastorno del Sueño (Inicio y Mantenimiento del Sueño)
+# Triazolam: De Triazolam (indicación registrada sin especificar) a Trastorno del Sueño (inicio y mantenimiento del sueño)
 
 ## Resumen en Una Frase
 
-Triazolam es una benzodiacepina hipnótica de acción corta. En Colombia está comercializada como SOMESE® 0.25 mg, pero el registro no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **trastornos del inicio y mantenimiento del sueño (insomnio)**, con **0 ensayos clínicos** y **20 publicaciones** (guías, revisiones y metaanálisis) que respaldan esta dirección.
-Es probable que esta predicción coincida con el uso ya establecido del fármaco y no sea una verdadera señal de reposicionamiento.
+Triazolam es una benzodiacepina de acción corta, cuyo registro sanitario en Colombia (Somese® 0.25 mg tabletas) figura únicamente con el nombre del principio activo como indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **trastornos del sueño (inicio y mantenimiento del sueño)**, es decir, el insomnio, con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría revisiones y guías) que actualmente respaldan esta dirección.
+Cabe aclarar que esta predicción corresponde en la práctica al uso terapéutico ya establecido del fármaco, y no a un reposicionamiento propiamente dicho.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el campo solo repite "TRIAZOLAM") |
-| Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño |
+| Indicación Original | Triazolam (el registro no detalla una indicación específica) |
+| Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) |
 | Puntaje de Predicción TxGNN | 99.72% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 6 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
+| Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, triazolam es una triazolobenzodiacepina de acción corta. Esta clase actúa como modulador alostérico positivo del receptor GABA-A, lo que aumenta la neurotransmisión inhibitoria y acorta la latencia del sueño. Este vínculo se infiere de la clase farmacológica y de la literatura recuperada, no de un dato directo de la fuente.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, triazolam es una benzodiacepina de acción corta que actúa como modulador alostérico positivo del receptor GABA-A, potenciando la neurotransmisión inhibitoria GABAérgica y favoreciendo el inicio del sueño.
 
-La literatura describe a triazolam como hipnótico de acción corta, junto con temazepam. Las revisiones lo comparan con otros hipnóticos como zolpidem y flurazepam. Esto es coherente con el alto puntaje del modelo.
+La indicación original registrada en Colombia solo repite el nombre del fármaco, por lo que no es posible comparar formalmente ambas indicaciones. Sin embargo, el insomnio es el uso clásico de triazolam, de modo que la predicción del modelo (puntaje de 99.72%) es coherente con un vínculo ya conocido y no representa una nueva oportunidad terapéutica.
 
-La indicación original está vacía en los datos. Como triazolam es un hipnótico comercializado, lo más probable es que la predicción coincida con su indicación actual y no sea una indicación nueva. Debe confirmarse con el prospecto oficial.
+Este mecanismo se infiere de conocimiento farmacológico general y no de los datos suministrados; debe verificarse en fuentes como DrugBank.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-La relevancia de todas las publicaciones aún está pendiente de revisión. Se listan las 10 más pertinentes, priorizando guías, metaanálisis y revisiones.
+Se muestran las publicaciones más relevantes (guías y revisiones sistemáticas primero, luego revisiones). No se identificaron ECA entre las publicaciones disponibles.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guía clínica | J Clin Sleep Med | Guía de la Academia Americana de Medicina del Sueño sobre el tratamiento farmacológico del insomnio crónico en adultos, con recomendaciones por fármaco individual |
-| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Metaanálisis | Psychiatry Clin Neurosci | Eficacia y seguridad de hipnóticos (incluidas benzodiacepinas) combinados con antidepresivos en depresión mayor con insomnio, a partir de ECA doble ciego |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Revisión sistemática y metaanálisis en red | Sleep | Comparación de eficacia y seguridad de hipnóticos para el insomnio en adultos mayores |
-| [39932761](https://pubmed.ncbi.nlm.nih.gov/39932761/) | 2025 | Revisión | Minerva Med | Panorama del trastorno de insomnio: definición, epidemiología y riesgos para la salud |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Revisión | Drugs Aging | Recomendaciones de manejo farmacológico del insomnio en ancianos; las terapias conductuales se consideran el tratamiento inicial |
+| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guía clínica | J Clin Sleep Med | Guía de la AASM con recomendaciones sobre el tratamiento farmacológico del insomnio crónico en adultos, evaluando fármacos individuales |
+| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Revisión sistemática/Metaanálisis | Psychiatry Clin Neurosci | Eficacia y seguridad de cada clase de hipnóticos (incluidas benzodiacepinas) combinados con antidepresivos en depresión mayor con insomnio |
+| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Revisión sistemática/Metaanálisis en red | Sleep | Comparación de eficacia y seguridad de hipnóticos para el insomnio en adultos mayores |
+| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Revisión sistemática/Metaanálisis en red | Eur Neuropsychopharmacol | Efectos residuales de los hipnóticos sobre el rendimiento al conducir |
+| [39932761](https://pubmed.ncbi.nlm.nih.gov/39932761/) | 2025 | Revisión | Minerva Med | Panorama del trastorno de insomnio: prevalencia, diagnóstico y manejo |
+| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Revisión | Drugs Aging | Recomendaciones de manejo farmacológico del insomnio en adultos mayores |
 | [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revisión | Clin Ther | Seguridad y eficacia de los medicamentos para dormir en adultos mayores |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revisión crítica | J Clin Psychopharmacol | Insomnio de rebote tras suspender hipnóticos de vida media corta; revisa estudios de laboratorio del sueño con triazolam, temazepam y flurazepam |
-| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Revisión | Ann Pharmacother | Comparación de zolpidem con triazolam en eficacia y seguridad en humanos |
-| [8573298](https://pubmed.ncbi.nlm.nih.gov/8573298/) | 1995 | Revisión | Drug Saf | Evaluación de hipnóticos de acción corta y su relación con el insomnio |
-| [6120270](https://pubmed.ncbi.nlm.nih.gov/6120270/) | 1981 | Estudio de laboratorio del sueño | Methods Find Exp Clin Pharmacol | Registros polisomnográficos de los efectos de triazolam, flunitrazepam y flurazepam en pacientes con insomnio |
+| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revisión | J Clin Psychopharmacol | Revisión crítica del insomnio de rebote tras suspender triazolam y otras benzodiacepinas hipnóticas |
+| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Revisión | Ann Pharmacother | Comparación de zolpidem con triazolam en eficacia y seguridad |
+| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Revisión | J Clin Psychiatry | Farmacología de las benzodiacepinas hipnóticas, incluido triazolam |
+
+---
 
 ## Información de Mercado en Colombia
 
-El Evidence Pack informa 6 registros sanitarios en total, pero solo detalla 5 entradas. Las 5 son idénticas y corresponden al mismo registro 41586, por lo que se presenta una sola fila.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 41586 | SOMESE® 0.25 MG TABLETAS (Pfizer S.A.S.) | Tableta | Triazolam | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41586 | SOMESE® 0.25 MG TABLETAS (Pfizer S.A.S.) | Tableta (vía oral) | TRIAZOLAM (sin texto de indicación detallado) |
+---
 
 ## Consideraciones de Seguridad
 
-El Evidence Pack no incluye advertencias, contraindicaciones ni interacciones farmacológicas del prospecto. Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (relaciones fármaco-enfermedad, no texto de prospecto):** trastornos de ansiedad, trastornos neuróticos y distimia; enfermedad renal; enfermedad hepática; enfermedad de la vesícula biliar; trastornos psicóticos, esquizofreniformes y esquizoafectivos; trastornos mentales; apnea del sueño (incluida la obstructiva) y síndrome de hipoventilación central congénita; miastenia gravis y enfermedades de la unión neuromuscular; trastornos por uso de sustancias y abuso/dependencia de sustancias.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en total; entre las principales:
+  - **Mayor:** morfina (riesgo de depresión del sistema nervioso central y respiratoria).
+  - **Moderadas:** ranitidina, bupropión, aprepitant, omeprazol, cimetidina, claritromicina, dronabinol, eluxadolina, teduglutida, nabilona, metoclopramida, miconazol, clotrimazol.
+  - **Menores:** dexametasona, betametasona, prednisona, óxido de magnesio, hidróxido de aluminio, carbonato de calcio.
+- **Otros datos de la literatura:** se describen insomnio de rebote tras la suspensión, riesgo de abuso y dependencia, y efectos residuales sobre la conducción.
 
-Como referencia general, la literatura recuperada menciona que:
-- Tras suspender hipnóticos de vida media corta como triazolam existe la posibilidad de **insomnio de rebote** (PMID 2567741).
-- Triazolam y zolpidem pueden tener efectos retrógrados sobre el aprendizaje motor dependiente del sueño (PMID 19682231).
-- Los adultos mayores requieren especial cuidado con los hipnóticos (PMID 30058034, 27751669).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobado por INVIMA.
+
+---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos registrados, pero la literatura incluye una guía clínica, metaanálisis y revisiones que respaldan el uso de hipnóticos benzodiacepínicos en el insomnio. Como faltan los datos de seguridad del prospecto y la indicación aprobada no está detallada, se recomienda avanzar solo con salvaguardas.
+La predicción coincide con el uso clásico de triazolam como hipnótico, por lo que no constituye reposicionamiento genuino. Además, el único registro sanitario en Colombia está cancelado, no hay ensayos clínicos registrados y el nivel de evidencia es L4.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es el bloqueo principal para el tamizaje de seguridad.
-- Confirmar la indicación aprobada de SOMESE® y verificar si la predicción es una indicación ya vigente o un reposicionamiento real.
-- Completar el mecanismo de acción consultando DrugBank.
-- Revisar la relevancia de las 20 publicaciones (actualmente pendiente) y priorizar ensayos clínicos controlados con triazolam.
-- Definir un plan de seguridad para poblaciones vulnerables (adultos mayores), incluyendo riesgo de rebote y de efectos sobre la memoria.
+- Aclarar la indicación aprobada real del registro 41586 y los motivos de su cancelación.
+- Obtener y analizar el prospecto (advertencias y contraindicaciones) de INVIMA.
+- Confirmar el mecanismo de acción desde DrugBank.
+- Definir si existe interés real en una nueva indicación distinta del insomnio, dado que la actual ya es el uso establecido.
+- Evaluar el perfil de riesgo-beneficio (dependencia, interacciones con opioides, poblaciones vulnerables como adultos mayores) antes de cualquier reintroducción comercial.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

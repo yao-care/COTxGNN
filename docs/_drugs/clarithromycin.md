@@ -2,7 +2,7 @@
 layout: default
 title: Clarithromycin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 129
+nav_order: 162
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Claritromicina: De Antibiótico Macrólido a Síndrome de Hiperviscosidad Policlonal
+# Claritromicina: De Indicación Registrada (Claritromicina) a Síndrome de Hiperviscosidad Policlonal
 
 ## Resumen en Una Frase
 
-Claritromicina es un antibiótico macrólido comercializado en Colombia (por ejemplo, como Klaricid). El registro sanitario local no detalla la indicación aprobada; solo repite el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Es una señal puramente computacional.
+Claritromicina es un antibiótico macrólido que contó con registros sanitarios en Colombia (productos Klaricid®), actualmente cancelados.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de hiperviscosidad policlonal**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ---
 
@@ -42,23 +43,32 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de hipervis
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica «CLARITROMICINA») |
+| Indicación Original | Claritromicina (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
 | Puntaje de Predicción TxGNN | 99.35% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, claritromicina es un antibiótico de la clase de los macrólidos y su uso en infecciones bacterianas está bien establecido. Estos fármacos también tienen efectos inmunomoduladores y antiinflamatorios descritos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la claritromicina es un antibiótico macrólido con efectos inmunomoduladores (supresión de citocinas proinflamatorias). Su eficacia como antibacteriano está bien establecida, pero mecanísticamente su aplicabilidad al síndrome de hiperviscosidad policlonal no es clara.
 
-El síndrome de hiperviscosidad policlonal se relaciona con un exceso de inmunoglobulinas policlonales en sangre. Los datos disponibles no conectan el efecto inmunomodulador de la claritromicina con ese mecanismo. El puntaje alto del modelo (99.35%) proviene solo de patrones en un grafo de conocimiento y no constituye evidencia biológica ni clínica.
+La hiperviscosidad policlonal se origina por un exceso de inmunoglobulinas, por ejemplo en enfermedades autoinmunes o infecciones crónicas. No existe evidencia de que la claritromicina modifique los niveles de inmunoglobulinas ni la viscosidad sérica.
 
-Por ahora, la predicción no tiene un fundamento mecanístico que se pueda evaluar. Para valorarla haría falta conocer el mecanismo de acción del fármaco y establecer una relación causal con la producción o el efecto de las inmunoglobulinas.
+Por lo tanto, el puntaje alto de TxGNN (0.993) debe interpretarse con cautela: es una predicción basada en el grafo de conocimiento y no está respaldada por estudios reales.
+
+### Otras indicaciones predichas (referencia)
+
+| Rango | Enfermedad | Puntaje TxGNN | Evidencia | Comentario |
+|---|---|---|---|---|
+| 2 | Hiperamilasemia | 99.35% | L4 | Un reporte de caso (infección por *M. abscessus* con macroamilasemia); coexistencia incidental, sin evidencia de eficacia |
+| 3 | Analbuminemia congénita | 99.21% | L5 | Sin mecanismo plausible (trastorno genético del gen ALB) |
+| 4 | Queratoconjuntivitis epitelial punteada | 99.11% | L4 | Vínculo indirecto plausible (macrólidos en disfunción de glándulas de Meibomio); pregunta de investigación |
+| 5 | Incompatibilidad de grupo sanguíneo | 99.07% | L5 | Sin mecanismo plausible |
 
 ---
 
@@ -70,23 +80,28 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para el síndrome de hiperviscosidad policlonal.
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20179259 | KLARICID® SUSPENSION 125 MG/ 5 ML | Gránulos | CLARITROMICINA |
-
-Los datos traen 20 registros en total, pero las cinco entradas detalladas corresponden todas al mismo registro (20179259), por lo que se muestra una sola vez. Además de los gránulos para suspensión, hay presentaciones de tableta de liberación modificada por vía oral.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20179259 | KLARICID® SUSPENSION 125 MG/ 5 ML | Gránulos | Claritromicina | Cancelado |
+| 20086452 | KLARICID® UD | Tableta de liberación modificada | Claritromicina | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** síndrome de QT largo, torsades de pointes, taquicardia ventricular, insuficiencia y enfermedad hepática, colestasis, porfirias, enfermedad renal, miastenia gravis, colitis por *Clostridium difficile*, osteoporosis, fractura ósea, enfermedad de la vesícula biliar, mononucleosis infecciosa y otras condiciones relacionadas.
+- **Interacciones farmacológicas** (se identificaron 100 en total; se muestran algunas de las principales):
+  - **Mayores:** abemaciclib, fentanilo, acalabrutinib.
+  - **Moderadas:** paclitaxel, tramadol, nifedipino, famotidina, formoterol, adenosina, afatinib, etinilestradiol, hidrocortisona, acarbosa, abiraterona, trastuzumab emtansina, flunisolida.
+  - **Menores:** dolutegravir, zidovudina, loratadina.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -95,18 +110,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: no tiene ensayos, literatura ni un vínculo mecanístico plausible, y solo se apoya en el puntaje del modelo. Los datos de seguridad locales y el mecanismo de acción tampoco están disponibles.
+La predicción para el síndrome de hiperviscosidad policlonal carece de ensayos clínicos, de literatura y de un vínculo mecanístico claro (nivel L5). Además, no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Obtener el mecanismo de acción desde DrugBank.
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), porque sin él no se puede pasar al tamizaje de seguridad.
-- Buscar de forma dirigida literatura o estudios preclínicos que relacionen macrólidos con hiperviscosidad o hipergammaglobulinemia.
-- Aclarar la indicación aprobada en el registro sanitario, ya que hoy solo figura el nombre del principio activo.
-
-**Otras predicciones del modelo, para priorizar:**
-- **Queratoconjuntivitis epitelial punteada** (99.11%): es la única con una hipótesis razonable. Los macrólidos se usan en meibomitis y disfunción de las glándulas de Meibomio. Hay una publicación de 2024 (PMID [38472959](https://pubmed.ncbi.nlm.nih.gov/38472959/)) sobre queratoconjuntivitis relacionada con meibomitis. Su diseño y el uso específico de claritromicina se dedujeron solo del título, así que el nivel L3 debe verificarse con el texto completo antes de apoyarse en él.
-- **Hiperamilasemia** (99.35%): la única publicación es un reporte de caso de 2004 sobre infección por *M. abscessus* con macroamilasemia (PMID [15228140](https://pubmed.ncbi.nlm.nih.gov/15228140/)). Probablemente la claritromicina se usó contra la infección y no contra la hiperamilasemia.
-- **Analbuminemia congénita** y **incompatibilidad de grupo sanguíneo**: no tienen evidencia ni fundamento mecanístico.
+- Datos del mecanismo de acción de la claritromicina.
+- Prospecto oficial de INVIMA con advertencias y contraindicaciones.
+- Estudios preclínicos que evalúen un efecto sobre inmunoglobulinas o viscosidad sérica.
+- Evaluar de forma prioritaria la queratoconjuntivitis epitelial punteada (rango 4), que tiene un vínculo indirecto plausible, como pregunta de investigación.
+- Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

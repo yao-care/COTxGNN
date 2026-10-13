@@ -2,7 +2,7 @@
 layout: default
 title: Calcitriol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 107
+nav_order: 128
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,13 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De Indicación No Especificada a Deficiencia de Vitamina D (término obsoleto)
+# Calcitriol: De una Indicación No Detallada en el Registro a Deficiencia de Vitamina D (término obsoleto)
 
 ## Resumen en Una Frase
 
-Calcitriol es la forma activa de la vitamina D (1,25-dihidroxivitamina D3). En Colombia está registrado como cápsula blanda de 0,25 mcg, pero el registro sanitario no detalla su indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **deficiencia de vitamina D**, un término que la ontología marca como **obsoleto**.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción específica; se trata solo de una predicción del modelo.
+Calcitriol es la forma activa de la vitamina D. En Colombia sus registros sanitarios solo indican "Calcitriol" como indicación, sin detallar para qué enfermedad se aprobó.
+El modelo TxGNN predice que podría ser efectivo para **deficiencia de vitamina D (término obsoleto)**, pero **no hay ensayos clínicos ni publicaciones** que respalden específicamente esta predicción.
 
 ---
 
@@ -43,21 +42,21 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo dice «CALCITRIOL») |
+| Indicación Original | No detallada (el registro solo indica "Calcitriol") |
 | Nueva Indicación Predicha | Deficiencia de vitamina D (término obsoleto) |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 7 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Calcitriol es la forma hormonal activa de la vitamina D, así que una relación con la deficiencia de vitamina D es biológicamente plausible.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, calcitriol es la forma activa de la vitamina D, por lo que existe un vínculo biológico plausible con la deficiencia de vitamina D.
 
-Sin embargo, el puntaje alto (99.96%) es solo una predicción basada en el grafo de conocimiento. Además, el término de la enfermedad está marcado como obsoleto, lo que sugiere un artefacto de mapeo de vocabulario y no una hipótesis clínica nueva. No se aportaron ensayos ni literatura, y el texto de indicación registrado en Colombia no permite comparar con la indicación original. Por estas razones la predicción debe tomarse con cautela.
+Sin embargo, el término de la enfermedad está marcado como **obsoleto**, es decir, es una entrada de ontología en desuso. El puntaje alto probablemente refleja un artefacto de nomenclatura y no una indicación nueva y accionable. No se aportaron ensayos ni literatura que lo respalden.
 
 ---
 
@@ -75,17 +74,21 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+Los dos registros sanitarios están **cancelados**; no hay registros vigentes.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19934690 | CALCITRIOL 0.25 MCG CAPSULA BLANDA (COLMED LTDA) | Cápsula blanda | Solo figura «CALCITRIOL», sin indicación detallada |
-
-Nota: el sistema reporta 7 registros en total, pero las entradas recibidas corresponden todas al mismo registro 19934690 (repetido), por lo que se muestra una sola fila.
+| 19934690 | Calcitriol 0.25 mcg cápsula blanda (COLMED LTDA) | Cápsula blanda | Calcitriol |
+| 19942545 | Calcitriol 0.5 mcg (COLMED LTDA) | Cápsula blanda | Calcitriol |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad de TxGNN, no texto de prospecto): enfermedad renal, piouréter, sarcoidosis, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, susceptibilidad a nefrolitiasis por SLC26A1, nefrolitiasis, nefropatía aguda por uratos, hiperfosfatemia, hipervitaminosis y arteriosclerosis obliterante.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las principales:
+  - **Mayores**: colecalciferol, burosumab y calcifediol.
+  - **Moderadas**: fosfenitoína, hidroclorotiazida, amobarbital, butalbital, butabarbital, carbamazepina, calcipotriol tópico, hidróxido de aluminio, tiazidas y similares (bendroflumetiazida, benztiazida, clorotiazida, clortalidona), resinas de unión a ácidos biliares (colestiramina, colesevelam, colestipol) y glucósidos digitálicos (digitoxina, digoxina).
 
 ---
 
@@ -94,13 +97,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-Para esta indicación no hay ensayos ni literatura (nivel L5), y el término de la enfermedad es obsoleto, por lo que el puntaje alto del modelo no basta para avanzar.
+La predicción principal se apoya solo en el modelo (L5), sin ensayos ni literatura, y corresponde a un término de enfermedad obsoleto. Además, los dos registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Reemplazar el término obsoleto por la entidad vigente (por ejemplo, deficiencia de vitamina D actual) y volver a evaluar la predicción.
-- Obtener el prospecto de INVIMA para conocer indicación aprobada, advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Considerar otras predicciones del mismo paquete que tienen más respaldo. La más avanzada es **raquitismo hipofosfatémico hereditario**: 6 ensayos relacionados, nivel L2 y recomendación *Proceed with Guardrails*. Los ensayos más relevantes son NCT03748966 (calcitriol en monoterapia en XLH) y NCT03820518 (Fase 4, comparación de dosis), sin resultados publicados en el paquete. Con esa indicación se recomienda vigilar hipercalciuria, nefrocalcinosis e hiperparatiroidismo. La predicción de **acidosis tubular renal** tiene solo evidencia indirecta (L4): reportes de casos y estudios fisiológicos, uno de los cuales indica que no altera el calcitriol circulante.
+- Reemplazar el término obsoleto por la entidad vigente y verificar si la predicción aporta una indicación distinta de las ya conocidas.
+- Obtener el mecanismo de acción detallado y las advertencias y contraindicaciones del prospecto en INVIMA.
+- Evaluar la reactivación o nueva solicitud de registro, dado que no hay productos vigentes.
+
+**Nota sobre otras predicciones del mismo fármaco:**
+Entre las demás predicciones, la **hipofosfatemia raquítica hereditaria** (puntaje 99.28%) tiene el mayor respaldo: nivel L3 y recomendación *Proceed with Guardrails*. Cuenta con 2 ensayos clínicos: uno de Fase temprana 1, completado, con 16 participantes, sobre calcitriol en monoterapia en hipofosfatemia ligada al X; y uno de Fase 4, de estado desconocido, con 100 participantes, que compara dosis de vitamina D activa más fosfato. También cuenta con múltiples revisiones que describen calcitriol más fosfato como tratamiento estándar. Requiere vigilar hipercalciuria, nefrocalcinosis e hiperparatiroidismo. La **acidosis tubular renal** tiene nivel L4, con evidencia solo fisiológica y de casos, sin evidencia de que calcitriol trate la acidosis en sí.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

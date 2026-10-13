@@ -2,7 +2,7 @@
 layout: default
 title: Denosumab
 parent: Solo Predicción del Modelo (L5)
-nav_order: 154
+nav_order: 202
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,75 +29,97 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Denosumab: De Indicación Original No Especificada a Retinopatía Diabética No Proliferativa Severa
+# Denosumab: De Denosumab (indicación original no especificada en el registro) a Retinopatía Diabética No Proliferativa Grave
 
 ## Resumen en Una Frase
 
-Denosumab es un anticuerpo que inhibe RANKL y está comercializado en Colombia como XGEVA® y PROLIA®. El registro sanitario consultado no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa severa**, pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción específica.
+Denosumab es un anticuerpo monoclonal dirigido contra RANKL, comercializado en Colombia bajo las marcas XGEVA® y PROLIA®; el registro sanitario local solo lista el nombre del principio activo como indicación aprobada, sin detallar el uso clínico.
+El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta indicación (la segunda predicción, retinopatía diabética, cuenta con 2 publicaciones indirectas).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo repite el nombre "Denosumab") |
-| Nueva Indicación Predicha | Retinopatía diabética no proliferativa severa |
+| Indicación Original | Denosumab (el registro sanitario no detalla la indicación aprobada) |
+| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 99.63% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 10 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Denosumab inhibe RANKL. Los datos detallados de su mecanismo de acción no están disponibles en el paquete de evidencia. Tampoco consta su indicación original, así que no se puede comparar con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, denosumab es un anticuerpo monoclonal que inhibe RANKL (ligando del receptor activador del factor nuclear kappa-B), y se utiliza en osteoporosis y otras condiciones de pérdida ósea. Esta descripción del mecanismo proviene de conocimiento general y no de los datos compilados.
 
-Un vínculo entre la vía RANKL y las vías vasculares o inflamatorias de la retina en la retinopatía diabética es una **predicción computacional**. Ningún estudio recuperado lo respalda. El puntaje es muy alto (0.996), pero no se puede comprobar por qué el modelo lo asigna. Podría reflejar cercanía en la red del conocimiento con la diabetes y no un mecanismo retiniano real.
+Un vínculo hipotético con la retinopatía diabética podría pasar por la señalización RANKL/RANK/OPG, que se ha relacionado con calcificación vascular, inflamación y disfunción microvascular asociada a la diabetes. Sin embargo, este vínculo **no está establecido** por la evidencia disponible: es una predicción computacional sin datos clínicos ni mecanísticos de respaldo.
 
-Por eso esta predicción debe tratarse como una hipótesis para explorar, no como una recomendación de uso.
+La similitud entre la indicación original y la nueva indicación queda pendiente de evaluación. Por ahora, el puntaje alto de TxGNN (99.63%) debe interpretarse solo como una señal para priorizar la investigación, no como evidencia de eficacia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal (retinopatía diabética no proliferativa grave) no hay literatura relacionada disponible.
+
+Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 99.23%), se recuperaron dos publicaciones de contexto indirecto. Ninguna evalúa desenlaces retinianos:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [38899553](https://pubmed.ncbi.nlm.nih.gov/38899553/) | 2024 | Observacional/Cohorte (con revisión sistemática y metaanálisis) | Diabetes, Obesity & Metabolism | Evalúa si denosumab en osteoporosis, frente a bisfosfonatos, se asocia con menor incidencia de diabetes tipo 2 y con mejores desenlaces a largo plazo (complicaciones microvasculares y macrovasculares, mortalidad por todas las causas). El título reporta menor incidencia de diabetes tipo 2, menos ulceración del pie y menor mortalidad. |
+| [36960265](https://pubmed.ncbi.nlm.nih.gov/36960265/) | 2023 | Observacional | Cureus | Evalúa el uso de la herramienta FRAX para estimar el riesgo de fractura en adultos con diabetes tipo 2 y la proporción de pacientes de alto riesgo bajo tratamiento antiosteoporótico. No estudia retinopatía. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 10 registros en total. Los 5 primeros corresponden a solo 2 registros sanitarios únicos, porque XGEVA® aparece repetido.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20052945 | XGEVA® 120 MG/1.7 ML | Solución inyectable | Denosumab | Cancelado |
+| 20028103 | PROLIA® | Solución inyectable | Denosumab | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20052945 | XGEVA® 120 MG/1.7 ML | Solución inyectable | Solo figura el nombre del principio activo (Denosumab), sin texto de indicación |
-| 20028103 | PROLIA® | Solución inyectable | Solo figura el nombre del principio activo (Denosumab), sin texto de indicación |
+Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia.
 
-Ambos productos son fabricados por Amgen Manufacturing Limited LLC.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas**: la consulta de interacciones se completó y arrojó 100 interacciones registradas. Las primeras 20 listadas son de nivel **moderado**:
+  - Corticosteroides: hidrocortisona, triamcinolona (incluida la oftálmica), dexametasona, betametasona, budesonida, prednisolona, prednisona, metilprednisolona.
+  - Hormonas adrenocorticotrópicas: corticotropina, tetracosactida.
+  - Radiofármacos y anticuerpos relacionados: ibritumomab tiuxetán, iobenguano (I-131), tositumomab (I-131), tositumomab.
+  - Inmunomoduladores y antimetabolitos: levamisol, trimetrexato, mercaptopurina, dupilumab, tacrolimus.
+
+Cabe destacar que la triamcinolona oftálmica figura entre las interacciones, un dato relevante si se considerara un uso en enfermedad retiniana.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura directa (L5). Además, faltan datos sobre la indicación original y el mecanismo de acción, por lo que no se puede evaluar su plausibilidad biológica.
-
-Como contexto, la segunda predicción del modelo, retinopatía diabética en general (99.23%), tiene un nivel de evidencia L4 y también queda en Hold:
-- El único ensayo de Fase 3 (NCT00925600) evalúa opacidades del cristalino como resultado de seguridad ocular, no la retinopatía.
-- Las dos publicaciones tratan sobre desenlaces relacionados con la diabetes en general y aportan solo contexto indirecto.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien desenlaces retinianos con denosumab. Además, el mercado colombiano solo muestra registros cancelados, lo que complica cualquier vía de acceso inmediata.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA para advertencias y contraindicaciones, que hoy bloquea el tamizaje de seguridad.
-- Obtener el mecanismo de acción detallado desde DrugBank.
-- Confirmar la indicación original aprobada en Colombia.
-- Buscar estudios preclínicos o clínicos que relacionen RANKL con la angiogénesis o la inflamación retiniana.
-- Revisar la compatibilidad de la vía de administración: el denosumab es inyectable y no hay datos sobre una vía adecuada para la retina.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Obtener los datos del mecanismo de acción (por ejemplo, consultando DrugBank) y analizar el vínculo RANKL/OPG con la patología retiniana diabética.
+- Obtener el prospecto de INVIMA para completar el perfil de advertencias y contraindicaciones (requisito previo para cualquier evaluación de seguridad).
+- Realizar una búsqueda dirigida de estudios preclínicos y clínicos de denosumab o la vía RANKL en retinopatía diabética.
+- Aclarar el estado regulatorio: verificar si existen otros registros vigentes de denosumab en Colombia (incluidos biosimilares) o si se requeriría una nueva solicitud.
+- Evaluar la compatibilidad de la vía de administración (pendiente) para un posible uso en enfermedad retiniana.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Diclofenac
-parent: Solo Predicción del Modelo (L5)
-nav_order: 162
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 219
+evidence_level: L3
 indication_count: 10
 ---
 
 # Diclofenac
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,69 +29,95 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diclofenaco: De Analgésico Antiinflamatorio (AINE) a Hipotricosis Simple del Cuero Cabelludo
+# Diclofenaco: De Tramadol y Diclofenaco a Artritis Idiopática Juvenil
 
 ## Resumen en Una Frase
 
-Diclofenaco es un antiinflamatorio no esteroideo (AINE), utilizado para tratar el dolor y la inflamación de la osteoartritis y la artritis reumatoide.
-El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Es solo una predicción del modelo.
+Diclofenaco es un antiinflamatorio no esteroideo (AINE) que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50).
+El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juvenil**, con **0 ensayos clínicos** y **14 publicaciones** (en su mayoría estudios pequeños, antiguos y de baja calidad) que respaldan de forma limitada esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tramadol y diclofenaco (texto registrado en INVIMA; uso clínico general: dolor e inflamación) |
-| Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Indicación Original | Tramadol y diclofenaco (combinación analgésica) |
+| Nueva Indicación Predicha | Artritis idiopática juvenil (según la predicción de mayor puntaje, "hipotricosis simple del cuero cabelludo", no existe respaldo clínico; se destaca la artritis idiopática juvenil por ser la primera predicción con evidencia) |
+| Puntaje de Predicción TxGNN | 99.24% (artritis idiopática juvenil); la predicción de rango 1 (hipotricosis simple del cuero cabelludo) tiene 99.69% |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+> Nota: la predicción de mayor puntaje (hipotricosis simple del cuero cabelludo, 99.69%) solo tiene respaldo del modelo (nivel L5, sin ensayos ni publicaciones). Este informe se centra en la artritis idiopática juvenil, la primera predicción con literatura disponible. Las demás predicciones del top 10 son solo predicciones del modelo, sin evidencia real, y se mantienen en "Hold".
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Diclofenaco inhibe las enzimas COX-1 y COX-2 (ciclooxigenasas), lo que reduce la producción de prostaglandinas. Así alivia el dolor, la inflamación y la fiebre. Las bases de datos farmacológicas también lo asocian con otros blancos (TRPM3, PPARG, ASIC3 y el transportador SLC36A1). No hay una descripción detallada del mecanismo de acción en el registro.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, el diclofenaco es un inhibidor no selectivo de COX-1 y COX-2, que reduce la inflamación y el dolor mediada por prostaglandinas. Los datos farmacológicos compilados también lo asocian con otros blancos (TRPM3, PPARG, ASIC3 y el transportador SLC36A1).
 
-**En este caso la predicción no parece razonable.** La hipotricosis simple es un trastorno hereditario del folículo piloso y no se conoce que la inhibición de COX influya en su vía. El puntaje alto de TxGNN (0.997) es solo una predicción y probablemente sea un artefacto del grafo de conocimiento.
+La indicación original (analgesia con tramadol + diclofenaco) y la artritis idiopática juvenil comparten un componente de dolor e inflamación articular, que es precisamente donde actúan los AINE. Por eso el ajuste mecanístico para el control sintomático es directo y plausible.
 
-La relación con la indicación original (dolor e inflamación) es débil. No hay similitud mecanística ni clínica que sustente el reposicionamiento.
+Sin embargo, esto no es un reposicionamiento realmente novedoso: el diclofenaco ya forma parte de la práctica histórica con AINE en artritis juvenil. No modifica el curso de la enfermedad, y la atención moderna se basa en FAME y biológicos. Para el resto de las predicciones (enfermedades genéticas esqueléticas, alopecias, síndrome WHIM, etc.), no se identifica un vínculo mecanístico plausible en los datos disponibles.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [3052965](https://pubmed.ncbi.nlm.nih.gov/3052965/) | 1988 | Estudio cruzado | Clin Exp Rheumatol | Comparación simple ciego de naproxeno, diclofenaco y tolmetina en 28 niños con artritis crónica juvenil seronegativa durante 12 semanas |
+| [6361986](https://pubmed.ncbi.nlm.nih.gov/6361986/) | 1983 | Estudio clínico | Scand J Rheumatol | Tratamiento de artritis reumatoide juvenil con diclofenaco; farmacocinética en niños de 2 a 7 años |
+| [2235663](https://pubmed.ncbi.nlm.nih.gov/2235663/) | 1990 | Estudio clínico abierto | Pediatr Med Chir | Eficacia del diclofenaco sódico en 26 pacientes de 2 a 16 años con poliartritis juvenil crónica |
+| [10756785](https://pubmed.ncbi.nlm.nih.gov/10756785/) | 1997 | Estudio comparativo | Rev Med Chir Soc Med Nat Iasi | Comparación de diclofenaco, paduden y aspirina en 100 niños con artritis crónica juvenil |
+| [723822](https://pubmed.ncbi.nlm.nih.gov/723822/) | 1978 | Estudio clínico | Minerva Pediatr | Diclofenaco sódico en artritis reumatoide infantil (sin resumen disponible) |
+| [8422565](https://pubmed.ncbi.nlm.nih.gov/8422565/) | 1993 | Revisión | Br J Rheumatol | Uso de AINE en enfermedades reumáticas pediátricas; diclofenaco, ibuprofeno, tolmetina y naproxeno tienen eficacia y tolerancia similares |
+| [1884567](https://pubmed.ncbi.nlm.nih.gov/1884567/) | 1991 | Revisión | Clin Pharmacokinet | Farmacocinética clínica de fármacos usados en artritis juvenil |
+| [11735667](https://pubmed.ncbi.nlm.nih.gov/11735667/) | 2001 | Revisión | Paediatr Drugs | Riesgos y beneficios de los AINE en niños comparados con paracetamol |
+| [17474954](https://pubmed.ncbi.nlm.nih.gov/17474954/) | 2007 | Encuesta | Paediatr Anaesth | Uso de AINE en lactantes; el diclofenaco está autorizado en mayores de 1 año para artritis reumatoide juvenil |
+| [37144854](https://pubmed.ncbi.nlm.nih.gov/37144854/) | 2023 | Serie de casos | Pediatr Pulmonol | AIJ con hemorragia alveolar difusa al inicio (no específico del fármaco) |
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros sanitarios. Los 5 principales devueltos son idénticos, por lo que se muestran una sola vez:
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20220497 | DICASEN® 50/50 | Tableta (vía oral) | Tramadol y diclofenaco |
+| 20220497 (cancelado) | DICASEN® 50/50 | Tableta | Tramadol y diclofenaco |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Blancos farmacológicos registrados** (no son interacciones con otros medicamentos): COX-1 (PTGS1), COX-2 (PTGS2), TRPM3, PPARG, ASIC3 y SLC36A1.
+- **Contraindicaciones señaladas en el grafo de conocimiento del modelo (no provienen de un prospecto):** hipertensión, insuficiencia y enfermedad hepática, lesión hepática inducida por fármacos, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, enfermedad cardiovascular, infarto de miocardio, accidente cerebrovascular y enfermedad cerebrovascular, úlcera péptica (incluida la activa), enfermedad inflamatoria intestinal, asma (intrínseca y alérgica), diabetes mellitus, cetoacidosis diabética, trastornos de la coagulación, anemia y hemoglobinopatías, abuso o dependencia de sustancias y queratitis.
+- **Interacciones farmacológicas/blancos:** los datos compilados registran 6 interacciones farmacológicas con blancos moleculares: COX-1, COX-2, TRPM3, PPARG, ASIC3 y SLC36A1. No son interacciones medicamentosas clínicas con otros fármacos.
+- En población pediátrica deben considerarse especialmente los riesgos gastrointestinales, renales y cardiovasculares de los AINE.
 
-Consultar el prospecto para información sobre advertencias y contraindicaciones.
+Consultar el prospecto para información de seguridad adicional.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos ni literatura, y no se identifica un vínculo mecanístico plausible con la hipotricosis simple.
-
-**Nota sobre otras predicciones del mismo fármaco:** la única con evidencia real es la **artritis idiopática juvenil** (posición 9, puntaje 99.25%, nivel L3). Tiene 2 ensayos clínicos (un registro observacional de seguridad de AINE, terminado, y un ensayo de fase 2/3 con coenzima Q10 que no evalúa diclofenaco) y 18 publicaciones. Entre estas hay estudios pequeños de diclofenaco en artritis juvenil, como un ensayo cruzado de 1988 con naproxeno y tolmetina y un estudio abierto de 1983. Se trata más de un uso de clase de los AINE que de un reposicionamiento nuevo. Merece evaluarse como pregunta de investigación, no como candidato principal.
+La única predicción con literatura (artritis idiopática juvenil) se apoya en estudios pequeños, antiguos y de bajo nivel (L3), sin ensayos registrados, y no representa un reposicionamiento novedoso. El único registro sanitario en Colombia está cancelado, y las demás predicciones del top 10 son solo del modelo (L5) sin vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Obtener datos detallados del mecanismo de acción desde DrugBank.
-- Si se desea avanzar con artritis idiopática juvenil, revisar la seguridad pediátrica (gastrointestinal, renal, hepática y cardiovascular) y la preferencia actual por otros AINE.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente ausente.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisión sistemática o comparación con el estándar actual (FAME y biológicos) en artritis idiopática juvenil.
+- Evaluar el estado regulatorio, dado que el único registro está cancelado.
+- Evaluación de seguridad pediátrica (gastrointestinal, renal, cardiovascular) y de las contraindicaciones señaladas por el grafo de conocimiento.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

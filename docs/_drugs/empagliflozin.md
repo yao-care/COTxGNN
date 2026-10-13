@@ -2,7 +2,7 @@
 layout: default
 title: Empagliflozin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 176
+nav_order: 249
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,68 +29,87 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Empagliflozina: De Diabetes Mellitus Tipo 2 a Síndrome de la Persona Rígida Clásico
+# Empagliflozina: De Indicación Registrada (Empagliflozina) a Síndrome de la Persona Rígida Clásico
 
 ## Resumen en Una Frase
 
-Empagliflozina es un inhibidor del cotransportador sodio-glucosa tipo 2 (SGLT2), utilizado originalmente para mejorar el control glucémico en adultos con diabetes mellitus tipo 2.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de la persona rígida clásico**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+Empagliflozina es un inhibidor del cotransportador sodio-glucosa (SGLT), conocido comercialmente como Jardiance®, utilizado originalmente en el tratamiento de la diabetes mellitus tipo 2.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de la persona rígida clásico**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de un resultado computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Diabetes mellitus tipo 2 (según la información farmacológica del expediente; el texto del registro INVIMA solo dice "EMPAGLIFLOZINA") |
+| Indicación Original | Empagliflozina (el registro sanitario solo indica el nombre del principio activo, sin texto detallado de indicación) |
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
 | Puntaje de Predicción TxGNN | 99.06% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el expediente. Según la información farmacológica disponible, empagliflozina actúa sobre los cotransportadores sodio-glucosa SGLT2 (principal) y SGLT1. Su eficacia en diabetes tipo 2 está comprobada, y también reduce el riesgo de muerte cardiovascular en pacientes con diabetes y enfermedad cardiovascular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, empagliflozina es un inhibidor del cotransportador sodio-glucosa tipo 2 (SGLT2, con actividad también sobre SGLT1), que reduce la reabsorción renal de glucosa. Su eficacia está comprobada en diabetes tipo 2 y en la reducción del riesgo de muerte cardiovascular en pacientes con diabetes y enfermedad cardiovascular.
 
-**No existe un vínculo mecanístico establecido** con el síndrome de la persona rígida. Esta enfermedad es típicamente autoinmune y afecta la neurotransmisión GABAérgica (a menudo con anticuerpos anti-GAD65). La inhibición de SGLT2 no aborda de forma evidente esa patología. El único respaldo es el puntaje alto del grafo de conocimiento de TxGNN, sin estudios que lo sustenten.
+El síndrome de la persona rígida es un trastorno neurológico autoinmune, típicamente asociado a anticuerpos anti-GAD65, que altera la señalización inhibitoria GABAérgica. **No se ha establecido un vínculo mecanístico claro** con la inhibición de SGLT2. Cualquier conexión posible (efectos antiinflamatorios o metabólicos, o la superposición autoinmune con la diabetes tipo 1) es especulativa.
 
-Las otras predicciones del modelo siguen el mismo patrón:
-- **Síndrome de la extremidad rígida focal** (99.06%): es una variante focal del mismo espectro. El puntaje idéntico sugiere que refleja vecinos compartidos en el grafo y no evidencia independiente.
-- **Opsismodisplasia** (99.03%): es una displasia esquelética rara asociada a mutaciones de INPPL1 (SHIP2), que modula la señalización de PI3K/Akt e insulina. Es una conexión hipotética y no verificada. Además es una condición pediátrica grave, por lo que cualquier investigación futura exigiría una evaluación de seguridad cuidadosa.
+El puntaje elevado (0.991) es una predicción computacional sin respaldo clínico ni bibliográfico, y la falta de datos de mecanismo de acción limita aún más la evaluación.
+
+### Otras predicciones del modelo
+
+| Posición | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Observación |
+|------|------|------|------|------|
+| 2 | Síndrome de extremidad rígida focal | 99.06% | L5 | Variante rara del espectro de la persona rígida; el puntaje idéntico sugiere que proviene de la representación compartida de la enfermedad en el grafo de conocimiento, no de evidencia independiente |
+| 3 | Opsismodisplasia | 99.03% | L5 | Displasia esquelética rara por mutaciones en INPPL1 (deficiencia de SHIP2); existe una conexión tenue con la señalización de insulina, pero sin efecto demostrado de empagliflozina |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-Hay 20 registros sanitarios en total. Las filas devueltas en el expediente son idénticas, así que se muestran una sola vez:
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20061998 | JARDIANCE® 25 MG | Tableta recubierta | Empagliflozina | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20061998 | JARDIANCE® 25 MG (Boehringer Ingelheim International GmbH) | Tableta recubierta | EMPAGLIFLOZINA (el registro no detalla la indicación) |
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones farmacológicas / dianas farmacológicas**: la consulta se completó y reportó 2 dianas farmacológicas de empagliflozina (no interacciones con otros medicamentos): el cotransportador sodio-glucosa 1 (SLC5A1) y el cotransportador sodio-glucosa 2 (SLC5A2).
+
+Consultar el prospecto para información sobre advertencias y contraindicaciones.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el puntaje del modelo (nivel L5). No hay ensayos, literatura ni mecanismo plausible que conecte la inhibición de SGLT2 con el síndrome de la persona rígida. Sin datos de seguridad del prospecto local, no es posible avanzar al tamizaje de seguridad.
+La predicción se basa solo en el modelo computacional (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible. Además, el producto no tiene registro sanitario vigente en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante
-- Obtener los datos del mecanismo de acción desde DrugBank
-- Una revisión de literatura preclínica que justifique un vínculo entre SGLT2 y la fisiopatología autoinmune o GABAérgica
-- Definir la indicación original con el texto completo del registro sanitario
+- Datos del mecanismo de acción (consultar DrugBank) para evaluar un posible vínculo con la vía GABAérgica o autoinmune
+- Revisión de la literatura preclínica y clínica sobre SGLT2 y trastornos autoinmunes neurológicos
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para el tamizaje de seguridad
+- Verificar la situación regulatoria actual de empagliflozina en Colombia (el único registro está cancelado)
+- Evidencia preclínica o de mecanismo que justifique avanzar de L5 a L4
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

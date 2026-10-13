@@ -2,7 +2,7 @@
 layout: default
 title: Ramipril
 parent: Solo Predicción del Modelo (L5)
-nav_order: 338
+nav_order: 546
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,66 +29,104 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramipril: De Indicación Original no especificada a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+# Ramipril: De Indicación No Especificada a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
 
 ## Resumen en Una Frase
 
-Ramipril es un inhibidor de la enzima convertidora de angiotensina (IECA). El registro sanitario colombiano no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar de mecanismo multifactorial no aclarado**,
-pero hoy hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+Ramipril es un inhibidor de la enzima convertidora de angiotensina (IECA) que cuenta con un registro sanitario en Colombia, actualmente cancelado; en ese registro la indicación aprobada figura solo como "RAMIPRIL", sin una enfermedad específica.
+El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar de mecanismo multifactorial no aclarado**.
+Para esta predicción no hay ensayos clínicos ni publicaciones; la evidencia disponible se limita a **1 estudio preclínico en ratas** que se refiere a una forma cercana (hipertensión pulmonar por hipoxia).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo dice «RAMIPRIL») |
+| Indicación Original | No especificada en el registro (el texto aprobado solo dice "RAMIPRIL") |
 | Nueva Indicación Predicha | Hipertensión pulmonar de mecanismo multifactorial no aclarado |
 | Puntaje de Predicción TxGNN | 99.93% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 14 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Ramipril pertenece a la clase de los inhibidores de la ECA, que bloquean el sistema renina-angiotensina-aldosterona (SRAA). Este dato viene del análisis de la predicción y no del registro. El uso habitual de esta clase es en hipertensión y protección cardiovascular, pero el registro colombiano no lo confirma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ramipril pertenece a la clase de los IECA, que reducen la formación de angiotensina II, un potente vasoconstrictor. Su uso en hipertensión y protección cardiovascular está ampliamente establecido, aunque el registro colombiano no detalla la indicación aprobada.
 
-Mecanísticamente, la inhibición de la ECA podría influir en el remodelado vascular mediado por el SRAA, y eso daría un vínculo teórico con la hipertensión pulmonar. Sin embargo, el mecanismo de esta enfermedad no está definido y no se recuperó ningún estudio que evalúe ramipril en ella. Por eso la puntuación alta del modelo (99.93%) no está respaldada por evidencia real.
+El vínculo mecanístico planteado es que el bloqueo del sistema renina-angiotensina-aldosterona (SRAA) podría disminuir la vasoconstricción y el remodelado vascular impulsados por angiotensina II, también a nivel pulmonar. Esto es una hipótesis plausible, pero **los IECA no son una terapia establecida para la hipertensión arterial pulmonar**.
+
+La predicción de TxGNN tiene un puntaje alto, pero no está respaldada por ensayos clínicos ni por literatura directa en esta indicación. Por ello debe considerarse una hipótesis para investigar, no una recomendación terapéutica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal (rango 1) no se recuperó literatura. La única evidencia indirecta proviene de una indicación cercana (rango 2, hipertensión pulmonar por enfermedad pulmonar o hipoxia):
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [9200213](https://pubmed.ncbi.nlm.nih.gov/9200213/) | 1996 | Preclínico (animal) | Physiological Research | En ratas expuestas 3 semanas a hipoxia crónica, ramipril (10 mg/kg/día) redujo la presión de perfusión basal y atenuó los efectos de la hipoxia sobre los vasos pulmonares. |
+
+Los demás artículos recuperados para la indicación cercana tratan sobre contextos miocárdicos, renales u otros no relacionados, y no constituyen evidencia directa.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20160917 | IPCA RAMCOR 5 (IPCA Laboratories Limited) | Cápsula dura | RAMIPRIL (el registro no detalla la indicación) |
+| 20160917 (cancelado) | IPCA RAMCOR 5 | Cápsula dura | RAMIPRIL |
 
-Nota: el listado recibido repite cinco veces el mismo registro (20160917), aunque el total informado es de 14 registros. Por eso solo se muestra una fila.
+Fabricante: IPCA Laboratories Limited. No hay registros vigentes.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento TxGNN (PrimeKG) asocia ramipril con las siguientes condiciones:
+  - Enfermedad renal y obstrucción de la arteria renal
+  - Enfermedad hepática y de la vesícula biliar
+  - Lupus eritematoso sistémico (incluido el pediátrico)
+  - Neutropenia y agranulocitosis
+  - Angioedema hereditario (incluido el asociado a deficiencia de C1 inhibidor)
+  - Trastornos hipotensivos
+  - Enfermedades del tejido conectivo, esclerodermia (localizada y sistémica) y esclerosis sistémica
+  - Enfermedades óseas y del cartílago
+- **Interacciones Farmacológicas:** se identificaron 100 interacciones. Las de nivel **mayor** que aparecen entre las principales son:
+  - Citrato de potasio
+  - Bicarbonato de potasio
+
+  Ambas implican riesgo de hiperpotasemia. Entre las de nivel **moderado** figuran corticoides (hidrocortisona, dexametasona, betametasona, triamcinolona, budesonida), antidiabéticos (metformina, glimepirida, clorpropamida, alogliptina, canagliflozina, dapagliflozina, empagliflozina), ácido acetilsalicílico, morfina, bupropión, dronabinol, ácido picosulfúrico y polietilenglicol con electrolitos.
+- **Consideración específica por indicación:** en la hipertensión renovascular, los IECA conllevan riesgo de lesión renal aguda en caso de estenosis bilateral de la arteria renal.
+
+Consultar el prospecto para información de seguridad adicional, ya que no se dispone de advertencias del prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos, literatura ni un mecanismo definido para esta enfermedad, así que queda en nivel L5. Además, no hay datos de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad.
+La predicción tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura directa en humanos, y el único dato de apoyo es un estudio en ratas sobre hipertensión pulmonar hipóxica. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es el faltante bloqueante.
-- Obtener el mecanismo de acción de DrugBank.
-- Hacer una búsqueda dirigida de literatura y ensayos sobre ramipril/IECA en hipertensión pulmonar.
-- Definir el fenotipo de la enfermedad, porque «mecanismo multifactorial no aclarado» es demasiado vago para diseñar una evaluación.
-
-Entre los otros candidatos predichos, solo **oclusión de arteria cerebral** muestra evidencia indirecta (nivel L4, «Research Question»): un ensayo Fase 2 con desenlaces sustitutos y estudios animales con resultados mixtos. Sigue sin bastar para una recomendación.
+- Obtener el mecanismo de acción detallado desde DrugBank.
+- Obtener del INVIMA el prospecto con advertencias y contraindicaciones, y aclarar la indicación aprobada del registro.
+- Realizar una revisión sistemática de la literatura sobre IECA en hipertensión pulmonar en humanos.
+- Evaluar estudios preclínicos adicionales y, solo si son favorables, considerar un ensayo exploratorio de fase 2.
+- Aclarar la situación comercial de ramipril en Colombia, dado que el registro está cancelado.
+- Definir un plan de seguridad que contemple función renal, potasio y presión arterial.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

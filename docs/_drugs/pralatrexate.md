@@ -2,7 +2,7 @@
 layout: default
 title: Pralatrexate
 parent: Solo Predicción del Modelo (L5)
-nav_order: 329
+nav_order: 526
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,85 +29,101 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pralatrexato: De Linfoma de Células T Periférico a Tumor Adenomatoide Pleural
+# Pralatrexato: De PRALATREXATO (indicación sin especificar) a Tumor Adenomatoide Pleural
 
 ## Resumen en Una Frase
 
-Pralatrexato es un antifolato inhibidor de la enzima DHFR. Se usa en el tratamiento del linfoma de células T periférico recaído o refractario.
-El modelo TxGNN predice que podría ser efectivo para el **tumor adenomatoide pleural**, pero para esa indicación hay **0 ensayos clínicos** y **0 publicaciones**.
-La predicción se basa solo en el modelo (L5). El mesotelioma pleural, otra indicación predicha, sí cuenta con literatura de respaldo (ver más abajo).
+Pralatrexato es un antifolato citotóxico que inhibe la enzima dihidrofolato reductasa (DHFR). En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO". En el ámbito internacional se usa para el linfoma periférico de células T en recaída o refractario.
+El modelo TxGNN predice que podría ser efectivo para **tumor adenomatoide pleural**, pero sin **ningún ensayo clínico** ni **publicación** que respalde esta predicción específica (nivel de evidencia L5).
+
+> **Nota importante:** la primera predicción (tumor adenomatoide pleural) es una lesión benigna y el puntaje alto probablemente refleja cercanía en la red de conocimiento con el mesotelioma, no una señal terapéutica real. Las indicaciones con mayor respaldo son **mesotelioma pleural** y **mesotelioma pleural epitelioide**, descritas en las secciones de evidencia.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo dice "PRALATREXATO". Según la farmacología, linfoma de células T periférico recaído o refractario |
+| Indicación Original | PRALATREXATO (el registro no detalla la indicación; en el ámbito internacional: linfoma periférico de células T en recaída o refractario) |
 | Nueva Indicación Predicha | Tumor adenomatoide pleural |
 | Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 2 (ambos con el mismo número, 20055048) |
+| Nivel de Evidencia | L5 (para la predicción principal). Las predicciones de mesotelioma pleural y mesotelioma pleural epitelioide alcanzan L3 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pralatrexato inhibe la dihidrofolato reductasa (DHFR), enzima necesaria para sintetizar ADN. Es un análogo de los folatos, con alta afinidad por el transportador RFC-1 y buena poliglutamilación. Los datos entregados no incluyen una descripción detallada del mecanismo de acción, pero la DHFR aparece claramente como su blanco farmacológico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, pralatrexato es un análogo del folato que inhibe la DHFR, se internaliza eficientemente a través del transportador RFC-1 y bloquea la síntesis de ADN en células de división rápida. Su eficacia está comprobada en linfoma periférico de células T.
 
-La relación entre la indicación original y la nueva es débil. El tumor adenomatoide pleural es habitualmente benigno, así que el balance riesgo-beneficio de un antifolato citotóxico es desfavorable. El puntaje alto probablemente refleja cercanía en el grafo de conocimiento con los tumores mesoteliales y no una señal terapéutica real.
+Para el **tumor adenomatoide pleural**, no hay evidencia directa. Se trata de una lesión benigna de origen mesotelial, y la terapia citotóxica no es racional en un tumor benigno. El puntaje alto del modelo probablemente se debe a la proximidad en la red con el mesotelioma, no a una señal terapéutica verdadera.
+
+Distinto es el caso del mesotelioma. Otros antifolatos, como pemetrexed, son tratamiento establecido en mesotelioma epitelioide, lo que da una justificación sólida a nivel de clase. Además, existe un ensayo de Fase II de pralatrexato en mesotelioma pleural maligno irresecable. Esta es la línea de investigación más prometedora entre las predicciones, aunque los datos disponibles no incluyen los resultados de eficacia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para la indicación predicha principal (tumor adenomatoide pleural), ni para ninguna de las otras 9 indicaciones predichas.
+
+---
 
 ## Evidencia de Literatura
 
-Para el tumor adenomatoide pleural, actualmente no hay literatura relacionada disponible.
-
-**Evidencia relacionada (indicación predicha de mayor respaldo: mesotelioma pleural, TxGNN 99.85%, nivel L3):**
+Para la indicación principal (tumor adenomatoide pleural) actualmente no hay literatura relacionada disponible. La literatura más relevante corresponde a las predicciones de mesotelioma:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [17409804](https://pubmed.ncbi.nlm.nih.gov/17409804/) | 2007 | Ensayo Fase II de un solo brazo | J Thorac Oncol | Pralatrexato en mesotelioma pleural maligno irresecable. Perfil de toxicidad favorable, limitado sobre todo a estomatitis. No se incluyeron resultados de eficacia. |
-| [11595715](https://pubmed.ncbi.nlm.nih.gov/11595715/) | 2001 | Preclínico | Clin Cancer Res | El análogo PDX fue 25-30 veces más citotóxico que el metotrexato en líneas celulares de mesotelioma. Se evaluó también combinado con platino. |
-| [21301589](https://pubmed.ncbi.nlm.nih.gov/21301589/) | 2010 | Revisión | Cancer Manag Res | Revisión de los antifolatos que actúan sobre la síntesis de ácido fólico en quimioterapia del cáncer. |
+| [17409804](https://pubmed.ncbi.nlm.nih.gov/17409804/) | 2007 | Ensayo Fase II | J Thorac Oncol | Pralatrexato en mesotelioma pleural maligno irresecable. El resumen indica que el mesotelioma responde a antifolatos, que pralatrexato tiene un perfil de toxicidad favorable (principalmente estomatitis) y que mostró actividad antitumoral en líneas celulares y xenoinjertos. Los resultados de eficacia no están en los datos disponibles |
+| [21301589](https://pubmed.ncbi.nlm.nih.gov/21301589/) | 2010 | Revisión | Cancer Manag Res | Revisión sobre quimioterapia dirigida a la síntesis de folatos; respalda la justificación mecanística de los antifolatos |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20055048 | DIFOLTA 20 MG/ML SOLUCION PARA INFUSION (BIOSIDUS COLOMBIA S.A.S.) | Solución inyectable | PRALATREXATO (el registro no detalla la indicación) |
+| 20055048 (cancelado) | DIFOLTA 20 MG/ML SOLUCIÓN PARA INFUSIÓN (BIOSIDUS COLOMBIA S.A.S.) | Solución inyectable | PRALATREXATO |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antifolato, inhibidor de DHFR) |
-| Riesgo de Mielosupresión | Se menciona mielosupresión como parte del perfil de toxicidad. Los datos entregados no permiten graduar su magnitud. |
+| Riesgo de Mielosupresión | Alto. El grafo de conocimiento asocia el fármaco con trombocitopenia, neutropenia, agranulocitosis y anemia |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, y vigilancia de mucositis o estomatitis |
+| Items de Monitoreo | Hemograma con diferencial, función renal y hepática, y vigilancia de mucositis/estomatitis |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA.
+- **Contraindicaciones o condiciones de riesgo (según el grafo de conocimiento TxGNN, no texto de prospecto):** trombocitopenia, neutropenia, agranulocitosis, anemia, anemia macrocítica, función renal deteriorada y estomatitis.
+- **Interacciones farmacológicas:** solo se identificó la interacción farmacológica con su diana, la dihidrofolato reductasa (DHFR), sin nivel de gravedad clínica. No hay interacciones con otros fármacos.
 
-- **Perfil de toxicidad conocido:** mucositis o estomatitis y mielosupresión. Son una barrera importante para su uso en condiciones crónicas o benignas.
-- **Interacciones farmacológicas:** la consulta no devolvió interacciones medicamentosas clínicas. El único registro corresponde al blanco farmacológico (DHFR).
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para el tumor adenomatoide pleural solo hay una predicción del modelo (L5), sin ensayos ni literatura. Además, se trata de un tumor generalmente benigno, para el cual un antifolato citotóxico tiene un balance riesgo-beneficio desfavorable.
+La predicción principal (tumor adenomatoide pleural) carece de evidencia y es poco racional para una lesión benigna, dada la toxicidad del fármaco (mielosupresión, mucositis). El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica. Las indicaciones de mesotelioma pleural y pleural epitelioide (L3) son mejores candidatas a pregunta de investigación, pero no a decisión de avance.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que hoy bloquea el tamizaje de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Definir si se justifica reorientar el análisis hacia el **mesotelioma pleural**, la indicación predicha con mayor respaldo (L3, "Research Question"). Habría que obtener los resultados de eficacia del ensayo Fase II (PMID 17409804) y compararlos con pemetrexed, que ya ocupa ese nicho.
-- Aclarar la indicación aprobada en el registro colombiano, que solo dice "PRALATREXATO".
-
-*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener los resultados de eficacia y seguridad del ensayo de Fase II (PMID 17409804) y, si es posible, un desglose por histología epitelioide
+- Reorientar la evaluación hacia mesotelioma pleural/epitelioide, comparando con pemetrexed como estándar
+- Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones
+- Consultar DrugBank para completar el mecanismo de acción
+- Evaluar la viabilidad de acceso al fármaco en Colombia, dado que no hay registro vigente
+- Verificar la compatibilidad de vía de administración (pendiente)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

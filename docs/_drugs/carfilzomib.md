@@ -2,7 +2,7 @@
 layout: default
 title: Carfilzomib
 parent: Solo Predicción del Modelo (L5)
-nav_order: 114
+nav_order: 138
 evidence_level: L5
 indication_count: 5
 ---
@@ -29,13 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Carfilzomib: De Mieloma Múltiple a CMM7 (Subtipo de Melanoma)
+# Carfilzomib: De Indicación Original (no especificada en el registro) a CMM7
 
 ## Resumen en Una Frase
 
-Carfilzomib es un inhibidor del proteasoma que se comercializa en Colombia como KYPROLIS®. El registro sanitario no declara su indicación, pero en el uso clínico general se emplea contra el mieloma múltiple.
-El modelo TxGNN predice que podría ser efectivo para **CMM7 (un subtipo de melanoma)**, con un puntaje alto (99.37%) pero **0 ensayos clínicos y 0 publicaciones** específicas para este subtipo.
-Para el melanoma en general solo hay **5 publicaciones**, todas preclínicas o indirectas, y ningún ensayo clínico.
+Carfilzomib es un inhibidor del proteasoma que cuenta con registros sanitarios en Colombia, aunque el texto de indicación registrado solo repite el nombre del fármaco, por lo que no se dispone de una indicación original descrita.
+El modelo TxGNN predice que podría ser efectivo para **CMM7** (un subtipo o locus de susceptibilidad de melanoma maligno cutáneo), con un puntaje de 99.37%.
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asociados a esta predicción, por lo que se trata de una predicción puramente computacional.
 
 ---
 
@@ -43,40 +43,50 @@ Para el melanoma en general solo hay **5 publicaciones**, todas preclínicas o i
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Mieloma múltiple (según conocimiento general del fármaco). El texto de indicación del registro solo repite el nombre "CARFILZOMIB" |
-| Nueva Indicación Predicha | CMM7 (subtipo de melanoma) |
+| Indicación Original | No especificada en el registro (el texto registrado solo indica "Carfilzomib") |
+| Nueva Indicación Predicha | CMM7 |
 | Puntaje de Predicción TxGNN | 99.37% |
-| Nivel de Evidencia | L5 para CMM7. Para melanoma en general sería L4 (solo estudios preclínicos) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
-## Por qué es Razonable esta Predicción?
+## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, carfilzomib es un inhibidor del proteasoma. Su eficacia en mieloma múltiple es conocida, y mecanísticamente podría ser aplicable al melanoma. Bloquear el proteasoma puede inducir apoptosis (muerte celular programada) en células tumorales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, carfilzomib es un inhibidor irreversible de la actividad tipo quimotripsina del proteasoma 20S, usado en oncología (principalmente mieloma múltiple). Al bloquear el proteasoma se acumulan proteínas mal plegadas y reguladoras, lo que genera estrés del retículo endoplásmico y apoptosis.
 
-El único respaldo experimental proviene de un estudio in vitro en células de melanoma murino B16-F1 (PMID 33671902). Allí, carfilzomib combinado con bortezomib aumentó la muerte celular apoptótica. Este resultado no demuestra eficacia ni seguridad en humanos.
+CMM7 parece corresponder a un subtipo o locus de susceptibilidad de melanoma maligno cutáneo. Un vínculo plausible es que la inhibición del proteasoma cause estrés proteotóxico y muerte celular en las células de melanoma. Sin embargo, esta relación se infiere del contexto general del melanoma y no está respaldada por datos directos sobre CMM7.
 
-La predicción para CMM7 se basa solo en la asociación general con melanoma, sin evidencia propia del subtipo. Las otras predicciones del modelo tienen limitaciones similares:
-- **Melanoma leptomeníngeo pediátrico:** no se ha establecido que carfilzomib penetre el sistema nervioso central, lo que es una barrera adicional.
-- **Melanoma uveal de células epitelioides:** biológicamente distinto del melanoma cutáneo, por lo que los datos preclínicos no pueden asumirse transferibles.
-- **Melanoma vulvar:** no se recuperaron ensayos ni literatura para melanoma mucoso.
+Es importante señalar que la similitud entre la indicación original y la nueva no pudo evaluarse con los datos disponibles.
+
+Otras predicciones de alto puntaje para este fármaco también corresponden a melanomas, con diferentes limitaciones:
+- **Melanoma leptomeníngeo pediátrico** (99.30%): se espera una mala penetración de carfilzomib a través de la barrera hematoencefálica, además de preocupaciones adicionales de seguridad en población pediátrica.
+- **Melanoma uveal de células epitelioides** (99.23%): es biológicamente distinto del melanoma cutáneo (dependiente de GNAQ/GNA11), por lo que los datos cutáneos no son extrapolables directamente.
+- **Melanoma vulvar** (99.19%): el melanoma mucoso difiere genéticamente del cutáneo y la extrapolación no está validada.
+- **Melanoma** en general (99.03%, nivel L4): existe respaldo preclínico (ver abajo).
+
+---
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
-No hay literatura específica para CMM7. Las siguientes publicaciones corresponden a la predicción de **melanoma en general** (rango 5) y son todas preclínicas o indirectas.
+Para CMM7 no hay literatura disponible. Como referencia contextual, para la indicación más amplia de **melanoma** se identificaron los siguientes estudios, todos preclínicos o computacionales:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Preclínico (in vitro, línea celular murina) | Biology | Carfilzomib combinado con bortezomib aumentó la apoptosis en células de melanoma B16-F1, con activación de caspasas 3, 8, 9 y 12 |
-| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | In silico (acoplamiento molecular) | J Biomol Struct Dyn | Reposicionamiento de fármacos clínicos contra dianas de quinasas en diez tipos de cáncer, incluido melanoma. Evidencia computacional, no clínica |
-| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Preclínico (mecanístico) | Matrix Biol | Bortezomib y carfilzomib activan la vía NF-κB e inducen heparanasa en células de mieloma, lo que se asocia a un fenotipo tumoral más agresivo. No evalúa melanoma |
-| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Preclínico (mecanístico, células humanas de melanoma) | Mol Cancer Res | El gen ZFAND2a regula la supervivencia celular en melanoma humano mediante la ligasa E3 cIAP2. Por el resumen disponible, no parece probar carfilzomib como terapia |
-| [29581547](https://pubmed.ncbi.nlm.nih.gov/29581547/) | 2018 | Preclínico (mecanístico) | Leukemia | Moléculas PROTAC dirigidas a proteínas BET son activas en modelos preclínicos de mieloma. No evalúa carfilzomib en melanoma |
+| [33671902](https://pubmed.ncbi.nlm.nih.gov/33671902/) | 2021 | Estudio preclínico in vitro | Biology | Carfilzomib combinado con bortezomib aumenta la muerte celular apoptótica en células de melanoma B16-F1, con activación de caspasas 3, 8, 9 y 12 |
+| [36134605](https://pubmed.ncbi.nlm.nih.gov/36134605/) | 2023 | Estudio computacional | J Biomol Struct Dyn | Acoplamiento molecular y simulaciones para reposicionar fármacos contra dianas de cinasas en varios cánceres, incluido el melanoma |
+| [31540997](https://pubmed.ncbi.nlm.nih.gov/31540997/) | 2019 | Estudio mecanístico preclínico | Mol Cancer Res | El gen AIRAP-L (ZFAND2A) regula la supervivencia celular en melanoma humano, con participación de la ligasa E3 cIAP2 |
+| [27016342](https://pubmed.ncbi.nlm.nih.gov/27016342/) | 2016 | Estudio mecanístico preclínico | Matrix Biol | Bortezomib y carfilzomib activan NF-κB e inducen la expresión de heparanasa, asociada a un fenotipo tumoral más agresivo |
+
+Los tres últimos estudios ofrecen solo apoyo indirecto o contextual. El último, de hecho, sugiere un posible efecto no deseado de los inhibidores del proteasoma.
 
 ---
 
@@ -84,9 +94,12 @@ No hay literatura específica para CMM7. Las siguientes publicaciones correspond
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20087826 | KYPROLIS® (AMGEN INC.) | Polvo liofilizado (para reconstituir a solución inyectable) | El texto registrado solo indica "CARFILZOMIB" |
+| 20087826 | KYPROLIS® (Amgen Inc.) | Polvo liofilizado | Carfilzomib (cancelado) |
+| 20260831 | DETAMZIB® 60 MG (Sandoz GmbH) | Polvo liofilizado | Carfilzomib (cancelado) |
+| 20252729 | GLENCARFIL® (Glenmark Pharmaceuticals Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (cancelado) |
+| 20228189 | ALCAF ELEA® 60 MG (Laboratorio Elea Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (cancelado) |
 
-Los cinco registros devueltos corresponden al mismo número sanitario, por lo que se muestra una sola fila. El total declarado es de 20 registros.
+Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes.
 
 ---
 
@@ -95,16 +108,25 @@ Los cinco registros devueltos corresponden al mismo número sanitario, por lo qu
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor del proteasoma) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto (en la práctica clínica se describen trombocitopenia y neutropenia) |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto. En general se esperan hemograma y función hepática y renal |
-| Protección en Manejo | Manejar como fármaco antineoplásico, según las regulaciones locales para fármacos citotóxicos |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, electrolitos |
+| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos/antineoplásicos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. La búsqueda de interacciones farmacológicas no arrojó resultados.
+**Interacciones Farmacológicas:** se identificaron 100 interacciones en total (fuente: DDInter). Entre las de nivel **Mayor** destacan:
+- Esteroides anabolizantes: oxandrolona, oximetolona, estanozolol
+- Deferiprona
+- Samario (153Sm) lexidronam
+- Factores de coagulación y hemostáticos: factor antihemofílico recombinante, ácido aminocaproico, factor de von Willebrand, factor VIIa recombinante, factor X humano, inhibidor de C1-esterasa humano, conestat alfa
+- Avatrombopag
+
+Entre las de nivel **Moderado** se incluyen metronidazol, tinidazol, naltrexona, rosuvastatina, simvastatina, palifermina y cloruro de estroncio Sr-89.
+
+No se dispone de advertencias ni contraindicaciones del prospecto en los datos compilados; consultar el prospecto para esa información.
 
 ---
 
@@ -113,16 +135,14 @@ Consultar el prospecto para información de seguridad. La búsqueda de interacci
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto, pero no hay ensayos clínicos ni literatura específica para CMM7 (nivel L5). Para melanoma en general solo existen estudios preclínicos e indirectos (L4), y un resultado en células murinas no establece eficacia ni seguridad en humanos.
+La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura directa. Además, los registros sanitarios en Colombia están cancelados y faltan datos de seguridad y mecanismo.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA, con advertencias y contraindicaciones, para poder hacer el tamizaje de seguridad. Este es el bloqueo principal.
-- Completar el mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Buscar evidencia específica del subtipo CMM7 y estudios en modelos de melanoma humano, in vitro e in vivo.
-- Evaluar la penetración en el sistema nervioso central antes de considerar enfermedad leptomeníngea.
-- Definir la compatibilidad de la vía de administración, que está pendiente. En Colombia solo se registra como polvo liofilizado inyectable.
-
-Los resultados son solo para fines de investigación y no constituyen consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.
+- Obtener y analizar el prospecto (advertencias y contraindicaciones), un faltante que bloquea el tamizaje de seguridad
+- Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank)
+- Aclarar qué es CMM7 y su relación con el melanoma cutáneo
+- Generar evidencia preclínica específica (líneas celulares, modelos in vivo) y valorar la indicación más amplia de melanoma (L4) como pregunta de investigación
+- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que todos los registros están cancelados
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

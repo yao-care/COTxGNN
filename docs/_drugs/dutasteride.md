@@ -2,7 +2,7 @@
 layout: default
 title: Dutasteride
 parent: Solo Predicción del Modelo (L5)
-nav_order: 171
+nav_order: 243
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,67 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dutasterida: De Hiperplasia Prostática Benigna a Hipertricosis Universal Congénita Tipo Ambras
+# Dutasterida: De Dutasterida (indicación registrada sin detalle) a Hipertricosis Universal Congénita tipo Ambras
 
 ## Resumen en Una Frase
 
-Dutasterida es un inhibidor de la 5-alfa reductasa que se usa clínicamente para la hiperplasia prostática benigna. El texto de indicación en los registros de Colombia solo dice "DUTASTERIDA", así que esta indicación proviene del conocimiento farmacológico general y no de los datos del registro.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
+Dutasterida es un inhibidor de la 5-alfa-reductasa, registrado en Colombia como dutasterida sola y en combinación con tamsulosina; el texto de indicación del registro no detalla la enfermedad tratada.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal congénita tipo Ambras**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto dice solo "DUTASTERIDA"); por conocimiento general, hiperplasia prostática benigna |
+| Indicación Original | Dutasterida (el registro sanitario no detalla la enfermedad) |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.998% (posición 59) |
+| Puntaje de Predicción TxGNN | 99.998% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No hay datos del mecanismo de acción (MOA) en el paquete de evidencia. Según el conocimiento farmacológico general, la dutasterida inhibe la 5-alfa reductasa de tipos 1 y 2, lo que reduce la dihidrotestosterona (DHT). Por esa reducción de DHT también se usa para conservar el cabello en la alopecia androgenética.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la dutasterida inhibe la 5-alfa-reductasa tipo 1 y tipo 2, con lo que reduce la dihidrotestosterona (DHT). Su eficacia está establecida en afecciones dependientes de andrógenos, como la hiperplasia prostática benigna y la alopecia androgenética.
 
-La relación con la nueva indicación es débil. El síndrome de Ambras es una condición congénita ligada a un reordenamiento cromosómico en 8q22 que altera la regulación del gen *TRPS1*, y no depende principalmente de la DHT. Como la dutasterida ayuda a retener cabello en el cuero cabelludo, ni siquiera está claro en qué dirección podría actuar sobre un exceso de vello. Hoy no existe un mecanismo plausible establecido.
+El síndrome de Ambras es un trastorno congénito del crecimiento del cabello con base genética (reordenamientos cromosómicos que afectan la regulación de TRPS1). No se sabe que la hipertricosis de esta condición dependa de andrógenos, por lo que el vínculo mecanístico es **especulativo**.
 
-Por lo tanto, el puntaje alto del modelo debe leerse con cautela. Podría reflejar asociaciones del grafo de conocimiento (por ejemplo, entre fármacos y enfermedades del folículo piloso) y no un vínculo biológico real.
+El puntaje TxGNN es muy alto, pero es solo una predicción del modelo, sin ensayos ni literatura que la respalden. Las demás predicciones del modelo (hipertricosis, anomalías del tallo piloso, hipotricosis, etc.) tienen el mismo problema: el vínculo parece reflejar cercanía en el grafo de conocimiento (fenotipos de pelo y ectodermo) más que una razón farmacológica. En la hipertricosis, además, la dirección del efecto es ambigua, porque los inhibidores de la 5-alfa-reductasa se usan sobre todo para reducir efectos androgénicos en el cabello.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para la indicación principal (Ambras).
+
+Como referencia, la octava predicción (alopecia areata difusa) tiene una única publicación, que corresponde a otra enfermedad y aporta solo contexto indirecto:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Revisión | American Journal of Clinical Dermatology | Revisión narrativa sobre fisiopatología, evaluación clínica y tratamientos de la alopecia androgenética en mujeres; no evalúa la alopecia areata |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128081 | DUTASVITAE® 0.5 MG cápsulas blandas (GALENICUM HEALTH COLOMBIA S.A.S.) | Cápsula blanda | Solo figura "DUTASTERIDA" (sin texto de indicación) |
+| 20128081 | DUTASVITAE® 0.5 MG CÁPSULAS BLANDAS | Cápsula blanda | DUTASTERIDA (cancelado) |
+| 20158830 | DUTASTERIDA 0.5MG CÁPSULA BLANDA | Cápsula blanda | DUTASTERIDA (cancelado) |
+| 20188809 | DUTAZ DUO® | Cápsula dura | TAMSULOSINA Y DUTASTERIDA (cancelado) |
 
-Los datos devuelven este mismo registro repetido varias veces. Se muestra una sola vez. El total reportado es de 20 registros sanitarios, con formas de cápsula blanda y cápsula dura.
+Los tres registros están cancelados; no hay registros vigentes.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: atrofia multisistémica, síndrome de taquicardia postural ortostática, hipotensión ortostática, enfermedad hepática, enfermedad de la vesícula biliar, priapismo y síndrome del iris flácido intraoperatorio. Varias de estas parecen asociarse sobre todo al componente tamsulosina de la combinación.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las de nivel moderado son aprepitant, cimetidina, claritromicina, clotrimazol y miconazol. Otras (calcitriol, pantoprazol, glimepirida, mesalazina, doxiciclina, morfina, metformina, omeprazol, rosiglitazona, lansoprazol, lactulosa, triamcinolona, prednisona, simvastatina, hidrocortisona) tienen nivel no clasificado.
+- **Embarazo**: según el análisis de la predicción, la dutasterida está contraindicada en el embarazo por su efecto sobre el desarrollo genital del feto masculino.
+
+Consultar el prospecto para el resto de la información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción está en nivel L5, sin ensayos ni publicaciones, y el mecanismo conocido no explica un beneficio en la hipertricosis de Ambras. Tampoco hay datos de seguridad locales, por lo que no se puede pasar a una evaluación de seguridad.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, con un vínculo mecanístico débil y sin registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante).
-- Confirmar el mecanismo de acción desde DrugBank y analizar si hay un vínculo real con la vía de *TRPS1* o con el folículo piloso.
-- Hacer una búsqueda de literatura dirigida a dutasterida e hipertricosis. Las 20 publicaciones recuperadas para la predicción de malformación con componente periodontal tratan de periodontitis en general y ninguna menciona dutasterida, por lo que no aportan evidencia.
-- Priorizar, si se quiere explorar el tema, la predicción de **hipotricosis simple del cuero cabelludo** (clasificada como pregunta de investigación). Tiene mayor plausibilidad parcial por el uso de dutasterida en alopecia androgenética, aunque sigue sin ensayos ni literatura.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Datos del mecanismo de acción (consultar DrugBank) y análisis de si existe un vínculo real entre la DHT y la hipertricosis de Ambras
+- Revisión bibliográfica dirigida y evidencia preclínica que respalde la hipótesis
+- Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
+- Evaluar la situación regulatoria, dado que todos los registros están cancelados
+- Priorizar otras predicciones con mayor plausibilidad, como la hipotricosis simple del cuero cabelludo, que tiene cercanía fenotípica con la alopecia androgenética
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

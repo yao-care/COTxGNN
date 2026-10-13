@@ -2,15 +2,15 @@
 layout: default
 title: Famotidine
 parent: Evidencia Moderada (L3-L4)
-nav_order: 195
-evidence_level: L3
+nav_order: 277
+evidence_level: L4
 indication_count: 10
 ---
 
 # Famotidine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,33 +29,32 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Famotidina: De Úlcera Gástrica y Duodenal a Reflujo Duodenogástrico
+# Famotidina: De Indicación Registrada (Famotidina) a Duodenogastric Reflux (Reflujo Duodenogástrico)
 
 ## Resumen en Una Frase
 
-La famotidina es un antagonista del receptor H2 de histamina, usado para tratar úlceras gástricas y duodenales, reflujo gastroesofágico y estados de exceso de ácido gástrico.
-El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**,
-pero hoy solo lo respaldan **0 ensayos clínicos** y **2 publicaciones** de alcance limitado.
+Famotidina es un antagonista de los receptores H2 de histamina, registrado en Colombia bajo el texto de indicación "famotidina" y usado clásicamente para reducir la acidez gástrica.
+El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**, pero **no hay ensayos clínicos registrados** y solo **2 publicaciones** de apoyo indirecto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | FAMOTIDINA (el registro sanitario no detalla la indicación; según la ficha farmacológica: úlceras gástricas y duodenales, reflujo gastroesofágico e hipersecreción ácida) |
+| Indicación Original | Famotidina (el registro sanitario solo indica el nombre del principio activo, sin detallar la indicación) |
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos del paquete no incluyen una descripción detallada del mecanismo de acción original. Sí muestran que la famotidina actúa sobre el receptor H2 (gen *HRH2*), un antagonismo selectivo que reduce la secreción de ácido gástrico. El paquete también registra una interacción con el receptor gustativo *TAS2R31*, sin relevancia clara para esta predicción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la famotidina es un antagonista del receptor H2 (HRH2) que disminuye la secreción de ácido gástrico, y su eficacia en enfermedades relacionadas con la acidez está bien establecida.
 
-La indicación original (úlcera y enfermedad por hiperacidez) y el reflujo duodenogástrico comparten el mismo terreno: la lesión de la mucosa gastroduodenal. Al bajar la producción de ácido, la famotidina podría reducir el daño que causa el contenido duodenal que refluye al estómago.
+La relación con el reflujo duodenogástrico es indirecta: reducir el ácido puede disminuir el daño de la mucosa asociado al reflujo, pero la famotidina no actúa directamente sobre el reflujo de bilis o de contenido duodenal. El puntaje alto del modelo parece reflejar la cercanía en la red de conocimiento con las enfermedades ulcerosas, más que evidencia clínica específica.
 
-El vínculo es sintomático y parcial. La famotidina no actúa sobre la causa del reflujo, que es el paso de bilis y jugo pancreático. Por eso la predicción es plausible, pero no equivale a un tratamiento de fondo.
+Cabe señalar que otras predicciones del modelo, como **enfermedad ulcerosa péptica** (L1), **úlcera gastroyeyunal** (L2) y **gastroduodenitis** (L3), tienen más evidencia, pero en su mayoría coinciden con el uso ya conocido de la famotidina y no constituyen reposicionamiento en sentido estricto. Este informe se centra en la predicción de mayor puntaje.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -65,34 +64,35 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Estudio clínico (pacientes críticos en UCI) | World J Gastroenterol | Evalúa el efecto de la famotidina sobre el reflujo gastroesofágico y el duodeno-gastro-esofágico, y explora posibles mecanismos y factores relacionados. El resumen disponible no muestra resultados. |
-| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Artículo clínico/revisión | Eksp Klin Gastroenterol | Evalúa famotidina 20 mg dos veces al día en etapas tempranas de la enfermedad por reflujo gastroduodenal (grados 0 y 1 de la escala Savary-Miller modificada), con estudio clínico y endoscópico. |
+| [12532466](https://pubmed.ncbi.nlm.nih.gov/12532466/) | 2003 | Estudio clínico (pacientes críticos; diseño poco claro) | World J Gastroenterol | Evalúa el efecto de la famotidina sobre el reflujo gastroesofágico y duodeno-gastro-esofágico en pacientes críticamente enfermos y explora posibles mecanismos |
+| [16259441](https://pubmed.ncbi.nlm.nih.gov/16259441/) | 2004 | Revisión | Eksp Klin Gastroenterol | Eficacia de famotidina 20 mg dos veces al día en etapas tempranas de la enfermedad por reflujo gastroduodenal (artículo en ruso) |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19959810 | GASTRUM® 10 MG TABLETA (Laboratorio Franco Colombiano - Lafrancol S.A.S.) | Tableta | Famotidina (el texto del registro no detalla la indicación) |
-
-Se reportan 20 registros en total. Las cinco entradas disponibles en los datos corresponden al mismo registro (19959810), por lo que se muestra una sola fila. Las formas farmacéuticas identificadas son tableta y tableta recubierta, ambas de vía oral.
+| 19959810 | GASTRUM® 10 MG TABLETA (cancelado) | Tableta | FAMOTIDINA |
+| 20249954 | PEPTOFAN® 40 MG (cancelado) | Tableta recubierta | FAMOTIDINA |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento del modelo asocia la famotidina con enfermedad renal, función renal alterada, nefrolitiasis, enfermedad hepática, enfermedad de la vesícula biliar, hipercalcemia, hiperparatiroidismo, sarcoidosis, estreñimiento, enfermedad diarreica y cáncer gástrico (incluidas sus variantes). Estas relaciones requieren verificación clínica; en particular, el cáncer gástrico sugiere cautela porque el alivio sintomático podría enmascarar una neoplasia.
+- **Interacciones farmacológicas:** los datos solo muestran dianas farmacológicas (receptor H2 y TAS2R31), sin interacciones medicamentosas clínicas relevantes.
+
+No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para esta indicación, y la literatura son dos estudios pequeños sin resultados claros en el resumen. Además, el mecanismo solo alivia el daño por ácido y no trata el reflujo biliar o pancreático. Tampoco se han revisado las advertencias y contraindicaciones del prospecto de INVIMA.
+La predicción se apoya solo en dos publicaciones indirectas y ningún ensayo clínico, y el mecanismo (supresión ácida) no actúa sobre el reflujo biliar o duodenal. Además, en Colombia solo existen registros cancelados, lo que limita la disponibilidad práctica.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos que bloquea el tamizaje de seguridad.
-- Leer los estudios completos (PMID 12532466 y 16259441) para conocer sus resultados.
-- Buscar o diseñar un ensayo controlado sobre famotidina en reflujo duodenogástrico.
-- Completar los datos de mecanismo de acción y de similitud con la indicación original.
-- Como referencia, otras indicaciones predichas para este fármaco, como la enfermedad ulcerosa péptica, cuentan con mucha más evidencia clínica.
+- Datos del mecanismo de acción detallado y del prospecto (advertencias y contraindicaciones oficiales)
+- Estudios controlados que evalúen la famotidina específicamente en reflujo duodenogástrico
+- Confirmar la situación regulatoria y la disponibilidad actual del producto en Colombia
+- Considerar priorizar indicaciones relacionadas con úlcera péptica solo si se busca documentar usos ya conocidos; en ese caso, la evidencia indica que la famotidina es inferior a los inhibidores de la bomba de protones para prevenir recurrencia de úlceras asociadas a aspirina
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Solo Predicción del Modelo (L5)
-nav_order: 320
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 506
+evidence_level: L2
 indication_count: 10
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,110 +29,129 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pemetrexed: De Mesotelioma Pleural a Mesotelioma Peritoneal Maligno
+# Pemetrexed: De Indicación Original (no especificada en el registro) a Mesotelioma Peritoneal Maligno
 
 ## Resumen en Una Frase
 
-Pemetrexed es un antifolato multidiana usado en quimioterapia, cuya indicación establecida es el mesotelioma pleural (combinado con platino). El modelo TxGNN predice que podría ser efectivo para el **mesotelioma peritoneal maligno**. Esta dirección cuenta con **11 ensayos clínicos** (en su mayoría fase 2, en curso y mezclados con otras histologías) y **20 publicaciones**, casi todas revisiones y estudios retrospectivos.
+Pemetrexed es un antifolato multidiana. En los registros sanitarios de INVIMA su indicación aparece solo con el nombre del principio activo, sin un texto de indicación detallado. El modelo TxGNN predice que podría ser efectivo para **mesotelioma peritoneal maligno**, con **7 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. La evidencia es de Fase 2 o extrapolada desde el mesotelioma pleural.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro INVIMA (el texto de indicación solo dice "PEMETREXED"). La indicación establecida, según el análisis del Evidence Pack, es el mesotelioma pleural. |
+| Indicación Original | Pemetrexed (el registro sanitario no detalla la indicación; en la práctica se usa en mesotelioma pleural y cáncer de pulmón no microcítico) |
 | Nueva Indicación Predicha | Mesotelioma peritoneal maligno |
 | Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L3 (ver nota abajo) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 5 filas en el registro (corresponden a 2 registros únicos: 20108592 y 20192961) |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre el nivel de evidencia:** el Evidence Pack asignó L2. Aplicando las reglas del informe, no hay un ECA de fase 2/3 completado específico para mesotelioma peritoneal. El único estudio de fase 2 completado (NCT00061477) es de un solo brazo y mezcla mesotelioma pleural y peritoneal. La evidencia clínica disponible es sobre todo observacional (estudios retrospectivos), por lo que el nivel es L3.
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la farmacología conocida, pemetrexed inhibe varias enzimas dependientes de folato: timidilato sintasa, dihidrofolato reductasa y GARFT. Con ello bloquea la síntesis de purinas y pirimidinas en células que se dividen rápido.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información conocida, pemetrexed es un antifolato multidiana que inhibe la timidilato sintasa (TS), la dihidrofolato reductasa (DHFR) y la GARFT. Así bloquea la síntesis de purinas y pirimidinas en células de rápida división.
 
-El mesotelioma pleural y el peritoneal comparten histología y biología de la vía del folato. Pemetrexed más platino es el tratamiento de primera línea establecido en el mesotelioma pleural, respaldado por un ECA de fase 3 pivotal (PMID 12860938). Por eso extrapolar este esquema al mesotelioma peritoneal es mecanísticamente plausible.
+El mesotelioma peritoneal y el pleural comparten histología y biología. La combinación pemetrexed + platino es el tratamiento de referencia en el mesotelioma pleural, por lo que su eficacia es plausible en el peritoneo. Los estudios de mesotelioma peritoneal son escasos por la baja incidencia, y las recomendaciones de tratamiento sistémico se extrapolan en gran parte de los ensayos en mesotelioma pleural.
 
-En la práctica, el esquema pemetrexed-platino ya se usa como quimioterapia sistémica de primera línea en el mesotelioma peritoneal avanzado. Los estudios disponibles son retrospectivos y el nivel de evidencia es menor que en el caso pleural. Además, para el mesotelioma peritoneal el tratamiento de elección en pacientes operables es la cirugía citorreductora con HIPEC. La quimioterapia sistémica se usa sobre todo en enfermedad avanzada.
+Una limitación importante: no existe un ensayo de Fase 3 específico para mesotelioma peritoneal. El ensayo NCT00061477 incluyó pacientes pleurales y peritoneales de forma conjunta, por lo que no se puede aislar el efecto en el peritoneo.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes de 11 registrados.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Fase 2 | Reclutando | 64 | ICARuS II: quimioterapia intraperitoneal frente a intravenosa tras cirugía citorreductora y HIPEC. Aleatorizado; sin resultados aún. |
-| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Fase 2 | Reclutando | 66 | Carboplatino, pemetrexed y bevacizumab con o sin atezolizumab. Aleatorizado; sin resultados aún. |
-| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Fase 2 | Suspendido | 66 | MESOTIP: PIPAC más quimioterapia sistémica (cisplatino + pemetrexed) frente a quimioterapia sola en primera línea. Objetivo: supervivencia global. |
-| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Fase 2 | Reclutando | 28 | Sintilimab y bevacizumab con pemetrexed y cisplatino en enfermedad irresecable. Un solo brazo, muestra pequeña. |
-| [NCT04462809](https://clinicaltrials.gov/study/NCT04462809) | Fase 2 | Desconocido | 40 | Talazoparib de mantenimiento tras platino en mesotelioma pleural o peritoneal. Pemetrexed es tratamiento de base, no el fármaco evaluado. |
-| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Fase 2 | Completado | 48 | Pemetrexed más gemcitabina en primera línea, mesotelioma pleural o peritoneal. Evalúa seguridad, respuesta y supervivencia. |
-| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Fase 1/2 | Activo, sin reclutar | 30 | TRC102 con cisplatino y pemetrexed en tumores sólidos y mesotelioma, incluido el refractario a pemetrexed. |
-| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Fase 1 | Completado | 19 | Cisplatino, pemetrexed e imatinib en mesotelioma maligno irresecable o metastásico. Busca la dosis máxima tolerada. |
-| [NCT02029690](https://clinicaltrials.gov/study/NCT02029690) | Fase 1 | Terminado | 85 | ADI-PEG 20 con pemetrexed y cisplatino. El mesotelioma peritoneal solo se incluyó en la cohorte de escalada de dosis. |
-| [NCT01353482](https://clinicaltrials.gov/study/NCT01353482) | Fase 1/2 | Retirado | 0 | Vorinostat con pemetrexed-cisplatino en mesotelioma pleural. Nunca inscribió pacientes. |
+| [NCT00061477](https://clinicaltrials.gov/study/NCT00061477) | Fase 2 | Completado | 48 | Pemetrexed + gemcitabina como primera línea en mesotelioma pleural o peritoneal; subgrupos mezclados |
+| [NCT05001880](https://clinicaltrials.gov/study/NCT05001880) | Fase 2 | Reclutando | 66 | Quimioterapia (carboplatino, pemetrexed, bevacizumab) con o sin atezolizumab en mesotelioma peritoneal; sin resultados aún |
+| [NCT06543069](https://clinicaltrials.gov/study/NCT06543069) | Fase 2 | Reclutando | 28 | Sintilimab + bevacizumab con pemetrexed y cisplatino en mesotelioma peritoneal irresecable; brazo único |
+| [NCT00402766](https://clinicaltrials.gov/study/NCT00402766) | Fase 1 | Completado | 19 | Dosis máxima tolerada de cisplatino, pemetrexed e imatinib en mesotelioma metastásico o irresecable |
+| [NCT02535312](https://clinicaltrials.gov/study/NCT02535312) | Fase 1/2 | Activo, sin reclutar | 30 | TRC102 con cisplatino y pemetrexed en tumores sólidos avanzados; el mesotelioma es un subgrupo |
+| [NCT03875144](https://clinicaltrials.gov/study/NCT03875144) | Fase 2 | Suspendido | 66 | PIPAC más quimioterapia sistémica (cisplatino + pemetrexed) frente a quimioterapia sola |
+| [NCT06057935](https://clinicaltrials.gov/study/NCT06057935) | Fase 2 | Reclutando | 64 | Quimioterapia intraperitoneal frente a intravenosa tras cirugía citorreductora y HIPEC; el papel de pemetrexed no es claro |
+
+---
 
 ## Evidencia de Literatura
 
-No se identificaron ECA específicos de mesotelioma peritoneal. Se listan los estudios clínicos retrospectivos más directos y revisiones clave.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Estudio retrospectivo | Expert Rev Anticancer Ther | Evalúa la eficacia de pemetrexed más cisplatino sistémico en primera línea en mesotelioma peritoneal. |
-| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Estudio clínico (diseño no especificado) | Jpn J Clin Oncol | Eficacia y seguridad de pemetrexed más cisplatino en primera línea en enfermedad avanzada. Señala que no existe quimioterapia estándar establecida. |
-| [33743636](https://pubmed.ncbi.nlm.nih.gov/33743636/) | 2021 | Estudio retrospectivo | BMC Cancer | Eficacia de la segunda línea y factores pronósticos, tras el estudio previo de cisplatino-pemetrexed en primera línea. |
-| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Estudio comparativo | Clin Med Insights Oncol | Compara pemetrexed-platino con gemcitabina-platino en primera línea. Pemetrexed-platino es el esquema sistémico más usado. |
-| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Estudio multicéntrico | Ann Surg Oncol | Analiza características, pronóstico y estrategias de tratamiento en esta población rara y heterogénea. |
-| [36765620](https://pubmed.ncbi.nlm.nih.gov/36765620/) | 2023 | Revisión | Cancers | Ruta diagnóstica y terapéutica. La supervivencia es mejor con cirugía citorreductora más HIPEC (mediana de 34 a 92 meses). |
-| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Revisión | J Clin Med | Cirugía citorreductora con HIPEC como tratamiento inicial preferido en pacientes seleccionados. |
-| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Revisión | Transl Lung Cancer Res | Revisión general del mesotelioma peritoneal: tumor muy raro y de mal pronóstico. |
-| [34723916](https://pubmed.ncbi.nlm.nih.gov/34723916/) | 2022 | Reporte de casos (2 pacientes) | J Immunother | Quimioinmunoterapia en enfermedad no respondedora a platino. Primera descripción de esta combinación en mesotelioma peritoneal. |
-| [23291819](https://pubmed.ncbi.nlm.nih.gov/23291819/) | 2013 | Reporte de caso | BMJ Case Rep | Paciente con buena respuesta a la reexposición a cisplatino y pemetrexed tras progresión. |
+| [31287877](https://pubmed.ncbi.nlm.nih.gov/31287877/) | 2019 | Estudio de eficacia y seguridad | Jpn J Clin Oncol | Pemetrexed + cisplatino en primera línea en mesotelioma peritoneal avanzado |
+| [41133016](https://pubmed.ncbi.nlm.nih.gov/41133016/) | 2025 | Comparativo retrospectivo | Clin Med Insights Oncol | Compara regímenes de pemetrexed-platino y gemcitabina-platino en primera línea |
+| [28594258](https://pubmed.ncbi.nlm.nih.gov/28594258/) | 2017 | Retrospectivo | Expert Rev Anticancer Ther | Eficacia de pemetrexed + cisplatino en primera línea |
+| [21528659](https://pubmed.ncbi.nlm.nih.gov/21528659/) | 2011 | Serie de una institución | Tumori | Eficacia y seguridad de pemetrexed-cisplatino en pacientes sin quimioterapia previa |
+| [39413826](https://pubmed.ncbi.nlm.nih.gov/39413826/) | 2024 | Revisión | J Natl Compr Canc Netw | Opciones sistémicas: inmunoterapia (nivolumab + ipilimumab) o quimioterapia con pemetrexed, extrapoladas del mesotelioma pleural |
+| [38806763](https://pubmed.ncbi.nlm.nih.gov/38806763/) | 2024 | Estudio multicéntrico | Ann Surg Oncol | Estrategias de tratamiento y resultados en mesotelioma peritoneal |
+| [36765620](https://pubmed.ncbi.nlm.nih.gov/36765620/) | 2023 | Revisión | Cancers | Ruta diagnóstica y terapéutica; supervivencia mediana de 34 a 92 meses con cirugía citorreductora + HIPEC en pacientes seleccionados |
+| [30450291](https://pubmed.ncbi.nlm.nih.gov/30450291/) | 2018 | Revisión | Transl Lung Cancer Res | Revisión del mesotelioma peritoneal maligno |
+| [26941986](https://pubmed.ncbi.nlm.nih.gov/26941986/) | 2016 | Revisión | J Gastrointest Oncol | Diagnóstico y manejo del mesotelioma peritoneal maligno |
+| [35407498](https://pubmed.ncbi.nlm.nih.gov/35407498/) | 2022 | Revisión | J Clin Med | Cirugía citorreductora e HIPEC como tratamiento inicial preferido en pacientes seleccionados |
+
+---
 
 ## Información de Mercado en Colombia
 
-Las 5 filas del registro corresponden a 2 registros sanitarios únicos, por lo que se muestran sin repetir.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20108592 | REVOTRAIN 100 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED (el registro no detalla la indicación) |
-| 20192961 | AUROPEXAFAR® 500 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED (el registro no detalla la indicación) |
+| 20108592 (cancelado) | REVOTRAIN 100 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
+| 20192961 (cancelado) | AUROPEXAFAR® 500 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
+
+Actualmente no hay registros vigentes en Colombia; los dos registros existentes están cancelados.
+
+---
 
 ## Citotoxicidad
 
-Esta información proviene de la farmacología general de pemetrexed. El Evidence Pack no incluye datos de toxicidad de DrugBank.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, antifolato) |
-| Riesgo de Mielosupresión | Alto a medio (neutropenia, trombocitopenia y anemia son frecuentes). Se usa suplementación con ácido fólico y vitamina B12 para reducir la toxicidad. |
-| Clasificación de Emetogenicidad | Baja a moderada |
-| Items de Monitoreo | Hemograma con diferencial, función renal (aclaramiento de creatinina), función hepática |
+| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, clase antifolato) |
+| Riesgo de Mielosupresión | Alto. Los datos de seguridad asocian el fármaco con neutropenia, trombocitopenia, agranulocitosis y anemia |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función renal y hepática |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
-Consultar además las advertencias y precauciones del prospecto.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no son texto de prospecto):** enfermedad renal, función renal deteriorada, piouréter, trombocitopenia, neutropenia, agranulocitosis y anemia (incluida la macrocítica).
+- **Interacciones farmacológicas:** se identificaron 100 interacciones. Las 20 primeras son de nivel moderado e incluyen:
+  - Antiácidos H2: famotidina, ranitidina, cimetidina.
+  - Metformina.
+  - Anfotericina B, en sus distintas formulaciones.
+  - Aminoglucósidos y glucopéptidos: kanamicina, neomicina, vancomicina.
+  - Polimixina B.
+  - Salicilatos y derivados: ácido acetilsalicílico, mesalazina, balsalazida, olsalazina.
+  - Amoxicilina, levofloxacino y sapropterina.
+
+  Muchas de estas interacciones se relacionan con la eliminación renal de pemetrexed. Se recomienda revisar especialmente los AINE.
+
+No se dispone del texto de advertencias del prospecto de INVIMA. Consultar el prospecto para la información de seguridad completa.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Pemetrexed más platino está bien establecido en el mesotelioma pleural y se usa de forma consistente en el peritoneal, con respaldo de estudios retrospectivos y varios ensayos de fase 2 en curso. Falta un ECA completado específico para esta indicación, por eso la evidencia es L3 y no permite un "Go" directo.
+Pemetrexed + platino es el estándar en mesotelioma pleural, con respaldo de un ensayo de Fase 3. Su extrapolación al mesotelioma peritoneal cuenta con estudios de Fase 2, series retrospectivas y varios ensayos en curso. Sin embargo, no hay un ensayo de Fase 3 específico para el peritoneo, y las dos licencias colombianas están canceladas.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que hoy no está disponible en el paquete de evidencia.
-- Esperar resultados de ICARuS II (NCT06057935) y del ensayo NCT05001880, ambos aleatorizados y en reclutamiento.
-- Confirmar la indicación oficial aprobada por INVIMA, ya que el registro solo consigna "PEMETREXED".
-- Definir el papel de pemetrexed frente a la cirugía citorreductora con HIPEC, que es el tratamiento de elección en pacientes operables.
-- Plan de monitoreo hematológico y renal, con suplementación de folato y B12.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Confirmar la disponibilidad actual de pemetrexed en Colombia, dado que no hay registros vigentes.
+- Esperar resultados de los ensayos peritoneales en curso (NCT05001880, NCT06543069) o datos específicos de peritoneo.
+- Aplicar medidas de protección: suplementación con ácido fólico y vitamina B12, control de la función renal, revisión de interacciones (en particular con AINE) y seguimiento hematológico.
+- Datos detallados del mecanismo de acción desde DrugBank.
 
-*Los resultados son solo para referencia de investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de su aplicación.*
+**Nota sobre otras indicaciones predichas:**
+- **Mesotelioma pleural** (nivel L1) y **mesotelioma pleural epitelioide** (L1) tienen evidencia más sólida, incluidos ECA de Fase 3 (por ejemplo, Vogelzang 2003 y MAPS). Esto corresponde a una indicación ya establecida, no a un reposicionamiento novedoso.
+- Los subtipos sarcomatoide y bifásico (L2) tienen evidencia a nivel de subgrupo.
+- **Cáncer de pericardio** (L4) se apoya solo en reportes de casos.
+- Para el **tumor adenomatoide pleural**, el **mesotelioma papilar bien diferenciado**, el **mesotelioma linfohistiocitoide** y la **iminoglicinuria**, el respaldo es débil o inexistente. La recomendación es Hold, y en la iminoglicinuria no hay fundamento mecanístico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

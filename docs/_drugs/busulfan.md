@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Busulfan
-parent: Solo Predicción del Modelo (L5)
-nav_order: 103
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 123
+evidence_level: L1
 indication_count: 10
 ---
 
 # Busulfan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Busulfán: De Agente Alquilante de Acondicionamiento a Síndrome Mielodisplásico
+# Busulfán: De Indicación Registrada No Especificada a Síndrome Mielodisplásico
 
 ## Resumen en Una Frase
 
-Busulfán es un agente alquilante bifuncional usado como base del acondicionamiento mieloablativo antes del trasplante de células madre. El registro sanitario colombiano no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para el **Síndrome Mielodisplásico (SMD)**, con **50 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. La evidencia es directa pero no exclusiva de busulfán: proviene de regímenes de acondicionamiento basados en busulfán.
+Busulfán es un agente alquilante bifuncional que cuenta con registros sanitarios en Colombia, aunque el texto de indicación aprobada solo repite el nombre del fármaco, por lo que no es posible precisar su uso original según los registros.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome mielodisplásico (SMD)**, con **más de 40 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, casi siempre como agente de acondicionamiento previo al trasplante de células madre hematopoyéticas.
 
 ---
 
@@ -42,93 +42,98 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome Mielodispl�
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No registrada en el paquete de evidencia (el texto del registro INVIMA solo dice "BUSULFAN"). Uso descrito: acondicionamiento mieloablativo previo a trasplante |
+| Indicación Original | No especificada en los registros (el texto registrado solo dice "BUSULFAN") |
 | Nueva Indicación Predicha | Síndrome mielodisplásico |
 | Puntaje de Predicción TxGNN | 99.62% |
-| Nivel de Evidencia | L1 (con salvedad: aplica al acondicionamiento basado en busulfán, no a busulfán en monoterapia) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 8 (3 registros únicos en el listado detallado) |
+| Nivel de Evidencia | L1 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos de mecanismo de acción del campo original están vacíos. Según el análisis del paquete de evidencia, busulfán es un agente alquilante bifuncional que forma enlaces cruzados en el ADN y es mieloablativo. Su efecto en el SMD no proviene de una modulación específica de la enfermedad, sino de eliminar el clon displásico y crear espacio en la médula ósea para el injerto.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según el conocimiento farmacológico general, el busulfán es un agente alquilante bifuncional que genera enlaces cruzados en el ADN y produce mieloablación. Su eficacia como agente citotóxico sobre las células hematopoyéticas está ampliamente comprobada.
 
-El trasplante alogénico de células madre es la única opción potencialmente curativa para el SMD. Busulfán se usa como columna vertebral del acondicionamiento (Bu/Flu, Bu/Cy) antes de ese trasplante. Por eso la relación con la indicación original es de uso: es el mismo fármaco, con el mismo mecanismo, en un contexto de trasplante donde el SMD es una de las enfermedades tratadas.
+En el síndrome mielodisplásico, el busulfán no se usa como tratamiento modificador de la enfermedad por sí solo. Es la base de muchos regímenes de acondicionamiento previos al trasplante alogénico de células madre hematopoyéticas (alo-TCMH), que es la única opción potencialmente curativa. El fármaco erradica el clon maligno y crea espacio en la médula ósea para que prospere el injerto del donante.
 
-Los ECA de Fase 3 disponibles comparan treosulfán contra busulfán (busulfán es el brazo comparador) o acondicionamiento mieloablativo contra de intensidad reducida en poblaciones de SMD/LMA. Son evidencia directa, pero no exclusiva de busulfán.
+Por ello, la predicción es razonable en términos mecanísticos, pero debe interpretarse como "busulfán como componente del acondicionamiento para trasplante en SMD", no como un nuevo tratamiento independiente.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan 10 de los 50 ensayos registrados.
+Se muestran los ensayos más relevantes (de un total superior a 40 registrados para esta indicación):
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Fase 2 | Activo, no recluta | 116 | Trasplante alogénico con venetoclax y busulfán/cladribina/fludarabina secuenciales en LMA y SMD |
-| [NCT06477549](https://clinicaltrials.gov/study/NCT06477549) | Fase 2 | Reclutando | 220 | Bendamustina vs ruxolitinib con acondicionamiento Flu/Bu en trasplante haploidéntico; busulfán es la base fija |
-| [NCT00226512](https://clinicaltrials.gov/study/NCT00226512) | Fase 3 | Retirado | 203 | Fludarabina + busulfán no mieloablativo con o sin anticuerpos antilinfocitos en LMA o SMD |
-| [NCT00002989](https://clinicaltrials.gov/study/NCT00002989) | Fase 3 | Desconocido | 207 | Intensificación del acondicionamiento para trasplante alogénico en leucemia o SMD de alto riesgo de recaída |
-| [NCT02861417](https://clinicaltrials.gov/study/NCT02861417) | Fase 2 | Activo, no recluta | 204 | Busulfán secuencial, fludarabina y ciclofosfamida postrasplante en cáncer de sangre |
-| [NCT00301834](https://clinicaltrials.gov/study/NCT00301834) | Fase 2 | Completado | 35 | Fludarabina, busulfán y alemtuzumab de toxicidad reducida en niños con SMD, fallo medular o defectos de células madre |
-| [NCT00863148](https://clinicaltrials.gov/study/NCT00863148) | Fase 2 | Completado | 30 | Clofarabina con busulfán IV y timoglobulina como acondicionamiento de intensidad reducida en LMA, SMD o LLA de alto riesgo |
-| [NCT03412266](https://clinicaltrials.gov/study/NCT03412266) | Fase 2 | Desconocido | 50 | Acondicionamiento de intensidad reducida en SMD de riesgo bajo e intermedio con trasplante haploidéntico |
-| [NCT05027945](https://clinicaltrials.gov/study/NCT05027945) | Fase 2 | Reclutando | 54 | Trasplante alogénico en síndrome VEXAS, frecuentemente asociado a SMD; el acondicionamiento no está confirmado |
-| [NCT01177371](https://clinicaltrials.gov/study/NCT01177371) | Fase 2 | Completado | 13 | Busulfán y ciclofosfamida en dosis altas con trasplante alogénico en leucemia, SMD, mieloma y linfoma |
+| [NCT00005866](https://clinicaltrials.gov/study/NCT00005866) | Fase 3 | Completado | 240 | Compara busulfán-TBI frente a ciclofosfamida-TBI en SMD avanzado o LMA relacionada con SMD, con trasplante de hermano HLA idéntico |
+| [NCT00822393](https://clinicaltrials.gov/study/NCT00822393) | Fase 3 | Completado | 570 | Acondicionamiento con treosulfán frente a busulfán de intensidad reducida en LMA o SMD no aptos para regímenes estándar |
+| [NCT04708054](https://clinicaltrials.gov/study/NCT04708054) | Fase 2/3 | Reclutando | 324 | Venetoclax añadido a régimen fraccionado de busulfán en LMA y SMD de alto riesgo |
+| [NCT05453552](https://clinicaltrials.gov/study/NCT05453552) | Fase 2/3 | Desconocido | 242 | G-CSF + decitabina + BuCy frente a G-CSF + decitabina + BuF en SMD de alto riesgo |
+| [NCT04713956](https://clinicaltrials.gov/study/NCT04713956) | Fase 2/3 | Desconocido | 242 | Mismo esquema comparativo en RAEB-1, RAEB-2 y LMA secundaria a SMD |
+| [NCT00502905](https://clinicaltrials.gov/study/NCT00502905) | Fase 2 | Completado | 200 | Busulfán intravenoso con fludarabina antes de trasplante alogénico en LMA y SMD |
+| [NCT02250937](https://clinicaltrials.gov/study/NCT02250937) | Fase 2 | Activo, sin reclutar | 116 | Venetoclax con busulfán, cladribina y fludarabina en secuencia temporal en LMA y SMD |
+| [NCT01168219](https://clinicaltrials.gov/study/NCT01168219) | Fase 2 | Completado | 68 | Azacitidina añadida a acondicionamiento de intensidad reducida (busulfán, fludarabina, ATG) en SMD y LMA de pacientes mayores |
+| [NCT06247917](https://clinicaltrials.gov/study/NCT06247917) | Fase 2 | Desconocido | 59 | FLU-BU-MEL como acondicionamiento en SMD, estudio de un solo brazo |
+| [NCT01643668](https://clinicaltrials.gov/study/NCT01643668) | Fase 2 | Completado | 34 | Acondicionamiento de intensidad reducida con busulfán/clofarabina; estudio pequeño de un solo brazo |
 
 ---
 
 ## Evidencia de Literatura
 
-Se listan 10 de las 20 publicaciones, con prioridad para ECA, revisiones y metaanálisis.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | ECA Fase 3 | Lancet Haematol | Treosulfán + fludarabina vs busulfán de intensidad reducida + fludarabina como acondicionamiento en pacientes mayores con LMA o SMD (no inferioridad) |
-| [28380315](https://pubmed.ncbi.nlm.nih.gov/28380315/) | 2017 | ECA Fase 3 | J Clin Oncol | Acondicionamiento mieloablativo vs de intensidad reducida en LMA y SMD |
-| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | ECA (análisis final) | Am J Hematol | Análisis final del estudio de treosulfán vs busulfán de intensidad reducida en pacientes mayores o con comorbilidades con LMA/SMD |
-| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | ECA Fase 3 | Lancet Haematol | G-CSF + decitabina + busulfán-ciclofosfamida vs busulfán-ciclofosfamida para reducir la recaída en SMD o LMA secundaria |
-| [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | Metaanálisis | Front Oncol | Acondicionamiento de intensidad reducida vs mieloablativo en LMA y SMD, sobre ECA |
-| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Revisión sistemática y metaanálisis | Front Oncol | Resultados a largo plazo de acondicionamiento con treosulfán vs busulfán en SMD y LMA |
-| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Revisión | Am J Hematol | Revisión contemporánea del trasplante alogénico en mielofibrosis y SMD; único tratamiento potencialmente curativo |
-| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Cohorte (registro, emparejamiento por puntaje de propensión) | Bone Marrow Transplant | Fludarabina/busulfán vs busulfán/ciclofosfamida mieloablativo en SMD |
-| [35296446](https://pubmed.ncbi.nlm.nih.gov/35296446/) | 2022 | Cohorte (registro) | Transplant Cell Ther | Fludarabina/busulfán mieloablativo vs de intensidad reducida en SMD |
-| [33471943](https://pubmed.ncbi.nlm.nih.gov/33471943/) | 2021 | Cohorte | Cancer | Busulfán mieloablativo fraccionado en pacientes mayores con LMA y SMD |
+| [31606445](https://pubmed.ncbi.nlm.nih.gov/31606445/) | 2020 | ECA (Fase 3) | The Lancet Haematology | Treosulfán más fludarabina frente a busulfán de intensidad reducida más fludarabina en pacientes mayores con LMA o SMD; diseño de no inferioridad |
+| [42285355](https://pubmed.ncbi.nlm.nih.gov/42285355/) | 2026 | ECA (Fase 2) | Transplantation and Cellular Therapy | Dos esquemas de fraccionamiento de busulfán mieloablativo con fludarabina y cladribina en LMA o SMD |
+| [36702138](https://pubmed.ncbi.nlm.nih.gov/36702138/) | 2023 | Ensayo Fase 3 aleatorizado | The Lancet Haematology | G-CSF + decitabina + BuCy frente a BuCy para reducir recaída en SMD o LMA secundaria |
+| [35617104](https://pubmed.ncbi.nlm.nih.gov/35617104/) | 2022 | Análisis final de ensayo aleatorizado | American Journal of Hematology | Treosulfán frente a busulfán de intensidad reducida: mejores resultados en pacientes mayores con LMA/SMD |
+| [33425740](https://pubmed.ncbi.nlm.nih.gov/33425740/) | 2020 | Revisión sistemática y metaanálisis | Frontiers in Oncology | Resultados a largo plazo de acondicionamientos con treosulfán frente a busulfán en SMD y LMA |
+| [34692485](https://pubmed.ncbi.nlm.nih.gov/34692485/) | 2021 | Metaanálisis de ECA | Frontiers in Oncology | Acondicionamiento de intensidad reducida frente a mieloablativo en LMA y SMD |
+| [40079242](https://pubmed.ncbi.nlm.nih.gov/40079242/) | 2025 | Revisión | American Journal of Hematology | Revisión contemporánea del trasplante alogénico en mielofibrosis y SMD |
+| [34489555](https://pubmed.ncbi.nlm.nih.gov/34489555/) | 2021 | Análisis de registro (emparejado por puntaje de propensión) | Bone Marrow Transplantation | Flu/Bu4 frente a Bu/Cy como acondicionamiento mieloablativo en SMD |
+| [35296446](https://pubmed.ncbi.nlm.nih.gov/35296446/) | 2022 | Análisis de registro (emparejado por puntaje de propensión) | Transplantation and Cellular Therapy | Flu/Bu4 mieloablativo frente a Flu/Bu2 de intensidad reducida en SMD |
+| [38197938](https://pubmed.ncbi.nlm.nih.gov/38197938/) | 2024 | Cohorte (Fase 1) | Blood Advances | Mantenimiento profiláctico con venetoclax/azacitidina tras acondicionamiento Ven/FluBu2 en SMD/LMA de alto riesgo |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Se muestran los registros únicos. El paquete lista 8 registros en total, pero el detalle repite dos de ellos.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20158009 | BUSULFAN SOLUCIÓN INYECTABLE 60 MG/10 ML (HB Human Bioscience) | Solución inyectable | BUSULFAN (sin texto de indicación) |
-| 20254653 | BUSADVAN (Advance Scientific de Colombia) | Solución inyectable | BUSULFAN (sin texto de indicación) |
-| 20152745 | ALSULFAN® (AL Pharma) | Solución concentrada para infusión | BUSULFAN (sin texto de indicación) |
+| 20158009 | Busulfan solución inyectable 60 mg/10 mL | Solución inyectable | BUSULFAN (cancelado) |
+| 20254653 | Busadvan | Solución inyectable | BUSULFAN (cancelado) |
+| 20152745 | Alsulfan® | Solución concentrada para infusión | BUSULFAN (cancelado) |
+| 20205961 | Buslera® | Solución inyectable | BUSULFAN (cancelado) |
+
+Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia.
 
 ---
 
 ## Citotoxicidad
 
-Los datos de toxicidad no están en el paquete de evidencia. Lo siguiente se basa en la clase del fármaco (agente alquilante antineoplásico) y debe confirmarse con el prospecto.
-
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante bifuncional) |
-| Riesgo de Mielosupresión | Alto (es mieloablativo por diseño; requiere rescate con trasplante de células madre) |
-| Clasificación de Emetogenicidad | Media |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y bilirrubina (riesgo de enfermedad venooclusiva), función renal, monitoreo farmacocinético |
+| Riesgo de Mielosupresión | Alto (mieloablación es el efecto buscado en el acondicionamiento; se asocian neutropenia, trombocitopenia y anemia) |
+| Clasificación de Emetogenicidad | Consultar el prospecto; no hay datos específicos en la información compilada |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, electrolitos; vigilancia de toxicidad pulmonar y hepática |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. El paquete no contiene advertencias, contraindicaciones ni interacciones farmacológicas documentadas para los registros colombianos.
+- **Contraindicaciones en el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento TxGNN asocia busulfán con epilepsia, trombocitopenia, hiperglucemia, infecciones fúngicas e infecciones en general, dermatofitosis, deficiencia de potasio, hiperuricemia, neutropenia, agranulocitosis, anemia (incluida la macrocítica y la anemia de Fanconi) y fibrosis pulmonar (incluida la posinflamatoria). Deben verificarse contra el prospecto oficial.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones potenciales. Las principales son:
+  - **Mayor**: metronidazol.
+  - **Moderada**: aprepitant y miconazol.
+  - **Menor**: levofloxacino.
+  - Otras interacciones de nivel no clasificado incluyen anfotericina B, vancomicina, corticoides (prednisona, hidrocortisona, prednisolona, dexametasona), inhibidores de bomba de protones y antagonistas H2, antieméticos (ondansetrón, granisetrón, metoclopramida), manitol y morfina.
+- **Riesgo de segunda neoplasia**: la literatura señala que la incidencia de neoplasias secundarias asociadas a busulfán es baja pero poco caracterizada (PMID 37856098).
+
+No se dispone de advertencias del prospecto; consultar el prospecto para información de seguridad complementaria.
 
 ---
 
@@ -137,15 +142,23 @@ Consultar el prospecto para información de seguridad. El paquete no contiene ad
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay ECA de Fase 3 que incluyen regímenes con busulfán en poblaciones de SMD, y el fármaco está comercializado en Colombia. Sin embargo, la evidencia respalda el acondicionamiento basado en busulfán dentro del trasplante, no busulfán en monoterapia, y busulfán suele ser el brazo comparador. Las otras nueve indicaciones predichas tienen evidencia más débil (L3 a L5) y no se recomiendan por ahora.
+Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con busulfán en SMD (NCT00005866 y NCT00822393), además de ensayos de Fase 2/3 en curso y ECA publicados. La evidencia respalda su papel como agente de acondicionamiento previo al trasplante, no como terapia independiente, y los cuatro registros colombianos están cancelados.
 
 **Para avanzar se necesita:**
-- Uso restringido a centros de trasplante
-- Monitoreo farmacocinético terapéutico
-- Vigilancia del riesgo de enfermedad venooclusiva/síndrome de obstrucción sinusoidal y profilaxis de convulsiones
-- Intensidad del acondicionamiento ajustada por edad y comorbilidades
-- Advertencias, contraindicaciones e interacciones del prospecto INVIMA (brecha bloqueante en los datos)
-- Indicación aprobada y mecanismo de acción documentados en la fuente
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el tamizaje de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Aclarar la situación regulatoria: reactivar o tramitar un nuevo registro sanitario vigente.
+- Definir el contexto de uso (acondicionamiento para alo-TCMH en centros especializados) y un plan de monitoreo de toxicidad (mielosupresión, hepática, pulmonar y neurológica, incluido el riesgo de convulsiones).
+- Revisar el manejo de las interacciones relevantes, en particular metronidazol, azoles y otros fármacos concomitantes del trasplante.
+
+---
+
+### Otras Indicaciones Predichas (referencia breve)
+
+- **Citopenia refractaria de la infancia** (L2, Proceed with Guardrails): subtipo pediátrico de SMD tratado con alo-TCMH; evidencia basada en protocolos de acondicionamiento mixtos.
+- **Anemia aregenerativa/aplásica** (L1, Proceed with Guardrails): evidencia indirecta; en anemia aplásica grave los regímenes con ciclofosfamida siguen siendo el estándar y el busulfán se usa sobre todo en contextos de donante alternativo o refractarios.
+- **SMD no clasificado** (L3, Research Question), **infección por VIH** (L3, Research Question; busulfán solo como acondicionamiento para terapia celular génica, sin acción antiviral): evidencia limitada.
+- **Deleción parcial del brazo largo del cromosoma 5, anemia sideroblástica congénita grave, trastorno del neurodesarrollo con marcha atáxica, queratosis seborreica y síndrome de inmunodeficiencia adquirida felina** (L5, Hold): solo predicción computacional, sin evidencia ni vínculo mecanístico plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

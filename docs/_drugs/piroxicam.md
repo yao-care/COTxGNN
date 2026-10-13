@@ -2,7 +2,7 @@
 layout: default
 title: Piroxicam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 326
+nav_order: 518
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,99 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Piroxicam: De AINE (indicación original no registrada) a Síndrome de Microftalmía Colobomatosa-Displasia Rizomélica
+# Piroxicam: De Antiinflamatorio No Esteroideo (indicación no detallada en el registro) a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
 
 ## Resumen en Una Frase
 
-Piroxicam es un antiinflamatorio no esteroideo (AINE) que inhibe las enzimas COX. En los registros sanitarios colombianos disponibles, la indicación aprobada aparece solo como el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa-displasia rizomélica**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
+Piroxicam es un antiinflamatorio no esteroideo (AINE) que cuenta con registros sanitarios en Colombia, aunque estos no detallan la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa-displasia rizomélica**, con un puntaje muy alto (99.996%).
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata solo de una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (el registro solo dice "PIROXICAM") |
-| Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa-displasia rizomélica |
+| Indicación Original | No detallada en el registro sanitario (el texto solo indica "Piroxicam"); clase AINE |
+| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa-displasia rizomélica |
 | Puntaje de Predicción TxGNN | 99.996% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin producto vigente) |
+| Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Piroxicam es un inhibidor no selectivo de la ciclooxigenasa (COX). Reduce la inflamación mediada por prostaglandinas, y por eso se usa en dolor e inflamación. No hay datos detallados del mecanismo de acción en la base consultada, pero este mecanismo general es conocido.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento general, piroxicam es un inhibidor no selectivo de la ciclooxigenasa (COX-1/COX-2). Reduce la síntesis de prostaglandinas y, con ello, la inflamación, el dolor y la rigidez en enfermedades inflamatorias articulares.
 
-La nueva indicación es un síndrome raro del desarrollo, con malformaciones oculares y displasia esquelética de las extremidades. No es una enfermedad inflamatoria. No se identificó ningún vínculo mecanístico plausible entre la inhibición de COX y la fisiopatología de este síndrome.
+La nueva indicación predicha es un síndrome del desarrollo, congénito y muy poco frecuente, que afecta el ojo (coloboma y microftalmia) y el esqueleto (displasia rizomélica). No se identificó ningún vínculo mecanístico plausible: esta enfermedad no tiene una patología inflamatoria dependiente de prostaglandinas que la inhibición de la COX pudiera modificar.
 
-El puntaje de 99.996% proviene de una predicción basada en grafos. No lo respalda ningún ensayo clínico ni publicación, por lo que no debe interpretarse como una señal de eficacia.
+El puntaje alto del modelo proviene de asociaciones en un grafo de conocimiento, no de datos clínicos ni de literatura. Por tanto, debe interpretarse como una hipótesis sin sustento y no como una señal de eficacia.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
+
+Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19954060 | STOPEN® CÁPSULA 20 MG (Eurofarma Colombia S.A.S.) | Cápsula dura | PIROXICAM |
+| 19954060 | STOPEN® Cápsula 20 mg | Cápsula dura | Piroxicam |
+| 55823 | Piroxicam 20 mg inyectable | Inyectable | Piroxicam |
+| 19967377 | OXIFAR® 20 mg cápsulas | Cápsula dura | Piroxicam |
+| 19993956 | Piroxicam 0.5 % gel | Gel tópico | Piroxicam |
+| 19934890 | OXIVATE® 20 mg cápsulas | Cápsula dura | Piroxicam |
 
-Los datos muestran 20 registros en total, pero las 5 entradas disponibles corresponden al mismo registro (19954060) y se muestran una sola vez. En Colombia también existen formas inyectables y gel tópico.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no texto de prospecto): hipertensión, enfermedad renal, enfermedad hepática (incluida insuficiencia hepática aguda, hepatitis y daño hepático inducido por fármacos), enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, infarto de miocardio y otras enfermedades cardiovasculares, accidente cerebrovascular y trastornos cerebrovasculares, enfermedades de la coagulación y trombóticas, anemia, úlcera péptica activa, trastornos de la visión y abuso o dependencia de sustancias.
+- **Interacciones farmacológicas**: se registraron 100 interacciones en total. Entre las principales, de nivel **moderado**, están:
+  - corticoides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona);
+  - ácido acetilsalicílico;
+  - metformina, glimepirida y clorpropamida;
+  - mesalazina y balsalazida;
+  - aprepitant;
+  - citrato y bicarbonato de potasio;
+  - picosulfato y polietilenglicol.
+
+  Famotidina, ranitidina, cimetidina y linaclotida tienen interacciones de nivel **menor**.
+
+Las advertencias y contraindicaciones del prospecto no están disponibles; consultar el prospecto para completar la información de seguridad.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de COX y este síndrome del desarrollo. No hay base para avanzar.
+La predicción para esta indicación (L5) carece de ensayos clínicos, literatura y vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia, lo que limita cualquier desarrollo práctico.
+
+**Nota:** entre las demás indicaciones predichas, la **artritis idiopática juvenil** es la única con respaldo bibliográfico. Incluye estudios pediátricos antiguos y pequeños de piroxicam, uno de ellos comparativo con naproxeno, y dos metaanálisis en red recientes de AINE. Alcanzaría un nivel L3 y tiene una justificación mecanística sólida, aunque sintomática. Podría evaluarse como pregunta de investigación separada.
 
 **Para avanzar se necesita:**
-- Evidencia preclínica o clínica que conecte a piroxicam con la biología de este síndrome. Sin ella, no se justifica continuar.
-- Los datos de seguridad del prospecto (advertencias y contraindicaciones) de INVIMA, hoy ausentes.
-- Los datos de mecanismo de acción de DrugBank y la indicación original registrada.
-- Evaluar por separado la artritis idiopática juvenil, otra predicción del mismo paquete (posición 10). Tiene estudios específicos de piroxicam de 1986-1987 y metaanálisis de AINE, aunque se trata de un efecto de clase para control sintomático y no de un mecanismo novedoso.
+- Descartar o sustentar la hipótesis con evidencia biológica, ya que hoy no existe ninguna.
+- Obtener el prospecto con advertencias y contraindicaciones oficiales (INVIMA).
+- Completar los datos de mecanismo de acción desde DrugBank.
+- Confirmar la situación regulatoria actual del fármaco, dado que todos sus registros están cancelados.
+- Si se prioriza la artritis idiopática juvenil, revisar el texto completo de los estudios para confirmar su diseño y resultados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

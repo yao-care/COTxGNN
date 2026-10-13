@@ -2,7 +2,7 @@
 layout: default
 title: Theophylline
 parent: Solo Predicción del Modelo (L5)
-nav_order: 383
+nav_order: 622
 evidence_level: L5
 indication_count: 7
 ---
@@ -29,85 +29,107 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Teofilina: De Obstrucción Reversible de las Vías Respiratorias a Enfermedad Trombótica
+# Teofilina: De Ambroxol (registro sanitario cancelado) a Enfermedad Trombótica
 
 ## Resumen en Una Frase
 
-La teofilina es una xantina broncodilatadora, utilizada tradicionalmente en asma, enfisema y bronquitis crónica.
-El modelo TxGNN predice que podría ser efectiva para **enfermedad trombótica**,
-pero actualmente hay **0 ensayos clínicos** y **ninguna publicación con apoyo clínico directo** (las 16 recuperadas son mayormente de otros temas). Es una predicción del modelo sin respaldo experimental.
+Teofilina figura en Colombia en un único registro sanitario, hoy cancelado, de un jarabe cuya indicación aprobada aparece como "AMBROXOL". Clínicamente es un broncodilatador usado en asma, enfisema y bronquitis crónica.
+El modelo TxGNN predice como primera opción que podría ser efectiva para **enfermedad trombótica**, pero **sin ensayos clínicos** y con **18 publicaciones** recuperadas que, en su mayoría, no tratan de teofilina en trombosis.
+
+> **Nota importante:** la indicación de mayor puntaje (enfermedad trombótica) no tiene respaldo clínico. La indicación con mayor evidencia entre las candidatas es **enfermedad pulmonar obstructiva** (rango 5), que es en realidad el área terapéutica ya conocida del fármaco. Se presenta en el análisis complementario.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | AMBROXOL (es el único texto no vacío en los registros; corresponde a un componente de un producto combinado, no a una indicación. Según la base de farmacología, el uso clínico de la teofilina es obstrucción reversible de las vías respiratorias) |
-| Nueva Indicación Predicha | Enfermedad trombótica (thrombotic disease) |
+| Indicación Original | Ambroxol (texto del registro sanitario; corresponde a un producto con indicación registrada de forma incompleta) |
+| Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 99.62% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 (L5 si se considera solo ausencia de estudios reales de eficacia) |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, la teofilina es un inhibidor no selectivo de las fosfodiesterasas (PDE) y antagonista de los receptores de adenosina (A1, A2A, A2B y A3, según la base de farmacología consultada). Su eficacia en enfermedades obstructivas de las vías respiratorias está establecida, y mecanísticamente podría ser aplicable a la trombosis.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la teofilina es un inhibidor no selectivo de fosfodiesterasas y antagonista de los receptores de adenosina (A1, A2A, A2B y A3), y se utiliza para la obstrucción reversible de las vías respiratorias.
 
-El vínculo propuesto es indirecto. Al inhibir las PDE, la teofilina podría elevar el AMPc plaquetario, lo que en principio tiene un efecto antiplaquetario débil. Un estudio en perros de 1983 (PMID 6313894) mostró que la aminofilina, una sal de teofilina, potenció el efecto antitrombótico de la prostaciclina en un modelo de trombosis coronaria. No demuestra por sí solo un beneficio de la teofilina en humanos.
+Mecanísticamente, la inhibición de fosfodiesterasas podría aumentar el AMPc plaquetario y reducir la agregación. Sin embargo, el antagonismo de adenosina puede oponerse a ese efecto antiplaquetario, por lo que **la dirección del efecto es incierta**. La relación con la indicación original (respiratoria) es limitada.
 
-Las publicaciones recuperadas no ofrecen apoyo clínico. Tratan sobre ticlopidina, métodos de medición plaquetaria y un biosensor de teofilina, y en varias la teofilina solo aparece como reactivo de laboratorio. La alta puntuación del modelo (99.62%) no equivale a evidencia de eficacia.
+La literatura recuperada para esta indicación es en gran parte ajena al tema (farmacocinética de ticlopidina, ensayos de biomarcadores, un aptasensor para detectar teofilina) y no contiene datos de eficacia de teofilina en trombosis. El alto puntaje del modelo no está respaldado por evidencia clínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para enfermedad trombótica.
+
+---
 
 ## Evidencia de Literatura
 
-Se muestran las 10 publicaciones más cercanas al tema entre las 16 recuperadas. Ninguna es un ensayo clínico con teofilina en trombosis.
+Se muestran las publicaciones más cercanas al tema (ninguna evalúa eficacia de teofilina en trombosis):
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6313894](https://pubmed.ncbi.nlm.nih.gov/6313894/) | 1983 | Preclínico (perro) | J Pharmacol Exp Ther | La aminofilina potenció el efecto antitrombótico de la prostaciclina en un modelo canino de trombosis coronaria. Es la señal más cercana a la hipótesis. |
-| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Estudio in vitro | Gen Pharmacol | Milrinona y adenosina inhiben la respuesta plaquetaria humana mediante AMPc. Apoya el mecanismo, no la teofilina en sí. |
-| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Revisión | CRC Crit Rev Biochem | Revisa el equilibrio entre tromboxano A2 y prostaciclina, y el papel del AMPc plaquetario en la aterosclerosis. |
-| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Revisión | Clin Pharmacokinet | Farmacocinética de la ticlopidina, un antiagregante. No trata de teofilina. |
-| [26764324](https://pubmed.ncbi.nlm.nih.gov/26764324/) | 2016 | Estudio in vitro | J Nutr | El extracto de ajo envejecido inhibe la agregación plaquetaria por vías de AMPc/GMPc. No involucra teofilina. |
-| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | Cohorte | Rheumatology (Oxford) | Activación plaquetaria y de neutrófilos en la enfermedad de Behçet. Relación indirecta. |
-| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | Estudio observacional | Inflamm Bowel Dis | Formación de agregados plaqueta-leucocito en la enfermedad inflamatoria intestinal. Relación indirecta. |
-| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Método de laboratorio | Br J Haematol | Radioinmunoensayo del factor plaquetario 4. La teofilina solo se usa como aditivo del anticoagulante de la muestra. |
-| [29220362](https://pubmed.ncbi.nlm.nih.gov/29220362/) | 2017 | Método de laboratorio | PLoS One | Preparación óptima de plasma para medir moléculas plaquetarias. Sin relación terapéutica. |
-| [32824700](https://pubmed.ncbi.nlm.nih.gov/32824700/) | 2020 | Método de laboratorio | Cells | Efecto de la anticoagulación y el procesamiento de muestras sobre la cuantificación de microARN sanguíneos. Sin relación terapéutica. |
+| [6771102](https://pubmed.ncbi.nlm.nih.gov/6771102/) | 1980 | Revisión | CRC Critical Reviews in Biochemistry | Papel de prostaglandinas, tromboxano A2 y prostaciclina en la agregación plaquetaria y la aterosclerosis |
+| [8055680](https://pubmed.ncbi.nlm.nih.gov/8055680/) | 1994 | Revisión farmacocinética | Clinical Pharmacokinetics | Farmacocinética de ticlopidina (otro antiplaquetario); no trata de teofilina |
+| [8981060](https://pubmed.ncbi.nlm.nih.gov/8981060/) | 1996 | Estudio de laboratorio | General Pharmacology | Interacción de milrinona y adenosina en la inhibición de la respuesta plaquetaria humana |
+| [19897460](https://pubmed.ncbi.nlm.nih.gov/19897460/) | 2010 | Estudio clínico | Heart | Isquemia miocárdica breve y reactividad plaquetaria en enfermedad coronaria |
+| [15475744](https://pubmed.ncbi.nlm.nih.gov/15475744/) | 2004 | Cohorte/laboratorio | Inflamm Bowel Dis | Agregados plaqueta-leucocito en enfermedad inflamatoria intestinal |
+| [21719422](https://pubmed.ncbi.nlm.nih.gov/21719422/) | 2011 | Estudio transversal | Rheumatology | Activación plaquetaria y de neutrófilos en enfermedad de Behçet |
+| [25856065](https://pubmed.ncbi.nlm.nih.gov/25856065/) | 2015 | Método de ensayo | Platelets | Medición de sCLEC-2 soluble como marcador de activación plaquetaria |
+| [749930](https://pubmed.ncbi.nlm.nih.gov/749930/) | 1978 | Método de ensayo | Br J Haematol | Radioinmunoensayo de factor plaquetario 4; la teofilina se usa solo como componente del anticoagulante de la muestra |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20005160 | TRIATUSIC® JARABE (LABQUIFAR LTDA.) | Jarabe | Ambroxol; Dextrometorfano (el campo lista componentes, no indicaciones) |
+| 20005160 (cancelado) | TRIATUSIC® JARABE (LABQUIFAR LTDA.) | Jarabe | AMBROXOL |
 
-Los datos entregados solo detallan este producto (con filas repetidas en el registro), aunque el total de registros sanitarios es 20. La información de los otros no está disponible en este informe.
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta devolvió 4 registros, pero corresponden a dianas farmacológicas (receptores de adenosina A1, A2A, A2B y A3), no a interacciones con otros medicamentos. No hay datos de interacciones entre fármacos en este paquete.
-- **Margen terapéutico estrecho**: la literatura recuperada señala que la teofilina tiene una ventana terapéutica estrecha y requiere monitoreo de sus niveles por su toxicidad a concentraciones altas (PMID 29254574, PMID 27844172). Otras predicciones del mismo paquete mencionan interacciones con inhibidores de CYP1A2, macrólidos y quinolonas.
+- **Contraindicaciones o condiciones de riesgo (según el grafo de conocimiento, no texto de prospecto):** hipertensión, insuficiencia hepática y enfermedad hepática, epilepsia, trastornos de ansiedad y psicóticos, porfiria, enfermedad renal, enfermedad de la vesícula biliar, trombocitopenia, neutropenia y agranulocitosis, hipotiroidismo, úlcera péptica, glaucoma de ángulo abierto, diabetes y cetoacidosis diabética, hiperplasia prostática benigna, dermatitis herpetiforme.
+- **Farmacología relevante:** la teofilina se une a los receptores de adenosina A1, A2A, A2B y A3, lo que explica parte de su perfil de efectos y de interacciones.
+- **Otras precauciones** (de las evidencias de otras indicaciones): índice terapéutico estrecho, interacciones mediadas por CYP1A2 (por ejemplo ciprofloxacino, isoniazida) y efecto del tabaquismo sobre el aclaramiento, por lo que se requiere monitoreo de niveles plasmáticos.
 
-Para advertencias y contraindicaciones formales, consultar el prospecto.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
+
+## Análisis Complementario: Otras Indicaciones Predichas
+
+| Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación | Comentario |
+|---|---|---|---|---|
+| Enfermedad pulmonar obstructiva | 99.48% | L1 | Proceed with Guardrails | Varios ensayos de Fase 3 completados (p. ej., NCT01599871, NCT02340520, NCT03984188, NCT00252785); confirma el uso ya conocido, no es un reposicionamiento real |
+| Enfermedad de las vías respiratorias nasales (cavidad nasal) | 99.53% | L2 | Pregunta de investigación | Ensayo de Fase 2 en rinitis alérgica (NCT01132781, n=28) y estudio de provocación nasal (PMID 9648963); beneficio sobre corticoides intranasales y antihistamínicos no demostrado |
+| Enfermedad traqueal | 99.49% | L3 | Pregunta de investigación | Revisiones Cochrane sobre metilxantinas para extubación en prematuros; evidencia humana indirecta |
+| Laringotraqueítis | 99.51% | L5 | Hold | Solo predicción; el crup se maneja con corticoides y epinefrina |
+| Faringitis | 99.46% | L4 | Hold | Sin fundamento mecanístico claro |
+| Laringofaringitis aguda | 99.35% | L5 | Hold | Solo predicción |
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura recuperada no respalda un efecto de la teofilina en trombosis. Solo existe un mecanismo plausible pero débil (aumento del AMPc plaquetario) y un estudio preclínico en perros con aminofilina.
+No hay ensayos clínicos ni literatura que respalde la teofilina en enfermedad trombótica; el puntaje de 99.62% no tiene sustento clínico y el antagonismo de adenosina podría ir en contra del efecto antiplaquetario deseado. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Una búsqueda de literatura dirigida (teofilina o aminofilina + agregación plaquetaria, trombosis, tromboembolismo) con evaluación de relevancia real.
-- Estudios preclínicos o in vitro de la teofilina sobre agregación plaquetaria en concentraciones terapéuticas.
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones.
-- Datos de mecanismo de acción de DrugBank.
-- Confirmar la indicación original en los registros colombianos, ya que el campo actual contiene componentes de un producto combinado.
-
-**Nota sobre otras predicciones del paquete:** la predicción de *enfermedad pulmonar obstructiva* (puntaje 99.48%, nivel L1, "Proceed with Guardrails") corresponde a un uso ya establecido, con varios ensayos de Fase 3 completados (por ejemplo, NCT03984188 y NCT02340520). No es un reposicionamiento nuevo. La predicción de *enfermedad de la cavidad nasal* tiene un ensayo de Fase 2 completado (NCT03990766, n=27) que requiere verificar diseño y resultados.
+- Estudios preclínicos o mecanísticos que aclaren el efecto de la teofilina sobre la función plaquetaria y la trombosis.
+- Datos oficiales del mecanismo de acción y del prospecto (advertencias y contraindicaciones).
+- Verificar la disponibilidad real del producto en Colombia, dado que no hay registros vigentes.
+- Si se busca una línea con mayor sustento, priorizar enfermedad pulmonar obstructiva (con guardarrailes: monitoreo terapéutico de niveles, interacciones CYP1A2 y estado de tabaquismo) o evaluar la rinitis alérgica como pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

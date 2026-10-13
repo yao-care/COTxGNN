@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Propofol
-parent: Evidencia Alta (L1-L2)
-nav_order: 335
-evidence_level: L2
+parent: Solo Predicción del Modelo (L5)
+nav_order: 539
+evidence_level: L5
 indication_count: 5
 ---
 
 # Propofol
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-# Propofol: De Anestesia y Sedación a Trastorno de Migraña
+# Propofol: De Indicación Original (Anestésico General) a Trastorno de Migraña
 
 ## Resumen en Una Frase
 
-Propofol es un anestésico intravenoso de uso general, empleado para anestesia y sedación. El modelo TxGNN predice que podría ser efectivo para el **trastorno de migraña**, especialmente como terapia de rescate en migraña refractaria o aguda en urgencias.
-Lo respaldan **5 ensayos clínicos** (3 con relación directa con la indicación) y **20 publicaciones**. La evidencia es pequeña y no confirmatoria.
+Propofol es un anestésico intravenoso general que actúa sobre los receptores GABA-A, registrado en Colombia en emulsión inyectable.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
+con **3 ensayos clínicos** y **19 publicaciones** que actualmente respaldan esta dirección.
 
 ---
 
@@ -42,37 +43,35 @@ Lo respaldan **5 ensayos clínicos** (3 con relación directa con la indicación
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo consigna «PROPOFOL», sin detallar la indicación. Uso conocido: anestesia y sedación |
+| Indicación Original | Propofol (el registro INVIMA solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L1 (a verificar, ver nota abajo) |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-En dosis subanestésicas, el propofol actúa como modulador alostérico positivo del receptor GABA-A. Su posible efecto antimigrañoso vendría de suprimir la depresión cortical propagada y de modular las vías del dolor trigeminovascular y del tronco encefálico. En el laboratorio, el hemisuccinato de propofol suprimió la depresión cortical propagada (PMID 22390898). La base de datos no incluye una descripción detallada del mecanismo de acción del fármaco; este planteamiento proviene del análisis de reposicionamiento.
+Propofol es un modulador alostérico positivo del receptor GABA-A. Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción, pero la farmacología conocida del fármaco permite plantear la siguiente hipótesis: al reforzar la inhibición GABAérgica, podría reducir la hiperexcitabilidad cortical y trigeminovascular.
 
-La indicación original (anestesia y sedación) y la migraña no son afines por enfermedad. La conexión está en el mecanismo: un fármaco que actúa sobre la inhibición GABAérgica del sistema nervioso central también podría interrumpir un ataque de migraña refractaria. Por eso la evidencia clínica se concentra en urgencias, tanto en población pediátrica como adulta.
+Existe además respaldo preclínico: el hemisuccinato de propofol suprime la depresión cortical propagada (PMID 22390898), considerada el correlato neural del aura migrañosa y un posible desencadenante del dolor. Esto ofrece una base plausible para un efecto abortivo en migraña refractaria.
 
-Hay que ser cautos. Los ensayos son pequeños y uno se terminó antes de tiempo con solo 12 pacientes. El estudio de Fase 2/3 no es un Fase 3 confirmatorio. Además, el propofol exige un entorno monitorizado con soporte de vía aérea y hemodinámico. La evidencia apoya su uso como rescate en migraña refractaria, no como tratamiento de primera línea ni ambulatorio.
+La relación entre la indicación original (anestesia/sedación) y la nueva es de uso a dosis subanestésicas en entornos monitorizados (urgencias o sedación procedimental), no de extensión de la indicación original. Se trata de una dosis y un contexto de uso distintos.
+
+**Nota sobre el nivel de evidencia:** el nivel L1 se asignó con base en el listado de un ensayo de Fase 2/3 y en la existencia de una comparación con placebo en adultos en urgencias (PMID 33070469). Los datos disponibles no incluyen resultados, por lo que L1 debe verificarse con los resultados publicados. Si el ensayo pivotal se considera solo de Fase 2 o con poder insuficiente, el nivel debería bajar a L2.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Se ordenan por relevancia para la indicación.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Fase 2/3 | Completado | 74 | Propofol a dosis baja como terapia abortiva de migraña pediátrica en urgencias. Es el ensayo más sólido del conjunto |
-| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | No aplica | Completado | 40 | Infusión de propofol a dosis baja como tratamiento abortivo de migraña pediátrica. Evalúa eficacia, límites de dosis seguros y duración del efecto. Muestra pequeña |
-| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | No aplica | Terminado | 12 | Propofol a dosis baja en migraña refractaria grave en urgencias. Se terminó con solo 12 participantes, por lo que aporta poca información de eficacia |
-| [NCT03789370](https://clinicaltrials.gov/study/NCT03789370) | No aplica | Desconocido | 130 | Compara sevoflurano vs. propofol en la cefalea posoperatoria. No trata migraña, y el estado del estudio es desconocido |
-| [NCT02443220](https://clinicaltrials.gov/study/NCT02443220) | No aplica | Completado | 315 | Combinaciones de acupuntos con electroacupuntura en cirugía coronaria. El propofol no es la intervención estudiada, por lo que no es relevante |
+| [NCT01604785](https://clinicaltrials.gov/study/NCT01604785) | Fase 2/3 | Completado | 74 | Propofol a dosis bajas como terapia abortiva de migraña pediátrica en urgencias; directamente relacionado con la indicación |
+| [NCT02485418](https://clinicaltrials.gov/study/NCT02485418) | N/A | Completado | 40 | Infusión de propofol a dosis bajas como tratamiento abortivo de migraña en pediatría; evalúa eficacia, límites seguros de dosis y duración del efecto |
+| [NCT02492295](https://clinicaltrials.gov/study/NCT02492295) | N/A | Terminado | 12 | Propofol a dosis bajas en migraña refractaria grave en urgencias; terminado anticipadamente, con conclusiones limitadas |
 
 ---
 
@@ -80,32 +79,38 @@ Se ordenan por relevancia para la indicación.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | ECA | J Emerg Med | Ensayo aleatorizado prospectivo de propofol a dosis baja en migraña pediátrica en urgencias. Evalúa eficacia y duración de la estancia |
-| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | ECA piloto | Emerg Med Australas | Propofol a dosis de sedación procedimental vs. tratamiento estándar como manejo inicial de la migraña en urgencias |
-| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | ECA | Arch Acad Emerg Med | Doble ciego. Compara propofol + granisetrón vs. propofol + metoclopramida en el manejo de síntomas de migraña aguda |
-| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | ECA | Arch Acad Emerg Med | Compara sumatriptán + propofol vs. sumatriptán solo en migraña aguda |
-| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Revisión sistemática | Acad Emerg Med | Revisa la seguridad y eficacia del propofol en migraña aguda en urgencias. Concluye que se ha estudiado poco de forma extensa |
-| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guía clínica | Headache | Actualización 2025 de la guía de la American Headache Society sobre farmacoterapia parenteral de la migraña aguda en urgencias |
-| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Revisión | Expert Rev Neurother | Perfil del propofol a dosis subanestésicas en cefaleas migrañosas superrefractarias |
-| [32638172](https://pubmed.ncbi.nlm.nih.gov/32638172/) | 2020 | Revisión | Curr Pain Headache Rep | Tratamiento intravenoso de la migraña en niños y adolescentes. Señala la falta de ECA pediátricos doble ciego bien diseñados |
-| [23187986](https://pubmed.ncbi.nlm.nih.gov/23187986/) | 2012 | Estudio retrospectivo | Pediatr Emerg Care | Experiencia institucional con propofol subanestésico en migraña pediátrica, comparado con el tratamiento estándar |
-| [10759925](https://pubmed.ncbi.nlm.nih.gov/10759925/) | 2000 | Serie de casos | Headache | Efectividad del propofol intravenoso en migrañas refractarias en un centro ambulatorio de cefaleas |
+| [33070469](https://pubmed.ncbi.nlm.nih.gov/33070469/) | 2021 | ECA | Emerg Med Australas | Propofol vs. placebo en adultos con migraña aguda en urgencias; el desenlace primario fue la resolución de la cefalea a la hora |
+| [29456086](https://pubmed.ncbi.nlm.nih.gov/29456086/) | 2018 | ECA | J Emerg Med | Propofol a dosis bajas en migraña pediátrica; dosis subanestésicas con perfil de efectos secundarios favorable y posible menor estancia |
+| [32705801](https://pubmed.ncbi.nlm.nih.gov/32705801/) | 2020 | ECA piloto | Emerg Med Australas | Propofol a dosis de sedación procedimental vs. tratamiento estándar en el manejo inicial de la migraña en urgencias |
+| [35402989](https://pubmed.ncbi.nlm.nih.gov/35402989/) | 2022 | ECA | Arch Acad Emerg Med | Propofol + granisetrón vs. propofol + metoclopramida en el manejo de síntomas de migraña aguda |
+| [35573713](https://pubmed.ncbi.nlm.nih.gov/35573713/) | 2022 | ECA | Arch Acad Emerg Med | Sumatriptán/placebo vs. sumatriptán/propofol en migraña aguda |
+| [31621134](https://pubmed.ncbi.nlm.nih.gov/31621134/) | 2020 | Revisión sistemática | Acad Emerg Med | Seguridad y eficacia de propofol en migraña aguda en urgencias; evidencia limitada |
+| [39364614](https://pubmed.ncbi.nlm.nih.gov/39364614/) | 2024 | Revisión sistemática/metaanálisis | Headache | Comparación de agentes parenterales para reducir recaídas tras migraña aguda grave |
+| [26790849](https://pubmed.ncbi.nlm.nih.gov/26790849/) | 2016 | Revisión sistemática | Headache | Tratamientos agudos de migraña pediátrica en urgencias |
+| [41321235](https://pubmed.ncbi.nlm.nih.gov/41321235/) | 2026 | Guía | Headache | Actualización 2025 de la guía de la American Headache Society sobre tratamientos parenterales de la migraña aguda en urgencias |
+| [27454834](https://pubmed.ncbi.nlm.nih.gov/27454834/) | 2016 | Revisión/serie de casos | Expert Rev Neurother | Perfil del propofol a dosis subanestésicas en migraña refractaria |
 
 ---
 
 ## Información de Mercado en Colombia
 
-El registro sanitario 20007502 aparece repetido cinco veces con datos idénticos, y aquí se lista una sola vez. El total informado es de 20 registros, pero solo se recibió el detalle de este.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007502 | SPIVA® MCT - LCT (Baxter Pharmaceuticals India) | Emulsión inyectable | PROPOFOL (sin detalle de indicación en el registro) |
+| 20007502 (cancelado) | SPIVA® MCT - LCT | Emulsión inyectable | PROPOFOL |
+| 20017881 (cancelado) | PROPOFOL 1% MCT | Emulsión inyectable | PROPOFOL |
+
+Ambos registros están cancelados, por lo que actualmente no hay registros vigentes en Colombia.
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según la base de conocimiento (no según prospecto):** el grafo de conocimiento asocia propofol con epilepsia, trastornos hipotensivos, insuficiencia respiratoria, arteriosclerosis intracraneal, trastornos hereditarios del metabolismo lipídico e hiperlipidemia familiar.
+- **Riesgos clínicos relevantes:** sedación, depresión respiratoria e hipotensión; el uso debe limitarse a entornos monitorizados (urgencias o procedimentales).
+- **Señal cardiovascular:** reportes de caso describen espasmo coronario inducido por anestesia y angina vasoespástica revelada durante la anestesia con propofol.
+- **Interacciones farmacológicas (100 registradas; se muestran las principales):**
+  - Moderadas: morfina (incluida liposomal), opio, ondansetrón, granisetrón, dolasetrón, claritromicina, levofloxacino, cisaprida, famotidina, loperamida, bisacodilo, aceite de ricino, glicerina, lactitol, lactulosa, citrato de magnesio, hidróxido de magnesio y aceite mineral.
+  - Leve: metronidazol.
 
 ---
 
@@ -114,14 +119,25 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un ensayo de Fase 2/3 completado (n=74) y varios ECA que evalúan propofol en migraña aguda o refractaria, lo que da un nivel de evidencia L2. Sin embargo, las muestras son pequeñas, no hay un Fase 3 confirmatorio y un ensayo se terminó con solo 12 pacientes. Por eso el uso se limita a rescate en migraña refractaria, en un entorno monitorizado y no como primera línea ni ambulatorio.
+Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (adultos y pediátrica) que respaldan la dirección, además de una base mecanística plausible. Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea y los dos registros colombianos están cancelados.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias, contraindicaciones e interacciones), que hoy no está disponible.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Un ensayo confirmatorio de Fase 3, con verificación del tamaño del efecto en la comparación adulta contra placebo.
-- Un protocolo de uso en entorno monitorizado, con soporte de vía aérea y hemodinámico.
-- Confirmar el estatus regulatorio: la migraña no figura entre las indicaciones del registro, por lo que sería uso fuera de indicación.
+- Verificar el nivel L1 con los resultados publicados de los ensayos (NCT01604785 y PMID 33070469); si no se confirma, bajar a L2.
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales.
+- Documentar el mecanismo de acción desde DrugBank.
+- Definir un protocolo de uso limitado a entornos monitorizados, con vigilancia de sedación, función respiratoria y presión arterial.
+- Evaluar la disponibilidad de un producto con registro vigente en Colombia.
+
+---
+
+### Otras indicaciones predichas (de menor prioridad)
+
+| Indicación | Puntaje TxGNN | Nivel | Recomendación | Comentario |
+|------|------|------|------|------|
+| Migraña con aura del tronco encefálico | 99.58% | L3 | Pregunta de investigación | Sin ensayos específicos; evidencia extrapolada de migraña general y respaldo preclínico sobre depresión cortical propagada |
+| Angina de Prinzmetal | 99.23% | L4 | Hold | Solo reportes de caso de espasmo coronario durante anestesia; señal de seguridad, no terapéutica |
+| Síndrome nefrogénico de antidiuresis inapropiada | 99.20% | L5 | Hold | Sin ensayos ni literatura; no se identifica vía mecanística plausible |
+| Síndrome de Tourette | 99.03% | L4 | Hold | Solo estudios de sedación durante cirugía de estimulación cerebral profunda; no evalúan eficacia terapéutica |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

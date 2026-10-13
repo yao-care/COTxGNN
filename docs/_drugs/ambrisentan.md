@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Ambrisentan
-parent: Solo Predicción del Modelo (L5)
-nav_order: 41
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 45
+evidence_level: L4
 indication_count: 10
 ---
 
 # Ambrisentan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,75 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ambrisentán: De Hipertensión Arterial Pulmonar a Malformación Arteriovenosa Pulmonar
+# Ambrisentan: De Hipertensión Arterial Pulmonar a Malformación Arteriovenosa Pulmonar
 
 ## Resumen en Una Frase
 
-Ambrisentán es un antagonista selectivo del receptor de endotelina tipo A, comercializado para la hipertensión arterial pulmonar (HAP).
-El modelo TxGNN predice que podría ser efectivo para la **malformación arteriovenosa pulmonar**,
-pero hay **0 ensayos clínicos** y solo **1 publicación** (un reporte de caso que trata la HAP como comorbilidad, no la malformación). La predicción se apoya casi solo en el modelo.
+Ambrisentan es un antagonista selectivo del receptor de endotelina tipo A, utilizado originalmente en la hipertensión arterial pulmonar (HAP). El modelo TxGNN predice que podría ser efectivo para **malformación arteriovenosa pulmonar**, pero hoy solo lo respalda **1 publicación** (un reporte de caso) y **ningún ensayo clínico**. Es una predicción con evidencia muy débil.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hipertensión arterial pulmonar. El texto de INVIMA solo consigna el nombre del principio activo ("AMBRISENTAN"). |
+| Indicación Original | Hipertensión arterial pulmonar (el registro INVIMA solo consigna el nombre del principio activo, "Ambrisentan", sin texto de indicación) |
 | Nueva Indicación Predicha | Malformación arteriovenosa pulmonar |
 | Puntaje de Predicción TxGNN | 99.41% |
-| Nivel de Evidencia | L4 (según el Evidence Pack; sin estudios preclínicos ni de mecanismo, solo un reporte de caso tangencial) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 5 (los 5 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente. Por farmacología general, ambrisentán bloquea el receptor de endotelina A (ETA), lo que reduce la vasoconstricción y el remodelado vascular en la HAP. Su eficacia en HAP está comprobada.
+Ambrisentan bloquea el receptor de endotelina tipo A. La endotelina-1 provoca vasoconstricción y remodelado vascular, mecanismo que explica su utilidad en la hipertensión arterial pulmonar. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que este análisis se basa en la clase farmacológica conocida.
 
-Las malformaciones arteriovenosas pulmonares son cortocircuitos estructurales, típicamente asociados a telangiectasia hemorrágica hereditaria (THH). La terapia vasodilatadora o antiproliferativa de la HAP no es un tratamiento establecido para ellas. El único indicio es un reporte de caso de HAP en un paciente con THH. Ese caso trata la HAP como comorbilidad y no la malformación en sí.
+La relación con la nueva indicación es indirecta. La vasoconstricción y el remodelado vascular mediados por endotelina podrían contribuir a la enfermedad vascular pulmonar en la telangiectasia hemorrágica hereditaria (THH), que es la condición asociada a las malformaciones arteriovenosas pulmonares. Sin embargo, la única publicación disponible describe un caso de hipertensión pulmonar en un paciente con THH. No evalúa el tratamiento de las malformaciones arteriovenosas en sí.
 
-El alto puntaje de TxGNN es una predicción basada en grafos de conocimiento y no equivale a evidencia clínica. Por ahora el vínculo mecanístico con esta indicación es débil.
+El antagonismo de endotelina no es un tratamiento establecido para las lesiones estructurales arteriovenosas. Por eso el puntaje alto del modelo refleja asociaciones en la red de conocimiento y no una confirmación clínica.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Reporte de caso | World J Clin Cases | Paciente con telangiectasia hemorrágica hereditaria (THH) que presentó HAP; se describen manifestaciones, tratamiento y análisis genético familiar para crear conciencia sobre esta multimorbilidad poco frecuente y de mal pronóstico. |
+| [33969094](https://pubmed.ncbi.nlm.nih.gov/33969094/) | 2021 | Reporte de caso | World Journal of Clinical Cases | Caso de hipertensión arterial pulmonar en un paciente con telangiectasia hemorrágica hereditaria, con análisis genético familiar. Busca aumentar la conciencia sobre esta multimorbilidad; no evalúa ambrisentan como tratamiento de las malformaciones arteriovenosas. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Hay 20 registros en total. Los 5 primeros corresponden al mismo registro sanitario, por lo que se muestra una sola vez.
+Los 5 registros sanitarios están cancelados y no hay ninguno vigente.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20151854 | XETAM® 5 MG TABLETAS RECUBIERTAS (XINETIX PHARMA S.A.S.) | Tableta recubierta | Solo consigna el principio activo: AMBRISENTAN |
+| 20151854 | XETAM® 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Ambrisentan (solo consigna el principio activo) |
+| 20113623 | BRISEN® 5 MG TABLETA CUBIERTA | Tableta cubierta con película | Ambrisentan (solo consigna el principio activo) |
+| 20199803 | PULLMOVRIS® 5 MG TABLETA RECUBIERTA | Tableta recubierta | Ambrisentan (solo consigna el principio activo) |
+| 20140495 | INFINIX® 10 MG | Tableta recubierta | Ambrisentan (solo consigna el principio activo) |
+| 20200038 | PULLMOVRIS® 10 MG TABLETA RECUBIERTA | Tableta recubierta | Ambrisentan (solo consigna el principio activo) |
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: no se encontraron interacciones en la fuente consultada (0 registros). Esto podría ser una limitación de los datos y no ausencia real de interacciones.
-- **Nota de riesgo**: el análisis del Evidence Pack indica que ambrisentán tiene una advertencia de toxicidad embriofetal. Los ARE (antagonistas de receptores de endotelina) también pueden empeorar la anemia y la retención de líquidos.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): insuficiencia cardíaca congestiva, anemia, anemia macrocítica y enfermedad venooclusiva pulmonar.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales:
+  - **Moderadas**: canagliflozina, dapagliflozina, empagliflozina, ertugliflozina, eliglustat y naltrexona.
+  - **Leves**: claritromicina, miconazol y omeprazol.
+  - **Sin clasificar**: calcitriol, pantoprazol, doxiciclina, morfina, metformina, lansoprazol, vancomicina, lactulosa, prednisona, simvastatina y cloruro de potasio.
+- **Embriotoxicidad**: según el análisis de este informe, ambrisentan conlleva advertencias de toxicidad embriofetal.
 
-Consultar el prospecto para información de seguridad.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos y solo un reporte de caso tangencial. No hay un mecanismo terapéutico establecido para las malformaciones arteriovenosas pulmonares, por lo que el puntaje de TxGNN por sí solo no basta para avanzar.
-
-Para el mismo fármaco, el Evidence Pack contiene candidatas mejor respaldadas: HAP asociada a cardiopatía congénita y HAP asociada a enfermedad del tejido conectivo (ambas L2, "Proceed with Guardrails"). Conviene priorizarlas.
+La predicción se apoya solo en un reporte de caso que trata la hipertensión pulmonar en THH, no el tratamiento de las malformaciones arteriovenosas. No hay ensayos clínicos, y el antagonismo de endotelina no es un tratamiento establecido para estas lesiones estructurales. Además, los 5 registros en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) desde DrugBank
-- Advertencias y contraindicaciones del prospecto de INVIMA
-- Evidencia preclínica o clínica que vincule el bloqueo de ETA con el tratamiento de la malformación arteriovenosa pulmonar (por ejemplo, en pacientes con THH)
-- Evaluación de seguridad, incluida la toxicidad embriofetal
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Estudios preclínicos o clínicos que evalúen directamente ambrisentan en malformaciones arteriovenosas pulmonares.
+- Obtener el prospecto de INVIMA para completar el análisis de seguridad, que hoy es un bloqueo para el cribado.
+- Datos detallados del mecanismo de acción desde DrugBank.
+- Verificar la disponibilidad comercial del fármaco en Colombia, ya que no hay registros vigentes.
+- Priorizar otras predicciones del mismo análisis con mejor respaldo, como la HAP asociada a enfermedad del tejido conectivo (nivel L2, con un ensayo de Fase 2 y uno de Fase 4 completados) y la HAP asociada a cardiopatía congénita (nivel L3). Ambas están dentro de la clase de uso ya conocida del fármaco.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Irinotecan
-parent: Evidencia Alta (L1-L2)
-nav_order: 231
-evidence_level: L2
+parent: Evidencia Moderada (L3-L4)
+nav_order: 356
+evidence_level: L3
 indication_count: 1
 ---
 
 # Irinotecan
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,108 +29,118 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **1**
 
 </div>
 
-# Irinotecán: De Indicación Original No Especificada en el Registro a Carcinoma de Mama Femenino
+# Irinotecan: De Irinotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
 
 ## Resumen en Una Frase
 
-Irinotecán es un quimioterápico comercializado en Colombia en solución inyectable. El texto de los registros sanitarios solo dice «IRINOTECAN» y no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**.
-Lo respaldan **22 ensayos clínicos** y **20 publicaciones**, pero solo unos pocos estudian irinotecán directamente en cáncer de mama. Gran parte de la literatura trata de sacituzumab govitecán, un conjugado anticuerpo-fármaco que usa SN-38, el metabolito activo de irinotecán.
+Irinotecan es un fármaco antineoplásico inhibidor de la topoisomerasa I; en Colombia sus registros sanitarios solo lo identifican como "irinotecan", sin detallar la indicación aprobada.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **9 ensayos clínicos** (solo uno evalúa irinotecan directamente en cáncer de mama avanzado, en fase 1 con 12 pacientes) y **20 publicaciones**, la mayoría indirectas.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto registrado es solo «IRINOTECAN») |
+| Indicación Original | IRINOTECAN (el registro no especifica la indicación) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 6 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la farmacología establecida, irinotecán es un profármaco que se convierte en SN-38, un inhibidor de la topoisomerasa I. Este bloqueo causa daño al ADN en las células tumorales que se dividen rápidamente.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, irinotecan es un profármaco de SN-38, un inhibidor de la topoisomerasa I que causa daño al ADN en células que se dividen rápidamente. Este mecanismo citotóxico es coherente con un puntaje alto del modelo (0.99).
 
-El respaldo mecanístico más claro viene de sacituzumab govitecán, que usa SN-38 como carga citotóxica. Este fármaco ha mostrado actividad clínica en cáncer de mama triple negativo y en cáncer de mama HR+/HER2-. Eso apoya que los tumores de mama son sensibles a SN-38, pero es evidencia indirecta: se refiere a otro medicamento y no demuestra por sí sola la eficacia de irinotecán.
+La relación con la nueva indicación se apoya sobre todo en un fármaco derivado: sacituzumab govitecan, un conjugado anticuerpo-fármaco dirigido a Trop-2 cuya carga útil es SN-38. Ha mostrado eficacia en cáncer de mama metastásico HR+/HER2- y triple negativo (diseño del estudio de fase III TROPiCS-02, PMID 32223649). Esto respalda la inhibición de la topoisomerasa I como mecanismo válido en cáncer de mama.
 
-También existen estudios directos con irinotecán en cáncer de mama avanzado: un ensayo de Fase 2 completado (n=134) y un ensayo de Fase 2 de un solo brazo en pacientes chinas (n=124). Un estudio piloto de irinotecán con S-1 (IRIS) y revisiones antiguas lo describen como un fármaco de actividad «marginal» en esta indicación. El puntaje alto de TxGNN es una predicción del modelo y no reemplaza la evidencia clínica.
+Sin embargo, esa evidencia proviene del conjugado y no del irinotecan libre. Los datos directos de irinotecan en cáncer de mama se limitan a ensayos tempranos y a una revisión de 1998 sobre su actividad en varios tipos de tumor. Una revisión de 2003 describe actividad "marginal" de irinotecan y mitomicina en cáncer de mama, con sinergismo preclínico entre ambos.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes de los 22 registrados. Los ensayos con irinotecán directo van primero.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00072852](https://clinicaltrials.gov/study/NCT00072852) | Fase 2 | Completado | 134 | Irinotecán en monoterapia (dos esquemas) en cáncer de mama metastásico tras fallo de antraciclina, taxano y capecitabina. Es la evidencia más directa. |
-| [NCT03562390](https://clinicaltrials.gov/study/NCT03562390) | Fase 2 | Desconocido | 124 | Irinotecán en tercera línea o posterior en cáncer de mama avanzado o metastásico (pacientes chinas), un solo brazo. |
-| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | Fase 1 | Completado | 12 | Irinotecán seguido de capecitabina en carcinoma de mama avanzado. Evidencia pequeña de seguridad y dosis. |
-| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | Fase 1 | Completado | 41 | UCN-01 con irinotecán en tumores sólidos resistentes y en cáncer de mama triple negativo recurrente. |
-| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | Fase 2 | Desconocido | 180 | Navicixizumab solo o con paclitaxel o irinotecán en tumores sólidos avanzados, con una cohorte de cáncer de mama triple negativo. |
-| [NCT01631552](https://clinicaltrials.gov/study/NCT01631552) | Fase 1/2 | Completado | 515 | Sacituzumab govitecán (conjugado con SN-38) en cánceres epiteliales. Apoya la relevancia de SN-38, pero es otro fármaco. |
-| [NCT04640480](https://clinicaltrials.gov/study/NCT04640480) | Fase 1 | Completado | 21 | SNB-101, formulación nanoparticulada de SN-38, en tumores sólidos avanzados. |
-| [NCT01770353](https://clinicaltrials.gov/study/NCT01770353) | Fase 1 | Completado | 45 | Irinotecán nanoliposomal (MM-398): distribución en el tumor e imagen con ferumoxitol. |
-| [NCT00004095](https://clinicaltrials.gov/study/NCT00004095) | Fase 1 | Completado | 38 | Irinotecán con gemcitabina en tumores sólidos no resecables o metastásicos. |
-| [NCT02033551](https://clinicaltrials.gov/study/NCT02033551) | Fase 1 | Completado | 47 | Extensión de seguridad de veliparib solo o con quimioterapia, incluido FOLFIRI, en tumores sólidos. |
+| [NCT00083148](https://clinicaltrials.gov/study/NCT00083148) | Fase 1 | Completado | 12 | Irinotecan seguido de capecitabina en carcinoma de mama avanzado; evalúa seguridad y dosis; estudio pequeño (relevancia directa) |
+| [NCT00031681](https://clinicaltrials.gov/study/NCT00031681) | Fase 1 | Completado | 41 | UCN-01 más irinotecan en tumores sólidos resistentes y cáncer de mama triple negativo recurrente |
+| [NCT00004095](https://clinicaltrials.gov/study/NCT00004095) | Fase 1 | Completado | 38 | Irinotecan más gemcitabina en tumores sólidos irresecables o metastásicos (mama es uno de varios tipos) |
+| [NCT03678883](https://clinicaltrials.gov/study/NCT03678883) | Fase 2 | Activo, no recluta | 350 | 9-ING-41 (inhibidor de GSK-3β) solo o con quimioterapia, incluido irinotecan, en cánceres refractarios; relevancia indirecta |
+| [NCT05453825](https://clinicaltrials.gov/study/NCT05453825) | Fase 2 | Desconocido | 180 | Navicixizumab solo o con paclitaxel o irinotecan en tumores sólidos avanzados, con una cohorte de cáncer de mama triple negativo |
+| [NCT02419495](https://clinicaltrials.gov/study/NCT02419495) | Fase 1 | Terminado | 221 | Selinexor con varios esquemas de quimioterapia o inmunoterapia en neoplasias avanzadas; datos específicos de irinotecan poco claros |
+| [NCT06840886](https://clinicaltrials.gov/study/NCT06840886) | Fase 1 | Reclutando | 426 | PHST001 solo o combinado en tumores sólidos avanzados; papel de irinotecan poco claro |
+| [NCT06769425](https://clinicaltrials.gov/study/NCT06769425) | Fase 1 | Reclutando | 157 | HS-10502 (inhibidor de PARP1) en combinación en tumores sólidos avanzados; evidencia indirecta |
+| [NCT05238831](https://clinicaltrials.gov/study/NCT05238831) | Fase 1 temprana | Retirado | 0 | Estudio piloto de medicina de precisión SMMART-ACT; sin pacientes inscritos, no aporta evidencia |
+
+---
 
 ## Evidencia de Literatura
 
-Se muestran 10 de las 20 publicaciones. Los resúmenes disponibles son breves.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32727805](https://pubmed.ncbi.nlm.nih.gov/32727805/) | 2020 | Estudio piloto | Anticancer Res | Irinotecán con S-1 (IRIS) en cáncer de mama avanzado y metastásico: evaluación de eficacia y seguridad. |
-| [36027558](https://pubmed.ncbi.nlm.nih.gov/36027558/) | 2022 | Ensayo clínico | J Clin Oncol | Sacituzumab govitecán (carga SN-38) en cáncer de mama metastásico HR+/HER2-. |
-| [30786188](https://pubmed.ncbi.nlm.nih.gov/30786188/) | 2019 | Ensayo clínico | N Engl J Med | Sacituzumab govitecán en cáncer de mama triple negativo metastásico refractario. |
-| [28291390](https://pubmed.ncbi.nlm.nih.gov/28291390/) | 2017 | Ensayo clínico | J Clin Oncol | Eficacia y seguridad de sacituzumab govitecán en cáncer de mama triple negativo muy pretratado (un solo brazo). |
-| [32223649](https://pubmed.ncbi.nlm.nih.gov/32223649/) | 2020 | Diseño de ensayo Fase 3 | Future Oncol | Diseño de TROPiCS-02 con sacituzumab govitecán (SN-38) en cáncer de mama HR+/HER2-. |
-| [36302269](https://pubmed.ncbi.nlm.nih.gov/36302269/) | 2022 | Revisión | Breast | Conjugados anticuerpo-fármaco dirigidos a TROP-2 en cáncer de mama metastásico. |
-| [39768216](https://pubmed.ncbi.nlm.nih.gov/39768216/) | 2024 | Revisión | Cells | Sacituzumab govitecán en cáncer de mama triple negativo refractario. |
-| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | Revisión | Oncology (Williston Park) | Fundamento de mitomicina e irinotecán en cáncer de mama avanzado. Actividad individual «marginal», con sinergia preclínica. |
-| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | Revisión | Oncology (Williston Park) | Actividad antitumoral amplia de irinotecán, incluido el cáncer de mama, en estudios preclínicos y clínicos tempranos. |
-| [10472342](https://pubmed.ncbi.nlm.nih.gov/10472342/) | 1999 | Preclínico | Anticancer Res | En xenoinjertos, irinotecán y doxorrubicina detuvieron o hicieron regresar líneas celulares de cáncer de mama. |
+| [32223649](https://pubmed.ncbi.nlm.nih.gov/32223649/) | 2020 | ECA (diseño fase III) | Future Oncology | TROPiCS-02: sacituzumab govitecan (SN-38, metabolito activo de irinotecan) en cáncer de mama metastásico HR+/HER2- |
+| [41371050](https://pubmed.ncbi.nlm.nih.gov/41371050/) | 2026 | Fase 2 | Eur J Cancer | PHENOMENAL: irinotecan liposomal en cáncer de mama HER2-negativo con metástasis cerebrales |
+| [40877204](https://pubmed.ncbi.nlm.nih.gov/40877204/) | 2025 | Estudio clínico | Cancer Reports | Etirinotecan pegol (formulación pegilada) en metástasis cerebrales de pulmón o mama |
+| [25944802](https://pubmed.ncbi.nlm.nih.gov/25944802/) | 2015 | Fase 1/2 | Clin Cancer Res | Primer estudio en humanos de sacituzumab govitecan en tumores sólidos metastásicos diversos |
+| [28558150](https://pubmed.ncbi.nlm.nih.gov/28558150/) | 2017 | Revisión clínica | Cancer | Seguridad y farmacocinética de sacituzumab govitecan en cánceres epiteliales avanzados |
+| [9726101](https://pubmed.ncbi.nlm.nih.gov/9726101/) | 1998 | Revisión | Oncology (Williston Park) | Actividad de irinotecan en linfoma, leucemia y cánceres de mama, páncreas, ovario y pulmón de células pequeñas |
+| [12800602](https://pubmed.ncbi.nlm.nih.gov/12800602/) | 2003 | Revisión | Oncology (Williston Park) | Fundamento del uso de mitomicina e irinotecan en cáncer de mama avanzado; actividad marginal con sinergismo preclínico |
+| [26101915](https://pubmed.ncbi.nlm.nih.gov/26101915/) | 2015 | Preclínico | Oncotarget | Trop-2 como blanco de sacituzumab govitecan; mayor eficacia con alta relación fármaco:anticuerpo |
+| [40749148](https://pubmed.ncbi.nlm.nih.gov/40749148/) | 2025 | Fase temprana | J Clin Oncol | DEP-SN38, nanopartícula con SN-38: seguridad y eficacia preliminar en tumores sólidos avanzados |
+| [19059062](https://pubmed.ncbi.nlm.nih.gov/19059062/) | 2008 | Revisión | Clin Lab Med | Farmacogenómica de tamoxifeno e irinotecan; toxicidad ligada a la actividad reducida de UGT1A1 |
+
+---
 
 ## Información de Mercado en Colombia
 
-El paquete lista 5 entradas de registro, con números repetidos. Al agruparlas quedan 2 registros distintos, aunque el total reportado es de 6.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20012770 | Irinotecán solución inyectable 100 mg/5 mL (Grupo Unipharm / Laboratorios Uni) | Solución inyectable | Solo indica «IRINOTECAN», sin indicación detallada |
-| 20141121 | Rotecan 100 mg/5 mL solución inyectable (Hetero Labs Limited) | Solución inyectable | Solo indica «IRINOTECAN», sin indicación detallada |
+| 20012770 | Irinotecan solución inyectable 100 mg/5 mL (Grupo Unipharm S.A. / Laboratorios Uni S.A.) | Solución inyectable | Irinotecan (sin detalle) — cancelado |
+| 20141121 | Rotecan 100 mg/5 mL solución inyectable (Hetero Labs Limited) | Solución inyectable | Irinotecan (sin detalle) — cancelado |
+
+---
 
 ## Citotoxicidad
 
-Esta sección se incluye porque irinotecán es un antineoplásico. Los datos son de farmacología general, no del paquete de evidencia, y deben confirmarse con el prospecto.
-
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (inhibidor de topoisomerasa I, clase camptotecina) |
-| Riesgo de Mielosupresión | Alto (neutropenia frecuente, que puede ser grave) |
-| Clasificación de Emetogenicidad | Media |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (incluida bilirrubina), función renal, electrolitos, vigilancia de diarrea temprana y tardía. Considerar el genotipo UGT1A1 según criterio clínico. |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos (preparación en cabina, guantes y bata de protección) |
+| Clasificación de Citotoxicidad | Citotóxico convencional (inhibidor de la topoisomerasa I) |
+| Riesgo de Mielosupresión | Alto (las asociaciones del grafo de conocimiento señalan neutropenia, trombocitopenia, anemia y agranulocitosis como condiciones de precaución) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, bilirrubina, electrolitos y vigilancia de diarrea |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se obtuvieron advertencias, contraindicaciones ni interacciones farmacológicas del prospecto de INVIMA.
+- **Condiciones de precaución según el grafo de conocimiento (no provienen del prospecto):** enfermedad renal, pioureter, pancreatitis, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, anemia (incluida la macrocítica), íleo, obstrucción intestinal, hiperbilirrubinemia (incluida la hereditaria y el síndrome de Gilbert), enfermedad pulmonar intersticial y enfermedad diarreica.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones; entre las principales:
+  - **Mayor:** claritromicina.
+  - **Moderadas:** aprepitant, dexametasona, cimetidina, miconazol, metreleptina, eluxadolina y múltiples laxantes/osmóticos (bisacodilo, ácido picosulfúrico, sulfato, citrato e hidróxido de magnesio, aceite de ricino, glicerina, lactitol, lactulosa, manitol, aceite mineral, fenolftaleína).
+  - **Menor:** levofloxacino.
+
+No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 2 completado con irinotecán en cáncer de mama metastásico (nivel L2), pero el paquete no incluye sus resultados. Además, la mayor parte de la literatura se refiere a sacituzumab govitecán y no a irinotecán, y falta la información de seguridad del prospecto local, que impide avanzar al tamizaje de seguridad.
+La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fase 1 con 12 pacientes y revisiones antiguas que describen actividad marginal). El respaldo más sólido proviene de sacituzumab govitecan, un conjugado distinto. Además, todos los registros sanitarios colombianos están cancelados y falta la información del prospecto, lo que impide completar el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Obtener los resultados publicados de NCT00072852 y NCT03562390.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la indicación aprobada de los registros locales, que solo dicen «IRINOTECAN».
-- Buscar evidencia comparativa de irinotecán frente al tratamiento estándar en cáncer de mama, idealmente de Fase 3.
-
-*Este informe es solo de investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+- Revisar resultados del estudio PHENOMENAL (irinotecan liposomal) y otros datos de irinotecan en cáncer de mama.
+- Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternativas).
+- Definir la población objetivo y un plan de monitoreo de seguridad (mielosupresión, diarrea, genotipo UGT1A1) antes de cualquier estudio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

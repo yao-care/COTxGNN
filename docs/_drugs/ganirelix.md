@@ -2,7 +2,7 @@
 layout: default
 title: Ganirelix
 parent: Solo Predicción del Modelo (L5)
-nav_order: 207
+nav_order: 309
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,64 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ganirelix: De Antagonista de GnRH en Reproducción Asistida a Hipertricosis
+# Ganirelix: De Prevención de Ovulación Prematura (Indicación Aprobada no Detallada) a Hipertricosis
 
 ## Resumen en Una Frase
 
-Ganirelix es un antagonista del receptor de GnRH que se comercializa en Colombia como solución inyectable. El registro sanitario no describe su indicación aprobada; solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Se trata de una predicción basada solo en el grafo de conocimiento.
+Ganirelix es un antagonista del receptor de GnRH. En Colombia el registro sanitario solo consigna el nombre del principio activo como indicación; su uso conocido es evitar la ovulación prematura en mujeres sometidas a estimulación ovárica durante tratamientos de fertilidad.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo dice "GANIRELIX") |
+| Indicación Original | Ganirelix (el registro no detalla el texto de la indicación; el uso conocido es prevenir la ovulación prematura en estimulación ovárica) |
 | Nueva Indicación Predicha | Hipertricosis |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 6 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Ganirelix es un antagonista del receptor de GnRH que suprime la LH y la FSH y, con ellas, las hormonas sexuales que dependen de estas.
+Ganirelix es un péptido antagonista del receptor de GnRH (GnRH₁, gen GNRHR). Al bloquear este receptor, suprime la liberación de LH y FSH y, por consiguiente, reduce la producción de esteroides sexuales gonadales. Los datos compilados para este reporte no incluyen una descripción detallada del mecanismo de acción registrada en la base de datos, por lo que esta descripción se basa en la información farmacológica disponible.
 
-Con la información disponible, **no se identifica un vínculo mecanístico plausible** con la hipertricosis. Esta condición es principalmente genética o inducida por fármacos, y no hay un mecanismo documentado que involucre el eje GnRH. El puntaje alto de TxGNN refleja una cercanía en el grafo de conocimiento, no un respaldo biológico o clínico. Por eso esta predicción debe leerse solo como una hipótesis del modelo.
+La relación con la hipertricosis es **especulativa**. La hipertricosis no se explica clásicamente por el eje gonadotrópico (a diferencia del hirsutismo, que depende de andrógenos), por lo que no hay una razón mecanística clara para que suprimir el eje GnRH la modifique. El puntaje muy alto de TxGNN (99.98%) refleja la proximidad en el grafo de conocimiento, no evidencia farmacológica ni clínica.
+
+Como contexto, otras predicciones del modelo para este fármaco incluyen la pubertad precoz central, que es la más coherente mecanísticamente (bloqueo del eje hipotálamo-hipófisis-gonadal). Sin embargo, ganirelix es de acción corta y no tiene formulación de depósito, lo que limita su uso práctico. También aparecen la pubertad precoz familiar limitada al varón y el síndrome de exceso de aromatasa, clasificados como preguntas de investigación. Ninguna cuenta con ensayos ni literatura en los datos compilados.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en Colombia
+---
 
-El registro indica 6 registros sanitarios, pero la lista entregada contiene solo entradas repetidas del mismo número (20254283). Se muestra una sola vez.
+## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20254283 | NOVOLEX 0.25 MG/0.5 ML solución inyectable en jeringa precargada (Gedeon Richter Plc) | Solución inyectable | GANIRELIX (sin descripción de indicación) |
+| 20254283 (cancelado) | NOVOLEX 0.25 MG/0.5 ML solución inyectable en jeringa precargada (GEDEON RICHTER PLC) | Solución inyectable | Ganirelix |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas.
+- **Interacciones Farmacológicas**: se identificaron 7 registros de interacción. Seis son de nivel moderado y provienen de la base DDInter: gonadorelina, gonadotropina coriónica humana, menotropinas, triptorelina, folitropina y urofolitropina. El séptimo es la entrada farmacológica del propio ganirelix sobre el receptor GnRH₁, sin nivel de interacción asignado. En general se trata de otros fármacos que actúan sobre el eje reproductivo, por lo que la combinación debe valorarse con cuidado.
+
+No se dispone de datos de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información. Tampoco se identificaron contraindicaciones enfermedad-fármaco en el grafo de conocimiento.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura, y el mecanismo de ganirelix no ofrece un vínculo plausible con la hipertricosis. Con evidencia solo a nivel de modelo (L5), no hay base para avanzar.
+La predicción para hipertricosis es solo del modelo (L5), sin ensayos ni literatura, y carece de un vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones.
-- Obtener el mecanismo de acción desde DrugBank para el análisis mecanístico.
-- Reunir evidencia preclínica o clínica específica de ganirelix en hipertricosis. Sin ella, no se justifica continuar con esta indicación.
-
-**Nota adicional:** entre las otras predicciones del modelo, la pubertad precoz central (rank 9) es la única con un mecanismo coherente (supresión del eje GnRH). Ya está marcada como pregunta de investigación. Sin embargo, no tiene ensayos ni literatura, y los agonistas de GnRH son el estándar establecido. Podría evaluarse en un informe aparte.
+- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura dirigida y evaluar la plausibilidad biológica antes de cualquier estudio.
+- Priorizar, como línea de investigación más coherente, la pubertad precoz central, considerando las limitaciones de la formulación de acción corta.
+- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vías de administración.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Amoxicilina
 parent: Solo Predicción del Modelo (L5)
-nav_order: 46
+nav_order: 53
 evidence_level: L5
 indication_count: 0
 ---

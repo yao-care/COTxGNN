@@ -2,7 +2,7 @@
 layout: default
 title: Risdiplam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 345
+nav_order: 565
 evidence_level: L5
 indication_count: 1
 ---
@@ -33,28 +33,27 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Risdiplam es un fármaco de administración oral comercializado en Colombia como EVRYSDI. Los datos del registro no especifican su indicación original. Por conocimiento general, se usa en la atrofia muscular espinal.
-El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Risdiplam es un modificador del empalme del pre-ARNm de SMN2, utilizado originalmente para el tratamiento de la atrofia muscular espinal. El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los datos (el registro solo dice "RISDIPLAM"; la atrofia muscular espinal proviene de conocimiento general) |
+| Indicación Original | Risdiplam (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Acné |
 | Puntaje de Predicción TxGNN | 99.45% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 9 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción, y la lista de indicaciones originales está vacía. Por conocimiento general, risdiplam es un modulador del empalme del pre-ARNm de SMN2, usado en la atrofia muscular espinal. Los datos proporcionados no permiten establecer un vínculo mecanístico con el acné.
+Risdiplam es un modificador del empalme del pre-ARNm de SMN2. Favorece la inclusión del exón 7 y, con ello, aumenta la producción de proteína SMN completa. Está aprobado para la atrofia muscular espinal. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que no es posible validar de forma cruzada esta información.
 
-El acné depende principalmente de la hiperqueratinización folicular, la producción de sebo, la colonización por *Cutibacterium acnes* y la inflamación. Risdiplam no tiene una conexión establecida con ninguna de estas vías.
+No se identificó una conexión mecanística establecida entre este mecanismo y la patogénesis del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). La relación entre la indicación original (una enfermedad neuromuscular de origen genético) y el acné (una enfermedad inflamatoria dermatológica) es muy distante.
 
-El puntaje de TxGNN (0.9945) es solo una predicción basada en un grafo de conocimiento y no constituye evidencia clínica. Su base no se puede interpretar con estos datos. El puntaje alto podría deberse a artefactos de la topología del grafo, ya que el fármaco no tiene indicaciones originales ni mecanismo anotados que anclen la predicción. La similitud con la indicación original y la compatibilidad de vías de administración quedan pendientes de evaluar.
+El puntaje alto de TxGNN (99.45%) proviene de un grafo de conocimiento y no está respaldado por ningún estudio. Cualquier vínculo sería especulativo, por ejemplo, mediante efectos de empalme fuera de la diana en genes relacionados con la piel o las glándulas sebáceas, y no tiene sustento en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -68,27 +67,29 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20197087 | EVRYSDI (F. HOFFMANN - LA ROCHE LTD.) | Polvo para reconstituir a solución oral | Solo aparece el texto "RISDIPLAM" (sin indicación detallada) |
-
-Los datos traen 5 registros idénticos del mismo número sanitario (20197087) y reportan 9 registros en total. Por eso se muestra una sola fila. La única vía de administración registrada es la oral.
+| 20197087 (cancelado) | EVRYSDI | Polvo para reconstituir a solución oral | Risdiplam |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Interacciones Farmacológicas** (2 interacciones de nivel moderado según DDInter):
+  - Metformina: moderada
+  - Metilnaltrexona: moderada
+
+No se dispone de datos de advertencias ni de contraindicaciones del prospecto. Consultar el prospecto para esta información.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre risdiplam y el acné. El puntaje alto de TxGNN no compensa esta falta de respaldo.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, y no se identificó un vínculo mecanístico plausible con el acné. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), que actualmente bloquea el tamizaje de seguridad
-- Completar el mecanismo de acción desde DrugBank y analizar si existe un vínculo real con la fisiopatología del acné
-- Confirmar la indicación original aprobada en Colombia
-- Buscar estudios preclínicos o de mecanismo que justifiquen la hipótesis
-- Evaluar la compatibilidad de la vía de administración (oral) con las formulaciones habituales para acné
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad
+- Completar los datos del mecanismo de acción desde DrugBank
+- Realizar una revisión de literatura y estudios preclínicos que sustenten un vínculo entre el empalme de SMN2 (o efectos fuera de la diana) y la biología de la piel o las glándulas sebáceas
+- Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado)
+- Evaluar la compatibilidad de la vía de administración (actualmente solo oral; la vía requerida para el acné está pendiente de definir)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

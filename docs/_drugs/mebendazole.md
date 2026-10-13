@@ -2,7 +2,7 @@
 layout: default
 title: Mebendazole
 parent: Solo Predicción del Modelo (L5)
-nav_order: 270
+nav_order: 419
 evidence_level: L5
 indication_count: 1
 ---
@@ -29,31 +29,32 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mebendazol: De Antihelmíntico a Acné
+# Mebendazol: De Antihelmíntico (Mebendazol) a Acné
 
 ## Resumen en Una Frase
 
-Mebendazol es un antihelmíntico de uso oral, comercializado en Colombia en suspensión para el tratamiento de parasitosis intestinales. El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente hay **0 ensayos clínicos** y **1 publicación** (un reporte de caso sin relación terapéutica directa) que respaldan esta dirección.
+Mebendazol es un antihelmíntico del grupo de los benzimidazoles, registrado en Colombia como mebendazol en suspensión oral.
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualmente no hay **ningún ensayo clínico** y solo existe **1 publicación** (un reporte de caso sobre esparganosis, sin relación directa con el acné) que respalde esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Los registros sanitarios solo consignan el nombre del principio activo ("Mebendazol"), sin texto de indicación detallado |
+| Indicación Original | Mebendazol (el registro no detalla la indicación; se trata de un antiparasitario) |
 | Nueva Indicación Predicha | Acné |
 | Puntaje de Predicción TxGNN | 99.20% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 3 (2 números de registro distintos) |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, mebendazol es un antihelmíntico que inhibe la polimerización de la tubulina, y su eficacia en infecciones parasitarias está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mebendazol es un antihelmíntico benzimidazólico que se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Su eficacia en infecciones parasitarias intestinales es conocida.
 
-No existe un vínculo mecanístico establecido con el acné. El puntaje de 99.20% proviene de una predicción de grafo de conocimiento y no de estudios reales. Una hipótesis posible sería un efecto antiproliferativo o antiinflamatorio sobre sebocitos o queratinocitos, pero es especulativa y los datos disponibles no la respaldan.
+El acné vulgar depende de la producción excesiva de sebo, la hiperqueratinización folicular, la colonización por *Cutibacterium acnes* y la inflamación. No se identificó un vínculo mecanístico creíble con la alteración de los microtúbulos. Un posible efecto antiproliferativo o antiinflamatorio sobre sebocitos o queratinocitos es puramente especulativo.
 
-La similitud entre la indicación original (infecciones parasitarias) y el acné (enfermedad inflamatoria de la unidad pilosebácea) es baja, y aún no se ha evaluado formalmente. Tampoco se ha evaluado la compatibilidad de vía de administración: el producto local es oral, y no hay datos sobre la vía requerida para acné.
+El puntaje alto de TxGNN (99.20%) proviene solo de una predicción basada en grafos de conocimiento y no está respaldado por datos clínicos ni mecanísticos. Debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -63,36 +64,37 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Reporte de caso | Am J Trop Med Hyg | Caso de esparganosis proliferativa humana en Venezuela, con lesiones nodulares y papulares "similares al acné", abscesos subcutáneos, anemia y eosinofilia. No evalúa mebendazol como tratamiento del acné, por lo que no aporta respaldo a la hipótesis |
+| [7072899](https://pubmed.ncbi.nlm.nih.gov/7072899/) | 1982 | Reporte de caso | The American Journal of Tropical Medicine and Hygiene | Primer caso de esparganosis proliferativa humana en el hemisferio sur (Venezuela). El paciente presentaba lesiones nodulares y papulares similares al acné, junto con anemia, eosinofilia y abscesos. No evalúa mebendazol como tratamiento del acné. |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION (Inversiones Comerfar Ltda.) | Suspensión oral | Mebendazol (sin texto de indicación detallado) |
-| 19946472 | CHALVER ZAKOR® SUSPENSION (Laboratorios Chalver de Colombia S.A.S) | Suspensión oral | Mebendazol (sin texto de indicación detallado) |
-
-Nota: el registro 19946472 aparece dos veces en la fuente, por lo que se presenta una sola vez.
+| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION (cancelado) | Suspensión oral | Mebendazol |
+| 19946472 | CHALVER ZAKOR® SUSPENSION (cancelado) | Suspensión oral | Mebendazol |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad. No se encontraron interacciones farmacológicas en la consulta realizada.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del prospecto): enfermedad hepática y enfermedad de la vesícula biliar.
+- **Interacciones Farmacológicas**: se identificaron 10 interacciones, la mayoría de nivel moderado:
+  - Moderadas: metronidazol, yoduro I-131, yoduro I-123, fenobarbital, carbamazepina, ritonavir, fosfenitoína, fenitoína y primidona.
+  - Leve: cimetidina.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5). No hay ensayos clínicos ni estudios que respalden mebendazol en acné, ni un mecanismo plausible documentado. La única publicación encontrada es un reporte de caso no relacionado con el tratamiento. Además, faltan los datos de seguridad locales.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos y sin vínculo mecanístico plausible con el acné. Además, los dos registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo al tamizaje de seguridad
-- Confirmar el mecanismo de acción en DrugBank y analizar un posible vínculo con la fisiopatología del acné
-- Realizar una búsqueda bibliográfica dirigida (preclínica y clínica) sobre mebendazol en acné o enfermedades cutáneas inflamatorias
-- Evaluar la compatibilidad de vía de administración, ya que la presentación local es solo oral
-- Reevaluar el nivel de evidencia si aparecen estudios preclínicos o clínicos
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener y analizar el prospecto de INVIMA para completar la revisión de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar estudios preclínicos (por ejemplo, en sebocitos o queratinocitos) que respalden alguna hipótesis mecanística.
+- Evaluar la compatibilidad de la vía de administración (la presentación existente es oral, y el acné suele tratarse de forma tópica o sistémica con otros fármacos).
+- Reconsiderar la candidatura solo si aparece evidencia clínica o mecanística sólida.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

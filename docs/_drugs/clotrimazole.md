@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Clotrimazole
-parent: Evidencia Moderada (L3-L4)
-nav_order: 137
-evidence_level: L4
+parent: Solo Predicción del Modelo (L5)
+nav_order: 175
+evidence_level: L5
 indication_count: 3
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,77 +29,87 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Clotrimazol: De Infecciones Fúngicas Tópicas a Acné
+# Clotrimazol: De Infecciones Fúngicas a Acné
 
 ## Resumen en Una Frase
 
-Clotrimazol es un antifúngico azólico de uso local, empleado en infecciones por hongos y levaduras de la piel y en candidiasis vaginal.
-El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidencia es muy débil: **1 ensayo clínico** (suspendido, sin resultados, con una combinación de tres fármacos) y **ninguna publicación** que respalde esta dirección.
+Clotrimazol es un antifúngico azólico que se usa de forma local en infecciones por hongos y levaduras de la piel (tiña, pie de atleta) y en candidiasis vaginal.
+El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta dirección solo cuenta con **1 ensayo clínico** (suspendido y con una combinación de varios fármacos) y **ninguna publicación** que la respalde.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro solo indica el principio activo ("CLOTRIMAZOL"), sin texto de indicación. Según farmacología, se usa en infecciones fúngicas tópicas (tiña, pie de atleta) y candidiasis vaginal |
-| Nueva Indicación Predicha | Acné (acne, disease) |
-| Puntaje de Predicción TxGNN | 99,86 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Indicación Original | Clotrimazol (el registro sanitario solo indica el nombre del principio activo; el uso clínico conocido es el tratamiento local de infecciones fúngicas de piel y vaginales) |
+| Nueva Indicación Predicha | Acné |
+| Puntaje de Predicción TxGNN | 99.86% |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ninguno vigente) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos. Según la información conocida, el clotrimazol es un antifúngico azólico que inhibe la síntesis de ergosterol (enzima CYP51) y altera la membrana del hongo. Tiene además cierta actividad antibacteriana y antiinflamatoria.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, clotrimazol es un antifúngico imidazólico que inhibe la enzima CYP51 (lanosterol 14-alfa-desmetilasa). Con ello bloquea la síntesis de ergosterol y daña la membrana del hongo. También se han descrito efectos antimicrobianos y antiinflamatorios.
 
-La relación con el acné es limitada. Podría tener sentido en cuadros como la foliculitis por *Malassezia* o la sobreinfección secundaria, pero no en el acné vulgar clásico. El puntaje de TxGNN es muy alto, pero no está respaldado por un mecanismo documentado.
+El vínculo con el acné es plausible, pero no está demostrado. Podría pasar por la inflamación asociada a *Malassezia* o *Cutibacterium*. La relación entre la indicación original (infecciones cutáneas) y el acné es que ambos son trastornos de la piel con componente microbiano e inflamatorio. Sin embargo, el acné no es una infección fúngica, por lo que la base mecanística es débil.
 
-Además, el único ensayo evalúa una combinación fija (beclometasona + gentamicina + clotrimazol), por lo que no se puede aislar el efecto del clotrimazol.
+El único ensayo disponible evalúa una combinación fija (beclometasona + gentamicina + clotrimazol), de modo que cualquier efecto no se puede atribuir al clotrimazol. El puntaje tan alto de TxGNN (99.86%) es solo una predicción computacional.
 
-**Nota:** en el Evidence Pack, la segunda predicción (vulvovaginitis) sí cuenta con respaldo amplio (múltiples ensayos y ECAs con clotrimazol como comparador o tratamiento). Corresponde a un uso ya establecido, y la ausencia de indicaciones originales probablemente es un vacío de datos y no una nueva oportunidad de reposicionamiento.
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Compara la eficacia de beclometasona + gentamicina + clotrimazol en crema tópica en dermatosis contaminada con lesiones bilaterales simétricas. Sin resultados publicados. El aporte del clotrimazol no se puede separar y el vínculo con acné no está confirmado |
+| [NCT01244256](https://clinicaltrials.gov/study/NCT01244256) | Fase 2/3 | Suspendido | 80 | Compara la eficacia de la combinación clotrimazol + gentamicina + beclometasona en crema tópica en sujetos con dermatosis contaminada con lesiones bilaterales simétricas. El estado suspendido hace poco probable que haya resultados fiables. El título está truncado, por lo que no queda claro si el estudio trata acné o dermatosis infectadas en general. |
+
+---
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
-## Información de Mercado en Colombia
+---
 
-Los 20 registros incluyen entradas repetidas. La tabla muestra los registros únicos con sus indicaciones combinadas.
+## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19971011 | CUTAMYCON 500 MG | Cápsula blanda | CLOTRIMAZOL |
-| 20018316 | DERMA Q CREMA TÓPICA | Crema tópica | MOMETASONA, CLOTRIMAZOL, COMBINACIONES |
+| 19971011 | CUTAMYCON 500 MG (cancelado) | Cápsula blanda | Clotrimazol |
+| 20018316 | DERMA Q CREMA TÓPICA (cancelado) | Crema tópica | Mometasona |
+
+Ambos registros están cancelados, por lo que actualmente no hay productos vigentes en Colombia con este principio activo según los datos compilados.
+
+---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la consulta se completó con 8 resultados, pero corresponden a dianas moleculares del clotrimazol (base de farmacología) y no a interacciones clínicas con otros medicamentos documentadas. Las dianas son:
-  - Canales de potasio KCa1.1 y KCa3.1.
-  - Canales TRPM2, TRPM3 (en ratón), TRPM4 y TRPM8.
-  - Receptor X de pregnano (PXR) y receptor constitutivo de androstano (CAR).
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad de la base TxGNN/PrimeKG, no texto de prospecto): insuficiencia suprarrenal, enfermedad de Addison, atrofia cutánea, telangiectasia, enfermedad capilar, telangiectasia hemorrágica hereditaria, enfermedad vascular periférica, claudicación intermitente y enfermedad arterial periférica. Varias de estas señales probablemente se relacionan con los corticoides presentes en productos combinados y deben verificarse antes de sacar conclusiones.
+- **Dianas farmacológicas y posibles interacciones**: los datos muestran 8 dianas de clotrimazol, no interacciones con otros fármacos con nivel de gravedad definido. Son los canales de potasio KCa1.1 y KCa3.1, los canales TRPM2, TRPM3, TRPM4 y TRPM8, y los receptores nucleares PXR y CAR. La interacción con PXR y CAR podría ser relevante para el metabolismo de otros medicamentos, pero esto requiere revisión específica.
 
-  PXR y CAR regulan enzimas metabolizadoras de fármacos, por lo que conviene evaluar posibles interacciones al usar el clotrimazol de forma sistémica.
+Para advertencias y contraindicaciones formales, consultar el prospecto.
 
-Consultar el prospecto para advertencias y contraindicaciones.
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero no hay mecanismo documentado, no hay literatura y el único ensayo está suspendido, sin resultados y con una combinación de tres fármacos. No hay base para avanzar en acné.
+Para acné solo existe un ensayo suspendido con una combinación de tres fármacos, sin resultados ni literatura de apoyo, y el mecanismo es especulativo. Además, no hay registros vigentes en Colombia. El alto puntaje de TxGNN no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA para confirmar indicaciones, advertencias y contraindicaciones.
-- Completar los datos del mecanismo de acción (consultar la API de DrugBank).
-- Conocer el estado y los resultados de NCT01244256 y, de ser posible, un ensayo con clotrimazol solo en acné.
-- Definir si el caso de interés es realmente vulvovaginitis (uso ya establecido) y, en ese caso, evaluarlo por separado.
+- Datos formales del mecanismo de acción y de la relación entre el efecto antimicrobiano/antiinflamatorio de clotrimazol y la fisiopatología del acné.
+- Estudios preclínicos o clínicos que aíslen el efecto de clotrimazol (sin corticoide ni antibiótico asociados).
+- Aclarar la indicación real y el diseño del ensayo NCT01244256.
+- Obtener y revisar el prospecto aprobado por INVIMA (advertencias y contraindicaciones) y definir la situación regulatoria, dado que los registros están cancelados.
+
+**Nota:** en los datos compilados, la segunda predicción del modelo, **vulvovaginitis**, tiene mucha más evidencia (nivel L1, varios ensayos de Fase 3 completados y literatura con ECA). Se trata de un uso ya establecido y no de un reposicionamiento propiamente dicho. Su decisión asociada es *Proceed with Guardrails*, con atención a la exposición en el primer trimestre del embarazo, a especies resistentes y a la candidiasis recurrente. Si el objetivo es priorizar el candidato más sólido, conviene evaluar esa indicación por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

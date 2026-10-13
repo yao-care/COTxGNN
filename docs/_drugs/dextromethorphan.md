@@ -2,7 +2,7 @@
 layout: default
 title: Dextromethorphan
 parent: Solo Predicción del Modelo (L5)
-nav_order: 160
+nav_order: 215
 evidence_level: L5
 indication_count: 6
 ---
@@ -29,74 +29,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Dextromethorphan: De Tos (Supresores y Expectorantes) a Enfermedad de la Cavidad Nasal
+# Dextrometorfano: De Tos (Supresores y Expectorantes) a Enfermedad de la Cavidad Nasal
 
 ## Resumen en Una Frase
 
-Dextromethorphan es un antitusivo de acción central, usado originalmente como supresor de la tos en jarabes.
-El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**, pero **no hay ensayos clínicos directamente relacionados ni publicaciones** que respalden esta indicación.
-El único ensayo asociado estudia depresión mayor, no enfermedad nasal.
+Dextrometorfano es un antitusígeno de acción central, registrado en Colombia para el tratamiento de la tos (supresores y expectorantes).
+El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad nasal**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tos: supresores y expectorantes |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
+| Indicación Original | Tos (supresores y expectorantes) |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 99.98% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 8 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dextromethorphan actúa sobre el sistema nervioso central. Es antagonista del receptor NMDA, agonista del receptor sigma-1 e inhibidor del transportador de serotonina (SERT). Las bases farmacológicas lo vinculan con GRIN2C, SIGMAR1 y el receptor de sabor amargo TAS2R1. No se dispone de un campo de mecanismo de acción curado en DrugBank para este farmaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el dextrometorfano actúa de forma central como antitusígeno (antagonista del receptor NMDA y agonista del receptor sigma-1). Los datos farmacológicos compilados muestran afinidad por el receptor sigma-1 (SIGMAR1), por la subunidad GluN2C del receptor NMDA y por el receptor del gusto amargo TAS2R1.
 
-No existe un mecanismo establecido que relacione estas acciones con la patología de la cavidad nasal. Si hubiera algún beneficio, lo más probable es que fuera sintomático, por ejemplo sobre la tos o la hipersensibilidad de la vía aérea superior. El fármaco no tiene acción antiinfecciosa ni antiinflamatoria sobre la enfermedad en sí.
+La relación entre la indicación original (tos) y la nueva (enfermedad de la cavidad nasal) es de cercanía anatómica y sintomática dentro de las vías respiratorias superiores. Sin embargo, el mecanismo del fármaco no tiene un vínculo establecido con la patología nasal.
 
-El puntaje TxGNN (0.9998) es solo una predicción computacional. La cercanía entre tos y enfermedades de vías respiratorias altas en el grafo de conocimiento explica plausiblemente la predicción, pero no la demuestra. Por eso la relación con la indicación original sigue pendiente de análisis.
+El puntaje alto probablemente refleja proximidad en el grafo de conocimiento con indicaciones de síntomas respiratorios, más que una relación biológica real. Por ello, el mecanismo no puede considerarse verificado para esta indicación.
 
-## Evidencia de Ensayos Clínicos
+Otras predicciones del modelo, todas de nivel L5 y sin ensayos ni literatura, son:
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT06958692](https://clinicaltrials.gov/study/NCT06958692) | Fase 3 | Reclutando | 388 | Dextromethorphan + bupropion de liberación sostenida vs. placebo en adultos chinos con trastorno depresivo mayor. Aleatorizado, doble ciego, sin resultados aún. |
+| Indicación Predicha | Puntaje TxGNN | Comentario |
+|------|------|------|
+| Laringofaringitis aguda | 99.98% | Solapamiento sintomático plausible (alivio de la tos), pero es manejo sintomático de la indicación original, no un reposicionamiento real |
+| Difteria faucial | 99.36% | Infección mediada por toxina; el fármaco no tiene mecanismo antibacteriano ni antitoxina |
+| Cefalea autonómica trigeminal | 99.32% | Racional especulativo basado en antagonismo NMDA y sensibilización central |
+| Trastorno degenerativo del disco cervical | 99.30% | Vínculo débil e indirecto; podría influir en el dolor, no en la degeneración |
+| Urticaria alérgica | 99.25% | Mediada por histamina y mastocitos; el fármaco puede liberar histamina, lo que sugiere que no habría beneficio |
 
-**Nota:** este ensayo no evalúa enfermedad de la cavidad nasal. Solo confirma que dextromethorphan se investiga en Fase 3 para otra indicación, así que no cuenta como evidencia directa (no alcanza L1).
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
-## Información de Mercado en Colombia
+## Informacion de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20116677 | NOGLUPEC® JARABE (Comercializadora Monserrath S.A.S.) | Jarabe | Tos: supresores y expectorantes |
-
-El resumen regulatorio informa 8 registros sanitarios. El detalle recibido solo contiene entradas repetidas del mismo número (20116677), por lo que aquí se muestra una sola fila.
+| 20116677 (cancelado) | NOGLUPEC® JARABE | Jarabe | TOS SUPRESORES Y EXPECTORANTES |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades con contraindicación o precaución según el grafo de conocimiento** (derivadas de relaciones fármaco-enfermedad del grafo PrimeKG, no del texto del prospecto): hipertensión, síndrome de QT largo (incluido el familiar), torsades de pointes, insuficiencia hepática y enfermedad hepática, epilepsia, enfermedad pulmonar obstructiva crónica, bronquitis, úlcera gástrica y péptica, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, insuficiencia suprarrenal (enfermedad de Addison), hipotiroidismo, enfermedad inflamatoria intestinal, diabetes mellitus y cetoacidosis diabética, hiperplasia prostática benigna, trastornos hipotensivos, entre otras.
+- **Interacciones farmacológicas**: los datos disponibles corresponden a interacciones con dianas farmacológicas (GluN2C, TAS2R1 y SIGMAR1), no a interacciones con otros medicamentos.
 
-Las tres entradas de "interacciones" del Evidence Pack son dianas farmacológicas (GRIN2C, TAS2R1, SIGMAR1), no interacciones medicamentosas clínicas. No deben usarse para evaluar riesgo de interacciones.
+Para las advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos ni publicaciones sobre enfermedad de la cavidad nasal, y el mecanismo del fármaco no explica un efecto sobre la enfermedad. El puntaje alto del modelo, por sí solo, no basta para avanzar. El nivel L5 aplica según las reglas del informe, aunque el Evidence Pack lo había clasificado como L4. No hay estudios preclínicos que respalden L4.
+Todas las predicciones carecen de ensayos clínicos y de literatura, y el nivel de evidencia es L5. Además, el vínculo mecanístico con la enfermedad de la cavidad nasal no está respaldado, y el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Verificar el campo de condiciones y los brazos de intervención del ensayo NCT06958692 para confirmar si tiene alguna relación con enfermedad nasal.
-- Definir con precisión qué condición nasal se pretende tratar y si el objetivo sería solo sintomático (tos, hipersensibilidad de vía aérea superior).
-- Revisar la literatura sobre dextromethorphan en vías respiratorias altas.
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, información de seguridad bloqueante hasta ahora.
-- Completar los datos de mecanismo de acción desde DrugBank.
-- Analizar la compatibilidad de vía de administración; el jarabe es la única forma registrada y ese análisis aún está pendiente.
+- Búsqueda dirigida de literatura y ensayos clínicos sobre dextrometorfano en patología nasal
+- Datos detallados del mecanismo de acción (MOA) y análisis del vínculo mecanístico
+- Advertencias y contraindicaciones del prospecto aprobado
+- Evaluación de compatibilidad de vía de administración y de la situación regulatoria vigente en Colombia
+- Revisión de las contraindicaciones del grafo de conocimiento (p. ej., QT largo, hipertensión, epilepsia) antes de cualquier evaluación clínica
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

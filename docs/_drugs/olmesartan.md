@@ -2,7 +2,7 @@
 layout: default
 title: Olmesartan
 parent: Solo Predicción del Modelo (L5)
-nav_order: 304
+nav_order: 481
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,80 +29,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Olmesartán: De Antihipertensivo (ARA-II) a Angina de Prinzmetal
+# Olmesartán: De Combinación con Diuréticos para Hipertensión a Angina de Prinzmetal
 
 ## Resumen en Una Frase
 
-Olmesartán es un bloqueador del receptor AT1 de la angiotensina II. En Colombia está registrado en combinación con diuréticos (olmesartán medoxomilo). El modelo TxGNN predice que podría ser efectivo para **angina de Prinzmetal**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica. La predicción se apoya solo en el modelo.
+Olmesartán (como olmesartán medoxomilo) es un bloqueador del receptor AT1 de angiotensina II, registrado en Colombia en una combinación con diuréticos.
+El modelo TxGNN predice que podría ser efectivo para **angina de Prinzmetal**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta indicación específica; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Olmesartán medoxomilo y diuréticos (texto del registro sanitario) |
-| Nueva Indicación Predicha | Angina de Prinzmetal |
+| Indicación Original | Olmesartán medoxomilo y diuréticos |
+| Nueva Indicación Predicha | Prinzmetal angina (angina de Prinzmetal) |
 | Puntaje de Predicción TxGNN | 99.84% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información conocida, olmesartán es un antagonista del receptor AT1 de la angiotensina II, usado en el manejo de la presión arterial en combinación con diuréticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, olmesartán es un antagonista del receptor AT1 de angiotensina II con efectos vasodilatadores y antihipertensivos. Su eficacia en hipertensión está establecida, y mecanísticamente podría relacionarse con el vasoespasmo coronario.
 
-La angiotensina II produce vasoconstricción a través del receptor AT1. Por eso, mecanísticamente, podría contribuir al vasoespasmo coronario que define la angina de Prinzmetal, y bloquear ese receptor sería una vía posible. Sin embargo, este vínculo es **especulativo**. No se recuperaron ensayos ni literatura que lo respalden, y el puntaje del modelo es el único sustento.
+La relación entre la indicación original (hipertensión, tratada con la combinación con diuréticos) y la angina de Prinzmetal es indirecta: ambas implican regulación del tono vascular. Sin embargo, esta conexión es especulativa. Los bloqueadores de los canales de calcio y los nitratos son el tratamiento establecido para la angina vasoespástica, y no se recuperó evidencia clínica ni bibliográfica de olmesartán en esta enfermedad.
+
+El puntaje alto del modelo (99.84%) debe interpretarse con cautela: refleja la cercanía en el grafo de conocimiento y no constituye prueba de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
-
-## Otras Indicaciones Predichas con Más Evidencia
-
-Estas indicaciones no son la principal, pero tienen más respaldo que la angina de Prinzmetal:
-
-| Indicación | Puntaje TxGNN | Nivel | Recomendación | Comentario |
-|------|------|------|------|------|
-| Migraña | 99.64% | L3 | Pregunta de investigación | Cuatro publicaciones: una revisión sistemática de IECA/ARA-II (2019, nivel de clase), un estudio clínico pequeño con olmesartán en hipertensos (PMID [16618270](https://pubmed.ncbi.nlm.nih.gov/16618270/), 2006) y dos comentarios/revisiones generales. El posible beneficio puede confundirse con la reducción de la presión arterial. El diseño de los estudios se dedujo solo de los títulos y debe verificarse en texto completo. |
-| Hipertensión pulmonar | 99.61% | L4 | Pregunta de investigación | Solo estudios preclínicos en ratas y ratones (p. ej., PMID [18209564](https://pubmed.ncbi.nlm.nih.gov/18209564/), [16336959](https://pubmed.ncbi.nlm.nih.gov/16336959/)). No hay datos de eficacia en humanos. El único ensayo recuperado (NCT04330300, COVID-19) no evalúa esta indicación. |
-| Glaucoma de ángulo abierto | 99.40% | L4 | Hold | La única publicación es una revisión general de tratamiento de glaucoma (PMID [19902393](https://pubmed.ncbi.nlm.nih.gov/19902393/)), y no se confirma que analice olmesartán. |
-
-Las demás predicciones (alopecia y variantes de hipotricosis, migraña con aura de tronco encefálico, cardiopatía cifoescoliótica) son solo del modelo (L5), sin vínculo mecanístico creíble. Varias parecen artefactos del grafo de conocimiento.
+Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-El registro incluye 20 entradas. Las cinco primeras corresponden al mismo registro sanitario, por lo que se presenta una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos |
-
-La vía de administración registrada es oral.
+El único registro sanitario está cancelado, por lo que no hay producto vigente con olmesartán en Colombia según los datos compilados.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-Como señal de seguridad de la literatura recuperada (casos clínicos y serie de casos), los ARA-II se asocian con fetopatía cuando se usan en el embarazo, por ejemplo oligohidramnios y daño renal fetal (PMID [21271514](https://pubmed.ncbi.nlm.nih.gov/21271514/), [41815228](https://pubmed.ncbi.nlm.nih.gov/41815228/)). Esto es relevante para mujeres en edad fértil. Además, la hipotensión sistémica es una preocupación para cualquier indicación nueva.
+- **Interacciones Farmacológicas**: se identificaron 94 interacciones en total. Entre las principales:
+  - **Mayores**: cloruro de potasio y bicarbonato de potasio (riesgo de hiperpotasemia).
+  - **Moderadas**: insulinas (varias presentaciones), exenatida, hidrocortisona, eluxadolina y polietilenglicol con electrolitos.
+- Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dispone de esta información en los datos compilados.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para angina de Prinzmetal solo existe la predicción del modelo (L5), sin ensayos ni literatura, y el vínculo mecanístico es especulativo. No hay base para avanzar con esta indicación por ahora.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones para angina de Prinzmetal. Además, existen terapias establecidas para esta condición y el único registro local está cancelado.
 
 **Para avanzar se necesita:**
-- Revisión bibliográfica dirigida sobre bloqueadores del receptor AT1 y vasoespasmo coronario
-- Obtener el prospecto del INVIMA para completar advertencias y contraindicaciones
-- Datos de mecanismo de acción desde DrugBank
-- Si se quiere priorizar otra indicación, verificar en texto completo los estudios de migraña (la de mayor evidencia, L3) y controlar el efecto de la presión arterial como factor de confusión
+- Revisión de la literatura sobre bloqueadores del receptor AT1 y vasoespasmo coronario
+- Datos del mecanismo de acción y análisis de la relación mecanística
+- Prospecto de INVIMA para advertencias y contraindicaciones
+- Estudios preclínicos o clínicos pilotos que evalúen olmesartán en angina vasoespástica
+- Análisis de la viabilidad comercial dado el estado cancelado del registro
 
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier uso.*
+---
+
+### Nota sobre otras indicaciones predichas
+
+Entre las demás predicciones, con base en la evidencia disponible:
+- **Migraña** (puntaje 99.64%, nivel L3): existe una revisión sistemática de 2019 sobre IECA y ARA-II, y un estudio de 2006 sobre olmesartán en pacientes hipertensos. El diseño no está confirmado y el candesartán tiene mejor evidencia. Es la candidata con mayor respaldo y podría plantearse como pregunta de investigación.
+- **Hipertensión pulmonar** (99.61%, nivel L4): solo evidencia preclínica en ratas y ratones, sin datos en humanos.
+- **Glaucoma de ángulo abierto** (99.40%, nivel L4): solo una revisión general, sin datos específicos de olmesartán.
+- El resto (alopecia, hipotricosis, entre otras) son solo predicciones del modelo, sin base mecanística clara.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

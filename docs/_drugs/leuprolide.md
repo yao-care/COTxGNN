@@ -2,7 +2,7 @@
 layout: default
 title: Leuprolide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 252
+nav_order: 393
 evidence_level: L5
 indication_count: 2
 ---
@@ -29,59 +29,57 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Leuprolida: De Cáncer de Próstata Avanzado a Osteoartritis
+# Leuprolida: De Leuprorelina Acetato a Osteoartritis
 
 ## Resumen en Una Frase
 
-Leuprolida es un agonista de la hormona liberadora de gonadotropinas (GnRH), usado originalmente para el cáncer de próstata avanzado, los miomas uterinos, la endometriosis y la pubertad precoz.
-El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero solo hay **1 ensayo clínico** y **1 publicación** asociados, y ninguno estudia esta enfermedad.
-La predicción se apoya únicamente en el modelo, sin respaldo clínico real.
+Leuprolida (leuprorelina) es un agonista de la hormona liberadora de gonadotropinas (GnRH), registrado en Colombia como leuprorelina acetato en las presentaciones Eligard. Según la información farmacológica compilada, se usa en cáncer de próstata avanzado, miomas uterinos, endometriosis y pubertad precoz.
+El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero con **0 ensayos clínicos** y **1 publicación** (un reporte de caso sin relación directa con la indicación), por lo que la evidencia es solo computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo dice "Leuprorelina acetato", sin indicación explícita. Según farmacología: cáncer de próstata avanzado, miomas uterinos, endometriosis y pubertad precoz |
+| Indicación Original | Leuprorelina acetato (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Osteoartritis |
 | Puntaje de Predicción TxGNN | 99.70% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 16 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la información farmacológica conocida, leuprolida actúa sobre el receptor GnRH1 (gen *GNRHR*) y suprime los esteroides sexuales gonadales. Su eficacia en cáncer de próstata avanzado, endometriosis y pubertad precoz está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la leuprolida es un agonista del receptor GnRH1 (gen GNRHR). Tras una estimulación inicial, desensibiliza la hipófisis y suprime la producción de hormonas sexuales (testosterona y estrógenos).
 
-Con los datos disponibles **no se identifica un vínculo mecanístico creíble** con la osteoartritis. La supresión de hormonas sexuales se asocia, en general, con efectos adversos óseos y articulares, no con protección del cartílago. El puntaje de 99.70% parece un artefacto del grafo de conocimiento y no un indicio clínico.
+Una relación con la osteoartritis es concebible, ya que las hormonas sexuales modulan el metabolismo del cartílago y del hueso subcondral. Sin embargo, esta vinculación es especulativa. La privación de hormonas sexuales se asocia en general con pérdida ósea y efectos musculoesqueléticos adversos, lo que apunta en contra de un beneficio.
 
-La segunda predicción del modelo, la pseudoacondroplasia (puntaje 99.69%), tampoco tiene ensayos ni literatura. Es una displasia esquelética causada por mutaciones en COMP, y la supresión puberal con agonistas de GnRH no actúa sobre esa patología. Cualquier vínculo es puramente especulativo.
+El alto puntaje de TxGNN (0.997) es únicamente una predicción computacional, sin datos clínicos que la respalden. Además, la ausencia de datos documentados del mecanismo de acción impide anclar el razonamiento a un perfil de dianas definido.
 
-## Evidencia de Ensayos Clínicos
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00002881](https://clinicaltrials.gov/study/NCT00002881) | Fase 3 | Completado | No disponible | Orquiectomía/análogo de LHRH + flutamida + suramina + hidrocortisona vs. el mismo esquema sin suramina ni hidrocortisona, en cáncer de próstata metastásico. **No estudia osteoartritis** (relevancia: C). La coincidencia probablemente se debe a un nodo de fármaco compartido |
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20133250](https://pubmed.ncbi.nlm.nih.gov/20133250/) | 2010 | Reporte de caso | Clinical Breast Cancer | Adenocarcinoma prostático metastásico que simulaba un carcinoma inflamatorio de mama en un hombre de 78 años. No guarda relación con osteoartritis |
+| [20133250](https://pubmed.ncbi.nlm.nih.gov/20133250/) | 2010 | Reporte de caso | Clinical Breast Cancer | Adenocarcinoma prostático metastásico que simulaba un carcinoma inflamatorio de mama en un hombre de 78 años. No aborda la osteoartritis. |
+
+---
 
 ## Información de Mercado en Colombia
 
-Los datos entregados muestran el mismo registro repetido cinco veces. Se presenta una sola vez. El total declarado es de 16 registros.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19956218 | ELIGARD® 22.5 MG (Tolmar Inc.) | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato (sin indicación detallada) |
+| 19956218 (cancelado) | ELIGARD® 22.5 MG | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato |
+| 20032905 (cancelado) | ELIGARD® 45 MG | Polvo estéril para reconstituir a suspensión inyectable | Leuprorelina acetato |
 
-También figura la forma "polvo estéril para reconstituir a suspensión inyectable".
+---
 
 ## Citotoxicidad
-
-Leuprolida se usa en cáncer de próstata, por lo que se incluye esta sección. No es un citotóxico convencional.
 
 | Item | Contenido |
 |------|------|
@@ -91,22 +89,31 @@ Leuprolida se usa en cáncer de próstata, por lo que se incluye esta sección. 
 | Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
+---
+
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Enfermedades asociadas a contraindicación según el grafo de conocimiento (no proviene del prospecto):** hipertensión, hiperglucemia, diabetes mellitus, cetoacidosis diabética, obesidad (incluida la monogénica), accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, infarto de miocardio, trombosis coronaria, hemoglobinopatías y obstrucción de las vías urinarias.
+- **Interacciones farmacológicas:** la consulta no identificó interacciones con otros fármacos; solo se registró la farmacología de la diana (receptor GnRH1).
+
+Consultar el prospecto para información de advertencias y contraindicaciones oficiales.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es de nivel L5: solo puntaje del modelo, sin estudios reales sobre osteoartritis. El único ensayo y la única publicación encontrados tratan de cáncer de próstata. Además, la supresión de esteroides sexuales sugiere más bien riesgo que beneficio para hueso y articulación.
+La predicción para osteoartritis se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura pertinente. Además, el mecanismo de supresión hormonal sugiere posibles efectos adversos óseos, y actualmente no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Evidencia directa (preclínica o clínica) de leuprolida u otros agonistas de GnRH en osteoartritis.
-- Una hipótesis mecanística plausible que explique el puntaje del modelo.
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones.
-- Completar los datos de mecanismo de acción (DrugBank).
+- Obtener y revisar el prospecto del INVIMA (advertencias y contraindicaciones).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Realizar una revisión de literatura y estudios preclínicos sobre GnRH y metabolismo del cartílago y hueso.
+- Evaluar el riesgo óseo y cardiometabólico de la supresión hormonal en pacientes con osteoartritis.
+- Aclarar la situación regulatoria, dado que los registros están cancelados.
+- Revisar la segunda predicción (pseudoacondroplasia, 99.69%), que tampoco cuenta con ensayos ni literatura y es igualmente especulativa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

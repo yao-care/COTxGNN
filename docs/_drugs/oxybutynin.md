@@ -2,7 +2,7 @@
 layout: default
 title: Oxybutynin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 310
+nav_order: 490
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,64 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Oxibutinina: De Vejiga Hiperactiva a Síndrome de Piernas Inquietas
+# Oxibutinina: De Indicación No Especificada en el Registro a Síndrome de Piernas Inquietas
 
 ## Resumen en Una Frase
 
-La oxibutinina es un antimuscarínico que se usa para tratar la vejiga hiperactiva.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de piernas inquietas**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, y el mecanismo propuesto es dudoso.
+Oxibutinina es un antiespasmódico musculotrópico con acción anticolinérgica moderada, utilizado clínicamente para la vejiga hiperactiva; su único registro sanitario en Colombia solo menciona "OXIBUTININA" como indicación.
+El modelo TxGNN predice que podría ser efectiva para el **síndrome de piernas inquietas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
+La predicción se basa únicamente en el modelo (nivel L5).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vejiga hiperactiva (según el uso clínico en los datos farmacológicos; el texto del registro INVIMA solo dice «OXIBUTININA») |
+| Indicación Original | No especificada en el registro (el texto indica solo "OXIBUTININA"); uso clínico conocido: vejiga hiperactiva |
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 99.74% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente principal. Según la información conocida, la oxibutinina es un antagonista muscarínico que actúa sobre los receptores M1 a M5 (genes CHRM1 a CHRM5) y tiene además un efecto antiespasmódico directo sobre el músculo liso. Su eficacia en la vejiga hiperactiva está establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, la oxibutinina actúa sobre los receptores muscarínicos M1 a M5 (CHRM1–CHRM5) y se usa en la vejiga hiperactiva.
 
-En este caso **no hay un vínculo mecanístico plausible** con el síndrome de piernas inquietas. Esta enfermedad se relaciona con las vías dopaminérgica y del hierro, y la oxibutinina no actúa sobre ninguna de las dos. Además, los anticolinérgicos sedantes pueden empeorar los síntomas, por lo que la dirección del efecto es incierta y posiblemente adversa. El puntaje tan alto probablemente refleja artefactos de la topología del grafo y no una relación farmacológica real.
+Un vínculo hipotético sería que su actividad antimuscarínica modulara el equilibrio colinérgico/dopaminérgico central, lo cual es **especulativo**. Además, en general se reporta que los fármacos anticolinérgicos empeoran, y no mejoran, los síntomas de piernas inquietas, lo que va en contra de la predicción.
 
-El modelo también predijo la gastroduodenitis (99.62%) y la enfermedad ulcerosa péptica (99.31%). El efecto antisecretor y antiespasmódico podría ser plausible en teoría, pero hoy los inhibidores de la bomba de protones y la erradicación de *H. pylori* hacen poco competitiva a la oxibutinina. Además, hay un reporte de que causa esofagitis por reflujo.
+Por lo tanto, el puntaje alto del modelo (basado en grafos) no cuenta con respaldo mecanístico ni clínico verificable.
+
+### Otras predicciones del modelo
+
+| Posición | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
+|------|------|------|------|------|
+| 2 | Gastroduodenitis | 99.62% | L5 | Hold |
+| 3 | Enfermedad ulcerosa péptica | 99.31% | L4 | Hold |
+
+Para la gastroduodenitis no hay ensayos ni publicaciones. Para la úlcera péptica solo existen estudios indirectos y antiguos (un estudio clínico de 1964, una revisión farmacológica de 1965 y un reporte de caso de 1990 sobre esofagitis por reflujo inducida por oxibutinina, que es una señal de seguridad en contra del uso gastrointestinal alto).
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para el síndrome de piernas inquietas.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Actualmente no hay literatura relacionada disponible para el síndrome de piernas inquietas.
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20099350 | SINORIN® (QUIRUPOS LTDA) | Tableta cubierta con película | OXIBUTININA (el registro no detalla la indicación) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20099350 | SINORIN® | Tableta cubierta con película | OXIBUTININA | Cancelado |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (no provienen del texto del prospecto): hipertensión, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hiperplasia prostática benigna, enfermedad coronaria, paro cardíaco súbito, enfermedad de conducción cardíaca, glaucoma de ángulo cerrado, miastenia gravis, colitis ulcerosa y enfermedad inflamatoria intestinal, hipertiroidismo (enfermedad de Graves, tirotoxicosis), hernia de hiato, íleo paralítico y obstrucción intestinal, obstrucción del cuello vesical, megacolon tóxico, reflujo gastroesofágico y esofagitis.
+- **Interacciones farmacológicas**: los datos compilados solo muestran la unión a los receptores muscarínicos M1–M5; no hay interacciones con otros fármacos con nivel de gravedad definido.
+- **Señal de seguridad relevante**: un reporte de caso (1990) asoció la oxibutinina con esofagitis por reflujo, por disminución del tono del esfínter esofágico inferior.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura. No existe un mecanismo plausible, y el efecto anticolinérgico sedante podría empeorar el síndrome de piernas inquietas.
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el perfil anticolinérgico del fármaco sugiere que podría empeorar el síndrome de piernas inquietas. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante).
-- Completar el mecanismo de acción desde DrugBank.
-- Realizar una búsqueda dirigida de literatura y ensayos sobre anticolinérgicos y síndrome de piernas inquietas, para confirmar si el efecto es adverso.
-- Si se quiere explorar otra indicación, priorizar la enfermedad ulcerosa péptica solo como análisis de seguridad. Allí la evidencia es histórica (nivel L4) y hay señal de reflujo.
+- Obtener el prospecto del INVIMA para completar la revisión de advertencias y contraindicaciones.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar la literatura sobre anticolinérgicos y síndrome de piernas inquietas, incluyendo evidencia de empeoramiento de síntomas.
+- Si se desea explorar alternativas, priorizar el análisis de las otras predicciones (gastroduodenitis, úlcera péptica), valorando la señal de seguridad de reflujo esofágico.
+- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

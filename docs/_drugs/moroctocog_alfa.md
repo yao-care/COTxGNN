@@ -2,7 +2,7 @@
 layout: default
 title: Moroctocog Alfa
 parent: Solo Predicción del Modelo (L5)
-nav_order: 291
+nav_order: 455
 evidence_level: L5
 indication_count: 8
 ---
@@ -29,93 +29,81 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Moroctocog alfa: De Coagulación con Factor VIII a Trastorno de Liberación Primaria de las Plaquetas
+# Moroctocog alfa: De Deficiencia de Factor VIII a Trastorno Primario de Liberación Plaquetaria
 
 ## Resumen en Una Frase
 
-Moroctocog alfa es un factor VIII de coagulación recombinante humano con el dominio B eliminado. En Colombia está registrado para la indicación "coagulación factor VIII", es decir, reposición de este factor.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de liberación primaria de las plaquetas**, con un puntaje muy alto (99.97%).
-Sin embargo, hay **0 publicaciones** y los **7 ensayos clínicos** encontrados no evalúan este fármaco ni esta enfermedad (todos con relevancia baja, grado C), por lo que la predicción carece de respaldo real.
-
----
+Moroctocog alfa es un factor VIII de coagulación recombinante (con dominio B eliminado), originalmente utilizado para reponer el factor VIII en la coagulación.
+El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Coagulación factor VIII |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
+| Indicación Original | Coagulación factores VIII |
+| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
 | Puntaje de Predicción TxGNN | 99.97% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 16 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información conocida, moroctocog alfa es un factor VIII recombinante con el dominio B eliminado. Su función es reponer un factor plasmático de la coagulación en personas con deficiencia de factor VIII, y esa eficacia es la que sustenta su uso aprobado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, moroctocog alfa es un factor VIII recombinante que sustituye al factor VIII en la vía intrínseca de la coagulación, y su uso en la deficiencia de factor VIII está respaldado por su registro sanitario en Colombia.
 
-Los trastornos de liberación de las plaquetas son defectos propios de los gránulos plaquetarios o de su secreción. El factor VIII no corrige estos defectos, así que **no existe una relación mecanística directa** entre el fármaco y la nueva indicación.
+Los trastornos de liberación plaquetaria son defectos de la función de los gránulos plaquetarios, no una deficiencia de factor VIII. Por ello, **no existe una justificación mecanística clara**. El puntaje muy alto de TxGNN (99.97%) proviene de una predicción basada en grafos, probablemente influida por nodos de red compartidos relacionados con la hemostasia.
 
-El puntaje tan alto (0.9997) probablemente refleja la cercanía en el grafo de conocimiento a través de nodos como "trastorno hemorrágico", y no una coincidencia biológica real. La predicción debe leerse como una señal del modelo, no como una hipótesis terapéutica sólida.
+Otras indicaciones predichas por el modelo, todas con evidencia de nivel L5 y sin ensayos ni literatura:
 
----
+| Indicación predicha | Puntaje TxGNN | Plausibilidad mecanística |
+|------|------|------|
+| Pseudoenfermedad de von Willebrand | 99.97% | Vínculo teórico por el eje VWF-FVIII, pero el defecto primario es plaquetario (GPIbα) |
+| Trombastenia de Glanzmann | 99.96% | Débil: el defecto es de la integrina αIIbβ3; el tratamiento estándar no es FVIII |
+| Deficiencia adquirida de factores de coagulación | 99.88% | La más plausible (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizarían el producto y la categoría es muy heterogénea |
+| Síndrome de Scott | 99.86% | Especulativa: el defecto de exposición de fosfatidilserina no se corrige con más FVIII |
+| Diátesis hemorrágica por defecto del receptor de colágeno | 99.73% | Sin justificación directa: defecto independiente de la cascada dependiente de FVIII |
+| Trastorno hemorrágico por trombocitopenia constitucional | 99.72% | Sin justificación: la hemorragia se debe a déficit de plaquetas |
+| "Flood factor deficiency" | 99.11% | Entidad no reconocida; posible error de datos u ontología, debe verificarse |
 
 ## Evidencia de Ensayos Clínicos
 
-Los ensayos encontrados corresponden a otros productos o a poblaciones sin relación con los trastornos plaquetarios. Ninguno estudia moroctocog alfa.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT04161495](https://clinicaltrials.gov/study/NCT04161495) | Fase 3 | Completado | 159 | Eficacia, seguridad y farmacocinética de otro FVIII (rFVIIIFc-VWF-XTEN, BIVV001) en hemofilia A grave, pacientes ≥12 años. No incluye pacientes con trastornos plaquetarios. |
-| [NCT04759131](https://clinicaltrials.gov/study/NCT04759131) | Fase 3 | Completado | 74 | Seguridad de BIVV001 en niños <12 años con hemofilia A grave. Producto y población distintos. |
-| [NCT01913405](https://clinicaltrials.gov/study/NCT01913405) | Fase 3 | Completado | 30 | FVIII pegilado (BAX 855) en hemofilia A grave sometida a cirugía u otros procedimientos invasivos. Otro producto y otra indicación. |
-| [NCT07343687](https://clinicaltrials.gov/study/NCT07343687) | N/D | Aún sin reclutar | 80 | Estudio observacional de perfiles clínico-hematológicos y de coagulación en leucemia mieloide aguda con quimioterapia de inducción. Sin relación con el fármaco. |
-| [NCT07400848](https://clinicaltrials.gov/study/NCT07400848) | N/D | Reclutando | 200 | Evaluación de laboratorio y síntomas en el síndrome posvacunación contra COVID-19. Sin relación. |
-| [NCT07329036](https://clinicaltrials.gov/study/NCT07329036) | N/D | Reclutando | 25 | Soporte hepático artificial (DPMAS + recambio plasmático) en insuficiencia hepática aguda sobre crónica y su efecto en la coagulación primaria. Sin relación. |
-| [NCT07439939](https://clinicaltrials.gov/study/NCT07439939) | N/D | Reclutando | 45 | Exploración de la hemostasia sistémica y portal en pacientes con derivación portosistémica intrahepática transyugular (TIPS). Sin relación. |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-Se muestran los registros únicos, porque el mismo registro aparece repetido en los datos. El paquete de evidencia lista solo 5 filas de los 16 registros totales.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20046519 | XYNTHA® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20005016 | XYNTHA® 500 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20046518 | XYNTHA® 1000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20005015 | XYNTHA® 250 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20046519 | XYNTHA® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factor VIII |
-| 20005016 | XYNTHA® 500 UI polvo liofilizado para solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factor VIII |
-
-Titular de ambos registros: PFIZER S.A.S.
-
----
+Todos los registros pertenecen a PFIZER S.A.S. y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
 
----
+En la consulta de interacciones farmacológicas no se encontraron interacciones registradas.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5). No hay ensayos ni publicaciones que evalúen moroctocog alfa en trastornos de liberación plaquetaria, y el factor VIII no corrige ese defecto. Los ensayos de Fase 3 encontrados pertenecen a otros productos y a hemofilia A, así que no cuentan como respaldo.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la fisiopatología de los trastornos plaquetarios no responde a la reposición de factor VIII. Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local.
 
 **Para avanzar se necesita:**
-- Verificar si el puntaje proviene de un artefacto del grafo (proximidad con nodos de "trastorno hemorrágico") y no de una relación biológica real.
-- Completar el mecanismo de acción desde DrugBank y descargar el prospecto del INVIMA para revisar advertencias y contraindicaciones, que aún son un vacío bloqueante para el tamizaje de seguridad.
-- Priorizar otras predicciones del mismo fármaco. Las candidatas plaquetarias (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, defecto del receptor de colágeno) tampoco tienen respaldo mecanístico. La deficiencia adquirida de factores de coagulación (hemofilia A adquirida) es la única con lógica de reposición de FVIII. Aun así, los inhibidores neutralizan el FVIII humano, y la evidencia de Fase 2/3 corresponde al análogo porcino (susoctocog alfa), que no es extrapolable.
-- Verificar el término "flood factor deficiency" (rango 8), posible error de nomenclatura u ontología, antes de cualquier evaluación.
+- Obtener y analizar el prospecto (advertencias y contraindicaciones) desde INVIMA para completar la evaluación de seguridad.
+- Completar los datos del mecanismo de acción del fármaco.
+- Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad.
+- Si se desea explorar alguna línea, priorizar un subtipo específico de deficiencia adquirida de factores de coagulación y verificar la identidad de la entidad "flood factor deficiency".
+- Realizar una búsqueda dirigida de literatura y ensayos para las indicaciones predichas, ya que no se aportó evidencia clínica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

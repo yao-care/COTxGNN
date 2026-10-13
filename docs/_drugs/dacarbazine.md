@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 146
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 190
+evidence_level: L4
 indication_count: 1
 ---
 
 # Dacarbazine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,95 +29,113 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Dacarbazina: De Indicación Original No Especificada en el Registro a Neoplasia del Tracto Aerodigestivo Superior
+# Dacarbazina: De Indicación No Especificada (Registro INVIMA) a Neoplasia del Tracto Aerodigestivo Superior
 
 ## Resumen en Una Frase
 
-Dacarbazina es un agente alquilante antineoplásico comercializado en Colombia en polvo liofilizado inyectable. Los registros sanitarios disponibles solo consignan el nombre del principio activo y no detallan la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aerodigestivo superior**, pero solo hay **1 ensayo clínico** indirecto (con temozolomida, terminado) y **20 publicaciones** de relevancia limitada. Ninguna evalúa dacarbazina directamente en esta indicación.
+Dacarbazina es un agente alquilante citotóxico cuyos registros sanitarios en Colombia figuran solo con el nombre del principio activo, sin una indicación detallada.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del tracto aerodigestivo superior**,
+pero actualmente no hay ensayos clínicos registrados y la literatura recuperada es **indirecta** (20 publicaciones, ninguna con evidencia directa en esta población).
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro INVIMA solo consigna «DACARBAZINA») |
+| Indicación Original | No especificada en el registro (el texto aprobado solo indica "Dacarbazina") |
 | Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior |
 | Puntaje de Predicción TxGNN | 99.26% |
-| Nivel de Evidencia | L4 (solo respaldo indirecto a nivel de clase; sin estudios directos con dacarbazina) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 6 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro. Según la farmacología general, dacarbazina es un agente alquilante que metila el ADN. Se activa en el hígado (mediante CYP) a MTIC, el mismo metabolito activo que la temozolomida forma de manera espontánea. Este es el vínculo mecanístico que sustenta la predicción. Esta explicación es una inferencia y no proviene del registro proporcionado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, dacarbazina es un agente alquilante: un profármaco que se activa a MTIC y metila el ADN. Su eficacia está establecida en melanoma y linfoma de Hodgkin (esquema ABVD), y hay reportes en tumores neuroendocrinos como el carcinoma medular de tiroides y el paraganglioma.
 
-Ese vínculo lleva a un ensayo de Fase 2 con temozolomida en cánceres aerodigestivos avanzados (cabeza y cuello, esófago, pulmón, colorrectal) seleccionados por metilación del promotor de MGMT. Si dacarbazina actuara en este contexto, su actividad probablemente dependería del estado de MGMT.
+La relación con la nueva indicación es **indirecta y dependiente de la histología**. La literatura recuperada describe tumores sensibles a dacarbazina que pueden surgir o comprometer la cabeza y el cuello: melanoma mucoso, linfoma de Hodgkin de cabeza y cuello y paraganglioma de cabeza y cuello. No hay evidencia de un efecto directo sobre el carcinoma escamocelular, el cáncer dominante del tracto aerodigestivo superior.
 
-Hay razones para ser cautelosos. El carcinoma escamoso de cabeza y cuello, la histología dominante en esta indicación, no se reconoce como un tumor sensible a alquilantes. Los pocos subtipos con respuesta en la literatura son tumores raros de tipo neuroendocrino o paraganglioma. El puntaje de 99.26% es una predicción computacional y no tiene respaldo de datos clínicos directos con dacarbazina.
+El puntaje de 0.993 es solo una predicción computacional y no está respaldado por ningún ensayo en esta indicación. Debe interpretarse con cautela.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00423150](https://clinicaltrials.gov/study/NCT00423150) | Fase 2 | Terminado | 86 | Temozolomida (no dacarbazina) en cánceres aerodigestivos avanzados, colorrectal, pulmón no microcítico, cabeza y cuello y esófago, seleccionados por metilación del promotor de MGMT. Apoyo indirecto a nivel de clase. No hay resultados de eficacia en el registro. |
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+---
 
 ## Evidencia de Literatura
 
-De las 20 publicaciones recuperadas, se listan las más relevantes. Todas tienen relevancia aún pendiente de revisión.
+Se priorizan los estudios más relevantes; ninguno evalúa directamente dacarbazina en neoplasia del tracto aerodigestivo superior.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [23443801](https://pubmed.ncbi.nlm.nih.gov/23443801/) | 2013 | Fase 2 (temozolomida) | Mol Cancer Ther | Estudio NCT00423150: evalúa si la metilación de MGMT predice la respuesta a temozolomida en cáncer aerodigestivo y colorrectal avanzado. El resumen disponible no incluye resultados. |
-| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Estudio clínico | Ann Oncol | Dacarbazina con 5-fluorouracilo en carcinoma medular de tiroides avanzado, un tumor neuroendocrino. Es la única publicación con dacarbazina como agente de estudio, pero no es la indicación predicha. |
-| [8346929](https://pubmed.ncbi.nlm.nih.gov/8346929/) | 1993 | Revisión | Gan To Kagaku Ryoho | Quimioterapia del angiosarcoma de cabeza y cuello, incluido el esquema CYVADIC (que contiene DTIC, es decir dacarbazina). Pronóstico descrito como muy malo. |
-| [17987262](https://pubmed.ncbi.nlm.nih.gov/17987262/) | 2008 | Fase 2 (temozolomida) | J Neurooncol | Vinorelbina con temozolomida intensiva en metástasis cerebrales recurrentes. Apoyo indirecto. |
-| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Cohorte (un centro) | Ear Nose Throat J | Seis pacientes con paraganglioma maligno de cabeza y cuello: características clínicas, genéticas y opciones de tratamiento. |
-| [25772801](https://pubmed.ncbi.nlm.nih.gov/25772801/) | 2015 | Revisión | J Clin Neurosci | Temozolomida en tumores hipofisarios agresivos, con resultados prometedores. Apoyo indirecto a nivel de clase. |
-| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Revisión | Clin Oncol | Carcinoma medular de tiroides: aspectos generales y tratamiento. |
-| [34705104](https://pubmed.ncbi.nlm.nih.gov/34705104/) | 2022 | Revisión | J Cancer Res Clin Oncol | Carga global de cánceres relacionados con el virus de Epstein-Barr. Contexto epidemiológico, sin datos de dacarbazina. |
-| [11163509](https://pubmed.ncbi.nlm.nih.gov/11163509/) | 2001 | Serie de casos | Int J Radiat Oncol Biol Phys | Radioterapia del estesioneuroblastoma, tumor intranasal raro. |
-| [3153227](https://pubmed.ncbi.nlm.nih.gov/3153227/) | 1986 | Reporte de caso | Pediatr Hematol Oncol | Neuroblastoma olfatorio en un niño de 2 años, tratado con radiación y quimioterapia combinada. |
+| [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | ECA Fase 3 | JAMA Oncol | Toripalimab vs dacarbazina como primera línea en melanoma acral avanzado (dacarbazina como comparador; población no aerodigestiva) |
+| [31621203](https://pubmed.ncbi.nlm.nih.gov/31621203/) | 2019 | Observacional prospectivo | Cancer Med | Radioterapia con iones de carbono más quimioterapia DAV (dacarbazina, nimustina, vincristina) en melanoma mucoso de cabeza y cuello, 21 pacientes |
+| [7826911](https://pubmed.ncbi.nlm.nih.gov/7826911/) | 1994 | Serie de casos | Ann Oncol | Dacarbazina más 5-fluorouracilo en carcinoma medular de tiroides avanzado |
+| [20564093](https://pubmed.ncbi.nlm.nih.gov/20564093/) | 2010 | Cohorte retrospectiva | Cancer | Características y desenlaces del linfoma de Hodgkin en sitios ganglionares y extraganglionares de cabeza y cuello |
+| [34654328](https://pubmed.ncbi.nlm.nih.gov/34654328/) | 2024 | Cohorte | Ear Nose Throat J | Paragangliomas malignos de cabeza y cuello: experiencia de una sola institución (6 pacientes) |
+| [11815960](https://pubmed.ncbi.nlm.nih.gov/11815960/) | 2002 | Preclínico | Cancer | Combinación de radioinmunoterapia y quimioterapia en xenoinjertos de carcinoma medular de tiroides; dacarbazina mostró la mayor actividad individual |
+| [20627492](https://pubmed.ncbi.nlm.nih.gov/20627492/) | 2010 | Revisión | Clin Oncol | Revisión sobre carcinoma medular de tiroides |
+| [12113649](https://pubmed.ncbi.nlm.nih.gov/12113649/) | 2002 | Revisión | Am J Clin Dermatol | Conceptos actuales en el manejo del melanoma |
+| [20138008](https://pubmed.ncbi.nlm.nih.gov/20138008/) | 2010 | Revisión | Transfus Apher Sci | Linfoma de Hodgkin asociado a VIH, con frecuente compromiso extraganglionar de cabeza y cuello |
+| [12845209](https://pubmed.ncbi.nlm.nih.gov/12845209/) | 2003 | Serie de casos | Onkologie | Metástasis mucosas de melanoma maligno (esófago, estómago, vejiga y amígdala palatina) |
+
+---
 
 ## Información de Mercado en Colombia
 
-Se reportan 20 registros sanitarios en total. Los datos entregados contienen solo 3 registros distintos, todos de polvo liofilizado para reconstituir a solución inyectable. El texto de indicación aprobada de cada uno solo consigna «Dacarbazina».
+Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20211561 | NEGORIX® 200 MG (Korea United Pharm. Inc.) | Polvo liofilizado para reconstituir a solución inyectable | No especificada (solo consigna «Dacarbazina») |
-| 20080268 | CARBAVEN 200 (Seven Pharma Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | No especificada (solo consigna «Dacarbazina») |
-| 19961319 | DACARBAZINA 200 MG (Blau Farmacéutica Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | No especificada (solo consigna «Dacarbazina») |
+| 20211561 | NEGORIX 200 MG | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+| 20080268 | CARBAVEN 200 | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+| 19961319 | DACARBAZINA 200 MG (Blau Farmacéutica) | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+| 224892 | DACARBAZINE (Medac GmbH) | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+| 20194844 | TREXTECH 200 MG | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante que metila el ADN) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar el prospecto. En general, en citotóxicos se vigilan hemograma y función hepática y renal. |
-| Protección en Manejo | Aplicar las normas de manejo de fármacos citotóxicos (práctica general) |
+| Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante) |
+| Riesgo de Mielosupresión | Alto: los antecedentes de leucopenia, trombocitopenia y anemia figuran entre las contraindicaciones del grafo de conocimiento |
+| Clasificación de Emetogenicidad | Alta (según la categoría general del fármaco) |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones relacionadas (grafo de conocimiento TxGNN, no texto de prospecto)**: enfermedad renal, piouréter, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, anemia (incluida la macrocítica), leucopenia, trombosis de la vena hepática y síndrome de Budd-Chiari.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones. Las clasificadas son naltrexona (moderada) y levofloxacino (menor). Otras, como pantoprazol, morfina, metformina, omeprazol, palonosetrón, prednisona, simvastatina, aprepitant y ondansetrón, no tienen nivel de gravedad definido.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje TxGNN es alto (99.26%), pero no hay ningún estudio directo de dacarbazina en esta indicación. El único ensayo relacionado usa temozolomida, fue terminado y no reporta resultados de eficacia. Además, la histología dominante (carcinoma escamoso de cabeza y cuello) no es sensible a alquilantes.
+La predicción se basa solo en el modelo (L4), sin ensayos clínicos y con literatura indirecta, centrada en melanoma, linfoma de Hodgkin y tumores neuroendocrinos. El carcinoma escamocelular, que predomina en esta región, no está respaldado. Además, no hay registros vigentes en Colombia y falta información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones, un vacío bloqueante para el tamizaje de seguridad.
-- Obtener el mecanismo de acción y las indicaciones originales desde DrugBank.
-- Revisar los resultados completos de NCT00423150 (PMID 23443801) para evaluar si el efecto de clase es replicable con dacarbazina.
-- Buscar evidencia directa de dacarbazina en subtipos histológicos específicos (neuroendocrinos, paragangliomas) y considerar el estado de MGMT como criterio de selección.
-- Aclarar la indicación aprobada en cada registro sanitario, que hoy solo consigna el nombre del principio activo.
-
-*Los resultados son solo de referencia para investigación y no constituyen consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
+- Completar el mecanismo de acción desde DrugBank.
+- Definir las histologías específicas del tracto aerodigestivo superior donde dacarbazina podría ser relevante (p. ej., melanoma mucoso).
+- Buscar estudios clínicos directos en esta población.
+- Aclarar la viabilidad regulatoria y comercial, dado que todos los registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

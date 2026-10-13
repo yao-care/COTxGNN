@@ -2,7 +2,7 @@
 layout: default
 title: Lorazepam
 parent: Solo Predicción del Modelo (L5)
-nav_order: 263
+nav_order: 410
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,65 +29,101 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorazepam: De Benzodiacepina Ansiolítica a Neoplasia del Nervio Trigémino
+# Lorazepam: De Indicación No Especificada a Neoplasia del Nervio Trigémino
 
 ## Resumen en Una Frase
 
-Lorazepam es una benzodiacepina que actúa sobre el receptor GABA-A. El registro sanitario colombiano no detalla su indicación original, y su uso clásico es sintomático (ansiedad, convulsiones).
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Es solo una señal del grafo de conocimiento.
+Lorazepam es una benzodiazepina registrada en Colombia (productos Ativan), cuyo texto de indicación aprobada solo menciona el nombre del principio activo. El modelo TxGNN predice como primera opción **neoplasia del nervio trigémino**, pero sin ensayos clínicos ni publicaciones que la respalden (nivel de evidencia L5). Entre las 10 predicciones evaluadas, la de **insomnio** es la mejor respaldada, con 18 publicaciones, aunque corresponde a un uso ya establecido de la clase y no a un reposicionamiento novedoso.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto de indicación dice solo «LORAZEPAM») |
+| Indicación Original | No especificada en el registro (el texto aprobado solo indica "LORAZEPAM") |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 99.87% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lorazepam es un modulador alostérico positivo del receptor GABA-A. Aumenta la conductancia de cloruro y produce efectos sedantes, ansiolíticos y anticonvulsivantes. El campo de mecanismo de acción (MOA) del Evidence Pack no está disponible, así que esta descripción proviene del análisis de racionalidad de la prediccion.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, lorazepam es un modulador alostérico positivo del receptor GABA-A, con efectos ansiolíticos, sedantes y anticonvulsivantes.
 
-No se identificó un mecanismo antitumoral plausible que conecte lorazepam con un tumor del nervio trigémino. El puntaje alto (0.9987) refleja únicamente una asociación en el grafo. No hay estudios que la respalden. Cualquier uso en esta condición sería, como máximo, sintomático (ansiedad, convulsiones) y no modificaría la enfermedad.
+**Para la neoplasia del nervio trigémino no se identifica una justificación mecanística.** Lorazepam no tiene actividad antineoplásica conocida. El puntaje tan alto (99.87%) parece reflejar la proximidad en el grafo de conocimiento con nodos neurológicos o relacionados con el dolor, no un efecto terapéutico demostrado. No hay ensayos ni literatura que lo apoyen.
 
-La similitud entre la indicación original y la nueva no está evaluada.
+Otras predicciones del modelo tienen una base mecanística más plausible:
+
+- **Insomnio** (puntaje 99.80%, nivel L3): potenciar la señal GABA-A acorta la latencia del sueño y las benzodiazepinas son una clase hipnótica establecida. Sin embargo, las guías actuales desaconsejan su uso prolongado por dependencia, tolerancia y deterioro cognitivo.
+- **Epilepsias reflejas** (convulsiones de lectura, por pensamiento, por micción, audiogénicas, epilepsia de sobresalto, entre otras): la potenciación GABAérgica es un mecanismo anticonvulsivante plausible, y lorazepam es tratamiento de primera línea en estado epiléptico. No obstante, la evidencia es indirecta y extrapolada de las convulsiones en general.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados.
+Actualmente no hay ensayos clínicos relacionados registrados para ninguna de las indicaciones predichas.
+
+---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Para la indicación principal (neoplasia del nervio trigémino) no hay literatura disponible. A continuación se presenta la literatura más relevante de la segunda predicción, **insomnio**, la mejor respaldada:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [3280615](https://pubmed.ncbi.nlm.nih.gov/3280615/) | 1988 | Ensayo clínico comparativo (cruzado, doble ciego) | J Clin Pharmacol | Lorazepam 2 mg frente a flurazepam 30 mg durante 3 semanas en 8 insomnes crónicos; lorazepam obtuvo mejores resultados en la mayoría de los parámetros de sueño |
+| [10220122](https://pubmed.ncbi.nlm.nih.gov/10220122/) | 1999 | Estudio clínico | Int Clin Psychopharmacol | Lorazepam 0.5 mg tres veces al día frente a 1.5 mg al acostarse en insomnio primario, con énfasis en los síntomas diurnos |
+| [30625122](https://pubmed.ncbi.nlm.nih.gov/30625122/) | 2018 | Revisión | Med Lett Drugs Ther | Revisión de fármacos para el insomnio crónico |
+| [35087274](https://pubmed.ncbi.nlm.nih.gov/35087274/) | 2022 | Revisión | J Multidiscip Healthc | Eficacia, seguridad e interacciones de las terapias para el insomnio en pacientes con COVID-19 |
+| [23330992](https://pubmed.ncbi.nlm.nih.gov/23330992/) | 2013 | Revisión (farmacocinética) | Expert Opin Drug Metab Toxicol | Farmacocinética de los fármacos ansiolíticos |
+| [36692463](https://pubmed.ncbi.nlm.nih.gov/36692463/) | 2023 | Metaanálisis/observacional | Acta Pharm | Efectos de los tranquilizantes en ancianos con enfermedades crónicas no transmisibles |
+
+Para las epilepsias reflejas, la literatura disponible consiste sobre todo en revisiones y guías sobre estado epiléptico y estudios preclínicos en ratas sobre abstinencia de lorazepam. Ninguna aborda directamente estas indicaciones específicas. Destaca el ensayo RAMPART ([22335736](https://pubmed.ncbi.nlm.nih.gov/22335736/), *N Engl J Med*, 2012), que comparó midazolam intramuscular con tratamiento intravenoso en estado epiléptico prehospitalario y es aplicable a convulsiones en general, no a convulsiones reflejas.
+
+---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19902389 | ATIVAN 2 MG TABLETAS (PFIZER S.A.S.) | Tableta | LORAZEPAM (sin indicación detallada) |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Cancelado |
+| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Cancelado |
 
-El Evidence Pack informa 20 registros en total, pero los 5 listados corresponden al mismo registro (19902389) repetido. Por eso se muestra una sola fila.
+Ambos registros pertenecen a PFIZER S.A.S. y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no texto de prospecto): insuficiencia hepática y enfermedad hepática, encefalopatía y coma hepáticos, enfermedad renal, enfermedad de la vesícula biliar, porfiria (hereditaria y de metabolismo de porfirinas), glaucoma de ángulo abierto y de ángulo cerrado, síndrome de apnea del sueño (incluida la obstructiva), síndrome de hipoventilación central congénita, insuficiencia respiratoria, trastornos relacionados con sustancias y dependencia, así como trastornos de ansiedad, neuróticos y distímicos.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Las más relevantes:
+  - **Mayores**: morfina y morfina liposomal (depresión del sistema nervioso central y respiratoria).
+  - **Moderadas**: bupropión, dronabinol, nabilona, teduglutida, metoclopramida, opio y sibutramina.
+  - **Menores**: antiácidos como óxido, hidróxido y carbonato de magnesio, hidróxido de aluminio, carbonato de calcio y magaldrato.
+- **Señales adicionales de la literatura**: riesgo de toxicidad por propilenglicol con formulaciones parenterales, y dependencia y síndrome de abstinencia (con riesgo de convulsiones) en estudios preclínicos.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para neoplasia del nervio trigémino es L5: no hay ensayos, no hay literatura y no existe un mecanismo antitumoral plausible. No se justifica avanzar.
+La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto parece un artefacto del grafo. Además, no hay registros sanitarios vigentes en Colombia y los datos de seguridad del prospecto no están disponibles.
 
 **Para avanzar se necesita:**
-- Evidencia preclínica o clínica que vincule la modulación GABA-A con este tumor. Hoy no existe.
-- Prospecto de INVIMA con advertencias y contraindicaciones, que es una brecha bloqueante para el tamizaje de seguridad.
-- Datos de MOA verificados desde DrugBank.
-- Considerar otras predicciones del mismo modelo con mejor respaldo. **Insomnio** (puntaje 99.80%) tiene nivel L2 y recomendación *Proceed with Guardrails*, con dos estudios clínicos comparativos (lorazepam vs. flurazepam, 1988; lorazepam TID, 1999). Las salvaguardas serían uso corto, riesgo de tolerancia y dependencia, sedación al día siguiente y caídas en adultos mayores. Varias predicciones de convulsiones reflejas (lectura, sobresalto, micción) están en L4 como preguntas de investigación.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío crítico que impide el tamizaje de seguridad.
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Si se desea explorar alternativas, tratar **insomnio** como pregunta de investigación (nivel L3, sin ensayos registrados y con uso a largo plazo desaconsejado), y las **epilepsias reflejas** (nivel L4) como extrapolación desde el uso en convulsiones generales, con medidas de control para depresión respiratoria e interacciones.
+- Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación.
+- Definir la ruta de administración requerida para cada indicación; actualmente solo existe la forma oral (tableta).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

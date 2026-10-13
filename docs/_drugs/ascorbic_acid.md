@@ -2,7 +2,7 @@
 layout: default
 title: Ascorbic Acid
 parent: Solo Predicción del Modelo (L5)
-nav_order: 58
+nav_order: 68
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,13 +29,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido ascórbico: De Suplementación con vitamina C a Malformación esofágica no sindrómica
+# Ácido ascórbico: De Ácido ascórbico (vitamina C) a Malformación esofágica no sindrómica
 
 ## Resumen en Una Frase
 
-El ácido ascórbico (vitamina C) se comercializa en Colombia como suplemento de vitamina C en tabletas masticables.
-El modelo TxGNN predice que podría ser efectivo para **malformación esofágica no sindrómica**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+El ácido ascórbico (vitamina C) se utilizaba originalmente como suplemento vitamínico, con registros sanitarios en Colombia para tabletas masticables.
+El modelo TxGNN predice que podría ser efectivo para **malformación esofágica no sindrómica**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
+
+---
 
 ## Resumen Rápido
 
@@ -45,47 +46,68 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Malformación esofágica no sindrómica |
 | Puntaje de Predicción TxGNN | 99.96% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido ascórbico es una vitamina esencial, antioxidante y cofactor en la síntesis de colágeno. Su eficacia como suplemento de vitamina C está bien establecida, pero no hay un vínculo mecanístico documentado con la nueva indicación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el ácido ascórbico es un antioxidante hidrosoluble y cofactor de la síntesis de colágeno. Su eficacia está comprobada en la prevención y el tratamiento de la deficiencia de vitamina C, pero no en malformaciones congénitas.
 
-Una malformación esofágica no sindrómica es un defecto estructural congénito. No se identifica ningún mecanismo plausible por el cual el ácido ascórbico pueda corregirlo o tratarlo. El puntaje tan alto (99.96%) probablemente es un artefacto de la propagación en el grafo de conocimiento y no una señal biológica real. Por eso esta predicción no debe interpretarse como una hipótesis terapéutica sólida.
+El análisis de los datos compilados no identificó un fundamento mecanístico para esta predicción. Una malformación estructural congénita del esófago no se corrige plausiblemente con una vitamina antioxidante. El puntaje alto del modelo (99.96%) refleja una asociación calculada a partir de un grafo de conocimiento, no una evidencia clínica ni experimental.
+
+Por ello, esta predicción debe considerarse una señal computacional sin respaldo, y no una hipótesis terapéutica lista para evaluarse.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20265640 | VITAMINA C 500 MG (PROCAPS S.A.) | Tableta masticable | Ácido ascórbico (vitamina C) |
+| 20265640 | VITAMINA C 500 MG (PROCAPS S.A.) | Tableta masticable | Ácido ascórbico (vitamina C) — registro cancelado |
+| 20024687 | DEVIT-C® (LABQUIFAR LTDA.) | Tableta masticable | Ácido ascórbico (vitamina C) — registro cancelado |
 
-*Nota: el paquete de datos informa 20 registros en total, pero los cinco listados corresponden al mismo registro (20265640), por lo que se muestra una sola vez.*
+Ninguno de los dos registros está vigente actualmente.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento asocia el fármaco con contraindicaciones en enfermedad renal, anuria, nefrocalcinosis, hiperoxaluria primaria, hemocromatosis hereditaria, anemia falciforme, diabetes mellitus, cetoacidosis diabética, enfermedad hepática, úlcera péptica, hipertensión, epilepsia, lupus eritematoso sistémico, artritis reumatoide, esclerosis múltiple, sarcoidosis, hipercalcemia, hiperparatiroidismo, trastornos de la coagulación y otras condiciones. Deben verificarse contra la información oficial del producto.
+- **Interacciones farmacológicas:** se identificaron 25 interacciones en total; las 20 siguientes son las consultadas.
+  - **Moderadas:** anfetamina, dextroanfetamina, lisdexanfetamina, metanfetamina, benzfetamina, hidróxido de aluminio, bortezomib y deferoxamina.
+  - **Leves:** paclitaxel, cisplatino, doxorrubicina (incluida la liposomal), pseudoefedrina, efedrina (incluida la nasal), etinilestradiol, flecainida, flufenazina, indinavir y mexiletina.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5), y no existe un mecanismo plausible entre la vitamina C y una malformación congénita estructural. El puntaje alto parece un artefacto del modelo.
+La predicción para malformación esofágica no sindrómica no tiene ensayos clínicos ni literatura, y no existe un mecanismo plausible que la sustente. Además, el fármaco no cuenta actualmente con registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que hoy es una brecha bloqueante para el tamizaje de seguridad.
-- Obtener el mecanismo de acción desde DrugBank.
-- Revisar las otras predicciones del mismo fármaco antes de invertir esfuerzo en esta. Por ejemplo, "enfermedad esofágica" (puntaje 99.90%) tiene ensayos y literatura, aunque con una señal de seguridad en modelos animales (mayor carcinogénesis esofágica con ácido ascórbico más nitrito de sodio). "Deficiencia de vitaminas" es un uso estándar ya establecido, no un reposicionamiento real.
+- Una hipótesis mecanística creíble y estudios preclínicos que la respalden, sin los cuales no se justifica avanzar.
+- Los datos de mecanismo de acción y las advertencias y contraindicaciones del prospecto, que no están disponibles.
+- Un registro sanitario vigente, o un nuevo trámite ante INVIMA, si se quisiera una vía de uso en Colombia.
+- Priorizar otras indicaciones predichas para este mismo fármaco, que tienen mayor respaldo que la malformación esofágica:
+  - **Trastorno por deficiencia de vitaminas:** nivel L3, con recomendación "Proceed with Guardrails".
+  - **Lesión (injury):** nivel L2, con 15 ensayos clínicos, incluidos varios de Fase 2 completados. Se señala riesgo de nefropatía por oxalato con dosis altas por vía intravenosa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

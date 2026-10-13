@@ -2,7 +2,7 @@
 layout: default
 title: Ritonavir
 parent: Evidencia Moderada (L3-L4)
-nav_order: 347
+nav_order: 567
 evidence_level: L4
 indication_count: 3
 ---
@@ -29,79 +29,99 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Ritonavir: De Terapia Antirretroviral con Atazanavir + Ritonavir a Infección por el Virus de Inmunodeficiencia Simia
+# Ritonavir: De Combinaciones Antirretrovirales para VIH a Infección por Virus de Inmunodeficiencia Simia
 
 ## Resumen en Una Frase
 
-Ritonavir es un inhibidor de la proteasa del VIH-1 que también se usa como potenciador farmacocinético (inhibe la enzima CYP3A4). En Colombia figura en un registro sanitario como parte de la combinación atazanavir + ritonavir.
-El modelo TxGNN predice que podría ser efectivo para la **infección por el virus de inmunodeficiencia simia (SIV)**, pero hay **0 ensayos clínicos** y solo **12 publicaciones** preclínicas (estudios en animales y en laboratorio) sobre esta indicación.
+Ritonavir es un inhibidor de la proteasa del VIH-1 que se utiliza como potenciador farmacocinético, y en Colombia sus registros sanitarios corresponden a combinaciones con atazanavir o darunavir.
+El modelo TxGNN predice que podría ser efectivo para la **infección por virus de inmunodeficiencia simia (SIV)**, con **0 ensayos clínicos** y **10 publicaciones** (en su mayoría estudios preclínicos en macacos y estudios in vitro) que actualmente respaldan esta dirección.
+Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye una nueva indicación terapéutica en humanos.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Atazanavir + ritonavir (texto del registro; no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Infección por el virus de inmunodeficiencia simia (SIV) |
+| Indicación Original | Atazanavir + ritonavir (combinaciones antirretrovirales; también ritonavir y darunavir) |
+| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia (SIV) |
 | Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un potenciador farmacocinético que inhibe CYP3A4. Su uso en infección por VIH está establecido y, mecanísticamente, podría ser aplicable al SIV.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un inhibidor de CYP3A4, usado como potenciador farmacocinético de otros antirretrovirales. Su uso en VIH-1 está establecido y en Colombia se registró en combinación con atazanavir y darunavir.
 
-El SIV es un lentivirus muy cercano al VIH. Un estudio in vitro (PMID 12709355) encontró que el SIVmac239 es inhibido por ritonavir, con una concentración efectiva del 50% de unos 13 nM. Para el VIH-1 el valor fue de unos 25 nM. Esto sugiere que la proteasa del SIV es sensible a este tipo de fármacos.
+El SIV es un lentivirus muy cercano al VIH y posee una proteasa homóloga, por lo que la actividad de los inhibidores de proteasa es plausible. Un estudio in vitro mostró que el SIVmac239 es inhibido por ritonavir con una concentración efectiva 50% de aproximadamente 13 nM, frente a 25 nM para el VIH-1 (PMID 12709355). También existen estudios en macacos con regímenes antirretrovirales combinados, uno de ellos con lopinavir/ritonavir (PMID 12951220).
 
-El vínculo es plausible pero indirecto. Ninguna de las publicaciones disponibles demuestra eficacia de ritonavir en animales infectados con SIV. Además, el SIV es un patógeno de primates no humanos y no tiene indicación clínica en humanos. Por eso su valor práctico principal es como modelo animal de investigación.
+Es importante interpretar esto con cautela: el SIV es un modelo animal del VIH, de modo que la evidencia respalda la relevancia del modelo y no una nueva indicación en humanos. Además, no se pudo confirmar el papel específico de ritonavir en cada estudio, ya que varios evalúan regímenes combinados.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro | Antimicrob Agents Chemother | El SIVmac239 fue inhibido por indinavir, saquinavir y ritonavir (ritonavir: ~13 nM), con potencia similar a la del VIH-1. |
-| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Evaluó 16 fármacos aprobados contra VIH-2, SIV y SHIV. Aporta información sobre su uso en tratamiento y profilaxis posexposición. |
-| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Estudio animal | J Virol | En 4 macacos infectados con SIVmac251, una terapia antirretroviral cuádruple de 7 días produjo una caída viral rápida. El resumen no confirma que ritonavir formara parte del esquema. |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Estudio animal | PLoS Pathog | Un esquema antirretroviral multifármaco intensificado en 11 macacos con SIVmac251 logró supresión viral sostenida y limitó el reservorio viral. La composición completa del esquema no está disponible en el resumen. |
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Estudio animal | PLoS One | Macacos rhesus con SIV tratados con terapia antirretroviral combinada más el inhibidor de HDAC SAHA, para estudiar los reservorios virales. |
-| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Estudio animal | J Virol Methods | Dos macacos con SHIV 89.6P recibieron AZT, 3TC y lopinavir/ritonavir por vía oral durante 28 días. Se evaluó el efecto sobre el subconjunto CD8. |
-| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Virología / animal | Microbes Infect | Se construyó un SHIV con la proteasa del VIH-1 como herramienta para probar inhibidores de proteasa en macacos. |
-| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclínico / revisión | mBio | Los lentivirus persisten en el cerebro pese a una terapia antirretroviral eficaz. |
-| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | Mecanístico in vitro | J Virol | La proteasa viral procesa la proteína Vif del VIH-1. Relevancia indirecta. |
-| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro | Antivir Chem Chemother | Un derivado de fluoroquinolona (K-12) fue activo contra cepas de VIH-1 resistentes a ritonavir, VIH-2 y SIV. No estudia ritonavir como tratamiento. |
+| [12709355](https://pubmed.ncbi.nlm.nih.gov/12709355/) | 2003 | In vitro | Antimicrob Agents Chemother | SIVmac239 es inhibido por indinavir, saquinavir y ritonavir (CE50 de ritonavir ≈ 13 nM vs. 25 nM en VIH-1) |
+| [15040537](https://pubmed.ncbi.nlm.nih.gov/15040537/) | 2004 | In vitro | Antivir Ther | Evaluación de la actividad de 16 fármacos aprobados frente a VIH-2, SIV y SHIV |
+| [34903055](https://pubmed.ncbi.nlm.nih.gov/34903055/) | 2021 | Preclínico (modelo animal) | mBio | Las infecciones por lentivirus persisten en el cerebro pese a la terapia antirretroviral eficaz |
+| [16973590](https://pubmed.ncbi.nlm.nih.gov/16973590/) | 2006 | Preclínico (modelo animal) | J Virol | Decaimiento viral rápido en macacos infectados con SIV tratados con terapia antirretroviral cuádruple |
+| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Preclínico (modelo animal) | PLoS One | Terapia antirretroviral supresora combinada con SAHA en macacos rhesus infectados con SIV |
+| [12951220](https://pubmed.ncbi.nlm.nih.gov/12951220/) | 2003 | Preclínico (modelo animal) | J Virol Methods | Efecto de HAART oral (AZT, 3TC y lopinavir/ritonavir) sobre linfocitos CD8 en macacos con SHIV 89.6P |
+| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Preclínico (modelo animal) | PLoS Pathog | Régimen antirretroviral muy intensificado logra supresión viral a largo plazo y restringe el reservorio en un modelo de SIDA simio |
+| [17350308](https://pubmed.ncbi.nlm.nih.gov/17350308/) | 2007 | Preclínico | Microbes Infect | Nuevo SHIV con proteasa derivada del VIH-1, útil para evaluar inhibidores de proteasa en macacos |
+| [12186895](https://pubmed.ncbi.nlm.nih.gov/12186895/) | 2002 | In vitro | J Virol | Procesamiento de la proteína Vif del VIH-1 por la proteasa viral |
+| [9875393](https://pubmed.ncbi.nlm.nih.gov/9875393/) | 1998 | In vitro | Antivir Chem Chemother | Actividad antiviral de amplio espectro del derivado de fluoroquinolona K-12, incluidas cepas de VIH-1 resistentes a ritonavir |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20122950 | ANCEF ® R (Laboratorios Legrand S.A.) | Tableta recubierta | Atazanavir + ritonavir |
+| 20122950 | ANCEF ® R | Tableta recubierta | Atazanavir + ritonavir |
+| 20109284 | VIRONTAR N comprimidos recubiertos | Tableta recubierta | Combinaciones (ritonavir y darunavir) |
+| 20167292 | FURTHAS®R tabletas recubiertas | Tableta cubierta con película | Darunavir y ritonavir |
+| 20149871 | ZANAVIR-R | Tableta recubierta | Atazanavir + ritonavir |
+| 20197888 | ETEVIHR® R | Tableta recubierta | Darunavir + ritonavir |
 
-Nota: los 5 registros devueltos por la consulta corresponden al mismo número sanitario (20122950), por lo que se muestra una sola vez. Del total de 20 registros, solo estos aparecen detallados. También se reporta la forma "tableta cubierta con película" por vía oral.
+Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes.
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-No se dispone de advertencias ni contraindicaciones del prospecto INVIMA, y la consulta de interacciones farmacológicas no arrojó resultados. Como ritonavir inhibe CYP3A4, conviene revisar con cuidado las interacciones antes de cualquier uso.
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** síndrome de QT largo (incluida la forma familiar), torsades de pointes, paro cardíaco súbito, enfermedades de la conducción cardíaca, bloqueo auriculoventricular, miocardiopatías, isquemia miocárdica y enfermedad coronaria; pancreatitis, hepatopatía, cirrosis, enfermedad de la vesícula biliar, hiperbilirrubinemia y síndrome de Gilbert; diabetes mellitus, hiperglucemia y cetoacidosis diabética; hipertrigliceridemia y dislipidemias familiares; gota e hiperuricemia; deficiencia de potasio; hepatitis B crónica y hemofilia.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones en total. Entre las mostradas, las de nivel **mayor** son loperamida, triamcinolona y budesonida. Entre las de nivel moderado se incluyen corticoides (hidrocortisona, dexametasona, betametasona), antidiabéticos (acarbosa, metformina, alogliptina, canagliflozina, clorpropamida, albiglutida), claritromicina, metronidazol, bupropión, aprepitant, alosetrón y lorcaserina.
+
+Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que no se dispuso de ellas.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto (99.92%), pero la evidencia es solo preclínica (nivel L4). No hay ensayos clínicos, y la indicación es una infección de primates no humanos sin uso clínico en humanos. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo con marcha atáxica) tienen el mismo puntaje casi idéntico y evidencia aún más débil (L4 y L5), lo que sugiere posibles artefactos del grafo de conocimiento.
+La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, todos los registros sanitarios en Colombia están cancelados y el perfil de interacciones y contraindicaciones es amplio.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank).
-- Advertencias y contraindicaciones del prospecto INVIMA para completar la revisión de seguridad.
-- Estudios en animales con SIV que confirmen la eficacia de ritonavir de forma específica.
-- Definir si existe un objetivo de investigación real (por ejemplo, como modelo animal) o si la predicción debe descartarse por falta de utilidad clínica.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Los candidatos de reposicionamiento requieren validación clínica antes de cualquier aplicación.*
+- Definir si existe un uso relevante (por ejemplo, investigación en modelos animales de VIH) o si la predicción debe descartarse como indicación humana.
+- Obtener el mecanismo de acción desde DrugBank.
+- Descargar y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
+- Aclarar el estado regulatorio, dado que no hay registros vigentes en Colombia.
+- Confirmar el papel específico de ritonavir en cada estudio de la literatura, pues varios evalúan regímenes combinados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

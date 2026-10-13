@@ -2,7 +2,7 @@
 layout: default
 title: Turoctocog Alfa Pegol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 400
+nav_order: 649
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,68 +29,59 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog alfa pegol: De Coagulación (Factor VIII) a Trastorno Primario de Liberación Plaquetaria
+# Turoctocog alfa pegol: De Factor VIII de la Coagulación a Trastorno de Liberación Primaria de las Plaquetas
 
 ## Resumen en Una Frase
 
-Turoctocog alfa pegol es un factor VIII de coagulación recombinante pegilado, comercializado en Colombia como ESPEROCT® y registrado para la coagulación por factor VIII.
-El modelo TxGNN predice que podría ser efectivo para **trastorno primario de liberación plaquetaria**,
-pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es solo una predicción del modelo.
+Turoctocog alfa pegol es un factor VIII de la coagulación recombinante pegilado, aprobado en Colombia con la indicación "coagulación factores VIII" (comercializado como ESPEROCT®).
+El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberación primaria de las plaquetas**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | Coagulación factores VIII |
-| Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
+| Nueva Indicación Predicha | Trastorno de liberación primaria de las plaquetas |
 | Puntaje de Predicción TxGNN | 99.997% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Turoctocog alfa pegol es un factor VIII recombinante pegilado. El factor VIII actúa como cofactor del factor IXa en el complejo tenasa, que impulsa la cascada de coagulación. Actualmente no se dispone de datos detallados del mecanismo de acción en las fuentes consultadas; la descripción anterior proviene de la clase del fármaco.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante pegilado, cuya función es reponer el factor VIII deficiente en la cascada de coagulación. Su eficacia se ha establecido en la indicación original de reposición de factor VIII.
 
-Los trastornos de liberación (secreción) plaquetaria son defectos intrínsecos de la plaqueta. Reponer factor VIII no corregiría ese defecto, por lo que no se identifica un mecanismo directo que conecte el fármaco con esta enfermedad. El puntaje alto de TxGNN proviene de relaciones en el grafo de conocimiento, no de evidencia clínica.
+La relación con la nueva indicación es débil. El trastorno de liberación primaria de las plaquetas es un defecto intrínseco de la función plaquetaria (secreción de gránulos), por lo que la reposición de factor VIII no corrige el problema de fondo. El puntaje alto de TxGNN refleja cercanía en la red de conocimiento dentro del espacio de los trastornos hemorrágicos, y no un fundamento biológico validado.
 
-Las demás predicciones del top 10 siguen el mismo patrón. La mayoría son defectos plaquetarios (pseudo-enfermedad de von Willebrand, trombastenia de Glanzmann, síndrome de Scott, defecto del receptor de colágeno, trombocitopenias constitucionales y aloinmune), y el factor VIII no actúa sobre ellos. La única con plausibilidad mecanística es la **deficiencia adquirida de factores de coagulación** (puntaje 99.974%), que se considera solo una pregunta de investigación. Es una categoría muy amplia, y en la hemofilia A adquirida los autoanticuerpos inhibidores neutralizarían el producto. Además, el término "flood factor deficiency" no es claro y podría ser un artefacto de mapeo de la ontología.
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
+Por lo tanto, esta predicción debe considerarse especulativa. Entre las otras indicaciones predichas, la más plausible mecanísticamente es la deficiencia adquirida de factores de coagulación (puntaje 99.97%), aunque tampoco cuenta con evidencia: la hemofilia A adquirida está mediada por autoanticuerpos y suele tratarse con agentes puente, factor VIII porcino e inmunosupresión.
 
 ## Información de Mercado en Colombia
 
-Se reportan 20 registros sanitarios. Los 5 registros del listado son idénticos (mismo número de registro, mismo producto), por lo que se presentan en una sola fila.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20189841 | ESPEROCT® 1000UI (Novo Nordisk A/S) | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII |
-
-También existe una presentación en polvo liofilizado para reconstituir a solución inyectable.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20189841 | ESPEROCT® 1000UI | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20187198 | ESPEROCT® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20187708 | ESPEROCT® 3000UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20187090 | ESPEROCT® 1500 UI | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. No se encontraron interacciones farmacológicas registradas para este fármaco.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (nivel L5). Además, no existe un mecanismo plausible que conecte el factor VIII con los defectos plaquetarios predichos.
+No existe ningún ensayo clínico ni publicación que respalde el uso de turoctocog alfa pegol en el trastorno de liberación primaria de las plaquetas, y el mecanismo de reposición de factor VIII no aborda el defecto plaquetario intrínseco. Además, los cuatro registros sanitarios en Colombia están cancelados. Ninguna de las diez indicaciones predichas cuenta con evidencia (todas L5).
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción (MOA) y de la indicación original desde DrugBank
-- Prospecto de INVIMA con advertencias y contraindicaciones
-- Definir el subtipo concreto de "deficiencia adquirida de factores de coagulación", el único candidato mecanísticamente plausible, y revisar la literatura antes de reconsiderarlo
-- Verificar el término "flood factor deficiency" contra la ontología de origen
+- Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank)
+- Prospecto de INVIMA con advertencias y contraindicaciones, necesario para cualquier tamizaje de seguridad
+- Evidencia preclínica o clínica que sustente un vínculo biológico con el defecto plaquetario
+- Priorizar, si se continúa la evaluación, la deficiencia adquirida de factores de coagulación, que es la más plausible mecanísticamente
+- Aclarar la situación regulatoria (motivo de las cancelaciones) y la compatibilidad de vía de administración
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

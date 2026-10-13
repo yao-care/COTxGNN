@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Vincristine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 407
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 661
+evidence_level: L3
 indication_count: 3
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,12 +29,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Vincristina: De Indicación Original No Especificada en el Registro a Ganglioneuroblastoma
+# Vincristina: De Indicación Registrada (Vincristina) a Ganglioneuroblastoma
 
 ## Resumen en Una Frase
 
-La vincristina es un alcaloide de la vinca que inhibe los microtúbulos y se usa como antineoplásico. El registro colombiano solo indica "VINCRISTINA", sin describir una indicación original.
-El modelo TxGNN predice que podría ser efectiva para **ganglioneuroblastoma**, con **4 ensayos clínicos** y **6 publicaciones** que respaldan esta dirección. La evidencia es en su mayoría indirecta, porque la vincristina forma parte del esquema de quimioterapia base y no es la variable evaluada.
+Vincristina es un alcaloide de la vinca utilizado como antineoplásico; en Colombia sus registros sanitarios solo indican "vincristina" como indicación, sin mayor detalle.
+El modelo TxGNN predice que podría ser efectiva para **ganglioneuroblastoma**, con **0 ensayos clínicos** y **6 publicaciones** (en su mayoría reportes de caso) que respaldan esta dirección.
 
 ---
 
@@ -42,34 +42,29 @@ El modelo TxGNN predice que podría ser efectiva para **ganglioneuroblastoma**, 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | "VINCRISTINA" (el texto del registro no describe la indicación) |
+| Indicación Original | Vincristina (el registro sanitario no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Ganglioneuroblastoma |
 | Puntaje de Predicción TxGNN | 99.31% |
-| Nivel de Evidencia | L2 (con reservas: ensayo de Fase 2 completado, pero no aísla el efecto de la vincristina) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-DrugBank no aporta datos detallados sobre el mecanismo de acción (MOA), pero los datos de farmacología confirman que la vincristina se une a la **tubulina beta clase I (TUBB)**. Así bloquea el ensamblaje de los microtúbulos y detiene la mitosis en las células que se dividen rápido. Su uso clínico conocido incluye leucemia, enfermedad de Hodgkin, linfomas no Hodgkin, rabdomiosarcoma, neuroblastoma y tumor de Wilms.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según el conocimiento general de la clase, la vincristina es un alcaloide de la vinca que se une a la tubulina (el registro farmacológico señala como diana TUBB, tubulina beta clase I) e inhibe la polimerización de los microtúbulos, lo que provoca detención mitótica en células de división rápida.
 
-El ganglioneuroblastoma pertenece al espectro de los tumores neuroblásticos, y la vincristina es un agente habitual en los esquemas de inducción multiagente del neuroblastoma. Por eso el puntaje alto de TxGNN es coherente con un uso ya establecido. Esto se parece más a una brecha de etiquetado que a un reposicionamiento verdadero.
+La vincristina es un componente histórico de los esquemas de quimioterapia combinada para tumores neuroblásticos (neuroblastoma y ganglioneuroblastoma), que comparten origen en la cresta neural. Su uso clínico conocido incluye leucemia, enfermedad de Hodgkin, linfomas no Hodgkin, rabdomiosarcoma, neuroblastoma y tumor de Wilms. Esto vuelve biológicamente plausible la predicción del modelo.
 
-Hay una limitación importante. Los ensayos de Fase 3 evalúan agentes añadidos (131I-MIBG, inhibidores de ALK, dinutuximab) sobre una base de quimioterapia. No aíslan el efecto propio de la vincristina, por lo que no constituyen evidencia directa (L1). La inscripción es principalmente de neuroblastoma de alto riesgo. Los datos específicos de ganglioneuroblastoma se limitan a reportes de caso y un ensayo prospectivo sobre estrategia quirúrgica.
+Conviene tener presente que la relación con la indicación original no puede evaluarse con precisión, porque el registro colombiano solo menciona "vincristina". El puntaje alto de TxGNN es una predicción basada en grafos y no reemplaza la evidencia clínica.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03786783](https://clinicaltrials.gov/study/NCT03786783) | Fase 2 | Completado | 42 | Dinutuximab y sargramostim añadidos a quimioterapia de inducción en neuroblastoma de alto riesgo recién diagnosticado. La vincristina probablemente está en el esquema base, pero no es la variable evaluada. |
-| [NCT03126916](https://clinicaltrials.gov/study/NCT03126916) | Fase 3 | Reclutando | 750 | 131I-MIBG o lorlatinib sobre terapia intensiva en neuroblastoma o ganglioneuroblastoma de alto riesgo. Apoya el contexto clínico, no la eficacia independiente. Aún sin resultados. |
-| [NCT06172296](https://clinicaltrials.gov/study/NCT06172296) | Fase 3 | Reclutando | 478 | Dinutuximab añadido a terapia multimodal intensiva en neuroblastoma de alto riesgo. La vincristina probablemente está en el esquema base. Sin resultados. |
-| [NCT01798004](https://clinicaltrials.gov/study/NCT01798004) | Fase 1 | Completado | 150 | Consolidación mieloablativa con busulfán/melfalán tras la inducción. La vincristina solo aparece en la inducción previa, por lo que la relevancia es indirecta. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
@@ -77,12 +72,14 @@ Hay una limitación importante. Los ensayos de Fase 3 evalúan agentes añadidos
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Ensayo clínico prospectivo | Pediatric Blood & Cancer | Uso de factores de riesgo definidos por imagen para decidir el momento de la cirugía en neuroblastoma de bajo riesgo. Busca reducir complicaciones del tratamiento. |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Reporte de caso | Postgraduate Medical Journal | Ganglioneuroblastoma espinal irresecable con remisión completa histológica con quimioterapia combinada (doxorrubicina, vincristina, ciclofosfamida, etopósido, ifosfamida y cisplatino) sin radioterapia. |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Reporte de caso | Journal of Pediatric Hematology/Oncology | Ganglioneuroblastoma con ictericia obstructiva como presentación inicial, tratado con quimioterapia que incluyó vincristina. |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Reporte de caso (serie de 31 pacientes) | J Thorac Cardiovasc Surg | Ganglioneuroblastoma intratorácico. Sobrevivieron 27 de 31 pacientes, con seguimiento de hasta 25 años, tras resección, radioterapia o quimioterapia. |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Reporte de caso | Hinyokika Kiyo | Ganglioneuroblastoma suprarrenal en un adulto con metástasis ganglionar regional gigante, tratado con enfoque multimodal. |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Reporte de caso | J Pediatr Hematol Oncol | Ganglioneuroblastoma multifocal en estadio 4 con compromiso gástrico en un lactante. |
+| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Ensayo clínico prospectivo (JN-L-10) | Pediatric Blood & Cancer | Uso de factores de riesgo definidos por imagen para decidir el momento de la cirugía en neuroblastoma de bajo riesgo; la quimioterapia no es la variable principal |
+| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Reporte de caso | Postgraduate Medical Journal | Ganglioneuroblastoma espinal irresecable con remisión completa histológica tras quimioterapia combinada (doxorrubicina, vincristina, ciclofosfamida, etopósido, ifosfamida y cisplatino) |
+| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Reporte de caso | J Pediatr Hematol Oncol | Ganglioneuroblastoma con ictericia obstructiva; tratado con quimioterapia que incluyó vincristina |
+| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Reporte de caso (serie de 31 pacientes) | J Thorac Cardiovasc Surg | Ganglioneuroblastoma intratorácico; tratamiento con resección, radioterapia o quimioterapia; supervivencia de 27/31 pacientes |
+| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Reporte de caso | J Pediatr Hematol Oncol | Lactante con ganglioneuroblastoma multifocal en estadio 4 con compromiso gástrico |
+| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Reporte de caso | Hinyokika Kiyo | Ganglioneuroblastoma suprarrenal en adulto con tratamiento multimodal |
+
+La evidencia es principalmente de reportes de caso; solo uno de los trabajos es un ensayo prospectivo, y no evalúa la quimioterapia como variable principal.
 
 ---
 
@@ -90,9 +87,8 @@ Hay una limitación importante. Los ensayos de Fase 3 evalúan agentes añadidos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20006838 | Vincristina sulfato 1 mg/1 ml solución inyectable (Venus Remedies Limited) | Solución inyectable | VINCRISTINA |
-
-Nota: el sistema informa 12 registros en total, pero los datos recibidos solo muestran el número 20006838, repetido. También existe una presentación de polvo liofilizado para reconstituir a solución inyectable.
+| 20006838 (cancelado) | Vincristina sulfato 1 mg/1 ml solución inyectable (Venus Remedies Limited) | Solución inyectable | Vincristina |
+| 20097927 (cancelado) | Sulfato de vincristina 1 mg polvo liofilizado para reconstituir a solución inyectable (Blau Farmacéutica Colombia S.A.S) | Polvo liofilizado para reconstituir a solución inyectable | Vincristina |
 
 ---
 
@@ -100,37 +96,36 @@ Nota: el sistema informa 12 registros en total, pero los datos recibidos solo mu
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, inhibidor de tubulina) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
-| Clasificación de Emetogenicidad | Consultar el prospecto |
-| Items de Monitoreo | Hemograma, función hepática y renal, evaluación neurológica (la neurotoxicidad es un riesgo relevante del fármaco) |
-| Protección en Manejo | Sí. Debe seguir las regulaciones de manejo de fármacos citotóxicos. |
+| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, inhibidor de microtúbulos) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. La base de conocimiento señala leucopenia como contraindicación asociada |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática (bilirrubina), función neurológica periférica |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No se dispone del texto del prospecto de INVIMA con advertencias y contraindicaciones. Consultar el prospecto para esa información.
+
+- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto)**: insuficiencia hepática, colestasis (incluida la colestasis intrahepática familiar y recurrente benigna), hiperbilirrubinemia (incluido el síndrome de Gilbert), leucopenia, neuropatía periférica y enfermedades neuromusculares (incluida la enfermedad de Charcot-Marie-Tooth, neuritis y neuropatía motora), nefropatía aguda por uratos, infecciones (incluidas las fúngicas y la dermatofitosis).
+- **Interacciones farmacológicas**: solo se registra la interacción farmacológica con su diana, la tubulina beta clase I (TUBB), sin interacciones medicamentosas clínicas documentadas.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La vincristina es un componente establecido de los esquemas de quimioterapia del espectro neuroblástico, y hay ensayos de Fase 2/3 sobre esos esquemas. Sin embargo, ningún ensayo aísla su efecto. La evidencia específica de ganglioneuroblastoma son reportes de caso, y no se han verificado las advertencias del prospecto.
+El puntaje de TxGNN es muy alto (99.31%) y el mecanismo es plausible, pero la evidencia se limita a reportes de caso y no hay ensayos clínicos registrados. Además, ambos registros sanitarios en Colombia están cancelados y no se cuenta con el prospecto para el análisis de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener del sitio de INVIMA el prospecto con advertencias y contraindicaciones, y analizarlo. Es un vacío que bloquea el tamizaje de seguridad.
-- Obtener el MOA desde DrugBank para completar el análisis mecanístico.
-- Confirmar en los protocolos de los ensayos (NCT03126916, NCT06172296) que la vincristina está en el esquema base y con qué dosis.
-- Buscar evidencia específica de ganglioneuroblastoma, separada de la de neuroblastoma de alto riesgo.
-- Definir un plan de monitoreo de neurotoxicidad y hematológico, con protocolos de administración segura.
-
-**Otras predicciones del mismo fármaco:** "retroperitoneal neoplasm" (puntaje 99.23%) es una categoría anatómica heterogénea con respaldo solo de series retrospectivas y reportes de caso, y conviene acotarla a histologías específicas. "Vertebral anomalies and variable endocrine and T-cell dysfunction" (99.24%) no tiene racional mecanístico ni evidencia, por lo que se recomienda Hold.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia bloquea el análisis de seguridad
+- Confirmar el mecanismo de acción mediante DrugBank
+- Revisar la literatura de esquemas actuales para neuroblastoma/ganglioneuroblastoma y el papel específico de la vincristina
+- Aclarar la situación regulatoria (registros cancelados) y la disponibilidad de producto en Colombia
+- Valorar un plan de monitoreo para hepatotoxicidad, neurotoxicidad y mielosupresión
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

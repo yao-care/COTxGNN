@@ -2,7 +2,7 @@
 layout: default
 title: Levocetirizine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 256
+nav_order: 398
 evidence_level: L5
 indication_count: 3
 ---
@@ -29,71 +29,92 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Levocetirizina: De Antihistamínico H1 (indicación no detallada en el registro) a Artritis Reumatoide
+# Levocetirizina: De Levocetirizina (indicación sin detallar) a Artritis Reumatoide
 
 ## Resumen en Una Frase
 
-Levocetirizina es un antihistamínico de segunda generación que bloquea el receptor H1. Está comercializado en Colombia, pero el texto de indicación de sus registros sanitarios solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, aunque actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Levocetirizina es un antihistamínico antagonista selectivo del receptor H1, registrado en Colombia bajo el nombre del principio activo, sin que el texto de indicación aprobado detalle la enfermedad específica.
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; es solo una predicción computacional.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada en el registro (el texto registrado es solo "Levocetirizina") |
+| Indicación Original | LEVOCETIRIZINA (el registro no especifica una enfermedad; se usa como antihistamínico) |
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 99.73% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 5 (2 números de registro distintos) |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, levocetirizina es un antagonista del receptor H1 de histamina de segunda generación. Su uso está establecido en cuadros alérgicos, pero los registros locales no detallan la indicación aprobada.
+Los datos compilados para este reporte no incluyen información detallada sobre el mecanismo de acción. Según la información conocida, levocetirizina es un antagonista selectivo del receptor H1 de histamina, y su uso establecido es el control de síntomas alérgicos. Mecanísticamente, podría ser aplicable a la artritis reumatoide de forma limitada.
 
-Existe una razón biológica indirecta para la predicción. La histamina y los mastocitos se han relacionado con la inflamación de la membrana sinovial, y ese sería el puente hacia la artritis reumatoide. Sin embargo, este vínculo es especulativo. No hay mecanismo verificado, ni ensayos, ni publicaciones que lo sustenten.
+La histamina está presente en la sinovial reumatoide y podría contribuir a la permeabilidad vascular, a la inflamación mediada por mastocitos y a la modulación de citocinas. Por eso, un vínculo mecanístico es plausible. Sin embargo, el bloqueo H1 no es un mecanismo establecido de modificación de la enfermedad en artritis reumatoide.
 
-El puntaje de 99.73% proviene solo de un cálculo del modelo y no equivale a evidencia clínica. Antes de cualquier paso adicional se necesita una revisión bibliográfica dirigida, por ejemplo sobre antihistamínicos H1 en artritis inflamatoria.
+El puntaje alto de TxGNN (0.997) es solo una predicción del modelo. No hay ensayos ni literatura que respalden la relación, por lo que la plausibilidad biológica no se puede verificar con los datos disponibles.
+
+**Otras predicciones del modelo (sin sustento mecanístico aparente):**
+
+| Posición | Enfermedad predicha | Puntaje TxGNN | Comentario |
+|------|------|------|------|
+| 2 | Síndrome de microftalmía colobomatosa-displasia rizomélica | 99.59% | Trastorno del desarrollo de causa genética; no hay vínculo claro con el bloqueo H1 |
+| 3 | Síndrome de braquidactilia-sindactilia | 99.52% | Malformación congénita de las extremidades; un antihistamínico sintomático no modificaría una anomalía estructural |
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
+---
+
 ## Información de Mercado en Colombia
 
-Los 5 registros corresponden a 2 números de registro sanitario distintos. El registro 20232631 aparece repetido 4 veces con datos idénticos, por lo que se muestra una sola vez.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20126402 | RIZIN® TABLETAS | Tableta recubierta | LEVOCETIRIZINA | Cancelado |
+| 20232631 | Levocetirizina diclorhidrato 5 mg tabletas recubiertas | Tableta recubierta | LEVOCETIRIZINA | Cancelado |
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20126402 | RIZIN® TABLETAS (SAGPHARMA LTDA) | Tableta recubierta | Levocetirizina (sin detalle de indicación) |
-| 20232631 | Levocetirizina diclorhidrato 5 mg tabletas recubiertas (GIMED S.A.S.) | Tableta recubierta | Levocetirizina (sin detalle de indicación) |
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** enfermedad renal, piouréter, enfermedad renal crónica, síndrome de insuficiencia renal crónica e insuficiencia renal terminal.
+- **Interacciones farmacológicas:** se identificaron 100 interacciones, casi todas de nivel moderado (una de nivel menor). Entre las principales:
+  - Depresores del sistema nervioso central y opioides: morfina (incluida la liposomal), fentanilo, dihidrocodeína, opio, difenoxina, difenoxilato, loperamida.
+  - Otros fármacos sedantes o con efecto central: etanol, prometazina, clorfeniramina, dronabinol, nabilona.
+  - Otros: bupropión, metoclopramida, sibutramina, histamina, yoduro I-131, yoduro I-123 (moderadas) e hialuronidasa (menor).
+
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero es solo computacional (nivel L5, etapa S0). No hay ensayos, literatura ni mecanismo verificado que la respalden. El vínculo con la artritis reumatoide es apenas plausible de forma indirecta, y por ahora es una pregunta de investigación.
-
-Las otras dos predicciones del modelo (síndrome de microftalmia colobomatosa con displasia rizomélica y síndrome de braquidactilia-sindactilia) no tienen un vínculo mecanístico plausible. Su puntaje alto probablemente es un artefacto del grafo de conocimiento.
+La predicción para artritis reumatoide se basa solo en el modelo (L5), sin ensayos clínicos ni literatura. Además, en Colombia no hay registros sanitarios vigentes para levocetirizina, y el bloqueo H1 no es un mecanismo establecido de modificación de la enfermedad en esta patología.
 
 **Para avanzar se necesita:**
-- Revisión bibliográfica dirigida sobre antihistamínicos H1 en artritis reumatoide e inflamación sinovial.
-- Datos del mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Descarga y análisis del prospecto de INVIMA (advertencias y contraindicaciones), que es un bloqueo para el tamizaje de seguridad.
-- Confirmar la indicación aprobada en los registros sanitarios colombianos.
-- Evaluar la compatibilidad de la vía de administración (oral) con la nueva indicación.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Revisión de literatura y ensayos sobre antihistamínicos H1 en artritis reumatoide, o estudios preclínicos y de mecanismo.
+- Datos detallados del mecanismo de acción desde DrugBank.
+- Prospecto de INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad.
+- Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia.
+- Evaluar la compatibilidad de la vía de administración (actualmente solo forma oral) y la seguridad en pacientes con enfermedad renal.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

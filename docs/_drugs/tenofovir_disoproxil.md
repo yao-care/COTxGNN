@@ -2,7 +2,7 @@
 layout: default
 title: Tenofovir Disoproxil
 parent: Evidencia Moderada (L3-L4)
-nav_order: 377
+nav_order: 613
 evidence_level: L4
 indication_count: 4
 ---
@@ -29,12 +29,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Tenofovir disoproxil: De Tenofovir Disoproxil y Emtricitabina (antirretroviral) a Síndrome de Inmunodeficiencia Adquirida Felina
+# Tenofovir disoproxil: De Infección por VIH (combinaciones antirretrovirales) a Síndrome de Inmunodeficiencia Adquirida Felina
 
 ## Resumen en Una Frase
 
-Tenofovir disoproxil es un análogo nucleotídico que en Colombia se comercializa solo o combinado con emtricitabina. Es un inhibidor de la transcriptasa inversa, usado en infecciones por retrovirus en humanos.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (FIV)**. Lo respaldan **4 ensayos clínicos** en VIH-1 humano (solo evidencia indirecta) y **2 publicaciones** en gatos infectados con FIV.
+Tenofovir disoproxil es un inhibidor nucleotídico de la transcriptasa inversa, registrado en Colombia solo o en combinación con emtricitabina y efavirenz (esquemas antirretrovirales).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**, aunque se trata de una indicación veterinaria y no de una enfermedad humana.
+La evidencia es limitada: **0 ensayos clínicos** y **1 publicación** directamente relacionada (un estudio en gatos), además de literatura preclínica en primates no humanos para una indicación vecina (infección por el virus de inmunodeficiencia simia).
 
 ---
 
@@ -42,62 +43,74 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunode
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tenofovir disoproxil y emtricitabina (el registro INVIMA no detalla el texto de la indicación) |
+| Indicación Original | Tenofovir disoproxil y emtricitabina (el registro sanitario no detalla una enfermedad; corresponde a esquemas antirretrovirales) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 99.95% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, tenofovir disoproxil es un inhibidor nucleotídico de la transcriptasa inversa, y en Colombia se comercializa solo y en combinación con emtricitabina. Su eficacia contra el VIH-1 está establecida, y mecanísticamente podría ser aplicable al FIV.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el tenofovir disoproxil es un profármaco del tenofovir, que tras convertirse dentro de la célula en tenofovir difosfato inhibe la transcriptasa inversa de retrovirus. Su eficacia en la infección por VIH está establecida, y mecanísticamente podría ser aplicable a otros lentivirus.
 
-El FIV es un lentivirus de los gatos, muy parecido al VIH en humanos, con una transcriptasa inversa relacionada. Por eso la predicción es biológicamente plausible. Sin embargo, se trata de una extensión entre especies de la indicación antirretroviral existente, no de un reposicionamiento verdaderamente nuevo.
+El virus de inmunodeficiencia felina (FIV) es un lentivirus muy cercano al VIH y codifica su propia transcriptasa inversa, por lo que existe un vínculo mecanístico plausible. Sin embargo, el único estudio disponible (PMID 37112803, 2023) evaluó una terapia antirretroviral combinada (dolutegravir, tenofovir y emtricitabina) en gatos infectados. Al ser una combinación, no es posible aislar la contribución específica del tenofovir, y el resumen disponible está incompleto.
 
-El puntaje TxGNN tan alto (99.95%) probablemente refleja la cercanía entre VIH y FIV en el grafo de conocimiento, más que evidencia independiente. No se encontró ningún ensayo clínico en gatos. Los ensayos humanos son indirectos: estudian VIH-1 y tenofovir aparece, como mucho, como fármaco de base o comparador.
+Es importante subrayar que esta indicación es veterinaria y no constituye un objetivo terapéutico humano. La segunda predicción (infección por virus de inmunodeficiencia simia) cuenta con múltiples estudios en macacos que respaldan la profilaxis con tenofovir disoproxil, pero esos datos sirven como apoyo indirecto a la indicación ya establecida en VIH y no como evidencia nueva de reposicionamiento.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Ningún ensayo se realizó en gatos. Todos son estudios en VIH-1 humano y aportan solo apoyo indirecto.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT01263015](https://clinicaltrials.gov/study/NCT01263015) | Fase 3 | Completado | 844 | Dolutegravir + abacavir/lamivudina vs. Atripla (efavirenz/emtricitabina/tenofovir disoproxil) en adultos con VIH-1 sin tratamiento previo. El brazo comparador contiene tenofovir, lo que apoya indirectamente su actividad antirretroviral. |
-| [NCT01227824](https://clinicaltrials.gov/study/NCT01227824) | Fase 3 | Completado | 828 | Dolutegravir vs. raltegravir, cada uno con doble terapia de inhibidores nucleósidos (ABC/3TC o TDF/FTC). Tenofovir es solo tratamiento de base; apoyo débil. |
-| [NCT00951015](https://clinicaltrials.gov/study/NCT00951015) | Fase 2 | Completado | 208 | Selección de dosis de dolutegravir con abacavir/lamivudina o tenofovir/emtricitabina en VIH-1. Tenofovir es una opción de base; no evalúa tenofovir. |
-| [NCT02770508](https://clinicaltrials.gov/study/NCT02770508) | Fase 4 | Completado | 145 | Darunavir potenciado + lamivudina vs. darunavir + emtricitabina/tenofovir o lamivudina/tenofovir en VIH-1 sin tratamiento previo. Tenofovir está en el comparador; no es un estudio de FIV. |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ---
 
 ## Evidencia de Literatura
 
+Para la indicación principal (síndrome de inmunodeficiencia adquirida felina):
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Estudio experimental en animales | Viruses | Evaluó la farmacocinética y los resultados clínicos de una terapia antirretroviral combinada (dolutegravir 2.5 mg/kg, tenofovir 20 mg/kg, emtricitabina 40 mg/kg) en gatos infectados con FIV. El resumen disponible está truncado y no incluye resultados. |
-| [24782459](https://pubmed.ncbi.nlm.nih.gov/24782459/) | 2015 | Estudio experimental en animales | Journal of Feline Medicine and Surgery | Tratamiento de seis gatos con infección natural por FIV con PMPA (tenofovir). Los autores señalan que varios antivirales humanos usados en gatos han causado efectos adversos graves. El resumen disponible está truncado y no incluye resultados. |
+| [37112803](https://pubmed.ncbi.nlm.nih.gov/37112803/) | 2023 | Estudio animal (veterinario) | Viruses | Evaluó la farmacocinética y los resultados clínicos de una terapia antirretroviral combinada (dolutegravir, tenofovir, emtricitabina) en gatos infectados con FIV; no se puede aislar el papel del tenofovir |
+
+Evidencia de apoyo indirecto de la segunda predicción (infección por virus de inmunodeficiencia simia), solo preclínica y de revisión:
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [14557287](https://pubmed.ncbi.nlm.nih.gov/14557287/) | 2003 | Revisión | Clin Microbiol Rev | Los fosfonatos de nucleósidos acíclicos (cidofovir, adefovir, tenofovir) son eficaces in vitro e in vivo contra virus ADN y retrovirus |
+| [20874040](https://pubmed.ncbi.nlm.nih.gov/20874040/) | 2010 | Revisión | Pharmacotherapy | Profilaxis preexposición sistémica para VIH |
+| [22964889](https://pubmed.ncbi.nlm.nih.gov/22964889/) | 2012 | Revisión | Curr Opin HIV AIDS | Lecciones de modelos animales de profilaxis antirretroviral |
+| [16960777](https://pubmed.ncbi.nlm.nih.gov/16960777/) | 2006 | Preclínico (macacos) | J Infect Dis | La quimioprofilaxis con TDF dio protección parcial frente a exposiciones repetidas a SHIV |
+| [16810108](https://pubmed.ncbi.nlm.nih.gov/16810108/) | 2006 | Preclínico (macacos infantes) | J Acquir Immune Defic Syndr | Evaluación de TDF oral y tenofovir tópico GS-7340 frente a desafíos orales repetidos con SIV |
+| [12404171](https://pubmed.ncbi.nlm.nih.gov/12404171/) | 2002 | Preclínico (macacos infantes) | J Infect Dis | TDF tópico en dosis bajas para proteger a macacos infantes de exposiciones orales a SIV |
+| [24043812](https://pubmed.ncbi.nlm.nih.gov/24043812/) | 2013 | Preclínico (macacos) | PNAS | Un anillo intravaginal liberador de TDF protegió completamente a macacos de múltiples desafíos vaginales con SHIV |
+| [23633402](https://pubmed.ncbi.nlm.nih.gov/23633402/) | 2013 | Preclínico (macacos) | J Infect Dis | Eficacia profiláctica de FTC/TDF oral frente a un SHIV resistente a tenofovir (mutación K65R) |
+| [26743846](https://pubmed.ncbi.nlm.nih.gov/26743846/) | 2016 | Preclínico (macacos) | J Infect Dis | FTC/TDF previno la infección vaginal por SHIV en macacos con coinfección por Chlamydia y Trichomonas |
+| [21896911](https://pubmed.ncbi.nlm.nih.gov/21896911/) | 2011 | Estudio clínico | Antimicrob Agents Chemother | Farmacocinética y seguridad de TDF y TDF-emtricitabina en dosis única en mujeres embarazadas con VIH y sus bebés |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Se muestran los registros únicos, porque el paquete repite el registro 20140868 varias veces. En total hay 20 registros sanitarios; los datos recibidos cubren solo 2 registros únicos.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20140868 | DUOPETSA® TABLETA RECUBIERTA (THE LABS S.A.S.) | Tableta recubierta | Tenofovir disoproxil y emtricitabina |
-| 20018444 | TENOFOVIR DISOPROXIL FUMARATO 300 MG TABLETA RECUBIERTA (HUMAX PHARMACEUTICAL S.A.) | Tableta recubierta | Tenofovir disoproxil |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 20140868 | DUOPETSA® tableta recubierta | Tableta recubierta | Tenofovir disoproxil y emtricitabina | Cancelado |
+| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Cancelado |
+| 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina | Cancelado |
+| 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas en el grafo de conocimiento del modelo** (no provienen del prospecto): síndrome de QT largo (incluida la forma familiar), torsades de pointes, insuficiencia hepática, enfermedad hepática, hígado graso y esteatohepatitis no alcohólica, enfermedad renal, síndrome de Fanconi, acidosis láctica, hipofosfatemia, osteomalacia, raquitismo, hipertrigliceridemia, obesidad, infección por virus de la hepatitis C, epilepsia, trastornos de ansiedad y otros trastornos psiquiátricos, y enfermedad de la vesícula biliar. Esta lista debe interpretarse con cautela y verificarse contra el prospecto oficial.
+- **Interacciones farmacológicas**: no se encontraron datos de interacciones en la consulta realizada.
+
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
 
@@ -106,17 +119,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L4: solo estudios preclínicos y ensayos humanos indirectos en VIH-1. Los ensayos de Fase 3 no cuentan como L1, porque no estudian FIV ni evalúan tenofovir de forma aislada. Esto es una pregunta de investigación veterinaria (extensión entre especies del mecanismo antirretroviral), no un candidato de reposicionamiento clínico para humanos en Colombia.
+La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, todos los registros sanitarios en Colombia están cancelados y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
 
 **Para avanzar se necesita:**
-- Revisar los resultados completos de los dos estudios en gatos (37112803 y 24782459) y verificar en el registro la composición de los brazos de los ensayos humanos.
-- Definir si el objetivo es investigación veterinaria; en ese caso se necesita un diseño de ensayo felino.
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
-- Obtener los datos de mecanismo de acción desde DrugBank.
-- Otras predicciones del modelo:
-  - **Infección por virus de inmunodeficiencia de simios (SIV):** nivel L4, con abundante evidencia preclínica en macacos, pero es un modelo animal del VIH y no una indicación terapéutica humana.
-  - **Trastorno del neurodesarrollo con marcha atáxica, ausencia de habla y menor sustancia blanca cortical:** nivel L5, sin mecanismo plausible, probablemente un artefacto del grafo.
-  - **Hiperlipidemia combinada familiar (término obsoleto):** nivel L5, sin evidencia; el término debe remapearse antes de cualquier revisión.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Definir si existe un objetivo humano relevante, dado que las predicciones principales son veterinarias o de modelo animal.
+- Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia.
+- Las demás predicciones (trastorno del neurodesarrollo raro e hiperlipidemia combinada familiar obsoleta) carecen de vínculo mecanístico y de evidencia, por lo que no se recomienda priorizarlas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -2,7 +2,7 @@
 layout: default
 title: Deferiprone
 parent: Evidencia Moderada (L3-L4)
-nav_order: 153
+nav_order: 201
 evidence_level: L4
 indication_count: 9
 ---
@@ -29,70 +29,93 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Deferiprona: De Indicación Original No Documentada a Porfiria Hepática
+# Deferiprona: De Indicación Original (Deferiprona) a Porfiria Hepática
 
 ## Resumen en Una Frase
 
-Deferiprona es un quelante oral de hierro, comercializado en Colombia como IROFIN® 500 mg tabletas recubiertas. Los datos de registro no detallan su indicación original.
+Deferiprona es un quelante oral de hierro, registrado en Colombia bajo el producto IROFIN® 500 mg tabletas recubiertas; en el registro sanitario la indicación aparece únicamente como "DEFERIPRONA", sin más detalle.
 El modelo TxGNN predice que podría ser efectivo para **porfiria hepática**,
-pero hoy solo lo respaldan **0 ensayos clínicos** y **2 publicaciones preclínicas** en modelos de ratón.
+pero hasta ahora **no hay ensayos clínicos registrados** y solo se dispone de **2 publicaciones preclínicas** (modelos animales) que respaldan esta dirección.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No documentada. El registro solo consigna "DEFERIPRONA" (el principio activo), sin una indicación |
+| Indicación Original | DEFERIPRONA (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Porfiria hepática |
 | Puntaje de Predicción TxGNN | 99.20% |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 12 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, deferiprona es un quelante oral de hierro. Su eficacia como quelante está establecida, y mecanísticamente podría ser aplicable a enfermedades en las que el hierro empeora el daño.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas. Según la información conocida, deferiprona es un quelante oral de hierro; su uso principal se relaciona con la sobrecarga de hierro, y mecanísticamente podría ser aplicable a enfermedades en las que el hierro agrava el daño.
 
-En la porfiria cutánea tarda, el hierro hepático elevado favorece la acumulación de uroporfirina. La flebotomía, que reduce el hierro, es un tratamiento eficaz. Por eso es biológicamente plausible que disminuir el hierro disponible con un quelante también ayude.
+En la porfiria cutánea tardía, el exceso de hierro hepático y el estrés oxidativo dependiente del hierro empeoran la uroporfiria e inhiben la enzima uroporfirinógeno descarboxilasa. Por ello, reducir el hierro es una estrategia terapéutica plausible (la flebotomía ya se usa con este fin). Un estudio en ratones Hfe-/- (PMID 17854053) mostró que la quelación con deferiprona o las dietas deficientes en hierro reducen la acumulación de uroporfirina.
 
-La evidencia recuperada tiene límites claros. Los dos estudios son en ratones: uno en un modelo de uroporfiria y otro en porfiria eritropoyética congénita. Esta última no es estrictamente una porfiria hepática, así que la extrapolación es indirecta. No se recuperaron datos de ensayos en humanos.
+Un estudio de 2020 (PMID 32678895) mostró que la quelación de hierro corrigió la anemia hemolítica y la fotosensibilidad en un modelo de porfiria eritropoyética congénita. Esta es una forma eritropoyética y no estrictamente hepática, por lo que la evidencia es indirecta. El mecanismo es plausible, pero la evidencia es solo preclínica y no hay ensayos en humanos.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
+---
+
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Preclínico (modelo animal) | Blood | En un modelo de porfiria eritropoyética congénita, la quelación de hierro corrigió la anemia hemolítica y la fotosensibilidad cutánea |
-| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Preclínico (modelo murino) | Hepatology | En ratones Hfe-/- con uroporfiria (modelo de porfiria cutánea tarda), compara la quelación con deferiprona frente a dietas deficientes en hierro para reducir la uroporfirina hepática |
+| [17854053](https://pubmed.ncbi.nlm.nih.gov/17854053/) | 2007 | Estudio preclínico (modelo murino) | Hepatology | En ratones Hfe-/- con porfiria cutánea tarda inducida, la quelación con deferiprona y las dietas deficientes en hierro se compararon como métodos para reducir el hierro hepático y la acumulación de uroporfirina |
+| [32678895](https://pubmed.ncbi.nlm.nih.gov/32678895/) | 2020 | Estudio preclínico (modelo animal) | Blood | La quelación de hierro corrigió la anemia hemolítica y la fotosensibilidad en porfiria eritropoyética congénita |
+
+---
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20218402 | IROFIN® 500 MG TABLETAS RECUBIERTAS (ZONEPHARMA S.A.S.) | Tableta recubierta | DEFERIPRONA (sin indicación detallada) |
+| 20218402 (cancelado) | IROFIN® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | DEFERIPRONA |
 
-Nota: los datos reportan 12 registros en total, pero las entradas disponibles repiten el mismo número (20218402). Por eso se muestra una sola fila.
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+**Interacciones Farmacológicas** (se identificaron 100 interacciones; las 20 primeras listadas son de nivel moderado):
+- **Antiácidos y sales de calcio, magnesio y aluminio**: carbonato, citrato, acetato, fosfato, gluconato y lactato de calcio; óxido, hidróxido, carbonato, cloruro, citrato, gluconato y sulfato de magnesio; hidróxido de aluminio; magaldrato.
+- **Otros agentes**: hierro, caolín, attapulgita y sucralfato.
+
+En general, estos productos pueden unirse a la deferiprona (por quelación de cationes) y reducir su absorción, por lo que conviene separar su administración. Esta recomendación es una inferencia farmacológica general, no proviene de los datos compilados.
+
+No se dispone de datos de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto (99.20%), pero la evidencia se limita a dos estudios preclínicos en ratones, sin ensayos clínicos. Además, uno de los estudios corresponde a una porfiria que no es estrictamente hepática, y no hay información de seguridad local disponible.
+La evidencia es solo preclínica (L4), sin ensayos clínicos, y una de las dos publicaciones se refiere a una forma de porfiria distinta (eritropoyética). Además, el único registro sanitario en Colombia está cancelado, y no hay datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones. Verificar en particular el riesgo hematológico (neutropenia/agranulocitosis) descrito para esta clase de fármacos; este punto proviene de conocimiento general y no del Evidence Pack.
-- Confirmar la indicación aprobada y el mecanismo de acción en DrugBank e INVIMA.
-- Buscar estudios en humanos en porfiria cutánea tarda u otras porfirias hepáticas (series de casos, ensayos).
-- Revisar la predicción de rango 8, beta-talasemia con otras manifestaciones. Deferiprona está autorizada en varias jurisdicciones para la sobrecarga de hierro transfusional en talasemia, así que podría ser un uso ya aprobado y no un reposicionamiento. Verificarlo con la indicación real del registro colombiano.
-- Las otras siete predicciones (rangos 2 a 7 y 9) no tienen ensayos ni literatura recuperada. Se mantienen en Hold.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío de datos que bloquea el análisis de seguridad
+- Complementar los datos del mecanismo de acción (por ejemplo, desde DrugBank)
+- Buscar evidencia clínica en humanos (series de casos o ensayos) en porfiria cutánea tardía
+- Aclarar la situación regulatoria: no hay registro vigente en Colombia
+- Diseñar un estudio exploratorio con monitoreo de seguridad hematológica, si se decide avanzar
+
+**Otras predicciones del modelo (para referencia):**
+- **Talasemia beta con otras manifestaciones** (99.03%, L4): la quelación de hierro en talasemia está bien establecida; es más un uso cercano a la indicación original que un reposicionamiento verdadero. Falta verificarlo con datos de ECA primarios.
+- **Deficiencia de piruvato quinasa de glóbulos rojos** (99.15%, L5): la quelación podría ser un apoyo plausible ante la sobrecarga secundaria de hierro, sin evidencia en este conjunto de datos.
+- Las demás predicciones (hipertensión portal no cirrótica familiar de inicio temprano, cirrosis asociada a cobre idiopática, síndrome hepatopulmonar, trombosis portal primitiva, esclerosis hepatoportal, piropoiquilocitosis hereditaria) no tienen vínculo mecanístico claro ni evidencia, por lo que se recomienda mantenerlas en espera (Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

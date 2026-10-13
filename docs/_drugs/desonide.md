@@ -2,7 +2,7 @@
 layout: default
 title: Desonide
 parent: Solo Predicción del Modelo (L5)
-nav_order: 157
+nav_order: 206
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,11 +29,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Desonida: De Corticoide Tópico Dermatológico a Pólipo de Cuerda Vocal
+# Desonida: De Corticosteroide Tópico a Pólipo de Cuerda Vocal
 
 ## Resumen en Una Frase
 
-Desonida es un corticoide tópico de baja potencia, comercializado en Colombia en cremas y lociones de uso dermatológico. El modelo TxGNN predice que podría ser efectivo para **pólipo de cuerda vocal**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. Es una predicción puramente computacional (nivel L5).
+Desonida es un corticosteroide tópico de baja potencia, autorizado en Colombia en cremas y loción para uso dermatológico.
+El modelo TxGNN predice que podría ser efectivo para **pólipo de cuerda vocal**,
+pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; la predicción se basa únicamente en el modelo computacional.
 
 ---
 
@@ -41,23 +43,23 @@ Desonida es un corticoide tópico de baja potencia, comercializado en Colombia e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice «DESONIDA»); corticoide tópico dermatológico |
+| Indicación Original | Desonida (el registro sanitario no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Pólipo de cuerda vocal |
 | Puntaje de Predicción TxGNN | 99.91% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 11 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Por conocimiento general (no respaldado por los datos entregados), la desonida es un glucocorticoide de baja potencia con acción antiinflamatoria. Su eficacia se conoce en enfermedades inflamatorias de la piel, y mecanísticamente podría relacionarse con lesiones inflamatorias o reactivas de las cuerdas vocales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, desonida es un glucocorticoide tópico de baja potencia con actividad antiinflamatoria, cuyo uso está establecido en dermatosis inflamatorias. Mecanísticamente, esa acción antiinflamatoria podría ser aplicable a lesiones inflamatorias.
 
-Este vínculo es solo una inferencia. No hay estudios que muestren que la desonida actúe sobre pólipos de cuerda vocal. Además, las presentaciones existentes (cremas y lociones) son dermatológicas y no tienen una vía de administración plausible hacia la laringe. La compatibilidad de vía y la similitud con la indicación original figuran como «pendientes» de evaluación.
+Los corticosteroides sistémicos o inyectados se emplean a veces en lesiones inflamatorias de las cuerdas vocales. Sin embargo, una formulación tópica cutánea de desonida no es adecuada para la laringe, y no existe información sobre administración laríngea ni sobre su seguridad en ese sitio.
 
-Las otras nueve predicciones principales tienen puntajes casi idénticos (99.89%–99.91%) y también son solo predicciones. Incluyen pólipo de oído medio, de conducto auditivo externo, de seno frontal, de uréter, de vulva, pólipo fibroepitelial, pólipo neoplásico, épulis y pólipo uterino. Ninguna cuenta con ensayos ni literatura. El patrón sugiere que el modelo agrupa «enfermedades tipo pólipo» más que identificar una señal específica para la desonida. Por eso, el puntaje alto no debe interpretarse como evidencia de eficacia.
+La relación entre la indicación original (dermatológica) y la nueva se apoya solo en la predicción del modelo (puntaje 0.999), que no constituye evidencia independiente. Otras predicciones del mismo modelo (pólipos de oído medio, conducto auditivo externo, seno frontal, uréter, vulva, pólipo fibroepitelial, pólipo neoplásico, épulis y pólipo uterino) tienen igualmente nivel L5 y ninguna cuenta con ensayos o literatura. Entre ellas, la de pólipo del conducto auditivo externo y la de pólipo del seno frontal tienen cierta plausibilidad por clase (corticosteroides tópicos óticos e intranasales), pero sin datos específicos de desonida.
 
 ---
 
@@ -75,21 +77,24 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Se listan los registros únicos. El registro 217278 aparece tres veces con datos idénticos.
+Los 11 registros sanitarios están cancelados; actualmente no hay registros vigentes. Se listan los 5 principales:
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20253823 | ITROCSONA® 0.1% CREMA (Laboratorios Blaskov S.A.S.) | Crema tópica | DESONIDA |
-| 20262013 | DESOKORT® 0.1% CREMA (Farmaser S.A.) | Crema tópica | DESONIDA |
-| 217278 | DESONIDA 0.1% CREMA (Laboratorios Siegfried S.A.S.) | Crema tópica | DESONIDA |
-
-En total hay 20 registros; aquí solo se muestran los primeros disponibles. Las formas registradas incluyen crema tópica, loción y cremas/geles/ungüentos/pastas, todas de uso tópico.
+| 20253823 | ITROCSONA® 0.1% CREMA | Crema tópica | Desonida |
+| 20262013 | DESOKORT® 0.1% CREMA | Crema tópica | Desonida |
+| 217278 | DESONIDA 0.1% CREMA | Crema tópica | Desonida |
+| 20042454 | DESONIDA 0.05% CREMA | Crema tópica | Desonida |
+| 20206932 | DESOTOPIC® 0.1% LOCIÓN | Loción | Desonida |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones señaladas por el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): hipertensión, epilepsia, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, sarampión, insuficiencia cardíaca congestiva, queratitis por herpes simple, hipopituitarismo y deficiencias hormonales hipofisarias (incluida la deficiencia de hormona de crecimiento), hipogonadismo hipogonadotrópico y síndrome de Kallmann, síndrome de Sheehan, y algunos defectos del ciclo de la urea (deficiencia de carbamoil fosfato sintetasa I, hiperargininemia, citrulinemia).
+- **Interacciones farmacológicas**: no se encontraron registros en la consulta realizada.
+
+Consultar el prospecto para la información de seguridad oficial (advertencias y contraindicaciones).
 
 ---
 
@@ -98,16 +103,15 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura (L5), y el mecanismo de acción no está disponible en los datos. Además, no existe una vía de administración plausible desde una crema o loción dermatológica hasta la cuerda vocal. Los pólipos requieren diagnóstico y evaluación clínica, por lo que un abordaje empírico con un fármaco podría retrasar la atención adecuada.
+La predicción tiene un puntaje alto, pero carece de ensayos clínicos y literatura (nivel L5). Además, el fármaco solo existe en presentaciones cutáneas tópicas, inadecuadas para la laringe, y no tiene registros vigentes en Colombia.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de la desonida (DrugBank).
-- Prospecto de INVIMA con advertencias y contraindicaciones, hoy sin datos.
-- Revisión de literatura sobre corticoides en lesiones inflamatorias de cuerda vocal, para saber si existe alguna señal.
-- Análisis de compatibilidad de vía de administración; una nueva formulación sería necesaria para cualquier sitio no cutáneo.
-- Priorizar, si se sigue explorando, localizaciones accesibles por vía tópica (como el conducto auditivo externo), siempre con evaluación diagnóstica previa.
-
-*Este informe es solo para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su uso.*
+- Datos del mecanismo de acción del fármaco.
+- Revisión bibliográfica específica de desonida (y de corticosteroides de la misma clase) en patología de cuerdas vocales.
+- Análisis de compatibilidad de vía de administración y de una formulación adecuada para la laringe.
+- Prospecto oficial con advertencias y contraindicaciones.
+- Evaluación de la situación regulatoria, dado que todos los registros están cancelados.
+- Considerar si otra indicación predicha (por ejemplo, conducto auditivo externo, por la vía tópica) justifica una revisión más prometedora.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

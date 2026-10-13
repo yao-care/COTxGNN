@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Codeine
-parent: Solo Predicción del Modelo (L5)
-nav_order: 139
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 178
+evidence_level: L4
 indication_count: 4
 ---
 
 # Codeine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,8 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-La codeína es un opioide que en Colombia se comercializa en combinación con paracetamol, y su registro aparece bajo la categoría "Paracetamol combinaciones excluyendo psicolépticos".
-El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; es solo una señal del modelo.
+La codeína se registró en Colombia dentro de un producto clasificado como "combinaciones de paracetamol excluyendo psicolépticos" (ALGIMIDE TABLETAS), y es un opioide usado para el dolor, la tos y la diarrea.
+El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, pero no hay ensayos clínicos y solo existe **1 publicación** (un reporte de caso que describe un efecto adverso, no un beneficio terapéutico).
 
 ---
 
@@ -42,23 +42,23 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Paracetamol combinaciones excluyendo psicolépticos (categoría del registro, no una indicación clínica detallada) |
+| Indicación Original | Paracetamol, combinaciones excluyendo psicolépticos |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, la codeína es un profármaco activado por CYP2D6 que da lugar a morfina y actúa como agonista del receptor opioide µ (gen OPRM1). En Colombia se comercializa en combinación con paracetamol, y su uso clínico establecido es el manejo del dolor. También se usa como antidiarreico y antitusivo.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la codeína es un opioide natural que actúa como agonista del receptor opioide mu (OPRM1). Se usa para tratar el dolor sistémico y, de forma adicional, como antidiarreico y antitusivo.
 
-No se puede verificar un vínculo mecanístico directo con patología nasal. La lista de indicaciones originales está vacía, así que no es posible comparar la indicación original con la nueva. Lo más probable es que la puntuación alta refleje una asociación en el grafo de conocimiento, por ejemplo por síntomas respiratorios compartidos o por cercanía con fármacos antitusivos, y no un efecto terapéutico real.
+Con los datos disponibles **no se sustenta un mecanismo terapéutico** para la enfermedad de la cavidad nasal. La única publicación es un reporte de caso de rinolitiasis formada alrededor de un cuerpo extraño que resultó ser una mezcla endurecida de codeína y opio (un "opioma"). Esto describe un evento incidental o adverso relacionado con el fármaco, no un beneficio.
 
-Entre las otras predicciones del modelo hay una señal que va en sentido contrario al beneficio. Para **urticaria alérgica** (puntaje 99.37%), la literatura muestra que la codeína libera histamina de los mastocitos sin mediación inmunológica y se usa como control positivo en pruebas cutáneas. Además, puede causar urticaria. Ahí la relación es de riesgo, no de tratamiento.
+El puntaje alto del modelo (99.93%) no está corroborado por ninguna evidencia clínica de eficacia. Debe interpretarse como una asociación en el grafo de conocimiento, no como potencial terapéutico demostrado.
 
 ---
 
@@ -70,25 +70,32 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [17315836](https://pubmed.ncbi.nlm.nih.gov/17315836/) | 2007 | Reporte de caso | Ear, Nose & Throat Journal | Rinolito unilateral en un hombre de 21 años, formado alrededor de un cuerpo extraño que era una mezcla endurecida de codeína y opio envuelta en nailon. Describe una causa inusual de rinolitiasis, no un tratamiento. |
 
 ---
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58027 | ALGIMIDE TABLETAS (LABORATORIOS SIEGFRIED S.A.S.) | Tableta | Paracetamol combinaciones excluyendo psicolépticos |
-
-Los cinco registros recibidos corresponden al mismo número sanitario y producto, por lo que se muestran una sola vez. El paquete indica 20 registros en total, pero no se recibió el detalle de los demás.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
+|---------|------|------|-----------|------|
+| 58027 | ALGIMIDE TABLETAS | Tableta | Paracetamol, combinaciones excluyendo psicolépticos | Cancelado |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: la única entrada disponible es farmacológica, no una interacción con otro medicamento. Muestra que la codeína actúa sobre el receptor µ opioide (OPRM1, humano). No se dispone de interacciones fármaco-fármaco con nivel de gravedad.
+- **Contraindicaciones señaladas en el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto):
+  - Cardiovasculares y respiratorias: hipertensión, enfermedad pulmonar obstructiva crónica (EPOC).
+  - Hepáticas, renales y digestivas: insuficiencia hepática, enfermedad hepática, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, úlcera péptica, enfermedad inflamatoria intestinal, gastritis.
+  - Neurológicas y psiquiátricas: epilepsia, insomnio, trastornos de ansiedad, trastorno neurótico, trastorno distímico, trastornos psicóticos, esquizofreniforme y esquizoafectivo, trastorno mental.
+  - Metabólicas y endocrinas: porfiria (incluida la hereditaria) y otros trastornos del metabolismo de porfirinas, hipotiroidismo, mixedema, hipotiroidismo congénito.
+  - Hematológicas y dermatológicas: trombocitopenia, dermatitis herpetiforme.
+- **Interacciones farmacológicas**: solo se registró la interacción farmacológica con el receptor opioide mu (OPRM1), que corresponde al mecanismo farmacológico principal; no hay interacciones con otros fármacos.
+- **Riesgos de la clase opioide**: dependencia y abuso potencial.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ---
 
@@ -97,13 +104,23 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para enfermedad de la cavidad nasal tiene un puntaje muy alto (99.93%), pero es solo una predicción del modelo (L5), sin ensayos ni publicaciones. No existe un vínculo mecanístico verificable, y de las otras predicciones, la de urticaria es mecanísticamente contraria a un uso terapéutico.
+La única evidencia es un reporte de caso que describe un efecto adverso (un rinolito formado alrededor de una mezcla de codeína y opio), sin ensayos clínicos ni datos de eficacia. El único producto registrado en Colombia está cancelado.
 
 **Para avanzar se necesita:**
-- Descargar y revisar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo al tamizaje de seguridad.
-- Obtener el mecanismo de acción desde DrugBank para evaluar un posible vínculo con patología nasal.
-- Una búsqueda dirigida de estudios sobre codeína en enfermedad nasal, para confirmar si la señal es un artefacto del grafo.
-- Aclarar la indicación original detallada de los productos con codeína registrados (20 registros, solo se recibió uno).
+- Datos del mecanismo de acción que sustenten un vínculo con la patología de la cavidad nasal.
+- Estudios clínicos o preclínicos que muestren un beneficio terapéutico real.
+- Obtener el prospecto del INVIMA para completar el análisis de seguridad.
+- Evaluar la relación beneficio-riesgo dado el perfil de dependencia de los opioides y las numerosas contraindicaciones.
+
+---
+
+## Otras Predicciones Evaluadas (Referencia)
+
+| Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Observación | Decisión |
+|------|------|------|------|------|
+| Laringofaringitis aguda | 99.92% | L5 | Solo predicción, sin ensayos ni literatura. Posible racional indirecto por la acción antitusiva central, que sería alivio sintomático y no modificación de la enfermedad. | Hold |
+| Cefalea autonómica trigeminal | 99.43% | L4 | Dos publicaciones (una experiencia clínica pediátrica y un reporte de caso por mal uso de cocaína) que no muestran eficacia de la codeína. Los opioides conllevan riesgo de cefalea por uso excesivo de medicación y dependencia. | Hold |
+| Urticaria alérgica | 99.37% | L4 | La literatura señala a la codeína como **inductora** de urticaria (liberadora directa de histamina en mastocitos, usada como modelo de prueba cutánea), no como tratamiento. El reposicionamiento está desaconsejado por la evidencia disponible. | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

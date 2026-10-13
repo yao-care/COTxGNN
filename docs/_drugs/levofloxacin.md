@@ -2,7 +2,7 @@
 layout: default
 title: Levofloxacin
 parent: Solo Predicción del Modelo (L5)
-nav_order: 258
+nav_order: 400
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,84 +29,78 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Levofloxacino: De Antibacteriano (indicación no especificada en el registro) a Queratoconjuntivitis Epitelial Punteada
+# Levofloxacino: De Infecciones Bacterianas (Registro INVIMA) a Queratoconjuntivitis Epitelial Punteada
 
 ## Resumen en Una Frase
 
-Levofloxacino es un antibiótico fluoroquinolónico que se comercializa en Colombia, entre otras formas, como solución oftálmica y como tabletas orales.
-El modelo TxGNN predice que podría ser efectivo para la **queratoconjuntivitis epitelial punteada**, pero solo hay **0 ensayos clínicos** y **1 publicación** (un reporte de brote sin relación mecanística con el fármaco).
-Por ahora es una predicción del modelo sin respaldo real.
-
----
+Levofloxacino es una fluoroquinolona antibacteriana cuyos registros sanitarios en Colombia figuran con el nombre del principio activo, sin un texto de indicación detallado.
+El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**, pero no hay ensayos clínicos y solo existe **1 publicación** (un informe de brote por microsporidios, sin respaldo clínico para levofloxacino). La predicción se apoya únicamente en el modelo computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice «LEVOFLOXACINO») |
+| Indicación Original | Levofloxacino (el registro INVIMA solo menciona el nombre del principio activo, sin indicación detallada) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.92% (posición 979 en el ranking del modelo) |
+| Puntaje de Predicción TxGNN | 99.92% |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Levofloxacino inhibe la ADN girasa y la topoisomerasa IV bacterianas, y así detiene la replicación del ADN de las bacterias. Los datos de DrugBank no traen el mecanismo de acción detallado (`original_moa`). Lo anterior proviene del análisis mecanístico incluido en el paquete de evidencia.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, levofloxacino es una fluoroquinolona de amplio espectro que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y se utiliza en infecciones bacterianas, incluidas infecciones oculares.
 
-**Este análisis no respalda un vínculo mecanístico** con la nueva indicación. La única publicación citada describe un brote de queratoconjuntivitis por **microsporidios**, y los microsporidios no son un blanco de las fluoroquinolonas. El puntaje de 0.999 es solo una predicción del grafo de conocimiento y no indica eficacia clínica. La similitud con la indicación original tampoco está evaluada todavía.
+La predicción probablemente refleja la cercanía en la red de conocimiento con indicaciones de infección ocular. Sin embargo, el único artículo recuperado trata de un brote de queratoconjuntivitis microsporidial asociado a agua contaminada en piscinas en Taiwán. Los microsporidios no son bacterias y no son susceptibles a la inhibición de la girasa bacteriana, por lo que no existe sustento mecanístico ni clínico que respalde a levofloxacino en esta condición.
 
-Existe una solución oftálmica de levofloxacino registrada en Colombia, pero la compatibilidad de vía de administración con esta indicación está pendiente de evaluar.
-
----
+Por lo tanto, el puntaje alto del modelo debe interpretarse con cautela: es una señal computacional, no una evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Reporte de brote | American Journal of Ophthalmology | Brote de queratoconjuntivitis microsporidiana asociado a contaminación del agua de piscinas en Taiwán. No evalúa levofloxacino ni respalda su uso. |
-
----
+| [30055152](https://pubmed.ncbi.nlm.nih.gov/30055152/) | 2018 | Informe de brote | American Journal of Ophthalmology | Brote de queratoconjuntivitis microsporidial asociado a contaminación del agua en piscinas en Taiwán; no aporta evidencia sobre levofloxacino |
 
 ## Información de Mercado en Colombia
 
+Todos los registros sanitarios están cancelados.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20134443 | LANDAX (Laboratorios Sophia S.A. de C.V.) | Solución oftálmica | LEVOFLOXACINO (el registro no detalla la indicación) |
-
-Los datos de entrada repetían el mismo registro cinco veces, así que se muestra una sola fila. El total informado es de 20 registros. Además de la solución oftálmica, hay formas orales: tableta cubierta con película y tableta recubierta.
-
----
+| 20134443 | LANDAX | Solución oftálmica | Levofloxacino |
+| 20087579 | LEQUIBAC® | Tableta cubierta con película | Levofloxacina |
+| 20094747 | PRINF® 750 MG TABLETAS RECUBIERTAS | Tableta recubierta | Levofloxacina |
+| 20077633 | AVOSAL® | Tableta recubierta | Levofloxacina |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+No se dispone de texto de advertencias ni contraindicaciones del prospecto. A continuación se presentan datos del grafo de conocimiento (no provienen del prospecto).
 
----
+- **Contraindicaciones o condiciones de riesgo según el grafo de conocimiento**: síndrome de QT largo (incluido el familiar), torsades de pointes, epilepsia, enfermedad hepática y lesión hepática inducida por fármacos, enfermedad de la vesícula biliar, trombocitopenia, leucopenia, pancitopenia, anemia, deficiencia de potasio, tendinitis y otras afecciones de tendones, diabetes mellitus y cetoacidosis diabética, neuropatía periférica, rabdomiólisis, colitis por *Clostridium difficile*, insuficiencia renal, miastenia gravis y enfermedades de la unión neuromuscular, isquemia miocárdica y enfermedad coronaria.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las de nivel **mayor** figuran **tramadol** e **hidrocortisona**. Entre las de nivel moderado se encuentran abiraterona, acarbosa, famotidina, formoterol, ketorolaco, adenosina, ibuprofeno, etinilestradiol, albiglutida, salbutamol, alfuzosina, alogliptina, metformina, pioglitazona y amifampridina. Entre las de nivel menor: paclitaxel, aldesleukina y altretamina.
+
+Consultar el prospecto para confirmar la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene nivel de evidencia L5: sin ensayos clínicos y con una única publicación que no guarda relación mecanística con el fármaco. Además, faltan datos de seguridad de INVIMA.
+La predicción para queratoconjuntivitis epitelial punteada solo cuenta con respaldo computacional (L5): no hay ensayos clínicos, y la única publicación trata de una infección por microsporidios, frente a los cuales las fluoroquinolonas no tienen actividad esperada. Además, los 4 registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
-- Obtener el mecanismo de acción desde DrugBank y confirmar las indicaciones originales aprobadas, porque el campo está vacío.
-- Buscar ensayos y literatura específicos de levofloxacino en queratoconjuntivitis epitelial punteada.
-- Evaluar la compatibilidad de vía de administración (por ejemplo, la solución oftálmica ya registrada).
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones), actualmente no disponibles.
+- Evidencia clínica o preclínica que demuestre actividad de levofloxacino en esta condición; de lo contrario, la señal debe tratarse como un artefacto del modelo.
+- Confirmar la situación regulatoria en Colombia (registros cancelados, incluida la presentación oftálmica).
 
-**Nota:** dentro de las 10 predicciones del paquete, otras tienen más respaldo que esta. La **peste septicémica** (L3, Proceed with Guardrails) cuenta con estudios preclínicos en primates. Es probable que ya esté en la etiqueta del fármaco, por lo que quizá no sea un reposicionamiento real. La **gammapatía monoclonal** (L2, pregunta de investigación) se apoya en el ECA de fase 3 TEAMM, que estudió mieloma sintomático y no MGUS, así que no debe extrapolarse a MGUS asintomática.
+**Otras predicciones del modelo con evidencia (para referencia):**
+- **Gammapatía monoclonal** (puntaje 99.81%): existe un ECA de Fase 3 (TEAMM, PMID 31668592) sobre profilaxis con levofloxacino, pero en mieloma múltiple sintomático. No es extrapolable a la gammapatía monoclonal premaligna, por lo que se considera una pregunta de investigación.
+- **Peste septicémica** (puntaje 99.80%): levofloxacino está aprobado por la FDA para peste bajo la Regla de Eficacia Animal, con evidencia principalmente en modelos animales. Es un uso antibacteriano real, no un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

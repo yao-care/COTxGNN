@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Natalizumab
-parent: Solo Predicción del Modelo (L5)
-nav_order: 293
-evidence_level: L5
+parent: Evidencia Moderada (L3-L4)
+nav_order: 463
+evidence_level: L4
 indication_count: 5
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,32 +29,31 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Natalizumab: De Esclerosis Múltiple a Bronquitis
+# Natalizumab: De Esclerosis Múltiple a Psoriasis
 
 ## Resumen en Una Frase
 
-Natalizumab es un anticuerpo monoclonal que bloquea la integrina alfa-4 y se comercializa en Colombia como Tysabri®. La literatura asociada lo ubica en el tratamiento de la esclerosis múltiple recurrente-remitente; el registro sanitario solo lista el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **Bronquitis**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+Natalizumab es un anticuerpo monoclonal anti-integrina alfa4, con registros sanitarios en Colombia bajo el nombre Tysabri®, actualmente cancelados. El modelo TxGNN predice que podría ser efectivo para **psoriasis**, pero no hay ensayos clínicos registrados y la literatura disponible es de bajo nivel y con resultados contradictorios: hay una serie de casos con mejoría y varios reportes de psoriasis inducida o agravada por el fármaco.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (solo figura "NATALIZUMAB"); la literatura lo asocia con esclerosis múltiple |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.46% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 4 filas (2 números de registro únicos: 20241992 y 20006016) |
+| Indicación Original | Natalizumab (el registro sanitario no detalla el texto de la indicación) |
+| Nueva Indicación Predicha | Psoriasis |
+| Puntaje de Predicción TxGNN | 99.19% |
+| Nivel de Evidencia | L4 |
+| Estado de Mercado en Colombia | Solo registros cancelados |
+| Número de Registros Sanitarios | 2 (ninguno vigente) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la información conocida, natalizumab bloquea la migración de leucocitos mediada por la integrina alfa-4, lo que reduce el paso de linfocitos hacia los tejidos inflamados. Esta acción es la base de su uso en enfermedades autoinmunes.
+Natalizumab es un anticuerpo dirigido contra la integrina alfa4, que bloquea la migración de leucocitos hacia los tejidos inflamados. Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción del fármaco, pero esta función de bloqueo del tráfico leucocitario es la base de su uso conocido en enfermedades inflamatorias mediadas por el sistema inmune.
 
-Con estos datos no se puede sustentar un vínculo mecanístico con la bronquitis. La puntuación de 0.995 proviene solo de una predicción basada en grafos de conocimiento, sin estudios reales que la acompañen.
+La psoriasis es una enfermedad inflamatoria de la piel impulsada por linfocitos T. Por ello, bloquear la migración de células T es biológicamente plausible. Además, las revisiones sobre integrinas leucocitarias y terapias anti-adhesión (PMID 25448040, 15955735) respaldan esta lógica general.
 
-Además, natalizumab es un agente inmunosupresor y podría aumentar el riesgo de infecciones respiratorias. Esto va en dirección contraria al beneficio predicho. Por ahora la predicción no tiene respaldo y conviene tratarla con cautela.
+Sin embargo, la evidencia clínica apunta en direcciones opuestas. Una serie de 18 pacientes con esclerosis múltiple y psoriasis comórbida describe mejoría con natalizumab, mientras que varios reportes de caso describen psoriasis inducida o agravada por el mismo fármaco. Por tanto, la plausibilidad mecanística no basta para respaldar esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -62,36 +61,54 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible.
+Se listan las publicaciones más relevantes, priorizando estudios observacionales y reportes de caso directamente ligados a psoriasis, seguidos de revisiones.
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [33589543](https://pubmed.ncbi.nlm.nih.gov/33589543/) | 2021 | Observacional / serie de casos | Neurology Neuroimmunology & Neuroinflammation | Observaciones en 18 pacientes con esclerosis múltiple y psoriasis comórbida tratados con natalizumab; reporta mejoría de la psoriasis |
+| [35646438](https://pubmed.ncbi.nlm.nih.gov/35646438/) | 2022 | Reporte de caso (evento adverso) | Dermatology Practical & Conceptual | Psoriasis pustulosa de palmas y plantas inducida por natalizumab |
+| [28905124](https://pubmed.ncbi.nlm.nih.gov/28905124/) | 2018 | Reporte de caso con revisión | Neurological Sciences | Psoriasis artrítica durante el tratamiento con natalizumab |
+| [30323758](https://pubmed.ncbi.nlm.nih.gov/30323758/) | 2018 | Reporte de caso con revisión | Case Reports in Neurology | Psoriasis en placas en un paciente de 33 años durante el tratamiento; discute si natalizumab induce o agrava la enfermedad |
+| [40526577](https://pubmed.ncbi.nlm.nih.gov/40526577/) | 2025 | Revisión | Deutsches Ärzteblatt International | Opciones de tratamiento para la comorbilidad de esclerosis múltiple con otras enfermedades inflamatorias crónicas, entre ellas la psoriasis |
+| [25448040](https://pubmed.ncbi.nlm.nih.gov/25448040/) | 2015 | Revisión | Pharmacology & Therapeutics | Papel de las integrinas leucocitarias en el reclutamiento de leucocitos y como dianas terapéuticas |
+| [15955735](https://pubmed.ncbi.nlm.nih.gov/15955735/) | 2005 | Revisión | Current Opinion in Pharmacology | Terapias anti-adhesión dirigidas a moléculas de adhesión celular |
+| [20298966](https://pubmed.ncbi.nlm.nih.gov/20298966/) | 2010 | Revisión (seguridad PML) | The Lancet Neurology | Características clínicas y patogénesis de la leucoencefalopatía multifocal progresiva (LMP) asociada a anticuerpos monoclonales como natalizumab |
+| [24136456](https://pubmed.ncbi.nlm.nih.gov/24136456/) | 2013 | Revisión (seguridad PML) | Current Neurology and Neuroscience Reports | LMP en esclerosis múltiple tras la introducción de agentes biológicos como natalizumab |
+| [30324046](https://pubmed.ncbi.nlm.nih.gov/30324046/) | 2018 | Mini revisión | Cureus | LMP asociada a natalizumab en pacientes con esclerosis múltiple |
 
 ## Información de Mercado en Colombia
 
-Las 4 filas del registro corresponden a 2 números de registro sanitario, cada uno repetido dos veces.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML (BIIB Colombia SAS) | Solución inyectable | No detallada en el registro (solo figura "NATALIZUMAB") |
-| 20006016 | TYSABRI® (BIIB Colombia S.A.S.) | Solución concentrada para infusión | No detallada en el registro (solo figura "NATALIZUMAB") |
+| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML | Solución inyectable | Natalizumab (cancelado) |
+| 20006016 | TYSABRI® | Solución concentrada para infusión | Natalizumab (cancelado) |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Contraindicaciones (grafo de conocimiento TxGNN, no texto del prospecto)**: leucoencefalopatía multifocal progresiva (LMP). La literatura revisada documenta repetidamente casos de LMP asociados a natalizumab, una infección cerebral grave y a menudo fatal causada por el virus JC.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones. Entre las principales:
+  - **Mayor**: corticoides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona), mercaptopurina, levamisol, trimetrexato, ibritumomab tiuxetán, tositumomab (incluido el marcado con I-131) y iobenguano (I-131).
+  - **Moderada**: naltrexona.
+  - **Menor**: sales de zinc (sulfato, acetato, gluconato, cloruro).
+- **Reacciones cutáneas**: los reportes de caso muestran psoriasis inducida o agravada, lo que es una señal de seguridad específica para esta indicación.
+
+Para advertencias y contraindicaciones del prospecto, consultar directamente el prospecto del producto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de bronquitis está en el nivel L5: solo hay un puntaje del modelo, sin ensayos ni publicaciones. Además, el perfil inmunosupresor de natalizumab sugiere un posible aumento del riesgo de infecciones respiratorias, no un beneficio.
+La evidencia se limita a una serie de casos favorable, varios reportes de psoriasis inducida o agravada por natalizumab y revisiones generales, sin ensayos clínicos. Sumado al riesgo de LMP y a que los registros sanitarios en Colombia están cancelados, no hay base para avanzar con esta indicación.
 
 **Para avanzar se necesita:**
-- Estudios preclínicos o clínicos que muestren un beneficio real de natalizumab en bronquitis.
-- Datos de seguridad del prospecto de INVIMA (advertencias y contraindicaciones), que hoy faltan y bloquean el tamizaje de seguridad.
-- Datos del mecanismo de acción desde DrugBank para analizar el vínculo mecanístico.
-- Confirmar la indicación aprobada en Colombia, ya que el registro solo lista el nombre del principio activo.
-- Como referencia, otras predicciones del mismo fármaco (por ejemplo, psoriasis) tienen más literatura, pero es contradictoria: hay reportes de psoriasis inducida o agravada por natalizumab y un reporte de mejoría en pacientes con esclerosis múltiple. Por eso también están en Hold.
+- Resolver la contradicción sobre el efecto en psoriasis (mejoría frente a inducción o agravamiento), idealmente con estudios controlados.
+- Datos del mecanismo de acción desde DrugBank para fortalecer el análisis mecanístico.
+- Obtener y revisar el prospecto de INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad.
+- Evaluar la relación beneficio-riesgo frente a alternativas ya aprobadas para psoriasis, dado el riesgo de LMP.
+- Aclarar la situación regulatoria, ya que ambos registros sanitarios están cancelados y no existe comercialización vigente.
 
-*Este informe es solo para fines de investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica antes de su aplicación.*
+**Nota sobre otras indicaciones predichas:** bronquitis, retinopatía diabética no proliferativa grave, parapsoriasis y pitiriasis liquenoide aguda también tienen decisión Hold. Las dos primeras no cuentan con ensayos ni literatura (L5). Las dos últimas solo cuentan con un reporte de caso de eventos adversos cutáneos (L4), que no demuestra beneficio terapéutico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

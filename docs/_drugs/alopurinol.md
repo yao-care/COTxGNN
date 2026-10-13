@@ -2,7 +2,7 @@
 layout: default
 title: Alopurinol
 parent: Solo Predicción del Modelo (L5)
-nav_order: 37
+nav_order: 39
 evidence_level: L5
 indication_count: 0
 ---

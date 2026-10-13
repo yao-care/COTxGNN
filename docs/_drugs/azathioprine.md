@@ -2,7 +2,7 @@
 layout: default
 title: Azathioprine
 parent: Solo Predicción del Modelo (L5)
-nav_order: 70
+nav_order: 82
 evidence_level: L5
 indication_count: 10
 ---
@@ -29,12 +29,16 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azatioprina: De Indicación Original No Especificada a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+# Azatioprina: De Indicación Original (AZATIOPRINA) a Enfermedad Inflamatoria Intestinal
+
+> Nota: el modelo TxGNN ubica en primer lugar de su lista a "síndrome de microftalmia colobomatosa-displasia rizomélica" (puntaje 99.99 %), pero sin evidencia ni plausibilidad biológica. Este informe se centra en la **enfermedad inflamatoria intestinal (EII)**, la primera indicación con evidencia clínica real (rango 5 del modelo), y menciona la colitis ulcerosa como indicación estrechamente relacionada.
+
+---
 
 ## Resumen en Una Frase
 
-La azatioprina es un inmunosupresor antimetabolito de purinas, comercializado en Colombia. Los registros sanitarios no detallan su indicación original.
-El modelo TxGNN predice que podría ser efectiva para el **síndrome de microftalmia colobomatosa-displasia rizomélica**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente del grafo de conocimiento.
+La azatioprina es un inmunosupresor análogo de purinas, registrado en Colombia bajo la denominación genérica "AZATIOPRINA" sin una indicación detallada en los registros.
+El modelo TxGNN predice que podría ser efectiva para la **enfermedad inflamatoria intestinal**, con **25 ensayos clínicos** y **20 publicaciones** en los datos compilados. Se trata de un uso ya establecido en la práctica clínica, por lo que es más una validación que un reposicionamiento novedoso.
 
 ---
 
@@ -42,80 +46,118 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de microfta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro sanitario solo dice «AZATIOPRINA», sin texto de indicación) |
-| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa-displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.9994% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
-| Decisión Recomendada | Hold |
+| Indicación Original | AZATIOPRINA (el registro sanitario no detalla la indicación) |
+| Nueva Indicación Predicha | Enfermedad inflamatoria intestinal (rango 5 del modelo) |
+| Puntaje de Predicción TxGNN | 99.52 % (la predicción de mayor puntaje, 99.99 %, carece de evidencia y de plausibilidad biológica) |
+| Nivel de Evidencia | L1 (según la clasificación del análisis; véase la nota en Conclusión) |
+| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el Evidence Pack. Según la información conocida, la azatioprina actúa como inmunosupresor antimetabolito de purinas, y su eficacia se ha documentado en enfermedades inmunomediadas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, la azatioprina se metaboliza a 6-mercaptopurina y luego a nucleótidos de 6-tioguanina, que inhiben la síntesis de purinas e inducen apoptosis de linfocitos T (incluso mediante inhibición de Rac1). Esto reduce la activación inmune de la mucosa intestinal.
 
-**Esta predicción no tiene un vínculo mecanístico plausible.** El síndrome de microftalmia colobomatosa-displasia rizomélica es una malformación congénita del desarrollo. No hay un blanco inmunológico que la azatioprina pueda modular. El puntaje alto refleja una asociación del grafo, no una razón biológica ni clínica.
+La indicación original no está detallada en los registros colombianos, pero la azatioprina es un inmunosupresor de uso clásico. La EII (enfermedad de Crohn y colitis ulcerosa) es un trastorno inflamatorio crónico mediado por el sistema inmune, por lo que la supresión de la proliferación linfocitaria es mecanísticamente coherente. La literatura describe a las tiopurinas como inmunomoduladores de primera línea para mantener la remisión libre de corticoides.
+
+Por ello, la predicción se considera razonable y respaldada por décadas de experiencia clínica. Para la colitis ulcerosa, una revisión Cochrane (con versiones hasta 2025) evalúa su eficacia en el mantenimiento de la remisión; la evidencia es más sólida para el mantenimiento que para la inducción.
 
 ---
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+Se muestran los 10 ensayos más relevantes de EII (de 25 registrados), priorizando los de mayor relevancia directa.
+
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) | Fase 4 | Reclutando | 300 | Mirikizumab "top-down" vs. tratamiento estándar con azatioprina en colitis ulcerosa recién diagnosticada; azatioprina como comparador |
+| [NCT02177071](https://clinicaltrials.gov/study/NCT02177071) | Fase 4 | Completado | 211 | Infliximab con antimetabolitos (incluida azatioprina) vs. monoterapia en Crohn en remisión sin esteroides |
+| [NCT00537316](https://clinicaltrials.gov/study/NCT00537316) | Fase 3 | Terminado | 242 | Infliximab solo o con azatioprina vs. azatioprina sola en colitis ulcerosa moderada a grave |
+| [NCT02247258](https://clinicaltrials.gov/study/NCT02247258) | Fase 2 | Terminado | 63 | Azatioprina sistemática vs. dirigida por endoscopia para prevenir la recurrencia posoperatoria en Crohn ileal |
+| [NCT00976690](https://clinicaltrials.gov/study/NCT00976690) | Fase 3 | Completado | 83 | Azatioprina vs. mesalazina para prevenir la recurrencia posoperatoria en Crohn |
+| [NCT01564823](https://clinicaltrials.gov/study/NCT01564823) | Fase 3 | Completado | 86 | Adalimumab vs. azatioprina para prevenir la recurrencia endoscópica posoperatoria en Crohn |
+| [NCT01235689](https://clinicaltrials.gov/study/NCT01235689) | Fase 3 | Completado | 252 | Dos algoritmos de tratamiento en Crohn moderado a grave; participación de azatioprina no confirmada |
+| [NCT02425852](https://clinicaltrials.gov/study/NCT02425852) | Fase 4 | Completado | 65 | Infliximab + azatioprina vs. corticoides + azatioprina en colitis aguda grave |
+| [NCT00521950](https://clinicaltrials.gov/study/NCT00521950) | N/A | Completado | 853 | Genotipificación de TPMT antes de tiopurinas en EII; relevante para dosificación y seguridad |
+| [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) | Fase 3 | Desconocido | 84 | Azatioprina en dosis baja + alopurinol vs. azatioprina sola en colitis ulcerosa |
+
+Varios ensayos de Fase 3 fueron terminados antes de tiempo o tienen inscripción pequeña, lo que limita su peso.
 
 ---
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para esta indicación.
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) | 2025 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Actualización sobre azatioprina y 6-mercaptopurina para mantener la remisión en colitis ulcerosa |
+| [27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) | 2016 | Revisión sistemática (Cochrane) | Cochrane Database Syst Rev | Eficacia de tiopurinas en el mantenimiento de la remisión en colitis ulcerosa |
+| [39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) | 2025 | Ensayo clínico (ECA) | Gut | Infliximab "top-down" + azatioprina vs. azatioprina sola en colitis aguda grave respondedora a esteroides (ensayo ACTIVE) |
+| [29293971](https://pubmed.ncbi.nlm.nih.gov/29293971/) | 2018 | Revisión | J Crohns Colitis | Panorama del tratamiento con tiopurinas en EII |
+| [19072367](https://pubmed.ncbi.nlm.nih.gov/19072367/) | 2008 | Revisión | Expert Rev Gastroenterol Hepatol | Mecanismo molecular y datos clínicos que documentan la eficacia de tiopurinas |
+| [16048561](https://pubmed.ncbi.nlm.nih.gov/16048561/) | 2005 | Revisión | J Gastroenterol Hepatol | Farmacogenética y monitoreo de metabolitos; toxicidad grave en 9-25 % de los pacientes |
+| [15177535](https://pubmed.ncbi.nlm.nih.gov/15177535/) | 2004 | Revisión | Gastroenterol Clin North Am | Eficacia y toxicidad de azatioprina y 6-mercaptopurina en EII |
+| [37586320](https://pubmed.ncbi.nlm.nih.gov/37586320/) | 2023 | Preclínico/mecanístico | Cell Rep Med | Bacterias comensales (Blautia wexlerae) favorecen el fracaso terapéutico al reducir la biodisponibilidad de 6-MP |
+| [30889246](https://pubmed.ncbi.nlm.nih.gov/30889246/) | 2019 | Preclínico/mecanístico | Inflamm Bowel Dis | La azatioprina induce autofagia vía mTORC1 y PERK |
+| [32799195](https://pubmed.ncbi.nlm.nih.gov/32799195/) | 2020 | Revisión | Digestion | Asociación entre EII y neoplasias malignas |
 
 ---
 
 ## Información de Mercado en Colombia
 
-Se recibieron 5 filas de registros, que corresponden a 2 registros sanitarios distintos (de un total de 20).
+Los cuatro registros sanitarios están cancelados; no hay productos vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20141515 | AZATIOPRINA 50 MG TABLETA RECUBIERTA | Tableta recubierta | No detallada (solo figura «AZATIOPRINA») |
-| 46266 | IMURAN® 50 MG | Tableta recubierta | No detallada (solo figura «AZATIOPRINA») |
+| 20141515 | AZATIOPRINA 50 MG TABLETA RECUBIERTA | Tableta recubierta | AZATIOPRINA |
+| 46266 | IMURAN® 50 MG | Tableta recubierta | AZATIOPRINA |
+| 20137850 | AZAKEM® 50 MG TABLETAS | Tableta | AZATIOPRINA |
+| 20023909 | AZATIOPRINA 50 MG | Tableta | AZATIOPRINA |
 
 ---
 
-## Otras Indicaciones Predichas con Evidencia
+## Citotoxicidad
 
-Las siguientes indicaciones del mismo modelo tienen más respaldo que la de rango 1. Se incluyen como contexto y no sustituyen la evaluación principal.
+Aunque no es un antineoplásico clásico, la azatioprina es un antimetabolito de purinas con efecto citotóxico sobre células en proliferación; la información se resume por esta razón.
 
-| Indicación (rango) | Puntaje TxGNN | Nivel | Decisión | Evidencia destacada |
-|------|------|------|------|------|
-| Enfermedad inflamatoria intestinal (5) | 99.52% | L2 | Proceed with Guardrails | [NCT07235904](https://clinicaltrials.gov/study/NCT07235904) (Fase 4, reclutando, n=300, azatioprina como comparador estándar); [NCT05040464](https://clinicaltrials.gov/study/NCT05040464) (Fase 3, reclutando, n=166, azatioprina vs metotrexato con adalimumab en Crohn); [NCT00946946](https://clinicaltrials.gov/study/NCT00946946) (Fase 3, completado, n=78, azatioprina vs mesalazina en Crohn posoperatorio) |
-| Colitis ulcerosa (9) | 99.33% | L2 | Proceed with Guardrails | [NCT03101800](https://clinicaltrials.gov/study/NCT03101800) (Fase 3, estado desconocido, n=84, azatioprina en dosis baja + alopurinol vs azatioprina sola); revisiones Cochrane [PMID 40013523](https://pubmed.ncbi.nlm.nih.gov/40013523/) (2025) y [PMID 27192092](https://pubmed.ncbi.nlm.nih.gov/27192092/) (2016); ECA [PMID 39586616](https://pubmed.ncbi.nlm.nih.gov/39586616/) (Gut, 2025, infliximab + azatioprina vs azatioprina sola en colitis grave aguda) |
-
-Estos usos son práctica estándar fuera de indicación, no una señal nueva de reposicionamiento. El Evidence Pack indica que no hay un ECA de Fase 3 con azatioprina en EII, pero NCT00946946 figura como Fase 3 completado con azatioprina en Crohn. Conviene verificar este punto antes de fijar el nivel definitivo. Aun así, un solo ECA de Fase 3 completado mantiene el nivel en L2, no en L1.
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Inmunosupresor antimetabolito (análogo de purinas, clase tiopurina) |
+| Riesgo de Mielosupresión | Alto en personas con deficiencia de TPMT/NUDT15 (leucopenia, trombocitopenia, anemia) |
+| Clasificación de Emetogenicidad | Baja a moderada |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, genotipo TPMT/NUDT15 antes de iniciar |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto y las normas institucionales de manejo de fármacos citotóxicos |
 
 ---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones asociadas a contraindicación o riesgo (grafo de conocimiento, no texto del prospecto):** pancreatitis, trombocitopenia, anemia (incluida la macrocítica), insuficiencia renal, enfermedades infecciosas (fúngicas y dermatofitosis), linfoma (incluido linfoma primario del sistema nervioso central, linfosarcoma y linfoma hepatoesplénico de células T), trombosis de la vena hepática y síndrome de Budd-Chiari.
+- **Interacciones farmacológicas (100 registradas; se muestran las principales):**
+  - Moderadas: mesalazina, balsalazida, olsalazina y sulfasalazina (aminosalicilatos, de uso frecuente en EII).
+  - Leves: acetato, gluconato y sulfato de zinc.
+  - Nivel no clasificado: epinefrina, anfotericina B, ácido acetilsalicílico, calcitriol, pantoprazol, glimepirida, doxiciclina, clotrimazol, morfina, metformina, omeprazol, sucralfato y rosiglitazona.
+- **Guardarraíles clínicos identificados:** genotipificación de TPMT/NUDT15, monitoreo de mielosupresión y hepatotoxicidad, y vigilancia del riesgo de linfoma y neoplasias (especialmente en combinación con anti-TNF).
+
+Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
 
 ---
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Para el síndrome de microftalmia colobomatosa-displasia rizomélica no existe ningún ensayo, publicación ni vínculo mecanístico documentado. La predicción es solo una salida del grafo, con nivel L5.
+Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y un ensayo reciente (ACTIVE, 2025) que respaldan el uso de azatioprina en EII y colitis ulcerosa, con mecanismo bien establecido. Sin embargo, es un uso ya consolidado más que un reposicionamiento nuevo, varios ensayos de Fase 3 fueron terminados prematuramente y todos los registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
-- Descartar esta predicción como candidata, o justificarla con datos preclínicos o mecanísticos que hoy no existen.
-- Priorizar la evaluación de enfermedad inflamatoria intestinal y colitis ulcerosa, con salvaguardas: genotipificación TPMT/NUDT15, monitoreo de metabolitos 6-TGN/6-MMP, hemograma y función hepática.
-- Obtener del sitio de INVIMA el prospecto con advertencias y contraindicaciones, y datos del mecanismo de acción desde DrugBank.
-- Aclarar la indicación aprobada en los registros sanitarios colombianos, que hoy solo muestran el nombre del fármaco.
-
-*Este informe es solo de referencia para investigación y no constituye consejo médico. Cualquier candidato de reposicionamiento requiere validación clínica.*
+- Verificar la disponibilidad real del producto en Colombia, dado que no hay registros vigentes (renovar o tramitar un nuevo registro).
+- Obtener las advertencias y contraindicaciones del prospecto desde INVIMA, lo cual es un vacío bloqueante para el tamizaje de seguridad.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Implementar un plan de seguridad: genotipificación TPMT/NUDT15, hemograma y pruebas hepáticas periódicas, y vigilancia de infecciones y neoplasias.
+- Nota sobre el nivel de evidencia: el L1 asignado se apoya en ensayos de Fase 3 con varios terminados antes de tiempo y en revisiones Cochrane; conviene confirmar que se cumpla el criterio de al menos 2 ECA de Fase 3 completados (los Fase 3 completados en los datos son NCT01235689, NCT01564823 y NCT00976690, de los cuales solo los dos últimos comparan directamente con azatioprina).
+- Descartar las demás predicciones de alto puntaje sin evidencia (por ejemplo, síndromes malformativos, displasias esqueléticas, síndrome WHIM y enfermedades granulomatosas crónicas), que carecen de plausibilidad biológica y, en algunos casos, podrían ser perjudiciales por el riesgo de inmunosupresión adicional.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

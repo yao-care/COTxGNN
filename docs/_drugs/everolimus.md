@@ -1,16 +1,16 @@
 ---
 layout: default
 title: Everolimus
-parent: Solo Predicción del Modelo (L5)
-nav_order: 192
-evidence_level: L5
+parent: Evidencia Alta (L1-L2)
+nav_order: 273
+evidence_level: L2
 indication_count: 10
 ---
 
 # Everolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -29,86 +29,106 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Everolimus: De Indicación No Especificada en el Registro a Liposarcoma
+# Everolimus: De Indicación Original No Especificada a Liposarcoma
 
 ## Resumen en Una Frase
 
-Everolimus es un inhibidor de mTOR comercializado en Colombia como AFINITOR®. El registro sanitario no detalla su indicación original.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico de Fase 2** (en combinación con ribociclib) y **5 publicaciones** relacionadas. La evidencia es preliminar y no aísla el efecto de everolimus por sí solo.
+Everolimus es un inhibidor de mTOR que contó con registros sanitarios en Colombia (Afinitor® y Evascend®), aunque el texto de indicación registrado solo repite el nombre del principio activo y no detalla la indicación original.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** y **4 publicaciones** que actualmente respaldan esta dirección (una sola de ellas es un reporte de ensayo clínico directamente relacionado).
+La evidencia disponible proviene de un ensayo de Fase 2 de un solo brazo que combina everolimus con ribociclib, por lo que el aporte del everolimus por sí solo no puede aislarse.
+
+---
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el texto del registro solo repite el nombre del principio activo, "EVEROLIMUS") |
+| Indicación Original | No especificada en el registro (el texto de indicación solo indica "EVEROLIMUS") |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 99.88% |
-| Nivel de Evidencia | L2 (provisional: el único ensayo de Fase 2 sigue activo, sin reclutar, y es una combinación) |
-| Estado de Mercado en Colombia | ✓ Comercializado |
-| Número de Registros Sanitarios | 20 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
+
+---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el paquete de evidencia. Según la literatura recuperada, everolimus es un inhibidor de mTOR, una vía de señalización que controla el crecimiento y la proliferación celular. Mecanísticamente podría ser aplicable al liposarcoma.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general del fármaco, everolimus inhibe mTORC1, una vía situada aguas abajo de la señalización PI3K/AKT que regula la proliferación y el crecimiento celular.
 
-Un estudio con 99 muestras de liposarcoma desdiferenciado (PMID 26518767) reportó activación de las vías Akt-mTOR y MAPK. Esto respalda la idea de bloquear mTOR en este tumor. Además, la amplificación de CDK4 es característica del liposarcoma desdiferenciado, y por eso el ensayo de Fase 2 combina everolimus con ribociclib (inhibidor de CDK4/6). En modelos tumorales, esta combinación mostró inhibición sinérgica del crecimiento.
+En el liposarcoma desdiferenciado (con amplificación de CDK4/MDM2), la inhibición combinada de CDK4/6 (ribociclib) y de mTOR (everolimus) actúa sobre dos vías proliferativas complementarias. Los modelos tumorales han mostrado sinergia en la inhibición del crecimiento con esta combinación, lo que ofrece una base biológica plausible.
 
-Esta evidencia tiene limitaciones importantes. El ensayo es de combinación y probablemente de un solo brazo por cohorte, por lo que no se puede separar la contribución propia de everolimus. Los resultados de eficacia tampoco están confirmados en los datos disponibles.
+Sin embargo, el puntaje de TxGNN es muy alto, pero la señal clínica descansa en un único ensayo de Fase 2 de un solo brazo con una combinación de fármacos, cuyos resultados no están claramente establecidos en los datos compilados. La relación con la indicación original no puede evaluarse porque el registro local no la detalla.
+
+---
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Activo, sin reclutar | 48 | Ribociclib + everolimus en liposarcoma desdiferenciado (Brazo A) y leiomiosarcoma (Brazo B) tras al menos una terapia sistémica previa. Evalúa la actividad antitumoral de la combinación. Inicio en 2017 y finalización prevista en diciembre de 2025. |
+| [NCT03114527](https://clinicaltrials.gov/study/NCT03114527) | Fase 2 | Activo, sin reclutamiento | 48 | Ribociclib + everolimus en liposarcoma desdiferenciado (DDL) avanzado y leiomiosarcoma (LMS) tras al menos una terapia sistémica previa; evalúa la actividad antitumoral de la combinación. Finalización prevista: diciembre de 2026 |
+
+---
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Ensayo clínico (Fase 2) | Clin Cancer Res | Reporte del ensayo de ribociclib + everolimus en liposarcoma desdiferenciado y leiomiosarcoma. La combinación mostró sinergia en modelos tumorales. El resumen disponible está truncado y no muestra resultados de eficacia. |
-| [26518767](https://pubmed.ncbi.nlm.nih.gov/26518767/) | 2016 | Estudio traslacional/tisular | Tumour Biol | Activación de las vías Akt-mTOR y MAPK en 99 muestras de liposarcoma desdiferenciado. Incluye un estudio in vitro con un inhibidor de mTOR. |
-| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Revisión | Front Oncol | Modelos de xenoinjerto ortotópico derivado de pacientes (PDOX) para identificar combinaciones con palbociclib en sarcomas. No es específico de everolimus. |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Res | Actividad antitumoral de eribulina combinada con otros agentes. No involucra everolimus según el título. |
-| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Preclínico | Oncogene | El inhibidor de XPO1 KPT-330 (selinexor) reduce la viabilidad celular en liposarcoma desdiferenciado. No involucra everolimus. |
+| [37967116](https://pubmed.ncbi.nlm.nih.gov/37967116/) | 2024 | Reporte de ensayo clínico Fase 2 | Clin Cancer Res | Ribociclib + everolimus en DDL y LMS avanzados; la combinación mostró sinergia en múltiples modelos tumorales |
+| [36003796](https://pubmed.ncbi.nlm.nih.gov/36003796/) | 2022 | Revisión (modelos preclínicos) | Front Oncol | Modelos PDOX de sarcoma para identificar combinaciones con palbociclib; no es específico de everolimus |
+| [41991999](https://pubmed.ncbi.nlm.nih.gov/41991999/) | 2026 | Preclínico | Oncogene | El inhibidor de XPO1 KPT-330 afecta la viabilidad celular en liposarcoma desdiferenciado; no es específico de everolimus |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Res | Actividad antitumoral de eribulina en combinación con otros agentes; no es específico de everolimus |
+
+---
 
 ## Información de Mercado en Colombia
 
-El paquete de evidencia lista 5 registros con datos idénticos (mismo número de registro), por lo que se muestran una sola vez. En total hay 20 registros sanitarios asociados.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20015207 | AFINITOR® 10 MG TABLETAS (Novartis Pharma A.G.) | Tableta | No detallada (solo indica el principio activo) |
+| 20015207 | AFINITOR® 10 MG TABLETAS (Novartis Pharma AG) | Tableta | EVEROLIMUS (estado: cancelado) |
+| 20263581 | EVASCEND® 1 MG TABLETA DE LIBERACIÓN INMEDIATA (Alkem Laboratories Limited) | Tableta de liberación modificada | EVEROLIMUS (estado: cancelado) |
 
-También hay presentaciones orales de tableta de liberación modificada.
+---
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de mTOR) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor de mTOR), usada en oncología |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. El grafo de conocimiento asocia el fármaco con neutropenia, leucopenia, trombocitopenia y anemia |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma, función hepática y renal, glucosa y perfil lipídico |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
+
+---
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
+- **Condiciones asociadas en el grafo de conocimiento (no provienen del texto del prospecto):** insuficiencia y enfermedad hepática, enfermedad renal, trombocitopenia, neutropenia, leucopenia, anemia, agranulocitosis, hiperglucemia, diabetes mellitus, cetoacidosis diabética, hipertrigliceridemia, hiperlipidemia, enfermedad pulmonar intersticial, insuficiencia cardíaca congestiva, estomatitis, derrame pericárdico y síndrome hemolítico urémico, entre otras.
+- **Interacciones Farmacológicas** (se identificaron 100; se listan las principales):
+  - **Mayores:** anfotericina B (incluida la formulación de complejo lipídico), aprepitant, dexametasona y claritromicina.
+  - **Moderadas:** antidiabéticos como acarbosa, metformina, glimepirida, clorpropamida, linagliptina, alogliptina, canagliflozina, dapagliflozina, empagliflozina, albiglutida y dulaglutida; también cimetidina, eliglustat y eluxadoline.
+  - **Menores:** sulfato de zinc.
+
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
+
+---
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Solo hay un ensayo de Fase 2 en liposarcoma. Es de combinación, sigue activo y no confirma la eficacia de everolimus por sí solo. Además, faltan datos de seguridad del prospecto local, lo que impide avanzar al tamizaje de seguridad.
+El puntaje de TxGNN es muy alto (99.88%), pero la evidencia clínica se limita a un ensayo de Fase 2 de un solo brazo con una combinación (ribociclib + everolimus) y sus resultados no están claramente establecidos. Además, no hay registros sanitarios vigentes en Colombia y falta la información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto del INVIMA (advertencias, contraindicaciones, interacciones).
-- Confirmar la indicación aprobada en el registro sanitario, ya que el texto solo repite el nombre del principio activo.
-- Obtener los resultados completos del ensayo NCT03114527 y del artículo PMID 37967116, en particular la cohorte de liposarcoma desdiferenciado.
-- Recuperar datos del mecanismo de acción desde DrugBank.
-- Considerar priorizar la indicación **rabdomiosarcoma**, que también tiene nivel L2 con 3 ensayos (uno de everolimus solo en población pediátrica, Fase 2, estado desconocido, n=20). Las demás indicaciones predichas están en L5, solo con predicción del modelo.
+- Resultados publicados de eficacia del ensayo NCT03114527 que permitan estimar el aporte del everolimus.
+- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones) para completar el tamizaje de seguridad.
+- Datos del mecanismo de acción desde DrugBank para fortalecer el análisis mecanístico.
+- Aclarar la indicación original aprobada, ya que el registro solo muestra el nombre del principio activo.
+- Evaluar la situación regulatoria: ambos registros están cancelados, por lo que sería necesario un nuevo registro o una vía de acceso alternativa.
+- Plan de monitoreo de seguridad hematológica, metabólica, hepática y renal, y revisión de interacciones (especialmente inhibidores o inductores de CYP3A4/P-gp y antidiabéticos).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
