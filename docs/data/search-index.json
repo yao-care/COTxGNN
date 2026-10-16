@@ -1,6 +1,6 @@
 {
   "generated": "2026-10-16",
-  "drug_count": 659,
+  "drug_count": 616,
   "indication_count": 1882,
   "drugs": [
     {
@@ -87,30 +87,6 @@
       ]
     },
     {
-      "name": "Abemaciclib",
-      "slug": "abemaciclib",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Abiraterona",
-      "slug": "abiraterona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Abiraterona Acetato",
-      "slug": "abiraterona-acetato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Aceclofenac",
       "slug": "aceclofenac",
       "brands": [],
@@ -170,22 +146,6 @@
       ]
     },
     {
-      "name": "Aceclofenaco",
-      "slug": "aceclofenaco",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Acetaminofem",
-      "slug": "acetaminofem",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Acetaminophen",
       "slug": "acetaminophen",
       "brands": [],
@@ -208,30 +168,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Acetato De Abiraterona",
-      "slug": "acetato-de-abiraterona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Acetato De Hidrocortisona",
-      "slug": "acetato-de-hidrocortisona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Acetato De Indacaterol",
-      "slug": "acetato-de-indacaterol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Acetazolamide",
@@ -433,14 +369,6 @@
       ]
     },
     {
-      "name": "Alcaftadina",
-      "slug": "alcaftadina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Alectinib",
       "slug": "alectinib",
       "brands": [],
@@ -498,14 +426,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Alemtuzumab",
-      "slug": "alemtuzumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Alfuzosin",
@@ -608,14 +528,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Alopurinol",
-      "slug": "alopurinol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Alprazolam",
@@ -865,14 +777,6 @@
       ]
     },
     {
-      "name": "Aminofilina",
-      "slug": "aminofilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Amiodarone",
       "slug": "amiodarone",
       "brands": [],
@@ -902,14 +806,6 @@
       ]
     },
     {
-      "name": "Amisulprida",
-      "slug": "amisulprida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Amlodipine",
       "slug": "amlodipine",
       "brands": [],
@@ -929,22 +825,6 @@
       ]
     },
     {
-      "name": "Amlodipino",
-      "slug": "amlodipino",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Amoxicilina",
-      "slug": "amoxicilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Amoxicillin",
       "slug": "amoxicillin",
       "brands": [],
@@ -957,14 +837,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Ampicilina",
-      "slug": "ampicilina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Ampicillin",
@@ -1080,22 +952,6 @@
       ]
     },
     {
-      "name": "Anastrozol",
-      "slug": "anastrozol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Apalutamida",
-      "slug": "apalutamida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Apixaban",
       "slug": "apixaban",
       "brands": [],
@@ -1183,22 +1039,6 @@
       ]
     },
     {
-      "name": "Arginina",
-      "slug": "arginina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Aripiprazol",
-      "slug": "aripiprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Aripiprazole",
       "slug": "aripiprazole",
       "brands": [],
@@ -1282,14 +1122,6 @@
       ]
     },
     {
-      "name": "Articaina",
-      "slug": "articaina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Ascorbic Acid",
       "slug": "ascorbic-acid",
       "brands": [],
@@ -1349,14 +1181,6 @@
           "level": "L3"
         }
       ]
-    },
-    {
-      "name": "Atazanavir Sulfato",
-      "slug": "atazanavir-sulfato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Atezolizumab",
@@ -1452,14 +1276,6 @@
       ]
     },
     {
-      "name": "Atorvastatina",
-      "slug": "atorvastatina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Atosiban",
       "slug": "atosiban",
       "brands": [],
@@ -1522,22 +1338,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Atropina Sulfato",
-      "slug": "atropina-sulfato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Avanafil",
-      "slug": "avanafil",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Avelumab",
@@ -1607,14 +1407,6 @@
       ]
     },
     {
-      "name": "Azacitidina",
-      "slug": "azacitidina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Azathioprine",
       "slug": "azathioprine",
       "brands": [],
@@ -1642,22 +1434,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Azatioprina",
-      "slug": "azatioprina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Azelastina Hcl",
-      "slug": "azelastina-hcl",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Azithromycin",
@@ -1692,14 +1468,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Azitromicina",
-      "slug": "azitromicina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Aztreonam",
@@ -1849,14 +1617,6 @@
       ]
     },
     {
-      "name": "Baclofeno",
-      "slug": "baclofeno",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Baricitinib",
       "slug": "baricitinib",
       "brands": [],
@@ -1869,30 +1629,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Basiliximab",
-      "slug": "basiliximab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Beclometasona",
-      "slug": "beclometasona",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Beclometasona Dipropionato",
-      "slug": "beclometasona-dipropionato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Beclomethasone Dipropionate",
@@ -1927,14 +1663,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Belatacept",
-      "slug": "belatacept",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Belimumab",
@@ -10243,14 +9971,6 @@
       ]
     },
     {
-      "name": "Lamivudina",
-      "slug": "lamivudina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Lamivudine",
       "slug": "lamivudine",
       "brands": [],
@@ -10278,14 +9998,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Lamotrigina",
-      "slug": "lamotrigina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Lamotrigine",
@@ -10430,14 +10142,6 @@
       ]
     },
     {
-      "name": "Lansoprazol",
-      "slug": "lansoprazol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Lansoprazole",
       "slug": "lansoprazole",
       "brands": [],
@@ -10514,22 +10218,6 @@
       ]
     },
     {
-      "name": "Lebrikizumab",
-      "slug": "lebrikizumab",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Leflunomida",
-      "slug": "leflunomida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Leflunomide",
       "slug": "leflunomide",
       "brands": [],
@@ -10557,14 +10245,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Lenalidomida",
-      "slug": "lenalidomida",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Lenalidomide",
@@ -10669,22 +10349,6 @@
       ]
     },
     {
-      "name": "Letrozol",
-      "slug": "letrozol",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
-      "name": "Leucina",
-      "slug": "leucina",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
-    },
-    {
       "name": "Leuprolide",
       "slug": "leuprolide",
       "brands": [],
@@ -10702,14 +10366,6 @@
           "level": "L5"
         }
       ]
-    },
-    {
-      "name": "Leuprolide Acetato",
-      "slug": "leuprolide-acetato",
-      "brands": [],
-      "original": "",
-      "level": "L5",
-      "indications": []
     },
     {
       "name": "Levetiracetam",
