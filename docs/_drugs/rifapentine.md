@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rifapentine: nueva indicación predicha, Lepra (nivel de evidencia L3). Indicación original: Rifapentin"
+monitor_inn: "Rifapentine"
+predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
 ---
 
 # Rifapentine

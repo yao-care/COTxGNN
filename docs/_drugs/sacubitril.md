@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Sacubitril: nueva indicación predicha, Nefropatía diabética (la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Valsartán y sacubitrilo"
+monitor_inn: "sacubitril"
+predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 ---
 
 # Sacubitril

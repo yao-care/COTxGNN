@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
+monitor_inn: "TACROLIMUS"
+predicted_indications: ["seborrheic dermatitis", "parapsoriasis", "dermatitis"]
 ---
 
 # Tacrolimus

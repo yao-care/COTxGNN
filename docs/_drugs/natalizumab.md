@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Natalizumab: nueva indicación predicha, Psoriasis (nivel de evidencia L4). Indicación original: Natalizumab"
+monitor_inn: "NATALIZUMAB"
+predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 ---
 
 # Natalizumab

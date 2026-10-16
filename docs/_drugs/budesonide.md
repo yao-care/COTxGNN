@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L4). Indicación original: Formoterol y budesonida (combinación inhalada para enfermedad respira…"
+monitor_inn: "Budesonide"
+predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
 ---
 
 # Budesonide

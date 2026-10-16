@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Iodixanol: nueva indicación predicha, Susceptibilidad a osteoartritis (nivel de evidencia L5). Indicación original: IODIXANOL"
+monitor_inn: "IODIXANOL"
+predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis"]
 ---
 
 # Iodixanol

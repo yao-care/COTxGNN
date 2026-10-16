@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bismuth Subsalicylate: nueva indicación predicha, Paratifoidea (fiebre paratifoidea) (nivel de evidencia L5). Indicación original: Subcitrato de bismuto / Subsalicilato de bismuto"
+monitor_inn: "Bismuth subsalicylate"
+predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
 ---
 
 # Bismuth Subsalicylate

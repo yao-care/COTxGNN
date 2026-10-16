@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Captopril: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L4). Indicación original: CAPTOPRIL"
+monitor_inn: "CAPTOPRIL"
+predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 ---
 
 # Captopril

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con compromiso esquelético (nivel de evidencia L3). Indicación original: Laronidasa"
+monitor_inn: "laronidase"
+predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
 ---
 
 # Laronidase

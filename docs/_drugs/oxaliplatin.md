@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Oxaliplatino"
+monitor_inn: "oxaliplatin"
+predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 ---
 
 # Oxaliplatin

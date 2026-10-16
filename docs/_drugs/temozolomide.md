@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Temozolomide: nueva indicación predicha, Tumor astrocítico del adulto (adult astrocytic tumour) (nivel de evidencia L1). Indicación original: Temozolomida"
+monitor_inn: "Temozolomide"
+predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
 ---
 
 # Temozolomide

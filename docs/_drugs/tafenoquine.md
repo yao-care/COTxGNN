@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Tafenoquine: nueva indicación predicha, Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) (nivel de evidencia L5). Indicación original: Succinato de tafenoquina"
+monitor_inn: "tafenoquine"
+predicted_indications: ["Smouldering systemic mastocytosis"]
 ---
 
 # Tafenoquine

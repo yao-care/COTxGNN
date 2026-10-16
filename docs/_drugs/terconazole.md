@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Terconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L1). Indicación original: Terconazol - Dexametasona (combinación con antibiótico/corticoide)"
+monitor_inn: "terconazole"
+predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "vulvovaginitis", "postmenopausal atrophic vaginitis", "vaginitis (disease)", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
 ---
 
 # Terconazole

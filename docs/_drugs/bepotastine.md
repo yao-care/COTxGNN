@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Bepotastine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L3). Indicación original: Bepotastina"
+monitor_inn: "bepotastine"
+predicted_indications: ["allergic urticaria"]
 ---
 
 # Bepotastine

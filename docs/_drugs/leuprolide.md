@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Leuprolide: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: Leuprorelina acetato"
+monitor_inn: "Leuprolide"
+predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 ---
 
 # Leuprolide

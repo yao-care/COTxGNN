@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Cyproheptadine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L3). Indicación original: Ciproheptadina"
+monitor_inn: "cyproheptadine"
+predicted_indications: ["allergic urticaria", "cold urticaria", "nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Cyproheptadine

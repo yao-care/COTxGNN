@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Lopinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Lopinavir y ritonavir"
+monitor_inn: "LOPINAVIR"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Lopinavir

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Dacarb…"
+monitor_inn: "Dacarbazine"
+predicted_indications: ["upper aerodigestive tract neoplasm"]
 ---
 
 # Dacarbazine

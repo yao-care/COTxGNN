@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L3). Indicación original: DAUNORRUBICINA"
+monitor_inn: "daunorubicin"
+predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
 ---
 
 # Daunorubicin

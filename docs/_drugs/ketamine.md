@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L5). Indicación original: KETAMINA"
+monitor_inn: "ketamine"
+predicted_indications: ["headache disorder"]
 ---
 
 # Ketamine

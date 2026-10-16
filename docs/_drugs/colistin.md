@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Colistin: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Hidrocortisona y antiinfecciosos (gotas óticas)"
+monitor_inn: "colistin"
+predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
 ---
 
 # Colistin

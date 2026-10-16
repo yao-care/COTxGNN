@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Cyclopentolate: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Ciclopentolato"
+monitor_inn: "cyclopentolate"
+predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 ---
 
 # Cyclopentolate

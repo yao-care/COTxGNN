@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
+monitor_inn: "mecasermin"
+predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "growth hormone insensitivity syndrome with immune dysregulation 2, autosomal dominant", "esophageal varices with bleeding", "esophageal varices without bleeding"]
 ---
 
 # Mecasermin

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Thimerosal: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Tiomersal"
+monitor_inn: "THIMEROSAL"
+predicted_indications: ["hypotrichosis simplex of the scalp", "alopecia", "congenital hypotrichosis milia", "diffuse alopecia areata", "primary hereditary glaucoma", "open-angle glaucoma", "renal tubular acidosis", "postmenopausal osteoporosis", "potassium deficiency disease", "male infertility due to gonadal dysgenesis"]
 ---
 
 # Thimerosal

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Miconazole: nueva indicación predicha, Acné (nivel de evidencia L3). Indicación original: Metronidazol"
+monitor_inn: "Miconazole"
+predicted_indications: ["acne (disease)"]
 ---
 
 # Miconazole

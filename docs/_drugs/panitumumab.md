@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Panitumumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: Panitumumab"
+monitor_inn: "PANITUMUMAB"
+predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
 ---
 
 # Panitumumab

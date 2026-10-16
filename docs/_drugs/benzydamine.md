@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzydamine: nueva indicación predicha, Hiperplasia prostática benigna (nivel de evidencia L5). Indicación original: Benzidamina"
+monitor_inn: "benzydamine"
+predicted_indications: ["benign prostatic hyperplasia (disease)"]
 ---
 
 # Benzydamine

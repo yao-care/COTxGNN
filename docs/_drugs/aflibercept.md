@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aflibercept: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: AFLIBERCEPT"
+monitor_inn: "AFLIBERCEPT"
+predicted_indications: ["esotropia"]
 ---
 
 # Aflibercept

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Carbamazepina"
+monitor_inn: "Carbamazepine"
+predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "micturation-induced seizures", "startle epilepsy", "audiogenic seizures", "orgasm-induced seizures", "eating seizures", "reading seizures", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
 ---
 
 # Carbamazepine

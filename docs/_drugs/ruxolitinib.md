@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ruxolitinib: nueva indicación predicha, Tumor de células epitelioides perivasculares del cuerpo uterino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indic…"
+monitor_inn: "ruxolitinib"
+predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 ---
 
 # Ruxolitinib

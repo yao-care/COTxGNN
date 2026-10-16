@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Miglustat: nueva indicación predicha, Síndrome de ictiosis autosómica con curso fatal (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher (uso clínico documentado). El texto del regis…"
+monitor_inn: "MIGLUSTAT"
+predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 ---
 
 # Miglustat

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: Penciclovir"
+monitor_inn: "PENCICLOVIR"
+predicted_indications: ["fascioliasis"]
 ---
 
 # Penciclovir

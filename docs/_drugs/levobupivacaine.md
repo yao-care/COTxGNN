@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Levobupivacaine: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: Bupivacaína"
+monitor_inn: "levobupivacaine"
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Levobupivacaine

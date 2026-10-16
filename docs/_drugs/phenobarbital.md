@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenobarbital"
+monitor_inn: "Phenobarbital"
+predicted_indications: ["trigeminal nerve neoplasm", "startle epilepsy", "micturation-induced seizures", "orgasm-induced seizures", "audiogenic seizures", "eating seizures", "thinking seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Phenobarbital

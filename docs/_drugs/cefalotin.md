@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Cefalotin: nueva indicación predicha, Uretritis gonocócica (nivel de evidencia L5). Indicación original: CEFALOTINA"
+monitor_inn: "cefalotin"
+predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "bronchitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital analbuminemia"]
 ---
 
 # Cefalotin

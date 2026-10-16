@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (nivel de evidencia L5). Indicación original: Caspofungina"
+monitor_inn: "caspofungin"
+predicted_indications: ["gastrin secretion abnormality"]
 ---
 
 # Caspofungin

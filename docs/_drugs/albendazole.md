@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Albendazole: nueva indicación predicha, Equinococosis alveolar (nivel de evidencia L2). Indicación original: ALBENDAZOL"
+monitor_inn: "Albendazole"
+predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
 ---
 
 # Albendazole

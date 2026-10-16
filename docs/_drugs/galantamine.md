@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-10-14
 description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Galan…"
+monitor_inn: "galantamine"
+predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 ---
 
 # Galantamine

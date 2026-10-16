@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Serine: nueva indicación predicha, Miopatía visceral familiar (nivel de evidencia L5). Indicación original: Emulsiones lipídicas"
+monitor_inn: "Serine"
+predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "angle-closure glaucoma", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "traumatic glaucoma", "aqueous misdirection"]
 ---
 
 # Serine

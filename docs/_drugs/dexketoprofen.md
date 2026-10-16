@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario"
+monitor_inn: "dexketoprofen"
+predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 ---
 
 # Dexketoprofen

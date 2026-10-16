@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Primaquine: nueva indicación predicha, Miasis (nivel de evidencia L5). Indicación original: Malaria"
+monitor_inn: "primaquine"
+predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "malaria", "pneumocystosis"]
 ---
 
 # Primaquine

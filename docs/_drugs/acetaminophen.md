@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Acetaminophen: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Paracetamol"
+monitor_inn: "Acetaminophen"
+predicted_indications: ["migraine with brainstem aura"]
 ---
 
 # Acetaminophen

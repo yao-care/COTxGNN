@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: DASATINIB"
+monitor_inn: "DASATINIB"
+predicted_indications: ["Ewing sarcoma", "myeloid leukemia", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 ---
 
 # Dasatinib

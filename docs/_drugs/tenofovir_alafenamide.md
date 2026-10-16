@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Tenofovir Alafenamide: nueva indicación predicha, Infección por virus de inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Tenofovir alafenamida"
+monitor_inn: "Tenofovir alafenamide"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Tenofovir Alafenamide

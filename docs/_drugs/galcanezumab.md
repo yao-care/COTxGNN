@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Galcanezumab: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
+monitor_inn: "GALCANEZUMAB"
+predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Galcanezumab

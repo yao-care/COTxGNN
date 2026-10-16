@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pirfenidone: nueva indicación predicha, Neoplasia fibroblástica (fibroblastic neoplasm) (nivel de evidencia L4). Indicación original: Pirfenidona"
+monitor_inn: "pirfenidone"
+predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 ---
 
 # Pirfenidone

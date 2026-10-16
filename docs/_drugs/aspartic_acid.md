@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Aspartic Acid: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: Aminoácidos"
+monitor_inn: "aspartic acid"
+predicted_indications: ["renal tubular acidosis"]
 ---
 
 # Aspartic Acid

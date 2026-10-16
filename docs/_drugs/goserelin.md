@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Goserelin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: GOSERELINA"
+monitor_inn: "goserelin"
+predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 ---
 
 # Goserelin

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L4). Indicación original: Norepinefrina"
+monitor_inn: "norepinephrine"
+predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Norepinephrine

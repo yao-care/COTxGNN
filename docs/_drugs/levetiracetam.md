@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Levetiracetam: nueva indicación predicha, Estado epiléptico (status epilepticus) (nivel de evidencia L1). Indicación original: LEVETIRACETAM"
+monitor_inn: "LEVETIRACETAM"
+predicted_indications: ["visual epilepsy", "audiogenic seizures", "thinking seizures", "micturation-induced seizures", "eating seizures", "startle epilepsy", "orgasm-induced seizures", "reading seizures", "status epilepticus", "beta-ketothiolase deficiency"]
 ---
 
 # Levetiracetam

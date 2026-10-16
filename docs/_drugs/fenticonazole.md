@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Fenticonazole: nueva indicación predicha, Vulvovaginitis tricomonásica (nivel de evidencia L4). Indicación original: Combinaciones de imidazol derivados"
+monitor_inn: "fenticonazole"
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
 ---
 
 # Fenticonazole

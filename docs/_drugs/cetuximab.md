@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Cetuximab: nueva indicación predicha, Condroide hamartoma (nivel de evidencia L5). Indicación original: CETUXIMAB"
+monitor_inn: "CETUXIMAB"
+predicted_indications: ["chondroid hamartoma", "non-seminomatous lesion", "ductal or ductular proliferation", "bronchial adenomas/carcinoids childhood", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
 ---
 
 # Cetuximab

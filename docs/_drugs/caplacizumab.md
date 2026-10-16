@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Caplacizumab: nueva indicación predicha, Púrpura trombocitopénica trombótica (nivel de evidencia L1). Indicación original: Sin texto de indicación detallado en el registro (solo figura \"CAPLAC…"
+monitor_inn: "CAPLACIZUMAB"
+predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "thrombotic thrombocytopenic purpura", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
 ---
 
 # Caplacizumab

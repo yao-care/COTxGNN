@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Adalimumab: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: ADALIMUMAB"
+monitor_inn: "ADALIMUMAB"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease"]
 ---
 
 # Adalimumab

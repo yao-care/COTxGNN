@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Droxidopa: nueva indicación predicha, Prionopatía variablemente sensible a proteasas (nivel de evidencia L5). Indicación original: DROXIDOPA"
+monitor_inn: "DROXIDOPA"
+predicted_indications: ["variably protease-sensitive prionopathy"]
 ---
 
 # Droxidopa

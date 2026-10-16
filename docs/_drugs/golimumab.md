@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Golimumab: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"GOLIMU…"
+monitor_inn: "GOLIMUMAB"
+predicted_indications: ["rheumatoid vasculitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis"]
 ---
 
 # Golimumab

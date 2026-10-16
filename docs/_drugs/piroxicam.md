@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Piroxicam: nueva indicación predicha, Síndrome de microftalmia colobomatosa-displasia rizomélica (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario (el texto solo ind…"
+monitor_inn: "PIROXICAM"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 ---
 
 # Piroxicam

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
+monitor_inn: "Ciclesonide"
+predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis", "asthma-related traits, susceptibility to"]
 ---
 
 # Ciclesonide

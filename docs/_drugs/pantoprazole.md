@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Pantoprazole: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L1). Indicación original: Pantoprazol"
+monitor_inn: "Pantoprazole"
+predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
 ---
 
 # Pantoprazole

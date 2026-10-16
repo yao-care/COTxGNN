@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Epirubicin: nueva indicación predicha, Linfoma pulmonar primario (nivel de evidencia L4). Indicación original: Epirrubicina"
+monitor_inn: "epirubicin"
+predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 ---
 
 # Epirubicin

@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L3). Indicación original: ELTROMBOPAG"
+monitor_inn: "eltrombopag"
+predicted_indications: ["HIV infectious disease"]
 ---
 
 # Eltrombopag

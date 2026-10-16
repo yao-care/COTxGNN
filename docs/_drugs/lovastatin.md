@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Lovastatin: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L3). Indicación original: LOVASTATINA"
+monitor_inn: "Lovastatin"
+predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "familial hypercholesterolemia", "cholesterol-ester transfer protein deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency"]
 ---
 
 # Lovastatin

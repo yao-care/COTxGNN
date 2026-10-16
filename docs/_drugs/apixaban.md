@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Apixaban: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: Inhibidores directos del factor Xa"
+monitor_inn: "APIXABAN"
+predicted_indications: ["migraine disorder"]
 ---
 
 # Apixaban

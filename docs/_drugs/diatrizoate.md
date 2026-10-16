@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Diatrizoate: nueva indicación predicha, Susceptibilidad a la osteoartritis (nivel de evidencia L5). Indicación original: Combinaciones de medios de contraste para rayos X de alta osmolaridad"
+monitor_inn: "diatrizoate"
+predicted_indications: ["osteoarthritis susceptibility", "rheumatoid arthritis"]
 ---
 
 # Diatrizoate

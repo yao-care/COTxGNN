@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Trabectedina"
+monitor_inn: "trabectedin"
+predicted_indications: ["female breast carcinoma"]
 ---
 
 # Trabectedin

@@ -7,6 +7,8 @@ evidence_level: L1
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Risperidone: nueva indicación predicha, Trastorno afectivo mayor (evaluada por mayor evidencia (nivel de evidencia L1). Indicación original: Risperidona"
+monitor_inn: "Risperidone"
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
 ---
 
 # Risperidone

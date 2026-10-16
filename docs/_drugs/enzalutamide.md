@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Enzalutamide: nueva indicación predicha, Cáncer de órgano reproductor masculino (male reproductive organ cance… (nivel de evidencia L5). Indicación original: Enzalutamida"
+monitor_inn: "Enzalutamide"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "male reproductive organ cancer", "benign prostate phyllodes tumor"]
 ---
 
 # Enzalutamide

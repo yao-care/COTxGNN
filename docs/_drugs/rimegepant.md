@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Rimegepant: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: RIMEGEPANT"
+monitor_inn: "rimegepant"
+predicted_indications: ["migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Rimegepant

@@ -7,6 +7,8 @@ evidence_level: L2
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
+monitor_inn: "cyclobenzaprine"
+predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
 ---
 
 # Cyclobenzaprine

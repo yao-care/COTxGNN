@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Benzocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Benzocaína"
+monitor_inn: "Benzocaine"
+predicted_indications: ["papillary conjunctivitis"]
 ---
 
 # Benzocaine

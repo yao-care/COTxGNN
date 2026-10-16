@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Clenbuterol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Combinaciones"
+monitor_inn: "clenbuterol"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Clenbuterol

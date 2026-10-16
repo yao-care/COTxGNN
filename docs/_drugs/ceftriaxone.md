@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Ceftriaxone: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L3). Indicación original: Ceftriaxona"
+monitor_inn: "Ceftriaxone"
+predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "infectious otitis media", "blood group incompatibility", "suppurative otitis media", "chronic otitis media"]
 ---
 
 # Ceftriaxone

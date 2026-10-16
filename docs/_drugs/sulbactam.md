@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L3). Indicación original: Ampicilina e inhibidor enzimático"
+monitor_inn: "SULBACTAM"
+predicted_indications: ["bacterial arthritis"]
 ---
 
 # Sulbactam

@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Desmopresina"
+monitor_inn: "desmopressin"
+predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Scott syndrome", "flood factor deficiency"]
 ---
 
 # Desmopressin

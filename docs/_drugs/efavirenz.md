@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Efavirenz: nueva indicación predicha, Infección por el virus de inmunodeficiencia de los simios (nivel de evidencia L4). Indicación original: Efavirenz…"
+monitor_inn: "EFAVIRENZ"
+predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
 
 # Efavirenz

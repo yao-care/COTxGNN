@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dabigatran Etexilate: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: Dabigatrán etexilato"
+monitor_inn: "dabigatran etexilate"
+predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
 ---
 
 # Dabigatran Etexilate

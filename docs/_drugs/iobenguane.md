@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Iobenguane: nueva indicación predicha, Trastorno hipotensivo (hypotensive disorder) (nivel de evidencia L4). Indicación original: IOBENGUANE (131I)"
+monitor_inn: "IOBENGUANE"
+predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 ---
 
 # Iobenguane

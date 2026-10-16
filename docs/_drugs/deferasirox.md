@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
+monitor_inn: "DEFERASIROX"
+predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 ---
 
 # Deferasirox

@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: No especificada en detalle"
+monitor_inn: "posaconazole"
+predicted_indications: ["pneumocystosis"]
 ---
 
 # Posaconazole

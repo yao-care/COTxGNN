@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Olodaterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Olodaterol y bromuro de tiotropio"
+monitor_inn: "OLODATEROL"
+predicted_indications: ["bronchitis", "obstructive lung disease"]
 ---
 
 # Olodaterol

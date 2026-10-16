@@ -7,6 +7,8 @@ evidence_level: L3
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
+monitor_inn: "parecoxib"
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension"]
 ---
 
 # Parecoxib

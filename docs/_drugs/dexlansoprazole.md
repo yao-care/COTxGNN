@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dexlansoprazole: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL"
+monitor_inn: "dexlansoprazole"
+predicted_indications: ["active peptic ulcer disease", "peptic ulcer perforation", "gastrojejunal ulcer", "gastric ulcer (disease)", "gastroduodenitis", "duodenal obstruction", "duodenogastric reflux", "duodenal ulcer (disease)", "achlorhydria", "leather-bottle stomach"]
 ---
 
 # Dexlansoprazole

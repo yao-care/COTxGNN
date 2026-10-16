@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado…"
+monitor_inn: "upadacitinib"
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Upadacitinib

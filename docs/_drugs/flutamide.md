@@ -7,6 +7,8 @@ evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Flutamide: nueva indicación predicha, Susceptibilidad genética a cáncer de próstata/cerebro (nivel de evidencia L5). Indicación original: Registro sanitario sin detalle de indicación (solo figura \"FL…"
+monitor_inn: "Flutamide"
+predicted_indications: ["prostate cancer/brain cancer susceptibility", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "male reproductive organ cancer", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 ---
 
 # Flutamide
