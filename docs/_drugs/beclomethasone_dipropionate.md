@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Beclomethasone Dipropionate: nueva indicación predicha, Eccema atópico (nivel de evidencia L3). Indicación original: BECLOMETASONA"
 ---
 
 # Beclomethasone Dipropionate

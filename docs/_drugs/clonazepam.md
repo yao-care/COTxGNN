@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 ---
 
 # Clonazepam

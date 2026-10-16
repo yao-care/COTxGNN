@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cladribine: nueva indicación predicha, Rabdomiosarcoma embrionario parameníngeo (nivel de evidencia L5). Indicación original: CLADRIBINA"
 ---
 
 # Cladribine

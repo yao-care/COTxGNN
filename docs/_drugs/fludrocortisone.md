@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Fludrocortisone: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L5). Indicación original: Fludrocortisona"
 ---
 
 # Fludrocortisone

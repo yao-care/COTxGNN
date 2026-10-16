@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Losartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Losartán"
 ---
 
 # Losartan

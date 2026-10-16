@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide posit… (nivel de evidencia L5). Indicación original: No especificada en los registros"
 ---
 
 # Chloroquine

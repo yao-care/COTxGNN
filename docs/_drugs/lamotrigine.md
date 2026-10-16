@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 376
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Lamotrigine: nueva indicación predicha, Neuralgia del trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA"
 ---
 
 # Lamotrigine

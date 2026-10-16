@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: No especificada"
 ---
 
 # Ipilimumab

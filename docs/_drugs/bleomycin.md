@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Bleomycin: nueva indicación predicha, Neoplasia de la cola de caballo (cauda equina) (nivel de evidencia L5). Indicación original: No especificada en los registros (el texto aprobado solo indica \"Ble…"
 ---
 
 # Bleomycin

@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 223
 evidence_level: L4
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Dimenhidrinato"
 ---
 
 # Dimenhydrinate

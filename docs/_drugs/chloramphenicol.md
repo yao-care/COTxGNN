@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 151
 evidence_level: L3
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Chloramphenicol: nueva indicación predicha, Conjuntivitis (nivel de evidencia L3). Indicación original: CLORAMFENICOL"
 ---
 
 # Chloramphenicol

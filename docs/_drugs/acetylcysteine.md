@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 25
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Acetilcisteína"
 ---
 
 # Acetylcysteine

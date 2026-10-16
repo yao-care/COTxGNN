@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 265
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Etanercept: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: ETANERCEPT"
 ---
 
 # Etanercept

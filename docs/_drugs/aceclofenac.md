@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 16
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Aceclofenac: nueva indicación predicha, Espondilopatía inflamatoria (nivel de evidencia L3). Indicación original: Aceclofenaco"
 ---
 
 # Aceclofenac

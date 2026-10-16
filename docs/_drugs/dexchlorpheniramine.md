@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 209
 evidence_level: L3
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Dexchlorpheniramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L3). Indicación original: Paracetamol combinaciones excluyendo sicolépticos"
 ---
 
 # Dexchlorpheniramine

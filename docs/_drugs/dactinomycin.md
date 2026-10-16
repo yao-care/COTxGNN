@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Dactinomycin: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación aprobada solo…"
 ---
 
 # Dactinomycin

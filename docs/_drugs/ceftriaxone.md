@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 144
 evidence_level: L3
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Ceftriaxone: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L3). Indicación original: Ceftriaxona"
 ---
 
 # Ceftriaxone

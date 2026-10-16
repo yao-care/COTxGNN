@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
 ---
 
 # Deferasirox

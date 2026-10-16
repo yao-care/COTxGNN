@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 517
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Pirfenidone: nueva indicación predicha, Neoplasia fibroblástica (fibroblastic neoplasm) (nivel de evidencia L4). Indicación original: Pirfenidona"
 ---
 
 # Pirfenidone

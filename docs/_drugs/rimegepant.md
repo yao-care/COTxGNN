@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 563
 evidence_level: L3
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Rimegepant: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: RIMEGEPANT"
 ---
 
 # Rimegepant

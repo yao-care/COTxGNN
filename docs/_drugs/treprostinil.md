@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 642
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Treprostinil: nueva indicación predicha, Hipertensión arterial pulmonar asociada a cardiopatía congénita (nivel de evidencia L3). Indicación original: TREPROSTINILO"
 ---
 
 # Treprostinil

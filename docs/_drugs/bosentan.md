@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 ---
 
 # Bosentan

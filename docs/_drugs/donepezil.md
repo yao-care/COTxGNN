@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Donepezil: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: DONEPEZIL"
 ---
 
 # Donepezil

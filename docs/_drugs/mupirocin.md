@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Mupirocin: nueva indicación predicha, Empiema pleural (nivel de evidencia L5). Indicación original: Mupirocina"
 ---
 
 # Mupirocin

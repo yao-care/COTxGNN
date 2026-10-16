@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clomifene: nueva indicación predicha, Trastorno del desarrollo sexual 46… (nivel de evidencia L5). Indicación original: Clomifeno"
 ---
 
 # Clomifene

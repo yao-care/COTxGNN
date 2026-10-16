@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 538
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Propafenone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: Propafenona"
 ---
 
 # Propafenone

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Celecoxib\")"
 ---
 
 # Celecoxib

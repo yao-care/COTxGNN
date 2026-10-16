@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Irbesartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: IRBESARTAN"
 ---
 
 # Irbesartan

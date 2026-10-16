@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
 ---
 
 # Ciclesonide

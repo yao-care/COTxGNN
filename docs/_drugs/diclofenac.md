@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 219
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Diclofenac: nueva indicación predicha, Artritis idiopática juvenil (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 ---
 
 # Diclofenac

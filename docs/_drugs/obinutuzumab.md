@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 475
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Obinutuzumab: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas… (nivel de evidencia L5). Indicación original: No especificada de forma útil"
 ---
 
 # Obinutuzumab

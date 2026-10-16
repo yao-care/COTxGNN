@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 335
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L4). Indicación original: IMATINIB"
 ---
 
 # Imatinib

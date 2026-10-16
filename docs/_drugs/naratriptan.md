@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 462
 evidence_level: L3
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Naratriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: NARATRIPTAN"
 ---
 
 # Naratriptan

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Plerixafor: nueva indicación predicha, Mieloma de células plasmáticas indolente (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 ---
 
 # Plerixafor

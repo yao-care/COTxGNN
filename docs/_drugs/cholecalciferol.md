@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 155
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cholecalciferol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incl…"
 ---
 
 # Cholecalciferol

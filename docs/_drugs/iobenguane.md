@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 350
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Iobenguane: nueva indicación predicha, Trastorno hipotensivo (hypotensive disorder) (nivel de evidencia L4). Indicación original: IOBENGUANE (131I)"
 ---
 
 # Iobenguane

@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 637
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Trastuzumab: nueva indicación predicha, Subtipo de carcinoma de mama tipo normal (normal breast-like) (nivel de evidencia L4). Indicación original: Pertuzumab y trastuzumab"
 ---
 
 # Trastuzumab

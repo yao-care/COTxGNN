@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 166
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Clioquinol: nueva indicación predicha, Candidiasis cutánea (nivel de evidencia L4). Indicación original: Betametasona y antibióticos"
 ---
 
 # Clioquinol

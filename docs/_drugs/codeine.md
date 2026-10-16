@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 178
 evidence_level: L4
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 ---
 
 # Codeine

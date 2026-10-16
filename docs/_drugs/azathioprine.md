@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Azathioprine: nueva indicación predicha, Enfermedad inflamatoria intestinal (rango 5 del modelo) (nivel de evidencia L5). Indicación original: AZATIOPRINA"
 ---
 
 # Azathioprine

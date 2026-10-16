@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 587
 evidence_level: L1
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Simvastatin: nueva indicación predicha, Hipercolesterolemia familiar (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
 ---
 
 # Simvastatin

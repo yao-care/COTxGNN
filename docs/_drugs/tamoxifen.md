@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 604
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Tamoxifen: nueva indicación predicha, Enfermedad de Paget mamaria (nivel de evidencia L4). Indicación original: El registro sanitario solo indica \"Tamoxifeno\"…"
 ---
 
 # Tamoxifen

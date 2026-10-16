@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Desve…"
 ---
 
 # Desvenlafaxine

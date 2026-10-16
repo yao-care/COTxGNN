@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 656
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Venetoclax: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas… (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto apr…"
 ---
 
 # Venetoclax

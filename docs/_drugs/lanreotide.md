@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lanreotide: nueva indicación predicha, Hipertricosis (enfermedad) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Lanreo…"
 ---
 
 # Lanreotide

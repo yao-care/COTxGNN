@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 241
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo indica \"DUPILU…"
 ---
 
 # Dupilumab

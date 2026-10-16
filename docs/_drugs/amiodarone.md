@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 49
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (CPVT) (nivel de evidencia L4). Indicación original: AMIODARONA"
 ---
 
 # Amiodarone

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Miglustat: nueva indicación predicha, Síndrome de ictiosis autosómica con curso fatal (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher (uso clínico documentado). El texto del regis…"
 ---
 
 # Miglustat

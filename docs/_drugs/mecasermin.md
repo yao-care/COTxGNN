@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
 ---
 
 # Mecasermin

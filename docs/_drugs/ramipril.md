@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ramipril: nueva indicación predicha, Hipertensión pulmonar de mecanismo multifactorial no aclarado (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo…"
 ---
 
 # Ramipril

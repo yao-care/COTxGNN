@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 38
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Alopurinol"
 ---
 
 # Allopurinol

@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 61
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Apomorphine: nueva indicación predicha, Esquizofrenia (predicción de mayor rango con evidencia: n.º 5 de la l… (nivel de evidencia L4). Indicación original: APOMORFINA"
 ---
 
 # Apomorphine

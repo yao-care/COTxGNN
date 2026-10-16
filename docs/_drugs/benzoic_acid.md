@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Benzoic Acid: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico"
 ---
 
 # Benzoic Acid

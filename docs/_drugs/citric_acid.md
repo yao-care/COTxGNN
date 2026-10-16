@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 160
 evidence_level: L4
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L4). Indicación original: Electrolitos combinaciones"
 ---
 
 # Citric Acid

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Enzalutamide: nueva indicación predicha, Cáncer de órgano reproductor masculino (male reproductive organ cance… (nivel de evidencia L5). Indicación original: Enzalutamida"
 ---
 
 # Enzalutamide

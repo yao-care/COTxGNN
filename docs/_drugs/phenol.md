@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Phenol: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: FENOL"
 ---
 
 # Phenol

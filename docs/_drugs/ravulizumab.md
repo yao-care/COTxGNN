@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6… (nivel de evidencia L5). Indicación original: No disponible"
 ---
 
 # Ravulizumab

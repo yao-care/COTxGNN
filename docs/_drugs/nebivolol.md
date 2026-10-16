@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: NEBIVOLOL"
 ---
 
 # Nebivolol

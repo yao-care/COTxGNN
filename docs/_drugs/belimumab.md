@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 97
 evidence_level: L5
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Belimumab: nueva indicación predicha, Trastorno de liberación primaria de plaquetas (nivel de evidencia L5). Indicación original: No especificada"
 ---
 
 # Belimumab

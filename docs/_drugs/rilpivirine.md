@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 561
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…"
 ---
 
 # Rilpivirine

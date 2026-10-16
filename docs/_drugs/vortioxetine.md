@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
 ---
 
 # Vortioxetine

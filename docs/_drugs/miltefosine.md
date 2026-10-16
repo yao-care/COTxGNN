@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 446
 evidence_level: L3
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Miltefosine: nueva indicación predicha, Leishmaniasis cutánea difusa (nivel de evidencia L3). Indicación original: MILTEFOSINA"
 ---
 
 # Miltefosine

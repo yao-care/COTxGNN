@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 484
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Omalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: OMALIZUMAB"
 ---
 
 # Omalizumab

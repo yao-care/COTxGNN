@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 157
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cilastatin: nueva indicación predicha, Neumonía (la predicción de mayor puntaje, S. aureus… (nivel de evidencia L5). Indicación original: Imipenem y cilastatina"
 ---
 
 # Cilastatin

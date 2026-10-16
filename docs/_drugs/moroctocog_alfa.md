@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Moroctocog Alfa: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Coagulación factores VIII"
 ---
 
 # Moroctocog Alfa

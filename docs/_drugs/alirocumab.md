@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Alirocumab: nueva indicación predicha, Ictiosis ligada al X sin deficiencia de esteroide sulfatasa (nivel de evidencia L5). Indicación original: ALIROCUMAB"
 ---
 
 # Alirocumab

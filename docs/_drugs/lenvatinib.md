@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 389
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (el texto solo indica \"LENVA…"
 ---
 
 # Lenvatinib

@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Vitamin E: nueva indicación predicha, Trastorno congénito del metabolismo de la bilirrubina (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 ---
 
 # Vitamin E

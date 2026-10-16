@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Polidocanol: nueva indicación predicha, Várices esofágicas con sangrado (nivel de evidencia L5). Indicación original: Polidocanol"
 ---
 
 # Polidocanol

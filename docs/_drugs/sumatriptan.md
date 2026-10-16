@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 598
 evidence_level: L4
 indication_count: 1
+last_modified_at: 2026-10-14
+description: "Sumatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Sumatriptán"
 ---
 
 # Sumatriptan

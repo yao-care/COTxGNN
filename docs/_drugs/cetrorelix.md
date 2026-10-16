@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Cetrorelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Cetrorelix"
 ---
 
 # Cetrorelix

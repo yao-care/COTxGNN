@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 668
 evidence_level: L4
 indication_count: 6
+last_modified_at: 2026-10-14
+description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Zidovudina"
 ---
 
 # Zidovudine

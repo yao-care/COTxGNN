@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 201
 evidence_level: L4
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Deferiprone: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: DEFERIPRONA"
 ---
 
 # Deferiprone

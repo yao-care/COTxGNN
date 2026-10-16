@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Clonidine: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: CLONIDINA"
 ---
 
 # Clonidine

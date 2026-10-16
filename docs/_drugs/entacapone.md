@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Levodopa e inhibidor de decarboxilasa"
 ---
 
 # Entacapone

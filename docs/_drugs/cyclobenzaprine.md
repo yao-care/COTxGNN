@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 183
 evidence_level: L2
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
 ---
 
 # Cyclobenzaprine

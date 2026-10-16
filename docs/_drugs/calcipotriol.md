@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 127
 evidence_level: L3
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: Combinaciones de calcipotriol"
 ---
 
 # Calcipotriol

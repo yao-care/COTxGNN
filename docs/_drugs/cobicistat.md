@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Cobicistat: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Darunavir y cobicistat"
 ---
 
 # Cobicistat

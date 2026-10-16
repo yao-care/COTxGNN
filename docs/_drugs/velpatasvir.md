@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 655
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Velpatasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Sofosbuvir + velpatasvir"
 ---
 
 # Velpatasvir

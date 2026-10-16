@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 ---
 
 # Montelukast

@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 291
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Fludarabine: nueva indicación predicha, Mieloma de células plasmáticas (plasma cell myeloma) (nivel de evidencia L1). Indicación original: No especificada en el registro sanitario (el texto solo indi…"
 ---
 
 # Fludarabine

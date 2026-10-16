@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Raltegravir: nueva indicación predicha, Infección por virus de inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Sin descripción detallada en el registro sanitario (solo figura \"R…"
 ---
 
 # Raltegravir

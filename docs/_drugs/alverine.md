@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Alverine: nueva indicación predicha, Trastorno distímico (nivel de evidencia L5). Indicación original: Alverina combinaciones"
 ---
 
 # Alverine

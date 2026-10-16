@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 438
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Metoclopramide: nueva indicación predicha, Úlcera gástrica (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 ---
 
 # Metoclopramide

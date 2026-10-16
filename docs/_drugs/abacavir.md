@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 11
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Abacavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Abacavir/zidovudina/lamivudina (combinación antirretroviral)"
 ---
 
 # Abacavir

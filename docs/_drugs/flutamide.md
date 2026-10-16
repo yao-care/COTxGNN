@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Flutamide: nueva indicación predicha, Susceptibilidad genética a cáncer de próstata/cerebro (nivel de evidencia L5). Indicación original: Registro sanitario sin detalle de indicación (solo figura \"FL…"
 ---
 
 # Flutamide

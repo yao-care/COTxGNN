@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 374
 evidence_level: L4
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Lamivudine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (SIV) (nivel de evidencia L4). Indicación original: Lamivudina (solo y en combinaciones con abacavi…"
 ---
 
 # Lamivudine

@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 279
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Fenofibrate: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Pravastatina y fenofibrato (combinación hipolipemiante)"
 ---
 
 # Fenofibrate

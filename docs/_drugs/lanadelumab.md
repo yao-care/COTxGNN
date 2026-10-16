@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 377
 evidence_level: L1
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lanadelumab: nueva indicación predicha, Deficiencia de inhibidor de C1 (nivel de evidencia L1). Indicación original: Lanadelumab"
 ---
 
 # Lanadelumab

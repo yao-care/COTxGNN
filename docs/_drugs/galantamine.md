@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
+last_modified_at: 2026-10-14
+description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Galan…"
 ---
 
 # Galantamine

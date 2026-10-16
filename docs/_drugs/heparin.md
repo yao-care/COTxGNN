@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Heparin: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Heparina"
 ---
 
 # Heparin

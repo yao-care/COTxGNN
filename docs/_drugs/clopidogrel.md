@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 174
 evidence_level: L2
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Clopidogrel: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: CLOPIDOGREL"
 ---
 
 # Clopidogrel

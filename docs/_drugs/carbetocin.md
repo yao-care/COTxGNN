@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 2
+last_modified_at: 2026-10-14
+description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (nivel de evidencia L5). Indicación original: Carbetocina"
 ---
 
 # Carbetocin

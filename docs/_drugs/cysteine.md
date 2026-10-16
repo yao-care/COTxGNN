@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 187
 evidence_level: L4
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Cysteine: nueva indicación predicha, Síndrome de ojo seco (nivel de evidencia L4). Indicación original: Combinaciones"
 ---
 
 # Cysteine

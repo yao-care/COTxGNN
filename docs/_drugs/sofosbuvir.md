@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Sofosbuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Sofosbuvir + Velpatasvir (hepatitis C crónica)"
 ---
 
 # Sofosbuvir

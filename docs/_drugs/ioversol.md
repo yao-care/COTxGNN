@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Ioversol: nueva indicación predicha, Susceptibilidad a la osteoartritis (nivel de evidencia L5). Indicación original: IOVERSOL"
 ---
 
 # Ioversol

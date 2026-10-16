@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 294
 evidence_level: L5
 indication_count: 4
+last_modified_at: 2026-10-14
+description: "Fluocinolone Acetonide: nueva indicación predicha, Liquen plano anular atrófico (nivel de evidencia L5). Indicación original: Fluocinolona acetonida y antiinfecciosos"
 ---
 
 # Fluocinolone Acetonide

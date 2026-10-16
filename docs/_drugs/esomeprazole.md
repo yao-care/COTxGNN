@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 263
 evidence_level: L4
 indication_count: 3
+last_modified_at: 2026-10-14
+description: "Esomeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: ESOMEPRAZOL"
 ---
 
 # Esomeprazole

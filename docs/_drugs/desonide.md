@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 206
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Desonide: nueva indicación predicha, Pólipo de cuerda vocal (nivel de evidencia L5). Indicación original: Desonida"
 ---
 
 # Desonide

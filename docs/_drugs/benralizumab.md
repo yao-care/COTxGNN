@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 5
+last_modified_at: 2026-10-14
+description: "Benralizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: Benralizumab"
 ---
 
 # Benralizumab

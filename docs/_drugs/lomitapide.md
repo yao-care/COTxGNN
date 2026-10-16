@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Lomitapide: nueva indicación predicha, Macrotrombocitopenia con insuficiencia de la válvula mitral (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del princi…"
 ---
 
 # Lomitapide

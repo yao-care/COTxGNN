@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro INVIMA (el texto solo repite \"RISANKIZ…"
 ---
 
 # Risankizumab

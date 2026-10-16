@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
+last_modified_at: 2026-10-14
+description: "Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (predicción n.º 1) (nivel de evidencia L5). Indicación original: Lactulosa"
 ---
 
 # Lactulose

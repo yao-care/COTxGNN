@@ -5,6 +5,8 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 80
 evidence_level: L2
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Axitinib: nueva indicación predicha, Carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TF… (nivel de evidencia L2). Indicación original: No especificada en los registros (el texto de…"
 ---
 
 # Axitinib

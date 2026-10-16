@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Mesalazina"
 ---
 
 # Mesalazine

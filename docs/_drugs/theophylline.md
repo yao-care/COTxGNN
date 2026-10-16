@@ -5,6 +5,8 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 7
+last_modified_at: 2026-10-14
+description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Ambroxol"
 ---
 
 # Theophylline

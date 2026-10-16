@@ -5,6 +5,8 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 314
 evidence_level: L4
 indication_count: 10
+last_modified_at: 2026-10-14
+description: "Givosiran: nueva indicación predicha, Porfiria por deficiencia de ALA deshidratasa (nivel de evidencia L4). Indicación original: GIVOSIRAN SÓDICO"
 ---
 
 # Givosiran
