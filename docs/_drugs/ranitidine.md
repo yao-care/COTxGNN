@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranitidine: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L5). Indicación original: RANITIDINA"
 monitor_inn: "ranitidine"
-predicted_indications: ["active peptic ulcer disease", "gastrojejunal ulcer", "peptic ulcer perforation", "duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+predicted_indications: ["duodenal obstruction", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 ---
 
 # Ranitidine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

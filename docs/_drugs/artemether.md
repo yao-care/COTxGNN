@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Artemether: nueva indicación predicha, Malaria por Plasmodium falciparum (la predicción de mayor puntaje… (nivel de evidencia L1). Indicación original: Combinaciones de artemeter"
 monitor_inn: "artemether"
-predicted_indications: ["acquired angioedema", "Plasmodium falciparum malaria", "malaria", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
+predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
 ---
 
 # Artemether
@@ -27,7 +27,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

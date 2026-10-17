@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Methotrexate: nueva indicación predicha, Blastoma pulmonar (nivel de evidencia L5). Indicación original: METROTEXATE"
 monitor_inn: "Methotrexate"
-predicted_indications: ["pulmonary blastoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+predicted_indications: ["pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 ---
 
 # Methotrexate
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

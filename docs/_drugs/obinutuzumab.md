@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Obinutuzumab: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas… (nivel de evidencia L5). Indicación original: No especificada de forma útil"
 monitor_inn: "OBINUTUZUMAB"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma"]
+predicted_indications: ["follicular lymphoma"]
 ---
 
 # Obinutuzumab
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

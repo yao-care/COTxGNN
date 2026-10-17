@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Paracetamol combinaciones excluyendo sicolépticos"
 monitor_inn: "Phenylephrine"
-predicted_indications: ["trigeminal autonomic cephalalgia"]
+predicted_indications: ["acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

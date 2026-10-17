@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Diclofenac: nueva indicación predicha, Artritis idiopática juvenil (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 monitor_inn: "Diclofenac"
-predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
+predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "WHIM syndrome"]
 ---
 
 # Diclofenac
@@ -27,7 +27,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Phenol: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: FENOL"
 monitor_inn: "phenol"
-predicted_indications: ["secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
+predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 ---
 
 # Phenol
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

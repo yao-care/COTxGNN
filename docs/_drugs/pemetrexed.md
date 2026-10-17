@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pemetrexed: nueva indicación predicha, Mesotelioma peritoneal maligno (nivel de evidencia L2). Indicación original: Pemetrexed"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 ---
 
 # Pemetrexed
@@ -27,7 +27,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

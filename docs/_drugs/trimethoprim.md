@@ -25,7 +25,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

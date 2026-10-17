@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Trastuzumab Emtansine: nueva indicación predicha, Subtipo \"normal breast-like\" del carcinoma de mama (nivel de evidencia L5). Indicación original: No especificada en el registro"
-monitor_inn: "Trastuzumab emtansine"
-predicted_indications: ["normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "progesterone-receptor negative breast cancer", "breast tumor luminal A or B"]
 ---
 
 # Trastuzumab Emtansine
@@ -27,7 +25,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

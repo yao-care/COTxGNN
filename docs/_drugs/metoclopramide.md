@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Metoclopramide: nueva indicación predicha, Úlcera gástrica (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
-predicted_indications: ["gastric ulcer (disease)", "gastroduodenitis", "gastrojejunal ulcer", "peptic ulcer perforation"]
+predicted_indications: ["gastroduodenitis"]
 ---
 
 # Metoclopramide
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

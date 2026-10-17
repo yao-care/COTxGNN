@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Pazopanib: nueva indicación predicha, Carcinoma de células renales no clasificado (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
-predicted_indications: ["fibroblastic neoplasm"]
+predicted_indications: ["ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
 
 # Pazopanib
@@ -27,7 +27,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

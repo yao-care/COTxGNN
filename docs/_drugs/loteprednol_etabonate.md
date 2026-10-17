@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Loteprednol Etabonate: nueva indicación predicha, Foliculosis conjuntival (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
 monitor_inn: "Loteprednol etabonate"
-predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+predicted_indications: ["otitis externa"]
 ---
 
 # Loteprednol Etabonate
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

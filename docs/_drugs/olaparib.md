@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Olaparib: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L1). Indicación original: OLAPARIB"
-monitor_inn: "OLAPARIB"
-predicted_indications: ["female breast carcinoma"]
 ---
 
 # Olaparib
@@ -27,7 +25,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

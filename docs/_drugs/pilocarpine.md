@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Pilocarpine: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: No especificada"
-monitor_inn: "pilocarpine"
-predicted_indications: ["primary hereditary glaucoma"]
 ---
 
 # Pilocarpine
@@ -27,7 +25,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Avibactam: nueva indicación predicha, Neumonía estreptocócica (nivel de evidencia L5). Indicación original: Ceftazidima e inhibidor de betalactamasa"
 monitor_inn: "avibactam"
-predicted_indications: ["streptococcal pneumonia", "influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
 ---
 
 # Avibactam
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sertaconazole: nueva indicación predicha, Dermatofitosis de la ingle y el área perianal (nivel de evidencia L4). Indicación original: Sertaconazol"
 monitor_inn: "sertaconazole"
-predicted_indications: ["dermatophytosis of groin and perianal area", "tinea corporis", "cutaneous candidiasis", "ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "superficial mycosis", "dermatophytosis of scalp or beard", "pityriasis versicolor", "tinea profunda"]
+predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "pityriasis versicolor"]
 ---
 
 # Sertaconazole
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

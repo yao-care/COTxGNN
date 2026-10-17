@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L1). Indicación original: CLOMIPRAMINA"
 monitor_inn: "clomipramine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "major depressive disorder", "endogenous depression", "attention deficit-hyperactivity disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 ---
 
 # Clomipramine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Epinastine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Epinastina"
 monitor_inn: "epinastine"
-predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
+predicted_indications: ["allergic urticaria"]
 ---
 
 # Epinastine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

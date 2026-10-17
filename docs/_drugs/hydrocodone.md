@@ -7,6 +7,8 @@ evidence_level: L4
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
+monitor_inn: "hydrocodone"
+predicted_indications: ["acute laryngopharyngitis"]
 ---
 
 # Hydrocodone
@@ -25,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lamotrigine: nueva indicación predicha, Neuralgia del trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA"
 monitor_inn: "Lamotrigine"
-predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "audiogenic seizures", "eating seizures", "micturation-induced seizures", "thinking seizures", "orgasm-induced seizures", "reading seizures"]
+predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
 
 # Lamotrigine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "IPILIMUMAB"
-predicted_indications: ["choroideremia", "non-cutaneous melanoma"]
+predicted_indications: ["choroideremia"]
 ---
 
 # Ipilimumab
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

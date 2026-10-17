@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Ketoconazol"
-monitor_inn: "ketoconazole"
-predicted_indications: ["acne (disease)"]
 ---
 
 # Ketoconazole
@@ -27,7 +25,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Formoterol: nueva indicación predicha, Malformación respiratoria (nivel de evidencia L5). Indicación original: Formoterol y budesonida (combinación inhalada)"
 monitor_inn: "Formoterol"
-predicted_indications: ["respiratory malformation", "bronchitis", "Rienhoff syndrome", "obstructive lung disease", "asthma-related traits, susceptibility to"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 ---
 
 # Formoterol
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

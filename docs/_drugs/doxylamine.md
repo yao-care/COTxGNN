@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Doxylamine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Doxilamina. Combinaciones"
 monitor_inn: "Doxylamine"
-predicted_indications: ["nasal cavity disease"]
+predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
 ---
 
 # Doxylamine
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

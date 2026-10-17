@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones (con guaifenesina)"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 ---
 
 # Guaifenesin
@@ -27,7 +27,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Rufinamide: nueva indicación predicha, Síndrome de epilepsia relacionada con infección febril (FIRES) (nivel de evidencia L5). Indicación original: RUFINAMIDA"
 monitor_inn: "Rufinamide"
-predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms"]
+predicted_indications: ["perioral myoclonia with absences"]
 ---
 
 # Rufinamide
@@ -27,7 +27,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ---
 
-<div id="pharmacist">
+<div id="pharmacist" markdown="1">
 
 ## Informe de evaluación farmacéutica
 
