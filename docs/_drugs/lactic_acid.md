@@ -6,9 +6,9 @@ nav_order: 371
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
+description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
 ---
 
 # Lactic Acid
