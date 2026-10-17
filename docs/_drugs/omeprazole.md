@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Omeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L3). Indicación original: OMEPRAZOL"
 monitor_inn: "Omeprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Omeprazole

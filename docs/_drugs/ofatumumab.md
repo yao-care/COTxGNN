@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (nivel de evidencia L2). Indicación original: Ofatumumab"
 monitor_inn: "OFATUMUMAB"
-predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "chronic lymphocytic leukemia/small lymphocytic lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
+predicted_indications: ["chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "follicular lymphoma", "leukemia, lymphocytic, susceptibility to", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
 ---
 
 # Ofatumumab

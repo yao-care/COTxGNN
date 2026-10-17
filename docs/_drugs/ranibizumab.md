@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ranibizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
 monitor_inn: "RANIBIZUMAB"
-predicted_indications: ["severe nonproliferative diabetic retinopathy", "tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 ---
 
 # Ranibizumab

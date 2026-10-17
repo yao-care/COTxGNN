@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Colchicine: nueva indicación predicha, Fiebre mediterránea familiar, autosómica dominante (nivel de evidencia L5). Indicación original: Colchicina"
 monitor_inn: "Colchicine"
-predicted_indications: ["Plasmodium falciparum malaria", "familial Mediterranean fever, autosomal dominant", "dermatofibrosarcoma protuberans"]
+predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 ---
 
 # Colchicine

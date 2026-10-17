@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "polyarticular juvenile rheumatoid arthritis", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["inflammatory spondylopathy", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
 ---
 
 # Tocilizumab

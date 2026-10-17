@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
-monitor_inn: "Trimethoprim"
-predicted_indications: ["punctate epithelial keratoconjunctivitis", "conjunctivitis (disease)"]
 ---
 
 # Trimethoprim

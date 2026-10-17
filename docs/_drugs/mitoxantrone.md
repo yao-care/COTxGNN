@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-14
 description: "Mitoxantrone: nueva indicación predicha, Cáncer de cabeza y cuello (head and neck cancer) (nivel de evidencia L2). Indicación original: No especificada en el registro"
 monitor_inn: "mitoxantrone"
-predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 ---
 
 # Mitoxantrone

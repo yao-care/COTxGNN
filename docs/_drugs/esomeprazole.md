@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Esomeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: ESOMEPRAZOL"
 monitor_inn: "Esomeprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction", "duodenal ulcer (disease)"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Esomeprazole

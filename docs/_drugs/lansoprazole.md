@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-14
 description: "Lansoprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: LANSOPRAZOL"
 monitor_inn: "Lansoprazole"
-predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
+predicted_indications: ["duodenal obstruction"]
 ---
 
 # Lansoprazole

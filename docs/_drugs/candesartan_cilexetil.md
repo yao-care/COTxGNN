@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Candesartan Cilexetil: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Candesartán"
 monitor_inn: "CANDESARTAN CILEXETIL"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Candesartan Cilexetil

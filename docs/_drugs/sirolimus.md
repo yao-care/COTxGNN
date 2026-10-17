@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"SIROLI…"
 monitor_inn: "sirolimus"
-predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "unclassified renal cell carcinoma", "renal cell carcinoma associated with neuroblastoma", "lung PEComa", "vulva sarcoma"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "vulva sarcoma"]
 ---
 
 # Sirolimus

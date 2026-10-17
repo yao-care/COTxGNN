@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Plerixafor: nueva indicación predicha, Mieloma de células plasmáticas indolente (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 monitor_inn: "PLERIXAFOR"
-predicted_indications: ["indolent plasma cell myeloma", "CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
+predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 ---
 
 # Plerixafor

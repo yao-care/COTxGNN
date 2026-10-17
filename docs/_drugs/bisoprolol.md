@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Bisoprolol: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Bisoprolol y tiazidas"
 monitor_inn: "Bisoprolol"
-predicted_indications: ["malignant renovascular hypertension", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
+predicted_indications: ["malignant hypertensive renal disease"]
 ---
 
 # Bisoprolol

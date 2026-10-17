@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Chlorpheniramine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L3). Indicación original: Paracetamol…"
 monitor_inn: "Chlorpheniramine"
-predicted_indications: ["allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "cold urticaria"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Chlorpheniramine

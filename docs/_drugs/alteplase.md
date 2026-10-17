@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alteplase: nueva indicación predicha, Infarto de miocardio posteroinferior (nivel de evidencia L5). Indicación original: Alteplasa"
 monitor_inn: "ALTEPLASE"
-predicted_indications: ["posteroinferior myocardial infarction", "posterolateral myocardial infarction", "septal myocardial infarction", "heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
+predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
 ---
 
 # Alteplase

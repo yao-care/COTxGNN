@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "Codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["trigeminal autonomic cephalalgia", "allergic urticaria"]
 ---
 
 # Codeine

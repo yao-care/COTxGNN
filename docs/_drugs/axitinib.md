@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Axitinib: nueva indicación predicha, Carcinoma renal asociado a translocaciones Xp11.2/fusiones del gen TF… (nivel de evidencia L2). Indicación original: No especificada en los registros (el texto de…"
 monitor_inn: "AXITINIB"
-predicted_indications: ["renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "childhood kidney cell carcinoma", "liposarcoma", "renal carcinoma", "ovarian myxoid liposarcoma", "angiolipoma", "collecting duct carcinoma", "familial spontaneous pneumothorax"]
+predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
 ---
 
 # Axitinib

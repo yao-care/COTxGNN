@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Primidone: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: PRIMIDONA"
 monitor_inn: "primidone"
-predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "orgasm-induced seizures", "startle epilepsy", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
+predicted_indications: ["trigeminal nerve neoplasm", "thinking seizures", "orgasm-induced seizures", "eating seizures", "micturation-induced seizures", "audiogenic seizures", "reading seizures", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 ---
 
 # Primidone
