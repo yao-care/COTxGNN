@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ezetimibe: nueva indicación predicha, Hiperlipoproteinemia (nivel de evidencia L1). Indicación original: Simvastatina, combinaciones, paquetes"
 monitor_inn: "EZETIMIBE"
-predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 ---
 
 # Ezetimibe

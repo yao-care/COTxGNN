@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-14
 description: "Cholecalciferol: nueva indicación predicha, Hipoparatiroidismo aislado familiar por alteración de la secreción de… (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incl…"
 monitor_inn: "Cholecalciferol"
-predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "renal tubular acidosis"]
+predicted_indications: ["familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hypophosphatemic rickets", "renal osteodystrophy", "renal tubular acidosis"]
 ---
 
 # Cholecalciferol

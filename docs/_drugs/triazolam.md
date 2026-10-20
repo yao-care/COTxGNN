@@ -7,8 +7,6 @@ evidence_level: L4
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Triazolam: nueva indicación predicha, Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) (nivel de evidencia L4). Indicación original: Triazolam"
-monitor_inn: "TRIAZOLAM"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep"]
 ---
 
 # Triazolam

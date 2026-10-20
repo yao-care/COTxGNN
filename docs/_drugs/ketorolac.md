@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Ketorolac: nueva indicación predicha, Trastorno de Cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Ketorolaco"
 monitor_inn: "ketorolac"
-predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 ---
 
 # Ketorolac

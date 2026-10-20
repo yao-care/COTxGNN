@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Clotrimazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Clotrimazol"
 monitor_inn: "Clotrimazole"
-predicted_indications: ["acne (disease)"]
+predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
 ---
 
 # Clotrimazole

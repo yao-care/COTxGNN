@@ -7,8 +7,6 @@ evidence_level: L1
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tazobactam: nueva indicación predicha, Neumonía (nivel de evidencia L1). Indicación original: Piperacilina e inhibidor enzimático"
-monitor_inn: "TAZOBACTAM"
-predicted_indications: ["urinary tract infection (disease)"]
 ---
 
 # Tazobactam

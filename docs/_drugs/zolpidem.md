@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-14
 description: "Zolpidem: nueva indicación predicha, Trastorno del sueño, inicio y mantenimiento del sueño (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
-predicted_indications: ["sleep disorder, initiating and maintaining sleep", "benign paroxysmal torticollis of infancy", "agoraphobia"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
 
 # Zolpidem

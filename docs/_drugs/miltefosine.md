@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Miltefosine: nueva indicación predicha, Leishmaniasis cutánea difusa (nivel de evidencia L3). Indicación original: MILTEFOSINA"
 monitor_inn: "Miltefosine"
-predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
+predicted_indications: ["leishmaniasis, diffuse cutaneous", "echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
 ---
 
 # Miltefosine

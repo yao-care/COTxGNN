@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-14
 description: "Famotidine: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: Famotidina"
 monitor_inn: "Famotidine"
-predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
+predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "gastroduodenitis", "multiple endocrine neoplasia", "acne (disease)"]
 ---
 
 # Famotidine

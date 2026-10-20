@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-14
 description: "Methylphenidate: nueva indicación predicha, Trastorno del desarrollo específico (nivel de evidencia L5). Indicación original: METILFENIDATO"
 monitor_inn: "methylphenidate"
-predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "dysthymic disorder"]
+predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
 
 # Methylphenidate

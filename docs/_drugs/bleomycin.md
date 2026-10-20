@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-10-14
 description: "Bleomycin: nueva indicación predicha, Neoplasia de la cola de caballo (cauda equina) (nivel de evidencia L5). Indicación original: No especificada en los registros (el texto aprobado solo indica \"Ble…"
 monitor_inn: "bleomycin"
-predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
+predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "reticulum cell sarcoma", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 ---
 
 # Bleomycin

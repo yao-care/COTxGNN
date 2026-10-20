@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-14
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
 monitor_inn: "vortioxetine"
-predicted_indications: ["benign paroxysmal torticollis of infancy"]
+predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
 ---
 
 # Vortioxetine
