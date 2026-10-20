@@ -1,6 +1,6 @@
 {
-  "total": 603,
-  "generated_at": "2026-10-20T04:00:38.706502",
+  "total": 601,
+  "generated_at": "2026-10-20T16:32:11.309300",
   "drugs": [
     {
       "name": "Abacavir",
@@ -958,17 +958,6 @@
       "inn": "benzydamine",
       "predicted_indications": [
         "benign prostatic hyperplasia (disease)"
-      ]
-    },
-    {
-      "name": "Bepotastine",
-      "file": "bepotastine.md",
-      "evidence_level": "L3",
-      "indication_count": 1,
-      "predicted_indication": "",
-      "inn": "bepotastine",
-      "predicted_indications": [
-        "allergic urticaria"
       ]
     },
     {
@@ -3986,17 +3975,6 @@
         "eye disease",
         "disease of orbital region",
         "exostosis"
-      ]
-    },
-    {
-      "name": "Flunarizine",
-      "file": "flunarizine.md",
-      "evidence_level": "L5",
-      "indication_count": 1,
-      "predicted_indication": "",
-      "inn": "flunarizine",
-      "predicted_indications": [
-        "migraine disorder"
       ]
     },
     {
