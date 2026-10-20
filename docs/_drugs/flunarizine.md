@@ -7,8 +7,6 @@ evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Flunarizine: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: No especificada"
-monitor_inn: "flunarizine"
-predicted_indications: ["migraine disorder"]
 ---
 
 # Flunarizine
