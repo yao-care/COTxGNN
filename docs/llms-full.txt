@@ -17,7 +17,7 @@ Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo 
 - `/evidence-high/` Evidencia Alta (L1-L2) — Candidatos L1-L2 de reposicionamiento de medicamentos en COTxGNN, respaldados por ensayos clínicos o revisiones sistemáticas.
 - `/evidence-medium/` Evidencia Moderada (L3-L4) — Candidatos L3-L4 de reposicionamiento de medicamentos en COTxGNN, respaldados por evidencia observacional o preclínica.
 - `/evidence-low/` Solo Predicción del Modelo (L5) — Candidatos L5 en COTxGNN: solo predicción del modelo, aún sin evidencia clínica ni de literatura.
-- `/methodology/` Metodología — Cómo COTxGNN genera y valida sus predicciones: predicción con el grafo de conocimiento TxGNN, recolección de evidencia, clasificación L1-L5 y recomendaciones de decisión.
+- `/methodology/` Metodología — Cómo COTxGNN genera y valida sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recolección de evidencia, clasificación L1-L5 y recomendaciones de decisión.
 - `/guide/` Guía del Usuario — Guía del usuario de COTxGNN: cómo consultar medicamentos, leer los niveles de evidencia e interpretar las recomendaciones.
 - `/sources/` Fuentes de Datos — Fuentes de datos detrás de COTxGNN: datos de registro sanitario del INVIMA, TxGNN, ClinicalTrials.gov, PubMed y DrugBank.
 - `/downloads/` Descargas — Descargas de datos abiertos de COTxGNN: recursos FHIR, resultados de predicción e índice de búsqueda.

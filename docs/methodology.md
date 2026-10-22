@@ -3,7 +3,7 @@ layout: default
 title: Metodología
 nav_order: 91
 permalink: /methodology/
-description: "Cómo COTxGNN genera y valida sus predicciones: predicción con el grafo de conocimiento TxGNN, recolección de evidencia, clasificación L1-L5 y recomendaciones de decisión."
+description: "Cómo COTxGNN genera y valida sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recolección de evidencia, clasificación L1-L5 y recomendaciones de decisión."
 ---
 
 # Metodología
@@ -17,14 +17,14 @@ De la predicción con IA a la clasificación de evidencia: cada candidato tiene 
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera COTxGNN sus predicciones?">
-La plataforma usa un flujo de cuatro etapas: el modelo de grafo de conocimiento TxGNN predice
+La plataforma usa un flujo de cuatro etapas: el modelo TxGNN (aprendizaje profundo) predice
 posibles asociaciones entre medicamentos y enfermedades, luego se recolecta evidencia de forma
 automática para cada par predicho, la evidencia se clasifica de L1 a L5 y, finalmente, se emite
 una recomendación de decisión.
 </p>
 
 <ol class="actionable-steps">
-<li><strong>Predicción TxGNN</strong>: relaciones entre medicamentos y enfermedades predichas con un grafo de conocimiento combinado con redes neuronales de grafos.</li>
+<li><strong>Predicción TxGNN</strong>: relaciones entre medicamentos y enfermedades predichas por el modelo TxGNN (aprendizaje profundo: una red neuronal de grafos entrenada con un grafo de conocimiento biomédico).</li>
 <li><strong>Recolección de evidencia</strong>: para cada par predicho se reúne evidencia de ClinicalTrials.gov, PubMed, DrugBank e INVIMA.</li>
 <li><strong>Clasificación de la evidencia</strong>: se clasifica de L1 a L5, donde L1 es la más sólida (múltiples ECA de fase 3) y L5 corresponde únicamente a predicción del modelo.</li>
 <li><strong>Recomendación de decisión</strong>: Go, Proceed, Consider, Explore o Hold, según el nivel de evidencia.</li>
