@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Piperacilina: De Antibiótico con Inhibidor Enzimático a Artritis Reumatoide
+## Piperacilina: De Antibiótico con Inhibidor Enzimático a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

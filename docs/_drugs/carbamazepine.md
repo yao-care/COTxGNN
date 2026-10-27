@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Carbamazepina: De Antiepiléptico (Registro INVIMA "Carbamazepina") a Neoplasia del Nervio Trigémino
+## Carbamazepina: De Antiepiléptico (Registro INVIMA "Carbamazepina") a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Clotrimazol: De Infecciones Fúngicas a Acné
+## Clotrimazol: De Infecciones Fúngicas a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

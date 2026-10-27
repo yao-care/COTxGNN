@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Adapaleno: De Indicación Dermatológica Tópica a Zinc Plasmático Elevado
+## Adapaleno: De Indicación Dermatológica Tópica a Zinc Plasmático Elevado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

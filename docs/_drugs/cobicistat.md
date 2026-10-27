@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Cobicistat: De Combinación Darunavir/Cobicistat (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Cobicistat: De Combinación Darunavir/Cobicistat (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

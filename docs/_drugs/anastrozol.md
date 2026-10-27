@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Anastrozol: Evaluación Incompleta — Sin Indicaciones Predichas Disponibles
+## Anastrozol: Evaluación Incompleta — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

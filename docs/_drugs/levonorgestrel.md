@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Levonorgestrel: De Levonorgestrel (anticoncepción hormonal) a Acné
+## Levonorgestrel: De Levonorgestrel (anticoncepción hormonal) a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Clorambucilo: De Clorambucilo (indicación registrada sin detalle) a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Centro Pregerminal
+## Clorambucilo: De Clorambucilo (indicación registrada sin detalle) a Leucemia Linfocítica Crónica/Linfoma Linfocítico Pequeño de Centro Pregerminal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

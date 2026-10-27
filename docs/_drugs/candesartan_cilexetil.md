@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Candesartán cilexetilo: De Hipertensión (candesartán) a Hipertensión Renovascular Maligna
+## Candesartán cilexetilo: De Hipertensión (candesartán) a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

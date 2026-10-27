@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Trastuzumab emtansina: De Indicación no especificada en el registro a Carcinoma de mama normal-like (subtipo "normal breast-like")
+## Trastuzumab emtansina: De Indicación no especificada en el registro a Carcinoma de mama normal-like (subtipo "normal breast-like")
+{: .text-alpha }
 
 > **Nota sobre la predicción principal:** la predicción de mayor puntaje (rank 1) es el subtipo "normal breast-like" del carcinoma de mama, sin ensayos clínicos ni literatura específica. Los datos compilados muestran evidencia más sólida en otras indicaciones del mismo grupo (cáncer de mama RP-negativo, nivel L2), que se detallan en este informe.
 

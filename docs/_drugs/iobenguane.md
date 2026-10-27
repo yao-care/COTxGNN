@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Iobenguane: De Iobenguane (131I) a Trastorno Hipotensivo
+## Iobenguane: De Iobenguane (131I) a Trastorno Hipotensivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

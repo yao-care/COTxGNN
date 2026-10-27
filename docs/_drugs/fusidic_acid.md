@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido fusídico: De Infecciones Cutáneas (Ácido Fusídico Tópico) a Queratitis por Exposición
+## Ácido fusídico: De Infecciones Cutáneas (Ácido Fusídico Tópico) a Queratitis por Exposición
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

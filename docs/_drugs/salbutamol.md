@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Salbutamol: De Broncodilatador a Conjuntivitis Papilar
+## Salbutamol: De Broncodilatador a Conjuntivitis Papilar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

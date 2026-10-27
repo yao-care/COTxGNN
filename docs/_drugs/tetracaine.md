@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Tetracaína: De Combinaciones (anestesia oftálmica) a Dermatitis Crónica Atrófica Acrodermatitis
+## Tetracaína: De Combinaciones (anestesia oftálmica) a Dermatitis Crónica Atrófica Acrodermatitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

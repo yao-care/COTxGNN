@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Guaifenesina: De Tos (Expectorante) a Enfermedad de la Cavidad Nasal
+## Guaifenesina: De Tos (Expectorante) a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

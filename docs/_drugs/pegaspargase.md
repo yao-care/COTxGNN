@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Pegaspargasa: De PEGASPARGASA (registro INVIMA) a Leucemia/Linfoma Linfoblástico de Precursores
+## Pegaspargasa: De PEGASPARGASA (registro INVIMA) a Leucemia/Linfoma Linfoblástico de Precursores
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

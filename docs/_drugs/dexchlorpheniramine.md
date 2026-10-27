@@ -31,7 +31,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Dexclorfeniramina: De Combinaciones de Paracetamol (excluyendo psicolépticos) a Urticaria Alérgica
+## Dexclorfeniramina: De Combinaciones de Paracetamol (excluyendo psicolépticos) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

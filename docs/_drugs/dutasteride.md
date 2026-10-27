@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dutasterida: De Dutasterida (indicación registrada sin detalle) a Hipertricosis Universal Congénita tipo Ambras
+## Dutasterida: De Dutasterida (indicación registrada sin detalle) a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

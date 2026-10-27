@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Lamivudina: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicciones
+## Lamivudina: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicciones
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

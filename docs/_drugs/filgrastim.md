@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Filgrastim: De Indicación No Especificada a Trastorno Hemorrágico Primario de Liberación Plaquetaria
+## Filgrastim: De Indicación No Especificada a Trastorno Hemorrágico Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

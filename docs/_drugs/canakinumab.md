@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Canakinumab: De Indicación No Especificada en el Registro a Infarto Hepático
+## Canakinumab: De Indicación No Especificada en el Registro a Infarto Hepático
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

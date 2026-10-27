@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Carbonato de Litio: De Litio (indicación registrada) a Pseudoacondroplasia
+## Carbonato de Litio: De Litio (indicación registrada) a Pseudoacondroplasia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

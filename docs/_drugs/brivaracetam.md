@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Brivaracetam: De Indicación Original (Epilepsia) a Estado Epiléptico
+## Brivaracetam: De Indicación Original (Epilepsia) a Estado Epiléptico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Mesalazina: De Mesalazina (indicación no detallada en el registro) a Hipotricosis congénita con distrofia macular juvenil
+## Mesalazina: De Mesalazina (indicación no detallada en el registro) a Hipotricosis congénita con distrofia macular juvenil
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

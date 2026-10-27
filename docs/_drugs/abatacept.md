@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Abatacept: De Indicación Registrada (Abatacept) a Vasculitis Reumatoide
+## Abatacept: De Indicación Registrada (Abatacept) a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

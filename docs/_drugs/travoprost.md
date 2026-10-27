@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Travoprost: De Glaucoma/Hipertensión Ocular a Calcifilaxis Visceral
+## Travoprost: De Glaucoma/Hipertensión Ocular a Calcifilaxis Visceral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

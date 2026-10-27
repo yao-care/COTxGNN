@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Nimodipino: De Nimodipino (indicación no detallada en el registro) a Hipercolesterolemia Familiar Homocigota
+## Nimodipino: De Nimodipino (indicación no detallada en el registro) a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

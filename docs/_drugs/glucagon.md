@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Glucagón: De Glucagón (indicación aprobada sin detalle) a Síndrome del Intestino Irritable
+## Glucagón: De Glucagón (indicación aprobada sin detalle) a Síndrome del Intestino Irritable
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

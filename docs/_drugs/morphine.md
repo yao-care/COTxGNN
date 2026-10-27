@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Morfina: De Indicación No Especificada en el Registro («MORFINA») a Síndrome de Dolor Miofascial
+## Morfina: De Indicación No Especificada en el Registro («MORFINA») a Síndrome de Dolor Miofascial
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

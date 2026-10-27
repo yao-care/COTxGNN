@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Letermovir: De Letermovir (CMV) a Candidiasis Vulvovaginal
+## Letermovir: De Letermovir (CMV) a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

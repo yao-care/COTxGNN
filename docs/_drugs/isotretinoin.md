@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Isotretinoína: De Isotretinoína (indicación no detallada en el registro) a Enfermedad Renal Hipertensiva Maligna
+## Isotretinoína: De Isotretinoína (indicación no detallada en el registro) a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

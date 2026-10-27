@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Metilprednisolona: De Corticosteroide Sistémico a Alopecia Areata
+## Metilprednisolona: De Corticosteroide Sistémico a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

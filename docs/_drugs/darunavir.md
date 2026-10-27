@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Darunavir: De Combinaciones con Ritonavir (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Darunavir: De Combinaciones con Ritonavir (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

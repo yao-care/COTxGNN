@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Primaquina: De Malaria a Miasis
+## Primaquina: De Malaria a Miasis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

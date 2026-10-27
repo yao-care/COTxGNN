@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Procaína: De Anestesia Local a Metahemoglobinemia
+## Procaína: De Anestesia Local a Metahemoglobinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

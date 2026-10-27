@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Loteprednol etabonato: De Corticoide Oftálmico Tópico a Foliculosis Conjuntival
+## Loteprednol etabonato: De Corticoide Oftálmico Tópico a Foliculosis Conjuntival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

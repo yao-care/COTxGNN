@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Fenofibrato: De Pravastatina y Fenofibrato (dislipidemia) a Hipercolesterolemia Familiar Homocigota
+## Fenofibrato: De Pravastatina y Fenofibrato (dislipidemia) a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

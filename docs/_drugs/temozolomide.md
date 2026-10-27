@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **2**
 
 </div>
 
-# Temozolomida: De Indicación Registrada (Temozolomida) a Tumor Astrocítico del Adulto
+## Temozolomida: De Indicación Registrada (Temozolomida) a Tumor Astrocítico del Adulto
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

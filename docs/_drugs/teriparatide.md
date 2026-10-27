@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Teriparatida: De Osteoporosis a Úlcera Duodenal
+## Teriparatida: De Osteoporosis a Úlcera Duodenal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

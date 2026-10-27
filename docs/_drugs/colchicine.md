@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Colchicina: De Colchicina (indicación no detallada en el registro) a Fiebre Mediterránea Familiar
+## Colchicina: De Colchicina (indicación no detallada en el registro) a Fiebre Mediterránea Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

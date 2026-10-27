@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Nandrolona: De Nandrolona (indicación no detallada en el registro) a Enfermedad Fibroquística de la Mama
+## Nandrolona: De Nandrolona (indicación no detallada en el registro) a Enfermedad Fibroquística de la Mama
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Flurbiprofeno: De Indicación Original (FLURBIPROFENO, sin descripción detallada) a Espondilitis Anquilosante
+## Flurbiprofeno: De Indicación Original (FLURBIPROFENO, sin descripción detallada) a Espondilitis Anquilosante
+{: .text-alpha }
 
 > Nota: el primer candidato del ranking (displasia acromesomélica tipo Hunter-Thompson) tiene solo una predicción del modelo, sin ninguna evidencia. Este informe usa la espondilitis anquilosante (posición 8 del ranking) como la indicación mejor respaldada, y sus resultados se comparan en la sección de conclusión.
 

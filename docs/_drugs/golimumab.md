@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Golimumab: De Indicación Original (no especificada en el registro) a Vasculitis Reumatoide
+## Golimumab: De Indicación Original (no especificada en el registro) a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bupropión: De Indicación Registrada (Bupropión) a Trastorno por Déficit de Atención e Hiperactividad
+## Bupropión: De Indicación Registrada (Bupropión) a Trastorno por Déficit de Atención e Hiperactividad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Oxibutinina: De Indicación No Especificada en el Registro a Síndrome de Piernas Inquietas
+## Oxibutinina: De Indicación No Especificada en el Registro a Síndrome de Piernas Inquietas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

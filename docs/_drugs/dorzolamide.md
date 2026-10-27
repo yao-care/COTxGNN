@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dorzolamida: De Combinaciones de Timolol a Glaucoma Hereditario Primario
+## Dorzolamida: De Combinaciones de Timolol a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

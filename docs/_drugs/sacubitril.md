@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Sacubitrilo: De Valsartán y Sacubitrilo (indicación registrada) a Nefropatía Diabética
+## Sacubitrilo: De Valsartán y Sacubitrilo (indicación registrada) a Nefropatía Diabética
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

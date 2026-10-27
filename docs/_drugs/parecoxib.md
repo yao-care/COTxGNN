@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Parecoxib: De Indicación Original No Especificada a Trastorno de Migraña
+## Parecoxib: De Indicación Original No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

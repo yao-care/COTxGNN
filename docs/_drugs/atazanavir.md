@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Atazanavir: De ATAZANAVIR+RITONAVIR (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Atazanavir: De ATAZANAVIR+RITONAVIR (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

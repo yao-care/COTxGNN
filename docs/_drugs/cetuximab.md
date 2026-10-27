@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cetuximab: De Cetuximab (indicación registrada sin detallar) a Condroide Hamartoma
+## Cetuximab: De Cetuximab (indicación registrada sin detallar) a Condroide Hamartoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

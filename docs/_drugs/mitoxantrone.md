@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Mitoxantrona: De Indicación No Especificada a Cáncer de Cabeza y Cuello
+## Mitoxantrona: De Indicación No Especificada a Cáncer de Cabeza y Cuello
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ixabepilona: De Ixabepilona (indicación aprobada sin detalle) a Sarcoma de Ewing
+## Ixabepilona: De Ixabepilona (indicación aprobada sin detalle) a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bevacizumab: De Indicación No Especificada en el Registro a Neoplasia de Epiglotis
+## Bevacizumab: De Indicación No Especificada en el Registro a Neoplasia de Epiglotis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

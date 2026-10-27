@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Flunarizina: De Indicación No Especificada a Trastorno de Migraña
+## Flunarizina: De Indicación No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

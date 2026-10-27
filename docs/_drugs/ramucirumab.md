@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramucirumab: De Indicación No Especificada en el Registro a Adenocarcinoma del Ligamento Uterino
+## Ramucirumab: De Indicación No Especificada en el Registro a Adenocarcinoma del Ligamento Uterino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

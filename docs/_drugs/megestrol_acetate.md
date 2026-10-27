@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetato de Megestrol: De Indicación Original (MEGESTROL) a Carcinoma Endometrial del Cuerpo Uterino
+## Acetato de Megestrol: De Indicación Original (MEGESTROL) a Carcinoma Endometrial del Cuerpo Uterino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

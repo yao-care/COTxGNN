@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Orlistat: De Obesidad (Inhibición de Lipasas) a Hipervitaminosis
+## Orlistat: De Obesidad (Inhibición de Lipasas) a Hipervitaminosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

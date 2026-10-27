@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Ácido mefenámico: De la indicación registrada (sin detalle) a Artritis Reumatoide
+## Ácido mefenámico: De la indicación registrada (sin detalle) a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

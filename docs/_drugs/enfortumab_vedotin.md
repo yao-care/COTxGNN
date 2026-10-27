@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Enfortumab Vedotina: De Indicación Registrada sin Texto Descriptivo a Lepra (Predicción Computacional)
+## Enfortumab Vedotina: De Indicación Registrada sin Texto Descriptivo a Lepra (Predicción Computacional)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

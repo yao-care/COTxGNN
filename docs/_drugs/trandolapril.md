@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Trandolapril: De Combinación con Bloqueadores de Canales de Calcio a Hipertensión Renovascular Maligna
+## Trandolapril: De Combinación con Bloqueadores de Canales de Calcio a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

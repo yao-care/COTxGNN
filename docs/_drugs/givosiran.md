@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Givosiran: De Porfiria Hepática Aguda a Porfiria por Deficiencia de ALA Deshidratasa
+## Givosiran: De Porfiria Hepática Aguda a Porfiria por Deficiencia de ALA Deshidratasa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

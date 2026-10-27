@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Posaconazol: De Posaconazol (indicación no detallada en el registro) a Neumocistosis
+## Posaconazol: De Posaconazol (indicación no detallada en el registro) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

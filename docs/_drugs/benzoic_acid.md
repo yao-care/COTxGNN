@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido Benzoico: De Ácido Salicílico/Aminobenzoico (uso tópico) a Bronquitis
+## Ácido Benzoico: De Ácido Salicílico/Aminobenzoico (uso tópico) a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

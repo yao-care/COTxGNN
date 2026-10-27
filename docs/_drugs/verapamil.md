@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Verapamilo: De Bloqueador de Canales de Calcio (asociado a Trandolapril) a Bloqueo de Rama Haz de His (obsoleto)
+## Verapamilo: De Bloqueador de Canales de Calcio (asociado a Trandolapril) a Bloqueo de Rama Haz de His (obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

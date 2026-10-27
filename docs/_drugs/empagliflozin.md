@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Empagliflozina: De Indicación Registrada (Empagliflozina) a Síndrome de la Persona Rígida Clásico
+## Empagliflozina: De Indicación Registrada (Empagliflozina) a Síndrome de la Persona Rígida Clásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

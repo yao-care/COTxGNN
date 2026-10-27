@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bimatoprost: De Solución Oftálmica para Glaucoma a Síndrome de Malformación con Componente Odontal y/o Periodontal
+## Bimatoprost: De Solución Oftálmica para Glaucoma a Síndrome de Malformación con Componente Odontal y/o Periodontal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

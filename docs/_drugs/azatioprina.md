@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Azatioprina: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicción
+## Azatioprina: Evaluación de Reposicionamiento — Datos Insuficientes para Generar Predicción
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

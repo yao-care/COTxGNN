@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vismodegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
+## Vismodegib: De Carcinoma Basocelular Avanzado a Meduloblastoma con Nodularidad Extensa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Trazodona: De Antidepresivo (Registro Sanitario "TRAZODONA") a Trastorno Obsesivo-Compulsivo
+## Trazodona: De Antidepresivo (Registro Sanitario "TRAZODONA") a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

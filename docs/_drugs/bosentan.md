@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Bosentan: De Bosentan (indicación registrada sin especificar) a Artritis Reumatoide
+## Bosentan: De Bosentan (indicación registrada sin especificar) a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

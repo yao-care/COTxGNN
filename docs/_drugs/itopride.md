@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Itopride: De Itoprida (procinético) a Enfermedad de Crohn del Intestino Delgado
+## Itopride: De Itoprida (procinético) a Enfermedad de Crohn del Intestino Delgado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

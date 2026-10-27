@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Oxymetazolina: De Descongestionante Nasal a Enfermedad de la Cavidad Nasal
+## Oxymetazolina: De Descongestionante Nasal a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

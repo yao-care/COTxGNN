@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluorouracilo: De Fluorouracilo tópico/inyectable (indicación no detallada en el registro) a Rabdomiosarcoma
+## Fluorouracilo: De Fluorouracilo tópico/inyectable (indicación no detallada en el registro) a Rabdomiosarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

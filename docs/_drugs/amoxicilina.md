@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Amoxicilina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis
+## Amoxicilina: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Meperidina: De Petidina (analgésico opioide) a Síndrome de Tourette
+## Meperidina: De Petidina (analgésico opioide) a Síndrome de Tourette
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

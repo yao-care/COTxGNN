@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ramipril: De Indicación No Especificada a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+## Ramipril: De Indicación No Especificada a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Decitabina: De Decitabina (indicación registrada sin detalle) a Citopenia Refractaria de la Infancia
+## Decitabina: De Decitabina (indicación registrada sin detalle) a Citopenia Refractaria de la Infancia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

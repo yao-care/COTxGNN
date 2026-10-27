@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Metoclopramida: De Indicación No Especificada en el Registro a Úlcera Gástrica
+## Metoclopramida: De Indicación No Especificada en el Registro a Úlcera Gástrica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

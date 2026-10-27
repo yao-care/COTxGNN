@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dienogest: De Dienogest y Etinilestradiol a Amenorrea
+## Dienogest: De Dienogest y Etinilestradiol a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

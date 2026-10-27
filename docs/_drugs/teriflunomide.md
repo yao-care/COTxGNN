@@ -31,7 +31,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-# Teriflunomida: De Esclerosis Múltiple Recurrente a Esclerosis Múltiple Remitente-Recurrente
+## Teriflunomida: De Esclerosis Múltiple Recurrente a Esclerosis Múltiple Remitente-Recurrente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

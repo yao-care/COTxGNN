@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Candesartán: De Hipertensión (Indicación Registrada) a Trastorno de Migraña
+## Candesartán: De Hipertensión (Indicación Registrada) a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

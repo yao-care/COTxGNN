@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Ivermectina: De Ivermectina (indicación no detallada en el registro) a Candidiasis Vulvovaginal
+## Ivermectina: De Ivermectina (indicación no detallada en el registro) a Candidiasis Vulvovaginal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

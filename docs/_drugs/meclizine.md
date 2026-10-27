@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Meclizina: De MECLOZINA (indicación registrada) a Urticaria Alérgica
+## Meclizina: De MECLOZINA (indicación registrada) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

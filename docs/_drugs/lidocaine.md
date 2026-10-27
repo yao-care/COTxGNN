@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lidocaína: De Lidocaína (combinaciones) a Queratoconjuntivitis Epitelial Punteada
+## Lidocaína: De Lidocaína (combinaciones) a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

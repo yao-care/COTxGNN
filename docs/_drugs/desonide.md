@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Desonida: De Corticosteroide Tópico a Pólipo de Cuerda Vocal
+## Desonida: De Corticosteroide Tópico a Pólipo de Cuerda Vocal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

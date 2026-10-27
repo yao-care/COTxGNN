@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Imipramina: De Imipramina (indicación no detallada en el registro) a Trastorno por Déficit de Atención e Hiperactividad
+## Imipramina: De Imipramina (indicación no detallada en el registro) a Trastorno por Déficit de Atención e Hiperactividad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fluvoxamina: De Fluvoxamina (indicación no especificada en el registro) a Trastorno de Personalidad Paranoide
+## Fluvoxamina: De Fluvoxamina (indicación no especificada en el registro) a Trastorno de Personalidad Paranoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

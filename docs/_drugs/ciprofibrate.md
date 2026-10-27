@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ciprofibrato: De Dislipidemia a Hiperlipoproteinemia
+## Ciprofibrato: De Dislipidemia a Hiperlipoproteinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sulfacetamida: De Indicación Original (Sulfacetamida oftálmica) a Vasculitis Postinfecciosa
+## Sulfacetamida: De Indicación Original (Sulfacetamida oftálmica) a Vasculitis Postinfecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-# Oxaliplatino: De Indicación Registrada (Oxaliplatino) a Mesotelioma Pleural Maligno
+## Oxaliplatino: De Indicación Registrada (Oxaliplatino) a Mesotelioma Pleural Maligno
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

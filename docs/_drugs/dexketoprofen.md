@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexketoprofeno: De Analgésico Antiinflamatorio (AINE) a Tendinitis
+## Dexketoprofeno: De Analgésico Antiinflamatorio (AINE) a Tendinitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

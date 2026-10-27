@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Fentanilo: De Fentanilo (indicación no detallada en el registro) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Fentanilo: De Fentanilo (indicación no detallada en el registro) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

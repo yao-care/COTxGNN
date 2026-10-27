@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Danazol: De Indicación Original (Danazol) a Amenorrea
+## Danazol: De Indicación Original (Danazol) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

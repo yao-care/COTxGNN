@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Calcipotriol: De Combinaciones de Calcipotriol a Queratosis Seborreica
+## Calcipotriol: De Combinaciones de Calcipotriol a Queratosis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

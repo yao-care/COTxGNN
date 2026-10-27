@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Tocilizumab: De Indicación No Especificada a Espondilitis Anquilosante
+## Tocilizumab: De Indicación No Especificada a Espondilitis Anquilosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

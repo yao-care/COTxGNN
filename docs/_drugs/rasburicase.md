@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Rasburicasa: De Rasburicasa (indicación sin detallar) a Hipouricemia Renal
+## Rasburicasa: De Rasburicasa (indicación sin detallar) a Hipouricemia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

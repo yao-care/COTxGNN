@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Lopinavir: De Lopinavir y Ritonavir (infección por VIH) a Infección por el Virus de la Inmunodeficiencia Simia
+## Lopinavir: De Lopinavir y Ritonavir (infección por VIH) a Infección por el Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

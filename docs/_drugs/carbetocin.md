@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Carbetocina: De Carbetocina (indicación sin detallar en el registro) a Síndrome similar a la isotretinoína
+## Carbetocina: De Carbetocina (indicación sin detallar en el registro) a Síndrome similar a la isotretinoína
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Turoctocog alfa pegol: De Factor VIII de la Coagulación a Trastorno de Liberación Primaria de las Plaquetas
+## Turoctocog alfa pegol: De Factor VIII de la Coagulación a Trastorno de Liberación Primaria de las Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

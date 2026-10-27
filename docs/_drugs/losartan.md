@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Losartán: De Hipertensión (registro sanitario cancelado) a Enfermedad Renal Hipertensiva Maligna
+## Losartán: De Hipertensión (registro sanitario cancelado) a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

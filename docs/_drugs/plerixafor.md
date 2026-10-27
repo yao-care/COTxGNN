@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Plerixafor: De Movilizador de Células Madre Hematopoyéticas a Mieloma de Células Plasmáticas Indolente
+## Plerixafor: De Movilizador de Células Madre Hematopoyéticas a Mieloma de Células Plasmáticas Indolente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

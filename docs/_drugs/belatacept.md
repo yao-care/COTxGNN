@@ -36,7 +36,8 @@ Analizando el Evidence Pack recibido, noto que `predicted_indications` está vac
 
 ---
 
-# Belatacept: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+## Belatacept: Evaluación de Reposicionamiento — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Articaína: Evaluación Detenida — Datos Insuficientes para Predicción de Reposicionamiento
+## Articaína: Evaluación Detenida — Datos Insuficientes para Predicción de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Risdiplam: De Atrofia Muscular Espinal a Acné
+## Risdiplam: De Atrofia Muscular Espinal a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

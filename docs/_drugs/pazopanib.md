@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Pazopanib: De Pazopanib (indicación sin detallar en el registro) a Carcinoma de Células Renales No Clasificado
+## Pazopanib: De Pazopanib (indicación sin detallar en el registro) a Carcinoma de Células Renales No Clasificado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

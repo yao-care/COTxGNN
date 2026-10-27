@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Tenofovir disoproxil: De Infección por VIH (combinaciones antirretrovirales) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Tenofovir disoproxil: De Infección por VIH (combinaciones antirretrovirales) a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

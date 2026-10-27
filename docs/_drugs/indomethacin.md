@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Indometacina: De Condiciones Inflamatorias (AINE) a Síndrome de Braquidactilia-Sindactilia
+## Indometacina: De Condiciones Inflamatorias (AINE) a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

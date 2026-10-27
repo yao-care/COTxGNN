@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexlansoprazol: De Indicación Registrada (Dexlansoprazol) a Enfermedad Ulcerosa Péptica Activa
+## Dexlansoprazol: De Indicación Registrada (Dexlansoprazol) a Enfermedad Ulcerosa Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

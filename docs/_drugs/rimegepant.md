@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 </div>
 
-# Rimegepant: De Rimegepant (indicación sin detallar) a Migraña con Aura del Tronco Encefálico
+## Rimegepant: De Rimegepant (indicación sin detallar) a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Fluocinolona Acetonida: De Combinaciones de Corticosteroides a Liquen Plano Anular Atrófico
+## Fluocinolona Acetonida: De Combinaciones de Corticosteroides a Liquen Plano Anular Atrófico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

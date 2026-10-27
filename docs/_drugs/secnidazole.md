@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Secnidazol: De Antimicrobiano Nitroimidazol a Vaginitis Atrófica Posmenopáusica
+## Secnidazol: De Antimicrobiano Nitroimidazol a Vaginitis Atrófica Posmenopáusica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

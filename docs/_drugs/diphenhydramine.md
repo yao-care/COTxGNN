@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Difenhidramina: De Antihistamínico (Difenhidramina) a Conjuntivitis por Rosácea
+## Difenhidramina: De Antihistamínico (Difenhidramina) a Conjuntivitis por Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

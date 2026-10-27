@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Vasopresina: De Vasopresina (indicación sin detallar) a Deficiencia Congénita de Protrombina
+## Vasopresina: De Vasopresina (indicación sin detallar) a Deficiencia Congénita de Protrombina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

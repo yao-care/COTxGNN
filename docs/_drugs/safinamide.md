@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Safinamida: De Enfermedad de Parkinson (SAFINAMIDA) a Encefalitis Subaguda de Rasmussen
+## Safinamida: De Enfermedad de Parkinson (SAFINAMIDA) a Encefalitis Subaguda de Rasmussen
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Cisteína: De Combinaciones (Nutrición Parenteral) a Síndrome de Ojo Seco
+## Cisteína: De Combinaciones (Nutrición Parenteral) a Síndrome de Ojo Seco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

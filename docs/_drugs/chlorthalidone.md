@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clortalidona: De Clortalidona (indicación registrada sin detalle) a Glaucoma Hereditario Primario
+## Clortalidona: De Clortalidona (indicación registrada sin detalle) a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

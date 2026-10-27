@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Mecasermina: De Deficiencia de IGF-1 a Monosomía X
+## Mecasermina: De Deficiencia de IGF-1 a Monosomía X
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

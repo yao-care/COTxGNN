@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Ciclosporina: De Indicación Original (Ciclosporina, sin detalle de indicación) a Enfermedad Granulomatosa Crónica Autosómica Recesiva
+## Ciclosporina: De Indicación Original (Ciclosporina, sin detalle de indicación) a Enfermedad Granulomatosa Crónica Autosómica Recesiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

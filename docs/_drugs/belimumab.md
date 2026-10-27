@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Belimumab: De Indicación No Especificada a Trastorno de Liberación Primaria de Plaquetas
+## Belimumab: De Indicación No Especificada a Trastorno de Liberación Primaria de Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

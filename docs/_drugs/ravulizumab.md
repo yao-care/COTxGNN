@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ravulizumab: De Indicación Original No Especificada a Neutropenia Congénita Grave por Deficiencia de G6PC3
+## Ravulizumab: De Indicación Original No Especificada a Neutropenia Congénita Grave por Deficiencia de G6PC3
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

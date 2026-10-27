@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Alopurinol: De Alopurinol (indicación registrada sin detalle) a Porfiria Hepática
+## Alopurinol: De Alopurinol (indicación registrada sin detalle) a Porfiria Hepática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

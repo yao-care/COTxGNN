@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 
 </div>
 
-# Sucralfato: De Indicación Registrada (Sucralfato) a Reflujo Duodenogástrico
+## Sucralfato: De Indicación Registrada (Sucralfato) a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

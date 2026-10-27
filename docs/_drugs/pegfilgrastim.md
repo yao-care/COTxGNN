@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Pegfilgrastim: De Pegfilgrastim (indicación sin detallar) a Retinopatía Diabética No Proliferativa Grave
+## Pegfilgrastim: De Pegfilgrastim (indicación sin detallar) a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

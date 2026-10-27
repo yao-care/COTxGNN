@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Pemetrexed: De Indicación Original (no especificada en el registro) a Mesotelioma Peritoneal Maligno
+## Pemetrexed: De Indicación Original (no especificada en el registro) a Mesotelioma Peritoneal Maligno
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -31,7 +31,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Bepotastina: De Indicación Oftálmica (Bepotastina) a Urticaria Alérgica
+## Bepotastina: De Indicación Oftálmica (Bepotastina) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

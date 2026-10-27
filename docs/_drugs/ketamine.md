@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ketamina: De Uso Anestésico/Inyectable (KETAMINA I.V.) a Trastorno de Cefalea
+## Ketamina: De Uso Anestésico/Inyectable (KETAMINA I.V.) a Trastorno de Cefalea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

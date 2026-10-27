@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ranibizumab: De Indicación Original (RANIBIZUMAB, según registro INVIMA) a Retinopatía Diabética No Proliferativa Grave
+## Ranibizumab: De Indicación Original (RANIBIZUMAB, según registro INVIMA) a Retinopatía Diabética No Proliferativa Grave
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

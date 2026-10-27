@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Meropenem: De Indicación No Especificada en el Registro a Bacteriana Artritis (Artritis Bacteriana)
+## Meropenem: De Indicación No Especificada en el Registro a Bacteriana Artritis (Artritis Bacteriana)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

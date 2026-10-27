@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Bacitracina: De Dexametasona y Antiinfecciosos a Queratoconjuntivitis Epitelial Punteada
+## Bacitracina: De Dexametasona y Antiinfecciosos a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

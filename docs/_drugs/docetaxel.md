@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Docetaxel: De Docetaxel (indicación original no especificada) a Carcinoma de Mama Femenino
+## Docetaxel: De Docetaxel (indicación original no especificada) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

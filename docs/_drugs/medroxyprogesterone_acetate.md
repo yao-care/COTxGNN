@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetato de medroxiprogesterona: De Medroxiprogesterona (uso registrado) a Amenorrea
+## Acetato de medroxiprogesterona: De Medroxiprogesterona (uso registrado) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

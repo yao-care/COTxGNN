@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metotrexato: De Indicación Registrada (METROTEXATE) a Pulmonary Blastoma (Blastoma Pulmonar)
+## Metotrexato: De Indicación Registrada (METROTEXATE) a Pulmonary Blastoma (Blastoma Pulmonar)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

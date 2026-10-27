@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Epirubicina: De Epirrubicina (indicación sin detallar) a Linfoma Pulmonar Primario
+## Epirubicina: De Epirrubicina (indicación sin detallar) a Linfoma Pulmonar Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

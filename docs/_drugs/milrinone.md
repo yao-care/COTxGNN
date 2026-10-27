@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Milrinona: De Insuficiencia Cardiaca Congestiva a Alopecia
+## Milrinona: De Insuficiencia Cardiaca Congestiva a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Alverina: De Combinaciones de Alverina (Antiespasmódico) a Trastorno Distímico
+## Alverina: De Combinaciones de Alverina (Antiespasmódico) a Trastorno Distímico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

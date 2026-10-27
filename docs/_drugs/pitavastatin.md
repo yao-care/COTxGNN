@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Pitavastatina: De Indicación Registrada (Pitavastatina) a Hipercolesterolemia Familiar Homocigota
+## Pitavastatina: De Indicación Registrada (Pitavastatina) a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

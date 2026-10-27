@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorazepam: De Indicación No Especificada a Neoplasia del Nervio Trigémino
+## Lorazepam: De Indicación No Especificada a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

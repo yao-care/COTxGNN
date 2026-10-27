@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Clomipramina: De Clomipramina (indicación no detallada en el registro) a Trastorno de Ansiedad
+## Clomipramina: De Clomipramina (indicación no detallada en el registro) a Trastorno de Ansiedad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

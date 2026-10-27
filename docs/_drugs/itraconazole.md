@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Itraconazol: De Indicación Original (ITRACONAZOL, sin detalle) a Neumocistosis
+## Itraconazol: De Indicación Original (ITRACONAZOL, sin detalle) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

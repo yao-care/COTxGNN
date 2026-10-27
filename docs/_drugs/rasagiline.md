@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Rasagilina: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+## Rasagilina: De Enfermedad de Parkinson a Neurodegeneración Asociada a PLA2G6
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

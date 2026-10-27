@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vitamina E: De Multivitamínicos y Minerales a Trastorno Congénito del Metabolismo de la Bilirrubina
+## Vitamina E: De Multivitamínicos y Minerales a Trastorno Congénito del Metabolismo de la Bilirrubina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

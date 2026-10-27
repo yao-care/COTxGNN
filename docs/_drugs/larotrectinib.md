@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Larotrectinib: De Tumores con Fusión NTRK a Neoplasia Endocrina Múltiple
+## Larotrectinib: De Tumores con Fusión NTRK a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

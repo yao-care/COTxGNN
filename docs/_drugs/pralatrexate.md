@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pralatrexato: De PRALATREXATO (indicación sin especificar) a Tumor Adenomatoide Pleural
+## Pralatrexato: De PRALATREXATO (indicación sin especificar) a Tumor Adenomatoide Pleural
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

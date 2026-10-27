@@ -31,7 +31,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-# Olaparib: De Indicación Original (OLAPARIB, sin texto detallado) a Carcinoma de Mama Femenino
+## Olaparib: De Indicación Original (OLAPARIB, sin texto detallado) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Irinotecan: De Irinotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
+## Irinotecan: De Irinotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

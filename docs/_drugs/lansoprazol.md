@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# LANSOPRAZOL: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+## LANSOPRAZOL: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+{: .text-alpha }
 
 ## Resumen
 

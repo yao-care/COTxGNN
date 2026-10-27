@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Maraviroc: De Infección por VIH (CCR5-trópico) a Neoplasia Endocrina Múltiple
+## Maraviroc: De Infección por VIH (CCR5-trópico) a Neoplasia Endocrina Múltiple
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

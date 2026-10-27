@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Rifabutina: De Rifabutina (indicación registrada) a Infección por VIH (enfermedades micobacterianas asociadas al VIH)
+## Rifabutina: De Rifabutina (indicación registrada) a Infección por VIH (enfermedades micobacterianas asociadas al VIH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

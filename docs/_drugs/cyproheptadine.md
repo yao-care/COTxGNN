@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Ciproheptadina: De Antihistamínico (indicación no detallada en el registro) a Urticaria Alérgica
+## Ciproheptadina: De Antihistamínico (indicación no detallada en el registro) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Adenosina: De Indicación No Especificada a Bloqueo de Rama del Haz (término obsoleto)
+## Adenosina: De Indicación No Especificada a Bloqueo de Rama del Haz (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Cefalotina: De Uso Antibacteriano Registrado a Uretritis Gonocócica
+## Cefalotina: De Uso Antibacteriano Registrado a Uretritis Gonocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

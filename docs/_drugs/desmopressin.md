@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Desmopresina: De Desmopresina (registro sin indicación detallada) a Deficiencia Congénita de Protrombina
+## Desmopresina: De Desmopresina (registro sin indicación detallada) a Deficiencia Congénita de Protrombina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

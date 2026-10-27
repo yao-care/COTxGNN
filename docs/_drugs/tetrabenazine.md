@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tetrabenazina: De Tetrabenazina (indicación registrada sin detalle) a Enfermedad Renal Poliquística tipo 3 con o sin Enfermedad Hepática Poliquística
+## Tetrabenazina: De Tetrabenazina (indicación registrada sin detalle) a Enfermedad Renal Poliquística tipo 3 con o sin Enfermedad Hepática Poliquística
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

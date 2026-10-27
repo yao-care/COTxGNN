@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Hidrocodona: De Paracetamol en Combinaciones con Psicolépticos a Enfermedad de la Cavidad Nasal
+## Hidrocodona: De Paracetamol en Combinaciones con Psicolépticos a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

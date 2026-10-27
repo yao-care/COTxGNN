@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Aripiprazol: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+## Aripiprazol: Evaluación de Reposicionamiento — Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ---
 

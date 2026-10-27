@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Pirfenidona: De Fibrosis Pulmonar Idiopática a Neoplasia Fibroblástica
+## Pirfenidona: De Fibrosis Pulmonar Idiopática a Neoplasia Fibroblástica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

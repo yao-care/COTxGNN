@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Diatrizoato: De Medio de Contraste Radiográfico a Susceptibilidad a la Osteoartritis
+## Diatrizoato: De Medio de Contraste Radiográfico a Susceptibilidad a la Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

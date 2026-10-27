@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Benzidamina: De Indicación Original (Benzidamina, solución bucal) a Hiperplasia Prostática Benigna
+## Benzidamina: De Indicación Original (Benzidamina, solución bucal) a Hiperplasia Prostática Benigna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

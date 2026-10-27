@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Sertralina: De Sertralina (indicación según registro INVIMA) a Trastorno Esquizotípico de la Personalidad
+## Sertralina: De Sertralina (indicación según registro INVIMA) a Trastorno Esquizotípico de la Personalidad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

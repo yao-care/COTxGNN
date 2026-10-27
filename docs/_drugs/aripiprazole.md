@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Aripiprazol: De Indicación Original (ARIPIPRAZOL, sin texto detallado) a Trastorno Afectivo Mayor
+## Aripiprazol: De Indicación Original (ARIPIPRAZOL, sin texto detallado) a Trastorno Afectivo Mayor
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

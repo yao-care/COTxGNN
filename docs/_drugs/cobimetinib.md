@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cobimetinib: De Indicación Original No Especificada a Esclerosis Lateral Amiotrófica
+## Cobimetinib: De Indicación Original No Especificada a Esclerosis Lateral Amiotrófica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

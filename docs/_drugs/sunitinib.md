@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sunitinib: De Indicación Original No Especificada a Liposarcoma
+## Sunitinib: De Indicación Original No Especificada a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

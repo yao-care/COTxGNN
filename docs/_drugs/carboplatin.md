@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Carboplatino: De Indicación Original (Carboplatino) a Carcinoma de Mama Femenino
+## Carboplatino: De Indicación Original (Carboplatino) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Terazosina: De Indicación No Especificada en el Registro (Terazosina) a Hipotricosis Simple del Cuero Cabelludo
+## Terazosina: De Indicación No Especificada en el Registro (Terazosina) a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Mepolizumab: De Indicación Original (no especificada en el registro) a Trombocitopenia por Destrucción Inmune
+## Mepolizumab: De Indicación Original (no especificada en el registro) a Trombocitopenia por Destrucción Inmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

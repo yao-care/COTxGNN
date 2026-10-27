@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Fulvestrant: De Indicación Registrada (texto "FLUVESTRANT") a Infección por VIH
+## Fulvestrant: De Indicación Registrada (texto "FLUVESTRANT") a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

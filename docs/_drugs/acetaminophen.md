@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Acetaminofén: De Paracetamol (indicación registrada) a Migraña con Aura del Tronco Encefálico
+## Acetaminofén: De Paracetamol (indicación registrada) a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

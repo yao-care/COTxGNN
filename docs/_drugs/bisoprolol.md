@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Bisoprolol: De Bisoprolol y Tiazidas a Hipertensión Renovascular Maligna
+## Bisoprolol: De Bisoprolol y Tiazidas a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Apomorfina: De Apomorfina (indicación no detallada en el registro) a Esquizofrenia
+## Apomorfina: De Apomorfina (indicación no detallada en el registro) a Esquizofrenia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

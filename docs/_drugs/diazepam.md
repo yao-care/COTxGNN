@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Diazepam: De Indicación Original (Diazepam) a Insomnio
+## Diazepam: De Indicación Original (Diazepam) a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mebendazol: De Antihelmíntico (Mebendazol) a Acné
+## Mebendazol: De Antihelmíntico (Mebendazol) a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

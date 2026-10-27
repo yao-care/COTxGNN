@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ácido aspártico: De Aminoácidos (nutrición parenteral) a Acidosis Tubular Renal
+## Ácido aspártico: De Aminoácidos (nutrición parenteral) a Acidosis Tubular Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

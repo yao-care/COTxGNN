@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vitamina A: De Suplemento de Retinol a Enfermedad Perinatal
+## Vitamina A: De Suplemento de Retinol a Enfermedad Perinatal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

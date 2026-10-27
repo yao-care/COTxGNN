@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Propiltiouracilo: De Propiltiouracilo (antitiroideo) a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+## Propiltiouracilo: De Propiltiouracilo (antitiroideo) a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

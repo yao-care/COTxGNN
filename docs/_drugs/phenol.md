@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Fenol: De Combinaciones/Fenol a Acrodermatitis Crónica Atrófica
+## Fenol: De Combinaciones/Fenol a Acrodermatitis Crónica Atrófica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Rivastigmina: De Rivastigmina (indicación sin detallar) a Glaucoma
+## Rivastigmina: De Rivastigmina (indicación sin detallar) a Glaucoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

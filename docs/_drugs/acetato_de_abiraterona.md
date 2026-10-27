@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Acetato de Abiraterona: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## Acetato de Abiraterona: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ---
 

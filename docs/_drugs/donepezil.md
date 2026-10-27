@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Donepezilo: De Indicación Original (DONEPEZIL) a Trastornos Psicógenos del Movimiento
+## Donepezilo: De Indicación Original (DONEPEZIL) a Trastornos Psicógenos del Movimiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

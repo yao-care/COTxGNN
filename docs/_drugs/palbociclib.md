@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Palbociclib: De Palbociclib (indicación no detallada) a Artritis Reumatoide
+## Palbociclib: De Palbociclib (indicación no detallada) a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

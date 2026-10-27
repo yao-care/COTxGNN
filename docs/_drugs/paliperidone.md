@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Paliperidona: De Antipsicótico Oral de Liberación Prolongada a Distrofia Retiniana con o sin Anomalías Extraoculares
+## Paliperidona: De Antipsicótico Oral de Liberación Prolongada a Distrofia Retiniana con o sin Anomalías Extraoculares
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

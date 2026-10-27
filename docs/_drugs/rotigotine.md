@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Rotigotina: De Rotigotina (indicación registrada) a Trastorno por Déficit de Atención e Hiperactividad
+## Rotigotina: De Rotigotina (indicación registrada) a Trastorno por Déficit de Atención e Hiperactividad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

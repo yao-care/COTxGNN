@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Propofol: De Indicación Original (Anestésico General) a Trastorno de Migraña
+## Propofol: De Indicación Original (Anestésico General) a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Adalimumab: De Indicación Original No Especificada a Vasculitis Reumatoide
+## Adalimumab: De Indicación Original No Especificada a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

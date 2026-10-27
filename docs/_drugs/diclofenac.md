@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Diclofenaco: De Tramadol y Diclofenaco a Artritis Idiopática Juvenil
+## Diclofenaco: De Tramadol y Diclofenaco a Artritis Idiopática Juvenil
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

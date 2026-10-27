@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-# Icatibant: De Icatibant (indicación no detallada en el registro) a Deficiencia del Inhibidor de C1
+## Icatibant: De Icatibant (indicación no detallada en el registro) a Deficiencia del Inhibidor de C1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

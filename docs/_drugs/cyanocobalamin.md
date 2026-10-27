@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Cianocobalamina: De Multivitamínicos / Complejo B a Enfermedad Metabólica de la Biotina
+## Cianocobalamina: De Multivitamínicos / Complejo B a Enfermedad Metabólica de la Biotina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Risperidona: De Indicación Registrada (Risperidona) a Trastorno Afectivo Mayor
+## Risperidona: De Indicación Registrada (Risperidona) a Trastorno Afectivo Mayor
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

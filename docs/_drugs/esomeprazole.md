@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Esomeprazol: De Trastornos Relacionados con la Acidez Gástrica a Reflujo Duodenogástrico
+## Esomeprazol: De Trastornos Relacionados con la Acidez Gástrica a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

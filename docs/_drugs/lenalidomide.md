@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 </div>
 
-# Lenalidomida: De Indicación Registrada (Lenalidomida) a Leucemia Mieloide
+## Lenalidomida: De Indicación Registrada (Lenalidomida) a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

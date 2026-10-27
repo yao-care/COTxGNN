@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Latanoprost: De Indicación No Especificada a Glaucoma Hereditario Primario
+## Latanoprost: De Indicación No Especificada a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Olodaterol: De Olodaterol y Bromuro de Tiotropio a Bronquitis
+## Olodaterol: De Olodaterol y Bromuro de Tiotropio a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

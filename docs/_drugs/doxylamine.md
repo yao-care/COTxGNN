@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Doxilamina: De Combinaciones de Doxilamina a Urticaria Alérgica
+## Doxilamina: De Combinaciones de Doxilamina a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

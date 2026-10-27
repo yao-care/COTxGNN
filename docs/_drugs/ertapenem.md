@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Ertapenem: De Antibiótico Carbapenémico (indicación no detallada en el registro) a Artritis Bacteriana
+## Ertapenem: De Antibiótico Carbapenémico (indicación no detallada en el registro) a Artritis Bacteriana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

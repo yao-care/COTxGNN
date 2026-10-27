@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Acetazolamida: De Acetazolamida (indicación registrada sin detalle) a Hipertermia Maligna Inducida por Ejercicio
+## Acetazolamida: De Acetazolamida (indicación registrada sin detalle) a Hipertermia Maligna Inducida por Ejercicio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

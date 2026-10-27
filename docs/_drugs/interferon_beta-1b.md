@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Interferón beta-1b: De Esclerosis Múltiple (indicación registrada como "Interferón beta-1b") a Leucemia de Células Pilosas
+## Interferón beta-1b: De Esclerosis Múltiple (indicación registrada como "Interferón beta-1b") a Leucemia de Células Pilosas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

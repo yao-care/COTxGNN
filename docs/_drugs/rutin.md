@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Rutina: De Multivitamínicos a Enfermedad Fibroquística de la Mama
+## Rutina: De Multivitamínicos a Enfermedad Fibroquística de la Mama
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

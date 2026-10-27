@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Irbesartán: De Irbesartán (indicación sin detallar) a Hipertensión Renal Maligna
+## Irbesartán: De Irbesartán (indicación sin detallar) a Hipertensión Renal Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

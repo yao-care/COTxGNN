@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Lacosamida: De Epilepsia (Crisis Focales) a Migraña
+## Lacosamida: De Epilepsia (Crisis Focales) a Migraña
+{: .text-alpha }
 
 **Nota sobre la selección de la indicación:** el modelo TxGNN genera varias predicciones. La de mayor puntaje es el trastorno bipolar maníaco, pero solo cuenta con evidencia de nivel L3 y sin ensayos clínicos. La indicación con la evidencia más sólida es la **migraña**, y es la que se desarrolla en este informe. La indicación original (epilepsia) no figura en el texto del registro sanitario, que solo dice "LACOSAMIDA"; se indica a partir del conocimiento general del fármaco.
 

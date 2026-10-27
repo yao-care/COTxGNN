@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Etopósido: De Indicación Registrada (Etopósido) a Sarcoma de Ewing
+## Etopósido: De Indicación Registrada (Etopósido) a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

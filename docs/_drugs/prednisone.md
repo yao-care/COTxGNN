@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Prednisona: De Prednisona (indicación sin especificar en el registro) a Alopecia Areata
+## Prednisona: De Prednisona (indicación sin especificar en el registro) a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

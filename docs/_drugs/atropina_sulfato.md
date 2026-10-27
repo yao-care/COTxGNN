@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Atropina Sulfato: Evaluación con Datos Insuficientes para Reposicionamiento
+## Atropina Sulfato: Evaluación con Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

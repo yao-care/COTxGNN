@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Leflunomida: De Leflunomida (indicación no detallada en el registro) a Síndrome de Braquidactilia-Sindactilia
+## Leflunomida: De Leflunomida (indicación no detallada en el registro) a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

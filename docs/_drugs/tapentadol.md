@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tapentadol: De Tapentadol (indicación no detallada en el registro) a Trastorno de Migraña
+## Tapentadol: De Tapentadol (indicación no detallada en el registro) a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

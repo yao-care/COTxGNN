@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Omalizumab: De Indicación Original (no especificada en el registro) a Bronquitis
+## Omalizumab: De Indicación Original (no especificada en el registro) a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

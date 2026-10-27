@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Iodixanol: De Medio de Contraste Radiográfico a Susceptibilidad a Osteoartritis
+## Iodixanol: De Medio de Contraste Radiográfico a Susceptibilidad a Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

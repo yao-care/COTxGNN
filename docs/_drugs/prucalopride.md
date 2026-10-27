@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prucaloprida: De Indicación No Especificada en el Registro a Hipoalfalipoproteinemia
+## Prucaloprida: De Indicación No Especificada en el Registro a Hipoalfalipoproteinemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

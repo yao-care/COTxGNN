@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Cefpodoxima: De CEFPODOXIMA a Osteoartritis (susceptibilidad)
+## Cefpodoxima: De CEFPODOXIMA a Osteoartritis (susceptibilidad)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ácido fólico: De Multivitamínicos con Hierro a Enfermedad Metabólica de la Biotina
+## Ácido fólico: De Multivitamínicos con Hierro a Enfermedad Metabólica de la Biotina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

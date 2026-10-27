@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Romiplostim: De Romiplostim (indicación original sin detallar) a Trastorno de Liberación Primaria de Plaquetas
+## Romiplostim: De Romiplostim (indicación original sin detallar) a Trastorno de Liberación Primaria de Plaquetas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

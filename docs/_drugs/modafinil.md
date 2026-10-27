@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Modafinilo: De Indicación No Especificada en el Registro a Insomnio
+## Modafinilo: De Indicación No Especificada en el Registro a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

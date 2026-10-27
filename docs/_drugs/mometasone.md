@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Mometasona: De Mometasona (corticosteroide) a Linfoma Cutáneo Primario de Células T
+## Mometasona: De Mometasona (corticosteroide) a Linfoma Cutáneo Primario de Células T
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

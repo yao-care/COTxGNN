@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Olanzapina: De Indicación Original (OLANZAPINA) a Agorafobia
+## Olanzapina: De Indicación Original (OLANZAPINA) a Agorafobia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

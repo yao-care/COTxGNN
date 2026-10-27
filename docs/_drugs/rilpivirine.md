@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Rilpivirina: De Terapia Antirretroviral combinada (Emtricitabina / Rilpivirina / Tenofovir) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Rilpivirina: De Terapia Antirretroviral combinada (Emtricitabina / Rilpivirina / Tenofovir) a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ---
 

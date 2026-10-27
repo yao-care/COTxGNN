@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Buprenorfina: De Buprenorfina (indicación no detallada) a Porfiria Aguda Intermitente
+## Buprenorfina: De Buprenorfina (indicación no detallada) a Porfiria Aguda Intermitente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

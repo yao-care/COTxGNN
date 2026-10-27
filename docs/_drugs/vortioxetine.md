@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Vortioxetina: De Vortioxetina (Antidepresivo) a Neurosis Depresiva / Trastorno Neurótico
+## Vortioxetina: De Vortioxetina (Antidepresivo) a Neurosis Depresiva / Trastorno Neurótico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

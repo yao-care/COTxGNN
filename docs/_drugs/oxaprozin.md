@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Oxaprozina: De Oxaprozina (AINE) a Displasia Acromesomélica tipo Hunter-Thompson
+## Oxaprozina: De Oxaprozina (AINE) a Displasia Acromesomélica tipo Hunter-Thompson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

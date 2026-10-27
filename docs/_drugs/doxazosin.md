@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Doxazosina: De Indicación Original (DOXAZOSINA, sin especificar) a Trastorno de Migraña
+## Doxazosina: De Indicación Original (DOXAZOSINA, sin especificar) a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

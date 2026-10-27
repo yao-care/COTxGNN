@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Hesperidina: De Combinaciones de Diosmina a Neoplasia Mieloproliferativa
+## Hesperidina: De Combinaciones de Diosmina a Neoplasia Mieloproliferativa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

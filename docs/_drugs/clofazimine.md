@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Clofazimina: De Indicación Original (Clofazimina) a Neumocistosis
+## Clofazimina: De Indicación Original (Clofazimina) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

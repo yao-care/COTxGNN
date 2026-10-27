@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lubiprostona: De Estreñimiento Crónico a Alopecia
+## Lubiprostona: De Estreñimiento Crónico a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

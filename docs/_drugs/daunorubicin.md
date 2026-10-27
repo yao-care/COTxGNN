@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Daunorrubicina: De Indicación No Especificada en el Registro (Daunorrubicina) a Linfoma de Hodgkin
+## Daunorrubicina: De Indicación No Especificada en el Registro (Daunorrubicina) a Linfoma de Hodgkin
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

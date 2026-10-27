@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Lamotrigina: De Indicación Registrada (sin detalle) a Neuralgia del Trigémino
+## Lamotrigina: De Indicación Registrada (sin detalle) a Neuralgia del Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

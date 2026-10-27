@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lomitapida: De Hipercolesterolemia Familiar Homocigota a Macrotrombocitopenia con Insuficiencia de la Válvula Mitral
+## Lomitapida: De Hipercolesterolemia Familiar Homocigota a Macrotrombocitopenia con Insuficiencia de la Válvula Mitral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

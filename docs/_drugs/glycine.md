@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Glicina: De Emulsiones Lipidas a Enfermedad de la Cavidad Nasal
+## Glicina: De Emulsiones Lipidas a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

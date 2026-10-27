@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Lincomicina: De Infecciones Bacterianas (Antibiótico Lincosamida) a Hiperamilasemia
+## Lincomicina: De Infecciones Bacterianas (Antibiótico Lincosamida) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

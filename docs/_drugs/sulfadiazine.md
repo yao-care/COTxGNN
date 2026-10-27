@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Sulfadiazina: De SULFADIAZINA (indicación registrada sin detalle) a Neumocistosis
+## Sulfadiazina: De SULFADIAZINA (indicación registrada sin detalle) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Ketorolaco: De Ketorolaco oftálmico (registro sanitario cancelado) a Trastorno de Cefalea
+## Ketorolaco: De Ketorolaco oftálmico (registro sanitario cancelado) a Trastorno de Cefalea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Ampicilina: Sin Indicaciones de Reposicionamiento Disponibles
+## Ampicilina: Sin Indicaciones de Reposicionamiento Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

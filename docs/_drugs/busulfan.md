@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Busulfán: De Indicación Registrada No Especificada a Síndrome Mielodisplásico
+## Busulfán: De Indicación Registrada No Especificada a Síndrome Mielodisplásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Polidocanol: De Indicación No Especificada a Várices Esofágicas con Sangrado
+## Polidocanol: De Indicación No Especificada a Várices Esofágicas con Sangrado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

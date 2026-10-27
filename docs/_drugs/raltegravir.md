@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Raltegravir: De Indicación Registrada (sin descripción detallada) a Infección por Virus de Inmunodeficiencia Simia
+## Raltegravir: De Indicación Registrada (sin descripción detallada) a Infección por Virus de Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

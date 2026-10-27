@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Lanadelumab: De Lanadelumab (indicación no detallada en el registro) a Deficiencia de Inhibidor de C1
+## Lanadelumab: De Lanadelumab (indicación no detallada en el registro) a Deficiencia de Inhibidor de C1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

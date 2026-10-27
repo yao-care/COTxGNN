@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Cloroquina: De Indicación Original (no especificada) a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+## Cloroquina: De Indicación Original (no especificada) a Artritis Idiopática Juvenil Poliarticular con Factor Reumatoide Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

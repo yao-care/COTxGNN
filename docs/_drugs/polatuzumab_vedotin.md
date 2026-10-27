@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Polatuzumab vedotin: De Indicación Original No Especificada a Carcinoma de Mama HER2 Positivo
+## Polatuzumab vedotin: De Indicación Original No Especificada a Carcinoma de Mama HER2 Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

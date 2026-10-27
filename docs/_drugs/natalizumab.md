@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Natalizumab: De Esclerosis Múltiple a Psoriasis
+## Natalizumab: De Esclerosis Múltiple a Psoriasis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

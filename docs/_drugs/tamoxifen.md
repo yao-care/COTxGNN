@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Tamoxifeno: De Cáncer de Mama Hormonodependiente a Enfermedad de Paget Mamaria
+## Tamoxifeno: De Cáncer de Mama Hormonodependiente a Enfermedad de Paget Mamaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

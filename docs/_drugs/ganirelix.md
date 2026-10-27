@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ganirelix: De Prevención de Ovulación Prematura (Indicación Aprobada no Detallada) a Hipertricosis
+## Ganirelix: De Prevención de Ovulación Prematura (Indicación Aprobada no Detallada) a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

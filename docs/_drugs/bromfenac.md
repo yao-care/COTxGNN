@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Bromfenaco: De Bromfenaco (Solución Oftálmica) a Enfermedad Ocular
+## Bromfenaco: De Bromfenaco (Solución Oftálmica) a Enfermedad Ocular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

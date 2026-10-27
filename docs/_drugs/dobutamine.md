@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dobutamina: De Dobutamina (indicación registrada) a Alopecia
+## Dobutamina: De Dobutamina (indicación registrada) a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

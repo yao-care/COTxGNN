@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ketoprofeno: De Ketoprofeno (indicación registrada) a Displasia Acromesomélica tipo Hunter-Thompson
+## Ketoprofeno: De Ketoprofeno (indicación registrada) a Displasia Acromesomélica tipo Hunter-Thompson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

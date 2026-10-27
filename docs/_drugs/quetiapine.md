@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Quetiapina: De Indicación Original (QUETIAPINA, sin descripción detallada) a Tricotilomanía
+## Quetiapina: De Indicación Original (QUETIAPINA, sin descripción detallada) a Tricotilomanía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

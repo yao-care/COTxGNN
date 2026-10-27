@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Triazolam: De Triazolam (indicación registrada sin especificar) a Trastorno del Sueño (inicio y mantenimiento del sueño)
+## Triazolam: De Triazolam (indicación registrada sin especificar) a Trastorno del Sueño (inicio y mantenimiento del sueño)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

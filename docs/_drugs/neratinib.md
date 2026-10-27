@@ -31,7 +31,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 </div>
 
-# Neratinib: De Indicación Registrada (sin texto descriptivo) a Cáncer de Mama Positivo para Receptor de Progesterona
+## Neratinib: De Indicación Registrada (sin texto descriptivo) a Cáncer de Mama Positivo para Receptor de Progesterona
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

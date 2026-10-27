@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Povidona: De Atorvastatina y Ezetimibe a Eritrodermia Ictiosiforme Congénita
+## Povidona: De Atorvastatina y Ezetimibe a Eritrodermia Ictiosiforme Congénita
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

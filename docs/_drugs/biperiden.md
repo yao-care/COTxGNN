@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Biperideno: De Indicación Original (Biperideno) a Encefalitis Subaguda de Rasmussen
+## Biperideno: De Indicación Original (Biperideno) a Encefalitis Subaguda de Rasmussen
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

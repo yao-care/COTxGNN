@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Aceclofenaco: De Aceclofenaco (AINE) a Espondilopatía Inflamatoria
+## Aceclofenaco: De Aceclofenaco (AINE) a Espondilopatía Inflamatoria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

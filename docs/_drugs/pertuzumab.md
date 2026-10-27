@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Pertuzumab: De Cáncer de Mama HER2-Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+## Pertuzumab: De Cáncer de Mama HER2-Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

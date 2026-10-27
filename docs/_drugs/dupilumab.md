@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Dupilumab: De Indicación Original (sin especificar en el registro) a Bronquitis
+## Dupilumab: De Indicación Original (sin especificar en el registro) a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

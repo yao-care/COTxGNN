@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-# Cabergolina: De Cabergolina (indicación registrada sin detalle) a Cáncer de Hipófisis
+## Cabergolina: De Cabergolina (indicación registrada sin detalle) a Cáncer de Hipófisis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

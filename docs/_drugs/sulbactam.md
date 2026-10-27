@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Sulbactam: De Ampicilina con Inhibidor Enzimático a Artritis Bacteriana
+## Sulbactam: De Ampicilina con Inhibidor Enzimático a Artritis Bacteriana
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

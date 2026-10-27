@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ciprofloxacino: De Ciprofloxacina (indicación no detallada en el registro) a Esclerodermia Difusa
+## Ciprofloxacino: De Ciprofloxacina (indicación no detallada en el registro) a Esclerodermia Difusa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

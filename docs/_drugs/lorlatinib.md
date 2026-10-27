@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lorlatinib: De Indicación Registrada (Sin Texto Específico) a Fibromatosis Gingival
+## Lorlatinib: De Indicación Registrada (Sin Texto Específico) a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

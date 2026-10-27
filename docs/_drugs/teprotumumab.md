@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Teprotumumab: De Indicación No Especificada a Monosomía X
+## Teprotumumab: De Indicación No Especificada a Monosomía X
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

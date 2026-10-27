@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Aztreonam: De Antibacteriano Monobactámico a Uretritis Gonocócica
+## Aztreonam: De Antibacteriano Monobactámico a Uretritis Gonocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

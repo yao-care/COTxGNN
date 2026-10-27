@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Ponatinib: De Indicación No Especificada a Fibromatosis Gingival
+## Ponatinib: De Indicación No Especificada a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-# Tacrolimus: De Indicación No Especificada (Inmunosupresor) a Dermatitis Seborreica
+## Tacrolimus: De Indicación No Especificada (Inmunosupresor) a Dermatitis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

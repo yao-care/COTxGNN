@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido gadoxético: De Medio de Contraste Paramagnético a Hipertiroidismo
+## Ácido gadoxético: De Medio de Contraste Paramagnético a Hipertiroidismo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fexofenadina: De Antihistamínico para Alergias a Conjuntivitis por Rosácea
+## Fexofenadina: De Antihistamínico para Alergias a Conjuntivitis por Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

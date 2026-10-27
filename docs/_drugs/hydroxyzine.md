@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-# Hidroxizina: De Indicación Registrada (Hidroxizina) a Urticaria Alérgica
+## Hidroxizina: De Indicación Registrada (Hidroxizina) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

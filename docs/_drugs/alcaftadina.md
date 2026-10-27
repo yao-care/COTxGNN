@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# ALCAFTADINA: Evaluación de Reposicionamiento – Datos Insuficientes para Análisis Completo
+## ALCAFTADINA: Evaluación de Reposicionamiento – Datos Insuficientes para Análisis Completo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

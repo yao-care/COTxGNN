@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Avelumab: De Avelumab (indicación no detallada) a Tumor Relacionado con el Herpesvirus Humano 8
+## Avelumab: De Avelumab (indicación no detallada) a Tumor Relacionado con el Herpesvirus Humano 8
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

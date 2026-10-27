@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Tadalafilo: De Indicación No Especificada a Hipertricosis Universal Congénita tipo Ambras
+## Tadalafilo: De Indicación No Especificada a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

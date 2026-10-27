@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Progesterona: De Progesterona (registro INVIMA) a Amenorrea
+## Progesterona: De Progesterona (registro INVIMA) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

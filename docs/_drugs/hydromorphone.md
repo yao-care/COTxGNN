@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Hidromorfona: De Hidromorfona (indicación no detallada en el registro) a Faringitis
+## Hidromorfona: De Hidromorfona (indicación no detallada en el registro) a Faringitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

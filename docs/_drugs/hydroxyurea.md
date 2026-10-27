@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Hidroxiurea: De Indicación No Especificada en el Registro (Hidroxicarbamida) a Carcinoma de Mama Femenino
+## Hidroxiurea: De Indicación No Especificada en el Registro (Hidroxicarbamida) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

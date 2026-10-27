@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina Glulisina: De Insulina Glulisina (Diabetes Mellitus) a Diabetes Mellitus Tipo 1
+## Insulina Glulisina: De Insulina Glulisina (Diabetes Mellitus) a Diabetes Mellitus Tipo 1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Metronidazol: De Metronidazol (derivados imidazólicos) a Neumocistosis
+## Metronidazol: De Metronidazol (derivados imidazólicos) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

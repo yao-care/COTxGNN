@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ranitidina: De Indicación Registrada (Ranitidina) a Enfermedad Ulcerosa Péptica Activa
+## Ranitidina: De Indicación Registrada (Ranitidina) a Enfermedad Ulcerosa Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

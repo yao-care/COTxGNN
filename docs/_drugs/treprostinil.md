@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Treprostinil: De Treprostinilo (indicación original sin detallar) a Hipertensión Arterial Pulmonar Asociada a Cardiopatía Congénita
+## Treprostinil: De Treprostinilo (indicación original sin detallar) a Hipertensión Arterial Pulmonar Asociada a Cardiopatía Congénita
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

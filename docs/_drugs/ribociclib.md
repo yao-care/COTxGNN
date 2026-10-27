@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Ribociclib: De su Registro Original a Leucemia Mieloide
+## Ribociclib: De su Registro Original a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

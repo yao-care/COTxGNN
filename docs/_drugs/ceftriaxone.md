@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-# Ceftriaxona: De Indicación Registrada (Ceftriaxona) a Otitis Media Infecciosa
+## Ceftriaxona: De Indicación Registrada (Ceftriaxona) a Otitis Media Infecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

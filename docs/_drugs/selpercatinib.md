@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Selpercatinib: De Indicación Original (no especificada en el registro) a Hipertensión Pulmonar
+## Selpercatinib: De Indicación Original (no especificada en el registro) a Hipertensión Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

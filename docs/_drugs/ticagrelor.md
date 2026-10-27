@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ticagrelor: De Indicación No Especificada a Arteriosclerosis Intracraneal
+## Ticagrelor: De Indicación No Especificada a Arteriosclerosis Intracraneal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Clindamicina: De Clindamicina (Combinaciones) a Queratoconjuntivitis Epitelial Punteada
+## Clindamicina: De Clindamicina (Combinaciones) a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

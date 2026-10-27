@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Pseudoefedrina: De Combinaciones Antigripales a Enfermedad de la Cavidad Nasal
+## Pseudoefedrina: De Combinaciones Antigripales a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

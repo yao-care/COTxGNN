@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Pembrolizumab: De Indicación No Especificada en el Registro a Fibromatosis Gingival
+## Pembrolizumab: De Indicación No Especificada en el Registro a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

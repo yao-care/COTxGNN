@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Heparina: De Heparina (indicación registrada sin detallar) a Trastorno primario de liberación plaquetaria
+## Heparina: De Heparina (indicación registrada sin detallar) a Trastorno primario de liberación plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Famotidina: De Indicación Registrada (Famotidina) a Duodenogastric Reflux (Reflujo Duodenogástrico)
+## Famotidina: De Indicación Registrada (Famotidina) a Duodenogastric Reflux (Reflujo Duodenogástrico)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

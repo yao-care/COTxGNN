@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Enoxaparina: De Indicación Original (sin texto de indicación detallado) a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+## Enoxaparina: De Indicación Original (sin texto de indicación detallado) a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

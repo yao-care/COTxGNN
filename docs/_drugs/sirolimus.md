@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Sirolimus: De Sirolimus (indicación original no detallada) a Liposarcoma
+## Sirolimus: De Sirolimus (indicación original no detallada) a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

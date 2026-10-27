@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Ácido tranexámico: De Ácido tranexámico (indicación no detallada en el registro) a Amenorrea
+## Ácido tranexámico: De Ácido tranexámico (indicación no detallada en el registro) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

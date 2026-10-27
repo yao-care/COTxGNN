@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Febuxostat: De Indicación No Especificada en el Registro a Hipouricemia Renal
+## Febuxostat: De Indicación No Especificada en el Registro a Hipouricemia Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

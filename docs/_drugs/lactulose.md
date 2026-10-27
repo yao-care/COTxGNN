@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Lactulosa: De Indicación Original (Lactulosa) a Obstrucción Biliar con Ictericia (Ictericia Obstructiva)
+## Lactulosa: De Indicación Original (Lactulosa) a Obstrucción Biliar con Ictericia (Ictericia Obstructiva)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

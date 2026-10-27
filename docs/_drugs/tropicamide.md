@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tropicamida: De Combinaciones de Tropicamida (Oftalmología) a Síndrome de la Cola de Caballo
+## Tropicamida: De Combinaciones de Tropicamida (Oftalmología) a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

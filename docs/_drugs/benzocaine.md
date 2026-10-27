@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Benzocaína: De Anestésico Local (Benzocaína) a Conjuntivitis Papilar
+## Benzocaína: De Anestésico Local (Benzocaína) a Conjuntivitis Papilar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

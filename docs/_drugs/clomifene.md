@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Clomifeno: De Inducción de la Ovulación a Trastorno del Desarrollo Sexual 46,XY por Defecto de Esteroidogénesis Testicular
+## Clomifeno: De Inducción de la Ovulación a Trastorno del Desarrollo Sexual 46,XY por Defecto de Esteroidogénesis Testicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

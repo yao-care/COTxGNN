@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Mercaptopurina: De Indicación Original (MERCAPTOPURINA) a Leucemia Mieloide
+## Mercaptopurina: De Indicación Original (MERCAPTOPURINA) a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

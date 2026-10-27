@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Loxoprofeno: De Loxoprofeno (AINE) a Síndrome de Microftalmia Colobomatosa con Displasia Rizomélica
+## Loxoprofeno: De Loxoprofeno (AINE) a Síndrome de Microftalmia Colobomatosa con Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

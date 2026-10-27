@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Clonazepam: De Clonazepam (indicación no especificada en el registro) a Síndrome de Piernas Inquietas
+## Clonazepam: De Clonazepam (indicación no especificada en el registro) a Síndrome de Piernas Inquietas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

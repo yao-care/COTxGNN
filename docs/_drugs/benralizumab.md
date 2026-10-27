@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Benralizumab: De Benralizumab (indicación no detallada en el registro) a Trombocitopenia por Destrucción Inmune
+## Benralizumab: De Benralizumab (indicación no detallada en el registro) a Trombocitopenia por Destrucción Inmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

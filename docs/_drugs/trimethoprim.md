@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Trimetoprima: De Sulfametoxazol y Trimetoprim a Queratoconjuntivitis Epitelial Punteada
+## Trimetoprima: De Sulfametoxazol y Trimetoprim a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Dimenhidrinato: De Dimenhidrinato (indicación original sin especificar) a Urticaria Alérgica
+## Dimenhidrinato: De Dimenhidrinato (indicación original sin especificar) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

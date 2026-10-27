@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Cabozantinib: De Indicación Registrada (sin texto descriptivo) a Liposarcoma
+## Cabozantinib: De Indicación Registrada (sin texto descriptivo) a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

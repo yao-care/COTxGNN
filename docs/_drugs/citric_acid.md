@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Ácido cítrico: De Combinaciones de Electrolitos a Enfermedad del Estómago
+## Ácido cítrico: De Combinaciones de Electrolitos a Enfermedad del Estómago
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

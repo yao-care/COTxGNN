@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Tafenoquina: De Antipalúdico (Succinato de Tafenoquina) a Mastocitosis Sistémica Indolente (Smouldering)
+## Tafenoquina: De Antipalúdico (Succinato de Tafenoquina) a Mastocitosis Sistémica Indolente (Smouldering)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

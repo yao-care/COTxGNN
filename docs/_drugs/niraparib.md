@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Niraparib: De Indicación Original (no especificada) a Neoplasia Quística
+## Niraparib: De Indicación Original (no especificada) a Neoplasia Quística
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

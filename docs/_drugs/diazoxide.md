@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Diazóxido: De Diazóxido (indicación no detallada en el registro) a Alopecia
+## Diazóxido: De Diazóxido (indicación no detallada en el registro) a Alopecia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

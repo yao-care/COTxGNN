@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Tenofovir alafenamida: De Hepatitis B Crónica a Infección por Virus de Inmunodeficiencia Simia
+## Tenofovir alafenamida: De Hepatitis B Crónica a Infección por Virus de Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

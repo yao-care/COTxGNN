@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tretinoína: De Combinaciones Tópicas/Cápsulas de Tretinoína a Nódulos Reumatoides
+## Tretinoína: De Combinaciones Tópicas/Cápsulas de Tretinoína a Nódulos Reumatoides
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

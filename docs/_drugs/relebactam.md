@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Relebactam: De Infecciones Bacterianas Resistentes (Combinación Imipenem/Cilastatina/Relebactam) a Hiperamilasemia
+## Relebactam: De Infecciones Bacterianas Resistentes (Combinación Imipenem/Cilastatina/Relebactam) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

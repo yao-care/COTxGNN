@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Evogliptina: De Evogliptina Tartrato (Diabetes Tipo 2) a Opsismodisplasia
+## Evogliptina: De Evogliptina Tartrato (Diabetes Tipo 2) a Opsismodisplasia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

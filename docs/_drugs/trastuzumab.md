@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Trastuzumab: De Pertuzumab y Trastuzumab (cáncer de mama HER2) a Subtipo de Carcinoma de Mama Tipo Normal (normal breast-like)
+## Trastuzumab: De Pertuzumab y Trastuzumab (cáncer de mama HER2) a Subtipo de Carcinoma de Mama Tipo Normal (normal breast-like)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

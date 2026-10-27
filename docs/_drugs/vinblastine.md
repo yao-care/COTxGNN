@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Vinblastina: De Indicación Registrada (Vinblastina) a Rabdomiosarcoma
+## Vinblastina: De Indicación Registrada (Vinblastina) a Rabdomiosarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

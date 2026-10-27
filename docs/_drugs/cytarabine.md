@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Citarabina: De Indicación Original (no especificada en el registro) a Carcinoma Pulmonar de Células Pequeñas
+## Citarabina: De Indicación Original (no especificada en el registro) a Carcinoma Pulmonar de Células Pequeñas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

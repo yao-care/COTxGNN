@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Dronedarona: De Fibrilación Auricular a Trastorno Cerebrovascular (Accidente Cerebrovascular)
+## Dronedarona: De Fibrilación Auricular a Trastorno Cerebrovascular (Accidente Cerebrovascular)
+{: .text-alpha }
 
 > Nota: la indicación original registrada en INVIMA figura solo como "DRONEDARONA" (sin texto de indicación detallado). Según la literatura compilada, el uso conocido del fármaco es la fibrilación/aleteo auricular.
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# ACETAMINOFEM: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## ACETAMINOFEM: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

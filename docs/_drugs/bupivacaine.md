@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Bupivacaína: De Anestesia Local a Acrodermatitis Crónica Atrófica
+## Bupivacaína: De Anestesia Local a Acrodermatitis Crónica Atrófica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

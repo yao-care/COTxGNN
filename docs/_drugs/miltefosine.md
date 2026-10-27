@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Miltefosina: De Miltefosina (indicación registrada sin especificar) a Leishmaniasis Cutánea Difusa
+## Miltefosina: De Miltefosina (indicación registrada sin especificar) a Leishmaniasis Cutánea Difusa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

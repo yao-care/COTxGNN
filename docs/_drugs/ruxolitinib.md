@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ruxolitinib: De Indicación No Especificada en el Registro a Tumor de Células Epitelioides Perivasculares del Cuerpo Uterino
+## Ruxolitinib: De Indicación No Especificada en el Registro a Tumor de Células Epitelioides Perivasculares del Cuerpo Uterino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Sulfasalazina: De Indicación No Especificada en el Registro a Osteoartritis
+## Sulfasalazina: De Indicación No Especificada en el Registro a Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Riluzol: De Esclerosis Lateral Amiotrófica a Polimicrogiria Parieto-occipital Parasagital Bilateral
+## Riluzol: De Esclerosis Lateral Amiotrófica a Polimicrogiria Parieto-occipital Parasagital Bilateral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

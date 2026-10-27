@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Betametasona: De Betametasona y Antibióticos (crema tópica) a Alopecia Areata
+## Betametasona: De Betametasona y Antibióticos (crema tópica) a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

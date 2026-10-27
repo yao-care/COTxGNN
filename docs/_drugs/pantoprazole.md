@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-# Pantoprazol: De Indicación Original (Pantoprazol) a Enfermedad Ulcerosa Péptica Activa
+## Pantoprazol: De Indicación Original (Pantoprazol) a Enfermedad Ulcerosa Péptica Activa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

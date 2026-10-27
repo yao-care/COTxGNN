@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Pentosano Polisulfato: De Pentosano Polisulfato de Sodio a Trastorno Primario de Liberación Plaquetaria
+## Pentosano Polisulfato: De Pentosano Polisulfato de Sodio a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

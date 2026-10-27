@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etofenamato: De Etofenamato (indicación no detallada en el registro) a Espondilitis Anquilosante
+## Etofenamato: De Etofenamato (indicación no detallada en el registro) a Espondilitis Anquilosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Amilmetacresol: De Dicloro­bencil Alcohol (antiséptico orofaríngeo) a Síndrome de la Cauda Equina
+## Amilmetacresol: De Dicloro­bencil Alcohol (antiséptico orofaríngeo) a Síndrome de la Cauda Equina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

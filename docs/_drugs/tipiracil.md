@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tipiracilo: De Trifluridina y Tipiracilo a Adenoma Velloso del Ciego
+## Tipiracilo: De Trifluridina y Tipiracilo a Adenoma Velloso del Ciego
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

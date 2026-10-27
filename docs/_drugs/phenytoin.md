@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fenitoína: De Fenitoína (registro INVIMA) a Neoplasia del Nervio Trigémino
+## Fenitoína: De Fenitoína (registro INVIMA) a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

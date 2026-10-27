@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Fenticonazol: De Combinaciones de Imidazol Derivados a Vulvovaginitis Tricomonásica
+## Fenticonazol: De Combinaciones de Imidazol Derivados a Vulvovaginitis Tricomonásica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

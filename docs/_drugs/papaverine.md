@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Papaverina: De Combinaciones de Papaverina a Enfermedad Isquémica
+## Papaverina: De Combinaciones de Papaverina a Enfermedad Isquémica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Teofilina: De Ambroxol (registro sanitario cancelado) a Enfermedad Trombótica
+## Teofilina: De Ambroxol (registro sanitario cancelado) a Enfermedad Trombótica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

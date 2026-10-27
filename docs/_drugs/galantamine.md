@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Galantamina: De Indicación No Especificada en el Registro a Trastornos del Movimiento Psicogénicos
+## Galantamina: De Indicación No Especificada en el Registro a Trastornos del Movimiento Psicogénicos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

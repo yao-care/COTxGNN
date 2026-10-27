@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Telmisartán: De Telmisartán (antihipertensivo) a Prinzmetal angina
+## Telmisartán: De Telmisartán (antihipertensivo) a Prinzmetal angina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

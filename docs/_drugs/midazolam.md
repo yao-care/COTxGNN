@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Midazolam: De Midazolam (indicación no especificada en el registro) a Insomnio
+## Midazolam: De Midazolam (indicación no especificada en el registro) a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

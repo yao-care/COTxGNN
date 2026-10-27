@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Cladribina: De Indicación Original (CLADRIBINA) a Rabdomiosarcoma Embrionario Parameníngeo
+## Cladribina: De Indicación Original (CLADRIBINA) a Rabdomiosarcoma Embrionario Parameníngeo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

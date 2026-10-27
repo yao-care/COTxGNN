@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Azitromicina: Evaluación de Reposicionamiento No Disponible — Datos Insuficientes
+## Azitromicina: Evaluación de Reposicionamiento No Disponible — Datos Insuficientes
+{: .text-alpha }
 
 ---
 

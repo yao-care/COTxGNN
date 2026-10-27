@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Ibuprofeno: De Ibuprofeno (indicación no detallada) a Displasia acromesomélica tipo Hunter-Thompson
+## Ibuprofeno: De Ibuprofeno (indicación no detallada) a Displasia acromesomélica tipo Hunter-Thompson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

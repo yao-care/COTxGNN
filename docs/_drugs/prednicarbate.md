@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Prednicarbato: De Corticoide Tópico (PREDNICARBATO) a Queratosis Folicular Invertida de la Vulva
+## Prednicarbato: De Corticoide Tópico (PREDNICARBATO) a Queratosis Folicular Invertida de la Vulva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

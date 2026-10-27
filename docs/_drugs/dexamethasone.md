@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexametasona: De Dexametasona con Antiinfecciosos a Alopecia Areata
+## Dexametasona: De Dexametasona con Antiinfecciosos a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

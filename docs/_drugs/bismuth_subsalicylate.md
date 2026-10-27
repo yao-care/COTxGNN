@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Subsalicilato de Bismuto: De Trastornos Gastrointestinales a Paratifoidea
+## Subsalicilato de Bismuto: De Trastornos Gastrointestinales a Paratifoidea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

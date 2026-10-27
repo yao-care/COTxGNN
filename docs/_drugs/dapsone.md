@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 </div>
 
-# Dapsona: De DAPSONA (indicación registrada sin detalle) a Neumocistosis
+## Dapsona: De DAPSONA (indicación registrada sin detalle) a Neumocistosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

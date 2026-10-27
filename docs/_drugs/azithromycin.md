@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azitromicina: De Indicación Original (Azitromicina) a Síndrome de Hiperviscosidad Policlonal
+## Azitromicina: De Indicación Original (Azitromicina) a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Abemaciclib: Evaluación Preliminar — Sin Indicaciones Predichas por TxGNN
+## Abemaciclib: Evaluación Preliminar — Sin Indicaciones Predichas por TxGNN
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

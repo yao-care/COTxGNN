@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Etanercept: De Etanercept (sin indicación específica registrada) a Vasculitis Reumatoide
+## Etanercept: De Etanercept (sin indicación específica registrada) a Vasculitis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Emtricitabina: De Terapia Antirretroviral (VIH) a Infección por Virus de Inmunodeficiencia Simia
+## Emtricitabina: De Terapia Antirretroviral (VIH) a Infección por Virus de Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

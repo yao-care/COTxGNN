@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# AMLODIPINO: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+## AMLODIPINO: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

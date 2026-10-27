@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Pregabalina: De Indicación Registrada (Pregabalina) a Tendinitis
+## Pregabalina: De Indicación Registrada (Pregabalina) a Tendinitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

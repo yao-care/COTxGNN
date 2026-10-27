@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Inclisirán: De Hipercolesterolemia (LDL-C elevado) a Deficiencia de Potasio
+## Inclisirán: De Hipercolesterolemia (LDL-C elevado) a Deficiencia de Potasio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

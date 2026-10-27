@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Amiodarona: De Indicación Original (AMIODARONA) a Catecholaminergic Polymorphic Ventricular Tachycardia (Taquicardia Ventricular Polimórfica Catecolaminérgica)
+## Amiodarona: De Indicación Original (AMIODARONA) a Catecholaminergic Polymorphic Ventricular Tachycardia (Taquicardia Ventricular Polimórfica Catecolaminérgica)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

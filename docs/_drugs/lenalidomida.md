@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Lenalidomida: Evaluacion Incompleta — Datos Insuficientes para Reposicionamiento
+## Lenalidomida: Evaluacion Incompleta — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

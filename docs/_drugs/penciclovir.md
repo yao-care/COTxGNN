@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Penciclovir: De Penciclovir (indicación no detallada) a Fascioliasis
+## Penciclovir: De Penciclovir (indicación no detallada) a Fascioliasis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

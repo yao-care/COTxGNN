@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Lenvatinib: De Indicación Original No Especificada a Liposarcoma
+## Lenvatinib: De Indicación Original No Especificada a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

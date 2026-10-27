@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Caplacizumab: De Indicación Registrada sin Texto Específico a Púrpura Trombocitopénica Trombótica
+## Caplacizumab: De Indicación Registrada sin Texto Específico a Púrpura Trombocitopénica Trombótica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Avanafil: Inhibidor de PDE5 — Sin Indicaciones Predichas Disponibles
+## Avanafil: Inhibidor de PDE5 — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

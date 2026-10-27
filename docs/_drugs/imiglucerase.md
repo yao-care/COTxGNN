@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Imiglucerasa: De Enfermedad de Gaucher (imiglucerasa) a Síndrome de Hurler
+## Imiglucerasa: De Enfermedad de Gaucher (imiglucerasa) a Síndrome de Hurler
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

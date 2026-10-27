@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Moroctocog alfa: De Deficiencia de Factor VIII a Trastorno Primario de Liberación Plaquetaria
+## Moroctocog alfa: De Deficiencia de Factor VIII a Trastorno Primario de Liberación Plaquetaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tiomersal: De Antiséptico/Conservante Tópico a Hipotricosis Simple del Cuero Cabelludo
+## Tiomersal: De Antiséptico/Conservante Tópico a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

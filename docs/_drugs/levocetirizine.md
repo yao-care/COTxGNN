@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Levocetirizina: De Levocetirizina (indicación sin detallar) a Artritis Reumatoide
+## Levocetirizina: De Levocetirizina (indicación sin detallar) a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

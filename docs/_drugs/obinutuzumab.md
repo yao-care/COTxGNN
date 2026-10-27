@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Obinutuzumab: De una Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo con hipermutación somática de IGHV)
+## Obinutuzumab: De una Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo con hipermutación somática de IGHV)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

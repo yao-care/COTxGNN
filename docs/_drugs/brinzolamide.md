@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Brinzolamida: De Glaucoma/Hipertensión Ocular a Glaucoma Hereditario Primario
+## Brinzolamida: De Glaucoma/Hipertensión Ocular a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Fenilefrina: De Combinaciones de Paracetamol/Fenilefrina a Enfermedad de la Cavidad Nasal
+## Fenilefrina: De Combinaciones de Paracetamol/Fenilefrina a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

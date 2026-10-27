@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Zolpidem: De Indicación Registrada (sin descripción específica) a Trastorno del Sueño (Inicio y Mantenimiento)
+## Zolpidem: De Indicación Registrada (sin descripción específica) a Trastorno del Sueño (Inicio y Mantenimiento)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

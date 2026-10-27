@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Deferasirox: De Indicación No Especificada a Infección por VIH
+## Deferasirox: De Indicación No Especificada a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

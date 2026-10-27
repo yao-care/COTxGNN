@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dasatinib: De Indicación Original (sin texto descriptivo en el registro) a Sarcoma de Ewing
+## Dasatinib: De Indicación Original (sin texto descriptivo en el registro) a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Etravirina: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+## Etravirina: De Infección por VIH-1 a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

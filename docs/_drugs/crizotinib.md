@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Crizotinib: De Indicación Registrada (Crizotinib) a Fibromatosis Gingival
+## Crizotinib: De Indicación Registrada (Crizotinib) a Fibromatosis Gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

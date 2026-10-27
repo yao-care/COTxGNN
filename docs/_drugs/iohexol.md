@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Iohexol: De Medio de Contraste Radiológico a Insomnio
+## Iohexol: De Medio de Contraste Radiológico a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

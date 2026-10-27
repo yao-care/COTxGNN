@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Eltrombopag: De Eltrombopag (trombocitopenia) a Infección por VIH
+## Eltrombopag: De Eltrombopag (trombocitopenia) a Infección por VIH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Imiquimod: De Indicación Original (no especificada en el registro) a Neoplasia Premaligna
+## Imiquimod: De Indicación Original (no especificada en el registro) a Neoplasia Premaligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

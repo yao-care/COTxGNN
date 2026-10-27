@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Valsartán: De Valsartán con Diuréticos a Enfermedad Renal Hipertensiva Maligna
+## Valsartán: De Valsartán con Diuréticos a Enfermedad Renal Hipertensiva Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

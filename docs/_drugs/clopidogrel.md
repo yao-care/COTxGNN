@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Clopidogrel: De Clopidogrel (indicación registrada sin detalle) a Trastorno de Migraña
+## Clopidogrel: De Clopidogrel (indicación registrada sin detalle) a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

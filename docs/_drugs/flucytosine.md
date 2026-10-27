@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Flucitosina: De Indicación Original (FLUCITOSINA) a Enfermedad Ósea de Paget
+## Flucitosina: De Indicación Original (FLUCITOSINA) a Enfermedad Ósea de Paget
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

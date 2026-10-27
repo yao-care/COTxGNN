@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Rosuvastatina: De Hiperlipidemia a Hipercolesterolemia Familiar
+## Rosuvastatina: De Hiperlipidemia a Hipercolesterolemia Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

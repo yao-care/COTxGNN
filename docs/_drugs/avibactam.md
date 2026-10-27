@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Avibactam: De Inhibidor de Betalactamasas (con Ceftazidima) a Neumonía Estreptocócica
+## Avibactam: De Inhibidor de Betalactamasas (con Ceftazidima) a Neumonía Estreptocócica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

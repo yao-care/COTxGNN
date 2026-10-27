@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Vilanterol: De Combinación Vilanterol/Bromuro de Umeclidinio a Enfermedad Pulmonar Obstructiva
+## Vilanterol: De Combinación Vilanterol/Bromuro de Umeclidinio a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

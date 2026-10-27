@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Dactinomicina: De Indicación Original (sin texto de indicación detallado) a Esclerosis Múltiple Remitente-Recurrente
+## Dactinomicina: De Indicación Original (sin texto de indicación detallado) a Esclerosis Múltiple Remitente-Recurrente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

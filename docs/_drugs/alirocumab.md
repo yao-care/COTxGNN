@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alirocumab: De Alirocumab (indicación sin especificar en el registro) a Ictiosis ligada al X sin deficiencia de esteroide sulfatasa
+## Alirocumab: De Alirocumab (indicación sin especificar en el registro) a Ictiosis ligada al X sin deficiencia de esteroide sulfatasa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

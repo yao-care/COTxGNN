@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Amikacina: De Indicación No Especificada a Fiebre Paratifoidea
+## Amikacina: De Indicación No Especificada a Fiebre Paratifoidea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

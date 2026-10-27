@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Dipiridamol: De Indicación Registrada (Dipiridamol) a Angina de Prinzmetal
+## Dipiridamol: De Indicación Registrada (Dipiridamol) a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

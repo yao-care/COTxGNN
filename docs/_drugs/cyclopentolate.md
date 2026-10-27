@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Ciclopentolato: De Uso Oftálmico (Midriasis y Cicloplejía) a Síndrome de la Cola de Caballo
+## Ciclopentolato: De Uso Oftálmico (Midriasis y Cicloplejía) a Síndrome de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

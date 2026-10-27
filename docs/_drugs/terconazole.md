@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Terconazol: De Antifúngico Vaginal con Dexametasona a Vulvitis
+## Terconazol: De Antifúngico Vaginal con Dexametasona a Vulvitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

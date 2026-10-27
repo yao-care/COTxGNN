@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tamsulosina: De Tamsulosina y Dutasterida (Hiperplasia Prostática) a Hipertricosis Universal Congénita tipo Ambras
+## Tamsulosina: De Tamsulosina y Dutasterida (Hiperplasia Prostática) a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

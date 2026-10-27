@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Rufinamida: De Rufinamida (indicación original no detallada) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+## Rufinamida: De Rufinamida (indicación original no detallada) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

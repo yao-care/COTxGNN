@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Leuprolida: De Leuprorelina Acetato a Osteoartritis
+## Leuprolida: De Leuprorelina Acetato a Osteoartritis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

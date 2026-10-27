@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Alprostadil: De Alprostadil (indicación no detallada en el registro) a Malformación Aórtica
+## Alprostadil: De Alprostadil (indicación no detallada en el registro) a Malformación Aórtica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

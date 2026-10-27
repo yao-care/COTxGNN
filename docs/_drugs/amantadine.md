@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Amantadina: De Amantadina (indicación registrada sin detallar) a Rasmussen subacute encephalitis (encefalitis subaguda de Rasmussen)
+## Amantadina: De Amantadina (indicación registrada sin detallar) a Rasmussen subacute encephalitis (encefalitis subaguda de Rasmussen)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

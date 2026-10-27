@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Salmeterol: De Salmeterol y Fluticasona (Asma/EPOC) a Bronquitis
+## Salmeterol: De Salmeterol y Fluticasona (Asma/EPOC) a Bronquitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-# Miconazol: De Metronidazol/Miconazol a Acné
+## Miconazol: De Metronidazol/Miconazol a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

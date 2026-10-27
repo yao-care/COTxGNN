@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Guselkumab: De Indicación No Especificada en el Registro a Psoriasis
+## Guselkumab: De Indicación No Especificada en el Registro a Psoriasis
+{: .text-alpha }
 
 > Nota: predicted_indications[0] (osteoporosis inducida por fármacos) no cuenta con evidencia. Este informe se centra en la predicción de mayor rango con evidencia disponible, **psoriasis** (rango 3), que corresponde a una indicación ya establecida del fármaco. También se menciona la colitis ulcerosa (rango 6) como candidata con evidencia sólida.
 

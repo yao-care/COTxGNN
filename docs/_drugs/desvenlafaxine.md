@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Desvenlafaxina: De Antidepresivo ISRN (indicación registrada sin detalle) a Trastorno Obsesivo-Compulsivo
+## Desvenlafaxina: De Antidepresivo ISRN (indicación registrada sin detalle) a Trastorno Obsesivo-Compulsivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

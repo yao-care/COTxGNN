@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Ácido acético: De ácido acético tópico (ducha vaginal) a Trastorno post-bacteriano
+## Ácido acético: De ácido acético tópico (ducha vaginal) a Trastorno post-bacteriano
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

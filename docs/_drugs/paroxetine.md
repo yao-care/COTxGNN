@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Paroxetina: De Paroxetina (indicación no detallada en el registro) a Síndrome de Ohdo y variantes
+## Paroxetina: De Paroxetina (indicación no detallada en el registro) a Síndrome de Ohdo y variantes
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

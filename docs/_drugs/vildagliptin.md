@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Vildagliptina: De Metformina/Vildagliptina (diabetes tipo 2) a Síndrome de Rigidez Focal de Extremidad
+## Vildagliptina: De Metformina/Vildagliptina (diabetes tipo 2) a Síndrome de Rigidez Focal de Extremidad
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

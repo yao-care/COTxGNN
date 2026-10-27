@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido ascórbico: De Ácido ascórbico (vitamina C) a Malformación esofágica no sindrómica
+## Ácido ascórbico: De Ácido ascórbico (vitamina C) a Malformación esofágica no sindrómica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

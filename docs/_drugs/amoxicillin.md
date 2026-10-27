@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Amoxicilina: De Amoxicilina con Inhibidor de Beta-lactamasa a Síndrome de Hiperviscosidad Policlonal
+## Amoxicilina: De Amoxicilina con Inhibidor de Beta-lactamasa a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

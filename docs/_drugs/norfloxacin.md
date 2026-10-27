@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Norfloxacino: De Norfloxacina (indicación no detallada en el registro) a Hiperamilasemia
+## Norfloxacino: De Norfloxacina (indicación no detallada en el registro) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

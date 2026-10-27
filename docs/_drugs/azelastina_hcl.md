@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Azelastina HCL: Evaluación No Disponible — Sin Indicaciones Predichas
+## Azelastina HCL: Evaluación No Disponible — Sin Indicaciones Predichas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

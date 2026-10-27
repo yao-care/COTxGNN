@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Baricitinib: De Indicación Original (BARICITINIB) a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
+## Baricitinib: De Indicación Original (BARICITINIB) a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

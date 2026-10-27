@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Flubendazol: De Antihelmíntico (Flubendazol) a Carcinoma de Vejiga Urinaria
+## Flubendazol: De Antihelmíntico (Flubendazol) a Carcinoma de Vejiga Urinaria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

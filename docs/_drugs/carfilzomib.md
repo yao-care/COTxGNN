@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Carfilzomib: De Indicación Original (no especificada en el registro) a CMM7
+## Carfilzomib: De Indicación Original (no especificada en el registro) a CMM7
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

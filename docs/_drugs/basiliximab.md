@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# BASILIXIMAB: Evaluación Pendiente — Datos Insuficientes para Reposicionamiento
+## BASILIXIMAB: Evaluación Pendiente — Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

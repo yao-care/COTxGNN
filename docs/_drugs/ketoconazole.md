@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Ketoconazol: De Ketoconazol (indicación sin detallar) a Acné
+## Ketoconazol: De Ketoconazol (indicación sin detallar) a Acné
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

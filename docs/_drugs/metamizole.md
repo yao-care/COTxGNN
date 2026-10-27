@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Metamizol: De Analgésico/Antiespasmódico a Artritis Reumatoide
+## Metamizol: De Analgésico/Antiespasmódico a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

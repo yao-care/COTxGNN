@@ -31,7 +31,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **2**
 
 </div>
 
-# Tazobactam: De Piperacilina con Inhibidor Enzimático a Neumonía
+## Tazobactam: De Piperacilina con Inhibidor Enzimático a Neumonía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

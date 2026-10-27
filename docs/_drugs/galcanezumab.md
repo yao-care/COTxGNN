@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Galcanezumab: De Indicación Original no especificada a Deficiencia del Cofactor 2 de la Heparina
+## Galcanezumab: De Indicación Original no especificada a Deficiencia del Cofactor 2 de la Heparina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Ritonavir: De Combinaciones Antirretrovirales para VIH a Infección por Virus de Inmunodeficiencia Simia
+## Ritonavir: De Combinaciones Antirretrovirales para VIH a Infección por Virus de Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

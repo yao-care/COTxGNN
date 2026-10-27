@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Finasterida: De la indicación registrada (finasterida) a Hipertricosis
+## Finasterida: De la indicación registrada (finasterida) a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

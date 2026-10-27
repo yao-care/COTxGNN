@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Bleomicina: De Bleomicina (indicación no detallada en el registro) a Neoplasia de la Cola de Caballo
+## Bleomicina: De Bleomicina (indicación no detallada en el registro) a Neoplasia de la Cola de Caballo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

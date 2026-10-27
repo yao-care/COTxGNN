@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brigatinib: De la indicación registrada (sin texto descriptivo) a Fibromatosis gingival
+## Brigatinib: De la indicación registrada (sin texto descriptivo) a Fibromatosis gingival
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

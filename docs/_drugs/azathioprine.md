@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Azatioprina: De Indicación Original (AZATIOPRINA) a Enfermedad Inflamatoria Intestinal
+## Azatioprina: De Indicación Original (AZATIOPRINA) a Enfermedad Inflamatoria Intestinal
+{: .text-alpha }
 
 > Nota: el modelo TxGNN ubica en primer lugar de su lista a "síndrome de microftalmia colobomatosa-displasia rizomélica" (puntaje 99.99 %), pero sin evidencia ni plausibilidad biológica. Este informe se centra en la **enfermedad inflamatoria intestinal (EII)**, la primera indicación con evidencia clínica real (rango 5 del modelo), y menciona la colitis ulcerosa como indicación estrechamente relacionada.
 

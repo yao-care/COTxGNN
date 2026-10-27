@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Trifluoperazina: De Antipsicótico (Amitriptilina y Psicolépticos / Trifluoperazina) a Trastorno Bipolar Afectivo Maníaco
+## Trifluoperazina: De Antipsicótico (Amitriptilina y Psicolépticos / Trifluoperazina) a Trastorno Bipolar Afectivo Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

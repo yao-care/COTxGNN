@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Propafenona: De Antiarrítmico (Propafenona) a Trastorno Afectivo Bipolar Maníaco
+## Propafenona: De Antiarrítmico (Propafenona) a Trastorno Afectivo Bipolar Maníaco
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ergocalciferol: De Combinaciones (indicación no especificada) a Hipoparatiroidismo aislado familiar por alteración de la secreción de PTH
+## Ergocalciferol: De Combinaciones (indicación no especificada) a Hipoparatiroidismo aislado familiar por alteración de la secreción de PTH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

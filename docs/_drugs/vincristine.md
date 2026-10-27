@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Vincristina: De Indicación Registrada (Vincristina) a Ganglioneuroblastoma
+## Vincristina: De Indicación Registrada (Vincristina) a Ganglioneuroblastoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Efavirenz: De Terapia Antirretroviral para VIH a Infección por Virus de Inmunodeficiencia de los Simios
+## Efavirenz: De Terapia Antirretroviral para VIH a Infección por Virus de Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

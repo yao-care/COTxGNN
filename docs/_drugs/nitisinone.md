@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nitisinona: De Tirosinemia Tipo 1 a Acidosis Tubular Renal
+## Nitisinona: De Tirosinemia Tipo 1 a Acidosis Tubular Renal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

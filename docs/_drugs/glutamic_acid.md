@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Ácido glutámico: De Aminoácidos (nutrición parenteral) a Osteoporosis posmenopáusica
+## Ácido glutámico: De Aminoácidos (nutrición parenteral) a Osteoporosis posmenopáusica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

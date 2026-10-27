@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Beclometasona: Evaluación Detenida — Sin Indicaciones Predichas Disponibles
+## Beclometasona: Evaluación Detenida — Sin Indicaciones Predichas Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

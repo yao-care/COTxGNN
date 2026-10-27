@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-# Clioquinol: De Betametasona y Antibióticos a Candidiasis Cutánea
+## Clioquinol: De Betametasona y Antibióticos a Candidiasis Cutánea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

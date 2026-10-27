@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Venetoclax: De Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo de centro pregerminal)
+## Venetoclax: De Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo de centro pregerminal)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

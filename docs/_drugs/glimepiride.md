@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Glimepirida: De Metformina y Sulfonilureas a Síndrome de Rigidez Focal de las Extremidades
+## Glimepirida: De Metformina y Sulfonilureas a Síndrome de Rigidez Focal de las Extremidades
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

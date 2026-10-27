@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diltiazem: De Indicación No Especificada a Susceptibilidad Obsoleta a Accidente Cerebrovascular Isquémico
+## Diltiazem: De Indicación No Especificada a Susceptibilidad Obsoleta a Accidente Cerebrovascular Isquémico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

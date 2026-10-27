@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ambrisentan: De Hipertensión Arterial Pulmonar a Malformación Arteriovenosa Pulmonar
+## Ambrisentan: De Hipertensión Arterial Pulmonar a Malformación Arteriovenosa Pulmonar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

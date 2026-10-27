@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-# Lansoprazol: De Lansoprazol (indicación no detallada) a Reflujo Duodenogástrico
+## Lansoprazol: De Lansoprazol (indicación no detallada) a Reflujo Duodenogástrico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

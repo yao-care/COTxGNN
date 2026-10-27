@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Budesonida: De Formoterol y Budesonida Inhalados (Enfermedad Respiratoria) a Eccema Atópico
+## Budesonida: De Formoterol y Budesonida Inhalados (Enfermedad Respiratoria) a Eccema Atópico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

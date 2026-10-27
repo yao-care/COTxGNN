@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Upadacitinib: De Indicación Original No Especificada a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
+## Upadacitinib: De Indicación Original No Especificada a Síndrome de Microftalmía Colobomatosa con Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Ivabradina: De Indicación Registrada (Ivabradina) a Hipertricosis
+## Ivabradina: De Indicación Registrada (Ivabradina) a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

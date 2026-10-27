@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **4**
 
 </div>
 
-# Clorfeniramina: De Combinaciones para el Resfriado Común a Urticaria Alérgica
+## Clorfeniramina: De Combinaciones para el Resfriado Común a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

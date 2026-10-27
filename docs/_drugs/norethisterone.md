@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Noretisterona: De Noretisterona y Estrógeno a Amenorrea
+## Noretisterona: De Noretisterona y Estrógeno a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

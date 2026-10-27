@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fluconazol: De Indicación Antifúngica (FLUCONAZOL) a Queratoconjuntivitis Epitelial Punteada
+## Fluconazol: De Indicación Antifúngica (FLUCONAZOL) a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

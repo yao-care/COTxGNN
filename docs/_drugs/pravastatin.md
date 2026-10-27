@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-# Pravastatina: De Combinación Pravastatina/Fenofibrato a Hipercolesterolemia Familiar Homocigota
+## Pravastatina: De Combinación Pravastatina/Fenofibrato a Hipercolesterolemia Familiar Homocigota
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

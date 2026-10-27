@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Durvalumab: De Indicación Original No Especificada a Carcinoma Urotelial de la Uretra Prostática
+## Durvalumab: De Indicación Original No Especificada a Carcinoma Urotelial de la Uretra Prostática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

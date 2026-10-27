@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Droxidopa: De Indicación No Especificada en el Registro a Prionopatía Variablemente Sensible a Proteasas
+## Droxidopa: De Indicación No Especificada en el Registro a Prionopatía Variablemente Sensible a Proteasas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

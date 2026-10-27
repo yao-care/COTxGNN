@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Captopril: De Indicación Registrada (Captopril) a Hipertensión Renovascular Maligna
+## Captopril: De Indicación Registrada (Captopril) a Hipertensión Renovascular Maligna
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

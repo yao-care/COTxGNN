@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-# Codeína: De Combinaciones de Paracetamol (excluyendo psicolépticos) a Enfermedad de la Cavidad Nasal
+## Codeína: De Combinaciones de Paracetamol (excluyendo psicolépticos) a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

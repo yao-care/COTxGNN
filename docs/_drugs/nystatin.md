@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Nistatina: De Combinaciones de Imidazol Derivados a Vulvovaginitis
+## Nistatina: De Combinaciones de Imidazol Derivados a Vulvovaginitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

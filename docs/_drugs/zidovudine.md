@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Zidovudina: De Tratamiento del VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+## Zidovudina: De Tratamiento del VIH a Síndrome de Inmunodeficiencia Adquirida Felina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Apixabán: De Inhibidor Directo del Factor Xa a Trastorno de Migraña
+## Apixabán: De Inhibidor Directo del Factor Xa a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

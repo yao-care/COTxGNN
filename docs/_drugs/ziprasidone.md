@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ziprasidona: De Antipsicótico (indicación no detallada en el registro) a Tricotilomanía
+## Ziprasidona: De Antipsicótico (indicación no detallada en el registro) a Tricotilomanía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

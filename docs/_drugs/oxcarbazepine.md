@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Oxcarbazepina: De Epilepsia (indicación registrada como "Oxcarbazepina") a Epilepsia Visual
+## Oxcarbazepina: De Epilepsia (indicación registrada como "Oxcarbazepina") a Epilepsia Visual
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

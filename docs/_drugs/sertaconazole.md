@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Sertaconazol: De Sertaconazol (antifúngico) a Dermatofitosis de la Ingle y el Área Perianal
+## Sertaconazol: De Sertaconazol (antifúngico) a Dermatofitosis de la Ingle y el Área Perianal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

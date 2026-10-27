@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **3**
 
 </div>
 
-# Ciclobenzaprina: De Relajante Muscular (Ciclobenzaprina) a Síndrome de Dolor Miofascial
+## Ciclobenzaprina: De Relajante Muscular (Ciclobenzaprina) a Síndrome de Dolor Miofascial
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

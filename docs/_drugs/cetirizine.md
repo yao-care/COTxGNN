@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **6**
 
 </div>
 
-# Cetirizina: De Cetirizina (antihistamínico) a Urticaria Alérgica
+## Cetirizina: De Cetirizina (antihistamínico) a Urticaria Alérgica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

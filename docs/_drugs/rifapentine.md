@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Rifapentina: De Rifapentin (texto del registro INVIMA) a Lepra
+## Rifapentina: De Rifapentin (texto del registro INVIMA) a Lepra
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

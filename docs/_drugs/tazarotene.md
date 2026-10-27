@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-# Tazaroteno: De Tazaroteno (indicación sin detallar en el registro) a Dermatitis Seborreica
+## Tazaroteno: De Tazaroteno (indicación sin detallar en el registro) a Dermatitis Seborreica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

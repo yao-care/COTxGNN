@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Piroxicam: De Antiinflamatorio No Esteroideo (indicación no detallada en el registro) a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+## Piroxicam: De Antiinflamatorio No Esteroideo (indicación no detallada en el registro) a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

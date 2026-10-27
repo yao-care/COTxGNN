@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Olopatadina: De Olopatadina Oftálmica (indicación no detallada en el registro) a Conjuntivitis Rosácea
+## Olopatadina: De Olopatadina Oftálmica (indicación no detallada en el registro) a Conjuntivitis Rosácea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

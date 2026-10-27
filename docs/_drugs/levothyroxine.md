@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Levotiroxina: De Levotiroxina de Sodio (indicación original) a Bocio Endémico
+## Levotiroxina: De Levotiroxina de Sodio (indicación original) a Bocio Endémico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

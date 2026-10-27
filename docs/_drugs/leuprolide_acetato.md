@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# LEUPROLIDE ACETATO: Evaluación de Datos — Información Insuficiente para Análisis de Reposicionamiento
+## LEUPROLIDE ACETATO: Evaluación de Datos — Información Insuficiente para Análisis de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

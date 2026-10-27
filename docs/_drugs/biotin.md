@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Biotina: De Multivitaminas y Elementos Traza a Dispepsia
+## Biotina: De Multivitaminas y Elementos Traza a Dispepsia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

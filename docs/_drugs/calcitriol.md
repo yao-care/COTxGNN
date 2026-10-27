@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Calcitriol: De una Indicación No Detallada en el Registro a Deficiencia de Vitamina D (término obsoleto)
+## Calcitriol: De una Indicación No Detallada en el Registro a Deficiencia de Vitamina D (término obsoleto)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Prilocaína: De Lidocaína en Combinaciones (anestesia local) a Conjuntivitis Papilar
+## Prilocaína: De Lidocaína en Combinaciones (anestesia local) a Conjuntivitis Papilar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Docusato: De Ablandador de Heces (Docusato Sódico) a Síndrome de Plummer-Vinson
+## Docusato: De Ablandador de Heces (Docusato Sódico) a Síndrome de Plummer-Vinson
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

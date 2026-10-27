@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Baclofeno: Evaluación de Reposicionamiento — Indicaciones Predichas No Disponibles
+## Baclofeno: Evaluación de Reposicionamiento — Indicaciones Predichas No Disponibles
+{: .text-alpha }
 
 ---
 

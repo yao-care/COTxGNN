@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Nifurtimox: De Indicación Original (no especificada en el registro) a Analbuminemia Congénita
+## Nifurtimox: De Indicación Original (no especificada en el registro) a Analbuminemia Congénita
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

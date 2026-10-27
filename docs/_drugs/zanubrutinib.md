@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-# Zanubrutinib: De Agente Antineoplásico a Leucemia Mieloide
+## Zanubrutinib: De Agente Antineoplásico a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

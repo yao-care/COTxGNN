@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **3**
 
 </div>
 
-# Albendazol: De Antiparasitario (ALBENDAZOL) a Equinococosis Alveolar
+## Albendazol: De Antiparasitario (ALBENDAZOL) a Equinococosis Alveolar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

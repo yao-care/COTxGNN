@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Ustekinumab: De Indicación Original (no especificada en el registro) a Dermatitis
+## Ustekinumab: De Indicación Original (no especificada en el registro) a Dermatitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

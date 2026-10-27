@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Tenecteplasa: De Tenecteplasa (indicación sin detallar en el registro) a Infarto de Miocardio Posteroinferior
+## Tenecteplasa: De Tenecteplasa (indicación sin detallar en el registro) a Infarto de Miocardio Posteroinferior
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

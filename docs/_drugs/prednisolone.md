@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Prednisolona: De Prednisolona (uso oftálmico y oral) a Alopecia Areata
+## Prednisolona: De Prednisolona (uso oftálmico y oral) a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

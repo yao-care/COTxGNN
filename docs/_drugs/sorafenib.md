@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Sorafenib: De Indicación Original (no especificada en el registro) a Liposarcoma
+## Sorafenib: De Indicación Original (no especificada en el registro) a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Diosmina: De Combinaciones de Diosmina (Insuficiencia Venosa) a Amenorrea
+## Diosmina: De Combinaciones de Diosmina (Insuficiencia Venosa) a Amenorrea
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

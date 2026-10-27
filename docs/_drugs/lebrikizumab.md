@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Lebrikizumab: Evaluación de Reposicionamiento — Predicciones TxGNN No Disponibles
+## Lebrikizumab: Evaluación de Reposicionamiento — Predicciones TxGNN No Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

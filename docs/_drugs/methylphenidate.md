@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Metilfenidato: De Metilfenidato (indicación registrada sin especificar) a Trastorno del Desarrollo Específico
+## Metilfenidato: De Metilfenidato (indicación registrada sin especificar) a Trastorno del Desarrollo Específico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

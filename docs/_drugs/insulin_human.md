@@ -33,11 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina humana: De Insulina (humana) a Encefalomielitis... Ooforitis Autoinmune
+## Insulina humana: De Insulina (humana) a Encefalomielitis... Ooforitis Autoinmune
+{: .text-alpha }
 
 > Nota: el título se ajusta al formato requerido a continuación.
 
-# Insulina humana: De Insulina (humana) a Ooforitis Autoinmune
+## Insulina humana: De Insulina (humana) a Ooforitis Autoinmune
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

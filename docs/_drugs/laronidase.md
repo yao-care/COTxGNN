@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-# Laronidasa: De Mucopolisacaridosis tipo I (terapia de reemplazo enzimático) a Enfermedad de Depósito Lisosomal con Compromiso Esquelético
+## Laronidasa: De Mucopolisacaridosis tipo I (terapia de reemplazo enzimático) a Enfermedad de Depósito Lisosomal con Compromiso Esquelético
+{: .text-alpha }
 
 ## Resumen en Una Frase
 
@@ -116,7 +117,8 @@ La predicción es biológicamente coherente, pero se trata de una indicación ca
 
 ---
 
-# Laronidasa: De Mucopolisacaridosis tipo I a Síndrome de Sanfilippo
+## Laronidasa: De Mucopolisacaridosis tipo I a Síndrome de Sanfilippo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

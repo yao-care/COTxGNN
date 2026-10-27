@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Alfuzosina: De Alfuzosina (indicación no detallada en el registro) a Hipertricosis Universal Congénita tipo Ambras
+## Alfuzosina: De Alfuzosina (indicación no detallada en el registro) a Hipertricosis Universal Congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Doxorrubicina: De Doxorrubicina (indicación no detallada en el registro) a Sarcoma de Ewing
+## Doxorrubicina: De Doxorrubicina (indicación no detallada en el registro) a Sarcoma de Ewing
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

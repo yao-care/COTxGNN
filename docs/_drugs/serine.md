@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Serina: De Emulsiones Lipídicas a Miopatía Visceral Familiar
+## Serina: De Emulsiones Lipídicas a Miopatía Visceral Familiar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

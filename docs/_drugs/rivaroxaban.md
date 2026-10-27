@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Rivaroxabán: De Indicación Original (Anticoagulación) a Artritis Reumatoide
+## Rivaroxabán: De Indicación Original (Anticoagulación) a Artritis Reumatoide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

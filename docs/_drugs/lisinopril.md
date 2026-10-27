@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Lisinopril: De Indicación No Especificada a Infarto de Miocardio Posterolateral
+## Lisinopril: De Indicación No Especificada a Infarto de Miocardio Posterolateral
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

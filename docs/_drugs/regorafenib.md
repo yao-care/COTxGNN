@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Regorafenib: De Indicación Original (Cáncer Colorrectal/GIST) a Liposarcoma
+## Regorafenib: De Indicación Original (Cáncer Colorrectal/GIST) a Liposarcoma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

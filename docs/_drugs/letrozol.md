@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Letrozol: Sin Predicciones de Reposicionamiento Disponibles
+## Letrozol: Sin Predicciones de Reposicionamiento Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

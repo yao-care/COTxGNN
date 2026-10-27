@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nefopam: De Analgésico Central a Craniosinostosis con Catarata
+## Nefopam: De Analgésico Central a Craniosinostosis con Catarata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

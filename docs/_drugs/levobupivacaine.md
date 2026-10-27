@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Levobupivacaína: De Bupivacaína (anestésico local) a Gastroduodenitis
+## Levobupivacaína: De Bupivacaína (anestésico local) a Gastroduodenitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

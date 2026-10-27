@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Propranolol: De Propranolol (indicación no detallada en el registro) a Distrofia Miopática Distal tipo Tateyama
+## Propranolol: De Propranolol (indicación no detallada en el registro) a Distrofia Miopática Distal tipo Tateyama
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

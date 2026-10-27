@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Silodosina: De Silodosina (indicación registrada sin detalle) a Hipertricosis universal congénita tipo Ambras
+## Silodosina: De Silodosina (indicación registrada sin detalle) a Hipertricosis universal congénita tipo Ambras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

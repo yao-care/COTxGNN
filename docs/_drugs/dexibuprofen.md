@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dexibuprofeno: De Ibuprofeno en Combinaciones a Espondilitis Anquilosante
+## Dexibuprofeno: De Ibuprofeno en Combinaciones a Espondilitis Anquilosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

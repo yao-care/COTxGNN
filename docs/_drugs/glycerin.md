@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Glicerina: De Lágrimas Artificiales a Síndrome de la Cauda Equina
+## Glicerina: De Lágrimas Artificiales a Síndrome de la Cauda Equina
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

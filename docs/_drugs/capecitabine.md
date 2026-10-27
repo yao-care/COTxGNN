@@ -31,7 +31,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Capecitabina: De Capecitabina (indicación registrada sin detalle) a Adenocarcinoma Gástrico Tubular
+## Capecitabina: De Capecitabina (indicación registrada sin detalle) a Adenocarcinoma Gástrico Tubular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

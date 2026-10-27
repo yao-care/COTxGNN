@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Minoxidil: De Minoxidil (sin indicación detallada en el registro) a Hipotricosis simple del cuero cabelludo
+## Minoxidil: De Minoxidil (sin indicación detallada en el registro) a Hipotricosis simple del cuero cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Enzalutamida: De Cáncer de Próstata a Cáncer de Órgano Reproductor Masculino
+## Enzalutamida: De Cáncer de Próstata a Cáncer de Órgano Reproductor Masculino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

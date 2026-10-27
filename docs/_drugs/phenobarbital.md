@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Fenobarbital: De Fenobarbital (indicación sin detallar) a Neoplasia del Nervio Trigémino
+## Fenobarbital: De Fenobarbital (indicación sin detallar) a Neoplasia del Nervio Trigémino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

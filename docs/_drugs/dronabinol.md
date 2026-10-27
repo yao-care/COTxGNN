@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Dronabinol: De Indicación No Especificada a Trastorno de Migraña
+## Dronabinol: De Indicación No Especificada a Trastorno de Migraña
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

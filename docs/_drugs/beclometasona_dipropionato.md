@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Beclometasona Dipropionato: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+## Beclometasona Dipropionato: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+{: .text-alpha }
 
 ---
 

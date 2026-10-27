@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Fibrinógeno Humano: De Fibrinógeno Humano (reposición de fibrinógeno) a Hemoglobinopatía
+## Fibrinógeno Humano: De Fibrinógeno Humano (reposición de fibrinógeno) a Hemoglobinopatía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

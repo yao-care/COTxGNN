@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Colecalciferol: De Multivitaminas y Minerales en Combinación a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+## Colecalciferol: De Multivitaminas y Minerales en Combinación a Hipoparatiroidismo Aislado Familiar por Alteración de la Secreción de PTH
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

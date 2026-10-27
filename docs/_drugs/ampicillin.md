@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Ampicilina: De Ampicilina con Inhibidor Enzimático a Laringitis
+## Ampicilina: De Ampicilina con Inhibidor Enzimático a Laringitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

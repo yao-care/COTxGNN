@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Midodrina: De una Indicación No Detallada en el Registro a Prionopatía Sensible a Proteasa de Forma Variable
+## Midodrina: De una Indicación No Detallada en el Registro a Prionopatía Sensible a Proteasa de Forma Variable
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

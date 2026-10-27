@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Ocrelizumab: De Esclerosis Múltiple a Carcinoma de Mama HER2 Positivo
+## Ocrelizumab: De Esclerosis Múltiple a Carcinoma de Mama HER2 Positivo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

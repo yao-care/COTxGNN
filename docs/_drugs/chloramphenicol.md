@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-# Cloranfenicol: De Cloranfenicol (indicación registrada) a Conjuntivitis
+## Cloranfenicol: De Cloranfenicol (indicación registrada) a Conjuntivitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

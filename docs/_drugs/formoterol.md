@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Formoterol: De Combinaciones Inhaladas para Asma/EPOC a Malformación Respiratoria
+## Formoterol: De Combinaciones Inhaladas para Asma/EPOC a Malformación Respiratoria
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

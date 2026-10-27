@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-# Topotecan: De Topotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
+## Topotecan: De Topotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

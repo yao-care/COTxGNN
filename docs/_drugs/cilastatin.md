@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cilastatina: De Imipenem/Cilastatina a Neumonía (Indicación Predicha de Mayor Evidencia)
+## Cilastatina: De Imipenem/Cilastatina a Neumonía (Indicación Predicha de Mayor Evidencia)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

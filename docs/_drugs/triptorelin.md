@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Triptorelina: De Indicación Original No Especificada a Pubertad Precoz
+## Triptorelina: De Indicación Original No Especificada a Pubertad Precoz
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

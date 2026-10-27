@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Ácido láctico: De Combinaciones de Paracetamol a Coartación Atípica de la Aorta
+## Ácido láctico: De Combinaciones de Paracetamol a Coartación Atípica de la Aorta
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

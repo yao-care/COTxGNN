@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Abiraterona Acetato: Informe de Evaluación de Reposicionamiento
+## Abiraterona Acetato: Informe de Evaluación de Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

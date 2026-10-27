@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Aflibercept: De Indicación Original (AFLIBERCEPT, sin descripción detallada) a Esotropía
+## Aflibercept: De Indicación Original (AFLIBERCEPT, sin descripción detallada) a Esotropía
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

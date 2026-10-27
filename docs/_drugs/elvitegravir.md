@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Elvitegravir: De Infección por VIH-1 (combinaciones antirretrovirales) a Infección por el Virus de la Inmunodeficiencia Simia
+## Elvitegravir: De Infección por VIH-1 (combinaciones antirretrovirales) a Infección por el Virus de la Inmunodeficiencia Simia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

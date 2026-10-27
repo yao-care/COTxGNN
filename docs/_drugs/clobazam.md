@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Clobazam: De Indicación Original (Clobazam, según registro INVIMA) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+## Clobazam: De Indicación Original (Clobazam, según registro INVIMA) a Síndrome de Epilepsia Relacionada con Infección Febril (FIRES)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

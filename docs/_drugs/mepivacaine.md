@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Mepivacaína: De Anestésico Local (Combinaciones de Mepivacaína) a Gastroduodenitis
+## Mepivacaína: De Anestésico Local (Combinaciones de Mepivacaína) a Gastroduodenitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-# Norepinefrina: De Indicación Original (Norepinefrina inyectable) a Enfermedad Pulmonar Obstructiva
+## Norepinefrina: De Indicación Original (Norepinefrina inyectable) a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

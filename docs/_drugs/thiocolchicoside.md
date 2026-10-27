@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Tiocolchicósido: De Analgésico/Antipirético en Combinación (Paracetamol) a Insomnio
+## Tiocolchicósido: De Analgésico/Antipirético en Combinación (Paracetamol) a Insomnio
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

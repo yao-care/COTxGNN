@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Inotersen: De Amiloidosis Hereditaria por Transtiretina (según INVIMA, indicación no detallada) a Porfiria Aguda Intermitente
+## Inotersen: De Amiloidosis Hereditaria por Transtiretina (según INVIMA, indicación no detallada) a Porfiria Aguda Intermitente
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Colistina: De Otitis/Infecciones Bacterianas (Hidrocortisona y Antiinfecciosos) a Vasculitis Postinfecciosa
+## Colistina: De Otitis/Infecciones Bacterianas (Hidrocortisona y Antiinfecciosos) a Vasculitis Postinfecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

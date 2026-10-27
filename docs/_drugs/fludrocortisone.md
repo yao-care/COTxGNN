@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Fludrocortisona: De Fludrocortisona (sin indicación específica registrada) a Enfermedad Ocular
+## Fludrocortisona: De Fludrocortisona (sin indicación específica registrada) a Enfermedad Ocular
+{: .text-alpha }
 
 > Nota: la primera predicción por puntaje del modelo es el linfoma cutáneo primario de células T, pero no cuenta con ninguna evidencia. Por ello, este informe se centra en la predicción con soporte bibliográfico, **enfermedad ocular** (posición 6 en el ranking), y menciona las demás en el contexto.
 

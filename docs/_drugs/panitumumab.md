@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Panitumumab: De Indicación Registrada (sin texto descriptivo) a Osteoporosis Inducida por Fármacos
+## Panitumumab: De Indicación Registrada (sin texto descriptivo) a Osteoporosis Inducida por Fármacos
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

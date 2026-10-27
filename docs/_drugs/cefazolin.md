@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-# Cefazolina: De Indicación Registrada No Especificada a Otitis Media Infecciosa
+## Cefazolina: De Indicación Registrada No Especificada a Otitis Media Infecciosa
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

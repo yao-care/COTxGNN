@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Gilteritinib: De Leucemia Mieloide Aguda FLT3-mutada a Poliomielitis Bulbar
+## Gilteritinib: De Leucemia Mieloide Aguda FLT3-mutada a Poliomielitis Bulbar
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Nafazolina: De Indicación Oftálmica (Descongestionante Conjuntival) a Hipotricosis Simple del Cuero Cabelludo
+## Nafazolina: De Indicación Oftálmica (Descongestionante Conjuntival) a Hipotricosis Simple del Cuero Cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

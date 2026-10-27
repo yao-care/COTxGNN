@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Arginina: Evaluación con Datos Insuficientes para Reposicionamiento
+## Arginina: Evaluación con Datos Insuficientes para Reposicionamiento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

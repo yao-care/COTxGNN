@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Dabigatrán etexilato: De Anticoagulante Oral a Colangitis Esclerosante
+## Dabigatrán etexilato: De Anticoagulante Oral a Colangitis Esclerosante
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Mupirocina: De Indicación Registrada (Mupirocina tópica) a Empiema Pleural
+## Mupirocina: De Indicación Registrada (Mupirocina tópica) a Empiema Pleural
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

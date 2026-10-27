@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Lamivudina: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia de los Simios
+## Lamivudina: De Infección por VIH a Infección por el Virus de la Inmunodeficiencia de los Simios
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

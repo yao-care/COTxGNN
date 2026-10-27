@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Insulina Aspart: De Insulina Aspart (uso aprobado en diabetes) a Diabetes Mellitus Tipo 1
+## Insulina Aspart: De Insulina Aspart (uso aprobado en diabetes) a Diabetes Mellitus Tipo 1
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

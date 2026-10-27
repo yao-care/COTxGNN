@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Ambroxol: De Mucolítico/Expectorante a Enfermedad de la Cavidad Nasal
+## Ambroxol: De Mucolítico/Expectorante a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

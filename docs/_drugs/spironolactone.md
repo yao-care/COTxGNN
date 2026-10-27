@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Espironolactona: De Espironolactona (registro INVIMA) a Hipotricosis simple del cuero cabelludo
+## Espironolactona: De Espironolactona (registro INVIMA) a Hipotricosis simple del cuero cabelludo
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

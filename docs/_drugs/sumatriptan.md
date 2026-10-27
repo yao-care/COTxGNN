@@ -31,7 +31,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-# Sumatriptán: De Sumatriptán (indicación registrada sin detalle) a Migraña con Aura del Tronco Encefálico
+## Sumatriptán: De Sumatriptán (indicación registrada sin detalle) a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

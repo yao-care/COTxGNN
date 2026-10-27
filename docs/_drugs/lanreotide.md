@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Lanreotida: De Lanreotida (sin indicación específica registrada) a Hipertricosis
+## Lanreotida: De Lanreotida (sin indicación específica registrada) a Hipertricosis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

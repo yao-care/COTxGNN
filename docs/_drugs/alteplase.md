@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Alteplasa: De Indicación Registrada (Alteplasa) a Infarto de Miocardio Posteroinferior
+## Alteplasa: De Indicación Registrada (Alteplasa) a Infarto de Miocardio Posteroinferior
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

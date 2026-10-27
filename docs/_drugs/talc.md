@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-# Talco: De Clindamicina (registro sanitario) a Enfermedad Trombótica
+## Talco: De Clindamicina (registro sanitario) a Enfermedad Trombótica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

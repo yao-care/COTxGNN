@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Dexmedetomidina: De Dexmedetomidina (indicación no detallada en el registro) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+## Dexmedetomidina: De Dexmedetomidina (indicación no detallada en el registro) a Síndrome Nefrogénico de Antidiuresis Inapropiada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

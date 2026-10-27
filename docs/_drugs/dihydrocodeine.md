@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-# Dihidrocodeína: De Dihidrocodeína (indicación sin especificar) a Enfermedad de la Cavidad Nasal
+## Dihidrocodeína: De Dihidrocodeína (indicación sin especificar) a Enfermedad de la Cavidad Nasal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

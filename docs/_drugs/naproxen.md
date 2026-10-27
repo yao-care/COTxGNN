@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-# Naproxeno: De Combinaciones con Tiocolchicósido/Naproxeno a Síndrome de Braquidactilia-Sindactilia
+## Naproxeno: De Combinaciones con Tiocolchicósido/Naproxeno a Síndrome de Braquidactilia-Sindactilia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

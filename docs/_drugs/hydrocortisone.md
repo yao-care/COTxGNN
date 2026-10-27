@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Hidrocortisona: De Hidrocortisona (indicación no detallada en el registro) a Alopecia Areata
+## Hidrocortisona: De Hidrocortisona (indicación no detallada en el registro) a Alopecia Areata
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

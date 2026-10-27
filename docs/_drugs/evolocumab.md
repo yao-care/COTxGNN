@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Evolocumab: De Hipercolesterolemia (LDL-C elevado) a Forma sintomática de hemofilia en mujeres portadoras
+## Evolocumab: De Hipercolesterolemia (LDL-C elevado) a Forma sintomática de hemofilia en mujeres portadoras
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

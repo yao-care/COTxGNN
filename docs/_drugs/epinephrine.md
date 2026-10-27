@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-# Epinefrina: De Indicación Original No Especificada a Enfermedad Pulmonar Obstructiva
+## Epinefrina: De Indicación Original No Especificada a Enfermedad Pulmonar Obstructiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

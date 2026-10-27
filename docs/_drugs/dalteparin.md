@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Dalteparina: De Indicación No Especificada en el Registro a Trombofilia por Deficiencia de Proteína C
+## Dalteparina: De Indicación No Especificada en el Registro a Trombofilia por Deficiencia de Proteína C
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Metformina: De Metformina (indicación sin detallar) a Síndrome de la Persona Rígida Clásico
+## Metformina: De Metformina (indicación sin detallar) a Síndrome de la Persona Rígida Clásico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

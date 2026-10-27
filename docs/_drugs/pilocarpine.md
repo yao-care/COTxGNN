@@ -31,7 +31,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Pilocarpina: De Indicación No Especificada a Glaucoma Hereditario Primario
+## Pilocarpina: De Indicación No Especificada a Glaucoma Hereditario Primario
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

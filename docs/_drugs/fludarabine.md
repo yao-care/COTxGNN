@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Fludarabina: De Indicación Registrada (sin texto descriptivo) a Mieloma de Células Plasmáticas
+## Fludarabina: De Indicación Registrada (sin texto descriptivo) a Mieloma de Células Plasmáticas
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

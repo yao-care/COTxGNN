@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 </div>
 
-# Sofosbuvir: De Hepatitis C (Sofosbuvir + Velpatasvir) a Infección por Virus de la Hepatitis B
+## Sofosbuvir: De Hepatitis C (Sofosbuvir + Velpatasvir) a Infección por Virus de la Hepatitis B
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

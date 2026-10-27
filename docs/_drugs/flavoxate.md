@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Flavoxato: De Indicación Urológica (Flavoxato) a Trastorno por Déficit de Atención e Hiperactividad, Tipo Inatento
+## Flavoxato: De Indicación Urológica (Flavoxato) a Trastorno por Déficit de Atención e Hiperactividad, Tipo Inatento
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

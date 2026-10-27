@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-# Claritromicina: De Indicación Registrada (Claritromicina) a Síndrome de Hiperviscosidad Policlonal
+## Claritromicina: De Indicación Registrada (Claritromicina) a Síndrome de Hiperviscosidad Policlonal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-# Resorcinol: De Combinaciones Tópicas (Ácido Salicílico, Ácido Benzoico, Resorcinol) a Acné Queloide
+## Resorcinol: De Combinaciones Tópicas (Ácido Salicílico, Ácido Benzoico, Resorcinol) a Acné Queloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

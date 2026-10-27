@@ -32,7 +32,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-# Leflunomida: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+## Leflunomida: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

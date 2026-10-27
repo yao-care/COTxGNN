@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-# Fenoterol: De Enfermedad Obstructiva de la Vía Aérea a Atrofia Multisistémica
+## Fenoterol: De Enfermedad Obstructiva de la Vía Aérea a Atrofia Multisistémica
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-# Clofarabina: De CLOFARABINA (registro INVIMA) a Leucemia Mieloide
+## Clofarabina: De CLOFARABINA (registro INVIMA) a Leucemia Mieloide
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

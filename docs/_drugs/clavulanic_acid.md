@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Ácido clavulánico: De Amoxicilina con Inhibidor de Betalactamasa a Uretritis por Ureaplasma
+## Ácido clavulánico: De Amoxicilina con Inhibidor de Betalactamasa a Uretritis por Ureaplasma
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

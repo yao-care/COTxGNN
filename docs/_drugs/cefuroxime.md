@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Cefuroxima: De Antibiótico Cefalosporínico (indicación no detallada en el registro) a Hiperamilasemia
+## Cefuroxima: De Antibiótico Cefalosporínico (indicación no detallada en el registro) a Hiperamilasemia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-# Naratriptán: De Migraña (indicación general) a Migraña con Aura del Tronco Encefálico
+## Naratriptán: De Migraña (indicación general) a Migraña con Aura del Tronco Encefálico
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

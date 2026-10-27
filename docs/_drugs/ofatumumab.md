@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-# Ofatumumab: De la indicación registrada (ofatumumab) a Linfoma Folicular
+## Ofatumumab: De la indicación registrada (ofatumumab) a Linfoma Folicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-# Melfalán: De Indicación Registrada (Melphalan) a Tumor de Células Germinales Gonadal
+## Melfalán: De Indicación Registrada (Melphalan) a Tumor de Células Germinales Gonadal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

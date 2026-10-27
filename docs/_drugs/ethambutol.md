@@ -33,7 +33,8 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-# Etambutol: De Tuberculosis (indicación registrada como "Etambutol") a Epiglotitis
+## Etambutol: De Tuberculosis (indicación registrada como "Etambutol") a Epiglotitis
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

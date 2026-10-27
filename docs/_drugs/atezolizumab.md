@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Atezolizumab: De Indicación No Especificada en el Registro a Carcinoma Urotelial de la Uretra Prostática
+## Atezolizumab: De Indicación No Especificada en el Registro a Carcinoma Urotelial de la Uretra Prostática
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

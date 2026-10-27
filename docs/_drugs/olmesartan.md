@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Olmesartán: De Combinación con Diuréticos para Hipertensión a Angina de Prinzmetal
+## Olmesartán: De Combinación con Diuréticos para Hipertensión a Angina de Prinzmetal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

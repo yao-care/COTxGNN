@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Brentuximab Vedotina: De Indicación No Especificada en el Registro a Linfoma Folicular
+## Brentuximab Vedotina: De Indicación No Especificada en el Registro a Linfoma Folicular
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

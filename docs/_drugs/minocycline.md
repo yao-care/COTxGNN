@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Minociclina: De Indicación No Especificada a Queratoconjuntivitis Epitelial Punteada
+## Minociclina: De Indicación No Especificada a Queratoconjuntivitis Epitelial Punteada
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

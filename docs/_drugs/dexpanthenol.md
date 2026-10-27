@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-# Dexpanthenol: De Multivitaminas y Elementos Traza a Estenosis Anorrectal
+## Dexpanthenol: De Multivitaminas y Elementos Traza a Estenosis Anorrectal
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

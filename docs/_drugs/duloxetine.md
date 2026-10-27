@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Duloxetina: De Duloxetina (indicación sin detallar) a Trastorno Paroxístico Benigno de Tortícolis de la Infancia
+## Duloxetina: De Duloxetina (indicación sin detallar) a Trastorno Paroxístico Benigno de Tortícolis de la Infancia
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-# Baclofeno: De Espasticidad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+## Baclofeno: De Espasticidad a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

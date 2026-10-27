@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-# Etinilestradiol: De Dienogest y Etinilestradiol (anticoncepción oral) a Zinc Plasmático Elevado
+## Etinilestradiol: De Dienogest y Etinilestradiol (anticoncepción oral) a Zinc Plasmático Elevado
+{: .text-alpha }
 
 ## Resumen en Una Frase
 

@@ -33,7 +33,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-# Eribulina: De Agente Antineoplásico a Fiebre Mediterránea Familiar Autosómica Recesiva
+## Eribulina: De Agente Antineoplásico a Fiebre Mediterránea Familiar Autosómica Recesiva
+{: .text-alpha }
 
 ## Resumen en Una Frase
 
