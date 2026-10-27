@@ -114,7 +114,7 @@ medicamentos frente a enfermedades raras."
 
 | Ítem | Valor |
 |------|-------|
-| Informes de medicamentos | {{ site.drugs.size }} |
+| Informes de medicamentos | {{ site.data.drug_stats.total_drugs }} |
 | Autoridad regulatoria | INVIMA |
 | Sitios desplegados | 30 países / regiones |
 
