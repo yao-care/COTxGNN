@@ -4,7 +4,7 @@ title: Topiramate
 parent: Solo Predicción del Modelo (L5)
 nav_order: 631
 evidence_level: L5
-indication_count: 9
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Topiramato"
 monitor_inn: "Topiramate"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 # Topiramate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 ## Resumen en Una Frase
 
 Topiramato es un fármaco antiepiléptico de amplio espectro; su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas) figura solo con el nombre del principio activo, sin una indicación detallada.
-El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino** (puntaje 99.70%), pero para esta predicción **no se encontraron ensayos clínicos ni publicaciones**; se trata únicamente de una predicción del modelo.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino** (puntaje 0.9970), pero para esta predicción **no se encontraron ensayos clínicos ni publicaciones**; se trata únicamente de una predicción del modelo.
 Entre las demás predicciones, las que tienen más respaldo son subtipos de epilepsia (por ejemplo, convulsiones inducidas por el pensamiento), que se comentan más abajo.
 
 ---
@@ -50,9 +50,9 @@ Entre las demás predicciones, las que tienen más respaldo son subtipos de epil
 |------|------|
 | Indicación Original | Topiramato (el registro no detalla la indicación; el fármaco se usa en epilepsia) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Entre las demás predicciones, las que tienen más respaldo son subtipos de epil
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, topiramato bloquea los canales de sodio dependientes de voltaje, potencia la actividad GABA-A, antagoniza receptores glutamatérgicos AMPA/kainato e inhibe la anhidrasa carbónica. Los datos compilados confirman su interacción con las isoformas CA1, CA4, CA7 y CA12.
 
-Estos mecanismos explican su eficacia antiepiléptica, pero **no corresponden a un mecanismo antineoplásico establecido**. Cualquier vínculo con una neoplasia del nervio trigémino sería, como mucho, sintomático (por ejemplo, alivio de dolor de tipo neuralgia del trigémino) y no dirigido contra el tumor. El puntaje alto de TxGNN (0.997) proviene solo de la estructura del grafo de conocimiento y no está respaldado por evidencia real.
+Estos mecanismos explican su eficacia antiepiléptica, pero **no corresponden a un mecanismo antineoplásico establecido**. Cualquier vínculo con una neoplasia del nervio trigémino sería, como mucho, sintomático (por ejemplo, alivio de dolor de tipo neuralgia del trigémino) y no dirigido contra el tumor. El puntaje alto de TxGNN (0.9970) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ### Otras predicciones evaluadas
 
@@ -70,14 +70,6 @@ Los datos incluyen otras indicaciones predichas, casi todas epilepsias reflejas,
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Epilepsia visual | 99.28% | L3 | Revisiones y guías de epilepsia general; evidencia indirecta |
-| Convulsiones inducidas por el pensamiento | 99.21% | L1* | Revisiones Cochrane de topiramato como terapia adicional en epilepsia focal resistente; *no específicas del subtipo* |
-| Convulsiones audiogénicas | 99.21% | L4 | Solo estudios en animales (ratones DBA/2, ratas GAERS) |
-| Convulsiones por micción | 99.21% | L4 | Literatura general de epilepsia, nada específico |
-| Convulsiones al comer | 99.21% | L4 | Literatura sobre trastornos alimentarios; coincidencia de palabras clave |
-| Epilepsia por sobresalto | 99.21% | L5 | Solo predicción |
-| Convulsiones inducidas por orgasmo | 99.21% | L5 | Solo predicción |
-| Convulsiones al leer | 99.09% | L4 | Evidencia indirecta |
 
 ---
 

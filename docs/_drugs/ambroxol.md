@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ambroxol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 46
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
+predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---
 
 # Ambroxol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | Ambroxol (mucolítico/expectorante; el registro sanitario solo indica "Ambroxol" o "Combinaciones") |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ No se dispone actualmente de datos detallados sobre el mecanismo de acción regi
 
 Estas propiedades se relacionan de forma plausible con afecciones de las vías respiratorias superiores, como las de la cavidad nasal. Sin embargo, la única publicación vinculada trata sobre el tratamiento de la tos aguda, por lo que la conexión con la enfermedad de la cavidad nasal es indirecta.
 
-El puntaje de 99.91% es una predicción computacional, no una validación clínica. Por otro lado, los datos compilados indican que el ambroxol (como clorhidrato) se está reposicionando para enfermedades neurodegenerativas, como la enfermedad de Parkinson asociada a variantes del gen GBA1 y la esclerosis lateral amiotrófica (la EMA otorgó designación de medicamento huérfano en julio de 2018). Esto es independiente de la indicación predicha en este informe.
+El puntaje de 0.9991 es una predicción computacional, no una validación clínica. Por otro lado, los datos compilados indican que el ambroxol (como clorhidrato) se está reposicionando para enfermedades neurodegenerativas, como la enfermedad de Parkinson asociada a variantes del gen GBA1 y la esclerosis lateral amiotrófica (la EMA otorgó designación de medicamento huérfano en julio de 2018). Esto es independiente de la indicación predicha en este informe.
 
 ---
 
@@ -106,7 +106,7 @@ Los 5 registros sanitarios están cancelados; actualmente no hay registros vigen
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo TxGNN y en una revisión indirecta sobre tos aguda, sin ensayos clínicos para enfermedad de la cavidad nasal. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción se apoya únicamente en el modelo TxGNN y en una revisión indirecta sobre tos aguda, sin ensayos clínicos para enfermedad de la cavidad nasal. Además, el medicamento está comercializado en Colombia y cuenta con 5 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) del fármaco

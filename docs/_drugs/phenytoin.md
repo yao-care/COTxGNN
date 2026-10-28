@@ -4,7 +4,7 @@ title: Phenytoin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 514
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenitoína"
 monitor_inn: "phenytoin"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Phenytoin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 La fenitoína es un fármaco anticonvulsivante, registrado en Colombia bajo el nombre EPAMIN® PARENTERICO (solución inyectable), cuyo registro sanitario figura actualmente como cancelado.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero **no hay ensayos clínicos** y solo **2 publicaciones** relacionadas, ninguna sobre tratamiento de tumores.
-La predicción debe considerarse con mucha cautela: probablemente refleja la cercanía en el grafo de conocimiento con la neuralgia del trigémino y no un efecto antitumoral.
+La predicción debe considerarse con mucha cautela: el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neuralgia del trigémino, no evidencia biológica de un efecto antitumoral.
 
 ---
 
@@ -50,9 +50,9 @@ La predicción debe considerarse con mucha cautela: probablemente refleja la cer
 |------|------|
 | Indicación Original | Fenitoína (el texto del registro INVIMA no detalla la indicación) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -62,9 +62,9 @@ La predicción debe considerarse con mucha cautela: probablemente refleja la cer
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la fenitoína es un anticonvulsivante que bloquea los canales de sodio dependientes de voltaje, lo que reduce la descarga neuronal repetitiva y la propagación de las crisis.
 
-La relación con la nueva indicación es débil. La fenitoína se usa en dolor del nervio trigémino (neuralgia), pero no hay evidencia de que actúe sobre tejido tumoral. El puntaje alto del modelo probablemente refleja la proximidad en el grafo entre "nervio trigémino" y la neuralgia del trigémino, no un efecto antineoplásico. Las dos publicaciones recuperadas tratan sobre neuralgia del trigémino y síndrome de Sturge-Weber, no sobre el tratamiento de neoplasias.
+La relación con la nueva indicación es débil. La fenitoína se usa en dolor del nervio trigémino (neuralgia), pero no hay evidencia de que actúe sobre tejido tumoral. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neoplasia del nervio trigémino y la neuralgia del trigémino, no evidencia biológica de un efecto antineoplásico. Las dos publicaciones recuperadas tratan sobre neuralgia del trigémino y síndrome de Sturge-Weber, no sobre el tratamiento de neoplasias.
 
-Por ello, desde el punto de vista mecanístico, esta predicción no está respaldada. Dentro de las predicciones del modelo, la **neuralgia del trigémino** (puntaje 99.97%, nivel L3) es la candidata con evidencia más sólida y coherente con el mecanismo del fármaco.
+Por ello, desde el punto de vista mecanístico, esta predicción no está respaldada. Dentro de las predicciones del modelo, la **neuralgia del trigémino** (puntaje 0.9997, nivel L3) es la candidata con evidencia más sólida y coherente con el mecanismo del fármaco.
 
 ---
 
@@ -105,7 +105,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura recuperada no aborda el tratamiento de neoplasias del nervio trigémino. No hay vínculo mecanístico plausible con un efecto antitumoral, por lo que el puntaje del modelo parece un artefacto del grafo. Además, el único registro sanitario en Colombia está cancelado.
+No existen ensayos clínicos y la literatura recuperada no aborda el tratamiento de neoplasias del nervio trigémino. No hay vínculo mecanístico plausible con un efecto antitumoral, por lo que el puntaje del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia y cuenta con 1 registro sanitario vigente.
 
 **Para avanzar se necesita:**
 - Priorizar la evaluación de **neuralgia del trigémino** (nivel L3), que es la indicación mejor respaldada, en lugar de la neoplasia.

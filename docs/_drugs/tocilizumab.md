@@ -4,17 +4,17 @@ title: Tocilizumab
 parent: Evidencia Moderada (L3-L4)
 nav_order: 630
 evidence_level: L3
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "TOCILIZUMAB"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "spondyloarthropathy, susceptibility to", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "mendelian susceptibility to mycobacterial diseases due to complete IL12B deficiency"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 ---
 
 # Tocilizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 |------|------|
 | Indicación Original | No especificada (el registro sanitario solo indica "TOCILIZUMAB") |
 | Nueva Indicación Predicha | Espondilitis anquilosante |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,9 +99,9 @@ Sin embargo, el registro clínico es desfavorable. Los dos ensayos de Fase 3 con
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20002627 | ACTEMRA® Concentrado para infusión 200 mg/10 mL | Solución inyectable | TOCILIZUMAB (cancelado) |
-| 20062328 | ACTEMRA® Solución inyectable 162 mg/0.9 mL | Solución inyectable | TOCILIZUMAB (cancelado) |
-| 20002629 | ACTEMRA® Concentrado para infusión 80 mg/4 mL | Solución inyectable | TOCILIZUMAB (cancelado) |
+| 20002627 | ACTEMRA® Concentrado para infusión 200 mg/10 mL | Solución inyectable | TOCILIZUMAB (vigente) |
+| 20062328 | ACTEMRA® Solución inyectable 162 mg/0.9 mL | Solución inyectable | TOCILIZUMAB (vigente) |
+| 20002629 | ACTEMRA® Concentrado para infusión 80 mg/4 mL | Solución inyectable | TOCILIZUMAB (vigente) |
 
 Los tres registros pertenecen a F. Hoffmann-La Roche Ltd y se encuentran cancelados.
 
@@ -136,7 +136,7 @@ Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados
 
 ### Nota sobre otras indicaciones predichas
 
-- **Artritis idiopática juvenil poliarticular** (puntaje 99.98%): nivel de evidencia L1, con un ensayo de Fase 3 completado, aleatorizado, doble ciego y controlado con placebo (NCT00988221, n=188) más varios estudios de extensión. Es probablemente una indicación ya conocida, por lo que sería un redescubrimiento y no un reposicionamiento genuino. Se recomienda "Proceed with Guardrails" (tamizaje de infección y tuberculosis, monitoreo hepático y lipídico, dosificación por peso).
+- **Artritis idiopática juvenil poliarticular** (puntaje 0.9998): nivel de evidencia L1, con un ensayo de Fase 3 completado, aleatorizado, doble ciego y controlado con placebo (NCT00988221, n=188) más varios estudios de extensión. Es probablemente una indicación ya conocida, por lo que sería un redescubrimiento y no un reposicionamiento genuino. Se recomienda "Proceed with Guardrails" (tamizaje de infección y tuberculosis, monitoreo hepático y lipídico, dosificación por peso).
 - **Artritis idiopática juvenil poliarticular factor reumatoide positivo**: nivel L3, extrapolado del anterior; "Proceed with Guardrails".
 - **Vasculitis reumatoide**: nivel L4, con un solo reporte de caso favorable y casos de vasculitis inducida por tocilizumab como contraseñal; pregunta de investigación.
 - **Enfermedad de Kümmell, hipermovilidad del cóccix y susceptibilidad mendeliana a enfermedades micobacterianas por deficiencia de IL12B**: solo predicción del modelo (L5), sin evidencia. La última es probablemente un falso positivo y potencialmente dañina por el riesgo infeccioso de tocilizumab.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cytarabine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 188
-evidence_level: L4
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Cytarabine: nueva indicación predicha, Carcinoma pulmonar de células pequeñas (nivel de evidencia L4). Indicación original: Citarabina"
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
+last_modified_at: 2026-10-27
+description: "Cytarabine: nueva indicación predicha, carcinoma pulmonar de células pequeñas (small cell lung carcinoma) (nivel de evidencia L5). Indicación original: CITARABINA"
 ---
 
 # Cytarabine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,110 +33,87 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Citarabina: De Indicación Original (no especificada en el registro) a Carcinoma Pulmonar de Células Pequeñas
+## Citarabina: antimetabolito análogo de pirimidina → carcinoma pulmonar de células pequeñas (small cell lung carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La citarabina es un antimetabolito análogo de nucleósidos de pirimidina, registrado en Colombia bajo el nombre genérico "citarabina" (el registro no detalla la indicación); en la práctica clínica se usa sobre todo en leucemias y linfomas.
-El modelo TxGNN predice que podría ser efectiva para el **carcinoma pulmonar de células pequeñas**, con **0 ensayos clínicos** y **18 publicaciones** recuperadas, ninguna con datos directos de citarabina en esta enfermedad.
-La predicción se apoya, por tanto, casi solo en el modelo computacional.
-
----
+Citarabina es un antimetabolito análogo de nucleósidos de pirimidina que inhibe la síntesis de ADN en células en fase S.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma pulmonar de células pequeñas (small cell lung carcinoma)**,
+pero actualmente **no hay ensayos clínicos** registrados y ninguna de las publicaciones recuperadas estudia directamente esta enfermedad con citarabina, por lo que la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Citarabina (el registro sanitario solo repite el nombre del principio activo; no detalla la indicación) |
-| Nueva Indicación Predicha | Carcinoma pulmonar de células pequeñas |
-| Puntaje de Predicción TxGNN | 99.78% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 3 |
+| Indicación Original | CITARABINA |
+| Nueva Indicación Predicha | carcinoma pulmonar de células pequeñas (small cell lung carcinoma) |
+| Puntaje de Predicción TxGNN | 0,9978 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la citarabina es un análogo de nucleósido de pirimidina que inhibe la síntesis de ADN en células en fase S, y su eficacia está bien establecida en neoplasias hematológicas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la citarabina es un análogo nucleosídico de pirimidina que se incorpora al ADN durante la replicación e inhibe su síntesis en células en fase S. Es uno de los fármacos más eficaces contra la leucemia mieloide aguda del adulto.
 
-Mecanísticamente, un tumor de proliferación rápida como el carcinoma pulmonar de células pequeñas podría ser sensible, en principio, a un fármaco que bloquea la replicación del ADN. Esta es la base de la plausibilidad.
+Como el carcinoma pulmonar de células pequeñas es un tumor de proliferación muy rápida, en principio podría ser sensible a un agente de este tipo. Sin embargo, esto es solo una plausibilidad teórica.
 
-Sin embargo, la literatura recuperada trata casi por completo del cáncer pulmonar de células no pequeñas (por ejemplo, un ensayo fase II de 1990 con citarabina en dosis altas más cisplatino, con respuesta global de 14% y mielosupresión grado IV en 32%), de metástasis leptomeníngeas o de otros fármacos (pemetrexed, gemcitabina, topotecán, decitabina). No hay datos específicos de citarabina en el carcinoma pulmonar de células pequeñas. El puntaje elevado del modelo es una predicción computacional, no evidencia clínica directa.
-
----
+La literatura recuperada trata casi por completo del cáncer de pulmón de células no pequeñas, metástasis leptomeníngeas u otros fármacos (pemetrexed, gemcitabina, topotecán, decitabina). Un trabajo de 1987 sobre citarabina a dosis altas en cáncer pulmonar de células pequeñas aparece sin resumen disponible, por lo que no permite extraer conclusiones. Por ello el nivel de evidencia se fija en L5 y el puntaje alto del modelo no debe interpretarse como respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
-
-Se listan las publicaciones más cercanas al tema. Ninguna demuestra eficacia de la citarabina en el carcinoma pulmonar de células pequeñas.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | ECA fase II | Med Pediatr Oncol | Cisplatino-citarabina vs. cisplatino-vinblastina en 151 pacientes con cáncer pulmonar de células no pequeñas avanzado |
-| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Ensayo fase II | Cancer | Citarabina en dosis altas más cisplatino en 37 pacientes con células no pequeñas: respuesta global 14%, mielosupresión grado IV en 32% |
-| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Ensayo fase II | Tumori | Cisplatino, vindesina y citarabina en 32 pacientes con células no pequeñas avanzado |
-| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Estudio clínico | Cancer Treat Rep | Citarabina en dosis altas en cáncer pulmonar de células pequeñas (sin resumen disponible) |
-| [2820740](https://pubmed.ncbi.nlm.nih.gov/2820740/) | 1987 | Estudio piloto | Eur J Cancer Clin Oncol | Cisplatino y citarabina en cáncer pulmonar de células no pequeñas avanzado |
-| [9561978](https://pubmed.ncbi.nlm.nih.gov/9561978/) | 1998 | Estudio clínico | Arch Neurol | Terapia combinada en meningitis carcinomatosa por cáncer pulmonar de células no pequeñas |
-| [38377785](https://pubmed.ncbi.nlm.nih.gov/38377785/) | 2024 | Fase II | ESMO Open | Pemetrexed intratecal en metástasis leptomeníngeas de CPCNP (otro fármaco) |
-| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | Estudio in vitro | Cancer Chemother Pharmacol | Sensibilidad a doxorrubicina en líneas celulares de cáncer pulmonar de células pequeñas |
-| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Reporte de caso | Gan To Kagaku Ryoho | Carcinomatosis meníngea y carcinoma pulmonar de células pequeñas tratados con enfoque multidisciplinario |
-
----
+| [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Sin clasificar | Cancer Treat Rep | "Citarabina a dosis altas en cáncer pulmonar de células pequeñas"; sin resumen disponible |
+| [2156598](https://pubmed.ncbi.nlm.nih.gov/2156598/) | 1990 | Fase II | Cancer | Citarabina a dosis altas con cisplatino en cáncer de pulmón de células no pequeñas (37 pacientes); respuesta global 14 %, mielosupresión grado IV en 32 % |
+| [2158614](https://pubmed.ncbi.nlm.nih.gov/2158614/) | 1990 | Fase II aleatorizado | Med Pediatr Oncol | Cisplatino-citarabina frente a cisplatino-vinblastina en cáncer de pulmón de células no pequeñas avanzado (151 pacientes) |
+| [2157307](https://pubmed.ncbi.nlm.nih.gov/2157307/) | 1990 | Fase II | Tumori | Citarabina, cisplatino y vindesina en cáncer de pulmón de células no pequeñas avanzado |
+| [1360876](https://pubmed.ncbi.nlm.nih.gov/1360876/) | 1992 | Estudio in vitro | Cancer Chemother Pharmacol | Patrón de sensibilidad a doxorrubicina en líneas celulares de cáncer pulmonar de células pequeñas; no evalúa citarabina |
+| [28223673](https://pubmed.ncbi.nlm.nih.gov/28223673/) | 2017 | Reporte de caso | Gan To Kagaku Ryoho | Carcinomatosis meníngea en carcinoma pulmonar de células pequeñas tratada con enfoque multidisciplinario |
+| [38377785](https://pubmed.ncbi.nlm.nih.gov/38377785/) | 2024 | Fase II de brazo único | ESMO Open | Pemetrexed intratecal en metástasis leptomeníngeas de cáncer de pulmón de células no pequeñas; no evalúa citarabina |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|-----|
-| 20241746 | ALDACIT® 100 MG | Polvo liofilizado para reconstituir a solución inyectable | Citarabina | Cancelado |
-| 20116728 | ZABINA® | Solución inyectable | Citarabina | Cancelado |
-| 20145347 | ALDACIT® 100 MG/5 ML | Solución inyectable | Citarabina | Cancelado |
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20241746 | ALDACIT® 100 MG polvo liofilizado para reconstituir a solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | Citarabina |
+| 20116728 | ZABINA® | Solución inyectable | Citarabina |
+| 20145347 | ALDACIT® 100MG/5ML solución inyectable | Solución inyectable | Citarabina |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de nucleósido de pirimidina) |
-| Riesgo de Mielosupresión | Alto (en la literatura recuperada, mielosupresión grado IV en 32% y grado III en 14% con citarabina en dosis altas más cisplatino) |
-| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto (la literatura reporta náuseas y vómitos como toxicidad frecuente) |
-| Items de Monitoreo | Hemograma con diferencial y plaquetas, función hepática y renal |
+| Clasificación de Citotoxicidad | Citotóxico convencional (antimetabolito, análogo de pirimidina) |
+| Riesgo de Mielosupresión | Alto (en un estudio de fase II con citarabina a dosis altas y cisplatino se observó mielosupresión grado IV en 32 % de los pacientes) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto (en el estudio mencionado, náuseas y vómitos fueron toxicidades principales) |
+| Items de Monitoreo | Hemograma con diferencial, plaquetas, función hepática y renal |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): enfermedad renal, enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, anemia, leucopenia, neutropenia y agranulocitosis (incluidas formas congénitas), neuropatía periférica, edema pulmonar, enfermedad diarreica, enterocolitis necrosante e infecciones fúngicas.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones potenciales. Entre las clasificadas: naltrexona (moderada) y levofloxacino (menor). Las demás tienen nivel no determinado (por ejemplo, metformina, omeprazol, pantoprazol, morfina, prednisona, simvastatina, vancomicina).
+- **Interacciones Farmacológicas**: se registraron 100 interacciones en total. Entre las listadas, naltrexona (moderada) y levofloxacino (menor); el resto de las mostradas (por ejemplo manitol, pantoprazol, glimepirida, doxiciclina, metformina, omeprazol, vancomicina, prednisona, simvastatina) tiene nivel de gravedad no especificado.
 
-No se dispone de advertencias ni contraindicaciones del prospecto oficial; consultar el prospecto para la información de seguridad completa.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (99.78%), pero no hay ensayos clínicos ni literatura que evalúe la citarabina en el carcinoma pulmonar de células pequeñas; la evidencia disponible es indirecta (células no pequeñas, otros fármacos). Además, en Colombia solo existen registros cancelados y hay un perfil de toxicidad hematológica importante.
+No existen ensayos clínicos ni estudios publicados que evalúen directamente la citarabina en el carcinoma pulmonar de células pequeñas; el puntaje del modelo (0,9978) es una predicción computacional sin respaldo clínico directo, y el perfil de toxicidad hematológica es considerable.
 
 **Para avanzar se necesita:**
-- Revisión sistemática de la literatura específica de citarabina en carcinoma pulmonar de células pequeñas (incluido el estudio de 1987, PMID 3030547, cuyo resumen no está disponible).
-- Estudios preclínicos que respalden la sensibilidad de líneas de células pequeñas a la citarabina.
-- Datos del mecanismo de acción desde DrugBank.
-- Obtención y análisis del prospecto de INVIMA (advertencias y contraindicaciones).
-- Aclarar el estado regulatorio: no hay registros vigentes en Colombia.
-- Evaluar candidatas alternativas con mayor soporte: linfoma pulmonar primario (L4, con uso establecido de citarabina en linfoma del sistema nervioso central, evidencia indirecta) y neuroblastoma (L4, evidencia preclínica de sensibilidad a citarabina, marcado como pregunta de investigación).
+- Revisión sistemática de la literatura específica de citarabina en cáncer pulmonar de células pequeñas (incluido el trabajo de 1987 sin resumen)
+- Datos de mecanismo de acción y estudios preclínicos en modelos de este tumor
+- Información de seguridad del prospecto (advertencias y contraindicaciones)
+- Evaluación del beneficio frente a los tratamientos estándar actuales de esta enfermedad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

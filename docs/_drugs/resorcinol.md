@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **acné queloide**, pero a
 |------|------|
 | Indicación Original | Ácido salicílico, ácido benzoico, resorcinol (combinación) |
 | Nueva Indicación Predicha | Acné queloide |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La relación con la nueva indicación es plausible: el acné queloide es una enfermedad folicular e inflamatoria de la piel, y la acción queratolítica y antimicrobiana de resorcinol podría actuar sobre las lesiones foliculares. De las seis indicaciones predichas, esta es la más verosímil desde el punto de vista biológico.
 
-Sin embargo, el puntaje de 0.998 es solo una predicción computacional. No hay ensayos ni literatura que la validen, y la falta de datos del mecanismo limita el análisis. Las otras cinco predicciones (dermatomiositis amiopática, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis crónica atrófica e hidroa vacciniforme familiar) carecen de un vínculo mecanístico claro o creíble.
+Sin embargo, el puntaje de 0.9983 es solo una predicción computacional. No hay ensayos ni literatura que la validen, y la falta de datos del mecanismo limita el análisis. Las otras cinco predicciones (dermatomiositis amiopática, dermatomiositis neonatal, enfermedad pulmonar intersticial infantil asociada a enfermedad del tejido conectivo, acrodermatitis crónica atrófica e hidroa vacciniforme familiar) carecen de un vínculo mecanístico claro o creíble.
 
 ---
 
@@ -85,8 +85,8 @@ Los dos registros sanitarios están cancelados; no hay productos vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20052715 | Querafar® Solución Tópica | Solución tópica | Ácido salicílico, ácido benzoico, resorcinol (cancelado) |
-| 19977478 | Mesalit Solución Tópica | Solución tópica | Varias combinaciones (cancelado) |
+| 20052715 | Querafar® Solución Tópica | Solución tópica | Ácido salicílico, ácido benzoico, resorcinol (vigente) |
+| 19977478 | Mesalit Solución Tópica | Solución tópica | Varias combinaciones (vigente) |
 
 ---
 

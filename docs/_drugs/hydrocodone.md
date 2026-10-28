@@ -4,17 +4,17 @@ title: Hydrocodone
 parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Hydrocodone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | Paracetamol. Combinaciones con psicolépticos |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,9 +63,8 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 En este caso, la predicción **no resulta mecanísticamente razonable**. No se conoce ningún mecanismo por el cual un opioide trate una enfermedad estructural o inflamatoria de la cavidad nasal. La única publicación disponible describe necrosis de la cavidad nasal y la faringe por abuso intranasal de hidrocodona-paracetamol, es decir, evidencia de daño y no de beneficio.
 
-Lo más probable es que el puntaje alto del modelo refleje una asociación en el grafo de conocimiento entre el fármaco y la patología nasal (un vínculo de evento adverso) y no una relación terapéutica. La similitud con la indicación original no ha sido evaluada.
+El puntaje alto (0.9988) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La similitud con la indicación original no ha sido evaluada.
 
-Como segunda predicción, el modelo propuso **laringofaringitis aguda** (puntaje 99.86%, nivel L5). No tiene ensayos ni literatura. Solo existe una justificación débil e indirecta: como antitusivo y analgésico, la hidrocodona podría aliviar síntomas como la tos o el dolor de garganta, pero no trataría la causa (habitualmente infecciosa). Además, su perfil de riesgo opioide (depresión respiratoria, dependencia) es desfavorable para una condición autolimitada.
 
 ---
 

@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Fibrinógeno humano |
 | Nueva Indicación Predicha | Hemoglobinopatía |
-| Puntaje de Predicción TxGNN | 99.12% |
+| Puntaje de Predicción TxGNN | 0.9912 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la hemoglobinopatía es débil. Enfermedades como la drepanocitosis o la talasemia cursan con un estado de hipercoagulabilidad, hemólisis crónica y activación endotelial. Esto no respalda claramente el uso de un reponedor procoagulante, que incluso podría aumentar el riesgo trombótico en estos pacientes.
 
-Es probable que la predicción refleje cercanía en la red del grafo de conocimiento (nodos compartidos de coagulación o hematología) más que un efecto terapéutico real. Un uso de nicho, como el sangrado durante cirugía o trauma en un paciente con hemoglobinopatía, sería manejo de la coagulopatía y no tratamiento de la hemoglobinopatía. Los datos compilados no aportan evidencia para ninguno de estos escenarios.
+Es probable que la predicción, con una puntuación de 0.9912 del modelo TxGNN (aprendizaje profundo), refleje similitudes que el modelo aprendió entre enfermedades relacionadas (coagulación o hematología) y no evidencia biológica ni un efecto terapéutico real. Un uso de nicho, como el sangrado durante cirugía o trauma en un paciente con hemoglobinopatía, sería manejo de la coagulopatía y no tratamiento de la hemoglobinopatía. Los datos compilados no aportan evidencia para ninguno de estos escenarios.
 
 ---
 

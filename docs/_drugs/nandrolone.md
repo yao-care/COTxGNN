@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Nandrolone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 459
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L4). Indicación original: NANDROLONA"
@@ -14,7 +14,7 @@ predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia"
 # Nandrolone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad fibroquístic
 |------|------|
 | Indicación Original | NANDROLONA (el registro no detalla la indicación; en la literatura farmacológica se usa en anemias refractarias, cáncer de mama, angioedema hereditario, retraso del crecimiento y síndrome de Turner) |
 | Nueva Indicación Predicha | Enfermedad fibroquística de la mama |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Históricamente, los andrógenos se usaron en enfermedad benigna de la mama porque podrían reducir el estímulo hormonal ovárico e hipofisario sobre el tejido mamario. Esto da un vínculo plausible, pero no verificado. La única referencia clínica es un artículo de 1964 sobre tratamiento médico de displasias mamarias.
 
-Además, el producto está cancelado en el mercado y los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna. Las demás predicciones del modelo (displasia mamaria benigna, adenosis, absceso mamario, necrosis grasa, eritroblastosis fetal, enfermedad de la lactancia) tienen evidencia nula o un fundamento mecanístico débil, y varias parecen artefactos del grafo de conocimiento. Entre las candidatas, la **osteodistrofia renal** es biológicamente la más plausible (efecto anabólico sobre hueso y músculo, eritropoyesis), aunque sin evidencia en los datos compilados y con alertas de seguridad en enfermedad renal crónica.
+Además, el producto está cancelado en el mercado y los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna. Las demás predicciones del modelo (displasia mamaria benigna, adenosis, absceso mamario, necrosis grasa, eritroblastosis fetal, enfermedad de la lactancia) tienen evidencia nula o un fundamento mecanístico débil, y varias parecen artefactos del modelo TxGNN (aprendizaje profundo). Entre las candidatas, la **osteodistrofia renal** es biológicamente la más plausible (efecto anabólico sobre hueso y músculo, eritropoyesis), aunque sin evidencia en los datos compilados y con alertas de seguridad en enfermedad renal crónica.
 
 ---
 

@@ -4,7 +4,7 @@ title: Verapamil
 parent: Solo Predicción del Modelo (L5)
 nav_order: 657
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Trandolapril y bloqueadores de canales de calcio"
 monitor_inn: "verapamil"
@@ -14,7 +14,7 @@ predicted_indications: ["obsolete bundle branch block", "malignant hypertensive 
 # Verapamil
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ La predicción se basa únicamente en el puntaje del modelo y, según el anális
 |------|------|
 | Indicación Original | Trandolapril y bloqueadores de canales de calcio |
 | Nueva Indicación Predicha | Bloqueo de rama (término obsoleto) |
-| Puntaje de Predicción TxGNN | 99.62% |
+| Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -66,12 +66,12 @@ Por lo tanto, el alto puntaje de TxGNN no tiene sustento mecanístico claro. Deb
 
 | Rango | Indicación Predicha | Puntaje | Nivel | Comentario |
 |---|---|---|---|---|
-| 2 | Enfermedad renal hipertensiva maligna | 99.27% | L5 | Plausible como antihipertensivo, pero es una emergencia manejada normalmente con fármacos intravenosos; sin evidencia |
-| 3 | Hipertensión renovascular maligna | 99.27% | L5 | Dos artículos recuperados sin evidencia de eficacia del verapamilo |
-| 4 | Hipertensión pulmonar por enfermedad pulmonar o hipoxia | 99.26% | L4 | Solo estudios preclínicos indirectos; la clase puede empeorar el equilibrio V/Q |
-| 5 | Hipertensión pulmonar de mecanismo multifactorial incierto | 99.26% | L5 | No es un agente recomendado; sin evidencia |
-| 6 | Síndrome de Braddock | 99.15% | L5 | Sin vínculo mecanístico identificado |
-| 7 | Parálisis periódica con síndrome compartimental transitorio | 99.08% | L5 | Vínculo conceptual con canales de calcio, pero efecto no demostrado |
+| 2 | Enfermedad renal hipertensiva maligna | 0.9927 | L5 | Plausible como antihipertensivo, pero es una emergencia manejada normalmente con fármacos intravenosos; sin evidencia |
+| 3 | Hipertensión renovascular maligna | 0.9927 | L5 | Dos artículos recuperados sin evidencia de eficacia del verapamilo |
+| 4 | Hipertensión pulmonar por enfermedad pulmonar o hipoxia | 0.9926 | L4 | Solo estudios preclínicos indirectos; la clase puede empeorar el equilibrio V/Q |
+| 5 | Hipertensión pulmonar de mecanismo multifactorial incierto | 0.9926 | L5 | No es un agente recomendado; sin evidencia |
+| 6 | Síndrome de Braddock | 0.9915 | L5 | Sin vínculo mecanístico identificado |
+| 7 | Parálisis periódica con síndrome compartimental transitorio | 0.9908 | L5 | Vínculo conceptual con canales de calcio, pero efecto no demostrado |
 
 ## Evidencia de Ensayos Clínicos
 

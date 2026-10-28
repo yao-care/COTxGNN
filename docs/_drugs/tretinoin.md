@@ -4,17 +4,17 @@ title: Tretinoin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 643
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Tretinoin: nueva indicación predicha, Nódulos reumatoides (rheumatoid nodulosis) (nivel de evidencia L5). Indicación original: Tretinoína en combinaciones"
 monitor_inn: "Tretinoin"
-predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "spondyloarthropathy, susceptibility to", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
+predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
 ---
 
 # Tretinoin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Tretinoína (ácido retinoico todo-trans) se registró en Colombia en formulaciones tópicas (loción capilar, crema) y en cápsulas blandas (Vesanoid®), todas con registros hoy cancelados.
+Tretinoína (ácido retinoico todo-trans) se registró en Colombia en formulaciones tópicas (loción capilar, crema) y en cápsulas blandas (Vesanoid®). Actualmente está comercializada y cuenta con 3 registros vigentes.
 El modelo TxGNN predice que podría ser efectivo para **nódulos reumatoides (rheumatoid nodulosis)**, con una puntuación alta pero **sin ensayos clínicos y sin publicaciones relevantes** que respalden esta dirección.
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **nódulos reumatoides (rh
 |------|------|
 | Indicación Original | Tretinoína en combinaciones (registro INVIMA; el texto de indicación aprobado solo consigna el nombre de la sustancia o combinación) |
 | Nueva Indicación Predicha | Nódulos reumatoides (rheumatoid nodulosis) |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -83,9 +83,9 @@ Actualmente no hay literatura relacionada disponible para nódulos reumatoides.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19950832 | Folister Hair Lotion | Solución tópica | Tetrinoína, combinaciones | Cancelado |
-| 27207 | Vesanoid® 10 mg | Cápsula blanda | Tretinoína | Cancelado |
-| 19931579 | Tri-Luma® Crema | Crema tópica | Combinaciones de corticosteroides | Cancelado |
+| 19950832 | Folister Hair Lotion | Solución tópica | Tetrinoína, combinaciones | Vigente |
+| 27207 | Vesanoid® 10 mg | Cápsula blanda | Tretinoína | Vigente |
+| 19931579 | Tri-Luma® Crema | Crema tópica | Combinaciones de corticosteroides | Vigente |
 
 ---
 
@@ -122,7 +122,7 @@ La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clín
 - Obtener el prospecto oficial de INVIMA para completar la revisión de advertencias y contraindicaciones (brecha de datos bloqueante).
 - Completar los datos del mecanismo de acción desde DrugBank y analizar el vínculo mecanístico y la similitud con la indicación original.
 - Realizar una revisión sistemática de literatura preclínica sobre retinoides en inflamación reumatoide y nódulos reumatoides.
-- Evaluar la compatibilidad de vía de administración (actualmente pendiente) y la situación regulatoria, dado que todos los registros están cancelados.
+- Evaluar la compatibilidad de vía de administración (actualmente pendiente) y la situación regulatoria, dado que el medicamento está comercializado y cuenta con 3 registros vigentes.
 - Realizar una evaluación de seguridad específica, dado el perfil teratogénico de los retinoides sistémicos y la lista extensa de contraindicaciones del grafo de conocimiento.
 ## Descargo de responsabilidad
 

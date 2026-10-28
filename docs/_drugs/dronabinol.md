@@ -4,17 +4,17 @@ title: Dronabinol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 237
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada"
+indication_count: 9
 monitor_inn: "dronabinol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "migraine with or without aura, susceptibility to", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
+last_modified_at: 2026-10-27
+description: "Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DRONABINOL"
 ---
 
 # Dronabinol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,96 +33,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dronabinol: De Indicación No Especificada a Trastorno de Migraña
+## Dronabinol: cannabinoide agonista de CB1/CB2 → Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dronabinol (delta-9-tetrahidrocannabinol) contó en Colombia con registros sanitarios en cápsula blanda (marca LAXENOL), aunque el texto de indicación registrado solo menciona el nombre del principio activo y no una enfermedad concreta.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **1 ensayo clínico** de Fase 2 y **1 publicación** (una encuesta) que respaldan esta dirección de forma limitada.
-
----
+Dronabinol es un cannabinoide (delta-9-tetrahidrocannabinol) agonista de los receptores CB1/CB2.
+El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña (migraine disorder)**,
+con **1 ensayo clínico** de Fase 2 completado (sin resultados reportados) y **1 publicación** de baja calidad (una encuesta) que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "DRONABINOL") |
+| Indicación Original | DRONABINOL |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L3 (con evidencia débil: un ensayo de Fase 2 sin resultados disponibles y una encuesta) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Puntaje de Predicción TxGNN | 0,9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dronabinol es el delta-9-tetrahidrocannabinol (THC), un agonista de los receptores cannabinoides CB1 y CB2. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas para este informe, pero este perfil farmacológico es ampliamente conocido.
+Dronabinol (delta-9-THC) es un agonista de los receptores cannabinoides CB1 y CB2. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que lo siguiente se basa en el conocimiento farmacológico general.
 
-El sistema endocannabinoide modula la señalización nociceptiva en la vía trigeminovascular, la liberación de serotonina y la sensibilización central del dolor, procesos relevantes en la fisiopatología de la migraña. Esto es coherente con el puntaje alto del modelo, aunque se trata de una predicción computacional y no de una prueba clínica.
+El sistema endocannabinoide modula la señalización nociceptiva en la vía trigeminovascular, la liberación de serotonina y la sensibilización central del dolor, procesos relevantes en la fisiopatología de la migraña. Esto es coherente con el puntaje alto del modelo, pero se trata de una predicción computacional y no de una prueba clínica.
 
-Como la indicación original no está detallada en el registro colombiano, no es posible comparar directamente la enfermedad original con la nueva. La plausibilidad se apoya en la biología de los cannabinoides en el dolor y la regulación neurovascular.
-
----
+Es importante señalar que el único ensayo disponible tiene un título truncado, no reporta inscripción ni resultados, y no es posible confirmar con los datos disponibles que la población estudiada sea específicamente de migraña. Por ello, la evidencia se mantiene en el nivel más bajo.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00123201](https://clinicaltrials.gov/study/NCT00123201) | Fase 2 | Completado | No reportada | Estudio multicéntrico, aleatorizado, doble ciego y controlado con placebo de dronabinol en inhalador de dosis medida (MDI) para el tratamiento agudo de migraña de moderada a grave (2005-09 a 2007-03). No se dispone de resultados; la intervención, la población y los desenlaces requieren verificación. |
-
----
+| [NCT00123201](https://clinicaltrials.gov/study/NCT00123201) | Fase 2 | Completado | No reportada | Estudio multicéntrico, aleatorizado, doble ciego y controlado con placebo de dronabinol en inhalador de dosis medida para el tratamiento agudo de cefalea migrañosa moderada a grave (2005-2007). No hay resultados disponibles; falta verificar intervención, población y desenlaces. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10575286](https://pubmed.ncbi.nlm.nih.gov/10575286/) | 1999 | Encuesta | Forschende Komplementärmedizin | Encuesta estandarizada sobre el uso médico de productos de cannabis en países de habla alemana; evidencia indirecta y de bajo grado para migraña. |
-
-Para otras indicaciones relacionadas (cefalea en general y cefalea en racimos) hay una revisión narrativa ([28281107](https://pubmed.ncbi.nlm.nih.gov/28281107/), 2017, *Current Pain and Headache Reports*) y un reporte de caso ([19220500](https://pubmed.ncbi.nlm.nih.gov/19220500/), 2009, *Headache*) en que un paciente con cefalea en racimos refractaria abortó sus ataques con cannabis recreativo y luego con dronabinol. Son evidencias de bajo grado que no permiten afirmar eficacia.
-
----
+| [10575286](https://pubmed.ncbi.nlm.nih.gov/10575286/) | 1999 | Encuesta | Forschende Komplementärmedizin | Encuesta estandarizada sobre el uso médico de productos de cannabis en el área de habla alemana; no estudia la migraña de forma directa. |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19967436 | LAXENOL 2.5 MG | Cápsula blanda | DRONABINOL | Cancelado |
-| 19967437 | LAXENOL 5 MG | Cápsula blanda | DRONABINOL | Cancelado |
-| 20233134 | LAXENOL® 5 MG | Cápsula blanda | DRONABINOL | Cancelado |
-| 19967647 | LAXENOL 10 MG | Cápsula blanda | DRONABINOL | Cancelado |
-
-Todos los registros pertenecen a PROCAPS S.A. y actualmente ninguno está vigente.
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19967436 | LAXENOL 2.5 MG | Cápsula blanda | DRONABINOL |
+| 19967437 | LAXENOL 5 MG | Cápsula blanda | DRONABINOL |
+| 20233134 | LAXENOL® 5 MG | Cápsula blanda | DRONABINOL |
+| 19967647 | LAXENOL 10 MG | Cápsula blanda | DRONABINOL |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento del modelo asocia dronabinol con contraindicación en hipertensión, hipotensión, epilepsia, trastornos de ansiedad, trastornos neuróticos, trastorno distímico, trastorno bipolar, trastornos afectivos mayores, esquizofrenia y abuso o dependencia de sustancias.
-- **Interacciones farmacológicas:** se identificaron 357 interacciones potenciales. Destacan:
-  - **Mayor:** tramadol.
-  - **Moderadas (ejemplos):** fentanilo, codeína, dihidrocodeína, alfentanilo, etanol, gabapentina, fluvoxamina, clorfeniramina, butalbital, nifedipino, furosemida, fosfenitoína, acebutolol y aldesleukina. En general predomina el riesgo de depresión del sistema nervioso central y de efectos cardiovasculares aditivos.
-- Dronabinol puede causar taquicardia e hipotensión, aspecto de seguridad cardiovascular relevante.
-
-No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
-
----
+- **Interacciones Farmacológicas**: se registraron 357 interacciones. Entre las principales, con nivel Mayor: tramadol. Con nivel Moderado: fentanilo, codeína, dihidrocodeína, alfentanilo, etanol, butalbital, clorfeniramina, gabapentina, fluvoxamina, nifedipino y furosemida, entre otros. En general, conviene vigilar el efecto sedante aditivo con depresores del sistema nervioso central.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia clínica se limita a un ensayo de Fase 2 sin resultados disponibles y a literatura indirecta de bajo grado. Además, no hay registros vigentes en Colombia y falta la información de seguridad del prospecto, lo que impide avanzar a una evaluación de seguridad.
+El único ensayo clínico relacionado (Fase 2, completado) no tiene resultados ni datos de inscripción verificables, y la literatura citada no estudia directamente la migraña. Por ello la evidencia se limita a la predicción del modelo (L5).
 
 **Para avanzar se necesita:**
-- Obtener el prospecto oficial desde INVIMA (advertencias y contraindicaciones).
-- Confirmar los datos de mecanismo de acción en DrugBank.
-- Verificar la intervención, la población y los resultados de NCT00123201.
-- Revisar la viabilidad regulatoria, dado que todos los registros están cancelados y la vía de administración del ensayo (inhalador) difiere de la cápsula blanda.
-- Evaluar el riesgo de las contraindicaciones neuropsiquiátricas y cardiovasculares en pacientes con migraña.
+- Verificar la intervención, la población y los resultados del ensayo NCT00123201.
+- Obtener literatura que estudie directamente el efecto de dronabinol en migraña.
+- Datos detallados del mecanismo de acción.
+- Advertencias y contraindicaciones del prospecto aprobado por INVIMA, hoy no disponibles.
+- Evaluación de seguridad cardiovascular y neuropsiquiátrica antes de cualquier estudio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

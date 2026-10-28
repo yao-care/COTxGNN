@@ -50,10 +50,10 @@ La predicción se basa únicamente en el puntaje del modelo, sin estudios reales
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "UPADACITINIB") |
 | Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa con displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.61% |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,9 +64,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La nueva indicación predicha es un síndrome congénito raro que afecta el desarrollo ocular y esquelético. Estos trastornos suelen tener origen genético y no depender de la señalización inflamatoria mediada por JAK-STAT, que es el blanco de upadacitinib. No se puede establecer un vínculo mecanístico plausible a partir de los datos disponibles.
 
-El puntaje alto (0.996) probablemente refleja una asociación derivada de la topología del grafo de conocimiento y no evidencia de relevancia biológica. Esta predicción debe considerarse con mucha cautela.
+El puntaje alto (0.9961) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Esta predicción debe considerarse con mucha cautela.
 
-**Otra predicción del modelo:** el síndrome de braquidactilia-sindactilia (puntaje 99.58%, nivel L5, Hold). También es una malformación congénita de las extremidades, ligada a vías de desarrollo (por ejemplo HOX o BMP/GDF5) y no a la señalización inflamatoria JAK-STAT. Tampoco cuenta con ensayos clínicos ni literatura.
+**Otra predicción del modelo:** el síndrome de braquidactilia-sindactilia (puntaje 0.9958, nivel L5, Hold). También es una malformación congénita de las extremidades, ligada a vías de desarrollo (por ejemplo HOX o BMP/GDF5) y no a la señalización inflamatoria JAK-STAT. Tampoco cuenta con ensayos clínicos ni literatura.
 
 ---
 
@@ -86,8 +86,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20178268 | RINVOQ® | Tableta de liberación prolongada | UPADACITINIB | Cancelado |
-| 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Cancelado |
+| 20178268 | RINVOQ® | Tableta de liberación prolongada | UPADACITINIB | Vigente |
+| 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Vigente |
 
 Ambos registros pertenecen a ABBVIE S.A.S. y actualmente no hay registros vigentes.
 

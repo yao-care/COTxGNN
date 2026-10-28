@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **empiema pleural**, pero 
 |------|------|
 | Indicación Original | Mupirocina (el registro sanitario no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Empiema pleural |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,9 +63,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Estos microorganismos pueden causar empiema pleural, por lo que existe un vínculo antibacteriano teórico entre la indicación original y la nueva.
 
-Sin embargo, el vínculo no es clínicamente aplicable. La mupirocina se formula para uso tópico, tiene exposición sistémica insignificante y se metaboliza rápidamente a ácido mónico inactivo, por lo que no alcanzaría concentraciones terapéuticas en el espacio pleural. El empiema pleural se maneja con drenaje y antibióticos sistémicos. El puntaje de TxGNN (0.995) es solo una predicción computacional.
+Sin embargo, el vínculo no es clínicamente aplicable. La mupirocina se formula para uso tópico, tiene exposición sistémica insignificante y se metaboliza rápidamente a ácido mónico inactivo, por lo que no alcanzaría concentraciones terapéuticas en el espacio pleural. El empiema pleural se maneja con drenaje y antibióticos sistémicos. El puntaje de TxGNN (0.9949) es solo una predicción computacional.
 
-**Segunda predicción (referencia):** queratoconjuntivitis epitelial punteada (puntaje 99.10%, nivel L5, Hold). Su vínculo con la actividad antiestafilocócica es indirecto y solo aplicaría al subgrupo de origen bacteriano. El ungüento no está formulado ni aprobado para uso oftálmico, y sus excipientes (polietilenglicol) generan dudas de tolerabilidad ocular. Existen alternativas oftálmicas establecidas.
+**Segunda predicción (referencia):** queratoconjuntivitis epitelial punteada (puntaje 0.9910, nivel L5, Hold). Su vínculo con la actividad antiestafilocócica es indirecto y solo aplicaría al subgrupo de origen bacteriano. El ungüento no está formulado ni aprobado para uso oftálmico, y sus excipientes (polietilenglicol) generan dudas de tolerabilidad ocular. Existen alternativas oftálmicas establecidas.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19952603 | PRESIDERM® | Ungüento tópico | Mupirocina | Cancelado |
+| 19952603 | PRESIDERM® | Ungüento tópico | Mupirocina | Vigente |
 
 Fabricante: MEGALABS COLOMBIA S.A.S.
 

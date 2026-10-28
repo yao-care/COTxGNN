@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular 
 |------|------|
 | Indicación Original | AMIODARONA (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Taquicardia ventricular polimórfica catecolaminérgica (CPVT) |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (los 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 Sin embargo, la CPVT se origina por una fuga de calcio mediada por mutaciones en RYR2 o CASQ2. El tratamiento de primera línea son los betabloqueadores junto con flecainida. La literatura recuperada consiste en casos clínicos, series pequeñas y revisiones generales, sin datos controlados que respalden específicamente a la amiodarona. El vínculo mecanístico es, por tanto, plausible pero débil.
 
 **Otras indicaciones predichas (para contexto):** el modelo también generó otras predicciones con mayor respaldo o con evidencia nula:
-- **Taquicardia ventricular** (puntaje 99.64%, nivel L1, Proceed with Guardrails): la evidencia es sólida (AVID, ALPS, PROCAMIO), pero es una indicación ya establecida clínicamente, más una confirmación que un reposicionamiento propiamente dicho.
+- **Taquicardia ventricular** (puntaje 0.9964, nivel L1, Proceed with Guardrails): la evidencia es sólida (AVID, ALPS, PROCAMIO), pero es una indicación ya establecida clínicamente, más una confirmación que un reposicionamiento propiamente dicho.
 - **Taquicardia ventricular incesante infantil** (99.65%, nivel L2): existe un ensayo aleatorizado doble ciego de amiodarona intravenosa en taquiarritmias incesantes pediátricas (PMID 16316969), aunque con población mixta.
 - Artritis reumatoide, gota, tricotilomanía y otras (nivel L5): sin respaldo y sin vínculo mecanístico plausible.
 
@@ -96,10 +96,10 @@ Actualmente no hay ensayos clínicos relacionados registrados para CPVT.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 52270 | CORDARONE® 200 MG TABLETA | Tableta | AMIODARONA | Cancelado |
-| 45892 | AMIODARONA 200MG TABLETA | Tableta | AMIODARONA | Cancelado |
-| 52271 | CORDARONE INYECTABLE | Solución inyectable | AMIODARONA | Cancelado |
-| 19992832 | AMIODARONA CLORHIDRATO 150 MG/3ML | Solución inyectable | AMIODARONA | Cancelado |
+| 52270 | CORDARONE® 200 MG TABLETA | Tableta | AMIODARONA | Vigente |
+| 45892 | AMIODARONA 200MG TABLETA | Tableta | AMIODARONA | Vigente |
+| 52271 | CORDARONE INYECTABLE | Solución inyectable | AMIODARONA | Vigente |
+| 19992832 | AMIODARONA CLORHIDRATO 150 MG/3ML | Solución inyectable | AMIODARONA | Vigente |
 
 Los cuatro registros están cancelados; no hay registros vigentes en los datos compilados.
 
@@ -126,7 +126,7 @@ Para CPVT solo hay predicción del modelo y literatura de baja calidad (casos cl
 - Descargar y analizar el prospecto en INVIMA para obtener advertencias y contraindicaciones oficiales.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Revisar estudios comparativos de amiodarona frente a betabloqueadores y flecainida en CPVT.
-- Verificar la situación regulatoria actual: ningún registro vigente en Colombia.
+- Verificar la situación regulatoria actual: el medicamento está comercializado, con 4 registros vigentes en Colombia.
 - Si se busca una alternativa con mayor respaldo, evaluar la indicación de **taquicardia ventricular** (L1, Proceed with Guardrails), considerando que ya es una indicación clínica establecida y requeriría barreras de seguridad: monitoreo tiroideo, hepático, pulmonar y del QT, además de revisión de interacciones.
 ## Descargo de responsabilidad
 

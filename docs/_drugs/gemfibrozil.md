@@ -4,17 +4,17 @@ title: Gemfibrozil
 parent: Evidencia Moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: GEMFIBROZIL"
 monitor_inn: "gemfibrozil"
-predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "obsolete familial combined hyperlipidemia", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
+predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 ---
 
 # Gemfibrozil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ Gemfibrozilo es un fibrato (agonista de PPAR-alfa) registrado en Colombia bajo e
 |------|------|
 | Indicación Original | GEMFIBROZIL (el registro sanitario no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 

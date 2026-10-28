@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clioquinol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 166
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Clioquinol: nueva indicación predicha, Candidiasis cutánea (nivel de evidencia L4). Indicación original: Betametasona y antibióticos"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "CLIOQUINOL"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
+last_modified_at: 2026-10-27
+description: "Clioquinol: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
 ---
 
 # Clioquinol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,33 +33,33 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Clioquinol: De Betametasona y Antibióticos a Candidiasis Cutánea
+## Clioquinol: antifúngico y antibacteriano tópico quelante de metales → enfermedad infecciosa ectotrix (ectothrix infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Clioquinol es un compuesto de la familia de las 8-hidroxiquinolinas halogenadas, registrado en Colombia únicamente en cremas tópicas asociadas a betametasona y antibióticos.
-El modelo TxGNN predice que podría ser efectivo para **candidiasis cutánea**, pero actualmente solo cuenta con **0 ensayos clínicos** y **1 publicación** de relevancia indirecta que respaldan esta dirección.
+Clioquinol es un agente tópico con actividad antifúngica y antibacteriana basada en la quelación de metales, presente en cremas dermatológicas en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **enfermedad infecciosa ectotrix (ectothrix infectious disease)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Betametasona y antibióticos |
-| Nueva Indicación Predicha | Candidiasis cutánea |
-| Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Indicación Original | BETAMETASONA Y ANTIBIOTICOS |
+| Nueva Indicación Predicha | Enfermedad infecciosa ectotrix (ectothrix infectious disease) |
+| Puntaje de Predicción TxGNN | 0,9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen información detallada sobre el mecanismo de acción. Según la información conocida, clioquinol es una 8-hidroxiquinolina halogenada con actividad antifúngica y antibacteriana, que se cree actúa quelando iones metálicos (cobre, zinc, hierro) esenciales para las enzimas y el crecimiento de los hongos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, clioquinol es un compuesto con actividad antifúngica y antibacteriana asociada a la quelación de metales, lo que podría explicar un efecto sobre hongos dermatofitos.
 
-En Colombia el clioquinol se comercializó en cremas tópicas combinadas con betametasona y antibióticos, es decir, ya se usaba sobre la piel como componente antimicrobiano. Una infección cutánea por *Candida* es un escenario cercano a ese uso, lo que hace plausible la predicción del modelo desde el punto de vista mecanístico.
+La infección ectotrix es una infección del pelo causada por dermatofitos (por ejemplo, *Microsporum* y *Trichophyton*), en la que el hongo crece sobre la superficie externa del tallo piloso. Mecanísticamente, una actividad antifúngica de amplio espectro sería compatible con esta condición, aunque el vínculo es plausible pero no verificado.
 
-Sin embargo, la plausibilidad es solo indirecta. La única publicación recuperada para esta indicación trata de la prevención de infección ocupacional por *Candida albicans* (con jabones), no de clioquinol en pacientes. El puntaje alto de TxGNN es una predicción del modelo y no está respaldado por datos clínicos directos.
+Hay una limitación importante: los agentes tópicos suelen penetrar poco en el tallo piloso, y las infecciones ectotrix normalmente requieren tratamiento sistémico. Esto reduce la verosimilitud práctica de usar una crema tópica como clioquinol para esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -67,43 +67,37 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [2978600](https://pubmed.ncbi.nlm.nih.gov/2978600/) | 1988 | Sin clasificar (probable estudio de prevención/salud ocupacional) | Przeglad dermatologiczny | Estudio in vitro de aditivos para jabones de tocador frente a cepas de *Candida albicans* aisladas de pacientes; relevancia indirecta para clioquinol |
-
-Para otras indicaciones predichas, se identificó un estudio preclínico: [33772895](https://pubmed.ncbi.nlm.nih.gov/33772895/) (2021, *Mycoses*), que evaluó clioquinol combinado con ciclopirox y terbinafina en modelos alternativos de dermatofitosis (actividad antifúngica y potencial irritante). Respalda de forma indirecta la actividad antifúngica, sin datos de eficacia en humanos.
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+Según los datos compilados para este informe, el estado de mercado es comercializado. Los registros sanitarios identificados corresponden a cremas tópicas; la lista puede ser parcial.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19972065 | BETAGEN CREMA TÓPICA | Crema tópica | Betametasona y antibióticos |
-| 19972066 | DERMA - 3 CREMA | Crema tópica | Betametasona y antibióticos |
-| 19994745 | DERMOCUAD CREMA | Crema tópica | Betametasona y antibióticos |
-
-Los tres registros están cancelados; actualmente no hay registros vigentes.
+| 19972065 | BETAGEN CREMA TOPICA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
+| 19972066 | DERMA - 3CREMA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
+| 19994745 | DERMOCUAD CREMA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** insuficiencia adrenocortical, enfermedad de Addison, atrofia cutánea, telangiectasia, enfermedad capilar, telangiectasia hemorrágica hereditaria, enfermedad vascular periférica, claudicación vascular intermitente y enfermedad arterial periférica. Varias de ellas probablemente se relacionan con el corticoide presente en las combinaciones (betametasona) más que con el clioquinol por sí solo, por lo que deben interpretarse con cautela.
-- **Interacciones farmacológicas:** no se encontraron interacciones registradas en la consulta realizada.
+- **Condiciones registradas como contraindicadas para este fármaco en los datos compilados** (no provienen del texto del prospecto): insuficiencia adrenocortical, enfermedad de Addison, atrofia cutánea, telangiectasia, enfermedad capilar, telangiectasia hemorrágica hereditaria, enfermedad vascular periférica, claudicación vascular intermitente y enfermedad arterial periférica.
+- **Interacciones Farmacológicas**: no se encontraron interacciones en la consulta realizada.
 
-Consultar el prospecto para información de seguridad adicional (advertencias y contraindicaciones oficiales).
+Consultar el prospecto para informacion de seguridad adicional.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para candidiasis cutánea tiene un puntaje alto, pero no hay ensayos clínicos y la única publicación es de relevancia indirecta (nivel L4). Además, no hay registros vigentes en Colombia y falta la información de seguridad del prospecto.
+La predicción (puntaje 0,9926) no cuenta con ensayos clínicos ni literatura, por lo que el nivel de evidencia es L5. Además, la baja penetración de los agentes tópicos en el tallo piloso y el uso habitual de terapia sistémica limitan la plausibilidad de esta indicación.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones) para poder realizar el tamizaje de seguridad.
-- Consultar los datos del mecanismo de acción en DrugBank.
-- Buscar evidencia directa de clioquinol en candidiasis cutánea (estudios in vitro con *Candida* y ensayos clínicos).
-- Aclarar la situación regulatoria: los registros están cancelados, por lo que se requeriría un nuevo registro o una nueva formulación.
-- Evaluar la seguridad histórica del clioquinol, en particular con uso prolongado o extenso, y la compatibilidad de la vía tópica con la indicación.
-- Las demás indicaciones predichas (infecciones dermatofíticas del pelo, granuloma de Majocchi, tinea profunda) tienen solo soporte del modelo (L5) y suelen requerir tratamiento sistémico, por lo que son menos prioritarias; la micosis superficial (L4) es la alternativa con algo de apoyo preclínico.
+- Datos del mecanismo de acción confirmados
+- Estudios in vitro de actividad frente a dermatofitos causantes de infección ectotrix
+- Evaluación de la compatibilidad de la vía de administración tópica con la infección del tallo piloso
+- Información de seguridad del prospecto (advertencias y contraindicaciones)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

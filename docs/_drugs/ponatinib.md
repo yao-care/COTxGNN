@@ -50,10 +50,10 @@ Como alternativa, la segunda predicción (liposarcoma) cuenta con **1 publicaci�
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "PONATINIB") |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.04% |
+| Puntaje de Predicción TxGNN | 0.9904 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -66,7 +66,7 @@ La relación con la indicación original no puede evaluarse con precisión, porq
 
 Además, la toxicidad vascular conocida de ponatinib (eventos oclusivos arteriales) y el carácter benigno de la fibromatosis gingival hacen que el balance riesgo-beneficio sea desfavorable sin datos de respaldo.
 
-**Predicción secundaria (liposarcoma, puntaje 99.00%, nivel L4):** una publicación preclínica de 2017 (PMID 29132397) realizó perfiles de quinasas con ARNi y cribado de fármacos en liposarcoma e identificó dianas farmacológicas. Con la información disponible no se confirma que ponatinib estuviera entre los agentes eficaces; esto requiere verificación con el texto completo. Ponatinib inhibe FGFR, PDGFR, KIT, SRC y RET, que son dependencias plausibles en sarcomas.
+**Predicción secundaria (liposarcoma, puntaje 0.9900, nivel L4):** una publicación preclínica de 2017 (PMID 29132397) realizó perfiles de quinasas con ARNi y cribado de fármacos en liposarcoma e identificó dianas farmacológicas. Con la información disponible no se confirma que ponatinib estuviera entre los agentes eficaces; esto requiere verificación con el texto completo. Ponatinib inhibe FGFR, PDGFR, KIT, SRC y RET, que son dependencias plausibles en sarcomas.
 
 ---
 
@@ -92,7 +92,7 @@ Para la predicción secundaria (liposarcoma):
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20129443 | ICLUSIG® 15 MG TABLETAS RECUBIERTAS | Tableta recubierta | PONATINIB | Cancelado |
+| 20129443 | ICLUSIG® 15 MG TABLETAS RECUBIERTAS | Tableta recubierta | PONATINIB | Vigente |
 
 ---
 

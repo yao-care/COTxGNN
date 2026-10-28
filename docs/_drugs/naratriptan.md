@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Naratriptan
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 462
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Naratriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: NARATRIPTAN"
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
+description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: NARATRIPTAN"
 ---
 
 # Naratriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Naratriptán: De Migraña (indicación general) a Migraña con Aura del Tronco Encefálico
+## Naratriptan: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Naratriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente registrado en Colombia como tratamiento de la migraña (el registro sanitario lista únicamente el nombre del principio activo).
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, pero no hay **ningún ensayo clínico** registrado para esta indicación y las **20 publicaciones** recopiladas tratan sobre la migraña en general, no sobre este subtipo específico.
 
 ---
 
@@ -47,11 +46,11 @@ El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tr
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | NARATRIPTAN (el registro no detalla el texto de la indicación; corresponde al tratamiento de la migraña) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | NARATRIPTAN |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9974 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -124,7 +123,7 @@ Para advertencias y contraindicaciones del texto oficial, consultar el prospecto
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo es plausible y el puntaje del modelo es muy alto, pero no existe evidencia específica para migraña con aura del tronco encefálico, y los triptanes se usan con cautela en auras con síntomas de tronco encefálico o hemipléjicos. Además, el único registro sanitario en Colombia está cancelado y la información del prospecto no está disponible.
+Además, el único registro sanitario en Colombia está cancelado y la información del prospecto no está disponible.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues este vacío bloquea el tamizaje de seguridad.
@@ -133,7 +132,7 @@ El mecanismo es plausible y el puntaje del modelo es muy alto, pero no existe ev
 - Evaluar con expertos en cefaleas si la indicación aporta valor frente al uso actual en migraña.
 - Aclarar la situación regulatoria local, dado que no hay registro vigente.
 
-**Nota sobre las otras predicciones:** *atrofodermia vermiculada* (99.74%) y *uleritema ofriógenes* (99.47%) no tienen ensayos clínicos ni literatura, y no se identificó un vínculo mecanístico plausible. Se trata de predicciones del modelo (nivel L5, decisión Hold), probablemente artefactos de proximidad en el grafo de conocimiento.
+**Nota sobre las otras predicciones:** *atrofodermia vermiculada* (0.9974) y *uleritema ofriógenes* (0.9947) no tienen ensayos clínicos ni literatura, y no se identificó un vínculo mecanístico plausible. Se trata de predicciones del modelo (nivel L5, decisión Hold); sus puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome mielodispl�
 |------|------|
 | Indicación Original | No especificada en los registros (el texto registrado solo dice "BUSULFAN") |
 | Nueva Indicación Predicha | Síndrome mielodisplásico |
-| Puntaje de Predicción TxGNN | 99.62% |
+| Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -107,10 +107,10 @@ Se muestran los ensayos más relevantes (de un total superior a 40 registrados p
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20158009 | Busulfan solución inyectable 60 mg/10 mL | Solución inyectable | BUSULFAN (cancelado) |
-| 20254653 | Busadvan | Solución inyectable | BUSULFAN (cancelado) |
-| 20152745 | Alsulfan® | Solución concentrada para infusión | BUSULFAN (cancelado) |
-| 20205961 | Buslera® | Solución inyectable | BUSULFAN (cancelado) |
+| 20158009 | Busulfan solución inyectable 60 mg/10 mL | Solución inyectable | BUSULFAN (vigente) |
+| 20254653 | Busadvan | Solución inyectable | BUSULFAN (vigente) |
+| 20152745 | Alsulfan® | Solución concentrada para infusión | BUSULFAN (vigente) |
+| 20205961 | Buslera® | Solución inyectable | BUSULFAN (vigente) |
 
 Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia.
 

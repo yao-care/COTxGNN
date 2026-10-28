@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "MINOCICLINA") |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La queratoconjuntivitis epitelial punteada implica daño e inflamación del epitelio corneal y conjuntival. Un fármaco que reduce la inflamación y la actividad de las MMP podría, en teoría, atenuar ese daño. Este razonamiento es solo una hipótesis: no se verificó con ningún ensayo ni publicación en los datos compilados para este informe.
 
-El puntaje del modelo es muy alto (99.63%), pero es una predicción computacional, no evidencia clínica. También se predijo **queraitis por exposición** (puntaje 99.20%), con el mismo nivel de evidencia (L5) y la misma lógica mecanística hipotética.
+El puntaje del modelo es muy alto (0.9963), pero es una predicción computacional, no evidencia clínica. También se predijo **queraitis por exposición** (puntaje 0.9920), con el mismo nivel de evidencia (L5) y la misma lógica mecanística hipotética.
 
 ---
 

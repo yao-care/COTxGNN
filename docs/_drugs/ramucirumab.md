@@ -50,10 +50,10 @@ Actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilado
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "RAMUCIRUMAB") |
 | Nueva Indicación Predicha | Adenocarcinoma del ligamento uterino |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -68,15 +68,15 @@ Los adenocarcinomas de origen ginecológico pueden depender de la señalización
 
 | Posición | Enfermedad predicha | Puntaje TxGNN |
 |------|------|------|
-| 2 | Carcinoma endocervical | 99.95% |
-| 3 | Carcinoma adenoide quístico del cuello uterino | 99.95% |
-| 4 | Adenocarcinoma seroso del ligamento uterino | 99.94% |
-| 5 | Adenocarcinoma mucinoso cervical, variante de células en anillo de sello | 99.94% |
-| 6 | Carcinoma adenoescamoso cervical, variante de células vítreas | 99.94% |
-| 7 | Adenocarcinoma endometrioide del ligamento uterino | 99.94% |
-| 8 | Adenocarcinoma de células claras del ligamento uterino | 99.94% |
-| 9 | Adenocarcinoma mucinoso del ligamento uterino | 99.94% |
-| 10 | Adenocarcinoma mucinoso cervical, variante intestinal | 99.94% |
+| 2 | Carcinoma endocervical | 0.9995 |
+| 3 | Carcinoma adenoide quístico del cuello uterino | 0.9995 |
+| 4 | Adenocarcinoma seroso del ligamento uterino | 0.9994 |
+| 5 | Adenocarcinoma mucinoso cervical, variante de células en anillo de sello | 0.9994 |
+| 6 | Carcinoma adenoescamoso cervical, variante de células vítreas | 0.9994 |
+| 7 | Adenocarcinoma endometrioide del ligamento uterino | 0.9994 |
+| 8 | Adenocarcinoma de células claras del ligamento uterino | 0.9994 |
+| 9 | Adenocarcinoma mucinoso del ligamento uterino | 0.9994 |
+| 10 | Adenocarcinoma mucinoso cervical, variante intestinal | 0.9994 |
 
 Todas comparten la misma limitación: justificación mecanística teórica sin estudios de respaldo en los datos compilados.
 

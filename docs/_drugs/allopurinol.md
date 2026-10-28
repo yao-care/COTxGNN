@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Allopurinol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 38
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Alopurinol"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrh
 # Allopurinol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ La predicción es, por ahora, una señal del modelo sin respaldo clínico.
 |------|------|
 | Indicación Original | Alopurinol (el registro no detalla la indicación; el uso conocido es hiperuricemia y gota crónica) |
 | Nueva Indicación Predicha | Porfiria hepática |
-| Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -87,9 +87,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 11415 | ALOPURINOL 300 MG (Memphis Products S.A.) | Tableta | Alopurinol (estado: cancelado) |
-| 18777 | UROCUAD® Tabletas 100 mg (Teofarma S.R.L.) | Tableta | Alopurinol (estado: cancelado) |
-| 19966240 | ALLO Tableta (Laboratorios Neo Ltda.) | Tableta | Alopurinol (estado: cancelado) |
+| 11415 | ALOPURINOL 300 MG (Memphis Products S.A.) | Tableta | Alopurinol (estado: vigente) |
+| 18777 | UROCUAD® Tabletas 100 mg (Teofarma S.R.L.) | Tableta | Alopurinol (estado: vigente) |
+| 19966240 | ALLO Tableta (Laboratorios Neo Ltda.) | Tableta | Alopurinol (estado: vigente) |
 
 ---
 
@@ -108,7 +108,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en porfiria; el puntaje alto de TxGNN refleja una predicción de red. Además, existe una posible señal de seguridad (efecto porfirinogénico en animales) y todos los registros sanitarios en Colombia están cancelados.
+No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en porfiria; el puntaje alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, existe una posible señal de seguridad (efecto porfirinogénico en animales) y en Colombia el medicamento está comercializado, con 3 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre alopurinol y porfirias (seguridad porfirinogénica, hemo oxigenasa, citocromo P450).

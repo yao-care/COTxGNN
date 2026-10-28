@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **lepra**, con **0 ensayos
 |------|------|
 | Indicación Original | Rifapentin (texto del registro INVIMA, sin mayor detalle) |
 | Nueva Indicación Predicha | Lepra |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

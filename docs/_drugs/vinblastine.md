@@ -50,10 +50,10 @@ con **0 ensayos clínicos** registrados y **7 publicaciones** (en su mayoría re
 |------|------|
 | Indicación Original | Vinblastina (el registro sanitario solo indica el nombre del principio activo, sin texto detallado de indicación) |
 | Nueva Indicación Predicha | Rabdomiosarcoma |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

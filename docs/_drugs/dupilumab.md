@@ -4,7 +4,7 @@ title: Dupilumab
 parent: Evidencia Moderada (L3-L4)
 nav_order: 241
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo indica \"DUPILU…"
 monitor_inn: "DUPILUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neon
 # Dupilumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero la ev
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "DUPILUMAB") |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -131,7 +131,7 @@ No hay ensayos clínicos que evalúen dupilumab en bronquitis. El único ensayo 
 
 ---
 
-**Nota sobre otras predicciones:** la segunda predicción del modelo, dermatitis (puntaje 99.71%, nivel L1, "Proceed with Guardrails"), corresponde a la dermatitis atópica, que ya es una indicación aprobada de dupilumab. Por lo tanto, valida el modelo pero no constituye un reposicionamiento genuino. Las demás predicciones (queloide acneiforme, exantema, dermatomiositis, entre otras) tienen evidencia nula o muy limitada (niveles L3 a L5) y se recomienda mantenerlas en espera.
+**Nota sobre otras predicciones:** las predicciones del modelo (queloide acneiforme, exantema, dermatomiositis, entre otras) tienen evidencia nula o muy limitada (niveles L3 a L5) y se recomienda mantenerlas en espera.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

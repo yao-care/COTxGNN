@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Benzidamina (el registro sanitario solo indica el nombre del principio activo, sin detalle de indicación) |
 | Nueva Indicación Predicha | Hiperplasia prostática benigna |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Eculizumab es un anticuerpo monoclonal inhibidor del complemento (C5). En el registro sanitario colombiano figura solo con el nombre del principio activo, sin una indicación detallada.
-El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica (neutropenia cíclica)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción basada en grafos de conocimiento.
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **hematopoyesis cíclica**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción del modelo.
 
 ---
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica (
 |------|------|
 | Indicación Original | ECULIZUMAB (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Hematopoyesis cíclica |
-| Puntaje de Prediccion TxGNN | 99.97% |
+| Puntaje de Prediccion TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Numero de Registros Sanitarios | 3 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Numero de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **hematopoyesis cíclica (
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, eculizumab es un anticuerpo monoclonal humanizado que inhibe la proteína C5 del complemento y bloquea la cascada terminal del complemento. Su eficacia está documentada en enfermedades mediadas por complemento, como la hemoglobinuria paroxística nocturna (HPN), el síndrome hemolítico urémico atípico (SHUa) y la miastenia gravis.
 
-La neutropenia cíclica, en cambio, se debe principalmente a mutaciones en el gen *ELANE* y no es una enfermedad mediada por complemento. Por ello, **no existe una justificación mecanística clara** para inhibir C5 en esta condición. El puntaje alto (99.97%) refleja una asociación dentro del grafo de conocimiento, no evidencia biológica ni clínica.
+La neutropenia cíclica, en cambio, se debe principalmente a mutaciones en el gen *ELANE* y no es una enfermedad mediada por complemento. Por ello, **no existe una justificación mecanística clara** para inhibir C5 en esta condición. El puntaje alto (0.9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
-Las otras nueve predicciones principales (distintas formas de neutropenia congénita, neutropenia idiopática del adulto, deficiencia de p14 y trastorno de liberación plaquetaria) tienen puntajes similares (99.94%–99.96%) y presentan la misma falta de plausibilidad mecanística.
+Las otras nueve predicciones principales (distintas formas de neutropenia congénita, neutropenia idiopática del adulto, deficiencia de p14 y trastorno de liberación plaquetaria) tienen puntajes similares (0.9994–0.9996) y presentan la misma falta de plausibilidad mecanística.
 
 ---
 
@@ -85,9 +85,9 @@ Para otras predicciones del modelo se recuperaron publicaciones, pero correspond
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20164753 | ELIZARIA® 10 MG/ML | Solución concentrada para infusión | ECULIZUMAB | Cancelado |
-| 20254329 | BKEMV® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Cancelado |
-| 20028870 | SOLIRIS® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Cancelado |
+| 20164753 | ELIZARIA® 10 MG/ML | Solución concentrada para infusión | ECULIZUMAB | Vigente |
+| 20254329 | BKEMV® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Vigente |
+| 20028870 | SOLIRIS® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Vigente |
 
 ---
 
@@ -105,14 +105,14 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el grafo de conocimiento (L5), sin ensayos ni literatura directa. La neutropenia cíclica no es una enfermedad mediada por complemento, y el riesgo de infección por la inhibición de C5 en pacientes neutropénicos es un problema de seguridad importante. Además, los tres registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura directa. La neutropenia cíclica no es una enfermedad mediada por complemento, y el riesgo de infección por la inhibición de C5 en pacientes neutropénicos es un problema de seguridad importante. Además, los tres registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que vincule la inhibición de C5 con la neutropenia cíclica (hoy inexistente)
 - Revisión del prospecto de INVIMA para completar advertencias y contraindicaciones
 - Confirmación del mecanismo de acción desde fuentes como DrugBank
 - Estudios preclínicos que respalden la plausibilidad biológica antes de considerar ensayos clínicos
-- Aclarar la situación regulatoria en Colombia (todos los registros cancelados)
+- Aclarar la situación regulatoria en Colombia (3 de 3 registros vigentes)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

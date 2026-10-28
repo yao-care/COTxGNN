@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulfadiazine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 595
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: SULFADIAZINA"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivi
 # Sulfadiazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La evidencia directa para esta nueva indicación es muy limitada.
 |------|------|
 | Indicación Original | SULFADIAZINA (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.39% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Puntaje de Predicción TxGNN | 0.9939 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

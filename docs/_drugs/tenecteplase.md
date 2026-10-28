@@ -4,17 +4,17 @@ title: Tenecteplase
 parent: Solo Predicción del Modelo (L5)
 nav_order: 611
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Tenecteplase: nueva indicación predicha, Infarto de miocardio posteroinferior (nivel de evidencia L5). Indicación original: TENECTEPLASA"
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
+description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). Indicación original: TENECTEPLASA"
 ---
 
 # Tenecteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tenecteplasa: De Tenecteplasa (indicación sin detallar en el registro) a Infarto de Miocardio Posteroinferior
+## Tenecteplase: Congenital coronary artery anomaly
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | TENECTEPLASA (el registro no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Infarto de miocardio posteroinferior |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Indicación Original | TENECTEPLASA |
+| Nueva Indicación Predicha | Congenital coronary artery anomaly |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,16 +63,13 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El infarto posteroinferior es un subtipo anatómico del infarto de miocardio. El uso establecido de tenecteplasa en infarto con elevación del ST es general y no específico de un subtipo. Por ello, esta predicción debe entenderse como un subconjunto de una indicación ya existente, y no como un reposicionamiento realmente novedoso.
 
-El puntaje de 99.87% es solo una predicción del modelo. No hay ensayos ni literatura específica para este subtipo que lo confirmen.
 
 ### Otras indicaciones predichas (referencia)
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
 |------|------|------|------|
-| Infarto de miocardio posterolateral | 99.87% | L5 | Mismo mecanismo; probable subconjunto del infarto con elevación del ST |
-| Infarto de miocardio septal | 99.85% | L4 | Solo literatura indirecta (embolia pulmonar, casos clínicos) |
-| Estenosis coronaria | 99.53% | L3 | Estudios pequeños de tenecteplasa intracoronaria; señal de uso adyuvante en enfermedad coronaria trombótica |
-| Anomalía coronaria congénita y otras (deleción 16p, talasemia beta, deficiencias enzimáticas eritrocitarias) | 99.20%–99.61% | L5 | Sin vínculo mecanístico plausible; probables artefactos del grafo de conocimiento |
+| Estenosis coronaria | 0.9953 | L5 | Estudios pequeños de tenecteplasa intracoronaria; señal de uso adyuvante en enfermedad coronaria trombótica |
+| Anomalía coronaria congénita y otras (deleción 16p, talasemia beta, deficiencias enzimáticas eritrocitarias) | 0.9920–0.9961 | L5 | Sin vínculo mecanístico plausible; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
 
 ---
 
@@ -92,7 +89,7 @@ Actualmente no hay literatura relacionada disponible para infarto de miocardio p
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19932170 | Metalyse® 10.000 U (50 mg) | Polvo liofilizado para reconstituir a solución inyectable | TENECTEPLASA | Cancelado |
+| 19932170 | Metalyse® 10.000 U (50 mg) | Polvo liofilizado para reconstituir a solución inyectable | TENECTEPLASA | Vigente |
 
 Fabricante: Boehringer Ingelheim International GmbH.
 

@@ -6,7 +6,7 @@ nav_order: 436
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Methylphenidate: nueva indicación predicha, Trastorno del desarrollo específico (nivel de evidencia L5). Indicación original: METILFENIDATO"
+description: "Methylphenidate: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: METILFENIDATO"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Metilfenidato: De Metilfenidato (indicación registrada sin especificar) a Trastorno del Desarrollo Específico
+## Metilfenidato: De Metilfenidato (indicación registrada sin especificar) a Síndrome Faciodigitogenital
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -52,9 +52,9 @@ La evidencia es débil: se trata más de una cuestión de clasificación de la e
 |------|------|
 | Indicación Original | METILFENIDATO (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Trastorno del desarrollo específico (rank 3; la rank 1 es síndrome faciodigitogenital) |
-| Puntaje de Prediccion TxGNN | 99.99% (0.99988) para trastorno del desarrollo específico; 99.998% para la predicción rank 1 |
-| Nivel de Evidencia | L4 (L5 para las predicciones rank 1 y 2) |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Puntaje de Prediccion TxGNN | 0.9999 (0.99988) para trastorno del desarrollo específico; 1.0000 para la predicción rank 1 |
+| Nivel de Evidencia | L5 (L5 para las predicciones rank 1 y 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Numero de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decision Recomendada | Hold |
 
@@ -66,7 +66,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original y la nueva es indirecta. El TDAH es un trastorno del neurodesarrollo, y la etiqueta "trastorno del desarrollo específico" es amplia. Casi todos los artículos recuperados tratan sobre TDAH, que ya es una indicación establecida del metilfenidato. La evidencia sobre trastornos específicos del aprendizaje es solo indirecta (por ejemplo, un estudio de EEG cuantitativo en TDAH con dificultades de aprendizaje, PMID 33012168).
 
-Por ello, esta predicción parece reflejar un problema de etiquetado o mapeo en el grafo de conocimiento más que un hallazgo genuino de reposicionamiento. Para las otras dos predicciones de mayor puntaje, no hay vínculo mecanístico respaldado: en el síndrome faciodigitogenital (Aarskog-Scott) el fármaco solo podría, en teoría, aliviar síntomas conductuales tipo TDAH, y en el fibroma condromixoide no existe relevancia conocida.
+Por ello, esta predicción proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Para las otras dos predicciones de mayor puntaje, no hay vínculo mecanístico respaldado: en el síndrome faciodigitogenital (Aarskog-Scott) el fármaco solo podría, en teoría, aliviar síntomas conductuales tipo TDAH, y en el fibroma condromixoide no existe relevancia conocida.
 
 ---
 
@@ -97,14 +97,14 @@ Los demás artículos recuperados son revisiones generales, estudios cualitativo
 
 ## Informacion de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados; actualmente no hay productos vigentes.
+El medicamento está comercializado; actualmente hay 4 registros sanitarios vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 227970 | RITALINA 10 MG COMPRIMIDOS | Tableta | METILFENIDATO (cancelado) |
-| 20242636 | ATEXAM® XR 54 | Tableta de liberación prolongada | METILFENIDATO (cancelado) |
-| 20242665 | ATEXAM® XR 27 | Tableta de liberación prolongada | METILFENIDATO (cancelado) |
-| 20242646 | ATEXAM® XR 18 | Tableta de liberación prolongada | METILFENIDATO (cancelado) |
+| 227970 | RITALINA 10 MG COMPRIMIDOS | Tableta | METILFENIDATO (vigente) |
+| 20242636 | ATEXAM® XR 54 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
+| 20242665 | ATEXAM® XR 27 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
+| 20242646 | ATEXAM® XR 18 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
 
 ---
 

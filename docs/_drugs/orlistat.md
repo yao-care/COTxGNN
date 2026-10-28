@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Orlistat (el texto de indicación del registro solo indica el nombre del principio activo) |
 | Nueva Indicación Predicha | Hipervitaminosis |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
@@ -74,9 +74,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20102710 | FINOBES ® 120 MG. (cancelado) | Cápsula dura | Orlistat |
-| 19979566 | ORLISTAT 120 MG CÁPSULAS (cancelado) | Cápsula dura | Orlistat |
-| 20091755 | ANGIOSTAT 120 MG CÁPSULAS (cancelado) | Cápsula dura | Orlistat |
+| 20102710 | FINOBES ® 120 MG. (vigente) | Cápsula dura | Orlistat |
+| 19979566 | ORLISTAT 120 MG CÁPSULAS (vigente) | Cápsula dura | Orlistat |
+| 20091755 | ANGIOSTAT 120 MG CÁPSULAS (vigente) | Cápsula dura | Orlistat |
 
 ## Consideraciones de Seguridad
 
@@ -101,7 +101,7 @@ La predicción se basa solo en el modelo y en un vínculo farmacológico plausib
 - Datos del mecanismo de acción confirmados por fuentes como DrugBank.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Definir qué tipos de hipervitaminosis (vitaminas liposolubles) serían objetivo y compararlos con el tratamiento estándar.
-- Aclarar la situación regulatoria, dado que todos los registros están cancelados, y evaluar la compatibilidad de vías de administración y formulaciones.
+- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 3 licencias vigentes, y evaluar la compatibilidad de vías de administración y formulaciones.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -6,9 +6,9 @@ nav_order: 575
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ruxolitinib: nueva indicación predicha, Tumor de células epitelioides perivasculares del cuerpo uterino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indic…"
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
+description: "Ruxolitinib: nueva indicación predicha, Uterine corpus perivascular epithelioid cell tumor (nivel de evidencia L5). Indicación original: RUXOLITINIB"
 ---
 
 # Ruxolitinib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ruxolitinib: De Indicación No Especificada en el Registro a Tumor de Células Epitelioides Perivasculares del Cuerpo Uterino
+## Ruxolitinib: Uterine corpus perivascular epithelioid cell tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para el **tumor de células epi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto de indicación solo repite "ruxolitinib") |
-| Nueva Indicación Predicha | Tumor de células epitelioides perivasculares del cuerpo uterino |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Indicación Original | RUXOLITINIB |
+| Nueva Indicación Predicha | Uterine corpus perivascular epithelioid cell tumor |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -83,9 +83,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20055293 | JAKAVI® 5 MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Cancelado |
-| 20055348 | JAKAVI® 15 TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Cancelado |
-| 20083253 | JAKAVI® 10MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Cancelado |
+| 20055293 | JAKAVI® 5 MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
+| 20055348 | JAKAVI® 15 TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
+| 20083253 | JAKAVI® 10MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
 
 Los tres registros pertenecen a Novartis Pharma AG y corresponden a la vía oral. Actualmente no hay registros vigentes en Colombia.
 
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el PEComa uterino tiene un puntaje alto (99.73%), pero carece de ensayos clínicos, literatura y un vínculo mecanístico respaldado (nivel L5). Además, en Colombia no hay registros sanitarios vigentes de ruxolitinib.
+La predicción para el PEComa uterino tiene un puntaje alto (0.9973), pero carece de ensayos clínicos, literatura y un vínculo mecanístico respaldado (nivel L5). Además, en Colombia no hay registros sanitarios vigentes de ruxolitinib.
 
 **Otras indicaciones predichas:**
 - **Mayor respaldo**: la *linfohistiocitosis hemofagocítica* (HLH) asociada a infección tiene un nivel de evidencia L3. La respaldan estudios clínicos pediátricos, series y reportes de casos, y datos preclínicos en modelos murinos que apoyan la inhibición de JAK1/2. La evidencia es de diseño no aleatorizado y de tamaño pequeño, y los diseños deben verificarse con los textos completos. Sería la candidata más sólida para priorizar.
@@ -119,7 +119,7 @@ La predicción para el PEComa uterino tiene un puntaje alto (99.73%), pero carec
 - Confirmar el mecanismo de acción detallado y la indicación original aprobada.
 - Para el PEComa y las enfermedades relacionadas, generar evidencia preclínica que demuestre la participación de JAK-STAT, dado que son tumores dependientes de mTOR.
 - Evaluar si conviene priorizar la HLH asociada a infección, verificando los diseños de los estudios y sus resultados.
-- Aclarar la situación regulatoria en Colombia, dado que todos los registros están cancelados.
+- Aclarar la situación regulatoria en Colombia, dado que el medicamento está comercializado y cuenta con 3 registros vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

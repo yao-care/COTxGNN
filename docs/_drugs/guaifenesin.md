@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Guaifenesin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 322
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones (con guaifenesina)"
 monitor_inn: "Guaifenesin"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 ---
 
 # Guaifenesin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ con **0 ensayos clínicos** y **1 publicación** (una revisión de 2002) que act
 |------|------|
 | Indicación Original | Combinaciones (con guaifenesina); guaifenesina; tos, supresores y expectorantes |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 5 (0 vigentes, 5 cancelados) |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

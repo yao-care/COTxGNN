@@ -4,17 +4,17 @@ title: Trazodone
 parent: Evidencia Moderada (L3-L4)
 nav_order: 641
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: TRAZODONA"
 monitor_inn: "trazodone"
-predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder", "phobic disorder", "Ohdo syndrome and variants"]
+predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
 ---
 
 # Trazodone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 |------|------|
 | Indicación Original | TRAZODONA (el registro no detalla una indicación clínica específica; el uso reconocido de trazodona es el trastorno depresivo mayor) |
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 

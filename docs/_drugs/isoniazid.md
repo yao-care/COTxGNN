@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Isoniazid
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 357
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: ISONIAZIDA"
@@ -14,7 +14,7 @@ predicted_indications: ["conjunctivitis"]
 # Isoniazid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 |------|------|
 | Indicación Original | ISONIAZIDA (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9936 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El vínculo con la conjuntivitis es indirecto y limitado a una etiología específica: la queratoconjuntivitis flictenular, una reacción de hipersensibilidad a antígenos tuberculosos (y otros antígenos microbianos), y la rara tuberculosis conjuntival primaria. En estos casos, la isoniazida trata o previene la infección micobacteriana subyacente, no actúa directamente sobre la inflamación conjuntival.
 
-No hay evidencia que respalde su eficacia en conjuntivitis bacteriana común, viral o alérgica. Varios artículos recuperados describen la conjuntivitis como efecto adverso o como manifestación de enfermedad reactiva asociada a BCG, no como objetivo terapéutico. El puntaje de 99.36% es una predicción del modelo y no está respaldado por datos de ensayos clínicos.
+No hay evidencia que respalde su eficacia en conjuntivitis bacteriana común, viral o alérgica. Varios artículos recuperados describen la conjuntivitis como efecto adverso o como manifestación de enfermedad reactiva asociada a BCG, no como objetivo terapéutico. El puntaje de 0.9936 es una predicción del modelo y no está respaldado por datos de ensayos clínicos.
 
 ---
 
@@ -94,9 +94,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190631 | GOTBISON® 100 MG. TABLETAS RECUBIERTAS (cancelado) | Tableta recubierta | ISONIAZIDA |
-| 20190638 | GOTBISON® 300 MG TABLETA RECUBIERTAS (cancelado) | Tableta recubierta | ISONIAZIDA |
-| 19927446 | SOLONEX® 100 MG TABLETAS (cancelado) | Tableta | ISONIAZIDA |
+| 20190631 | GOTBISON® 100 MG. TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | ISONIAZIDA |
+| 20190638 | GOTBISON® 300 MG TABLETA RECUBIERTAS (vigente) | Tableta recubierta | ISONIAZIDA |
+| 19927446 | SOLONEX® 100 MG TABLETAS (vigente) | Tableta | ISONIAZIDA |
 
 ---
 

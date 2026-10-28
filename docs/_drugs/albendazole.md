@@ -50,9 +50,9 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | ALBENDAZOL (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Equinococosis alveolar |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | 7 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -137,8 +137,8 @@ Existe un ensayo de Fase 2 completado (n=194) que prueba albendazol directamente
 
 ## Otras Indicaciones Predichas (Referencia)
 
-- **Coenurosis** (puntaje 99.83%, nivel L1): los ensayos de Fase 3 son sobre neurocisticercosis, una enfermedad relacionada pero distinta, por lo que respaldan el efecto de clase y no la coenurosis directamente.
-- **Enfermedad infecciosa por cestodos** (puntaje 99.74%, nivel L1): categoría general que incluye usos ya establecidos (hidatidosis y neurocisticercosis), por lo que refleja la práctica actual y no un reposicionamiento novedoso.
+- **Coenurosis** (puntaje 0.9983, nivel L1): los ensayos de Fase 3 son sobre neurocisticercosis, una enfermedad relacionada pero distinta, por lo que respaldan el efecto de clase y no la coenurosis directamente.
+- **Enfermedad infecciosa por cestodos** (puntaje 0.9974, nivel L1): categoría general que incluye usos ya establecidos (hidatidosis y neurocisticercosis), por lo que refleja la práctica actual y no un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

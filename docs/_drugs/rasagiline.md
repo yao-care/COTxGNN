@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 |------|------|
 | Indicación Original | Rasagilina (el registro sanitario no detalla la indicación; el uso conocido del fármaco es la enfermedad de Parkinson) |
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,17 +60,17 @@ Rasagilina es un inhibidor selectivo e irreversible de la monoaminooxidasa B (MA
 
 La neurodegeneración asociada a PLA2G6 incluye la distrofia neuroaxonal infantil y la distonía-parkinsonismo relacionada con PLA2G6. Comparte con la enfermedad de Parkinson la patología de alfa-sinucleína y la pérdida de neuronas dopaminérgicas. Por ello, el efecto de rasagilina sobre el tono dopaminérgico ofrece un vínculo plausible, sobre todo para el fenotipo parkinsoniano.
 
-Este vínculo es solo una hipótesis. El puntaje alto del modelo (99.71%) es una predicción computacional sin ensayos clínicos ni literatura que la respalden. No se sabe si el beneficio sintomático en Parkinson se traduce a esta enfermedad genética, generalmente de inicio pediátrico.
+Este vínculo es solo una hipótesis. El puntaje alto del modelo (0.9971) es una predicción computacional sin ensayos clínicos ni literatura que la respalden. No se sabe si el beneficio sintomático en Parkinson se traduce a esta enfermedad genética, generalmente de inicio pediátrico.
 
 ### Otras predicciones del modelo (todas de evidencia limitada)
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|
-| Encefalitis subaguda de Rasmussen | 99.56% | L5 | Enfermedad inflamatoria mediada por linfocitos T; no hay vínculo mecanístico directo |
-| Mielitis | 99.32% | L5 | Posible efecto neuroprotector teórico; sin fundamento directo |
-| Parálisis agitante juvenil de Hunt | 99.25% | L4 | Síndrome parkinsoniano juvenil cercano a la enfermedad de Parkinson; evidencia indirecta, sin estudios en población juvenil |
-| Deficiencia de transaldolasa | 99.19% | L5 | Sin acción conocida sobre la vía de las pentosas fosfato |
-| Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 99.01% | L5 | Malformación estructural; sin mecanismo plausible |
+| Encefalitis subaguda de Rasmussen | 0.9956 | L5 | Enfermedad inflamatoria mediada por linfocitos T; no hay vínculo mecanístico directo |
+| Mielitis | 0.9932 | L5 | Posible efecto neuroprotector teórico; sin fundamento directo |
+| Parálisis agitante juvenil de Hunt | 0.9925 | L5 | Síndrome parkinsoniano juvenil cercano a la enfermedad de Parkinson; evidencia indirecta, sin estudios en población juvenil |
+| Deficiencia de transaldolasa | 0.9919 | L5 | Sin acción conocida sobre la vía de las pentosas fosfato |
+| Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis | 0.9901 | L5 | Malformación estructural; sin mecanismo plausible |
 
 ## Evidencia de Ensayos Clínicos
 

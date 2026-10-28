@@ -4,17 +4,17 @@ title: Cobimetinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 177
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Cobimetinib: nueva indicación predicha, Esclerosis lateral amiotrófica (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "cobimetinib"
-predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "amyotrophic lateral sclerosis, susceptibility to", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
+predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
 ---
 
 # Cobimetinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Cobimetinib es un inhibidor de MEK1/2 (según la farmacología conocida) que cue
 |------|------|
 | Indicación Original | No especificada en el registro (el texto de indicación del registro sanitario solo indica "COBIMETINIB") |
 | Nueva Indicación Predicha | Esclerosis lateral amiotrófica |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ La vía MAPK/ERK se ha vinculado con la neuroinflamación y las respuestas de es
 
 Hay un factor que debilita el argumento: la penetración de cobimetinib a través de la barrera hematoencefálica es limitada (es sustrato de la glicoproteína P), lo que reduce la razón de ser en el sistema nervioso central.
 
-Las otras nueve predicciones principales corresponden a enfermedades raras, en su mayoría trastornos de motoneurona (síndrome de Mills, ELA tipo 22, síndrome de motoneurona inferior de inicio tardío, amiotrofia monomélica, entre otras) y a síndromes del desarrollo o esqueléticos sin vínculo mecanístico claro (como la polimicrogiria parieto-occipital parasagital bilateral y la displasia espondilometafisaria axial). Varias parecen reflejar cercanía en el grafo de conocimiento más que una justificación farmacológica.
+Las otras ocho predicciones principales corresponden a enfermedades raras, en su mayoría trastornos de motoneurona (síndrome de Mills, ELA tipo 22, síndrome de motoneurona inferior de inicio tardío, amiotrofia monomélica, entre otras) y a síndromes del desarrollo o esqueléticos sin vínculo mecanístico claro (como la polimicrogiria parieto-occipital parasagital bilateral y la displasia espondilometafisaria axial). Las puntuaciones proceden del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

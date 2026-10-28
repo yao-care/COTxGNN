@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas 
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "CLONAZEPAM") |
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
-| Puntaje de Predicción TxGNN | 99.65% |
+| Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -94,8 +94,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | CLONAZEPAM (cancelado) |
-| 19954442 | SEDATRIL® 2 MG | Tableta | CLONAZEPAM (cancelado) |
+| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | CLONAZEPAM (vigente) |
+| 19954442 | SEDATRIL® 2 MG | Tableta | CLONAZEPAM (vigente) |
 
 ---
 
@@ -129,8 +129,8 @@ Aunque el puntaje del modelo es alto y existe literatura directa (revisión Coch
 ---
 
 **Otras predicciones del modelo (para referencia):**
-- **Insomnio** (TxGNN 99.32%, nivel de evidencia L4, Hold): la literatura es mayormente indirecta y no hay ensayos clínicos.
-- **Neoplasia del nervio trigémino** (TxGNN 99.30%, nivel de evidencia L5, Hold): solo predicción computacional, sin evidencia ni mecanismo antitumoral plausible.
+- **Insomnio** (TxGNN 0.9932, nivel de evidencia L4, Hold): la literatura es mayormente indirecta y no hay ensayos clínicos.
+- **Neoplasia del nervio trigémino** (TxGNN 0.9930, nivel de evidencia L5, Hold): solo predicción computacional, sin evidencia ni mecanismo antitumoral plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

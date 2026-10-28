@@ -4,17 +4,17 @@ title: Lenalidomide
 parent: Evidencia Alta (L1-L2)
 nav_order: 388
 evidence_level: L2
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: LENALIDOMIDA"
 monitor_inn: "Lenalidomide"
-predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "partial deletion of the long arm of chromosome 5"]
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
 ---
 
 # Lenalidomide
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ Lenalidomida es un inmunomodulador oral derivado de la talidomida, registrado en
 |------|------|
 | Indicación Original | LENALIDOMIDA (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -62,7 +62,7 @@ Los datos compilados para este reporte no incluyen el mecanismo de acción regis
 
 Lenalidomida está aprobada en otros países para mieloma múltiple, SMD con del(5q) y ciertos linfomas. El SMD y la LMA son neoplasias mieloides estrechamente relacionadas: cerca de un tercio de los SMD evoluciona a LMA, y varios ensayos prueban lenalidomida en ambas enfermedades a la vez, lo que respalda la plausibilidad de la predicción.
 
-El puntaje TxGNN muy alto (0.995) concuerda con la gran cantidad de ensayos en neoplasias mieloides. Sin embargo, la literatura aportada es en su mayoría revisiones de SMD, por lo que el mecanismo y la eficacia en LMA deben confirmarse con estudios específicos.
+El puntaje TxGNN muy alto (0.9949) concuerda con la gran cantidad de ensayos en neoplasias mieloides. Sin embargo, la literatura aportada es en su mayoría revisiones de SMD, por lo que el mecanismo y la eficacia en LMA deben confirmarse con estudios específicos.
 
 ---
 
@@ -114,10 +114,10 @@ Los cuatro registros sanitarios están cancelados; actualmente no hay productos 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20115050 | LADEVINA® 25 MG | Cápsula dura | LENALIDOMIDA (cancelado) |
-| 20164374 | ALIDA® 25 MG | Cápsula dura | LENALIDOMIDA (cancelado) |
-| 20199477 | CIFEROL® 10 MG | Cápsula dura | LENALIDOMIDA (cancelado) |
-| 20137942 | LENOSIDE 15 | Cápsula dura | LENALIDOMIDA (cancelado) |
+| 20115050 | LADEVINA® 25 MG | Cápsula dura | LENALIDOMIDA (vigente) |
+| 20164374 | ALIDA® 25 MG | Cápsula dura | LENALIDOMIDA (vigente) |
+| 20199477 | CIFEROL® 10 MG | Cápsula dura | LENALIDOMIDA (vigente) |
+| 20137942 | LENOSIDE 15 | Cápsula dura | LENALIDOMIDA (vigente) |
 
 ---
 

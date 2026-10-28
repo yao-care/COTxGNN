@@ -6,9 +6,9 @@ nav_order: 581
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
-description: "Secnidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Secnidazol"
 monitor_inn: "Secnidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "trichomonal vulvovaginitis", "leukoplakia of vagina", "vulvovaginal candidiasis"]
+description: "Secnidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). Indicación original: SECNIDAZOL"
 ---
 
 # Secnidazole
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Secnidazol: De Antimicrobiano Nitroimidazol a Vaginitis Atrófica Posmenopáusica
+## Secnidazole: Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **vaginitis atrófica posm
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Secnidazol (el registro sanitario solo menciona el principio activo y las combinaciones de derivados imidazólicos, sin detallar la indicación clínica) |
-| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Indicación Original | SECNIDAZOL; COMBINACIONES DE IMIDAZOL DERIVADOS |
+| Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -81,7 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; no hay ninguno vigente.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -109,13 +108,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero carece de ensayos clínicos, de literatura y de un mecanismo plausible. La vaginitis atrófica se debe a deficiencia estrogénica, no a infección, y hoy no hay ningún registro vigente de secnidazol en Colombia. No se recomienda avanzar con esta indicación.
+La predicción tiene un puntaje alto, pero carece de ensayos clínicos, de literatura y de un mecanismo plausible. La vaginitis atrófica se debe a deficiencia estrogénica, no a infección, aunque el producto está comercializado en Colombia con 4 registros vigentes. No se recomienda avanzar con esta indicación.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que justifique el uso de un antimicrobiano en un cuadro de origen hormonal, o descartar la predicción como artefacto del modelo.
 - Estudios preclínicos o clínicos que muestren algún efecto en vaginitis atrófica.
 - Datos de seguridad del prospecto (advertencias y contraindicaciones).
-- Confirmar el estado regulatorio y la disponibilidad del producto en Colombia, dado que todos los registros están cancelados.
+- Confirmar el estado regulatorio y la disponibilidad del producto en Colombia, donde está comercializado y cuenta con 4 registros vigentes.
 
 **Nota sobre otras predicciones del modelo:**
 En los datos compilados, otras indicaciones tienen más respaldo que la de este informe, aunque en gran parte son usos ya conocidos del fármaco (no reposicionamiento propiamente dicho). Merecen evaluación aparte:

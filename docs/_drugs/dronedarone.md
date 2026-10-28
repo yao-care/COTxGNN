@@ -4,17 +4,17 @@ title: Dronedarone
 parent: Evidencia Moderada (L3-L4)
 nav_order: 238
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Dronedarone: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L3). Indicación original: Dronedarona"
 monitor_inn: "dronedarone"
-predicted_indications: ["stroke disorder", "obsolete susceptibility to ischemic stroke", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 ---
 
 # Dronedarone
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ con **0 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Dronedarona (el registro no detalla el texto de indicación; uso conocido: fibrilación/aleteo auricular) |
 | Nueva Indicación Predicha | Accidente cerebrovascular (stroke disorder) |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -4,7 +4,7 @@ title: Losartan
 parent: Solo Predicción del Modelo (L5)
 nav_order: 412
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Losartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Losartán"
 monitor_inn: "LOSARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Losartan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Losartán: De Hipertensión (registro sanitario cancelado) a Enfermedad Renal Hipertensiva Maligna
+## Losartán: De Hipertensión (registro sanitario vigente) a Enfermedad Renal Hipertensiva Maligna
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 |------|------|
 | Indicación Original | Losartán (el registro sanitario solo indica "Losartán"; no detalla la enfermedad) |
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

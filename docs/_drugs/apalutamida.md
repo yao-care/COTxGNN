@@ -8,6 +8,7 @@ nav_order: 59
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Apalutamida
@@ -49,8 +50,8 @@ Apalutamida es un fármaco registrado en DrugBank con consulta exitosa al sistem
 | Nueva Indicación Predicha | Sin predicciones TxGNN disponibles |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — sin predicciones del modelo ni estudios asociados |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

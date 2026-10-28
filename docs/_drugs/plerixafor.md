@@ -4,9 +4,9 @@ title: Plerixafor
 parent: Solo Predicción del Modelo (L5)
 nav_order: 520
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Plerixafor: nueva indicación predicha, Mieloma de células plasmáticas indolente (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
+description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioi
 # Plerixafor
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Plerixafor: De Movilizador de Células Madre Hematopoyéticas a Mieloma de Células Plasmáticas Indolente
+## Plerixafor: De Movilizador de Células Madre Hematopoyéticas a CMM7
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicació
 |------|------|
 | Indicación Original | El registro sanitario solo indica el nombre del principio activo ("PLERIXAFOR"); según los datos farmacológicos, movilización de células madre hematopoyéticas |
 | Nueva Indicación Predicha | Mieloma de células plasmáticas indolente |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

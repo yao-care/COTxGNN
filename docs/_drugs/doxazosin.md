@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | DOXAZOSINA (el registro no detalla la enfermedad; el texto solo repite el nombre del fármaco) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20248384 | DUOMO® 2 MG | Tableta | DOXAZOSINA | Cancelado |
+| 20248384 | DUOMO® 2 MG | Tableta | DOXAZOSINA | Vigente |
 
 ---
 
@@ -115,7 +115,7 @@ La evidencia se limita a una publicación de 1997 de carácter descriptivo, sin 
 
 ---
 
-**Nota sobre la segunda predicción:** la *migraña con aura de tronco encefálico* (puntaje 99.19%) no cuenta con ninguna evidencia clínica o bibliográfica propia (nivel L5). Su puntaje probablemente refleja la cercanía al nodo de migraña general, por lo que se recomienda **Hold**, con especial cautela por el uso de fármacos hipotensores en pacientes con síntomas de tronco encefálico.
+**Nota sobre la segunda predicción:** la *migraña con aura de tronco encefálico* (puntaje 0.9919) no cuenta con ninguna evidencia clínica o bibliográfica propia (nivel L5). Su puntaje probablemente refleja la cercanía al nodo de migraña general, por lo que se recomienda **Hold**, con especial cautela por el uso de fármacos hipotensores en pacientes con síntomas de tronco encefálico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

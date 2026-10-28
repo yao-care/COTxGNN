@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Duloxetina: De Duloxetina (indicación sin detallar) a Trastorno Paroxístico Benigno de Tortícolis de la Infancia
+## Duloxetina: De Duloxetina (indicación sin detallar) a Tortícolis paroxístico benigno de la infancia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ Entre las predicciones evaluadas, la mejor respaldada es el **trastorno obsesivo
 |------|------|
 | Indicación Original | DULOXETINA (el registro no detalla la enfermedad aprobada) |
 | Nueva Indicación Predicha | Tortícolis paroxístico benigno de la infancia |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,9 +62,9 @@ Entre las predicciones evaluadas, la mejor respaldada es el **trastorno obsesivo
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la duloxetina es un IRSN: aumenta la disponibilidad de serotonina y noradrenalina en el sistema nervioso central.
 
-Para la primera predicción (tortícolis paroxístico benigno de la infancia) **no hay respaldo clínico ni bibliográfico**. Se trata de un trastorno pediátrico relacionado con la migraña, a menudo vinculado al gen CACNA1A, y la plausibilidad de la inhibición de recaptación de serotonina-noradrenalina es débil. Además, la duloxetina no está establecida para uso en lactantes. El puntaje elevado refleja únicamente una predicción basada en grafos de conocimiento.
+Para la primera predicción (tortícolis paroxístico benigno de la infancia) **no hay respaldo clínico ni bibliográfico**. Se trata de un trastorno pediátrico relacionado con la migraña, a menudo vinculado al gen CACNA1A, y la plausibilidad de la inhibición de recaptación de serotonina-noradrenalina es débil. Además, la duloxetina no está establecida para uso en lactantes. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Como referencia, entre las 10 predicciones principales, la que tiene mayor respaldo es el **TOC** (puesto 3; puntaje 99.84%). La inhibición de la recaptación de serotonina es el mecanismo central de los tratamientos eficaces del TOC. La **agorafobia** (puesto 2) tiene respaldo indirecto a través del trastorno de pánico. Las demás predicciones (trastornos de personalidad, síndrome de Ohdo, conjuntivitis leñosa) carecen de evidencia y de vínculo mecanístico plausible.
+Como referencia, entre las 10 predicciones principales, la que tiene mayor respaldo es el **TOC** (puesto 3; puntaje 0.9984). La inhibición de la recaptación de serotonina es el mecanismo central de los tratamientos eficaces del TOC. La **agorafobia** (puesto 2) tiene respaldo indirecto a través del trastorno de pánico. Las demás predicciones (trastornos de personalidad, síndrome de Ohdo, conjuntivitis leñosa) carecen de evidencia y de vínculo mecanístico plausible.
 
 ---
 
@@ -134,7 +134,7 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínc
 - Descargar y analizar el prospecto de INVIMA para completar el cribado de seguridad (advertencias y contraindicaciones; brecha bloqueante).
 - Datos detallados del mecanismo de acción (consulta a DrugBank).
 - Aclarar la indicación original aprobada, ya que el registro solo indica "duloxetina".
-- Verificar la situación regulatoria: ningún registro vigente en Colombia, por lo que se requeriría un nuevo registro o reactivación.
+- Verificar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 2 registros vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

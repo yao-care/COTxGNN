@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 301
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Fluvoxamine: nueva indicación predicha, Trastorno de personalidad paranoide (nivel de evidencia L5). Indicación original: Fluvoxamina"
 monitor_inn: "fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder", "endogenous depression"]
+last_modified_at: 2026-10-27
+description: "Fluvoxamine: nueva indicación predicha, Trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). Indicación original: FLUVOXAMINA"
 ---
 
 # Fluvoxamine
@@ -33,95 +33,68 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Fluvoxamina: De Fluvoxamina (indicación no especificada en el registro) a Trastorno de Personalidad Paranoide
+## Fluvoxamina: inhibidor selectivo de la recaptación de serotonina (ISRS) → Trastorno de personalidad paranoide (paranoid personality disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fluvoxamina es un inhibidor selectivo de la recaptación de serotonina (ISRS), comercializado en Colombia en tabletas recubiertas de 100 mg; el registro sanitario no detalla el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastorno de personalidad paranoide** (puntaje 99.99%), pero esta predicción se basa solo en el modelo: **0 ensayos clínicos** y **2 publicaciones** indirectas, ninguna de las cuales evalúa fluvoxamina para esta condición.
-Dentro de las demás predicciones del análisis, las mejor respaldadas son **trastornos de ansiedad**, **agorafobia** y **depresión endógena**.
-
----
+La fluvoxamina es un antidepresivo del grupo de los inhibidores selectivos de la recaptación de serotonina. El modelo TxGNN predice que podría ser útil para el **trastorno de personalidad paranoide (paranoid personality disorder)**. Esta dirección cuenta con **0 ensayos clínicos** y solo **2 publicaciones** indirectas, por lo que la predicción no tiene respaldo experimental directo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Fluvoxamina (el registro sanitario solo repite el nombre del principio activo, sin texto de indicación) |
-| Nueva Indicación Predicha | Trastorno de personalidad paranoide |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | FLUVOXAMINA |
+| Nueva Indicación Predicha | Trastorno de personalidad paranoide (paranoid personality disorder) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fluvoxamina es un ISRS y agonista del receptor sigma-1; su eficacia en trastornos de ansiedad, trastorno obsesivo-compulsivo (TOC) y depresión está documentada en la literatura.
+En los datos compilados para este informe no hay información detallada sobre el mecanismo de acción. Se sabe que la fluvoxamina es un ISRS y un agonista del receptor sigma-1. Su efecto sobre la serotonina podría influir en rasgos de ansiedad, rigidez cognitiva e irritabilidad que aparecen en distintos trastornos psiquiátricos.
 
-Para el trastorno de personalidad paranoide, **no hay un vínculo mecanístico respaldado por los datos**. El puntaje tan alto del modelo es una predicción basada en el grafo de conocimiento. Las dos publicaciones asociadas son indirectas: un estudio de rasgos de personalidad en pacientes con trastorno dismórfico corporal (donde 26 sujetos participaron en un estudio de tratamiento con fluvoxamina) y una revisión sobre trastornos mentales inducidos por interferón alfa. Ninguna evalúa fluvoxamina como tratamiento de esta condición.
+Sin embargo, los datos no sustentan un vínculo mecanístico directo con el trastorno de personalidad paranoide. El puntaje del modelo es muy alto, pero proviene únicamente de una predicción basada en redes de relaciones. Ninguna publicación aportada evalúa la fluvoxamina como tratamiento de este trastorno.
 
-Cabe señalar que el mismo puntaje (99.99%) se asignó a otros trastornos de personalidad (esquizotípico, histriónico, esquizoide), lo que sugiere un patrón del modelo más que una señal específica. Entre las predicciones analizadas, las más plausibles son las de espectro ansioso y depresivo, que corresponden en gran medida a usos ya establecidos de la clase ISRS (ver sección de Conclusión).
-
----
+Por ello, esta predicción debe considerarse una hipótesis para explorar. No es una indicación con respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para trastorno de personalidad paranoide.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohorte | Comprehensive Psychiatry | Evaluó trastornos y rasgos de personalidad en 148 pacientes con trastorno dismórfico corporal, 26 de ellos en un estudio de tratamiento con fluvoxamina. No evalúa eficacia en trastorno paranoide. |
-| [11686052](https://pubmed.ncbi.nlm.nih.gov/11686052/) | 2001 | Revisión | L'Encéphale | Revisión de complicaciones psiquiátricas (incluidos trastornos de personalidad) por interferón alfa. No trata fluvoxamina. |
+| [10929788](https://pubmed.ncbi.nlm.nih.gov/10929788/) | 2000 | Cohorte | Comprehensive Psychiatry | Describe trastornos y rasgos de personalidad en 148 personas con trastorno dismórfico corporal. Una parte de ellas participó en un estudio de tratamiento con fluvoxamina. No evalúa la fluvoxamina como tratamiento del trastorno de personalidad paranoide. |
+| [11686052](https://pubmed.ncbi.nlm.nih.gov/11686052/) | 2001 | Revisión | L'Encéphale | Revisa los efectos psiquiátricos adversos del interferón alfa, entre ellos alteraciones de la personalidad. No guarda relación directa con la fluvoxamina ni con esta indicación. |
 
----
+Ninguna de las dos publicaciones estudia directamente el trastorno de personalidad paranoide como objetivo terapéutico de la fluvoxamina.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20202309 | ANSIVOX® 100 MG TABLETAS RECUBIERTAS (estado: cancelado) | Tableta recubierta | Fluvoxamina |
-| 59491 | LUVOX 100 MG TABLETAS RECUBIERTAS (estado: cancelado) | Tableta recubierta | Fluvoxamina |
-
-Ambos registros figuran como cancelados, por lo que no hay actualmente un producto vigente con registro sanitario en los datos compilados.
-
----
+La fluvoxamina figura como **comercializada** en Colombia, con presentaciones orales en tableta recubierta. Los registros sanitarios disponibles pueden ser parciales. El detalle de los registros se completa a partir de los datos regulatorios locales.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y enfermedades de riesgo (grafo de conocimiento, no texto del prospecto)**: epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación, síndrome neuroléptico maligno, síndrome de secreción inadecuada de ADH, síndrome nefrogénico de antidiuresis inapropiada y síndrome serotoninérgico.
-- **Interacciones farmacológicas**: se registran 283 interacciones. Entre las de nivel **mayor** figuran alosetrón, dietilpropión, dolasetrón y bupropión. Entre las de nivel **moderado** figuran rabeprazol, hidrocortisona, aprepitant, ácido acetilsalicílico, claritromicina, morfina, pioglitazona y varios corticoides (betametasona, budesonida, triamcinolona, dexametasona).
-- La literatura del análisis también señala interacciones relevantes (por ejemplo, con metadona y con fenotiazinas, con riesgo de convulsiones) y la aplicabilidad de guías farmacogenéticas CPIC. Fluvoxamina es un inhibidor potente de CYP1A2 y CYP2C19.
+- **Interacciones farmacológicas**: se registran 283 interacciones. Entre las de nivel mayor figuran alosetrón, dietilpropión, dolasetrón y bupropión. Entre las de nivel moderado figuran rabeprazol, hidrocortisona, aprepitant, ácido acetilsalicílico, claritromicina, morfina y dexametasona.
 
-No se dispone de las advertencias y contraindicaciones del prospecto; consultar el prospecto para información de seguridad completa.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto aprobado.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para trastorno de personalidad paranoide solo existe una predicción del modelo (nivel L5), sin ensayos clínicos ni literatura que respalde el uso de fluvoxamina, y los registros sanitarios en Colombia están cancelados.
-
-**Otras predicciones del análisis (referencia):**
-- **Trastornos de ansiedad** (L1, Proceed with Guardrails): fase 3 completados en TOC pediátrico (NCT01933919) y ansiedad pediátrica (NCT00000389), más metaanálisis en red. Es en gran parte un uso establecido de la clase, con poca novedad como reposicionamiento.
-- **Agorafobia / trastorno de pánico** (L1, Proceed with Guardrails): ECA controlados con placebo y metaanálisis en red de 2023; sin ensayos registrados para esta indicación.
-- **Depresión endógena** (L2, Proceed with Guardrails): un único ensayo de fase 2 (NCT04160377) con estado desconocido; el respaldo es principalmente de clase.
-- **Trastornos de personalidad esquizotípico, esquizoide, dependiente y narcisista, tortícolis paroxística benigna de la infancia e histriónico**: evidencia nula o indirecta (L4–L5, Hold).
+- No existen ensayos clínicos ni estudios que evalúen la fluvoxamina en el trastorno de personalidad paranoide. El puntaje alto del modelo no basta para avanzar.
 
 **Para avanzar se necesita:**
-- Estudios que evalúen directamente fluvoxamina en trastorno de personalidad paranoide (o priorizar las indicaciones de ansiedad y depresión, mejor respaldadas)
-- Datos del mecanismo de acción y de advertencias/contraindicaciones del prospecto de INVIMA
-- Verificar la disponibilidad real del producto en Colombia, dado que ambos registros están cancelados
-- Plan de manejo de interacciones (CYP1A2/CYP2C19) y de farmacogenética según guías CPIC
+- Datos detallados del mecanismo de acción y un vínculo mecanístico plausible con esta indicación.
+- Estudios clínicos o series de casos que evalúen directamente la fluvoxamina en este trastorno.
+- Revisión del prospecto de INVIMA para completar advertencias y contraindicaciones.
+- Plan de manejo de interacciones farmacológicas si se avanzara a estudios en pacientes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

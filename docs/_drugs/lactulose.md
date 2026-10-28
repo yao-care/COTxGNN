@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Lactulosa: De Indicación Original (Lactulosa) a Obstrucción Biliar con Ictericia (Ictericia Obstructiva)
+## Lactulosa: De Indicación Original (Lactulosa) a Nefropatía aguda por uratos
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,13 +47,13 @@ El modelo TxGNN predice que podría ser efectivo para **acute urate nephropathy 
 |------|------|
 | Indicación Original | Lactulosa (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Nefropatía aguda por uratos (predicción n.º 1) |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
-> **Nota:** Dado que la primera predicción no tiene respaldo alguno, este informe también resume la candidata con la evidencia más sólida entre las ocho predichas: **ictericia obstructiva** (puntaje TxGNN 99.53%, nivel L3, recomendación "Pregunta de investigación").
+> **Nota:** Dado que la primera predicción no tiene respaldo alguno, este informe también resume la candidata con la evidencia más sólida entre las ocho predichas: **ictericia obstructiva** (puntaje TxGNN 0.9953, nivel L3, recomendación "Pregunta de investigación").
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -94,9 +94,9 @@ Literatura seleccionada para **ictericia obstructiva** (las demás predicciones 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20087761 | CONSTILAX® 66.7% Solución Oral | Solución oral | Lactulosa | Cancelado |
-| 38540 | LACTULAX Jarabe | Jarabe | Lactulosa | Cancelado |
-| 50786 | DUPHALAC® Solución Oral | Solución oral | Lactulosa | Cancelado |
+| 20087761 | CONSTILAX® 66.7% Solución Oral | Solución oral | Lactulosa | Vigente |
+| 38540 | LACTULAX Jarabe | Jarabe | Lactulosa | Vigente |
+| 50786 | DUPHALAC® Solución Oral | Solución oral | Lactulosa | Vigente |
 
 ## Consideraciones de Seguridad
 

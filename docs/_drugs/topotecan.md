@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Topotecan
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 632
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto solo indica \"TOPOTECAN\")"
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
+description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: TOPOTECAN"
 ---
 
 # Topotecan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Topotecan: De Topotecan (indicación no detallada en el registro) a Carcinoma de Mama Femenino
+## Topotecan: Carcinoma de mama femenino (female breast carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo indica "TOPOTECAN") |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Indicación Original | TOPOTECAN |
+| Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -107,7 +107,6 @@ Es importante señalar que los ensayos disponibles son de fase temprana y con co
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (inhibidor de topoisomerasa I) |
-| Riesgo de Mielosupresión | Alto (la mielosupresión es la toxicidad principal; el grafo de conocimiento asocia trombocitopenia, neutropenia, agranulocitosis y anemia) |
 | Clasificación de Emetogenicidad | Baja a moderada |
 | Items de Monitoreo | Hemograma con diferencial y recuento de plaquetas, función hepática y renal, vigilancia de síntomas respiratorios y de diarrea |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |

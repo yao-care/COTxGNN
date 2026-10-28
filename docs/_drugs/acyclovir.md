@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 |------|------|
 | Indicación Original | Aciclovir (el registro sanitario no especifica la enfermedad) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -76,8 +76,8 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 219368 | VIREX® UNGÜENTO (cancelado) | Ungüento tópico | ACICLOVIR |
-| 53077 | ACYCLOVIR TABLETAS (cancelado) | Tableta recubierta | ACICLOVIR |
+| 219368 | VIREX® UNGÜENTO (vigente) | Ungüento tópico | ACICLOVIR |
+| 53077 | ACYCLOVIR TABLETAS (vigente) | Tableta recubierta | ACICLOVIR |
 
 ## Consideraciones de Seguridad
 
@@ -91,7 +91,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto de INVIMA, 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.67%), pero no existen ensayos clínicos y la literatura recuperada es indirecta y no respalda la eficacia. El mecanismo es débil para las causas más probables (microsporidios, adenovirus), y ambos registros sanitarios en Colombia están cancelados.
+La predicción tiene un puntaje alto (0.9967), pero no existen ensayos clínicos y la literatura recuperada es indirecta y no respalda la eficacia. El mecanismo es débil para las causas más probables (microsporidios, adenovirus), y ambos registros sanitarios en Colombia están cancelados.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank.

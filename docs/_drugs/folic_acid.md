@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólic
 |------|------|
 | Indicación Original | Multivitaminas más hierro |
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la literatura es indirecta y no evalúa esta indicación) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La biotina (vitamina B7) también es una vitamina hidrosoluble que actúa como cofactor en reacciones de carboxilación. Existe, por tanto, una conexión biológica general entre ambas: comparten la naturaleza de vitaminas del grupo B y rutas metabólicas cercanas.
 
-Sin embargo, el ácido fólico no corrige los defectos de fondo de la enfermedad metabólica de la biotina (deficiencia de biotinidasa o de holocarboxilasa sintetasa), que se tratan con biotina farmacológica. El puntaje tan alto del modelo probablemente refleja la proximidad entre vitaminas en el grafo de conocimiento y no un mecanismo específico y validado. Esta predicción debe interpretarse con mucha cautela.
+Sin embargo, el ácido fólico no corrige los defectos de fondo de la enfermedad metabólica de la biotina (deficiencia de biotinidasa o de holocarboxilasa sintetasa), que se tratan con biotina farmacológica. El puntaje tan alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Esta predicción debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,7 +100,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (puntaje alto, pero probablemente por cercanía entre vitaminas en el grafo), sin ensayos clínicos y con literatura indirecta. Además, el tratamiento establecido de la enfermedad es la biotina, y el único registro sanitario local está cancelado.
+La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; puntaje alto, pero que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica), sin ensayos clínicos y con literatura indirecta. Además, el tratamiento establecido de la enfermedad es la biotina, y el medicamento está comercializado en este país con 1 licencia válida.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank) para evaluar un vínculo mecanístico real

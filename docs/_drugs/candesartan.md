@@ -4,17 +4,17 @@ title: Candesartan
 parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L1
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Candesartán"
 monitor_inn: "candesartan"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 ---
 
 # Candesartan
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ con **4 ensayos clínicos** (2 de ellos completados con diseño controlado) y **
 |------|------|
 | Indicación Original | Candesartán (el registro sanitario no detalla el texto de la indicación; el uso conocido del fármaco es la hipertensión) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -90,8 +90,8 @@ Esta plausibilidad está respaldada por evidencia clínica: ensayos aleatorizado
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20022576 | CANDESARTAN 16 MG TABLETAS (GENFAR S.A.) | Tableta | CANDESARTAN (cancelado) |
-| 20080461 | CANDESARTAN 8 MG (TECNOQUIMICAS S.A.) | Tableta | CANDESARTAN (cancelado) |
+| 20022576 | CANDESARTAN 16 MG TABLETAS (GENFAR S.A.) | Tableta | CANDESARTAN (vigente) |
+| 20080461 | CANDESARTAN 8 MG (TECNOQUIMICAS S.A.) | Tableta | CANDESARTAN (vigente) |
 
 ## Consideraciones de Seguridad
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Clopidogrel
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 174
-evidence_level: L2
-indication_count: 8
-last_modified_at: 2026-10-14
-description: "Clopidogrel: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: CLOPIDOGREL"
+evidence_level: L5
+indication_count: 7
 monitor_inn: "CLOPIDOGREL"
-predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "osteoarthritis susceptibility"]
+predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
+last_modified_at: 2026-10-27
+description: "Clopidogrel: nueva indicación predicha, migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: CLOPIDOGREL"
 ---
 
 # Clopidogrel
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,108 +33,83 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-## Clopidogrel: De Clopidogrel (indicación registrada sin detalle) a Trastorno de Migraña
+## Clopidogrel: antiagregante plaquetario inhibidor del receptor P2Y12 → migraña con aura del tronco encefálico (migraine with brainstem aura)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Clopidogrel es un antiagregante plaquetario (inhibidor del receptor P2Y12) con registros sanitarios en Colombia, hoy cancelados. El modelo TxGNN predice que podría ser eficaz para el **trastorno de migraña** (nueva indicación con mayor respaldo entre las predichas), con **6 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, sobre todo en migraña asociada a foramen oval permeable (FOP) o posterior al cierre de comunicación interauricular.
-
----
+Clopidogrel es un antiagregante plaquetario que actúa inhibiendo el receptor P2Y12.
+El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico (migraine with brainstem aura)**, aunque la evidencia disponible se refiere a la migraña con aura en general y no a este subtipo: no hay ensayos clínicos registrados para esta predicción y las **15 publicaciones** recuperadas aportan apoyo indirecto.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CLOPIDOGREL (el registro sanitario no detalla la indicación aprobada) |
-| Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Prediccion TxGNN | 99.44% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
-> Nota: la indicación de mayor puntaje en el modelo es "migraña con aura de tronco encefálico" (99.44%, nivel L3, sin ensayos clínicos, solo evidencia general de migraña con aura). Se presenta como indicación principal el trastorno de migraña, que tiene la evidencia más sólida entre las ocho candidatas.
-
----
+| Indicación Original | CLOPIDOGREL |
+| Nueva Indicación Predicha | migraña con aura del tronco encefálico (migraine with brainstem aura) |
+| Puntaje de Predicción TxGNN | 0,9944 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, clopidogrel inhibe el receptor plaquetario P2Y12, reduce la agregación plaquetaria y se utiliza en la prevención de eventos trombóticos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, clopidogrel inhibe el receptor plaquetario P2Y12 y reduce la agregación plaquetaria, así como la liberación de mediadores vasoactivos y serotoninérgicos.
 
-La hipótesis de reposicionamiento es que la activación plaquetaria y la embolia paradójica (microémbolos que pasan por un FOP) contribuyen a la migraña con aura. Las plaquetas activadas también liberan serotonina y otros mediadores vasoactivos. Bloquear P2Y12 podría disminuir estos fenómenos. Estudios preclínicos en ratones también implican al receptor P2Y12 en modelos de migraña y en la activación microglial del núcleo caudal del trigémino.
+Ese mecanismo es una explicación plausible para el aura migrañosa asociada a microémbolos paradójicos a través de un foramen oval permeable (FOP) o tras el cierre de comunicaciones interauriculares. Los estudios recuperados sobre este tema corresponden a migraña con aura en general, incluidas las formas ligadas a FOP y las posteriores al cierre septal.
 
-La evidencia es más fuerte en dos escenarios: migraña asociada a FOP y migraña de nueva aparición tras el cierre de comunicación interauricular. En la migraña en general los resultados son mixtos y muchos datos provienen de estudios piloto o retrospectivos.
-
----
+Ningún estudio se dirige específicamente al subtipo con aura del tronco encefálico. Por ello, la extrapolación a esta indicación es una hipótesis mecanística y no un hallazgo demostrado.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00799045](https://clinicaltrials.gov/study/NCT00799045) | Fase 4 | Completado | 220 | CANOA: clopidogrel añadido a aspirina para prevenir migraña de nueva aparición tras cierre de comunicación interauricular |
-| [NCT05546320](https://clinicaltrials.gov/study/NCT05546320) | Fase 2 | Completado | 1000 | COMPETE: antiagregante vs. anticoagulante vs. tratamiento estándar de migraña en pacientes con FOP |
-| [NCT02938182](https://clinicaltrials.gov/study/NCT02938182) | Fase 4 | Desconocido | 50 | Eficacia profiláctica de clopidogrel en migraña con cortocircuito derecha-izquierda |
-| [NCT04946734](https://clinicaltrials.gov/study/NCT04946734) | Fase 3 | Activo, sin reclutar | 440 | SPRING: cierre de FOP vs. medicación para aliviar la migraña (no evalúa clopidogrel como intervención) |
-| [NCT00562289](https://clinicaltrials.gov/study/NCT00562289) | Fase 3 | Completado | 664 | Cierre de FOP vs. anticoagulantes vs. antiagregantes para prevenir recurrencia de ictus (la migraña no es el desenlace principal) |
-| [NCT04100135](https://clinicaltrials.gov/study/NCT04100135) | N/A | Terminado | 7 | Estudio de dispositivo (oclusor septal) para migraña; no es un ensayo de fármaco |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación predicha.
 
 ## Evidencia de Literatura
 
+Ninguna publicación estudia directamente la migraña con aura del tronco encefálico; las siguientes son las más relevantes sobre migraña con aura y FOP o cierre septal.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [42526943](https://pubmed.ncbi.nlm.nih.gov/42526943/) | 2026 | ECA | BMJ | Ensayo multicéntrico, aleatorizado, abierto, con control activo, sobre tratamiento antitrombótico para prevenir migraña en pacientes con FOP |
-| [26551304](https://pubmed.ncbi.nlm.nih.gov/26551304/) | 2015 | ECA | JAMA | CANOA: clopidogrel más aspirina vs. aspirina sola frente a migraña tras cierre de comunicación interauricular |
-| [32965476](https://pubmed.ncbi.nlm.nih.gov/32965476/) | 2021 | ECA | JAMA Cardiology | Resultados a un año de CANOA tras suspender clopidogrel a los 3 meses |
-| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión sistemática | Headache | Papel de los antitrombóticos en la prevención de la migraña |
-| [40144614](https://pubmed.ncbi.nlm.nih.gov/40144614/) | 2025 | Revisión sistemática | Indian J Thorac Cardiovasc Surg | Cefalea de nueva aparición tras cierre de comunicación interauricular |
-| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA piloto | Cephalalgia | Clopidogrel como profilaxis de migraña |
-| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte | J Investig Med | Clopidogrel como profilaxis complementaria en migraña refractaria con FOP |
+| [24836213](https://pubmed.ncbi.nlm.nih.gov/24836213/) | 2014 | ECA piloto | Cephalalgia | Estudio aleatorizado piloto de clopidogrel como profilaxis de la migraña |
+| [39989443](https://pubmed.ncbi.nlm.nih.gov/39989443/) | 2025 | Revisión sistemática | Headache | Revisa el papel de los antitrombóticos en la prevención de la migraña |
+| [32848048](https://pubmed.ncbi.nlm.nih.gov/32848048/) | 2020 | Cohorte | J Investig Med | Clopidogrel 75 mg/día como complemento en migraña refractaria con FOP |
+| [16103551](https://pubmed.ncbi.nlm.nih.gov/16103551/) | 2005 | Cohorte | Heart | Clopidogrel redujo la migraña con aura tras el cierre de FOP y comunicación interauricular |
+| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Revisión retrospectiva | Neurology | Experiencia con tienopiridinas fuera de indicación en migraña con FOP |
 | [24770421](https://pubmed.ncbi.nlm.nih.gov/24770421/) | 2014 | Revisión retrospectiva | Cephalalgia | Clopidogrel como terapia primaria en migrañosos con cortocircuito derecha-izquierda |
-| [30478066](https://pubmed.ncbi.nlm.nih.gov/30478066/) | 2018 | Revisión retrospectiva | Neurology | Tienopiridinas en migrañosos con FOP |
-| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Estudio piloto abierto | Neurology | Ticagrelor (otro inhibidor de P2Y12) en migraña refractaria con FOP |
-
----
+| [30478067](https://pubmed.ncbi.nlm.nih.gov/30478067/) | 2018 | Estudio piloto abierto | Neurology | Ticagrelor (inhibidor P2Y12 relacionado) en migraña refractaria con FOP |
+| [15966922](https://pubmed.ncbi.nlm.nih.gov/15966922/) | 2005 | Serie de casos | J Interv Cardiol | Alivio del dolor tras 300 mg de clopidogrel en migraña posterior al cierre de comunicación interauricular |
+| [22992406](https://pubmed.ncbi.nlm.nih.gov/22992406/) | 2012 | Reporte de caso | Cephalalgia | Migraña de novo tras cierre septal; eficacia exclusiva de ticlopidina |
+| [17633574](https://pubmed.ncbi.nlm.nih.gov/17633574/) | 2007 | Reporte de caso | J Cardiol | Ticlopidina para prevenir migraña tras cierre de comunicación interauricular |
 
 ## Información de Mercado en Colombia
 
+Los registros sanitarios de clopidogrel son de producto de un solo principio activo, en forma oral.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20198152 (cancelado) | Clopidogrel 75 mg tabletas recubiertas (Laboratorios Richmond) | Tableta recubierta | CLOPIDOGREL |
-| 19942021 (cancelado) | Clopidogrel 75 mg tableta recubierta (Laboratorios La Santé) | Tableta recubierta | CLOPIDOGREL |
-
----
+| 20198152 | CLOPIDOGREL 75 MG TABLETAS RECUBIERTAS | Tableta recubierta | Texto de indicación no detallado |
+| 19942021 | CLOPIDOGREL 75 MG TABLETA RECUBIERTA | Tableta recubierta | Texto de indicación no detallado |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según relaciones del grafo de conocimiento, no del prospecto):** insuficiencia hepática aguda, hepatitis, trastornos de la coagulación, lesiones traumáticas, púrpura trombocitopénica, úlcera péptica activa y hemorragia intracraneal.
-- **Interacciones farmacológicas:** se registraron 100 interacciones. Entre las principales:
-  - **Mayores:** rabeprazol, omeprazol, esomeprazol, pioglitazona, loperamida y repaglinida.
-  - **Moderadas:** ácido acetilsalicílico, bupropión, morfina, cimetidina, claritromicina, lansoprazol y pantoprazol.
-  - **Menores:** dexlansoprazol y glimepirida.
-- **Otros puntos de atención en la literatura:** riesgo de sangrado (incluida hemorragia intracerebral al combinarse con AINE) y variabilidad por CYP2C19.
+- **Contraindicaciones registradas para el fármaco (no provienen del texto del prospecto)**: insuficiencia hepática aguda, hepatitis, trastornos de la coagulación, lesiones traumáticas, púrpura trombocitopénica, úlcera péptica activa y hemorragia intracraneal.
+- **Interacciones farmacológicas**: se registraron 100 interacciones. Entre las de nivel mayor figuran rabeprazol, omeprazol, esomeprazol (inhibidores de la bomba de protones), pioglitazona, loperamida y repaglinida. Entre las de nivel moderado se incluyen bupropión, morfina, ácido acetilsalicílico, cimetidina, claritromicina, lansoprazol y pantoprazol.
 
-Para advertencias de uso y precauciones, consultar el prospecto.
-
----
+Para las advertencias formales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay ensayos aleatorizados completados (CANOA y COMPETE) y revisiones sistemáticas que respaldan el uso de clopidogrel en migraña asociada a FOP o posterior al cierre de comunicación interauricular. Fuera de ese fenotipo, la evidencia es mixta y proviene de estudios piloto, por lo que se recomienda avanzar solo con restricciones.
+No existe ningún ensayo ni publicación que estudie directamente la migraña con aura del tronco encefálico; el respaldo proviene de migraña con aura en general y de contextos de FOP, por lo que el nivel de evidencia es L5 para esta predicción. La predicción se mantiene como pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Restringir la población al fenotipo con FOP / migraña con aura.
-- Revisar en detalle los resultados del ensayo COMPETE (publicado en BMJ 2026).
-- Obtener el prospecto vigente (advertencias y contraindicaciones oficiales) y los datos del mecanismo de acción.
-- Plan de monitoreo del riesgo de sangrado, de la variabilidad de CYP2C19 y de las interacciones (especialmente con inhibidores de la bomba de protones y AINE).
-- Resolver el estado regulatorio local: ambos registros sanitarios están cancelados, por lo que sería necesario confirmar la disponibilidad comercial en Colombia.
-
-**Otras indicaciones predichas (todas en Hold):** osteoartritis (L4; el único indicio sugiere que clopidogrel no protege), tendinitis, miositis fibrosa, miositis granulomatosa idiopática, artritis reumatoide y susceptibilidad a osteoartritis (L5; solo predicción del modelo). En artritis reumatoide la literatura incluso reporta artritis inflamatoria asociada a clopidogrel como posible señal de seguridad.
+- Estudios que evalúen el subtipo de aura del tronco encefálico de forma específica
+- Datos del mecanismo de acción y del texto de advertencias y contraindicaciones del prospecto
+- Revisión del riesgo de sangrado, de la variabilidad de CYP2C19 y de la carga de interacciones farmacológicas
+- Considerar, como contexto, los resultados de los ensayos en migraña asociada a FOP (p. ej., el ensayo COMPETE), cuya población es más amplia que este subtipo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

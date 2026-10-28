@@ -4,17 +4,17 @@ title: Metamizole
 parent: Evidencia Moderada (L3-L4)
 nav_order: 433
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
-predicted_indications: ["rheumatoid arthritis", "migraine disorder", "migraine with or without aura, susceptibility to", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
+predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
 ---
 
 # Metamizole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | Butilescopolamina y analgésicos |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

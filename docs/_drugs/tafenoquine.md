@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Succinato de tafenoquina (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) |
-| Puntaje de Predicción TxGNN | 99.05% |
+| Puntaje de Predicción TxGNN | 0.9905 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La mastocitosis sistémica indolente suele estar impulsada por la mutación KIT D816V. En los datos compilados para este informe no existe ninguna conexión documentada entre tafenoquina y la señalización de KIT o la proliferación de mastocitos. Tampoco hay ensayos ni literatura que sustenten el vínculo.
 
-Por lo tanto, el puntaje alto (0.990) es una predicción computacional y debe tratarse únicamente como generadora de hipótesis. La relación entre la indicación original (antipalúdica) y la nueva indicación (trastorno clonal de mastocitos) no es evidente desde el punto de vista terapéutico.
+Por lo tanto, el puntaje alto (0.9905) es una predicción computacional y debe tratarse únicamente como generadora de hipótesis. La relación entre la indicación original (antipalúdica) y la nueva indicación (trastorno clonal de mastocitos) no es evidente desde el punto de vista terapéutico.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20239141 | KOZENIS 50 MG | Tableta dispersable | Succinato de tafenoquina | Cancelado |
+| 20239141 | KOZENIS 50 MG | Tableta dispersable | Succinato de tafenoquina | Vigente |
 
 El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
 

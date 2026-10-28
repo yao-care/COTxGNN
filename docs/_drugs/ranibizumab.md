@@ -4,17 +4,17 @@ title: Ranibizumab
 parent: Solo Predicción del Modelo (L5)
 nav_order: 548
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ranibizumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
+description: "Ranibizumab: nueva indicación predicha, Tetanic cataract (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
 ---
 
 # Ranibizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ranibizumab: De Indicación Original (RANIBIZUMAB, según registro INVIMA) a Retinopatía Diabética No Proliferativa Grave
+## Ranibizumab: Tetanic cataract
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Ranibizumab es un fragmento de anticuerpo anti-VEGF, registrado en Colombia como Lucentis® (solución inyectable); el texto de indicación del registro sanitario solo consigna el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética no proliferativa grave**,
+El modelo TxGNN predice que podría ser efectivo para **catarata tetánica**,
 con **20 publicaciones** identificadas (incluidos ensayos aleatorizados y análisis post hoc de estudios de Fase 3 como RIDE/RISE) y **ningún ensayo clínico registrado** en los datos compilados para este informe.
 
 ---
@@ -48,12 +48,12 @@ con **20 publicaciones** identificadas (incluidos ensayos aleatorizados y análi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | RANIBIZUMAB (el registro sanitario no detalla una indicación específica) |
-| Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L1 (provisional: se basa en los títulos de la literatura, sin ensayos registrados; debe verificarse) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Indicación Original | RANIBIZUMAB |
+| Nueva Indicación Predicha | Tetanic cataract |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 (provisional: se basa en los títulos de la literatura, sin ensayos registrados; debe verificarse) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -123,7 +123,7 @@ El vínculo mecanístico (inhibición de VEGF) es directo y la literatura incluy
 - Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de otros productos con ranibizumab.
 - Definir un plan de monitoreo de seguridad ocular (infecciones, inflamación, presión intraocular) para la vía intravítrea.
 
-**Otras predicciones del modelo (todas con decisión Hold):** las predicciones relativas a distintos tipos de catarata y a la enfermedad hemorrágica del recién nacido carecen de respaldo mecanístico o clínico y probablemente son artefactos del grafo de conocimiento; no se recomienda avanzar con ellas.
+**Otras predicciones del modelo (todas con decisión Hold):** las predicciones relativas a distintos tipos de catarata y a la enfermedad hemorrágica del recién nacido carecen de respaldo mecanístico o clínico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo); no se recomienda avanzar con ellas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

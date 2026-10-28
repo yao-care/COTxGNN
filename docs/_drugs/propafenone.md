@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Propafenone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 538
-evidence_level: L4
-indication_count: 8
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Propafenone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: Propafenona"
 monitor_inn: "propafenone"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder", "periodic paralysis 
 # Propafenone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Esta predicción no cuenta con respaldo terapéutico; la evidencia disponible ap
 |------|------|
 | Indicación Original | Propafenona (el registro no detalla la indicación; se trata de un antiarrítmico) |
 | Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
-| Puntaje de Predicción TxGNN | 99.80% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9980 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La literatura disponible va en dirección contraria a la predicción: un reporte de caso de 1985 describe un episodio de manía secundario a la propafenona (los autores especulan que, por su parecido químico con el bupropión, podría tener efectos afectivos), un reporte de 2001 describe una psicosis orgánica por interacción venlafaxina-propafenona en un paciente bipolar, y una revisión de 2020 aborda las interacciones adversas entre antipsicóticos y fármacos cardiovasculares.
 
-Por ello, el alto puntaje del modelo probablemente refleja una asociación en el grafo de conocimiento entre el fármaco y la enfermedad, y no un efecto terapéutico real. Esta predicción debe considerarse una señal de seguridad, no una hipótesis de eficacia.
+Por ello, el alto puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto terapéutico real. Esta predicción debe considerarse una señal de seguridad, no una hipótesis de eficacia.
 
 ---
 

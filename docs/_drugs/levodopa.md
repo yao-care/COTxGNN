@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Levodopa con inhibidor de decarboxilasa e inhibidor de COMT |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La encefalitis de Rasmussen es un trastorno cerebral inflamatorio raro, crónico y generalmente unilateral, con convulsiones focales refractarias, atrofia progresiva del hemisferio afectado y deterioro neurológico. Se cree que está impulsada por citotoxicidad mediada por linfocitos T y activación microglial.
 
-**Con los datos disponibles no se identifica un vínculo mecanístico directo.** La reposición dopaminérgica no actúa sobre los mecanismos inmunomediados de esta enfermedad. El puntaje alto (0.99) probablemente refleja asociaciones de red entre enfermedades neurológicas y no una justificación biológica validada.
+**Con los datos disponibles no se identifica un vínculo mecanístico directo.** La reposición dopaminérgica no actúa sobre los mecanismos inmunomediados de esta enfermedad. El puntaje alto (0.9906) probablemente refleja asociaciones de red entre enfermedades neurológicas y no una justificación biológica validada.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19995528 | STALEVO® comprimidos con cubierta pelicular 200/50/200 mg (Sandoz GmbH) | Tableta recubierta | Levodopa inhibidor de decarboxilasa e inhibidor COMT | Cancelado |
+| 19995528 | STALEVO® comprimidos con cubierta pelicular 200/50/200 mg (Sandoz GmbH) | Tableta recubierta | Levodopa inhibidor de decarboxilasa e inhibidor COMT | Vigente |
 
 ---
 

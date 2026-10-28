@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levothyroxine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 402
-evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Levothyroxine: nueva indicación predicha, Bocio endémico (nivel de evidencia L3). Indicación original: Levotiroxina de sodio"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "levothyroxine"
-predicted_indications: ["endemic goiter", "renal hypodysplasia/aplasia", "nodular goiter (disease)", "bilateral renal agenesis", "nontoxic goiter", "lingual goiter", "substernal goiter", "dyshormonogenic goiter", "Potter sequence", "Carney complex"]
+predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
+last_modified_at: 2026-10-23
+description: "Levothyroxine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: Levotiroxina de sodio"
 ---
 
 # Levothyroxine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,74 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Levotiroxina: De Levotiroxina de Sodio (indicación original) a Bocio Endémico
+## Levotiroxina: De Levotiroxina de sodio (indicación registrada) a Hipodisplasia/aplasia renal
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Levotiroxina es una hormona tiroidea sintética, registrada en Colombia como levotiroxina de sodio (producto EUTIROX® 150 MCG).
-El modelo TxGNN predice que podría ser efectiva para **bocio endémico**, con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección, en su mayoría estudios clínicos de los años 1990 y revisiones.
-Entre las demás predicciones, el **bocio nodular** cuenta con la evidencia más sólida (2 ensayos clínicos aleatorizados completados).
-
----
+Levotiroxina (levotiroxina de sodio) es una hormona tiroidea sintética que cuenta en Colombia con un registro sanitario vigente de INVIMA, cuyo texto de indicación solo indica el nombre del principio activo.
+El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia renal**, pero **no existen ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Levotiroxina de sodio (el registro sanitario no detalla una indicación clínica específica) |
-| Nueva Indicación Predicha | Bocio endémico |
-| Puntaje de Predicción TxGNN | 99.81% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Indicación Original | Levotiroxina de sodio (el registro no detalla la indicación clínica) |
+| Nueva Indicación Predicha | Hipodisplasia/aplasia renal |
+| Puntaje de Predicción TxGNN | 0.9967 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la levotiroxina es la forma sintética de la tiroxina (T4), la principal hormona de la glándula tiroides. Su uso como reemplazo hormonal está ampliamente establecido, y mecanísticamente podría ser aplicable al bocio.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la levotiroxina es un reemplazo de la hormona tiroidea, y la hormona tiroidea participa en el desarrollo y la función normal del riñón.
 
-En el bocio por deficiencia de yodo, la glándula recibe una estimulación persistente de la hormona estimulante de la tiroides (TSH), lo que favorece el crecimiento del tejido tiroideo. La levotiroxina suprime la TSH y, con ello, reduce ese estímulo de crecimiento. Por eso la relación con la indicación original (reposición de hormona tiroidea) es directa: se trata del mismo eje hormonal tiroides–hipófisis.
+Sin embargo, no se establece un vínculo mecanístico directo. La hipodisplasia/aplasia renal es una malformación estructural congénita, generalmente causada por variantes genéticas (por ejemplo, PAX2, HNF1B, RET) que alteran la nefrogénesis. La levotiroxina administrada después del nacimiento no cabría esperar que restaure tejido renal ausente o displásico.
 
-Varios estudios europeos de los años 90 compararon levotiroxina, yodo y la combinación de ambos para reducir el volumen del bocio. El yodo es el tratamiento principal; la levotiroxina se usa como complemento o alternativa en pacientes seleccionados. Un estudio señala además que la levotiroxina sola no corrige la deficiencia de yodo dentro de la glándula, lo que puede favorecer recaídas.
-
----
+El puntaje alto (0.9967) es solo una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo de ensayos ni literatura. Otras predicciones del mismo modelo (aplasia renal bilateral, secuencia de Potter) pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un blanco terapéutico tratable. La cuarta predicción, el complejo de Carney, tiene solo un vínculo indirecto débil con el eje tiroideo y tampoco cuenta con evidencia.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para bocio endémico.
-
-Como referencia, para la tercera predicción (bocio nodular) sí existen dos ensayos completados:
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00277589](https://clinicaltrials.gov/study/NCT00277589) | Fase 4 | Completado | 1024 | Ensayo aleatorizado, ciego para el observador y controlado con placebo de terapia con levotiroxina ajustada a TSH en bocio nodular; objetivo principal: cambio en el volumen total de los nódulos |
-| [NCT00941551](https://clinicaltrials.gov/study/NCT00941551) | N/A | Completado | 150 | Seguimiento a 5 años de lobectomía tiroidea unilateral con o sin levotiroxina posoperatoria; evalúa recurrencia de bocio nodular en el lóbulo contralateral |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [2515973](https://pubmed.ncbi.nlm.nih.gov/2515973/) | 1989 | Ensayo multicéntrico aleatorizado | Eur J Clin Invest | 166 pacientes asignados a levotiroxina, yodo o combinación durante 12 meses en bocio por deficiencia de yodo |
-| [3278876](https://pubmed.ncbi.nlm.nih.gov/3278876/) | 1988 | Estudio clínico multicéntrico | Dtsch Med Wochenschr | 74 pacientes con bocio endémico tratados 6 meses con levotiroxina sola o combinada con yoduro |
-| [7900936](https://pubmed.ncbi.nlm.nih.gov/7900936/) | 1993 | Estudio clínico | Clin Endocrinol | Efecto de levotiroxina o yodo sobre el tamaño de la tiroides e inmunoglobulinas estimulantes del crecimiento |
-| [1789063](https://pubmed.ncbi.nlm.nih.gov/1789063/) | 1991 | Estudio doble ciego | Acta Endocrinol | Evolución del yodo tiroideo con yodo solo frente a yodo más levotiroxina |
-| [8676600](https://pubmed.ncbi.nlm.nih.gov/8676600/) | 1996 | Estudio clínico (adolescentes) | Klin Padiatr | Yodo frente a yodo más levotiroxina en 106 adolescentes, con atención a parámetros lipídicos |
-| [9011485](https://pubmed.ncbi.nlm.nih.gov/9011485/) | 1996 | Estudio clínico (adultos mayores) | Dtsch Med Wochenschr | Comparación de yoduro con levotiroxina en personas de edad media y avanzada |
-| [24393641](https://pubmed.ncbi.nlm.nih.gov/24393641/) | 1998 | Estudio de suplementación | Asia Pac J Clin Nutr | Levotiroxina 100 µg/día en población indígena de zona endémica, seguimiento de 1,5 años |
-| [11256036](https://pubmed.ncbi.nlm.nih.gov/11256036/) | 2001 | Estudio comparativo | Dtsch Med Wochenschr | Comparación de dos dosis de combinaciones levotiroxina-yoduro en bocio difuso eutiroideo |
-| [8147031](https://pubmed.ncbi.nlm.nih.gov/8147031/) | 1993 | Revisión | Z Gesamte Inn Med | El yodo debe formar parte siempre del tratamiento; la levotiroxina sola no corrige la deficiencia intratiroidea de yodo |
-| [9711053](https://pubmed.ncbi.nlm.nih.gov/9711053/) | 1998 | Estudio de bioequivalencia | Med Klin | Biodisponibilidad de levotiroxina más yodo frente a levotiroxina sola |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+La lista proviene de un recuento parcial; pueden existir más registros.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19992452 (cancelado) | EUTIROX® 150 MCG | Tableta | Levotiroxina de sodio |
-
----
+| 19992452 | EUTIROX® 150 MCG | Tableta (vía oral) | Levotiroxina de sodio |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (asociaciones del grafo de conocimiento, no texto de prospecto): hipertensión, enfermedad arterial coronaria, infarto de miocardio, diabetes mellitus y cetoacidosis diabética, osteoporosis (incluida la posmenopáusica), hipopituitarismo y deficiencias hipofisarias, hipogonadismo hipogonadotrópico (incluido el síndrome de Kallmann), síndrome de Sheehan y enfermedades del timo.
-- **Interacciones farmacológicas**: se identificaron 666 interacciones. Entre las listadas, casi todas son de nivel moderado: antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, canagliflozina, dapagliflozina, empagliflozina, clorpropamida, albiglutida, dulaglutida), inhibidores de la bomba de protones (omeprazol, rabeprazol, dexlansoprazol), sales de calcio y magnesio (fosfato de calcio, acetato de calcio, óxido de magnesio), epinefrina, isometepteno y dietilpropión. La cimetidina es de nivel menor.
-- **Riesgos de la supresión prolongada de TSH** (según la literatura revisada): fibrilación auricular y pérdida ósea, especialmente en adultos mayores.
+- **Relaciones de contraindicación registradas en el grafo de conocimiento** (no provienen del texto del prospecto): hipertensión y trastornos hipertensivos; hipopituitarismo y deficiencias hormonales hipofisarias (incluido el síndrome de Sheehan); hipogonadismo hipogonadotrópico y síndrome de Kallmann; deficiencia aislada de hormona de crecimiento; osteoporosis y osteoporosis posmenopáusica; diabetes mellitus y cetoacidosis diabética; enfermedad coronaria e infarto de miocardio; enfermedad del timo.
+- **Interacciones farmacológicas**: se identificaron 666 interacciones. Entre las listadas, la mayoría son de nivel moderado:
+  - Antidiabéticos: acarbosa, metformina, pioglitazona, alogliptina, albiglutida, dulaglutida, canagliflozina, dapagliflozina, empagliflozina, clorpropamida.
+  - Inhibidores de la bomba de protones: omeprazol, rabeprazol, dexlansoprazol.
+  - Sales de calcio y magnesio: fosfato de calcio, acetato de calcio, óxido de magnesio.
+  - Otros: epinefrina, isometepteno, dietilpropión.
+  - Cimetidina: interacción de nivel menor.
 
----
+Consultar el prospecto para las advertencias y contraindicaciones oficiales, que no se pudieron obtener para este informe.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El bocio endémico cuenta con múltiples estudios clínicos y un ensayo multicéntrico aleatorizado, pero sin ensayos registrados, y la literatura es mayormente antigua. El yodo es el tratamiento principal y la levotiroxina cumple un papel complementario, por lo que el uso debe ser prudente y bajo supervisión.
+La predicción no tiene ensayos clínicos ni publicaciones que la respalden (nivel L5), y la biología de una malformación renal congénita estructural no sugiere que la levotiroxina pueda corregirla. El puntaje alto del modelo no sustituye la evidencia real.
 
 **Para avanzar se necesita:**
-- Obtener las advertencias y contraindicaciones del prospecto en INVIMA (actualmente no disponibles).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar la situación regulatoria: el único registro sanitario está cancelado, por lo que no hay producto vigente con este registro en Colombia.
-- Definir un plan de monitoreo de TSH, función cardiaca y densidad ósea, sobre todo en adultos mayores.
-- Considerar el bocio nodular como indicación alternativa con mayor respaldo (NCT00277589, n=1024), aunque sus ensayos no son de Fase 3 y el nivel L1 asignado podría reducirse a L2 con una lectura estricta por fases.
-- Las predicciones de enfermedades renales congénitas (hipodisplasia/aplasia renal, agenesia renal bilateral, secuencia de Potter) y el complejo de Carney carecen de evidencia y de vínculo mecanístico plausible; se recomienda mantenerlas en espera (Hold).
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
+- Obtener datos del mecanismo de acción desde DrugBank.
+- Revisión sistemática de literatura que evalúe un posible papel de la hormona tiroidea en el desarrollo renal y en estas malformaciones.
+- Evidencia preclínica o clínica que sustente un beneficio en la indicación predicha antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

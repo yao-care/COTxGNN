@@ -4,17 +4,17 @@ title: Trandolapril
 parent: Solo Predicción del Modelo (L5)
 nav_order: 635
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Trandolapril: nueva indicación predicha, Hipertensión renovascular maligna (nivel de evidencia L5). Indicación original: Trandolapril y bloqueadores de canales del calcio"
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
+description: "Trandolapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO"
 ---
 
 # Trandolapril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Trandolapril: De Combinación con Bloqueadores de Canales de Calcio a Hipertensión Renovascular Maligna
+## Trandolapril: Malignant hypertensive renal disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trandolapril y bloqueadores de canales del calcio |
-| Nueva Indicación Predicha | Hipertensión renovascular maligna |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO |
+| Nueva Indicación Predicha | Malignant hypertensive renal disease |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -64,17 +64,17 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En la hipertensión renovascular, la activación del sistema renina-angiotensina es una vía central, por lo que bloquear este sistema es biológicamente plausible. Sin embargo, los inhibidores de la ECA conllevan un riesgo conocido de deterioro agudo de la función renal en la estenosis bilateral de la arteria renal, lo que exige cautela.
 
-El puntaje alto de TxGNN (99.92%) es solo una predicción computacional. No se aportaron ensayos ni literatura que la sustenten, por lo que la plausibilidad mecanística es un argumento de clase farmacológica y no una evidencia específica de trandolapril.
+El puntaje alto de TxGNN (0.9992) es solo una predicción computacional. No se aportaron ensayos ni literatura que la sustenten, por lo que la plausibilidad mecanística es un argumento de clase farmacológica y no una evidencia específica de trandolapril.
 
 ### Otras indicaciones predichas (para contexto)
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
 |------|------|------|------|
-| Enfermedad renal hipertensiva maligna | 99.92% | L5 | Racional de clase (menor presión intraglomerular); sin evidencia específica |
-| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.92% | L5 | Racional débil (remodelado vascular pulmonar); sin evidencia |
-| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.92% | L4 | Solo estudios preclínicos indirectos |
-| Síndrome de Braddock | 99.88% | L5 | Sin vínculo mecanístico claro |
-| Cardiopatía pulmonar crónica | 99.19% | L4 | Un estudio preclínico en ratas |
+| Enfermedad renal hipertensiva maligna | 0.9992 | L5 | Racional de clase (menor presión intraglomerular); sin evidencia específica |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 0.9992 | L5 | Racional débil (remodelado vascular pulmonar); sin evidencia |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0.9992 | L5 | Solo estudios preclínicos indirectos |
+| Síndrome de Braddock | 0.9988 | L5 | Sin vínculo mecanístico claro |
+| Cardiopatía pulmonar crónica | 0.9919 | L4 | Un estudio preclínico en ratas |
 
 ---
 

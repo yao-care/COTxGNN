@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 |------|------|
 | Indicación Original | RIBOCICLIB (el registro sanitario no detalla la indicación en texto) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La inhibición de CDK4/6 es biológicamente plausible en neoplasias mieloides, donde la desregulación del ciclo celular es frecuente. Un estudio preclínico de 2020 (PMID 32560251) sugiere que los inhibidores de CDK4/6 pueden actuar sobre la resistencia farmacocinética en células de leucemia mieloide aguda (LMA), asociada a la sobreexpresión de los transportadores ABCB1 y ABCG2.
 
-Sin embargo, la evidencia es **indirecta y solo preclínica**. El puntaje de 0.993 es una predicción computacional, no una confirmación clínica. Además, el segundo artículo recuperado (PMID 41641105) es un reporte de caso de adenocarcinoma vulvar y no guarda relación con la leucemia mieloide.
+Sin embargo, la evidencia es **indirecta y solo preclínica**. El puntaje de 0.9935 es una predicción computacional del modelo TxGNN (deep learning), no una confirmación clínica, y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, el segundo artículo recuperado (PMID 41641105) es un reporte de caso de adenocarcinoma vulvar y no guarda relación con la leucemia mieloide.
 
 ---
 
@@ -129,7 +129,7 @@ La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin e
 
 ### Nota sobre las demás predicciones
 
-Las otras tres predicciones del modelo (trombocitopenia, macrotrombocitopenia con insuficiencia mitral y trombocitopenia hereditaria con plaquetas normales) tienen puntajes de 99.07% a 99.27%, pero no son terapéuticamente plausibles. La trombocitopenia es un efecto adverso conocido de ribociclib por supresión de los progenitores hematopoyéticos, por lo que su uso para tratarla sería contradictorio y potencialmente dañino. La recomendación para todas ellas es **Hold** (nivel L4 para trombocitopenia y L5 para las dos condiciones raras, sin evidencia clínica ni bibliográfica).
+Las otras tres predicciones del modelo (trombocitopenia, macrotrombocitopenia con insuficiencia mitral y trombocitopenia hereditaria con plaquetas normales) tienen puntajes de 0.9907 a 0.9927, pero no son terapéuticamente plausibles. La trombocitopenia es un efecto adverso conocido de ribociclib por supresión de los progenitores hematopoyéticos, por lo que su uso para tratarla sería contradictorio y potencialmente dañino. La recomendación para todas ellas es **Hold** (nivel L4 para trombocitopenia y L5 para las dos condiciones raras, sin evidencia clínica ni bibliográfica).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

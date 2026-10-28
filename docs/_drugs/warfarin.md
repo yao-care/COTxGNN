@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Warfarin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 666
-evidence_level: L4
+evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-10-14
 description: "Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L4). Indicación original: WARFARINA"
@@ -14,7 +14,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with s
 # Warfarin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia de cofactor 
 |------|------|
 | Indicación Original | WARFARINA (el registro no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Deficiencia de cofactor 2 de la heparina |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9987 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,12 +69,12 @@ Sin embargo, la literatura disponible son solo reportes de casos y de familias c
 
 | Indicación predicha | Puntaje | Nivel | Comentario |
 |------|------|------|------|
-| Exceso de factor 5 con trombosis espontánea | 99.84% | L5 | Sin ensayos ni literatura; el factor V no depende de vitamina K, vínculo indirecto |
-| Deficiencia de antitrombina tipo 2 | 99.84% | L4 | Un solo reporte de caso; los antagonistas de vitamina K son un enfoque estándar en trombofilia hereditaria, pero no se aportó evidencia directa |
-| Trombofilia | 99.75% | L3 | Es la predicción con más respaldo: 1 ensayo Fase 3 relacionado y múltiples revisiones; recomendación del análisis: pregunta de investigación |
-| Artritis reumatoide | 99.21% | L4 | Los ensayos usan warfarina solo como sustrato de prueba en estudios de interacciones; no hay vínculo terapéutico |
-| Enfermedad fibroquística de la mama | 99.20% | L5 | Solo un reporte de interacción con danazol; sin mecanismo plausible |
-| Displasia mamaria benigna | 99.10% | L5 | Misma entidad que la anterior; sin evidencia |
+| Exceso de factor 5 con trombosis espontánea | 0.9984 | L5 | Sin ensayos ni literatura; el factor V no depende de vitamina K, vínculo indirecto |
+| Deficiencia de antitrombina tipo 2 | 0.9984 | L4 | Un solo reporte de caso; los antagonistas de vitamina K son un enfoque estándar en trombofilia hereditaria, pero no se aportó evidencia directa |
+| Trombofilia | 0.9975 | L3 | Es la predicción con más respaldo: 1 ensayo Fase 3 relacionado y múltiples revisiones; recomendación del análisis: pregunta de investigación |
+| Artritis reumatoide | 0.9921 | L4 | Los ensayos usan warfarina solo como sustrato de prueba en estudios de interacciones; no hay vínculo terapéutico |
+| Enfermedad fibroquística de la mama | 0.9920 | L5 | Solo un reporte de interacción con danazol; sin mecanismo plausible |
+| Displasia mamaria benigna | 0.9910 | L5 | Misma entidad que la anterior; sin evidencia |
 
 ---
 
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para deficiencia d
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20014730 | WARFAR5 MG. TABLETAS | Tableta | WARFARINA | Cancelado |
+| 20014730 | WARFAR5 MG. TABLETAS | Tableta | WARFARINA | Vigente |
 
 ---
 
@@ -122,7 +122,7 @@ La predicción principal se apoya únicamente en tres reportes de casos antiguos
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
 - Confirmar el mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: ningún registro vigente de warfarina en los datos revisados, y la indicación registrada no es específica.
+- Aclarar la situación regulatoria: la warfarina está comercializada, con 1 registro vigente de 1 en los datos revisados, y la indicación registrada no es específica.
 - Considerar priorizar la **trombofilia** (nivel L3) como pregunta de investigación, apoyada en el ensayo Fase 3 NCT00895505 (estado desconocido, sin resultados) y en las revisiones, con salvaguardas: tamizaje de proteína C/S, evitar el uso en embarazo y monitorización del INR.
 - Para las demás indicaciones de TxGNN, buscar estudios clínicos específicos de eficacia; las asociaciones con artritis reumatoide y enfermedad fibroquística de la mama parecen reflejar coprescripción e interacciones, no beneficio terapéutico.
 ## Descargo de responsabilidad

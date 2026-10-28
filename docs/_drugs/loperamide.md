@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa
 |------|------|
 | Indicación Original | Loperamida (el texto del registro no detalla la indicación; corresponde al uso antidiarreico conocido del fármaco) |
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, loperamida es un agonista de receptores opioides mu de acción periférica que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal, lo que explica su uso en la diarrea.
 
-**La predicción no resulta razonable desde el punto de vista mecanístico.** No existe un vínculo plausible entre la reducción de la motilidad intestinal y la inflamación infecciosa de la conjuntiva. El puntaje alto de TxGNN (99.97%) es solo una predicción del modelo y probablemente es un artefacto del grafo de conocimiento. Además, varias predicciones del mismo grupo (conjuntivitis, conjuntivitis pseudomembranosa, conjuntivitis folicular crónica, foliculosis conjuntival, conjuntivitis serosa, conjuntivitis parasitaria) comparten puntajes idénticos o casi idénticos, lo que sugiere una propagación por ontología y no una señal independiente.
+**La predicción no resulta razonable desde el punto de vista mecanístico.** No existe un vínculo plausible entre la reducción de la motilidad intestinal y la inflamación infecciosa de la conjuntiva. El puntaje alto de TxGNN (0.9997) es solo una predicción del modelo y probablemente es un artefacto del modelo TxGNN (aprendizaje profundo). Además, varias predicciones del mismo grupo (conjuntivitis, conjuntivitis pseudomembranosa, conjuntivitis folicular crónica, foliculosis conjuntival, conjuntivitis serosa, conjuntivitis parasitaria) comparten puntajes idénticos o casi idénticos, lo que sugiere una propagación por ontología y no una señal independiente.
 
 Entre las otras predicciones evaluadas, **disentería amebiana** (99.95%) y **gastroduodenitis** (99.77%) son más cercanas al campo gastrointestinal, pero la literatura disponible las muestra como señales de **daño**, no de eficacia (véase Consideraciones de Seguridad).
 
@@ -91,10 +91,10 @@ Como referencia, para otras indicaciones predichas existe la siguiente literatur
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 34537 | Loperamida Tabletas por 2 mg (Laboratorios Ecar S.A.) | Tableta | Loperamida (cancelado) |
-| 207751 | Loperamida Clorhidrato 2 mg Tabletas (Laproff S.A.S.) | Tableta | Loperamida (cancelado) |
-| 20046526 | Loperamida Clorhidrato 2 mg (Genfar S.A.) | Tableta | Loperamida (cancelado) |
-| 19924345 | Pangetan NF Tabletas (Tecnoquímicas S.A.) | Tableta | Loperamida (cancelado) |
+| 34537 | Loperamida Tabletas por 2 mg (Laboratorios Ecar S.A.) | Tableta | Loperamida (vigente) |
+| 207751 | Loperamida Clorhidrato 2 mg Tabletas (Laproff S.A.S.) | Tableta | Loperamida (vigente) |
+| 20046526 | Loperamida Clorhidrato 2 mg (Genfar S.A.) | Tableta | Loperamida (vigente) |
+| 19924345 | Pangetan NF Tabletas (Tecnoquímicas S.A.) | Tableta | Loperamida (vigente) |
 
 Los 4 registros están cancelados; actualmente no hay registros vigentes.
 
@@ -122,7 +122,7 @@ La predicción para conjuntivitis contagiosa aguda es solo del modelo (L5), sin 
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
 - Una hipótesis biológica plausible que vincule la acción opioide periférica con la patología ocular, y estudios preclínicos que la respalden.
 - Confirmar si existe alguna vía de administración compatible (la única forma registrada es la tableta oral, no apta para uso ocular).
-- Revisar si el puntaje alto proviene de un artefacto de propagación en el grafo de conocimiento.
+- Revisar que el puntaje alto proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

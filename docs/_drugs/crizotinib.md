@@ -4,7 +4,7 @@ title: Crizotinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 181
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Crizotinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo dice \"CRI…"
 monitor_inn: "CRIZOTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Crizotinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,8 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET) cuyo único registro sanitario en Colombia (Xalkori®, Pfizer) figura hoy como cancelado, y el texto de indicación registrado solo repite el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con un puntaje muy alto (99.81%), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-Se trata de una predicción basada únicamente en el grafo de conocimiento, sin evidencia real que la sustente.
+El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con un puntaje muy alto (0.9981), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
+Se trata de una predicción del modelo TxGNN (deep learning), cuyo puntaje puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -50,9 +50,9 @@ Se trata de una predicción basada únicamente en el grafo de conocimiento, sin 
 |------|------|
 | Indicación Original | No especificada en el registro (el texto de indicación solo dice "CRIZOTINIB"); en la literatura, cáncer de pulmón de células no pequeñas ALK/ROS1 positivo |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original (un cáncer impulsado por oncogenes quinasa) y la fibromatosis gingival (un sobrecrecimiento fibroso benigno de la encía) **no es evidente**. No se identificó ninguna vía de ALK, ROS1 o MET vinculada con la patología de la fibromatosis gingival, y no hay ensayos ni literatura que apoyen un vínculo.
 
-Por lo tanto, el puntaje alto del modelo debe interpretarse con cautela: es una asociación derivada del grafo de conocimiento, no una hipótesis mecanística respaldada. Cualquier avance requeriría primero establecer una justificación biológica.
+Por lo tanto, el puntaje alto del modelo debe interpretarse con cautela: proviene del modelo TxGNN (deep learning) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no una hipótesis mecanística respaldada. Cualquier avance requeriría primero establecer una justificación biológica.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20083808 | XALKORI® 200MG CÁPSULAS (Pfizer S.A.S.) | Cápsula dura | CRIZOTINIB (estado: cancelado) |
+| 20083808 | XALKORI® 200MG CÁPSULAS (Pfizer S.A.S.) | Cápsula dura | CRIZOTINIB (estado: vigente) |
 
 ---
 

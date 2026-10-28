@@ -50,9 +50,9 @@ Cabe señalar que el uso de la nistatina en candidiasis vulvovaginal ya está es
 |------|------|
 | Indicación Original | Combinaciones de imidazol derivados |
 | Nueva Indicación Predicha | Vulvovaginitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 

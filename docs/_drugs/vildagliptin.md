@@ -4,17 +4,17 @@ title: Vildagliptin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 659
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Vildagliptin: nueva indicación predicha, Síndrome de rigidez focal de extremidad (nivel de evidencia L5). Indicación original: Metformina / Vildagliptina (diabetes tipo 2)"
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+description: "Vildagliptin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: METFORMINA / VILDAGLIPTINA"
 ---
 
 # Vildagliptin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vildagliptina: De Metformina/Vildagliptina (diabetes tipo 2) a Síndrome de Rigidez Focal de Extremidad
+## Vildagliptin: Focal stiff limb syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Metformina / Vildagliptina (diabetes tipo 2) |
-| Nueva Indicación Predicha | Síndrome de rigidez focal de extremidad |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | METFORMINA / VILDAGLIPTINA |
+| Nueva Indicación Predicha | Focal stiff limb syndrome |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19998394 | GALVUS® MET comprimidos recubiertos con película 50 mg / 1000 mg (Novartis Pharma AG) | Tableta cubierta con película | Metformina / Vildagliptina | Cancelado |
+| 19998394 | GALVUS® MET comprimidos recubiertos con película 50 mg / 1000 mg (Novartis Pharma AG) | Tableta cubierta con película | Metformina / Vildagliptina | Vigente |
 
 ---
 
@@ -100,7 +100,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.88%), pero no cuenta con ensayos clínicos ni literatura, y no hay un mecanismo plausible que vincule la inhibición de DPP-4 con esta enfermedad. Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto (0.9988), pero no cuenta con ensayos clínicos ni literatura, y no hay un mecanismo plausible que vincule la inhibición de DPP-4 con esta enfermedad. Además, el único registro sanitario en Colombia está cancelado.
 
 **Nota:** Entre las predicciones compiladas para este fármaco, la diabetes mellitus tipo 1 tiene la evidencia más sólida (nivel L2). Incluye 7 ensayos clínicos, entre ellos un ensayo Fase 3 pequeño de estado desconocido (NCT01559025, n=44) y un ECA doble ciego de rapamicina más vildagliptina (PMID 33124663). Si se busca una vía de reposicionamiento con respaldo real, esa indicación merece una evaluación aparte.
 

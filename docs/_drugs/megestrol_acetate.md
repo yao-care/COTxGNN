@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Megestrol Acetate
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 424
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Megestrol Acetate: nueva indicación predicha, Carcinoma endometrial del cuerpo uterino (nivel de evidencia L2). Indicación original: MEGESTROL"
+description: "Acetato de Megestrol: nueva indicación predicha, hereditary breast ovarian cancer syndrome (nivel de evidencia L2). Indicación original: MEGESTROL"
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline
 # Megestrol Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Acetato de Megestrol: De Indicación Original (MEGESTROL) a Carcinoma Endometrial del Cuerpo Uterino
+## Acetato de Megestrol: De Indicación Original (MEGESTROL) a hereditary breast ovarian cancer syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,10 +50,10 @@ Cabe aclarar que se trata de un uso hormonal ya reconocido en la práctica clín
 |------|------|
 | Indicación Original | MEGESTROL (el registro no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Carcinoma endometrial del cuerpo uterino |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9989 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

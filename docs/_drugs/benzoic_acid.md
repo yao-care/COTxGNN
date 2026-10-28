@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos** y solo **2 publicaciones**, ningun
 |------|------|
 | Indicación Original | Ácido salicílico, ácido benzoico (el registro no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos** y solo **2 publicaciones**, ningun
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido benzoico se ha usado en preparaciones dermatológicas tópicas, normalmente combinado con ácido salicílico, y no existe un vínculo mecanístico establecido con la bronquitis.
 
-Las dos publicaciones recuperadas para esta predicción tratan sobre repaglinida en diabetes tipo 2 y sobre un inhibidor de la epóxido hidrolasa soluble en EPOC inducida por humo de tabaco. Ninguna estudia el ácido benzoico. El puntaje alto de TxGNN proviene solo de la estructura del grafo de conocimiento, no de evidencia biológica o clínica directa.
+Las dos publicaciones recuperadas para esta predicción tratan sobre repaglinida en diabetes tipo 2 y sobre un inhibidor de la epóxido hidrolasa soluble en EPOC inducida por humo de tabaco. Ninguna estudia el ácido benzoico. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica directa.
 
 Además, existe una diferencia importante de vía: los productos registrados son tópicos (ungüento y solución), mientras que la bronquitis requeriría una vía respiratoria u oral. La compatibilidad de vía aún no se ha evaluado.
 
@@ -87,8 +87,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19930281 | NIXODERM UNGUENTO | Ungüento tópico | Ácido salicílico, ácido benzoico (cancelado) |
-| 20028320 | DERMICOX | Solución tópica | Ácido aminobenzoico (cancelado) |
+| 19930281 | NIXODERM UNGUENTO | Ungüento tópico | Ácido salicílico, ácido benzoico (vigente) |
+| 20028320 | DERMICOX | Solución tópica | Ácido aminobenzoico (vigente) |
 
 ---
 
@@ -104,7 +104,7 @@ Como señal de alerta adicional, el grafo de conocimiento (no el texto del prosp
 - **Neuromusculares:** miastenia gravis, miastenia gravis de inicio en la adultez y enfermedad de la unión neuromuscular.
 - **Gastrointestinales y otras:** gastritis, acalasia, megaesófago, anorexia nerviosa e hiperplasia prostática benigna.
 
-Estas relaciones provienen de predicciones del grafo y deben verificarse con fuentes regulatorias antes de cualquier uso.
+Estas relaciones provienen de predicciones del modelo TxGNN (aprendizaje profundo) y deben verificarse con fuentes regulatorias antes de cualquier uso.
 
 ---
 

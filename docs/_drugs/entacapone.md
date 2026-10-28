@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para la **neurodegeneración as
 |------|------|
 | Indicación Original | Levodopa e inhibidor de decarboxilasa |
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -69,11 +69,11 @@ La predicción se basa únicamente en el modelo y no cuenta con respaldo clínic
 
 | Posición | Enfermedad | Puntaje TxGNN | Nivel | Comentario |
 |---|---|---|---|---|
-| 2 | Encefalitis subaguda de Rasmussen | 99.73% | L5 | Sin relevancia mecanística establecida |
-| 3 | Mielitis | 99.63% | L5 | Sin mecanismo antiinflamatorio conocido |
-| 4 | Parálisis agitante juvenil de Hunt | 99.60% | L5 | Plausible biológicamente (déficit dopaminérgico), sin estudios |
-| 7 | Demencia con cuerpos de Lewy | 99.25% | L4 | Apoyo indirecto solo preclínico |
-| 10 | Síndrome de parálisis supranuclear progresiva-corticobasal | 99.04% | L5 | Respuesta pobre a levodopa; rationale limitado |
+| 2 | Encefalitis subaguda de Rasmussen | 0.9973 | L5 | Sin relevancia mecanística establecida |
+| 3 | Mielitis | 0.9963 | L5 | Sin mecanismo antiinflamatorio conocido |
+| 4 | Parálisis agitante juvenil de Hunt | 0.9960 | L5 | Plausible biológicamente (déficit dopaminérgico), sin estudios |
+| 7 | Demencia con cuerpos de Lewy | 0.9925 | L4 | Apoyo indirecto solo preclínico |
+| 10 | Síndrome de parálisis supranuclear progresiva-corticobasal | 0.9904 | L5 | Respuesta pobre a levodopa; rationale limitado |
 
 Las demás predicciones (deficiencia de transaldolasa, miopatía mitocondrial infantil letal, deficiencia de fructosa-1,6-bisfosfatasa, polimicrogiria perisilviana) no muestran un vínculo mecanístico plausible y carecen de evidencia.
 
@@ -95,7 +95,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20147960 | LEVOCAPONE 50/12.5/200 tableta recubierta | Tableta recubierta | Levodopa e inhibidor de decarboxilasa | Cancelado |
+| 20147960 | LEVOCAPONE 50/12.5/200 tableta recubierta | Tableta recubierta | Levodopa e inhibidor de decarboxilasa | Vigente |
 
 El único registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano.
 

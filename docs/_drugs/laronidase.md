@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Laronidase
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 381
-evidence_level: L3
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con compromiso esquelético (nivel de evidencia L3). Indicación original: Laronidasa"
@@ -14,7 +14,7 @@ predicted_indications: ["lysosomal storage disease with skeletal involvement", "
 # Laronidase
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La evidencia es de **0 ensayos clínicos** y **4 publicaciones** (revisiones, un
 |------|------|
 | Indicación Original | Laronidasa (el registro sanitario solo indica el nombre del principio activo) |
 | Nueva Indicación Predicha | Enfermedad de depósito lisosomal con compromiso esquelético |
-| Puntaje de Predicción TxGNN | 99.31% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9931 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -131,7 +131,7 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de Sanfilip
 |------|------|
 | Indicación Original | Laronidasa (solo el nombre del principio activo) |
 | Nueva Indicación Predicha | Síndrome de Sanfilippo |
-| Puntaje de Predicción TxGNN | 99.22% |
+| Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Solo registros cancelados |
 | Número de Registros Sanitarios | 1 |

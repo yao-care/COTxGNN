@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | Diazepam (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 

@@ -4,17 +4,17 @@ title: Tapentadol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 606
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Tapentadol"
 monitor_inn: "tapentadol"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Tapentadol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ La predicción se basa únicamente en el modelo computacional.
 |------|------|
 | Indicación Original | Tapentadol (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ La predicción se basa únicamente en el modelo computacional.
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tapentadol es un agonista del receptor opioide mu y un inhibidor de la recaptación de noradrenalina. Su eficacia se ha establecido en dolor, y mecanísticamente podría relacionarse con la migraña mediante la modulación central del dolor.
 
-Sin embargo, este vínculo es solo teórico. Los opioides generalmente **no se recomiendan** para la migraña por el riesgo de cefalea por sobreuso de medicación, cronificación y su menor eficacia frente a triptanes, gepantes y AINE. El puntaje alto de TxGNN (0.997) es una predicción computacional que no cuenta con respaldo clínico.
+Sin embargo, este vínculo es solo teórico. Los opioides generalmente **no se recomiendan** para la migraña por el riesgo de cefalea por sobreuso de medicación, cronificación y su menor eficacia frente a triptanes, gepantes y AINE. El puntaje alto de TxGNN (0.9967) es una predicción computacional que no cuenta con respaldo clínico.
 
 Las otras predicciones del modelo (migraña con aura del tronco encefálico y susceptibilidad a migraña con o sin aura) siguen el mismo razonamiento. La última es un fenotipo de susceptibilidad genética, no una indicación tratable, por lo que probablemente es un artefacto del mapeo de ontologías. En la migraña con aura del tronco encefálico, las características neurológicas del aura hacen que un mecanismo puramente analgésico sea aún menos adecuado.
 
@@ -89,8 +89,8 @@ Para la predicción principal (trastorno de migraña) no hay literatura disponib
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20049944 | PALEXIS® RETARD 100 MG (cancelado) | Tableta de liberación prolongada | TAPENTADOL |
-| 20049941 | PALEXIS® RETARD 150 MG (cancelado) | Tableta de liberación prolongada | TAPENTADOL |
+| 20049944 | PALEXIS® RETARD 100 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
+| 20049941 | PALEXIS® RETARD 150 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
 
 Ambos registros, de GRÜNENTHAL GMBH, están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en los datos compilados.
 

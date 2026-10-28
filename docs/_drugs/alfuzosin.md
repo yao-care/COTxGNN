@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 |------|------|
 | Indicación Original | ALFUZOSINA (el registro no especifica la indicación) |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.999% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por farmacología general, la alfuzosina bloquea los receptores adrenérgicos alfa-1, con selectividad por el tracto urogenital, y se usa en síntomas urinarios por hiperplasia prostática benigna.
 
-No se ha identificado un vínculo mecanístico plausible con la hipertricosis de Ambras, una enfermedad congénita asociada a reordenamientos cromosómicos que afectan la regulación de TRPS1. El puntaje alto (~0.99999) refleja probablemente la proximidad en la red del grafo de conocimiento con fenotipos relacionados con el cabello, no evidencia biológica ni clínica.
+No se ha identificado un vínculo mecanístico plausible con la hipertricosis de Ambras, una enfermedad congénita asociada a reordenamientos cromosómicos que afectan la regulación de TRPS1. El puntaje alto (1.0000) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
 Cabe señalar que algunos agentes vasodilatadores (por ejemplo, minoxidil) se asocian con hipertricosis como efecto adverso. Si existiera una señal capilar para la alfuzosina, sería más bien una dirección de efecto adverso que terapéutica. En conjunto, la predicción debe considerarse especulativa.
 

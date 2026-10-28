@@ -4,17 +4,17 @@ title: Dihydrocodeine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 221
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Dihydrocodeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: DIHIDROCODEINA"
 monitor_inn: "dihydrocodeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
 ---
 
 # Dihydrocodeine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | DIHIDROCODEINA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin productos vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la dihidrocodeína es un opioide con efectos antitusivos y analgésicos. Mecanísticamente, un vínculo con afecciones de las vías respiratorias superiores es concebible, pero solo como alivio sintomático.
 
-El puntaje de TxGNN es muy alto (99.99%), pero es una predicción computacional. Los datos compilados para este informe no contienen ensayos ni literatura que sustenten una relación entre el fármaco y las enfermedades de la cavidad nasal. La similitud con la indicación original no ha sido evaluada.
+El puntaje de TxGNN es muy alto (0.9999), pero es una predicción computacional. Los datos compilados para este informe no contienen ensayos ni literatura que sustenten una relación entre el fármaco y las enfermedades de la cavidad nasal. La similitud con la indicación original no ha sido evaluada.
 
 Otras predicciones del modelo (por ejemplo, laringofaringitis aguda, cefalea, enfermedad degenerativa del disco cervical) tienen igualmente un respaldo muy limitado. En urticaria alérgica y urticaria por frío, el vínculo plausible apunta más a un posible daño que a un beneficio, porque los opioides pueden liberar histamina.
 
@@ -90,10 +90,10 @@ Como referencia, para la predicción de rango 7 (trastorno de cefalea) se recupe
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 31398 | PARACODINA JARABE | Jarabe | DIHIDROCODEINA (cancelado) |
-| 19955900 | DIHIDROCODEINA BITARTRATO 2.42 MG/ML JARABE | Jarabe | DIHIDROCODEINA (cancelado) |
-| 33722 | PARACODINA GOTAS | Solución oral | DIHIDROCODEINA (cancelado) |
-| 20056688 | DIHIDROCODEINA 2.42 MG/ML SOLUCIÓN ORAL | Solución oral | DIHIDROCODEINA (cancelado) |
+| 31398 | PARACODINA JARABE | Jarabe | DIHIDROCODEINA (vigente) |
+| 19955900 | DIHIDROCODEINA BITARTRATO 2.42 MG/ML JARABE | Jarabe | DIHIDROCODEINA (vigente) |
+| 33722 | PARACODINA GOTAS | Solución oral | DIHIDROCODEINA (vigente) |
+| 20056688 | DIHIDROCODEINA 2.42 MG/ML SOLUCIÓN ORAL | Solución oral | DIHIDROCODEINA (vigente) |
 
 ---
 

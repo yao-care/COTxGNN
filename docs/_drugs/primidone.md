@@ -4,7 +4,7 @@ title: Primidone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 535
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Primidone: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: PRIMIDONA"
 monitor_inn: "primidone"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Primidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Primidona es un anticonvulsivo cuyo registro sanitario en Colombia (tabletas de 250 mg) figura solo con el nombre del principio activo, sin una indicación detallada.
-El modelo TxGNN predice como primera opción **neoplasia del nervio trigémino** (puntaje 99.99%), pero **sin ensayos clínicos ni publicaciones** que la respalden; es una predicción puramente computacional y mecanísticamente poco plausible.
+El modelo TxGNN predice como primera opción **neoplasia del nervio trigémino** (puntaje 0.9999), pero **sin ensayos clínicos ni publicaciones** que la respalden; es una predicción puramente computacional y mecanísticamente poco plausible.
 Entre las demás predicciones, la **neuralgia del trigémino** es la más verosímil clínicamente, aunque con evidencia solo indirecta.
 
 ---
@@ -50,10 +50,10 @@ Entre las demás predicciones, la **neuralgia del trigémino** es la más veros�
 |------|------|
 | Indicación Original | PRIMIDONA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Entre las demás predicciones, la **neuralgia del trigémino** es la más veros�
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la primidona es un antiepiléptico que se metaboliza a fenobarbital y feniletilmalonamida (PEMA). El fenobarbital potencia la inhibición mediada por el receptor GABA-A, y la primidona también modula canales de sodio. Su eficacia en epilepsia está bien establecida.
 
-Para la neoplasia del nervio trigémino **no existe un vínculo mecanístico plausible**: no hay un mecanismo antineoplásico conocido para la primidona. La predicción probablemente refleja la cercanía en el grafo de conocimiento con términos como la neuralgia del trigémino, y no una biología tumoral real. Este puntaje tan alto debe interpretarse con cautela.
+Para la neoplasia del nervio trigémino **no existe un vínculo mecanístico plausible**: no hay un mecanismo antineoplásico conocido para la primidona. El puntaje (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neuralgia del trigémino, y no evidencia biológica. Este puntaje tan alto debe interpretarse con cautela.
 
 Otras predicciones del modelo sí guardan relación con la acción antiepiléptica: epilepsias reflejas (convulsiones por pensamiento, sobresalto, alimentación, micción, estímulos sonoros, lectura u orgasmo) y neuralgia del trigémino. Ahí el mecanismo es plausible, pero la evidencia es indirecta (ver más abajo). La deficiencia de beta-cetotiolasa, en cambio, es un trastorno metabólico sin conexión conocida con la primidona.
 

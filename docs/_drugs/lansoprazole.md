@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lansoprazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 380
-evidence_level: L4
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Lansoprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: LANSOPRAZOL"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
+last_modified_at: 2026-10-27
+description: "Lansoprazole: nueva indicación predicha, Obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: LANSOPRAZOL"
 ---
 
 # Lansoprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,85 +33,72 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **2**
 
 </div>
 
-## Lansoprazol: De Lansoprazol (indicación no detallada) a Reflujo Duodenogástrico
+## Lansoprazol: inhibidor de la bomba de protones → obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lansoprazol es un inhibidor de la bomba de protones, registrado en Colombia bajo el producto LANZOR® 30 mg cápsula; el registro sanitario no detalla una indicación específica más allá del nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **Reflujo Duodenogástrico**, pero actualmente no hay ensayos clínicos y solo **1 publicación** (una revisión general sobre inhibidores de la bomba de protones) respalda esta dirección de forma indirecta.
-
----
+Lansoprazol es un inhibidor de la bomba de protones (IBP) con registro sanitario en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **obstrucción duodenal (duodenal obstruction)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LANSOPRAZOL (el registro no especifica la indicación) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Indicación Original | LANSOPRAZOL |
+| Nueva Indicación Predicha | Obstrucción duodenal (duodenal obstruction) |
+| Puntaje de Predicción TxGNN | 0,9968 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, lansoprazol pertenece a la clase de los inhibidores de la bomba de protones (IBP), que suprimen la secreción de ácido gástrico.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su clase, lansoprazol suprime la secreción de ácido gástrico, y esta acción podría tener un papel de apoyo en condiciones relacionadas con enfermedad péptica.
 
-El reflujo duodenogástrico consiste en el paso de contenido duodenal (bilis y secreciones pancreáticas) hacia el estómago. La supresión ácida podría reducir la lesión de la mucosa y los síntomas en un reflujo mixto ácido/biliar, pero no evita el reflujo en sí. Por lo tanto, el vínculo es sintomático e indirecto.
+La obstrucción duodenal es, ante todo, una condición mecánica (por ejemplo, estenosis, tumor, páncreas anular o síndrome de la arteria mesentérica superior) que requiere manejo endoscópico o quirúrgico. La supresión ácida podría ayudar a controlar una enfermedad péptica que cause una estenosis o a reducir las secreciones gástricas, pero no hay evidencia de un efecto modificador de la enfermedad.
 
-El puntaje alto de TxGNN (0.997) es una predicción computacional y no constituye evidencia clínica. La relación mecanística se apoya únicamente en el mecanismo conocido de la clase de los IBP.
-
----
+El puntaje alto (0,9968) es solo una predicción del modelo y no equivale a evidencia clínica. Probablemente refleja la cercanía de esta enfermedad con la enfermedad ulcerosa péptica en los datos con que se entrenó el modelo.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualización del uso clínico y la farmacocinética de los IBP, que son de primera elección en úlcera péptica, infección por *H. pylori*, enfermedad por reflujo gastroesofágico, lesiones por AINE y síndrome de Zollinger-Ellison. No aborda directamente el reflujo duodenogástrico. |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20057384 (cancelado) | LANZOR® 30 MG CÁPSULA | Cápsula dura | LANSOPRAZOL |
+| 20057384 | LANZOR® 30 MG CÁPSULA | Cápsula dura | No registrada en los datos locales |
 
----
+Los datos compilados pueden ser parciales; la lista de registros podría no estar completa.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas en el grafo de conocimiento (PrimeKG, no provienen del prospecto):** hipertensión, síndrome de QT largo, torsades de pointes, insuficiencia hepática, porfiria, enfermedad renal, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, osteoporosis, trastornos de coagulación, accidente cerebrovascular, infarto de miocardio, anemia, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal y miastenia gravis. Estas relaciones son asociaciones del grafo y deben verificarse con la información oficial del producto.
-- **Interacciones farmacológicas:** se identificaron 100 interacciones; las primeras 20 incluyen:
-  - **Mayores:** acalabrutinib, atazanavir.
-  - **Moderadas:** hidroclorotiazida, anfotericina B, amikacina, anfetamina, ampicilina, fenofibrato, apalutamida, aprepitant, atorvastatina, bosutinib, brigatinib, bromocriptina, entre otras.
-  - **Menores:** ácido acetilsalicílico, axitinib, brivaracetam, cianocobalamina.
+- **Interacciones Farmacológicas**: se consultaron 100 interacciones; entre las principales figuran:
+  - Gravedad mayor: acalabrutinib, atazanavir.
+  - Gravedad moderada: hidroclorotiazida, anfotericina B, amikacina, anfetamina, ampicilina, fenofibrato, apalutamida, aprepitant, atorvastatina, bosutinib, brigatinib, bromocriptina.
+  - Gravedad menor: ácido acetilsalicílico, axitinib, brivaracetam, cianocobalamina.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo y en una revisión general de IBP, sin ensayos clínicos específicos para reflujo duodenogástrico. Además, el único registro sanitario en Colombia está cancelado.
+No existe ningún ensayo ni publicación que estudie lansoprazol en obstrucción duodenal, y la causa de esta condición es principalmente mecánica. El puntaje del modelo no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
-- Estudios clínicos o literatura específica sobre lansoprazol en reflujo duodenogástrico.
-- Datos del mecanismo de acción confirmados desde DrugBank.
-- Prospecto oficial de INVIMA con advertencias y contraindicaciones.
-- Verificar la situación regulatoria actual (registro cancelado) y la viabilidad de comercialización.
-- Evaluar de forma clínica las contraindicaciones del grafo de conocimiento y las interacciones mayores.
+- Revisar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente de obtener.
+- Datos del mecanismo de acción desde DrugBank.
+- Búsqueda de estudios clínicos o de literatura que evalúen directamente la obstrucción duodenal.
+- Definir qué subgrupo de pacientes (por ejemplo, con enfermedad péptica causante de estenosis) podría beneficiarse, y compatibilidad de vía de administración.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

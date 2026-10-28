@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Bupropion
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 122
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: BUPROPION"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "attention d
 # Bupropion
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Bupropión: De Indicación Registrada (Bupropión) a Trastorno por Déficit de Atención e Hiperactividad
+## Bupropión: De Indicación Registrada (Bupropión) a Trastorno por Déficit de Atención e Hiperactividad (TDAH)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaci
 |------|------|
 | Indicación Original | BUPROPION (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 (ver nota abajo) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -104,9 +104,9 @@ La alta puntuación de TxGNN (0.9999) es coherente con este solapamiento mecaní
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19967275 | WELLBUTRIN® XL 150 MG | Tableta de liberación prolongada | BUPROPION (cancelado) |
-| 19967276 | WELLBUTRIN® XL 300 MG | Tableta de liberación prolongada | BUPROPION (cancelado) |
-| 20058938 | BUPRION® 150 MG | Tableta de liberación prolongada | BUPROPION (cancelado) |
+| 19967275 | WELLBUTRIN® XL 150 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
+| 19967276 | WELLBUTRIN® XL 300 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
+| 20058938 | BUPRION® 150 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
 
 ---
 

@@ -50,10 +50,10 @@ La predicción se apoya únicamente en el puntaje del modelo.
 |------|------|
 | Indicación Original | CLOFAZIMINA (el registro sanitario no detalla una indicación en texto) |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

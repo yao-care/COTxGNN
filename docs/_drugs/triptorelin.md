@@ -6,9 +6,9 @@ nav_order: 647
 evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Triptorelin: nueva indicación predicha, Pubertad precoz (nivel de evidencia L1). Indicación original: TRIPTORELIN"
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
+description: "Triptorelin: nueva indicación predicha, Hypertrichosis (disease) (nivel de evidencia L1). Indicación original: TRIPTORELIN"
 ---
 
 # Triptorelin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Triptorelina: De Indicación Original No Especificada a Pubertad Precoz
+## Triptorelin: Hypertrichosis (disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,15 +48,15 @@ Cabe aclarar que esta es probablemente una indicación ya establecida en muchos 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | TRIPTORELIN (el registro no especifica la indicación aprobada) |
-| Nueva Indicación Predicha | Pubertad precoz |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | TRIPTORELIN |
+| Nueva Indicación Predicha | Hypertrichosis (disease) |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre la selección:** la primera predicción del listado (hipertricosis, puntaje 99.997%) no tiene sustento mecanístico ni ensayos clínicos (nivel L4, decisión Hold). Este informe se centra en la pubertad precoz, que es la predicción con la evidencia más sólida entre las 10 evaluadas.
+**Nota sobre la selección:** la primera predicción del listado (hipertricosis, puntaje 1.0000) no tiene sustento mecanístico ni ensayos clínicos (nivel L4, decisión Hold). Este informe se centra en la pubertad precoz, que es la predicción con la evidencia más sólida entre las 10 evaluadas.
 
 ---
 
@@ -106,8 +106,8 @@ Como la indicación original no está especificada en los registros colombianos,
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19982483 | GONAPEPTYL® DEPOT | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Cancelado |
-| 19931457 | DIPHERELINE® 3.75 MG | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Cancelado |
+| 19982483 | GONAPEPTYL® DEPOT | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Vigente |
+| 19931457 | DIPHERELINE® 3.75 MG | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Vigente |
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dapoxetine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 194
-evidence_level: L4
+evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: DAPOXETINA"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine wit
 # Dapoxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,17 +47,17 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | DAPOXETINA (el registro sanitario no detalla la indicación; según la literatura, eyaculación precoz) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.34% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Puntaje de Predicción TxGNN | 0.9934 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, dapoxetina es un ISRS de acción corta que actúa sobre el transportador de serotonina (SERT, gen SLC6A4). Su eficacia en la eyaculación precoz es conocida, y mecanísticamente podría ser aplicable a la migraña por la vía serotoninérgica.
 
-La disfunción serotoninérgica participa en la fisiopatología de la migraña, y algunos ISRS y otros agentes serotoninérgicos se han explorado para su prevención. Esto ofrece una justificación plausible, pero indirecta. El puntaje alto de TxGNN (0.993) es solo una predicción computacional y probablemente refleja la asociación a nivel de clase (ISRS) y no un dato propio de dapoxetina.
+La disfunción serotoninérgica participa en la fisiopatología de la migraña, y algunos ISRS y otros agentes serotoninérgicos se han explorado para su prevención. Esto ofrece una justificación plausible, pero indirecta. El puntaje alto de TxGNN (0.9934) es solo una predicción computacional y probablemente refleja la asociación a nivel de clase (ISRS) y no un dato propio de dapoxetina.
 
 Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña. Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo.
 
@@ -76,8 +76,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20142988 | LONGRIDE 60 MG (cancelado) | Tableta recubierta | DAPOXETINA |
-| 20142989 | LONGRIDE 30 MG (cancelado) | Tableta recubierta | DAPOXETINA |
+| 20142988 | LONGRIDE 60 MG (vigente) | Tableta recubierta | DAPOXETINA |
+| 20142989 | LONGRIDE 30 MG (vigente) | Tableta recubierta | DAPOXETINA |
 
 ## Consideraciones de Seguridad
 

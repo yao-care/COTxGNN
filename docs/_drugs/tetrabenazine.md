@@ -6,7 +6,7 @@ nav_order: 620
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática po… (nivel de evidencia L5). Indicación original: Tetrabenazina"
+description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (nivel de evidencia L5). Indicación original: Tetrabenazina"
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal poliqu�
 |------|------|
 | Indicación Original | Tetrabenazina (el registro sanitario no detalla la indicación; el uso clínico conocido es el de trastornos hipercinéticos) |
 | Nueva Indicación Predicha | Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal poliqu�
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la tetrabenazina es un inhibidor reversible de VMAT2 que agota las monoaminas presinápticas (dopamina, serotonina, noradrenalina). Los datos de farmacología también registran su unión a VMAT1 (SLC18A1) y VMAT2 (SLC18A2).
 
-**Honestamente, no se identifica un vínculo mecanístico plausible.** La enfermedad renal poliquística y la enfermedad hepática poliquística se asocian con genes ciliares y del retículo endoplásmico (por ejemplo, GANAB), sin relación conocida con el transporte de monoaminas. El puntaje alto del modelo (99.90%) proviene únicamente de la estructura del grafo de conocimiento y no está respaldado por ensayos ni literatura. La similitud con la indicación original (trastornos del movimiento) no ha sido evaluada.
+**Honestamente, no se identifica un vínculo mecanístico plausible.** La enfermedad renal poliquística y la enfermedad hepática poliquística se asocian con genes ciliares y del retículo endoplásmico (por ejemplo, GANAB), sin relación conocida con el transporte de monoaminas. El puntaje alto (0.9990) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por ensayos ni literatura. La similitud con la indicación original (trastornos del movimiento) no ha sido evaluada.
 
 Las otras predicciones del modelo (displasia renal-hepática-pancreática, síndrome de Joubert con defecto renal, nefritis intersticial cariomegálica, porfiria aguda intermitente, entre otras) presentan el mismo patrón: puntajes altos, sin evidencia clínica y sin conexión mecanística conocida.
 

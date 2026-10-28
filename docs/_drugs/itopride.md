@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Itoprida (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Enfermedad de Crohn del intestino delgado |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin producto vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 Los datos compilados para este informe no incluyen el mecanismo de acción registrado. Según el conocimiento farmacológico general, itopride es un antagonista del receptor de dopamina D2 y un inhibidor de la acetilcolinesterasa, que estimula la motilidad del tracto digestivo superior.
 
-No se ha establecido un vínculo mecanístico plausible entre este mecanismo y la inflamación transmural de origen inmunológico de la enfermedad de Crohn. El puntaje alto del modelo (99.90%) proviene de asociaciones en un grafo de conocimiento y no está respaldado por ningún ensayo ni publicación. Además, un procinético podría estar contraindicado en estenosis u obstrucción, complicaciones frecuentes en el Crohn del intestino delgado.
+No se ha establecido un vínculo mecanístico plausible entre este mecanismo y la inflamación transmural de origen inmunológico de la enfermedad de Crohn. El puntaje alto del modelo (0.9990) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; además, no está respaldado por ningún ensayo ni publicación. Además, un procinético podría estar contraindicado en estenosis u obstrucción, complicaciones frecuentes en el Crohn del intestino delgado.
 
 ### Otras predicciones del modelo
 
@@ -70,9 +70,9 @@ Todas las predicciones restantes también tienen nivel de evidencia L5, sin ensa
 
 | Posición | Enfermedad | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Insuficiencia venosa | 99.23% | Sin conexión farmacológica clara; probablemente producto de asociaciones indirectas del grafo. |
-| 3 | Aclorhidria | 99.16% | Vínculo débil: itopride podría aliviar síntomas dispépticos, pero no trata la pérdida de secreción ácida. |
-| 4 | Hernia de hiato | 99.02% | La más plausible biológicamente (posible mejoría del vaciamiento gástrico y del tono del esfínter esofágico inferior), aunque el beneficio sería solo sintomático. |
+| 2 | Insuficiencia venosa | 0.9923 | Sin conexión farmacológica clara; el puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. |
+| 3 | Aclorhidria | 0.9916 | Vínculo débil: itopride podría aliviar síntomas dispépticos, pero no trata la pérdida de secreción ácida. |
+| 4 | Hernia de hiato | 0.9902 | La más plausible biológicamente (posible mejoría del vaciamiento gástrico y del tono del esfínter esofágico inferior), aunque el beneficio sería solo sintomático. |
 
 ---
 

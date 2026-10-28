@@ -48,9 +48,9 @@ Oxaliplatino es un agente citotóxico derivado del platino, registrado en Colomb
 |------|------|
 | Indicación Original | Oxaliplatino (el registro sanitario no especifica la enfermedad) |
 | Nueva Indicación Predicha | Mesotelioma pleural maligno |
-| Puntaje de Predicción TxGNN | 99.68% |
+| Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -132,7 +132,7 @@ No se dispone de las advertencias del prospecto de INVIMA; es necesario consulta
 **Decisión: Hold**
 
 **Justificación:**
-Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, todos los registros en Colombia están cancelados y faltan los datos de seguridad del prospecto.
+Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, el medicamento está comercializado en Colombia con 4 registros vigentes y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones, requisito para el tamizaje de seguridad.

@@ -4,17 +4,17 @@ title: Propylthiouracil
 parent: Evidencia Moderada (L3-L4)
 nav_order: 541
 evidence_level: L4
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Propylthiouracil: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación del receptor beta de l… (nivel de evidencia L4). Indicación original: Propiltiouracilo"
+description: "Propylthiouracil: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea (nivel de evidencia L4). Indicación original: Propiltiouracilo"
 monitor_inn: "propylthiouracil"
-predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "neonatal thyrotoxicosis", "hyperthyroxinemia"]
+predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
 ---
 
 # Propylthiouracil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Propiltiouracilo: De Propiltiouracilo (antitiroideo) a Resistencia a la Hormona Tiroidea por Mutación del Receptor Beta
+## Propiltiouracilo: De Propiltiouracilo (antitiroideo) a Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **resistencia a la hormona
 |------|------|
 | Indicación Original | Propiltiouracilo (el registro no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea |
-| Puntaje de Predicción TxGNN | 99.66% |
+| Puntaje de Predicción TxGNN | 0.9966 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19952712 (cancelado) | TIROSTAT 100 | Tableta | Propiltiouracilo |
 | 30968 (cancelado) | TIROSTAT 50 | Tableta | Propiltiouracilo |
 
-Ambos productos son de Laboratorios Siegfried S.A.S. y no existe actualmente ningún registro vigente.
+Ambos productos son de Laboratorios Siegfried S.A.S. y los 2 registros están vigentes actualmente.
 
 ---
 
@@ -111,8 +111,7 @@ No se dispone del texto de advertencias y contraindicaciones del prospecto aprob
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Tirotoxicosis neonatal | 99.40% | L4 | Pregunta de investigación |
-| Hipertiroxinemia | 99.08% | L4 | Hold |
+| Hipertiroxinemia | 0.9908 | L4 | Hold |
 
 - **Tirotoxicosis neonatal:** la literatura (revisiones y un estudio de cohorte, PMID 25747892) trata sobre todo la enfermedad de Graves materna, donde el propiltiouracilo se usa en el primer trimestre. La relevancia para el recién nacido es indirecta; el tratamiento neonatal directo suele usar metimazol. No hay ensayos clínicos.
 - **Hipertiroxinemia:** es un hallazgo de laboratorio heterogéneo. En la hipertiroxinemia disalbuminémica familiar el paciente es eutiroideo y el tratamiento antitiroideo no está indicado y podría dañar. Solo hay un reporte de caso con propiltiouracilo más L-tiroxina (PMID 18334584).

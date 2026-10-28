@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Fentanyl") |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.46% |
+| Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Los opioides pueden influir en la liberación de vasopresina y en el equilibrio hídrico a través de vías centrales. Sin embargo, el síndrome nefrogénico de antidiuresis inapropiada es causado por mutaciones con ganancia de función en el receptor V2 de vasopresina (AVPR2), que actúan de forma independiente de la vasopresina.
 
-Por ello, no se establece un vínculo mecanístico sólido: es poco probable que la vía opioide corrija un defecto a nivel del receptor. El puntaje alto del modelo (0.995) es solo una predicción computacional sin respaldo clínico ni bibliográfico.
+Por ello, no se establece un vínculo mecanístico sólido: es poco probable que la vía opioide corrija un defecto a nivel del receptor. El puntaje alto del modelo (0.9946) es solo una predicción computacional sin respaldo clínico ni bibliográfico.
 
 ---
 
@@ -83,9 +83,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20216065 | Fentanilo 0.1 mg/2 mL solución inyectable | Solución inyectable | FENTANYL | Cancelado |
-| 19908145 | Fentanilo solución inyectable | Solución inyectable | FENTANYL | Cancelado |
-| 20027082 | Lanzapin® solución inyectable | Solución inyectable | FENTANYL | Cancelado |
+| 20216065 | Fentanilo 0.1 mg/2 mL solución inyectable | Solución inyectable | FENTANYL | Vigente |
+| 19908145 | Fentanilo solución inyectable | Solución inyectable | FENTANYL | Vigente |
+| 20027082 | Lanzapin® solución inyectable | Solución inyectable | FENTANYL | Vigente |
 
 ---
 
@@ -104,14 +104,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo mecanístico es débil (el defecto está en el receptor V2, no en la vía opioide), todos los registros en Colombia están cancelados y el perfil de seguridad es complejo (327 interacciones, riesgo de depresión respiratoria y dependencia).
+La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo mecanístico es débil (el defecto está en el receptor V2, no en la vía opioide), el medicamento está comercializado en Colombia con 3 registros vigentes y el perfil de seguridad es complejo (327 interacciones, riesgo de depresión respiratoria y dependencia).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
 - Prospecto de INVIMA con advertencias y contraindicaciones
 - Evidencia preclínica o de mecanismo que vincule la vía opioide con la función del receptor AVPR2
 - Revisión de la factibilidad regulatoria, dado que no hay registros vigentes
-- Evaluación de la segunda predicción (síndrome de Tourette, puntaje 99.05%, también nivel L5 y Hold) solo si surge evidencia nueva
+- Evaluación de la segunda predicción (síndrome de Tourette, puntaje 0.9905, también nivel L5 y Hold) solo si surge evidencia nueva
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

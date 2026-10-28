@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 |------|------|
 | Indicación Original | Paracetamol, combinaciones excluyendo psicolépticos |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,9 +63,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original (combinación analgésica/relajante muscular) y el insomnio **no es evidente**. Un vínculo con la regulación del sueño sería especulativo. Además, el antagonismo de GABA-A iría, en principio, en contra de un efecto sedante o hipnótico, y el tiocolchicósido se ha asociado con riesgo de convulsiones.
 
-El puntaje de TxGNN (0.999) es únicamente una predicción computacional, sin respaldo de ensayos ni publicaciones. Cualquier consideración posterior debe contrastarse primero con fuentes primarias.
+El puntaje de TxGNN (0.9989) es únicamente una predicción computacional, sin respaldo de ensayos ni publicaciones. Cualquier consideración posterior debe contrastarse primero con fuentes primarias.
 
-Como referencia, la segunda predicción del modelo fue **delirium por abstinencia alcohólica** (puntaje 99.21%), también con nivel L5 y sin evidencia. Una modulación GABAérgica/glicinérgica sería teóricamente posible, pero el potencial proconvulsivante es una preocupación de seguridad en pacientes con riesgo de convulsiones por abstinencia, y ya existen tratamientos establecidos (por ejemplo, benzodiacepinas).
+Como referencia, la segunda predicción del modelo fue **delirium por abstinencia alcohólica** (puntaje 0.9921), también con nivel L5 y sin evidencia. Una modulación GABAérgica/glicinérgica sería teóricamente posible, pero el potencial proconvulsivante es una preocupación de seguridad en pacientes con riesgo de convulsiones por abstinencia, y ya existen tratamientos establecidos (por ejemplo, benzodiacepinas).
 
 ---
 

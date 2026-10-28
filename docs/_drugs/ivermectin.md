@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 |------|------|
 | Indicación Original | Ivermectina (el registro INVIMA no detalla la indicación; el uso conocido es antiparasitario) |
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Los hongos carecen de los canales de cloruro activados por glutamato, por lo que no existe un mecanismo antifúngico establecido contra *Candida*. La relación entre la indicación original (infecciones parasitarias) y la nueva (candidiasis vulvovaginal) es débil: ambas son infecciones, pero con agentes y dianas muy distintos.
 
-El puntaje alto de TxGNN (99.95%) refleja una asociación en el grafo de conocimiento, no evidencia de eficacia. Las demás predicciones del modelo (candidiasis esofágica, congénita, neonatal e invasiva, vulvovaginitis, VPH anogenital, vaginitis atrófica posmenopáusica) siguen el mismo patrón: sin ensayos y sin mecanismo plausible.
+El puntaje alto de TxGNN (0.9995) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni de eficacia. Las demás predicciones del modelo (candidiasis esofágica, congénita, neonatal e invasiva, vulvovaginitis, VPH anogenital, vaginitis atrófica posmenopáusica) siguen el mismo patrón: sin ensayos y sin mecanismo plausible.
 
 ---
 
@@ -90,11 +90,11 @@ Entre las otras predicciones, las dos publicaciones vinculadas no respaldan efic
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20253293 | SIMPIOX | Solución oral | IVERMECTINA (cancelado) |
-| 19979253 | IVERMECTINA 0.6% GOTAS | Solución oral | IVERMECTINA (cancelado) |
-| 19980678 | QUANOX | Solución oral | IVERMECTINA (cancelado) |
-| 19938258 | KILOX 0.6% GOTAS | Solución oral | IVERMECTINA (cancelado) |
-| 20082013 | SOOLANTRA® 10 MG/G CREMA | Crema tópica | IVERMECTINA (cancelado) |
+| 20253293 | SIMPIOX | Solución oral | IVERMECTINA (vigente) |
+| 19979253 | IVERMECTINA 0.6% GOTAS | Solución oral | IVERMECTINA (vigente) |
+| 19980678 | QUANOX | Solución oral | IVERMECTINA (vigente) |
+| 19938258 | KILOX 0.6% GOTAS | Solución oral | IVERMECTINA (vigente) |
+| 20082013 | SOOLANTRA® 10 MG/G CREMA | Crema tópica | IVERMECTINA (vigente) |
 
 ---
 
@@ -113,7 +113,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, todos los registros sanitarios en Colombia están cancelados y la información de seguridad del prospecto no está disponible.
+La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, el medicamento está comercializado en Colombia con 5 registros sanitarios vigentes, y la información de seguridad del prospecto no está disponible.
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción detallados (consulta a DrugBank).

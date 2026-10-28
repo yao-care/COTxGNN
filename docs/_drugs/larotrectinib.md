@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Larotrectinib
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 382
-evidence_level: L3
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L3). Indicación original: LAROTRECTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast ca
 # Larotrectinib
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múl
 |------|------|
 | Indicación Original | LAROTRECTINIB (el registro de INVIMA solo menciona el nombre del principio activo, sin detallar la indicación) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99.24% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Puntaje de Predicción TxGNN | 0.9924 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La neoplasia endocrina múltiple tipo 2 (MEN2) está causada por mutaciones germinales activadoras de RET, que también sustentan el carcinoma medular de tiroides. TRK y RET son ambas tirosina quinasas receptoras que señalizan a través de vías MAPK/PI3K que se solapan. La literatura de 2024 sobre resistencia fuera de la diana a la inhibición selectiva de RET sugiere comunicación cruzada entre vías de escape en cánceres dependientes de RET.
 
-Es importante subrayar que no existe evidencia directa de que la inhibición de TRK controle los tumores de MEN dependientes de RET. Un nicho plausible, aunque no establecido, sería un tumor con fusión NTRK coexistente con enfermedad asociada a MEN. El puntaje TxGNN muy alto (99.24%) es una predicción computacional y no debe interpretarse como evidencia clínica.
+Es importante subrayar que no existe evidencia directa de que la inhibición de TRK controle los tumores de MEN dependientes de RET. Un nicho plausible, aunque no establecido, sería un tumor con fusión NTRK coexistente con enfermedad asociada a MEN. El puntaje TxGNN muy alto (0.9924) es una predicción computacional y no debe interpretarse como evidencia clínica.
 
 ---
 
@@ -88,8 +88,8 @@ Es importante subrayar que no existe evidencia directa de que la inhibición de 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20200411 | VITRAKVI® SOLUCIÓN ORAL DE 20 MG/ML (estado: cancelado) | Solución oral | LAROTRECTINIB |
-| 20201285 | VITRAKVI® CÁPSULAS DE 100 MG (estado: cancelado) | Cápsula dura | LAROTRECTINIB |
+| 20200411 | VITRAKVI® SOLUCIÓN ORAL DE 20 MG/ML (estado: vigente) | Solución oral | LAROTRECTINIB |
+| 20201285 | VITRAKVI® CÁPSULAS DE 100 MG (estado: vigente) | Cápsula dura | LAROTRECTINIB |
 
 Ambos registros pertenecen a BAYER AG y se encuentran cancelados; actualmente no hay registros vigentes en Colombia.
 

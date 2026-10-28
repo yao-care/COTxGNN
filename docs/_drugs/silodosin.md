@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 |------|------|
 | Indicación Original | SILODOSINA (el registro sanitario no detalla la indicación; el uso clínico conocido es la HPB) |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, no existe un mecanismo establecido que relacione el bloqueo alfa-1A con el síndrome de Ambras, un trastorno genético causado por reordenamientos cromosómicos que afectan regiones reguladoras del gen TRPS1. La relación entre la indicación original (síntomas del tracto urinario inferior) y la nueva indicación (alteración genética del crecimiento del vello) es débil.
 
-El puntaje elevado del modelo (0.9999) refleja probablemente la proximidad en el grafo de conocimiento con nodos de fenotipos relacionados con el cabello, y no una justificación farmacológica. Debe interpretarse como una hipótesis sin respaldo, no como una señal de eficacia.
+El puntaje elevado del modelo TxGNN (deep learning), 0.9999, puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica. Debe interpretarse como una hipótesis sin respaldo, no como una señal de eficacia.
 
 Otras predicciones del modelo siguen el mismo patrón: hipertricosis (99.99%), síndrome malformativo con componente dental o periodontal (99.99%), síndrome con malformación de Dandy-Walker (99.98%), anomalía genética aislada del tallo piloso (99.98%) y tricomegalia aislada familiar (99.23%). Ninguna cuenta con ensayos clínicos ni literatura.
 
@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20070804 | SILOTRIF® 4 MG CÁPSULAS (MSN Laboratories Private Limited) – **cancelado** | Cápsula dura | SILODOSINA |
+| 20070804 | SILOTRIF® 4 MG CÁPSULAS (MSN Laboratories Private Limited) – **vigente** | Cápsula dura | SILODOSINA |
 
 ---
 

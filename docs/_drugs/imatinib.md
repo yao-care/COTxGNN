@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imatinib
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 335
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L4). Indicación original: IMATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventi
 # Imatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**
 |------|------|
 | Indicación Original | IMATINIB (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Fibrosarcoma cardíaco (heart fibrosarcoma) |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -117,15 +117,15 @@ Además de la principal, el modelo propuso otras indicaciones. Ninguna alcanza u
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|
-| Neoplasia fibroblástica | 99.94% | L4 | La más prometedora: base mecanística sólida vía DFSP (COL1A1-PDGFB → PDGFR-β), con una guía europea 2025 ([39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/)) que discute imatinib. Sin ensayos vinculados; la evidencia es mayormente de revisiones |
-| Fibrosarcoma convencional | 99.93% | L4 | Vínculo indirecto vía DFSP; un estudio preclínico de liposomas con imatinib |
-| Fibrosarcoma renal | 99.93% | L4 | Solo un ensayo Fase 2 de canasta ([NCT00154388](https://clinicaltrials.gov/study/NCT00154388), n=185, completado) sin datos específicos |
-| Sarcoma fibromixoide de bajo grado | 99.93% | L5 | Mecanismo débil (fusión FUS-CREB3L2/1); la literatura citada no es pertinente |
-| Liposarcoma | 99.88% | L2 | Tres ensayos Fase 1/2 y 2 completados en sarcomas mixtos ([NCT00031915](https://clinicaltrials.gov/study/NCT00031915), [NCT00154388](https://clinicaltrials.gov/study/NCT00154388), [NCT00006357](https://clinicaltrials.gov/study/NCT00006357)); no demuestran eficacia específica en liposarcoma, cuyo motor (MDM2/CDK4) no es PDGFR/KIT |
-| Fibrosarcoma hepático | 99.86% | L4 | Literatura sobre GIST y un reporte de DRESS; no respalda eficacia |
-| Fiebre mediterránea familiar autosómica recesiva | 99.86% | L5 | Solo predicción; sin base mecanística |
-| Liposarcoma mixoide ovárico | 99.85% | L5 | Solo predicción; mecanismo débil |
-| Tumor rabdoide familiar | 99.83% | L5 | Solo predicción; pérdida de SMARCB1 no es diana de imatinib |
+| Neoplasia fibroblástica | 0.9994 | L4 | La más prometedora: base mecanística sólida vía DFSP (COL1A1-PDGFB → PDGFR-β), con una guía europea 2025 ([39904126](https://pubmed.ncbi.nlm.nih.gov/39904126/)) que discute imatinib. Sin ensayos vinculados; la evidencia es mayormente de revisiones |
+| Fibrosarcoma convencional | 0.9993 | L4 | Vínculo indirecto vía DFSP; un estudio preclínico de liposomas con imatinib |
+| Fibrosarcoma renal | 0.9993 | L4 | Solo un ensayo Fase 2 de canasta ([NCT00154388](https://clinicaltrials.gov/study/NCT00154388), n=185, completado) sin datos específicos |
+| Sarcoma fibromixoide de bajo grado | 0.9993 | L5 | Mecanismo débil (fusión FUS-CREB3L2/1); la literatura citada no es pertinente |
+| Liposarcoma | 0.9988 | L2 | Tres ensayos Fase 1/2 y 2 completados en sarcomas mixtos ([NCT00031915](https://clinicaltrials.gov/study/NCT00031915), [NCT00154388](https://clinicaltrials.gov/study/NCT00154388), [NCT00006357](https://clinicaltrials.gov/study/NCT00006357)); no demuestran eficacia específica en liposarcoma, cuyo motor (MDM2/CDK4) no es PDGFR/KIT |
+| Fibrosarcoma hepático | 0.9986 | L4 | Literatura sobre GIST y un reporte de DRESS; no respalda eficacia |
+| Fiebre mediterránea familiar autosómica recesiva | 0.9986 | L5 | Solo predicción; sin base mecanística |
+| Liposarcoma mixoide ovárico | 0.9985 | L5 | Solo predicción; mecanismo débil |
+| Tumor rabdoide familiar | 0.9983 | L5 | Solo predicción; pérdida de SMARCB1 no es diana de imatinib |
 
 ---
 

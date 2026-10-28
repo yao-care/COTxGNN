@@ -6,9 +6,9 @@ nav_order: 404
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: LINCOMICINA"
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
+description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: LINCOMICINA"
 ---
 
 # Lincomycin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Lincomicina: De Infecciones Bacterianas (Antibiótico Lincosamida) a Hiperamilasemia
+## Lincomycin: Hiperamilasemia (hyperamylasemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LINCOMICINA (el registro no detalla una enfermedad específica) |
-| Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.14% |
+| Indicación Original | LINCOMICINA |
+| Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
+| Puntaje de Predicción TxGNN | 0.9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La hiperamilasemia es un hallazgo de laboratorio (elevación de amilasa en sangre), asociado con frecuencia a pancreatitis, enfermedad de las glándulas salivales o insuficiencia renal. No es un proceso bacteriano, por lo que **no se identifica un vínculo mecanístico plausible** entre la acción antibacteriana de la lincomicina y esta condición.
 
-El puntaje alto de TxGNN (99.14%) proviene únicamente de una predicción computacional basada en un grafo de conocimiento. Sin respaldo clínico ni bibliográfico, la relación podría reflejar ruido de asociación o eventos adversos y no un potencial terapéutico real.
+El puntaje alto de TxGNN (0.9914) proviene únicamente de una predicción computacional del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin respaldo clínico ni bibliográfico, la relación podría reflejar ruido de asociación o eventos adversos y no un potencial terapéutico real.
 
 Las otras dos predicciones evaluadas tampoco muestran respaldo: el síndrome de hiperviscosidad policlonal (99.14%) y la analbuminemia congénita (99.06%) carecen de ensayos, literatura y mecanismo plausible. La analbuminemia congénita es un defecto genético de la síntesis de albúmina que un antibacteriano no puede corregir.
 
@@ -86,10 +86,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20134615 | LINCOMICINA INYECCION 600 MG/2ML (Caplin Point Laboratories Colombia S.A.S.) | Solución inyectable | LINCOMICINA | Cancelado |
-| 40743 | LINCOCIN® 600 MG/ 2 ML SOLUCION INYECTABLE (Pfizer S.A.S.) | Solución inyectable | LINCOMICINA | Cancelado |
+| 20134615 | LINCOMICINA INYECCION 600 MG/2ML (Caplin Point Laboratories Colombia S.A.S.) | Solución inyectable | LINCOMICINA | Vigente |
+| 40743 | LINCOCIN® 600 MG/ 2 ML SOLUCION INYECTABLE (Pfizer S.A.S.) | Solución inyectable | LINCOMICINA | Vigente |
 
-Ninguno de los dos registros está vigente actualmente.
 
 ---
 

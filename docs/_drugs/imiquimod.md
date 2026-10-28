@@ -50,9 +50,9 @@ La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes)
 |------|------|
 | Indicación Original | No especificada en el registro INVIMA (solo figura el nombre del principio activo) |
 | Nueva Indicación Predicha | Neoplasia premaligna |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L1 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 

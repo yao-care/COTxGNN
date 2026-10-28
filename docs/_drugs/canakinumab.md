@@ -4,7 +4,7 @@ title: Canakinumab
 parent: Solo Predicción del Modelo (L5)
 nav_order: 129
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Canakinumab: nueva indicación predicha, Infarto hepático (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "CANAKINUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", 
 # Canakinumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Canakinumab es un anticuerpo monoclonal que bloquea la interleucina-1β (IL-1β)
 |------|------|
 | Indicación Original | No especificada (el texto del registro solo indica "Canakinumab") |
 | Nueva Indicación Predicha | Infarto hepático |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

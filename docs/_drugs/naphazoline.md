@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 |------|------|
 | Indicación Original | Nafazolina (el registro sanitario no detalla una indicación más específica; el uso conocido es el alivio del enrojecimiento ocular) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 8) |
 | Número de Registros Sanitarios | 8 (0 vigentes, 8 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 
 Los datos compilados para este informe no incluyen el mecanismo de acción detallado del fármaco. Según la información conocida, la nafazolina es un agonista adrenérgico (receptores alfa-1A, alfa-2A y alfa-2C) que produce vasoconstricción y reduce el enrojecimiento ocular al estrechar los vasos sanguíneos inflamados de la conjuntiva.
 
-**La predicción no tiene respaldo mecanístico.** La hipotricosis simple del cuero cabelludo es un trastorno genético del folículo piloso. No existe un mecanismo plausible por el cual un vasoconstrictor tópico modifique ese defecto; en todo caso, la vasoconstricción tendería a reducir la perfusión del cuero cabelludo. El alto puntaje del modelo parece un artefacto de predicción basado en el grafo de conocimiento, sin biología que lo sustente.
+**La predicción no tiene respaldo mecanístico.** La hipotricosis simple del cuero cabelludo es un trastorno genético del folículo piloso. No existe un mecanismo plausible por el cual un vasoconstrictor tópico modifique ese defecto; en todo caso, la vasoconstricción tendería a reducir la perfusión del cuero cabelludo. El alto puntaje (0.9983) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Otras predicciones del modelo siguen el mismo patrón. Alopecia, alopecia areata difusa e hipertricosis aparecen todas con puntajes muy altos, aunque el efecto esperado en el pelo sería opuesto (pérdida frente a exceso), lo que sugiere asociaciones inespecíficas. También figuran síndromes malformativos congénitos sin vínculo biológico alguno con el fármaco.
 
@@ -119,7 +119,7 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni liter
 - Datos preclínicos (modelos foliculares in vitro o in vivo) antes de plantear cualquier estudio clínico
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que sigue pendiente
 - Completar los datos del mecanismo de acción desde DrugBank
-- Evaluar la viabilidad regulatoria y de vía de administración, dado que todos los registros están cancelados y la única forma farmacéutica es oftálmica
+- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado con 8 licencias vigentes y la única forma farmacéutica es oftálmica
 - Considerar priorizar otros candidatos o indicaciones con mayor plausibilidad biológica
 ## Descargo de responsabilidad
 

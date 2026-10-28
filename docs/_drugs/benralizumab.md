@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por dest
 |------|------|
 | Indicación Original | Benralizumab (el registro sanitario no detalla la indicación; según otras fuentes: asma eosinofílica grave) |
 | Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
-| Puntaje de Predicción TxGNN | 99.34% |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Benralizumab es un anticuerpo anti-IL-5Rα que depleta eosinófilos y basófilos
 
 Los datos compilados no respaldan una ruta mecanística clara entre la depleción de eosinófilos y la trombocitopenia inmune. Solo en casos raros de citopenias autoinmunes asociadas a eosinófilos podría existir alguna relevancia, y esto es especulativo.
 
-El puntaje alto (99.34%) refleja únicamente la proximidad en el grafo de conocimiento del modelo. Sin estudios reales, esta predicción debe considerarse una hipótesis sin validar.
+El puntaje alto (0.9934) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin estudios reales, esta predicción debe considerarse una hipótesis sin validar.
 
 ---
 
@@ -110,7 +110,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ---
 
-**Nota sobre otras predicciones:** Entre las otras indicaciones predichas, la **dermatitis** (TxGNN 99.16%) es la que tiene más respaldo, con nivel L2 y recomendación de "pregunta de investigación". Incluye 3 ensayos de Fase 2: NCT03563066 (completado, n=20, estudio mecanístico en dermatitis atópica), NCT04605094 (terminado, n=194, controlado con placebo; debe verificarse el motivo de terminación) y NCT06734884 (aún no reclutando, n=96, DRESS). La literatura asociada consiste mayormente en revisiones y no en datos directos de eficacia. Las predicciones de acné queloide y dermatomiositis (neonatal y amiopática) carecen de evidencia (L5, Hold).
+**Nota sobre otras predicciones:** Entre las otras indicaciones predichas, la **dermatitis** (TxGNN 0.9916) es la que tiene más respaldo, con nivel L2 y recomendación de "pregunta de investigación". Incluye 3 ensayos de Fase 2: NCT03563066 (completado, n=20, estudio mecanístico en dermatitis atópica), NCT04605094 (terminado, n=194, controlado con placebo; debe verificarse el motivo de terminación) y NCT06734884 (aún no reclutando, n=96, DRESS). La literatura asociada consiste mayormente en revisiones y no en datos directos de eficacia. Las predicciones de acné queloide y dermatomiositis (neonatal y amiopática) carecen de evidencia (L5, Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

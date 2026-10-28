@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 ## Resumen en Una Frase
 
 Nifurtimox es un antiprotozoario del grupo de los nitrofuranos, registrado en Colombia bajo la marca Lampit®, cuyo texto de indicación en el registro sanitario solo indica el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con una puntuación muy alta (99.58%), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
+El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita**, con una puntuación muy alta (0.9958), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción.
 
 ---
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "NIFURTIMOX") |
 | Nueva Indicación Predicha | Analbuminemia congénita |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nifurtimox es un antiprotozoario nitrofurano cuya actividad depende de la nitrorreducción y la generación de especies reactivas de oxígeno y nitrógeno en los tripanosomas.
 
-La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina, causado por variantes del gen ALB. **No se identifica ninguna vía plausible** que conecte el mecanismo del fármaco con la corrección de la deficiencia de albúmina. La puntuación alta de TxGNN (0.996) es solo una predicción basada en el grafo de conocimiento y no está respaldada por datos clínicos ni de literatura.
+La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina, causado por variantes del gen ALB. **No se identifica ninguna vía plausible** que conecte el mecanismo del fármaco con la corrección de la deficiencia de albúmina. La puntuación alta de TxGNN (0.9958) es solo una predicción del modelo TxGNN (aprendizaje profundo) y no está respaldada por datos clínicos ni de literatura.
 
 En conclusión, esta predicción debe considerarse una señal computacional sin sustento biológico demostrado.
 
@@ -69,12 +69,12 @@ En conclusión, esta predicción debe considerarse una señal computacional sin 
 
 | Rango | Enfermedad | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Hiperamilasemia | 99.47% | Es un hallazgo de laboratorio, no una enfermedad diana; nifurtimox no modula la amilasa |
-| 3 | Síndrome de hiperviscosidad policlonal | 99.47% | Sin efecto conocido sobre inmunoglobulinas ni viscosidad plasmática |
-| 4 | Incompatibilidad de grupo sanguíneo | 99.24% | El mecanismo oxidativo podría ser riesgoso en contextos hemolíticos (p. ej., deficiencia de G6PD) |
-| 5 | Gammapatía monoclonal | 99.16% | Sin evidencia en trastornos de células plasmáticas |
-| 6 | Enfermedad hematológica premaligna | 99.11% | Relación riesgo-beneficio desfavorable en población asintomática |
-| 7 | Enfermedad hematológica asociada a neuropatía periférica adquirida | 99.06% | Preocupación de seguridad: nifurtimox se asocia con neuropatía periférica |
+| 2 | Hiperamilasemia | 0.9947 | Es un hallazgo de laboratorio, no una enfermedad diana; nifurtimox no modula la amilasa |
+| 3 | Síndrome de hiperviscosidad policlonal | 0.9947 | Sin efecto conocido sobre inmunoglobulinas ni viscosidad plasmática |
+| 4 | Incompatibilidad de grupo sanguíneo | 0.9924 | El mecanismo oxidativo podría ser riesgoso en contextos hemolíticos (p. ej., deficiencia de G6PD) |
+| 5 | Gammapatía monoclonal | 0.9916 | Sin evidencia en trastornos de células plasmáticas |
+| 6 | Enfermedad hematológica premaligna | 0.9911 | Relación riesgo-beneficio desfavorable en población asintomática |
+| 7 | Enfermedad hematológica asociada a neuropatía periférica adquirida | 0.9906 | Preocupación de seguridad: nifurtimox se asocia con neuropatía periférica |
 
 ---
 
@@ -94,8 +94,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20215184 | LAMPIT® 30MG COMPRIMIDOS | Tableta | NIFURTIMOX | Cancelado |
-| 20215915 | LAMPIT® 120MG | Tableta | NIFURTIMOX | Cancelado |
+| 20215184 | LAMPIT® 30MG COMPRIMIDOS | Tableta | NIFURTIMOX | Vigente |
+| 20215915 | LAMPIT® 120MG | Tableta | NIFURTIMOX | Vigente |
 
 Ambos registros pertenecen a BAYER AG y están cancelados; actualmente no hay registros vigentes en Colombia.
 

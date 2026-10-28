@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Alprostadil
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 41
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Alprostadil: nueva indicación predicha, Malformación aórtica (nivel de evidencia L3). Indicación original: ALPROSTADIL"
@@ -14,7 +14,7 @@ predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", 
 # Alprostadil
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **malformación aórtica**
 |------|------|
 | Indicación Original | ALPROSTADIL (el registro no especifica una indicación detallada) |
 | Nueva Indicación Predicha | Malformación aórtica |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -92,11 +92,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20270758 | Alprostadil 20 mcg/mL solución inyectable (ADS Pharma) | Solución inyectable | ALPROSTADIL (cancelado) |
-| 20093133 | Dalveol 20 mcg/mL solución inyectable (Closter Pharma) | Inyectables | ALPROSTADIL (cancelado) |
-| 19926427 | Alprostapint 20 µg ampollas (Pint Pharma) | Solución concentrada para infusión | ALPROSTADIL (cancelado) |
-| 20256489 | Vesglandin-E 500 mcg/mL solución inyectable (Vesalius Pharma) | Solución inyectable | ALPROSTADIL (cancelado) |
-| 19954356 | Caverject 20 mcg (Pfizer) | Polvo liofilizado para reconstituir a solución inyectable | ALPROSTADIL (cancelado) |
+| 20270758 | Alprostadil 20 mcg/mL solución inyectable (ADS Pharma) | Solución inyectable | ALPROSTADIL (vigente) |
+| 20093133 | Dalveol 20 mcg/mL solución inyectable (Closter Pharma) | Inyectables | ALPROSTADIL (vigente) |
+| 19926427 | Alprostapint 20 µg ampollas (Pint Pharma) | Solución concentrada para infusión | ALPROSTADIL (vigente) |
+| 20256489 | Vesglandin-E 500 mcg/mL solución inyectable (Vesalius Pharma) | Solución inyectable | ALPROSTADIL (vigente) |
+| 19954356 | Caverject 20 mcg (Pfizer) | Polvo liofilizado para reconstituir a solución inyectable | ALPROSTADIL (vigente) |
 
 ---
 

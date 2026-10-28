@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Medroxyprogesterone Acetate
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 422
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Medroxiprogesterona"
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "cervix endometriosis", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 |------|------|
 | Indicación Original | Medroxiprogesterona (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -96,9 +96,9 @@ Se muestran las publicaciones más relevantes (todas son revisiones o textos de 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 21776 | PROVERA 5 MG TABLETAS (cancelado) | Tableta | Medroxiprogesterona |
-| 40914 | PROVERA 10 MG TABLETAS (cancelado) | Tableta | Medroxiprogesterona |
-| 20237472 | MEDROXI-ONE (cancelado) | Suspensión inyectable | Medroxiprogesterona acetato |
+| 21776 | PROVERA 5 MG TABLETAS (vigente) | Tableta | Medroxiprogesterona |
+| 40914 | PROVERA 10 MG TABLETAS (vigente) | Tableta | Medroxiprogesterona |
+| 20237472 | MEDROXI-ONE (vigente) | Suspensión inyectable | Medroxiprogesterona acetato |
 
 ---
 
@@ -133,7 +133,7 @@ Las demás predicciones tienen evidencia más débil:
 - **Enfermedad fibroquística de mama** (L3): dos estudios antiguos (1983 y 1988) describen uso del MPA, pero con diseño no verificado. Los estudios de terapia hormonal sugieren que la combinación estrógeno-progestina puede aumentar la densidad mamaria y la proliferación epitelial, lo que plantea una preocupación de seguridad.
 - **Displasia mamaria benigna, endometriosis cervical** (L4, Hold): la literatura recuperada es mayormente irrelevante o proviene de modelos animales.
 - **Endometriosis rectovaginal, endometriosis en cicatriz cutánea, adenosis apocrina y de conductos romos** (L5, Hold): solo hay predicción del modelo, sin estudios.
-- **Hipoplasia renal (ambas variantes)** (L5, Hold): no hay vínculo mecanístico plausible; probablemente sea un artefacto del grafo de conocimiento.
+- **Hipoplasia renal (ambas variantes)** (L5, Hold): no hay vínculo mecanístico plausible; probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

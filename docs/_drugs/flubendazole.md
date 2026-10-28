@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos** ni **publicaciones sobre flubendaz
 |------|------|
 | Indicación Original | Flubendazol (el registro sanitario solo indica el principio activo, sin texto de indicación detallado; antihelmíntico según la clase del fármaco) |
 | Nueva Indicación Predicha | Carcinoma de vejiga urinaria (urinary bladder carcinoma) |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 6 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente, la alteración de los microtúbulos es una vía antimitótica plausible en células tumorales, lo que podría aplicarse al cáncer de vejiga. Sin embargo, la relación entre la indicación original (antiparasitaria) y la nueva indicación (oncológica) es solo inferida; no se ha evaluado formalmente la similitud entre ambas.
 
-Las dos publicaciones disponibles estudian fenbendazol (no flubendazol) en cáncer de vejiga, en combinación con terapia fototérmica y con CRISPR-Cas13a. Ofrecen apoyo indirecto a nivel de clase, pero no demuestran eficacia de flubendazol ni eficacia en humanos. El puntaje alto del modelo (99.99%) es una predicción computacional y, en los subtipos raros de vejiga de la lista, probablemente refleja la cercanía en la ontología de enfermedades con otras neoplasias de vejiga.
+Las dos publicaciones disponibles estudian fenbendazol (no flubendazol) en cáncer de vejiga, en combinación con terapia fototérmica y con CRISPR-Cas13a. Ofrecen apoyo indirecto a nivel de clase, pero no demuestran eficacia de flubendazol ni eficacia en humanos. El puntaje alto del modelo (0.9999) es una predicción computacional y, en los subtipos raros de vejiga de la lista, probablemente refleja la cercanía en la ontología de enfermedades con otras neoplasias de vejiga.
 
 ---
 
@@ -112,7 +112,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo TxGNN (nivel de evidencia L5): no hay ensayos clínicos, no hay literatura sobre flubendazol en esta indicación y los estudios disponibles usan otro fármaco (fenbendazol). Además, todos los registros sanitarios en Colombia están cancelados, y faltan datos de seguridad y de mecanismo de acción.
+La predicción se basa únicamente en el puntaje del modelo TxGNN (nivel de evidencia L5): no hay ensayos clínicos, no hay literatura sobre flubendazol en esta indicación y los estudios disponibles usan otro fármaco (fenbendazol). Además, el fármaco está comercializado en Colombia, con 6 registros sanitarios vigentes de 6, y faltan datos de seguridad y de mecanismo de acción.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción confirmado de flubendazol (por ejemplo, desde DrugBank).

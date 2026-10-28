@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Misoprostol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 450
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Misoprostol"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
 # Misoprostol
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 |------|------|
 | Indicación Original | Misoprostol (el registro no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.64% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9964 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción detal
 
 La literatura recuperada trata sobre terminación del embarazo, sangrado uterino anormal y una complicación hepática del embarazo, por lo que el vínculo con la amenorrea es indirecto. En esos estudios, la amenorrea aparece como criterio de inclusión (por ejemplo, embarazos de ≤35 días de amenorrea) y no como la condición tratada.
 
-El puntaje alto de TxGNN (99.64%) probablemente refleja la cercanía en la red de conocimiento con condiciones del sistema reproductivo, y no un efecto terapéutico demostrado. Mecanísticamente, misoprostol podría usarse para inducir sangrado por privación o evacuar productos retenidos en amenorreas secundarias de causa gestacional, pero esto no cuenta con respaldo directo.
+El puntaje alto de TxGNN (0.9964) probablemente refleja la cercanía en la red de conocimiento con condiciones del sistema reproductivo, y no un efecto terapéutico demostrado. Mecanísticamente, misoprostol podría usarse para inducir sangrado por privación o evacuar productos retenidos en amenorreas secundarias de causa gestacional, pero esto no cuenta con respaldo directo.
 
 ---
 
@@ -127,7 +127,7 @@ La predicción es principalmente computacional: no hay ensayos clínicos y la li
 
 ---
 
-**Nota sobre la segunda predicción (coartación atípica de la aorta):** el puntaje de TxGNN es 99.30%, pero no hay ensayos ni literatura (nivel L5) y no se identifica un mecanismo plausible. La coartación es una anomalía estructural de tratamiento quirúrgico o por cateterismo. La asociación probablemente se debe al uso de alprostadil (PGE1), un fármaco distinto, para mantener el conducto arterioso. Se recomienda **Hold**.
+**Nota sobre la segunda predicción (coartación atípica de la aorta):** el puntaje de TxGNN es 0.9930, pero no hay ensayos ni literatura (nivel L5) y no se identifica un mecanismo plausible. La coartación es una anomalía estructural de tratamiento quirúrgico o por cateterismo. La asociación probablemente se debe al uso de alprostadil (PGE1), un fármaco distinto, para mantener el conducto arterioso. Se recomienda **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

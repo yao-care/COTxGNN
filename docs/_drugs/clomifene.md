@@ -6,7 +6,7 @@ nav_order: 170
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Clomifene: nueva indicación predicha, Trastorno del desarrollo sexual 46… (nivel de evidencia L5). Indicación original: Clomifeno"
+description: "Clomifene: nueva indicación predicha, Trastorno del desarrollo sexual 46,XY por defecto de esteroidogénesis testicular (nivel de evidencia L5). Indicación original: Clomifeno"
 monitor_inn: "clomifene"
 predicted_indications: ["46,XY disorder of sex development due to testicular steroidogenesis defect", "transverse vaginal septum", "longitudinal vaginal septum", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18", "partial trisomy/tetrasomy of the short arm of chromosome 5", "partial trisomy/tetrasomy of the short arm of chromosome 12", "anovulation"]
 ---
@@ -46,17 +46,17 @@ El clomifeno es un modulador selectivo de los receptores de estrógenos, utiliza
 |------|------|
 | Indicación Original | Clomifeno (el registro sanitario solo indica el nombre del principio activo; su uso conocido es la inducción de la ovulación) |
 | Nueva Indicación Predicha | Trastorno del desarrollo sexual 46,XY por defecto de esteroidogénesis testicular |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 El clomifeno es un modulador selectivo de los receptores de estrógenos (SERM). Bloquea los receptores de estrógenos del hipotálamo, lo que reduce la retroalimentación negativa y aumenta la secreción de GnRH, LH y FSH. Su acción sobre el receptor de estrógenos alfa (ESR1) está documentada en las bases farmacológicas consultadas.
 
-La relación con la nueva indicación es débil. En este trastorno, el bloqueo ocurre dentro del propio testículo, por una deficiencia enzimática en la síntesis de esteroides. Aumentar el estímulo de gonadotropinas difícilmente restauraría la síntesis de andrógenos si la enzima no funciona. El puntaje alto del modelo probablemente refleja cercanía en el grafo de conocimiento entre trastornos reproductivos y no un mecanismo terapéutico demostrado.
+La relación con la nueva indicación es débil. En este trastorno, el bloqueo ocurre dentro del propio testículo, por una deficiencia enzimática en la síntesis de esteroides. Aumentar el estímulo de gonadotropinas difícilmente restauraría la síntesis de andrógenos si la enzima no funciona. El puntaje alto del modelo TxGNN (deep learning) probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo terapéutico demostrado.
 
 En resumen, la predicción es una señal computacional sin respaldo mecanístico claro ni evidencia clínica.
 
@@ -96,7 +96,7 @@ Este registro (Laboratorio Franco Colombiano Lafrancol S.A.S.) figura como **can
 **Justificación:**
 La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni literatura. Además, el mecanismo del clomifeno (aumentar el estímulo de gonadotropinas) no corrige un defecto enzimático intratesticular.
 
-Entre las otras predicciones del modelo, solo **anovulación** (puesto 10, puntaje 99.52%) tiene evidencia: 3 ensayos clínicos completados, incluido un ensayo aleatorizado doble ciego de fase 4 (NCT00478504, n=159) que usa clomifeno como comparador, y revisiones sistemáticas como el ensayo M-OVIN (PMID 29273245). Sin embargo, es el uso establecido del fármaco, no un reposicionamiento real.
+Entre las otras predicciones del modelo, solo **anovulación** (puesto 10, puntaje 0.9952) tiene evidencia: 3 ensayos clínicos completados, incluido un ensayo aleatorizado doble ciego de fase 4 (NCT00478504, n=159) que usa clomifeno como comparador, y revisiones sistemáticas como el ensayo M-OVIN (PMID 29273245). Sin embargo, es el uso establecido del fármaco, no un reposicionamiento real.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, o estudios preclínicos, que justifiquen el uso en defectos de esteroidogénesis testicular.

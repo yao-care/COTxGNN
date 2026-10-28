@@ -6,7 +6,7 @@ nav_order: 152
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide posit… (nivel de evidencia L5). Indicación original: No especificada en los registros"
+description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
 ---
@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y solo **1 publicación** relaciona
 |------|------|
 | Indicación Original | No especificada en los registros (el texto registrado solo dice "CLOROQUINA") |
 | Nueva Indicación Predicha | Artritis idiopática juvenil poliarticular con factor reumatoide positivo |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

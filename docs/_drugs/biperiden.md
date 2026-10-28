@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **encefalitis subaguda de 
 |------|------|
 | Indicación Original | Biperideno (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 32998 | AKINETON® TABLETAS (estado: cancelado) | Tableta | Biperideno |
-| 19900906 | BIPERIDENO 2 MG (estado: cancelado) | Tableta | Biperideno |
+| 32998 | AKINETON® TABLETAS (estado: vigente) | Tableta | Biperideno |
+| 19900906 | BIPERIDENO 2 MG (estado: vigente) | Tableta | Biperideno |
 
 ---
 

@@ -4,17 +4,17 @@ title: Paclitaxel
 parent: Solo Predicción del Modelo (L5)
 nav_order: 492
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Paclitaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: PACLITAXEL"
 ---
 
 # Paclitaxel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Paclitaxel: De Indicación Registrada (sin detalle) a Carcinoma de Mama Femenino
+## Paclitaxel: Parameningeal embryonal rhabdomyosarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Paclitaxel es un citotóxico de la familia de los taxanos, registrado en Colombia como solución inyectable. Los registros sanitarios disponibles no detallan el texto de la indicación original.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **40 ensayos clínicos** y **20 publicaciones** recuperados para esta indicación. Se trata en realidad de un uso ya establecido en la práctica oncológica, más que de un reposicionamiento en sentido estricto.
 
 ---
 
@@ -47,11 +46,11 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros (el texto registrado solo repite el nombre del fármaco) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.995% |
-| Nivel de Evidencia | L1 (≥2 ECA de Fase 3 completados, p. ej. NCT00667251, NCT01822314, NCT00006459, NCT00553358, NCT00513292, NCT00431080, NCT00075270; ver nota en la sección de ensayos) |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Indicación Original | PACLITAXEL |
+| Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 (≥2 ECA de Fase 3 completados, p. ej. NCT00667251, NCT01822314, NCT00006459, NCT00553358, NCT00513292, NCT00431080, NCT00075270; ver nota en la sección de ensayos) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -107,7 +106,7 @@ Se listan los ensayos más relevantes (priorizando Fase 3 y Fase 2 con paclitaxe
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados; actualmente no hay productos vigentes.
+Existen 4 registros sanitarios vigentes; el medicamento se encuentra comercializado.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

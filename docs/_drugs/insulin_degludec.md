@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Degludec
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 345
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Insulin Degludec: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Insulina degludec"
+description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina degludec"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 # Insulin Degludec
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Insulina Degludec: De Insulina Degludec (diabetes) a Diabetes Mellitus Tipo 1
+## Insulina Degludec: De Insulina Degludec (diabetes) a Ooforitis autoinmune
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,10 +50,10 @@ Cabe señalar que esta indicación corresponde esencialmente a un uso ya estable
 |------|------|
 | Indicación Original | Insulina degludec (el registro no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99.44% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Puntaje de Predicción TxGNN | 0.9923 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En la diabetes tipo 1 existe una deficiencia absoluta de insulina, por lo que el reemplazo con insulina basal es la base del tratamiento. El mecanismo es el mismo que el de su uso aprobado (control glucémico en diabetes), por lo que la predicción del modelo es coherente y no constituye un reposicionamiento propiamente dicho.
 
-Esto concuerda con el alto puntaje de TxGNN (0.994) y con la abundante evidencia clínica disponible. Es importante tener en cuenta que el registro sanitario colombiano está cancelado, de modo que esta evaluación se limita a la evidencia y no aborda la disponibilidad del producto.
+Esto concuerda con el alto puntaje de TxGNN (0.9923) y con la abundante evidencia clínica disponible. Es importante tener en cuenta que el producto está comercializado en Colombia, con 1 licencia válida de 1, de modo que esta evaluación se limita a la evidencia y no aborda la disponibilidad del producto.
 
 ---
 

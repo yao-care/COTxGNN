@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Adapaleno (el registro sanitario no detalla la indicación; solo menciona el principio activo) |
 | Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación con la nueva indicación es débil. El zinc plasmático elevado es un hallazgo sistémico (por ejemplo, por suplementación excesiva, hemoconcentración o alteraciones renales o del transporte de zinc) y no una enfermedad con una vía evidente que responda a retinoides. Una posible conexión indirecta, como la interacción entre el retinol, su proteína transportadora y el zinc, es especulativa y no tiene respaldo en los datos disponibles.
 
-Además, el adapaleno tópico tiene baja absorción sistémica, lo que hace aún menos plausible un efecto sobre el zinc plasmático. El puntaje del modelo (0.995) refleja solo una asociación basada en grafos de conocimiento, sin vínculo mecanístico establecido.
+Además, el adapaleno tópico tiene baja absorción sistémica, lo que hace aún menos plausible un efecto sobre el zinc plasmático. El puntaje del modelo TxGNN (aprendizaje profundo) (0.9951) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no existe un vínculo mecanístico establecido.
 
 ---
 
@@ -72,8 +72,8 @@ Además, el adapaleno tópico tiene baja absorción sistémica, lo que hace aún
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 208651 | Differin® Gel | Gel tópico | Adapalene | Cancelado |
-| 19996391 | Zudenina® Plus Gel | Gel tópico | Adapaleno. Combinaciones | Cancelado |
+| 208651 | Differin® Gel | Gel tópico | Adapalene | Vigente |
+| 19996391 | Zudenina® Plus Gel | Gel tópico | Adapaleno. Combinaciones | Vigente |
 
 ---
 

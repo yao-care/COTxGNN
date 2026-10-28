@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Imiglucerase
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 336
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Imiglucerase: nueva indicación predicha, Síndrome de Hurler (MPS I) (nivel de evidencia L4). Indicación original: IMIGLUCERASA"
@@ -14,7 +14,7 @@ predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm o
 # Imiglucerase
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Imiglucerasa: De Enfermedad de Gaucher (imiglucerasa) a Síndrome de Hurler
+## Imiglucerasa: De Enfermedad de Gaucher (imiglucerasa) a Síndrome de Hurler (MPS I)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Hurler**
 |------|------|
 | Indicación Original | IMIGLUCERASA (el registro sanitario no detalla la indicación en texto) |
 | Nueva Indicación Predicha | Síndrome de Hurler (MPS I) |
-| Puntaje de Predicción TxGNN | 99.52% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Puntaje de Predicción TxGNN | 0.9952 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,9 +85,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20166019 | BANTACE® 200 (cancelado) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
-| 20118253 | BANTACE® 400 (cancelado) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
-| 20013754 | CEREZYME® 400U (cancelado) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
+| 20166019 | BANTACE® 200 (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
+| 20118253 | BANTACE® 400 (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
+| 20013754 | CEREZYME® 400U (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
 
 ---
 
@@ -104,7 +104,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo y en una revisión general, sin ensayos clínicos. El mecanismo es poco plausible (la imiglucerasa no degrada los glicosaminoglicanos acumulados) y ya existe un tratamiento específico aprobado. Además, en Colombia todos los registros están cancelados.
+La predicción se apoya únicamente en el modelo y en una revisión general, sin ensayos clínicos. El mecanismo es poco plausible (la imiglucerasa no degrada los glicosaminoglicanos acumulados) y ya existe un tratamiento específico aprobado. Además, en Colombia el medicamento está comercializado y los 3 registros sanitarios están vigentes (3 de 3).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco

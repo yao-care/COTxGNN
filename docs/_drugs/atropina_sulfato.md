@@ -8,6 +8,7 @@ nav_order: 76
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atropina Sulfato
@@ -49,7 +50,7 @@ Atropina Sulfato es un agente anticolinérgico clásico ampliamente reconocido e
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin datos reales |
-| Estado de Mercado en Colombia | No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

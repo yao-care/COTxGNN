@@ -46,10 +46,10 @@ Risdiplam es un modificador del empalme del pre-ARNm de SMN2, utilizado original
 |------|------|
 | Indicación Original | Risdiplam (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -58,7 +58,7 @@ Risdiplam es un modificador del empalme del pre-ARNm de SMN2. Favorece la inclus
 
 No se identificó una conexión mecanística establecida entre este mecanismo y la patogénesis del acné (producción de sebo, hiperqueratinización folicular, colonización por *Cutibacterium acnes* e inflamación). La relación entre la indicación original (una enfermedad neuromuscular de origen genético) y el acné (una enfermedad inflamatoria dermatológica) es muy distante.
 
-El puntaje alto de TxGNN (99.45%) proviene de un grafo de conocimiento y no está respaldado por ningún estudio. Cualquier vínculo sería especulativo, por ejemplo, mediante efectos de empalme fuera de la diana en genes relacionados con la piel o las glándulas sebáceas, y no tiene sustento en los datos disponibles.
+El puntaje alto de TxGNN (0.9945) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No está respaldado por ningún estudio. Cualquier vínculo sería especulativo, por ejemplo, mediante efectos de empalme fuera de la diana en genes relacionados con la piel o las glándulas sebáceas, y no tiene sustento en los datos disponibles.
 
 ## Evidencia de Ensayos Clínicos
 

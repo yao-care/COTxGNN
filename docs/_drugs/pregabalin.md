@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Pregabalin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 532
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L4). Indicación original: Pregabalina"
@@ -14,7 +14,7 @@ predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myos
 # Pregabalin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Cabe destacar que la indicación con mayor respaldo entre las predichas es la **
 |------|------|
 | Indicación Original | Pregabalina (el registro sanitario no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Tendinitis |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -117,7 +117,7 @@ Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, repor
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Diseñar estudios clínicos específicos de pregabalina en tendinopatía, con desenlaces sobre la patología y no solo sobre el dolor.
 - Verificar la situación regulatoria actual de pregabalina en Colombia, dado que el único registro está cancelado.
-- **Línea alternativa:** la **migraña** (puntaje TxGNN 99.47%, nivel L2) cuenta con ECA pediátricos frente a propranolol y valproato, una red de metaanálisis y evidencia preclínica de inhibición de la depresión cortical propagada. Su único ensayo de Fase 3 (NCT00447369) fue retirado, por lo que se recomienda tratarla como pregunta de investigación que requiere estudios controlados en adultos antes de cualquier recomendación.
+- **Línea alternativa:** la **migraña** (puntaje TxGNN 0.9947, nivel L2) cuenta con ECA pediátricos frente a propranolol y valproato, una red de metaanálisis y evidencia preclínica de inhibición de la depresión cortical propagada. Su único ensayo de Fase 3 (NCT00447369) fue retirado, por lo que se recomienda tratarla como pregunta de investigación que requiere estudios controlados en adultos antes de cualquier recomendación.
 - Las demás predicciones (miositis granulomatosa idiopática, miositis fibrosa, miositis por cuerpos de inclusión y migraña con aura de tronco encefálico) carecen de respaldo clínico y deben mantenerse en Hold.
 ## Descargo de responsabilidad
 

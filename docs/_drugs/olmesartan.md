@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Olmesartán medoxomilo y diuréticos |
 | Nueva Indicación Predicha | Prinzmetal angina (angina de Prinzmetal) |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre la indicación original (hipertensión, tratada con la combinación con diuréticos) y la angina de Prinzmetal es indirecta: ambas implican regulación del tono vascular. Sin embargo, esta conexión es especulativa. Los bloqueadores de los canales de calcio y los nitratos son el tratamiento establecido para la angina vasoespástica, y no se recuperó evidencia clínica ni bibliográfica de olmesartán en esta enfermedad.
 
-El puntaje alto del modelo (99.84%) debe interpretarse con cautela: refleja la cercanía en el grafo de conocimiento y no constituye prueba de eficacia.
+El puntaje alto del modelo (0.9984) debe interpretarse con cautela: proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni prueba de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -74,7 +74,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos | Cancelado |
+| 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos | Vigente |
 
 El único registro sanitario está cancelado, por lo que no hay producto vigente con olmesartán en Colombia según los datos compilados.
 
@@ -104,7 +104,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, con base en la evidencia disponible:
-- **Migraña** (puntaje 99.64%, nivel L3): existe una revisión sistemática de 2019 sobre IECA y ARA-II, y un estudio de 2006 sobre olmesartán en pacientes hipertensos. El diseño no está confirmado y el candesartán tiene mejor evidencia. Es la candidata con mayor respaldo y podría plantearse como pregunta de investigación.
+- **Migraña** (puntaje 0.9964, nivel L3): existe una revisión sistemática de 2019 sobre IECA y ARA-II, y un estudio de 2006 sobre olmesartán en pacientes hipertensos. El diseño no está confirmado y el candesartán tiene mejor evidencia. Es la candidata con mayor respaldo y podría plantearse como pregunta de investigación.
 - **Hipertensión pulmonar** (99.61%, nivel L4): solo evidencia preclínica en ratas y ratones, sin datos en humanos.
 - **Glaucoma de ángulo abierto** (99.40%, nivel L4): solo una revisión general, sin datos específicos de olmesartán.
 - El resto (alopecia, hipotricosis, entre otras) son solo predicciones del modelo, sin base mecanística clara.

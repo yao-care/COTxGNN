@@ -4,17 +4,17 @@ title: Agomelatine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 31
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Agomelatine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: AGOMELATINA"
 monitor_inn: "Agomelatine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "melancholia", "Ohdo syndrome and variants", "dysthymic disorder", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
 ---
 
 # Agomelatine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 |------|------|
 | Indicación Original | AGOMELATINA (el registro sanitario no detalla la indicación; el uso conocido es el trastorno depresivo mayor) |
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **La predicción tiene una plausibilidad mecanística muy baja.** La tortícolis paroxística benigna de la infancia es un trastorno pediátrico autolimitado, a menudo asociado a variantes genéticas de canales iónicos (frecuentemente CACNA1A). No se identificó ninguna superposición con las vías melatoninérgicas o serotoninérgicas.
 
-El puntaje alto del modelo (99.96%) refleja una predicción basada en la red de conocimiento, sin respaldo clínico o experimental. Debe interpretarse con cautela.
+El puntaje alto del modelo (0.9996) refleja una predicción basada en la red de conocimiento, sin respaldo clínico o experimental. Debe interpretarse con cautela.
 
 ### Otras predicciones del modelo (contexto)
 
@@ -71,11 +71,8 @@ Estas candidatas se mencionan solo como contexto; no son el foco del informe:
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Agorafobia | 99.95% | L5 | Plausibilidad indirecta por la actividad ansiolítica en ansiedad generalizada; sin evidencia específica |
-| Trastorno neurótico | 99.90% | L4 | Categoría amplia y antigua; solo una revisión general de antidepresivos |
-| Melancolía | 99.88% | L4 | Subtipo depresivo dentro de la indicación aprobada; no es un reposicionamiento real |
-| Depresión neurótica | 99.88% | L4 | Término antiguo cercano a la distimia; evidencia general de depresión |
-| Distimia | 99.86% | L4 | Un metaanálisis de antidepresivos en distimia (2011), sin demostrar que incluya agomelatina |
+| Agorafobia | 0.9995 | L5 | Plausibilidad indirecta por la actividad ansiolítica en ansiedad generalizada; sin evidencia específica |
+| Trastorno neurótico | 0.9990 | L4 | Categoría amplia y antigua; solo una revisión general de antidepresivos |
 
 Las predicciones restantes (síndrome de Ohdo y variantes, conjuntivitis leñosa, síndrome de Keppen-Lubinsky) son solo predicciones sin vínculo mecanístico ni evidencia.
 
@@ -97,7 +94,7 @@ Actualmente no hay literatura relacionada disponible para tortícolis paroxísti
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20014920 | VALDOXAN® 25 MG (LES LABORATOIRES SERVIER) | Comprimido | AGOMELATINA | Cancelado |
+| 20014920 | VALDOXAN® 25 MG (LES LABORATOIRES SERVIER) | Comprimido | AGOMELATINA | Vigente |
 
 ---
 

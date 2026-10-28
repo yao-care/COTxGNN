@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | Inhibidores directos del factor Xa |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99.02% |
+| Puntaje de Predicción TxGNN | 0.9902 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

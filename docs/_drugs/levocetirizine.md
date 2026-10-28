@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | LEVOCETIRIZINA (el registro no especifica una enfermedad; se usa como antihistamínico) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,14 +63,14 @@ Los datos compilados para este reporte no incluyen información detallada sobre 
 
 La histamina está presente en la sinovial reumatoide y podría contribuir a la permeabilidad vascular, a la inflamación mediada por mastocitos y a la modulación de citocinas. Por eso, un vínculo mecanístico es plausible. Sin embargo, el bloqueo H1 no es un mecanismo establecido de modificación de la enfermedad en artritis reumatoide.
 
-El puntaje alto de TxGNN (0.997) es solo una predicción del modelo. No hay ensayos ni literatura que respalden la relación, por lo que la plausibilidad biológica no se puede verificar con los datos disponibles.
+El puntaje alto de TxGNN (0.9973) es solo una predicción del modelo. No hay ensayos ni literatura que respalden la relación, por lo que la plausibilidad biológica no se puede verificar con los datos disponibles.
 
 **Otras predicciones del modelo (sin sustento mecanístico aparente):**
 
 | Posición | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Síndrome de microftalmía colobomatosa-displasia rizomélica | 99.59% | Trastorno del desarrollo de causa genética; no hay vínculo claro con el bloqueo H1 |
-| 3 | Síndrome de braquidactilia-sindactilia | 99.52% | Malformación congénita de las extremidades; un antihistamínico sintomático no modificaría una anomalía estructural |
+| 2 | Síndrome de microftalmía colobomatosa-displasia rizomélica | 0.9959 | Trastorno del desarrollo de causa genética; no hay vínculo claro con el bloqueo H1 |
+| 3 | Síndrome de braquidactilia-sindactilia | 0.9952 | Malformación congénita de las extremidades; un antihistamínico sintomático no modificaría una anomalía estructural |
 
 ---
 
@@ -90,8 +90,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20126402 | RIZIN® TABLETAS | Tableta recubierta | LEVOCETIRIZINA | Cancelado |
-| 20232631 | Levocetirizina diclorhidrato 5 mg tabletas recubiertas | Tableta recubierta | LEVOCETIRIZINA | Cancelado |
+| 20126402 | RIZIN® TABLETAS | Tableta recubierta | LEVOCETIRIZINA | Vigente |
+| 20232631 | Levocetirizina diclorhidrato 5 mg tabletas recubiertas | Tableta recubierta | LEVOCETIRIZINA | Vigente |
 
 ---
 

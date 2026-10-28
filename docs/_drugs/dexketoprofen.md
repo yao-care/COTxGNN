@@ -50,9 +50,9 @@ pero hoy solo hay **0 ensayos clínicos** y **1 publicación** indirecta que res
 |------|------|
 | Indicación Original | No detallada en el registro sanitario (el texto registrado solo indica «Dexketoprofeno») |
 | Nueva Indicación Predicha | Tendinitis |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 (solo evidencia indirecta; no hay estudios directos en tendinitis) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 (solo evidencia indirecta; no hay estudios directos en tendinitis) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20105211 | DEXKETOVITAE 25 MG/10ML | Solución oral | Dexketoprofeno | Cancelado |
-| 20103268 | DEXKETOVITAE® 25 MG comprimidos recubiertos | Tableta recubierta | Dexketoprofeno | Cancelado |
+| 20105211 | DEXKETOVITAE 25 MG/10ML | Solución oral | Dexketoprofeno | Vigente |
+| 20103268 | DEXKETOVITAE® 25 MG comprimidos recubiertos | Tableta recubierta | Dexketoprofeno | Vigente |
 
 Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S. y no hay registros vigentes.
 
@@ -114,7 +114,7 @@ La predicción para tendinitis tiene un puntaje alto del modelo y un mecanismo p
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 
-**Nota adicional:** en los datos compilados, la indicación predicha con mayor respaldo es la **migraña** (puntaje TxGNN de 99.87%). Cuenta con 5 ensayos clínicos de Fase 4 y un metaanálisis de ECA, incluido un ensayo controlado con placebo (NCT02159547, n=224). Para ella la evidencia se clasificó como L1 con recomendación «Proceed with Guardrails», siempre que se verifique la disponibilidad regulatoria. Si se busca una línea de reposicionamiento con mayor sustento, conviene evaluarla como candidata prioritaria.
+**Nota adicional:** en los datos compilados, la indicación predicha con mayor respaldo es la **migraña** (puntaje TxGNN de 0.9987). Cuenta con 5 ensayos clínicos de Fase 4 y un metaanálisis de ECA, incluido un ensayo controlado con placebo (NCT02159547, n=224). Para ella la evidencia se clasificó como L1 con recomendación «Proceed with Guardrails», siempre que se verifique la disponibilidad regulatoria. Si se busca una línea de reposicionamiento con mayor sustento, conviene evaluarla como candidata prioritaria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

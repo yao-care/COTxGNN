@@ -4,7 +4,7 @@ title: Valproic Acid
 parent: Solo Predicción del Modelo (L5)
 nav_order: 652
 evidence_level: L5
-indication_count: 10
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Ácido valproico"
 monitor_inn: "valproic acid"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Valproic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ El ácido valproico es un fármaco antiepiléptico de amplio espectro; en Colomb
 |------|------|
 | Indicación Original | Ácido valproico (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Prediccion TxGNN | 99.97% |
+| Puntaje de Prediccion TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Numero de Registros Sanitarios | 2 (ambos cancelados) |
 | Decision Recomendada | Hold |
 
@@ -103,7 +103,7 @@ No se dispone de las advertencias ni contraindicaciones del prospecto de INVIMA;
 **Decision: Hold**
 
 **Justificacion:**
-No hay ensayos clínicos, la única publicación recuperada no trata la indicación predicha y no se ha establecido un vínculo mecanístico creíble. Además, los dos registros sanitarios en Colombia están cancelados. El puntaje de 99.97% no basta por sí solo para justificar avanzar.
+No hay ensayos clínicos, la única publicación recuperada no trata la indicación predicha y no se ha establecido un vínculo mecanístico creíble. Además, los dos registros sanitarios en Colombia están cancelados. El puntaje de 0.9997 no basta por sí solo para justificar avanzar.
 
 **Para avanzar se necesita:**
 - Evidencia preclínica o clínica específica del ácido valproico en tumores del nervio trigémino (por ejemplo, estudios sobre inhibición de HDAC en esas neoplasias).

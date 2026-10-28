@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Propofol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 539
-evidence_level: L5
+evidence_level: L1
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Propofol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Propofol"
@@ -14,7 +14,7 @@ predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Pr
 # Propofol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **3 ensayos clínicos** y **19 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Propofol (el registro INVIMA solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.69% |
+| Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L1 (a verificar, ver nota abajo) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -139,10 +139,10 @@ Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación | Comentario |
 |------|------|------|------|------|
-| Migraña con aura del tronco encefálico | 99.58% | L3 | Pregunta de investigación | Sin ensayos específicos; evidencia extrapolada de migraña general y respaldo preclínico sobre depresión cortical propagada |
-| Angina de Prinzmetal | 99.23% | L4 | Hold | Solo reportes de caso de espasmo coronario durante anestesia; señal de seguridad, no terapéutica |
-| Síndrome nefrogénico de antidiuresis inapropiada | 99.20% | L5 | Hold | Sin ensayos ni literatura; no se identifica vía mecanística plausible |
-| Síndrome de Tourette | 99.03% | L4 | Hold | Solo estudios de sedación durante cirugía de estimulación cerebral profunda; no evalúan eficacia terapéutica |
+| Migraña con aura del tronco encefálico | 0.9958 | L3 | Pregunta de investigación | Sin ensayos específicos; evidencia extrapolada de migraña general y respaldo preclínico sobre depresión cortical propagada |
+| Angina de Prinzmetal | 0.9923 | L4 | Hold | Solo reportes de caso de espasmo coronario durante anestesia; señal de seguridad, no terapéutica |
+| Síndrome nefrogénico de antidiuresis inapropiada | 0.9920 | L5 | Hold | Sin ensayos ni literatura; no se identifica vía mecanística plausible |
+| Síndrome de Tourette | 0.9903 | L4 | Hold | Solo estudios de sedación durante cirugía de estimulación cerebral profunda; no evalúan eficacia terapéutica |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

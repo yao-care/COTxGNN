@@ -48,10 +48,10 @@ Actualmente hay **34 ensayos clínicos** y **20 publicaciones** compilados que r
 |------|------|
 | Indicación Original | RIFABUTIN (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Infección por VIH (en la práctica, enfermedad micobacteriana asociada al VIH) |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

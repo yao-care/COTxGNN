@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Dalteparina: De Indicación No Especificada en el Registro a Trombofilia por Deficiencia de Proteína C
+## Dalteparina: De Indicación No Especificada en el Registro a Trombofilia por Deficiencia de Proteína C, Autosómica Recesiva
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "Dalteparina") |
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -100,10 +100,10 @@ El texto de advertencias y contraindicaciones del prospecto de INVIMA no está d
 
 | Indicación Predicha | Puntaje TxGNN | Evidencia | Observación | Decisión |
 |------|------|------|------|------|
-| Trastorno primario de liberación plaquetaria | 99.67% | L5 | Trastorno hemorrágico; el anticoagulante podría agravarlo. Probable artefacto del grafo | Hold |
-| Pseudo-enfermedad de von Willebrand | 99.52% | L5 | Trastorno hemorrágico; sin mecanismo de beneficio y con riesgo de empeorar el sangrado | Hold |
-| Síndrome hemolítico urémico atípico con anomalía de trombomodulina | 99.34% | L5 | Vínculo débil y especulativo; el estándar es la inhibición del complemento | Hold |
-| Neuropatía dolorosa | 99.19% | L5 | Sin mecanismo plausible; el único ensayo asociado (NCT00445328, Fase 4, terminado, n=84) compara dalteparina con heparina no fraccionada para prevenir tromboembolismo venoso y no aborda dolor neuropático | Hold |
+| Trastorno primario de liberación plaquetaria | 0.9967 | L5 | Trastorno hemorrágico; el anticoagulante podría agravarlo. La puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica | Hold |
+| Pseudo-enfermedad de von Willebrand | 0.9952 | L5 | Trastorno hemorrágico; sin mecanismo de beneficio y con riesgo de empeorar el sangrado | Hold |
+| Síndrome hemolítico urémico atípico con anomalía de trombomodulina | 0.9934 | L5 | Vínculo débil y especulativo; el estándar es la inhibición del complemento | Hold |
+| Neuropatía dolorosa | 0.9919 | L5 | Sin mecanismo plausible; el único ensayo asociado (NCT00445328, Fase 4, terminado, n=84) compara dalteparina con heparina no fraccionada para prevenir tromboembolismo venoso y no aborda dolor neuropático | Hold |
 
 ---
 

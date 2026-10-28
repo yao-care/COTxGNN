@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "SELPERCATINIB") |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 
 Selpercatinib es un inhibidor selectivo de la cinasa RET. Este dato proviene del conocimiento general del fármaco, ya que los datos compilados para este informe no incluyen el mecanismo de acción detallado. Se usa en tumores con alteraciones de RET, como el cáncer de pulmón de células no pequeñas con fusión de RET y el carcinoma medular de tiroides, como reflejan las publicaciones recuperadas.
 
-La relación entre la indicación original (oncología con alteración de RET) y la hipertensión pulmonar **no es evidente**. El puntaje alto de TxGNN (0.99) proviene de una predicción basada en grafos de conocimiento y no de evidencia experimental o clínica. En los datos compilados no se establece un mecanismo plausible mediado por RET en el remodelado vascular pulmonar.
+La relación entre la indicación original (oncología con alteración de RET) y la hipertensión pulmonar **no es evidente**. El puntaje alto de TxGNN (0.9918) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, experimental ni clínica. En los datos compilados no se establece un mecanismo plausible mediado por RET en el remodelado vascular pulmonar.
 
 Conviene aclarar que los reportes de eventos adversos de inhibidores de RET pueden mencionar efectos cardiovasculares o hipertensivos, pero se refieren a hipertensión sistémica y constituyen una señal de seguridad, no evidencia terapéutica para hipertensión pulmonar.
 
@@ -89,8 +89,8 @@ Ninguna de las publicaciones evalúa selpercatinib en hipertensión pulmonar; se
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20232108 | RETSEVMO® 80 MG (cancelado) | Cápsula dura | SELPERCATINIB |
-| 20232107 | RETSEVMO® 40 MG (cancelado) | Cápsula dura | SELPERCATINIB |
+| 20232108 | RETSEVMO® 80 MG (vigente) | Cápsula dura | SELPERCATINIB |
+| 20232107 | RETSEVMO® 40 MG (vigente) | Cápsula dura | SELPERCATINIB |
 
 ---
 

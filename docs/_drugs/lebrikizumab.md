@@ -8,6 +8,7 @@ nav_order: 384
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Lebrikizumab
@@ -49,8 +50,8 @@ Lebrikizumab es un anticuerpo monoclonal cuyas indicaciones originales no están
 | Nueva Indicación Predicha | Sin predicciones TxGNN generadas |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — solo modelo, sin estudios reales asociados |
-| Estado de Mercado en Colombia | No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

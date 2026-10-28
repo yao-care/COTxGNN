@@ -4,17 +4,17 @@ title: Calcitriol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 128
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D (término obsoleto) (nivel de evidencia L5). Indicación original: No detallada"
 monitor_inn: "CALCITRIOL"
-predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "familial isolated hypoparathyroidism due to impaired PTH secretion", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "Dahlberg-Borer-Newcomer syndrome", "hereditary hypophosphatemic rickets"]
+predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 ---
 
 # Calcitriol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia de vitamina 
 |------|------|
 | Indicación Original | No detallada (el registro solo indica "Calcitriol") |
 | Nueva Indicación Predicha | Deficiencia de vitamina D (término obsoleto) |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ La predicción principal se apoya solo en el modelo (L5), sin ensayos ni literat
 - Evaluar la reactivación o nueva solicitud de registro, dado que no hay productos vigentes.
 
 **Nota sobre otras predicciones del mismo fármaco:**
-Entre las demás predicciones, la **hipofosfatemia raquítica hereditaria** (puntaje 99.28%) tiene el mayor respaldo: nivel L3 y recomendación *Proceed with Guardrails*. Cuenta con 2 ensayos clínicos: uno de Fase temprana 1, completado, con 16 participantes, sobre calcitriol en monoterapia en hipofosfatemia ligada al X; y uno de Fase 4, de estado desconocido, con 100 participantes, que compara dosis de vitamina D activa más fosfato. También cuenta con múltiples revisiones que describen calcitriol más fosfato como tratamiento estándar. Requiere vigilar hipercalciuria, nefrocalcinosis e hiperparatiroidismo. La **acidosis tubular renal** tiene nivel L4, con evidencia solo fisiológica y de casos, sin evidencia de que calcitriol trate la acidosis en sí.
+Entre las demás predicciones, la **hipofosfatemia raquítica hereditaria** (puntaje 0.9928) tiene el mayor respaldo: nivel L3 y recomendación *Proceed with Guardrails*. Cuenta con 2 ensayos clínicos: uno de Fase temprana 1, completado, con 16 participantes, sobre calcitriol en monoterapia en hipofosfatemia ligada al X; y uno de Fase 4, de estado desconocido, con 100 participantes, que compara dosis de vitamina D activa más fosfato. También cuenta con múltiples revisiones que describen calcitriol más fosfato como tratamiento estándar. Requiere vigilar hipercalciuria, nefrocalcinosis e hiperparatiroidismo. La **acidosis tubular renal** tiene nivel L4, con evidencia solo fisiológica y de casos, sin evidencia de que calcitriol trate la acidosis en sí.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

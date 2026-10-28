@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Ibuprofeno: De Ibuprofeno (indicación no detallada) a Displasia acromesomélica tipo Hunter-Thompson
+## Ibuprofeno: De Ibuprofeno (indicación no detallada) a Displasia acromesomélica, tipo Hunter-Thompson
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Ibuprofeno (el registro no detalla la indicación; uso conocido: analgésico y antipirético) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético causado por variantes de pérdida de función en el gen *CDMP1/GDF5*, que alteran la señalización de BMP. No se identifica un mecanismo plausible que conecte la inhibición de COX con la corrección de ese defecto.
 
-El puntaje alto (0.997) probablemente refleja la cercanía en el grafo de conocimiento entre displasias esqueléticas raras, y no una relación biológica demostrada. En el mejor de los casos, el ibuprofeno podría servir como manejo sintomático del dolor, lo cual sería cuidado de soporte y no reposicionamiento.
+El puntaje alto (0.9974) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como las displasias esqueléticas raras, y no una relación biológica demostrada. En el mejor de los casos, el ibuprofeno podría servir como manejo sintomático del dolor, lo cual sería cuidado de soporte y no reposicionamiento.
 
 Otras predicciones del modelo (todas L5, sin evidencia y con recomendación Hold) incluyen: síndrome de braquiolmia-amelogénesis imperfecta, miosclerosis, braquiolmia, síndrome de braquidactilia-sindactilia, pseudoacondroplasia y síndrome de microftalmía colobomatosa-displasia rizomélica.
 

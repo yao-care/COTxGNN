@@ -4,17 +4,17 @@ title: Ramipril
 parent: Solo Predicción del Modelo (L5)
 nav_order: 546
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ramipril: nueva indicación predicha, Hipertensión pulmonar de mecanismo multifactorial no aclarado (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo…"
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
+description: "Ramipril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: RAMIPRIL"
 ---
 
 # Ramipril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ramipril: De Indicación No Especificada a Hipertensión Pulmonar de Mecanismo Multifactorial No Aclarado
+## Ramipril: Pulmonary hypertension with unclear multifactorial mechanism
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ Para esta predicción no hay ensayos clínicos ni publicaciones; la evidencia di
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo dice "RAMIPRIL") |
-| Nueva Indicación Predicha | Hipertensión pulmonar de mecanismo multifactorial no aclarado |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Indicación Original | RAMIPRIL |
+| Nueva Indicación Predicha | Pulmonary hypertension with unclear multifactorial mechanism |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

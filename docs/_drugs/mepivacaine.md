@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **gastroduodenitis**, pero
 |------|------|
 | Indicación Original | Mepivacaína combinaciones |
 | Nueva Indicación Predicha | Gastroduodenitis |
-| Puntaje de Predicción TxGNN | 99.49% |
+| Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la gastroduodenitis es débil. De manera especulativa, un anestésico local podría aliviar el dolor de la mucosa, pero esto no está respaldado por ningún ensayo ni publicación. El bloqueo de canales de sodio no tiene un papel reconocido en la cicatrización de la mucosa gastroduodenal ni en la supresión ácida, y el uso sistémico u oral para inflamación gastroduodenal no está establecido.
 
-Por lo tanto, el puntaje alto de TxGNN (0.995) debe interpretarse solo como una señal computacional que requiere validación, no como evidencia de eficacia.
+Por lo tanto, el puntaje alto de TxGNN (0.9949) debe interpretarse solo como una señal computacional que requiere validación, no como evidencia de eficacia.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible para gastroduodenitis.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19933337 | ODONTOCAINA® 2% | Solución inyectable | Mepivacaína combinaciones | Cancelado |
+| 19933337 | ODONTOCAINA® 2% | Solución inyectable | Mepivacaína combinaciones | Vigente |
 
 El fabricante es Productora y Comercializadora Odontológica New Stetic S.A. Actualmente no hay registros vigentes en Colombia.
 

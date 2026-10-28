@@ -48,9 +48,9 @@ con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan es
 |------|------|
 | Indicación Original | Ketorolaco (el registro solo indica el nombre del principio activo, sin detallar la indicación) |
 | Nueva Indicación Predicha | Trastorno de Cefalea (headache disorder) |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -130,8 +130,8 @@ Para cefalea/migraña existen ensayos clínicos completados de Fase 3 y 4 que pr
 - Establecer un plan de monitoreo de seguridad (función renal, riesgo gastrointestinal y cardiovascular, interacciones con litio y ácido acetilsalicílico) y criterios de precaución en pediatría.
 
 **Otras indicaciones predichas (menor prioridad):**
-- **Conjuntivitis por rosácea** (TxGNN 99.40%): sin ensayos ni literatura, nivel L5, decisión **Hold**. Solo existe una justificación plausible por la inhibición de COX en la inflamación de la superficie ocular.
-- **Cefalea autonómica trigeminal** (TxGNN 99.39%): nivel L4, **pregunta de investigación**. Solo hay un ensayo de Fase 1 retirado sin participantes y literatura antigua e indirecta.
+- **Conjuntivitis por rosácea** (TxGNN 0.9940): sin ensayos ni literatura, nivel L5, decisión **Hold**. Solo existe una justificación plausible por la inhibición de COX en la inflamación de la superficie ocular.
+- **Cefalea autonómica trigeminal** (TxGNN 0.9939): nivel L4, **pregunta de investigación**. Solo hay un ensayo de Fase 1 retirado sin participantes y literatura antigua e indirecta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 |------|------|
 | Indicación Original | Buprenorfina (el registro sanitario no detalla la indicación; en la práctica, dolor intenso y dependencia de opioides) |
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 No se identificó un vínculo mecanístico claro con la porfiria aguda intermitente. La única publicación recuperada describe el manejo anestésico de una paciente con esta enfermedad, es decir, un tema de seguridad perioperatoria de fármacos anestésicos y analgésicos, no un beneficio terapéutico. El dolor abdominal es una manifestación frecuente de los ataques, pero esto no respalda por sí solo que la buprenorfina trate la enfermedad de fondo.
 
-El puntaje alto del modelo (99.41%) no está respaldado por datos clínicos. El uso de opioides en porfiria se considera sobre todo un tema de seguridad (riesgo porfirinogénico), no una opción de tratamiento.
+El puntaje alto del modelo (0.9941) no está respaldado por datos clínicos. El uso de opioides en porfiria se considera sobre todo un tema de seguridad (riesgo porfirinogénico), no una opción de tratamiento.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -75,8 +75,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19967654 | TRANSTEC® 70 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Cancelado |
-| 19967651 | TRANSTEC® 35 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Cancelado |
+| 19967654 | TRANSTEC® 70 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Vigente |
+| 19967651 | TRANSTEC® 35 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -107,7 +107,7 @@ La predicción de TxGNN para porfiria aguda intermitente carece de ensayos clín
 - Aclarar la situación regulatoria, ya que ambos registros están cancelados.
 - Estudios preclínicos o clínicos que evalúen un beneficio terapéutico real.
 
-**Otras predicciones del modelo (todas con decisión Hold):** discinesia linguo-facial-bucal (99.32%, evidencia indirecta L4, centrada en agitación en demencia y farmacología general), trastorno de tics crónico (99.13%, L5), punta-onda continua durante el sueño (99.05%, L5; los opioides podrían reducir el umbral convulsivo), ataques de estremecimiento benignos (99.03%, L5) y enfermedad extrapiramidal y de movimiento (99.03%, L5). Ninguna cuenta con ensayos clínicos.
+**Otras predicciones del modelo (todas con decisión Hold):** discinesia linguo-facial-bucal (0.9932, evidencia indirecta L4, centrada en agitación en demencia y farmacología general), trastorno de tics crónico (0.9913, L5), punta-onda continua durante el sueño (0.9905, L5; los opioides podrían reducir el umbral convulsivo), ataques de estremecimiento benignos (0.9903, L5) y enfermedad extrapiramidal y de movimiento (0.9903, L5). Ninguna cuenta con ensayos clínicos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,7 +4,7 @@ title: Methylprednisolone
 parent: Evidencia Alta (L1-L2)
 nav_order: 437
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Methylprednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Prednisolona / metilprednisolona"
 monitor_inn: "Methylprednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Methylprednisolone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ Metilprednisolona es un glucocorticoide sistémico, registrado en Colombia en ta
 |------|------|
 | Indicación Original | Prednisolona / metilprednisolona (el registro sanitario no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados; ninguno vigente) |
 | Decisión Recomendada | Proceed with Guardrails |
 

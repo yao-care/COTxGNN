@@ -50,9 +50,9 @@ La evidencia indirecta más cercana es un estudio preclínico en ratones sobre a
 |------|------|
 | Indicación Original | Alverina combinaciones |
 | Nueva Indicación Predicha | Trastorno distímico |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,16 +62,15 @@ La evidencia indirecta más cercana es un estudio preclínico en ratones sobre a
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción de alverina en los datos compilados para este informe. Se sabe que es un relajante del músculo liso, y se ha descrito actividad antagonista sobre el receptor 5-HT1A, aunque esto último no está respaldado por los datos suministrados. Como dato farmacológico, se registra una interacción con el factor nuclear de hepatocitos 4-alfa (HNF4A), sin relevancia clínica establecida.
 
-La relación entre la indicación original (espasmo gastrointestinal) y el trastorno distímico no es directa. La hipótesis es que la modulación serotoninérgica podría influir en la regulación del ánimo. Esta idea es plausible, pero no está demostrada y el puntaje de 99.83% es una predicción computacional.
+La relación entre la indicación original (espasmo gastrointestinal) y el trastorno distímico no es directa. La hipótesis es que la modulación serotoninérgica podría influir en la regulación del ánimo. Esta idea es plausible, pero no está demostrada y el puntaje de 0.9983 es una predicción computacional.
 
 Otras predicciones del modelo tienen algo más de apoyo indirecto, por lo que conviene considerarlas como alternativas de investigación:
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Evidencia disponible |
 |------|------|------|------|
-| Trastorno de ansiedad | 99.45% | L4 | Un estudio preclínico en ratones (2014) |
-| Depresión neurótica | 99.16% | L4 | Un estudio computacional de reposicionamiento (2018) |
-| Melancolía | 99.14% | L4 | El mismo estudio computacional (2018), sin corroboración independiente |
-| Trastorno neurótico, migraña, tortícolis paroxística benigna de la infancia, agorafobia, déficit congénito aislado de ACTH | 99.0–99.6% | L5 | Solo predicción del modelo |
+| Trastorno de ansiedad | 0.9945 | L4 | Un estudio preclínico en ratones (2014) |
+| Depresión neurótica | 0.9916 | L4 | Un estudio computacional de reposicionamiento (2018) |
+| Melancolía | 0.9914 | L4 | El mismo estudio computacional (2018), sin corroboración independiente |
 
 ---
 
@@ -98,8 +97,8 @@ Como referencia indirecta, para otras indicaciones predichas existen:
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20152358 | AVARIN | Cápsula blanda | Alverina combinaciones | Cancelado |
-| 20070928 | METEOSPASMYL® CÁPSULAS BLANDAS | Cápsula blanda | Alverina combinaciones | Cancelado |
+| 20152358 | AVARIN | Cápsula blanda | Alverina combinaciones | Vigente |
+| 20070928 | METEOSPASMYL® CÁPSULAS BLANDAS | Cápsula blanda | Alverina combinaciones | Vigente |
 
 ---
 

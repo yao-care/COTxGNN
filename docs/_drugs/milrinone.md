@@ -4,7 +4,7 @@ title: Milrinone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 445
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Milrinone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: MILRINONA"
 monitor_inn: "milrinone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "conge
 # Milrinone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **alopecia**, pero actualm
 |------|------|
 | Indicación Original | MILRINONA (el registro no detalla la indicación; uso clínico conocido: insuficiencia cardiaca congestiva) |
 | Nueva Indicación Predicha | Alopecia |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ La predicción para alopecia es solo computacional (nivel L5): no hay ensayos cl
 - Estudios preclínicos (por ejemplo, modelos de folículo piloso o de perfusión del cuero cabelludo) que sustenten la hipótesis de la PDE3.
 - Evaluar si una vía tópica o localizada sería viable, ya que la presentación disponible es solo inyectable.
 - Obtener y revisar el prospecto oficial para completar la información de advertencias y contraindicaciones.
-- Confirmar el estado regulatorio en Colombia, dado que todos los registros están cancelados.
+- Confirmar el estado regulatorio en Colombia; el medicamento está comercializado y tiene 4 registros vigentes de 4.
 - Como referencia, otras indicaciones predichas para este fármaco tienen más respaldo que la alopecia, en particular la insuficiencia cardiaca congestiva (nivel L2, "Proceed with Guardrails") y el síndrome de vasoconstricción cerebral reversible asociado a cefalea (reportes de casos). Podrían priorizarse antes que la alopecia.
 ## Descargo de responsabilidad
 

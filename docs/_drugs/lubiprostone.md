@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero actualm
 |------|------|
 | Indicación Original | Lubiprostona (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Alopecia |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20057095 | MOVIPROST® 8 MCG | Cápsula blanda | LUBIPROSTONE | Cancelado |
-| 20028573 | MODULEX 24 MCG | Cápsula blanda | CARBONO DIOXIDO PRODUCTOS FARMACOLOGICOS | Cancelado |
+| 20057095 | MOVIPROST® 8 MCG | Cápsula blanda | LUBIPROSTONE | Vigente |
+| 20028573 | MODULEX 24 MCG | Cápsula blanda | CARBONO DIOXIDO PRODUCTOS FARMACOLOGICOS | Vigente |
 
 ---
 

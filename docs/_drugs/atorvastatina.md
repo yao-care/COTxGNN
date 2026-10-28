@@ -8,6 +8,7 @@ nav_order: 74
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atorvastatina
@@ -51,8 +52,8 @@ Con **0 ensayos clínicos**, **0 publicaciones** y **0 registros sanitarios colo
 | Nueva Indicación Predicha | Sin predicciones TxGNN generadas |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios cargados en el pack) |
-| Estado de Mercado en Colombia | No encontrado en consulta INVIMA (0 registros) |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

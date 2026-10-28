@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 |------|------|
 | Indicación Original | No especificada en los registros (solo figura "Ácido tranexámico") |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.19% |
-| Nivel de Evidencia | L4 (sin ensayos clínicos; solo revisiones narrativas indirectas y razonamiento de mecanismo) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9919 |
+| Nivel de Evidencia | L5 (sin ensayos clínicos; solo revisiones narrativas indirectas y razonamiento de mecanismo) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, el ácido tranexámico es un antifibrinolítico, análogo de la lisina, que bloquea la unión del plasminógeno a la fibrina y así reduce la degradación de los coágulos. Está establecido para disminuir el sangrado menstrual abundante.
 
-La amenorrea es el estado clínico opuesto: ausencia de menstruación. Por ello, el puntaje alto de TxGNN (0.99) probablemente refleja la cercanía en la red de conocimiento con trastornos menstruales (por ejemplo, sangrado uterino anormal) y no un efecto terapéutico real sobre la amenorrea.
+La amenorrea es el estado clínico opuesto: ausencia de menstruación. Por ello, el puntaje alto de TxGNN (0.9919) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (por ejemplo, trastornos menstruales como el sangrado uterino anormal), no evidencia biológica de un efecto terapéutico real sobre la amenorrea.
 
 El único vínculo plausible es indirecto: la literatura asociada trata sobre la supresión o profilaxis de la menstruación, donde el ácido tranexámico reduce el sangrado como medida sintomática. No trata ni revierte la amenorrea en sí. Por tanto, esta predicción debe considerarse con mucha cautela.
 

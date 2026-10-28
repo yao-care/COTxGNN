@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Ticagrelor
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 626
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L2). Indicación original: No especificada en los registros"
 monitor_inn: "TICAGRELOR"
@@ -14,7 +14,7 @@ predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arterioscle
 # Ticagrelor
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **arteriosclerosis intracr
 |------|------|
 | Indicación Original | No especificada en los registros (el texto registrado es solo "Ticagrelor") |
 | Nueva Indicación Predicha | Arteriosclerosis intracraneal |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

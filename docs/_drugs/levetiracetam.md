@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Levetiracetam
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 395
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Levetiracetam: nueva indicación predicha, Estado epiléptico (status epilepticus) (nivel de evidencia L1). Indicación original: LEVETIRACETAM"
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
+description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: LEVETIRACETAM"
 ---
 
 # Levetiracetam
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Levetiracetam: De Epilepsia (Indicación Registrada) a Estado Epiléptico
+## Levetiracetam: Beta-ketothiolase deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Levetiracetam es un fármaco antiepiléptico que modula la proteína de vesículas sinápticas SV2A. En Colombia sus registros sanitarios solo aparecen con el texto "LEVETIRACETAM" como indicación, sin detalle clínico.
-El modelo TxGNN predice que podría ser efectivo para **estado epiléptico**, con **16 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Esta predicción coincide con la práctica clínica actual, por lo que podría no ser un reposicionamiento en sentido estricto.
+Esta predicción coincide con la práctica clínica actual, por lo que podría no ser un reposicionamiento en sentido estricto.
 
 ---
 
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para **estado epiléptico**, co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LEVETIRACETAM (el registro no detalla la indicación; en la práctica, epilepsia/crisis convulsivas) |
-| Nueva Indicación Predicha | Estado epiléptico (status epilepticus) |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Indicación Original | LEVETIRACETAM |
+| Nueva Indicación Predicha | Beta-ketothiolase deficiency |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre la selección de la indicación:** los datos incluyen 10 indicaciones predichas. La predicción de mayor puntaje es "epilepsia visual" (99.98%), pero tiene nivel de evidencia L4, sin ensayos clínicos y sin literatura específica. Este informe se centra en el **estado epiléptico**, la indicación con la evidencia más sólida (L1). Las demás indicaciones se resumen al final.
+**Nota sobre la selección de la indicación:** los datos incluyen 10 indicaciones predichas. Este informe se centra en el **estado epiléptico**, la indicación con la evidencia más sólida (L1). Las demás indicaciones se resumen al final.
 
 ---
 
@@ -130,14 +130,6 @@ No se dispone del prospecto de INVIMA, por lo que las advertencias y contraindic
 
 ## Otras Indicaciones Predichas (Resumen)
 
-| Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
-|------|------|------|------|
-| Epilepsia visual | 99.98% | L4 | Hold |
-| Crisis audiogénicas | 99.96% | L4 | Pregunta de investigación (evidencia sobre todo animal) |
-| Epilepsia de inicio por sobresalto | 99.96% | L3 | Pregunta de investigación (estudios pequeños y casos) |
-| Crisis por lectura | 99.94% | L4 | Pregunta de investigación |
-| Crisis por pensamiento, micción, alimentación u orgasmo | 99.96% | L5 | Hold (sin evidencia específica) |
-| Deficiencia de beta-cetotiolasa | 99.90% | L5 | Hold (probable artefacto del grafo, sin vínculo mecanístico) |
 
 ---
 

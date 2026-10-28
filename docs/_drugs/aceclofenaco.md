@@ -8,6 +8,7 @@ nav_order: 17
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aceclofenaco
@@ -49,7 +50,7 @@ Aceclofenaco es un antiinflamatorio no esteroideo (AINE) derivado del diclofenac
 | Nueva Indicación Predicha | **Ninguna** — sin predicciones TxGNN disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Sin estudios ni predicción aplicable |
-| Estado de Mercado en Colombia | ❌ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

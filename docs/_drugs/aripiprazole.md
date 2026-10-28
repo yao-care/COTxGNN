@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Aripiprazole
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 65
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Aripiprazole: nueva indicación predicha, Trastorno afectivo mayor (major affective disorder) (nivel de evidencia L1). Indicación original: ARIPIPRAZOL"
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **39 ensayos clínicos** y **18 publicaciones** que respaldan esta direcció
 |------|------|
 | Indicación Original | ARIPIPRAZOL (el registro no detalla la indicación; según la farmacología: esquizofrenia, trastorno bipolar, irritabilidad en autismo) |
 | Nueva Indicación Predicha | Trastorno afectivo mayor (major affective disorder) |
-| Puntaje de Predicción TxGNN | 99.62% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9962 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -112,9 +112,9 @@ Nota: una de las publicaciones recuperadas (PMID 38669232, metaanálisis sobre a
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20091370 | ILIMIT® (estado: cancelado) | Solución oral | ARIPIPRAZOL |
-| 20173116 | STROZOVEN® 30 MG TABLETAS (estado: cancelado) | Tableta | ARIPIPRAZOL |
-| 20173114 | STROZOVEN® 15 MG TABLETAS (estado: cancelado) | Tableta | ARIPIPRAZOL |
+| 20091370 | ILIMIT® (estado: vigente) | Solución oral | ARIPIPRAZOL |
+| 20173116 | STROZOVEN® 30 MG TABLETAS (estado: vigente) | Tableta | ARIPIPRAZOL |
+| 20173114 | STROZOVEN® 15 MG TABLETAS (estado: vigente) | Tableta | ARIPIPRAZOL |
 
 ---
 
@@ -139,7 +139,7 @@ Existen múltiples ensayos de fase 3 completados, aleatorizados y controlados co
 - Descargar y analizar el prospecto aprobado por INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el cribado de seguridad).
 - Confirmar el mecanismo de acción en DrugBank.
 - Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o una renovación, y precisar la indicación autorizada previamente.
-- Definir un plan de monitoreo metabólico, cardiovascular y hematológico, y de conductas impulsivo-compulsivas, dados los riesgos señalados por el grafo de conocimiento.
+- Definir un plan de monitoreo metabólico, cardiovascular y hematológico, y de conductas impulsivo-compulsivas, dados los riesgos señalados por la literatura y la información del medicamento.
 - Verificar que las indicaciones y dosis adyuvantes en depresión sean coherentes con las guías clínicas locales.
 ## Descargo de responsabilidad
 

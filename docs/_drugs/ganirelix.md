@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **
 |------|------|
 | Indicación Original | Ganirelix (el registro no detalla el texto de la indicación; el uso conocido es prevenir la ovulación prematura en estimulación ovárica) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero **
 
 Ganirelix es un péptido antagonista del receptor de GnRH (GnRH₁, gen GNRHR). Al bloquear este receptor, suprime la liberación de LH y FSH y, por consiguiente, reduce la producción de esteroides sexuales gonadales. Los datos compilados para este reporte no incluyen una descripción detallada del mecanismo de acción registrada en la base de datos, por lo que esta descripción se basa en la información farmacológica disponible.
 
-La relación con la hipertricosis es **especulativa**. La hipertricosis no se explica clásicamente por el eje gonadotrópico (a diferencia del hirsutismo, que depende de andrógenos), por lo que no hay una razón mecanística clara para que suprimir el eje GnRH la modifique. El puntaje muy alto de TxGNN (99.98%) refleja la proximidad en el grafo de conocimiento, no evidencia farmacológica ni clínica.
+La relación con la hipertricosis es **especulativa**. La hipertricosis no se explica clásicamente por el eje gonadotrópico (a diferencia del hirsutismo, que depende de andrógenos), por lo que no hay una razón mecanística clara para que suprimir el eje GnRH la modifique. El puntaje muy alto del modelo TxGNN (deep learning) (0.9998) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, farmacológica ni clínica.
 
 Como contexto, otras predicciones del modelo para este fármaco incluyen la pubertad precoz central, que es la más coherente mecanísticamente (bloqueo del eje hipotálamo-hipófisis-gonadal). Sin embargo, ganirelix es de acción corta y no tiene formulación de depósito, lo que limita su uso práctico. También aparecen la pubertad precoz familiar limitada al varón y el síndrome de exceso de aromatasa, clasificados como preguntas de investigación. Ninguna cuenta con ensayos ni literatura en los datos compilados.
 

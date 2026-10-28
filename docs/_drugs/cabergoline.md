@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cabergoline
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 125
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Cabergoline: nueva indicación predicha, Cáncer de hipófisis (pituitary cancer) (nivel de evidencia L1). Indicación original: CABERGOLINA"
+evidence_level: L5
+indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
+last_modified_at: 2026-10-27
+description: "Cabergoline: nueva indicación predicha, Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5). Indicación original: CABERGOLINA"
 ---
 
 # Cabergoline
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,110 +33,65 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-## Cabergolina: De Cabergolina (indicación registrada sin detalle) a Cáncer de Hipófisis
+## Cabergolina: agonista dopaminérgico D2 → síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Cabergolina es un agonista dopaminérgico registrado en Colombia bajo el nombre genérico "Cabergolina", cuyo registro sanitario no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **cáncer de hipófisis**, con **12 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, aunque casi todos se refieren a adenomas hipofisarios (en su mayoría benignos) y no a carcinoma hipofisario verdadero.
-
----
+La cabergolina es un agonista dopaminérgico que actúa principalmente sobre los receptores D2 y que cuenta con un registro sanitario local en Colombia.
+El modelo TxGNN predice que podría ser efectiva para el **síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome)**, una enfermedad ultrarrara.
+Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CABERGOLINA (el registro no especifica el texto de la indicación) |
-| Nueva Indicación Predicha | Cáncer de hipófisis (pituitary cancer) |
-| Puntaje de Prediccion TxGNN | 99.04% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Numero de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Indicación Original | CABERGOLINA |
+| Nueva Indicación Predicha | Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) |
+| Puntaje de Predicción TxGNN | 0.9906 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
+| Decisión Recomendada | Hold |
 
-> Nota: la predicción de mayor puntaje fue "adenocarcinoma de hipófisis" (99.06%), pero solo respaldada por reportes de caso (L4, Hold). Este informe se centra en "cáncer de hipófisis" (99.04%), que cuenta con la evidencia clínica más sólida entre las cinco predicciones evaluadas.
+## ¿Por qué es Razonable esta Predicción?
 
----
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Las fuentes farmacológicas muestran que la cabergolina se une a varios receptores humanos:
+- dopaminérgicos (D1 a D5);
+- serotoninérgicos (5-HT1A, 1B, 1D, 2A, 2B y 2C);
+- adrenérgicos alfa (1A, 2A, 2B y 2C).
 
-## Por qué es Razonable esta Predicción?
+Su acción principal es el agonismo sobre el receptor D2.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, cabergolina es un agonista del receptor de dopamina D2. Estos receptores se expresan en las células lactotropas de la hipófisis y, en menor medida, en células corticotropas, somatotropas y de adenomas no funcionantes. Su activación reduce la secreción de prolactina y puede provocar reducción del tamaño tumoral.
-
-La cabergolina es terapia de primera línea establecida en prolactinomas, y los ensayos clínicos se han extendido a adenomas corticotropos (enfermedad de Cushing) y adenomas hipofisarios no funcionantes. Por ello, el vínculo mecanístico con tumores de origen hipofisario es plausible. Además, el perfil farmacológico muestra afinidad por múltiples receptores dopaminérgicos (D1–D5), serotoninérgicos (5-HT1 y 5-HT2) y adrenérgicos (α1 y α2). Un estudio preclínico reciente (2024) sugiere que el receptor 5-HT2B participa en el crecimiento de adenomas no funcionantes y en la sensibilidad a la cabergolina.
-
-**Advertencia importante:** los ensayos y revisiones se refieren a adenomas hipofisarios, en su mayoría benignos, no al carcinoma hipofisario metastásico verdadero, una entidad muy rara. La extrapolación al carcinoma debe hacerse con cautela.
-
----
+No se identifica un vínculo mecanístico entre el agonismo dopaminérgico D2 y este síndrome ultrarraro. El puntaje de predicción es alto, pero no existen ensayos clínicos ni literatura que lo respalden. Por eso se interpreta con cautela como una señal del modelo, probablemente un artefacto de la predicción, y no como una hipótesis biológica sustentada.
 
 ## Evidencia de Ensayos Clínicos
 
-| Numero de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00889525](https://clinicaltrials.gov/study/NCT00889525) | Fase 3 | Completado | No reportada | Eficacia de cabergolina oral en enfermedad de Cushing por tumor hipofisario corticotropo |
-| [NCT03271918](https://clinicaltrials.gov/study/NCT03271918) | Fase 3 | Completado | 140 | Ensayo aleatorizado abierto de cabergolina en adenoma hipofisario residual no funcionante tras cirugía transesfenoidal |
-| [NCT02288962](https://clinicaltrials.gov/study/NCT02288962) | Fase 3 | Activo, sin reclutar | 60 | ECA de agonistas dopaminérgicos en adenomas hipofisarios no funcionantes |
-| [NCT07463235](https://clinicaltrials.gov/study/NCT07463235) | Fase 3 | Reclutando | 70 | Dosis alta de cabergolina vs dosis estándar en microprolactinomas; desenlace principal: tasa de remisión |
-| [NCT01620138](https://clinicaltrials.gov/study/NCT01620138) | Fase 2/3 | Completado | 21 | Expresión de receptores de somatostatina y dopamina en adenomas no funcionantes y prolactinomas resistentes |
-| [NCT07034859](https://clinicaltrials.gov/study/NCT07034859) | Fase 4 | Inscripción por invitación | 30 | Cabergolina vs ninguna terapia durante 48 semanas para reducir el tamaño de adenomas no funcionantes |
-| [NCT01915303](https://clinicaltrials.gov/study/NCT01915303) | Fase 2 | Terminado | 68 | Pasireotida sola o con cabergolina en enfermedad de Cushing |
-| [NCT07045935](https://clinicaltrials.gov/study/NCT07045935) | Fase 4 | Reclutando | 60 | Resultados metabólicos en prolactinomas tratados con agonistas dopaminérgicos |
-| [NCT00460616](https://clinicaltrials.gov/study/NCT00460616) | No aplica | Completado | 50 | Estudio observacional de anomalías cardíacas y regurgitación valvular en prolactinomas tratados crónicamente con cabergolina |
-| [NCT03457389](https://clinicaltrials.gov/study/NCT03457389) | No aplica | Desconocido | 68 | Cabergolina según nivel objetivo de prolactina y recurrencia tras suspensión |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [37097352](https://pubmed.ncbi.nlm.nih.gov/37097352/) | 2023 | Revisión | JAMA | Diagnóstico y manejo de adenomas hipofisarios funcionantes y no funcionantes |
-| [36974474](https://pubmed.ncbi.nlm.nih.gov/36974474/) | 2023 | Revisión | J Clin Endocrinol Metab | Abordaje del paciente con prolactinoma |
-| [40876473](https://pubmed.ncbi.nlm.nih.gov/40876473/) | 2025 | Revisión | Lancet Diabetes Endocrinol | Patogénesis, diagnóstico y manejo de adenomas secretores de prolactina |
-| [36013562](https://pubmed.ncbi.nlm.nih.gov/36013562/) | 2022 | Revisión | Medicina (Kaunas) | Tratamiento del prolactinoma: agonistas dopaminérgicos, cirugía y terapia multimodal |
-| [31597135](https://pubmed.ncbi.nlm.nih.gov/31597135/) | 2020 | Revisión | Neuroendocrinology | Nuevos mecanismos antitumorales de cabergolina y posibles aplicaciones más amplias |
-| [28025719](https://pubmed.ncbi.nlm.nih.gov/28025719/) | 2017 | Revisión | Pituitary | Uso de cabergolina en acromegalia |
-| [25732645](https://pubmed.ncbi.nlm.nih.gov/25732645/) | 2015 | Revisión | Endocrinol Metab Clin North Am | Cabergolina en tumores hipofisarios y valvulopatía; en la mayoría de estudios no se asoció a mayor riesgo significativo |
-| [38989697](https://pubmed.ncbi.nlm.nih.gov/38989697/) | 2024 | Preclínico/mecanístico | Neuro-oncology | Inhibir HTR2B frena el crecimiento de adenomas no funcionantes y sensibiliza a la cabergolina |
-| [28170483](https://pubmed.ncbi.nlm.nih.gov/28170483/) | 2017 | Revisión | JAMA | Diagnóstico y tratamiento de adenomas hipofisarios |
-| [34034260](https://pubmed.ncbi.nlm.nih.gov/34034260/) | 2022 | Revisión | Neuroendocrinology | MicroARN en prolactinoma resistente a agonistas dopaminérgicos (~10% de resistencia a cabergolina) |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20097607 (cancelado) | CABERGOLINA 0.5 MG | Tableta | CABERGOLINA |
-
-Actualmente no hay registros vigentes en Colombia; el único registro (Laboratorios MK S.A.S., vía oral) está cancelado.
-
----
+La cabergolina figura como **comercializada** en Colombia. El registro local corresponde a una presentación oral en tableta de un solo principio activo, y la lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas por el grafo de conocimiento (no provienen del prospecto):** enfermedad hepática, enfermedad de la vesícula biliar, valvulopatía cardíaca, fibrosis pulmonar (incluida la postinflamatoria), fibrosis retroperitoneal asociada a IgG4, preeclampsia y preeclampsia grave.
-- **Interacciones farmacológicas:** se identificaron 15 interacciones farmacológicas, todas de tipo farmacológico (unión a receptores), sin nivel de gravedad asignado: receptores de serotonina 5-HT1A, 1B, 1D, 2A, 2B y 2C; adrenorreceptores α1A, α2A, α2B y α2C; y receptores de dopamina D1 a D5. La afinidad por 5-HT2B es relevante por su vínculo conocido con valvulopatía.
-- **Señales de la literatura:** riesgo de valvulopatía cardíaca con dosis altas o uso prolongado (debatido en pacientes con tumores hipofisarios), trastornos del control de impulsos y reacciones adversas psiquiátricas. Existe además un reporte de caso de glaucoma bilateral de ángulo cerrado asociado a cabergolina.
-
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Consultar el prospecto para información de seguridad. Los datos compilados no incluyen advertencias ni contraindicaciones de la etiqueta, y las entradas de interacciones corresponden a perfiles de unión a receptores, no a interacciones medicamentosas clínicas.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Varios ensayos de Fase 3 completados (NCT00889525 y NCT03271918) y numerosas revisiones respaldan el uso de cabergolina en tumores hipofisarios. Sin embargo, esa evidencia corresponde a adenomas y no a carcinoma hipofisario verdadero, por lo que la extrapolación exige cautela. Además, el producto no tiene registro vigente en Colombia.
+La predicción no tiene ensayos clínicos, literatura ni un vínculo mecanístico identificable, por lo que su nivel de evidencia es L5. Con estos datos no hay base para avanzar.
 
 **Para avanzar se necesita:**
-- Evidencia específica en carcinoma hipofisario (series de casos o estudios dedicados), dada su extrema rareza.
-- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales), actualmente no disponibles.
-- Resultados publicados de los ensayos de Fase 3 completados, incluida la inscripción de NCT00889525.
-- Aclarar la situación regulatoria en Colombia (nuevo registro sanitario o reactivación del cancelado) y confirmar la indicación aprobada.
-- Plan de monitoreo: ecocardiograma periódico por riesgo de valvulopatía con dosis altas o uso prolongado, vigilancia de trastornos del control de impulsos y de la respuesta tumoral, y uso de la dosis efectiva más baja.
-- Revisión oftalmológica en pacientes con riesgo de glaucoma de ángulo cerrado.
+- Un racional biológico que conecte la vía dopaminérgica con la fisiopatología del síndrome.
+- Estudios preclínicos o series de casos que muestren una señal de beneficio.
+- Las advertencias y contraindicaciones del prospecto local, y los datos detallados del mecanismo de acción.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

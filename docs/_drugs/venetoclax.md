@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Venetoclax
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 656
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Venetoclax: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas… (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto apr…"
+description: "Venetoclax: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto apr…"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-
 # Venetoclax
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Venetoclax: De Indicación No Especificada en el Registro a Leucemia Linfocítica Crónica/Linfoma Linfocítico de Células Pequeñas (subtipo de centro pregerminal)
+## Venetoclax: De Indicación No Especificada en el Registro a Linfoma de Hodgkin
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ Venetoclax es un inhibidor oral de BCL-2. Su registro sanitario en Colombia solo
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo repite el nombre "Venetoclax") |
 | Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas del centro pregerminal (LLC/LLCP con IGHV no mutado) |
-| Puntaje de Prediccion TxGNN | 99.55% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado; 0 vigentes) |
+| Puntaje de Prediccion TxGNN | 0.9951 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,7 +86,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para este subtipo 
 |---------|------|------|-----------|
 | 20139971 (cancelado) | VENCLEXTA® 100 MG TABLETA RECUBIERTA (ABBVIE S.A.S.) | Tableta recubierta | Solo consigna el nombre del principio activo ("Venetoclax"), sin indicación detallada |
 
-Venetoclax no tiene ningún registro vigente en Colombia. El único registro existente está cancelado.
+Venetoclax está comercializado en Colombia y tiene 1 registro vigente de 1 en total.
 
 ---
 
@@ -138,7 +138,7 @@ Venetoclax no tiene ningún registro vigente en Colombia. El único registro exi
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia específica para este subtipo es mínima: no hay ensayos clínicos y la única publicación es una revisión biológica indirecta. Además, el subtipo ya forma parte de una indicación establecida de venetoclax (LLC/LLCP), por lo que no constituye un hallazgo de reposicionamiento. En Colombia no existe ningún registro vigente.
+En Colombia, venetoclax está comercializado y tiene 1 registro vigente de 1 en total.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias, contraindicaciones e indicaciones aprobadas) para completar la evaluación de seguridad.

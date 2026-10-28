@@ -6,9 +6,9 @@ nav_order: 664
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Vitamin E: nueva indicación predicha, Trastorno congénito del metabolismo de la bilirrubina (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
+description: "Vitamin E: nueva indicación predicha, Inborn disorder of bilirubin metabolism (nivel de evidencia L5). Indicación original: MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES"
 ---
 
 # Vitamin E
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vitamina E: De Multivitamínicos y Minerales a Trastorno Congénito del Metabolismo de la Bilirrubina
+## Vitamin E: Inborn disorder of bilirubin metabolism
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,11 +45,11 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno congénito del
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Multivitaminas y otros minerales, incluidas combinaciones |
-| Nueva Indicación Predicha | Trastorno congénito del metabolismo de la bilirrubina |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES |
+| Nueva Indicación Predicha | Inborn disorder of bilirubin metabolism |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **opsismodisplasia**, pero
 |------|------|
 | Indicación Original | Evogliptina tartrato (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Opsismodisplasia |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,16 +63,16 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La opsismodisplasia es una displasia esquelética rara causada por mutaciones en el gen *INPPL1*, que afectan a SHIP2 y a la señalización de PI3K/insulina. El único vínculo posible con la inhibición de DPP-4 sería indirecto, a través del eje incretina/insulina. No se encontró respaldo mecanístico ni clínico directo.
 
-El puntaje alto de TxGNN (99.35%) refleja una predicción computacional basada en el grafo de conocimiento, no evidencia experimental. Debe interpretarse con cautela.
+El puntaje alto de TxGNN (0.9935) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni experimental. Debe interpretarse con cautela.
 
 ### Otras indicaciones predichas (para referencia)
 
 | Rango | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Comentario |
 |------|------|------|------|------|
-| 2 | Síndrome de disfunción sensible a tiamina | 99.32% | L5 | Sin vínculo mecanístico claro con la inhibición de DPP-4 |
-| 3 | Síndrome de la persona rígida clásico | 99.30% | L5 | Racional especulativo inmunomodulador (DPP-4/CD26 en linfocitos T) y asociación con autoinmunidad anti-GAD |
-| 4 | Síndrome de extremidad rígida focal | 99.30% | L5 | Variante focal del espectro anterior; mismo puntaje, probablemente por vecindad en el grafo |
-| 5 | Lipodistrofia localizada inducida por fármacos | 99.01% | L5 | Racional metabólico débil e indirecto |
+| 2 | Síndrome de disfunción sensible a tiamina | 0.9932 | L5 | Sin vínculo mecanístico claro con la inhibición de DPP-4 |
+| 3 | Síndrome de la persona rígida clásico | 0.9930 | L5 | Racional especulativo inmunomodulador (DPP-4/CD26 en linfocitos T) y asociación con autoinmunidad anti-GAD |
+| 4 | Síndrome de extremidad rígida focal | 0.9930 | L5 | Variante focal del espectro anterior; mismo puntaje, que puede reflejar similitudes que el modelo TxGNN (deep learning) aprendió entre enfermedades relacionadas, no evidencia biológica |
+| 5 | Lipodistrofia localizada inducida por fármacos | 0.9901 | L5 | Racional metabólico débil e indirecto |
 
 ---
 

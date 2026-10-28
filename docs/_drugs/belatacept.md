@@ -8,6 +8,7 @@ nav_order: 96
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Belatacept
@@ -51,8 +52,8 @@ Belatacept (DB06681) es un fármaco sin indicaciones originales registradas en e
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | Sin datos |
 | Nivel de Evidencia | N/A |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## Por qué No Puede Completarse la Evaluación

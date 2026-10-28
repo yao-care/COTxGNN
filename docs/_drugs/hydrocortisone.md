@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Hydrocortisone
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 328
-evidence_level: L5
-indication_count: 10
+evidence_level: L2
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Hydrocortisone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 |------|------|
 | Indicación Original | HIDROCORTISONA (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 (ver nota) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (los 5 cancelados) |
 | Decisión Recomendada | Hold |
 

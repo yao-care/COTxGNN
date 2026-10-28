@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectiva para **dispepsia**, pero hasta 
 |------|------|
 | Indicación Original | Multivitaminas y elementos traza |
 | Nueva Indicación Predicha | Dispepsia |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la dispepsia es débil e indirecta. La deficiencia de biotina puede causar síntomas gastrointestinales como náuseas y anorexia, por lo que cualquier beneficio probablemente sería la corrección de una deficiencia y no un efecto terapéutico directo sobre la dispepsia.
 
-El puntaje del modelo es muy alto (0.994), pero se basa en la estructura del grafo de conocimiento. Los datos compilados no sustentan una vía biológica concreta que conecte la biotina con la dispepsia. Esta predicción debe considerarse una hipótesis sin validar.
+El puntaje del modelo TxGNN (aprendizaje profundo) es muy alto (0.9943), pero proviene del modelo y puede reflejar similitudes que este aprendió entre enfermedades relacionadas, no evidencia biológica. Los datos compilados no sustentan una vía biológica concreta que conecte la biotina con la dispepsia. Esta predicción debe considerarse una hipótesis sin validar.
 
 ## Evidencia de Ensayos Clínicos
 

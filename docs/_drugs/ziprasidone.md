@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, pero 
 |------|------|
 | Indicación Original | No especificada en el registro (el texto solo dice "ZIPRASIDONA") |
 | Nueva Indicación Predicha | Tricotilomanía |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registro cancelado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -109,7 +109,7 @@ Consultar el prospecto para la información de seguridad detallada.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.83%), pero no hay ensayos clínicos ni literatura que la respalden (nivel L5). Además, el único registro sanitario en Colombia está cancelado y existen alertas de seguridad cardiometabólica relevantes.
+La predicción tiene un puntaje alto (0.9983), pero no hay ensayos clínicos ni literatura que la respalden (nivel L5). Además, el único registro sanitario en Colombia está cancelado y existen alertas de seguridad cardiometabólica relevantes.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre antipsicóticos atípicos en tricotilomanía y trastornos de conductas repetitivas, y su comparación con las opciones terapéuticas establecidas.

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Mercaptopurine
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 430
-evidence_level: L5
-indication_count: 10
+evidence_level: L3
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: MERCAPTOPURINA"
 monitor_inn: "Mercaptopurine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small 
 # Mercaptopurine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colom
 |------|------|
 | Indicación Original | MERCAPTOPURINA (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 (la evidencia clínica directa proviene de estudios de cohorte y pilotos pequeños; los ECA de Fase 3 son protocolos multifármaco) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

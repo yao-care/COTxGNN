@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Combinaciones (ritonavir y darunavir)"
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
+last_modified_at: 2026-10-27
+description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: COMBINACIONES (RITONAVIR…"
 ---
 
 # Darunavir
@@ -33,42 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Darunavir: De Combinaciones con Ritonavir (VIH) a Síndrome de Inmunodeficiencia Adquirida Felina
+## Darunavir: inhibidor de la proteasa del VIH → síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Darunavir es un inhibidor de la proteasa del VIH-1, registrado en Colombia en combinación con ritonavir.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica. Se trata de una indicación veterinaria, fuera del alcance habitual del reposicionamiento en humanos.
+Darunavir es un inhibidor de la proteasa del VIH-1 que se comercializa en Colombia en productos combinados con ritonavir.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)**, con un puntaje de 0.9997, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción específica.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Combinaciones (ritonavir y darunavir) |
-| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | COMBINACIONES (RITONAVIR Y DARUNAVIR); DARUNAVIR + RITONAVIR |
+| Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, darunavir es un inhibidor de la proteasa del VIH-1, usado en combinación con ritonavir, y su eficacia en la infección por VIH está establecida. Mecanísticamente, podría ser aplicable a otros lentivirus relacionados.
+Darunavir es un inhibidor de la proteasa del VIH-1. Esta enzima corta las poliproteínas virales y es indispensable para producir partículas virales maduras. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que esta explicación se basa en el conocimiento general de la clase farmacológica.
 
-El virus de inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH, por lo que un vínculo es plausible. Sin embargo, la proteasa del FIV difiere estructuralmente de la del VIH-1, y las diferencias en la especificidad de sustrato podrían reducir la unión del inhibidor. El puntaje alto (0.9997) es solo una predicción y probablemente refleja la cercanía con nodos relacionados con VIH en el grafo de conocimiento.
+El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH, lo que hace plausible a nivel conceptual la predicción. Sin embargo, la proteasa del FIV difiere estructuralmente de la del VIH-1, y las diferencias en la especificidad de sustrato podrían reducir la unión del inhibidor. Además, se trata de una indicación veterinaria, fuera del alcance habitual del reposicionamiento de fármacos en humanos.
 
-Además, es una indicación veterinaria, por lo que su valor para el reposicionamiento en humanos es limitado.
-
-### Otras predicciones del modelo (para contexto)
-
-| Rango | Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
-|---|---|---|---|---|
-| 2 | Infección por virus de inmunodeficiencia simia (SIV) | 99.97% | L4 | Solo estudios preclínicos en macacos con regímenes combinados de cART; la contribución de darunavir no puede separarse. Su valor traslacional está en el VIH, que ya es la indicación original. |
-| 3 | Trastorno del neurodesarrollo con marcha atáxica, ausencia del habla y reducción de sustancia blanca cortical | 99.97% | L5 | Sin vínculo mecanístico plausible; probable artefacto del grafo de conocimiento. |
-| 4 | Hiperlipidemia combinada familiar (término obsoleto) | 99.19% | L5 | Los inhibidores de proteasa suelen causar dislipidemia; el efecto esperado podría ser opuesto al buscado. |
+El puntaje alto (0.9997) es solo una predicción del modelo y no sustituye la evidencia experimental. No existen estudios que evalúen darunavir en esta enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -76,48 +67,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la indicación principal (inmunodeficiencia adquirida felina).
-
-Como referencia, para la segunda predicción (infección por SIV) se recuperaron las siguientes publicaciones preclínicas en macacos:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [25033210](https://pubmed.ncbi.nlm.nih.gov/25033210/) | 2014 | Estudio preclínico animal | PloS one | Terapia antirretroviral combinada supresora más el inhibidor de HDAC SAHA en macacos rhesus infectados con SIV, para estudiar reservorios virales |
-| [26150024](https://pubmed.ncbi.nlm.nih.gov/26150024/) | 2016 | Estudio preclínico animal | AIDS Res Hum Retroviruses | Comparación de regímenes inyectables coformulados de cART en macacos infectados con SIVmac239 |
-| [21505294](https://pubmed.ncbi.nlm.nih.gov/21505294/) | 2011 | Estudio preclínico animal | AIDS | Auranofina junto con cART restringe el reservorio viral en el modelo de SIDA en monos |
-| [22737073](https://pubmed.ncbi.nlm.nih.gov/22737073/) | 2012 | Estudio preclínico animal | PLoS Pathogens | Régimen antirretroviral muy intensificado que logra supresión viral prolongada y restricción del reservorio en macacos |
-
-Estos estudios son indirectos: evalúan combinaciones de antirretrovirales y no se ha confirmado el papel específico de darunavir (se requeriría revisar el texto completo).
+Actualmente no hay literatura relacionada disponible para esta predicción.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | Tableta recubierta | Combinaciones (ritonavir y darunavir) | Cancelado |
-| 20109025 | VIRONTAR | Comprimido | Darunavir + ritonavir | Cancelado |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | Tableta recubierta | Combinaciones (ritonavir y darunavir) |
+| 20109025 | VIRONTAR | Comprimido | Darunavir + ritonavir |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** insuficiencia hepática, enfermedad hepática, cirrosis hepática, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, infección crónica por virus de hepatitis C, infección por virus de hepatitis C, infección crónica por virus de hepatitis B, hipertrigliceridemia y hemofilia (incluida la forma sintomática en portadoras).
-- **Interacciones farmacológicas:** se identificaron 100 interacciones. Entre las principales:
-  - **Mayor:** cisaprida.
-  - **Moderadas:** antidiabéticos (acarbosa, albiglutida, alogliptina, metformina, pioglitazona, canagliflozina, dapagliflozina, saxagliptina, clorpropamida, acetohexamida), corticoides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida), aprepitant y claritromicina.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las listadas, la de **mayor gravedad** es con **cisaprida** (Mayor). Hay numerosas interacciones de nivel moderado, entre ellas con antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, saxagliptina, canagliflozina, dapagliflozina, clorpropamida, acetohexamida, albiglutida), corticoesteroides (hidrocortisona, dexametasona, betametasona, budesonida, triamcinolona), aprepitant y claritromicina.
+- **Condiciones de precaución registradas en los datos de seguridad**: enfermedad o insuficiencia hepática, cirrosis, enfermedad de la vesícula biliar, hiperglucemia, diabetes mellitus, cetoacidosis diabética, hepatitis B y C crónica, hipertrigliceridemia y hemofilia.
 
-Se recomienda consultar el prospecto para advertencias y contraindicaciones oficiales, ya que no se dispuso de ellas.
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal carece de ensayos clínicos y literatura (nivel L5), corresponde a una indicación veterinaria y no tiene respaldo mecanístico sólido. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción se basa únicamente en el puntaje del modelo, sin ensayos clínicos ni publicaciones sobre esta enfermedad (nivel L5). Además, es una indicación veterinaria, con diferencias estructurales entre la proteasa del FIV y la del VIH-1.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de darunavir (por ejemplo, desde DrugBank).
-- Prospecto de INVIMA con advertencias y contraindicaciones.
-- Evaluación de si la indicación veterinaria está dentro del alcance del programa; de lo contrario, priorizar indicaciones humanas.
-- Estudios de afinidad de darunavir con la proteasa del FIV.
-- Revisión de texto completo de los estudios en SIV para determinar la contribución de darunavir.
+- Estudios in vitro de inhibición de la proteasa del FIV por darunavir
+- Datos del mecanismo de acción del fármaco
+- Evaluación de la pertinencia de una indicación veterinaria dentro del alcance del reposicionamiento
+- Revisión del prospecto de INVIMA para advertencias y contraindicaciones
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

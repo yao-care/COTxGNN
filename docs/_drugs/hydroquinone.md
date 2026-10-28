@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Hydroquinone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 330
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: Hidroquinona"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular kera
 # Hydroquinone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ pero hasta ahora solo hay **0 ensayos clínicos** y **1 publicación** (un estud
 |------|------|
 | Indicación Original | Hidroquinona (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Queratosis seborreica |
-| Puntaje de Predicción TxGNN | 99,73% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0,9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

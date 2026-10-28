@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Sumatriptan
-parent: Evidencia Moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 598
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Sumatriptan: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L4). Indicación original: Sumatriptán"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Sumatriptan: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Sumatriptan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,76 +32,47 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Sumatriptán: De Sumatriptán (indicación registrada sin detalle) a Migraña con Aura del Tronco Encefálico
+<!-- known-uses-page -->
+<!-- description: Sumatriptan: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata -->
+## Sumatriptan: Usos conocidos y situación de mercado en Colombia
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Sumatriptan son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha. Esta página recoge los usos conocidos identificados y la situación de mercado en Colombia.
 
-Sumatriptán es un agonista de los receptores de serotonina 5-HT1B/1D, conocido por su uso en el tratamiento agudo de la migraña; en los registros sanitarios de Colombia, la indicación aparece únicamente como el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, pero no hay ensayos clínicos registrados y la literatura disponible (**19 publicaciones**) trata sobre la migraña en general, no sobre este subtipo.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Sumatriptán (el registro sanitario no detalla el texto de la indicación) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.74% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplicable |
+| Situación de mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobados (respaldados por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| migraña con aura del tronco encefálico (migraine with brainstem aura) | licencia en otro país; indicación aprobada: migraine |
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura revisada, sumatriptán es un agonista selectivo de los receptores 5-HT1B/1D (triptán), que se cree alivia la migraña mediante vasoconstricción craneal e inhibición neural periférica y central, incluida la reducción de la liberación de neuropéptidos vasoactivos desde los axones trigeminales.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | — |
 
-La migraña con aura del tronco encefálico es un subtipo de migraña con aura. Comparte la fisiopatología general (activación trigeminovascular, liberación de CGRP), lo que hace plausible una eficacia parcial. El puntaje tan alto del modelo (0.997) probablemente refleja la asociación general entre el fármaco y la migraña, más que evidencia específica del subtipo. Se trata de una predicción dentro de la misma clase terapéutica, no de un mecanismo nuevo.
-
-Hay una **señal de alerta importante**: tradicionalmente los triptanes se usan con cautela o están contraindicados en la migraña con aura del tronco encefálico (antes llamada migraña de tipo basilar) y en la migraña hemipléjica, por el riesgo teórico de vasoconstricción en la circulación posterior. Además, un estudio publicado en *Neurology* (2015) describe una eficacia reducida de sumatriptán en migraña con aura frente a migraña sin aura.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Se priorizan los estudios más relevantes (ECA > revisión > otros). Ninguno estudia específicamente la migraña con aura del tronco encefálico.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [23657930](https://pubmed.ncbi.nlm.nih.gov/23657930/) | 2014 | ECA | Phytotherapy Research | Ensayo doble ciego en 100 pacientes con migraña aguda sin aura que compara jengibre con sumatriptán |
-| [1313746](https://pubmed.ncbi.nlm.nih.gov/1313746/) | 1992 | Ensayo aleatorizado | Cephalalgia | Sumatriptán oral 200 mg frente a placebo en migraña con aura (clásica) |
-| [25841032](https://pubmed.ncbi.nlm.nih.gov/25841032/) | 2015 | Estudio clínico | Neurology | Eficacia reducida de sumatriptán en migraña con aura frente a migraña sin aura |
-| [25600718](https://pubmed.ncbi.nlm.nih.gov/25600718/) | 2015 | Revisión | Headache | Evaluación de la Sociedad Americana de Cefalea sobre las terapias farmacológicas para la migraña aguda |
-| [12917936](https://pubmed.ncbi.nlm.nih.gov/12917936/) | 2003 | Revisión Cochrane | Cochrane Database Syst Rev | Sumatriptán oral para la migraña aguda |
-| [8536293](https://pubmed.ncbi.nlm.nih.gov/8536293/) | 1995 | Revisión | Cephalalgia | Revisión crítica de la experiencia clínica con sumatriptán en migraña y cefalea en racimos |
-| [26628293](https://pubmed.ncbi.nlm.nih.gov/26628293/) | 2016 | Revisión | Drugs | Sumatriptán/naproxeno: ensayos de Fase 3 con mayor proporción de pacientes libres de dolor a las 2 h frente a placebo |
-| [27681528](https://pubmed.ncbi.nlm.nih.gov/27681528/) | 2016 | Revisión | Drugs | Sumatriptán en polvo nasal para el tratamiento agudo de la migraña con o sin aura |
-| [8559405](https://pubmed.ncbi.nlm.nih.gov/8559405/) | 1996 | Comentario | Neurology | Sumatriptán subcutáneo y el aura migrañosa |
-| [38307660](https://pubmed.ncbi.nlm.nih.gov/38307660/) | 2024 | Revisión | Handbook of Clinical Neurology | Estado migrañoso como complicación de la migraña con o sin aura |
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en Colombia
 
-Los tres registros sanitarios están cancelados; actualmente no hay registros vigentes.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19948755 | IMIGRAN® FDT 50 MG (GlaxoSmithKline Colombia) | Tableta cubierta con película | SUMATRIPTAN |
-| 20241625 | SUMAFIX 100 MG TABLETAS (Aurobindo Pharma) | Tableta | SUMATRIPTAN |
-| 20241587 | SUMAFIX 50 MG TABLETAS (Aurobindo Pharma) | Tableta recubierta | SUMATRIPTAN |
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 19948755 | SUMATRIPTAN (CONTIENE SUCCINATO DE SUMATRIPTAN70 MG) | TABLETA CUBIERTA CON PELICULA | Vigente |
+| 20241625 | SUMATRIPTAN (EQUIVALENTE A 139.960 MG DE SUMATRIPTAN SUCCINA | TABLETA | Vigente |
+| 20241587 | SUMATRIPTAN (EQUIVALENTE A 69.980 MG DE SUMATRIPTAN SUCCINAT | TABLETA RECUBIERTA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -115,19 +87,6 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo (nivel L4, sin ensayos clínicos) y la literatura es sobre migraña en general, no sobre el subtipo con aura del tronco encefálico, en el cual los triptanes suelen considerarse con cautela o contraindicados. Además, no hay registros sanitarios vigentes en Colombia y faltan datos de seguridad del prospecto.
-
-**Para avanzar se necesita:**
-- Resolver la brecha de seguridad bloqueante: obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Completar los datos del mecanismo de acción (por ejemplo, mediante DrugBank).
-- Revisar la literatura específica sobre triptanes en migraña con aura del tronco encefálico y migraña hemipléjica, y su perfil de riesgo vascular.
-- Aclarar la situación regulatoria: motivo de la cancelación de los registros y viabilidad de uno nuevo.
-- Si se continúa, evaluar un estudio de seguridad o consulta con expertos en neurología antes de cualquier plan clínico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

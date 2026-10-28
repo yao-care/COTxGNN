@@ -8,6 +8,7 @@ nav_order: 35
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alemtuzumab
@@ -53,8 +54,8 @@ Adicionalmente, el fármaco **no está registrado en Colombia** y existen brecha
 | Nueva Indicación Predicha | Sin predicciones disponibles en este ciclo |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo identificación del fármaco, sin estudios ni predicciones en el pack |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---

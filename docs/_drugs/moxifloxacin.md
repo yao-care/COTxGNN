@@ -4,17 +4,17 @@ title: Moxifloxacin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 457
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Dexametasona y antiinfecciosos"
 monitor_inn: "moxifloxacin"
-predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm", "bubonic plague"]
+predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
 ---
 
 # Moxifloxacin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Moxifloxacino es un antibiótico fluoroquinolónico, registrado en Colombia en una solución oftálmica combinada con dexametasona y en tabletas recubiertas de 400 mg.
-El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicación; se trata únicamente de una predicción basada en el grafo de conocimiento.
+El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicación; se trata únicamente de una predicción del modelo TxGNN (aprendizaje profundo).
 Entre las demás predicciones, solo la **peste bubónica** muestra evidencia preclínica plausible (estudios in vitro y en animales).
 
 ---
@@ -50,9 +50,9 @@ Entre las demás predicciones, solo la **peste bubónica** muestra evidencia pre
 |------|------|
 | Indicación Original | Dexametasona y antiinfecciosos (registro de la solución oftálmica); moxifloxacina (tabletas) |
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,9 +62,9 @@ Entre las demás predicciones, solo la **peste bubónica** muestra evidencia pre
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, moxifloxacino es una fluoroquinolona antibacteriana que inhibe la ADN girasa y la topoisomerasa IV bacterianas. Su eficacia está establecida en infecciones bacterianas, no en trastornos de la viscosidad sanguínea.
 
-La hiperviscosidad policlonal surge por un aumento de las inmunoglobulinas séricas. No se identifica un vínculo mecanístico plausible con un antibacteriano; el puntaje alto de TxGNN refleja probablemente la cercanía en el grafo de conocimiento y no una razón farmacológica.
+La hiperviscosidad policlonal surge por un aumento de las inmunoglobulinas séricas. No se identifica un vínculo mecanístico plausible con un antibacteriano; el puntaje alto del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Entre las otras predicciones del modelo, la **peste bubónica** (puntaje 99.41%) es la única biológicamente coherente: moxifloxacino es activo contra *Yersinia pestis* en modelos in vitro y en ratones. Otras indicaciones hematológicas (gammapatía monoclonal, trastornos hematológicos congénitos) solo tienen relación indirecta, como prevención o tratamiento de infecciones en pacientes con neutropenia o trasplante.
+Otras indicaciones hematológicas predichas por el modelo (gammapatía monoclonal, trastornos hematológicos congénitos) solo tienen relación indirecta, como prevención o tratamiento de infecciones en pacientes con neutropenia o trasplante.
 
 ---
 

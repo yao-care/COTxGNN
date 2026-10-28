@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **trastornos del movimient
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (el texto solo indica "Galantamina") |
 | Nueva Indicación Predicha | Trastornos del movimiento psicogénicos |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Galantamina inhibe de forma reversible la acetilcolinesterasa y modula de forma 
 
 Para los trastornos del movimiento psicogénicos **no se identificó un vínculo mecanístico directo**. Estos trastornos son de naturaleza funcional y no tienen una patología colinérgica establecida. El puntaje elevado (0.999) es solo una predicción computacional, sin ensayos ni literatura de respaldo. Por ello, la predicción debe tratarse con cautela.
 
-**Otras predicciones del modelo.** Otras indicaciones tienen puntajes muy similares (rango 99.71%–99.89%). Dos de ellas cuentan con algo de literatura:
+**Otras predicciones del modelo.** Otras indicaciones tienen puntajes muy similares (rango 0.9971–0.9989). Dos de ellas cuentan con algo de literatura:
 
 - **Discinesia lingual-facial-bucal** (99.88%): 22 publicaciones, incluido un ensayo aleatorizado cruzado de galantamina en discinesia tardía (PMID 17388711), además de revisiones Cochrane sobre medicación colinérgica en discinesia tardía. Estas revisiones tratan los fármacos colinérgicos como clase, no a la galantamina en particular. Es la candidata con evidencia más relevante, clasificada como "pregunta de investigación".
 - **Enfermedad extrapiramidal y del movimiento** (99.88%): 4 publicaciones, incluida una revisión sistemática de 2025 que describe trastornos del movimiento como **efecto adverso** de los inhibidores de la colinesterasa. La dirección del efecto es incierta.
@@ -86,8 +86,8 @@ Actualmente no hay literatura relacionada disponible para trastornos del movimie
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19954847 | Reminyl® ER cápsulas de 16 mg | Cápsula de liberación prolongada | Galantamina | Cancelado |
-| 19932247 | Reminyl® solución oral de 4 mg/ml | Solución oral | Galantamina | Cancelado |
+| 19954847 | Reminyl® ER cápsulas de 16 mg | Cápsula de liberación prolongada | Galantamina | Vigente |
+| 19932247 | Reminyl® solución oral de 4 mg/ml | Solución oral | Galantamina | Vigente |
 
 Ambos registros pertenecen a Janssen Cilag S.A. y no hay registros vigentes.
 

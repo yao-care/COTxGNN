@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Pantoprazole
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 498
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Pantoprazole: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L1). Indicación original: Pantoprazol"
+description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L1). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal obstruction"]
 # Pantoprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Pantoprazol: De Indicación Original (Pantoprazol) a Enfermedad Ulcerosa Péptica Activa
+## Pantoprazol: De Indicación Original (Pantoprazol) a obstrucción duodenal
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ Se trata de una indicación dentro de la clase terapéutica ya establecida, por 
 |------|------|
 | Indicación Original | Pantoprazol (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Puntaje de Predicción TxGNN | 0.9921 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -133,7 +133,7 @@ Otras predicciones del modelo tienen respaldo menor y no se desarrollan en este 
 
 - **Úlcera gastroyeyunal** y **perforación de úlcera péptica**: nivel L3, "pregunta de investigación"; evidencia extrapolada de condiciones ácido-pépticas relacionadas.
 - **Reflujo duodenogástrico**: nivel L3, ajuste mecanístico parcial.
-- **Obstrucción duodenal**: nivel L5, **Hold**; sin vínculo mecanístico claro, pues el puntaje alto parece deberse a la proximidad en la red con la úlcera duodenal.
+- **Obstrucción duodenal**: nivel L5, **Hold**; sin vínculo mecanístico claro. El puntaje alto (0.9921) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 - **Úlcera duodenal**: nivel L1, **Proceed with Guardrails**; evidencia directa de ECA, aunque varios ensayos registrados son de prevención o fueron retirados/terminados.
 ## Descargo de responsabilidad
 

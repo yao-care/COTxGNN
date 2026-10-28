@@ -4,9 +4,9 @@ title: Nebivolol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: NEBIVOLOL"
+description: "Nebivolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: NEBIVOLOL"
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["malignant hypertensive renal disease", "pulmonary hyper
 # Nebivolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Nebivolol: De Nebivolol (indicación sin detallar) a Enfermedad Renal Hipertensiva Maligna
+## Nebivolol: De Nebivolol (indicación sin detallar) a enfermedad renal hipertensiva maligna
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ La predicción se apoya únicamente en el modelo computacional (nivel de evidenc
 |------|------|
 | Indicación Original | NEBIVOLOL (el registro sanitario no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la indicación original es indirecta: el registro local solo menciona el nombre del principio activo, sin texto de indicación. Por su clase farmacológica, el uso esperado es en enfermedades cardiovasculares como la hipertensión, por lo que una enfermedad hipertensiva con compromiso renal es cercana en lo conceptual.
 
-Sin embargo, la hipertensión maligna con afectación renal es una emergencia que normalmente se maneja con fármacos intravenosos, por lo que nebivolol oral no tiene un papel establecido. El puntaje alto del modelo (99.42%) no cuenta con validación clínica.
+Sin embargo, la hipertensión maligna con afectación renal es una emergencia que normalmente se maneja con fármacos intravenosos, por lo que nebivolol oral no tiene un papel establecido. El puntaje alto del modelo (0.9942) no cuenta con validación clínica.
 
 Otras predicciones del modelo (con el mismo nivel de evidencia bajo) fueron: hipertensión renovascular maligna (99.42%), hipertensión pulmonar por enfermedad pulmonar o hipoxia (99.39%, nivel L4 por literatura preclínica indirecta), hipertensión pulmonar de mecanismo multifactorial poco claro (99.39%) y síndrome de Braddock (99.14%, sin vínculo mecanístico identificable).
 
@@ -86,7 +86,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20009035 | NABILA® 10 MG COMPRIMIDOS | Tableta | NEBIVOLOL | Cancelado |
+| 20009035 | NABILA® 10 MG COMPRIMIDOS | Tableta | NEBIVOLOL | Vigente |
 
 El fabricante es MONTE VERDE S.A. No hay registros vigentes en el país.
 

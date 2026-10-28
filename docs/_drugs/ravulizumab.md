@@ -6,7 +6,7 @@ nav_order: 552
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6… (nivel de evidencia L5). Indicación original: No disponible"
+description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 (nivel de evidencia L5). Indicación original: No disponible"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ravulizumab: De Indicación Original No Especificada a Neutropenia Congénita Grave por Deficiencia de G6PC3
+## Ravulizumab: De Indicación Original No Especificada a Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **neutropenia congénita g
 |------|------|
 | Indicación Original | No disponible (el registro solo indica "Ravulizumab") |
 | Nueva Indicación Predicha | Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La neutropenia congénita por deficiencia de G6PC3 es un trastorno del metabolismo y la supervivencia de los neutrófilos. No se ha establecido un mecanismo mediado por el complemento en esta enfermedad, por lo que no es posible verificar un vínculo mecanístico entre la inhibición de C5 y la nueva indicación.
 
-La alta puntuación (0.9996) refleja únicamente una predicción basada en la red de conocimiento. Sin ensayos, literatura ni datos del mecanismo original, la razonabilidad biológica de esta predicción no está respaldada. Cabe señalar que el modelo generó otras nueve predicciones con puntajes similares (entre 99.80% y 99.94%), en su mayoría trastornos hematológicos raros (por ejemplo, neutropenia cíclica, neutropenia congénita grave, hiperoxaluria primaria), todas también sin evidencia clínica.
+La alta puntuación (0.9996) refleja únicamente una predicción basada en la red de conocimiento. Sin ensayos, literatura ni datos del mecanismo original, la razonabilidad biológica de esta predicción no está respaldada. Cabe señalar que el modelo generó otras nueve predicciones con puntajes similares (entre 0.9980 y 0.9994), en su mayoría trastornos hematológicos raros (por ejemplo, neutropenia cíclica, neutropenia congénita grave, hiperoxaluria primaria), todas también sin evidencia clínica.
 
 ---
 

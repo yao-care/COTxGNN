@@ -47,29 +47,29 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno primario de li
 |------|------|
 | Indicación Original | Coagulación factores VIII |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, moroctocog alfa es un factor VIII recombinante que sustituye al factor VIII en la vía intrínseca de la coagulación, y su uso en la deficiencia de factor VIII está respaldado por su registro sanitario en Colombia.
 
-Los trastornos de liberación plaquetaria son defectos de la función de los gránulos plaquetarios, no una deficiencia de factor VIII. Por ello, **no existe una justificación mecanística clara**. El puntaje muy alto de TxGNN (99.97%) proviene de una predicción basada en grafos, probablemente influida por nodos de red compartidos relacionados con la hemostasia.
+Los trastornos de liberación plaquetaria son defectos de la función de los gránulos plaquetarios, no una deficiencia de factor VIII. Por ello, **no existe una justificación mecanística clara**. El puntaje muy alto de TxGNN (0.9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Otras indicaciones predichas por el modelo, todas con evidencia de nivel L5 y sin ensayos ni literatura:
 
 | Indicación predicha | Puntaje TxGNN | Plausibilidad mecanística |
 |------|------|------|
-| Pseudoenfermedad de von Willebrand | 99.97% | Vínculo teórico por el eje VWF-FVIII, pero el defecto primario es plaquetario (GPIbα) |
-| Trombastenia de Glanzmann | 99.96% | Débil: el defecto es de la integrina αIIbβ3; el tratamiento estándar no es FVIII |
-| Deficiencia adquirida de factores de coagulación | 99.88% | La más plausible (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizarían el producto y la categoría es muy heterogénea |
-| Síndrome de Scott | 99.86% | Especulativa: el defecto de exposición de fosfatidilserina no se corrige con más FVIII |
-| Diátesis hemorrágica por defecto del receptor de colágeno | 99.73% | Sin justificación directa: defecto independiente de la cascada dependiente de FVIII |
-| Trastorno hemorrágico por trombocitopenia constitucional | 99.72% | Sin justificación: la hemorragia se debe a déficit de plaquetas |
-| "Flood factor deficiency" | 99.11% | Entidad no reconocida; posible error de datos u ontología, debe verificarse |
+| Pseudoenfermedad de von Willebrand | 0.9997 | Vínculo teórico por el eje VWF-FVIII, pero el defecto primario es plaquetario (GPIbα) |
+| Trombastenia de Glanzmann | 0.9996 | Débil: el defecto es de la integrina αIIbβ3; el tratamiento estándar no es FVIII |
+| Deficiencia adquirida de factores de coagulación | 0.9988 | La más plausible (p. ej., hemofilia A adquirida), pero los inhibidores autoinmunes neutralizarían el producto y la categoría es muy heterogénea |
+| Síndrome de Scott | 0.9986 | Especulativa: el defecto de exposición de fosfatidilserina no se corrige con más FVIII |
+| Diátesis hemorrágica por defecto del receptor de colágeno | 0.9973 | Sin justificación directa: defecto independiente de la cascada dependiente de FVIII |
+| Trastorno hemorrágico por trombocitopenia constitucional | 0.9972 | Sin justificación: la hemorragia se debe a déficit de plaquetas |
+| "Flood factor deficiency" | 0.9911 | Entidad no reconocida; posible error de datos u ontología, debe verificarse |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -83,10 +83,10 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20046519 | XYNTHA® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
-| 20005016 | XYNTHA® 500 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
-| 20046518 | XYNTHA® 1000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
-| 20005015 | XYNTHA® 250 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Cancelado |
+| 20046519 | XYNTHA® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
+| 20005016 | XYNTHA® 500 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
+| 20046518 | XYNTHA® 1000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
+| 20005015 | XYNTHA® 250 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
 
 Todos los registros pertenecen a PFIZER S.A.S. y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia.
 

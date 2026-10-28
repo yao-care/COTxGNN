@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Olanzapine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 479
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Olanzapine: nueva indicación predicha, Agorafobia (nivel de evidencia L3). Indicación original: OLANZAPINA"
 monitor_inn: "Olanzapine"
-predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "dysthymic disorder"]
+predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
+description: "Olanzapine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: OLANZAPINA"
 ---
 
 # Olanzapine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Olanzapina: De Indicación Original (OLANZAPINA) a Agorafobia
+## Olanzapine: Benign paroxysmal torticollis of infancy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **0 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | OLANZAPINA (el registro sanitario no detalla la indicación; en farmacología: esquizofrenia, psicosis y trastorno bipolar) |
-| Nueva Indicación Predicha | Agorafobia |
-| Puntaje de Predicción TxGNN | 99.47% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | OLANZAPINA |
+| Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
+| Puntaje de Predicción TxGNN | 0.9954 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
@@ -111,12 +111,12 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a un ensayo abierto pequeño y reportes de caso en pánico resistente, sin ensayos registrados ni datos aleatorizados para agorafobia. Además, todos los registros sanitarios en Colombia están cancelados y el perfil metabólico de olanzapina exige cautela.
+La evidencia se limita a un ensayo abierto pequeño y reportes de caso en pánico resistente, sin ensayos registrados ni datos aleatorizados para agorafobia. Además, en Colombia el medicamento está comercializado con 3 registros sanitarios vigentes y el perfil metabólico de olanzapina exige cautela.
 
 **Para avanzar se necesita:**
 - Ensayos controlados aleatorizados en agorafobia o trastorno de pánico con agorafobia
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de INVIMA
-- Aclarar la situación regulatoria en Colombia (todos los registros cancelados)
+- Aclarar la situación regulatoria en Colombia (3 registros sanitarios vigentes)
 - Evaluación de riesgo-beneficio metabólico frente a los tratamientos de primera línea (ISRS, TCC)
 ## Descargo de responsabilidad
 

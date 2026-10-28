@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Talc
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 603
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: CLINDAMICINA"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis
 # Talc
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,9 +46,9 @@ El registro sanitario colombiano asociado a este candidato corresponde a un prod
 |------|------|
 | Indicación Original | CLINDAMICINA (texto del registro; no describe una indicación clínica específica) |
 | Nueva Indicación Predicha | Enfermedad trombótica |
-| Puntaje de Predicción TxGNN | 99.85% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9985 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -83,7 +83,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20270123 | CLINDAMICINA 300 MG CÁPSULA | Cápsula dura | CLINDAMICINA | Cancelado |
+| 20270123 | CLINDAMICINA 300 MG CÁPSULA | Cápsula dura | CLINDAMICINA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -96,7 +96,7 @@ Para advertencias, contraindicaciones e interacciones del producto registrado, c
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura disponible muestra que el talco es causa de eventos trombóticos y embólicos, por lo que el puntaje de 99.85% parece un artefacto del modelo. Las demás indicaciones predichas (exostosis, artritis reumatoide, bronquitis, deficiencias de factores de coagulación, enfermedad venosa, fibromialgia, miositis fibrosa) tampoco cuentan con evidencia terapéutica; en bronquitis y enfermedad venosa la evidencia apunta a daño.
+No existen ensayos clínicos y la literatura disponible muestra que el talco es causa de eventos trombóticos y embólicos, por lo que el puntaje de 0.9985 parece un artefacto del modelo. Las demás indicaciones predichas (exostosis, artritis reumatoide, bronquitis, deficiencias de factores de coagulación, enfermedad venosa, fibromialgia, miositis fibrosa) tampoco cuentan con evidencia terapéutica; en bronquitis y enfermedad venosa la evidencia apunta a daño.
 
 **Para avanzar se necesita:**
 - Aclarar la inconsistencia entre el principio activo (talco) y el registro sanitario asociado (clindamicina).

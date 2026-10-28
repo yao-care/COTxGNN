@@ -50,10 +50,10 @@ La predicción es, por ahora, una hipótesis computacional sin respaldo clínico
 |------|------|
 | Indicación Original | Norepinefrina (el registro no detalla la indicación; uso como vasopresor inyectable) |
 | Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La literatura recuperada indica que la señalización adrenérgica y neuroinmune participa en el tono de la vía aérea, la inflamación y la fisiopatología del asma y la EPOC (por ejemplo, PMID 29696025, 41601146 y 21271508). Esto aporta un vínculo biológico plausible con la enfermedad pulmonar obstructiva.
 
-Sin embargo, el vínculo es indirecto y descriptivo. La norepinefrina sistémica no tiene un papel establecido como broncodilatador, y sus efectos alfa y beta-1 podrían aumentar el riesgo cardíaco y hemodinámico en pacientes con EPOC e hipoxemia. El puntaje alto de TxGNN (0.998) es solo una predicción computacional y no constituye evidencia clínica.
+Sin embargo, el vínculo es indirecto y descriptivo. La norepinefrina sistémica no tiene un papel establecido como broncodilatador, y sus efectos alfa y beta-1 podrían aumentar el riesgo cardíaco y hemodinámico en pacientes con EPOC e hipoxemia. El puntaje alto de TxGNN (0.9984) es solo una predicción computacional y no constituye evidencia clínica.
 
 Otras dos indicaciones predichas tienen aún menos sustento: "malformación respiratoria" (nivel L5; la literatura se refiere a neurofisiología básica y a exposición prenatal a psicofármacos, sin beneficio terapéutico plausible) y "síndrome de Rienhoff" (nivel L5; sin ensayos ni literatura).
 
@@ -100,9 +100,9 @@ Se presentan las publicaciones más relevantes; no se identificaron ensayos clí
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20273430 | PRIDAM® 4MG / 4ML SOLUCIÓN INYECTABLE | Solución inyectable | Norepinefrina | Cancelado |
-| 19940783 | ADS-NOLTRON® SOLUCIÓN INYECTABLE 4 MG/4 ML | Solución inyectable | Norepinefrina | Cancelado |
-| 20056358 | NOREPINEFRINA 4 MG/4ML | Solución inyectable | Norepinefrina | Cancelado |
+| 20273430 | PRIDAM® 4MG / 4ML SOLUCIÓN INYECTABLE | Solución inyectable | Norepinefrina | Vigente |
+| 19940783 | ADS-NOLTRON® SOLUCIÓN INYECTABLE 4 MG/4 ML | Solución inyectable | Norepinefrina | Vigente |
+| 20056358 | NOREPINEFRINA 4 MG/4ML | Solución inyectable | Norepinefrina | Vigente |
 
 ---
 
@@ -121,7 +121,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo y en literatura mecanística indirecta (nivel L4). No hay ensayos que evalúen norepinefrina en enfermedad pulmonar obstructiva, no existe papel terapéutico establecido como broncodilatador, y todos los registros sanitarios en Colombia están cancelados.
+La predicción se apoya solo en el puntaje del modelo y en literatura mecanística indirecta (nivel L4). No hay ensayos que evalúen norepinefrina en enfermedad pulmonar obstructiva, no existe papel terapéutico establecido como broncodilatador, y los 3 registros sanitarios en Colombia (3 de 3) están vigentes.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), ya que actualmente impide el tamizaje de seguridad.

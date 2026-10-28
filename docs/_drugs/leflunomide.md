@@ -50,10 +50,10 @@ La predicción se basa únicamente en el modelo, y existen argumentos biológico
 |------|------|
 | Indicación Original | Leflunomida (el registro no detalla la indicación; en la literatura farmacológica: artritis reumatoide activa) |
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,11 +62,11 @@ La predicción se basa únicamente en el modelo, y existen argumentos biológico
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la leflunomida (a través de su metabolito activo, la teriflunomida) inhibe la enzima dihidroorotato deshidrogenasa (DHODH). Esto reduce la síntesis de pirimidinas y frena la proliferación de linfocitos activados, lo que explica su uso en enfermedades autoinmunes.
 
-El síndrome de braquidactilia-sindactilia es una malformación congénita de las extremidades, de origen genético y del desarrollo, que no depende de la proliferación linfocitaria. Por ello, **no se identifica un vínculo mecanístico validado** entre la indicación original y la nueva. El puntaje alto de TxGNN (0.9993) es solo una predicción basada en un grafo de conocimiento y no aporta una explicación biológica.
+El síndrome de braquidactilia-sindactilia es una malformación congénita de las extremidades, de origen genético y del desarrollo, que no depende de la proliferación linfocitaria. Por ello, **no se identifica un vínculo mecanístico validado** entre la indicación original y la nueva. El puntaje alto de TxGNN (0.9993) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Además, hay señales en sentido contrario: la inhibición de DHODH se asocia con malformaciones de las extremidades (por ejemplo, el síndrome de Miller, causado por pérdida de función de DHODH), y la leflunomida es un teratógeno conocido. Esto sugiere un riesgo más que un beneficio terapéutico en un trastorno del desarrollo de las extremidades.
 
-La segunda predicción del modelo, el síndrome de microftalmia colobomatosa-displasia rizomélica (puntaje 99.93%), presenta la misma situación: es un trastorno congénito raro, sin vínculo mecanístico establecido, sin evidencia clínica y con los mismos motivos de preocupación por teratogenicidad.
+La segunda predicción del modelo, el síndrome de microftalmia colobomatosa-displasia rizomélica (puntaje 0.9993), presenta la misma situación: es un trastorno congénito raro, sin vínculo mecanístico establecido, sin evidencia clínica y con los mismos motivos de preocupación por teratogenicidad.
 
 ---
 

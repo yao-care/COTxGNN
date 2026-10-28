@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Ciclopentolato (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -62,8 +62,8 @@ Este vínculo es **especulativo**. El fármaco está formulado para uso oftálmi
 
 **Otras predicciones del modelo (todas con evidencia L5 y decisión Hold):**
 
-- **Vejiga neurogénica** (término marcado como obsoleto en la ontología; puntaje 99.40%): los antimuscarínicos son una clase establecida para la hiperactividad neurogénica del detrusor (p. ej., oxibutinina, tolterodina), por lo que la lógica de clase es plausible. Sin embargo, no hay evidencia de uso oral o intravesical del ciclopentolato, y el término de la enfermedad debería actualizarse a uno vigente.
-- **Síndrome de intestino irritable** (puntaje 99.27%): antimuscarínicos como diciclomina o hiosciamina se usan para el dolor y los cólicos abdominales. No hay evidencia directa para el ciclopentolato, y los antimuscarínicos ya aprobados cubren este nicho, por lo que el valor añadido es bajo.
+- **Vejiga neurogénica** (término marcado como obsoleto en la ontología; puntaje 0.9940): los antimuscarínicos son una clase establecida para la hiperactividad neurogénica del detrusor (p. ej., oxibutinina, tolterodina), por lo que la lógica de clase es plausible. Sin embargo, no hay evidencia de uso oral o intravesical del ciclopentolato, y el término de la enfermedad debería actualizarse a uno vigente.
+- **Síndrome de intestino irritable** (puntaje 0.9927): antimuscarínicos como diciclomina o hiosciamina se usan para el dolor y los cólicos abdominales. No hay evidencia directa para el ciclopentolato, y los antimuscarínicos ya aprobados cubren este nicho, por lo que el valor añadido es bajo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -77,8 +77,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19954096 | CYCLOGYL 1%® SOLUCION OFTALMICA ESTERIL (Alcon Laboratorios Inc) – Cancelado | Solución oftálmica | CICLOPENTOLATO |
-| 37468 | CICLOPENTOLATO CLORHIDRATO 1% (Oftalmoquímica S.A.) – Cancelado | Solución oftálmica | CICLOPENTOLATO |
+| 19954096 | CYCLOGYL 1%® SOLUCION OFTALMICA ESTERIL (Alcon Laboratorios Inc) – Vigente | Solución oftálmica | CICLOPENTOLATO |
+| 37468 | CICLOPENTOLATO CLORHIDRATO 1% (Oftalmoquímica S.A.) – Vigente | Solución oftálmica | CICLOPENTOLATO |
 
 ## Consideraciones de Seguridad
 
@@ -91,7 +91,7 @@ Para las advertencias, contraindicaciones oficiales e interacciones farmacológi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo TxGNN (nivel L5), sin ensayos ni literatura. Además, el producto es de uso oftálmico, con exposición sistémica mínima, y todos sus registros sanitarios en Colombia están cancelados.
+La predicción se basa únicamente en el modelo TxGNN (nivel L5), sin ensayos ni literatura. Además, el producto es de uso oftálmico, con exposición sistémica mínima, y está comercializado en Colombia, con 2 registros sanitarios vigentes de 2.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank)

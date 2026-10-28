@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Palbociclib
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 493
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
-description: "Palbociclib: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto de indicación solo indica \"P…"
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
+description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
 ---
 
 # Palbociclib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **4**
 
 </div>
 
-## Palbociclib: De Palbociclib (indicación no detallada) a Artritis Reumatoide
+## Palbociclib: Hyperthyroidism
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (s
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto de indicación solo indica "Palbociclib") |
-| Nueva Indicación Predicha | Artritis reumatoide (rank 2 de TxGNN; ver nota abajo) |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | PALBOCICLIB |
+| Nueva Indicación Predicha | Hyperthyroidism |
+| Puntaje de Predicción TxGNN | 0.9944 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
-**Nota sobre la selección:** la primera predicción de TxGNN es hipertiroidismo (99.44%), pero no tiene ensayos ni literatura (nivel L5). Este informe se centra en la artritis reumatoide, que es la predicción con evidencia más relevante. Las demás predicciones se comentan al final.
+**Nota sobre la selección:** la primera predicción de TxGNN es hipertiroidismo (0.9944), pero no tiene ensayos ni literatura (nivel L5). Este informe se centra en la artritis reumatoide, que es la predicción con evidencia más relevante. Las demás predicciones se comentan al final.
 
 ---
 
@@ -90,10 +90,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20195984 | REAMPLA® 125 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: cancelado) |
-| 20242070 | BAPOCIL® 125MG | Cápsula dura | Palbociclib (estado: cancelado) |
-| 20195993 | REAMPLA® 100 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: cancelado) |
-| 20242562 | BAPOCIL® 75MG | Cápsula dura | Palbociclib (estado: cancelado) |
+| 20195984 | REAMPLA® 125 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: vigente) |
+| 20242070 | BAPOCIL® 125MG | Cápsula dura | Palbociclib (estado: vigente) |
+| 20195993 | REAMPLA® 100 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: vigente) |
+| 20242562 | BAPOCIL® 75MG | Cápsula dura | Palbociclib (estado: vigente) |
 
 ---
 
@@ -127,7 +127,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, todos los registros sanitarios en Colombia están cancelados y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
+La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 4 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.

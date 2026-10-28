@@ -4,7 +4,7 @@ title: Alectinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 34
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Alectinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: ALECTINIB"
 monitor_inn: "ALECTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Alectinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | ALECTINIB (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, alectinib es un inhibidor selectivo de ALK, utilizado en el cáncer de pulmón de células no pequeñas con reordenamiento de ALK, donde ensayos de Fase 3 han demostrado su eficacia.
 
-Para la fibromatosis gingival no se ha establecido ningún mecanismo relacionado con ALK. La puntuación elevada de TxGNN proviene de relaciones en un grafo de conocimiento y no está respaldada por ensayos ni literatura. La similitud con la indicación original no ha sido evaluada.
+Para la fibromatosis gingival no se ha establecido ningún mecanismo relacionado con ALK. La puntuación elevada de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; tampoco está respaldada por ensayos ni literatura. La similitud con la indicación original no ha sido evaluada.
 
 **Conclusión:** la predicción es hipotética y no tiene sustento mecanístico ni clínico en este momento.
 

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero **
 |------|------|
 | Indicación Original | No especificada en los registros (el texto de indicación solo indica "Rifampicina") |
 | Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,8 +94,8 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20677 | RIFAMPICINA 300MG CAPSULAS (TECNOQUÍMICAS S.A.) | Cápsula dura | Solo figura "Rifampicina" (estado: cancelado) |
-| 30168 | RIFAMPICINA 300 MG (COLMED LTDA) | Cápsula dura | Solo figura "Rifampicina" (estado: cancelado) |
+| 20677 | RIFAMPICINA 300MG CAPSULAS (TECNOQUÍMICAS S.A.) | Cápsula dura | Solo figura "Rifampicina" (estado: vigente) |
+| 30168 | RIFAMPICINA 300 MG (COLMED LTDA) | Cápsula dura | Solo figura "Rifampicina" (estado: vigente) |
 
 ---
 
@@ -113,7 +113,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.95%), pero no hay ensayos clínicos registrados y la evidencia proviene de estudios antiguos, indirectos (tracoma, infección por clamidia) y de susceptibilidad microbiológica. Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia.
+La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos registrados y la evidencia proviene de estudios antiguos, indirectos (tracoma, infección por clamidia) y de susceptibilidad microbiológica. Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que constituye un vacío bloqueante para el cribado de seguridad.

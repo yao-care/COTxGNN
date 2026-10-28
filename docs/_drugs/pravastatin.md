@@ -4,17 +4,17 @@ title: Pravastatin
 parent: Evidencia Moderada (L3-L4)
 nav_order: 528
 evidence_level: L4
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pravastatin: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Pravastatina y fenofibrato (combinación)"
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
+description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: PRAVASTATINA Y FENOFIBRATO"
 ---
 
 # Pravastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Pravastatina: De Combinación Pravastatina/Fenofibrato a Hipercolesterolemia Familiar Homocigota
+## Pravastatin: HIV infectious disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Pravastatina es una estatina que en Colombia se registró en combinación con fenofibrato (PRAVAFEN® cápsulas) para tratar alteraciones de los lípidos.
-El modelo TxGNN predice que podría ser efectiva para **hipercolesterolemia familiar homocigota**, pero solo hay **1 ensayo clínico** (que estudia otro fármaco, alirocumab) y **13 publicaciones** de apoyo indirecto, por lo que la evidencia directa es débil.
 
 ---
 
@@ -47,11 +46,11 @@ El modelo TxGNN predice que podría ser efectiva para **hipercolesterolemia fami
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pravastatina y fenofibrato (combinación) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | PRAVASTATINA Y FENOFIBRATO |
+| Nueva Indicación Predicha | HIV infectious disease |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

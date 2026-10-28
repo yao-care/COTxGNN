@@ -4,7 +4,7 @@ title: Tacrolimus
 parent: Evidencia Alta (L1-L2)
 nav_order: 600
 evidence_level: L1
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "TACROLIMUS"
@@ -14,7 +14,7 @@ predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 # Tacrolimus
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **2 ensayos clínicos** (uno de Fase 3 completado) y **20 publicaciones** qu
 |------|------|
 | Indicación Original | No especificada en los registros (el texto de indicación solo indica "Tacrolimus") |
 | Nueva Indicación Predicha | Dermatitis seborreica |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -97,9 +97,9 @@ Los diseños detallados y los resultados de estos ensayos no están en los datos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19983582 | PROGRAF® XL cápsulas de liberación prolongada de 0.5 mg | Cápsula de liberación prolongada | Tacrolimus | Cancelado |
-| 20192450 | Tacrolimus 3 mg cápsulas duras de liberación prolongada | Cápsula de liberación prolongada | Tacrolimus | Cancelado |
-| 20230266 | TALIMUZ® 1 mg | Cápsula dura | Tacrolimus | Cancelado |
+| 19983582 | PROGRAF® XL cápsulas de liberación prolongada de 0.5 mg | Cápsula de liberación prolongada | Tacrolimus | Vigente |
+| 20192450 | Tacrolimus 3 mg cápsulas duras de liberación prolongada | Cápsula de liberación prolongada | Tacrolimus | Vigente |
+| 20230266 | TALIMUZ® 1 mg | Cápsula dura | Tacrolimus | Vigente |
 
 ---
 

@@ -4,17 +4,17 @@ title: Tramadol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 634
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Tramadol: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Tramadol"
 monitor_inn: "TRAMADOL"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 ---
 
 # Tramadol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tramadol: De Analgésico Opioide a Displasia Acromesomélica tipo Hunter-Thompson
+## Tramadol: De Analgésico Opioide a Displasia acromesomélica, tipo Hunter-Thompson
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 |------|------|
 | Indicación Original | Tramadol (registros de tramadol solo, tramadol + diclofenaco y asociación con paracetamol) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es una enfermedad esquelética rara causada por mutaciones con pérdida de función en CDMP1/GDF5. Tramadol no actúa sobre la vía de señalización GDF5/BMP, por lo que **no se identifica un vínculo mecanístico creíble** entre el fármaco y la enfermedad.
 
-El puntaje alto de TxGNN refleja una predicción basada en el grafo de conocimiento, probablemente por vecinos de red compartidos relacionados con el dolor o el sistema esquelético. Sin ensayos ni literatura, esta predicción no tiene respaldo clínico. En el mejor de los casos, tramadol podría ofrecer alivio sintomático del dolor, no modificación de la enfermedad.
+El puntaje alto de TxGNN refleja una predicción del modelo TxGNN (aprendizaje profundo), probablemente por vecinos de red compartidos relacionados con el dolor o el sistema esquelético. Sin ensayos ni literatura, esta predicción no tiene respaldo clínico. En el mejor de los casos, tramadol podría ofrecer alivio sintomático del dolor, no modificación de la enfermedad.
 
 Otras predicciones del modelo (por ejemplo, braquiolmia, pseudoacondroplasia, artritis idiopática juvenil y espondiloartropatía) tampoco muestran vínculos mecanísticos directos; en el mejor de los casos, solo una justificación sintomática indirecta.
 
@@ -85,9 +85,9 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20080775 | TRAMASINDOL® 100 MG/ML SOLUCIÓN ORAL | Solución oral | Tramadol (cancelado) |
-| 20154923 | DICLOFENACO SÓDICO / TRAMADOL HCL 25 MG/25 MG | Tableta recubierta | Tramadol y diclofenaco (cancelado) |
-| 19948799 | FASTFEN JARABE | Jarabe | Paracetamol, combinaciones excluyendo sicolépticos (cancelado) |
+| 20080775 | TRAMASINDOL® 100 MG/ML SOLUCIÓN ORAL | Solución oral | Tramadol (vigente) |
+| 20154923 | DICLOFENACO SÓDICO / TRAMADOL HCL 25 MG/25 MG | Tableta recubierta | Tramadol y diclofenaco (vigente) |
+| 19948799 | FASTFEN JARABE | Jarabe | Paracetamol, combinaciones excluyendo sicolépticos (vigente) |
 
 ---
 

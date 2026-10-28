@@ -4,17 +4,17 @@ title: Phenylephrine
 parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Paracetamol combinaciones excluyendo sicolépticos"
 monitor_inn: "Phenylephrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 ---
 
 # Phenylephrine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | Paracetamol combinaciones excluyendo sicolépticos |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Sin embargo, los datos farmacológicos compilados muestran que la fenilefrina actúa sobre los receptores adrenérgicos alfa-1A, alfa-1B y alfa-1D. Es un agonista alfa-1 que produce vasoconstricción de la mucosa, y por eso se usa como descongestionante nasal.
 
-La indicación original (combinaciones para síntomas de resfriado y gripe) ya incluye el alivio de la congestión nasal. Por ello, la enfermedad de la cavidad nasal es más una extensión del uso existente que un reposicionamiento novedoso. El puntaje alto del modelo (99.97%) es coherente con esta farmacología conocida.
+La indicación original (combinaciones para síntomas de resfriado y gripe) ya incluye el alivio de la congestión nasal. Por ello, la enfermedad de la cavidad nasal es más una extensión del uso existente que un reposicionamiento novedoso. El puntaje alto del modelo (0.9997) es coherente con esta farmacología conocida.
 
 La evidencia clínica disponible es limitada y, a juzgar por los títulos, de diseño no aleatorizado o poco claro. Incluye un informe de 2025 sobre un aerosol nasal con fenilefrina y un estudio de 2014 sobre agentes tópicos en cirugía endoscópica sinusal.
 
@@ -89,8 +89,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19984 | PAX® DIA GRANULADO (cancelado) | Gránulos | Paracetamol combinaciones excluyendo sicolépticos |
-| 19984369 | NOXPIRIN® SINUS TABLETA (cancelado) | Tableta cubierta con película | Fenilefrina combinaciones |
+| 19984 | PAX® DIA GRANULADO (vigente) | Gránulos | Paracetamol combinaciones excluyendo sicolépticos |
+| 19984369 | NOXPIRIN® SINUS TABLETA (vigente) | Tableta cubierta con película | Fenilefrina combinaciones |
 
 ---
 

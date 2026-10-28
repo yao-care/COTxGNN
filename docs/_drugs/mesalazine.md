@@ -4,17 +4,17 @@ title: Mesalazine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 432
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Mesalazina"
 monitor_inn: "Mesalazine"
-predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "osteoarthritis susceptibility", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
+predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 ---
 
 # Mesalazine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 |------|------|
 | Indicación Original | Mesalazina (el registro INVIMA no detalla la indicación; el uso clínico conocido es colitis ulcerosa y enfermedad inflamatoria intestinal) |
 | Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
-| Puntaje de Predicción TxGNN | 99.65% |
+| Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La hipotricosis congénita con distrofia macular juvenil es un trastorno genético raro, asociado a mutaciones en CDH3 que afectan la adhesión celular. El análisis realizado no identificó un vínculo mecanístico plausible: la acción antiinflamatoria de la mesalazina no tiene relevancia conocida para esta enfermedad.
 
-Por tanto, el alto puntaje de TxGNN refleja únicamente asociaciones dentro del grafo de conocimiento y no una razón biológica o clínica demostrada. La predicción debe considerarse una hipótesis sin respaldo.
+Por tanto, el alto puntaje de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una razón clínica demostrada. La predicción debe considerarse una hipótesis sin respaldo.
 
 ## Evidencia de Ensayos Clínicos
 

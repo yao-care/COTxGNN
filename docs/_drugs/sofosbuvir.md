@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 |------|------|
 | Indicación Original | Sofosbuvir + Velpatasvir (hepatitis C crónica) |
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.77% |
+| Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sofosbuvir es un análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN (NS5B) del virus de la hepatitis C, y su eficacia en hepatitis C está bien establecida.
 
-La relación con la hepatitis B es débil desde el punto de vista mecanístico. El VHB se replica mediante una ADN polimerasa/transcriptasa inversa, por lo que no hay una coincidencia directa con el blanco de sofosbuvir. Los datos clínicos en VHB provienen sobre todo de pacientes coinfectados VHC/VHB, en los que el tratamiento con antivirales de acción directa no suprime el VHB y puede desencadenar su reactivación. Por ello, no se espera que sofosbuvir tenga actividad anti-VHB intrínseca, y el puntaje tan alto del modelo (99.77%) no está respaldado por este razonamiento.
+La relación con la hepatitis B es débil desde el punto de vista mecanístico. El VHB se replica mediante una ADN polimerasa/transcriptasa inversa, por lo que no hay una coincidencia directa con el blanco de sofosbuvir. Los datos clínicos en VHB provienen sobre todo de pacientes coinfectados VHC/VHB, en los que el tratamiento con antivirales de acción directa no suprime el VHB y puede desencadenar su reactivación. Por ello, no se espera que sofosbuvir tenga actividad anti-VHB intrínseca, y el puntaje tan alto del modelo (0.9977) no está respaldado por este razonamiento.
 
 Existe un estudio de Fase 2 de ledipasvir/sofosbuvir en monoinfección por VHB que reporta una reducción modesta del HBsAg, lo que puede considerarse una señal exploratoria que requiere confirmación.
 
@@ -107,7 +107,7 @@ Entre las demás predicciones de la lista, la **hepatitis E** (rango 2) tiene un
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20126648 | EPCLUSA® | Tableta recubierta | Sofosbuvir + Velpatasvir (registro cancelado) |
+| 20126648 | EPCLUSA® | Tableta recubierta | Sofosbuvir + Velpatasvir (registro vigente) |
 
 ---
 

@@ -50,9 +50,9 @@ Entre las demás predicciones, las que cuentan con algo de respaldo son **migra�
 |------|------|
 | Indicación Original | TERAZOSINA (el registro no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Entre las demás predicciones, las que cuentan con algo de respaldo son **migra�
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, terazosina es un bloqueador alfa-1 adrenérgico que produce vasodilatación y reduce la presión arterial.
 
-La relación con la hipotricosis simple del cuero cabelludo es solo especulativa: se ha planteado que una vasodilatación que mejore la perfusión del cuero cabelludo podría favorecer el crecimiento del cabello, como ocurre con minoxidil. Sin embargo, esta condición es hereditaria y no hay evidencia que sustente que el bloqueo alfa-1 corrija el defecto subyacente. El puntaje alto de TxGNN refleja una predicción basada en grafos, no evidencia real.
+La relación con la hipotricosis simple del cuero cabelludo es solo especulativa: se ha planteado que una vasodilatación que mejore la perfusión del cuero cabelludo podría favorecer el crecimiento del cabello, como ocurre con minoxidil. Sin embargo, esta condición es hereditaria y no hay evidencia que sustente que el bloqueo alfa-1 corrija el defecto subyacente. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Cabe señalar que el modelo también predice otras indicaciones del grupo capilar (alopecia, alopecia areata difusa, hipotricosis congénita con milia e incluso hipertricosis de Ambras, que es de dirección opuesta), lo que indica que esta señal es poco específica y debe interpretarse con cautela.
 

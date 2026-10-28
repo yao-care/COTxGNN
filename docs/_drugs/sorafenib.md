@@ -4,17 +4,17 @@ title: Sorafenib
 parent: Evidencia Alta (L1-L2)
 nav_order: 590
 evidence_level: L2
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No especificada en los registros (el texto aprobado solo indica \"SORA…"
 monitor_inn: "sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
+description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SORAFENIB"
 ---
 
 # Sorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Sorafenib: De Indicación Original (no especificada en el registro) a Liposarcoma
+## Sorafenib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros (el texto aprobado solo indica "SORAFENIB") |
+| Indicación Original | SORAFENIB |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,9 +93,9 @@ Sin embargo, la actividad clínica de sorafenib en sarcomas depende del subtipo 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20241006 | SORAFENIB 200MG | Tableta recubierta | SORAFENIB (estado: cancelado) |
-| 20227759 | SAFINAR® | Tableta recubierta | SORAFENIB (estado: cancelado) |
-| 19971195 | NEXAVAR® 200MG | Tableta cubierta con película | SORAFENIB (estado: cancelado) |
+| 20241006 | SORAFENIB 200MG | Tableta recubierta | SORAFENIB (estado: vigente) |
+| 20227759 | SAFINAR® | Tableta recubierta | SORAFENIB (estado: vigente) |
+| 19971195 | NEXAVAR® 200MG | Tableta cubierta con película | SORAFENIB (estado: vigente) |
 
 ---
 
@@ -104,7 +104,6 @@ Sin embargo, la actividad clínica de sorafenib en sarcomas depende del subtipo 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. Las asociaciones del grafo de conocimiento incluyen trombocitopenia, neutropenia y agranulocitosis. |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Hemograma, función hepática, presión arterial y electrolitos (incluido fosfato) |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
@@ -128,7 +127,7 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no estaban disponi
 **Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 2 completado en sarcomas de tejidos blandos, pero es de un solo brazo, con histologías mixtas y sin señal clara de beneficio en liposarcoma. Además, en Colombia todos los registros de sorafenib están cancelados, lo que limita la viabilidad local.
+Existe un ensayo de Fase 2 completado en sarcomas de tejidos blandos, pero es de un solo brazo, con histologías mixtas y sin señal clara de beneficio en liposarcoma. Además, en Colombia sorafenib está comercializado y cuenta con 3 registros vigentes de 3.
 
 **Para avanzar se necesita:**
 - Analizar los resultados por subtipo histológico del estudio SWOG S0505 y del ensayo NCT00217620 para determinar la actividad específica en liposarcoma.

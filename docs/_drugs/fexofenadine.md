@@ -50,9 +50,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Fexofenadina (antihistamínico) |
 | Nueva Indicación Predicha | Conjuntivitis por rosácea |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La hipótesis es que el bloqueo de la inflamación mediada por histamina y de la permeabilidad vascular podría aliviar la inflamación y el enrojecimiento de la superficie ocular que aparecen en la rosácea ocular, de forma similar a lo que ocurre en la conjuntivitis alérgica.
 
-Sin embargo, este vínculo es **hipotético**. La conjuntivitis por rosácea depende principalmente de la disfunción de las glándulas de Meibomio, de factores microbianos o de *Demodex*, y de una desregulación inmune innata y neurovascular. No existe evidencia específica que relacione el antagonismo H1 con esa fisiopatología. El puntaje alto de TxGNN (0.998) es una predicción computacional, no evidencia clínica.
+Sin embargo, este vínculo es **hipotético**. La conjuntivitis por rosácea depende principalmente de la disfunción de las glándulas de Meibomio, de factores microbianos o de *Demodex*, y de una desregulación inmune innata y neurovascular. No existe evidencia específica que relacione el antagonismo H1 con esa fisiopatología. El puntaje alto de TxGNN (0.9985) es una predicción computacional, no evidencia clínica.
 
 ---
 
@@ -72,8 +72,8 @@ Sin embargo, este vínculo es **hipotético**. La conjuntivitis por rosácea dep
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20235810 | NASOFREE® | Tableta recubierta | Fexofenadina | Cancelado |
-| 20191835 | ALERMED® D | Tableta recubierta | Fenilefrina combinaciones | Cancelado |
+| 20235810 | NASOFREE® | Tableta recubierta | Fexofenadina | Vigente |
+| 20191835 | ALERMED® D | Tableta recubierta | Fenilefrina combinaciones | Vigente |
 
 Ambos registros están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en el mercado colombiano.
 

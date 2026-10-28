@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no
 |------|------|
 | Indicación Original | Metronidazol / combinaciones de imidazol derivados |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. *Pneumocystis jirovecii* es un hongo que carece de la vía de activación dependiente de nitrorreductasa, por lo que **no existe una justificación mecanística establecida**. El puntaje alto de TxGNN probablemente refleja la cercanía en la red del conocimiento con fármacos antiparasitarios, y no una actividad real. El tratamiento estándar es trimetoprima-sulfametoxazol.
 
-En conjunto, esta predicción debe considerarse una señal del modelo sin respaldo biológico claro. Entre las demás candidatas, la **poliposis en capuchón (cap polyposis)** (puntaje TxGNN 99.73%, nivel L4) tiene la plausibilidad mecanística más sólida según los datos compilados, y podría merecer una evaluación aparte.
+En conjunto, esta predicción debe considerarse una señal del modelo sin respaldo biológico claro. Entre las demás candidatas, la **poliposis en capuchón (cap polyposis)** (puntaje TxGNN 0.9973, nivel L4) tiene la plausibilidad mecanística más sólida según los datos compilados, y podría merecer una evaluación aparte.
 
 ---
 
@@ -96,9 +96,9 @@ Ninguna publicación muestra que metronidazol sea eficaz contra la neumocistosis
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Cancelado |
-| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Cancelado |
-| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Cancelado |
+| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Vigente |
+| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Vigente |
+| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Vigente |
 
 ---
 
@@ -119,7 +119,7 @@ No se dispuso de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos, la literatura es solo descriptiva y no muestra eficacia, y el mecanismo de acción del metronidazol no es plausible frente a *Pneumocystis* (hongo sin la vía de activación nitrorreductasa). Existe un tratamiento estándar eficaz (trimetoprima-sulfametoxazol). Además, todos los registros en Colombia están cancelados.
+No existen ensayos clínicos, la literatura es solo descriptiva y no muestra eficacia, y el mecanismo de acción del metronidazol no es plausible frente a *Pneumocystis* (hongo sin la vía de activación nitrorreductasa). Existe un tratamiento estándar eficaz (trimetoprima-sulfametoxazol). Además, el medicamento está comercializado en Colombia y cuenta con 3 registros vigentes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y estudios preclínicos que justifiquen actividad contra *Pneumocystis*

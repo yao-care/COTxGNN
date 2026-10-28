@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta d
 |------|------|
 | Indicación Original | Clotrimazol (el registro sanitario solo indica el nombre del principio activo; el uso clínico conocido es el tratamiento local de infecciones fúngicas de piel y vaginales) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ninguno vigente) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El vínculo con el acné es plausible, pero no está demostrado. Podría pasar por la inflamación asociada a *Malassezia* o *Cutibacterium*. La relación entre la indicación original (infecciones cutáneas) y el acné es que ambos son trastornos de la piel con componente microbiano e inflamatorio. Sin embargo, el acné no es una infección fúngica, por lo que la base mecanística es débil.
 
-El único ensayo disponible evalúa una combinación fija (beclometasona + gentamicina + clotrimazol), de modo que cualquier efecto no se puede atribuir al clotrimazol. El puntaje tan alto de TxGNN (99.86%) es solo una predicción computacional.
+El único ensayo disponible evalúa una combinación fija (beclometasona + gentamicina + clotrimazol), de modo que cualquier efecto no se puede atribuir al clotrimazol. El puntaje tan alto de TxGNN (0.9986) es solo una predicción computacional.
 
 ---
 
@@ -85,8 +85,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19971011 | CUTAMYCON 500 MG (cancelado) | Cápsula blanda | Clotrimazol |
-| 20018316 | DERMA Q CREMA TÓPICA (cancelado) | Crema tópica | Mometasona |
+| 19971011 | CUTAMYCON 500 MG (vigente) | Cápsula blanda | Clotrimazol |
+| 20018316 | DERMA Q CREMA TÓPICA (vigente) | Crema tópica | Mometasona |
 
 Ambos registros están cancelados, por lo que actualmente no hay productos vigentes en Colombia con este principio activo según los datos compilados.
 

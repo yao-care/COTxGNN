@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Enoxaparina: De Indicación Original (sin texto de indicación detallado) a Trombofilia por Deficiencia de Proteína C (Autosómica Recesiva)
+## Enoxaparina: Trombofilia por deficiencia de proteína C, autosómica recesiva
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trombofilia por deficien
 |------|------|
 | Indicación Original | ENOXAPARINA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 

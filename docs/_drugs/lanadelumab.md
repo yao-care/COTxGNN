@@ -50,9 +50,9 @@ Cabe aclarar que esta predicción coincide con la indicación ya establecida del
 |------|------|
 | Indicación Original | Lanadelumab (el registro INVIMA solo repite el nombre del fármaco; no describe la indicación) |
 | Nueva Indicación Predicha | Deficiencia de inhibidor de C1 |
-| Puntaje de Predicción TxGNN | 99.996% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -127,7 +127,7 @@ Existen un ECA de referencia (HELP, JAMA 2018), tres ensayos de Fase 3 completad
 - Verificar que la indicación original del registro corresponda a la profilaxis del AEH.
 - Plan de monitoreo de seguridad para poblaciones específicas (pediátrica, trasplantados).
 
-**Otras predicciones del modelo:** las demás indicaciones (serpinopatía con polimerización tóxica de serpina, pancreatitis, enfermedad de von Willebrand tipo plaquetario, trastornos de función plaquetaria, miopatías inflamatorias, trombastenia de Glanzmann, síndrome de Scott) no tienen ensayos ni literatura, carecen de un vínculo mecanístico plausible y se clasifican como L5 con decisión **Hold**. Probablemente son artefactos del grafo de conocimiento.
+**Otras predicciones del modelo:** las demás indicaciones (serpinopatía con polimerización tóxica de serpina, pancreatitis, enfermedad de von Willebrand tipo plaquetario, trastornos de función plaquetaria, miopatías inflamatorias, trombastenia de Glanzmann, síndrome de Scott) no tienen ensayos ni literatura, carecen de un vínculo mecanístico plausible y se clasifican como L5 con decisión **Hold**. Sus puntuaciones provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

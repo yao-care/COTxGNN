@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Trifluoperazine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 645
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L4). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
@@ -14,7 +14,7 @@ predicted_indications: ["manic bipolar affective disorder"]
 # Trifluoperazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ pero **no hay ensayos clínicos registrados** y las **20 publicaciones** hallada
 |------|------|
 | Indicación Original | AMITRIPTILINA Y SICOLEPTICOS |
 | Nueva Indicación Predicha | Trastorno bipolar afectivo maníaco |
-| Puntaje de Predicción TxGNN | 99.51% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Puntaje de Predicción TxGNN | 0.9951 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero **no hay ensayos clínicos registrados** y las **20 publicaciones** hallada
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general de la clase, la trifluoperazina es una fenotiazina cuya actividad se atribuye principalmente al antagonismo de los receptores de dopamina D2. Esta descripción se basa en la farmacología general de la clase y no en datos específicos del fármaco.
 
-El bloqueo de D2 es el mecanismo compartido por los antipsicóticos que se usan en la manía aguda, lo que hace biológicamente plausible la predicción del modelo (puntaje 0,995). Además, existen publicaciones antiguas sobre el uso de trifluoperazina en depresiones agitadas y psicosis, y revisiones sobre antipsicóticos en trastornos del estado de ánimo.
+El bloqueo de D2 es el mecanismo compartido por los antipsicóticos que se usan en la manía aguda, lo que hace biológicamente plausible la predicción del modelo (puntaje 0,9951). Además, existen publicaciones antiguas sobre el uso de trifluoperazina en depresiones agitadas y psicosis, y revisiones sobre antipsicóticos en trastornos del estado de ánimo.
 
 Sin embargo, esta predicción no es una señal genuina de reposicionamiento: la trifluoperazina ya es un antipsicótico y la nueva indicación está muy cerca de su uso psiquiátrico existente. No hay evidencia específica del fármaco a nivel de ensayos, y el estado de mercado (solo registros cancelados) limita el valor práctico del desarrollo.
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es plausible por el mecanismo de clase (antagonismo D2), pero no hay ensayos clínicos ni evidencia específica de trifluoperazina en manía bipolar (nivel L4). Además, no es un reposicionamiento genuino, y todos los registros colombianos están cancelados.
+La predicción es plausible por el mecanismo de clase (antagonismo D2), pero no hay ensayos clínicos ni evidencia específica de trifluoperazina en manía bipolar (nivel L4). Además, no es un reposicionamiento genuino, y los 2 registros colombianos están vigentes (2 de 2 licencias válidas), por lo que el medicamento está comercializado.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de trifluoperazina (por ejemplo, desde DrugBank)

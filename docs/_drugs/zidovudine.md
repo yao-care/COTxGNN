@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Zidovudine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 668
-evidence_level: L4
-indication_count: 6
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Zidovudina"
 monitor_inn: "Zidovudine"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Zidovudine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 |------|------|
 | Indicación Original | Zidovudina (registro INVIMA; el texto de indicación aprobado solo indica el nombre del principio activo) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -96,10 +96,10 @@ Se listan 10 de las 20 publicaciones disponibles, priorizando estudios clínicos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19237 | RETROVIR IV PARA INFUSIÓN | Solución inyectable | Zidovudina (cancelado) |
-| 20065187 | ZIDO H® SOLUCIÓN ORAL 10MG/ML | Solución oral | Zidovudina (cancelado) |
-| 19974944 | ZIDOVUDINA SOLUCIÓN ORAL 10 MG/ML | Solución oral | Zidovudina (cancelado) |
-| 20063923 | LAVUZID® | Tableta | Lamivudina y zidovudina (cancelado) |
+| 19237 | RETROVIR IV PARA INFUSIÓN | Solución inyectable | Zidovudina (vigente) |
+| 20065187 | ZIDO H® SOLUCIÓN ORAL 10MG/ML | Solución oral | Zidovudina (vigente) |
+| 19974944 | ZIDOVUDINA SOLUCIÓN ORAL 10 MG/ML | Solución oral | Zidovudina (vigente) |
+| 20063923 | LAVUZID® | Tableta | Lamivudina y zidovudina (vigente) |
 
 ---
 
@@ -125,7 +125,7 @@ Se listan 10 de las 20 publicaciones disponibles, priorizando estudios clínicos
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin ensayos clínicos, y la enfermedad predicha no afecta a humanos, por lo que no hay valor de reposicionamiento terapéutico. Además, todos los registros sanitarios en Colombia están cancelados.
+La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin ensayos clínicos, y la enfermedad predicha no afecta a humanos, por lo que no hay valor de reposicionamiento terapéutico. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Aclarar si existe un objetivo veterinario o de modelo animal que justifique continuar, ya que no hay una indicación humana nueva

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Goserelin
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 321
-evidence_level: L5
+evidence_level: L1
 indication_count: 3
 last_modified_at: 2026-10-14
 description: "Goserelin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: GOSERELINA"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "r
 # Goserelin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ Conviene aclarar que esta "indicación" corresponde más a la inducción control
 |------|------|
 | Indicación Original | GOSERELINA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L1 (parcial: el único ensayo de Fase 3 no está completado y la amenorrea no es su desenlace principal) |
-| Estado de Mercado en Colombia | Solo cancelado |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Goserelina es un agonista de GnRH. Su administración continua desensibiliza los
 
 Por lo tanto, la amenorrea es un efecto farmacológico esperado y no un mecanismo novedoso. Se presenta sobre todo en el cáncer de mama premenopáusico, la endometriosis y la protección ovárica durante la quimioterapia. La literatura revisada respalda este enfoque, por ejemplo la publicación sobre la inducción de amenorrea (PMID 1533675), los estudios de goserelina en cáncer de mama premenopáusico (PMID 12488406 y 14679153) y el ensayo OPTION sobre protección ovárica con agonistas de GnRH (PMID 28472240).
 
-Las otras dos predicciones (hipoplasia renal e hipoplasia renal bilateral) tienen puntajes altos (cerca de 99%), pero no muestran un vínculo mecanístico plausible ni ensayos ni publicaciones. Se consideran solo predicciones computacionales y se recomienda mantenerlas en espera (Hold).
+Las otras dos predicciones (hipoplasia renal e hipoplasia renal bilateral) tienen puntajes altos (0.9906 en ambos casos), pero no muestran un vínculo mecanístico plausible ni ensayos ni publicaciones. Se consideran solo predicciones computacionales y se recomienda mantenerlas en espera (Hold).
 
 ---
 

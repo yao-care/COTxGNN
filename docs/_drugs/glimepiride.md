@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Glimepiride: nueva indicación predicha, Síndrome de rigidez focal de las extremidades (nivel de evidencia L5). Indicación original: Metformina y sulfonilureas"
 monitor_inn: "Glimepiride"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
+last_modified_at: 2026-10-27
+description: "Glimepiride: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: METFORMINA Y SULFONILUREAS"
 ---
 
 # Glimepiride
@@ -33,76 +33,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Glimepirida: De Metformina y Sulfonilureas a Síndrome de Rigidez Focal de las Extremidades
+## Glimepirida: sulfonilurea que cierra los canales K-ATP pancreáticos → síndrome de la extremidad rígida focal (focal stiff limb syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Glimepirida es una sulfonilurea utilizada originalmente en el tratamiento de la diabetes (registro sanitario colombiano asociado a "metformina y sulfonilureas").
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez focal de las extremidades**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
-
----
+Glimepirida es una sulfonilurea que estimula la secreción de insulina al cerrar los canales de potasio sensibles a ATP de las células beta pancreáticas.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de la extremidad rígida focal (focal stiff limb syndrome)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Metformina y sulfonilureas |
-| Nueva Indicación Predicha | Síndrome de rigidez focal de las extremidades |
-| Puntaje de Predicción TxGNN | 99.75% |
+| Indicación Original | METFORMINA Y SULFONILUREAS |
+| Nueva Indicación Predicha | Síndrome de la extremidad rígida focal (focal stiff limb syndrome) |
+| Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la glimepirida es una sulfonilurea que cierra los canales de potasio sensibles a ATP (K-ATP) de las células beta pancreáticas para estimular la secreción de insulina.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, glimepirida es una sulfonilurea que cierra los canales K-ATP de las células beta pancreáticas y así estimula la liberación de insulina.
 
-El síndrome de rigidez focal de las extremidades es una variante del espectro de la persona rígida, un grupo de trastornos autoinmunes asociados a patología GABAérgica y a anticuerpos anti-GAD65. No se identifica un puente mecanístico plausible entre el cierre de canales K-ATP y esta enfermedad. La autoinmunidad anti-GAD se asocia con diabetes como comorbilidad, pero eso no sugiere un papel terapéutico de la glimepirida.
+El síndrome de la extremidad rígida focal es una variante del espectro de la persona rígida, de origen autoinmune, con alteración de la inhibición GABAérgica y anticuerpos anti-GAD65. No se identifica un puente mecanístico plausible entre el cierre de canales K-ATP y esta enfermedad. La autoinmunidad anti-GAD se asocia con diabetes como comorbilidad, pero eso no sugiere un papel terapéutico para glimepirida.
 
-Por lo tanto, el puntaje alto del modelo debe interpretarse como una predicción puramente computacional, probablemente originada por la cercanía en la red de conocimiento con nodos relacionados con la diabetes, y no como una señal de eficacia clínica.
+Por tanto, el puntaje alto (0,9975) debe interpretarse como una señal computacional sin respaldo clínico ni mecanístico demostrado.
 
----
+## Evidencia de Ensayos Clínicos
 
-## Informacion de Mercado en Colombia
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20046981 | METGLITAL LEX 850/4 MG TABLETAS DE LIBERACIÓN PROLONGADA | Tableta de liberación prolongada | Metformina y sulfonilureas | Cancelado |
+## Evidencia de Literatura
 
----
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Colombia
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20046981 | METGLITAL LEX 850/4 MG TABLETAS DE LIBERACIÓN PROLONGADA | Tableta de liberación prolongada | Metformina y sulfonilureas |
+
+La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** el grafo de conocimiento asocia la glimepirida con enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, insuficiencia cardíaca congestiva, hipopituitarismo y otras deficiencias hipofisarias (incluida la deficiencia de hormona del crecimiento), hipogonadismo hipogonadotrópico (incluido el síndrome de Kallmann), síndrome de Sheehan, enfermedad del timo, osteoporosis (incluida la posmenopáusica) y enfermedades infecciosas.
-- **Interacciones farmacológicas:** se identificaron 100 interacciones en total; la mayoría de las mostradas son de nivel moderado. Entre las principales se encuentran:
-  - Agentes adrenérgicos/simpaticomiméticos: fenilefrina, epinefrina, pseudoefedrina, salbutamol, formoterol.
-  - Betabloqueador: acebutolol.
-  - Antiinflamatorios: ibuprofeno, ketorolaco, hidrocortisona.
-  - Bloqueadores H2: famotidina, ranitidina.
-  - Otros: acetazolamida, acitretina, etinilestradiol, hidroclorotiazida, nitazoxanida, albiglutida y etanol.
-  - Las interacciones con corticoides tópicos (hidrocortisona tópica, alclometasona tópica) son de nivel menor.
+- **Interacciones Farmacológicas**: se consultaron 100 interacciones; entre las de nivel moderado figuran fenilefrina, acebutolol, acetazolamida, famotidina, ranitidina, acitretina, formoterol, pseudoefedrina, ketorolaco, epinefrina, ibuprofeno, etinilestradiol, hidrocortisona, albiglutida, salbutamol, etanol, nitazoxanida e hidroclorotiazida. También hay interacciones menores con corticoides tópicos (hidrocortisona tópica, alclometasona tópica).
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que no se dispone de esa información en los datos compilados.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura que respalden el uso de glimepirida en el síndrome de rigidez focal de las extremidades, y no se identifica un mecanismo plausible. El puntaje del modelo (99.75%) es solo una predicción computacional (nivel L5). Además, el único registro sanitario colombiano está cancelado.
+La predicción no cuenta con ensayos clínicos ni literatura que estudien directamente la enfermedad, y no existe un mecanismo plausible que vincule a glimepirida con el síndrome de la extremidad rígida focal. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (consulta a DrugBank) y un análisis mecanístico que justifique la hipótesis.
-- Obtener y analizar el prospecto de INVIMA para completar el tamizaje de seguridad (actualmente un vacío bloqueante).
-- Estudios preclínicos que sustenten la hipótesis antes de considerar ensayos clínicos.
-- Evaluar otras indicaciones predichas, aunque las revisadas también carecen de evidencia: síndrome de la persona rígida clásico, opsismodisplasia, síndrome de disfunción sensible a tiamina, distintas lipodistrofias localizadas y agenesia pancreática. En la agenesia pancreática, la glimepirida requiere células beta funcionales, por lo que no se esperaría eficacia.
-- Confirmar la situación comercial en Colombia, dado que no hay registros vigentes.
+- Evidencia preclínica o clínica que estudie directamente esta enfermedad con glimepirida
+- Datos del mecanismo de acción que justifiquen un vínculo biológico
+- Advertencias y contraindicaciones del prospecto de INVIMA para completar la evaluación de seguridad
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

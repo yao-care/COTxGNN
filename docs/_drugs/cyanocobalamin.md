@@ -48,9 +48,9 @@ pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicació
 |------|------|
 | Indicación Original | Multivitaminas y otros minerales, incluidas combinaciones |
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicació
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la cianocobalamina es una forma de vitamina B12, cofactor de la metionina sintasa y de la metilmalonil-CoA mutasa. Su uso se ha dado en productos multivitamínicos y de complejo B.
 
-La biotina, por su parte, es cofactor de carboxilasas (como la propionil-CoA carboxilasa y la piruvato carboxilasa). Ambas vitaminas participan en rutas relacionadas, como el metabolismo del propionato y del metilmalonato, lo que podría explicar la asociación detectada por el modelo basado en grafos de conocimiento.
+La biotina, por su parte, es cofactor de carboxilasas (como la propionil-CoA carboxilasa y la piruvato carboxilasa). Ambas vitaminas participan en rutas relacionadas, como el metabolismo del propionato y del metilmalonato. Sin embargo, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Sin embargo, esta relación es una inferencia computacional por cercanía de rutas y no está validada clínicamente. La vitamina B12 no corrige la deficiencia de biotinidasa ni la de holocarboxilasa sintetasa, cuyo tratamiento estándar es la suplementación con biotina. Por ello, la plausibilidad mecanística es limitada.
 

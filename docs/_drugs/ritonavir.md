@@ -6,9 +6,9 @@ nav_order: 567
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Ritonavir: nueva indicación predicha, Infección por virus de inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Atazanavir + ritonavir (combinaciones antirretrovirales"
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
 ---
 
 # Ritonavir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Ritonavir: De Combinaciones Antirretrovirales para VIH a Infección por Virus de Inmunodeficiencia Simia
+## Ritonavir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye un
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Atazanavir + ritonavir (combinaciones antirretrovirales; también ritonavir y darunavir) |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia (SIV) |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Indicación Original | ATAZANAVIR+RITONAVIR; COMBINACIONES (RITONAVIR Y DARUNAVIR); DARUNAVIR Y RITONAVIR; DARUNAVIR + RITONAVIR |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -119,7 +119,7 @@ Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, todos los registros sanitarios en Colombia están cancelados y el perfil de interacciones y contraindicaciones es amplio.
+La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, el medicamento está comercializado en Colombia con 5 registros sanitarios vigentes y el perfil de interacciones y contraindicaciones es amplio.
 
 **Para avanzar se necesita:**
 - Definir si existe un uso relevante (por ejemplo, investigación en modelos animales de VIH) o si la predicción debe descartarse como indicación humana.

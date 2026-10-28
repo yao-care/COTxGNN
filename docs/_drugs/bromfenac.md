@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (cat
 |------|------|
 | Indicación Original | Bromfenaco (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Enfermedad ocular (eye disease) |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -111,7 +111,7 @@ Se listan las publicaciones más relevantes, priorizando metaanálisis, revision
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20108768 | ZEBESTEN® | Solución oftálmica | Bromfenaco | Cancelado |
+| 20108768 | ZEBESTEN® | Solución oftálmica | Bromfenaco | Vigente |
 
 El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
 

@@ -50,9 +50,9 @@ pero **no hay ensayos clínicos registrados** y la literatura disponible (20 pub
 |------|------|
 | Indicación Original | Electrolitos combinaciones |
 | Nueva Indicación Predicha | Enfermedad del estómago (stomach disease) |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La literatura recuperada muestra que el ácido cítrico se ha estudiado como comida de prueba para mejorar la precisión de la prueba de aliento con urea-13C para detectar *Helicobacter pylori*. Es un uso **diagnóstico**, no terapéutico. Se sabe que acidifica el ambiente gástrico y retrasa el vaciado gástrico, lo que podría explicar ese papel diagnóstico.
 
-No existe un vínculo terapéutico establecido con la enfermedad del estómago. El puntaje de 0.997 es únicamente una predicción computacional y no debe interpretarse como evidencia de eficacia.
+No existe un vínculo terapéutico establecido con la enfermedad del estómago. El puntaje de 0.9974 es únicamente una predicción computacional y no debe interpretarse como evidencia de eficacia.
 
 ---
 
@@ -115,13 +115,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto del INVIMA; co
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Faringitis | 99.68% | L4 | Hold |
-| Laringofaringitis aguda | 99.59% | L5 | Hold |
-| Síndrome postgastrectomía | 99.58% | L5 | Hold |
-| Enfermedad de la cavidad nasal | 99.52% | L5 | Hold |
-| Conjuntivitis papilar | 99.24% | L5 | Hold |
-| Blefaroconjuntivitis | 99.14% | L5 | Hold |
-| Rinitis | 99.07% | L4 | Hold |
+| Faringitis | 0.9968 | L5 | Hold |
+| Laringofaringitis aguda | 0.9959 | L5 | Hold |
+| Síndrome postgastrectomía | 0.9958 | L5 | Hold |
+| Enfermedad de la cavidad nasal | 0.9952 | L5 | Hold |
+| Conjuntivitis papilar | 0.9924 | L5 | Hold |
+| Blefaroconjuntivitis | 0.9914 | L5 | Hold |
+| Rinitis | 0.9907 | L4 | Hold |
 
 En faringitis y rinitis, el ácido cítrico aparece sobre todo como agente que induce tos en modelos experimentales, o como excipiente, y no como tratamiento. En rinitis/rinosinusitis hay datos preclínicos de una preparación de ácido cítrico con surfactante zwitteriónico contra biopelículas, cuyo efecto no puede separarse del surfactante.
 

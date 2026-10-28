@@ -48,9 +48,9 @@ con **10 ensayos clínicos** y **5 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Ciclobenzaprina (el registro sanitario no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Síndrome de dolor miofascial |
-| Puntaje de Predicción TxGNN | 99.09% |
+| Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -91,8 +91,8 @@ Esta relación está respaldada por ensayos aleatorizados: uno en distensión mi
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20073630 | DOLORO® | Tableta recubierta | Ciclobenzaprina (cancelado) |
-| 20190464 | BENRELAX Cápsula Blanda | Cápsula blanda | Ciclobenzaprina clorhidrato + clonixinato de lisina (cancelado) |
+| 20073630 | DOLORO® | Tableta recubierta | Ciclobenzaprina (vigente) |
+| 20190464 | BENRELAX Cápsula Blanda | Cápsula blanda | Ciclobenzaprina clorhidrato + clonixinato de lisina (vigente) |
 
 ## Consideraciones de Seguridad
 
@@ -116,7 +116,7 @@ Hay ensayos aleatorizados que respaldan el uso de ciclobenzaprina en dolor miofa
 
 ---
 
-*Nota sobre otras predicciones:* **neuralgia** (puntaje 99.08%, nivel L4) y **conjuntivitis papilar** (99.08%, nivel L5) tienen evidencia clínica directa nula o muy limitada y se recomienda mantenerlas en espera (Hold).
+*Nota sobre otras predicciones:* **neuralgia** (puntaje 0.9908, nivel L4) y **conjuntivitis papilar** (0.9908, nivel L5) tienen evidencia clínica directa nula o muy limitada y se recomienda mantenerlas en espera (Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

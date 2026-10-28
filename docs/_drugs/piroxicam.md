@@ -6,9 +6,9 @@ nav_order: 518
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Piroxicam: nueva indicación predicha, Síndrome de microftalmia colobomatosa-displasia rizomélica (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario (el texto solo ind…"
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
+description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: PIROXICAM"
 ---
 
 # Piroxicam
@@ -33,13 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Piroxicam: De Antiinflamatorio No Esteroideo (indicación no detallada en el registro) a Síndrome de Microftalmia Colobomatosa-Displasia Rizomélica
+## Piroxicam: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Piroxicam es un antiinflamatorio no esteroideo (AINE) que cuenta con registros sanitarios en Colombia, aunque estos no detallan la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa-displasia rizomélica**, con un puntaje muy alto (99.996%).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa-displasia rizomélica**, con un puntaje muy alto (1.0000).
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata solo de una predicción computacional.
 
 ---
@@ -48,11 +48,11 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No detallada en el registro sanitario (el texto solo indica "Piroxicam"); clase AINE |
-| Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa-displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.996% |
+| Indicación Original | PIROXICAM |
+| Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin producto vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La nueva indicación predicha es un síndrome del desarrollo, congénito y muy poco frecuente, que afecta el ojo (coloboma y microftalmia) y el esqueleto (displasia rizomélica). No se identificó ningún vínculo mecanístico plausible: esta enfermedad no tiene una patología inflamatoria dependiente de prostaglandinas que la inhibición de la COX pudiera modificar.
 
-El puntaje alto del modelo proviene de asociaciones en un grafo de conocimiento, no de datos clínicos ni de literatura. Por tanto, debe interpretarse como una hipótesis sin sustento y no como una señal de eficacia.
+El puntaje alto proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No procede de datos clínicos ni de literatura. Por tanto, debe interpretarse como una hipótesis sin sustento y no como una señal de eficacia.
 
 ---
 
@@ -125,7 +125,7 @@ La predicción para esta indicación (L5) carece de ensayos clínicos, literatur
 - Descartar o sustentar la hipótesis con evidencia biológica, ya que hoy no existe ninguna.
 - Obtener el prospecto con advertencias y contraindicaciones oficiales (INVIMA).
 - Completar los datos de mecanismo de acción desde DrugBank.
-- Confirmar la situación regulatoria actual del fármaco, dado que todos sus registros están cancelados.
+- Confirmar la situación regulatoria actual del fármaco, que está comercializado y cuenta con 5 registros vigentes.
 - Si se prioriza la artritis idiopática juvenil, revisar el texto completo de los estudios para confirmar su diseño y resultados.
 ## Descargo de responsabilidad
 

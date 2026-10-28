@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lacosamide
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 370
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Lacosamide: nueva indicación predicha, Migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Lacosamida"
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
+description: "Lacosamide: nueva indicación predicha, Manic bipolar affective disorder (nivel de evidencia L5). Indicación original: LACOSAMIDA"
 ---
 
 # Lacosamide
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lacosamida: De Epilepsia (Crisis Focales) a Migraña
+## Lacosamide: Manic bipolar affective disorder
 {: .text-alpha }
 
 **Nota sobre la selección de la indicación:** el modelo TxGNN genera varias predicciones. La de mayor puntaje es el trastorno bipolar maníaco, pero solo cuenta con evidencia de nivel L3 y sin ensayos clínicos. La indicación con la evidencia más sólida es la **migraña**, y es la que se desarrolla en este informe. La indicación original (epilepsia) no figura en el texto del registro sanitario, que solo dice "LACOSAMIDA"; se indica a partir del conocimiento general del fármaco.
@@ -41,17 +41,17 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Lacosamida es un antiepiléptico de tercera generación, usado originalmente para tratar crisis epilépticas focales.
-El modelo TxGNN predice que podría ser efectivo para **migraña** (puntaje 99.87%), con **4 ensayos clínicos** (3 de ellos en Fase 3 o con diseño comparativo activo) y **17 publicaciones** recuperadas, incluido un ensayo aleatorizado doble ciego publicado en 2026.
+El modelo TxGNN predice que podría ser efectivo para **migraña** (puntaje 0.9987), con **4 ensayos clínicos** (3 de ellos en Fase 3 o con diseño comparativo activo) y **17 publicaciones** recuperadas, incluido un ensayo aleatorizado doble ciego publicado en 2026.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lacosamida (el texto del registro no detalla la indicación; fármaco antiepiléptico) |
-| Nueva Indicación Predicha | Migraña (*migraine disorder*) |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Indicación Original | LACOSAMIDA |
+| Nueva Indicación Predicha | Manic bipolar affective disorder |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -88,9 +88,9 @@ Por todo ello, el mecanismo podría ser aplicable a la migraña, aunque la confi
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20010104 | VIMPAT® 150 MG TABLETAS (cancelado) | Tableta recubierta | LACOSAMIDA |
-| 20187322 | LACOLEP 150 (cancelado) | Tableta recubierta | LACOSAMIDA |
-| 20093299 | LACOTEM 50 MG COMPRIMIDOS RECUBIERTOS (cancelado) | Tableta recubierta | LACOSAMIDA |
+| 20010104 | VIMPAT® 150 MG TABLETAS (vigente) | Tableta recubierta | LACOSAMIDA |
+| 20187322 | LACOLEP 150 (vigente) | Tableta recubierta | LACOSAMIDA |
+| 20093299 | LACOTEM 50 MG COMPRIMIDOS RECUBIERTOS (vigente) | Tableta recubierta | LACOSAMIDA |
 
 ## Consideraciones de Seguridad
 

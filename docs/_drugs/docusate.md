@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Sodio docusato (texto de indicación del registro INVIMA; no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Síndrome de Plummer-Vinson |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,15 +60,15 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El síndrome de Plummer-Vinson se caracteriza por anemia ferropénica, membranas esofágicas y disfagia, y se trata con reposición de hierro y dilatación esofágica. El docusato no tiene un papel conocido en la absorción de hierro ni en la fisiopatología de las membranas esofágicas. La relación entre la indicación original (estreñimiento) y la nueva indicación es, por tanto, muy débil.
 
-Una hipótesis puramente especulativa sería que la actividad tensioactiva modifica las propiedades de la mucosa, pero no tiene respaldo en los datos. El puntaje alto de TxGNN (0.992) es solo una predicción derivada del modelo, sin evidencia mecanística ni clínica.
+Una hipótesis puramente especulativa sería que la actividad tensioactiva modifica las propiedades de la mucosa, pero no tiene respaldo en los datos. El puntaje alto de TxGNN (0.9918) es solo una predicción del modelo de aprendizaje profundo, que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, sin evidencia mecanística ni clínica.
 
-Cabe mencionar una segunda predicción del modelo: la **anemia megaloblástica constitucional independiente de vitamina B12 y folato** (puntaje 99.15%). Tampoco cuenta con ensayos ni literatura, y el docusato no tiene efecto reconocido sobre las vías de síntesis de nucleótidos implicadas.
+Cabe mencionar una segunda predicción del modelo: la **anemia megaloblástica constitucional independiente de vitamina B12 y folato** (puntaje 0.9915). Tampoco cuenta con ensayos ni literatura, y el docusato no tiene efecto reconocido sobre las vías de síntesis de nucleótidos implicadas.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19913206 | SENNAX PLUS® TABLETAS RECUBIERTAS | Tableta recubierta | SODIO DOCUSATO | Cancelado |
+| 19913206 | SENNAX PLUS® TABLETAS RECUBIERTAS | Tableta recubierta | SODIO DOCUSATO | Vigente |
 
 ## Consideraciones de Seguridad
 

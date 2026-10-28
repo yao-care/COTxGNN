@@ -4,7 +4,7 @@ title: Amlodipine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 51
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Amlodipine: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: Valsartán y amlodipino (combinación antihipertensiva)"
 monitor_inn: "Amlodipine"
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "pulmonary hypertension owing t
 # Amlodipine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ La evidencia más sólida de todo el análisis corresponde a otra indicación pr
 |------|------|
 | Indicación Original | Valsartán y amlodipino (combinación antihipertensiva) |
 | Nueva Indicación Predicha | Infarto del tronco encefálico (brain stem infarction) |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con el infarto del tronco encefálico es plausible de forma indirecta: el control de la presión arterial y los efectos vasoprotectores de este tipo de fármacos podrían influir en el riesgo de enfermedad cerebrovascular. Sin embargo, esta hipótesis no cuenta con respaldo de ningún estudio recuperado y debe considerarse solo una predicción del modelo.
 
-Entre las otras indicaciones predichas, la más relevante es la **hemorragia intracerebral** (puntaje 99.79%). Allí el control de la presión arterial es la estrategia establecida de prevención secundaria, y amlodipino forma parte de la píldora triple evaluada en el ensayo TRIDENT. Esto no es un mecanismo nuevo, sino un uso antihipertensivo en una población específica.
+Entre las otras indicaciones predichas, la más relevante es la **hemorragia intracerebral** (puntaje 0.9979). Allí el control de la presión arterial es la estrategia establecida de prevención secundaria, y amlodipino forma parte de la píldora triple evaluada en el ensayo TRIDENT. Esto no es un mecanismo nuevo, sino un uso antihipertensivo en una población específica.
 
 ---
 
@@ -101,8 +101,8 @@ Publicaciones más relevantes de la indicación con mayor evidencia (hemorragia 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20106314 | RACORVAL A 160/5 MG TABLETAS RECUBIERTAS (cancelado) | Tableta recubierta | Valsartán y amlodipino |
-| 20121052 | RACORVAL ® 3D (cancelado) | Tableta recubierta | Valsartán, amlodipino e hidroclorotiazida |
+| 20106314 | RACORVAL A 160/5 MG TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | Valsartán y amlodipino |
+| 20121052 | RACORVAL ® 3D (vigente) | Tableta recubierta | Valsartán, amlodipino e hidroclorotiazida |
 
 ---
 

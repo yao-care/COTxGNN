@@ -4,9 +4,9 @@ title: Alteplase
 parent: Solo Predicción del Modelo (L5)
 nav_order: 42
 evidence_level: L5
-indication_count: 9
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Alteplase: nueva indicación predicha, Infarto de miocardio posteroinferior (nivel de evidencia L5). Indicación original: Alteplasa"
+description: "Alteplasa: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Alteplasa"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary ar
 # Alteplase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Alteplasa: De Indicación Registrada (Alteplasa) a Infarto de Miocardio Posteroinferior
+## Alteplasa: De Indicación Registrada (Alteplasa) a Deficiencia de cofactor 2 de la heparina
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 |------|------|
 | Indicación Original | Alteplasa (el registro no detalla la indicación aprobada más allá del nombre del principio activo) |
 | Nueva Indicación Predicha | Infarto de miocardio posteroinferior |
-| Puntaje de Predicción TxGNN | 99.79% |
+| Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 
 No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, alteplasa es un activador del plasminógeno tisular recombinante: convierte el plasminógeno en plasmina, que disuelve la fibrina de los coágulos.
 
-En el infarto de miocardio, la causa habitual es un trombo que ocluye una arteria coronaria. La disolución del trombo es, por tanto, un enfoque mecanísticamente coherente. Esto explica el puntaje alto del modelo (99.79%).
+En el infarto de miocardio, la causa habitual es un trombo que ocluye una arteria coronaria. La disolución del trombo es, por tanto, un enfoque mecanísticamente coherente.
 
 Un matiz importante: la trombólisis ya es una estrategia establecida en el infarto con elevación del ST en general. El infarto posteroinferior es probablemente un subtipo de un uso ya conocido y no un reposicionamiento genuino. El puntaje es solo una predicción computacional.
 
@@ -83,9 +83,8 @@ Las siguientes predicciones secundarias sí cuentan con algo de evidencia, aunqu
 
 | Indicación | Puntaje TxGNN | Nivel | Evidencia disponible |
 |------|------|------|---------|
-| Infarto de miocardio septal | 99.77% | L4 | 3 publicaciones: un estudio de 1996 sobre función ventricular izquierda tras trombólisis tardía con alteplasa ([8763515](https://pubmed.ncbi.nlm.nih.gov/8763515/)), un reporte de caso de 2023 ([37754803](https://pubmed.ncbi.nlm.nih.gov/37754803/)) y una cohorte de 2025 ([40281444](https://pubmed.ncbi.nlm.nih.gov/40281444/)). Indirecta, no específica del subtipo |
-| Trombofilia | 99.43% | L2 | 1 ensayo Fase 2 en reclutamiento ([NCT05540834](https://clinicaltrials.gov/study/NCT05540834), 70 participantes, tPA guiado por pruebas viscoelásticas en insuficiencia respiratoria aguda protrombótica) y numerosos reportes de caso |
-| Estenosis coronaria | 99.14% | L2 | Sin ensayos registrados. Incluye un ensayo aleatorizado doble ciego de alteplasa vs. placebo en dolor torácico en reposo ([8299637](https://pubmed.ncbi.nlm.nih.gov/8299637/), 1993) y un estudio en angina inestable ([8721695](https://pubmed.ncbi.nlm.nih.gov/8721695/), 1996) |
+| Trombofilia | 0.9943 | L2 | 1 ensayo Fase 2 en reclutamiento ([NCT05540834](https://clinicaltrials.gov/study/NCT05540834), 70 participantes, tPA guiado por pruebas viscoelásticas en insuficiencia respiratoria aguda protrombótica) y numerosos reportes de caso |
+| Estenosis coronaria | 0.9914 | L2 | Sin ensayos registrados. Incluye un ensayo aleatorizado doble ciego de alteplasa vs. placebo en dolor torácico en reposo ([8299637](https://pubmed.ncbi.nlm.nih.gov/8299637/), 1993) y un estudio en angina inestable ([8721695](https://pubmed.ncbi.nlm.nih.gov/8721695/), 1996) |
 
 ---
 

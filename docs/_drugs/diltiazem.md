@@ -1,20 +1,19 @@
 ---
 layout: default
 title: Diltiazem
-parent: Solo Predicción del Modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 222
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Diltiazem: nueva indicación predicha, Susceptibilidad obsoleta a accidente cerebrovascular isquémico (nivel de evidencia L5). Indicación original: No especificada en el registro (solo figura el nombr…"
-monitor_inn: "diltiazem"
-predicted_indications: ["obsolete susceptibility to ischemic stroke"]
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Diltiazem: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Diltiazem
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,62 +32,45 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Diltiazem: De Indicación No Especificada a Susceptibilidad Obsoleta a Accidente Cerebrovascular Isquémico
+<!-- known-uses-page -->
+<!-- description: Diltiazem: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata -->
+## Diltiazem: Usos conocidos y estado de mercado en Colombia
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Diltiazem son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. La información de esta página describe los usos conocidos y el estado de mercado en Colombia.
 
-Diltiazem es un bloqueador de los canales de calcio no dihidropiridínico, cuyo único registro sanitario en Colombia (hoy cancelado) no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **susceptibilidad obsoleta a accidente cerebrovascular isquémico**, un término que la ontología considera obsoleto.
-Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (solo figura el nombre "DILTIAZEM") |
-| Nueva Indicación Predicha | Susceptibilidad obsoleta a accidente cerebrovascular isquémico |
-| Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplica |
+| Estado de mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobados (respaldados por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Angina de Prinzmetal (Prinzmetal angina) | Licencia en otro país; indicación aprobada: angina |
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, diltiazem es un bloqueador de los canales de calcio no dihidropiridínico, y mecanísticamente podría ser aplicable al riesgo de accidente cerebrovascular isquémico.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-Los vínculos plausibles, derivados de la farmacología general, incluyen la reducción de la presión arterial, la disminución del tono del músculo liso vascular y del vasoespasmo, y posibles efectos sobre la resistencia vascular cerebral y la entrada de calcio neuronal. Ninguno de estos vínculos está respaldado por evidencia en los datos disponibles.
-
-Además, el término de la enfermedad está marcado como "obsoleto" en la ontología, es decir, es un concepto en desuso o redundante y no una entidad clínica bien definida. El puntaje alto de TxGNN (0.991) es solo una predicción del modelo y no ha sido validado con evidencia clínica ni bibliográfica.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 51602 (cancelado) | DILTIAZEM TABLETAS POR 60 MG | Tableta | DILTIAZEM |
-
-Fabricante: GENFAR S.A. Vía de administración: oral.
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 51602 | DILTIAZEM CLORHIDRATO | TABLETA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -106,19 +88,6 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y la enfermedad predicha es un término obsoleto. Además, el único registro sanitario en Colombia está cancelado.
-
-**Para avanzar se necesita:**
-- Aclarar qué concepto clínico vigente reemplaza al término obsoleto (por ejemplo, prevención de accidente cerebrovascular isquémico) y reevaluar la predicción con él.
-- Obtener el mecanismo de acción desde DrugBank.
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
-- Realizar una búsqueda sistemática de ensayos y literatura sobre diltiazem y prevención de ACV isquémico.
-- Verificar la situación regulatoria actual del diltiazem en Colombia, ya que el registro identificado está cancelado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

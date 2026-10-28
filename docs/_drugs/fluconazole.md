@@ -48,9 +48,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | FLUCONAZOL (el registro no detalla la enfermedad) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.24% |
+| Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción origi
 
 La relación con la nueva indicación es débil. La queratoconjuntivitis epitelial punteada suele ser de origen viral (por ejemplo, adenovirus) o estar asociada a ojo seco, toxicidad u otras inflamaciones no fúngicas. Un antifúngico no se esperaría que trate esas causas. Solo tendría sentido mecanístico si el cuadro tuviera un origen fúngico.
 
-Por ello, el vínculo es **especulativo**: el único sustento es el puntaje alto del modelo (99.24%), sin un mecanismo explícito ni estudios reales que lo confirmen.
+Por ello, el vínculo es **especulativo**: el único sustento es el puntaje alto del modelo (0.9924), sin un mecanismo explícito ni estudios reales que lo confirmen.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -74,8 +74,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20053245 | HONGIZOL® CÁPSULAS (cancelado) | Cápsula dura | FLUCONAZOL |
-| 48561 | BATEN® 150 MG CÁPSULAS (cancelado) | Cápsula dura | FLUCONAZOL |
+| 20053245 | HONGIZOL® CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |
+| 48561 | BATEN® 150 MG CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |
 
 ## Consideraciones de Seguridad
 

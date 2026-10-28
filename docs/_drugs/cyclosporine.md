@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad granulomatosa
 |------|------|
 | Indicación Original | Ciclosporina (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Enfermedad granulomatosa crónica autosómica recesiva |
-| Puntaje de Predicción TxGNN | 99.68% |
+| Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 6 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados.
+Los 6 registros sanitarios están vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

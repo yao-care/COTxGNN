@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 |------|------|
 | Indicación Original | BECLOMETASONA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99,41% |
+| Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -122,7 +122,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, todos los registros colombianos están cancelados y ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
+El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, el medicamento está comercializado con 5 registros colombianos vigentes, pero ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad.

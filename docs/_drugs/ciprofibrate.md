@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ciprofibrate
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 158
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ciprofibrate: nueva indicación predicha, Hiperlipoproteinemia (nivel de evidencia L2). Indicación original: Ciprofibrato"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Ciprofibrate"
-predicted_indications: ["hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "familial hypercholesterolemia", "homozygous familial hypercholesterolemia", "fibroma of prostate", "prostate cancer/brain cancer susceptibility"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
+last_modified_at: 2026-10-23
+description: "Ciprofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Ciprofibrato"
 ---
 
 # Ciprofibrate
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,101 +33,76 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Ciprofibrato: De Dislipidemia a Hiperlipoproteinemia
+## Ciprofibrato: De Dislipidemia a Deficiencia de la Proteína de Transferencia de Ésteres de Colesterol
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ciprofibrato es un fibrato (agonista de PPAR-alfa) que se registró en Colombia como hipolipemiante, aunque en los registros sanitarios solo figura el nombre del principio activo como indicación.
-El modelo TxGNN predice que podría ser efectivo para **hiperlipoproteinemia**, con **19 publicaciones** y **ningún ensayo clínico registrado** para esta indicación. Se trata en realidad de un uso muy cercano a su indicación nativa, más que de un reposicionamiento propiamente dicho.
-
----
+Ciprofibrato es un fibrato utilizado para tratar la dislipidemia (hipertrigliceridemia severa o hiperlipidemia mixta), y en Colombia cuenta con registros sanitarios vigentes para productos de un solo principio activo.
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de la proteína de transferencia de ésteres de colesterol (CETP)**, pero sin ensayos clínicos y con **1 publicación** preclínica indirecta que no estudia directamente esta enfermedad.
+La evidencia actual corresponde, en la práctica, solo a una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ciprofibrato (el registro sanitario no detalla una indicación textual más específica) |
-| Nueva Indicación Predicha | Hiperlipoproteinemia |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Indicación Original | Ciprofibrato (el texto del registro sanitario no detalla la indicación; según la información farmacológica compilada, se usa en dislipidemia) |
+| Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Número de Registros Sanitarios | Al menos 4 (la lista puede ser parcial) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, ciprofibrato pertenece a la clase de los fibratos y actúa como agonista del receptor activado por proliferadores de peroxisomas alfa (PPARA). Esta activación reduce los triglicéridos y el colesterol no HDL, aumenta el HDL y desplaza las partículas de LDL hacia formas más grandes y menos aterogénicas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe. Según la información farmacológica conocida, ciprofibrato es un agonista del receptor activado por proliferadores de peroxisomas alfa (PPAR-alfa), que reduce los triglicéridos y modula el metabolismo de las lipoproteínas, incluido el HDL.
 
-La hiperlipoproteinemia es precisamente el escenario clínico para el que se desarrolló este fármaco. La literatura describe eficacia en hipercolesterolemia tipo IIa, hiperlipidemia combinada tipo IIb e hipertrigliceridemia tipo IV. Por ello, la predicción del modelo es coherente con el uso conocido del medicamento.
+La deficiencia de CETP se caracteriza por HDL-colesterol marcadamente elevado y un transporte inverso de colesterol alterado. Existe una conexión mecanística plausible, porque los fibratos influyen en las vías del metabolismo lipoproteico (por ejemplo, la señalización relacionada con apoA-I y SR-BI).
 
-Conviene tener presente que el vínculo mecanístico se apoya en el conocimiento de la clase farmacológica y no en datos de mecanismo incluidos en este informe. Además, la mayoría de los estudios son antiguos (1982-2007) y su diseño no puede confirmarse solo a partir de los títulos.
-
----
+Sin embargo, la lógica terapéutica es poco clara: un fibrato no corregiría un defecto genético de CETP, y esta condición se presenta principalmente con HDL alto, no con necesidad de reducir lípidos. El puntaje de 0.9991 es solo una predicción computacional y no demuestra beneficio clínico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se muestran las 10 publicaciones más relevantes, priorizando estudios comparativos y controlados, luego revisiones y por último estudios de biomarcadores.
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6753860](https://pubmed.ncbi.nlm.nih.gov/6753860/) | 1982 | Ensayo doble ciego aleatorizado | Atherosclerosis | Ciprofibrato (50 o 100 mg/día) frente a placebo durante 12 semanas en hipercolesterolemia tipo II (20 pacientes); bien tolerado y con descenso de los lípidos. |
-| [9015467](https://pubmed.ncbi.nlm.nih.gov/9015467/) | 1996 | Ensayo comparativo abierto | Postgrad Med J | Ciprofibrato 100 mg frente a bezafibrato de liberación sostenida 400 mg en 174 pacientes con hiperlipidemia tipo II, durante 8 semanas. |
-| [3994783](https://pubmed.ncbi.nlm.nih.gov/3994783/) | 1985 | Estudio doble ciego comparativo | Atherosclerosis | Ciprofibrato 100 mg frente a fenofibrato 300 mg; ambos redujeron colesterol total, LDL, VLDL y apoB, y elevaron HDL. |
-| [2289217](https://pubmed.ncbi.nlm.nih.gov/2289217/) | 1990 | Estudio multicéntrico | Clin Ther | Estudio italiano en 127 pacientes con hiperlipidemia primaria tipo II y IV; mejoró el perfil lipídico durante 12 semanas. |
-| [8831920](https://pubmed.ncbi.nlm.nih.gov/8831920/) | 1996 | Estudio de eficacia y seguridad | Atherosclerosis | Eficaz en hipercolesterolemia IIa, hiperlipidemia combinada IIb e hipertrigliceridemia IV. |
-| [17414592](https://pubmed.ncbi.nlm.nih.gov/17414592/) | 2007 | Estudio clínico | Am J Ther | Reducción del colesterol no HDL y de triglicéridos, y aumento del HDL en dislipidemia tipo IV. |
-| [12915663](https://pubmed.ncbi.nlm.nih.gov/12915663/) | 2003 | Estudio clínico mecanístico | J Clin Endocrinol Metab | En 10 pacientes con hiperlipidemia tipo IIb, redujo las VLDL y estimuló el eflujo celular de colesterol mediado por HDL. |
-| [3318453](https://pubmed.ncbi.nlm.nih.gov/3318453/) | 1987 | Revisión | Am J Med | Revisión de los efectos de bezafibrato, ciprofibrato y fenofibrato sobre lípidos y lipoproteínas. |
-| [15547649](https://pubmed.ncbi.nlm.nih.gov/15547649/) | 2004 | Estudio clínico (biomarcadores) | Angiology | Moléculas de adhesión solubles en pacientes diabéticos y no diabéticos con hiperlipoproteinemia combinada y su respuesta al tratamiento. |
-| [10645034](https://pubmed.ncbi.nlm.nih.gov/10645034/) | 1999 | Estudio clínico | Bratisl Lek Listy | Efecto de ciprofibrato solo y combinado con ácido acetilsalicílico sobre lípidos, tromboxano y fibrinógeno en aterosclerosis. |
-
----
+| [14570884](https://pubmed.ncbi.nlm.nih.gov/14570884/) | 2003 | Preclínico (modelo animal, transferencia génica) | The Journal of Biological Chemistry | En ratones deficientes en apolipoproteína E, el tratamiento con ciprofibrato agrava la hipercolesterolemia; la sobreexpresión de SR-BI mediante vector adenoviral revierte este efecto. Es evidencia indirecta y no estudia la deficiencia de CETP. |
 
 ## Información de Mercado en Colombia
 
+La lista puede ser parcial: se muestran los 4 registros identificados.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19986691 | Ciprofibrato 100 mg tabletas (Laboratorios La Santé) | Tableta | Ciprofibrato (cancelado) |
-| 20028347 | Ciprofibrato tabletas x 100 mg (Genfar) | Tableta | Ciprofibrato (cancelado) |
-| 20013191 | Fibrolip® 100 mg tabletas (Megalabs Colombia) | Tableta | Ciprofibrato (cancelado) |
-| 20010476 | Giabri® 100 mg tabletas (Merck) | Tableta | Ciprofibrato (cancelado) |
-
----
+| 19986691 | CIPROFIBRATO 100 MG TABLETAS (Laboratorios La Santé S.A.) | Tableta | CIPROFIBRATO |
+| 20028347 | CIPROFIBRATO TABLETAS X 100 MG (Genfar S.A.) | Tableta | CIPROFIBRATO |
+| 20013191 | FIBROLIP® 100 MG TABLETAS (Megalabs Colombia S.A.S) | Tableta | CIPROFIBRATO |
+| 20010476 | GIABRI® 100 MG TABLETAS (Merck S.A.) | Tableta | CIPROFIBRATO |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones y farmacología**: la base farmacológica identifica como diana principal el receptor PPARA (humano), lo cual corresponde a su mecanismo y no a una interacción con otro medicamento.
-- **Señales de la literatura**: los estudios con combinaciones de estatina y fibrato plantean la posibilidad de miopatía. Un estudio de 1984 evaluó los lípidos biliares con ciprofibrato, ya que otros fibratos aumentan el riesgo de cálculos biliares. Un estudio de 2001 analizó la elevación de homocisteína con fibratos.
-- **Carcinogenicidad en roedores**: ciprofibrato es un proliferador de peroxisomas conocido en roedores, con efecto hepatocarcinogénico en estos animales; su relevancia en humanos debe valorarse con cautela.
+**Interacciones Farmacológicas**: La consulta se completó y registró una relación farmacológica, no una interacción medicamentosa clínica: ciprofibrato actúa sobre su diana, el receptor PPAR-alfa (gen PPARA). No se registraron niveles de gravedad.
 
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La hiperlipoproteinemia es esencialmente la indicación nativa del fármaco y existe una base amplia de literatura clínica con comparaciones frente a bezafibrato, fenofibrato y gemfibrozilo. Sin embargo, no hay ningún ensayo de Fase 3 confirmado ni ensayos registrados, por lo que el nivel es L2, y todos los registros sanitarios en Colombia están cancelados, lo que limita la disponibilidad práctica.
+No hay ensayos clínicos ni estudios que evalúen directamente la deficiencia de CETP; la única publicación es un estudio preclínico indirecto en otro modelo. Además, el racional terapéutico es débil, porque esta condición cursa con HDL elevado. Por ello el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el filtro de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar el diseño de los estudios antiguos y buscar ensayos aleatorizados de Fase 3 o metaanálisis recientes.
-- Aclarar la situación regulatoria (motivo de las cancelaciones y posibilidad de un nuevo registro o importación).
-- Definir un plan de monitoreo de seguridad, en especial para el uso combinado con estatinas (miopatía) y para la función hepática y biliar.
+- Datos del mecanismo de acción (MOA) y un análisis mecanístico que justifique el beneficio en la deficiencia de CETP
+- Advertencias y contraindicaciones del prospecto del INVIMA para completar el análisis de seguridad
+- Estudios preclínicos o clínicos que evalúen directamente ciprofibrato en esta enfermedad
+- Definir primero si existe una necesidad clínica real, dado que la condición se caracteriza por HDL alto
 
-**Otras predicciones del modelo (resumen):** hiperlipidemia (L2, Proceed with Guardrails); hipercolesterolemia familiar e hiperlipidemia familiar (L3, pregunta de investigación). Las demás (deficiencia de CETP, deficiencia de colesterol 7alfa-hidroxilasa, deficiencia de lipasa hepática, hipercolesterolemia familiar homocigota, fibroma de próstata y susceptibilidad a cáncer de próstata/cerebro) tienen evidencia L4-L5 y se recomienda mantenerlas en espera (Hold). En el caso de la deficiencia de CETP, el único estudio es preclínico y sugiere una posible señal de seguridad más que un beneficio.
+*Nota: la segunda predicción, fibroma de próstata (puntaje 0.9971), no tiene ensayos, literatura ni vínculo mecanístico identificado (nivel L5, Hold), por lo que no se desarrolla en este informe.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

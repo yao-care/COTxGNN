@@ -50,9 +50,9 @@ Se trata de una predicción puramente computacional (nivel L5).
 |------|------|
 | Indicación Original | No especificada en el registro (el texto de indicación solo indica "PRUCALOPRIDA") |
 | Nueva Indicación Predicha | Hipoalfalipoproteinemia |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Se trata de una predicción puramente computacional (nivel L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, prucaloprida es un agonista selectivo del receptor 5-HT4 que estimula la motilidad del tracto gastrointestinal, y se utiliza en trastornos de la motilidad como el estreñimiento crónico.
 
-Sin embargo, la evaluación no identifica un vínculo mecanístico plausible con la hipoalfalipoproteinemia: no existe una conexión conocida entre la agonía 5-HT4 en el sistema nervioso entérico y el metabolismo de las HDL. El puntaje alto (0.998) proviene únicamente de la estructura del grafo de conocimiento y no está respaldado por ensayos ni literatura.
+Sin embargo, la evaluación no identifica un vínculo mecanístico plausible con la hipoalfalipoproteinemia: no existe una conexión conocida entre la agonía 5-HT4 en el sistema nervioso entérico y el metabolismo de las HDL. El puntaje alto (0.9982) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por ensayos ni literatura.
 
 Por lo tanto, esta predicción debe considerarse con mucha cautela; no hay base mecanística ni clínica que la sustente en este momento.
 

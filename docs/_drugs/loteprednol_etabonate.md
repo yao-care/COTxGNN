@@ -4,17 +4,17 @@ title: Loteprednol Etabonate
 parent: Solo Predicción del Modelo (L5)
 nav_order: 413
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Loteprednol Etabonate: nueva indicación predicha, Foliculosis conjuntival (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
 monitor_inn: "Loteprednol etabonate"
-predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "rosacea conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
+description: "Loteprednol Etabonate: nueva indicación predicha, Conjunctival folliculosis (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
 ---
 
 # Loteprednol Etabonate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Loteprednol etabonato: De Corticoide Oftálmico Tópico a Foliculosis Conjuntival
+## Loteprednol Etabonate: Conjunctival folliculosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **foliculosis conjuntival*
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LOTEPREDNOL (texto de registro sin indicación clínica detallada) |
-| Nueva Indicación Predicha | Foliculosis conjuntival |
-| Puntaje de Predicción TxGNN | 99.69% |
+| Indicación Original | LOTEPREDNOL; ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS |
+| Nueva Indicación Predicha | Conjunctival folliculosis |
+| Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La foliculosis conjuntival suele ser una respuesta folicular benigna o levemente inflamatoria. Un corticoide tópico podría reducir esa inflamación, pero el fundamento es plausible y débil: la predicción proviene únicamente del puntaje de TxGNN, sin ensayos ni literatura que la sustenten.
 
-Otras indicaciones predichas con puntajes similares (conjuntivitis folicular crónica, conjuntivitis serosa no viral, conjuntivitis rosácea) comparten esta lógica antiinflamatoria. En las de origen infeccioso (parasitaria, contagiosa aguda, hemorrágica aguda) un corticoide solo abordaría la inflamación y podría empeorar la infección sin tratamiento específico.
+En las de origen infeccioso (parasitaria, contagiosa aguda, hemorrágica aguda) un corticoide solo abordaría la inflamación y podría empeorar la infección sin tratamiento específico.
 
 ---
 
@@ -87,7 +87,6 @@ Como dato indirecto, para otra indicación predicha (conjuntivitis pseudomembran
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

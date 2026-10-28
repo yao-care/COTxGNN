@@ -8,6 +8,7 @@ nav_order: 50
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amisulprida
@@ -49,8 +50,8 @@ Amisulprida es un fármaco con aprobaciones reconocidas en otros mercados, sin e
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo predicción del modelo, sin estudios reales |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

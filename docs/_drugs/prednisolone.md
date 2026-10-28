@@ -4,7 +4,7 @@ title: Prednisolone
 parent: Evidencia Alta (L1-L2)
 nav_order: 530
 evidence_level: L2
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Prednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Prednisolona"
 monitor_inn: "Prednisolone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Prednisolone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 |------|------|
 | Indicación Original | Prednisolona (según el registro INVIMA; no se detalla una indicación específica) |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -117,7 +117,7 @@ Existe un ECA controlado con placebo, varias revisiones sistemáticas y revision
 - Obtener el prospecto del INVIMA con advertencias y contraindicaciones (brecha de seguridad bloqueante).
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Definir un régimen de dosificación y un plan de monitoreo de seguridad (presión arterial, glucemia, supresión del eje suprarrenal), con atención a poblaciones pediátricas.
-- Aclarar la situación regulatoria, dado que todos los registros están cancelados, y evaluar la vía de acceso en Colombia.
+- Aclarar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias vigentes, y evaluar la vía de acceso en Colombia.
 - Evaluar la comparación con alternativas como los inhibidores de JAK, según acceso y elegibilidad.
 
 ---

@@ -8,6 +8,7 @@ nav_order: 391
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Letrozol
@@ -49,7 +50,7 @@ Letrozol es un fármaco identificado en el pipeline TxGNN con registros en DrugB
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 (predicción de modelo pendiente, sin estudios evaluados) |
-| Estado de Mercado en Colombia | No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | Hold |
 

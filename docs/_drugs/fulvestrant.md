@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH** (en
 |------|------|
 | Indicación Original | FLUVESTRANT (texto del registro INVIMA, sin una indicación clínica descrita) |
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El vínculo con el VIH es indirecto. El ERα se expresa en los linfocitos T CD4+ y se ha planteado que podría influir en la transcripción y la latencia del VIH. Un estudio de 2026 evaluó cómo interactúan los ligandos del ERα (incluido fulvestrant) y los agentes reversores de latencia en estas células. Esto sugiere que fulvestrant podría modular la reversión de la latencia viral, pero se trata de evidencia preclínica in vitro, sin datos en humanos.
 
-La otra publicación identificada trata sobre la mielopatía asociada a HTLV-1, un retrovirus distinto del VIH, por lo que no constituye evidencia directa. La relación entre la indicación original (oncología hormonal) y la nueva (infección viral) es por tanto débil y se apoya sobre todo en similitudes del grafo de conocimiento.
+La otra publicación identificada trata sobre la mielopatía asociada a HTLV-1, un retrovirus distinto del VIH, por lo que no constituye evidencia directa. La relación entre la indicación original (oncología hormonal) y la nueva (infección viral) es por tanto débil: la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

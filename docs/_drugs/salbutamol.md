@@ -4,7 +4,7 @@ title: Salbutamol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 579
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: SALBUTAMOL"
 monitor_inn: "Salbutamol"
@@ -14,7 +14,7 @@ predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pha
 # Salbutamol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 |------|------|
 | Indicación Original | SALBUTAMOL (el registro sanitario no detalla una indicación más específica; clínicamente se usa en asma y EPOC) |
 | Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99.996% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

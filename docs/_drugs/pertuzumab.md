@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pertuzumab
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 510
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pertuzumab: nueva indicación predicha, Cáncer de mama con receptor de progesterona positivo (nivel de evidencia L1). Indicación original: Pertuzumab y trastuzumab (Phesgo®)"
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
+description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
 ---
 
 # Pertuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Pertuzumab: De Cáncer de Mama HER2-Positivo a Cáncer de Mama con Receptor de Progesterona Positivo
+## Pertuzumab: Ectomesenchymoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Pertuzumab es un anticuerpo monoclonal dirigido contra HER2, utilizado originalmente (solo y combinado con trastuzumab) para el tratamiento del cáncer de mama HER2-positivo.
-El modelo TxGNN predice que podría ser efectivo para el **cáncer de mama con receptor de progesterona positivo**,
+El modelo TxGNN predice que podría ser efectivo para el **ectomesenquimoma**,
 con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta dirección. Cabe aclarar que se trata más de una coincidencia de subtipo dentro de una indicación ya establecida que de un reposicionamiento propiamente dicho.
 
 ---
@@ -48,11 +48,11 @@ con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pertuzumab y trastuzumab (Phesgo®); pertuzumab (Perjeta®) |
-| Nueva Indicación Predicha | Cáncer de mama con receptor de progesterona positivo |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Indicación Original | PERTUZUMAB Y TRASTUZUMAB; PERTUZUMAB |
+| Nueva Indicación Predicha | Ectomesenchymoma |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -134,7 +134,7 @@ Existe un ensayo de Fase 3 completado y varios ECA publicados (NeoSphere, WSG-TP
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente sin datos.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: ningún registro vigente, por lo que habría que gestionar un nuevo registro o reactivación antes de cualquier uso en Colombia.
+- Aclarar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 3 registros vigentes; habría que confirmar su situación regulatoria antes de cualquier uso.
 - Confirmar la positividad de HER2 y establecer un plan de monitoreo de FEVI.
 - Evaluar la coadministración de terapia endocrina en enfermedad HR+.
 ## Descargo de responsabilidad

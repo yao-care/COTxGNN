@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Lamotrigine
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 376
-evidence_level: L5
-indication_count: 9
+evidence_level: L2
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Lamotrigine: nueva indicación predicha, Neuralgia del trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA"
+description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 # Lamotrigine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Lamotrigina: De Indicación Registrada (sin detalle) a Neuralgia del Trigémino
+## Lamotrigina: De Indicación Registrada (sin detalle) a Neoplasia del nervio trigémino
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,13 +50,13 @@ La predicción con mayor puntaje, "neoplasia del nervio trigémino", no tiene re
 |------|------|
 | Indicación Original | LAMOTRIGINA (el registro no detalla la indicación; clínicamente se usa en epilepsia y trastorno bipolar) |
 | Nueva Indicación Predicha | Neuralgia del trigémino (la predicción de rango 1, neoplasia del nervio trigémino, se descarta; ver nota) |
-| Puntaje de Predicción TxGNN | 99.89% (neuralgia del trigémino); 99.97% (neoplasia del nervio trigémino) |
+| Puntaje de Predicción TxGNN | 0.9989 (neuralgia del trigémino); 0.9997 (neoplasia del nervio trigémino) |
 | Nivel de Evidencia | L2 (neuralgia del trigémino) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre la predicción de rango 1:** la "neoplasia del nervio trigémino" obtuvo el puntaje más alto (99.97%), pero parece deberse a la cercanía en la red con la neuralgia del trigémino. No hay ensayos clínicos, y las dos publicaciones recuperadas tratan sobre neuralgia, no sobre tratamiento tumoral. Su nivel de evidencia es L5 y su recomendación es Hold. Por eso este informe se centra en la neuralgia del trigémino, que cuenta con evidencia real.
+**Nota sobre la predicción de rango 1:** la "neoplasia del nervio trigémino" obtuvo el puntaje más alto (0.9997), pero parece deberse a la cercanía en la red con la neuralgia del trigémino. No hay ensayos clínicos, y las dos publicaciones recuperadas tratan sobre neuralgia, no sobre tratamiento tumoral. Su nivel de evidencia es L5 y su recomendación es Hold. Por eso este informe se centra en la neuralgia del trigémino, que cuenta con evidencia real.
 
 ---
 
@@ -123,7 +123,7 @@ Para neuralgia del trigémino existe un ensayo completado de Fase 2/3 frente a c
 - Completar los datos de mecanismo de acción desde DrugBank.
 - Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está cancelado.
 - Obtener evidencia controlada de mayor tamaño (ensayos con más pacientes) en neuralgia del trigémino.
-- Plan de monitoreo hematológico y hepático, dadas las condiciones asociadas en el grafo de conocimiento.
+- Plan de monitoreo hematológico y hepático, dadas las condiciones asociadas según el modelo TxGNN (aprendizaje profundo), cuya puntuación puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica.
 - Descartar "neoplasia del nervio trigémino" y los síndromes de epilepsia refleja (nivel L3-L5; startle epilepsy, L3, tiene solo series de casos) como líneas prioritarias hasta contar con evidencia directa.
 ## Descargo de responsabilidad
 

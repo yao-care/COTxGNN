@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rimegepant
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 563
-evidence_level: L3
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Rimegepant: nueva indicación predicha, Migraña con aura del tronco encefálico (nivel de evidencia L3). Indicación original: RIMEGEPANT"
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Rimegepant: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: RIMEGEPANT"
 ---
 
 # Rimegepant
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,12 +33,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **6**
 
 </div>
 
-## Rimegepant: De Rimegepant (indicación sin detallar) a Migraña con Aura del Tronco Encefálico
+## Rimegepant: Atrophoderma vermiculata
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Rimegepant (NURTEC® ODT) es un antagonista del receptor del péptido relacionado con el gen de la calcitonina (CGRP), registrado en Colombia bajo la denominación genérica "RIMEGEPANT", sin que el texto de indicación aprobada detalle el uso clínico. El modelo TxGNN predice que podría ser efectivo para **migraña con aura del tronco encefálico**, pero no hay ensayos clínicos registrados para esta indicación y las **16 publicaciones** disponibles tratan la migraña en general, no este subtipo específico.
+Rimegepant (NURTEC® ODT) es un antagonista del receptor del péptido relacionado con el gen de la calcitonina (CGRP), registrado en Colombia bajo la denominación genérica "RIMEGEPANT", sin que el texto de indicación aprobada detalle el uso clínico.
 
 ---
 
@@ -46,12 +46,12 @@ Rimegepant (NURTEC® ODT) es un antagonista del receptor del péptido relacionad
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | RIMEGEPANT (el registro sanitario no detalla la indicación) |
-| Nueva Indicación Predicha | Migraña con aura del tronco encefálico |
-| Puntaje de Predicción TxGNN | 99.94% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Indicación Original | RIMEGEPANT |
+| Nueva Indicación Predicha | Atrophoderma vermiculata |
+| Puntaje de Predicción TxGNN | 0.9976 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -123,7 +123,7 @@ Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña genera
 
 ---
 
-*Nota: las demás predicciones del modelo (atrodermia vermiculada, uleritema ofriógeno, deficiencia de cofactor II de heparina, deficiencia de antitrombina tipo 2 y exceso de factor 5 con trombosis espontánea) tienen puntajes altos (>99.5%) pero carecen de ensayos, literatura y fundamento mecanístico, por lo que se recomienda mantenerlas en **Hold**.*
+*Nota: las demás predicciones del modelo (atrodermia vermiculada, uleritema ofriógeno, deficiencia de cofactor II de heparina, deficiencia de antitrombina tipo 2 y exceso de factor 5 con trombosis espontánea) tienen puntajes altos (≥ 0.99) pero carecen de ensayos, literatura y fundamento mecanístico, por lo que se recomienda mantenerlas en **Hold**.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

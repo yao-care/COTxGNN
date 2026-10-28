@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Vitamina A: De Suplemento de Retinol a Enfermedad Perinatal
+## Vitamina A: De Suplemento de Retinol a Deficiencia congénita de protrombina
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad congénita po
 |------|------|
 | Indicación Original | Retinol (vitamina A) |
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina (rank 1 del modelo) |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 (para la indicación principal); la candidata con más soporte, enfermedad perinatal, alcanza L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -93,7 +93,7 @@ Para la indicación principal no hay literatura disponible. Las publicaciones m�
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19960905 | VITAMINA A CAPSULAS (C.I. Farmacápsulas S.A.S.) | Cápsula dura | Retinol (vitamina A) — estado: cancelado |
+| 19960905 | VITAMINA A CAPSULAS (C.I. Farmacápsulas S.A.S.) | Cápsula dura | Retinol (vitamina A) — estado: vigente |
 
 ## Consideraciones de Seguridad
 

@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **anomalía de la secreci�
 |------|------|
 | Indicación Original | Caspofungina (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Anomalía de la secreción de gastrina |
-| Puntaje de Predicción TxGNN | 99.44% |
+| Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La secreción de gastrina depende de las células G, del pH gástrico y de señales vagales y peptídicas. Ninguno de estos elementos es una diana conocida de caspofungina. Por lo tanto, no se identifica un vínculo mecanístico establecido entre la indicación original y la nueva indicación.
 
-El puntaje alto de TxGNN (0.994) proviene solo de una predicción del grafo de conocimiento, sin una justificación a nivel de vías biológicas. Cualquier relación sería especulativa (por ejemplo, un efecto indirecto por colonización fúngica gastrointestinal o un efecto fuera de diana), y los datos disponibles no la respaldan.
+El puntaje alto de TxGNN (0.9944) proviene solo de una predicción del modelo TxGNN (aprendizaje profundo), sin una justificación a nivel de vías biológicas. Cualquier relación sería especulativa (por ejemplo, un efecto indirecto por colonización fúngica gastrointestinal o un efecto fuera de diana), y los datos disponibles no la respaldan.
 
 ## Información de Mercado en Colombia
 

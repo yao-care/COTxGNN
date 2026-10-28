@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Atosiban (el registro sanitario no detalla una indicación clínica; el uso conocido es tocolítico en amenaza de parto prematuro) |
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, atosiban es un péptido que se une a los receptores de oxitocina (OXTR) y a los receptores de vasopresina V1A, V1B y V2. Se aprueba como tocolítico en la Unión Europea y otros países para retrasar el parto en mujeres embarazadas de 24 a 33 semanas con signos de parto prematuro.
 
-No se ha establecido un vínculo mecanístico entre el antagonismo de los receptores de oxitocina/vasopresina y la dinámica del humor acuoso o la función de la malla trabecular. Cualquier papel en la regulación de la presión intraocular es hipotético. El puntaje alto del modelo refleja asociaciones en el grafo de conocimiento, no evidencia experimental o clínica.
+No se ha establecido un vínculo mecanístico entre el antagonismo de los receptores de oxitocina/vasopresina y la dinámica del humor acuoso o la función de la malla trabecular. Cualquier papel en la regulación de la presión intraocular es hipotético. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, experimental o clínica.
 
 La relación entre la indicación original (uso obstétrico) y el glaucoma es, por tanto, débil y especulativa. Esta predicción debe considerarse solo una hipótesis para generar preguntas de investigación.
 
@@ -72,15 +72,15 @@ Las siguientes predicciones también carecen de ensayos y literatura, salvo la i
 
 | Posición | Enfermedad | Puntaje TxGNN | Nivel de Evidencia |
 |------|------|------|------|
-| 2 | Glaucoma de ángulo abierto | 99.92% | L5 |
-| 3 | Milia con hipotricosis congénita | 99.89% | L5 |
-| 4 | Alopecia | 99.89% | L5 |
-| 5 | Hipotricosis simple del cuero cabelludo | 99.89% | L5 |
-| 6 | Enfermedad vascular | 99.87% | L4 |
-| 7 | Alopecia areata difusa | 99.86% | L5 |
-| 8 | Síndrome del desfiladero torácico arterial | 99.86% | L5 |
-| 9 | Síndrome del desfiladero torácico venoso | 99.86% | L5 |
-| 10 | Calcifilaxis visceral | 99.84% | L5 |
+| 2 | Glaucoma de ángulo abierto | 0.9992 | L5 |
+| 3 | Milia con hipotricosis congénita | 0.9989 | L5 |
+| 4 | Alopecia | 0.9989 | L5 |
+| 5 | Hipotricosis simple del cuero cabelludo | 0.9989 | L5 |
+| 6 | Enfermedad vascular | 0.9987 | L5 |
+| 7 | Alopecia areata difusa | 0.9986 | L5 |
+| 8 | Síndrome del desfiladero torácico arterial | 0.9986 | L5 |
+| 9 | Síndrome del desfiladero torácico venoso | 0.9986 | L5 |
+| 10 | Calcifilaxis visceral | 0.9984 | L5 |
 
 La única predicción con literatura asociada es **enfermedad vascular** (15 publicaciones, casi todas preclínicas sobre oxitocina en cardioprotección en corazón de rata). Esa evidencia es indirecta y la dirección del efecto de un antagonista podría ser desfavorable, dado que la oxitocina parece protectora en esos modelos.
 
@@ -102,8 +102,8 @@ Actualmente no hay literatura relacionada disponible para glaucoma hereditario p
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20131614 | EVERPREM® solución para infusión 6.75 mg/0.9 mL | Solución para infusión | Atosiban | Cancelado |
-| 20131612 | EVERPREM® concentrado para solución para infusión 37.5 mg/5 mL | Solución concentrada para infusión | Atosiban | Cancelado |
+| 20131614 | EVERPREM® solución para infusión 6.75 mg/0.9 mL | Solución para infusión | Atosiban | Vigente |
+| 20131612 | EVERPREM® concentrado para solución para infusión 37.5 mg/5 mL | Solución concentrada para infusión | Atosiban | Vigente |
 
 Ambos registros pertenecen a Ever Valinject GmbH y están cancelados; actualmente no hay registros vigentes.
 

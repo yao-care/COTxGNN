@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Oxymetazoline
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 491
-evidence_level: L3
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Oximetazolina"
 monitor_inn: "oxymetazoline"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "headache disorder"]
+predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---
 
 # Oxymetazoline
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Esta indicación se solapa con el uso descongestionante ya establecido, por lo q
 |------|------|
 | Indicación Original | Oximetazolina (el registro sanitario no detalla una indicación más específica) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -131,8 +131,7 @@ La predicción es mecanísticamente coherente, pero coincide con el uso desconge
 
 ### Otras indicaciones predichas (referencia)
 
-- **Laringofaringitis aguda** (TxGNN 99.95%, L5, Hold): sin ensayos ni literatura, y sin justificación clara para un beneficio directo con un fármaco de acción tópica nasal.
-- **Trastorno de cefalea** (TxGNN 99.04%, L4, pregunta de investigación): la evidencia principal es un estudio de tetracaína intranasal 3% más oximetazolina 0.05% en estado migrañoso (PMID 31919839), donde no se puede separar el aporte de la oximetazolina; el resto de la literatura es indirecta.
+- **Trastorno de cefalea** (TxGNN 0.9904, L4, pregunta de investigación): la evidencia principal es un estudio de tetracaína intranasal 3% más oximetazolina 0.05% en estado migrañoso (PMID 31919839), donde no se puede separar el aporte de la oximetazolina; el resto de la literatura es indirecta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

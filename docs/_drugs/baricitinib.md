@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 ## Resumen en Una Frase
 
 Baricitinib es un fármaco de administración oral registrado en Colombia (INVIMA) bajo el nombre comercial OLUMIANT, cuyo texto de indicación aprobada solo menciona el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa con displasia rizomélica**, con una puntuación muy alta (99,94 %).
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmía colobomatosa con displasia rizomélica**, con una puntuación muy alta (0,9994).
 Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción, por lo que se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
@@ -48,9 +48,9 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 |------|------|
 | Indicación Original | BARICITINIB (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa con displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99,94 % |
+| Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -58,17 +58,17 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, baricitinib es un inhibidor de las quinasas JAK1 y JAK2, que modulan la señalización inflamatoria JAK-STAT.
 
-No se identificó un vínculo biológico plausible entre esa inhibición y este síndrome raro del desarrollo. Este tipo de síndromes suele originarse en defectos genéticos del desarrollo o estructurales, y no en inflamación mediada por JAK-STAT. Por ello, la predicción probablemente sea un artefacto de la topología del grafo de conocimiento.
+No se identificó un vínculo biológico plausible entre esa inhibición y este síndrome raro del desarrollo. Este tipo de síndromes suele originarse en defectos genéticos del desarrollo o estructurales, y no en inflamación mediada por JAK-STAT. Por ello, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 La única base de apoyo es la puntuación elevada del modelo. Sin ensayos, literatura ni datos de mecanismo, la razonabilidad de la predicción no puede confirmarse.
 
-*Nota: otra predicción del modelo (rango 2) es el síndrome de braquidactilia-sindactilia (puntuación 99,94 %). Tampoco tiene ensayos ni literatura, y no se identificó un vínculo mecanístico entre la inhibición de JAK1/JAK2 y esta malformación congénita de las extremidades. También se clasifica como L5 y Hold.*
+*Nota: otra predicción del modelo (rango 2) es el síndrome de braquidactilia-sindactilia (puntuación 0,9994). Tampoco tiene ensayos ni literatura, y no se identificó un vínculo mecanístico entre la inhibición de JAK1/JAK2 y esta malformación congénita de las extremidades. También se clasifica como L5 y Hold.*
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20157001 | OLUMIANT 2 MG (ELI LILLY AND COMPANY) | Tableta recubierta | BARICITINIB (estado: cancelado) |
+| 20157001 | OLUMIANT 2 MG (ELI LILLY AND COMPANY) | Tableta recubierta | BARICITINIB (estado: vigente) |
 
 ## Consideraciones de Seguridad
 

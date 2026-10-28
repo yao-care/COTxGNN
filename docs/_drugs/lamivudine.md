@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 |------|------|
 | Indicación Original | Lamivudina (solo y en combinaciones con abacavir, tenofovir/doravirina y abacavir/dolutegravir) |
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios (SIV) |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Hold |
 

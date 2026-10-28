@@ -8,6 +8,7 @@ nav_order: 83
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azatioprina
@@ -51,8 +52,8 @@ Se requiere completar los datos faltantes antes de continuar con el proceso de e
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | No aplica |
 | Nivel de Evidencia | L5 — Sin estudios reales, sin predicción activa |
-| Estado de Mercado en Colombia | ✗ No comercializado (0 registros INVIMA) |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dienogest
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 220
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Dienogest y Etinilestradiol"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "brea
 # Dienogest
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ Dienogest es un progestágeno que, según el registro sanitario de INVIMA, figur
 |------|------|
 | Indicación Original | Dienogest y Etinilestradiol |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

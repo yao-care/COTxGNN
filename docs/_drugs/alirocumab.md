@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **ictiosis ligada al X sin
 |------|------|
 | Indicación Original | ALIROCUMAB (el registro no detalla la indicación; según la literatura, hipercolesterolemia y enfermedad cardiovascular aterosclerótica) |
 | Nueva Indicación Predicha | Ictiosis ligada al X sin deficiencia de esteroide sulfatasa |
-| Puntaje de Predicción TxGNN | 99.43% |
+| Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Para la ictiosis ligada al X, **no se identifica un vínculo mecanístico claro**. Esta enfermedad se relaciona con una alteración en la vía del sulfato de colesterol y la esteroide sulfatasa en los lípidos de la barrera cutánea. La inhibición de PCSK9 reduce el LDL-C circulante, pero no tiene un papel establecido en el manejo epidérmico del sulfato de colesterol.
 
-El puntaje alto (99.43%) refleja solo una asociación basada en grafos de conocimiento. No debe interpretarse como evidencia de eficacia.
+El puntaje alto (0.9943) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No debe interpretarse como evidencia de eficacia.
 
 ---
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20117604 | PRALUENT® 75MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Cancelado |
-| 20097020 | PRALUENT® 150MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Cancelado |
+| 20117604 | PRALUENT® 75MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Vigente |
+| 20097020 | PRALUENT® 150MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Vigente |
 
 ---
 

@@ -6,9 +6,9 @@ nav_order: 570
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Romiplostim: nueva indicación predicha, Trastorno de liberación primaria de plaquetas (nivel de evidencia L5). Indicación original: ROMIPLOSTIM"
 monitor_inn: "romiplostim"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
+description: "Romiplostim: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: ROMIPLOSTIM"
 ---
 
 # Romiplostim
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Romiplostim: De Romiplostim (indicación original sin detallar) a Trastorno de Liberación Primaria de Plaquetas
+## Romiplostim: Primary release disorder of platelets
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ROMIPLOSTIM (el registro no detalla la indicación; según la farmacología conocida, PTI crónica) |
-| Nueva Indicación Predicha | Trastorno de liberación primaria de plaquetas |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | ROMIPLOSTIM |
+| Nueva Indicación Predicha | Primary release disorder of platelets |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, el trastorno de liberación primaria de plaquetas es un defecto **cualitativo** de la función plaquetaria, que normalmente cursa con recuento de plaquetas normal. Aumentar el número de plaquetas difícilmente corregiría el defecto. La única publicación recuperada (PMID 25682608) trata de autoanticuerpos antiplaquetarios en PTI, no de este trastorno. El vínculo mecanístico es indirecto y el puntaje tan alto del modelo no está respaldado por evidencia clínica.
 
-Otras predicciones del mismo análisis muestran un patrón similar: la mayoría son defectos funcionales de plaquetas (trombastenia de Glanzmann, seudoenfermedad de von Willebrand, síndrome de Scott, defecto del receptor de colágeno), donde el mecanismo no es claramente aplicable. Las más plausibles mecanísticamente son las trombocitopenias cuantitativas: la trombocitopenia aloinmune fetal y neonatal (puntaje 99.99%, evidencia L4, solo indirecta), la trombocitopenia constitucional hemorrágica y la macrotrombocitopenia autosómica dominante. Estas se clasifican como "Research Question", sin ensayos específicos.
+Otras predicciones del mismo análisis muestran un patrón similar: la mayoría son defectos funcionales de plaquetas (trombastenia de Glanzmann, seudoenfermedad de von Willebrand, síndrome de Scott, defecto del receptor de colágeno), donde el mecanismo no es claramente aplicable. Las más plausibles mecanísticamente son las trombocitopenias cuantitativas: la trombocitopenia aloinmune fetal y neonatal (puntaje 0.9999, evidencia L4, solo indirecta), la trombocitopenia constitucional hemorrágica y la macrotrombocitopenia autosómica dominante. Estas se clasifican como "Research Question", sin ensayos específicos.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|-----|
-| 20027769 | NPLATE® 250 MCG (AMGEN EUROPE B.V.) | Polvo liofilizado para reconstituir a solución inyectable | ROMIPLOSTIM | Cancelado |
+| 20027769 | NPLATE® 250 MCG (AMGEN EUROPE B.V.) | Polvo liofilizado para reconstituir a solución inyectable | ROMIPLOSTIM | Vigente |
 
 ---
 

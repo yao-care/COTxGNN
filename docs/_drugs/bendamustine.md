@@ -48,10 +48,10 @@ con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 |------|------|
 | Indicación Original | BENDAMUSTINE (el registro no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Linfoma de células del manto |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

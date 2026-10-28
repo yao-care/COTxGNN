@@ -4,17 +4,17 @@ title: Lisinopril
 parent: Solo Predicción del Modelo (L5)
 nav_order: 405
 evidence_level: L5
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Lisinopril: nueva indicación predicha, Infarto de miocardio posterolateral (nivel de evidencia L5). Indicación original: LISINOPRIL"
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
+description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: LISINOPRIL"
 ---
 
 # Lisinopril
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Lisinopril: De Indicación No Especificada a Infarto de Miocardio Posterolateral
+## Lisinopril: Pulmonary hypertension owing to lung disease and/or hypoxia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | LISINOPRIL (el registro no detalla una indicación clínica) |
-| Nueva Indicación Predicha | Infarto de miocardio posterolateral |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Indicación Original | LISINOPRIL |
+| Nueva Indicación Predicha | Pulmonary hypertension owing to lung disease and/or hypoxia |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -67,15 +67,13 @@ La relación con la indicación original es solo de clase: el registro colombian
 
 | Indicación Predicha | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Infarto de miocardio posteroinferior | 99.90% | L5 | Hold |
-| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 99.89% | L4 | Pregunta de investigación |
-| Hipertensión pulmonar de mecanismo multifactorial poco claro | 99.89% | L5 | Hold |
-| Enfermedad renal hipertensiva maligna | 99.89% | L5 | Hold |
-| Hipertensión renovascular maligna | 99.89% | L5 | Hold |
-| Infarto de miocardio septal | 99.88% | L4 | Pregunta de investigación |
-| Síndrome de Braddock | 99.86% | L5 | Hold |
-| Enfermedad cardíaca pulmonar crónica (cor pulmonale) | 99.68% | L3 | Pregunta de investigación |
-| Síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas | 99.33% | L5 | Hold |
+| Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia | 0.9989 | L4 | Pregunta de investigación |
+| Hipertensión pulmonar de mecanismo multifactorial poco claro | 0.9989 | L5 | Hold |
+| Enfermedad renal hipertensiva maligna | 0.9989 | L5 | Hold |
+| Hipertensión renovascular maligna | 0.9989 | L5 | Hold |
+| Síndrome de Braddock | 0.9986 | L5 | Hold |
+| Enfermedad cardíaca pulmonar crónica (cor pulmonale) | 0.9968 | L3 | Pregunta de investigación |
+| Síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas | 0.9933 | L5 | Hold |
 
 La candidata con mayor respaldo es el **cor pulmonale crónico**, con dos reportes clínicos específicos de lisinopril (PMID 17047621 y 14524095), aunque probablemente pequeños y sin control.
 
@@ -97,8 +95,8 @@ Actualmente no hay literatura relacionada disponible para infarto de miocardio p
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 37168 | LISIPRIL® TABLETAS | Tableta | LISINOPRIL | Cancelado |
-| 19951978 | LISIPRIL® 5 | Tableta | LISINOPRIL | Cancelado |
+| 37168 | LISIPRIL® TABLETAS | Tableta | LISINOPRIL | Vigente |
+| 19951978 | LISIPRIL® 5 | Tableta | LISINOPRIL | Vigente |
 
 Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S. No hay registros vigentes.
 
@@ -129,7 +127,7 @@ La predicción para infarto de miocardio posterolateral es solo del modelo (nive
 - Aclarar la indicación aprobada real del producto, ya que el registro solo indica el nombre del principio activo.
 - Revisar la evidencia clínica general de los IECA en infarto de miocardio y evaluar si la subclasificación (posterolateral) aporta algo distinto.
 - Considerar priorizar el cor pulmonale crónico, que tiene la mayor evidencia entre las candidatas (L3), verificando el diseño de los estudios disponibles.
-- Verificar la situación de comercialización: sin registros vigentes, un reposicionamiento exigiría un nuevo registro o reactivación.
+- Verificar la situación de comercialización: el medicamento está comercializado y cuenta con 2 licencias vigentes de 2; un reposicionamiento debería evaluarse en el marco de los registros existentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

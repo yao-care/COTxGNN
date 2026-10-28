@@ -6,9 +6,9 @@ nav_order: 628
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Tipiracil: nueva indicación predicha, Adenoma velloso del ciego (nivel de evidencia L5). Indicación original: Trifluridina y tipiracilo"
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "rectosigmoid junction neoplasm", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
+description: "Tipiracil: nueva indicación predicha, Cecum villous adenoma (nivel de evidencia L5). Indicación original: TRIFLURIDINA Y TIPIRACILO"
 ---
 
 # Tipiracil
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Tipiracilo: De Trifluridina y Tipiracilo a Adenoma Velloso del Ciego
+## Tipiracil: Cecum villous adenoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **adenoma velloso del cieg
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Trifluridina y tipiracilo (el registro sanitario no detalla la patología) |
-| Nueva Indicación Predicha | Adenoma velloso del ciego |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | TRIFLURIDINA Y TIPIRACILO |
+| Nueva Indicación Predicha | Cecum villous adenoma |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es lejana: el adenoma velloso del ciego es una lesión premaligna del colon, anatómicamente cercana al cáncer colorrectal. Sin embargo, los adenomas se manejan con resección endoscópica, no con quimioterapia sistémica, por lo que no existe una justificación clínica sólida para usar el fármaco.
 
-El puntaje tan alto del modelo probablemente refleja la proximidad en el grafo de conocimiento con el cáncer colorrectal, más que un vínculo mecanístico real. Debe interpretarse con cautela.
+El puntaje tan alto proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, como el cáncer colorrectal, no evidencia biológica. Debe interpretarse con cautela.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|
 | 20245134 (cancelado) | LONSURF® (trifluridina 20 mg + tipiracilo 8,19 mg) | Tableta cubierta con película | Trifluridina y tipiracilo |
 
-El fabricante es Les Laboratoires Servier. No existe actualmente ningún registro vigente en Colombia.
+El fabricante es Les Laboratoires Servier. Actualmente el medicamento está comercializado en Colombia, con 1 registro vigente de 1.
 
 ---
 

@@ -48,10 +48,10 @@ El carbonato de litio contaba en Colombia con registros sanitarios para su uso c
 |------|------|
 | Indicación Original | Litio (texto registrado en INVIMA, sin mayor detalle) |
 | Nueva Indicación Predicha | Pseudoacondroplasia |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,7 +60,7 @@ El carbonato de litio contaba en Colombia con registros sanitarios para su uso c
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el litio inhibe la enzima GSK-3β y modula la vía de señalización Wnt/β-catenina, que participa en la biología del condrocito y de la placa de crecimiento.
 
-La pseudoacondroplasia es causada por mutaciones en el gen COMP, que provocan estrés del retículo endoplásmico y muerte de los condrocitos. El vínculo con el litio es **puramente especulativo**: no existe evidencia directa que relacione el fármaco con esta enfermedad. El puntaje alto de TxGNN (99.98%) es solo una predicción computacional y no sustituye la evidencia clínica.
+La pseudoacondroplasia es causada por mutaciones en el gen COMP, que provocan estrés del retículo endoplásmico y muerte de los condrocitos. El vínculo con el litio es **puramente especulativo**: no existe evidencia directa que relacione el fármaco con esta enfermedad. El puntaje alto de TxGNN (0.9998) es solo una predicción computacional y no sustituye la evidencia clínica.
 
 Cabe señalar que otras predicciones del modelo (por ejemplo, displasia acromesomélica tipo Hunter-Thompson, braquiolmia o síndromes de displasia esquelética) comparten la misma debilidad: ninguna cuenta con ensayos clínicos, y para varias de ellas el riesgo teratogénico conocido del litio obliga a la cautela.
 
@@ -82,8 +82,8 @@ Actualmente no hay literatura relacionada disponible para pseudoacondroplasia.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20018308 | ACTILITIO® TABLETAS 300 MG | Tableta | LITIO | Cancelado |
-| 20005911 | THERALITE® 300 MG | Tableta | LITIO | Cancelado |
+| 20018308 | ACTILITIO® TABLETAS 300 MG | Tableta | LITIO | Vigente |
+| 20005911 | THERALITE® 300 MG | Tableta | LITIO | Vigente |
 
 ---
 

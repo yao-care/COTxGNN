@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vilanterol
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 658
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Vilanterol: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Vilanterol y bromuro de umeclidinio"
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
+description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
 ---
 
 # Vilanterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Vilanterol: De Combinación Vilanterol/Bromuro de Umeclidinio a Enfermedad Pulmonar Obstructiva
+## Vilanterol: Hyperlucent lung
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Vilanterol es un agonista beta2 de acción prolongada (LABA), registrado en Colombia como parte de la combinación con bromuro de umeclidinio (ANORO® ELLIPTA®).
-El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obstructiva**, con **28 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Cabe señalar que esta predicción coincide en la práctica con el uso ya establecido del fármaco, por lo que no constituye un reposicionamiento en sentido estricto.
 
 ---
 
@@ -47,12 +46,12 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vilanterol y bromuro de umeclidinio |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Indicación Original | VILANTEROL Y BROMURO UMECLIDINUM |
+| Nueva Indicación Predicha | Hyperlucent lung |
+| Puntaje de Predicción TxGNN | 0.9972 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -61,7 +60,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, vilanterol es un agonista beta2-adrenérgico de acción prolongada que relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida, con actividad de aproximadamente 24 horas que permite una sola dosis diaria.
 
-La indicación original (combinación con umeclidinio, un antagonista muscarínico de acción prolongada) ya corresponde al tratamiento de mantenimiento de la EPOC. La enfermedad pulmonar obstructiva incluye la EPOC y el asma, por lo que la predicción del modelo es esencialmente una confirmación del uso aprobado en otros países, no una indicación nueva. Vilanterol también se ha estudiado combinado con furoato de fluticasona (FF/VI) y en terapia triple (FF/UMEC/VI).
+La indicación original (combinación con umeclidinio, un antagonista muscarínico de acción prolongada) ya corresponde al tratamiento de mantenimiento de la EPOC. Vilanterol también se ha estudiado combinado con furoato de fluticasona (FF/VI) y en terapia triple (FF/UMEC/VI).
 
 Esto explica la solidez de la evidencia, pero también implica que el valor del análisis como reposicionamiento es limitado. El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica.
 

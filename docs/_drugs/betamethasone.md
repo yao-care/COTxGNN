@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Betamethasone
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 104
-evidence_level: L5
-indication_count: 10
+evidence_level: L1
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Betamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Betametasona y antibióticos"
 monitor_inn: "Betamethasone"
@@ -14,7 +14,7 @@ predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvi
 # Betamethasone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Betametasona y antibióticos |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 (con reservas; ver nota abajo) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -104,10 +104,10 @@ La relación con la indicación original es la inflamación cutánea tratable co
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20114683 | Betametasona + Clotrimazol 1% + Neomicina 0.5% | Crema tópica | Betametasona y antibióticos | Cancelado |
-| 20137501 | DKG Crema® | Crema tópica | Betametasona y antibióticos | Cancelado |
-| 20256128 | Derprosol Trex® Crema | Crema tópica | Betametasona y antibióticos | Cancelado |
-| 20176216 | Ephitree® | Crema tópica | Betametasona y antibióticos | Cancelado |
+| 20114683 | Betametasona + Clotrimazol 1% + Neomicina 0.5% | Crema tópica | Betametasona y antibióticos | Vigente |
+| 20137501 | DKG Crema® | Crema tópica | Betametasona y antibióticos | Vigente |
+| 20256128 | Derprosol Trex® Crema | Crema tópica | Betametasona y antibióticos | Vigente |
+| 20176216 | Ephitree® | Crema tópica | Betametasona y antibióticos | Vigente |
 
 ---
 

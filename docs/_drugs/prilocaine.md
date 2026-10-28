@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **conjuntivitis papilar**,
 |------|------|
 | Indicación Original | Lidocaína combinaciones (anestesia local) |
 | Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -83,9 +83,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 218965 | ANESTECIN® CREMA | Crema tópica | Lidocaína combinaciones | Cancelado |
-| 20227791 | PRILOTEKAL® | Solución inyectable | Prilocaína | Cancelado |
-| 20023782 | PRESTIGE® PRILOCAÍNA CLORHIDRATO AL 4% | Solución inyectable | Prilocaína | Cancelado |
+| 218965 | ANESTECIN® CREMA | Crema tópica | Lidocaína combinaciones | Vigente |
+| 20227791 | PRILOTEKAL® | Solución inyectable | Prilocaína | Vigente |
+| 20023782 | PRESTIGE® PRILOCAÍNA CLORHIDRATO AL 4% | Solución inyectable | Prilocaína | Vigente |
 
 ---
 
@@ -107,14 +107,14 @@ El texto de advertencias y contraindicaciones del prospecto de INVIMA no está d
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para conjuntivitis papilar se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. No hay un mecanismo plausible que la sustente y el uso ocular de anestésicos locales implica riesgo de toxicidad corneal. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción para conjuntivitis papilar (0.9978) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No hay un mecanismo plausible que la sustente y el uso ocular de anestésicos locales implica riesgo de toxicidad corneal. El medicamento está comercializado y cuenta con 3 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y un análisis mecanístico que justifique un posible efecto en la inflamación alérgica ocular.
 - Estudios preclínicos que evalúen eficacia y tolerabilidad ocular (incluida la seguridad corneal).
 - Obtener y analizar el prospecto de INVIMA para completar el tamizaje de seguridad.
 - Evaluar la viabilidad regulatoria, dado que no hay registros vigentes ni una vía de administración ocular compatible.
-- Considerar priorizar otras indicaciones predichas con más respaldo. Por ejemplo, para **neuralgia** (puntaje 99.34%) existen un ensayo de Fase 2 completado con la crema de lidocaína/prilocaína y varias publicaciones clínicas (nivel L2, "Proceed with Guardrails"). Su evidencia se limita a estudios pequeños y antiguos, mayormente con la combinación con lidocaína, y exigiría vigilancia de metahemoglobinemia.
+- Considerar priorizar otras indicaciones predichas con más respaldo. Por ejemplo, para **neuralgia** (puntaje 0.9934) existen un ensayo de Fase 2 completado con la crema de lidocaína/prilocaína y varias publicaciones clínicas (nivel L2, "Proceed with Guardrails"). Su evidencia se limita a estudios pequeños y antiguos, mayormente con la combinación con lidocaína, y exigiría vigilancia de metahemoglobinemia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

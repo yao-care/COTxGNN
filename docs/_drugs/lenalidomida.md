@@ -8,6 +8,7 @@ nav_order: 387
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Lenalidomida
@@ -51,7 +52,7 @@ Los datos de seguridad, mecanismo de accion y registros sanitarios en Colombia p
 | Nueva Indicacion Predicha | Sin datos (predicted_indications vacio) |
 | Puntaje de Prediccion TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin prediccion ni estudios reales en este pack |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Numero de Registros Sanitarios | 0 |
 | Decision Recomendada | **Hold** |
 

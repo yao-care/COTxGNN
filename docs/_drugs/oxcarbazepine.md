@@ -4,17 +4,17 @@ title: Oxcarbazepine
 parent: Evidencia Moderada (L3-L4)
 nav_order: 489
 evidence_level: L4
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Oxcarbazepine: nueva indicación predicha, Epilepsia visual (nivel de evidencia L4). Indicación original: Oxcarbazepina"
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
+description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: OXCARBAZEPINA"
 ---
 
 # Oxcarbazepine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Oxcarbazepina: De Epilepsia (indicación registrada como "Oxcarbazepina") a Epilepsia Visual
+## Oxcarbazepine: Restless legs syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Oxcarbazepina es un antiepiléptico derivado de la carbamazepina, registrado en 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Oxcarbazepina (el registro sanitario no detalla una indicación específica) |
-| Nueva Indicación Predicha | Epilepsia visual |
-| Puntaje de Prediccion TxGNN | 99.95% |
+| Indicación Original | OXCARBAZEPINA |
+| Nueva Indicación Predicha | Restless legs syndrome |
+| Puntaje de Prediccion TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -93,8 +93,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19961607 | OXCARBAZEPINA 300 MG (Tecnoquímicas S.A.) | Tableta cubierta con película | Oxcarbazepina | Cancelado |
-| 1980885 | TRILEPTAL® 6 % suspensión (Novartis Pharma AG) | Suspensión oral | Oxcarbazepina | Cancelado |
+| 19961607 | OXCARBAZEPINA 300 MG (Tecnoquímicas S.A.) | Tableta cubierta con película | Oxcarbazepina | Vigente |
+| 1980885 | TRILEPTAL® 6 % suspensión (Novartis Pharma AG) | Suspensión oral | Oxcarbazepina | Vigente |
 
 ---
 

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero act
 |------|------|
 | Indicación Original | Penciclovir (el registro sanitario no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Fascioliasis |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción regis
 
 Con la información disponible, **no se identifica un vínculo mecanístico plausible** con la fascioliasis. Fasciola es un trematodo parásito que carece de la timidina quinasa viral necesaria para activar el fármaco, y su ADN polimerasa difiere de la viral. Los tratamientos establecidos para la fascioliasis (por ejemplo, triclabendazol) actúan por mecanismos completamente distintos.
 
-El puntaje alto de TxGNN (0.99) probablemente refleja la proximidad en la red del grafo de conocimiento y no una justificación biológica. Debe interpretarse con cautela.
+El puntaje alto de TxGNN (0.9906) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Debe interpretarse con cautela.
 
 ---
 

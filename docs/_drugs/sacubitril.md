@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sacubitril
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 577
-evidence_level: L3
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sacubitril: nueva indicación predicha, Nefropatía diabética (la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Valsartán y sacubitrilo"
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
+description: "Sacubitril: nueva indicación predicha, Brain small vessel disease 1 with or without ocular anomalies (nivel de evidencia L5). Indicación original: VALSARTAN Y SACUBITRIL"
 ---
 
 # Sacubitril
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-## Sacubitrilo: De Valsartán y Sacubitrilo (indicación registrada) a Nefropatía Diabética
+## Sacubitril: Brain small vessel disease 1 with or without ocular anomalies
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para **nefropatía diabética**
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Valsartán y sacubitrilo (texto de la indicación en el registro sanitario) |
-| Nueva Indicación Predicha | Nefropatía diabética (la predicción de mayor puntaje, "enfermedad de vasos pequeños cerebrales tipo 1", carece de evidencia de apoyo; se evalúa la tercera, que es la que cuenta con evidencia) |
-| Puntaje de Predicción TxGNN | 99.50% (nefropatía diabética) |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo cancelado |
+| Indicación Original | VALSARTAN Y SACUBITRIL |
+| Nueva Indicación Predicha | Brain small vessel disease 1 with or without ocular anomalies |
+| Puntaje de Predicción TxGNN | 0.9958 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
-**Nota:** Las dos primeras predicciones (enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares, y síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas) tienen puntajes de 99.58% y 99.57%, pero cuentan solo con la predicción del modelo (nivel L5). Por ello, este informe se centra en la nefropatía diabética, la candidata con mayor respaldo.
+**Nota:** Las dos primeras predicciones (enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares, y síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas) tienen puntajes de 0.9958 y 0.9957, pero cuentan solo con la predicción del modelo (nivel L5). Por ello, este informe se centra en la nefropatía diabética, la candidata con mayor respaldo.
 
 ---
 
@@ -115,7 +115,7 @@ No se dispone de datos de advertencias principales ni contraindicaciones; consul
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (99.50%) y plausibilidad biológica, con respaldo preclínico consistente. Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3). Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto (0.9950) y plausibilidad biológica, con respaldo preclínico consistente. Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3). Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
 - Confirmar población, criterios de valoración y estado actual del ensayo NCT06501651, así como sus resultados.

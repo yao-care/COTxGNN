@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rotigotine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 572
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L4). Indicación original: Rotigotina"
@@ -14,7 +14,7 @@ predicted_indications: ["attention deficit-hyperactivity disorder", "schizophren
 # Rotigotine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Rotigotina: De Rotigotina (indicación registrada) a Trastorno por Déficit de Atención e Hiperactividad
+## Rotigotina: De Rotigotina (indicación registrada) a Trastorno por déficit de atención e hiperactividad (TDAH)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ pero **no hay ensayos clínicos** y solo hay **3 publicaciones** indirectas (rev
 |------|------|
 | Indicación Original | Rotigotina (el registro sanitario no detalla la indicación; en la literatura se asocia a enfermedad de Parkinson y síndrome de piernas inquietas) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.997% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -117,7 +117,7 @@ La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no exi
 - Evaluar la seguridad en población pediátrica y los riesgos cardiovasculares (hipotensión ortostática)
 
 **Otras predicciones del modelo (todas en Hold):**
-- **Esquizofrenia** (L4, puntaje 99.996%): existe una revisión sistemática y metaanálisis sobre fármacos prodopaminérgicos para síntomas negativos, pero no es específica de rotigotina. Un agonista pleno de D1/D2/D3 podría empeorar los síntomas psicóticos positivos, lo que representa una preocupación de seguridad importante.
+- **Esquizofrenia** (L4, puntaje 1.0000): existe una revisión sistemática y metaanálisis sobre fármacos prodopaminérgicos para síntomas negativos, pero no es específica de rotigotina. Un agonista pleno de D1/D2/D3 podría empeorar los síntomas psicóticos positivos, lo que representa una preocupación de seguridad importante.
 - **Miopía ligada al X** y **miopía 26 ligada al X, limitada a mujeres** (L5): la dopamina retiniana participa en el crecimiento ocular en modelos preclínicos, lo que da una justificación débil e indirecta, sin datos específicos de rotigotina.
 - **Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis, síndrome faciodigitogenital, trastorno congénito de la glicosilación con fucosilación defectuosa, distrofia retiniana, encefalopatía atípica por glicina y enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G** (L5): no se identificó un vínculo mecanístico plausible, y no hay ensayos ni literatura.
 ## Descargo de responsabilidad

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **metahemoglobinemia**, pe
 |------|------|
 | Indicación Original | Procaína (el registro no detalla una indicación clínica específica; es un anestésico local) |
 | Nueva Indicación Predicha | Metahemoglobinemia |
-| Puntaje de Predicción TxGNN | 99.50% |
+| Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **metahemoglobinemia**, pe
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, la procaína es un anestésico local que bloquea canales de sodio y, por ello, interrumpe la conducción nerviosa. Los datos farmacológicos compilados la vinculan además con los receptores de rianodina RyR1 y RyR2, aunque sin datos de bioactividad que confirmen un blanco principal.
 
-**La predicción no parece razonable desde el punto de vista terapéutico.** La literatura identificada (PMID 5529388 y 14246695) describe la metahemoglobinemia como un efecto adverso de la procaína y de otros anestésicos locales como la lignocaína. El puntaje alto del modelo probablemente refleja una asociación fármaco-enfermedad en el grafo de conocimiento (un vínculo de evento adverso) y no un beneficio terapéutico. Usar procaína en esta indicación podría empeorar los niveles de metahemoglobina.
+**La predicción no parece razonable desde el punto de vista terapéutico.** La literatura identificada (PMID 5529388 y 14246695) describe la metahemoglobinemia como un efecto adverso de la procaína y de otros anestésicos locales como la lignocaína. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no un beneficio terapéutico. Usar procaína en esta indicación podría empeorar los niveles de metahemoglobina.
 
 Las demás predicciones de mayor rango siguen un patrón similar. La metahemoglobinemia tipo alfa y la deficiencia de metahemoglobina reductasa carecen de evidencia y también son mecanísticamente implausibles. En anafilaxia, la literatura documenta a la procaína como desencadenante. Las únicas líneas con cierta plausibilidad mecanística son el dolor miofascial/fibromialgia y la tendinitis (infiltración anestésica, bloqueo de la nocicepción), aunque con evidencia limitada.
 

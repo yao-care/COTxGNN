@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 |------|------|
 | Indicación Original | Tamsulosina y dutasterida (según el registro INVIMA; el texto no detalla la enfermedad) |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.996% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según el conocimiento farmacológico general, la tamsulosina bloquea los receptores adrenérgicos alfa-1A/1D del músculo liso de la próstata y el cuello vesical, lo que mejora el flujo urinario. Es un tratamiento sintomático, sin efecto conocido sobre el folículo piloso.
 
-Con los datos compilados, **no se identifica un vínculo mecanístico creíble**. El síndrome de Ambras es un trastorno genético raro (reordenamientos cromosómicos que afectan la regulación de TRPS1) y no hay evidencia de que el bloqueo alfa-1 influya en el crecimiento del cabello o del vello. El puntaje alto de TxGNN refleja probablemente la cercanía en el grafo de conocimiento entre nodos de fenotipos relacionados con el pelo, y no una base farmacológica.
+Con los datos compilados, **no se identifica un vínculo mecanístico creíble**. El síndrome de Ambras es un trastorno genético raro (reordenamientos cromosómicos que afectan la regulación de TRPS1) y no hay evidencia de que el bloqueo alfa-1 influya en el crecimiento del cabello o del vello. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con el pelo, no evidencia biológica ni una base farmacológica.
 
 Otras predicciones del modelo (hipertricosis, hipotricosis, alopecia areata difusa, alopecia, malformaciones congénitas y migraña con aura de tronco encefálico) tienen igualmente nivel L5 y ningún mecanismo plausible. Para la migraña, los efectos vasodilatadores y ortostáticos de la tamsulosina podrían incluso empeorar la cefalea o el mareo.
 

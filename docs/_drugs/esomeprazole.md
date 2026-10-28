@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Esomeprazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 263
-evidence_level: L4
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Esomeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L4). Indicación original: ESOMEPRAZOL"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
+last_modified_at: 2026-10-27
+description: "Esomeprazole: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: ESOMEPRAZOL"
 ---
 
 # Esomeprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +33,70 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Esomeprazol: De Trastornos Relacionados con la Acidez Gástrica a Reflujo Duodenogástrico
+## Esomeprazol: inhibidor de la bomba de protones (inhibe la H+/K+ ATPasa gástrica, ATP4A) → obstrucción duodenal (duodenal obstruction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Esomeprazol es un inhibidor de la bomba de protones, usado originalmente para reducir la secreción de ácido gástrico en trastornos relacionados con la acidez. El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**, pero actualmente hay **0 ensayos clínicos** y **1 publicación** (una revisión general sobre inhibidores de la bomba de protones) que respaldan esta dirección, por lo que la evidencia es muy limitada.
-
----
+Esomeprazol es un inhibidor de la bomba de protones que se utiliza para reducir la acidez gástrica.
+El modelo TxGNN predice que podría ser efectivo para **obstrucción duodenal (duodenal obstruction)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ESOMEPRAZOL (el registro sanitario solo indica el nombre del fármaco; se trata de un inhibidor de la bomba de protones para trastornos relacionados con la acidez) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.53% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Indicación Original | ESOMEPRAZOL |
+| Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
+| Puntaje de Predicción TxGNN | 0,9945 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Esomeprazol es el S-isómero del omeprazol. Inhibe de forma irreversible la H+/K+ ATPasa gástrica (la bomba de protones, codificada por el gen ATP4A) en las células parietales, y con ello suprime la secreción de ácido. Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción en el campo correspondiente. Lo anterior proviene de la información farmacológica del blanco molecular y del análisis mecanístico de la predicción.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esomeprazol actúa sobre la bomba de protones gástrica (ATP4A) y reduce la secreción de ácido en el estómago.
 
-El reflujo duodenogástrico (o reflujo biliar) se produce por el flujo retrógrado del contenido duodenal hacia el estómago, y no por un exceso de ácido. Por eso, suprimir el ácido podría aliviar los síntomas asociados y el daño de la mucosa, pero no corrige la causa subyacente. El vínculo es plausible, aunque indirecto.
+La obstrucción duodenal es una condición principalmente mecánica, por lo que la supresión de ácido no tiene un papel plausible como tratamiento modificador de la enfermedad. A lo sumo, podría ayudar con la enfermedad péptica secundaria. Es probable que la predicción se deba a la cercanía del modelo con la úlcera duodenal, que puede causar obstrucción como complicación.
 
-La única publicación disponible es una revisión general sobre el uso clínico y la farmacocinética de los inhibidores de la bomba de protones. No evalúa específicamente el reflujo duodenogástrico, así que la predicción se apoya sobre todo en el modelo y en un razonamiento mecanístico indirecto.
-
----
+Por lo tanto, el puntaje alto (0,9945) debe interpretarse con cautela: refleja una predicción del modelo y no una evidencia real de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18679668](https://pubmed.ncbi.nlm.nih.gov/18679668/) | 2008 | Revisión | European Journal of Clinical Pharmacology | Actualiza el uso clínico y la farmacocinética de los inhibidores de la bomba de protones, fármacos de primera elección en úlcera péptica, infección por *H. pylori*, enfermedad por reflujo gastroesofágico, lesiones por antiinflamatorios no esteroideos y síndrome de Zollinger-Ellison. No aborda el reflujo duodenogástrico. |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20155892 | ACIDPRAZOL® 40 MG CÁPSULA | Cápsula dura | ESOMEPRAZOL |
+| 20155892 | ACIDPRAZOL® 40 MG CÁPSULA. | Cápsula dura | ESOMEPRAZOL |
 | 20235954 | ESIO® 20MG | Tableta con recubrimiento entérico | ESOMEPRAZOL |
 
-Ambos registros figuran como **cancelados**. Actualmente no hay registros vigentes de esomeprazol como monofármaco ni en combinación.
-
----
+La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Señales de contraindicación del grafo de conocimiento** (provienen de relaciones fármaco-enfermedad del grafo PrimeKG, no del texto del prospecto): insuficiencia hepática, osteoporosis, osteoporosis posmenopáusica, fractura ósea y gastritis atrófica crónica. Deben verificarse contra el prospecto antes de cualquier uso.
-- **Interacciones farmacológicas**: la consulta se completó, pero el único registro corresponde al blanco farmacológico del esomeprazol (ATP4A, la bomba de protones gástrica) y no a una interacción con otro medicamento. No se dispone de datos de interacciones clínicamente relevantes.
+- **Interacciones Farmacológicas**: la consulta se completó y solo se identificó la interacción farmacológica con el blanco ATP4A (bomba de protones gástrica), que corresponde a su mecanismo de acción y no a un fármaco concomitante.
 
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo y en una revisión general, sin ensayos clínicos específicos. El mecanismo es indirecto, porque el reflujo duodenogástrico no depende principalmente del ácido. Además, los dos registros sanitarios en Colombia están cancelados.
+No existen ensayos clínicos ni publicaciones sobre esomeprazol en obstrucción duodenal, y el mecanismo de supresión ácida no explica un beneficio en una condición mecánica. La predicción se mantiene solo como hipótesis del modelo (nivel L5).
 
 **Para avanzar se necesita:**
-- Estudios clínicos o literatura que evalúen esomeprazol específicamente en reflujo duodenogástrico (síntomas, daño de la mucosa).
-- Datos formales del mecanismo de acción y análisis de la similitud entre la indicación original y la nueva.
-- Verificar la situación regulatoria: motivo de la cancelación de los registros y viabilidad de una nueva solicitud o de otra vía de acceso.
-- Obtener el prospecto oficial (INVIMA) para confirmar advertencias, contraindicaciones e interacciones.
-- Confirmar la compatibilidad de vías de administración, pendiente de evaluar.
-
-**Nota adicional:** el modelo también predijo otras indicaciones con mayor respaldo. La más destacable es la **úlcera duodenal**, con múltiples ensayos de Fase 3 completados y puntaje de evidencia L1. Sin embargo, esa indicación probablemente no constituye un reposicionamiento real, porque es un uso ya establecido del esomeprazol. Conviene evaluarla por separado.
+- Datos detallados del mecanismo de acción y una justificación biológica plausible
+- Revisión de la literatura para confirmar si existe algún estudio en obstrucción duodenal o sus complicaciones pépticas
+- Advertencias y contraindicaciones del prospecto aprobado en Colombia
+- Evaluación de la compatibilidad de vías de administración para esta condición
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

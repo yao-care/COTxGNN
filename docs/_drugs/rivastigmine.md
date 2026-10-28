@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Rivastigmine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 569
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L4). Indicación original: RIVASTIGMINA"
@@ -14,7 +14,7 @@ predicted_indications: ["glaucoma"]
 # Rivastigmine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ con **0 ensayos clínicos** y **3 publicaciones** (una de ellas un estudio precl
 |------|------|
 | Indicación Original | RIVASTIGMINA (el registro no detalla la indicación; según la farmacología, se usa en enfermedad de Alzheimer) |
 | Nueva Indicación Predicha | Glaucoma |
-| Puntaje de Predicción TxGNN | 99.27% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelados (sin producto vigente) |
-| Número de Registros Sanitarios | 2 |
+| Puntaje de Predicción TxGNN | 0.9927 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20242182 | DURIVAST® 9.5MG/24H (cancelado) | Transdérmicos | RIVASTIGMINA |
-| 20242522 | DURIVAST® 4.6MG/24H (cancelado) | Sistema transdérmico de liberación prolongada (parche) | RIVASTIGMINA |
+| 20242182 | DURIVAST® 9.5MG/24H (vigente) | Transdérmicos | RIVASTIGMINA |
+| 20242522 | DURIVAST® 4.6MG/24H (vigente) | Sistema transdérmico de liberación prolongada (parche) | RIVASTIGMINA |
 
 Ambos registros pertenecen a BIOTOSCANA FARMA S.A. y están cancelados; no hay productos vigentes.
 

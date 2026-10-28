@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 |------|------|
 | Indicación Original | PREDNISONA (el registro no detalla la indicación; uso conocido: diversas condiciones inflamatorias) |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | PREDNICARBATO (el registro sanitario no especifica una enfermedad) |
 | Nueva Indicación Predicha | Queratosis folicular invertida de la vulva |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -64,12 +64,12 @@ Sin embargo, la queratosis folicular invertida se trata habitualmente mediante e
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario | Recomendación |
 |------|------|------|------|
-| Liquen plano atrófico anular | 99.64% | Los corticoides tópicos son tratamiento de primera línea del liquen plano cutáneo (racional de clase) | Hold |
-| Liquen plano pigmentoso | 99.64% | Podría limitar la pigmentación posinflamatoria; variante a menudo refractaria | Hold |
-| Liquen plano hipertrófico | 99.64% | Se trata con corticoides potentes o superpotentes; prednicarbato (potencia media) podría ser insuficiente | Pregunta de investigación |
-| Penfigoide liquenoide (liquen plano pemfigoide) | 99.53% | Los corticoides tópicos son coadyuvantes; suele requerirse inmunosupresión sistémica | Hold |
-| Sensibilización a metacrilato de 2-hidroxietilo | 99.47% | Alivia síntomas, pero no resuelve la sensibilización; los corticoides pueden causar alergia | Hold |
-| Linfoma cutáneo primario de células B | 99.40% | El tratamiento estándar es radioterapia, escisión o rituximab; riesgo de enmascarar o retrasar la terapia definitiva | Hold |
+| Liquen plano atrófico anular | 0.9964 | Los corticoides tópicos son tratamiento de primera línea del liquen plano cutáneo (racional de clase) | Hold |
+| Liquen plano pigmentoso | 0.9964 | Podría limitar la pigmentación posinflamatoria; variante a menudo refractaria | Hold |
+| Liquen plano hipertrófico | 0.9964 | Se trata con corticoides potentes o superpotentes; prednicarbato (potencia media) podría ser insuficiente | Pregunta de investigación |
+| Penfigoide liquenoide (liquen plano pemfigoide) | 0.9953 | Los corticoides tópicos son coadyuvantes; suele requerirse inmunosupresión sistémica | Hold |
+| Sensibilización a metacrilato de 2-hidroxietilo | 0.9947 | Alivia síntomas, pero no resuelve la sensibilización; los corticoides pueden causar alergia | Hold |
+| Linfoma cutáneo primario de células B | 0.9940 | El tratamiento estándar es radioterapia, escisión o rituximab; riesgo de enmascarar o retrasar la terapia definitiva | Hold |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19975547 | SKINPRED® EMULSION GEL | Emulsión | PREDNICARBATO | Cancelado |
-| 20033013 | PEITEL® 0.25 % CREMA | Crema tópica | PREDNICARBATO | Cancelado |
+| 19975547 | SKINPRED® EMULSION GEL | Emulsión | PREDNICARBATO | Vigente |
+| 20033013 | PEITEL® 0.25 % CREMA | Crema tópica | PREDNICARBATO | Vigente |
 
 ## Consideraciones de Seguridad
 

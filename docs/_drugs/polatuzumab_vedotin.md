@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | No especificada en el registro (el texto registrado solo repite el nombre del principio activo) |
 | Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
-| Puntaje de Predicción TxGNN | 99.34% |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 Polatuzumab vedotin es un conjugado anticuerpo-fármaco que se dirige a CD79b, un componente del receptor de células B, y libera el agente que interrumpe los microtúbulos monometil auristatina E (MMAE). Los datos compilados para este informe no incluyen el mecanismo de acción detallado, por lo que esta descripción se basa en conocimiento general del fármaco y no puede verificarse con los datos suministrados.
 
-La relación con la nueva indicación es débil. CD79b no es un blanco reconocido en el carcinoma de mama HER2 positivo, por lo que el alto puntaje de TxGNN (0.993) debe interpretarse solo como una predicción computacional. Un posible vínculo indirecto es que el MMAE se utiliza como carga citotóxica en otros conjugados anticuerpo-fármaco, y que las células de cáncer de mama son sensibles a agentes que actúan sobre los microtúbulos. Sin embargo, esto no respalda un mecanismo dirigido por CD79b.
+La relación con la nueva indicación es débil. CD79b no es un blanco reconocido en el carcinoma de mama HER2 positivo, por lo que el alto puntaje de TxGNN (0.9934) debe interpretarse solo como una predicción computacional. Un posible vínculo indirecto es que el MMAE se utiliza como carga citotóxica en otros conjugados anticuerpo-fármaco, y que las células de cáncer de mama son sensibles a agentes que actúan sobre los microtúbulos. Sin embargo, esto no respalda un mecanismo dirigido por CD79b.
 
 No se aportó evidencia preclínica ni clínica que apoye la hipótesis, y la similitud con la indicación original queda pendiente de evaluación.
 

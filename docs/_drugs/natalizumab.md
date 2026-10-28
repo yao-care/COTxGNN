@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Natalizumab
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 463
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
-description: "Natalizumab: nueva indicación predicha, Psoriasis (nivel de evidencia L4). Indicación original: Natalizumab"
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
+description: "Natalizumab: nueva indicación predicha, Bronchitis (nivel de evidencia L5). Indicación original: NATALIZUMAB"
 ---
 
 # Natalizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Natalizumab: De Esclerosis Múltiple a Psoriasis
+## Natalizumab: Bronchitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -44,12 +44,12 @@ Natalizumab es un anticuerpo monoclonal anti-integrina alfa4, con registros sani
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Natalizumab (el registro sanitario no detalla el texto de la indicación) |
-| Nueva Indicación Predicha | Psoriasis |
-| Puntaje de Predicción TxGNN | 99.19% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ninguno vigente) |
+| Indicación Original | NATALIZUMAB |
+| Nueva Indicación Predicha | Bronchitis |
+| Puntaje de Predicción TxGNN | 0.9946 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,8 +85,8 @@ Se listan las publicaciones más relevantes, priorizando estudios observacionale
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML | Solución inyectable | Natalizumab (cancelado) |
-| 20006016 | TYSABRI® | Solución concentrada para infusión | Natalizumab (cancelado) |
+| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML | Solución inyectable | Natalizumab (vigente) |
+| 20006016 | TYSABRI® | Solución concentrada para infusión | Natalizumab (vigente) |
 
 ## Consideraciones de Seguridad
 

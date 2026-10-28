@@ -48,9 +48,9 @@ Dabigatrán etexilato es un anticoagulante oral inhibidor directo de la trombina
 |------|------|
 | Indicación Original | Dabigatrán etexilato (el registro sanitario no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Colangitis esclerosante |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (los 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente existe un vínculo plausible pero hipotético: la trombina y la señalización de PAR-1 contribuyen a la inflamación y la fibrosis hepática, por lo que inhibir la trombina podría influir en la fibrosis colestásica propia de la colangitis esclerosante. Sin embargo, no hay estudios que lo confirmen.
 
-La única publicación recuperada (PMID 36906733) trata sobre interacciones farmacológicas de cilofexor, un agonista de FXR, y no sobre dabigatrán ni sobre su eficacia en colangitis esclerosante. El puntaje de 99.82% es solo una predicción computacional y no constituye evidencia clínica.
+La única publicación recuperada (PMID 36906733) trata sobre interacciones farmacológicas de cilofexor, un agonista de FXR, y no sobre dabigatrán ni sobre su eficacia en colangitis esclerosante. El puntaje de 0.9982 es solo una predicción computacional y no constituye evidencia clínica.
 
 Otras predicciones del modelo (hiperlipidemias, hipoalfalipoproteinemia, trastorno de liberación plaquetaria) tienen aún menos sustento mecanístico. En particular, para el trastorno de liberación plaquetaria, un anticoagulante podría agravar el riesgo de sangrado.
 

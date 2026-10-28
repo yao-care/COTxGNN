@@ -8,6 +8,7 @@ nav_order: 392
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Leucina
@@ -49,7 +50,7 @@ LEUCINA (Leucina) es un aminoácido esencial de cadena ramificada (BCAA), conoci
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | Sin datos suficientes |
-| Estado de Mercado en Colombia | No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | Hold |
 

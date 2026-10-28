@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Regorafenib
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 553
-evidence_level: L5
+evidence_level: L1
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: REGORAFENIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell
 # Regorafenib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ con **1 ensayo clínico** y **9 publicaciones** relacionadas. Sin embargo, el en
 |------|------|
 | Indicación Original | REGORAFENIB (el registro no especifica la indicación; la literatura lo describe como aprobado para cáncer colorrectal metastásico y GIST) |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L1 (según la clasificación del análisis; ver nota en la conclusión) |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails (con reservas; ver conclusión) |
 
 ---
@@ -126,7 +126,7 @@ No se dispone de advertencias ni contraindicaciones extraídas del prospecto; co
 **Decisión: Hold (recomendación propia; el análisis automático indica Proceed with Guardrails)**
 
 **Justificación:**
-Aunque la clasificación automática asigna L1 por la presencia de ECA de Fase 2 y una predicción alta de TxGNN (99.76%), el contenido de esos ensayos es **negativo para liposarcoma**: REGOSARC no mostró beneficio y la cohorte de liposarcoma de SARC024 no respalda el uso rutinario. Además, no hay ECA de Fase 3 completados, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto. Por ello, recomiendo no avanzar como candidato directo en liposarcoma; si se desea explorar, solo con las salvaguardas indicadas abajo.
+Aunque la clasificación automática asigna L1 por la presencia de ECA de Fase 2 y una predicción alta de TxGNN (0.9976), el contenido de esos ensayos es **negativo para liposarcoma**: REGOSARC no mostró beneficio y la cohorte de liposarcoma de SARC024 no respalda el uso rutinario. Además, no hay ECA de Fase 3 completados, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto. Por ello, recomiendo no avanzar como candidato directo en liposarcoma; si se desea explorar, solo con las salvaguardas indicadas abajo.
 
 **Para avanzar se necesita:**
 - Revisar la clasificación del nivel de evidencia: L1 sobreestima la evidencia, ya que los ECA disponibles son de Fase 2 y negativos para este subtipo.

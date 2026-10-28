@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 ## Resumen en Una Frase
 
 Carfilzomib es un inhibidor del proteasoma que cuenta con registros sanitarios en Colombia, aunque el texto de indicación registrado solo repite el nombre del fármaco, por lo que no se dispone de una indicación original descrita.
-El modelo TxGNN predice que podría ser efectivo para **CMM7** (un subtipo o locus de susceptibilidad de melanoma maligno cutáneo), con un puntaje de 99.37%.
+El modelo TxGNN predice que podría ser efectivo para **CMM7** (un subtipo o locus de susceptibilidad de melanoma maligno cutáneo), con un puntaje de 0.9937.
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asociados a esta predicción, por lo que se trata de una predicción puramente computacional.
 
 ---
@@ -50,9 +50,9 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asoci
 |------|------|
 | Indicación Original | No especificada en el registro (el texto registrado solo indica "Carfilzomib") |
 | Nueva Indicación Predicha | CMM7 |
-| Puntaje de Predicción TxGNN | 99.37% |
+| Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -99,10 +99,10 @@ Los tres últimos estudios ofrecen solo apoyo indirecto o contextual. El último
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20087826 | KYPROLIS® (Amgen Inc.) | Polvo liofilizado | Carfilzomib (cancelado) |
-| 20260831 | DETAMZIB® 60 MG (Sandoz GmbH) | Polvo liofilizado | Carfilzomib (cancelado) |
-| 20252729 | GLENCARFIL® (Glenmark Pharmaceuticals Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (cancelado) |
-| 20228189 | ALCAF ELEA® 60 MG (Laboratorio Elea Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (cancelado) |
+| 20087826 | KYPROLIS® (Amgen Inc.) | Polvo liofilizado | Carfilzomib (vigente) |
+| 20260831 | DETAMZIB® 60 MG (Sandoz GmbH) | Polvo liofilizado | Carfilzomib (vigente) |
+| 20252729 | GLENCARFIL® (Glenmark Pharmaceuticals Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
+| 20228189 | ALCAF ELEA® 60 MG (Laboratorio Elea Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
 
 Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes.
 
@@ -147,7 +147,7 @@ La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos 
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank)
 - Aclarar qué es CMM7 y su relación con el melanoma cutáneo
 - Generar evidencia preclínica específica (líneas celulares, modelos in vivo) y valorar la indicación más amplia de melanoma (L4) como pregunta de investigación
-- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que todos los registros están cancelados
+- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que está comercializado y cuenta con 4 registros vigentes
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

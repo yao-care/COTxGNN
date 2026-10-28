@@ -48,9 +48,9 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden actualmente est
 |------|------|
 | Indicación Original | Benzocaína (el registro sanitario no detalla una indicación en texto) |
 | Nueva Indicación Predicha | Conjuntivitis papilar |
-| Puntaje de Predicción TxGNN | 99.38% |
+| Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 

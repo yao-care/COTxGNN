@@ -4,17 +4,17 @@ title: Piperacillin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 516
 evidence_level: L5
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Piperacillin: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Piperacilina e inhibidor enzimático"
 monitor_inn: "piperacillin"
-predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "osteoarthritis susceptibility", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
+predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
 ---
 
 # Piperacillin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | Piperacilina e inhibidor enzimático |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, piperacilina es una penicilina de espectro amplio (betalactámico) que inhibe la síntesis de la pared celular bacteriana. Su eficacia está establecida en infecciones bacterianas, no en enfermedades autoinmunes.
 
-El análisis de la relación entre la indicación original y la nueva **no encuentra un vínculo mecanístico creíble**. Piperacilina no tiene actividad antiinflamatoria ni inmunomoduladora conocida relevante para la artritis reumatoide. El puntaje alto de TxGNN (0,999) parece ser un artefacto del grafo de conocimiento y no una señal biológica.
+El análisis de la relación entre la indicación original y la nueva **no encuentra un vínculo mecanístico creíble**. Piperacilina no tiene actividad antiinflamatoria ni inmunomoduladora conocida relevante para la artritis reumatoide. El puntaje alto de TxGNN (0,9994) parece ser un artefacto del modelo TxGNN (aprendizaje profundo) y no una señal biológica.
 
 La literatura recuperada menciona la artritis reumatoide solo como comorbilidad en pacientes que recibieron piperacilina/tazobactam por infecciones o eventos adversos (por ejemplo, pancitopenia por metotrexato en pacientes con AR). Esto no constituye evidencia de eficacia.
 

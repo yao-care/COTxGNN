@@ -8,6 +8,7 @@ nav_order: 22
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetato De Indacaterol
@@ -51,7 +52,7 @@ El acetato de indacaterol es un agonista beta-2 adrenérgico de acción prolonga
 | Nueva Indicación Predicha | — Sin predicción disponible — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** (sin datos de respaldo) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

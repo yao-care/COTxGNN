@@ -8,6 +8,7 @@ nav_order: 385
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Leflunomida
@@ -51,8 +52,8 @@ Debido a la ausencia de predicciones y a múltiples brechas de datos críticas, 
 | Nueva Indicación Predicha | — Sin predicción disponible en este Evidence Pack — |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 (sin estudios; predicción del modelo no ejecutada) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---

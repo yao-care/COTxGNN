@@ -8,6 +8,7 @@ nav_order: 21
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetato De Hidrocortisona
@@ -51,7 +52,7 @@ El Acetato de Hidrocortisona es un corticosteroide conocido, ampliamente utiliza
 | Nueva Indicación Predicha | — (Sin predicciones generadas por TxGNN) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo evaluación preliminar, sin estudios ni predicciones |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

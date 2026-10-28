@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Montelukast
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 454
-evidence_level: L5
-indication_count: 5
+evidence_level: L2
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 monitor_inn: "MONTELUKAST"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease
 # Montelukast
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). E
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo dice "MONTELUKAST"). La literatura lo describe como fármaco para asma y rinitis alérgica |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L2 (un ensayo de Fase 3 completado; no hay dos ECA de Fase 3 completados) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

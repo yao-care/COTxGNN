@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Posaconazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 524
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: No especificada en detalle"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Posaconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 |------|------|
 | Indicación Original | No especificada en detalle (el registro solo indica "Posaconazol"); clase antifúngica triazólica |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Puntaje de Predicción TxGNN | 0.9977 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, posaconazol es un antifúngico triazólico que inhibe la lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol en la membrana fúngica.
 
-Sin embargo, la plausibilidad mecanística para neumocistosis es débil. *Pneumocystis jirovecii* carece de ergosterol en su membrana y utiliza colesterol y otros esteroles, por lo que el mecanismo de los azoles no tiene una diana clara en este organismo. El puntaje tan alto de TxGNN (0.998) probablemente refleja la cercanía en la red de conocimiento con otros antifúngicos y enfermedades fúngicas invasivas, más que una verdadera afinidad mecanística.
+Sin embargo, la plausibilidad mecanística para neumocistosis es débil. *Pneumocystis jirovecii* carece de ergosterol en su membrana y utiliza colesterol y otros esteroles, por lo que el mecanismo de los azoles no tiene una diana clara en este organismo. El puntaje tan alto de TxGNN (0.9977) probablemente refleja la cercanía en la red de conocimiento con otros antifúngicos y enfermedades fúngicas invasivas, más que una verdadera afinidad mecanística.
 
 Como referencia, el tratamiento de primera línea de la neumocistosis es trimetoprima-sulfametoxazol. Las equinocandinas (por ejemplo, rezafungina) se han investigado como posible complemento porque inhiben la beta-1,3-glucano sintasa de la forma quística de *Pneumocystis*; este mecanismo es distinto al de posaconazol.
 

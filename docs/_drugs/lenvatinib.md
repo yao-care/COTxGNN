@@ -4,7 +4,7 @@ title: Lenvatinib
 parent: Evidencia Alta (L1-L2)
 nav_order: 389
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (el texto solo indica \"LENVA…"
 monitor_inn: "lenvatinib"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipom
 # Lenvatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (el texto solo indica "LENVATINIB") |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.51% |
+| Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -116,7 +116,6 @@ Para liposarcoma solo existe un estudio de fase Ib/II de un solo brazo, en combi
 
 ### Nota: otras indicaciones predichas con mayor respaldo
 
-Aunque la primera indicación predicha es liposarcoma, los datos compilados muestran mayor solidez para **carcinoma renal** (puntaje TxGNN 99.37%, nivel de evidencia L1, recomendación *Proceed with Guardrails*). Cuenta con el ensayo fase 3 CLEAR (lenvatinib + pembrolizumab vs. sunitinib; [NCT02811861](https://clinicaltrials.gov/study/NCT02811861); [PMID 33616314](https://pubmed.ncbi.nlm.nih.gov/33616314/)), un ensayo aleatorizado de fase 2 con everolimus ([PMID 26482279](https://pubmed.ncbi.nlm.nih.gov/26482279/)) y múltiples estudios en curso. Se recomienda evaluarlo como candidato prioritario en un informe específico, verificando antes la situación regulatoria local.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 358
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Isosorbide Dinitrate: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Dinitrato de isosorbida"
 monitor_inn: "isosorbide dinitrate"
-predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
+predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
+last_modified_at: 2026-10-23
+description: "Isosorbide Dinitrate: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Isosorbida dinitrato"
 ---
 
 # Isosorbide Dinitrate
@@ -33,71 +33,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dinitrato de isosorbida: De Indicación Cardiovascular Registrada a Alopecia
+## Dinitrato de isosorbida: De "Isosorbida dinitrato" (indicación no detallada en el registro) a Alopecia
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El dinitrato de isosorbida es un vasodilatador (donador de óxido nítrico). Está registrado en Colombia como tableta sublingual (Isocord®), pero el registro no detalla la indicación aprobada. El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
-
----
+El dinitrato de isosorbida es un nitrato vasodilatador que cuenta con un registro sanitario vigente en Colombia (INVIMA), cuyo texto solo menciona el nombre del principio activo y no detalla la indicación.
+El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es solo una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dinitrato de isosorbida (el registro sanitario no especifica la indicación) |
+| Indicación Original | Isosorbida dinitrato (el registro solo indica el principio activo, sin detalle de indicación) |
 | Nueva Indicación Predicha | Alopecia |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico (NO), activa la guanilato ciclasa y eleva el GMP cíclico, lo que relaja el músculo liso vascular. Su eficacia como vasodilatador en enfermedad cardiovascular está establecida, y mecanísticamente podría ser aplicable a la alopecia solo de forma hipotética.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico y relaja el músculo liso vascular. Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo.
 
-La hipótesis plausible, pero no demostrada, es que la vasodilatación podría mejorar la microcirculación del cuero cabelludo alrededor de los folículos pilosos. No hay ensayos ni literatura que respalden esta idea. El puntaje alto del modelo podría reflejar también cercanía en la red de conocimiento con otras enfermedades del cabello, más que una relación biológica real.
+La única hipótesis que vincula el fármaco con la alopecia es especulativa: la vasodilación mediada por óxido nítrico podría mejorar la perfusión del cuero cabelludo. Esta inferencia no tiene respaldo en estudios clínicos ni en literatura recuperada.
 
----
+El puntaje de 0.9999 proviene únicamente del modelo y no equivale a evidencia clínica. No se pudo establecer una similitud formal entre la indicación original y la alopecia.
 
-## Informacion de Mercado en Colombia
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 37246 (cancelado) | ISOCORD® SUBLINGUAL | Tableta sublingual | Dinitrato de isosorbida |
+| 37246 | ISOCORD® SUBLINGUAL (Laboratorios Bago de Colombia S.A.S.) | Tableta sublingual | Isosorbida dinitrato (solo se indica el principio activo) |
 
-El único registro es de Laboratorios Bagó de Colombia S.A.S. y está cancelado, por lo que actualmente no hay producto vigente con este registro.
-
----
+La lista puede ser parcial: los datos reportan al menos un registro.
 
 ## Consideraciones de Seguridad
 
-Los datos del prospecto (advertencias y contraindicaciones) no estaban disponibles. Consultar el prospecto para esa información.
+- **Contraindicaciones registradas en el grafo de conocimiento** (no provienen del texto del prospecto): trastorno hipotensivo, miocardiopatía hipertrófica, acetilación lenta, enfermedad coronaria, trastornos cerebrovasculares y accidente cerebrovascular, infarto cerebral, infarto de miocardio, trombosis coronaria, hemoglobinopatía, anemias, hipertiroidismo, enfermedad de Graves, tirotoxicosis, pseudotumor cerebral, hipertensión intracraneal, hemorragia intracerebral y síndrome de Rowell.
+- **Interacciones farmacológicas**: se identificaron 141 interacciones. Entre las principales, de nivel moderado, están bupropión, morfina, opio, dronabinol, nabilona, sapropterina, rosiglitazona y los inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina y ertugliflozina). El omeprazol figura como interacción menor.
 
-- **Contraindicaciones o condiciones de precaución según el grafo de conocimiento (TxGNN/PrimeKG, no texto de prospecto)**: hipotensión, miocardiopatía hipertrófica, acetilación lenta, enfermedad arterial coronaria, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, infarto de miocardio, trombosis coronaria, hemoglobinopatía, anemia (incluida la macrocítica), hipertiroidismo, enfermedad de Graves, tirotoxicosis, pseudotumor cerebral, hipertensión intracraneal, hemorragia intracerebral y síndrome de Rowell.
-- **Interacciones farmacológicas**: se identificaron 141 interacciones. Entre las principales (nivel moderado) están bupropión, morfina, opio, dronabinol, nabilona, sapropterina, rosiglitazona y los inhibidores SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina). El omeprazol figura como interacción menor.
-
----
+Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para alopecia es de nivel L5: no hay ensayos clínicos ni literatura que la respalden. Además, el único registro sanitario en Colombia está cancelado y faltan los datos de seguridad del prospecto.
+No existe ningún ensayo clínico ni publicación que estudie el dinitrato de isosorbida en alopecia, por lo que la predicción queda en nivel L5. Además, el vínculo mecanístico propuesto es especulativo.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Realizar estudios preclínicos o piloto sobre microcirculación folicular que sustenten la hipótesis.
-- Evaluar la viabilidad de una vía tópica o local, ya que la forma disponible (sublingual) no es adecuada para esta indicación, y considerar el riesgo de hipotensión sistémica.
-- Priorizar otras predicciones del modelo con más respaldo:
-  - **Hipertensión pulmonar** (L3): 20 publicaciones, principalmente estudios hemodinámicos pequeños, sin ensayos registrados.
-  - **Enfermedad vascular** (L2): incluye un ensayo de Fase 3 completado con aerosol de dinitrato de isosorbida en úlceras de pie diabético (NCT02789033, n=68), cuyos resultados no estaban disponibles.
+- Datos del mecanismo de acción y del prospecto de INVIMA (advertencias y contraindicaciones).
+- Estudios preclínicos o exploratorios que evalúen la perfusión folicular y el efecto del fármaco en alopecia.
+- Evaluar la viabilidad de una vía de administración adecuada, ya que la única forma registrada es sublingual.
+- Considerar otras indicaciones predichas en los mismos datos que cuentan con más estudios, como la hipertensión pulmonar y la enfermedad vascular, antes de priorizar la alopecia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

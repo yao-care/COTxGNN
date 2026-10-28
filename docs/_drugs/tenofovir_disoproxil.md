@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Tenofovir Disoproxil
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 613
-evidence_level: L4
+evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-10-14
 description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Tenofovir disoproxil y emtricitabina"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Tenofovir Disoproxil
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ La evidencia es limitada: **0 ensayos clínicos** y **1 publicación** directame
 |------|------|
 | Indicación Original | Tenofovir disoproxil y emtricitabina (el registro sanitario no detalla una enfermedad; corresponde a esquemas antirretrovirales) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -103,10 +103,10 @@ Evidencia de apoyo indirecto de la segunda predicción (infección por virus de 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20140868 | DUOPETSA® tableta recubierta | Tableta recubierta | Tenofovir disoproxil y emtricitabina | Cancelado |
-| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Cancelado |
-| 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina | Cancelado |
-| 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina | Cancelado |
+| 20140868 | DUOPETSA® tableta recubierta | Tableta recubierta | Tenofovir disoproxil y emtricitabina | Vigente |
+| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Vigente |
+| 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina | Vigente |
+| 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina | Vigente |
 
 ---
 
@@ -124,7 +124,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, todos los registros sanitarios en Colombia están cancelados y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
+La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, el medicamento está comercializado en Colombia con 4 registros sanitarios vigentes, y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).

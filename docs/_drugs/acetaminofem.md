@@ -8,6 +8,7 @@ nav_order: 18
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Acetaminofem
@@ -49,7 +50,7 @@ ACETAMINOFEM es un compuesto consultado en las bases de datos regulatorias y de 
 | Nueva Indicación Predicha | Sin predicción (TxGNN no generó candidatos) |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | **L5** — Solo consulta al modelo, sin resultados ni estudios reales |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

@@ -48,9 +48,9 @@ Omalizumab es un anticuerpo monoclonal anti-IgE (comercializado como Xolair®), 
 |------|------|
 | Indicación Original | OMALIZUMAB (el registro sanitario solo repite el nombre del fármaco; no detalla la indicación) |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.999% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 

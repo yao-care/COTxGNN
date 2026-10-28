@@ -4,17 +4,17 @@ title: Prasugrel
 parent: Solo Predicción del Modelo (L5)
 nav_order: 527
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: PRASUGREL"
 monitor_inn: "prasugrel"
-predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "migraine with or without aura, susceptibility to", "brachydactyly-syndactyly syndrome", "leprosy"]
+predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
 ---
 
 # Prasugrel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La predicción con mayor respaldo indirecto entre las 10 candidatas es **migrañ
 |------|------|
 | Indicación Original | PRASUGREL (el registro no detalla la enfermedad; el uso conocido es la prevención de eventos aterotrombóticos) |
 | Nueva Indicación Predicha | Hipertensión pulmonar |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

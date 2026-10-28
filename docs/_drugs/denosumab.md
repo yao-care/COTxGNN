@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Denosumab (el registro sanitario no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Un vínculo hipotético con la retinopatía diabética podría pasar por la señalización RANKL/RANK/OPG, que se ha relacionado con calcificación vascular, inflamación y disfunción microvascular asociada a la diabetes. Sin embargo, este vínculo **no está establecido** por la evidencia disponible: es una predicción computacional sin datos clínicos ni mecanísticos de respaldo.
 
-La similitud entre la indicación original y la nueva indicación queda pendiente de evaluación. Por ahora, el puntaje alto de TxGNN (99.63%) debe interpretarse solo como una señal para priorizar la investigación, no como evidencia de eficacia.
+La similitud entre la indicación original y la nueva indicación queda pendiente de evaluación. Por ahora, el puntaje alto de TxGNN (0.9963) debe interpretarse solo como una señal para priorizar la investigación, no como evidencia de eficacia.
 
 ---
 
@@ -78,7 +78,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Para la indicación principal (retinopatía diabética no proliferativa grave) no hay literatura relacionada disponible.
 
-Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 99.23%), se recuperaron dos publicaciones de contexto indirecto. Ninguna evalúa desenlaces retinianos:
+Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 0.9923), se recuperaron dos publicaciones de contexto indirecto. Ninguna evalúa desenlaces retinianos:
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
@@ -91,8 +91,8 @@ Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 99.23%),
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20052945 | XGEVA® 120 MG/1.7 ML | Solución inyectable | Denosumab | Cancelado |
-| 20028103 | PROLIA® | Solución inyectable | Denosumab | Cancelado |
+| 20052945 | XGEVA® 120 MG/1.7 ML | Solución inyectable | Denosumab | Vigente |
+| 20028103 | PROLIA® | Solución inyectable | Denosumab | Vigente |
 
 Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia.
 

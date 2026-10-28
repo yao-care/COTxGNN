@@ -4,17 +4,17 @@ title: Ampicillin
 parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Ampicillin: nueva indicación predicha, Laringitis (nivel de evidencia L4). Indicación original: Ampicilina e inhibidor enzimático"
 monitor_inn: "Ampicillin"
-predicted_indications: ["laryngitis", "gonococcal urethritis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
+description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
 ---
 
 # Ampicillin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Ampicilina: De Ampicilina con Inhibidor Enzimático a Laringitis
+## Ampicillin: Laringitis (laryngitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **laringitis**, pero **no 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ampicilina e inhibidor enzimático |
-| Nueva Indicación Predicha | Laringitis |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Indicación Original | AMPICILINA E INHIBIDOR ENZIMATICO |
+| Nueva Indicación Predicha | Laringitis (laryngitis) |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto ofici
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (99.97%), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales. Además, el único registro sanitario en Colombia está cancelado.
+La predicción de TxGNN es muy alta (0.9997), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
@@ -129,15 +129,14 @@ Todas con recomendación **Hold**:
 
 | Indicación | Puntaje TxGNN | Nivel | Observación |
 |---|---|---|---|
-| Uretritis gonocócica | 99.36% | L3 | Indicación histórica (ensayos comparativos de los años 70-80); obsoleta por resistencia |
-| Uretritis por *Ureaplasma* | 99.36% | L5 | Sin sustento biológico: *Ureaplasma* carece de pared celular |
-| Rinosinusitis crónica | 99.34% | L4 | Evidencia solo microbiológica; papel limitado de antibióticos |
-| Sinusitis etmoidal crónica | 99.33% | L4 | Evidencia indirecta |
-| Gingivitis | 99.28% | L4 | Los antibióticos sistémicos no están indicados |
-| Neoplasia de seno paranasal | 99.20% | L5 | Sin fundamento mecanístico ni literatura; probable artefacto del modelo |
-| Artritis bacteriana | 99.11% | L3 | Mecanismo coherente, pero sin ensayos y con resistencia en *S. aureus* |
-| Conjuntivitis | 99.04% | L4 | Evidencia microbiológica; el estándar son agentes tópicos |
-| Pericoronitis | 99.04% | L4 | Faltan datos específicos; el tratamiento principal es el desbridamiento local |
+| Uretritis por *Ureaplasma* | 0.9936 | L5 | Sin sustento biológico: *Ureaplasma* carece de pared celular |
+| Rinosinusitis crónica | 0.9934 | L4 | Evidencia solo microbiológica; papel limitado de antibióticos |
+| Sinusitis etmoidal crónica | 0.9933 | L4 | Evidencia indirecta |
+| Gingivitis | 0.9928 | L4 | Los antibióticos sistémicos no están indicados |
+| Neoplasia de seno paranasal | 0.9920 | L5 | Sin fundamento mecanístico ni literatura; probable artefacto del modelo |
+| Artritis bacteriana | 0.9911 | L3 | Mecanismo coherente, pero sin ensayos y con resistencia en *S. aureus* |
+| Conjuntivitis | 0.9904 | L4 | Evidencia microbiológica; el estándar son agentes tópicos |
+| Pericoronitis | 0.9904 | L4 | Faltan datos específicos; el tratamiento principal es el desbridamiento local |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

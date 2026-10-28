@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de
 |------|------|
 | Indicación Original | Evolocumab (el registro sanitario solo indica el nombre del principio activo; según la información farmacológica disponible, se usa en hipercolesterolemia) |
 | Nueva Indicación Predicha | Forma sintomática de hemofilia en mujeres portadoras |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este reporte. Según la información farmacológica conocida, evolocumab es un anticuerpo monoclonal dirigido contra la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9). Al bloquearla, preserva los receptores hepáticos de LDL y reduce el colesterol LDL.
 
-La relación con la nueva indicación es débil. La hemofilia en mujeres portadoras es un trastorno ligado al cromosoma X causado por deficiencia de factor VIII o IX, y no tiene un vínculo mecanístico plausible con la inhibición de PCSK9. El alto puntaje de TxGNN (0.998) parece ser un artefacto del grafo de conocimiento, sin sustento biológico.
+La relación con la nueva indicación es débil. La hemofilia en mujeres portadoras es un trastorno ligado al cromosoma X causado por deficiencia de factor VIII o IX, y no tiene un vínculo mecanístico plausible con la inhibición de PCSK9. El alto puntaje de TxGNN (0.9982) parece ser un artefacto del modelo TxGNN (aprendizaje profundo), sin sustento biológico.
 
 Por lo tanto, esta predicción no debe interpretarse como una hipótesis terapéutica creíble sin evidencia adicional.
 
@@ -69,11 +69,11 @@ Otras indicaciones predichas, todas con evidencia L5 y recomendación Hold:
 
 | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Deficiencia familiar de apolipoproteína C-II | 99.50% | Conexión tenue con el metabolismo lipídico; la inhibición de PCSK9 no corrige el defecto de activación de la lipoproteína lipasa |
-| Púrpura trombocitopénica | 99.42% | Sin conexión mecanística conocida |
-| Deficiencia de factor XI | 99.29% | Sin acción conocida sobre la cascada de coagulación |
-| Hemofilia A con anomalía vascular | 99.22% | Vía no relacionada con PCSK9 |
-| Enfermedad de actividad catalítica | 99.08% | Término inespecífico de ontología; no evaluable como indicación clínica |
+| Deficiencia familiar de apolipoproteína C-II | 0.9950 | Conexión tenue con el metabolismo lipídico; la inhibición de PCSK9 no corrige el defecto de activación de la lipoproteína lipasa |
+| Púrpura trombocitopénica | 0.9942 | Sin conexión mecanística conocida |
+| Deficiencia de factor XI | 0.9929 | Sin acción conocida sobre la cascada de coagulación |
+| Hemofilia A con anomalía vascular | 0.9922 | Vía no relacionada con PCSK9 |
+| Enfermedad de actividad catalítica | 0.9908 | Término inespecífico de ontología; no evaluable como indicación clínica |
 
 ---
 
@@ -93,7 +93,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20087350 | REPATHA® 140 MG/ML | Solución inyectable | EVOLOCUMAB | Cancelado |
+| 20087350 | REPATHA® 140 MG/ML | Solución inyectable | EVOLOCUMAB | Vigente |
 
 El único registro sanitario (fabricante: Amgen Manufacturing Limited LLC) está cancelado, por lo que actualmente no hay producto vigente en Colombia.
 

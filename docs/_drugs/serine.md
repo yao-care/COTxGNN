@@ -4,7 +4,7 @@ title: Serine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 583
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Serine: nueva indicación predicha, Miopatía visceral familiar (nivel de evidencia L5). Indicación original: Emulsiones lipídicas"
 monitor_inn: "Serine"
@@ -14,7 +14,7 @@ predicted_indications: ["familial visceral myopathy", "intestinal obstruction", 
 # Serine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 |------|------|
 | Indicación Original | Emulsiones lipídicas |
 | Nueva Indicación Predicha | Miopatía visceral familiar |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -62,9 +62,9 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la serina es un aminoácido proteinogénico que forma parte de una formulación de nutrición parenteral. Su uso registrado se limita al aporte nutricional, no a un efecto terapéutico sobre una enfermedad específica.
 
-Los datos compilados no respaldan un vínculo mecanístico entre la serina y la patología del músculo liso visceral (por ejemplo, las variantes del gen ACTG2 asociadas a la miopatía visceral familiar). La alta puntuación del modelo parece reflejar proximidad en el grafo de conocimiento, no evidencia biológica o clínica directa.
+Los datos compilados no respaldan un vínculo mecanístico entre la serina y la patología del músculo liso visceral (por ejemplo, las variantes del gen ACTG2 asociadas a la miopatía visceral familiar). La alta puntuación (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-Cabe señalar que las otras predicciones de mayor rango (seudoobstrucción intestinal, obstrucción intestinal, displasia neuronal intestinal) pertenecen al mismo grupo de trastornos de motilidad intestinal, lo que sugiere una señal compartida del grafo y no evidencia específica para cada enfermedad. La similitud con la indicación original queda pendiente de evaluar.
+Cabe señalar que las otras predicciones de mayor rango (seudoobstrucción intestinal, obstrucción intestinal, displasia neuronal intestinal) pertenecen al mismo grupo de trastornos de motilidad intestinal, lo que sugiere una señal compartida aprendida por el modelo TxGNN (aprendizaje profundo) y no evidencia específica para cada enfermedad. La similitud con la indicación original queda pendiente de evaluar.
 
 ---
 

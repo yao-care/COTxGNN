@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 |------|------|
 | Indicación Original | Tropicamida en combinaciones (solución oftálmica) |
 | Nueva Indicación Predicha | Síndrome de la cola de caballo |
-| Puntaje de Predicción TxGNN | 99.53% |
+| Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la tropicamida es un antagonista muscarínico (anticolinérgico). Los datos farmacológicos la vinculan con los receptores muscarínicos M2, M3, M4 y M5, y se usa como midriático de acción corta para examinar el cristalino, el humor vítreo y la retina.
 
-El síndrome de la cola de caballo se produce por la compresión de las raíces nerviosas y causa disfunción de vejiga, intestino y sensibilidad. Un anticolinérgico podría, en teoría, actuar sobre la hiperactividad del detrusor, pero no trata la causa de fondo, que requiere descompresión quirúrgica. El puntaje alto (0.995) probablemente refleja cercanía en el grafo de conocimiento por síntomas vesicales o intestinales neurogénicos compartidos, y no un efecto terapéutico demostrado.
+El síndrome de la cola de caballo se produce por la compresión de las raíces nerviosas y causa disfunción de vejiga, intestino y sensibilidad. Un anticolinérgico podría, en teoría, actuar sobre la hiperactividad del detrusor, pero no trata la causa de fondo, que requiere descompresión quirúrgica. El puntaje alto (0.9953) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como los síntomas vesicales o intestinales neurogénicos compartidos, no evidencia biológica ni un efecto terapéutico demostrado.
 
 Además, el fármaco solo está aprobado en forma oftálmica, con exposición sistémica mínima, por lo que no existe una vía de administración plausible para esta indicación.
 
@@ -69,8 +69,8 @@ Además, el fármaco solo está aprobado en forma oftálmica, con exposición si
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Vejiga neurogénica (término obsoleto en la ontología) | 99.13% | El antagonismo muscarínico es un mecanismo establecido (como oxibutinina o tolterodina), pero la tropicamida no tiene estudios para este uso y existen alternativas aprobadas y mejor estudiadas. |
-| 3 | Síndrome del intestino irritable | 99.12% | Los antiespasmódicos antimuscarínicos se usan en este síndrome, pero los efectos anticolinérgicos (estreñimiento, boca seca, taquicardia) podrían empeorar los síntomas. |
+| 2 | Vejiga neurogénica (término obsoleto en la ontología) | 0.9913 | El antagonismo muscarínico es un mecanismo establecido (como oxibutinina o tolterodina), pero la tropicamida no tiene estudios para este uso y existen alternativas aprobadas y mejor estudiadas. |
+| 3 | Síndrome del intestino irritable | 0.9912 | Los antiespasmódicos antimuscarínicos se usan en este síndrome, pero los efectos anticolinérgicos (estreñimiento, boca seca, taquicardia) podrían empeorar los síntomas. |
 
 ---
 
@@ -92,9 +92,9 @@ Los tres registros sanitarios están cancelados; no hay productos vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20069775 | T-P OFTENO | Solución oftálmica | Tropicamida combinaciones | Cancelado |
-| 20215215 | FOTORRETIN® Solución Oftálmica Estéril | Solución oftálmica | Fenilefrina combinaciones | Cancelado |
-| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Cancelado |
+| 20069775 | T-P OFTENO | Solución oftálmica | Tropicamida combinaciones | Vigente |
+| 20215215 | FOTORRETIN® Solución Oftálmica Estéril | Solución oftálmica | Fenilefrina combinaciones | Vigente |
+| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Vigente |
 
 ---
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco solo existe en forma oftálmica, sin registros vigentes en Colombia, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
+La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco está comercializado en Colombia con 3 registros vigentes, pero solo existe en forma oftálmica, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a la API de DrugBank).

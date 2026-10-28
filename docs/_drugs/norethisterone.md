@@ -48,10 +48,10 @@ pero actualmente no hay ensayos clínicos registrados y la literatura disponible
 |------|------|
 | Indicación Original | Noretisterona y estrógeno |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Prediccion TxGNN | 99.60% |
+| Puntaje de Prediccion TxGNN | 0.9960 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,7 +87,7 @@ Se priorizan las revisiones sistemáticas y los estudios con diseño más robust
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 38690 | PRIMOSISTON® (estado: cancelado) | Tableta | Noretisterona y estrógeno |
+| 38690 | PRIMOSISTON® (estado: vigente) | Tableta | Noretisterona y estrógeno |
 
 ## Consideraciones de Seguridad
 

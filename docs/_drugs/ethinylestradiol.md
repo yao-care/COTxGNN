@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 |------|------|
 | Indicación Original | Dienogest y etinilestradiol |
 | Nueva Indicación Predicha | Zinc plasmático elevado |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Los estrógenos, incluido el etinilestradiol, influyen en los metales traza circulantes: elevan la ceruloplasmina y el cobre, y pueden alterar la unión del zinc a la albúmina y otras proteínas. Esto sería una ruta plausible hacia cambios en el zinc plasmático, pero corresponde a un efecto sobre un biomarcador y no a un efecto terapéutico.
 
-Debe interpretarse con cautela: el zinc plasmático elevado es un hallazgo de laboratorio, no una enfermedad claramente definida como objetivo terapéutico. No se ha establecido la dirección del efecto (reducir o aumentar el zinc) ni un beneficio clínico. La predicción podría reflejar la conectividad del grafo de conocimiento (por ejemplo, vínculos compartidos con genes de homeostasis de metales) y no una señal terapéutica real. La relación con la indicación original (anticoncepción hormonal) no está evaluada.
+Debe interpretarse con cautela: el zinc plasmático elevado es un hallazgo de laboratorio, no una enfermedad claramente definida como objetivo terapéutico. No se ha establecido la dirección del efecto (reducir o aumentar el zinc) ni un beneficio clínico. La puntuación procede del modelo TxGNN (aprendizaje profundo) y podría reflejar similitudes que el modelo ha aprendido entre enfermedades relacionadas, no evidencia biológica ni una señal terapéutica real. La relación con la indicación original (anticoncepción hormonal) no está evaluada.
 
 ---
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20093177 | DIENILLE® comprimido recubierto | Tableta recubierta | Dienogest y etinilestradiol | Cancelado |
+| 20093177 | DIENILLE® comprimido recubierto | Tableta recubierta | Dienogest y etinilestradiol | Vigente |
 
 ---
 

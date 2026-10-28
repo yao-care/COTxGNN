@@ -48,10 +48,10 @@ Maraviroc es un antagonista del receptor de quimiocinas CCR5, comercializado en 
 |------|------|
 | Indicación Original | MARAVIROC (el registro sanitario no detalla la indicación; según la información conocida, infección por VIH) |
 | Nueva Indicación Predicha | Neoplasia endocrina múltiple |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,7 +60,7 @@ Maraviroc es un antagonista del receptor de quimiocinas CCR5, comercializado en 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, maraviroc es un antagonista de CCR5, un receptor de quimiocinas que participa en la entrada del VIH a las células y en la migración de células inmunitarias hacia sitios de inflamación.
 
-Las neoplasias endocrinas múltiples (MEN) son síndromes hereditarios impulsados principalmente por mutaciones en genes como MEN1 y RET. Los datos compilados no respaldan un mecanismo plausible mediado por CCR5 en estos síndromes. La relación entre la indicación original y la nueva es, por ahora, solo una asociación del grafo de conocimiento, sin vínculo mecanístico demostrado.
+Las neoplasias endocrinas múltiples (MEN) son síndromes hereditarios impulsados principalmente por mutaciones en genes como MEN1 y RET. Los datos compilados no respaldan un mecanismo plausible mediado por CCR5 en estos síndromes. La puntuación de esta nueva indicación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; por ahora no hay un vínculo mecanístico demostrado.
 
 Por ello, la predicción debe considerarse una hipótesis exploratoria. Cabe señalar que otras predicciones del mismo modelo tienen un sustento biológico algo más razonable, por ejemplo el cáncer de mama HER2 positivo (eje CCL5-CCR5 y resistencia a trastuzumab, evidencia preclínica) y la infección por citomegalovirus (nivel L4, solo evidencia indirecta), aunque tampoco cuentan con ensayos clínicos.
 
@@ -82,8 +82,8 @@ Actualmente no hay literatura relacionada disponible para neoplasia endocrina m�
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19989116 | CELSENTRI® 150 MG | Tableta recubierta | MARAVIROC | Cancelado |
-| 19989118 | CELSENTRI® 300 MG | Tableta recubierta | MARAVIROC | Cancelado |
+| 19989116 | CELSENTRI® 150 MG | Tableta recubierta | MARAVIROC | Vigente |
+| 19989118 | CELSENTRI® 300 MG | Tableta recubierta | MARAVIROC | Vigente |
 
 ---
 
@@ -103,7 +103,7 @@ Consultar el prospecto para información de seguridad complementaria.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción (99.82%) se basa solo en el grafo de conocimiento, sin ensayos clínicos ni publicaciones, y no existe un mecanismo plausible mediado por CCR5 en los síndromes MEN. Además, los registros sanitarios en Colombia están cancelados y el perfil de seguridad es relevante.
+La predicción (0.9982) se basa solo en el modelo TxGNN (aprendizaje profundo), sin ensayos clínicos ni publicaciones, y no existe un mecanismo plausible mediado por CCR5 en los síndromes MEN. Además, los registros sanitarios en Colombia están cancelados y el perfil de seguridad es relevante.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).

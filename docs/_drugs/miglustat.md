@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Enfermedad de Gaucher (uso clínico documentado). El texto del registro sanitario solo indica "MIGLUSTATO", sin detalle |
 | Nueva Indicación Predicha | Síndrome de ictiosis autosómica con curso fatal |
-| Puntaje de Predicción TxGNN | 99.83% |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Miglustat inhibe la enzima glucosilceramida sintasa (gen UGCG). Con ello reduce 
 
 La ictiosis es un grupo de trastornos de la barrera cutánea. Una posible conexión es el metabolismo alterado de esfingolípidos y ceramidas en la piel. En ese contexto, modular la glucosilceramida sintasa podría tener algún efecto. **Esta relación es especulativa**: los datos disponibles no incluyen estudios que la respalden, y la similitud con la indicación original no ha sido evaluada.
 
-El puntaje del modelo es muy alto (99.83%), pero es solo una predicción computacional. No debe interpretarse como evidencia de eficacia.
+El puntaje del modelo es muy alto (0.9983), pero es solo una predicción computacional. No debe interpretarse como evidencia de eficacia.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,14 +70,14 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
-> **Nota:** entre las demás indicaciones predichas, la **enfermedad de Tay-Sachs** (puesto 7 en el ranking, puntaje 99.75%) sí cuenta con evidencia. Incluye 4 ensayos clínicos (NCT00672022, Fase 3, completado, 10 participantes; NCT03822013, Fase 3, terminado, 30 participantes; NCT00418847, Fase 2; NCT02030015, Fase 4, terminado). También tiene 11 publicaciones, entre ellas un ECA en Tay-Sachs de inicio tardío (PMID 19346952) y una revisión sistemática (PMID 37209042). Esa indicación tiene nivel L1 y recomendación "Research Question". Los ensayos son pequeños y se centran en farmacocinética y seguridad, y no se dispone de sus conclusiones de eficacia. Merece un informe propio.
+> **Nota:** entre las demás indicaciones predichas, la **enfermedad de Tay-Sachs** (puesto 7 en el ranking, puntaje 0.9975) sí cuenta con evidencia. Incluye 4 ensayos clínicos (NCT00672022, Fase 3, completado, 10 participantes; NCT03822013, Fase 3, terminado, 30 participantes; NCT00418847, Fase 2; NCT02030015, Fase 4, terminado). También tiene 11 publicaciones, entre ellas un ECA en Tay-Sachs de inicio tardío (PMID 19346952) y una revisión sistemática (PMID 37209042). Esa indicación tiene nivel L1 y recomendación "Research Question". Los ensayos son pequeños y se centran en farmacocinética y seguridad, y no se dispone de sus conclusiones de eficacia. Merece un informe propio.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20261973 | MIGLUSTAT 100 MG - CÁPSULAS DURAS (GLOBAL-TEC COLOMBIA SAS) | Cápsula dura | MIGLUSTATO | Cancelado |
-| 20010809 | ZAVESCA® 100 MG (JANSSEN CILAG S.A.) | Cápsula dura | MIGLUSTATO | Cancelado |
+| 20261973 | MIGLUSTAT 100 MG - CÁPSULAS DURAS (GLOBAL-TEC COLOMBIA SAS) | Cápsula dura | MIGLUSTATO | Vigente |
+| 20010809 | ZAVESCA® 100 MG (JANSSEN CILAG S.A.) | Cápsula dura | MIGLUSTATO | Vigente |
 
 Ningún registro está vigente actualmente. Cualquier uso en Colombia requeriría una nueva gestión regulatoria.
 

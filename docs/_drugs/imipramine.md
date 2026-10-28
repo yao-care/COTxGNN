@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **7**
 
 </div>
 
-## Imipramina: De Imipramina (indicación no detallada en el registro) a Trastorno por Déficit de Atención e Hiperactividad
+## Imipramina: De Imipramina (indicación no detallada en el registro) a Trastorno por déficit de atención e hiperactividad (TDAH)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ sin **ensayos clínicos** registrados y con **20 publicaciones** asociadas, la m
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Imipramina") |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L3, sin ensayos clínicos registrados y con estudios de diseño no verificado. Además, los tricíclicos son de segunda línea en TDAH por su perfil de seguridad cardiovascular y anticolinérgico, la carga de 290 interacciones, y todos los registros sanitarios en Colombia están cancelados.
+La evidencia es de nivel L3, sin ensayos clínicos registrados y con estudios de diseño no verificado. Además, los tricíclicos son de segunda línea en TDAH por su perfil de seguridad cardiovascular y anticolinérgico y por la carga de 290 interacciones; en Colombia el medicamento está comercializado y cuenta con 2 licencias válidas.
 
 **Para avanzar se necesita:**
 - Verificar el diseño de los estudios clave (especialmente los de 1983 y 2008) y buscar ECA o metaanálisis de imipramina en TDAH.

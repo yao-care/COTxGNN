@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Carboplatin
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 137
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Carboplatin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L2). Indicación original: Carboplatino"
+evidence_level: L5
+indication_count: 9
 monitor_inn: "carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
+last_modified_at: 2026-10-27
+description: "Carboplatin: nueva indicación predicha, Adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma) (nivel de evidencia L5). Indicación original: CARBOPLATINO"
 ---
 
 # Carboplatin
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,124 +33,79 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Carboplatino: De Indicación Original (Carboplatino) a Carcinoma de Mama Femenino
+## Carboplatino: agente citotóxico derivado del platino → adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Carboplatino es un agente antineoplásico a base de platino, registrado en Colombia con la indicación genérica "carboplatino" (el texto del registro no detalla la enfermedad).
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **41 ensayos clínicos** y **20 publicaciones** compilados para esta indicación, incluidos varios ensayos aleatorizados de Fase 2 y 3.
-
----
+Carboplatino es un agente citotóxico a base de platino que se comercializa en Colombia en forma de solución inyectable.
+El modelo TxGNN predice que podría ser efectivo para el **adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden directamente esta predicción.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Carboplatino (el registro sanitario no especifica la enfermedad) |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.86% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Indicación Original | CARBOPLATINO |
+| Nueva Indicación Predicha | Adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma) |
+| Puntaje de Predicción TxGNN | 0,9928 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, carboplatino es un agente de platino que entrecruza el ADN y provoca daño que lleva a la muerte de las células tumorales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por conocimiento general, el carboplatino es un compuesto de platino que daña el ADN de las células tumorales mediante enlaces cruzados e impide su división.
 
-Los tumores con deficiencia de recombinación homóloga (mutaciones BRCA1/2 o cáncer de mama triple negativo) son especialmente sensibles al daño del ADN inducido por platino. Esto explica por qué agregar carboplatino a los esquemas estándar aumenta la tasa de respuesta patológica completa en estudios neoadyuvantes como GeparSixto y CALGB 40603.
-
-Dado que el fármaco ya se usa clínicamente en cáncer de mama, esta predicción se entiende mejor como una ampliación u optimización de un uso existente que como un reposicionamiento totalmente novedoso.
-
----
+La predicción parece reflejar características compartidas entre los adenocarcinomas y las redes de respuesta al daño del ADN. Sin embargo, esta es una inferencia computacional: no existen ensayos ni literatura específicos para el adenocarcinoma mucinoso del recto, por lo que la plausibilidad mecanística no ha sido verificada con evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los ensayos más relevantes (de 41 compilados):
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Fase 2 | Completado | 148 | Carboplatino vs docetaxel en cáncer de mama metastásico con mutación genética (BRCA); aleatorizado |
-| [NCT00616967](https://clinicaltrials.gov/study/NCT00616967) | Fase 2 | Activo, no recluta | 68 | Carboplatino + nab-paclitaxel con o sin vorinostat, preoperatorio en cáncer de mama HER2 negativo |
-| [NCT00021255](https://clinicaltrials.gov/study/NCT00021255) | Fase 3 | Completado | 3222 | AC-T vs AC-TH vs TCH (docetaxel, carboplatino, trastuzumab) adyuvante en HER2 positivo |
-| [NCT00047255](https://clinicaltrials.gov/study/NCT00047255) | Fase 3 | Completado | 263 | Docetaxel + trastuzumab con o sin carboplatino en cáncer de mama avanzado HER2 positivo |
-| [NCT02125344](https://clinicaltrials.gov/study/NCT02125344) | Fase 3 | Completado | 961 | GeparOcto: dos estrategias neoadyuvantes intensificadas, una con carboplatino, en cáncer de mama temprano de alto riesgo |
-| [NCT00025688](https://clinicaltrials.gov/study/NCT00025688) | Fase 3 | Desconocido | N/D | Paclitaxel semanal con o sin carboplatino en mayores de 65 años con cáncer metastásico |
-| [NCT01208480](https://clinicaltrials.gov/study/NCT01208480) | Fase 2 | Completado | 45 | Bevacizumab, docetaxel y carboplatino neoadyuvantes en cáncer de mama triple negativo |
-| [NCT00003612](https://clinicaltrials.gov/study/NCT00003612) | Fase 2 | Completado | 92 | Paclitaxel, carboplatino y trastuzumab de primera línea en cáncer metastásico HER2 positivo |
-| [NCT06291064](https://clinicaltrials.gov/study/NCT06291064) | Fase 2 | Reclutando | 85 | Respuesta y biomarcadores en cáncer de mama triple negativo con quimioterapia estándar que incluye docetaxel + carboplatino (Nigeria) |
-| [NCT05020860](https://clinicaltrials.gov/study/NCT05020860) | Fase 2 | Reclutando | 185 | Correlación entre respuesta clínica y patológica con terapia sistémica neoadyuvante en cáncer de mama temprano |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se muestran las publicaciones más relevantes (de 20 compiladas), priorizando ensayos aleatorizados:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [24794243](https://pubmed.ncbi.nlm.nih.gov/24794243/) | 2014 | ECA (Fase 2) | The Lancet Oncology | GeparSixto: carboplatino neoadyuvante en cáncer de mama triple negativo y HER2 positivo |
-| [29501363](https://pubmed.ncbi.nlm.nih.gov/29501363/) | 2018 | ECA (Fase 3) | The Lancet Oncology | BrighTNess: veliparib más carboplatino o carboplatino solo añadido a quimioterapia neoadyuvante estándar en triple negativo |
-| [35044810](https://pubmed.ncbi.nlm.nih.gov/35044810/) | 2022 | ECA (Fase 2) | J Clin Oncol | CALGB 40603: resultados a largo plazo con o sin carboplatino y bevacizumab en triple negativo |
-| [33208340](https://pubmed.ncbi.nlm.nih.gov/33208340/) | 2021 | ECA (Fase 2) | Clin Cancer Res | NeoSTOP: esquemas neoadyuvantes con carboplatino, con y sin antraciclina, en triple negativo |
-| [41436191](https://pubmed.ncbi.nlm.nih.gov/41436191/) | 2025 | ECA (Fase 3) | BMJ | CITRINE: quimioterapia adyuvante intensificada con carboplatino vs estándar en triple negativo de alto riesgo |
-| [41115255](https://pubmed.ncbi.nlm.nih.gov/41115255/) | 2026 | ECA (Fase 3) | J Clin Oncol | Adición de carboplatino a quimioterapia neoadyuvante secuencial taxano-antraciclina en triple negativo |
-| [29175149](https://pubmed.ncbi.nlm.nih.gov/29175149/) | 2018 | ECA (Fase 3) | The Lancet Oncology | KRISTINE: trastuzumab, pertuzumab y quimioterapia vs T-DM1 más pertuzumab en HER2 positivo |
-| [39631485](https://pubmed.ncbi.nlm.nih.gov/39631485/) | 2024 | Revisión | Pharmacological Research | Inhibidores dirigidos y citotóxicos usados en cáncer de mama |
-| [16720915](https://pubmed.ncbi.nlm.nih.gov/16720915/) | 2006 | Revisión | Medical Oncology | Evidencia de sinergia, eficacia y seguridad de paclitaxel-carboplatino en cáncer de mama avanzado |
-| [38705336](https://pubmed.ncbi.nlm.nih.gov/38705336/) | 2024 | Preclínico | Int J Biol Macromol | Nanopartículas para coadministrar carboplatino y doxorrubicina en células de cáncer de mama |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19974848 | Carboplatino 450 mg inyectable 450mg/45ml | Solución inyectable | Carboplatino (cancelado) |
-| 19941539 | Oncocarb 150 mg/15 ml | Solución inyectable | Carboplatino (cancelado) |
-| 19982073 | Carboplatino 450mg/45ml solución inyectable | Solución inyectable | Carboplatino (cancelado) |
-| 20215154 | Carbohet® 10 mg/ml solución concentrada para infusión | Solución concentrada para infusión | Carboplatino (cancelado) |
-
-Los cuatro registros figuran como cancelados; no hay registro vigente.
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 19974848 | CARBOPLATINO 450 MG INYECTABLE 450MG/45ML | Solución inyectable |
+| 19941539 | ONCOCARB 150 MG/15 ML | Solución inyectable |
+| 19982073 | CARBOPLATINO 450MG/45ML SOLUCIÓN INYECTABLE | Solución inyectable |
+| 20215154 | CARBOHET® 10 MG/ML SOLUCIÓN CONCENTRADA PARA INFUSIÓN | Solución concentrada para infusión |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (clase platino, agente alquilante tipo entrecruzador de ADN) |
-| Riesgo de Mielosupresión | Alto (las contraindicaciones del grafo de conocimiento señalan trombocitopenia, neutropenia, leucopenia, anemia y agranulocitosis) |
-| Clasificación de Emetogenicidad | Media a alta, según la categoría del fármaco |
-| Items de Monitoreo | Hemograma con diferencial y plaquetas, función renal y hepática, electrolitos, audiometría y evaluación neurológica |
-| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos (preparación en cabina, EPP) |
-
----
+| Clasificación de Citotoxicidad | Citotóxico convencional (clase platino) |
+| Riesgo de Mielosupresión | Alto (las relaciones de contraindicación registradas incluyen trombocitopenia, neutropenia, leucopenia, anemia y agranulocitosis) |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal, evaluación de neuropatía periférica y audición |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones relacionadas (grafo de conocimiento, no texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, leucopenia, anemia (incluida la macrocítica), trastornos de la coagulación sanguínea, neuropatía periférica y enfermedades del sistema nervioso periférico, trastornos de la audición, pérdida funcional de la visión y piouréter.
-- **Interacciones Farmacológicas**: se identificaron 488 interacciones. Entre las de nivel moderado destacan los aminoglucósidos (kanamicina, neomicina, estreptomicina) y la vancomicina, con posible suma de toxicidad renal y auditiva; los inhibidores de la bomba de protones (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol); metronidazol y tinidazol; y las estatinas (rosuvastatina, simvastatina). Levofloxacino figura como interacción menor.
+- **Condiciones con relación de contraindicación registrada (no proviene del texto del prospecto)**: enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, leucopenia, anemia (incluida la macrocítica), enfermedad del sistema nervioso periférico, neuropatía periférica, trastornos de la coagulación sanguínea, trastornos de la audición y del sistema auditivo, y pérdida visual funcional.
+- **Interacciones Farmacológicas**: se identificaron 488 interacciones. Las de nivel moderado incluyen inhibidores de la bomba de protones (omeprazol, esomeprazol, lansoprazol, dexlansoprazol, pantoprazol, rabeprazol), aminoglucósidos y antibióticos (kanamicina, neomicina, estreptomicina, vancomicina), nitroimidazoles (metronidazol, tinidazol) y estatinas (rosuvastatina, simvastatina). Levofloxacino figura como interacción menor.
 
-Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que no se dispone del texto del prospecto de INVIMA.
-
----
+Consultar el prospecto para la información de seguridad completa.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen múltiples ensayos aleatorizados de Fase 2 y Fase 3 con carboplatino en cáncer de mama, especialmente en subtipos triple negativo y HER2 positivo. Sin embargo, el carboplatino ya forma parte de la práctica clínica en esta enfermedad, y en Colombia no hay registro sanitario vigente.
+La predicción para el adenocarcinoma mucinoso del recto se basa únicamente en el puntaje del modelo (0,9928), sin ensayos clínicos ni publicaciones que estudien directamente esta enfermedad; por ello el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Revisar los resultados de supervivencia del ensayo de Fase 3 CITRINE (PMID 41436191) y de PMID 41115255 para confirmar la elevación a nivel L1.
-- Obtener el prospecto de INVIMA (advertencias y contraindicaciones) y los datos del mecanismo de acción desde DrugBank.
-- Definir la situación regulatoria: ningún registro vigente en Colombia, por lo que habría que reactivar o solicitar un nuevo registro.
-- Establecer un plan de monitoreo hematológico, renal, auditivo y neurológico, y revisar las interacciones con aminoglucósidos y otros nefrotóxicos.
+- Búsqueda de estudios clínicos o de literatura específicos en adenocarcinoma mucinoso del recto
+- Datos del mecanismo de acción y análisis del vínculo mecanístico
+- Advertencias y contraindicaciones del prospecto aprobado por INVIMA
+- Evaluación de seguridad (mielosupresión, nefrotoxicidad, neurotoxicidad, ototoxicidad) en la población objetivo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

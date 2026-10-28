@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Diclofenac
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 219
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Diclofenac: nueva indicación predicha, Artritis idiopática juvenil (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
+description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dys
 # Diclofenac
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Diclofenaco: De Tramadol y Diclofenaco a Artritis Idiopática Juvenil
+## Diclofenaco: De Tramadol y Diclofenaco a Hipotricosis simple del cuero cabelludo
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,13 +49,13 @@ El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juv
 |------|------|
 | Indicación Original | Tramadol y diclofenaco (combinación analgésica) |
 | Nueva Indicación Predicha | Artritis idiopática juvenil (según la predicción de mayor puntaje, "hipotricosis simple del cuero cabelludo", no existe respaldo clínico; se destaca la artritis idiopática juvenil por ser la primera predicción con evidencia) |
-| Puntaje de Predicción TxGNN | 99.24% (artritis idiopática juvenil); la predicción de rango 1 (hipotricosis simple del cuero cabelludo) tiene 99.69% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9969 (hipotricosis simple del cuero cabelludo) |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
-> Nota: la predicción de mayor puntaje (hipotricosis simple del cuero cabelludo, 99.69%) solo tiene respaldo del modelo (nivel L5, sin ensayos ni publicaciones). Este informe se centra en la artritis idiopática juvenil, la primera predicción con literatura disponible. Las demás predicciones del top 10 son solo predicciones del modelo, sin evidencia real, y se mantienen en "Hold".
+> Nota: la predicción de mayor puntaje (hipotricosis simple del cuero cabelludo, 0.9969) solo tiene respaldo del modelo (nivel L5, sin ensayos ni publicaciones). Este informe se centra en la artritis idiopática juvenil, la primera predicción con literatura disponible. Las demás predicciones del top 10 son solo predicciones del modelo, sin evidencia real, y se mantienen en "Hold".
 
 ---
 

@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Brinzolamide
-parent: Solo Predicción del Modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 115
-evidence_level: L5
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Brinzolamide: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: BRINZOLAMIDA"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Brinzolamide: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Brinzolamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,60 +32,47 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Brinzolamida: De Glaucoma/Hipertensión Ocular a Glaucoma Hereditario Primario
+<!-- known-uses-page -->
+<!-- description: Brinzolamide: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata -->
+## Brinzolamide: Usos conocidos y situación de mercado en Colombia
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Todos los candidatos que el modelo TxGNN propone para Brinzolamide, y que se pueden rastrear hasta una fuente, corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. A continuación se detallan los usos conocidos y su situación de mercado en Colombia.
 
-Brinzolamida es un inhibidor de la anhidrasa carbónica, utilizado para reducir la presión intraocular elevada en la hipertensión ocular y el glaucoma de ángulo abierto.
-El modelo TxGNN predice que podría ser efectivo para el **glaucoma hereditario primario**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; la predicción se basa únicamente en el modelo computacional.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Vista rápida
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | BRINZOLAMIDA (el registro sanitario no describe la indicación; según la información farmacológica, se usa en presión intraocular elevada, hipertensión ocular y glaucoma de ángulo abierto) |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.48% |
-| Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplica |
+| Situación de mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobados (respaldados por una licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| glaucoma primario hereditario (primary hereditary glaucoma) | licencia en otro país; indicación aprobada: glaucoma |
 
-Los datos compilados no incluyen el mecanismo de acción detallado del fármaco. Según el conocimiento farmacológico general, la brinzolamida inhibe la anhidrasa carbónica (principalmente la isoenzima II). En el epitelio ciliar, esto reduce la formación de bicarbonato y la secreción de humor acuoso, lo que disminuye la presión intraocular (PIO). Los datos de farmacología compilados confirman que se une a las anhidrasas carbónicas 1, 7, 12 y 14 humanas.
+### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Ninguna | Ninguna |
 
-La relación con la nueva indicación es directa: en el glaucoma hereditario, la PIO elevada causa la neuropatía óptica. Por ello, reducir la producción de humor acuoso es un mecanismo plausible. Sin embargo, el puntaje tan alto (0.995) probablemente refleja la asociación ya conocida entre esta clase de fármacos y el glaucoma, por lo que podría ser una **redescubierta de un uso existente** y no un verdadero hallazgo de reposicionamiento.
-
-Conviene tener cautela: el glaucoma hereditario primario (por ejemplo, el glaucoma congénito primario, frecuentemente asociado a variantes de CYP1B1) es una anomalía del desarrollo de la malla trabecular, y el tratamiento médico suele ser solo un puente temporal hacia la cirugía. Los datos disponibles no establecen la eficacia en esta población específica.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguna |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20075435 | SIMBRINZA® SUSPENSION OFTALMICA | Suspensión oftálmica | BRINZOLAMIDA | Cancelado |
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 20075435 | BRIMONIDINA TARTRATO | SUSPENSION OFTALMICA | Vigente |
 
----
+Los datos solo contienen parte de los registros; la lista puede estar incompleta.
 
 ## Consideraciones de Seguridad
 
@@ -94,19 +82,6 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y es probable que refleje un uso ya conocido de la clase farmacológica. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
-
-**Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de seguridad que bloquea el avance.
-- Confirmar el mecanismo de acción en DrugBank.
-- Aclarar la indicación aprobada real, ya que el registro solo contiene el nombre del fármaco.
-- Buscar ensayos clínicos y literatura específicos sobre glaucoma hereditario primario/congénito, y determinar si es un reposicionamiento real o un uso ya establecido.
-- Verificar la situación comercial actual en Colombia (registro cancelado) y la disponibilidad de formulaciones oftálmicas.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

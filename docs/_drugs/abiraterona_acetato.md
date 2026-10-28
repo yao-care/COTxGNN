@@ -8,6 +8,7 @@ nav_order: 15
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abiraterona Acetato
@@ -49,7 +50,7 @@ Abiraterona Acetato es un fármaco antineoplásico conocido internacionalmente c
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Solo identificación del candidato, sin predicciones ni estudios asociados |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

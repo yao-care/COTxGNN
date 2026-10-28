@@ -4,7 +4,7 @@ title: Levonorgestrel
 parent: Evidencia Moderada (L3-L4)
 nav_order: 401
 evidence_level: L4
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Levonorgestrel: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Levonorgestrel"
 monitor_inn: "LEVONORGESTREL"
@@ -14,7 +14,7 @@ predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant 
 # Levonorgestrel
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero no hay ens
 |------|------|
 | Indicación Original | Levonorgestrel (el registro no detalla la indicación; los productos son un sistema intrauterino y una tableta anticonceptiva) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99,88% |
+| Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -84,8 +84,8 @@ Se recuperaron 20 publicaciones; la mayoría son revisiones generales sobre anti
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|-----|
-| 20046501 | JAYDESS® | Implantes y sistemas intrauterinos e intraoculares | Levonorgestrel | Cancelado |
-| 20080147 | POSTCOID® 0.75 MG | Tableta | Levonorgestrel | Cancelado |
+| 20046501 | JAYDESS® | Implantes y sistemas intrauterinos e intraoculares | Levonorgestrel | Vigente |
+| 20080147 | POSTCOID® 0.75 MG | Tableta | Levonorgestrel | Vigente |
 
 ## Consideraciones de Seguridad
 

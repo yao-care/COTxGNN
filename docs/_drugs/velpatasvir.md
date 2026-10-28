@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 |------|------|
 | Indicación Original | Sofosbuvir + velpatasvir (combinación aprobada en el registro INVIMA; el texto no detalla la enfermedad) |
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

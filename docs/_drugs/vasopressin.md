@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Vasopressin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 654
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Vasopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L4). Indicación original: VASOPRESINA"
@@ -14,7 +14,7 @@ predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteo
 # Vasopressin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 |------|------|
 | Indicación Original | VASOPRESINA (el registro no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina |
-| Puntaje de Predicción TxGNN | 99.63% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 |
+| Puntaje de Predicción TxGNN | 0.9963 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 
 No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la vasopresina y su análogo desmopresina (DDAVP) actúan sobre los receptores V2, lo que libera factor von Willebrand y factor VIII desde los depósitos endoteliales.
 
-Este mecanismo es relevante para las deficiencias de factor VIII y de von Willebrand, pero **no tiene un vínculo establecido con la deficiencia de protrombina (factor II)**. El puntaje alto de TxGNN (0.996) probablemente refleja la cercanía en la red de conocimiento dentro del grupo de trastornos de la coagulación, más que un efecto mecanístico real sobre la protrombina.
+Este mecanismo es relevante para las deficiencias de factor VIII y de von Willebrand, pero **no tiene un vínculo establecido con la deficiencia de protrombina (factor II)**. El puntaje alto de TxGNN (0.9963) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas dentro del grupo de trastornos de la coagulación, no evidencia biológica de un efecto mecanístico real sobre la protrombina.
 
 La literatura recuperada trata sobre hemofilia A adquirida, deficiencia combinada de factores V/VIII y reemplazo de factor VIII en el embarazo. Es evidencia indirecta, relacionada con DDAVP y no con la vasopresina misma, y ninguna aborda la deficiencia de protrombina.
 
@@ -116,7 +116,7 @@ La predicción se apoya únicamente en la proximidad computacional dentro de la 
 
 ### Nota sobre la segunda predicción
 
-**Osteoporosis inducida por fármacos** (puntaje TxGNN 99.62%, nivel de evidencia L5, decisión Hold): no hay ensayos clínicos ni literatura. La señalización por receptores V1/V2 en células óseas es solo especulativa en entornos preclínicos, y la hiponatremia asociada al exceso de vasopresina se ha vinculado con pérdida ósea, por lo que el efecto podría ser perjudicial y la dirección del efecto es incierta.
+**Osteoporosis inducida por fármacos** (puntaje TxGNN 0.9962, nivel de evidencia L5, decisión Hold): no hay ensayos clínicos ni literatura. La señalización por receptores V1/V2 en células óseas es solo especulativa en entornos preclínicos, y la hiponatremia asociada al exceso de vasopresina se ha vinculado con pérdida ósea, por lo que el efecto podría ser perjudicial y la dirección del efecto es incierta.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

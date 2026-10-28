@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **acidosis tubular renal**
 |------|------|
 | Indicación Original | NITISINONA (el registro no detalla la indicación; por mecanismo y uso conocido corresponde a tirosinemia hereditaria tipo 1) |
 | Nueva Indicación Predicha | Acidosis tubular renal |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 6 (0 vigentes, 6 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,7 +113,7 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni publi
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.
 - Confirmar el mecanismo de acción con fuentes como DrugBank.
 - Revisar la literatura sobre tubulopatía en tirosinemia tipo 1 tratada con nitisinona, para evaluar el efecto indirecto.
-- Aclarar la situación regulatoria, ya que todos los registros están cancelados.
+- Confirmar la situación regulatoria: el medicamento está comercializado y los 6 registros de 6 están vigentes.
 - Si se continúa, plantear estudios preclínicos o de mecanismo antes de cualquier ensayo clínico.
 ## Descargo de responsabilidad
 

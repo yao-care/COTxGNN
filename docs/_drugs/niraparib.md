@@ -6,9 +6,9 @@ nav_order: 469
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Niraparib: nueva indicación predicha, Neoplasia quística (cystic neoplasm) (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
+description: "Niraparib: nueva indicación predicha, Epiglottis neoplasm (nivel de evidencia L5). Indicación original: NIRAPARIB"
 ---
 
 # Niraparib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Niraparib: De Indicación Original (no especificada) a Neoplasia Quística
+## Niraparib: Epiglottis neoplasm
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia quística**, c
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "NIRAPARIB") |
-| Nueva Indicación Predicha | Neoplasia quística (cystic neoplasm) |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | NIRAPARIB |
+| Nueva Indicación Predicha | Epiglottis neoplasm |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 según la regla estricta (ningún ECA de Fase 3 completado); el análisis de evidencia le asigna L2 por la existencia de ensayos de Fase 2 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 > **Nota sobre la indicación predicha:** la primera predicción por puntaje (neoplasia de epiglotis) no tiene ningún ensayo ni publicación. Este informe se centra en la segunda predicción (neoplasia quística), que es la única con evidencia disponible. Las demás predicciones (rangos 3 a 10) no cuentan con evidencia clínica ni bibliográfica.

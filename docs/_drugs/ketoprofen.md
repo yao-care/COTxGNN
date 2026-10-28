@@ -4,17 +4,17 @@ title: Ketoprofen
 parent: Solo Predicción del Modelo (L5)
 nav_order: 367
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ketoprofeno"
 monitor_inn: "ketoprofen"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "spondyloarthropathy, susceptibility to", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 ---
 
 # Ketoprofen
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ketoprofeno: De Ketoprofeno (indicación registrada) a Displasia Acromesomélica tipo Hunter-Thompson
+## Ketoprofeno: De Ketoprofeno (indicación registrada) a Displasia acromesomélica, tipo Hunter-Thompson
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 |------|------|
 | Indicación Original | Ketoprofeno (el texto del registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético causado por mutaciones de pérdida de función en CDMP1/GDF5, que alteran la condrogénesis. La inhibición de la COX no corrige de forma plausible el defecto subyacente en la señalización BMP/GDF.
 
-En consecuencia, el puntaje alto de TxGNN parece reflejar cercanía en el grafo de conocimiento y no un respaldo biológico. **No se identificó un mecanismo establecido que justifique esta predicción.**
+En consecuencia, el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no un respaldo biológico. **No se identificó un mecanismo establecido que justifique esta predicción.**
 
 ---
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20158718 | BICERTO® 150 MG (75 MG de liberación inmediata + 75 MG de liberación prolongada) | Tableta de liberación modificada (oral) | KETOPROFENO | Cancelado |
+| 20158718 | BICERTO® 150 MG (75 MG de liberación inmediata + 75 MG de liberación prolongada) | Tableta de liberación modificada (oral) | KETOPROFENO | Vigente |
 
 ---
 
@@ -108,7 +108,7 @@ La predicción carece de ensayos, literatura y plausibilidad mecanística (nivel
 - Advertencias y contraindicaciones del prospecto del INVIMA.
 - Evidencia preclínica o clínica específica de ketoprofeno en esta indicación.
 
-**Nota sobre otras predicciones:** entre las 10 predicciones, solo dos tienen una plausibilidad indirecta, basada en el uso de los AINE como clase en cuadros inflamatorios (nivel L4, "pregunta de investigación"): *susceptibilidad a espondiloartropatía* (puntaje 99.86%) y *artritis juvenil por defecto en LACC1* (99.74%). Ninguna cuenta con ensayos ni literatura específicos de ketoprofeno. El resto (displasias esqueléticas, miosclerosis, síndrome WHIM, entre otras) no tiene vínculo mecanístico plausible.
+**Nota sobre otras predicciones:** entre las 10 predicciones, solo dos tienen una plausibilidad indirecta, basada en el uso de los AINE como clase en cuadros inflamatorios (nivel L4, "pregunta de investigación"): *susceptibilidad a espondiloartropatía* (puntaje 0.9986) y *artritis juvenil por defecto en LACC1* (0.9974). Ninguna cuenta con ensayos ni literatura específicos de ketoprofeno. El resto (displasias esqueléticas, miosclerosis, síndrome WHIM, entre otras) no tiene vínculo mecanístico plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

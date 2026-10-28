@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Docetaxel
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 228
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Docetaxel: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: No especificada"
+evidence_level: L2
+indication_count: 7
 monitor_inn: "DOCETAXEL"
-predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
+last_modified_at: 2026-10-27
+description: "Docetaxel: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: DOCETAXEL"
 ---
 
 # Docetaxel
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,134 +33,100 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Docetaxel: De Docetaxel (indicación original no especificada) a Carcinoma de Mama Femenino
+## Docetaxel: taxano antimitótico (estabilizador de microtúbulos) → Sarcoma de Ewing (Ewing sarcoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Docetaxel es un fármaco antineoplásico de la clase de los taxanos; en los registros sanitarios colombianos consultados solo figura el nombre del fármaco como indicación, sin detalle de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **más de 40 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
-Cabe aclarar que en cáncer de mama el docetaxel ya es un tratamiento establecido, por lo que no se trata de un reposicionamiento en sentido estricto.
-
----
+Docetaxel es un quimioterápico de la familia de los taxanos que se comercializa en Colombia en solución inyectable para infusión.
+El modelo TxGNN predice que podría ser útil para el **Sarcoma de Ewing (Ewing sarcoma)**, con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección, aunque casi siempre con docetaxel en combinación con gemcitabina.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "Docetaxel") |
-| Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L1 (≥2 ECA de Fase 3 completados: NCT00003519, NCT00021255, NCT00333775, NCT00887536, entre otros) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
-> Nota: el análisis automatizado de los datos asignó nivel L2 a esta indicación. Al revisar los ensayos listados, hay varios ECA de Fase 3 completados, lo que cumple el criterio de L1. Se recomienda verificar este punto manualmente.
-
----
+| Indicación Original | DOCETAXEL |
+| Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el docetaxel es un taxano que estabiliza los microtúbulos e impide la progresión de la mitosis, lo que afecta a las células tumorales que se dividen con rapidez.
+Docetaxel estabiliza los microtúbulos de las células e impide que se dividan con normalidad. Por eso actúa sobre células tumorales que proliferan con rapidez, como las del sarcoma. Los datos compilados para este informe no traen una descripción detallada del mecanismo de acción, de modo que esta explicación se basa en el conocimiento general de la clase de los taxanos.
 
-La indicación original no está detallada en el registro colombiano, pero el fármaco pertenece a la quimioterapia citotóxica. El cáncer de mama es un tumor de proliferación celular activa, por lo que la lógica mecanística es directa. La literatura describe al docetaxel como un agente establecido en cáncer de mama avanzado, y los ensayos incluyen su uso en combinación con antraciclinas, ciclofosfamida, trastuzumab y bevacizumab.
+En la práctica clínica, docetaxel se ha usado en el sarcoma de Ewing recidivante o refractario, casi siempre junto con gemcitabina o irinotecán. Existe además un estudio de fase II de docetaxel solo en tumores de Ewing en recaída o refractarios, con 14 pacientes.
 
-Un punto a tener en cuenta: gran parte de los ensayos de Fase 3 evalúan regímenes combinados, donde docetaxel forma parte del esquema y el objetivo del estudio suele ser otro componente (por ejemplo, bevacizumab o lapatinib). Por eso, la contribución individual del docetaxel se infiere de la práctica clínica establecida más que de estos ensayos por separado.
-
----
+Hay que tener cautela. Los estudios de fase 2 son pequeños y muestran una actividad modesta y variable. En las combinaciones con gemcitabina no se puede separar el aporte de docetaxel del de su acompañante.
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan los ensayos más relevantes, priorizando estudios completados de Fase 3 y Fase 2 con inscripción informativa.
-
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00003519](https://clinicaltrials.gov/study/NCT00003519) | Fase 3 | Completado | 2778 | Adriamicina/docetaxel vs. adriamicina/ciclofosfamida como tratamiento adyuvante en cáncer de mama con ganglios positivos o de alto riesgo |
-| [NCT00021255](https://clinicaltrials.gov/study/NCT00021255) | Fase 3 | Completado | 3222 | AC-T vs. AC-TH vs. TCH (docetaxel, carboplatino, trastuzumab) en cáncer de mama HER2 positivo operable |
-| [NCT00003782](https://clinicaltrials.gov/study/NCT00003782) | Fase 3 | Completado | 5351 | Comparación de tres regímenes adyuvantes (AC-T, AT, ATC) con docetaxel en cáncer de mama con ganglios positivos |
-| [NCT00002707](https://clinicaltrials.gov/study/NCT00002707) | Fase 3 | Completado | 2411 | Quimioterapia preoperatoria AC con o sin docetaxel antes o después de la cirugía |
-| [NCT00333775](https://clinicaltrials.gov/study/NCT00333775) | Fase 3 | Completado | 736 | Bevacizumab + docetaxel vs. docetaxel + placebo en primera línea de cáncer de mama metastásico HER2 negativo |
-| [NCT00887536](https://clinicaltrials.gov/study/NCT00887536) | Fase 3 | Completado | 1613 | TC + bevacizumab vs. TC solo vs. TAC en cáncer de mama HER2 negativo |
-| [NCT00667251](https://clinicaltrials.gov/study/NCT00667251) | Fase 3 | Completado | 652 | Quimioterapia con taxano + lapatinib vs. trastuzumab en cáncer de mama metastásico HER2 positivo |
-| [NCT03588091](https://clinicaltrials.gov/study/NCT03588091) | Fase 3 | Completado | 355 | Pirotinib + trastuzumab + docetaxel vs. placebo + trastuzumab + docetaxel en terapia neoadyuvante HER2 positivo |
-| [NCT00431080](https://clinicaltrials.gov/study/NCT00431080) | Fase 3 | Completado | 478 | FE75C seguido de docetaxel vs. paclitaxel con dosis densas en cáncer de mama con ganglios positivos |
-| [NCT00321633](https://clinicaltrials.gov/study/NCT00321633) | Fase 2 | Completado | 148 | Ensayo aleatorizado de carboplatino vs. docetaxel en cáncer de mama metastásico con mutación genética (BRCA) |
-
----
+| [NCT00073983](https://clinicaltrials.gov/study/NCT00073983) | Fase 2 | Completado | 54 | Gemcitabina seguida de docetaxel en sarcoma de Ewing, osteosarcoma o condrosarcoma recurrentes; directamente relevante |
+| [NCT02511132](https://clinicaltrials.gov/study/NCT02511132) | Fase 2 | Completado | 22 | Vigil frente a gemcitabina + docetaxel en sarcoma de Ewing metastásico |
+| [NCT03449901](https://clinicaltrials.gov/study/NCT03449901) | Fase 2 | Completado | 98 | ADI-PEG 20 con gemcitabina y docetaxel en sarcomas (incluye Ewing) y cáncer de pulmón de células pequeñas |
+| [NCT00002825](https://clinicaltrials.gov/study/NCT00002825) | Fase 2 | Completado | 20 | Docetaxel solo en tumores sólidos recurrentes en niños; no es específico de Ewing |
+| [NCT00014456](https://clinicaltrials.gov/study/NCT00014456) | Fase 1 | Completado | 35 | Escalada de dosis de docetaxel, gemcitabina y filgrastim en tumores sólidos avanzados; datos de seguridad y dosificación |
+| [NCT00049296](https://clinicaltrials.gov/study/NCT00049296) | Fase 1 | Completado | 26 | Talidomida + docetaxel (farmacocinética) en cáncer avanzado; relevancia limitada |
+| [NCT05116800](https://clinicaltrials.gov/study/NCT05116800) | Fase 2 | Retirado | 0 | 9-ING-41 con gemcitabina/docetaxel en sarcomas avanzados; sin datos |
+| [NCT04183062](https://clinicaltrials.gov/study/NCT04183062) | Fase 2 | Retirado | 0 | BIO-11006 con gemcitabina/docetaxel en osteosarcoma y sarcoma de Ewing con metástasis pulmonares; sin datos |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [28398846](https://pubmed.ncbi.nlm.nih.gov/28398846/) | 2017 | ECA | J Clin Oncol | Ensayos ABC: comparación de docetaxel + ciclofosfamida (TC) con regímenes de antraciclinas + taxano en cáncer de mama temprano |
-| [10791395](https://pubmed.ncbi.nlm.nih.gov/10791395/) | 2000 | Revisión | Lancet | Los taxanos (paclitaxel y docetaxel) tienen actividad sustancial en cáncer de mama, pulmón y ovario |
-| [21872996](https://pubmed.ncbi.nlm.nih.gov/21872996/) | 2012 | Revisión | Cancer Treat Rev | Docetaxel combinado con terapias dirigidas en cáncer de mama metastásico |
-| [12868800](https://pubmed.ncbi.nlm.nih.gov/12868800/) | 2003 | Revisión | Breast Cancer Res Treat | Combinaciones de docetaxel y antraciclinas en cáncer de mama metastásico |
-| [12868802](https://pubmed.ncbi.nlm.nih.gov/12868802/) | 2003 | Revisión | Breast Cancer Res Treat | Docetaxel neoadyuvante en cáncer de mama localmente avanzado |
-| [9775340](https://pubmed.ncbi.nlm.nih.gov/9775340/) | 1998 | Revisión | Am J Health Syst Pharm | Farmacología, ensayos clínicos y efectos adversos del docetaxel en cáncer de mama metastásico |
-| [16020974](https://pubmed.ncbi.nlm.nih.gov/16020974/) | 2005 | Fase 2 | Oncology | Docetaxel semanal + gemcitabina como primera línea en cáncer de mama metastásico |
-| [26874836](https://pubmed.ncbi.nlm.nih.gov/26874836/) | 2017 | Estudio clínico | Breast Cancer | Docetaxel, ciclofosfamida y trastuzumab como quimioterapia neoadyuvante en cáncer de mama HER2 positivo |
-| [27997437](https://pubmed.ncbi.nlm.nih.gov/27997437/) | 2017 | Cohorte | Anti-Cancer Drugs | Asociación entre quimioterapia adyuvante con docetaxel y linfedema relacionado con cáncer de mama |
-| [12599222](https://pubmed.ncbi.nlm.nih.gov/12599222/) | 2003 | Estudio clínico | Cancer | Capecitabina con docetaxel y epirrubicina en cáncer de mama avanzado sin tratamiento previo |
-
----
+| [22363068](https://pubmed.ncbi.nlm.nih.gov/22363068/) | 2012 | Ensayo fase 2 | The Oncologist | Gemcitabina seguida de docetaxel en sarcoma de Ewing, osteosarcoma y condrosarcoma recurrentes (SARC 003); objetivo principal: tasa de respuesta objetiva |
+| [28787430](https://pubmed.ncbi.nlm.nih.gov/28787430/) | 2017 | Ensayo fase 2 | Br J Cancer | GEIS-21: quimioterapia intensiva con gemcitabina y docetaxel en sarcoma de Ewing de alto riesgo recién diagnosticado |
+| [25164234](https://pubmed.ncbi.nlm.nih.gov/25164234/) | 2014 | Ensayo fase 2 | BMC Cancer | Docetaxel + irinotecán en niños y adultos jóvenes con tumores de la familia Ewing recurrentes o refractarios |
+| [18521364](https://pubmed.ncbi.nlm.nih.gov/18521364/) | 2003 | Ensayo fase 2 | Sarcoma | Docetaxel solo en 14 pacientes con tumores de Ewing en recaída o refractarios |
+| [32386107](https://pubmed.ncbi.nlm.nih.gov/32386107/) | 2020 | Ensayo fase 2 | Pediatr Blood Cancer | Gemcitabina + nab-paclitaxel (otro taxano) en sarcoma de Ewing recurrente |
+| [18484657](https://pubmed.ncbi.nlm.nih.gov/18484657/) | 2008 | Cohorte | Cancer | Gemcitabina + docetaxel en sarcoma óseo refractario de niños y adultos jóvenes |
+| [22302783](https://pubmed.ncbi.nlm.nih.gov/22302783/) | 2012 | Cohorte retrospectiva | Pediatr Blood Cancer | GEMDOX en sarcomas pediátricos en recaída o refractarios |
+| [19727011](https://pubmed.ncbi.nlm.nih.gov/19727011/) | 2009 | Serie clínica | J Pediatr Hematol Oncol | Experiencia con gemcitabina-docetaxel en sarcomas pediátricos en recaída o refractarios |
+| [15117993](https://pubmed.ncbi.nlm.nih.gov/15117993/) | 2004 | Estudio de laboratorio y clínico | J Clin Oncol | Sinergia citotóxica de gemcitabina seguida de docetaxel en sarcomas |
+| [20132000](https://pubmed.ncbi.nlm.nih.gov/20132000/) | 2010 | Revisión | Expert Rev Anticancer Ther | Papel de la quimioterapia en sarcomas de tejidos blandos |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19969842 (cancelado) | DOCETAXEL 80 MG INYECTABLE | Solución concentrada para infusión | DOCETAXEL |
-| 20151870 (cancelado) | DOCETAXEL 10 MG/ML | Solución inyectable | DOCETAXEL |
-
-Ambos registros sanitarios están cancelados, por lo que actualmente no hay registros vigentes de docetaxel en los datos consultados.
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 19969842 | DOCETAXEL 80 MG INYECTABLE | Solución concentrada para infusión |
+| 20151870 | DOCETAXEL 10 MG/ML | Solución inyectable |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (clase taxano, antimitótico que estabiliza microtúbulos) |
-| Riesgo de Mielosupresión | Alto. Las relaciones de seguridad conocidas incluyen neutropenia, trombocitopenia, anemia y agranulocitosis |
+| Clasificación de Citotoxicidad | Citotóxico convencional (taxano, antimitótico) |
+| Riesgo de Mielosupresión | Alto (neutropenia frecuente; también anemia y trombocitopenia) |
 | Clasificación de Emetogenicidad | Baja a moderada |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (incluida bilirrubina), función renal, electrolitos, signos de neuropatía periférica y retención de líquidos |
+| Items de Monitoreo | Hemograma con diferencial, función hepática (incluida bilirrubina), función renal, signos de neuropatía periférica y retención de líquidos |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo (según el grafo de conocimiento, no según el prospecto):** enfermedad hepática, enfermedad de la vesícula biliar, trombocitopenia, neutropenia, agranulocitosis, neuropatía periférica y otras enfermedades del sistema nervioso periférico, anemia, hiperbilirrubinemia (incluido el síndrome de Gilbert), enfermedad diarreica, edema pulmonar, estomatitis, neuritis y taponamiento cardíaco.
-- **Interacciones Farmacológicas:** se identificaron 100 interacciones en total; las más relevantes de la muestra son:
-  - **Mayor:** claritromicina.
-  - **Moderadas:** aprepitant, metronidazol, cimetidina, eliglustat, miconazol, rolapitant, rosuvastatina, simvastatina, tinidazol y troglitazona.
-  - **Menores:** dexametasona, levofloxacino, prednisolona y prednisona.
-  - Algunas interacciones tienen nivel desconocido (calcitriol, clotrimazol, manitol, clorhexidina, ácido acetilsalicílico).
+- **Interacciones Farmacológicas**: se registraron 100 interacciones. Entre las principales:
+  - **Mayor**: claritromicina.
+  - **Moderada**: aprepitant, rolapitant, metronidazol, tinidazol, cimetidina, eliglustat, miconazol, rosuvastatina, simvastatina y troglitazona.
+  - **Menor**: dexametasona, prednisolona, prednisona y levofloxacino.
 
-Para advertencias y contraindicaciones formales, consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen múltiples ensayos de Fase 3 completados y grandes (miles de pacientes) en cáncer de mama que incluyen docetaxel, además de literatura abundante, lo que respalda la predicción. Sin embargo, no es un reposicionamiento propiamente dicho, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto.
+Hay estudios de fase 2 completados que incluyen el sarcoma de Ewing, lo que sustenta un nivel de evidencia L2. Sin embargo, son pequeños, casi todos usan docetaxel en combinación y no permiten aislar su aporte. Además, faltan los datos de seguridad del prospecto local.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones formales.
-- Confirmar la indicación aprobada real de los registros y el estado regulatorio actual (registros cancelados; evaluar necesidad de nuevo registro o importación).
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar qué parte del beneficio en los ensayos combinados corresponde al docetaxel.
-- Definir un plan de monitoreo hematológico y de neuropatía, y revisar interacciones con inhibidores del CYP3A4 (por ejemplo, claritromicina).
-
----
-
-### Otras indicaciones predichas (referencia)
-
-Las demás predicciones del modelo tienen evidencia más débil: sarcoma de Ewing (L2, pregunta de investigación; ensayos de Fase 2 con gemcitabina/docetaxel), carcinoma pulmonar de células pequeñas (evidencia centrada en cáncer de pulmón no microcítico, sin beneficio directo demostrado), rabdomiosarcoma (L2, datos escasos) y varias indicaciones raras con solo reportes de casos o ninguna evidencia (Hold).
+- Obtener y analizar el prospecto aprobado en Colombia (advertencias y contraindicaciones).
+- Evaluar la contribución propia de docetaxel frente a la de gemcitabina u otros acompañantes, con datos comparativos o análisis de los estudios existentes.
+- Confirmar datos del mecanismo de acción en fuentes de referencia.
+- Definir un plan de monitoreo hematológico y de manejo de interacciones (por ejemplo, con inhibidores potentes de CYP3A4 como claritromicina).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

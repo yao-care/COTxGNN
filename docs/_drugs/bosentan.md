@@ -4,7 +4,7 @@ title: Bosentan
 parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
-indication_count: 9
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 monitor_inn: "BOSENTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndro
 # Bosentan
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 |------|------|
 | Indicación Original | BOSENTAN (el texto del registro no especifica la enfermedad) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,8 +91,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20174462 | BOSENTAN 125 MG | Tableta recubierta | BOSENTAN (cancelado) |
-| 20103607 | TABOSEN® 125 MG tableta recubierta | Tableta | BOSENTAN (cancelado) |
+| 20174462 | BOSENTAN 125 MG | Tableta recubierta | BOSENTAN (vigente) |
+| 20103607 | TABOSEN® 125 MG tableta recubierta | Tableta | BOSENTAN (vigente) |
 
 ---
 
@@ -110,7 +110,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (99.80%), pero la evidencia se limita a estudios preclínicos en ratones y a literatura clínica centrada en la hipertensión pulmonar, sin ensayos registrados en artritis reumatoide. Además, los dos registros sanitarios en Colombia están cancelados y el perfil de seguridad (especialmente hepático) exige cautela.
+La predicción de TxGNN es muy alta (0.9980), pero la evidencia se limita a estudios preclínicos en ratones y a literatura clínica centrada en la hipertensión pulmonar, sin ensayos registrados en artritis reumatoide. Además, los dos registros sanitarios en Colombia están cancelados y el perfil de seguridad (especialmente hepático) exige cautela.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde DrugBank
@@ -121,7 +121,7 @@ La predicción de TxGNN es muy alta (99.80%), pero la evidencia se limita a estu
 
 ### Otras indicaciones predichas (referencia)
 
-Entre las predicciones restantes, la **esclerosis sistémica limitada** (puntaje 99.65%, nivel L3) tiene la evidencia más sólida: una revisión sistemática y metaanálisis sobre úlceras digitales (PMID 36974107), un ECA de bosentan frente a nifedipino en vasculopatía por esclerosis sistémica (PMID 36278776) y estudios in vitro sobre la transición endotelio-mesenquimal. La evidencia corresponde a la esclerosis sistémica en general (úlceras digitales e HAP), por lo que la especificidad para la forma limitada es inferida. Las demás predicciones (síndrome de braquidactilia-sindactilia, gota, hipertricosis y otras) tienen nivel L5 y se recomienda mantenerlas en espera (Hold).
+Las predicciones restantes (síndrome de braquidactilia-sindactilia, gota, hipertricosis y otras) tienen nivel L5 y se recomienda mantenerlas en espera (Hold).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

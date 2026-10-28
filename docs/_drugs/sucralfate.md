@@ -48,9 +48,9 @@ con **0 ensayos clínicos registrados** y **11 publicaciones** que actualmente r
 |------|------|
 | Indicación Original | Sucralfato (el registro sanitario no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.37% |
+| Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -84,10 +84,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20013276 | SUGASTRIN® SUSPENSION | Suspensión oral | Sucralfato (cancelado) |
-| 41528 | DIP SUSPENSION | Suspensión oral | Sucralfato (cancelado) |
-| 20056480 | ULPIGAS® | Tableta dispersable | Sucralfato (cancelado) |
-| 36743 | ALSUCRAL® TABLETAS X 1 G. | Tableta | Sucralfato (cancelado) |
+| 20013276 | SUGASTRIN® SUSPENSION | Suspensión oral | Sucralfato (vigente) |
+| 41528 | DIP SUSPENSION | Suspensión oral | Sucralfato (vigente) |
+| 20056480 | ULPIGAS® | Tableta dispersable | Sucralfato (vigente) |
+| 36743 | ALSUCRAL® TABLETAS X 1 G. | Tableta | Sucralfato (vigente) |
 
 ## Consideraciones de Seguridad
 
@@ -109,7 +109,7 @@ Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguo
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información bloqueante para el tamizaje de seguridad.
 - Confirmar el mecanismo de acción con DrugBank.
 - Revisar los resúmenes completos de los ECA para verificar tamaños de efecto, ya que no estaban disponibles.
-- Evaluar la situación regulatoria: todos los registros están cancelados, por lo que habría que determinar si se requiere un nuevo registro o una alternativa de acceso.
+- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias válidas en este país, por lo que habría que determinar si alguna de ellas permite el acceso necesario.
 - Valorar la seguridad en pacientes con enfermedad renal o diabetes (contraindicaciones del grafo) y el manejo de las interacciones, en especial con antirretrovirales inhibidores de integrasa (dolutegravir, bictegravir), tetraciclinas y bisfosfonatos.
 - Diseñar un ensayo contemporáneo, controlado y con desenlaces objetivos (endoscópicos e histológicos), comparado con tratamientos actuales como los inhibidores de la bomba de protones.
 ## Descargo de responsabilidad

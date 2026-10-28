@@ -48,9 +48,9 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, de l
 |------|------|
 | Indicación Original | Dexametasona y antiinfecciosos |
 | Nueva Indicación Predicha | Alopecia areata |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -85,9 +85,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20174553 | OFTALMAX® | Solución oftálmica | Dexametasona y antiinfecciosos (cancelado) |
-| 20004823 | FIXAMICIN DEXACIPRO GOTAS OTICAS | Suspensión ótica | Dexametasona y antiinfecciosos (cancelado) |
-| 20235748 | TOBRAMISOL D® | Suspensión oftálmica | Dexametasona y antiinfecciosos (cancelado) |
+| 20174553 | OFTALMAX® | Solución oftálmica | Dexametasona y antiinfecciosos (vigente) |
+| 20004823 | FIXAMICIN DEXACIPRO GOTAS OTICAS | Suspensión ótica | Dexametasona y antiinfecciosos (vigente) |
+| 20235748 | TOBRAMISOL D® | Suspensión oftálmica | Dexametasona y antiinfecciosos (vigente) |
 
 ## Consideraciones de Seguridad
 

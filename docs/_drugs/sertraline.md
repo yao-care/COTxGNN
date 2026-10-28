@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sertraline
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 585
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
-description: "Sertraline: nueva indicación predicha, Trastorno esquizotípico de la personalidad (nivel de evidencia L4). Indicación original: SERTRALINA"
 monitor_inn: "Sertraline"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: nueva indicación predicha, Schizotypal personality disorder (nivel de evidencia L5). Indicación original: SERTRALINA"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-## Sertralina: De Sertralina (indicación según registro INVIMA) a Trastorno Esquizotípico de la Personalidad
+## Sertraline: Schizotypal personality disorder
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Sertralina es un inhibidor selectivo de la recaptación de serotonina (ISRS), re
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | SERTRALINA (el registro no detalla la indicación) |
-| Nueva Indicación Predicha | Trastorno esquizotípico de la personalidad |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | SERTRALINA |
+| Nueva Indicación Predicha | Schizotypal personality disorder |
+| Puntaje de Predicción TxGNN | 0.9993 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con el trastorno esquizotípico es indirecta. La modulación serotoninérgica podría influir en síntomas positivos y negativos atenuados, y en rasgos afectivos u obsesivos asociados. Sin embargo, el único ensayo disponible fue muy pequeño y la publicación recuperada trata sobre otra condición (TOC y anorexia nerviosa). El puntaje alto del modelo no está respaldado por datos clínicos.
 
-Cabe señalar que, entre las indicaciones predichas, la **agorafobia** (puntaje 99.54%) tiene una evidencia mucho más sólida (nivel L1, con ensayos aleatorizados y metaanálisis en trastorno de pánico con o sin agorafobia). Se trata más de una confirmación de un uso ya establecido que de un reposicionamiento novedoso.
+Cabe señalar que, entre las indicaciones predichas, la **agorafobia** (puntaje 0.9954) tiene una evidencia mucho más sólida (nivel L1, con ensayos aleatorizados y metaanálisis en trastorno de pánico con o sin agorafobia). Se trata más de una confirmación de un uso ya establecido que de un reposicionamiento novedoso.
 
 ---
 

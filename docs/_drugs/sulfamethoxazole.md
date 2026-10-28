@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulfamethoxazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 596
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L4). Indicación original: Sulfametoxazol y trimetoprim"
@@ -14,7 +14,7 @@ predicted_indications: ["acute contagious conjunctivitis"]
 # Sulfamethoxazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta 
 |------|------|
 | Indicación Original | Sulfametoxazol y trimetoprim |
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
-| Puntaje de Predicción TxGNN | 99.63% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9963 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20077704 | MEDIPRIM F SUSPENSION (cancelado) | Suspensión oral | Sulfametoxazol y trimetoprim |
-| 19985112 | MEDIPRIM F (R) TABLETA (cancelado) | Tableta | Sulfametoxazol y trimetoprim |
+| 20077704 | MEDIPRIM F SUSPENSION (vigente) | Suspensión oral | Sulfametoxazol y trimetoprim |
+| 19985112 | MEDIPRIM F (R) TABLETA (vigente) | Tableta | Sulfametoxazol y trimetoprim |
 
 Ambos registros figuran como cancelados; no hay registros vigentes.
 
@@ -109,7 +109,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo y en un estudio de susceptibilidad sin evaluación directa del fármaco (nivel L4), sin ensayos clínicos. Además, todos los registros sanitarios en Colombia están cancelados, lo que limita el desarrollo práctico.
+La predicción se apoya únicamente en el modelo y en un estudio de susceptibilidad sin evaluación directa del fármaco (nivel L4), sin ensayos clínicos. Además, el medicamento está comercializado en Colombia, con 2 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)

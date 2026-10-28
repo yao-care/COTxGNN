@@ -46,13 +46,13 @@ Interferón beta-1b es un inmunomodulador registrado en Colombia bajo el product
 |------|------|
 | Indicación Original | Interferón beta-1b (el registro sanitario no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Leucemia de células pilosas (hairy cell leukemia) |
-| Puntaje de Predicción TxGNN | 99.16% |
+| Puntaje de Predicción TxGNN | 0.9916 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
-> Nota: la segunda predicción (enfermedad autoinmune del sistema nervioso central, puntaje 99.02%) tiene nivel de evidencia L1 y recomendación "Proceed with Guardrails". Se presenta más abajo como información complementaria, ya que corresponde al uso conocido del fármaco (esclerosis múltiple) y no a un reposicionamiento real.
+> Nota: la segunda predicción (enfermedad autoinmune del sistema nervioso central, puntaje 0.9902) tiene nivel de evidencia L1 y recomendación "Proceed with Guardrails". Se presenta más abajo como información complementaria, ya que corresponde al uso conocido del fármaco (esclerosis múltiple) y no a un reposicionamiento real.
 
 ## ¿Por qué es Razonable esta Predicción?
 
@@ -114,7 +114,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para leucemia de células pilosas tiene un puntaje alto (99.16%), pero no cuenta con ningún ensayo clínico ni publicación; su única base es una analogía con el interferón alfa. Además, el único registro sanitario en Colombia está cancelado. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)
+La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916), pero no cuenta con ningún ensayo clínico ni publicación; su única base es una analogía con el interferón alfa. Además, el único registro sanitario en Colombia está cancelado. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)
 
 **Para avanzar se necesita:**
 - Revisión bibliográfica dirigida sobre interferón beta (frente a interferón alfa) en leucemia de células pilosas y estudios preclínicos

@@ -8,6 +8,7 @@ nav_order: 71
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Atazanavir Sulfato
@@ -51,7 +52,7 @@ debido a brechas críticas en los datos de entrada que impidieron la ejecución 
 | Nueva Indicación Predicha | — (sin predicciones disponibles) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 — sin estudios de reposicionamiento identificados |
-| Estado de Mercado en Colombia | No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

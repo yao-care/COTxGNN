@@ -8,6 +8,7 @@ nav_order: 64
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Aripiprazol
@@ -53,7 +54,7 @@ No es posible generar un análisis de reposicionamiento completo con los datos a
 | Nueva Indicación Predicha | No disponible — `predicted_indications` vacío |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (solo nombre del fármaco, sin estudios reales) |
-| Estado de Mercado en Colombia | ✗ No comercializado (0 registros sanitarios) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

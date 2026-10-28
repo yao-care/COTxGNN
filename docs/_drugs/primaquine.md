@@ -4,17 +4,17 @@ title: Primaquine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 534
 evidence_level: L5
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Primaquine: nueva indicación predicha, Miasis (nivel de evidencia L5). Indicación original: Malaria"
 monitor_inn: "primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
+description: "Primaquine: nueva indicación predicha, Miasis (myiasis) (nivel de evidencia L5). Indicación original: PRIMAQUINA"
 ---
 
 # Primaquine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Primaquina: De Malaria a Miasis
+## Primaquine: Miasis (myiasis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectiva para **miasis**, pero actualmen
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Malaria (uso antimalárico conocido del fármaco; el registro sanitario solo consigna "PRIMAQUINA" sin texto de indicación) |
-| Nueva Indicación Predicha | Miasis |
-| Puntaje de Predicción TxGNN | 99.76% |
+| Indicación Original | PRIMAQUINA |
+| Nueva Indicación Predicha | Miasis (myiasis) |
+| Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectiva para **miasis**, pero actualmen
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, la primaquina es una 8-aminoquinolina activa contra las formas hepáticas latentes (hipnozoítos) de *Plasmodium vivax* y *P. ovale*, y contra los gametocitos maduros de *P. falciparum*. Se cree que actúa mediante metabolitos reactivos que generan estrés oxidativo.
 
-La miasis es una infestación por larvas de moscas (dípteros). Es un problema distinto de la malaria, que es una infección por protozoos. **No se identifica un vínculo mecanístico plausible** entre el efecto de la primaquina sobre *Plasmodium* y la eliminación de larvas de mosca. El puntaje alto del modelo parece reflejar la cercanía general de la primaquina con los antiparasitarios en el grafo de conocimiento, y no una relación biológica real.
+La miasis es una infestación por larvas de moscas (dípteros). Es un problema distinto de la malaria, que es una infección por protozoos. **No se identifica un vínculo mecanístico plausible** entre el efecto de la primaquina sobre *Plasmodium* y la eliminación de larvas de mosca. El puntaje alto (0.9976) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
-La miasis se trata con extracción mecánica de las larvas, desbridamiento de las heridas y, cuando es necesario, ivermectina. Los subtipos de miasis (furunculosa, de heridas, migratoria) comparten puntajes casi idénticos (≈99.73%), lo que sugiere un artefacto del grafo y no evidencia independiente.
+La miasis se trata con extracción mecánica de las larvas, desbridamiento de las heridas y, cuando es necesario, ivermectina. Los subtipos de miasis (furunculosa, de heridas, migratoria) comparten puntajes casi idénticos del modelo TxGNN (aprendizaje profundo) (0.9973), lo que puede reflejar similitudes aprendidas entre enfermedades relacionadas y no evidencia independiente.
 
 ---
 

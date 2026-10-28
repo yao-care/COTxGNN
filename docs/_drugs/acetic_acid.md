@@ -50,10 +50,10 @@ La predicción se apoya únicamente en el puntaje del modelo.
 |------|------|
 | Indicación Original | Ácido acético |
 | Nueva Indicación Predicha | Trastorno post-bacteriano (post-bacterial disorder) |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -68,7 +68,7 @@ Por lo tanto, la predicción debe considerarse una hipótesis generada por el mo
 
 ### Otras predicciones y hallazgo relevante
 
-Entre las demás indicaciones predichas, **tinea corporis** (puntaje 99.25%) es la única con literatura relacionada y nivel de evidencia L4. Esa literatura es mayoritariamente histórica (décadas de 1940 y 1950, sobre tinea capitis y epidermofitosis del pie) o indirecta (modelos in vitro de onicomicosis), y no hay ensayos modernos controlados. Su plausibilidad se basa en la acidificación de la piel y la alteración de la membrana fúngica. Se considera una línea de investigación, no una recomendación.
+Entre las demás indicaciones predichas, **tinea corporis** (puntaje 0.9925) es la única con literatura relacionada y nivel de evidencia L4. Esa literatura es mayoritariamente histórica (décadas de 1940 y 1950, sobre tinea capitis y epidermofitosis del pie) o indirecta (modelos in vitro de onicomicosis), y no hay ensayos modernos controlados. Su plausibilidad se basa en la acidificación de la piel y la alteración de la membrana fúngica. Se considera una línea de investigación, no una recomendación.
 
 Las demás predicciones (vasculitis postinfecciosa, síndrome postinfeccioso, cardiomiopatía de Chagas, estenosis uretral infecciosa, síndrome urémico hemolítico asociado a infección, osteoporosis inducida por fármacos y pitiriasis simple) tampoco cuentan con ensayos clínicos y carecen de un mecanismo plausible o bien documentado.
 

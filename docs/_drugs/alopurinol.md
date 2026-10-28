@@ -8,6 +8,7 @@ nav_order: 39
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alopurinol
@@ -51,7 +52,7 @@ y la búsqueda en el registro sanitario de Colombia arrojó **0 registros**, lo 
 | Nueva Indicación Predicha | — (sin predicciones TxGNN disponibles) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales recuperados en este ciclo) |
-| Estado de Mercado en Colombia | ✗ Sin registros sanitarios encontrados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

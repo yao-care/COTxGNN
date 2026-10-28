@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Metoclopramide
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 438
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Metoclopramide: nueva indicación predicha, Úlcera gástrica (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
+description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 # Metoclopramide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **5**
 
 </div>
 
-## Metoclopramida: De Indicación No Especificada en el Registro a Úlcera Gástrica
+## Metoclopramida: De Indicación No Especificada en el Registro a Gastroduodenitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera gástrica**, con
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "METOCLOPRAMIDA") |
 | Nueva Indicación Predicha | Úlcera gástrica |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9990 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -96,10 +96,10 @@ Nota: la literatura recuperada consiste sobre todo en revisiones antiguas sobre 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19955371 | METOCLOPRAMIDA 10 MG TABLETAS | Tableta | METOCLOPRAMIDA (cancelado) |
-| 19956364 | ENZIMAR GOTAS PEDIATRICAS | Solución oral | METOCLOPRAMIDA (cancelado) |
-| 19941418 | METOCLOPRAMIDA10 MG | Tableta | METOCLOPRAMIDA (cancelado) |
-| 19927476 | PLASIL® INYECTABLE | Solución inyectable | METOCLOPRAMIDA (cancelado) |
+| 19955371 | METOCLOPRAMIDA 10 MG TABLETAS | Tableta | METOCLOPRAMIDA (vigente) |
+| 19956364 | ENZIMAR GOTAS PEDIATRICAS | Solución oral | METOCLOPRAMIDA (vigente) |
+| 19941418 | METOCLOPRAMIDA10 MG | Tableta | METOCLOPRAMIDA (vigente) |
+| 19927476 | PLASIL® INYECTABLE | Solución inyectable | METOCLOPRAMIDA (vigente) |
 
 Los cuatro registros están cancelados; actualmente no hay registros vigentes.
 

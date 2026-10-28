@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Quetiapine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 544
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Quetiapine: nueva indicación predicha, Tricotilomanía (nivel de evidencia L4). Indicación original: QUETIAPINA"
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
+description: "Quetiapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: QUETIAPINA"
 ---
 
 # Quetiapine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,14 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Quetiapina: De Indicación Original (QUETIAPINA, sin descripción detallada) a Tricotilomanía
+## Quetiapine: Retinal dystrophy with or without extraocular anomalies
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Quetiapina es un antipsicótico atípico; en el único registro sanitario colombiano disponible, la indicación aprobada figura solo como "QUETIAPINA", sin mayor detalle. El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, con **0 ensayos clínicos** y **6 publicaciones** (reportes de caso y revisiones, según sus títulos) que respaldan de forma indirecta esta dirección.
 
-Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofia retiniana con o sin anomalías extraoculares" (99.57%), pero no tiene ninguna evidencia clínica ni bibliográfica. Este informe se centra en tricotilomanía (puesto 8, puntaje 99.38%), el único candidato con literatura disponible.
+Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofia retiniana con o sin anomalías extraoculares" (0.9957), pero no tiene ninguna evidencia clínica ni bibliográfica. Este informe se centra en tricotilomanía (puesto 8, puntaje 0.9938), el único candidato con literatura disponible.
 
 ---
 
@@ -48,11 +48,11 @@ Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofi
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | QUETIAPINA (el registro no detalla la indicación; el uso conocido es esquizofrenia y trastorno bipolar) |
-| Nueva Indicación Predicha | Tricotilomanía |
-| Puntaje de Predicción TxGNN | 99.38% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | QUETIAPINA |
+| Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
+| Puntaje de Predicción TxGNN | 0.9957 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold (con la tricotilomanía como pregunta de investigación) |
 

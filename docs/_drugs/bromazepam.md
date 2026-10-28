@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | Bromazepam (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Trastorno de migraña |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Un posible vínculo con la migraña sería la reducción de la hiperexcitabilidad cortical y trigeminovascular, además del alivio de la ansiedad o la tensión muscular que suelen acompañar a la migraña. Este razonamiento es especulativo y no proviene de evidencia directa.
 
-Conviene ser prudente: el puntaje de 0.99 es solo una predicción del modelo. Las benzodiazepinas no son terapias establecidas para la migraña y su uso conlleva riesgos de dependencia, sedación y cefalea por abuso de medicación. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
+Conviene ser prudente: el puntaje de 0.9906 es solo una predicción del modelo. Las benzodiazepinas no son terapias establecidas para la migraña y su uso conlleva riesgos de dependencia, sedación y cefalea por abuso de medicación. La similitud con la indicación original y la compatibilidad de vías de administración aún están pendientes de evaluar.
 
 ---
 

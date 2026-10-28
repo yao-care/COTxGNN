@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rifaximin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 560
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rifaximin: nueva indicación predicha, Candidiasis oral (nivel de evidencia L4). Indicación original: No especificada"
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
+description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). Indicación original: RIFAXIMINA"
 ---
 
 # Rifaximin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Rifaximina: De Rifaximina (indicación sin especificar) a Candidiasis Oral
+## Rifaximin: Oral candidiasis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis oral**, pero
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro solo indica "Rifaximina") |
-| Nueva Indicación Predicha | Candidiasis oral |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Indicación Original | RIFAXIMINA |
+| Nueva Indicación Predicha | Oral candidiasis |
+| Puntaje de Predicción TxGNN | 0.9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente, la predicción **no es plausible**. La rifaximina no tiene actividad antifúngica conocida. La única publicación disponible (PMID 34180023) indica que su uso favoreció infecciones por *Candida* resistentes a micafungina en receptores de trasplante alogénico de células madre hematopoyéticas. Esto apunta a una posible señal de daño (disbiosis intestinal que favorece el sobrecrecimiento de *Candida*), no a un beneficio terapéutico.
 
-El alto puntaje de TxGNN (0.997) no está respaldado por un mecanismo creíble y debe interpretarse con cautela, probablemente como un artefacto del grafo de conocimiento.
+El alto puntaje de TxGNN (0.9975) no está respaldado por un mecanismo creíble y debe interpretarse con cautela, probablemente como un artefacto del modelo TxGNN (aprendizaje profundo). Este puntaje proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -85,10 +85,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20227193 | THYAM® 550 MG TABLETAS RECUBIERTAS | Tableta recubierta | Rifaximina | Cancelado |
-| 20080133 | IFAXIM® 550MG | Cápsula blanda | Rifaximina | Cancelado |
-| 20077580 | RIFAXIGAL® 100MG/5ML | Polvo para reconstituir a suspensión oral | Rifaximina | Cancelado |
-| 20235706 | RIFADEXA 550 MG TABLETAS | Tableta recubierta | Rifaximina | Cancelado |
+| 20227193 | THYAM® 550 MG TABLETAS RECUBIERTAS | Tableta recubierta | Rifaximina | Vigente |
+| 20080133 | IFAXIM® 550MG | Cápsula blanda | Rifaximina | Vigente |
+| 20077580 | RIFAXIGAL® 100MG/5ML | Polvo para reconstituir a suspensión oral | Rifaximina | Vigente |
+| 20235706 | RIFADEXA 550 MG TABLETAS | Tableta recubierta | Rifaximina | Vigente |
 
 ---
 

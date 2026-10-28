@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para la **prionopatía variable
 |------|------|
 | Indicación Original | DROXIDOPA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Prionopatía variablemente sensible a proteasas |
-| Puntaje de Predicción TxGNN | 99.33% |
+| Puntaje de Predicción TxGNN | 0.9933 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (no comercializado) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La VPSPr es una enfermedad priónica esporádica y rara, caracterizada por la acumulación de proteína priónica mal plegada y por neurodegeneración. La acción noradrenérgica de droxidopa no actúa sobre el mal plegamiento, la propagación del prión ni la pérdida neuronal. **Con los datos disponibles no se sustenta un vínculo mecanístico directo.**
 
-A lo sumo, podría considerarse para el manejo sintomático de la disfunción autonómica asociada a enfermedades neurodegenerativas, lo cual no equivale a un efecto modificador de la enfermedad. El puntaje elevado de TxGNN (0.993) proviene solo del grafo de conocimiento y su base no puede verificarse con la información disponible.
+A lo sumo, podría considerarse para el manejo sintomático de la disfunción autonómica asociada a enfermedades neurodegenerativas, lo cual no equivale a un efecto modificador de la enfermedad. El puntaje elevado de TxGNN (0.9933) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; su base no puede verificarse con la información disponible.
 
 ---
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20178274 | XIDROPA® 300 (Laboratorios Legrand S.A.) | Cápsula dura | DROXIDOPA | Cancelado |
+| 20178274 | XIDROPA® 300 (Laboratorios Legrand S.A.) | Cápsula dura | DROXIDOPA | Vigente |
 
 ---
 
@@ -108,7 +108,7 @@ La predicción se apoya solo en el modelo (L5), sin ensayos ni publicaciones, y 
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar estudios preclínicos que evalúen algún efecto de droxidopa sobre el plegamiento o la propagación del prión.
-- Aclarar la base de la predicción del modelo (por ejemplo, qué relaciones del grafo de conocimiento la sustentan).
+- Aclarar la base de la predicción del modelo TxGNN (aprendizaje profundo), por ejemplo, qué similitudes entre enfermedades relacionadas aprendió el modelo, ya que no constituyen evidencia biológica.
 - Considerar, si hay interés clínico, un enfoque de manejo sintomático de la disfunción autonómica, evaluado por separado y no como terapia modificadora de la enfermedad.
 ## Descargo de responsabilidad
 

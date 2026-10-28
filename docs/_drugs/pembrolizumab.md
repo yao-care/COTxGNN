@@ -4,7 +4,7 @@ title: Pembrolizumab
 parent: Solo Predicción del Modelo (L5)
 nav_order: 505
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "PEMBROLIZUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with 
 # Pembrolizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | No especificada en el registro (el texto del registro solo indica "PEMBROLIZUMAB") |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Prediccion TxGNN | 99.40% |
+| Puntaje de Prediccion TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Numero de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Numero de Registros Sanitarios | 1 (vigentes: 1) |
 | Decision Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 Los datos compilados para este informe no incluyen una descripción formal del mecanismo de acción. Según la información farmacológica disponible, pembrolizumab es un anticuerpo que se une a PD-1 (CD279, gen *PDCD1*). Al bloquear esta vía, restablece la actividad de los linfocitos T contra las células tumorales. Su eficacia está demostrada en múltiples cánceres, como melanoma, cáncer de pulmón de células no pequeñas, cáncer de cabeza y cuello, y tumores con inestabilidad de microsatélites.
 
-La fibromatosis gingival es un sobrecrecimiento del tejido de las encías, de origen hereditario o inducido por fármacos. **No se ha establecido un vínculo mecanístico** con el bloqueo de PD-1, y no se conoce un papel de este bloqueo en esa enfermedad. El puntaje alto del modelo (99.40%) refleja una asociación computacional en el grafo de conocimiento, no evidencia biológica ni clínica.
+La fibromatosis gingival es un sobrecrecimiento del tejido de las encías, de origen hereditario o inducido por fármacos. **No se ha establecido un vínculo mecanístico** con el bloqueo de PD-1, y no se conoce un papel de este bloqueo en esa enfermedad. El puntaje alto (0.9940) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica.
 
 Por lo tanto, esta predicción debe considerarse una hipótesis sin respaldo. Además, el bloqueo de PD-1 conlleva riesgo de eventos adversos inmunomediados, lo que haría difícil justificar su uso en una condición benigna.
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible para fibromatosis gingival.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20085509 | KEYTRUDA® 100 MG (MERCK SHARP & DOHME CORP.) | Solución inyectable | PEMBROLIZUMAB | Cancelado |
+| 20085509 | KEYTRUDA® 100 MG (MERCK SHARP & DOHME CORP.) | Solución inyectable | PEMBROLIZUMAB | Vigente |
 
 ---
 
@@ -124,7 +124,7 @@ La predicción para fibromatosis gingival es solo computacional (nivel L5), sin 
 - Obtener el prospecto y revisar advertencias y contraindicaciones.
 - Evaluar el balance riesgo-beneficio frente a los eventos adversos inmunomediados en una enfermedad benigna.
 
-**Nota sobre otras predicciones:** el modelo generó otras nueve predicciones con puntajes similares (99.27%–99.39%), todas con decisión Hold. Las más cercanas al uso establecido de pembrolizumab son el carcinoma del hilio pulmonar y el tumor del surco pulmonar. En el primero, la literatura disponible son solo reportes de caso, y en el segundo no hay evidencia. Para el tumor benigno de pulmón y el tumor de células germinales de pulmón, las evidencias recuperadas se refieren a cánceres de pulmón malignos o a tumores sólidos en general, y no se pueden trasladar directamente. Ninguna de estas predicciones alcanza una evidencia específica suficiente.
+**Nota sobre otras predicciones:** el modelo generó otras ocho predicciones con puntajes similares (0.9928–0.9937), todas con decisión Hold. La más cercana al uso establecido de pembrolizumab es el tumor del surco pulmonar, para el cual no hay evidencia. Para el tumor benigno de pulmón y el tumor de células germinales de pulmón, las evidencias recuperadas se refieren a cánceres de pulmón malignos o a tumores sólidos en general, y no se pueden trasladar directamente. Ninguna de estas predicciones alcanza una evidencia específica suficiente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

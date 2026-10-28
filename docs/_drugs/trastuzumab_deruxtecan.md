@@ -50,10 +50,10 @@ La predicción se basa únicamente en el modelo computacional.
 |------|------|
 | Indicación Original | TRASTUZUMAB DERUXTECAN (el registro no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99.31% |
+| Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **Con los datos disponibles, no se identifica un vínculo mecanístico sólido.** No se conoce una vía que conecte la señalización de HER2 o la inhibición de la topoisomerasa I con la remodelación ósea ni con la prevención o el tratamiento de la osteoporosis inducida por fármacos. Los tratamientos habituales en este contexto (por ejemplo, bisfosfonatos y denosumab) actúan inhibiendo los osteoclastos, un mecanismo distinto.
 
-El puntaje alto del modelo (0.993) puede reflejar proximidad en la red de conocimiento, por ejemplo asociaciones compartidas con fármacos oncológicos o con la pérdida ósea como efecto adverso de tratamientos. Esto no equivale a potencial terapéutico real. Además, un conjugado citotóxico podría empeorar, y no mejorar, la salud ósea en un contexto de cuidado de soporte.
+El puntaje alto del modelo (0.9931) puede reflejar proximidad en la red de conocimiento, por ejemplo asociaciones compartidas con fármacos oncológicos o con la pérdida ósea como efecto adverso de tratamientos. Esto no equivale a potencial terapéutico real. Además, un conjugado citotóxico podría empeorar, y no mejorar, la salud ósea en un contexto de cuidado de soporte.
 
 ---
 

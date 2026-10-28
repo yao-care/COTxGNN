@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis seborreica**,
 |------|------|
 | Indicación Original | Tazaroteno (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Dermatitis seborreica |
-| Puntaje de Predicción TxGNN | 99.79% |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,8 +69,8 @@ Es importante señalar que este vínculo es solo predictivo: no hay ensayos ni l
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |------|------|------|------|
-| Queratosis seborreica | 99.51% | L4 | Pregunta de investigación |
-| Queratosis folicular invertida vulvar | 99.38% | L5 | Hold |
+| Queratosis seborreica | 0.9951 | L5 | Pregunta de investigación |
+| Queratosis folicular invertida vulvar | 0.9938 | L5 | Hold |
 
 ---
 
@@ -97,8 +97,8 @@ Como referencia, para la segunda predicción (queratosis seborreica) existen dos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19978012 | TAZAT® GEL 0.05 % (cancelado) | Gel tópico | TAZAROTENO |
-| 19977434 | TAZAT® GEL (cancelado) | Gel tópico | TAZAROTENO |
+| 19978012 | TAZAT® GEL 0.05 % (vigente) | Gel tópico | TAZAROTENO |
+| 19977434 | TAZAT® GEL (vigente) | Gel tópico | TAZAROTENO |
 
 Ambos registros pertenecen a PERCOS S.A. y se encuentran cancelados; actualmente no hay registros vigentes.
 
@@ -124,7 +124,7 @@ La predicción para dermatitis seborreica tiene un puntaje alto del modelo, pero
 - Completar los datos del mecanismo de acción desde DrugBank
 - Revisión de literatura específica sobre tazaroteno en dermatitis seborreica y, de ser posible, estudios exploratorios
 - Evaluar la compatibilidad de vía de administración y la tolerabilidad cutánea (irritación y fotosensibilidad)
-- Aclarar la situación regulatoria, dado que todos los registros están cancelados
+- Confirmar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 2 licencias válidas de 2
 - Priorizar, como pregunta de investigación, la predicción de queratosis seborreicas (nivel L4), revisando si los estudios existentes realmente evaluaron tazaroteno
 ## Descargo de responsabilidad
 

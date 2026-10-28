@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Cilastatin
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 157
-evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Cilastatin: nueva indicación predicha, Neumonía (la predicción de mayor puntaje, S. aureus… (nivel de evidencia L5). Indicación original: Imipenem y cilastatina"
+evidence_level: L3
+indication_count: 9
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
+last_modified_at: 2026-10-27
+description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: IMIPENEM Y CILASTATINA"
 ---
 
 # Cilastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,112 +33,83 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Cilastatina: De Imipenem/Cilastatina a Neumonía (Indicación Predicha de Mayor Evidencia)
+## Cilastatina: inhibidor de la dehidropeptidasa renal → infección por Staphylococcus aureus (staphylococcus aureus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La cilastatina es un inhibidor de la dehidropeptidasa-I renal que se administra junto con el antibiótico imipenem, y los registros sanitarios colombianos la listan como "imipenem y cilastatina".
-El modelo TxGNN predice que podría ser efectiva para **neumonía**, con **11 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
-Importante: esta evidencia corresponde al uso de la combinación (el efecto antibacteriano proviene del imipenem), no a un reposicionamiento de la cilastatina sola.
-
----
+Cilastatina es un inhibidor de la dehidropeptidasa-I renal que se administra en combinación fija con imipenem para protegerlo de la degradación en el riñón; no tiene actividad antibacteriana propia.
+El modelo TxGNN predice que podría ser efectivo para la **infección por Staphylococcus aureus (staphylococcus aureus infection)**, con **1 ensayo clínico** y **20 publicaciones** recuperadas, aunque casi todas se refieren a imipenem/cilastatina como combinación y no a cilastatina sola.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Imipenem y cilastatina (el registro no detalla indicaciones clínicas específicas) |
-| Nueva Indicación Predicha | Neumonía (la predicción de mayor puntaje, *S. aureus*, tiene evidencia más débil: L3) |
-| Puntaje de Predicción TxGNN | 99.81% (neumonía); 99.94% para infección por *Staphylococcus aureus* |
-| Nivel de Evidencia | L1 (neumonía) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Indicación Original | IMIPENEM Y CILASTATINA |
+| Nueva Indicación Predicha | Infección por Staphylococcus aureus (staphylococcus aureus infection) |
+| Puntaje de Predicción TxGNN | 0,9994 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Número de Registros Sanitarios | al menos 3 |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, la cilastatina inhibe la dehidropeptidasa-I en los túbulos renales, lo que evita que el imipenem se degrade y mantiene sus concentraciones activas. La cilastatina no tiene actividad antibacteriana propia.
+Cilastatina inhibe la dehidropeptidasa-1 en el túbulo renal, con lo que evita que el imipenem se degrade y prolonga su exposición. Por sí sola no tiene efecto antibacteriano. Los datos del mecanismo de acción detallado no están disponibles en el registro compilado, pero el dato de farmacología confirma como diana la dipeptidasa 1.
 
-La neumonía (especialmente la nosocomial y la asociada a ventilador) es una infección bacteriana en la que el imipenem/cilastatina ya es una opción establecida. Por eso la predicción es coherente con el uso conocido de la combinación, aunque no constituye un reposicionamiento novedoso de la cilastatina sola.
+Cualquier efecto contra *S. aureus* proviene del imipenem, no de la cilastatina. Existen estudios de imipenem/cilastatina en infecciones por *S. aureus* sensible y resistente a meticilina (MSSA/MRSA), y se ha descrito su uso combinado con fosfomicina, arbekacina o vancomicina en casos refractarios. Esto respalda la plausibilidad clínica de la combinación, pero no constituye un reposicionamiento de la cilastatina en sí.
 
-Las otras predicciones (sinusitis, bronquitis, salmonelosis, infección por *S. aureus*) también dependen de la actividad del imipenem. Las predicciones sobre neoplasia de senos paranasales y esclerodermia difusa no tienen respaldo mecanístico ni evidencia.
-
----
+Es importante precisar que el uso de cilastatina en esta dirección depende de su coadministración con imipenem. La evidencia disponible incluye un estudio clínico pequeño (23 pacientes, 1986), reportes de caso, modelos animales y revisiones, sin ensayos controlados modernos.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02493764](https://clinicaltrials.gov/study/NCT02493764) | Fase 3 | Completado | 537 | Imipenem/cilastatina/relebactam vs piperacilina/tazobactam en neumonía nosocomial o asociada a ventilador; objetivo de no inferioridad en mortalidad |
-| [NCT05204563](https://clinicaltrials.gov/study/NCT05204563) | Fase 3 | Completado | 450 | Imipenem/cilastatina/XNW4107 vs imipenem/cilastatina/relebactam en neumonía nosocomial o asociada a ventilador |
-| [NCT00080496](https://clinicaltrials.gov/study/NCT00080496) | Fase 3 | Completado | 430 | Tigeciclina vs imipenem/cilastatina en neumonía nosocomial |
-| [NCT00589693](https://clinicaltrials.gov/study/NCT00589693) | Fase 3 | Terminado | 274 | Doripenem vs imipenem/cilastatina en neumonía asociada a ventilador; terminado anticipadamente |
-| [NCT03894046](https://clinicaltrials.gov/study/NCT03894046) | Fase 3 | Completado | 207 | Sulbactam-durlobactam en infecciones por *Acinetobacter*; imipenem/cilastatina como terapia de base |
-| [NCT00515034](https://clinicaltrials.gov/study/NCT00515034) | Fase 2 | Completado | 146 | Doripenem vs imipenem en neumonía asociada a ventilador o infección intraabdominal complicada |
-| [NCT00445094](https://clinicaltrials.gov/study/NCT00445094) | Fase 4 | Completado | 120 | Estrategia de desescalamiento antibiótico en neumonía en UCI médica |
-| [NCT00707239](https://clinicaltrials.gov/study/NCT00707239) | Fase 2 | Terminado | 108 | Dos dosis de tigeciclina vs imipenem/cilastatina en neumonía hospitalaria |
-| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Fase 4 | Desconocido | 60 | Linezolid solo o con carbapenem contra SARM en neumonía asociada a ventilador; sin resultados confirmados |
-| [NCT05561764](https://clinicaltrials.gov/study/NCT05561764) | Fase 4 | Terminado | 4 | Farmacocinética de imipenem/cilastatina/relebactam en fibrosis quística; solo 4 participantes |
-
-En la mayoría de estos ensayos, el imipenem/cilastatina actúa como comparador o terapia de base; solo algunos evalúan combinaciones que lo contienen como fármaco en estudio. Hay un ensayo adicional de fase 1 sobre bacteriófagos con relevancia baja, omitido de la tabla.
-
----
+| [NCT01356472](https://clinicaltrials.gov/study/NCT01356472) | Fase 4 | Desconocido | 60 | Linezolid solo o combinado con un carbapenémico contra MRSA en neumonía asociada a ventilador; no se confirma que el carbapenémico sea imipenem/cilastatina y no hay resultados confirmados |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32785589](https://pubmed.ncbi.nlm.nih.gov/32785589/) | 2021 | ECA | Clin Infect Dis | RESTORE-IMI 2: imipenem/cilastatina/relebactam vs piperacilina/tazobactam en neumonía nosocomial/asociada a ventilador |
-| [39674398](https://pubmed.ncbi.nlm.nih.gov/39674398/) | 2025 | ECA (Fase 3) | Int J Infect Dis | Estudio de no inferioridad de imipenem/cilastatina/relebactam vs piperacilina/tazobactam en neumonía nosocomial |
-| [37182534](https://pubmed.ncbi.nlm.nih.gov/37182534/) | 2023 | ECA (Fase 3) | Lancet Infect Dis | Sulbactam-durlobactam vs colistina (ATTACK), con imipenem-cilastatina como terapia de base |
-| [30509675](https://pubmed.ncbi.nlm.nih.gov/30509675/) | 2018 | ECA (Fase 2) | Lancet Infect Dis | Cefiderocol vs imipenem-cilastatina en infección urinaria complicada |
-| [17488146](https://pubmed.ncbi.nlm.nih.gov/17488146/) | 2007 | Revisión | Drugs | Revisión comparativa de carbapenémicos; la cilastatina inhibe la DHP-1 |
-| [36522272](https://pubmed.ncbi.nlm.nih.gov/36522272/) | 2023 | Guía de consenso | Enferm Infecc Microbiol Clin | Consenso SEIMC sobre infecciones por bacterias gramnegativas resistentes a carbapenémicos |
-| [8543488](https://pubmed.ncbi.nlm.nih.gov/8543488/) | 1995 | Estudio clínico aleatorizado | J Antimicrob Chemother | Meropenem vs imipenem/cilastatina en exacerbaciones de EPOC |
-| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Estudio clínico | Antimicrob Agents Chemother | Imipenem-cilastatina en 23 pacientes con infecciones por SARM y SASM |
-| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Comentario de caso | Antimicrob Agents Chemother | Imipenem/cilastatina más fosfomicina en infección refractaria por SARM |
-| [3859208](https://pubmed.ncbi.nlm.nih.gov/3859208/) | 1985 | Estudio abierto | Am J Med | Imipenem/cilastatina en 43 adultos con neumonía bacteriana |
-
----
+| [3460521](https://pubmed.ncbi.nlm.nih.gov/3460521/) | 1986 | Estudio clínico | Antimicrob Agents Chemother | Imipenem/cilastatina evaluado en 23 pacientes con infecciones por MSSA y MRSA (tejidos blandos, endovasculares, óseas) |
+| [33020155](https://pubmed.ncbi.nlm.nih.gov/33020155/) | 2020 | Comentario de caso | Antimicrob Agents Chemother | Imipenem/cilastatina más fosfomicina como combinación novedosa en infección refractaria por MRSA |
+| [22196394](https://pubmed.ncbi.nlm.nih.gov/22196394/) | 2012 | Revisión | Int J Antimicrob Agents | Patogénesis, tratamiento y resistencia de MRSA |
+| [36804370](https://pubmed.ncbi.nlm.nih.gov/36804370/) | 2023 | Revisión | Int J Antimicrob Agents | Uso fuera de indicación frente a recomendaciones formales de antibióticos en bacterias multirresistentes |
+| [18649613](https://pubmed.ncbi.nlm.nih.gov/18649613/) | 2008 | Revisión | Am Fam Physician | Infección del pie diabético, con *S. aureus* como patógeno frecuente |
+| [3378959](https://pubmed.ncbi.nlm.nih.gov/3378959/) | 1988 | Preclínico | J Antimicrob Chemother | En endocarditis aórtica experimental por MRSA en conejos, imipenem-cilastatina mostró mejor eficacia que vancomicina según los criterios del estudio |
+| [10588305](https://pubmed.ncbi.nlm.nih.gov/10588305/) | 1999 | Preclínico | J Antimicrob Chemother | Efecto sinérgico de vancomicina e imipenem contra MRSA in vitro y en ratón neutropénico |
+| [8072190](https://pubmed.ncbi.nlm.nih.gov/8072190/) | 1994 | Estudio clínico | Jpn J Antibiot | Terapia combinada de arbekacina e imipenem/cilastatina contra MRSA |
+| [3859210](https://pubmed.ncbi.nlm.nih.gov/3859210/) | 1985 | Estudio clínico | Am J Med | Eficacia de imipenem/cilastatina en 17 pacientes con endocarditis bacteriana |
+| [12878512](https://pubmed.ncbi.nlm.nih.gov/12878512/) | 2003 | Preclínico | Antimicrob Agents Chemother | En un modelo de infección sistémica por MRSA, imipenem-cilastatina fue menos activo que vancomicina y que el compuesto evaluado |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20256282 | Imipenem+Cilastatina 500+500 mg polvo para reconstituir | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
-| 20134454 | Imipenem/Cilastatina polvo para reconstituir a solución inyectable | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
-| 19982795 | Imipenem y Cilastatina 1 g | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
+| 20256282 | IMIPENEM+CILASTATINA 500+500 MG POLVO PARA RECONSTITUIR | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
+| 20134454 | IMIPENEM/CILASTATINA POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
+| 19982795 | IMIPENEM Y CILASTATINA 1G. | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
 
-Los tres registros están cancelados; actualmente no hay registros vigentes.
-
----
+Los tres registros corresponden a productos en combinación imipenem/cilastatina; no describen la situación regulatoria de cilastatina como ingrediente único. La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): epilepsia, enfermedad renal, piouréter, colitis por *Clostridium difficile* y enterocolitis necrosante perinatal.
-- **Interacciones/farmacología**: la cilastatina inhibe la dipeptidasa 1 (dehidropeptidasa-I) y se administra en dosis fijas con imipenem para aumentar su eficacia.
-- **Reportes de literatura**: se describió un caso de vasculitis leucocitoclástica asociada a imipenem-cilastatina (PMID 9158321).
+- **Interacciones farmacológicas**: los datos compilados solo muestran la interacción farmacológica con su diana, la dipeptidasa 1, sin una interacción medicamentosa clínica con nivel de gravedad asignado.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails** (para neumonía)
+**Decisión: Hold**
 
 **Justificación:**
-Varios ensayos de fase 3 completados respaldan combinaciones con imipenem/cilastatina en neumonía nosocomial y asociada a ventilador. Sin embargo, es un uso ya existente de la combinación y el beneficio proviene del imipenem, no de la cilastatina sola. Las demás predicciones (sinusitis, bronquitis, salmonelosis, *S. aureus*) tienen evidencia indirecta o antigua (L3-L4) y quedan como preguntas de investigación o en espera; las de baja evidencia (rinosinusitis crónica, sinusitis etmoidal, paratifoidea, neoplasia sinusal, esclerodermia difusa) deben mantenerse en Hold.
+La cilastatina carece de actividad antibacteriana propia; la evidencia disponible sobre *S. aureus* corresponde a imipenem/cilastatina como combinación y se compone de estudios pequeños y antiguos, reportes de caso, modelos preclínicos y revisiones, sin ensayos controlados que evalúen la cilastatina por separado. Esto limita la solidez de la predicción como reposicionamiento propiamente dicho.
 
 **Para avanzar se necesita:**
-- Verificar en los registros completos si los ensayos NCT05204563 y NCT02493764 incluyen realmente imipenem/cilastatina como fármaco en estudio.
-- Obtener los datos de advertencias y contraindicaciones del prospecto de INVIMA.
-- Confirmar el mecanismo de acción en DrugBank.
-- Aclarar la situación regulatoria, ya que los tres registros colombianos están cancelados.
-- Definir si el interés está en la combinación o en la cilastatina sola, dado que esta carece de actividad antibacteriana propia.
+- Datos detallados del mecanismo de acción y análisis que separe la contribución de la cilastatina de la del imipenem
+- Estudios controlados modernos de imipenem/cilastatina frente a *S. aureus*, en particular MRSA
+- Información de seguridad del prospecto (advertencias y contraindicaciones) aún no incorporada
+- Verificación de la situación regulatoria vigente en Colombia de los productos que contienen cilastatina
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

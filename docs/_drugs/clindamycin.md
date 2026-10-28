@@ -50,9 +50,9 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicació
 |------|------|
 | Indicación Original | Clindamicina combinaciones |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. La queratopatía epitelial punteada suele ser de origen no infeccioso (ojo seco, toxicidad o infección viral), por lo que un mecanismo antibacteriano no resulta claramente relevante. Además, la clindamicina sistémica difícilmente alcanzaría la superficie ocular en concentraciones útiles.
 
-En consecuencia, el puntaje alto del modelo (99.97%) no está respaldado por evidencia clínica ni por un vínculo mecanístico claro. Debe interpretarse como una hipótesis para generar ideas, no como una recomendación terapéutica.
+En consecuencia, el puntaje alto del modelo (0.9997) no está respaldado por evidencia clínica ni por un vínculo mecanístico claro. Debe interpretarse como una hipótesis para generar ideas, no como una recomendación terapéutica.
 
 ---
 
@@ -78,7 +78,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
-Como referencia, la segunda indicación predicha (queratitis por exposición, puntaje 99.80%) cuenta con literatura indirecta sobre queratitis infecciosa (por *Staphylococcus aureus* y *Bacillus cereus*). Ninguno de esos estudios evalúa la clindamicina para esa indicación, y las demás indicaciones predichas tampoco tienen respaldo clínico relevante.
+Como referencia, la segunda indicación predicha (queratitis por exposición, puntaje 0.9980) cuenta con literatura indirecta sobre queratitis infecciosa (por *Staphylococcus aureus* y *Bacillus cereus*). Ninguno de esos estudios evalúa la clindamicina para esa indicación, y las demás indicaciones predichas tampoco tienen respaldo clínico relevante.
 
 ---
 
@@ -86,10 +86,10 @@ Como referencia, la segunda indicación predicha (queratitis por exposición, pu
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20131113 | PRIVARE® 2C1019541002 | Óvulo | Clindamicina combinaciones | Cancelado |
-| 20129610 | CLINDASHER® Crema Vaginal | Crema vaginal | Clindamicina | Cancelado |
-| 20097862 | GYNO BACLIN® | Crema vaginal | Clindamicina | Cancelado |
-| 20014120 | VAGYLIN | Crema vaginal | Clindamicina | Cancelado |
+| 20131113 | PRIVARE® 2C1019541002 | Óvulo | Clindamicina combinaciones | Vigente |
+| 20129610 | CLINDASHER® Crema Vaginal | Crema vaginal | Clindamicina | Vigente |
+| 20097862 | GYNO BACLIN® | Crema vaginal | Clindamicina | Vigente |
+| 20014120 | VAGYLIN | Crema vaginal | Clindamicina | Vigente |
 
 ---
 
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la clindamicina y análisis de su relevancia para la superficie ocular

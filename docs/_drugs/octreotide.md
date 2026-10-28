@@ -48,10 +48,10 @@ Octreotida es un análogo de la somatostatina que cuenta con un registro sanitar
 |------|------|
 | Indicación Original | Octreotido (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Queratosis folicular invertida vulvar |
-| Puntaje de Predicción TxGNN | 99.58% |
+| Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación entre estas indicaciones y la queratosis folicular invertida vulvar, una lesión epidérmica benigna, **no está respaldada por los datos disponibles**. Un papel de la señalización de receptores de somatostatina en la proliferación de queratinocitos benignos es meramente especulativo.
 
-El puntaje alto de TxGNN (99.58%) es solo una predicción del modelo. La segunda predicción, queratosis seborreica (99.55%), probablemente comparte la misma señal de vecindad en el grafo de conocimiento y no constituye evidencia independiente. Por tanto, esta predicción debe considerarse una hipótesis exploratoria.
+El puntaje alto de TxGNN (0.9958) es solo una predicción del modelo. La segunda predicción, queratosis seborreica (0.9955), también proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica independiente. Por tanto, esta predicción debe considerarse una hipótesis exploratoria.
 
 ---
 

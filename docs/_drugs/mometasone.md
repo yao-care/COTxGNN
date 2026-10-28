@@ -48,9 +48,9 @@ pero actualmente solo existen **0 ensayos clínicos** y **2 publicaciones** (amb
 |------|------|
 | Indicación Original | Mometasona (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
-| Puntaje de Predicción TxGNN | 99.36% |
+| Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 6) |
 | Número de Registros Sanitarios | 6 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -96,7 +96,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto y un fundamento mecanístico plausible (los corticosteroides tópicos se usan en micosis fungoide temprana), pero no hay ensayos clínicos ni evidencia específica de mometasona, solo dos reportes de caso. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción tiene un puntaje alto y un fundamento mecanístico plausible (los corticosteroides tópicos se usan en micosis fungoide temprana), pero no hay ensayos clínicos ni evidencia específica de mometasona, solo dos reportes de caso. El medicamento está comercializado en Colombia, con 6 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank

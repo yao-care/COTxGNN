@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del 
 |------|------|
 | Indicación Original | ESPIRONOLACTONA (el registro INVIMA no detalla la indicación) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Los datos compilados no incluyen una descripción detallada del mecanismo de acc
 
 Además, tiene actividad antiandrogénica (bloqueo del receptor de andrógenos y menor síntesis de andrógenos). Por eso se emplea fuera de indicación en alopecia androgenética y pérdida de cabello de patrón femenino, lo que da un vínculo plausible pero indirecto con las condiciones de pérdida de cabello.
 
-Sin embargo, la hipotricosis simple del cuero cabelludo es un trastorno hereditario raro causado por variantes genéticas (por ejemplo, CDSN, APCDD1, RPL21), y su patogénesis no depende de andrógenos. El puntaje alto de TxGNN (0.993) es solo una predicción del modelo; no hay datos mecanísticos que respalden un beneficio antiandrogénico en esta condición. Otra predicción del modelo, la hipotricosis congénita con milia (puntaje 99.04%), tiene un vínculo igualmente especulativo y probablemente refleja la cercanía en la red entre fenotipos de hipotricosis más que un mecanismo validado.
+Sin embargo, la hipotricosis simple del cuero cabelludo es un trastorno hereditario raro causado por variantes genéticas (por ejemplo, CDSN, APCDD1, RPL21), y su patogénesis no depende de andrógenos. El puntaje alto de TxGNN (0.9926) es solo una predicción del modelo; no hay datos mecanísticos que respalden un beneficio antiandrogénico en esta condición. Otra predicción del modelo, la hipotricosis congénita con milia (puntaje 0.9904), tiene un vínculo igualmente especulativo y probablemente refleja la cercanía en la red entre fenotipos de hipotricosis más que un mecanismo validado.
 
 ---
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19933407 | DOXICLAT® TABLETA. | Tableta | ESPIRONOLACTONA | Cancelado |
-| 49664 | ALDACTONE® TABLETAS 25 MG | Tableta | ESPIRONOLACTONA | Cancelado |
+| 19933407 | DOXICLAT® TABLETA. | Tableta | ESPIRONOLACTONA | Vigente |
+| 49664 | ALDACTONE® TABLETAS 25 MG | Tableta | ESPIRONOLACTONA | Vigente |
 
 Ningún registro se encuentra vigente actualmente.
 

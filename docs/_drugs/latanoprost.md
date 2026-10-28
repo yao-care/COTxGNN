@@ -4,17 +4,17 @@ title: Latanoprost
 parent: Solo Predicción del Modelo (L5)
 nav_order: 383
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Latanoprost: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
+description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: LATANOPROST"
 ---
 
 # Latanoprost
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Latanoprost: De Indicación No Especificada a Glaucoma Hereditario Primario
+## Latanoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Latanoprost es un análogo de la prostaglandina F2-alfa que se comercializó en Colombia como solución oftálmica; los registros sanitarios consultados no detallan el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **glaucoma hereditario primario**,
+El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para **calcifilaxia visceral**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección.
 
 ---
@@ -48,11 +48,11 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro sanitario solo indica "Latanoprost") |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Indicación Original | LATANOPROST |
+| Nueva Indicación Predicha | Visceral calciphylaxis |
+| Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,6 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
 
-El glaucoma hereditario primario cursa con presión intraocular elevada, por lo que mecanísticamente el fármaco podría ser aplicable. Sin embargo, esta predicción está muy cerca del uso ya conocido del fármaco en glaucoma, por lo que **no constituye una señal de reposicionamiento genuina**. El puntaje alto del modelo probablemente refleja esa cercanía y no evidencia nueva.
 
 Además, las formas congénitas o hereditarias primarias de glaucoma suelen manejarse quirúrgicamente, lo que limita el papel potencial de un tratamiento tópico como terapia principal.
 
@@ -84,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19947216 | LATANOX® | Solución oftálmica | Latanoprost | Cancelado |
-| 20134226 | KAIROS PF® Solución Oftálmica | Solución oftálmica | Latanoprost | Cancelado |
+| 19947216 | LATANOX® | Solución oftálmica | Latanoprost | Vigente |
+| 20134226 | KAIROS PF® Solución Oftálmica | Solución oftálmica | Latanoprost | Vigente |
 
 ---
 

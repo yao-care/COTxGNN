@@ -4,17 +4,17 @@ title: Avibactam
 parent: Solo Predicción del Modelo (L5)
 nav_order: 79
 evidence_level: L5
-indication_count: 6
-last_modified_at: 2026-10-14
-description: "Avibactam: nueva indicación predicha, Neumonía estreptocócica (nivel de evidencia L5). Indicación original: Ceftazidima e inhibidor de betalactamasa"
+indication_count: 4
 monitor_inn: "avibactam"
-predicted_indications: ["influenza, severe, susceptibility to", "ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
+last_modified_at: 2026-10-23
+description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (nivel de evidencia L5). Indicación original: Ceftazidima e inhibidor de betalactamasa"
 ---
 
 # Avibactam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,69 +33,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Avibactam: De Inhibidor de Betalactamasas (con Ceftazidima) a Neumonía Estreptocócica
+## Avibactam: De Inhibidor de Betalactamasas (combinado con ceftazidima) a Tuberculosis del Uréter
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Avibactam es un inhibidor de betalactamasas que se utiliza únicamente en combinación con ceftazidima (producto ZAVICEFTA) para tratar infecciones bacterianas.
-El modelo TxGNN predice que podría ser efectivo para **neumonía estreptocócica**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
+Avibactam es un inhibidor de betalactamasas que se utiliza únicamente en combinación con ceftazidima (producto ZAVICEFTA) para el tratamiento de infecciones bacterianas.
+El modelo TxGNN predice que podría ser efectivo para **tuberculosis del uréter**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | Ceftazidima e inhibidor de betalactamasa |
-| Nueva Indicación Predicha | Neumonía estreptocócica |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Nueva Indicación Predicha | Tuberculosis del uréter |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, avibactam es un inhibidor de betalactamasas no betalactámico (enzimas de clase A, C y algunas de clase D) que se usa exclusivamente junto con ceftazidima. No tiene actividad antibacteriana propia significativa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, avibactam es un inhibidor de betalactamasas de la familia de los diazabiciclooctanos, que se usa solo junto con ceftazidima y no tiene actividad antibacteriana intrínseca relevante frente a la mayoría de los organismos.
 
-La relación con la nueva indicación es débil. *Streptococcus pneumoniae* resiste a los betalactámicos principalmente por alteración de las proteínas fijadoras de penicilina, y no por producción de betalactamasas, que es justamente el blanco de avibactam. El puntaje alto del modelo probablemente refleja la asociación del fármaco con indicaciones antibacterianas y respiratorias (por ejemplo, ceftazidima-avibactam en neumonía intrahospitalaria) y no constituye evidencia independiente.
+El vínculo con la tuberculosis del uréter es débil y especulativo. Algunos trabajos de laboratorio (in vitro) sugieren que avibactam puede inhibir la betalactamasa BlaC de *Mycobacterium tuberculosis*, lo que en teoría podría restaurar la actividad de los betalactámicos. Sin embargo, es una observación de laboratorio, sin respaldo de datos clínicos en tuberculosis del tracto urinario.
 
-En conclusión, el fundamento mecanístico para un beneficio de avibactam por sí solo en esta indicación es limitado y debe considerarse con cautela.
+Es probable que el puntaje alto del modelo se deba a la asociación en la red de conocimiento con indicaciones de infección urinaria, y no a la biología de la tuberculosis. Por ello, el puntaje debe interpretarse con mucha cautela.
+
+Otras predicciones del modelo, con la misma ausencia de evidencia, son:
+- **Esquistosomiasis urinaria** (99.06%): no se identificó un vínculo mecanístico plausible; probablemente refleja el contexto urinario compartido.
+- **Síndrome de hiperviscosidad policlonal** (0.9901): sin vínculo mecanístico; probable artefacto del modelo TxGNN (aprendizaje profundo).
+- **Hiperamilasemia** (99.01%): es un hallazgo de laboratorio, no una enfermedad tratable con un inhibidor antibacteriano; posible relación espuria o señal de evento adverso.
+
+## Evidencia de Ensayos Clínicos
+
+Actualmente no hay ensayos clínicos relacionados registrados.
+
+## Evidencia de Literatura
+
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20157002 (cancelado) | ZAVICEFTA | Polvo estéril para reconstituir a solución inyectable | Ceftazidima e inhibidor de betalactamasa |
+| 20157002 | ZAVICEFTA | Polvo estéril para reconstituir a solución inyectable | Ceftazidima e inhibidor de betalactamasa |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-## Otras Predicciones Evaluadas
-
-Todas las predicciones adicionales tienen nivel de evidencia L5, sin ensayos clínicos ni literatura, y recomendación Hold:
-
-| Posición | Indicación Predicha | Puntaje TxGNN | Valoración del Mecanismo |
-|------|------|------|------|
-| 2 | Susceptibilidad a influenza grave | 99.28% | Sin mecanismo directo plausible; avibactam no tiene actividad antiviral. Probable artefacto del grafo de conocimiento. |
-| 3 | Tuberculosis ureteral | 99.11% | Racional teórico y preclínico (inhibición in vitro de la betalactamasa BlaC de *M. tuberculosis*); dependería del betalactámico asociado y de regímenes multifármaco estándar. |
-| 4 | Esquistosomiasis urinaria | 99.06% | Sin base mecanística; es un parásito sin blanco betalactamasa. El tratamiento establecido es praziquantel. |
-| 5 | Síndrome de hiperviscosidad policlonal | 99.01% | Sin vínculo identificable; probable artefacto del modelo. |
-| 6 | Hiperamilasemia | 99.01% | Es un hallazgo de laboratorio, no una enfermedad tratable con avibactam. |
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura que respalden la predicción de neumonía estreptocócica (nivel L5), y el fundamento mecanístico es débil. Además, el único registro sanitario en Colombia está cancelado.
+No existe ningún ensayo clínico ni publicación que estudie esta enfermedad con avibactam; la predicción se apoya solo en el modelo (nivel L5) y el vínculo mecanístico es especulativo. Además, avibactam se usa exclusivamente en combinación con ceftazidima.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción desde fuentes complementarias.
-- Revisión del prospecto oficial (advertencias y contraindicaciones) para completar la evaluación de seguridad.
-- Evidencia clínica o preclínica que demuestre un beneficio independiente de la combinación con ceftazidima.
-- Aclarar la situación regulatoria actual de ceftazidima-avibactam en Colombia.
+- Datos del mecanismo de acción desde DrugBank
+- Prospecto de INVIMA con advertencias y contraindicaciones
+- Estudios preclínicos que confirmen la actividad frente a *M. tuberculosis* (inhibición de BlaC) en el contexto urinario
+- Evidencia clínica o ensayos en tuberculosis genitourinaria antes de considerar cualquier avance
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

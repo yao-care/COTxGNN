@@ -50,10 +50,10 @@ Se trata de un uso ya establecido en formulaciones oftálmicas tópicas en vario
 |------|------|
 | Indicación Original | CLORAMFENICOL (el registro no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Conjuntivitis |
-| Puntaje de Predicción TxGNN | 99,66% |
+| Puntaje de Predicción TxGNN | 0,9966 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

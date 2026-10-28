@@ -4,7 +4,7 @@ title: Thiopental
 parent: Solo Predicción del Modelo (L5)
 nav_order: 625
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: TIOPENTAL"
 monitor_inn: "thiopental"
@@ -14,7 +14,7 @@ predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disor
 # Thiopental
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, pero 
 |------|------|
 | Indicación Original | TIOPENTAL (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Tricotilomanía |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

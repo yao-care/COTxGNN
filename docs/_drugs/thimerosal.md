@@ -50,10 +50,10 @@ Se trata de una señal puramente computacional, sin plausibilidad biológica ide
 |------|------|
 | Indicación Original | Tiomersal (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Se trata de una señal puramente computacional, sin plausibilidad biológica ide
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el tiomersal es un antiséptico y conservante organomercurial (libera etilmercurio), cuyo uso se ha centrado en la antisepsia tópica y la conservación de productos como vacunas y algunos productos oftálmicos.
 
-**Esta predicción no tiene un respaldo mecanístico sólido.** La hipotricosis es un trastorno genético del desarrollo del folículo piloso, y no se conoce ninguna relación farmacológica entre un compuesto de etilmercurio y dicho desarrollo. El puntaje alto de TxGNN (99.99%) refleja únicamente cercanía en el grafo de conocimiento, no un efecto terapéutico demostrado.
+**Esta predicción no tiene un respaldo mecanístico sólido.** La hipotricosis es un trastorno genético del desarrollo del folículo piloso, y no se conoce ninguna relación farmacológica entre un compuesto de etilmercurio y dicho desarrollo. El puntaje alto de TxGNN (0.9999) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto terapéutico demostrado.
 
 Además, los compuestos de mercurio son tóxicos y pueden causar efectos dermatológicos adversos. Otras predicciones del modelo para este fármaco siguen el mismo patrón: alopecia, hipotricosis congénita con milia, alopecia areata difusa, glaucoma, acidosis tubular renal, osteoporosis posmenopáusica, déficit de potasio e infertilidad masculina por disgenesia gonadal. En todas se carece de evidencia y de plausibilidad biológica. En varias de ellas (acidosis tubular renal, infertilidad, alopecia) la toxicidad conocida del mercurio sugiere un posible perjuicio en lugar de un beneficio.
 

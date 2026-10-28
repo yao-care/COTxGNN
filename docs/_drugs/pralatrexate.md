@@ -6,9 +6,9 @@ nav_order: 526
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pralatrexate: nueva indicación predicha, Tumor adenomatoide pleural (nivel de evidencia L5). Indicación original: PRALATREXATO"
 monitor_inn: "Pralatrexate"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
+description: "Pralatrexate: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PRALATREXATO"
 ---
 
 # Pralatrexate
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Pralatrexato: De PRALATREXATO (indicación sin especificar) a Tumor Adenomatoide Pleural
+## Pralatrexate: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,12 +49,12 @@ El modelo TxGNN predice que podría ser efectivo para **tumor adenomatoide pleur
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | PRALATREXATO (el registro no detalla la indicación; en el ámbito internacional: linfoma periférico de células T en recaída o refractario) |
-| Nueva Indicación Predicha | Tumor adenomatoide pleural |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Indicación Original | PRALATREXATO |
+| Nueva Indicación Predicha | Pleural adenomatoid tumor |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 (para la predicción principal). Las predicciones de mesotelioma pleural y mesotelioma pleural epitelioide alcanzan L3 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,7 +99,6 @@ Para la indicación principal (tumor adenomatoide pleural) actualmente no hay li
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (antifolato, inhibidor de DHFR) |
-| Riesgo de Mielosupresión | Alto. El grafo de conocimiento asocia el fármaco con trombocitopenia, neutropenia, agranulocitosis y anemia |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
 | Items de Monitoreo | Hemograma con diferencial, función renal y hepática, y vigilancia de mucositis/estomatitis |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |

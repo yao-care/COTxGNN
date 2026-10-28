@@ -4,17 +4,17 @@ title: Mefenamic Acid
 parent: Evidencia Alta (L1-L2)
 nav_order: 423
 evidence_level: L2
-indication_count: 8
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Mefenamic Acid: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L2). Indicación original: No especificada en el registro (el texto aprobado solo indica \"ácido…"
 monitor_inn: "mefenamic acid"
-predicted_indications: ["rheumatoid arthritis", "osteoarthritis susceptibility", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
+predicted_indications: ["rheumatoid arthritis", "headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 ---
 
 # Mefenamic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 ## Resumen en Una Frase
 
 El ácido mefenámico es un antiinflamatorio no esteroideo (AINE) cuyo único registro sanitario colombiano en los datos compilados no detalla una indicación específica (solo repite el nombre del principio activo).
-El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con un puntaje de 99.73%, **0 ensayos clínicos registrados** y **20 publicaciones** que respaldan esta dirección, incluidos varios ensayos doble ciego antiguos de comparación sintomática.
+El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, con un puntaje de 0.9973, **0 ensayos clínicos registrados** y **20 publicaciones** que respaldan esta dirección, incluidos varios ensayos doble ciego antiguos de comparación sintomática.
 Se trata de una señal de reposicionamiento poco novedosa, ya que los AINE ya se usan como tratamiento sintomático en artritis reumatoide.
 
 ---
@@ -50,10 +50,10 @@ Se trata de una señal de reposicionamiento poco novedosa, ya que los AINE ya se
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "ácido mefenámico") |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

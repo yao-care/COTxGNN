@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 |------|------|
 | Indicación Original | No especificada en los registros (solo figura "Deferasirox") |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.40% |
+| Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS (cancelado) | Tableta recubierta | DEFERASIROX |
-| 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE (cancelado) | Tableta dispersable | DEFERASIROX |
+| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | DEFERASIROX |
+| 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE (vigente) | Tableta dispersable | DEFERASIROX |
 
 ---
 

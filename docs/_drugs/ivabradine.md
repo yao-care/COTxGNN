@@ -48,9 +48,9 @@ Ivabradina es un fármaco que cuenta con registros sanitarios en Colombia (actua
 |------|------|
 | Indicación Original | Ivabradina (el registro sanitario no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.79% |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción origi
 
 La relación entre la indicación original (uso cardiovascular) y la hipertricosis es **débil**. No existe un vínculo establecido entre el bloqueo de los canales HCN y la regulación del crecimiento del cabello. Se ha mencionado que los canales HCN se expresan en tejidos asociados al folículo piloso, pero esto es especulativo.
 
-El puntaje alto de TxGNN (99.79%) refleja una predicción basada en grafos, probablemente por la cercanía de red con otros nodos de hipertricosis, y no un mecanismo biológico validado. Las demás predicciones del modelo (síndrome de Ambras, malformaciones con componente dental o periodontal, síndromes con malformación de Dandy-Walker, anomalías genéticas del tallo piloso y síndrome nefrogénico de antidiuresis inapropiada) tampoco cuentan con respaldo mecanístico ni clínico.
+El puntaje alto de TxGNN (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con la hipertricosis, no evidencia biológica. Las demás predicciones del modelo (síndrome de Ambras, malformaciones con componente dental o periodontal, síndromes con malformación de Dandy-Walker, anomalías genéticas del tallo piloso y síndrome nefrogénico de antidiuresis inapropiada) tampoco cuentan con respaldo mecanístico ni clínico.
 
 ---
 
@@ -82,8 +82,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20178284 | IVAZYD ® 7.5 (cancelado) | Tableta recubierta | Ivabradina |
-| 19983733 | PROCORALAN 7.5 MG comprimidos recubiertos (cancelado) | Tableta cubierta con película | Ivabradina |
+| 20178284 | IVAZYD ® 7.5 (vigente) | Tableta recubierta | Ivabradina |
+| 19983733 | PROCORALAN 7.5 MG comprimidos recubiertos (vigente) | Tableta cubierta con película | Ivabradina |
 
 ---
 

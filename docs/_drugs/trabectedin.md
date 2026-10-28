@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Trabectedin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 633
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Trabectedina"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma"]
 # Trabectedin
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Trabectedina es un agente antitumoral de origen marino, registrado en Colombia b
 |------|------|
 | Indicación Original | Trabectedina (el registro solo consigna el nombre del principio activo, sin indicación detallada) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.73% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9973 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción estru
 
 La relación con la nueva indicación es oncológica: trabectedina se usa en sarcoma de tejidos blandos y en cáncer de ovario recurrente sensible a platino (en combinación con doxorrubicina liposomal pegilada). Los tumores con deficiencia de recombinación homóloga, como los cánceres de mama con mutaciones en BRCA1/2, serían especialmente sensibles, lo que da un fundamento mecanístico plausible. En modelos preclínicos de cáncer de mama triple negativo también se observó que potencia el efecto antitumoral de la IL-12.
 
-Conviene aclarar que este vínculo se apoya en publicaciones y no en datos estructurados de dianas farmacológicas. El puntaje de 0.997 es una predicción computacional y no sustituye la evidencia clínica.
+Conviene aclarar que este vínculo se apoya en publicaciones y no en datos estructurados de dianas farmacológicas. El puntaje de 0.9973 es una predicción computacional y no sustituye la evidencia clínica.
 
 ---
 

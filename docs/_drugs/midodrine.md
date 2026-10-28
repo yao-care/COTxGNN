@@ -48,10 +48,10 @@ La midodrina es un agonista alfa-1 adrenérgico de acción periférica. En Colom
 |------|------|
 | Indicación Original | "MIDODRINA" (el registro sanitario no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Prionopatía sensible a proteasa de forma variable |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,7 +60,7 @@ La midodrina es un agonista alfa-1 adrenérgico de acción periférica. En Colom
 
 **No se identifica un vínculo mecanístico plausible.** La midodrina actúa a través de su metabolito activo, la desglimidodrina, un agonista selectivo alfa-1 adrenérgico. Este metabolito aumenta el tono vascular arterial y venoso y eleva la presión arterial. Es un efecto periférico y no tiene relevancia conocida para el plegamiento anómalo de la proteína priónica ni para la neurodegeneración.
 
-El puntaje tan alto del modelo (99.99%) parece un artefacto de la predicción basada en grafos de conocimiento, y no el reflejo de una relación farmacológica real. No hay datos que relacionen la indicación original con esta enfermedad. Los datos compilados para este informe tampoco incluyen una similitud formal entre ambas indicaciones.
+El puntaje tan alto del modelo (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica de una relación farmacológica real. No hay datos que relacionen la indicación original con esta enfermedad. Los datos compilados para este informe tampoco incluyen una similitud formal entre ambas indicaciones.
 
 ---
 
@@ -80,8 +80,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20202650 | SYNCOPGOR® | Tableta | MIDODRINA | Cancelado |
-| 20022446 | MIDODRINA 5 MG | Tableta recubierta | MIDODRINA | Cancelado |
+| 20202650 | SYNCOPGOR® | Tableta | MIDODRINA | Vigente |
+| 20022446 | MIDODRINA 5 MG | Tableta recubierta | MIDODRINA | Vigente |
 
 Ambos registros corresponden a monofármacos de administración oral. Actualmente no hay registros vigentes.
 
@@ -115,7 +115,7 @@ La predicción se basa únicamente en el modelo, sin ensayos clínicos, sin lite
 - Obtener el prospecto de INVIMA para completar el análisis de seguridad.
 - Aclarar la situación regulatoria, ya que los dos registros están cancelados.
 
-**Nota sobre otras predicciones del mismo fármaco:** entre las predicciones evaluadas, la de **trastorno hipotensivo** (puntaje 99.90%) tiene el respaldo más sólido. Cuenta con un ensayo de Fase 2 completado en lesión medular (NCT02893553, n=21), con múltiples revisiones y guías sobre hipotensión ortostática, y un vínculo mecanístico directo (nivel L2, "Proceed with Guardrails"). Sin embargo, esta predicción coincide en gran medida con el uso ya conocido de la midodrina, por lo que valida el modelo más que constituir un reposicionamiento novedoso. Si se busca una candidata con potencial real, conviene evaluarla en un informe específico.
+**Nota sobre otras predicciones del mismo fármaco:** entre las predicciones evaluadas, la de **trastorno hipotensivo** (puntaje 0.9990) tiene el respaldo más sólido. Cuenta con un ensayo de Fase 2 completado en lesión medular (NCT02893553, n=21), con múltiples revisiones y guías sobre hipotensión ortostática, y un vínculo mecanístico directo (nivel L2, "Proceed with Guardrails"). Sin embargo, esta predicción coincide en gran medida con el uso ya conocido de la midodrina, por lo que valida el modelo más que constituir un reposicionamiento novedoso. Si se busca una candidata con potencial real, conviene evaluarla en un informe específico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

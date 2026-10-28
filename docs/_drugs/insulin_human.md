@@ -54,10 +54,10 @@ El modelo TxGNN predice que podría ser efectiva para **ooforitis autoinmune**, 
 |------|------|
 | Indicación Original | Insulina (humana) |
 | Nueva Indicación Predicha | Ooforitis autoinmune |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -78,15 +78,15 @@ Las demás predicciones de mayor puntaje tampoco cuentan con ensayos ni publicac
 
 | Indicación | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|
-| Síndrome de extremidad rígida focal | 99.81% | L5 | Asociación indirecta por autoinmunidad anti-GAD65 y comorbilidad con diabetes tipo 1 |
-| Síndrome de persona rígida clásico | 99.81% | L5 | Mismo razonamiento; probable artefacto del grafo |
-| Síndrome de disfunción sensible a tiamina | 99.80% | L5 | Manejo sintomático de la diabetes asociada, no de la enfermedad de base |
-| Opsismodisplasia | 99.79% | L5 | Vínculo teórico por SHIP2 en la vía de insulina; sin efecto terapéutico demostrado |
-| Lipodistrofia localizada inducida por fármacos | 99.72% | L5 | Probable causalidad inversa: la insulina puede causar lipodistrofia en el sitio de inyección |
-| Lipodistrofia centrífuga | 99.70% | L5 | Sin evidencia clínica |
-| Lipoatrofia localizada inducida por presión | 99.70% | L5 | Efecto adverso, no señal terapéutica |
-| Agenesia pancreática | 99.70% | L4 | Único caso con mecanismo coherente: reemplazo de la hormona ausente en diabetes neonatal; es práctica clínica estándar, no un reposicionamiento novedoso |
-| Lipodistrofia localizada idiopática | 99.68% | L5 | Probable asociación del grafo por efecto adverso conocido |
+| Síndrome de extremidad rígida focal | 0.9981 | L5 | Asociación indirecta por autoinmunidad anti-GAD65 y comorbilidad con diabetes tipo 1 |
+| Síndrome de persona rígida clásico | 0.9981 | L5 | Mismo razonamiento; la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
+| Síndrome de disfunción sensible a tiamina | 0.9980 | L5 | Manejo sintomático de la diabetes asociada, no de la enfermedad de base |
+| Opsismodisplasia | 0.9979 | L5 | Vínculo teórico por SHIP2 en la vía de insulina; sin efecto terapéutico demostrado |
+| Lipodistrofia localizada inducida por fármacos | 0.9972 | L5 | Probable causalidad inversa: la insulina puede causar lipodistrofia en el sitio de inyección |
+| Lipodistrofia centrífuga | 0.9970 | L5 | Sin evidencia clínica |
+| Lipoatrofia localizada inducida por presión | 0.9970 | L5 | Efecto adverso, no señal terapéutica |
+| Agenesia pancreática | 0.9970 | L4 | Único caso con mecanismo coherente: reemplazo de la hormona ausente en diabetes neonatal; es práctica clínica estándar, no un reposicionamiento novedoso |
+| Lipodistrofia localizada idiopática | 0.9968 | L5 | La puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, por efecto adverso conocido |
 
 ---
 

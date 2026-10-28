@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 |------|------|
 | Indicación Original | Norfloxacina (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, norfloxacino es una fluoroquinolona antibacteriana que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su uso establecido está en infecciones bacterianas (principalmente urinarias).
 
-La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre), no una enfermedad infecciosa. No se identifica un vínculo mecanístico claro entre la inhibición de la ADN girasa y la corrección de este hallazgo. El puntaje alto del modelo proviene de patrones del grafo de conocimiento y no de evidencia biológica o clínica.
+La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre), no una enfermedad infecciosa. No se identifica un vínculo mecanístico claro entre la inhibición de la ADN girasa y la corrección de este hallazgo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por lo tanto, la predicción debe considerarse exploratoria. Otras predicciones del modelo para este fármaco (por ejemplo, síndrome de hiperviscosidad policlonal, analbuminemia congénita o esclerodermia difusa) tampoco cuentan con respaldo mecanístico. La única con plausibilidad biológica es la peste septicémica, una infección bacteriana sensible a fluoroquinolonas, aunque con evidencia solo preclínica e indirecta.
 
@@ -98,7 +98,7 @@ La predicción para hiperamilasemia es solo del modelo (L5), sin ensayos ni lite
 - Evidencia clínica o preclínica que relacione norfloxacino con la hiperamilasemia
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluar si otra indicación predicha, como la peste septicémica, merece una investigación específica, considerando que otras fluoroquinolonas están mejor respaldadas
-- Aclarar la situación regulatoria, ya que todos los registros están cancelados
+- Confirmar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias válidas
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

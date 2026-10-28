@@ -48,10 +48,10 @@ Enfortumab vedotina es un conjugado anticuerpo-fármaco dirigido contra Nectin-4
 |------|------|
 | Indicación Original | Enfortumab vedotina (el registro no detalla una indicación en texto) |
 | Nueva Indicación Predicha | Lepra |
-| Puntaje de Predicción TxGNN | 99.53% |
+| Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,9 +60,9 @@ Enfortumab vedotina es un conjugado anticuerpo-fármaco dirigido contra Nectin-4
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, enfortumab vedotina es un conjugado anticuerpo-fármaco que se dirige a Nectin-4 y libera MMAE, un agente que altera los microtúbulos y es citotóxico. Su uso establecido es oncológico, en carcinoma urotelial.
 
-**La predicción no es razonable desde el punto de vista mecanístico.** La lepra es una infección bacteriana, y no existe una justificación plausible para que un fármaco citotóxico dirigido a células tumorales con Nectin-4 la trate. El puntaje alto (99.53%) es una salida del modelo, sin ensayos ni literatura que lo respalden.
+**La predicción no es razonable desde el punto de vista mecanístico.** La lepra es una infección bacteriana, y no existe una justificación plausible para que un fármaco citotóxico dirigido a células tumorales con Nectin-4 la trate. El puntaje alto (0.9953) es una salida del modelo, sin ensayos ni literatura que lo respalden.
 
-Otras predicciones del mismo modelo (por ejemplo, fiebre catarral maligna y rinotraqueítis infecciosa bovina, ambas enfermedades veterinarias) sugieren que muchos puntajes altos reflejan artefactos del grafo de conocimiento y no señales terapéuticas reales.
+Otras predicciones del mismo modelo (por ejemplo, fiebre catarral maligna y rinotraqueítis infecciosa bovina, ambas enfermedades veterinarias) sugieren que muchos puntajes altos reflejan artefactos del modelo TxGNN (aprendizaje profundo) y no señales terapéuticas reales.
 
 ---
 

@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **monosomía X** (síndrom
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo repite el nombre "Teprotumumab"); la evaluación mecanística lo describe como aprobado para enfermedad ocular tiroidea |
 | Nueva Indicación Predicha | Monosomía X |
-| Puntaje de Predicción TxGNN | 99.79% |
+| Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de c
 
 **En este caso la razonabilidad biológica es débil.** No se identificó un vínculo mecanístico plausible entre el bloqueo de IGF-1R y la monosomía X. El tratamiento del síndrome de Turner se basa en hormona de crecimiento y reemplazo estrogénico, y el eje IGF-1/IGF-1R favorece el crecimiento; por ello, bloquear IGF-1R sería esperablemente contraproducente frente a la terapia de crecimiento.
 
-El puntaje alto (0.998) refleja una señal basada en el grafo de conocimiento, probablemente por cercanía con otras entidades del grupo del síndrome de Turner, y no un mecanismo biológico demostrado. Lo mismo aplica a otras predicciones del modelo (síndrome de Turner por anomalías estructurales del X, monosomía X en mosaico, disgenesia gonadal mixta, varices esofágicas, enfermedad varicosa, entre otras), todas de nivel L5 y sin evidencia clínica.
+El puntaje alto (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, probablemente las del grupo del síndrome de Turner, y no evidencia biológica ni un mecanismo demostrado. Lo mismo aplica a otras predicciones del modelo (síndrome de Turner por anomalías estructurales del X, monosomía X en mosaico, disgenesia gonadal mixta, varices esofágicas, enfermedad varicosa, entre otras), todas de nivel L5 y sin evidencia clínica.
 
 ---
 

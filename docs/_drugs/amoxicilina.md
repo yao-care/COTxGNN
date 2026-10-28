@@ -8,6 +8,7 @@ nav_order: 53
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Amoxicilina
@@ -51,7 +52,7 @@ por lo que no es posible realizar una evaluación de reposicionamiento en esta v
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 — Sin estudios disponibles en este pack |
-| Estado de Mercado en Colombia | No comercializado (según consulta INVIMA: 0 registros) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

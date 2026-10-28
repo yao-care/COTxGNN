@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terconazole
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 617
-evidence_level: L1
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Terconazole: nueva indicación predicha, Vulvitis (nivel de evidencia L1). Indicación original: Terconazol - Dexametasona (combinación con antibiótico/corticoide)"
 monitor_inn: "terconazole"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "vulvovaginitis", "postmenopausal atrophic vaginitis", "vaginitis (disease)", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
+description: "Terconazole: nueva indicación predicha, Trichomonal vulvovaginitis (nivel de evidencia L5). Indicación original: TERCONAZOL - DEXAMETASONA"
 ---
 
 # Terconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Terconazol: De Antifúngico Vaginal con Dexametasona a Vulvitis
+## Terconazole: Trichomonal vulvovaginitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Terconazol es un antifúngico triazólico de uso vaginal, comercializado en Colombia en combinación con dexametasona (cremas vaginales) para infecciones vaginales.
-El modelo TxGNN predice que podría ser efectivo para **vulvitis** (puntaje 99.84%), con **4 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, aunque en la práctica corresponde sobre todo a su uso antifúngico ya conocido (candidiasis vulvovaginal) y no a un reposicionamiento genuino.
+El modelo TxGNN predice que podría ser efectivo para **vulvitis** (puntaje 0.9984), con **4 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección, aunque en la práctica corresponde sobre todo a su uso antifúngico ya conocido (candidiasis vulvovaginal) y no a un reposicionamiento genuino.
 
 ---
 
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para **vulvitis** (puntaje 99.8
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Terconazol - Dexametasona (combinación con antibiótico/corticoide) |
-| Nueva Indicación Predicha | Vulvitis |
-| Puntaje de Predicción TxGNN | 99.84% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Indicación Original | TERCONAZOL - DEXAMETASONA; DEXAMETASONA Y ANTIBIOTICOS |
+| Nueva Indicación Predicha | Trichomonal vulvovaginitis |
+| Puntaje de Predicción TxGNN | 0.9986 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-*Nota: la predicción de mayor puntaje del modelo es vaginitis tricomonal (99.86%), pero solo tiene nivel de evidencia L5 y un vínculo mecanístico débil, por lo que este informe se centra en la primera predicción con evidencia sólida: vulvitis.*
+*Nota: la predicción de mayor puntaje del modelo es vaginitis tricomonal (0.9986), pero solo tiene nivel de evidencia L5 y un vínculo mecanístico débil, por lo que este informe se centra en la primera predicción con evidencia sólida: vulvitis.*
 
 ---
 
@@ -101,9 +101,9 @@ Otras predicciones del modelo tienen poco sustento mecanístico y probablemente 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20265420 | DECADRON T® (cancelado) | Crema vaginal | Terconazol - Dexametasona |
-| 20135424 | TEREX-3 (cancelado) | Crema vaginal | Dexametasona y antibióticos |
-| 20013336 | VAGICORT® Crema Vaginal (cancelado) | Crema vaginal | Terconazol - Dexametasona |
+| 20265420 | DECADRON T® (vigente) | Crema vaginal | Terconazol - Dexametasona |
+| 20135424 | TEREX-3 (vigente) | Crema vaginal | Dexametasona y antibióticos |
+| 20013336 | VAGICORT® Crema Vaginal (vigente) | Crema vaginal | Terconazol - Dexametasona |
 
 ---
 

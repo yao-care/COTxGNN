@@ -48,10 +48,10 @@ Ocrelizumab es un anticuerpo monoclonal anti-CD20 que depleta linfocitos B, util
 |------|------|
 | Indicación Original | Ocrelizumab (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Carcinoma de mama HER2 positivo |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -60,9 +60,9 @@ Ocrelizumab es un anticuerpo monoclonal anti-CD20 que depleta linfocitos B, util
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados. Según la información conocida, ocrelizumab es un anticuerpo monoclonal humanizado dirigido contra CD20 que depleta los linfocitos B, y su eficacia está establecida en esclerosis múltiple.
 
-Los datos compilados **no respaldan un vínculo mecanístico** entre la depleción de linfocitos B CD20+ y la biología tumoral dependiente de HER2. No existen ensayos ni literatura que conecten ambos conceptos. El puntaje alto de TxGNN (0.999) es una predicción del modelo y no constituye evidencia clínica.
+Los datos compilados **no respaldan un vínculo mecanístico** entre la depleción de linfocitos B CD20+ y la biología tumoral dependiente de HER2. No existen ensayos ni literatura que conecten ambos conceptos. El puntaje alto de TxGNN (0.9989) es una predicción del modelo y no constituye evidencia clínica.
 
-Otras predicciones del modelo para este fármaco (cáncer de mama positivo para receptor de progesterona, subtipo similar a mama normal, tumor de mama luminal A o B, y cáncer de mama negativo para receptor de progesterona) tienen puntajes casi idénticos (≈99.8%). Esto sugiere que los puntajes reflejan características compartidas del grafo y no biología específica de cada indicación.
+Otras predicciones del modelo TxGNN (deep learning) para este fármaco (cáncer de mama con receptor de progesterona positivo: 0.9981; subtipo de carcinoma de mama similar a mama normal: 0.9981; tumor de mama luminal A o B: 0.9981; cáncer de mama con receptor de progesterona negativo: 0.9980) tienen puntuaciones casi idénticas. Esto sugiere que las puntuaciones provienen del modelo TxGNN y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica específica de cada indicación.
 
 ---
 

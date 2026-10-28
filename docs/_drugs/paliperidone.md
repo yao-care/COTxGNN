@@ -4,7 +4,7 @@ title: Paliperidone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 494
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Paliperidona"
 monitor_inn: "Paliperidone"
@@ -14,7 +14,7 @@ predicted_indications: ["retinal dystrophy with or without extraocular anomalies
 # Paliperidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con 
 |------|------|
 | Indicación Original | Paliperidona (el registro sanitario solo indica el nombre del principio activo, sin detallar la indicación) |
 | Nueva Indicación Predicha | Distrofia retiniana con o sin anomalías extraoculares |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -61,9 +61,8 @@ El modelo TxGNN predice que podría ser efectivo para **distrofia retiniana con 
 
 Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según el conocimiento farmacológico general, la paliperidona antagoniza los receptores dopaminérgicos D2 y serotoninérgicos 5-HT2A, lo que explica su uso como antipsicótico.
 
-**No se ha identificado un vínculo mecanístico plausible** entre ese mecanismo y la causa de la distrofia retiniana, que es de origen genético. No existen estudios clínicos ni literatura que respalden la relación. El puntaje alto del modelo (99.92%) proviene únicamente de patrones del grafo de conocimiento y no equivale a evidencia de eficacia. Tampoco hay una similitud establecida entre la indicación original (psiquiátrica) y esta nueva indicación (oftalmológica/genética).
+**No se ha identificado un vínculo mecanístico plausible** entre ese mecanismo y la causa de la distrofia retiniana, que es de origen genético. No existen estudios clínicos ni literatura que respalden la relación. El puntaje alto del modelo (0.9992) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni de eficacia. Tampoco hay una similitud establecida entre la indicación original (psiquiátrica) y esta nueva indicación (oftalmológica/genética).
 
-**Nota:** entre las predicciones evaluadas, la única con algo de evidencia asociada es *esquizofrenia resistente al tratamiento* (puntaje 99.80%, nivel L4, recomendación "pregunta de investigación"). Allí el ajuste mecanístico es fuerte, pero los ensayos son de Fase 4 y no confirman a la paliperidona como intervención específica. La literatura recuperada son revisiones generales, y el estándar de tratamiento en esa población es la clozapina. Es un candidato más razonable para análisis posterior que la predicción principal.
 
 ---
 

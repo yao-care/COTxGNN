@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **vasculitis postinfeccios
 |------|------|
 | Indicación Original | Sulfacetamida (solución oftálmica; el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Vasculitis postinfecciosa |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **vasculitis postinfeccios
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la sulfacetamida es una sulfonamida tópica que inhibe la dihidropteroato sintasa bacteriana, bloqueando la síntesis de ácido fólico en las bacterias, y su uso establecido es en infecciones oculares bacterianas, como la conjuntivitis.
 
-La vasculitis postinfecciosa es un proceso mediado por el sistema inmune que aparece después de una infección. Un antibacteriano actúa sobre la bacteria activa, no sobre la respuesta inmunitaria secuelar. Por ello, **no se ha establecido un vínculo mecanístico plausible**: el puntaje alto de TxGNN refleja probablemente una asociación en el grafo de conocimiento (fármaco antibacteriano ↔ enfermedades vinculadas a infección) y no una razón farmacológica sólida.
+La vasculitis postinfecciosa es un proceso mediado por el sistema inmune que aparece después de una infección. Un antibacteriano actúa sobre la bacteria activa, no sobre la respuesta inmunitaria secuelar. Por ello, **no se ha establecido un vínculo mecanístico plausible**: el puntaje alto de TxGNN (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una razón farmacológica sólida.
 
 Otras predicciones del modelo tampoco cuentan con respaldo clínico. Las más plausibles biológicamente son **otitis externa** y **queratoconjuntivitis epitelial punctata**, por la naturaleza antibacteriana y oftálmica del fármaco, aunque ambas carecen de ensayos y literatura. Para otitis externa existen además tratamientos tópicos establecidos (gotas de fluoroquinolonas o aminoglucósidos).
 

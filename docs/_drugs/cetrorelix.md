@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 |------|------|
 | Indicación Original | Cetrorelix (el registro sanitario solo indica el nombre del principio activo; el uso clínico conocido es la inhibición de picos prematuros de LH en estimulación ovárica controlada) |
 | Nueva Indicación Predicha | Hipertricosis |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,9 +61,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero ac
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información farmacológica conocida, cetrorelix es un antagonista del receptor GnRH₁ (gen GNRHR) que suprime la liberación de LH y FSH y, en consecuencia, reduce las hormonas sexuales posteriores.
 
-La supresión androgénica podría influir en el hirsutismo dependiente de andrógenos. Sin embargo, la hipertricosis suele ser independiente de los andrógenos, por lo que el vínculo mecanístico es débil. El puntaje TxGNN muy alto (99.98%) proviene de una predicción basada en grafos, sin respaldo clínico ni bibliográfico.
+La supresión androgénica podría influir en el hirsutismo dependiente de andrógenos. Sin embargo, la hipertricosis suele ser independiente de los andrógenos, por lo que el vínculo mecanístico es débil. El puntaje muy alto (0.9998) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo clínico ni bibliográfico.
 
-Otras predicciones del modelo muestran el mismo patrón: varias corresponden a síndromes congénitos o de desarrollo (síndrome de Ambras, anomalías del tallo piloso, tricomegalia familiar, malformación de Dandy-Walker, síndromes con componente dental/periodontal) sin relación biológica clara con el bloqueo de GnRH, y probablemente reflejan cercanía en la red del grafo de conocimiento. Las más afines a la farmacología de cetrorelix son la **pubertad precoz central** (el bloqueo del receptor de GnRH es mecanísticamente coherente, aunque el tratamiento estándar usa agonistas y la formulación de acción corta y el estado cancelado limitan su practicidad) y la **pubertad precoz familiar limitada al varón** (el mecanismo, basado en mutaciones activadoras de LHCGR, sugiere que no habría beneficio). Ambas están clasificadas como "pregunta de investigación".
+Otras predicciones del modelo muestran el mismo patrón: varias corresponden a síndromes congénitos o de desarrollo (síndrome de Ambras, anomalías del tallo piloso, tricomegalia familiar, malformación de Dandy-Walker, síndromes con componente dental/periodontal) sin relación biológica clara con el bloqueo de GnRH, y probablemente reflejan similitudes que el modelo TxGNN (deep learning) aprendió entre enfermedades relacionadas, no evidencia biológica. Las más afines a la farmacología de cetrorelix son la **pubertad precoz central** (el bloqueo del receptor de GnRH es mecanísticamente coherente, aunque el tratamiento estándar usa agonistas y la formulación de acción corta limita su practicidad) y la **pubertad precoz familiar limitada al varón** (el mecanismo, basado en mutaciones activadoras de LHCGR, sugiere que no habría beneficio). Ambas están clasificadas como "pregunta de investigación".
 
 ---
 

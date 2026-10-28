@@ -4,7 +4,7 @@ title: Adenosine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 29
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama del haz (término obsoleto) (nivel de evidencia L5). Indicación original: ADENOSINA"
 monitor_inn: "Adenosine"
@@ -14,7 +14,7 @@ predicted_indications: ["obsolete bundle branch block"]
 # Adenosine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,13 +50,12 @@ Como alternativa más plausible aparece la **taquicardia ventricular polimórfic
 |------|------|
 | Indicación Original | ADENOSINA (el registro no detalla la indicación; la farmacología conocida la vincula con el tratamiento de taquicardias) |
 | Nueva Indicación Predicha | Bloqueo de rama del haz (término obsoleto) |
-| Puntaje de Predicción TxGNN | 99.94% |
+| Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
-**Candidata secundaria:** taquicardia ventricular polimórfica catecolaminérgica (puntaje TxGNN 99.42%, nivel de evidencia L4, clasificación "Pregunta de investigación").
 
 ---
 
@@ -99,10 +98,10 @@ Para la indicación principal (bloqueo de rama del haz) actualmente no hay liter
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20148959 | ADENOTROY | Solución inyectable | ADENOSINA (cancelado) |
-| 20139028 | ADENOSINA SOLUCIÓN INYECTABLE 6MG/2ML | Solución inyectable | ADENOSINA (cancelado) |
-| 20272824 | TAKIKARD® 6 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (cancelado) |
-| 20058380 | ADENOSINA 6MG / 2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (cancelado) |
+| 20148959 | ADENOTROY | Solución inyectable | ADENOSINA (vigente) |
+| 20139028 | ADENOSINA SOLUCIÓN INYECTABLE 6MG/2ML | Solución inyectable | ADENOSINA (vigente) |
+| 20272824 | TAKIKARD® 6 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (vigente) |
+| 20058380 | ADENOSINA 6MG / 2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (vigente) |
 
 ---
 

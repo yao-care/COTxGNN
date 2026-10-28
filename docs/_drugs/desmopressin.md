@@ -4,7 +4,7 @@ title: Desmopressin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 204
 evidence_level: L5
-indication_count: 7
+indication_count: 6
 last_modified_at: 2026-10-14
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Desmopresina"
 monitor_inn: "desmopressin"
@@ -14,7 +14,7 @@ predicted_indications: ["congenital prothrombin deficiency", "inherited thrombop
 # Desmopressin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 |------|------|
 | Indicación Original | Desmopresina (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 
 No se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según el conocimiento farmacológico general, la desmopresina actúa sobre el receptor V2 y libera el factor VIII y el factor de von Willebrand (VWF) desde los depósitos del endotelio. Por eso se usa como agente hemostático en trastornos hemorrágicos.
 
-La protrombina (factor II) no se libera por esta vía, de modo que **no existe un fundamento mecanístico claro** para usar desmopresina en su deficiencia congénita. El puntaje del modelo es muy alto (0.997), pero probablemente refleja la cercanía en el grafo de conocimiento entre este fármaco y otros trastornos hemorrágicos, y no un efecto terapéutico demostrado.
+La protrombina (factor II) no se libera por esta vía, de modo que **no existe un fundamento mecanístico claro** para usar desmopresina en su deficiencia congénita. El puntaje del modelo es muy alto (0.9970), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 La única publicación vinculada es una revisión general sobre trastornos hemorrágicos congénitos, que no muestra efecto de la desmopresina en la deficiencia de protrombina. La predicción debe tratarse como una hipótesis sin respaldo.
 

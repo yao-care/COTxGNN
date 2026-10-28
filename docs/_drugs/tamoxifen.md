@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Tamoxifen
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 604
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tamoxifen: nueva indicación predicha, Enfermedad de Paget mamaria (nivel de evidencia L4). Indicación original: El registro sanitario solo indica \"Tamoxifeno\"…"
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
+description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: TAMOXIFENO"
 ---
 
 # Tamoxifen
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Tamoxifeno: De Cáncer de Mama Hormonodependiente a Enfermedad de Paget Mamaria
+## Tamoxifen: Mammary Paget disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ pero solo hay **1 ensayo clínico** (de relación indirecta) y **10 publicacione
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | El registro sanitario solo indica "Tamoxifeno", sin texto de indicación detallado. El uso oncológico establecido es el cáncer de mama con receptores de estrógeno positivos. |
-| Nueva Indicación Predicha | Enfermedad de Paget mamaria |
-| Puntaje de Predicción TxGNN | 99.69% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Indicación Original | TAMOXIFENO |
+| Nueva Indicación Predicha | Mammary Paget disease |
+| Puntaje de Predicción TxGNN | 0.9969 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

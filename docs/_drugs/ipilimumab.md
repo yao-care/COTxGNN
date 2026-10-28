@@ -4,7 +4,7 @@ title: Ipilimumab
 parent: Solo Predicción del Modelo (L5)
 nav_order: 354
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "IPILIMUMAB"
@@ -14,7 +14,7 @@ predicted_indications: ["choroideremia"]
 # Ipilimumab
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **coroideremia**, pero act
 |------|------|
 | Indicación Original | No especificada (el registro solo indica "IPILIMUMAB") |
 | Nueva Indicación Predicha | Coroideremia |
-| Puntaje de Predicción TxGNN | 99.06% |
+| Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **coroideremia**, pero act
 
 Ipilimumab es un anticuerpo anti-CTLA-4. Al bloquear este "freno" inmunológico, favorece la activación y expansión de los linfocitos T contra los tumores. Los datos compilados no incluyen una descripción detallada del mecanismo de acción.
 
-La coroideremia es una degeneración retiniana monogénica ligada al cromosoma X, causada por la pérdida de función del gen *CHM* (proteína REP1). No existe un vínculo mecanístico plausible con el bloqueo de CTLA-4, y el puntaje alto del modelo (99.06%) parece ser un artefacto de la predicción basada en redes de conocimiento.
+La coroideremia es una degeneración retiniana monogénica ligada al cromosoma X, causada por la pérdida de función del gen *CHM* (proteína REP1). No existe un vínculo mecanístico plausible con el bloqueo de CTLA-4, y el puntaje alto del modelo (0.9906) parece ser un artefacto de la predicción basada en redes de conocimiento.
 
 Además, el bloqueo sistémico de puntos de control inmunitarios conlleva riesgo de eventos adversos oculares de origen inmunitario, como la uveítis. Esto sería indeseable en una enfermedad retiniana degenerativa. Por tanto, esta predicción debe considerarse con mucha cautela.
 
@@ -129,7 +129,6 @@ La predicción carece de ensayos clínicos y de literatura (nivel L5), no hay un
 - Advertencias y contraindicaciones del prospecto del INVIMA.
 - Verificar el estado del registro (solo cancelado) y la indicación aprobada real.
 
-**Nota:** la segunda predicción del modelo, **melanoma no cutáneo** (puntaje 99.02%), cuenta con más respaldo: 1 ensayo de Fase 2 completado de nivocolumab + ipilimumab en melanoma uveal (NCT02626962) y literatura indirecta. Su recomendación preliminar es *Proceed with Guardrails*, y podría ser una línea de evaluación más prometedora.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

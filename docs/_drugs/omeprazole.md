@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Omeprazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 485
-evidence_level: L3
-indication_count: 2
+evidence_level: L5
+indication_count: 1
 last_modified_at: 2026-10-14
-description: "Omeprazole: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L3). Indicación original: OMEPRAZOL"
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
+description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: OMEPRAZOL"
 ---
 
 # Omeprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-## Omeprazol: De Indicación Original (Omeprazol) a Reflujo Duodenogástrico
+## Omeprazole: Duodenal obstruction
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Omeprazol es un inhibidor de la bomba de protones que suprime la secreción de ácido gástrico; en sus registros sanitarios colombianos figura únicamente con el nombre del principio activo como indicación.
-El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico**, con **1 ensayo clínico** (solo de contexto indirecto) y **15 publicaciones** relacionadas, aunque ninguna demuestra de forma directa su eficacia en esta indicación.
 
 ---
 
@@ -47,11 +46,11 @@ El modelo TxGNN predice que podría ser efectivo para **reflujo duodenogástrico
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | OMEPRAZOL (el registro no detalla una indicación específica) |
-| Nueva Indicación Predicha | Reflujo duodenogástrico |
-| Puntaje de Predicción TxGNN | 99.64% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Indicación Original | OMEPRAZOL |
+| Nueva Indicación Predicha | Duodenal obstruction |
+| Puntaje de Predicción TxGNN | 0.9964 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -95,8 +94,8 @@ Hay además una señal de precaución. Estudios preclínicos en ratas (PMID 1038
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20066112 | OMEPRAZOL 40 MG (COLMED LTDA) – cancelado | Cápsula dura | OMEPRAZOL |
-| 20066115 | OMEPRAZOL 20 MG (PROCAPS S.A.) – cancelado | Cápsula dura | OMEPRAZOL |
+| 20066112 | OMEPRAZOL 40 MG (COLMED LTDA) – vigente | Cápsula dura | OMEPRAZOL |
+| 20066115 | OMEPRAZOL 20 MG (PROCAPS S.A.) – vigente | Cápsula dura | OMEPRAZOL |
 
 ---
 

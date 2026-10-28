@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (solo figura el nombre del principio activo) |
 | Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina |
-| Puntaje de Predicción TxGNN | 99.50% |
+| Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La deficiencia del cofactor 2 de la heparina es un trastorno de los inhibidores de la coagulación, en el que se reduce la inhibición de la trombina (gen SERPIND1). No se conoce que la señalización del CGRP regule la actividad de este cofactor ni la inhibición de la trombina.
 
-**No se identificó un vínculo mecanístico creíble.** El puntaje alto de TxGNN (99.50%) proviene únicamente de asociaciones en un grafo de conocimiento y no está respaldado por fundamento biológico, ensayos clínicos ni literatura. Las otras dos predicciones de mayor rango tienen la misma limitación:
+**No se identificó un vínculo mecanístico creíble.** El puntaje alto de TxGNN (0.9950) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; tampoco está respaldado por ensayos clínicos ni literatura. Las otras dos predicciones de mayor rango tienen la misma limitación:
 
 - **Deficiencia de antitrombina tipo 2** (99.41%): es un defecto funcional de SERPINC1, y el CGRP no influye en la función de la antitrombina ni en la cascada de coagulación.
 - **Exceso de factor V con trombosis espontánea** (99.41%): es una anomalía de la vía de coagulación sin relación conocida con el CGRP. Además, los anticuerpos contra la vía del CGRP tienen precauciones cardiovasculares y vasculares (por ejemplo, hipertensión y eventos de tipo Raynaud notificados tras la comercialización), por lo que una población propensa a trombosis requeriría mayor escrutinio de seguridad.

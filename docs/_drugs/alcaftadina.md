@@ -8,6 +8,7 @@ nav_order: 33
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Alcaftadina
@@ -49,8 +50,8 @@ ALCAFTADINA es un fármaco identificado en DrugBank, pero el paquete de evidenci
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | Sin datos disponibles |
 | Nivel de Evidencia | L5 – Solo identificación del fármaco, sin estudios |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

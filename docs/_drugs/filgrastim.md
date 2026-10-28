@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Filgrastim: De Indicación No Especificada a Trastorno Hemorrágico Primario de Liberación Plaquetaria
+## Filgrastim: De Indicación No Especificada a Trastorno primario de liberación plaquetaria
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 |------|------|
 | Indicación Original | FILGRASTIM (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
-| Puntaje de Predicción TxGNN | 99.998% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

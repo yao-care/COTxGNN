@@ -48,9 +48,9 @@ La morfina es un analgésico opioide. En Colombia sus registros sanitarios solo 
 |------|------|
 | Indicación Original | MORFINA (el registro no detalla la indicación aprobada) |
 | Nueva Indicación Predicha | Síndrome de dolor miofascial |
-| Puntaje de Predicción TxGNN | 99.75% |
+| Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -121,7 +121,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en el modelo (99.75%), pero no hay ensayos clínicos y la literatura es indirecta, con un único ECA sobre uso local y coadyuvante. Los opioides no están recomendados como tratamiento estándar del dolor miofascial y sus riesgos de seguridad son altos. Además, no hay registros sanitarios vigentes de morfina en Colombia según los datos compilados.
+La predicción tiene un puntaje alto en el modelo (0.9975), pero no hay ensayos clínicos y la literatura es indirecta, con un único ECA sobre uso local y coadyuvante. Los opioides no están recomendados como tratamiento estándar del dolor miofascial y sus riesgos de seguridad son altos. Además, no hay registros sanitarios vigentes de morfina en Colombia según los datos compilados.
 
 **Para avanzar se necesita:**
 - Estudios clínicos controlados que evalúen la morfina directamente en síndrome de dolor miofascial, con comparadores activos.

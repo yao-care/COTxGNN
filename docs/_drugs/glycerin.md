@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de la cauda
 |------|------|
 | Indicación Original | Lágrimas artificiales y otras preparaciones indiferentes |
 | Nueva Indicación Predicha | Síndrome de la cauda equina |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El síndrome de la cauda equina es una urgencia quirúrgica por compresión de las raíces nerviosas de la región lumbosacra. Los datos compilados no sustentan ninguna justificación farmacológica para usar glicerina en esta condición, y no hay relación identificable con la indicación original (lubricación de la superficie ocular).
 
-Aunque el puntaje del modelo es alto (99.60%), no hay ensayos ni publicaciones que lo acompañen. Por ello, esta predicción debe tomarse únicamente como una hipótesis sin respaldo.
+Aunque el puntaje del modelo es alto (0.9960), no hay ensayos ni publicaciones que lo acompañen. Por ello, esta predicción debe tomarse únicamente como una hipótesis sin respaldo.
 
 **Otras predicciones del modelo (todas con evidencia limitada):** glaucoma de ángulo abierto (99.59%, L4; la glicerina oral es un agente osmótico que reduce la presión intraocular, pero la literatura recuperada no aporta evidencia directa en esta forma de glaucoma), glaucoma hereditario primario, alopecia, síndrome del intestino irritable y migraña. Entre ellas, el glaucoma de ángulo abierto es la que tiene mayor plausibilidad biológica.
 
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para completar el análisis de advertencias y contraindicaciones

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Risperidone
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 566
-evidence_level: L1
-indication_count: 6
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Risperidone: nueva indicación predicha, Trastorno afectivo mayor (evaluada por mayor evidencia (nivel de evidencia L1). Indicación original: Risperidona"
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "asperger syndrome, susceptibility to", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+description: "Risperidone: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: RISPERIDONA"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **6**
 
 </div>
 
-## Risperidona: De Indicación Registrada (Risperidona) a Trastorno Afectivo Mayor
+## Risperidone: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Nota: el modelo generó varias predicciones. La primera por puntaje (parálisis 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Risperidona (el registro sanitario no detalla el texto de la indicación) |
-| Nueva Indicación Predicha | Trastorno afectivo mayor (evaluada por mayor evidencia; la predicción de rango 1 por puntaje es parálisis de la mirada familiar con escoliosis progresiva) |
-| Puntaje de Predicción TxGNN | 99.11% (trastorno afectivo mayor); 99.76% para la predicción de rango 1 |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo cancelados |
+| Indicación Original | RISPERIDONA |
+| Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
+| Puntaje de Predicción TxGNN | 0.9976 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -106,8 +106,8 @@ Esta lógica se refuerza con dos ensayos de Fase 3 completados de risperidona ad
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007289 | RISPERIDONA 2 MG (Tecnoquímicas S.A.) | Tableta cubierta (gragea) | Risperidona (cancelado) |
-| 20160734 | ISPERIN® 2 MG (Momenta Farmacéutica S.A.S.) | Tableta recubierta | Risperidona (cancelado) |
+| 20007289 | RISPERIDONA 2 MG (Tecnoquímicas S.A.) | Tableta cubierta (gragea) | Risperidona (vigente) |
+| 20160734 | ISPERIN® 2 MG (Momenta Farmacéutica S.A.S.) | Tableta recubierta | Risperidona (vigente) |
 
 ---
 

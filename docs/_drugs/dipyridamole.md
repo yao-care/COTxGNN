@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dipyridamole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 226
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dipyridamole: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Dipiri…"
+evidence_level: L5
+indication_count: 8
 monitor_inn: "dipyridamole"
-predicted_indications: ["stroke disorder", "thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-10-23
+description: "Dipyridamole: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: No especificada"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,90 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Dipiridamol: De Indicación Registrada (Dipiridamol) a Angina de Prinzmetal
+## Dipiridamol: De una indicación no especificada en el registro a enfermedad trombótica
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dipiridamol es un fármaco antiagregante plaquetario y vasodilatador, registrado en Colombia en forma de solución inyectable (10 mg/2 ml); el registro sanitario no detalla el texto de la indicación aprobada, solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal**, pero sin ensayos clínicos y con **10 publicaciones**, en su mayoría diagnósticas o descriptivas, que no demuestran beneficio terapéutico.
-Las indicaciones con mayor respaldo entre las predichas son el accidente cerebrovascular y el ataque isquémico transitorio, que corresponden a usos ya establecidos más que a un reposicionamiento real.
-
----
+El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tiene registros sanitarios de solución inyectable, pero el texto de indicación registrado solo repite el nombre del fármaco, sin especificar un uso clínico. El modelo TxGNN predice que podría ser útil en **enfermedad trombótica**, pero **no hay ensayos clínicos registrados** para esta indicación y las **20 publicaciones** halladas son en su mayoría revisiones generales o indirectas.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto aprobado solo indica "Dipiridamol") |
-| Nueva Indicación Predicha | Angina de Prinzmetal |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Indicación Original | No especificada (el registro sanitario solo indica "DIPIRIDAMOL") |
+| Nueva Indicación Predicha | Enfermedad trombótica |
+| Puntaje de Prediccion TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Numero de Registros Sanitarios | Al menos 2 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
----
+## Por qué es Razonable esta Predicción
 
-## ¿Por qué es Razonable esta Predicción?
+Los datos compilados no incluyen una descripción formal del mecanismo de acción. Según el conocimiento farmacológico general, el dipiridamol inhibe la recaptación de adenosina (transportador ENT1) y las fosfodiesterasas (PDE3/PDE5). Esto aumenta el AMPc y el GMPc en las plaquetas, reduce la agregación plaquetaria y produce vasodilatación.
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, dipiridamol inhibe la recaptación de adenosina y la actividad de las fosfodiesterasas, lo que eleva la adenosina extracelular y los nucleótidos cíclicos (AMPc/GMPc), con efectos antiagregantes y de vasodilatación coronaria.
+Con este mecanismo, un efecto sobre la trombosis es biológicamente coherente. Las revisiones halladas describen al dipiridamol como inhibidor reversible de la agregación plaquetaria y de la enfermedad trombótica mediada por plaquetas. También se describe que puede potenciar efectos vasculares protectores del óxido nítrico.
 
-La relación con la angina de Prinzmetal (angina vasoespástica) es débil. La literatura sobre esta condición es mayormente diagnóstica (prueba de estrés con dipiridamol). Un estudio describe que la terminación del estrés con dipiridamol mediante aminofilina puede desencadenar vasoespasmo coronario en angina variante. Esto indica una interacción farmacológica con el vasoespasmo, no un beneficio terapéutico. Además, el efecto de robo coronario y los efectos mediados por adenosina podrían ser perjudiciales en la enfermedad vasoespástica.
-
-Por lo tanto, el puntaje alto del modelo no está respaldado mecanísticamente ni clínicamente para esta indicación. En cambio, las predicciones de **accidente cerebrovascular** y **ataque isquémico transitorio** sí tienen respaldo sólido (ensayo ESPRIT, metaanálisis y revisiones Cochrane), aunque son usos ya conocidos del fármaco, usualmente combinado con aspirina.
-
----
+Hay una salvedad importante: "enfermedad trombótica" es una categoría muy amplia y se solapa con el uso antitrombótico ya conocido del dipiridamol. No es una señal de reposicionamiento realmente nueva. Además, la ficha de registro colombiana no precisa la indicación, así que no se puede confirmar qué uso está autorizado localmente.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para Angina de Prinzmetal.
-
-*Como referencia, para las indicaciones predichas de accidente cerebrovascular y ataque isquémico transitorio, el ensayo más relevante es:*
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00161070](https://clinicaltrials.gov/study/NCT00161070) | Fase 4 | Completado | 4500 | ESPRIT: compara anticoagulación leve o aspirina más dipiridamol frente a aspirina sola tras isquemia cerebral de origen arterial |
-| [NCT00562588](https://clinicaltrials.gov/study/NCT00562588) | Fase 4 | Completado | 551 | EARLY: Aggrenox (dipiridamol + aspirina) iniciado en las primeras 24 h frente a inicio tras 7 días de aspirina en ictus isquémico |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
 
 ## Evidencia de Literatura
 
+Se encontraron 20 publicaciones. Ninguna es un ensayo aleatorizado que evalúe dipiridamol en enfermedad trombótica. Se listan las 10 más pertinentes. Se excluyó un ensayo de bevacizumab en mesotelioma (PMID 26719230) por no guardar relación con el tema.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [633593](https://pubmed.ncbi.nlm.nih.gov/633593/) | 1978 | Revisión/observación clínica | Jpn Circ J | 26 pacientes con angina en reposo recibieron varios fármacos, entre ellos dipiridamol, para evaluar su efecto sobre las crisis |
-| [3421166](https://pubmed.ncbi.nlm.nih.gov/3421166/) | 1988 | Estudio clínico pequeño | Am J Cardiol | La terminación del estrés con dipiridamol mediante aminofilina puede desencadenar vasoespasmo coronario en angina variante |
-| [3190956](https://pubmed.ncbi.nlm.nih.gov/3190956/) | 1988 | Estudio diagnóstico | Br Heart J | Reproducibilidad de la prueba de esfuerzo en pacientes con elevación del ST y distintas respuestas a la prueba de dipiridamol |
-| [6779029](https://pubmed.ncbi.nlm.nih.gov/6779029/) | 1981 | Estudio diagnóstico | Jpn Circ J | Gammagrafía con talio-201 y dipiridamol para detectar enfermedad coronaria; precisión diagnóstica del 66% |
-| [16630456](https://pubmed.ncbi.nlm.nih.gov/16630456/) | 2006 | Cohorte | Zhonghua Xin Xue Guan Bing Za Zhi | Comparación de características clínicas entre espasmo coronario típico y atípico |
-| [7628141](https://pubmed.ncbi.nlm.nih.gov/7628141/) | 1995 | Reporte de caso | Clin Nucl Med | Paciente con angina variante y antecedentes vasoactivos; discusión de "migraña cardíaca" |
-| [14060538](https://pubmed.ncbi.nlm.nih.gov/14060538/) | 1963 | Reporte de caso | Naika | Caso de angina de pecho variante |
-
-La mayor parte de esta literatura es diagnóstica o descriptiva; ninguna demuestra beneficio terapéutico del dipiridamol en angina de Prinzmetal.
-
----
+| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Revisión | Arterioscler Thromb Vasc Biol | Describe el dipiridamol como inhibidor de fosfodiesterasas que eleva AMPc y GMPc, inhibe la agregación plaquetaria y potencia efectos vasculares del óxido nítrico |
+| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Revisión | Postgraduate Medicine | Aspirina, dipiridamol y sulfinpirazona muestran efecto antitrombótico en humanos; revisión antigua |
+| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Revisión | Med J Aust | Los antiagregantes protegen frente a infarto, ictus y otros eventos vasculares; la aspirina es de primera línea |
+| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Revisión | Clin Cardiol | Analiza aspirina más dipiridamol en trombosis coronaria; la aspirina es parcialmente eficaz en modelos experimentales |
+| [15494585](https://pubmed.ncbi.nlm.nih.gov/15494585/) | 2004 | Revisión | JAMA | Los antiagregantes, solos o combinados, previenen eventos vasculares recurrentes en enfermedad aterotrombótica establecida |
+| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Revisión | Curr Top Med Chem | Describe una actividad antioxidante poco reconocida del dipiridamol, además de su acción antitrombótica y vasodilatadora |
+| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Reporte de caso | Arch Intern Med | Paciente con púrpura trombocitopénica trombótica que respondió a dosis más altas de dipiridamol junto con otros fármacos |
+| [26184395](https://pubmed.ncbi.nlm.nih.gov/26184395/) | 2015 | Revisión (Cochrane) | Cochrane Database Syst Rev | Revisa tratamientos adyuvantes para mantener la permeabilidad de fístulas y injertos arteriovenosos, donde la trombosis es una complicación |
+| [36696191](https://pubmed.ncbi.nlm.nih.gov/36696191/) | 2023 | Revisión | J Thromb Haemost | Trombo-inflamación en el síndrome antifosfolípido; contexto general, no específico del dipiridamol |
+| [20484211](https://pubmed.ncbi.nlm.nih.gov/20484211/) | 2010 | Revisión | Am J Health Syst Pharm | Efectos de antiagregantes y anticoagulantes en complicaciones vasooclusivas y trombóticas de la anemia falciforme |
 
 ## Información de Mercado en Colombia
 
+La lista de registros puede ser parcial.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20062876 (cancelado) | DIPIRIDAMOL 10 MG/2ML | Solución inyectable | Dipiridamol |
-| 19905610 (cancelado) | PERSANTIN® AMPOLLAS 10 MG/2 ML | Solución inyectable | Dipiridamol |
-
----
+| 20062876 | DIPIRIDAMOL 10 MG/2ML | Solución inyectable | DIPIRIDAMOL (sin indicación clínica especificada) |
+| 19905610 | PERSANTIN ® AMPOLLAS 10 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | DIPIRIDAMOL (sin indicación clínica especificada) |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no del prospecto):** el grafo de conocimiento del modelo asocia el fármaco con contraindicaciones en enfermedad renal, enfermedad hepática, trombocitopenia, úlcera péptica, hipotensión, gota, hemofilia, infarto de miocardio, síndrome coronario agudo, anemia, gastritis, síndrome de Reye y enfermedad de Alzheimer, entre otras. Deben verificarse contra el prospecto.
-- **Interacciones farmacológicas:** se identificaron 321 interacciones. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras interacciones listadas, de nivel no clasificado, incluyen ácido acetilsalicílico, cimetidina, omeprazol, pantoprazol, metformina y morfina.
-- **Riesgo en la indicación predicha:** por su acción sobre la adenosina, el dipiridamol podría empeorar el vasoespasmo coronario y generar robo coronario.
+- **Contraindicaciones registradas en el grafo de conocimiento** (no provienen del prospecto): el grafo asocia al dipiridamol una lista amplia de relaciones de contraindicación. Entre las más relevantes están:
+  - hemorragia y alteraciones de la coagulación: hemofilia, trombocitopenia, púrpura trombocitopénica y deficiencia congénita de protrombina;
+  - úlcera péptica activa y gastritis;
+  - hipotensión;
+  - síndrome coronario agudo e infarto de miocardio;
+  - enfermedad renal y hepática;
+  - gota y anemias.
 
----
+  Deben verificarse contra la información oficial del producto.
+- **Interacciones farmacológicas**: se identificaron 321 interacciones potenciales. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras (por ejemplo ácido acetilsalicílico, cimetidina, omeprazol, metformina, morfina o prednisona) figuran con nivel no clasificado. La combinación con otros antitrombóticos requiere vigilancia del riesgo de sangrado.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para Angina de Prinzmetal no hay ensayos clínicos y la literatura es diagnóstica o descriptiva, con indicios de posible daño por vasoespasmo; el nivel de evidencia es L4. Además, los dos registros sanitarios en Colombia están cancelados.
+- No hay ensayos clínicos para esta indicación y la literatura es en su mayoría de revisiones generales, antiguas o indirectas, por lo que el nivel de evidencia es L5. La categoría es demasiado amplia y se solapa con el uso antitrombótico ya conocido, así que no aporta una hipótesis nueva y concreta.
+- Otra predicción del mismo modelo, el accidente isquémico transitorio, cuenta con un ensayo aleatorizado grande (ESPRIT, 4500 pacientes, aspirina con o sin dipiridamol) y varios metaanálisis. Merece una evaluación aparte y sería una vía más prometedora.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues su ausencia impide el cribado de seguridad.
-- Consultar datos de mecanismo de acción en DrugBank.
-- Considerar priorizar las indicaciones de **accidente cerebrovascular** y **ataque isquémico transitorio** (nivel L1, "Proceed with Guardrails"), con cautela por el riesgo de sangrado, cefalea, intolerancia gastrointestinal y las múltiples interacciones, y verificando la disponibilidad real de productos dado que no hay registros vigentes.
-- Si se quisiera explorar angina vasoespástica, generar primero evidencia preclínica y de seguridad que descarte un efecto adverso.
+- Definir un subtipo trombótico concreto (arterial, venoso o asociado a dispositivos) en lugar de la categoría general.
+- Revisar la literatura de forma sistemática y buscar ensayos aleatorizados específicos de dipiridamol en ese subtipo.
+- Obtener el prospecto oficial del INVIMA para conocer la indicación autorizada, las advertencias y las contraindicaciones.
+- Completar los datos del mecanismo de acción y confirmar si la lista de registros sanitarios está completa.
+- Valorar la seguridad en pacientes con riesgo hemorrágico y revisar interacciones con otros antitrombóticos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

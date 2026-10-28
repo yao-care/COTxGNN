@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 |------|------|
 | Indicación Original | Panitumumab (el registro solo repite el nombre del principio activo, sin indicación descrita) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos (drug-induced osteoporosis) |
-| Puntaje de Predicción TxGNN | 99.13% |
+| Puntaje de Predicción TxGNN | 0.9913 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,9 +63,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La señalización de EGFR participa en la diferenciación de los osteoblastos y en la remodelación ósea, por lo que bloquearla podría afectar el metabolismo óseo. Sin embargo, este vínculo sugiere más bien un **posible efecto adverso** (por ejemplo, efectos óseos asociados a hipomagnesemia) que un beneficio terapéutico. La dirección del efecto (beneficio o daño) no está resuelta.
 
-El puntaje alto de TxGNN (99.13%) es solo una predicción del modelo, sin respaldo de ensayos clínicos ni literatura. Por ello, debe interpretarse con cautela.
+El puntaje alto de TxGNN (0.9913) es solo una predicción del modelo, sin respaldo de ensayos clínicos ni literatura. Por ello, debe interpretarse con cautela.
 
-**Otra predicción del modelo:** retinopatía diabética no proliferativa grave (puntaje 99.05%, nivel L5, decisión Hold). Existe un vínculo especulativo por la transactivación de EGFR en la señalización vascular retiniana y las vías relacionadas con VEGF. Al ser un anticuerpo de administración sistémica con un perfil de toxicidad importante (dermatológica, hipomagnesemia) y sin datos oculares, el vínculo sigue siendo hipotético.
+**Otra predicción del modelo:** retinopatía diabética no proliferativa grave (puntaje 0.9905, nivel L5, decisión Hold). Existe un vínculo especulativo por la transactivación de EGFR en la señalización vascular retiniana y las vías relacionadas con VEGF. Al ser un anticuerpo de administración sistémica con un perfil de toxicidad importante (dermatológica, hipomagnesemia) y sin datos oculares, el vínculo sigue siendo hipotético.
 
 ---
 
@@ -73,7 +73,7 @@ El puntaje alto de TxGNN (99.13%) es solo una predicción del modelo, sin respal
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20025916 | VECTIBIX® 20 MG/ML (Amgen Europe B.V.) | Solución concentrada para infusión | PANITUMUMAB | Cancelado |
+| 20025916 | VECTIBIX® 20 MG/ML (Amgen Europe B.V.) | Solución concentrada para infusión | PANITUMUMAB | Vigente |
 
 ---
 

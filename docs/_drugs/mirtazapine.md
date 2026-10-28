@@ -50,9 +50,9 @@ Se trata de una predicción puramente computacional.
 |------|------|
 | Indicación Original | Mirtazapina (el texto de indicación registrado en INVIMA solo menciona el nombre del principio activo) |
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Se trata de una predicción puramente computacional.
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general y los datos de afinidad por receptores, la mirtazapina es un antidepresivo noradrenérgico y serotoninérgico específico: tiene mayor afinidad por los adrenoceptores α2 (α2A, α2B, α2C) y por los receptores serotoninérgicos 5-HT2A y 5-HT2C, donde actúa como antagonista.
 
-El síndrome de Ohdo y sus variantes son trastornos raros del neurodesarrollo, asociados comúnmente con mutaciones en KAT6B y desregulación de la cromatina o de mecanismos epigenéticos. **No se identifica una vía plausible** que conecte el perfil receptorial de la mirtazapina con la etiología genética de la enfermedad. El puntaje alto de TxGNN (0.994) refleja una asociación calculada a partir del grafo de conocimiento, no evidencia biológica ni clínica independiente.
+El síndrome de Ohdo y sus variantes son trastornos raros del neurodesarrollo, asociados comúnmente con mutaciones en KAT6B y desregulación de la cromatina o de mecanismos epigenéticos. **No se identifica una vía plausible** que conecte el perfil receptorial de la mirtazapina con la etiología genética de la enfermedad. El puntaje alto de TxGNN (0.9942) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica independiente.
 
 Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado de ánimo) sería especulativo y no está respaldado por los datos disponibles.
 
@@ -70,8 +70,8 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 
 | Posición | Enfermedad | Puntaje TxGNN | Comentario |
 |------|------|------|------|
-| 2 | Síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo | 99.11% | Se solapa con la predicción principal (espectro KAT6B); probablemente refleja la misma asociación del grafo |
-| 3 | Tortícolis paroxística benigna de la infancia | 99.11% | Una conexión especulativa sería la modulación serotoninérgica (antagonismo 5-HT2 usado en profilaxis de migraña), pero no hay estudios y la condición se resuelve sola; faltan datos de seguridad en lactantes y los antidepresivos llevan advertencias pediátricas |
+| 2 | Síndrome de blefarofimosis con discapacidad intelectual, tipo Ohdo | 0.9911 | Se solapa con la predicción principal (espectro KAT6B); el puntaje proviene del modelo TxGNN (deep learning) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
+| 3 | Tortícolis paroxística benigna de la infancia | 0.9911 | Una conexión especulativa sería la modulación serotoninérgica (antagonismo 5-HT2 usado en profilaxis de migraña), pero no hay estudios y la condición se resuelve sola; faltan datos de seguridad en lactantes y los antidepresivos llevan advertencias pediátricas |
 
 ---
 
@@ -79,10 +79,10 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Cancelado |
-| 19928993 | MIRTAPAX ® | Tableta recubierta | MIRTAZAPINA | Cancelado |
-| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Cancelado |
-| 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Cancelado |
+| 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Vigente |
+| 19928993 | MIRTAPAX ® | Tableta recubierta | MIRTAZAPINA | Vigente |
+| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Vigente |
+| 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Vigente |
 
 Los cuatro registros son de monofármaco y están cancelados; actualmente no hay productos vigentes en Colombia.
 

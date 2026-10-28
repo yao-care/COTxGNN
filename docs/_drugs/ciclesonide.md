@@ -4,7 +4,7 @@ title: Ciclesonide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
 monitor_inn: "Ciclesonide"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitizat
 # Ciclesonide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 |------|------|
 | Indicación Original | Ciclesonida (el registro no detalla la indicación; la literatura la describe como asma persistente) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,10 +90,9 @@ Actualmente no hay literatura relacionada disponible para eccema atópico.
 
 | Posición | Indicación | Puntaje TxGNN | Nivel | Comentario |
 |------|------|------|------|------|
-| 2 | Sensibilización al metacrilato de 2-hidroxietilo (HEMA) | 99.76% | L5 | Alergia de contacto; el tratamiento principal es evitar el alérgeno, por lo que la necesidad clínica es poco clara |
-| 4 | Bronquitis | 99.70% | L4 | Coherente con la acción antiinflamatoria de la vía aérea; solo evidencia indirecta |
-| 5 | Dermatitis de contacto | 99.25% | L4 | La única publicación es una señal de seguridad (alergia), no de eficacia |
-| 6 | Rasgos relacionados con asma (susceptibilidad) | 99.13% | L5 | Concepto de susceptibilidad genética, no una indicación tratable; el uso en asma ya corresponde a la indicación original |
+| 2 | Sensibilización al metacrilato de 2-hidroxietilo (HEMA) | 0.9976 | L5 | Alergia de contacto; el tratamiento principal es evitar el alérgeno, por lo que la necesidad clínica es poco clara |
+| 4 | Bronquitis | 0.9970 | L4 | Coherente con la acción antiinflamatoria de la vía aérea; solo evidencia indirecta |
+| 5 | Dermatitis de contacto | 0.9925 | L4 | La única publicación es una señal de seguridad (alergia), no de eficacia |
 
 ---
 
@@ -101,8 +100,8 @@ Actualmente no hay literatura relacionada disponible para eccema atópico.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20137070 | CICLOVENT® 160 MCG | Solución para inhalación | Ciclesonida | Cancelado |
-| 20137073 | CICLOVENT® 80 MCG | Solución para inhalación | Ciclesonida | Cancelado |
+| 20137070 | CICLOVENT® 160 MCG | Solución para inhalación | Ciclesonida | Vigente |
+| 20137073 | CICLOVENT® 80 MCG | Solución para inhalación | Ciclesonida | Vigente |
 
 Ambos registros pertenecen a CIPLA LTD y se encuentran cancelados; actualmente no hay registros vigentes.
 
@@ -124,7 +123,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto de INVIMA; 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto (99.96%), pero no hay ensayos clínicos ni literatura para ciclesonida en eccema atópico (nivel L5). Además, los registros en Colombia están cancelados y no se cuenta con datos de seguridad del prospecto, lo que limita la viabilidad práctica.
+El puntaje del modelo es alto (0.9996), pero no hay ensayos clínicos ni literatura para ciclesonida en eccema atópico (nivel L5). Además, los registros en Colombia están cancelados y no se cuenta con datos de seguridad del prospecto, lo que limita la viabilidad práctica.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).

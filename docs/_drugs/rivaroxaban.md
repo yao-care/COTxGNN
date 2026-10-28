@@ -48,9 +48,9 @@ Rivaroxabán es un anticoagulante oral que inhibe el factor Xa y se usa para pre
 |------|------|
 | Indicación Original | Rivaroxabán (el registro sanitario no detalla el texto de la indicación; el uso conocido es anticoagulación) |
 | Nueva Indicación Predicha | Artritis reumatoide |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -125,7 +125,7 @@ Pese al puntaje alto de TxGNN, no existen ensayos clínicos ni estudios que eval
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Estudios preclínicos que respalden el vínculo trombo-inflamatorio en artritis reumatoide.
 - Evaluar la relevancia clínica de los otros candidatos predichos, aunque ninguno cuenta con respaldo: gota (L5, sin mecanismo creíble), infección por VIH (L4, la literatura se refiere a interacciones de seguridad, no a eficacia) y síndrome de braquidactilia-sindactilia (L5, sin datos).
-- Aclarar el estatus regulatorio local, dado que todos los registros están cancelados.
+- Confirmar el estatus regulatorio local, dado que el medicamento está comercializado y cuenta con 5 licencias vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

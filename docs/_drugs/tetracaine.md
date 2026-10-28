@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Tetracaína: De Combinaciones (anestesia oftálmica) a Dermatitis Crónica Atrófica Acrodermatitis
+## Tetracaína: De Combinaciones (anestesia oftálmica) a Acrodermatitis crónica atrófica
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,17 +48,17 @@ La evidencia disponible es únicamente la predicción del modelo (nivel L5).
 |------|------|
 | Indicación Original | Combinaciones |
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la tetracaína es un anestésico local tipo éster que bloquea los canales de sodio y, con ello, la conducción del impulso nervioso. Su uso aprobado en Colombia fue como solución oftálmica.
 
-**No se identificó un vínculo mecanístico plausible.** La acrodermatitis crónica atrófica es una manifestación cutánea tardía de la infección por *Borrelia*, cuyo tratamiento requiere antibióticos. El bloqueo de canales de sodio no actúa sobre la causa ni la fisiopatología de esta enfermedad. El puntaje alto del modelo proviene de asociaciones en el grafo de conocimiento, sin respaldo clínico ni bibliográfico.
+**No se identificó un vínculo mecanístico plausible.** La acrodermatitis crónica atrófica es una manifestación cutánea tardía de la infección por *Borrelia*, cuyo tratamiento requiere antibióticos. El bloqueo de canales de sodio no actúa sobre la causa ni la fisiopatología de esta enfermedad. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, sin respaldo clínico ni bibliográfico.
 
 ## Evidencia de Ensayos Clínicos
 

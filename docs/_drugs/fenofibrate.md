@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Fenofibrate
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 279
-evidence_level: L4
-indication_count: 7
-last_modified_at: 2026-10-14
-description: "Fenofibrate: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L4). Indicación original: Pravastatina y fenofibrato (combinación hipolipemiante)"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Fenofibrate"
-predicted_indications: ["homozygous familial hypercholesterolemia", "hyperlipoproteinemia", "cholesterol-ester transfer protein deficiency", "hypercholesterolemia due to cholesterol 7alpha-hydroxylase deficiency", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "hypercholesterolemia, autosomal dominant"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency"]
+last_modified_at: 2026-10-23
+description: "Fenofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: PRAVASTATINA Y FENOFIBRATO"
 ---
 
 # Fenofibrate
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,73 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 </div>
 
-## Fenofibrato: De Pravastatina y Fenofibrato (dislipidemia) a Hipercolesterolemia Familiar Homocigota
+## Fenofibrato: De Pravastatina y Fenofibrato (dislipidemia) a Deficiencia de la proteína de transferencia de ésteres de colesterol
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El fenofibrato es un hipolipemiante que activa el receptor PPAR-alfa. En Colombia solo tuvo un registro, para la combinación pravastatina + fenofibrato, hoy cancelado.
-El modelo TxGNN predice que podría ser útil para **hipercolesterolemia familiar homocigota**, pero el único ensayo clínico asociado evalúa otro fármaco (alirocumab), no fenofibrato.
-Además hay **10 publicaciones**, casi todas revisiones generales, de modo que la evidencia directa es muy débil.
-
----
+Fenofibrato es un fármaco registrado en Colombia en una combinación con pravastatina (producto PRAVAFEN® cápsulas), cuyo texto de indicación aprobado solo dice "PRAVASTATINA Y FENOFIBRATO".
+El modelo TxGNN predice que podría ser efectivo para la **deficiencia de la proteína de transferencia de ésteres de colesterol**, pero hay **0 ensayos clínicos** y **3 publicaciones** preclínicas o mecanísticas, ninguna de las cuales estudia directamente esta enfermedad en pacientes.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pravastatina y fenofibrato (combinación hipolipemiante) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Indicación Original | PRAVASTATINA Y FENOFIBRATO (texto de la licencia; no detalla una enfermedad) |
+| Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol |
+| Puntaje de Predicción TxGNN | 0.9961 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, el fenofibrato es un agonista de PPAR-alfa, y su actividad reside en su metabolito activo. Su eficacia para reducir triglicéridos y colesterol está comprobada en dislipidemias mixtas, y su uso con estatinas está bien establecido.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la información de farmacología disponible, el fenofibrato actúa como agonista del receptor PPARα (la actividad reside en su metabolito activo) y se usa para reducir colesterol y triglicéridos. También se registra una interacción con la proteína de unión a ácidos grasos 1 (dato en rata).
 
-La hipercolesterolemia familiar homocigota se debe a la ausencia o falla del receptor de LDL. Esa es una vía distinta de la que actúa el fenofibrato, por lo que no se espera que corrija el defecto primario. Cualquier beneficio sería indirecto, por ejemplo sobre las lipoproteínas ricas en triglicéridos, y con una reducción modesta del LDL-C.
+La deficiencia de CETP se caracteriza por HDL muy elevado, con transferencia alterada de ésteres de colesterol. La literatura recuperada muestra solo un vínculo biológico en el metabolismo de las HDL: la combinación de agonismo PPARα e inhibición de CETP modifica los niveles de HDL y LDL en ratones transgénicos (PMID 20332533), y el fenofibrato induce la expresión de PLTP, lo que contribuye al agrandamiento de las HDL en ratones (PMID 11342537).
 
-La relación con la indicación original es el trastorno lipídico común. La predicción del modelo parece apoyarse en la cercanía entre enfermedades lipídicas y no en un mecanismo claro. El único respaldo clínico antiguo es un estudio de 1984 en pacientes con hiperlipoproteinemia tipo II, donde un paciente con la forma homocigota mostró la mayor caída de colesterol total y LDL.
-
----
+Sin embargo, la deficiencia de CETP es una condición rara que suele presentarse con HDL alto y no como un estado que requiera corrección, por lo que el fundamento terapéutico del fenofibrato es poco claro. El puntaje alto de TxGNN es una predicción computacional y no está respaldado por evidencia clínica para esta indicación.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Estudio abierto de alirocumab (inhibidor de PCSK9) en niños y adolescentes de 8 a 17 años con HoFH. El fenofibrato no es la intervención, por lo que no aporta evidencia directa. |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6593751](https://pubmed.ncbi.nlm.nih.gov/6593751/) | 1984 | Cohorte | Pharmacological Research Communications | 22 pacientes con hiperlipoproteinemia tipo II tratados con fenofibrato 300 mg/día. El colesterol total bajó 22% y el LDL 24%. Un paciente con HoFH tuvo la mayor caída. |
-| [37979722](https://pubmed.ncbi.nlm.nih.gov/37979722/) | 2024 | Revisión | Indian Heart Journal | Fármacos hipolipemiantes no estatínicos. La indicación más definida del fenofibrato en monoterapia es la hipertrigliceridemia >500 mg/dl. |
-| [2042836](https://pubmed.ncbi.nlm.nih.gov/2042836/) | 1991 | Revisión | Annals of the New York Academy of Sciences | Tratamiento farmacológico y quirúrgico de la dislipidemia pediátrica, con foco en hipercolesterolemia familiar. Incluye fenofibrato entre los fármacos que redujeron lípidos. |
-| [35499807](https://pubmed.ncbi.nlm.nih.gov/35499807/) | 2022 | Revisión | Current Atherosclerosis Reports | Manejo de la dislipidemia en el embarazo y su ausencia en las guías. |
-| [14620392](https://pubmed.ncbi.nlm.nih.gov/14620392/) | 2003 | Revisión | Pharmacotherapy | Ezetimiba como inhibidor selectivo de la absorción de colesterol. No trata de fenofibrato. |
-| [9129869](https://pubmed.ncbi.nlm.nih.gov/9129869/) | 1997 | Revisión | Drugs | Farmacología y potencial terapéutico de atorvastatina en hiperlipidemias. |
-| [9627539](https://pubmed.ncbi.nlm.nih.gov/9627539/) | 1998 | Revisión | Canadian Journal of Cardiology | Avances en el tratamiento de la dislipidemia, con foco en atorvastatina. |
-| [26432726](https://pubmed.ncbi.nlm.nih.gov/26432726/) | 2015 | Revisión | Indian Heart Journal | LDL-colesterol, estatinas e inhibidores de PCSK9. |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía clínica | Endocrine Practice | Guías AACE/ACE para el manejo de la dislipidemia y la prevención cardiovascular. |
-| [24734312](https://pubmed.ncbi.nlm.nih.gov/24734312/) | 2014 | Estudio farmacocinético | Pharmacotherapy | Interacciones farmacocinéticas de lomitapida (aprobada para HoFH) con fármacos hipolipemiantes, entre ellos fenofibrato. |
-
----
+| [20332533](https://pubmed.ncbi.nlm.nih.gov/20332533/) | 2010 | Preclínico/mecanístico | J Cardiovasc Pharmacol Ther | En ratones transgénicos con ApoB100 y CETP humanas, la inhibición de CETP (torcetrapib) y el agonismo PPARα (fenofibrato) modifican el perfil lipídico, con aumento de HDL y reducción de LDL. |
+| [11342537](https://pubmed.ncbi.nlm.nih.gov/11342537/) | 2001 | Preclínico/mecanístico | J Biol Chem | La inducción del gen de la proteína de transferencia de fosfolípidos explica el agrandamiento de las HDL en ratones tratados con fenofibrato. |
+| [30271349](https://pubmed.ncbi.nlm.nih.gov/30271349/) | 2018 | Preclínico/mecanístico | Front Physiol | No se observó correlación entre HDL plasmático, colesterol fecal y capacidad de eflujo de colesterol, lo que sugiere la importancia de la función de las HDL. |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20114242 | PRAVAFEN® CÁPSULAS | Cápsula dura | Pravastatina y fenofibrato |
+| 20114242 | PRAVAFEN® CÁPSULAS | Cápsula dura | PRAVASTATINA Y FENOFIBRATO |
 
-Este registro está **cancelado**, por lo que actualmente no hay registros sanitarios vigentes de fenofibrato en el país. Fabricante: Altadis Farmacéutica S.A.S.
-
----
+La lista puede ser parcial. Este producto es una combinación; su licencia no describe cómo está aprobado el fenofibrato como principio activo único.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas por el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto del prospecto):
-  - Hepáticas y biliares: insuficiencia hepática, enfermedad hepática, enfermedad de la vesícula biliar, colelitiasis y colecistolitiasis.
-  - Pancreáticas: pancreatitis.
-  - Musculares: miopatía, enfermedades del músculo esquelético, rabdomiólisis y parálisis periódica familiar.
-  - Hematológicas: trombocitopenia, anemia (incluida la macrocítica), leucopenia, agranulocitosis y neutropenia (incluidas varias formas congénitas).
-  - Renales: función renal alterada.
-- **Interacciones farmacológicas:** Las dos entradas registradas corresponden a dianas farmacológicas (PPAR-alfa y proteína de unión a ácidos grasos 1), no a interacciones con otros medicamentos. No se dispone de interacciones clínicas con nivel de gravedad. Se debe tener especial cuidado con la combinación con estatinas por el riesgo de miopatía.
+- **Contraindicaciones registradas en el grafo de conocimiento** (relaciones del grafo, no texto de prospecto): insuficiencia hepática, enfermedad hepática, pancreatitis, enfermedad de la vesícula biliar, colelitiasis y colecistolitiasis, miopatía y enfermedades musculares, rabdomiólisis, trombocitopenia, anemia, leucopenia, agranulocitosis, neutropenia (incluidas formas congénitas), y alteración de la función renal.
+- **Interacciones farmacológicas**: los datos disponibles corresponden a interacciones con dianas (PPARα y proteína de unión a ácidos grasos 1), no a interacciones con otros medicamentos.
 
-No se dispone de advertencias del prospecto del registro colombiano; consultar el prospecto para información de seguridad completa.
-
----
+Consultar el prospecto para la información de advertencias y contraindicaciones oficiales.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo que pruebe fenofibrato en hipercolesterolemia familiar homocigota. El mecanismo no corrige el defecto del receptor de LDL, y los tratamientos con evidencia en esta enfermedad actúan por otras vías, como los inhibidores de PCSK9. El puntaje alto del modelo (99.91%) no compensa la ausencia de evidencia directa.
+No hay ensayos clínicos ni estudios que investiguen directamente la deficiencia de CETP con fenofibrato; solo existen estudios preclínicos sobre metabolismo de HDL, por lo que el nivel de evidencia es L5. Además, el fundamento terapéutico es dudoso, ya que esta condición cursa con HDL elevado.
 
 **Para avanzar se necesita:**
-- Estudios clínicos de fenofibrato (solo o con terapias estándar) en pacientes con HoFH, con desenlaces de LDL-C y de triglicéridos.
-- Datos formales del mecanismo de acción y análisis de su vínculo con la vía del receptor de LDL.
-- Advertencias y contraindicaciones del prospecto del registro sanitario colombiano, para completar el análisis de seguridad.
-- Un registro sanitario vigente, ya que el único existente está cancelado.
-
-**Nota:** Entre las demás predicciones del modelo, la de hiperlipoproteinemia tiene respaldo robusto, con múltiples ensayos de Fase 3 completados. Sin embargo, corresponde a un uso ya establecido del fenofibrato y no a un reposicionamiento nuevo.
+- Aclarar si existe una necesidad clínica real en esta enfermedad rara y qué desenlace se buscaría mejorar.
+- Estudios directos en la enfermedad (modelos o pacientes) que respalden la hipótesis.
+- Datos del mecanismo de acción y del prospecto de INVIMA (advertencias y contraindicaciones) para el análisis de seguridad.
+- Revisión de la seguridad frente a las contraindicaciones del grafo de conocimiento (hepáticas, musculares, renales y hematológicas).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Melphalan
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 426
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Melphalan: nueva indicación predicha, Tumor de células germinales gonadal (nivel de evidencia L2). Indicación original: Melphalan"
+description: "Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L2). Indicación original: Melphalan"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcino
 # Melphalan
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Melfalán: De Indicación Registrada (Melphalan) a Tumor de Células Germinales Gonadal
+## Melfalán: De Indicación Registrada (Melphalan) a Carcinoma de Mama Femenino
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,10 +48,10 @@ Melfalán es un agente alquilante antineoplásico que en Colombia contó con reg
 |------|------|
 | Indicación Original | Melphalan (el registro sanitario no detalla la indicación en texto) |
 | Nueva Indicación Predicha | Tumor de células germinales gonadal |
-| Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 7 (todos cancelados) |
+| Puntaje de Predicción TxGNN | 0.9967 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,11 +92,11 @@ Una limitación importante: la evidencia proviene de regímenes combinados a dos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20167599 | Melfalán 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Cancelado |
-| 20269433 | Melfalán para inyección 50 mg/vial | Polvo liofilizado | MELPHALAN | Cancelado |
-| 218558 | Alkeran® inyectable | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Cancelado |
-| 46265 | Alkeran® 2 mg tabletas | Tableta cubierta con película | MELPHALAN | Cancelado |
-| 20161853 | Nozomi® 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Cancelado |
+| 20167599 | Melfalán 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
+| 20269433 | Melfalán para inyección 50 mg/vial | Polvo liofilizado | MELPHALAN | Vigente |
+| 218558 | Alkeran® inyectable | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
+| 46265 | Alkeran® 2 mg tabletas | Tableta cubierta con película | MELPHALAN | Vigente |
+| 20161853 | Nozomi® 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
 
 Se muestran 5 de los 7 registros; los otros dos (Myelkilan® y Melfaseven®) también están cancelados.
 
@@ -137,7 +137,7 @@ Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 2 completado e
 **Para avanzar se necesita:**
 - Resultados publicados del ensayo NCT00936936 y análisis de la contribución específica del melfalán.
 - Información del prospecto (advertencias y contraindicaciones) y datos del mecanismo de acción.
-- Aclarar la situación regulatoria: tramitar un nuevo registro o importación bajo un régimen especial, dado que todos los registros están cancelados.
+- Aclarar la situación regulatoria: el medicamento está comercializado, con 7 licencias válidas de 7 en este país; verificar el estado de cada licencia antes de cualquier trámite de registro o importación.
 - Comparación con los esquemas actuales de rescate en tumores germinales (por ejemplo, regímenes de dosis altas con carboplatino y etopósido).
 - Un plan de monitoreo hematológico, renal y pulmonar para poblaciones de riesgo.
 ## Descargo de responsabilidad

@@ -50,10 +50,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | LETERMOVIR (el registro sanitario no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La candidiasis vulvovaginal es una infección fúngica. Los hongos del género *Candida* no tienen un blanco equivalente al complejo terminasa del CMV, por lo que no se esperaría actividad antifúngica. **No se identifica un vínculo mecanístico creíble** entre la indicación original y la nueva.
 
-El puntaje alto de TxGNN (0.9988) es una predicción del grafo de conocimiento. Puede reflejar la cercanía en la red con otros fármacos antiinfecciosos o características compartidas del grafo, y no necesariamente plausibilidad biológica. Cualquier hipótesis requeriría validación experimental independiente, por ejemplo pruebas de susceptibilidad in vitro frente a *Candida* spp.
+El puntaje alto de TxGNN (0.9988) es una predicción del modelo TxGNN (aprendizaje profundo). Puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no es evidencia biológica. Cualquier hipótesis requeriría validación experimental independiente, por ejemplo pruebas de susceptibilidad in vitro frente a *Candida* spp.
 
 ---
 

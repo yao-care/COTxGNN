@@ -4,9 +4,9 @@ title: Pazopanib
 parent: Evidencia Moderada (L3-L4)
 nav_order: 502
 evidence_level: L3
-indication_count: 10
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Pazopanib: nueva indicación predicha, Carcinoma de células renales no clasificado (nivel de evidencia L3). Indicación original: PAZOPANIB"
+description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibr
 # Pazopanib
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Pazopanib: De Pazopanib (indicación sin detallar en el registro) a Carcinoma de Células Renales No Clasificado
+## Pazopanib: De Pazopanib (indicación sin detallar en el registro) a Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -51,9 +51,9 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de células
 |------|------|
 | Indicación Original | PAZOPANIB (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Carcinoma de células renales no clasificado |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold (la evidencia es retrospectiva; la categoría de la predicción es "pregunta de investigación") |
 
@@ -92,9 +92,9 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20248619 | REDPANIB® 400 MG (cancelado) | Tableta recubierta | PAZOPANIB |
-| 20248583 | REDPANIB® 200 MG (cancelado) | Tableta recubierta | PAZOPANIB |
-| 20024562 | VOTRIENT® 200 MG (cancelado) | Tableta recubierta | PAZOPANIB |
+| 20248619 | REDPANIB® 400 MG (vigente) | Tableta recubierta | PAZOPANIB |
+| 20248583 | REDPANIB® 200 MG (vigente) | Tableta recubierta | PAZOPANIB |
+| 20024562 | VOTRIENT® 200 MG (vigente) | Tableta recubierta | PAZOPANIB |
 
 ---
 
@@ -123,9 +123,9 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto, ya
 
 | Indicación | Puntaje | Nivel | Evidencia | Recomendación |
 |------|------|------|------|------|
-| Liposarcoma | 99.59% | L2 | 6 ensayos (p. ej., [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) fase 2 completado, n=42; [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) fase 2 completado, n=52) y 20 publicaciones | Proceed with Guardrails |
-| Neoplasia fibroblástica | 99.35% | L2 | 2 ensayos (p. ej., [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) fase 2, n=96) y 20 publicaciones | Pregunta de investigación |
-| Dermatofibrosarcoma protuberans | 99.29% | L2 | 4 ensayos (p. ej., [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) fase 2, terminado, n=23) y 14 publicaciones, incluido el estudio fase II [32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/) | Pregunta de investigación |
+| Liposarcoma | 0.9959 | L2 | 6 ensayos (p. ej., [NCT01506596](https://clinicaltrials.gov/study/NCT01506596) fase 2 completado, n=42; [NCT01692496](https://clinicaltrials.gov/study/NCT01692496) fase 2 completado, n=52) y 20 publicaciones | Proceed with Guardrails |
+| Neoplasia fibroblástica | 0.9935 | L2 | 2 ensayos (p. ej., [NCT02066285](https://clinicaltrials.gov/study/NCT02066285) fase 2, n=96) y 20 publicaciones | Pregunta de investigación |
+| Dermatofibrosarcoma protuberans | 0.9929 | L2 | 4 ensayos (p. ej., [NCT01059656](https://clinicaltrials.gov/study/NCT01059656) fase 2, terminado, n=23) y 14 publicaciones, incluido el estudio fase II [32956651](https://pubmed.ncbi.nlm.nih.gov/32956651/) | Pregunta de investigación |
 
 Las demás predicciones (carcinoma renal con translocaciones Xp11.2/TFE3, carcinoma renal asociado a neuroblastoma, carcinoma renal infantil, liposarcoma mixoide ovárico, fibrosarcoma cardíaco y fibrosarcoma renal) no tienen ensayos ni literatura y se mantienen en nivel L5 (solo predicción del modelo).
 
@@ -138,7 +138,7 @@ En liposarcoma, el beneficio parece modesto y dependiente del subtipo: los subti
 **Decisión: Hold** (para carcinoma renal no clasificado)
 
 **Justificación:**
-La evidencia disponible es retrospectiva y de brazo único (nivel L3), sin ensayos clínicos registrados ni datos aleatorizados. Además, todos los registros sanitarios en Colombia están cancelados y no hay datos de seguridad del prospecto. Entre las predicciones, liposarcoma (L2, "Proceed with Guardrails") es la que tiene respaldo clínico más sólido, con uso limitado a pacientes seleccionados y estratificación por subtipo.
+La evidencia disponible es retrospectiva y de brazo único (nivel L3), sin ensayos clínicos registrados ni datos aleatorizados. Además, en Colombia el medicamento está comercializado con 3 registros sanitarios vigentes y no hay datos de seguridad del prospecto. Entre las predicciones, liposarcoma (L2, "Proceed with Guardrails") es la que tiene respaldo clínico más sólido, con uso limitado a pacientes seleccionados y estratificación por subtipo.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha de datos bloqueante para el cribado de seguridad).

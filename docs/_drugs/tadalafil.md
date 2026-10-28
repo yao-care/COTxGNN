@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 |------|------|
 | Indicación Original | No especificada en el registro (el texto de indicación solo indica "TADALAFIL") |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. La hipertricosis tipo Ambras es un trastorno congénito del crecimiento del vello, asociado a reordenamientos genómicos que producen un efecto de posición sobre el locus TRPS1. Una conexión indirecta podría pasar por cambios en el flujo sanguíneo folicular o en la señalización de cGMP, pero esto es especulativo y no está establecido.
 
-La predicción de TxGNN parece derivarse únicamente de similitudes en el grafo de conocimiento, sin respaldo clínico ni bibliográfico. Además, existe una posible alerta de dirección del efecto: vasodilatadores como el minoxidil inducen hipertricosis como efecto adverso, lo que sugiere que el fármaco podría, en el mejor de los casos, no ser útil y, en el peor, agravar el problema.
+La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; además, no cuenta con respaldo clínico ni bibliográfico. Además, existe una posible alerta de dirección del efecto: vasodilatadores como el minoxidil inducen hipertricosis como efecto adverso, lo que sugiere que el fármaco podría, en el mejor de los casos, no ser útil y, en el peor, agravar el problema.
 
 ---
 
@@ -85,8 +85,8 @@ Entre las otras predicciones, solo la migraña con aura de tronco encefálico (p
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20007296 | CIALIS® 5 MG | Tableta recubierta | TADALAFIL | Cancelado |
-| 20065415 | IRTAL® 5 MG tabletas recubiertas | Tableta recubierta | TADALAFIL | Cancelado |
+| 20007296 | CIALIS® 5 MG | Tableta recubierta | TADALAFIL | Vigente |
+| 20065415 | IRTAL® 5 MG tabletas recubiertas | Tableta recubierta | TADALAFIL | Vigente |
 
 ---
 

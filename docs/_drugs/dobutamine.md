@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 La dobutamina es un agonista adrenérgico beta-1 de uso intravenoso, registrado en Colombia bajo la indicación genérica "dobutamina" (sin texto de indicación detallado).
 El modelo TxGNN predice que podría ser efectiva para **alopecia**, pero no hay ensayos clínicos y solo existe **1 publicación** (un reporte veterinario de intoxicación por minoxidil en un gato), que no respalda esta dirección.
-La predicción se considera un artefacto del grafo de conocimiento, no una hipótesis farmacológica creíble.
+La predicción se considera un artefacto del modelo TxGNN (aprendizaje profundo), no una hipótesis farmacológica creíble.
 
 ---
 
@@ -50,9 +50,9 @@ La predicción se considera un artefacto del grafo de conocimiento, no una hipó
 |------|------|
 | Indicación Original | DOBUTAMINA (el registro no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Alopecia |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ La predicción se considera un artefacto del grafo de conocimiento, no una hipó
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la dobutamina es un inotrópico agonista beta-1 adrenérgico que se administra por infusión intravenosa y se usa en el soporte hemodinámico de la insuficiencia cardíaca aguda.
 
-El análisis de los datos compilados **no encuentra un vínculo mecanístico creíble** entre la dobutamina y la alopecia. La dobutamina no tiene efecto conocido sobre la biología del folículo piloso. El puntaje alto de TxGNN probablemente se debe a la cercanía en el grafo con otros fármacos vasoactivos o cardiovasculares, como el minoxidil, que sí se relaciona con el crecimiento del cabello.
+El análisis de los datos compilados **no encuentra un vínculo mecanístico creíble** entre la dobutamina y la alopecia. La dobutamina no tiene efecto conocido sobre la biología del folículo piloso. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 La única publicación recuperada describe insuficiencia cardíaca por intoxicación con minoxidil en un gato, en la que se usó dobutamina para tratar la hipotensión. Es un reporte de toxicidad veterinaria y no constituye evidencia de eficacia de la dobutamina en alopecia.
 
@@ -86,7 +86,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados; actualmente no hay registros vigentes.
+El medicamento está comercializado y cuenta con 3 registros sanitarios vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

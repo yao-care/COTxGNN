@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Acetylcysteine
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 25
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Acetilcisteína"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal ca
 # Acetylcysteine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Acetilcisteína (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Enfermedad trombótica |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -103,9 +103,9 @@ Conviene precisar que la evidencia se concentra en microangiopatías trombótica
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19970253 | Rinofluimucil® solución nasal (Zambon Colombia) | Solución nasal | Acetilcisteína (cancelado) |
-| 20094856 | Fluiq® 600 mg (Eurofarma Colombia) | Polvo | Acetilcisteína (cancelado) |
-| 19904497 | Fluimucil® 2% (Zambon Colombia) | Jarabe | Acetilcisteína (cancelado) |
+| 19970253 | Rinofluimucil® solución nasal (Zambon Colombia) | Solución nasal | Acetilcisteína (vigente) |
+| 20094856 | Fluiq® 600 mg (Eurofarma Colombia) | Polvo | Acetilcisteína (vigente) |
+| 19904497 | Fluimucil® 2% (Zambon Colombia) | Jarabe | Acetilcisteína (vigente) |
 
 ---
 
@@ -143,11 +143,11 @@ Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso 
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Síndrome de ojo seco | 99.87% | L2 | Proceed with Guardrails (mayor respaldo para la formulación de quitosano-NAC; sin ensayo de Fase 3) |
-| Enfermedad de la cavidad nasal | 99.92% | L4 | Hold |
-| Faringitis | 99.80% | L4 | Hold |
-| Enfermedad traqueal | 99.57% | L4 | Hold |
-| Ataque isquémico transitorio | 99.53% | L4 | Hold |
+| Síndrome de ojo seco | 0.9987 | L2 | Proceed with Guardrails (mayor respaldo para la formulación de quitosano-NAC; sin ensayo de Fase 3) |
+| Enfermedad de la cavidad nasal | 0.9992 | L4 | Hold |
+| Faringitis | 0.9980 | L4 | Hold |
+| Enfermedad traqueal | 0.9957 | L4 | Hold |
+| Ataque isquémico transitorio | 0.9953 | L4 | Hold |
 | Glaucoma de ángulo cerrado, laringofaringitis aguda, laringotraqueítis | — | L5 | Hold (sin ensayos ni literatura) |
 ## Descargo de responsabilidad
 

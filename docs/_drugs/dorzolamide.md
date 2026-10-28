@@ -4,17 +4,17 @@ title: Dorzolamide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 233
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Dorzolamide: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Combinaciones de timolol"
+indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
+last_modified_at: 2026-10-27
+description: "Dorzolamide: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: TIMOLOL COMBINACIONES"
 ---
 
 # Dorzolamide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,63 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Dorzolamida: De Combinaciones de Timolol a Glaucoma Hereditario Primario
+## Dorzolamida: inhibidor de la anhidrasa carbónica → hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Dorzolamida es un inhibidor tópico de la anhidrasa carbónica. En Colombia estuvo registrada en una solución oftálmica combinada con timolol (indicación registrada: "Timolol combinaciones"). El modelo TxGNN predice que podría ser efectiva para **glaucoma hereditario primario**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta indicación específica.
-
----
+Dorzolamida es un inhibidor de la anhidrasa carbónica que se presenta en solución oftálmica de uso tópico.
+El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. Se trata de una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Combinaciones de timolol |
-| Nueva Indicación Predicha | Glaucoma hereditario primario |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | TIMOLOL COMBINACIONES |
+| Nueva Indicación Predicha | hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
+| Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dorzolamida inhibe la anhidrasa carbónica (principalmente la isoforma II) en los procesos ciliares del ojo. Esto reduce la formación de bicarbonato y la secreción de humor acuoso, y con ello baja la presión intraocular (PIO). También se ha descrito su unión a las isoformas CA1, CA7, CA12 y CA14. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Aun así, según la información conocida, dorzolamida es un hipotensor ocular de uso establecido, y mecanísticamente podría ser aplicable a un glaucoma en el que la presión intraocular elevada sea el problema central.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Lo que sí muestran es que dorzolamida actúa sobre varias isoenzimas de la anhidrasa carbónica humana (CA1, CA7, CA12 y CA14).
 
-La relación entre la indicación original y la nueva es de proximidad clínica. Ambas tienen que ver con el control de la presión intraocular en glaucoma. El glaucoma hereditario primario es una forma de origen genético, y reducir la producción de humor acuoso es plausible como medida sintomática.
+El análisis no identificó un vínculo mecanístico plausible entre la inhibición de la anhidrasa carbónica y el desarrollo del folículo piloso en un trastorno genético como la hipotricosis simple del cuero cabelludo. La predicción parece un artefacto del modelo, sin respaldo biológico ni clínico conocido. Además, la similitud con la indicación original no ha sido evaluada.
 
-Sin embargo, el puntaje alto de TxGNN probablemente refleja cercanía semántica con el glaucoma de ángulo abierto, no evidencia independiente para esta entidad. No se encontraron ensayos ni literatura específicos. La predicción es plausible, pero no está demostrada.
-
----
+Por tanto, este puntaje alto indica solo una asociación calculada por el modelo. No constituye evidencia de eficacia y debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20254363 | DORZOTRISOL T SOLUCIÓN OFTÁLMICA | Solución oftálmica | Timolol combinaciones |
-
-Este único registro (fabricante: Laboratorios Incobra S.A.) figura como **cancelado**. Esto se refiere solo a ese producto y no significa que la molécula esté retirada.
-
----
+El estado de mercado en Colombia es **comercializado**, según los registros sanitarios locales. El producto registrado es una solución oftálmica. No se dispone de datos sobre su uso en afecciones del cabello o del cuero cabelludo, y la vía oftálmica no es compatible a priori con una indicación del cuero cabelludo.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del texto del prospecto): diabetes mellitus, cetoacidosis diabética, miastenia gravis (incluida la de inicio en adultos), enfermedad de la unión neuromuscular, hipertiroidismo, enfermedad de Graves, tirotoxicosis, hipoglucemia, bloqueo auriculoventricular, enfisema pulmonar, enfermedad bronquial y anafilaxia. Varias de estas asociaciones probablemente reflejan el componente timolol (betabloqueador) de las combinaciones, por lo que deben verificarse en el prospecto del producto.
-- **Interacciones farmacológicas:** la consulta no devolvió interacciones medicamentosas clínicas. Registró cuatro dianas farmacológicas (anhidrasas carbónicas 1, 7, 12 y 14). Como precaución general, conviene revisar el uso concomitante con inhibidores orales de la anhidrasa carbónica.
-- **Precauciones generales:** verificar hipersensibilidad a sulfonamidas y función renal.
-
-Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico ni publicación para glaucoma hereditario primario. El puntaje de 99.99% parece derivar de la cercanía con el glaucoma de ángulo abierto, para el cual dorzolamida ya es un tratamiento establecido (uso en su indicación habitual, no reposicionamiento). Además, el único registro sanitario local está cancelado.
+No existen ensayos clínicos ni publicaciones que estudien esta enfermedad, y no se identificó un mecanismo plausible. La predicción se apoya solo en el modelo, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Evidencia clínica o de series de casos de dorzolamida en glaucoma hereditario o congénito primario, incluida la población pediátrica. Existe un ensayo de Fase 2 en glaucoma pediátrico, pero se asocia a la entidad de glaucoma de ángulo abierto y debe evaluarse por separado.
-- Confirmar la disponibilidad de un producto con registro vigente en Colombia.
-- Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos detallados del mecanismo de acción.
-- Definir un plan de seguridad (sulfonamidas, función renal y, si se usa en combinación con timolol, las contraindicaciones cardiorrespiratorias y metabólicas).
-- Para las entidades de glaucoma de ángulo abierto, que tienen evidencia de nivel L1 (varios ensayos de Fase 3 y 4 y revisiones sistemáticas), tratar el caso como uso en su indicación habitual y no como reposicionamiento.
+- Datos detallados del mecanismo de acción y una hipótesis biológica que conecte la inhibición de la anhidrasa carbónica con el folículo piloso.
+- Estudios preclínicos que respalden la hipótesis antes de considerar cualquier ensayo clínico.
+- Evaluar la compatibilidad de la vía de administración, ya que la presentación disponible es oftálmica.
+- Obtener y revisar el prospecto oficial para completar la información de seguridad (advertencias y contraindicaciones).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

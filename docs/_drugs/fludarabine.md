@@ -48,10 +48,10 @@ Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios 
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (el texto solo indica "FLUDARABINA") |
 | Nueva Indicación Predicha | Mieloma de células plasmáticas (plasma cell myeloma) |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

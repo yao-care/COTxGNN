@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Sulbactam
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 593
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L3). Indicación original: Ampicilina e inhibidor enzimático"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis"]
 # Sulbactam
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**, p
 |------|------|
 | Indicación Original | Ampicilina e inhibidor enzimático |
 | Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.79% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9979 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -98,8 +98,8 @@ Se priorizaron los estudios con diseño comparativo o clínico sobre casos aisla
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20166596 | AUROPENNZ 3.0 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (cancelado) |
-| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (cancelado) |
+| 20166596 | AUROPENNZ 3.0 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
+| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
 
 Ambos registros pertenecen a EUGIA PHARMA SPECIALITIES LIMITED y están cancelados. Pueden existir otros productos de ampicilina-sulbactam comercializados con registros distintos; esto debe verificarse.
 

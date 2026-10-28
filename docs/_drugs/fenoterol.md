@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 |------|------|
 | Indicación Original | Fenoterol + bromuro de ipratropio |
 | Nueva Indicación Predicha | Atrofia multisistémica |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -65,13 +65,13 @@ El alto puntaje de TxGNN debe interpretarse con cautela: es una asociación comp
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Síndrome de taquicardia postural ortostática | 99.61% | La vasodilatación y la taquicardia refleja probablemente agravarían los síntomas |
-| Prionopatía variablemente sensible a proteasa | 99.54% | Sin vínculo mecanístico identificable; probable artefacto de la red |
-| Glaucoma de ángulo abierto | 99.43% | Mecanismo parcialmente plausible (dinámica del humor acuoso), sin evidencia oftálmica |
-| Enfermedad de Raynaud | 99.41% | Vasodilatación conceptualmente relevante, pero efecto periférico limitado a dosis inhaladas; hay alternativas mejor respaldadas |
-| Glaucoma hereditario primario | 99.37% | Origen estructural del desarrollo, poco probable que responda |
-| Bloqueo sinoauricular | 99.35% | El riesgo proarrítmico supera el beneficio especulativo |
-| Enfermedad del nodo sinoauricular | 99.25% | No es terapia estándar; riesgo proarrítmico |
+| Síndrome de taquicardia postural ortostática | 0.9961 | La vasodilatación y la taquicardia refleja probablemente agravarían los síntomas |
+| Prionopatía variablemente sensible a proteasa | 0.9954 | Sin vínculo mecanístico identificable; probable artefacto de la red |
+| Glaucoma de ángulo abierto | 0.9943 | Mecanismo parcialmente plausible (dinámica del humor acuoso), sin evidencia oftálmica |
+| Enfermedad de Raynaud | 0.9941 | Vasodilatación conceptualmente relevante, pero efecto periférico limitado a dosis inhaladas; hay alternativas mejor respaldadas |
+| Glaucoma hereditario primario | 0.9937 | Origen estructural del desarrollo, poco probable que responda |
+| Bloqueo sinoauricular | 0.9935 | El riesgo proarrítmico supera el beneficio especulativo |
+| Enfermedad del nodo sinoauricular | 0.9925 | No es terapia estándar; riesgo proarrítmico |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -85,9 +85,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19931241 | BERODUAL® HFA | Solución para inhalación | Fenoterol + bromuro de ipratropio | Cancelado |
-| 54889 | BERODUAL® SOLUCION | Solución para inhalación | Fenoterol + bromuro de ipratropio | Cancelado |
-| 19952369 | PULBRONC NF NIÑOS | Jarabe | Fenoterol y otros fármacos para enfermedad obstructiva de la vía aérea | Cancelado |
+| 19931241 | BERODUAL® HFA | Solución para inhalación | Fenoterol + bromuro de ipratropio | Vigente |
+| 54889 | BERODUAL® SOLUCION | Solución para inhalación | Fenoterol + bromuro de ipratropio | Vigente |
+| 19952369 | PULBRONC NF NIÑOS | Jarabe | Fenoterol y otros fármacos para enfermedad obstructiva de la vía aérea | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -107,7 +107,7 @@ La predicción para atrofia multisistémica (y para las demás indicaciones prop
 - Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de la literatura y de registros de ensayos para confirmar la ausencia de evidencia.
-- Evaluar la viabilidad regulatoria y de vía de administración, dado que todos los registros están cancelados.
+- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado y cuenta con 3 licencias vigentes.
 - Si se continúa, priorizar indicaciones con mejor plausibilidad mecanística (por ejemplo, glaucoma de ángulo abierto) mediante estudios preclínicos antes de cualquier evaluación clínica.
 ## Descargo de responsabilidad
 

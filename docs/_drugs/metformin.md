@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la perso
 |------|------|
 | Indicación Original | METFORMINA (el registro sanitario no detalla la enfermedad; el texto aprobado solo repite el nombre del fármaco) |
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
-| Puntaje de Predicción TxGNN | 99.45% |
+| Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -69,10 +69,10 @@ El puntaje alto (0.994) es solo una predicción computacional. La variante "sín
 
 | Enfermedad | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Síndrome de la extremidad rígida focal | 99.45% | Variante del espectro de la persona rígida; misma justificación especulativa |
-| Opsismodisplasia | 99.40% | Displasia esquelética por mutaciones en INPPL1; posible solapamiento especulativo en rutas PI3K/AKT/mTOR |
-| Síndrome de disfunción sensible a tiamina | 99.40% | Metformina solo podría aliviar el componente diabético; además se asocia a alteración de vitamina B12 |
-| Lipodistrofia localizada inducida por fármacos | 99.06% | Racional indirecto por uso en otras lipodistrofias; sin evidencia para la forma localizada |
+| Síndrome de la extremidad rígida focal | 0.9945 | Variante del espectro de la persona rígida; misma justificación especulativa |
+| Opsismodisplasia | 0.9940 | Displasia esquelética por mutaciones en INPPL1; posible solapamiento especulativo en rutas PI3K/AKT/mTOR |
+| Síndrome de disfunción sensible a tiamina | 0.9940 | Metformina solo podría aliviar el componente diabético; además se asocia a alteración de vitamina B12 |
+| Lipodistrofia localizada inducida por fármacos | 0.9906 | Racional indirecto por uso en otras lipodistrofias; sin evidencia para la forma localizada |
 
 ---
 
@@ -92,7 +92,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20235551 | WILMETINA 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | METFORMINA | Cancelado |
+| 20235551 | WILMETINA 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | METFORMINA | Vigente |
 
 ---
 

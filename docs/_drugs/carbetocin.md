@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Carbetocina (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado; el uso clínico conocido es la prevención de hemorragia posparto por atonía uterina) |
 | Nueva Indicación Predicha | Síndrome similar a la isotretinoína |
-| Puntaje de Predicción TxGNN | 99.15% |
+| Puntaje de Predicción TxGNN | 0.9915 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,9 +60,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 El síndrome similar a la isotretinoína (malformaciones por embriopatía por ácido retinoico) es un trastorno del desarrollo sin una vía conocida que involucre al receptor de oxitocina. Los datos compilados **no sustentan ningún vínculo mecanístico** entre ambas condiciones.
 
-El puntaje alto (99.15%) proviene solo del grafo de conocimiento y no está respaldado por evidencia clínica ni bibliográfica. Sin datos de mecanismo de acción original, no es posible verificar el razonamiento mecanístico. La predicción debe considerarse con mucha cautela.
+El puntaje alto (0.9915) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por evidencia clínica ni bibliográfica. Sin datos de mecanismo de acción original, no es posible verificar el razonamiento mecanístico. La predicción debe considerarse con mucha cautela.
 
-**Otra predicción del modelo:** el síndrome de Goodman (puntaje 99.06%, rango 13383), una malformación congénita craneofacial y de extremidades, tampoco tiene ensayos, literatura ni vínculo con la señalización de oxitocina. También se clasifica como L5 y Hold, y su plausibilidad biológica es baja.
+**Otra predicción del modelo:** el síndrome de Goodman (puntaje 0.9906, rango 13383), una malformación congénita craneofacial y de extremidades, tampoco tiene ensayos, literatura ni vínculo con la señalización de oxitocina. También se clasifica como L5 y Hold, y su plausibilidad biológica es baja.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -76,7 +76,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19984250 | DURATOCIN® 100 MCG/ML SOLUCION INYECTABLE (Ferring GmbH) – Cancelado | Solución inyectable | Carbetocina |
+| 19984250 | DURATOCIN® 100 MCG/ML SOLUCION INYECTABLE (Ferring GmbH) – Vigente | Solución inyectable | Carbetocina |
 
 ## Consideraciones de Seguridad
 

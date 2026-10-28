@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 ## Resumen en Una Frase
 
 Lanreotida es un análogo de la somatostatina comercializado en Colombia como inyectable de liberación prolongada (Somatuline Autogel), cuyo registro sanitario no detalla la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, con una puntuación alta (99.97%), pero **sin ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, con una puntuación alta (0.9997), pero **sin ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, con una
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Lanreotido") |
 | Nueva Indicación Predicha | Hipertricosis (enfermedad) |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, con una
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, lanreotida es un análogo de la somatostatina que suprime la secreción de la hormona de crecimiento (GH), del factor de crecimiento similar a la insulina tipo 1 (IGF-1) y de otras hormonas.
 
-**La evidencia disponible no respalda un vínculo mecanístico claro.** La hipertricosis no es una diana reconocida de la vía de la somatostatina. El análisis del mecanismo concluye que no existe una relación farmacológica establecida, y que la puntuación alta del modelo probablemente refleja la cercanía en el grafo de conocimiento con otros fenotipos relacionados, no un efecto terapéutico real.
+**La evidencia disponible no respalda un vínculo mecanístico claro.** La hipertricosis no es una diana reconocida de la vía de la somatostatina. El análisis del mecanismo concluye que no existe una relación farmacológica establecida, y que la puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Las otras cuatro predicciones mejor clasificadas tampoco tienen sustento: síndrome de malformación con componente dental o periodontal, síndrome con malformación de Dandy-Walker, anomalía genética aislada del tallo del cabello e hipertricosis universal congénita tipo Ambras. Todas son condiciones genéticas o del desarrollo que un análogo de somatostatina no se espera que modifique, y ninguna cuenta con ensayos ni literatura.
 

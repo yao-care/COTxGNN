@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Relebactam: De Infecciones Bacterianas Resistentes (Combinación Imipenem/Cilastatina/Relebactam) a Hiperamilasemia
+## Relebactam: Nueva indicación predicha, Hiperamilasemia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,19 +47,19 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 |------|------|
 | Indicación Original | Imipenem. Cilastatina. Relebactam (el registro no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Hiperamilasemia |
-| Puntaje de Predicción TxGNN | 99.22% |
+| Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, relebactam es un inhibidor de beta-lactamasas de serina (clases A y C) que se administra solo junto con imipenem/cilastatina para proteger al antibiótico de la degradación por bacterias resistentes. Su eficacia se asocia a infecciones bacterianas, no a trastornos metabólicos o pancreáticos.
 
-**La predicción no tiene un fundamento mecanístico plausible.** No existe una vía conocida que conecte la inhibición de beta-lactamasas con la regulación de la amilasa o con la patología pancreática o salival. Además, la hiperamilasemia es un hallazgo de laboratorio y no una enfermedad blanco clásica, por lo que es más probable que sea un artefacto del grafo de conocimiento o una señal de evento adverso que una oportunidad terapéutica.
+**La predicción no tiene un fundamento mecanístico plausible.** No existe una vía conocida que conecte la inhibición de beta-lactamasas con la regulación de la amilasa o con la patología pancreática o salival. Además, la hiperamilasemia es un hallazgo de laboratorio y no una enfermedad blanco clásica, por lo que es más probable que sea un artefacto del modelo TxGNN (aprendizaje profundo) o una señal de evento adverso que una oportunidad terapéutica.
 
-Otras predicciones del modelo con el mismo perfil (sin evidencia ni vínculo mecanístico) fueron el síndrome de hiperviscosidad policlonal (99.22%, idéntico puntaje al de hiperamilasemia, lo que sugiere una asociación genérica del modelo) y la analbuminemia congénita (99.08%).
+Otras predicciones del modelo con el mismo perfil (sin evidencia ni vínculo mecanístico) fueron el síndrome de hiperviscosidad policlonal (0.9922, idéntico puntaje al de hiperamilasemia, lo que sugiere una asociación genérica del modelo) y la analbuminemia congénita (0.9908).
 
 ## Evidencia de Ensayos Clínicos
 

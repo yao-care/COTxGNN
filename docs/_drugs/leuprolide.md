@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero co
 |------|------|
 | Indicación Original | Leuprorelina acetato (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Osteoartritis |
-| Puntaje de Predicción TxGNN | 99.70% |
+| Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

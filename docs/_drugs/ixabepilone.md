@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ixabepilone
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 364
-evidence_level: L2
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Ixabepilona"
@@ -14,7 +14,7 @@ predicted_indications: ["Ewing sarcoma", "salivary gland type cancer of the brea
 # Ixabepilone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Ixabepilona es un análogo de la epotilona B, un agente antineoplásico que esta
 |------|------|
 | Indicación Original | Ixabepilona (el registro sanitario no detalla la indicación; en otros países se usa en cáncer de mama metastásico) |
 | Nueva Indicación Predicha | Sarcoma de Ewing |
-| Puntaje de Predicción TxGNN | 99.76% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Puntaje de Predicción TxGNN | 0.9976 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,8 @@ Sin embargo, los datos disponibles no identifican una señal de eficacia suficie
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20001658 | IXEMPRA® 45 MG POLVO PARA SOLUCIÓN INYECTABLE (cancelado) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
-| 20001660 | IXEMPRA® 15 MG POLVO SOLUCIÓN INYECTABLE (cancelado) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
+| 20001658 | IXEMPRA® 45 MG POLVO PARA SOLUCIÓN INYECTABLE (vigente) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
+| 20001660 | IXEMPRA® 15 MG POLVO SOLUCIÓN INYECTABLE (vigente) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
 
 ---
 
@@ -126,7 +126,7 @@ Existe un ensayo de Fase 2 completado en tumores sólidos pediátricos refractar
 - Evaluar la disponibilidad real del fármaco en Colombia, dado que ambos registros están cancelados, y definir una vía regulatoria en caso de interés.
 - Comparar con las alternativas estándar en Sarcoma de Ewing refractario.
 
-*Nota: las otras nueve predicciones del modelo (afecciones mamarias benignas o raras) carecen de evidencia específica y se mantienen en Hold; su puntaje alto parece reflejar la cercanía en el grafo con el cáncer de mama, no evidencia propia de cada enfermedad.*
+*Nota: las otras nueve predicciones del modelo (afecciones mamarias benignas o raras) carecen de evidencia específica y se mantienen en Hold; su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica propia de cada enfermedad.*
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para la **vaginitis atrófica p
 |------|------|
 | Indicación Original | Tinidazol (el registro INVIMA solo consigna el nombre del principio activo, sin texto detallado de indicación) |
 | Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -121,7 +121,7 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mec
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, o evidencia preclínica o clínica que vincule tinidazol con la vaginitis atrófica.
 - Obtener y revisar el prospecto oficial (advertencias y contraindicaciones) y los datos del mecanismo de acción.
-- Aclarar la situación regulatoria, dado que todos los registros están cancelados.
+- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 4 licencias vigentes.
 - Evaluar candidatas alternativas del mismo análisis. Por ejemplo, la predicción para SIDA tiene algo más de respaldo indirecto, como el tratamiento de coinfecciones y un ensayo de microbioma, aunque sigue siendo un enfoque de soporte y no un tratamiento de la enfermedad.
 ## Descargo de responsabilidad
 

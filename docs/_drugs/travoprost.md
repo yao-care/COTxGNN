@@ -6,9 +6,9 @@ nav_order: 640
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Travoprost: nueva indicación predicha, Calcifilaxis visceral (nivel de evidencia L5). Indicación original: Travoprost"
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
+description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: TRAVOPROST"
 ---
 
 # Travoprost
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Travoprost: De Glaucoma/Hipertensión Ocular a Calcifilaxis Visceral
+## Travoprost: Visceral calciphylaxis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Travoprost (el registro solo indica el nombre del principio activo; el uso conocido es glaucoma e hipertensión ocular) |
-| Nueva Indicación Predicha | Calcifilaxis visceral |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | TRAVOPROST |
+| Nueva Indicación Predicha | Visceral calciphylaxis |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,21 +63,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es débil. No se ha establecido un vínculo plausible entre la activación del receptor FP y la calcificación vascular o la patología de la calcifilaxis. Además, la aplicación ocular tópica produce una exposición sistémica mínima, lo que hace aún menos probable un efecto en una enfermedad visceral o sistémica.
 
-La puntuación del modelo es muy alta (99.99%), pero sin ensayos, literatura ni racional mecanístico, debe interpretarse solo como una hipótesis que requiere validación preclínica antes de cualquier consideración clínica.
+La puntuación del modelo es muy alta (1.0000), pero sin ensayos, literatura ni racional mecanístico, debe interpretarse solo como una hipótesis que requiere validación preclínica antes de cualquier consideración clínica.
 
 ### Otras predicciones del modelo (todas con evidencia L5, salvo indicación)
 
 | Posición | Enfermedad predicha | Puntaje TxGNN | Nivel | Comentario |
 |---|---|---|---|---|
-| 2 | Síndrome del desfiladero torácico arterial | 99.99% | L5 | Problema principalmente de compresión mecánica |
-| 3 | Síndrome del desfiladero torácico venoso | 99.99% | L5 | Requiere anticoagulación, trombólisis o descompresión quirúrgica |
-| 4 | Síndrome del desfiladero torácico neurogénico | 99.99% | L5 | Sin vínculo con el agonismo FP |
-| 5 | Enfermedad vascular | 99.99% | L4 | Señal probablemente artefacto semántico de efectos vasculares oculares (hiperemia) |
-| 6 | Angiodisplasia de estómago | 99.99% | L5 | Posible daño por efecto vasoactivo |
-| 7 | Síndrome del dedo azul | 99.99% | L5 | Causado por microembolias; exposición sistémica insignificante |
-| 8 | Disección coronaria espontánea idiopática | 99.99% | L5 | Sin vínculo mecanístico |
-| 9 | Linfangiectasia | 99.99% | L5 | Hipótesis especulativa sobre biología linfática |
-| 10 | Hemangioendotelioma | 99.99% | L4 | Solo un reporte de caso de efecto adverso |
 
 ---
 
@@ -113,10 +104,10 @@ Como contexto, la literatura asociada a otras predicciones se centra en el uso o
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Cancelado |
-| 19950508 | GLAUCOPROST Solución Oftálmica | Solución oftálmica | Travoprost | Cancelado |
-| 20087519 | FOCUS® | Solución oftálmica | Travoprost | Cancelado |
-| 20236408 | BRISTRIO® | Solución oftálmica | Travoprost | Cancelado |
+| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Vigente |
+| 19950508 | GLAUCOPROST Solución Oftálmica | Solución oftálmica | Travoprost | Vigente |
+| 20087519 | FOCUS® | Solución oftálmica | Travoprost | Vigente |
+| 20236408 | BRISTRIO® | Solución oftálmica | Travoprost | Vigente |
 
 ---
 

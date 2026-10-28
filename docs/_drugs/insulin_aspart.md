@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Insulin Aspart
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 344
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 8
 last_modified_at: 2026-10-14
-description: "Insulin Aspart: nueva indicación predicha, Diabetes mellitus tipo 1 (nivel de evidencia L1). Indicación original: Insulina aspartato"
+description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina aspartato"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-r
 # Insulin Aspart
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Insulina Aspart: De Insulina Aspart (uso aprobado en diabetes) a Diabetes Mellitus Tipo 1
+## Insulina Aspart: De Insulina Aspart (uso aprobado en diabetes) a Ooforitis autoinmune
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice su utilidad para la **diabetes mellitus tipo 1**, con **
 |------|------|
 | Indicación Original | Insulina aspartato (texto de indicación del registro; no especifica enfermedad) |
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
-| Puntaje de Predicción TxGNN | 99.95% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 

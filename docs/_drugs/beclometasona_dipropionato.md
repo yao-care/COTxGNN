@@ -8,6 +8,7 @@ nav_order: 94
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Beclometasona Dipropionato
@@ -53,7 +54,7 @@ En consecuencia, **no es posible emitir una evaluación de reposicionamiento en 
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Sin estudios reales aplicables |
-| Estado de Mercado en Colombia | ✗ No comercializado (0 registros INVIMA encontrados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

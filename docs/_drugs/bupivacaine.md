@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 |------|------|
 | Indicación Original | BUPIVACAINA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
-| Puntaje de Predicción TxGNN | 99.23% |
+| Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,15 +61,15 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje. Los datos farmacológicos compilados también la vinculan con otros canales iónicos (Nav1.5, Kv1.5, Kv4.3 y Kir3.2), aunque sin datos públicos de afinidad que lo confirmen.
 
-**La predicción no es mecanísticamente plausible.** La acrodermatitis crónica atrófica es la manifestación cutánea tardía de la infección por *Borrelia* (enfermedad de Lyme) y se trata con antibióticos. Un bloqueador de canales de sodio no tiene un papel antiinfeccioso ni antiatrófico razonable. El puntaje alto (0.992) es solo una predicción derivada del modelo, sin respaldo de ensayos ni literatura, y la ausencia de datos de mecanismo limita aún más la evaluación.
+**La predicción no es mecanísticamente plausible.** La acrodermatitis crónica atrófica es la manifestación cutánea tardía de la infección por *Borrelia* (enfermedad de Lyme) y se trata con antibióticos. Un bloqueador de canales de sodio no tiene un papel antiinfeccioso ni antiatrófico razonable. El puntaje alto (0.9923) es solo una predicción derivada del modelo, sin respaldo de ensayos ni literatura, y la ausencia de datos de mecanismo limita aún más la evaluación.
 
 Las otras predicciones del modelo tampoco tienen sustento mecanístico:
 
 | Indicación predicha | Puntaje TxGNN | Observación |
 |------|------|------|
-| Dermatomiositis neonatal | 99.15% | Enfermedad inflamatoria inmunomediada; la bupivacaína es miotóxica a altas concentraciones o con exposición prolongada, lo que va en contra de un posible beneficio |
-| Enfermedad pulmonar intersticial secundaria infantil asociada a enfermedad del tejido conectivo | 99.11% | Se maneja con inmunosupresión; el bloqueo de canales de sodio no actúa sobre esas vías; habría que resolver además aspectos de seguridad y dosificación pediátrica |
-| Dermatomiositis amiopática | 99.03% | Impulsada por vías autoinmunes e interferón; la bupivacaína no tiene mecanismo inmunomodulador relevante |
+| Dermatomiositis neonatal | 0.9915 | Enfermedad inflamatoria inmunomediada; la bupivacaína es miotóxica a altas concentraciones o con exposición prolongada, lo que va en contra de un posible beneficio |
+| Enfermedad pulmonar intersticial secundaria infantil asociada a enfermedad del tejido conectivo | 0.9911 | Se maneja con inmunosupresión; el bloqueo de canales de sodio no actúa sobre esas vías; habría que resolver además aspectos de seguridad y dosificación pediátrica |
+| Dermatomiositis amiopática | 0.9903 | Impulsada por vías autoinmunes e interferón; la bupivacaína no tiene mecanismo inmunomodulador relevante |
 
 ---
 

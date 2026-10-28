@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mepolizumab
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 429
-evidence_level: L4
+evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-10-14
 description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Mepol…"
@@ -14,7 +14,7 @@ predicted_indications: ["thrombocytopenia due to immune destruction", "primary r
 # Mepolizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La predicción es, por ahora, una señal computacional con evidencia muy limitad
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (el texto solo indica "Mepolizumab") |
 | Nueva Indicación Predicha | Trombocitopenia por destrucción inmune |
-| Puntaje de Predicción TxGNN | 99.66% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9966 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Mepolizumab es un anticuerpo monoclonal dirigido contra la interleucina-5 (IL-5)
 
 La única publicación vinculada describe un caso de diátesis inmune hipereosinofílica resistente a esteroides que se resolvió con mepolizumab, junto con una mejoría de una microangiopatía trombótica mixta. Esto sugiere que, cuando una citopenia inmunomediada es impulsada por una desregulación eosinofílica, el bloqueo de IL-5 podría ayudar.
 
-Sin embargo, esta es evidencia indirecta. En la trombocitopenia inmune primaria los eosinófilos no son un factor causal establecido, y el puntaje alto de TxGNN (0.997) es únicamente una predicción computacional. La plausibilidad mecanística es limitada y especulativa.
+Sin embargo, esta es evidencia indirecta. En la trombocitopenia inmune primaria los eosinófilos no son un factor causal establecido, y el puntaje alto de TxGNN (0.9966) es únicamente una predicción computacional. La plausibilidad mecanística es limitada y especulativa.
 
 ---
 

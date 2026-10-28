@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Ácido láctico: De Combinaciones de Paracetamol a Coartación Atípica de la Aorta
+## Ácido láctico: Coartacion atipica de la aorta
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ Se trata de una prediccion puramente computacional (nivel de evidencia L5).
 |------|------|
 | Indicacion Original | Paracetamol, combinaciones excluyendo sicolepticos |
 | Nueva Indicacion Predicha | Coartacion atipica de la aorta |
-| Puntaje de Prediccion TxGNN | 99.59% |
+| Puntaje de Prediccion TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Numero de Registros Sanitarios | 1 (cancelado) |
 | Decision Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Se trata de una prediccion puramente computacional (nivel de evidencia L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de accion. El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH).
 
-Los datos compilados para este informe no respaldan un vinculo mecanistico. La coartacion de la aorta es un defecto vascular estructural y no hay indicios de que el acido lactico pueda corregirlo. El puntaje del modelo es muy alto (99.59%), pero es solo una prediccion computacional sin ensayos ni literatura que la sustenten.
+Los datos compilados para este informe no respaldan un vinculo mecanistico. La coartacion de la aorta es un defecto vascular estructural y no hay indicios de que el acido lactico pueda corregirlo. El puntaje del modelo es muy alto (0.9959), pero es solo una prediccion computacional sin ensayos ni literatura que la sustenten.
 
 Por ello, esta prediccion debe considerarse una hipotesis sin fundamento mecanistico demostrado.
 
@@ -70,10 +70,10 @@ Por ello, esta prediccion debe considerarse una hipotesis sin fundamento mecanis
 
 | Posicion | Indicacion predicha | Puntaje TxGNN | Ensayos | Publicaciones | Comentario |
 |------|------|------|------|------|------|
-| 2 | Malformacion aortica | 99.35% | 0 | 14 | La literatura solo tiene relacion de palabras clave (cirugia cardiaca congenita, dispositivos biodegradables, lactato como marcador de perfusion); ninguna evalua el acido lactico como terapia |
-| 3 | Malformacion esofagica no sindromica | 99.23% | 0 | 0 | Defecto del desarrollo de tratamiento quirurgico; sin papel farmacologico plausible |
-| 4 | Amenorrea | 99.16% | 0 | 1 | Un estudio observacional en babuinos sobre microbiota vaginal; no demuestra efecto terapeutico |
-| 5 | Sindrome de ojo seco | 99.13% | 0 | 6 | Ningun estudio prueba el acido lactico como tratamiento; los acidos topicos podrian irritar la superficie ocular |
+| 2 | Malformacion aortica | 0.9935 | 0 | 14 | La literatura solo tiene relacion de palabras clave (cirugia cardiaca congenita, dispositivos biodegradables, lactato como marcador de perfusion); ninguna evalua el acido lactico como terapia |
+| 3 | Malformacion esofagica no sindromica | 0.9923 | 0 | 0 | Defecto del desarrollo de tratamiento quirurgico; sin papel farmacologico plausible |
+| 4 | Amenorrea | 0.9916 | 0 | 1 | Un estudio observacional en babuinos sobre microbiota vaginal; no demuestra efecto terapeutico |
+| 5 | Sindrome de ojo seco | 0.9913 | 0 | 6 | Ningun estudio prueba el acido lactico como tratamiento; los acidos topicos podrian irritar la superficie ocular |
 
 ---
 

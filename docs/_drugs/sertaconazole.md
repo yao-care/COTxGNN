@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Sertaconazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 584
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Sertaconazole: nueva indicación predicha, Dermatofitosis de la ingle y el área perianal (nivel de evidencia L4). Indicación original: Sertaconazol"
 monitor_inn: "sertaconazole"
-predicted_indications: ["ectothrix infectious disease", "Majocchi granuloma", "endothrix infectious disease", "pityriasis versicolor"]
+predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease", "pityriasis versicolor"]
+description: "Sertaconazole: nueva indicación predicha, Ectothrix infectious disease (nivel de evidencia L5). Indicación original: SERTACONAZOL"
 ---
 
 # Sertaconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Sertaconazol: De Sertaconazol (antifúngico) a Dermatofitosis de la Ingle y el Área Perianal
+## Sertaconazole: Ectothrix infectious disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Sertaconazol es un antifúngico imidazólico de uso tópico, registrado en Colombia en presentaciones de óvulo vaginal y crema tópica (ZALAIN®).
-El modelo TxGNN predice que podría ser efectivo para **dermatofitosis de la ingle y el área perianal**, aunque para esta indicación específica no se encontraron ensayos clínicos ni publicaciones directas; la evidencia disponible es indirecta (estudios en otras tiñas, como la tinea corporis y la tinea cruris).
+El modelo TxGNN predice que podría ser efectivo para **enfermedad infecciosa ectotrix**, aunque para esta indicación específica no se encontraron ensayos clínicos ni publicaciones directas; la evidencia disponible es indirecta (estudios en otras tiñas, como la tinea corporis y la tinea cruris).
 
 ---
 
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para **dermatofitosis de la ing
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sertaconazol (el registro sanitario solo indica el nombre del principio activo, sin describir la indicación) |
-| Nueva Indicación Predicha | Dermatofitosis de la ingle y el área perianal |
-| Puntaje de Predicción TxGNN | 99.98% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Indicación Original | SERTACONAZOL |
+| Nueva Indicación Predicha | Ectothrix infectious disease |
+| Puntaje de Predicción TxGNN | 0.9959 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -85,8 +85,8 @@ Como referencia indirecta, un estudio comparativo en tinea corporis y tinea crur
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19971199 | ZALAIN® 300MG ÓVULOS VAGINALES | Óvulo | Sertaconazol | Cancelado |
-| 19972887 | ZALAIN® 2% CREMA | Crema tópica | Sertaconazol | Cancelado |
+| 19971199 | ZALAIN® 300MG ÓVULOS VAGINALES | Óvulo | Sertaconazol | Vigente |
+| 19972887 | ZALAIN® 2% CREMA | Crema tópica | Sertaconazol | Vigente |
 
 ---
 
@@ -102,12 +102,7 @@ Aunque la indicación principal queda en espera, otras predicciones del modelo c
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación | Evidencia destacada |
 |------|------|------|------|------|
-| Tinea corporis | 99.94% | L3 | Proceed with Guardrails | Varios estudios comparativos (vs. eberconazol, terbinafina, clotrimazol, butenafina, amorolfina) |
-| Micosis superficial | 99.55% | L3 | Proceed with Guardrails | Ensayo doble ciego multicéntrico vs. miconazol (n=631, 1992) y múltiples revisiones |
-| Candidiasis cutánea | 99.63% | L3 | Proceed with Guardrails | Estudio de fase II (1992) y revisiones |
-| Pitiriasis versicolor | 99.45% | L3 | Proceed with Guardrails | Estudio clínico de 1992 (n=21) y revisiones |
-| Dermatofitosis de cuero cabelludo o barba | 99.55% | L4 | Hold | Solo revisiones y estudio in vitro |
-| Infecciones ectothrix, endothrix, granuloma de Majocchi, tinea profunda | 99.37%–99.59% | L5 | Hold | Sin evidencia; la penetración tópica es limitada y suele requerirse terapia sistémica |
+| Pitiriasis versicolor | 0.9945 | L3 | Proceed with Guardrails | Estudio clínico de 1992 (n=21) y revisiones |
 
 ---
 

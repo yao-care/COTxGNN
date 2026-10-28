@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Trastuzumab
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 637
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Trastuzumab: nueva indicación predicha, Subtipo de carcinoma de mama tipo normal (normal breast-like) (nivel de evidencia L4). Indicación original: Pertuzumab y trastuzumab"
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
+description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
 ---
 
 # Trastuzumab
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Trastuzumab: De Pertuzumab y Trastuzumab (cáncer de mama HER2) a Subtipo de Carcinoma de Mama Tipo Normal (normal breast-like)
+## Trastuzumab: Malignant cutaneous granular cell skin tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,11 +47,11 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pertuzumab y trastuzumab (texto de indicación del registro INVIMA) |
-| Nueva Indicación Predicha | Subtipo de carcinoma de mama tipo normal (normal breast-like) |
-| Puntaje de Predicción TxGNN | 99.90% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Indicación Original | PERTUZUMAB Y TRASTUZUMAB; TRASTUZUMAB |
+| Nueva Indicación Predicha | Malignant cutaneous granular cell skin tumor |
+| Puntaje de Predicción TxGNN | 0.9948 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -87,10 +87,10 @@ La evidencia disponible es solo indirecta. El único ensayo evalúa trastuzumab 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab | Cancelado |
-| 20144826 | TRAZIMERA® 440MG | Polvo para solución inyectable | Trastuzumab | Cancelado |
-| 20195789 | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab | Cancelado |
-| 20055046 | HERCEPTIN® SOLUCIÓN INYECTABLE 600MG/5ML | Solución inyectable | Trastuzumab | Cancelado |
+| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab | Vigente |
+| 20144826 | TRAZIMERA® 440MG | Polvo para solución inyectable | Trastuzumab | Vigente |
+| 20195789 | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab | Vigente |
+| 20055046 | HERCEPTIN® SOLUCIÓN INYECTABLE 600MG/5ML | Solución inyectable | Trastuzumab | Vigente |
 
 ---
 

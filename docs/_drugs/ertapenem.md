@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ertapenem
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 262
-evidence_level: L4
+evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-10-14
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Ertapenem"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "staphylococcus aureus infection"
 # Ertapenem
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Ertapenem es un antibiótico carbapenémico inyectable. Sus registros sanitarios
 |------|------|
 | Indicación Original | Ertapenem (el registro solo menciona el nombre del principio activo, sin indicación detallada) |
 | Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.72% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Puntaje de Predicción TxGNN | 0.9972 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ No se dispone de datos detallados sobre el mecanismo de acción en la base de da
 
 La artritis bacteriana (séptica) la causan microorganismos como *Klebsiella pneumoniae*, *Prevotella*, *Citrobacter* y enterobacterias productoras de BLEE, que están dentro del espectro de ertapenem. Por eso la predicción es plausible desde el punto de vista mecanístico. Sin embargo, se trata de una extensión de su actividad antibacteriana ya conocida y no de un mecanismo nuevo de reposicionamiento.
 
-El puntaje de 99.72% es solo una predicción del modelo. No sustituye la evidencia clínica, y no hay ensayos registrados para esta indicación.
+El puntaje de 0.9972 es solo una predicción del modelo. No sustituye la evidencia clínica, y no hay ensayos registrados para esta indicación.
 
 ---
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, que no
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para artritis bacteriana. La evidencia consiste en reportes de caso, cohortes indirectas y estudios in vitro, y el puntaje alto del modelo es solo una predicción. Además, todos los registros sanitarios en Colombia están cancelados.
+No hay ensayos clínicos para artritis bacteriana. La evidencia consiste en reportes de caso, cohortes indirectas y estudios in vitro, y el puntaje alto del modelo es solo una predicción. Además, el medicamento está comercializado en Colombia y los 2 registros sanitarios (de 2) están vigentes.
 
 **Para avanzar se necesita:**
 - Ensayos clínicos o estudios comparativos de ertapenem específicos en artritis séptica.

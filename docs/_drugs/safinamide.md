@@ -48,10 +48,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | SAFINAMIDA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,7 +60,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción origi
 
 Sin embargo, la relación es débil. La encefalitis de Rasmussen está causada principalmente por inflamación autoinmune mediada por linfocitos T, y safinamida no tiene una acción inmunomoduladora conocida. A lo sumo, podría ofrecer un efecto sintomático o neuroprotector secundario.
 
-El único sustento es la puntuación del modelo TxGNN (0.996). La similitud con la indicación original no se ha evaluado, y la compatibilidad de vías de administración está pendiente (safinamida es de administración oral).
+El único sustento es la puntuación del modelo TxGNN (0.9963). La similitud con la indicación original no se ha evaluado, y la compatibilidad de vías de administración está pendiente (safinamida es de administración oral).
 
 Otras predicciones del modelo, también solo con evidencia L5, son mielitis (99.46%) y neurodegeneración asociada a PLA2G6 (99.22%). Esta última tiene un vínculo sintomático algo más plausible por su componente parkinsoniano y dopaminérgico, aunque no modificaría la enfermedad de fondo.
 
@@ -68,8 +68,8 @@ Otras predicciones del modelo, también solo con evidencia L5, son mielitis (99.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20202462 | ZAFIMID 100MG. TABLETAS RECUBIERTAS | Tableta | SAFINAMIDA | Cancelado |
-| 20202459 | ZAFIMID® 50MG | Tableta recubierta | SAFINAMIDA | Cancelado |
+| 20202462 | ZAFIMID 100MG. TABLETAS RECUBIERTAS | Tableta | SAFINAMIDA | Vigente |
+| 20202459 | ZAFIMID® 50MG | Tableta recubierta | SAFINAMIDA | Vigente |
 
 Ambos registros pertenecen a Laboratorios Legrand S.A. y están cancelados; actualmente no hay un producto vigente con safinamida en Colombia.
 

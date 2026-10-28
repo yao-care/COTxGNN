@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis** (en la prá
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (solo figura el nombre del principio activo) |
 | Nueva Indicación Predicha | Dermatitis |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 

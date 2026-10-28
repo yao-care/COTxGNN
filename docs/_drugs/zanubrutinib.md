@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Zanubrutinib
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 667
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
 description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Agente antineoplásico e inmunomodulador"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable en
 # Zanubrutinib
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 |------|------|
 | Indicación Original | Agente antineoplásico e inmunomodulador (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.65% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9965 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, zanubrutinib es un inhibidor de BTK de segunda generación, más selectivo que ibrutinib y acalabrutinib. Su eficacia está documentada en neoplasias de células B: leucemia linfocítica crónica/linfoma linfocítico pequeño (LLC/LLP), macroglobulinemia de Waldenström y linfoma de células del manto.
 
-La leucemia mieloide es una neoplasia de la línea mieloide, no linfoide. El puntaje alto del modelo (0.996) probablemente refleja la cercanía en la red de conocimiento con términos generales de leucemia, y no un mecanismo validado en células mieloides. Existe literatura preclínica que sugiere un papel de la señalización dependiente de BTK en la leucemia mieloide aguda, pero ninguna de las publicaciones recuperadas evalúa zanubrutinib en esta enfermedad.
+La leucemia mieloide es una neoplasia de la línea mieloide, no linfoide. El puntaje alto del modelo (0.9965) probablemente refleja la cercanía en la red de conocimiento con términos generales de leucemia, y no un mecanismo validado en células mieloides. Existe literatura preclínica que sugiere un papel de la señalización dependiente de BTK en la leucemia mieloide aguda, pero ninguna de las publicaciones recuperadas evalúa zanubrutinib en esta enfermedad.
 
 Por ello, la plausibilidad mecanística es limitada e indirecta. Se trata de una hipótesis que requiere validación preclínica antes de justificar estudios clínicos.
 

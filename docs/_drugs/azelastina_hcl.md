@@ -8,6 +8,7 @@ nav_order: 84
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azelastina Hcl
@@ -51,8 +52,8 @@ Adicionalmente, existen brechas críticas de datos en mecanismo de acción, segu
 | Nueva Indicación Predicha | Sin datos (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin estudios reales ni predicción del modelo disponible |
-| Estado de Mercado en Colombia | ✗ No comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | **Hold** |
 
 ---

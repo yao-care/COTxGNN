@@ -50,10 +50,10 @@ La predicción se basa únicamente en el modelo computacional.
 |------|------|
 | Indicación Original | Medios de contraste paramagnético (gadolinio) |
 | Nueva Indicación Predicha | Hipertiroidismo |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,9 +64,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No se identifica un vínculo mecanístico creíble con el hipertiroidismo. El fármaco no actúa sobre la síntesis ni la señalización de las hormonas tiroideas. Es un agente diagnóstico, no terapéutico, por lo que la relación con la indicación original (imagenología) es nula en términos de tratamiento.
 
-El puntaje alto de TxGNN (99.89%) refleja una predicción basada en la topología del grafo de conocimiento, sin respaldo clínico ni bibliográfico. Debe interpretarse con mucha cautela.
+El puntaje alto de TxGNN (0.9989) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Debe interpretarse con mucha cautela.
 
-Otras predicciones del modelo muestran el mismo patrón: hipertiroidismo, resistencia a la hormona tiroidea por mutación en el receptor beta, hipertiroxinemia, angina de Prinzmetal, conjuntivitis, infección por citomegalovirus, y enfermedades veterinarias (rinotraqueítis infecciosa bovina, catarro maligno). Ninguna tiene mecanismo plausible ni evidencia, lo que sugiere artefactos del grafo.
+Otras predicciones del modelo TxGNN (deep learning) muestran el mismo patrón: resistencia a la hormona tiroidea por mutación en el receptor beta, hipertiroxinemia, angina de Prinzmetal, conjuntivitis, infección por citomegalovirus y enfermedades veterinarias (rinotraqueítis infecciosa bovina, catarro maligno). Sus puntajes pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

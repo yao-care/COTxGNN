@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Mitoxantrone
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 451
-evidence_level: L2
-indication_count: 8
+evidence_level: L5
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Mitoxantrone: nueva indicación predicha, Cáncer de cabeza y cuello (head and neck cancer) (nivel de evidencia L2). Indicación original: No especificada en el registro"
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
+description: "Mitoxantrone: nueva indicación predicha, Upper aerodigestive tract neoplasm (nivel de evidencia L5). Indicación original: MITOXANTRONA"
 ---
 
 # Mitoxantrone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **8**
 
 </div>
 
-## Mitoxantrona: De Indicación No Especificada a Cáncer de Cabeza y Cuello
+## Mitoxantrone: Upper aerodigestive tract neoplasm
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para **cáncer de cabeza y cuel
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto registrado solo indica "Mitoxantrona") |
-| Nueva Indicación Predicha | Cáncer de cabeza y cuello (head and neck cancer) |
-| Puntaje de Predicción TxGNN | 99.31% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Indicación Original | MITOXANTRONA |
+| Nueva Indicación Predicha | Upper aerodigestive tract neoplasm |
+| Puntaje de Predicción TxGNN | 0.9978 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
-**Nota sobre la selección de la indicación:** el modelo generó 8 predicciones. Se eligió el cáncer de cabeza y cuello (posición 7 por puntaje) por ser la que cuenta con mayor evidencia clínica real. La predicción de mayor puntaje, neoplasia del tracto aerodigestivo superior (99.78%), solo alcanza nivel L3, sin ensayos registrados. Las demás predicciones son de evidencia limitada o nula: cáncer de pulmón de células pequeñas (L4), linfoma pulmonar primario (L3), leucemia mieloide crónica BCR-ABL1 positiva (L2, pero con evidencia indirecta y limitada a crisis blástica), y tres predicciones L5 sin respaldo (adenocarcinoma fetal de pulmón, blastoma pulmonar y complejo extrofia vesical-epispadias), esta última sin plausibilidad mecanística.
+**Nota sobre la selección de la indicación:** el modelo generó 8 predicciones. Se eligió el cáncer de cabeza y cuello (posición 7 por puntaje) por ser la que cuenta con mayor evidencia clínica real. La predicción de mayor puntaje, neoplasia del tracto aerodigestivo superior (0.9978), solo alcanza nivel L3, sin ensayos registrados. Las demás predicciones son de evidencia limitada o nula: cáncer de pulmón de células pequeñas (L4), linfoma pulmonar primario (L3), leucemia mieloide crónica BCR-ABL1 positiva (L2, pero con evidencia indirecta y limitada a crisis blástica), y tres predicciones L5 sin respaldo (adenocarcinoma fetal de pulmón, blastoma pulmonar y complejo extrofia vesical-epispadias), esta última sin plausibilidad mecanística.
 
 ---
 

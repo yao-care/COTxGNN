@@ -46,9 +46,9 @@ Clenbuterol figura en registros sanitarios colombianos únicamente como componen
 |------|------|
 | Indicación Original | Combinaciones (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.19% |
+| Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -58,7 +58,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Mecanísticamente, la señalización beta-adrenérgica podría relacionarse con el tono vascular y la regulación neurovascular en la migraña. Sin embargo, esta relación es especulativa: la profilaxis de la migraña se hace con betabloqueadores, que son antagonistas, por lo que la dirección del efecto de un agonista es incierta y podría ser contraria a la terapéutica.
 
-La segunda predicción, **migraña con aura del tronco encefálico** (puntaje 99.04%), probablemente está impulsada por su cercanía ontológica con el término "trastorno de migraña" y no por evidencia independiente. Ambas predicciones no deben considerarse señales independientes.
+La segunda predicción, **migraña con aura del tronco encefálico** (puntaje 0.9904), probablemente está impulsada por su cercanía ontológica con el término "trastorno de migraña" y no por evidencia independiente. Ambas predicciones no deben considerarse señales independientes.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,8 +72,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 1980176 | MUCOSOLVAN COMPOSITUM JARABE ADULTOS | Jarabe | Combinaciones | Cancelado |
-| 204457 | BRONCOCHEM® F JARABE ADULTOS | Solución oral | Combinaciones | Cancelado |
+| 1980176 | MUCOSOLVAN COMPOSITUM JARABE ADULTOS | Jarabe | Combinaciones | Vigente |
+| 204457 | BRONCOCHEM® F JARABE ADULTOS | Solución oral | Combinaciones | Vigente |
 
 ## Consideraciones de Seguridad
 

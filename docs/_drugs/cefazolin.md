@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cefazolin
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 142
-evidence_level: L4
+evidence_level: L5
 indication_count: 8
 last_modified_at: 2026-10-14
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L4). Indicación original: CEFAZOLINA"
@@ -14,7 +14,7 @@ predicted_indications: ["infectious otitis media", "bronchitis", "middle ear dis
 # Cefazolin
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para **otitis media infecciosa*
 |------|------|
 | Indicación Original | CEFAZOLINA (el registro sanitario no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Otitis media infecciosa |
-| Puntaje de Predicción TxGNN | 99.44% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Puntaje de Predicción TxGNN | 0.9944 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Algunos de estos microorganismos participan en la otitis media bacteriana, lo que da un vínculo mecanístico plausible con la nueva indicación. Sin embargo, la cobertura frente a los patógenos más frecuentes de la otitis media (*H. influenzae*, *M. catarrhalis*) es limitada, y el fármaco solo se administra por vía parenteral, lo que reduce su utilidad práctica en una enfermedad que normalmente se trata con antibióticos orales.
 
-La predicción también se extiende a otras formas de otitis media (crónica, supurativa, no supurativa, alérgica) y a bronquitis. Las formas no infecciosas (alérgica) o a menudo no bacterianas (no supurativa, bronquitis viral) tienen un respaldo biológico débil, y es probable que parte de la predicción refleje la cercanía de estas enfermedades en el grafo de conocimiento.
+La predicción también se extiende a otras formas de otitis media (crónica, supurativa, no supurativa, alérgica) y a bronquitis. Las formas no infecciosas (alérgica) o a menudo no bacterianas (no supurativa, bronquitis viral) tienen un respaldo biológico débil, y es probable que parte de la predicción refleje similitudes que el modelo TxGNN (aprendizaje profundo) aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

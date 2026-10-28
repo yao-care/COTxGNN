@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Itraconazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 361
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: ITRACONAZOL"
@@ -14,7 +14,7 @@ predicted_indications: ["pneumocystosis"]
 # Itraconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 ## Resumen en Una Frase
 
 Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral (los dos registros sanitarios están cancelados).
-El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un puntaje alto (99.34%), pero **sin ensayos clínicos** registrados y con **20 publicaciones** de apoyo indirecto, ninguna que demuestre eficacia contra *Pneumocystis*.
+El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un puntaje alto (0.9934), pero **sin ensayos clínicos** registrados y con **20 publicaciones** de apoyo indirecto, ninguna que demuestre eficacia contra *Pneumocystis*.
 
 ---
 
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un 
 |------|------|
 | Indicación Original | ITRACONAZOL (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.34% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Puntaje de Predicción TxGNN | 0.9934 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la neumocistosis es **débil**. *Pneumocystis jirovecii* es taxonómicamente un hongo, pero su membrana contiene muy poco ergosterol y depende sobre todo de colesterol y esteroles relacionados. Esto limita la plausibilidad de un mecanismo azólico, y los azoles no están establecidos como eficaces contra *Pneumocystis*.
 
-El puntaje alto del modelo (0.993) probablemente refleja la asociación de itraconazol con la clase antifúngica y su uso en los mismos contextos de infecciones oportunistas (VIH, trasplante, neutropenia), y no un mecanismo validado contra este patógeno. La predicción debe interpretarse con cautela.
+El puntaje alto del modelo (0.9934) probablemente refleja la asociación de itraconazol con la clase antifúngica y su uso en los mismos contextos de infecciones oportunistas (VIH, trasplante, neutropenia), y no un mecanismo validado contra este patógeno. La predicción debe interpretarse con cautela.
 
 ---
 
@@ -96,8 +96,8 @@ Las publicaciones son en su mayoría revisiones y series de casos sobre infeccio
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20122550 | ITRACONAZOL 10 MG/ ML (cancelado) | Solución oral | ITRACONAZOL |
-| 20095994 | FUNGITRAL® 1G/100 ML (cancelado) | Solución oral | ITRACONAZOL |
+| 20122550 | ITRACONAZOL 10 MG/ ML (vigente) | Solución oral | ITRACONAZOL |
+| 20095994 | FUNGITRAL® 1G/100 ML (vigente) | Solución oral | ITRACONAZOL |
 
 ---
 

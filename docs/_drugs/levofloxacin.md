@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 |------|------|
 | Indicación Original | Levofloxacino (el registro INVIMA solo menciona el nombre del principio activo, sin indicación detallada) |
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -73,7 +73,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios están cancelados.
+Hay 4 registros sanitarios vigentes y el medicamento está comercializado.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -104,8 +104,8 @@ La predicción para queratoconjuntivitis epitelial punteada solo cuenta con resp
 - Confirmar la situación regulatoria en Colombia (registros cancelados, incluida la presentación oftálmica).
 
 **Otras predicciones del modelo con evidencia (para referencia):**
-- **Gammapatía monoclonal** (puntaje 99.81%): existe un ECA de Fase 3 (TEAMM, PMID 31668592) sobre profilaxis con levofloxacino, pero en mieloma múltiple sintomático. No es extrapolable a la gammapatía monoclonal premaligna, por lo que se considera una pregunta de investigación.
-- **Peste septicémica** (puntaje 99.80%): levofloxacino está aprobado por la FDA para peste bajo la Regla de Eficacia Animal, con evidencia principalmente en modelos animales. Es un uso antibacteriano real, no un reposicionamiento novedoso.
+- **Gammapatía monoclonal** (puntaje 0.9981): existe un ECA de Fase 3 (TEAMM, PMID 31668592) sobre profilaxis con levofloxacino, pero en mieloma múltiple sintomático. No es extrapolable a la gammapatía monoclonal premaligna, por lo que se considera una pregunta de investigación.
+- **Peste septicémica** (puntaje 0.9980): levofloxacino está aprobado por la FDA para peste bajo la Regla de Eficacia Animal, con evidencia principalmente en modelos animales. Es un uso antibacteriano real, no un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

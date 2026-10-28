@@ -1,0 +1,27 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db06811-pigmented-paravenous-retinochoroidal-atrophy",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db06811"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "pigmented paravenous retinochoroidal atrophy"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    },
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/txgnn-score",
+      "valueDecimal": 0.9973
+    }
+  ]
+}

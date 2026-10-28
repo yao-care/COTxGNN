@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 |------|------|
 | Indicación Original | ESTRIOL (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.18% |
+| Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La amenorrea hipotalámica funcional (AHF) se caracteriza por una secreción alterada y pulsátil de GnRH, lo que reduce LH y FSH y produce un estado de hipoestrogenismo. Un estrógeno en dosis bajas podría actuar como modulador neuroendocrino: restablecer la retroalimentación sobre el eje hipotálamo-hipófisis, normalizar parcialmente la secreción de LH y compensar los efectos de la deficiencia de estrógenos (por ejemplo, la pérdida ósea).
 
-Esta hipótesis se apoya en un estudio de 2012 sobre la administración de estriol y la secreción de LH en mujeres con AHF, y en una revisión de 2023 sobre estrógenos en dosis bajas como moduladores neuroendocrinos. Sin embargo, la evidencia es mecanística y de pequeña escala: no demuestra recuperación de la menstruación ni de la ovulación. El puntaje de 0.99 es solo una predicción computacional, no evidencia clínica.
+Esta hipótesis se apoya en un estudio de 2012 sobre la administración de estriol y la secreción de LH en mujeres con AHF, y en una revisión de 2023 sobre estrógenos en dosis bajas como moduladores neuroendocrinos. Sin embargo, la evidencia es mecanística y de pequeña escala: no demuestra recuperación de la menstruación ni de la ovulación. El puntaje de 0.9918 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; es solo una predicción computacional, no evidencia clínica.
 
 ---
 
@@ -84,8 +84,8 @@ Esta hipótesis se apoya en un estudio de 2012 sobre la administración de estri
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007729 | ESTEINE® óvulo vaginal de liberación sostenida (cancelado) | Óvulo | ESTRIOL |
-| 55341 | OVESTIN® óvulos vaginales (cancelado) | Óvulo | ESTRIOL |
+| 20007729 | ESTEINE® óvulo vaginal de liberación sostenida (vigente) | Óvulo | ESTRIOL |
+| 55341 | OVESTIN® óvulos vaginales (vigente) | Óvulo | ESTRIOL |
 
 ---
 

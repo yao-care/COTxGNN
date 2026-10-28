@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis posmenopáu
 |------|------|
 | Indicación Original | Aminoácidos |
 | Nueva Indicación Predicha | Osteoporosis posmenopáusica |
-| Puntaje de Predicción TxGNN | 99.34% |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **Acidosis Tubular Renal**
 |------|------|
 | Indicación Original | Aminoácidos |
 | Nueva Indicación Predicha | Acidosis tubular renal |
-| Puntaje de Predicción TxGNN | 99.47% |
+| Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 **En este caso, la predicción no resulta razonable desde el punto de vista mecanístico.** La acidosis tubular renal se debe principalmente a defectos en transportadores tubulares (por ejemplo SLC4A1/AE1, ATP6V1B1, ATP6V0A4) que alteran la secreción de protones o la reabsorción de bicarbonato. El tratamiento estándar es la terapia alcalina (bicarbonato o citrato), con un mecanismo distinto al del ácido aspártico. Además, al ser un aminoácido ácido, no cabría esperar que corrija la acidosis metabólica; incluso podría aumentar la carga ácida.
 
-El puntaje alto de TxGNN (0.995) parece reflejar una predicción basada en la estructura de la red de conocimiento, sin respaldo mecanístico ni clínico. La ausencia de datos de mecanismo de acción impide contrastar la predicción con un mecanismo conocido.
+El puntaje alto de TxGNN (0.9947) parece reflejar una predicción basada en la estructura de la red de conocimiento, sin respaldo mecanístico ni clínico. La ausencia de datos de mecanismo de acción impide contrastar la predicción con un mecanismo conocido.
 
 ---
 

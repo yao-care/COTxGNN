@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Danazol
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 193
-evidence_level: L3
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Danazol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: DANAZOL"
@@ -14,7 +14,7 @@ predicted_indications: ["amenorrhea (disease)", "benign mammary dysplasia", "apo
 # Danazol
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,10 +50,10 @@ La predicción cuenta con **0 ensayos clínicos** y **20 publicaciones** (en su 
 |------|------|
 | Indicación Original | DANAZOL (el registro no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99,9995 % |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Puntaje de Predicción TxGNN | 1,0000 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,7 +99,7 @@ Ninguna publicación evalúa danazol como tratamiento de la amenorrea patológic
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19905582 | CIPLADANOGEN® 200 MG CÁPSULAS | Cápsula dura | DANAZOL | Cancelado |
+| 19905582 | CIPLADANOGEN® 200 MG CÁPSULAS | Cápsula dura | DANAZOL | Vigente |
 
 ---
 
@@ -132,7 +132,7 @@ La predicción es coherente con el efecto farmacológico conocido, pero este es 
 
 ### Otras indicaciones predichas (referencia)
 
-Dentro de los datos compilados, la **displasia mamaria benigna** (puntaje 99,999 %, nivel L3, con ensayos doble ciego aleatorizados antiguos) y la **adenosis mamaria** (L3) presentan mayor respaldo clínico que la amenorrea, por lo que podrían ser mejores candidatas para una evaluación más profunda. Las demás (adenosis apocrina, adenosis de conductos romos, absceso mamario, necrosis grasa, enfermedad de la lactancia, vulvovaginitis, vulvitis) tienen evidencia indirecta o nula (L4–L5) y se recomienda mantenerlas en espera.
+Dentro de los datos compilados, la **displasia mamaria benigna** (puntaje 1,0000, nivel L3, con ensayos doble ciego aleatorizados antiguos) y la **adenosis mamaria** (L3) presentan mayor respaldo clínico que la amenorrea, por lo que podrían ser mejores candidatas para una evaluación más profunda. Las demás (adenosis apocrina, adenosis de conductos romos, absceso mamario, necrosis grasa, enfermedad de la lactancia, vulvovaginitis, vulvitis) tienen evidencia indirecta o nula (L4–L5) y se recomienda mantenerlas en espera.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

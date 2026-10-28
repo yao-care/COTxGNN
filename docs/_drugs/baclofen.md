@@ -48,9 +48,9 @@ El baclofeno es un agonista del receptor GABA-B que se usa clásicamente para tr
 |------|------|
 | Indicación Original | El registro INVIMA solo indica "BACLOFENO", sin detallar la indicación. La literatura lo describe como fármaco usado en espasticidad |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
-| Puntaje de Predicción TxGNN | 99.32% |
+| Puntaje de Predicción TxGNN | 0.9932 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Los datos compilados no incluyen una descripción detallada del mecanismo de acc
 
 El vínculo con el TDAH es plausible. Estos circuitos participan en la impulsividad y la atención, y el TDAH se asocia a su desregulación. Por eso un fármaco que module la inhibición GABAérgica podría influir en esos síntomas.
 
-Este vínculo es solo una hipótesis. La literatura disponible no prueba el baclofeno en TDAH. Los artículos tratan sobre revisiones del síndrome de Tourette, agonistas alfa-2, prescripción de metilfenidato y neurobiología en roedores. El puntaje de 99.32% es una predicción computacional y no debe interpretarse como evidencia de eficacia.
+Este vínculo es solo una hipótesis. La literatura disponible no prueba el baclofeno en TDAH. Los artículos tratan sobre revisiones del síndrome de Tourette, agonistas alfa-2, prescripción de metilfenidato y neurobiología en roedores. El puntaje de 0.9932 es una predicción computacional y no debe interpretarse como evidencia de eficacia.
 
 ---
 
@@ -127,7 +127,7 @@ La predicción es solo computacional (L5): no hay ensayos clínicos de baclofeno
 - Estudios preclínicos o piloto que prueben directamente el baclofeno en modelos o pacientes con TDAH.
 - Datos detallados del mecanismo de acción y análisis de la relación entre GABA-B y los circuitos del TDAH.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Evaluar la viabilidad regulatoria, dado que todos los registros están cancelados.
+- Evaluar la viabilidad regulatoria, dado que el medicamento está comercializado y cuenta con 4 registros vigentes.
 - Un plan de seguridad específico para población pediátrica y para interacciones con depresores del sistema nervioso central.
 ## Descargo de responsabilidad
 

@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Cabozantinib
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 126
-evidence_level: L3
-indication_count: 10
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophi
 # Cabozantinib
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 |------|------|
 | Indicación Original | Cabozantinib (el registro solo indica el nombre del principio activo, sin texto de indicación) |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.83% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** La evaluación de liposarcoma se clasifica como pregunta de investigación. Entre las predicciones del modelo, la indicación con mayor respaldo clínico es el carcinoma renal (ver más abajo), pero corresponde a un uso ya establecido y no a un reposicionamiento genuino.
@@ -132,11 +132,8 @@ Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de 
 
 | Indicación | Puntaje TxGNN | Nivel | Recomendación |
 |------|------|------|------|
-| Carcinoma renal | 99.66% | L1 | Proceed with Guardrails (uso ya establecido; respaldado por ensayos de fase 3 como CheckMate 9ER, METEOR y CONTACT-03) |
-| Carcinoma renal de células no clasificado | 99.75% | L2 | Proceed with Guardrails (varios ensayos de fase 2 en CCR no células claras) |
-| Carcinoma renal asociado a translocaciones Xp11.2/TFE3 | 99.75% | L2 | Proceed with Guardrails (evidencia de fase 2 en poblaciones mixtas) |
-| Carcinoma renal infantil | 99.68% | L2 | Research Question |
-| Liposarcoma mixoide ovárico, carcinoma renal asociado a neuroblastoma, esclerosis lateral amiotrófica, polimicrogiria parieto-occipital parasagital bilateral, angiolipoma | 99.62%–99.80% | L5 | Hold (solo predicción computacional, sin evidencia) |
+| Carcinoma renal | 0.9966 | L1 | Proceed with Guardrails (uso ya establecido; respaldado por ensayos de fase 3 como CheckMate 9ER, METEOR y CONTACT-03) |
+| Liposarcoma mixoide ovárico, carcinoma renal asociado a neuroblastoma, esclerosis lateral amiotrófica, polimicrogiria parieto-occipital parasagital bilateral, angiolipoma | 0.9962–0.9980 | L5 | Hold (solo predicción computacional, sin evidencia) |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

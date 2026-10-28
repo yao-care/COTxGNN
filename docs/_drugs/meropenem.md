@@ -4,7 +4,7 @@ title: Meropenem
 parent: Evidencia Moderada (L3-L4)
 nav_order: 431
 evidence_level: L4
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Meropenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"MEROPE…"
 monitor_inn: "MEROPENEM"
@@ -14,7 +14,7 @@ predicted_indications: ["bacterial arthritis", "epiglottitis", "staphylococcus a
 # Meropenem
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**, p
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "MEROPENEM") |
 | Nueva Indicación Predicha | Artritis bacteriana |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,7 +114,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; es 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (99.92%), pero la evidencia se limita a reportes de casos, una cohorte retrospectiva y estudios de sensibilidad o farmacocinética, sin ensayos clínicos para artritis bacteriana. Además, el único registro sanitario en Colombia está cancelado.
+La predicción de TxGNN es muy alta (0.9992), pero la evidencia se limita a reportes de casos, una cohorte retrospectiva y estudios de sensibilidad o farmacocinética, sin ensayos clínicos para artritis bacteriana. Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad.

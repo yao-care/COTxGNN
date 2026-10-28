@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 |------|------|
 | Indicación Original | DIOSMIN COMBINACIONES |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.42% |
+| Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No se identifica un vínculo mecanístico establecido con la amenorrea. Las causas de esta última suelen ser hormonales o estructurales (disfunción del eje hipotálamo-hipófisis-ovario, síndrome de ovario poliquístico, hiperprolactinemia, anomalías uterinas o del tracto de salida), y ninguno de los efectos propuestos de la diosmina se ha relacionado con ellas.
 
-El único respaldo de esta indicación es el puntaje alto de TxGNN (0.994), que es una predicción computacional y no evidencia clínica. Por ello, la predicción debe considerarse una hipótesis sin sustento mecanístico por ahora.
+El único respaldo de esta indicación es el puntaje alto de TxGNN (0.9942), que es una predicción computacional y no evidencia clínica. Por ello, la predicción debe considerarse una hipótesis sin sustento mecanístico por ahora.
 
 ---
 

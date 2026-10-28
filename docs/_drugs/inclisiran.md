@@ -4,17 +4,17 @@ title: Inclisiran
 parent: Solo Predicción del Modelo (L5)
 nav_order: 340
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Inclisiran: nueva indicación predicha, Deficiencia de potasio (potassium deficiency disease) (nivel de evidencia L5). Indicación original: INCLISIRÁN"
 monitor_inn: "inclisiran"
-predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
+predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
 ---
 
 # Inclisiran
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -46,10 +46,10 @@ Inclisirán es un ARN interferente pequeño (siRNA) que actúa sobre el ARNm de 
 |------|------|
 | Indicación Original | INCLISIRÁN (el registro sanitario no detalla la indicación; el uso conocido del fármaco es la reducción del LDL-C) |
 | Nueva Indicación Predicha | Deficiencia de potasio (potassium deficiency disease) |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

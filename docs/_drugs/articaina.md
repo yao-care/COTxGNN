@@ -8,6 +8,7 @@ nav_order: 67
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Articaina
@@ -51,7 +52,7 @@ por lo que no existe evidencia de ensayos clínicos ni literatura asociada a una
 | Nueva Indicación Predicha | Sin predicción disponible (TxGNN no generó candidatos) |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Solo predicción del modelo, sin estudios reales (y en este caso, sin predicción) |
-| Estado de Mercado en Colombia | ✗ No comercializado (0 registros sanitarios) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

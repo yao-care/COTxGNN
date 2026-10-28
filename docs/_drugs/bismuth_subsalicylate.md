@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **paratifoidea (fiebre par
 |------|------|
 | Indicación Original | Subcitrato de bismuto / Subsalicilato de bismuto (según el texto del registro INVIMA) |
 | Nueva Indicación Predicha | Paratifoidea (fiebre paratifoidea) |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -67,17 +67,17 @@ La paratifoidea es una infección sistémica por *Salmonella*. Un agente de acci
 
 | Posición | Enfermedad | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|------|
-| 2 | Esclerodermia difusa | 99.96% | L5 | Hold |
-| 3 | Salmonelosis | 99.95% | L4 | Pregunta de investigación |
-| 4 | Fiebre tifoidea | 99.92% | L5 | Hold |
-| 5 | Conjuntivitis | 99.92% | L5 | Hold |
-| 6 | Fiebre recurrente | 99.85% | L5 | Hold |
-| 7 | Conjuntivitis contagiosa aguda | 99.84% | L5 | Hold |
-| 8 | Gingivitis | 99.75% | L4 | Pregunta de investigación |
-| 9 | Queratoconjuntivitis epitelial punteada | 99.74% | L5 | Hold |
-| 10 | Otitis externa | 99.68% | L5 | Hold |
+| 2 | Esclerodermia difusa | 0.9996 | L5 | Hold |
+| 3 | Salmonelosis | 0.9995 | L5 | Pregunta de investigación |
+| 4 | Fiebre tifoidea | 0.9992 | L5 | Hold |
+| 5 | Conjuntivitis | 0.9992 | L5 | Hold |
+| 6 | Fiebre recurrente | 0.9985 | L5 | Hold |
+| 7 | Conjuntivitis contagiosa aguda | 0.9984 | L5 | Hold |
+| 8 | Gingivitis | 0.9975 | L5 | Pregunta de investigación |
+| 9 | Queratoconjuntivitis epitelial punteada | 0.9974 | L5 | Hold |
+| 10 | Otitis externa | 0.9968 | L5 | Hold |
 
-Las predicciones con algo de respaldo indirecto son la **salmonelosis** (estudio in vitro que muestra que el subsalicilato de bismuto se une a bacterias y las mata) y la **gingivitis** (estudios preclínicos con nanopartículas y membranas dentales). La esclerodermia difusa carece de un fundamento mecanístico claro y probablemente sea un artefacto del grafo.
+Las predicciones con algo de respaldo indirecto son la **salmonelosis** (estudio in vitro que muestra que el subsalicilato de bismuto se une a bacterias y las mata) y la **gingivitis** (estudios preclínicos con nanopartículas y membranas dentales). La esclerodermia difusa carece de un fundamento mecanístico claro; su puntuación proviene del modelo TxGNN (aprendizaje profundo) y probablemente refleje similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 

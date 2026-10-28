@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 54
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Amoxicillin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Amoxicilina y beta-lactamasa inhibidor"
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
+last_modified_at: 2026-10-27
+description: "Amoxicillin: nueva indicación predicha, síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: AMOXICILINA Y BETA-LACTAMASA INHIBIDO"
 ---
 
 # Amoxicillin
@@ -33,91 +33,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Amoxicilina: De Amoxicilina con Inhibidor de Beta-lactamasa a Síndrome de Hiperviscosidad Policlonal
+## Amoxicilina: antibiótico betalactámico (inhibidor de la síntesis de pared bacteriana) → síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Amoxicilina es un antibiótico betalactámico, registrado en Colombia como "amoxicilina y beta-lactamasa inhibidor".
-El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; es solo una predicción del modelo.
-
----
+Amoxicilina es un antibiótico betalactámico de uso oral, empleado contra infecciones bacterianas.
+El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**,
+pero **no existe ningún ensayo clínico ni publicación** que respalde esta dirección; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Amoxicilina y beta-lactamasa inhibidor |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.63% |
+| Indicación Original | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR |
+| Nueva Indicación Predicha | síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, amoxicilina es un antibacteriano betalactámico que inhibe la síntesis de la pared celular bacteriana, y su eficacia en infecciones bacterianas está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, la amoxicilina inhibe la síntesis de la pared celular bacteriana y actúa sobre bacterias sensibles.
 
-El síndrome de hiperviscosidad policlonal es un trastorno hematológico relacionado con las proteínas en sangre, sin un factor bacteriano causal. Por ello, **no se identifica un vínculo mecanístico plausible** entre el fármaco y esta enfermedad.
+El síndrome de hiperviscosidad policlonal es un trastorno hematológico asociado a un exceso de proteínas en la sangre, sin un factor bacteriano que lo impulse. No se identifica un vínculo mecanístico plausible entre un antibacteriano y esta enfermedad.
 
-El puntaje alto (99.63%) refleja únicamente una predicción del modelo, probablemente debida a patrones de la red de conocimiento y no a una base biológica. Otras predicciones con el mismo puntaje (hiperamilasemia, analbuminemia congénita) tampoco tienen sustento mecanístico ni clínico.
-
----
+El puntaje alto (0,9963) es solo una salida del modelo, sin ensayos ni literatura de respaldo. Debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
 
----
-
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20189193 | AMOXIDAL PLUS 600 POLVO PARA RECONSTITUIR A SUSPENSION ORAL | Polvo para reconstituir a suspensión oral | Amoxicilina y beta-lactamasa inhibidor | Cancelado |
+Según los datos compilados para este informe, el estado de mercado en Colombia es comercializado. La lista de registros sanitarios puede ser parcial.
 
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 20189193 | AMOXIDAL PLUS 600 POLVO PARA RECONSTITUIR A SUSPENSION ORAL | Polvo para reconstituir a suspensión oral | Ver registro sanitario |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: el grafo de conocimiento asocia amoxicilina con las siguientes condiciones, que deben interpretarse con cautela:
-  - Hepáticas y biliares: insuficiencia hepática, enfermedad hepática, colestasis (incluida la colestasis intrahepática recurrente benigna y la familiar), enfermedad de la vesícula biliar.
-  - Renales: enfermedad renal, piouréter.
-  - Cardíacas: síndrome de QT largo, torsades de pointes, taquicardia ventricular (incluidas las formas catecolaminérgica e infantil incesante).
-  - Porfirias: porfiria hereditaria, enfermedad del metabolismo de porfirinas, porfiria.
-  - Gastrointestinales: colitis por *Clostridium difficile*, enterocolitis necrotizante perinatal.
-  - Neuromusculares: miastenia gravis (incluida la del adulto), enfermedad de la unión neuromuscular.
-  - Óseas: osteoporosis, osteoporosis posmenopáusica, fractura ósea.
-  - Infecciosas: mononucleosis infecciosa, síndrome de infección crónica por virus de Epstein-Barr.
-- **Interacciones Farmacológicas** (100 interacciones registradas; ejemplos principales):
-  - **Mayor**: metotrexato; vacuna viva de *Vibrio cholerae* (cepa CVD 103-HgR).
-  - **Moderada**: doxiciclina, minociclina, demeclociclina, etinilestradiol, estradiol, anisindiona, dicumarol, balsalazida, entecavir, micofenolato de mofetilo, probióticos (*Lactobacillus acidophilus*, *Bifidobacterium longum infantis*), indio In-111 oxiquinolina.
+- **Interacciones Farmacológicas** (100 interacciones registradas; principales):
+  - **Mayor**: metotrexato; vacuna viva contra el cólera (*Vibrio cholerae* cepa CVD 103-HgR).
+  - **Moderada**: doxiciclina, minociclina, demeclociclina, etinilestradiol, estradiol, anisindiona, dicumarol, balsalazida, entecavir, micofenolato de mofetilo, *Lactobacillus acidophilus*, *Bifidobacterium longum infantis*, oxiquinolina de indio-111.
   - **Menor**: alopurinol, amilorida, azitromicina, claritromicina, eritromicina.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para síndrome de hiperviscosidad policlonal se basa solo en el puntaje del modelo (nivel L5), sin ensayos, sin literatura y sin mecanismo plausible. Además, el único registro sanitario en Colombia está cancelado.
+La predicción no cuenta con ensayos clínicos ni literatura, y no hay un mecanismo plausible que conecte un antibiótico betalactámico con un síndrome de hiperviscosidad. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales), actualmente incompletos.
-- Una hipótesis biológica que justifique el uso de un antibiótico en esta enfermedad; de lo contrario, no se recomienda continuar.
-- Evaluar candidatas alternativas con mayor plausibilidad. Por ejemplo, la peste septicémica (nivel L4) es biológicamente plausible, pero se apoya solo en estudios in vitro y en animales, y los betalactámicos no son el tratamiento de primera línea.
-- Confirmar la situación comercial del fármaco en Colombia, ya que no hay registros vigentes.
+- Datos del mecanismo de acción y una hipótesis biológica que explique el posible efecto.
+- Estudios preclínicos o de laboratorio que respalden la hipótesis.
+- Revisión del prospecto para advertencias y contraindicaciones.
+- Evaluación de las interacciones farmacológicas de gravedad mayor antes de cualquier uso en nuevos contextos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

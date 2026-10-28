@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Vincristine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 661
-evidence_level: L3
-indication_count: 3
-last_modified_at: 2026-10-14
-description: "Vincristine: nueva indicación predicha, Ganglioneuroblastoma (nivel de evidencia L3). Indicación original: Vincristina"
+evidence_level: L5
+indication_count: 2
 monitor_inn: "Vincristine"
-predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
+last_modified_at: 2026-10-23
+description: "Vincristine: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and… (nivel de evidencia L5). Indicación ori…"
 ---
 
 # Vincristine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,104 +33,79 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 </div>
 
-## Vincristina: De Indicación Registrada (Vincristina) a Ganglioneuroblastoma
+## Vincristine: Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Vincristina es un alcaloide de la vinca utilizado como antineoplásico; en Colombia sus registros sanitarios solo indican "vincristina" como indicación, sin mayor detalle.
-El modelo TxGNN predice que podría ser efectiva para **ganglioneuroblastoma**, con **0 ensayos clínicos** y **6 publicaciones** (en su mayoría reportes de caso) que respaldan esta dirección.
-
----
+La vincristina es un alcaloide de la vinca, un fármaco citotóxico que se usa como antineoplásico en leucemias, linfomas y algunos tumores sólidos infantiles. Los registros sanitarios colombianos solo indican "VINCRISTINA" como texto de indicación.
+El modelo TxGNN predice que podría ser efectiva para **anomalías vertebrales con disfunción endocrina y de células T variable**, pero hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección. Es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Vincristina (el registro sanitario no detalla una enfermedad específica) |
-| Nueva Indicación Predicha | Ganglioneuroblastoma |
-| Puntaje de Predicción TxGNN | 99.31% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Indicación Original | VINCRISTINA |
+| Nueva Indicación Predicha | Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) |
+| Puntaje de Predicción TxGNN | 0.9924 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según el conocimiento general de la clase, la vincristina es un alcaloide de la vinca que se une a la tubulina (el registro farmacológico señala como diana TUBB, tubulina beta clase I) e inhibe la polimerización de los microtúbulos, lo que provoca detención mitótica en células de división rápida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de este fármaco. Según la farmacología conocida, la vincristina se une a la tubulina beta (gen TUBB) e inhibe la polimerización de los microtúbulos, lo que provoca detención mitótica. Es un mecanismo citotóxico antiproliferativo, y su eficacia está comprobada en neoplasias hematológicas y tumores pediátricos.
 
-La vincristina es un componente histórico de los esquemas de quimioterapia combinada para tumores neuroblásticos (neuroblastoma y ganglioneuroblastoma), que comparten origen en la cresta neural. Su uso clínico conocido incluye leucemia, enfermedad de Hodgkin, linfomas no Hodgkin, rabdomiosarcoma, neuroblastoma y tumor de Wilms. Esto vuelve biológicamente plausible la predicción del modelo.
+Con los datos disponibles **no se identifica un vínculo mecanístico** entre este mecanismo y un síndrome raro que combina anomalías vertebrales con disfunción endocrina y de células T. Se trata de una condición del desarrollo y del sistema inmune, no de una proliferación tumoral. Además, un agente citotóxico e inmunosupresor sería una opción cuestionable cuando ya existe disfunción de células T.
 
-Conviene tener presente que la relación con la indicación original no puede evaluarse con precisión, porque el registro colombiano solo menciona "vincristina". El puntaje alto de TxGNN es una predicción basada en grafos y no reemplaza la evidencia clínica.
-
----
+El puntaje de 0.9924 proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Hasta que haya estudios que aborden directamente esta enfermedad, la predicción debe considerarse una hipótesis sin respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [31342649](https://pubmed.ncbi.nlm.nih.gov/31342649/) | 2019 | Ensayo clínico prospectivo (JN-L-10) | Pediatric Blood & Cancer | Uso de factores de riesgo definidos por imagen para decidir el momento de la cirugía en neuroblastoma de bajo riesgo; la quimioterapia no es la variable principal |
-| [8255850](https://pubmed.ncbi.nlm.nih.gov/8255850/) | 1993 | Reporte de caso | Postgraduate Medical Journal | Ganglioneuroblastoma espinal irresecable con remisión completa histológica tras quimioterapia combinada (doxorrubicina, vincristina, ciclofosfamida, etopósido, ifosfamida y cisplatino) |
-| [15701990](https://pubmed.ncbi.nlm.nih.gov/15701990/) | 2005 | Reporte de caso | J Pediatr Hematol Oncol | Ganglioneuroblastoma con ictericia obstructiva; tratado con quimioterapia que incluyó vincristina |
-| [7421294](https://pubmed.ncbi.nlm.nih.gov/7421294/) | 1980 | Reporte de caso (serie de 31 pacientes) | J Thorac Cardiovasc Surg | Ganglioneuroblastoma intratorácico; tratamiento con resección, radioterapia o quimioterapia; supervivencia de 27/31 pacientes |
-| [8888754](https://pubmed.ncbi.nlm.nih.gov/8888754/) | 1996 | Reporte de caso | J Pediatr Hematol Oncol | Lactante con ganglioneuroblastoma multifocal en estadio 4 con compromiso gástrico |
-| [3071124](https://pubmed.ncbi.nlm.nih.gov/3071124/) | 1988 | Reporte de caso | Hinyokika Kiyo | Ganglioneuroblastoma suprarrenal en adulto con tratamiento multimodal |
-
-La evidencia es principalmente de reportes de caso; solo uno de los trabajos es un ensayo prospectivo, y no evalúa la quimioterapia como variable principal.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20006838 (cancelado) | Vincristina sulfato 1 mg/1 ml solución inyectable (Venus Remedies Limited) | Solución inyectable | Vincristina |
-| 20097927 (cancelado) | Sulfato de vincristina 1 mg polvo liofilizado para reconstituir a solución inyectable (Blau Farmacéutica Colombia S.A.S) | Polvo liofilizado para reconstituir a solución inyectable | Vincristina |
-
----
+| 20006838 | Vincristina sulfato 1 mg/1 ml solución inyectable (Venus Remedies Limited) | Solución inyectable | VINCRISTINA |
+| 20097927 | Sulfato de vincristina 1 mg polvo liofilizado para reconstituir a solución inyectable (Blau Farmacéutica Colombia S.A.S) | Polvo liofilizado para reconstituir a solución inyectable | VINCRISTINA |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, inhibidor de microtúbulos) |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. La base de conocimiento señala leucopenia como contraindicación asociada |
+| Clasificación de Citotoxicidad | Citotóxico convencional (alcaloide de la vinca, inhibidor de tubulina) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática (bilirrubina), función neurológica periférica |
 | Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
 
 ## Consideraciones de Seguridad
 
-No se dispone del texto del prospecto de INVIMA con advertencias y contraindicaciones. Consultar el prospecto para esa información.
+- **Relaciones de contraindicación registradas en el grafo de conocimiento** (no provienen del texto del prospecto y deben confirmarse con la ficha técnica): insuficiencia hepática, colestasis (incluida la colestasis intrahepática recurrente benigna y familiar), hiperbilirrubinemia (incluidos la hereditaria y el síndrome de Gilbert), leucopenia, neuropatía periférica y enfermedades neuromusculares (incluida la enfermedad de Charcot-Marie-Tooth, la neuropatía periférica motora y la neuritis), nefropatía aguda por uratos, infecciones (incluidas las fúngicas y la dermatofitosis) y enfermedades del sistema nervioso periférico.
+- **Interacciones farmacológicas**: la consulta no arrojó interacciones con otros fármacos. El único registro corresponde a la tubulina beta clase I (TUBB), que es la diana farmacológica de la vincristina y no una interacción medicamentosa.
 
-- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto)**: insuficiencia hepática, colestasis (incluida la colestasis intrahepática familiar y recurrente benigna), hiperbilirrubinemia (incluido el síndrome de Gilbert), leucopenia, neuropatía periférica y enfermedades neuromusculares (incluida la enfermedad de Charcot-Marie-Tooth, neuritis y neuropatía motora), nefropatía aguda por uratos, infecciones (incluidas las fúngicas y la dermatofitosis).
-- **Interacciones farmacológicas**: solo se registra la interacción farmacológica con su diana, la tubulina beta clase I (TUBB), sin interacciones medicamentosas clínicas documentadas.
-
----
+Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto (99.31%) y el mecanismo es plausible, pero la evidencia se limita a reportes de caso y no hay ensayos clínicos registrados. Además, ambos registros sanitarios en Colombia están cancelados y no se cuenta con el prospecto para el análisis de seguridad.
+No existen ensayos clínicos ni publicaciones que estudien esta enfermedad con vincristina (nivel L5). Además, el mecanismo citotóxico no tiene un vínculo plausible con un síndrome del desarrollo con disfunción de células T.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia bloquea el análisis de seguridad
-- Confirmar el mecanismo de acción mediante DrugBank
-- Revisar la literatura de esquemas actuales para neuroblastoma/ganglioneuroblastoma y el papel específico de la vincristina
-- Aclarar la situación regulatoria (registros cancelados) y la disponibilidad de producto en Colombia
-- Valorar un plan de monitoreo para hepatotoxicidad, neurotoxicidad y mielosupresión
+- Datos formales de mecanismo de acción y una hipótesis biológica que conecte la inhibición de microtúbulos con la fisiopatología de esta enfermedad.
+- Evidencia preclínica o clínica que estudie directamente esta condición.
+- Revisión del prospecto de INVIMA (advertencias y contraindicaciones), que no está disponible en los datos compilados.
+- Evaluación del perfil de seguridad frente a una enfermedad con disfunción inmune.
+
+**Nota:** el modelo también predice, con un puntaje similar (0.9923), **neoplasia retroperitoneal**, con 20 publicaciones recuperadas. La mayoría son reportes de caso y series pequeñas, de las cuales solo 10 se alcanzaron a listar, sobre rabdomiosarcoma paratesticular, paraganglioma maligno y otros tumores tratados con regímenes que incluyen vincristina. Esa dirección es biológicamente más plausible y merece evaluarse por separado como pregunta de investigación.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

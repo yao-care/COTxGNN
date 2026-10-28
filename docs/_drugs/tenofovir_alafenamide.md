@@ -6,9 +6,9 @@ nav_order: 612
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Tenofovir Alafenamide: nueva indicación predicha, Infección por virus de inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Tenofovir alafenamida"
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Tenofovir Alafenamide: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: TENOFOVIR ALAFENAMIDA"
 ---
 
 # Tenofovir Alafenamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Tenofovir alafenamida: De Hepatitis B Crónica a Infección por Virus de Inmunodeficiencia Simia
+## Tenofovir Alafenamide: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **0 ensayos clínicos** y **8 publicaciones** (todas preclínicas en modelos
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Tenofovir alafenamida (el registro sanitario no detalla el texto de la indicación; según la información farmacológica, se usa en hepatitis B crónica) |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | TENOFOVIR ALAFENAMIDA |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Todos los estudios son preclínicos (modelos animales).
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20134171 | VEMLIDY® | Tableta recubierta | Tenofovir alafenamida | Cancelado |
+| 20134171 | VEMLIDY® | Tableta recubierta | Tenofovir alafenamida | Vigente |
 
 ---
 
@@ -120,7 +120,7 @@ La evidencia es exclusivamente preclínica en primates no humanos (L4) y no repr
 - Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones
 - Verificar el estado regulatorio actual de TAF en Colombia (otros productos con TAF en combinación)
 
-**Nota sobre otras predicciones:** las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo con marcha atáxica) tienen puntajes altos (99.89% y 99.87%), pero carecen de ensayos y literatura. La primera es una indicación veterinaria y la segunda no tiene vínculo mecanístico creíble, probablemente un artefacto del grafo de conocimiento. Ambas se mantienen en **Hold**.
+**Nota sobre otras predicciones:** las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo con marcha atáxica) tienen puntajes altos (0.9989 y 0.9987), pero carecen de ensayos y literatura. La primera es una indicación veterinaria y la segunda no tiene vínculo mecanístico creíble, probablemente un artefacto del modelo TxGNN (aprendizaje profundo). Ambas se mantienen en **Hold**.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

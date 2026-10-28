@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 |------|------|
 | Indicación Original | Loxoprofeno (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, loxoprofeno es un profármaco AINE cuyo metabolito activo (trans-alcohol) inhibe la ciclooxigenasa 1 y 2 (COX-1 y COX-2), con efecto analgésico y antiinflamatorio.
 
-La nueva indicación es un síndrome congénito extremadamente raro, con malformaciones oculares y esqueléticas. La inhibición de COX no tiene un papel establecido en su patogenia, por lo que **los datos compilados no respaldan un vínculo mecanístico**. El puntaje de TxGNN (0.998) proviene únicamente de una predicción sobre el grafo de conocimiento, sin respaldo clínico ni bibliográfico.
+La nueva indicación es un síndrome congénito extremadamente raro, con malformaciones oculares y esqueléticas. La inhibición de COX no tiene un papel establecido en su patogenia, por lo que **los datos compilados no respaldan un vínculo mecanístico**. El puntaje de TxGNN (0.998) proviene únicamente de una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico.
 
 Además, el fármaco solo tiene un registro cancelado en Colombia, por lo que no existe una vía comercial o regulatoria vigente.
 
@@ -73,7 +73,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20089378 | LOXONIN 60 MG | Tableta | LOXOPROFEN | Cancelado |
+| 20089378 | LOXONIN 60 MG | Tableta | LOXOPROFEN | Vigente |
 
 Fabricante: Daiichi Sankyo Brasil Farmacêutica Ltda. Vía de administración: oral.
 
@@ -90,7 +90,7 @@ Para completar el análisis, se evaluó también la segunda predicción:
 | Item | Contenido |
 |------|------|
 | Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje TxGNN | 99.75% |
+| Puntaje TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
 | Ensayos clínicos / Publicaciones | 0 / 0 |
 | Decisión | Hold |

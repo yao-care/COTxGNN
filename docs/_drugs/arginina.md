@@ -8,6 +8,7 @@ nav_order: 63
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Arginina
@@ -51,7 +52,7 @@ y los datos de seguridad, mecanismo de acción y regulación de mercado presenta
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 (sin estudios reales) |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | Hold |
 

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Rosuvastatin
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 571
-evidence_level: L1
-indication_count: 10
+evidence_level: L5
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Rosuvastatin: nueva indicación predicha, Hipercolesterolemia familiar (nivel de evidencia L1). Indicación original: Rosuvastatina"
 monitor_inn: "Rosuvastatin"
-predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hyperlipidemia due to hepatic triglyceride lipase deficiency", "ABri amyloidosis"]
+predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
+description: "Rosuvastatin: nueva indicación predicha, Cholesterol-ester transfer protein deficiency (nivel de evidencia L5). Indicación original: ROSUVASTATINA"
 ---
 
 # Rosuvastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Rosuvastatina: De Hiperlipidemia a Hipercolesterolemia Familiar
+## Rosuvastatin: Cholesterol-ester transfer protein deficiency
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Cabe aclarar que esta es en gran medida una indicación ya establecida de las es
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Rosuvastatina (el registro sanitario solo indica el principio activo, sin texto de indicación detallado) |
-| Nueva Indicación Predicha | Hipercolesterolemia familiar |
-| Puntaje de Predicción TxGNN | 99.54% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Indicación Original | ROSUVASTATINA; ACIDO FENOFIBRICO. ROSUVASTATINA |
+| Nueva Indicación Predicha | Cholesterol-ester transfer protein deficiency |
+| Puntaje de Predicción TxGNN | 0.9954 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 

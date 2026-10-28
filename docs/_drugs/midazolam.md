@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 |------|------|
 | Indicación Original | Midazolam (el registro no detalla el texto de la indicación) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -93,8 +93,8 @@ Además, el midazolam por vía oral fue estudiado y usado históricamente como h
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20198997 | RELACUM® SOLUCIÓN INYECTABLE | Solución inyectable | Midazolam (estado: cancelado) |
-| 20209565 | SERRACLINICS | Solución inyectable | Midazolam (estado: cancelado) |
+| 20198997 | RELACUM® SOLUCIÓN INYECTABLE | Solución inyectable | Midazolam (estado: vigente) |
+| 20209565 | SERRACLINICS | Solución inyectable | Midazolam (estado: vigente) |
 
 ---
 

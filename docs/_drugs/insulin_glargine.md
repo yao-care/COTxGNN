@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **ooforitis autoinmune**, 
 |------|------|
 | Indicación Original | Insulina glargina (el registro sanitario no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Ooforitis autoinmune |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **ooforitis autoinmune**, 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este informe. Según la información conocida, la insulina glargina actúa sobre el receptor de insulina para regular el metabolismo de la glucosa.
 
-Para la ooforitis autoinmune **no se identifica un vínculo mecanístico directo** con este fármaco. No existe una vía establecida que conecte la insulina glargina con la patología autoinmune del ovario. El puntaje alto de TxGNN (99.88%) es únicamente una predicción computacional y probablemente refleja asociaciones del grafo de conocimiento, no un efecto terapéutico demostrado.
+Para la ooforitis autoinmune **no se identifica un vínculo mecanístico directo** con este fármaco. No existe una vía establecida que conecte la insulina glargina con la patología autoinmune del ovario. El puntaje alto de TxGNN (0.9988) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto terapéutico demostrado.
 
 Por lo tanto, esta predicción debe considerarse una hipótesis sin respaldo y no una oportunidad de reposicionamiento validada.
 
@@ -85,15 +85,15 @@ Para dar contexto, estas son las demás indicaciones predichas. Ninguna cuenta c
 
 | Rango | Indicación Predicha | Puntaje TxGNN | Nivel | Comentario |
 |---|---|---|---|---|
-| 2 | Síndrome de disfunción sensible a tiamina | 99.61% | L5 | La insulina podría manejar la diabetes asociada (control sintomático), sin evidencia aportada |
-| 3 | Síndrome de rigidez focal de extremidad | 99.60% | L5 | Probable artefacto por asociación autoinmune/anti-GAD con diabetes |
-| 4 | Síndrome clásico de persona rígida | 99.60% | L5 | La insulina trata la diabetes comórbida, no la enfermedad neurológica |
-| 5 | Opsismodisplasia | 99.59% | L5 | Vínculo teórico vía INPPL1/vía de señalización de insulina, no probado |
-| 6 | Agenesia pancreática | 99.43% | L4 | Reemplazo hormonal racional, pero no es reposicionamiento propiamente; literatura solo indirecta |
-| 7 | Lipodistrofia localizada inducida por fármacos | 99.42% | L5 | La insulina inyectada puede causar esta condición; uso no recomendable |
-| 8 | Lipodistrofia centrífuga | 99.39% | L5 | Asociación probablemente del grafo, sin evidencia |
-| 9 | Lipoatrofia localizada inducida por presión | 99.38% | L5 | Racional teórico débil; las inyecciones se asocian a lipodistrofia |
-| 10 | Lipodistrofia localizada idiopática | 99.34% | L5 | Probable asociación por lipodistrofia relacionada con insulina |
+| 2 | Síndrome de disfunción sensible a tiamina | 0.9961 | L5 | La insulina podría manejar la diabetes asociada (control sintomático), sin evidencia aportada |
+| 3 | Síndrome de rigidez focal de extremidad | 0.9960 | L5 | Probable artefacto por asociación autoinmune/anti-GAD con diabetes |
+| 4 | Síndrome clásico de persona rígida | 0.9960 | L5 | La insulina trata la diabetes comórbida, no la enfermedad neurológica |
+| 5 | Opsismodisplasia | 0.9959 | L5 | Vínculo teórico vía INPPL1/vía de señalización de insulina, no probado |
+| 6 | Agenesia pancreática | 0.9943 | L4 | Reemplazo hormonal racional, pero no es reposicionamiento propiamente; literatura solo indirecta |
+| 7 | Lipodistrofia localizada inducida por fármacos | 0.9942 | L5 | La insulina inyectada puede causar esta condición; uso no recomendable |
+| 8 | Lipodistrofia centrífuga | 0.9939 | L5 | Puntaje del modelo TxGNN (deep learning); puede reflejar similitudes aprendidas entre enfermedades, sin evidencia biológica |
+| 9 | Lipoatrofia localizada inducida por presión | 0.9938 | L5 | Racional teórico débil; las inyecciones se asocian a lipodistrofia |
+| 10 | Lipodistrofia localizada idiopática | 0.9934 | L5 | Probable asociación por lipodistrofia relacionada con insulina |
 
 La única predicción con literatura asociada es la **agenesia pancreática**; esta consiste en revisiones sobre terapia con insulina en diabetes tipo 2 y diabetes secundaria, un estudio en gatos diabéticos y un caso de MODY5 tratado con un agonista del receptor de GLP-1. Ninguna es un ensayo en agenesia pancreática.
 
@@ -103,9 +103,9 @@ La única predicción con literatura asociada es la **agenesia pancreática**; e
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19914262 | LANTUS® 100 U/ML | Solución inyectable | Insulina glargina | Cancelado |
-| 20060088 | GLARITUS 100UI/ML | Solución inyectable | Insulina glargina | Cancelado |
-| 20128168 | SOLIQUA® 30-60 | Solución inyectable | Insulina glargina + lixisenatida | Cancelado |
+| 19914262 | LANTUS® 100 U/ML | Solución inyectable | Insulina glargina | Vigente |
+| 20060088 | GLARITUS 100UI/ML | Solución inyectable | Insulina glargina | Vigente |
+| 20128168 | SOLIQUA® 30-60 | Solución inyectable | Insulina glargina + lixisenatida | Vigente |
 
 ---
 

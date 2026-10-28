@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, 
 |------|------|
 | Indicación Original | Gilteritinib (el registro de INVIMA solo consigna el nombre del principio activo; según el conocimiento general, LMA recidivante o refractaria con mutación FLT3) |
 | Nueva Indicación Predicha | Poliomielitis bulbar |
-| Puntaje de Predicción TxGNN | 99.10% |
+| Puntaje de Predicción TxGNN | 0.9910 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Sin embargo, **no se identifica un vínculo mecanístico establecido** con la poliomielitis bulbar. Esta es una infección aguda por poliovirus que afecta las neuronas motoras del tronco encefálico, y no se conoce una vía que conecte la inhibición de FLT3/AXL con la replicación del poliovirus o con la neuroprotección. Se ha descrito que AXL participa en la entrada o la evasión inmune de algunos virus, pero para el poliovirus esto es especulativo y no está respaldado por ningún dato aquí.
 
-El puntaje de 99.10% es únicamente una predicción basada en el modelo. Además, el perfil inmunosupresor y mielosupresor del fármaco, junto con sus numerosas interacciones farmacológicas (100), plantea preocupaciones de seguridad para su uso en una infección viral aguda.
+El puntaje de 0.9910 es únicamente una predicción basada en el modelo. Además, el perfil inmunosupresor y mielosupresor del fármaco, junto con sus numerosas interacciones farmacológicas (100), plantea preocupaciones de seguridad para su uso en una infección viral aguda.
 
 ---
 

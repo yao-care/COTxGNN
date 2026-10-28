@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pe
 |------|------|
 | Indicación Original | RASBURICASA (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 En el caso de la hipouricemia renal, la relación con la indicación original es **inversa**. Esta condición se caracteriza por niveles anormalmente bajos de ácido úrico en suero (por ejemplo, por pérdida de función de URAT1 o GLUT9). Reducir aún más el urato sería mecanísticamente contraproducente y podría empeorar el fenotipo.
 
-Por lo tanto, el puntaje alto del modelo probablemente refleja la cercanía en el grafo de conocimiento con nodos relacionados con el urato, y no una justificación terapéutica real. Esta predicción no debe interpretarse como una señal de eficacia.
+Por lo tanto, el puntaje alto del modelo (TxGNN, aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con el urato, y no una justificación terapéutica real. Esta predicción no debe interpretarse como una señal de eficacia.
 
 ### Otras predicciones del modelo
 
@@ -71,15 +71,15 @@ Las demás predicciones de mayor puntaje también tienen nivel de evidencia L5 y
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario sobre el mecanismo |
 |------|------|------|
-| Deficiencia parcial de hipoxantina-guanina fosforribosiltransferasa | 99.97% | Plausible solo en crisis hiperuricémicas agudas; el manejo crónico usa inhibidores de xantina oxidasa |
-| Porfiria hepática | 99.97% | Sin vínculo mecanístico claro; probable artefacto del grafo |
-| Cirrosis idiopática asociada a cobre | 99.97% | Sin vínculo identificado |
-| Hipertensión portal familiar no cirrótica de inicio temprano | 99.97% | Sin mecanismo plausible |
-| Trombosis primitiva de la vena porta | 99.97% | Sin actividad antitrombótica conocida |
-| Síndrome hepatopulmonar | 99.97% | Sin vía conocida |
-| Esclerosis hepatoportal | 99.97% | Sin vínculo mecanístico |
-| Acidosis tubular renal | 99.85% | Conexión tangencial no respaldada |
-| Trastorno del metabolismo de la fenilalanina | 99.83% | Sin actividad sobre esta vía |
+| Deficiencia parcial de hipoxantina-guanina fosforribosiltransferasa | 0.9997 | Plausible solo en crisis hiperuricémicas agudas; el manejo crónico usa inhibidores de xantina oxidasa |
+| Porfiria hepática | 0.9997 | Sin vínculo mecanístico claro; la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica |
+| Cirrosis idiopática asociada a cobre | 0.9997 | Sin vínculo identificado |
+| Hipertensión portal familiar no cirrótica de inicio temprano | 0.9997 | Sin mecanismo plausible |
+| Trombosis primitiva de la vena porta | 0.9997 | Sin actividad antitrombótica conocida |
+| Síndrome hepatopulmonar | 0.9997 | Sin vía conocida |
+| Esclerosis hepatoportal | 0.9997 | Sin vínculo mecanístico |
+| Acidosis tubular renal | 0.9985 | Conexión tangencial no respaldada |
+| Trastorno del metabolismo de la fenilalanina | 0.9983 | Sin actividad sobre esta vía |
 
 ---
 

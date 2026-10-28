@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Fusidic Acid
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 305
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Ácido fusídico (crema tópica)"
@@ -14,7 +14,7 @@ predicted_indications: ["exposure keratitis", "non-human animal disease", "otiti
 # Fusidic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (una ser
 |------|------|
 | Indicación Original | Ácido fusídico (crema tópica) |
 | Nueva Indicación Predicha | Queratitis por exposición |
-| Puntaje de Predicción TxGNN | 99.95 % |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | 7 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la queratitis por exposición es **indirecta**. Esta enfermedad es principalmente un trastorno mecánico o por desecación de la córnea, no infeccioso. El ácido fusídico podría ayudar, a lo sumo, en una infección bacteriana secundaria de una córnea expuesta.
 
-La única publicación vinculada es una serie de casos de infecciones oculares por *Tsukamurella*, que no evalúa el ácido fusídico. Por ello, la predicción descansa sobre todo en la proximidad dentro del grafo de conocimiento y no en evidencia clínica.
+La única publicación vinculada es una serie de casos de infecciones oculares por *Tsukamurella*, que no evalúa el ácido fusídico. Por ello, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Todos los registros están cancelados; actualmente no hay productos vigentes.
+Hay 7 registros sanitarios vigentes; el medicamento está comercializado.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -112,14 +112,14 @@ Consultar el prospecto para información de advertencias, contraindicaciones e i
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la única publicación vinculada no evalúa el ácido fusídico. El mecanismo es solo indirectamente plausible, y todos los registros sanitarios en Colombia están cancelados.
+No existen ensayos clínicos y la única publicación vinculada no evalúa el ácido fusídico. El mecanismo es solo indirectamente plausible, y hay 7 registros sanitarios vigentes en Colombia.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
 - Buscar evidencia clínica o preclínica del ácido fusídico en infecciones de la superficie ocular o en queratitis por exposición con sobreinfección.
 - Evaluar la viabilidad de una formulación oftálmica y la situación regulatoria, dado que no hay registros vigentes.
-- Como alternativa, priorizar la indicación de **otitis externa** (puntaje 99.84 %, L4, plausibilidad microbiológica por *S. aureus*), aunque la literatura es mayormente veterinaria y no ofrece datos de eficacia clínica en humanos.
+- Como alternativa, priorizar la indicación de **otitis externa** (puntaje 0.9984, L4, plausibilidad microbiológica por *S. aureus*), aunque la literatura es mayormente veterinaria y no ofrece datos de eficacia clínica en humanos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidenc
 |------|------|
 | Indicación Original | Ketoconazol (el registro no detalla la indicación; solo menciona el nombre del principio activo) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.80% |
+| Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Para el acné existen dos vías plausibles, ambas con evidencia indirecta. La primera: el ketoconazol suprime la levadura *Malassezia* (*Pityrosporum*), implicada en erupciones foliculares y acneiformes como la foliculitis por *Malassezia* y la pustulosis cefálica neonatal. Además, estudios de laboratorio indican que inhibe el crecimiento y la actividad de la lipasa de *Propionibacterium acnes*, una bacteria asociada al acné vulgar. La segunda: inhibe la enzima humana CYP17A1 y otras enzimas de la esteroidogénesis, lo que reduce la síntesis de andrógenos y, en teoría, la producción de sebo en acné hiperandrogénico (por ejemplo, en síndrome de ovario poliquístico).
 
-Conviene no mezclar ambos mecanismos: la crema tópica y el efecto sistémico sobre la esteroidogénesis son exposiciones distintas. El puntaje de 99.80% de TxGNN es una predicción computacional, no evidencia clínica. Además, el uso sistémico conlleva riesgos graves de hepatotoxicidad y supresión adrenal, lo que dificultaría justificarlo para el acné.
+Conviene no mezclar ambos mecanismos: la crema tópica y el efecto sistémico sobre la esteroidogénesis son exposiciones distintas. El puntaje de 0.9980 de TxGNN es una predicción computacional, no evidencia clínica. Además, el uso sistémico conlleva riesgos graves de hepatotoxicidad y supresión adrenal, lo que dificultaría justificarlo para el acné.
 
 ---
 
@@ -126,7 +126,7 @@ La predicción se apoya sobre todo en el puntaje computacional y en evidencia in
 - Definir la vía de administración (tópica frente a sistémica) y verificar su compatibilidad con los productos disponibles.
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria en Colombia (todos los registros cancelados) y evaluar si se requiere un nuevo registro.
+- Aclarar la situación regulatoria en Colombia (el medicamento está comercializado y cuenta con 3 registros vigentes) y evaluar si se requiere un nuevo registro.
 - Evaluar el riesgo de hepatotoxicidad, supresión adrenal, prolongación del QT e interacciones antes de cualquier uso sistémico.
 ## Descargo de responsabilidad
 

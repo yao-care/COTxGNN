@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Simvastatin
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 587
-evidence_level: L1
-indication_count: 8
+evidence_level: L5
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Simvastatin: nueva indicación predicha, Hipercolesterolemia familiar (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
+description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["brain stem infarction", "cholesterol-ester transfer pro
 # Simvastatin
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 </div>
 
-## Simvastatina: De Combinaciones de Simvastatina a Hipercolesterolemia Familiar
+## Simvastatina: De Combinaciones de Simvastatina a Infarto del tronco encefálico
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | Simvastatina combinaciones paquetes |
 | Nueva Indicación Predicha | Hipercolesterolemia familiar |
-| Puntaje de Predicción TxGNN | 99.63% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9941 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 

@@ -1,18 +1,19 @@
 ---
 layout: default
 title: Triazolam
-parent: Evidencia Moderada (L3-L4)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 644
-evidence_level: L4
-indication_count: 1
-last_modified_at: 2026-10-14
-description: "Triazolam: nueva indicación predicha, Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) (nivel de evidencia L4). Indicación original: Triazolam"
+evidence_level: N/A
+indication_count: 0
+last_modified_at: 2026-10-23
+description: "Triazolam: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
+predicted_indications: []
 ---
 
 # Triazolam
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -31,73 +32,45 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 </div>
 
-## Triazolam: De Triazolam (indicación registrada sin especificar) a Trastorno del Sueño (inicio y mantenimiento del sueño)
+<!-- known-uses-page -->
+<!-- description: Triazolam: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata -->
+## Triazolam: Usos conocidos y estado de mercado en Colombia
 {: .text-alpha }
 
-## Resumen en Una Frase
+## Resumen
+Los candidatos que el modelo TxGNN generó para Triazolam (puntuación ≥ 0.99) son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. El único uso identificado pertenece a la misma categoría de enfermedad que una indicación aprobada.
 
-Triazolam es una benzodiacepina de acción corta, cuyo registro sanitario en Colombia (Somese® 0.25 mg tabletas) figura únicamente con el nombre del principio activo como indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **trastornos del sueño (inicio y mantenimiento del sueño)**, es decir, el insomnio, con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría revisiones y guías) que actualmente respaldan esta dirección.
-Cabe aclarar que esta predicción corresponde en la práctica al uso terapéutico ya establecido del fármaco, y no a un reposicionamiento propiamente dicho.
-
----
-
-## Resumen Rápido
-
-| Item | Contenido |
+## Resumen rápido
+| Elemento | Contenido |
 |------|------|
-| Indicación Original | Triazolam (el registro no detalla una indicación específica) |
-| Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño (insomnio) |
-| Puntaje de Predicción TxGNN | 99.72% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
-| Decisión Recomendada | Hold |
+| Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con origen verificable son usos conocidos) |
+| Usos conocidos entre los candidatos del modelo | 1 |
+| Nivel de evidencia | No aplicable |
+| Estado de mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 
----
+## Usos conocidos entre los candidatos del modelo
 
-## ¿Por qué es Razonable esta Predicción?
+### Aprobado (respaldado por licencia o ficha técnica)
+| Indicación | Fuente |
+|------|------|
+| Ninguno | — |
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, triazolam es una benzodiacepina de acción corta que actúa como modulador alostérico positivo del receptor GABA-A, potenciando la neurotransmisión inhibitoria GABAérgica y favoreciendo el inicio del sueño.
+### Relacionado con una indicación aprobada (misma categoría de enfermedad)
+| Indicación | Categoría aprobada |
+|------|------|
+| Trastorno del sueño: inicio y mantenimiento del sueño (sleep disorder, initiating and maintaining sleep) | insomnio (insomnia) |
 
-La indicación original registrada en Colombia solo repite el nombre del fármaco, por lo que no es posible comparar formalmente ambas indicaciones. Sin embargo, el insomnio es el uso clásico de triazolam, de modo que la predicción del modelo (puntaje de 99.72%) es coherente con un vínculo ya conocido y no representa una nueva oportunidad terapéutica.
-
-Este mecanismo se infiere de conocimiento farmacológico general y no de los datos suministrados; debe verificarse en fuentes como DrugBank.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Se muestran las publicaciones más relevantes (guías y revisiones sistemáticas primero, luego revisiones). No se identificaron ECA entre las publicaciones disponibles.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [27998379](https://pubmed.ncbi.nlm.nih.gov/27998379/) | 2017 | Guía clínica | J Clin Sleep Med | Guía de la AASM con recomendaciones sobre el tratamiento farmacológico del insomnio crónico en adultos, evaluando fármacos individuales |
-| [40110890](https://pubmed.ncbi.nlm.nih.gov/40110890/) | 2025 | Revisión sistemática/Metaanálisis | Psychiatry Clin Neurosci | Eficacia y seguridad de cada clase de hipnóticos (incluidas benzodiacepinas) combinados con antidepresivos en depresión mayor con insomnio |
-| [33249496](https://pubmed.ncbi.nlm.nih.gov/33249496/) | 2021 | Revisión sistemática/Metaanálisis en red | Sleep | Comparación de eficacia y seguridad de hipnóticos para el insomnio en adultos mayores |
-| [38401406](https://pubmed.ncbi.nlm.nih.gov/38401406/) | 2024 | Revisión sistemática/Metaanálisis en red | Eur Neuropsychopharmacol | Efectos residuales de los hipnóticos sobre el rendimiento al conducir |
-| [39932761](https://pubmed.ncbi.nlm.nih.gov/39932761/) | 2025 | Revisión | Minerva Med | Panorama del trastorno de insomnio: prevalencia, diagnóstico y manejo |
-| [30058034](https://pubmed.ncbi.nlm.nih.gov/30058034/) | 2018 | Revisión | Drugs Aging | Recomendaciones de manejo farmacológico del insomnio en adultos mayores |
-| [27751669](https://pubmed.ncbi.nlm.nih.gov/27751669/) | 2016 | Revisión | Clin Ther | Seguridad y eficacia de los medicamentos para dormir en adultos mayores |
-| [2567741](https://pubmed.ncbi.nlm.nih.gov/2567741/) | 1989 | Revisión | J Clin Psychopharmacol | Revisión crítica del insomnio de rebote tras suspender triazolam y otras benzodiacepinas hipnóticas |
-| [9161660](https://pubmed.ncbi.nlm.nih.gov/9161660/) | 1997 | Revisión | Ann Pharmacother | Comparación de zolpidem con triazolam en eficacia y seguridad |
-| [1319429](https://pubmed.ncbi.nlm.nih.gov/1319429/) | 1992 | Revisión | J Clin Psychiatry | Farmacología de las benzodiacepinas hipnóticas, incluido triazolam |
-
----
+### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+| Indicación |
+|------|
+| Ninguno |
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 41586 | SOMESE® 0.25 MG TABLETAS (Pfizer S.A.S.) | Tableta | Triazolam | Cancelado |
-
----
+| Registro | Producto | Forma farmacéutica | Estado |
+|------|------|------|------|
+| 41586 | TRIAZOLAM | TABLETA | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -112,19 +85,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 
 ---
 
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-La predicción coincide con el uso clásico de triazolam como hipnótico, por lo que no constituye reposicionamiento genuino. Además, el único registro sanitario en Colombia está cancelado, no hay ensayos clínicos registrados y el nivel de evidencia es L4.
-
-**Para avanzar se necesita:**
-- Aclarar la indicación aprobada real del registro 41586 y los motivos de su cancelación.
-- Obtener y analizar el prospecto (advertencias y contraindicaciones) de INVIMA.
-- Confirmar el mecanismo de acción desde DrugBank.
-- Definir si existe interés real en una nueva indicación distinta del insomnio, dado que la actual ya es el uso establecido.
-- Evaluar el perfil de riesgo-beneficio (dependencia, interacciones con opioides, poblaciones vulnerables como adultos mayores) antes de cualquier reintroducción comercial.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,7 +4,7 @@ title: Clofarabine
 parent: Evidencia Alta (L1-L2)
 nav_order: 168
 evidence_level: L1
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: CLOFARABINA"
 monitor_inn: "Clofarabine"
@@ -14,7 +14,7 @@ predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "n
 # Clofarabine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Clofarabina es un análogo de nucleósidos de purina, registrado en Colombia bajo la indicación "CLOFARABINA" (sin detalle de indicación en el texto del registro) y utilizado en la práctica clínica para la leucemia linfoblástica aguda (LLA) pediátrica refractaria o recidivante.
-El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con un puntaje de 99.88%.
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, con un puntaje de 0.9988.
 Esta dirección está respaldada por **43 ensayos clínicos** (incluidos 2 de Fase 3 completados) y **20 publicaciones** compiladas para este informe.
 
 ---
@@ -50,10 +50,10 @@ Esta dirección está respaldada por **43 ensayos clínicos** (incluidos 2 de Fa
 |------|------|
 | Indicación Original | CLOFARABINA (el registro INVIMA no detalla la indicación; en la literatura, LLA pediátrica refractaria/recidivante) |
 | Nueva Indicación Predicha | Leucemia mieloide |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -108,8 +108,8 @@ Se muestran los ensayos más relevantes (de un total de 43 registrados para esta
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20137192 | RELUKA® Solución concentrada para infusión inyectable | Solución concentrada para infusión | CLOFARABINA (cancelado) |
-| 20094735 | CLOFAZIC® 20MG/20ML | Solución inyectable | CLOFARABINA (cancelado) |
+| 20137192 | RELUKA® Solución concentrada para infusión inyectable | Solución concentrada para infusión | CLOFARABINA (vigente) |
+| 20094735 | CLOFAZIC® 20MG/20ML | Solución inyectable | CLOFARABINA (vigente) |
 
 ---
 

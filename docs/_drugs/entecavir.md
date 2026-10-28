@@ -4,7 +4,7 @@ title: Entecavir
 parent: Evidencia Moderada (L3-L4)
 nav_order: 254
 evidence_level: L3
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (nivel de evidencia L3). Indicación original: Entecavir"
 monitor_inn: "ENTECAVIR"
@@ -14,7 +14,7 @@ predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious d
 # Entecavir
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para la **infección crónica p
 |------|------|
 | Indicación Original | Entecavir (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,9 +97,9 @@ Por ello, la predicción del modelo debe interpretarse como una señal de coinfe
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19964164 | BARACLUDE TABLETA RECUBIERTA 1MG | Tableta recubierta | Entecavir | Cancelado |
-| 19964241 | BARACLUDE TABLETA RECUBIERTA 0.5 MG | Tableta recubierta | Entecavir | Cancelado |
-| 20118266 | ZENTAIR 0.5 MG | Tableta recubierta | Entecavir | Cancelado |
+| 19964164 | BARACLUDE TABLETA RECUBIERTA 1MG | Tableta recubierta | Entecavir | Vigente |
+| 19964241 | BARACLUDE TABLETA RECUBIERTA 0.5 MG | Tableta recubierta | Entecavir | Vigente |
+| 20118266 | ZENTAIR 0.5 MG | Tableta recubierta | Entecavir | Vigente |
 
 Actualmente no hay registros vigentes en Colombia: los tres registros sanitarios (Bristol Myers Squibb de Colombia y Cipla) figuran como cancelados.
 

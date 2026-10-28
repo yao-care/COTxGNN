@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pirfenidone
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 517
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Pirfenidone: nueva indicación predicha, Neoplasia fibroblástica (fibroblastic neoplasm) (nivel de evidencia L4). Indicación original: Pirfenidona"
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
+description: "Pirfenidone: nueva indicación predicha, Extracutaneous mastocytoma (nivel de evidencia L5). Indicación original: PIRFENIDONA"
 ---
 
 # Pirfenidone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Pirfenidona: De Fibrosis Pulmonar Idiopática a Neoplasia Fibroblástica
+## Pirfenidone: Extracutaneous mastocytoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,11 +46,11 @@ Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pirfenidona (el registro sanitario no detalla el texto de la indicación) |
-| Nueva Indicación Predicha | Neoplasia fibroblástica (fibroblastic neoplasm) |
-| Puntaje de Predicción TxGNN | 99.23% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Indicación Original | PIRFENIDONA |
+| Nueva Indicación Predicha | Extracutaneous mastocytoma |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -91,9 +91,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20093425 | ESBRIET® cápsulas duras 267 mg (cancelado) | Cápsula dura | Pirfenidona |
-| 20251036 | FIBROPER® 801 mg tableta recubierta (cancelado) | Tableta recubierta | Pirfenidona |
-| 20258933 | HETOPIR® 801 mg tabletas recubiertas (cancelado) | Tableta recubierta | Pirfenidona |
+| 20093425 | ESBRIET® cápsulas duras 267 mg (vigente) | Cápsula dura | Pirfenidona |
+| 20251036 | FIBROPER® 801 mg tableta recubierta (vigente) | Tableta recubierta | Pirfenidona |
+| 20258933 | HETOPIR® 801 mg tabletas recubiertas (vigente) | Tableta recubierta | Pirfenidona |
 
 ---
 
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en evidencia preclínica indirecta y en reportes de caso que incluso apuntan a un posible riesgo. No hay ensayos clínicos, y todos los registros sanitarios en Colombia están cancelados.
+La predicción se apoya solo en evidencia preclínica indirecta y en reportes de caso que incluso apuntan a un posible riesgo. No hay ensayos clínicos; el medicamento está comercializado en Colombia y cuenta con 3 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos del mecanismo de acción desde DrugBank.

@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pemetrexed
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 506
-evidence_level: L2
-indication_count: 10
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
-description: "Pemetrexed: nueva indicación predicha, Mesotelioma peritoneal maligno (nivel de evidencia L2). Indicación original: Pemetrexed"
 monitor_inn: "PEMETREXED"
-predicted_indications: ["pleural adenomatoid tumor", "pleural biphasic mesothelioma", "pericardium cancer", "well differentiated papillary mesothelioma", "lymphohistiocytoid mesothelioma", "iminoglycinuria"]
+predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
+description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PEMETREXED"
 ---
 
 # Pemetrexed
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Pemetrexed: De Indicación Original (no especificada en el registro) a Mesotelioma Peritoneal Maligno
+## Pemetrexed: Pleural adenomatoid tumor
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,12 +46,12 @@ Pemetrexed es un antifolato multidiana. En los registros sanitarios de INVIMA su
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Pemetrexed (el registro sanitario no detalla la indicación; en la práctica se usa en mesotelioma pleural y cáncer de pulmón no microcítico) |
-| Nueva Indicación Predicha | Mesotelioma peritoneal maligno |
-| Puntaje de Predicción TxGNN | 99.99% |
-| Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Indicación Original | PEMETREXED |
+| Nueva Indicación Predicha | Pleural adenomatoid tumor |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

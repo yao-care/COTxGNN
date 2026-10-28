@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Dacarbazine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 190
-evidence_level: L4
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 monitor_inn: "Dacarbazine"
@@ -14,7 +14,7 @@ description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aero
 # Dacarbazine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recuperada
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Dacarbazina") |
 | Nueva Indicación Predicha | Neoplasia del tracto aerodigestivo superior |
-| Puntaje de Predicción TxGNN | 99.26% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9926 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 6) |
 | Número de Registros Sanitarios | 6 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La relación con la nueva indicación es **indirecta y dependiente de la histología**. La literatura recuperada describe tumores sensibles a dacarbazina que pueden surgir o comprometer la cabeza y el cuello: melanoma mucoso, linfoma de Hodgkin de cabeza y cuello y paraganglioma de cabeza y cuello. No hay evidencia de un efecto directo sobre el carcinoma escamocelular, el cáncer dominante del tracto aerodigestivo superior.
 
-El puntaje de 0.993 es solo una predicción computacional y no está respaldado por ningún ensayo en esta indicación. Debe interpretarse con cautela.
+El puntaje de 0.9926 es solo una predicción computacional y no está respaldado por ningún ensayo en esta indicación. Debe interpretarse con cautela.
 
 ---
 
@@ -140,7 +140,7 @@ La predicción se basa solo en el modelo (L4), sin ensayos clínicos y con liter
 - Completar el mecanismo de acción desde DrugBank.
 - Definir las histologías específicas del tracto aerodigestivo superior donde dacarbazina podría ser relevante (p. ej., melanoma mucoso).
 - Buscar estudios clínicos directos en esta población.
-- Aclarar la viabilidad regulatoria y comercial, dado que todos los registros están cancelados.
+- Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 6 licencias vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 |------|------|
 | Indicación Original | Dutasterida (el registro sanitario no detalla la enfermedad) |
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
-| Puntaje de Predicción TxGNN | 99.998% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de Ambras es un trastorno congénito del crecimiento del cabello con base genética (reordenamientos cromosómicos que afectan la regulación de TRPS1). No se sabe que la hipertricosis de esta condición dependa de andrógenos, por lo que el vínculo mecanístico es **especulativo**.
 
-El puntaje TxGNN es muy alto, pero es solo una predicción del modelo, sin ensayos ni literatura que la respalden. Las demás predicciones del modelo (hipertricosis, anomalías del tallo piloso, hipotricosis, etc.) tienen el mismo problema: el vínculo parece reflejar cercanía en el grafo de conocimiento (fenotipos de pelo y ectodermo) más que una razón farmacológica. En la hipertricosis, además, la dirección del efecto es ambigua, porque los inhibidores de la 5-alfa-reductasa se usan sobre todo para reducir efectos androgénicos en el cabello.
+La puntuación del modelo TxGNN (aprendizaje profundo) es muy alta, pero es solo una predicción, sin ensayos ni literatura que la respalden. Las demás predicciones del modelo (hipertricosis, anomalías del tallo piloso, hipotricosis, etc.) tienen el mismo problema: la puntuación proviene del modelo TxGNN y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (fenotipos de pelo y ectodermo), no evidencia biológica ni una razón farmacológica. En la hipertricosis, además, la dirección del efecto es ambigua, porque los inhibidores de la 5-alfa-reductasa se usan sobre todo para reducir efectos androgénicos en el cabello.
 
 ---
 
@@ -89,9 +89,9 @@ Como referencia, la octava predicción (alopecia areata difusa) tiene una única
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128081 | DUTASVITAE® 0.5 MG CÁPSULAS BLANDAS | Cápsula blanda | DUTASTERIDA (cancelado) |
-| 20158830 | DUTASTERIDA 0.5MG CÁPSULA BLANDA | Cápsula blanda | DUTASTERIDA (cancelado) |
-| 20188809 | DUTAZ DUO® | Cápsula dura | TAMSULOSINA Y DUTASTERIDA (cancelado) |
+| 20128081 | DUTASVITAE® 0.5 MG CÁPSULAS BLANDAS | Cápsula blanda | DUTASTERIDA (vigente) |
+| 20158830 | DUTASTERIDA 0.5MG CÁPSULA BLANDA | Cápsula blanda | DUTASTERIDA (vigente) |
+| 20188809 | DUTAZ DUO® | Cápsula dura | TAMSULOSINA Y DUTASTERIDA (vigente) |
 
 Los tres registros están cancelados; no hay registros vigentes.
 
@@ -118,7 +118,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Datos del mecanismo de acción (consultar DrugBank) y análisis de si existe un vínculo real entre la DHT y la hipertricosis de Ambras
 - Revisión bibliográfica dirigida y evidencia preclínica que respalde la hipótesis
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
-- Evaluar la situación regulatoria, dado que todos los registros están cancelados
+- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 3 licencias vigentes
 - Priorizar otras predicciones con mayor plausibilidad, como la hipotricosis simple del cuero cabelludo, que tiene cercanía fenotípica con la alopecia androgenética
 ## Descargo de responsabilidad
 

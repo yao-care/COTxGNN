@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquida
 |------|------|
 | Indicación Original | Combinaciones de tiocolchicósido |
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99.35% |
+| Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de braquidactilia-sindactilia es una malformación congénita rara de las extremidades, de origen genético y del desarrollo. No se ha identificado una vía plausible que conecte la inhibición de prostaglandinas con su causa subyacente. En el mejor de los casos, un beneficio sería sintomático (dolor o inflamación) y no modificaría la enfermedad.
 
-El puntaje alto (99.35%) refleja una predicción del modelo, probablemente por cercanía en la red del grafo de conocimiento, y no un mecanismo biológico validado. Debe tratarse como una hipótesis por contrastar, no como un hallazgo accionable. Las otras tres predicciones principales (síndrome de microftalmia colobomatosa-displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia-amelogénesis imperfecta) son igualmente enfermedades genéticas raras, con puntajes de 99.2%, 99.2% y 99.1%, también sin evidencia de respaldo.
+El puntaje alto (0.9935) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo validado. Debe tratarse como una hipótesis por contrastar, no como un hallazgo accionable. Las otras tres predicciones principales (síndrome de microftalmia colobomatosa-displasia rizomélica, displasia acromesomélica tipo Hunter-Thompson y síndrome de braquiolmia-amelogénesis imperfecta) son igualmente enfermedades genéticas raras, con puntajes de 0.9922, 0.9917 y 0.9906, también sin evidencia de respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,9 +73,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20240091 | MIDOL ® (cancelado) | Tableta recubierta | Combinaciones de tiocolchicósido |
-| 20210473 | RELAFEN® Tabletas Recubiertas (cancelado) | Tableta recubierta | Tiocolchicósida |
-| 20024731 | DURAFLEX ® 500MG (cancelado) | Cápsula blanda | Naproxeno |
+| 20240091 | MIDOL ® (vigente) | Tableta recubierta | Combinaciones de tiocolchicósido |
+| 20210473 | RELAFEN® Tabletas Recubiertas (vigente) | Tableta recubierta | Tiocolchicósida |
+| 20024731 | DURAFLEX ® 500MG (vigente) | Cápsula blanda | Naproxeno |
 
 ## Consideraciones de Seguridad
 

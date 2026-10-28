@@ -48,9 +48,9 @@ con **0 ensayos clínicos** y **4 publicaciones** que actualmente respaldan esta
 |------|------|
 | Indicación Original | Combinaciones de calcipotriol |
 | Nueva Indicación Predicha | Queratosis seborreica |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -79,8 +79,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20093919 | DAIVOBET® GEL 50 MCG + 0.5 MG/ G | Gel tópico | Combinaciones de calcipotriol (cancelado) |
-| 19937177 | DAIVOBET UNGUENTO | Ungüento tópico | Combinaciones de calcipotriol (cancelado) |
+| 20093919 | DAIVOBET® GEL 50 MCG + 0.5 MG/ G | Gel tópico | Combinaciones de calcipotriol (vigente) |
+| 19937177 | DAIVOBET UNGUENTO | Ungüento tópico | Combinaciones de calcipotriol (vigente) |
 
 ## Consideraciones de Seguridad
 

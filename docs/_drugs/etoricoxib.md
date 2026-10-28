@@ -4,17 +4,17 @@ title: Etoricoxib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 271
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (solo figura \"Etoricoxib\")"
 monitor_inn: "ETORICOXIB"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 ---
 
 # Etoricoxib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (solo figura "Etoricoxib"); en la literatura: artritis reumatoide, osteoartritis, dolor lumbar crónico, espondilitis anquilosante, dolor agudo y gota |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -103,9 +103,9 @@ Evidencia relacionada de cefaleas afines (indicaciones secundarias del modelo):
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Cancelado |
-| 20226690 | MEDIKET® 90 MG tabletas recubiertas | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Cancelado |
-| 20070877 | ANEXIA® 60 MG | Tableta cubierta con película | Etoricoxib (sin detalle de indicación) | Cancelado |
+| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Vigente |
+| 20226690 | MEDIKET® 90 MG tabletas recubiertas | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Vigente |
+| 20070877 | ANEXIA® 60 MG | Tableta cubierta con película | Etoricoxib (sin detalle de indicación) | Vigente |
 
 ---
 

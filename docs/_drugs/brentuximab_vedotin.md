@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Brentuximab Vedotin
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 113
-evidence_level: L5
+evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Brentu…"
@@ -14,7 +14,7 @@ predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lympho
 # Brentuximab Vedotin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma folicular**, con
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Brentuximab vedotina") |
 | Nueva Indicación Predicha | Linfoma folicular |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L2 según la evaluación de los datos compilados (ver nota en la sección de ensayos) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -145,11 +145,11 @@ El único ensayo directamente relevante (NCT04587687) está en curso con 23 paci
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Neoplasia de células B (incluye LDCBG y Hodgkin) | 99.60% | L2 | Proceed with Guardrails |
-| Leucemia mieloide | 99.76% | L2 | Investigación (sin respaldo confirmatorio) |
-| Leucemia linfoblástica aguda | 99.65% | L4 | Hold |
-| Síndrome de Richter | 99.38% | L4 | Hold |
-| Linfoma de células del manto | 99.32% | L4 | Hold |
+| Neoplasia de células B (incluye LDCBG y Hodgkin) | 0.9960 | L2 | Proceed with Guardrails |
+| Leucemia mieloide | 0.9976 | L2 | Investigación (sin respaldo confirmatorio) |
+| Leucemia linfoblástica aguda | 0.9965 | L5 | Hold |
+| Síndrome de Richter | 0.9938 | L4 | Hold |
+| Linfoma de células del manto | 0.9932 | L5 | Hold |
 
 Nota: la neoplasia de células B muestra la evidencia más sólida del conjunto, pero mezcla enfermedades con uso ya establecido (Hodgkin) con candidatos de reposicionamiento (LDCBG). Sus datos más relevantes proceden del ensayo de Fase 3 NCT04404283 (BV + lenalidomida + rituximab en LDCBG en recaída o refractario, 239 pacientes, activo sin reclutamiento). Podría ser una alternativa de priorización si el objetivo es avanzar con mayor evidencia.
 ## Descargo de responsabilidad

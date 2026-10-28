@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de braquida
 |------|------|
 | Indicación Original | El texto del registro sanitario solo indica "INDOMETACINA", sin una indicación específica. Su uso clínico conocido es el de un AINE para condiciones inflamatorias |
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de braquida
 
 Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. La indometacina es un inhibidor no selectivo de las enzimas ciclooxigenasa (COX-1 y COX-2), por lo que reduce la síntesis de prostaglandinas y, con ella, la inflamación, el dolor y la fiebre. También se le describe interacción con otras dianas, como el receptor DP2 (PTGDR2), el receptor PPAR-gamma y el transportador de folato acoplado a protones (SLC46A1).
 
-**Con los datos disponibles no se puede sustentar una relación mecanística plausible entre este fármaco y la nueva indicación.** El síndrome de braquidactilia-sindactilia es una malformación esquelética del desarrollo de origen genético. Inhibir las prostaglandinas no debería modificar la patología del desarrollo que lo origina. El puntaje alto de TxGNN (99.97%) es una predicción computacional y no tiene respaldo en estudios clínicos ni en literatura.
+**Con los datos disponibles no se puede sustentar una relación mecanística plausible entre este fármaco y la nueva indicación.** El síndrome de braquidactilia-sindactilia es una malformación esquelética del desarrollo de origen genético. Inhibir las prostaglandinas no debería modificar la patología del desarrollo que lo origina. El puntaje alto de TxGNN (0.9997) es una predicción computacional y no tiene respaldo en estudios clínicos ni en literatura.
 
 Por eso la relación entre la indicación original (inflamación y dolor) y la nueva (una malformación congénita) es débil. No hay una similitud de enfermedad ni de vía biológica que justifique avanzar sin evidencia adicional.
 
@@ -116,7 +116,7 @@ La predicción para el síndrome de braquidactilia-sindactilia no tiene ensayos 
 - Evidencia preclínica o mecanística que vincule la vía de las prostaglandinas con la fisiopatología de este síndrome.
 - Obtener y revisar el prospecto oficial (INVIMA) para definir advertencias y contraindicaciones.
 - Complementar los datos del mecanismo de acción desde DrugBank.
-- Considerar candidatos mejor respaldados entre las predicciones de este fármaco. La **artritis idiopática juvenil** (puntaje TxGNN 99.84%, nivel L3) cuenta con literatura que incluye un ensayo doble ciego de 1978 que comparó indometacina con ketoprofeno en artritis crónica juvenil, además de varias revisiones pediátricas sobre AINE. Esto sustenta un uso sintomático histórico, no modificador de la enfermedad, y se trata más de un uso ya establecido que de uno nuevo. Podría ser una línea de investigación más razonable.
+- Considerar candidatos mejor respaldados entre las predicciones de este fármaco. La **artritis idiopática juvenil** (puntaje TxGNN 0.9984, nivel L3) cuenta con literatura que incluye un ensayo doble ciego de 1978 que comparó indometacina con ketoprofeno en artritis crónica juvenil, además de varias revisiones pediátricas sobre AINE. Esto sustenta un uso sintomático histórico, no modificador de la enfermedad, y se trata más de un uso ya establecido que de uno nuevo. Podría ser una línea de investigación más razonable.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

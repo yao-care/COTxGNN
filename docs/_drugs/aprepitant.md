@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 |------|------|
 | Indicación Original | No disponible (el registro INVIMA solo indica "APREPITANT") |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.97% |
+| Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19945183 | EMEND® 80 MG/125 MG | Cápsula dura | APREPITANT | Cancelado |
+| 19945183 | EMEND® 80 MG/125 MG | Cápsula dura | APREPITANT | Vigente |
 
 ---
 

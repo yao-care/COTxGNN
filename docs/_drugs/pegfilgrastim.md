@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética 
 |------|------|
 | Indicación Original | PEGFILGRASTIM (el registro sanitario no detalla la indicación) |
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -65,7 +65,7 @@ Una hipótesis posible es que la movilización de células progenitoras derivada
 
 También existe un riesgo opuesto: la activación de neutrófilos y la inflamación inducidas por G-CSF podrían agravar el daño vascular retiniano. La relación entre la indicación original (hematológica) y la nueva (microvascular ocular) es lejana, y la predicción se apoya únicamente en el puntaje del modelo.
 
-Cabe señalar que la "retinopatía diabética" (puntaje 99.73%) es la categoría general de la indicación anterior y no aporta evidencia independiente.
+Cabe señalar que la "retinopatía diabética" (puntaje 0.9973) es la categoría general de la indicación anterior y no aporta evidencia independiente.
 
 ---
 
@@ -73,10 +73,10 @@ Cabe señalar que la "retinopatía diabética" (puntaje 99.73%) es la categoría
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Cancelado |
-| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Cancelado |
-| 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Cancelado |
-| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Cancelado |
+| 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Vigente |
+| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Vigente |
+| 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Vigente |
+| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Vigente |
 
 ---
 

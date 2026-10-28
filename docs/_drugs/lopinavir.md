@@ -48,10 +48,10 @@ Lopinavir es un inhibidor de la proteasa del VIH-1, registrado en Colombia en co
 |------|------|
 | Indicación Original | Lopinavir y ritonavir |
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (SIV) |
-| Puntaje de Predicción TxGNN | 99.90% |
+| Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El SIV es un lentivirus muy cercano al VIH, y su proteasa es estructuralmente similar. Por ello, es plausible que el mecanismo antiviral se traslade. Los tres estudios disponibles se realizaron en macacos: terapia antirretroviral cuádruple en macacos infectados con SIV, un virus quimérico SHIV con proteasa del VIH-1 en macacos rhesus, y terapia antirretroviral oral (incluido lopinavir/ritonavir) en monos infectados con SHIV.
 
-Conviene tener presente que el SIV es una enfermedad de modelo animal/veterinaria, por lo que no existe una ruta de desarrollo clínico en humanos. Su valor principal es como modelo traslacional para el VIH, indicación para la cual lopinavir/ritonavir ya está aprobado. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo raro) tienen puntajes casi idénticos, lo que sugiere un posible artefacto del modelo de grafos, sobre todo en el segundo caso, donde no se identificó un vínculo mecanístico claro.
+Conviene tener presente que el SIV es una enfermedad de modelo animal/veterinaria, por lo que no existe una ruta de desarrollo clínico en humanos. Su valor principal es como modelo traslacional para el VIH, indicación para la cual lopinavir/ritonavir ya está aprobado. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo raro) tienen puntajes casi idénticos, que provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, sobre todo en el segundo caso, donde no se identificó un vínculo mecanístico claro.
 
 ---
 

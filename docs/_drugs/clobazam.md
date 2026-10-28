@@ -50,9 +50,9 @@ pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre 
 |------|------|
 | Indicación Original | Clobazam (el registro INVIMA no detalla la indicación; solo repite el nombre del principio activo) |
 | Nueva Indicación Predicha | Síndrome de epilepsia relacionada con infección febril (FIRES) |
-| Puntaje de Predicción TxGNN | 99.82% |
+| Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -87,10 +87,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 44747 | URBADAN® 20 MG (Sanofi-Aventis) | Tableta | CLOBAZAM (cancelado) |
-| 20044091 | OBAX® 10 MG TABLETAS (Humax Pharmaceutical) | Tableta | CLOBAZAM (cancelado) |
-| 20262933 | LOGABA® CLOBAZAM 10 MG TABLETAS (MSN Laboratories) | Tableta | CLOBAZAM (cancelado) |
-| 29114 | URBADAN® (Sanofi-Aventis) | Tableta | CLOBAZAM (cancelado) |
+| 44747 | URBADAN® 20 MG (Sanofi-Aventis) | Tableta | CLOBAZAM (vigente) |
+| 20044091 | OBAX® 10 MG TABLETAS (Humax Pharmaceutical) | Tableta | CLOBAZAM (vigente) |
+| 20262933 | LOGABA® CLOBAZAM 10 MG TABLETAS (MSN Laboratories) | Tableta | CLOBAZAM (vigente) |
+| 29114 | URBADAN® (Sanofi-Aventis) | Tableta | CLOBAZAM (vigente) |
 
 ---
 
@@ -123,7 +123,7 @@ La predicción del modelo es muy alta (99.82%), pero no hay ensayos clínicos y 
 
 ### Nota sobre otras indicaciones predichas
 
-Entre las otras nueve predicciones, la de mayor soporte es la de **encefalopatía epiléptica de inicio en la infancia** (puntaje 99.59%, L4), con abundante literatura que incluye clobazam en el síndrome de Lennox-Gastaut. Como clobazam ya está aprobado para ese síndrome en varios mercados, podría no ser un reposicionamiento real; conviene verificarlo con ensayos primarios. Las demás (síndrome de piernas inquietas, polimicrogiria con hipoplasia del nervio óptico, entre otras) solo tienen respaldo predictivo (L5) o evidencia indirecta (L4).
+Entre las otras nueve predicciones, la de mayor soporte es la de **encefalopatía epiléptica de inicio en la infancia** (puntaje 0.9959, L4), con abundante literatura que incluye clobazam en el síndrome de Lennox-Gastaut. Como clobazam ya está aprobado para ese síndrome en varios mercados, podría no ser un reposicionamiento real; conviene verificarlo con ensayos primarios. Las demás (síndrome de piernas inquietas, polimicrogiria con hipoplasia del nervio óptico, entre otras) solo tienen respaldo predictivo (L5) o evidencia indirecta (L4).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

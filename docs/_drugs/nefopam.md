@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Nefopam es un analgésico no opioide de acción central, registrado en Colombia como solución inyectable (ACUPAN).
-El modelo TxGNN predice que podría ser efectivo para **craniosinostosis con catarata** (puntaje de 99.98%), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+El modelo TxGNN predice que podría ser efectivo para **craniosinostosis con catarata** (puntaje de 0.9998), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 La única indicación con algo de literatura es la **estenosis espinal lumbar** (4 publicaciones sobre analgesia perioperatoria), y aun así no evalúa el tratamiento de la enfermedad en sí.
 
 ---
@@ -50,13 +50,13 @@ La única indicación con algo de literatura es la **estenosis espinal lumbar** 
 |------|------|
 | Indicación Original | NEFOPAM (el registro sanitario no detalla la indicación; se trata de un analgésico) |
 | Nueva Indicación Predicha | Craniosinostosis con catarata (craniostenosis cataract) |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
-**Otras predicciones del modelo:** la mayoría son subtipos de catarata (inmadura, madura, asociada a diabetes tipo 2, tetánica, senil nuclear, cortical, senil y diabética), todas con nivel L5 y decisión Hold. Además, la **estenosis espinal lumbar** (puntaje 99.97%) alcanza el nivel L4 y se clasifica como "pregunta de investigación".
+**Otras predicciones del modelo:** la mayoría son subtipos de catarata (inmadura, madura, asociada a diabetes tipo 2, tetánica, senil nuclear, cortical, senil y diabética), todas con nivel L5 y decisión Hold. Además, la **estenosis espinal lumbar** (puntaje 0.9997) alcanza el nivel L4 y se clasifica como "pregunta de investigación".
 
 ---
 
@@ -64,7 +64,7 @@ La única indicación con algo de literatura es la **estenosis espinal lumbar** 
 
 Los datos compilados para este informe no incluyen el mecanismo de acción oficial del fármaco. Según el análisis disponible, nefopam es un analgésico de acción central que se reporta inhibe la recaptación de serotonina, noradrenalina y dopamina, y modula los canales de sodio y calcio dependientes de voltaje.
 
-**Para craniosinostosis con catarata y los demás subtipos de catarata, no se identificó ningún vínculo mecanístico plausible.** Ni la inhibición de la recaptación de monoaminas ni la modulación de canales iónicos tienen relación reconocida con la opacidad del cristalino o con la patología de la craneosinostosis. Es probable que los puntajes altos, idénticos o casi idénticos entre subtipos, reflejen la similitud en la estructura del grafo de conocimiento dentro del grupo de las cataratas y no una señal biológica real.
+**Para craniosinostosis con catarata y los demás subtipos de catarata, no se identificó ningún vínculo mecanístico plausible.** Ni la inhibición de la recaptación de monoaminas ni la modulación de canales iónicos tienen relación reconocida con la opacidad del cristalino o con la patología de la craneosinostosis. Es probable que los puntajes altos, idénticos o casi idénticos entre subtipos, provengan del modelo TxGNN (aprendizaje profundo) y reflejen similitudes que el modelo aprendió entre enfermedades relacionadas dentro del grupo de las cataratas, no evidencia biológica.
 
 **La estenosis espinal lumbar es la excepción parcial.** Aquí existe un vínculo plausible: la acción analgésica de nefopam podría ser relevante para el dolor perioperatorio, la disestesia y el ahorro de opioides en cirugía de columna. Sin embargo, la literatura se refiere a pacientes quirúrgicos y analgesia, no al tratamiento de la estenosis en sí.
 
@@ -95,7 +95,7 @@ La evidencia corresponde a la estenosis espinal lumbar (no a la indicación prin
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20108472 | ACUPAN SOLUCION INYECTABLE (BIOCODEX) | Solución inyectable | NEFOPAM | Cancelado |
+| 20108472 | ACUPAN SOLUCION INYECTABLE (BIOCODEX) | Solución inyectable | NEFOPAM | Vigente |
 
 ---
 

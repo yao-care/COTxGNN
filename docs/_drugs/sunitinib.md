@@ -4,17 +4,17 @@ title: Sunitinib
 parent: Evidencia Alta (L1-L2)
 nav_order: 599
 evidence_level: L2
-indication_count: 10
+indication_count: 5
 last_modified_at: 2026-10-14
-description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No especificada en los registros (solo figura \"SUNITINIB\")"
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
+description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SUNITINIB"
 ---
 
 # Sunitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Sunitinib: De Indicación Original No Especificada a Liposarcoma
+## Sunitinib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros (solo figura "SUNITINIB") |
+| Indicación Original | SUNITINIB |
 | Nueva Indicación Predicha | Liposarcoma |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,12 +93,12 @@ La señal es limitada: las cohortes son pequeñas, las tasas de respuesta public
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20196041 | RENISUN® 12.5 mg cápsulas duras | Cápsula dura | SUNITINIB (cancelado) |
-| 20193310 | RENISUN® 50 mg cápsulas duras | Cápsula dura | SUNITINIB (cancelado) |
-| 20194945 | RENISUN® 37.5 mg cápsulas duras | Cápsula dura | SUNITINIB (cancelado) |
-| 20196071 | RENISUN® 25 mg cápsulas | Cápsula dura | SUNITINIB (cancelado) |
+| 20196041 | RENISUN® 12.5 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
+| 20193310 | RENISUN® 50 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
+| 20194945 | RENISUN® 37.5 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
+| 20196071 | RENISUN® 25 mg cápsulas | Cápsula dura | SUNITINIB (vigente) |
 
-Los cuatro registros pertenecen a HB Human Bioscience S.A.S. y ninguno está vigente.
+Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
 
 ---
 
@@ -139,7 +139,6 @@ Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen
 
 ### Nota sobre otras indicaciones predichas
 
-- **Carcinoma de células renales no clasificado** (puntaje 99.78%, nivel L2): varios ensayos de Fase 2 (ASPEN, ESPN) en carcinoma renal de células no claras. Es la alternativa con evidencia más sólida, recomendación *Proceed with Guardrails*.
 - **Carcinoma renal** (nivel L1): es una indicación ya establecida para sunitinib, por lo que es una confirmación y no un reposicionamiento propiamente dicho.
 - **Dermatofibrosarcoma protuberans** (nivel L3): fundamento mecanístico sólido (fusión COL1A1-PDGFB) tras resistencia a imatinib, pero sustentado solo por series retrospectivas y reportes de caso.
 - **Liposarcoma mixoide ovárico, carcinoma renal asociado a neuroblastoma, angiolipoma y fibrosarcoma cardíaco** (niveles L4-L5): solo predicción computacional o evidencia indirecta; se recomienda *Hold*.

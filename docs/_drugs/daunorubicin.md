@@ -50,10 +50,10 @@ con **2 ensayos clínicos** (ambos de Fase 2, con relevancia indirecta) y **20 p
 |------|------|
 | Indicación Original | DAUNORRUBICINA (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Linfoma de Hodgkin |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -131,7 +131,7 @@ El fabricante es AL PHARMA S.A.S. Actualmente no hay registros vigentes en Colom
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto (99.81%), pero los dos ensayos son de Fase 2 con quimioterapia combinada, no aíslan el efecto de la daunorrubicina y uno de ellos es de linfoma no Hodgkin. La literatura es indirecta (revisiones y cohortes de formulación liposomal). Además, el único registro sanitario en Colombia está cancelado.
+El puntaje del modelo es alto (0.9981), pero los dos ensayos son de Fase 2 con quimioterapia combinada, no aíslan el efecto de la daunorrubicina y uno de ellos es de linfoma no Hodgkin. La literatura es indirecta (revisiones y cohortes de formulación liposomal). Además, el único registro sanitario en Colombia está cancelado.
 
 **Para avanzar se necesita:**
 - Evidencia específica de daunorrubicina (no de otras antraciclinas) en linfoma de Hodgkin, idealmente ensayos comparativos.

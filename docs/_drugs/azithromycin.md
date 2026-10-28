@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 85
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Azithromycin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Azitromicina"
 monitor_inn: "Azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
+last_modified_at: 2026-10-27
+description: "Azithromycin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: AZITROMICINA"
 ---
 
 # Azithromycin
@@ -33,96 +33,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Azitromicina: De Indicación Original (Azitromicina) a Síndrome de Hiperviscosidad Policlonal
+## Azitromicina: antibiótico macrólido → síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Azitromicina es un antibiótico macrólido, registrado en Colombia bajo la indicación genérica "azitromicina".
-El modelo TxGNN predice que podría ser efectivo para **síndrome de hiperviscosidad policlonal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción computacional.
-
----
+Azitromicina es un antibiótico macrólido de uso oral con registros sanitarios en Colombia.
+El modelo TxGNN predice que podría ser útil para el **síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Azitromicina (el registro sanitario no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Indicación Original | AZITROMICINA |
+| Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 7 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la azitromicina es un antibiótico macrólido con actividad antibacteriana y propiedades inmunomoduladoras y antiinflamatorias descritas en la literatura general.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción de azitromicina en los datos compilados para este informe. Por conocimiento general, es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, pero esto no se ha vinculado a la hiperviscosidad policlonal.
 
-Los datos compilados no respaldan un vínculo mecanístico entre la azitromicina y el síndrome de hiperviscosidad policlonal. El puntaje alto de TxGNN (0.998) proviene únicamente de las relaciones del grafo de conocimiento y no está acompañado de ensayos clínicos, literatura ni análisis de similitud con la indicación original.
+Los datos compilados no sustentan ningún vínculo mecanístico entre el fármaco y esta enfermedad. El puntaje alto (0.9981) proviene únicamente del modelo de predicción y no está respaldado por ensayos ni literatura. La similitud con la indicación original aún está pendiente de evaluación.
 
-Por tanto, esta predicción debe considerarse una hipótesis sin sustento y no una recomendación de uso.
-
----
+Por ello, la predicción debe considerarse una hipótesis exploratoria, sin sustento clínico ni mecanístico demostrado.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
-
-Como referencia, entre las demás predicciones del modelo, la única con ensayos registrados es "trastorno hematológico congénito" (enfermedad de células falciformes). Allí aparecen dos ensayos con azitromicina o macrólidos que fueron **retirados sin inscribir pacientes**, por lo que no generaron datos:
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT02960503](https://clinicaltrials.gov/study/NCT02960503) | Fase 1/2 | Retirado | 0 | Macrólidos para mejorar el VEF1 en adultos con enfermedad de células falciformes |
-| [NCT02630394](https://clinicaltrials.gov/study/NCT02630394) | Fase 1 | Retirado | 0 | Profilaxis con azitromicina del síndrome torácico agudo en enfermedad de células falciformes |
-| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Reclutando | 5000 | Estudio general de farmacocinética y seguridad de fármacos poco estudiados en niños; no específico de enfermedades hematológicas |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para el síndrome de hiperviscosidad policlonal.
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los 7 registros sanitarios están **cancelados**; no hay registros vigentes.
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19911014 | PENFLUZ 500 MG TABLETAS | Tableta | Azitromicina |
-| 20068317 | AKRIBACT® | Tableta | Azitromicina |
-| 19970784 | AZITROFAR® TABLETAS | Tableta | Azitromicina |
-| 20189232 | AZITROMICINA 500MG | Tableta recubierta | Azitromicina |
-| 20099969 | MILAGRAM® TABLETAS | Tableta | Azitromicina |
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
+|---------|------|------|
+| 19911014 | PENFLUZ 500 MG TABLETAS | Tableta |
+| 20068317 | AKRIBACT® | Tableta |
+| 19970784 | AZITROFAR® TABLETAS | Tableta |
+| 20189232 | AZITROMICINA 500MG | Tableta recubierta |
+| 20099969 | MILAGRAM® TABLETAS | Tableta |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: síndrome de QT largo (incluido el familiar), torsades de pointes, enfermedad hepática, enfermedad de la vesícula biliar, colitis por *Clostridium difficile*, enterocolitis necrosante perinatal, miastenia gravis, enfermedad de la unión neuromuscular, trastornos de la audición y enfermedades del sistema auditivo.
-- **Interacciones farmacológicas**: la consulta no identificó interacciones fármaco-fármaco clásicas. Solo se registraron dos interacciones farmacológicas con dianas humanas: el receptor de motilina (MLNR) y el receptor del gusto amargo TAS2R4.
+- **Contraindicaciones o condiciones de precaución registradas en los datos compilados (no provienen del texto del prospecto):** síndrome de QT largo (incluida la forma familiar), torsades de pointes, enfermedad hepática, enfermedad de la vesícula biliar, colitis por *Clostridium difficile*, enterocolitis necrotizante perinatal, miastenia gravis (incluida la de inicio en adulto), enfermedad de la unión neuromuscular y trastornos de la audición o del sistema auditivo.
+- **Interacciones farmacológicas:** los datos compilados solo muestran interacciones farmacológicas con el receptor de motilina (MLNR) y el receptor del gusto TAS2R4, sin nivel de gravedad clínica asignado.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para síndrome de hiperviscosidad policlonal es de nivel L5: solo puntaje del modelo, sin ensayos, sin literatura y sin mecanismo plausible. Además, no hay registros sanitarios vigentes en Colombia y faltan los datos de seguridad del prospecto.
+No existe ningún estudio que evalúe azitromicina en el síndrome de hiperviscosidad policlonal, y no hay un vínculo mecanístico respaldado; solo existe una predicción del modelo (nivel L5).
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
-- Obtener el mecanismo de acción desde DrugBank para evaluar un posible vínculo mecanístico.
-- Buscar evidencia preclínica o clínica específica en síndrome de hiperviscosidad policlonal.
-- Considerar priorizar otras predicciones con señales más concretas, como la enfermedad de células falciformes (síndrome torácico agudo; actualmente solo con ensayos retirados) o la gammapatía monoclonal (evidencia preclínica in vitro en mieloma sobre bloqueo de autofagia), aunque ambas siguen siendo de evidencia indirecta.
-- Aclarar la situación regulatoria (registros cancelados) antes de cualquier plan de desarrollo local.
+- Datos del mecanismo de acción de azitromicina para analizar un posible vínculo con la enfermedad
+- Revisión de literatura biomédica y registros de ensayos específicos para esta enfermedad
+- Evidencia preclínica que respalde una hipótesis mecanística
+- Información de seguridad del prospecto, incluida la evaluación de las contraindicaciones señaladas (especialmente riesgo de prolongación del QT)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

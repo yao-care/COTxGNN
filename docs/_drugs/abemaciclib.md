@@ -8,6 +8,7 @@ nav_order: 13
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abemaciclib
@@ -51,8 +52,8 @@ y el paquete de evidencia presenta **múltiples brechas de datos críticas** que
 | Nueva Indicación Predicha | — Sin predicciones generadas — |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 (sin datos de respaldo) |
-| Estado de Mercado en Taiwán | ✗ No comercializado (Not marketed) |
-| Número de Registros Sanitarios (TFDA) | 0 |
+| Estado de Mercado en Taiwán | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios (TFDA) | 3 (vigentes: 3) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -50,9 +50,9 @@ La predicción es mecanísticamente poco plausible, porque el fármaco promueve 
 |------|------|
 | Indicación Original | No especificada en el registro (el texto de indicación solo dice "MODAFINIL") |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.85% |
+| Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -98,8 +98,8 @@ Ninguna de estas publicaciones evalúa directamente el modafinilo como tratamien
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19968570 | VIGIA® 100 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: cancelado) |
-| 19968571 | VIGIA® 200 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: cancelado) |
+| 19968570 | VIGIA® 100 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: vigente) |
+| 19968571 | VIGIA® 200 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: vigente) |
 
 ---
 
@@ -124,7 +124,7 @@ La evidencia es de nivel L4: no hay ensayos de Fase 3, los dos ensayos de Fase 4
 - Confirmar el mecanismo de acción con DrugBank y evaluar si existe algún vínculo mecanístico real con el insomnio.
 - Reconsiderar si la indicación relevante es, en realidad, somnolencia diurna o un trastorno del sueño-vigilia (por ejemplo, narcolepsia o trabajo por turnos) y no insomnio.
 - Aclarar la indicación original del registro y el motivo de la cancelación de los registros.
-- Revisar con prioridad el riesgo cardiovascular y psiquiátrico señalado en el grafo de conocimiento.
+- Revisar con prioridad el riesgo cardiovascular y psiquiátrico del paciente antes de considerar este uso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

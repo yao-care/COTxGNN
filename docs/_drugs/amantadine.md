@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **encefalitis subaguda de 
 |------|------|
 | Indicación Original | AMANTADINA (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
-| Puntaje de Predicción TxGNN | 99.48% |
+| Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La encefalitis de Rasmussen es un síndrome epiléptico neuroinflamatorio. Una hipótesis plausible es que la modulación glutamatérgica podría ser relevante, pero es **especulativa** y no está confirmada por los datos disponibles. Tampoco se ha establecido la similitud con la indicación original.
 
-Conviene interpretar con cautela el puntaje alto (99.48%): refleja una predicción del modelo, no evidencia clínica.
+Conviene interpretar con cautela el puntaje alto (0.9948): refleja una predicción del modelo, no evidencia clínica.
 
 ---
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible para la encefalitis subagud
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19931778 | ZINTERGIA® 100 MG CAPSULAS (NOVAMED S.A.S.) | Cápsula dura | AMANTADINA | Cancelado |
+| 19931778 | ZINTERGIA® 100 MG CAPSULAS (NOVAMED S.A.S.) | Cápsula dura | AMANTADINA | Vigente |
 
 ---
 
@@ -120,9 +120,9 @@ Las demás predicciones del modelo tienen también puntajes altos pero evidencia
 
 | Enfermedad predicha | Puntaje TxGNN | Nivel | Recomendación | Observación |
 |------|------|------|------|------|
-| Deficiencia de transaldolasa | 99.27% | L5 | Hold | Sin evidencia ni vínculo mecanístico identificable |
-| Mielitis | 99.24% | L4 | Pregunta de investigación | 8 publicaciones, todas sobre síndrome post-polio y fatiga (evidencia indirecta). Incluye un ECA doble ciego de 1995 sobre fatiga (PMID 7611638); las revisiones y guías no respaldan un beneficio claro |
-| Neurodegeneración asociada a PLA2G6 | 99.23% | L4 | Pregunta de investigación | Una sola publicación (PMID 31366412), sobre otra enfermedad (PKAN); evidencia indirecta y solo sintomática |
+| Deficiencia de transaldolasa | 0.9927 | L5 | Hold | Sin evidencia ni vínculo mecanístico identificable |
+| Mielitis | 0.9924 | L4 | Pregunta de investigación | 8 publicaciones, todas sobre síndrome post-polio y fatiga (evidencia indirecta). Incluye un ECA doble ciego de 1995 sobre fatiga (PMID 7611638); las revisiones y guías no respaldan un beneficio claro |
+| Neurodegeneración asociada a PLA2G6 | 0.9923 | L4 | Pregunta de investigación | Una sola publicación (PMID 31366412), sobre otra enfermedad (PKAN); evidencia indirecta y solo sintomática |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

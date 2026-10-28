@@ -4,17 +4,17 @@ title: Celecoxib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 146
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Celecoxib\")"
 monitor_inn: "CELECOXIB"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "inflammatory spondylopathy", "WHIM syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
 ---
 
 # Celecoxib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Celecoxib: De Antiinflamatorio AINE (Inhibidor de COX-2) a Displasia Acromesomélica tipo Hunter-Thompson
+## Celecoxib: De Antiinflamatorio AINE (Inhibidor de COX-2) a Displasia acromesomélica, tipo Hunter-Thompson
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 |------|------|
 | Indicación Original | No especificada en los registros (solo figura "Celecoxib"); uso conocido como antiinflamatorio/analgésico |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.88% |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | 7 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -109,7 +109,7 @@ No se dispone de las advertencias del prospecto. Consultar el prospecto para la 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo computacional (L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 7 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Un fundamento biológico que conecte la inhibición de COX-2 con la vía GDF5/BMP, mediante estudios preclínicos.

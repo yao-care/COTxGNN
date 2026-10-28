@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **queratitis por exposici�
 |------|------|
 | Indicación Original | Dexametasona y antiinfecciosos (combinación oftálmica) |
 | Nueva Indicación Predicha | Queratitis por exposición |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -92,9 +92,9 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratitis po
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20148323 | OPHTHABRACIN-D UNGUENTO (cancelado) | Ungüento oftálmico | Dexametasona y antiinfecciosos |
-| 19983161 | TQ TOBRAOFTAL D® Suspensión oftálmica estéril (cancelado) | Suspensión oftálmica | Antibióticos en combinación con otros fármacos |
-| 19929503 | TOBRACORT 0.3% (cancelado) | Suspensión oftálmica | Dexametasona y antiinfecciosos |
+| 20148323 | OPHTHABRACIN-D UNGUENTO (vigente) | Ungüento oftálmico | Dexametasona y antiinfecciosos |
+| 19983161 | TQ TOBRAOFTAL D® Suspensión oftálmica estéril (vigente) | Suspensión oftálmica | Antibióticos en combinación con otros fármacos |
+| 19929503 | TOBRACORT 0.3% (vigente) | Suspensión oftálmica | Dexametasona y antiinfecciosos |
 
 ---
 

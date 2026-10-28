@@ -50,10 +50,10 @@ Se trata de una predicción sin respaldo clínico directo.
 |------|------|
 | Indicación Original | No especificada en los registros (el texto aprobado solo indica "Bleomicina") |
 | Nueva Indicación Predicha | Neoplasia de la cola de caballo (cauda equina) |
-| Puntaje de Predicción TxGNN | 99.30% |
+| Puntaje de Predicción TxGNN | 0.9930 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

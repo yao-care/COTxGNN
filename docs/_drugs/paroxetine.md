@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y v
 |------|------|
 | Indicación Original | PAROXETINA (el registro no especifica una indicación clínica) |
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
-| Puntaje de Predicción TxGNN | 99.11% |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -59,14 +59,14 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El síndrome de Ohdo y sus variantes (por ejemplo, el síndrome de Say-Barber-Biesecker-Young-Simpson, asociado a variantes del gen KAT6B) son trastornos congénitos raros que cursan con discapacidad intelectual, blefarofimosis y anomalías del desarrollo. Su base es epigenética y del desarrollo, y no se identifica una vía plausible que conecte la actividad serotoninérgica de un ISRS con esa causa.
 
-El puntaje alto (0.991) probablemente refleja vecinos compartidos en el grafo de conocimiento (por ejemplo, asociaciones con fenotipos neuroconductuales o del neurodesarrollo) y no un vínculo causal o terapéutico. Además, la paroxetina tiene señales de preocupación en el embarazo y el desarrollo temprano (como malformaciones cardíacas congénitas), lo que exige cautela en cualquier contexto de trastornos del desarrollo.
+El puntaje alto (0.9911) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (por ejemplo, asociaciones con fenotipos neuroconductuales o del neurodesarrollo), no evidencia biológica ni un vínculo causal o terapéutico. Además, la paroxetina tiene señales de preocupación en el embarazo y el desarrollo temprano (como malformaciones cardíacas congénitas), lo que exige cautela en cualquier contexto de trastornos del desarrollo.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20065995 | NATH 7.5 MG CAPSULAS (cancelado) | Cápsula dura | PAROXETINA |
-| 19952343 | PAROXETINA 20 MG (cancelado) | Tableta cubierta con película | PAROXETINA |
+| 20065995 | NATH 7.5 MG CAPSULAS (vigente) | Cápsula dura | PAROXETINA |
+| 19952343 | PAROXETINA 20 MG (vigente) | Tableta cubierta con película | PAROXETINA |
 
 ## Consideraciones de Seguridad
 

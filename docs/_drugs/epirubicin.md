@@ -50,10 +50,10 @@ Entre las otras indicaciones predichas, el **carcinoma pulmonar de células pequ
 |------|------|
 | Indicación Original | Epirrubicina (el registro no detalla la enfermedad; se trata de un antineoplásico) |
 | Nueva Indicación Predicha | Linfoma pulmonar primario |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Entre las otras indicaciones predichas, el **carcinoma pulmonar de células pequ
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general de la clase, epirubicina es una antraciclina, epímero de la doxorubicina, que actúa como intercalante del ADN e inhibidor de la topoisomerasa II. Su eficacia en tumores sólidos como el cáncer de mama y el gástrico está bien documentada.
 
-La relación con el linfoma pulmonar primario es de clase: las antraciclinas forman parte de esquemas de linfoma como CHOP y, en la literatura recuperada, un esquema con epirubicina (VEBEP) se estudió en enfermedad de Hodgkin avanzada. Sin embargo, el tratamiento estándar actual en linfomas B (R-CHOP, Pola-R-CHP) utiliza doxorubicina, no epirubicina. La literatura sobre linfoma pulmonar primario consiste sobre todo en reportes de caso, series retrospectivas pequeñas y revisiones. El puntaje alto del modelo (99.71%) es solo una predicción y no sustituye evidencia clínica.
+La relación con el linfoma pulmonar primario es de clase: las antraciclinas forman parte de esquemas de linfoma como CHOP y, en la literatura recuperada, un esquema con epirubicina (VEBEP) se estudió en enfermedad de Hodgkin avanzada. Sin embargo, el tratamiento estándar actual en linfomas B (R-CHOP, Pola-R-CHP) utiliza doxorubicina, no epirubicina. La literatura sobre linfoma pulmonar primario consiste sobre todo en reportes de caso, series retrospectivas pequeñas y revisiones. El puntaje alto del modelo (0.9971) es solo una predicción y no sustituye evidencia clínica.
 
 ---
 

@@ -50,9 +50,9 @@ pero **no hay ensayos clínicos** y solo **1 publicación** (un estudio computac
 |------|------|
 | Indicación Original | Combinaciones de diosmina |
 | Nueva Indicación Predicha | Neoplasia mieloproliferativa |
-| Puntaje de Predicción TxGNN | 99.47% |
+| Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -64,16 +64,16 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 El único respaldo es un estudio computacional de 2019 que buscó fármacos reposicionables contra el dominio quinasa de BCR-ABL en la leucemia mieloide crónica (una neoplasia mieloproliferativa). En ese estudio la hesperidina apareció como un resultado de acoplamiento molecular (docking), no como un inhibidor validado. No hay datos experimentales, preclínicos ni clínicos.
 
-El puntaje de 0.995 del modelo TxGNN es solo una predicción computacional. Sin conocer el mecanismo original, no es posible contrastar su plausibilidad biológica.
+El puntaje de 0.9947 del modelo TxGNN es solo una predicción computacional. Sin conocer el mecanismo original, no es posible contrastar su plausibilidad biológica.
 
 ### Otras indicaciones predichas (para referencia)
 
 | Posición | Enfermedad | Puntaje TxGNN | Evidencia disponible |
 |------|------|------|------|
-| 2 | Leucemia monocítica | 99.40% | Un estudio in vitro de 2003 (PMID 14505793) sobre flavonoides y apoptosis en células HL-60; sugiere que el grupo rutinósido, presente en la hesperidina, atenúa la actividad proapoptótica, lo que más bien va en contra de la eficacia |
-| 3 | Seminoma espermatocítico | 99.34% | Ninguna |
-| 4 | Seminoma testicular variante tubular | 99.31% | Ninguna |
-| 5 | Neoplasia trofoblástica gestacional | 99.03% | Ninguna |
+| 2 | Leucemia monocítica | 0.9940 | Un estudio in vitro de 2003 (PMID 14505793) sobre flavonoides y apoptosis en células HL-60; sugiere que el grupo rutinósido, presente en la hesperidina, atenúa la actividad proapoptótica, lo que más bien va en contra de la eficacia |
+| 3 | Seminoma espermatocítico | 0.9934 | Ninguna |
+| 4 | Seminoma testicular variante tubular | 0.9931 | Ninguna |
+| 5 | Neoplasia trofoblástica gestacional | 0.9903 | Ninguna |
 
 ---
 

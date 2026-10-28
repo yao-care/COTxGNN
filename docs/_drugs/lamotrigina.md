@@ -8,6 +8,7 @@ nav_order: 375
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Lamotrigina
@@ -52,7 +53,7 @@ Aunque el query log confirma que se identificaron resultados en DrugBank y en el
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin predicción generada |
-| Estado de Mercado en Colombia | ✗ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

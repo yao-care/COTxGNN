@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Irinotecan
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 356
-evidence_level: L3
+evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: IRINOTECAN"
@@ -14,7 +14,7 @@ predicted_indications: ["female breast carcinoma"]
 # Irinotecan
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,17 +49,17 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 |------|------|
 | Indicación Original | IRINOTECAN (el registro no especifica la indicación) |
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
-| Puntaje de Predicción TxGNN | 99.08% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Puntaje de Predicción TxGNN | 0.9908 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, irinotecan es un profármaco de SN-38, un inhibidor de la topoisomerasa I que causa daño al ADN en células que se dividen rápidamente. Este mecanismo citotóxico es coherente con un puntaje alto del modelo (0.99).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, irinotecan es un profármaco de SN-38, un inhibidor de la topoisomerasa I que causa daño al ADN en células que se dividen rápidamente. Este mecanismo citotóxico es coherente con un puntaje alto del modelo (0.9908).
 
 La relación con la nueva indicación se apoya sobre todo en un fármaco derivado: sacituzumab govitecan, un conjugado anticuerpo-fármaco dirigido a Trop-2 cuya carga útil es SN-38. Ha mostrado eficacia en cáncer de mama metastásico HR+/HER2- y triple negativo (diseño del estudio de fase III TROPiCS-02, PMID 32223649). Esto respalda la inhibición de la topoisomerasa I como mecanismo válido en cáncer de mama.
 
@@ -104,8 +104,8 @@ Sin embargo, esa evidencia proviene del conjugado y no del irinotecan libre. Los
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20012770 | Irinotecan solución inyectable 100 mg/5 mL (Grupo Unipharm S.A. / Laboratorios Uni S.A.) | Solución inyectable | Irinotecan (sin detalle) — cancelado |
-| 20141121 | Rotecan 100 mg/5 mL solución inyectable (Hetero Labs Limited) | Solución inyectable | Irinotecan (sin detalle) — cancelado |
+| 20012770 | Irinotecan solución inyectable 100 mg/5 mL (Grupo Unipharm S.A. / Laboratorios Uni S.A.) | Solución inyectable | Irinotecan (sin detalle) — vigente |
+| 20141121 | Rotecan 100 mg/5 mL solución inyectable (Hetero Labs Limited) | Solución inyectable | Irinotecan (sin detalle) — vigente |
 
 ---
 
@@ -138,7 +138,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fase 1 con 12 pacientes y revisiones antiguas que describen actividad marginal). El respaldo más sólido proviene de sacituzumab govitecan, un conjugado distinto. Además, todos los registros sanitarios colombianos están cancelados y falta la información del prospecto, lo que impide completar el tamizaje de seguridad.
+La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fase 1 con 12 pacientes y revisiones antiguas que describen actividad marginal). El respaldo más sólido proviene de sacituzumab govitecan, un conjugado distinto. Además, los 2 registros sanitarios colombianos están vigentes y el fármaco se comercializa, pero falta la información del prospecto, lo que impide completar el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.

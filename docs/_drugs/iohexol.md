@@ -50,10 +50,10 @@ La predicción se considera un artefacto del modelo, sin evidencia real que la s
 |------|------|
 | Indicación Original | IOHEXOL (el registro no detalla una indicación clínica; corresponde a un medio de contraste radiológico) |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,9 +64,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 No se identifica una relación plausible entre su uso original (imagenología diagnóstica) y el tratamiento del insomnio. No existe un mecanismo conocido por el cual un agente de contraste pueda intervenir en la regulación del sueño.
 
-El puntaje muy alto del modelo (99.87%) parece ser un artefacto del grafo de conocimiento: no hay mecanismo plausible, ensayos clínicos ni literatura de apoyo. Por ello, la predicción debe tomarse con mucha cautela.
+El puntaje muy alto del modelo (0.9987) parece ser un artefacto del modelo TxGNN (aprendizaje profundo): no hay mecanismo plausible, ensayos clínicos ni literatura de apoyo. Por ello, la predicción debe tomarse con mucha cautela.
 
-**Otra predicción del modelo: ansiedad (puntaje 99.25%).** Tampoco existe un vínculo farmacológico creíble. La literatura recuperada menciona la ansiedad solo como contexto del procedimiento o como efecto adverso (por ejemplo, tras mielografía), no como un resultado terapéutico. Su nivel de evidencia también es L5 y la recomendación es Hold.
+**Otra predicción del modelo: ansiedad (puntaje 0.9925).** Tampoco existe un vínculo farmacológico creíble. La literatura recuperada menciona la ansiedad solo como contexto del procedimiento o como efecto adverso (por ejemplo, tras mielografía), no como un resultado terapéutico. Su nivel de evidencia también es L5 y la recomendación es Hold.
 
 ---
 
@@ -111,7 +111,7 @@ El fabricante del único registro es Unique Pharmaceutical Laboratories. No hay 
 **Decisión: Hold**
 
 **Justificación:**
-No existe evidencia clínica ni literatura que respalde el uso de iohexol en insomnio, y no hay un mecanismo farmacológico plausible. El puntaje alto de TxGNN se interpreta como un artefacto del grafo, y el único registro sanitario en Colombia está cancelado.
+No existe evidencia clínica ni literatura que respalde el uso de iohexol en insomnio, y no hay un mecanismo farmacológico plausible. El puntaje alto del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y el único registro sanitario en Colombia está vigente (1 licencia válida de 1).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y una hipótesis biológica creíble que vincule el fármaco con el sueño

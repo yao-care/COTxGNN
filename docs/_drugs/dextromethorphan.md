@@ -4,17 +4,17 @@ title: Dextromethorphan
 parent: Solo Predicción del Modelo (L5)
 nav_order: 215
 evidence_level: L5
-indication_count: 6
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Dextromethorphan: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Tos (supresores y expectorantes)"
 monitor_inn: "Dextromethorphan"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 ---
 
 # Dextromethorphan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Tos (supresores y expectorantes) |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registro vigente) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -60,17 +60,17 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La relación entre la indicación original (tos) y la nueva (enfermedad de la cavidad nasal) es de cercanía anatómica y sintomática dentro de las vías respiratorias superiores. Sin embargo, el mecanismo del fármaco no tiene un vínculo establecido con la patología nasal.
 
-El puntaje alto probablemente refleja proximidad en el grafo de conocimiento con indicaciones de síntomas respiratorios, más que una relación biológica real. Por ello, el mecanismo no puede considerarse verificado para esta indicación.
+La puntuación alta proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Por ello, el mecanismo no puede considerarse verificado para esta indicación.
 
 Otras predicciones del modelo, todas de nivel L5 y sin ensayos ni literatura, son:
 
 | Indicación Predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Laringofaringitis aguda | 99.98% | Solapamiento sintomático plausible (alivio de la tos), pero es manejo sintomático de la indicación original, no un reposicionamiento real |
-| Difteria faucial | 99.36% | Infección mediada por toxina; el fármaco no tiene mecanismo antibacteriano ni antitoxina |
-| Cefalea autonómica trigeminal | 99.32% | Racional especulativo basado en antagonismo NMDA y sensibilización central |
-| Trastorno degenerativo del disco cervical | 99.30% | Vínculo débil e indirecto; podría influir en el dolor, no en la degeneración |
-| Urticaria alérgica | 99.25% | Mediada por histamina y mastocitos; el fármaco puede liberar histamina, lo que sugiere que no habría beneficio |
+| Laringofaringitis aguda | 0.9998 | Solapamiento sintomático plausible (alivio de la tos), pero es manejo sintomático de la indicación original, no un reposicionamiento real |
+| Difteria faucial | 0.9936 | Infección mediada por toxina; el fármaco no tiene mecanismo antibacteriano ni antitoxina |
+| Cefalea autonómica trigeminal | 0.9932 | Racional especulativo basado en antagonismo NMDA y sensibilización central |
+| Trastorno degenerativo del disco cervical | 0.9930 | Vínculo débil e indirecto; podría influir en el dolor, no en la degeneración |
+| Urticaria alérgica | 0.9925 | Mediada por histamina y mastocitos; el fármaco puede liberar histamina, lo que sugiere que no habría beneficio |
 
 ## Informacion de Mercado en Colombia
 

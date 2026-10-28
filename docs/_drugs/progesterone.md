@@ -4,17 +4,17 @@ title: Progesterone
 parent: Evidencia Alta (L1-L2)
 nav_order: 537
 evidence_level: L2
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
 description: "Progesterone: nueva indicación predicha, Amenorrea (nivel de evidencia L2). Indicación original: PROGESTERONA"
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "cervix endometriosis", "renal hypoplasia (disease)", "endometriosis of rectovaginal septum and vagina", "endometriosis in cutaneous scar", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, con **4 ens
 |------|------|
 | Indicación Original | PROGESTERONA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
 

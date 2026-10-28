@@ -4,7 +4,7 @@ title: Propranolol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 540
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Propranolol: nueva indicación predicha, Miopatía distal, tipo Tateyama (nivel de evidencia L5). Indicación original: Propranolol"
 monitor_inn: "propranolol"
@@ -14,7 +14,7 @@ predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy w
 # Propranolol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Propranolol: De Propranolol (indicación no detallada en el registro) a Distrofia Miopática Distal tipo Tateyama
+## Propranolol: De Propranolol (indicación no detallada en el registro) a Miopatía distal, tipo Tateyama
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Propranolol es un betabloqueante no selectivo cuyos registros sanitarios en Colombia (tabletas orales) no detallan la indicación aprobada; en ellos solo figura el nombre del principio activo.
-El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Tateyama**, con un puntaje alto (99.40%), pero **sin ensayos clínicos ni publicaciones** que respalden esta predicción específica.
+El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Tateyama**, con un puntaje alto (0.9940), pero **sin ensayos clínicos ni publicaciones** que respalden esta predicción específica.
 
 ---
 
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Ta
 |------|------|
 | Indicación Original | Propranolol (el registro no especifica la indicación; el texto aprobado solo repite el nombre del fármaco) |
 | Nueva Indicación Predicha | Miopatía distal, tipo Tateyama |
-| Puntaje de Predicción TxGNN | 99.40% |
+| Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -69,11 +69,10 @@ Por ello, esta predicción debe leerse como una señal computacional que requier
 
 | Posición | Enfermedad predicha | Puntaje TxGNN | Nivel de evidencia | Recomendación |
 |---|---|---|---|---|
-| 2 | Miopatía congénita con exceso de filamentos delgados | 99.30% | L5 | Hold |
-| 3 | Miocardiopatía hipertrófica por entrenamiento atlético intenso | 99.17% | L5 | Hold |
-| 4 | Condroma | 99.14% | L5 | Hold |
-| 5 | Miocardiopatía cirrótica | 99.12% | L4 | Pregunta de investigación |
-| 6 | Miocardiopatía | 99.12% | L4 | Pregunta de investigación |
+| 2 | Miopatía congénita con exceso de filamentos delgados | 0.9930 | L5 | Hold |
+| 4 | Condroma | 0.9914 | L5 | Hold |
+| 5 | Miocardiopatía cirrótica | 0.9912 | L5 | Pregunta de investigación |
+| 6 | Miocardiopatía | 0.9912 | L5 | Pregunta de investigación |
 
 Las predicciones 5 y 6 son las únicas con literatura asociada. La miocardiopatía (en particular la hipertrófica) es un uso ya establecido de los betabloqueantes, por lo que confirma un uso existente más que un reposicionamiento nuevo. En la miocardiopatía cirrótica la señal es mixta: un reporte de 2024 sugiere que propranolol corrige el intervalo QT prolongado, mientras que otros estudios indican efectos cardiovasculares atenuados y posible daño circulatorio y renal en enfermedad avanzada.
 
@@ -95,10 +94,10 @@ Actualmente no hay literatura relacionada disponible para miopatía distal tipo 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 57771 | Propranolol clorhidrato 40 mg tabletas (Pentacoop S.A.) | Tableta | Propranolol | Cancelado |
-| 35618 | Propranolol clorhidrato 40 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Cancelado |
-| 35619 | Propranolol 80 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Cancelado |
-| 19978181 | Propranolol 40 mg tabletas (Novamed S.A.S.) | Tableta | Propranolol | Cancelado |
+| 57771 | Propranolol clorhidrato 40 mg tabletas (Pentacoop S.A.) | Tableta | Propranolol | Vigente |
+| 35618 | Propranolol clorhidrato 40 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Vigente |
+| 35619 | Propranolol 80 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Vigente |
+| 19978181 | Propranolol 40 mg tabletas (Novamed S.A.S.) | Tableta | Propranolol | Vigente |
 
 ---
 

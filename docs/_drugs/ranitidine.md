@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ranitidine
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 549
-evidence_level: L5
-indication_count: 10
+evidence_level: L4
+indication_count: 6
 last_modified_at: 2026-10-14
-description: "Ranitidine: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L5). Indicación original: RANITIDINA"
 monitor_inn: "ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
+description: "Ranitidine: nueva indicación predicha, Peptic ulcer perforation (nivel de evidencia L4). Indicación original: RANITIDINA"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ranitidina: De Indicación Registrada (Ranitidina) a Enfermedad Ulcerosa Péptica Activa
+## Ranitidine: Peptic ulcer perforation
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,11 +48,11 @@ Se trata de un uso de clase ya establecido más que de un reposicionamiento genu
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | RANITIDINA (el registro no detalla indicaciones; solo repite el nombre del producto) |
-| Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Indicación Original | RANITIDINA |
+| Nueva Indicación Predicha | Peptic ulcer perforation |
+| Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 (sin ensayos clínicos vinculados; literatura compuesta sobre todo por revisiones) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -105,8 +105,8 @@ Para la entidad cercana "enfermedad ulcerosa péptica" (rango 7) sí hay ensayos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | Tableta recubierta | RANITIDINA | Cancelado |
-| 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Cancelado |
+| 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | Tableta recubierta | RANITIDINA | Vigente |
+| 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Vigente |
 
 ---
 

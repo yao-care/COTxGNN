@@ -4,17 +4,17 @@ title: Oxaprozin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 488
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Oxaprozin: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: OXAPROZIN"
 monitor_inn: "oxaprozin"
-predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "spondyloarthropathy, susceptibility to", "pseudoachondroplasia", "rheumatoid nodulosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
+predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 ---
 
 # Oxaprozin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Oxaprozina: De Oxaprozina (AINE) a Displasia Acromesomélica tipo Hunter-Thompson
+## Oxaprozina: De Oxaprozina (AINE) a Displasia acromesomélica, tipo Hunter-Thompson
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 |------|------|
 | Indicación Original | OXAPROZIN (el registro no detalla la indicación; se trata de un AINE) |
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -66,7 +66,7 @@ Entre las diez primeras predicciones, las más coherentes clínicamente son:
 - **Espondiloartropatía (susceptibilidad)** (99.93%, nivel L4): plausible por efecto de clase, pero se trata de un fenotipo de susceptibilidad y no de una enfermedad establecida.
 - **Nodulosis reumatoide** (99.73%, nivel L4): relación indirecta con la artritis reumatoide; solo cabría un beneficio sintomático.
 
-El resto (braquiolmia, síndrome braquiolmia-amelogénesis imperfecta, pseudoacondroplasia, miosclerosis, entre otras) no muestra vínculo creíble y parece un artefacto del grafo de conocimiento.
+El resto (braquiolmia, síndrome braquiolmia-amelogénesis imperfecta, pseudoacondroplasia, miosclerosis, entre otras) no muestra vínculo creíble y parece un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ## Evidencia de Ensayos Clínicos
 

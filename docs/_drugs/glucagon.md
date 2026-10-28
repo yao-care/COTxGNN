@@ -50,10 +50,10 @@ con **2 ensayos clínicos** y **20 publicaciones** relacionados, aunque la evide
 |------|------|
 | Indicación Original | Glucagón (texto del registro INVIMA, sin detalle adicional) |
 | Nueva Indicación Predicha | Síndrome del intestino irritable |
-| Puntaje de Predicción TxGNN | 99.24% |
+| Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción del 
 
 La relación con el síndrome del intestino irritable es plausible pero indirecta. Los datos disponibles provienen de agonistas del receptor de GLP-1, como ROSE-010, que inhiben el vaciamiento gástrico y la motilidad antro-duodeno-yeyunal, y que han mostrado reducir el dolor abdominal en pacientes con SII. El efecto relajante del glucagón sobre el músculo liso podría aliviar síntomas, pero su eficacia directa en SII no está establecida.
 
-Conviene subrayar que el puntaje de 99.24% es una predicción computacional y no constituye evidencia clínica.
+Conviene subrayar que el puntaje de 0.9924 es una predicción computacional y no constituye evidencia clínica.
 
 ---
 

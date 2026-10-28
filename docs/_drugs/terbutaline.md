@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 |------|------|
 | Indicación Original | Terbutalina |
 | Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -130,13 +130,13 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados y de gran tamaño en asma y EPOC, lo que corresponde a un nivel de evidencia L1. Sin embargo, la terbutalina es en la mayoría un comparador o medicación de rescate, la predicción reproduce un uso ya establecido y, en Colombia, todos los registros están cancelados. Por ello se recomienda avanzar con salvaguardas.
+Existen múltiples ensayos de fase 3 completados y de gran tamaño en asma y EPOC, lo que corresponde a un nivel de evidencia L1. Sin embargo, la terbutalina es en la mayoría un comparador o medicación de rescate, la predicción reproduce un uso ya establecido y, en Colombia, el medicamento está comercializado con 4 registros vigentes. Por ello se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y de carácter bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: ningún registro vigente en Colombia; evaluar si se requeriría un nuevo registro o una reactivación.
-- Revisar con atención los riesgos cardiovasculares, metabólicos (glucosa, potasio) y de hipertiroidismo señalados en el grafo de conocimiento.
+- Aclarar la situación regulatoria: en Colombia el medicamento está comercializado y cuenta con 4 registros vigentes; verificar si la indicación propuesta está cubierta por ellos.
+- Revisar con atención los riesgos cardiovasculares, metabólicos (glucosa, potasio) y de hipertiroidismo propios de este tipo de medicamento.
 - Verificar, en los ensayos donde la terbutalina es comparador, su papel específico y los resultados frente al desenlace principal.
 - Las predicciones de *malformación respiratoria* y *síndrome de Rienhoff* deben mantenerse en **Hold**, a la espera de evidencia específica.
 ## Descargo de responsabilidad

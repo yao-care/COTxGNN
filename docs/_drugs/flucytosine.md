@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad ósea de P
 |------|------|
 | Indicación Original | FLUCITOSINA (el texto del registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Enfermedad ósea de Paget |
-| Puntaje de Predicción TxGNN | 99.04% |
+| Puntaje de Predicción TxGNN | 0.9904 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La enfermedad ósea de Paget se caracteriza por una actividad osteoclástica desregulada y un recambio óseo aumentado, con factores genéticos como variantes de SQSTM1. Nada en los datos disponibles conecta la flucitosina con estas vías. No se identificó un vínculo mecanístico establecido entre la indicación original y la nueva.
 
-Cualquier justificación posible (por ejemplo, efectos de metabolitos tipo 5-FU sobre células en proliferación) sería especulativa. El puntaje alto de TxGNN (0.990) es una predicción derivada del modelo y no está respaldado por evidencia clínica ni bibliográfica.
+Cualquier justificación posible (por ejemplo, efectos de metabolitos tipo 5-FU sobre células en proliferación) sería especulativa. El puntaje alto de TxGNN (0.9904) es una predicción derivada del modelo y no está respaldado por evidencia clínica ni bibliográfica.
 
 ---
 

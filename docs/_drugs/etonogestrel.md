@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 |------|------|
 | Indicación Original | Progestágeno + estrógeno |
 | Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 99.84% |
+| Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

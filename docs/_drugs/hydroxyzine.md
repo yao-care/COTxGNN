@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Hydroxyzine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 332
-evidence_level: L3
-indication_count: 5
-last_modified_at: 2026-10-14
-description: "Hydroxyzine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L3). Indicación original: Hidroxizina"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
+last_modified_at: 2026-10-27
+description: "Hydroxyzine: nueva indicación predicha, conjuntivitis por rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: HIDROXIZINA"
 ---
 
 # Hydroxyzine
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,105 +33,73 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **5**
 
 </div>
 
-## Hidroxizina: De Indicación Registrada (Hidroxizina) a Urticaria Alérgica
+## Hidroxizina: antihistamínico H1 → conjuntivitis por rosácea (rosacea conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-La hidroxizina es un antihistamínico de primera generación, registrado en Colombia como solución inyectable de 100 mg/2 ml (el registro sanitario consta como cancelado).
-El modelo TxGNN predice que podría ser efectiva para **urticaria alérgica**,
-con **0 ensayos clínicos** registrados y **20 publicaciones** (en su mayoría revisiones) que respaldan esta dirección de manera indirecta.
-
----
+Hidroxizina es un antihistamínico que bloquea el receptor H1 de la histamina.
+El modelo TxGNN predice que podría ser efectivo para **conjuntivitis por rosácea (rosacea conjunctivitis)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hidroxizina (el registro no detalla una indicación específica) |
-| Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.77% |
-| Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Indicación Original | HIDROXIZINA |
+| Nueva Indicación Predicha | conjuntivitis por rosácea (rosacea conjunctivitis) |
+| Puntaje de Predicción TxGNN | 0,9970 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la hidroxizina es un antagonista del receptor H1 de histamina de primera generación y el compuesto original de la cetirizina. Su eficacia como antihistamínico está bien establecida.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, la hidroxizina es un antihistamínico H1, con efectos antipruriginosos y sedantes conocidos.
 
-En la urticaria, la liberación de histamina por los mastocitos produce ronchas y prurito, por lo que el bloqueo H1 es mecanísticamente directo. La literatura indica que los antihistamínicos son el tratamiento de base de la urticaria crónica espontánea.
+La posible relación con la conjuntivitis por rosácea sería a través de un efecto antiinflamatorio o antipruriginoso general del bloqueo H1. Sin embargo, la rosácea ocular depende sobre todo de la disfunción de las glándulas de Meibomio y de factores microbianos e inflamatorios, por lo que el fundamento basado en la vía de la histamina es débil y no está verificado.
 
-Conviene aclarar que esta indicación ya forma parte de la práctica clínica: la predicción es más una validación del modelo que un reposicionamiento genuino. La literatura aportada trata sobre todo de antihistamínicos en general (cetirizina, loratadina, desloratadina, acrivastina), sin un ensayo aleatorizado específico de hidroxizina en urticaria alérgica. Las guías actuales favorecen los antihistamínicos de segunda generación por su mejor perfil de seguridad.
-
----
+Por ahora la predicción se apoya únicamente en el puntaje del modelo; no hay estudios que la confirmen.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
-Se listan las publicaciones más relevantes (priorizando revisiones y posiciones de sociedades científicas) de las 20 disponibles:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [16278258](https://pubmed.ncbi.nlm.nih.gov/16278258/) | 2005 | Revisión | Ann Pharmacother | Eficacia y seguridad de antihistamínicos de primera y nueva generación en rinitis alérgica y urticaria idiopática crónica |
-| [31582993](https://pubmed.ncbi.nlm.nih.gov/31582993/) | 2019 | Revisión (posición de sociedad) | Allergy Asthma Clin Immunol | Los antihistamínicos de nueva generación son más seguros que los de primera generación (como la hidroxizina), que causan sedación, deterioro cognitivo y efectos anticolinérgicos; deben ser de primera línea |
-| [28913986](https://pubmed.ncbi.nlm.nih.gov/28913986/) | 2017 | Revisión | Allergy Asthma Immunol Res | La urticaria crónica espontánea se trata con antihistamínicos, a dosis mayores que en rinitis; omalizumab si falla el tratamiento |
-| [12113226](https://pubmed.ncbi.nlm.nih.gov/12113226/) | 2002 | Revisión | Clin Allergy Immunol | Uso de antagonistas H1 en niños; evidencia sólida en rinoconjuntivitis alérgica |
-| [1981354](https://pubmed.ncbi.nlm.nih.gov/1981354/) | 1990 | Revisión | Drugs | Cetirizina, metabolito de la hidroxizina, con menos efectos depresores del SNC |
-| [7510611](https://pubmed.ncbi.nlm.nih.gov/7510611/) | 1993 | Revisión | Drugs | Cetirizina eficaz y bien tolerada en rinitis alérgica y urticaria idiopática crónica |
-| [11034010](https://pubmed.ncbi.nlm.nih.gov/11034010/) | 2000 | Reporte de caso | J Clin Gastroenterol | Colestasis inducida por cetirizina (metabolito de la hidroxizina) |
-| [19348661](https://pubmed.ncbi.nlm.nih.gov/19348661/) | 2009 | Reporte de caso | J Dermatol | Urticaria inducida por múltiples antihistamínicos H1 |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20219373 (cancelado) | Hidroxizina clorhidrato 100 mg/2 ml solución inyectable | Solución inyectable | Hidroxizina |
-
----
+| 20219373 | HIDROXIZINA CLORHIDRATO 100 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | HIDROXIZINA |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 297 interacciones. Entre las principales:
-  - **Mayores**: morfina, citrato de potasio, dolasetrón.
-  - **Moderadas**: famotidina, hiosciamina, loperamida, atropina, bisacodilo, claritromicina, diciclomina, dronabinol, eluxadolina, palonosetrón, trospio, nabilona y levofloxacino, entre otros.
-  - **Menores**: cimetidina.
-- **Enfermedades con contraindicación según el grafo de conocimiento (no proviene del prospecto)**: hipertensión, epilepsia, enfermedad hepática, enfermedad de la vesícula biliar, hipotiroidismo, hipertiroidismo, úlcera péptica, glaucoma de ángulo abierto y cerrado, trastornos psicóticos y mentales, diabetes y cetoacidosis diabética, hiperplasia prostática benigna, abuso de sustancias, enfermedad coronaria, infarto de miocardio, paro cardíaco súbito, enfermedades de la conducción cardíaca y enfermedad cardiovascular en general.
-- La literatura señala efectos de los antihistamínicos de primera generación como sedación, deterioro cognitivo, sequedad de boca, mareo e hipotensión ortostática, así como asociación con sobredosis y muerte súbita cardíaca.
+- **Interacciones Farmacológicas**: se registran 297 interacciones. Entre las de nivel mayor figuran:
+  - Morfina
+  - Citrato de potasio
+  - Dolasetrón
 
-No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para esa información.
+  Entre las de nivel moderado figuran famotidina, hiosciamina, loperamida, atropina, claritromicina, levofloxacina, dronabinol y nabilona, entre otras.
 
----
+Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones).
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La urticaria ya se trata con antihistamínicos y la evidencia específica de hidroxizina es limitada (revisiones y reportes de caso, sin ensayos registrados). Además, el único registro sanitario está cancelado y faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la evaluación de seguridad.
+La predicción tiene un puntaje alto (0,9970), pero no cuenta con ensayos clínicos ni literatura que estudien directamente la conjuntivitis por rosácea, y el vínculo mecanístico es débil. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
-- Complementar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria (registro cancelado) y la disponibilidad de otras presentaciones.
-- Justificar el uso de hidroxizina frente a antihistamínicos de segunda generación, más seguros.
-- Buscar ensayos aleatorizados específicos de hidroxizina en urticaria.
-
----
-
-### Nota sobre otras indicaciones predichas
-
-- **Urticaria por frío** (TxGNN 99.66%, L3): existe un estudio comparativo doble ciego de 1984 (PMID 6480953) que incluyó hidroxizina, y un reporte de caso de 1979 con respuesta favorable. La evidencia es antigua y de pequeña escala.
-- **Conjuntivitis por rosácea, dermatitis atópica recalcitrante y respuesta IgE atópica** (L5): sin ensayos ni literatura; se recomienda Hold.
+- Revisión sistemática de literatura sobre antihistamínicos H1 en rosácea ocular
+- Datos detallados del mecanismo de acción (MOA)
+- Prospecto del INVIMA con advertencias y contraindicaciones
+- Evaluación de compatibilidad de vía de administración (la presentación local es inyectable; una indicación ocular probablemente requeriría otra vía)
+- Estudios preclínicos o exploratorios que respalden la hipótesis
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

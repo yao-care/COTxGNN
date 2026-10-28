@@ -4,17 +4,17 @@ title: Ioversol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 353
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Ioversol: nueva indicación predicha, Susceptibilidad a la osteoartritis (nivel de evidencia L5). Indicación original: IOVERSOL"
+indication_count: 9
 monitor_inn: "IOVERSOL"
-predicted_indications: ["osteoarthritis susceptibility", "osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
+predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
+last_modified_at: 2026-10-23
+description: "Ioversol: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo indica \"IOVERSOL\")"
 ---
 
 # Ioversol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ioversol: De Agente de Contraste Yodado a Osteoartritis (Susceptibilidad)
+## Ioversol: De Indicación no especificada (medio de contraste) a Osteoartritis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ioversol es un medio de contraste yodado para diagnóstico por imagen; en Colombia su registro sanitario figura con la indicación "IOVERSOL" y actualmente está cancelado.
-El modelo TxGNN predice que podría ser efectivo para **susceptibilidad a la osteoartritis**, pero **no hay ensayos clínicos ni publicaciones** que respalden directamente esta dirección.
+Ioversol es un medio de contraste radiográfico yodado, registrado en Colombia bajo el nombre comercial OPTIRAY® 350; el texto de indicación del registro solo repite el nombre del principio activo.
+El modelo TxGNN predice una posible utilidad en **osteoartritis**, pero **no hay ensayos clínicos** y solo **1 publicación** relacionada, que estudia un procedimiento de embolización y no el efecto terapéutico del ioversol.
+La predicción debe considerarse una hipótesis de investigación, no una indicación respaldada.
 
 ---
 
@@ -47,23 +48,23 @@ El modelo TxGNN predice que podría ser efectivo para **susceptibilidad a la ost
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | IOVERSOL (el registro no detalla una indicación clínica; es un medio de contraste yodado) |
-| Nueva Indicación Predicha | Susceptibilidad a la osteoartritis |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Indicación Original | No especificada en el registro (el texto solo indica "IOVERSOL"); por su naturaleza, medio de contraste radiográfico |
+| Nueva Indicación Predicha | Osteoartritis |
+| Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ioversol es un medio de contraste yodado que se usa como ayuda diagnóstica en imagen (por ejemplo, angiografía y tomografía), no como agente terapéutico con actividad modificadora de enfermedad.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, ioversol es un medio de contraste yodado de uso diagnóstico por imagen; no tiene un mecanismo farmacológico antiartrósico conocido.
 
-No se identificó un vínculo mecanístico entre ioversol y la susceptibilidad genética a la osteoartritis. El puntaje elevado del modelo TxGNN proviene de la proximidad en el grafo de conocimiento y no de evidencia farmacológica o clínica. Por ello, esta predicción debe considerarse una hipótesis computacional sin respaldo.
+La única publicación vinculada (LipioJoint-1, PMID 38102013) evalúa la embolización de arterias geniculares en artrosis de rodilla usando una emulsión a base de aceite etiodizado. Ahí el material yodado actúa como vehículo del procedimiento y no como tratamiento modificador de la enfermedad. Además, es un material distinto del ioversol.
 
-Otras predicciones del modelo (osteoartritis, artritis reumatoide, braquiolmia, hemoglobinopatía, alopecia, entre otras) tampoco cuentan con un mecanismo plausible. En el caso de la osteoartritis, la única publicación asociada trata de embolización de arterias geniculares con aceite etiodizado, donde el contraste yodado solo sería una ayuda de imagen y no un tratamiento.
+Por ello, el alto puntaje del modelo TxGNN (aprendizaje profundo) probablemente refleja similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica ni un efecto terapéutico real. Como ningún estudio citado evalúa directamente el ioversol en osteoartritis, el nivel de evidencia se fija en L5.
 
 ---
 
@@ -75,28 +76,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Para la indicación principal (susceptibilidad a la osteoartritis) no hay literatura disponible. Para la indicación relacionada **osteoartritis** se identificó una publicación, de relevancia solo indirecta:
-
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Ensayo clínico (un solo brazo, procedimental) | Diagnostic and Interventional Imaging | Evalúa seguridad y eficacia de la embolización transitoria de arterias geniculares con emulsión de aceite etiodizado en osteoartritis de rodilla. Ioversol no es el agente terapéutico; no respalda su reposicionamiento. |
+| [38102013](https://pubmed.ncbi.nlm.nih.gov/38102013/) | 2024 | Ensayo clínico de un solo brazo (procedimiento) | Diagnostic and Interventional Imaging | Evalúa la seguridad y eficacia de la embolización transitoria de arterias geniculares con emulsión de aceite etiodizado en artrosis de rodilla. No estudia el ioversol como tratamiento. |
 
 ---
 
 ## Información de Mercado en Colombia
 
+La lista puede ser parcial.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 52944 (cancelado) | OPTIRAY ® 350 | Solución inyectable | IOVERSOL |
+| 52944 | OPTIRAY® 350 | Solución inyectable | IOVERSOL (el texto no detalla usos) |
 
 ---
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total. Entre las principales, de nivel **Mayor**: metformina, anfotericina B (incluidas las formulaciones lipídica, de sulfato de colesterilo y liposomal), mesalazina, balsalazida, olsalazina, sulfasalazina, vancomicina, kanamicina, neomicina, estreptomicina y polimixina B. De nivel **Moderado**: manitol. Además, hay interacciones de nivel no determinado con atropina, famotidina, ácido acetilsalicílico, morfina y omeprazol.
-- **Consideración adicional**: los medios de contraste pueden plantear preocupaciones de seguridad en algunas hemoglobinopatías, como la anemia de células falciformes, por lo que cualquier uso en ese contexto requeriría una revisión de seguridad previa.
+- **Interacciones Farmacológicas**: se identificaron 100 interacciones en total; entre las mostradas, la mayoría son de nivel **Mayor**, por ejemplo:
+  - Metformina
+  - Anfotericina B (y sus formulaciones lipídicas y liposomales)
+  - Mesalazina, balsalazida, olsalazina y sulfasalazina
+  - Vancomicina
+  - Aminoglucósidos (kanamicina, neomicina, estreptomicina)
+  - Polimixina B
+- Con manitol hay una interacción de nivel **Moderado**. Con atropina, famotidina, ácido acetilsalicílico, morfina y omeprazol el nivel es desconocido.
 
-No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para más información de seguridad.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
 
@@ -105,14 +112,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura directa, y no se identifica un mecanismo plausible entre un medio de contraste diagnóstico y la susceptibilidad a la osteoartritis. Además, el único registro sanitario en Colombia está cancelado.
+No hay ensayos clínicos y la única publicación se refiere a un procedimiento de embolización, no a un efecto terapéutico del ioversol. No existe un mecanismo plausible, por lo que la predicción parece un artefacto del modelo TxGNN (aprendizaje profundo).
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank).
-- Obtener y analizar el prospecto de INVIMA para advertencias y contraindicaciones.
-- Evidencia preclínica o mecanística que respalde una acción terapéutica en osteoartritis.
-- Revisión de la literatura para confirmar que la publicación identificada no respalda el reposicionamiento.
-- Evaluar si existe algún producto con ioversol vigente en el mercado colombiano.
+- Un fundamento mecanístico que justifique un efecto del ioversol en osteoartritis
+- Estudios preclínicos o clínicos que evalúen directamente esta indicación
+- Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
+- Datos del mecanismo de acción del fármaco
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -4,17 +4,17 @@ title: Riluzole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 562
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
-description: "Riluzole: nueva indicación predicha, Polimicrogiria parieto-occipital parasagital bilateral (nivel de evidencia L5). Indicación original: RILUZOL"
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
+description: "Riluzole: nueva indicación predicha, Bilateral parasagittal parieto-occipital polymicrogyria (nivel de evidencia L5). Indicación original: RILUZOL"
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Riluzol: De Esclerosis Lateral Amiotrófica a Polimicrogiria Parieto-occipital Parasagital Bilateral
+## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para **polimicrogiria parieto-o
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | RILUZOL (el registro no detalla la indicación; el texto coincide con el nombre del principio activo) |
-| Nueva Indicación Predicha | Polimicrogiria parieto-occipital parasagital bilateral |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Indicación Original | RILUZOL |
+| Nueva Indicación Predicha | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **polimicrogiria parieto-o
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el riluzol modula la transmisión glutamatérgica y reduce la excitotoxicidad, y se utiliza como neuroprotector en la ELA.
 
-Para esta predicción concreta, el vínculo mecanístico es débil. La polimicrogiria es una malformación del desarrollo cortical, de carácter estructural, y es poco probable que responda a un agente neuroprotector sintomático. El análisis disponible considera que el puntaje alto probablemente es un artefacto de proximidad en el grafo de conocimiento y no refleja una relación biológica demostrada.
+Para esta predicción concreta, el vínculo mecanístico es débil. La polimicrogiria es una malformación del desarrollo cortical, de carácter estructural, y es poco probable que responda a un agente neuroprotector sintomático. El puntaje de 0.9999 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 Por tanto, la predicción no cuenta con respaldo mecanístico ni clínico. Debe tratarse como una señal del modelo que requiere validación independiente antes de cualquier inversión adicional.
 
@@ -71,11 +71,11 @@ Entre las 10 principales predicciones, las más coherentes biológicamente son l
 
 | Enfermedad predicha | Puntaje TxGNN | Evidencia | Recomendación |
 |------|------|------|------|
-| ELA, susceptibilidad a | 99.98% | L4 (solo revisiones y estudios mecanísticos; reetiquetado de la indicación original) | Pregunta de investigación |
-| Síndrome de motoneurona inferior de inicio tardío en adultos | 99.99% | L5 | Pregunta de investigación |
-| Amiotrofia monomélica | 99.99% | L5 | Pregunta de investigación |
-| Síndrome de Mills | 99.98% | L5 | Pregunta de investigación |
-| ELA tipo 22 | 99.98% | L5 | Pregunta de investigación |
+| ELA, susceptibilidad a | 0.9998 | L5 (solo revisiones y estudios mecanísticos; reetiquetado de la indicación original) | Pregunta de investigación |
+| Síndrome de motoneurona inferior de inicio tardío en adultos | 0.9999 | L5 | Pregunta de investigación |
+| Amiotrofia monomélica | 0.9999 | L5 | Pregunta de investigación |
+| Síndrome de Mills | 0.9998 | L5 | Pregunta de investigación |
+| ELA tipo 22 | 0.9998 | L5 | Pregunta de investigación |
 
 El resto (displasia espondilometafisaria axial, síndrome de tricomegalia-degeneración pigmentaria de la retina-enanismo, síndrome letal de artrogriposis-enfermedad de células del asta anterior, miopatía mitocondrial autosómica dominante) no muestra un vínculo mecanístico claro y se recomienda mantenerlos en espera (Hold).
 
@@ -108,13 +108,13 @@ Como referencia, para la predicción de ELA (puesto 8) se compilaron publicacion
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20080854 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (cancelado) |
-| 20254040 | DOLVIO 50 (Alkem Laboratories) | Tableta recubierta | RILUZOL (cancelado) |
-| 20201114 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (cancelado) |
-| 206956 | RILUTEK® TABLETAS X 50MG (Sanofi-Aventis) | Tableta recubierta | RILUZOL (cancelado) |
-| 20204277 | TEGLUTIK® SUSPENSIÓN ORAL 5 MG/ML (Italfarmaco) | Suspensión oral | RILUZOL (cancelado) |
+| 20080854 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (vigente) |
+| 20254040 | DOLVIO 50 (Alkem Laboratories) | Tableta recubierta | RILUZOL (vigente) |
+| 20201114 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (vigente) |
+| 206956 | RILUTEK® TABLETAS X 50MG (Sanofi-Aventis) | Tableta recubierta | RILUZOL (vigente) |
+| 20204277 | TEGLUTIK® SUSPENSIÓN ORAL 5 MG/ML (Italfarmaco) | Suspensión oral | RILUZOL (vigente) |
 
-Los cinco registros están cancelados; actualmente no hay ningún registro vigente.
+Los 5 registros de licencia están vigentes; el medicamento se comercializa actualmente.
 
 ---
 

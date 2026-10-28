@@ -4,7 +4,7 @@ title: Lorazepam
 parent: Solo Predicción del Modelo (L5)
 nav_order: 410
 evidence_level: L5
-indication_count: 10
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"LORAZE…"
 monitor_inn: "LORAZEPAM"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm"]
 # Lorazepam
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ Lorazepam es una benzodiazepina registrada en Colombia (productos Ativan), cuyo 
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "LORAZEPAM") |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.87% |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -60,11 +60,11 @@ Lorazepam es una benzodiazepina registrada en Colombia (productos Ativan), cuyo 
 
 No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento farmacológico general, lorazepam es un modulador alostérico positivo del receptor GABA-A, con efectos ansiolíticos, sedantes y anticonvulsivantes.
 
-**Para la neoplasia del nervio trigémino no se identifica una justificación mecanística.** Lorazepam no tiene actividad antineoplásica conocida. El puntaje tan alto (99.87%) parece reflejar la proximidad en el grafo de conocimiento con nodos neurológicos o relacionados con el dolor, no un efecto terapéutico demostrado. No hay ensayos ni literatura que lo apoyen.
+**Para la neoplasia del nervio trigémino no se identifica una justificación mecanística.** Lorazepam no tiene actividad antineoplásica conocida. El puntaje tan alto (0.9987) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto terapéutico demostrado. No hay ensayos ni literatura que lo apoyen.
 
 Otras predicciones del modelo tienen una base mecanística más plausible:
 
-- **Insomnio** (puntaje 99.80%, nivel L3): potenciar la señal GABA-A acorta la latencia del sueño y las benzodiazepinas son una clase hipnótica establecida. Sin embargo, las guías actuales desaconsejan su uso prolongado por dependencia, tolerancia y deterioro cognitivo.
+- **Insomnio** (nivel L3): potenciar la señal GABA-A acorta la latencia del sueño y las benzodiazepinas son una clase hipnótica establecida. Sin embargo, las guías actuales desaconsejan su uso prolongado por dependencia, tolerancia y deterioro cognitivo.
 - **Epilepsias reflejas** (convulsiones de lectura, por pensamiento, por micción, audiogénicas, epilepsia de sobresalto, entre otras): la potenciación GABAérgica es un mecanismo anticonvulsivante plausible, y lorazepam es tratamiento de primera línea en estado epiléptico. No obstante, la evidencia es indirecta y extrapolada de las convulsiones en general.
 
 ---
@@ -96,8 +96,8 @@ Para las epilepsias reflejas, la literatura disponible consiste sobre todo en re
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Cancelado |
-| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Cancelado |
+| 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
+| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
 
 Ambos registros pertenecen a PFIZER S.A.S. y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia.
 
@@ -121,7 +121,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto parece un artefacto del grafo. Además, no hay registros sanitarios vigentes en Colombia y los datos de seguridad del prospecto no están disponibles.
+La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia con 2 registros sanitarios vigentes y los datos de seguridad del prospecto no están disponibles.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío crítico que impide el tamizaje de seguridad.

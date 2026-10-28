@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 ## Resumen en Una Frase
 
 Sacituzumab govitecan es un conjugado anticuerpo-fármaco (dirigido a Trop-2, con el inhibidor de topoisomerasa I SN-38) citotóxico, registrado en Colombia bajo el nombre comercial TRODELVY®; el registro sanitario no detalla el texto de la indicación aprobada.
-El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, con un puntaje alto (99.78%).
+El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, con un puntaje alto (0.9978).
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ---
@@ -50,10 +50,10 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 |------|------|
 | Indicación Original | SACITUZUMAB GOVITECAN (el registro no especifica una indicación en texto) |
 | Nueva Indicación Predicha | Osteoporosis inducida por fármacos |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,9 +62,9 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I, y pertenece al grupo de agentes antineoplásicos citotóxicos.
 
-Con los datos disponibles, **no se identifica un vínculo mecanístico que respalde esta predicción**. La quimioterapia citotóxica se asocia más frecuentemente con pérdida ósea que con protección ósea, de modo que la relación entre el uso oncológico del fármaco y la osteoporosis inducida por fármacos es, en el mejor de los casos, indirecta (podría reflejar una asociación del grafo de conocimiento con la osteoporosis como efecto adverso de otros tratamientos, y no una utilidad terapéutica).
+Con los datos disponibles, **no se identifica un vínculo mecanístico que respalde esta predicción**. La quimioterapia citotóxica se asocia más frecuentemente con pérdida ósea que con protección ósea, de modo que la relación entre el uso oncológico del fármaco y la osteoporosis inducida por fármacos es, en el mejor de los casos, indirecta (el puntaje del modelo TxGNN (aprendizaje profundo) podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no una utilidad terapéutica).
 
-El puntaje de 99.78% proviene únicamente del grafo de conocimiento de TxGNN y no constituye evidencia clínica. Otras predicciones del modelo (retinopatía diabética no proliferativa grave, 99.69%; retinopatía diabética, 99.60%; catarata diabética, 99.12%) tampoco cuentan con ensayos ni literatura, y carecen de una justificación mecanística plausible para un agente citotóxico sistémico.
+El puntaje de 0.9978 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Otras predicciones del modelo (retinopatía diabética no proliferativa grave, 0.9969; retinopatía diabética, 0.9960; catarata diabética, 0.9912) tampoco cuentan con ensayos ni literatura, y carecen de una justificación mecanística plausible para un agente citotóxico sistémico.
 
 ---
 

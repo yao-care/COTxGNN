@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 ## Resumen en Una Frase
 
 Meclizina es un antihistamínico H1 de primera generación con actividad anticolinérgica; en Colombia sus registros sanitarios solo indican "MECLOZINA" como indicación aprobada, y actualmente están cancelados.
-El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje alto (99.67%).
+El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje alto (0.9967).
 Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ---
@@ -50,9 +50,9 @@ Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden est
 |------|------|
 | Indicación Original | MECLOZINA (el texto del registro no detalla una enfermedad específica) |
 | Nueva Indicación Predicha | Urticaria alérgica |
-| Puntaje de Predicción TxGNN | 99.67% |
+| Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin comercialización vigente) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La urticaria alérgica está mediada por histamina, y los antihistamínicos H1 son una clase farmacológica establecida para esta condición. Por ello, el bloqueo H1 ofrece un vínculo mecanístico plausible, aunque inferido a nivel de clase y no demostrado para la meclizina.
 
-Conviene ser cautos: el puntaje de TxGNN (0.997) es una predicción computacional, no evidencia clínica. Las guías prefieren los antihistamínicos de segunda generación, por lo que el valor adicional de la meclizina es incierto.
+Conviene ser cautos: el puntaje de TxGNN (0.9967) es una predicción computacional, no evidencia clínica. Las guías prefieren los antihistamínicos de segunda generación, por lo que el valor adicional de la meclizina es incierto.
 
 Otras indicaciones predichas, todas con nivel L5 y recomendación Hold, fueron: resfriado común (99.49%), enfermedad de la cavidad nasal (99.48%), faringitis (99.45%), laringofaringitis aguda (99.37%) y urticaria por frío (99.22%). Entre ellas, la urticaria por frío comparte el mismo fundamento mecanístico que la urticaria alérgica, mientras que para faringitis y laringofaringitis el vínculo es débil y el efecto anticolinérgico de sequedad podría ser contraproducente.
 
@@ -86,8 +86,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20208878 | VERMEC® 25MG | Cápsula blanda | MECLOZINA | Cancelado |
-| 19963530 | VERTINON® 25 MG | Tableta | MECLOZINA | Cancelado |
+| 20208878 | VERMEC® 25MG | Cápsula blanda | MECLOZINA | Vigente |
+| 19963530 | VERTINON® 25 MG | Tableta | MECLOZINA | Vigente |
 
 ---
 

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no 
 |------|------|
 | Indicación Original | AFLIBERCEPT (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Esotropía |
-| Puntaje de Predicción TxGNN | 99.38% |
+| Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La esotropía es un trastorno de la alineación ocular, generalmente causado por factores neuromusculares, refractivos o acomodativos. No tiene una patología bien establecida dependiente de VEGF, por lo que el vínculo mecanístico directo es débil.
 
-El puntaje alto (0.994) probablemente refleja la cercanía en la red de conocimiento con otras enfermedades oculares tratadas con anti-VEGF intravítreo (por ejemplo, retinopatía del prematuro o enfermedad neovascular ocular). Un posible vínculo indirecto sería tratar con anti-VEGF una enfermedad retiniana que cause estrabismo sensorial secundario, lo cual no equivaldría a tratar la esotropía en sí. Por ello, esta predicción debe considerarse con mucha cautela.
+El puntaje alto (0.9938) probablemente refleja la cercanía en la red de conocimiento con otras enfermedades oculares tratadas con anti-VEGF intravítreo (por ejemplo, retinopatía del prematuro o enfermedad neovascular ocular). Un posible vínculo indirecto sería tratar con anti-VEGF una enfermedad retiniana que cause estrabismo sensorial secundario, lo cual no equivaldría a tratar la esotropía en sí. Por ello, esta predicción debe considerarse con mucha cautela.
 
 ---
 
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20039088 | EYLIA® SOLUCIÓN PARA INYECCIÓN INTRAVÍTREA (BAYER A.G.) | Solución inyectable | AFLIBERCEPT | Cancelado |
+| 20039088 | EYLIA® SOLUCIÓN PARA INYECCIÓN INTRAVÍTREA (BAYER A.G.) | Solución inyectable | AFLIBERCEPT | Vigente |
 
 ---
 

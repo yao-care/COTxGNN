@@ -3,18 +3,18 @@ layout: default
 title: Abatacept
 parent: Evidencia Moderada (L3-L4)
 nav_order: 12
-evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-14
-description: "Abatacept: nueva indicación predicha, Vasculitis reumatoide (nivel de evidencia L4). Indicación original: ABATACEPT"
+evidence_level: L3
+indication_count: 7
 monitor_inn: "ABATACEPT"
-predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "spondyloarthropathy, susceptibility to", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
+last_modified_at: 2026-10-27
+description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: ABATACEPT"
 ---
 
 # Abatacept
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,99 +33,80 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Abatacept: De Indicación Registrada (Abatacept) a Vasculitis Reumatoide
+## Abatacept: proteína de fusión bloqueadora de la coestimulación de células T → espondilitis anquilosante (ankylosing spondylitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Abatacept es una proteína de fusión (CTLA-4 unida a la región Fc de la IgG1) que bloquea la coestimulación de los linfocitos T. En Colombia contó con un registro sanitario para su presentación subcutánea (Orencia®), hoy cancelado, y en la ficha del registro la indicación figura únicamente como "ABATACEPT".
-El modelo TxGNN predice que podría ser efectivo para **vasculitis reumatoide**, pero solo existe **1 ensayo clínico** sin relación directa con la enfermedad y **evidencia limitada a reportes de caso** en la literatura, por lo que es una hipótesis de investigación.
-
----
+Abatacept es una proteína de fusión inmunomoduladora que bloquea la coestimulación de las células T.
+El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosante (ankylosing spondylitis)**,
+con **3 ensayos clínicos** registrados (solo uno estudia directamente esta enfermedad: un piloto abierto de Fase 2) y **19 publicaciones** relacionadas, de las cuales apenas una evalúa directamente abatacept en esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ABATACEPT (el registro no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Vasculitis reumatoide |
-| Puntaje de Predicción TxGNN | 99.91% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Indicación Original | ABATACEPT |
+| Nueva Indicación Predicha | espondilitis anquilosante (ankylosing spondylitis) |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
-
----
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, abatacept bloquea la interacción CD80/86–CD28, es decir, la señal de coestimulación necesaria para activar los linfocitos T. Su eficacia está bien establecida en artritis reumatoide y en artritis idiopática juvenil poliarticular.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, abatacept bloquea la coestimulación de las células T, un mecanismo que modula la respuesta inmunitaria adaptativa.
 
-La vasculitis reumatoide es una complicación extraarticular grave de la artritis reumatoide, en la que la inflamación vascular se asocia a la actividad de linfocitos T. Por eso, bloquear la coestimulación T es mecanísticamente plausible.
+Mecanísticamente, la espondilitis anquilosante es una enfermedad inflamatoria inmunomediada, por lo que bloquear la activación de células T es plausible. Sin embargo, la enfermedad axial está impulsada principalmente por las vías de TNF e IL-17/IL-23. Varias revisiones sobre tratamientos más allá del bloqueo de TNF señalan que los agentes dirigidos a las células T, como abatacept, tienen un beneficio limitado.
 
-Sin embargo, la señal clínica es mixta. Existe un reporte de caso con respuesta rápida a abatacept en vasculitis reumatoide refractaria y otro que lo propone como opción terapéutica. Pero también hay un reporte de vasculitis de nueva aparición durante el tratamiento con abatacept que mejoró con rituximab, y otro de vasculitis orbital en una paciente que lo recibía. Esto impide concluir un beneficio.
-
----
+La única evidencia directa es un estudio piloto abierto, pequeño y sin grupo control, por lo que la plausibilidad mecanística no se ha confirmado clínicamente.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | Reclutando | 80 | Manejo perioperatorio de inmunosupresores en pacientes reumatológicos sometidos a artroplastia de hombro. No evalúa la eficacia de abatacept en vasculitis reumatoide. |
-
----
+| [NCT00558506](https://clinicaltrials.gov/study/NCT00558506) | Fase 2 | Desconocido | 30 | Piloto abierto de abatacept intravenoso en espondilitis anquilosante, hasta la semana 30; único ensayo directo, no controlado |
+| [NCT01965132](https://clinicaltrials.gov/study/NCT01965132) | N/A | En reclutamiento | 10000 | Registro coreano de terapias biológicas; aporta solo contexto observacional de seguridad |
+| [NCT07138898](https://clinicaltrials.gov/study/NCT07138898) | Fase 2 | En reclutamiento | 80 | Manejo perioperatorio de inmunosupresores en artroplastia de hombro; no es un ensayo de eficacia |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29930884](https://pubmed.ncbi.nlm.nih.gov/29930884/) | 2018 | Reporte de caso/Revisión | Cureus | Abatacept como opción terapéutica en vasculitis reumatoide, en una paciente con inmunodeficiencia variable común en quien rituximab era riesgoso. |
-| [22124545](https://pubmed.ncbi.nlm.nih.gov/22124545/) | 2012 | Reporte de caso | Modern Rheumatology | Mejoría clínica rápida con abatacept en vasculitis reumatoide refractaria a metotrexato, anti-TNF, esteroides y tocilizumab. |
-| [27052429](https://pubmed.ncbi.nlm.nih.gov/27052429/) | 2016 | Reporte de caso | Joint Bone Spine | Vasculitis reumatoide de nueva aparición durante el tratamiento con abatacept, con mejoría posterior con rituximab. |
-| [30119075](https://pubmed.ncbi.nlm.nih.gov/30119075/) | 2018 | Reporte de caso/Revisión | Ophthalmic Plastic and Reconstructive Surgery | Vasculitis orbital asociada a artritis reumatoide en una paciente tratada con abatacept. |
-| [36418100](https://pubmed.ncbi.nlm.nih.gov/36418100/) | 2023 | Reporte de caso | Internal Medicine | Nefritis asociada a ANCA durante el tratamiento con abatacept y adalimumab, atenuada con tocilizumab. |
-| [24840285](https://pubmed.ncbi.nlm.nih.gov/24840285/) | 2014 | Revisión sistemática y cohorte | Autoimmunity Reviews | Trastornos renales autoinmunes inducidos por biológicos en enfermedades reumáticas inflamatorias. |
-| [33595833](https://pubmed.ncbi.nlm.nih.gov/33595833/) | 2021 | Revisión sistemática | BioDrugs | Trastornos glomerulares inmunomediados inducidos por biológicos y fármacos sintéticos dirigidos. |
-| [24854356](https://pubmed.ncbi.nlm.nih.gov/24854356/) | 2014 | Cohorte | Annals of the Rheumatic Diseases | Utilidad de las pruebas ANA para predecir lupus y vasculitis inducidos por biológicos en artritis reumatoide. |
-| [23557513](https://pubmed.ncbi.nlm.nih.gov/23557513/) | 2013 | Revisión | BMC Medicine | Actualización sobre terapias biológicas en enfermedades autoinmunes. |
-| [34068884](https://pubmed.ncbi.nlm.nih.gov/34068884/) | 2021 | Revisión | Journal of Clinical Medicine | Tratamiento de epiescleritis y escleritis asociadas a artritis reumatoide. |
-
----
+| [21415053](https://pubmed.ncbi.nlm.nih.gov/21415053/) | 2011 | Estudio piloto abierto | Ann Rheum Dis | Evaluación de eficacia y seguridad a corto plazo de abatacept durante 24 semanas en espondilitis anquilosante activa |
+| [27856659](https://pubmed.ncbi.nlm.nih.gov/27856659/) | 2016 | Revisión | Rheumatology (Oxford) | Señala que los biológicos no anti-TNF, incluido abatacept, no son eficaces en espondiloartritis axial |
+| [25488787](https://pubmed.ncbi.nlm.nih.gov/25488787/) | 2014 | Revisión | Best Pract Res Clin Rheumatol | Tratamiento de la espondiloartritis más allá del bloqueo de TNF |
+| [31171316](https://pubmed.ncbi.nlm.nih.gov/31171316/) | 2018 | Revisión | Best Pract Res Clin Rheumatol | Opciones emergentes en espondiloartritis; alternativas tras el fracaso de los inhibidores de TNF |
+| [31852268](https://pubmed.ncbi.nlm.nih.gov/31852268/) | 2020 | Revisión/Metaanálisis | Expert Rev Clin Immunol | Riesgo de infección con biológicos frente a fármacos no biológicos en artritis inflamatoria |
+| [20959960](https://pubmed.ncbi.nlm.nih.gov/20959960/) | 2011 | Revisión | Osteoporos Int | Efectos óseos sistémicos de los biológicos en artritis reumatoide y espondilitis anquilosante |
+| [39963138](https://pubmed.ncbi.nlm.nih.gov/39963138/) | 2025 | Revisión | Front Immunol | Riesgo de tuberculosis y tamizaje en artritis autoinmune crónica tratada con inmunosupresores biológicos |
 
 ## Información de Mercado en Colombia
 
+Según los registros locales, el producto se encuentra comercializado. La lista de registros puede ser parcial.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20041743 (cancelado) | ORENCIA® Solución Inyectable para Administración Subcutánea 125 mg/ml (Bristol Myers Squibb de Colombia S.A.) | Solución inyectable | ABATACEPT |
-
----
+| 20041743 | ORENCIA® solución inyectable para administración subcutánea 125 mg/ml | Solución inyectable | Sin texto de indicación detallado en el registro |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones farmacológicas:** se identificaron 73 interacciones en total. Entre las principales:
-  - **Gravedad mayor:** adalimumab, baricitinib, certolizumab pegol y la vacuna BCG (cepa Tice, viva). En general implican mayor riesgo de inmunosupresión excesiva e infecciones.
-  - **Gravedad moderada:** roflumilast, alefacept, alemtuzumab, anakinra, canakinumab, azatioprina y varias vacunas vivas (adenovirus tipo 4, ántrax, cólera, entre otras).
-  - **Gravedad menor:** sales de zinc (acetato, gluconato, sulfato y cloruro).
-- Las advertencias y contraindicaciones del prospecto no están disponibles en los datos compilados. Consultar el prospecto para esa información.
-
----
+- **Interacciones Farmacológicas**: se identificaron 73 interacciones en total. Las de nivel mayor incluyen adalimumab, baricitinib, certolizumab pegol y la vacuna BCG de microorganismos vivos. Entre las de nivel moderado figuran anakinra, azatioprina, alemtuzumab, canakinumab, alefacept, roflumilast y varias vacunas. Las interacciones con sales de zinc son de nivel menor.
+- La combinación con otros inmunosupresores biológicos y las vacunas de microorganismos vivos requieren especial cautela. La literatura revisada también destaca el riesgo de infección, incluida tuberculosis, en pacientes tratados con biológicos.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (99.91%), pero la evidencia real se limita a reportes de caso con resultados contradictorios, y el único ensayo registrado no estudia la eficacia del fármaco en vasculitis reumatoide. Además, en Colombia no hay ningún registro vigente.
+La única evidencia directa es un piloto abierto pequeño, sin control y de estado desconocido, y las revisiones indican beneficio limitado de abatacept en espondiloartritis axial frente a las terapias anti-TNF e IL-17. Aunque el puntaje TxGNN es alto, la evidencia clínica no respalda avanzar por ahora.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de INVIMA las advertencias y contraindicaciones, que hoy son un vacío bloqueante para el tamizaje de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Revisar sistemáticamente los casos publicados (respondedores y no respondedores) y, si hay señal, diseñar un estudio observacional o una serie de casos prospectiva.
-- Aclarar la situación regulatoria: el registro está cancelado y habría que verificar si existe otro vigente o si se requeriría uno nuevo.
-
----
-
-**Nota sobre otras predicciones:** **poliartritis idiopática juvenil (artritis reumatoide juvenil poliarticular)** tiene evidencia L1 con varios ensayos de Fase 3 completados, pero es un uso ya establecido de abatacept y no un reposicionamiento real. La categoría **espondilopatía inflamatoria** tiene evidencia L1, pero esta se limita a artritis psoriásica y no se extiende a la espondilitis anquilosante, donde el único ensayo directo es un piloto abierto pequeño de estado desconocido. Las predicciones de **hipermovilidad del coxis**, **enfermedad de Kümmell**, **síndrome de braquidactilia-sindactilia** y **síndrome de microftalmia colobomatosa-displasia rizomélica** carecen de evidencia y de mecanismo plausible, y probablemente son artefactos del grafo.
+- Datos de eficacia de un ensayo controlado y aleatorizado en espondilitis anquilosante
+- Resultados publicados o actualización del estado del piloto NCT00558506
+- Datos detallados del mecanismo de acción y de las advertencias y contraindicaciones del prospecto
+- Comparación frente a terapias ya establecidas (anti-TNF, inhibidores de IL-17)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

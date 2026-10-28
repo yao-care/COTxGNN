@@ -48,10 +48,10 @@ Papaverina es un vasodilatador (ESPAFLAT®) registrado en Colombia en combinacio
 |------|------|
 | Indicación Original | Papaverina combinaciones |
 | Nueva Indicación Predicha | Enfermedad isquémica |
-| Puntaje de Predicción TxGNN | 99.91% |
+| Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---

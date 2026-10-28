@@ -4,9 +4,9 @@ title: Zolpidem
 parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
-indication_count: 3
+indication_count: 2
 last_modified_at: 2026-10-14
-description: "Zolpidem: nueva indicación predicha, Trastorno del sueño, inicio y mantenimiento del sueño (nivel de evidencia L5). Indicación original: ZOLPIDEM"
+description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia
 # Zolpidem
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Zolpidem: De Indicación Registrada (sin descripción específica) a Trastorno del Sueño (Inicio y Mantenimiento)
+## Zolpidem: De Indicación Registrada (sin descripción específica) a Tortícolis paroxística benigna de la infancia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -50,9 +50,9 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 |------|------|
 | Indicación Original | ZOLPIDEM (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño |
-| Puntaje de Predicción TxGNN | 99.87% |
-| Nivel de Evidencia | L1 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
-| Estado de Mercado en Colombia | ✗ Solo cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9926 |
+| Nivel de Evidencia | L5 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -64,7 +64,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Esta acción coincide directamente con la fisiopatología de la dificultad para iniciar y mantener el sueño. La literatura revisada describe a zolpidem como hipnótico de uso muy extendido, incluido en guías clínicas para el tratamiento farmacológico del insomnio crónico.
 
-Por ello, la alta puntuación de TxGNN (99.87%) refleja principalmente un uso ya establecido, y no una nueva aplicación terapéutica.
 
 ---
 
@@ -97,11 +96,11 @@ Se muestran las publicaciones más relevantes, priorizando ECA, metaanálisis y 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19927197 | ZOLPIDEM 10 MG TABLETAS (Tecnoquímicas) | Tableta recubierta | ZOLPIDEM | Cancelado |
-| 19982431 | ZOLPIDEM HEMITARTRATO 10.00 MG (Humax) | Tableta recubierta | ZOLPIDEM | Cancelado |
-| 20233494 | ZOLPIDEM HEMITARTRATO 5 MG (Momenta) | Tableta sublingual | ZOLPIDEM | Cancelado |
-| 19963349 | ZOLPIDEM TABLETAS RECUBIERTAS 10 MG (Genfar) | Tableta recubierta | ZOLPIDEM | Cancelado |
-| 20233478 | ZOLNOX® SL 5 MG (Eurofarma) | Tableta sublingual | ZOLPIDEM | Cancelado |
+| 19927197 | ZOLPIDEM 10 MG TABLETAS (Tecnoquímicas) | Tableta recubierta | ZOLPIDEM | Vigente |
+| 19982431 | ZOLPIDEM HEMITARTRATO 10.00 MG (Humax) | Tableta recubierta | ZOLPIDEM | Vigente |
+| 20233494 | ZOLPIDEM HEMITARTRATO 5 MG (Momenta) | Tableta sublingual | ZOLPIDEM | Vigente |
+| 19963349 | ZOLPIDEM TABLETAS RECUBIERTAS 10 MG (Genfar) | Tableta recubierta | ZOLPIDEM | Vigente |
+| 20233478 | ZOLNOX® SL 5 MG (Eurofarma) | Tableta sublingual | ZOLPIDEM | Vigente |
 
 ---
 
@@ -121,17 +120,17 @@ Se muestran las publicaciones más relevantes, priorizando ECA, metaanálisis y 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La literatura aporta guías, metaanálisis y un ECA de Fase 3 que respaldan el uso de zolpidem en el insomnio, pero no hay ensayos clínicos registrados y esta indicación es en la práctica el uso ya establecido, no un reposicionamiento. Además, todos los registros sanitarios en Colombia están cancelados, lo que condiciona cualquier propuesta.
+La literatura aporta guías, metaanálisis y un ECA de Fase 3 que respaldan el uso de zolpidem en el insomnio, pero no hay ensayos clínicos registrados y esta indicación es en la práctica el uso ya establecido, no un reposicionamiento. Además, el medicamento está comercializado en Colombia y cuenta con 5 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
-- Verificar la situación regulatoria y la disponibilidad actual del fármaco en Colombia (todos los registros figuran cancelados).
+- Verificar la situación regulatoria y la disponibilidad actual del fármaco en Colombia (está comercializado y hay 5 registros sanitarios vigentes).
 - Obtener el prospecto de INVIMA para confirmar advertencias y contraindicaciones oficiales.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir medidas de seguridad: restricción de duración del tratamiento, precaución en adultos mayores, evaluación de riesgo de dependencia y revisión de combinaciones con depresores del sistema nervioso central.
 
 **Otras predicciones del modelo (con decisión Hold):**
-- *Torticolis paroxística benigna de la infancia* (TxGNN 99.26%, L5): sin ensayos ni literatura, sin vínculo mecanístico claro y uso en lactantes inapropiado por seguridad.
-- *Agorafobia* (TxGNN 99.25%, L5): sin ensayos ni literatura; zolpidem tiene actividad ansiolítica mínima y las guías favorecen ISRS/IRSN y terapia cognitivo-conductual.
+- *Torticolis paroxística benigna de la infancia* (TxGNN 0.9926, L5): sin ensayos ni literatura, sin vínculo mecanístico claro y uso en lactantes inapropiado por seguridad.
+- *Agorafobia* (TxGNN 0.9925, L5): sin ensayos ni literatura; zolpidem tiene actividad ansiolítica mínima y las guías favorecen ISRS/IRSN y terapia cognitivo-conductual.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

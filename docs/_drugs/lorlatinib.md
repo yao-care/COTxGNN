@@ -4,7 +4,7 @@ title: Lorlatinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 411
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Lorlatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: LORLATINIB"
 monitor_inn: "LORLATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Lorlatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Lorlatinib es un inhibidor de tirosina quinasa de tercera generación dirigido a ALK/ROS1, registrado en Colombia bajo el nombre comercial Lorbrena® y utilizado en el cáncer de pulmón de células no pequeñas ALK-positivo. El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** con un puntaje alto (99.81%), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
+Lorlatinib es un inhibidor de tirosina quinasa de tercera generación dirigido a ALK/ROS1, registrado en Colombia bajo el nombre comercial Lorbrena® y utilizado en el cáncer de pulmón de células no pequeñas ALK-positivo. El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival** con un puntaje alto (0.9981), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
 
 ---
 
@@ -48,10 +48,10 @@ Lorlatinib es un inhibidor de tirosina quinasa de tercera generación dirigido a
 |------|------|
 | Indicación Original | LORLATINIB (el registro sanitario no detalla el texto de la indicación; el uso conocido es el cáncer de pulmón de células no pequeñas ALK-positivo) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -82,8 +82,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20210581 | LORBRENA® 25 MG | Tableta recubierta | LORLATINIB | Cancelado |
-| 20209759 | LORBRENA® 100 MG | Tableta recubierta | LORLATINIB | Cancelado |
+| 20210581 | LORBRENA® 25 MG | Tableta recubierta | LORLATINIB | Vigente |
+| 20209759 | LORBRENA® 100 MG | Tableta recubierta | LORLATINIB | Vigente |
 
 Ambos registros, de Pfizer S.A.S., están cancelados; actualmente no hay registros vigentes en Colombia.
 

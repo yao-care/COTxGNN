@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Pseudoephedrine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 543
-evidence_level: L4
-indication_count: 3
+evidence_level: L5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---
 
 # Pseudoephedrine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | Combinaciones de paracetamol excluyendo psicolépticos |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.75% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9975 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, la pseudoefedrina es un simpaticomimético indirecto: libera norepinefrina y estimula los receptores alfa-adrenérgicos de los vasos de la mucosa nasal, lo que produce vasoconstricción y reduce la inflamación de la mucosa. Es un mecanismo plausible y bien establecido para la congestión nasal.
 
-La congestión nasal ya es el uso principal conocido de la pseudoefedrina y de sus combinaciones antigripales. Por ello, esta predicción se acerca más a una **confirmación de una indicación existente** que a un reposicionamiento genuino. El puntaje alto del modelo (0.997) es coherente con esa farmacología.
+La congestión nasal ya es el uso principal conocido de la pseudoefedrina y de sus combinaciones antigripales. Por ello, esta predicción se acerca más a una **confirmación de una indicación existente** que a un reposicionamiento genuino. El puntaje alto del modelo (0.9975) es coherente con esa farmacología.
 
 Cabe señalar que el respaldo disponible es limitado: una revisión sobre rinitis no alérgica (2012), un estudio comparativo de descongestionantes orales y tópicos (fenilpropanolamina vs. d-pseudoefedrina, 2001) y varios modelos animales (perro y gato) de congestión nasal.
 

@@ -50,10 +50,10 @@ Cabe señalar que la dapsona ya está establecida en guías clínicas como alter
 |------|------|
 | Indicación Original | DAPSONA (el texto del registro no detalla la indicación) |
 | Nueva Indicación Predicha | Neumocistosis |
-| Puntaje de Predicción TxGNN | 99.73% |
+| Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -62,7 +62,7 @@ Cabe señalar que la dapsona ya está establecida en guías clínicas como alter
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la farmacología conocida, la dapsona es una sulfona antibacteriana que inhibe la dihidropteroato sintasa en la vía de síntesis de folato, el mismo blanco del componente sulfonamida del trimetoprim-sulfametoxazol (TMP-SMX). Esta interpretación proviene de la farmacología establecida y no del registro suministrado. Además, los datos de farmacología señalan que inhibe la actividad de la dihidrofolato reductasa en *Pneumocystis carinii* in vitro (CI50 de 1,5 µM).
 
-*Pneumocystis jirovecii* depende de la vía del folato, por lo que su inhibición es biológicamente plausible. Esto es coherente con el puntaje muy alto del modelo (0,997). Los usos clínicos conocidos de la dapsona incluyen lepra (como parte de un régimen múltiple), dermatitis herpetiforme y profilaxis de la neumonía por *Pneumocystis* en personas inmunodeprimidas, en particular con sida.
+*Pneumocystis jirovecii* depende de la vía del folato, por lo que su inhibición es biológicamente plausible. Esto es coherente con el puntaje muy alto del modelo (0,9973). Los usos clínicos conocidos de la dapsona incluyen lepra (como parte de un régimen múltiple), dermatitis herpetiforme y profilaxis de la neumonía por *Pneumocystis* en personas inmunodeprimidas, en particular con sida.
 
 En consecuencia, la predicción coincide con un uso ya reconocido en guías. Los ensayos clínicos de fase 3 comparan la dapsona con otros agentes en prevención y tratamiento de la neumonía por *Pneumocystis*.
 
@@ -106,8 +106,8 @@ En consecuencia, la predicción coincide con un uso ya reconocido en guías. Los
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20148515 | DAPSULON® 50 MG (cancelado) | Tableta cubierta con película | DAPSONA |
-| 20145596 | DAPSULON® 100 MG (cancelado) | Tableta | DAPSONA |
+| 20148515 | DAPSULON® 50 MG (vigente) | Tableta cubierta con película | DAPSONA |
+| 20145596 | DAPSULON® 100 MG (vigente) | Tableta | DAPSONA |
 
 ---
 

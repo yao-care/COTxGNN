@@ -4,7 +4,7 @@ title: Gefitinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 310
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Gefitinib"
 monitor_inn: "GEFITINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion 
 # Gefitinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 |------|------|
 | Indicación Original | Gefitinib (el registro sanitario no detalla la enfermedad) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,16 +85,16 @@ Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. To
 
 | Rango | Enfermedad Predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|------|
-| 1 | Fibromatosis gingival | 99.89% | L5 | Solo predicción |
-| 2 | Fibroma de pulmón | 99.86% | L5 | Solo predicción; probable inferencia desde el uso en cáncer de pulmón |
-| 3 | Miopatía por cuerpos de inclusión con enfermedad de Paget y/o demencia frontotemporal | 99.86% | L5 | Causada por mutaciones de VCP; sin vínculo plausible con EGFR |
-| 4 | Hamartoma de pulmón | 99.86% | L5 | Solo predicción |
-| 5 | Carcinoma del hilio pulmonar | 99.86% | L4 | Un reporte de caso; dentro de la indicación establecida de cáncer de pulmón |
-| 6 | Neoplasia benigna de pulmón | 99.85% | L4 | Literatura sobre CPNM maligno; evidencia indirecta |
-| 7 | Síndrome de leucomelanodermia-infantilismo-discapacidad intelectual-hipodoncia-hipotricosis | 99.84% | L5 | La literatura trata sobre toxicidades de gefitinib, no sobre este síndrome |
-| 8 | Tumor de células germinales de pulmón | 99.84% | L4 | Un ensayo con relevancia tangencial (NCT00068497) |
-| 9 | Neoplasia del surco pulmonar | 99.84% | L4 | Evidencia indirecta; en gran parte dentro de la indicación de cáncer de pulmón |
-| 10 | Epidermólisis bullosa de la unión | 99.84% | L5 | Solo predicción; las toxicidades cutáneas de gefitinib plantean un riesgo |
+| 1 | Fibromatosis gingival | 0.9989 | L5 | Solo predicción |
+| 2 | Fibroma de pulmón | 0.9986 | L5 | Solo predicción; probable inferencia desde el uso en cáncer de pulmón |
+| 3 | Miopatía por cuerpos de inclusión con enfermedad de Paget y/o demencia frontotemporal | 0.9986 | L5 | Causada por mutaciones de VCP; sin vínculo plausible con EGFR |
+| 4 | Hamartoma de pulmón | 0.9986 | L5 | Solo predicción |
+| 5 | Carcinoma del hilio pulmonar | 0.9986 | L4 | Un reporte de caso; dentro de la indicación establecida de cáncer de pulmón |
+| 6 | Neoplasia benigna de pulmón | 0.9985 | L4 | Literatura sobre CPNM maligno; evidencia indirecta |
+| 7 | Síndrome de leucomelanodermia-infantilismo-discapacidad intelectual-hipodoncia-hipotricosis | 0.9984 | L5 | La literatura trata sobre toxicidades de gefitinib, no sobre este síndrome |
+| 8 | Tumor de células germinales de pulmón | 0.9984 | L4 | Un ensayo con relevancia tangencial (NCT00068497) |
+| 9 | Neoplasia del surco pulmonar | 0.9984 | L4 | Evidencia indirecta; en gran parte dentro de la indicación de cáncer de pulmón |
+| 10 | Epidermólisis bullosa de la unión | 0.9984 | L5 | Solo predicción; las toxicidades cutáneas de gefitinib plantean un riesgo |
 
 ---
 
@@ -146,7 +146,7 @@ La predicción principal (fibromatosis gingival) solo cuenta con el puntaje del 
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Realizar estudios preclínicos o de mecanismo sobre la señal EGFR en fibroblastos gingivales.
 - Revisar si el sobrecrecimiento gingival tiene alternativas terapéuticas con mejor perfil de seguridad.
-- Evaluar la viabilidad regulatoria, dado que todos los registros están cancelados.
+- Evaluar la viabilidad regulatoria, dado que los 4 registros están vigentes y el medicamento está comercializado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

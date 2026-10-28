@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Inotersen
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 343
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"INOTER…"
@@ -14,7 +14,7 @@ predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-re
 # Inotersen
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "INOTERSEN") |
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
-| Puntaje de Predicción TxGNN | 99.92% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Puntaje de Predicción TxGNN | 0.9992 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

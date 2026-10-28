@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 ## Resumen en Una Frase
 
 El fenol es un compuesto antiséptico y cáustico, registrado en Colombia en soluciones bucales, bucofaríngeas y óticas (indicación registrada: "FENOL" y "COMBINACIONES").
-El modelo TxGNN predice que podría ser efectivo para **acrodermatitis crónica atrófica**, con un puntaje muy alto (99,95 %), pero sin **ningún ensayo clínico** ni **publicación** que respalde esta predicción.
+El modelo TxGNN predice que podría ser efectivo para **acrodermatitis crónica atrófica**, con un puntaje muy alto (0,9995), pero sin **ningún ensayo clínico** ni **publicación** que respalde esta predicción.
 Se trata de una predicción puramente computacional, sin sustento mecanístico identificado.
 
 ---
@@ -50,9 +50,9 @@ Se trata de una predicción puramente computacional, sin sustento mecanístico i
 |------|------|
 | Indicación Original | FENOL (registro sanitario sin indicación terapéutica detallada) |
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
-| Puntaje de Predicción TxGNN | 99,95 % |
+| Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La acrodermatitis crónica atrófica es la fase cutánea tardía de la borreliosis de Lyme y se trata con antibióticos. No se identificó un vínculo mecanístico plausible entre las acciones del fenol y esta enfermedad.
 
-El alto puntaje (rank 1459 en el modelo) refleja proximidad en el grafo de conocimiento, no un mecanismo demostrado. Por ello, esta predicción debe considerarse una hipótesis sin respaldo farmacológico.
+El alto puntaje (rank 1459 en el modelo) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un mecanismo demostrado. Por ello, esta predicción debe considerarse una hipótesis sin respaldo farmacológico.
 
 ---
 
@@ -86,9 +86,9 @@ Actualmente no hay literatura relacionada disponible para acrodermatitis crónic
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20229729 | NOXPIRIN® SOLUCIÓN BUCAL | Solución bucal | FENOL | Cancelado |
-| 20113559 | BUCALIV SPRAY® | Solución bucofaríngea | FENOL | Cancelado |
-| 20049882 | OTIFIX® SOLUCIÓN ÓTICA | Solución ótica | COMBINACIONES | Cancelado |
+| 20229729 | NOXPIRIN® SOLUCIÓN BUCAL | Solución bucal | FENOL | Vigente |
+| 20113559 | BUCALIV SPRAY® | Solución bucofaríngea | FENOL | Vigente |
+| 20049882 | OTIFIX® SOLUCIÓN ÓTICA | Solución ótica | COMBINACIONES | Vigente |
 
 ---
 
@@ -107,7 +107,7 @@ Consultar el prospecto para la información de seguridad oficial.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fenol tiene un perfil de toxicidad desfavorable y todos sus registros en Colombia están cancelados.
+La predicción se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fenol tiene un perfil de toxicidad desfavorable y está comercializado en Colombia, con 3 registros vigentes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).

@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, co
 |------|------|
 | Indicación Original | No especificada en el registro (el texto aprobado solo indica "Febuxostat") |
 | Nueva Indicación Predicha | Hipouricemia renal |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -88,8 +88,8 @@ La única conexión plausible, y especulativa, es un reporte de caso de un futbo
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20088755 | UREXIL® 80 MG TABLETAS RECUBIERTAS (estado: cancelado) | Tableta recubierta | Febuxostat |
-| 20122155 | FEBUDAY® 40 MG (estado: cancelado) | Tableta recubierta | Febuxostat |
+| 20088755 | UREXIL® 80 MG TABLETAS RECUBIERTAS (estado: vigente) | Tableta recubierta | Febuxostat |
+| 20122155 | FEBUDAY® 40 MG (estado: vigente) | Tableta recubierta | Febuxostat |
 
 ---
 
@@ -120,8 +120,8 @@ La hipouricemia renal es una condición de urato ya bajo, por lo que reducirlo m
 - Obtener el inserto del INVIMA para advertencias y contraindicaciones
 - Evaluar con especial atención el riesgo cardiovascular y cerebrovascular
 - Considerar las otras indicaciones predichas, más coherentes mecanísticamente, como líneas de investigación alternativas:
-  - **Deficiencia parcial de HPRT** (puntaje 99.98%, L4): racional biológico coherente, con evidencia solo de reportes de caso. Requiere monitorear el riesgo de nefropatía o litiasis por xantina.
-  - **Síndrome de Lesch-Nyhan** (puntaje 99.68%, L4): posible alternativa en pacientes intolerantes a alopurinol; no actúa sobre las manifestaciones neuroconductuales, y existe poca información pediátrica.
+  - **Deficiencia parcial de HPRT** (puntaje 0.9998, L4): racional biológico coherente, con evidencia solo de reportes de caso. Requiere monitorear el riesgo de nefropatía o litiasis por xantina.
+  - **Síndrome de Lesch-Nyhan** (puntaje 0.9968, L4): posible alternativa en pacientes intolerantes a alopurinol; no actúa sobre las manifestaciones neuroconductuales, y existe poca información pediátrica.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

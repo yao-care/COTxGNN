@@ -48,9 +48,9 @@ Alprazolam es una benzodiacepina cuyos registros sanitarios en Colombia solo con
 |------|------|
 | Indicación Original | No detallada (el registro INVIMA solo indica "Alprazolam") |
 | Nueva Indicación Predicha | Insomnio |
-| Puntaje de Predicción TxGNN | 99.81% |
+| Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -120,7 +120,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es muy alto, pero no hay ensayos clínicos y la evidencia disponible para insomnio es solo indirecta. Además, todos los registros sanitarios en Colombia están cancelados y existen riesgos relevantes de dependencia y sedación.
+El puntaje del modelo es muy alto, pero no hay ensayos clínicos y la evidencia disponible para insomnio es solo indirecta. Además, el medicamento está comercializado en Colombia con 4 registros sanitarios vigentes y existen riesgos relevantes de dependencia y sedación.
 
 **Para avanzar se necesita:**
 - Evidencia directa: ensayos controlados de alprazolam frente a placebo u otros hipnóticos en insomnio.
@@ -128,7 +128,7 @@ El puntaje del modelo es muy alto, pero no hay ensayos clínicos y la evidencia 
 - Aclarar la indicación aprobada en los registros INVIMA y la razón de las cancelaciones.
 - Un plan de seguridad para poblaciones vulnerables (adultos mayores, cirrosis, apnea del sueño) y para interacciones con depresores del sistema nervioso central.
 
-Nota: el modelo también predijo **agorafobia** (puntaje 99.56%, nivel L1, "Proceed with Guardrails"), respaldada por múltiples estudios controlados en trastorno de pánico con agorafobia. Se trata, en la práctica, de un uso ya establecido del alprazolam y no de un reposicionamiento nuevo.
+Nota: el modelo también predijo **agorafobia** (puntaje 0.9956, nivel L1, "Proceed with Guardrails"), respaldada por múltiples estudios controlados en trastorno de pánico con agorafobia. Se trata, en la práctica, de un uso ya establecido del alprazolam y no de un reposicionamiento nuevo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

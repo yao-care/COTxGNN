@@ -6,9 +6,9 @@ nav_order: 545
 evidence_level: L4
 indication_count: 3
 last_modified_at: 2026-10-14
-description: "Raltegravir: nueva indicación predicha, Infección por virus de inmunodeficiencia simia (nivel de evidencia L4). Indicación original: Sin descripción detallada en el registro sanitario (solo figura \"R…"
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
+description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: RALTEGRAVIR"
 ---
 
 # Raltegravir
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 </div>
 
-## Raltegravir: De Indicación Registrada (sin descripción detallada) a Infección por Virus de Inmunodeficiencia Simia
+## Raltegravir: Simian immunodeficiency virus infection
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,12 +47,12 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por virus 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Sin descripción detallada en el registro sanitario (solo figura "Raltegravir") |
-| Nueva Indicación Predicha | Infección por virus de inmunodeficiencia simia |
-| Puntaje de Predicción TxGNN | 99.78% |
+| Indicación Original | RALTEGRAVIR |
+| Nueva Indicación Predicha | Simian immunodeficiency virus infection |
+| Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -63,7 +63,7 @@ No se dispone actualmente de datos detallados sobre el mecanismo de acción regi
 
 La integrasa del SIV es estructural y funcionalmente muy similar a la del VIH-1, por lo que es plausible que el fármaco inhiba la replicación del SIV. La literatura preclínica lo respalda: la respuesta del SIVmac251 a raltegravir, el perfil de resistencia a los INSTI en SIV y varios estudios en macacos rhesus infectados.
 
-Hay que matizar el alcance de la predicción. La infección por SIV es una enfermedad de modelo animal, no una indicación clínica humana, y el fármaco ya se usa contra el VIH-1 en humanos. Su valor traslacional es, por tanto, el de un **modelo de investigación** y no el de una nueva indicación para pacientes. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felina y un trastorno del neurodesarrollo con marcha atáxica) carecen de ensayos y literatura. La segunda no tiene un vínculo mecanístico plausible y probablemente es un artefacto del grafo de conocimiento.
+Hay que matizar el alcance de la predicción. La infección por SIV es una enfermedad de modelo animal, no una indicación clínica humana, y el fármaco ya se usa contra el VIH-1 en humanos. Su valor traslacional es, por tanto, el de un **modelo de investigación** y no el de una nueva indicación para pacientes. Las otras dos predicciones (síndrome de inmunodeficiencia adquirida felina y un trastorno del neurodesarrollo con marcha atáxica) carecen de ensayos y literatura. La segunda no tiene un vínculo mecanístico plausible y probablemente es un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ---
 
@@ -96,8 +96,8 @@ Todos los estudios son preclínicos (macacos o in vitro). No se identificaron EC
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20082552 | ISENTRESS® GRÁNULOS PARA SUSPENSIÓN ORAL 100 MG (estado: cancelado) | Gránulos | Raltegravir |
-| 20060995 | ISENTRESS® TABLETAS MASTICABLES 25 MG (estado: cancelado) | Tableta masticable | Raltegravir |
+| 20082552 | ISENTRESS® GRÁNULOS PARA SUSPENSIÓN ORAL 100 MG (estado: vigente) | Gránulos | Raltegravir |
+| 20060995 | ISENTRESS® TABLETAS MASTICABLES 25 MG (estado: vigente) | Tableta masticable | Raltegravir |
 
 ---
 

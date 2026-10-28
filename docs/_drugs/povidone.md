@@ -48,9 +48,9 @@ Povidona figura en el registro sanitario de Colombia dentro del producto COLMIBE
 |------|------|
 | Indicación Original | Atorvastatina y ezetimibe |
 | Nueva Indicación Predicha | Eritrodermia ictiosiforme congénita |
-| Puntaje de Predicción TxGNN | 99.11% |
+| Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Povidona figura en el registro sanitario de Colombia dentro del producto COLMIBE
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la povidona es un polímero sintético que se usa principalmente como excipiente y aglutinante; en su forma de povidona yodada se emplea como antiséptico tópico. La indicación original que consta en el registro (atorvastatina y ezetimibe) corresponde a un producto combinado en el que la povidona no es el principio activo.
 
-No se pudo establecer un vínculo mecanístico validado entre la povidona y la eritrodermia ictiosiforme congénita. El único respaldo es el puntaje alto del grafo de conocimiento de TxGNN (0.991), que es una inferencia computacional sin corroboración clínica.
+No se pudo establecer un vínculo mecanístico validado entre la povidona y la eritrodermia ictiosiforme congénita. El único respaldo es el puntaje alto del modelo TxGNN (aprendizaje profundo) (0.9911), que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y es una inferencia computacional sin corroboración clínica.
 
 Una conexión posible, pero puramente especulativa, sería el efecto emoliente, formador de película y retenedor de humedad sobre piel hiperqueratósica. Ninguna evidencia recuperada respalda esta hipótesis, y además no actuaría sobre el defecto genético de fondo (mutaciones en genes como TGM1, ALOXE3, ALOX12B o NIPAL4, que afectan la barrera epidérmica y el metabolismo lipídico). La compatibilidad de vías de administración tampoco ha sido evaluada: el único producto registrado es oral (tableta).
 

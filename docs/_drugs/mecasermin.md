@@ -4,7 +4,7 @@ title: Mecasermin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 420
 evidence_level: L5
-indication_count: 5
+indication_count: 4
 last_modified_at: 2026-10-14
 description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
 monitor_inn: "mecasermin"
@@ -14,7 +14,7 @@ predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia a
 # Mecasermin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **monosomía X (síndrome 
 |------|------|
 | Indicación Original | MECASERMINA (el registro no detalla la indicación; el texto solo repite el nombre del principio activo) |
 | Nueva Indicación Predicha | Monosomía X |
-| Puntaje de Predicción TxGNN | 99.59% |
-| Nivel de Evidencia | L4 (solo plausibilidad mecanística indirecta; no hay estudios recuperados) |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Puntaje de Predicción TxGNN | 0.9959 |
+| Nivel de Evidencia | L5 (solo plausibilidad mecanística indirecta; no hay estudios recuperados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -69,10 +69,9 @@ El puntaje TxGNN muy alto es solo una predicción computacional. No se recuperar
 
 | Enfermedad Predicha | Puntaje TxGNN | Nivel | Valoración |
 |------|------|------|------|
-| Síndrome de insensibilidad a la GH con disregulación inmune tipo 2, autosómico dominante | 99.06% | L4 | Es el candidato biológicamente más coherente (insensibilidad a la GH con IGF-1 bajo, cercano a la indicación aprobada de mecasermina), aunque el componente inmunológico no se resolvería con IGF-1 |
-| Enfermedad de Wolman con hipolipoproteinemia y acantocitosis | 99.09% | L5 | Sin vínculo mecanístico claro; especulativo |
-| Várices esofágicas con sangrado | 99.03% | L5 | Sin vínculo mecanístico directo; la deficiencia de IGF-1 en hepatopatía es un marcador, no una justificación terapéutica |
-| Várices esofágicas sin sangrado | 99.03% | L5 | Puntaje idéntico al anterior, probablemente un artefacto de nodos del grafo y no una señal independiente |
+| Enfermedad de Wolman con hipolipoproteinemia y acantocitosis | 0.9909 | L5 | Sin vínculo mecanístico claro; especulativo |
+| Várices esofágicas con sangrado | 0.9903 | L5 | Sin vínculo mecanístico directo; la deficiencia de IGF-1 en hepatopatía es un marcador, no una justificación terapéutica |
+| Várices esofágicas sin sangrado | 0.9903 | L5 | Puntaje idéntico al anterior; proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica |
 
 ---
 

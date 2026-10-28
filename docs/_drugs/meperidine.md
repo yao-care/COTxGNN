@@ -48,10 +48,10 @@ La meperidina (petidina) es un analgésico opioide cuyo único registro sanitari
 |------|------|
 | Indicación Original | Petidina (según el registro INVIMA; no se detalla una indicación clínica) |
 | Nueva Indicación Predicha | Síndrome de Tourette |
-| Puntaje de Predicción TxGNN | 99.46% |
+| Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Sin embargo, los datos disponibles **no respaldan un vínculo mecanístico** con
 
 El puntaje alto de TxGNN (0.9946) es una predicción computacional que no está sustentada por evidencia clínica ni bibliográfica. Debe interpretarse como una hipótesis para generar investigación, no como una indicación de eficacia.
 
-**Otra predicción del modelo:** la tricotilomanía (puntaje 99.39%, nivel L5, Hold). Aquí el vínculo es incluso contraintuitivo, porque para esa condición se han explorado antagonistas opioides (como la naltrexona) y no agonistas.
+**Otra predicción del modelo:** la tricotilomanía (puntaje 0.9939, nivel L5, Hold). Aquí el vínculo es incluso contraintuitivo, porque para esa condición se han explorado antagonistas opioides (como la naltrexona) y no agonistas.
 
 ---
 

@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 |------|------|
 | Indicación Original | Mebendazol (el registro no detalla la indicación; se trata de un antiparasitario) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.20% |
+| Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El acné vulgar depende de la producción excesiva de sebo, la hiperqueratinización folicular, la colonización por *Cutibacterium acnes* y la inflamación. No se identificó un vínculo mecanístico creíble con la alteración de los microtúbulos. Un posible efecto antiproliferativo o antiinflamatorio sobre sebocitos o queratinocitos es puramente especulativo.
 
-El puntaje alto de TxGNN (99.20%) proviene solo de una predicción basada en grafos de conocimiento y no está respaldado por datos clínicos ni mecanísticos. Debe interpretarse con mucha cautela.
+El puntaje alto de TxGNN (0.9920) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No está respaldado por datos clínicos ni mecanísticos. Debe interpretarse con mucha cautela.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -75,8 +75,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION (cancelado) | Suspensión oral | Mebendazol |
-| 19946472 | CHALVER ZAKOR® SUSPENSION (cancelado) | Suspensión oral | Mebendazol |
+| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION (vigente) | Suspensión oral | Mebendazol |
+| 19946472 | CHALVER ZAKOR® SUSPENSION (vigente) | Suspensión oral | Mebendazol |
 
 ## Consideraciones de Seguridad
 

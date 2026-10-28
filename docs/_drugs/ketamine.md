@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Ketamine
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 365
-evidence_level: L5
+evidence_level: L1
 indication_count: 1
 last_modified_at: 2026-10-14
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L5). Indicación original: KETAMINA"
@@ -14,7 +14,7 @@ predicted_indications: ["headache disorder"]
 # Ketamine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **9 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 |------|------|
 | Indicación Original | KETAMINA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
-| Puntaje de Predicción TxGNN | 99.33% |
+| Puntaje de Predicción TxGNN | 0.9933 |
 | Nivel de Evidencia | L1 (condicionado: ver nota en la conclusión) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La sensibilización central y la señalización glutamatérgica contribuyen a la migraña, la cefalea en racimos y el dolor de cabeza crónico. El bloqueo de los receptores NMDA podría atenuar la depresión cortical propagada, la transmisión nociceptiva trigeminovascular y el fenómeno de "wind-up" (amplificación progresiva del dolor). Esto ofrece un mecanismo plausible para un efecto analgésico en los trastornos de cefalea.
 
-La indicación original registrada es poco específica, por lo que la relación con la nueva indicación se apoya sobre todo en el mecanismo y en la evidencia clínica. El puntaje TxGNN (0.993) es solo una predicción computacional y no constituye evidencia clínica.
+La indicación original registrada es poco específica, por lo que la relación con la nueva indicación se apoya sobre todo en el mecanismo y en la evidencia clínica. El puntaje TxGNN (0.9933) es solo una predicción computacional y no constituye evidencia clínica.
 
 ---
 

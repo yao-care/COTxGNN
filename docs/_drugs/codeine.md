@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Codeine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 178
-evidence_level: L4
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "Codeine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis", "trigeminal autonomic cephalalgia", "allergic urticaria"]
+predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 ---
 
 # Codeine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 |------|------|
 | Indicación Original | Paracetamol, combinaciones excluyendo psicolépticos |
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Predicción TxGNN | 99.93% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9993 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 Con los datos disponibles **no se sustenta un mecanismo terapéutico** para la enfermedad de la cavidad nasal. La única publicación es un reporte de caso de rinolitiasis formada alrededor de un cuerpo extraño que resultó ser una mezcla endurecida de codeína y opio (un "opioma"). Esto describe un evento incidental o adverso relacionado con el fármaco, no un beneficio.
 
-El puntaje alto del modelo (99.93%) no está corroborado por ninguna evidencia clínica de eficacia. Debe interpretarse como una asociación en el grafo de conocimiento, no como potencial terapéutico demostrado.
+El puntaje alto del modelo (0.9993) no está corroborado por ninguna evidencia clínica de eficacia. Proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No debe interpretarse como potencial terapéutico demostrado.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 58027 | ALGIMIDE TABLETAS | Tableta | Paracetamol, combinaciones excluyendo psicolépticos | Cancelado |
+| 58027 | ALGIMIDE TABLETAS | Tableta | Paracetamol, combinaciones excluyendo psicolépticos | Vigente |
 
 ---
 
@@ -123,9 +123,8 @@ La única evidencia es un reporte de caso que describe un efecto adverso (un rin
 
 | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Observación | Decisión |
 |------|------|------|------|------|
-| Laringofaringitis aguda | 99.92% | L5 | Solo predicción, sin ensayos ni literatura. Posible racional indirecto por la acción antitusiva central, que sería alivio sintomático y no modificación de la enfermedad. | Hold |
-| Cefalea autonómica trigeminal | 99.43% | L4 | Dos publicaciones (una experiencia clínica pediátrica y un reporte de caso por mal uso de cocaína) que no muestran eficacia de la codeína. Los opioides conllevan riesgo de cefalea por uso excesivo de medicación y dependencia. | Hold |
-| Urticaria alérgica | 99.37% | L4 | La literatura señala a la codeína como **inductora** de urticaria (liberadora directa de histamina en mastocitos, usada como modelo de prueba cutánea), no como tratamiento. El reposicionamiento está desaconsejado por la evidencia disponible. | Hold |
+| Cefalea autonómica trigeminal | 0.9943 | L4 | Dos publicaciones (una experiencia clínica pediátrica y un reporte de caso por mal uso de cocaína) que no muestran eficacia de la codeína. Los opioides conllevan riesgo de cefalea por uso excesivo de medicación y dependencia. | Hold |
+| Urticaria alérgica | 0.9937 | L4 | La literatura señala a la codeína como **inductora** de urticaria (liberadora directa de histamina en mastocitos, usada como modelo de prueba cutánea), no como tratamiento. El reposicionamiento está desaconsejado por la evidencia disponible. | Hold |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

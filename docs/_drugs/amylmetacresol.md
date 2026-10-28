@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de la cauda eq
 |------|------|
 | Indicación Original | Dicloro­bencil alcohol (según el registro INVIMA) |
 | Nueva Indicación Predicha | Síndrome de la cauda equina |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de la cauda eq
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, amilmetacresol es un antiséptico que se usa en pastillas para la garganta, normalmente junto con alcohol dicloro­bencílico, y su uso se limita a la mucosa orofaríngea.
 
-Con la información compilada, **no se identifica un vínculo mecanístico plausible** con el síndrome de la cauda equina. Esta es una condición neurológica compresiva que se maneja principalmente con cirugía, y un antiséptico de uso local no tiene una justificación terapéutica evidente. El puntaje alto de TxGNN (99.99%) es solo una predicción computacional y no está respaldado por evidencia clínica ni bibliográfica.
+Con la información compilada, **no se identifica un vínculo mecanístico plausible** con el síndrome de la cauda equina. Esta es una condición neurológica compresiva que se maneja principalmente con cirugía, y un antiséptico de uso local no tiene una justificación terapéutica evidente. El puntaje alto de TxGNN (0.9999) es solo una predicción computacional y no está respaldado por evidencia clínica ni bibliográfica.
 
 Otras predicciones del modelo muestran el mismo patrón. Las principales son vejiga neurogénica (término obsoleto en la ontología), síndrome del intestino irritable, y varias enfermedades oculares (cuerpo ciliar, panuveítis, enfermedad del iris, uveítis). Para el intestino irritable existe solo un vínculo especulativo: se ha propuesto un efecto tipo anestésico local (bloqueo de canales de sodio), pero el uso en pastillas implica una exposición sistémica o intestinal mínima. Para las indicaciones oculares no hay datos de seguridad ni de penetración, y los antisépticos fenólicos podrían ser irritantes o tóxicos en el ojo.
 

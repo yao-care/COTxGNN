@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Temozolomide
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 610
-evidence_level: L1
-indication_count: 2
-last_modified_at: 2026-10-14
-description: "Temozolomide: nueva indicación predicha, Tumor astrocítico del adulto (adult astrocytic tumour) (nivel de evidencia L1). Indicación original: Temozolomida"
+evidence_level: L5
+indication_count: 1
 monitor_inn: "Temozolomide"
-predicted_indications: ["adult astrocytic tumour", "cauda equina neoplasm"]
+predicted_indications: ["cauda equina neoplasm"]
+last_modified_at: 2026-10-23
+description: "Temozolomide: nueva indicación predicha, Neoplasia de la cauda equina (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto indica únicamente \"TEMOZOLOM…"
 ---
 
 # Temozolomide
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,118 +33,86 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **2**
 
 </div>
 
-## Temozolomida: De Indicación Registrada (Temozolomida) a Tumor Astrocítico del Adulto
+## Temozolomida: De TEMOZOLOMIDA (indicación sin detalle en el registro) a Neoplasia de la cauda equina
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Temozolomida es un agente alquilante oral, registrado en Colombia bajo cuatro licencias sanitarias que hoy están todas canceladas. El modelo TxGNN predice que podría ser efectivo para **tumor astrocítico del adulto**, con **2 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Esta indicación es en la práctica un uso ya establecido (estándar de tratamiento en glioma) y no un reposicionamiento propiamente dicho.
-
----
+Temozolomida es un agente alquilante oral con registros sanitarios vigentes en Colombia; el texto de indicación de esos registros solo repite el nombre del principio activo, sin detallar el uso aprobado.
+El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda equina**, pero no hay ensayos clínicos registrados y solo se dispone de **3 publicaciones** (reportes de caso), de las cuales solo una trata directamente un tumor de esta región.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Temozolomida (el texto del registro sanitario no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Tumor astrocítico del adulto (adult astrocytic tumour) |
-| Puntaje de Predicción TxGNN | 99.36% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Indicación Original | No especificada en el registro (el texto indica únicamente "TEMOZOLOMIDA") |
+| Nueva Indicación Predicha | Neoplasia de la cauda equina |
+| Puntaje de Predicción TxGNN | 0,9930 |
+| Nivel de Evidencia | L5 (un reporte de caso sobre ependimoma mixopapilar espinal, tumor típico de la cauda equina) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Número de Registros Sanitarios | Al menos 4 (la lista puede ser parcial) |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la farmacología establecida, temozolomida es un agente alquilante oral que metila el ADN (posiciones O6-guanina, N7-guanina y N3-adenina). Las lesiones O6-metilguanina provocan citotoxicidad mediada por el sistema de reparación de errores de apareamiento (mismatch repair) en células tumorales con baja actividad de MGMT, es decir, con el promotor de MGMT metilado.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general del fármaco, la temozolomida es un agente alquilante oral que metila el ADN (posiciones O6-guanina, N7-guanina y N3-adenina), lo que causa daño citotóxico y apoptosis en células tumorales en división. Esta descripción proviene de conocimiento general y no de los datos compilados.
 
-Este mecanismo es directamente relevante para los tumores astrocíticos, incluidos el glioblastoma y el astrocitoma anaplásico. La literatura recuperada confirma que la radioterapia con temozolomida concomitante y adyuvante es el tratamiento estándar del glioblastoma recién diagnosticado.
+Las neoplasias de la cauda equina son, con mayor frecuencia, ependimomas mixopapilares, tumores del sistema nervioso central de linaje glial. Esto establece un vínculo plausible con el uso conocido de la temozolomida en gliomas. La sensibilidad probablemente depende del estado de metilación del promotor de MGMT (baja expresión favorece la respuesta), dato que no está disponible aquí.
 
-El puntaje de TxGNN (0.994) es coherente con la evidencia clínica. Como el texto del registro INVIMA solo dice "TEMOZOLOMIDA", no se puede contrastar formalmente la indicación original con la nueva.
-
----
+El puntaje de 0,993 es una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00052455](https://clinicaltrials.gov/study/NCT00052455) | Fase 3 | Completado | 500 | Ensayo aleatorizado que compara temozolomida con PCV (procarbazina, lomustina y vincristina) en astrocitoma recurrente WHO grado III y IV. Evidencia directa. |
-| [NCT00960492](https://clinicaltrials.gov/study/NCT00960492) | Fase 1 | Completado | 26 | Búsqueda de dosis de XL184 (cabozantinib) con temozolomida y radioterapia en glioblastoma de primera línea. Aporta poco a la eficacia de temozolomida. |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15758009](https://pubmed.ncbi.nlm.nih.gov/15758009/) | 2005 | ECA | N Engl J Med | Radioterapia con temozolomida concomitante y adyuvante frente a radioterapia sola en glioblastoma. |
-| [19269895](https://pubmed.ncbi.nlm.nih.gov/19269895/) | 2009 | ECA | Lancet Oncol | Análisis a 5 años del ensayo EORTC-NCIC de fase 3 sobre supervivencia con temozolomida más radioterapia. |
-| [22578793](https://pubmed.ncbi.nlm.nih.gov/22578793/) | 2012 | ECA | Lancet Oncol | NOA-08: temozolomida sola frente a radioterapia sola en astrocitoma maligno de ancianos (fase 3). |
-| [30782343](https://pubmed.ncbi.nlm.nih.gov/30782343/) | 2019 | ECA | Lancet | CeTeG/NOA-09: lomustina-temozolomida frente a temozolomida estándar en glioblastoma con MGMT metilado (fase 3). |
-| [26670971](https://pubmed.ncbi.nlm.nih.gov/26670971/) | 2015 | ECA | JAMA | Campos de tratamiento tumoral (TTFields) con temozolomida de mantenimiento frente a temozolomida sola. |
-| [29260225](https://pubmed.ncbi.nlm.nih.gov/29260225/) | 2017 | ECA | JAMA | Efecto de TTFields con temozolomida de mantenimiento sobre la supervivencia en glioblastoma. |
-| [24552317](https://pubmed.ncbi.nlm.nih.gov/24552317/) | 2014 | ECA | N Engl J Med | Bevacizumab añadido al tratamiento estándar con temozolomida en glioblastoma recién diagnosticado. |
-| [39480453](https://pubmed.ncbi.nlm.nih.gov/39480453/) | 2024 | ECA | JAMA Oncol | Veliparib añadido a temozolomida en glioblastoma con MGMT metilado. |
-| [34898238](https://pubmed.ncbi.nlm.nih.gov/34898238/) | 2022 | Guía clínica | J Clin Oncol | Guía ASCO-SNO sobre el tratamiento de tumores astrocíticos y oligodendrogliales difusos en adultos. |
-| [27668386](https://pubmed.ncbi.nlm.nih.gov/27668386/) | 2016 | Revisión | Clin J Oncol Nurs | Panorama de la enfermedad y el tratamiento del glioblastoma. |
-
----
+| [29270703](https://pubmed.ncbi.nlm.nih.gov/29270703/) | 2018 | Reporte de caso | European Spine Journal | Eficacia notable de temozolomida en un ependimoma mixopapilar espinal recidivante, con recurrencias múltiples y diseminación por líquido cefalorraquídeo; incluye revisión de literatura |
+| [42760727](https://pubmed.ncbi.nlm.nih.gov/42760727/) | 2026 | Reporte de caso | Medicine | Carcinoma NUT nasal con respuestas repetidas a tratamiento multimodal con radioterapia; no estudia directamente la neoplasia de la cauda equina |
+| [18706663](https://pubmed.ncbi.nlm.nih.gov/18706663/) | 2009 | Reporte de caso | Neuro-Chirurgie | Criptococosis neuromeníngea atípica en un niño inmunocomprometido tratado por glioma pontino; no evalúa eficacia en esta indicación |
 
 ## Información de Mercado en Colombia
 
-Las cuatro licencias están canceladas; actualmente no hay presentaciones vigentes.
+La lista puede ser parcial.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20001038 | TEMODAL® Cápsulas 140 mg (Merck Sharp & Dohme) | Cápsula dura | TEMOZOLOMIDA (cancelado) |
-| 19907390 | TEMODAL® Cápsulas 20 mg (Merck Sharp & Dohme) | Cápsula dura | TEMOZOLOMIDA (cancelado) |
-| 20087083 | TEMITOMA 20 mg (Sun Pharmaceutical) | Cápsula dura | TEMOZOLOMIDA (cancelado) |
-| 20196779 | MOZOLA® 20 mg (Eurofarma Colombia) | Cápsula dura | TEMOZOLOMIDA (cancelado) |
-
----
+| 20001038 | TEMODAL® CÁPSULAS 140 MG | Cápsula dura | TEMOZOLOMIDA |
+| 19907390 | TEMODAL® CÁPSULAS 20 MG | Cápsula dura | TEMOZOLOMIDA |
+| 20087083 | TEMITOMA 20 MG | Cápsula dura | TEMOZOLOMIDA |
+| 20196779 | MOZOLA® 20 MG CÁPSULA | Cápsula dura | TEMOZOLOMIDA |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Citotóxico convencional (agente alquilante) |
-| Riesgo de Mielosupresión | Alto. Las asociaciones fármaco-enfermedad del grafo de conocimiento incluyen trombocitopenia, neutropenia, pancitopenia, agranulocitosis, anemia y anemia aplásica. |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. Las relaciones registradas en el grafo de conocimiento (trombocitopenia, neutropenia, pancitopenia, anemia aplásica) apuntan a toxicidad hematológica |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Ítems de Monitoreo | Hemograma completo con diferencial (plaquetas y neutrófilos), función hepática y función renal |
-| Protección en Manejo | Seguir las regulaciones de manejo de fármacos citotóxicos |
-
----
+| Items de Monitoreo | Hemograma completo con diferencial, función hepática y renal |
+| Protección en Manejo | Debe seguir las regulaciones de manejo de fármacos citotóxicos |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** insuficiencia hepática, trombocitopenia, neutropenia, agranulocitosis, anemia (incluida la macrocítica), neumocistosis, pancitopenia, linfopenia, síndrome mielodisplásico y anemia aplásica idiopática o aplásica.
-- **Interacciones farmacológicas:** se identificaron 100 interacciones potenciales. La única de nivel moderado es **naltrexona**; **levofloxacino** es de nivel menor. El resto aparece con nivel no clasificado (por ejemplo calcitriol, pantoprazol, doxiciclina, clotrimazol, morfina, metformina, omeprazol, lansoprazol, prednisona, anfotericina B e hidrocortisona).
-
-No se dispone de las advertencias y contraindicaciones del prospecto de INVIMA; consultar el prospecto para confirmarlas.
-
----
+- **Relaciones de contraindicación registradas en el grafo de conocimiento** (no provienen del texto del prospecto): insuficiencia hepática, trombocitopenia, neutropenia, agranulocitosis, anemia, anemia macrocítica, neumocistosis, pancitopenia, linfopenia, síndrome mielodisplásico, anemia aplásica idiopática y anemia aplásica.
+- **Interacciones farmacológicas**: se identificaron 100 interacciones en total (se muestran las principales). De nivel moderado: naltrexona. De nivel menor: levofloxacino. Con nivel no clasificado, entre otras: pantoprazol, omeprazol, lansoprazol, morfina, metformina, prednisona, hidrocortisona y anfotericina B.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay varios ECA de fase 3 completados, entre ellos NCT00052455 y los estudios EORTC-NCIC y NOA-08, que respaldan el uso de temozolomida en tumores astrocíticos, por lo que el nivel de evidencia es L1. Sin embargo, esta indicación ya es un estándar de tratamiento, y los cuatro registros colombianos están cancelados.
+La evidencia directa es un único reporte de caso sobre un ependimoma mixopapilar espinal, sin ensayos clínicos. El puntaje alto de TxGNN es solo una predicción computacional. Además, el texto del registro sanitario no detalla la indicación aprobada y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales, ya que su ausencia bloquea el tamizaje de seguridad.
-- Confirmar el mecanismo de acción en DrugBank.
-- Aclarar la situación regulatoria: por qué se cancelaron los registros y si existe otra vía de acceso al medicamento en Colombia.
-- Definir un plan de monitoreo hematológico, dado el alto riesgo de mielosupresión.
-- Revisar las interacciones de nivel moderado y las no clasificadas antes de su uso.
-
----
-
-### Nota sobre la segunda predicción (neoplasia de la cola de caballo)
-
-El modelo también predice **neoplasia de cauda equina** (puntaje 99.30%), pero con nivel de evidencia **L4**, sin ensayos clínicos y con un solo reporte de caso relevante (PMID 29270703, ependimoma mixopapilar espinal recurrente con respuesta a temozolomida). Las otras dos publicaciones recuperadas tratan de enfermedades distintas. Se clasifica como pregunta de investigación y no como candidata para avanzar.
+- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
+- Confirmar la indicación aprobada en los registros sanitarios.
+- Completar los datos del mecanismo de acción desde DrugBank.
+- Revisar sistemáticamente la literatura sobre ependimomas mixopapilares y neoplasias de la cauda equina tratados con temozolomida.
+- Evaluar el estado de metilación de MGMT como posible biomarcador de respuesta.
+- Definir un plan de monitoreo hematológico y hepático.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

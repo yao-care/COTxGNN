@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, con **0 ensayos
 |------|------|
 | Indicación Original | Metronidazol (texto tal como figura en el registro; corresponde a una combinación con miconazol) |
 | Nueva Indicación Predicha | Acné |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ No se dispone de datos detallados sobre el mecanismo de acción en los datos com
 
 Para el acné se plantean tres vías plausibles: (1) actividad in vitro de los azoles frente a *Cutibacterium (Propionibacterium) acnes* (PMID 20045949); (2) actividad frente a *Malassezia*, causante de la foliculitis por Pityrosporum, una afección que imita al acné (PMID 8593718); y (3) efectos antiinflamatorios y antibacterianos descritos sobre la piel (PMID 18627330).
 
-El puntaje alto de TxGNN (0.995) es coherente con estos vínculos, pero es una predicción computacional y no constituye evidencia clínica. Cabe destacar que parte de la evidencia se refiere a una afección que simula el acné, no al acné vulgar propiamente dicho.
+El puntaje alto de TxGNN (0.9954) es coherente con estos vínculos, pero es una predicción computacional y no constituye evidencia clínica. Cabe destacar que parte de la evidencia se refiere a una afección que simula el acné, no al acné vulgar propiamente dicho.
 
 ---
 

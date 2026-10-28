@@ -50,9 +50,9 @@ El posible beneficio sería de apoyo (elevar plaquetas en trombocitopenia asocia
 |------|------|
 | Indicación Original | ELTROMBOPAG (los registros solo indican el nombre del principio activo, sin texto de indicación) |
 | Nueva Indicación Predicha | Infección por VIH |
-| Puntaje de Predicción TxGNN | 99.26% |
+| Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -95,10 +95,10 @@ Un cribado in vitro (PMID 32977702) sugirió que eltrombopag podría modular la 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20196775 | TROMBOLADE® 50 MG TABLETA RECUBIERTA | Tableta recubierta | ELTROMBOPAG (cancelado) |
-| 20254187 | ELTHROPA® 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (cancelado) |
-| 20254196 | ELTHROPA® 50 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (cancelado) |
-| 20193113 | BIEMPAG® 25MG TABLETAS RECUBIERTAS | Tableta cubierta con película | ELTROMBOPAG (cancelado) |
+| 20196775 | TROMBOLADE® 50 MG TABLETA RECUBIERTA | Tableta recubierta | ELTROMBOPAG (vigente) |
+| 20254187 | ELTHROPA® 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (vigente) |
+| 20254196 | ELTHROPA® 50 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (vigente) |
+| 20193113 | BIEMPAG® 25MG TABLETAS RECUBIERTAS | Tableta cubierta con película | ELTROMBOPAG (vigente) |
 
 ---
 

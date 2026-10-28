@@ -8,6 +8,7 @@ nav_order: 14
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Abiraterona
@@ -51,7 +52,7 @@ Se identifican **múltiples brechas de datos críticas** que deben resolverse an
 | Nueva Indicación Predicha | — No disponible (sin predicciones TxGNN) |
 | Puntaje de Predicción TxGNN | — No disponible |
 | Nivel de Evidencia | **L5** (sin predicción ni estudios asociados) |
-| Estado de Mercado en Colombia | ❌ No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

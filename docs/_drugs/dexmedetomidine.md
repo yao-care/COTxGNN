@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 |------|------|
 | Indicación Original | Dexmedetomidina (el registro solo indica el nombre del principio activo, sin texto de indicación clínica) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
-| Puntaje de Predicción TxGNN | 99.60% |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Dexmedetomidina es un agonista alfa-2 adrenérgico. Puede suprimir la liberació
 
 Sin embargo, el síndrome nefrogénico de antidiuresis inapropiada se origina por mutaciones con ganancia de función en el receptor V2 de vasopresina (AVPR2). Ese defecto actúa por debajo del punto de secreción de la hormona. Un efecto simpaticolítico central sobre la liberación de vasopresina no corregiría una alteración a nivel del receptor.
 
-Por lo tanto, el vínculo mecanístico es débil y la predicción probablemente sea un artefacto del grafo de conocimiento. El puntaje del modelo es muy alto (0.996), pero ninguna evidencia clínica o bibliográfica lo respalda.
+Por lo tanto, el vínculo mecanístico es débil y la predicción probablemente sea un artefacto del modelo TxGNN (aprendizaje profundo). El puntaje del modelo es muy alto (0.996), pero ninguna evidencia clínica o bibliográfica lo respalda.
 
 ---
 
@@ -108,14 +108,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 - El puntaje del modelo es alto, pero no hay ensayos ni publicaciones. El mecanismo de la enfermedad (defecto del receptor V2) no se corrige con la acción central de un agonista alfa-2, por lo que la predicción es poco creíble.
-- Todos los registros sanitarios en Colombia están cancelados, lo que limita además la disponibilidad del producto.
+- El medicamento está comercializado en este país y cuenta con 5 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o de mecanismo que demuestren algún efecto sobre la función del receptor V2 o sobre la antidiuresis en este síndrome.
 - Revisión del prospecto oficial para completar la información de seguridad.
 - Aclarar la situación regulatoria de los registros cancelados antes de cualquier desarrollo local.
 
-**Nota sobre otras predicciones del mismo fármaco:** la indicación *trastorno de cefalea* (puntaje 99.30%) tiene mayor respaldo. Cuenta con un ensayo de Fase 3 completado (NCT04910477, n=90), un ensayo aleatorizado publicado (PMID 36651373) y una revisión sistemática de 2025 (PMID 41120897). Todo ello se limita a la cefalea pospunción dural con dexmedetomidina nebulizada. Esa vía obtuvo nivel L1 y recomendación *Proceed with Guardrails*, con vigilancia de bradicardia e hipotensión y confirmación en ensayos multicéntricos más grandes. La *migraña* (puntaje 99.49%) se mantiene como pregunta de investigación (L4), con un ensayo en reclutamiento (NCT07769255, n=146).
+**Nota sobre otras predicciones del mismo fármaco:** la indicación *trastorno de cefalea* (puntaje 0.9930) tiene mayor respaldo. Cuenta con un ensayo de Fase 3 completado (NCT04910477, n=90), un ensayo aleatorizado publicado (PMID 36651373) y una revisión sistemática de 2025 (PMID 41120897). Todo ello se limita a la cefalea pospunción dural con dexmedetomidina nebulizada. Esa vía obtuvo nivel L1 y recomendación *Proceed with Guardrails*, con vigilancia de bradicardia e hipotensión y confirmación en ensayos multicéntricos más grandes. La *migraña* (puntaje 0.9949) se mantiene como pregunta de investigación (L4), con un ensayo en reclutamiento (NCT07769255, n=146).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

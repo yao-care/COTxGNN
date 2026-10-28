@@ -4,7 +4,7 @@ title: Teriparatide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 619
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis en pacientes con alto riesgo de fractura"
 monitor_inn: "Teriparatide"
@@ -14,7 +14,7 @@ predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal ma
 # Teriparatide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ La teriparatida es un fragmento activo de la hormona paratiroidea (PTH 1-34), ut
 |------|------|
 | Indicación Original | Osteoporosis en pacientes con alto riesgo de fractura (el registro sanitario solo indica el nombre del principio activo, "Teriparatide", sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Úlcera duodenal |
-| Puntaje de Predicción TxGNN | 99.86% |
+| Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 **No se identifica una relación mecanística plausible con la úlcera duodenal.** La indicación original (fragilidad ósea) y la nueva (lesión de la mucosa duodenal) pertenecen a sistemas distintos, y los datos disponibles no respaldan ningún papel de la señalización de PTH1R en la cicatrización de la mucosa duodenal.
 
-El puntaje alto de TxGNN (99.86%) es una predicción basada en grafos de conocimiento. Probablemente refleja la cercanía entre nodos de enfermedades en la red y no un hallazgo biológico o clínico. Por ello debe tratarse como una señal computacional sin validación.
+El puntaje alto de TxGNN (0.9986) proviene del modelo TxGNN (deep learning). Puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni clínica. Por ello debe tratarse como una señal computacional sin validación.
 
 ---
 
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Teriparatide (sin texto de indicación detallado); estado: cancelado |
+| 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Teriparatide (sin texto de indicación detallado); estado: vigente |
 
 El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia.
 

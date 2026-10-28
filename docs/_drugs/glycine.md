@@ -4,17 +4,17 @@ title: Glycine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 319
 evidence_level: L5
-indication_count: 2
+indication_count: 1
 last_modified_at: 2026-10-14
 description: "Glycine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Emulsiones lipidas"
 monitor_inn: "Glycine"
-predicted_indications: ["nasal cavity disease", "acute laryngopharyngitis"]
+predicted_indications: ["nasal cavity disease"]
 ---
 
 # Glycine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,9 +48,9 @@ pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como 
 |------|------|
 | Indicacion Original | Emulsiones lipidas |
 | Nueva Indicacion Predicha | Enfermedad de la cavidad nasal |
-| Puntaje de Prediccion TxGNN | 99.85% |
+| Puntaje de Prediccion TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Numero de Registros Sanitarios | 1 |
 | Decision Recomendada | Hold |
 
@@ -58,7 +58,7 @@ pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de accion. Segun la informacion conocida, la glicina es un aminoacido incluido en una formulacion de nutricion parenteral (emulsion lipidica), y su uso aprobado en Colombia se limitaba a ese contexto nutricional.
 
-No se documenta un vinculo plausible entre la indicacion original (nutricion parenteral con emulsiones lipidas) y la enfermedad de la cavidad nasal. El puntaje de TxGNN es muy alto (0.998), pero corresponde unicamente a una prediccion computacional, sin respaldo clinico ni mecanistico.
+No se documenta un vinculo plausible entre la indicacion original (nutricion parenteral con emulsiones lipidas) y la enfermedad de la cavidad nasal. El puntaje de TxGNN es muy alto (0.9985), pero corresponde unicamente a una prediccion computacional, sin respaldo clinico ni mecanistico.
 
 El unico ensayo asociado es un estudio de imagen diagnostica con un radiotrazador y las dos publicaciones tratan de histoquimica de mucosa nasal bovina y de adyuvantes mucosos para vacunas. Ninguno evalua la glicina como terapia nasal. Una hipotesis posible (por ejemplo, su papel como neurotransmisor inhibidor o agente citoprotector en la via aerea superior) tendria que formularse y probarse desde cero.
 

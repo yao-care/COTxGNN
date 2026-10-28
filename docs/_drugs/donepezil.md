@@ -48,9 +48,9 @@ La evidencia actual se limita a la predicción del modelo (nivel L5).
 |------|------|
 | Indicación Original | DONEPEZIL (el registro sanitario no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Trastornos psicógenos del movimiento |
-| Puntaje de Predicción TxGNN | 99.23% |
+| Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -58,19 +58,19 @@ La evidencia actual se limita a la predicción del modelo (nivel L5).
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, donepezilo es un inhibidor de la acetilcolinesterasa que aumenta el tono colinérgico central, y su uso en el deterioro cognitivo es ampliamente conocido. Mecanísticamente, la modulación colinérgica podría ser relevante en algunos trastornos del movimiento.
 
-Sin embargo, para los trastornos psicógenos (funcionales) del movimiento no se identificó un vínculo mecanístico específico. La predicción se basa únicamente en el puntaje del modelo (0.992), sin ensayos ni literatura que la sustenten. Debe considerarse una hipótesis exploratoria.
+Sin embargo, para los trastornos psicógenos (funcionales) del movimiento no se identificó un vínculo mecanístico específico. La predicción se basa únicamente en la puntuación del modelo TxGNN (deep learning), 0.9923, que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no cuenta con ensayos ni literatura que la sustenten. Debe considerarse una hipótesis exploratoria.
 
 **Otras indicaciones predichas (contexto):** el modelo también predice otras condiciones, algunas con más respaldo que la principal:
 
 | Indicación predicha | Puntaje TxGNN | Nivel | Resumen |
 |------|------|------|------|
-| Trastorno de tics crónico | 99.19% | L3 | Estudio pediátrico abierto en tics con TDAH, reportes pequeños y trabajo preclínico en ratones; sin ensayos registrados |
-| Temblor ortostático primario | 99.17% | L5 | Solo predicción |
-| Enfermedad extrapiramidal y del movimiento | 99.16% | L3 | Evidencia mixta: posible beneficio en discinesias tardías, pero una revisión sistemática de 2025 señala que los inhibidores de colinesterasa pueden inducir o empeorar síntomas extrapiramidales |
-| Ataques de estremecimiento benignos | 99.16% | L5 | Solo predicción; afección benigna, balance riesgo-beneficio desfavorable sin evidencia |
-| Síndrome temblor-nistagmo-úlcera duodenal | 99.15% | L5 | Única publicación indirecta (enfermedad de Behçet); riesgo de úlcera con inhibidores de colinesterasa |
-| Mirada tónica ascendente paroxística benigna con ataxia | 99.12% | L5 | Solo predicción; afección rara que suele resolverse sola |
-| Discinesia linguo-facial-bucal | 99.02% | L4 | Revisiones Cochrane sobre fármacos colinérgicos en discinesia tardía, no específicas de donepezilo y con evidencia insuficiente |
+| Trastorno de tics crónico | 0.9919 | L3 | Estudio pediátrico abierto en tics con TDAH, reportes pequeños y trabajo preclínico en ratones; sin ensayos registrados |
+| Temblor ortostático primario | 0.9917 | L5 | Solo predicción |
+| Enfermedad extrapiramidal y del movimiento | 0.9916 | L3 | Evidencia mixta: posible beneficio en discinesias tardías, pero una revisión sistemática de 2025 señala que los inhibidores de colinesterasa pueden inducir o empeorar síntomas extrapiramidales |
+| Ataques de estremecimiento benignos | 0.9916 | L5 | Solo predicción; afección benigna, balance riesgo-beneficio desfavorable sin evidencia |
+| Síndrome temblor-nistagmo-úlcera duodenal | 0.9915 | L5 | Única publicación indirecta (enfermedad de Behçet); riesgo de úlcera con inhibidores de colinesterasa |
+| Mirada tónica ascendente paroxística benigna con ataxia | 0.9912 | L5 | Solo predicción; afección rara que suele resolverse sola |
+| Discinesia linguo-facial-bucal | 0.9902 | L4 | Revisiones Cochrane sobre fármacos colinérgicos en discinesia tardía, no específicas de donepezilo y con evidencia insuficiente |
 
 ## Evidencia de Ensayos Clínicos
 
@@ -86,10 +86,10 @@ Los 4 registros sanitarios están cancelados; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20118656 | ARIZIL 10 MG | Tableta recubierta | DONEPEZIL | Cancelado |
-| 19993779 | Donepezilo Clorhidrato 10 mg tabletas recubiertas | Tableta recubierta | DONEPEZIL | Cancelado |
-| 19947560 | Donepecilo Clorhidrato 5 mg | Tableta recubierta | DONEPEZIL | Cancelado |
-| 19946097 | ALZIT® 10 MG | Tableta recubierta | DONEPEZIL | Cancelado |
+| 20118656 | ARIZIL 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
+| 19993779 | Donepezilo Clorhidrato 10 mg tabletas recubiertas | Tableta recubierta | DONEPEZIL | Vigente |
+| 19947560 | Donepecilo Clorhidrato 5 mg | Tableta recubierta | DONEPEZIL | Vigente |
+| 19946097 | ALZIT® 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
 
 ## Consideraciones de Seguridad
 

@@ -50,10 +50,10 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Bupivacaína (anestésico local, según el registro INVIMA) |
 | Nueva Indicación Predicha | Gastroduodenitis |
-| Puntaje de Predicción TxGNN | 99.09% |
+| Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Un vínculo plausible, pero no verificado, sería una acción analgésica o antinociceptiva local sobre las fibras aferentes viscerales de la mucosa gastroduodenal. También se han descrito efectos antiinflamatorios de los anestésicos locales, pero no hay datos que los relacionen con la gastroduodenitis.
 
-Existe además una barrera probable de vía de administración: la levobupivacaína se usa normalmente por infiltración, epidural o bloqueo nervioso, y no está establecida su administración tópica o sistémica al tracto digestivo superior. El puntaje alto podría reflejar similitud en el grafo con otros anestésicos locales o bloqueadores de canales de sodio, y no una relación terapéutica real. La compatibilidad de vías de administración está pendiente de evaluar.
+Existe además una barrera probable de vía de administración: la levobupivacaína se usa normalmente por infiltración, epidural o bloqueo nervioso, y no está establecida su administración tópica o sistémica al tracto digestivo superior. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La compatibilidad de vías de administración está pendiente de evaluar.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19902579 | BUPINEST® 0.75 % SIMPLE INYECTABLE | Solución inyectable | Bupivacaína | Cancelado |
+| 19902579 | BUPINEST® 0.75 % SIMPLE INYECTABLE | Solución inyectable | Bupivacaína | Vigente |
 
 ---
 
@@ -104,7 +104,7 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en un puntaje computacional alto (99.09%), sin ensayos clínicos ni literatura (nivel L5). Además, el único registro sanitario en Colombia está cancelado y la vía de administración habitual no es compatible de forma evidente con la gastroduodenitis.
+La predicción se basa únicamente en un puntaje computacional alto (0.9909), sin ensayos clínicos ni literatura (nivel L5). Además, el único registro sanitario en Colombia está cancelado y la vía de administración habitual no es compatible de forma evidente con la gastroduodenitis.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente sin datos.

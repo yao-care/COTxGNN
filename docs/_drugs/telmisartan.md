@@ -4,7 +4,7 @@ title: Telmisartan
 parent: Solo Predicción del Modelo (L5)
 nav_order: 609
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Telmisartan: nueva indicación predicha, Prinzmetal angina (angina de Prinzmetal) (nivel de evidencia L5). Indicación original: Telmisartán y diuréticos (hipertensión arterial)"
 monitor_inn: "TELMISARTAN"
@@ -14,7 +14,7 @@ predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyl
 # Telmisartan
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -47,9 +47,9 @@ El modelo TxGNN predice que podría ser efectivo para **angina de Prinzmetal**, 
 |------|------|
 | Indicación Original | Telmisartán y diuréticos (hipertensión arterial) |
 | Nueva Indicación Predicha | Prinzmetal angina (angina de Prinzmetal) |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -112,13 +112,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que
 **Decisión: Hold**
 
 **Justificación:**
-La angina de Prinzmetal tiene un puntaje alto (99.98%), pero solo es una predicción del modelo (L5), sin ensayos ni literatura. Además, el producto no tiene registros vigentes en Colombia. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación.
+La angina de Prinzmetal tiene un puntaje alto (0.9998), pero solo es una predicción del modelo (L5), sin ensayos ni literatura. Además, el producto no tiene registros vigentes en Colombia. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y del prospecto (advertencias y contraindicaciones oficiales).
 - Revisión de la literatura sobre ARA-II en vasoespasmo coronario para generar evidencia específica de angina de Prinzmetal.
 - Para hemorragia intracerebral: resultados detallados de TRIDENT (PMID 42019018) y análisis del aporte individual de telmisartán.
-- Definir la vía regulatoria en Colombia, dado que todos los registros están cancelados.
+- Definir la vía regulatoria en Colombia, dado que el medicamento está comercializado y cuenta con 2 licencias vigentes.
 - Plan de monitoreo de seguridad (potasio, función renal y hepática, hipotensión).
 ## Descargo de responsabilidad
 

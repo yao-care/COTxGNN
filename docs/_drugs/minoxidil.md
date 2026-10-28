@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 |------|------|
 | Indicación Original | Minoxidil (el registro no detalla la indicación) |
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
-| Puntaje de Predicción TxGNN | 99.99% |
+| Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | 7 (0 vigentes, 7 cancelados) |
 | Decisión Recomendada | Hold |
 

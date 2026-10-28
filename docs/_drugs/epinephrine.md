@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Epinephrine
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 257
-evidence_level: L1
-indication_count: 4
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Epinefrina"
 monitor_inn: "Epinephrine"
-predicted_indications: ["obstructive lung disease", "food-dependent exercise-induced anaphylaxis", "Rienhoff syndrome", "respiratory malformation"]
+predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 ---
 
 # Epinephrine
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -50,9 +50,9 @@ con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 |------|------|
 | Indicación Original | Epinefrina (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 99.71% |
-| Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9971 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -62,7 +62,7 @@ con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la epinefrina es un agonista adrenérgico no selectivo (alfa y beta). La activación de los receptores beta-2 relaja el músculo liso bronquial y produce broncodilatación, lo que es coherente con el alivio de la obstrucción reversible de la vía aérea en el asma.
 
-Además, la vasoconstricción mucosa mediada por receptores alfa-1 puede reducir el edema de la vía aérea, algo relevante en la bronquiolitis y el crup. El puntaje alto de TxGNN (0.997) es consistente con esta farmacología.
+Además, la vasoconstricción mucosa mediada por receptores alfa-1 puede reducir el edema de la vía aérea, algo relevante en la bronquiolitis y el crup. El puntaje alto de TxGNN (0.9971) es consistente con esta farmacología.
 
 Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos, y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas. Parte de la evidencia corresponde a formulaciones inhaladas (E004, Primatene Mist) o a la vía intramuscular, que no coinciden con la solución inyectable registrada en Colombia.
 
@@ -125,9 +125,9 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto del p
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Anafilaxia inducida por ejercicio dependiente de alimentos | 99.57% | L4 | Pregunta de investigación. La epinefrina ya es el tratamiento estándar de primera línea en anafilaxia, por lo que se trata más de práctica establecida que de reposicionamiento; no hay ensayos específicos |
-| Síndrome de Rienhoff | 99.57% | L5 | Hold. Sin ensayos ni literatura y sin vínculo mecanístico plausible; el agonismo adrenérgico podría implicar riesgo cardiovascular en trastornos del tejido conectivo |
-| Malformación respiratoria | 99.56% | L3 | Pregunta de investigación. Solo un ensayo de Fase 1 en taquipnea transitoria del recién nacido (que no es una malformación estructural); la literatura es heterogénea y poco relacionada |
+| Anafilaxia inducida por ejercicio dependiente de alimentos | 0.9957 | L5 | Pregunta de investigación. La epinefrina ya es el tratamiento estándar de primera línea en anafilaxia, por lo que se trata más de práctica establecida que de reposicionamiento; no hay ensayos específicos |
+| Síndrome de Rienhoff | 0.9957 | L5 | Hold. Sin ensayos ni literatura y sin vínculo mecanístico plausible; el agonismo adrenérgico podría implicar riesgo cardiovascular en trastornos del tejido conectivo |
+| Malformación respiratoria | 0.9956 | L3 | Pregunta de investigación. Solo un ensayo de Fase 1 en taquipnea transitoria del recién nacido (que no es una malformación estructural); la literatura es heterogénea y poco relacionada |
 
 ---
 

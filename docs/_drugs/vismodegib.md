@@ -4,17 +4,17 @@ title: Vismodegib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 662
 evidence_level: L5
-indication_count: 10
+indication_count: 8
 last_modified_at: 2026-10-14
 description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L5). Indicación original: Registro INVIMA solo consigna \"Vismodegib\" como indicación (sin texto…"
 monitor_inn: "VISMODEGIB"
-predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "prostate cancer/brain cancer susceptibility", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
+predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
 ---
 
 # Vismodegib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -48,10 +48,10 @@ Vismodegib es un inhibidor de la vía Hedgehog (bloquea la proteína Smoothened,
 |------|------|
 | Indicación Original | Registro INVIMA solo consigna "Vismodegib" como indicación (sin texto descriptivo). La indicación conocida del fármaco es el carcinoma basocelular localmente avanzado o metastásico |
 | Nueva Indicación Predicha | Meduloblastoma con nodularidad extensa |
-| Puntaje de Predicción TxGNN | 99.93% |
+| Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

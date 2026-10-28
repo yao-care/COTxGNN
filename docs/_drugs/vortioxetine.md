@@ -4,17 +4,17 @@ title: Vortioxetine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
-indication_count: 5
+indication_count: 2
 last_modified_at: 2026-10-14
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
 monitor_inn: "vortioxetine"
-predicted_indications: ["neurotic disorder", "melancholia", "benign paroxysmal torticollis of infancy", "dysthymic disorder"]
+predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 ---
 
 # Vortioxetine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -39,7 +39,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 ## Resumen en Una Frase
 
 Vortioxetina es un antidepresivo multimodal, registrado en Colombia bajo la denominación "VORTIOXETINA" y utilizado en el trastorno depresivo mayor.
-El modelo TxGNN predice que podría ser efectivo para **trastorno neurótico** (primera predicción, puntaje 99.24%), pero la evidencia directa es mínima: **0 ensayos clínicos** y **1 publicación** vinculados a esa predicción.
+El modelo TxGNN predice que podría ser efectivo para **trastorno neurótico** (primera predicción, puntaje 0.9924), pero la evidencia directa es mínima: **0 ensayos clínicos** y **1 publicación** vinculados a esa predicción.
 Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en realidad reetiquetados o subpoblaciones de la depresión ya aprobada, no reposicionamientos genuinos.
 
 ---
@@ -50,9 +50,9 @@ Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en r
 |------|------|
 | Indicación Original | VORTIOXETINA (el registro no detalla una indicación específica) |
 | Nueva Indicación Predicha | Trastorno neurótico (neurotic disorder) |
-| Puntaje de Predicción TxGNN | 99.24% |
+| Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -67,7 +67,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 Lo mismo ocurre con las otras predicciones de la lista:
 - **Neurosis depresiva** (99.09%): término histórico que corresponde en gran parte a la distimia y la depresión mayor no melancólica. Es un reetiquetado de una indicación existente.
 - **Melancolía** (99.09%): subtipo grave de depresión mayor. Los ensayos disponibles se realizaron en poblaciones con depresión mayor general, no en cohortes melancólicas.
-- **Tortícolis paroxística benigna de la infancia** (99.07%): sin vínculo mecanístico identificable; parece un artefacto del grafo, y el uso de antidepresivos en lactantes plantearía serias preocupaciones de seguridad.
+- **Tortícolis paroxístico benigno de la infancia** (0.9907): sin vínculo mecanístico identificable; la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; además, el uso de antidepresivos en lactantes plantearía serias preocupaciones de seguridad.
 - **Trastorno distímico** (99.02%): condición depresiva crónica y leve, adyacente a la depresión mayor, con solo evidencia indirecta.
 
 ---
@@ -118,7 +118,7 @@ Estas publicaciones respaldan la eficacia de vortioxetina en depresión mayor, n
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | Tableta recubierta (vía oral) | VORTIOXETINA | Cancelado |
+| 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | Tableta recubierta (vía oral) | VORTIOXETINA | Vigente |
 
 El único registro (titular: MEGALABS COLOMBIA S.A.S) está cancelado; actualmente no hay registros vigentes.
 

@@ -50,10 +50,10 @@ La predicción se basa únicamente en el modelo (nivel L5).
 |------|------|
 | Indicación Original | No especificada en el registro (el texto indica solo "OXIBUTININA"); uso clínico conocido: vejiga hiperactiva |
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelado (sin registros vigentes) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,14 +64,14 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Un vínculo hipotético sería que su actividad antimuscarínica modulara el equilibrio colinérgico/dopaminérgico central, lo cual es **especulativo**. Además, en general se reporta que los fármacos anticolinérgicos empeoran, y no mejoran, los síntomas de piernas inquietas, lo que va en contra de la predicción.
 
-Por lo tanto, el puntaje alto del modelo (basado en grafos) no cuenta con respaldo mecanístico ni clínico verificable.
+Por lo tanto, el puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no cuenta con respaldo mecanístico ni clínico verificable.
 
 ### Otras predicciones del modelo
 
 | Posición | Indicación Predicha | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|------|
-| 2 | Gastroduodenitis | 99.62% | L5 | Hold |
-| 3 | Enfermedad ulcerosa péptica | 99.31% | L4 | Hold |
+| 2 | Gastroduodenitis | 0.9962 | L5 | Hold |
+| 3 | Enfermedad ulcerosa péptica | 0.9931 | L5 | Hold |
 
 Para la gastroduodenitis no hay ensayos ni publicaciones. Para la úlcera péptica solo existen estudios indirectos y antiguos (un estudio clínico de 1964, una revisión farmacológica de 1965 y un reporte de caso de 1990 sobre esofagitis por reflujo inducida por oxibutinina, que es una señal de seguridad en contra del uso gastrointestinal alto).
 
@@ -93,7 +93,7 @@ Actualmente no hay literatura relacionada disponible para el síndrome de pierna
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20099350 | SINORIN® | Tableta cubierta con película | OXIBUTININA | Cancelado |
+| 20099350 | SINORIN® | Tableta cubierta con película | OXIBUTININA | Vigente |
 
 ---
 

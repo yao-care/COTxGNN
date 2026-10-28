@@ -4,7 +4,7 @@ title: Brigatinib
 parent: Solo Predicción del Modelo (L5)
 nav_order: 114
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 last_modified_at: 2026-10-14
 description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Brigatinib"
 monitor_inn: "BRIGATINIB"
@@ -14,7 +14,7 @@ predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma 
 # Brigatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Brigatinib es un inhibidor de la quinasa del linfoma anaplásico (ALK), conocido por su uso en cáncer de pulmón no microcítico (CPNM) ALK positivo; en Colombia, sus registros sanitarios solo consignan el nombre del principio activo como indicación.
 El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, pero esta predicción no cuenta con **ningún ensayo clínico ni publicación** que la respalde.
-Se trata de una predicción basada únicamente en el grafo de conocimiento, sin evidencia real.
+Se trata de una predicción del modelo TxGNN (aprendizaje profundo), sin evidencia real; la puntuación puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -50,10 +50,10 @@ Se trata de una predicción basada únicamente en el grafo de conocimiento, sin 
 |------|------|
 | Indicación Original | Brigatinib (el registro sanitario solo consigna el nombre del principio activo, sin texto de indicación) |
 | Nueva Indicación Predicha | Fibromatosis gingival |
-| Puntaje de Predicción TxGNN | 99.89% |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Se trata de una predicción basada únicamente en el grafo de conocimiento, sin 
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura conocida, brigatinib es un inhibidor de tirosina quinasas de nueva generación, con actividad principal frente a ALK y, según el análisis del modelo, también frente a EGFR y FAK. Su eficacia en CPNM ALK positivo está respaldada por el ensayo de fase 3 ALTA-1L.
 
-Sin embargo, el análisis de los datos compilados **no identificó un vínculo mecanístico plausible** entre la inhibición de estas quinasas y la fibromatosis gingival, una condición de crecimiento excesivo del tejido gingival, generalmente benigno. La alta puntuación del modelo refleja una asociación dentro del grafo de conocimiento, no una relación biológica demostrada.
+Sin embargo, el análisis de los datos compilados **no identificó un vínculo mecanístico plausible** entre la inhibición de estas quinasas y la fibromatosis gingival, una condición de crecimiento excesivo del tejido gingival, generalmente benigno. La alta puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una relación biológica demostrada.
 
 Además, el perfil de toxicidad de un inhibidor de quinasas difícilmente se justificaría para una lesión benigna como esta, salvo que existiera evidencia clínica sólida, que hoy no existe.
 
@@ -84,8 +84,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20193913 | ALUNBRIG® 90MG | Tableta recubierta | BRIGATINIB | Cancelado |
-| 20193910 | ALUNBRIG® 30MG | Tableta recubierta | BRIGATINIB | Cancelado |
+| 20193913 | ALUNBRIG® 90MG | Tableta recubierta | BRIGATINIB | Vigente |
+| 20193910 | ALUNBRIG® 30MG | Tableta recubierta | BRIGATINIB | Vigente |
 
 Ambos registros pertenecen a Takeda Colombia S.A.S. y se encuentran cancelados; actualmente no hay registros vigentes.
 

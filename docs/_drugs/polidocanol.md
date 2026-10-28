@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Polidocanol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 522
-evidence_level: L5
+evidence_level: L1
 indication_count: 10
 last_modified_at: 2026-10-14
-description: "Polidocanol: nueva indicación predicha, Várices esofágicas con sangrado (nivel de evidencia L5). Indicación original: Polidocanol"
 monitor_inn: "POLIDOCANOL"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Immunoerythromyeloid hypoplasia", "pigmented paravenous retinochoroidal atrophy", "progressive bifocal chorioretinal atrophy", "X-linked retinal dysplasia", "monosomy X", "cone dystrophy", "oligocone trichromacy", "retinoschisis of fovea"]
+description: "Polidocanol: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L1). Indicación original: POLIDOCANOL"
 ---
 
 # Polidocanol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Polidocanol: De Indicación No Especificada a Várices Esofágicas con Sangrado
+## Polidocanol: Esophageal varices with bleeding
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,12 +48,12 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Polidocanol (el registro sanitario no detalla una indicación específica) |
-| Nueva Indicación Predicha | Várices esofágicas con sangrado |
-| Puntaje de Predicción TxGNN | 99.95% |
+| Indicación Original | POLIDOCANOL |
+| Nueva Indicación Predicha | Esophageal varices with bleeding |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la sección de literatura) |
-| Estado de Mercado en Colombia | Solo cancelados |
-| Número de Registros Sanitarios | 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -99,8 +99,8 @@ Se priorizan los estudios aleatorizados, seguidos de revisiones y otros diseños
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20018886 | ETOXIVEN® 3% | Solución inyectable | Polidocanol (estado: cancelado) |
-| 20017789 | ETOXIVEN® 1% | Solución inyectable | Polidocanol (estado: cancelado) |
+| 20018886 | ETOXIVEN® 3% | Solución inyectable | Polidocanol (estado: vigente) |
+| 20017789 | ETOXIVEN® 1% | Solución inyectable | Polidocanol (estado: vigente) |
 
 ---
 

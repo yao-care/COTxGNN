@@ -8,6 +8,7 @@ nav_order: 86
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Azitromicina
@@ -52,8 +53,8 @@ Con múltiples brechas de datos críticas identificadas y **0 predicciones dispo
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin predicciones ni estudios asociados) |
-| Estado de Mercado en Colombia | ✗ No Comercializado |
-| Número de Registros Sanitarios | 0 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

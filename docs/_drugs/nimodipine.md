@@ -50,9 +50,9 @@ Se trata de una predicción puramente computacional.
 |------|------|
 | Indicación Original | NIMODIPINA (el registro no detalla la indicación clínica) |
 | Nueva Indicación Predicha | Hipercolesterolemia familiar homocigota |
-| Puntaje de Predicción TxGNN | 99.29% |
+| Puntaje de Predicción TxGNN | 0.9929 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -64,9 +64,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La hipercolesterolemia familiar homocigota, en cambio, se origina por defectos en la vía del receptor de LDL (genes LDLR, APOB, PCSK9, LDLRAP1), que producen niveles muy elevados de colesterol LDL. **No existe un vínculo mecanístico clínicamente establecido** entre ambas condiciones. Algunos bloqueadores de los canales de calcio han mostrado efectos menores e inconsistentes sobre el metabolismo lipídico o la progresión de la aterosclerosis en contextos preclínicos u observacionales, pero esto no corrige el defecto genético de fondo.
 
-El puntaje alto de TxGNN (0.993) proviene únicamente de una predicción sobre el grafo de conocimiento y no está respaldado por ningún ensayo ni publicación recuperados.
+El puntaje alto de TxGNN (0.9929) proviene únicamente de una predicción del modelo TxGNN (aprendizaje profundo) y no está respaldado por ningún ensayo ni publicación recuperados.
 
-Como segunda predicción, el modelo propone el **síndrome nefrogénico de antidiuresis inapropiada** (puntaje 99.05%). Existe una conexión teórica a través de la señalización del calcio posterior al receptor V2, pero no hay evidencia de que nimodipino actúe sobre esa vía de forma terapéuticamente útil. Es una enfermedad extremadamente rara, lo que dificulta generar evidencia clínica. También tiene nivel L5 y recomendación Hold.
+Como segunda predicción, el modelo propone el **síndrome nefrogénico de antidiuresis inapropiada** (puntaje 0.9905). Existe una conexión teórica a través de la señalización del calcio posterior al receptor V2, pero no hay evidencia de que nimodipino actúe sobre esa vía de forma terapéuticamente útil. Es una enfermedad extremadamente rara, lo que dificulta generar evidencia clínica. También tiene nivel L5 y recomendación Hold.
 
 ---
 
@@ -86,8 +86,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19907710 | NISOM® 30 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIMODIPINA | Cancelado |
-| 19966420 | NIMODIPINO 30MG TABLETAS | Tableta recubierta | NIMODIPINA | Cancelado |
+| 19907710 | NISOM® 30 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIMODIPINA | Vigente |
+| 19966420 | NIMODIPINO 30MG TABLETAS | Tableta recubierta | NIMODIPINA | Vigente |
 
 ---
 

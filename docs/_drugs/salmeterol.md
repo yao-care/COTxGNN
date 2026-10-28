@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Salmeterol
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 580
-evidence_level: L5
-indication_count: 7
+evidence_level: L1
+indication_count: 5
 last_modified_at: 2026-10-14
 description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Salmeterol y fluticasona"
 monitor_inn: "SALMETEROL"
@@ -14,7 +14,7 @@ predicted_indications: ["bronchitis", "respiratory malformation", "obstructive l
 # Salmeterol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 |------|------|
 | Indicación Original | Salmeterol y fluticasona |
 | Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 99.92% |
+| Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L1 (varios ECA de Fase 3 completados) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 2 (ambos cancelados; 0 vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

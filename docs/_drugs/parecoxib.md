@@ -4,17 +4,17 @@ title: Parecoxib
 parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
-indication_count: 4
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
-predicted_indications: ["migraine disorder", "migraine with brainstem aura", "migraine with or without aura, susceptibility to", "pulmonary hypertension"]
+predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 ---
 
 # Parecoxib
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 |------|------|
 | Indicación Original | No especificada en el registro sanitario (el texto solo indica "PARECOXIB") |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
-| Puntaje de Predicción TxGNN | 99.55% |
+| Puntaje de Predicción TxGNN | 0.9955 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 Parecoxib es un profármaco de valdecoxib, un inhibidor selectivo de la COX-2. Los datos compilados para este informe no incluyen una descripción oficial del mecanismo de acción, por lo que lo siguiente se basa en el conocimiento farmacológico general y en el análisis mecanístico asociado a la predicción.
 
-La COX-2 impulsa la síntesis de prostaglandina E2 (PGE2), que sensibiliza los nociceptores del trigémino y favorece la liberación del péptido relacionado con el gen de la calcitonina (CGRP) y la inflamación neurogénica. Al inhibir la COX-2, es plausible reducir estos procesos durante una crisis aguda de migraña. Esto es coherente con el puntaje muy alto de TxGNN (0.995).
+La COX-2 impulsa la síntesis de prostaglandina E2 (PGE2), que sensibiliza los nociceptores del trigémino y favorece la liberación del péptido relacionado con el gen de la calcitonina (CGRP) y la inflamación neurogénica. Al inhibir la COX-2, es plausible reducir estos procesos durante una crisis aguda de migraña. Esto es coherente con el puntaje muy alto de TxGNN (0.9955).
 
 Existe apoyo mecanístico preclínico indirecto: en células de ganglio trigeminal de rata, la IL-1β estimula la síntesis de PGE2 dependiente de COX-2 y la liberación de CGRP (PMID 21394197), y parecoxib modifica la extravasación de proteínas plasmáticas y la expresión de c-fos en un modelo animal de activación trigeminovascular (PMID 16492237). Sin embargo, al ser un fármaco solo inyectable y con registro cancelado, su aplicabilidad práctica es limitada.
 
@@ -119,9 +119,8 @@ La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y t
 
 | Indicación | Puntaje TxGNN | Nivel de Evidencia | Recomendación |
 |------|------|------|------|
-| Migraña con aura de tronco encefálico | 99.46% | L5 | Hold (solo predicción; evidencia extrapolada de migraña general) |
-| Susceptibilidad a migraña con o sin aura | 99.38% | L4 | Hold (fenotipo genético; apoyo solo preclínico y no independiente) |
-| Hipertensión pulmonar | 99.09% | L4 | Hold (solo un estudio animal en lechones; sugiere ausencia de beneficio o posible daño, no eficacia) |
+| Migraña con aura de tronco encefálico | 0.9946 | L5 | Hold (solo predicción; evidencia extrapolada de migraña general) |
+| Hipertensión pulmonar | 0.9909 | L5 | Hold (solo un estudio animal en lechones; sugiere ausencia de beneficio o posible daño, no eficacia) |
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

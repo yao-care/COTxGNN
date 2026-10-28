@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Multivitaminas y otros minerales, incluidas combinaciones |
 | Nueva Indicación Predicha | Enfermedad fibroquística de la mama |
-| Puntaje de Predicción TxGNN | 99.74% |
+| Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La relación entre la indicación original (suplementación nutricional) y la nueva (cambios benignos del tejido mamario) es débil. Teóricamente, las propiedades antioxidantes y antiinflamatorias podrían relacionarse con cambios benignos de la mama, pero este vínculo no está verificado con los datos compilados.
 
-Cabe señalar que varias de las predicciones siguientes del modelo (adenosis apocrina de la mama, adenosis de conductos romos, displasia mamaria benigna) son variantes o sinónimos cercanos de la enfermedad fibroquística, por lo que probablemente no constituyen señales independientes. Otras predicciones incluyen candidiasis vulvovaginal, absceso mamario, necrosis grasa de la mama y vaginitis, todas con puntajes de 99.1% a 99.2% y también sin respaldo clínico.
+Cabe señalar que varias de las predicciones siguientes del modelo (adenosis apocrina de la mama, adenosis de conductos romos, displasia mamaria benigna) son variantes o sinónimos cercanos de la enfermedad fibroquística, por lo que probablemente no constituyen señales independientes. Otras predicciones incluyen candidiasis vulvovaginal, absceso mamario, necrosis grasa de la mama y vaginitis, todas con puntajes de 0.9909 a 0.9922 y también sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -76,8 +76,8 @@ Para la predicción de vaginitis (una indicación secundaria) se recuperaron dos
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones (cancelado) |
-| 19942493 | SUPRAVITAL PLUS | Cápsula blanda | Multivitaminas más hierro (cancelado) |
+| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones (vigente) |
+| 19942493 | SUPRAVITAL PLUS | Cápsula blanda | Multivitaminas más hierro (vigente) |
 
 ## Consideraciones de Seguridad
 

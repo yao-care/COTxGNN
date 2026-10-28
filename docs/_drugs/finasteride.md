@@ -6,7 +6,7 @@ nav_order: 286
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-10-14
-description: "Finasteride: nueva indicación predicha, Hipertricosis (la predicción de mayor puntaje fue Hipertricosis unive… (nivel de evidencia L5). Indicación original: Finasteride"
+description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Finasterida: De la indicación registrada (finasterida) a Hipertricosis
+## Finasterida: De la indicación registrada (finasterida) a Hipertricosis universal congénita tipo Ambras
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,13 +49,13 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, con **0
 |------|------|
 | Indicación Original | Finasteride (el registro no detalla la enfermedad; el texto solo repite el nombre del fármaco) |
 | Nueva Indicación Predicha | Hipertricosis (la predicción de mayor puntaje fue Hipertricosis universal congénita tipo Ambras; se analiza la segunda por contar con literatura) |
-| Puntaje de Predicción TxGNN | 99.99% (Hipertricosis); 99.99% (Ambras) |
-| Nivel de Evidencia | L4 (Hipertricosis); L5 (Ambras) |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9999 (Hipertricosis); 0.9999 (Ambras) |
+| Nivel de Evidencia | L5 (Hipertricosis); L5 (Ambras) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 
-**Nota sobre la selección:** la primera predicción por puntaje es la hipertricosis universal congénita tipo Ambras (99.994%), sin ningún ensayo ni publicación. Se presenta como foco la hipertricosis general (99.993%) porque es la única con literatura, aunque sea indirecta. Ambas se detallan abajo.
+**Nota sobre la selección:** la primera predicción por puntaje es la hipertricosis universal congénita tipo Ambras (0.9999), sin ningún ensayo ni publicación. Se presenta como foco la hipertricosis general (0.9999) porque es la única con literatura, aunque sea indirecta. Ambas se detallan abajo.
 
 ---
 
@@ -90,10 +90,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA | Tableta recubierta | Finasteride | Cancelado |
-| 20062982 | OPPTEST 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Finasterida | Cancelado |
-| 19970940 | FINASTERIDE 5 MG | Tableta cubierta con película | Finasterida | Cancelado |
-| 19981163 | FINASTERIDA 1 MG TABLETAS | Tableta recubierta | Finasteride | Cancelado |
+| 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA | Tableta recubierta | Finasteride | Vigente |
+| 20062982 | OPPTEST 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Finasterida | Vigente |
+| 19970940 | FINASTERIDE 5 MG | Tableta cubierta con película | Finasterida | Vigente |
+| 19981163 | FINASTERIDA 1 MG TABLETAS | Tableta recubierta | Finasteride | Vigente |
 
 ---
 

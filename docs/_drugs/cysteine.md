@@ -50,9 +50,9 @@ La evidencia es débil y se considera una pregunta de investigación.
 |------|------|
 | Indicación Original | Combinaciones (texto del registro INVIMA) |
 | Nueva Indicación Predicha | Síndrome de ojo seco |
-| Puntaje de Predicción TxGNN | 99.98% |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 1 (cancelado) |
 | Decisión Recomendada | Hold |
 

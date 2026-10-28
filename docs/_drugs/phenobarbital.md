@@ -4,7 +4,7 @@ title: Phenobarbital
 parent: Solo Predicción del Modelo (L5)
 nav_order: 511
 evidence_level: L5
-indication_count: 10
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenobarbital"
 monitor_inn: "Phenobarbital"
@@ -14,7 +14,7 @@ predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "be
 # Phenobarbital
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -40,7 +40,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Fenobarbital es un barbitúrico utilizado clásicamente como anticonvulsivo; en Colombia sus registros sanitarios solo mencionan "FENOBARBITAL" como indicación, sin mayor detalle.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino**, pero no hay ensayos clínicos y la única publicación asociada es una serie de casos sobre síndrome de Sturge-Weber, que no respalda un efecto antitumoral.
-Esta predicción debe considerarse un artefacto de proximidad en el grafo de conocimiento y no una señal farmacológica real.
+Esta predicción proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no debe considerarse una señal farmacológica real.
 
 ---
 
@@ -50,10 +50,10 @@ Esta predicción debe considerarse un artefacto de proximidad en el grafo de con
 |------|------|
 | Indicación Original | Fenobarbital (el registro no detalla la indicación; uso clásico como anticonvulsivo) |
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
-| Puntaje de Predicción TxGNN | 99.96% |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -62,7 +62,7 @@ Esta predicción debe considerarse un artefacto de proximidad en el grafo de con
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el fenobarbital potencia la inhibición mediada por el receptor GABA-A y se usa en todos los tipos de convulsiones, salvo las crisis de ausencia. También se registra como ligando del receptor X de pregnano (PXR, gen NR1I2), lo que explica su efecto inductor enzimático.
 
-En este caso la predicción **no tiene un vínculo mecanístico plausible** con la biología tumoral. El único artículo asociado es una serie de casos de síndrome de Sturge-Weber, un trastorno neurocutáneo en el que el fenobarbital se usa para controlar las crisis, no para tratar una neoplasia. El puntaje alto del modelo parece reflejar cercanía en el grafo de conocimiento (el fármaco se relaciona con enfermedades del nervio trigémino y neurológicas), no una señal terapéutica.
+En este caso la predicción **no tiene un vínculo mecanístico plausible** con la biología tumoral. El único artículo asociado es una serie de casos de síndrome de Sturge-Weber, un trastorno neurocutáneo en el que el fenobarbital se usa para controlar las crisis, no para tratar una neoplasia. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (el fármaco se relaciona con enfermedades del nervio trigémino y neurológicas), no evidencia biológica ni una señal terapéutica.
 
 Otras predicciones del modelo, de similar puntaje, sí son más coherentes con el mecanismo del fármaco: epilepsias reflejas (epilepsia por sobresalto, convulsiones audiogénicas, por lectura, por alimentación) y neuralgia del trigémino. Se mencionan en las conclusiones como alternativas de investigación.
 
@@ -86,9 +86,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20108399 | Fenobarbital 0.4 % solución oral (cancelado) | Solución oral | FENOBARBITAL |
-| 19905550 | Fenobarbital tabletas 50 mg (cancelado) | Tableta | FENOBARBITAL |
-| 20101277 | Fenobarbital 10 mg tabletas (cancelado) | Tableta | FENOBARBITAL |
+| 20108399 | Fenobarbital 0.4 % solución oral (vigente) | Solución oral | FENOBARBITAL |
+| 19905550 | Fenobarbital tabletas 50 mg (vigente) | Tableta | FENOBARBITAL |
+| 20101277 | Fenobarbital 10 mg tabletas (vigente) | Tableta | FENOBARBITAL |
 
 Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente no hay registros vigentes.
 
@@ -116,7 +116,7 @@ La predicción para neoplasia del nervio trigémino solo cuenta con el modelo co
 - Priorizar, como preguntas de investigación, las indicaciones con respaldo mecanístico más coherente: epilepsias reflejas (audiogénicas, por sobresalto, por lectura, por alimentación, inducidas por micción o por pensamiento) y neuralgia del trigémino, donde la evidencia actual es indirecta, preclínica o de casos.
 - Obtener y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones.
 - Complementar los datos del mecanismo de acción desde DrugBank.
-- Verificar la situación regulatoria actual en Colombia, dado que todos los registros están cancelados.
+- Verificar la situación regulatoria actual en Colombia, donde el medicamento está comercializado y los 3 registros están vigentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

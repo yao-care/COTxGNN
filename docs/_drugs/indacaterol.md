@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 |------|------|
 | Indicación Original | Formoterol y mometasona (texto del registro sanitario) |
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) |
-| Puntaje de Predicción TxGNN | 99.54% |
+| Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en D
 
 La relación entre la indicación original y la nueva es débil. El NSIAD es causado por variantes de ganancia de función en el gen *AVPR2* (receptor V2 de la vasopresina). Existe un único vínculo especulativo: la agonía beta-2 eleva el AMPc, que también es la señal posterior a la activación del receptor V2. Esta hipótesis **no tiene respaldo en datos**, y no se encontró un vínculo mecanístico establecido.
 
-En conclusión, la predicción se basa únicamente en el modelo y debe considerarse una hipótesis sin confirmar. Puede tratarse de un artefacto del grafo de conocimiento.
+En conclusión, la predicción se basa únicamente en el modelo y debe considerarse una hipótesis sin confirmar. Puede tratarse de un artefacto del modelo TxGNN (aprendizaje profundo).
 
 ---
 
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Cancelado |
-| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Cancelado |
+| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Vigente |
+| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Vigente |
 
 Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia.
 
@@ -114,7 +114,7 @@ La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción 
 - Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones.
 - Verificar la disponibilidad regional, dado que solo existen registros cancelados.
 
-**Nota sobre otras predicciones:** de las 10 indicaciones predichas, solo la **enfermedad bronquial** (puntaje 99.18%, posición 7) tiene evidencia real: 24 ensayos clínicos (incluidos varios de Fase 3 completados, como NCT02554786 con 2216 participantes) y 20 publicaciones, con nivel L1 y decisión *Proceed with Guardrails*. Sin embargo, esto equivale en gran medida a reconfirmar el uso respiratorio ya conocido y no a un reposicionamiento genuino. Además, muchos ensayos usan combinaciones de dosis fijas, por lo que no se puede aislar el aporte de indacaterol solo. Un ensayo de Fase 3 (NCT04206761) fue retirado con 0 participantes.
+**Nota sobre otras predicciones:** de las 10 indicaciones predichas, solo la **enfermedad bronquial** (puntaje 0.9918, posición 7) tiene evidencia real: 24 ensayos clínicos (incluidos varios de Fase 3 completados, como NCT02554786 con 2216 participantes) y 20 publicaciones, con nivel L1 y decisión *Proceed with Guardrails*. Sin embargo, esto equivale en gran medida a reconfirmar el uso respiratorio ya conocido y no a un reposicionamiento genuino. Además, muchos ensayos usan combinaciones de dosis fijas, por lo que no se puede aislar el aporte de indacaterol solo. Un ensayo de Fase 3 (NCT04206761) fue retirado con 0 participantes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

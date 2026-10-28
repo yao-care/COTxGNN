@@ -49,10 +49,10 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno por défici
 |------|------|
 | Indicación Original | Flavoxato (el registro no detalla una indicación clínica específica) |
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad, tipo inatento |
-| Puntaje de Predicción TxGNN | 99.75% |
+| Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -67,13 +67,13 @@ Para el TDAH de tipo inatento **no se identifica un vínculo mecanístico respal
 
 | Posición | Indicación predicha | Puntaje TxGNN | Plausibilidad mecanística |
 |------|------|------|------|
-| 2 | Síndrome del intestino irritable | 99.74% | Plausible pero no verificada: la actividad antimuscarínica y relajante del músculo liso se parece a la de antiespasmódicos aprobados (hioscina, diciclomina). Es la candidata más razonable para formular una pregunta de investigación. |
-| 3 | Trastorno específico del desarrollo | 99.56% | Sin conexión identificable; probablemente por similitud de red con términos de TDAH. |
-| 4 | TDAH (general) | 99.39% | Sin vínculo respaldado; concepto superpuesto con el TDAH inatento, no es evidencia independiente. |
-| 5 | Síndrome de cauda equina | 99.27% | Indirecta: solo manejo sintomático de la vejiga, sin modificar la enfermedad. |
-| 6 | Vejiga neurogénica (término obsoleto) | 99.13% | Coherente y cercana al uso urológico original, pero el término está obsoleto y no hay evidencia. |
-| 7 | Gastroduodenitis | 99.12% | Débil. |
-| 8 | Enfermedad ulcerosa péptica | 99.10% | Débil; los antimuscarínicos fueron reemplazados por inhibidores de la bomba de protones y erradicación de H. pylori. |
+| 2 | Síndrome del intestino irritable | 0.9974 | Plausible pero no verificada: la actividad antimuscarínica y relajante del músculo liso se parece a la de antiespasmódicos aprobados (hioscina, diciclomina). Es la candidata más razonable para formular una pregunta de investigación. |
+| 3 | Trastorno específico del desarrollo | 0.9956 | Sin conexión identificable; probablemente por similitud de red con términos de TDAH. |
+| 4 | TDAH (general) | 0.9939 | Sin vínculo respaldado; concepto superpuesto con el TDAH inatento, no es evidencia independiente. |
+| 5 | Síndrome de cauda equina | 0.9927 | Indirecta: solo manejo sintomático de la vejiga, sin modificar la enfermedad. |
+| 6 | Vejiga neurogénica (término obsoleto) | 0.9913 | Coherente y cercana al uso urológico original, pero el término está obsoleto y no hay evidencia. |
+| 7 | Gastroduodenitis | 0.9912 | Débil. |
+| 8 | Enfermedad ulcerosa péptica | 0.9910 | Débil; los antimuscarínicos fueron reemplazados por inhibidores de la bomba de protones y erradicación de H. pylori. |
 
 ---
 
@@ -93,7 +93,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20026026 | BLADURIL® 200 MG | Tableta recubierta | Flavoxato | Cancelado |
+| 20026026 | BLADURIL® 200 MG | Tableta recubierta | Flavoxato | Vigente |
 
 Fabricante: Recordati Ireland Limited. Vía de administración: oral.
 

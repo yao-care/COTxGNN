@@ -8,6 +8,7 @@ nav_order: 379
 evidence_level: L5
 indication_count: 0
 last_modified_at: 2026-09-17
+predicted_indications: []
 ---
 
 # Lansoprazol
@@ -49,7 +50,7 @@ LANSOPRAZOL es un inhibidor de la bomba de protones (IBP) ampliamente reconocido
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — sin datos reales |
-| Estado de Mercado en Colombia | No comercializado |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 0 |
 | Decisión Recomendada | **Hold** |
 

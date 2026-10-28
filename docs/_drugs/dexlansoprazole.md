@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Dexlansoprazole
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 212
-evidence_level: L4
-indication_count: 10
+evidence_level: L5
+indication_count: 4
 last_modified_at: 2026-10-14
-description: "Dexlansoprazole: nueva indicación predicha, Enfermedad ulcerosa péptica activa (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL"
+description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL"
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 ---
@@ -14,7 +14,7 @@ predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydri
 # Dexlansoprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Dexlansoprazol: De Indicación Registrada (Dexlansoprazol) a Enfermedad Ulcerosa Péptica Activa
+## Dexlansoprazol: De Indicación Registrada (Dexlansoprazol) a Gastroduodenitis
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ulcerosa pép
 |------|------|
 | Indicación Original | DEXLANSOPRAZOL (el registro sanitario no detalla una indicación específica) |
 | Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
-| Puntaje de Predicción TxGNN | 99.999% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9998 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 

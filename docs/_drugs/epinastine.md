@@ -48,9 +48,9 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 |------|------|
 | Indicación Original | Epinastina (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
 | Nueva Indicación Predicha | Conjuntivitis por rosácea |
-| Puntaje de Predicción TxGNN | 99.57% |
+| Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Existe un vínculo plausible: la histamina y los mediadores de los mastocitos pueden contribuir a la irritación ocular en la rosácea. Sin embargo, la conjuntivitis por rosácea (rosácea ocular) depende principalmente de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal y factores inmunes innatos y microbianos. Por ello, el mecanismo H1/mastocitos probablemente contribuye solo de forma menor.
 
-El puntaje alto de TxGNN (0.996) es una predicción computacional y no sustituye evidencia clínica ni bibliográfica, que no está disponible en los datos compilados.
+El puntaje alto de TxGNN (0.9957) es una predicción computacional y no sustituye evidencia clínica ni bibliográfica, que no está disponible en los datos compilados.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -74,9 +74,9 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20218995 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Cancelado |
-| 19964592 | RELESTAT® | Solución oftálmica | Epinastina | Cancelado |
-| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Cancelado |
+| 20218995 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
+| 19964592 | RELESTAT® | Solución oftálmica | Epinastina | Vigente |
+| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
 
 ## Consideraciones de Seguridad
 
@@ -89,7 +89,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), sin ensayos ni literatura, y la fisiopatología de la rosácea ocular se relaciona poco con el mecanismo antihistamínico. Además, todos los registros sanitarios en Colombia están cancelados.
+La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), sin ensayos ni literatura, y la fisiopatología de la rosácea ocular se relaciona poco con el mecanismo antihistamínico. Además, en Colombia el medicamento está comercializado y cuenta con 3 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Revisión de literatura y estudios preclínicos o piloto sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular
@@ -102,7 +102,7 @@ La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), s
 
 ### Nota: Segunda indicación predicha (urticaria alérgica)
 
-Como referencia, el modelo predijo también **urticaria alérgica** (TxGNN 99.28%, nivel L4, recomendación: pregunta de investigación). La literatura incluye principalmente revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/), [19558008](https://pubmed.ncbi.nlm.nih.gov/19558008/) y [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/)), sin ensayos en pacientes con urticaria ni ensayos clínicos registrados. Al ser una indicación ya cubierta por muchos antihistamínicos aprobados, su valor de reposicionamiento es limitado.
+Como referencia, el modelo predijo también **urticaria alérgica** (TxGNN 0.9928, nivel L4, recomendación: pregunta de investigación). La literatura incluye principalmente revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/), [19558008](https://pubmed.ncbi.nlm.nih.gov/19558008/) y [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/)), sin ensayos en pacientes con urticaria ni ensayos clínicos registrados. Al ser una indicación ya cubierta por muchos antihistamínicos aprobados, su valor de reposicionamiento es limitado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

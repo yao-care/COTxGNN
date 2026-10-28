@@ -48,9 +48,9 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 |------|------|
 | Indicación Original | Olopatadina (el registro no detalla la indicación; en la práctica, conjuntivitis alérgica) |
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
-| Puntaje de Predicción TxGNN | 99.41% |
+| Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo cancelados (sin registros vigentes) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 8) |
 | Número de Registros Sanitarios | 8 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -60,7 +60,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La rosácea ocular se asocia con disfunción de las glándulas de Meibomio e inflamación del párpado y la conjuntiva, y es posible que intervengan componentes mediados por mastocitos e histamina. Por ello existe un vínculo plausible, aunque no demostrado: reducir la inflamación y el picor de la superficie ocular mediados por histamina.
 
-Es importante subrayar que el puntaje de 0.994 es solo una predicción computacional. El mecanismo descrito proviene de conocimiento farmacológico general y no de datos aportados con evidencia clínica. La similitud con la indicación original y la compatibilidad de vía de administración están pendientes de evaluar.
+Es importante subrayar que el puntaje de 0.9941 es solo una predicción computacional. El mecanismo descrito proviene de conocimiento farmacológico general y no de datos aportados con evidencia clínica. La similitud con la indicación original y la compatibilidad de vía de administración están pendientes de evaluar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -96,7 +96,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5). Además, todos los registros sanitarios en Colombia están cancelados, lo que limita la disponibilidad práctica.
+La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5). Además, el medicamento está comercializado en Colombia, con 8 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Budesonide
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 119
-evidence_level: L4
+evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-10-14
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L4). Indicación original: Formoterol y budesonida (combinación inhalada para enfermedad respira…"
@@ -14,7 +14,7 @@ predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "po
 # Budesonide
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -49,9 +49,9 @@ El modelo TxGNN predice que podría ser efectiva para **eccema atópico**, pero 
 |------|------|
 | Indicación Original | Formoterol y budesonida (combinación inhalada para enfermedad respiratoria) |
 | Nueva Indicación Predicha | Eccema atópico |
-| Puntaje de Predicción TxGNN | 99.96% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados (sin registros vigentes) |
+| Puntaje de Predicción TxGNN | 0.9996 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 3 (los 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -98,9 +98,9 @@ Los tres registros sanitarios están cancelados; actualmente no hay productos de
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20120802 | FORACORT 100 (Cipla Ltd) | Suspensión para inhalación | Formoterol y budesonida (cancelado) |
-| 20039772 | BUDENOFALK® Espuma Rectal (Dr. Falk Pharma GmbH) | Aerosoles | Budesonida (cancelado) |
-| 20102025 | COMPLEBREZ 6 mcg/100 mcg inhalación presurizada (Glenmark Pharmaceuticals Colombia S.A.S.) | Aerosoles | Formoterol y budesonida (cancelado) |
+| 20120802 | FORACORT 100 (Cipla Ltd) | Suspensión para inhalación | Formoterol y budesonida (vigente) |
+| 20039772 | BUDENOFALK® Espuma Rectal (Dr. Falk Pharma GmbH) | Aerosoles | Budesonida (vigente) |
+| 20102025 | COMPLEBREZ 6 mcg/100 mcg inhalación presurizada (Glenmark Pharmaceuticals Colombia S.A.S.) | Aerosoles | Formoterol y budesonida (vigente) |
 
 ---
 
@@ -122,7 +122,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto (99.96%), pero no hay ensayos clínicos y la literatura es indirecta: alergia de contacto, seguridad pediátrica y un único estudio preclínico de formulación. Además, no hay registros vigentes de budesonida en Colombia y existen señales de seguridad específicas (sensibilización de contacto, efectos sistémicos en niños) en esta población.
+El puntaje de TxGNN es muy alto (0.9996), pero no hay ensayos clínicos y la literatura es indirecta: alergia de contacto, seguridad pediátrica y un único estudio preclínico de formulación. Además, no hay registros vigentes de budesonida en Colombia y existen señales de seguridad específicas (sensibilización de contacto, efectos sistémicos en niños) en esta población.
 
 **Para avanzar se necesita:**
 - Ensayos clínicos controlados (fase 2 o superior) de budesonida en dermatitis atópica, con una formulación dérmica definida y comparador activo (p. ej., otro corticosteroide tópico).

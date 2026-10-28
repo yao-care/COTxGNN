@@ -50,10 +50,10 @@ La predicción se basa únicamente en el modelo y, desde el punto de vista farma
 |------|------|
 | Indicación Original | Pentosano polisulfato de sodio (el registro no detalla una indicación clínica) |
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria (primary release disorder of platelets) |
-| Puntaje de Predicción TxGNN | 99.71% |
+| Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
-| Número de Registros Sanitarios | 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -70,8 +70,8 @@ El puntaje alto del modelo probablemente refleja la cercanía en la red de conoc
 
 | Enfermedad predicha | Puntaje TxGNN | Comentario |
 |------|------|------|
-| Trombastenia de Glanzmann | 99.65% | Se debe a la deficiencia o disfunción de la integrina αIIbβ3. No se conoce ningún mecanismo por el que el fármaco restaure esta función, y su efecto anticoagulante agravaría el riesgo de sangrado. |
-| Pseudoenfermedad de von Willebrand | 99.62% | Se debe a variantes con ganancia de función en GP1BA. Una interacción con el factor de von Willebrand o con glicoproteínas plaquetarias es solo teórica y especulativa, y existen preocupaciones de seguridad por sangrado. |
+| Trombastenia de Glanzmann | 0.9965 | Se debe a la deficiencia o disfunción de la integrina αIIbβ3. No se conoce ningún mecanismo por el que el fármaco restaure esta función, y su efecto anticoagulante agravaría el riesgo de sangrado. |
+| Pseudoenfermedad de von Willebrand | 0.9962 | Se debe a variantes con ganancia de función en GP1BA. Una interacción con el factor de von Willebrand o con glicoproteínas plaquetarias es solo teórica y especulativa, y existen preocupaciones de seguridad por sangrado. |
 
 ---
 

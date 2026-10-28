@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Rilpivirine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 561
-evidence_level: L4
-indication_count: 5
+evidence_level: L5
+indication_count: 3
 last_modified_at: 2026-10-14
 description: "Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…"
 monitor_inn: "rilpivirine"
@@ -14,7 +14,7 @@ predicted_indications: ["feline acquired immunodeficiency syndrome", "simian imm
 # Rilpivirine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -51,9 +51,9 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 |------|------|
 | Indicación Original | Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación antirretroviral para VIH) |
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
-| Puntaje de Predicción TxGNN | 99.97% |
-| Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Solo registros cancelados |
+| Puntaje de Predicción TxGNN | 0.9997 |
+| Nivel de Evidencia | L5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -92,8 +92,8 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina / Rilpivirina / Tenofovir alafenamida | Cancelado |
-| 20240862 | ERESTZ® | Tableta recubierta | Emtricitabina, Tenofovir disoproxil y Rilpivirina | Cancelado |
+| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina / Rilpivirina / Tenofovir alafenamida | Vigente |
+| 20240862 | ERESTZ® | Tableta recubierta | Emtricitabina, Tenofovir disoproxil y Rilpivirina | Vigente |
 
 ---
 

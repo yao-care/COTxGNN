@@ -4,17 +4,17 @@ title: Azathioprine
 parent: Solo Predicción del Modelo (L5)
 nav_order: 82
 evidence_level: L5
-indication_count: 10
+indication_count: 7
 last_modified_at: 2026-10-14
-description: "Azathioprine: nueva indicación predicha, Enfermedad inflamatoria intestinal (rango 5 del modelo) (nivel de evidencia L5). Indicación original: AZATIOPRINA"
 monitor_inn: "Azathioprine"
-predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "osteoarthritis susceptibility", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
+description: "Azathioprine: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: AZATIOPRINA"
 ---
 
 # Azathioprine
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,10 +33,10 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Azatioprina: De Indicación Original (AZATIOPRINA) a Enfermedad Inflamatoria Intestinal
+## Azathioprine: Colobomatous microphthalmia-rhizomelic dysplasia syndrome
 {: .text-alpha }
 
-> Nota: el modelo TxGNN ubica en primer lugar de su lista a "síndrome de microftalmia colobomatosa-displasia rizomélica" (puntaje 99.99 %), pero sin evidencia ni plausibilidad biológica. Este informe se centra en la **enfermedad inflamatoria intestinal (EII)**, la primera indicación con evidencia clínica real (rango 5 del modelo), y menciona la colitis ulcerosa como indicación estrechamente relacionada.
+> Nota: el modelo TxGNN (aprendizaje profundo) ubica en primer lugar de su lista a "síndrome de microftalmía colobomatosa-displasia rizomélica" (puntaje 1.0000), pero sin evidencia ni plausibilidad biológica. Este puntaje proviene del modelo y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
 ---
 
@@ -51,12 +51,12 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad inflamator
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | AZATIOPRINA (el registro sanitario no detalla la indicación) |
-| Nueva Indicación Predicha | Enfermedad inflamatoria intestinal (rango 5 del modelo) |
-| Puntaje de Predicción TxGNN | 99.52 % (la predicción de mayor puntaje, 99.99 %, carece de evidencia y de plausibilidad biológica) |
-| Nivel de Evidencia | L1 (según la clasificación del análisis; véase la nota en Conclusión) |
-| Estado de Mercado en Colombia | ✗ Solo registros cancelados |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Indicación Original | AZATIOPRINA |
+| Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
+| Puntaje de Predicción TxGNN | 1.0000 |
+| Nivel de Evidencia | L5 (según la clasificación del análisis; véase la nota en Conclusión) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -154,7 +154,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y un ensayo reciente (ACTIVE, 2025) que respaldan el uso de azatioprina en EII y colitis ulcerosa, con mecanismo bien establecido. Sin embargo, es un uso ya consolidado más que un reposicionamiento nuevo, varios ensayos de Fase 3 fueron terminados prematuramente y todos los registros sanitarios en Colombia están cancelados.
+Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y un ensayo reciente (ACTIVE, 2025) que respaldan el uso de azatioprina en EII y colitis ulcerosa, con mecanismo bien establecido. Sin embargo, es un uso ya consolidado más que un reposicionamiento nuevo, varios ensayos de Fase 3 fueron terminados prematuramente y el medicamento está comercializado en Colombia, con 4 registros sanitarios vigentes de 4.
 
 **Para avanzar se necesita:**
 - Verificar la disponibilidad real del producto en Colombia, dado que no hay registros vigentes (renovar o tramitar un nuevo registro).
