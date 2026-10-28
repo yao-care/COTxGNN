@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Meclizine: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: MECLOZINA"
+last_modified_at: 2026-10-28
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
+description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: MECLOZINA"
 ---
 
 # Meclizine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Meclizina: De MECLOZINA (indicación registrada) a Urticaria Alérgica
+## Meclizine: Urticaria alérgica (allergic urticaria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,8 +48,8 @@ Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | MECLOZINA (el texto del registro no detalla una enfermedad específica) |
-| Nueva Indicación Predicha | Urticaria alérgica |
+| Indicación Original | MECLOZINA |
+| Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
@@ -66,7 +66,7 @@ La urticaria alérgica está mediada por histamina, y los antihistamínicos H1 s
 
 Conviene ser cautos: el puntaje de TxGNN (0.9967) es una predicción computacional, no evidencia clínica. Las guías prefieren los antihistamínicos de segunda generación, por lo que el valor adicional de la meclizina es incierto.
 
-Otras indicaciones predichas, todas con nivel L5 y recomendación Hold, fueron: resfriado común (99.49%), enfermedad de la cavidad nasal (99.48%), faringitis (99.45%), laringofaringitis aguda (99.37%) y urticaria por frío (99.22%). Entre ellas, la urticaria por frío comparte el mismo fundamento mecanístico que la urticaria alérgica, mientras que para faringitis y laringofaringitis el vínculo es débil y el efecto anticolinérgico de sequedad podría ser contraproducente.
+Otras indicaciones predichas, todas con nivel L5 y recomendación Hold, fueron: resfriado común (0.9949), enfermedad de la cavidad nasal (0.9948), faringitis (0.9945), laringofaringitis aguda (0.9937) y urticaria por frío (0.9922). Entre ellas, la urticaria por frío comparte el mismo fundamento mecanístico que la urticaria alérgica, mientras que para faringitis y laringofaringitis el vínculo es débil y el efecto anticolinérgico de sequedad podría ser contraproducente.
 
 ---
 

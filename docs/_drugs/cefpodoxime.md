@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-23
-description: "Cefpodoxime: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: CEFPODOXIMA"
+last_modified_at: 2026-10-28
+description: "Cefpodoxime: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: CEFPODOXIMA"
 ---
 
 # Cefpodoxime
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Cefpodoxima: De Indicación Original (CEFPODOXIMA) a Osteoartritis
+## Cefpodoxime: Osteoartritis (osteoarthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,8 +45,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero ac
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | CEFPODOXIMA (el texto de la licencia no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Osteoartritis |
+| Indicación Original | CEFPODOXIMA |
+| Nueva Indicación Predicha | Osteoartritis (osteoarthritis) |
 | Puntaje de Predicción TxGNN | 0.9925 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
@@ -62,7 +62,7 @@ La osteoartritis es una enfermedad degenerativa de la articulación, asociada a 
 
 El puntaje alto de TxGNN (0.9925) es solo una predicción del modelo TxGNN (aprendizaje profundo). Podría reflejar artefactos de proximidad en la red (por ejemplo, patrones compartidos de interacciones o genes vecinos) y no un efecto terapéutico real.
 
-Como segunda predicción, el modelo también propone **artritis reumatoide** (99.24%), igualmente sin evidencia clínica ni bibliográfica ni vínculo mecanístico reconocido.
+Como segunda predicción, el modelo también propone **artritis reumatoide** (0.9924), igualmente sin evidencia clínica ni bibliográfica ni vínculo mecanístico reconocido.
 
 ## Evidencia de Ensayos Clínicos
 

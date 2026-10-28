@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 49
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (CPVT) (nivel de evidencia L4). Indicación original: AMIODARONA"
+last_modified_at: 2026-10-28
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+description: "Amiodarone: nueva indicación predicha, Catecholaminergic polymorphic ventricular tachycardia (nivel de evidencia L4). Indicación original: AMIODARONA"
 ---
 
 # Amiodarone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 </div>
 
-## Amiodarona: De Indicación Original (AMIODARONA) a Catecholaminergic Polymorphic Ventricular Tachycardia (Taquicardia Ventricular Polimórfica Catecolaminérgica)
+## Amiodarone: Catecholaminergic polymorphic ventricular tachycardia
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | AMIODARONA (el registro no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Taquicardia ventricular polimórfica catecolaminérgica (CPVT) |
+| Indicación Original | AMIODARONA |
+| Nueva Indicación Predicha | Catecholaminergic polymorphic ventricular tachycardia |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
@@ -65,7 +65,7 @@ Sin embargo, la CPVT se origina por una fuga de calcio mediada por mutaciones en
 
 **Otras indicaciones predichas (para contexto):** el modelo también generó otras predicciones con mayor respaldo o con evidencia nula:
 - **Taquicardia ventricular** (puntaje 0.9964, nivel L1, Proceed with Guardrails): la evidencia es sólida (AVID, ALPS, PROCAMIO), pero es una indicación ya establecida clínicamente, más una confirmación que un reposicionamiento propiamente dicho.
-- **Taquicardia ventricular incesante infantil** (99.65%, nivel L2): existe un ensayo aleatorizado doble ciego de amiodarona intravenosa en taquiarritmias incesantes pediátricas (PMID 16316969), aunque con población mixta.
+- **Taquicardia ventricular incesante infantil** (0.9965, nivel L2): existe un ensayo aleatorizado doble ciego de amiodarona intravenosa en taquiarritmias incesantes pediátricas (PMID 16316969), aunque con población mixta.
 - Artritis reumatoide, gota, tricotilomanía y otras (nivel L5): sin respaldo y sin vínculo mecanístico plausible.
 
 ---

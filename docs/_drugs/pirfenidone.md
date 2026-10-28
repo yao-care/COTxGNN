@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Extracutaneous mastocytoma (nivel de evidencia L5). Indicación original: PIRFENIDONA"
@@ -54,7 +54,7 @@ Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre 
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
-**Nota sobre la selección de la indicación:** la primera predicción del modelo (rank 1) es *mastocitoma extracutáneo* (99.71%), pero no tiene ningún respaldo clínico ni bibliográfico (L5). Se presenta aquí la predicción de rank 9, *neoplasia fibroblástica*, por ser la única de las 10 predicciones con literatura asociada. Las demás predicciones se resumen al final de la sección de conclusión.
+**Nota sobre la selección de la indicación:** la primera predicción del modelo (rank 1) es *mastocitoma extracutáneo* (0.9971), pero no tiene ningún respaldo clínico ni bibliográfico (L5). Se presenta aquí la predicción de rank 9, *neoplasia fibroblástica*, por ser la única de las 10 predicciones con literatura asociada. Las demás predicciones se resumen al final de la sección de conclusión.
 
 ---
 
@@ -121,7 +121,7 @@ La predicción se apoya solo en evidencia preclínica indirecta y en reportes de
 - Aclarar el estatus regulatorio en Colombia (motivo de la cancelación y posibilidad de nuevo registro).
 - Confirmar la relevancia del piloto en tumores desmoides (PMID 12907346).
 
-**Otras predicciones del modelo (todas L5, Hold, sin ensayos ni literatura):** mastocitoma extracutáneo (99.71%), dermatofibrosarcoma protuberans (99.41%), mastocitosis sistémica agresiva (99.33%), fibrosarcoma de corazón (99.29%), fibrosarcoma convencional (99.26%), fiebre mediterránea familiar autosómica recesiva (99.25%), fibrosarcoma de riñón (99.24%), infarto hepático (99.24%) y sarcoma fibromixoide de bajo grado (99.19%). En varias de ellas existen terapias establecidas (por ejemplo, imatinib en dermatofibrosarcoma; colchicina y bloqueadores de IL-1 en fiebre mediterránea familiar).
+**Otras predicciones del modelo (todas L5, Hold, sin ensayos ni literatura):** mastocitoma extracutáneo (0.9971), dermatofibrosarcoma protuberans (0.9941), mastocitosis sistémica agresiva (0.9933), fibrosarcoma de corazón (0.9929), fibrosarcoma convencional (0.9926), fiebre mediterránea familiar autosómica recesiva (0.9925), fibrosarcoma de riñón (0.9924), infarto hepático (0.9924) y sarcoma fibromixoide de bajo grado (0.9919). En varias de ellas existen terapias establecidas (por ejemplo, imatinib en dermatofibrosarcoma; colchicina y bloqueadores de IL-1 en fiebre mediterránea familiar).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

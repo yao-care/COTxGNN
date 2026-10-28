@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: SAFINAMIDA"
+last_modified_at: 2026-10-28
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
+description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: SAFINAMIDA"
 ---
 
 # Safinamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Safinamida: De Enfermedad de Parkinson (SAFINAMIDA) a Encefalitis Subaguda de Rasmussen
+## Safinamide: Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | SAFINAMIDA (el registro no detalla la indicación) |
-| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
+| Indicación Original | SAFINAMIDA |
+| Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
@@ -62,7 +62,7 @@ Sin embargo, la relación es débil. La encefalitis de Rasmussen está causada p
 
 El único sustento es la puntuación del modelo TxGNN (0.9963). La similitud con la indicación original no se ha evaluado, y la compatibilidad de vías de administración está pendiente (safinamida es de administración oral).
 
-Otras predicciones del modelo, también solo con evidencia L5, son mielitis (99.46%) y neurodegeneración asociada a PLA2G6 (99.22%). Esta última tiene un vínculo sintomático algo más plausible por su componente parkinsoniano y dopaminérgico, aunque no modificaría la enfermedad de fondo.
+Otras predicciones del modelo, también solo con evidencia L5, son mielitis (0.9946) y neurodegeneración asociada a PLA2G6 (0.9922). Esta última tiene un vínculo sintomático algo más plausible por su componente parkinsoniano y dopaminérgico, aunque no modificaría la enfermedad de fondo.
 
 ## Información de Mercado en Colombia
 

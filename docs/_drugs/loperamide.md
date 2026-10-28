@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L5). Indicación original: Loperamida"
+last_modified_at: 2026-10-28
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
+description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: LOPERAMIDA"
 ---
 
 # Loperamide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Loperamida: De Antidiarreico a Conjuntivitis Contagiosa Aguda
+## Loperamide: Conjuntivitis contagiosa aguda (acute contagious conjunctivitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Loperamida (el texto del registro no detalla la indicación; corresponde al uso antidiarreico conocido del fármaco) |
-| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
+| Indicación Original | LOPERAMIDA |
+| Nueva Indicación Predicha | Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 **La predicción no resulta razonable desde el punto de vista mecanístico.** No existe un vínculo plausible entre la reducción de la motilidad intestinal y la inflamación infecciosa de la conjuntiva. El puntaje alto de TxGNN (0.9997) es solo una predicción del modelo y probablemente es un artefacto del modelo TxGNN (aprendizaje profundo). Además, varias predicciones del mismo grupo (conjuntivitis, conjuntivitis pseudomembranosa, conjuntivitis folicular crónica, foliculosis conjuntival, conjuntivitis serosa, conjuntivitis parasitaria) comparten puntajes idénticos o casi idénticos, lo que sugiere una propagación por ontología y no una señal independiente.
 
-Entre las otras predicciones evaluadas, **disentería amebiana** (99.95%) y **gastroduodenitis** (99.77%) son más cercanas al campo gastrointestinal, pero la literatura disponible las muestra como señales de **daño**, no de eficacia (véase Consideraciones de Seguridad).
+Entre las otras predicciones evaluadas, **disentería amebiana** (0.9995) y **gastroduodenitis** (0.9977) son más cercanas al campo gastrointestinal, pero la literatura disponible las muestra como señales de **daño**, no de eficacia (véase Consideraciones de Seguridad).
 
 ---
 

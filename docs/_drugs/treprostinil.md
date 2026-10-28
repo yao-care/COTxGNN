@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Treprostinil: nueva indicación predicha, Malformación arteriovenosa pulmonar (nivel de evidencia L3). Indicación original: TREPROSTINILO"
+last_modified_at: 2026-10-28
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
+description: "Treprostinil: nueva indicación predicha, Pulmonary arteriovenous malformation (disease) (nivel de evidencia L5). Indicación original: TREPROSTINILO"
 ---
 
 # Treprostinil
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Treprostinil: De Treprostinilo (indicación original sin detallar) a Malformación arteriovenosa pulmonar
+## Treprostinil: Pulmonary arteriovenous malformation (disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,15 +47,15 @@ El modelo TxGNN predice que podría ser efectivo para la **hipertensión arteria
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | TREPROSTINILO (el registro sanitario no detalla la enfermedad) |
-| Nueva Indicación Predicha | Hipertensión arterial pulmonar asociada a cardiopatía congénita |
+| Indicación Original | TREPROSTINILO |
+| Nueva Indicación Predicha | Pulmonary arteriovenous malformation (disease) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 2 (ambos cancelados) |
 | Decisión Recomendada | Hold |
 
-**Nota sobre la selección:** la primera predicción de la lista (malformación arteriovenosa pulmonar, 99.70%) carece de evidencia (L5) y de una justificación biológica sólida; incluso la vasodilatación podría empeorar el cortocircuito. Por ello, este informe se centra en la predicción de mayor evidencia, la hipertensión arterial pulmonar asociada a cardiopatía congénita (segunda en el ranking).
+**Nota sobre la selección:** la primera predicción de la lista (malformación arteriovenosa pulmonar, 0.9970) carece de evidencia (L5) y de una justificación biológica sólida; incluso la vasodilatación podría empeorar el cortocircuito. Por ello, este informe se centra en la predicción de mayor evidencia, la hipertensión arterial pulmonar asociada a cardiopatía congénita (segunda en el ranking).
 
 ---
 

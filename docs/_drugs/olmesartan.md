@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Olmesartan: nueva indicación predicha, Prinzmetal angina (angina de Prinzmetal) (nivel de evidencia L5). Indicación original: Olmesartán medoxomilo y diuréticos"
+last_modified_at: 2026-10-28
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
+description: "Olmesartan: nueva indicación predicha, Prinzmetal angina (nivel de evidencia L5). Indicación original: OLMERSARTAN MEDOXOMIL Y DIURETICOS"
 ---
 
 # Olmesartan
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Olmesartán: De Combinación con Diuréticos para Hipertensión a Angina de Prinzmetal
+## Olmesartan: Prinzmetal angina
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Olmesartán medoxomilo y diuréticos |
-| Nueva Indicación Predicha | Prinzmetal angina (angina de Prinzmetal) |
+| Indicación Original | OLMERSARTAN MEDOXOMIL Y DIURETICOS |
+| Nueva Indicación Predicha | Prinzmetal angina |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -105,8 +105,8 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 
 Entre las demás predicciones, con base en la evidencia disponible:
 - **Migraña** (puntaje 0.9964, nivel L3): existe una revisión sistemática de 2019 sobre IECA y ARA-II, y un estudio de 2006 sobre olmesartán en pacientes hipertensos. El diseño no está confirmado y el candesartán tiene mejor evidencia. Es la candidata con mayor respaldo y podría plantearse como pregunta de investigación.
-- **Hipertensión pulmonar** (99.61%, nivel L4): solo evidencia preclínica en ratas y ratones, sin datos en humanos.
-- **Glaucoma de ángulo abierto** (99.40%, nivel L4): solo una revisión general, sin datos específicos de olmesartán.
+- **Hipertensión pulmonar** (0.9961, nivel L4): solo evidencia preclínica en ratas y ratones, sin datos en humanos.
+- **Glaucoma de ángulo abierto** (0.9940, nivel L4): solo una revisión general, sin datos específicos de olmesartán.
 - El resto (alopecia, hipotricosis, entre otras) son solo predicciones del modelo, sin base mecanística clara.
 ## Descargo de responsabilidad
 

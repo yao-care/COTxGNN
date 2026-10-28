@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (solo figura \"Etoricoxib\")"
+last_modified_at: 2026-10-28
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
+description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: ETORICOXIB"
 ---
 
 # Etoricoxib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Etoricoxib: De Indicación No Especificada en el Registro a Trastorno de Migraña
+## Etoricoxib: Trastorno de migraña (migraine disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,7 +47,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro sanitario (solo figura "Etoricoxib"); en la literatura: artritis reumatoide, osteoartritis, dolor lumbar crónico, espondilitis anquilosante, dolor agudo y gota |
+| Indicación Original | ETORICOXIB |
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
@@ -66,7 +66,7 @@ En la migraña, la prostaglandina E2 dependiente de COX-2 contribuye a la inflam
 Es importante subrayar que el puntaje TxGNN muy alto es solo una predicción computacional. La única publicación vinculada directamente a migraña es una revisión exploratoria sobre cefalea por ayuno en Ramadán, que no es específica de etoricoxib y no aporta datos de eficacia.
 
 **Otras predicciones del modelo (todas en nivel L5 o L4):**
-- **Cefalea (headache disorder, 99.31%)** y **cefalea trigémino-autonómica (99.15%)**: son las mejor respaldadas (nivel L4), con reportes de casos y series pequeñas de respuesta a etoricoxib en cefalea punzante primaria, cefalea tusígena y cefaleas sensibles a indometacina. No hay ensayos controlados.
+- **Cefalea (headache disorder, 0.9931)** y **cefalea trigémino-autonómica (0.9915)**: son las mejor respaldadas (nivel L4), con reportes de casos y series pequeñas de respuesta a etoricoxib en cefalea punzante primaria, cefalea tusígena y cefaleas sensibles a indometacina. No hay ensayos controlados.
 - Migraña con aura de tronco encefálico, susceptibilidad a migraña, atrodermia vermiculada, uleritema ofriógenes, hipertensión pulmonar, hiperplasia prostática benigna y cardiopatía cifoescoliótica: sin respaldo clínico. En hipertensión pulmonar y cardiopatía, el perfil de riesgo del fármaco sugiere más daño que beneficio.
 
 ---

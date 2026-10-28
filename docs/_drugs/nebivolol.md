@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Nebivolol: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: NEBIVOLOL"
+last_modified_at: 2026-10-28
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
+description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: NEBIVOLOL"
 ---
 
 # Nebivolol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Nebivolol: De Nebivolol (indicación sin detallar) a enfermedad renal hipertensiva maligna
+## Nebivolol: Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,8 +48,8 @@ La predicción se apoya únicamente en el modelo computacional (nivel de evidenc
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | NEBIVOLOL (el registro sanitario no detalla la indicación aprobada) |
-| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
+| Indicación Original | NEBIVOLOL |
+| Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -66,7 +66,7 @@ La relación con la indicación original es indirecta: el registro local solo me
 
 Sin embargo, la hipertensión maligna con afectación renal es una emergencia que normalmente se maneja con fármacos intravenosos, por lo que nebivolol oral no tiene un papel establecido. El puntaje alto del modelo (0.9942) no cuenta con validación clínica.
 
-Otras predicciones del modelo (con el mismo nivel de evidencia bajo) fueron: hipertensión renovascular maligna (99.42%), hipertensión pulmonar por enfermedad pulmonar o hipoxia (99.39%, nivel L4 por literatura preclínica indirecta), hipertensión pulmonar de mecanismo multifactorial poco claro (99.39%) y síndrome de Braddock (99.14%, sin vínculo mecanístico identificable).
+Otras predicciones del modelo (con el mismo nivel de evidencia bajo) fueron: hipertensión renovascular maligna (0.9942), hipertensión pulmonar por enfermedad pulmonar o hipoxia (0.9939, nivel L4 por literatura preclínica indirecta), hipertensión pulmonar de mecanismo multifactorial poco claro (0.9939) y síndrome de Braddock (0.9914, sin vínculo mecanístico identificable).
 
 ---
 

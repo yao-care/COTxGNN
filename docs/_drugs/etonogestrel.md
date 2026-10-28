@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Etonogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Progestágeno + estrógeno"
+last_modified_at: 2026-10-28
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
+description: "Etonogestrel: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: PROGESTÁGENO+ESTRÓGENO"
 ---
 
 # Etonogestrel
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Etonogestrel: De Progestágeno+Estrógeno a Amenorrea
+## Etonogestrel: Amenorrea (amenorrhea (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Progestágeno + estrógeno |
-| Nueva Indicación Predicha | Amenorrea |
+| Indicación Original | PROGESTÁGENO+ESTRÓGENO |
+| Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -65,7 +65,7 @@ La amenorrea es un efecto bien conocido de los progestágenos, por lo que la aso
 
 La única publicación vinculada (PMID 33430924) trata sobre BIO101 en COVID-19 y no guarda relación con etonogestrel ni con amenorrea; parece una coincidencia espuria.
 
-Otras predicciones del modelo (todas con evidencia L5, sin ensayos ni literatura): enfermedad fibroquística de la mama (99.61%), adenosis de conductos romos (99.29%), adenosis apocrina (99.29%) y displasia mamaria benigna (99.21%). Su base es una hipótesis teórica de antagonismo de la proliferación mamaria inducida por estrógenos, y la dirección del efecto es incierta, ya que los anticonceptivos hormonales pueden empeorar o mejorar los síntomas mamarios.
+Otras predicciones del modelo (todas con evidencia L5, sin ensayos ni literatura): enfermedad fibroquística de la mama (0.9961), adenosis de conductos romos (0.9929), adenosis apocrina (0.9929) y displasia mamaria benigna (0.9921). Su base es una hipótesis teórica de antagonismo de la proliferación mamaria inducida por estrógenos, y la dirección del efecto es incierta, ya que los anticonceptivos hormonales pueden empeorar o mejorar los síntomas mamarios.
 
 ---
 

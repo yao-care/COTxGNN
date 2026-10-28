@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
-description: "Galcanezumab: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
+last_modified_at: 2026-10-28
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
+description: "Galcanezumab: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: GALCANEZUMAB"
 ---
 
 # Galcanezumab
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Galcanezumab: De Indicación Original no especificada a Deficiencia del Cofactor 2 de la Heparina
+## Galcanezumab: Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro sanitario (solo figura el nombre del principio activo) |
-| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina |
+| Indicación Original | GALCANEZUMAB |
+| Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) |
 | Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -65,8 +65,8 @@ La deficiencia del cofactor 2 de la heparina es un trastorno de los inhibidores 
 
 **No se identificó un vínculo mecanístico creíble.** El puntaje alto de TxGNN (0.9950) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; tampoco está respaldado por ensayos clínicos ni literatura. Las otras dos predicciones de mayor rango tienen la misma limitación:
 
-- **Deficiencia de antitrombina tipo 2** (99.41%): es un defecto funcional de SERPINC1, y el CGRP no influye en la función de la antitrombina ni en la cascada de coagulación.
-- **Exceso de factor V con trombosis espontánea** (99.41%): es una anomalía de la vía de coagulación sin relación conocida con el CGRP. Además, los anticuerpos contra la vía del CGRP tienen precauciones cardiovasculares y vasculares (por ejemplo, hipertensión y eventos de tipo Raynaud notificados tras la comercialización), por lo que una población propensa a trombosis requeriría mayor escrutinio de seguridad.
+- **Deficiencia de antitrombina tipo 2** (0.9941): es un defecto funcional de SERPINC1, y el CGRP no influye en la función de la antitrombina ni en la cascada de coagulación.
+- **Exceso de factor V con trombosis espontánea** (0.9941): es una anomalía de la vía de coagulación sin relación conocida con el CGRP. Además, los anticuerpos contra la vía del CGRP tienen precauciones cardiovasculares y vasculares (por ejemplo, hipertensión y eventos de tipo Raynaud notificados tras la comercialización), por lo que una población propensa a trombosis requeriría mayor escrutinio de seguridad.
 
 ---
 

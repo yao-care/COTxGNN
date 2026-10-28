@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
-description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: SILODOSINA"
+last_modified_at: 2026-10-28
 monitor_inn: "Silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
+description: "Silodosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) (nivel de evidencia L5). Indicación original: SILODOSINA"
 ---
 
 # Silodosin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Silodosina: De Silodosina (indicación registrada sin detalle) a Hipertricosis universal congénita tipo Ambras
+## Silodosin: Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | SILODOSINA (el registro sanitario no detalla la indicación; el uso clínico conocido es la HPB) |
-| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
+| Indicación Original | SILODOSINA |
+| Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras (Ambras type hypertrichosis universalis congenita) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -65,7 +65,7 @@ Sin embargo, no existe un mecanismo establecido que relacione el bloqueo alfa-1A
 
 El puntaje elevado del modelo TxGNN (deep learning), 0.9999, puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no evidencia biológica. Debe interpretarse como una hipótesis sin respaldo, no como una señal de eficacia.
 
-Otras predicciones del modelo siguen el mismo patrón: hipertricosis (99.99%), síndrome malformativo con componente dental o periodontal (99.99%), síndrome con malformación de Dandy-Walker (99.98%), anomalía genética aislada del tallo piloso (99.98%) y tricomegalia aislada familiar (99.23%). Ninguna cuenta con ensayos clínicos ni literatura.
+Otras predicciones del modelo siguen el mismo patrón: hipertricosis (0.9999), síndrome malformativo con componente dental o periodontal (0.9999), síndrome con malformación de Dandy-Walker (0.9999), anomalía genética aislada del tallo piloso (0.9999) y tricomegalia aislada familiar (0.9923). Ninguna cuenta con ensayos clínicos ni literatura.
 
 ---
 

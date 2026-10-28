@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: nueva indicación predicha, Manic bipolar affective disorder (nivel de evidencia L5). Indicación original: LACOSAMIDA"
@@ -116,8 +116,8 @@ Existen dos ensayos de Fase 3 completados y un ECA doble ciego publicado en 2026
 - Plan de monitoreo cardiaco (conducción y ritmo) y de control hematológico, dadas las señales de seguridad.
 
 **Otras predicciones del modelo (para referencia):**
-- **Trastorno bipolar maníaco** (99.96%, L3, Research Question): apoyo limitado a estudios observacionales pequeños y series de casos.
-- **Síndrome miofascial** (99.81%, L2, Research Question): un ensayo de Fase 2 controlado con placebo sin resultados disponibles.
+- **Trastorno bipolar maníaco** (0.9996, L3, Research Question): apoyo limitado a estudios observacionales pequeños y series de casos.
+- **Síndrome miofascial** (0.9981, L2, Research Question): un ensayo de Fase 2 controlado con placebo sin resultados disponibles.
 - **Síndrome de Tourette, tricotilomanía, SIAD nefrogénico, insomnio, TOC y conjuntivitis papilar:** solo predicción del modelo, sin respaldo clínico (Hold).
 ## Descargo de responsabilidad
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-10-23
-description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (nivel de evidencia L5). Indicación original: Ceftazidima e inhibidor de betalactamasa"
+last_modified_at: 2026-10-28
+description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (ureter tuberculosis) (nivel de evidencia L5). Indicación original: CEFTAZIDIMA E INHIBIDOR DE BETALACTAMASA"
 ---
 
 # Avibactam
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Avibactam: De Inhibidor de Betalactamasas (combinado con ceftazidima) a Tuberculosis del Uréter
+## Avibactam: Tuberculosis del uréter (ureter tuberculosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,8 +45,8 @@ El modelo TxGNN predice que podría ser efectivo para **tuberculosis del uréter
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Ceftazidima e inhibidor de betalactamasa |
-| Nueva Indicación Predicha | Tuberculosis del uréter |
+| Indicación Original | CEFTAZIDIMA E INHIBIDOR DE BETALACTAMASA |
+| Nueva Indicación Predicha | Tuberculosis del uréter (ureter tuberculosis) |
 | Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
@@ -62,9 +62,9 @@ El vínculo con la tuberculosis del uréter es débil y especulativo. Algunos tr
 Es probable que el puntaje alto del modelo se deba a la asociación en la red de conocimiento con indicaciones de infección urinaria, y no a la biología de la tuberculosis. Por ello, el puntaje debe interpretarse con mucha cautela.
 
 Otras predicciones del modelo, con la misma ausencia de evidencia, son:
-- **Esquistosomiasis urinaria** (99.06%): no se identificó un vínculo mecanístico plausible; probablemente refleja el contexto urinario compartido.
+- **Esquistosomiasis urinaria** (0.9906): no se identificó un vínculo mecanístico plausible; probablemente refleja el contexto urinario compartido.
 - **Síndrome de hiperviscosidad policlonal** (0.9901): sin vínculo mecanístico; probable artefacto del modelo TxGNN (aprendizaje profundo).
-- **Hiperamilasemia** (99.01%): es un hallazgo de laboratorio, no una enfermedad tratable con un inhibidor antibacteriano; posible relación espuria o señal de evento adverso.
+- **Hiperamilasemia** (0.9901): es un hallazgo de laboratorio, no una enfermedad tratable con un inhibidor antibacteriano; posible relación espuria o señal de evento adverso.
 
 ## Evidencia de Ensayos Clínicos
 

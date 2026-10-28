@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Lactulose: nueva indicación predicha, Nefropatía aguda por uratos (predicción n.º 1) (nivel de evidencia L5). Indicación original: Lactulosa"
+last_modified_at: 2026-10-28
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
+description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: LACTULOSA"
 ---
 
 # Lactulose
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Lactulosa: De Indicación Original (Lactulosa) a Nefropatía aguda por uratos
+## Lactulose: Acute urate nephropathy
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,8 +45,8 @@ El modelo TxGNN predice que podría ser efectivo para **acute urate nephropathy 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lactulosa (el registro sanitario no detalla una indicación específica) |
-| Nueva Indicación Predicha | Nefropatía aguda por uratos (predicción n.º 1) |
+| Indicación Original | LACTULOSA |
+| Nueva Indicación Predicha | Acute urate nephropathy |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
@@ -85,9 +85,9 @@ Literatura seleccionada para **ictericia obstructiva** (las demás predicciones 
 | [29428098](https://pubmed.ncbi.nlm.nih.gov/29428098/) | 2018 | Revisión | Hepatobiliary Pancreat Dis Int | Consecuencias fisiopatológicas de la ictericia obstructiva y manejo perioperatorio |
 
 **Notas sobre las otras predicciones:**
-- *Enfermedad de las vías biliares* (99.47%, L3) y *enfermedad del tracto biliar* (99.38%, L4): la evidencia se solapa con la de ictericia obstructiva o es indirecta (por ejemplo, un artículo sobre lactulosa y bilis en relación con cálculos biliares, PMID 9145452).
-- *Hiperfosfatemia* (99.37%, L4): solo una revisión sobre estreñimiento en enfermedad renal crónica (PMID 37814433); la lactulosa no es un quelante de fosfato.
-- *Neoplasia de vías biliares* (99.12%, L4): literatura de apoyo perioperatorio, sin acción antitumoral conocida.
+- *Enfermedad de las vías biliares* (0.9947, L3) y *enfermedad del tracto biliar* (0.9938, L4): la evidencia se solapa con la de ictericia obstructiva o es indirecta (por ejemplo, un artículo sobre lactulosa y bilis en relación con cálculos biliares, PMID 9145452).
+- *Hiperfosfatemia* (0.9937, L4): solo una revisión sobre estreñimiento en enfermedad renal crónica (PMID 37814433); la lactulosa no es un quelante de fosfato.
+- *Neoplasia de vías biliares* (0.9912, L4): literatura de apoyo perioperatorio, sin acción antitumoral conocida.
 - *Nefrolitiasis*, *nefropatía aguda por uratos* e *hipertermia maligna inducida por ejercicio*: sin ensayos ni literatura.
 
 ## Información de Mercado en Colombia

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "IODIXANOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-10-23
-description: "Iodixanol: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: IODIXANOL"
+last_modified_at: 2026-10-28
+description: "Iodixanol: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: IODIXANOL"
 ---
 
 # Iodixanol
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Iodixanol: De Medio de Contraste Radiológico a Osteoartritis
+## Iodixanol: Osteoartritis (osteoarthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -44,8 +44,8 @@ Iodixanol es un medio de contraste yodado, no iónico e iso-osmolar, registrado 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | IODIXANOL (el registro sanitario no detalla una indicación clínica más específica) |
-| Nueva Indicación Predicha | Osteoartritis |
+| Indicación Original | IODIXANOL |
+| Nueva Indicación Predicha | Osteoartritis (osteoarthritis) |
 | Puntaje de Predicción TxGNN | 0.9907 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
@@ -60,7 +60,7 @@ La literatura recuperada describe su uso como agente de diagnóstico: tomografí
 
 El puntaje alto de TxGNN (0.9907) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni un efecto farmacológico. Por ello, la predicción no tiene un vínculo mecanístico que la sustente.
 
-Para la segunda predicción del modelo, **artritis reumatoide** (99.00%), tampoco existen ensayos clínicos. La única publicación es un reporte de caso sobre desensibilización a otro contraste (iohexol), sin relación con la eficacia de iodixanol, que no tiene actividad antiinflamatoria o inmunomoduladora conocida.
+Para la segunda predicción del modelo, **artritis reumatoide** (0.9900), tampoco existen ensayos clínicos. La única publicación es un reporte de caso sobre desensibilización a otro contraste (iohexol), sin relación con la eficacia de iodixanol, que no tiene actividad antiinflamatoria o inmunomoduladora conocida.
 
 ## Evidencia de Ensayos Clínicos
 

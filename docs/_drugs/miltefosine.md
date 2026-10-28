@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Miltefosine"
 predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
-last_modified_at: 2026-10-23
-description: "Miltefosine: nueva indicación predicha, Enfermedad infecciosa por Echinococcus granulosus (nivel de evidencia L5). Indicación original: No especificada en los registros locales (el texto solo dice \"M…"
+last_modified_at: 2026-10-28
+description: "Miltefosine: nueva indicación predicha, Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) (nivel de evidencia L5). Indicación original: MILTEFOSINA"
 ---
 
 # Miltefosine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Miltefosina: De Miltefosina (registro sanitario) a Enfermedad infecciosa por Echinococcus granulosus
+## Miltefosine: Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -45,8 +45,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad infecciosa
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en los registros locales (el texto solo dice "MILTEFOSINA") |
-| Nueva Indicación Predicha | Enfermedad infecciosa por Echinococcus granulosus |
+| Indicación Original | MILTEFOSINA |
+| Nueva Indicación Predicha | Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
@@ -102,7 +102,7 @@ No se dispone de advertencias principales ni de contraindicaciones del prospecto
 **Decisión: Hold**
 
 **Justificación:**
-La predicción (99.41%) es solo computacional: no hay ensayos clínicos ni literatura que estudien la miltefosina en la infección por *E. granulosus*, por lo que el nivel de evidencia es L5. Además, faltan datos de seguridad del prospecto y del mecanismo de acción.
+La predicción (0.9941) es solo computacional: no hay ensayos clínicos ni literatura que estudien la miltefosina en la infección por *E. granulosus*, por lo que el nivel de evidencia es L5. Además, faltan datos de seguridad del prospecto y del mecanismo de acción.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos in vitro e in vivo de la miltefosina frente a protoescólices y metacestodos de *Echinococcus*

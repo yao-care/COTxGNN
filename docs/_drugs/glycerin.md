@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
-description: "Glycerin: nueva indicación predicha, Síndrome de la cauda equina (nivel de evidencia L5). Indicación original: Lágrimas artificiales y otras preparaciones indiferentes"
+last_modified_at: 2026-10-28
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
+description: "Glycerin: nueva indicación predicha, Síndrome de la cauda equina (cauda equina syndrome) (nivel de evidencia L5). Indicación original: LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES"
 ---
 
 # Glycerin
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Glicerina: De Lágrimas Artificiales a Síndrome de la Cauda Equina
+## Glycerin: Síndrome de la cauda equina (cauda equina syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de la cauda
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lágrimas artificiales y otras preparaciones indiferentes |
-| Nueva Indicación Predicha | Síndrome de la cauda equina |
+| Indicación Original | LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES; GLICEROL |
+| Nueva Indicación Predicha | Síndrome de la cauda equina (cauda equina syndrome) |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
@@ -65,7 +65,7 @@ El síndrome de la cauda equina es una urgencia quirúrgica por compresión de l
 
 Aunque el puntaje del modelo es alto (0.9960), no hay ensayos ni publicaciones que lo acompañen. Por ello, esta predicción debe tomarse únicamente como una hipótesis sin respaldo.
 
-**Otras predicciones del modelo (todas con evidencia limitada):** glaucoma de ángulo abierto (99.59%, L4; la glicerina oral es un agente osmótico que reduce la presión intraocular, pero la literatura recuperada no aporta evidencia directa en esta forma de glaucoma), glaucoma hereditario primario, alopecia, síndrome del intestino irritable y migraña. Entre ellas, el glaucoma de ángulo abierto es la que tiene mayor plausibilidad biológica.
+**Otras predicciones del modelo (todas con evidencia limitada):** glaucoma de ángulo abierto (0.9959, L4; la glicerina oral es un agente osmótico que reduce la presión intraocular, pero la literatura recuperada no aporta evidencia directa en esta forma de glaucoma), glaucoma hereditario primario, alopecia, síndrome del intestino irritable y migraña. Entre ellas, el glaucoma de ángulo abierto es la que tiene mayor plausibilidad biológica.
 
 ---
 

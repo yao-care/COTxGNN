@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 201
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-14
-description: "Deferiprone: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: DEFERIPRONA"
+last_modified_at: 2026-10-28
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
+description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). Indicación original: DEFERIPRONA"
 ---
 
 # Deferiprone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **8**
 
 </div>
 
-## Deferiprona: De Indicación Original (Deferiprona) a Porfiria Hepática
+## Deferiprone: Porfiria hepática (hepatic porphyria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,8 +48,8 @@ pero hasta ahora **no hay ensayos clínicos registrados** y solo se dispone de *
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | DEFERIPRONA (el registro no detalla la indicación clínica) |
-| Nueva Indicación Predicha | Porfiria hepática |
+| Indicación Original | DEFERIPRONA |
+| Nueva Indicación Predicha | Porfiria hepática (hepatic porphyria) |
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
@@ -118,8 +118,8 @@ La evidencia es solo preclínica (L4), sin ensayos clínicos, y una de las dos p
 - Diseñar un estudio exploratorio con monitoreo de seguridad hematológica, si se decide avanzar
 
 **Otras predicciones del modelo (para referencia):**
-- **Talasemia beta con otras manifestaciones** (99.03%, L4): la quelación de hierro en talasemia está bien establecida; es más un uso cercano a la indicación original que un reposicionamiento verdadero. Falta verificarlo con datos de ECA primarios.
-- **Deficiencia de piruvato quinasa de glóbulos rojos** (99.15%, L5): la quelación podría ser un apoyo plausible ante la sobrecarga secundaria de hierro, sin evidencia en este conjunto de datos.
+- Falta verificarlo con datos de ECA primarios.
+- **Deficiencia de piruvato quinasa de glóbulos rojos** (0.9915, L5): la quelación podría ser un apoyo plausible ante la sobrecarga secundaria de hierro, sin evidencia en este conjunto de datos.
 - Las demás predicciones (hipertensión portal no cirrótica familiar de inicio temprano, cirrosis asociada a cobre idiopática, síndrome hepatopulmonar, trombosis portal primitiva, esclerosis hepatoportal, piropoiquilocitosis hereditaria) no tienen vínculo mecanístico claro ni evidencia, por lo que se recomienda mantenerlas en espera (Hold).
 ## Descargo de responsabilidad
 

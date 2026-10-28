@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: LINCOMICINA"
@@ -66,7 +66,7 @@ La hiperamilasemia es un hallazgo de laboratorio (elevación de amilasa en sangr
 
 El puntaje alto de TxGNN (0.9914) proviene únicamente de una predicción computacional del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Sin respaldo clínico ni bibliográfico, la relación podría reflejar ruido de asociación o eventos adversos y no un potencial terapéutico real.
 
-Las otras dos predicciones evaluadas tampoco muestran respaldo: el síndrome de hiperviscosidad policlonal (99.14%) y la analbuminemia congénita (99.06%) carecen de ensayos, literatura y mecanismo plausible. La analbuminemia congénita es un defecto genético de la síntesis de albúmina que un antibacteriano no puede corregir.
+Las otras dos predicciones evaluadas tampoco muestran respaldo: el síndrome de hiperviscosidad policlonal (0.9914) y la analbuminemia congénita (0.9906) carecen de ensayos, literatura y mecanismo plausible. La analbuminemia congénita es un defecto genético de la síntesis de albúmina que un antibacteriano no puede corregir.
 
 ---
 

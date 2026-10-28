@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Leuprolide: nueva indicación predicha, Osteoartritis (nivel de evidencia L5). Indicación original: Leuprorelina acetato"
+last_modified_at: 2026-10-28
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
+description: "Leuprolide: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: LEUPRORELINA ACETATO"
 ---
 
 # Leuprolide
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Leuprolida: De Leuprorelina Acetato a Osteoartritis
+## Leuprolide: Osteoartritis (osteoarthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero co
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Leuprorelina acetato (el registro sanitario no detalla la indicación) |
-| Nueva Indicación Predicha | Osteoartritis |
+| Indicación Original | LEUPRORELINA ACETATO |
+| Nueva Indicación Predicha | Osteoartritis (osteoarthritis) |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
@@ -118,7 +118,7 @@ La predicción para osteoartritis se basa solo en el modelo (nivel L5), sin ensa
 - Realizar una revisión de literatura y estudios preclínicos sobre GnRH y metabolismo del cartílago y hueso.
 - Evaluar el riesgo óseo y cardiometabólico de la supresión hormonal en pacientes con osteoartritis.
 - Aclarar la situación regulatoria, dado que los registros están cancelados.
-- Revisar la segunda predicción (pseudoacondroplasia, 99.69%), que tampoco cuenta con ensayos ni literatura y es igualmente especulativa.
+- Revisar la segunda predicción (pseudoacondroplasia, 0.9969), que tampoco cuenta con ensayos ni literatura y es igualmente especulativa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

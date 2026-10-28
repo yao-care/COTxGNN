@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Galan…"
+last_modified_at: 2026-10-28
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
+description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: GALANTAMINA"
 ---
 
 # Galantamine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Galantamina: De Indicación No Especificada en el Registro a Trastornos del Movimiento Psicogénicos
+## Galantamine: Trastornos del movimiento psicogénicos (psychogenic movement disorders)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectiva para **trastornos del movimient
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro sanitario (el texto solo indica "Galantamina") |
-| Nueva Indicación Predicha | Trastornos del movimiento psicogénicos |
+| Indicación Original | GALANTAMINA |
+| Nueva Indicación Predicha | Trastornos del movimiento psicogénicos (psychogenic movement disorders) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
@@ -65,8 +65,8 @@ Para los trastornos del movimiento psicogénicos **no se identificó un vínculo
 
 **Otras predicciones del modelo.** Otras indicaciones tienen puntajes muy similares (rango 0.9971–0.9989). Dos de ellas cuentan con algo de literatura:
 
-- **Discinesia lingual-facial-bucal** (99.88%): 22 publicaciones, incluido un ensayo aleatorizado cruzado de galantamina en discinesia tardía (PMID 17388711), además de revisiones Cochrane sobre medicación colinérgica en discinesia tardía. Estas revisiones tratan los fármacos colinérgicos como clase, no a la galantamina en particular. Es la candidata con evidencia más relevante, clasificada como "pregunta de investigación".
-- **Enfermedad extrapiramidal y del movimiento** (99.88%): 4 publicaciones, incluida una revisión sistemática de 2025 que describe trastornos del movimiento como **efecto adverso** de los inhibidores de la colinesterasa. La dirección del efecto es incierta.
+- **Discinesia lingual-facial-bucal** (0.9988): 22 publicaciones, incluido un ensayo aleatorizado cruzado de galantamina en discinesia tardía (PMID 17388711), además de revisiones Cochrane sobre medicación colinérgica en discinesia tardía. Estas revisiones tratan los fármacos colinérgicos como clase, no a la galantamina en particular. Es la candidata con evidencia más relevante, clasificada como "pregunta de investigación".
+- **Enfermedad extrapiramidal y del movimiento** (0.9988): 4 publicaciones, incluida una revisión sistemática de 2025 que describe trastornos del movimiento como **efecto adverso** de los inhibidores de la colinesterasa. La dirección del efecto es incierta.
 
 ---
 

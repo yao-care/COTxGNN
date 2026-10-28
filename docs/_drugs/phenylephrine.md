@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Paracetamol combinaciones excluyendo sicolépticos"
+last_modified_at: 2026-10-28
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
+description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
 ---
 
 # Phenylephrine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 </div>
 
-## Fenilefrina: De Combinaciones de Paracetamol/Fenilefrina a Enfermedad de la Cavidad Nasal
+## Phenylephrine: Enfermedad de la cavidad nasal (nasal cavity disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Paracetamol combinaciones excluyendo sicolépticos |
-| Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
+| Indicación Original | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS; FENILEFRINA COMBINACIONES |
+| Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
@@ -122,7 +122,7 @@ La predicción coincide con la farmacología conocida de la fenilefrina como des
 
 ### Nota sobre otras predicciones
 
-Las otras dos predicciones tienen evidencia más débil: **laringofaringitis aguda** (99.97%, L5, sin ensayos ni literatura; recomendación Hold) y **cefalea autonómica trigeminal** (99.30%, L4, solo estudios pupilométricos donde la fenilefrina se usa como sonda diagnóstica, sin evidencia terapéutica; pregunta de investigación).
+Las otras dos predicciones tienen evidencia más débil: **laringofaringitis aguda** (0.9997, L5, sin ensayos ni literatura; recomendación Hold) y **cefalea autonómica trigeminal** (0.9930, L4, solo estudios pupilométricos donde la fenilefrina se usa como sonda diagnóstica, sin evidencia terapéutica; pregunta de investigación).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

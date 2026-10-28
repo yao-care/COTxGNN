@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
-description: "Iobenguane: nueva indicación predicha, Trastorno hipotensivo (hypotensive disorder) (nivel de evidencia L4). Indicación original: IOBENGUANE (131I)"
+last_modified_at: 2026-10-28
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
+description: "Iobenguane: nueva indicación predicha, Trastorno hipotensivo (hypotensive disorder) (nivel de evidencia L5). Indicación original: IOBENGUANE (131I)"
 ---
 
 # Iobenguane
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Iobenguane: De Iobenguane (131I) a Trastorno Hipotensivo
+## Iobenguane: Trastorno hipotensivo (hypotensive disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -116,7 +116,7 @@ No hay ensayos clínicos y la literatura disponible (dos revisiones) solo respal
 - Evaluar si el interés real es diagnóstico (gammagrafía con MIBG) y no terapéutico
 - Aclarar la situación regulatoria, dado que los dos registros sanitarios están cancelados
 
-**Nota sobre otras predicciones:** síndrome de atrofia multisistémica (99.90%), prionopatía variablemente sensible a proteasa (99.86%) y síndrome de taquicardia postural ortostática (99.67%) tienen nivel L4 o L5, sin ensayos, y también se recomienda Hold. La relación con la atrofia multisistémica y el síndrome de taquicardia postural ortostática es solo diagnóstica, y para la prionopatía no se identificó ningún vínculo mecanístico plausible.
+**Nota sobre otras predicciones:** síndrome de atrofia multisistémica (0.9990), prionopatía variablemente sensible a proteasa (0.9986) y síndrome de taquicardia postural ortostática (0.9967) tienen nivel L4 o L5, sin ensayos, y también se recomienda Hold. La relación con la atrofia multisistémica y el síndrome de taquicardia postural ortostática es solo diagnóstica, y para la prionopatía no se identificó ningún vínculo mecanístico plausible.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

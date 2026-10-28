@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-14
-description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
+last_modified_at: 2026-10-28
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
+description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
 ---
 
 # Vortioxetine
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Vortioxetina: De Vortioxetina (Antidepresivo) a Neurosis Depresiva / Trastorno Neurótico
+## Vortioxetine: Trastorno neurótico (neurotic disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,7 +48,7 @@ Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en r
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | VORTIOXETINA (el registro no detalla una indicación específica) |
+| Indicación Original | VORTIOXETINA |
 | Nueva Indicación Predicha | Trastorno neurótico (neurotic disorder) |
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
@@ -65,10 +65,9 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 "Trastorno neurótico" es una categoría diagnóstica antigua y amplia que se solapa con los trastornos depresivos y de ansiedad. El puntaje alto del modelo probablemente refleja ese solapamiento con la indicación aprobada (depresión mayor), y no existe evidencia mecanística directa para esta etiqueta específica.
 
 Lo mismo ocurre con las otras predicciones de la lista:
-- **Neurosis depresiva** (99.09%): término histórico que corresponde en gran parte a la distimia y la depresión mayor no melancólica. Es un reetiquetado de una indicación existente.
-- **Melancolía** (99.09%): subtipo grave de depresión mayor. Los ensayos disponibles se realizaron en poblaciones con depresión mayor general, no en cohortes melancólicas.
+- Es un reetiquetado de una indicación existente.
+- Los ensayos disponibles se realizaron en poblaciones con depresión mayor general, no en cohortes melancólicas.
 - **Tortícolis paroxístico benigno de la infancia** (0.9907): sin vínculo mecanístico identificable; la puntuación proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; además, el uso de antidepresivos en lactantes plantearía serias preocupaciones de seguridad.
-- **Trastorno distímico** (99.02%): condición depresiva crónica y leve, adyacente a la depresión mayor, con solo evidencia indirecta.
 
 ---
 

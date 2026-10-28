@@ -5,10 +5,10 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
-description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: No especificada en el registro"
+last_modified_at: 2026-10-28
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
+description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: CARFILZOMIB"
 ---
 
 # Carfilzomib
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 </div>
 
-## Carfilzomib: De Indicación Original (no especificada en el registro) a CMM7
+## Carfilzomib: CMM7
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,7 +48,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asoci
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto registrado solo indica "Carfilzomib") |
+| Indicación Original | CARFILZOMIB |
 | Nueva Indicación Predicha | CMM7 |
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L5 |
@@ -67,10 +67,10 @@ CMM7 parece corresponder a un subtipo o locus de susceptibilidad de melanoma mal
 Es importante señalar que la similitud entre la indicación original y la nueva no pudo evaluarse con los datos disponibles.
 
 Otras predicciones de alto puntaje para este fármaco también corresponden a melanomas, con diferentes limitaciones:
-- **Melanoma leptomeníngeo pediátrico** (99.30%): se espera una mala penetración de carfilzomib a través de la barrera hematoencefálica, además de preocupaciones adicionales de seguridad en población pediátrica.
-- **Melanoma uveal de células epitelioides** (99.23%): es biológicamente distinto del melanoma cutáneo (dependiente de GNAQ/GNA11), por lo que los datos cutáneos no son extrapolables directamente.
-- **Melanoma vulvar** (99.19%): el melanoma mucoso difiere genéticamente del cutáneo y la extrapolación no está validada.
-- **Melanoma** en general (99.03%, nivel L4): existe respaldo preclínico (ver abajo).
+- **Melanoma leptomeníngeo pediátrico** (0.9930): se espera una mala penetración de carfilzomib a través de la barrera hematoencefálica, además de preocupaciones adicionales de seguridad en población pediátrica.
+- **Melanoma uveal de células epitelioides** (0.9923): es biológicamente distinto del melanoma cutáneo (dependiente de GNAQ/GNA11), por lo que los datos cutáneos no son extrapolables directamente.
+- **Melanoma vulvar** (0.9919): el melanoma mucoso difiere genéticamente del cutáneo y la extrapolación no está validada.
+- **Melanoma** en general (0.9903, nivel L4): existe respaldo preclínico (ver abajo).
 
 ---
 

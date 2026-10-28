@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
@@ -138,8 +138,8 @@ La evidencia para artritis reumatoide se limita a estudios preclínicos, un repo
 - Aclarar la situación comercial en Colombia, dado que no hay registros vigentes.
 
 **Otras predicciones del modelo (no recomendadas por ahora):**
-- **Hipertiroidismo (99.44%) y resistencia a la hormona tiroidea por mutación del receptor beta (99.30%):** sin ensayos ni literatura (L5); no hay vínculo biológico evidente con la inhibición de CDK4/6 y la predicción parece basada en asociaciones de red. Decisión: Hold.
-- **Enfermedad trombótica (99.32%):** la literatura describe la trombosis como un evento adverso de los inhibidores de CDK4/6, no como un beneficio terapéutico. Esta dirección carece de respaldo y podría ser perjudicial. Decisión: Hold.
+- **Hipertiroidismo (0.9944) y resistencia a la hormona tiroidea por mutación del receptor beta (0.9930):** sin ensayos ni literatura (L5); no hay vínculo biológico evidente con la inhibición de CDK4/6 y la predicción parece basada en asociaciones de red. Decisión: Hold.
+- **Enfermedad trombótica (0.9932):** la literatura describe la trombosis como un evento adverso de los inhibidores de CDK4/6, no como un beneficio terapéutico. Esta dirección carece de respaldo y podría ser perjudicial. Decisión: Hold.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

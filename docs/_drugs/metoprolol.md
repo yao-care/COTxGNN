@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Metoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: METOPROLOL"
 ---
 
@@ -62,11 +62,11 @@ Mecanísticamente, la reducción de renina y de la presión arterial podría ser
 Por ello esta predicción debe tratarse como una hipótesis de investigación.
 
 Otras indicaciones predichas, todas sin respaldo clínico directo suficiente:
-- **Hipertensión pulmonar de mecanismo multifactorial incierto** (99.91%): el bloqueo beta generalmente no es beneficioso en hipertensión arterial pulmonar y podría empeorar la función del ventrículo derecho.
-- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (99.91%): la literatura recuperada trata temas ajenos (intoxicación por betabloqueantes, taquicardia auricular multifocal, modelos animales); ninguna estudia esta indicación.
-- **Síndrome de Braddock** (99.89%): enfermedad muy rara, sin datos.
-- **Cor pulmonale crónico** (99.40%): hay ensayos y estudios sobre metoprolol en pacientes con EPOC e insuficiencia cardíaca, pero abordan seguridad y tolerabilidad, no tratamiento de esta enfermedad.
-- **Tricotilomanía** (99.05%): sin datos ni fundamento mecanístico claro.
+- **Hipertensión pulmonar de mecanismo multifactorial incierto** (0.9991): el bloqueo beta generalmente no es beneficioso en hipertensión arterial pulmonar y podría empeorar la función del ventrículo derecho.
+- **Hipertensión pulmonar por enfermedad pulmonar o hipoxia** (0.9991): la literatura recuperada trata temas ajenos (intoxicación por betabloqueantes, taquicardia auricular multifocal, modelos animales); ninguna estudia esta indicación.
+- **Síndrome de Braddock** (0.9989): enfermedad muy rara, sin datos.
+- **Cor pulmonale crónico** (0.9940): hay ensayos y estudios sobre metoprolol en pacientes con EPOC e insuficiencia cardíaca, pero abordan seguridad y tolerabilidad, no tratamiento de esta enfermedad.
+- **Tricotilomanía** (0.9905): sin datos ni fundamento mecanístico claro.
 
 ## Evidencia de Ensayos Clínicos
 

@@ -5,10 +5,10 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 238
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-14
-description: "Dronedarone: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L3). Indicación original: Dronedarona"
+last_modified_at: 2026-10-28
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
+description: "Dronedarone: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L3). Indicación original: DRONEDARONA"
 ---
 
 # Dronedarone
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-## Dronedarona: De Fibrilación Auricular a Trastorno Cerebrovascular (Accidente Cerebrovascular)
+## Dronedarone: Accidente cerebrovascular (stroke disorder)
 {: .text-alpha }
 
 > Nota: la indicación original registrada en INVIMA figura solo como "DRONEDARONA" (sin texto de indicación detallado). Según la literatura compilada, el uso conocido del fármaco es la fibrilación/aleteo auricular.
@@ -48,7 +48,7 @@ con **0 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dronedarona (el registro no detalla el texto de indicación; uso conocido: fibrilación/aleteo auricular) |
+| Indicación Original | DRONEDARONA |
 | Nueva Indicación Predicha | Accidente cerebrovascular (stroke disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
@@ -115,7 +115,7 @@ La evidencia para ictus (L3) proviene de análisis secundarios y revisiones sobr
 - Evaluación de seguridad (QT, función hepática, interacciones con anticoagulantes)
 - Aclaración de la situación regulatoria local (registro cancelado)
 
-**Otras predicciones del modelo:** "trastorno cerebrovascular" (99.71%, evidencia L2 con análisis post hoc de ATHENA) es la que cuenta con más respaldo y puede evaluarse en paralelo. Las demás (por ejemplo, amiloidosis ABri, obstrucción duodenal, sarcoglicanopatía, síndrome de Wildervanck) solo son predicciones sin evidencia ni vínculo mecanístico plausible, y el síndrome del seno enfermo tipo 2 plantea además un riesgo de seguridad.
+**Otras predicciones del modelo:** "trastorno cerebrovascular" (0.9971, evidencia L2 con análisis post hoc de ATHENA) es la que cuenta con más respaldo y puede evaluarse en paralelo. Las demás (por ejemplo, amiloidosis ABri, obstrucción duodenal, sarcoglicanopatía, síndrome de Wildervanck) solo son predicciones sin evidencia ni vínculo mecanístico plausible, y el síndrome del seno enfermo tipo 2 plantea además un riesgo de seguridad.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
