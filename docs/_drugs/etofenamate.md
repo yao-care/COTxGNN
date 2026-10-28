@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo indica \"ETOFENAMATO\")"
 ---
 

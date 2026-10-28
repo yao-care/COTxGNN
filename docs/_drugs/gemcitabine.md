@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Gemcitabine: nueva indicación predicha, Adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma) (nivel de evidencia L5). Indicación original: GEMCITABINA"
 ---
 

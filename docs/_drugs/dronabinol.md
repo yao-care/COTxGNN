@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "dronabinol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DRONABINOL"
 ---
 

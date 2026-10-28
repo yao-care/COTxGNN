@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Dactinomycin: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). Indicación original: DACTINOMICINA"
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Olodaterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Olodaterol y bromuro de tiotropio"
 monitor_inn: "OLODATEROL"
 predicted_indications: ["bronchitis"]

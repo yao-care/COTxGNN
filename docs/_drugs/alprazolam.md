@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 40
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Alprazolam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No detallada"
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]

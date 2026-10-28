@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Candesartán"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]

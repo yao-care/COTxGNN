@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 537
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Progesterone: nueva indicación predicha, Amenorrea (nivel de evidencia L2). Indicación original: PROGESTERONA"
 monitor_inn: "Progesterone"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]

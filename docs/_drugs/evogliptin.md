@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Evogliptin: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Evogliptina tartrato"
 monitor_inn: "evogliptin"
 predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy"]

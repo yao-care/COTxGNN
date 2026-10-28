@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama del haz (término obsoleto) (nivel de evidencia L5). Indicación original: ADENOSINA"
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]

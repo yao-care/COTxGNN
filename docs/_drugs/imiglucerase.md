@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Imiglucerase: nueva indicación predicha, Síndrome de Hurler (MPS I) (nivel de evidencia L4). Indicación original: IMIGLUCERASA"
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]

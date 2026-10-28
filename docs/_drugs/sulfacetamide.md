@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Sulfacetamide: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Sulfacetamida"
 monitor_inn: "sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Pitavastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Pitavastatina"
 ---
 

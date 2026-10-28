@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 557
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Rifabutin: nueva indicación predicha, Infección por VIH (en la práctica… (nivel de evidencia L1). Indicación original: RIFABUTIN"
 monitor_inn: "rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]

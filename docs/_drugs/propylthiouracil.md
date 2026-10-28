@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Propylthiouracil: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea (nivel de evidencia L4). Indicación original: Propiltiouracilo"
 monitor_inn: "propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]

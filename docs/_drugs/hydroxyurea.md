@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Hydroxyurea: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: HIDROXICARBAMIDA"
 ---
 

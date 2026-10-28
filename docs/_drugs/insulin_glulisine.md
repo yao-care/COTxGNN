@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Insulin Glulisine: nueva indicación predicha, Síndrome de disfunción sensible a la tiamina (thiamine-responsive dysfunction syndrome) (nivel de evidencia L5). Indicación original: INSULINA GLULISINA"
 ---
 

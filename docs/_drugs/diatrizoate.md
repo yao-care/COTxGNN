@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Diatrizoate: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Combinaciones de medios de contraste para rayos X de alta osmolaridad"
 ---
 

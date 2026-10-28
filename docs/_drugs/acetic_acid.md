@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Acetic Acid: nueva indicación predicha, Trastorno post-bacteriano (post-bacterial disorder) (nivel de evidencia L5). Indicación original: Ácido acético"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]

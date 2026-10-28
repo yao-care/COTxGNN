@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 472
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Norethisterone: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Noretisterona y estrógeno"
 monitor_inn: "Norethisterone"
 predicted_indications: ["amenorrhea (disease)"]

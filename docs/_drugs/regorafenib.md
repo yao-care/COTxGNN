@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 553
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: REGORAFENIB"
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]

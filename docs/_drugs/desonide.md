@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Desonide: nueva indicación predicha, Pólipo de cuerda vocal (polyp of vocal cord) (nivel de evidencia L5). Indicación original: DESONIDA"
 ---
 

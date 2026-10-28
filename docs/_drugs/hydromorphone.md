@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Hydromorphone: nueva indicación predicha, faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: HIDROMORFONA"
 ---
 

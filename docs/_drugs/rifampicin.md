@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]

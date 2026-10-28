@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Tetanic cataract (nivel de evidencia L5). Indicación original: RANIBIZUMAB"

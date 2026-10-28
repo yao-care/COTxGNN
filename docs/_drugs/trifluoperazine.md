@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L4). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
 monitor_inn: "trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]

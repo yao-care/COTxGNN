@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-10-23
+last_modified_at: 2026-10-28
 description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (nivel de evidencia L1). Indicación original: No especificada en el registro (el texto solo indica \"OFATUMUMAB\")"
 ---
 

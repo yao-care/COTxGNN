@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 580
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Salmeterol y fluticasona"
 monitor_inn: "SALMETEROL"
 predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]

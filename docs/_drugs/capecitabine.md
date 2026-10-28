@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Capecitabine: nueva indicación predicha, Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) (nivel de evidencia L5). Indicación o…"
 ---
 

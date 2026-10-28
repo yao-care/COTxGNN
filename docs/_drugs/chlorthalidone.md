@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Chlorthalidone: nueva indicación predicha, glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). Indicación original: CLORTALIDONA"
 ---
 

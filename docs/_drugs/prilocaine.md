@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Lidocaína combinaciones (anestesia local)"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]

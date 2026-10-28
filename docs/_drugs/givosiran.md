@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Givosiran: nueva indicación predicha, Esclerosis hepatoportal (hepatoportal sclerosis) (nivel de evidencia L5). Indicación original: GIVOSIRAN SODICO"
 ---
 

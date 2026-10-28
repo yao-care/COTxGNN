@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 104
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Betamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Betametasona y antibióticos"
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]

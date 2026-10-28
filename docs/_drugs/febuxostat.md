@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 278
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Febuxostat: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Febuxo…"
 monitor_inn: "FEBUXOSTAT"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]

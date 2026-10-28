@@ -3,18 +3,18 @@ noindex: true
 sitemap: false
 layout: default
 title: Acetaminofem
-parent: Solo Predicción del Modelo (L5)
+parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 18
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-09-17
+last_modified_at: 2026-10-29
 predicted_indications: []
+indication_count: 0
+evidence_level: N/A
 ---
 
 # Acetaminofem
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **N/A** | Indicaciones predichas: **0** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,19 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## ACETAMINOFEM: Evaluación Preliminar — Datos Insuficientes para Reposicionamiento
+## Acetaminofem
 {: .text-alpha }
-
-## Resumen en Una Frase
-
-ACETAMINOFEM es un compuesto consultado en las bases de datos regulatorias y de predicción, pero **no se encontraron registros sanitarios vigentes en Colombia**, no se dispone de indicaciones originales documentadas, y **el modelo TxGNN no generó predicciones de nuevas indicaciones**. La evidencia disponible es insuficiente para proceder con una evaluación de reposicionamiento.
-
----
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible (sin registros sanitarios ni indicaciones documentadas) |
-| Nueva Indicación Predicha | Sin predicción (TxGNN no generó candidatos) |
-| Puntaje de Predicción TxGNN | N/A |
-| Nivel de Evidencia | **L5** — Solo consulta al modelo, sin resultados ni estudios reales |
+| Indicación Original | PARACETAMOL |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 0 |
-| Decisión Recomendada | **Hold** |
 
 ---
 
-## Por qué No se Generó una Predicción?
-
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción (MOA) de ACETAMINOFEM, ni de un identificador DrugBank válido asociado. La ausencia de estos datos fundamentales limita la capacidad del modelo TxGNN para establecer relaciones farmacológicas y generar predicciones de nuevas indicaciones.
-
-Adicionalmente, el compuesto no cuenta con registros sanitarios en Colombia (INVIMA), lo que sugiere que podría tratarse de una denominación no estándar, un error tipográfico (posiblemente se pretendía consultar **Acetaminofén / Paracetamol**, INN: *paracetamol*), o un compuesto en etapa experimental sin aprobación regulatoria.
-
-Se recomienda verificar la denominación correcta del principio activo (INN) antes de repetir la consulta, ya que una discrepancia en el nombre podría explicar la ausencia total de resultados en todas las fuentes consultadas.
-
----
-
-## Evidencia de Ensayos Clínicos
-
-Actualmente no hay ensayos clínicos relacionados registrados.
-
----
-
-## Evidencia de Literatura
-
-Actualmente no hay literatura relacionada disponible.
-
----
-
-## Información de Mercado en Colombia
-
-No se encontraron registros sanitarios vigentes para ACETAMINOFEM en la base de datos regulatoria consultada (0 registros).
-
----
-
-## Consideraciones de Seguridad
-
-> Consultar el prospecto para información de seguridad. No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en las fuentes consultadas para este compuesto.
-
----
-
-## Brechas de Datos Identificadas
-
-Las siguientes brechas de datos fueron detectadas durante la evaluación y deben resolverse antes de cualquier avance:
-
-| ID | Categoría | Item Faltante | Severidad | Impacto | Remediación Sugerida |
-|----|-----------|---------------|-----------|---------|---------------------|
-| DG001 | Nivel de Fármaco | Advertencias y contraindicaciones del prospecto | **Bloqueante** | No es posible realizar la evaluación inicial de seguridad (S1) | Descargar y analizar el prospecto desde la fuente regulatoria |
-| DG002 | Nivel de Fármaco | Mecanismo de Acción (MOA) | **Alta** | Impide el análisis de relación mecanística entre indicaciones | Consultar API de DrugBank con el nombre corregido |
-
----
-
-## Conclusión y Próximos Pasos
-
-**Decisión: Hold**
-
-**Justificación:**
-No existen predicciones de nuevas indicaciones generadas por TxGNN, ni registros sanitarios en Colombia, ni datos de seguridad o mecanismo de acción disponibles. La evaluación no puede avanzar en su estado actual.
-
-**Para avanzar se necesita:**
-- **Verificar la denominación del principio activo (INN):** Confirmar si se refiere a *paracetamol* (acetaminofén) u otro compuesto, y repetir las consultas con el nombre corregido
-- **Obtener el identificador DrugBank** para habilitar la consulta de mecanismo de acción y propiedades farmacológicas
-- **Obtener datos de seguridad** (advertencias, contraindicaciones, interacciones) desde el prospecto o fuentes regulatorias
-- **Re-ejecutar el modelo TxGNN** una vez que el compuesto esté correctamente identificado y vinculado en el grafo de conocimiento
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

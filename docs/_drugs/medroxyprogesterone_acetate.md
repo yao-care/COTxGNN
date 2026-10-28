@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Medroxiprogesterona"
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]

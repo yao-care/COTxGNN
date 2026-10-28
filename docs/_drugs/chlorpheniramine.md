@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-27
+last_modified_at: 2026-10-28
 description: "Chlorpheniramine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
 ---
 

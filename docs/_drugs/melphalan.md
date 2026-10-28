@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L2). Indicación original: Melphalan"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]

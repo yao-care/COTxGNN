@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 401
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-14
+last_modified_at: 2026-10-28
 description: "Levonorgestrel: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Levonorgestrel"
 monitor_inn: "LEVONORGESTREL"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
