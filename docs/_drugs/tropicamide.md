@@ -94,7 +94,7 @@ Los tres registros sanitarios están cancelados; no hay productos vigentes.
 |---------|------|------|-----------|------|
 | 20069775 | T-P OFTENO | Solución oftálmica | Tropicamida combinaciones | Vigente |
 | 20215215 | FOTORRETIN® Solución Oftálmica Estéril | Solución oftálmica | Fenilefrina combinaciones | Vigente |
-| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Vigente |
+| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Temp. no comerc - Vigente |
 
 ---
 

@@ -106,7 +106,7 @@ Para la entidad cercana "enfermedad ulcerosa péptica" (rango 7) sí hay ensayos
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | Tableta recubierta | RANITIDINA | Vigente |
-| 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Vigente |
+| 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Comercializado solo por Exportacion |
 
 ---
 

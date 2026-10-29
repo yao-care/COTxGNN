@@ -104,9 +104,9 @@ Como contexto, la literatura asociada a otras predicciones se centra en el uso o
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Vigente |
+| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Temp. no comerc - Vigente |
 | 19950508 | GLAUCOPROST Solución Oftálmica | Solución oftálmica | Travoprost | Vigente |
-| 20087519 | FOCUS® | Solución oftálmica | Travoprost | Vigente |
+| 20087519 | FOCUS® | Solución oftálmica | Travoprost | Temp. no comerc - Vigente |
 | 20236408 | BRISTRIO® | Solución oftálmica | Travoprost | Vigente |
 
 ---

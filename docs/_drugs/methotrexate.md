@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible para blastoma pulmonar.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 19927154 | METOTREXATO 2.5 MG (ASOFARMA S.A.I. Y C.) | Tableta | METROTEXATE | Vigente |
-| 20243244 | METREXATO® 50 MG/2 ML (BLAU FARMACÉUTICA COLOMBIA S.A.S.) | Solución inyectable | METROTEXATE | Vigente |
+| 20243244 | METREXATO® 50 MG/2 ML (BLAU FARMACÉUTICA COLOMBIA S.A.S.) | Solución inyectable | METROTEXATE | Temp. no comerc - Vigente |
 
 No hay registros vigentes actualmente.
 

@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Vigente |
-| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Vigente |
+| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
+| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
 
 Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia.
 

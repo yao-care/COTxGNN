@@ -76,7 +76,7 @@ Cabe señalar que la "retinopatía diabética" (puntaje 0.9973) es la categoría
 | 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Vigente |
 | 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Vigente |
 | 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Vigente |
-| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Vigente |
+| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Temp. no comerc - Vigente |
 
 ---
 

@@ -70,10 +70,10 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotasti
 
 | Registro | Producto | Forma farmacéutica | Estado |
 |------|------|------|------|
-| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Vigente |
-| 20215922 | BEPOTASTINA BESILATO EQUIVALENTE A 10.7 MG DE BEPOTASTINA | SOLUCION OFTALMICA | Vigente |
+| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
+| 20215922 | BEPOTASTINA BESILATO EQUIVALENTE A 10.7 MG DE BEPOTASTINA | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
 | 20201515 | BEPOTASTINA BESILATO 15.00 MG EQUIVALENTE A BEPOTASTINA | SOLUCION OFTALMICA | Vigente |
-| 20079303 | BEPOTASTINA BESILATO | SOLUCION OFTALMICA | Vigente |
+| 20079303 | BEPOTASTINA BESILATO | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
 
 Los datos solo contienen parte de los registros; la lista puede estar incompleta.
 

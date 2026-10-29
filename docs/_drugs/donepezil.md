@@ -87,8 +87,8 @@ Los 4 registros sanitarios están cancelados; no hay registros vigentes.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 20118656 | ARIZIL 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
-| 19993779 | Donepezilo Clorhidrato 10 mg tabletas recubiertas | Tableta recubierta | DONEPEZIL | Vigente |
-| 19947560 | Donepecilo Clorhidrato 5 mg | Tableta recubierta | DONEPEZIL | Vigente |
+| 19993779 | Donepezilo Clorhidrato 10 mg tabletas recubiertas | Tableta recubierta | DONEPEZIL | Temp. no comerc - Vigente |
+| 19947560 | Donepecilo Clorhidrato 5 mg | Tableta recubierta | DONEPEZIL | Temp. no comerc - Vigente |
 | 19946097 | ALZIT® 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
 
 ## Consideraciones de Seguridad

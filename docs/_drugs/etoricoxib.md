@@ -103,7 +103,7 @@ Evidencia relacionada de cefaleas afines (indicaciones secundarias del modelo):
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Vigente |
+| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Temp. no comerc - Vigente |
 | 20226690 | MEDIKET® 90 MG tabletas recubiertas | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Vigente |
 | 20070877 | ANEXIA® 60 MG | Tableta cubierta con película | Etoricoxib (sin detalle de indicación) | Vigente |
 

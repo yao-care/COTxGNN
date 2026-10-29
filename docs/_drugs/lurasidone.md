@@ -98,7 +98,7 @@ Por lo tanto, el puntaje alto de TxGNN y la cobertura en guías clínicas respal
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 20167332 | LURALEP 40 MG TABLETA RECUBIERTA | Tableta recubierta | LURASIDONA | Vigente |
-| 20196548 | IBANTI® 40 COMPRIMIDOS RECUBIERTOS | Tableta recubierta | LURASIDONA | Vigente |
+| 20196548 | IBANTI® 40 COMPRIMIDOS RECUBIERTOS | Tableta recubierta | LURASIDONA | Temp. no comerc - Vigente |
 | 20221365 | ESLUX® 80 MG TABLETAS RECUBIERTAS | Tableta recubierta | LURASIDONA | Vigente |
 
 ---

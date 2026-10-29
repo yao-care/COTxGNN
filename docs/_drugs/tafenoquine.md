@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20239141 | KOZENIS 50 MG | Tableta dispersable | Succinato de tafenoquina | Vigente |
+| 20239141 | KOZENIS 50 MG | Tableta dispersable | Succinato de tafenoquina | Temp. no comerc - Vigente |
 
 El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
 

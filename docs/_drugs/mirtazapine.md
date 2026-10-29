@@ -81,7 +81,7 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 |---------|------|------|-----------|------|
 | 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Vigente |
 | 19928993 | MIRTAPAX ® | Tableta recubierta | MIRTAZAPINA | Vigente |
-| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Vigente |
+| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Temp. no comerc - Vigente |
 | 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Vigente |
 
 Los cuatro registros son de monofármaco y están cancelados; actualmente no hay productos vigentes en Colombia.

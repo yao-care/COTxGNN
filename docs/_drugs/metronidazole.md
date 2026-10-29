@@ -96,9 +96,9 @@ Ninguna publicación muestra que metronidazol sea eficaz contra la neumocistosis
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Vigente |
-| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Vigente |
-| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Vigente |
+| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Temp. no comerc - Vigente |
+| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Temp. no comerc - Vigente |
+| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Temp. no comerc - Vigente |
 
 ---
 

@@ -106,7 +106,7 @@ Como la indicación original no está especificada en los registros colombianos,
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19982483 | GONAPEPTYL® DEPOT | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Vigente |
+| 19982483 | GONAPEPTYL® DEPOT | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Temp. no comerc - Vigente |
 | 19931457 | DIPHERELINE® 3.75 MG | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Vigente |
 
 ---

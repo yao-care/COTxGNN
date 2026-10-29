@@ -87,7 +87,7 @@ Actualmente no hay literatura relacionada disponible.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 20178268 | RINVOQ® | Tableta de liberación prolongada | UPADACITINIB | Vigente |
-| 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Vigente |
+| 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Temp. no comerc - Vigente |
 
 Ambos registros pertenecen a ABBVIE S.A.S. y actualmente no hay registros vigentes.
 

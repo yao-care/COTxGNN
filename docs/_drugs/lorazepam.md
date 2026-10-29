@@ -97,7 +97,7 @@ Para las epilepsias reflejas, la literatura disponible consiste sobre todo en re
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
-| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
+| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Temp. no comerc - Vigente |
 
 Ambos registros pertenecen a PFIZER S.A.S. y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia.
 

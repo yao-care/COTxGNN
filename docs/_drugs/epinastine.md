@@ -76,7 +76,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|------|
 | 20218995 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
 | 19964592 | RELESTAT® | Solución oftálmica | Epinastina | Vigente |
-| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
+| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Temp. no comerc - Vigente |
 
 ## Consideraciones de Seguridad
 
