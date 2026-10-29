@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Clonidine: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: CLONIDINA"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome faciodigitogenital (faciodigitogenital syndrome) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Tenofovir disoproxil y emtricitabina"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,7 +52,7 @@ La evidencia es limitada: **0 ensayos clínicos** y **1 publicación** directame
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -104,7 +104,7 @@ Evidencia de apoyo indirecto de la segunda predicción (infección por virus de 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 20140868 | DUOPETSA® tableta recubierta | Tableta recubierta | Tenofovir disoproxil y emtricitabina | Vigente |
-| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Vigente |
+| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Cancelado |
 | 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina | Vigente |
 | 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina | Vigente |
 

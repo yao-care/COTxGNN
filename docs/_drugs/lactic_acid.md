@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
@@ -52,7 +52,7 @@ Se trata de una prediccion puramente computacional (nivel de evidencia L5).
 | Nueva Indicacion Predicha | Coartacion atipica de la aorta |
 | Puntaje de Prediccion TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
 | Numero de Registros Sanitarios | 1 (cancelado) |
 | Decision Recomendada | Hold |
 

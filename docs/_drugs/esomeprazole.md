@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Esomeprazole: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: ESOMEPRAZOL"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0,9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 

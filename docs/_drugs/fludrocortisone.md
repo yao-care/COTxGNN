@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Fludrocortisone: nueva indicación predicha, linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma) (nivel de evidencia L5). Indicación original: FLUDROCORTISONA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma cutáneo primari
 | Nueva Indicación Predicha | linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma) |
 | Puntaje de Predicción TxGNN | 0,9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

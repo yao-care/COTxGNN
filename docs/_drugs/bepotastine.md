@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 103
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Bepotastine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotasti
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 4 |
 
 ## Usos conocidos entre los candidatos del modelo

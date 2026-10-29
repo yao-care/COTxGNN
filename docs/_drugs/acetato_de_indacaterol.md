@@ -42,7 +42,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|-----------|
 | Indicación Original | FORMOTEROL Y MOMETASONA |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
 | Número de Registros Sanitarios | 0 |
 
 ---

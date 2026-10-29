@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Rasagilina"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

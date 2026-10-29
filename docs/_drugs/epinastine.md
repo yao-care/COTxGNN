@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Epinastine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Epinastina"
 monitor_inn: "epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
@@ -50,7 +50,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Conjuntivitis por rosácea |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

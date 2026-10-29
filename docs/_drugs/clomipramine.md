@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L1). Indicación original: CLOMIPRAMINA"
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -50,8 +50,8 @@ con **8 ensayos clínicos** (la mayoría en trastorno obsesivo-compulsivo) y **2
 | Nueva Indicación Predicha | Trastorno de ansiedad |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

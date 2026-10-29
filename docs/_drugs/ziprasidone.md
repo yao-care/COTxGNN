@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo dice \"ZIPRASIDONA\")"
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, pero 
 | Nueva Indicación Predicha | Tricotilomanía |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
 | Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
 | Decisión Recomendada | Hold |
 

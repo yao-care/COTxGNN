@@ -41,7 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | LAMIVUDINA; LAMIVUDINA Y ABACAVIR; LAMIVUDINA. TENOFOVIR DISOPROXILO Y DORAVIRINA; LAMIDUBINA. ABACAVIR Y DOLUTEGRAVIR |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 0 |
 
 ---

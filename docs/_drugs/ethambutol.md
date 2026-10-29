@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L4). Indicación original: ETMABUTOL"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **epiglotitis**, pero no h
 | Nueva Indicación Predicha | Epiglotitis |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

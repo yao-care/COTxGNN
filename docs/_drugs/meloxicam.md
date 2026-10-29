@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Meloxicam"
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 
@@ -92,7 +92,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 19986264 | MEPROGAL 15MG TABLETA | Tableta | MELOXICAM | Vigente |
-| 227880 | ARTRICLOX 15 MG TABLETAS | Tableta | MELOXICAM | Vigente |
+| 227880 | ARTRICLOX 15 MG TABLETAS | Tableta | MELOXICAM | Cancelado |
 | 53916 | MELCOX 7.5 MG TABLETAS | Tableta | MELOXICAM | Vigente |
 
 ---

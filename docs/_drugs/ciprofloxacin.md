@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Ciprofloxacin: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: CIPROFLOXACINA"
 ---
 
@@ -50,7 +50,7 @@ con **0 ensayos clínicos** registrados y **2 publicaciones** que actualmente ab
 | Nueva Indicación Predicha | esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 

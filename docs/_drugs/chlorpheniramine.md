@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Chlorpheniramine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Chlorpheniramine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
 ---
 
@@ -50,7 +50,7 @@ pero hasta ahora no hay ensayos clínicos registrados y solo **8 publicaciones**
 | Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Tafenoquine: nueva indicación predicha, Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) (nivel de evidencia L5). Indicación original: Succinato de tafenoquina"
 monitor_inn: "tafenoquine"
 predicted_indications: ["Smouldering systemic mastocytosis"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) |
 | Puntaje de Predicción TxGNN | 0.9905 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

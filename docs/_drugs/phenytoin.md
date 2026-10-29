@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenitoína"
 monitor_inn: "phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -52,7 +52,7 @@ La predicción debe considerarse con mucha cautela: el puntaje proviene del mode
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
 | Número de Registros Sanitarios | 1 |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **laringitis**, pero **no 
 | Nueva Indicación Predicha | Laringitis (laryngitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---

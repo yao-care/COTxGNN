@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Mesalazina"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -50,7 +50,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
 | Decisión Recomendada | Hold |
 

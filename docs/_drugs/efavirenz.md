@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: EFAVIRENZ. TENOFOVIR…"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 

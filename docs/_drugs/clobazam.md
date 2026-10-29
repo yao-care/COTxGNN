@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 167
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). Indicación original: CLOBAZAM"
@@ -52,7 +52,7 @@ pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre 
 | Nueva Indicación Predicha | Febrile infection-related epilepsy syndrome |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 499
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Papaverine: nueva indicación predicha, Enfermedad isquémica (nivel de evidencia L4). Indicación original: Papaverina combinaciones"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
@@ -50,8 +50,8 @@ Papaverina es un vasodilatador (ESPAFLAT®) registrado en Colombia en combinacio
 | Nueva Indicación Predicha | Enfermedad isquémica |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

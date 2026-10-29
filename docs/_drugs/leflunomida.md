@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|-----------|
 | Indicación Original | LEFLUNOMIDE |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 
 ---
 

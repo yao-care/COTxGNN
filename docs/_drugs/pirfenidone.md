@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Extracutaneous mastocytoma (nivel de evidencia L5). Indicación original: PIRFENIDONA"
@@ -50,7 +50,7 @@ Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre 
 | Nueva Indicación Predicha | Extracutaneous mastocytoma |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
 | Decisión Recomendada | Hold |
 

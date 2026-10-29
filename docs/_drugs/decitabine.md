@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Decitabine: nueva indicación predicha, citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). Indicación original: DECITABINA"
 ---
 
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **2 publicaciones** (una cohorte retrospectiva y u
 | Nueva Indicación Predicha | citopenia refractaria de la infancia (refractory cytopenia of childhood) |
 | Puntaje de Predicción TxGNN | 0,9903 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

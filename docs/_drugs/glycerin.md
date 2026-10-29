@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: nueva indicación predicha, Síndrome de la cauda equina (cauda equina syndrome) (nivel de evidencia L5). Indicación original: LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de la cauda
 | Nueva Indicación Predicha | Síndrome de la cauda equina (cauda equina syndrome) |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | 4 |
 | Decisión Recomendada | Hold |
 

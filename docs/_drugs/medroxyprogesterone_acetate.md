@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Medroxiprogesterona"
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 3 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

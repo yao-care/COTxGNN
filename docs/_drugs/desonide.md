@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Desonide: nueva indicación predicha, Pólipo de cuerda vocal (polyp of vocal cord) (nivel de evidencia L5). Indicación original: DESONIDA"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **Pólipo de cuerda vocal 
 | Nueva Indicación Predicha | Pólipo de cuerda vocal (polyp of vocal cord) |
 | Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 10) |
 | Número de Registros Sanitarios | al menos 11 |
 | Decisión Recomendada | Hold |
 

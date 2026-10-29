@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Flubendazole: nueva indicación predicha, Carcinoma de vejiga urinaria (urinary bladder carcinoma) (nivel de evidencia L5). Indicación original: Flubendazol"
 monitor_inn: "flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos** ni **publicaciones sobre flubendaz
 | Nueva Indicación Predicha | Carcinoma de vejiga urinaria (urinary bladder carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---

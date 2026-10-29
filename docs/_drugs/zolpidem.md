@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -52,7 +52,7 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 | Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Proceed with Guardrails |
 
@@ -97,7 +97,7 @@ Se muestran las publicaciones más relevantes, priorizando ECA, metaanálisis y 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 19927197 | ZOLPIDEM 10 MG TABLETAS (Tecnoquímicas) | Tableta recubierta | ZOLPIDEM | Vigente |
-| 19982431 | ZOLPIDEM HEMITARTRATO 10.00 MG (Humax) | Tableta recubierta | ZOLPIDEM | Vigente |
+| 19982431 | ZOLPIDEM HEMITARTRATO 10.00 MG (Humax) | Tableta recubierta | ZOLPIDEM | Cancelado |
 | 20233494 | ZOLPIDEM HEMITARTRATO 5 MG (Momenta) | Tableta sublingual | ZOLPIDEM | Vigente |
 | 19963349 | ZOLPIDEM TABLETAS RECUBIERTAS 10 MG (Genfar) | Tableta recubierta | ZOLPIDEM | Vigente |
 | 20233478 | ZOLNOX® SL 5 MG (Eurofarma) | Tableta sublingual | ZOLPIDEM | Vigente |

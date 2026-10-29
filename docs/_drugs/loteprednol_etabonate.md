@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: nueva indicación predicha, Conjunctival folliculosis (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **foliculosis conjuntival*
 | Nueva Indicación Predicha | Conjunctival folliculosis |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | 5 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

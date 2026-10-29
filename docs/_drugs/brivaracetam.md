@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Brivaracetam: nueva indicación predicha, Deficiencia de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). Indicación original: BRIVARACETAM"
 ---
 
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **Deficiencia de beta-ceto
 | Nueva Indicación Predicha | Deficiencia de beta-cetotiolasa (beta-ketothiolase deficiency) |
 | Puntaje de Predicción TxGNN | 0,9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 

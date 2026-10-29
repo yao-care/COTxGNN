@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Donepezil: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: DONEPEZIL"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -50,7 +50,7 @@ La evidencia actual se limita a la predicción del modelo (nivel L5).
 | Nueva Indicación Predicha | Trastornos psicógenos del movimiento |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | 4 (todos cancelados) |
 | Decisión Recomendada | Hold |
 

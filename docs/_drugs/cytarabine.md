@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cytarabine: nueva indicación predicha, carcinoma pulmonar de células pequeñas (small cell lung carcinoma) (nivel de evidencia L5). Indicación original: CITARABINA"
 ---
 
@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos** registrados y ninguna de las publi
 | Nueva Indicación Predicha | carcinoma pulmonar de células pequeñas (small cell lung carcinoma) |
 | Puntaje de Predicción TxGNN | 0,9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 

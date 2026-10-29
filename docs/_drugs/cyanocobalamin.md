@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -50,7 +50,7 @@ pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicació
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | 2 |
 | Decisión Recomendada | Hold |
 

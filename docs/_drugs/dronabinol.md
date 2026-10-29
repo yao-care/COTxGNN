@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "dronabinol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-29
 description: "Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DRONABINOL"
 ---
 
@@ -50,8 +50,8 @@ con **1 ensayo clínico** de Fase 2 completado (sin resultados reportados) y **1
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
