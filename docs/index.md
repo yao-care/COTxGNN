@@ -14,6 +14,36 @@ Este proyecto utiliza el modelo TxGNN (aprendizaje profundo) para predecir posib
 
 ---
 
+<!-- local-home:start（母目錄 .claude/gen_local_home_20261029.py 產生，勿手改）-->
+## Colombia: qué cubre este sitio
+
+Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [INVIMA](https://www.invima.gov.co/) (Colombia).
+
+Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+
+### Medicamentos con mayor nivel de evidencia en este sitio
+
+| Medicamento | Nivel de evidencia |
+|---|---|
+| [Acetylcysteine](/drugs/acetylcysteine/) | L1 |
+| [Bendamustine](/drugs/bendamustine/) | L1 |
+| [Bromfenac](/drugs/bromfenac/) | L1 |
+| [Busulfan](/drugs/busulfan/) | L1 |
+| [Fludarabine](/drugs/fludarabine/) | L1 |
+| [Lanadelumab](/drugs/lanadelumab/) | L1 |
+| [Polidocanol](/drugs/polidocanol/) | L1 |
+| [Rifabutin](/drugs/rifabutin/) | L1 |
+| [Triptorelin](/drugs/triptorelin/) | L1 |
+| [Candesartan](/drugs/candesartan/) | L1 |
+
+### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
+
+| Medicamento | Nivel de evidencia |
+|---|---|
+| [Thimerosal](/drugs/thimerosal/) | L5 |
+
+<!-- local-home:end -->
+
 ## Acerca del Desarrollador
 
 Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
