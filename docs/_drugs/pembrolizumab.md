@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 | Puntaje de Prediccion TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Numero de Registros Sanitarios | 1 (vigentes: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decision Recomendada | Hold |
 
 ---

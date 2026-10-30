@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 598
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Sumatriptan: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Sumatript
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Situación de mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
 | Número de Registros Sanitarios | 3 (vigentes: 3) |
 
 ## Usos conocidos entre los candidatos del modelo

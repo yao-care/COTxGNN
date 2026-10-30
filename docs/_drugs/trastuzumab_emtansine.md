@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 639
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Trastuzumab Emtansine: usos conocidos y estado de comercialización en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 4 |
 | Nivel de evidencia | No aplica |
-| Estado de comercialización en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
 | Número de Registros Sanitarios | 2 (vigentes: 2) |
 
 ## Usos conocidos entre los candidatos del modelo

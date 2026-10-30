@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo indica \"ETOFENAMATO\")"
 ---
 
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 | Puntaje de Prediccion TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de registros sanitarios | Al menos 1 (la lista puede ser parcial) |
+| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

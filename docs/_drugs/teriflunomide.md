@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 618
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Teriflunomide: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Todos los candidatos que el modelo TxGNN propone para Teriflunomide (puntuación
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplica |
-| Estado de mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
 | Número de Registros Sanitarios | 3 (vigentes: 3) |
 
 ## Usos conocidos entre los candidatos del modelo

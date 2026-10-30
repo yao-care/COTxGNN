@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 480
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-30
 description: "Olaparib: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -46,7 +46,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Olaparib 
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 1 |
 | Nivel de evidencia | No aplicable |
-| Estado de mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |
 
 ## Usos conocidos entre los candidatos del modelo
