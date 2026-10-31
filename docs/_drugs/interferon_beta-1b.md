@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (hairy cell leukemia) (nivel de evidencia L5). Indicación original: Interferón beta-1b"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -119,7 +119,6 @@ La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916),
 **Para avanzar se necesita:**
 - Revisión bibliográfica dirigida sobre interferón beta (frente a interferón alfa) en leucemia de células pilosas y estudios preclínicos
 - Datos del mecanismo de acción del fármaco
-- Verificar el estado regulatorio actual en INVIMA, ya que solo consta un registro cancelado
 - Obtener el prospecto con advertencias y contraindicaciones
 - Evaluar la comparación con tratamientos establecidos para leucemia de células pilosas antes de considerar estudios clínicos
 ## Descargo de responsabilidad

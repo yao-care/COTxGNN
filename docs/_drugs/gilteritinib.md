@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Gilteritinib"
 monitor_inn: "GILTERITINIB"
 predicted_indications: ["bulbar polio"]
@@ -123,7 +123,6 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 - Datos del mecanismo de acción (MOA) y análisis de un posible vínculo mecanístico (por ejemplo, el papel de AXL en infecciones por poliovirus)
 - Estudios preclínicos (in vitro/in vivo) que muestren actividad antiviral o neuroprotectora
 - Advertencias y contraindicaciones del prospecto de INVIMA
-- Evaluación de la compatibilidad de vías de administración y de la situación regulatoria (registro cancelado)
 - Análisis de riesgo-beneficio frente a la mielosupresión y las interacciones farmacológicas
 ## Descargo de responsabilidad
 

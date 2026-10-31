@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Teprotumumab: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo repite el nomb…"
 monitor_inn: "TEPROTUMUMAB"
 predicted_indications: ["monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
@@ -92,7 +92,6 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Revisión del mecanismo de acción y de un posible vínculo biológico con la monosomía X, o priorizar otras predicciones con mejor sustento
 - Búsqueda sistemática de literatura y ensayos clínicos (incluidos estudios preclínicos)
 - Obtención del prospecto de INVIMA para evaluar advertencias y contraindicaciones
-- Aclarar la situación regulatoria (registro cancelado) y la disponibilidad del producto en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

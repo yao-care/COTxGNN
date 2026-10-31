@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Octreotido"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -125,7 +125,6 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Datos del mecanismo de acción (consulta a DrugBank) y análisis de un posible vínculo entre la señalización de somatostatina y la queratinocitosis benigna.
 - Revisión sistemática de literatura y de registros de ensayos para queratosis folicular invertida y queratosis seborreica.
 - Obtención y análisis del prospecto oficial (INVIMA u otra fuente) para advertencias y contraindicaciones, necesario antes de cualquier evaluación de seguridad.
-- Aclarar el estado regulatorio en Colombia (registro cancelado) y la disponibilidad de otras presentaciones de octreotida.
 - Evaluar la compatibilidad de la vía de administración (la presentación conocida es inyectable) con una lesión cutánea/vulvar benigna.
 ## Descargo de responsabilidad
 

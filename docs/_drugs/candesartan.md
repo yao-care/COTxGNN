@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L1
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Candesartan: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Candesartán"
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
@@ -60,7 +60,7 @@ Los datos compilados para este informe no incluyen el mecanismo de acción regis
 
 Mecanísticamente, el bloqueo del receptor AT1 podría ser aplicable a la migraña por varias vías propuestas: modulación del tono vascular cerebral, reducción de la neuroinflamación y del estrés oxidativo, y atenuación de la activación simpática y trigeminovascular. Aunque la hipertensión y la migraña son enfermedades distintas, ambas comparten un componente vascular y neurovascular, lo que da plausibilidad a la predicción.
 
-Esta plausibilidad está respaldada por evidencia clínica: ensayos aleatorizados de prevención de migraña muestran un efecto favorable, y candesartán ya se menciona en guías y revisiones como opción de profilaxis. Como salvedad, el campo de mecanismo de acción original no está disponible y el producto solo tiene registros cancelados en Colombia.
+Esta plausibilidad está respaldada por evidencia clínica: ensayos aleatorizados de prevención de migraña muestran un efecto favorable, y candesartán ya se menciona en guías y revisiones como opción de profilaxis.
 
 ## Evidencia de Ensayos Clínicos
 

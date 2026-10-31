@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L3). Indicación original: LAROTRECTINIB"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -129,7 +129,6 @@ La evidencia es solo indirecta: un ensayo de cesta no específico, una revisión
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de larotrectinib.
 - Evidencia preclínica o clínica que vincule la inhibición de TRK con tumores de MEN, por ejemplo casos con fusión NTRK coexistente.
 - Análisis específico de los resultados de pacientes con MEN dentro de NCI-MATCH, si están disponibles.
-- Aclarar la situación regulatoria en Colombia (registros cancelados) y la disponibilidad real del fármaco.
 - Evaluar el manejo de las interacciones, en particular con inhibidores potentes del CYP3A4 como la claritromicina.
 ## Descargo de responsabilidad
 

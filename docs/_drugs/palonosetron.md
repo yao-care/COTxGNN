@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PALONO…"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -120,7 +120,6 @@ La predicción es solo del modelo (nivel L5): no existen ensayos clínicos y la 
 - Completar los datos de mecanismo de acción desde DrugBank
 - Revisión sistemática de la literatura sobre antagonistas 5-HT3 y migraña, para determinar si existe algún efecto terapéutico o solo riesgo de cefalea
 - Evidencia preclínica o clínica que revierta la señal de seguridad actual
-- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vías de administración antes de cualquier desarrollo local
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

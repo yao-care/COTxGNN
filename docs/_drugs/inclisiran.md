@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Inclisiran: nueva indicación predicha, Deficiencia de potasio (potassium deficiency disease) (nivel de evidencia L5). Indicación original: INCLISIRÁN"
 monitor_inn: "inclisiran"
 predicted_indications: ["potassium deficiency disease", "esophageal disease", "atypical coarctation of aorta", "migraine disorder", "non-syndromic esophageal malformation", "migraine with brainstem aura", "aortic malformation", "esophageal ulcer", "Raynaud disease"]
@@ -90,7 +90,6 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos, literatura ni
 - Completar los datos de mecanismo de acción desde DrugBank
 - Justificar biológicamente un posible vínculo entre el silenciamiento de PCSK9 y el metabolismo del potasio, o priorizar otra indicación predicha
 - Verificar en ClinicalTrials.gov las condiciones de los ensayos NCT06597019 y NCT06597006, que parecen corresponder a hipercolesterolemia familiar pediátrica y no a la indicación predicha
-- Aclarar la situación regulatoria (registro cancelado) si se considera una vía local de desarrollo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

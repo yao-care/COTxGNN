@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alfuzosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: ALFUZOSINA"
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -104,7 +104,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no existe plausibilidad mecanística para una enfermedad genética congénita. Además, el producto solo tiene un registro cancelado en Colombia y el perfil de seguridad incluye riesgos cardiovasculares relevantes.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no existe plausibilidad mecanística para una enfermedad genética congénita.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (DrugBank)

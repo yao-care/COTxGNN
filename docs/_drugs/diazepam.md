@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 217
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Diazepam"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
@@ -121,7 +121,6 @@ El mecanismo GABAérgico es coherente con el insomnio, pero no hay ensayos clín
 - Obtener y analizar el prospecto del registro INVIMA (advertencias y contraindicaciones oficiales), una brecha de datos bloqueante.
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de eficacia y seguridad de diazepam frente a los hipnóticos actuales en insomnio, con atención a adultos mayores.
-- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de la vía de administración, ya que la única presentación conocida es inyectable.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 374
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Lamivudine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (SIV) (nivel de evidencia L4). Indicación original: Lamivudina (solo y en combinaciones con abacavi…"
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -123,7 +123,6 @@ La predicción se apoya únicamente en estudios preclínicos en macacos, sin ens
 - Definir si existe un objetivo de investigación relevante (por ejemplo, uso como herramienta en modelos animales) o si la predicción debe descartarse para uso humano
 - Datos del mecanismo de acción confirmados a partir de fuentes como DrugBank
 - Advertencias y contraindicaciones del prospecto oficial de INVIMA
-- Aclarar la situación regulatoria (registros cancelados) si se considerara cualquier uso en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

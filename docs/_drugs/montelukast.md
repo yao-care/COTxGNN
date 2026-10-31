@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 454
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). En Colombia solo figura un registro sanitario, hoy cancelado, cuyo texto de indicación se limita al nombre del fármaco. El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, buena parte de esa evidencia se refiere a bronquiolitis y bronquiolitis obliterante, no a bronquitis en sentido estricto.
+Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, buena parte de esa evidencia se refiere a bronquiolitis y bronquiolitis obliterante, no a bronquitis en sentido estricto.
 
 ---
 

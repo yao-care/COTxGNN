@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alteplasa: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Alteplasa"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
@@ -118,7 +118,6 @@ La predicción para el infarto posteroinferior carece de ensayos y literatura es
 - Aclarar si esta indicación aporta algo más allá de la trombólisis ya establecida en infarto con elevación del ST.
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones, ya que su ausencia impide el análisis de seguridad.
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Confirmar la situación regulatoria vigente de alteplasa en Colombia (registro cancelado) y la disponibilidad de otros productos.
 - Si se busca una línea con más potencial, evaluar la trombofilia (ensayo Fase 2 NCT05540834 en curso) o la estenosis coronaria, siempre con atención al riesgo de sangrado.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Ganirelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Ganirelix"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -107,7 +107,6 @@ La predicción para hipertricosis es solo del modelo (L5), sin ensayos ni litera
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de literatura dirigida y evaluar la plausibilidad biológica antes de cualquier estudio.
 - Priorizar, como línea de investigación más coherente, la pubertad precoz central, considerando las limitaciones de la formulación de acción corta.
-- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vías de administración.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

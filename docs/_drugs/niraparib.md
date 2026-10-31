@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: nueva indicación predicha, Epiglottis neoplasm (nivel de evidencia L5). Indicación original: NIRAPARIB"
@@ -139,7 +139,6 @@ La evidencia es indirecta: los ensayos son de Fase 2 (uno reclutando, uno termin
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Definir con precisión qué tipo de neoplasia quística o serosa se busca tratar y evaluar su relación con HRD.
 - Esperar los resultados del ensayo NCT04716686 (Fase 2, finalización prevista a fines de 2026).
-- Aclarar la situación regulatoria en Colombia (registro cancelado) y evaluar la viabilidad de un nuevo registro.
 - Evaluar con rigor la relación riesgo-beneficio, dada la mielosupresión y las múltiples interacciones.
 ## Descargo de responsabilidad
 

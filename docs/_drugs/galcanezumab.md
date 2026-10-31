@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: GALCANEZUMAB"
@@ -89,7 +89,6 @@ La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni lit
 - Datos del mecanismo de acción (MOA) desde DrugBank para evaluar mejor un posible vínculo biológico
 - El prospecto de INVIMA con advertencias y contraindicaciones, para poder realizar la evaluación de seguridad
 - Evidencia preclínica o clínica que conecte la inhibición del CGRP con la regulación de la coagulación
-- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de la vía de administración
 - Evaluación de seguridad cardiovascular y vascular específica para poblaciones con tendencia trombótica
 ## Descargo de responsabilidad
 

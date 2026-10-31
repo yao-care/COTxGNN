@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Filgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: FILGRASTIM"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -109,7 +109,6 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no e
 - Estudios preclínicos o de mecanismo que justifiquen la hipótesis
 - Revisión de literatura dirigida a G-CSF en trastornos plaquetarios
 - Obtener el prospecto con advertencias y contraindicaciones para el análisis de seguridad
-- Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de productos con registro vigente
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

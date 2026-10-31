@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Levocetirizine: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: LEVOCETIRIZINA"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -118,7 +118,6 @@ La predicción para artritis reumatoide se basa solo en el modelo (L5), sin ensa
 - Revisión de literatura y ensayos sobre antihistamínicos H1 en artritis reumatoide, o estudios preclínicos y de mecanismo.
 - Datos detallados del mecanismo de acción desde DrugBank.
 - Prospecto de INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad.
-- Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia.
 - Evaluar la compatibilidad de la vía de administración (actualmente solo forma oral) y la seguridad en pacientes con enfermedad renal.
 ## Descargo de responsabilidad
 

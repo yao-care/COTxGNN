@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: LURASIDONA"
@@ -124,7 +124,6 @@ No hay evidencia clínica directa de lurasidona en manía bipolar: el único ens
 - Replantear la pregunta de investigación hacia la **depresión bipolar**, donde la evidencia es más sólida, o generar datos específicos en manía aguda.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío de información bloqueante.
 - Complementar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria (registros cancelados) y las vías de acceso en Colombia.
 - Evaluar el riesgo de viraje maníaco y las interacciones de nivel mayor (inhibidores potentes de CYP3A4, como claritromicina) en un plan de seguridad.
 ## Descargo de responsabilidad
 

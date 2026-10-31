@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Relebactam: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Imipenem. Cilastatina. Relebactam"
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
@@ -90,7 +90,6 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni
 - Obtener los datos del mecanismo de acción (por ejemplo, desde DrugBank) y reevaluar si existe algún vínculo biológico
 - Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha de datos bloqueante para el cribado de seguridad)
 - Evaluar si la hiperamilasemia corresponde a una señal de evento adverso y no a una indicación terapéutica
-- Confirmar la situación regulatoria del producto en Colombia (registro cancelado)
 - Considerar priorizar otras candidatas con evidencia clínica o mecanística real
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
@@ -62,7 +62,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La indicación original (combinación con umeclidinio, un antagonista muscarínico de acción prolongada) ya corresponde al tratamiento de mantenimiento de la EPOC. Vilanterol también se ha estudiado combinado con furoato de fluticasona (FF/VI) y en terapia triple (FF/UMEC/VI).
 
-Esto explica la solidez de la evidencia, pero también implica que el valor del análisis como reposicionamiento es limitado. El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica.
+Esto explica la solidez de la evidencia, pero también implica que el valor del análisis como reposicionamiento es limitado.
 
 ---
 

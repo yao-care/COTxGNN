@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: RIMEGEPANT"
@@ -118,7 +118,6 @@ Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña genera
 - Datos específicos de eficacia y seguridad en migraña con aura del tronco encefálico (ensayos o análisis de subgrupos)
 - Información detallada del mecanismo de acción
 - Prospecto del INVIMA con advertencias y contraindicaciones
-- Aclarar el estado regulatorio en Colombia (registro cancelado) y la posibilidad de un nuevo registro
 - Plan de manejo de interacciones farmacológicas y vigilancia de riesgo vascular
 
 ---

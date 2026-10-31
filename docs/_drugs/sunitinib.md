@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 599
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SUNITINIB"
@@ -129,7 +129,6 @@ Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
 Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen liposarcoma, pero con cohortes pequeñas, respuestas modestas y sin confirmación en Fase 3. Además, los cuatro registros colombianos están cancelados y faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados).
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Revisar los resultados por subtipo de liposarcoma de los ensayos NCT00474994 y NCT00400569.
 - Valorar un ensayo específico en liposarcoma, comparando con las opciones actuales (por ejemplo, trabectedina).

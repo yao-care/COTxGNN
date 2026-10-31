@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Bismuth Subsalicylate: nueva indicación predicha, Paratifoidea (fiebre paratifoidea) (nivel de evidencia L5). Indicación original: Subcitrato de bismuto / Subsalicilato de bismuto"
 monitor_inn: "Bismuth subsalicylate"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
@@ -133,7 +133,6 @@ La predicción de paratifoidea se basa únicamente en el modelo (nivel L5), sin 
 - Datos del mecanismo de acción (MOA) del subsalicilato de bismuto.
 - Información del prospecto (advertencias y contraindicaciones) obtenida de INVIMA, para completar el análisis de seguridad.
 - Evidencia clínica o preclínica específica en paratifoidea; si se busca una dirección con más sustento, priorizar **salmonelosis** (como terapia sintomática o adyuvante) o **gingivitis**, ambas en fase de pregunta de investigación (L4).
-- Aclarar la situación regulatoria en Colombia (registros cancelados) y la viabilidad de una nueva comercialización.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

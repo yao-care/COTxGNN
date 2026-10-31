@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Evolocumab: nueva indicación predicha, Forma sintomática de hemofilia en mujeres portadoras (nivel de evidencia L5). Indicación original: Evolocumab"
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
@@ -119,7 +119,6 @@ Las seis indicaciones predichas carecen de ensayos clínicos y de literatura (ni
 - Completar los datos del mecanismo de acción desde DrugBank
 - Aclarar la indicación original aprobada, ya que el registro solo menciona el nombre del principio activo
 - Reevaluar la utilidad de las predicciones; solo la deficiencia de apolipoproteína C-II tiene una conexión biológica tenue y podría justificar una revisión de literatura preliminar
-- Confirmar la situación de comercialización en Colombia (registro cancelado)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -63,7 +63,7 @@ Parecoxib es un profármaco de valdecoxib, un inhibidor selectivo de la COX-2. L
 
 La COX-2 impulsa la síntesis de prostaglandina E2 (PGE2), que sensibiliza los nociceptores del trigémino y favorece la liberación del péptido relacionado con el gen de la calcitonina (CGRP) y la inflamación neurogénica. Al inhibir la COX-2, es plausible reducir estos procesos durante una crisis aguda de migraña. Esto es coherente con el puntaje muy alto de TxGNN (0.9955).
 
-Existe apoyo mecanístico preclínico indirecto: en células de ganglio trigeminal de rata, la IL-1β estimula la síntesis de PGE2 dependiente de COX-2 y la liberación de CGRP (PMID 21394197), y parecoxib modifica la extravasación de proteínas plasmáticas y la expresión de c-fos en un modelo animal de activación trigeminovascular (PMID 16492237). Sin embargo, al ser un fármaco solo inyectable y con registro cancelado, su aplicabilidad práctica es limitada.
+Existe apoyo mecanístico preclínico indirecto: en células de ganglio trigeminal de rata, la IL-1β estimula la síntesis de PGE2 dependiente de COX-2 y la liberación de CGRP (PMID 21394197), y parecoxib modifica la extravasación de proteínas plasmáticas y la expresión de c-fos en un modelo animal de activación trigeminovascular (PMID 16492237).
 
 ---
 
@@ -110,7 +110,6 @@ La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y t
 - Verificar el diseño, tamaño y resultados del estudio PMID 21996647
 - Obtener el prospecto en INVIMA para conocer advertencias y contraindicaciones
 - Obtener datos detallados del mecanismo de acción desde DrugBank
-- Evaluar la viabilidad de la vía inyectable para el tratamiento de la migraña y la situación regulatoria (registro cancelado)
 - Considerar ensayos clínicos controlados que confirmen la eficacia y seguridad en crisis agudas de migraña
 
 ---

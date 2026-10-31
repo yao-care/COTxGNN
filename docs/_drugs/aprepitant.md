@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 62
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Aprepitant: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No disponible"
 monitor_inn: "APREPITANT"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -112,7 +112,6 @@ La predicción tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clíni
 - Datos del mecanismo de acción y análisis mecanístico específico de la vía NK1/vasopresina en NSIAD
 - Estudios preclínicos o de mecanismo que respalden la hipótesis
 - Obtención y revisión del prospecto de INVIMA (advertencias y contraindicaciones)
-- Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vía de administración
 - Evaluación del riesgo de interacciones (CYP3A4) y de la contraindicación en insuficiencia hepática
 
 ---

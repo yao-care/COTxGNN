@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (nivel de evidencia L5). Indicación original: Tetrabenazina"
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
@@ -110,7 +110,6 @@ La predicción se basa solo en un puntaje del modelo, sin ensayos clínicos, sin
 - Obtener datos del mecanismo de acción y evaluar si existe alguna hipótesis biológica que conecte VMAT2 con la patogenia de la enfermedad renal poliquística.
 - Estudios preclínicos que respalden la hipótesis.
 - Obtener y revisar el prospecto oficial (advertencias y contraindicaciones) del INVIMA.
-- Aclarar la situación regulatoria (registros cancelados) y la disponibilidad real del producto en Colombia.
 - Revisión de seguridad hepática y cardiaca (QT) antes de considerar cualquier uso en poblaciones con enfermedad renal o hepática.
 ## Descargo de responsabilidad
 

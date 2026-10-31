@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Flucytosine: nueva indicación predicha, Enfermedad ósea de Paget (nivel de evidencia L5). Indicación original: FLUCITOSINA"
 monitor_inn: "flucytosine"
 predicted_indications: ["bone Paget disease"]
@@ -109,7 +109,6 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una búsqueda sistemática de literatura y ensayos que relacionen la flucitosina o el 5-FU con la enfermedad ósea de Paget.
 - Evaluar estudios preclínicos que respalden un posible mecanismo antes de reconsiderar la candidatura.
-- Aclarar la indicación clínica real del producto y su situación regulatoria (registro cancelado) si se contempla uso en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Olodaterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Olodaterol y bromuro de tiotropio"
 monitor_inn: "OLODATEROL"
 predicted_indications: ["bronchitis"]
@@ -138,7 +138,6 @@ Para bronquitis no hay ensayos clínicos específicos y el puntaje de 0.9984 pro
 - Análisis post hoc o subgrupos de los ensayos de EPOC en pacientes con bronquitis crónica.
 - Datos del mecanismo de acción confirmados (p. ej., desde DrugBank).
 - Obtener y revisar el prospecto de INVIMA para advertencias y contraindicaciones.
-- Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de productos con olodaterol.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

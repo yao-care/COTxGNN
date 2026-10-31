@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 381
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con compromiso esquelético (nivel de evidencia L3). Indicación original: Laronidasa"
 monitor_inn: "laronidase"
 predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
@@ -185,7 +185,6 @@ El mecanismo no respalda la indicación: laronidasa no repone las enzimas defici
 - Evidencia preclínica o clínica directa en MPS III
 - Estrategia para alcanzar el sistema nervioso central
 - Datos del mecanismo de acción
-- Situación regulatoria vigente en Colombia (registro cancelado)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

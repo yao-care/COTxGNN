@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Carbamazepina"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -117,7 +117,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L4: no hay ensayos clínicos y la literatura consiste en reportes de caso y revisiones. Carbamazepina trata el dolor de la neuralgia del trigémino pero no la neoplasia, por lo que el reposicionamiento como terapia contra el tumor no está respaldado. Además, el mercado colombiano solo tiene registros cancelados.
+La evidencia es de nivel L4: no hay ensayos clínicos y la literatura consiste en reportes de caso y revisiones. Carbamazepina trata el dolor de la neuralgia del trigémino pero no la neoplasia, por lo que el reposicionamiento como terapia contra el tumor no está respaldado.
 
 **Para avanzar se necesita:**
 - Definir si el objetivo es el control sintomático del dolor (indicación ya conocida) o un efecto antitumoral (sin respaldo).

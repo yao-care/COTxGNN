@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Aripiprazole: nueva indicación predicha, Trastorno afectivo mayor (major affective disorder) (nivel de evidencia L1). Indicación original: ARIPIPRAZOL"
 monitor_inn: "Aripiprazole"
 predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
@@ -64,7 +64,7 @@ Aripiprazol es un agonista parcial de los receptores de dopamina D2/D3 y de sero
 
 La relación con la indicación original es estrecha: el aripiprazol ya se usa en trastornos del ánimo como el trastorno bipolar, y la depresión mayor comparte vías neurobiológicas con ellos. Como terapia adyuvante a ISRS/IRSN, el perfil de agonismo parcial puede potenciar la respuesta antidepresiva en pacientes con respuesta insuficiente.
 
-Cabe señalar que el uso adyuvante en depresión mayor ya es una indicación autorizada en varias jurisdicciones, por lo que se trata más de un uso en o cercano a la indicación aprobada que de un reposicionamiento propiamente dicho. Además, el estado de mercado en Colombia (solo registros cancelados) debe verificarse antes de sacar conclusiones regulatorias.
+Cabe señalar que el uso adyuvante en depresión mayor ya es una indicación autorizada en varias jurisdicciones, por lo que se trata más de un uso en o cercano a la indicación aprobada que de un reposicionamiento propiamente dicho.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Moroctocog Alfa: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Coagulación factores VIII"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -106,7 +106,6 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto (advertencias y contraindicaciones) desde INVIMA para completar la evaluación de seguridad.
 - Completar los datos del mecanismo de acción del fármaco.
-- Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad.
 - Si se desea explorar alguna línea, priorizar un subtipo específico de deficiencia adquirida de factores de coagulación y verificar la identidad de la entidad "flood factor deficiency".
 - Realizar una búsqueda dirigida de literatura y ensayos para las indicaciones predichas, ya que no se aportó evidencia clínica.
 ## Descargo de responsabilidad

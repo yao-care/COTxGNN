@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -122,7 +122,6 @@ Aunque el puntaje del modelo es alto y existe literatura directa (revisión Coch
 **Para avanzar se necesita:**
 - Verificar en el texto completo de la guía AASM 2025 y de la revisión Cochrane la recomendación exacta sobre clonazepam.
 - Obtener el prospecto del INVIMA para las advertencias y contraindicaciones oficiales.
-- Aclarar la indicación aprobada original y la situación regulatoria (registros cancelados) en Colombia.
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de seguridad para riesgos de dependencia, sedación, depresión respiratoria y combinación con opioides.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -124,7 +124,6 @@ Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de 
 - Datos de eficacia específicos en liposarcoma (subanálisis del NCT05836571 o estudios dedicados)
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Datos detallados del mecanismo de acción
-- Aclarar la situación regulatoria en Colombia (registro cancelado) y la compatibilidad de la vía de administración
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) (nivel de evidencia L5). Indicación original: Formoterol y mometasona"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -112,7 +112,6 @@ La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción 
 - Datos del mecanismo de acción (consulta a DrugBank) y un análisis mecanístico formal del vínculo entre la agonía beta-2 y la señalización del receptor V2.
 - Estudios preclínicos que respalden la hipótesis antes de considerar ensayos clínicos.
 - Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones.
-- Verificar la disponibilidad regional, dado que solo existen registros cancelados.
 
 **Nota sobre otras predicciones:** de las 10 indicaciones predichas, solo la **enfermedad bronquial** (puntaje 0.9918, posición 7) tiene evidencia real: 24 ensayos clínicos (incluidos varios de Fase 3 completados, como NCT02554786 con 2216 participantes) y 20 publicaciones, con nivel L1 y decisión *Proceed with Guardrails*. Sin embargo, esto equivale en gran medida a reconfirmar el uso respiratorio ya conocido y no a un reposicionamiento genuino. Además, muchos ensayos usan combinaciones de dosis fijas, por lo que no se puede aislar el aporte de indacaterol solo. Un ensayo de Fase 3 (NCT04206761) fue retirado con 0 participantes.
 ## Descargo de responsabilidad

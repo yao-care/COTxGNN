@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: TIOPENTAL"
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -118,7 +118,6 @@ La predicción para tricotilomanía carece de ensayos clínicos, literatura y fu
 - Datos del mecanismo de acción y un fundamento biológico plausible para tricotilomanía.
 - Estudios preclínicos que respalden la hipótesis antes de plantear estudios clínicos.
 - Prospecto vigente con advertencias y contraindicaciones oficiales.
-- Aclarar la situación regulatoria (registro cancelado) y la viabilidad de una vía de administración adecuada para un trastorno crónico.
 
 **Otras indicaciones predichas con algo más de respaldo (referencia):** epilepsia del lóbulo frontal y epilepsia de ausencia (nivel L4, "pregunta de investigación"). La evidencia se limita a control agudo de crisis y pruebas prequirúrgicas. En epilepsia de ausencia, la potenciación de GABA-A podría incluso agravar las crisis. Otras predicciones del modelo (angina de Prinzmetal, migraña, síndrome de Tourette, dependencia de sustancias, entre otras) quedan en L5 sin sustento clínico.
 ## Descargo de responsabilidad

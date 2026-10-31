@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clofazimine: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: CLOFAZIMINA"
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
@@ -117,7 +117,6 @@ El puntaje del modelo es alto, pero no hay ensayos clínicos, ni estudios precl�
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia *in vitro* o en modelos animales de actividad contra *Pneumocystis*.
 - Obtener y revisar el prospecto de INVIMA para advertencias y contraindicaciones oficiales.
-- Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad del fármaco.
 - Valorar otras predicciones del modelo con más soporte: la malaria presenta evidencia indirecta (un estudio *in vitro* con análogos de clofazimina, nivel L4), aunque también carece de datos clínicos.
 ## Descargo de responsabilidad
 

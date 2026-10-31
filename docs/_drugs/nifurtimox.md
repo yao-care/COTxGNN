@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"NIFURT…"
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -127,7 +127,6 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Aclarar la indicación original aprobada, ya que el registro solo contiene el nombre del principio activo.
 - Realizar estudios preclínicos o de mecanismo que justifiquen un vínculo biológico con la nueva indicación.
-- Evaluar la situación regulatoria (registros cancelados) y la compatibilidad de vías de administración.
 - Considerar priorizar otras predicciones solo si aparece evidencia independiente; hasta ahora ninguna tiene respaldo.
 ## Descargo de responsabilidad
 

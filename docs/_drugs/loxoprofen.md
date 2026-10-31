@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Loxoprofen: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: Loxoprofeno"
 monitor_inn: "loxoprofen"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -59,7 +59,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 
 La nueva indicación es un síndrome congénito extremadamente raro, con malformaciones oculares y esqueléticas. La inhibición de COX no tiene un papel establecido en su patogenia, por lo que **los datos compilados no respaldan un vínculo mecanístico**. El puntaje de TxGNN (0.998) proviene únicamente de una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico.
 
-Además, el fármaco solo tiene un registro cancelado en Colombia, por lo que no existe una vía comercial o regulatoria vigente.
 
 ## Evidencia de Ensayos Clínicos
 

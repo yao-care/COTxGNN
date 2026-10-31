@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: Denosumab"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -117,7 +117,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien desenlaces retinianos con denosumab. Además, el mercado colombiano solo muestra registros cancelados, lo que complica cualquier vía de acceso inmediata.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien desenlaces retinianos con denosumab.
 
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (por ejemplo, consultando DrugBank) y analizar el vínculo RANKL/OPG con la patología retiniana diabética.

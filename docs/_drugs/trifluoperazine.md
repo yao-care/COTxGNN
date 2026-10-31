@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L4). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
 monitor_inn: "trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El bloqueo de D2 es el mecanismo compartido por los antipsicóticos que se usan en la manía aguda, lo que hace biológicamente plausible la predicción del modelo (puntaje 0,9951). Además, existen publicaciones antiguas sobre el uso de trifluoperazina en depresiones agitadas y psicosis, y revisiones sobre antipsicóticos en trastornos del estado de ánimo.
 
-Sin embargo, esta predicción no es una señal genuina de reposicionamiento: la trifluoperazina ya es un antipsicótico y la nueva indicación está muy cerca de su uso psiquiátrico existente. No hay evidencia específica del fármaco a nivel de ensayos, y el estado de mercado (solo registros cancelados) limita el valor práctico del desarrollo.
+Sin embargo, esta predicción no es una señal genuina de reposicionamiento: la trifluoperazina ya es un antipsicótico y la nueva indicación está muy cerca de su uso psiquiátrico existente.
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Metronidazol / combinaciones de imidazol derivados"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -125,7 +125,6 @@ No existen ensayos clínicos, la literatura es solo descriptiva y no muestra efi
 - Datos del mecanismo de acción y estudios preclínicos que justifiquen actividad contra *Pneumocystis*
 - Estudios in vitro o en modelos animales de eficacia
 - Prospecto de INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad)
-- Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local
 - Considerar priorizar otras indicaciones con mejor respaldo, como la poliposis en capuchón (L4) y otras candidatas de enfermedad inflamatoria intestinal o úlceras vulvares
 ## Descargo de responsabilidad
 

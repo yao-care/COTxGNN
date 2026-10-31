@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: DAPOXETINA"
 monitor_inn: "dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
@@ -59,7 +59,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La disfunción serotoninérgica participa en la fisiopatología de la migraña, y algunos ISRS y otros agentes serotoninérgicos se han explorado para su prevención. Esto ofrece una justificación plausible, pero indirecta. El puntaje alto de TxGNN (0.9934) es solo una predicción computacional y probablemente refleja la asociación a nivel de clase (ISRS) y no un dato propio de dapoxetina.
 
-Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña. Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo.
+Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -97,7 +97,6 @@ La predicción se apoya solo en un puntaje computacional y en evidencia indirect
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Estudios preclínicos o clínicos específicos de dapoxetina en migraña.
 - Evaluar si el perfil farmacocinético de acción corta es compatible con un uso profiláctico o agudo en migraña.
-- Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Aflibercept: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: AFLIBERCEPT"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -108,7 +108,6 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
 - Revisión sistemática de la literatura sobre anti-VEGF y estrabismo/esotropía, incluida la posible relación con el estrabismo secundario a enfermedad retiniana.
 - Obtener y analizar el prospecto del INVIMA para advertencias y contraindicaciones.
-- Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado) y la vía de administración requerida.
 - Evaluación de viabilidad preclínica antes de considerar cualquier estudio clínico.
 ## Descargo de responsabilidad
 

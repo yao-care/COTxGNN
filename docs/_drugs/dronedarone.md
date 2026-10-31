@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 238
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Accidente cerebrovascular (stroke disorder) (nivel de evidencia L3). Indicación original: DRONEDARONA"
@@ -113,7 +113,6 @@ La evidencia para ictus (L3) proviene de análisis secundarios y revisiones sobr
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Ensayos o estudios observacionales con el ictus como criterio principal, restringidos a poblaciones con fibrilación auricular no permanente y sin insuficiencia cardíaca descompensada
 - Evaluación de seguridad (QT, función hepática, interacciones con anticoagulantes)
-- Aclaración de la situación regulatoria local (registro cancelado)
 
 **Otras predicciones del modelo:** "trastorno cerebrovascular" (0.9971, evidencia L2 con análisis post hoc de ATHENA) es la que cuenta con más respaldo y puede evaluarse en paralelo. Las demás (por ejemplo, amiloidosis ABri, obstrucción duodenal, sarcoglicanopatía, síndrome de Wildervanck) solo son predicciones sin evidencia ni vínculo mecanístico plausible, y el síndrome del seno enfermo tipo 2 plantea además un riesgo de seguridad.
 ## Descargo de responsabilidad

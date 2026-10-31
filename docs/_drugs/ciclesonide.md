@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -130,7 +130,6 @@ El puntaje del modelo es alto (0.9996), pero no hay ensayos clínicos ni literat
 - Completar los datos del mecanismo de acción original desde DrugBank.
 - Realizar una revisión de literatura específica de ciclesonida en eccema atópico y comparar con corticosteroides tópicos ya aprobados.
 - Evaluar la compatibilidad de vía de administración: la forma disponible es inhalada y la indicación predicha es cutánea.
-- Aclarar la situación regulatoria (registros cancelados) y la necesidad clínica frente a las alternativas existentes.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

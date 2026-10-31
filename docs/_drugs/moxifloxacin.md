@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 457
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Moxifloxacin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (nivel de evidencia L5). Indicación original: Dexametasona y antiinfecciosos"
 monitor_inn: "moxifloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "congenital hematological disorder", "hematopoietic and lymphoid system neoplasm"]
@@ -104,7 +104,6 @@ La predicción para síndrome de hiperviscosidad policlonal es solo un resultado
 - Obtener el prospecto del INVIMA para completar advertencias y contraindicaciones oficiales (brecha bloqueante).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Reorientar el análisis hacia la **peste bubónica**, la única indicación con respaldo preclínico plausible (L4), evaluando si hay interés clínico y regulatorio local.
-- Confirmar la situación regulatoria (registros cancelados) antes de cualquier desarrollo en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Dienogest y etinilestradiol"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -109,7 +109,6 @@ La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensay
 - Definir si "zinc plasmático elevado" es un objetivo terapéutico válido y en qué dirección actuaría el fármaco
 - Revisión de literatura sobre estrógenos y homeostasis del zinc para evaluar plausibilidad biológica
 - Evaluar compatibilidad de vías de administración y similitud con la indicación original
-- Considerar la situación regulatoria (registro cancelado) antes de cualquier desarrollo local
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

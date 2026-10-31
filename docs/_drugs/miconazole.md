@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 441
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Miconazole: nueva indicación predicha, Acné (nivel de evidencia L3). Indicación original: Metronidazol"
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
@@ -111,7 +111,6 @@ La evidencia se limita a una revisión, un estudio clínico pequeño, un estudio
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente una brecha de datos bloqueante para el tamizaje de seguridad
 - Completar los datos del mecanismo de acción desde DrugBank
-- Aclarar la situación regulatoria actual (registro cancelado) y la disponibilidad de formulaciones tópicas
 - Generar evidencia clínica específica en acné vulgar (idealmente ensayos aleatorizados)
 - Evaluar la compatibilidad de vías de administración, dado que el producto registrado es un óvulo vaginal
 ## Descargo de responsabilidad

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Crizotinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo dice \"CRI…"
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -118,7 +118,6 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 - Datos detallados del mecanismo de acción y una hipótesis biológica que conecte las vías ALK/ROS1/MET con la fibromatosis gingival
 - Estudios preclínicos que muestren un efecto sobre fibroblastos gingivales o modelos de la enfermedad
 - Información de seguridad del prospecto del INVIMA (advertencias y contraindicaciones)
-- Aclarar el estado regulatorio en Colombia (registro cancelado) y la viabilidad de acceso al producto
 - Evaluar el balance riesgo-beneficio frente a alternativas para una condición benigna
 ## Descargo de responsabilidad
 

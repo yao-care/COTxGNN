@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: RIBOCICLIB"
 monitor_inn: "ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -123,7 +123,6 @@ La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin e
 - Datos detallados del mecanismo de acción y su relación con la biología de la leucemia mieloide
 - Estudios preclínicos adicionales (in vitro e in vivo) y, de ser favorables, un ensayo clínico temprano en leucemia mieloide
 - Revisión del prospecto de INVIMA (advertencias y contraindicaciones) y evaluación de seguridad hematológica
-- Aclarar la situación regulatoria en Colombia (registro cancelado)
 
 ---
 

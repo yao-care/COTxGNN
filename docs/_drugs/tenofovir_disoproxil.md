@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Tenofovir disoproxil y emtricitabina"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -130,7 +130,6 @@ La indicación predicha es veterinaria (FIV), con un único estudio animal de co
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir si existe un objetivo humano relevante, dado que las predicciones principales son veterinarias o de modelo animal.
-- Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia.
 - Las demás predicciones (trastorno del neurodesarrollo raro e hiperlipidemia combinada familiar obsoleta) carecen de vínculo mecanístico y de evidencia, por lo que no se recomienda priorizarlas.
 ## Descargo de responsabilidad
 

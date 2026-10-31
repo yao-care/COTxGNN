@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Risdiplam: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Risdiplam"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -93,7 +93,6 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad
 - Completar los datos del mecanismo de acción desde DrugBank
 - Realizar una revisión de literatura y estudios preclínicos que sustenten un vínculo entre el empalme de SMN2 (o efectos fuera de la diana) y la biología de la piel o las glándulas sebáceas
-- Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado)
 - Evaluar la compatibilidad de la vía de administración (actualmente solo oral; la vía requerida para el acné está pendiente de definir)
 ## Descargo de responsabilidad
 

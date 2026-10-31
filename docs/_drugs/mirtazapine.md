@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Mirtazapina"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -115,7 +115,6 @@ La predicción es puramente computacional (nivel L5), sin ensayos clínicos ni l
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evidencia preclínica o mecanística que conecte la acción de la mirtazapina con la vía KAT6B/epigenética
 - Revisión de literatura dirigida sobre síndrome de Ohdo y antidepresivos
-- Clarificar la situación regulatoria (registros cancelados) si se considerara avanzar
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

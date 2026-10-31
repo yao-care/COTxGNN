@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 430
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: MERCAPTOPURINA"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -127,7 +127,6 @@ La predicción es biológicamente plausible y existen estudios de cohorte y pilo
 - Revisar los protocolos de los ensayos de Fase 3 para confirmar si la mercaptopurina es componente y cuál es su papel.
 - Esperar resultados de NCT06199557 y NCT05506332, o diseñar un estudio comparativo en LMA.
 - Definir un plan de seguridad con genotipificación de TPMT/NUDT15 y monitoreo hematológico.
-- Evaluar la situación regulatoria (registro cancelado) para un posible uso en Colombia.
 
 **Nota contextual:** otras predicciones del modelo (leucemia linfoblástica aguda y linfoma/leucemia linfoblástica precursora) tienen evidencia de nivel L1 con Fase 3, pero corresponden al uso estándar ya establecido de la mercaptopurina, no a un reposicionamiento nuevo.
 ## Descargo de responsabilidad

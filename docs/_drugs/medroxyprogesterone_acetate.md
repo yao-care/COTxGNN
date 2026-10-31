@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 422
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Medroxiprogesterona"
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 La literatura recuperada trata principalmente del uso anticonceptivo (Depo-Provera e inyectables), donde la amenorrea es un efecto esperado y no una condición tratada. Ningún artículo del conjunto evalúa directamente el MPA como tratamiento de la amenorrea.
 
-Además, el MPA ya se usa clínicamente en la amenorrea secundaria en muchas jurisdicciones, por lo que esto podría ser un uso existente o cercano a la indicación autorizada, más que un reposicionamiento genuino. La falta de datos de mecanismo y el estado de mercado (solo registros cancelados) limitan la confirmación.
+Además, el MPA ya se usa clínicamente en la amenorrea secundaria en muchas jurisdicciones, por lo que esto podría ser un uso existente o cercano a la indicación autorizada, más que un reposicionamiento genuino.
 
 ---
 
@@ -123,7 +123,6 @@ La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la lit
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Aclarar si el uso en amenorrea secundaria ya está autorizado en otras jurisdicciones (podría no ser un reposicionamiento genuino).
 - Buscar literatura clínica directa sobre MPA en amenorrea, como la prueba de reto con progestágeno y ensayos de tratamiento.
-- Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay registros cancelados.
 
 ---
 

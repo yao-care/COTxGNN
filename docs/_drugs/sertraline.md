@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Sertraline"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Schizotypal personality disorder (nivel de evidencia L5). Indicación original: SERTRALINA"
@@ -110,7 +110,6 @@ La predicción para el trastorno esquizotípico se apoya solo en el puntaje del 
 - Ensayos controlados específicos en trastorno esquizotípico de la personalidad con tamaño de muestra adecuado.
 - Datos detallados del mecanismo de acción (consulta a DrugBank).
 - Descarga y análisis del prospecto de INVIMA para advertencias y contraindicaciones.
-- Aclarar la situación regulatoria local (registro cancelado) y valorar si otros registros de sertralina vigentes permitirían el acceso.
 - Considerar priorizar la agorafobia/trastorno de pánico, que tiene evidencia nivel L1 y podría avanzar como "Proceed with Guardrails" tras confirmar el uso en el contexto local.
 ## Descargo de responsabilidad
 

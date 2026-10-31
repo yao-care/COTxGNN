@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Combinaciones de tiocolchicósido"
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -95,7 +95,6 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
 - Revisión de literatura que explore un vínculo biológico entre la vía de prostaglandinas y el síndrome
 - Prospecto oficial de INVIMA con advertencias y contraindicaciones, para el análisis de seguridad
-- Aclarar la situación regulatoria (registros cancelados) y la compatibilidad de vías de administración
 - Considerar priorizar otras indicaciones con mayor plausibilidad biológica
 ## Descargo de responsabilidad
 

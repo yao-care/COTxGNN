@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ponatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PONATI…"
 monitor_inn: "ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -132,7 +132,6 @@ La predicción para fibromatosis gingival se basa únicamente en el modelo (L5),
 - Obtener y analizar el prospecto aprobado (advertencias y contraindicaciones).
 - Verificar con el texto completo del PMID 29132397 si ponatinib mostró actividad en liposarcoma, como posible línea de investigación más sólida (L4).
 - Evidencia que vincule ponatinib con fibromatosis gingival, o descartar esta indicación.
-- Aclarar la situación regulatoria en Colombia (registro cancelado).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

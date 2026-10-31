@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Baricitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: BARICITINIB"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -91,7 +91,6 @@ La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayo
 - Datos detallados del mecanismo de acción (MOA) y análisis de su relación con la fisiopatología del síndrome.
 - Estudios preclínicos o literatura que sustenten un vínculo entre la vía JAK-STAT y este síndrome.
 - Advertencias y contraindicaciones del prospecto de INVIMA, para completar la evaluación de seguridad.
-- Aclarar la situación regulatoria (registro cancelado) y la indicación aprobada original.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

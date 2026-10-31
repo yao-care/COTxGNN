@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Epinastine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Epinastina"
 monitor_inn: "epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
@@ -95,7 +95,6 @@ La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), s
 - Revisión de literatura y estudios preclínicos o piloto sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular
 - Datos detallados del mecanismo de acción (MOA)
 - Obtener las advertencias y contraindicaciones del prospecto del INVIMA
-- Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización
 - Comparación con los tratamientos habituales de la rosácea ocular (higiene palpebral, antibióticos tópicos u orales, entre otros)
 
 ---

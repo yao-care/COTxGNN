@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sacituzumab Govitecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: SACITUZUMAB GOVITECAN"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -120,7 +120,6 @@ No existen ensayos clínicos ni publicaciones que respalden la predicción, no h
 - Estudios preclínicos o de mecanismo que justifiquen un vínculo con el metabolismo óseo
 - Revisión sistemática de la literatura sobre efectos óseos de este fármaco
 - Prospecto con advertencias y contraindicaciones oficiales
-- Aclarar el estado regulatorio actual en Colombia (registro cancelado)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

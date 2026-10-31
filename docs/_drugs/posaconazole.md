@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: No especificada en detalle"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -115,7 +115,6 @@ La predicción de TxGNN es muy alta, pero no hay estudios que evalúen posaconaz
 - Datos de mecanismo de acción verificados en fuentes primarias (por ejemplo, DrugBank)
 - Estudios preclínicos o clínicos que evalúen directamente posaconazol frente a *Pneumocystis*, comparado con trimetoprima-sulfametoxazol
 - Prospecto del INVIMA con advertencias y contraindicaciones para completar el tamizaje de seguridad
-- Aclarar la situación regulatoria (registros cancelados) y la indicación aprobada originalmente
 - Análisis de compatibilidad de vías de administración y similitud con la indicación original
 ## Descargo de responsabilidad
 

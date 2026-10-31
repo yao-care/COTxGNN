@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis en pacientes con alto riesgo de fractura"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -108,7 +108,6 @@ La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos
 - Una hipótesis mecanística que justifique el papel de PTH1R/PTH2R en la mucosa duodenal, y estudios preclínicos que la respalden.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Datos detallados del mecanismo de acción (MOA).
-- Confirmar la situación regulatoria (registro cancelado) y la disponibilidad de producto en Colombia.
 - Priorizar otras predicciones del mismo fármaco con mejor sustento. Por ejemplo, la osteoporosis asociada al embarazo y la lactancia tiene literatura observacional (nivel L3) y una relación biológica coherente con el mecanismo de la teriparatida. Esta evidencia debería verificarse en los textos completos.
 ## Descargo de responsabilidad
 
