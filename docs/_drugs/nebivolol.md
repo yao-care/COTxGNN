@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: NEBIVOLOL"
@@ -53,7 +53,7 @@ La predicción se apoya únicamente en el modelo computacional (nivel de evidenc
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

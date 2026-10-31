@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 5 |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 ---

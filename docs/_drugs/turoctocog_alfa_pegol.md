@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: COAGULACION FACTORES VIII"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

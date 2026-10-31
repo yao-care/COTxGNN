@@ -53,7 +53,7 @@ con **39 ensayos clínicos** y **18 publicaciones** que respaldan esta direcció
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -53,7 +53,7 @@ con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta 
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

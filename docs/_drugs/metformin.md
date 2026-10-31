@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metformin: nueva indicación predicha, Síndrome de la persona rígida clásico (nivel de evidencia L5). Indicación original: METFORMINA"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la perso
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

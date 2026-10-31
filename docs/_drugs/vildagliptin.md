@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: METFORMINA / VILDAGLIPTINA"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez 
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

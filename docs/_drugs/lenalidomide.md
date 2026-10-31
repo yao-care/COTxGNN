@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: LENALIDOMIDA"
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -51,7 +51,7 @@ Lenalidomida es un inmunomodulador oral derivado de la talidomida, registrado en
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

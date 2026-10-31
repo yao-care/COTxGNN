@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Diatrizoate: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Combinaciones de medios de contraste para rayos X de alta osmolaridad"
 ---
 
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Puntaje de Predicción TxGNN | 0.9902 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

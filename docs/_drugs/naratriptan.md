@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: NARATRIPTAN"
@@ -51,7 +51,7 @@ Naratriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

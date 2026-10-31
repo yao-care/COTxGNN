@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Dexmedetomidine: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Dexmedetomidina"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 ---

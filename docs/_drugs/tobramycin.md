@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Dexametasona y antiinfecciosos (combinación oftálmica)"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **queratitis por exposici�
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

@@ -53,7 +53,7 @@ con **1 ensayo clínico** (retirado, sin participantes) y **20 publicaciones** q
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

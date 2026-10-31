@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 | Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

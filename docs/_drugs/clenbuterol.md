@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clenbuterol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Combinaciones"
 monitor_inn: "clenbuterol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -49,7 +49,7 @@ Clenbuterol figura en registros sanitarios colombianos únicamente como componen
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

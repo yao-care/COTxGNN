@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: MECLOZINA"
@@ -53,7 +53,7 @@ Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

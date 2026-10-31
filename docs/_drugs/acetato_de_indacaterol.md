@@ -5,7 +5,7 @@ layout: default
 title: Acetato De Indacaterol
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 22
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -43,7 +43,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 |------|-----------|
 | Indicación Original | FORMOTEROL Y MOMETASONA |
 | Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | 0 |
+| Número de Registros Sanitarios | al menos 2 |
 
 ---
 

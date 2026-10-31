@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alverine: nueva indicación predicha, Trastorno distímico (nivel de evidencia L5). Indicación original: Alverina combinaciones"
 monitor_inn: "alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -53,7 +53,7 @@ La evidencia indirecta más cercana es un estudio preclínico en ratones sobre a
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

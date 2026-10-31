@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: PROGESTÁGENO+ESTRÓGENO"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

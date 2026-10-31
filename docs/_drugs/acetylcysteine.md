@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 25
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Acetilcisteína"
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -53,7 +53,7 @@ con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ciprofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Ciprofibrato"
 ---
 
@@ -51,7 +51,7 @@ La evidencia actual corresponde, en la práctica, solo a una predicción computa
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | Al menos 4 (la lista puede ser parcial) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

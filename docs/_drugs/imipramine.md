@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Imipramine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo i…"
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -53,7 +53,7 @@ sin **ensayos clínicos** registrados y con **20 publicaciones** asociadas, la m
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

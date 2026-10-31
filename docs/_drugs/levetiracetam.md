@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: LEVETIRACETAM"
@@ -52,7 +52,7 @@ Esta predicción coincide con la práctica clínica actual, por lo que podría n
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre la selección de la indicación:** los datos incluyen 10 indicaciones predichas. Este informe se centra en el **estado epiléptico**, la indicación con la evidencia más sólida (L1). Las demás indicaciones se resumen al final.

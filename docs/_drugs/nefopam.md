@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Nefopam: nueva indicación predicha, Craniosinostosis con catarata (craniostenosis cataract) (nivel de evidencia L5). Indicación original: NEFOPAM"
 monitor_inn: "nefopam"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
@@ -53,7 +53,7 @@ La única indicación con algo de literatura es la **estenosis espinal lumbar** 
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 **Otras predicciones del modelo:** la mayoría son subtipos de catarata (inmadura, madura, asociada a diabetes tipo 2, tetánica, senil nuclear, cortical, senil y diabética), todas con nivel L5 y decisión Hold. Además, la **estenosis espinal lumbar** (puntaje 0.9997) alcanza el nivel L4 y se clasifica como "pregunta de investigación".

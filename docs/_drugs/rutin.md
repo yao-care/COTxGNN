@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Rutin: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

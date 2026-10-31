@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 | Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

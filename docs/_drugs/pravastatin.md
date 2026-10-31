@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 528
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: PRAVASTATINA Y FENOFIBRATO"
@@ -51,7 +51,7 @@ Pravastatina es una estatina que en Colombia se registró en combinación con fe
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

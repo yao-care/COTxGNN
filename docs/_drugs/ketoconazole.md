@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 366
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Ketoconazol"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidenc
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

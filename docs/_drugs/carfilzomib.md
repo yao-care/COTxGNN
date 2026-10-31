@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: CARFILZOMIB"
@@ -53,7 +53,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asoci
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 264
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: ESTRIOL"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

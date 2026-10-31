@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Baclofen: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: El registro INVIMA solo indica \"BACLOFENO\"…"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -51,7 +51,7 @@ El baclofeno es un agonista del receptor GABA-B que se usa clásicamente para tr
 | Puntaje de Predicción TxGNN | 0.9932 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

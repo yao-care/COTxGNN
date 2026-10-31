@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 208
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Dexamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Dexametasona y antiinfecciosos"
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
@@ -51,7 +51,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, de l
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (0 vigentes, 3 cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

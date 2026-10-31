@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 365
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L5). Indicación original: KETAMINA"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -53,7 +53,7 @@ con **9 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Puntaje de Predicción TxGNN | 0.9933 |
 | Nivel de Evidencia | L1 (condicionado: ver nota en la conclusión) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

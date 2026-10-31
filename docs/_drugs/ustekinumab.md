@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 651
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis** (en la prá
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

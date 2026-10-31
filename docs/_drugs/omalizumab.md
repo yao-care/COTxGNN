@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 484
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Omalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: OMALIZUMAB"
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
@@ -51,7 +51,7 @@ Omalizumab es un anticuerpo monoclonal anti-IgE (comercializado como Xolair®), 
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

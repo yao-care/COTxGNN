@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Phenol: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: FENOL"
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -53,7 +53,7 @@ Se trata de una predicción puramente computacional, sin sustento mecanístico i
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

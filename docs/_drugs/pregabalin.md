@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L4). Indicación original: Pregabalina"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -53,7 +53,7 @@ Cabe destacar que la indicación con mayor respaldo entre las predichas es la **
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (0 vigentes, 1 cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

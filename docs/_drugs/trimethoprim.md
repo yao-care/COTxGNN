@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -53,7 +53,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

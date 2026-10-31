@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "dipyridamole"
 predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Dipyridamole: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: No especificada"
 ---
 
@@ -49,7 +49,7 @@ El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tien
 | Puntaje de Prediccion TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | Al menos 2 (la lista puede ser parcial) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Ivermectina"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 ---

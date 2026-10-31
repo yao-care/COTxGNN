@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 456
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Morphine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L4). Indicación original: MORFINA"
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
@@ -51,7 +51,7 @@ La morfina es un analgésico opioide. En Colombia sus registros sanitarios solo 
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

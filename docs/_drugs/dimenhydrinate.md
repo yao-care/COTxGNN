@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Dimenhidrinato"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -51,7 +51,7 @@ con **0 ensayos clínicos** y **1 publicación** (un estudio farmacocinético en
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

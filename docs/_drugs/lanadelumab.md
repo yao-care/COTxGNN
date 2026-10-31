@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 377
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lanadelumab: nueva indicación predicha, Deficiencia de inhibidor de C1 (nivel de evidencia L1). Indicación original: Lanadelumab"
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
@@ -53,7 +53,7 @@ Cabe aclarar que esta predicción coincide con la indicación ya establecida del
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

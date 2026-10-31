@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 94
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -55,7 +55,7 @@ En consecuencia, **no es posible emitir una evaluación de reposicionamiento en 
 | Puntaje de Predicción TxGNN | N/A |
 | Nivel de Evidencia | L5 — Sin estudios reales aplicables |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 0 |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | **Hold** |
 
 ---

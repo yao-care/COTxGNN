@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 592
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Sucralfate: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L2). Indicación original: Sucralfato"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -51,7 +51,7 @@ con **0 ensayos clínicos registrados** y **11 publicaciones** que actualmente r
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

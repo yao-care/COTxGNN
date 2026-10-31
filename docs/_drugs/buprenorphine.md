@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Buprenorphine: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: Buprenorfina"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

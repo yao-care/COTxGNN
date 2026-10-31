@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 537
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Progesterone: nueva indicación predicha, Amenorrea (nivel de evidencia L2). Indicación original: PROGESTERONA"
 monitor_inn: "Progesterone"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, con **4 ens
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

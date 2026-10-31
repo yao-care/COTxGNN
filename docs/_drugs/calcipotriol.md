@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 127
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: Combinaciones de calcipotriol"
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -51,7 +51,7 @@ con **0 ensayos clínicos** y **4 publicaciones** que actualmente respaldan esta
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Ácido fusídico (crema tópica)"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
@@ -53,7 +53,7 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (una ser
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | 7 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 7 |
 | Decisión Recomendada | Hold |
 
 ---

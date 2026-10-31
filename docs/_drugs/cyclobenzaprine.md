@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 183
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
 monitor_inn: "cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -51,7 +51,7 @@ con **10 ensayos clínicos** y **5 publicaciones** que actualmente respaldan est
 | Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

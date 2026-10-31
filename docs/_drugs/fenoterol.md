@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Fenoterol: nueva indicación predicha, Atrofia multisistémica (nivel de evidencia L5). Indicación original: Fenoterol + bromuro de ipratropio"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **atrofia multisistémica*
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

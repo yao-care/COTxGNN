@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: METROTEXATE"
@@ -53,7 +53,7 @@ Entre las demás predicciones, las que cuentan con más soporte son el **rabdomi
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

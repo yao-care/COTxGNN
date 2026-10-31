@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera gástrica**, con
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

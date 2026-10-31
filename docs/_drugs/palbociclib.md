@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (s
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción de TxGNN es hipertiroidismo (0.9944), pero no tiene ensayos ni literatura (nivel L5). Este informe se centra en la artritis reumatoide, que es la predicción con evidencia más relevante. Las demás predicciones se comentan al final.

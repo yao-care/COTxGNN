@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 616
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Terbutalina"
 monitor_inn: "Terbutaline"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 474
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Nystatin: nueva indicación predicha, Vulvovaginitis (nivel de evidencia L4). Indicación original: Combinaciones de imidazol derivados"
 monitor_inn: "Nystatin"
 predicted_indications: ["vulvovaginitis", "disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
@@ -53,7 +53,7 @@ Cabe señalar que el uso de la nistatina en candidiasis vulvovaginal ya está es
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

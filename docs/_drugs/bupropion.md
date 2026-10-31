@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -53,7 +53,7 @@ con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaci
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 (ver nota abajo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** Según las reglas, L1 exige al menos 2 ECA de Fase 3 completados. Solo un ensayo de Fase 3 (NCT00048360) está completado, y el ensayo de Fase 2/3 (NCT00061087) también está completado. Esto corresponde a L2 de forma estricta. El análisis automático de los datos asignó L1; aquí se aplica la regla de forma conservadora, y además hay que confirmar si bupropión fue el agente evaluado en ambos ensayos.

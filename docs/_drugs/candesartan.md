@@ -51,7 +51,7 @@ con **4 ensayos clínicos** (2 de ellos completados con diseño controlado) y **
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

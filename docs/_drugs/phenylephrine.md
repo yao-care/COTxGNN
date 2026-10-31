@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

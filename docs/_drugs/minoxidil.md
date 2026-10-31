@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 448
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L4). Indicación original: Minoxidil"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | 7 (0 vigentes, 7 cancelados) |
+| Número de Registros Sanitarios | al menos 7 |
 | Decisión Recomendada | Hold |
 
 ---

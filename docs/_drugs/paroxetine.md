@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Paroxetine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: PAROXETINA"
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y v
 | Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 2 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

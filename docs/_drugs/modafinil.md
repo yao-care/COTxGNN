@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 452
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Modafinil: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto de indicación solo dice \"MOD…"
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
@@ -53,7 +53,7 @@ La predicción es mecanísticamente poco plausible, porque el fármaco promueve 
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

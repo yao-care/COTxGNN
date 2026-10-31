@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

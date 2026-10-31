@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L5). Indicación original: No especificada en el registro INVIMA (solo figura el nombre del prin…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -53,7 +53,7 @@ La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes)
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

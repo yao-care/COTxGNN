@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 40
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Alprazolam: nueva indicación predicha, Insomnio (nivel de evidencia L4). Indicación original: No detallada"
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -51,7 +51,7 @@ Alprazolam es una benzodiacepina cuyos registros sanitarios en Colombia solo con
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

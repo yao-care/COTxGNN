@@ -53,7 +53,7 @@ Se trata de una predicción del modelo TxGNN (deep learning), cuyo puntaje puede
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

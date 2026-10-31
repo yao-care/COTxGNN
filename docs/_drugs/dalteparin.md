@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

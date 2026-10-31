@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -54,7 +54,7 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de células
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold (la evidencia es retrospectiva; la categoría de la predicción es "pregunta de investigación") |
 
 ---

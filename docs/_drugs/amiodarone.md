@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 49
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: nueva indicación predicha, Catecholaminergic polymorphic ventricular tachycardia (nivel de evidencia L4). Indicación original: AMIODARONA"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular 
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (los 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

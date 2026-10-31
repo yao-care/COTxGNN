@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 160
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L4). Indicación original: Electrolitos combinaciones"
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
@@ -53,7 +53,7 @@ pero **no hay ensayos clínicos registrados** y la literatura disponible (20 pub
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

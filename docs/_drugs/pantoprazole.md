@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L1). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
@@ -53,7 +53,7 @@ Se trata de una indicación dentro de la clase terapéutica ya establecida, por 
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

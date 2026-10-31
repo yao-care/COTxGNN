@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: QUETIAPINA"
@@ -53,7 +53,7 @@ Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofi
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold (con la tricotilomanía como pregunta de investigación) |
 
 ---

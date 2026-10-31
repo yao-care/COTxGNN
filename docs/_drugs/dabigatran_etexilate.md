@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Dabigatran Etexilate: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: Dabigatrán etexilato"
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -51,7 +51,7 @@ Dabigatrán etexilato es un anticoagulante oral inhibidor directo de la trombina
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 3 (los 3 cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

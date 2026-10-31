@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
@@ -53,7 +53,7 @@ Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye un
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 ---

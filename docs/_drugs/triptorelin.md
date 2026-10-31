@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 647
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: nueva indicación predicha, Hypertrichosis (disease) (nivel de evidencia L1). Indicación original: TRIPTORELIN"
@@ -53,7 +53,7 @@ Cabe aclarar que esta es probablemente una indicación ya establecida en muchos 
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L1 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre la selección:** la primera predicción del listado (hipertricosis, puntaje 1.0000) no tiene sustento mecanístico ni ensayos clínicos (nivel L4, decisión Hold). Este informe se centra en la pubertad precoz, que es la predicción con la evidencia más sólida entre las 10 evaluadas.

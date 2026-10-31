@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Ácido valproico"
 monitor_inn: "valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -51,7 +51,7 @@ El ácido valproico es un fármaco antiepiléptico de amplio espectro; en Colomb
 | Puntaje de Prediccion TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decision Recomendada | Hold |
 
 ---

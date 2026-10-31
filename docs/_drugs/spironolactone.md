@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: ESPIRONOLACTONA"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del 
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

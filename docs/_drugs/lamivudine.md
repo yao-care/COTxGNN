@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 4 |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

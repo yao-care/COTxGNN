@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Celecoxib\")"
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 6) |
-| Número de Registros Sanitarios | 7 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 7 |
 | Decisión Recomendada | Hold |
 
 ---

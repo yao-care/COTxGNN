@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Beclomethasone Dipropionate: nueva indicación predicha, Eccema atópico (nivel de evidencia L3). Indicación original: BECLOMETASONA"
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 | Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 ---

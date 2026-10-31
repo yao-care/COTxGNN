@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, con **0
 | Puntaje de Predicción TxGNN | 0.9999 (Hipertricosis); 0.9999 (Ambras) |
 | Nivel de Evidencia | L5 (Hipertricosis); L5 (Ambras) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción por puntaje es la hipertricosis universal congénita tipo Ambras (0.9999), sin ningún ensayo ni publicación. Se presenta como foco la hipertricosis general (0.9999) porque es la única con literatura, aunque sea indirecta. Ambas se detallan abajo.

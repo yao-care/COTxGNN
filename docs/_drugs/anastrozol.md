@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -53,7 +53,7 @@ Se recomienda subsanar las brechas de datos identificadas antes de continuar la 
 | Puntaje de Predicción TxGNN | No aplicable |
 | Nivel de Evidencia | No evaluable (L5 provisional) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 0 |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | **Hold** |
 
 ---

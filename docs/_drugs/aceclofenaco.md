@@ -5,7 +5,7 @@ layout: default
 title: Aceclofenaco
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 17
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,7 +42,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 |------|-----------|
 | Indicación Original | ACECLOFENAC |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 0 |
+| Número de Registros Sanitarios | al menos 2 |
 
 ---
 

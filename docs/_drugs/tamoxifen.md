@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: TAMOXIFENO"
@@ -53,7 +53,7 @@ pero solo hay **1 ensayo clínico** (de relación indirecta) y **10 publicacione
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

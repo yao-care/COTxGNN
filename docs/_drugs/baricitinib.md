@@ -51,7 +51,7 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 | Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

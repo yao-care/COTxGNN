@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 234
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: DOXAZOSINA"
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

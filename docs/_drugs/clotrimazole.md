@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Clotrimazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Clotrimazol"
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta d
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ninguno vigente) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

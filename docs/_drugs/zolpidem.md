@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -53,7 +53,7 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 5 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

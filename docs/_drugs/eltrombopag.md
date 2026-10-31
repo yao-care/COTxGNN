@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 246
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L3). Indicación original: ELTROMBOPAG"
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
@@ -53,7 +53,7 @@ El posible beneficio sería de apoyo (elevar plaquetas en trombocitopenia asocia
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

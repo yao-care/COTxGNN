@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 376
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -53,7 +53,7 @@ La predicción con mayor puntaje, "neoplasia del nervio trigémino", no tiene re
 | Puntaje de Predicción TxGNN | 0.9989 (neuralgia del trigémino); 0.9997 (neoplasia del nervio trigémino) |
 | Nivel de Evidencia | L2 (neuralgia del trigémino) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre la predicción de rango 1:** la "neoplasia del nervio trigémino" obtuvo el puntaje más alto (0.9997), pero parece deberse a la cercanía en la red con la neuralgia del trigémino. No hay ensayos clínicos, y las dos publicaciones recuperadas tratan sobre neuralgia, no sobre tratamiento tumoral. Su nivel de evidencia es L5 y su recomendación es Hold. Por eso este informe se centra en la neuralgia del trigémino, que cuenta con evidencia real.

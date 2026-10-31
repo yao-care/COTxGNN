@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -53,7 +53,7 @@ con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

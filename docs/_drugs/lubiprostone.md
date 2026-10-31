@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Lubiprostone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Lubiprostona"
 monitor_inn: "LUBIPROSTONE"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "pulmonary hypertension", "kyphoscoliotic heart disease", "Raynaud disease", "pulmonary hypertension, primary, autosomal recessive", "phaeochromocytoma", "peripheral vascular disease"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero actualm
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

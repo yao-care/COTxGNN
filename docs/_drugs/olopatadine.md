@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Olopatadina"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -51,7 +51,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 8) |
-| Número de Registros Sanitarios | 8 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 8 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

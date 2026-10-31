@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: LACTULOSA"
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **acute urate nephropathy 
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 > **Nota:** Dado que la primera predicción no tiene respaldo alguno, este informe también resume la candidata con la evidencia más sólida entre las ocho predichas: **ictericia obstructiva** (puntaje TxGNN 0.9953, nivel L3, recomendación "Pregunta de investigación").

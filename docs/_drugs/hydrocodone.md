@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 predicted_indications: ["nasal cavity disease"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

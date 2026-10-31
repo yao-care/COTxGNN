@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero la ev
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (ambos cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (nivel de evidencia L5). Indicación original: Caspofungina"
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **anomalía de la secreci�
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

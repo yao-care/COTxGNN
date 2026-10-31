@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-10-31
 description: "Methylphenidate: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: METILFENIDATO"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -55,7 +55,7 @@ La evidencia es débil: se trata más de una cuestión de clasificación de la e
 | Puntaje de Prediccion TxGNN | 0.9999 (0.99988) para trastorno del desarrollo específico; 1.0000 para la predicción rank 1 |
 | Nivel de Evidencia | L5 (L5 para las predicciones rank 1 y 2) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decision Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 104
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Betamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Betametasona y antibióticos"
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
@@ -53,7 +53,7 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 (con reservas; ver nota abajo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 > **Nota sobre el nivel de evidencia:** el nivel L1 se basa en varios ensayos aleatorizados y un metaanálisis en red. Sin embargo, no se confirma en los datos compilados la existencia de dos ECA de Fase 3 completados, por lo que el nivel debe verificarse antes de la aprobación final. Los ensayos de Fase 2 y Fase 4 usan la betametasona sobre todo como comparador activo o en combinación.

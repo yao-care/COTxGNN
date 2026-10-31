@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: nueva indicación predicha, Brain small vessel disease 1 with or without ocular anomalies (nivel de evidencia L5). Indicación original: VALSARTAN Y SACUBITRIL"
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **nefropatía diabética**
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 **Nota:** Las dos primeras predicciones (enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares, y síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas) tienen puntajes de 0.9958 y 0.9957, pero cuentan solo con la predicción del modelo (nivel L5). Por ello, este informe se centra en la nefropatía diabética, la candidata con mayor respaldo.

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 predicted_indications: []
 ---
 
@@ -51,7 +51,7 @@ AMLODIPINO es un fármaco de la clase de bloqueadores de canales de calcio, reco
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | N/D |
 | Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | 0 |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | **Hold** |
 
 ---

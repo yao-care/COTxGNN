@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Ergocalciferol: nueva indicación predicha, Displasia acromesomélica, tipo Campailla-Martinelli (nivel de evidencia L5). Indicación original: COMBINACIONES"
 ---
 
@@ -51,7 +51,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | Al menos 1 (la lista puede ser parcial) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 433
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ---

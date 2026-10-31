@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: DASATINIB"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, con 
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 según la clasificación de los datos compilados; sin embargo, los ensayos son un ensayo de Fase 2 en sarcomas mixtos y un ensayo de Fase 1/2 terminado con 7 pacientes, por lo que la evidencia específica para Ewing es débil y se interpreta con cautela |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 3 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Hold |
 
 ---

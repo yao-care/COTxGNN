@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
@@ -49,7 +49,7 @@ El registro sanitario colombiano asociado a este candidato corresponde a un prod
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | 1 (cancelado) |
+| Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

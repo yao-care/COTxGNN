@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 328
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 (ver nota) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | 5 (los 5 cancelados) |
+| Número de Registros Sanitarios | al menos 5 |
 | Decisión Recomendada | Hold |
 
 *Nota sobre el nivel de evidencia:* los datos compilados asignan L1, pero según las reglas del informe L1 exige al menos 2 ECAs de Fase 3 completados. Aquí hay un solo ensayo de Fase 3 completado (n=41), por lo que el nivel que corresponde es L2. Además, la hidrocortisona fue el brazo comparador y no el brazo en investigación, lo que debilita aún más el respaldo.

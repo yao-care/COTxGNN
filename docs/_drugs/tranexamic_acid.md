@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-10-31
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Ácido tranexámico\")"
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -52,7 +52,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 (sin ensayos clínicos; solo revisiones narrativas indirectas y razonamiento de mecanismo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | 4 (0 vigentes, 4 cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ---

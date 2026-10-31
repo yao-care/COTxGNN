@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Norfloxacin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Norfloxacina"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -50,7 +50,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | 4 (todos cancelados) |
+| Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

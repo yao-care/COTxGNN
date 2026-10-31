@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-10-31
 description: "Adapalene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Adapaleno"
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
@@ -53,7 +53,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | 2 (0 vigentes, 2 cancelados) |
+| Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
 ---
