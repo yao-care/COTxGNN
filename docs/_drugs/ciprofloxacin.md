@@ -4,17 +4,17 @@ title: Ciprofloxacin
 parent: Solo Predicción del Modelo (L5)
 nav_order: 159
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Ciprofloxacin"
-predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-10-29
+predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
+last_modified_at: 2026-11-03
 description: "Ciprofloxacin: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: CIPROFLOXACINA"
 ---
 
 # Ciprofloxacin
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ciprofloxacino: antibiótico fluoroquinolona (inhibidor de la ADN girasa y la topoisomerasa IV) → esclerodermia difusa (diffuse scleroderma)
+## Ciprofloxacin: esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ciprofloxacino es un antibiótico de la clase de las fluoroquinolonas, utilizado para tratar infecciones bacterianas.
-El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (diffuse scleroderma)**,
-con **0 ensayos clínicos** registrados y **2 publicaciones** que actualmente abordan esta dirección, de las cuales solo una estudia directamente al ciprofloxacino en esclerodermia.
+Ciprofloxacino es un antibiótico de la clase de las fluoroquinolonas, con registros sanitarios vigentes en Colombia en forma de solución inyectable.
+El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (diffuse scleroderma)**, pero actualmente solo hay **2 publicaciones** relacionadas y **ningún ensayo clínico** registrado que respalde esta dirección.
 
 ## Resumen Rápido
 
@@ -48,7 +47,7 @@ con **0 ensayos clínicos** registrados y **2 publicaciones** que actualmente ab
 |------|------|
 | Indicación Original | CIPROFLOXACINA |
 | Nueva Indicación Predicha | esclerodermia difusa (diffuse scleroderma) |
-| Puntaje de Predicción TxGNN | 0,9987 |
+| Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | al menos 4 |
@@ -56,11 +55,11 @@ con **0 ensayos clínicos** registrados y **2 publicaciones** que actualmente ab
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, se sabe que el ciprofloxacino es un antibiótico bactericida que inhibe la ADN girasa y la topoisomerasa IV bacterianas.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ciprofloxacino es una fluoroquinolona con actividad antibacteriana, y mecanísticamente podría ser aplicable a la esclerodermia por dos vías posibles, ambas preliminares.
 
-Una publicación de 2010 evaluó el ciprofloxacino oral como antifibrótico en la piel de pacientes con esclerodermia, mediante un ensayo clínico controlado, doble ciego y aleatorizado. Esto sugiere un posible efecto directo sobre la fibrosis, aunque los datos son preliminares y el resumen disponible no permite conocer los resultados.
+La primera es un posible efecto antifibrótico en la piel, explorado en una publicación de 2010 sobre pacientes con esclerodermia. La segunda es indirecta: el sobrecrecimiento bacteriano del intestino delgado es frecuente en la esclerosis sistémica, y un antibiótico podría ser útil en la afectación gastrointestinal.
 
-Además, un estudio de 1995 describe el sobrecrecimiento bacteriano del intestino delgado en pacientes con esclerosis sistémica, lo que ofrece una justificación indirecta para el uso de antibióticos en la afectación gastrointestinal. El puntaje del modelo es muy alto, pero no está respaldado por evidencia clínica sólida.
+Es importante ser prudente: el puntaje del modelo es muy alto, pero no está respaldado por evidencia clínica sólida. Ninguno de los estudios disponibles es un ensayo de fase 3 ni una evaluación concluyente de la enfermedad en su forma difusa. Por ello, el nivel de evidencia se establece en L5.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,12 +69,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Ensayo clínico controlado, doble ciego, aleatorizado (según el resumen) | The Journal of Dermatology | Evalúa si el ciprofloxacino oral reduce la gravedad de la esclerodermia, con enfoque antifibrótico en la piel |
-| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Estudio diagnóstico/observacional | British Journal of Rheumatology | Detección y tratamiento del sobrecrecimiento bacteriano del intestino delgado en 24 pacientes con esclerosis sistémica |
+| [20507401](https://pubmed.ncbi.nlm.nih.gov/20507401/) | 2010 | Estudio clínico pequeño (ensayo controlado, doble ciego, aleatorizado según el resumen) | The Journal of Dermatology | Evalúa si el ciprofloxacino oral reduce la gravedad de la esclerodermia como agente antifibrótico en la piel; los datos disponibles son preliminares. |
+| [7728404](https://pubmed.ncbi.nlm.nih.gov/7728404/) | 1995 | Estudio diagnóstico/observacional | British Journal of Rheumatology | En 24 pacientes con esclerosis sistémica y síntomas de malabsorción se investigó el sobrecrecimiento bacteriano del intestino delgado y el resultado del tratamiento. |
 
 ## Información de Mercado en Colombia
-
-Existen 4 registros sanitarios de ciprofloxacino de un solo principio activo (la lista puede ser parcial), todos en forma de solución inyectable.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -84,26 +81,27 @@ Existen 4 registros sanitarios de ciprofloxacino de un solo principio activo (la
 | 20083338 | Ciriax | Solución inyectable | No registrada en los datos locales |
 | 20013311 | Ciprofloxacina 200 mg/100 mL | Solución inyectable | No registrada en los datos locales |
 
+La lista puede ser parcial.
+
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo señaladas en los datos compilados** (no provienen del texto del prospecto): síndrome de QT largo (incluida la forma familiar), torsades de pointes, epilepsia, enfermedad renal, deficiencia de potasio, tendinitis y otras afecciones tendinosas (bursitis del Aquiles, espolón calcáneo, periartritis), neuropatía periférica y enfermedades del sistema nervioso periférico, colitis por *Clostridium difficile*, miastenia gravis y enfermedades de la unión neuromuscular.
-- **Interacciones farmacológicas**: se identificaron 100 interacciones; entre las de nivel mayor figuran hidrocortisona, triamcinolona, dexametasona, betametasona y bupropión. Entre las de nivel moderado figuran antidiabéticos (metformina, pioglitazona, acarbosa, alogliptina, albiglutida), famotidina, loperamida, alosetrón, aprepitant y ácido acetilsalicílico.
+- **Interacciones farmacológicas**: se identificaron numerosas interacciones (100 en total). Entre las de nivel mayor figuran los corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona) y el bupropión. Entre las de nivel moderado figuran antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, albiglutida), famotidina, loperamida, alosetrón, aprepitant, ácido acetilsalicílico, balsalazida, bisacodilo, fosfato de calcio y budesonida.
 
-Consultar el prospecto para información de seguridad completa.
+Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Solo existe un ensayo publicado de pequeña escala y sin resultados disponibles que estudie directamente el ciprofloxacino en esclerodermia, y no hay ensayos clínicos registrados. El puntaje alto del modelo no sustituye a la evidencia clínica. El perfil de riesgo de tendinopatía, neuropatía y prolongación del QT es relevante en una población con enfermedad del tejido conectivo.
+Aunque el puntaje del modelo es alto, la evidencia se limita a dos publicaciones preliminares, sin ensayos clínicos registrados, y no hay un estudio concluyente sobre la esclerodermia difusa. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Revisar el texto completo del ensayo de 2010 (diseño, tamaño de muestra, resultados y calidad metodológica)
-- Datos del mecanismo de acción que sustenten un efecto antifibrótico
-- Ensayos clínicos controlados y registrados en esclerodermia difusa
-- Revisión del prospecto aprobado para advertencias y contraindicaciones
-- Evaluación de seguridad específica para pacientes con esclerodermia (tendones, sistema nervioso periférico, interacciones con corticoides)
+- Confirmar los resultados del estudio de 2010 sobre el efecto antifibrótico con un ensayo controlado de mayor tamaño
+- Datos detallados del mecanismo de acción
+- Información de seguridad del prospecto, en especial por los riesgos asociados a la clase en tendones, sistema nervioso periférico y ritmo cardíaco
+- Evaluación de interacciones con corticosteroides, de uso frecuente en esta población
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

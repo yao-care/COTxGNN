@@ -4,17 +4,17 @@ title: Ascorbic Acid
 parent: Solo Predicción del Modelo (L5)
 nav_order: 68
 evidence_level: L5
-indication_count: 10
+indication_count: 9
 monitor_inn: "Ascorbic acid"
-predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected", "vitamin deficiency disorder"]
-last_modified_at: 2026-10-29
-description: "Ascorbic Acid: nueva indicación predicha, malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: ACIDO ASCORBICO (VIT C)"
+predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
+last_modified_at: 2026-11-03
+description: "Ascorbic Acid: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: ACIDO ASCORBICO (VIT C)"
 ---
 
 # Ascorbic Acid
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,34 +33,33 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ácido ascórbico: vitamina hidrosoluble antioxidante → malformación esofágica no sindrómica (non-syndromic esophageal malformation)
+## Ascorbic Acid: Malformación esofágica no sindrómica (non-syndromic esophageal malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El ácido ascórbico (vitamina C) es una vitamina hidrosoluble con función antioxidante y cofactor en la síntesis de colágeno.
-El modelo TxGNN predice que podría ser efectivo para **malformación esofágica no sindrómica (non-syndromic esophageal malformation)**,
-pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
+El ácido ascórbico (vitamina C) es un antioxidante hidrosoluble y cofactor de enzimas implicadas en la síntesis de colágeno.
+El modelo TxGNN predice que podría ser efectivo para la **malformación esofágica no sindrómica (non-syndromic esophageal malformation)**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ACIDO ASCORBICO (VIT C) |
-| Nueva Indicación Predicha | malformación esofágica no sindrómica (non-syndromic esophageal malformation) |
-| Puntaje de Predicción TxGNN | 0,9996 |
+| Nueva Indicación Predicha | Malformación esofágica no sindrómica (non-syndromic esophageal malformation) |
+| Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, el ácido ascórbico participa como cofactor en la síntesis de colágeno y actúa como captador de especies reactivas de oxígeno.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado del ácido ascórbico. De forma general, se conoce como antioxidante y como cofactor en la síntesis de colágeno.
 
-Para la malformación esofágica no sindrómica no se identificó una justificación mecanística plausible. Una malformación estructural congénita no se corrige de manera verosímil con una vitamina antioxidante. El puntaje elevado proviene de una predicción basada en el modelo, sin respaldo clínico ni bibliográfico.
+Para esta predicción concreta no se identificó una justificación mecanística plausible. Una malformación estructural congénita del esófago no se corrige de forma verosímil con una vitamina antioxidante. El puntaje alto refleja una asociación calculada por el modelo, sin respaldo de estudios clínicos ni de literatura.
 
-Por ello, esta predicción debe considerarse una hipótesis sin sustento actual y no una oportunidad de reposicionamiento con fundamento.
+Por ello, esta predicción debe tratarse como una hipótesis sin fundamento clínico actual y no como una oportunidad de reposicionamiento sustentada.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -72,7 +71,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los datos compilados indican estado de mercado "Comercializado" y registros sanitarios de ácido ascórbico en tabletas masticables de uso oral. El detalle de vigencia por registro presenta inconsistencias en los datos, por lo que no se afirma el estado individual de cada uno. La lista de registros puede ser parcial.
+Según los registros locales, el estado de mercado es comercializado, con una licencia vigente. La lista puede ser parcial.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
@@ -81,22 +80,23 @@ Los datos compilados indican estado de mercado "Comercializado" y registros sani
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 25 interacciones en total; entre las de nivel moderado figuran anfetamina, dextroanfetamina, lisdexanfetamina, metanfetamina, benzfetamina, hidróxido de aluminio, bortezomib y deferoxamina. Otras, de nivel menor, incluyen paclitaxel, cisplatino, doxorrubicina, etinilestradiol, pseudoefedrina, efedrina, flecainida, flufenazina, indinavir y mexiletina.
-- **Señal de seguridad en literatura asociada a otras predicciones**: se ha descrito nefropatía por oxalato con infusión continua de dosis altas de vitamina C.
-
-Para advertencias y contraindicaciones, consultar el prospecto.
+- **Interacciones Farmacológicas** (25 interacciones registradas; se muestran ejemplos):
+  - Moderadas: anfetamina, dextroanfetamina, lisdexanfetamina, metanfetamina, benzfetamina, hidróxido de aluminio, bortezomib y deferoxamina.
+  - Menores: paclitaxel, cisplatino, doxorrubicina, etinilestradiol, pseudoefedrina, efedrina, flecainida, flufenazina, indinavir y mexiletina.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal no cuenta con ensayos clínicos ni literatura, y no existe un mecanismo plausible para corregir una malformación congénita estructural con ácido ascórbico. El nivel de evidencia es L5.
+La predicción tiene un puntaje alto (0,9996), pero no cuenta con ensayos clínicos ni literatura, y no existe un mecanismo plausible que explique un efecto sobre una malformación estructural congénita. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Evidencia preclínica o clínica que estudie directamente la malformación esofágica no sindrómica
-- Una hipótesis mecanística plausible y verificable
-- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de los registros sanitarios locales
+- Una hipótesis mecanística plausible que vincule el ácido ascórbico con esta malformación.
+- Estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
+- Datos de seguridad del prospecto (advertencias y contraindicaciones) obtenidos de INVIMA.
+- Datos detallados del mecanismo de acción.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

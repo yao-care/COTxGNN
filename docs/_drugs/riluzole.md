@@ -4,17 +4,17 @@ title: Riluzole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 562
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-28
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "riluzole"
-predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance", "amyotrohpic lateral sclerosis type 22"]
-description: "Riluzole: nueva indicación predicha, Bilateral parasagittal parieto-occipital polymicrogyria (nivel de evidencia L5). Indicación original: RILUZOL"
+predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
+description: "Riluzole: nueva indicación predicha, Polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria) (nivel de evidencia L5)."
 ---
 
 # Riluzole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,76 +33,42 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Riluzole: Bilateral parasagittal parieto-occipital polymicrogyria
+## Riluzole: Polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Riluzol es un fármaco con registros sanitarios en Colombia, cuyo texto de indicación aprobada figura solo como "RILUZOL". Se conoce por su uso en la esclerosis lateral amiotrófica (ELA).
-El modelo TxGNN predice que podría ser efectivo para **polimicrogiria parieto-occipital parasagital bilateral**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
-
----
+Riluzol es un fármaco modulador de la transmisión glutamatérgica que cuenta con registros sanitarios vigentes en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | RILUZOL |
-| Nueva Indicación Predicha | Bilateral parasagittal parieto-occipital polymicrogyria |
+| Nueva Indicación Predicha | Polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
 | Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el riluzol modula la transmisión glutamatérgica y reduce la excitotoxicidad, y se utiliza como neuroprotector en la ELA.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, riluzol modula la transmisión glutamatérgica y reduce la excitotoxicidad.
 
-Para esta predicción concreta, el vínculo mecanístico es débil. La polimicrogiria es una malformación del desarrollo cortical, de carácter estructural, y es poco probable que responda a un agente neuroprotector sintomático. El puntaje de 0.9999 proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
+Sin embargo, la polimicrogiria es un trastorno estructural del desarrollo cortical, y no se ha demostrado un vínculo mecanístico con la acción neuroprotectora sintomática del fármaco. El puntaje alto probablemente refleja cercanía en la red de relaciones del modelo y no una base biológica sólida.
 
-Por tanto, la predicción no cuenta con respaldo mecanístico ni clínico. Debe tratarse como una señal del modelo que requiere validación independiente antes de cualquier inversión adicional.
-
-### Otras predicciones del modelo
-
-Entre las 10 principales predicciones, las más coherentes biológicamente son las relacionadas con enfermedad de motoneurona, por su cercanía con la ELA:
-
-| Enfermedad predicha | Puntaje TxGNN | Evidencia | Recomendación |
-|------|------|------|------|
-| ELA, susceptibilidad a | 0.9998 | L5 (solo revisiones y estudios mecanísticos; reetiquetado de la indicación original) | Pregunta de investigación |
-| Síndrome de motoneurona inferior de inicio tardío en adultos | 0.9999 | L5 | Pregunta de investigación |
-| Amiotrofia monomélica | 0.9999 | L5 | Pregunta de investigación |
-| Síndrome de Mills | 0.9998 | L5 | Pregunta de investigación |
-| ELA tipo 22 | 0.9998 | L5 | Pregunta de investigación |
-
-El resto (displasia espondilometafisaria axial, síndrome de tricomegalia-degeneración pigmentaria de la retina-enanismo, síndrome letal de artrogriposis-enfermedad de células del asta anterior, miopatía mitocondrial autosómica dominante) no muestra un vínculo mecanístico claro y se recomienda mantenerlos en espera (Hold).
-
----
+Por ello, esta predicción debe tratarse con cautela: es una hipótesis del modelo sin respaldo clínico o bibliográfico.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para la polimicrogiria parieto-occipital parasagital bilateral.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible para la indicación principal predicha.
-
-Como referencia, para la predicción de ELA (puesto 8) se compilaron publicaciones, sobre todo revisiones y estudios mecanísticos:
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [9178165](https://pubmed.ncbi.nlm.nih.gov/9178165/) | 1997 | Revisión | Journal of Neurology | Hipótesis del glutamato y excitotoxicidad en la ELA, base del mecanismo del riluzol |
-| [21128691](https://pubmed.ncbi.nlm.nih.gov/21128691/) | 2011 | Revisión | CNS Drugs | Fisiopatología, diagnóstico y manejo de la ELA; el riluzol es el único fármaco que prolonga modestamente la supervivencia |
-| [16723044](https://pubmed.ncbi.nlm.nih.gov/16723044/) | 2006 | Revisión | Expert Reviews in Molecular Medicine | Mecanismos propuestos en la ELA: estrés oxidativo, excitotoxicidad, disfunción mitocondrial |
-| [22763933](https://pubmed.ncbi.nlm.nih.gov/22763933/) | 2012 | Revisión | Praxis | Diagnóstico y tratamiento de la ELA |
-| [42161327](https://pubmed.ncbi.nlm.nih.gov/42161327/) | 2026 | Cohorte | Brain | Variantes de CYP2D6 en ELA y su asociación con riesgo y supervivencia; el beneficio del riluzol varía entre pacientes |
-| [8061281](https://pubmed.ncbi.nlm.nih.gov/8061281/) | 1994 | Preclínico | Neuroreport | Efecto neuroprotector del riluzol frente a la toxicidad del LCR de pacientes con ELA |
-
----
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
@@ -114,33 +80,26 @@ Como referencia, para la predicción de ELA (puesto 8) se compilaron publicacion
 | 206956 | RILUTEK® TABLETAS X 50MG (Sanofi-Aventis) | Tableta recubierta | RILUZOL (vigente) |
 | 20204277 | TEGLUTIK® SUSPENSIÓN ORAL 5 MG/ML (Italfarmaco) | Suspensión oral | RILUZOL (vigente) |
 
-Los 5 registros de licencia están vigentes; el medicamento se comercializa actualmente.
-
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones y condiciones de riesgo según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no texto del prospecto): neutropenia, agranulocitosis, abuso o dependencia de sustancias, hiperbilirrubinemia (incluida la hereditaria), síndrome de Gilbert, enfermedad pulmonar intersticial y lesión hepática inducida por fármacos.
-- **Interacciones farmacológicas**: se identificaron 44 interacciones. Entre las de nivel moderado figuran: ácido obeticólico, naltrexona, deferasirox, osilodrostat, anagrelida, asparaginasa de *E. coli*, brentuximab vedotina, clofarabina, metotrexato y epirrubicina. Entre las de nivel menor: omeprazol, cafeína, teofilina y aminofilina.
-- **Función hepática**: una publicación compilada (PMID 32040174) señala que alrededor del 50 % de los pacientes con ELA que toman riluzol oral presentan ALT por encima del límite superior normal, 8 % por encima de 3× y 2 % por encima de 5×. Se recomienda vigilancia hepática.
+- **Interacciones Farmacológicas**: se identificaron 44 interacciones en total. Entre las de nivel moderado figuran obeticólico ácido, naltrexona, deferasirox, osilodrostat, anagrelida, asparaginasa, brentuximab vedotina, clofarabina, metotrexato y epirrubicina. Entre las de nivel menor: omeprazol, cafeína, teofilina y aminofilina.
+- Condiciones que requieren precaución según las relaciones de contraindicación registradas en los datos compilados: neutropenia, agranulocitosis, abuso o dependencia de sustancias, hiperbilirrubinemia (incluida la hereditaria y el síndrome de Gilbert), enfermedad pulmonar intersticial y daño hepático inducido por fármacos. Estas no provienen del texto del prospecto.
 
-Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
-
----
+Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (polimicrogiria parieto-occipital parasagital bilateral) carece de ensayos clínicos y de literatura, y no tiene un vínculo mecanístico plausible; el puntaje alto probablemente es un artefacto del modelo. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción se basa únicamente en el modelo, sin ensayos ni publicaciones, y no hay un vínculo mecanístico plausible entre el fármaco y un trastorno estructural del desarrollo cortical.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción (MOA) del riluzol desde DrugBank.
-- Información de advertencias y contraindicaciones del prospecto en INVIMA, requisito para el tamizaje de seguridad.
-- Priorizar la evaluación de las predicciones en enfermedades de motoneurona (síndrome de motoneurona inferior de inicio tardío, amiotrofia monomélica, síndrome de Mills, ELA tipo 22) mediante revisión sistemática y búsqueda de estudios específicos.
-- Aclarar la situación regulatoria: confirmar por qué los cinco registros están cancelados y si hay interés en una nueva solicitud.
-- Plan de monitoreo hepático y hematológico para cualquier estudio futuro.
+- Datos del mecanismo de acción y su relación con la fisiopatología de la polimicrogiria
+- Estudios preclínicos que respalden la hipótesis
+- Revisión del prospecto de INVIMA para advertencias y contraindicaciones
+- Evaluación de la relevancia de una población pediátrica y de la vía de administración
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

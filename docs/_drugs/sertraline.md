@@ -4,17 +4,17 @@ title: Sertraline
 parent: Solo Predicción del Modelo (L5)
 nav_order: 585
 evidence_level: L5
-indication_count: 8
-last_modified_at: 2026-10-31
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Sertraline"
-predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "dependent personality disorder", "narcissistic personality disorder"]
-description: "Sertraline: nueva indicación predicha, Schizotypal personality disorder (nivel de evidencia L5). Indicación original: SERTRALINA"
+predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
+description: "Sertraline: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L5). Indicación original: SERTRALINA"
 ---
 
 # Sertraline
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,84 +33,73 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Sertraline: Schizotypal personality disorder
+## Sertraline: Trastorno esquizotípico de la personalidad (schizotypal personality disorder)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Sertralina es un inhibidor selectivo de la recaptación de serotonina (ISRS), registrado en Colombia bajo el texto de indicación "SERTRALINA". El modelo TxGNN predice que podría ser efectivo para el **trastorno esquizotípico de la personalidad**, pero solo existe **1 ensayo clínico** (8 participantes, sin fase definida) y **1 publicación** no relacionada que respaldan esta dirección, por lo que la evidencia es muy débil.
-
----
+Sertralina es un antidepresivo de la clase ISRS que actúa sobre el transportador de serotonina (SERT).
+El modelo TxGNN predice que podría ser efectiva para el **trastorno esquizotípico de la personalidad (schizotypal personality disorder)**,
+con **1 ensayo clínico** pequeño (8 participantes) y **ninguna publicación** que estudie directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | SERTRALINA |
-| Nueva Indicación Predicha | Schizotypal personality disorder |
+| Nueva Indicación Predicha | Trastorno esquizotípico de la personalidad (schizotypal personality disorder) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sertralina es un ISRS que bloquea el transportador de serotonina (SERT, gen SLC6A4). Se usa en depresión mayor, trastorno de estrés postraumático, trastorno obsesivo-compulsivo, trastorno de pánico, trastorno disfórico premenstrual y fobia social.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sertralina inhibe el transportador de serotonina (SERT, gen SLC6A4), lo que aumenta la disponibilidad de serotonina en la sinapsis.
 
-La relación con el trastorno esquizotípico es indirecta. La modulación serotoninérgica podría influir en síntomas positivos y negativos atenuados, y en rasgos afectivos u obsesivos asociados. Sin embargo, el único ensayo disponible fue muy pequeño y la publicación recuperada trata sobre otra condición (TOC y anorexia nerviosa). El puntaje alto del modelo no está respaldado por datos clínicos.
+La hipótesis es que esta modulación serotoninérgica podría influir en síntomas positivos y negativos atenuados, así como en rasgos afectivos u obsesivos asociados. Es un vínculo indirecto y especulativo.
 
-Cabe señalar que, entre las indicaciones predichas, la **agorafobia** (puntaje 0.9954) tiene una evidencia mucho más sólida (nivel L1, con ensayos aleatorizados y metaanálisis en trastorno de pánico con o sin agorafobia). Se trata más de una confirmación de un uso ya establecido que de un reposicionamiento novedoso.
-
----
+El puntaje del modelo es muy alto, pero no está respaldado por datos clínicos. El único ensayo disponible es muy pequeño y no define claramente una población con trastorno esquizotípico de la personalidad.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00169988](https://clinicaltrials.gov/study/NCT00169988) | No definida | Completado | 8 | Sertralina sola frente a sertralina más risperidona en síntomas positivos y negativos atenuados en adolescentes (población de pródromo del espectro esquizofrénico). Muestra muy pequeña; no permite concluir eficacia. |
-
----
+| [NCT00169988](https://clinicaltrials.gov/study/NCT00169988) | No aplica | Completado | 8 | Sertralina sola frente a sertralina más risperidona en adolescentes con síntomas positivos y negativos atenuados (población de pródromo del espectro esquizofrénico). Muestra muy pequeña; no permite conclusiones de eficacia. |
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [37082034](https://pubmed.ncbi.nlm.nih.gov/37082034/) | 2021 | Reporte de caso | Postepy Psychiatrii Neurologii | Comorbilidad de TOC y anorexia nerviosa en una niña de 14 años; no es relevante para el trastorno esquizotípico. |
-
----
+Actualmente no hay literatura relacionada disponible para el trastorno esquizotípico de la personalidad. El único artículo recuperado es un reporte de caso sobre trastorno obsesivo-compulsivo y anorexia nerviosa (PMID 37082034), que no aborda esta enfermedad.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20224090 (cancelado) | IRRADIAX® 50MG | Tableta recubierta | SERTRALINA |
+| 20224090 | IRRADIAX® 50MG | Tableta recubierta | SERTRALINA |
 
----
+La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no provienen del prospecto)**: epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación sanguínea, síndrome neuroléptico maligno, síndrome de secreción inapropiada de ADH, síndrome nefrogénico de antidiuresis inapropiada y síndrome serotoninérgico.
-- **Interacciones farmacológicas**: solo se registró la interacción farmacológica con el transportador SERT (su objetivo terapéutico); no hay datos de interacciones con otros fármacos. Con ISRS se debe evitar la combinación con otros agentes serotoninérgicos por el riesgo de síndrome serotoninérgico.
+- **Enfermedades con contraindicación o precaución registrada en bases de datos de relaciones fármaco-enfermedad**: epilepsia, trastorno bipolar, trastorno afectivo mayor, enfermedad hepática, enfermedad de la vesícula biliar, trastornos de la coagulación, síndrome neuroléptico maligno, síndrome de secreción inadecuada de ADH, síndrome nefrogénico de antidiuresis inadecuada y síndrome serotoninérgico. Esta información no proviene del texto del prospecto.
+- **Interacciones farmacológicas**: solo se registró la interacción farmacológica con el propio blanco SERT (SLC6A4); no hay interacciones medicamentosas clínicas con nivel de gravedad.
 
-Consultar el prospecto para el resto de la información de seguridad (advertencias y contraindicaciones oficiales).
-
----
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el trastorno esquizotípico se apoya solo en el puntaje del modelo, con un único ensayo muy pequeño (n=8) y sin literatura relevante. Además, el único registro sanitario en Colombia está cancelado.
+No existe ningún ensayo ni publicación que estudie directamente el trastorno esquizotípico de la personalidad; el único ensayo es muy pequeño y de población indirecta. El puntaje alto del modelo no sustituye la evidencia clínica, por lo que el nivel es L5.
 
 **Para avanzar se necesita:**
-- Ensayos controlados específicos en trastorno esquizotípico de la personalidad con tamaño de muestra adecuado.
-- Datos detallados del mecanismo de acción (consulta a DrugBank).
-- Descarga y análisis del prospecto de INVIMA para advertencias y contraindicaciones.
-- Considerar priorizar la agorafobia/trastorno de pánico, que tiene evidencia nivel L1 y podría avanzar como "Proceed with Guardrails" tras confirmar el uso en el contexto local.
+- Estudios clínicos controlados en pacientes con diagnóstico confirmado de trastorno esquizotípico de la personalidad
+- Datos del mecanismo de acción y su relación con esta condición
+- Texto de advertencias y contraindicaciones del prospecto aprobado por INVIMA
+- Evaluación de seguridad en poblaciones adolescentes y con riesgo de trastorno bipolar
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
