@@ -38,7 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Dexametasona es un glucocorticoide sintético que en Colombia se registró en combinaciones con antiinfecciosos (por ejemplo, con ciprofloxacina) en soluciones oftálmicas y óticas.
+Dexametasona es un corticosteroide sintético que actúa sobre el receptor de glucocorticoides y se comercializa en Colombia en productos oftálmicos y óticos combinados con antiinfecciosos.
+El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa (alopecia mucinosa)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
@@ -50,15 +51,15 @@ Dexametasona es un glucocorticoide sintético que en Colombia se registró en co
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | al menos 3 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la dexametasona actúa como agonista del receptor de glucocorticoides (NR3C1), y también interactúa con el receptor de mineralocorticoides (NR3C2) y con el receptor X de pregnano. Es un antiinflamatorio e inmunosupresor potente.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la dexametasona se une al receptor de glucocorticoides (NR3C1) y también interactúa con el receptor de mineralocorticoides y el receptor X de pregnano (en ratón). Es un antiinflamatorio e inmunosupresor de amplio uso en condiciones inflamatorias.
 
-La alopecia areata es una enfermedad autoinmune en la que se pierde el privilegio inmune del folículo piloso y se genera inflamación mediada por linfocitos T CD8+. La indicación original (combinaciones con antiinfecciosos en gotas oculares y óticas) aprovecha el efecto antiinflamatorio local de la dexametasona; la nueva indicación aprovecha ese mismo efecto antiinflamatorio, pero por vía sistémica.
+La mucinosis folicular (alopecia mucinosa) cursa con infiltrados inflamatorios alrededor de los folículos pilosos, por lo que un efecto antiinflamatorio corticoide es plausible. Sin embargo, esta relación es solo una hipótesis: no hay ensayos ni literatura en los datos compilados, y el puntaje alto del modelo es únicamente una predicción computacional.
 
-Esto es coherente con la práctica clínica descrita en la literatura: los minipulsos orales de dexametasona (por ejemplo, 5 mg dos días consecutivos por semana) se usan como estrategia sistémica en alopecia areata moderada a grave. Es importante señalar que los productos registrados en Colombia son de uso oftálmico y ótico, por lo que la vía de administración requerida para esta nueva indicación (oral o intravenosa) no está cubierta por los registros existentes.
+Además, la ruta de administración requerida para esta indicación aún no está evaluada frente a las formas farmacéuticas disponibles en Colombia (oftálmicas y óticas), por lo que la compatibilidad de vía queda pendiente.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -66,20 +67,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [36086930](https://pubmed.ncbi.nlm.nih.gov/36086930/) | 2022 | ECA | Dermatologic Therapy | Estudio abierto en 30 niños con alopecia areata grave: minipulso oral de dexametasona en dosis bajas frente a sensibilización de contacto con DPCP, comparando eficacia y seguridad |
-| [39042154](https://pubmed.ncbi.nlm.nih.gov/39042154/) | 2024 | Revisión sistemática y metaanálisis en red | Arch Dermatol Res | Compara esteroides sistémicos, inhibidores de JAK orales e inmunoterapia de contacto en alopecia areata grave |
-| [36461625](https://pubmed.ncbi.nlm.nih.gov/36461625/) | 2023 | Revisión | Pediatric Dermatology | Dosis y regímenes de corticoides en pulsos en niños con alopecia areata, y efectos adversos asociados |
-| [35330017](https://pubmed.ncbi.nlm.nih.gov/35330017/) | 2022 | Cohorte prospectiva | J Clin Med | Evidencia en práctica real de los minipulsos de dexametasona y factores asociados a la respuesta |
-| [36070222](https://pubmed.ncbi.nlm.nih.gov/36070222/) | 2022 | Estudio clínico multicéntrico | Dermatologic Therapy | Minipulsos orales de dexametasona en alopecia areata moderada a grave |
-| [10535249](https://pubmed.ncbi.nlm.nih.gov/10535249/) | 1999 | Estudio clínico | J Dermatol | Pulso oral de 5 mg dos veces por semana en 30 pacientes con alopecia areata extensa |
-| [41872082](https://pubmed.ncbi.nlm.nih.gov/41872082/) | 2026 | Estudio clínico retrospectivo | Eur J Dermatol | Rescate con dexametasona en pulsos combinado con baricitinib y corticoides tópicos en alopecia areata grave |
-| [41243342](https://pubmed.ncbi.nlm.nih.gov/41243342/) | 2025 | Reporte de caso con revisión | J Dermatol Treat | Remisión duradera con minipulso oral de dexametasona cuando los inhibidores de JAK no son una opción |
-| [31579982](https://pubmed.ncbi.nlm.nih.gov/31579982/) | 2019 | Estudio prospectivo | Dermatologic Therapy | Pulsos intravenosos de dexametasona de 1 día frente a 3 días, más clobetasol tópico, en 73 niños con alopecia areata grave |
-| [26179196](https://pubmed.ncbi.nlm.nih.gov/26179196/) | 2015 | Estudio de seguimiento a largo plazo | Dermatologic Therapy | Pulso oral combinado con corticoide tópico en 65 niños y adolescentes con alopecia areata grave |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
+
+El estado de mercado es comercializado, con 3 registros sanitarios vigentes en los datos compilados (la lista puede ser parcial).
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -89,24 +81,23 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones sugeridas por el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): hipertensión, insuficiencia cardíaca congestiva, hiperglucemia, epilepsia, queratitis por herpes simple, sarampión, trastornos del ciclo de la urea (deficiencia de carbamoil fosfato sintetasa I, hiperargininemia, citrulinemia), y diversas deficiencias hipofisarias e hipogonadismo hipogonadotrópico (incluido el síndrome de Kallmann y el síndrome de Sheehan).
-- **Interacciones farmacológicas**: las consultas identificaron interacciones a nivel de dianas farmacológicas (receptor de glucocorticoides, receptor de mineralocorticoides y receptor X de pregnano), no interacciones clínicas con otros medicamentos.
-- Las advertencias y contraindicaciones de los prospectos de INVIMA no están disponibles; consultar el prospecto para esa información.
-- En pulsos sistémicos, la literatura señala la necesidad de vigilar efectos adversos propios de los corticoides, especialmente en población pediátrica.
+- **Contraindicaciones señaladas en relaciones farmacológicas del modelo (no provienen del prospecto)**: hipertensión, epilepsia, hiperglucemia, insuficiencia cardíaca congestiva, queratitis por herpes simple, sarampión, deficiencias hipofisarias (incluido el síndrome de Sheehan) y algunos trastornos del ciclo de la urea (citrulinemia, hiperargininemia). Deben confirmarse con el prospecto.
+- **Interacciones farmacológicas**: los datos registran interacción farmacológica con el receptor de glucocorticoides, el receptor de mineralocorticoides y el receptor X de pregnano (en ratón); no hay interacciones con otros medicamentos clasificadas por nivel.
+- Para esta indicación, el uso sistémico implicaría riesgo de inmunosupresión; debe consultarse el prospecto para la información completa de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Sin embargo, no hay ensayos registrados, los estudios son pequeños y heterogéneos, y los registros colombianos están cancelados y son de vías no sistémicas.
+La predicción tiene un puntaje alto (0,9999), pero no existe ningún ensayo clínico ni publicación que estudie directamente la alopecia mucinosa con dexametasona. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener los prospectos de INVIMA para completar advertencias y contraindicaciones, y confirmar el mecanismo de acción en DrugBank.
-- Verificar la disponibilidad de una presentación sistémica (oral o intravenosa) de dexametasona con registro vigente en Colombia, dado que los tres registros actuales están cancelados y son oftálmicos u óticos.
-- Definir un régimen de dosificación y un plan de monitoreo de seguridad (presión arterial, glucemia, infecciones, supresión del eje hipotálamo-hipofisario), con especial atención a niños.
-- Comparar con alternativas como los inhibidores de JAK según acceso y costo.
-- No avanzar con las demás indicaciones predichas (por ejemplo, mucinosis folicular, efluvio telógeno y foliculitis decalvante), que solo cuentan con predicción computacional sin evidencia clínica y quedan en **Hold**.
+- Revisión sistemática de la literatura sobre corticosteroides en mucinosis folicular
+- Datos de mecanismo de acción y advertencias/contraindicaciones del prospecto de INVIMA
+- Evaluación de la ruta de administración (tópica, intralesional o sistémica) frente a las formas farmacéuticas disponibles
+- Si se avanza, estudios de casos o ensayo piloto con plan de monitoreo de seguridad
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

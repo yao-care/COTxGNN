@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
-description: "Amiodarone: nueva indicación predicha, Catecholaminergic polymorphic ventricular tachycardia (nivel de evidencia L4). Indicación original: AMIODARONA"
+description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) (nivel de evidencia L4)."
 ---
 
 # Amiodarone
@@ -33,63 +33,51 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **9**
 
 </div>
 
-## Amiodarone: Catecholaminergic polymorphic ventricular tachycardia
+## Amiodarone: Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Amiodarona es un antiarrítmico multicanal registrado en Colombia (Cordarone®, entre otros) cuya indicación aprobada figura en los registros únicamente como "AMIODARONA", sin detalle clínico adicional.
-El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular polimórfica catecolaminérgica (CPVT)**, pero **no hay ensayos clínicos** y solo hay **9 publicaciones** (casos clínicos, series pequeñas y revisiones generales) que no respaldan específicamente el uso de amiodarona.
-
----
+Amiodarona es un antiarrítmico bloqueador de varios canales iónicos, con registros sanitarios vigentes en Colombia.
+El modelo TxGNN predice que podría ser útil en **Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia)**.
+Esta dirección cuenta con **0 ensayos clínicos** y **9 publicaciones** (estudios de cohorte, una revisión sistemática, revisiones generales y reportes de caso). Ninguna de ellas aporta datos controlados sobre amiodarona en esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | AMIODARONA |
-| Nueva Indicación Predicha | Catecholaminergic polymorphic ventricular tachycardia |
+| Nueva Indicación Predicha | Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, amiodarona es un bloqueador multicanal (potasio, sodio, calcio) con antagonismo beta-adrenérgico. En teoría, esto podría suprimir arritmias ventriculares desencadenadas por estímulo adrenérgico, que es el desencadenante característico de la CPVT.
+No se dispone de datos detallados del mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, la amiodarona bloquea canales de potasio, sodio y calcio y tiene efecto antagonista beta-adrenérgico. En principio, esto podría suprimir arritmias desencadenadas por estimulación adrenérgica, que es lo que caracteriza a esta enfermedad.
 
-Sin embargo, la CPVT se origina por una fuga de calcio mediada por mutaciones en RYR2 o CASQ2. El tratamiento de primera línea son los betabloqueadores junto con flecainida. La literatura recuperada consiste en casos clínicos, series pequeñas y revisiones generales, sin datos controlados que respalden específicamente a la amiodarona. El vínculo mecanístico es, por tanto, plausible pero débil.
+Sin embargo, la taquicardia ventricular polimórfica catecolaminérgica es una canalopatía hereditaria rara. Su origen es una fuga de calcio mediada por mutaciones en RYR2 o CASQ2. El tratamiento de primera línea son los betabloqueadores junto con flecainida. La literatura recuperada consiste en estudios de cohorte, una revisión sistemática, revisiones generales y reportes de caso. Ninguno ofrece datos controlados que respalden específicamente a la amiodarona.
 
-**Otras indicaciones predichas (para contexto):** el modelo también generó otras predicciones con mayor respaldo o con evidencia nula:
-- **Taquicardia ventricular incesante infantil** (0.9965, nivel L2): existe un ensayo aleatorizado doble ciego de amiodarona intravenosa en taquiarritmias incesantes pediátricas (PMID 16316969), aunque con población mixta.
-- Artritis reumatoide, gota, tricotilomanía y otras (nivel L5): sin respaldo y sin vínculo mecanístico plausible.
-
----
+Por ello, el puntaje del modelo es alto (0,9978), pero la plausibilidad mecanística es solo parcial y la evidencia clínica directa es insuficiente.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para CPVT.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática | Life (Basel) | Características clínicas, hallazgos genéticos y desenlaces arrítmicos de pacientes con CPVT en China |
-| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte retrospectiva | Rev Cardiovasc Med | Características clínicas, base genética y costos sanitarios de la CPVT en una ciudad china |
-| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opin Pharmacother | Avances en el tratamiento farmacológico de arritmias ventriculares |
-| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Caso clínico | PACE | Flecainida suprime las tormentas inducidas por desfibrilador en CPVT (no es amiodarona) |
-| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Caso clínico | Turk Pediatri Arsivi | Paro cardíaco súbito en un niño de 2 años con CPVT |
-| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Caso clínico | Medicine | Diagnóstico tardío de CPVT con mutación RYR2 en un niño de 9 años |
-| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Caso clínico | Front Cardiovasc Med | Resolución de CPVT con denervación simpática cardíaca derecha en un adolescente |
-| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Caso clínico | BMJ Case Reports | Supervivencia de un niño con paro cardíaco extrahospitalario y dilema diagnóstico |
-| [22218697](https://pubmed.ncbi.nlm.nih.gov/22218697/) | 2012 | Caso clínico | Anesth Analg | Neonato con síndrome de QT largo y arritmias refractarias tratado con lidocaína, esmolol y amiodarona |
-
----
+| [35892906](https://pubmed.ncbi.nlm.nih.gov/35892906/) | 2022 | Revisión sistemática | Life (Basel) | Características clínicas, hallazgos genéticos y desenlaces arrítmicos de pacientes de China con esta enfermedad, comparados con los de países occidentales |
+| [39076628](https://pubmed.ncbi.nlm.nih.gov/39076628/) | 2022 | Cohorte retrospectiva | Reviews in Cardiovascular Medicine | Características clínicas, base genética, uso de recursos sanitarios y costos en pacientes de una ciudad china |
+| [26513538](https://pubmed.ncbi.nlm.nih.gov/26513538/) | 2015 | Revisión | Expert Opinion on Pharmacotherapy | Los antiarrítmicos siguen siendo importantes para la conversión aguda y la prevención crónica de arritmias ventriculares |
+| [30116135](https://pubmed.ncbi.nlm.nih.gov/30116135/) | 2018 | Reporte de caso | Turk Pediatri Arsivi | Paro cardíaco súbito en un niño de dos años con esta enfermedad |
+| [22553997](https://pubmed.ncbi.nlm.nih.gov/22553997/) | 2012 | Reporte de caso | Pacing and Clinical Electrophysiology | La flecainida suprimió las tormentas arrítmicas inducidas por el desfibrilador en un adolescente con mutación de calsecuestrina-2 |
+| [29668588](https://pubmed.ncbi.nlm.nih.gov/29668588/) | 2018 | Reporte de caso | Medicine | Diagnóstico retrasado durante 6 años en un niño de 9 años con mutación de RYR2 |
+| [39735866](https://pubmed.ncbi.nlm.nih.gov/39735866/) | 2024 | Reporte de caso | Frontiers in Cardiovascular Medicine | Resolución de la enfermedad mediante denervación simpática cardíaca derecha en un adolescente tras una denervación izquierda previa |
+| [37852665](https://pubmed.ncbi.nlm.nih.gov/37852665/) | 2023 | Reporte de caso | BMJ Case Reports | Supervivencia de un niño pequeño con paro cardíaco extrahospitalario y arritmias recurrentes, con necesidad de apartarse de las guías estándar de reanimación |
 
 ## Información de Mercado en Colombia
 
@@ -100,33 +88,26 @@ Actualmente no hay ensayos clínicos relacionados registrados para CPVT.
 | 52271 | CORDARONE INYECTABLE | Solución inyectable | AMIODARONA | Vigente |
 | 19992832 | AMIODARONA CLORHIDRATO 150 MG/3ML | Solución inyectable | AMIODARONA | Vigente |
 
-Los cuatro registros están cancelados; no hay registros vigentes en los datos compilados.
-
----
+Los cuatro registros están vigentes y corresponden a productos de un solo principio activo. Hay presentaciones orales (tableta) e inyectables.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según el grafo de conocimiento TxGNN, no según el prospecto):** síndrome de QT largo (incluido el familiar), torsades de pointes, bloqueo auriculoventricular, síndrome del seno enfermo, enfermedad hepática y daño hepático inducido por fármacos, hipotiroidismo e hipertiroidismo (incluidos enfermedad de Graves y tirotoxicosis), enfermedad pulmonar intersticial, neumonía eosinofílica, neumonitis por hipersensibilidad, neuritis óptica y enfermedades del nervio óptico, neuropatía periférica, depósitos corneales, deficiencia de potasio y enfermedad de la vesícula biliar.
-- **Interacciones farmacológicas:** se identificaron **355 interacciones**. Entre las de nivel mayor figuran: cisaprida, claritromicina, dolasetrón, eliglustat, clotrimazol, dexametasona, hidrocortisona, agalsidasa beta y las formulaciones de anfotericina B. Entre las moderadas: famotidina, cimetidina, aprepitant, bisacodilo y budesonida.
-- **Toxicidad documentada en la literatura:** toxicidad pulmonar, disfunción tiroidea, efectos hepáticos, prolongación del QT y efectos proarrítmicos y hemodinámicos.
-
-No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA.
-
----
+- **Interacciones farmacológicas**: se identificaron 355 interacciones. Entre las de nivel **mayor** figuran agalsidasa beta, hidrocortisona, dexametasona, anfotericina B (incluidas sus formulaciones lipídicas y liposomal), cisaprida, claritromicina, clotrimazol, dolasetrón y eliglustat. Entre las de nivel **moderado** figuran famotidina, aprepitant, bisacodilo, budesonida, aceite de ricino y cimetidina. Varias de estas combinaciones se relacionan con riesgo de alteraciones del ritmo o del equilibrio electrolítico, por lo que se requiere revisión farmacológica individual.
+- Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Para CPVT solo hay predicción del modelo y literatura de baja calidad (casos clínicos y series pequeñas), sin ensayos clínicos. La terapia de primera línea (betabloqueadores más flecainida) está bien establecida, y el perfil de toxicidad de la amiodarona y sus contraindicaciones (QT largo, bloqueo AV) hacen poco favorable el balance. Además, los cuatro registros colombianos están cancelados.
+No existen ensayos clínicos y la literatura disponible es descriptiva (cohortes, revisiones y reportes de caso). Además, el tratamiento de primera línea de esta enfermedad (betabloqueadores y flecainida) está bien establecido y no incluye a la amiodarona.
 
 **Para avanzar se necesita:**
-- Descargar y analizar el prospecto en INVIMA para obtener advertencias y contraindicaciones oficiales.
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Revisar estudios comparativos de amiodarona frente a betabloqueadores y flecainida en CPVT.
-- Verificar la situación regulatoria actual: el medicamento está comercializado, con 4 registros vigentes en Colombia.
-- Si se busca una alternativa con mayor respaldo, evaluar la indicación de **taquicardia ventricular** (L1, Proceed with Guardrails), considerando que ya es una indicación clínica establecida y requeriría barreras de seguridad: monitoreo tiroideo, hepático, pulmonar y del QT, además de revisión de interacciones.
+- Datos del mecanismo de acción y de la información de seguridad (advertencias y contraindicaciones) del prospecto.
+- Revisión sistemática de estudios que evalúen amiodarona específicamente en esta enfermedad, frente al tratamiento estándar.
+- Evaluación del perfil de seguridad (efectos proarrítmicos, tiroideos, pulmonares y hepáticos) en esta población, que suele ser joven y de uso prolongado.
+- Si el interés persiste, un estudio exploratorio o registro observacional antes de considerar un ensayo clínico.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,7 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tiene registros sanitarios de solución inyectable, pero el texto de indicación registrado solo repite el nombre del fármaco, sin especificar un uso clínico.
+Dipiridamol es un fármaco antiagregante plaquetario que aumenta la adenosina extracelular, disponible en Colombia en solución inyectable.
+El modelo TxGNN predice que podría ser efectivo para **síndrome del seno enfermo tipo 2, autosómico dominante (sick sinus syndrome 2, autosomal dominant)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
@@ -46,44 +47,31 @@ El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tien
 |------|------|
 | Indicación Original | DIPIRIDAMOL |
 | Nueva Indicación Predicha | Sick sinus syndrome 2, autosomal dominant |
-| Puntaje de Prediccion TxGNN | 0.9989 |
+| Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
-## Por qué es Razonable esta Predicción
+## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados no incluyen una descripción formal del mecanismo de acción. Según el conocimiento farmacológico general, el dipiridamol inhibe la recaptación de adenosina (transportador ENT1) y las fosfodiesterasas (PDE3/PDE5). Esto aumenta el AMPc y el GMPc en las plaquetas, reduce la agregación plaquetaria y produce vasodilatación.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, el dipiridamol eleva la adenosina extracelular, lo que le confiere su efecto antiagregante y vasodilatador.
 
-Con este mecanismo, un efecto sobre la trombosis es biológicamente coherente. Las revisiones halladas describen al dipiridamol como inhibidor reversible de la agregación plaquetaria y de la enfermedad trombótica mediada por plaquetas. También se describe que puede potenciar efectos vasculares protectores del óxido nítrico.
+La relación con la nueva indicación es, por ahora, solo computacional. Un vínculo plausible pero no verificado es la modulación de la adenosina: esta puede enlentecer la conducción en el nodo sinusal y en el nodo auriculoventricular, por lo que en una bradiarritmia podría ser perjudicial en lugar de beneficiosa.
 
-Hay una salvedad importante: "enfermedad trombótica" es una categoría muy amplia y se solapa con el uso antitrombótico ya conocido del dipiridamol. No es una señal de reposicionamiento realmente nueva. Además, la ficha de registro colombiana no precisa la indicación, así que no se puede confirmar qué uso está autorizado localmente.
+Por lo tanto, las preocupaciones de seguridad superan cualquier beneficio respaldado. La predicción debe considerarse una hipótesis sin verificación clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se encontraron 20 publicaciones. Ninguna es un ensayo aleatorizado que evalúe dipiridamol en enfermedad trombótica. Se listan las 10 más pertinentes. Se excluyó un ensayo de bevacizumab en mesotelioma (PMID 26719230) por no guardar relación con el tema.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [18174451](https://pubmed.ncbi.nlm.nih.gov/18174451/) | 2008 | Revisión | Arterioscler Thromb Vasc Biol | Describe el dipiridamol como inhibidor de fosfodiesterasas que eleva AMPc y GMPc, inhibe la agregación plaquetaria y potencia efectos vasculares del óxido nítrico |
-| [382146](https://pubmed.ncbi.nlm.nih.gov/382146/) | 1979 | Revisión | Postgraduate Medicine | Aspirina, dipiridamol y sulfinpirazona muestran efecto antitrombótico en humanos; revisión antigua |
-| [12765506](https://pubmed.ncbi.nlm.nih.gov/12765506/) | 2003 | Revisión | Med J Aust | Los antiagregantes protegen frente a infarto, ictus y otros eventos vasculares; la aspirina es de primera línea |
-| [2182246](https://pubmed.ncbi.nlm.nih.gov/2182246/) | 1990 | Revisión | Clin Cardiol | Analiza aspirina más dipiridamol en trombosis coronaria; la aspirina es parcialmente eficaz en modelos experimentales |
-| [15494585](https://pubmed.ncbi.nlm.nih.gov/15494585/) | 2004 | Revisión | JAMA | Los antiagregantes, solos o combinados, previenen eventos vasculares recurrentes en enfermedad aterotrombótica establecida |
-| [25697566](https://pubmed.ncbi.nlm.nih.gov/25697566/) | 2015 | Revisión | Curr Top Med Chem | Describe una actividad antioxidante poco reconocida del dipiridamol, además de su acción antitrombótica y vasodilatadora |
-| [559478](https://pubmed.ncbi.nlm.nih.gov/559478/) | 1977 | Reporte de caso | Arch Intern Med | Paciente con púrpura trombocitopénica trombótica que respondió a dosis más altas de dipiridamol junto con otros fármacos |
-| [26184395](https://pubmed.ncbi.nlm.nih.gov/26184395/) | 2015 | Revisión (Cochrane) | Cochrane Database Syst Rev | Revisa tratamientos adyuvantes para mantener la permeabilidad de fístulas y injertos arteriovenosos, donde la trombosis es una complicación |
-| [36696191](https://pubmed.ncbi.nlm.nih.gov/36696191/) | 2023 | Revisión | J Thromb Haemost | Trombo-inflamación en el síndrome antifosfolípido; contexto general, no específico del dipiridamol |
-| [20484211](https://pubmed.ncbi.nlm.nih.gov/20484211/) | 2010 | Revisión | Am J Health Syst Pharm | Efectos de antiagregantes y anticoagulantes en complicaciones vasooclusivas y trombóticas de la anemia falciforme |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-La lista de registros puede ser parcial.
+Hay al menos 2 registros sanitarios y la lista puede ser parcial. Ambos están vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -92,31 +80,22 @@ La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones registradas en el grafo de conocimiento** (no provienen del prospecto): el grafo asocia al dipiridamol una lista amplia de relaciones de contraindicación. Entre las más relevantes están:
-  - hemorragia y alteraciones de la coagulación: hemofilia, trombocitopenia, púrpura trombocitopénica y deficiencia congénita de protrombina;
-  - úlcera péptica activa y gastritis;
-  - hipotensión;
-  - síndrome coronario agudo e infarto de miocardio;
-  - enfermedad renal y hepática;
-  - gota y anemias.
+- **Interacciones Farmacológicas**: se identificaron 321 interacciones en total. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras interacciones, de nivel no clasificado, incluyen ácido acetilsalicílico, cimetidina, omeprazol, pantoprazol, metformina y morfina.
 
-  Deben verificarse contra la información oficial del producto.
-- **Interacciones farmacológicas**: se identificaron 321 interacciones potenciales. Las de nivel moderado incluyen dexfenfluramina, sibutramina y fenfluramina. Otras (por ejemplo ácido acetilsalicílico, cimetidina, omeprazol, metformina, morfina o prednisona) figuran con nivel no clasificado. La combinación con otros antitrombóticos requiere vigilancia del riesgo de sangrado.
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-- No hay ensayos clínicos para esta indicación y la literatura es en su mayoría de revisiones generales, antiguas o indirectas, por lo que el nivel de evidencia es L5. La categoría es demasiado amplia y se solapa con el uso antitrombótico ya conocido, así que no aporta una hipótesis nueva y concreta.
-- Otra predicción del mismo modelo, el accidente isquémico transitorio, cuenta con un ensayo aleatorizado grande (ESPRIT, 4500 pacientes, aspirina con o sin dipiridamol) y varios metaanálisis. Merece una evaluación aparte y sería una vía más prometedora.
+No existen ensayos clínicos ni publicaciones sobre esta indicación, y el puntaje alto (0,9989) es solo una predicción computacional. Además, el efecto del dipiridamol sobre la conducción sinusal y auriculoventricular podría ser perjudicial en una bradiarritmia.
 
 **Para avanzar se necesita:**
-- Definir un subtipo trombótico concreto (arterial, venoso o asociado a dispositivos) en lugar de la categoría general.
-- Revisar la literatura de forma sistemática y buscar ensayos aleatorizados específicos de dipiridamol en ese subtipo.
-- Obtener el prospecto oficial del INVIMA para conocer la indicación autorizada, las advertencias y las contraindicaciones.
-- Completar los datos del mecanismo de acción y confirmar si la lista de registros sanitarios está completa.
-- Valorar la seguridad en pacientes con riesgo hemorrágico y revisar interacciones con otros antitrombóticos.
+- Datos del mecanismo de acción y evaluación de la plausibilidad electrofisiológica en esta enfermedad
+- Revisión del prospecto con advertencias y contraindicaciones
+- Estudios preclínicos o series de casos que evalúen la seguridad en el nodo sinusal antes de considerar cualquier ensayo clínico
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

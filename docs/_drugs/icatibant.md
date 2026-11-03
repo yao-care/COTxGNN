@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 last_modified_at: 2026-11-03
-description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: ICATIBANT"
+description: "Icatibant: nueva indicación predicha, Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) (nivel de evidencia L5). Indicación original: ICATIBANT"
 ---
 
 # Icatibant
@@ -33,66 +33,46 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Icatibant: Serpinopathy with toxic serpin polymerization
+## Icatibant: Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Icatibant es un antagonista selectivo del receptor B2 de la bradicinina, un péptido de administración subcutánea.
+Icatibant es un antagonista peptídico del receptor B2 de bradicinina, comercializado en Colombia en solución inyectable.
+El modelo TxGNN predice que podría ser efectivo para la **serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization)**,
+pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es una predicción puramente computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ICATIBANT |
-| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
+| Nueva Indicación Predicha | Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
-## ¿Por qué es Razonable esta Predicción?
+## Por qué es Razonable esta Predicción
 
-Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción registrada. Aun así, la farmacología conocida indica que icatibant bloquea el receptor B2 de la bradicinina (y los datos de farmacología también lo relacionan con el receptor B1).
+Icatibant es un péptido que bloquea el receptor B2 de bradicinina (gen BDKRB2) y también muestra afinidad por el receptor B1 (BDKRB1). Su acción es de bloqueo de la señalización de bradicinina, es decir, actúa aguas abajo, sobre la vía que causa la inflamación y el edema. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción más allá de esta información farmacológica.
 
-En la deficiencia de inhibidor de C1 (formas hereditaria y adquirida) se activa sin control el sistema calicreína-cinina, con liberación excesiva de bradicinina, que produce la fuga vascular y la inflamación característica del angioedema. Al bloquear el receptor B2, icatibant actúa sobre el paso efector final de este proceso.
+El puntaje alto probablemente refleja la biología compartida de las serpinas (por ejemplo, SERPING1) con otras enfermedades del sistema calicreína-cinina. Sin embargo, la polimerización tóxica de serpinas es un problema de plegamiento erróneo y agregación de proteínas, mientras que icatibant no actúa sobre ese proceso.
 
-Por ello, el vínculo entre el mecanismo del fármaco y la enfermedad está bien respaldado por los estudios disponibles, incluidos ensayos de Fase 3 con aleatorización y doble ciego en pacientes con angioedema hereditario.
+Por lo tanto, el vínculo mecanístico es débil. No existe una justificación mecanística ni evidencia clínica que sugiera beneficio, salvo, en el mejor de los casos, sobre un posible componente de inflamación o edema mediado por bradicinina. La predicción debe considerarse una hipótesis sin respaldo.
 
 ## Evidencia de Ensayos Clínicos
 
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00097695](https://clinicaltrials.gov/study/NCT00097695) | Fase 3 | Completado | 84 | Icatibant subcutáneo vs. placebo, aleatorizado y doble ciego, en ataques agudos de angioedema hereditario |
-| [NCT00500656](https://clinicaltrials.gov/study/NCT00500656) | Fase 3 | Completado | 85 | Icatibant vs. ácido tranexámico oral, doble ciego; tiempo hasta el inicio del alivio de síntomas |
-| [NCT00912093](https://clinicaltrials.gov/study/NCT00912093) | Fase 3 | Completado | 98 | Icatibant vs. placebo, aleatorizado y doble ciego, en ataques agudos de angioedema hereditario |
-| [NCT00997204](https://clinicaltrials.gov/study/NCT00997204) | Fase 3 | Completado | 151 | Autoadministración subcutánea: seguridad, tolerabilidad local y eficacia |
-| [NCT01386658](https://clinicaltrials.gov/study/NCT01386658) | Fase 3 | Completado | 32 | Farmacocinética, tolerabilidad y seguridad en niños y adolescentes |
-| [NCT03888755](https://clinicaltrials.gov/study/NCT03888755) | Fase 3 | Completado | 8 | Estudio abierto en sujetos japoneses con ataques agudos de angioedema hereditario tipo I o II |
-| [NCT04654351](https://clinicaltrials.gov/study/NCT04654351) | Fase 3 | Completado | 2 | Seguridad, eficacia y farmacocinética en niños y adolescentes japoneses (muestra muy pequeña) |
-| [NCT01457430](https://clinicaltrials.gov/study/NCT01457430) | Fase 4 | Completado | 19 | Estudio abierto de icatibant autoadministrado en ataques agudos |
-| [NCT04057131](https://clinicaltrials.gov/study/NCT04057131) | N/A | Completado | 179 | Encuesta poscomercialización en Japón (datos observacionales de seguridad y eficacia) |
-| [NCT07290855](https://clinicaltrials.gov/study/NCT07290855) | Fase 4 | Completado | 5 | Seguridad y eficacia en angioedema inducido por bradicinina |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [29757016](https://pubmed.ncbi.nlm.nih.gov/29757016/) | 2018 | Estudio clínico (revisión) | Expert Rev Clin Immunol | Icatibant en adolescentes y niños mayores de 2 años con angioedema hereditario por deficiencia de C1-INH; seguridad y eficacia respaldadas por ensayos |
-| [22686628](https://pubmed.ncbi.nlm.nih.gov/22686628/) | 2012 | Observacional | Allergy | Icatibant en 8 pacientes con deficiencia adquirida de C1-INH; 48 ataques tratados |
-| [23420425](https://pubmed.ncbi.nlm.nih.gov/23420425/) | 2013 | Revisión sistemática | Pneumonol Alergol Pol | Comparación de conestat alfa, C1-INH humano e icatibant en ataques agudos |
-| [20030426](https://pubmed.ncbi.nlm.nih.gov/20030426/) | 2010 | Revisión de fármaco | Drugs | Ensayo FAST-1: el criterio principal no alcanzó significación, pero hubo eficacia en otros criterios |
-| [33602658](https://pubmed.ncbi.nlm.nih.gov/33602658/) | 2021 | Revisión | J Investig Allergol Clin Immunol | Tratamiento actual del angioedema hereditario por deficiencia de C1-INH |
-| [26106828](https://pubmed.ncbi.nlm.nih.gov/26106828/) | 2015 | Guía/Consenso | Curr Opin Allergy Clin Immunol | Manejo diagnóstico y terapéutico en Italia |
-| [37716525](https://pubmed.ncbi.nlm.nih.gov/37716525/) | 2023 | Estudio retrospectivo | J Allergy Clin Immunol Pract | Angioedema adquirido por deficiencia de C1-INH: diagnóstico, curso y terapia |
-| [28687105](https://pubmed.ncbi.nlm.nih.gov/28687105/) | 2017 | Revisión | Immunol Allergy Clin North Am | Deficiencia adquirida de C1-INH, asociada a autoinmunidad y trastornos linfoproliferativos |
-| [24925394](https://pubmed.ncbi.nlm.nih.gov/24925394/) | 2014 | Revisión | Chem Immunol Allergy | Enfermedades mediadas por bradicinina |
-| [20667117](https://pubmed.ncbi.nlm.nih.gov/20667117/) | 2010 | Revisión | Allergy Asthma Clin Immunol | Angioedema adquirido y mediación por bradicinina |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-La lista de registros puede ser parcial.
+Los datos de registros pueden ser parciales. Todos los registros listados están vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -101,20 +81,35 @@ La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 10 interacciones de nivel moderado con inhibidores de la ECA: benazepril, captopril, enalapril, perindopril, trandolapril, moexipril, lisinopril, quinapril, ramipril y fosinopril. Además, los datos de farmacología describen su acción sobre los receptores B1 y B2 de bradicinina.
+**Interacciones Farmacológicas:** se registraron 12 interacciones. Las de nivel moderado corresponden a inhibidores de la enzima convertidora de angiotensina (IECA):
+- Benazepril
+- Captopril
+- Enalapril
+- Perindopril
+- Trandolapril
+- Moexipril
+- Lisinopril
+- Quinapril
+- Ramipril
+- Fosinopril
+
+Además, se registran como dianas farmacológicas los receptores B1 y B2 de bradicinina.
+
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay varios ensayos de Fase 3 completados (incluidos controlados con placebo y con comparador activo) que estudian directamente el angioedema por deficiencia de C1-INH, lo que sustenta el nivel L1. Sin embargo, faltan datos de seguridad del prospecto y del mecanismo registrado, por lo que se recomienda avanzar con salvaguardas.
+La predicción no cuenta con ensayos clínicos ni literatura, el nivel de evidencia es L5 y el mecanismo de icatibant (bloqueo del receptor B2) no aborda la polimerización tóxica de serpinas. No hay base actual para avanzar.
 
 **Para avanzar se necesita:**
-- Obtener advertencias y contraindicaciones del prospecto local de INVIMA.
-- Completar los datos detallados del mecanismo de acción.
-- Aclarar la situación vigente de los registros sanitarios en Colombia.
-- Definir un plan de manejo de la interacción con inhibidores de la ECA.
+- Una hipótesis mecanística que explique cómo el bloqueo de bradicinina podría modificar la enfermedad
+- Estudios preclínicos en modelos de serpinopatía
+- Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
+- Evaluación de seguridad, en particular de las interacciones con IECA
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "laronidase"
 predicted_indications: ["Sanfilippo syndrome"]
-description: "Laronidase: nueva indicación predicha, Sanfilippo syndrome (nivel de evidencia L5). Indicación original: LARONIDASA"
+description: "Laronidase: nueva indicación predicha, Síndrome de Sanfilippo (Sanfilippo syndrome) (nivel de evidencia L5). Indicación original: LARONIDASA"
 ---
 
 # Laronidase
@@ -33,86 +33,80 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Laronidase: Sanfilippo syndrome
+## Laronidase: Síndrome de Sanfilippo (Sanfilippo syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Laronidasa es una alfa-L-iduronidasa recombinante, comercializada en Colombia como Aldurazyme® y utilizada como terapia de reemplazo enzimático en la mucopolisacaridosis tipo I (MPS I).
-La evidencia es de **0 ensayos clínicos** y **4 publicaciones** (revisiones, un estudio in vitro y un reporte de caso).
-
----
+Laronidasa es una terapia de reemplazo enzimático basada en alfa-L-iduronidasa recombinante, comercializada actualmente en Colombia.
+El modelo TxGNN predice que podría ser efectiva para el **síndrome de Sanfilippo (Sanfilippo syndrome)**, pero la evidencia es débil: **0 ensayos clínicos** y **8 publicaciones**, ninguna de las cuales estudia directamente esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | LARONIDASA |
-| Nueva Indicación Predicha | Sanfilippo syndrome |
+| Nueva Indicación Predicha | Síndrome de Sanfilippo (Sanfilippo syndrome) |
 | Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
 | Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, laronidasa es alfa-L-iduronidasa recombinante: reemplaza la hidrolasa lisosomal deficiente en la MPS I, enzima que degrada los glicosaminoglicanos (dermatán sulfato y heparán sulfato).
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la literatura consultada, laronidasa es una enzima alfa-L-iduronidasa recombinante que se administra por vía intravenosa para reemplazar la enzima deficiente en la enfermedad para la que se desarrolló.
 
-La nueva indicación describe una clase de enfermedad que incluye la MPS I, en la cual la acumulación de glicosaminoglicanos causa afectación esquelética (disostosis múltiple). Por eso el vínculo mecanístico es fuerte. Un estudio in vitro mostró que la enzima es captada por fibroblastos y osteoblastos cultivados, principalmente por receptores de manosa-6-fosfato, y llega a los lisosomas (PMID 18758061).
+El síndrome de Sanfilippo (mucopolisacaridosis tipo III) y esa enfermedad comparten la acumulación de heparán sulfato. Esto probablemente explica el puntaje alto del modelo.
 
-Hay que tener cautela: los resultados esqueléticos en pacientes suelen responder solo de forma modesta, y la enzima penetra poco en hueso y cartílago. El puntaje de TxGNN es alto, pero es una predicción y no evidencia clínica.
-
----
+Sin embargo, esta relación es débil desde el punto de vista mecanístico:
+- El síndrome de Sanfilippo se debe a la deficiencia de otras enzimas de la degradación del heparán sulfato (SGSH, NAGLU, HGSNAT o GNS), no de alfa-L-iduronidasa. Por eso laronidasa no repone la enzima que falta, y compartir el sustrato no implica que pueda eliminar los intermediarios bloqueados propios de esta enfermedad.
+- El síndrome de Sanfilippo se caracteriza sobre todo por compromiso del sistema nervioso central, y las enzimas administradas por vía intravenosa no atraviesan la barrera hematoencefálica de forma apreciable.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
+
+Todas las publicaciones disponibles se refieren a otra mucopolisacaridosis (tipo I) o a modelos celulares. Ninguna aporta evidencia directa en síndrome de Sanfilippo.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [25345091](https://pubmed.ncbi.nlm.nih.gov/25345091/) | 2014 | Revisión | Pediatric Endocrinology Reviews | Panorama de la MPS I: deficiencia de alfa-L-iduronidasa, acumulación de glicosaminoglicanos y espectro Hurler, Hurler/Scheie y Scheie; diagnóstico por GAG urinarios y ensayo enzimático |
-| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revisión (monografía del fármaco) | BioDrugs | Desarrollo de laronidasa como terapia de reemplazo enzimático para MPS I, con designación de fármaco huérfano |
-| [23127271](https://pubmed.ncbi.nlm.nih.gov/23127271/) | 2012 | Reporte de caso | Pediatric Neurology | Seguimiento de 6,5 años de un niño con síndrome de Scheie en terapia enzimática; hubo deterioro del estado general y progresión de la enfermedad |
-| [18758061](https://pubmed.ncbi.nlm.nih.gov/18758061/) | 2008 | In vitro/preclínico | Biological & Pharmaceutical Bulletin | Captación de laronidasa por fibroblastos y osteoblastos cultivados, dependiente de la dosis y mediada por receptores de manosa-6-fosfato |
-
----
+| [15126990](https://pubmed.ncbi.nlm.nih.gov/15126990/) | 2004 | ECA | The Journal of Pediatrics | Estudio multinacional, doble ciego y controlado con placebo que confirmó la eficacia y seguridad de laronidasa en mucopolisacaridosis tipo I. Evidencia indirecta para Sanfilippo. |
+| [40830667](https://pubmed.ncbi.nlm.nih.gov/40830667/) | 2025 | ECA (fase III, cruzado) | Scientific Reports | Compara una laronidasa biosimilar con la de referencia para mantener los glicosaminoglicanos urinarios en mucopolisacaridosis tipo I. Evidencia indirecta. |
+| [32340185](https://pubmed.ncbi.nlm.nih.gov/32340185/) | 2020 | Revisión | International Journal of Molecular Sciences | Resume la efectividad y las limitaciones de la terapia de reemplazo enzimático intravenosa en varias mucopolisacaridosis. Los datos posteriores a la comercialización son a veces contradictorios. |
+| [31020996](https://pubmed.ncbi.nlm.nih.gov/31020996/) | 2019 | Revisión sistemática | Journal of Inherited Metabolic Disease | Los datos para evaluar la efectividad en el mundo real de la terapia enzimática en mucopolisacaridosis tipo I son limitados. |
+| [12196045](https://pubmed.ncbi.nlm.nih.gov/12196045/) | 2002 | Revisión | BioDrugs | Descripción del desarrollo de laronidasa como terapia enzimática de reemplazo. |
+| [15794739](https://pubmed.ncbi.nlm.nih.gov/15794739/) | 2005 | Cohorte / experiencia clínica | Expert Opinion on Pharmacotherapy | Primeros cinco años de experiencia clínica con laronidasa en mucopolisacaridosis tipo I. |
+| [33139350](https://pubmed.ncbi.nlm.nih.gov/33139350/) | 2021 | Cohorte observacional | Archives of Disease in Childhood | Mejoró el tiempo hasta el tratamiento, pero no el tiempo hasta el diagnóstico en mucopolisacaridosis tipo I. |
+| [23251908](https://pubmed.ncbi.nlm.nih.gov/23251908/) | 2012 | In vitro / preclínico | Acta Biochimica Polonica | Compara en cultivos celulares el silenciamiento génico con siRNA frente a la terapia enzimática. Laronidasa no mostró citotoxicidad. |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19961931 (cancelado) | ALDURAZYME® | Solución inyectable | Laronidasa |
-
----
+| 19961931 | ALDURAZYME® | Solución inyectable | Laronidasa |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 2 interacciones de nivel menor: cloroquina y procaína.
-
-Para el resto de la información de seguridad (advertencias y contraindicaciones), consultar el prospecto.
-
----
+- **Interacciones Farmacológicas**: se identificaron 2 interacciones de nivel menor (fuente: DDInter):
+  - Cloroquina
+  - Procaína
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente coherente, pero se trata de una indicación casi idéntica a la original, sin ensayos registrados para esta indicación específica y con evidencia limitada a revisiones, un estudio in vitro y un reporte de caso (L3). Además, el único registro sanitario en Colombia está cancelado.
+- El puntaje del modelo es alto (0,9922), pero no hay ensayos clínicos ni publicaciones que estudien directamente el síndrome de Sanfilippo, por lo que el nivel de evidencia es L5.
+- Laronidasa no repone las enzimas deficientes en esta enfermedad y no cruza de forma apreciable la barrera hematoencefálica, por lo que la plausibilidad mecanística es baja.
 
 **Para avanzar se necesita:**
-- Aclarar el estado regulatorio: no hay registro sanitario vigente en Colombia
-- Obtener el prospecto para advertencias y contraindicaciones
-- Datos del mecanismo de acción
-- Evidencia clínica sobre desenlaces esqueléticos
-- Definir con precisión la indicación, dado que es una descripción de clase y no una enfermedad específica
+- Estudios preclínicos que muestren si alfa-L-iduronidasa puede degradar los sustratos acumulados en el síndrome de Sanfilippo.
+- Evaluación de estrategias para llegar al sistema nervioso central (por ejemplo, vías de administración distintas de la intravenosa).
+- Datos del mecanismo de acción.
+- Advertencias y contraindicaciones del prospecto aprobado en Colombia, aún no disponibles.
 
 ---
 

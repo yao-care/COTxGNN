@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: TERBUTALINA"
+description: "Terbutaline: nueva indicación predicha, Malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: TERBUTALINA"
 ---
 
 # Terbutaline
@@ -33,79 +33,55 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Terbutaline: Respiratory malformation
+## Terbutaline: Malformación respiratoria (respiratory malformation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Terbutalina es un agonista beta-2 adrenérgico de acción corta, registrado en Colombia bajo la denominación "Terbutalina" (sola o en combinaciones).
-Cabe aclarar que esta predicción coincide en gran medida con el uso ya establecido del fármaco (broncodilatación), por lo que es más una confirmación que un reposicionamiento novedoso.
-
----
+Terbutalina es un agonista beta-2 adrenérgico de acción broncodilatadora. El modelo TxGNN predice que podría ser útil para **malformación respiratoria (respiratory malformation)**. Hasta ahora hay **1 ensayo clínico** general (no específico de esta enfermedad) y **12 publicaciones** de relevancia indirecta, por lo que la evidencia es muy limitada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | TERBUTALINA; TERBUTALINA COMBINACIONES |
-| Nueva Indicación Predicha | Respiratory malformation |
+| Nueva Indicación Predicha | Malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9952 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | al menos 4 |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la farmacología conocida, la terbutalina es un agonista selectivo de los receptores beta-2 adrenérgicos (también con afinidad por beta-1). Su activación eleva el AMPc en el músculo liso bronquial y produce relajación, lo que alivia la broncoconstricción.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. La información farmacológica disponible muestra que terbutalina actúa sobre los receptores beta-2 adrenérgicos (ADRB2) y, en menor medida, sobre los beta-1 (ADRB1). La activación de los receptores beta-2 relaja el músculo liso bronquial y produce broncodilatación.
 
-La indicación original (terbutalina en solución para nebulización, jarabes y combinaciones con guayacolato) corresponde a enfermedades respiratorias con obstrucción reversible de la vía aérea.
+La lógica de la predicción es que las malformaciones estructurales de la vía aérea suelen asociarse con hiperreactividad o con obstrucción reversible. En esos casos, un broncodilatador podría aliviar los síntomas. Sin embargo, terbutalina no puede corregir la malformación en sí, así que el beneficio sería, como mucho, sintomático.
 
-Es importante reconocer que esta predicción confirma un uso ya conocido y no representa un hallazgo nuevo. Las otras dos predicciones del modelo son mucho más débiles: *malformación respiratoria* (nivel L4, evidencia mayormente de asma y bronquitis, con varios estudios fuera de tema) y *síndrome de Rienhoff* (nivel L5, sin ensayos ni literatura, solo predicción computacional). Ambas quedan en **Hold**.
-
----
+El puntaje alto de TxGNN (0,9952) refleja sobre todo la cercanía del fármaco con términos de enfermedad respiratoria en el modelo. No demuestra un mecanismo específico para esta enfermedad. La literatura recuperada trata en su mayoría de asma, bronquitis y función de la vía aérea, y algunos artículos no tienen relación con el tema.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02224157](https://clinicaltrials.gov/study/NCT02224157) | Fase 3 | Completado | 4215 | Symbicort a demanda vs. Pulmicort dos veces al día + terbutalina a demanda en asma; terbutalina como comparador de rescate |
-| [NCT02149199](https://clinicaltrials.gov/study/NCT02149199) | Fase 3 | Completado | 3850 | Symbicort a demanda vs. terbutalina a demanda vs. Pulmicort + terbutalina en asma leve |
-| [NCT06626620](https://clinicaltrials.gov/study/NCT06626620) | Fase 3 | Completado | 120 | Sulfato de magnesio IV vs. terbutalina en niños con exacerbación aguda de asma |
-| [NCT00839800](https://clinicaltrials.gov/study/NCT00839800) | Fase 3 | Completado | 2091 | Symbicort SMART vs. Symbicort + terbutalina 0,4 mg a demanda en asma |
-| [NCT00259766](https://clinicaltrials.gov/study/NCT00259766) | Fase 3 | Completado | 1970 | Costos y control del asma en práctica real; Bricanyl (terbutalina) como rescate |
-| [NCT00252863](https://clinicaltrials.gov/study/NCT00252863) | Fase 3 | Completado | 1600 | Terapia Symbicort de mantenimiento y rescate vs. tratamiento convencional en asma persistente |
-| [NCT00849095](https://clinicaltrials.gov/study/NCT00849095) | Fase 3 | Completado | 860 | Budesonida/formoterol a demanda vs. regular + terbutalina a demanda en asma persistente leve-moderada |
-| [NCT00421122](https://clinicaltrials.gov/study/NCT00421122) | Fase 3 | Completado | 315 | Symbicort + Bricasol (terbutalina) vs. Pulmicort + Bricasol en EPOC en pacientes chinos |
-| [NCT02322788](https://clinicaltrials.gov/study/NCT02322788) | Fase 3 | Completado | 95 | Estudio farmacodinámico cruzado de Bricanyl Turbuhaler M3 vs. M2 frente a broncoconstricción por metacolina en asma |
-| [NCT01096017](https://clinicaltrials.gov/study/NCT01096017) | Fase 3 | Completado | 24 | Eficacia relativa de terbutalina Turbuhaler 0,4 mg vs. salbutamol pMDI en adultos japoneses con asma |
-
-Nota: el ensayo NCT04973345 (fase 2/3, exposición-respuesta de terbutalina en asma) fue retirado sin participantes, por lo que no aporta evidencia. En la mayoría de los ensayos la terbutalina actúa como comparador o medicación de rescate, no como intervención principal.
-
----
+| [NCT04278404](https://clinicaltrials.gov/study/NCT04278404) | N/A | Reclutando | 5000 | Estudio general de farmacocinética y seguridad de fármacos poco estudiados en niños y adultos jóvenes. No es específico de malformación respiratoria y no aporta evidencia de eficacia. |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [29768149](https://pubmed.ncbi.nlm.nih.gov/29768149/) | 2018 | ECA | N Engl J Med | Budesonida-formoterol a demanda como alternativa a los tratamientos convencionales en asma leve |
-| [3073804](https://pubmed.ncbi.nlm.nih.gov/3073804/) | 1988 | ECA | Br J Dis Chest | Terbutalina oral aumentó la fuerza de contracción diafragmática en EPOC (cruzado, doble ciego) |
-| [6988343](https://pubmed.ncbi.nlm.nih.gov/6988343/) | 1980 | ECA | Int J Clin Pharmacol Ther Toxicol | Comparación oral de clenbuterol y terbutalina en enfermedad pulmonar obstructiva crónica |
-| [6107217](https://pubmed.ncbi.nlm.nih.gov/6107217/) | 1980 | ECA | Chest | Interacción entre betabloqueadores y terbutalina oral en enfermedad pulmonar obstructiva con cardiopatía o hipertensión |
-| [36227333](https://pubmed.ncbi.nlm.nih.gov/36227333/) | 2023 | Revisión sistemática | Naunyn-Schmiedeberg's Arch Pharmacol | Farmacocinética clínica de la terbutalina según vía, edad, tabaquismo y otros factores |
-| [23348973](https://pubmed.ncbi.nlm.nih.gov/23348973/) | 2013 | Revisión | Am J Respir Crit Care Med | Terapia con agonistas beta-2 en enfermedad pulmonar; terbutalina como agonista inhalado de acción corta |
-| [25515181](https://pubmed.ncbi.nlm.nih.gov/25515181/) | 2015 | Guía | Basic Clin Pharmacol Toxicol | Guía finlandesa para el diagnóstico y tratamiento farmacológico de la EPOC estable |
-| [30156361](https://pubmed.ncbi.nlm.nih.gov/30156361/) | 2019 | ECA | Acad Emerg Med | Terbutalina nebulizada con ipratropio vs. terbutalina sola en exacerbación aguda de EPOC con ventilación no invasiva |
-| [10384064](https://pubmed.ncbi.nlm.nih.gov/10384064/) | 1999 | ECA cruzado | Lung | Efecto de una dosis de terbutalina (Turbuhaler) sobre función pulmonar y capacidad de ejercicio en EPOC |
-| [1615190](https://pubmed.ncbi.nlm.nih.gov/1615190/) | 1992 | ECA cruzado | Respir Med | Terbutalina inhalada y su efecto sobre FEV1, FVC, disnea y distancia de marcha en enfermedad pulmonar obstructiva |
-
----
+| [3281307](https://pubmed.ncbi.nlm.nih.gov/3281307/) | 1988 | ECA | Thorax | Adrenalina frente a terbutalina subcutánea en asma aguda grave (20 pacientes). No aborda malformaciones. |
+| [1629507](https://pubmed.ncbi.nlm.nih.gov/1629507/) | 1992 | ECA | J Allergy Clin Immunol | Budesonida frente a terbutalina inhaladas sobre la inflamación de la vía aérea en asma de reciente diagnóstico (14 pacientes). |
+| [42303000](https://pubmed.ncbi.nlm.nih.gov/42303000/) | 2026 | Cohorte | Respiratory Medicine | Evaluación de síntomas, función pulmonar y tomografía en lactantes con bronquiolitis obliterante postinfecciosa tratados a largo plazo. |
+| [12061354](https://pubmed.ncbi.nlm.nih.gov/12061354/) | 2002 | Observacional | Acta Paediatrica | 14 niños con estenosis de vía aérea central (anillos vasculares, estenosis subglótica), diferenciada del asma. Es la publicación más cercana a anomalías estructurales, pero no evalúa terbutalina como tratamiento. |
+| [8327281](https://pubmed.ncbi.nlm.nih.gov/8327281/) | 1993 | Metodológico | Pediatric Pulmonology | Análisis de curvas flujo-volumen en prematuros intubados tras administrar terbutalina. |
+| [1620986](https://pubmed.ncbi.nlm.nih.gov/1620986/) | 1992 | Observacional | Respiration | En bronquitis crónica, la terbutalina inhalada revirtió de forma aguda las alteraciones de impedancia respiratoria. |
+| [11813927](https://pubmed.ncbi.nlm.nih.gov/11813927/) | 2001 | Serie de casos | Cardiology in the Young | Terbutalina en bloqueo cardíaco completo fetal. Tema no relacionado con la predicción. |
+| [19793774](https://pubmed.ncbi.nlm.nih.gov/19793774/) | 2009 | Hipótesis/Revisión | Toxicology and Industrial Health | Deterioro cerebral y pulmonar asociado a terbutalina y moho en relación con el autismo. Tema no relacionado con la predicción. |
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; actualmente no hay registros vigentes.
+Terbutalina figura como comercializada en Colombia. La lista de registros puede ser parcial.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -114,31 +90,23 @@ Los cuatro registros sanitarios están cancelados; actualmente no hay registros 
 | 218166 | TERBUROP® Jarabe | Jarabe | Terbutalina |
 | 218164 | TERBUROP Guayacolato Jarabe | Jarabe | Terbutalina combinaciones |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones o precauciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del modelo, no texto de prospecto): hipertensión, epilepsia, hiperglucemia, deficiencia de potasio, diabetes mellitus, cetoacidosis diabética, paro cardíaco súbito, enfermedad de la conducción cardíaca, insuficiencia respiratoria, hipertiroidismo (enfermedad de Graves, tirotoxicosis), edema pulmonar, isquemia miocárdica, enfermedad coronaria y desprendimiento prematuro de placenta.
-- **Interacciones y dianas farmacológicas**: la terbutalina actúa sobre los receptores beta-1 (ADRB1) y beta-2 (ADRB2) adrenérgicos. Esto es consistente con la observación en la literatura de una interacción con betabloqueadores (PMID 6107217). No se dispone de interacciones con otros fármacos con nivel de gravedad asignado.
-
-Las advertencias y contraindicaciones del prospecto de INVIMA no están disponibles en los datos compilados; consultar el prospecto para la información de seguridad completa.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados y de gran tamaño en asma y EPOC, lo que corresponde a un nivel de evidencia L1. Sin embargo, la terbutalina es en la mayoría un comparador o medicación de rescate, la predicción reproduce un uso ya establecido y, en Colombia, el medicamento está comercializado con 4 registros vigentes. Por ello se recomienda avanzar con salvaguardas.
+Ningún estudio de los citados evalúa directamente la malformación respiratoria, por lo que la predicción se apoya solo en el modelo (nivel L5). El único ensayo clínico es un estudio general de farmacocinética, y la literatura trata principalmente de asma, bronquitis y función de la vía aérea. Además, un broncodilatador no corregiría la malformación estructural.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y de carácter bloqueante para el tamizaje de seguridad.
-- Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: en Colombia el medicamento está comercializado y cuenta con 4 registros vigentes; verificar si la indicación propuesta está cubierta por ellos.
-- Revisar con atención los riesgos cardiovasculares, metabólicos (glucosa, potasio) y de hipertiroidismo propios de este tipo de medicamento.
-- Verificar, en los ensayos donde la terbutalina es comparador, su papel específico y los resultados frente al desenlace principal.
-- Las predicciones de *malformación respiratoria* y *síndrome de Rienhoff* deben mantenerse en **Hold**, a la espera de evidencia específica.
+- Datos detallados del mecanismo de acción (MOA) y su vínculo con la fisiopatología de la malformación respiratoria.
+- Estudios que evalúen directamente terbutalina en pacientes con malformaciones de la vía aérea.
+- Revisión del prospecto aprobado en INVIMA (advertencias y contraindicaciones).
+- Evaluación de la seguridad en población pediátrica y de la viabilidad de la vía de administración.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

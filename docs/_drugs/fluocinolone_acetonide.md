@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "fluocinolone acetonide"
 predicted_indications: ["lichen planus pemphigoides"]
 last_modified_at: 2026-11-03
-description: "Fluocinolone Acetonide: nueva indicación predicha, Lichen planus pemphigoides (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
+description: "Fluocinolone Acetonide: nueva indicación predicha, Penfigoide liquenoide plano (lichen planus pemphigoides) (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
 ---
 
 # Fluocinolone Acetonide
@@ -33,19 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Fluocinolone Acetonide: Lichen planus pemphigoides
+## Fluocinolone Acetonide: Penfigoide liquenoide plano (lichen planus pemphigoides)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Fluocinolona acetonida es un corticosteroide sintético que actúa sobre el receptor de glucocorticoides y se usa en cremas y soluciones para afecciones inflamatorias y pruriginosas de la piel y el oído.
+Fluocinolona acetonida es un corticosteroide sintético que se usa en preparaciones de aplicación local en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **penfigoide liquenoide plano (lichen planus pemphigoides)**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS; COMBINACIONES DE CORTICOSTEROIDES |
-| Nueva Indicación Predicha | Lichen planus pemphigoides |
+| Nueva Indicación Predicha | Penfigoide liquenoide plano (lichen planus pemphigoides) |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
@@ -54,11 +55,11 @@ Fluocinolona acetonida es un corticosteroide sintético que actúa sobre el rece
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fluocinolona acetonida se une al receptor de glucocorticoides (NR3C1), lo que le confiere actividad antiinflamatoria e inmunosupresora. Los datos detallados del mecanismo de acción no están disponibles en la información compilada para este informe; la descripción anterior proviene de la información farmacológica del ligando y del conocimiento general de la clase.
+Fluocinolona acetonida actúa sobre el receptor de glucocorticoides (NR3C1), lo que le confiere acción antiinflamatoria y antipruriginosa. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que este punto debe confirmarse.
 
-El liquen plano es una dermatosis inflamatoria mediada por linfocitos T, y los corticosteroides tópicos son un tratamiento de primera línea habitual para el liquen plano en general. Esto ofrece una justificación plausible a nivel de clase para la variante atrófica anular.
+El penfigoide liquenoide plano combina características del liquen plano con ampollas subepidérmicas, asociadas a autoanticuerpos (por ejemplo, contra BP180). Un corticosteroide tópico podría ayudar con la inflamación localizada, lo que ofrece un vínculo plausible con la predicción.
 
-Sin embargo, no se aportaron datos clínicos específicos de esta variante ni del fármaco en esta enfermedad.
+Sin embargo, el componente ampolloso autoinmune suele requerir tratamiento sistémico, y la compatibilidad de vías de administración no ha sido evaluada. El puntaje del modelo es solo una predicción y no sustituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,32 +71,34 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+Registros sanitarios en los datos compilados (la lista puede ser parcial):
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20063316 | ACEOTO PLUS® | Solución ótica | Fluocinolona acetonida y antiinfecciosos |
 | 19931579 | TRI-LUMA® CREMA | Crema tópica | Combinaciones de corticosteroides |
 
-La lista puede ser parcial.
-
 ## Consideraciones de Seguridad
 
-- **Posibles condiciones de precaución (relaciones de contraindicación registradas en la base de conocimiento de TxGNN, no texto de prospecto)**: quemadura solar, queratitis por herpes simple, insuficiencia suprarrenal, enfermedad de Addison, infección por herpes simple, glaucoma, atrofia cutánea, telangiectasia, enfermedad capilar, telangiectasia hemorrágica hereditaria, enfermedad vascular periférica, claudicación intermitente, enfermedad arterial periférica, herpes zóster geniculado, eccema atópico, dermatitis, infección fúngica del ojo, tuberculosis ocular y úlcera corneal micótica.
-- **Interacciones Farmacológicas**: se identificaron 10 registros de interacción, todos con nivel de gravedad sin clasificar. Los fármacos incluyen dexametasona, cetirizina, citalopram, ácido valproico, acetaminofén, digoxina, levotiroxina, ácido alendrónico y clonazepam.
+- **Interacciones farmacológicas**: se registraron 10 interacciones potenciales, todas sin nivel de gravedad clasificado. Entre los fármacos implicados: dexametasona, cetirizina, citalopram, ácido valproico, paracetamol, digoxina, levotiroxina, ácido alendrónico y clonazepam.
+- **Condiciones donde el uso de corticosteroides requiere precaución** (según relaciones de contraindicación registradas, no texto de prospecto): infecciones por herpes simple (incluida la queratitis herpética), herpes zóster geniculado, infecciones fúngicas oculares, tuberculosis ocular, úlcera corneal micótica, glaucoma, insuficiencia suprarrenal y enfermedad de Addison, atrofia cutánea, telangiectasia (incluida la hemorrágica hereditaria), enfermedad vascular periférica y arterial periférica, claudicación intermitente, dermatitis, eccema atópico y quemadura solar.
 
-Para advertencias y contraindicaciones del prospecto, consultar el prospecto del producto.
+Consultar el prospecto para información de seguridad adicional.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El nivel de evidencia es L5.
+La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien directamente esta enfermedad. Además, la naturaleza autoinmune ampollosa de la enfermedad sugiere que un corticosteroide tópico podría ser insuficiente.
 
 **Para avanzar se necesita:**
-- Revisión sistemática de la literatura sobre corticosteroides tópicos en liquen plano atrófico anular
-- Datos de mecanismo de acción y de seguridad del prospecto INVIMA (advertencias y contraindicaciones)
-- Evaluación de la compatibilidad de vía de administración y formulación para la lesión objetivo
-- Confirmación del estado vigente de los registros sanitarios locales
+- Revisión sistemática de la literatura sobre corticosteroides en esta enfermedad (series de casos, reportes)
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto aprobado por INVIMA
+- Evaluación de compatibilidad de vías de administración (tópica frente a sistémica)
+- Opinión de dermatología sobre el posicionamiento frente a tratamientos sistémicos
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

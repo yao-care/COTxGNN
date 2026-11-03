@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "chloramphenicol"
 predicted_indications: ["diffuse scleroderma", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis"]
-description: "Chloramphenicol: nueva indicación predicha, Diffuse scleroderma (nivel de evidencia L5). Indicación original: CLORAMFENICOL"
+description: "Chloramphenicol: nueva indicación predicha, Esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: CLORAMFENICOL"
 ---
 
 # Chloramphenicol
@@ -33,102 +33,74 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Chloramphenicol: Diffuse scleroderma
+## Chloramphenicol: Esclerodermia difusa (diffuse scleroderma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Cloranfenicol es un antibiótico de amplio espectro cuyo registro sanitario en Colombia (CLORAFENICOL 250 MG, cápsula dura) figura únicamente con el nombre del principio activo como indicación aprobada, sin una enfermedad específica descrita.
-Se trata de un uso ya establecido en formulaciones oftálmicas tópicas en varios países, más que de un reposicionamiento en sentido estricto.
-
----
+Cloranfenicol es un antibiótico de uso sistémico que actúa contra bacterias, con registro sanitario vigente en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (diffuse scleroderma)**, pero actualmente no hay ensayos clínicos y solo existen **4 publicaciones** de investigación básica in vitro, sin evidencia de que el fármaco actúe sobre esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | CLORAMFENICOL |
-| Nueva Indicación Predicha | Diffuse scleroderma |
+| Nueva Indicación Predicha | Esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
 | Número de Registros Sanitarios | 1 (vigentes: 1) |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el cloranfenicol es un antibiótico bacteriostático de amplio espectro que inhibe la subunidad ribosomal 50S bacteriana, bloqueando la síntesis de proteínas. Esto es compatible con su uso en infecciones bacterianas oculares.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el cloranfenicol es un antibiótico que inhibe la síntesis de proteínas bacterianas, y su uso se ha centrado en infecciones bacterianas.
 
-La relación entre la indicación original y la nueva es directa: la conjuntivitis bacteriana es una infección superficial del ojo, y las preparaciones oftálmicas tópicas de cloranfenicol se usan desde hace décadas para tratarla, sobre todo en el Reino Unido, mientras que en EE. UU. se prescribe muy poco con este fin. Por ello, la predicción de TxGNN refleja un uso ya conocido, no un hallazgo nuevo.
+Las publicaciones recuperadas describen la transcripción del gen del procolágeno α1(I) y la señalización TGF-beta/Smad3 en fibroblastos de esclerodermia. No muestran que el cloranfenicol actúe sobre estas vías. Al parecer, la relación aparece por el uso del ensayo reportero CAT (cloranfenicol acetiltransferasa) en estudios de promotores, y no por un efecto terapéutico.
 
-Un punto importante es que el producto registrado en Colombia es una cápsula dura de uso sistémico, y no una formulación oftálmica. La compatibilidad de vía de administración con la nueva indicación sigue pendiente de evaluar y requeriría una formulación tópica oftálmica.
-
----
+No hay evidencia clínica, y un antibiótico sistémico con toxicidad hematológica no tiene una justificación plausible para esta enfermedad. El puntaje alto probablemente es un artefacto de la predicción.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para esta indicación.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [32959365](https://pubmed.ncbi.nlm.nih.gov/32959365/) | 2020 | Revisión sistemática (Cochrane) | Cochrane Database of Systematic Reviews | Intervenciones para prevenir la oftalmía neonatal, infección ocular del recién nacido que puede causar ceguera |
-| [38511104](https://pubmed.ncbi.nlm.nih.gov/38511104/) | 2024 | Estudio comparativo (diseño no confirmado) | Current Therapeutic Research | Compara moxifloxacino con cloranfenicol en infecciones oculares bacterianas |
-| [8800624](https://pubmed.ncbi.nlm.nih.gov/8800624/) | 1996 | Revisión de seguridad | Drug Safety | Debate sobre la posible relación entre cloranfenicol ocular tópico y anemia aplásica |
-| [11270936](https://pubmed.ncbi.nlm.nih.gov/11270936/) | 2001 | Revisión | Drugs | Revisión comparativa de 16 preparaciones antibacterianas oftálmicas tópicas |
-| [10589371](https://pubmed.ncbi.nlm.nih.gov/10589371/) | 1999 | Revisión | Clinical Pharmacokinetics | Tratamiento de infecciones oculares con antibacterianos tópicos |
-| [7498557](https://pubmed.ncbi.nlm.nih.gov/7498557/) | 1995 | Revisión/Comentario | Eye | Uso y abuso del cloranfenicol tópico |
-| [25833086](https://pubmed.ncbi.nlm.nih.gov/25833086/) | 2015 | Comentario | Clinical & Experimental Ophthalmology | Cloranfenicol de venta libre |
+| [8702443](https://pubmed.ncbi.nlm.nih.gov/8702443/) | 1996 | Investigación básica (in vitro) | Arthritis and Rheumatism | Regulación transcripcional del gen COL1A1 en fibroblastos dérmicos de esclerosis sistémica difusa; papel de secuencias intrónicas |
+| [9811061](https://pubmed.ncbi.nlm.nih.gov/9811061/) | 1998 | Investigación básica (in vitro) | Arthritis and Rheumatism | Elementos del promotor de COL1A1 implicados en su expresión aumentada en esclerosis sistémica |
+| [11229480](https://pubmed.ncbi.nlm.nih.gov/11229480/) | 2001 | Investigación básica (in vitro) | Arthritis and Rheumatism | El bloqueo de la señal de TGF-beta evita el aumento de síntesis de colágeno en fibroblastos de esclerodermia |
+| [16319104](https://pubmed.ncbi.nlm.nih.gov/16319104/) | 2006 | Investigación básica (in vitro) | Rheumatology (Oxford) | Smad3 fosforilado de forma constitutiva interactúa con Sp1 y p300 en fibroblastos de esclerodermia |
 
----
+Ninguno de estos estudios evalúa el cloranfenicol como tratamiento.
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19987544 (cancelado) | CLORAFENICOL 250 MG | Cápsula dura | CLORAMFENICOL |
-
----
-
-## Citotoxicidad
-
-No aplica la clasificación como antineoplásico; el cloranfenicol es un antibiótico, por lo que esta sección se omite.
-
----
+| 19987544 | CLORAFENICOL 250 MG | Cápsula dura | CLORAMFENICOL |
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones (según el grafo de conocimiento, no el prospecto)**: el modelo asocia el fármaco con contraindicación en enfermedades hematológicas (anemia aplásica, anemia, neutropenia y sus variantes congénitas, agranulocitosis, trombocitopenia, hemoglobinuria paroxística nocturna), enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, neuropatía periférica, neuritis óptica y porfiria aguda intermitente.
-- **Advertencia clave**: la literatura recuperada discute un posible vínculo entre el cloranfenicol ocular tópico y la anemia aplásica, tema aún controvertido.
-- **Interacciones Farmacológicas**: se identificaron 478 interacciones. Entre las de nivel **Mayor** figuran **cisaprida** y **naloxegol**. Entre las de nivel **Moderado** destacan metronidazol, sulfonilureas (clorpropamida, glimepirida, glipizida, gliburida, acetohexamida), repaglinida, saxagliptina, simvastatina, rosuvastatina, aprepitant, budesonida, hierro, balsalazida, eliglustat, naldemedina y nitisinona.
+- **Interacciones Farmacológicas**: se identificaron 478 interacciones en total. Entre las de nivel mayor figuran cisaprida y naloxegol. Entre las de nivel moderado figuran aprepitant, metronidazol, budesonida, hierro, rosuvastatina, simvastatina y varias sulfonilureas (clorpropamida, glimepirida, glipizida, glibenclamida).
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-El uso del cloranfenicol tópico en conjuntivitis bacteriana está bien documentado en la literatura, incluidos comparativos aleatorizados antiguos, pero no hay ensayos clínicos registrados ni ECA de Fase 2/3 identificados, por lo que la evidencia se limita a L3. Además, el único registro sanitario en Colombia está cancelado y existe una señal de seguridad hematológica debatida.
+La predicción se basa solo en el puntaje del modelo. No hay ensayos clínicos y la literatura es de investigación básica in vitro, donde el cloranfenicol aparece probablemente como herramienta de laboratorio (ensayo CAT). Además, su toxicidad hematológica es una preocupación importante en una enfermedad crónica.
 
 **Para avanzar se necesita:**
-- Obtener y revisar el prospecto de INVIMA para advertencias y contraindicaciones oficiales.
-- Confirmar el mecanismo de acción en DrugBank.
-- Definir una formulación oftálmica tópica, ya que el producto registrado era una cápsula de uso sistémico.
-- Aclarar las razones de la cancelación del registro y la situación regulatoria vigente.
-- Evaluar la evidencia comparativa actual (por ejemplo, el estudio de 2024 con moxifloxacino) frente a alternativas disponibles.
-- Establecer un plan de monitoreo hematológico y de minimización de riesgos.
+- Datos del mecanismo de acción que justifiquen una relación con la fibrosis o la señalización TGF-beta
+- Estudios preclínicos que muestren un efecto del fármaco en modelos de esclerodermia
+- Revisión del prospecto del INVIMA para advertencias y contraindicaciones
+- Evaluación de la relación riesgo-beneficio frente a la toxicidad hematológica antes de cualquier estudio clínico
 
----
-
-### Otras indicaciones predichas (no recomendadas por ahora)
-
-Las demás predicciones de TxGNN (esclerodermia difusa, vasculitis postinfecciosa, trastorno postbacteriano, síndrome postinfeccioso, estenosis uretral infecciosa, cardiomiopatía de Chagas, síndrome hemolítico urémico asociado a infección y queratoconjuntivitis epitelial punteada) tienen evidencia L4–L5 y decisión **Hold**. En varios casos los vínculos son artefactos de la predicción (por ejemplo, el uso del gen reportero CAT en estudios de esclerodermia) o carecen de plausibilidad mecanística, y el perfil de toxicidad hematológica del fármaco es una preocupación adicional.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,9 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Fenticonazol es un antimicótico derivado del imidazol, de uso tópico vaginal.
-El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis tricomonásica (trichomonal vulvovaginitis)**,
-pero actualmente no hay ensayos clínicos registrados ni estudios que evalúen directamente esta enfermedad; solo hay 2 publicaciones asociadas, centradas sobre todo en la candidiasis vulvovaginal.
+Fenticonazol es un antifúngico derivado del imidazol, de uso tópico vaginal.
+El modelo TxGNN predice que podría ser efectivo para **vulvovaginitis tricomonásica (trichomonal vulvovaginitis)**, pero hasta ahora no hay ensayos clínicos registrados ni estudios que evalúen directamente esta enfermedad, por lo que la predicción se apoya solo en el modelo.
 
 ## Resumen Rápido
 
@@ -56,11 +55,11 @@ pero actualmente no hay ensayos clínicos registrados ni estudios que evalúen d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Fenticonazol es un imidazol antifúngico. Según la literatura revisada, actúa de tres maneras: inhibe la secreción de proteasa ácida de *Candida albicans*, daña la membrana citoplasmática y bloquea oxidasas y peroxidasas del citocromo. Además, se ha descrito cierta acción antibacteriana. Actualmente no se dispone de datos detallados del mecanismo de acción en la base de datos consultada.
+Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información disponible, fenticonazol es un imidazol antifúngico que inhibe la síntesis de ergosterol (lanosterol 14-alfa-demetilasa) y daña la membrana citoplasmática de los hongos. La literatura revisada añade que también bloquea oxidasas y peroxidasas del citocromo y reduce la secreción de proteasa ácida de *Candida albicans*, además de mostrar cierta acción antibacteriana.
 
-Otros imidazoles tienen actividad frente a protozoos, por lo que existe un vínculo mecanístico plausible con *Trichomonas vaginalis*. Sin embargo, la literatura aportada trata principalmente la candidiasis vulvovaginal y no muestra datos de eficacia específicos contra *Trichomonas*. El puntaje alto del modelo probablemente refleja la similitud con otros imidazoles más que evidencia directa.
+Algunos imidazoles tienen actividad frente a protozoos, de modo que existe un vínculo mecanístico plausible con *Trichomonas vaginalis*. Sin embargo, los estudios disponibles se centran sobre todo en candidiasis vulvovaginal y no muestran datos de eficacia específicos frente a tricomoniasis.
 
-El único estudio clínico que menciona *Trichomonas vaginalis* (PMID 15216954) es un estudio abierto, multicéntrico y piloto con 101 mujeres con vulvovaginitis por infecciones simples o mixtas (*Candida albicans*, *Trichomonas vaginalis* y/o *Gardnerella vaginalis*). No permite concluir eficacia específica frente a tricomoniasis.
+El puntaje alto del modelo probablemente refleja la similitud con otros imidazoles y no evidencia directa. Por ello, la predicción debe tomarse como una hipótesis por verificar.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -70,8 +69,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Estudio clínico abierto piloto | Journal of Chemotherapy | 101 mujeres con vulvovaginitis (simple o mixta, incluida *Trichomonas vaginalis*) tratadas con óvulos de 1 g los días 1 y 3; evalúa eficacia, seguridad y tolerabilidad |
-| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revisión | Drugs | Amplio espectro antimicótico en dermatofitos y levaduras, con mecanismo en tres vías y acción antibacteriana; uso tópico en dermatología y ginecología |
+| [18840006](https://pubmed.ncbi.nlm.nih.gov/18840006/) | 2008 | Revisión | Drugs | Revisa el uso tópico de fenticonazol en dermatología y ginecología: amplio espectro antimicótico, mecanismo de acción en tres vías y cierta acción antibacteriana. |
+| [15216954](https://pubmed.ncbi.nlm.nih.gov/15216954/) | 2004 | Estudio clínico abierto, multicéntrico | Journal of Chemotherapy | Óvulos de 1 g de fenticonazol en régimen de 2 días en 101 mujeres con infecciones vaginales simples o mixtas, entre ellas por *Trichomonas vaginalis*; es la única referencia que menciona este microorganismo, pero no se dispone de datos de eficacia específicos para tricomoniasis. |
 
 ## Información de Mercado en Colombia
 
@@ -90,13 +89,14 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún estudio que evalúe directamente la vulvovaginitis tricomonásica con fenticonazol; la evidencia disponible se refiere a candidiasis y a infecciones mixtas. El puntaje alto del modelo parece derivar de la similitud con otros imidazoles, por lo que la evidencia se ubica en L5.
+No hay ensayos clínicos ni estudios que evalúen directamente la vulvovaginitis tricomonásica; la predicción se apoya únicamente en el puntaje del modelo (0.9950) y en una similitud de clase con otros imidazoles. Por eso el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Datos de eficacia específicos contra *Trichomonas vaginalis* (estudios in vitro y ensayos clínicos con desenlaces por patógeno)
-- Datos detallados del mecanismo de acción
-- Información de seguridad del prospecto (advertencias y contraindicaciones) del registro sanitario correspondiente
-- Verificación de la disponibilidad real del producto en Colombia
+- Estudios in vitro de actividad de fenticonazol frente a *Trichomonas vaginalis*.
+- Ensayos clínicos que evalúen directamente esta indicación, comparados con el tratamiento estándar.
+- Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones).
+- Revisión de seguridad y de interacciones farmacológicas con la información oficial del prospecto.
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
-description: "Albendazole: nueva indicación predicha, Coenurosis (nivel de evidencia L5). Indicación original: ALBENDAZOL"
+description: "Albendazole: nueva indicación predicha, Cenurosis (coenurosis) (nivel de evidencia L5). Indicación original: ALBENDAZOL"
 ---
 
 # Albendazole
@@ -33,69 +33,69 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 </div>
 
-## Albendazole: Coenurosis
+## Albendazole: Cenurosis (coenurosis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Albendazol es un antiparasitario del grupo de los benzimidazoles, registrado en Colombia con la indicación genérica "ALBENDAZOL" (sin detalle de la indicación aprobada).
-
----
+Albendazol es un antiparasitario que actúa inhibiendo la beta-tubulina de los helmintos. El modelo TxGNN predice que podría ser efectivo para **Cenurosis (coenurosis)**, con un puntaje de 0.9983. Los datos compilados incluyen **9 ensayos clínicos** y **20 publicaciones**, pero casi todos estudian la neurocisticercosis, una enfermedad relacionada pero distinta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ALBENDAZOL |
-| Nueva Indicación Predicha | Coenurosis |
+| Nueva Indicación Predicha | Cenurosis (coenurosis) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | al menos 7 |
-| Decisión Recomendada | Proceed with Guardrails |
-
----
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Albendazol se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Esto altera la captación de glucosa y la integridad celular de las larvas de *Echinococcus multilocularis*. Es el mismo mecanismo antihelmíntico en el que se basa su uso establecido en la equinococosis quística.
+El mecanismo de acción detallado no figura en los datos compilados. Según lo conocido, albendazol inhibe la beta-tubulina y actúa contra larvas de cestodos, entre ellas los cisticercos de *Taenia solium* y los cenuros de *Taenia multiceps*, que son metacestodos emparentados.
 
-La equinococosis alveolar y la quística son enfermedades causadas por larvas de cestodos del género *Echinococcus*. Albendazol ya es el tratamiento parasitostático estándar de la forma alveolar. Por eso, el puntaje alto del modelo es coherente con la práctica clínica actual y **no representa una señal de reposicionamiento novedosa**.
+La cenurosis es una infección causada por larvas de cestodos, y la neurocisticercosis, que concentra los estudios clínicos disponibles, es una enfermedad de la misma familia biológica. Por ello la similitud mecanística hace plausible la predicción.
 
-Hay una limitación importante: la literatura indica que, en la equinococosis alveolar, los benzimidazoles no parecen ser parasiticidas *in vivo*. Por ello, el tratamiento suele ser prolongado y se combina con cirugía cuando es posible.
-
----
+Sin embargo, los estudios citados no analizan directamente la cenurosis. Respaldan un efecto de clase sobre larvas de cestodos, no la eficacia en esta enfermedad, por lo que el nivel de evidencia se limita a L5.
 
 ## Evidencia de Ensayos Clínicos
 
+Ninguno de los ensayos estudia directamente la cenurosis; todos evalúan neurocisticercosis o cisticercosis.
+
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT07182305](https://clinicaltrials.gov/study/NCT07182305) | Fase 2 | Completado | 194 | Albendazol en equinococosis alveolar en etapa temprana (Kirguistán). Es la evidencia directa más sólida del conjunto |
-| [NCT02876146](https://clinicaltrials.gov/study/NCT02876146) | N/A | Completado | 50 | Marcadores de viabilidad del parásito para el seguimiento de pacientes tratados con albendazol. No es un ensayo de eficacia |
-| [NCT06483880](https://clinicaltrials.gov/study/NCT06483880) | N/A | Desconocido | 24 | ECA de albendazol adyuvante tras resección de quiste hidatídico pulmonar (forma quística, relevancia indirecta) |
-
----
+| [NCT00133458](https://clinicaltrials.gov/study/NCT00133458) | Fase 3 | Retirado | 0 | Dos duraciones de albendazol en cisticercosis subaracnoidea; retirado sin participantes |
+| [NCT02243644](https://clinicaltrials.gov/study/NCT02243644) | Fase 3 | Completado | 97 | Comparación de dos duraciones de albendazol en neurocisticercosis con ≤5 lesiones |
+| [NCT00004403](https://clinicaltrials.gov/study/NCT00004403) | N/A | Completado | 120 | Albendazol en epilepsia por neurocisticercosis frente a placebo |
+| [NCT00441285](https://clinicaltrials.gov/study/NCT00441285) | Fase 2/3 | Completado | 156 | Praziquantel más albendazol en neurocisticercosis: seguridad y eficacia |
+| [NCT00290823](https://clinicaltrials.gov/study/NCT00290823) | Fase 3 | Completado | 110 | Dosis aumentada de corticoides en neurocisticercosis intraparenquimatosa (cuidado de soporte) |
+| [NCT02947581](https://clinicaltrials.gov/study/NCT02947581) | Fase 3 | Terminado | 107 | Albendazol más praziquantel en cisticercosis subaracnoidea; terminado antes de tiempo |
+| [NCT06376396](https://clinicaltrials.gov/study/NCT06376396) | Fase 4 | Aún sin reclutar | 300 | Praziquantel más albendazol frente a albendazol solo en neurocisticercosis parenquimatosa |
+| [NCT00283699](https://clinicaltrials.gov/study/NCT00283699) | Fase 3 | Completado | 178 | Estudio piloto de albendazol frente a tratamiento sintomático en neurocisticercosis |
+| [NCT06565507](https://clinicaltrials.gov/study/NCT06565507) | Fase 2/3 | Aún sin reclutar | 544 | Oxfendazol (otro fármaco) en cisticercosis parenquimatosa leve |
 
 ## Evidencia de Literatura
 
+La literatura es mayoritariamente de revisión y trata la neurocisticercosis.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [19931502](https://pubmed.ncbi.nlm.nih.gov/19931502/) | 2010 | Revisión | Acta Tropica | Consenso de expertos para el diagnóstico y tratamiento de la equinococosis quística y alveolar |
-| [30760475](https://pubmed.ncbi.nlm.nih.gov/30760475/) | 2019 | Revisión | Clinical Microbiology Reviews | Avances del siglo XXI en genética, diagnóstico y tratamiento de la equinococosis |
-| [39254012](https://pubmed.ncbi.nlm.nih.gov/39254012/) | 2024 | Revisión | Tidsskr Nor Laegeforen | Resección quirúrgica combinada con tratamiento prolongado en la enfermedad alveolar |
-| [40093668](https://pubmed.ncbi.nlm.nih.gov/40093668/) | 2025 | Revisión | World J Gastroenterol | Manejo actual de la equinococosis hepática; la cirugía es la base del tratamiento |
-| [25526545](https://pubmed.ncbi.nlm.nih.gov/25526545/) | 2014 | Revisión | Parasite | Albendazol y mebendazol como opciones actuales y búsqueda de alternativas |
-| [34808118](https://pubmed.ncbi.nlm.nih.gov/34808118/) | 2022 | Revisión | Acta Tropica | Ninguna opción no quirúrgica ha reemplazado aún a albendazol y mebendazol |
-| [10980173](https://pubmed.ncbi.nlm.nih.gov/10980173/) | 2000 | Estudio observacional | J Antimicrob Chemother | Comparación de mebendazol y albendazol a largo plazo en 35 pacientes con equinococosis alveolar |
-| [39508157](https://pubmed.ncbi.nlm.nih.gov/39508157/) | 2024 | Revisión | Parasitology | Albendazol no es parasiticida y puede causar efectos adversos graves; se propone reposicionar piroaridina |
-| [38501660](https://pubmed.ncbi.nlm.nih.gov/38501660/) | 2024 | Preclínico | Antimicrob Agents Chemother | Metabolismo y farmacología de formulaciones solubilizadas de albendazol en ratas con equinococosis alveolar |
-| [36974024](https://pubmed.ncbi.nlm.nih.gov/36974024/) | 2022 | Revisión | Chin J Schisto Control | Avances en el uso de albendazol para la equinococosis alveolar |
-
----
+| [30366559](https://pubmed.ncbi.nlm.nih.gov/30366559/) | 2018 | Revisión | Neurologic Clinics | Presentaciones clínicas y tratamiento según tipo y localización de las lesiones |
+| [24365429](https://pubmed.ncbi.nlm.nih.gov/24365429/) | 2014 | Revisión | Handbook of Clinical Neurology | Neurocisticercosis como causa principal de epilepsia adquirida |
+| [23829921](https://pubmed.ncbi.nlm.nih.gov/23829921/) | 2013 | Revisión | Handbook of Clinical Neurology | Epidemiología, ciclo de vida del parásito y manejo |
+| [32129220](https://pubmed.ncbi.nlm.nih.gov/32129220/) | 2020 | Revisión | Saudi J Kidney Dis Transplant | Manifestaciones neurológicas y diagnóstico por neuroimagen y serología |
+| [16170737](https://pubmed.ncbi.nlm.nih.gov/16170737/) | 2005 | Revisión | Seminars in Neurology | Enfermedad parasitaria frecuente del sistema nervioso en países en desarrollo |
+| [15853623](https://pubmed.ncbi.nlm.nih.gov/15853623/) | 2004 | Revisión | Expert Rev Neurother | Albendazol como medicamento de elección en neurocisticercosis con múltiples quistes viables |
+| [22702323](https://pubmed.ncbi.nlm.nih.gov/22702323/) | 2012 | Revisión | Expert Rev Anti Infect Ther | Granuloma solitario por cisticerco, forma frecuente en India |
+| [28233725](https://pubmed.ncbi.nlm.nih.gov/28233725/) | 2017 | Reporte de caso | J Infect Public Health | Neurocisticercosis racemosa en un niño de 12 años |
+| [29884714](https://pubmed.ncbi.nlm.nih.gov/29884714/) | 2018 | Reporte de caso | BMJ Case Reports | Cisticercosis orbitaria con diagnóstico basado en serología |
+| [1894783](https://pubmed.ncbi.nlm.nih.gov/1894783/) | 1991 | Reporte de caso | J Am Acad Dermatol | Cisticercosis subcutánea; opciones: cirugía, praziquantel y albendazol |
 
 ## Información de Mercado en Colombia
 
-Los siete registros sanitarios están **cancelados**; actualmente no hay productos vigentes con albendazol en los datos compilados.
+Siete registros sanitarios de albendazol de ingrediente único figuran como vigentes; la lista puede ser parcial.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -105,37 +105,24 @@ Los siete registros sanitarios están **cancelados**; actualmente no hay product
 | 19929550 | Albendazol 200 mg (American Generics) | Tableta recubierta | ALBENDAZOL |
 | 19928206 | Albendazol suspensión (American Generics) | Suspensión oral | ALBENDAZOL |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no son texto de prospecto):** enfermedad hepática, enfermedad de la vesícula biliar, neutropenia, agranulocitosis, anemia (incluida la macrocítica), pancitopenia y anemia aplásica.
-- **Interacciones farmacológicas:** se registraron 96 interacciones. Entre las de nivel moderado figuran aprepitant, cobicistat, deferasirox, yoduro I-123 e I-131, fostamatinib, alemtuzumab, amprenavir, anagrelida, apalutamida, bendamustina, bexaroteno, binimetinib, boceprevir y bosentán. Entre las de nivel menor figuran cimetidina, dexametasona, lidocaína y armodafinilo.
-
-Consultar el prospecto para el resto de la información de seguridad.
-
----
+- **Interacciones Farmacológicas**: se registran 96 interacciones. Entre las de nivel moderado figuran aprepitant, cobicistat, deferasirox, yoduro I-123, yoduro I-131, fostamatinib, alemtuzumab, amprenavir, anagrelida, apalutamida, bendamustina, bexaroteno, binimetinib, boceprevir y bosentán. Entre las de nivel menor, cimetidina, dexametasona, lidocaína y armodafinilo.
+- **Condiciones de precaución registradas**: enfermedad hepática, enfermedad de la vesícula biliar, neutropenia, agranulocitosis, anemia (incluida la macrocítica), pancitopenia y anemia aplásica.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 2 completado (n=194) que prueba albendazol directamente en equinococosis alveolar temprana, además de abundante literatura que respalda su uso como tratamiento parasitostático estándar. La predicción coincide con la práctica clínica establecida y no constituye un reposicionamiento novedoso. Además, no hay productos vigentes en Colombia.
+Ningún ensayo ni publicación estudia directamente la cenurosis. La evidencia disponible, centrada en la neurocisticercosis, sólo respalda un efecto de clase sobre larvas de cestodos, por lo que el nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales
-- Completar los datos del mecanismo de acción desde DrugBank
-- Verificar si existe algún producto con albendazol vigente en Colombia, o iniciar un nuevo registro
-- Plan de monitoreo de hemograma y función hepática, por las contraindicaciones del grafo de conocimiento
-- Revisar las interacciones farmacológicas relevantes antes de prescribir
-- Confirmar la adecuación de la duración y la dosis del tratamiento prolongado, dado que el fármaco no es parasiticida en la forma alveolar
+- Estudios o series de casos que evalúen albendazol directamente en cenurosis
+- Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto
+- Plan de seguridad con vigilancia hepática y hematológica, uso de corticoides y confirmación por imagen de la localización de los quistes (especialmente lesiones oculares y ventriculares)
+- Revisión de las interacciones farmacológicas relevantes
 
----
-
-## Otras Indicaciones Predichas (Referencia)
-
-- **Coenurosis** (puntaje 0.9983, nivel L1): los ensayos de Fase 3 son sobre neurocisticercosis, una enfermedad relacionada pero distinta, por lo que respaldan el efecto de clase y no la coenurosis directamente.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
