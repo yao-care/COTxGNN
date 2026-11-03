@@ -15,6 +15,7 @@ Los niveles de evidencia van de L1 (evidencia clínica más sólida) a L5 (solo 
 - `/` Predicciones de Reposicionamiento de Medicamentos — Predicciones de reposicionamiento de medicamentos impulsadas por IA para Colombia. Análisis basado en evidencia de medicamentos aprobados para posibles nuevas indicaciones terapéuticas.
 - `/drugs/` Todos los Medicamentos — Todos los informes de validación de medicamentos y las estadísticas por nivel de evidencia en COTxGNN.
 - `/evidence-high/` Evidencia Alta (L1-L2) — Candidatos L1-L2 de reposicionamiento de medicamentos en COTxGNN, respaldados por ensayos clínicos o revisiones sistemáticas.
+- `/clinical-trial-evidence/` Medicamentos en Colombia con ensayos para nueva indicación — Medicamentos con registro sanitario del INVIMA cuya nueva indicación predicha por TxGNN tiene evidencia de ensayos clínicos (L1-L2): indicación y nivel.
 - `/evidence-medium/` Evidencia Moderada (L3-L4) — Candidatos L3-L4 de reposicionamiento de medicamentos en COTxGNN, respaldados por evidencia observacional o preclínica.
 - `/evidence-low/` Solo Predicción del Modelo (L5) — Candidatos L5 en COTxGNN: solo predicción del modelo, aún sin evidencia clínica ni de literatura.
 - `/methodology/` Metodología — Cómo COTxGNN genera y valida sus predicciones: predicción con el modelo TxGNN (aprendizaje profundo), recolección de evidencia, clasificación L1-L5 y recomendaciones de decisión.

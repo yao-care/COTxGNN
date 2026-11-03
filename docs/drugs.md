@@ -36,6 +36,8 @@ Esta lista se basa en los datos de registro de [INVIMA](https://www.invima.gov.c
 
 <!-- local-home:end -->
 
+Selección: [Medicamentos en Colombia con evidencia de ensayos clínicos para una nueva indicación]({{ '/clinical-trial-evidence/' | relative_url }}) (L1–L2, con la indicación predicha y el número de ensayos registrados citados).
+
 ## Desglose por nivel de evidencia
 
 | Nivel de evidencia | Medicamentos | Descripción |
