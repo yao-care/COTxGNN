@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -133,6 +133,7 @@ Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de 
 |------|------|------|------|
 | Carcinoma renal | 0.9966 | L1 | Proceed with Guardrails (uso ya establecido; respaldado por ensayos de fase 3 como CheckMate 9ER, METEOR y CONTACT-03) |
 | Liposarcoma mixoide ovárico, carcinoma renal asociado a neuroblastoma, esclerosis lateral amiotrófica, polimicrogiria parieto-occipital parasagital bilateral, angiolipoma | 0.9962–0.9980 | L5 | Hold (solo predicción computacional, sin evidencia) |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

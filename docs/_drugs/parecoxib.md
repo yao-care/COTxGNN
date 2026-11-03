@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -120,6 +120,7 @@ La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y t
 |------|------|------|------|
 | Migraña con aura de tronco encefálico | 0.9946 | L5 | Hold (solo predicción; evidencia extrapolada de migraña general) |
 | Hipertensión pulmonar | 0.9909 | L5 | Hold (solo un estudio animal en lechones; sugiere ausencia de beneficio o posible daño, no eficacia) |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

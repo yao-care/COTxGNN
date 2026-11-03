@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 598
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Sumatriptan: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Sumatriptan son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha. Esta página recoge los usos conocidos identificados y la situación de mercado en Colombia.
 
 ## Vista rápida
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Sumatript
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | migraña con aura del tronco encefálico (migraine with brainstem aura) | licencia en otro país; indicación aprobada: migraine |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

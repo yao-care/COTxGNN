@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-03
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
@@ -137,6 +137,7 @@ Todas con recomendación **Hold**:
 | Artritis bacteriana | 0.9911 | L3 | Mecanismo coherente, pero sin ensayos y con resistencia en *S. aureus* |
 | Conjuntivitis | 0.9904 | L4 | Evidencia microbiológica; el estándar son agentes tópicos |
 | Pericoronitis | 0.9904 | L4 | Faltan datos específicos; el tratamiento principal es el desbridamiento local |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

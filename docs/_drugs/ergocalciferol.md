@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "hypophosphatemia (disease)", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Ergocalciferol: nueva indicación predicha, Displasia acromesomélica, tipo Campailla-Martinelli (nivel de evidencia L5). Indicación original: COMBINACIONES"
 ---
 
@@ -105,6 +105,7 @@ La predicción para la displasia acromesomélica se basa solo en el puntaje del 
 | Acidosis tubular renal | 0.9981 | L5 | Hold | Solo dos reportes de casos no relacionados con el tratamiento. |
 | Conodisplasia craneofacial | 0.9981 | L5 | Hold | Sin evidencia ni racional mecanístico. |
 | Síndrome de calcio-álcali | 0.9946 | L5 | Hold | La vitamina D puede agravar la hipercalcemia, por lo que existe una posible preocupación de seguridad. |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 608
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Tazobactam: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Tazobactam corresponden todos a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. A continuación se detalla el origen de cada uso conocido y el estado de comercialización en Colombia.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Tazobacta
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Neumonía (pneumonia) | Licencia en otro país; indicación aprobada: hospital-acquired pneumonia (hap), including ventilator associated pneumonia (vap). consideration should be given to official guidance on the appropriate use of antibacterial agents |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Infección de las vías urinarias (urinary tract infection (disease)) | urinary tract infection |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

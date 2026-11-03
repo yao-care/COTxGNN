@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 539
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Propofol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Propofol"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -143,6 +143,7 @@ Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (
 | Angina de Prinzmetal | 0.9923 | L4 | Hold | Solo reportes de caso de espasmo coronario durante anestesia; señal de seguridad, no terapéutica |
 | Síndrome nefrogénico de antidiuresis inapropiada | 0.9920 | L5 | Hold | Sin ensayos ni literatura; no se identifica vía mecanística plausible |
 | Síndrome de Tourette | 0.9903 | L4 | Hold | Solo estudios de sedación durante cirugía de estimulación cerebral profunda; no evalúan eficacia terapéutica |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

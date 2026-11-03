@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-03
 description: "Amantadine: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: AMANTADINA"
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
@@ -123,6 +123,7 @@ Las demás predicciones del modelo tienen también puntajes altos pero evidencia
 | Deficiencia de transaldolasa | 0.9927 | L5 | Hold | Sin evidencia ni vínculo mecanístico identificable |
 | Mielitis | 0.9924 | L4 | Pregunta de investigación | 8 publicaciones, todas sobre síndrome post-polio y fatiga (evidencia indirecta). Incluye un ECA doble ciego de 1995 sobre fatiga (PMID 7611638); las revisiones y guías no respaldan un beneficio claro |
 | Neurodegeneración asociada a PLA2G6 | 0.9923 | L4 | Pregunta de investigación | Una sola publicación (PMID 31366412), sobre otra enfermedad (PKAN); evidencia indirecta y solo sintomática |
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

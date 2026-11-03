@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 480
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Olaparib: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Olaparib son todos usos ya conocidos, por lo que actualmente no hay ninguna nueva indicación predicha. El único candidato identificable pertenece a la misma categoría de enfermedad que una indicación aprobada. Esta página resume esos usos conocidos y el estado de comercialización en Colombia.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Olaparib 
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Carcinoma de mama femenino (female breast carcinoma) | cáncer de mama (breast cancer) |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

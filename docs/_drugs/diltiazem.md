@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 222
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Diltiazem: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Diltiazem son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. La información de esta página describe los usos conocidos y el estado de mercado en Colombia.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Diltiazem
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | Angina de Prinzmetal (Prinzmetal angina) | Licencia en otro país; indicación aprobada: angina |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

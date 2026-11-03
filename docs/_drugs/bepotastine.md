@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 103
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Bepotastine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotastine son todos usos ya conocidos, por lo que actualmente no hay ninguna nueva indicación predicha. El único uso conocido identificado es la urticaria alérgica (allergic urticaria), respaldada por la etiqueta oficial. En Colombia el medicamento figura como comercializado.
 
 ## Vista rápida
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotasti
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por un registro o una etiqueta)
+
 | Indicación | Fuente |
 |------|------|
 | urticaria alérgica (allergic urticaria) | etiqueta oficial (curada); indicación aprobada: urticaria |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

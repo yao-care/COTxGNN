@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 293
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Flunarizine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo TxGNN propone para Flunarizine (puntuación ≥ 0,99) son, en todos los casos rastreables a una fuente, usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. A continuación se detalla el uso conocido identificado y el estado de mercado en Colombia.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables a una fuente son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo TxGNN propone para Flunarizine (puntuación ≥ 0,9
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobado (respaldado por un registro sanitario o una ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | migraña (migraine disorder) | ficha técnica oficial (curada); indicación aprobada: migraine |
 
 ### Relacionado con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

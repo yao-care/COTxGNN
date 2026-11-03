@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 115
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Brinzolamide: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Todos los candidatos que el modelo TxGNN propone para Brinzolamide, y que se pueden rastrear hasta una fuente, corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco. A continuación se detallan los usos conocidos y su situación de mercado en Colombia.
 
 ## Vista rápida
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo que se pueden rastrear son usos conocidos) |
@@ -52,16 +53,19 @@ Todos los candidatos que el modelo TxGNN propone para Brinzolamide, y que se pue
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | glaucoma primario hereditario (primary hereditary glaucoma) | licencia en otro país; indicación aprobada: glaucoma |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

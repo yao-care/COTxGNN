@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 618
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Teriflunomide: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Todos los candidatos que el modelo TxGNN propone para Teriflunomide (puntuación ≥ 0,99) y que pueden rastrearse a una fuente corresponden a usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo rastreables son usos conocidos) |
@@ -52,16 +53,19 @@ Todos los candidatos que el modelo TxGNN propone para Teriflunomide (puntuación
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o ficha técnica)
+
 | Indicación | Fuente |
 |------|------|
 | esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) | Licencia en otro país; indicación aprobada: multiple sclerosis |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | — |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |

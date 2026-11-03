@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 19
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-03
 description: "Acetaminophen: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -41,6 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0.99) generó para Acetaminophen son todos usos ya conocidos. Por ello, actualmente no hay ninguna nueva indicación predicha para este fármaco.
 
 ## Resumen rápido
+
 | Elemento | Contenido |
 |------|------|
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
@@ -52,16 +53,19 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0.99
 ## Usos conocidos entre los candidatos del modelo
 
 ### Aprobados (respaldados por una licencia o etiqueta)
+
 | Indicación | Fuente |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relacionados con una indicación aprobada (misma categoría de enfermedad)
+
 | Indicación | Categoría aprobada |
 |------|------|
 | Ninguna | Ninguna |
 
 ### Relaciones registradas en el grafo de conocimiento (sin aprobación encontrada)
+
 | Indicación |
 |------|
 | Ninguna |
