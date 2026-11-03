@@ -21,7 +21,7 @@ Cada conclusión se remonta a una fuente de datos pública: nada es una caja neg
 <tr><th>Tipo</th><th>Fuente</th><th>Se usa para</th></tr>
 </thead>
 <tbody>
-<tr><td>Datos de registro sanitario</td><td><a href="https://www.invima.gov.co/">INVIMA</a></td><td>Listado de medicamentos aprobados y sus principios activos en Colombia</td></tr>
+<tr><td>Datos de registro sanitario</td><td><a href="https://www.invima.gov.co/">INVIMA</a></td><td>Medicamentos de Colombia con sus principios activos y el estado de cada registro sanitario (CUM)</td></tr>
 <tr><td>Modelo de predicción</td><td><a href="https://zitniklab.hms.harvard.edu/projects/TxGNN/">TxGNN</a></td><td>Predicción de asociaciones entre medicamentos y enfermedades</td></tr>
 <tr><td>Ensayos clínicos</td><td><a href="https://clinicaltrials.gov/">ClinicalTrials.gov</a></td><td>Clasificación de la evidencia (NCT)</td></tr>
 <tr><td>Literatura</td><td><a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a></td><td>Clasificación de la evidencia (PMID)</td></tr>
@@ -29,6 +29,22 @@ Cada conclusión se remonta a una fuente de datos pública: nada es una caja neg
 <tr><td>Interacciones</td><td><a href="https://ddinter2.scbdd.com/">DDInter</a></td><td>Datos de interacciones entre medicamentos</td></tr>
 </tbody>
 </table>
+
+---
+
+## Datos locales de este sitio
+
+Los medicamentos de Colombia y el estado de su registro sanitario provienen del Código Único de
+Medicamentos (CUM) del INVIMA, publicado como datos abiertos en datos.gov.co. El INVIMA divide el CUM en
+cuatro conjuntos de datos según el estado del registro.
+
+| Ítem | Detalle |
+|------|---------|
+| Conjunto de datos | CUM del INVIMA: vigentes (`i7cb-raxc`), en trámite de renovación (`vgr4-gemg`), otros estados (`spzp-dfuc`) y vencidos (`vwwf-4ftk`) |
+| Publicador | INVIMA, portal de datos abiertos datos.gov.co |
+| Descarga | <https://www.datos.gov.co/resource/i7cb-raxc.json> (los otros tres conjuntos usan la misma dirección con su identificador) |
+| Identificador de producto | Número de expediente |
+| Actualización | Descarga automática semanal (cada lunes); cada expediente toma el estado del INVIMA (Vigente, En trámite de renovación, Vencido, Cancelado…); un expediente que no aparece en los datos nuevos conserva su estado anterior |
 
 ---
 
@@ -47,7 +63,7 @@ Cada fuente tiene su propia licencia; por favor revísela antes de citar:
 
 | Datos | Frecuencia |
 |------|-----------|
-| Datos de registro sanitario | Según la publicación de la autoridad regulatoria |
+| CUM del INVIMA (datos.gov.co) | Semanal (cada lunes) |
 | Evidencia de ensayos / literatura | Recolectada nuevamente de forma periódica |
 | Datos de interacciones | Revisados trimestralmente |
 
@@ -62,18 +78,8 @@ Cada fuente tiene su propia licencia; por favor revísela antes de citar:
 
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-COTxGNN es el sitio de Colombia de la línea de productos "TxGNN Drug Repurposing" de la compañía.
-El mismo sistema está desplegado en 30 países y regiones, cada uno con el nombre `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado en
-*Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó sobre ese
-modelo, y abarca la integración de datos nacionales de registro sanitario, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la clasificación de evidencia de PubMed /
-ClinicalTrials y la integración con historias clínicas electrónicas mediante SMART on FHIR.
+Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
 
 ---
 
