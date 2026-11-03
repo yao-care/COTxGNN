@@ -38,8 +38,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Triptorelina es un agonista de la hormona liberadora de gonadotropinas (GnRH) que suprime la producción de hormonas sexuales.
-El modelo TxGNN predice que podría ser efectivo para **Hipertricosis (hypertrichosis (disease))**, pero **no hay ensayos clínicos** y solo hay **1 publicación** (un reporte de caso sobre hipertricosis inducida por ciclosporina), que no demuestra que triptorelina trate esta condición.
+Triptorelina es un agonista de la hormona liberadora de gonadotropinas (GnRH) que cuenta con registros sanitarios en Colombia.
+El modelo TxGNN predice que podría ser útil para **Hipertricosis (hypertrichosis (disease))**, pero la evidencia es de nivel **L5**: no hay ensayos clínicos y la única publicación disponible es un reporte de caso de hipertricosis inducida por ciclosporina que no demuestra un efecto de la triptorelina sobre esta condición.
 
 ## Resumen Rápido
 
@@ -55,11 +55,11 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis (hypertric
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, triptorelina es un agonista de GnRH: tras una estimulación inicial, desensibiliza el receptor hipofisario y reduce la liberación de LH y FSH, con la consiguiente disminución de hormonas sexuales.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, la triptorelina es un agonista de la GnRH que, con el uso continuado, suprime la liberación de gonadotropinas y reduce las hormonas sexuales.
 
-En teoría, la supresión androgénica podría influir en el crecimiento de vello dependiente de andrógenos (hirsutismo). Sin embargo, esto es distinto de la hipertricosis generalizada, que no depende de andrógenos. No se identifica un vínculo mecanístico creíble entre triptorelina y esta condición.
+En teoría, la supresión androgénica podría influir en el crecimiento del vello dependiente de andrógenos (hirsutismo). Sin embargo, la hipertricosis generalizada es una condición distinta, por lo que no se identifica un vínculo mecanístico creíble entre la triptorelina y su tratamiento.
 
-La única publicación recuperada describe hipertricosis causada por ciclosporina en una mujer transgénero que ya recibía triptorelina y estradiol. Este caso muestra que la hipertricosis apareció a pesar de la supresión androgénica, por lo que no respalda un beneficio terapéutico. El puntaje alto del modelo no se apoya, por tanto, en evidencia clínica.
+La única publicación recuperada describe a una mujer transgénero que desarrolló hipertricosis por ciclosporina mientras tomaba estradiol y triptorelina. Esto indica que la hipertricosis apareció a pesar de la supresión androgénica, y no que la triptorelina la trate. El puntaje alto del modelo debe interpretarse como una hipótesis sin respaldo clínico.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -69,35 +69,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Reporte de caso | Cureus | Mujer transgénero de 25 años con psoriasis en placas que desarrolló hipertricosis generalizada por ciclosporina mientras recibía estradiol y triptorelina; no evidencia que triptorelina trate la hipertricosis |
+| [41822646](https://pubmed.ncbi.nlm.nih.gov/41822646/) | 2026 | Reporte de caso | Cureus | Hipertricosis generalizada inducida por ciclosporina en una mujer transgénero de 25 años con psoriasis en placas que recibía estradiol y triptorelina; no evalúa a la triptorelina como tratamiento. |
 
 ## Información de Mercado en Colombia
-
-Existen al menos 2 registros sanitarios y la lista puede ser parcial. Al menos uno está vigente.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 19982483 | GONAPEPTYL® DEPOT | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Temp. no comerc - Vigente |
 | 19931457 | DIPHERELINE® 3.75 MG | Polvo estéril para reconstituir a suspensión inyectable | TRIPTORELIN | Vigente |
 
+Los registros mostrados pueden ser una lista parcial.
+
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 262 interacciones en total. La más grave es con **dolasetrón** (nivel mayor). Entre las de nivel moderado figuran antidiabéticos (acarbosa, metformina, pioglitazona, alogliptina, canagliflozina, dapagliflozina, empagliflozina, glimepirida, clorpropamida, saxagliptina, albiglutida, dulaglutida), famotidina, claritromicina, palonosetrón, loperamida, bisacodilo, ácido picosulfúrico y polietilenglicol con electrolitos.
+- **Interacciones Farmacológicas**: se identificaron 262 posibles interacciones. Entre las principales mostradas, la de **dolasetrón** es de nivel mayor. Las demás listadas son de nivel moderado e incluyen antidiabéticos (acarbosa, metformina, pioglitazona, glimepirida, clorpropamida, alogliptina, saxagliptina, canagliflozina, dapagliflozina, empagliflozina, albiglutida, dulaglutida), famotidina, claritromicina, palonosetrón, loperamida, bisacodilo, ácido picosulfúrico y polietilenglicol con electrolitos.
 
-Para advertencias y contraindicaciones, consultar el prospecto.
+Consultar el prospecto para el resto de la información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios que evalúen directamente a triptorelina para hipertricosis; la única publicación es un reporte de caso de hipertricosis causada por otro fármaco. No existe un vínculo mecanístico creíble, por lo que el nivel de evidencia es L5.
+La predicción se apoya solo en el modelo (nivel de evidencia L5): no hay ensayos clínicos ni estudios que evalúen la triptorelina como tratamiento de la hipertricosis, y el único reporte de caso describe una hipertricosis causada por otro fármaco.
 
 **Para avanzar se necesita:**
-- Datos del mecanismo de acción de triptorelina
-- Estudios que evalúen directamente su efecto sobre la hipertricosis
-- Revisión del prospecto aprobado en INVIMA para advertencias y contraindicaciones
-- Evaluación de seguridad previa a cualquier consideración clínica
+- Datos del mecanismo de acción de la triptorelina y un fundamento biológico plausible para la hipertricosis
+- Estudios preclínicos o clínicos que evalúen directamente la triptorelina en esta condición
+- Revisión del prospecto aprobado en Colombia para completar advertencias y contraindicaciones
 
 ## Descargo de responsabilidad
 
