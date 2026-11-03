@@ -4,17 +4,17 @@ title: Laronidase
 parent: Solo Predicción del Modelo (L5)
 nav_order: 381
 evidence_level: L5
-indication_count: 2
-last_modified_at: 2026-10-31
-description: "Laronidase: nueva indicación predicha, Enfermedad de depósito lisosomal con compromiso esquelético (nivel de evidencia L3). Indicación original: Laronidasa"
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "laronidase"
-predicted_indications: ["lysosomal storage disease with skeletal involvement", "Sanfilippo syndrome"]
+predicted_indications: ["Sanfilippo syndrome"]
+description: "Laronidase: nueva indicación predicha, Sanfilippo syndrome (nivel de evidencia L5). Indicación original: LARONIDASA"
 ---
 
 # Laronidase
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 </div>
 
-## Laronidasa: De Mucopolisacaridosis tipo I (terapia de reemplazo enzimático) a Enfermedad de Depósito Lisosomal con Compromiso Esquelético
+## Laronidase: Sanfilippo syndrome
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Laronidasa es una alfa-L-iduronidasa recombinante, comercializada en Colombia como Aldurazyme® y utilizada como terapia de reemplazo enzimático en la mucopolisacaridosis tipo I (MPS I).
-El modelo TxGNN predice que podría ser efectiva para la **enfermedad de depósito lisosomal con compromiso esquelético**, aunque se trata en gran medida de un uso dentro de la indicación o muy cercano a ella, no de un reposicionamiento real.
 La evidencia es de **0 ensayos clínicos** y **4 publicaciones** (revisiones, un estudio in vitro y un reporte de caso).
 
 ---
@@ -48,9 +47,9 @@ La evidencia es de **0 ensayos clínicos** y **4 publicaciones** (revisiones, un
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Laronidasa (el registro sanitario solo indica el nombre del principio activo) |
-| Nueva Indicación Predicha | Enfermedad de depósito lisosomal con compromiso esquelético |
-| Puntaje de Predicción TxGNN | 0.9931 |
+| Indicación Original | LARONIDASA |
+| Nueva Indicación Predicha | Sanfilippo syndrome |
+| Puntaje de Predicción TxGNN | 0.9922 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
 | Número de Registros Sanitarios | 1 (vigentes: 1) |

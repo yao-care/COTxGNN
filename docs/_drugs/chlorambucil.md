@@ -4,17 +4,17 @@ title: Chlorambucil
 parent: Solo Predicción del Modelo (L5)
 nav_order: 150
 evidence_level: L5
-indication_count: 7
+indication_count: 5
 monitor_inn: "chlorambucil"
-predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-10-28
-description: "Chlorambucil: nueva indicación predicha, Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas pregerminal (pregerminal center chronic lymphocyti… (nivel de evidencia L5). Indicación o…"
+predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
+last_modified_at: 2026-11-03
+description: "Chlorambucil: nueva indicación predicha, ALK-positive large B-cell lymphoma (nivel de evidencia L5). Indicación original: CLORAMBUCIL"
 ---
 
 # Chlorambucil
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,22 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Clorambucilo: agente alquilante tipo mostaza nitrogenada → leucemia linfocítica crónica/linfoma linfocítico de células pequeñas pregerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)
+## Chlorambucil: ALK-positive large B-cell lymphoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Clorambucilo es un agente alquilante del ADN (mostaza nitrogenada) con uso histórico en neoplasias hematológicas.
-El modelo TxGNN predice que podría ser efectivo para la **leucemia linfocítica crónica/linfoma linfocítico de células pequeñas pregerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma)**,
-pero **no hay ensayos clínicos** y solo **1 publicación** (una revisión de 2003 sin datos específicos del fármaco para este subtipo) respalda esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | CLORAMBUCIL |
-| Nueva Indicación Predicha | Leucemia linfocítica crónica/linfoma linfocítico de células pequeñas pregerminal (pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma) |
-| Puntaje de Predicción TxGNN | 0,9972 |
+| Nueva Indicación Predicha | ALK-positive large B-cell lymphoma |
+| Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
 | Número de Registros Sanitarios | 1 (vigentes: 1) |
@@ -103,7 +101,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0,9972), pero no hay ensayos ni estudios que evalúen el clorambucilo en este subtipo. Además, los tratamientos modernos han desplazado al fármaco en la enfermedad con IGHV sin mutar, por lo que el interés es sobre todo de investigación.
+Además, los tratamientos modernos han desplazado al fármaco en la enfermedad con IGHV sin mutar, por lo que el interés es sobre todo de investigación.
 
 **Para avanzar se necesita:**
 - Datos de eficacia del clorambucilo específicos para CLL/SLL con IGHV sin mutar, comparados con los estándares actuales

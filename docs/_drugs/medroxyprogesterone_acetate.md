@@ -4,17 +4,17 @@ title: Medroxyprogesterone Acetate
 parent: Solo Predicción del Modelo (L5)
 nav_order: 422
 evidence_level: L5
-indication_count: 7
-last_modified_at: 2026-10-31
-description: "Medroxyprogesterone Acetate: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Medroxiprogesterona"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Medroxyprogesterone acetate"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Medroxyprogesterone Acetate: nueva indicación predicha, Breast fibrocystic disease (nivel de evidencia L5). Indicación original: MEDROXIPROGESTERONA"
 ---
 
 # Medroxyprogesterone Acetate
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Acetato de medroxiprogesterona: De Medroxiprogesterona (uso registrado) a Amenorrea
+## Medroxyprogesterone Acetate: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 El acetato de medroxiprogesterona (MPA) es una progestina sintética, registrada en Colombia bajo licencias de INVIMA como medroxiprogesterona (tabletas y suspensión inyectable).
-El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay ensayos clínicos registrados y la literatura recuperada trata sobre todo de anticoncepción, por lo que la evidencia directa es muy limitada.
 
 ---
 
@@ -47,9 +46,9 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Medroxiprogesterona (el registro sanitario no detalla una indicación específica) |
-| Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 1.0000 |
+| Indicación Original | MEDROXIPROGESTERONA |
+| Nueva Indicación Predicha | Breast fibrocystic disease |
+| Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 3 |
@@ -116,7 +115,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no existen ensayos clínicos y la literatura disponible no evalúa el MPA como tratamiento de la amenorrea. Además, los tres registros sanitarios están cancelados y faltan datos de seguridad del prospecto, lo que impide avanzar con seguridad.
+Además, los tres registros sanitarios están cancelados y faltan datos de seguridad del prospecto, lo que impide avanzar con seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.

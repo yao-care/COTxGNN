@@ -4,17 +4,17 @@ title: Progesterone
 parent: Evidencia Alta (L1-L2)
 nav_order: 537
 evidence_level: L2
-indication_count: 7
-last_modified_at: 2026-10-31
-description: "Progesterone: nueva indicación predicha, Amenorrea (nivel de evidencia L2). Indicación original: PROGESTERONA"
+indication_count: 6
+last_modified_at: 2026-11-03
 monitor_inn: "Progesterone"
-predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
+description: "Progesterone: nueva indicación predicha, Breast fibrocystic disease (nivel de evidencia L2). Indicación original: PROGESTERONA"
 ---
 
 # Progesterone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **7**
 
 </div>
 
-## Progesterona: De Progesterona (registro INVIMA) a Amenorrea
+## Progesterone: Breast fibrocystic disease
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 La progesterona es una hormona esteroide natural, registrada en Colombia bajo el texto de indicación "PROGESTERONA" (cápsulas blandas de 100 mg).
-El modelo TxGNN predice que podría ser efectiva para **amenorrea**, con **4 ensayos clínicos** (principalmente estudios de reemplazo estrogénico en mujeres hipoestrogénicas, donde la progesterona probablemente actúa como cotratamiento cíclico) y **19 publicaciones** que respaldan esta dirección.
 
 ---
 
@@ -47,9 +46,9 @@ El modelo TxGNN predice que podría ser efectiva para **amenorrea**, con **4 ens
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | PROGESTERONA (el registro no detalla una indicación específica) |
-| Nueva Indicación Predicha | Amenorrea |
-| Puntaje de Predicción TxGNN | 1.0000 |
+| Indicación Original | PROGESTERONA |
+| Nueva Indicación Predicha | Breast fibrocystic disease |
+| Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 1 |

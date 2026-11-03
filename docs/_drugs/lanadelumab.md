@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lanadelumab
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 377
-evidence_level: L1
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Lanadelumab: nueva indicación predicha, Deficiencia de inhibidor de C1 (nivel de evidencia L1). Indicación original: Lanadelumab"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "LANADELUMAB"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
+description: "Lanadelumab: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: LANADELUMAB"
 ---
 
 # Lanadelumab
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 </div>
 
-## Lanadelumab: De Lanadelumab (indicación no detallada en el registro) a Deficiencia de Inhibidor de C1
+## Lanadelumab: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Lanadelumab es un anticuerpo monoclonal humano que inhibe la calicreína plasmática. En el registro sanitario colombiano figura solo con su nombre genérico, sin texto de indicación detallado.
-El modelo TxGNN predice que podría ser efectivo para la **deficiencia de inhibidor de C1** (angioedema hereditario, AEH), con **5 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección.
 Cabe aclarar que esta predicción coincide con la indicación ya establecida del fármaco (profilaxis del AEH), por lo que no es un reposicionamiento en sentido estricto.
 
 ---
@@ -48,10 +47,10 @@ Cabe aclarar que esta predicción coincide con la indicación ya establecida del
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Lanadelumab (el registro INVIMA solo repite el nombre del fármaco; no describe la indicación) |
-| Nueva Indicación Predicha | Deficiencia de inhibidor de C1 |
-| Puntaje de Predicción TxGNN | 1.0000 |
-| Nivel de Evidencia | L1 |
+| Indicación Original | LANADELUMAB |
+| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Proceed with Guardrails |

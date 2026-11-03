@@ -4,17 +4,17 @@ title: Risperidone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 566
 evidence_level: L5
-indication_count: 5
-last_modified_at: 2026-10-31
+indication_count: 4
+last_modified_at: 2026-11-03
 monitor_inn: "Risperidone"
-predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania", "major affective disorder"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: RISPERIDONA"
 ---
 
 # Risperidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -38,9 +38,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Risperidona es un antipsicótico atípico, utilizado originalmente para el tratamiento de la esquizofrenia, los episodios maníacos del trastorno bipolar y la irritabilidad asociada al autismo. El modelo TxGNN predice que podría ser efectivo para el **trastorno afectivo mayor**, con **11 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+Risperidona es un antipsicótico atípico, utilizado originalmente para el tratamiento de la esquizofrenia, los episodios maníacos del trastorno bipolar y la irritabilidad asociada al autismo.
 
-Nota: el modelo generó varias predicciones. La primera por puntaje (parálisis de la mirada familiar con escoliosis progresiva) carece por completo de evidencia. Este informe se centra en el trastorno afectivo mayor, que es la predicción con mayor respaldo clínico.
+Nota: el modelo generó varias predicciones. La primera por puntaje (parálisis de la mirada familiar con escoliosis progresiva) carece por completo de evidencia.
 
 ---
 

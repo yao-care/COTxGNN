@@ -4,17 +4,17 @@ title: Fenticonazole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 282
 evidence_level: L5
-indication_count: 6
+indication_count: 4
 monitor_inn: "fenticonazole"
-predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvovaginitis", "vulvitis", "herpetic vulvovaginitis", "vaginitis (disease)"]
-last_modified_at: 2026-10-28
+predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
+last_modified_at: 2026-11-03
 description: "Fenticonazole: nueva indicación predicha, Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: COMBINACIONES DE IMIDAZOL DERIVADOS"
 ---
 
 # Fenticonazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 </div>
 
-## Fenticonazol: antimicótico imidazólico tópico → Vulvovaginitis tricomonásica (trichomonal vulvovaginitis)
+## Fenticonazole: Vulvovaginitis tricomonásica (trichomonal vulvovaginitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -48,7 +48,7 @@ pero actualmente no hay ensayos clínicos registrados ni estudios que evalúen d
 |------|------|
 | Indicación Original | COMBINACIONES DE IMIDAZOL DERIVADOS; FENTICONAZOL |
 | Nueva Indicación Predicha | Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) |
-| Puntaje de Predicción TxGNN | 0,9950 |
+| Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
 | Número de Registros Sanitarios | 3 (vigentes: 3) |

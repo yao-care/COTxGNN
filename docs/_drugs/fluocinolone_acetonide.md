@@ -4,17 +4,17 @@ title: Fluocinolone Acetonide
 parent: Solo Predicción del Modelo (L5)
 nav_order: 294
 evidence_level: L5
-indication_count: 4
+indication_count: 1
 monitor_inn: "fluocinolone acetonide"
-predicted_indications: ["annular atrophic lichen planus", "hypertrophic lichen planus", "lichen planus pigmentosus", "lichen planus pemphigoides"]
-last_modified_at: 2026-10-28
-description: "Fluocinolone Acetonide: nueva indicación predicha, liquen plano atrófico anular (annular atrophic lichen planus) (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
+predicted_indications: ["lichen planus pemphigoides"]
+last_modified_at: 2026-11-03
+description: "Fluocinolone Acetonide: nueva indicación predicha, Lichen planus pemphigoides (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
 ---
 
 # Fluocinolone Acetonide
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,21 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 </div>
 
-## Fluocinolona acetonida: corticosteroide tópico (agonista del receptor de glucocorticoides) → liquen plano atrófico anular (annular atrophic lichen planus)
+## Fluocinolone Acetonide: Lichen planus pemphigoides
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Fluocinolona acetonida es un corticosteroide sintético que actúa sobre el receptor de glucocorticoides y se usa en cremas y soluciones para afecciones inflamatorias y pruriginosas de la piel y el oído.
-El modelo TxGNN predice que podría ser efectivo para **liquen plano atrófico anular (annular atrophic lichen planus)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS; COMBINACIONES DE CORTICOSTEROIDES |
-| Nueva Indicación Predicha | liquen plano atrófico anular (annular atrophic lichen planus) |
-| Puntaje de Predicción TxGNN | 0,9942 |
+| Nueva Indicación Predicha | Lichen planus pemphigoides |
+| Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |
@@ -59,7 +58,7 @@ Fluocinolona acetonida se une al receptor de glucocorticoides (NR3C1), lo que le
 
 El liquen plano es una dermatosis inflamatoria mediada por linfocitos T, y los corticosteroides tópicos son un tratamiento de primera línea habitual para el liquen plano en general. Esto ofrece una justificación plausible a nivel de clase para la variante atrófica anular.
 
-Sin embargo, no se aportaron datos clínicos específicos de esta variante ni del fármaco en esta enfermedad. El puntaje de 0,9942 es únicamente una predicción computacional y no sustituye a la evidencia clínica.
+Sin embargo, no se aportaron datos clínicos específicos de esta variante ni del fármaco en esta enfermedad.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -90,7 +89,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo TxGNN (0,9942) y en la lógica general de clase de los corticosteroides tópicos en el liquen plano, sin ensayos ni publicaciones que estudien directamente esta enfermedad. El nivel de evidencia es L5.
+El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre corticosteroides tópicos en liquen plano atrófico anular

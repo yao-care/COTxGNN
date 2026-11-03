@@ -4,17 +4,17 @@ title: Omalizumab
 parent: Evidencia Moderada (L3-L4)
 nav_order: 484
 evidence_level: L3
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Omalizumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: OMALIZUMAB"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "OMALIZUMAB"
-predicted_indications: ["bronchitis", "atopic eczema", "obstructive lung disease", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
+description: "Omalizumab: nueva indicación predicha, Bronquitis (bronchitis) (nivel de evidencia L3). Indicación original: OMALIZUMAB"
 ---
 
 # Omalizumab
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 </div>
 
-## Omalizumab: De Indicación Original (no especificada en el registro) a Bronquitis
+## Omalizumab: Bronquitis (bronchitis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -46,8 +46,8 @@ Omalizumab es un anticuerpo monoclonal anti-IgE (comercializado como Xolair®), 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | OMALIZUMAB (el registro sanitario solo repite el nombre del fármaco; no detalla la indicación) |
-| Nueva Indicación Predicha | Bronquitis |
+| Indicación Original | OMALIZUMAB |
+| Nueva Indicación Predicha | Bronquitis (bronchitis) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
@@ -122,7 +122,7 @@ La evidencia para bronquitis es indirecta: un ensayo muy pequeño (n=11) en asma
 - Aclarar la situación regulatoria en Colombia, dado que el registro está cancelado.
 - Plan de monitoreo de seguridad (anafilaxia) y restricción a fenotipos mediados por IgE o sensibilizados a alérgenos.
 
-**Nota:** entre las predicciones, la de mayor respaldo es **enfermedad pulmonar obstructiva** (nivel L1, "Proceed with Guardrails"), apoyada por múltiples ensayos de Fase 3 en asma y un ensayo de Fase 2 en EPOC en reclutamiento (NCT07059091). Se recomienda evaluarla como candidata prioritaria.
+Se recomienda evaluarla como candidata prioritaria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

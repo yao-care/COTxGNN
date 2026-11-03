@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Albendazole
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 32
-evidence_level: L2
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Albendazole: nueva indicación predicha, Equinococosis alveolar (nivel de evidencia L2). Indicación original: ALBENDAZOL"
+evidence_level: L5
+indication_count: 1
+last_modified_at: 2026-11-03
 monitor_inn: "Albendazole"
-predicted_indications: ["alveolar echinococcosis", "coenurosis", "Cestode infectious disease"]
+predicted_indications: ["coenurosis"]
+description: "Albendazole: nueva indicación predicha, Coenurosis (nivel de evidencia L5). Indicación original: ALBENDAZOL"
 ---
 
 # Albendazole
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **3**
 
 </div>
 
-## Albendazol: De Antiparasitario (ALBENDAZOL) a Equinococosis Alveolar
+## Albendazole: Coenurosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Albendazol es un antiparasitario del grupo de los benzimidazoles, registrado en Colombia con la indicación genérica "ALBENDAZOL" (sin detalle de la indicación aprobada).
-El modelo TxGNN predice que podría ser efectivo para **equinococosis alveolar**,
-con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ---
 
@@ -48,10 +46,10 @@ con **3 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ALBENDAZOL (el registro no detalla la indicación) |
-| Nueva Indicación Predicha | Equinococosis alveolar |
-| Puntaje de Predicción TxGNN | 0.9997 |
-| Nivel de Evidencia | L2 |
+| Indicación Original | ALBENDAZOL |
+| Nueva Indicación Predicha | Coenurosis |
+| Puntaje de Predicción TxGNN | 0.9983 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
 | Número de Registros Sanitarios | al menos 7 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -138,7 +136,6 @@ Existe un ensayo de Fase 2 completado (n=194) que prueba albendazol directamente
 ## Otras Indicaciones Predichas (Referencia)
 
 - **Coenurosis** (puntaje 0.9983, nivel L1): los ensayos de Fase 3 son sobre neurocisticercosis, una enfermedad relacionada pero distinta, por lo que respaldan el efecto de clase y no la coenurosis directamente.
-- **Enfermedad infecciosa por cestodos** (puntaje 0.9974, nivel L1): categoría general que incluye usos ya establecidos (hidatidosis y neurocisticercosis), por lo que refleja la práctica actual y no un reposicionamiento novedoso.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

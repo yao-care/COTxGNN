@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Salmeterol
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 580
-evidence_level: L1
-indication_count: 5
-last_modified_at: 2026-10-28
-description: "Salmeterol: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Salmeterol y fluticasona"
+evidence_level: L5
+indication_count: 3
+last_modified_at: 2026-11-03
 monitor_inn: "SALMETEROL"
-predicted_indications: ["bronchitis", "respiratory malformation", "obstructive lung disease", "Rienhoff syndrome", "atopic eczema"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
+description: "Salmeterol: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: SALMETEROL Y FLUTICASONA"
 ---
 
 # Salmeterol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **5**
 
 </div>
 
-## Salmeterol: De Salmeterol y Fluticasona (Asma/EPOC) a Bronquitis
+## Salmeterol: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Salmeterol es un agonista beta2 de acción prolongada, registrado en Colombia en combinación con fluticasona (inhalador) para enfermedades obstructivas de las vías respiratorias.
-El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 ensayos clínicos** y **20 publicaciones** que respaldan esta dirección. Se trata de un uso ya establecido de la clase (EPOC con bronquitis crónica), no de un reposicionamiento novedoso.
+Se trata de un uso ya establecido de la clase (EPOC con bronquitis crónica), no de un reposicionamiento novedoso.
 
 ---
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **9 en
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Salmeterol y fluticasona |
-| Nueva Indicación Predicha | Bronquitis |
-| Puntaje de Predicción TxGNN | 0.9992 |
-| Nivel de Evidencia | L1 (varios ECA de Fase 3 completados) |
+| Indicación Original | SALMETEROL Y FLUTICASONA |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9991 |
+| Nivel de Evidencia | L5 (varios ECA de Fase 3 completados) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
 | Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |

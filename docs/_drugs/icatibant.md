@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Icatibant
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 334
-evidence_level: L1
-indication_count: 7
+evidence_level: L5
+indication_count: 6
 monitor_inn: "icatibant"
-predicted_indications: ["C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-10-28
-description: "Icatibant: nueva indicación predicha, Deficiencia de inhibidor de C1 (C1 inhibitor deficiency) (nivel de evidencia L1). Indicación original: ICATIBANT"
+predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
+last_modified_at: 2026-11-03
+description: "Icatibant: nueva indicación predicha, Serpinopathy with toxic serpin polymerization (nivel de evidencia L5). Indicación original: ICATIBANT"
 ---
 
 # Icatibant
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **7**
 
 </div>
 
-## Icatibant: antagonista del receptor B2 de bradicinina → Deficiencia de inhibidor de C1 (C1 inhibitor deficiency)
+## Icatibant: Serpinopathy with toxic serpin polymerization
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Icatibant es un antagonista selectivo del receptor B2 de la bradicinina, un péptido de administración subcutánea.
-El modelo TxGNN predice que podría ser efectivo para **Deficiencia de inhibidor de C1 (C1 inhibitor deficiency)**,
-con **11 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ICATIBANT |
-| Nueva Indicación Predicha | Deficiencia de inhibidor de C1 (C1 inhibitor deficiency) |
-| Puntaje de Predicción TxGNN | 0,9999 |
-| Nivel de Evidencia | L1 |
+| Nueva Indicación Predicha | Serpinopathy with toxic serpin polymerization |
+| Puntaje de Predicción TxGNN | 0.9999 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Proceed with Guardrails |

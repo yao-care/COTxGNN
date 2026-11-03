@@ -4,17 +4,17 @@ title: Ziprasidone
 parent: Solo Predicción del Modelo (L5)
 nav_order: 669
 evidence_level: L5
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo dice \"ZIPRASIDONA\")"
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "ziprasidone"
-predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "major affective disorder", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
+description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). Indicación original: No consta en los datos locales"
 ---
 
 # Ziprasidone
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 </div>
 
-## Ziprasidona: De Antipsicótico (indicación no detallada en el registro) a Tricotilomanía
+## Ziprasidone: Tricotilomanía (trichotillomania)
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, pero 
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro (el texto solo dice "ZIPRASIDONA") |
-| Nueva Indicación Predicha | Tricotilomanía |
+| Indicación Original | No consta en los datos locales |
+| Nueva Indicación Predicha | Tricotilomanía (trichotillomania) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |

@@ -4,17 +4,17 @@ title: Amiodarone
 parent: Evidencia Moderada (L3-L4)
 nav_order: 49
 evidence_level: L4
-indication_count: 10
-last_modified_at: 2026-10-31
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "amiodarone"
-predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
+predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: nueva indicación predicha, Catecholaminergic polymorphic ventricular tachycardia (nivel de evidencia L4). Indicación original: AMIODARONA"
 ---
 
 # Amiodarone
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -64,7 +64,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 Sin embargo, la CPVT se origina por una fuga de calcio mediada por mutaciones en RYR2 o CASQ2. El tratamiento de primera línea son los betabloqueadores junto con flecainida. La literatura recuperada consiste en casos clínicos, series pequeñas y revisiones generales, sin datos controlados que respalden específicamente a la amiodarona. El vínculo mecanístico es, por tanto, plausible pero débil.
 
 **Otras indicaciones predichas (para contexto):** el modelo también generó otras predicciones con mayor respaldo o con evidencia nula:
-- **Taquicardia ventricular** (puntaje 0.9964, nivel L1, Proceed with Guardrails): la evidencia es sólida (AVID, ALPS, PROCAMIO), pero es una indicación ya establecida clínicamente, más una confirmación que un reposicionamiento propiamente dicho.
 - **Taquicardia ventricular incesante infantil** (0.9965, nivel L2): existe un ensayo aleatorizado doble ciego de amiodarona intravenosa en taquiarritmias incesantes pediátricas (PMID 16316969), aunque con población mixta.
 - Artritis reumatoide, gota, tricotilomanía y otras (nivel L5): sin respaldo y sin vínculo mecanístico plausible.
 

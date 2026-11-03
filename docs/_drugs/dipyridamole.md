@@ -4,17 +4,17 @@ title: Dipyridamole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 226
 evidence_level: L5
-indication_count: 8
+indication_count: 6
 monitor_inn: "dipyridamole"
-predicted_indications: ["thrombotic disease", "sick sinus syndrome 2, autosomal dominant", "transient ischemic attack (disease)", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-10-31
-description: "Dipyridamole: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: No especificada"
+predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
+last_modified_at: 2026-11-03
+description: "Dipyridamole: nueva indicación predicha, Sick sinus syndrome 2, autosomal dominant (nivel de evidencia L5). Indicación original: DIPIRIDAMOL"
 ---
 
 # Dipyridamole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,20 +33,20 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 </div>
 
-## Dipiridamol: De una indicación no especificada en el registro a enfermedad trombótica
+## Dipyridamole: Sick sinus syndrome 2, autosomal dominant
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tiene registros sanitarios de solución inyectable, pero el texto de indicación registrado solo repite el nombre del fármaco, sin especificar un uso clínico. El modelo TxGNN predice que podría ser útil en **enfermedad trombótica**, pero **no hay ensayos clínicos registrados** para esta indicación y las **20 publicaciones** halladas son en su mayoría revisiones generales o indirectas.
+El dipiridamol es un antiagregante plaquetario y vasodilatador. En Colombia tiene registros sanitarios de solución inyectable, pero el texto de indicación registrado solo repite el nombre del fármaco, sin especificar un uso clínico.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada (el registro sanitario solo indica "DIPIRIDAMOL") |
-| Nueva Indicación Predicha | Enfermedad trombótica |
-| Puntaje de Prediccion TxGNN | 0.9994 |
+| Indicación Original | DIPIRIDAMOL |
+| Nueva Indicación Predicha | Sick sinus syndrome 2, autosomal dominant |
+| Puntaje de Prediccion TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
 | Número de Registros Sanitarios | al menos 2 |

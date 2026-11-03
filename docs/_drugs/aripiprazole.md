@@ -4,17 +4,17 @@ title: Aripiprazole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
-indication_count: 9
-last_modified_at: 2026-10-31
-description: "Aripiprazole: nueva indicación predicha, Trastorno afectivo mayor (major affective disorder) (nivel de evidencia L1). Indicación original: ARIPIPRAZOL"
+indication_count: 8
+last_modified_at: 2026-11-03
 monitor_inn: "Aripiprazole"
-predicted_indications: ["major affective disorder", "gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
+description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: ARIPIPRAZOL"
 ---
 
 # Aripiprazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **8** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 </div>
 
-## Aripiprazol: De Indicación Original (ARIPIPRAZOL, sin texto detallado) a Trastorno Afectivo Mayor
+## Aripiprazole: Gaze palsy, familial horizontal, with progressive scoliosis
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Aripiprazol es un antipsicótico atípico, registrado en Colombia bajo el nombre del principio activo (el texto de indicación aprobada solo dice "ARIPIPRAZOL"); según la información farmacológica compilada, se usa en esquizofrenia, trastorno bipolar e irritabilidad asociada al autismo.
-El modelo TxGNN predice que podría ser efectivo para **trastorno afectivo mayor** (depresión mayor y trastornos del estado de ánimo),
-con **39 ensayos clínicos** y **18 publicaciones** que respaldan esta dirección.
 
 ---
 
@@ -48,9 +46,9 @@ con **39 ensayos clínicos** y **18 publicaciones** que respaldan esta direcció
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | ARIPIPRAZOL (el registro no detalla la indicación; según la farmacología: esquizofrenia, trastorno bipolar, irritabilidad en autismo) |
-| Nueva Indicación Predicha | Trastorno afectivo mayor (major affective disorder) |
-| Puntaje de Predicción TxGNN | 0.9962 |
+| Indicación Original | ARIPIPRAZOL |
+| Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
+| Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | al menos 3 |

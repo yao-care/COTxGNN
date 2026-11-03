@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Terbutaline
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 616
-evidence_level: L1
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Terbutaline: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Terbutalina"
+evidence_level: L5
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Terbutaline"
-predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
+predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
+description: "Terbutaline: nueva indicación predicha, Respiratory malformation (nivel de evidencia L5). Indicación original: TERBUTALINA"
 ---
 
 # Terbutaline
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,13 +33,13 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Terbutalina: De Broncodilatador para Asma/EPOC a Enfermedad Pulmonar Obstructiva
+## Terbutaline: Respiratory malformation
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Terbutalina es un agonista beta-2 adrenérgico de acción corta, registrado en Colombia bajo la denominación "Terbutalina" (sola o en combinaciones).
-El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obstructiva**, con **14 ensayos clínicos** y **20 publicaciones** relacionados con esta dirección. Cabe aclarar que esta predicción coincide en gran medida con el uso ya establecido del fármaco (broncodilatación), por lo que es más una confirmación que un reposicionamiento novedoso.
+Cabe aclarar que esta predicción coincide en gran medida con el uso ya establecido del fármaco (broncodilatación), por lo que es más una confirmación que un reposicionamiento novedoso.
 
 ---
 
@@ -47,10 +47,10 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Terbutalina |
-| Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
-| Puntaje de Predicción TxGNN | 0.9996 |
-| Nivel de Evidencia | L1 |
+| Indicación Original | TERBUTALINA; TERBUTALINA COMBINACIONES |
+| Nueva Indicación Predicha | Respiratory malformation |
+| Puntaje de Predicción TxGNN | 0.9952 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
 | Número de Registros Sanitarios | al menos 4 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad pulmonar obst
 
 Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la farmacología conocida, la terbutalina es un agonista selectivo de los receptores beta-2 adrenérgicos (también con afinidad por beta-1). Su activación eleva el AMPc en el músculo liso bronquial y produce relajación, lo que alivia la broncoconstricción.
 
-La indicación original (terbutalina en solución para nebulización, jarabes y combinaciones con guayacolato) corresponde a enfermedades respiratorias con obstrucción reversible de la vía aérea. La enfermedad pulmonar obstructiva (asma, EPOC, bronquitis, enfisema) comparte precisamente ese sustrato fisiopatológico, por lo que la puntuación tan alta del modelo es coherente con la farmacología establecida.
+La indicación original (terbutalina en solución para nebulización, jarabes y combinaciones con guayacolato) corresponde a enfermedades respiratorias con obstrucción reversible de la vía aérea.
 
 Es importante reconocer que esta predicción confirma un uso ya conocido y no representa un hallazgo nuevo. Las otras dos predicciones del modelo son mucho más débiles: *malformación respiratoria* (nivel L4, evidencia mayormente de asma y bronquitis, con varios estudios fuera de tema) y *síndrome de Rienhoff* (nivel L5, sin ensayos ni literatura, solo predicción computacional). Ambas quedan en **Hold**.
 

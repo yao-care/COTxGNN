@@ -4,17 +4,17 @@ title: Betamethasone
 parent: Evidencia Alta (L1-L2)
 nav_order: 104
 evidence_level: L1
-indication_count: 8
-last_modified_at: 2026-10-31
-description: "Betamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: Betametasona y antibióticos"
+indication_count: 7
+last_modified_at: 2026-11-03
 monitor_inn: "Betamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
+description: "Betamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L1). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
 ---
 
 # Betamethasone
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **8** 
+Nivel de evidencia: **L1** | Indicaciones predichas: **7** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,14 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 </div>
 
-## Betametasona: De Betametasona y Antibióticos (crema tópica) a Alopecia Areata
+## Betamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Betametasona es un glucocorticoide sintético, autorizado en Colombia en cremas tópicas combinadas con antibióticos (por ejemplo, betametasona + clotrimazol + neomicina).
-El modelo TxGNN predice que podría ser efectivo para **alopecia areata**,
-con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 ---
 
@@ -48,8 +46,8 @@ con **6 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Betametasona y antibióticos |
-| Nueva Indicación Predicha | Alopecia areata |
+| Indicación Original | BETAMETASONA Y ANTIBIOTICOS |
+| Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L1 (con reservas; ver nota abajo) |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
@@ -76,9 +74,6 @@ La relación con la indicación original es la inflamación cutánea tratable co
 |---------|------|------|------|---------|
 | [NCT06786689](https://clinicaltrials.gov/study/NCT06786689) | Fase 2 | Completado | 60 | Azatioprina semanal en pulsos vs. minipulsos orales de betametasona en alopecia areata moderada a grave |
 | [NCT02350023](https://clinicaltrials.gov/study/NCT02350023) | Fase 4 | Completado | 50 | Latanoprost tópico vs. corticoide tópico (betametasona) en alopecia areata localizada |
-| [NCT05803070](https://clinicaltrials.gov/study/NCT05803070) | N/A | Desconocido | 59 | Cetirizina tópica 1% vs. valerato de betametasona 0.1% en alopecia areata localizada |
-| [NCT06087796](https://clinicaltrials.gov/study/NCT06087796) | Fase 1 | Desconocido | 60 | Pentoxifilina y metformina tópicas vs. valerato de betametasona 0.1% en alopecia areata en parches |
-| [NCT07696585](https://clinicaltrials.gov/study/NCT07696585) | N/A | Aún no recluta | 60 | Metformina 30%, simvastatina 2% y valerato de betametasona 0.1% en alopecia areata en parches; sin resultados |
 | [NCT04207931](https://clinicaltrials.gov/study/NCT04207931) | Fase 4 | Reclutando | 250 | Alopecia cicatricial centrífuga central (otra enfermedad); relación solo indirecta |
 
 ---

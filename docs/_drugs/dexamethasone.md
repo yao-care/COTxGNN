@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Dexamethasone
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 208
-evidence_level: L2
-indication_count: 10
-last_modified_at: 2026-10-31
-description: "Dexamethasone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Dexametasona y antiinfecciosos"
+evidence_level: L5
+indication_count: 9
+last_modified_at: 2026-11-03
 monitor_inn: "Dexamethasone"
-predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
+description: "Dexamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: DEXAMETASONA Y ANTIINFECCIOSOS"
 ---
 
 # Dexamethasone
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **10** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,23 +33,21 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 </div>
 
-## Dexametasona: De Dexametasona con Antiinfecciosos a Alopecia Areata
+## Dexamethasone: Alopecia mucinosa
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
 Dexametasona es un glucocorticoide sintético que en Colombia se registró en combinaciones con antiinfecciosos (por ejemplo, con ciprofloxacina) en soluciones oftálmicas y óticas.
-El modelo TxGNN predice que podría ser efectivo para **alopecia areata**,
-con **0 ensayos clínicos registrados** y **20 publicaciones** recuperadas, de las cuales solo una parte es directamente relevante (incluido 1 ensayo aleatorizado pediátrico y varios estudios clínicos de minipulsos orales).
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Dexametasona y antiinfecciosos |
-| Nueva Indicación Predicha | Alopecia areata |
+| Indicación Original | DEXAMETASONA Y ANTIINFECCIOSOS; CIPROFLOXACINA |
+| Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9999 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
 | Número de Registros Sanitarios | al menos 3 |
 | Decisión Recomendada | Proceed with Guardrails |
@@ -101,7 +99,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo aleatorizado pequeño, varios estudios clínicos y cohortes sobre minipulsos de dexametasona en alopecia areata, junto con un puntaje TxGNN muy alto, lo que respalda un nivel de evidencia L2. Sin embargo, no hay ensayos registrados, los estudios son pequeños y heterogéneos, y los registros colombianos están cancelados y son de vías no sistémicas.
+Sin embargo, no hay ensayos registrados, los estudios son pequeños y heterogéneos, y los registros colombianos están cancelados y son de vías no sistémicas.
 
 **Para avanzar se necesita:**
 - Obtener los prospectos de INVIMA para completar advertencias y contraindicaciones, y confirmar el mecanismo de acción en DrugBank.

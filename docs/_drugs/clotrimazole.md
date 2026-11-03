@@ -4,17 +4,17 @@ title: Clotrimazole
 parent: Solo Predicción del Modelo (L5)
 nav_order: 175
 evidence_level: L5
-indication_count: 3
-last_modified_at: 2026-10-31
-description: "Clotrimazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Clotrimazol"
+indication_count: 2
+last_modified_at: 2026-11-03
 monitor_inn: "Clotrimazole"
-predicted_indications: ["acne (disease)", "vulvovaginitis", "postmenopausal atrophic vaginitis"]
+predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
+description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: CLOTRIMAZOL"
 ---
 
 # Clotrimazole
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **3** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,7 +33,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 </div>
 
-## Clotrimazol: De Infecciones Fúngicas a Acné
+## Clotrimazole: Acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
@@ -47,8 +47,8 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta d
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Clotrimazol (el registro sanitario solo indica el nombre del principio activo; el uso clínico conocido es el tratamiento local de infecciones fúngicas de piel y vaginales) |
-| Nueva Indicación Predicha | Acné |
+| Indicación Original | CLOTRIMAZOL; MOMETASONE; COMBINACIONES; MUPIROCINA |
+| Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
@@ -114,7 +114,7 @@ Para acné solo existe un ensayo suspendido con una combinación de tres fármac
 - Aclarar la indicación real y el diseño del ensayo NCT01244256.
 - Obtener y revisar el prospecto aprobado por INVIMA (advertencias y contraindicaciones) y definir la situación regulatoria, dado que los registros están cancelados.
 
-**Nota:** en los datos compilados, la segunda predicción del modelo, **vulvovaginitis**, tiene mucha más evidencia (nivel L1, varios ensayos de Fase 3 completados y literatura con ECA). Se trata de un uso ya establecido y no de un reposicionamiento propiamente dicho. Su decisión asociada es *Proceed with Guardrails*, con atención a la exposición en el primer trimestre del embarazo, a especies resistentes y a la candidiasis recurrente. Si el objetivo es priorizar el candidato más sólido, conviene evaluar esa indicación por separado.
+Se trata de un uso ya establecido y no de un reposicionamiento propiamente dicho. Su decisión asociada es *Proceed with Guardrails*, con atención a la exposición en el primer trimestre del embarazo, a especies resistentes y a la candidiasis recurrente. Si el objetivo es priorizar el candidato más sólido, conviene evaluar esa indicación por separado.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
