@@ -19,7 +19,30 @@ Este proyecto utiliza el modelo TxGNN (aprendizaje profundo) para predecir posib
 
 Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [INVIMA](https://www.invima.gov.co/) (Colombia).
 
-Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} · L2 {{ site.data.drug_stats.level_counts.L2 }} · L3 {{ site.data.drug_stats.level_counts.L3 }} · L4 {{ site.data.drug_stats.level_counts.L4 }} · L5 {{ site.data.drug_stats.level_counts.L5 }}
+### Datos locales de este sitio
+
+| Ítem | Detalle |
+|------|---------|
+| Conjunto de datos | CUM del INVIMA: vigentes (`i7cb-raxc`), en trámite de renovación (`vgr4-gemg`), otros estados (`spzp-dfuc`) y vencidos (`vwwf-4ftk`) |
+| Publicador | INVIMA, portal de datos abiertos datos.gov.co |
+| Descarga | <https://www.datos.gov.co/resource/i7cb-raxc.json> (los otros tres conjuntos usan la misma dirección con su identificador) |
+| Identificador de producto | Número de expediente |
+| Actualización | Descarga automática semanal (cada lunes); cada expediente toma el estado del INVIMA (Vigente, En trámite de renovación, Vencido, Cancelado…); un expediente que no aparece en los datos nuevos conserva su estado anterior |
+
+Detalles: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+
+Informes por nivel de evidencia:
+
+| Nivel de evidencia | Informes | Proporción |
+|---|---|---|
+| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
+{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+
+10 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
 
 ### Medicamentos con mayor nivel de evidencia en este sitio
 
@@ -30,11 +53,11 @@ Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} �
 | [Bromfenac](/drugs/bromfenac/) | L1 |
 | [Busulfan](/drugs/busulfan/) | L1 |
 | [Fludarabine](/drugs/fludarabine/) | L1 |
-| [Lanadelumab](/drugs/lanadelumab/) | L1 |
 | [Polidocanol](/drugs/polidocanol/) | L1 |
-| [Rifabutin](/drugs/rifabutin/) | L1 |
-| [Triptorelin](/drugs/triptorelin/) | L1 |
-| [Candesartan](/drugs/candesartan/) | L1 |
+| [Clofarabine](/drugs/clofarabine/) | L1 |
+| [Clomipramine](/drugs/clomipramine/) | L1 |
+| [Doxorubicin](/drugs/doxorubicin/) | L1 |
+| [Propofol](/drugs/propofol/) | L1 |
 
 ### Medicamentos que solo cubre este sitio entre los 30 sitios TxGNN
 
@@ -46,15 +69,5 @@ Informes por nivel de evidencia: L1 {{ site.data.drug_stats.level_counts.L1 }} �
 
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-COTxGNN es el sitio de Colombia de la línea de productos "TxGNN Drug Repurposing" de la compañía.
-El mismo sistema está desplegado en 30 países y regiones, cada uno con el nombre `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado en
-*Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó sobre ese
-modelo, y abarca la integración de datos nacionales de registro sanitario, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la clasificación de evidencia de PubMed /
-ClinicalTrials y la integración con historias clínicas electrónicas mediante SMART on FHIR.
+Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care). Consulte la página
+<a href="{{ '/about/' | relative_url }}">Acerca de</a> para conocer los antecedentes completos de la empresa y de la metodología.
