@@ -1,6 +1,6 @@
 {
   "total": 599,
-  "generated_at": "2026-11-03T19:14:36.604154",
+  "generated_at": "2026-11-04T05:25:13.885708",
   "drugs": [
     {
       "name": "Abacavir",
@@ -7746,7 +7746,7 @@
     {
       "name": "Rifabutin",
       "file": "rifabutin.md",
-      "evidence_level": "L1",
+      "evidence_level": "L5",
       "indication_count": 10,
       "predicted_indication": "",
       "inn": "rifabutin",
