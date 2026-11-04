@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Lenvatinib
-parent: Evidencia Alta (L1-L2)
+parent: Evidencia Moderada (L3-L4)
 nav_order: 389
-evidence_level: L2
+evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-31
-description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (el texto solo indica \"LENVA…"
+last_modified_at: 2026-11-04
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
+description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: LENVATINIB"
 ---
 
 # Lenvatinib
 {: .fs-9 }
 
-Nivel de evidencia: **L2** | Indicaciones predichas: **5** 
+Nivel de evidencia: **L3** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +33,83 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **5**
 
 </div>
 
-## Lenvatinib: De Indicación Original No Especificada a Liposarcoma
+## Lenvatinib: Liposarcoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lenvatinib es un inhibidor multicinasa registrado en Colombia (registro 20165217, actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del principio activo, sin detallar la enfermedad.
-El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** y **4 publicaciones** que actualmente respaldan esta dirección.
+Lenvatinib es un inhibidor de múltiples cinasas que bloquea receptores implicados en la formación de vasos sanguíneos tumorales.
+El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma)**, con **1 ensayo clínico** y **4 publicaciones** relacionadas, de las cuales solo un estudio de fase Ib/II de un solo brazo evalúa directamente la enfermedad; el nivel de evidencia es **L3**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No especificada en el registro sanitario (el texto solo indica "LENVATINIB") |
+| Indicación Original | LENVATINIB |
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9951 |
-| Nivel de Evidencia | L2 |
+| Nivel de Evidencia | L3 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
 | Número de Registros Sanitarios | 1 (vigentes: 1) |
-| Decisión Recomendada | Hold |
+| Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento de la literatura aportada, lenvatinib inhibe los receptores VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, lo que puede frenar la angiogénesis tumoral y la señalización de crecimiento en sarcomas.
+Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, lenvatinib inhibe VEGFR1-3, FGFR1-4, PDGFRα, RET y KIT, lo que puede suprimir la angiogénesis tumoral en sarcomas.
 
-La indicación original no está descrita en el registro colombiano. Sin embargo, el fármaco tiene eficacia comprobada en cánceres con fuerte componente vascular, como el carcinoma renal, y el liposarcoma es un tumor mesenquimal en el que la inhibición de la angiogénesis es plausible. La combinación con eribulina (inhibidor de microtúbulos con actividad en liposarcoma) fue evaluada en un estudio de fase Ib/II de un solo brazo.
+Eribulina, un inhibidor de microtúbulos con actividad en liposarcoma, se combinó con lenvatinib en un estudio de fase Ib/II de un solo brazo. Además, datos preclínicos sobre CDK4 (frecuentemente amplificado en liposarcoma bien diferenciado y desdiferenciado) y un reporte de caso de reducción tumoral en liposarcoma desdiferenciado aportan señales de apoyo, aunque indirectas.
 
-Las señales de apoyo son indirectas: datos preclínicos sobre CDK4 (frecuentemente amplificado en liposarcoma bien diferenciado y desdiferenciado) y un reporte de caso de reducción tumoral en liposarcoma desdiferenciado.
+Es importante señalar que la contribución individual de lenvatinib no puede aislarse, porque el estudio no tiene grupo control aleatorizado y combina dos fármacos.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Fase 1/2 | Completado | 30 | Estudio de un solo brazo (LEADER) de lenvatinib + eribulina en sarcoma adipocítico y leiomiosarcoma avanzados o metastásicos; evalúa seguridad y eficacia de la combinación |
+| [NCT03526679](https://clinicaltrials.gov/study/NCT03526679) | Fase 1/2 | Completado | 30 | Lenvatinib más eribulina en sarcoma adipocítico y leiomiosarcoma avanzados, inoperables o metastásicos (estudio LEADER); brazo único, evalúa seguridad y eficacia |
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Ensayo fase Ib/II de un solo brazo | Clin Cancer Res | Estudio LEADER: seguridad y eficacia de lenvatinib + eribulina en liposarcoma y leiomiosarcoma avanzados |
-| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclínico/biomarcador | Exp Hematol Oncol | CDK4 como biomarcador pronóstico en sarcoma de tejidos blandos y efecto sinérgico de su inhibición en liposarcoma desdiferenciado |
-| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Res | Actividad antitumoral de eribulina en combinación con otros agentes anticancerígenos |
-| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Reporte de caso | Case Rep Oncol | Reducción evidente del tumor en un paciente con liposarcoma desdiferenciado y metástasis pulmonar con tratamiento individualizado |
+| [36129471](https://pubmed.ncbi.nlm.nih.gov/36129471/) | 2022 | Ensayo fase Ib/II de brazo único | Clinical Cancer Research | Seguridad y eficacia de lenvatinib más eribulina en liposarcoma y leiomiosarcoma avanzados |
+| [39103896](https://pubmed.ncbi.nlm.nih.gov/39103896/) | 2024 | Preclínico/biomarcador | Experimental Hematology & Oncology | CDK4 como biomarcador pronóstico en sarcomas de tejidos blandos y efecto sinérgico de su inhibición en liposarcoma desdiferenciado |
+| [29848686](https://pubmed.ncbi.nlm.nih.gov/29848686/) | 2018 | Preclínico | Anticancer Research | Actividad antitumoral de eribulina en combinación con otros agentes |
+| [34326745](https://pubmed.ncbi.nlm.nih.gov/34326745/) | 2021 | Reporte de caso | Case Reports in Oncology | Reducción tumoral en liposarcoma desdiferenciado con metástasis pulmonar tratado con un esquema individualizado |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20165217 (cancelado) | LENVIMA 4 MG | Cápsula dura | LENVATINIB (sin indicación detallada) |
+| 20165217 | LENVIMA 4 MG | Cápsula dura | LENVATINIB (sin indicación detallada) |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa de tirosina cinasa) |
+| Clasificación de Citotoxicidad | Terapia dirigida (inhibidor multicinasa) |
 | Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma, función hepática y renal, presión arterial |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Interacciones Farmacológicas**: se identificaron 260 interacciones potenciales. Entre las de mayor gravedad (nivel Mayor) figuran **dolasetrón** y **cisaprida**. Entre las de nivel moderado se incluyen claritromicina, levofloxacino, famotidina, loperamida, naltrexona, granisetrón, palonosetrón y diversos laxantes (bisacodilo, lactulosa, citrato de magnesio, hidróxido de magnesio, polietilenglicol, entre otros). Metronidazol se clasifica como interacción menor.
+- **Interacciones Farmacológicas**: se registraron 260 interacciones. Entre las de nivel mayor figuran dolasetrón y cisaprida. Entre las de nivel moderado se incluyen famotidina, loperamida, bisacodilo, claritromicina, palonosetrón, granisetrón, levofloxacino y naltrexona, además de varios laxantes (picosulfato, polietilenglicol, sulfato de sodio, aceite de ricino, glicerina, lactitol, lactulosa, citrato e hidróxido de magnesio). Metronidazol figura como interacción menor.
 
 Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Para liposarcoma solo existe un estudio de fase Ib/II de un solo brazo, en combinación con eribulina, por lo que no se puede aislar la contribución de lenvatinib. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+Un estudio de fase Ib/II de un solo brazo (nivel de evidencia L3) sugiere actividad de lenvatinib más eribulina en liposarcoma, pero sin grupo control aleatorizado y sin poder aislar el aporte de lenvatinib, por lo que se requiere cautela.
 
 **Para avanzar se necesita:**
-- Ensayos aleatorizados que confirmen el beneficio de lenvatinib en liposarcoma
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
-- Datos detallados del mecanismo de acción (MOA)
-- Plan de monitoreo de seguridad, incluida la revisión de interacciones de alto riesgo (dolasetrón, cisaprida)
-
----
-
-### Nota: otras indicaciones predichas con mayor respaldo
+- Ensayos aleatorizados que aíslen la contribución de lenvatinib
+- Datos detallados del mecanismo de acción
+- Advertencias y contraindicaciones del prospecto de INVIMA
+- Plan de monitoreo de seguridad, incluidas las interacciones farmacológicas de nivel mayor
 
 ## Descargo de responsabilidad
 

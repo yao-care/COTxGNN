@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Ranitidine
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 549
-evidence_level: L4
+evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-04
 monitor_inn: "ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
-description: "Ranitidine: nueva indicación predicha, Peptic ulcer perforation (nivel de evidencia L4). Indicación original: RANITIDINA"
+description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). Indicación original: RANITIDINA"
 ---
 
 # Ranitidine
 {: .fs-9 }
 
-Nivel de evidencia: **L4** | Indicaciones predichas: **6** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **6** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,108 +33,82 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **6**
 
 </div>
 
-## Ranitidine: Peptic ulcer perforation
+## Ranitidine: Perforación de úlcera péptica (peptic ulcer perforation)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ranitidina es un antagonista de los receptores H2 de histamina, registrado en Colombia en tabletas recubiertas de 150 mg y solución inyectable de 50 mg/2 mL. El texto de indicación de ambos registros solo repite el nombre del fármaco.
-El modelo TxGNN predice que podría ser efectiva para la **enfermedad ulcerosa péptica activa**, aunque sin ensayos clínicos vinculados a esa predicción y con **20 publicaciones** de apoyo, en su mayoría revisiones narrativas.
-Se trata de un uso de clase ya establecido más que de un reposicionamiento genuino, y el fármaco tiene los registros sanitarios cancelados en Colombia.
-
----
+Ranitidina es un antagonista de los receptores H2 de histamina que reduce la secreción de ácido gástrico.
+El modelo TxGNN predice que podría ser efectiva para **perforación de úlcera péptica (peptic ulcer perforation)**, pero actualmente no hay estudios que evalúen la ranitidina como tratamiento de esta condición, por lo que el nivel de evidencia es **L5**, con 0 ensayos clínicos y 20 publicaciones relacionadas de manera indirecta.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | RANITIDINA |
-| Nueva Indicación Predicha | Peptic ulcer perforation |
+| Nueva Indicación Predicha | Perforación de úlcera péptica (peptic ulcer perforation) |
 | Puntaje de Predicción TxGNN | 0.9988 |
-| Nivel de Evidencia | L4 (sin ensayos clínicos vinculados; literatura compuesta sobre todo por revisiones) |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 2 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ranitidina es un antagonista selectivo de los receptores H2 de histamina que reduce la secreción de ácido gástrico. Mecanísticamente, esto es aplicable a la enfermedad ulcerosa péptica.
+No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, la ranitidina bloquea los receptores H2 de las células parietales gástricas y disminuye la producción de ácido.
 
-La cicatrización de las úlceras depende en gran medida de la supresión del ácido, y la literatura recuperada describe el uso de ranitidina en úlcera duodenal y gástrica desde la década de 1980. Por ello, la predicción es coherente con un uso ya establecido de la clase, más que con una indicación nueva.
+La perforación es una complicación quirúrgica de la enfermedad ulcerosa. La supresión de ácido podría ser un complemento o una medida preventiva: la terapia continua con antagonistas H2 reduce la recurrencia de úlceras y sus complicaciones. Sin embargo, no es un tratamiento primario de la perforación.
 
-Hay límites importantes. La ranitidina fue retirada del mercado por preocupaciones de contaminación con NDMA, y los inhibidores de la bomba de protones han mostrado mayor eficacia en la cicatrización de úlceras. Por eso no se respalda un nuevo desarrollo.
-
----
+Existe un ensayo aleatorizado de manejo no quirúrgico (1989) relevante para el escenario clínico, pero no es una prueba de eficacia específica de ranitidina. El único ensayo aleatorizado con ranitidina (PMID 7861219) evaluó la prevención de complicaciones gastroduodenales posoperatorias en pacientes neuroquirúrgicos, no el tratamiento de la perforación de úlcera péptica. Por ello la predicción se considera mecanísticamente plausible, pero sin respaldo directo.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados registrados para la indicación principal (enfermedad ulcerosa péptica activa).
-
-Para la entidad cercana "enfermedad ulcerosa péptica" (rango 7) sí hay ensayos, pero evalúan sobre todo otros fármacos (esomeprazol, omeprazol, YF476), con ranitidina como comparador, por lo que son evidencia indirecta:
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00633672](https://clinicaltrials.gov/study/NCT00633672) | Fase 3 | Completado | 400 | Esomeprazol 40 mg y 20 mg vs. ranitidina 150 mg c/12 h en úlceras gástricas asociadas a AINE |
-| [NCT00633412](https://clinicaltrials.gov/study/NCT00633412) | Fase 3 | Completado | 400 | Diseño paralelo al anterior, solo en EE. UU. |
-| [NCT00401752](https://clinicaltrials.gov/study/NCT00401752) | Fase 3 | Completado | 397 | Esomeprazol 20 mg vs. ranitidina 150 mg c/12 h durante 8 semanas, úlcera gástrica asociada a AINE |
-| [NCT00247130](https://clinicaltrials.gov/study/NCT00247130) | Fase 4 | Retirado | 0 | Omeprazol vs. ranitidina intravenosos tras hemostasia endoscópica; sin participantes, sin datos |
-| [NCT01538797](https://clinicaltrials.gov/study/NCT01538797) | Fase 1 | Completado | 22 | YF476 vs. placebo y ranitidina sobre el pH gástrico en voluntarios sanos |
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
+Ninguna de estas publicaciones estudia la ranitidina como tratamiento de la perforación de úlcera péptica; son evidencia indirecta sobre úlcera péptica y sus complicaciones.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [6317325](https://pubmed.ncbi.nlm.nih.gov/6317325/) | 1983 | Revisión | Drug Intell Clin Pharm | Ranitidina es 4 a 10 veces más potente que cimetidina para inhibir la secreción ácida y es igual de eficaz en úlcera duodenal |
-| [2905237](https://pubmed.ncbi.nlm.nih.gov/2905237/) | 1988 | Revisión | Drugs | Prostaglandinas, antagonistas H2 y enfermedad ulcerosa péptica |
-| [9506245](https://pubmed.ncbi.nlm.nih.gov/9506245/) | 1998 | Revisión | Drugs | Rabeprazol, inhibidor de la bomba de protones; más eficaz que placebo y famotidina en ensayos comparativos |
-| [2905640](https://pubmed.ncbi.nlm.nih.gov/2905640/) | 1988 | Revisión | Drugs | Nizatidina en enfermedad ulcerosa péptica |
-| [1717223](https://pubmed.ncbi.nlm.nih.gov/1717223/) | 1991 | Revisión | Drugs | Roxatidina, antagonista H2, en úlcera péptica |
-| [3527658](https://pubmed.ncbi.nlm.nih.gov/3527658/) | 1986 | Revisión | Drugs | Omeprazol en úlcera péptica y síndrome de Zollinger-Ellison |
-| [3909374](https://pubmed.ncbi.nlm.nih.gov/3909374/) | 1985 | Estudio clínico | Scand J Gastroenterol | Ranitidina 300 mg/día: cicatrización a 4 semanas de 91% en úlcera duodenal, 68% prepilórica y 81% gástrica; se evaluó la prevención de recaídas |
-| [6317740](https://pubmed.ncbi.nlm.nih.gov/6317740/) | 1983 | Estudio farmacológico | J Clin Gastroenterol | Comparación farmacodinámica y farmacocinética de cimetidina y ranitidina |
-| [2878343](https://pubmed.ncbi.nlm.nih.gov/2878343/) | 1986 | Revisión | Med Toxicol | Reacciones adversas e interacciones de los antagonistas H2, con baja toxicidad general |
-| [11166000](https://pubmed.ncbi.nlm.nih.gov/11166000/) | 2001 | Comentario | Am J Med | H. pylori y AINE; omeprazol superó a una dosis ineficaz de ranitidina en prevención de úlceras |
-
----
+| [2927479](https://pubmed.ncbi.nlm.nih.gov/2927479/) | 1989 | ECA | N Engl J Med | Ensayo aleatorizado de tratamiento no quirúrgico frente a cirugía en úlcera péptica perforada; no evalúa ranitidina específicamente |
+| [7861219](https://pubmed.ncbi.nlm.nih.gov/7861219/) | 1995 | ECA | J Neurosurg | Ranitidina frente a placebo para prevenir sangrado o perforación gastroduodenal posoperatoria en pacientes neuroquirúrgicos de alto riesgo |
+| [11488789](https://pubmed.ncbi.nlm.nih.gov/11488789/) | 2001 | ECA y retrospectivo | Br J Surg | Efecto de la erradicación de H. pylori sobre la recurrencia de úlcera tras cierre simple de úlcera duodenal perforada |
+| [8364140](https://pubmed.ncbi.nlm.nih.gov/8364140/) | 1993 | Revisión | Aliment Pharmacol Ther | La terapia continua con antagonistas H2 reduce la recurrencia de úlceras |
+| [8103373](https://pubmed.ncbi.nlm.nih.gov/8103373/) | 1993 | Revisión | Aliment Pharmacol Ther | Tratamiento continuo a largo plazo con antagonistas H2 para reducir recurrencias y complicaciones como hemorragia y perforación |
+| [1679675](https://pubmed.ncbi.nlm.nih.gov/1679675/) | 1991 | Revisión | Aliment Pharmacol Ther | Recomendaciones terapéuticas para lesión gastroduodenal inducida por AINE |
+| [8346951](https://pubmed.ncbi.nlm.nih.gov/8346951/) | 1993 | Estudio clínico | Arch Dis Child | Ranitidina intravenosa y pH intragástrico en prematuros que reciben dexametasona, con riesgo de perforación gástrica |
+| [8165479](https://pubmed.ncbi.nlm.nih.gov/8165479/) | 1994 | Reporte de caso | Surg Endosc | Úlcera marginal gigante con complicaciones como perforación |
+| [8781800](https://pubmed.ncbi.nlm.nih.gov/8781800/) | 1996 | Reporte de caso | Endoscopy | Perforación de úlcera gástrica hacia el corazón, complicación muy rara |
 
 ## Información de Mercado en Colombia
+
+Según los registros locales, la ranitidina se comercializa en Colombia. La lista de registros puede estar incompleta.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | Tableta recubierta | RANITIDINA | Vigente |
 | 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Comercializado solo por Exportacion |
 
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones en el grafo de conocimiento (no provienen del prospecto):** porfiria (hereditaria y trastornos del metabolismo de porfirinas), enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar y cáncer gástrico (incluyendo neoplasia gástrica, adenocarcinoma gástrico difuso, linitis plástica y carcinoma gástrico).
-- **Interacciones farmacológicas:** se identificaron 585 interacciones. Entre las listadas:
-  - **Mayor:** atazanavir.
-  - **Moderada:** acalabrutinib, acetohexamida, aminofilina, bacampicilina, bosutinib, brigatinib, cefditoren, cefpodoxima, cefuroxima, ceritinib y clorpropamida.
-  - **Menor:** paracetamol, ácido alendrónico, hidróxido de aluminio, atracurio, axitinib, carbonato de calcio, cisaprida y cisatracurio.
-- Las advertencias y contraindicaciones del prospecto de INVIMA no están disponibles; consultar el prospecto.
-- Además, la literatura y la justificación mencionan la retirada del mercado por preocupaciones de contaminación con NDMA.
+- **Interacciones Farmacológicas**: se identificaron 585 interacciones en total. Entre las de nivel mayor figura atazanavir. Entre las de nivel moderado figuran acalabrutinib, aminofilina, bosutinib, brigatinib, ceritinib, cefuroxima, cefpodoxima y cefditoren, además de las sulfonilureas acetohexamida y clorpropamida. Antiácidos como el hidróxido de aluminio y el carbonato de calcio muestran interacciones de nivel menor.
 
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha corresponde a un uso de clase ya establecido, sin ensayos que evalúen a ranitidina como brazo de investigación, y con evidencia de nivel L4 compuesta sobre todo por revisiones antiguas. Además, los registros en Colombia están cancelados, los inhibidores de la bomba de protones son superiores y existe preocupación por NDMA, por lo que no se justifica un nuevo desarrollo.
+No existe ningún estudio que pruebe la ranitidina como tratamiento de la perforación de úlcera péptica. La perforación es una complicación quirúrgica y la supresión ácida sería, como máximo, complementaria. La evidencia se limita a la predicción del modelo y a literatura indirecta (nivel L5).
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción.
-- Advertencias y contraindicaciones del prospecto de INVIMA (descarga y análisis del PDF).
-- Evaluación del riesgo de NDMA y de la situación regulatoria.
-- Comparación con alternativas vigentes (inhibidores de la bomba de protones, otros antagonistas H2 como famotidina).
-- Otras predicciones del modelo, como mastocitosis (rangos 8 y 10), son solo teóricas, sin ensayos ni literatura, y no cambian la decisión.
+- Datos del mecanismo de acción del fármaco
+- Estudios que evalúen directamente la ranitidina en la perforación de úlcera péptica
+- Revisión de las advertencias y contraindicaciones del prospecto aprobado por INVIMA
+- Evaluación del papel de la ranitidina frente a los inhibidores de la bomba de protones, que han mostrado ser superiores en cicatrización de úlceras
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

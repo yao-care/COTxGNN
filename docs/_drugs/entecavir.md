@@ -1,20 +1,20 @@
 ---
 layout: default
 title: Entecavir
-parent: Evidencia Moderada (L3-L4)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 254
-evidence_level: L3
+evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
-description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (nivel de evidencia L3). Indicación original: Entecavir"
+last_modified_at: 2026-11-04
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
+description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L5). Indicación original: ENTECAVIR"
 ---
 
 # Entecavir
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **9** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,67 +33,62 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 </div>
 
-## Entecavir: De Hepatitis B (indicación registrada: entecavir) a Infección Crónica por el Virus de la Hepatitis C
+## Entecavir: Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Entecavir es un análogo nucleósido de la guanosina, utilizado originalmente para el tratamiento de la infección por el virus de la hepatitis B (VHB).
-El modelo TxGNN predice que podría ser efectivo para la **infección crónica por el virus de la hepatitis C**, con **2 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, esta evidencia corresponde en realidad a la coinfección VHB/VHC, donde entecavir controla el VHB y no el VHC.
-
----
+Entecavir es un antiviral análogo nucleosídico de la guanosina que inhibe la polimerasa del virus de la hepatitis B (VHB).
+El modelo TxGNN predice que podría ser útil en la **infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection)**, pero ningún estudio evalúa entecavir como tratamiento de esta infección.
+Los **2 ensayos clínicos** y las **20 publicaciones** compiladas tratan de la coinfección VHC/VHB, donde entecavir previene la reactivación del VHB, no de la eficacia contra el VHC. Por eso el nivel de evidencia es **L5**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Entecavir (el registro sanitario solo indica el nombre del principio activo, sin texto de indicación detallado) |
-| Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C |
+| Indicación Original | ENTECAVIR |
+| Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) |
 | Puntaje de Predicción TxGNN | 0.9998 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
 | Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, entecavir es un análogo nucleósido de la guanosina que se fosforila a entecavir trifosfato e inhibe la polimerasa del VHB en tres pasos: cebado de la base, transcripción inversa de la cadena negativa y síntesis de la cadena positiva. Su eficacia en hepatitis B crónica está bien establecida.
+Entecavir es un análogo nucleosídico de la guanosina que inhibe la polimerasa del VHB. Los datos compilados no incluyen una descripción detallada del mecanismo de acción. Según la información conocida, no tiene actividad directa contra el VHC. El VHC es un virus ARN que se replica con la polimerasa NS5B dependiente de ARN, una diana distinta.
 
-La relación con la hepatitis C es **indirecta**. El VHC es un virus ARN que usa la polimerasa NS5B dependiente de ARN, y entecavir no tiene actividad directa conocida contra ella. La relevancia clínica proviene de pacientes coinfectados VHB/VHC: durante o después de la terapia con antivirales de acción directa (AAD) contra el VHC puede reactivarse el VHB, y entecavir sirve para prevenirlo o controlarlo.
+La señal del modelo probablemente refleja la coinfección VHC/VHB. En estos pacientes, entecavir controla la replicación del VHB o su reactivación, sobre todo durante o después del tratamiento del VHC con antivirales de acción directa (AAD). Es una supresión del VHB en pacientes coinfectados, no un tratamiento del VHC.
 
-Por ello, la predicción del modelo debe interpretarse como una señal de coinfección y no como un posible tratamiento del VHC. Como el VHC ya cuenta con AAD curativos, no existe un fundamento para usar entecavir como terapia anti-VHC.
-
----
+Además, el VHC cuenta hoy con antivirales de acción directa curativos, por lo que no hay una justificación mecanística para usar entecavir como terapia anti-VHC. La predicción es hipótesis del modelo, sin respaldo de estudios que prueben entecavir contra esta infección.
 
 ## Evidencia de Ensayos Clínicos
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Completado | 23 | Estudio prospectivo de AAD en coinfección VHC/VHB; evalúa la incidencia y los factores de riesgo de reactivación del VHB. La contribución de entecavir es indirecta y la muestra es pequeña. |
-| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | No aplica | Desconocido | 60 | Ensayo aleatorizado de tres brazos sobre profilaxis con análogos nucleós(t)idos (12 vs. 24 semanas) para prevenir la reactivación del VHB en coinfectados que reciben AAD. Apunta al VHB, no al VHC; sin resultados confirmados. |
+| [NCT02555943](https://clinicaltrials.gov/study/NCT02555943) | Fase 2/3 | Completado | 23 | Estudio prospectivo de AAD en coinfección VHC/VHB. Evalúa incidencia, morbilidad, mortalidad y factores de riesgo de reactivación del VHB. El aporte de entecavir es indirecto. |
+| [NCT04405011](https://clinicaltrials.gov/study/NCT04405011) | No aplica | Desconocido | 60 | Ensayo aleatorizado abierto de tres brazos. Compara profilaxis con análogo nucleos(t)ídico durante 12 o 24 semanas para prevenir la reactivación del VHB en pacientes coinfectados que reciben AAD. No tiene resultados confirmados. |
 
----
+Ambos ensayos se centran en el control del VHB, no en tratar el VHC.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [34864158](https://pubmed.ncbi.nlm.nih.gov/34864158/) | 2022 | ECA | Clin Gastroenterol Hepatol | Entecavir previene la reactivación del VHB durante el tratamiento con AAD en la coinfección VHC/VHB. |
-| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohorte | Viruses | Reactivación del VHC en pacientes anti-VHC positivos con hepatitis B crónica tratados con análogos nucleós(t)idos (66 pacientes). |
+| [34864158](https://pubmed.ncbi.nlm.nih.gov/34864158/) | 2022 | ECA | Clin Gastroenterol Hepatol | Ensayo aleatorizado: entecavir previene la reactivación del VHB durante el tratamiento con AAD en la coinfección VHC/VHB. |
 | [24773464](https://pubmed.ncbi.nlm.nih.gov/24773464/) | 2014 | Revisión | Expert Opin Pharmacother | Avances en el tratamiento de la coinfección VHB/VHC, con alto riesgo de cirrosis y carcinoma hepatocelular. |
-| [35327336](https://pubmed.ncbi.nlm.nih.gov/35327336/) | 2022 | Revisión | Biomedicines | Terapia de las hepatitis virales crónicas; los análogos nucleós(t)idos han cambiado la evolución de la hepatitis B. |
+| [29081251](https://pubmed.ncbi.nlm.nih.gov/29081251/) | 2017 | Revisión | Expert Opin Pharmacother | Opciones de tratamiento en la coinfección VHB/VHC, con el cambio de esquemas con interferón a AAD. |
 | [25027705](https://pubmed.ncbi.nlm.nih.gov/25027705/) | 2014 | Revisión | Minerva Gastroenterol Dietol | Antivirales para hepatitis B y C y sus efectos sobre la función renal. |
-| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Revisión | Wien Med Wochenschr | Tratamiento actual y perspectivas en hepatitis B y C crónicas. |
-| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | Observacional | J Gastroenterol Hepatol | Riesgo de reactivación del VHB durante el tratamiento con AAD en pacientes con hepatitis C y VHB. |
-| [35108715](https://pubmed.ncbi.nlm.nih.gov/35108715/) | 2022 | Observacional | Dig Dis | Incidencia y evolución clínica de la reactivación del VHB en pacientes tratados con AAD para hepatitis C. |
-| [32173307](https://pubmed.ncbi.nlm.nih.gov/32173307/) | 2020 | Revisión | Clin Res Hepatol Gastroenterol | Manejo actual y futuro de las hepatitis virales B y C en niños. |
-| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | Revisión | World J Hepatol | Manejo de pacientes con hepatitis B y C antes y después del trasplante hepático y renal. |
-
----
+| [35327336](https://pubmed.ncbi.nlm.nih.gov/35327336/) | 2022 | Revisión | Biomedicines | Terapia de la hepatitis viral crónica. Los análogos nucleos(t)ídicos tienen un efecto importante en la evolución de la hepatitis B. |
+| [16937041](https://pubmed.ncbi.nlm.nih.gov/16937041/) | 2006 | Revisión | Wien Med Wochenschr | Tratamiento actual y perspectivas de las hepatitis B y C crónicas. |
+| [36146665](https://pubmed.ncbi.nlm.nih.gov/36146665/) | 2022 | Cohorte | Viruses | Reactivación del VHC en 66 pacientes anti-VHC positivos con hepatitis B crónica tratados con análogos nucleos(t)ídicos. |
+| [35108715](https://pubmed.ncbi.nlm.nih.gov/35108715/) | 2022 | No clasificado | Dig Dis | Incidencia y curso clínico de la reactivación del VHB en pacientes tratados con AAD para VHC. |
+| [28230928](https://pubmed.ncbi.nlm.nih.gov/28230928/) | 2017 | No clasificado | J Gastroenterol Hepatol | Riesgo de reactivación del VHB durante el tratamiento con AAD en hepatitis C crónica. |
+| [24868325](https://pubmed.ncbi.nlm.nih.gov/24868325/) | 2014 | No clasificado | World J Hepatol | Manejo de pacientes con hepatitis B y C antes y después del trasplante hepático y renal. Entecavir y tenofovir tienen alta barrera a la resistencia. |
 
 ## Información de Mercado en Colombia
+
+Estado de mercado: **Comercializado**. Los tres registros sanitarios están vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
@@ -101,35 +96,30 @@ Por ello, la predicción del modelo debe interpretarse como una señal de coinfe
 | 19964241 | BARACLUDE TABLETA RECUBIERTA 0.5 MG | Tableta recubierta | Entecavir | Vigente |
 | 20118266 | ZENTAIR 0.5 MG | Tableta recubierta | Entecavir | Vigente |
 
-Actualmente no hay registros vigentes en Colombia: los tres registros sanitarios (Bristol Myers Squibb de Colombia y Cipla) figuran como cancelados.
-
----
-
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (no según el prospecto)**: función renal alterada, enfermedad de hígado graso, esteatohepatitis no alcohólica y acidosis láctica.
-- **Interacciones farmacológicas**: se identificaron 44 interacciones, todas de nivel moderado en las principales listadas. Entre ellas: famotidina, ranitidina, cimetidina, metformina, anfotericina B (y sus formulaciones lipídicas), amoxicilina, mesalazina, balsalazida, olsalazina, sulfasalazina, vancomicina, kanamicina, neomicina, levofloxacino, orlistat y polimixina B. Varias de ellas implican riesgo renal, por lo que conviene vigilar la función renal.
-- **Literatura de seguridad**: se han descrito casos de trombocitopenia asociada a entecavir y efectos adversos de clase de los análogos nucleós(t)idos (miopatía, neuropatía, acidosis láctica).
+- **Interacciones farmacológicas**: se registran 44 interacciones. Las 20 detalladas son todas de nivel moderado. Algunos ejemplos son:
+  - Antiácidos y antagonistas H2: famotidina, ranitidina y cimetidina.
+  - Metformina.
+  - Antimicrobianos: anfotericina B (y sus formulaciones lipídicas), amoxicilina, vancomicina, kanamicina, neomicina, levofloxacino y polimixina B.
+  - Mesalazina, balsalazida, olsalazina y sulfasalazina.
+  - Orlistat.
 
-Para advertencias y contraindicaciones oficiales, consultar el prospecto.
-
----
+Para advertencias y contraindicaciones, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-Entecavir no tiene actividad conocida contra el VHC, y la evidencia asociada refleja el manejo del VHB en coinfectados (prevención de reactivación durante terapia con AAD), no el tratamiento de la hepatitis C. Además, el VHC dispone de antivirales curativos y no hay registros vigentes del producto en Colombia.
+Ningún estudio evalúa entecavir como tratamiento de la hepatitis C crónica, por lo que el nivel de evidencia es L5. Los ensayos y las publicaciones solo respaldan su papel en prevenir la reactivación del VHB en pacientes coinfectados que reciben AAD. Además, el VHC ya dispone de tratamientos curativos.
 
 **Para avanzar se necesita:**
-- Reformular la pregunta de investigación como "prevención de reactivación del VHB en coinfección VHB/VHC bajo AAD", donde la evidencia es más consistente (incluido un ECA publicado).
-- Obtener datos del mecanismo de acción desde DrugBank.
-- Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones.
-- Confirmar la situación regulatoria en Colombia (los tres registros están cancelados).
-- Plan de monitoreo de función renal y hepática, dadas las contraindicaciones del grafo de conocimiento y las interacciones identificadas.
+- Evidencia directa, preclínica o clínica, de que entecavir tiene actividad contra el VHC, hoy inexistente.
+- Aclarar si el interés real es el manejo de la coinfección VHC/VHB, que sería una pregunta de profilaxis del VHB y no una nueva indicación para el VHC.
+- Obtener las advertencias y contraindicaciones del prospecto autorizado en Colombia.
+- Datos detallados del mecanismo de acción.
 
-**Nota sobre otras predicciones:** las demás indicaciones predichas tampoco justifican un reposicionamiento. La hepatitis B es la indicación original aprobada (nivel de evidencia L1, no es reposicionamiento verdadero). La infección por VIH (L2) refleja solo el control del VHB en coinfectados y entecavir no debe usarse como tratamiento anti-VIH. Las hepatitis A y E, las indicaciones veterinarias y el trastorno del neurodesarrollo carecen de fundamento mecanístico.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

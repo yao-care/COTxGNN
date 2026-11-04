@@ -3,18 +3,18 @@ layout: default
 title: Miconazole
 parent: Evidencia Moderada (L3-L4)
 nav_order: 441
-evidence_level: L3
+evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
-description: "Miconazole: nueva indicación predicha, Acné (nivel de evidencia L3). Indicación original: Metronidazol"
+last_modified_at: 2026-11-04
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
+description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: METRONIDAZOL"
 ---
 
 # Miconazole
 {: .fs-9 }
 
-Nivel de evidencia: **L3** | Indicaciones predichas: **1** 
+Nivel de evidencia: **L4** | Indicaciones predichas: **1** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,86 +33,76 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 </div>
 
-## Miconazol: De Metronidazol/Miconazol a Acné
+## Miconazole: acné (acne (disease))
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Miconazol es un antifúngico imidazólico; en Colombia su único registro sanitario en los datos compilados corresponde a un óvulo vaginal (GYNOTRAN® OVULO) cuya indicación aparece como metronidazol.
-El modelo TxGNN predice que podría ser efectivo para **acné**, con **0 ensayos clínicos** y **4 publicaciones** que actualmente respaldan esta dirección de forma preliminar.
-
----
+Miconazol es un antifúngico de la clase de los imidazoles, con registro sanitario vigente en Colombia.
+El modelo TxGNN predice que podría ser útil para **acné (acne (disease))**,
+pero la evidencia es limitada: **0 ensayos clínicos** y **4 publicaciones** (una revisión, un estudio clínico pequeño, un estudio in vitro y un estudio sobre una afección que imita el acné), sin un estudio clínico directo en acné. Nivel de evidencia: **L4**.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Metronidazol (texto tal como figura en el registro; corresponde a una combinación con miconazol) |
-| Nueva Indicación Predicha | Acné |
+| Indicación Original | METRONIDAZOL; MICONAZOL |
+| Nueva Indicación Predicha | acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9954 |
-| Nivel de Evidencia | L3 |
+| Nivel de Evidencia | L4 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
 | Número de Registros Sanitarios | al menos 1 |
 | Decisión Recomendada | Hold |
 
----
-
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según el conocimiento general, miconazol es un antifúngico imidazólico que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-demetilasa) y bloquea la síntesis de ergosterol. Esta explicación proviene de conocimiento general del fármaco y no de los datos suministrados.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el miconazol inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa), bloqueando la síntesis de ergosterol. Esta descripción proviene de conocimiento general y no de los datos suministrados.
 
-Para el acné se plantean tres vías plausibles: (1) actividad in vitro de los azoles frente a *Cutibacterium (Propionibacterium) acnes* (PMID 20045949); (2) actividad frente a *Malassezia*, causante de la foliculitis por Pityrosporum, una afección que imita al acné (PMID 8593718); y (3) efectos antiinflamatorios y antibacterianos descritos sobre la piel (PMID 18627330).
+En el acné se plantean varios vínculos posibles: (1) actividad in vitro de los azoles contra *Cutibacterium (Propionibacterium) acnes* (PMID 20045949); (2) actividad contra *Malassezia*, causante de la foliculitis por *Malassezia*, una afección que imita el acné (PMID 8593718); y (3) efectos antibacterianos y antiinflamatorios descritos en la piel (PMID 18627330). Un estudio dividido en hemicara en acné inflamatorio leve catamenial (PMID 15536660) aporta datos humanos a pequeña escala.
 
-El puntaje alto de TxGNN (0.9954) es coherente con estos vínculos, pero es una predicción computacional y no constituye evidencia clínica. Cabe destacar que parte de la evidencia se refiere a una afección que simula el acné, no al acné vulgar propiamente dicho.
-
----
+El puntaje de 0,9954 es coherente con estos vínculos, pero es una predicción computacional y no constituye evidencia clínica. Ningún estudio citado evalúa de forma directa y concluyente el miconazol en acné; por ello el nivel de evidencia se mantiene en L4, apoyado principalmente en la revisión sobre sus efectos cutáneos.
 
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
 
----
-
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revisión | Expert Opin Pharmacother | Revisión de los efectos múltiples del miconazol en enfermedades de la piel; el nitrato de miconazol es un antifúngico imidazólico de uso consolidado |
-| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Estudio clínico (split-face, pequeña escala) | Skin Res Technol | Evaluación clínica y bioinstrumental en acné inflamatorio leve catamenial; aporta datos humanos de pequeña escala |
-| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Estudio clínico (diagnóstico y terapéutico) | Clin Exp Dermatol | 62 pacientes con foliculitis por Pityrosporum, frecuentemente confundida con acné vulgar; no es acné verdadero |
-| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | Estudio in vitro | Biol Pharm Bull | Actividad in vitro de antifúngicos azólicos frente a *P. acnes* aislado de pacientes con acné vulgar |
-
----
+| [18627330](https://pubmed.ncbi.nlm.nih.gov/18627330/) | 2008 | Revisión | Expert Opin Pharmacother | Revisión de los efectos multifacéticos del miconazol en trastornos de la piel; antifúngico imidazólico de uso consolidado |
+| [15536660](https://pubmed.ncbi.nlm.nih.gov/15536660/) | 2004 | Estudio clínico (hemicara, pequeña escala) | Skin Res Technol | Evaluación clínica y bioinstrumental en acné inflamatorio leve catamenial |
+| [8593718](https://pubmed.ncbi.nlm.nih.gov/8593718/) | 1995 | Estudio clínico | Clin Exp Dermatol | Foliculitis por *Pityrosporum* (*Malassezia*) en Arabia Saudita, a menudo confundida con acné vulgar; diagnóstico y ensayos terapéuticos |
+| [20045949](https://pubmed.ncbi.nlm.nih.gov/20045949/) | 2010 | In vitro | Biol Pharm Bull | Actividad in vitro de azoles antifúngicos contra *P. acnes* aislado de pacientes con acné vulgar |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19985092 (cancelado) | GYNOTRAN® OVULO | Óvulo | Metronidazol |
+| 19985092 | GYNOTRAN® OVULO | Óvulo | Metronidazol |
 
----
+La lista de registros puede ser parcial.
 
 ## Consideraciones de Seguridad
 
-- **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto)**: enfermedad hepática y enfermedad de la vesícula biliar.
-- **Interacciones farmacológicas / farmacología de dianas**: se identificaron 3 registros de interacción con dianas humanas (TRPM2, TRPV5 y CYP8B1). Sin nivel de gravedad asignado. Los datos indican que miconazol se une a CYP8B1 y lo inhibe.
+- **Interacciones farmacológicas (farmacología de dianas):** se registraron 3 interacciones con dianas humanas: TRPM2, TRPV5 y CYP8B1 (el miconazol se une e inhibe CYP8B1). No se dispone de niveles de gravedad.
+- **Advertencia adicional:** en los datos compilados figuran relaciones con enfermedad hepática y enfermedad de la vesícula biliar como posibles contraindicaciones; conviene tener precaución en pacientes con estas condiciones.
 
-No se dispone de advertencias del prospecto; consultar el prospecto para información adicional de seguridad.
-
----
+Para el resto de la información de seguridad, consultar el prospecto.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a una revisión, un estudio clínico pequeño, un estudio in vitro y un estudio sobre una afección que simula el acné, sin ensayos clínicos registrados. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+La predicción tiene un puntaje alto (0,9954), pero la evidencia llega solo a L4: una revisión de los efectos del miconazol en la piel, datos in vitro y un estudio pequeño, sin ensayos clínicos directos en acné.
 
 **Para avanzar se necesita:**
-- Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente una brecha de datos bloqueante para el tamizaje de seguridad
-- Completar los datos del mecanismo de acción desde DrugBank
-- Generar evidencia clínica específica en acné vulgar (idealmente ensayos aleatorizados)
-- Evaluar la compatibilidad de vías de administración, dado que el producto registrado es un óvulo vaginal
+- Ensayos clínicos controlados de miconazol en acné
+- Datos detallados del mecanismo de acción
+- Información de seguridad del prospecto de INVIMA (advertencias y contraindicaciones)
+- Evaluación de la viabilidad de la vía de administración para uso en acné
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
