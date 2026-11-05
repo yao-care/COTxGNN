@@ -99,6 +99,11 @@
    "cut": "El producto está cancelado en Colombia y ",
    "capitalize": true,
    "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性內容保留"
+  },
+  {
+   "sentence": "Nandrolona es un esteroide anabólico androgénico que contaba",
+   "cut": " que contaba con un registro sanitario en Colombia, cuyo texto de indicación solo dice \"NANDROLONA\"",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
   }
  ],
  "ketorolac": [
@@ -119,6 +124,165 @@
   {
    "sentence": "El único registro existente, fabricado por Laboratorios Remo S.A.S., está cancelado",
    "reason": "INVIMA CUM：bencidamina 有 Vigente 註冊；整句講註冊狀態（刪子句會留下沒有述語的殘句），整句刪"
+  }
+ ],
+ "aflibercept": [
+  {
+   "sentence": "Aflibercept es una proteína de fusión recombinante",
+   "cut": " y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®)",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "bromazepam": [
+  {
+   "sentence": "Bromazepam es una benzodiazepina que contó con registros sanitarios en Colombia",
+   "cut": " que contó con registros sanitarios en Colombia",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "bupropion": [
+  {
+   "sentence": "Bupropión es un fármaco antidepresivo de liberación prolongada que contó",
+   "cut": " que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®)",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "clobazam": [
+  {
+   "sentence": "Clobazam es una benzodiazepina (1,5-benzodiazepina) que en Colombia contó",
+   "cut": " que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "cysteine": [
+  {
+   "sentence": "La cisteína es un aminoácido que en Colombia estuvo registrado",
+   "cut": " que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición (NUMETA® G 19% E)",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "diclofenac": [
+  {
+   "sentence": "Diclofenaco es un antiinflamatorio no esteroideo (AINE) que, en Colombia, estuvo registrado",
+   "cut": " que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50)",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "dihydrocodeine": [
+  {
+   "sentence": "La dihidrocodeína es un analgésico opioide con actividad antitusiva; en Colombia contaba",
+   "cut": "; en Colombia contaba con registros sanitarios cuyo texto de indicación solo dice \"DIHIDROCODEINA\", sin detallar el uso aprobado",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "etonogestrel": [
+  {
+   "sentence": "Etonogestrel es un progestágeno que en Colombia contó",
+   "cut": " que en Colombia contó con un registro sanitario como sistema de liberación (anillo), clasificado como \"progestágeno+estrógeno\"",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "flucytosine": [
+  {
+   "sentence": "Flucitosina es un antimicótico que en Colombia contaba",
+   "cut": " que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura únicamente como \"FLUCITOSINA\"",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "imiquimod": [
+  {
+   "sentence": "Imiquimod es un inmunomodulador de uso tópico (crema) que en Colombia contó",
+   "cut": " que en Colombia contó con registros sanitarios, aunque el registro no detalla la indicación aprobada",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "melphalan": [
+  {
+   "sentence": "Melfalán es un agente alquilante antineoplásico que en Colombia contó",
+   "cut": " que en Colombia contó con registros sanitarios de la sustancia \"melphalan\"",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "mesalazine": [
+  {
+   "sentence": "La mesalazina (ácido 5-aminosalicílico) es un antiinflamatorio intestinal que en Colombia contó",
+   "cut": " que en Colombia contó con registros sanitarios bajo el nombre del principio activo",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "methotrexate": [
+  {
+   "sentence": "El metotrexato es un antifolato que en Colombia tuvo registros sanitarios",
+   "cut": " que en Colombia tuvo registros sanitarios, sin que el texto de indicación aprobada detalle un uso específico más allá del nombre del producto",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "minocycline": [
+  {
+   "sentence": "En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero el texto",
+   "cut": "En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero ",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留",
+   "capitalize": true
+  }
+ ],
+ "niraparib": [
+  {
+   "sentence": "Niraparib es un inhibidor de PARP que contó",
+   "cut": " que contó con un registro sanitario en Colombia, cuyo texto de indicación solo consigna el nombre del principio activo",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "orlistat": [
+  {
+   "sentence": "Orlistat es un inhibidor de las lipasas gástrica y pancreática, que en Colombia contaba",
+   "cut": ", que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "teprotumumab": [
+  {
+   "sentence": "Teprotumumab es un anticuerpo monoclonal anti-IGF-1R que contó",
+   "cut": " que contó con un registro sanitario en Colombia (TEPEZZA®)",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "thimerosal": [
+  {
+   "sentence": "conservante; en Colombia contó con un registro sanitario para una solución tópica",
+   "cut": "; en Colombia contó con un registro sanitario para una solución tópica",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "trandolapril": [
+  {
+   "sentence": "Su uso en hipertensión está ampliamente establecido, y fue comercializado",
+   "cut": ", y fue comercializado en Colombia en combinación con un bloqueador de canales de calcio",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "trastuzumab": [
+  {
+   "sentence": "Trastuzumab es un anticuerpo monoclonal que en Colombia contó",
+   "cut": " que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en combinación con pertuzumab",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料（證據包與 data/raw/co_fda_drugs.json）本藥有 Vigente 註冊（句中點名的產品也是 Vigente），過去式「contó／contaba／tuvo／estuvo registrado／se comercializó」會讓人誤解成已註銷，只刪這一段，藥物身分保留"
+  }
+ ],
+ "lithium_carbonate": [
+  {
+   "sentence": "El carbonato de litio contaba en Colombia con registros sanitarios para su uso como litio (la indicación aprobada se registra solo como \"LITIO\").",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料本藥有 Vigente 註冊，整句只是過去式的註冊說法（會讓人誤解成已註銷），整句刪"
+  }
+ ],
+ "mecasermin": [
+  {
+   "sentence": "Mecasermina (IGF-1 recombinante) se comercializó en Colombia bajo la marca Increlex®, con un registro sanitario cuyo texto de indicación solo dice \"MECASERMINA\".",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料本藥有 Vigente 註冊，整句只是過去式的註冊說法（會讓人誤解成已註銷），整句刪"
+  }
+ ],
+ "pralatrexate": [
+  {
+   "sentence": "En Colombia contó con un registro sanitario, cuyo texto de indicación solo dice \"PRALATREXATO\".",
+   "reason": "用戶決定（2026-11-05）：INVIMA CUM 現行資料本藥有 Vigente 註冊，整句只是過去式的註冊說法（會讓人誤解成已註銷），整句刪"
   }
  ]
 }
