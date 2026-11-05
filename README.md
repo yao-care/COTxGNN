@@ -20,27 +20,28 @@ Predicciones de reposicionamiento de medicamentos para medicamentos aprobados po
 | Elemento | Cantidad |
 |------|------|
 | **Informes de medicamentos** | 616 |
-| **Predicciones totales** | 73,068,418 |
-| **Medicamentos unicos** | 549 |
+| **Predicciones totales** | 155,988,711 |
+| **Medicamentos unicos** | 910 |
 | **Indicaciones unicas** | 17,041 |
 | **Datos DDI** | 160,235 |
-| **Recursos FHIR** | 420 MK / 3,100 CUD |
+| **Recursos FHIR** | 713 MK / 3,913 CUD |
 
 ### Distribucion de niveles de evidencia
 
 | Nivel de evidencia | Cantidad de informes | Descripcion |
 |---------|-------|------|
-| **L1** | 0 | Multiples ECAs de Fase 3 |
-| **L2** | 0 | ECA unico o multiples Fase 2 |
-| **L3** | 0 | Estudios observacionales |
-| **L4** | 0 | Estudios preclinicos / mecanisticos |
-| **L5** | 420 | Solo prediccion computacional |
+| **L1** | 15 | Multiples ECAs de Fase 3 |
+| **L2** | 21 | ECA unico o multiples Fase 2 |
+| **L3** | 25 | Estudios observacionales |
+| **L4** | 45 | Estudios preclinicos / mecanisticos |
+| **L5** | 493 | Solo prediccion computacional |
+| **N/A** | 17 | Solo usos conocidos (sin nuevas predicciones) |
 
 ### Por fuente
 
 | Fuente | Predicciones |
 |------|------|
-| DL | 73,065,318 |
+| DL | 155,985,611 |
 | KG + DL | 2,714 |
 | KG | 386 |
 
@@ -49,9 +50,9 @@ Predicciones de reposicionamiento de medicamentos para medicamentos aprobados po
 | Confianza | Predicciones |
 |------|------|
 | very_high | 2,030 |
-| high | 3,273,699 |
-| medium | 7,135,511 |
-| low | 62,657,178 |
+| high | 7,260,378 |
+| medium | 13,145,930 |
+| low | 135,580,373 |
 
 ---
 
@@ -70,8 +71,8 @@ uv run python scripts/run_kg_prediction.py
 
 | Metrica | Valor |
 |------|------|
-| INVIMA Total de medicamentos | 159,295 |
-| Mapeados a DrugBank | 43,021 (27.0%) |
+| INVIMA Total de medicamentos | 159,313 |
+| Mapeados a DrugBank | 97,101 (60.9%) |
 | Candidatos a reposicionamiento | 3,100 |
 
 ### Metodo de aprendizaje profundo
@@ -83,8 +84,8 @@ PYTHONPATH=src python -m cotxgnn.predict.txgnn_model
 
 | Metrica | Valor |
 |------|------|
-| Predicciones DL totales | 1,070,520 |
-| Medicamentos unicos | 549 |
+| Predicciones DL totales | 1,793,083 |
+| Medicamentos unicos | 910 |
 | Indicaciones unicas | 17,041 |
 
 ### Interpretacion de puntuaciones
