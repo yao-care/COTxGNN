@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Primidone: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: PRIMIDONA"
 monitor_inn: "primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -95,9 +95,9 @@ La literatura es mayoritariamente sobre carbamazepina; **no se encontró ningún
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20132767 (cancelado) | PRIMIDONA 250 MG TABLETAS | Tableta | PRIMIDONA |
+| 20132767 | PRIMIDONA 250 MG TABLETAS | Tableta | PRIMIDONA |
 
-El producto estaba a cargo del Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social). No hay registros vigentes.
+El producto estaba a cargo del Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social).
 
 ---
 
@@ -118,13 +118,12 @@ La información de advertencias del prospecto de INVIMA no estaba disponible; co
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y plausibilidad mecanística, por lo que su puntaje alto es solo un artefacto del modelo. El único registro sanitario en Colombia está cancelado y el perfil de seguridad es exigente (contraindicaciones hematológicas, hepáticas y renales, y numerosas interacciones).
+La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y plausibilidad mecanística, por lo que su puntaje alto es solo un artefacto del modelo. El perfil de seguridad es exigente (contraindicaciones hematológicas, hepáticas y renales, y numerosas interacciones).
 
 **Para avanzar se necesita:**
 - Replantear la prioridad: la **neuralgia del trigémino** (nivel L4, etapa S1, "pregunta de investigación") es la candidata más razonable, aunque la carbamazepina y la oxcarbazepina ya tienen eficacia establecida, lo que limita la necesidad no cubierta.
 - Revisión sistemática de primidona en neuralgia del trigémino y epilepsias reflejas, ya que la evidencia actual es indirecta (reportes de caso, revisiones generales y modelos animales).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o importación.
 - Plan de monitoreo de seguridad (hemograma, función hepática y renal, interacciones) antes de cualquier estudio.
 ## Descargo de responsabilidad
 

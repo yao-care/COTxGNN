@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Clenbuterol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Combinaciones"
 monitor_inn: "clenbuterol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -48,8 +48,8 @@ Clenbuterol figura en registros sanitarios colombianos únicamente como componen
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,13 +84,12 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni publicaciones. Además, el mecanismo beta-agonista va en sentido opuesto al de los tratamientos profilácticos establecidos (betabloqueadores), y no hay productos vigentes en Colombia.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni publicaciones. Además, el mecanismo beta-agonista va en sentido opuesto al de los tratamientos profilácticos establecidos (betabloqueadores).
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank y analizar el vínculo mecanístico con la migraña, incluida la dirección del efecto.
 - Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones, un paso necesario antes del tamizaje de seguridad.
 - Buscar evidencia preclínica o clínica sobre agonistas beta-2 en migraña.
-- Aclarar la indicación real de los productos combinados cancelados y evaluar la compatibilidad de vías de administración.
 - Tratar la migraña con aura del tronco encefálico como parte de la misma señal, no como evidencia adicional.
 ## Descargo de responsabilidad
 

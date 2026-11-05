@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ y la búsqueda en el registro sanitario de Colombia arrojó **0 registros**, lo 
 | Nueva Indicación Predicha | — (sin predicciones TxGNN disponibles) |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios reales recuperados en este ciclo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 9) |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -64,7 +64,7 @@ El paquete de evidencia para Alopurinol presenta tres brechas estructurales que 
 
 1. **Mecanismo de acción no recuperado (DG002 – Alta severidad):** El campo `original_moa` figura como dato faltante. Sin el perfil farmacodinámico, el modelo TxGNN no puede establecer relaciones mecanísticas con nuevas indicaciones diana.
 
-2. **Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros. Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectivamente no cuenta con registro vigente en Colombia.
+2. **Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros.
 
 3. **Array de predicciones vacío:** `predicted_indications` está vacío, lo que indica que el pipeline TxGNN no emitió candidatos en este ciclo para este fármaco.
 

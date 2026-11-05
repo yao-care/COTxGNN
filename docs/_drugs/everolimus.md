@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Everolimus: nueva indicación predicha, liposarcoma (nivel de evidencia L2). Indicación original: EVEROLIMUS"
 ---
 
@@ -50,8 +50,8 @@ con **1 ensayo clínico** de Fase 2 en combinación con ribociclib y **4 publica
 | Nueva Indicación Predicha | liposarcoma (liposarcoma) |
 | Puntaje de Predicción TxGNN | 0,9988 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

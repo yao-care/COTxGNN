@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L1). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
@@ -52,8 +52,8 @@ Se trata de una indicación dentro de la clase terapéutica ya establecida, por 
 | Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
 | Puntaje de Predicción TxGNN | 0.9921 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -97,7 +97,7 @@ La evidencia directa incluye ensayos aleatorizados de pantoprazol frente a ranit
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20102044 (cancelado) | PANTOPRAZOL 40 MG (Laboratorios MK S.A.S.) | Tableta de liberación retardada | Pantoprazol |
+| 20102044 | PANTOPRAZOL 40 MG (Laboratorios MK S.A.S.) | Tableta de liberación retardada | Pantoprazol |
 
 ---
 
@@ -116,10 +116,9 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado y varios ECA publicados (pantoprazol vs. ranitidina y vs. omeprazol en úlcera duodenal) que respaldan el uso en enfermedad ulcerosa péptica. Sin embargo, es un uso ya establecido de la clase, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+Existe un ensayo de Fase 3 completado y varios ECA publicados (pantoprazol vs. ranitidina y vs. omeprazol en úlcera duodenal) que respaldan el uso en enfermedad ulcerosa péptica. Sin embargo, es un uso ya establecido de la clase, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Confirmar la situación regulatoria en Colombia: no hay registro vigente, por lo que habría que gestionar uno nuevo o identificar otros productos de pantoprazol.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde una fuente formal como DrugBank.
 - Definir un plan de seguimiento para uso prolongado (magnesio, salud ósea, vitamina B12) y para el manejo de interacciones, en especial con acalabrutinib y atazanavir.

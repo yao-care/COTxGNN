@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,8 +91,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20018638 (cancelado) | TYPIREC ANTIGRIPAL | Cápsula blanda | Paracetamol combinaciones excluyendo psicolépticos |
-| 20013677 (cancelado) | ROSSFELL® CÁPSULAS | Cápsula dura | Pseudoefedrina combinaciones |
+| 20018638 | TYPIREC ANTIGRIPAL | Cápsula blanda | Paracetamol combinaciones excluyendo psicolépticos |
+| 20013677 | ROSSFELL® CÁPSULAS | Cápsula dura | Pseudoefedrina combinaciones |
 
 ---
 
@@ -110,7 +110,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (enfermedad de la cavidad nasal) es mecanísticamente plausible, pero corresponde en esencia a un uso ya conocido de la pseudoefedrina, no a un reposicionamiento nuevo. La evidencia es de nivel L4 (estudios farmacológicos y modelos animales, sin ensayos clínicos) y ambos registros sanitarios colombianos están cancelados. Las otras predicciones (laringofaringitis aguda, urticaria alérgica) están en nivel L5 y no tienen respaldo directo; en la urticaria la literatura trata de antihistamínicos, no de pseudoefedrina.
+La predicción principal (enfermedad de la cavidad nasal) es mecanísticamente plausible, pero corresponde en esencia a un uso ya conocido de la pseudoefedrina, no a un reposicionamiento nuevo. La evidencia es de nivel L4 (estudios farmacológicos y modelos animales, sin ensayos clínicos). Las otras predicciones (laringofaringitis aguda, urticaria alérgica) están en nivel L5 y no tienen respaldo directo; en la urticaria la literatura trata de antihistamínicos, no de pseudoefedrina.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), una brecha que bloquea el tamizaje de seguridad.

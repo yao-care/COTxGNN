@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 430
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: MERCAPTOPURINA"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colombia con un registro sanitario hoy cancelado. El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**, con **15 ensayos clínicos** y **20 publicaciones** que se asocian a esta dirección, aunque casi todos son protocolos multifármaco en los que no se puede aislar el aporte de la mercaptopurina.
+Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colombia. El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**, con **15 ensayos clínicos** y **20 publicaciones** que se asocian a esta dirección, aunque casi todos son protocolos multifármaco en los que no se puede aislar el aporte de la mercaptopurina.
 
 ## Resumen Rápido
 
@@ -96,7 +96,7 @@ Se muestran los ensayos más relevantes (de 15 registrados).
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 46262 (cancelado) | PURINETHOL 50 MG | Tableta | MERCAPTOPURINA |
+| 46262 | PURINETHOL 50 MG | Tableta | MERCAPTOPURINA |
 
 ## Citotoxicidad
 
@@ -119,7 +119,7 @@ Se muestran los ensayos más relevantes (de 15 registrados).
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente plausible y existen estudios de cohorte y piloto en LMA, pero los ensayos de Fase 3 son protocolos multifármaco (muchos en LPA) donde no se aísla el efecto de la mercaptopurina, y los ensayos más directos son de fase temprana y de muestra pequeña. Además, el único registro en Colombia está cancelado y faltan datos de seguridad del prospecto.
+La predicción es biológicamente plausible y existen estudios de cohorte y piloto en LMA, pero los ensayos de Fase 3 son protocolos multifármaco (muchos en LPA) donde no se aísla el efecto de la mercaptopurina, y los ensayos más directos son de fase temprana y de muestra pequeña. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Completar los datos del mecanismo de acción desde DrugBank.

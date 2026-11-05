@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Benralizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: Benralizumab"
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20145261 (cancelado) | FASENRA® (AstraZeneca Colombia S.A.S.) | Solución inyectable | Benralizumab |
+| 20145261 | FASENRA® (AstraZeneca Colombia S.A.S.) | Solución inyectable | Benralizumab |
 
 ---
 
@@ -100,7 +100,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe una vía mecanística plausible entre la depleción de eosinófilos y la trombocitopenia inmune. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe una vía mecanística plausible entre la depleción de eosinófilos y la trombocitopenia inmune.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Rasagilina"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 0) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,9 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20158581 (cancelado) | ZAGIL® | Tableta | Rasagilina |
-
-El fabricante es GENEPHARM S.A. Actualmente no hay registros vigentes en Colombia.
+| 20158581 | ZAGIL® | Tableta | Rasagilina |
 
 ## Consideraciones de Seguridad
 
@@ -100,14 +98,14 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para neurodegeneración asociada a PLA2G6 tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, rasagilina no tiene registros sanitarios vigentes en Colombia y faltan datos de seguridad oficiales.
+La predicción para neurodegeneración asociada a PLA2G6 tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, faltan datos de seguridad oficiales.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura y de registros de ensayos sobre rasagilina en neurodegeneración asociada a PLA2G6 y parkinsonismos genéticos
 - Datos detallados del mecanismo de acción
 - Obtención y análisis del prospecto aprobado por INVIMA (advertencias y contraindicaciones)
 - Evaluación de la seguridad en población pediátrica, dado el inicio temprano de la enfermedad
-- Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente
+- Verificación de la situación regulatoria: y habría que solicitar uno nuevo o reactivar el existente
 - Estudios preclínicos en modelos de neurodegeneración asociada a PLA2G6 antes de considerar estudios clínicos
 ## Descargo de responsabilidad
 

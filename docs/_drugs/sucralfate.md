@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 592
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sucralfate: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L2). Indicación original: Sucralfato"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos registrados** y **11 publicaciones** que actualmente r
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -103,7 +103,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguos (1985-2003) y centrados en síntomas, pero no hay ensayos clínicos registrados ni Fase 3 confirmados, por lo que el nivel es L2. Además, no hay registros sanitarios vigentes en Colombia y faltan datos de seguridad del prospecto, lo que impide avanzar con seguridad por ahora.
+Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguos (1985-2003) y centrados en síntomas, pero no hay ensayos clínicos registrados ni Fase 3 confirmados, por lo que el nivel es L2. Además, faltan datos de seguridad del prospecto, lo que impide avanzar con seguridad por ahora.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información bloqueante para el tamizaje de seguridad.

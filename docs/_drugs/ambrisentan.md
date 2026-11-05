@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ambrisentan: nueva indicación predicha, Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) (nivel de evidencia L5). Indicación original: AMBRISENTAN"
 ---
 
@@ -48,8 +48,8 @@ Ambrisentan es un antagonista del receptor de endotelina tipo A (ETA). El modelo
 | Nueva Indicación Predicha | Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) |
 | Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?

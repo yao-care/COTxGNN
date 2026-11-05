@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 201
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). Indicación original: DEFERIPRONA"
@@ -87,7 +87,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20218402 (cancelado) | IROFIN® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | DEFERIPRONA |
+| 20218402 | IROFIN® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | DEFERIPRONA |
 
 ---
 
@@ -108,13 +108,12 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto; cons
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es solo preclínica (L4), sin ensayos clínicos, y una de las dos publicaciones se refiere a una forma de porfiria distinta (eritropoyética). Además, el único registro sanitario en Colombia está cancelado, y no hay datos de seguridad del prospecto.
+La evidencia es solo preclínica (L4), sin ensayos clínicos, y una de las dos publicaciones se refiere a una forma de porfiria distinta (eritropoyética). Además, no hay datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío de datos que bloquea el análisis de seguridad
 - Complementar los datos del mecanismo de acción (por ejemplo, desde DrugBank)
 - Buscar evidencia clínica en humanos (series de casos o ensayos) en porfiria cutánea tardía
-- Aclarar la situación regulatoria: no hay registro vigente en Colombia
 - Diseñar un estudio exploratorio con monitoreo de seguridad hematológica, si se decide avanzar
 
 **Otras predicciones del modelo (para referencia):**

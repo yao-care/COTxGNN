@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L4). Indicación original: Procaína"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **metahemoglobinemia**, pe
 | Nueva Indicación Predicha | Metahemoglobinemia |
 | Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20026717 (cancelado) | SATYA®AL 1% | Solución inyectable | Procaína |
+| 20026717 | SATYA®AL 1% | Solución inyectable | Procaína |
 
 ---
 
@@ -111,14 +111,13 @@ No se dispone de las advertencias y contraindicaciones del prospecto; se recomie
 **Decisión: Hold**
 
 **Justificación:**
-La literatura sobre metahemoglobinemia indica que la procaína es una causa de la condición y no un tratamiento, por lo que el puntaje del modelo no se traduce en beneficio terapéutico. Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto.
+La literatura sobre metahemoglobinemia indica que la procaína es una causa de la condición y no un tratamiento, por lo que el puntaje del modelo no se traduce en beneficio terapéutico. Además, no existen ensayos clínicos, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descartar formalmente esta predicción para metahemoglobinemia, anafilaxia y deficiencia de metahemoglobina reductasa, por riesgo de empeorar la condición.
 - Si se desea explorar la procaína, redirigir el análisis hacia indicaciones con plausibilidad mecanística (fibromialgia/dolor miofascial y tendinopatía). Para ello se requieren ensayos controlados modernos; el estudio de 2022 sobre terapia neural en tendinopatía del supraespinoso (PMID 35480510) es un punto de partida.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o una vía alternativa.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Piperacillin: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Piperacilina e inhibidor enzimático"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -96,7 +96,7 @@ Se muestran las publicaciones más relevantes. Todas son reportes de caso, cohor
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20089767 (cancelado) | AUROTAZ-P 4.5 G | Polvo estéril para reconstituir a solución inyectable | Piperacilina e inhibidor enzimático |
+| 20089767 | AUROTAZ-P 4.5 G | Polvo estéril para reconstituir a solución inyectable | Piperacilina e inhibidor enzimático |
 
 ---
 
@@ -118,13 +118,13 @@ Se debe consultar el prospecto para advertencias y contraindicaciones.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni estudios que evalúen piperacilina como tratamiento de la artritis reumatoide, y no existe un vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado. Las otras ocho indicaciones predichas también carecen de respaldo mecanístico y de evidencia.
+La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni estudios que evalúen piperacilina como tratamiento de la artritis reumatoide, y no existe un vínculo mecanístico plausible. Las otras ocho indicaciones predichas también carecen de respaldo mecanístico y de evidencia.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y una justificación biológica verosímil para la artritis reumatoide.
 - Estudios preclínicos que muestren un efecto inmunomodulador o antiinflamatorio.
 - Revisar el prospecto aprobado por INVIMA para completar advertencias y contraindicaciones.
-- Aclarar la situación regulatoria, dado que el único registro está cancelado.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

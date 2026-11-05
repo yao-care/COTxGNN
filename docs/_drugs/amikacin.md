@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amikacin: nueva indicación predicha, fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). Indicación original: AMIKACINA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **fiebre paratifoidea (paraty
 | Nueva Indicación Predicha | fiebre paratifoidea (paratyphoid fever) |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

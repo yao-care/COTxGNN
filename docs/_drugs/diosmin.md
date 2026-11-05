@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: DIOSMIN COMBINACIONES"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20004470 (cancelado) | VEDIPAL® COMPRIMIDOS RECUBIERTOS | Tableta recubierta | DIOSMIN COMBINACIONES |
+| 20004470 | VEDIPAL® COMPRIMIDOS RECUBIERTOS | Tableta recubierta | DIOSMIN COMBINACIONES |
 
 ---
 
@@ -98,13 +98,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con la amenorrea. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con la amenorrea.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la diosmina (por ejemplo, desde DrugBank) para evaluar un posible vínculo con la amenorrea
 - Revisión de la literatura preclínica y clínica sobre diosmina y trastornos menstruales o del eje hormonal
 - Prospecto del INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
-- Evaluación de la viabilidad regulatoria, dado que no hay registros vigentes en Colombia
+- Evaluación de la viabilidad regulatoria
 - Confirmar la compatibilidad de vías de administración y la similitud con la indicación original, hoy pendientes
 ## Descargo de responsabilidad
 

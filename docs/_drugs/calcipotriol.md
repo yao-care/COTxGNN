@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 127
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: Combinaciones de calcipotriol"
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **4 publicaciones** que actualmente respaldan esta
 | Nueva Indicación Predicha | Queratosis seborreica |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,13 +98,12 @@ No se dispuso de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Decisión: Hold**
 
 **Justificación:**
-Existe plausibilidad mecanística y estudios pequeños favorables (L3), pero no hay ensayos clínicos registrados ni estudios controlados. Además, no hay registros sanitarios vigentes en Colombia y faltan datos de seguridad del prospecto.
+Existe plausibilidad mecanística y estudios pequeños favorables (L3), pero no hay ensayos clínicos registrados ni estudios controlados. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Ensayos clínicos controlados y aleatorizados de calcipotriol tópico en queratosis seborreica.
 - Obtención y análisis del prospecto de INVIMA (advertencias y contraindicaciones).
 - Datos detallados del mecanismo de acción del fármaco.
-- Evaluación de la situación regulatoria: los dos registros están cancelados, por lo que se requeriría un nuevo registro o una vía de acceso alternativa.
 - Revisión de las contraindicaciones del grafo de conocimiento (hipercalcemia, trastornos del metabolismo del calcio) y de las interacciones farmacológicas con relevancia clínica.
 
 **Otras indicaciones predichas (todas con decisión Hold):** queratosis folicular invertida vulvar, vulvovaginitis, vulvitis (evidencia indirecta en psoriasis vulvar), neoplasia vulvar, úlcera vulvar, neoplasia escamosa vulvar, vaginitis atrófica posmenopáusica, enfermedad ósea de Paget y enfermedad fibroquística de mama. Todas tienen evidencia L4-L5, sin ensayos clínicos.

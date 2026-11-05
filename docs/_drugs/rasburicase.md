@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rasburicase: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L5). Indicación original: RASBURICASA"
 monitor_inn: "rasburicase"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -99,9 +99,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20060952 (cancelado) | FASTURTEC® 1.5 MG / ML | Polvo liofilizado para reconstituir a solución inyectable | RASBURICASA |
-
-El producto fue fabricado por Sanofi-Aventis de Colombia S.A. y su registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano.
+| 20060952 | FASTURTEC® 1.5 MG / ML | Polvo liofilizado para reconstituir a solución inyectable | RASBURICASA |
 
 ---
 
@@ -119,13 +117,13 @@ El producto fue fabricado por Sanofi-Aventis de Colombia S.A. y su registro est�
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de acción de la rasburicasa (reducir el ácido úrico) va en contra de lo que requeriría la hipouricemia renal. Además, el único registro sanitario en Colombia está cancelado.
+La predicción carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de acción de la rasburicasa (reducir el ácido úrico) va en contra de lo que requeriría la hipouricemia renal.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde fuentes oficiales.
 - Prospecto oficial con advertencias y contraindicaciones, que no está disponible y es un vacío bloqueante para el cribado de seguridad.
 - Evaluación de si alguna otra predicción (por ejemplo, crisis hiperuricémicas agudas en la deficiencia parcial de HPRT) tiene un fundamento clínico más coherente.
-- Revisión del estado regulatorio en Colombia, dado que el registro está cancelado.
+- Revisión del estado regulatorio en Colombia.
 - Evidencia preclínica o clínica que justifique cualquier nueva indicación antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 660
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (nivel de evidencia L4). Indicación original: Vinblastina"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Vinblastina es un alcaloide de la vinca, con registros sanitarios en Colombia como medicamento antineoplásico inyectable, actualmente cancelados.
+Vinblastina es un alcaloide de la vinca, con registros sanitarios en Colombia como medicamento antineoplásico inyectable.
 El modelo TxGNN predice que podría ser efectivo para **rabdomiosarcoma**,
 con **0 ensayos clínicos** registrados y **7 publicaciones** (en su mayoría reportes de caso, estudios preclínicos y series antiguas) que respaldan esta dirección de forma indirecta.
 
@@ -96,10 +96,8 @@ No se encontraron ensayos controlados aleatorizados para esta indicación.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20134951 (cancelado) | VINCABLAS® 10 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
-| 20099893 (cancelado) | VINBLASTINA SULFATO 10 MG | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
-
-Actualmente no hay registros vigentes en Colombia; un uso futuro requeriría un nuevo registro o importación bajo un trámite especial.
+| 20134951 | VINCABLAS® 10 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
+| 20099893 | VINBLASTINA SULFATO 10 MG | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
 
 ---
 
@@ -131,13 +129,13 @@ Actualmente no hay registros vigentes en Colombia; un uso futuro requeriría un 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto del modelo, pero el respaldo se limita a reportes de caso, un estudio piloto con régimen multifármaco y trabajo preclínico, sin ensayos registrados. Además, no hay registros vigentes en Colombia y faltan los datos de seguridad del prospecto.
+La predicción tiene un puntaje alto del modelo, pero el respaldo se limita a reportes de caso, un estudio piloto con régimen multifármaco y trabajo preclínico, sin ensayos registrados. Además, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la evidencia clínica actual del rabdomiosarcoma (guías y ensayos de grupos cooperativos) para determinar el papel real de la vinblastina frente a los esquemas estándar.
-- Evaluar la vía regulatoria (nuevo registro o importación) dado que los registros actuales están cancelados.
+- Evaluar la vía regulatoria.
 - Analizar por separado el posible interés en otras indicaciones con más evidencia clínica en los datos (por ejemplo, leucemia monocítica, de nivel L3 pero con estudios antiguos y pequeños).
 ## Descargo de responsabilidad
 

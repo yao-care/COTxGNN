@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fluconazole: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: FLUCONAZOL"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,7 +92,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto, ya
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antifúngico no explica un beneficio en una enfermedad ocular mayormente viral o no infecciosa. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antifúngico no explica un beneficio en una enfermedad ocular mayormente viral o no infecciosa.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank para analizar el vínculo mecanístico.
@@ -100,7 +100,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Evidencia real (estudios preclínicos, series de casos o ensayos), por ejemplo en queratitis o queratoconjuntivitis de origen fúngico confirmado.
 - Evaluación de la compatibilidad de la vía de administración (la forma registrada es oral; una indicación ocular requeriría valorar formulaciones oftálmicas).
 - Evaluación del riesgo de prolongación del QT y de las interacciones farmacológicas antes de cualquier uso en esta indicación.
-- Aclarar la situación regulatoria, dado que no hay registros vigentes.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

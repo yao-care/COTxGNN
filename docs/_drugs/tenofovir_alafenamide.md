@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 612
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: TENOFOVIR ALAFENAMIDA"
@@ -52,8 +52,8 @@ con **0 ensayos clínicos** y **8 publicaciones** (todas preclínicas en modelos
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto. Consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es exclusivamente preclínica en primates no humanos (L4) y no representa una nueva indicación para humanos, ya que TAF ya se usa en VIH-1. Además, el único registro sanitario en Colombia está cancelado.
+La evidencia es exclusivamente preclínica en primates no humanos (L4) y no representa una nueva indicación para humanos, ya que TAF ya se usa en VIH-1.
 
 **Para avanzar se necesita:**
 - Aclarar si existe un interés real de reposicionamiento, dado que la indicación predicha es un modelo animal del VIH

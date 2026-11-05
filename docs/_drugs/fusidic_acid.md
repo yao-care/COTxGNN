@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Ácido fusídico (crema tópica)"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
@@ -52,8 +52,8 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (una ser
 | Nueva Indicación Predicha | Queratitis por exposición |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | al menos 7 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,7 +118,7 @@ No existen ensayos clínicos y la única publicación vinculada no evalúa el á
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
 - Buscar evidencia clínica o preclínica del ácido fusídico en infecciones de la superficie ocular o en queratitis por exposición con sobreinfección.
-- Evaluar la viabilidad de una formulación oftálmica y la situación regulatoria, dado que no hay registros vigentes.
+- Evaluar la viabilidad de una formulación oftálmica y la situación regulatoria.
 - Como alternativa, priorizar la indicación de **otitis externa** (puntaje 0.9984, L4, plausibilidad microbiológica por *S. aureus*), aunque la literatura es mayormente veterinaria y no ofrece datos de eficacia clínica en humanos.
 ## Descargo de responsabilidad
 

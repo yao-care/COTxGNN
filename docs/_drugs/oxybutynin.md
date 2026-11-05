@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto indica solo \"OXIBUTININA\")"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -52,8 +52,8 @@ La predicción se basa únicamente en el modelo (nivel L5).
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,14 +112,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el perfil anticolinérgico del fármaco sugiere que podría empeorar el síndrome de piernas inquietas. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el perfil anticolinérgico del fármaco sugiere que podría empeorar el síndrome de piernas inquietas.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA para completar la revisión de advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la literatura sobre anticolinérgicos y síndrome de piernas inquietas, incluyendo evidencia de empeoramiento de síntomas.
 - Si se desea explorar alternativas, priorizar el análisis de las otras predicciones (gastroduodenitis, úlcera péptica), valorando la señal de seguridad de reflujo esofágico.
-- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia.
+- Evaluar la viabilidad regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

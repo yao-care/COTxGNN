@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan: nueva indicación predicha, Prinzmetal angina (nivel de evidencia L5). Indicación original: OLMERSARTAN MEDOXOMIL Y DIURETICOS"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Prinzmetal angina |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,8 +76,6 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|------|
 | 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos | Vigente |
 
-El único registro sanitario está cancelado, por lo que no hay producto vigente con olmesartán en Colombia según los datos compilados.
-
 ## Consideraciones de Seguridad
 
 - **Interacciones Farmacológicas**: se identificaron 94 interacciones en total. Entre las principales:
@@ -90,14 +88,13 @@ El único registro sanitario está cancelado, por lo que no hay producto vigente
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones para angina de Prinzmetal. Además, existen terapias establecidas para esta condición y el único registro local está cancelado.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones para angina de Prinzmetal. Además, existen terapias establecidas para esta condición.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura sobre bloqueadores del receptor AT1 y vasoespasmo coronario
 - Datos del mecanismo de acción y análisis de la relación mecanística
 - Prospecto de INVIMA para advertencias y contraindicaciones
 - Estudios preclínicos o clínicos pilotos que evalúen olmesartán en angina vasoespástica
-- Análisis de la viabilidad comercial dado el estado cancelado del registro
 
 ---
 

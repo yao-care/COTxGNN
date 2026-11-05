@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: SIROLIMUS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

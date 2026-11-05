@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 25
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Acetilcisteína"
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -52,8 +52,8 @@ con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 15) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -126,7 +126,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso en TA-TMA, además de revisiones sistemáticas en PTT y respaldo preclínico del mecanismo. Sin embargo, no se dispone de resultados publicados de los ensayos, la evidencia se limita a microangiopatías trombóticas y el nivel L1 requiere ≥2 ECA de Fase 3 completados, criterio que los datos disponibles no cumplen estrictamente (solo hay un ensayo de Fase 3 completado), por lo que el nivel real podría ser inferior. Además, los tres registros sanitarios colombianos están cancelados.
+Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso en TA-TMA, además de revisiones sistemáticas en PTT y respaldo preclínico del mecanismo. Sin embargo, no se dispone de resultados publicados de los ensayos, la evidencia se limita a microangiopatías trombóticas y el nivel L1 requiere ≥2 ECA de Fase 3 completados, criterio que los datos disponibles no cumplen estrictamente (solo hay un ensayo de Fase 3 completado), por lo que el nivel real podría ser inferior.
 
 **Para avanzar se necesita:**
 - Obtener los resultados del ensayo NCT03252925 y del NCT07279610.
@@ -134,7 +134,7 @@ Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso 
 - Delimitar la indicación a microangiopatías trombóticas (PTT, TA-TMA) en lugar de enfermedad trombótica en general.
 - Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones (brecha de seguridad bloqueante).
 - Consultar el mecanismo de acción en DrugBank.
-- Evaluar la situación regulatoria en Colombia, dado que no hay registros vigentes.
+- Evaluar la situación regulatoria en Colombia.
 - Plan de monitoreo de seguridad, considerando las enfermedades con contraindicación en el grafo (asma, enfermedad bronquial, úlcera péptica, hipotensión, várices esofágicas).
 
 ---

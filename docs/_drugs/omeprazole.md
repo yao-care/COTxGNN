@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 485
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole: nueva indicación predicha, Duodenal obstruction (nivel de evidencia L5). Indicación original: OMEPRAZOL"
@@ -50,8 +50,8 @@ Omeprazol es un inhibidor de la bomba de protones que suprime la secreción de �
 | Nueva Indicación Predicha | Duodenal obstruction |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,14 +114,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos que prueben omeprazol en reflujo duodenogástrico. La evidencia se limita a estudios pequeños en esófago de Barrett y a modelos animales que sugieren un posible riesgo. Además, el mecanismo del fármaco (supresión ácida) no aborda la causa principal del reflujo biliar, y actualmente no hay registros sanitarios vigentes en Colombia.
+No hay ensayos que prueben omeprazol en reflujo duodenogástrico. La evidencia se limita a estudios pequeños en esófago de Barrett y a modelos animales que sugieren un posible riesgo. Además, el mecanismo del fármaco (supresión ácida) no aborda la causa principal del reflujo biliar.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y análisis de su vínculo mecanístico con la nueva indicación.
 - Ensayos clínicos controlados que evalúen omeprazol en reflujo duodenogástrico, con desenlaces de síntomas y exposición biliar.
 - Evaluación de la señal de carcinogénesis observada en modelos animales.
 - Obtener y revisar el prospecto de INVIMA para completar el tamizaje de seguridad.
-- Aclarar la situación regulatoria, ya que los dos registros sanitarios están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

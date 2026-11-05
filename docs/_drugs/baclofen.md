@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Baclofen: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: El registro INVIMA solo indica \"BACLOFENO\"…"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -50,8 +50,8 @@ El baclofeno es un agonista del receptor GABA-B que se usa clásicamente para tr
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 0.9932 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,8 +99,6 @@ No se identificó ningún ensayo controlado aleatorizado. La mayoría son revisi
 | 20085857 | BACLOFEN® 10MG/5ML | Solución inyectable | BACLOFENO |
 | 20217686 | BACLENO® 10MG/5ML SOLUCIÓN DE PERFUSIÓN | Solución inyectable | BACLOFENO |
 
-Los cuatro registros están **cancelados**, por lo que actualmente no hay producto de baclofeno con registro vigente en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -121,7 +119,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA. Con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (L5): no hay ensayos clínicos de baclofeno en TDAH y la literatura no lo evalúa en esta condición. Además, no hay registros vigentes en Colombia y el perfil de seguridad (sedación, interacciones con opioides, contraindicaciones del grafo) exige cautela en una población mayormente pediátrica.
+La predicción es solo computacional (L5): no hay ensayos clínicos de baclofeno en TDAH y la literatura no lo evalúa en esta condición. Además, el perfil de seguridad (sedación, interacciones con opioides, contraindicaciones del grafo) exige cautela en una población mayormente pediátrica.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o piloto que prueben directamente el baclofeno en modelos o pacientes con TDAH.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L3). Indicación original: DAUNORRUBICINA"
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Daunorrubicina es una antraciclina citotóxica; en Colombia su único registro sanitario (hoy cancelado) solo menciona el nombre del principio activo como indicación.
+Daunorrubicina es una antraciclina citotóxica.
 El modelo TxGNN predice que podría ser efectiva para **Linfoma de Hodgkin**,
 con **2 ensayos clínicos** (ambos de Fase 2, con relevancia indirecta) y **20 publicaciones** que respaldan esta dirección de forma limitada.
 
@@ -100,9 +100,9 @@ Se listan las publicaciones más relevantes (la evidencia comprende sobre todo r
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20132662 (cancelado) | AL DAUNO® 20 MG | Polvo liofilizado para reconstituir a solución inyectable | DAUNORRUBICINA |
+| 20132662 | AL DAUNO® 20 MG | Polvo liofilizado para reconstituir a solución inyectable | DAUNORRUBICINA |
 
-El fabricante es AL PHARMA S.A.S. Actualmente no hay registros vigentes en Colombia.
+El fabricante es AL PHARMA S.A.S.
 
 ---
 
@@ -131,13 +131,13 @@ El fabricante es AL PHARMA S.A.S. Actualmente no hay registros vigentes en Colom
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto (0.9981), pero los dos ensayos son de Fase 2 con quimioterapia combinada, no aíslan el efecto de la daunorrubicina y uno de ellos es de linfoma no Hodgkin. La literatura es indirecta (revisiones y cohortes de formulación liposomal). Además, el único registro sanitario en Colombia está cancelado.
+El puntaje del modelo es alto (0.9981), pero los dos ensayos son de Fase 2 con quimioterapia combinada, no aíslan el efecto de la daunorrubicina y uno de ellos es de linfoma no Hodgkin. La literatura es indirecta (revisiones y cohortes de formulación liposomal).
 
 **Para avanzar se necesita:**
 - Evidencia específica de daunorrubicina (no de otras antraciclinas) en linfoma de Hodgkin, idealmente ensayos comparativos.
 - Obtener y revisar el prospecto oficial para completar advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en fuentes primarias.
-- Verificar la disponibilidad del producto en Colombia, dado que no hay registros vigentes.
+- Verificar la disponibilidad del producto en Colombia.
 - Evaluar el perfil de riesgo cardíaco y hematológico, dadas las contraindicaciones señaladas por el grafo de conocimiento.
 ## Descargo de responsabilidad
 

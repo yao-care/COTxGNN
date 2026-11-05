@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L2). Indicación original: No especificada en los registros"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **arteriosclerosis intracr
 | Nueva Indicación Predicha | Arteriosclerosis intracraneal |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 17) |
+| Número de Registros Sanitarios | 17 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,9 +89,9 @@ Debe señalarse que la evidencia es indirecta para ticagrelor: el ensayo de Fase
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20235198 (cancelado) | Ticagrelor 90 mg tabletas | Tableta recubierta | Ticagrelor |
-| 20224822 (cancelado) | Torplat® 60 mg tabletas recubiertas | Tableta recubierta | Ticagrelor |
-| 20163351 (cancelado) | Tiare® tabletas 90 mg | Tableta recubierta | Ticagrelor |
+| 20235198 | Ticagrelor 90 mg tabletas | Tableta recubierta | Ticagrelor |
+| 20224822 | Torplat® 60 mg tabletas recubiertas | Tableta recubierta | Ticagrelor |
+| 20163351 | Tiare® tabletas 90 mg | Tableta recubierta | Ticagrelor |
 
 ---
 
@@ -111,13 +111,12 @@ Debe señalarse que la evidencia es indirecta para ticagrelor: el ensayo de Fase
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 3 en curso en la misma enfermedad, ticagrelor no es claramente el agente experimental, no hay resultados disponibles, y no se dispone de la información de advertencias y contraindicaciones del prospecto aprobado, lo que impide avanzar al tamizaje de seguridad. Además, no existe actualmente un registro sanitario vigente en Colombia. La clasificación L2 es la asignada en los datos compilados; los resultados de CAPTIVA aún no se han publicado.
+Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 3 en curso en la misma enfermedad, ticagrelor no es claramente el agente experimental, no hay resultados disponibles, y no se dispone de la información de advertencias y contraindicaciones del prospecto aprobado, lo que impide avanzar al tamizaje de seguridad. La clasificación L2 es la asignada en los datos compilados; los resultados de CAPTIVA aún no se han publicado.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), dato bloqueante pendiente.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Esperar los resultados de CAPTIVA (finalización estimada en enero de 2027) y del piloto guiado por genotipo.
-- Confirmar la situación regulatoria: los tres registros están cancelados.
 - Definir un plan de gestión del riesgo hemorrágico, dada la contraindicación por hemorragia intracraneal señalada en el grafo de conocimiento, y un plan de manejo de interacciones (CYP3A4).
 ## Descargo de responsabilidad
 

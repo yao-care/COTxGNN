@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L4). Indicación original: CEFAZOLINA"
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **otitis media infecciosa*
 | Nueva Indicación Predicha | Otitis media infecciosa |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,7 +88,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20152146 (cancelado) | CEFAZOLINA 1 G | Polvo estéril para reconstituir a solución inyectable | CEFAZOLINA |
+| 20152146 | CEFAZOLINA 1 G | Polvo estéril para reconstituir a solución inyectable | CEFAZOLINA |
 
 ---
 
@@ -106,14 +106,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L4: no hay ensayos clínicos, la literatura es antigua, indirecta o veterinaria, y el único producto registrado en Colombia está cancelado. Además, la limitada cobertura de los patógenos típicos de la otitis media y la vía exclusivamente parenteral restan valor práctico a la predicción.
+Además, la limitada cobertura de los patógenos típicos de la otitis media y la vía exclusivamente parenteral restan valor práctico a la predicción.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar sistemáticamente la evidencia moderna sobre cefazolina en otitis media y sus complicaciones (por ejemplo, mastoiditis o síndrome de Gradenigo).
 - Evaluar la compatibilidad de vías de administración y el valor frente a las alternativas orales estándar.
-- Aclarar la situación regulatoria, dado que el único registro sanitario está cancelado.
+- Aclarar la situación regulatoria.
 - Considerar priorizar otras indicaciones con mayor plausibilidad biológica, ya que las formas alérgica y no supurativa carecen de respaldo.
 ## Descargo de responsabilidad
 

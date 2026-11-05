@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 576
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sacituzumab Govitecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: SACITUZUMAB GOVITECAN"
 monitor_inn: "SACITUZUMAB GOVITECAN"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract"]
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20235052 (cancelado) | TRODELVY® | Polvo liofilizado para reconstituir a solución inyectable | SACITUZUMAB GOVITECAN |
+| 20235052 | TRODELVY® | Polvo liofilizado para reconstituir a solución inyectable | SACITUZUMAB GOVITECAN |
 
 ---
 
@@ -113,7 +113,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección), y el único registro sanitario en Colombia está cancelado. El puntaje alto de TxGNN es solo una predicción computacional.
+No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección). El puntaje alto de TxGNN es solo una predicción computacional.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco

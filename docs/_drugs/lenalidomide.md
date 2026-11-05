@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: LENALIDOMIDA"
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -50,8 +50,8 @@ Lenalidomida es un inmunomodulador oral derivado de la talidomida, registrado en
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -110,8 +110,6 @@ Se muestran las publicaciones más relevantes (prioridad: revisiones específica
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; actualmente no hay productos con lenalidomida vigentes en el mercado colombiano según los datos compilados.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20115050 | LADEVINA® 25 MG | Cápsula dura | LENALIDOMIDA (vigente) |
@@ -153,7 +151,6 @@ Existen varios ensayos de fase 2 completados con lenalidomida en LMA (por ejempl
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad).
 - Completar los datos de mecanismo de acción desde DrugBank.
 - Revisar literatura específica de LMA (ensayos publicados, no solo revisiones de SMD).
-- Aclarar la situación regulatoria: los cuatro registros están cancelados, por lo que habría que evaluar un nuevo registro o importación.
 - Plan de monitoreo hematológico (citopenias), riesgo tromboembólico y programa de prevención de embarazo.
 - Hay otras predicciones de menor soporte (SMD no clasificado, citopenia refractaria de la infancia, anemia aregenerativa, anemia sideroblástica congénita y deleción parcial del brazo largo del cromosoma 5). La más cercana es el SMD con del(5q), que debería evaluarse como línea de trabajo propia.
 ## Descargo de responsabilidad

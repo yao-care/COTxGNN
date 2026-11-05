@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Dexamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo", "prolapse of lacrimal gland"]
 description: "Dexamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: DEXAMETASONA Y ANTIINFECCIOSOS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa (alope
 | Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

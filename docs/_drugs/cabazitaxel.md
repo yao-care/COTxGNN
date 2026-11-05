@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: CABAZITAXEL"
 ---
 
@@ -50,8 +50,8 @@ con **0 ensayos clínicos registrados** y **20 publicaciones**, en su mayoría p
 | Nueva Indicación Predicha | Carcinoma de mama femenino (female breast carcinoma) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

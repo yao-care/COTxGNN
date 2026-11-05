@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fenofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: PRAVASTATINA Y FENOFIBRATO"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **deficiencia de la pro
 | Nueva Indicación Predicha | Deficiencia de la proteína de transferencia de ésteres de colesterol |
 | Puntaje de Predicción TxGNN | 0.9961 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

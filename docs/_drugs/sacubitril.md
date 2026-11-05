@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: nueva indicación predicha, Brain small vessel disease 1 with or without ocular anomalies (nivel de evidencia L5). Indicación original: VALSARTAN Y SACUBITRIL"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **nefropatía diabética**
 | Nueva Indicación Predicha | Brain small vessel disease 1 with or without ocular anomalies |
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 **Nota:** Las dos primeras predicciones (enfermedad de vasos pequeños cerebrales tipo 1 con o sin anomalías oculares, y síndrome autosómico dominante de hematuria familiar con tortuosidad arteriolar retiniana y contracturas) tienen puntajes de 0.9958 y 0.9957, pero cuentan solo con la predicción del modelo (nivel L5). Por ello, este informe se centra en la nefropatía diabética, la candidata con mayor respaldo.
@@ -98,7 +98,7 @@ Varios estudios preclínicos en ratas y ratones diabéticos (PMID 35992034, 3658
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20232639 (cancelado) | TEROVAN® 50 | Tableta recubierta | Valsartán y sacubitrilo |
+| 20232639 | TEROVAN® 50 | Tableta recubierta | Valsartán y sacubitrilo |
 
 ---
 
@@ -115,13 +115,13 @@ No se dispone de datos de advertencias principales ni contraindicaciones; consul
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0.9950) y plausibilidad biológica, con respaldo preclínico consistente. Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3). Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto (0.9950) y plausibilidad biológica, con respaldo preclínico consistente. Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3).
 
 **Para avanzar se necesita:**
 - Confirmar población, criterios de valoración y estado actual del ensayo NCT06501651, así como sus resultados.
 - Ensayos clínicos controlados (Fase 2/3) con desenlaces renales en nefropatía diabética.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones), incluida la seguridad renal (función renal, potasio, hipotensión).
-- Aclarar la situación regulatoria en Colombia, dado que el registro está cancelado.
+- Aclarar la situación regulatoria en Colombia.
 - Revisar las interacciones moderadas, en especial con estatinas.
 ## Descargo de responsabilidad
 

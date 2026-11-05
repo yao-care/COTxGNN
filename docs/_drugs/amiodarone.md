@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) (nivel de evidencia L5)."
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **taquicardia ventricular 
 | Nueva Indicación Predicha | Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

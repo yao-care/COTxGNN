@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Tapentadol"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ La predicción se basa únicamente en el modelo computacional.
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,8 +92,6 @@ Para la predicción principal (trastorno de migraña) no hay literatura disponib
 | 20049944 | PALEXIS® RETARD 100 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
 | 20049941 | PALEXIS® RETARD 150 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
 
-Ambos registros, de GRÜNENTHAL GMBH, están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en los datos compilados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -119,7 +117,7 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni estudios de eficacia. Los opioides no están recomendados para la migraña y existen alternativas establecidas. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni estudios de eficacia. Los opioides no están recomendados para la migraña y existen alternativas establecidas.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA (advertencias y contraindicaciones), una brecha de datos bloqueante para el tamizaje de seguridad.

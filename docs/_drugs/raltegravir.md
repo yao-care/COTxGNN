@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: RALTEGRAVIR"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por virus 
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,10 +118,9 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es exclusivamente preclínica (L4) y la infección por SIV es un modelo animal, no una indicación humana. El valor de la predicción es como herramienta de investigación, no como nueva indicación clínica. Además, los dos registros sanitarios colombianos están cancelados.
+La evidencia es exclusivamente preclínica (L4) y la infección por SIV es un modelo animal, no una indicación humana. El valor de la predicción es como herramienta de investigación, no como nueva indicación clínica.
 
 **Para avanzar se necesita:**
-- Aclarar el estado real de comercialización en Colombia, ya que los registros cancelados podrían reflejar un problema de datos
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones
 - Complementar los datos del mecanismo de acción desde DrugBank
 - Definir si el objetivo es una indicación humana o un uso como modelo de investigación en primates no humanos

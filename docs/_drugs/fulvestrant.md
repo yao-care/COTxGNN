@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 304
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fulvestrant: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: FLUVESTRANT"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH** (en
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190314 (cancelado) | FULVESANT® 250 MG/5 ML | Solución inyectable | FLUVESTRANT |
-| 19955642 (cancelado) | FASLODEX® 250 MG / 5 ML | Solución inyectable | FLUVESTRANT |
+| 20190314 | FULVESANT® 250 MG/5 ML | Solución inyectable | FLUVESTRANT |
+| 19955642 | FASLODEX® 250 MG / 5 ML | Solución inyectable | FLUVESTRANT |
 
 ---
 
@@ -115,13 +115,13 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para VIH tiene un puntaje alto en el modelo, pero solo cuenta con un estudio preclínico in vitro y sin ensayos clínicos, lo que corresponde a un nivel de evidencia L4. Además, los registros sanitarios en Colombia están cancelados y la indicación registrada está mal transcrita.
+La predicción para VIH tiene un puntaje alto en el modelo, pero solo cuenta con un estudio preclínico in vitro y sin ensayos clínicos, lo que corresponde a un nivel de evidencia L4. Además, la indicación registrada está mal transcrita.
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción confirmados, por ejemplo mediante consulta a DrugBank.
 - Estudios preclínicos adicionales (in vitro e in vivo) sobre fulvestrant y la latencia del VIH, con replicación independiente.
 - Obtener y revisar el prospecto de INVIMA para completar las advertencias y contraindicaciones, ya que esta brecha impide avanzar al tamizaje de seguridad.
-- Aclarar la situación regulatoria en Colombia, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria en Colombia.
 - Evaluar si el posible efecto de reversión de latencia tiene sentido clínico, pues el bloqueo estrogénico podría tener efectos inmunológicos no deseados.
 ## Descargo de responsabilidad
 

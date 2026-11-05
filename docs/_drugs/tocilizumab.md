@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 630
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -103,7 +103,7 @@ Sin embargo, el registro clínico es desfavorable. Los dos ensayos de Fase 3 con
 | 20062328 | ACTEMRA® Solución inyectable 162 mg/0.9 mL | Solución inyectable | TOCILIZUMAB (vigente) |
 | 20002629 | ACTEMRA® Concentrado para infusión 80 mg/4 mL | Solución inyectable | TOCILIZUMAB (vigente) |
 
-Los tres registros pertenecen a F. Hoffmann-La Roche Ltd y se encuentran cancelados.
+Los tres registros pertenecen a F. Hoffmann-La Roche Ltd.
 
 ---
 
@@ -124,12 +124,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Decisión: Hold**
 
 **Justificación:**
-Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados y no hay resultados de eficacia en los datos compilados. La literatura directa se limita a un reporte de caso y el bloqueo de IL-6 no forma parte del tratamiento estándar. Además, los registros sanitarios en Colombia están cancelados.
+Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados y no hay resultados de eficacia en los datos compilados. La literatura directa se limita a un reporte de caso y el bloqueo de IL-6 no forma parte del tratamiento estándar.
 
 **Para avanzar se necesita:**
 - Obtener y analizar los resultados publicados de los estudios BUILDER-1 y BUILDER-2 (NCT01209689 y NCT01209702), incluidas las razones de la terminación.
 - Completar los datos de mecanismo de acción y las advertencias y contraindicaciones del prospecto de INVIMA (datos pendientes que bloquean el tamizaje de seguridad).
-- Aclarar la situación regulatoria en Colombia, dado que los tres registros están cancelados.
+- Aclarar la situación regulatoria en Colombia.
 - Comparar con las alternativas establecidas (inhibidores de TNF e IL-17) antes de reconsiderar la indicación.
 
 ---

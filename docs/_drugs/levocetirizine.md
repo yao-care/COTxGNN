@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Levocetirizine: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: LEVOCETIRIZINA"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para artritis reumatoide se basa solo en el modelo (L5), sin ensayos clínicos ni literatura. Además, en Colombia no hay registros sanitarios vigentes para levocetirizina, y el bloqueo H1 no es un mecanismo establecido de modificación de la enfermedad en esta patología.
+La predicción para artritis reumatoide se basa solo en el modelo (L5), sin ensayos clínicos ni literatura. Además, el bloqueo H1 no es un mecanismo establecido de modificación de la enfermedad en esta patología.
 
 **Para avanzar se necesita:**
 - Revisión de literatura y ensayos sobre antihistamínicos H1 en artritis reumatoide, o estudios preclínicos y de mecanismo.

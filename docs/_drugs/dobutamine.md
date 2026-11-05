@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dobutamine: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: DOBUTAMINA"
 monitor_inn: "dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -52,8 +52,8 @@ La predicción se considera un artefacto del modelo TxGNN (aprendizaje profundo)
 | Nueva Indicación Predicha | Alopecia |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -109,7 +109,7 @@ El medicamento está comercializado y cuenta con 3 registros sanitarios vigentes
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para alopecia se basa solo en el puntaje del modelo (L5), sin ensayos clínicos, sin literatura que respalde la eficacia y sin mecanismo plausible. Además, el producto no tiene registros vigentes en Colombia y es de uso exclusivamente intravenoso hospitalario, lo que lo hace poco compatible con una indicación dermatológica.
+La predicción para alopecia se basa solo en el puntaje del modelo (L5), sin ensayos clínicos, sin literatura que respalde la eficacia y sin mecanismo plausible. Además, es de uso exclusivamente intravenoso hospitalario, lo que lo hace poco compatible con una indicación dermatológica.
 
 **Para avanzar se necesita:**
 - Obtener el texto de advertencias y contraindicaciones del prospecto INVIMA.

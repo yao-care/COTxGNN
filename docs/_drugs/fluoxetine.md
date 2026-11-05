@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluoxetine: nueva indicación predicha, Trastorno de personalidad esquizotípica (schizotypal personality disorder) (nivel de evidencia L3). Indicación original: FLUOXETINA"
 ---
 
@@ -50,8 +50,8 @@ pero no hay ensayos clínicos registrados y la literatura disponible (10 publica
 | Nueva Indicación Predicha | Trastorno de personalidad esquizotípica (schizotypal personality disorder) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

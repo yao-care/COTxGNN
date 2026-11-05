@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: SERTACONAZOL"
@@ -50,8 +50,8 @@ pero actualmente no hay **ensayos clínicos** ni **publicaciones** que respalden
 | Nueva Indicación Predicha | Enfermedad infecciosa ectotrix (ectothrix infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

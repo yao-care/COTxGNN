@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ LEUCINA (Leucina) es un aminoácido esencial de cadena ramificada (BCAA), conoci
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | Sin datos suficientes |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -77,7 +77,6 @@ El Evidence Pack para LEUCINA presenta brechas de datos bloqueantes: no se dispo
 - **Resolver DG002 (Alto):** Confirmar y extraer el `drugbank_id` — la consulta a DrugBank retornó 1 resultado (`result_count: 1`); se debe mapear el ID correcto y obtener el MOA
 - **Re-ejecutar pipeline TxGNN** con el `drugbank_id` validado para generar predicciones de indicaciones
 - **Verificar identidad del compuesto:** Confirmar si LEUCINA corresponde a L-Leucina (aminoácido esencial, DB00149 en DrugBank) u otro derivado o sal farmacéutica
-- **Revisar cobertura geográfica:** El farmaco no tiene registros sanitarios en Colombia; evaluar si existen antecedentes de uso como suplemento nutricional bajo otra categoría regulatoria (no medicamento)
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

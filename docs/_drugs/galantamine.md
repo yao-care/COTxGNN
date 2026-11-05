@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: GALANTAMINA"
@@ -89,8 +89,6 @@ Actualmente no hay literatura relacionada disponible para trastornos del movimie
 | 19954847 | Reminyl® ER cápsulas de 16 mg | Cápsula de liberación prolongada | Galantamina | Vigente |
 | 19932247 | Reminyl® solución oral de 4 mg/ml | Solución oral | Galantamina | Vigente |
 
-Ambos registros pertenecen a Janssen Cilag S.A. y no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -109,14 +107,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para trastornos del movimiento psicogénicos se basa únicamente en el modelo (L5), sin ensayos, literatura ni vínculo mecanístico plausible. Además, ambos registros sanitarios en Colombia están cancelados y no se dispone de información de seguridad del prospecto.
+La predicción para trastornos del movimiento psicogénicos se basa únicamente en el modelo (L5), sin ensayos, literatura ni vínculo mecanístico plausible. Además, no se dispone de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Aclarar la indicación original aprobada, ya que el registro solo menciona el nombre del principio activo.
 - Considerar priorizar otras predicciones con evidencia indirecta, como la discinesia lingual-facial-bucal, mediante una revisión sistemática específica de galantamina, que incluya el ensayo cruzado PMID 17388711.
-- Evaluar la situación regulatoria actual, dado que los registros están cancelados.
+- Evaluar la situación regulatoria actual.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Ivermectina"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -119,7 +119,7 @@ La predicción corresponde únicamente a un modelo computacional (nivel L5), sin
 - Datos de mecanismo de acción detallados (consulta a DrugBank).
 - Prospecto de INVIMA con advertencias y contraindicaciones, para el tamizaje de seguridad.
 - Estudios preclínicos in vitro de actividad contra *Candida* que justifiquen continuar.
-- Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).
+- Aclarar el estado regulatorio, la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).
 - Comparación con terapias ya aprobadas (azoles, equinocandinas), que son eficaces.
 ## Descargo de responsabilidad
 

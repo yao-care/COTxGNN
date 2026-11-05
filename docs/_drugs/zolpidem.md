@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Zolpidem es un hipnótico no benzodiacepínico (fármaco "Z") registrado en Colombia con múltiples licencias sanitarias, todas actualmente canceladas; el texto de indicación registrado solo dice "ZOLPIDEM".
+Zolpidem es un hipnótico no benzodiacepínico (fármaco "Z") registrado en Colombia con múltiples licencias sanitarias; el texto de indicación registrado solo dice "ZOLPIDEM".
 El modelo TxGNN predice que podría ser efectivo para **trastorno del sueño con dificultad para iniciar y mantener el sueño**, con **0 ensayos clínicos registrados** y **19 publicaciones** que respaldan esta dirección.
 Cabe aclarar que esta predicción coincide en la práctica con el uso clínico ya establecido del fármaco (insomnio), por lo que no constituye un reposicionamiento genuino.
 
@@ -52,8 +52,8 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 | Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -63,7 +63,6 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, zolpidem actúa como modulador alostérico positivo del receptor GABA-A, con afinidad preferente por la subunidad alfa-1. Esto favorece la sedación y acorta la latencia del sueño.
 
 Esta acción coincide directamente con la fisiopatología de la dificultad para iniciar y mantener el sueño. La literatura revisada describe a zolpidem como hipnótico de uso muy extendido, incluido en guías clínicas para el tratamiento farmacológico del insomnio crónico.
-
 
 ---
 

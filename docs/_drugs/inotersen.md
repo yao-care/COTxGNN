@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"INOTER…"
 monitor_inn: "inotersen"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mesenteritis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20206946 (cancelado) | TEGSEDI™ 284 MG/1.5ML | Solución inyectable | INOTERSEN |
+| 20206946 | TEGSEDI™ 284 MG/1.5ML | Solución inyectable | INOTERSEN |
 
 ---
 
@@ -103,7 +103,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo y en una revisión general sin relación directa con la porfiria aguda intermitente; no hay ensayos clínicos ni vínculo mecanístico demostrado. Además, el único registro sanitario en Colombia está cancelado y los riesgos conocidos (trombocitopenia, glomerulonefritis) son relevantes.
+La predicción se apoya solo en el modelo y en una revisión general sin relación directa con la porfiria aguda intermitente; no hay ensayos clínicos ni vínculo mecanístico demostrado. Además, los riesgos conocidos (trombocitopenia, glomerulonefritis) son relevantes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto oficial (advertencias y contraindicaciones), para poder completar el análisis de seguridad

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: PRASUGREL"
 monitor_inn: "prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -87,7 +87,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para hipertensión
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20006437 (cancelado) | EFFIENT® 10 MG | Tableta recubierta | PRASUGREL |
+| 20006437 | EFFIENT® 10 MG | Tableta recubierta | PRASUGREL |
 
 ---
 
@@ -106,12 +106,11 @@ Actualmente no hay ensayos clínicos relacionados registrados para hipertensión
 **Decisión: Hold**
 
 **Justificación:**
-Para hipertensión pulmonar solo existe una predicción del modelo (L5), sin ensayos clínicos ni literatura pertinente. Además, no hay registro sanitario vigente en Colombia y el perfil de riesgo hemorrágico es relevante. Entre las demás candidatas, la migraña (L3) cuenta con un contexto clínico más sólido (ensayo de fase 3 en curso sobre terapia dirigida al foramen oval permeable, y estudios retrospectivos y piloto con tienopiridinas), pero con evidencia indirecta y no específica de prasugrel; se sugiere tratarla como pregunta de investigación.
+Para hipertensión pulmonar solo existe una predicción del modelo (L5), sin ensayos clínicos ni literatura pertinente. Además, el perfil de riesgo hemorrágico es relevante. Entre las demás candidatas, la migraña (L3) cuenta con un contexto clínico más sólido (ensayo de fase 3 en curso sobre terapia dirigida al foramen oval permeable, y estudios retrospectivos y piloto con tienopiridinas), pero con evidencia indirecta y no específica de prasugrel; se sugiere tratarla como pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), indispensable para el cribado de seguridad.
-- Aclarar la situación del registro cancelado (EFFIENT® 10 MG) y la disponibilidad real del fármaco en Colombia.
 - Realizar estudios preclínicos o clínicos de prasugrel en hipertensión pulmonar antes de considerar cualquier avance.
 - Evaluar de forma prioritaria la migraña asociada a foramen oval permeable, verificando si prasugrel forma parte de algún brazo del ensayo NCT07629635 y valorando un estudio específico con prasugrel.
 ## Descargo de responsabilidad

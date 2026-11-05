@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: nueva indicación predicha, Inborn disorder of bilirubin metabolism (nivel de evidencia L5). Indicación original: MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **trastorno congénito del
 | Nueva Indicación Predicha | Inborn disorder of bilirubin metabolism |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -75,7 +75,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19960586 (cancelado) | NATELE® EASYGELS | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
+| 19960586 | NATELE® EASYGELS | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
 
 ## Consideraciones de Seguridad
 
@@ -94,13 +94,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la única publicación vinculada no evalúa la vitamina E ni trata un trastorno de la bilirrubina en sentido estricto. La predicción se basa solo en el modelo (L5), y el único registro sanitario en Colombia está cancelado.
+No existen ensayos clínicos y la única publicación vinculada no evalúa la vitamina E ni trata un trastorno de la bilirrubina en sentido estricto. La predicción se basa solo en el modelo (L5).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la vitamina E
 - Revisión de advertencias y contraindicaciones del prospecto
 - Revisión sistemática de literatura específica sobre vitamina E y trastornos de la bilirrubina, y evaluación de otras indicaciones predichas con más respaldo (por ejemplo, lesión hepática inducida por fármacos, de nivel L4, con evidencia mayormente preclínica)
-- Aclarar la situación regulatoria en Colombia, dado que el registro está cancelado
+- Aclarar la situación regulatoria en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Lidocaína combinaciones (anestesia local)"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **conjuntivitis papilar**,
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,7 +113,7 @@ La predicción para conjuntivitis papilar (0.9978) proviene del modelo TxGNN (de
 - Datos detallados del mecanismo de acción y un análisis mecanístico que justifique un posible efecto en la inflamación alérgica ocular.
 - Estudios preclínicos que evalúen eficacia y tolerabilidad ocular (incluida la seguridad corneal).
 - Obtener y analizar el prospecto de INVIMA para completar el tamizaje de seguridad.
-- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes ni una vía de administración ocular compatible.
+- Evaluar la viabilidad regulatoria.
 - Considerar priorizar otras indicaciones predichas con más respaldo. Por ejemplo, para **neuralgia** (puntaje 0.9934) existen un ensayo de Fase 2 completado con la crema de lidocaína/prilocaína y varias publicaciones clínicas (nivel L2, "Proceed with Guardrails"). Su evidencia se limita a estudios pequeños y antiguos, mayormente con la combinación con lidocaína, y exigiría vigilancia de metahemoglobinemia.
 ## Descargo de responsabilidad
 

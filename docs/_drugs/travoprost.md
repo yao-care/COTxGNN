@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "idiopathic spontaneous coronary artery dissection", "lymphangiectasis", "hemangioendothelioma"]
 description: "Travoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: TRAVOPROST"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral**,
 | Nueva Indicación Predicha | Visceral calciphylaxis |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -127,14 +127,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para calcifilaxis visceral se basa solo en el modelo, sin ensayos ni literatura, sin vínculo mecanístico plausible y con exposición sistémica mínima por la vía ocular. Además, el mercado colombiano no tiene registros vigentes de travoprost.
+La predicción para calcifilaxis visceral se basa solo en el modelo, sin ensayos ni literatura, sin vínculo mecanístico plausible y con exposición sistémica mínima por la vía ocular.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y un racional biológico que conecte la señalización del receptor FP con la calcificación vascular.
 - Estudios preclínicos in vitro o en modelos animales de calcifilaxis.
 - Evaluar la viabilidad de una vía de administración sistémica, ya que la vía oftálmica no alcanzaría exposición suficiente.
 - Obtener las advertencias y contraindicaciones del prospecto en INVIMA.
-- Revisar la situación regulatoria: los cuatro registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -88,8 +88,8 @@ Para la indicación general de artritis idiopática juvenil (predicciones relaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19973372 (cancelado) | CLOROQUINA FOSFATO 250MG | Tableta | CLOROQUINA |
-| 20305885 (cancelado) | CLOROQUINA TABLETAS 150 MG | Tableta | CLOROQUINA |
+| 19973372 | CLOROQUINA FOSFATO 250MG | Tableta | CLOROQUINA |
+| 20305885 | CLOROQUINA TABLETAS 150 MG | Tableta | CLOROQUINA |
 
 ---
 
@@ -108,13 +108,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto aprob
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo computacional (L5), sin ensayos clínicos y sin literatura que evalúe cloroquina en esta indicación. Además, los registros en Colombia están cancelados y existen señales de toxicidad cardíaca y ocular relevantes en niños.
+La predicción se basa solo en el modelo computacional (L5), sin ensayos clínicos y sin literatura que evalúe cloroquina en esta indicación. Además, existen señales de toxicidad cardíaca y ocular relevantes en niños.
 
 **Para avanzar se necesita:**
 - Revisión de literatura dirigida a cloroquina/hidroxicloroquina en artritis idiopática juvenil (preferiblemente ensayos controlados).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
-- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable.
+- Evaluar la viabilidad regulatoria, comparar con la hidroxicloroquina, de perfil de seguridad más favorable.
 - Plan de seguridad pediátrica (monitoreo oftalmológico, cardíaco y hematológico).
 ## Descargo de responsabilidad
 

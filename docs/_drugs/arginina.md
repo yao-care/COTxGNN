@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 63
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ y los datos de seguridad, mecanismo de acción y regulación de mercado presenta
 | Nueva Indicación Predicha | Sin predicción disponible |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | L5 (sin estudios reales) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

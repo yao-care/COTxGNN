@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Beclomethasone Dipropionate: nueva indicación predicha, Eccema atópico (nivel de evidencia L3). Indicación original: BECLOMETASONA"
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 | Nueva Indicación Predicha | Eccema atópico |
 | Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,8 +93,6 @@ Ninguna publicación es un ensayo controlado aleatorizado. Se listan por relevan
 
 ## Información de Mercado en Colombia
 
-Los cinco registros sanitarios están cancelados; no hay registros vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20262343 | Beclometasona dipropionato 250 mcg solución para inhalación oral | Solución para inhalación | BECLOMETASONA |
@@ -127,7 +125,7 @@ El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Definir la formulación y vía de administración (tópica, oral u otra) y verificar su compatibilidad con los registros disponibles; no existe actualmente un registro vigente ni dérmico.
+- Definir la formulación y vía de administración (tópica, oral u otra) y verificar su compatibilidad con los registros disponibles.
 - Revisar la evidencia clínica de beclometasona tópica frente a otros corticosteroides tópicos ya aprobados para eccema atópico.
 - Evaluar el perfil de seguridad pediátrico (crecimiento, función adrenal, recambio óseo).
 ## Descargo de responsabilidad

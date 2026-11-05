@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: AMOXICILINA Y BETA-LACTAMASA INHIBIDOR"
 ---
 
@@ -48,8 +48,8 @@ El ácido clavulánico es un inhibidor de betalactamasas que se utiliza junto co
 | Nueva Indicación Predicha | Uretritis por Ureaplasma (Ureaplasma urethritis) |
 | Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

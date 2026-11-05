@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -52,8 +52,8 @@ con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta 
 | Nueva Indicación Predicha | Ectomesenchymoma |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -97,9 +97,9 @@ Es importante notar que pertuzumab ya es tratamiento estándar en cáncer de mam
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20195976 (cancelado) | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab |
-| 20195789 (cancelado) | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab |
-| 20060320 (cancelado) | PERJETA® 420 MG/14 ML | Solución concentrada para infusión | Pertuzumab |
+| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab |
+| 20195789 | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab |
+| 20060320 | PERJETA® 420 MG/14 ML | Solución concentrada para infusión | Pertuzumab |
 
 ---
 
@@ -129,7 +129,7 @@ Para advertencias y contraindicaciones detalladas, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado y varios ECA publicados (NeoSphere, WSG-TP-II, TOUCH) en cáncer de mama HR+/HER2+, lo que sustenta el nivel L1. No obstante, el único ensayo registrado es un estudio de equivalencia de biosimilar en población ER/PR-negativa, por lo que la evidencia específica en PR-positivo proviene sobre todo de la literatura. Además, los tres registros sanitarios en Colombia están cancelados.
+Existe un ensayo de Fase 3 completado y varios ECA publicados (NeoSphere, WSG-TP-II, TOUCH) en cáncer de mama HR+/HER2+, lo que sustenta el nivel L1. No obstante, el único ensayo registrado es un estudio de equivalencia de biosimilar en población ER/PR-negativa, por lo que la evidencia específica en PR-positivo proviene sobre todo de la literatura.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente sin datos.

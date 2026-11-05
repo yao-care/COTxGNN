@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Propylthiouracil: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea (nivel de evidencia L4). Indicación original: Propiltiouracilo"
 monitor_inn: "propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -88,8 +88,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19952712 (cancelado) | TIROSTAT 100 | Tableta | Propiltiouracilo |
-| 30968 (cancelado) | TIROSTAT 50 | Tableta | Propiltiouracilo |
+| 19952712 | TIROSTAT 100 | Tableta | Propiltiouracilo |
+| 30968 | TIROSTAT 50 | Tableta | Propiltiouracilo |
 
 Ambos productos son de Laboratorios Siegfried S.A.S. y los 2 registros están vigentes actualmente.
 

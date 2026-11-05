@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: nueva indicación predicha, Enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: COMBINACIONES DE IMIDAZOL DERIVADOS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la región
 | Nueva Indicación Predicha | Enfermedad de la región orbitaria (disease of orbital region) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 19) |
+| Número de Registros Sanitarios | 19 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

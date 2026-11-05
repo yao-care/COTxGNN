@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"NIFURT…"
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -97,8 +97,6 @@ Actualmente no hay literatura relacionada disponible.
 | 20215184 | LAMPIT® 30MG COMPRIMIDOS | Tableta | NIFURTIMOX | Vigente |
 | 20215915 | LAMPIT® 120MG | Tableta | NIFURTIMOX | Vigente |
 
-Ambos registros pertenecen a BAYER AG y están cancelados; actualmente no hay registros vigentes en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -120,7 +118,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre nifurtimox y la analbuminemia congénita. Además, el fármaco no tiene registros vigentes en Colombia y hay señales de seguridad relevantes.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre nifurtimox y la analbuminemia congénita. Además, hay señales de seguridad relevantes.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA para advertencias y contraindicaciones (brecha de seguridad bloqueante).

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 409
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lopinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Lopinavir y ritonavir"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20215036 (cancelado) | LOPARTA® 40MG/10MG | Gránulos | Lopinavir y ritonavir |
-| 20115574 (cancelado) | LOPINAVIR 200 MG + RITONAVIR 50 MG | Tableta recubierta | Lopinavir y ritonavir |
+| 20215036 | LOPARTA® 40MG/10MG | Gránulos | Lopinavir y ritonavir |
+| 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | Tableta recubierta | Lopinavir y ritonavir |
 
 ---
 
@@ -109,14 +109,13 @@ No hay advertencias ni contraindicaciones de prospecto en los datos compilados. 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a tres estudios preclínicos en primates no humanos, sin ensayos clínicos. Además, el SIV es una enfermedad de modelo animal sin ruta de desarrollo clínico en humanos, y el fármaco no tiene registros sanitarios vigentes en Colombia.
+La evidencia se limita a tres estudios preclínicos en primates no humanos, sin ensayos clínicos. Además, el SIV es una enfermedad de modelo animal sin ruta de desarrollo clínico en humanos.
 
 **Para avanzar se necesita:**
 - Definir si existe un objetivo de reposicionamiento relevante en humanos; el valor del SIV es como modelo traslacional del VIH, indicación ya aprobada.
 - Datos detallados del mecanismo de acción.
 - Advertencias y contraindicaciones del prospecto de INVIMA (actualmente un vacío bloqueante para el tamizaje de seguridad).
 - Revisar si las predicciones con puntajes casi idénticos (síndrome de inmunodeficiencia adquirida felino y trastorno del neurodesarrollo) son artefactos del modelo; la segunda carece de vínculo mecanístico identificable.
-- Aclarar la situación regulatoria: ambos registros están cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

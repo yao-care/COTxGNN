@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ibuprofeno"
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,7 +86,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 227672 (cancelado) | ADVIL® CHILDREN SUSPENSION ORAL PARA NIÑOS (HALEON COLOMBIA S.A.S) | Suspensión oral | IBUPROFENO |
+| 227672 | ADVIL® CHILDREN SUSPENSION ORAL PARA NIÑOS (HALEON COLOMBIA S.A.S) | Suspensión oral | IBUPROFENO |
 
 ---
 
@@ -105,7 +105,7 @@ Consultar el prospecto para información de seguridad completa.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Además, el único registro sanitario en Colombia está cancelado.
+La predicción es solo computacional (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto aprobado (advertencias y contraindicaciones) para completar el análisis de seguridad

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 168
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: CLOFARABINA"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -142,13 +142,13 @@ Consultar el prospecto para la información de seguridad completa.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y múltiples estudios de Fase 2 respaldan la actividad de la clofarabina en leucemia mieloide, y el mecanismo es directamente relevante. Sin embargo, no hay registros sanitarios vigentes en Colombia y el perfil de toxicidad (mielosupresión, daño hepático y renal, fuga capilar) exige salvaguardas.
+Dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y múltiples estudios de Fase 2 respaldan la actividad de la clofarabina en leucemia mieloide, y el mecanismo es directamente relevante. Sin embargo, el perfil de toxicidad (mielosupresión, daño hepático y renal, fuga capilar) exige salvaguardas.
 
 **Para avanzar se necesita:**
 - Verificar los resultados publicados de los dos ensayos de Fase 3, ya que los datos compilados no incluyen desenlaces de eficacia ni supervivencia.
 - Obtener el prospecto actualizado en INVIMA para completar el análisis de advertencias y contraindicaciones (brecha crítica de datos).
 - Confirmar el mecanismo de acción en DrugBank.
-- Definir la vía regulatoria en Colombia, dado que ambos registros están cancelados.
+- Definir la vía regulatoria en Colombia.
 - Diseñar un plan de monitoreo hematológico, hepático y renal, con criterios de exclusión basados en las condiciones señaladas por el grafo de conocimiento.
 
 ---

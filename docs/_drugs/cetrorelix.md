@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 148
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cetrorelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Cetrorelix"
 monitor_inn: "cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19908844 (cancelado) | CETROTIDE® 0.25MG (MERCK S.A.) | Polvo liofilizado para reconstituir a solución inyectable | CETRORELIX |
+| 19908844 | CETROTIDE® 0.25MG (MERCK S.A.) | Polvo liofilizado para reconstituir a solución inyectable | CETRORELIX |
 
 ---
 
@@ -100,14 +100,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipertricosis tiene un puntaje alto en el modelo, pero carece de ensayos clínicos y literatura (nivel L5), y el vínculo mecanístico es débil. Además, el único registro sanitario en Colombia está cancelado.
+La predicción para hipertricosis tiene un puntaje alto en el modelo, pero carece de ensayos clínicos y literatura (nivel L5), y el vínculo mecanístico es débil.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para la evaluación de seguridad
 - Completar los datos del mecanismo de acción desde DrugBank
 - Revisar la literatura preclínica y clínica sobre antagonistas de GnRH en trastornos de pilosidad
 - Considerar priorizar la pubertad precoz central como hipótesis más coherente mecanísticamente, evaluando su viabilidad frente a los agonistas estándar
-- Evaluar la compatibilidad de la vía de administración y la situación regulatoria en Colombia, dado que el producto está cancelado
+- Evaluar la compatibilidad de la vía de administración y la situación regulatoria en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

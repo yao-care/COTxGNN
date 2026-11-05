@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: LISINOPRIL"
@@ -98,7 +98,7 @@ Actualmente no hay literatura relacionada disponible para infarto de miocardio p
 | 37168 | LISIPRIL® TABLETAS | Tableta | LISINOPRIL | Vigente |
 | 19951978 | LISIPRIL® 5 | Tableta | LISINOPRIL | Vigente |
 
-Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S. No hay registros vigentes.
+Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S.
 
 ---
 
@@ -119,7 +119,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para infarto de miocardio posterolateral es solo del modelo (nivel L5), sin ensayos ni literatura específica. Además, el producto no tiene registros vigentes en Colombia y faltan datos del prospecto y del mecanismo de acción.
+La predicción para infarto de miocardio posterolateral es solo del modelo (nivel L5), sin ensayos ni literatura específica. Además, faltan datos del prospecto y del mecanismo de acción.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual es un vacío bloqueante para el tamizaje de seguridad.

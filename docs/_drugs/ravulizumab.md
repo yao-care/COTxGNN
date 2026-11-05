@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ravulizumab: nueva indicación predicha, Neutropenia congénita grave autosómica recesiva por deficiencia de G6PC3 (nivel de evidencia L5). Indicación original: No disponible"
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
@@ -71,7 +71,7 @@ La alta puntuación (0.9996) refleja únicamente una predicción basada en la re
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20224196 (cancelado) | ULTOMIRIS® | Solución concentrada para infusión | Ravulizumab |
+| 20224196 | ULTOMIRIS® | Solución concentrada para infusión | Ravulizumab |
 
 ---
 
@@ -88,12 +88,11 @@ La alta puntuación (0.9996) refleja únicamente una predicción basada en la re
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de C5 y la neutropenia por deficiencia de G6PC3. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+La predicción es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de C5 y la neutropenia por deficiencia de G6PC3. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank y análisis del vínculo mecanístico con la nueva indicación
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito para el tamizaje de seguridad
-- Aclarar la indicación aprobada original y la situación regulatoria del registro cancelado
 - Revisión sistemática de literatura y ensayos que evalúen el papel del complemento en la neutropenia congénita
 - Evaluación del riesgo de infecciones (especialmente meningocócicas) en una población neutropénica o inmunodeficiente
 - Estudios preclínicos que respalden la hipótesis antes de considerar cualquier estudio clínico

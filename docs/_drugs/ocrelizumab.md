@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ocrelizumab: nueva indicación predicha, Carcinoma de mama HER2 positivo (nivel de evidencia L5). Indicación original: Ocrelizumab"
 monitor_inn: "OCRELIZUMAB"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
@@ -84,7 +84,7 @@ Nota: para otra indicación predicha (tumor de mama luminal A o B) se recuperaro
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20115374 (cancelado) | OCREVUS® Concentrado para solución para infusión 300 mg/10 mL | Solución concentrada para infusión | Ocrelizumab |
+| 20115374 | OCREVUS® Concentrado para solución para infusión 300 mg/10 mL | Solución concentrada para infusión | Ocrelizumab |
 
 ---
 
@@ -102,13 +102,13 @@ Nota: para otra indicación predicha (tumor de mama luminal A o B) se recuperaro
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para carcinoma de mama HER2 positivo está respaldada solo por el modelo (nivel L5), sin ensayos clínicos, sin literatura específica y sin vínculo mecanístico plausible. Además, el producto no tiene registro sanitario vigente en Colombia.
+La predicción para carcinoma de mama HER2 positivo está respaldada solo por el modelo (nivel L5), sin ensayos clínicos, sin literatura específica y sin vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco (por ejemplo, consulta a DrugBank).
 - Estudios preclínicos que evalúen un posible papel de la depleción de linfocitos B CD20+ en cáncer de mama HER2 positivo.
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad).
-- Aclarar el estado regulatorio local, dado que el único registro está cancelado.
+- Aclarar el estado regulatorio local.
 - Revisión de literatura dirigida a la indicación (no solo al nombre del fármaco) antes de reconsiderar la prioridad.
 ## Descargo de responsabilidad
 

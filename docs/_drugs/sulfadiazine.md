@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: SULFADIAZINA"
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
@@ -97,7 +97,7 @@ Se muestran las publicaciones más relevantes (todas son revisiones o estudios n
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20077550 (cancelado) | LIMISULF® 500 MG TABLETAS | Tableta | SULFADIAZINA |
+| 20077550 | LIMISULF® 500 MG TABLETAS | Tableta | SULFADIAZINA |
 
 ---
 
@@ -115,13 +115,12 @@ No se dispone de advertencias del prospecto; se recomienda consultarlo.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en la similitud de clase de las sulfonamidas y en literatura indirecta, sin ensayos clínicos ni estudios que evalúen la sulfadiazina sola en neumocistosis. Además, el único registro sanitario en Colombia está cancelado y existe una alternativa estándar bien establecida (trimetoprima-sulfametoxazol).
+La predicción se apoya solo en la similitud de clase de las sulfonamidas y en literatura indirecta, sin ensayos clínicos ni estudios que evalúen la sulfadiazina sola en neumocistosis. Además, existe una alternativa estándar bien establecida (trimetoprima-sulfametoxazol).
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad
 - Confirmar el mecanismo de acción en DrugBank
 - Estudios preclínicos o clínicos que evalúen directamente la sulfadiazina frente a *Pneumocystis*
-- Evaluar la viabilidad comercial dado el registro cancelado y la ausencia de ventaja sobre el tratamiento estándar
 - Plan de monitoreo hematológico, renal y hepático, y control de interacciones con antidiabéticos
 ## Descargo de responsabilidad
 

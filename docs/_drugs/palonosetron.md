@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PALONO…"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Nota: una revisión de 2026 (PMID 42748473, *Eur Heart J Cardiovasc Pharmacother
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20156752 (cancelado) | Palonosetron 250 mcg/5 mL solución inyectable (HB Human Bioscience S.A.S.) | Solución inyectable | PALONOSETRON (sin detalle de indicación) |
+| 20156752 | Palonosetron 250 mcg/5 mL solución inyectable (HB Human Bioscience S.A.S.) | Solución inyectable | PALONOSETRON (sin detalle de indicación) |
 
 ---
 
@@ -113,7 +113,7 @@ Nota: una revisión de 2026 (PMID 42748473, *Eur Heart J Cardiovasc Pharmacother
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5): no existen ensayos clínicos y la única publicación describe que el fármaco causa cefalea tipo migraña. Además, el único registro sanitario en Colombia está cancelado, y el resto de las predicciones carece de base mecanística.
+La predicción es solo del modelo (nivel L5): no existen ensayos clínicos y la única publicación describe que el fármaco causa cefalea tipo migraña. Además, el resto de las predicciones carece de base mecanística.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad)

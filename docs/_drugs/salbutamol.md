@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: SALBUTAMOL"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis papilar**,
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19992498 (cancelado) | SACRUSYT® | Aerosoles | SALBUTAMOL |
+| 19992498 | SACRUSYT® | Aerosoles | SALBUTAMOL |
 
 ---
 
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para conjuntivitis papilar es de puntaje muy alto, pero no tiene ningún respaldo clínico ni bibliográfico (nivel L5). Además, el único registro sanitario en Colombia está cancelado y el perfil de seguridad del grafo incluye contraindicaciones oculares relevantes.
+La predicción de TxGNN para conjuntivitis papilar es de puntaje muy alto, pero no tiene ningún respaldo clínico ni bibliográfico (nivel L5). Además, el perfil de seguridad del grafo incluye contraindicaciones oculares relevantes.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y revisión de la literatura preclínica sobre agonistas β2 en la conjuntiva.

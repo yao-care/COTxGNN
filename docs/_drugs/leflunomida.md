@@ -5,7 +5,7 @@ layout: default
 title: Leflunomida
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 385
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|-----------|
 | Indicación Original | LEFLUNOMIDE |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 4) |
 
 ---
 

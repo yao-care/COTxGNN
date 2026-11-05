@@ -5,7 +5,7 @@ layout: default
 title: Azacitidina
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 81
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Ítem | Contenido |
 |------|-----------|
 | Indicación Original | AZACITIDINA |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 
 ---
 

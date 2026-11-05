@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: COAGULACION FACTORES VIII"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 | Nueva Indicación Predicha | Primary release disorder of platelets |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,7 +79,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No existe ningún ensayo clínico ni publicación que respalde el uso de turoctocog alfa pegol en el trastorno de liberación primaria de las plaquetas, y el mecanismo de reposición de factor VIII no aborda el defecto plaquetario intrínseco. Además, los cuatro registros sanitarios en Colombia están cancelados. Ninguna de las diez indicaciones predichas cuenta con evidencia (todas L5).
+No existe ningún ensayo clínico ni publicación que respalde el uso de turoctocog alfa pegol en el trastorno de liberación primaria de las plaquetas, y el mecanismo de reposición de factor VIII no aborda el defecto plaquetario intrínseco. Ninguna de las diez indicaciones predichas cuenta con evidencia (todas L5).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank)

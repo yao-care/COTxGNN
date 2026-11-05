@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 651
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **dermatitis** (en la prá
 | Nueva Indicación Predicha | Dermatitis |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,8 +101,8 @@ Los datos clínicos en dermatitis atópica muestran resultados inconsistentes y 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20264141 (cancelado) | UZTOK® | Solución inyectable | Ustekinumab (sin detalle de indicación) |
-| 20009810 (cancelado) | STELARA® 45 MG/0.5 ML | Solución inyectable | Ustekinumab (sin detalle de indicación) |
+| 20264141 | UZTOK® | Solución inyectable | Ustekinumab (sin detalle de indicación) |
+| 20009810 | STELARA® 45 MG/0.5 ML | Solución inyectable | Ustekinumab (sin detalle de indicación) |
 
 ---
 
@@ -121,12 +121,12 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque existen dos ensayos de Fase 2 completados en dermatitis atópica, la eficacia observada es modesta e inconsistente, y no hay ensayos de Fase 3 en esta indicación. Además, en Colombia no hay registros vigentes de ustekinumab, y los datos de seguridad del prospecto no están disponibles.
+Aunque existen dos ensayos de Fase 2 completados en dermatitis atópica, la eficacia observada es modesta e inconsistente, y no hay ensayos de Fase 3 en esta indicación. Además, los datos de seguridad del prospecto no están disponibles.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Confirmar la indicación aprobada de los registros sanitarios y aclarar por qué están cancelados.
+- Confirmar la indicación aprobada de los registros sanitarios.
 - Evaluar los resultados detallados de los estudios de Fase 2 (NCT01945086, NCT01806662) y comparar con las alternativas aprobadas para dermatitis atópica.
 - Definir si el grupo objetivo es dermatitis atópica u otra forma de dermatitis, ya que la predicción es genérica.
 - Las demás predicciones (dermatomiositis neonatal, acné queloide, entre otras) carecen de ensayos y literatura, por lo que se mantienen en espera.

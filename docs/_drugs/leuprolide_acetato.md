@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 394
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -70,7 +70,7 @@ El presente Evidence Pack presenta tres vacíos de datos críticos que impiden r
 
 ## Información de Mercado en Colombia
 
-Este fármaco no cuenta con registros sanitarios activos en Colombia a la fecha de corte de datos (2026-04-20). No se encontraron licencias en la consulta a fuentes regulatorias.
+No se encontraron licencias en la consulta a fuentes regulatorias.
 
 ---
 

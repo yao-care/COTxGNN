@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: PROGESTÁGENO+ESTRÓGENO"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actual
 | Nueva Indicación Predicha | Amenorrea (amenorrhea (disease)) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128300 (cancelado) | EXELRING ® | Sistemas de liberación | Progestágeno+Estrógeno |
+| 20128300 | EXELRING ® | Sistemas de liberación | Progestágeno+Estrógeno |
 
 ---
 
@@ -105,14 +105,14 @@ Para el resto de la información de seguridad, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5): no hay ensayos clínicos, la única publicación es irrelevante y la amenorrea es un efecto del fármaco, no una enfermedad a tratar. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el puntaje del modelo (L5): no hay ensayos clínicos, la única publicación es irrelevante y la amenorrea es un efecto del fármaco, no una enfermedad a tratar.
 
 **Para avanzar se necesita:**
 - Replantear si la amenorrea es una indicación terapéutica válida o solo un efecto esperado del fármaco.
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones (bloqueante para el tamizaje de seguridad).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Buscar literatura y ensayos clínicos realmente relacionados con etonogestrel en las condiciones predichas (por ejemplo, enfermedad mamaria benigna).
-- Evaluar la compatibilidad de vía de administración y la situación regulatoria actual, dado que el registro está cancelado.
+- Evaluar la compatibilidad de vía de administración y la situación regulatoria actual.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

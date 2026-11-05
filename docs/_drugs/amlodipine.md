@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Amlodipine: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: Valsartán y amlodipino (combinación antihipertensiva)"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -52,8 +52,8 @@ La evidencia más sólida de todo el análisis corresponde a otra indicación pr
 | Nueva Indicación Predicha | Infarto del tronco encefálico (brain stem infarction) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -121,13 +121,13 @@ Se debe consultar el prospecto para la información completa de advertencias y c
 **Decisión: Hold**
 
 **Justificación:**
-Para infarto del tronco encefálico solo existe la predicción del modelo (L5), sin ensayos ni literatura. Además, en Colombia no hay registros vigentes de amlodipino. La indicación con evidencia más fuerte, la hemorragia intracerebral (L1, TRIDENT), podría avanzar con salvaguardas, pero el efecto no se puede atribuir al amlodipino solo y se trata de un uso antihipertensivo ya establecido.
+Para infarto del tronco encefálico solo existe la predicción del modelo (L5), sin ensayos ni literatura. La indicación con evidencia más fuerte, la hemorragia intracerebral (L1, TRIDENT), podría avanzar con salvaguardas, pero el efecto no se puede atribuir al amlodipino solo y se trata de un uso antihipertensivo ya establecido.
 
 **Para avanzar se necesita:**
 - Revisar los resultados del desenlace primario de TRIDENT antes de formular cualquier recomendación sobre hemorragia intracerebral.
 - Datos del mecanismo de acción consultando DrugBank.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
-- Aclarar la situación regulatoria local, ya que ambos registros están cancelados y corresponden a combinaciones.
+- Aclarar la situación regulatoria local, corresponden a combinaciones.
 - Estudios preclínicos o clínicos específicos de amlodipino en infarto del tronco encefálico o enfermedad cerebrovascular isquémica.
 - Plan de monitoreo de seguridad (angioedema, hipotensión).
 ## Descargo de responsabilidad

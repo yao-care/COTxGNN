@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L4). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
 monitor_inn: "trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -97,10 +97,10 @@ Se listan las publicaciones más relevantes con resumen disponible (prioridad: r
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 29529 (cancelado) | CUAIT - D COMPRIMIDOS. | Comprimido | AMITRIPTILINA Y SICOLEPTICOS |
-| 44895 (cancelado) | MODIUR® 1 MG | Comprimido | TRIFLUOPERAZINA |
+| 29529 | CUAIT - D COMPRIMIDOS. | Comprimido | AMITRIPTILINA Y SICOLEPTICOS |
+| 44895 | MODIUR® 1 MG | Comprimido | TRIFLUOPERAZINA |
 
-Ambos registros pertenecen a Laboratorios Bagó de Colombia S.A.S. y están cancelados; no hay registros vigentes.
+Ambos registros pertenecen a Laboratorios Bagó de Colombia S.A.S.
 
 ---
 
@@ -124,7 +124,7 @@ La predicción es plausible por el mecanismo de clase (antagonismo D2), pero no 
 - Datos del mecanismo de acción de trifluoperazina (por ejemplo, desde DrugBank)
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales
 - Revisión de ensayos o metaanálisis que comparen trifluoperazina con otros antipsicóticos en manía aguda
-- Evaluación de la viabilidad comercial dado que no hay registros vigentes en Colombia
+- Evaluación de la viabilidad comercial
 - Plan de seguridad que considere el perfil de riesgo (discinesia tardía, síndrome neuroléptico maligno, alteraciones hematológicas) y las interacciones de nivel mayor
 ## Descargo de responsabilidad
 

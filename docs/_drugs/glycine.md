@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Glycine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Emulsiones lipidas"
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-La glicina es un aminoacido que figura en un registro sanitario colombiano (ya cancelado) de una emulsion lipidica para nutricion parenteral.
+La glicina es un aminoacido que figura en un registro sanitario colombiano.
 El modelo TxGNN predice que podria ser efectiva para **enfermedad de la cavidad nasal**,
 pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como tratamiento) y **2 publicaciones** (basicas/preclinicas) que no respaldan realmente esta direccion.
 
@@ -50,8 +50,8 @@ pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como 
 | Nueva Indicacion Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Prediccion TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decision Recomendada | Hold |
 
 ## Por que es Razonable esta Prediccion?
@@ -79,7 +79,7 @@ El unico ensayo asociado es un estudio de imagen diagnostica con un radiotrazado
 
 | Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
 |---------|------|------|-----------|
-| 20216947 (cancelado) | NUTRIFLEX® OMEGA SPECIAL NOVO | Emulsion inyectable | Emulsiones lipidas |
+| 20216947 | NUTRIFLEX® OMEGA SPECIAL NOVO | Emulsion inyectable | Emulsiones lipidas |
 
 ## Consideraciones de Seguridad
 
@@ -93,14 +93,14 @@ Consultar el prospecto para informacion de advertencias y contraindicaciones ofi
 **Decision: Hold**
 
 **Justificacion:**
-La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion y el unico registro sanitario esta cancelado. La segunda indicacion predicha (laringofaringitis aguda) tampoco tiene ensayos ni literatura.
+La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion. La segunda indicacion predicha (laringofaringitis aguda) tampoco tiene ensayos ni literatura.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de accion desde DrugBank y formular una hipotesis mecanistica para la via aerea superior
 - Descargar y analizar el prospecto del INVIMA para conocer advertencias y contraindicaciones oficiales
 - Realizar estudios preclinicos o revision sistematica que evaluen la glicina en patologia nasal
 - Evaluar la compatibilidad de via de administracion (la unica forma registrada es una emulsion inyectable, no apta para uso nasal)
-- Verificar si existe una via de acceso regulatorio, dado que el unico registro esta cancelado
+- Verificar si existe una via de acceso regulatorio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

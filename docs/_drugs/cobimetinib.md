@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cobimetinib: nueva indicación predicha, Esclerosis lateral amiotrófica (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "cobimetinib"
 predicted_indications: ["amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "Mills syndrome", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "amyotrohpic lateral sclerosis type 22", "monomelic amyotrophy"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Cobimetinib es un inhibidor de MEK1/2 (según la farmacología conocida) que cuenta con un registro sanitario en Colombia, actualmente cancelado. El modelo TxGNN predice que podría ser efectivo para **esclerosis lateral amiotrófica (ELA)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+Cobimetinib es un inhibidor de MEK1/2 (según la farmacología conocida) que cuenta con un registro sanitario en Colombia. El modelo TxGNN predice que podría ser efectivo para **esclerosis lateral amiotrófica (ELA)**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20119351 (cancelado) | COTELLIC® (COBIMETINIB) 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | COBIMETINIB |
+| 20119351 | COTELLIC® (COBIMETINIB) 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | COBIMETINIB |
 
 ---
 
@@ -114,13 +114,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para ELA se basa solo en el modelo (nivel L5), sin ensayos ni literatura, con penetración limitada al sistema nervioso central y un perfil de toxicidad relevante para enfermedades neuromusculares. Además, el único registro sanitario en Colombia está cancelado.
+La predicción para ELA se basa solo en el modelo (nivel L5), sin ensayos ni literatura, con penetración limitada al sistema nervioso central y un perfil de toxicidad relevante para enfermedades neuromusculares.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura preclínica sobre inhibición de MEK/ERK en modelos de ELA
 - Datos de mecanismo de acción y de penetración en el sistema nervioso central (barrera hematoencefálica, glicoproteína P)
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
-- Aclarar la situación regulatoria del registro cancelado y la viabilidad de comercialización en Colombia
 - Evaluación de la relación riesgo-beneficio (retinopatía, CK, toxicidad cardíaca) en poblaciones con ELA
 ## Descargo de responsabilidad
 

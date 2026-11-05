@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IMIPENEM"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Imipenem: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: IMIPENEM Y CILASTATINA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN lo propone para **esclerodermia difusa (diffuse scleroderma)** c
 | Nueva Indicación Predicha | esclerodermia difusa (diffuse scleroderma) |
 | Puntaje de Predicción TxGNN | 0,9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

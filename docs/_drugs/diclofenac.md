@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juv
 | Nueva Indicación Predicha | Artritis idiopática juvenil (según la predicción de mayor puntaje, "hipotricosis simple del cuero cabelludo", no existe respaldo clínico; se destaca la artritis idiopática juvenil por ser la primera predicción con evidencia) |
 | Puntaje de Predicción TxGNN | 0.9969 (hipotricosis simple del cuero cabelludo) |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 > Nota: la predicción de mayor puntaje (hipotricosis simple del cuero cabelludo, 0.9969) solo tiene respaldo del modelo (nivel L5, sin ensayos ni publicaciones). Este informe se centra en la artritis idiopática juvenil, la primera predicción con literatura disponible. Las demás predicciones del top 10 son solo predicciones del modelo, sin evidencia real, y se mantienen en "Hold".
@@ -96,7 +96,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20220497 (cancelado) | DICASEN® 50/50 | Tableta | Tramadol y diclofenaco |
+| 20220497 | DICASEN® 50/50 | Tableta | Tramadol y diclofenaco |
 
 ---
 
@@ -115,13 +115,13 @@ Consultar el prospecto para información de seguridad adicional.
 **Decisión: Hold**
 
 **Justificación:**
-La única predicción con literatura (artritis idiopática juvenil) se apoya en estudios pequeños, antiguos y de bajo nivel (L3), sin ensayos registrados, y no representa un reposicionamiento novedoso. El único registro sanitario en Colombia está cancelado, y las demás predicciones del top 10 son solo del modelo (L5) sin vínculo mecanístico plausible.
+La única predicción con literatura (artritis idiopática juvenil) se apoya en estudios pequeños, antiguos y de bajo nivel (L3), sin ensayos registrados, y no representa un reposicionamiento novedoso.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente ausente.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisión sistemática o comparación con el estándar actual (FAME y biológicos) en artritis idiopática juvenil.
-- Evaluar el estado regulatorio, dado que el único registro está cancelado.
+- Evaluar el estado regulatorio.
 - Evaluación de seguridad pediátrica (gastrointestinal, renal, cardiovascular) y de las contraindicaciones señaladas por el grafo de conocimiento.
 ## Descargo de responsabilidad
 

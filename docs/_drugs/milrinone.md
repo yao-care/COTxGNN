@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Milrinone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: MILRINONA"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -81,8 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; actualmente no hay presentaciones vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 40198 | COROTROPE® 10 MG (Sanofi-Aventis de Colombia) | Solución inyectable | MILRINONA |
@@ -106,7 +104,7 @@ No se dispone del texto de advertencias y contraindicaciones del prospecto; cons
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para alopecia es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, el mecanismo propuesto es especulativo y el perfil de seguridad cardiovascular de la milrinona sistémica es poco compatible con esta indicación. Además, actualmente no hay ningún registro sanitario vigente en Colombia.
+La predicción para alopecia es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, el mecanismo propuesto es especulativo y el perfil de seguridad cardiovascular de la milrinona sistémica es poco compatible con esta indicación.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos (por ejemplo, modelos de folículo piloso o de perfusión del cuero cabelludo) que sustenten la hipótesis de la PDE3.

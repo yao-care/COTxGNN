@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 246
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L3). Indicación original: ELTROMBOPAG"
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
@@ -52,8 +52,8 @@ El posible beneficio sería de apoyo (elevar plaquetas en trombocitopenia asocia
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,10 +118,10 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisiones, sin ensayos específicos en VIH. El único ensayo de Fase 3 no es específico de VIH y fue terminado. Además, no hay registros sanitarios vigentes en Colombia, y el beneficio es de soporte (plaquetas), no antiviral.
+La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisiones, sin ensayos específicos en VIH. El único ensayo de Fase 3 no es específico de VIH y fue terminado. Además, el beneficio es de soporte (plaquetas), no antiviral.
 
 **Para avanzar se necesita:**
-- Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo.
+- Aclarar la situación regulatoria: los 4 y el texto de indicación solo repite el nombre del principio activo.
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
 - Verificar la población y la causa de terminación del ensayo NCT00678587.

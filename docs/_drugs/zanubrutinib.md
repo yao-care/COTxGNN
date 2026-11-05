@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Agente antineoplásico e inmunomodulador"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -98,7 +98,7 @@ Ninguna de estas publicaciones evalúa zanubrutinib en leucemia mieloide; casi t
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20262984 (cancelado) | BRUKINSA® 80 MG CÁPSULAS | Cápsula dura | Zanubrutinib (sin indicación detallada en el registro) |
+| 20262984 | BRUKINSA® 80 MG CÁPSULAS | Cápsula dura | Zanubrutinib (sin indicación detallada en el registro) |
 
 ---
 
@@ -128,7 +128,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto, pero no hay estudios que evalúen zanubrutinib en leucemia mieloide: la evidencia disponible es indirecta y corresponde a neoplasias linfoides (nivel L4). Además, el único registro sanitario en Colombia está cancelado.
+El puntaje del modelo es alto, pero no hay estudios que evalúen zanubrutinib en leucemia mieloide: la evidencia disponible es indirecta y corresponde a neoplasias linfoides (nivel L4).
 
 **Para avanzar se necesita:**
 - Estudios preclínicos que demuestren dependencia de BTK y actividad de zanubrutinib en modelos de leucemia mieloide

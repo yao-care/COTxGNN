@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: nueva indicación predicha, Bronchitis (nivel de evidencia L5). Indicación original: NATALIZUMAB"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Natalizumab es un anticuerpo monoclonal anti-integrina alfa4, con registros sanitarios en Colombia bajo el nombre Tysabri®, actualmente cancelados. El modelo TxGNN predice que podría ser efectivo para **psoriasis**, pero no hay ensayos clínicos registrados y la literatura disponible es de bajo nivel y con resultados contradictorios: hay una serie de casos con mejoría y varios reportes de psoriasis inducida o agravada por el fármaco.
+Natalizumab es un anticuerpo monoclonal anti-integrina alfa4, con registros sanitarios en Colombia bajo el nombre Tysabri®. El modelo TxGNN predice que podría ser efectivo para **psoriasis**, pero no hay ensayos clínicos registrados y la literatura disponible es de bajo nivel y con resultados contradictorios: hay una serie de casos con mejoría y varios reportes de psoriasis inducida o agravada por el fármaco.
 
 ## Resumen Rápido
 
@@ -104,14 +104,14 @@ Para advertencias y contraindicaciones del prospecto, consultar directamente el 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a una serie de casos favorable, varios reportes de psoriasis inducida o agravada por natalizumab y revisiones generales, sin ensayos clínicos. Sumado al riesgo de LMP y a que los registros sanitarios en Colombia están cancelados, no hay base para avanzar con esta indicación.
+La evidencia se limita a una serie de casos favorable, varios reportes de psoriasis inducida o agravada por natalizumab y revisiones generales, sin ensayos clínicos. Sumado al riesgo de LMP, no hay base para avanzar con esta indicación.
 
 **Para avanzar se necesita:**
 - Resolver la contradicción sobre el efecto en psoriasis (mejoría frente a inducción o agravamiento), idealmente con estudios controlados.
 - Datos del mecanismo de acción desde DrugBank para fortalecer el análisis mecanístico.
 - Obtener y revisar el prospecto de INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad.
 - Evaluar la relación beneficio-riesgo frente a alternativas ya aprobadas para psoriasis, dado el riesgo de LMP.
-- Aclarar la situación regulatoria, ya que ambos registros sanitarios están cancelados y no existe comercialización vigente.
+- Aclarar la situación regulatoria.
 
 **Nota sobre otras indicaciones predichas:** bronquitis, retinopatía diabética no proliferativa grave, parapsoriasis y pitiriasis liquenoide aguda también tienen decisión Hold. Las dos primeras no cuentan con ensayos ni literatura (L5). Las dos últimas solo cuentan con un reporte de caso de eventos adversos cutáneos (L4), que no demuestra beneficio terapéutico.
 ## Descargo de responsabilidad

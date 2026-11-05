@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Oximetazolina"
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -52,8 +52,8 @@ Esta indicación se solapa con el uso descongestionante ya establecido, por lo q
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19928879 | CLARIVIS | Solución oftálmica | Oximetazolina |
 | 35490 | AFRIN® SOLUCIÓN NASAL ADULTOS 0.05% | Solución nasal | Oximetazolina |
 
-Los cinco registros figuran como cancelados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -118,7 +116,7 @@ No se dispone del prospecto con advertencias y contraindicaciones oficiales; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente coherente, pero coincide con el uso descongestionante ya establecido, por lo que no representa un reposicionamiento novedoso. Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica, y los cinco registros sanitarios en Colombia están cancelados.
+La predicción es mecanísticamente coherente, pero coincide con el uso descongestionante ya establecido, por lo que no representa un reposicionamiento novedoso. Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica.
 
 **Para avanzar se necesita:**
 - Aclarar el estado regulatorio: motivo de la cancelación de los registros y si existe algún producto vigente.

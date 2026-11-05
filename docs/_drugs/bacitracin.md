@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 88
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bacitracin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Dexametasona y antiinfecciosos"
 monitor_inn: "bacitracin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "infective urethral stricture", "post-infectious syndrome", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy"]
@@ -74,7 +74,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19987850 (cancelado) | ALTRACINE - A UNGÜENTO | Ungüento oftálmico | Dexametasona y antiinfecciosos |
+| 19987850 | ALTRACINE - A UNGÜENTO | Ungüento oftálmico | Dexametasona y antiinfecciosos |
 
 ## Consideraciones de Seguridad
 
@@ -87,12 +87,12 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el mecanismo antibacteriano tiene poca relación con una queratoconjuntivitis de origen mayormente viral o tóxico. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y el mecanismo antibacteriano tiene poca relación con una queratoconjuntivitis de origen mayormente viral o tóxico.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) del producto.
 - Evidencia clínica o preclínica que vincule la bacitracina con esta enfermedad.
-- Confirmar la situación regulatoria, dado que no hay registros vigentes.
+- Confirmar la situación regulatoria.
 - Como alternativa, priorizar la indicación de **otitis externa** (nivel L4), que cuenta con un estudio clínico de una pomada con polimixina B y bacitracina, aunque con evidencia indirecta y basada en combinaciones.
 ## Descargo de responsabilidad
 

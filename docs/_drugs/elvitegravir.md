@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "ELVITEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Elvitegravir: nueva indicación predicha, infección por virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: ELVITEGRAVIR. COBICI…"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 | Nueva Indicación Predicha | infección por virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0,9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

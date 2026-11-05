@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas 
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -117,7 +117,7 @@ Para las advertencias del prospecto, consultar el prospecto del producto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje del modelo es alto y existe literatura directa (revisión Cochrane, guía AASM, estudios pequeños), no hay ensayos clínicos registrados ni ECA de gran escala que respalden clonazepam en SPI, y las benzodiazepinas no son de primera línea. Además, en Colombia ambos registros sanitarios están cancelados, y no hay datos de seguridad del prospecto.
+Aunque el puntaje del modelo es alto y existe literatura directa (revisión Cochrane, guía AASM, estudios pequeños), no hay ensayos clínicos registrados ni ECA de gran escala que respalden clonazepam en SPI, y las benzodiazepinas no son de primera línea. Además, no hay datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Verificar en el texto completo de la guía AASM 2025 y de la revisión Cochrane la recomendación exacta sobre clonazepam.

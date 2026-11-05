@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,9 +84,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128365 (cancelado) | TRIMETOPRIMA SULFAMETOXAZOL 160/800 MG TABLETA (Laboratorios Ecar S.A.) | Tableta (vía oral) | Sulfametoxazol y trimetoprim |
+| 20128365 | TRIMETOPRIMA SULFAMETOXAZOL 160/800 MG TABLETA (Laboratorios Ecar S.A.) | Tableta (vía oral) | Sulfametoxazol y trimetoprim |
 
-No hay registros vigentes. Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles.
+Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles.
 
 ---
 
@@ -115,7 +115,7 @@ Estas interacciones corresponden al uso sistémico. Para una formulación oftál
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5), y el vínculo mecanístico con una enfermedad frecuentemente viral es débil. Además, el único registro sanitario en Colombia está cancelado.
+La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5), y el vínculo mecanístico con una enfermedad frecuentemente viral es débil.
 
 **Para avanzar se necesita:**
 - Revisar la literatura sobre la etiología de la queratoconjuntivitis epitelial punteada y determinar si existe un subtipo bacteriano tratable con trimetoprima.

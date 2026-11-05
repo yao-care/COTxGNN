@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Etanercept: nueva indicación predicha, Hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: ETANERCEPT"
 ---
 
@@ -48,8 +48,8 @@ Etanercept es un fármaco biológico que bloquea el TNF, una molécula inflamato
 | Nueva Indicación Predicha | Hipermovilidad del coxis (hypermobility of coccyx) |
 | Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

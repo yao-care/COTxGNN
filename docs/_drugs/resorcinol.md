@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Resorcinol: nueva indicación predicha, Acné queloide (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico, resorcinol (combinación)"
 monitor_inn: "RESORCINOL"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Resorcinol es un agente tópico queratolítico y antiséptico, registrado en Colombia únicamente como parte de soluciones tópicas combinadas (con ácido salicílico y ácido benzoico), cuyos registros sanitarios hoy están cancelados.
+Resorcinol es un agente tópico queratolítico y antiséptico, registrado en Colombia únicamente como parte de soluciones tópicas combinadas (con ácido salicílico y ácido benzoico).
 El modelo TxGNN predice que podría ser efectivo para **acné queloide**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ---
@@ -81,8 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los dos registros sanitarios están cancelados; no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20052715 | Querafar® Solución Tópica | Solución tópica | Ácido salicílico, ácido benzoico, resorcinol (vigente) |
@@ -115,14 +113,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay productos vigentes con resorcinol en Colombia. Aunque el acné queloide es la indicación más plausible, falta validación y hay señales de seguridad que deben aclararse.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Aunque el acné queloide es la indicación más plausible, falta validación y hay señales de seguridad que deben aclararse.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad)
 - Obtener datos del mecanismo de acción desde DrugBank
 - Revisar la literatura sobre resorcinol tópico en acné queloide y trastornos foliculares afines
 - Evaluar la absorción sistémica y la seguridad, sobre todo en poblaciones pediátricas, y las contraindicaciones del grafo de conocimiento (G6PD, metahemoglobinemia, enfermedad renal)
-- Confirmar la situación regulatoria y la viabilidad de una nueva formulación, dado que los registros actuales están cancelados
+- Confirmar la situación regulatoria y la viabilidad de una nueva formulación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

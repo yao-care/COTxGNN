@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefalotin"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "bronchitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital analbuminemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cefalotin: nueva indicación predicha, uretritis gonocócica (gonococcal urethritis) (nivel de evidencia L5). Indicación original: CEFALOTINA"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | uretritis gonocócica (gonococcal urethritis) |
 | Puntaje de Predicción TxGNN | 0,9925 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -72,7 +72,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-El estado de mercado registrado es "Comercializado". Los datos compilados indican 3 registros sanitarios de producto único, y la lista puede ser parcial. Los registros disponibles figuran con estado cancelado:
+El estado de mercado registrado es "Comercializado". Los datos compilados indican 3 registros sanitarios de producto único, y la lista puede ser parcial.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -100,7 +100,6 @@ No existen ensayos clínicos ni publicaciones sobre cefalotina en uretritis gono
 - Datos de sensibilidad *in vitro* de *N. gonorrhoeae* frente a cefalotina.
 - Estudios clínicos o literatura que evalúen directamente esta indicación.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones).
-- Verificar la situación vigente de los registros sanitarios, dado que los registros disponibles figuran cancelados.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

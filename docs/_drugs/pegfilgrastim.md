@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Pegfilgrastim: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: PEGFILGRASTIM"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética 
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,13 +103,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se sustenta solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo es incierto, con un posible efecto adverso sobre la inflamación retiniana, y los cuatro registros sanitarios en Colombia están cancelados.
+La predicción se sustenta solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo es incierto, con un posible efecto adverso sobre la inflamación retiniana.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente actualmente.
 - Complementar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Realizar una revisión de literatura y ensayos preclínicos sobre G-CSF y retinopatía diabética, incluyendo el riesgo de empeoramiento inflamatorio.
-- Evaluar la viabilidad de la vía de administración y la situación regulatoria, dado que no hay registros vigentes.
+- Evaluar la viabilidad de la vía de administración y la situación regulatoria.
 - Contar con evidencia preclínica o clínica inicial antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 

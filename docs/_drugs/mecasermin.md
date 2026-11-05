@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
 monitor_inn: "mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
@@ -79,7 +79,7 @@ El puntaje TxGNN muy alto es solo una predicción computacional. No se recuperar
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20154631 (cancelado) | INCRELEX® 10 MG/ML SOLUCIÓN INYECTABLE (IPSEN PHARMA S.A.S.) | Solución inyectable | MECASERMINA |
+| 20154631 | INCRELEX® 10 MG/ML SOLUCIÓN INYECTABLE (IPSEN PHARMA S.A.S.) | Solución inyectable | MECASERMINA |
 
 ---
 
@@ -101,14 +101,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para monosomía X tiene un puntaje TxGNN alto, pero no cuenta con ensayos clínicos ni literatura recuperada, y el vínculo mecanístico es indirecto, ya que el síndrome de Turner se maneja habitualmente con hormona de crecimiento. Además, el único registro sanitario colombiano está cancelado, y faltan los datos de seguridad del prospecto.
+La predicción para monosomía X tiene un puntaje TxGNN alto, pero no cuenta con ensayos clínicos ni literatura recuperada, y el vínculo mecanístico es indirecto, ya que el síndrome de Turner se maneja habitualmente con hormona de crecimiento. Además, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente un vacío de información bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una búsqueda sistemática de literatura y ensayos sobre IGF-1 en síndrome de Turner.
 - Evaluar con prioridad el candidato de insensibilidad a la GH (STAT5B), que es el más coherente mecanísticamente.
-- Confirmar la situación regulatoria y la disponibilidad actual del producto en Colombia, dado que el registro está cancelado.
+- Confirmar la situación regulatoria y la disponibilidad actual del producto en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

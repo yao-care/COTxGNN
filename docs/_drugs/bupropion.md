@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Bupropión es un fármaco antidepresivo de liberación prolongada que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®), actualmente todos cancelados.
+Bupropión es un fármaco antidepresivo de liberación prolongada que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®).
 El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad (TDAH)**,
 con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaciones** que actualmente respaldan esta dirección.
 
@@ -52,8 +52,8 @@ con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaci
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 (ver nota abajo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** Según las reglas, L1 exige al menos 2 ECA de Fase 3 completados. Solo un ensayo de Fase 3 (NCT00048360) está completado, y el ensayo de Fase 2/3 (NCT00061087) también está completado. Esto corresponde a L2 de forma estricta. El análisis automático de los datos asignó L1; aquí se aplica la regla de forma conservadora, y además hay que confirmar si bupropión fue el agente evaluado en ambos ensayos.
@@ -131,7 +131,6 @@ Existe un ensayo de Fase 3 completado, otro de Fase 2/3 y uno de Fase 4, junto c
 - Confirmar que bupropión fue el agente evaluado y el comparador en NCT00048360 y NCT00061087, y revisar sus resultados publicados.
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones oficiales.
 - Obtener datos del mecanismo de acción desde DrugBank.
-- Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación.
 - Diseñar un plan de seguimiento de seguridad: riesgo de convulsiones, presión arterial y frecuencia cardíaca, interacciones (especialmente CYP2D6 y opioides) y poblaciones con comorbilidad por uso de sustancias.
 ## Descargo de responsabilidad
 

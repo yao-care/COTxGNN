@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Biotin: nueva indicación predicha, Dispepsia (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **dispepsia**, pero hasta 
 | Nueva Indicación Predicha | Dispepsia |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Ninguna de estas publicaciones evalúa la biotina como tratamiento de la dispeps
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 215439 (cancelado) | CERNEVIT® | Polvo liofilizado para reconstituir a solución inyectable | Multivitaminas y elementos traza |
+| 215439 | CERNEVIT® | Polvo liofilizado para reconstituir a solución inyectable | Multivitaminas y elementos traza |
 
 ## Consideraciones de Seguridad
 
@@ -96,7 +96,7 @@ Para información de seguridad completa, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es alto, no existen ensayos clínicos y la literatura disponible es indirecta o de baja relevancia (nivel de evidencia L5). Además, el único registro sanitario en Colombia está cancelado y no hay información de seguridad de prospecto, por lo que no es posible avanzar a una evaluación de seguridad.
+Aunque el puntaje de TxGNN es alto, no existen ensayos clínicos y la literatura disponible es indirecta o de baja relevancia (nivel de evidencia L5). Además, no hay información de seguridad de prospecto, por lo que no es posible avanzar a una evaluación de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
@@ -104,7 +104,7 @@ Aunque el puntaje de TxGNN es alto, no existen ensayos clínicos y la literatura
 - Realizar una revisión sistemática de la literatura sobre biotina en síntomas gastrointestinales y dispepsia
 - Evaluar la plausibilidad de un beneficio más allá de la corrección de una deficiencia nutricional
 - Verificar las contraindicaciones del grafo de conocimiento (en particular las renales y del metabolismo del calcio y el fósforo) con fuentes clínicas
-- Aclarar la situación regulatoria y la disponibilidad de productos con biotina en Colombia, dado que el único registro está cancelado
+- Aclarar la situación regulatoria y la disponibilidad de productos con biotina en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

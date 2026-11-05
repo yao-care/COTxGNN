@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 187
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Cysteine: nueva indicación predicha, Síndrome de ojo seco (nivel de evidencia L4). Indicación original: Combinaciones"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -52,8 +52,8 @@ La evidencia es débil y se considera una pregunta de investigación.
 | Nueva Indicación Predicha | Síndrome de ojo seco |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,7 +96,7 @@ Se listan las publicaciones más pertinentes (no hay ECA ni estudios clínicos e
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20057807 (cancelado) | NUMETA® G 19% E | Emulsión inyectable | Combinaciones |
+| 20057807 | NUMETA® G 19% E | Emulsión inyectable | Combinaciones |
 
 ---
 
@@ -113,7 +113,7 @@ No se encontraron interacciones farmacológicas registradas. Para el resto de la
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta, pero no hay ensayos clínicos y la literatura es preclínica o indirecta, con la cisteína usada sobre todo como componente de formulación. Además, el único registro sanitario en Colombia está cancelado y la vía de administración original (emulsión inyectable) no es compatible con un uso oftálmico.
+La predicción de TxGNN es muy alta, pero no hay ensayos clínicos y la literatura es preclínica o indirecta, con la cisteína usada sobre todo como componente de formulación. Además, la vía de administración original (emulsión inyectable) no es compatible con un uso oftálmico.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos que evalúen la cisteína (o un derivado) como agente activo en modelos de ojo seco

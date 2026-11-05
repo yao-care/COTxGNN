@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Enzalutamide: nueva indicación predicha, leiomioma de próstata (prostate leiomyoma) (nivel de evidencia L5). Indicación original: ENZALUTAMIDA"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | leiomioma de próstata (prostate leiomyoma) |
 | Puntaje de Predicción TxGNN | 0,9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

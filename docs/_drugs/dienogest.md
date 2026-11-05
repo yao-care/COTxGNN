@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Dienogest y Etinilestradiol"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -50,8 +50,8 @@ Dienogest es un progestágeno que, según el registro sanitario de INVIMA, figur
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,7 +92,7 @@ Ninguna de estas publicaciones demuestra que dienogest trate la amenorrea como e
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20093177 (cancelado) | DIENILLE® comprimido recubierto | Tableta recubierta | DIENOGEST Y ETINILESTRADIOL |
+| 20093177 | DIENILLE® comprimido recubierto | Tableta recubierta | DIENOGEST Y ETINILESTRADIOL |
 
 ---
 
@@ -111,13 +111,13 @@ No se dispone del texto de advertencias y contraindicaciones del prospecto de IN
 **Decisión: Hold**
 
 **Justificación:**
-La amenorrea es un efecto esperado de dienogest y no una enfermedad tratable con él; no existen ensayos clínicos y la literatura es solo indirecta (nivel L4). Además, el único registro sanitario en Colombia está cancelado.
+La amenorrea es un efecto esperado de dienogest y no una enfermedad tratable con él; no existen ensayos clínicos y la literatura es solo indirecta (nivel L4).
 
 **Para avanzar se necesita:**
 - Replantear la pregunta: definir si el interés real es el manejo del sangrado o la endometriosis, indicaciones donde la evidencia de dienogest es más sólida
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Complementar los datos del mecanismo de acción desde DrugBank
-- Evaluar la situación regulatoria actual en Colombia, dado que no hay registro vigente
+- Evaluar la situación regulatoria actual en Colombia
 - Definir un plan de seguridad que tenga en cuenta las contraindicaciones del grafo de conocimiento y las interacciones de nivel mayor
 ## Descargo de responsabilidad
 

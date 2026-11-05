@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Amantadine: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: AMANTADINA"
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **encefalitis subaguda de 
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,13 +104,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el único registro sanitario está cancelado y el grafo de conocimiento señala la epilepsia como posible contraindicación.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el grafo de conocimiento señala la epilepsia como posible contraindicación.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA (advertencias y contraindicaciones) y completar los datos del mecanismo de acción en DrugBank.
 - Revisión bibliográfica específica sobre amantadina y encefalitis de Rasmussen, así como estudios preclínicos que respalden el vínculo con la modulación glutamatérgica.
 - Evaluar el riesgo de la amantadina en pacientes con epilepsia.
-- Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia.
+- Confirmar la situación regulatoria.
 
 ---
 

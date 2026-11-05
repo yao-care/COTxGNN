@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
@@ -52,8 +52,8 @@ Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en r
 | Nueva Indicación Predicha | Trastorno neurótico (neurotic disorder) |
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -119,8 +119,6 @@ Estas publicaciones respaldan la eficacia de vortioxetina en depresión mayor, n
 |---------|------|------|-----------|------|
 | 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | Tableta recubierta (vía oral) | VORTIOXETINA | Vigente |
 
-El único registro (titular: MEGALABS COLOMBIA S.A.S) está cancelado; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -146,7 +144,7 @@ Consultar el prospecto para advertencias y contraindicaciones, que no están dis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (trastorno neurótico) tiene nivel de evidencia L5: solo una publicación indirecta, sin ensayos clínicos, y se trata de una categoría diagnóstica obsoleta que se solapa con la depresión ya aprobada. Las predicciones con mayor respaldo (neurosis depresiva y melancolía, nivel L1 por la evidencia en depresión mayor) corresponden a reetiquetados o subpoblaciones de la indicación existente, no a un reposicionamiento genuino. Además, el único registro sanitario en Colombia está cancelado.
+La predicción principal (trastorno neurótico) tiene nivel de evidencia L5: solo una publicación indirecta, sin ensayos clínicos, y se trata de una categoría diagnóstica obsoleta que se solapa con la depresión ya aprobada. Las predicciones con mayor respaldo (neurosis depresiva y melancolía, nivel L1 por la evidencia en depresión mayor) corresponden a reetiquetados o subpoblaciones de la indicación existente, no a un reposicionamiento genuino.
 
 **Para avanzar se necesita:**
 - Aclarar si se busca realmente reposicionamiento o solo mapear etiquetas históricas a la indicación vigente (depresión mayor y distimia).

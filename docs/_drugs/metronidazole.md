@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Metronidazol / combinaciones de imidazol derivados"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Metronidazol es un antimicrobiano derivado del imidazol, con registros sanitarios en Colombia para metronidazol solo y en combinaciones de imidazoles (hoy todos cancelados).
+Metronidazol es un antimicrobiano derivado del imidazol, con registros sanitarios en Colombia para metronidazol solo y en combinaciones de imidazoles.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no hay ensayos clínicos y la literatura disponible (10 publicaciones) es solo descriptiva (revisiones y reportes de caso), sin evidencia directa de eficacia.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---

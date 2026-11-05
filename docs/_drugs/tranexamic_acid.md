@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Ácido tranexámico\")"
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 (sin ensayos clínicos; solo revisiones narrativas indirectas y razonamiento de mecanismo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,10 +86,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20093424 (cancelado) | TAREXA® | Solución inyectable | Ácido tranexámico |
-| 20232276 (cancelado) | Ácido tranexámico inyectable 100 mg/ml | Solución inyectable | Ácido tranexámico |
-| 20145093 (cancelado) | GOTRONAL® 500 mg tableta | Tableta | Ácido tranexámico |
-| 20187927 (cancelado) | Ácido tranexámico solución inyectable | Solución inyectable | Ácido tranexámico |
+| 20093424 | TAREXA® | Solución inyectable | Ácido tranexámico |
+| 20232276 | Ácido tranexámico inyectable 100 mg/ml | Solución inyectable | Ácido tranexámico |
+| 20145093 | GOTRONAL® 500 mg tableta | Tableta | Ácido tranexámico |
+| 20187927 | Ácido tranexámico solución inyectable | Solución inyectable | Ácido tranexámico |
 
 ---
 
@@ -111,7 +111,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto apr
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura disponible (dos revisiones narrativas) aborda el sangrado uterino, no la amenorrea. Además, el efecto antifibrinolítico del fármaco es opuesto al estado clínico que se pretende tratar, por lo que el puntaje alto del modelo parece un artefacto de proximidad en la red. A esto se suma que los cuatro registros sanitarios en Colombia están cancelados.
+No existen ensayos clínicos y la literatura disponible (dos revisiones narrativas) aborda el sangrado uterino, no la amenorrea. Además, el efecto antifibrinolítico del fármaco es opuesto al estado clínico que se pretende tratar, por lo que el puntaje alto del modelo parece un artefacto de proximidad en la red.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad).

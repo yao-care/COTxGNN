@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: No especificada en detalle"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -91,8 +91,8 @@ Como referencia, el tratamiento de primera línea de la neumocistosis es trimeto
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20064520 (cancelado) | NOXAFIL® Tabletas Recubiertas de Liberación Retardada (Merck Sharp & Dohme LLC) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
-| 20195133 (cancelado) | Posaconazol 100 mg Tabletas Gastrorresistentes (Sandoz GmbH) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
+| 20064520 | NOXAFIL® Tabletas Recubiertas de Liberación Retardada (Merck Sharp & Dohme LLC) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
+| 20195133 | Posaconazol 100 mg Tabletas Gastrorresistentes (Sandoz GmbH) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
 
 ---
 
@@ -109,7 +109,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta, pero no hay estudios que evalúen posaconazol en neumocistosis y el mecanismo azólico carece de una diana clara en *Pneumocystis*. Además, el fármaco no tiene registros sanitarios vigentes en Colombia.
+La predicción de TxGNN es muy alta, pero no hay estudios que evalúen posaconazol en neumocistosis y el mecanismo azólico carece de una diana clara en *Pneumocystis*.
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción verificados en fuentes primarias (por ejemplo, DrugBank)

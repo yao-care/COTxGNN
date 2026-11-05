@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorde… (nivel de evidencia L5). Indicación original: Pentosano polisulfato de sodio"
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
@@ -91,9 +91,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20177532 (cancelado) | PENTODOL 100 MG CAPSULA | Cápsula dura | Pentosano polisulfato de sodio |
+| 20177532 | PENTODOL 100 MG CAPSULA | Cápsula dura | Pentosano polisulfato de sodio |
 
-El fabricante del registro es Inversiones Plamatech Ltda. No hay registros vigentes en Colombia.
+El fabricante del registro es Inversiones Plamatech Ltda.
 
 ---
 
@@ -124,7 +124,7 @@ Las contraindicaciones y advertencias del prospecto del INVIMA no están disponi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literatura. Además, la actividad anticoagulante del fármaco va en contra de lo que requieren los trastornos plaquetarios y podría aumentar el riesgo de sangrado. Las contraindicaciones del grafo incluyen trastornos de la coagulación y trombocitopenia, y el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literatura. Además, la actividad anticoagulante del fármaco va en contra de lo que requieren los trastornos plaquetarios y podría aumentar el riesgo de sangrado. Las contraindicaciones del grafo incluyen trastornos de la coagulación y trombocitopenia.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío que bloquea el tamizaje de seguridad.

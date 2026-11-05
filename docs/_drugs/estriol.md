@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 264
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: ESTRIOL"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Estriol es un estrógeno natural débil, registrado en Colombia en óvulos vaginales cuyos registros sanitarios hoy figuran cancelados; la indicación aprobada solo aparece como "ESTRIOL", sin detalle clínico.
+Estriol es un estrógeno natural débil; la indicación aprobada solo aparece como "ESTRIOL", sin detalle clínico.
 El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ensayos clínicos** y **6 publicaciones** relacionadas, de las cuales solo dos aportan evidencia directa (una revisión de 2023 y un estudio de cohorte de 2012).
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a un estudio de cohorte pequeño y una revisión sobre mecanismos, sin ensayos clínicos registrados ni resultados de recuperación de menstruación u ovulación. Además, los dos registros sanitarios en Colombia están cancelados y faltan datos de seguridad, por lo que no es posible avanzar con garantías.
+La evidencia se limita a un estudio de cohorte pequeño y una revisión sobre mecanismos, sin ensayos clínicos registrados ni resultados de recuperación de menstruación u ovulación. Además, faltan datos de seguridad, por lo que no es posible avanzar con garantías.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío crítico que bloquea la evaluación de seguridad.

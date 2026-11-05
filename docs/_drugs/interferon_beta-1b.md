@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (hairy cell leukemia) (nivel de evidencia L5). Indicación original: Interferón beta-1b"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -98,7 +98,7 @@ Como información complementaria (esclerosis múltiple), publicaciones principal
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 202595 (cancelado) | BETAFERON | Polvo liofilizado para reconstituir a solución inyectable | INTERFERON BETA-1B |
+| 202595 | BETAFERON | Polvo liofilizado para reconstituir a solución inyectable | INTERFERON BETA-1B |
 
 ## Consideraciones de Seguridad
 
@@ -114,7 +114,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916), pero no cuenta con ningún ensayo clínico ni publicación; su única base es una analogía con el interferón alfa. Además, el único registro sanitario en Colombia está cancelado. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)
+La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916), pero no cuenta con ningún ensayo clínico ni publicación; su única base es una analogía con el interferón alfa. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)
 
 **Para avanzar se necesita:**
 - Revisión bibliográfica dirigida sobre interferón beta (frente a interferón alfa) en leucemia de células pilosas y estudios preclínicos

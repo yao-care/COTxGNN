@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Bromazepam"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Bromazepam es una benzodiazepina que contó con registros sanitarios en Colombia, hoy cancelados, cuya indicación registrada figura solo con el nombre del propio principio activo.
+Bromazepam es una benzodiazepina que contó con registros sanitarios en Colombia, cuya indicación registrada figura solo con el nombre del propio principio activo.
 El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección.
 
 ---
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19920700 (cancelado) | LEXOTAN TABLETAS 3 MG | Tableta | Bromazepam |
-| 227603 (cancelado) | BROMAZEPAM 6 MG TABLETA | Tableta | Bromazepam |
+| 19920700 | LEXOTAN TABLETAS 3 MG | Tableta | Bromazepam |
+| 227603 | BROMAZEPAM 6 MG TABLETA | Tableta | Bromazepam |
 
 ---
 
@@ -101,7 +101,7 @@ No se encontraron interacciones farmacológicas registradas en la consulta reali
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, los dos registros sanitarios en Colombia están cancelados y las benzodiazepinas no son terapia establecida para migraña, con riesgos relevantes de dependencia y cefalea por abuso de medicación.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, las benzodiazepinas no son terapia establecida para migraña, con riesgos relevantes de dependencia y cefalea por abuso de medicación.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues sin esta información no es posible avanzar al tamizaje de seguridad.

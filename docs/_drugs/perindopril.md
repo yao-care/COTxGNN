@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Perindopril y amlodipino"
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -75,7 +75,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007274 (cancelado) | COVERAM® 10 MG / 5MG COMPRIMIDOS | Tableta | Perindopril y amlodipino |
+| 20007274 | COVERAM® 10 MG / 5MG COMPRIMIDOS | Tableta | Perindopril y amlodipino |
 
 ## Consideraciones de Seguridad
 
@@ -89,14 +89,14 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje de TxGNN es muy alto (0.9977), pero no existen ensayos clínicos y la única publicación recuperada no es pertinente al fármaco ni a la enfermedad. Además, el perfil de seguridad en daño renal y estenosis de la arteria renal es una preocupación importante, y no hay registros sanitarios vigentes en Colombia.
+El puntaje de TxGNN es muy alto (0.9977), pero no existen ensayos clínicos y la única publicación recuperada no es pertinente al fármaco ni a la enfermedad. Además, el perfil de seguridad en daño renal y estenosis de la arteria renal es una preocupación importante.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Advertencias y contraindicaciones del prospecto de INVIMA, que no están disponibles y bloquean el tamizaje de seguridad.
 - Búsqueda dirigida de literatura clínica sobre IECA en nefropatía hipertensiva maligna.
 - Evaluación del riesgo de lesión renal aguda en pacientes con estenosis de la arteria renal.
-- Confirmar la situación regulatoria del producto, dado que el único registro está cancelado.
+- Confirmar la situación regulatoria del producto.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

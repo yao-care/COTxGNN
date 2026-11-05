@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Orlistat: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Orlistat"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Orlistat es un inhibidor de las lipasas gástrica y pancreática, que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo (todos hoy cancelados).
+Orlistat es un inhibidor de las lipasas gástrica y pancreática, que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo.
 El modelo TxGNN predice que podría ser efectivo para **hipervitaminosis**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es solo una predicción computacional.
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Hipervitaminosis |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,7 +94,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo y en un vínculo farmacológico plausible, sin ensayos clínicos ni literatura que la respalden (nivel L5). Además, los registros sanitarios en Colombia están todos cancelados y existe riesgo de deficiencias vitamínicas y otros problemas de seguridad.
+La predicción se basa solo en el modelo y en un vínculo farmacológico plausible, sin ensayos clínicos ni literatura que la respalden (nivel L5). Además, existe riesgo de deficiencias vitamínicas y otros problemas de seguridad.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura preclínica y clínica sobre orlistat y los niveles de vitaminas liposolubles.

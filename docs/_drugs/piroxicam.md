@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: PIROXICAM"
@@ -52,8 +52,8 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 | Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -81,8 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 ---
 
 ## Información de Mercado en Colombia
-
-Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -117,7 +115,7 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para esta indicación (L5) carece de ensayos clínicos, literatura y vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia, lo que limita cualquier desarrollo práctico.
+La predicción para esta indicación (L5) carece de ensayos clínicos, literatura y vínculo mecanístico plausible.
 
 **Nota:** entre las demás indicaciones predichas, la **artritis idiopática juvenil** es la única con respaldo bibliográfico. Incluye estudios pediátricos antiguos y pequeños de piroxicam, uno de ellos comparativo con naproxeno, y dos metaanálisis en red recientes de AINE. Alcanzaría un nivel L3 y tiene una justificación mecanística sólida, aunque sintomática. Podría evaluarse como pregunta de investigación separada.
 

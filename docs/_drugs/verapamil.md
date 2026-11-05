@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Trandolapril y bloqueadores de canales de calcio"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -50,8 +50,8 @@ La predicción se basa únicamente en el puntaje del modelo y, según el anális
 | Nueva Indicación Predicha | Bloqueo de rama (término obsoleto) |
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,9 +85,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 230359 (cancelado) | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales de calcio |
-
-El único registro sanitario está cancelado, por lo que actualmente no hay producto vigente con verapamilo en este registro.
+| 230359 | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales de calcio |
 
 ## Consideraciones de Seguridad
 
@@ -104,13 +102,13 @@ Consultar el prospecto para la información completa de advertencias, ya que no 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal carece de ensayos clínicos y literatura, tiene nivel de evidencia L5 y es mecanísticamente contradictoria (el bloqueo de calcio puede empeorar los defectos de conducción). Además, la enfermedad aparece como término obsoleto y el producto registrado en Colombia está cancelado.
+La predicción principal carece de ensayos clínicos y literatura, tiene nivel de evidencia L5 y es mecanísticamente contradictoria (el bloqueo de calcio puede empeorar los defectos de conducción). Además, la enfermedad aparece como término obsoleto.
 
 **Para avanzar se necesita:**
 - Aclarar si el término "bloqueo de rama (obsoleto)" corresponde a un artefacto de la ontología y reemplazarlo por un término vigente.
 - Obtener el prospecto de INVIMA (advertencias y contraindicaciones) y el mecanismo de acción detallado desde DrugBank.
 - Considerar priorizar indicaciones con mayor plausibilidad farmacológica (p. ej., hipertensión renovascular o enfermedad renal hipertensiva) y realizar una revisión sistemática específica de verapamilo.
-- Confirmar la situación regulatoria actual del verapamilo en Colombia, dado que el único registro identificado está cancelado.
+- Confirmar la situación regulatoria actual del verapamilo en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

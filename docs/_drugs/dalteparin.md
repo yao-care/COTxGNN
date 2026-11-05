@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 192
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dalteparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19905001 (cancelado) | FRAGMIN® 2500 UI SOLUCIÓN INYECTABLE (Pfizer S.A.S.) | Solución inyectable | Dalteparina |
+| 19905001 | FRAGMIN® 2500 UI SOLUCIÓN INYECTABLE (Pfizer S.A.S.) | Solución inyectable | Dalteparina |
 
 ---
 
@@ -112,7 +112,7 @@ El texto de advertencias y contraindicaciones del prospecto de INVIMA no está d
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal es biológicamente plausible, pero se apoya únicamente en el modelo (L5), sin ensayos ni publicaciones específicas de dalteparina. Además, el único registro sanitario colombiano está cancelado y las demás predicciones carecen de respaldo mecanístico o implican riesgo hemorrágico.
+La predicción principal es biológicamente plausible, pero se apoya únicamente en el modelo (L5), sin ensayos ni publicaciones específicas de dalteparina. Además, las demás predicciones carecen de respaldo mecanístico o implican riesgo hemorrágico.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío de datos bloqueante para el tamizaje de seguridad

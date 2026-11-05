@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: PACLITAXEL"
@@ -50,8 +50,8 @@ Paclitaxel es un citotóxico de la familia de los taxanos, registrado en Colombi
 | Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 (≥2 ECA de Fase 3 completados, p. ej. NCT00667251, NCT01822314, NCT00006459, NCT00553358, NCT00513292, NCT00431080, NCT00075270; ver nota en la sección de ensayos) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 15) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -142,7 +142,7 @@ Existen 4 registros sanitarios vigentes; el medicamento se encuentra comercializ
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Paclitaxel tiene evidencia clínica amplia en cáncer de mama, incluidos múltiples ensayos de Fase 3 completados, y es un tratamiento estándar. Sin embargo, no hay registros sanitarios vigentes en Colombia y faltan los datos de seguridad del prospecto, por lo que se requieren salvaguardas.
+Paclitaxel tiene evidencia clínica amplia en cáncer de mama, incluidos múltiples ensayos de Fase 3 completados, y es un tratamiento estándar. Sin embargo, faltan los datos de seguridad del prospecto, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
 - Verificar si existen registros vigentes o reactivar/renovar un registro sanitario ante INVIMA

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "oxaprozin"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Oxaprozin: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (nivel de evidencia L5). Indicación original: OXAPROZIN"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Oxaprozina es un antiinflamatorio no esteroideo (AINE) registrado en Colombia bajo la denominación "OXAPROZIN", cuyos registros sanitarios están actualmente cancelados.
+Oxaprozina es un antiinflamatorio no esteroideo (AINE) registrado en Colombia bajo la denominación "OXAPROZIN".
 El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, aunque actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección. La predicción se basa únicamente en el modelo.
 
 ## Resumen Rápido
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20069202 (cancelado) | PORTENER | Tableta cubierta con película | OXAPROZIN |
-| 19937141 (cancelado) | DILOX® | Tableta recubierta | OXAPROZIN |
+| 20069202 | PORTENER | Tableta cubierta con película | OXAPROZIN |
+| 19937141 | DILOX® | Tableta recubierta | OXAPROZIN |
 
 ## Consideraciones de Seguridad
 
@@ -96,7 +96,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal carece de ensayos, literatura y vínculo mecanístico creíble (nivel L5), y el fármaco no tiene registros vigentes en Colombia. El perfil de seguridad del grupo de los AINE (riesgo cardiovascular, gastrointestinal, renal y hepático) añade cautela frente a un beneficio solo sintomático.
+La predicción principal carece de ensayos, literatura y vínculo mecanístico creíble (nivel L5). El perfil de seguridad del grupo de los AINE (riesgo cardiovascular, gastrointestinal, renal y hepático) añade cautela frente a un beneficio solo sintomático.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Tinidazol"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "apocrine adenosis of breast", "blunt duct adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **vaginitis atrófica p
 | Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -80,8 +80,6 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 ---
 
 ## Información de Mercado en Colombia
-
-Los cuatro registros sanitarios están **cancelados**; actualmente no hay productos de tinidazol vigentes en el país según los datos compilados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|

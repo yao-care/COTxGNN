@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Se recomienda subsanar las brechas de datos identificadas antes de continuar la 
 | Nueva Indicación Predicha | No disponible — `predicted_indications` vacío |
 | Puntaje de Predicción TxGNN | No aplicable |
 | Nivel de Evidencia | No evaluable (L5 provisional) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -64,9 +64,7 @@ El Evidence Pack recibido presenta dos condiciones críticas que impiden generar
 
 **Primera condición — Predicciones ausentes:** El campo `predicted_indications` está vacío. Sin una nueva indicación predicha por el modelo TxGNN, no es posible establecer la hipótesis de reposicionamiento ni buscar evidencia clínica asociada. Esto puede deberse a que el pipeline de predicción aún no procesó este compuesto, o a que el fármaco no superó el umbral mínimo de puntuación del modelo.
 
-**Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspondientes no fueron incorporados al JSON. Esto indica un error en la etapa de extracción o serialización del pipeline.
-
-Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional para cualquier estrategia de reposicionamiento en este mercado.
+**Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Esto indica un error en la etapa de extracción o serialización del pipeline.
 
 ---
 

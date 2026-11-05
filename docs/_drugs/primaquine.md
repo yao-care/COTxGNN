@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "primaquine"
 predicted_indications: ["myiasis", "furuncular myiasis", "wound myiasis", "creeping myiasis", "toxoplasmosis", "nocardiosis", "pneumocystosis"]
 description: "Primaquine: nueva indicación predicha, Miasis (myiasis) (nivel de evidencia L5). Indicación original: PRIMAQUINA"
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19943341 (Cancelado) | PRIMAQUINA TABLETAS 15 MG (FAES FARMA COLOMBIA S.A.S.) | Tableta | PRIMAQUINA (el registro no detalla la indicación) |
+| 19943341 | PRIMAQUINA TABLETAS 15 MG (FAES FARMA COLOMBIA S.A.S.) | Tableta | PRIMAQUINA (el registro no detalla la indicación) |
 
 ---
 
@@ -104,7 +104,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para miasis no tiene ensayos clínicos ni literatura que la respalden (nivel L5), y no existe un mecanismo biológico plausible. Además, el tratamiento estándar ya es eficaz y la primaquina no tiene registro sanitario vigente en Colombia.
+La predicción para miasis no tiene ensayos clínicos ni literatura que la respalden (nivel L5), y no existe un mecanismo biológico plausible. Además, el tratamiento estándar ya es eficaz.
 
 **Observación adicional:** entre las demás predicciones del modelo, **malaria** (uso original, con múltiples ensayos de Fase 3) y **neumocistosis** (combinación clindamicina-primaquina como alternativa de segunda línea) cuentan con evidencia clínica real y nivel L1. Ambas se clasifican como "Proceed with Guardrails". Si se busca una vía de reposicionamiento con sustento, la neumocistosis sería un candidato más razonable que la miasis.
 
@@ -112,7 +112,7 @@ La predicción para miasis no tiene ensayos clínicos ni literatura que la respa
 - Datos del mecanismo de acción que justifiquen un efecto sobre larvas de dípteros, o estudios preclínicos que lo demuestren.
 - Estudios in vitro o in vivo de actividad larvicida de la primaquina.
 - Obtener y analizar el prospecto oficial del INVIMA para completar el perfil de seguridad.
-- Verificar la disponibilidad comercial en Colombia, dado que el único registro está cancelado.
+- Verificar la disponibilidad comercial en Colombia.
 - Plan de tamizaje de G6PD y monitoreo hematológico en caso de cualquier uso futuro.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 352
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Iohexol: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: IOHEXOL"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -86,9 +86,9 @@ Actualmente no hay literatura relacionada disponible para insomnio.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20139023 (cancelado) | IOHEXOL INYECCION 300MG/ML | Solución inyectable | IOHEXOL |
+| 20139023 | IOHEXOL INYECCION 300MG/ML | Solución inyectable | IOHEXOL |
 
-El fabricante del único registro es Unique Pharmaceutical Laboratories. No hay registros vigentes.
+El fabricante del único registro es Unique Pharmaceutical Laboratories.
 
 ---
 

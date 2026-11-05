@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Rivaroxaban: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Rivaroxabán"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -50,8 +50,8 @@ Rivaroxabán es un anticoagulante oral que inhibe el factor Xa y se usa para pre
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,8 +85,6 @@ Actualmente no hay ensayos clínicos relacionados registrados para artritis reum
 
 ## Información de Mercado en Colombia
 
-Los cinco registros sanitarios están **cancelados**; no hay registros vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20233281 | Rivaroxabán 20 mg tabletas recubiertas | Tableta recubierta | Rivaroxabán |
@@ -118,7 +116,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto; consultar 
 **Decisión: Hold**
 
 **Justificación:**
-Pese al puntaje alto de TxGNN, no existen ensayos clínicos ni estudios que evalúen rivaroxabán en artritis reumatoide, y no hay un mecanismo creíble de modificación de la enfermedad. Además, no hay registros sanitarios vigentes en Colombia y falta la información de seguridad del prospecto.
+Pese al puntaje alto de TxGNN, no existen ensayos clínicos ni estudios que evalúen rivaroxabán en artritis reumatoide, y no hay un mecanismo creíble de modificación de la enfermedad. Además, falta la información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Eculizumab: nueva indicación predicha, Hematopoyesis cíclica (nivel de evidencia L5). Indicación original: ECULIZUMAB"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -105,7 +105,7 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura directa. La neutropenia cíclica no es una enfermedad mediada por complemento, y el riesgo de infección por la inhibición de C5 en pacientes neutropénicos es un problema de seguridad importante. Además, los tres registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo TxGNN (aprendizaje profundo) (L5), sin ensayos ni literatura directa. La neutropenia cíclica no es una enfermedad mediada por complemento, y el riesgo de infección por la inhibición de C5 en pacientes neutropénicos es un problema de seguridad importante.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que vincule la inhibición de C5 con la neutropenia cíclica (hoy inexistente)

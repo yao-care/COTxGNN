@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 530
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Prednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Prednisolona"
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -92,8 +92,6 @@ Es importante aclarar que el nivel L2 se basa únicamente en los títulos de la 
 | 19997234 | DIETYSOLONE PLUS SUSPENSION OFTALMICA | Suspensión oftálmica | Fenilefrina combinaciones |
 | 20071241 | PREDNISOLONA TABLETAS 5 MG | Tableta | Prednisolona |
 | 230341 | SOPHIPREN OFTENO | Suspensión oftálmica | Prednisolona |
-
-Los cuatro registros figuran como cancelados.
 
 ---
 

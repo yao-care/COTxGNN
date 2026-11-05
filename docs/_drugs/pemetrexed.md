@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PEMETREXED"
@@ -50,8 +50,8 @@ Pemetrexed es un antifolato multidiana. En los registros sanitarios de INVIMA su
 | Nueva Indicación Predicha | Pleural adenomatoid tumor |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -101,10 +101,8 @@ Una limitación importante: no existe un ensayo de Fase 3 específico para mesot
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20108592 (cancelado) | REVOTRAIN 100 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
-| 20192961 (cancelado) | AUROPEXAFAR® 500 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
-
-Actualmente no hay registros vigentes en Colombia; los dos registros existentes están cancelados.
+| 20108592 | REVOTRAIN 100 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
+| 20192961 | AUROPEXAFAR® 500 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
 
 ---
 
@@ -143,11 +141,11 @@ No se dispone del texto de advertencias del prospecto de INVIMA. Consultar el pr
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Pemetrexed + platino es el estándar en mesotelioma pleural, con respaldo de un ensayo de Fase 3. Su extrapolación al mesotelioma peritoneal cuenta con estudios de Fase 2, series retrospectivas y varios ensayos en curso. Sin embargo, no hay un ensayo de Fase 3 específico para el peritoneo, y las dos licencias colombianas están canceladas.
+Pemetrexed + platino es el estándar en mesotelioma pleural, con respaldo de un ensayo de Fase 3. Su extrapolación al mesotelioma peritoneal cuenta con estudios de Fase 2, series retrospectivas y varios ensayos en curso. Sin embargo, no hay un ensayo de Fase 3 específico para el peritoneo.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Confirmar la disponibilidad actual de pemetrexed en Colombia, dado que no hay registros vigentes.
+- Confirmar la disponibilidad actual de pemetrexed en Colombia.
 - Esperar resultados de los ensayos peritoneales en curso (NCT05001880, NCT06543069) o datos específicos de peritoneo.
 - Aplicar medidas de protección: suplementación con ácido fólico y vitamina B12, control de la función renal, revisión de interacciones (en particular con AINE) y seguimiento hematológico.
 - Datos detallados del mecanismo de acción desde DrugBank.

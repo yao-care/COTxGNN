@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: ESPIRONOLACTONA"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,14 +104,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, la patogénesis genética de la hipotricosis simple no es androgénica, por lo que el vínculo mecanístico es débil. Los registros colombianos están cancelados.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, la patogénesis genética de la hipotricosis simple no es androgénica, por lo que el vínculo mecanístico es débil.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de literatura y de registros de ensayos sobre espironolactona en hipotricosis hereditarias.
 - Evaluar la compatibilidad de vías de administración (probablemente tópica para el cuero cabelludo, frente a la forma oral disponible).
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

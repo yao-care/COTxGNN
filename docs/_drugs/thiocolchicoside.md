@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "thiocolchicoside"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,9 +85,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20083126 (cancelado) | FLEXIMAX® ACE TABLETAS RECUBIERTAS | Tableta recubierta | Paracetamol, combinaciones excluyendo psicolépticos |
-
-El único registro, fabricado por Laboratorio Franco Colombiano - Lafrancol S.A.S., está cancelado, por lo que no hay productos vigentes con este principio activo en Colombia.
+| 20083126 | FLEXIMAX® ACE TABLETAS RECUBIERTAS | Tableta recubierta | Paracetamol, combinaciones excluyendo psicolépticos |
 
 ---
 
@@ -105,14 +103,14 @@ Para el resto de información de seguridad (advertencias y contraindicaciones), 
 **Decisión: Hold**
 
 **Justificación:**
-Las predicciones (insomnio y delirium por abstinencia alcohólica) son solo de modelo (L5), sin ensayos ni literatura, con un vínculo mecanístico no evidente y posibles señales de seguridad contrarias a los efectos buscados. Además, no existe registro sanitario vigente en Colombia.
+Las predicciones (insomnio y delirium por abstinencia alcohólica) son solo de modelo (L5), sin ensayos ni literatura, con un vínculo mecanístico no evidente y posibles señales de seguridad contrarias a los efectos buscados.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank y fuentes primarias
 - Prospecto de INVIMA con advertencias y contraindicaciones
 - Revisión de la literatura sobre actividad GABA-A/glicina y riesgo convulsivo del tiocolchicósido
 - Estudios preclínicos que respalden un efecto sobre el sueño, antes de plantear ensayos clínicos
-- Evaluación de la viabilidad regulatoria, dado que el único registro está cancelado
+- Evaluación de la viabilidad regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

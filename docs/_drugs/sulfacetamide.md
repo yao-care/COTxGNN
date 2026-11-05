@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sulfacetamide: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Sulfacetamida"
 monitor_inn: "sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -90,9 +90,7 @@ En predicciones secundarias se identificaron dos publicaciones, ninguna de las c
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20022399 (cancelado) | SULFAOFTAL® 10% SOLUCIÓN OFTÁLMICA | Solución oftálmica | Sulfacetamida |
-
-El único registro sanitario existente (Laboratorios Blaskov SAS) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
+| 20022399 | SULFAOFTAL® 10% SOLUCIÓN OFTÁLMICA | Solución oftálmica | Sulfacetamida |
 
 ---
 
@@ -110,13 +108,13 @@ El único registro sanitario existente (Laboratorios Blaskov SAS) está cancelad
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y carece de plausibilidad mecanística, ya que un antibacteriano tópico no actúa sobre una vasculitis inmunomediada. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y carece de plausibilidad mecanística, ya que un antibacteriano tópico no actúa sobre una vasculitis inmunomediada.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA (advertencias y contraindicaciones), que constituye una brecha bloqueante para la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Si se desea continuar, priorizar indicaciones con mayor plausibilidad biológica (otitis externa, queratoconjuntivitis infecciosa) frente a vasculitis postinfecciosa, con revisión sistemática de la literatura y comparación con tratamientos estándar.
-- Evaluar la viabilidad regulatoria, dado que no existe registro vigente.
+- Evaluar la viabilidad regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

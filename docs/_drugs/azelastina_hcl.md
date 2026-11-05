@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Adicionalmente, existen brechas críticas de datos en mecanismo de acción, segu
 | Nueva Indicación Predicha | Sin datos (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin estudios reales ni predicción del modelo disponible |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Azelastina HCL no cuenta con registros sanitarios activos en Colombia según los datos disponibles. El campo `total_licenses` es 0 y no se recuperaron licencias en la consulta a TFDA/INVIMA del 2026-03-29.
+El campo `total_licenses` es 0 y no se recuperaron licencias en la consulta a TFDA/INVIMA del 2026-03-29.
 
 ---
 

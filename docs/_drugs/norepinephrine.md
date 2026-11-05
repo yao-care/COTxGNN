@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 471
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L4). Indicación original: Norepinefrina"
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
@@ -127,7 +127,7 @@ La predicción se apoya solo en el puntaje del modelo y en literatura mecanísti
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), ya que actualmente impide el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción (consulta a DrugBank).
 - Estudios preclínicos o de mecanismo que justifiquen un efecto beneficioso en vía aérea sin riesgo cardiovascular inaceptable.
-- Evaluar la viabilidad regulatoria y comercial, dado que no hay registros vigentes en Colombia.
+- Evaluar la viabilidad regulatoria y comercial.
 - Definir vía de administración y formulación adecuadas para el uso pulmonar, si se justificara continuar.
 ## Descargo de responsabilidad
 

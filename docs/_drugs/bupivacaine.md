@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: BUPIVACAINA"
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,9 +89,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20013329 (cancelado) | BUPINEST 0.75% PESADO | Solución inyectable | BUPIVACAINA |
+| 20013329 | BUPINEST 0.75% PESADO | Solución inyectable | BUPIVACAINA |
 
-Fabricante: Ropsohn Therapeutics S.A.S. Este es el único registro y se encuentra cancelado, por lo que actualmente no hay productos vigentes con bupivacaína en los datos compilados.
+Fabricante: Ropsohn Therapeutics S.A.S.
 
 ---
 
@@ -114,13 +114,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un bloqueador de canales de sodio y la acrodermatitis crónica atrófica, que es una enfermedad infecciosa tratada con antibióticos. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un bloqueador de canales de sodio y la acrodermatitis crónica atrófica, que es una enfermedad infecciosa tratada con antibióticos.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank).
 - Descargar y analizar el prospecto en INVIMA para obtener advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
 - Estudios preclínicos o mecanísticos que justifiquen un posible efecto en la indicación predicha.
-- Evaluar si tiene sentido continuar con esta candidata, dado que no hay registros vigentes en Colombia y que las demás predicciones del modelo tampoco tienen respaldo.
+- Evaluar si tiene sentido continuar con esta candidata, que las demás predicciones del modelo tampoco tienen respaldo.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

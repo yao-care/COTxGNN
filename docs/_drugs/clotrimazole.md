@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: CLOTRIMAZOL"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta d
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,6 @@ Actualmente no hay literatura relacionada disponible.
 | 19971011 | CUTAMYCON 500 MG (vigente) | Cápsula blanda | Clotrimazol |
 | 20018316 | DERMA Q CREMA TÓPICA (vigente) | Crema tópica | Mometasona |
 
-Ambos registros están cancelados, por lo que actualmente no hay productos vigentes en Colombia con este principio activo según los datos compilados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -106,13 +104,13 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Para acné solo existe un ensayo suspendido con una combinación de tres fármacos, sin resultados ni literatura de apoyo, y el mecanismo es especulativo. Además, no hay registros vigentes en Colombia. El alto puntaje de TxGNN no basta por sí solo para avanzar.
+Para acné solo existe un ensayo suspendido con una combinación de tres fármacos, sin resultados ni literatura de apoyo, y el mecanismo es especulativo. El alto puntaje de TxGNN no basta por sí solo para avanzar.
 
 **Para avanzar se necesita:**
 - Datos formales del mecanismo de acción y de la relación entre el efecto antimicrobiano/antiinflamatorio de clotrimazol y la fisiopatología del acné.
 - Estudios preclínicos o clínicos que aíslen el efecto de clotrimazol (sin corticoide ni antibiótico asociados).
 - Aclarar la indicación real y el diseño del ensayo NCT01244256.
-- Obtener y revisar el prospecto aprobado por INVIMA (advertencias y contraindicaciones) y definir la situación regulatoria, dado que los registros están cancelados.
+- Obtener y revisar el prospecto aprobado por INVIMA (advertencias y contraindicaciones) y definir la situación regulatoria.
 
 Se trata de un uso ya establecido y no de un reposicionamiento propiamente dicho. Su decisión asociada es *Proceed with Guardrails*, con atención a la exposición en el primer trimestre del embarazo, a especies resistentes y a la candidiasis recurrente. Si el objetivo es priorizar el candidato más sólido, conviene evaluar esa indicación por separado.
 ## Descargo de responsabilidad

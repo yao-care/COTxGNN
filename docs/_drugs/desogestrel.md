@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: Desogestrel"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, con **1 ens
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,12 +114,11 @@ Por ello, la predicción es plausible como manejo de soporte, pero no como trata
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para amenorrea es indirecta: un ensayo de Fase 3 que no confirma a desogestrel como intervención y literatura basada sobre todo en anticonceptivos combinados. Además, Colombia no tiene actualmente registros vigentes de desogestrel, y el uso propuesto es de soporte hormonal, no un tratamiento de la causa.
+La evidencia para amenorrea es indirecta: un ensayo de Fase 3 que no confirma a desogestrel como intervención y literatura basada sobre todo en anticonceptivos combinados. Además, el uso propuesto es de soporte hormonal, no un tratamiento de la causa.
 
 **Para avanzar se necesita:**
 - Confirmar si desogestrel fue parte de las intervenciones en NCT00946192 y obtener ensayos que lo evalúen específicamente en amenorrea.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones), actualmente no disponibles.
-- Aclarar la situación regulatoria: los dos registros están cancelados, por lo que sería necesaria una nueva solicitud o reactivación ante INVIMA.
 - Evaluar el perfil de seguridad frente a las contraindicaciones señaladas (riesgo tromboembólico, hipertensión, diabetes, enfermedad hepática) en la población objetivo.
 - Considerar que otra predicción del modelo, el acné (nivel L2, con un ensayo de Fase 4 y estudios clínicos con anticonceptivos combinados de desogestrel), cuenta con más respaldo, aunque también depende del componente estrogénico.
 ## Descargo de responsabilidad

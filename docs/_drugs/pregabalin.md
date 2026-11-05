@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L4). Indicación original: Pregabalina"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ Cabe destacar que la indicación con mayor respaldo entre las predichas es la **
 | Nueva Indicación Predicha | Tendinitis |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190070 (cancelado) | LIMIAR ® 150 MG CÁPSULA DURA | Cápsula dura | PREGABALINA |
+| 20190070 | LIMIAR ® 150 MG CÁPSULA DURA | Cápsula dura | PREGABALINA |
 
 ---
 
@@ -110,13 +110,13 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 **Decisión: Hold**
 
 **Justificación:**
-Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, reportes de caso y un estudio preclínico) y no hay ensayos clínicos. Además, el único registro sanitario en Colombia está cancelado, y no se dispone de advertencias ni contraindicaciones del prospecto.
+Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, reportes de caso y un estudio preclínico) y no hay ensayos clínicos. Además, no se dispone de advertencias ni contraindicaciones del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Diseñar estudios clínicos específicos de pregabalina en tendinopatía, con desenlaces sobre la patología y no solo sobre el dolor.
-- Verificar la situación regulatoria actual de pregabalina en Colombia, dado que el único registro está cancelado.
+- Verificar la situación regulatoria actual de pregabalina en Colombia.
 - **Línea alternativa:** la **migraña** (puntaje TxGNN 0.9947, nivel L2) cuenta con ECA pediátricos frente a propranolol y valproato, una red de metaanálisis y evidencia preclínica de inhibición de la depresión cortical propagada. Su único ensayo de Fase 3 (NCT00447369) fue retirado, por lo que se recomienda tratarla como pregunta de investigación que requiere estudios controlados en adultos antes de cualquier recomendación.
 - Las demás predicciones (miositis granulomatosa idiopática, miositis fibrosa, miositis por cuerpos de inclusión y migraña con aura de tronco encefálico) carecen de respaldo clínico y deben mantenerse en Hold.
 ## Descargo de responsabilidad

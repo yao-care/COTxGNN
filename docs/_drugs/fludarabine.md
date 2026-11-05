@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 291
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fludarabine: nueva indicación predicha, Mieloma de células plasmáticas (plasma cell myeloma) (nivel de evidencia L1). Indicación original: No especificada en el registro sanitario (el texto solo indi…"
 monitor_inn: "fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia, hoy cancelados; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad. El modelo TxGNN predice que podría ser efectivo para **mieloma de células plasmáticas**, con **27 ensayos clínicos** y **20 publicaciones** compilados para esta predicción. Casi toda la evidencia corresponde a su uso como parte del acondicionamiento previo a trasplantes o de la linfodepleción antes de terapia CAR-T, y no como tratamiento antimieloma directo.
+Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad. El modelo TxGNN predice que podría ser efectivo para **mieloma de células plasmáticas**, con **27 ensayos clínicos** y **20 publicaciones** compilados para esta predicción. Casi toda la evidencia corresponde a su uso como parte del acondicionamiento previo a trasplantes o de la linfodepleción antes de terapia CAR-T, y no como tratamiento antimieloma directo.
 
 ---
 
@@ -106,8 +106,8 @@ Se muestran los ensayos más relevantes de los 27 compilados (hasta 10).
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 203335 (cancelado) | FLUDARA® | Polvo liofilizado para reconstituir a solución inyectable | FLUDARABINA |
-| 20026268 (cancelado) | FLUDARABINA 50 MG INYECTABLE | Polvo liofilizado para reconstituir a solución inyectable | FLUDARABINA |
+| 203335 | FLUDARA® | Polvo liofilizado para reconstituir a solución inyectable | FLUDARABINA |
+| 20026268 | FLUDARABINA 50 MG INYECTABLE | Polvo liofilizado para reconstituir a solución inyectable | FLUDARABINA |
 
 ---
 
@@ -142,7 +142,6 @@ Existen ensayos de Fase 3 que incorporan fludarabina en la linfodepleción para 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde fuentes farmacológicas
 - Obtener y analizar el prospecto (advertencias y contraindicaciones), actualmente sin datos
-- Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vigente o una vía de importación
 - Definir el papel específico de fludarabina (linfodepleción o acondicionamiento) y su dosificación, con vigilancia de toxicidad y función renal
 - Resultados de los ensayos de Fase 3 en curso (NCT06045806, NCT07764978)
 

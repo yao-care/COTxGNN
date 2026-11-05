@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 442
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Midazolam"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,12 +112,12 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Decisión: Hold**
 
 **Justificación:**
-Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados. Además, falta la información de seguridad del prospecto, lo que impide el tamizaje de seguridad.
+Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos. Además, falta la información de seguridad del prospecto, lo que impide el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
 - Confirmar el mecanismo de acción mediante DrugBank.
-- Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada.
+- Definir la viabilidad regulatoria y comercial, no se dispone de una forma oral aprobada.
 - Evaluar alternativas ya aprobadas para insomnio, dado el perfil de interacciones y las contraindicaciones.
 - Revisar evidencia más reciente que compare midazolam oral con hipnóticos actuales.
 ## Descargo de responsabilidad

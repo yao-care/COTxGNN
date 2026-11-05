@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: nueva indicación predicha, Perioral myoclonia with absences (nivel de evidencia L5). Indicación original: RUFINAMIDA"
@@ -61,7 +61,6 @@ El modelo TxGNN (aprendizaje profundo) predice que podría ser efectivo para las
 
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información general conocida, rufinamida es un modulador de los canales de sodio dependientes de voltaje: prolonga su estado inactivo y reduce la descarga neuronal repetitiva. Está aprobada a nivel internacional para el síndrome de Lennox-Gastaut.
 
-
 Para las mioclonías perorales con ausencias (0.9951), con nivel de evidencia L5 y sin ensayos ni literatura, cabe advertir que los moduladores de canales de sodio pueden agravar algunos tipos de crisis generalizadas, en particular las ausencias.
 
 ---
@@ -108,7 +107,7 @@ El fabricante registrado es BIOTOSCANA FARMA S.A. Actualmente existe 1 registro 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, el mecanismo de acción no explica bien la fisiopatología inflamatoria del FIRES, y el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, el mecanismo de acción no explica bien la fisiopatología inflamatoria del FIRES.
 
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción desde DrugBank.

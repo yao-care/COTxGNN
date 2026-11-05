@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: SAFINAMIDA"
@@ -71,8 +71,6 @@ Otras predicciones del modelo, también solo con evidencia L5, son mielitis (0.9
 | 20202462 | ZAFIMID 100MG. TABLETAS RECUBIERTAS | Tableta | SAFINAMIDA | Vigente |
 | 20202459 | ZAFIMID® 50MG | Tableta recubierta | SAFINAMIDA | Vigente |
 
-Ambos registros pertenecen a Laboratorios Legrand S.A. y están cancelados; actualmente no hay un producto vigente con safinamida en Colombia.
-
 ## Consideraciones de Seguridad
 
 **Interacciones Farmacológicas**: se identificaron 110 interacciones en total. Entre las listadas:
@@ -87,13 +85,13 @@ No se dispone de datos de advertencias ni de contraindicaciones del prospecto. C
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literatura, y el mecanismo propuesto no aborda la causa autoinmune de la enfermedad. Además, no hay productos vigentes en Colombia y faltan datos de seguridad del prospecto.
+La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literatura, y el mecanismo propuesto no aborda la causa autoinmune de la enfermedad. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para las advertencias y contraindicaciones (brecha de seguridad bloqueante).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Buscar estudios preclínicos o series de casos de safinamida en encefalitis de Rasmussen y en las demás indicaciones predichas.
-- Evaluar la viabilidad regulatoria y comercial, dado que los registros están cancelados.
+- Evaluar la viabilidad regulatoria y comercial.
 - Valorar si neurodegeneración asociada a PLA2G6 sería una alternativa más plausible para un uso sintomático.
 ## Descargo de responsabilidad
 

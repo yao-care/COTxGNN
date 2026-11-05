@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario de tipo botrioide de la vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Rabdomiosarcoma embrionario de tipo botrioide de la vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
 | Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

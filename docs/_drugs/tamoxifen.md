@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: TAMOXIFENO"
@@ -52,8 +52,8 @@ pero solo hay **1 ensayo clínico** (de relación indirecta) y **10 publicacione
 | Nueva Indicación Predicha | Mammary Paget disease |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,8 +95,6 @@ Sin embargo, la evidencia se limita a casos clínicos, series de casos y anális
 
 ## Información de Mercado en Colombia
 
-Los tres registros sanitarios están cancelados; actualmente no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 201175 | NOLVADEX®-D Tabletas 20 mg | Tableta recubierta | Tamoxifeno (sin texto de indicación detallado) |
@@ -129,14 +127,14 @@ Los tres registros sanitarios están cancelados; actualmente no hay productos vi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es biológicamente plausible, pero la evidencia directa se limita a casos clínicos y series, sin ensayos que prueben el tamoxifeno en la enfermedad de Paget mamaria (L4). Además, no hay productos con registro vigente en Colombia.
+La predicción es biológicamente plausible, pero la evidencia directa se limita a casos clínicos y series, sin ensayos que prueben el tamoxifeno en la enfermedad de Paget mamaria (L4).
 
 Otras indicaciones predichas para este fármaco, como el carcinoma de mama in situ y el cáncer de mama con receptores de estrógeno positivos, tienen evidencia de nivel L1. Son usos oncológicos ya establecidos, no reposicionamientos nuevos.
 
 **Para avanzar se necesita:**
 - Estudios clínicos o series comparativas que evalúen el tamoxifeno en la enfermedad de Paget mamaria, idealmente estratificadas por estado de receptores hormonales.
 - Datos de mecanismo de acción y del prospecto (advertencias y contraindicaciones), con descarga del prospecto desde INVIMA.
-- Verificar la disponibilidad real del producto en Colombia, dado que los tres registros están cancelados.
+- Verificar la disponibilidad real del producto en Colombia.
 - Plan de seguridad que contemple el riesgo tromboembólico y endometrial, el metabolismo por CYP2D6 y la carga de interacciones farmacológicas.
 ## Descargo de responsabilidad
 

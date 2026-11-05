@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Mirtazapina"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -52,8 +52,8 @@ Se trata de una predicción puramente computacional.
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,8 +84,6 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 | 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Temp. no comerc - Vigente |
 | 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Vigente |
 
-Los cuatro registros son de monofármaco y están cancelados; actualmente no hay productos vigentes en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -108,7 +106,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es puramente computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre el perfil receptorial de la mirtazapina y la causa genética del síndrome de Ohdo. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción es puramente computacional (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre el perfil receptorial de la mirtazapina y la causa genética del síndrome de Ohdo.
 
 **Para avanzar se necesita:**
 - Datos oficiales del mecanismo de acción (consulta a DrugBank)

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "fluocinolone acetonide"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Fluocinolone Acetonide: nueva indicación predicha, Penfigoide liquenoide plano (lichen planus pemphigoides) (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **penfigoide liquenoide pl
 | Nueva Indicación Predicha | Penfigoide liquenoide plano (lichen planus pemphigoides) |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

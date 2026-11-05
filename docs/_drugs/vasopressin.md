@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vasopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L4). Indicación original: VASOPRESINA"
 monitor_inn: "vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -84,8 +84,6 @@ La literatura recuperada trata sobre hemofilia A adquirida, deficiencia combinad
 | 20272748 | VESAPRESYN® SOLUCIÓN INYECTABLE | Solución inyectable | VASOPRESINA |
 | 20096205 | VASOPRESINA 20 UI/1ML SOLUCIÓN INYECTABLE | Solución inyectable | VASOPRESINA |
 
-Ambos registros figuran como cancelados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -104,13 +102,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en la proximidad computacional dentro de la red de conocimiento: no hay ensayos clínicos, la literatura es indirecta y no trata la deficiencia de protrombina, y no existe un vínculo mecanístico establecido. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción se apoya únicamente en la proximidad computacional dentro de la red de conocimiento: no hay ensayos clínicos, la literatura es indirecta y no trata la deficiencia de protrombina, y no existe un vínculo mecanístico establecido.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la vasopresina para evaluar un posible vínculo con la protrombina.
 - Evidencia preclínica o clínica directa en deficiencia de protrombina.
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad (vacío bloqueante).
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 
 ---
 

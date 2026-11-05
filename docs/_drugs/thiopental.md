@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: TIOPENTAL"
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -81,9 +81,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 11878 (cancelado) | TIOPENTAL 1 G. I.V. polvo para solución inyectable | Polvo estéril para reconstituir a solución inyectable | TIOPENTAL |
-
-El único registro (fabricante: FEPARVI S.A.S.) está cancelado, por lo que actualmente no hay producto vigente con este principio activo en el registro consultado.
+| 11878 | TIOPENTAL 1 G. I.V. polvo para solución inyectable | Polvo estéril para reconstituir a solución inyectable | TIOPENTAL |
 
 ---
 
@@ -112,7 +110,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto; se recomienda
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para tricotilomanía carece de ensayos clínicos, literatura y fundamento mecanístico. Además, el único registro sanitario en Colombia está cancelado y el perfil de seguridad del fármaco (anestésico de uso hospitalario) es exigente.
+La predicción para tricotilomanía carece de ensayos clínicos, literatura y fundamento mecanístico. Además, el perfil de seguridad del fármaco (anestésico de uso hospitalario) es exigente.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y un fundamento biológico plausible para tricotilomanía.

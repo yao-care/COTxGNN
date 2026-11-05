@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lanreotide: nueva indicación predicha, Hipertricosis (enfermedad) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Lanreo…"
 monitor_inn: "lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
@@ -79,8 +79,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están **cancelados**; no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 19935650 | Somatuline Autogel 60 mg (Ipsen Pharma) | Solución inyectable | Lanreotido |
@@ -104,7 +102,7 @@ No se dispone de las advertencias ni contraindicaciones del prospecto del regist
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipertricosis es solo computacional (nivel L5): no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible. Además, ya no hay registros sanitarios vigentes en Colombia.
+La predicción para hipertricosis es solo computacional (nivel L5): no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), una brecha de seguridad bloqueante.

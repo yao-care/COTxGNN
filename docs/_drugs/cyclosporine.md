@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica autosómica recesiva (nivel de evidencia L4). Indicación original: Ciclosporina"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad granulomatosa
 | Nueva Indicación Predicha | Enfermedad granulomatosa crónica autosómica recesiva |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,8 +93,6 @@ Los 6 registros sanitarios están vigentes.
 | 51612 | Sandimmun Neoral cápsula blanda con microemulsión 50 mg | Cápsula blanda | Ciclosporina |
 | 24092 | Sandimmun concentrado para perfusión 50 mg/ml | Solución inyectable | Ciclosporina |
 
-Existe un sexto registro cancelado (19937980, Restasis emulsión oftálmica, AbbVie), que no se muestra en la tabla por el límite de cinco registros.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -111,13 +109,13 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya en un solo estudio indirecto sobre trasplante de células madre, sin ensayos clínicos, y la ciclosporina no actúa sobre el defecto de fondo de la enfermedad. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción se apoya en un solo estudio indirecto sobre trasplante de células madre, sin ensayos clínicos, y la ciclosporina no actúa sobre el defecto de fondo de la enfermedad.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción que justifiquen un vínculo con la enfermedad granulomatosa crónica.
 - Evidencia clínica directa, o confirmar si el papel de la ciclosporina se limita a la profilaxis de la enfermedad injerto contra huésped en el trasplante.
 - Obtener las advertencias y contraindicaciones del prospecto (INVIMA).
-- Aclarar la situación regulatoria en Colombia, ya que los 6 registros están cancelados.
+- Aclarar la situación regulatoria en Colombia.
 - Evaluar el perfil de seguridad (nefrotoxicidad, neurotoxicidad, hipertensión, interacciones) en pacientes pediátricos con esta enfermedad.
 ## Descargo de responsabilidad
 

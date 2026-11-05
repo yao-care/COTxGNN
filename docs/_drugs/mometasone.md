@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mometasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: Mometasona"
 monitor_inn: "mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -50,8 +50,8 @@ pero actualmente solo existen **0 ensayos clínicos** y **2 publicaciones** (amb
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
 | Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 6) |
-| Número de Registros Sanitarios | al menos 6 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,7 +83,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20205917 | RINIALER® 0.05% SPRAY NASAL | Solución para inhalación | Mometasona |
 | 20227452 | MINESTEROL 0.1% CREMA | Crema tópica | Mometasona |
 
-Nota: los 6 registros sanitarios están cancelados; no hay registros vigentes. El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas.
+El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas.
 
 ## Consideraciones de Seguridad
 

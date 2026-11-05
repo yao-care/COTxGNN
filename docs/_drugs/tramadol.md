@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tramadol: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Tramadol"
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -106,12 +106,12 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre tramadol y la displasia acromesomélica tipo Hunter-Thompson. Además, el fármaco no tiene registros sanitarios vigentes en Colombia.
+La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre tramadol y la displasia acromesomélica tipo Hunter-Thompson.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia preclínica que conecte tramadol con la vía GDF5/BMP (hoy no existe).
 - Obtener el prospecto de INVIMA para advertencias y contraindicaciones oficiales.
-- Aclarar la situación regulatoria, ya que los 3 registros están cancelados.
+- Aclarar la situación regulatoria.
 - Considerar otras indicaciones predichas con posible beneficio sintomático (por ejemplo, dolor en artritis idiopática juvenil o espondiloartropatía), con evaluación de seguridad específica, sobre todo en población pediátrica.
 ## Descargo de responsabilidad
 

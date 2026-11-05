@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **laringitis**, pero **no 
 | Nueva Indicación Predicha | Laringitis (laryngitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 0) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20166599 (cancelado) | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático |
+| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático |
 
 ---
 
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto ofici
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (0.9997), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales. Además, el único registro sanitario en Colombia está cancelado.
+La predicción de TxGNN es muy alta (0.9997), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank

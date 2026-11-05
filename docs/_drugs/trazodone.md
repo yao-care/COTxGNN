@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 641
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: TRAZODONA"
 monitor_inn: "trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Trazodona es un antidepresivo que figura en Colombia con registros sanitarios que hoy están cancelados. Según los datos compilados, su indicación original solo aparece registrada como "TRAZODONA", sin texto clínico detallado.
+Trazodona es un antidepresivo que figura en Colombia. Según los datos compilados, su indicación original solo aparece registrada como "TRAZODONA", sin texto clínico detallado.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-compulsivo (TOC)**, con **0 ensayos clínicos registrados** y **20 publicaciones** de calidad heterogénea (en su mayoría antiguas y de pequeña escala) que respaldan esta dirección.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,8 @@ Se priorizan los ensayos controlados aleatorizados (ECA), luego las revisiones y
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19960669 (cancelado) | TRAZODONA HCI 50 MG | Tableta recubierta | TRAZODONA |
-| 19903033 (cancelado) | TRITTICO A.C 150 | Tableta de liberación prolongada | TRAZODONA |
+| 19960669 | TRAZODONA HCI 50 MG | Tableta recubierta | TRAZODONA |
+| 19903033 | TRITTICO A.C 150 | Tableta de liberación prolongada | TRAZODONA |
 
 ---
 
@@ -115,7 +115,7 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Decisión: Hold**
 
 **Justificación:**
-La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es antigua, de pequeña escala y sin resultados consistentes (nivel L3). No hay ensayos registrados, y el metabolito m-CPP podría agravar síntomas del TOC. Además, no hay registros sanitarios vigentes en Colombia, y la falta de información del prospecto impide completar el tamizaje de seguridad.
+La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es antigua, de pequeña escala y sin resultados consistentes (nivel L3). No hay ensayos registrados, y el metabolito m-CPP podría agravar síntomas del TOC. Además, la falta de información del prospecto impide completar el tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
@@ -123,7 +123,7 @@ La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es an
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la evidencia más reciente frente a los inhibidores selectivos de la recaptación de serotonina, que son el tratamiento de referencia.
 - Evaluar el riesgo cardiovascular y de prolongación del QT en la población con TOC, dadas las contraindicaciones señaladas por el grafo y las interacciones mayores.
-- Aclarar la situación regulatoria, ya que los dos registros están cancelados.
+- Aclarar la situación regulatoria.
 
 ---
 

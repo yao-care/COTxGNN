@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: Hidroquinona"
 monitor_inn: "hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -52,8 +52,8 @@ pero hasta ahora solo hay **0 ensayos clínicos** y **1 publicación** (un estud
 | Nueva Indicación Predicha | Queratosis seborreica |
 | Puntaje de Predicción TxGNN | 0,9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,7 +86,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratosis se
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 48599 (cancelado) | CREMOQUINONA 5% CREMA | Crema tópica | Hidroquinona |
+| 48599 | CREMOQUINONA 5% CREMA | Crema tópica | Hidroquinona |
 
 ---
 
@@ -104,13 +104,12 @@ Consultar el prospecto para obtener información completa sobre advertencias y c
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es de nivel L4: no hay ensayos clínicos y la única publicación trata de trastornos pigmentarios en general, no de queratosis seborreica. Además, el único registro sanitario en Colombia está cancelado, y el mecanismo solo respaldaría un efecto cosmético, no una acción sobre la enfermedad.
+La evidencia es de nivel L4: no hay ensayos clínicos y la única publicación trata de trastornos pigmentarios en general, no de queratosis seborreica. Además, el mecanismo solo respaldaría un efecto cosmético, no una acción sobre la enfermedad.
 
 **Para avanzar se necesita:**
 - Estudios clínicos específicos de hidroquinona en queratosis seborreica que midan resultados clínicos y estéticos
 - Obtener y revisar el prospecto (advertencias y contraindicaciones), pues faltan datos de seguridad de la etiqueta
 - Datos detallados del mecanismo de acción
-- Aclarar la situación regulatoria en Colombia (registro cancelado; evaluar un nuevo registro o alternativas vigentes)
 - Evaluar la seguridad de uso prolongado y sobre piel con atrofia, dermatitis o telangiectasias, dadas las contraindicaciones señaladas en el grafo de conocimiento
 ## Descargo de responsabilidad
 

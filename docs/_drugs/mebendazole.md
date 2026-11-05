@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mebendazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Mebendazol"
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
@@ -92,7 +92,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos y sin vínculo mecanístico plausible con el acné. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos y sin vínculo mecanístico plausible con el acné.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA para completar la revisión de seguridad.

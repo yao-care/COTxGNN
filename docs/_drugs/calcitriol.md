@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Calcitriol: nueva indicación predicha, Deficiencia de vitamina D (término obsoleto) (nivel de evidencia L5). Indicación original: No detallada"
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
@@ -79,8 +79,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los dos registros sanitarios están **cancelados**; no hay registros vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 19934690 | Calcitriol 0.25 mcg cápsula blanda (COLMED LTDA) | Cápsula blanda | Calcitriol |
@@ -102,12 +100,12 @@ Los dos registros sanitarios están **cancelados**; no hay registros vigentes.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se apoya solo en el modelo (L5), sin ensayos ni literatura, y corresponde a un término de enfermedad obsoleto. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción principal se apoya solo en el modelo (L5), sin ensayos ni literatura, y corresponde a un término de enfermedad obsoleto.
 
 **Para avanzar se necesita:**
 - Reemplazar el término obsoleto por la entidad vigente y verificar si la predicción aporta una indicación distinta de las ya conocidas.
 - Obtener el mecanismo de acción detallado y las advertencias y contraindicaciones del prospecto en INVIMA.
-- Evaluar la reactivación o nueva solicitud de registro, dado que no hay productos vigentes.
+- Evaluar la reactivación o nueva solicitud de registro.
 
 **Nota sobre otras predicciones del mismo fármaco:**
 Entre las demás predicciones, la **hipofosfatemia raquítica hereditaria** (puntaje 0.9928) tiene el mayor respaldo: nivel L3 y recomendación *Proceed with Guardrails*. Cuenta con 2 ensayos clínicos: uno de Fase temprana 1, completado, con 16 participantes, sobre calcitriol en monoterapia en hipofosfatemia ligada al X; y uno de Fase 4, de estado desconocido, con 100 participantes, que compara dosis de vitamina D activa más fosfato. También cuenta con múltiples revisiones que describen calcitriol más fosfato como tratamiento estándar. Requiere vigilar hipercalciuria, nefrocalcinosis e hiperparatiroidismo. La **acidosis tubular renal** tiene nivel L4, con evidencia solo fisiológica y de casos, sin evidencia de que calcitriol trate la acidosis en sí.

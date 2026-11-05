@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: SALMETEROL Y FLUTICASONA"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **malformación respiratoria 
 | Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 19 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 19) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

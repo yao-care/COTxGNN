@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Desmopresina"
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
@@ -85,10 +85,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20057862 (cancelado) | HEMOSPEP | Solución inyectable | DESMOPRESINA |
-| 20080728 (cancelado) | DICPRESINA® SPRAY NASAL | Solución nasal | DESMOPRESINA |
-
-Ambos registros están cancelados y no hay registros vigentes.
+| 20057862 | HEMOSPEP | Solución inyectable | DESMOPRESINA |
+| 20080728 | DICPRESINA® SPRAY NASAL | Solución nasal | DESMOPRESINA |
 
 ---
 
@@ -110,12 +108,12 @@ Ambos registros están cancelados y no hay registros vigentes.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo cuenta con el puntaje del modelo, sin ensayos clínicos ni estudios que muestren un efecto de la desmopresina en la deficiencia de protrombina, y sin un mecanismo plausible. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción solo cuenta con el puntaje del modelo, sin ensayos clínicos ni estudios que muestren un efecto de la desmopresina en la deficiencia de protrombina, y sin un mecanismo plausible.
 
 **Para avanzar se necesita:**
 - Evidencia mecanística o clínica específica que vincule la desmopresina con la deficiencia de protrombina. Sin ella, no se recomienda continuar con esta indicación.
 - Datos de mecanismo de acción y de seguridad del prospecto (advertencias y contraindicaciones).
-- Aclarar la situación regulatoria, ya que no hay registros vigentes en Colombia.
+- Aclarar la situación regulatoria.
 - Considerar otras indicaciones predichas con mejor respaldo. La más prometedora es el **trastorno primario de liberación plaquetaria** (nivel L3, "Proceed with Guardrails"): tiene un mecanismo plausible y revisiones y estudios pediátricos que respaldan el uso de la desmopresina. Requeriría una infusión de prueba para confirmar la respuesta, monitoreo de sodio por riesgo de hiponatremia y restricción de líquidos.
 - Otras indicaciones predichas, como trombofilia hereditaria, enfermedad de von Willebrand pseudo-tipo plaquetario y síndrome de Scott, son mecanísticamente débiles o potencialmente perjudiciales.
 ## Descargo de responsabilidad

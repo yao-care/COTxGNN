@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Levodopa e inhibidor de decarboxilasa"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **neurodegeneración as
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,8 +97,6 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|------|
 | 20147960 | LEVOCAPONE 50/12.5/200 tableta recubierta | Tableta recubierta | Levodopa e inhibidor de decarboxilasa | Vigente |
 
-El único registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -121,7 +119,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, el vínculo mecanístico se limita a un posible efecto sintomático en el fenotipo parkinsoniano. No hay registros vigentes en Colombia.
+La predicción principal tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, el vínculo mecanístico se limita a un posible efecto sintomático en el fenotipo parkinsoniano.
 
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (por ejemplo, desde DrugBank).

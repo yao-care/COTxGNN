@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: Penciclovir"
 monitor_inn: "PENCICLOVIR"
 predicted_indications: ["fascioliasis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Penciclovir es un análogo nucleósido de la guanosina con actividad antiviral contra herpesvirus, comercializado en Colombia como crema tópica (registro hoy cancelado).
+Penciclovir es un análogo nucleósido de la guanosina con actividad antiviral contra herpesvirus.
 El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20205701 (cancelado) | PENCIVIRAL® CREMA | Crema tópica | PENCICLOVIR |
+| 20205701 | PENCIVIRAL® CREMA | Crema tópica | PENCICLOVIR |
 
 ---
 
@@ -98,7 +98,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral específico de herpesvirus y un parásito trematodo. Además, el único registro sanitario en Colombia está cancelado y la forma farmacéutica es tópica, lo que no es compatible con una infección hepática parasitaria.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral específico de herpesvirus y un parásito trematodo. Además, la forma farmacéutica es tópica, lo que no es compatible con una infección hepática parasitaria.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank y analizar su relación con la biología de Fasciola.

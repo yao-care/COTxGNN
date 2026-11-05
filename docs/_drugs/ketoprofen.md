@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ketoprofeno"
 monitor_inn: "ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Ketoprofeno es un antiinflamatorio no esteroideo (AINE) registrado en Colombia bajo la indicación genérica "ketoprofeno" en su único registro sanitario, hoy cancelado.
+Ketoprofeno es un antiinflamatorio no esteroideo.
 El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata de una predicción puramente computacional.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto; se recomienda
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos, literatura y plausibilidad mecanística (nivel L5), y el único registro sanitario en Colombia está cancelado. No hay base para avanzar.
+La predicción carece de ensayos, literatura y plausibilidad mecanística (nivel L5). No hay base para avanzar.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y un vínculo biológico creíble entre la inhibición de COX y la señalización CDMP1/GDF5.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L5). Indicación original: No especificada en el registro INVIMA (solo figura el nombre del prin…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Imiquimod es un inmunomodulador de uso tópico (crema) que en Colombia contó con registros sanitarios, hoy cancelados, aunque el registro no detalla la indicación aprobada.
+Imiquimod es un inmunomodulador de uso tópico (crema) que en Colombia contó con registros sanitarios, aunque el registro no detalla la indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia premaligna**, con **2 ensayos clínicos** y **9 publicaciones** que respaldan esta dirección.
 La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes) y otro terminado prematuramente con solo 9 participantes.
 
@@ -52,8 +52,8 @@ La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes)
 | Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -96,10 +96,8 @@ Cabe aclarar que este vínculo se apoya en la farmacología conocida de imiquimo
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20128548 (cancelado) | VIROSUPRIL® CREMA 3.75% | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
-| 19967737 (cancelado) | VIROSUPRIL® CREMA | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
-
-Ambos registros pertenecen a MEGALABS COLOMBIA S.A.S y están cancelados, por lo que actualmente no hay productos vigentes con imiquimod como único principio activo.
+| 20128548 | VIROSUPRIL® CREMA 3.75% | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
+| 19967737 | VIROSUPRIL® CREMA | Crema tópica | IMIQUIMOD (el registro no detalla la indicación) |
 
 ---
 
@@ -118,13 +116,13 @@ No se dispone de las advertencias del prospecto de INVIMA; se recomienda consult
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay un ensayo de Fase 3 completado en queratosis actínica y literatura que respalda el uso de imiquimod en lesiones premalignas, con un mecanismo plausible. Sin embargo, los ensayos son muy pequeños, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.
+Hay un ensayo de Fase 3 completado en queratosis actínica y literatura que respalda el uso de imiquimod en lesiones premalignas, con un mecanismo plausible. Sin embargo, los ensayos son muy pequeños, faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual es un requisito bloqueante para el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
 - Definir la lesión premaligna específica (queratosis actínica, neoplasia intraepitelial cervical, vulvar, anal) y la población objetivo, dado que el término es muy amplio.
-- Evaluar la vía regulatoria, ya que los registros actuales están cancelados.
+- Evaluar la vía regulatoria.
 - Establecer un plan de monitoreo de reacciones locales y de seguridad en mucosas, con atención a fotosensibilidad y enfermedades autoinmunes.
 
 ---

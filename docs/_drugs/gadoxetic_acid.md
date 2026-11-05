@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Gadoxetic Acid: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: Medios de contraste paramagnético (gadolinio)"
 monitor_inn: "gadoxetic acid"
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "Prinzmetal angina", "infectious bovine rhinotracheitis", "malignant catarrh", "conjunctivitis", "cytomegalovirus infection", "conjunctivitis (disease)", "thrombotic disease"]
@@ -91,7 +91,7 @@ Para la indicación principal (hipertiroidismo) no hay literatura disponible. La
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20030187 (cancelado) | PRIMOVIST® SOLUCIÓN INYECTABLE | Solución inyectable | Medios de contraste paramagnético (gadolinio) |
+| 20030187 | PRIMOVIST® SOLUCIÓN INYECTABLE | Solución inyectable | Medios de contraste paramagnético (gadolinio) |
 
 ---
 
@@ -111,7 +111,7 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto. Cons
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (L5), sin ensayos ni literatura que la sustenten, y no existe un mecanismo plausible que vincule un agente de contraste con el hipertiroidismo. Además, el único registro sanitario en Colombia está cancelado.
+La predicción es solo computacional (L5), sin ensayos ni literatura que la sustenten, y no existe un mecanismo plausible que vincule un agente de contraste con el hipertiroidismo.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (DrugBank) para confirmar la ausencia de vínculo con la vía tiroidea

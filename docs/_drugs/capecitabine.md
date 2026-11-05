@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Capecitabine: nueva indicación predicha, Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) (nivel de evidencia L5). Indicación o…"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) |
 | Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

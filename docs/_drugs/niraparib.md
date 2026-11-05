@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: nueva indicación predicha, Epiglottis neoplasm (nivel de evidencia L5). Indicación original: NIRAPARIB"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Niraparib es un inhibidor de PARP que contó con un registro sanitario en Colombia (hoy cancelado), cuyo texto de indicación solo consigna el nombre del principio activo.
+Niraparib es un inhibidor de PARP que contó con un registro sanitario en Colombia, cuyo texto de indicación solo consigna el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia quística**, con **3 ensayos clínicos** (todos en cáncer endometrial seroso o de alto grado) y **10 publicaciones** centradas sobre todo en carcinoma seroso de ovario, que respaldan esta dirección solo de forma indirecta.
 
 ---
@@ -100,7 +100,7 @@ Niraparib ya está aprobado en otros países como mantenimiento en cáncer de ov
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20213253 (cancelado) | ZEJULA® 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIRAPARIB (el registro no detalla la indicación) |
+| 20213253 | ZEJULA® 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIRAPARIB (el registro no detalla la indicación) |
 
 ---
 
@@ -132,7 +132,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es indirecta: los ensayos son de Fase 2 (uno reclutando, uno terminado con muy pocos participantes y uno retirado) y están centrados en carcinoma seroso endometrial, no en "neoplasia quística" como entidad. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad y de mecanismo de acción.
+La evidencia es indirecta: los ensayos son de Fase 2 (uno reclutando, uno terminado con muy pocos participantes y uno retirado) y están centrados en carcinoma seroso endometrial, no en "neoplasia quística" como entidad. Además, faltan datos de seguridad y de mecanismo de acción.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto del INVIMA para completar advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad).

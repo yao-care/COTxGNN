@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Loxoprofen: nueva indicación predicha, Síndrome de microftalmia colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: Loxoprofeno"
 monitor_inn: "loxoprofen"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Loxoprofeno es un antiinflamatorio no esteroideo (AINE) registrado en Colombia como tabletas de 60 mg (LOXONIN 60 MG), cuyo registro sanitario se encuentra cancelado.
+Loxoprofeno es un antiinflamatorio no esteroideo (AINE) registrado en Colombia como tabletas de 60 mg (LOXONIN 60 MG).
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de microftalmia colobomatosa con displasia rizomélica**, con un puntaje alto pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 
 ## Resumen Rápido
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 | Nueva Indicación Predicha | Síndrome de microftalmia colobomatosa con displasia rizomélica |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -58,7 +58,6 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, loxoprofeno es un profármaco AINE cuyo metabolito activo (trans-alcohol) inhibe la ciclooxigenasa 1 y 2 (COX-1 y COX-2), con efecto analgésico y antiinflamatorio.
 
 La nueva indicación es un síndrome congénito extremadamente raro, con malformaciones oculares y esqueléticas. La inhibición de COX no tiene un papel establecido en su patogenia, por lo que **los datos compilados no respaldan un vínculo mecanístico**. El puntaje de TxGNN (0.998) proviene únicamente de una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico.
-
 
 ## Evidencia de Ensayos Clínicos
 
@@ -101,13 +100,13 @@ Se trata de malformaciones congénitas de las extremidades, generalmente de orig
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo computacional, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de COX y un síndrome del desarrollo congénito. Además, el único registro sanitario está cancelado.
+La predicción se basa únicamente en el modelo computacional, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de COX y un síndrome del desarrollo congénito.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
 - Información de advertencias y contraindicaciones del prospecto de INVIMA
 - Evidencia preclínica o de literatura que sustente un vínculo biológico con la enfermedad
-- Evaluación de la vía regulatoria, dado que el registro está cancelado
+- Evaluación de la vía regulatoria
 - Evaluación de seguridad específica, dado el riesgo de los AINE en el desarrollo fetal
 ## Descargo de responsabilidad
 

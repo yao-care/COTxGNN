@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Alverine: nueva indicación predicha, Trastorno distímico (nivel de evidencia L5). Indicación original: Alverina combinaciones"
 monitor_inn: "alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -52,8 +52,8 @@ La evidencia indirecta más cercana es un estudio preclínico en ratones sobre a
 | Nueva Indicación Predicha | Trastorno distímico |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -115,14 +115,14 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para trastorno distímico se basa únicamente en el modelo (L5), sin ensayos ni literatura. Además, los dos registros sanitarios en Colombia están cancelados y faltan datos de seguridad y de mecanismo de acción.
+La predicción para trastorno distímico se basa únicamente en el modelo (L5), sin ensayos ni literatura. Además, faltan datos de seguridad y de mecanismo de acción.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de alverina (advertencias y contraindicaciones).
 - Confirmar el mecanismo de acción, en particular la actividad sobre 5-HT1A.
 - Evaluar si las indicaciones con algo de respaldo indirecto (ansiedad, depresión) son mejores candidatas que el trastorno distímico.
 - Generar evidencia preclínica y clínica específica en trastornos del ánimo.
-- Aclarar el estado regulatorio actual en Colombia, dado que no hay registros vigentes.
+- Aclarar el estado regulatorio actual en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

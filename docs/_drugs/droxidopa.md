@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Droxidopa: nueva indicación predicha, Prionopatía variablemente sensible a proteasas (nivel de evidencia L5). Indicación original: DROXIDOPA"
 monitor_inn: "DROXIDOPA"
 predicted_indications: ["variably protease-sensitive prionopathy"]
@@ -102,7 +102,7 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (L5), sin ensayos ni publicaciones, y no hay un vínculo mecanístico plausible entre la acción noradrenérgica de droxidopa y la fisiopatología priónica. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el modelo (L5), sin ensayos ni publicaciones, y no hay un vínculo mecanístico plausible entre la acción noradrenérgica de droxidopa y la fisiopatología priónica.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad.

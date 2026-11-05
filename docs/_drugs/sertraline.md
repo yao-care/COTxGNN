@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Sertraline"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L5). Indicación original: SERTRALINA"
@@ -50,8 +50,8 @@ con **1 ensayo clínico** pequeño (8 participantes) y **ninguna publicación** 
 | Nueva Indicación Predicha | Trastorno esquizotípico de la personalidad (schizotypal personality disorder) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

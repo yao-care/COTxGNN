@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 description: "Alprostadil: nueva indicación predicha, Malformación aórtica (aortic malformation) (nivel de evidencia L5). Indicación original: ALPROSTADIL"
@@ -48,8 +48,8 @@ Alprostadil es la prostaglandina E1 (PGE1), un vasodilatador que relaja el músc
 | Nueva Indicación Predicha | Malformación aórtica (aortic malformation) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

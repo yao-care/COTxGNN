@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: ITRACONAZOL"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral (los dos registros sanitarios están cancelados).
+Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un puntaje alto (0.9934), pero **sin ensayos clínicos** registrados y con **20 publicaciones** de apoyo indirecto, ninguna que demuestre eficacia contra *Pneumocystis*.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un 
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -120,13 +120,13 @@ La información de advertencias y contraindicaciones del prospecto no está disp
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios que respalden itraconazol contra la neumocistosis, y el fundamento mecanístico es débil porque *Pneumocystis* carece prácticamente de ergosterol. El puntaje alto del modelo parece reflejar una asociación de clase y de contexto clínico. Además, ambos registros sanitarios en Colombia están cancelados.
+No hay ensayos clínicos ni estudios que respalden itraconazol contra la neumocistosis, y el fundamento mecanístico es débil porque *Pneumocystis* carece prácticamente de ergosterol. El puntaje alto del modelo parece reflejar una asociación de clase y de contexto clínico.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o in vitro que demuestren actividad de itraconazol contra *Pneumocystis jirovecii*
 - Datos del mecanismo de acción y comparación con la terapia estándar (trimetoprim-sulfametoxazol)
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para el cribado de seguridad
-- Evaluar el estado regulatorio local, ya que no hay registros vigentes
+- Evaluar el estado regulatorio local
 - Evaluar los riesgos cardiovasculares (QT largo) y las interacciones en la población objetivo (VIH, trasplante)
 ## Descargo de responsabilidad
 

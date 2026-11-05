@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Losartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Losartán"
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,8 +85,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20189581 (cancelado) | SANTANIL® tableta recubierta 50 mg | Tableta recubierta | Losartán |
-| 20263318 (cancelado) | LOSAN HCT® tableta recubierta | Tableta recubierta | Losartán y diuréticos |
+| 20189581 | SANTANIL® tableta recubierta 50 mg | Tableta recubierta | Losartán |
+| 20263318 | LOSAN HCT® tableta recubierta | Tableta recubierta | Losartán y diuréticos |
 
 ---
 
@@ -105,13 +105,13 @@ Para las advertencias del prospecto, consultar el prospecto del producto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero solo la respalda un estudio en animales (L5), sin ensayos clínicos. Además, los dos registros sanitarios en Colombia están cancelados, y no hay datos de mecanismo ni de seguridad según el prospecto.
+La predicción tiene un puntaje alto, pero solo la respalda un estudio en animales (L5), sin ensayos clínicos. Además, no hay datos de mecanismo ni de seguridad según el prospecto.
 
 **Para avanzar se necesita:**
 - Datos clínicos en humanos (ensayos o estudios observacionales) de losartán en enfermedad renal hipertensiva maligna
 - Datos detallados del mecanismo de acción (MOA)
 - Advertencias y contraindicaciones del prospecto de INVIMA
-- Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia
+- Confirmar la situación regulatoria
 - Plan de monitoreo de función renal y potasio, sobre todo si hay estenosis de arteria renal
 ## Descargo de responsabilidad
 

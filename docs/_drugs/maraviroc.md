@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Maraviroc: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: MARAVIROC"
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
@@ -103,14 +103,14 @@ Consultar el prospecto para información de seguridad complementaria.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción (0.9982) se basa solo en el modelo TxGNN (aprendizaje profundo), sin ensayos clínicos ni publicaciones, y no existe un mecanismo plausible mediado por CCR5 en los síndromes MEN. Además, los registros sanitarios en Colombia están cancelados y el perfil de seguridad es relevante.
+La predicción (0.9982) se basa solo en el modelo TxGNN (aprendizaje profundo), sin ensayos clínicos ni publicaciones, y no existe un mecanismo plausible mediado por CCR5 en los síndromes MEN. Además, el perfil de seguridad es relevante.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de literatura dirigida y estudios preclínicos que evalúen el papel de CCR5 en MEN.
 - Evaluar candidatas alternativas con mayor sustento (p. ej., cáncer de mama HER2 positivo, infección por CMV) antes de invertir en esta indicación.
-- Aclarar la situación regulatoria, dado que los registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

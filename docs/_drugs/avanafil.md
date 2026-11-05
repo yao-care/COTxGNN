@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ Avanafil (DB06237) es un inhibidor selectivo de la fosfodiesterasa tipo 5 (PDE5)
 | Nueva Indicación Predicha | No disponible — TxGNN no generó predicciones en esta versión |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | No evaluable |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -72,7 +72,7 @@ Desde el conocimiento farmacológico general, Avanafil es un inhibidor selectivo
 
 ## Información de Mercado en Colombia
 
-Avanafil **no cuenta con registros sanitarios activos en Colombia (INVIMA)** a la fecha de corte del presente reporte. No se registran licencias, formas farmacéuticas aprobadas ni indicaciones locales.
+No se registran licencias, formas farmacéuticas aprobadas ni indicaciones locales.
 
 ---
 

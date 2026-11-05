@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (nivel de evidencia L5). Indicación original: Itoprida"
 monitor_inn: "itopride"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Itopride es un procinético gastrointestinal registrado en Colombia bajo el nombre comercial PRIDOT®, cuyo registro sanitario figura únicamente como cancelado.
+Itopride es un procinético gastrointestinal registrado en Colombia bajo el nombre comercial PRIDOT®.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad de Crohn del intestino delgado**,
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; es una predicción puramente computacional.
 
@@ -80,7 +80,7 @@ Todas las predicciones restantes también tienen nivel de evidencia L5, sin ensa
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20199458 (cancelado) | PRIDOT® | Tableta recubierta | Itoprida |
+| 20199458 | PRIDOT® | Tableta recubierta | Itoprida |
 
 ---
 
@@ -95,7 +95,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni literatura (nivel L5) y carece de un vínculo mecanístico plausible con la enfermedad de Crohn. Además, el único registro sanitario en Colombia está cancelado, y el uso de un procinético podría ser riesgoso en presencia de estenosis u obstrucción.
+La predicción no cuenta con ensayos clínicos ni literatura (nivel L5) y carece de un vínculo mecanístico plausible con la enfermedad de Crohn. Además, el uso de un procinético podría ser riesgoso en presencia de estenosis u obstrucción.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), indispensable para cualquier evaluación de seguridad

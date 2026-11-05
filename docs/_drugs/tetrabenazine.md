@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (nivel de evidencia L5). Indicación original: Tetrabenazina"
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
@@ -83,8 +83,8 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20034891 (cancelado) | TETMODIS | Tableta | Tetrabenazina |
-| 20203198 (cancelado) | TETRABEX® | Tableta recubierta | Tetrabenazina |
+| 20034891 | TETMODIS | Tableta | Tetrabenazina |
+| 20203198 | TETRABEX® | Tableta recubierta | Tetrabenazina |
 
 Ningún registro se encuentra vigente actualmente.
 
@@ -104,7 +104,7 @@ Ningún registro se encuentra vigente actualmente.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en un puntaje del modelo, sin ensayos clínicos, sin literatura y sin vínculo mecanístico plausible. Además, los dos registros sanitarios en Colombia están cancelados y el perfil de seguridad incluye numerosas condiciones de riesgo, incluidas hepáticas.
+La predicción se basa solo en un puntaje del modelo, sin ensayos clínicos, sin literatura y sin vínculo mecanístico plausible. Además, el perfil de seguridad incluye numerosas condiciones de riesgo, incluidas hepáticas.
 
 **Para avanzar se necesita:**
 - Obtener datos del mecanismo de acción y evaluar si existe alguna hipótesis biológica que conecte VMAT2 con la patogenia de la enfermedad renal poliquística.

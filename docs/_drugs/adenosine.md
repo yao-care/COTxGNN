@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama del haz (término obsoleto) (nivel de evidencia L5). Indicación original: ADENOSINA"
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
@@ -55,7 +55,6 @@ Como alternativa más plausible aparece la **taquicardia ventricular polimórfic
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
 | Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
-
 
 ---
 
@@ -124,14 +123,13 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal predicha (bloqueo de rama del haz) se sostiene solo en el puntaje del modelo, sin ensayos ni literatura, y corresponde a un término obsoleto de la ontología. Además, los cuatro registros sanitarios en Colombia están cancelados. La TVPC es una línea de investigación más plausible (L4), pero la evidencia se limita a un reporte de caso, con un posible uso agudo o diagnóstico y no terapéutico crónico.
+La indicación principal predicha (bloqueo de rama del haz) se sostiene solo en el puntaje del modelo, sin ensayos ni literatura, y corresponde a un término obsoleto de la ontología. La TVPC es una línea de investigación más plausible (L4), pero la evidencia se limita a un reporte de caso, con un posible uso agudo o diagnóstico y no terapéutico crónico.
 
 **Para avanzar se necesita:**
 - Aclarar si el término "bloqueo de rama del haz" corresponde a una entidad clínica vigente o a un nodo duplicado en la ontología.
 - Obtener el prospecto de INVIMA para completar la información de advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el cribado de seguridad).
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Definir si la hipótesis de TVPC se orienta a uso diagnóstico/agudo, y explorarla con revisión sistemática o estudios de series de casos.
-- Evaluar la situación regulatoria: confirmar por qué los registros fueron cancelados y si existe alternativa de acceso al producto en Colombia.
 - Revisar con cuidado las contraindicaciones del grafo de conocimiento (en especial EPOC, asma, bloqueo AV y síndrome del seno enfermo) frente a cualquier uso propuesto.
 ## Descargo de responsabilidad
 

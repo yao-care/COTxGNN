@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Terazosin: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: TERAZOSINA"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -52,8 +52,8 @@ Entre las demás predicciones, las que cuentan con algo de respaldo son **migra�
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,9 +93,9 @@ Como referencia, en otras indicaciones predichas hay evidencia limitada:
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1980002 (cancelado) | HYTRIN® TABLETAS 5 MG | Tableta | TERAZOSINA |
+| 1980002 | HYTRIN® TABLETAS 5 MG | Tableta | TERAZOSINA |
 
-Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S. No hay registros vigentes.
+Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S.
 
 ---
 
@@ -114,14 +114,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipotricosis simple del cuero cabelludo es solo del modelo (nivel L5), sin ensayos ni publicaciones, y el único registro sanitario en Colombia está cancelado. Las indicaciones con algo más de respaldo (migraña y Raynaud, nivel L3) se apoyan en estudios antiguos, pequeños y de diseño no verificado, y existen alternativas mejor establecidas.
+La predicción para hipotricosis simple del cuero cabelludo es solo del modelo (nivel L5), sin ensayos ni publicaciones. Las indicaciones con algo más de respaldo (migraña y Raynaud, nivel L3) se apoyan en estudios antiguos, pequeños y de diseño no verificado, y existen alternativas mejor establecidas.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente faltante.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Aclarar la indicación aprobada original, ya que el registro solo dice "terazosina".
 - Evaluar si conviene priorizar migraña o enfermedad de Raynaud, que tienen algo de evidencia, mediante una revisión sistemática de la literatura.
-- Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia.
+- Confirmar la situación regulatoria.
 - Definir, si se avanza, una vía de administración adecuada (probablemente tópica para el cuero cabelludo) y evaluar su viabilidad.
 ## Descargo de responsabilidad
 

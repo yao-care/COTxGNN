@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 374
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Lamivudine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (SIV) (nivel de evidencia L4). Indicación original: Lamivudina (solo y en combinaciones con abacavi…"
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios (SIV) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,8 +99,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20160000 | Delstrigo® tabletas recubiertas | Tableta recubierta | Lamivudina, tenofovir disoproxilo y doravirina |
 | 20081132 | Triumeq® 50 mg / 600 mg / 300 mg | Tableta recubierta | Lamivudina, abacavir y dolutegravir |
 
-Los cuatro registros figuran como cancelados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -117,7 +115,7 @@ Consultar el prospecto para información de seguridad adicional.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en estudios preclínicos en macacos, sin ensayos clínicos, y corresponde a un modelo animal sin aplicación terapéutica humana. Además, lamivudina no tiene registros sanitarios vigentes en Colombia.
+La predicción se apoya únicamente en estudios preclínicos en macacos, sin ensayos clínicos, y corresponde a un modelo animal sin aplicación terapéutica humana.
 
 **Para avanzar se necesita:**
 - Definir si existe un objetivo de investigación relevante (por ejemplo, uso como herramienta en modelos animales) o si la predicción debe descartarse para uso humano

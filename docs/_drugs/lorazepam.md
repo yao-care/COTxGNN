@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"LORAZE…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -50,8 +50,8 @@ Lorazepam es una benzodiazepina registrada en Colombia (productos Ativan), cuyo 
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,7 +99,7 @@ Para las epilepsias reflejas, la literatura disponible consiste sobre todo en re
 | 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
 | 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Temp. no comerc - Vigente |
 
-Ambos registros pertenecen a PFIZER S.A.S. y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia.
+Ambos registros pertenecen a PFIZER S.A.S.
 
 ---
 
@@ -127,7 +127,6 @@ La indicación principal (neoplasia del nervio trigémino) carece de ensayos, li
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío crítico que impide el tamizaje de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Si se desea explorar alternativas, tratar **insomnio** como pregunta de investigación (nivel L3, sin ensayos registrados y con uso a largo plazo desaconsejado), y las **epilepsias reflejas** (nivel L4) como extrapolación desde el uso en convulsiones generales, con medidas de control para depresión respiratoria e interacciones.
-- Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación.
 - Definir la ruta de administración requerida para cada indicación; actualmente solo existe la forma oral (tableta).
 ## Descargo de responsabilidad
 

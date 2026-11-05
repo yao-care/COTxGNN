@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dabigatran Etexilate: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: Dabigatrán etexilato"
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -50,8 +50,8 @@ Dabigatrán etexilato es un anticoagulante oral inhibidor directo de la trombina
 | Nueva Indicación Predicha | Colangitis esclerosante |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,9 +86,9 @@ Actualmente no hay ensayos clínicos relacionados registrados para colangitis es
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20188200 (cancelado) | DAGITRAN® 150 MG CAPSULAS DURAS | Cápsula dura | Dabigatrán etexilato |
-| 20195074 (cancelado) | DABIFIB® 150 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
-| 20218080 (cancelado) | NORMOLET® 110 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
+| 20188200 | DAGITRAN® 150 MG CAPSULAS DURAS | Cápsula dura | Dabigatrán etexilato |
+| 20195074 | DABIFIB® 150 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
+| 20218080 | NORMOLET® 110 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
 
 ---
 
@@ -106,14 +106,14 @@ No se encontraron interacciones farmacológicas en la consulta realizada. Consul
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para colangitis esclerosante se basa solo en el modelo (nivel L5): no hay ensayos clínicos ni literatura que evalúe dabigatrán en esta enfermedad. Además, el producto no tiene registros vigentes en Colombia.
+La predicción para colangitis esclerosante se basa solo en el modelo (nivel L5): no hay ensayos clínicos ni literatura que evalúe dabigatrán en esta enfermedad.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Estudios preclínicos que evalúen la inhibición de trombina/PAR-1 en modelos de fibrosis colestásica
 - Revisión sistemática de literatura específica sobre dabigatrán en enfermedades hepatobiliares
-- Evaluación de la viabilidad regulatoria, dado que no hay registros vigentes en Colombia
+- Evaluación de la viabilidad regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

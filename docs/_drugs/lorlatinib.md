@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lorlatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: LORLATINIB"
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -85,8 +85,6 @@ Actualmente no hay literatura relacionada disponible.
 | 20210581 | LORBRENA® 25 MG | Tableta recubierta | LORLATINIB | Vigente |
 | 20209759 | LORBRENA® 100 MG | Tableta recubierta | LORLATINIB | Vigente |
 
-Ambos registros, de Pfizer S.A.S., están cancelados; actualmente no hay registros vigentes en Colombia.
-
 ---
 
 ## Citotoxicidad
@@ -115,7 +113,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para fibromatosis gingival carece de ensayos clínicos, literatura y vínculo mecanístico plausible (nivel L5). Además, los registros sanitarios en Colombia están cancelados, lo que limita la viabilidad local.
+La predicción para fibromatosis gingival carece de ensayos clínicos, literatura y vínculo mecanístico plausible (nivel L5).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y una hipótesis biológica que vincule ALK/ROS1 con la fibromatosis gingival.

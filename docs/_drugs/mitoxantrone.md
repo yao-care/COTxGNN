@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Upper aerodigestive tract neoplasm (nivel de evidencia L5). Indicación original: MITOXANTRONA"
@@ -103,7 +103,7 @@ Hoy el interés se concentra en la formulación liposomal, con un estudio de fas
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20063702 (cancelado) | MITOXANTRONA 20 MG / 10 ML (Blau Farmacéutica Colombia S.A.S.) | Solución inyectable | MITOXANTRONA |
+| 20063702 | MITOXANTRONA 20 MG / 10 ML (Blau Farmacéutica Colombia S.A.S.) | Solución inyectable | MITOXANTRONA |
 
 ---
 
@@ -136,14 +136,14 @@ Hoy el interés se concentra en la formulación liposomal, con un estudio de fas
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen estudios históricos de fase II con resultados mixtos y, sobre todo, ensayos modernos con formulación liposomal (fase Ib completada, fase II en curso y fase III planificada) en cáncer de cabeza y cuello, en especial carcinoma nasofaríngeo. La evidencia es suficiente para continuar la evaluación, pero la eficacia aún no está confirmada en ensayos controlados, y el único registro local está cancelado.
+Existen estudios históricos de fase II con resultados mixtos y, sobre todo, ensayos modernos con formulación liposomal (fase Ib completada, fase II en curso y fase III planificada) en cáncer de cabeza y cuello, en especial carcinoma nasofaríngeo. La evidencia es suficiente para continuar la evaluación, pero la eficacia aún no está confirmada en ensayos controlados.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), una brecha bloqueante para el tamizaje de seguridad.
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Esperar los resultados de los ensayos de fase II y III con mitoxantrona liposomal; la formulación liposomal no está registrada en Colombia, por lo que habría que evaluar su disponibilidad.
 - Definir un plan de monitoreo cardíaco (LVEF), hematológico y de interacciones farmacológicas.
-- Evaluar la vía regulatoria dado que no hay registros vigentes en Colombia.
+- Evaluar la vía regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

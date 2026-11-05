@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: Denosumab"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -94,7 +94,7 @@ Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 0.9923),
 | 20052945 | XGEVA® 120 MG/1.7 ML | Solución inyectable | Denosumab | Vigente |
 | 20028103 | PROLIA® | Solución inyectable | Denosumab | Vigente |
 
-Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia.
+Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC.
 
 ---
 

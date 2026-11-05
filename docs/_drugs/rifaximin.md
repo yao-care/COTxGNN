@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). Indicación original: RIFAXIMINA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis oral**, pero
 | Nueva Indicación Predicha | Oral candidiasis |
 | Puntaje de Predicción TxGNN | 0.9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y de un mecanismo plausible, y la única literatura disponible sugiere más bien un riesgo que un beneficio. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción carece de ensayos clínicos y de un mecanismo plausible, y la única literatura disponible sugiere más bien un riesgo que un beneficio.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).

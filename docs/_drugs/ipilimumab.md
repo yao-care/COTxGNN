@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20031989 (cancelado) | YERVOY® 5 mg/ml solución inyectable para infusión intravenosa | Solución inyectable | IPILIMUMAB |
+| 20031989 | YERVOY® 5 mg/ml solución inyectable para infusión intravenosa | Solución inyectable | IPILIMUMAB |
 
 Fabricante: Bristol Myers Squibb de Colombia S.A.
 
@@ -121,13 +121,12 @@ Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y de literatura (nivel L5), no hay un vínculo mecanístico plausible con la coroideremia y existe un riesgo de toxicidad ocular. Además, el único registro sanitario en Colombia está cancelado.
+La predicción carece de ensayos clínicos y de literatura (nivel L5), no hay un vínculo mecanístico plausible con la coroideremia y existe un riesgo de toxicidad ocular.
 
 **Para avanzar se necesita:**
 - Datos preclínicos o mecanísticos que justifiquen un papel de CTLA-4 en la coroideremia.
 - Descripción detallada del mecanismo de acción.
 - Advertencias y contraindicaciones del prospecto del INVIMA.
-- Verificar el estado del registro (solo cancelado) y la indicación aprobada real.
 
 ## Descargo de responsabilidad
 

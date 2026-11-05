@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar**
 | Nueva Indicación Predicha | Hipertensión pulmonar |
 | Puntaje de Predicción TxGNN | 0.9918 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -126,13 +126,13 @@ Consultar el prospecto para advertencias y contraindicaciones, ya que no se disp
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Establecer una hipótesis mecanística sobre la vía RET en la vasculatura pulmonar, con estudios preclínicos que la respalden.
-- Aclarar la disponibilidad del fármaco en Colombia, dado que los registros están cancelados.
+- Aclarar la disponibilidad del fármaco en Colombia.
 - Evaluar la relación beneficio-riesgo, en particular los efectos cardiovasculares, antes de considerar un uso no oncológico.
 ## Descargo de responsabilidad
 

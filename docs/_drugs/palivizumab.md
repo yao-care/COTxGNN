@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: PALIVIZUMAB"
@@ -86,7 +86,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20094809 | SYNAGIS® 100 MG solución para inyección | Solución inyectable | Palivizumab | Vigente |
 | 20085777 | SYNAGIS 50 MG solución para inyección | Solución inyectable | Palivizumab | Vigente |
 
-Ambos registros pertenecen a AstraZeneca Colombia S.A.S. y están cancelados, por lo que actualmente no hay productos vigentes con este principio activo.
+Ambos registros pertenecen a AstraZeneca Colombia S.A.S.
 
 ---
 
@@ -103,7 +103,7 @@ No se encontraron interacciones farmacológicas registradas, y no hay contraindi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule la neutralización de la proteína F del VSR con tumores benignos de la lengua. Además, el fármaco no tiene registros vigentes en Colombia.
+La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule la neutralización de la proteína F del VSR con tumores benignos de la lengua.
 
 **Para avanzar se necesita:**
 - Documentar el mecanismo de acción del fármaco (por ejemplo, consultando DrugBank) y analizar si existe algún vínculo biológico con la nueva indicación.

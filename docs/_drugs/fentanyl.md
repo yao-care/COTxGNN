@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fentanyl: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Fent…"
 monitor_inn: "fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo 
 - Datos del mecanismo de acción desde DrugBank
 - Prospecto de INVIMA con advertencias y contraindicaciones
 - Evidencia preclínica o de mecanismo que vincule la vía opioide con la función del receptor AVPR2
-- Revisión de la factibilidad regulatoria, dado que no hay registros vigentes
+- Revisión de la factibilidad regulatoria
 - Evaluación de la segunda predicción (síndrome de Tourette, puntaje 0.9905, también nivel L5 y Hold) solo si surge evidencia nueva
 ## Descargo de responsabilidad
 

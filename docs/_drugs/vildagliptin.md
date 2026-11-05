@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: METFORMINA / VILDAGLIPTINA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez 
 | Nueva Indicación Predicha | Focal stiff limb syndrome |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 17) |
+| Número de Registros Sanitarios | 17 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,7 +100,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0.9988), pero no cuenta con ensayos clínicos ni literatura, y no hay un mecanismo plausible que vincule la inhibición de DPP-4 con esta enfermedad. Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto (0.9988), pero no cuenta con ensayos clínicos ni literatura, y no hay un mecanismo plausible que vincule la inhibición de DPP-4 con esta enfermedad.
 
 **Nota:** Entre las predicciones compiladas para este fármaco, la diabetes mellitus tipo 1 tiene la evidencia más sólida (nivel L2). Incluye 7 ensayos clínicos, entre ellos un ensayo Fase 3 pequeño de estado desconocido (NCT01559025, n=44) y un ECA doble ciego de rapamicina más vildagliptina (PMID 33124663). Si se busca una vía de reposicionamiento con respaldo real, esa indicación merece una evaluación aparte.
 
@@ -109,7 +109,7 @@ La predicción tiene un puntaje alto (0.9988), pero no cuenta con ensayos clíni
 - Una hipótesis mecanística plausible que conecte la inhibición de DPP-4 con la patología del síndrome de rigidez focal
 - Revisión de la literatura específica sobre el síndrome de rigidez de extremidad y fármacos incretínicos
 - Descarga y análisis del prospecto de INVIMA para completar el tamizaje de seguridad
-- Un plan regulatorio, dado que el registro sanitario está cancelado
+- Un plan regulatorio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

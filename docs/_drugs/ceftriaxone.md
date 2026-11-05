@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ceftriaxone: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: CEFTRIAXONA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **hiperamilasemia (hyperamyla
 | Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0.9939 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

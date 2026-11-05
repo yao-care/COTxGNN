@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 183
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
 monitor_inn: "cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -50,8 +50,8 @@ con **10 ensayos clínicos** y **5 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Síndrome de dolor miofascial |
 | Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 9) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,13 +105,13 @@ Esta relación está respaldada por ensayos aleatorizados: uno en distensión mi
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Hay ensayos aleatorizados que respaldan el uso de ciclobenzaprina en dolor miofascial (distensión aguda y dolor mandibular), y varios ensayos de fase 3 completados con ciclobenzaprina sublingual en un cuadro relacionado (fibromialgia). Sin embargo, la evidencia directa en síndrome de dolor miofascial es limitada, la evidencia de fase 3 es indirecta, y ambos registros sanitarios en Colombia están cancelados, además de existir contraindicaciones cardíacas, oculares y hepáticas relevantes.
+Hay ensayos aleatorizados que respaldan el uso de ciclobenzaprina en dolor miofascial (distensión aguda y dolor mandibular), y varios ensayos de fase 3 completados con ciclobenzaprina sublingual en un cuadro relacionado (fibromialgia). Sin embargo, la evidencia directa en síndrome de dolor miofascial es limitada, la evidencia de fase 3 es indirecta, además de existir contraindicaciones cardíacas, oculares y hepáticas relevantes.
 
 **Para avanzar se necesita:**
 - Ensayos controlados específicos de ciclobenzaprina en síndrome de dolor miofascial, con desenlaces claros de dolor y función
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad
 - Datos formales del mecanismo de acción de DrugBank
-- Aclarar la vía regulatoria en Colombia, dado que no hay registros vigentes (nuevo registro o reactivación)
+- Aclarar la vía regulatoria en Colombia
 - Plan de seguridad para pacientes con glaucoma, arritmias o bloqueos cardíacos, hipertiroidismo o insuficiencia hepática, y para el uso concomitante con fármacos serotoninérgicos, opioides y anticolinérgicos
 
 ---

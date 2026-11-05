@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Evolocumab: nueva indicación predicha, Forma sintomática de hemofilia en mujeres portadoras (nivel de evidencia L5). Indicación original: Evolocumab"
 monitor_inn: "EVOLOCUMAB"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
@@ -95,8 +95,6 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|------|
 | 20087350 | REPATHA® 140 MG/ML | Solución inyectable | EVOLOCUMAB | Vigente |
 
-El único registro sanitario (fabricante: Amgen Manufacturing Limited LLC) está cancelado, por lo que actualmente no hay producto vigente en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -112,7 +110,7 @@ Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dis
 **Decisión: Hold**
 
 **Justificación:**
-Las seis indicaciones predichas carecen de ensayos clínicos y de literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de PCSK9 y la hemofilia en portadoras. Además, el único registro sanitario en Colombia está cancelado.
+Las seis indicaciones predichas carecen de ensayos clínicos y de literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de PCSK9 y la hemofilia en portadoras.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío de información bloqueante para el tamizaje de seguridad

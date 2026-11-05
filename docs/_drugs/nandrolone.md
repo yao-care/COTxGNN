@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L4). Indicación original: NANDROLONA"
 monitor_inn: "nandrolone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fetal erythroblastosis", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "renal osteodystrophy"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Nandrolona es un esteroide anabólico androgénico que contaba con un registro sanitario en Colombia, actualmente cancelado, cuyo texto de indicación solo dice "NANDROLONA".
+Nandrolona es un esteroide anabólico androgénico que contaba con un registro sanitario en Colombia, cuyo texto de indicación solo dice "NANDROLONA".
 El modelo TxGNN predice que podría ser efectivo para **enfermedad fibroquística de la mama**, pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** de 1964 que no se puede verificar con estándares actuales.
 
 ---
@@ -63,7 +63,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Históricamente, los andrógenos se usaron en enfermedad benigna de la mama porque podrían reducir el estímulo hormonal ovárico e hipofisario sobre el tejido mamario. Esto da un vínculo plausible, pero no verificado. La única referencia clínica es un artículo de 1964 sobre tratamiento médico de displasias mamarias.
 
-Además, el producto está cancelado en el mercado y los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna. Las demás predicciones del modelo (displasia mamaria benigna, adenosis, absceso mamario, necrosis grasa, eritroblastosis fetal, enfermedad de la lactancia) tienen evidencia nula o un fundamento mecanístico débil, y varias parecen artefactos del modelo TxGNN (aprendizaje profundo). Entre las candidatas, la **osteodistrofia renal** es biológicamente la más plausible (efecto anabólico sobre hueso y músculo, eritropoyesis), aunque sin evidencia en los datos compilados y con alertas de seguridad en enfermedad renal crónica.
+Además, los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna. Las demás predicciones del modelo (displasia mamaria benigna, adenosis, absceso mamario, necrosis grasa, eritroblastosis fetal, enfermedad de la lactancia) tienen evidencia nula o un fundamento mecanístico débil, y varias parecen artefactos del modelo TxGNN (aprendizaje profundo). Entre las candidatas, la **osteodistrofia renal** es biológicamente la más plausible (efecto anabólico sobre hueso y músculo, eritropoyesis), aunque sin evidencia en los datos compilados y con alertas de seguridad en enfermedad renal crónica.
 
 ---
 
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19912744 (cancelado) | DECA - DURABOLIN® 50 MG | Solución inyectable | NANDROLONA |
+| 19912744 | DECA - DURABOLIN® 50 MG | Solución inyectable | NANDROLONA |
 
 ---
 
@@ -104,13 +104,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero la evidencia se limita a un artículo histórico de 1964 sin verificación posible (L4). El producto está cancelado en Colombia y el perfil de seguridad androgénico es desfavorable para una enfermedad benigna. La osteodistrofia renal podría plantearse como pregunta de investigación separada.
+La predicción tiene un puntaje alto en TxGNN, pero la evidencia se limita a un artículo histórico de 1964 sin verificación posible (L4). El perfil de seguridad androgénico es desfavorable para una enfermedad benigna. La osteodistrofia renal podría plantearse como pregunta de investigación separada.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Búsqueda sistemática de literatura moderna (ensayos controlados, revisiones) sobre andrógenos en enfermedad benigna de la mama.
-- Evaluar la relación beneficio-riesgo frente a las alternativas actuales y la viabilidad regulatoria, dado que el registro está cancelado.
+- Evaluar la relación beneficio-riesgo frente a las alternativas actuales y la viabilidad regulatoria.
 - Si se explora osteodistrofia renal, revisar la evidencia en enfermedad renal crónica y la seguridad (retención de líquidos, lípidos, hepatotoxicidad).
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 366
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Ketoconazol"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Ketoconazol es un antifúngico azólico autorizado en Colombia en tabletas orales y en champú, cuyos tres registros sanitarios están hoy cancelados.
+Ketoconazol es un antifúngico azólico autorizado en Colombia en tabletas orales y en champú.
 El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidencia es limitada: **1 ensayo clínico** (formulación tópica, sin resultados) y **publicaciones mayormente indirectas**, sin estudios clínicos sólidos que respalden esta dirección.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidenc
 | Nueva Indicación Predicha | Acné |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,9 +98,9 @@ La mayoría de estas publicaciones aportan respaldo indirecto (mecanismo, contex
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 24579 (cancelado) | KETOCONAZOL 200 MG TABLETAS | Tableta | Ketoconazol |
-| 20153361 (cancelado) | CHAMPÚ KETONOVA | Emulsión (champú) | Ketoconazol |
-| 19999481 (cancelado) | BEXON DUO® CÁPSULAS BLANDAS VAGINALES | Cápsula blanda | Clindamicina combinaciones |
+| 24579 | KETOCONAZOL 200 MG TABLETAS | Tableta | Ketoconazol |
+| 20153361 | CHAMPÚ KETONOVA | Emulsión (champú) | Ketoconazol |
+| 19999481 | BEXON DUO® CÁPSULAS BLANDAS VAGINALES | Cápsula blanda | Clindamicina combinaciones |
 
 ---
 
@@ -119,7 +119,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya sobre todo en el puntaje computacional y en evidencia indirecta (laboratorio y contexto), con un solo ensayo pequeño de formulación tópica sin resultados. Además, los tres registros colombianos están cancelados y el perfil de seguridad sistémico es desfavorable.
+La predicción se apoya sobre todo en el puntaje computacional y en evidencia indirecta (laboratorio y contexto), con un solo ensayo pequeño de formulación tópica sin resultados. Además, el perfil de seguridad sistémico es desfavorable.
 
 **Para avanzar se necesita:**
 - Resultados del ensayo NCT07237763 y, de ser posible, ensayos controlados con placebo de ketoconazol tópico en acné.

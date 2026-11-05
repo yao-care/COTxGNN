@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Misoprostol"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20189624 (cancelado) | MISO-CARE 200 MCG TABLETA | Tableta (oral) | MISOPROSTOL |
+| 20189624 | MISO-CARE 200 MCG TABLETA | Tableta (oral) | MISOPROSTOL |
 
 ---
 
@@ -116,13 +116,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es principalmente computacional: no hay ensayos clínicos y la literatura recuperada no estudia misoprostol como tratamiento de la amenorrea. Además, el único registro sanitario en Colombia está cancelado y hay preocupaciones de seguridad, incluida la teratogenicidad.
+La predicción es principalmente computacional: no hay ensayos clínicos y la literatura recuperada no estudia misoprostol como tratamiento de la amenorrea. Además, hay preocupaciones de seguridad, incluida la teratogenicidad.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para conocer advertencias y contraindicaciones oficiales.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la literatura para identificar estudios que evalúen misoprostol específicamente como tratamiento de la amenorrea.
-- Evaluar la viabilidad regulatoria, dado que no hay registro vigente en Colombia.
+- Evaluar la viabilidad regulatoria.
 - Definir un plan de seguridad que contemple la exclusión del embarazo y los riesgos cardiovasculares y hepáticos señalados.
 
 ---

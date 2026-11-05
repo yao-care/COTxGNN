@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L4). Indicación original: Sulfametoxazol y trimetoprim"
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
@@ -52,8 +52,8 @@ con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta 
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,8 +89,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20077704 | MEDIPRIM F SUSPENSION (vigente) | Suspensión oral | Sulfametoxazol y trimetoprim |
 | 19985112 | MEDIPRIM F (R) TABLETA (vigente) | Tableta | Sulfametoxazol y trimetoprim |
 
-Ambos registros figuran como cancelados; no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -116,7 +114,7 @@ La predicción se apoya únicamente en el modelo y en un estudio de susceptibili
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evidencia clínica directa sobre la eficacia de sulfametoxazol (o su combinación) en conjuntivitis bacteriana
 - Evaluación de la compatibilidad de vías de administración (probable formulación oftálmica tópica frente a las formas orales registradas)
-- Análisis de viabilidad regulatoria y comercial dado que no hay registros vigentes
+- Análisis de viabilidad regulatoria y comercial
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

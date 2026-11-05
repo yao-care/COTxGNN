@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **estenosis anorrectal**, 
 | Nueva Indicación Predicha | Estenosis anorrectal |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 215439 (cancelado) | CERNEVIT® | Polvo liofilizado para reconstituir a solución inyectable | Multivitaminas y elementos traza |
+| 215439 | CERNEVIT® | Polvo liofilizado para reconstituir a solución inyectable | Multivitaminas y elementos traza |
 
 ---
 
@@ -107,7 +107,7 @@ Para el resto de la información de seguridad, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura para estenosis anorrectal, y el único registro sanitario en Colombia está cancelado. Además, el producto aprobado es un multivitamínico inyectable, cuya vía y formulación no se corresponden de forma evidente con la indicación predicha.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura para estenosis anorrectal. Además, el producto aprobado es un multivitamínico inyectable, cuya vía y formulación no se corresponden de forma evidente con la indicación predicha.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)

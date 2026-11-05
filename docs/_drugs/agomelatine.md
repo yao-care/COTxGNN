@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Agomelatine: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: AGOMELATINA"
 monitor_inn: "Agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 | Nueva Indicación Predicha | Tortícolis paroxística benigna de la infancia |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -111,7 +111,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad y el único registro sanitario en Colombia está cancelado. No hay base para avanzar.
+La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad. No hay base para avanzar.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) y una hipótesis biológica que relacione los receptores MT1/MT2/5-HT2C con la fisiopatología de la enfermedad

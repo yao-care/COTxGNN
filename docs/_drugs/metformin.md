@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 434
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Metformin: nueva indicación predicha, Síndrome de la persona rígida clásico (nivel de evidencia L5). Indicación original: METFORMINA"
 monitor_inn: "Metformin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la perso
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásico |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,13 +113,13 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo computacional (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico establecido. Además, el único registro sanitario en Colombia está cancelado y la indicación original no está detallada.
+La predicción se basa solo en el modelo computacional (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico establecido. Además, la indicación original no está detallada.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito para la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Buscar y verificar literatura preclínica o clínica sobre metformina en síndrome de la persona rígida (considerando el sesgo por la comorbilidad con diabetes tipo 1).
-- Aclarar la indicación original aprobada y la situación regulatoria actual, dado que no hay registros vigentes.
+- Aclarar la indicación original aprobada y la situación regulatoria actual.
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original (actualmente pendientes).
 ## Descargo de responsabilidad
 

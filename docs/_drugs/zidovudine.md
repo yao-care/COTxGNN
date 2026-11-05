@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Zidovudina"
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -132,7 +132,7 @@ La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin e
 - Datos del mecanismo de acción (MOA) desde fuentes como DrugBank
 - Advertencias y contraindicaciones del prospecto en INVIMA
 - Revisar la toxicidad hematológica reportada en gatos (PMID 2163339)
-- Considerar, como alternativa, las otras indicaciones predichas con mayor respaldo clínico: **VIH congénito** y **complejo relacionado con el SIDA** (nivel L1, ensayos de Fase 3 completados, recomendación "Proceed with Guardrails"). Corresponden a usos históricos ya establecidos del VIH y no a un reposicionamiento novedoso. Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna y estado de mercado cancelado
+- Considerar, como alternativa, las otras indicaciones predichas con mayor respaldo clínico: **VIH congénito** y **complejo relacionado con el SIDA** (nivel L1, ensayos de Fase 3 completados, recomendación "Proceed with Guardrails"). Corresponden a usos históricos ya establecidos del VIH y no a un reposicionamiento novedoso. Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

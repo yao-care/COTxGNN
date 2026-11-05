@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: HEPARINA"
 ---
 
@@ -50,8 +50,8 @@ Actualmente no hay ensayos clínicos ni publicaciones que respalden esta predicc
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency, autosomal recessive) |
 | Puntaje de Predicción TxGNN | 0.9929 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

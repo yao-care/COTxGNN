@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Se requiere completar la recolección de datos antes de poder avanzar con cualqu
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | **No aplica** — sin predicciones ni estudios asociados |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 14) |
 | Decisión Recomendada | **Hold** |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro INVIMA (el texto solo repite \"RISANKIZ…"
 monitor_inn: "risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -98,9 +98,9 @@ El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, no prueba 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20193278 (cancelado) | SKYRIZI® 150 MG/ML | Solución inyectable | RISANKIZUMAB (el registro no detalla la indicación) |
+| 20193278 | SKYRIZI® 150 MG/ML | Solución inyectable | RISANKIZUMAB (el registro no detalla la indicación) |
 
-Fabricante: ABBVIE S.A.S. Actualmente no hay registros vigentes en Colombia.
+Fabricante: ABBVIE S.A.S.
 
 ---
 
@@ -121,14 +121,13 @@ Consultar el prospecto para advertencias y contraindicaciones, ya que no están 
 **Decisión: Hold**
 
 **Justificación:**
-Existe un único ensayo de Fase 2 en dermatitis atópica, y el fundamento mecanístico es débil porque la enfermedad depende principalmente de la vía Th2. Además, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, lo que impide avanzar a un cribado de seguridad.
+Existe un único ensayo de Fase 2 en dermatitis atópica, y el fundamento mecanístico es débil porque la enfermedad depende principalmente de la vía Th2. Además, faltan datos de seguridad del prospecto, lo que impide avanzar a un cribado de seguridad.
 
 **Para avanzar se necesita:**
 - Revisar los resultados publicados de NCT03706040 (PMID 36588137) antes de hacer cualquier inferencia positiva.
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante).
 - Consultar DrugBank para obtener el mecanismo de acción.
 - Definir subtipos específicos de dermatitis donde exista un fundamento IL-23/Th17 (por ejemplo, acrodermatitis continua de Hallopeau) en lugar de "dermatitis" en general.
-- Aclarar la situación regulatoria del registro cancelado y la viabilidad de reintroducción en Colombia.
 - Las demás indicaciones predichas (dermatomiositis, acrodermatitis crónica atrófica, entre otras) son de nivel L5, sin ensayos ni literatura, y se mantienen en Hold.
 ## Descargo de responsabilidad
 

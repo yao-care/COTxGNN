@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 559
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rifapentine: nueva indicación predicha, Lepra (nivel de evidencia L3). Indicación original: Rifapentin"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Rifapentina es un antibiótico de la familia de las rifamicinas. En Colombia su único registro sanitario (hoy cancelado) lo consigna simplemente como "Rifapentin", sin una indicación detallada.
+Rifapentina es un antibiótico de la familia de las rifamicinas. En Colombia su único registro sanitario lo consigna simplemente como "Rifapentin", sin una indicación detallada.
 El modelo TxGNN predice que podría ser efectivo para **lepra**, con **0 ensayos clínicos registrados** y **20 publicaciones**. Entre ellas hay un ensayo aleatorizado de profilaxis posexposición en contactos domiciliarios y varios estudios preclínicos.
 
 ---
@@ -96,8 +96,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|-----------|
 | 20242586 | RIFANIL-INH® Tabletas Recubiertas (Vesalius Pharma S.A.S.) | Tableta recubierta | RIFAPENTIN |
 
-Este registro figura como **cancelado**. Actualmente no hay productos con rifapentina vigentes en Colombia según los datos compilados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -116,13 +114,12 @@ Este registro figura como **cancelado**. Actualmente no hay productos con rifape
 **Decisión: Hold**
 
 **Justificación:**
-La plausibilidad mecanística es sólida y existe un ensayo aleatorizado de profilaxis posexposición. Sin embargo, no hay ensayos clínicos registrados, el soporte restante es mayormente preclínico, y la evidencia queda en L3. Además, el único registro sanitario local está cancelado y faltan los datos de seguridad del prospecto, por lo que no es posible avanzar con garantías.
+La plausibilidad mecanística es sólida y existe un ensayo aleatorizado de profilaxis posexposición. Sin embargo, no hay ensayos clínicos registrados, el soporte restante es mayormente preclínico, y la evidencia queda en L3. Además, faltan los datos de seguridad del prospecto, por lo que no es posible avanzar con garantías.
 
 **Para avanzar se necesita:**
 - Obtener y analizar los resultados completos del ensayo de dosis única en contactos domiciliarios (NEJM 2023).
 - Descargar el prospecto del INVIMA para completar advertencias y contraindicaciones, lo que bloquea el tamizaje de seguridad.
 - Confirmar los datos formales de mecanismo de acción en DrugBank.
-- Aclarar la situación regulatoria del registro cancelado y la disponibilidad actual de rifapentina en Colombia.
 - Definir el esquema posológico y los riesgos de interacciones, en especial hepatotoxicidad y fármacos concomitantes, antes de cualquier uso en lepra.
 ## Descargo de responsabilidad
 

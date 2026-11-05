@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Venetoclax: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto apr…"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
@@ -84,7 +84,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para este subtipo 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20139971 (cancelado) | VENCLEXTA® 100 MG TABLETA RECUBIERTA (ABBVIE S.A.S.) | Tableta recubierta | Solo consigna el nombre del principio activo ("Venetoclax"), sin indicación detallada |
+| 20139971 | VENCLEXTA® 100 MG TABLETA RECUBIERTA (ABBVIE S.A.S.) | Tableta recubierta | Solo consigna el nombre del principio activo ("Venetoclax"), sin indicación detallada |
 
 Venetoclax está comercializado en Colombia y tiene 1 registro vigente de 1 en total.
 
@@ -143,7 +143,7 @@ En Colombia, venetoclax está comercializado y tiene 1 registro vigente de 1 en 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias, contraindicaciones e indicaciones aprobadas) para completar la evaluación de seguridad.
 - Obtener datos detallados del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: el registro está cancelado y el texto de indicación no detalla el uso aprobado.
+- Aclarar la situación regulatoria: el texto de indicación no detalla el uso aprobado.
 - Reorientar el análisis hacia candidatos con evidencia clínica específica, como linfoma folicular (L2) o leucemia mieloide crónica BCR-ABL1 positiva (L2). La leucemia mieloide (L1) ya es un uso clínico establecido.
 - Diseñar un plan de monitoreo para síndrome de lisis tumoral, citopenias e interacciones con inhibidores de CYP3A.
 ## Descargo de responsabilidad

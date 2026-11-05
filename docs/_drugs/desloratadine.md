@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Desloratadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: DESLORATADINA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9987 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | al menos 7 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

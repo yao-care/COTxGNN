@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: Fibrinógeno humano"
 monitor_inn: "fibrinogen human"
 predicted_indications: ["hemoglobinopathy"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Hemoglobinopatía |
 | Puntaje de Predicción TxGNN | 0.9912 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20150730 (cancelado) | FIBRYGA® | Polvo estéril para reconstituir a solución inyectable | Fibrinógeno humano |
+| 20150730 | FIBRYGA® | Polvo estéril para reconstituir a solución inyectable | Fibrinógeno humano |
 | 20059137 (cancelado) | TACHOSIL® | Esponja medicada | Combinaciones |
 
 ---
@@ -109,7 +109,7 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA.
 - Revisión de literatura sobre fibrinógeno y estados protrombóticos en hemoglobinopatías, con evaluación del riesgo trombótico.
 - Definir si existe una hipótesis clínica concreta (p. ej., manejo de sangrado perioperatorio) distinta del tratamiento de la hemoglobinopatía.
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: LURASIDONA"
@@ -52,8 +52,8 @@ con **1 ensayo clínico** (retirado, sin participantes) y **20 publicaciones** q
 | Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No hay evidencia clínica directa de lurasidona en manía bipolar: el único ensayo fue retirado sin participantes, y la evidencia sólida de la literatura se centra en la depresión bipolar. Además, los tres registros sanitarios en Colombia están cancelados y la información de seguridad del prospecto no está disponible.
+No hay evidencia clínica directa de lurasidona en manía bipolar: el único ensayo fue retirado sin participantes, y la evidencia sólida de la literatura se centra en la depresión bipolar. Además, la información de seguridad del prospecto no está disponible.
 
 **Para avanzar se necesita:**
 - Replantear la pregunta de investigación hacia la **depresión bipolar**, donde la evidencia es más sólida, o generar datos específicos en manía aguda.

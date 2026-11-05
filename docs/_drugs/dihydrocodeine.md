@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dihydrocodeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: DIHIDROCODEINA"
 monitor_inn: "dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
@@ -115,7 +115,6 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank).
-- Aclarar la indicación original real de los registros cancelados y el motivo de su cancelación.
 - Realizar una revisión sistemática de la literatura sobre dihidrocodeína en enfermedades de la cavidad nasal y vías respiratorias superiores.
 - Evaluar la compatibilidad de vías de administración y la relación riesgo-beneficio frente a alternativas establecidas.
 - Considerar si otras predicciones (por ejemplo, laringofaringitis aguda) tienen una justificación sintomática más clara antes de priorizar esta.

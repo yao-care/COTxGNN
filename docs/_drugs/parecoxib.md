@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Parecoxib es un inhibidor selectivo de la COX-2 administrado por vía inyectable. Su registro sanitario en Colombia no detalla una indicación específica (solo repite el nombre del fármaco), y actualmente está cancelado.
+Parecoxib es un inhibidor selectivo de la COX-2 administrado por vía inyectable. Su registro sanitario en Colombia no detalla una indicación específica (solo repite el nombre del fármaco).
 El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **0 ensayos clínicos registrados** y **1 publicación clínica** (un estudio piloto comparativo) que respaldan esta dirección.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9955 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20255458 (cancelado) | Parecoxib 40 mg polvo estéril para reconstituir a solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | PARECOXIB (sin indicación detallada) |
+| 20255458 | Parecoxib 40 mg polvo estéril para reconstituir a solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | PARECOXIB (sin indicación detallada) |
 
 ---
 
@@ -104,7 +104,7 @@ Como referencia general (no proviene de la etiqueta): los inhibidores selectivos
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y tamaño no están verificados, sin ensayos registrados. Además, el producto es solo inyectable y su único registro sanitario en Colombia está cancelado, lo que limita la aplicabilidad práctica.
+La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y tamaño no están verificados, sin ensayos registrados. Además, el producto es solo inyectable, lo que limita la aplicabilidad práctica.
 
 **Para avanzar se necesita:**
 - Verificar el diseño, tamaño y resultados del estudio PMID 21996647

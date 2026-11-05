@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: RIBOCICLIB"
 monitor_inn: "ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,9 +87,7 @@ Nota: el segundo resultado recuperado (PMID 41641105, reporte de caso de adenoca
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20115059 (cancelado) | KISQALI 200 MG TABLETAS RECUBIERTAS | Tableta recubierta | RIBOCICLIB |
-
-El único registro sanitario (titular: Novartis Pharma A.G.) figura como cancelado, por lo que actualmente no hay registro vigente en Colombia.
+| 20115059 | KISQALI 200 MG TABLETAS RECUBIERTAS | Tableta recubierta | RIBOCICLIB |
 
 ---
 
@@ -117,7 +115,7 @@ El único registro sanitario (titular: Novartis Pharma A.G.) figura como cancela
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin ensayos clínicos registrados, y el producto no tiene registro sanitario vigente en Colombia. Además, la toxicidad hematológica de ribociclib exige cautela en neoplasias mieloides.
+La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin ensayos clínicos registrados. Además, la toxicidad hematológica de ribociclib exige cautela en neoplasias mieloides.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y su relación con la biología de la leucemia mieloide

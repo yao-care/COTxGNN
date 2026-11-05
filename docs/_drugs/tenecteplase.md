@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). Indicación original: TENECTEPLASA"
@@ -63,7 +63,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 El infarto posteroinferior es un subtipo anatómico del infarto de miocardio. El uso establecido de tenecteplasa en infarto con elevación del ST es general y no específico de un subtipo. Por ello, esta predicción debe entenderse como un subconjunto de una indicación ya existente, y no como un reposicionamiento realmente novedoso.
 
-
 ### Otras indicaciones predichas (referencia)
 
 | Indicación predicha | Puntaje TxGNN | Nivel de evidencia | Comentario |
@@ -110,7 +109,7 @@ Para advertencias y contraindicaciones, consultar el prospecto. Por su mecanismo
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni literatura específica para infarto de miocardio posteroinferior (nivel L5). La predicción parece corresponder a un subtipo de una indicación ya conocida, y el único registro sanitario en Colombia está cancelado.
+No hay ensayos clínicos ni literatura específica para infarto de miocardio posteroinferior (nivel L5). La predicción parece corresponder a un subtipo de una indicación ya conocida.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto con advertencias y contraindicaciones

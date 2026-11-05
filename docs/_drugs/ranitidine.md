@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). Indicación original: RANITIDINA"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **perforación de úlcera 
 | Nueva Indicación Predicha | Perforación de úlcera péptica (peptic ulcer perforation) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

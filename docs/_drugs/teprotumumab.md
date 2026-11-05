@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Teprotumumab: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo repite el nomb…"
 monitor_inn: "TEPROTUMUMAB"
 predicted_indications: ["monosomy X", "esophageal varices without bleeding", "esophageal varices with bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Teprotumumab es un anticuerpo monoclonal anti-IGF-1R que contó con un registro sanitario en Colombia (TEPEZZA®), actualmente cancelado; en los datos compilados la indicación aprobada figura solo como el nombre del fármaco, sin texto descriptivo.
+Teprotumumab es un anticuerpo monoclonal anti-IGF-1R que contó con un registro sanitario en Colombia (TEPEZZA®); en los datos compilados la indicación aprobada figura solo como el nombre del fármaco, sin texto descriptivo.
 El modelo TxGNN predice que podría ser efectivo para **monosomía X** (síndrome de Turner), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ---
@@ -71,7 +71,7 @@ El puntaje alto (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y pued
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20234945 (cancelado) | TEPEZZA® 500MG (AMGEN BIOTECNOLOGICA S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | TEPROTUMUMAB |
+| 20234945 | TEPEZZA® 500MG (AMGEN BIOTECNOLOGICA S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | TEPROTUMUMAB |
 
 ---
 
@@ -86,7 +86,7 @@ El puntaje alto (0.9979) proviene del modelo TxGNN (aprendizaje profundo) y pued
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo (bloqueo de IGF-1R) iría en contra de la terapia de crecimiento usada en síndrome de Turner. El único registro sanitario en Colombia está cancelado.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo (bloqueo de IGF-1R) iría en contra de la terapia de crecimiento usada en síndrome de Turner.
 
 **Para avanzar se necesita:**
 - Revisión del mecanismo de acción y de un posible vínculo biológico con la monosomía X, o priorizar otras predicciones con mejor sustento

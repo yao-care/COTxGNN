@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Adalimumab: nueva indicación predicha, hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: ADALIMUMAB"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | hipermovilidad del coxis (hypermobility of coccyx) |
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

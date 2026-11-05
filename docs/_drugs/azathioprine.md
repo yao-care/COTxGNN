@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: AZATIOPRINA"
@@ -111,8 +111,6 @@ Varios ensayos de Fase 3 fueron terminados antes de tiempo o tienen inscripción
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20141515 | AZATIOPRINA 50 MG TABLETA RECUBIERTA | Tableta recubierta | AZATIOPRINA |
@@ -157,7 +155,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y un ensayo reciente (ACTIVE, 2025) que respaldan el uso de azatioprina en EII y colitis ulcerosa, con mecanismo bien establecido. Sin embargo, es un uso ya consolidado más que un reposicionamiento nuevo, varios ensayos de Fase 3 fueron terminados prematuramente y el medicamento está comercializado en Colombia, con 4 registros sanitarios vigentes de 4.
 
 **Para avanzar se necesita:**
-- Verificar la disponibilidad real del producto en Colombia, dado que no hay registros vigentes (renovar o tramitar un nuevo registro).
+- Verificar la disponibilidad real del producto en Colombia.
 - Obtener las advertencias y contraindicaciones del prospecto desde INVIMA, lo cual es un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Implementar un plan de seguridad: genotipificación TPMT/NUDT15, hemograma y pruebas hepáticas periódicas, y vigilancia de infecciones y neoplasias.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Dienogest y etinilestradiol"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **zinc plasmático elevado
 | Nueva Indicación Predicha | Zinc plasmático elevado |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ Consultar el prospecto para la información completa de advertencias y contraind
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos clínicos ni literatura, y la indicación predicha es un hallazgo de laboratorio sin dirección terapéutica definida. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos clínicos ni literatura, y la indicación predicha es un hallazgo de laboratorio sin dirección terapéutica definida.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad

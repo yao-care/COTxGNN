@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 217
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Diazepam"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Se muestran las publicaciones más relevantes para insomnio (se excluyeron traba
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20019151 (cancelado) | Diazepam solución inyectable 10 mg/2 mL (Laboratorio Biosano S.A.) | Solución inyectable | Diazepam |
+| 20019151 | Diazepam solución inyectable 10 mg/2 mL (Laboratorio Biosano S.A.) | Solución inyectable | Diazepam |
 
 ---
 
@@ -115,7 +115,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo GABAérgico es coherente con el insomnio, pero no hay ensayos clínicos registrados ni estudios que demuestren eficacia específica de diazepam; la literatura se orienta más a reducir el uso de benzodiacepinas. Además, el único registro sanitario en Colombia está cancelado y la indicación aprobada es inespecífica.
+El mecanismo GABAérgico es coherente con el insomnio, pero no hay ensayos clínicos registrados ni estudios que demuestren eficacia específica de diazepam; la literatura se orienta más a reducir el uso de benzodiacepinas. Además, la indicación aprobada es inespecífica.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del registro INVIMA (advertencias y contraindicaciones oficiales), una brecha de datos bloqueante.

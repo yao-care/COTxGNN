@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Aspartic Acid: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: Aminoácidos"
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Acidosis Tubular Renal**
 | Nueva Indicación Predicha | Acidosis tubular renal |
 | Puntaje de Predicción TxGNN | 0.9947 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,7 +90,7 @@ Ninguna de estas publicaciones evalúa el ácido aspártico como tratamiento de 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20086182 (cancelado) | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
+| 20086182 | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
 
 ---
 
@@ -110,7 +110,7 @@ La presencia de enfermedad renal entre las contraindicaciones del grafo es espec
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (L5): no hay ensayos clínicos, la literatura disponible no evalúa el fármaco como tratamiento, y el mecanismo propuesto es contrario a lo esperado (un aminoácido ácido en una enfermedad de acidosis). Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya únicamente en el puntaje del modelo (L5): no hay ensayos clínicos, la literatura disponible no evalúa el fármaco como tratamiento, y el mecanismo propuesto es contrario a lo esperado (un aminoácido ácido en una enfermedad de acidosis).
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística creíble que justifique el uso en acidosis tubular renal, ya que actualmente no existe.

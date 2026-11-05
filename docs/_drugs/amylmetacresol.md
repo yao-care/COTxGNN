@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 57
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Amylmetacresol: nueva indicación predicha, Síndrome de la cauda equina (nivel de evidencia L5). Indicación original: Dicloro­bencil alcohol"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -71,9 +71,9 @@ Otras predicciones del modelo muestran el mismo patrón. Las principales son vej
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20209766 (cancelado) | ADVITABS® TABLETAS | Tableta (vía oral) | Dicloro­bencil alcohol |
+| 20209766 | ADVITABS® TABLETAS | Tableta (vía oral) | Dicloro­bencil alcohol |
 
-El fabricante es HALEON COLOMBIA S.A.S. No hay registros vigentes en el país.
+El fabricante es HALEON COLOMBIA S.A.S.
 
 ---
 
@@ -88,7 +88,7 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible, y el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank)

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Temozolomide: nueva indicación predicha, Neoplasia de la cauda equina (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto indica únicamente \"TEMOZOLOM…"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda eq
 | Nueva Indicación Predicha | Neoplasia de la cauda equina |
 | Puntaje de Predicción TxGNN | 0,9930 |
 | Nivel de Evidencia | L5 (un reporte de caso sobre ependimoma mixopapilar espinal, tumor típico de la cauda equina) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

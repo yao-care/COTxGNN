@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 167
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). Indicación original: CLOBAZAM"
@@ -52,8 +52,8 @@ pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre 
 | Nueva Indicación Predicha | Febrile infection-related epilepsy syndrome |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ No se dispone de advertencias ni contraindicaciones de prospecto; consultar el p
 **Decisión: Hold**
 
 **Justificación:**
-La predicción del modelo es muy alta (0.9982), pero no hay ensayos clínicos y la literatura disponible es indirecta (otros fármacos, series y reportes de caso). Además, clobazam no tiene registros vigentes en Colombia y faltan datos de seguridad del prospecto.
+La predicción del modelo es muy alta (0.9982), pero no hay ensayos clínicos y la literatura disponible es indirecta (otros fármacos, series y reportes de caso). Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), lo que actualmente bloquea el tamizaje de seguridad.

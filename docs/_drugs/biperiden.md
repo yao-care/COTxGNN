@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 108
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Biperiden: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Biperideno"
 monitor_inn: "biperiden"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "progressive supranuclear palsy-corticobasal syndrome", "paralysis agitans, juvenile, of Hunt", "Lewy body dementia", "attention deficit-hyperactivity disorder", "X-linked intellectual disability-ataxia-apraxia syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **encefalitis subaguda de 
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,14 +104,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto; se debe consu
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un antagonista muscarínico y una enfermedad autoinmune mediada por linfocitos T. Además, el fármaco no tiene registros sanitarios vigentes en Colombia.
+La predicción es solo computacional (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre un antagonista muscarínico y una enfermedad autoinmune mediada por linfocitos T.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto aprobado (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evidencia preclínica o clínica que justifique un papel de la vía colinérgica en la encefalitis de Rasmussen.
 - Revisar las otras predicciones del modelo con más sustento biológico (por ejemplo, formas de parkinsonismo, como el parkinsonismo juvenil), que tampoco cuentan hoy con evidencia directa.
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

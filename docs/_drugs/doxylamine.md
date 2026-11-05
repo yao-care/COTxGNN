@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Doxylamine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: DOXILAMINA. COMBINACIONES"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **enfermedad de la cavidad na
 | Nueva Indicación Predicha | enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0,9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción

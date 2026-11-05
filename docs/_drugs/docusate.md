@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Docusate: nueva indicación predicha, Síndrome de Plummer-Vinson (nivel de evidencia L5). Indicación original: Sodio docusato"
 monitor_inn: "docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
@@ -90,14 +90,13 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico plausible y con el único registro sanitario colombiano cancelado.
+La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción del docusato desde DrugBank y evaluar si existe algún vínculo biológico con el síndrome de Plummer-Vinson.
 - Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
 - Realizar una revisión de literatura y de registros de ensayos clínicos que confirme la ausencia o presencia de estudios.
 - Evaluar la compatibilidad de vías de administración y la similitud con la indicación original (actualmente pendientes).
-- Considerar que el fármaco no tiene registros vigentes en Colombia, lo que implicaría un nuevo trámite regulatorio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

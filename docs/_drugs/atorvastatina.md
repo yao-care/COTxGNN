@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Con **0 ensayos clínicos**, **0 publicaciones** y **0 registros sanitarios colo
 | Nueva Indicación Predicha | Sin predicciones TxGNN generadas |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios cargados en el pack) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -81,7 +81,7 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-El pack carece de los insumos mínimos para una evaluación de reposicionamiento: no hay predicciones TxGNN, no hay datos de seguridad procesados y el registro regulatorio colombiano muestra 0 licencias. No se puede emitir ninguna recomendación clínica o comercial con la información actual.
+El pack carece de los insumos mínimos para una evaluación de reposicionamiento: no hay predicciones TxGNN, no hay datos de seguridad procesados. No se puede emitir ninguna recomendación clínica o comercial con la información actual.
 
 **Para avanzar se necesita:**
 

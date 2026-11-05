@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vincristine: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **anomalías vertebrales c
 | Nueva Indicación Predicha | Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and T-cell dysfunction) |
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

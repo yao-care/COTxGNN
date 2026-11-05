@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: QUETIAPINA"
@@ -52,8 +52,8 @@ Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofi
 | Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold (con la tricotilomanía como pregunta de investigación) |
 
 ---
@@ -93,7 +93,7 @@ Los tipos de estudio se infirieron únicamente a partir de los títulos; no se r
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20115222 (cancelado) | QUEPINA 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | QUETIAPINA |
+| 20115222 | QUEPINA 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | QUETIAPINA |
 
 ---
 
@@ -116,13 +116,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia disponible para tricotilomanía se limita a reportes de caso y revisiones (nivel L4), sin ensayos clínicos registrados, y con una señal contradictoria de exacerbación obsesivo-compulsiva. El único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto, por lo que no es posible avanzar a un cribado de seguridad. Las demás predicciones de mayor puntaje (por ejemplo, distrofia retiniana, trastornos congénitos de la glicosilación, hidranencefalia) solo tienen predicción computacional (L5) y ningún vínculo mecanístico plausible.
+La evidencia disponible para tricotilomanía se limita a reportes de caso y revisiones (nivel L4), sin ensayos clínicos registrados, y con una señal contradictoria de exacerbación obsesivo-compulsiva. Faltan datos de seguridad del prospecto, por lo que no es posible avanzar a un cribado de seguridad. Las demás predicciones de mayor puntaje (por ejemplo, distrofia retiniana, trastornos congénitos de la glicosilación, hidranencefalia) solo tienen predicción computacional (L5) y ningún vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar los textos completos de los reportes de caso y las revisiones para confirmar su diseño real.
-- Verificar la situación comercial actual de quetiapina en Colombia, ya que el único registro está cancelado.
+- Verificar la situación comercial actual de quetiapina en Colombia.
 - Evaluar, si se continúa, un estudio piloto o una revisión sistemática comparativa frente a tratamientos establecidos para tricotilomanía, con un plan de monitoreo metabólico, cardiovascular y hematológico.
 ## Descargo de responsabilidad
 
