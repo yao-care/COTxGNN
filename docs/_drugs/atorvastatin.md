@@ -50,7 +50,7 @@ con **14 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9931 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

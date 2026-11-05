@@ -47,7 +47,7 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0.99
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 0 |
 | Nivel de evidencia | No aplica |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 
 ## Usos conocidos entre los candidatos del modelo

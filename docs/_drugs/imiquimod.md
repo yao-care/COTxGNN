@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Imiquimod es un inmunomodulador de uso tópico (crema) que en Colombia contó con registros sanitarios, aunque el registro no detalla la indicación aprobada.
+Imiquimod es un inmunomodulador de uso tópico (crema).
 El modelo TxGNN predice que podría ser efectivo para **neoplasia premaligna**, con **2 ensayos clínicos** y **9 publicaciones** que respaldan esta dirección.
 La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes) y otro terminado prematuramente con solo 9 participantes.
 

@@ -50,7 +50,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0,9945 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

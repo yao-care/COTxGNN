@@ -52,7 +52,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 | Nueva Indicación Predicha | Colobomatous microphthalmia-rhizomelic dysplasia syndrome |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

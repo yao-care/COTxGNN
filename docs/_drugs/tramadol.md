@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

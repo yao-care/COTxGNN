@@ -41,7 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | PARACETAMOL |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 
 ---

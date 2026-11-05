@@ -52,7 +52,7 @@ Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofi
 | Nueva Indicación Predicha | Retinal dystrophy with or without extraocular anomalies |
 | Puntaje de Predicción TxGNN | 0.9957 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold (con la tricotilomanía como pregunta de investigación) |
 

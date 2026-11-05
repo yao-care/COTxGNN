@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Minociclina es un antibiótico de la familia de las tetraciclinas. En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero el texto de la indicación aprobada solo repite el nombre del fármaco, por lo que no se conoce la indicación original específica.
+Minociclina es un antibiótico de la familia de las tetraciclinas. El texto de la indicación aprobada solo repite el nombre del fármaco, por lo que no se conoce la indicación original específica.
 El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**, aunque actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ---

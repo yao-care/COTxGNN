@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

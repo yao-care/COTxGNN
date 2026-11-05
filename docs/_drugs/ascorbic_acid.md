@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **malformación esofág
 | Nueva Indicación Predicha | Malformación esofágica no sindrómica (non-syndromic esophageal malformation) |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

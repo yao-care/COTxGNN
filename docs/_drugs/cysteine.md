@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-La cisteína es un aminoácido que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición (NUMETA® G 19% E), cuya indicación aprobada figura solo como "combinaciones".
+La cisteína es un aminoácido, cuya indicación aprobada figura solo como "combinaciones".
 El modelo TxGNN predice que podría ser efectiva para el **síndrome de ojo seco**, pero **no hay ensayos clínicos** y la literatura recuperada es casi toda preclínica o indirecta (formulaciones con derivados de cisteína, mecanismos de estrés oxidativo).
 La evidencia es débil y se considera una pregunta de investigación.
 

@@ -51,7 +51,7 @@ Esta predicción coincide con la práctica clínica actual, por lo que podría n
 | Nueva Indicación Predicha | Beta-ketothiolase deficiency |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

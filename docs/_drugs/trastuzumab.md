@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Trastuzumab es un anticuerpo monoclonal que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en combinación con pertuzumab.
+Trastuzumab es un anticuerpo monoclonal.
 El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma de mama tipo normal (normal breast-like)**, pero solo hay **1 ensayo clínico** (aún sin reclutar, y de otro fármaco) y **1 publicación** (sobre morfología de otro subtipo) relacionados, por lo que la evidencia directa es prácticamente nula.
 
 ---

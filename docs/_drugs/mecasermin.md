@@ -38,7 +38,6 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Mecasermina (IGF-1 recombinante) se comercializó en Colombia bajo la marca Increlex®, con un registro sanitario cuyo texto de indicación solo dice "MECASERMINA".
 El modelo TxGNN predice que podría ser efectivo para **monosomía X (síndrome de Turner)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción computacional con plausibilidad mecanística indirecta.
 
 ---

@@ -48,7 +48,7 @@ Levonorgestrel es un progestágeno sintético que se usa en anticoncepción horm
 | Nueva Indicación Predicha | Acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-La mesalazina (ácido 5-aminosalicílico) es un antiinflamatorio intestinal que en Colombia contó con registros sanitarios bajo el nombre del principio activo; en la literatura se utiliza para la colitis ulcerosa y otras enfermedades inflamatorias intestinales.
+La mesalazina (ácido 5-aminosalicílico) es un antiinflamatorio intestinal; en la literatura se utiliza para la colitis ulcerosa y otras enfermedades inflamatorias intestinales.
 El modelo TxGNN predice que podría ser efectivo para **hipotricosis congénita con distrofia macular juvenil**,
 pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es solo una predicción computacional.
 

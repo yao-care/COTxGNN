@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

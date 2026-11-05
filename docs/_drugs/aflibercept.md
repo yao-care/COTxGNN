@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Aflibercept es una proteína de fusión recombinante que actúa como "trampa" del VEGF y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®); en el registro sanitario, la indicación aprobada figura únicamente con el nombre del principio activo.
+Aflibercept es una proteína de fusión recombinante que actúa como "trampa" del VEGF; en el registro sanitario, la indicación aprobada figura únicamente con el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ---

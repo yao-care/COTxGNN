@@ -50,7 +50,7 @@ AMLODIPINO es un fármaco de la clase de bloqueadores de canales de calcio, reco
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | N/D |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | **Hold** |
 

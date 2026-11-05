@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **migraña** (puntaje 0.99
 | Nueva Indicación Predicha | Manic bipolar affective disorder |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

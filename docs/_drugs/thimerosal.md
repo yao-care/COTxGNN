@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Tiomersal (timerosal) es un compuesto organomercurial utilizado como antiséptico tópico y conservante; en Colombia contó con un registro sanitario para una solución tópica.
+Tiomersal (timerosal) es un compuesto organomercurial utilizado como antiséptico tópico y conservante.
 El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del cuero cabelludo**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 Se trata de una señal puramente computacional, sin plausibilidad biológica identificada.
 

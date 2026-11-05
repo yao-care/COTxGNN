@@ -50,7 +50,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Campailla-Martinelli |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

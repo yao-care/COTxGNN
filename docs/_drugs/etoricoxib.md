@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

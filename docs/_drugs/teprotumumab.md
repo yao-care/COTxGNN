@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Teprotumumab es un anticuerpo monoclonal anti-IGF-1R que contó con un registro sanitario en Colombia (TEPEZZA®); en los datos compilados la indicación aprobada figura solo como el nombre del fármaco, sin texto descriptivo.
+Teprotumumab es un anticuerpo monoclonal anti-IGF-1R; en los datos compilados la indicación aprobada figura solo como el nombre del fármaco, sin texto descriptivo.
 El modelo TxGNN predice que podría ser efectivo para **monosomía X** (síndrome de Turner), pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ---

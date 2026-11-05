@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 | Nueva Indicación Predicha | Hipertricosis universal congénita tipo Ambras |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

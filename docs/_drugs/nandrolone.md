@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Nandrolona es un esteroide anabólico androgénico que contaba con un registro sanitario en Colombia, cuyo texto de indicación solo dice "NANDROLONA".
+Nandrolona es un esteroide anabólico androgénico.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad fibroquística de la mama**, pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** de 1964 que no se puede verificar con estándares actuales.
 
 ---

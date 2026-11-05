@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Clobazam es una benzodiazepina (1,5-benzodiazepina) que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico; el texto de indicación registrado se limita al nombre del principio activo.
+Clobazam es una benzodiazepina (1,5-benzodiazepina); el texto de indicación registrado se limita al nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**,
 pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre otros fármacos) y **0 ensayos clínicos** que se relacionan con esta dirección.
 

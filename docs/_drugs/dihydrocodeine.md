@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-La dihidrocodeína es un analgésico opioide con actividad antitusiva; en Colombia contaba con registros sanitarios cuyo texto de indicación solo dice "DIHIDROCODEINA", sin detallar el uso aprobado.
+La dihidrocodeína es un analgésico opioide con actividad antitusiva.
 El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción: es únicamente una predicción computacional.
 
 ---

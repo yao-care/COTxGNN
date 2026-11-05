@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-El metotrexato es un antifolato que en Colombia tuvo registros sanitarios, sin que el texto de indicación aprobada detalle un uso específico más allá del nombre del producto.
+El metotrexato es un antifolato.
 El modelo TxGNN predice que podría ser efectivo para **blastoma pulmonar**, pero para esta predicción principal **no hay ensayos clínicos ni publicaciones** que la respalden.
 Entre las demás predicciones, las que cuentan con más soporte son el **rabdomiosarcoma** y el **linfoma de Hodgkin**, descritas más abajo.
 

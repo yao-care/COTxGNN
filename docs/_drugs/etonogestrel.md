@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Etonogestrel es un progestágeno que en Colombia contó con un registro sanitario como sistema de liberación (anillo), clasificado como "progestágeno+estrógeno".
+Etonogestrel es un progestágeno.
 El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero actualmente hay **0 ensayos clínicos** y **1 publicación** (sin relación real con el tema) que respaldan esta dirección.
 
 ---

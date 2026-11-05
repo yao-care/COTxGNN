@@ -52,7 +52,7 @@ Los datos de seguridad, mecanismo de accion y registros sanitarios en Colombia p
 | Nueva Indicacion Predicha | Sin datos (predicted_indications vacio) |
 | Puntaje de Prediccion TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin prediccion ni estudios reales en este pack |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decision Recomendada | **Hold** |
 

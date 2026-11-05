@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trandolapril es un inhibidor de la ECA: bloquea la conversión de angiotensina I en angiotensina II, con lo que reduce la vasoconstricción y la presión arterial. Su uso en hipertensión está ampliamente establecido, y fue comercializado en Colombia en combinación con un bloqueador de canales de calcio.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trandolapril es un inhibidor de la ECA: bloquea la conversión de angiotensina I en angiotensina II, con lo que reduce la vasoconstricción y la presión arterial. Su uso en hipertensión está ampliamente establecido.
 
 En la hipertensión renovascular, la activación del sistema renina-angiotensina es una vía central, por lo que bloquear este sistema es biológicamente plausible. Sin embargo, los inhibidores de la ECA conllevan un riesgo conocido de deterioro agudo de la función renal en la estenosis bilateral de la arteria renal, lo que exige cautela.
 

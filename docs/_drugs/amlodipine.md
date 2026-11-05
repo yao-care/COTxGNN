@@ -52,7 +52,7 @@ La evidencia más sólida de todo el análisis corresponde a otra indicación pr
 | Nueva Indicación Predicha | Infarto del tronco encefálico (brain stem infarction) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

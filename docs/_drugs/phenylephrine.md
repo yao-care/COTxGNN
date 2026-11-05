@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 

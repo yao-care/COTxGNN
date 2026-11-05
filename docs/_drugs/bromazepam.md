@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Bromazepam es una benzodiazepina que contó con registros sanitarios en Colombia, cuya indicación registrada figura solo con el nombre del propio principio activo.
+Bromazepam es una benzodiazepina, cuya indicación registrada figura solo con el nombre del propio principio activo.
 El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección.
 
 ---

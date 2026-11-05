@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Diclofenaco es un antiinflamatorio no esteroideo (AINE) que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50).
+Diclofenaco es un antiinflamatorio no esteroideo (AINE).
 El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juvenil**, con **0 ensayos clínicos** y **14 publicaciones** (en su mayoría estudios pequeños, antiguos y de baja calidad) que respaldan de forma limitada esta dirección.
 
 ---

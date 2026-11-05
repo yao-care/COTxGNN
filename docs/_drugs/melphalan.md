@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Melfalán es un agente alquilante antineoplásico que en Colombia contó con registros sanitarios de la sustancia "melphalan". El modelo TxGNN predice que podría ser efectivo para **tumor de células germinales gonadal**, con **7 ensayos clínicos** y **1 publicación** de relevancia muy limitada. Los ensayos evalúan regímenes de quimioterapia combinada a dosis altas, por lo que el aporte propio del melfalán no puede aislarse.
+Melfalán es un agente alquilante antineoplásico. El modelo TxGNN predice que podría ser efectivo para **tumor de células germinales gonadal**, con **7 ensayos clínicos** y **1 publicación** de relevancia muy limitada. Los ensayos evalúan regímenes de quimioterapia combinada a dosis altas, por lo que el aporte propio del melfalán no puede aislarse.
 
 ---
 

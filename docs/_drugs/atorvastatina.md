@@ -52,7 +52,7 @@ Con **0 ensayos clínicos**, **0 publicaciones** y **0 registros sanitarios colo
 | Nueva Indicación Predicha | Sin predicciones TxGNN generadas |
 | Puntaje de Predicción TxGNN | — |
 | Nivel de Evidencia | L5 (sin estudios cargados en el pack) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | **Hold** |
 

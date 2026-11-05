@@ -38,7 +38,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Bupropión es un fármaco antidepresivo de liberación prolongada que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®).
+Bupropión es un fármaco antidepresivo de liberación prolongada.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad (TDAH)**,
 con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaciones** que actualmente respaldan esta dirección.
 

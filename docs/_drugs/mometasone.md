@@ -50,7 +50,7 @@ pero actualmente solo existen **0 ensayos clínicos** y **2 publicaciones** (amb
 | Nueva Indicación Predicha | Linfoma cutáneo primario de células T |
 | Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

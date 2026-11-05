@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Niraparib es un inhibidor de PARP que contó con un registro sanitario en Colombia, cuyo texto de indicación solo consigna el nombre del principio activo.
+Niraparib es un inhibidor de PARP.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia quística**, con **3 ensayos clínicos** (todos en cáncer endometrial seroso o de alto grado) y **10 publicaciones** centradas sobre todo en carcinoma seroso de ovario, que respaldan esta dirección solo de forma indirecta.
 
 ---

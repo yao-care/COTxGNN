@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-El carbonato de litio contaba en Colombia con registros sanitarios para su uso como litio (la indicación aprobada se registra solo como "LITIO"). El modelo TxGNN predice que podría ser efectivo para **pseudoacondroplasia**, pero actualmente no hay **ningún ensayo clínico** ni **publicaciones** que respalden específicamente esta indicación; se trata de una predicción puramente computacional.
+El modelo TxGNN predice que podría ser efectivo para **pseudoacondroplasia**, pero actualmente no hay **ningún ensayo clínico** ni **publicaciones** que respalden específicamente esta indicación; se trata de una predicción puramente computacional.
 
 ---
 

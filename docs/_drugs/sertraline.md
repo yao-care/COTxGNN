@@ -50,7 +50,7 @@ con **1 ensayo clínico** pequeño (8 participantes) y **ninguna publicación** 
 | Nueva Indicación Predicha | Trastorno esquizotípico de la personalidad (schizotypal personality disorder) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Flucitosina es un antimicótico que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura únicamente como "FLUCITOSINA".
+Flucitosina es un antimicótico.
 El modelo TxGNN predice que podría ser efectivo para la **enfermedad ósea de Paget**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
 
 ---

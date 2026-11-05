@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Pralatrexato es un antifolato citotóxico que inhibe la enzima dihidrofolato reductasa (DHFR). En Colombia contó con un registro sanitario, cuyo texto de indicación solo dice "PRALATREXATO". En el ámbito internacional se usa para el linfoma periférico de células T en recaída o refractario.
+Pralatrexato es un antifolato citotóxico que inhibe la enzima dihidrofolato reductasa (DHFR). En el ámbito internacional se usa para el linfoma periférico de células T en recaída o refractario.
 El modelo TxGNN predice que podría ser efectivo para **tumor adenomatoide pleural**, pero sin **ningún ensayo clínico** ni **publicación** que respalde esta predicción específica (nivel de evidencia L5).
 
 > **Nota importante:** la primera predicción (tumor adenomatoide pleural) es una lesión benigna y el puntaje alto probablemente refleja cercanía en la red de conocimiento con el mesotelioma, no una señal terapéutica real. Las indicaciones con mayor respaldo son **mesotelioma pleural** y **mesotelioma pleural epitelioide**, descritas en las secciones de evidencia.

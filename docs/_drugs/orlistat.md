@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Orlistat es un inhibidor de las lipasas gástrica y pancreática, que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo.
+Orlistat es un inhibidor de las lipasas gástrica y pancreática.
 El modelo TxGNN predice que podría ser efectivo para **hipervitaminosis**,
 pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; es solo una predicción computacional.
 

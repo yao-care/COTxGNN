@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólic
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la literatura es indirecta y no evalúa esta indicación) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 11) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

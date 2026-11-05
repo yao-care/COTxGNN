@@ -50,7 +50,7 @@ Lenalidomida es un inmunomodulador oral derivado de la talidomida, registrado en
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
