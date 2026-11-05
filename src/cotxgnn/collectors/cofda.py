@@ -162,8 +162,8 @@ class LocalFDACollector(BaseCollector):
             if drugbank_id:
                 ids.add(str(drugbank_id).upper())
             recs = []
-            for db in ids:
-                for lic in self.db_to_lic.get(db, ()):
+            for db in sorted(ids):  # 排序：set 的順序每次執行不同，截 20 筆時收到哪幾張會跟著變（2026-11-05）
+                for lic in sorted(self.db_to_lic.get(db, ())):
                     recs.extend(self.by_license.get(lic, []))
             if not recs:
                 # Phase 1 對照沒對上的成分（例：重音字未正規化）→ 退回比對本國藥證的成分欄
