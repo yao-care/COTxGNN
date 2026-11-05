@@ -1,0 +1,124 @@
+{
+ "atorvastatina": [
+  {
+   "sentence": "no hay datos de seguridad procesados y el registro regulatorio colombiano muestra 0 licencias.",
+   "cut": " y el registro regulatorio colombiano muestra 0 licencias",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；資料缺口的說法保留"
+  }
+ ],
+ "bendamustine": [
+  {
+   "sentence": "Sin embargo, el único registro sanitario colombiano está cancelado, faltan datos de seguridad",
+   "cut": "el único registro sanitario colombiano está cancelado, ",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性資料缺口與血液毒性保留"
+  }
+ ],
+ "crizotinib": [
+  {
+   "sentence": "Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET) cuyo único registro sanitario",
+   "cut": " cuyo único registro sanitario en Colombia (Xalkori®, Pfizer) figura hoy como cancelado, y el texto de indicación registrado solo repite el nombre del principio activo",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；作用機轉保留"
+  }
+ ],
+ "epinephrine": [
+  {
+   "sentence": "Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos, y que el único registro sanitario está cancelado",
+   "cut": ", y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；資料缺口的說法保留"
+  }
+ ],
+ "meperidine": [
+  {
+   "sentence": "La meperidina (petidina) es un analgésico opioide cuyo único registro sanitario en Colombia está cancelado.",
+   "cut": " cuyo único registro sanitario en Colombia está cancelado",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；藥物類別保留"
+  }
+ ],
+ "natalizumab": [
+  {
+   "sentence": "Sumado al riesgo de LMP y a que los registros sanitarios en Colombia están cancelados",
+   "cut": " y a que los registros sanitarios en Colombia están cancelados",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；PML 風險與結論保留"
+  }
+ ],
+ "rifapentine": [
+  {
+   "sentence": "En Colombia su único registro sanitario (hoy cancelado) lo consigna",
+   "cut": " (hoy cancelado)",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；註冊名稱與適應症文字的說法保留"
+  }
+ ],
+ "venetoclax": [
+  {
+   "sentence": "Aclarar la situación regulatoria: el registro está cancelado y el texto de indicación no detalla el uso aprobado.",
+   "cut": "el registro está cancelado y ",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；適應症文字的待辦保留"
+  }
+ ],
+ "finasteride": [
+  {
+   "sentence": "Aclarar la indicación aprobada de los registros, ya que los cuatro están cancelados y no hay producto vigente en Colombia.",
+   "cut": ", ya que los cuatro están cancelados y no hay producto vigente en Colombia",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；適應症的待辦保留"
+  }
+ ],
+ "ustekinumab": [
+  {
+   "sentence": "Confirmar la indicación aprobada de los registros sanitarios y aclarar por qué están cancelados.",
+   "cut": " y aclarar por qué están cancelados",
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；適應症的待辦保留"
+  }
+ ],
+ "quetiapine": [
+  {
+   "sentence": "El único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto",
+   "cut": "El único registro sanitario colombiano está cancelado y ",
+   "capitalize": true,
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性資料缺口與結論保留"
+  }
+ ],
+ "primidone": [
+  {
+   "sentence": "El único registro sanitario en Colombia está cancelado y el perfil de seguridad es exigente",
+   "cut": "El único registro sanitario en Colombia está cancelado y ",
+   "capitalize": true,
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性內容保留"
+  }
+ ],
+ "lamotrigine": [
+  {
+   "sentence": "El único registro sanitario local está cancelado y falta información de seguridad oficial",
+   "cut": "El único registro sanitario local está cancelado y ",
+   "capitalize": true,
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性資料缺口與建議保留"
+  }
+ ],
+ "nandrolone": [
+  {
+   "sentence": "El producto está cancelado en Colombia y el perfil de seguridad androgénico es desfavorable",
+   "cut": "El producto está cancelado en Colombia y ",
+   "capitalize": true,
+   "reason": "INVIMA CUM（invima_cum_estado.json）與依 expediente 去重後的證據包：本藥有 Vigente 註冊，「registro cancelado」是 2026-10-03 reviewer 把 Vigente 誤判成 cancelled 的錯句；安全性內容保留"
+  }
+ ],
+ "ketorolac": [
+  {
+   "sentence": "## Ketorolaco: De Ketorolaco oftálmico (registro sanitario cancelado) a Trastorno de Cefalea",
+   "cut": " (registro sanitario cancelado)",
+   "reason": "INVIMA CUM：ketorolaco 有 Vigente 註冊，「registro sanitario cancelado」是 2026-10-03 reviewer 誤判；標題其他文字保留"
+  }
+ ],
+ "zidovudine": [
+  {
+   "sentence": "Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna y estado de mercado cancelado",
+   "cut": " y estado de mercado cancelado",
+   "reason": "INVIMA CUM：zidovudina 有 Vigente 註冊，「estado de mercado cancelado」是 2026-10-03 reviewer 誤判；骨髓毒性與 ART 取代的說法保留"
+  }
+ ],
+ "benzydamine": [
+  {
+   "sentence": "El único registro existente, fabricado por Laboratorios Remo S.A.S., está cancelado",
+   "reason": "INVIMA CUM：bencidamina 有 Vigente 註冊；整句講註冊狀態（刪子句會留下沒有述語的殘句），整句刪"
+  }
+ ]
+}

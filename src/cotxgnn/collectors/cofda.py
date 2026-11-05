@@ -180,6 +180,16 @@ class LocalFDACollector(BaseCollector):
         ing_f = self.fm.get("ingredients")
         records = sorted(records, key=lambda r: len(re.split(r"[,;+/&]|&&| and | y | e | und | et ", str(r.get(ing_f, "") or ""))) if ing_f else 0)
         g = lambda r, k: str(r.get(self.fm.get(k) or "", "") or "").strip() if self.fm.get(k) else ""  # noqa: E731
+        # 2026-11-05：CUM 每個包裝／每個成分各一列，同一 expediente 會重複很多列；先依 expediente 去重再截 20 筆，
+        # total_matches 算不重複的 expediente 數（原本先截 20 列，amlodipine 128 張只剩 2 張、total_matches 是列數 28）
+        seen, uniq = set(), []
+        for r in records:
+            k = g(r, "license_id")
+            if k and k in seen:
+                continue
+            seen.add(k)
+            uniq.append(r)
+        records = uniq
         out = [
             {
                 "license_id": g(r, "license_id"),
