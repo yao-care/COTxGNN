@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado…"
 monitor_inn: "upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -89,7 +89,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20178268 | RINVOQ® | Tableta de liberación prolongada | UPADACITINIB | Vigente |
 | 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Temp. no comerc - Vigente |
 
-Ambos registros pertenecen a ABBVIE S.A.S. y actualmente no hay registros vigentes.
+Ambos registros pertenecen a ABBVIE S.A.S.
 
 ---
 
@@ -110,7 +110,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La única base es un puntaje alto del modelo, sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible entre la inhibición de JAK1 y un síndrome congénito del desarrollo. Además, el producto no tiene registros vigentes en Colombia.
+La única base es un puntaje alto del modelo, sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible entre la inhibición de JAK1 y un síndrome congénito del desarrollo.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar la API de DrugBank)

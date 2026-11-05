@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "lincomycin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
 description: "Lincomycin: nueva indicación predicha, Hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: LINCOMICINA"
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0.9914 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,6 @@ Actualmente no hay literatura relacionada disponible.
 | 20134615 | LINCOMICINA INYECCION 600 MG/2ML (Caplin Point Laboratories Colombia S.A.S.) | Solución inyectable | LINCOMICINA | Vigente |
 | 40743 | LINCOCIN® 600 MG/ 2 ML SOLUCION INYECTABLE (Pfizer S.A.S.) | Solución inyectable | LINCOMICINA | Vigente |
 
-
 ---
 
 ## Consideraciones de Seguridad
@@ -106,13 +105,13 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un mecanismo farmacológico plausible. Además, no hay registros sanitarios vigentes en Colombia, y las predicciones alternativas (hiperviscosidad policlonal y analbuminemia congénita) tienen el mismo problema.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un mecanismo farmacológico plausible. Además, las predicciones alternativas (hiperviscosidad policlonal y analbuminemia congénita) tienen el mismo problema.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank para evaluar si existe algún vínculo biológico real.
 - Revisión de literatura que descarte que la señal provenga de eventos adversos o ruido de asociación (por ejemplo, elevación de amilasa como hallazgo secundario).
 - Prospecto oficial de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad.
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Adapalene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Adapaleno"
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Zinc plasmático elevado |
 | Puntaje de Predicción TxGNN | 0.9951 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,7 +96,7 @@ Para advertencias y contraindicaciones según la etiqueta, consultar el prospect
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un retinoide tópico de baja absorción sistémica y el zinc plasmático elevado. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un retinoide tópico de baja absorción sistémica y el zinc plasmático elevado.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)

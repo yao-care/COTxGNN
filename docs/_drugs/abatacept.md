@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: ABATACEPT"
 ---
 
@@ -50,8 +50,8 @@ con **3 ensayos clínicos** registrados (solo uno estudia directamente esta enfe
 | Nueva Indicación Predicha | espondilitis anquilosante (ankylosing spondylitis) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

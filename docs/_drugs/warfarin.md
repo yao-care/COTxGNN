@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L4). Indicación original: WARFARINA"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se apoya únicamente en tres reportes de casos antiguos, sin ensayos clínicos ni evidencia comparativa de eficacia. Además, el único registro sanitario en Colombia está cancelado y no hay datos de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad.
+La predicción principal se apoya únicamente en tres reportes de casos antiguos, sin ensayos clínicos ni evidencia comparativa de eficacia. Además, no hay datos de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.

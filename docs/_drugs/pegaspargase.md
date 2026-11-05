@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). Indicación original: PEGASPARGASA"
@@ -110,10 +110,8 @@ Se muestran las publicaciones más relevantes (priorizando ECA y revisiones):
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20105447 (cancelado) | ONCASPAR® 3750 UI | Solución inyectable | PEGASPARGASA |
-| 20200646 (cancelado) | ONCASPAR® 750 U/ML polvo para solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | PEGASPARGASA |
-
-Ambos registros pertenecen a Les Laboratoires Servier y figuran como cancelados.
+| 20105447 | ONCASPAR® 3750 UI | Solución inyectable | PEGASPARGASA |
+| 20200646 | ONCASPAR® 750 U/ML polvo para solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | PEGASPARGASA |
 
 ---
 
@@ -143,10 +141,9 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto. Cons
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia es sólida (múltiples ensayos de Fase 3 completados, con pegaspargasa en el esquema de base) para leucemia/linfoma linfoblástico, pero corresponde a un uso ya establecido y no a un reposicionamiento. Las toxicidades conocidas exigen medidas de control, y el producto no tiene registro vigente en Colombia.
+La evidencia es sólida (múltiples ensayos de Fase 3 completados, con pegaspargasa en el esquema de base) para leucemia/linfoma linfoblástico, pero corresponde a un uso ya establecido y no a un reposicionamiento. Las toxicidades conocidas exigen medidas de control.
 
 **Para avanzar se necesita:**
-- Verificar la situación regulatoria: ambos registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o importación.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) y los datos del mecanismo de acción.
 - Establecer un plan de monitoreo de seguridad (hígado, páncreas, lípidos, glucosa, coagulación, hipersensibilidad), con atención a adultos mayores.
 - Evaluar por separado el linfoma NK/T extranodal como indicación independiente.

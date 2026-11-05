@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: NEBIVOLOL"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), aunque el registro sanitario consta como cancelado y no detalla la indicación aprobada.
+Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), no detalla la indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, pero sin **ningún ensayo clínico** ni **publicaciones** directamente relacionadas con esta indicación.
 La predicción se apoya únicamente en el modelo computacional (nivel de evidencia L5).
 
@@ -52,8 +52,8 @@ La predicción se apoya únicamente en el modelo computacional (nivel de evidenc
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,6 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|------|
 | 20009035 | NABILA® 10 MG COMPRIMIDOS | Tableta | NEBIVOLOL | Vigente |
 
-El fabricante es MONTE VERDE S.A. No hay registros vigentes en el país.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -107,14 +105,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo se sustenta en el modelo TxGNN, sin ensayos clínicos ni literatura directa. Además, la hipertensión maligna con compromiso renal se trata con agentes intravenosos, y el único registro sanitario local está cancelado.
+La predicción solo se sustenta en el modelo TxGNN, sin ensayos clínicos ni literatura directa. Además, la hipertensión maligna con compromiso renal se trata con agentes intravenosos.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
 - Prospecto del INVIMA con advertencias y contraindicaciones, que hoy no están disponibles y bloquean el análisis de seguridad.
 - Estudios clínicos o literatura específicos de nebivolol en enfermedad renal hipertensiva maligna.
 - Evaluación de compatibilidad de vía de administración (oral frente a la vía intravenosa que requiere la emergencia hipertensiva).
-- Aclarar la situación regulatoria en Colombia, dado que no hay registros vigentes.
+- Aclarar la situación regulatoria en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

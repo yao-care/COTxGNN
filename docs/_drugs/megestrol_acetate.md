@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetato de Megestrol: nueva indicación predicha, hereditary breast ovarian cancer syndrome (nivel de evidencia L2). Indicación original: MEGESTROL"
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia (ya cancelado) lo identifica solo con el texto "MEGESTROL", sin una indicación más detallada.
+El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia, sin una indicación más detallada.
 El modelo TxGNN predice que podría ser efectivo para el **carcinoma endometrial del cuerpo uterino**, con **1 ensayo clínico** (Fase 2, completado) y **ninguna publicación** asociada directamente a esta indicación.
 Cabe aclarar que se trata de un uso hormonal ya reconocido en la práctica clínica, más que de un reposicionamiento verdaderamente novedoso.
 
@@ -80,7 +80,7 @@ Conviene señalar que el único ensayo disponible evalúa megestrol como parte d
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20004640 (cancelado) | MEGETRAL | Tableta | MEGESTROL |
+| 20004640 | MEGETRAL | Tableta | MEGESTROL |
 
 ---
 
@@ -110,13 +110,12 @@ No se dispone de texto de prospecto con advertencias y contraindicaciones; consu
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo aleatorizado de Fase 2 completado en cáncer endometrial con un régimen que incluye megestrol, y el mecanismo progestínico es coherente con la indicación. Sin embargo, la evidencia se limita a un solo estudio con megestrol como parte de una combinación, y el producto no tiene registros vigentes en Colombia.
+Existe un ensayo aleatorizado de Fase 2 completado en cáncer endometrial con un régimen que incluye megestrol, y el mecanismo progestínico es coherente con la indicación. Sin embargo, la evidencia se limita a un solo estudio con megestrol como parte de una combinación.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Confirmar los resultados publicados del ensayo NCT00729586 y buscar literatura específica sobre megestrol en cáncer endometrial.
 - Completar los datos del mecanismo de acción (por ejemplo, consultando DrugBank).
-- Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que evaluar un nuevo registro o la reactivación del existente.
 - Establecer un plan de monitoreo para pacientes con diabetes, hipertensión o enfermedad hepática o renal, y para quienes usen antidiabéticos.
 
 **Otras indicaciones predichas (referencia breve):**

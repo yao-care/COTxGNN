@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: FORMOTEROL Y BUDENOSINA"
 ---
 
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos** y las **9 publicaciones** recuperadas tratan d
 | Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: Bromfenaco"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -113,8 +113,6 @@ Se listan las publicaciones más relevantes, priorizando metaanálisis, revision
 |---------|------|------|-----------|------|
 | 20108768 | ZEBESTEN® | Solución oftálmica | Bromfenaco | Vigente |
 
-El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -140,7 +138,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de Fase 3 completados (inflamación posoperatoria, edema macular, ojo seco, conjuntivitis alérgica) y metaanálisis que respaldan el uso de bromfenaco en enfermedades oculares inflamatorias. Sin embargo, la indicación predicha es muy amplia, el único registro colombiano está cancelado y existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.
+Existen múltiples ensayos de Fase 3 completados (inflamación posoperatoria, edema macular, ojo seco, conjuntivitis alérgica) y metaanálisis que respaldan el uso de bromfenaco en enfermedades oculares inflamatorias. Sin embargo, la indicación predicha es muy amplia, existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.
 
 **Para avanzar se necesita:**
 - Delimitar subindicaciones concretas (inflamación posoperatoria de catarata y edema macular quistoide pseudofáquico) en lugar de "enfermedad ocular".

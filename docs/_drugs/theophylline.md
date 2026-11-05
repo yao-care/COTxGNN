@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: El único registro sanitario encontrado solo muestra \"AMBROXOL\" en el…"
 ---
 
@@ -50,8 +50,8 @@ La teofilina es una xantina utilizada clínicamente para la obstrucción reversi
 | Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---

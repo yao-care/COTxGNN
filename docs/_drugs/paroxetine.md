@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Paroxetine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: PAROXETINA"
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y v
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
 | Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,13 +79,13 @@ El puntaje alto (0.9911) proviene del modelo TxGNN (aprendizaje profundo) y pued
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos, literatura ni un mecanismo plausible. Además, no hay registros sanitarios vigentes en Colombia y existen señales de cautela en el desarrollo temprano.
+La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos, literatura ni un mecanismo plausible. Además, existen señales de cautela en el desarrollo temprano.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank y analizar un posible vínculo mecanístico con la vía de KAT6B/epigenética.
 - Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
 - Realizar una búsqueda de literatura y ensayos clínicos específica para síndrome de Ohdo y paroxetina.
-- Evaluar la viabilidad regulatoria, dado que ambos registros están cancelados.
+- Evaluar la viabilidad regulatoria.
 - Valorar el riesgo-beneficio en población pediátrica y en contextos de desarrollo, dadas las señales de seguridad en el embarazo.
 ## Descargo de responsabilidad
 

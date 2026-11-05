@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 448
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L4). Indicación original: Minoxidil"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | al menos 7 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,8 +93,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20267073 | MINOXIDIL 5% SOLUCIÓN TÓPICA | Solución tópica | Minoxidil |
 | 19903008 | PILOGAN® ULTRA 5% | Solución tópica | Minoxidil |
 
-Los 7 registros están cancelados; aquí se muestran los 5 principales.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -109,13 +107,13 @@ Los 7 registros están cancelados; aquí se muestran los 5 principales.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje muy alto, pero solo se apoya en tres reportes de caso con terapias combinadas y sin ensayos registrados. Además, los 7 registros sanitarios colombianos están cancelados y no se dispone de información de seguridad de prospecto.
+La predicción tiene un puntaje muy alto, pero solo se apoya en tres reportes de caso con terapias combinadas y sin ensayos registrados. Además, no se dispone de información de seguridad de prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Estudios que aíslen el efecto del minoxidil (series más grandes o ensayos controlados).
-- Aclarar la situación regulatoria, dado que no hay registros vigentes en Colombia.
+- Aclarar la situación regulatoria.
 - Evaluar la seguridad en población pediátrica, dado que los casos reportados incluyen niños y adolescentes, y tener en cuenta las contraindicaciones cardiovasculares señaladas.
 ## Descargo de responsabilidad
 

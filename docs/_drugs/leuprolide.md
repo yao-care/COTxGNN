@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: LEUPRORELINA ACETATO"
@@ -79,8 +79,8 @@ El alto puntaje de TxGNN (0.997) es únicamente una predicción computacional, s
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19956218 (cancelado) | ELIGARD® 22.5 MG | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato |
-| 20032905 (cancelado) | ELIGARD® 45 MG | Polvo estéril para reconstituir a suspensión inyectable | Leuprorelina acetato |
+| 19956218 | ELIGARD® 22.5 MG | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato |
+| 20032905 | ELIGARD® 45 MG | Polvo estéril para reconstituir a suspensión inyectable | Leuprorelina acetato |
 
 ---
 
@@ -110,14 +110,14 @@ Consultar el prospecto para información de advertencias y contraindicaciones of
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para osteoartritis se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura pertinente. Además, el mecanismo de supresión hormonal sugiere posibles efectos adversos óseos, y actualmente no hay registros sanitarios vigentes en Colombia.
+La predicción para osteoartritis se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura pertinente. Además, el mecanismo de supresión hormonal sugiere posibles efectos adversos óseos.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto del INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión de literatura y estudios preclínicos sobre GnRH y metabolismo del cartílago y hueso.
 - Evaluar el riesgo óseo y cardiometabólico de la supresión hormonal en pacientes con osteoartritis.
-- Aclarar la situación regulatoria, dado que los registros están cancelados.
+- Aclarar la situación regulatoria.
 - Revisar la segunda predicción (pseudoacondroplasia, 0.9969), que tampoco cuenta con ensayos ni literatura y es igualmente especulativa.
 ## Descargo de responsabilidad
 

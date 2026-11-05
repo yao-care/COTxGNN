@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "GALCANEZUMAB"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Galcanezumab: nueva indicación predicha, Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) (nivel de evidencia L5). Indicación original: GALCANEZUMAB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **deficiencia del cofactor
 | Nueva Indicación Predicha | Deficiencia del cofactor 2 de la heparina (heparin cofactor 2 deficiency) |
 | Puntaje de Predicción TxGNN | 0.9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -74,7 +74,7 @@ La deficiencia del cofactor 2 de la heparina es un trastorno de los inhibidores 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20155001 (cancelado) | EMGALITY (Eli Lilly and Company) | Solución inyectable | Galcanezumab (sin indicación detallada) |
+| 20155001 | EMGALITY (Eli Lilly and Company) | Solución inyectable | Galcanezumab (sin indicación detallada) |
 
 ---
 
@@ -83,7 +83,7 @@ La deficiencia del cofactor 2 de la heparina es un trastorno de los inhibidores 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y la revisión no encontró un vínculo mecanístico creíble. Además, el único registro sanitario en Colombia está cancelado.
+La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y la revisión no encontró un vínculo mecanístico creíble.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank para evaluar mejor un posible vínculo biológico

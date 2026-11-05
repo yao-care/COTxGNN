@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Ciclesonida es un corticosteroide inhalado (profármaco) que cuenta con registros sanitarios en Colombia, hoy cancelados, en solución para inhalación; su indicación aparece registrada solo con el nombre del principio activo.
+Ciclesonida es un corticosteroide inhalado (profármaco) que cuenta con registros sanitarios en Colombia, en solución para inhalación; su indicación aparece registrada solo con el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: es únicamente una predicción computacional.
 
 ---
@@ -103,8 +103,6 @@ Actualmente no hay literatura relacionada disponible para eccema atópico.
 | 20137070 | CICLOVENT® 160 MCG | Solución para inhalación | Ciclesonida | Vigente |
 | 20137073 | CICLOVENT® 80 MCG | Solución para inhalación | Ciclesonida | Vigente |
 
-Ambos registros pertenecen a CIPLA LTD y se encuentran cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -123,7 +121,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto de INVIMA; 
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto (0.9996), pero no hay ensayos clínicos ni literatura para ciclesonida en eccema atópico (nivel L5). Además, los registros en Colombia están cancelados y no se cuenta con datos de seguridad del prospecto, lo que limita la viabilidad práctica.
+El puntaje del modelo es alto (0.9996), pero no hay ensayos clínicos ni literatura para ciclesonida en eccema atópico (nivel L5). Además, no se cuenta con datos de seguridad del prospecto, lo que limita la viabilidad práctica.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Serine: nueva indicación predicha, Miopatía visceral familiar (nivel de evidencia L5). Indicación original: Emulsiones lipídicas"
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado.
+La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO).
 El modelo TxGNN predice que podría ser efectiva para **miopatía visceral familiar**, pero no hay **ningún ensayo clínico** ni **publicación** que respalde esta predicción específica.
 Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
@@ -52,8 +52,8 @@ Se trata de una predicción puramente computacional (nivel de evidencia L5).
 | Nueva Indicación Predicha | Miopatía visceral familiar |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,7 +86,7 @@ Como referencia, la segunda predicción (obstrucción intestinal) recuperó publ
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20216947 (cancelado) | NUTRIFLEX® OMEGA SPECIAL NOVO (B. Braun Medical S.A.) | Emulsión inyectable | Emulsiones lipídicas |
+| 20216947 | NUTRIFLEX® OMEGA SPECIAL NOVO (B. Braun Medical S.A.) | Emulsión inyectable | Emulsiones lipídicas |
 
 ---
 
@@ -104,7 +104,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura que evalúen la serina para miopatía visceral familiar. Además, el único registro sanitario en Colombia está cancelado y la literatura recuperada para otras indicaciones proviene de coincidencias con el término «serina».
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura que evalúen la serina para miopatía visceral familiar. Además, la literatura recuperada para otras indicaciones proviene de coincidencias con el término «serina».
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), una brecha de datos bloqueante para el tamizaje de seguridad.

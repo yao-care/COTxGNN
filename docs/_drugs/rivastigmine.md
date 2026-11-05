@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L4). Indicación original: RIVASTIGMINA"
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
@@ -52,8 +52,8 @@ con **0 ensayos clínicos** y **3 publicaciones** (una de ellas un estudio precl
 | Nueva Indicación Predicha | Glaucoma |
 | Puntaje de Predicción TxGNN | 0.9927 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,8 +91,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20242182 | DURIVAST® 9.5MG/24H (vigente) | Transdérmicos | RIVASTIGMINA |
 | 20242522 | DURIVAST® 4.6MG/24H (vigente) | Sistema transdérmico de liberación prolongada (parche) | RIVASTIGMINA |
 
-Ambos registros pertenecen a BIOTOSCANA FARMA S.A. y están cancelados; no hay productos vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -110,14 +108,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es solo preclínica e indirecta (nivel L4), sin ensayos en humanos para glaucoma. Además, no hay producto vigente en Colombia y faltan datos de seguridad del prospecto. El puntaje de TxGNN por sí solo no basta para avanzar.
+La evidencia es solo preclínica e indirecta (nivel L4), sin ensayos en humanos para glaucoma. Además, faltan datos de seguridad del prospecto. El puntaje de TxGNN por sí solo no basta para avanzar.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante para la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Estudios preclínicos adicionales y, de ser favorables, ensayos en humanos sobre reducción de la PIO.
 - Evaluar la seguridad ocular (miosis, espasmo de acomodación, riesgo de cierre angular) y la viabilidad de una formulación oftálmica, ya que los productos registrados son transdérmicos.
-- Definir la vía de acceso regulatorio, dado que los dos registros están cancelados.
+- Definir la vía de acceso regulatorio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

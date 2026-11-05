@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Evogliptin: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Evogliptina tartrato"
 monitor_inn: "evogliptin"
 predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy"]
@@ -80,9 +80,9 @@ El puntaje alto de TxGNN (0.9935) proviene del modelo TxGNN (deep learning) y pu
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20188468 (cancelado) | SUGANON® | Tableta recubierta | Evogliptina tartrato |
+| 20188468 | SUGANON® | Tableta recubierta | Evogliptina tartrato |
 
-Fabricante: Eurofarma Colombia S.A.S. El único registro está cancelado, por lo que actualmente no hay producto vigente en el mercado.
+Fabricante: Eurofarma Colombia S.A.S.
 
 ---
 
@@ -97,7 +97,7 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y con un vínculo mecanístico especulativo. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y con un vínculo mecanístico especulativo.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad

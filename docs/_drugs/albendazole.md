@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
 description: "Albendazole: nueva indicación predicha, Cenurosis (coenurosis) (nivel de evidencia L5). Indicación original: ALBENDAZOL"
@@ -48,8 +48,8 @@ Albendazol es un antiparasitario que actúa inhibiendo la beta-tubulina de los h
 | Nueva Indicación Predicha | Cenurosis (coenurosis) |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | al menos 7 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

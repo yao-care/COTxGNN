@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L4). Indicación original: ETMABUTOL"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20272629 (cancelado) | ECOX® 400 MG TABLETAS | Tableta recubierta | ETMABUTOL |
+| 20272629 | ECOX® 400 MG TABLETAS | Tableta recubierta | ETMABUTOL |
 
 ---
 

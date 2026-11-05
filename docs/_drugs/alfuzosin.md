@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Alfuzosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: ALFUZOSINA"
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -83,9 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19908750 (cancelado) | XATRAL OD. | Tableta de liberación prolongada | ALFUZOSINA |
-
-Fabricante: Sanofi-Aventis de Colombia S.A. No hay registros vigentes.
+| 19908750 | XATRAL OD. | Tableta de liberación prolongada | ALFUZOSINA |
 
 ---
 
@@ -111,7 +109,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 - Revisión del prospecto de INVIMA (advertencias y contraindicaciones)
 - Evidencia preclínica o de mecanismo que vincule el bloqueo alfa-1 con la biología de la hipertricosis
 - Evaluación de las demás predicciones del listado (todas con nivel L5) para identificar candidatos con mayor plausibilidad biológica
-- Aclarar la situación regulatoria, ya que no hay registros vigentes en Colombia
+- Aclarar la situación regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

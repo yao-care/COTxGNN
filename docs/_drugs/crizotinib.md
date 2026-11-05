@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Crizotinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo dice \"CRI…"
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "lung germ cell tumor", "pulmonary sulcus neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET) cuyo único registro sanitario en Colombia (Xalkori®, Pfizer) figura hoy como cancelado, y el texto de indicación registrado solo repite el nombre del principio activo.
+Crizotinib es un inhibidor de tirosina quinasa (ALK, ROS1 y MET).
 El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con un puntaje muy alto (0.9981), pero con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección.
 Se trata de una predicción del modelo TxGNN (deep learning), cuyo puntaje puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -52,8 +52,8 @@ Se trata de una predicción del modelo TxGNN (deep learning), cuyo puntaje puede
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de ALK/ROS1/MET y la fibromatosis gingival. Además, el único registro sanitario en Colombia está cancelado y el perfil de seguridad de crizotinib (hepático y cardíaco) es poco favorable para una enfermedad benigna.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de ALK/ROS1/MET y la fibromatosis gingival. Además, el perfil de seguridad de crizotinib (hepático y cardíaco) es poco favorable para una enfermedad benigna.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y una hipótesis biológica que conecte las vías ALK/ROS1/MET con la fibromatosis gingival

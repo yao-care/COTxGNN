@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-La fenilefrina se comercializó en Colombia como componente de combinaciones para síntomas de resfriado (paracetamol y fenilefrina), con registros hoy cancelados.
+La fenilefrina se comercializó en Colombia como componente de combinaciones para síntomas de resfriado (paracetamol y fenilefrina).
 El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, con **0 ensayos clínicos** y **5 publicaciones** que actualmente respaldan esta dirección, todas de calidad limitada.
 
 ---
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal (nasal cavity disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -109,14 +109,14 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción coincide con la farmacología conocida de la fenilefrina como descongestionante nasal, por lo que es una extensión de un uso existente. Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados.
+La predicción coincide con la farmacología conocida de la fenilefrina como descongestionante nasal, por lo que es una extensión de un uso existente. Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante)
 - Obtener datos del mecanismo de acción desde DrugBank
 - Ensayos clínicos controlados de fenilefrina en enfermedad nasal con desenlaces definidos
 - Definir vía de administración (tópica nasal) y plan de monitoreo de presión arterial y de congestión de rebote
-- Verificar la situación regulatoria actual en Colombia, dado que no hay registros vigentes
+- Verificar la situación regulatoria actual en Colombia
 
 ---
 

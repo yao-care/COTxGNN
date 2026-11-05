@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Propafenone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: Propafenona"
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
@@ -52,8 +52,8 @@ Esta predicción no cuenta con respaldo terapéutico; la evidencia disponible ap
 | Nueva Indicación Predicha | Trastorno afectivo bipolar maníaco |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,7 +88,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 45821 (cancelado) | RYTMONORM® 300 MG TABLETAS | Tableta cubierta (gragea) | Propafenona |
+| 45821 | RYTMONORM® 300 MG TABLETAS | Tableta cubierta (gragea) | Propafenona |
 
 ---
 
@@ -108,7 +108,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura disponible describe a la propafenona como posible desencadenante de manía y de interacciones adversas, no como tratamiento. Además, el único registro sanitario en Colombia está cancelado, y el puntaje alto del modelo no tiene respaldo mecanístico ni clínico.
+No hay ensayos clínicos y la literatura disponible describe a la propafenona como posible desencadenante de manía y de interacciones adversas, no como tratamiento. Además, el puntaje alto del modelo no tiene respaldo mecanístico ni clínico.
 
 **Para avanzar se necesita:**
 - No se recomienda avanzar con esta indicación a menos que aparezca evidencia preclínica o clínica que sustente un efecto terapéutico.

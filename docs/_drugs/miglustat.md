@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Miglustat: nueva indicación predicha, Síndrome de ictiosis autosómica con curso fatal (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher (uso clínico documentado). El texto del regis…"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
@@ -93,13 +93,13 @@ No se dispone de las advertencias ni contraindicaciones del prospecto. Consultar
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de ictiosis autosómica con curso fatal se basa solo en el modelo (nivel L5), sin ensayos ni literatura. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción para el síndrome de ictiosis autosómica con curso fatal se basa solo en el modelo (nivel L5), sin ensayos ni literatura.
 
 **Para avanzar se necesita:**
 - Revisión bibliográfica dirigida que busque estudios preclínicos sobre el papel de la glucosilceramida sintasa y los esfingolípidos en este tipo de ictiosis
 - Evaluación de la similitud con la indicación original
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
-- Aclarar la situación regulatoria, dado que los dos registros están cancelados
+- Aclarar la situación regulatoria
 - Considerar priorizar la evaluación de Tay-Sachs/gangliosidosis GM2, que tiene la evidencia más sólida entre las indicaciones predichas
 ## Descargo de responsabilidad
 

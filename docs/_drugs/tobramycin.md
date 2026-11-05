@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Dexametasona y antiinfecciosos (combinación oftálmica)"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **queratitis por exposici�
 | Nueva Indicación Predicha | Queratitis por exposición |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,13 +113,13 @@ No se obtuvieron advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no hay ensayos clínicos y la literatura no evalúa la tobramicina en queratitis por exposición. El mecanismo es solo indirecto (prevención de sobreinfección) y existe una señal de toxicidad sobre el epitelio corneal. Además, los tres registros sanitarios en Colombia están cancelados.
+La predicción tiene un puntaje alto, pero no hay ensayos clínicos y la literatura no evalúa la tobramicina en queratitis por exposición. El mecanismo es solo indirecto (prevención de sobreinfección) y existe una señal de toxicidad sobre el epitelio corneal.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar estudios específicos de tobramicina en queratitis por exposición (por ejemplo, profilaxis de infección secundaria) y evaluar el balance entre beneficio antibacteriano y toxicidad epitelial.
-- Evaluar la viabilidad comercial, dado que no hay productos vigentes en Colombia.
+- Evaluar la viabilidad comercial.
 
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas, la otitis externa tiene mayor respaldo (nivel L3, literatura microbiológica y de casos con tobramicina; marcada como pregunta de investigación). Debe cuidarse la ototoxicidad con perforación timpánica. El resto tiene evidencia nula o indirecta, o conflicto con el perfil de riesgo, como el síndrome urémico hemolítico asociado a infección.
 ## Descargo de responsabilidad

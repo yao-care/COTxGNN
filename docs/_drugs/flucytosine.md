@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Flucytosine: nueva indicación predicha, Enfermedad ósea de Paget (nivel de evidencia L5). Indicación original: FLUCITOSINA"
 monitor_inn: "flucytosine"
 predicted_indications: ["bone Paget disease"]
@@ -71,9 +71,9 @@ Cualquier justificación posible (por ejemplo, efectos de metabolitos tipo 5-FU 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20135088 (cancelado) | ANCOTOSIN® | Cápsula dura | FLUCITOSINA |
+| 20135088 | ANCOTOSIN® | Cápsula dura | FLUCITOSINA |
 
-El fabricante es Global Service Pharmaceutical S.A.S. No hay registros vigentes en Colombia.
+El fabricante es Global Service Pharmaceutical S.A.S.
 
 ---
 
@@ -102,7 +102,7 @@ Las advertencias principales y contraindicaciones del prospecto de INVIMA no est
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible con la enfermedad ósea de Paget. Además, el único registro sanitario local está cancelado y el perfil de seguridad sugiere riesgos hematológicos, renales y hepáticos relevantes.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible con la enfermedad ósea de Paget. Además, el perfil de seguridad sugiere riesgos hematológicos, renales y hepáticos relevantes.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia bloquea el tamizaje de seguridad.

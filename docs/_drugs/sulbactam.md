@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L3). Indicación original: Ampicilina e inhibidor enzimático"
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis bacteriana**, p
 | Nueva Indicación Predicha | Artritis bacteriana |
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ Se priorizaron los estudios con diseño comparativo o clínico sobre casos aisla
 | 20166596 | AUROPENNZ 3.0 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
 | 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
 
-Ambos registros pertenecen a EUGIA PHARMA SPECIALITIES LIMITED y están cancelados. Pueden existir otros productos de ampicilina-sulbactam comercializados con registros distintos; esto debe verificarse.
+Pueden existir otros productos de ampicilina-sulbactam comercializados con registros distintos; esto debe verificarse.
 
 ---
 
@@ -118,7 +118,7 @@ No se dispone de información de advertencias o contraindicaciones del prospecto
 **Decisión: Hold**
 
 **Justificación:**
-La plausibilidad mecanística es alta y el puntaje del modelo es elevado, pero se trata esencialmente de una extensión del uso antibacteriano existente. La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, los registros sanitarios locales están cancelados y falta la revisión de seguridad del prospecto.
+La plausibilidad mecanística es alta y el puntaje del modelo es elevado, pero se trata esencialmente de una extensión del uso antibacteriano existente. La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, falta la revisión de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), lo cual es un requisito previo para el tamizaje de seguridad.

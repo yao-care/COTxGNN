@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Trabectedina"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Trabectedina es un agente antitumoral de origen marino, registrado en Colombia bajo el nombre Yondelis®, cuyo registro sanitario actualmente figura como cancelado. El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **1 ensayo clínico** registrado (de farmacología, no de eficacia) y **20 publicaciones** relacionadas, incluidos estudios de Fase 2 en cáncer de mama avanzado.
+Trabectedina es un agente antitumoral de origen marino, registrado en Colombia bajo el nombre Yondelis®. El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **1 ensayo clínico** registrado (de farmacología, no de eficacia) y **20 publicaciones** relacionadas, incluidos estudios de Fase 2 en cáncer de mama avanzado.
 
 ---
 
@@ -95,7 +95,7 @@ Conviene aclarar que este vínculo se apoya en publicaciones y no en datos estru
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19997476 (cancelado) | YONDELIS® 1MG POLVO LIOFILIZADO PARA INYECCIÓN | Polvo liofilizado para reconstituir a solución inyectable | Trabectedina |
+| 19997476 | YONDELIS® 1MG POLVO LIOFILIZADO PARA INYECCIÓN | Polvo liofilizado para reconstituir a solución inyectable | Trabectedina |
 
 ---
 
@@ -124,13 +124,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Existen estudios de Fase 2 en cáncer de mama avanzado (incluido BRCA1/2 mutado) y respaldo mecanístico, pero no hay ensayos de Fase 3 ni evidencia clínica de eficacia consolidada, y el único ensayo registrado es de seguridad cardíaca. Además, el registro sanitario en Colombia está cancelado y no se dispone de información de seguridad del prospecto.
+Existen estudios de Fase 2 en cáncer de mama avanzado (incluido BRCA1/2 mutado) y respaldo mecanístico, pero no hay ensayos de Fase 3 ni evidencia clínica de eficacia consolidada, y el único ensayo registrado es de seguridad cardíaca. Además, no se dispone de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Revisar los resultados de los estudios de Fase 2 (PMID 25239225, 27266804 y 24692579) para valorar eficacia y seguridad en cáncer de mama
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones
 - Confirmar el mecanismo de acción a partir de datos estructurados (por ejemplo, DrugBank)
-- Aclarar el estado regulatorio y la disponibilidad del producto en Colombia, dado que el único registro está cancelado
+- Aclarar el estado regulatorio y la disponibilidad del producto en Colombia
 - Definir subpoblaciones candidatas (por ejemplo, BRCA1/2 mutado o triple negativo) y un plan de monitoreo de seguridad hematológica, hepática y cardíaca
 ## Descargo de responsabilidad
 

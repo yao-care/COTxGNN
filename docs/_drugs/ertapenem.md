@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Ertapenem"
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
@@ -50,8 +50,8 @@ Ertapenem es un antibiótico carbapenémico inyectable. Sus registros sanitarios
 | Nueva Indicación Predicha | Artritis bacteriana |
 | Puntaje de Predicción TxGNN | 0.9972 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,8 +97,6 @@ Una décima publicación sobre hidradenitis supurativa (PMID 29183082) se excluy
 | 20117466 | ERTAGRAM® 1 G | Polvo liofilizado para reconstituir a solución inyectable | ERTAPENEM |
 | 20163864 | ERTAPENEM 1G/VIAL | Polvo estéril para reconstituir a solución inyectable | ERTAPENEM |
 
-Los dos registros figuran como **cancelados**, por lo que actualmente no hay registros vigentes de ertapenem en Colombia en los datos compilados.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -124,7 +122,7 @@ No hay ensayos clínicos para artritis bacteriana. La evidencia consiste en repo
 - Ensayos clínicos o estudios comparativos de ertapenem específicos en artritis séptica.
 - Obtener y analizar el prospecto (advertencias y contraindicaciones), cuya ausencia bloquea el tamizaje de seguridad.
 - Confirmar los datos del mecanismo de acción en DrugBank.
-- Aclarar la situación regulatoria en Colombia, pues no hay registros vigentes.
+- Aclarar la situación regulatoria en Colombia.
 - Verificar la compatibilidad de vía y forma farmacéutica para la nueva indicación.
 
 Como nota adicional, la segunda indicación predicha (infección por *Staphylococcus aureus*, en combinación con cefazolina) tiene más respaldo, con un ensayo de Fase 2 (NCT04886284) y uno de Fase 4 (NCT07148960) en curso. Podría evaluarse como alternativa.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (nivel de evidencia L5). Indicación original: Mupirocina"
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **empiema pleural**, pero 
 | Nueva Indicación Predicha | Empiema pleural |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -105,7 +105,7 @@ Para advertencias y contraindicaciones del producto, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni literatura (nivel L5), y la mupirocina tópica no alcanza concentraciones terapéuticas en el espacio pleural, donde el tratamiento estándar es drenaje y antibióticos sistémicos. Además, el único registro sanitario en Colombia está cancelado.
+La predicción no cuenta con ensayos clínicos ni literatura (nivel L5), y la mupirocina tópica no alcanza concentraciones terapéuticas en el espacio pleural, donde el tratamiento estándar es drenaje y antibióticos sistémicos.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde DrugBank.

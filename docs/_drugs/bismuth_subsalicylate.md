@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Bismuth Subsalicylate: nueva indicación predicha, Paratifoidea (fiebre paratifoidea) (nivel de evidencia L5). Indicación original: Subcitrato de bismuto / Subsalicilato de bismuto"
 monitor_inn: "Bismuth subsalicylate"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **paratifoidea (fiebre par
 | Nueva Indicación Predicha | Paratifoidea (fiebre paratifoidea) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -106,8 +106,8 @@ Como referencia, la literatura disponible para la predicción cercana de **salmo
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 1991423 (cancelado) | BISBACTER® SUSPENSION | Suspensión oral | Bismuto subcitrato |
-| 20248335 (cancelado) | BISMUCAR® TABLETAS | Tableta masticable | Subsalicilato de bismuto |
+| 1991423 | BISBACTER® SUSPENSION | Suspensión oral | Bismuto subcitrato |
+| 20248335 | BISMUCAR® TABLETAS | Tableta masticable | Subsalicilato de bismuto |
 
 ---
 

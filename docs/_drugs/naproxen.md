@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Combinaciones de tiocolchicósido"
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Naproxeno es un antiinflamatorio no esteroideo (AINE) que en Colombia se registró bajo licencias de naproxeno solo y de productos asociados con tiocolchicósido, todas ellas hoy canceladas.
+Naproxeno es un antiinflamatorio no esteroideo (AINE) que en Colombia se registró bajo licencias de naproxeno solo y de productos asociados con tiocolchicósido.
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquidactilia-sindactilia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 
 ## Resumen Rápido
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquida
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
 | Puntaje de Predicción TxGNN | 0.9935 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -89,7 +89,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre la inhibición de COX y una malformación congénita de origen genético. Además, todos los registros sanitarios del naproxeno en Colombia están cancelados.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible entre la inhibición de COX y una malformación congénita de origen genético.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)

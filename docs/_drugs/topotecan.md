@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: TOPOTECAN"
@@ -98,7 +98,7 @@ Es importante señalar que los ensayos disponibles son de fase temprana y con co
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20010613 (cancelado) | Topotecan polvo liofilizado para inyección vial por 4 mg | Polvo liofilizado para reconstituir a solución inyectable | TOPOTECAN (sin detalle de indicación) |
+| 20010613 | Topotecan polvo liofilizado para inyección vial por 4 mg | Polvo liofilizado para reconstituir a solución inyectable | TOPOTECAN (sin detalle de indicación) |
 
 ---
 
@@ -131,7 +131,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para cáncer de mama es de nivel L3: los ensayos son de fase temprana, terminados o en combinación, y la literatura es mayormente preclínica o de revisión. El único estudio de fase II específico no mostró mayor eficacia. Además, el único registro sanitario en Colombia está cancelado y no se dispone de información de seguridad del prospecto.
+La evidencia para cáncer de mama es de nivel L3: los ensayos son de fase temprana, terminados o en combinación, y la literatura es mayormente preclínica o de revisión. El único estudio de fase II específico no mostró mayor eficacia. Además, no se dispone de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del registro (advertencias y contraindicaciones), ya que su ausencia impide el tamizaje de seguridad.

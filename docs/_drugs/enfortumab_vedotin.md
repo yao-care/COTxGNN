@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 251
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Enfortumab Vedotin: nueva indicación predicha, Lepra (nivel de evidencia L5). Indicación original: Enfortumab vedotina"
 monitor_inn: "enfortumab vedotin"
 predicted_indications: ["leprosy", "multiple endocrine neoplasia", "cytomegalovirus infection", "candidiasis", "cerebral infarction", "HIV infectious disease", "homozygous familial hypercholesterolemia", "malignant catarrh", "infectious bovine rhinotracheitis"]
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible para lepra.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20215692 (cancelado) | DOVIQEV® | Polvo estéril para reconstituir a solución inyectable | Enfortumab vedotina |
+| 20215692 | DOVIQEV® | Polvo estéril para reconstituir a solución inyectable | Enfortumab vedotina |
 
 ---
 
@@ -114,13 +114,12 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para lepra se basa solo en el puntaje del modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
+La predicción para lepra se basa solo en el puntaje del modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Prospecto de INVIMA con advertencias y contraindicaciones, para el cribado de seguridad.
 - Un fundamento biológico que justifique la relación entre Nectin-4/MMAE y la lepra, que hoy no existe.
-- Revisar el estado del registro sanitario cancelado, o considerar otras indicaciones predichas con mayor plausibilidad antes de invertir recursos.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

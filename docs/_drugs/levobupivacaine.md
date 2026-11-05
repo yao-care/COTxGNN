@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Levobupivacaine: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: Bupivacaína"
 monitor_inn: "levobupivacaine"
 predicted_indications: ["gastroduodenitis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-La levobupivacaína es un anestésico local de acción prolongada; en Colombia su único registro sanitario (BUPINEST® 0.75 % solución inyectable) figura con la indicación "bupivacaína" y se encuentra cancelado.
+La levobupivacaína es un anestésico local de acción prolongada; en Colombia su único registro sanitario (BUPINEST® 0.75 % solución inyectable) figura con la indicación "bupivacaína".
 El modelo TxGNN predice que podría ser efectiva para **gastroduodenitis**,
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: la predicción se apoya solo en el modelo computacional.
 
@@ -104,14 +104,13 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en un puntaje computacional alto (0.9909), sin ensayos clínicos ni literatura (nivel L5). Además, el único registro sanitario en Colombia está cancelado y la vía de administración habitual no es compatible de forma evidente con la gastroduodenitis.
+La predicción se basa únicamente en un puntaje computacional alto (0.9909), sin ensayos clínicos ni literatura (nivel L5). Además, la vía de administración habitual no es compatible de forma evidente con la gastroduodenitis.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente sin datos.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una búsqueda dirigida de literatura preclínica y clínica sobre anestésicos locales en gastroduodenitis o dolor visceral gastroduodenal.
 - Evaluar la compatibilidad de vías de administración y la viabilidad de una formulación o vía adecuada para el tracto digestivo superior.
-- Confirmar la situación regulatoria: el registro está cancelado, por lo que no hay producto vigente en Colombia.
 - Analizar las contraindicaciones del grafo (hepáticas, renales, cardiovasculares y neuromusculares) frente a la población objetivo.
 ## Descargo de responsabilidad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Icatibant: nueva indicación predicha, Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) (nivel de evidencia L5). Indicación original: ICATIBANT"
 ---
 
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, aunque su único registro sanitario está cancelado y no incluye un texto de indicación descriptivo.
+Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, no incluye un texto de indicación descriptivo.
 El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** (no específico de liposarcoma) y **1 publicación** que respaldan esta dirección de forma indirecta.
 
 ---
@@ -89,7 +89,7 @@ Sin embargo, la evidencia directa específica para liposarcoma es limitada. El e
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20172869 (cancelado) | CABOMETYX 40 MG (IPSEN PHARMA) | Tableta recubierta | CABOZANTINIB |
+| 20172869 | CABOMETYX 40 MG (IPSEN PHARMA) | Tableta recubierta | CABOZANTINIB |
 
 ---
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de fase 1 centrado en seguridad, sin resultados de eficacia. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de fase 1 centrado en seguridad, sin resultados de eficacia. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Datos de eficacia específicos en liposarcoma (subanálisis del NCT05836571 o estudios dedicados)

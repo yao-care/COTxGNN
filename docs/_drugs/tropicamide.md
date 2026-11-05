@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Tropicamida en combinaciones (solución oftálmica)"
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 | Nueva Indicación Predicha | Síndrome de la cola de caballo |
 | Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,6 @@ Actualmente no hay literatura relacionada disponible.
 ---
 
 ## Información de Mercado en Colombia
-
-Los tres registros sanitarios están cancelados; no hay productos vigentes.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|

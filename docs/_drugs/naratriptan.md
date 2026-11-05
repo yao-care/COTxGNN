@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: NARATRIPTAN"
@@ -50,8 +50,8 @@ Naratriptán es un agonista selectivo de los receptores 5-HT1B/1D, originalmente
 | Nueva Indicación Predicha | Atrophoderma vermiculata |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,9 +95,7 @@ Se priorizaron los ensayos aleatorizados, seguidos de las revisiones. Ninguna pu
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 219084 (cancelado) | NARAMIG TABLETAS 2.5 MG | Tableta recubierta | NARATRIPTAN |
-
-El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay productos vigentes con este principio activo en el registro consultado.
+| 219084 | NARAMIG TABLETAS 2.5 MG | Tableta recubierta | NARATRIPTAN |
 
 ---
 
@@ -123,14 +121,14 @@ Para advertencias y contraindicaciones del texto oficial, consultar el prospecto
 **Decisión: Hold**
 
 **Justificación:**
-Además, el único registro sanitario en Colombia está cancelado y la información del prospecto no está disponible.
+Además, la información del prospecto no está disponible.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues este vacío bloquea el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la literatura específica sobre triptanes en migraña con aura del tronco encefálico y su seguridad vascular.
 - Evaluar con expertos en cefaleas si la indicación aporta valor frente al uso actual en migraña.
-- Aclarar la situación regulatoria local, dado que no hay registro vigente.
+- Aclarar la situación regulatoria local.
 
 **Nota sobre las otras predicciones:** *atrofodermia vermiculada* (0.9974) y *uleritema ofriógenes* (0.9947) no tienen ensayos clínicos ni literatura, y no se identificó un vínculo mecanístico plausible. Se trata de predicciones del modelo (nivel L5, decisión Hold); sus puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 ## Descargo de responsabilidad

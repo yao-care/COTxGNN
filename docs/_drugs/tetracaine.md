@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tetracaine: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: Combinaciones"
 monitor_inn: "tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
@@ -78,9 +78,9 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20051507 (cancelado) | PONTI OFTENO | Solución oftálmica | COMBINACIONES |
+| 20051507 | PONTI OFTENO | Solución oftálmica | COMBINACIONES |
 
-Fabricante: Laboratorios Sophia S.A. de C.V. No hay registros vigentes.
+Fabricante: Laboratorios Sophia S.A. de C.V.
 
 ## Consideraciones de Seguridad
 
@@ -98,13 +98,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para acrodermatitis crónica atrófica carece de ensayos, literatura y vínculo mecanístico plausible, y la enfermedad requiere tratamiento antibiótico. Además, el único registro sanitario en Colombia está cancelado. Las demás predicciones del modelo (dermatomiositis, bronquitis, síndrome intestinal irritable, acné queloideo, entre otras) tampoco muestran respaldo terapéutico; la asociación con síndrome de cauda equina refleja toxicidad, no beneficio.
+La predicción para acrodermatitis crónica atrófica carece de ensayos, literatura y vínculo mecanístico plausible, y la enfermedad requiere tratamiento antibiótico. Las demás predicciones del modelo (dermatomiositis, bronquitis, síndrome intestinal irritable, acné queloideo, entre otras) tampoco muestran respaldo terapéutico; la asociación con síndrome de cauda equina refleja toxicidad, no beneficio.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank).
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales.
 - Evidencia preclínica o clínica que justifique un posible efecto sobre la enfermedad predicha.
-- Evaluación de compatibilidad de vía de administración (la presentación disponible fue oftálmica) y de la situación regulatoria, dado que el registro está cancelado.
+- Evaluación de compatibilidad de vía de administración (la presentación disponible fue oftálmica) y de la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

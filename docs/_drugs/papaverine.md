@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 499
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Papaverine: nueva indicación predicha, Enfermedad isquémica (nivel de evidencia L4). Indicación original: Papaverina combinaciones"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
@@ -95,8 +95,8 @@ La relación con la indicación original es indirecta: el registro colombiano so
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20177445 (cancelado) | ESPAFLAT® | Suspensión oral | Papaverina combinaciones |
-| 36110 (cancelado) | ESPASMO SILIGAS GOTAS | Suspensión oral | Papaverina combinaciones |
+| 20177445 | ESPAFLAT® | Suspensión oral | Papaverina combinaciones |
+| 36110 | ESPASMO SILIGAS GOTAS | Suspensión oral | Papaverina combinaciones |
 
 ---
 
@@ -115,12 +115,12 @@ Nota importante: varias contraindicaciones del grafo (enfermedad coronaria, infa
 **Decisión: Hold**
 
 **Justificación:**
-La plausibilidad mecanística es razonable, pero la evidencia es de nivel L4: un solo registro observacional no terapéutico y literatura compuesta por revisiones, reportes de casos, usos diagnósticos y estudios preclínicos. Además, los dos registros sanitarios colombianos están cancelados y no hay datos oficiales de seguridad. Los usos reales de papaverina en isquemia son procedimentales (intraarteriales), no equivalentes a la forma oral registrada.
+La plausibilidad mecanística es razonable, pero la evidencia es de nivel L4: un solo registro observacional no terapéutico y literatura compuesta por revisiones, reportes de casos, usos diagnósticos y estudios preclínicos. Además, no hay datos oficiales de seguridad. Los usos reales de papaverina en isquemia son procedimentales (intraarteriales), no equivalentes a la forma oral registrada.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), una brecha bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Definir la vía de administración y la formulación adecuadas (los usos con respaldo son intraarteriales/intracoronarios, no orales) y verificar su compatibilidad con la situación regulatoria en Colombia, dado que no hay registros vigentes.
+- Definir la vía de administración y la formulación adecuadas (los usos con respaldo son intraarteriales/intracoronarios, no orales) y verificar su compatibilidad con la situación regulatoria en Colombia.
 - Evaluar el perfil de seguridad cardiovascular frente a las contraindicaciones del grafo de conocimiento y las interacciones mayores.
 - Realizar una revisión sistemática o un estudio controlado en un subtipo isquémico específico (por ejemplo, vasoespasmo cerebral o isquemia mesentérica no oclusiva).
 - Entre las demás predicciones, solo vasculopatía por insuficiencia vascular y enfermedad de Raynaud alcanzan un nivel comparable (L4), también con evidencia limitada; las restantes quedan en L5 (solo predicción).

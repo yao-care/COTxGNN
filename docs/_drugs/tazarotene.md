@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Tazarotene: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L5). Indicación original: Tazaroteno"
 monitor_inn: "Tazarotene"
 predicted_indications: ["seborrheic dermatitis", "seborrheic keratosis", "vulvar inverted follicular keratosis"]
@@ -100,8 +100,6 @@ Como referencia, para la segunda predicción (queratosis seborreica) existen dos
 | 19978012 | TAZAT® GEL 0.05 % (vigente) | Gel tópico | TAZAROTENO |
 | 19977434 | TAZAT® GEL (vigente) | Gel tópico | TAZAROTENO |
 
-Ambos registros pertenecen a PERCOS S.A. y se encuentran cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -117,7 +115,7 @@ Ambos registros pertenecen a PERCOS S.A. y se encuentran cancelados; actualmente
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para dermatitis seborreica tiene un puntaje alto del modelo, pero carece de ensayos clínicos y literatura que la respalden (nivel L5). Además, el producto no tiene registros vigentes en Colombia y faltan datos de seguridad del prospecto.
+La predicción para dermatitis seborreica tiene un puntaje alto del modelo, pero carece de ensayos clínicos y literatura que la respalden (nivel L5). Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener las advertencias y contraindicaciones del prospecto desde INVIMA (brecha bloqueante para el tamizaje de seguridad)

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Povidone: nueva indicación predicha, Eritrodermia ictiosiforme congénita (nivel de evidencia L5). Indicación original: Atorvastatina y ezetimibe"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -50,8 +50,8 @@ Povidona figura en el registro sanitario de Colombia dentro del producto COLMIBE
 | Nueva Indicación Predicha | Eritrodermia ictiosiforme congénita |
 | Puntaje de Predicción TxGNN | 0.9911 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20249624 (cancelado) | COLMIBE® 40/10 TABLETAS | Tableta | Atorvastatina y ezetimibe |
+| 20249624 | COLMIBE® 40/10 TABLETAS | Tableta | Atorvastatina y ezetimibe |
 
 ---
 
@@ -99,7 +99,7 @@ Para advertencias, contraindicaciones oficiales e interacciones farmacológicas,
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el puntaje del modelo, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico validado. Además, la povidona consta en el registro como excipiente de un producto combinado cuyo único registro sanitario está cancelado.
+La predicción se basa solo en el puntaje del modelo, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico validado.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable para el tamizaje de seguridad

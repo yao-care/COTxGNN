@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mepivacaine: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: Mepivacaína combinaciones"
 monitor_inn: "mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **gastroduodenitis**, pero
 | Nueva Indicación Predicha | Gastroduodenitis |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,6 @@ Actualmente no hay literatura relacionada disponible para gastroduodenitis.
 |---------|------|------|-----------|------|
 | 19933337 | ODONTOCAINA® 2% | Solución inyectable | Mepivacaína combinaciones | Vigente |
 
-El fabricante es Productora y Comercializadora Odontológica New Stetic S.A. Actualmente no hay registros vigentes en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -107,14 +105,14 @@ No se dispone de las advertencias y contraindicaciones del prospecto; consultar 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo computacional (L5), sin ensayos clínicos ni literatura pertinente, y no existe un vínculo mecanístico plausible entre el bloqueo de canales de sodio y la gastroduodenitis. Además, el único registro sanitario en Colombia está cancelado.
+La predicción es solo computacional (L5), sin ensayos clínicos ni literatura pertinente, y no existe un vínculo mecanístico plausible entre el bloqueo de canales de sodio y la gastroduodenitis.
 
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (MOA) desde DrugBank
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable antes de cualquier evaluación de seguridad
 - Estudios preclínicos que justifiquen un mecanismo plausible en mucosa gastroduodenal
 - Definir la vía de administración requerida y su compatibilidad con la presentación inyectable disponible
-- Evaluar si existe alguna presentación vigente en Colombia, dado que el único registro está cancelado
+- Evaluar si existe alguna presentación vigente en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

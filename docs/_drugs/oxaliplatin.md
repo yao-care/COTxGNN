@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 487
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Oxaliplatino"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -50,8 +50,8 @@ Oxaliplatino es un agente citotóxico derivado del platino, registrado en Colomb
 | Nueva Indicación Predicha | Mesotelioma pleural maligno |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,10 +97,10 @@ Varios estudios de Fase 2 combinaron oxaliplatino con gemcitabina, raltitrexed, 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20109106 (cancelado) | OXALISEVEN® 100 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
-| 20109105 (cancelado) | OXALISEVEN® 50 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
-| 20044068 (cancelado) | Oxaliplatino 100 mg/20 ml solución inyectable | Solución inyectable | Oxaliplatino |
-| 19969843 (cancelado) | Oxaliplatino 100 mg inyectable | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
+| 20109106 | OXALISEVEN® 100 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
+| 20109105 | OXALISEVEN® 50 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
+| 20044068 | Oxaliplatino 100 mg/20 ml solución inyectable | Solución inyectable | Oxaliplatino |
+| 19969843 | Oxaliplatino 100 mg inyectable | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
 
 ---
 
@@ -138,7 +138,6 @@ Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, 
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones, requisito para el tamizaje de seguridad.
 - Obtener datos detallados del mecanismo de acción desde DrugBank.
 - Evidencia comparativa (idealmente Fase 3 o Fase 2 aleatorizada) frente a platino con pemetrexed, o definición de una población específica (pacientes no aptos para cisplatino o pemetrexed).
-- Aclarar la situación regulatoria: no hay registro vigente en Colombia, por lo que se requeriría un nuevo registro o una vía de importación.
 - Plan de monitoreo para neuropatía periférica y función renal, hepática y pulmonar, dadas las contraindicaciones señaladas por el grafo de conocimiento.
 - Las predicciones para mesotelioma epitelioide (L3), sarcomatoide y tumor maligno de la pleura visceral (ambos L4, Hold) carecen de ensayos específicos y deben tratarse como hipótesis secundarias.
 ## Descargo de responsabilidad

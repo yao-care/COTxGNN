@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (s
 | Nueva Indicación Predicha | Hyperthyroidism |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción de TxGNN es hipertiroidismo (0.9944), pero no tiene ensayos ni literatura (nivel L5). Este informe se centra en la artritis reumatoide, que es la predicción con evidencia más relevante. Las demás predicciones se comentan al final.
@@ -135,7 +135,7 @@ La evidencia para artritis reumatoide se limita a estudios preclínicos, un repo
 - Confirmar la indicación aprobada original, ya que el registro solo repite el nombre del fármaco.
 - Revisar el texto completo del estudio de cohorte (PMID 40504547) para valorar el efecto sobre la artritis reumatoide.
 - Evaluar en estudios preclínicos y de fase temprana la seguridad (mielosupresión, tromboembolismo) y la dosis en artritis reumatoide.
-- Aclarar la situación comercial en Colombia, dado que no hay registros vigentes.
+- Aclarar la situación comercial en Colombia.
 
 **Otras predicciones del modelo (no recomendadas por ahora):**
 - **Hipertiroidismo (0.9944) y resistencia a la hormona tiroidea por mutación del receptor beta (0.9930):** sin ensayos ni literatura (L5); no hay vínculo biológico evidente con la inhibición de CDK4/6 y la predicción parece basada en asociaciones de red. Decisión: Hold.

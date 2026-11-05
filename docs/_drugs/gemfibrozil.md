@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: GEMFIBROZIL"
 monitor_inn: "gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -50,8 +50,8 @@ Gemfibrozilo es un fibrato (agonista de PPAR-alfa) registrado en Colombia bajo e
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 36269 (cancelado) | GEMFIBROZILO 600MG TABLETAS | Tableta recubierta | GEMFIBROZIL |
-| 22877 (cancelado) | LOPID® TABLETAS 600MG | Tableta recubierta | GEMFIBROZIL |
+| 36269 | GEMFIBROZILO 600MG TABLETAS | Tableta recubierta | GEMFIBROZIL |
+| 22877 | LOPID® TABLETAS 600MG | Tableta recubierta | GEMFIBROZIL |
 
 ---
 
@@ -111,13 +111,13 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de artritis reumatoide solo cuenta con respaldo preclínico y mecanístico, sin ensayos clínicos ni estudios en humanos. Además, los dos registros sanitarios en Colombia están cancelados y existe un perfil amplio de interacciones y contraindicaciones.
+La predicción de artritis reumatoide solo cuenta con respaldo preclínico y mecanístico, sin ensayos clínicos ni estudios en humanos. Además, existe un perfil amplio de interacciones y contraindicaciones.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos que confirmen la eficacia de gemfibrozilo específicamente (no solo de otros fibratos) en modelos de artritis
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluación del riesgo de interacciones, en particular con estatinas y antidiabéticos, en pacientes con artritis reumatoide
-- Resolver la situación regulatoria, ya que no hay registro sanitario vigente en Colombia
+- Resolver la situación regulatoria
 
 ---
 

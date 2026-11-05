@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 528
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: PRAVASTATINA Y FENOFIBRATO"
@@ -50,8 +50,8 @@ Pravastatina es una estatina que en Colombia se registró en combinación con fe
 | Nueva Indicación Predicha | HIV infectious disease |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Las estatinas ya se usan como tratamiento de base en esta condición, de modo qu
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20114242 (cancelado) | PRAVAFEN® CAPSULAS | Cápsula dura | Pravastatina y fenofibrato |
+| 20114242 | PRAVAFEN® CAPSULAS | Cápsula dura | Pravastatina y fenofibrato |
 
 ---
 
@@ -113,12 +113,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La única prueba clínica asociada evalúa alirocumab y no pravastatina, y la literatura es indirecta. Las estatinas ya son terapia de base en HoFH con eficacia limitada, de modo que no se trata de una señal nueva de reposicionamiento. Además, el único registro sanitario en Colombia está cancelado.
+La única prueba clínica asociada evalúa alirocumab y no pravastatina, y la literatura es indirecta. Las estatinas ya son terapia de base en HoFH con eficacia limitada, de modo que no se trata de una señal nueva de reposicionamiento.
 
 **Para avanzar se necesita:**
 - Datos directos de pravastatina en HoFH (estudios o series clínicas).
 - Datos de mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
-- Aclarar la situación regulatoria, ya que el registro está cancelado.
+- Aclarar la situación regulatoria.
 - Evaluar si conviene priorizar otras indicaciones con mayor respaldo. La hipercolesterolemia familiar heterocigota (L2, con estudios pediátricos específicos de pravastatina) y la dislipidemia asociada a VIH (L2, con ensayos aleatorizados de pravastatina) tienen mejor sustento, ambas con salvaguardas por interacciones con antirretrovirales y dosificación pediátrica.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 368
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketorolac: nueva indicación predicha, Trastorno de Cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Ketorolaco"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -33,12 +33,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 
 </div>
 
-## Ketorolaco: De Ketorolaco oftálmico (registro sanitario cancelado) a Trastorno de Cefalea
+## Ketorolaco: De Ketorolaco oftálmico a Trastorno de Cefalea
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Ketorolaco es un antiinflamatorio no esteroideo (AINE) registrado en Colombia en solución oftálmica, inyectable y tableta sublingual, cuyos registros sanitarios figuran hoy como cancelados.
+Ketorolaco es un antiinflamatorio no esteroideo (AINE) registrado en Colombia en solución oftálmica, inyectable y tableta sublingual.
 El modelo TxGNN predice que podría ser efectivo para **Trastorno de Cefalea (headache disorder)**,
 con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan esta dirección.
 
@@ -50,8 +50,8 @@ con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Trastorno de Cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,8 +98,6 @@ Otros ensayos identificados tienen poca relevancia directa (dispositivos de neur
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios figuran como **cancelados**; actualmente no hay registros vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20087894 | OFTALMOTRILAC® Solución Oftálmica | Solución oftálmica | Ketorolaco |
@@ -126,7 +124,7 @@ Para cefalea/migraña existen ensayos clínicos completados de Fase 3 y 4 que pr
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha de datos que bloquea el cribado de seguridad).
 - Confirmar el mecanismo de acción en DrugBank.
-- Definir la ruta de administración y la forma farmacéutica adecuadas, y gestionar un registro sanitario, ya que todos los vigentes están cancelados.
+- Definir la ruta de administración y la forma farmacéutica adecuadas.
 - Establecer un plan de monitoreo de seguridad (función renal, riesgo gastrointestinal y cardiovascular, interacciones con litio y ácido acetilsalicílico) y criterios de precaución en pediatría.
 
 **Otras indicaciones predichas (menor prioridad):**

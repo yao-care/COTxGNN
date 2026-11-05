@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: MECLOZINA"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Meclizina es un antihistamínico H1 de primera generación con actividad anticolinérgica; en Colombia sus registros sanitarios solo indican "MECLOZINA" como indicación aprobada, y actualmente están cancelados.
+Meclizina es un antihistamínico H1 de primera generación con actividad anticolinérgica; en Colombia sus registros sanitarios solo indican "MECLOZINA" como indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje alto (0.9967).
 Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
 
@@ -52,8 +52,8 @@ Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden est
 | Nueva Indicación Predicha | Urticaria alérgica (allergic urticaria) |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -108,14 +108,14 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos ni literatura para meclizina en urticaria alérgica; el respaldo se limita a un puntaje de predicción y a una inferencia por clase farmacológica. Además, no hay registros vigentes en Colombia y las alternativas de segunda generación son las preferidas por las guías.
+No existen ensayos clínicos ni literatura para meclizina en urticaria alérgica; el respaldo se limita a un puntaje de predicción y a una inferencia por clase farmacológica. Además, las alternativas de segunda generación son las preferidas por las guías.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA para conocer advertencias y contraindicaciones oficiales
 - Completar los datos del mecanismo de acción (consulta a DrugBank)
 - Realizar una revisión sistemática de la literatura sobre meclizina en urticaria
 - Comparar con los antihistamínicos de segunda generación para definir el valor incremental
-- Evaluar la viabilidad regulatoria, dado que ambos registros están cancelados
+- Evaluar la viabilidad regulatoria
 - Evaluar compatibilidad de vías de administración y similitud con la indicación original (actualmente pendientes)
 ## Descargo de responsabilidad
 

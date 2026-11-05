@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: LATANOPROST"
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Visceral calciphylaxis |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -61,7 +61,6 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 ## ¿Por qué es Razonable esta Predicción?
 
 No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
-
 
 Además, las formas congénitas o hereditarias primarias de glaucoma suelen manejarse quirúrgicamente, lo que limita el papel potencial de un tratamiento tópico como terapia principal.
 
@@ -102,13 +101,13 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura. Además, se solapa con el uso ya conocido del fármaco en glaucoma, y ambos registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura. Además, se solapa con el uso ya conocido del fármaco en glaucoma.
 
 **Para avanzar se necesita:**
 - Confirmar el texto de la indicación aprobada y las advertencias y contraindicaciones en los prospectos de INVIMA.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una búsqueda bibliográfica específica sobre latanoprost en glaucoma hereditario o congénito primario.
-- Aclarar si existe algún producto vigente en Colombia (actualmente no hay registros vigentes) y evaluar la viabilidad regulatoria.
+- Aclarar si existe algún producto vigente en Colombia y evaluar la viabilidad regulatoria.
 - Evaluar si la indicación aporta valor frente al uso ya establecido en glaucoma.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Fluorescein: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Fluoresceína (uso diagnóstico)"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -85,8 +85,8 @@ Actualmente no hay literatura relacionada disponible para Angina de Prinzmetal.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20008605 (cancelado) | FLUORESCEINA SODICA 10%. | Solución inyectable | Fluoresceína |
-| 19933781 (cancelado) | BIO-GLOSOLUCION | Solución inyectable | Fluoresceína |
+| 20008605 | FLUORESCEINA SODICA 10%. | Solución inyectable | Fluoresceína |
+| 19933781 | BIO-GLOSOLUCION | Solución inyectable | Fluoresceína |
 
 ---
 
@@ -101,7 +101,7 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para Angina de Prinzmetal se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Además, el producto no tiene registros sanitarios vigentes en Colombia.
+La predicción para Angina de Prinzmetal se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank)

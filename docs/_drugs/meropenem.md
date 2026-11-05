@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: MEROPENEM"
@@ -50,8 +50,8 @@ pero actualmente no hay ensayos clínicos registrados y la literatura disponible
 | Nueva Indicación Predicha | Artritis bacteriana (bacterial arthritis) |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 17) |
+| Número de Registros Sanitarios | 17 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

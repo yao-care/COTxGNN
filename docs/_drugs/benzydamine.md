@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 102
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Benzydamine: nueva indicación predicha, Hiperplasia prostática benigna (nivel de evidencia L5). Indicación original: Benzidamina"
 monitor_inn: "benzydamine"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -72,9 +72,7 @@ Sin embargo, no existe evidencia mecanística directa que vincule la benzidamina
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19966754 (cancelado) | BENZYCOL® VERDE SOLUCION BUCAL | Solución bucal | Benzidamina |
-
-El único registro existente, fabricado por Laboratorios Remo S.A.S., está cancelado; no hay productos vigentes en el mercado colombiano.
+| 19966754 | BENZYCOL® VERDE SOLUCION BUCAL | Solución bucal | Benzidamina |
 
 ---
 
@@ -89,7 +87,7 @@ Consultar el prospecto para información de seguridad. No se cuenta con interacc
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el producto es de uso tópico y su único registro sanitario en Colombia está cancelado, lo que limita la viabilidad a corto plazo.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el producto es de uso tópico, lo que limita la viabilidad a corto plazo.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible

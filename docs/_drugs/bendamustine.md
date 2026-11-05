@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bendamustine: nueva indicación predicha, Linfoma de células del manto (nivel de evidencia L1). Indicación original: BENDAMUSTINE"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia (actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.
+Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia, cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.
 El modelo TxGNN predice que podría ser efectivo para **Linfoma de Células del Manto**,
 con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
@@ -50,8 +50,8 @@ con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Linfoma de células del manto |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,7 +98,7 @@ Se listan los ensayos más relevantes (de un total de 44 identificados para esta
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20154170 (cancelado) | Bendamustina Clorhidrato 100 mg polvo liofilizado para inyección (Laboratorio Kemex S.A.) | Polvo liofilizado para reconstituir a solución inyectable | BENDAMUSTINE |
+| 20154170 | Bendamustina Clorhidrato 100 mg polvo liofilizado para inyección (Laboratorio Kemex S.A.) | Polvo liofilizado para reconstituir a solución inyectable | BENDAMUSTINE |
 
 ## Citotoxicidad
 
@@ -124,12 +124,11 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados (incluidos NCT00991211 y NCT00877006) y varias publicaciones en ECA que respaldan el uso de bendamustina más rituximab en LCM, por lo que el nivel de evidencia es L1. Sin embargo, el único registro sanitario colombiano está cancelado, faltan datos de seguridad del prospecto, y el perfil hematológico es de alto riesgo, por lo que se requieren salvaguardas.
+Existen múltiples ensayos de fase 3 completados (incluidos NCT00991211 y NCT00877006) y varias publicaciones en ECA que respaldan el uso de bendamustina más rituximab en LCM, por lo que el nivel de evidencia es L1. Sin embargo, faltan datos de seguridad del prospecto, y el perfil hematológico es de alto riesgo, por lo que se requieren salvaguardas.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: el registro 20154170 está cancelado y no hay registro vigente en Colombia.
 - Definir un plan de monitoreo hematológico, hepático y renal, y manejo de interacciones (en especial deferiprona y samario).
 - Verificar si la indicación de LCM está cubierta en un registro vigente o requiere una nueva solicitud ante INVIMA.
 ## Descargo de responsabilidad

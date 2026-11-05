@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Norfloxacin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Norfloxacina"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 | Nueva Indicación Predicha | Hiperamilasemia |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -71,8 +71,6 @@ Actualmente no hay literatura relacionada disponible para hiperamilasemia.
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros sanitarios están cancelados; actualmente no hay productos vigentes con norfloxacino.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 29749 | NORFLOXACINA 400MG (Tecnoquímicas) | Tableta cubierta (gragea) | Norfloxacina |
@@ -92,7 +90,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hiperamilasemia es solo del modelo (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia y presenta un perfil de seguridad con numerosas contraindicaciones potenciales.
+La predicción para hiperamilasemia es solo del modelo (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible. Además, presenta un perfil de seguridad con numerosas contraindicaciones potenciales.
 
 **Para avanzar se necesita:**
 - Evidencia clínica o preclínica que relacione norfloxacino con la hiperamilasemia

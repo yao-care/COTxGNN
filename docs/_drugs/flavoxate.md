@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Flavoxate: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad, tipo inatento (nivel de evidencia L5). Indicación original: Flavoxato"
 monitor_inn: "flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Flavoxato es un relajante del músculo liso urinario, autorizado en Colombia como BLADURIL® 200 MG (tableta recubierta), cuyo registro sanitario figura como cancelado.
+Flavoxato es un relajante del músculo liso urinario, autorizado en Colombia como BLADURIL® 200 MG (tableta recubierta).
 El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad, tipo inatento**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
 
 ---
@@ -113,13 +113,13 @@ Las advertencias y contraindicaciones del prospecto del INVIMA no están disponi
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico respaldado con el TDAH. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico respaldado con el TDAH.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto del INVIMA para completar el tamizaje de seguridad.
 - Si se desea continuar, priorizar el síndrome del intestino irritable (o la vejiga neurogénica, más cercana a la indicación original) como hipótesis de investigación, con revisión sistemática de la literatura.
-- Evaluar la viabilidad regulatoria dado que el registro está cancelado.
+- Evaluar la viabilidad regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

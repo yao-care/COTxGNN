@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Alopurinol"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
@@ -52,8 +52,8 @@ La predicción es, por ahora, una señal del modelo sin respaldo clínico.
 | Nueva Indicación Predicha | Porfiria hepática |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -115,7 +115,7 @@ No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en 
 - Estudios preclínicos que evalúen directamente el efecto del alopurinol sobre ALAS1 y el metabolismo del hemo.
 - Datos de mecanismo de acción detallados (por ejemplo, desde DrugBank).
 - Obtener y analizar advertencias y contraindicaciones del prospecto en el sitio de INVIMA.
-- Aclarar la situación regulatoria, dado que no hay registros vigentes en Colombia.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 328
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 | Nueva Indicación Predicha | Alopecia areata |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 (ver nota) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 *Nota sobre el nivel de evidencia:* los datos compilados asignan L1, pero según las reglas del informe L1 exige al menos 2 ECAs de Fase 3 completados. Aquí hay un solo ensayo de Fase 3 completado (n=41), por lo que el nivel que corresponde es L2. Además, la hidrocortisona fue el brazo comparador y no el brazo en investigación, lo que debilita aún más el respaldo.
@@ -101,8 +101,6 @@ Sin embargo, hay una limitación importante: en el único ensayo directo, la hid
 | 20001046 | Cortisolona® loción 0.5% | Loción | HIDROCORTISONA |
 | 20151048 | Suiphar Hidrotex loción | Loción | HIDROCORTISONA |
 
-Los cinco registros figuran como cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -119,14 +117,14 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje del modelo es alto y el mecanismo es plausible, la única evidencia directa es un ensayo pequeño en el que la hidrocortisona fue el comparador y resultó menos eficaz que un corticoide más potente. Además, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto. Los otros candidatos predichos (alopecia mucinosa, efluvio telógeno, entre otros) carecen de evidencia real y quedan en Hold.
+Aunque el puntaje del modelo es alto y el mecanismo es plausible, la única evidencia directa es un ensayo pequeño en el que la hidrocortisona fue el comparador y resultó menos eficaz que un corticoide más potente. Además, faltan datos de seguridad del prospecto. Los otros candidatos predichos (alopecia mucinosa, efluvio telógeno, entre otros) carecen de evidencia real y quedan en Hold.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evidencia de ensayos en los que la hidrocortisona sea el brazo en investigación, o una comparación con corticoides de mayor potencia que justifique su uso.
 - Evaluar si un corticoide de mayor potencia ya disponible es una opción más racional que la hidrocortisona para esta indicación.
-- Aclarar la situación regulatoria, ya que los cinco registros están cancelados.
+- Aclarar la situación regulatoria.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

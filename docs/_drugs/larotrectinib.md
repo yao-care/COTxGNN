@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L3). Indicación original: LAROTRECTINIB"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -91,8 +91,6 @@ Es importante subrayar que no existe evidencia directa de que la inhibición de 
 | 20200411 | VITRAKVI® SOLUCIÓN ORAL DE 20 MG/ML (estado: vigente) | Solución oral | LAROTRECTINIB |
 | 20201285 | VITRAKVI® CÁPSULAS DE 100 MG (estado: vigente) | Cápsula dura | LAROTRECTINIB |
 
-Ambos registros pertenecen a BAYER AG y se encuentran cancelados; actualmente no hay registros vigentes en Colombia.
-
 ---
 
 ## Citotoxicidad
@@ -123,7 +121,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia es solo indirecta: un ensayo de cesta no específico, una revisión y un estudio mecanístico, sin datos que muestren beneficio en neoplasia endocrina múltiple. El vínculo mecanístico (TRK frente a RET) es débil y el puntaje TxGNN es únicamente una predicción computacional. Además, no hay registro vigente en Colombia.
+La evidencia es solo indirecta: un ensayo de cesta no específico, una revisión y un estudio mecanístico, sin datos que muestren beneficio en neoplasia endocrina múltiple. El vínculo mecanístico (TRK frente a RET) es débil y el puntaje TxGNN es únicamente una predicción computacional.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de larotrectinib.

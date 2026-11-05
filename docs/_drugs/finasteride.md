@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, con **0
 | Nueva Indicación Predicha | Hipertricosis (la predicción de mayor puntaje fue Hipertricosis universal congénita tipo Ambras; se analiza la segunda por contar con literatura) |
 | Puntaje de Predicción TxGNN | 0.9999 (Hipertricosis); 0.9999 (Ambras) |
 | Nivel de Evidencia | L5 (Hipertricosis); L5 (Ambras) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción por puntaje es la hipertricosis universal congénita tipo Ambras (0.9999), sin ningún ensayo ni publicación. Se presenta como foco la hipertricosis general (0.9999) porque es la única con literatura, aunque sea indirecta. Ambas se detallan abajo.
@@ -118,7 +118,7 @@ La predicción tiene un puntaje alto en TxGNN, pero no existen ensayos clínicos
 - Revisar los resúmenes completos de las publicaciones para confirmar si finasterida fue evaluada realmente en hipertricosis.
 - Obtener datos de mecanismo de acción desde DrugBank para cruzar el vínculo mecanístico.
 - Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el tamizaje de seguridad.
-- Aclarar la indicación aprobada de los registros, ya que los cuatro están cancelados y no hay producto vigente en Colombia.
+- Aclarar la indicación aprobada de los registros.
 - Clasificar la gravedad de las interacciones farmacológicas con una fuente que no devuelva "Desconocido".
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, hoy pendientes.
 - Valorar el riesgo en poblaciones pediátricas o en edad fértil antes de considerar cualquier indicación congénita.

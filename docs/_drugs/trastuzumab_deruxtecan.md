@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 638
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Trastuzumab Deruxtecan: nueva indicación predicha, Osteoporosis inducida por fármacos (nivel de evidencia L5). Indicación original: TRASTUZUMAB DERUXTECAN"
 monitor_inn: "trastuzumab deruxtecan"
 predicted_indications: ["drug-induced osteoporosis"]
@@ -72,9 +72,7 @@ El puntaje alto del modelo (0.9931) puede reflejar proximidad en la red de conoc
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20240733 (cancelado) | ENHERTU® | Polvo para solución inyectable | TRASTUZUMAB DERUXTECAN |
-
-El único registro (ASTRAZENECA COLOMBIA S.A.S.) figura como cancelado, por lo que actualmente no hay registros vigentes.
+| 20240733 | ENHERTU® | Polvo para solución inyectable | TRASTUZUMAB DERUXTECAN |
 
 ---
 
@@ -107,13 +105,12 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, y no hay un vínculo mecanístico plausible con la osteoporosis inducida por fármacos. Además, el único registro sanitario en Colombia está cancelado y no hay datos de seguridad del prospecto.
+La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínicos ni literatura, y no hay un vínculo mecanístico plausible con la osteoporosis inducida por fármacos. Además, no hay datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Un racional biológico que conecte el fármaco con la remodelación ósea, o estudios preclínicos que lo sustenten.
 - Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
-- Aclarar la situación regulatoria del registro cancelado y la indicación aprobada real.
 - Evaluar si el puntaje refleja la pérdida ósea como efecto adverso de tratamientos oncológicos y no un beneficio terapéutico.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 522
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "POLIDOCANOL"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Immunoerythromyeloid hypoplasia", "pigmented paravenous retinochoroidal atrophy", "progressive bifocal chorioretinal atrophy", "X-linked retinal dysplasia", "monosomy X", "cone dystrophy", "oligocone trichromacy", "retinoschisis of fovea"]
 description: "Polidocanol: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L1). Indicación original: POLIDOCANOL"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia (actualmente cancelados), pero cuyo texto de indicación aprobada no detalla un uso clínico específico.
+Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia, pero cuyo texto de indicación aprobada no detalla un uso clínico específico.
 El modelo TxGNN predice que podría ser efectivo para **várices esofágicas con sangrado**,
 con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección.
 
@@ -63,7 +63,6 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento establecido en la literatura, polidocanol es un esclerosante de tipo detergente que daña el endotelio vascular, provocando trombosis y fibrosis del vaso en el que se inyecta.
 
 La escleroterapia endoscópica de várices esofágicas aplica directamente este mecanismo para obliterar las várices que sangran. Por ello, la predicción del modelo es mecanísticamente coherente. Cabe señalar que no se trata de una señal novedosa de reposicionamiento: es un uso clínico ya establecido (incluido el uso fuera de indicación en algunas regiones) y descrito en publicaciones desde la década de 1980.
-
 
 ---
 
@@ -116,10 +115,10 @@ No se dispone de datos de interacciones farmacológicas en la información compi
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido. Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con bandas, por lo que se requieren salvaguardas.
+La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido.
 
 **Para avanzar se necesita:**
-- Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia (ambos registros están cancelados)
+- Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Confirmar el mecanismo de acción en DrugBank
 - Definir un plan de monitoreo de eventos adversos (estenosis, ulceración, resangrado) y comparar frente a la ligadura con bandas

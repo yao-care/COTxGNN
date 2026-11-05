@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 241
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo indica \"DUPILU…"
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero la ev
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,10 +96,8 @@ La limitación es que "bronquitis" en general es una condición heterogénea. El
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20156864 (cancelado) | DUPIXENT® 200MG | Solución inyectable | DUPILUMAB (sin descripción de indicación) |
-| 20152069 (cancelado) | DUPIXENT® 300MG | Solución inyectable | DUPILUMAB (sin descripción de indicación) |
-
-Ambos registros pertenecen a Sanofi-Aventis de Colombia S.A. y están cancelados; no hay registros vigentes.
+| 20156864 | DUPIXENT® 200MG | Solución inyectable | DUPILUMAB (sin descripción de indicación) |
+| 20152069 | DUPIXENT® 300MG | Solución inyectable | DUPILUMAB (sin descripción de indicación) |
 
 ---
 
@@ -120,7 +118,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos que evalúen dupilumab en bronquitis. El único ensayo registrado es en rinosinusitis crónica, y el respaldo proviene de datos indirectos en asma y EPOC tipo 2. Además, los dos registros sanitarios en Colombia están cancelados.
+No hay ensayos clínicos que evalúen dupilumab en bronquitis. El único ensayo registrado es en rinosinusitis crónica, y el respaldo proviene de datos indirectos en asma y EPOC tipo 2.
 
 **Para avanzar se necesita:**
 - Definir el subgrupo de bronquitis con inflamación tipo 2 (por ejemplo, eosinofilia) donde el beneficio sería plausible.

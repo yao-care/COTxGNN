@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis en pacientes con alto riesgo de fractura"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -50,8 +50,8 @@ La teriparatida es un fragmento activo de la hormona paratiroidea (PTH 1-34), ut
 | Nueva Indicación Predicha | Úlcera duodenal |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,8 +84,6 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|-----------|
 | 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Teriparatide (sin texto de indicación detallado); estado: vigente |
 
-El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -102,7 +100,7 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
+La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que justifique el papel de PTH1R/PTH2R en la mucosa duodenal, y estudios preclínicos que la respalden.

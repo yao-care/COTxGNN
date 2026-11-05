@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Benzocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Benzocaína"
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden actualmente est
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -74,8 +74,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19979716 (cancelado) | MOTAS DORMOLAS SOLUCION | Solución bucal | Benzocaína |
-| 20161662 (cancelado) | NORAVER MF | Tableta bucal | Cetilpiridinio cloruro + combinación |
+| 19979716 | MOTAS DORMOLAS SOLUCION | Solución bucal | Benzocaína |
+| 20161662 | NORAVER MF | Tableta bucal | Cetilpiridinio cloruro + combinación |
 
 ## Consideraciones de Seguridad
 
@@ -89,7 +89,7 @@ Consultar el prospecto para obtener la información de seguridad oficial (advert
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, con un vínculo mecanístico débil y un riesgo conocido de toxicidad corneal con anestésicos tópicos. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones, con un vínculo mecanístico débil y un riesgo conocido de toxicidad corneal con anestésicos tópicos.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.

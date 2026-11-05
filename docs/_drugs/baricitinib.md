@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Baricitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: BARICITINIB"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -50,8 +50,8 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 | Nueva Indicación Predicha | Síndrome de microftalmía colobomatosa con displasia rizomélica |
 | Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,7 +85,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayos clínicos, literatura ni vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción (MOA) y análisis de su relación con la fisiopatología del síndrome.

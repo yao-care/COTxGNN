@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Los datos de seguridad, mecanismo de accion y registros sanitarios en Colombia p
 | Nueva Indicacion Predicha | Sin datos (predicted_indications vacio) |
 | Puntaje de Prediccion TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin prediccion ni estudios reales en este pack |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decision Recomendada | **Hold** |
 
 ---
@@ -84,7 +84,7 @@ Adicionalmente, el campo `predicted_indications` esta completamente vacio, lo qu
 
 ## Informacion de Mercado en Colombia
 
-Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29. No hay licencias ni formas farmaceuticas registradas ante INVIMA.
+No hay licencias ni formas farmaceuticas registradas ante INVIMA.
 
 ---
 

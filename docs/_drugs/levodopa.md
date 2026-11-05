@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Levodopa con inhibidor de decarboxilasa e inhibidor de COMT"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,13 +110,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto. Con base en l
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo de la levodopa (reposición dopaminérgica) no se relaciona con la fisiopatología inmunomediada de la encefalitis de Rasmussen. Además, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo de la levodopa (reposición dopaminérgica) no se relaciona con la fisiopatología inmunomediada de la encefalitis de Rasmussen. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la levodopa desde DrugBank y análisis de un posible vínculo con la neuroinflamación.
 - Revisión de la literatura preclínica y clínica sobre dopaminérgicos en encefalitis de Rasmussen o epilepsias inflamatorias.
 - Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones), dado que la epilepsia figura entre las contraindicaciones del grafo de conocimiento.
-- Evaluar la disponibilidad comercial en Colombia, ya que no hay registros vigentes.
+- Evaluar la disponibilidad comercial en Colombia.
 - Confirmar la compatibilidad de vías de administración con la nueva indicación.
 ## Descargo de responsabilidad
 

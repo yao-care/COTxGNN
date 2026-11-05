@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Filgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: FILGRASTIM"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 | Nueva Indicación Predicha | Trastorno primario de liberación plaquetaria |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,7 +85,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20002046 (cancelado) | FILGRASTIM 300 MCG/ML SOLUCIÓN INYECTABLE (MEGALABS COLOMBIA S.A.S) | Solución inyectable | FILGRASTIM |
+| 20002046 | FILGRASTIM 300 MCG/ML SOLUCIÓN INYECTABLE (MEGALABS COLOMBIA S.A.S) | Solución inyectable | FILGRASTIM |
 
 ---
 
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones, consultar el prospecto del producto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre el G-CSF y los defectos de la liberación plaquetaria. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre el G-CSF y los defectos de la liberación plaquetaria.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco y una evaluación mecanística de su relación con la función plaquetaria

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Octreotido"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Octreotida es un análogo de la somatostatina que cuenta con un registro sanitario en Colombia (Sandostatin®), actualmente cancelado, cuyo texto de indicación se limita al nombre del principio activo ("Octreotido"). El modelo TxGNN predice que podría ser efectivo para **queratosis folicular invertida vulvar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción; se trata de una señal puramente computacional.
+Octreotida es un análogo de la somatostatina que cuenta con un registro sanitario en Colombia (Sandostatin®), cuyo texto de indicación se limita al nombre del principio activo ("Octreotido"). El modelo TxGNN predice que podría ser efectivo para **queratosis folicular invertida vulvar**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción; se trata de una señal puramente computacional.
 
 ---
 
@@ -50,8 +50,8 @@ Octreotida es un análogo de la somatostatina que cuenta con un registro sanitar
 | Nueva Indicación Predicha | Queratosis folicular invertida vulvar |
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -82,9 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20007947 (cancelado) | SANDOSTATIN® AMPOLLAS 0.1 MG | Solución inyectable | Octreotido |
-
-El único registro, a nombre de Novartis Pharma AG, está cancelado, por lo que actualmente no hay producto vigente en Colombia con este principio activo según los datos compilados.
+| 20007947 | SANDOSTATIN® AMPOLLAS 0.1 MG | Solución inyectable | Octreotido |
 
 ---
 
@@ -119,7 +117,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico respaldado por los datos y con el único registro sanitario colombiano cancelado. No hay base para avanzar en este momento.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura, sin vínculo mecanístico respaldado por los datos. No hay base para avanzar en este momento.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) y análisis de un posible vínculo entre la señalización de somatostatina y la queratinocitosis benigna.

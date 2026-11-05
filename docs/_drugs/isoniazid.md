@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: ISONIAZIDA"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 | Nueva Indicación Predicha | Conjuntivitis |
 | Puntaje de Predicción TxGNN | 0.9936 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L4), sin ensayos clínicos, y la literatura apoya únicamente un uso restringido a conjuntivitis de origen tuberculoso, no a conjuntivitis en general. Además, en Colombia no hay registros vigentes de isoniazida de componente único.
+La predicción se basa solo en el modelo (L4), sin ensayos clínicos, y la literatura apoya únicamente un uso restringido a conjuntivitis de origen tuberculoso, no a conjuntivitis en general.
 
 **Para avanzar se necesita:**
 - Definir si la indicación de interés se limita a la queratoconjuntivitis flictenular o tuberculosis ocular, y no a la conjuntivitis en general
@@ -124,7 +124,7 @@ La predicción se basa solo en el modelo (L4), sin ensayos clínicos, y la liter
 - Datos del mecanismo de acción (MOA)
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales para el cribado de seguridad
 - Evaluar la compatibilidad de vía de administración (la forma registrada es oral; no hay formulación oftálmica aprobada)
-- Aclarar el estado regulatorio, dado que los tres registros están cancelados
+- Aclarar el estado regulatorio
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

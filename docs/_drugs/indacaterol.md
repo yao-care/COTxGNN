@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) (nivel de evidencia L5). Indicación original: Formoterol y mometasona"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -86,8 +86,6 @@ Actualmente no hay literatura relacionada disponible.
 | 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
 | 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
 
-Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -106,7 +104,7 @@ Se recomienda consultar el prospecto para las advertencias y contraindicaciones 
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción del modelo, sin ensayos ni literatura, y sin mecanismo plausible establecido. Además, no hay producto vigente en Colombia.
+La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción del modelo, sin ensayos ni literatura, y sin mecanismo plausible establecido.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) y un análisis mecanístico formal del vínculo entre la agonía beta-2 y la señalización del receptor V2.

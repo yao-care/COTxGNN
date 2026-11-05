@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: RISPERIDONA"
@@ -52,8 +52,8 @@ Nota: el modelo generó varias predicciones. La primera por puntaje (parálisis 
 | Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -126,10 +126,9 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Dos ensayos de Fase 3 completados (NCT00095134, n=630; NCT00044681, n=258) y varios metaanálisis respaldan la risperidona como potenciación en la depresión resistente al tratamiento, lo que corresponde a un nivel de evidencia L1. Sin embargo, el estado de mercado en Colombia es "solo cancelados" y el perfil de seguridad exige límites claros de uso.
+Dos ensayos de Fase 3 completados (NCT00095134, n=630; NCT00044681, n=258) y varios metaanálisis respaldan la risperidona como potenciación en la depresión resistente al tratamiento, lo que corresponde a un nivel de evidencia L1.
 
 **Para avanzar se necesita:**
-- Confirmar la situación regulatoria: ambos registros sanitarios están cancelados, por lo que sería necesario un registro vigente para esta indicación.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones oficiales), ya que este vacío impide completar el tamizaje de seguridad.
 - Obtener datos detallados del mecanismo de acción desde DrugBank.
 - Limitar el uso adyuvante a casos resistentes al tratamiento y definir un plan de monitoreo de peso, glucosa, lípidos, prolactina y síntomas extrapiramidales.

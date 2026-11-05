@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Letermovir: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: LETERMOVIR"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
@@ -84,9 +84,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20194849 (cancelado) | PREVYMIS 240MG TABLETAS | Tableta | LETERMOVIR |
+| 20194849 | PREVYMIS 240MG TABLETAS | Tableta | LETERMOVIR |
 
-El fabricante es Merck Sharp & Dohme LLC. La única vía de administración registrada es la oral. Dado que el único registro está cancelado, actualmente no hay presentación vigente en el mercado colombiano.
+El fabricante es Merck Sharp & Dohme LLC. La única vía de administración registrada es la oral.
 
 ---
 
@@ -108,7 +108,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible, ya que letermovir actúa sobre un blanco viral sin equivalente en *Candida*. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible, ya que letermovir actúa sobre un blanco viral sin equivalente en *Candida*.
 
 **Para avanzar se necesita:**
 - Pruebas de susceptibilidad in vitro de *Candida* spp. frente a letermovir como validación mínima

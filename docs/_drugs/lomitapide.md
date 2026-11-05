@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: nueva indicación predicha, Marcothrombocytopenia with mitral valve insufficiency (nivel de evidencia L5). Indicación original: LOMITAPIDA"
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-Los 8 registros sanitarios de lomitapida en Colombia están **cancelados**. Se listan los 5 principales:
+Se listan los 5 principales:
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -91,8 +91,6 @@ Los 8 registros sanitarios de lomitapida en Colombia están **cancelados**. Se l
 | 20246008 | TROMBACTAN® 20 MG CAPSULAS | Cápsula dura | Lomitapida (sin detalle de indicación) |
 | 20097720 | JUXTAPID® CÁPSULAS POR 5 MG | Cápsula dura | Lomitapida (sin detalle de indicación) |
 | 20071948 | JUXTAPID® CÁPSULAS POR 20 MG | Cápsula dura | Lomitapida (sin detalle de indicación) |
-
-Los otros tres registros, también cancelados, corresponden a OLESTAPIDE® de Laboratorios Elmor (5, 10 y 20 mg).
 
 ---
 

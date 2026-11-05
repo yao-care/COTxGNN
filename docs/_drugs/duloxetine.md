@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Duloxetine: nueva indicación predicha, Tortícolis paroxístico benigno de la infancia (nivel de evidencia L5). Indicación original: DULOXETINA"
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
@@ -52,8 +52,8 @@ Entre las predicciones evaluadas, la mejor respaldada es el **trastorno obsesivo
 | Nueva Indicación Predicha | Tortícolis paroxístico benigno de la infancia |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -107,8 +107,8 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20112029 (cancelado) | DUXETERO® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula dura | Duloxetina |
-| 20015009 (cancelado) | ALACIR® 60 | Tableta de liberación retardada | Duloxetina |
+| 20112029 | DUXETERO® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula dura | Duloxetina |
+| 20015009 | ALACIR® 60 | Tableta de liberación retardada | Duloxetina |
 
 ---
 
@@ -126,7 +126,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Decisión: Hold** (para la predicción principal: tortícolis paroxístico benigno de la infancia)
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínculo mecanístico plausible, y la duloxetina no está establecida en población infantil. Además, los dos registros sanitarios colombianos están cancelados.
+La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínculo mecanístico plausible, y la duloxetina no está establecida en población infantil.
 
 **Para avanzar se necesita:**
 - Reorientar la evaluación hacia el **TOC refractario** (nivel L2; ECA pequeño de potenciación, estudio abierto y ensayo de Fase 4), o hacia la agorafobia/trastorno de pánico como línea de investigación (L3), según prioridades.

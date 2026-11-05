@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 description: "Iobenguane: nueva indicación predicha, Trastorno hipotensivo (hypotensive disorder) (nivel de evidencia L5). Indicación original: IOBENGUANE (131I)"
@@ -86,8 +86,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 229122 (cancelado) | MIBG- 131- T | Sin dato | IOBENGUANE (131I) |
-| 228909 (cancelado) | MIBG-131-D | Sin dato | IOBENGUANE (131I) |
+| 229122 | MIBG- 131- T | Sin dato | IOBENGUANE (131I) |
+| 228909 | MIBG-131-D | Sin dato | IOBENGUANE (131I) |
 
 ---
 
@@ -108,13 +108,13 @@ Consultar el prospecto para información de seguridad.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura disponible (dos revisiones) solo respalda un vínculo diagnóstico o contextual, no terapéutico. Además, la forma 131I es radiactiva y citotóxica, y los registros en Colombia están cancelados.
+No hay ensayos clínicos y la literatura disponible (dos revisiones) solo respalda un vínculo diagnóstico o contextual, no terapéutico. Además, la forma 131I es radiactiva y citotóxica.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de fuentes oficiales como INVIMA y DrugBank
 - Evidencia preclínica o clínica de un efecto terapéutico real en hipotensión, ya que hoy solo existe una asociación diagnóstica
 - Evaluar si el interés real es diagnóstico (gammagrafía con MIBG) y no terapéutico
-- Aclarar la situación regulatoria, dado que los dos registros sanitarios están cancelados
+- Aclarar la situación regulatoria
 
 **Nota sobre otras predicciones:** síndrome de atrofia multisistémica (0.9990), prionopatía variablemente sensible a proteasa (0.9986) y síndrome de taquicardia postural ortostática (0.9967) tienen nivel L4 o L5, sin ensayos, y también se recomienda Hold. La relación con la atrofia multisistémica y el síndrome de taquicardia postural ortostática es solo diagnóstica, y para la prionopatía no se identificó ningún vínculo mecanístico plausible.
 ## Descargo de responsabilidad

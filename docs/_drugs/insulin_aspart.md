@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina aspartato"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice su utilidad para la **diabetes mellitus tipo 1**, con **
 | Nueva Indicación Predicha | Diabetes mellitus tipo 1 |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -109,7 +109,7 @@ Se identificaron además otros 20 ensayos de fases 1, 2, 4 y sin fase (farmacoci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19910693 (cancelado) | NOVORAPID® 100 U/ML | Solución inyectable | INSULINA ASPARTATO |
+| 19910693 | NOVORAPID® 100 U/ML | Solución inyectable | INSULINA ASPARTATO |
 
 ---
 
@@ -126,10 +126,10 @@ Como referencia general (no proveniente de los datos compilados), la lipodistrof
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Varios ensayos de Fase 3 completados, además de revisiones sistemáticas y ECA recientes, respaldan directamente el uso de insulina aspart en diabetes tipo 1. Sin embargo, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto.
+Varios ensayos de Fase 3 completados, además de revisiones sistemáticas y ECA recientes, respaldan directamente el uso de insulina aspart en diabetes tipo 1. Sin embargo, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
-- Verificar la disponibilidad regulatoria actual en Colombia, ya que el registro 19910693 figura como cancelado (consultar el sitio web de INVIMA).
+- Verificar la disponibilidad regulatoria actual en Colombia.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual está pendiente.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Confirmar que la indicación aprobada especifique la enfermedad (diabetes mellitus) y no solo el nombre del principio activo.

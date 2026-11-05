@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
@@ -106,7 +106,7 @@ Se muestran los ensayos más relevantes de los 28 identificados (priorizando fas
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20073341 (cancelado) | ANORO® ELLIPTA® | Polvo para inhalación | Vilanterol y bromuro de umeclidinio |
+| 20073341 | ANORO® ELLIPTA® | Polvo para inhalación | Vilanterol y bromuro de umeclidinio |
 
 ---
 
@@ -125,7 +125,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados y ECA publicados que respaldan la eficacia de vilanterol en EPOC y asma (nivel de evidencia L1). Sin embargo, se trata del uso ya establecido del fármaco, no de un reposicionamiento, y el único registro sanitario en Colombia está cancelado.
+Existen múltiples ensayos de fase 3 completados y ECA publicados que respaldan la eficacia de vilanterol en EPOC y asma (nivel de evidencia L1). Sin embargo, se trata del uso ya establecido del fármaco, no de un reposicionamiento.
 
 **Para avanzar se necesita:**
 - Aclarar la situación regulatoria local: motivo de la cancelación del registro y vías para una nueva solicitud ante INVIMA

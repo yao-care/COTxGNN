@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -113,13 +113,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos registrados y la evidencia proviene de estudios antiguos, indirectos (tracoma, infección por clamidia) y de susceptibilidad microbiológica. Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia.
+La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos registrados y la evidencia proviene de estudios antiguos, indirectos (tracoma, infección por clamidia) y de susceptibilidad microbiológica. Además, existen alternativas tópicas bien establecidas.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que constituye un vacío bloqueante para el cribado de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Confirmar la indicación original aprobada, ya que los registros solo citan el nombre del principio activo.
-- Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no existe actualmente en Colombia; solo hay cápsulas orales, ambas canceladas).
 - Evaluar la rifampicina frente a las terapias tópicas actuales mediante revisión sistemática o estudio clínico moderno.
 - Considerar que otras indicaciones predichas con más evidencia (artritis reumatoide, nivel L3, o hidradenitis supurativa dentro de acné, nivel L4) también requieren estudios modernos antes de cualquier avance.
 ## Descargo de responsabilidad

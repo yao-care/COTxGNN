@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Propranolol: nueva indicación predicha, Miopatía distal, tipo Tateyama (nivel de evidencia L5). Indicación original: Propranolol"
 monitor_inn: "propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Ta
 | Nueva Indicación Predicha | Miopatía distal, tipo Tateyama |
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -119,13 +119,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para miopatía distal tipo Tateyama se basa únicamente en el puntaje del modelo, sin ensayos, literatura ni vínculo mecanístico sustentado. Además, el grafo de conocimiento lista la miopatía y las enfermedades musculares como contraindicaciones, y en Colombia no hay registros vigentes del producto.
+La predicción para miopatía distal tipo Tateyama se basa únicamente en el puntaje del modelo, sin ensayos, literatura ni vínculo mecanístico sustentado. Además, el grafo de conocimiento lista la miopatía y las enfermedades musculares como contraindicaciones.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto oficial de INVIMA (advertencias y contraindicaciones), pues su ausencia bloquea el tamizaje de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank para evaluar el vínculo mecanístico.
 - Revisión de literatura dirigida sobre betabloqueo en miopatías distales y la plausibilidad biológica.
-- Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializable.
 - Considerar priorizar las predicciones con algo de literatura (miocardiopatía cirrótica) como preguntas de investigación, verificando primero los diseños de los estudios, de los cuales solo se dispuso de títulos.
 ## Descargo de responsabilidad
 

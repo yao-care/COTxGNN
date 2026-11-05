@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Prucalopride: nueva indicación predicha, Hipoalfalipoproteinemia (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo indica \"P…"
 monitor_inn: "prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Prucaloprida es un agonista selectivo del receptor 5-HT4 que actúa sobre la motilidad gastrointestinal; en Colombia su único registro sanitario (Resolor®) figura como cancelado y el texto de indicación registrado solo dice "PRUCALOPRIDA".
+Prucaloprida es un agonista selectivo del receptor 5-HT4 que actúa sobre la motilidad gastrointestinal y el texto de indicación registrado solo dice "PRUCALOPRIDA".
 El modelo TxGNN predice que podría ser efectivo para **hipoalfalipoproteinemia**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
 Se trata de una predicción puramente computacional (nivel L5).
 
@@ -52,8 +52,8 @@ Se trata de una predicción puramente computacional (nivel L5).
 | Nueva Indicación Predicha | Hipoalfalipoproteinemia |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,7 +84,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20038945 (cancelado) | RESOLOR® tabletas recubiertas de 2 mg | Tableta recubierta | PRUCALOPRIDA |
+| 20038945 | RESOLOR® tabletas recubiertas de 2 mg | Tableta recubierta | PRUCALOPRIDA |
 
 ---
 
@@ -104,14 +104,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para hipoalfalipoproteinemia carece de ensayos clínicos, literatura y plausibilidad mecanística, y el único registro sanitario en Colombia está cancelado. No hay base para avanzar.
+La predicción para hipoalfalipoproteinemia carece de ensayos clínicos, literatura y plausibilidad mecanística. No hay base para avanzar.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para completar el análisis de advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evidencia preclínica que conecte la señalización 5-HT4 con el metabolismo de las HDL.
 - Como alternativa, priorizar indicaciones con vínculo indirecto más plausible (por ejemplo, amiloidosis con dismotilidad intestinal, actualmente nivel L4, solo como tratamiento sintomático y sin evidencia directa de eficacia de prucaloprida).
-- Aclarar el estado regulatorio, dado que el registro de Resolor® está cancelado.
+- Aclarar el estado regulatorio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

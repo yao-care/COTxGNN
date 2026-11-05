@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina degludec"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -110,7 +110,7 @@ Además, existen numerosos estudios de fase 1 (farmacodinamia y farmacocinética
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20059262 (cancelado) | TRESIBA® 100 U/ML | Solución inyectable | INSULINA DEGLUDEC |
+| 20059262 | TRESIBA® 100 U/ML | Solución inyectable | INSULINA DEGLUDEC |
 
 ---
 
@@ -134,7 +134,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados y metaanálisis que respaldan el uso de la insulina degludec en diabetes tipo 1, por lo que la evidencia es sólida (L1). Sin embargo, se trata de un uso ya establecido, no de un reposicionamiento, y el único registro sanitario en Colombia está cancelado.
+Existen múltiples ensayos de fase 3 completados y metaanálisis que respaldan el uso de la insulina degludec en diabetes tipo 1, por lo que la evidencia es sólida (L1). Sin embargo, se trata de un uso ya establecido, no de un reposicionamiento.
 
 **Para avanzar se necesita:**
 - Verificar la situación regulatoria: confirmar si existe o se puede solicitar un registro sanitario vigente en Colombia.

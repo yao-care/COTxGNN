@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Insulin Human: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina (humana)"
 monitor_inn: "insulin human"
 predicted_indications: ["autoimmune oophoritis", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -101,9 +101,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20061253 (cancelado) | WOSULIN N 100UI/ML SUSPENSIÓN INYECTABLE | Suspensión inyectable | Insulina (humana) |
+| 20061253 | WOSULIN N 100UI/ML SUSPENSIÓN INYECTABLE | Suspensión inyectable | Insulina (humana) |
 
-Fabricante: Elixym Biopharmaceutical S.A.S. No hay registros vigentes para este fármaco en los datos compilados.
+Fabricante: Elixym Biopharmaceutical S.A.S.
 
 ---
 
@@ -126,7 +126,7 @@ Para advertencias y contraindicaciones, consultar el prospecto. Adicionalmente, 
 **Decisión: Hold**
 
 **Justificación:**
-No existe evidencia clínica ni literatura que respalde el uso de insulina en ooforitis autoinmune, y el puntaje del modelo parece reflejar proximidad en la red con enfermedades autoinmunes endocrinas, sin mecanismo terapéutico establecido. Además, no hay registros sanitarios vigentes en Colombia.
+No existe evidencia clínica ni literatura que respalde el uso de insulina en ooforitis autoinmune, y el puntaje del modelo parece reflejar proximidad en la red con enfermedades autoinmunes endocrinas, sin mecanismo terapéutico establecido.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de DrugBank y una hipótesis inmunológica plausible para la ooforitis autoinmune.

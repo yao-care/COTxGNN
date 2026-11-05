@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Olanzapine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine: nueva indicación predicha, Benign paroxysmal torticollis of infancy (nivel de evidencia L5). Indicación original: OLANZAPINA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **agorafobia**, con **0 en
 | Nueva Indicación Predicha | Benign paroxysmal torticollis of infancy |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,9 +90,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19974414 (cancelado) | OLANZAPINA 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | OLANZAPINA |
-| 19968710 (cancelado) | PROLANZ® FAST 10 MG | Tableta dispersable | OLANZAPINA |
-| 19968711 (cancelado) | PROLANZ FAST 5 MG | Tableta dispersable | OLANZAPINA |
+| 19974414 | OLANZAPINA 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | OLANZAPINA |
+| 19968710 | PROLANZ® FAST 10 MG | Tableta dispersable | OLANZAPINA |
+| 19968711 | PROLANZ FAST 5 MG | Tableta dispersable | OLANZAPINA |
 
 ---
 

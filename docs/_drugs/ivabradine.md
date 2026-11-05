@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ivabradine: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Ivabradina"
 monitor_inn: "ivabradine"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Ivabradina es un fármaco que cuenta con registros sanitarios en Colombia (actualmente cancelados), y cuyo mecanismo conocido consiste en inhibir los canales HCN (corriente If) del nodo sinusal. El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+Ivabradina es un fármaco que cuenta con registros sanitarios en Colombia, y cuyo mecanismo conocido consiste en inhibir los canales HCN (corriente If) del nodo sinusal. El modelo TxGNN predice que podría ser efectivo para **hipertricosis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -50,8 +50,8 @@ Ivabradina es un fármaco que cuenta con registros sanitarios en Colombia (actua
 | Nueva Indicación Predicha | Hipertricosis |
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -111,13 +111,13 @@ Actualmente no hay literatura relacionada disponible.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible entre la inhibición de canales HCN y la hipertricosis. Además, ambos registros sanitarios en Colombia están cancelados.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible entre la inhibición de canales HCN y la hipertricosis.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y análisis mecanístico que justifique la relación con el crecimiento del cabello.
 - Estudios preclínicos que evalúen el efecto de la inhibición de HCN en folículos pilosos.
 - Revisión del prospecto del INVIMA para completar la información de advertencias y contraindicaciones.
-- Evaluación de la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, así como de la compatibilidad de vía de administración para la nueva indicación.
+- Evaluación de la viabilidad regulatoria, así como de la compatibilidad de vía de administración para la nueva indicación.
 - Revisión de las interacciones de nivel mayor en caso de avanzar a fases posteriores.
 ## Descargo de responsabilidad
 

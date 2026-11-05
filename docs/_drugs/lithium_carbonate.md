@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Lithium Carbonate: nueva indicación predicha, Pseudoacondroplasia (nivel de evidencia L5). Indicación original: Litio"
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
@@ -109,7 +109,7 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 - Estudios preclínicos (modelos de condrocitos o de ratón con mutaciones en COMP) que respalden la hipótesis
 - Revisión del prospecto de INVIMA para completar advertencias y contraindicaciones
 - Evaluación del balance riesgo-beneficio, incluido el riesgo teratogénico y la toxicidad renal y tiroidea
-- Aclarar la situación regulatoria, dado que ambos registros están cancelados
+- Aclarar la situación regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (nivel de evidencia L5). Indicación original: Caspofungina"
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **anomalía de la secreci�
 | Nueva Indicación Predicha | Anomalía de la secreción de gastrina |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -65,7 +65,7 @@ El puntaje alto de TxGNN (0.9944) proviene solo de una predicción del modelo Tx
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20095165 (cancelado) | KAFUM 50 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | CASPOFUNGIN |
+| 20095165 | KAFUM 50 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | CASPOFUNGIN |
 
 ## Consideraciones de Seguridad
 
@@ -82,14 +82,14 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de la glucano sintasa fúngica y la secreción de gastrina. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de la glucano sintasa fúngica y la secreción de gastrina.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank y análisis de posibles vías que conecten caspofungina con la regulación de la gastrina.
 - Revisión sistemática de literatura y de registros de ensayos para identificar cualquier evidencia preclínica o clínica.
 - Obtención y análisis del prospecto de INVIMA (advertencias y contraindicaciones), pendiente para el tamizaje de seguridad.
 - Evaluación de la compatibilidad de la vía de administración (caspofungina es inyectable) con la nueva indicación.
-- Aclarar la situación regulatoria en Colombia, dado que no hay registros vigentes.
+- Aclarar la situación regulatoria en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

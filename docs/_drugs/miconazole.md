@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 441
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: METRONIDAZOL"
@@ -50,8 +50,8 @@ pero la evidencia es limitada: **0 ensayos clínicos** y **4 publicaciones** (un
 | Nueva Indicación Predicha | acné (acne (disease)) |
 | Puntaje de Predicción TxGNN | 0.9954 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

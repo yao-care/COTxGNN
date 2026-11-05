@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL"
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ulcerosa pép
 | Nueva Indicación Predicha | Enfermedad ulcerosa péptica activa |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,8 @@ Sin embargo, los ensayos de Fase 3 disponibles evaluaron esofagitis erosiva, no 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20201891 (cancelado) | DEXLANZOPRAL 60 DR | Cápsula dura | DEXLANSOPRAZOL |
-| 20224127 (cancelado) | LANSODEX® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula con cubierta entérica | DEXLANSOPRAZOL |
+| 20201891 | DEXLANZOPRAL 60 DR | Cápsula dura | DEXLANSOPRAZOL |
+| 20224127 | LANSODEX® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula con cubierta entérica | DEXLANSOPRAZOL |
 
 ---
 
@@ -113,13 +113,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-El mecanismo es plausible, pero la evidencia es de nivel L4 y no incluye ningún ensayo que pruebe la cicatrización de úlcera péptica con dexlansoprazol; los ensayos de Fase 3 son de esofagitis. Además, los dos registros sanitarios en Colombia están cancelados, y faltan datos de seguridad del prospecto.
+El mecanismo es plausible, pero la evidencia es de nivel L4 y no incluye ningún ensayo que pruebe la cicatrización de úlcera péptica con dexlansoprazol; los ensayos de Fase 3 son de esofagitis. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Esperar los resultados del ensayo [NCT07344506](https://clinicaltrials.gov/study/NCT07344506) (Fase 4, en reclutamiento, n=942), que compara dexlansoprazol, lansoprazol y vonoprazán en la erradicación de *H. pylori*. Es el ensayo más cercano a la indicación, aunque aún sin resultados.
 - Obtener del INVIMA el prospecto con advertencias y contraindicaciones, y verificar las señales de enfermedad hepática y salud ósea.
 - Confirmar los datos del mecanismo de acción en DrugBank.
-- Aclarar la situación regulatoria: ambos registros están cancelados, por lo que sería necesario un nuevo registro o una reactivación.
 - Revisar con prioridad las interacciones de nivel Major (acalabrutinib, atazanavir).
 
 **Otras predicciones del modelo (para referencia):** la úlcera gástrica y la úlcera duodenal también tienen nivel L4 con apoyo indirecto similar. Gastroyeyunal (úlcera marginal) tiene nivel L4, con un único ensayo retirado. Perforación ulcerosa, gastroduodenitis, obstrucción duodenal, reflujo duodenogástrico, aclorhidria y estómago en botella de cuero tienen solo predicción del modelo (L5). Algunas de ellas, como aclorhidria y estómago en botella de cuero, parecen artefactos del modelo y no se recomienda perseguirlas.

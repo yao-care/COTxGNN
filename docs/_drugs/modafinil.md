@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-06
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: MODAFINIL"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia (dise
 | Nueva Indicación Predicha | insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?

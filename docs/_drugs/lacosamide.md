@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: nueva indicación predicha, Manic bipolar affective disorder (nivel de evidencia L5). Indicación original: LACOSAMIDA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **migraña** (puntaje 0.99
 | Nueva Indicación Predicha | Manic bipolar affective disorder |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -112,7 +112,6 @@ Existen dos ensayos de Fase 3 completados y un ECA doble ciego publicado en 2026
 - Revisar el tamaño del efecto y la replicación de los resultados publicados (PMID 41863672) y verificar los resultados del ensayo de Fase 2 NCT00440518.
 - Obtener los datos del mecanismo de acción confirmados desde fuentes oficiales.
 - Descargar y analizar el prospecto en INVIMA para advertencias y contraindicaciones oficiales (hoy no disponibles).
-- Aclarar la situación regulatoria: los 3 registros sanitarios están cancelados, por lo que no hay producto vigente en Colombia.
 - Plan de monitoreo cardiaco (conducción y ritmo) y de control hematológico, dadas las señales de seguridad.
 
 **Otras predicciones del modelo (para referencia):**

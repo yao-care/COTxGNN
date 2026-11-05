@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
@@ -83,9 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19985510 (cancelado) | MINOCICLINA CAPSULAS X 100 MG (GENFAR S.A) | Cápsula dura | MINOCICLINA |
-
-No hay registros vigentes actualmente.
+| 19985510 | MINOCICLINA CAPSULAS X 100 MG (GENFAR S.A) | Cápsula dura | MINOCICLINA |
 
 ---
 
@@ -106,7 +104,7 @@ Las advertencias del prospecto no están disponibles; consultar el prospecto par
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publicaciones, y el único registro sanitario local está cancelado. Tampoco hay datos del prospecto ni del mecanismo de acción que permitan evaluar la seguridad o la plausibilidad con rigor.
+La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publicaciones. Tampoco hay datos del prospecto ni del mecanismo de acción que permitan evaluar la seguridad o la plausibilidad con rigor.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre minociclina en queratoconjuntivitis y superficie ocular.

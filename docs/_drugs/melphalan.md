@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L2). Indicación original: Melphalan"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Melfalán es un agente alquilante antineoplásico que en Colombia contó con registros sanitarios de la sustancia "melphalan" (hoy todos cancelados). El modelo TxGNN predice que podría ser efectivo para **tumor de células germinales gonadal**, con **7 ensayos clínicos** y **1 publicación** de relevancia muy limitada. Los ensayos evalúan regímenes de quimioterapia combinada a dosis altas, por lo que el aporte propio del melfalán no puede aislarse.
+Melfalán es un agente alquilante antineoplásico que en Colombia contó con registros sanitarios de la sustancia "melphalan". El modelo TxGNN predice que podría ser efectivo para **tumor de células germinales gonadal**, con **7 ensayos clínicos** y **1 publicación** de relevancia muy limitada. Los ensayos evalúan regímenes de quimioterapia combinada a dosis altas, por lo que el aporte propio del melfalán no puede aislarse.
 
 ---
 
@@ -98,8 +98,6 @@ Una limitación importante: la evidencia proviene de regímenes combinados a dos
 | 46265 | Alkeran® 2 mg tabletas | Tableta cubierta con película | MELPHALAN | Vigente |
 | 20161853 | Nozomi® 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
 
-Se muestran 5 de los 7 registros; los otros dos (Myelkilan® y Melfaseven®) también están cancelados.
-
 ---
 
 ## Citotoxicidad
@@ -132,7 +130,7 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 2 completado en tumores germinales recidivantes, se trata de un régimen combinado en el que no se puede aislar el efecto del melfalán. Además, hoy no hay ningún registro sanitario vigente en Colombia y faltan los datos de seguridad del prospecto.
+Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 2 completado en tumores germinales recidivantes, se trata de un régimen combinado en el que no se puede aislar el efecto del melfalán. Además, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Resultados publicados del ensayo NCT00936936 y análisis de la contribución específica del melfalán.

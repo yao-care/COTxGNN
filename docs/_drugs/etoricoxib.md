@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: ETORICOXIB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -126,7 +126,7 @@ Consultar el prospecto para información completa sobre advertencias y contraind
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para trastorno de migraña tiene un puntaje TxGNN alto, pero se mantiene en nivel L5: no hay ensayos clínicos y la única publicación vinculada no es específica del fármaco ni aporta datos de eficacia. Además, los 3 registros sanitarios en Colombia están cancelados y no se dispuso de las advertencias y contraindicaciones del prospecto. La mejor evidencia se encuentra en cefaleas primarias afines (cefalea y cefalea trigémino-autonómica, nivel L4), aunque se limita a reportes de casos.
+La predicción para trastorno de migraña tiene un puntaje TxGNN alto, pero se mantiene en nivel L5: no hay ensayos clínicos y la única publicación vinculada no es específica del fármaco ni aporta datos de eficacia. Además, no se dispuso de las advertencias y contraindicaciones del prospecto. La mejor evidencia se encuentra en cefaleas primarias afines (cefalea y cefalea trigémino-autonómica, nivel L4), aunque se limita a reportes de casos.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto aprobado por INVIMA (advertencias y contraindicaciones), así como confirmar la indicación original registrada.
@@ -134,7 +134,7 @@ La predicción para trastorno de migraña tiene un puntaje TxGNN alto, pero se m
 - Realizar una búsqueda dirigida de ensayos clínicos y literatura específica de etoricoxib en migraña (aguda y profiláctica).
 - Valorar priorizar las cefaleas sensibles a indometacina y trigémino-autonómicas como pregunta de investigación, con un diseño controlado.
 - Evaluar el perfil de riesgo cardiovascular, renal y cerebrovascular en la población objetivo.
-- Aclarar la situación comercial en Colombia, dado que no hay registros vigentes.
+- Aclarar la situación comercial en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,13 +110,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN es muy alta (0.9980), pero la evidencia se limita a estudios preclínicos en ratones y a literatura clínica centrada en la hipertensión pulmonar, sin ensayos registrados en artritis reumatoide. Además, los dos registros sanitarios en Colombia están cancelados y el perfil de seguridad (especialmente hepático) exige cautela.
+La predicción de TxGNN es muy alta (0.9980), pero la evidencia se limita a estudios preclínicos en ratones y a literatura clínica centrada en la hipertensión pulmonar, sin ensayos registrados en artritis reumatoide. Además, el perfil de seguridad (especialmente hepático) exige cautela.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Estudios clínicos de fase 2 que evalúen bosentan en artritis reumatoide
-- Evaluación de la viabilidad de comercialización, dado que no hay registros vigentes en Colombia
+- Evaluación de la viabilidad de comercialización
 - Plan de monitoreo de función hepática y hematológica
 
 ### Otras indicaciones predichas (referencia)

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-El registro sanitario colombiano asociado a este candidato corresponde a un producto de clindamicina en cápsulas (cuyo registro está cancelado), aunque el principio activo identificado en los datos es el talco. El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótica**, pero **no hay ensayos clínicos** y las 11 publicaciones recuperadas describen al talco como causa de daño trombótico y embólico, no como tratamiento.
+El registro sanitario colombiano asociado a este candidato corresponde a un producto de clindamicina en cápsulas, aunque el principio activo identificado en los datos es el talco. El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótica**, pero **no hay ensayos clínicos** y las 11 publicaciones recuperadas describen al talco como causa de daño trombótico y embólico, no como tratamiento.
 
 ## Resumen Rápido
 
@@ -48,8 +48,8 @@ El registro sanitario colombiano asociado a este candidato corresponde a un prod
 | Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dolutegravir: nueva indicación predicha, Infección por virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: LAMIVUDINA Y DOLUTEG…"
 ---
 
@@ -50,8 +50,8 @@ pero no hay ensayos clínicos registrados; solo se dispone de **14 publicaciones
 | Nueva Indicación Predicha | Infección por virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0,9985 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 40
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
 description: "Alprazolam: nueva indicación predicha, Insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: ALPRAZOLAM"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **Insomnio (insomnia (dise
 | Nueva Indicación Predicha | Insomnio (insomnia (disease)) |
 | Puntaje de Predicción TxGNN | 0.9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: IRINOTECAN"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9908 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -144,7 +144,6 @@ La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fa
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar resultados del estudio PHENOMENAL (irinotecan liposomal) y otros datos de irinotecan en cáncer de mama.
-- Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternativas).
 - Definir la población objetivo y un plan de monitoreo de seguridad (mielosupresión, diarrea, genotipo UGT1A1) antes de cualquier estudio.
 ## Descargo de responsabilidad
 

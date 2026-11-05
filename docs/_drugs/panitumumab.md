@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Panitumumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: Panitumumab"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-Panitumumab es un anticuerpo monoclonal anti-EGFR; su registro sanitario en Colombia (Vectibix®) no incluye un texto de indicación descriptivo y actualmente está cancelado.
+Panitumumab es un anticuerpo monoclonal anti-EGFR; su registro sanitario en Colombia (Vectibix®) no incluye un texto de indicación descriptivo.
 El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida por fármacos**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección.
 
 ---
@@ -104,7 +104,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura. El vínculo mecanístico sugiere un posible daño óseo más que un beneficio, y el único registro sanitario en Colombia está cancelado.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura. El vínculo mecanístico sugiere un posible daño óseo más que un beneficio.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente no disponible.

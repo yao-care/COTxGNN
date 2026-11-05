@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Benzoic Acid: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico"
 monitor_inn: "benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos** y solo **2 publicaciones**, ningun
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,7 +113,7 @@ Estas relaciones provienen de predicciones del modelo TxGNN (aprendizaje profund
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura que estudie el ácido benzoico en bronquitis (nivel L5). Además, los registros sanitarios en Colombia están cancelados y los productos eran tópicos, lo que limita la viabilidad inmediata.
+La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura que estudie el ácido benzoico en bronquitis (nivel L5). Además, los productos eran tópicos, lo que limita la viabilidad inmediata.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) que justifiquen un vínculo con la bronquitis.

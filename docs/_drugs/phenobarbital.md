@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenobarbital"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -52,8 +52,8 @@ Esta predicción proviene del modelo TxGNN (aprendizaje profundo) y puede reflej
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19905550 | Fenobarbital tabletas 50 mg (vigente) | Tableta | FENOBARBITAL |
 | 20101277 | Fenobarbital 10 mg tabletas (vigente) | Tableta | FENOBARBITAL |
 
-Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -109,7 +107,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para neoplasia del nervio trigémino solo cuenta con el modelo como respaldo (nivel L5): no hay ensayos clínicos, la única publicación no es pertinente y no existe un vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia.
+La predicción para neoplasia del nervio trigémino solo cuenta con el modelo como respaldo (nivel L5): no hay ensayos clínicos, la única publicación no es pertinente y no existe un vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Descartar esta indicación como candidata o, en su caso, hallar evidencia biológica que relacione el fenobarbital con tumores del nervio trigémino.

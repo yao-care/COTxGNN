@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 123
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (nivel de evidencia L1). Indicación original: No especificada en los registros"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -112,8 +112,6 @@ Se muestran los ensayos más relevantes (de un total superior a 40 registrados p
 | 20152745 | Alsulfan® | Solución concentrada para infusión | BUSULFAN (vigente) |
 | 20205961 | Buslera® | Solución inyectable | BUSULFAN (vigente) |
 
-Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia.
-
 ---
 
 ## Citotoxicidad
@@ -147,7 +145,7 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con busulfán en SMD (NCT00005866 y NCT00822393), además de ensayos de Fase 2/3 en curso y ECA publicados. La evidencia respalda su papel como agente de acondicionamiento previo al trasplante, no como terapia independiente, y los cuatro registros colombianos están cancelados.
+Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con busulfán en SMD (NCT00005866 y NCT00822393), además de ensayos de Fase 2/3 en curso y ECA publicados. La evidencia respalda su papel como agente de acondicionamiento previo al trasplante, no como terapia independiente.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el tamizaje de seguridad.

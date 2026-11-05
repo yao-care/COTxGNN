@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetic Acid: nueva indicación predicha, Trastorno post-bacteriano (post-bacterial disorder) (nivel de evidencia L5). Indicación original: Ácido acético"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -90,7 +90,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20019826 (cancelado) | DUCHA VAGINAL INTIMA AZUL - VINAGRE | Solución tópica | Ácido acético |
+| 20019826 | DUCHA VAGINAL INTIMA AZUL - VINAGRE | Solución tópica | Ácido acético |
 
 ---
 
@@ -108,7 +108,7 @@ No se encontraron interacciones farmacológicas registradas. Consultar el prospe
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para trastorno post-bacteriano se basa únicamente en el puntaje del modelo, sin ensayos ni literatura, y el único registro sanitario en Colombia está cancelado. La indicación de tinea corporis podría explorarse como pregunta de investigación, pero su evidencia es histórica e indirecta.
+La predicción para trastorno post-bacteriano se basa únicamente en el puntaje del modelo, sin ensayos ni literatura. La indicación de tinea corporis podría explorarse como pregunta de investigación, pero su evidencia es histórica e indirecta.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible

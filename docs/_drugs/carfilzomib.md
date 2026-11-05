@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: CARFILZOMIB"
@@ -52,8 +52,8 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asoci
 | Nueva Indicación Predicha | CMM7 |
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,8 +104,6 @@ Los tres últimos estudios ofrecen solo apoyo indirecto o contextual. El último
 | 20252729 | GLENCARFIL® (Glenmark Pharmaceuticals Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
 | 20228189 | ALCAF ELEA® 60 MG (Laboratorio Elea Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
 
-Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Citotoxicidad
@@ -140,7 +138,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura directa. Además, los registros sanitarios en Colombia están cancelados y faltan datos de seguridad y mecanismo.
+La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura directa. Además, faltan datos de seguridad y mecanismo.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto (advertencias y contraindicaciones), un faltante que bloquea el tamizaje de seguridad

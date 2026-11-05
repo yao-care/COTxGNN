@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas más hierro"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-El ácido fólico (vitamina B9) se registró en Colombia como parte de un producto multivitamínico con hierro (P-NATAL®), cuyo registro sanitario hoy está cancelado.
+El ácido fólico (vitamina B9) se registró en Colombia como parte de un producto multivitamínico con hierro (P-NATAL®).
 El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólica de la biotina**, pero no hay ensayos clínicos y solo se identificaron **20 publicaciones** de apoyo indirecto (en su mayoría revisiones generales sobre vitaminas).
 
 ## Resumen Rápido
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólic
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la literatura es indirecta y no evalúa esta indicación) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,7 +86,7 @@ Todas las publicaciones identificadas son de apoyo indirecto: revisiones sobre v
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20098323 (cancelado) | P-NATAL® | Cápsula blanda de gelatina con cubierta entérica | Multivitaminas más hierro |
+| 20098323 | P-NATAL® | Cápsula blanda de gelatina con cubierta entérica | Multivitaminas más hierro |
 
 ## Consideraciones de Seguridad
 
@@ -107,7 +107,7 @@ La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; pu
 - Advertencias y contraindicaciones del prospecto en INVIMA, imprescindibles antes de un tamizaje de seguridad
 - Estudios que evalúen específicamente el ácido fólico en deficiencia de biotinidasa o de holocarboxilasa sintetasa
 - Comparación frente al tratamiento estándar (biotina) para determinar si existe algún valor adicional
-- Evaluación de la ruta de administración y de la vía regulatoria, dado que no hay producto vigente en Colombia
+- Evaluación de la ruta de administración y de la vía regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

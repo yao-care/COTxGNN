@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: LACTULOSA"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **acute urate nephropathy 
 | Nueva Indicación Predicha | Acute urate nephropathy |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 > **Nota:** Dado que la primera predicción no tiene respaldo alguno, este informe también resume la candidata con la evidencia más sólida entre las ocho predichas: **ictericia obstructiva** (puntaje TxGNN 0.9953, nivel L3, recomendación "Pregunta de investigación").
@@ -110,13 +110,13 @@ Literatura seleccionada para **ictericia obstructiva** (las demás predicciones 
 
 **Justificación:**
 - La predicción con mayor puntaje (nefropatía aguda por uratos) no tiene ensayos ni literatura, por lo que es solo una predicción del modelo (L5).
-- La candidata con más respaldo (ictericia obstructiva, L3) se apoya en estudios antiguos, pequeños o preclínicos, sin ensayos registrados, y una revisión indica que el beneficio renal no está demostrado de forma concluyente. Además, el mercado colombiano no tiene registros vigentes.
+- La candidata con más respaldo (ictericia obstructiva, L3) se apoya en estudios antiguos, pequeños o preclínicos, sin ensayos registrados, y una revisión indica que el beneficio renal no está demostrado de forma concluyente.
 
 **Para avanzar se necesita:**
 - Verificar las fuentes primarias, en especial el diseño y los resultados del estudio PMID 2032107 y si la lactulosa fue realmente la intervención evaluada.
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA.
 - Completar los datos del mecanismo de acción.
-- Evaluar la viabilidad regulatoria, dado que no hay registros sanitarios vigentes en Colombia.
+- Evaluar la viabilidad regulatoria.
 - Definir un diseño de ensayo clínico moderno (por ejemplo, un ECA en cirugía por ictericia obstructiva con desenlace renal) antes de reconsiderar la decisión.
 - Valorar el riesgo de uso en pacientes con diabetes o galactosemia, según las contraindicaciones del grafo de conocimiento.
 ## Descargo de responsabilidad

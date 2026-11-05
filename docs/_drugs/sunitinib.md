@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 599
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SUNITINIB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **2 e
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 19 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 19) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -126,7 +126,7 @@ Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
 **Decisión: Hold**
 
 **Justificación:**
-Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen liposarcoma, pero con cohortes pequeñas, respuestas modestas y sin confirmación en Fase 3. Además, los cuatro registros colombianos están cancelados y faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad.
+Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen liposarcoma, pero con cohortes pequeñas, respuestas modestas y sin confirmación en Fase 3. Además, faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad.
 
 **Para avanzar se necesita:**
 - Confirmar los datos del mecanismo de acción en DrugBank.

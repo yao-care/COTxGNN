@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Epinefrina"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -52,8 +52,8 @@ con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Enfermedad pulmonar obstructiva |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 12) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -64,7 +64,7 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 
 Además, la vasoconstricción mucosa mediada por receptores alfa-1 puede reducir el edema de la vía aérea, algo relevante en la bronquiolitis y el crup. El puntaje alto de TxGNN (0.9971) es consistente con esta farmacología.
 
-Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos, y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas. Parte de la evidencia corresponde a formulaciones inhaladas (E004, Primatene Mist) o a la vía intramuscular, que no coinciden con la solución inyectable registrada en Colombia.
+Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos. Parte de la evidencia corresponde a formulaciones inhaladas (E004, Primatene Mist) o a la vía intramuscular, que no coinciden con la solución inyectable registrada en Colombia.
 
 ---
 
@@ -108,7 +108,7 @@ Se listan los 10 ensayos más relevantes (de 15 identificados), priorizando los 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20032463 (cancelado) | Epinefrina solución inyectable 1 mg/1 mL (Laboratorio Biosano S.A.) | Solución inyectable | Epinefrina |
+| 20032463 | Epinefrina solución inyectable 1 mg/1 mL (Laboratorio Biosano S.A.) | Solución inyectable | Epinefrina |
 
 ---
 
@@ -136,7 +136,7 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto del p
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Para enfermedad pulmonar obstructiva existen tres ensayos de Fase 3 completados con epinefrina inhalada en asma (más de 600 participantes en conjunto), además de revisiones sistemáticas Cochrane en bronquiolitis. Sin embargo, la evidencia corresponde en gran parte a formulaciones inhaladas, y el único registro colombiano (solución inyectable) está cancelado, por lo que se recomienda avanzar con salvaguardas.
+Para enfermedad pulmonar obstructiva existen tres ensayos de Fase 3 completados con epinefrina inhalada en asma (más de 600 participantes en conjunto), además de revisiones sistemáticas Cochrane en bronquiolitis. Sin embargo, la evidencia corresponde en gran parte a formulaciones inhaladas, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
 - Verificar la situación regulatoria actual de la epinefrina en Colombia y la disponibilidad de formulaciones vigentes (inhalada o inyectable) compatibles con la evidencia.

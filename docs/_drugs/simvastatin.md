@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -52,8 +52,8 @@ con **8 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Hipercolesterolemia familiar |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -105,7 +105,7 @@ Por tanto, la predicción es mecanísticamente coherente, pero corresponde a un 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19989089 (cancelado) | Ezetimibe 10 + Simvastatina 20 tabletas cubiertas | Tableta recubierta | Simvastatina combinaciones paquetes |
+| 19989089 | Ezetimibe 10 + Simvastatina 20 tabletas cubiertas | Tableta recubierta | Simvastatina combinaciones paquetes |
 
 ---
 
@@ -125,12 +125,11 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Varios ensayos de Fase 3 completados (ENHANCE, con 720 participantes, y el estudio en adolescentes, con 248) evalúan directamente simvastatina en hipercolesterolemia familiar, lo que corresponde a un nivel de evidencia L1. Sin embargo, es un uso ya establecido, el único registro sanitario en Colombia está cancelado y existe una carga alta de interacciones y riesgo de miopatía.
+Varios ensayos de Fase 3 completados (ENHANCE, con 720 participantes, y el estudio en adolescentes, con 248) evalúan directamente simvastatina en hipercolesterolemia familiar, lo que corresponde a un nivel de evidencia L1. Sin embargo, es un uso ya establecido, existe una carga alta de interacciones y riesgo de miopatía.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), una brecha que bloquea el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
-- Verificar la situación regulatoria: el único registro está cancelado, por lo que habría que confirmar la disponibilidad de productos vigentes con simvastatina en Colombia.
 - Definir un plan de monitoreo de seguridad (función hepática, CK/miopatía, revisión de interacciones, uso pediátrico).
 - Aclarar que el resto de las predicciones (por ejemplo, infarto de tronco encefálico, VIH, amiloidosis ABri) carecen de respaldo clínico directo y deben mantenerse en espera. En VIH, la simvastatina suele evitarse con regímenes potenciados por la interacción farmacológica.
 ## Descargo de responsabilidad

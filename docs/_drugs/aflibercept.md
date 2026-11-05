@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Aflibercept: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: AFLIBERCEPT"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no 
 | Nueva Indicación Predicha | Esotropía |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule el bloqueo de VEGF con la esotropía. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule el bloqueo de VEGF con la esotropía.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).

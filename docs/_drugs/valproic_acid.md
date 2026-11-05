@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Ácido valproico"
 monitor_inn: "valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -50,8 +50,8 @@ El ácido valproico es un fármaco antiepiléptico de amplio espectro; en Colomb
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Prediccion TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decision Recomendada | Hold |
 
 ---
@@ -84,8 +84,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
 |---------|------|------|-----------|
-| 40284 (cancelado) | DEPAKENE® JARABE | Jarabe | Ácido valproico (sin indicación detallada) |
-| 20016549 (cancelado) | FERBIN® C.L. 250 MG CAPSULA | Cápsula dura | Ácido valproico (sin indicación detallada) |
+| 40284 | DEPAKENE® JARABE | Jarabe | Ácido valproico (sin indicación detallada) |
+| 20016549 | FERBIN® C.L. 250 MG CAPSULA | Cápsula dura | Ácido valproico (sin indicación detallada) |
 
 ---
 
@@ -103,13 +103,13 @@ No se dispone de las advertencias ni contraindicaciones del prospecto de INVIMA;
 **Decision: Hold**
 
 **Justificacion:**
-No hay ensayos clínicos, la única publicación recuperada no trata la indicación predicha y no se ha establecido un vínculo mecanístico creíble. Además, los dos registros sanitarios en Colombia están cancelados. El puntaje de 0.9997 no basta por sí solo para justificar avanzar.
+No hay ensayos clínicos, la única publicación recuperada no trata la indicación predicha y no se ha establecido un vínculo mecanístico creíble. El puntaje de 0.9997 no basta por sí solo para justificar avanzar.
 
 **Para avanzar se necesita:**
 - Evidencia preclínica o clínica específica del ácido valproico en tumores del nervio trigémino (por ejemplo, estudios sobre inhibición de HDAC en esas neoplasias).
 - Datos del mecanismo de acción (consultar DrugBank).
 - Advertencias y contraindicaciones del prospecto de INVIMA.
-- Aclarar la situación regulatoria en Colombia, ya que no hay registros vigentes.
+- Aclarar la situación regulatoria en Colombia.
 - Evaluar si otras indicaciones predichas con mayor respaldo (p. ej., neuralgia del trigémino o epilepsias reflejas como la epilepsia por sobresalto) son prioridades más viables.
 ## Descargo de responsabilidad
 

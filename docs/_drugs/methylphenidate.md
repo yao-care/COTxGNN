@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Methylphenidate: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: METILFENIDATO"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -54,8 +54,8 @@ La evidencia es débil: se trata más de una cuestión de clasificación de la e
 | Nueva Indicación Predicha | Trastorno del desarrollo específico (rank 3; la rank 1 es síndrome faciodigitogenital) |
 | Puntaje de Prediccion TxGNN | 0.9999 (0.99988) para trastorno del desarrollo específico; 1.0000 para la predicción rank 1 |
 | Nivel de Evidencia | L5 (L5 para las predicciones rank 1 y 2) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 7) |
 | Decision Recomendada | Hold |
 
 ---
@@ -128,13 +128,13 @@ El medicamento está comercializado; actualmente hay 4 registros sanitarios vige
 **Decision: Hold**
 
 **Justificación:**
-Para trastorno del desarrollo específico no hay ensayos clínicos, y la literatura es indirecta y se centra en TDAH, indicación ya establecida, por lo que no constituye una señal real de reposicionamiento (L4). Las predicciones con mayor puntaje (síndrome faciodigitogenital y fibroma condromixoide) solo tienen respaldo computacional (L5), y la de trastorno distímico (L4) se apoya en evidencia indirecta. Además, no hay registros vigentes en Colombia y existe un perfil amplio de contraindicaciones e interacciones.
+Para trastorno del desarrollo específico no hay ensayos clínicos, y la literatura es indirecta y se centra en TDAH, indicación ya establecida, por lo que no constituye una señal real de reposicionamiento (L4). Las predicciones con mayor puntaje (síndrome faciodigitogenital y fibroma condromixoide) solo tienen respaldo computacional (L5), y la de trastorno distímico (L4) se apoya en evidencia indirecta. Además, existe un perfil amplio de contraindicaciones e interacciones.
 
 **Para avanzar se necesita:**
 - Aclarar si "trastorno del desarrollo específico" corresponde a una indicación ya cubierta (TDAH) o a una entidad distinta, para descartar un artefacto de mapeo.
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el cribado de seguridad).
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Revisar la situación regulatoria: confirmar por qué los cuatro registros están cancelados y si hay otros productos con metilfenidato vigentes.
+- Revisar la situación regulatoria: confirmar por qué los cuatro y si hay otros productos con metilfenidato vigentes.
 - Buscar estudios controlados en la indicación específica antes de reconsiderar la decisión.
 ## Descargo de responsabilidad
 

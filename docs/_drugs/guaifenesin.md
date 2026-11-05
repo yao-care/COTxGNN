@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones (con guaifenesina)"
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
@@ -82,8 +82,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19959895 | JARABE VICKMIEL | Jarabe | Guaifenesina |
 | 20116677 | NOGLUPEC® JARABE | Jarabe | Tos supresores y expectorantes |
 
-Los cinco registros figuran como cancelados; actualmente no hay productos vigentes.
-
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones señaladas en el grafo de conocimiento (no provienen del prospecto):** hipertensión, insuficiencia y enfermedad hepática, cirrosis, epilepsia, insomnio, EPOC, úlcera gástrica y péptica, trastornos de ansiedad, trastorno neurótico, trastorno distímico, porfiria, enfermedad renal, pancreatitis, enfermedad de la vesícula biliar, trombocitopenia, insuficiencia suprarrenal (enfermedad de Addison), hipotiroidismo, enfermedad inflamatoria intestinal y trastornos psicóticos. Estas asociaciones son relaciones del modelo y requieren verificación con el prospecto, ya que algunas pueden reflejar productos combinados.
@@ -96,13 +94,13 @@ Consultar el prospecto para información de advertencias y contraindicaciones of
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y solo existe una revisión antigua de respaldo indirecto. La predicción se apoya sobre todo en el puntaje del modelo. Además, los cinco registros sanitarios en Colombia están cancelados.
+No hay ensayos clínicos y solo existe una revisión antigua de respaldo indirecto. La predicción se apoya sobre todo en el puntaje del modelo.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales
 - Estudios clínicos o revisiones sistemáticas de guaifenesina en rinitis, sinusitis u otras enfermedades nasales
-- Aclarar el estado regulatorio actual y la viabilidad de comercialización, dado que no hay registros vigentes
+- Aclarar el estado regulatorio actual y la viabilidad de comercialización
 - Evaluar la compatibilidad de vía de administración (solo se registró forma en jarabe)
 
 Nota: las otras indicaciones predichas (laringofaringitis aguda, difteria faucial, enfermedad degenerativa de disco cervical y conjuntivitis papilar) solo tienen respaldo del modelo (nivel L5) y no se recomiendan para avanzar.

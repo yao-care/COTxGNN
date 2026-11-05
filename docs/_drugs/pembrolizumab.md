@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 505
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-06
 description: "Pembrolizumab: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "PEMBROLIZUMAB"
 predicted_indications: ["fibromatosis, gingival", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "fibroma of lung", "lung benign neoplasm", "ovarioleukodystrophy", "lung germ cell tumor", "pulmonary sulcus neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para fibromatosis gingival es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible con el bloqueo de PD-1. Además, el único registro sanitario en Colombia está cancelado.
+La predicción para fibromatosis gingival es solo computacional (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible con el bloqueo de PD-1.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y una justificación biológica de por qué el bloqueo de PD-1 sería relevante en la fibromatosis gingival.

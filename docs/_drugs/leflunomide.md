@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Leflunomida"
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -52,8 +52,8 @@ La predicción se basa únicamente en el modelo, y existen argumentos biológico
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -84,8 +84,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Todos los registros sanitarios de leflunomida en Colombia están cancelados; actualmente no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20127508 | ZORATOMIN® 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | Leflunomide |
@@ -115,14 +113,14 @@ No se dispone de las advertencias y contraindicaciones del prospecto del INVIMA;
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico validado. Además, la teratogenicidad conocida de la leflunomida y la relación de DHODH con malformaciones de las extremidades argumentan en contra de un beneficio terapéutico. Los registros sanitarios en Colombia están todos cancelados.
+La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico validado. Además, la teratogenicidad conocida de la leflunomida y la relación de DHODH con malformaciones de las extremidades argumentan en contra de un beneficio terapéutico.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Prospecto del INVIMA con advertencias y contraindicaciones para completar la evaluación de seguridad.
 - Evidencia biológica o preclínica que justifique un vínculo entre la inhibición de DHODH y el síndrome de braquidactilia-sindactilia.
 - Revisión de la plausibilidad de la predicción por expertos, dada la señal de teratogenicidad.
-- Aclaración del estado regulatorio, ya que no hay productos vigentes en Colombia.
+- Aclaración del estado regulatorio.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

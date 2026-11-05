@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Midodrine: nueva indicación predicha, Prionopatía sensible a proteasa de forma variable (nivel de evidencia L5). Indicación original: \"MIDODRINA\""
 monitor_inn: "midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20202650 | SYNCOPGOR® | Tableta | MIDODRINA | Vigente |
 | 20022446 | MIDODRINA 5 MG | Tableta recubierta | MIDODRINA | Vigente |
 
-Ambos registros corresponden a monofármacos de administración oral. Actualmente no hay registros vigentes.
+Ambos registros corresponden a monofármacos de administración oral.
 
 ---
 
@@ -107,13 +107,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo, sin ensayos clínicos, sin literatura y sin un mecanismo plausible (nivel L5). Además, el producto no tiene registros sanitarios vigentes en Colombia. Esta predicción no debe avanzar.
+La predicción se basa únicamente en el modelo, sin ensayos clínicos, sin literatura y sin un mecanismo plausible (nivel L5). Esta predicción no debe avanzar.
 
 **Para avanzar se necesita:**
 - Un fundamento mecanístico que justifique la relación entre la agonista alfa-1 periférica y la patología priónica. Hoy no existe.
 - Datos preclínicos o clínicos que respalden la hipótesis.
 - Obtener el prospecto de INVIMA para completar el análisis de seguridad.
-- Aclarar la situación regulatoria, ya que los dos registros están cancelados.
+- Aclarar la situación regulatoria.
 
 **Nota sobre otras predicciones del mismo fármaco:** entre las predicciones evaluadas, la de **trastorno hipotensivo** (puntaje 0.9990) tiene el respaldo más sólido. Cuenta con un ensayo de Fase 2 completado en lesión medular (NCT02893553, n=21), con múltiples revisiones y guías sobre hipotensión ortostática, y un vínculo mecanístico directo (nivel L2, "Proceed with Guardrails"). Sin embargo, esta predicción coincide en gran medida con el uso ya conocido de la midodrina, por lo que valida el modelo más que constituir un reposicionamiento novedoso. Si se busca una candidata con potencial real, conviene evaluarla en un informe específico.
 ## Descargo de responsabilidad

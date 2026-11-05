@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dextromethorphan: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Tos (supresores y expectorantes)"
 monitor_inn: "Dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,7 +76,7 @@ Otras predicciones del modelo, todas de nivel L5 y sin ensayos ni literatura, so
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20116677 (cancelado) | NOGLUPEC® JARABE | Jarabe | TOS SUPRESORES Y EXPECTORANTES |
+| 20116677 | NOGLUPEC® JARABE | Jarabe | TOS SUPRESORES Y EXPECTORANTES |
 
 ## Consideraciones de Seguridad
 
@@ -90,7 +90,7 @@ Para las advertencias y contraindicaciones del prospecto, consultar el prospecto
 **Decisión: Hold**
 
 **Justificación:**
-Todas las predicciones carecen de ensayos clínicos y de literatura, y el nivel de evidencia es L5. Además, el vínculo mecanístico con la enfermedad de la cavidad nasal no está respaldado, y el único registro sanitario en Colombia está cancelado.
+Todas las predicciones carecen de ensayos clínicos y de literatura, y el nivel de evidencia es L5. Además, el vínculo mecanístico con la enfermedad de la cavidad nasal no está respaldado.
 
 **Para avanzar se necesita:**
 - Búsqueda dirigida de literatura y ensayos clínicos sobre dextrometorfano en patología nasal

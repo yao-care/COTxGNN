@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO"
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 | Nueva Indicación Predicha | Malignant hypertensive renal disease |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,7 +103,7 @@ Para la indicación principal (hipertensión renovascular maligna) no hay litera
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 230359 (cancelado) | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales del calcio |
+| 230359 | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales del calcio |
 
 ---
 
@@ -121,7 +121,7 @@ Nota: para las advertencias y contraindicaciones del prospecto, consultar el pro
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el modelo (nivel L5) y en un racional de clase farmacológica, sin ensayos clínicos ni literatura directa. Además, el único registro sanitario en Colombia está cancelado y existe un riesgo conocido de deterioro renal con inhibidores de la ECA en estenosis de arteria renal bilateral.
+La predicción se apoya solo en el modelo (nivel L5) y en un racional de clase farmacológica, sin ensayos clínicos ni literatura directa. Además, existe un riesgo conocido de deterioro renal con inhibidores de la ECA en estenosis de arteria renal bilateral.
 
 **Para avanzar se necesita:**
 - Revisión de literatura clínica sobre inhibidores de la ECA (y específicamente trandolapril) en hipertensión renovascular maligna

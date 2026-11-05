@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 34
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Alectinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: ALECTINIB"
 monitor_inn: "ALECTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa"]
@@ -83,9 +83,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20157000 (cancelado) | ALECENSA | Cápsula dura | ALECTINIB |
+| 20157000 | ALECENSA | Cápsula dura | ALECTINIB |
 
-Fabricante: F. Hoffmann-La Roche Ltd., Basilea, Suiza. No hay registros vigentes en Colombia.
+Fabricante: F. Hoffmann-La Roche Ltd., Basilea, Suiza.
 
 ---
 
@@ -117,7 +117,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para fibromatosis gingival se basa solo en el modelo, sin ensayos, literatura ni vínculo mecanístico con la inhibición de ALK (Nivel L5). Además, el producto no tiene registro vigente en Colombia.
+La predicción para fibromatosis gingival se basa solo en el modelo, sin ensayos, literatura ni vínculo mecanístico con la inhibición de ALK (Nivel L5).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y una hipótesis biológica que relacione ALK con la fibromatosis gingival

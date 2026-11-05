@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Meperidine: nueva indicación predicha, Síndrome de Tourette (nivel de evidencia L5). Indicación original: Petidina"
 monitor_inn: "meperidine"
 predicted_indications: ["Tourette syndrome", "trichotillomania"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 ## Resumen en Una Frase
 
-La meperidina (petidina) es un analgésico opioide cuyo único registro sanitario en Colombia está cancelado. El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
+La meperidina (petidina) es un analgésico opioide. El modelo TxGNN predice que podría ser efectivo para el **síndrome de Tourette**, pero **no existen ensayos clínicos ni publicaciones** que respalden esta dirección; se trata únicamente de una predicción computacional.
 
 ---
 
@@ -84,9 +84,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20008613 (cancelado) | MEPERIDINA CLORHIDRATO 100 MG/2 ML | Solución inyectable | PETIDINA |
+| 20008613 | MEPERIDINA CLORHIDRATO 100 MG/2 ML | Solución inyectable | PETIDINA |
 
-El titular es el Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social). No hay registros vigentes, lo que limita la disponibilidad práctica del fármaco.
+El titular es el Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social).
 
 ---
 
@@ -105,13 +105,12 @@ Consultar el prospecto para la información completa de advertencias y contraind
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, sin vínculo mecanístico plausible, con un perfil de seguridad desfavorable (dependencia, normeperidina, interacciones numerosas) y sin registro sanitario vigente en Colombia.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, sin vínculo mecanístico plausible, con un perfil de seguridad desfavorable (dependencia, normeperidina, interacciones numerosas).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) y un análisis que justifique un vínculo con el síndrome de Tourette.
 - Revisión sistemática de la literatura y de registros de ensayos clínicos para esta indicación.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
-- Evaluar alternativas con mejor perfil de seguridad y disponibilidad, dado el estado cancelado del registro.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

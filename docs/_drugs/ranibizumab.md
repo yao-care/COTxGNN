@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Tetanic cataract (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19977793 (cancelado) | LUCENTIS® 10 MG/ML SOLUCIÓN INYECTABLE (Novartis Pharma AG) | Solución inyectable | RANIBIZUMAB |
+| 19977793 | LUCENTIS® 10 MG/ML SOLUCIÓN INYECTABLE (Novartis Pharma AG) | Solución inyectable | RANIBIZUMAB |
 
 ---
 
@@ -114,7 +114,7 @@ Consultar el prospecto para el resto de la información de seguridad (advertenci
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El vínculo mecanístico (inhibición de VEGF) es directo y la literatura incluye ensayos aleatorizados y análisis de estudios de Fase 3 en retinopatía diabética. Sin embargo, no hay ensayos registrados en los datos, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto.
+El vínculo mecanístico (inhibición de VEGF) es directo y la literatura incluye ensayos aleatorizados y análisis de estudios de Fase 3 en retinopatía diabética. Sin embargo, no hay ensayos registrados en los datos, faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Verificar los textos completos y los registros de ensayos (RIDE/RISE, Pavilion) para confirmar el nivel L1.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario"
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -52,8 +52,8 @@ pero hoy solo hay **0 ensayos clínicos** y **1 publicación** indirecta que res
 | Nueva Indicación Predicha | Tendinitis |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 (solo evidencia indirecta; no hay estudios directos en tendinitis) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -89,7 +89,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 | 20105211 | DEXKETOVITAE 25 MG/10ML | Solución oral | Dexketoprofeno | Vigente |
 | 20103268 | DEXKETOVITAE® 25 MG comprimidos recubiertos | Tableta recubierta | Dexketoprofeno | Vigente |
 
-Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S. y no hay registros vigentes.
+Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S.
 
 ---
 
@@ -106,11 +106,11 @@ No se encontraron interacciones farmacológicas registradas en los datos compila
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para tendinitis tiene un puntaje alto del modelo y un mecanismo plausible. Sin embargo, no hay ensayos clínicos y la única publicación es indirecta. Además, los dos registros sanitarios en Colombia están cancelados.
+La predicción para tendinitis tiene un puntaje alto del modelo y un mecanismo plausible. Sin embargo, no hay ensayos clínicos y la única publicación es indirecta.
 
 **Para avanzar se necesita:**
 - Estudios clínicos o revisiones que evalúen dexketoprofeno específicamente en tendinitis.
-- Verificar la disponibilidad regulatoria, porque no hay registros vigentes en Colombia.
+- Verificar la disponibilidad regulatoria.
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 

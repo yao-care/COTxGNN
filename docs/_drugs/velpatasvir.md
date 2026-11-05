@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 655
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Velpatasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Sofosbuvir + velpatasvir"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -100,7 +100,7 @@ Los estudios recuperados tratan el VHC. El VHB aparece solo como riesgo de react
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20126648 (cancelado) | EPCLUSA® | Tableta recubierta | Sofosbuvir + velpatasvir |
+| 20126648 | EPCLUSA® | Tableta recubierta | Sofosbuvir + velpatasvir |
 
 ---
 
@@ -121,12 +121,12 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Decisión: Hold**
 
 **Justificación:**
-Velpatasvir actúa sobre NS5A del VHC y no tiene actividad conocida contra el VHB. El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, y la evidencia disponible se limita a la hepatitis C, sin datos de eficacia contra el VHB. Además, el único registro sanitario en Colombia está cancelado.
+Velpatasvir actúa sobre NS5A del VHC y no tiene actividad conocida contra el VHB. El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, y la evidencia disponible se limita a la hepatitis C, sin datos de eficacia contra el VHB.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de velpatasvir, y estudios preclínicos in vitro que evalúen su actividad frente al VHB.
 - Información de seguridad completa (advertencias y contraindicaciones) del prospecto de INVIMA.
-- Aclarar el estado regulatorio local, dado que el registro está cancelado.
+- Aclarar el estado regulatorio local.
 - Los demás candidatos (hepatitis E, hepatitis A, VIH, fiebres hemorrágicas virales y otros) no cuentan con base mecanística ni evidencia directa; se recomienda mantenerlos en espera.
 ## Descargo de responsabilidad
 

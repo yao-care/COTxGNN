@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Fexofenadine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Fexofenadina (antihistamínico)"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Conjuntivitis por rosácea |
 | Puntaje de Predicción TxGNN | 0.9985 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -75,8 +75,6 @@ Sin embargo, este vínculo es **hipotético**. La conjuntivitis por rosácea dep
 | 20235810 | NASOFREE® | Tableta recubierta | Fexofenadina | Vigente |
 | 20191835 | ALERMED® D | Tableta recubierta | Fenilefrina combinaciones | Vigente |
 
-Ambos registros están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en el mercado colombiano.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -93,14 +91,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La única base de la propuesta es una predicción computacional (nivel L5) sin ensayos clínicos ni literatura, y el vínculo mecanístico entre el bloqueo H1 y la conjuntivitis por rosácea es hipotético. Además, no hay registros sanitarios vigentes en Colombia.
+La única base de la propuesta es una predicción computacional (nivel L5) sin ensayos clínicos ni literatura, y el vínculo mecanístico entre el bloqueo H1 y la conjuntivitis por rosácea es hipotético.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura sobre antihistamínicos en rosácea ocular y blefaroconjuntivitis
 - Datos del mecanismo de acción y estudios preclínicos que vinculen la vía de la histamina con la rosácea ocular
 - Evaluación de la compatibilidad de vía de administración (probablemente oftálmica, frente a las formas orales registradas)
 - Descargar y revisar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales
-- Definir la situación regulatoria (nuevo registro o reactivación), dado que los dos registros existentes están cancelados
+- Definir la situación regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

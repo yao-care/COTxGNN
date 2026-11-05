@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: DASATINIB"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, con 
 | Nueva Indicación Predicha | Sarcoma de Ewing |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 según la clasificación de los datos compilados; sin embargo, los ensayos son un ensayo de Fase 2 en sarcomas mixtos y un ensayo de Fase 1/2 terminado con 7 pacientes, por lo que la evidencia específica para Ewing es débil y se interpreta con cautela |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -132,7 +132,7 @@ No se dispone de texto de prospecto en los datos compilados. A continuación se 
 **Decisión: Hold**
 
 **Justificación:**
-Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclínico en sarcoma de Ewing, pero la evidencia clínica es débil: un ensayo de Fase 2 en sarcomas mixtos que no demostró eficacia como agente único en Ewing, y un ensayo pediátrico terminado con 7 pacientes. Además, los tres registros sanitarios en Colombia están cancelados y no hay datos de prospecto.
+Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclínico en sarcoma de Ewing, pero la evidencia clínica es débil: un ensayo de Fase 2 en sarcomas mixtos que no demostró eficacia como agente único en Ewing, y un ensayo pediátrico terminado con 7 pacientes. Además, no hay datos de prospecto.
 
 **Para avanzar se necesita:**
 - Datos de eficacia específicos de sarcoma de Ewing, preferiblemente de combinaciones (por ejemplo, el régimen RIST) en estudios prospectivos.

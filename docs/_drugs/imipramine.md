@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Imipramine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo i…"
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -52,8 +52,8 @@ sin **ensayos clínicos** registrados y con **20 publicaciones** asociadas, la m
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,8 +97,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 58148 (cancelado) | IMIPRAMINA 25 MG | Tableta recubierta | Imipramina |
-| 20028647 (cancelado) | IMIPRAMINA CLORHIDRATO 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Imipramina |
+| 58148 | IMIPRAMINA 25 MG | Tableta recubierta | Imipramina |
+| 20028647 | IMIPRAMINA CLORHIDRATO 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Imipramina |
 
 ---
 
@@ -122,7 +122,7 @@ La evidencia es de nivel L3, sin ensayos clínicos registrados y con estudios de
 - Verificar el diseño de los estudios clave (especialmente los de 1983 y 2008) y buscar ECA o metaanálisis de imipramina en TDAH.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto en INVIMA para advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
-- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia.
+- Evaluar la viabilidad regulatoria.
 - Definir un plan de monitoreo cardiovascular (ECG) y de interacciones para poblaciones pediátricas.
 ## Descargo de responsabilidad
 

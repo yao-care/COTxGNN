@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 52
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ AMLODIPINO es un fármaco de la clase de bloqueadores de canales de calcio, reco
 | Nueva Indicación Predicha | Sin predicciones disponibles |
 | Puntaje de Predicción TxGNN | N/D |
 | Nivel de Evidencia | N/D |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -63,8 +63,6 @@ El modelo TxGNN no produjo indicaciones predichas para AMLODIPINO en este Eviden
 **Brecha bloqueante en seguridad (DG001):** No se recuperaron las advertencias ni contraindicaciones del prospecto oficial. Este dato tiene severidad *Bloqueante*, lo que significa que el pipeline no puede completar la evaluación de seguridad inicial (S1) necesaria como insumo para el modelo.
 
 **Mecanismo de acción no disponible (DG002):** Aunque la consulta a DrugBank reportó 1 resultado en el log de consultas, el campo `original_moa` no fue poblado en el Evidence Pack. Sin este dato, el modelo carece de las relaciones mecanísticas necesarias para proyectar nuevas indicaciones con fundamento biológico.
-
-**Ausencia de registros regulatorios locales:** AMLODIPINO no figura con ningún registro sanitario en el sistema consultado (0 licencias), lo que reduce adicionalmente la información de contexto disponible para el análisis.
 
 ---
 

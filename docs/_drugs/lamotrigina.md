@@ -5,7 +5,7 @@ layout: default
 title: Lamotrigina
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 375
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | LAMOTRIGINA |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 15) |
 
 ---
 

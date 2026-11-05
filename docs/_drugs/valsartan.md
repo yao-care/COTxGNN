@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L4). Indicación original: VALSARTAN Y DIURETICOS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad renal hipe
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -75,7 +75,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19980966 (cancelado) | DIOVAN® HCT 320 / 12.5 MG | Tableta recubierta | Valsartán y diuréticos |
+| 19980966 | DIOVAN® HCT 320 / 12.5 MG | Tableta recubierta | Valsartán y diuréticos |
 
 ## Consideraciones de Seguridad
 
@@ -88,7 +88,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto del modelo, pero carece de ensayos clínicos y la única publicación vinculada es preclínica y no evalúa valsartán. Además, el único registro sanitario en Colombia está cancelado y no hay datos de seguridad de prospecto.
+La predicción tiene un puntaje alto del modelo, pero carece de ensayos clínicos y la única publicación vinculada es preclínica y no evalúa valsartán. Además, no hay datos de seguridad de prospecto.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción específicos de valsartán.

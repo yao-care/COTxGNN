@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 113
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Brentu…"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -101,7 +101,7 @@ Los ensayos que combinan brentuximab con rituximab o bendamustina dan una base b
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20058697 (cancelado) | ADCETRIS® (Takeda Colombia S.A.S) | Polvo estéril para reconstituir a solución inyectable | Brentuximab vedotina |
+| 20058697 | ADCETRIS® (Takeda Colombia S.A.S) | Polvo estéril para reconstituir a solución inyectable | Brentuximab vedotina |
 
 ---
 
@@ -130,7 +130,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Decisión: Hold**
 
 **Justificación:**
-El único ensayo directamente relevante (NCT04587687) está en curso con 23 pacientes y sin resultados disponibles. Los demás fueron retirados o terminados, y la literatura no aborda el linfoma folicular. Además, el registro en Colombia está cancelado y faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la evaluación de seguridad.
+El único ensayo directamente relevante (NCT04587687) está en curso con 23 pacientes y sin resultados disponibles. Los demás fueron retirados o terminados, y la literatura no aborda el linfoma folicular. Además, faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la evaluación de seguridad.
 
 **Para avanzar se necesita:**
 - Resultados del ensayo NCT04587687 en linfoma folicular en recaída o refractario

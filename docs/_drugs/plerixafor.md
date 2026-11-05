@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
@@ -78,8 +78,6 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 | 20056150 | Mozobil® (Genzyme Corporation) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
 | 20187826 | Aurople­ristem 20 mg/ml (Eugia Pharma Specialities Limited) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
 
-Los tres registros están **cancelados**; actualmente no hay registros vigentes en Colombia.
-
 ## Consideraciones de Seguridad
 
 - **Contraindicaciones señaladas por el grafo de conocimiento** (no provienen del texto del prospecto): trombocitopenia, enfermedad con función renal alterada y leucemia.
@@ -92,7 +90,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayos ni literatura, y el uso actual de plerixafor en mieloma es de apoyo y no sobre la enfermedad. Además, no hay registros sanitarios vigentes en Colombia.
+La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayos ni literatura, y el uso actual de plerixafor en mieloma es de apoyo y no sobre la enfermedad.
 
 **Nota sobre otras predicciones:** Entre las indicaciones predichas, la **leucemia mieloide** es la que tiene más respaldo (27 ensayos de fase 1 y 1/2, y revisiones sobre CXCR4 en leucemia mieloide aguda; nivel L2). Aun así, los ensayos son pequeños, de brazo único y varios terminaron antes de tiempo, por lo que no se ha demostrado superioridad frente al tratamiento estándar. Si se busca una línea de reposicionamiento, conviene evaluarla como pregunta de investigación.
 
@@ -100,7 +98,7 @@ La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayo
 - Estudios preclínicos o clínicos de plerixafor específicos en mieloma de células plasmáticas indolente
 - Datos detallados del mecanismo de acción
 - Prospecto con advertencias y contraindicaciones oficiales
-- Aclarar la situación regulatoria en Colombia, ya que los tres registros están cancelados
+- Aclarar la situación regulatoria en Colombia
 - Evaluación de seguridad dadas las contraindicaciones señaladas (trombocitopenia, alteración renal)
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 42
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Alteplasa: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: Alteplasa"
 monitor_inn: "ALTEPLASE"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Alteplasa es un activador del plasminógeno tisular recombinante (trombolítico), registrado en Colombia con el producto Actilyse 50 mg, cuyo registro sanitario figura hoy como cancelado.
+Alteplasa es un activador del plasminógeno tisular recombinante (trombolítico), registrado en Colombia con el producto Actilyse 50 mg.
 El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio posteroinferior**, pero **no hay ensayos clínicos ni publicaciones** específicos para esta indicación que respalden la predicción.
 
 ---
@@ -92,7 +92,7 @@ Las siguientes predicciones secundarias sí cuentan con algo de evidencia, aunqu
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 33103 (cancelado) | ACTILYSE 50 MG (Boehringer Ingelheim International GmbH) | Polvo liofilizado para reconstituir a solución inyectable | ALTEPLASE |
+| 33103 | ACTILYSE 50 MG (Boehringer Ingelheim International GmbH) | Polvo liofilizado para reconstituir a solución inyectable | ALTEPLASE |
 
 ---
 
@@ -112,7 +112,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el infarto posteroinferior carece de ensayos y literatura específicos (L5). Además, probablemente corresponde a un subtipo de un uso ya establecido de la trombólisis, y no a un reposicionamiento real. El único registro sanitario en Colombia está cancelado.
+La predicción para el infarto posteroinferior carece de ensayos y literatura específicos (L5). Además, probablemente corresponde a un subtipo de un uso ya establecido de la trombólisis, y no a un reposicionamiento real.
 
 **Para avanzar se necesita:**
 - Aclarar si esta indicación aporta algo más allá de la trombólisis ya establecida en infarto con elevación del ST.

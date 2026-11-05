@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tretinoin: nueva indicación predicha, Nódulos reumatoides (rheumatoid nodulosis) (nivel de evidencia L5). Indicación original: Tretinoína en combinaciones"
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **nódulos reumatoides (rh
 | Nueva Indicación Predicha | Nódulos reumatoides (rheumatoid nodulosis) |
 | Puntaje de Predicción TxGNN | 0.9984 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -116,7 +116,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura que evalúen tretinoína en nódulos reumatoides. Además, no hay registros vigentes en Colombia, y las dos publicaciones recuperadas para otra predicción (osteoartritis) no tienen relación con tretinoína.
+La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura que evalúen tretinoína en nódulos reumatoides. Además, las dos publicaciones recuperadas para otra predicción (osteoartritis) no tienen relación con tretinoína.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto oficial de INVIMA para completar la revisión de advertencias y contraindicaciones (brecha de datos bloqueante).

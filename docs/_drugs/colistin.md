@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "colistin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Colistin: nueva indicación predicha, vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: HIDROCORTISONA Y ANTIINFECCIOSOS"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 | Nueva Indicación Predicha | vasculitis postinfecciosa (postinfectious vasculitis) |
 | Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

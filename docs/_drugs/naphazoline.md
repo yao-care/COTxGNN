@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Nafazolina"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 7) |
-| Número de Registros Sanitarios | al menos 8 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 17 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 17) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,8 +83,6 @@ Para la predicción de glaucoma de ángulo abierto (rank 8) existe una publicaci
 
 ## Información de Mercado en Colombia
 
-Los 8 registros sanitarios están cancelados; no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20177412 | DILAOFTAL® | Solución oftálmica | Nafazolina |
@@ -112,7 +110,7 @@ No se dispone de las advertencias y contraindicaciones del prospecto; consultar 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni literatura, y carece de plausibilidad biológica. Además, no hay productos vigentes en Colombia y existen alertas de seguridad en patologías oculares y cardiovasculares.
+La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni literatura, y carece de plausibilidad biológica. Además, existen alertas de seguridad en patologías oculares y cardiovasculares.
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística creíble que vincule la vasoconstricción alfa-adrenérgica con el ciclo del folículo piloso (hoy inexistente)

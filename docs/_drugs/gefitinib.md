@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-06
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Gefitinib"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
@@ -107,8 +107,6 @@ Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. To
 | 20217433 | GEFBOOK® 250 | Tableta recubierta | Gefitinib |
 | 20187314 | GEFTRA® 250 MG | Tableta recubierta | Gefitinib |
 
-Los cuatro registros están cancelados; actualmente no hay productos con registro vigente.
-
 ---
 
 ## Citotoxicidad
@@ -139,7 +137,7 @@ Los cuatro registros están cancelados; actualmente no hay productos con registr
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal (fibromatosis gingival) solo cuenta con el puntaje del modelo, sin ensayos ni literatura, y no existe un vínculo mecanístico documentado. Además, no hay registros sanitarios vigentes en Colombia y el perfil de seguridad de gefitinib (neumonitis, toxicidad hepática y cutánea) exige una justificación sólida para cualquier nuevo uso.
+La predicción principal (fibromatosis gingival) solo cuenta con el puntaje del modelo, sin ensayos ni literatura, y no existe un vínculo mecanístico documentado. Además, el perfil de seguridad de gefitinib (neumonitis, toxicidad hepática y cutánea) exige una justificación sólida para cualquier nuevo uso.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales.

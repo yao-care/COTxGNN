@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: ARIPIPRAZOL"
@@ -50,8 +50,8 @@ Aripiprazol es un antipsicótico atípico, registrado en Colombia bajo el nombre
 | Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -131,12 +131,11 @@ Para advertencias, contraindicaciones oficiales e interacciones específicas, co
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen múltiples ensayos de fase 3 completados, aleatorizados y controlados con placebo (más de 1000 participantes en varios), además de metaanálisis en red que respaldan el aripiprazol como adyuvante en depresión resistente (nivel L1). Sin embargo, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto y del mecanismo de acción oficial, por lo que se recomienda avanzar con salvaguardas.
+Existen múltiples ensayos de fase 3 completados, aleatorizados y controlados con placebo (más de 1000 participantes en varios), además de metaanálisis en red que respaldan el aripiprazol como adyuvante en depresión resistente (nivel L1). Sin embargo, faltan datos de seguridad del prospecto y del mecanismo de acción oficial, por lo que se recomienda avanzar con salvaguardas.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto aprobado por INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el cribado de seguridad).
 - Confirmar el mecanismo de acción en DrugBank.
-- Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o una renovación, y precisar la indicación autorizada previamente.
 - Definir un plan de monitoreo metabólico, cardiovascular y hematológico, y de conductas impulsivo-compulsivas, dados los riesgos señalados por la literatura y la información del medicamento.
 - Verificar que las indicaciones y dosis adyuvantes en depresión sean coherentes con las guías clínicas locales.
 ## Descargo de responsabilidad

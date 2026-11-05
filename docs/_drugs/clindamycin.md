@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Clindamicina combinaciones"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -52,8 +52,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicació
 | Nueva Indicación Predicha | Queratoconjuntivitis epitelial punteada |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,7 +114,7 @@ La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo
 - Estudios preclínicos o de farmacocinética ocular que respalden una vía tópica oftálmica
 - Revisión del prospecto (advertencias y contraindicaciones) para completar la evaluación de seguridad
 - Confirmar la causa (infecciosa o no) de la queratopatía epitelial punteada, para definir si hay un papel plausible de un antibacteriano
-- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia
+- Evaluar la situación regulatoria
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

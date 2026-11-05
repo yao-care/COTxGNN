@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Carbamazepina"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -52,8 +52,8 @@ La relación es sintomática e indirecta: el fármaco alivia el dolor neuropáti
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,9 +97,7 @@ Se muestran las publicaciones más relevantes de las 20 recuperadas (la evidenci
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 226679 (cancelado) | TEGRETOL® 2% SUSPENSION | Suspensión oral | CARBAMAZEPINA |
-| 227365 (cancelado) | TEGRETOL® RETARD DE 400 MG | Tableta de liberación prolongada | CARBAMAZEPINA |
-
-Ambos registros pertenecen a Novartis Pharma AG y están cancelados; no hay registros vigentes.
+| 227365 | TEGRETOL® RETARD DE 400 MG | Tableta de liberación prolongada | CARBAMAZEPINA |
 
 ---
 
@@ -123,7 +121,7 @@ La evidencia es de nivel L4: no hay ensayos clínicos y la literatura consiste e
 - Definir si el objetivo es el control sintomático del dolor (indicación ya conocida) o un efecto antitumoral (sin respaldo).
 - Obtener el prospecto oficial para advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción con datos de DrugBank.
-- Verificar el estado regulatorio, dado que los dos registros están cancelados.
+- Verificar el estado regulatorio.
 - Revisar candidatos alternativos con mayor respaldo, como epilepsias reflejas (startle, lectura), donde existen series clínicas con carbamazepina, aunque también con evidencia de nivel L4.
 ## Descargo de responsabilidad
 

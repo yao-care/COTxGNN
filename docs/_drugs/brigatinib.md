@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Brigatinib"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -52,8 +52,8 @@ Se trata de una predicción del modelo TxGNN (aprendizaje profundo), sin evidenc
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20193913 | ALUNBRIG® 90MG | Tableta recubierta | BRIGATINIB | Vigente |
 | 20193910 | ALUNBRIG® 30MG | Tableta recubierta | BRIGATINIB | Vigente |
 
-Ambos registros pertenecen a Takeda Colombia S.A.S. y se encuentran cancelados; actualmente no hay registros vigentes.
+Ambos registros pertenecen a Takeda Colombia S.A.S.
 
 ---
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones, consultar el prospecto. Un reporte de ca
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para fibromatosis gingival es solo una puntuación del modelo (nivel L5), sin ensayos, sin publicaciones y sin un vínculo mecanístico identificable. Además, los registros sanitarios en Colombia están cancelados.
+La predicción para fibromatosis gingival es solo una puntuación del modelo (nivel L5), sin ensayos, sin publicaciones y sin un vínculo mecanístico identificable.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.

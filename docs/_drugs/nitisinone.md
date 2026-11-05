@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 470
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Nitisinone: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: NITISINONA"
 monitor_inn: "nitisinone"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
@@ -81,7 +81,7 @@ Actualmente no hay literatura relacionada disponible para acidosis tubular renal
 
 ## Información de Mercado en Colombia
 
-Todos los registros son de VEXXOR MEDICAL INC. y están **cancelados**; no hay productos vigentes.
+Todos los registros son de VEXXOR MEDICAL INC.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -90,8 +90,6 @@ Todos los registros son de VEXXOR MEDICAL INC. y están **cancelados**; no hay p
 | 20141256 | NITISINONA 2 MG | Cápsula dura | NITISINONA |
 | 20144070 | NITISOR® 10 MG CAPSULAS | Cápsula dura | NITISINONA |
 | 20140690 | NITISOR® 2 MG | Cápsula dura | NITISINONA |
-
-(Se muestran 5 de los 6 registros; el sexto, 20110232, NITISOR® 5 MG cápsulas, también está cancelado.)
 
 ---
 
@@ -107,7 +105,7 @@ Todos los registros son de VEXXOR MEDICAL INC. y están **cancelados**; no hay p
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni publicaciones, y el vínculo con la acidosis tubular renal es solo indirecto, a través de la tirosinemia tipo 1. Además, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto.
+La predicción se basa únicamente en el modelo (nivel L5), sin ensayos ni publicaciones, y el vínculo con la acidosis tubular renal es solo indirecto, a través de la tirosinemia tipo 1. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.

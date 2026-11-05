@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para VIH tiene un puntaje alto del modelo, pero solo cuenta con un estudio preclínico indirecto y sin ensayos clínicos (nivel L4). Además, los registros en Colombia están cancelados y el perfil de seguridad (toxicidad hepática, renal y hematológica) exige cautela.
+La predicción para VIH tiene un puntaje alto del modelo, pero solo cuenta con un estudio preclínico indirecto y sin ensayos clínicos (nivel L4). Además, el perfil de seguridad (toxicidad hepática, renal y hematológica) exige cautela.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco (por ejemplo, desde DrugBank)

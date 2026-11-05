@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: RAMIPRIL"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Ramipril es un inhibidor de la enzima convertidora de angiotensina (IECA) que cuenta con un registro sanitario en Colombia, actualmente cancelado; en ese registro la indicación aprobada figura solo como "RAMIPRIL", sin una enfermedad específica.
+Ramipril es un inhibidor de la enzima convertidora de angiotensina (IECA) que cuenta con un registro sanitario en Colombia; en ese registro la indicación aprobada figura solo como "RAMIPRIL", sin una enfermedad específica.
 El modelo TxGNN predice que podría ser efectivo para **hipertensión pulmonar de mecanismo multifactorial no aclarado**.
 Para esta predicción no hay ensayos clínicos ni publicaciones; la evidencia disponible se limita a **1 estudio preclínico en ratas** que se refiere a una forma cercana (hipertensión pulmonar por hipoxia).
 
@@ -90,9 +90,9 @@ Los demás artículos recuperados para la indicación cercana tratan sobre conte
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20160917 (cancelado) | IPCA RAMCOR 5 | Cápsula dura | RAMIPRIL |
+| 20160917 | IPCA RAMCOR 5 | Cápsula dura | RAMIPRIL |
 
-Fabricante: IPCA Laboratories Limited. No hay registros vigentes.
+Fabricante: IPCA Laboratories Limited.
 
 ---
 
@@ -123,14 +123,14 @@ Consultar el prospecto para información de seguridad adicional, ya que no se di
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura directa en humanos, y el único dato de apoyo es un estudio en ratas sobre hipertensión pulmonar hipóxica. Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura directa en humanos, y el único dato de apoyo es un estudio en ratas sobre hipertensión pulmonar hipóxica.
 
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción detallado desde DrugBank.
 - Obtener del INVIMA el prospecto con advertencias y contraindicaciones, y aclarar la indicación aprobada del registro.
 - Realizar una revisión sistemática de la literatura sobre IECA en hipertensión pulmonar en humanos.
 - Evaluar estudios preclínicos adicionales y, solo si son favorables, considerar un ensayo exploratorio de fase 2.
-- Aclarar la situación comercial de ramipril en Colombia, dado que el registro está cancelado.
+- Aclarar la situación comercial de ramipril en Colombia.
 - Definir un plan de seguridad que contemple función renal, potasio y presión arterial.
 ## Descargo de responsabilidad
 

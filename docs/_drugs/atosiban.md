@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Atosiban: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Atosiban"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Glaucoma hereditario primario |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -105,8 +105,6 @@ Actualmente no hay literatura relacionada disponible para glaucoma hereditario p
 | 20131614 | EVERPREM® solución para infusión 6.75 mg/0.9 mL | Solución para infusión | Atosiban | Vigente |
 | 20131612 | EVERPREM® concentrado para solución para infusión 37.5 mg/5 mL | Solución concentrada para infusión | Atosiban | Vigente |
 
-Ambos registros pertenecen a Ever Valinject GmbH y están cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -123,7 +121,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto. Consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para glaucoma hereditario primario se basa únicamente en el modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico demostrado. Además, los dos registros sanitarios en Colombia están cancelados y no se dispone de información de seguridad del prospecto.
+La predicción para glaucoma hereditario primario se basa únicamente en el modelo (L5), sin ensayos clínicos, literatura ni vínculo mecanístico demostrado. Además, no se dispone de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual es un requisito previo para cualquier evaluación de seguridad

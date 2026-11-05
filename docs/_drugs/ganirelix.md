@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ganirelix: nueva indicación predicha, Hipertricosis (nivel de evidencia L5). Indicación original: Ganirelix"
 monitor_inn: "GANIRELIX"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20254283 (cancelado) | NOVOLEX 0.25 MG/0.5 ML solución inyectable en jeringa precargada (GEDEON RICHTER PLC) | Solución inyectable | Ganirelix |
+| 20254283 | NOVOLEX 0.25 MG/0.5 ML solución inyectable en jeringa precargada (GEDEON RICHTER PLC) | Solución inyectable | Ganirelix |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Retinol (vitamina A)"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad congénita po
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina (rank 1 del modelo) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 (para la indicación principal); la candidata con más soporte, enfermedad perinatal, alcanza L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,14 +106,14 @@ Para la indicación principal no hay literatura disponible. Las publicaciones m�
 **Decisión: Hold**
 
 **Justificación:**
-La indicación con mayor puntaje del modelo (deficiencia congénita de protrombina) carece de evidencia y de plausibilidad biológica. La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto.
+La indicación con mayor puntaje del modelo (deficiencia congénita de protrombina) carece de evidencia y de plausibilidad biológica. La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, faltan datos de seguridad de prospecto.
 
 **Para avanzar se necesita:**
 - Obtener las advertencias y contraindicaciones del prospecto en INVIMA (brecha bloqueante para el tamizaje de seguridad).
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Verificar los ensayos clínicos aleatorizados primarios detrás de las revisiones Cochrane, porque el nivel L1 de enfermedad perinatal se basa en esas revisiones y no en ensayos incluidos en los datos.
 - Delimitar la indicación perinatal a una condición concreta (por ejemplo, displasia broncopulmonar en prematuros de muy bajo peso) y evaluar la vía de administración (intramuscular) y su viabilidad.
-- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).
+- Evaluar la situación regulatoria, el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

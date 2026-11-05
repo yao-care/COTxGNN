@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Moroctocog Alfa: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Coagulación factores VIII"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -88,7 +88,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20046518 | XYNTHA® 1000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
 | 20005015 | XYNTHA® 250 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
 
-Todos los registros pertenecen a PFIZER S.A.S. y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia.
+Todos los registros pertenecen a PFIZER S.A.S.
 
 ## Consideraciones de Seguridad
 
@@ -101,7 +101,7 @@ En la consulta de interacciones farmacológicas no se encontraron interacciones 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la fisiopatología de los trastornos plaquetarios no responde a la reposición de factor VIII. Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local.
+La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la fisiopatología de los trastornos plaquetarios no responde a la reposición de factor VIII.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto (advertencias y contraindicaciones) desde INVIMA para completar la evaluación de seguridad.

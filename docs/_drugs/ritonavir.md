@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
@@ -52,8 +52,8 @@ Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye un
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 5) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,8 +101,6 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20149871 | ZANAVIR-R | Tableta recubierta | Atazanavir + ritonavir |
 | 20197888 | ETEVIHR® R | Tableta recubierta | Darunavir + ritonavir |
 
-Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -125,7 +123,7 @@ La predicción se apoya únicamente en estudios preclínicos y in vitro en model
 - Definir si existe un uso relevante (por ejemplo, investigación en modelos animales de VIH) o si la predicción debe descartarse como indicación humana.
 - Obtener el mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
-- Aclarar el estado regulatorio, dado que no hay registros vigentes en Colombia.
+- Aclarar el estado regulatorio.
 - Confirmar el papel específico de ritonavir en cada estudio de la literatura, pues varios evalúan regímenes combinados.
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 234
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: DOXAZOSINA"
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña |
 | Puntaje de Predicción TxGNN | 0.9920 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,13 +104,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a una publicación de 1997 de carácter descriptivo, sin ensayos clínicos registrados, de modo que el alto puntaje TxGNN no tiene respaldo clínico. Además, el único registro sanitario está cancelado y hay un alto número de interacciones farmacológicas y un riesgo hipotensor que complican el desarrollo.
+La evidencia se limita a una publicación de 1997 de carácter descriptivo, sin ensayos clínicos registrados, de modo que el alto puntaje TxGNN no tiene respaldo clínico. Además, hay un alto número de interacciones farmacológicas y un riesgo hipotensor que complican el desarrollo.
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre bloqueadores alfa-1 en la profilaxis de la migraña
 - Datos del mecanismo de acción y análisis del vínculo mecanístico
 - Advertencias y contraindicaciones del prospecto aprobado
-- Aclarar la indicación original aprobada y la situación del registro cancelado
 - Si se continúa, un ensayo piloto controlado con monitoreo de presión arterial ortostática
 
 ---

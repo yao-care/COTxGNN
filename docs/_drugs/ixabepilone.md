@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Ixabepilona"
 monitor_inn: "ixabepilone"
 predicted_indications: ["Ewing sarcoma", "salivary gland type cancer of the breast", "breast papillomatosis", "breast leiomyoma", "breast lipoma", "diabetic mastopathy", "benign neoplasm of male breast", "giant adenofibroma of the breast", "infiltrating nipple syringomatous adenoma", "subareolar duct papillomatosis"]
@@ -117,13 +117,13 @@ Sin embargo, los datos disponibles no identifican una señal de eficacia suficie
 **Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 2 completado en tumores sólidos pediátricos refractarios que incluye Sarcoma de Ewing (nivel L2), pero no se identificó una señal de eficacia que respalde su adopción. Además, los registros sanitarios en Colombia están cancelados, el perfil de toxicidad es considerable (mielosupresión y neuropatía) y no se dispone del prospecto oficial.
+Existe un ensayo de Fase 2 completado en tumores sólidos pediátricos refractarios que incluye Sarcoma de Ewing (nivel L2), pero no se identificó una señal de eficacia que respalde su adopción.
 
 **Para avanzar se necesita:**
 - Obtener los resultados de eficacia (tasa de respuesta específica en Sarcoma de Ewing) de los estudios NCT00331643 y 20068084.
 - Descargar y analizar el prospecto oficial del INVIMA para completar el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Evaluar la disponibilidad real del fármaco en Colombia, dado que ambos registros están cancelados, y definir una vía regulatoria en caso de interés.
+- Evaluar la disponibilidad real del fármaco en Colombia, definir una vía regulatoria en caso de interés.
 - Comparar con las alternativas estándar en Sarcoma de Ewing refractario.
 
 *Nota: las otras nueve predicciones del modelo (afecciones mamarias benignas o raras) carecen de evidencia específica y se mantienen en Hold; su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica propia de cada enfermedad.*

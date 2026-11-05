@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 365
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L5). Indicación original: KETAMINA"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -52,8 +52,8 @@ con **9 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Trastorno de cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9933 |
 | Nivel de Evidencia | L1 (condicionado: ver nota en la conclusión) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -105,9 +105,9 @@ Nota: el conjunto de literatura incluye además estudios sobre ketamina en depre
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 49510 (cancelado) | KETAMINA I.V. | Solución inyectable | KETAMINA |
+| 49510 | KETAMINA I.V. | Solución inyectable | KETAMINA |
 
-Fabricante: FEPARVI S.A.S. Actualmente no hay registros vigentes.
+Fabricante: FEPARVI S.A.S.
 
 ---
 
@@ -125,13 +125,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen varios ensayos clínicos directamente relacionados con cefalea (incluido un ensayo de Fase 3 completado y otro de Fase 3 en curso), junto con revisiones sistemáticas, pero las muestras son pequeñas y no se dispone de resultados. El nivel L1 asignado por el sistema es optimista: solo hay un ECA de Fase 3 completado (n=80) y sus resultados no se han verificado, por lo que el nivel real podría ser menor hasta confirmarlos. Además, el único registro sanitario en Colombia está cancelado, y el perfil de contraindicaciones cardiovasculares y cerebrovasculares exige cautela.
+Existen varios ensayos clínicos directamente relacionados con cefalea (incluido un ensayo de Fase 3 completado y otro de Fase 3 en curso), junto con revisiones sistemáticas, pero las muestras son pequeñas y no se dispone de resultados. El nivel L1 asignado por el sistema es optimista: solo hay un ECA de Fase 3 completado (n=80) y sus resultados no se han verificado, por lo que el nivel real podría ser menor hasta confirmarlos. Además, el perfil de contraindicaciones cardiovasculares y cerebrovasculares exige cautela.
 
 **Para avanzar se necesita:**
 - Revisar los resultados publicados de THINK (NCT03081416) y de los demás ensayos completados, y esperar los de KetHead (NCT05306899).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
 - Confirmar el mecanismo de acción con DrugBank.
-- Definir la vía de administración requerida (intravenosa vs. intranasal) y su disponibilidad en Colombia, dado que no hay registro vigente.
+- Definir la vía de administración requerida (intravenosa vs. intranasal) y su disponibilidad en Colombia.
 - Establecer criterios de exclusión y monitoreo cardiovascular y de presión arterial, y evaluar el riesgo de abuso por ser sustancia controlada.
 ## Descargo de responsabilidad
 

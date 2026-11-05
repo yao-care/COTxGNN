@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Ramucirumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"RAMUCI…"
 monitor_inn: "RAMUCIRUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "cervical adenosquamous carcinoma, glassy cell variant", "uterine ligament endometrioid adenocarcinoma", "uterine ligament clear cell adenocarcinoma", "uterine ligament mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
@@ -98,7 +98,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20111011 (cancelado) | CYRAMZA® (ELI LILLY & COMPANY) | Solución concentrada para infusión | RAMUCIRUMAB (sin detalle de indicación) |
+| 20111011 | CYRAMZA® (ELI LILLY & COMPANY) | Solución concentrada para infusión | RAMUCIRUMAB (sin detalle de indicación) |
 
 ---
 
@@ -134,7 +134,7 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el puntaje de TxGNN (nivel L5), sin ensayos clínicos ni literatura. Además, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.
+La predicción se basa únicamente en el puntaje de TxGNN (nivel L5), sin ensayos clínicos ni literatura. Además, faltan datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante)

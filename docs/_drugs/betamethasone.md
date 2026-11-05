@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 104
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **alopecia mucinosa (alopecia
 | Nueva Indicación Predicha | Alopecia mucinosa |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

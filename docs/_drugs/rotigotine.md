@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L4). Indicación original: Rotigotina"
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -52,8 +52,8 @@ pero **no hay ensayos clínicos** y solo hay **3 publicaciones** indirectas (rev
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,7 +88,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20019919 (cancelado) | NEUPRO® 6 MG/24 H | Sistemas de liberación | ROTIGOTINA |
+| 20019919 | NEUPRO® 6 MG/24 H | Sistemas de liberación | ROTIGOTINA |
 
 ---
 
@@ -107,13 +107,13 @@ Para información completa de advertencias y contraindicaciones, consultar el pr
 **Decisión: Hold**
 
 **Justificación:**
-La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no existen ensayos clínicos ni estudios de rotigotina en TDAH. Además, el único registro sanitario en Colombia está cancelado, y no se dispone de datos de seguridad del prospecto.
+La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no existen ensayos clínicos ni estudios de rotigotina en TDAH. Además, no se dispone de datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto del INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad)
 - Completar los datos del mecanismo de acción desde DrugBank
 - Buscar estudios clínicos o evidencia preclínica específica de rotigotina en TDAH
-- Evaluar la viabilidad regulatoria, dado que no hay producto vigente en el mercado colombiano
+- Evaluar la viabilidad regulatoria
 - Evaluar la seguridad en población pediátrica y los riesgos cardiovasculares (hipotensión ortostática)
 
 **Otras predicciones del modelo (todas en Hold):**

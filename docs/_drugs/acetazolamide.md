@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Acetazolamide: nueva indicación predicha, Hipertermia maligna inducida por ejercicio (nivel de evidencia L5). Indicación original: Acetazolamida"
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -102,7 +102,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura específica, y el único registro sanitario en Colombia está cancelado. Además, existen señales de seguridad y múltiples contraindicaciones potenciales.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura específica. Además, existen señales de seguridad y múltiples contraindicaciones potenciales.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide el tamizaje de seguridad.

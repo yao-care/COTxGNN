@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación orig…"
 ---
 
@@ -50,8 +50,8 @@ La evidencia actual consiste en **13 publicaciones**, principalmente estudios pr
 | Nueva Indicación Predicha | Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) |
 | Puntaje de Predicción TxGNN | 0,9950 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

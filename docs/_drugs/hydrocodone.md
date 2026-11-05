@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 predicted_indications: ["nasal cavity disease"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 18) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -64,7 +64,6 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción regi
 En este caso, la predicción **no resulta mecanísticamente razonable**. No se conoce ningún mecanismo por el cual un opioide trate una enfermedad estructural o inflamatoria de la cavidad nasal. La única publicación disponible describe necrosis de la cavidad nasal y la faringe por abuso intranasal de hidrocodona-paracetamol, es decir, evidencia de daño y no de beneficio.
 
 El puntaje alto (0.9988) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La similitud con la indicación original no ha sido evaluada.
-
 
 ---
 
@@ -86,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20113430 (cancelado) | SINALGEN MAXTABLETAS. | Tableta | Paracetamol. Combinaciones con psicolépticos |
+| 20113430 | SINALGEN MAXTABLETAS. | Tableta | Paracetamol. Combinaciones con psicolépticos |
 
 ---
 
@@ -104,7 +103,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje alto del modelo no está respaldado por un mecanismo terapéutico plausible, y la única publicación documenta daño nasal, no beneficio. Además, el perfil de riesgo de los opioides es desfavorable y el producto registrado en Colombia está cancelado.
+El puntaje alto del modelo no está respaldado por un mecanismo terapéutico plausible, y la única publicación documenta daño nasal, no beneficio. Además, el perfil de riesgo de los opioides es desfavorable.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) para evaluar el vínculo mecanístico.

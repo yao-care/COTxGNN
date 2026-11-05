@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: RIMEGEPANT"
@@ -93,7 +93,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20240782 (cancelado) | NURTEC® ODT | Tableta orodispersable | RIMEGEPANT |
+| 20240782 | NURTEC® ODT | Tableta orodispersable | RIMEGEPANT |
 
 ---
 
@@ -112,7 +112,7 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña general, lo que respalda su uso potencial en el subtipo con aura del tronco encefálico. No obstante, no hay estudios específicos para este subtipo y el único registro sanitario en Colombia está cancelado, por lo que se requiere cautela.
+Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña general, lo que respalda su uso potencial en el subtipo con aura del tronco encefálico. No obstante, no hay estudios específicos para este subtipo, por lo que se requiere cautela.
 
 **Para avanzar se necesita:**
 - Datos específicos de eficacia y seguridad en migraña con aura del tronco encefálico (ensayos o análisis de subgrupos)

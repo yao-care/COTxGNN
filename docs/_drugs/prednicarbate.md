@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida de la vulva (nivel de evidencia L5). Indicación original: PREDNICARBATO"
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
@@ -97,14 +97,14 @@ Para el resto de la información de seguridad (advertencias, contraindicaciones 
 **Decisión: Hold**
 
 **Justificación:**
-Todas las predicciones se basan solo en el modelo (L5), sin ensayos clínicos ni literatura. Para la indicación principal, el tratamiento estándar es quirúrgico, y no hay señal clínica que respalde el uso de un corticoide tópico. Además, ambos registros sanitarios colombianos están cancelados.
+Todas las predicciones se basan solo en el modelo (L5), sin ensayos clínicos ni literatura. Para la indicación principal, el tratamiento estándar es quirúrgico, y no hay señal clínica que respalde el uso de un corticoide tópico.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura específica de prednicarbato y de corticoides tópicos de potencia media en las indicaciones predichas
 - Datos del mecanismo de acción del fármaco
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Para liquen plano hipertrófico, plantear una pregunta de investigación que compare potencias de corticoides
-- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia
+- Evaluar la viabilidad regulatoria
 - Compatibilidad de vía de administración (tópica) con cada indicación, aún pendiente de análisis
 ## Descargo de responsabilidad
 

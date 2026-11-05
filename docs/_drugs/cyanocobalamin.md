@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -50,8 +50,8 @@ pero actualmente no hay ensayos clínicos registrados y solo hay **1 publicació
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -76,8 +76,8 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19908281 (cancelado) | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
-| 32856 (cancelado) | ANTIDOL B12® AMPOLLAS | Solución inyectable | Complejo B |
+| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
+| 32856 | ANTIDOL B12® AMPOLLAS | Solución inyectable | Complejo B |
 
 ## Consideraciones de Seguridad
 
@@ -90,13 +90,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (puntaje alto, pero sin ensayos clínicos y con una única revisión general sin relación directa). Además, el tratamiento estándar de los trastornos del metabolismo de la biotina es la biotina misma, y no hay registros sanitarios vigentes en Colombia.
+La predicción se basa solo en el modelo (puntaje alto, pero sin ensayos clínicos y con una única revisión general sin relación directa). Además, el tratamiento estándar de los trastornos del metabolismo de la biotina es la biotina misma.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la cianocobalamina que sustenten el vínculo con el metabolismo de la biotina
 - Revisión sistemática de literatura específica sobre vitamina B12 y trastornos del metabolismo de la biotina
 - Prospecto con advertencias y contraindicaciones (INVIMA u otra fuente)
-- Verificación de la situación regulatoria actual, dado que ambos registros están cancelados
+- Verificación de la situación regulatoria actual
 - Evaluación de compatibilidad de vías de administración
 ## Descargo de responsabilidad
 

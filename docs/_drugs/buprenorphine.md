@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Buprenorphine: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: Buprenorfina"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 | Nueva Indicación Predicha | Porfiria aguda intermitente |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,13 +98,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de TxGNN para porfiria aguda intermitente carece de ensayos clínicos y de un vínculo mecanístico claro; la única publicación es un reporte de caso sobre manejo anestésico. Además, los registros sanitarios en Colombia están cancelados y existe una preocupación de seguridad (riesgo porfirinogénico de los opioides).
+La predicción de TxGNN para porfiria aguda intermitente carece de ensayos clínicos y de un vínculo mecanístico claro; la única publicación es un reporte de caso sobre manejo anestésico. Además, existe una preocupación de seguridad (riesgo porfirinogénico de los opioides).
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y análisis de un posible vínculo mecanístico con la porfiria aguda intermitente.
 - Revisión de la seguridad porfirinogénica de la buprenorfina en la literatura y bases de datos especializadas.
 - Advertencias y contraindicaciones del prospecto del INVIMA.
-- Aclarar la situación regulatoria, ya que ambos registros están cancelados.
+- Aclarar la situación regulatoria.
 - Estudios preclínicos o clínicos que evalúen un beneficio terapéutico real.
 
 **Otras predicciones del modelo (todas con decisión Hold):** discinesia linguo-facial-bucal (0.9932, evidencia indirecta L4, centrada en agitación en demencia y farmacología general), trastorno de tics crónico (0.9913, L5), punta-onda continua durante el sueño (0.9905, L5; los opioides podrían reducir el umbral convulsivo), ataques de estremecimiento benignos (0.9903, L5) y enfermedad extrapiramidal y de movimiento (0.9903, L5). Ninguna cuenta con ensayos clínicos.

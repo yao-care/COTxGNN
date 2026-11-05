@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Vismodegib: nueva indicación predicha, Meduloblastoma con nodularidad extensa (nivel de evidencia L5). Indicación original: Registro INVIMA solo consigna \"Vismodegib\" como indicación (sin texto…"
 monitor_inn: "VISMODEGIB"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -82,9 +82,9 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20048393 (cancelado) | ERIVEDGE® | Cápsula dura | Vismodegib |
+| 20048393 | ERIVEDGE® | Cápsula dura | Vismodegib |
 
-El fabricante registrado es F. Hoffmann-La Roche Ltda. (Basilea, Suiza). No hay registros vigentes en Colombia.
+El fabricante registrado es F. Hoffmann-La Roche Ltda. (Basilea, Suiza).
 
 ---
 
@@ -114,13 +114,13 @@ Para contraindicaciones y advertencias oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para meduloblastoma con nodularidad extensa tiene un puntaje alto en TxGNN y un mecanismo plausible, pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). A esto se suman el riesgo en población pediátrica y que el único registro sanitario en Colombia está cancelado.
+La predicción para meduloblastoma con nodularidad extensa tiene un puntaje alto en TxGNN y un mecanismo plausible, pero no cuenta con ningún ensayo clínico ni publicación (nivel L5). A esto se suman el riesgo en población pediátrica.
 
 **Para avanzar se necesita:**
 - Revisión de la literatura sobre inhibidores de SMO en meduloblastoma del subgrupo SHH, incluida la variante nodular/desmoplásica, y sus resultados clínicos.
 - Evaluación específica del riesgo de cierre prematuro de las placas de crecimiento en población pediátrica.
 - Obtener y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones.
-- Confirmar la situación regulatoria y de disponibilidad en Colombia, dado que el registro está cancelado.
+- Confirmar la situación regulatoria y de disponibilidad en Colombia.
 - Datos detallados de mecanismo de acción desde DrugBank.
 
 **Nota adicional:** entre las demás predicciones de TxGNN para este fármaco, el cáncer de piel (carcinoma basocelular) corresponde a su uso ya establecido y cuenta con ensayos y literatura. El xeroderma pigmentoso (nivel L4) tiene solo reportes de caso, que muestran viabilidad pero no eficacia ni seguridad a escala; su beneficio sería indirecto, al tratar los carcinomas basocelulares asociados.

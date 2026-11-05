@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Telmisartan: nueva indicación predicha, Prinzmetal angina (angina de Prinzmetal) (nivel de evidencia L5). Indicación original: Telmisartán y diuréticos (hipertensión arterial)"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **angina de Prinzmetal**, 
 | Nueva Indicación Predicha | Prinzmetal angina (angina de Prinzmetal) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 > **Nota:** El puntaje más alto corresponde a la angina de Prinzmetal, pero esta carece de evidencia. Entre todas las candidatas evaluadas, la de mayor evidencia es la hemorragia intracerebral (L2), descrita en la sección de conclusión.
@@ -92,10 +92,8 @@ Como referencia, publicaciones destacadas de la candidata con mayor evidencia (h
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20103719 (cancelado) | TEMILTAR H® 80 MG/12.5 MG | Tableta | Telmisartán y diuréticos |
-| 20056044 (cancelado) | RENANGIO 80 MG | Tableta | Telmisartán |
-
-Ambos registros están cancelados; actualmente no hay registros vigentes en Colombia.
+| 20103719 | TEMILTAR H® 80 MG/12.5 MG | Tableta | Telmisartán y diuréticos |
+| 20056044 | RENANGIO 80 MG | Tableta | Telmisartán |
 
 ## Consideraciones de Seguridad
 
@@ -112,7 +110,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que
 **Decisión: Hold**
 
 **Justificación:**
-La angina de Prinzmetal tiene un puntaje alto (0.9998), pero solo es una predicción del modelo (L5), sin ensayos ni literatura. Además, el producto no tiene registros vigentes en Colombia. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación.
+La angina de Prinzmetal tiene un puntaje alto (0.9998), pero solo es una predicción del modelo (L5), sin ensayos ni literatura. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y del prospecto (advertencias y contraindicaciones oficiales).

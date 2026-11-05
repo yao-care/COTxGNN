@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 454
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
@@ -50,8 +50,8 @@ Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). E
 | Nueva Indicación Predicha | Bronquitis |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L2 (un ensayo de Fase 3 completado; no hay dos ECA de Fase 3 completados) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,9 +104,9 @@ El puntaje del modelo debe leerse con cautela. La mayoría de los ensayos son so
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20190806 (cancelado) | BONVENT® | Tableta masticable | Solo consta el nombre "MONTELUKAST", sin texto de indicación |
+| 20190806 | BONVENT® | Tableta masticable | Solo consta el nombre "MONTELUKAST", sin texto de indicación |
 
-Fabricante: TECNOFAR TQ S.A.S. No hay registros vigentes para este fármaco.
+Fabricante: TECNOFAR TQ S.A.S.
 
 ---
 
@@ -125,7 +125,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa bronquiolitis por VRS en lactantes, no bronquitis, y los datos disponibles no muestran sus resultados. El resto son estudios pequeños de Fase 2 o 4 y revisiones, con relevancia aún por evaluar. Además, no hay registro sanitario vigente en Colombia y no se pudo revisar la información de seguridad del prospecto, lo cual impide avanzar al tamizaje de seguridad.
+Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa bronquiolitis por VRS en lactantes, no bronquitis, y los datos disponibles no muestran sus resultados. El resto son estudios pequeños de Fase 2 o 4 y revisiones, con relevancia aún por evaluar. Además, no se pudo revisar la información de seguridad del prospecto, lo cual impide avanzar al tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del registro en INVIMA (advertencias y contraindicaciones oficiales).
@@ -133,7 +133,6 @@ Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa br
 - Definir con precisión la indicación objetivo (bronquitis aguda, bronquitis obstructiva recurrente en niños, bronquitis eosinofílica o bronquiolitis) y revisar los resultados publicados de NCT00076973 y de la revisión Cochrane de 2015.
 - Evaluar la relevancia de cada ensayo y publicación para la indicación elegida.
 - Elaborar un plan de monitoreo neuropsiquiátrico, sobre todo si la población objetivo son niños.
-- Aclarar la situación regulatoria: no hay registro vigente en Colombia.
 - Como referencia, en los datos compilados otras predicciones tienen mayor respaldo: asma (L1, Proceed with Guardrails) y eccema atópico (L1, Research Question).
 ## Descargo de responsabilidad
 

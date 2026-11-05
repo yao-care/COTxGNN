@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 472
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Norethisterone: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | NORETISTERONA Y ESTROGENO |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 
 ## Información de Mercado en Colombia
 

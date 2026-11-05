@@ -3,7 +3,7 @@ layout: default
 title: Olodaterol
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 482
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 description: "Olodaterol: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 monitor_inn: "OLODATEROL"
 predicted_indications: []
@@ -50,7 +50,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20082364 (cancelado) | SPIOLTO® RESPIMAT® | Solución para inhalación | Olodaterol y bromuro de tiotropio |
+| 20082364 | SPIOLTO® RESPIMAT® | Solución para inhalación | Olodaterol y bromuro de tiotropio |
 
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -53,8 +53,8 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de células
 | Nueva Indicación Predicha | Carcinoma de células renales no clasificado |
 | Puntaje de Predicción TxGNN | 0.9959 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold (la evidencia es retrospectiva; la categoría de la predicción es "pregunta de investigación") |
 
 ---
@@ -144,7 +144,6 @@ La evidencia disponible es retrospectiva y de brazo único (nivel L3), sin ensay
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha de datos bloqueante para el cribado de seguridad).
 - Obtener el mecanismo de acción desde DrugBank.
 - Verificar la fase y los resultados del estudio de brazo único (PMID 28546525) y revisar los estudios retrospectivos en detalle.
-- Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que gestionar un nuevo registro o una vía alternativa.
 - Evaluar la seguridad cardiovascular, hepática y las interacciones con inhibidores de la bomba de protones y antagonistas H2.
 - Para liposarcoma: definir subtipos elegibles y un plan de monitoreo antes de cualquier avance.
 ## Descargo de responsabilidad

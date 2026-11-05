@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…"
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -53,8 +53,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -124,14 +124,14 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La única evidencia es un estudio bioquímico y estructural *in vitro*, sin ensayos clínicos ni datos en animales para la indicación felina. Además, es una indicación veterinaria con baja relevancia para el reposicionamiento humano, y los registros sanitarios en Colombia están cancelados.
+La única evidencia es un estudio bioquímico y estructural *in vitro*, sin ensayos clínicos ni datos en animales para la indicación felina. Además, es una indicación veterinaria con baja relevancia para el reposicionamiento humano.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Revisión del prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
 - Estudios *in vivo* en modelos felinos si se desea explorar la indicación veterinaria.
 - Definir si el interés está en el área veterinaria o humana; para humanos, la evidencia más sólida (macacos con rilpivirina de acción prolongada más cabotegravir) apoya la investigación de regímenes de acción prolongada, no una nueva indicación.
-- Aclarar la situación regulatoria en Colombia, dado que ambos registros están cancelados.
+- Aclarar la situación regulatoria en Colombia.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

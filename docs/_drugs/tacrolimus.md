@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 600
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -52,8 +52,8 @@ con **2 ensayos clínicos** (uno de Fase 3 completado) y **20 publicaciones** qu
 | Nueva Indicación Predicha | Dermatitis seborreica |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 20 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 20) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -116,11 +116,11 @@ Los diseños detallados y los resultados de estos ensayos no están en los datos
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado y un estudio de Fase 4 completado específicamente en dermatitis seborreica con tacrolimus tópico, además de revisiones que respaldan el mecanismo. Sin embargo, solo hay un ensayo de Fase 3 (el nivel L1 asignado exige confirmar la solidez de los resultados) y en Colombia no hay registros vigentes de tacrolimus tópico.
+Existe un ensayo de Fase 3 completado y un estudio de Fase 4 completado específicamente en dermatitis seborreica con tacrolimus tópico, además de revisiones que respaldan el mecanismo. Sin embargo, solo hay un ensayo de Fase 3 (el nivel L1 asignado exige confirmar la solidez de los resultados).
 
 **Para avanzar se necesita:**
 - Verificar los diseños y resultados de los ensayos NCT02004860 y NCT01591070 (aleatorización, enmascaramiento, desenlaces).
-- Obtener el prospecto en INVIMA (advertencias y contraindicaciones) y confirmar la situación regulatoria de una formulación tópica, ya que los registros colombianos identificados son orales y están cancelados.
+- Obtener el prospecto en INVIMA (advertencias y contraindicaciones) y confirmar la situación regulatoria de una formulación tópica.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de monitoreo de seguridad a largo plazo (riesgo de neoplasias, absorción sistémica, infecciones cutáneas).
 ## Descargo de responsabilidad

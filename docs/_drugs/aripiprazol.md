@@ -5,7 +5,7 @@ layout: default
 title: Aripiprazol
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 64
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -42,8 +42,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | ARIPIPRAZOL |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 11) |
 
 ---
 

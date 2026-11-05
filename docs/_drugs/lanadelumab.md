@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 monitor_inn: "LANADELUMAB"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pancreatitis", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "Glanzmann thrombasthenia", "antisynthetase syndrome", "focal myositis", "Scott syndrome"]
 description: "Lanadelumab: nueva indicación predicha, Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) (nivel de evidencia L5). Indicación original: LANADELUMAB"
@@ -50,8 +50,8 @@ Hasta ahora **no hay ensayos clínicos ni publicaciones** que respalden esta dir
 | Nueva Indicación Predicha | Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?

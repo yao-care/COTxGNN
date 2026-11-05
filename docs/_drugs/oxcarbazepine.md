@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 489
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: OXCARBAZEPINA"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Oxcarbazepina es un antiepiléptico derivado de la carbamazepina, registrado en Colombia bajo licencias hoy canceladas. El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero actualmente **no hay ensayos clínicos** y solo existen **16 publicaciones** de carácter general (revisiones y guías sobre epilepsia), sin estudios específicos de esta indicación.
+Oxcarbazepina es un antiepiléptico derivado de la carbamazepina. El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero actualmente **no hay ensayos clínicos** y solo existen **16 publicaciones** de carácter general (revisiones y guías sobre epilepsia), sin estudios específicos de esta indicación.
 
 ---
 
@@ -50,8 +50,8 @@ Oxcarbazepina es un antiepiléptico derivado de la carbamazepina, registrado en 
 | Nueva Indicación Predicha | Restless legs syndrome |
 | Puntaje de Prediccion TxGNN | 0.9989 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 2) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -113,7 +113,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay ensayos clínicos y la literatura es indirecta (revisiones generales de epilepsia). Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay producto vigente en el mercado local.
+La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay ensayos clínicos y la literatura es indirecta (revisiones generales de epilepsia).
 
 **Para avanzar se necesita:**
 - Estudios clínicos o series de casos específicos de oxcarbazepina en epilepsia visual (fotosensible).

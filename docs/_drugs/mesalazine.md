@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Mesalazina"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 17) |
+| Número de Registros Sanitarios | 17 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -72,8 +72,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los cuatro registros están cancelados; actualmente no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20065382 | MESILAX® | Suspensión para administrar por vía rectal | Mesalazina |
@@ -93,14 +91,14 @@ Para información detallada de advertencias y contraindicaciones, consultar el p
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible y el producto no tiene registros vigentes en Colombia. Con evidencia de nivel L5, no hay base para avanzar.
+La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible. Con evidencia de nivel L5, no hay base para avanzar.
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción (MOA) de la mesalazina desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA (brecha bloqueante para el análisis de seguridad)
 - Evidencia preclínica que relacione la acción de la mesalazina con la vía CDH3 o la patología de esta enfermedad
 - Evaluar otras predicciones con algo más de respaldo, como la artritis reumatoide (nivel L4, evidencia indirecta basada en sulfasalazina), considerada una pregunta de investigación
-- Determinar la viabilidad comercial dado que los cuatro registros están cancelados
+- Determinar la viabilidad comercial
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

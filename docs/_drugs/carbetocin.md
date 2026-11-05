@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 136
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Carbetocin: nueva indicación predicha, Síndrome similar a la isotretinoína (nivel de evidencia L5). Indicación original: Carbetocina"
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
@@ -89,14 +89,14 @@ No se dispone de advertencias ni contraindicaciones del prospecto. Consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo TxGNN (nivel L5), sin ensayos ni literatura, y sin un vínculo mecanístico plausible entre un agonista del receptor de oxitocina y un síndrome malformativo del desarrollo. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el modelo TxGNN (nivel L5), sin ensayos ni literatura, y sin un vínculo mecanístico plausible entre un agonista del receptor de oxitocina y un síndrome malformativo del desarrollo.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción original y análisis de una posible vía biológica hacia la nueva indicación
 - Revisión de literatura preclínica que justifique la hipótesis
 - Descarga y análisis del prospecto de INVIMA para advertencias y contraindicaciones
 - Evaluación de compatibilidad de vía de administración y de la viabilidad de reposicionar un uterotónico en una condición congénita
-- Aclarar la situación regulatoria local, dado que no hay registros vigentes
+- Aclarar la situación regulatoria local
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

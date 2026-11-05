@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera gástrica**, con
 | Nueva Indicación Predicha | Úlcera gástrica |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 16 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,8 +101,6 @@ Nota: la literatura recuperada consiste sobre todo en revisiones antiguas sobre 
 | 19941418 | METOCLOPRAMIDA10 MG | Tableta | METOCLOPRAMIDA (vigente) |
 | 19927476 | PLASIL® INYECTABLE | Solución inyectable | METOCLOPRAMIDA (vigente) |
 
-Los cuatro registros están cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -127,7 +125,6 @@ La evidencia se limita al nivel L4: un único ensayo de uso procedimental y lite
 - Aclarar la indicación original aprobada, pues el registro solo repite el nombre del fármaco.
 - Valorar si el posible beneficio se limita a síntomas (náuseas, vaciamiento retardado) o a uso procedimental, en lugar de tratamiento de la úlcera.
 - Generar estudios clínicos específicos que evalúen la cicatrización de la úlcera, y resolver la contradicción con la contraindicación en úlcera péptica activa.
-- Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso requeriría un nuevo trámite ante INVIMA.
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

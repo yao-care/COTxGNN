@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Olopatadina"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 8) |
-| Número de Registros Sanitarios | al menos 8 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 17 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 17) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -72,8 +72,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los 8 registros sanitarios están cancelados; no hay productos vigentes.
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 19989876 | Olopatadina 0.1% solución oftálmica | Solución oftálmica | Olopatadina |
@@ -81,8 +79,6 @@ Los 8 registros sanitarios están cancelados; no hay productos vigentes.
 | 20056010 | Pataler® 0.2% solución oftálmica | Solución oftálmica | Olopatadina |
 | 20012348 | Olopat 0.2% | Solución oftálmica | Olopatadina |
 | 20203885 | Oloftal PF® | Solución oftálmica | Olopatadina |
-
-(Se muestran 5 de los 8 registros, todos con estado cancelado.)
 
 ## Consideraciones de Seguridad
 

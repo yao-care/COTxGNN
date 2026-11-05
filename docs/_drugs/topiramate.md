@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Topiramato"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ Entre las demás predicciones, las que tienen más respaldo son subtipos de epil
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: None) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,9 +101,9 @@ A modo de referencia, la indicación predicha con mayor respaldo bibliográfico 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 213766 (cancelado) | TOPAMAC® 100 MG TABLETAS | Tableta | TOPIRAMATO |
+| 213766 | TOPAMAC® 100 MG TABLETAS | Tableta | TOPIRAMATO |
 
-El único registro encontrado (Janssen Cilag S.A.) está cancelado, por lo que no hay registro vigente en los datos compilados. Conviene verificar si existen otros productos de topiramato (por ejemplo, genéricos) con registro vigente.
+Conviene verificar si existen otros productos de topiramato (por ejemplo, genéricos) con registro vigente.
 
 ---
 
@@ -122,7 +122,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Decisión: Hold** (para neoplasia del nervio trigémino)
 
 **Justificación:**
-- La predicción es solo del modelo (L5): no hay ensayos ni literatura, y topiramato no tiene un mecanismo antineoplásico conocido. Además, el único registro sanitario en Colombia está cancelado.
+- La predicción es solo del modelo (L5): no hay ensayos ni literatura, y topiramato no tiene un mecanismo antineoplásico conocido.
 - Si se desea avanzar con topiramato, las indicaciones con mejor soporte son subtipos de epilepsia (convulsiones inducidas por el pensamiento, epilepsia visual); sin embargo, la evidencia es indirecta y proviene de la epilepsia en general, un uso que ya es conocido del fármaco, por lo que aportan poco valor de reposicionamiento. Se consideran preguntas de investigación.
 
 **Para avanzar se necesita:**

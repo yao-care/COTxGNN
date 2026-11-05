@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: nueva indicación predicha, Conjunctival folliculosis (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **foliculosis conjuntival*
 | Nueva Indicación Predicha | Conjunctival folliculosis |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 5 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,6 @@ Como dato indirecto, para otra indicación predicha (conjuntivitis pseudomembran
 
 ## Información de Mercado en Colombia
 
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 19925591 | LOTESOFT SUSPENSION OFTALMICA | Suspensión oftálmica | LOTEPREDNOL |
@@ -111,13 +110,12 @@ Como dato indirecto, para otra indicación predicha (conjuntivitis pseudomembran
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura directa. Además, no hay registros sanitarios vigentes en Colombia y varias contraindicaciones del grafo de conocimiento (infecciones oculares virales, fúngicas y herpéticas) coinciden con cuadros que podrían confundirse con conjuntivitis.
+La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura directa. Además, varias contraindicaciones del grafo de conocimiento (infecciones oculares virales, fúngicas y herpéticas) coinciden con cuadros que podrían confundirse con conjuntivitis.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto oficial (advertencias y contraindicaciones) desde INVIMA.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de la literatura sobre corticoides tópicos en foliculosis y conjuntivitis folicular.
-- Aclarar la situación regulatoria: los 5 registros están cancelados, por lo que habría que evaluar un nuevo registro o reactivación.
 - Descartar etiología infecciosa antes de cualquier uso, dado el riesgo de empeorar infecciones con corticoides.
 - Evaluar la relevancia clínica real de la foliculosis conjuntival como indicación, por su carácter generalmente benigno.
 ## Descargo de responsabilidad

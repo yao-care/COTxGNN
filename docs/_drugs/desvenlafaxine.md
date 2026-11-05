@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Desve…"
 monitor_inn: "desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y solo **3 publicaciones** indirect
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,7 +88,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20071330 (cancelado) | DESVENLAFAXINA 50 MG (Laboratorios MK S.A.S.) | Tableta de liberación prolongada | DESVENLAFAXINA (sin indicación detallada) |
+| 20071330 | DESVENLAFAXINA 50 MG (Laboratorios MK S.A.S.) | Tableta de liberación prolongada | DESVENLAFAXINA (sin indicación detallada) |
 
 ---
 
@@ -106,7 +106,7 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni estudios específicos de desvenlafaxina en TOC, y la evidencia de los ISRN en esta indicación es más débil que la de los ISRS. Además, el único registro sanitario en Colombia está cancelado.
+La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni estudios específicos de desvenlafaxina en TOC, y la evidencia de los ISRN en esta indicación es más débil que la de los ISRS.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto oficial (advertencias y contraindicaciones) del registro sanitario

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: Aminoácidos"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis posmenopáu
 | Nueva Indicación Predicha | Osteoporosis posmenopáusica |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,7 +96,7 @@ La mayoría de los artículos no evalúan el ácido glutámico como tratamiento.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20086182 (cancelado) | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
+| 20086182 | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
 
 ---
 
@@ -114,14 +114,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura no evalúa el ácido glutámico como tratamiento de la osteoporosis posmenopáusica; el vínculo es indirecto (metabolismo de la vitamina K). Además, el único registro sanitario en Colombia está cancelado, y las contraindicaciones del grafo de conocimiento (renal, cardiovascular, metabolismo del calcio) plantean preocupaciones de seguridad. Las otras indicaciones predichas (osteoporosis asociada al embarazo, glaucoma hereditario primario y gastroparesia) tienen aún menos respaldo (nivel L5), y en el glaucoma la excitotoxicidad por glutamato argumenta en contra.
+No existen ensayos clínicos y la literatura no evalúa el ácido glutámico como tratamiento de la osteoporosis posmenopáusica; el vínculo es indirecto (metabolismo de la vitamina K). Además, las contraindicaciones del grafo de conocimiento (renal, cardiovascular, metabolismo del calcio) plantean preocupaciones de seguridad. Las otras indicaciones predichas (osteoporosis asociada al embarazo, glaucoma hereditario primario y gastroparesia) tienen aún menos respaldo (nivel L5), y en el glaucoma la excitotoxicidad por glutamato argumenta en contra.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del ácido glutámico
 - Estudios preclínicos específicos sobre metabolismo óseo con ácido glutámico (no vitamina K ni poliglutamato)
 - Obtención y análisis del prospecto oficial en INVIMA para advertencias y contraindicaciones
 - Verificación de las contraindicaciones del grafo de conocimiento frente a fuentes clínicas
-- Evaluación de la viabilidad regulatoria y de formulación, dado que no hay registros vigentes en Colombia
+- Evaluación de la viabilidad regulatoria y de formulación
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

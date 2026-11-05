@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Mepol…"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
@@ -86,7 +86,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20188045 (cancelado) | NUCALA® 100MG/ML SOLUCIÓN INYECTABLE (GlaxoSmithKline Colombia S.A.) | Solución inyectable | Mepolizumab (sin detalle de indicación) |
+| 20188045 | NUCALA® 100MG/ML SOLUCIÓN INYECTABLE (GlaxoSmithKline Colombia S.A.) | Solución inyectable | Mepolizumab (sin detalle de indicación) |
 
 ---
 
@@ -101,13 +101,13 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en un puntaje computacional y un reporte de caso con relación indirecta; no hay ensayos clínicos. Además, el único registro sanitario en Colombia está cancelado y no se dispone de información de seguridad del prospecto.
+La predicción se apoya solo en un puntaje computacional y un reporte de caso con relación indirecta; no hay ensayos clínicos. Además, no se dispone de información de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad
 - Confirmar la indicación aprobada y el mecanismo de acción detallado desde fuentes como DrugBank
 - Buscar evidencia clínica directa en trombocitopenia inmune, o identificar subgrupos con componente eosinofílico donde el bloqueo de IL-5 tenga sentido
-- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que el registro está cancelado
+- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia
 - Evaluar la compatibilidad de vía de administración y la relación con la indicación original, hoy pendientes
 ## Descargo de responsabilidad
 

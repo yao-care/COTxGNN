@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: METROTEXATE"
@@ -38,7 +38,7 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-El metotrexato es un antifolato que en Colombia tuvo registros sanitarios (hoy cancelados), sin que el texto de indicación aprobada detalle un uso específico más allá del nombre del producto.
+El metotrexato es un antifolato que en Colombia tuvo registros sanitarios, sin que el texto de indicación aprobada detalle un uso específico más allá del nombre del producto.
 El modelo TxGNN predice que podría ser efectivo para **blastoma pulmonar**, pero para esta predicción principal **no hay ensayos clínicos ni publicaciones** que la respalden.
 Entre las demás predicciones, las que cuentan con más soporte son el **rabdomiosarcoma** y el **linfoma de Hodgkin**, descritas más abajo.
 
@@ -52,8 +52,8 @@ Entre las demás predicciones, las que cuentan con más soporte son el **rabdomi
 | Nueva Indicación Predicha | Pulmonary blastoma |
 | Puntaje de Predicción TxGNN | 0.9945 |
 | Nivel de Evidencia | L5 (solo predicción del modelo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 2 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,8 +87,6 @@ Actualmente no hay literatura relacionada disponible para blastoma pulmonar.
 | 19927154 | METOTREXATO 2.5 MG (ASOFARMA S.A.I. Y C.) | Tableta | METROTEXATE | Vigente |
 | 20243244 | METREXATO® 50 MG/2 ML (BLAU FARMACÉUTICA COLOMBIA S.A.S.) | Solución inyectable | METROTEXATE | Temp. no comerc - Vigente |
 
-No hay registros vigentes actualmente.
-
 ---
 
 ## Citotoxicidad
@@ -118,13 +116,13 @@ No se dispone de las advertencias y contraindicaciones del prospecto de INVIMA; 
 **Decisión: Hold**
 
 **Justificación:**
-Para blastoma pulmonar solo existe la predicción del modelo (L5), sin ensayos ni literatura, y además el producto no tiene registros vigentes en Colombia.
+Para blastoma pulmonar solo existe la predicción del modelo (L5), sin ensayos ni literatura.
 
 **Para avanzar se necesita:**
 - Revisar otras predicciones con mejor respaldo, en particular rabdomiosarcoma (L2, con un ensayo de Fase 2 publicado, 1997), linfoma de Hodgkin (L3) y linfoma pulmonar primario (L4), todas con evidencia indirecta o histórica.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), brecha de datos bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: los dos registros están cancelados y el texto de indicación aprobada es poco informativo.
+- Aclarar la situación regulatoria: los dos y el texto de indicación aprobada es poco informativo.
 - Definir la compatibilidad de vías de administración, hoy pendiente.
 - Realizar estudios preclínicos o series de casos específicos antes de considerar cualquier uso en blastoma pulmonar.
 ## Descargo de responsabilidad

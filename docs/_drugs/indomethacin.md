@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: El texto del registro sanitario solo indica \"INDOMETACINA\"…"
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -83,9 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20056703 (cancelado) | NB PEXAIL CÁPSULA BLANDA 25 MG | Cápsula blanda | INDOMETACINA |
-
-La indometacina no cuenta actualmente con ningún registro sanitario vigente en Colombia. Su único registro, de un producto de un solo componente, está cancelado.
+| 20056703 | NB PEXAIL CÁPSULA BLANDA 25 MG | Cápsula blanda | INDOMETACINA |
 
 ---
 
@@ -110,7 +108,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de braquidactilia-sindactilia no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de COX y una malformación esquelética genética. Además, el producto no tiene registro vigente en Colombia.
+La predicción para el síndrome de braquidactilia-sindactilia no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de COX y una malformación esquelética genética.
 
 **Para avanzar se necesita:**
 - Evidencia preclínica o mecanística que vincule la vía de las prostaglandinas con la fisiopatología de este síndrome.

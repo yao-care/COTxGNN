@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: nueva indicación predicha, Uterine corpus perivascular epithelioid cell tumor (nivel de evidencia L5). Indicación original: RUXOLITINIB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **tumor de células epi
 | Nueva Indicación Predicha | Uterine corpus perivascular epithelioid cell tumor |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -87,7 +87,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20055348 | JAKAVI® 15 TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
 | 20083253 | JAKAVI® 10MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
 
-Los tres registros pertenecen a Novartis Pharma AG y corresponden a la vía oral. Actualmente no hay registros vigentes en Colombia.
+Los tres registros pertenecen a Novartis Pharma AG y corresponden a la vía oral.
 
 ---
 
@@ -107,7 +107,7 @@ Para advertencias y contraindicaciones, consultar el prospecto, ya que no se dis
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el PEComa uterino tiene un puntaje alto (0.9973), pero carece de ensayos clínicos, literatura y un vínculo mecanístico respaldado (nivel L5). Además, en Colombia no hay registros sanitarios vigentes de ruxolitinib.
+La predicción para el PEComa uterino tiene un puntaje alto (0.9973), pero carece de ensayos clínicos, literatura y un vínculo mecanístico respaldado (nivel L5).
 
 **Otras indicaciones predichas:**
 - **Mayor respaldo**: la *linfohistiocitosis hemofagocítica* (HLH) asociada a infección tiene un nivel de evidencia L3. La respaldan estudios clínicos pediátricos, series y reportes de casos, y datos preclínicos en modelos murinos que apoyan la inhibición de JAK1/2. La evidencia es de diseño no aleatorizado y de tamaño pequeño, y los diseños deben verificarse con los textos completos. Sería la candidata más sólida para priorizar.

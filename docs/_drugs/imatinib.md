@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L4). Indicación original: IMATINIB"
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**
 | Nueva Indicación Predicha | Fibrosarcoma cardíaco (heart fibrosarcoma) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma 
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19939440 (cancelado) | GLIVEC® 100 MG COMPRIMIDOS CON CUBIERTA PELICULAR | Tableta cubierta con película | IMATINIB |
+| 19939440 | GLIVEC® 100 MG COMPRIMIDOS CON CUBIERTA PELICULAR | Tableta cubierta con película | IMATINIB |
 
 ---
 
@@ -134,13 +134,12 @@ Además de la principal, el modelo propuso otras indicaciones. Ninguna alcanza u
 **Decisión: Hold**
 
 **Justificación:**
-Para fibrosarcoma cardíaco no hay ensayos clínicos y la única publicación citada es un comentario que no aborda tumores cardíacos, por lo que solo existe plausibilidad mecanística a nivel de clase. Además, en Colombia el único registro de Glivec está cancelado. Entre las alternativas, "neoplasia fibroblástica" (DFSP) tiene la base más sólida y merece revisión prioritaria como pregunta de investigación.
+Para fibrosarcoma cardíaco no hay ensayos clínicos y la única publicación citada es un comentario que no aborda tumores cardíacos, por lo que solo existe plausibilidad mecanística a nivel de clase. Entre las alternativas, "neoplasia fibroblástica" (DFSP) tiene la base más sólida y merece revisión prioritaria como pregunta de investigación.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente pendiente y bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Buscar evidencia primaria (ensayos o series de casos) en tumores cardíacos o, de forma más realista, verificar el respaldo clínico en DFSP/neoplasia fibroblástica.
-- Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes).
 - Definir un plan de monitoreo de seguridad hematológica, hepática, renal y cardíaca, y revisar las interacciones de gravedad mayor.
 ## Descargo de responsabilidad
 

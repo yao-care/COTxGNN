@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Sofosbuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Sofosbuvir + Velpatasvir (hepatitis C crónica)"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -128,14 +128,14 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-Aunque el puntaje de TxGNN es muy alto, la evidencia disponible es indirecta (coinfección VHC/VHB) y no respalda un efecto anti-VHB de sofosbuvir. No hay coincidencia mecanística directa con la polimerasa del VHB y existe riesgo documentado de reactivación. Además, el único registro sanitario en Colombia está cancelado, y no se dispone de datos de advertencias ni contraindicaciones del prospecto.
+Aunque el puntaje de TxGNN es muy alto, la evidencia disponible es indirecta (coinfección VHC/VHB) y no respalda un efecto anti-VHB de sofosbuvir. No hay coincidencia mecanística directa con la polimerasa del VHB y existe riesgo documentado de reactivación. Además, no se dispone de datos de advertencias ni contraindicaciones del prospecto.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea el cribado de seguridad
 - Resultados completos y confirmatorios en monoinfección por VHB (el estudio de Fase 2 de ledipasvir/sofosbuvir es de un solo brazo y pequeño)
 - Considerar, como líneas de investigación con más respaldo mecanístico, la hepatitis E (el ensayo de Fase 2 SofE mostró reducción inicial de la carga viral pero sin respuesta virológica sostenida y con variantes asociadas a resistencia)
-- Aclarar la situación regulatoria en Colombia, dado que el registro de Epclusa® figura como cancelado
+- Aclarar la situación regulatoria en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

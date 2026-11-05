@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 433
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 1) |
-| Número de Registros Sanitarios | al menos 1 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Ninguna de estas publicaciones evalúa la eficacia de metamizol en artritis reum
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19959402 (cancelado) | Dipirona 2.5 g + Hioscina 20 mg/5 mL solución inyectable (Laboratorio Biosano S.A.) | Solución inyectable | Butilescopolamina y analgésicos |
+| 19959402 | Dipirona 2.5 g + Hioscina 20 mg/5 mL solución inyectable (Laboratorio Biosano S.A.) | Solución inyectable | Butilescopolamina y analgésicos |
 
 ---
 
@@ -111,14 +111,14 @@ Para advertencias y contraindicaciones detalladas, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos ni estudios de eficacia en artritis reumatoide; la literatura se limita a seguridad y patrones de uso. Además, el único registro sanitario en Colombia está cancelado y el riesgo de agranulocitosis con metotrexato es relevante.
+No hay ensayos clínicos ni estudios de eficacia en artritis reumatoide; la literatura se limita a seguridad y patrones de uso. Además, el riesgo de agranulocitosis con metotrexato es relevante.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia de un efecto más allá del alivio sintomático
 - Estudios clínicos específicos en artritis reumatoide (por ejemplo, como analgésico adyuvante)
 - Revisión de las advertencias y contraindicaciones del prospecto
 - Evaluación del perfil de seguridad hematológica en pacientes tratados con metotrexato
-- Aclarar la situación regulatoria, dado que el registro está cancelado
+- Aclarar la situación regulatoria
 
 **Nota:** Entre las demás predicciones, la migraña (L3, estudio comparativo con clonixinato de lisina y revisiones) tiene mayor respaldo clínico que la artritis reumatoide y podría ser una línea de investigación más prometedora.
 ## Descargo de responsabilidad

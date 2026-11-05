@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: LOPERAMIDA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa
 | Nueva Indicación Predicha | Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 4) |
-| Número de Registros Sanitarios | al menos 4 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,6 @@ Como referencia, para otras indicaciones predichas existe la siguiente literatur
 | 20046526 | Loperamida Clorhidrato 2 mg (Genfar S.A.) | Tableta | Loperamida (vigente) |
 | 19924345 | Pangetan NF Tabletas (Tecnoquímicas S.A.) | Tableta | Loperamida (vigente) |
 
-Los 4 registros están cancelados; actualmente no hay registros vigentes.
-
 ---
 
 ## Consideraciones de Seguridad
@@ -115,7 +113,7 @@ Los 4 registros están cancelados; actualmente no hay registros vigentes.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para conjuntivitis contagiosa aguda es solo del modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Todas las predicciones evaluadas quedan en Hold, y las señales disponibles en indicaciones gastrointestinales apuntan a riesgos de seguridad y no a oportunidades de reposicionamiento. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción para conjuntivitis contagiosa aguda es solo del modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Todas las predicciones evaluadas quedan en Hold, y las señales disponibles en indicaciones gastrointestinales apuntan a riesgos de seguridad y no a oportunidades de reposicionamiento.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).

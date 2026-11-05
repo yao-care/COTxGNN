@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-06
 description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina glargina"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **ooforitis autoinmune**, 
 | Nueva Indicación Predicha | Ooforitis autoinmune |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 3) |
-| Número de Registros Sanitarios | al menos 3 |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -125,14 +125,14 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para ooforitis autoinmune es solo computacional (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible. Además, no hay registros sanitarios vigentes en Colombia.
+La predicción para ooforitis autoinmune es solo computacional (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible.
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA (brecha de datos bloqueante para el tamizaje de seguridad)
 - Revisión sistemática de la literatura sobre insulina y ooforitis autoinmune
 - Si se desea priorizar otra indicación, evaluar la agenesia pancreática (L4) entendiéndola como reemplazo hormonal, no como reposicionamiento
-- Confirmar la situación regulatoria en Colombia, ya que los tres registros están cancelados
+- Confirmar la situación regulatoria en Colombia
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

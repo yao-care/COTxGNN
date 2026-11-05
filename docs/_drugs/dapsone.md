@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 195
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-06
 description: "Dapsone: nueva indicación predicha, Neumocistosis (nivel de evidencia L1). Indicación original: DAPSONA"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -38,7 +38,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-La dapsona es un fármaco de la clase de las sulfonas, con registros sanitarios en Colombia que hoy están cancelados; la indicación registrada solo figura como "DAPSONA", sin detalle clínico.
+La dapsona es un fármaco de la clase de las sulfonas; la indicación registrada solo figura como "DAPSONA", sin detalle clínico.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis** (neumonía por *Pneumocystis*), con **10 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 Cabe señalar que la dapsona ya está establecida en guías clínicas como alternativa para la profilaxis y el tratamiento de esta infección, por lo que más que un reposicionamiento novedoso se trata de un uso respaldado por la práctica.
 
@@ -131,7 +131,6 @@ Hay varios ensayos de fase 3 completados (NCT00000802, NCT00000991, NCT00001028,
 **Para avanzar se necesita:**
 - Tamizar la deficiencia de G6PD antes del uso y monitorear metahemoglobinemia, hemólisis y función hepática.
 - Obtener el prospecto vigente (por ejemplo, de INVIMA) para confirmar advertencias y contraindicaciones oficiales.
-- Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en Colombia.
 - Completar los datos detallados del mecanismo de acción (por ejemplo, desde DrugBank).
 - Definir el papel de la dapsona frente a TMP-SMX (tratamiento de elección) como alternativa en pacientes intolerantes.
 ## Descargo de responsabilidad
