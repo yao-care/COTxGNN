@@ -6,7 +6,7 @@ nav_order: 328
 evidence_level: L2
 indication_count: 9
 last_modified_at: 2026-11-06
-description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: HIDROCORTISONA"
+description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 ---

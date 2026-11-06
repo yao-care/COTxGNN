@@ -6,7 +6,7 @@ nav_order: 491
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Oximetazolina"
+description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Oximetazolina"
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
 ---

@@ -6,7 +6,7 @@ nav_order: 667
 evidence_level: L5
 indication_count: 6
 last_modified_at: 2026-11-06
-description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Agente antineoplásico e inmunomodulador"
+description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: Agente antineoplásico e inmunomodulador"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 ---

@@ -6,7 +6,7 @@ nav_order: 587
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes"
+description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L5). Indicación original: Simvastatina combinaciones paquetes"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 ---

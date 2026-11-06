@@ -6,7 +6,7 @@ nav_order: 569
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L4). Indicación original: RIVASTIGMINA"
+description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: RIVASTIGMINA"
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
 ---

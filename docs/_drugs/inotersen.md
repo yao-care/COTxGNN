@@ -6,7 +6,7 @@ nav_order: 343
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"INOTER…"
+description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"INOTER…"
 monitor_inn: "inotersen"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mesenteritis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
 ---

@@ -1,0 +1,557 @@
+{
+  "_note": "藥物頁 front matter description 的證據等級字樣改成頁首等級的紀錄（母目錄 .claude/sync_description_levels.py 追加；只換等級字樣，其他文字不動）。還原：把 original_description 寫回該頁 description。",
+  "entries": [
+    {
+      "page": "docs/_drugs/acetylcysteine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: Acetilcisteína\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/allopurinol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Alopurinol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ambroxol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Ambroxol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/brentuximab_vedotin.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \\\"Brentu…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/budesonide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L4). Indicación original: Formoterol y budesonida (combinación inhalada para enfermedad respira…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/bupropion.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: BUPROPION\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cabozantinib.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/cefazolin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Cefazolin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L4). Indicación original: CEFAZOLINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/codeine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dacarbazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \\\"Dacarb\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dapoxetine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: DAPOXETINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dasatinib.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: DASATINIB\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/desogestrel.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: Desogestrel\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dexlansoprazole.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/diclofenac.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (según la predicción de mayor puntaje… (nivel de evidencia L3). Indicación original: Tramadol y diclofenaco (combinación analgésica)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dienogest.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Dienogest y Etinilestradiol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/dimenhydrinate.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L4). Indicación original: Dimenhidrinato\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/epinephrine.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L1). Indicación original: Epinefrina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ertapenem.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Ertapenem\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ethambutol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L4). Indicación original: ETMABUTOL\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/fusidic_acid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Ácido fusídico (crema tópica)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/guaifenesin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones (con guaifenesina)\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydrocortisone.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L5). Indicación original: HIDROCORTISONA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/hydroquinone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L4). Indicación original: Hidroquinona\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/imatinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L4). Indicación original: IMATINIB\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/imiglucerase.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Imiglucerase: nueva indicación predicha, Síndrome de Hurler (MPS I) (nivel de evidencia L4). Indicación original: IMIGLUCERASA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/inotersen.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \\\"INOTER…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_aspart.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina aspartato\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/insulin_degludec.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina degludec\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/irinotecan.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: IRINOTECAN\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/isoniazid.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: ISONIAZIDA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/itraconazole.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: ITRACONAZOL\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ixabepilone.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Ixabepilona\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ketamine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L5). Indicación original: KETAMINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/lamotrigine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (la predicción de rango 1… (nivel de evidencia L5). Indicación original: LAMOTRIGINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/larotrectinib.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L3). Indicación original: LAROTRECTINIB\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/megestrol_acetate.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Acetato de Megestrol: nueva indicación predicha, hereditary breast ovarian cancer syndrome (nivel de evidencia L2). Indicación original: MEGESTROL\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/melphalan.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L2). Indicación original: Melphalan\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mepolizumab.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \\\"Mepol…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/mercaptopurine.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L3",
+      "original_description": "\"Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: MERCAPTOPURINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/metoclopramide.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \\\"METOCL…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/misoprostol.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L4). Indicación original: Misoprostol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/montelukast.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L2",
+      "original_description": "\"Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \\\"MONTELUK…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/nandrolone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L4). Indicación original: NANDROLONA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/oxymetazoline.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L3). Indicación original: Oximetazolina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pantoprazole.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L1). Indicación original: Pantoprazol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/perindopril.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Perindopril y amlodipino\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/posaconazole.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: No especificada en detalle\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pregabalin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L4). Indicación original: Pregabalina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/propafenone.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Propafenone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L4). Indicación original: Propafenona\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/propofol.md",
+      "date": "2026-11-06",
+      "from": "L5",
+      "to": "L1",
+      "original_description": "\"Propofol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Propofol\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/pseudoephedrine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rilpivirine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rivastigmine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L4). Indicación original: RIVASTIGMINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/rotigotine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L4). Indicación original: Rotigotina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/simvastatin.md",
+      "date": "2026-11-06",
+      "from": "L1",
+      "to": "L5",
+      "original_description": "\"Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L1). Indicación original: Simvastatina combinaciones paquetes\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulbactam.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L3). Indicación original: Ampicilina e inhibidor enzimático\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulfadiazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Sulfadiazine: nueva indicación predicha, Neumocistosis (nivel de evidencia L4). Indicación original: SULFADIAZINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/sulfamethoxazole.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L4). Indicación original: Sulfametoxazol y trimetoprim\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/talc.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: CLINDAMICINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/tenofovir_disoproxil.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Tenofovir disoproxil y emtricitabina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/ticagrelor.md",
+      "date": "2026-11-06",
+      "from": "L2",
+      "to": "L5",
+      "original_description": "\"Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L2). Indicación original: No especificada en los registros\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trabectedin.md",
+      "date": "2026-11-06",
+      "from": "L3",
+      "to": "L5",
+      "original_description": "\"Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L3). Indicación original: Trabectedina\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/trifluoperazine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L4). Indicación original: AMITRIPTILINA Y SICOLEPTICOS\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/vasopressin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Vasopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L4). Indicación original: VASOPRESINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/venetoclax.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Venetoclax: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto apr…\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/warfarin.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L4). Indicación original: WARFARINA\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/zanubrutinib.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: Agente antineoplásico e inmunomodulador\"",
+      "tool": ".claude/sync_description_levels.py"
+    },
+    {
+      "page": "docs/_drugs/zidovudine.md",
+      "date": "2026-11-06",
+      "from": "L4",
+      "to": "L5",
+      "original_description": "\"Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Zidovudina\"",
+      "tool": ".claude/sync_description_levels.py"
+    }
+  ]
+}

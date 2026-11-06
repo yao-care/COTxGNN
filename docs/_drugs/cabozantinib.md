@@ -6,7 +6,7 @@ nav_order: 126
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: Cabozantinib"
+description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
 ---

@@ -6,7 +6,7 @@ nav_order: 46
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Ambroxol"
+description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
 ---

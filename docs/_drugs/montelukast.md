@@ -6,7 +6,7 @@ nav_order: 454
 evidence_level: L2
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
+description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L2). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
 ---

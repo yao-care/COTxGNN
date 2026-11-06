@@ -6,7 +6,7 @@ nav_order: 345
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L1). Indicación original: Insulina degludec"
+description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina degludec"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 ---

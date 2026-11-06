@@ -6,7 +6,7 @@ nav_order: 626
 evidence_level: L5
 indication_count: 9
 last_modified_at: 2026-11-06
-description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L2). Indicación original: No especificada en los registros"
+description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 ---

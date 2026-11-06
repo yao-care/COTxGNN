@@ -6,7 +6,7 @@ nav_order: 194
 evidence_level: L5
 indication_count: 3
 last_modified_at: 2026-10-31
-description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L4). Indicación original: DAPOXETINA"
+description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DAPOXETINA"
 monitor_inn: "dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
 ---

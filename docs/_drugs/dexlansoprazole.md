@@ -6,7 +6,7 @@ nav_order: 212
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: DEXLANSOPRAZOL"
+description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: DEXLANSOPRAZOL"
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
 ---

@@ -6,7 +6,7 @@ nav_order: 613
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L4). Indicación original: Tenofovir disoproxil y emtricitabina"
+description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Tenofovir disoproxil y emtricitabina"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 ---

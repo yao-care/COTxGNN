@@ -6,7 +6,7 @@ nav_order: 424
 evidence_level: L5
 indication_count: 7
 last_modified_at: 2026-11-06
-description: "Acetato de Megestrol: nueva indicación predicha, hereditary breast ovarian cancer syndrome (nivel de evidencia L2). Indicación original: MEGESTROL"
+description: "Acetato de Megestrol: nueva indicación predicha, hereditary breast ovarian cancer syndrome (nivel de evidencia L5). Indicación original: MEGESTROL"
 monitor_inn: "Megestrol acetate"
 predicted_indications: ["hereditary breast ovarian cancer syndrome", "borderline epithelial tumor of ovary", "uterine carcinosarcoma", "placenta cancer", "ovarian clear cell adenocarcinoma", "ovarian cancer", "malignant dysgerminomatous germ cell tumor of ovary"]
 ---

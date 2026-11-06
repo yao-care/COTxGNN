@@ -6,7 +6,7 @@ nav_order: 543
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
+description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 ---

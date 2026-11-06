@@ -6,7 +6,7 @@ nav_order: 262
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L4). Indicación original: Ertapenem"
+description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L5). Indicación original: Ertapenem"
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
 ---

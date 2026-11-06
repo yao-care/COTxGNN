@@ -6,7 +6,7 @@ nav_order: 429
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Mepol…"
+description: "Mepolizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Mepol…"
 monitor_inn: "MEPOLIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 ---

@@ -6,7 +6,7 @@ nav_order: 438
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L4). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
+description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 ---

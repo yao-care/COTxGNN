@@ -6,7 +6,7 @@ nav_order: 364
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: Ixabepilona"
+description: "Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: Ixabepilona"
 monitor_inn: "ixabepilone"
 predicted_indications: ["Ewing sarcoma", "salivary gland type cancer of the breast", "breast papillomatosis", "breast leiomyoma", "breast lipoma", "diabetic mastopathy", "benign neoplasm of male breast", "giant adenofibroma of the breast", "infiltrating nipple syringomatous adenoma", "subareolar duct papillomatosis"]
 ---

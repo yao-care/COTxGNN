@@ -6,7 +6,7 @@ nav_order: 382
 evidence_level: L5
 indication_count: 2
 last_modified_at: 2026-11-06
-description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L3). Indicación original: LAROTRECTINIB"
+description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: LAROTRECTINIB"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 ---

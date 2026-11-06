@@ -6,7 +6,7 @@ nav_order: 603
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L4). Indicación original: CLINDAMICINA"
+description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
 ---

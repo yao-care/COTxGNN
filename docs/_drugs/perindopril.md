@@ -6,7 +6,7 @@ nav_order: 509
 evidence_level: L5
 indication_count: 4
 last_modified_at: 2026-11-06
-description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L4). Indicación original: Perindopril y amlodipino"
+description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Perindopril y amlodipino"
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 ---

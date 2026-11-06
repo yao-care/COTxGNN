@@ -6,7 +6,7 @@ nav_order: 266
 evidence_level: L5
 indication_count: 5
 last_modified_at: 2026-11-06
-description: "Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L4). Indicación original: ETMABUTOL"
+description: "Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L5). Indicación original: ETMABUTOL"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
 ---

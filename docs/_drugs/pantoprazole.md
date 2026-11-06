@@ -6,7 +6,7 @@ nav_order: 498
 evidence_level: L5
 indication_count: 1
 last_modified_at: 2026-11-06
-description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L1). Indicación original: Pantoprazol"
+description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L5). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 ---

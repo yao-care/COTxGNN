@@ -6,7 +6,7 @@ nav_order: 305
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Ácido fusídico (crema tópica)"
+description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L5). Indicación original: Ácido fusídico (crema tópica)"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
 ---

@@ -6,7 +6,7 @@ nav_order: 38
 evidence_level: L5
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L4). Indicación original: Alopurinol"
+description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L5). Indicación original: Alopurinol"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
 ---

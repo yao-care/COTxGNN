@@ -6,7 +6,7 @@ nav_order: 122
 evidence_level: L2
 indication_count: 10
 last_modified_at: 2026-11-06
-description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: BUPROPION"
+description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
 ---
