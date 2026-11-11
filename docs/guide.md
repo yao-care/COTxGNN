@@ -56,6 +56,10 @@ Por favor lea la literatura de origen para confirmar el contexto antes de citar 
 
 ## Preguntas frecuentes
 
+<p class="key-answer" data-question="¿Qué medicamentos con registro INVIMA ya tienen ensayos clínicos para una indicación nueva?">
+En el listado de <a href="{{ '/drugs/' | relative_url }}">Todos los Medicamentos</a> puede filtrar por nivel de evidencia. Los medicamentos marcados como <a href="{{ '/evidence-high/' | relative_url }}">evidencia alta</a> o <a href="{{ '/evidence-medium/' | relative_url }}">moderada</a> (L1&ndash;L4) ya cuentan con ensayos clínicos u otra evidencia en humanos para la nueva indicación predicha; revise los registros NCT y PMID citados en cada informe para confirmar el estado del ensayo.
+</p>
+
 <p class="key-answer" data-question="¿Se pueden usar las predicciones en la práctica clínica?">
 <strong>No.</strong> Las predicciones de esta plataforma son pistas de investigación, no consejo
 clínico. Toda aplicación clínica de reposicionamiento de medicamentos debe pasar por una validación
