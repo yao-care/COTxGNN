@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Artemeter es un antipalúdico de la familia de las artemisininas, con un registro sanitario local en Colombia.
+Artemeter es un antipalúdico de la familia de las artemisininas, con dos registros sanitarios locales en Colombia.
 El modelo TxGNN predice que podría ser efectivo para **angioedema adquirido (acquired angioedema)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; es una predicción puramente computacional.
+
+<!-- review:begin co-lic-20261112-artemether-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "con un registro sanitario local en Colombia." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 2 registros sanitarios vigentes (20005913 y 20012776). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-artemether-1 -->
 
 ## Resumen Rápido
 
@@ -96,6 +102,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, no hay un vínc
 - Estudios preclínicos que respalden la hipótesis
 - Revisión del prospecto del INVIMA para advertencias y contraindicaciones
 - Evaluación del riesgo de prolongación del QT y de las interacciones antes de cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros sanitarios: 1 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

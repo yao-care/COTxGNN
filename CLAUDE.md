@@ -36,4 +36,4 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 896 筆紀錄（429 頁；其中 8 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
-2026-11-12 正文許可證張數對事實層掃描：62 頁 66 筆 correct 紀錄（`co-lic-20261112-*`）把 AI 正文裡依 10-31 前舊證據包寫的「N registros vigentes」等張數改成事實層（vigentes＝程式狀態列的有效張數；資料只收到 20 筆上限的頁寫「al menos N」）。正文數字＝有效＋暫時未上市（Temp. no comerc - Vigente，法律上仍有效）的不改；artemether、rivastigmine、octreotide 的「一／兩張註冊」下文依賴單一產品的說法，改數字要連帶改寫，暫不改。
+2026-11-12 正文許可證張數對事實層掃描：62 頁 66 筆 correct 紀錄（`co-lic-20261112-*`）把 AI 正文裡依 10-31 前舊證據包寫的「N registros vigentes」等張數改成事實層（vigentes＝程式狀態列的有效張數；資料只收到 20 筆上限的頁寫「al menos N」）。正文數字＝有效＋暫時未上市（Temp. no comerc - Vigente，法律上仍有效）的不改；artemether、rivastigmine、octreotide 的「一／兩張註冊」2026-11-12 依事實層與證據包逐句改寫（`co-lic-20261112-{artemether,rivastigmine,octreotide}-1`：2、11、2 張；下文的單一產品說法查過仍成立），錨在 octreotide 那句的 co-lic-20261105-octreotide-2 改錨、前版存 history。

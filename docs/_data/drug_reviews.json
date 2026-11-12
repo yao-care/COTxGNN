@@ -11318,7 +11318,32 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"actualmente cancelado\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-octreotide-2",
+     "drug": "octreotide",
+     "file": "octreotide.md",
+     "action": "correct",
+     "claim": "Octreotida es un análogo de la somatostatina que cuenta con un registro sanitario en Colombia (Sandostatin®), actualmente cancelado, cuyo texto de indicación se limita al nombre del principio activo (\"Octreotido\").",
+     "replacement": "Octreotida es un análogo de la somatostatina que cuenta con un registro sanitario en Colombia (Sandostatin®), cuyo texto de indicación se limita al nombre del principio activo (\"Octreotido\").",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"actualmente cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-12",
+     "reason": "錨點（這筆的 replacement 整句）裡「un registro sanitario」由 co-lic-20261112-octreotide-1 依事實層更正為兩張；錨點改成句首不受更正影響的片段，框的位置不變"
+    }
+   ],
+   "anchor": "Octreotida es un análogo de la somatostatina que cuenta con"
   },
   {
    "id": "co-lic-20261105-octreotide-3",
@@ -11360,6 +11385,26 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"y con el único registro sanitario colombiano cancelado\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+  },
+  {
+   "id": "co-lic-20261112-octreotide-1",
+   "drug": "octreotide",
+   "file": "octreotide.md",
+   "action": "correct",
+   "claim": "cuenta con un registro sanitario en Colombia (Sandostatin®)",
+   "replacement": "cuenta con dos registros sanitarios vigentes en Colombia (entre ellos Sandostatin®)",
+   "summary": "Número de registros sanitarios: 1 → 2",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 2 registros sanitarios vigentes (20007947 Sandostatin® ampollas y 228254, polvo para suspensión inyectable). Las cifras actuales están en el Resumen rápido.",
+   "finding": "正文寫 1 張（Sandostatin）；事實層與證據包 2 張皆 Vigente（20007947 SANDOSTATIN AMPOLLAS、228254 acetato de octreotida 粉針）（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（程式改寫判斷不了的正文張數，逐句對照事實層與證據包原始資料）"
   },
   {
    "id": "co-lic-20261105-olmesartan-1",
@@ -14704,6 +14749,26 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"dado que los dos registros están cancelados\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+  },
+  {
+   "id": "co-lic-20261112-rivastigmine-1",
+   "drug": "rivastigmine",
+   "file": "rivastigmine.md",
+   "action": "correct",
+   "claim": "figura en dos registros sanitarios de INVIMA (parches transdérmicos)",
+   "replacement": "figura en 11 registros sanitarios de INVIMA (parches transdérmicos; 8 vigentes y 3 vigentes pero temporalmente no comercializados)",
+   "summary": "Número de registros sanitarios: 2 → 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, todos de sistemas transdérmicos: 8 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "正文寫 2 張；事實層與證據包 11 張，全是經皮貼片（有效 8、Temp. no comerc - Vigente 3），所以「parches transdérmicos」仍成立（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（程式改寫判斷不了的正文張數，逐句對照事實層與證據包原始資料）"
   },
   {
    "id": "co-lic-20261105-romiplostim-1",
@@ -19427,6 +19492,26 @@
    ],
    "checked": "2026-11-12",
    "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-artemether-1",
+   "drug": "artemether",
+   "file": "artemether.md",
+   "action": "correct",
+   "claim": "con un registro sanitario local en Colombia.",
+   "replacement": "con dos registros sanitarios locales en Colombia.",
+   "summary": "Número de registros sanitarios: 1 → 2",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 2 registros sanitarios vigentes (20005913 y 20012776). Las cifras actuales están en el Resumen rápido.",
+   "finding": "正文寫 1 張；事實層與證據包 2 張皆 Vigente（20005913 TABLETA DISPERSABLE、20012776 COARTEM）。下文「Este registro corresponde a un producto … en combinación」指表格那一列（COARTEM），仍成立，不改（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（程式改寫判斷不了的正文張數，逐句對照事實層與證據包原始資料）"
   }
  ]
 }

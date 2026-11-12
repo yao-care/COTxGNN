@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Rivastigmina es un inhibidor de colinesterasas que figura en dos registros sanitarios de INVIMA (parches transdérmicos), cuyo texto de indicación solo indica "RIVASTIGMINA"; en la literatura se utiliza en la enfermedad de Alzheimer.
+Rivastigmina es un inhibidor de colinesterasas que figura en 11 registros sanitarios de INVIMA (parches transdérmicos; 8 vigentes y 3 vigentes pero temporalmente no comercializados), cuyo texto de indicación solo indica "RIVASTIGMINA"; en la literatura se utiliza en la enfermedad de Alzheimer.
 El modelo TxGNN predice que podría ser efectivo para **glaucoma**,
 con **0 ensayos clínicos** y **3 publicaciones** (una de ellas un estudio preclínico en conejos) que respaldan esta dirección de forma indirecta.
+
+<!-- review:begin co-lic-20261112-rivastigmine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "figura en dos registros sanitarios de INVIMA (parches transdérmicos)" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, todos de sistemas transdérmicos: 8 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-rivastigmine-1 -->
 
 ---
 
@@ -146,6 +152,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a BIOTOSCANA FARMA S.A. y están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay producto vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros sanitarios: 2 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
