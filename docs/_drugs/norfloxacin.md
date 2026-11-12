@@ -108,7 +108,13 @@ La predicción para hiperamilasemia es solo del modelo (L5), sin ensayos ni lite
 - Evidencia clínica o preclínica que relacione norfloxacino con la hiperamilasemia
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluar si otra indicación predicha, como la peste septicémica, merece una investigación específica, considerando que otras fluoroquinolonas están mejor respaldadas
-- Confirmar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias válidas
+- Confirmar la situación regulatoria: el medicamento está comercializado y cuenta con 11 licencias válidas
+
+<!-- review:begin co-lic-20261112-norfloxacin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias válidas" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-norfloxacin-1 -->
 
 <!-- review:begin log -->
 
@@ -120,6 +126,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; actualmente no hay productos vigentes con norfloxacino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el fármaco no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

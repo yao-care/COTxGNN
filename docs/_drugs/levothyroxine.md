@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Levotiroxina (levotiroxina de sodio) es una hormona tiroidea sintética que cuenta en Colombia con un registro sanitario vigente de INVIMA, cuyo texto de indicación solo indica el nombre del principio activo.
+Levotiroxina (levotiroxina de sodio) es una hormona tiroidea sintética que cuenta en Colombia con al menos 20 registros sanitarios vigentes de INVIMA, cuyo texto de indicación solo indica el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia renal**, pero **no existen ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; se trata únicamente de una predicción del modelo.
+
+<!-- review:begin co-lic-20261112-levothyroxine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "un registro sanitario vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-levothyroxine-1 -->
 
 ## Resumen Rápido
 
@@ -101,6 +107,19 @@ La predicción no tiene ensayos clínicos ni publicaciones que la respalden (niv
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Revisión sistemática de literatura que evalúe un posible papel de la hormona tiroidea en el desarrollo renal y en estas malformaciones.
 - Evidencia preclínica o clínica que sustente un beneficio en la indicación predicha antes de reconsiderar la decisión.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 1 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

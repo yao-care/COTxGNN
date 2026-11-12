@@ -129,8 +129,14 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni liter
 - Datos preclínicos (modelos foliculares in vitro o in vivo) antes de plantear cualquier estudio clínico
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que sigue pendiente
 - Completar los datos del mecanismo de acción desde DrugBank
-- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado con 8 licencias vigentes y la única forma farmacéutica es oftálmica
+- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado con 17 licencias vigentes y la única forma farmacéutica es oftálmica
 - Considerar priorizar otros candidatos o indicaciones con mayor plausibilidad biológica
+
+<!-- review:begin co-lic-20261112-naphazoline-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "8 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 17 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-naphazoline-1 -->
 
 <!-- review:begin log -->
 
@@ -142,6 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay productos vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 8 → 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

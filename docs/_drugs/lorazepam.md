@@ -127,7 +127,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia con 2 registros sanitarios vigentes y los datos de seguridad del prospecto no están disponibles.
+La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia con 3 registros sanitarios vigentes y los datos de seguridad del prospecto no están disponibles.
+
+<!-- review:begin co-lic-20261112-lorazepam-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 3 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-lorazepam-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío crítico que impide el tamizaje de seguridad.
@@ -151,6 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 3 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

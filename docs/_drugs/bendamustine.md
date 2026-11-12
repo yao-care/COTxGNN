@@ -38,7 +38,7 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia, cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.
+Bendamustina es un agente alquilante citotóxico que cuenta con 14 registros sanitarios en Colombia, cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.
 El modelo TxGNN predice que podría ser efectivo para **Linfoma de Células del Manto**,
 con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
@@ -47,6 +47,12 @@ con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 > **Corrección de revisión (2026-11-05)**: Texto original: "Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia (actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-bendamustine-1 -->
+
+<!-- review:begin co-lic-20261112-bendamustine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "que cuenta con un registro sanitario en Colombia, cuyo" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 11 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-bendamustine-1 -->
 
 ## Resumen Rápido
 
@@ -158,9 +164,10 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "(actualmente cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(actualmente cancelado)" | Corregido (revisado el 2026-11-12; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: el registro 20154170 está cancelado y no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros sanitarios: 1 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

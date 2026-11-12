@@ -137,8 +137,14 @@ La predicción es solo computacional (L5): no hay ensayos clínicos de baclofeno
 - Estudios preclínicos o piloto que prueben directamente el baclofeno en modelos o pacientes con TDAH.
 - Datos detallados del mecanismo de acción y análisis de la relación entre GABA-B y los circuitos del TDAH.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
-- Evaluar la viabilidad regulatoria, dado que el medicamento está comercializado y cuenta con 4 registros vigentes.
+- Evaluar la viabilidad regulatoria, dado que el medicamento está comercializado y cuenta con 9 registros vigentes.
 - Un plan de seguridad específico para población pediátrica y para interacciones con depresores del sistema nervioso central.
+
+<!-- review:begin co-lic-20261112-baclofen-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-baclofen-1 -->
 
 <!-- review:begin log -->
 
@@ -150,6 +156,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros están **cancelados**, por lo que actualmente no hay producto de baclofeno con registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 9 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

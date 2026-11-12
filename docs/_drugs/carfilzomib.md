@@ -157,7 +157,13 @@ La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos 
 - Completar los datos del mecanismo de acción (por ejemplo, desde DrugBank)
 - Aclarar qué es CMM7 y su relación con el melanoma cutáneo
 - Generar evidencia preclínica específica (líneas celulares, modelos in vivo) y valorar la indicación más amplia de melanoma (L4) como pregunta de investigación
-- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que está comercializado y cuenta con 4 registros vigentes
+- Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que está comercializado y cuenta con 7 registros vigentes
+
+<!-- review:begin co-lic-20261112-carfilzomib-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-carfilzomib-1 -->
 
 <!-- review:begin log -->
 
@@ -169,6 +175,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

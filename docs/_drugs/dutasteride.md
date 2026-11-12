@@ -128,8 +128,14 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 - Datos del mecanismo de acción (consultar DrugBank) y análisis de si existe un vínculo real entre la DHT y la hipertricosis de Ambras
 - Revisión bibliográfica dirigida y evidencia preclínica que respalde la hipótesis
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
-- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 3 licencias vigentes
+- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 13 licencias vigentes
 - Priorizar otras predicciones con mayor plausibilidad, como la hipotricosis simple del cuero cabelludo, que tiene cercanía fenotípica con la alopecia androgenética
+
+<!-- review:begin co-lic-20261112-dutasteride-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "con 3 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 13 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-dutasteride-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y sin registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

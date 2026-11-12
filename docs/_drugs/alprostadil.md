@@ -79,7 +79,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Alprostadil se encuentra comercializado en Colombia, con 4 registros vigentes. La lista de registros puede ser parcial.
+Alprostadil se encuentra comercializado en Colombia, con 5 registros vigentes. La lista de registros puede ser parcial.
+
+<!-- review:begin co-lic-20261112-alprostadil-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 5 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-alprostadil-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -108,6 +114,18 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones.
 - Estudios comparativos o series más amplias en malformaciones aórticas dependientes del conducto.
 - Un protocolo de uso restringido a unidades neonatales o cardiológicas especializadas, con vigilancia de apnea, presión arterial, temperatura y electrolitos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 4 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

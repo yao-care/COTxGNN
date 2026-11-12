@@ -107,13 +107,32 @@ Consultar el prospecto para la información de seguridad oficial.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fenol tiene un perfil de toxicidad desfavorable y está comercializado en Colombia, con 3 registros vigentes.
+La predicción se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fenol tiene un perfil de toxicidad desfavorable y está comercializado en Colombia, con 7 registros vigentes.
+
+<!-- review:begin co-lic-20261112-phenol-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-phenol-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales.
 - Una justificación biológica que relacione el fenol con la borreliosis de Lyme cutánea tardía, o priorizar otras predicciones con algún respaldo, como el uso en cicatrices (acné queloide), que sigue siendo solo una pregunta de investigación (L4) y exige cautela por el riesgo de empeorar cicatrices queloides.
 - Evaluación de compatibilidad de vía de administración y de formulación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 3 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

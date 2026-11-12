@@ -104,7 +104,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo mecanístico es débil (el defecto está en el receptor V2, no en la vía opioide), el medicamento está comercializado en Colombia con 3 registros vigentes y el perfil de seguridad es complejo (327 interacciones, riesgo de depresión respiratoria y dependencia).
+La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo mecanístico es débil (el defecto está en el receptor V2, no en la vía opioide), el medicamento está comercializado en Colombia con 6 registros vigentes y el perfil de seguridad es complejo (327 interacciones, riesgo de depresión respiratoria y dependencia).
+
+<!-- review:begin co-lic-20261112-fentanyl-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 6 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-fentanyl-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
@@ -128,6 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

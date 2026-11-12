@@ -108,7 +108,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en porfiria; el puntaje alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, existe una posible señal de seguridad (efecto porfirinogénico en animales) y en Colombia el medicamento está comercializado, con 3 registros sanitarios vigentes.
+No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en porfiria; el puntaje alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, existe una posible señal de seguridad (efecto porfirinogénico en animales) y en Colombia el medicamento está comercializado, con 9 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-allopurinol-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-allopurinol-1 -->
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre alopurinol y porfirias (seguridad porfirinogénica, hemo oxigenasa, citocromo P450).
@@ -132,6 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 9 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

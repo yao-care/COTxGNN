@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Según los registros locales, el estado de mercado es comercializado, con una licencia vigente. La lista puede ser parcial.
+Según los registros locales, el estado de mercado es comercializado, con al menos 16 licencias vigentes. La lista puede ser parcial.
+
+<!-- review:begin co-lic-20261112-ascorbic_acid-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "una licencia vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 16 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-ascorbic_acid-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
 |---------|------|------|
@@ -96,6 +102,18 @@ La predicción tiene un puntaje alto (0,9996), pero no cuenta con ensayos clíni
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
 - Datos de seguridad del prospecto (advertencias y contraindicaciones) obtenidos de INVIMA.
 - Datos detallados del mecanismo de acción.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 1 → al menos 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

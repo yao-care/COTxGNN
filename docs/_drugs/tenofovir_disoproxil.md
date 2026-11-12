@@ -124,7 +124,13 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, el medicamento está comercializado en Colombia con 4 registros sanitarios vigentes, y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
+La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, el medicamento está comercializado en Colombia con 16 registros sanitarios vigentes, y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
+
+<!-- review:begin co-lic-20261112-tenofovir_disoproxil-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 16 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-tenofovir_disoproxil-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
@@ -147,6 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

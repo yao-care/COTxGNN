@@ -118,7 +118,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en evidencia preclínica indirecta y en reportes de caso que incluso apuntan a un posible riesgo. No hay ensayos clínicos; el medicamento está comercializado en Colombia y cuenta con 3 registros sanitarios vigentes.
+La predicción se apoya solo en evidencia preclínica indirecta y en reportes de caso que incluso apuntan a un posible riesgo. No hay ensayos clínicos; el medicamento está comercializado en Colombia y cuenta con 8 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-pirfenidone-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 8 vigentes y 5 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-pirfenidone-1 -->
 
 **Para avanzar se necesita:**
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos del mecanismo de acción desde DrugBank.
@@ -138,6 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran actualmente como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

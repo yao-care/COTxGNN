@@ -106,7 +106,13 @@ Se listan los ensayos más relevantes (priorizando Fase 3 y Fase 2 con paclitaxe
 
 ## Información de Mercado en Colombia
 
-Existen 4 registros sanitarios vigentes; el medicamento se encuentra comercializado.
+Existen 15 registros sanitarios vigentes; el medicamento se encuentra comercializado.
+
+<!-- review:begin co-lic-20261112-paclitaxel-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 16 registros sanitarios, de los cuales 15 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-paclitaxel-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -167,6 +173,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

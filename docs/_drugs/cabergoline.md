@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-La cabergolina es un agonista dopaminérgico que actúa principalmente sobre los receptores D2 y que cuenta con un registro sanitario local en Colombia.
+La cabergolina es un agonista dopaminérgico que actúa principalmente sobre los receptores D2 y que cuenta con 5 registros sanitarios vigentes en Colombia.
 El modelo TxGNN predice que podría ser efectiva para el **síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome)**, una enfermedad ultrarrara.
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
+
+<!-- review:begin co-lic-20261112-cabergoline-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "que cuenta con un registro sanitario local en Colombia." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-cabergoline-1 -->
 
 ## Resumen Rápido
 
@@ -92,6 +98,19 @@ La predicción no tiene ensayos clínicos, literatura ni un vínculo mecanístic
 - Un racional biológico que conecte la vía dopaminérgica con la fisiopatología del síndrome.
 - Estudios preclínicos o series de casos que muestren una señal de beneficio.
 - Las advertencias y contraindicaciones del prospecto local, y los datos detallados del mecanismo de acción.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros sanitarios: 1 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

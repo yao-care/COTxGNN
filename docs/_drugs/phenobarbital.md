@@ -126,7 +126,13 @@ La predicción para neoplasia del nervio trigémino solo cuenta con el modelo co
 - Priorizar, como preguntas de investigación, las indicaciones con respaldo mecanístico más coherente: epilepsias reflejas (audiogénicas, por sobresalto, por lectura, por alimentación, inducidas por micción o por pensamiento) y neuralgia del trigémino, donde la evidencia actual es indirecta, preclínica o de casos.
 - Obtener y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones.
 - Complementar los datos del mecanismo de acción desde DrugBank.
-- Verificar la situación regulatoria actual en Colombia, donde el medicamento está comercializado y los 3 registros están vigentes.
+- Verificar la situación regulatoria actual en Colombia, donde el medicamento está comercializado y los 4 registros están vigentes.
+
+<!-- review:begin co-lic-20261112-phenobarbital-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "los 3 registros están vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-phenobarbital-1 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

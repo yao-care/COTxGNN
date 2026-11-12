@@ -140,7 +140,13 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínc
 - Descargar y analizar el prospecto de INVIMA para completar el cribado de seguridad (advertencias y contraindicaciones; brecha bloqueante).
 - Datos detallados del mecanismo de acción (consulta a DrugBank).
 - Aclarar la indicación original aprobada, ya que el registro solo indica "duloxetina".
-- Verificar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 2 registros vigentes.
+- Verificar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 10 registros vigentes.
+
+<!-- review:begin co-lic-20261112-duloxetine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 10 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-duloxetine-1 -->
 
 <!-- review:begin log -->
 
@@ -151,6 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 10 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

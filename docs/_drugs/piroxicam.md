@@ -135,8 +135,14 @@ La predicción para esta indicación (L5) carece de ensayos clínicos, literatur
 - Descartar o sustentar la hipótesis con evidencia biológica, ya que hoy no existe ninguna.
 - Obtener el prospecto con advertencias y contraindicaciones oficiales (INVIMA).
 - Completar los datos de mecanismo de acción desde DrugBank.
-- Confirmar la situación regulatoria actual del fármaco, que está comercializado y cuenta con 5 registros vigentes.
+- Confirmar la situación regulatoria actual del fármaco, que está comercializado y cuenta con al menos 20 registros vigentes.
 - Si se prioriza la artritis idiopática juvenil, revisar el texto completo de los estudios para confirmar su diseño y resultados.
+
+<!-- review:begin co-lic-20261112-piroxicam-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-piroxicam-1 -->
 
 <!-- review:begin log -->
 
@@ -148,6 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia, lo que limita cualquier desarrollo práctico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

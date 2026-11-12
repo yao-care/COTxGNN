@@ -1208,7 +1208,32 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"(actualmente cancelado)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-bendamustine-1",
+     "drug": "bendamustine",
+     "file": "bendamustine.md",
+     "action": "correct",
+     "claim": "Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia (actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.",
+     "replacement": "Bendamustina es un agente alquilante citotóxico que cuenta con un registro sanitario en Colombia, cuyo texto de indicación aprobada solo menciona el nombre del fármaco, sin detallar una enfermedad específica.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"(actualmente cancelado)\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-12",
+     "reason": "更正後那句的註冊張數再由 co-lic-20261112-bendamustine-1 依事實層更正（1→14）；錨點改成句中不受更正影響的部分，框的位置不變"
+    }
+   ],
+   "anchor": "solo menciona el nombre del fármaco, sin detallar una enfermedad específica."
   },
   {
    "id": "co-lic-20261105-bendamustine-2",
@@ -3103,7 +3128,32 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Existe un sexto registro cancelado (19937980, Restasis emulsión oftálmica, AbbVie), que no se muestra en la tabla por el límite de cinco reg\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
-   "anchor": "Los 6 registros sanitarios están vigentes."
+   "anchor": "registros sanitarios están vigentes.",
+   "history": [
+    {
+     "id": "co-lic-20261105-cyclosporine-1",
+     "drug": "cyclosporine",
+     "file": "cyclosporine.md",
+     "action": "correct",
+     "claim": "Existe un sexto registro cancelado (19937980, Restasis emulsión oftálmica, AbbVie), que no se muestra en la tabla por el límite de cinco registros.",
+     "replacement": "",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"Existe un sexto registro cancelado (19937980, Restasis emulsión oftálmica, AbbVie), que no se muestra en la tabla por el límite de cinco reg\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "anchor": "Los 6 registros sanitarios están vigentes.",
+     "retired": "2026-11-12",
+     "reason": "錨點那句「Los 6 registros sanitarios están vigentes.」的張數由 co-lic-20261112-cyclosporine-1 依事實層更正（8 張有效）；錨點改成句中不受更正影響的部分，框的位置不變"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-cyclosporine-2",
@@ -18057,6 +18107,1326 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"todas actualmente canceladas\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+  },
+  {
+   "id": "co-lic-20261112-allopurinol-1",
+   "drug": "allopurinol",
+   "file": "allopurinol.md",
+   "action": "correct",
+   "claim": "3 registros sanitarios vigentes",
+   "replacement": "9 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → 9",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 9、valid 9、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-alprostadil-1",
+   "drug": "alprostadil",
+   "file": "alprostadil.md",
+   "action": "correct",
+   "claim": "4 registros vigentes",
+   "replacement": "5 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → 5",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 5 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 6、valid 5、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ambroxol-1",
+   "drug": "ambroxol",
+   "file": "ambroxol.md",
+   "action": "correct",
+   "claim": "5 registros sanitarios vigentes",
+   "replacement": "al menos 18 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 5 → al menos 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 18（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ascorbic_acid-1",
+   "drug": "ascorbic_acid",
+   "file": "ascorbic_acid.md",
+   "action": "correct",
+   "claim": "una licencia vigente",
+   "replacement": "al menos 16 licencias vigentes",
+   "summary": "Número de registros vigentes: 1 → al menos 16",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 16 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 1 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 16（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-baclofen-1",
+   "drug": "baclofen",
+   "file": "baclofen.md",
+   "action": "correct",
+   "claim": "4 registros vigentes",
+   "replacement": "9 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → 9",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 9、valid 9、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-beclomethasone_dipropionate-1",
+   "drug": "beclomethasone_dipropionate",
+   "file": "beclomethasone_dipropionate.md",
+   "action": "correct",
+   "claim": "5 registros colombianos vigentes",
+   "replacement": "14 registros colombianos vigentes",
+   "summary": "Número de registros vigentes: 5 → 14",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 14 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 14、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-carfilzomib-1",
+   "drug": "carfilzomib",
+   "file": "carfilzomib.md",
+   "action": "correct",
+   "claim": "4 registros vigentes",
+   "replacement": "7 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → 7",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 7、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-celecoxib-1",
+   "drug": "celecoxib",
+   "file": "celecoxib.md",
+   "action": "correct",
+   "claim": "7 registros sanitarios vigentes",
+   "replacement": "12 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 7 → 12",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 12 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 7 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 13、valid 12、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-clindamycin-1",
+   "drug": "clindamycin",
+   "file": "clindamycin.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "11 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 11、valid 11、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-cyclosporine-1",
+   "drug": "cyclosporine",
+   "file": "cyclosporine.md",
+   "action": "correct",
+   "claim": "Los 6 registros sanitarios están vigentes",
+   "replacement": "Los 8 registros sanitarios están vigentes",
+   "summary": "Número de registros vigentes: 6 → 8",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 8 registros sanitarios, de los cuales 8 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 6 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 8、valid 8、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dacarbazine-1",
+   "drug": "dacarbazine",
+   "file": "dacarbazine.md",
+   "action": "correct",
+   "claim": "6 licencias vigentes",
+   "replacement": "4 licencias vigentes",
+   "summary": "Número de registros vigentes: 6 → 4",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 6 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 6、valid 4、not_marketed（Temp. no comerc - Vigente）1、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dasatinib-1",
+   "drug": "dasatinib",
+   "file": "dasatinib.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "12 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → 12",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 12 registros sanitarios, de los cuales 12 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 12、valid 12、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dexamethasone-1",
+   "drug": "dexamethasone",
+   "file": "dexamethasone.md",
+   "action": "correct",
+   "claim": "3 registros sanitarios vigentes",
+   "replacement": "al menos 19 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → al menos 19",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 19（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dexmedetomidine-1",
+   "drug": "dexmedetomidine",
+   "file": "dexmedetomidine.md",
+   "action": "correct",
+   "claim": "5 registros sanitarios vigentes",
+   "replacement": "11 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 5 → 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 11 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 13、valid 11、not_marketed（Temp. no comerc - Vigente）2、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dobutamine-1",
+   "drug": "dobutamine",
+   "file": "dobutamine.md",
+   "action": "correct",
+   "claim": "3 registros sanitarios vigentes",
+   "replacement": "4 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → 4",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 4、valid 4、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-duloxetine-1",
+   "drug": "duloxetine",
+   "file": "duloxetine.md",
+   "action": "correct",
+   "claim": "2 registros vigentes",
+   "replacement": "10 registros vigentes",
+   "summary": "Número de registros vigentes: 2 → 10",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 10 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 11、valid 10、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "con 3 licencias vigentes",
+   "replacement": "con 13 licencias vigentes",
+   "summary": "Número de registros vigentes: 3 → 13",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 13 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 15、valid 13、not_marketed（Temp. no comerc - Vigente）2、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-entecavir-1",
+   "drug": "entecavir",
+   "file": "entecavir.md",
+   "action": "correct",
+   "claim": "Los tres registros sanitarios están vigentes",
+   "replacement": "Los 12 registros sanitarios están vigentes",
+   "summary": "Número de registros vigentes: 3 → 12",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 12 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 12、not_marketed（Temp. no comerc - Vigente）2、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ertapenem-1",
+   "drug": "ertapenem",
+   "file": "ertapenem.md",
+   "action": "correct",
+   "claim": "los 2 registros sanitarios (de 2) están vigentes",
+   "replacement": "los 5 registros sanitarios (de 5) están vigentes",
+   "summary": "Número de registros vigentes: 2 → 5",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, de los cuales 5 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 5、valid 5、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "6 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → 6",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 6 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 6、valid 6、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-folic_acid-1",
+   "drug": "folic_acid",
+   "file": "folic_acid.md",
+   "action": "correct",
+   "claim": "1 licencia válida",
+   "replacement": "al menos 11 licencias válidas",
+   "summary": "Número de registros vigentes: 1 → al menos 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 11 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 1 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 11（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-fusidic_acid-1",
+   "drug": "fusidic_acid",
+   "file": "fusidic_acid.md",
+   "action": "correct",
+   "claim": "Hay 7 registros sanitarios vigentes",
+   "replacement": "Hay 13 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 7 → 13",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 13 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 7 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 13、not_marketed（Temp. no comerc - Vigente）0、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-fusidic_acid-2",
+   "drug": "fusidic_acid",
+   "file": "fusidic_acid.md",
+   "action": "correct",
+   "claim": "hay 7 registros sanitarios vigentes",
+   "replacement": "hay 13 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 7 → 13",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 13 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 7 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 13、not_marketed（Temp. no comerc - Vigente）0、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-glycerin-1",
+   "drug": "glycerin",
+   "file": "glycerin.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "10 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 10",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 12 registros sanitarios, de los cuales 10 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 12、valid 10、not_marketed（Temp. no comerc - Vigente）2、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-imipramine-1",
+   "drug": "imipramine",
+   "file": "imipramine.md",
+   "action": "correct",
+   "claim": "2 licencias válidas",
+   "replacement": "4 licencias válidas",
+   "summary": "Número de registros vigentes: 2 → 4",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 4、valid 4、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-irinotecan-1",
+   "drug": "irinotecan",
+   "file": "irinotecan.md",
+   "action": "correct",
+   "claim": "los 2 registros sanitarios colombianos están vigentes",
+   "replacement": "los 6 registros sanitarios colombianos están vigentes",
+   "summary": "Número de registros vigentes: 2 → 6",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 6 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 6、valid 6、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ivermectin-1",
+   "drug": "ivermectin",
+   "file": "ivermectin.md",
+   "action": "correct",
+   "claim": "5 registros sanitarios vigentes",
+   "replacement": "11 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 5 → 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 11 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 11、not_marketed（Temp. no comerc - Vigente）3、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ketoconazole-1",
+   "drug": "ketoconazole",
+   "file": "ketoconazole.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "al menos 18 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → al menos 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 18（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-levonorgestrel-1",
+   "drug": "levonorgestrel",
+   "file": "levonorgestrel.md",
+   "action": "correct",
+   "claim": "2 registros sanitarios vigentes",
+   "replacement": "al menos 19 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 2 → al menos 19",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 19（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-levothyroxine-1",
+   "drug": "levothyroxine",
+   "file": "levothyroxine.md",
+   "action": "correct",
+   "claim": "un registro sanitario vigente",
+   "replacement": "al menos 20 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 1 → al menos 20",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 1 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 20（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-lorazepam-1",
+   "drug": "lorazepam",
+   "file": "lorazepam.md",
+   "action": "correct",
+   "claim": "2 registros sanitarios vigentes",
+   "replacement": "3 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 2 → 3",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 3 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 4、valid 3、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-meloxicam-1",
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "claim": "3 registros sanitarios vigentes",
+   "replacement": "al menos 19 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → al menos 19",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 19（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-meloxicam-2",
+   "drug": "meloxicam",
+   "file": "meloxicam.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "al menos 19 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → al menos 19",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 19（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-methylphenidate-1",
+   "drug": "methylphenidate",
+   "file": "methylphenidate.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "7 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 7",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 7、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-metoprolol-1",
+   "drug": "metoprolol",
+   "file": "metoprolol.md",
+   "action": "correct",
+   "claim": "cuatro registros sanitarios vigentes",
+   "replacement": "15 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 15",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 15 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 15、valid 15、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-metronidazole-1",
+   "drug": "metronidazole",
+   "file": "metronidazole.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "al menos 18 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → al menos 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 18（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-mometasone-1",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "6 registros sanitarios vigentes",
+   "replacement": "al menos 20 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 6 → al menos 20",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 6 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 20（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-naphazoline-1",
+   "drug": "naphazoline",
+   "file": "naphazoline.md",
+   "action": "correct",
+   "claim": "8 licencias vigentes",
+   "replacement": "17 licencias vigentes",
+   "summary": "Número de registros vigentes: 8 → 17",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 17 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 8 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 20、valid 17、not_marketed（Temp. no comerc - Vigente）3、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-norfloxacin-1",
+   "drug": "norfloxacin",
+   "file": "norfloxacin.md",
+   "action": "correct",
+   "claim": "4 licencias válidas",
+   "replacement": "11 licencias válidas",
+   "summary": "Número de registros vigentes: 4 → 11",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 11、valid 11、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-olanzapine-1",
+   "drug": "olanzapine",
+   "file": "olanzapine.md",
+   "action": "correct",
+   "claim": "con 3 registros sanitarios vigentes",
+   "replacement": "con 18 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 18 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 20、valid 18、not_marketed（Temp. no comerc - Vigente）1、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-olanzapine-2",
+   "drug": "olanzapine",
+   "file": "olanzapine.md",
+   "action": "correct",
+   "claim": "(3 registros sanitarios vigentes",
+   "replacement": "(18 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 18 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 20、valid 18、not_marketed（Temp. no comerc - Vigente）1、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-olopatadine-1",
+   "drug": "olopatadine",
+   "file": "olopatadine.md",
+   "action": "correct",
+   "claim": "8 registros sanitarios vigentes",
+   "replacement": "17 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 8 → 17",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 17 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 8 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 18、valid 17、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-orlistat-1",
+   "drug": "orlistat",
+   "file": "orlistat.md",
+   "action": "correct",
+   "claim": "3 licencias vigentes",
+   "replacement": "14 licencias vigentes",
+   "summary": "Número de registros vigentes: 3 → 14",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 14 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 15、valid 14、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-oxaliplatin-1",
+   "drug": "oxaliplatin",
+   "file": "oxaliplatin.md",
+   "action": "correct",
+   "claim": "4 registros vigentes",
+   "replacement": "8 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → 8",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 8 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 9、valid 8、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-paclitaxel-1",
+   "drug": "paclitaxel",
+   "file": "paclitaxel.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "15 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 15",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 16 registros sanitarios, de los cuales 15 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 16、valid 15、not_marketed（Temp. no comerc - Vigente）0、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-palbociclib-1",
+   "drug": "palbociclib",
+   "file": "palbociclib.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "8 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 8",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 8 registros sanitarios, de los cuales 8 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 8、valid 8、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-phenobarbital-1",
+   "drug": "phenobarbital",
+   "file": "phenobarbital.md",
+   "action": "correct",
+   "claim": "los 3 registros están vigentes",
+   "replacement": "los 4 registros están vigentes",
+   "summary": "Número de registros vigentes: 3 → 4",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 4、valid 4、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-phenol-1",
+   "drug": "phenol",
+   "file": "phenol.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "7 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → 7",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 7、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-phenytoin-1",
+   "drug": "phenytoin",
+   "file": "phenytoin.md",
+   "action": "correct",
+   "claim": "1 registro sanitario vigente",
+   "replacement": "6 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 1 → 6",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 6 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 1 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 6、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-pirfenidone-1",
+   "drug": "pirfenidone",
+   "file": "pirfenidone.md",
+   "action": "correct",
+   "claim": "3 registros sanitarios vigentes",
+   "replacement": "8 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 3 → 8",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 8 vigentes y 5 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 13、valid 8、not_marketed（Temp. no comerc - Vigente）5、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-piroxicam-1",
+   "drug": "piroxicam",
+   "file": "piroxicam.md",
+   "action": "correct",
+   "claim": "5 registros vigentes",
+   "replacement": "al menos 20 registros vigentes",
+   "summary": "Número de registros vigentes: 5 → al menos 20",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 20（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-prednisolone-1",
+   "drug": "prednisolone",
+   "file": "prednisolone.md",
+   "action": "correct",
+   "claim": "4 licencias vigentes",
+   "replacement": "al menos 16 licencias vigentes",
+   "summary": "Número de registros vigentes: 4 → al menos 16",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 16 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 16（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-ritonavir-1",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "action": "correct",
+   "claim": "5 registros sanitarios vigentes",
+   "replacement": "14 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 5 → 14",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 14 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 15、valid 14、not_marketed（Temp. no comerc - Vigente）0、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-rivaroxaban-1",
+   "drug": "rivaroxaban",
+   "file": "rivaroxaban.md",
+   "action": "correct",
+   "claim": "5 licencias vigentes",
+   "replacement": "al menos 19 licencias vigentes",
+   "summary": "Número de registros vigentes: 5 → al menos 19",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 5 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 19（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-secnidazole-1",
+   "drug": "secnidazole",
+   "file": "secnidazole.md",
+   "action": "correct",
+   "claim": "Colombia con 4 registros vigentes",
+   "replacement": "Colombia con al menos 17 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → al menos 17",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 17 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 17（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-secnidazole-2",
+   "drug": "secnidazole",
+   "file": "secnidazole.md",
+   "action": "correct",
+   "claim": "cuenta con 4 registros vigentes",
+   "replacement": "cuenta con al menos 17 registros vigentes",
+   "summary": "Número de registros vigentes: 4 → al menos 17",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 17 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 17（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-sucralfate-1",
+   "drug": "sucralfate",
+   "file": "sucralfate.md",
+   "action": "correct",
+   "claim": "4 licencias válidas",
+   "replacement": "7 licencias válidas",
+   "summary": "Número de registros vigentes: 4 → 7",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 7、not_marketed（Temp. no comerc - Vigente）0、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-sulfamethoxazole-1",
+   "drug": "sulfamethoxazole",
+   "file": "sulfamethoxazole.md",
+   "action": "correct",
+   "claim": "2 registros sanitarios vigentes",
+   "replacement": "al menos 20 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 2 → al menos 20",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 20（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-telmisartan-1",
+   "drug": "telmisartan",
+   "file": "telmisartan.md",
+   "action": "correct",
+   "claim": "2 licencias vigentes",
+   "replacement": "al menos 18 licencias vigentes",
+   "summary": "Número de registros vigentes: 2 → al menos 18",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 2 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 partial（證據包只收到 20 筆上限）：vigente 至少 18（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-tenofovir_disoproxil-1",
+   "drug": "tenofovir_disoproxil",
+   "file": "tenofovir_disoproxil.md",
+   "action": "correct",
+   "claim": "4 registros sanitarios vigentes",
+   "replacement": "16 registros sanitarios vigentes",
+   "summary": "Número de registros vigentes: 4 → 16",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 16 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 18、valid 16、not_marketed（Temp. no comerc - Vigente）1、cancelled 1（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-tinidazole-1",
+   "drug": "tinidazole",
+   "file": "tinidazole.md",
+   "action": "correct",
+   "claim": "4 licencias vigentes",
+   "replacement": "12 licencias vigentes",
+   "summary": "Número de registros vigentes: 4 → 12",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 12 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 4 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 15、valid 12、not_marketed（Temp. no comerc - Vigente）3、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-tropicamide-1",
+   "drug": "tropicamide",
+   "file": "tropicamide.md",
+   "action": "correct",
+   "claim": "3 registros vigentes",
+   "replacement": "4 registros vigentes",
+   "summary": "Número de registros vigentes: 3 → 4",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫 3 張有效註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 5、valid 4、not_marketed（Temp. no comerc - Vigente）1、cancelled 0（data-20261105-231626）。正文數字既不等於有效、也不等於有效＋暫時未上市",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-atazanavir-1",
+   "drug": "atazanavir",
+   "file": "atazanavir.md",
+   "action": "correct",
+   "claim": "que cuenta con un registro sanitario en Colombia.",
+   "replacement": "que cuenta con 7 registros sanitarios en Colombia (6 vigentes).",
+   "summary": "Número de registros sanitarios: 1 → 7 (6 vigentes)",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 6 vigentes y 1 perdió fuerza ejecutoria. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫只有 1 張註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 7、valid 6、cancelled 1（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-cabergoline-1",
+   "drug": "cabergoline",
+   "file": "cabergoline.md",
+   "action": "correct",
+   "claim": "que cuenta con un registro sanitario local en Colombia.",
+   "replacement": "que cuenta con 5 registros sanitarios vigentes en Colombia.",
+   "summary": "Número de registros sanitarios: 1 → 5",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫只有 1 張註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 5、valid 5（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-epinephrine-1",
+   "drug": "epinephrine",
+   "file": "epinephrine.md",
+   "action": "correct",
+   "claim": "cuenta en Colombia con un registro sanitario cuyo texto",
+   "replacement": "cuenta en Colombia con 14 registros sanitarios cuyo texto",
+   "summary": "Número de registros sanitarios: 1 → 14",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 12 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫只有 1 張註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 12、not_marketed 2（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
+  },
+  {
+   "id": "co-lic-20261112-bendamustine-1",
+   "drug": "bendamustine",
+   "file": "bendamustine.md",
+   "action": "correct",
+   "claim": "que cuenta con un registro sanitario en Colombia, cuyo",
+   "replacement": "que cuenta con 14 registros sanitarios en Colombia, cuyo",
+   "summary": "Número de registros sanitarios: 1 → 14",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 11 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido.",
+   "finding": "AI 產生的正文寫只有 1 張註冊，是 10-31 依成分重建前舊證據包的筆數；事實層 total 14、valid 11、not_marketed 3（data-20261105-231626）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-05"
+    }
+   ],
+   "checked": "2026-11-12",
+   "method": "2026-11-12 人工查核（正文張數對事實層）"
   }
  ]
 }

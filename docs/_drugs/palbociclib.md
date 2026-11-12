@@ -127,7 +127,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 4 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
+La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 8 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
+
+<!-- review:begin co-lic-20261112-palbociclib-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 8 registros sanitarios, de los cuales 8 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-palbociclib-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
@@ -156,6 +162,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

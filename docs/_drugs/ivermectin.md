@@ -113,7 +113,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, el medicamento está comercializado en Colombia con 5 registros sanitarios vigentes, y la información de seguridad del prospecto no está disponible.
+La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, el medicamento está comercializado en Colombia con 11 registros sanitarios vigentes, y la información de seguridad del prospecto no está disponible.
+
+<!-- review:begin co-lic-20261112-ivermectin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 11 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-ivermectin-1 -->
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción detallados (consulta a DrugBank).
@@ -137,6 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que los 5 registros están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

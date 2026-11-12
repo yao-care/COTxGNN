@@ -111,7 +111,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
+La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, el medicamento está comercializado en Colombia y cuenta con 10 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-glycerin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 12 registros sanitarios, de los cuales 10 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-glycerin-1 -->
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para completar el análisis de advertencias y contraindicaciones
@@ -135,6 +141,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 4 registros sanitarios se encuentran cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria de los registros cancelados antes de considerar cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 10 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

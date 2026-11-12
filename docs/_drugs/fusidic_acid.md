@@ -84,7 +84,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Hay 7 registros sanitarios vigentes; el medicamento está comercializado.
+Hay 13 registros sanitarios vigentes; el medicamento está comercializado.
+
+<!-- review:begin co-lic-20261112-fusidic_acid-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Hay 7 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 13 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-fusidic_acid-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
@@ -112,7 +118,13 @@ Consultar el prospecto para información de advertencias, contraindicaciones e i
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la única publicación vinculada no evalúa el ácido fusídico. El mecanismo es solo indirectamente plausible, y hay 7 registros sanitarios vigentes en Colombia.
+No existen ensayos clínicos y la única publicación vinculada no evalúa el ácido fusídico. El mecanismo es solo indirectamente plausible, y hay 13 registros sanitarios vigentes en Colombia.
+
+<!-- review:begin co-lic-20261112-fusidic_acid-2 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "hay 7 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 13 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-fusidic_acid-2 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar el tamizaje de seguridad.
@@ -136,6 +148,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 7 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 7 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

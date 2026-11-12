@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-La epinefrina (adrenalina) cuenta en Colombia con un registro sanitario cuyo texto de indicación aprobada se limita al nombre del producto ("Epinefrina"), por lo que no se dispone de una indicación original detallada.
+La epinefrina (adrenalina) cuenta en Colombia con 14 registros sanitarios cuyo texto de indicación aprobada se limita al nombre del producto ("Epinefrina"), por lo que no se dispone de una indicación original detallada.
 El modelo TxGNN predice que podría ser efectiva para **enfermedad pulmonar obstructiva**,
 con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
+
+<!-- review:begin co-lic-20261112-epinephrine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "cuenta en Colombia con un registro sanitario cuyo texto" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 12 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-epinephrine-1 -->
 
 ---
 
@@ -168,6 +174,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro colombiano (solución inyectable) está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros sanitarios: 1 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

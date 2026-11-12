@@ -88,7 +88,13 @@ Ambos ensayos se centran en el control del VHB, no en tratar el VHC.
 
 ## Información de Mercado en Colombia
 
-Estado de mercado: **Comercializado**. Los tres registros sanitarios están vigentes.
+Estado de mercado: **Comercializado**. Los 12 registros sanitarios están vigentes.
+
+<!-- review:begin co-lic-20261112-entecavir-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Los tres registros sanitarios están vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 12 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-entecavir-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
@@ -119,6 +125,18 @@ Ningún estudio evalúa entecavir como tratamiento de la hepatitis C crónica, p
 - Aclarar si el interés real es el manejo de la coinfección VHC/VHB, que sería una pregunta de profilaxis del VHB y no una nueva indicación para el VHC.
 - Obtener las advertencias y contraindicaciones del prospecto autorizado en Colombia.
 - Datos detallados del mecanismo de acción.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 3 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

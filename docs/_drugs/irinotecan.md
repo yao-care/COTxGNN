@@ -138,7 +138,13 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fase 1 con 12 pacientes y revisiones antiguas que describen actividad marginal). El respaldo más sólido proviene de sacituzumab govitecan, un conjugado distinto. Además, los 2 registros sanitarios colombianos están vigentes y el fármaco se comercializa, pero falta la información del prospecto, lo que impide completar el tamizaje de seguridad.
+La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fase 1 con 12 pacientes y revisiones antiguas que describen actividad marginal). El respaldo más sólido proviene de sacituzumab govitecan, un conjugado distinto. Además, los 6 registros sanitarios colombianos están vigentes y el fármaco se comercializa, pero falta la información del prospecto, lo que impide completar el tamizaje de seguridad.
+
+<!-- review:begin co-lic-20261112-irinotecan-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "los 2 registros sanitarios colombianos están vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 6 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-irinotecan-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
@@ -161,6 +167,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternat" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

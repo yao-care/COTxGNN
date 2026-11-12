@@ -125,8 +125,14 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mec
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, o evidencia preclínica o clínica que vincule tinidazol con la vaginitis atrófica.
 - Obtener y revisar el prospecto oficial (advertencias y contraindicaciones) y los datos del mecanismo de acción.
-- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 4 licencias vigentes.
+- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 12 licencias vigentes.
 - Evaluar candidatas alternativas del mismo análisis. Por ejemplo, la predicción para SIDA tiene algo más de respaldo indirecto, como el tratamiento de coinfecciones y un ensayo de microbioma, aunque sigue siendo un enfoque de soporte y no un tratamiento de la enfermedad.
+
+<!-- review:begin co-lic-20261112-tinidazole-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 12 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-tinidazole-1 -->
 
 <!-- review:begin log -->
 
@@ -137,6 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están **cancelados**; actualmente no hay productos de tinidazol vigentes en el país según los datos compilad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

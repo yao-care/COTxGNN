@@ -144,8 +144,14 @@ Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclíni
 - Datos de eficacia específicos de sarcoma de Ewing, preferiblemente de combinaciones (por ejemplo, el régimen RIST) en estudios prospectivos.
 - Datos del mecanismo de acción confirmados desde DrugBank.
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad.
-- Aclarar la situación regulatoria en Colombia (3 registros vigentes) y la disponibilidad real del producto.
+- Aclarar la situación regulatoria en Colombia (12 registros vigentes) y la disponibilidad real del producto.
 - Plan de monitoreo de seguridad hematológica y cardiovascular.
+
+<!-- review:begin co-lic-20261112-dasatinib-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 12 registros sanitarios, de los cuales 12 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-dasatinib-1 -->
 
 ---
 
@@ -162,6 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los tres registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -125,7 +125,13 @@ No se dispuso de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos, la literatura es solo descriptiva y no muestra eficacia, y el mecanismo de acción del metronidazol no es plausible frente a *Pneumocystis* (hongo sin la vía de activación nitrorreductasa). Existe un tratamiento estándar eficaz (trimetoprima-sulfametoxazol). Además, el medicamento está comercializado en Colombia y cuenta con 3 registros vigentes.
+No existen ensayos clínicos, la literatura es solo descriptiva y no muestra eficacia, y el mecanismo de acción del metronidazol no es plausible frente a *Pneumocystis* (hongo sin la vía de activación nitrorreductasa). Existe un tratamiento estándar eficaz (trimetoprima-sulfametoxazol). Además, el medicamento está comercializado en Colombia y cuenta con al menos 18 registros vigentes.
+
+<!-- review:begin co-lic-20261112-metronidazole-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-metronidazole-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y estudios preclínicos que justifiquen actividad contra *Pneumocystis*
@@ -149,6 +155,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(hoy todos cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

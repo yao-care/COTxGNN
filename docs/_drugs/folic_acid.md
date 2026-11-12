@@ -106,7 +106,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; puntaje alto, pero que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica), sin ensayos clínicos y con literatura indirecta. Además, el tratamiento establecido de la enfermedad es la biotina, y el medicamento está comercializado en este país con 1 licencia válida.
+La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; puntaje alto, pero que puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica), sin ensayos clínicos y con literatura indirecta. Además, el tratamiento establecido de la enfermedad es la biotina, y el medicamento está comercializado en este país con al menos 11 licencias válidas.
+
+<!-- review:begin co-lic-20261112-folic_acid-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "1 licencia válida" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 11 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-folic_acid-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank) para evaluar un vínculo mecanístico real
@@ -131,6 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyo registro sanitario hoy está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 1 → al menos 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -104,7 +104,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5). Además, el medicamento está comercializado en Colombia, con 8 registros sanitarios vigentes.
+La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5). Además, el medicamento está comercializado en Colombia, con 17 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-olopatadine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "8 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 17 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-olopatadine-1 -->
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular
@@ -124,6 +130,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(Se muestran 5 de los 8 registros, todos con estado cancelado.)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 8 → 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Metoprolol es un betabloqueante cardioselectivo (beta-1) con cuatro registros sanitarios vigentes en Colombia; el texto del registro solo menciona el nombre del principio activo, sin detallar una indicación.
+Metoprolol es un betabloqueante cardioselectivo (beta-1) con 15 registros sanitarios vigentes en Colombia; el texto del registro solo menciona el nombre del principio activo, sin detallar una indicación.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción computacional.
+
+<!-- review:begin co-lic-20261112-metoprolol-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "cuatro registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 15 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-metoprolol-1 -->
 
 ## Resumen Rápido
 
@@ -108,6 +114,19 @@ La predicción para enfermedad renal hipertensiva maligna no tiene ensayos clín
 - Realizar una revisión sistemática de la literatura sobre betabloqueantes en nefropatía hipertensiva maligna.
 - Si se prioriza una línea alternativa, evaluar cor pulmonale crónico como pregunta de investigación sobre seguridad y comanejo en EPOC con enfermedad cardiovascular (por ejemplo, NCT06825728), no como afirmación de eficacia.
 - Evaluar el perfil de seguridad en poblaciones con contraindicaciones registradas (asma/EPOC, diabetes, hipotensión, feocromocitoma).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

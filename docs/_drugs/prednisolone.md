@@ -121,8 +121,14 @@ Existe un ECA controlado con placebo, varias revisiones sistemáticas y revision
 - Obtener el prospecto del INVIMA con advertencias y contraindicaciones (brecha de seguridad bloqueante).
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Definir un régimen de dosificación y un plan de monitoreo de seguridad (presión arterial, glucemia, supresión del eje suprarrenal), con atención a poblaciones pediátricas.
-- Aclarar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias vigentes, y evaluar la vía de acceso en Colombia.
+- Aclarar la situación regulatoria: el medicamento está comercializado y cuenta con al menos 16 licencias vigentes, y evaluar la vía de acceso en Colombia.
 - Evaluar la comparación con alternativas como los inhibidores de JAK, según acceso y elegibilidad.
+
+<!-- review:begin co-lic-20261112-prednisolone-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 16 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-prednisolone-1 -->
 
 ---
 
@@ -137,6 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → al menos 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

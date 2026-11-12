@@ -123,7 +123,13 @@ Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, el medicamento está comercializado en Colombia con 5 registros sanitarios vigentes y el perfil de interacciones y contraindicaciones es amplio.
+La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, el medicamento está comercializado en Colombia con 14 registros sanitarios vigentes y el perfil de interacciones y contraindicaciones es amplio.
+
+<!-- review:begin co-lic-20261112-ritonavir-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 14 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-ritonavir-1 -->
 
 **Para avanzar se necesita:**
 - Definir si existe un uso relevante (por ejemplo, investigación en modelos animales de VIH) o si la predicción debe descartarse como indicación humana.
@@ -148,6 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

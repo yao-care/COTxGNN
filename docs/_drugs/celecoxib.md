@@ -113,7 +113,13 @@ No se dispone de las advertencias del prospecto. Consultar el prospecto para la 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 7 registros sanitarios vigentes.
+La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 12 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-celecoxib-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "7 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 12 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-celecoxib-1 -->
 
 **Para avanzar se necesita:**
 - Un fundamento biológico que conecte la inhibición de COX-2 con la vía GDF5/BMP, mediante estudios preclínicos.
@@ -131,6 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 7 registros sanitarios de celecoxib en Colombia figuran como **cancelados**. Actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 7 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

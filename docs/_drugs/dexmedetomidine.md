@@ -112,7 +112,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 - El puntaje del modelo es alto, pero no hay ensayos ni publicaciones. El mecanismo de la enfermedad (defecto del receptor V2) no se corrige con la acción central de un agonista alfa-2, por lo que la predicción es poco creíble.
-- El medicamento está comercializado en este país y cuenta con 5 registros sanitarios vigentes.
+- El medicamento está comercializado en este país y cuenta con 11 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-dexmedetomidine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 11 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-dexmedetomidine-1 -->
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o de mecanismo que demuestren algún efecto sobre la función del receptor V2 o sobre la antidiuresis en este síndrome.
@@ -136,6 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria de los registros cancelados antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -76,7 +76,13 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Hay 2 registros sanitarios vigentes. La lista puede ser parcial.
+Hay al menos 19 registros sanitarios vigentes. La lista puede ser parcial.
+
+<!-- review:begin co-lic-20261112-levonorgestrel-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-levonorgestrel-1 -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|-----|
@@ -105,6 +111,18 @@ El único ensayo aleatorizado (L2) evaluó una combinación de levonorgestrel co
 - Evidencia que separe el efecto del levonorgestrel del efecto del componente estrogénico.
 - Revisión del prospecto autorizado en Colombia para completar las advertencias y contraindicaciones.
 - Evaluación de si alguna formulación con levonorgestrel solo tiene beneficio, o riesgo de empeorar el acné, en estudios controlados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 2 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

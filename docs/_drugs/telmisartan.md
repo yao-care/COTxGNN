@@ -128,8 +128,14 @@ La angina de Prinzmetal tiene un puntaje alto (0.9998), pero solo es una predicc
 - Datos del mecanismo de acción (MOA) y del prospecto (advertencias y contraindicaciones oficiales).
 - Revisión de la literatura sobre ARA-II en vasoespasmo coronario para generar evidencia específica de angina de Prinzmetal.
 - Para hemorragia intracerebral: resultados detallados de TRIDENT (PMID 42019018) y análisis del aporte individual de telmisartán.
-- Definir la vía regulatoria en Colombia, dado que el medicamento está comercializado y cuenta con 2 licencias vigentes.
+- Definir la vía regulatoria en Colombia, dado que el medicamento está comercializado y cuenta con al menos 18 licencias vigentes.
 - Plan de monitoreo de seguridad (potasio, función renal y hepática, hipotensión).
+
+<!-- review:begin co-lic-20261112-telmisartan-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "2 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-telmisartan-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros están cancelados; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

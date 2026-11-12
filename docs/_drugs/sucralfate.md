@@ -115,9 +115,15 @@ Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguo
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información bloqueante para el tamizaje de seguridad.
 - Confirmar el mecanismo de acción con DrugBank.
 - Revisar los resúmenes completos de los ECA para verificar tamaños de efecto, ya que no estaban disponibles.
-- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 4 licencias válidas en este país, por lo que habría que determinar si alguna de ellas permite el acceso necesario.
+- Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 7 licencias válidas en este país, por lo que habría que determinar si alguna de ellas permite el acceso necesario.
 - Valorar la seguridad en pacientes con enfermedad renal o diabetes (contraindicaciones del grafo) y el manejo de las interacciones, en especial con antirretrovirales inhibidores de integrasa (dolutegravir, bictegravir), tetraciclinas y bisfosfonatos.
 - Diseñar un ensayo contemporáneo, controlado y con desenlaces objetivos (endoscópicos e histológicos), comparado con tratamientos actuales como los inhibidores de la bomba de protones.
+
+<!-- review:begin co-lic-20261112-sucralfate-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias válidas" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-sucralfate-1 -->
 
 <!-- review:begin log -->
 
@@ -128,6 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

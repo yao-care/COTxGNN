@@ -111,13 +111,39 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita a un ensayo abierto pequeño y reportes de caso en pánico resistente, sin ensayos registrados ni datos aleatorizados para agorafobia. Además, en Colombia el medicamento está comercializado con 3 registros sanitarios vigentes y el perfil metabólico de olanzapina exige cautela.
+La evidencia se limita a un ensayo abierto pequeño y reportes de caso en pánico resistente, sin ensayos registrados ni datos aleatorizados para agorafobia. Además, en Colombia el medicamento está comercializado con 18 registros sanitarios vigentes y el perfil metabólico de olanzapina exige cautela.
+
+<!-- review:begin co-lic-20261112-olanzapine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "con 3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 18 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-olanzapine-1 -->
 
 **Para avanzar se necesita:**
 - Ensayos controlados aleatorizados en agorafobia o trastorno de pánico con agorafobia
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) de INVIMA
-- Aclarar la situación regulatoria en Colombia (3 registros sanitarios vigentes)
+- Aclarar la situación regulatoria en Colombia (18 registros sanitarios vigentes)
 - Evaluación de riesgo-beneficio metabólico frente a los tratamientos de primera línea (ISRS, TCC)
+
+<!-- review:begin co-lic-20261112-olanzapine-2 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "(3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 18 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-olanzapine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 3 → 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

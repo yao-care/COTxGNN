@@ -81,7 +81,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20085584 | Secnidazol 1 g Tabletas | Tableta recubierta | Secnidazol |
@@ -108,17 +107,43 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto, pero carece de ensayos clínicos, de literatura y de un mecanismo plausible. La vaginitis atrófica se debe a deficiencia estrogénica, no a infección, aunque el producto está comercializado en Colombia con 4 registros vigentes. No se recomienda avanzar con esta indicación.
+La predicción tiene un puntaje alto, pero carece de ensayos clínicos, de literatura y de un mecanismo plausible. La vaginitis atrófica se debe a deficiencia estrogénica, no a infección, aunque el producto está comercializado en Colombia con al menos 17 registros vigentes. No se recomienda avanzar con esta indicación.
+
+<!-- review:begin co-lic-20261112-secnidazole-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "Colombia con 4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 17 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-secnidazole-1 -->
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que justifique el uso de un antimicrobiano en un cuadro de origen hormonal, o descartar la predicción como artefacto del modelo.
 - Estudios preclínicos o clínicos que muestren algún efecto en vaginitis atrófica.
 - Datos de seguridad del prospecto (advertencias y contraindicaciones).
-- Confirmar el estado regulatorio y la disponibilidad del producto en Colombia, donde está comercializado y cuenta con 4 registros vigentes.
+- Confirmar el estado regulatorio y la disponibilidad del producto en Colombia, donde está comercializado y cuenta con al menos 17 registros vigentes.
+
+<!-- review:begin co-lic-20261112-secnidazole-2 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "cuenta con 4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 17 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-secnidazole-2 -->
 
 **Nota sobre otras predicciones del modelo:**
 En los datos compilados, otras indicaciones tienen más respaldo que la de este informe, aunque en gran parte son usos ya conocidos del fármaco (no reposicionamiento propiamente dicho). Merecen evaluación aparte:
 - **Flujo vaginal**: nivel L1, con ensayos de Fase 3 y metaanálisis de secnidazol en dosis única de 2 g para vaginosis bacteriana. Recomendación: Proceed with Guardrails.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-12 | Número de registros vigentes: 4 → al menos 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → al menos 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

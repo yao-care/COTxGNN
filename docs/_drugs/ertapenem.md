@@ -122,7 +122,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, que no
 **Decisión: Hold**
 
 **Justificación:**
-No hay ensayos clínicos para artritis bacteriana. La evidencia consiste en reportes de caso, cohortes indirectas y estudios in vitro, y el puntaje alto del modelo es solo una predicción. Además, el medicamento está comercializado en Colombia y los 2 registros sanitarios (de 2) están vigentes.
+No hay ensayos clínicos para artritis bacteriana. La evidencia consiste en reportes de caso, cohortes indirectas y estudios in vitro, y el puntaje alto del modelo es solo una predicción. Además, el medicamento está comercializado en Colombia y los 5 registros sanitarios (de 5) están vigentes.
+
+<!-- review:begin co-lic-20261112-ertapenem-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "los 2 registros sanitarios (de 2) están vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, de los cuales 5 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-ertapenem-1 -->
 
 **Para avanzar se necesita:**
 - Ensayos clínicos o estudios comparativos de ertapenem específicos en artritis séptica.
@@ -149,6 +155,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los dos registros figuran como **cancelados**, por lo que actualmente no hay registros vigentes de ertapenem en Colombia en los datos compil" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "pues no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

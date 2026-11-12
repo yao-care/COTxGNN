@@ -150,7 +150,13 @@ La predicción se basa solo en el modelo (L4), sin ensayos clínicos y con liter
 - Completar el mecanismo de acción desde DrugBank.
 - Definir las histologías específicas del tracto aerodigestivo superior donde dacarbazina podría ser relevante (p. ej., melanoma mucoso).
 - Buscar estudios clínicos directos en esta población.
-- Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 6 licencias vigentes.
+- Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 4 licencias vigentes.
+
+<!-- review:begin co-lic-20261112-dacarbazine-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "6 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-dacarbazine-1 -->
 
 <!-- review:begin log -->
 
@@ -162,6 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 6 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

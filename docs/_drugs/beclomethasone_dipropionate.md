@@ -126,7 +126,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, el medicamento está comercializado con 5 registros colombianos vigentes, pero ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
+El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, el medicamento está comercializado con 14 registros colombianos vigentes, pero ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
+
+<!-- review:begin co-lic-20261112-beclomethasone_dipropionate-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros colombianos vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 14 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-beclomethasone_dipropionate-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad.
@@ -151,6 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no existe actualmente un registro vigente ni dérmico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

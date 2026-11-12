@@ -107,7 +107,13 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
+La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, el medicamento está comercializado en Colombia y cuenta con 11 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-clindamycin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-clindamycin-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la clindamicina y análisis de su relevancia para la superficie ocular
@@ -131,6 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

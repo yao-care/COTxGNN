@@ -135,7 +135,13 @@ Pese al puntaje alto de TxGNN, no existen ensayos clínicos ni estudios que eval
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Estudios preclínicos que respalden el vínculo trombo-inflamatorio en artritis reumatoide.
 - Evaluar la relevancia clínica de los otros candidatos predichos, aunque ninguno cuenta con respaldo: gota (L5, sin mecanismo creíble), infección por VIH (L4, la literatura se refiere a interacciones de seguridad, no a eficacia) y síndrome de braquidactilia-sindactilia (L5, sin datos).
-- Confirmar el estatus regulatorio local, dado que el medicamento está comercializado y cuenta con 5 licencias vigentes.
+- Confirmar el estatus regulatorio local, dado que el medicamento está comercializado y cuenta con al menos 19 licencias vigentes.
+
+<!-- review:begin co-lic-20261112-rivaroxaban-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "5 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-rivaroxaban-1 -->
 
 <!-- review:begin log -->
 
@@ -147,6 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros sanitarios están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

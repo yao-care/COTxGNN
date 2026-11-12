@@ -122,7 +122,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco está comercializado en Colombia con 3 registros vigentes, pero solo existe en forma oftálmica, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
+La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco está comercializado en Colombia con 4 registros vigentes, pero solo existe en forma oftálmica, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
+
+<!-- review:begin co-lic-20261112-tropicamide-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-tropicamide-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a la API de DrugBank).
@@ -140,6 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

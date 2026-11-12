@@ -113,7 +113,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo y en un estudio de susceptibilidad sin evaluación directa del fármaco (nivel L4), sin ensayos clínicos. Además, el medicamento está comercializado en Colombia, con 2 registros sanitarios vigentes.
+La predicción se apoya únicamente en el modelo y en un estudio de susceptibilidad sin evaluación directa del fármaco (nivel L4), sin ensayos clínicos. Además, el medicamento está comercializado en Colombia, con al menos 20 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-sulfamethoxazole-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-sulfamethoxazole-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank)
@@ -138,6 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

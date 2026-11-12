@@ -111,7 +111,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la literatura recuperada no aborda el tratamiento de neoplasias del nervio trigémino. No hay vínculo mecanístico plausible con un efecto antitumoral, por lo que el puntaje del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia y cuenta con 1 registro sanitario vigente.
+No existen ensayos clínicos y la literatura recuperada no aborda el tratamiento de neoplasias del nervio trigémino. No hay vínculo mecanístico plausible con un efecto antitumoral, por lo que el puntaje del modelo TxGNN (aprendizaje profundo) puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia y cuenta con 6 registros sanitarios vigentes.
+
+<!-- review:begin co-lic-20261112-phenytoin-1 -->
+
+> **Corrección de revisión (2026-11-12)**: Texto original: "1 registro sanitario vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 6 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-phenytoin-1 -->
 
 **Para avanzar se necesita:**
 - Priorizar la evaluación de **neuralgia del trigémino** (nivel L3), que es la indicación mejor respaldada, en lugar de la neoplasia.
@@ -135,6 +141,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyo registro sanitario figura actualmente como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente de fenitoína inyectable en los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 1 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
