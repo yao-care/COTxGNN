@@ -1,0 +1,61 @@
+{
+ "_doc": "藥物頁待查清單（2026-11-12 建，比照 TwTxGNN docs/_data/drug_reviews_uncertain.json）。項目不刪：查清標 status: resolved（附 record_ids，指向 docs/_data/drug_reviews.json 的紀錄），查不出定論標 status: unresolvable（附 searched、unresolvable_reason）。",
+ "items": [
+  {
+   "source": "Original Indication 交叉驗證（scripts/check_original_indications.py）",
+   "drug": "aspartic_acid",
+   "file": "aspartic_acid.md",
+   "status": "open",
+   "claim": "Aminoácidos",
+   "foreign_phrases": [
+    "aminoácidos"
+   ],
+   "note": "原適應症列的詞組多半只出現在其他藥的 FDA 許可證／仿單適應症，待人工對照仿單"
+  },
+  {
+   "source": "Original Indication 交叉驗證（scripts/check_original_indications.py）",
+   "drug": "clotrimazole",
+   "file": "clotrimazole.md",
+   "status": "open",
+   "claim": "CLOTRIMAZOL; MOMETASONE; COMBINACIONES; MUPIROCINA",
+   "foreign_phrases": [
+    "mometasone",
+    "mupirocina"
+   ],
+   "note": "原適應症列的詞組多半只出現在其他藥的 FDA 許可證／仿單適應症，待人工對照仿單"
+  },
+  {
+   "source": "Original Indication 交叉驗證（scripts/check_original_indications.py）",
+   "drug": "glutamic_acid",
+   "file": "glutamic_acid.md",
+   "status": "open",
+   "claim": "Aminoácidos",
+   "foreign_phrases": [
+    "aminoácidos"
+   ],
+   "note": "原適應症列的詞組多半只出現在其他藥的 FDA 許可證／仿單適應症，待人工對照仿單"
+  },
+  {
+   "source": "Original Indication 交叉驗證（scripts/check_original_indications.py）",
+   "drug": "glycine",
+   "file": "glycine.md",
+   "status": "open",
+   "claim": "Emulsiones lipidas",
+   "foreign_phrases": [
+    "emulsiones lipidas"
+   ],
+   "note": "原適應症列的詞組多半只出現在其他藥的 FDA 許可證／仿單適應症，待人工對照仿單"
+  },
+  {
+   "source": "Original Indication 交叉驗證（scripts/check_original_indications.py）",
+   "drug": "secnidazole",
+   "file": "secnidazole.md",
+   "status": "open",
+   "claim": "SECNIDAZOL; COMBINACIONES DE IMIDAZOL DERIVADOS",
+   "foreign_phrases": [
+    "combinaciones de imidazol derivados"
+   ],
+   "note": "原適應症列的詞組多半只出現在其他藥的 FDA 許可證／仿單適應症，待人工對照仿單"
+  }
+ ]
+}

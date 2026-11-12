@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Denosumab: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: Denosumab"
 monitor_inn: "DENOSUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -96,6 +96,12 @@ Para la segunda predicción, **retinopatía diabética** (puntaje TxGNN 0.9923),
 
 Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC.
 
+<!-- review:begin co-lic-20261105-denosumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-denosumab-2 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -119,12 +125,32 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien desenlaces retinianos con denosumab.
 
+<!-- review:begin co-lic-20261031-denosumab-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura que estudien desenlaces retinianos con denosumab. Además, el mercado colombiano solo muestra registros cancelados, lo que complica cualquier vía de acceso inmediata." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-denosumab-1 -->
+
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (por ejemplo, consultando DrugBank) y analizar el vínculo RANKL/OPG con la patología retiniana diabética.
 - Obtener el prospecto de INVIMA para completar el perfil de advertencias y contraindicaciones (requisito previo para cualquier evaluación de seguridad).
 - Realizar una búsqueda dirigida de estudios preclínicos y clínicos de denosumab o la vía RANKL en retinopatía diabética.
 - Aclarar el estado regulatorio: verificar si existen otros registros vigentes de denosumab en Colombia (incluidos biosimilares) o si se requeriría una nueva solicitud.
 - Evaluar la compatibilidad de la vía de administración (pendiente) para un posible uso en enfermedad retiniana.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Además, el mercado colombiano solo muestra registros cancelados, lo que complica cualquier vía de acceso inmediata" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

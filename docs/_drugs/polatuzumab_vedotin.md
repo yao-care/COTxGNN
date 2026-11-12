@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Polatuzumab Vedotin: nueva indicación predicha, Carcinoma de mama HER2 positivo (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -66,6 +66,12 @@ La relación con la nueva indicación es débil. CD79b no es un blanco reconocid
 
 No se aportó evidencia preclínica ni clínica que apoye la hipótesis, y la similitud con la indicación original queda pendiente de evaluación.
 
+<!-- review:begin co-lic-20261105-polatuzumab_vedotin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario existente figura como cancelado (fabricante: F. Hoffmann-La Roche Ltd.), por lo que actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polatuzumab_vedotin-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -109,11 +115,38 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Además, el mecanismo dirigido a CD79b no se corresponde con el carcinoma de mama HER2 positivo.
 
+<!-- review:begin co-lic-20261105-polatuzumab_vedotin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el mecanismo dirigido a CD79b no se corresponde con el carcinoma de mama HER2 positivo y el registro sanitario local está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polatuzumab_vedotin-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
 - Prospecto de INVIMA con advertencias y contraindicaciones
 - Evidencia preclínica que explore la actividad en líneas celulares de cáncer de mama HER2 positivo
 - Revisión de literatura y de ensayos clínicos sobre conjugados con MMAE en cáncer de mama
+
+<!-- review:begin co-lic-20261105-polatuzumab_vedotin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Revisión de literatura y de ensayos clínicos sobre conjugados con MMAE en cáncer de mama / Aclarar la indicación original y la situación regulatoria del registro cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polatuzumab_vedotin-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario existente figura como cancelado (fabricante: F. Hoffmann-La Roche Ltd.), por lo que actualmente no hay registros" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el registro sanitario local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la indicación original y la situación regulatoria del registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mometasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: Mometasona"
 monitor_inn: "mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -85,6 +85,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas.
 
+<!-- review:begin co-lic-20261105-mometasone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Nota: los 6 registros sanitarios están cancelados; no hay registros vigentes. El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mometasone-1 -->
+
 ## Consideraciones de Seguridad
 
 - **Interacciones farmacológicas**: se identificó una interacción de tipo farmacológico con el receptor de glucocorticoides (NR3C1), que es el blanco terapéutico esperado de mometasona. No se reportaron interacciones con otros fármacos.
@@ -103,6 +109,19 @@ La predicción tiene un puntaje alto y un fundamento mecanístico plausible (los
 - Prospecto con advertencias y contraindicaciones desde INVIMA
 - Revisión de literatura y ensayos específicos de mometasona en micosis fungoide/linfoma cutáneo de células T
 - Evaluación de la ruta de administración (tópica) y de la viabilidad de un nuevo registro sanitario vigente en Colombia
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Nota: los 6 registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

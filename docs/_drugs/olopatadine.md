@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Olopatadina"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -70,6 +70,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-olopatadine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 8 registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 registros sanitarios (vigentes: 17); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-olopatadine-1 -->
+
+<!-- review:begin co-lic-20261105-olopatadine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "(Se muestran 5 de los 8 registros, todos con estado cancelado.)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 registros sanitarios (vigentes: 17); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-olopatadine-2 -->
+
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -101,6 +113,20 @@ La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni li
 - Evaluar la similitud con la indicación original y la compatibilidad de vía de administración
 - Confirmar la disponibilidad de productos con olopatadina vigentes en Colombia, o la necesidad de un nuevo registro
 - Si se avanza, diseñar un estudio exploratorio (por ejemplo, Fase 2) en pacientes con rosácea ocular
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(Se muestran 5 de los 8 registros, todos con estado cancelado.)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 predicted_indications: ["thrombotic disease", "exostosis", "rheumatoid arthritis", "bronchitis", "heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "vein disease", "fibromyalgia", "myositis fibrosa"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 El registro sanitario colombiano asociado a este candidato corresponde a un producto de clindamicina en cápsulas, aunque el principio activo identificado en los datos es el talco. El modelo TxGNN predice que podría ser efectivo para la **enfermedad trombótica**, pero **no hay ensayos clínicos** y las 11 publicaciones recuperadas describen al talco como causa de daño trombótico y embólico, no como tratamiento.
+
+<!-- review:begin co-lic-20261105-talc-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El registro sanitario colombiano asociado a este candidato corresponde a un producto de clindamicina en cápsulas (cuyo registro está cancelado), aunque el principio activo identificado en los datos es el talco." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-talc-1 -->
 
 ## Resumen Rápido
 
@@ -103,6 +109,19 @@ No existen ensayos clínicos y la literatura disponible muestra que el talco es 
 - Datos del mecanismo de acción desde DrugBank.
 - Prospecto del INVIMA con advertencias y contraindicaciones.
 - Evidencia clínica o preclínica que demuestre un efecto terapéutico, no dañino, en la indicación propuesta; de lo contrario, descartar el candidato.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "(cuyo registro está cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

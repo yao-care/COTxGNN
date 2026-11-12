@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Dimenhidrinato"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -60,6 +60,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Seg
 
 La difenhidramina ya se utiliza clínicamente en reacciones alérgicas agudas y urticaria, y el dimenhidrinato actuaría a través del mismo componente. El puntaje de TxGNN (0.9974) es una predicción computacional y no constituye evidencia clínica.
 
+<!-- review:begin co-lic-20261105-dimenhydrinate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hay limitaciones prácticas importantes: las guías actuales prefieren antihistamínicos H1 de segunda generación, no sedantes, y la carga sedante y anticolinérgica de los agentes de primera generación, sumada a que los registros están cancelados, reduce su valor práctico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dimenhydrinate-1 -->
+
 Como referencia secundaria, el modelo también predice **urticaria por frío** (puntaje 0.9924, nivel L5, sin ensayos ni publicaciones). La plausibilidad mecanística es similar (antagonismo H1), pero la evidencia es solo predictiva y las guías ya cuentan con alternativas (antihistamínicos de segunda generación a dosis altas u omalizumab).
 
 ## Evidencia de Ensayos Clínicos
@@ -100,11 +106,38 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 La evidencia se limita a plausibilidad mecanística y a un estudio farmacocinético veterinario sin datos de eficacia en urticaria. Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable.
 
+<!-- review:begin co-lic-20261105-dimenhydrinate-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable, y los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dimenhydrinate-2 -->
+
 **Para avanzar se necesita:**
 - Datos de eficacia clínica del dimenhidrinato (o de la difenhidramina) en urticaria alérgica, idealmente ensayos controlados.
 - Información del mecanismo de acción y del prospecto aprobado (advertencias y contraindicaciones), ya que no hay datos disponibles.
 - Evaluación del valor frente a los antihistamínicos de segunda generación ya disponibles.
 - Análisis de la viabilidad regulatoria.
+
+<!-- review:begin co-lic-20261105-dimenhydrinate-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Análisis de la viabilidad regulatoria, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dimenhydrinate-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Hay limitaciones prácticas importantes: las guías actuales prefieren antihistamínicos H1 de segunda generación, no sedantes, y la carga seda" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase: nueva indicación predicha, Congenital coronary artery anomaly (nivel de evidencia L5). Indicación original: TENECTEPLASA"
@@ -111,11 +111,37 @@ Para advertencias y contraindicaciones, consultar el prospecto. Por su mecanismo
 **Justificación:**
 No hay ensayos clínicos ni literatura específica para infarto de miocardio posteroinferior (nivel L5). La predicción parece corresponder a un subtipo de una indicación ya conocida.
 
+<!-- review:begin co-lic-20261105-tenecteplase-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción parece corresponder a un subtipo de una indicación ya conocida, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tenecteplase-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto con advertencias y contraindicaciones
 - Completar los datos del mecanismo de acción
 - Evaluar si el infarto posteroinferior debe considerarse parte de la indicación general de infarto con elevación del ST
 - Si se busca un reposicionamiento real, priorizar la estenosis coronaria (L3, uso intracoronario adyuvante), con estudios controlados y análisis de riesgo de sangrado
+
+<!-- review:begin co-lic-20261031-tenecteplase-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la indicación aprobada de tenecteplasa en el registro sanitario y su situación regulatoria actual (registro cancelado) / Obtener el prospecto con advertencias y contraindicaciones" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-tenecteplase-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la indicación aprobada de tenecteplasa en el registro sanitario y su situación regulatoria actual (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

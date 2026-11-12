@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 507
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Penciclovir: nueva indicación predicha, Fascioliasis (nivel de evidencia L5). Indicación original: Penciclovir"
 monitor_inn: "PENCICLOVIR"
 predicted_indications: ["fascioliasis"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 Penciclovir es un análogo nucleósido de la guanosina con actividad antiviral contra herpesvirus.
 El modelo TxGNN predice que podría ser efectivo para **fascioliasis**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata únicamente de una predicción del modelo.
+
+<!-- review:begin co-lic-20261105-penciclovir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Penciclovir es un análogo nucleósido de la guanosina con actividad antiviral contra herpesvirus, comercializado en Colombia como crema tópica (registro hoy cancelado)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-penciclovir-1 -->
 
 ---
 
@@ -100,12 +106,32 @@ Consultar el prospecto para información de seguridad.
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre un antiviral específico de herpesvirus y un parásito trematodo. Además, la forma farmacéutica es tópica, lo que no es compatible con una infección hepática parasitaria.
 
+<!-- review:begin co-lic-20261105-penciclovir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y la forma farmacéutica es tópica, lo que no es compatible con una infección hepática parasitaria." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-penciclovir-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank y analizar su relación con la biología de Fasciola.
 - Descargar y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones (requisito previo al tamizaje de seguridad).
 - Buscar evidencia preclínica (in vitro o in vivo) que sustente alguna actividad antiparasitaria.
 - Evaluar la compatibilidad de vía de administración, dado que solo existió una presentación tópica.
 - Contrastar con los tratamientos establecidos (p. ej., triclabendazol) antes de considerar cualquier inversión adicional.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "comercializado en Colombia como crema tópica (registro hoy cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

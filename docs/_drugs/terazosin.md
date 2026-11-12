@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Terazosin: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: TERAZOSINA"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -97,6 +97,12 @@ Como referencia, en otras indicaciones predichas hay evidencia limitada:
 
 Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S.
 
+<!-- review:begin co-lic-20261105-terazosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S. No hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-terazosin-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -116,6 +122,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Justificación:**
 La predicción para hipotricosis simple del cuero cabelludo es solo del modelo (nivel L5), sin ensayos ni publicaciones. Las indicaciones con algo más de respaldo (migraña y Raynaud, nivel L3) se apoyan en estudios antiguos, pequeños y de diseño no verificado, y existen alternativas mejor establecidas.
 
+<!-- review:begin co-lic-20261105-terazosin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para hipotricosis simple del cuero cabelludo es solo del modelo (nivel L5), sin ensayos ni publicaciones, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-terazosin-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente faltante.
 - Obtener datos del mecanismo de acción desde DrugBank.
@@ -123,6 +135,27 @@ La predicción para hipotricosis simple del cuero cabelludo es solo del modelo (
 - Evaluar si conviene priorizar migraña o enfermedad de Raynaud, que tienen algo de evidencia, mediante una revisión sistemática de la literatura.
 - Confirmar la situación regulatoria.
 - Definir, si se avanza, una vía de administración adecuada (probablemente tópica para el cuero cabelludo) y evaluar su viabilidad.
+
+<!-- review:begin co-lic-20261105-terazosin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-terazosin-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

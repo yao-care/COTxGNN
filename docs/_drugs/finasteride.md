@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -122,6 +122,25 @@ La predicción tiene un puntaje alto en TxGNN, pero no existen ensayos clínicos
 - Clasificar la gravedad de las interacciones farmacológicas con una fuente que no devuelva "Desconocido".
 - Evaluar la compatibilidad de vía de administración y la similitud con la indicación original, hoy pendientes.
 - Valorar el riesgo en poblaciones pediátricas o en edad fértil antes de considerar cualquier indicación congénita.
+
+<!-- review:begin co-lic-20261105-finasteride-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la indicación aprobada de los registros, ya que los cuatro están cancelados y no hay producto vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-finasteride-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "ya que los cuatro están cancelados y no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

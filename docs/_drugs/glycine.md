@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glycine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Emulsiones lipidas"
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 La glicina es un aminoacido que figura en un registro sanitario colombiano.
 El modelo TxGNN predice que podria ser efectiva para **enfermedad de la cavidad nasal**,
 pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como tratamiento) y **2 publicaciones** (basicas/preclinicas) que no respaldan realmente esta direccion.
+
+<!-- review:begin co-lic-20261105-glycine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La glicina es un aminoacido que figura en un registro sanitario colombiano (ya cancelado) de una emulsion lipidica para nutricion parenteral." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glycine-1 -->
 
 ## Resumen Rapido
 
@@ -95,12 +101,39 @@ Consultar el prospecto para informacion de advertencias y contraindicaciones ofi
 **Justificacion:**
 La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion. La segunda indicacion predicha (laringofaringitis aguda) tampoco tiene ensayos ni literatura.
 
+<!-- review:begin co-lic-20261105-glycine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion y el unico registro sanitario esta cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glycine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el mecanismo de accion desde DrugBank y formular una hipotesis mecanistica para la via aerea superior
 - Descargar y analizar el prospecto del INVIMA para conocer advertencias y contraindicaciones oficiales
 - Realizar estudios preclinicos o revision sistematica que evaluen la glicina en patologia nasal
 - Evaluar la compatibilidad de via de administracion (la unica forma registrada es una emulsion inyectable, no apta para uso nasal)
 - Verificar si existe una via de acceso regulatorio
+
+<!-- review:begin co-lic-20261105-glycine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar si existe una via de acceso regulatorio, dado que el unico registro esta cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glycine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "(ya cancelado) de una emulsion lipidica para nutricion parenteral" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el unico registro sanitario esta cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el unico registro esta cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: nueva indicación predicha, Brain small vessel disease 1 with or without ocular anomalies (nivel de evidencia L5). Indicación original: VALSARTAN Y SACUBITRIL"
@@ -117,12 +117,38 @@ No se dispone de datos de advertencias principales ni contraindicaciones; consul
 **Justificación:**
 La predicción tiene un puntaje alto (0.9950) y plausibilidad biológica, con respaldo preclínico consistente. Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3).
 
+<!-- review:begin co-lic-20261105-sacubitril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la evidencia clínica se limita a un ensayo de Fase 4 de estado desconocido y a un estudio con diseño sin confirmar (nivel L3). Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sacubitril-1 -->
+
 **Para avanzar se necesita:**
 - Confirmar población, criterios de valoración y estado actual del ensayo NCT06501651, así como sus resultados.
 - Ensayos clínicos controlados (Fase 2/3) con desenlaces renales en nefropatía diabética.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones), incluida la seguridad renal (función renal, potasio, hipotensión).
 - Aclarar la situación regulatoria en Colombia.
 - Revisar las interacciones moderadas, en especial con estatinas.
+
+<!-- review:begin co-lic-20261105-sacubitril-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sacubitril-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

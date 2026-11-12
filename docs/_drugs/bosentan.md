@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -112,6 +112,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción de TxGNN es muy alta (0.9980), pero la evidencia se limita a estudios preclínicos en ratones y a literatura clínica centrada en la hipertensión pulmonar, sin ensayos registrados en artritis reumatoide. Además, el perfil de seguridad (especialmente hepático) exige cautela.
 
+<!-- review:begin co-lic-20261105-bosentan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los dos registros sanitarios en Colombia están cancelados y el perfil de seguridad (especialmente hepático) exige cautela." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bosentan-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA
@@ -119,9 +125,29 @@ La predicción de TxGNN es muy alta (0.9980), pero la evidencia se limita a estu
 - Evaluación de la viabilidad de comercialización
 - Plan de monitoreo de función hepática y hematológica
 
+<!-- review:begin co-lic-20261105-bosentan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la viabilidad de comercialización, dado que no hay registros vigentes en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bosentan-2 -->
+
 ### Otras indicaciones predichas (referencia)
 
 Las predicciones restantes (síndrome de braquidactilia-sindactilia, gota, hipertricosis y otras) tienen nivel L5 y se recomienda mantenerlas en espera (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

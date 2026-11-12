@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama del haz (término obsoleto) (nivel de evidencia L5). Indicación original: ADENOSINA"
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
@@ -125,12 +125,38 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La indicación principal predicha (bloqueo de rama del haz) se sostiene solo en el puntaje del modelo, sin ensayos ni literatura, y corresponde a un término obsoleto de la ontología. La TVPC es una línea de investigación más plausible (L4), pero la evidencia se limita a un reporte de caso, con un posible uso agudo o diagnóstico y no terapéutico crónico.
 
+<!-- review:begin co-lic-20261105-adenosine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los cuatro registros sanitarios en Colombia están cancelados. La TVPC es una línea de investigación más plausible (L4), pero la evidencia se limita a un reporte de caso, con un posible uso agudo o diagnóstico y no terapéutico crónico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-adenosine-1 -->
+
 **Para avanzar se necesita:**
 - Aclarar si el término "bloqueo de rama del haz" corresponde a una entidad clínica vigente o a un nodo duplicado en la ontología.
 - Obtener el prospecto de INVIMA para completar la información de advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el cribado de seguridad).
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Definir si la hipótesis de TVPC se orienta a uso diagnóstico/agudo, y explorarla con revisión sistemática o estudios de series de casos.
 - Revisar con cuidado las contraindicaciones del grafo de conocimiento (en especial EPOC, asma, bloqueo AV y síndrome del seno enfermo) frente a cualquier uso propuesto.
+
+<!-- review:begin co-lic-20261105-adenosine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la situación regulatoria: confirmar por qué los registros fueron cancelados y si existe alternativa de acceso al producto en Colombia. / Revisar con cuidado las contraindicaciones del grafo de conocimiento (en especial EPOC, asma, bloqueo AV y síndrome del seno enfermo) frente a cualquier uso propuesto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-adenosine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Evaluar la situación regulatoria: confirmar por qué los registros fueron cancelados y si existe alternativa de acceso al producto en Colombi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

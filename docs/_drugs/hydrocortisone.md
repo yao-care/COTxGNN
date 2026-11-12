@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 328
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -108,6 +108,12 @@ Sin embargo, hay una limitación importante: en el único ensayo directo, la hid
 - **Contraindicaciones (según relaciones del grafo de conocimiento, no según prospecto):** hipertensión, epilepsia, úlcera gástrica, enfermedad renal, enfermedad hepática, enfermedad de la vesícula biliar, hiperglucemia, infecciones virales (verrugas comunes, infección anogenital por virus del papiloma humano, sarampión, queratitis por herpes simple) y diversas deficiencias hipofisarias o hipogonadismos hipogonadotrópicos.
 - **Interacciones farmacológicas:** se identificaron 100 interacciones, de las cuales se muestran 20. La de mayor gravedad es **adalimumab (Mayor)**. Entre las moderadas figuran zidovudina, isotretinoína, acarbosa, acebutolol, acetazolamida, ketorolaco, nifedipino, ibuprofeno, etinilestradiol, aldesleukina, alemtuzumab y algunas vacunas. Salbutamol y formoterol son de nivel menor.
 
+<!-- review:begin co-lic-20261105-hydrocortisone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cinco registros figuran como cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydrocortisone-1 -->
+
 No se dispone de advertencias del prospecto; consultar el prospecto para información de seguridad adicional.
 
 ---
@@ -119,12 +125,39 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Justificación:**
 Aunque el puntaje del modelo es alto y el mecanismo es plausible, la única evidencia directa es un ensayo pequeño en el que la hidrocortisona fue el comparador y resultó menos eficaz que un corticoide más potente. Además, faltan datos de seguridad del prospecto. Los otros candidatos predichos (alopecia mucinosa, efluvio telógeno, entre otros) carecen de evidencia real y quedan en Hold.
 
+<!-- review:begin co-lic-20261105-hydrocortisone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydrocortisone-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Evidencia de ensayos en los que la hidrocortisona sea el brazo en investigación, o una comparación con corticoides de mayor potencia que justifique su uso.
 - Evaluar si un corticoide de mayor potencia ya disponible es una opción más racional que la hidrocortisona para esta indicación.
 - Aclarar la situación regulatoria.
+
+<!-- review:begin co-lic-20261105-hydrocortisone-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, ya que los cinco registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydrocortisone-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cinco registros figuran como cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los cinco registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

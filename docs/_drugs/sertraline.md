@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Sertraline"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L5). Indicación original: SERTRALINA"
@@ -99,6 +99,18 @@ No existe ningún ensayo ni publicación que estudie directamente el trastorno e
 - Datos del mecanismo de acción y su relación con esta condición
 - Texto de advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Evaluación de seguridad en poblaciones adolescentes y con riesgo de trastorno bipolar
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria local (registro cancelado) y valorar si otros registros de sertralina vigentes permitirían el acceso" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

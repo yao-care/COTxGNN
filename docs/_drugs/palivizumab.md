@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: PALIVIZUMAB"
@@ -88,6 +88,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Ambos registros pertenecen a AstraZeneca Colombia S.A.S.
 
+<!-- review:begin co-lic-20261105-palivizumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a AstraZeneca Colombia S.A.S. y están cancelados, por lo que actualmente no hay productos vigentes con este principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-palivizumab-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -105,11 +111,31 @@ No se encontraron interacciones farmacológicas registradas, y no hay contraindi
 **Justificación:**
 La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule la neutralización de la proteína F del VSR con tumores benignos de la lengua.
 
+<!-- review:begin co-lic-20261105-palivizumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo computacional (nivel L5): no hay ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule la neutralización de la proteína F del VSR con tumores benignos de la lengua. Además, el fármaco no tiene registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-palivizumab-2 -->
+
 **Para avanzar se necesita:**
 - Documentar el mecanismo de acción del fármaco (por ejemplo, consultando DrugBank) y analizar si existe algún vínculo biológico con la nueva indicación.
 - Obtener el prospecto aprobado por INVIMA con advertencias y contraindicaciones para completar la evaluación de seguridad.
 - Realizar una revisión de literatura y estudios preclínicos que justifiquen la hipótesis antes de considerar cualquier ensayo clínico.
 - Evaluar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado en este país con 2 registros sanitarios vigentes de 2.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y están cancelados, por lo que actualmente no hay productos vigentes con este principio activo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

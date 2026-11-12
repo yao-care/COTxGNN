@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 454
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Montelukast: nueva indicación predicha, Bronquitis (nivel de evidencia L2). Indicación original: No especificada en el registro (el texto aprobado solo dice \"MONTELUK…"
 monitor_inn: "MONTELUKAST"
 predicted_indications: ["bronchitis", "atopic eczema"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **2**
 ## Resumen en Una Frase
 
 Montelukast es un antagonista del receptor de cisteinil-leucotrienos (CysLT1). El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 ensayos clínicos** y **20 publicaciones** relacionados. Sin embargo, buena parte de esa evidencia se refiere a bronquiolitis y bronquiolitis obliterante, no a bronquitis en sentido estricto.
+
+<!-- review:begin co-lic-20261031-montelukast-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "En Colombia solo figura un registro sanitario, hoy cancelado, cuyo texto de indicación se limita al nombre del fármaco. El modelo TxGNN predice que podría ser efectivo para **bronquitis**, con **17 ensayos clínicos** y **20 publicaciones** relacionados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-montelukast-1 -->
 
 ---
 
@@ -108,6 +114,12 @@ El puntaje del modelo debe leerse con cautela. La mayoría de los ensayos son so
 
 Fabricante: TECNOFAR TQ S.A.S.
 
+<!-- review:begin co-lic-20261105-montelukast-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fabricante: TECNOFAR TQ S.A.S. No hay registros vigentes para este fármaco." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-montelukast-2 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -127,6 +139,12 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Justificación:**
 Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa bronquiolitis por VRS en lactantes, no bronquitis, y los datos disponibles no muestran sus resultados. El resto son estudios pequeños de Fase 2 o 4 y revisiones, con relevancia aún por evaluar. Además, no se pudo revisar la información de seguridad del prospecto, lo cual impide avanzar al tamizaje de seguridad.
 
+<!-- review:begin co-lic-20261105-montelukast-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registro sanitario vigente en Colombia y no se pudo revisar la información de seguridad del prospecto, lo cual impide avanzar al tamizaje de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-montelukast-3 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del registro en INVIMA (advertencias y contraindicaciones oficiales).
 - Obtener los datos del mecanismo de acción desde DrugBank.
@@ -134,6 +152,28 @@ Existe un ensayo de Fase 3 completado con gran muestra (n=1125), pero evalúa br
 - Evaluar la relevancia de cada ensayo y publicación para la indicación elegida.
 - Elaborar un plan de monitoreo neuropsiquiátrico, sobre todo si la población objetivo son niños.
 - Como referencia, en los datos compilados otras predicciones tienen mayor respaldo: asma (L1, Proceed with Guardrails) y eccema atópico (L1, Research Question).
+
+<!-- review:begin co-lic-20261105-montelukast-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: no hay registro vigente en Colombia. / Como referencia, en los datos compilados otras predicciones tienen mayor respaldo: asma (L1, Proceed with Guardrails) y eccema atópico (L1, Research Question)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-montelukast-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "En Colombia solo figura un registro sanitario, hoy cancelado, cuyo texto de indicación se limita al nombre del fármaco" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "No hay registros vigentes para este fármaco" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registro sanitario vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

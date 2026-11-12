@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Perindopril y amlodipino"
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -91,12 +91,38 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 El puntaje de TxGNN es muy alto (0.9977), pero no existen ensayos clínicos y la única publicación recuperada no es pertinente al fármaco ni a la enfermedad. Además, el perfil de seguridad en daño renal y estenosis de la arteria renal es una preocupación importante.
 
+<!-- review:begin co-lic-20261105-perindopril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el perfil de seguridad en daño renal y estenosis de la arteria renal es una preocupación importante, y no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-perindopril-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Advertencias y contraindicaciones del prospecto de INVIMA, que no están disponibles y bloquean el tamizaje de seguridad.
 - Búsqueda dirigida de literatura clínica sobre IECA en nefropatía hipertensiva maligna.
 - Evaluación del riesgo de lesión renal aguda en pacientes con estenosis de la arteria renal.
 - Confirmar la situación regulatoria del producto.
+
+<!-- review:begin co-lic-20261105-perindopril-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria del producto, dado que el único registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-perindopril-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

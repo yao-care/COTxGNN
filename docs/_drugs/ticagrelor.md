@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
@@ -113,11 +113,37 @@ Debe señalarse que la evidencia es indirecta para ticagrelor: el ensayo de Fase
 **Justificación:**
 Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 3 en curso en la misma enfermedad, ticagrelor no es claramente el agente experimental, no hay resultados disponibles, y no se dispone de la información de advertencias y contraindicaciones del prospecto aprobado, lo que impide avanzar al tamizaje de seguridad. La clasificación L2 es la asignada en los datos compilados; los resultados de CAPTIVA aún no se han publicado.
 
+<!-- review:begin co-lic-20261105-ticagrelor-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no existe actualmente un registro sanitario vigente en Colombia. La clasificación L2 es la asignada en los datos compilados; los resultados de CAPTIVA aún no se han publicado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ticagrelor-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), dato bloqueante pendiente.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Esperar los resultados de CAPTIVA (finalización estimada en enero de 2027) y del piloto guiado por genotipo.
 - Definir un plan de gestión del riesgo hemorrágico, dada la contraindicación por hemorragia intracraneal señalada en el grafo de conocimiento, y un plan de manejo de interacciones (CYP3A4).
+
+<!-- review:begin co-lic-20261105-ticagrelor-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria: los tres registros están cancelados. / Definir un plan de gestión del riesgo hemorrágico, dada la contraindicación por hemorragia intracraneal señalada en el grafo de conocimiento, y un plan de manejo de interacciones (CYP3A4)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ticagrelor-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, no existe actualmente un registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

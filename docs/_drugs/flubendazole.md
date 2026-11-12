@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Flubendazole: nueva indicación predicha, Carcinoma de vejiga urinaria (urinary bladder carcinoma) (nivel de evidencia L5). Indicación original: Flubendazol"
 monitor_inn: "flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
@@ -78,6 +78,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Para la predicción principal (carcinoma de vejiga urinaria) no hay literatura disponible. Para la predicción relacionada "neoplasia de vejiga urinaria" se identificaron las siguientes publicaciones, que tratan sobre **fenbendazol, no flubendazol**:
 
+<!-- review:begin co-lic-20261105-flubendazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 6 registros sanitarios están cancelados; actualmente no hay productos vigentes con flubendazol." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flubendazole-1 -->
+
+<!-- review:begin co-lic-20261105-flubendazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "*(Existe además un sexto registro cancelado: 19960792, FLUBENDAZOL 300 MG, tableta, de PROCAPS S.A.)*" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flubendazole-2 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [41861111](https://pubmed.ncbi.nlm.nih.gov/41861111/) | 2026 | Preclínico (inferido del título) | Advanced Science | Nanoplataforma intravesical con fenbendazol que combina inducción de ferroptosis, muerte celular inmunogénica y terapia fototérmica contra el cáncer de vejiga |
@@ -116,6 +128,27 @@ La predicción se basa únicamente en el puntaje del modelo TxGNN (nivel de evid
 - Estudios preclínicos específicos de flubendazol en modelos de cáncer de vejiga (in vitro e in vivo).
 - Evaluar la compatibilidad de la vía de administración (oral frente a intravesical), hoy pendiente de análisis.
 - Aclarar la situación regulatoria.
+
+<!-- review:begin co-lic-20261105-flubendazole-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flubendazole-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 6 registros sanitarios están cancelados; actualmente no hay productos vigentes con flubendazol" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "*(Existe además un sexto registro cancelado: 19960792, FLUBENDAZOL 300 MG, tableta, de PROCAPS S.A.)*" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

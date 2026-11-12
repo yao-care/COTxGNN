@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Formoterol y budesonida (combinación inhalada para enfermedad respira…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -77,6 +77,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las 10 publicaciones más relevantes de un total de 20 recuperadas. Ninguna demuestra eficacia de la budesonida en eccema atópico humano.
 
+<!-- review:begin co-lic-20261105-budesonide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros sanitarios están cancelados; actualmente no hay productos de budesonida vigentes en este conjunto de datos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-budesonide-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [21062310](https://pubmed.ncbi.nlm.nih.gov/21062310/) | 2010 | ECA (veterinario, perros) | J Vet Pharmacol Ther | Un acondicionador de budesonida al 0.025% (Barazone) redujo lesiones y prurito en perros con dermatitis atópica frente a placebo (29 animales). No es evidencia en humanos. |
@@ -122,11 +128,38 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Justificación:**
 El puntaje de TxGNN es muy alto (0.9996), pero no hay ensayos clínicos y la literatura es indirecta: alergia de contacto, seguridad pediátrica y un único estudio preclínico de formulación. Además, existen señales de seguridad específicas (sensibilización de contacto, efectos sistémicos en niños) en esta población.
 
+<!-- review:begin co-lic-20261105-budesonide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros vigentes de budesonida en Colombia y existen señales de seguridad específicas (sensibilización de contacto, efectos sistémicos en niños) en esta población." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-budesonide-2 -->
+
 **Para avanzar se necesita:**
 - Ensayos clínicos controlados (fase 2 o superior) de budesonida en dermatitis atópica, con una formulación dérmica definida y comparador activo (p. ej., otro corticosteroide tópico).
 - Datos formales de mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
 - Evaluación de seguridad dermatológica y pediátrica: sensibilización de contacto, absorción sistémica, supresión adrenal y crecimiento.
 - Como referencia, otra indicación predicha para este fármaco, **bronquitis**, tiene mejor respaldo (nivel L2, con ensayos de fase 2 y 4 parcialmente indirectos) y podría priorizarse en una evaluación aparte.
+
+<!-- review:begin co-lic-20261105-budesonide-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Análisis regulatorio: en Colombia no hay registros vigentes ni una formulación dérmica aprobada, por lo que se requeriría un nuevo registro o una vía de indicación nueva. / Como referencia, otra indicación predicha para este fármaco, **bronquitis**, tiene mejor respaldo (nivel L2, con ensayos de fase 2 y 4 parcialmente indirectos) y podría priorizarse en una evaluación aparte." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-budesonide-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; actualmente no hay productos de budesonida vigentes en este conjunto de datos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes de budesonida en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Análisis regulatorio: en Colombia no hay registros vigentes ni una formulación dérmica aprobada, por lo que se requeriría un nuevo registro " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

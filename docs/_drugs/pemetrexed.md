@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PEMETREXED"
@@ -130,6 +130,12 @@ Una limitación importante: no existe un ensayo de Fase 3 específico para mesot
   - Salicilatos y derivados: ácido acetilsalicílico, mesalazina, balsalazida, olsalazina.
   - Amoxicilina, levofloxacino y sapropterina.
 
+<!-- review:begin co-lic-20261105-pemetrexed-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Actualmente no hay registros vigentes en Colombia; los dos registros existentes están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pemetrexed-1 -->
+
   Muchas de estas interacciones se relacionan con la eliminación renal de pemetrexed. Se recomienda revisar especialmente los AINE.
 
 No se dispone del texto de advertencias del prospecto de INVIMA. Consultar el prospecto para la información de seguridad completa.
@@ -143,6 +149,12 @@ No se dispone del texto de advertencias del prospecto de INVIMA. Consultar el pr
 **Justificación:**
 Pemetrexed + platino es el estándar en mesotelioma pleural, con respaldo de un ensayo de Fase 3. Su extrapolación al mesotelioma peritoneal cuenta con estudios de Fase 2, series retrospectivas y varios ensayos en curso. Sin embargo, no hay un ensayo de Fase 3 específico para el peritoneo.
 
+<!-- review:begin co-lic-20261105-pemetrexed-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay un ensayo de Fase 3 específico para el peritoneo, y las dos licencias colombianas están canceladas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pemetrexed-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Confirmar la disponibilidad actual de pemetrexed en Colombia.
@@ -150,11 +162,32 @@ Pemetrexed + platino es el estándar en mesotelioma pleural, con respaldo de un 
 - Aplicar medidas de protección: suplementación con ácido fólico y vitamina B12, control de la función renal, revisión de interacciones (en particular con AINE) y seguimiento hematológico.
 - Datos detallados del mecanismo de acción desde DrugBank.
 
+<!-- review:begin co-lic-20261105-pemetrexed-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la disponibilidad actual de pemetrexed en Colombia, dado que no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pemetrexed-3 -->
+
 **Nota sobre otras indicaciones predichas:**
 - **Mesotelioma pleural** (nivel L1) y **mesotelioma pleural epitelioide** (L1) tienen evidencia más sólida, incluidos ECA de Fase 3 (por ejemplo, Vogelzang 2003 y MAPS). Esto corresponde a una indicación ya establecida, no a un reposicionamiento novedoso.
 - Los subtipos sarcomatoide y bifásico (L2) tienen evidencia a nivel de subgrupo.
 - **Cáncer de pericardio** (L4) se apoya solo en reportes de casos.
 - Para el **tumor adenomatoide pleural**, el **mesotelioma papilar bien diferenciado**, el **mesotelioma linfohistiocitoide** y la **iminoglicinuria**, el respaldo es débil o inexistente. La recomendación es Hold, y en la iminoglicinuria no hay fundamento mecanístico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia; los dos registros existentes están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y las dos licencias colombianas están canceladas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

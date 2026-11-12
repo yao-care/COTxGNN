@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: NEBIVOLOL"
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), no detalla la indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, pero sin **ningún ensayo clínico** ni **publicaciones** directamente relacionadas con esta indicación.
 La predicción se apoya únicamente en el modelo computacional (nivel de evidencia L5).
+
+<!-- review:begin co-lic-20261105-nebivolol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), aunque el registro sanitario consta como cancelado y no detalla la indicación aprobada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nebivolol-1 -->
 
 ---
 
@@ -80,6 +86,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
+<!-- review:begin co-lic-20261105-nebivolol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El fabricante es MONTE VERDE S.A. No hay registros vigentes en el país." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nebivolol-2 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -107,12 +119,40 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción solo se sustenta en el modelo TxGNN, sin ensayos clínicos ni literatura directa. Además, la hipertensión maligna con compromiso renal se trata con agentes intravenosos.
 
+<!-- review:begin co-lic-20261105-nebivolol-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, la hipertensión maligna con compromiso renal se trata con agentes intravenosos, y el único registro sanitario local está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nebivolol-3 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
 - Prospecto del INVIMA con advertencias y contraindicaciones, que hoy no están disponibles y bloquean el análisis de seguridad.
 - Estudios clínicos o literatura específicos de nebivolol en enfermedad renal hipertensiva maligna.
 - Evaluación de compatibilidad de vía de administración (oral frente a la vía intravenosa que requiere la emergencia hipertensiva).
 - Aclarar la situación regulatoria en Colombia.
+
+<!-- review:begin co-lic-20261105-nebivolol-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, dado que no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nebivolol-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "aunque el registro sanitario consta como cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El fabricante es MONTE VERDE S.A. No hay registros vigentes en el país" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

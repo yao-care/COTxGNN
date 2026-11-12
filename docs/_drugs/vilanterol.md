@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
@@ -63,6 +63,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 La indicación original (combinación con umeclidinio, un antagonista muscarínico de acción prolongada) ya corresponde al tratamiento de mantenimiento de la EPOC. Vilanterol también se ha estudiado combinado con furoato de fluticasona (FF/VI) y en terapia triple (FF/UMEC/VI).
 
 Esto explica la solidez de la evidencia, pero también implica que el valor del análisis como reposicionamiento es limitado.
+
+<!-- review:begin co-lic-20261031-vilanterol-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Esto explica la solidez de la evidencia, pero también implica que el valor del análisis como reposicionamiento es limitado. El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-vilanterol-1 -->
 
 ---
 
@@ -127,11 +133,31 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 Existen múltiples ensayos de fase 3 completados y ECA publicados que respaldan la eficacia de vilanterol en EPOC y asma (nivel de evidencia L1). Sin embargo, se trata del uso ya establecido del fármaco, no de un reposicionamiento.
 
+<!-- review:begin co-lic-20261105-vilanterol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, se trata del uso ya establecido del fármaco, no de un reposicionamiento, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-vilanterol-2 -->
+
 **Para avanzar se necesita:**
 - Aclarar la situación regulatoria local: motivo de la cancelación del registro y vías para una nueva solicitud ante INVIMA
 - Obtener el prospecto para completar advertencias y contraindicaciones
 - Confirmar los datos del mecanismo de acción desde una fuente primaria
 - Revisar el manejo clínico de las interacciones con antidiabéticos, simpaticomiméticos y fármacos que prolongan el QT
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

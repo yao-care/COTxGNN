@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tramadol: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Tramadol"
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
@@ -108,11 +108,37 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, ya 
 **Justificación:**
 La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre tramadol y la displasia acromesomélica tipo Hunter-Thompson.
 
+<!-- review:begin co-lic-20261105-tramadol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico creíble entre tramadol y la displasia acromesomélica tipo Hunter-Thompson. Además, el fármaco no tiene registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tramadol-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia preclínica que conecte tramadol con la vía GDF5/BMP (hoy no existe).
 - Obtener el prospecto de INVIMA para advertencias y contraindicaciones oficiales.
 - Aclarar la situación regulatoria.
 - Considerar otras indicaciones predichas con posible beneficio sintomático (por ejemplo, dolor en artritis idiopática juvenil o espondiloartropatía), con evaluación de seguridad específica, sobre todo en población pediátrica.
+
+<!-- review:begin co-lic-20261105-tramadol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, ya que los 3 registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tramadol-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los 3 registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Prasugrel: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: PRASUGREL"
 monitor_inn: "prasugrel"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
@@ -108,11 +108,37 @@ Actualmente no hay ensayos clínicos relacionados registrados para hipertensión
 **Justificación:**
 Para hipertensión pulmonar solo existe una predicción del modelo (L5), sin ensayos clínicos ni literatura pertinente. Además, el perfil de riesgo hemorrágico es relevante. Entre las demás candidatas, la migraña (L3) cuenta con un contexto clínico más sólido (ensayo de fase 3 en curso sobre terapia dirigida al foramen oval permeable, y estudios retrospectivos y piloto con tienopiridinas), pero con evidencia indirecta y no específica de prasugrel; se sugiere tratarla como pregunta de investigación.
 
+<!-- review:begin co-lic-20261105-prasugrel-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registro sanitario vigente en Colombia y el perfil de riesgo hemorrágico es relevante." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-prasugrel-1 -->
+
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), indispensable para el cribado de seguridad.
 - Realizar estudios preclínicos o clínicos de prasugrel en hipertensión pulmonar antes de considerar cualquier avance.
 - Evaluar de forma prioritaria la migraña asociada a foramen oval permeable, verificando si prasugrel forma parte de algún brazo del ensayo NCT07629635 y valorando un estudio específico con prasugrel.
+
+<!-- review:begin co-lic-20261105-prasugrel-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación del registro cancelado (EFFIENT® 10 MG) y la disponibilidad real del fármaco en Colombia. / Realizar estudios preclínicos o clínicos de prasugrel en hipertensión pulmonar antes de considerar cualquier avance." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-prasugrel-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "no hay registro sanitario vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación del registro cancelado (EFFIENT® 10 MG) y la disponibilidad real del fármaco en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Letermovir: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: LETERMOVIR"
 monitor_inn: "LETERMOVIR"
 predicted_indications: ["vulvovaginal candidiasis"]
@@ -88,6 +88,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El fabricante es Merck Sharp & Dohme LLC. La única vía de administración registrada es la oral.
 
+<!-- review:begin co-lic-20261105-letermovir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La única vía de administración registrada es la oral. Dado que el único registro está cancelado, actualmente no hay presentación vigente en el mercado colombiano." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-letermovir-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -110,12 +116,32 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible, ya que letermovir actúa sobre un blanco viral sin equivalente en *Candida*.
 
+<!-- review:begin co-lic-20261105-letermovir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y sin un vínculo mecanístico plausible, ya que letermovir actúa sobre un blanco viral sin equivalente en *Candida*. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-letermovir-2 -->
+
 **Para avanzar se necesita:**
 - Pruebas de susceptibilidad in vitro de *Candida* spp. frente a letermovir como validación mínima
 - Datos del mecanismo de acción desde DrugBank para analizar posibles vínculos mecanísticos
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) antes de cualquier evaluación de seguridad
 - Evaluar la compatibilidad de vía de administración (la presentación registrada es solo oral)
 - Aclarar la situación regulatoria del producto en Colombia
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Dado que el único registro está cancelado, actualmente no hay presentación vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

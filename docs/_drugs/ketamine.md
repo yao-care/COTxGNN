@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 365
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: KETAMINA"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -109,6 +109,12 @@ Nota: el conjunto de literatura incluye además estudios sobre ketamina en depre
 
 Fabricante: FEPARVI S.A.S.
 
+<!-- review:begin co-lic-20261105-ketamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fabricante: FEPARVI S.A.S. Actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketamine-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -127,12 +133,39 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que
 **Justificación:**
 Existen varios ensayos clínicos directamente relacionados con cefalea (incluido un ensayo de Fase 3 completado y otro de Fase 3 en curso), junto con revisiones sistemáticas, pero las muestras son pequeñas y no se dispone de resultados. El nivel L1 asignado por el sistema es optimista: solo hay un ECA de Fase 3 completado (n=80) y sus resultados no se han verificado, por lo que el nivel real podría ser menor hasta confirmarlos. Además, el perfil de contraindicaciones cardiovasculares y cerebrovasculares exige cautela.
 
+<!-- review:begin co-lic-20261105-ketamine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y el perfil de contraindicaciones cardiovasculares y cerebrovasculares exige cautela." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketamine-2 -->
+
 **Para avanzar se necesita:**
 - Revisar los resultados publicados de THINK (NCT03081416) y de los demás ensayos completados, y esperar los de KetHead (NCT05306899).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (bloqueante para el cribado de seguridad).
 - Confirmar el mecanismo de acción con DrugBank.
 - Definir la vía de administración requerida (intravenosa vs. intranasal) y su disponibilidad en Colombia.
 - Establecer criterios de exclusión y monitoreo cardiovascular y de presión arterial, y evaluar el riesgo de abuso por ser sustancia controlada.
+
+<!-- review:begin co-lic-20261105-ketamine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la vía de administración requerida (intravenosa vs. intranasal) y su disponibilidad en Colombia, dado que no hay registro vigente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketamine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

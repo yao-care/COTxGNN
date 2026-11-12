@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Dacarbazine"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine: nueva indicación predicha, Neoplasia del tracto aerodigestivo superior (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Dacarb"
@@ -78,6 +78,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se priorizan los estudios más relevantes; ninguno evalúa directamente dacarbazina en neoplasia del tracto aerodigestivo superior.
 
+<!-- review:begin co-lic-20261105-dacarbazine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dacarbazine-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [41481311](https://pubmed.ncbi.nlm.nih.gov/41481311/) | 2026 | ECA Fase 3 | JAMA Oncol | Toripalimab vs dacarbazina como primera línea en melanoma acral avanzado (dacarbazina como comparador; población no aerodigestiva) |
@@ -133,12 +139,32 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción se basa solo en el modelo (L4), sin ensayos clínicos y con literatura indirecta, centrada en melanoma, linfoma de Hodgkin y tumores neuroendocrinos. El carcinoma escamocelular, que predomina en esta región, no está respaldado. Además, falta información de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-dacarbazine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros vigentes en Colombia y falta información de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dacarbazine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad).
 - Completar el mecanismo de acción desde DrugBank.
 - Definir las histologías específicas del tracto aerodigestivo superior donde dacarbazina podría ser relevante (p. ej., melanoma mucoso).
 - Buscar estudios clínicos directos en esta población.
 - Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 6 licencias vigentes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fentanyl: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Fent…"
 monitor_inn: "fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -112,6 +112,25 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo 
 - Evidencia preclínica o de mecanismo que vincule la vía opioide con la función del receptor AVPR2
 - Revisión de la factibilidad regulatoria
 - Evaluación de la segunda predicción (síndrome de Tourette, puntaje 0.9905, también nivel L5 y Hold) solo si surge evidencia nueva
+
+<!-- review:begin co-lic-20261105-fentanyl-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Revisión de la factibilidad regulatoria, dado que no hay registros vigentes" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fentanyl-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

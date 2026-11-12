@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 559
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rifapentine: nueva indicación predicha, Lepra (nivel de evidencia L3). Indicación original: Rifapentin"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 
 Rifapentina es un antibiótico de la familia de las rifamicinas. En Colombia su único registro sanitario lo consigna simplemente como "Rifapentin", sin una indicación detallada.
 El modelo TxGNN predice que podría ser efectivo para **lepra**, con **0 ensayos clínicos registrados** y **20 publicaciones**. Entre ellas hay un ensayo aleatorizado de profilaxis posexposición en contactos domiciliarios y varios estudios preclínicos.
+
+<!-- review:begin co-lic-20261105-rifapentine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "En Colombia su único registro sanitario (hoy cancelado) lo consigna simplemente como "Rifapentin", sin una indicación detallada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifapentine-1 -->
 
 ---
 
@@ -107,6 +113,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
   - Como otras rifamicinas, rifapentina puede inducir enzimas metabólicas (CYP3A4/UGT1A1) y reducir la exposición a otros fármacos.
 - Las advertencias y contraindicaciones del prospecto INVIMA no estaban disponibles. Consultar el prospecto para la información de seguridad oficial.
 
+<!-- review:begin co-lic-20261105-rifapentine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Este registro figura como **cancelado**. Actualmente no hay productos con rifapentina vigentes en Colombia según los datos compilados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifapentine-2 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -116,11 +128,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 La plausibilidad mecanística es sólida y existe un ensayo aleatorizado de profilaxis posexposición. Sin embargo, no hay ensayos clínicos registrados, el soporte restante es mayormente preclínico, y la evidencia queda en L3. Además, faltan los datos de seguridad del prospecto, por lo que no es posible avanzar con garantías.
 
+<!-- review:begin co-lic-20261105-rifapentine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario local está cancelado y faltan los datos de seguridad del prospecto, por lo que no es posible avanzar con garantías." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifapentine-3 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar los resultados completos del ensayo de dosis única en contactos domiciliarios (NEJM 2023).
 - Descargar el prospecto del INVIMA para completar advertencias y contraindicaciones, lo que bloquea el tamizaje de seguridad.
 - Confirmar los datos formales de mecanismo de acción en DrugBank.
 - Definir el esquema posológico y los riesgos de interacciones, en especial hepatotoxicidad y fármacos concomitantes, antes de cualquier uso en lepra.
+
+<!-- review:begin co-lic-20261105-rifapentine-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria del registro cancelado y la disponibilidad actual de rifapentina en Colombia. / Definir el esquema posológico y los riesgos de interacciones, en especial hepatotoxicidad y fármacos concomitantes, antes de cualquier uso en lepra." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifapentine-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "(hoy cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Este registro figura como **cancelado**. Actualmente no hay productos con rifapentina vigentes en Colombia según los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario local está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria del registro cancelado y la disponibilidad actual de rifapentina en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

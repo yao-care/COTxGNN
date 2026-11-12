@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -97,6 +97,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 - **Interacciones Farmacológicas**: Se registró una interacción de tipo farmacológico con la glucosilceramidasa beta (GBA1). El ambroxol actúa como chaperona de la enzima GCase: a pH neutro (por ejemplo, en líquido cefalorraquídeo sin células) inhibe su actividad, mientras que dentro de las células y sus lisosomas ácidos aumenta la actividad intracelular de la enzima al elevar la masa de enzima que llega al lisosoma. No se especificó un nivel de gravedad.
 
+<!-- review:begin co-lic-20261105-ambroxol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 5 registros sanitarios están cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ambroxol-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -112,6 +118,19 @@ La predicción se apoya únicamente en el modelo TxGNN y en una revisión indire
 - Literatura y ensayos clínicos específicos sobre ambroxol en enfermedades de la cavidad nasal
 - Aclarar la situación regulatoria en Colombia (motivo de las cancelaciones y viabilidad de un nuevo registro)
 - Evaluar la compatibilidad de vías de administración (las formas registradas son jarabe y solución oral)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 5 registros sanitarios están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

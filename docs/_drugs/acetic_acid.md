@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 24
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetic Acid: nueva indicación predicha, Trastorno post-bacteriano (post-bacterial disorder) (nivel de evidencia L5). Indicación original: Ácido acético"
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
@@ -110,12 +110,31 @@ No se encontraron interacciones farmacológicas registradas. Consultar el prospe
 **Justificación:**
 La predicción para trastorno post-bacteriano se basa únicamente en el puntaje del modelo, sin ensayos ni literatura. La indicación de tinea corporis podría explorarse como pregunta de investigación, pero su evidencia es histórica e indirecta.
 
+<!-- review:begin co-lic-20261105-acetic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para trastorno post-bacteriano se basa únicamente en el puntaje del modelo, sin ensayos ni literatura, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-acetic_acid-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible
 - Obtener datos del mecanismo de acción desde DrugBank
 - Realizar una revisión de literatura específica sobre ácido acético y secuelas post-bacterianas
 - Si se desea explorar tinea corporis: estudios in vitro y ensayos controlados modernos con concentraciones y formulaciones definidas, y evaluación de seguridad cutánea
 - Evaluar la compatibilidad de la vía de administración con la nueva indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

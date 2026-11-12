@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 374
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamivudine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (SIV) (nivel de evidencia L4). Indicación original: Lamivudina (solo y en combinaciones con abacavi…"
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -106,6 +106,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones / enfermedades de riesgo (según el grafo de conocimiento del modelo, no texto de prospecto)**: insuficiencia hepática, enfermedad renal, pancreatitis, enfermedades hepáticas y de la vesícula biliar, miopatías y miositis, neutropenia, agranulocitosis, anemia, hipertrigliceridemia, hígado graso, acidosis láctica, entre otras.
 - **Interacciones Farmacológicas**: se identificaron 100 interacciones potenciales. Las de nivel moderado incluyen lactitol, manitol, naltrexona, orlistat y sorbitol. Otras (por ejemplo metformina, omeprazol, morfina, cimetidina y vancomicina) figuran con nivel de gravedad desconocido.
 
+<!-- review:begin co-lic-20261105-lamivudine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros figuran como cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lamivudine-2 -->
+
 Consultar el prospecto para información de seguridad adicional.
 
 ---
@@ -117,10 +123,37 @@ Consultar el prospecto para información de seguridad adicional.
 **Justificación:**
 La predicción se apoya únicamente en estudios preclínicos en macacos, sin ensayos clínicos, y corresponde a un modelo animal sin aplicación terapéutica humana.
 
+<!-- review:begin co-lic-20261105-lamivudine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya únicamente en estudios preclínicos en macacos, sin ensayos clínicos, y corresponde a un modelo animal sin aplicación terapéutica humana. Además, lamivudina no tiene registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lamivudine-3 -->
+
 **Para avanzar se necesita:**
 - Definir si existe un objetivo de investigación relevante (por ejemplo, uso como herramienta en modelos animales) o si la predicción debe descartarse para uso humano
 - Datos del mecanismo de acción confirmados a partir de fuentes como DrugBank
 - Advertencias y contraindicaciones del prospecto oficial de INVIMA
+
+<!-- review:begin co-lic-20261031-lamivudine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Advertencias y contraindicaciones del prospecto oficial de INVIMA / Aclarar la situación regulatoria (registros cancelados) si se considerara cualquier uso en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 14 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-lamivudine-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) si se considerara cualquier uso en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, lamivudina no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

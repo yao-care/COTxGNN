@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -119,17 +119,43 @@ Para las advertencias del prospecto, consultar el prospecto del producto.
 **Justificación:**
 Aunque el puntaje del modelo es alto y existe literatura directa (revisión Cochrane, guía AASM, estudios pequeños), no hay ensayos clínicos registrados ni ECA de gran escala que respalden clonazepam en SPI, y las benzodiazepinas no son de primera línea. Además, no hay datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-clonazepam-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, en Colombia ambos registros sanitarios están cancelados, y no hay datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-clonazepam-2 -->
+
 **Para avanzar se necesita:**
 - Verificar en el texto completo de la guía AASM 2025 y de la revisión Cochrane la recomendación exacta sobre clonazepam.
 - Obtener el prospecto del INVIMA para las advertencias y contraindicaciones oficiales.
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de seguridad para riesgos de dependencia, sedación, depresión respiratoria y combinación con opioides.
 
+<!-- review:begin co-lic-20261031-clonazepam-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la indicación aprobada original y la situación regulatoria (registros cancelados) en Colombia. / Obtener los datos del mecanismo de acción desde DrugBank." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-clonazepam-1 -->
+
 ---
 
 **Otras predicciones del modelo (para referencia):**
 - **Insomnio** (TxGNN 0.9932, nivel de evidencia L4, Hold): la literatura es mayormente indirecta y no hay ensayos clínicos.
 - **Neoplasia del nervio trigémino** (TxGNN 0.9930, nivel de evidencia L5, Hold): solo predicción computacional, sin evidencia ni mecanismo antitumoral plausible.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la indicación aprobada original y la situación regulatoria (registros cancelados) en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "en Colombia ambos registros sanitarios están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,6 +66,18 @@ El Evidence Pack recibido presenta dos condiciones críticas que impiden generar
 
 **Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Esto indica un error en la etapa de extracción o serialización del pipeline.
 
+<!-- review:begin co-lic-20261105-anastrozol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspondientes no fueron incorporados al JSON. Esto indica un error en la etapa de extracción o serialización del pipeline." Eliminado: texto residual de plantilla sobre la TFDA de Taiwán, que no corresponde a esta página de Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-anastrozol-1 -->
+
+<!-- review:begin co-lic-20261105-anastrozol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional para cualquier estrategia de reposicionamiento en este mercado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-anastrozol-2 -->
+
 ---
 
 ## Brechas de Datos Identificadas
@@ -102,6 +114,20 @@ El Evidence Pack carece de predicciones TxGNN y de datos de mecanismo de acción
 - Incorporar los datos de DrugBank ya obtenidos (la consulta fue exitosa) al JSON del Evidence Pack, incluyendo MOA, categorías farmacológicas y datos de toxicidad
 - Incorporar las advertencias y contraindicaciones del prospecto (consulta también exitosa) al campo `safety`
 - Una vez subsanadas las brechas, regenerar el Evidence Pack y re-ejecutar este informe
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspon" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

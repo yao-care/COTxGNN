@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rasburicase: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L5). Indicación original: RASBURICASA"
 monitor_inn: "rasburicase"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -93,6 +93,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-rasburicase-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El producto fue fabricado por Sanofi-Aventis de Colombia S.A. y su registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasburicase-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -119,12 +125,39 @@ Actualmente no hay literatura relacionada disponible.
 **Justificación:**
 La predicción carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de acción de la rasburicasa (reducir el ácido úrico) va en contra de lo que requeriría la hipouricemia renal.
 
+<!-- review:begin co-lic-20261105-rasburicase-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción carece de ensayos clínicos y literatura (nivel L5), y el mecanismo de acción de la rasburicasa (reducir el ácido úrico) va en contra de lo que requeriría la hipouricemia renal. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasburicase-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados desde fuentes oficiales.
 - Prospecto oficial con advertencias y contraindicaciones, que no está disponible y es un vacío bloqueante para el cribado de seguridad.
 - Evaluación de si alguna otra predicción (por ejemplo, crisis hiperuricémicas agudas en la deficiencia parcial de HPRT) tiene un fundamento clínico más coherente.
 - Revisión del estado regulatorio en Colombia.
 - Evidencia preclínica o clínica que justifique cualquier nueva indicación antes de reconsiderar la decisión.
+
+<!-- review:begin co-lic-20261105-rasburicase-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Revisión del estado regulatorio en Colombia, dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasburicase-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El producto fue fabricado por Sanofi-Aventis de Colombia S.A. y su registro está cancelado, por lo que actualmente no hay presentaciones vig" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

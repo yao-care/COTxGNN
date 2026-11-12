@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -128,12 +128,38 @@ Consultar el prospecto para advertencias y contraindicaciones, ya que no se disp
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante.
 
+<!-- review:begin co-lic-20261105-selpercatinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-selpercatinib-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Establecer una hipótesis mecanística sobre la vía RET en la vasculatura pulmonar, con estudios preclínicos que la respalden.
 - Aclarar la disponibilidad del fármaco en Colombia.
 - Evaluar la relación beneficio-riesgo, en particular los efectos cardiovasculares, antes de considerar un uso no oncológico.
+
+<!-- review:begin co-lic-20261105-selpercatinib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la disponibilidad del fármaco en Colombia, dado que los registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-selpercatinib-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L5). Indicación original: CEFAZOLINA"
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -108,6 +108,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 Además, la limitada cobertura de los patógenos típicos de la otitis media y la vía exclusivamente parenteral restan valor práctico a la predicción.
 
+<!-- review:begin co-lic-20261105-cefazolin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia es de nivel L4: no hay ensayos clínicos, la literatura es antigua, indirecta o veterinaria, y el único producto registrado en Colombia está cancelado. Además, la limitada cobertura de los patógenos típicos de la otitis media y la vía exclusivamente parenteral restan valor práctico a la predicción." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cefazolin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -115,6 +121,26 @@ Además, la limitada cobertura de los patógenos típicos de la otitis media y l
 - Evaluar la compatibilidad de vías de administración y el valor frente a las alternativas orales estándar.
 - Aclarar la situación regulatoria.
 - Considerar priorizar otras indicaciones con mayor plausibilidad biológica, ya que las formas alérgica y no supurativa carecen de respaldo.
+
+<!-- review:begin co-lic-20261105-cefazolin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que el único registro sanitario está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cefazolin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "La evidencia es de nivel L4: no hay ensayos clínicos, la literatura es antigua, indirecta o veterinaria, y el único producto registrado en C" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro sanitario está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

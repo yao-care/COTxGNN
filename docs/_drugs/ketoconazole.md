@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 366
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Ketoconazol"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 
 Ketoconazol es un antifúngico azólico autorizado en Colombia en tabletas orales y en champú.
 El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidencia es limitada: **1 ensayo clínico** (formulación tópica, sin resultados) y **publicaciones mayormente indirectas**, sin estudios clínicos sólidos que respalden esta dirección.
+
+<!-- review:begin co-lic-20261105-ketoconazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ketoconazol es un antifúngico azólico autorizado en Colombia en tabletas orales y en champú, cuyos tres registros sanitarios están hoy cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketoconazole-1 -->
 
 ---
 
@@ -121,6 +127,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción se apoya sobre todo en el puntaje computacional y en evidencia indirecta (laboratorio y contexto), con un solo ensayo pequeño de formulación tópica sin resultados. Además, el perfil de seguridad sistémico es desfavorable.
 
+<!-- review:begin co-lic-20261105-ketoconazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los tres registros colombianos están cancelados y el perfil de seguridad sistémico es desfavorable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketoconazole-2 -->
+
 **Para avanzar se necesita:**
 - Resultados del ensayo NCT07237763 y, de ser posible, ensayos controlados con placebo de ketoconazol tópico en acné.
 - Definir la vía de administración (tópica frente a sistémica) y verificar su compatibilidad con los productos disponibles.
@@ -128,6 +140,20 @@ La predicción se apoya sobre todo en el puntaje computacional y en evidencia in
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Aclarar la situación regulatoria en Colombia (el medicamento está comercializado y cuenta con 3 registros vigentes) y evaluar si se requiere un nuevo registro.
 - Evaluar el riesgo de hepatotoxicidad, supresión adrenal, prolongación del QT e interacciones antes de cualquier uso sistémico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyos tres registros sanitarios están hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "los tres registros colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

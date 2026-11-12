@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -92,6 +92,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El campo `total_licenses` es 0 y no se recuperaron licencias en la consulta a TFDA/INVIMA del 2026-03-29.
 
+<!-- review:begin co-lic-20261105-azelastina_hcl-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Azelastina HCL no cuenta con registros sanitarios activos en Colombia según los datos disponibles. El campo `total_licenses` es 0 y no se recuperaron licencias en la consulta a TFDA/INVIMA del 2026-03-29." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-azelastina_hcl-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -115,6 +121,19 @@ El Evidence Pack de Azelastina HCL no contiene indicaciones predichas por TxGNN 
 2. **Resolver DG002 (High):** Consultar DrugBank (ID pendiente de confirmación) para obtener el mecanismo de acción (antagonismo H1 selectivo y propiedades antiinflamatorias adicionales).
 3. **Reejecutar el pipeline TxGNN:** Con el DrugBank ID confirmado, regenerar las predicciones de indicaciones candidatas (`predicted_indications`) para que el análisis de reposicionamiento pueda completarse.
 4. **Verificar presencia en mercado colombiano:** Explorar si existen registros bajo nombres comerciales alternativos (p. ej. Allergodil, Azep) que no hayan sido capturados bajo el INN exacto "AZELASTINA HCL".
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Azelastina HCL no cuenta con registros sanitarios activos en Colombia según los datos disponibles" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

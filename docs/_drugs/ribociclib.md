@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: RIBOCICLIB"
 monitor_inn: "ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -81,6 +81,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Nota: el segundo resultado recuperado (PMID 41641105, reporte de caso de adenocarcinoma vulvar) no es relevante para esta indicación y se excluye de la tabla.
 
+<!-- review:begin co-lic-20261105-ribociclib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario (titular: Novartis Pharma A.G.) figura como cancelado, por lo que actualmente no hay registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ribociclib-2 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -117,16 +123,43 @@ Nota: el segundo resultado recuperado (PMID 41641105, reporte de caso de adenoca
 **Justificación:**
 La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin ensayos clínicos registrados. Además, la toxicidad hematológica de ribociclib exige cautela en neoplasias mieloides.
 
+<!-- review:begin co-lic-20261105-ribociclib-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya solo en un estudio preclínico in vitro (nivel L4) sin ensayos clínicos registrados, y el producto no tiene registro sanitario vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ribociclib-3 -->
+
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y su relación con la biología de la leucemia mieloide
 - Estudios preclínicos adicionales (in vitro e in vivo) y, de ser favorables, un ensayo clínico temprano en leucemia mieloide
 - Revisión del prospecto de INVIMA (advertencias y contraindicaciones) y evaluación de seguridad hematológica
+
+<!-- review:begin co-lic-20261031-ribociclib-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Revisión del prospecto de INVIMA (advertencias y contraindicaciones) y evaluación de seguridad hematológica / Aclarar la situación regulatoria en Colombia (registro cancelado)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-ribociclib-1 -->
 
 ---
 
 ### Nota sobre las demás predicciones
 
 Las otras tres predicciones del modelo (trombocitopenia, macrotrombocitopenia con insuficiencia mitral y trombocitopenia hereditaria con plaquetas normales) tienen puntajes de 0.9907 a 0.9927, pero no son terapéuticamente plausibles. La trombocitopenia es un efecto adverso conocido de ribociclib por supresión de los progenitores hematopoyéticos, por lo que su uso para tratarla sería contradictorio y potencialmente dañino. La recomendación para todas ellas es **Hold** (nivel L4 para trombocitopenia y L5 para las dos condiciones raras, sin evidencia clínica ni bibliográfica).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El único registro sanitario (titular: Novartis Pharma A.G.) figura como cancelado, por lo que actualmente no hay registro vigente en Colombi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el producto no tiene registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

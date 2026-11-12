@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Tropicamida en combinaciones (solución oftálmica)"
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -84,6 +84,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-tropicamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tropicamide-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -124,6 +130,19 @@ La predicción se basa únicamente en el modelo computacional (L5), sin ensayos 
 - Evidencia preclínica o clínica que respalde un efecto sobre la función vesical o intestinal neurogénica.
 - Una formulación sistémica con estudios farmacocinéticos y de seguridad, si se decidiera continuar.
 - Comparación con alternativas ya aprobadas (oxibutinina, tolterodina) para las indicaciones de vejiga neurogénica y síndrome del intestino irritable.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

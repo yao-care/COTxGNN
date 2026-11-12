@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"LORAZE…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -101,6 +101,12 @@ Para las epilepsias reflejas, la literatura disponible consiste sobre todo en re
 
 Ambos registros pertenecen a PFIZER S.A.S.
 
+<!-- review:begin co-lic-20261105-lorazepam-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a PFIZER S.A.S. y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lorazepam-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -128,6 +134,26 @@ La indicación principal (neoplasia del nervio trigémino) carece de ensayos, li
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Si se desea explorar alternativas, tratar **insomnio** como pregunta de investigación (nivel L3, sin ensayos registrados y con uso a largo plazo desaconsejado), y las **epilepsias reflejas** (nivel L4) como extrapolación desde el uso en convulsiones generales, con medidas de control para depresión respiratoria e interacciones.
 - Definir la ruta de administración requerida para cada indicación; actualmente solo existe la forma oral (tableta).
+
+<!-- review:begin co-lic-20261105-lorazepam-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación. / Definir la ruta de administración requerida para cada indicación; actualmente solo existe la forma oral (tableta)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lorazepam-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

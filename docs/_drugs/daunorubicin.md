@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L3). Indicación original: DAUNORRUBICINA"
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **10**
 Daunorrubicina es una antraciclina citotóxica.
 El modelo TxGNN predice que podría ser efectiva para **Linfoma de Hodgkin**,
 con **2 ensayos clínicos** (ambos de Fase 2, con relevancia indirecta) y **20 publicaciones** que respaldan esta dirección de forma limitada.
+
+<!-- review:begin co-lic-20261105-daunorubicin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Daunorrubicina es una antraciclina citotóxica; en Colombia su único registro sanitario (hoy cancelado) solo menciona el nombre del principio activo como indicación." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-daunorubicin-1 -->
 
 ---
 
@@ -104,6 +110,12 @@ Se listan las publicaciones más relevantes (la evidencia comprende sobre todo r
 
 El fabricante es AL PHARMA S.A.S.
 
+<!-- review:begin co-lic-20261105-daunorubicin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El fabricante es AL PHARMA S.A.S. Actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-daunorubicin-2 -->
+
 ---
 
 ## Citotoxicidad
@@ -133,12 +145,40 @@ El fabricante es AL PHARMA S.A.S.
 **Justificación:**
 El puntaje del modelo es alto (0.9981), pero los dos ensayos son de Fase 2 con quimioterapia combinada, no aíslan el efecto de la daunorrubicina y uno de ellos es de linfoma no Hodgkin. La literatura es indirecta (revisiones y cohortes de formulación liposomal).
 
+<!-- review:begin co-lic-20261105-daunorubicin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La literatura es indirecta (revisiones y cohortes de formulación liposomal). Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-daunorubicin-3 -->
+
 **Para avanzar se necesita:**
 - Evidencia específica de daunorrubicina (no de otras antraciclinas) en linfoma de Hodgkin, idealmente ensayos comparativos.
 - Obtener y revisar el prospecto oficial para completar advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en fuentes primarias.
 - Verificar la disponibilidad del producto en Colombia.
 - Evaluar el perfil de riesgo cardíaco y hematológico, dadas las contraindicaciones señaladas por el grafo de conocimiento.
+
+<!-- review:begin co-lic-20261105-daunorubicin-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad del producto en Colombia, dado que no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-daunorubicin-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "en Colombia su único registro sanitario (hoy cancelado) solo menciona el nombre del principio activo como indicación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

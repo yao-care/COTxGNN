@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tamsulosin: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Tamsulosina y dutasterida"
 monitor_inn: "tamsulosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine with brainstem aura"]
@@ -110,11 +110,37 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Justificación:**
 La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos, sin literatura de respaldo y sin mecanismo plausible.
 
+<!-- review:begin co-lic-20261105-tamsulosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos, sin literatura de respaldo y sin mecanismo plausible. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tamsulosin-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) y un análisis que justifique algún vínculo con la biología del folículo piloso o con TRPS1.
 - Advertencias y contraindicaciones del prospecto de INVIMA para completar el tamizaje de seguridad.
 - Evidencia preclínica o de series de casos que respalde algún efecto sobre el crecimiento del pelo.
 - Considerar priorizar otras predicciones o fármacos con mayor plausibilidad biológica.
+
+<!-- review:begin co-lic-20261105-tamsulosin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina en monoterapia en Colombia. / Considerar priorizar otras predicciones o fármacos con mayor plausibilidad biológica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 17 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tamsulosin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina en monoterapia en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

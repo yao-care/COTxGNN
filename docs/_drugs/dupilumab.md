@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 241
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dupilumab: nueva indicación predicha, Bronquitis (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo indica \"DUPILU…"
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
@@ -109,6 +109,12 @@ La limitación es que "bronquitis" en general es una condición heterogénea. El
   - **Menores**: sales de zinc (acetato, gluconato, sulfato y cloruro).
 - **Observaciones de la literatura**: se han descrito conjuntivitis, dermatitis de cabeza y cuello asociada a dupilumab, y reacciones cutáneas paradójicas (como psoriasis pustulosa). Estas observaciones provienen de la literatura recuperada, no del prospecto.
 
+<!-- review:begin co-lic-20261105-dupilumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Sanofi-Aventis de Colombia S.A. y están cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dupilumab-2 -->
+
 Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ---
@@ -120,15 +126,42 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Justificación:**
 No hay ensayos clínicos que evalúen dupilumab en bronquitis. El único ensayo registrado es en rinosinusitis crónica, y el respaldo proviene de datos indirectos en asma y EPOC tipo 2.
 
+<!-- review:begin co-lic-20261105-dupilumab-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único ensayo registrado es en rinosinusitis crónica, y el respaldo proviene de datos indirectos en asma y EPOC tipo 2. Además, los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dupilumab-3 -->
+
 **Para avanzar se necesita:**
 - Definir el subgrupo de bronquitis con inflamación tipo 2 (por ejemplo, eosinofilia) donde el beneficio sería plausible.
 - Ensayos clínicos específicos en bronquitis crónica o bronquitis eosinofílica.
 - Obtener el prospecto del INVIMA para completar advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción consultando DrugBank.
 
+<!-- review:begin co-lic-20261031-dupilumab-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Completar los datos del mecanismo de acción consultando DrugBank. / Aclarar la situación regulatoria en Colombia (registros cancelados)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-dupilumab-1 -->
+
 ---
 
 **Nota sobre otras predicciones:** las predicciones del modelo (queloide acneiforme, exantema, dermatomiositis, entre otras) tienen evidencia nula o muy limitada (niveles L3 a L5) y se recomienda mantenerlas en espera.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registros cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Sanofi-Aventis de Colombia S.A. y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: El texto del registro sanitario solo indica \"INDOMETACINA\"…"
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -77,6 +77,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-indomethacin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La indometacina no cuenta actualmente con ningún registro sanitario vigente en Colombia. Su único registro, de un producto de un solo componente, está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-indomethacin-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -110,11 +116,31 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción para el síndrome de braquidactilia-sindactilia no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de COX y una malformación esquelética genética.
 
+<!-- review:begin co-lic-20261105-indomethacin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para el síndrome de braquidactilia-sindactilia no tiene ensayos clínicos ni literatura (nivel L5), y no existe un vínculo mecanístico plausible entre la inhibición de COX y una malformación esquelética genética. Además, el producto no tiene registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-indomethacin-2 -->
+
 **Para avanzar se necesita:**
 - Evidencia preclínica o mecanística que vincule la vía de las prostaglandinas con la fisiopatología de este síndrome.
 - Obtener y revisar el prospecto oficial (INVIMA) para definir advertencias y contraindicaciones.
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Considerar candidatos mejor respaldados entre las predicciones de este fármaco. La **artritis idiopática juvenil** (puntaje TxGNN 0.9984, nivel L3) cuenta con literatura que incluye un ensayo doble ciego de 1978 que comparó indometacina con ketoprofeno en artritis crónica juvenil, además de varias revisiones pediátricas sobre AINE. Esto sustenta un uso sintomático histórico, no modificador de la enfermedad, y se trata más de un uso ya establecido que de uno nuevo. Podría ser una línea de investigación más razonable.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "La indometacina no cuenta actualmente con ningún registro sanitario vigente en Colombia. Su único registro, de un producto de un solo compon" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el producto no tiene registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

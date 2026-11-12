@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Losartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Losartán"
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
@@ -107,12 +107,38 @@ Para las advertencias del prospecto, consultar el prospecto del producto.
 **Justificación:**
 La predicción tiene un puntaje alto, pero solo la respalda un estudio en animales (L5), sin ensayos clínicos. Además, no hay datos de mecanismo ni de seguridad según el prospecto.
 
+<!-- review:begin co-lic-20261105-losartan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los dos registros sanitarios en Colombia están cancelados, y no hay datos de mecanismo ni de seguridad según el prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-losartan-1 -->
+
 **Para avanzar se necesita:**
 - Datos clínicos en humanos (ensayos o estudios observacionales) de losartán en enfermedad renal hipertensiva maligna
 - Datos detallados del mecanismo de acción (MOA)
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Confirmar la situación regulatoria
 - Plan de monitoreo de función renal y potasio, sobre todo si hay estenosis de arteria renal
+
+<!-- review:begin co-lic-20261105-losartan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-losartan-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

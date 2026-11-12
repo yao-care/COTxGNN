@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro INVIMA (el texto solo repite \"RISANKIZ…"
 monitor_inn: "risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -102,6 +102,12 @@ El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, no prueba 
 
 Fabricante: ABBVIE S.A.S.
 
+<!-- review:begin co-lic-20261105-risankizumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fabricante: ABBVIE S.A.S. Actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-risankizumab-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -123,12 +129,39 @@ Consultar el prospecto para advertencias y contraindicaciones, ya que no están 
 **Justificación:**
 Existe un único ensayo de Fase 2 en dermatitis atópica, y el fundamento mecanístico es débil porque la enfermedad depende principalmente de la vía Th2. Además, faltan datos de seguridad del prospecto, lo que impide avanzar a un cribado de seguridad.
 
+<!-- review:begin co-lic-20261105-risankizumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, lo que impide avanzar a un cribado de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-risankizumab-2 -->
+
 **Para avanzar se necesita:**
 - Revisar los resultados publicados de NCT03706040 (PMID 36588137) antes de hacer cualquier inferencia positiva.
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante).
 - Consultar DrugBank para obtener el mecanismo de acción.
 - Definir subtipos específicos de dermatitis donde exista un fundamento IL-23/Th17 (por ejemplo, acrodermatitis continua de Hallopeau) en lugar de "dermatitis" en general.
 - Las demás indicaciones predichas (dermatomiositis, acrodermatitis crónica atrófica, entre otras) son de nivel L5, sin ensayos ni literatura, y se mantienen en Hold.
+
+<!-- review:begin co-lic-20261105-risankizumab-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria del registro cancelado y la viabilidad de reintroducción en Colombia. / Las demás indicaciones predichas (dermatomiositis, acrodermatitis crónica atrófica, entre otras) son de nivel L5, sin ensayos ni literatura, y se mantienen en Hold." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-risankizumab-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el producto no tiene registro vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria del registro cancelado y la viabilidad de reintroducción en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 204
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Desmopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Desmopresina"
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
@@ -101,6 +101,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - Para advertencias y contraindicaciones de etiqueta, consultar el prospecto.
 - La hiponatremia es un riesgo conocido de la desmopresina. Además, su efecto de aumento de VWF/FVIII podría incrementar el riesgo trombótico.
 
+<!-- review:begin co-lic-20261105-desmopressin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros están cancelados y no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-desmopressin-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -110,12 +116,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 La predicción solo cuenta con el puntaje del modelo, sin ensayos clínicos ni estudios que muestren un efecto de la desmopresina en la deficiencia de protrombina, y sin un mecanismo plausible.
 
+<!-- review:begin co-lic-20261105-desmopressin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción solo cuenta con el puntaje del modelo, sin ensayos clínicos ni estudios que muestren un efecto de la desmopresina en la deficiencia de protrombina, y sin un mecanismo plausible. Además, los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-desmopressin-2 -->
+
 **Para avanzar se necesita:**
 - Evidencia mecanística o clínica específica que vincule la desmopresina con la deficiencia de protrombina. Sin ella, no se recomienda continuar con esta indicación.
 - Datos de mecanismo de acción y de seguridad del prospecto (advertencias y contraindicaciones).
 - Aclarar la situación regulatoria.
 - Considerar otras indicaciones predichas con mejor respaldo. La más prometedora es el **trastorno primario de liberación plaquetaria** (nivel L3, "Proceed with Guardrails"): tiene un mecanismo plausible y revisiones y estudios pediátricos que respaldan el uso de la desmopresina. Requeriría una infusión de prueba para confirmar la respuesta, monitoreo de sodio por riesgo de hiponatremia y restricción de líquidos.
 - Otras indicaciones predichas, como trombofilia hereditaria, enfermedad de von Willebrand pseudo-tipo plaquetario y síndrome de Scott, son mecanísticamente débiles o potencialmente perjudiciales.
+
+<!-- review:begin co-lic-20261105-desmopressin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, ya que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-desmopressin-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros están cancelados y no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

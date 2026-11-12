@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 387
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -86,6 +86,12 @@ Adicionalmente, el campo `predicted_indications` esta completamente vacio, lo qu
 
 No hay licencias ni formas farmaceuticas registradas ante INVIMA.
 
+<!-- review:begin co-lic-20261105-lenalidomida-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29. No hay licencias ni formas farmaceuticas registradas ante INVIMA." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lenalidomida-1 -->
+
 ---
 
 ## Citotoxicidad
@@ -127,6 +133,19 @@ El Evidence Pack no contiene predicciones TxGNN ni datos de seguridad estructura
 - [ ] Re-ejecutar el modelo TxGNN para generar `predicted_indications` — sin este campo el informe no puede completarse
 - [ ] Verificar si existe registro de Lenalidomida bajo nombre comercial Revlimid u otros en INVIMA, ya que la busqueda por INN pudo no capturar todas las licencias
 - [ ] Con datos completos, re-generar el Evidence Pack v5 y volver a solicitar este informe
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

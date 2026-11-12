@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 74
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -83,12 +83,31 @@ Consultar el prospecto para información de seguridad.
 **Justificación:**
 El pack carece de los insumos mínimos para una evaluación de reposicionamiento: no hay predicciones TxGNN, no hay datos de seguridad procesados. No se puede emitir ninguna recomendación clínica o comercial con la información actual.
 
+<!-- review:begin co-lic-20261105-atorvastatina-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El pack carece de los insumos mínimos para una evaluación de reposicionamiento: no hay predicciones TxGNN, no hay datos de seguridad procesados y el registro regulatorio colombiano muestra 0 licencias." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-atorvastatina-1 -->
+
 **Para avanzar se necesita:**
 
 1. **Corregir el término de búsqueda TxGNN**: Reejecutar el pipeline usando el INN inglés `atorvastatin` o el DrugBank ID `DB01076` para obtener predicciones de nuevas indicaciones.
 2. **Completar datos DrugBank**: Poblar los campos `original_moa`, `key_warnings` y `contraindications` con el resultado ya obtenido de DrugBank (`result_count: 1` en query log).
 3. **Ampliar búsqueda INVIMA**: Repetir la consulta con variantes como `ATORVASTATINA CALCICA`, `LIPITOR` y código ATC `C10AA05` para recuperar los registros sanitarios colombianos existentes.
 4. **Regenerar Evidence Pack v5**: Con los insumos corregidos, el pipeline debería producir `predicted_indications` con candidatos TxGNN y un pack completo apto para evaluación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el registro regulatorio colombiano muestra 0 licencias" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

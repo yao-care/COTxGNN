@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mepivacaine: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: Mepivacaína combinaciones"
 monitor_inn: "mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -79,6 +79,12 @@ Actualmente no hay literatura relacionada disponible para gastroduodenitis.
 
 *Nota: para la segunda predicción del modelo (enfermedad ulcerosa péptica), la única publicación recuperada (PMID 6890367, 1982) es un estudio en animales sobre farmacología de seguridad de la lofexidina, un fármaco distinto; no aporta evidencia sobre la mepivacaína.*
 
+<!-- review:begin co-lic-20261105-mepivacaine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El fabricante es Productora y Comercializadora Odontológica New Stetic S.A. Actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mepivacaine-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -107,12 +113,39 @@ No se dispone de las advertencias y contraindicaciones del prospecto; consultar 
 **Justificación:**
 La predicción es solo computacional (L5), sin ensayos clínicos ni literatura pertinente, y no existe un vínculo mecanístico plausible entre el bloqueo de canales de sodio y la gastroduodenitis.
 
+<!-- review:begin co-lic-20261105-mepivacaine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo computacional (L5), sin ensayos clínicos ni literatura pertinente, y no existe un vínculo mecanístico plausible entre el bloqueo de canales de sodio y la gastroduodenitis. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mepivacaine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (MOA) desde DrugBank
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), indispensable antes de cualquier evaluación de seguridad
 - Estudios preclínicos que justifiquen un mecanismo plausible en mucosa gastroduodenal
 - Definir la vía de administración requerida y su compatibilidad con la presentación inyectable disponible
 - Evaluar si existe alguna presentación vigente en Colombia
+
+<!-- review:begin co-lic-20261105-mepivacaine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar si existe alguna presentación vigente en Colombia, dado que el único registro está cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mepivacaine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El fabricante es Productora y Comercializadora Odontológica New Stetic S.A. Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

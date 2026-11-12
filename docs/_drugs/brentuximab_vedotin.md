@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 113
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L2). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Brentu…"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -132,6 +132,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Justificación:**
 El único ensayo directamente relevante (NCT04587687) está en curso con 23 pacientes y sin resultados disponibles. Los demás fueron retirados o terminados, y la literatura no aborda el linfoma folicular. Además, faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la evaluación de seguridad.
 
+<!-- review:begin co-lic-20261105-brentuximab_vedotin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el registro en Colombia está cancelado y faltan los datos de seguridad del prospecto, por lo que no es posible avanzar a la evaluación de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-brentuximab_vedotin-1 -->
+
 **Para avanzar se necesita:**
 - Resultados del ensayo NCT04587687 en linfoma folicular en recaída o refractario
 - Datos de expresión de CD30 en linfoma folicular para definir una población seleccionable
@@ -152,6 +158,19 @@ El único ensayo directamente relevante (NCT04587687) está en curso con 23 paci
 | Linfoma de células del manto | 0.9932 | L5 | Hold |
 
 Nota: la neoplasia de células B muestra la evidencia más sólida del conjunto, pero mezcla enfermedades con uso ya establecido (Hodgkin) con candidatos de reposicionamiento (LDCBG). Sus datos más relevantes proceden del ensayo de Fase 3 NCT04404283 (BV + lenalidomida + rituximab en LDCBG en recaída o refractario, 239 pacientes, activo sin reclutamiento). Podría ser una alternativa de priorización si el objetivo es avanzar con mayor evidencia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el registro en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

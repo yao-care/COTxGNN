@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: TAMOXIFENO"
@@ -120,6 +120,12 @@ Sin embargo, la evidencia se limita a casos clínicos, series de casos y anális
 - **Posibles contraindicaciones según el grafo de conocimiento (no provienen del prospecto):** trombocitopenia, hipercalcemia, nefrocalcinosis, trastornos del metabolismo del fósforo, accidente cerebrovascular y trastornos cerebrovasculares, infarto cerebral, embolia pulmonar, leucopenia, trastornos de la visión y ceguera.
 - **Interacciones farmacológicas:** se registran 546 interacciones. Las de nivel **mayor** más relevantes son bupropión, lorcaserina, cimetidina, dolasetrón, eliglustat, cisaprida, dexfenfluramina y fenfluramina. También hay interacciones moderadas, por ejemplo con famotidina, loperamida, aprepitant, dexametasona, claritromicina, granisetrón y levofloxacino.
 
+<!-- review:begin co-lic-20261105-tamoxifen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros sanitarios están cancelados; actualmente no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tamoxifen-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -129,6 +135,12 @@ Sin embargo, la evidencia se limita a casos clínicos, series de casos y anális
 **Justificación:**
 La predicción es biológicamente plausible, pero la evidencia directa se limita a casos clínicos y series, sin ensayos que prueben el tamoxifeno en la enfermedad de Paget mamaria (L4).
 
+<!-- review:begin co-lic-20261105-tamoxifen-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es biológicamente plausible, pero la evidencia directa se limita a casos clínicos y series, sin ensayos que prueben el tamoxifeno en la enfermedad de Paget mamaria (L4). Además, no hay productos con registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tamoxifen-2 -->
+
 Otras indicaciones predichas para este fármaco, como el carcinoma de mama in situ y el cáncer de mama con receptores de estrógeno positivos, tienen evidencia de nivel L1. Son usos oncológicos ya establecidos, no reposicionamientos nuevos.
 
 **Para avanzar se necesita:**
@@ -136,6 +148,27 @@ Otras indicaciones predichas para este fármaco, como el carcinoma de mama in si
 - Datos de mecanismo de acción y del prospecto (advertencias y contraindicaciones), con descarga del prospecto desde INVIMA.
 - Verificar la disponibilidad real del producto en Colombia.
 - Plan de seguridad que contemple el riesgo tromboembólico y endometrial, el metabolismo por CYP2D6 y la carga de interacciones farmacológicas.
+
+<!-- review:begin co-lic-20261105-tamoxifen-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad real del producto en Colombia, dado que los tres registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tamoxifen-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay productos con registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

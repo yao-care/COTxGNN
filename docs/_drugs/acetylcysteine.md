@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 25
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L1). Indicación original: Acetilcisteína"
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -128,6 +128,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Justificación:**
 Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso en TA-TMA, además de revisiones sistemáticas en PTT y respaldo preclínico del mecanismo. Sin embargo, no se dispone de resultados publicados de los ensayos, la evidencia se limita a microangiopatías trombóticas y el nivel L1 requiere ≥2 ECA de Fase 3 completados, criterio que los datos disponibles no cumplen estrictamente (solo hay un ensayo de Fase 3 completado), por lo que el nivel real podría ser inferior.
 
+<!-- review:begin co-lic-20261105-acetylcysteine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no se dispone de resultados publicados de los ensayos, la evidencia se limita a microangiopatías trombóticas y el nivel L1 requiere ≥2 ECA de Fase 3 completados, criterio que los datos disponibles no cumplen estrictamente (solo hay un ensayo de Fase 3 completado), por lo que el nivel real podría ser inferior. Además, los tres registros sanitarios colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 15); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-acetylcysteine-1 -->
+
 **Para avanzar se necesita:**
 - Obtener los resultados del ensayo NCT03252925 y del NCT07279610.
 - Confirmar el nivel de evidencia con los resultados reales de los ensayos.
@@ -136,6 +142,12 @@ Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso 
 - Consultar el mecanismo de acción en DrugBank.
 - Evaluar la situación regulatoria en Colombia.
 - Plan de monitoreo de seguridad, considerando las enfermedades con contraindicación en el grafo (asma, enfermedad bronquial, úlcera péptica, hipotensión, várices esofágicas).
+
+<!-- review:begin co-lic-20261105-acetylcysteine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la situación regulatoria en Colombia, dado que no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 15); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-acetylcysteine-2 -->
 
 ---
 
@@ -149,6 +161,19 @@ Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso 
 | Enfermedad traqueal | 0.9957 | L4 | Hold |
 | Ataque isquémico transitorio | 0.9953 | L4 | Hold |
 | Glaucoma de ángulo cerrado, laringofaringitis aguda, laringotraqueítis | — | L5 | Hold (sin ensayos ni literatura) |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los tres registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

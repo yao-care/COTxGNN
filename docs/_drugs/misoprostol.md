@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Misoprostol"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -118,6 +118,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 La predicción es principalmente computacional: no hay ensayos clínicos y la literatura recuperada no estudia misoprostol como tratamiento de la amenorrea. Además, hay preocupaciones de seguridad, incluida la teratogenicidad.
 
+<!-- review:begin co-lic-20261105-misoprostol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y hay preocupaciones de seguridad, incluida la teratogenicidad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-misoprostol-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para conocer advertencias y contraindicaciones oficiales.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -125,9 +131,29 @@ La predicción es principalmente computacional: no hay ensayos clínicos y la li
 - Evaluar la viabilidad regulatoria.
 - Definir un plan de seguridad que contemple la exclusión del embarazo y los riesgos cardiovasculares y hepáticos señalados.
 
+<!-- review:begin co-lic-20261105-misoprostol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no hay registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-misoprostol-2 -->
+
 ---
 
 **Nota sobre la segunda predicción (coartación atípica de la aorta):** el puntaje de TxGNN es 0.9930, pero no hay ensayos ni literatura (nivel L5) y no se identifica un mecanismo plausible. La coartación es una anomalía estructural de tratamiento quirúrgico o por cateterismo. La asociación probablemente se debe al uso de alprostadil (PGE1), un fármaco distinto, para mantener el conducto arterioso. Se recomienda **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

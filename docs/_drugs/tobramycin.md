@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Dexametasona y antiinfecciosos (combinación oftálmica)"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -115,13 +115,39 @@ No se obtuvieron advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 La predicción tiene un puntaje alto, pero no hay ensayos clínicos y la literatura no evalúa la tobramicina en queratitis por exposición. El mecanismo es solo indirecto (prevención de sobreinfección) y existe una señal de toxicidad sobre el epitelio corneal.
 
+<!-- review:begin co-lic-20261105-tobramycin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El mecanismo es solo indirecto (prevención de sobreinfección) y existe una señal de toxicidad sobre el epitelio corneal. Además, los tres registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tobramycin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar estudios específicos de tobramicina en queratitis por exposición (por ejemplo, profilaxis de infección secundaria) y evaluar el balance entre beneficio antibacteriano y toxicidad epitelial.
 - Evaluar la viabilidad comercial.
 
+<!-- review:begin co-lic-20261105-tobramycin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad comercial, dado que no hay productos vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tobramycin-2 -->
+
 **Nota sobre otras predicciones:** entre las demás indicaciones predichas, la otitis externa tiene mayor respaldo (nivel L3, literatura microbiológica y de casos con tobramicina; marcada como pregunta de investigación). Debe cuidarse la ototoxicidad con perforación timpánica. El resto tiene evidencia nula o indirecta, o conflicto con el perfil de riesgo, como el síndrome urémico hemolítico asociado a infección.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los tres registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay productos vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

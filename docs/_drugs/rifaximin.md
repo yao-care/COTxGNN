@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). Indicación original: RIFAXIMINA"
@@ -109,12 +109,31 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Justificación:**
 La predicción carece de ensayos clínicos y de un mecanismo plausible, y la única literatura disponible sugiere más bien un riesgo que un beneficio.
 
+<!-- review:begin co-lic-20261105-rifaximin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción carece de ensayos clínicos y de un mecanismo plausible, y la única literatura disponible sugiere más bien un riesgo que un beneficio. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifaximin-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).
 - Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para la evaluación de seguridad.
 - Evidencia preclínica o clínica que demuestre un beneficio real en candidiasis oral.
 - Aclarar la indicación original autorizada, ya que el registro solo consigna el nombre del principio activo.
 - Valorar si otras predicciones (por ejemplo, la candidiasis en general, que presenta la misma señal de riesgo) justifican seguimiento; las demás predicciones (fístula comisural del labio, osteorradionecrosis de la mandíbula, leucoedema oral y síndrome de boca ardiente) carecen de evidencia y de fundamento mecanístico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

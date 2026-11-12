@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Tapentadol"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -78,6 +78,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Para la predicción principal (trastorno de migraña) no hay literatura disponible. Las únicas publicaciones identificadas corresponden a la predicción "susceptibilidad a migraña con o sin aura" y **no evalúan la eficacia de tapentadol en migraña**:
 
+<!-- review:begin co-lic-20261105-tapentadol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros, de GRÜNENTHAL GMBH, están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en los datos compilados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tapentadol-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [33689517](https://pubmed.ncbi.nlm.nih.gov/33689517/) | 2021 | Revisión | Expert Opin Pharmacother | Analiza si los AINE y el paracetamol pueden sustituir a los opioides en dolor agudo, ante la crisis de sobredosis de opioides |
@@ -119,12 +125,32 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Justificación:**
 La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni estudios de eficacia. Los opioides no están recomendados para la migraña y existen alternativas establecidas.
 
+<!-- review:begin co-lic-20261105-tapentadol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los opioides no están recomendados para la migraña y existen alternativas establecidas. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tapentadol-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA (advertencias y contraindicaciones), una brecha de datos bloqueante para el tamizaje de seguridad.
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Evidencia clínica o preclínica que respalde un beneficio de tapentadol en migraña frente a los tratamientos estándar.
 - Evaluar el riesgo de cefalea por sobreuso de medicación, dependencia e interacciones serotoninérgicas.
 - Definir si existe interés en un producto con registro vigente en Colombia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros, de GRÜNENTHAL GMBH, están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en los dat" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

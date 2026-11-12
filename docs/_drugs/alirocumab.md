@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Alirocumab: nueva indicación predicha, Ictiosis ligada al X sin deficiencia de esteroide sulfatasa (nivel de evidencia L5). Indicación original: ALIROCUMAB"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
@@ -104,17 +104,43 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Justificación:**
 La predicción para ictiosis ligada al X carece de ensayos clínicos, de literatura y de un vínculo mecanístico plausible; el puntaje del modelo es el único respaldo.
 
+<!-- review:begin co-lic-20261105-alirocumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para ictiosis ligada al X carece de ensayos clínicos, de literatura y de un vínculo mecanístico plausible; el puntaje del modelo es el único respaldo. Además, el fármaco no tiene registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-alirocumab-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para revisar advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar estudios preclínicos o de mecanismo que justifiquen un vínculo entre PCSK9 y el metabolismo del sulfato de colesterol en la piel.
 - Aclarar el estado regulatorio.
 
+<!-- review:begin co-lic-20261105-alirocumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio, dado que ambos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-alirocumab-2 -->
+
 ---
 
 ### Nota sobre otras predicciones evaluadas
 
 Entre las demás predicciones, la que cuenta con más respaldo es **"enfermedad del proceso catabólico del colesterol"**. Tiene literatura abundante (revisiones de terapias dirigidas a PCSK9, resultados del estudio ODYSSEY OUTCOMES y un análisis de seguridad), pero corresponde esencialmente al uso ya aprobado del fármaco para reducir lípidos y no a un reposicionamiento genuino. Por ello, su nivel L1 se basa en citas de literatura y no se pudo verificar de forma independiente. La predicción de **xantomatosis** tiene solo dos reportes de caso (nivel L4) y no demuestra regresión de xantomas con alirocumab. Para el defecto de síntesis de colesterol (46,XY), existe una posible preocupación de seguridad, ya que reducir el LDL-C podría ser contraproducente en un estado de déficit de colesterol.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

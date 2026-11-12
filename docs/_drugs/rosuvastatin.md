@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: nueva indicación predicha, Cholesterol-ester transfer protein deficiency (nivel de evidencia L5). Indicación original: ROSUVASTATINA"
@@ -123,6 +123,12 @@ Se listan los ensayos más relevantes para hipercolesterolemia familiar (se prio
 - **Interacciones farmacológicas**: la consulta se completó, pero solo registró la interacción con su diana farmacológica (HMG-CoA reductasa), lo que corresponde al mecanismo de acción y no a una interacción con otro fármaco. En la literatura se señalan posibles interacciones a revisar con ciertos inhibidores de proteasa antirretrovirales y con ciclosporina.
 - **Señales en la literatura**: reportes de trombocitopenia grave (caso aislado), mialgia y miotoxicidad asociadas a estatinas, y mayor riesgo de diabetes incidente con el uso de estatinas.
 
+<!-- review:begin co-lic-20261105-rosuvastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros figuran como cancelados, por lo que actualmente no hay registros vigentes en Colombia para estos productos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rosuvastatin-1 -->
+
 Se recomienda consultar el prospecto para las advertencias oficiales, ya que no se dispone de ellas en la información compilada.
 
 ---
@@ -134,12 +140,39 @@ Se recomienda consultar el prospecto para las advertencias oficiales, ya que no 
 **Justificación:**
 Hay varios ensayos de Fase 3 completados con rosuvastatina en hipercolesterolemia familiar, tanto en adultos como en niños (por ejemplo, NCT00654602, NCT01078675, NCT02226198), lo que corresponde a un nivel de evidencia L1. Sin embargo, es una indicación ya establecida y no un reposicionamiento novedoso.
 
+<!-- review:begin co-lic-20261105-rosuvastatin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, es una indicación ya establecida y no un reposicionamiento novedoso, y en Colombia no hay registros vigentes de los productos con rosuvastatina." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rosuvastatin-2 -->
+
 **Para avanzar se necesita:**
 - Verificar la disponibilidad local.
 - Obtener y revisar el prospecto del INVIMA con advertencias y contraindicaciones oficiales.
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Establecer un plan de monitoreo de seguridad: miopatía y rabdomiólisis, función hepática y renal, función tiroidea, y revisión de interacciones farmacológicas.
 - Considerar que las demás predicciones (por ejemplo, VIH, infarto de tronco encefálico) tienen evidencia limitada o solo preclínica y deben mantenerse en espera.
+
+<!-- review:begin co-lic-20261105-rosuvastatin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad local, ya que ambos registros sanitarios están cancelados (posible nueva solicitud o confirmación de otros registros)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rosuvastatin-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados, por lo que actualmente no hay registros vigentes en Colombia para estos productos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes de los productos con rosuvastatina" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que ambos registros sanitarios están cancelados (posible nueva solicitud o confirmación de otros registros)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

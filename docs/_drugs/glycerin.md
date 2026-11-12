@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: nueva indicación predicha, Síndrome de la cauda equina (cauda equina syndrome) (nivel de evidencia L5). Indicación original: LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES"
@@ -79,6 +79,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-glycerin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 4 registros sanitarios se encuentran cancelados; actualmente no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glycerin-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -112,6 +118,26 @@ La predicción para el síndrome de la cauda equina se basa únicamente en el mo
 - Obtener datos del mecanismo de acción (por ejemplo, desde DrugBank)
 - Una justificación biológica que vincule la glicerina con la fisiopatología de la cauda equina
 - Valorar priorizar la indicación de glaucoma de ángulo abierto, que tiene mayor plausibilidad biológica, con estudios directos en esa población
+
+<!-- review:begin co-lic-20261105-glycerin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Valorar priorizar la indicación de glaucoma de ángulo abierto, que tiene mayor plausibilidad biológica, con estudios directos en esa población / Confirmar la situación regulatoria de los registros cancelados antes de considerar cualquier desarrollo local" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glycerin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 4 registros sanitarios se encuentran cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Confirmar la situación regulatoria de los registros cancelados antes de considerar cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Carbamazepina"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -78,6 +78,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las publicaciones más relevantes de las 20 recuperadas (la evidencia es de bajo nivel; predominan reportes de caso).
 
+<!-- review:begin co-lic-20261105-carbamazepine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Novartis Pharma AG y están cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-carbamazepine-2 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [36824641](https://pubmed.ncbi.nlm.nih.gov/36824641/) | 2022 | Revisión | Acta Clinica Croatica | Opciones de tratamiento de la neuralgia del trigémino, que puede deberse a compresión vascular o a un proceso tumoral |
@@ -117,12 +123,39 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La evidencia es de nivel L4: no hay ensayos clínicos y la literatura consiste en reportes de caso y revisiones. Carbamazepina trata el dolor de la neuralgia del trigémino pero no la neoplasia, por lo que el reposicionamiento como terapia contra el tumor no está respaldado.
 
+<!-- review:begin co-lic-20261031-carbamazepine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Carbamazepina trata el dolor de la neuralgia del trigémino pero no la neoplasia, por lo que el reposicionamiento como terapia contra el tumor no está respaldado. Además, el mercado colombiano solo tiene registros cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 5 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-carbamazepine-1 -->
+
 **Para avanzar se necesita:**
 - Definir si el objetivo es el control sintomático del dolor (indicación ya conocida) o un efecto antitumoral (sin respaldo).
 - Obtener el prospecto oficial para advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción con datos de DrugBank.
 - Verificar el estado regulatorio.
 - Revisar candidatos alternativos con mayor respaldo, como epilepsias reflejas (startle, lectura), donde existen series clínicas con carbamazepina, aunque también con evidencia de nivel L4.
+
+<!-- review:begin co-lic-20261105-carbamazepine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar el estado regulatorio, dado que los dos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-carbamazepine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Además, el mercado colombiano solo tiene registros cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Novartis Pharma AG y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

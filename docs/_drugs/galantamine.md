@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: GALANTAMINA"
@@ -80,6 +80,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para trastornos de
 
 Actualmente no hay literatura relacionada disponible para trastornos del movimiento psicogénicos.
 
+<!-- review:begin co-lic-20261105-galantamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Janssen Cilag S.A. y no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-galantamine-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -109,12 +115,39 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 La predicción para trastornos del movimiento psicogénicos se basa únicamente en el modelo (L5), sin ensayos, literatura ni vínculo mecanístico plausible. Además, no se dispone de información de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-galantamine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, ambos registros sanitarios en Colombia están cancelados y no se dispone de información de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-galantamine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Aclarar la indicación original aprobada, ya que el registro solo menciona el nombre del principio activo.
 - Considerar priorizar otras predicciones con evidencia indirecta, como la discinesia lingual-facial-bucal, mediante una revisión sistemática específica de galantamina, que incluya el ensayo cruzado PMID 17388711.
 - Evaluar la situación regulatoria actual.
+
+<!-- review:begin co-lic-20261105-galantamine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la situación regulatoria actual, dado que los registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-galantamine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Janssen Cilag S.A. y no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ambos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

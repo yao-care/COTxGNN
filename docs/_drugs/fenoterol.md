@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fenoterol: nueva indicación predicha, Atrofia multisistémica (nivel de evidencia L5). Indicación original: Fenoterol + bromuro de ipratropio"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -103,12 +103,31 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto. Cons
 **Justificación:**
 La predicción para atrofia multisistémica (y para las demás indicaciones propuestas) se basa solo en el modelo, sin ensayos ni literatura, y el mecanismo beta-2 agonista es contrario al beneficio esperado (podría empeorar la hipotensión ortostatica).
 
+<!-- review:begin co-lic-20261105-fenoterol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para atrofia multisistémica (y para las demás indicaciones propuestas) se basa solo en el modelo, sin ensayos ni literatura, y el mecanismo beta-2 agonista es contrario al beneficio esperado (podría empeorar la hipotensión ortostatica). Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fenoterol-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de la literatura y de registros de ensayos para confirmar la ausencia de evidencia.
 - Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado y cuenta con 3 licencias vigentes.
 - Si se continúa, priorizar indicaciones con mejor plausibilidad mecanística (por ejemplo, glaucoma de ángulo abierto) mediante estudios preclínicos antes de cualquier evaluación clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

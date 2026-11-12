@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Resorcinol: nueva indicación predicha, Acné queloide (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico, resorcinol (combinación)"
 monitor_inn: "RESORCINOL"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 Resorcinol es un agente tópico queratolítico y antiséptico, registrado en Colombia únicamente como parte de soluciones tópicas combinadas (con ácido salicílico y ácido benzoico).
 El modelo TxGNN predice que podría ser efectivo para **acné queloide**, pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta predicción.
+
+<!-- review:begin co-lic-20261105-resorcinol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Resorcinol es un agente tópico queratolítico y antiséptico, registrado en Colombia únicamente como parte de soluciones tópicas combinadas (con ácido salicílico y ácido benzoico), cuyos registros sanitarios hoy están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-resorcinol-1 -->
 
 ---
 
@@ -76,6 +82,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+<!-- review:begin co-lic-20261105-resorcinol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los dos registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-resorcinol-2 -->
 
 ---
 
@@ -115,12 +127,40 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura. Aunque el acné queloide es la indicación más plausible, falta validación y hay señales de seguridad que deben aclararse.
 
+<!-- review:begin co-lic-20261105-resorcinol-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no hay productos vigentes con resorcinol en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-resorcinol-3 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad)
 - Obtener datos del mecanismo de acción desde DrugBank
 - Revisar la literatura sobre resorcinol tópico en acné queloide y trastornos foliculares afines
 - Evaluar la absorción sistémica y la seguridad, sobre todo en poblaciones pediátricas, y las contraindicaciones del grafo de conocimiento (G6PD, metahemoglobinemia, enfermedad renal)
 - Confirmar la situación regulatoria y la viabilidad de una nueva formulación
+
+<!-- review:begin co-lic-20261105-resorcinol-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria y la viabilidad de una nueva formulación, dado que los registros actuales están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-resorcinol-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyos registros sanitarios hoy están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Los dos registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y no hay productos vigentes con resorcinol en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los registros actuales están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

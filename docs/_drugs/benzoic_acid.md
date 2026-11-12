@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benzoic Acid: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico"
 monitor_inn: "benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
@@ -115,12 +115,31 @@ Estas relaciones provienen de predicciones del modelo TxGNN (aprendizaje profund
 **Justificación:**
 La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura que estudie el ácido benzoico en bronquitis (nivel L5). Además, los productos eran tópicos, lo que limita la viabilidad inmediata.
 
+<!-- review:begin co-lic-20261105-benzoic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los registros sanitarios en Colombia están cancelados y los productos eran tópicos, lo que limita la viabilidad inmediata." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-benzoic_acid-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) que justifiquen un vínculo con la bronquitis.
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad (dato bloqueante).
 - Estudios preclínicos o clínicos que evalúen directamente el ácido benzoico en bronquitis.
 - Evaluación de compatibilidad de vía de administración (tópica frente a respiratoria u oral).
 - Revisión de las contraindicaciones señaladas por el grafo de conocimiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

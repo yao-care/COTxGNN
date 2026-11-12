@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Melphalan"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 ## Resumen en Una Frase
 
 Melfalán es un agente alquilante antineoplásico. El modelo TxGNN predice que podría ser efectivo para **tumor de células germinales gonadal**, con **7 ensayos clínicos** y **1 publicación** de relevancia muy limitada. Los ensayos evalúan regímenes de quimioterapia combinada a dosis altas, por lo que el aporte propio del melfalán no puede aislarse.
+
+<!-- review:begin co-lic-20261105-melphalan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Melfalán es un agente alquilante antineoplásico que en Colombia contó con registros sanitarios de la sustancia "melphalan" (hoy todos cancelados)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-melphalan-1 -->
 
 ---
 
@@ -121,6 +127,12 @@ Una limitación importante: la evidencia proviene de regímenes combinados a dos
   - Nivel desconocido (ejemplos): omeprazol, pantoprazol, prednisona, metformina, morfina y vancomicina.
 - Una revisión de 1984 señala que los agentes alquilantes como el melfalán tienen una de las tasas más altas de segundas neoplasias, sobre todo leucemias agudas.
 
+<!-- review:begin co-lic-20261105-melphalan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Se muestran 5 de los 7 registros; los otros dos (Myelkilan® y Melfaseven®) también están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-melphalan-2 -->
+
 Las advertencias y contraindicaciones del prospecto no están disponibles; consultar el prospecto para la información de seguridad completa.
 
 ---
@@ -132,12 +144,33 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Justificación:**
 Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 2 completado en tumores germinales recidivantes, se trata de un régimen combinado en el que no se puede aislar el efecto del melfalán. Además, faltan los datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-melphalan-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, hoy no hay ningún registro sanitario vigente en Colombia y faltan los datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-melphalan-3 -->
+
 **Para avanzar se necesita:**
 - Resultados publicados del ensayo NCT00936936 y análisis de la contribución específica del melfalán.
 - Información del prospecto (advertencias y contraindicaciones) y datos del mecanismo de acción.
 - Aclarar la situación regulatoria: el medicamento está comercializado, con 7 licencias válidas de 7 en este país; verificar el estado de cada licencia antes de cualquier trámite de registro o importación.
 - Comparación con los esquemas actuales de rescate en tumores germinales (por ejemplo, regímenes de dosis altas con carboplatino y etopósido).
 - Un plan de monitoreo hematológico, renal y pulmonar para poblaciones de riesgo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "que en Colombia contó con registros sanitarios de la sustancia "melphalan" (hoy todos cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Se muestran 5 de los 7 registros; los otros dos (Myelkilan® y Melfaseven®) también están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "hoy no hay ningún registro sanitario vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

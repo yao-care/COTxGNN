@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Extracutaneous mastocytoma (nivel de evidencia L5). Indicación original: PIRFENIDONA"
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre ESBRIET®. El modelo TxGNN predice que podría ser efectivo para **neoplasia fibroblástica**, pero la evidencia es muy limitada: **ningún ensayo clínico** y **6 publicaciones**, todas preclínicas, reportes de caso o un estudio piloto de relevancia no confirmada.
+
+<!-- review:begin co-lic-20261105-pirfenidone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre ESBRIET®, cuyos registros sanitarios figuran actualmente como cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pirfenidone-1 -->
 
 ---
 
@@ -122,6 +128,19 @@ La predicción se apoya solo en evidencia preclínica indirecta y en reportes de
 - Confirmar la relevancia del piloto en tumores desmoides (PMID 12907346).
 
 **Otras predicciones del modelo (todas L5, Hold, sin ensayos ni literatura):** mastocitoma extracutáneo (0.9971), dermatofibrosarcoma protuberans (0.9941), mastocitosis sistémica agresiva (0.9933), fibrosarcoma de corazón (0.9929), fibrosarcoma convencional (0.9926), fiebre mediterránea familiar autosómica recesiva (0.9925), fibrosarcoma de riñón (0.9924), infarto hepático (0.9924) y sarcoma fibromixoide de bajo grado (0.9919). En varias de ellas existen terapias establecidas (por ejemplo, imatinib en dermatofibrosarcoma; colchicina y bloqueadores de IL-1 en fiebre mediterránea familiar).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran actualmente como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

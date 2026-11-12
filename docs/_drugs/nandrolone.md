@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Nandrolone: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L5). Indicación original: NANDROLONA"
 monitor_inn: "nandrolone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "blunt duct adenosis of breast", "apocrine adenosis of breast", "fetal erythroblastosis", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "renal osteodystrophy"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 Nandrolona es un esteroide anabólico androgénico.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad fibroquística de la mama**, pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** de 1964 que no se puede verificar con estándares actuales.
 
+<!-- review:begin co-lic-20261105-nandrolone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Nandrolona es un esteroide anabólico androgénico que contaba con un registro sanitario en Colombia, actualmente cancelado, cuyo texto de indicación solo dice "NANDROLONA"." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nandrolone-1 -->
+
 ---
 
 ## Resumen Rápido
@@ -64,6 +70,12 @@ Actualmente no se dispone de datos detallados sobre el mecanismo de acción en l
 Históricamente, los andrógenos se usaron en enfermedad benigna de la mama porque podrían reducir el estímulo hormonal ovárico e hipofisario sobre el tejido mamario. Esto da un vínculo plausible, pero no verificado. La única referencia clínica es un artículo de 1964 sobre tratamiento médico de displasias mamarias.
 
 Además, los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna. Las demás predicciones del modelo (displasia mamaria benigna, adenosis, absceso mamario, necrosis grasa, eritroblastosis fetal, enfermedad de la lactancia) tienen evidencia nula o un fundamento mecanístico débil, y varias parecen artefactos del modelo TxGNN (aprendizaje profundo). Entre las candidatas, la **osteodistrofia renal** es biológicamente la más plausible (efecto anabólico sobre hueso y músculo, eritropoyesis), aunque sin evidencia en los datos compilados y con alertas de seguridad en enfermedad renal crónica.
+
+<!-- review:begin co-lic-20261105-nandrolone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto está cancelado en el mercado y los efectos androgénicos (virilización, hepatotoxicidad, cambios lipídicos) limitarían su uso en una condición benigna." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nandrolone-2 -->
 
 ---
 
@@ -106,12 +118,40 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 La predicción tiene un puntaje alto en TxGNN, pero la evidencia se limita a un artículo histórico de 1964 sin verificación posible (L4). El perfil de seguridad androgénico es desfavorable para una enfermedad benigna. La osteodistrofia renal podría plantearse como pregunta de investigación separada.
 
+<!-- review:begin co-lic-20261105-nandrolone-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El producto está cancelado en Colombia y el perfil de seguridad androgénico es desfavorable para una enfermedad benigna." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nandrolone-3 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Búsqueda sistemática de literatura moderna (ensayos controlados, revisiones) sobre andrógenos en enfermedad benigna de la mama.
 - Evaluar la relación beneficio-riesgo frente a las alternativas actuales y la viabilidad regulatoria.
 - Si se explora osteodistrofia renal, revisar la evidencia en enfermedad renal crónica y la seguridad (retención de líquidos, lípidos, hepatotoxicidad).
+
+<!-- review:begin co-lic-20261105-nandrolone-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la relación beneficio-riesgo frente a las alternativas actuales y la viabilidad regulatoria, dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-nandrolone-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "que contaba con un registro sanitario en Colombia, actualmente cancelado, cuyo texto de indicación solo dice "NANDROLONA"" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el producto está cancelado en el mercado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El producto está cancelado en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) (nivel de evidencia L5). Indicación original: Formoterol y mometasona"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -77,6 +77,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-indacaterol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-indacaterol-2 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -106,12 +112,39 @@ Se recomienda consultar el prospecto para las advertencias y contraindicaciones 
 **Justificación:**
 La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción del modelo, sin ensayos ni literatura, y sin mecanismo plausible establecido.
 
+<!-- review:begin co-lic-20261105-indacaterol-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La indicación predicha de mayor puntaje (NSIAD) solo cuenta con la predicción del modelo, sin ensayos ni literatura, y sin mecanismo plausible establecido. Además, no hay producto vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-indacaterol-3 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) y un análisis mecanístico formal del vínculo entre la agonía beta-2 y la señalización del receptor V2.
 - Estudios preclínicos que respalden la hipótesis antes de considerar ensayos clínicos.
 - Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones.
 
+<!-- review:begin co-lic-20261031-indacaterol-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Descargar y analizar el prospecto en INVIMA para completar advertencias y contraindicaciones. / Verificar la disponibilidad regional, dado que solo existen registros cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 3 registros sanitarios (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-indacaterol-1 -->
+
 **Nota sobre otras predicciones:** de las 10 indicaciones predichas, solo la **enfermedad bronquial** (puntaje 0.9918, posición 7) tiene evidencia real: 24 ensayos clínicos (incluidos varios de Fase 3 completados, como NCT02554786 con 2216 participantes) y 20 publicaciones, con nivel L1 y decisión *Proceed with Guardrails*. Sin embargo, esto equivale en gran medida a reconfirmar el uso respiratorio ya conocido y no a un reposicionamiento genuino. Además, muchos ensayos usan combinaciones de dosis fijas, por lo que no se puede aislar el aporte de indacaterol solo. Un ensayo de Fase 3 (NCT04206761) fue retirado con 0 participantes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Verificar la disponibilidad regional, dado que solo existen registros cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Novartis Pharma AG y están cancelados, por lo que no hay un producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

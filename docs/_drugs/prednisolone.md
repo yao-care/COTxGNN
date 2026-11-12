@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 530
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Prednisolone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: Prednisolona"
 monitor_inn: "Prednisolone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
@@ -101,6 +101,12 @@ Es importante aclarar que el nivel L2 se basa únicamente en los títulos de la 
 - **Interacciones farmacológicas**: se identificaron interacciones farmacológicas con el receptor de glucocorticoides (NR3C1) y el receptor de mineralocorticoides (NR3C2); corresponden a los blancos farmacológicos, no a interacciones con otros medicamentos.
 - La literatura recuperada señala recaídas tras suspender el tratamiento y efectos adversos sistémicos con los pulsos de corticosteroides.
 
+<!-- review:begin co-lic-20261105-prednisolone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros figuran como cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-prednisolone-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -121,6 +127,19 @@ Existe un ECA controlado con placebo, varias revisiones sistemáticas y revision
 ---
 
 *Nota sobre otras predicciones: las demás indicaciones predichas (alopecia mucinosa, efluvio telógeno, foliculitis decalvante, entre otras) tienen evidencia limitada o nula (L4–L5) y se recomienda mantenerlas en espera (Hold). El síndrome nefrótico idiopático sensible a esteroides (L1) corresponde a un estándar de atención ya establecido más que a un reposicionamiento novedoso, y gran parte de la literatura recuperada se refiere a la enfermedad resistente a esteroides, por lo que es indirecta.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

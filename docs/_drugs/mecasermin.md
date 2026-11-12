@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
 monitor_inn: "mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 ## Resumen en Una Frase
 
 El modelo TxGNN predice que podría ser efectivo para **monosomía X (síndrome de Turner)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción computacional con plausibilidad mecanística indirecta.
+
+<!-- review:begin co-lic-20261105-mecasermin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Mecasermina (IGF-1 recombinante) se comercializó en Colombia bajo la marca Increlex®, con un registro sanitario cuyo texto de indicación solo dice "MECASERMINA". / El modelo TxGNN predice que podría ser efectivo para **monosomía X (síndrome de Turner)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es solo una predicción computacional con plausibilidad mecanística indirecta." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mecasermin-3 -->
 
 ---
 
@@ -102,12 +108,39 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción para monosomía X tiene un puntaje TxGNN alto, pero no cuenta con ensayos clínicos ni literatura recuperada, y el vínculo mecanístico es indirecto, ya que el síndrome de Turner se maneja habitualmente con hormona de crecimiento. Además, faltan los datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-mecasermin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario colombiano está cancelado, y faltan los datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mecasermin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), actualmente un vacío de información bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una búsqueda sistemática de literatura y ensayos sobre IGF-1 en síndrome de Turner.
 - Evaluar con prioridad el candidato de insensibilidad a la GH (STAT5B), que es el más coherente mecanísticamente.
 - Confirmar la situación regulatoria y la disponibilidad actual del producto en Colombia.
+
+<!-- review:begin co-lic-20261105-mecasermin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria y la disponibilidad actual del producto en Colombia, dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mecasermin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Mecasermina (IGF-1 recombinante) se comercializó en Colombia bajo la marca Increlex®, con un registro sanitario cuyo texto de indicación sol" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

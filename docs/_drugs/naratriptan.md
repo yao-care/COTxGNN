@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: NARATRIPTAN"
@@ -76,6 +76,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se priorizaron los ensayos aleatorizados, seguidos de las revisiones. Ninguna publicación estudia específicamente la migraña con aura del tronco encefálico.
 
+<!-- review:begin co-lic-20261105-naratriptan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay productos vigentes con este principio activo en el registro consultado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-naratriptan-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [10972634](https://pubmed.ncbi.nlm.nih.gov/10972634/) | 2000 | ECA | Clinical Therapeutics | Comparación doble ciego cruzada de naratriptán y sumatriptán en pacientes con migraña propensa a recurrencia |
@@ -123,6 +129,12 @@ Para advertencias y contraindicaciones del texto oficial, consultar el prospecto
 **Justificación:**
 Además, la información del prospecto no está disponible.
 
+<!-- review:begin co-lic-20261105-naratriptan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y la información del prospecto no está disponible." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-naratriptan-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pues este vacío bloquea el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -130,7 +142,28 @@ Además, la información del prospecto no está disponible.
 - Evaluar con expertos en cefaleas si la indicación aporta valor frente al uso actual en migraña.
 - Aclarar la situación regulatoria local.
 
+<!-- review:begin co-lic-20261105-naratriptan-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria local, dado que no hay registro vigente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-naratriptan-3 -->
+
 **Nota sobre las otras predicciones:** *atrofodermia vermiculada* (0.9974) y *uleritema ofriógenes* (0.9947) no tienen ensayos clínicos ni literatura, y no se identificó un vínculo mecanístico plausible. Se trata de predicciones del modelo (nivel L5, decisión Hold); sus puntajes provienen del modelo TxGNN (aprendizaje profundo) y pueden reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay productos vigentes con este principio activo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

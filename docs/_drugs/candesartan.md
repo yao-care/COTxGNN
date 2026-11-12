@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: CANDESARTAN"
@@ -111,6 +111,18 @@ Dos ensayos aleatorizados controlados con placebo (uno de fase 2/3 cruzado y otr
 - Información de seguridad del prospecto autorizado (advertencias y contraindicaciones), no disponible actualmente
 - Datos detallados del mecanismo de acción
 - Plan de monitoreo de seguridad en poblaciones específicas (por ejemplo, embarazo, dado el riesgo conocido de los bloqueadores del receptor de angiotensina)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Como salvedad, el campo de mecanismo de acción original no está disponible y el producto solo tiene registros cancelados en Colombia" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

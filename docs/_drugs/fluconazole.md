@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluconazole: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: FLUCONAZOL"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -94,6 +94,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto, ya
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antifúngico no explica un beneficio en una enfermedad ocular mayormente viral o no infecciosa.
 
+<!-- review:begin co-lic-20261105-fluconazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el mecanismo antifúngico no explica un beneficio en una enfermedad ocular mayormente viral o no infecciosa. Además, los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fluconazole-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank para analizar el vínculo mecanístico.
 - Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para el tamizaje de seguridad.
@@ -101,6 +107,26 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Evaluación de la compatibilidad de la vía de administración (la forma registrada es oral; una indicación ocular requeriría valorar formulaciones oftálmicas).
 - Evaluación del riesgo de prolongación del QT y de las interacciones farmacológicas antes de cualquier uso en esta indicación.
 - Aclarar la situación regulatoria.
+
+<!-- review:begin co-lic-20261105-fluconazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fluconazole-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

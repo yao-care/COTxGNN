@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Aflibercept: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: AFLIBERCEPT"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 Aflibercept es una proteína de fusión recombinante que actúa como "trampa" del VEGF; en el registro sanitario, la indicación aprobada figura únicamente con el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
+
+<!-- review:begin co-lic-20261105-aflibercept-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aflibercept es una proteína de fusión recombinante que actúa como "trampa" del VEGF y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®); en el registro sanitario, la indicación aprobada figura únicamente con el nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-aflibercept-3 -->
 
 ---
 
@@ -104,11 +110,38 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule el bloqueo de VEGF con la esotropía.
 
+<!-- review:begin co-lic-20261105-aflibercept-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un mecanismo plausible que vincule el bloqueo de VEGF con la esotropía. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-aflibercept-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción confirmados (por ejemplo, desde DrugBank).
 - Revisión sistemática de la literatura sobre anti-VEGF y estrabismo/esotropía, incluida la posible relación con el estrabismo secundario a enfermedad retiniana.
 - Obtener y analizar el prospecto del INVIMA para advertencias y contraindicaciones.
 - Evaluación de viabilidad preclínica antes de considerar cualquier estudio clínico.
+
+<!-- review:begin co-lic-20261031-aflibercept-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado) y la vía de administración requerida. / Evaluación de viabilidad preclínica antes de considerar cualquier estudio clínico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-aflibercept-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado) y la vía de administración requerida" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

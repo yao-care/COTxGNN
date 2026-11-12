@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 641
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: TRAZODONA"
 monitor_inn: "trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **9**
 
 Trazodona es un antidepresivo que figura en Colombia. Según los datos compilados, su indicación original solo aparece registrada como "TRAZODONA", sin texto clínico detallado.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-compulsivo (TOC)**, con **0 ensayos clínicos registrados** y **20 publicaciones** de calidad heterogénea (en su mayoría antiguas y de pequeña escala) que respaldan esta dirección.
+
+<!-- review:begin co-lic-20261105-trazodone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Trazodona es un antidepresivo que figura en Colombia con registros sanitarios que hoy están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trazodone-1 -->
 
 ---
 
@@ -117,6 +123,12 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Justificación:**
 La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es antigua, de pequeña escala y sin resultados consistentes (nivel L3). No hay ensayos registrados, y el metabolito m-CPP podría agravar síntomas del TOC. Además, la falta de información del prospecto impide completar el tamizaje de seguridad.
 
+<!-- review:begin co-lic-20261105-trazodone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros sanitarios vigentes en Colombia, y la falta de información del prospecto impide completar el tamizaje de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trazodone-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Confirmar el diseño, el tamaño muestral y los resultados del estudio doble ciego de 1992 (PMID 1629380).
@@ -125,9 +137,30 @@ La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es an
 - Evaluar el riesgo cardiovascular y de prolongación del QT en la población con TOC, dadas las contraindicaciones señaladas por el grafo y las interacciones mayores.
 - Aclarar la situación regulatoria.
 
+<!-- review:begin co-lic-20261105-trazodone-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, ya que los dos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trazodone-3 -->
+
 ---
 
 **Nota sobre otras indicaciones predichas:** agorafobia, trastorno distímico y trastorno fóbico tienen evidencia L3 (estudios pequeños y antiguos). Los trastornos de personalidad paranoide, esquizoide, esquizotípico e histriónico, la tortícolis paroxística benigna de la infancia y el síndrome de Ohdo tienen evidencia L4-L5, es decir, solo predicción del modelo o evidencia indirecta, y se recomienda mantenerlos en espera (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "con registros sanitarios que hoy están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

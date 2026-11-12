@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 214
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dexpanthenol: nueva indicación predicha, Estenosis anorrectal (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "dexpanthenol"
 predicted_indications: ["anorectal stricture", "imperforate anus", "anal polyp", "vulvar inverted follicular keratosis", "proctitis", "exanthem (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -109,6 +109,12 @@ Para el resto de la información de seguridad, consultar el prospecto.
 **Justificación:**
 La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura para estenosis anorrectal. Además, el producto aprobado es un multivitamínico inyectable, cuya vía y formulación no se corresponden de forma evidente con la indicación predicha.
 
+<!-- review:begin co-lic-20261105-dexpanthenol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínicos ni literatura para estenosis anorrectal, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexpanthenol-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Complementar los datos del mecanismo de acción desde DrugBank
@@ -116,6 +122,19 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Evaluar la compatibilidad de vía de administración y formulación (p. ej., tópica o rectal) frente a la presentación inyectable aprobada
 - Verificar la señal de contraindicación en hemofilia
 - Considerar, como alternativa, priorizar la indicación de exantema (nivel L4, con un ensayo de Fase 3 completado), cuya relevancia es parcial y requiere revisar el registro completo del ensayo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 234
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Doxazosin: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L4). Indicación original: DOXAZOSINA"
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -106,15 +106,41 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La evidencia se limita a una publicación de 1997 de carácter descriptivo, sin ensayos clínicos registrados, de modo que el alto puntaje TxGNN no tiene respaldo clínico. Además, hay un alto número de interacciones farmacológicas y un riesgo hipotensor que complican el desarrollo.
 
+<!-- review:begin co-lic-20261105-doxazosin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario está cancelado y hay un alto número de interacciones farmacológicas y un riesgo hipotensor que complican el desarrollo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-doxazosin-1 -->
+
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre bloqueadores alfa-1 en la profilaxis de la migraña
 - Datos del mecanismo de acción y análisis del vínculo mecanístico
 - Advertencias y contraindicaciones del prospecto aprobado
 - Si se continúa, un ensayo piloto controlado con monitoreo de presión arterial ortostática
 
+<!-- review:begin co-lic-20261105-doxazosin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la indicación original aprobada y la situación del registro cancelado / Si se continúa, un ensayo piloto controlado con monitoreo de presión arterial ortostática" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-doxazosin-2 -->
+
 ---
 
 **Nota sobre la segunda predicción:** la *migraña con aura de tronco encefálico* (puntaje 0.9919) no cuenta con ninguna evidencia clínica o bibliográfica propia (nivel L5). Su puntaje probablemente refleja la cercanía al nodo de migraña general, por lo que se recomienda **Hold**, con especial cautela por el uso de fármacos hipotensores en pacientes con síntomas de tronco encefálico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la indicación original aprobada y la situación del registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 487
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Oxaliplatino"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -140,6 +140,25 @@ Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, 
 - Evidencia comparativa (idealmente Fase 3 o Fase 2 aleatorizada) frente a platino con pemetrexed, o definición de una población específica (pacientes no aptos para cisplatino o pemetrexed).
 - Plan de monitoreo para neuropatía periférica y función renal, hepática y pulmonar, dadas las contraindicaciones señaladas por el grafo de conocimiento.
 - Las predicciones para mesotelioma epitelioide (L3), sarcomatoide y tumor maligno de la pleura visceral (ambos L4, Hold) carecen de ensayos específicos y deben tratarse como hipótesis secundarias.
+
+<!-- review:begin co-lic-20261105-oxaliplatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: no hay registro vigente en Colombia, por lo que se requeriría un nuevo registro o una vía de importación. / Plan de monitoreo para neuropatía periférica y función renal, hepática y pulmonar, dadas las contraindicaciones señaladas por el grafo de conocimiento." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-oxaliplatin-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente en Colombia, por lo que se requeriría un nuevo registro o una vía de importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

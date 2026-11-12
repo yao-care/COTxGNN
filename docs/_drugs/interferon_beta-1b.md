@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (hairy cell leukemia) (nivel de evidencia L5). Indicación original: Interferón beta-1b"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -116,11 +116,37 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916), pero no cuenta con ningún ensayo clínico ni publicación; su única base es una analogía con el interferón alfa. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)
 
+<!-- review:begin co-lic-20261105-interferon_beta-1b-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado. (Para la esclerosis múltiple, que es el uso conocido, la evidencia es L1 con recomendación "Proceed with Guardrails", pero no es un reposicionamiento nuevo.)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-interferon_beta-1b-2 -->
+
 **Para avanzar se necesita:**
 - Revisión bibliográfica dirigida sobre interferón beta (frente a interferón alfa) en leucemia de células pilosas y estudios preclínicos
 - Datos del mecanismo de acción del fármaco
 - Obtener el prospecto con advertencias y contraindicaciones
 - Evaluar la comparación con tratamientos establecidos para leucemia de células pilosas antes de considerar estudios clínicos
+
+<!-- review:begin co-lic-20261031-interferon_beta-1b-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Verificar el estado regulatorio actual en INVIMA, ya que solo consta un registro cancelado / Obtener el prospecto con advertencias y contraindicaciones" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-interferon_beta-1b-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Verificar el estado regulatorio actual en INVIMA, ya que solo consta un registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

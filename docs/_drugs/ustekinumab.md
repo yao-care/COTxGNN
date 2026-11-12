@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 651
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -123,6 +123,12 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 Aunque existen dos ensayos de Fase 2 completados en dermatitis atópica, la eficacia observada es modesta e inconsistente, y no hay ensayos de Fase 3 en esta indicación. Además, los datos de seguridad del prospecto no están disponibles.
 
+<!-- review:begin co-lic-20261105-ustekinumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, en Colombia no hay registros vigentes de ustekinumab, y los datos de seguridad del prospecto no están disponibles." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ustekinumab-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto en INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -130,6 +136,26 @@ Aunque existen dos ensayos de Fase 2 completados en dermatitis atópica, la efic
 - Evaluar los resultados detallados de los estudios de Fase 2 (NCT01945086, NCT01806662) y comparar con las alternativas aprobadas para dermatitis atópica.
 - Definir si el grupo objetivo es dermatitis atópica u otra forma de dermatitis, ya que la predicción es genérica.
 - Las demás predicciones (dermatomiositis neonatal, acné queloide, entre otras) carecen de ensayos y literatura, por lo que se mantienen en espera.
+
+<!-- review:begin co-lic-20261105-ustekinumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la indicación aprobada de los registros sanitarios y aclarar por qué están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ustekinumab-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "en Colombia no hay registros vigentes de ustekinumab, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y aclarar por qué están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

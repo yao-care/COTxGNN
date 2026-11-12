@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan: nueva indicación predicha, Prinzmetal angina (nivel de evidencia L5). Indicación original: OLMERSARTAN MEDOXOMIL Y DIURETICOS"
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
+<!-- review:begin co-lic-20261105-olmesartan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario está cancelado, por lo que no hay producto vigente con olmesartán en Colombia según los datos compilados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-olmesartan-1 -->
+
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
@@ -90,11 +96,23 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicaciones para angina de Prinzmetal. Además, existen terapias establecidas para esta condición.
 
+<!-- review:begin co-lic-20261105-olmesartan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, existen terapias establecidas para esta condición y el único registro local está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-olmesartan-2 -->
+
 **Para avanzar se necesita:**
 - Revisión de la literatura sobre bloqueadores del receptor AT1 y vasoespasmo coronario
 - Datos del mecanismo de acción y análisis de la relación mecanística
 - Prospecto de INVIMA para advertencias y contraindicaciones
 - Estudios preclínicos o clínicos pilotos que evalúen olmesartán en angina vasoespástica
+
+<!-- review:begin co-lic-20261105-olmesartan-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Estudios preclínicos o clínicos pilotos que evalúen olmesartán en angina vasoespástica / Análisis de la viabilidad comercial dado el estado cancelado del registro" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-olmesartan-3 -->
 
 ---
 
@@ -105,6 +123,21 @@ Entre las demás predicciones, con base en la evidencia disponible:
 - **Hipertensión pulmonar** (0.9961, nivel L4): solo evidencia preclínica en ratas y ratones, sin datos en humanos.
 - **Glaucoma de ángulo abierto** (0.9940, nivel L4): solo una revisión general, sin datos específicos de olmesartán.
 - El resto (alopecia, hipotricosis, entre otras) son solo predicciones del modelo, sin base mecanística clara.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario está cancelado, por lo que no hay producto vigente con olmesartán en Colombia según los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Análisis de la viabilidad comercial dado el estado cancelado del registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

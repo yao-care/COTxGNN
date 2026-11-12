@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dobutamine: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: DOBUTAMINA"
 monitor_inn: "dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -111,12 +111,31 @@ El medicamento está comercializado y cuenta con 3 registros sanitarios vigentes
 **Justificación:**
 La predicción para alopecia se basa solo en el puntaje del modelo (L5), sin ensayos clínicos, sin literatura que respalde la eficacia y sin mecanismo plausible. Además, es de uso exclusivamente intravenoso hospitalario, lo que lo hace poco compatible con una indicación dermatológica.
 
+<!-- review:begin co-lic-20261105-dobutamine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto no tiene registros vigentes en Colombia y es de uso exclusivamente intravenoso hospitalario, lo que lo hace poco compatible con una indicación dermatológica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dobutamine-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el texto de advertencias y contraindicaciones del prospecto INVIMA.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Demostrar un vínculo mecanístico creíble con la biología del folículo piloso mediante estudios preclínicos.
 - Evaluar la compatibilidad de la vía de administración con la nueva indicación.
 - Considerar priorizar otras candidatas del modelo con mayor plausibilidad biológica, o descartar la hipótesis de reposicionamiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el producto no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

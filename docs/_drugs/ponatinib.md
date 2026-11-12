@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ponatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PONATI…"
 monitor_inn: "ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 Ponatinib es un inhibidor de tirosina quinasas de acción múltiple que cuenta con un registro sanitario en Colombia (ICLUSIG® 15 mg tabletas recubiertas), cuyo texto de indicación solo consigna el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**, con **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; es una predicción puramente computacional.
 Como alternativa, la segunda predicción (liposarcoma) cuenta con **1 publicación preclínica**, pero sin ensayos clínicos.
+
+<!-- review:begin co-lic-20261105-ponatinib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ponatinib es un inhibidor de tirosina quinasas de acción múltiple que cuenta con un registro sanitario en Colombia (ICLUSIG® 15 mg tabletas recubiertas), actualmente cancelado, cuyo texto de indicación solo consigna el nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ponatinib-2 -->
 
 ---
 
@@ -127,11 +133,38 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción para fibromatosis gingival se basa únicamente en el modelo (L5), sin ensayos ni literatura, y la toxicidad vascular de ponatinib no se justifica para una condición benigna.
 
+<!-- review:begin co-lic-20261105-ponatinib-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para fibromatosis gingival se basa únicamente en el modelo (L5), sin ensayos ni literatura, y la toxicidad vascular de ponatinib no se justifica para una condición benigna. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ponatinib-3 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (por ejemplo, consulta a DrugBank).
 - Obtener y analizar el prospecto aprobado (advertencias y contraindicaciones).
 - Verificar con el texto completo del PMID 29132397 si ponatinib mostró actividad en liposarcoma, como posible línea de investigación más sólida (L4).
 - Evidencia que vincule ponatinib con fibromatosis gingival, o descartar esta indicación.
+
+<!-- review:begin co-lic-20261031-ponatinib-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evidencia que vincule ponatinib con fibromatosis gingival, o descartar esta indicación. / Aclarar la situación regulatoria en Colombia (registro cancelado)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-ponatinib-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "actualmente cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

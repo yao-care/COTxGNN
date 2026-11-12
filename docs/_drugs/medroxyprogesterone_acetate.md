@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 422
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). Indicación original: MEDROXIPROGESTERONA"
@@ -111,6 +111,19 @@ La predicción tiene un puntaje alto (0,9995), pero la evidencia consiste en est
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA.
 - Evaluación del balance riesgo-beneficio mamario, dada la contraindicación registrada en carcinoma de mama y el riesgo de proliferación epitelial.
 - Estudios clínicos controlados que evalúen directamente la eficacia en esta enfermedad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "La falta de datos de mecanismo y el estado de mercado (solo registros cancelados) limitan la confirmación" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay registros cancelados" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

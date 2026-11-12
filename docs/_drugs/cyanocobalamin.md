@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 182
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cyanocobalamin: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "Cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -92,12 +92,38 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se basa solo en el modelo (puntaje alto, pero sin ensayos clínicos y con una única revisión general sin relación directa). Además, el tratamiento estándar de los trastornos del metabolismo de la biotina es la biotina misma.
 
+<!-- review:begin co-lic-20261105-cyanocobalamin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el tratamiento estándar de los trastornos del metabolismo de la biotina es la biotina misma, y no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cyanocobalamin-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la cianocobalamina que sustenten el vínculo con el metabolismo de la biotina
 - Revisión sistemática de literatura específica sobre vitamina B12 y trastornos del metabolismo de la biotina
 - Prospecto con advertencias y contraindicaciones (INVIMA u otra fuente)
 - Verificación de la situación regulatoria actual
 - Evaluación de compatibilidad de vías de administración
+
+<!-- review:begin co-lic-20261105-cyanocobalamin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificación de la situación regulatoria actual, dado que ambos registros están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cyanocobalamin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

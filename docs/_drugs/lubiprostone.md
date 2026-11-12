@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lubiprostone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Lubiprostona"
 monitor_inn: "LUBIPROSTONE"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "pulmonary hypertension", "kyphoscoliotic heart disease", "Raynaud disease", "pulmonary hypertension, primary, autosomal recessive", "phaeochromocytoma", "peripheral vascular disease"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Lubiprostona es un activador del canal de cloruro ClC-2, conocido como agente de la clase de las prostonas, que cuenta con registros sanitarios en Colombia y cuyo uso clínico conocido es el tratamiento del estreñimiento crónico y del síndrome de intestino irritable.
 El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción computacional.
+
+<!-- review:begin co-lic-20261105-lubiprostone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Lubiprostona es un activador del canal de cloruro ClC-2, conocido como agente de la clase de las prostonas, que cuenta con registros sanitarios en Colombia (actualmente cancelados) y cuyo uso clínico conocido es el tratamiento del estreñimiento crónico y del síndrome de intestino irritable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lubiprostone-1 -->
 
 ---
 
@@ -103,12 +109,39 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción para alopecia se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin vínculo mecanístico directo entre la activación de ClC-2 y el folículo piloso.
 
+<!-- review:begin co-lic-20261105-lubiprostone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para alopecia se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y sin vínculo mecanístico directo entre la activación de ClC-2 y el folículo piloso. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lubiprostone-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA para completar la revisión de advertencias y contraindicaciones (vacío bloqueante para el tamizaje de seguridad)
 - Completar los datos del mecanismo de acción desde DrugBank
 - Estudios preclínicos que evalúen el efecto de lubiprostona o de la vía ClC-2/prostanoides en el folículo piloso
 - Evaluar la compatibilidad de vía de administración (la forma actual es oral en cápsula blanda, mientras que la alopecia suele requerir abordaje tópico o dirigido)
 - Aclarar la situación regulatoria
+
+<!-- review:begin co-lic-20261105-lubiprostone-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que los dos registros están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lubiprostone-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

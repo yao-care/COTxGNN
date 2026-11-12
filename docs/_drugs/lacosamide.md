@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: nueva indicación predicha, Manic bipolar affective disorder (nivel de evidencia L5). Indicación original: LACOSAMIDA"
@@ -114,10 +114,29 @@ Existen dos ensayos de Fase 3 completados y un ECA doble ciego publicado en 2026
 - Descargar y analizar el prospecto en INVIMA para advertencias y contraindicaciones oficiales (hoy no disponibles).
 - Plan de monitoreo cardiaco (conducción y ritmo) y de control hematológico, dadas las señales de seguridad.
 
+<!-- review:begin co-lic-20261105-lacosamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: los 3 registros sanitarios están cancelados, por lo que no hay producto vigente en Colombia. / Plan de monitoreo cardiaco (conducción y ritmo) y de control hematológico, dadas las señales de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lacosamide-1 -->
+
 **Otras predicciones del modelo (para referencia):**
 - **Trastorno bipolar maníaco** (0.9996, L3, Research Question): apoyo limitado a estudios observacionales pequeños y series de casos.
 - **Síndrome miofascial** (0.9981, L2, Research Question): un ensayo de Fase 2 controlado con placebo sin resultados disponibles.
 - **Síndrome de Tourette, tricotilomanía, SIAD nefrogénico, insomnio, TOC y conjuntivitis papilar:** solo predicción del modelo, sin respaldo clínico (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los 3 registros sanitarios están cancelados, por lo que no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

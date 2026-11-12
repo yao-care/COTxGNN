@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Brigatinib"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -89,6 +89,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Ambos registros pertenecen a Takeda Colombia S.A.S.
 
+<!-- review:begin co-lic-20261105-brigatinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Takeda Colombia S.A.S. y se encuentran cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-brigatinib-1 -->
+
 ---
 
 ## Citotoxicidad
@@ -120,6 +126,12 @@ Para advertencias y contraindicaciones, consultar el prospecto. Un reporte de ca
 **Justificación:**
 La predicción para fibromatosis gingival es solo una puntuación del modelo (nivel L5), sin ensayos, sin publicaciones y sin un vínculo mecanístico identificable.
 
+<!-- review:begin co-lic-20261105-brigatinib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para fibromatosis gingival es solo una puntuación del modelo (nivel L5), sin ensayos, sin publicaciones y sin un vínculo mecanístico identificable. Además, los registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-brigatinib-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), pendiente y bloqueante para el cribado de seguridad.
@@ -127,6 +139,20 @@ La predicción para fibromatosis gingival es solo una puntuación del modelo (ni
 - Confirmar la situación regulatoria y la disponibilidad real del producto en Colombia.
 
 **Observación sobre otras predicciones del modelo:** de las predicciones adicionales, la asociada al síndrome de leucomelanodermia-infantilismo-discapacidad intelectual-hipodoncia-hipotricosis presenta literatura que en realidad corresponde a la **schwannomatosis relacionada con NF2**. Allí hay un reporte clínico (NEJM 2024) y un estudio preclínico que muestran reducción tumoral con brigatinib, probablemente mediante inhibición de FAK. Es una señal de reposicionamiento creíble, pero debe reasignarse a la schwannomatosis relacionada con NF2 para una evaluación formal, y no atribuirse al síndrome listado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

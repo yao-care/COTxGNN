@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina glargina"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -127,12 +127,38 @@ Consultar el prospecto para información adicional de advertencias y contraindic
 **Justificación:**
 La predicción para ooforitis autoinmune es solo computacional (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible.
 
+<!-- review:begin co-lic-20261105-insulin_glargine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para ooforitis autoinmune es solo computacional (L5), sin ensayos ni literatura, y sin vínculo mecanístico plausible. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-insulin_glargine-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
 - Advertencias y contraindicaciones del prospecto de INVIMA (brecha de datos bloqueante para el tamizaje de seguridad)
 - Revisión sistemática de la literatura sobre insulina y ooforitis autoinmune
 - Si se desea priorizar otra indicación, evaluar la agenesia pancreática (L4) entendiéndola como reemplazo hormonal, no como reposicionamiento
 - Confirmar la situación regulatoria en Colombia
+
+<!-- review:begin co-lic-20261105-insulin_glargine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria en Colombia, ya que los tres registros están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-insulin_glargine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

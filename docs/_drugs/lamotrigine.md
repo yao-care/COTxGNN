@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 376
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (la predicción de rango 1… (nivel de evidencia L2). Indicación original: LAMOTRIGINA"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -118,12 +118,38 @@ Para advertencias principales y contraindicaciones oficiales, consultar el prosp
 **Justificación:**
 Para neuralgia del trigémino existe un ensayo completado de Fase 2/3 frente a carbamazepina y un ensayo controlado con placebo, ambos pequeños (n≈20), además de guías que la reconocen como opción de segunda línea. Esto corresponde a L2. Falta información de seguridad oficial, por lo que se recomienda avanzar con cautela.
 
+<!-- review:begin co-lic-20261105-lamotrigine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario local está cancelado y falta información de seguridad oficial, por lo que se recomienda avanzar con cautela." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 15); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lamotrigine-1 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto del registro INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad).
 - Completar los datos de mecanismo de acción desde DrugBank.
 - Obtener evidencia controlada de mayor tamaño (ensayos con más pacientes) en neuralgia del trigémino.
 - Plan de monitoreo hematológico y hepático, dadas las condiciones asociadas según el modelo TxGNN (aprendizaje profundo), cuya puntuación puede reflejar similitudes aprendidas por el modelo entre enfermedades relacionadas, no evidencia biológica.
 - Descartar "neoplasia del nervio trigémino" y los síndromes de epilepsia refleja (nivel L3-L5; startle epilepsy, L3, tiene solo series de casos) como líneas prioritarias hasta contar con evidencia directa.
+
+<!-- review:begin co-lic-20261105-lamotrigine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está cancelado. / Obtener evidencia controlada de mayor tamaño (ensayos con más pacientes) en neuralgia del trigémino." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 15); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lamotrigine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario local está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

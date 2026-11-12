@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Gefitinib"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
@@ -83,6 +83,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. Todas tienen recomendación Hold:
 
+<!-- review:begin co-lic-20261105-gefitinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros están cancelados; actualmente no hay productos con registro vigente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-gefitinib-1 -->
+
 | Rango | Enfermedad Predicha | Puntaje TxGNN | Nivel | Observación |
 |------|------|------|------|------|
 | 1 | Fibromatosis gingival | 0.9989 | L5 | Solo predicción |
@@ -139,12 +145,32 @@ Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. To
 **Justificación:**
 La predicción principal (fibromatosis gingival) solo cuenta con el puntaje del modelo, sin ensayos ni literatura, y no existe un vínculo mecanístico documentado. Además, el perfil de seguridad de gefitinib (neumonitis, toxicidad hepática y cutánea) exige una justificación sólida para cualquier nuevo uso.
 
+<!-- review:begin co-lic-20261105-gefitinib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros sanitarios vigentes en Colombia y el perfil de seguridad de gefitinib (neumonitis, toxicidad hepática y cutánea) exige una justificación sólida para cualquier nuevo uso." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-gefitinib-2 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Realizar estudios preclínicos o de mecanismo sobre la señal EGFR en fibroblastos gingivales.
 - Revisar si el sobrecrecimiento gingival tiene alternativas terapéuticas con mejor perfil de seguridad.
 - Evaluar la viabilidad regulatoria, dado que los 4 registros están vigentes y el medicamento está comercializado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cuatro registros están cancelados; actualmente no hay productos con registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

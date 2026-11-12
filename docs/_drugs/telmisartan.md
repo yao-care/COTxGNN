@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Telmisartan: nueva indicación predicha, Prinzmetal angina (angina de Prinzmetal) (nivel de evidencia L5). Indicación original: Telmisartán y diuréticos (hipertensión arterial)"
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
@@ -81,6 +81,12 @@ Actualmente no hay literatura relacionada disponible para angina de Prinzmetal.
 
 Como referencia, publicaciones destacadas de la candidata con mayor evidencia (hemorragia intracerebral):
 
+<!-- review:begin co-lic-20261105-telmisartan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros están cancelados; actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-telmisartan-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [42019018](https://pubmed.ncbi.nlm.nih.gov/42019018/) | 2026 | ECA | N Engl J Med | Píldora única con tres antihipertensivos a dosis bajas tras hemorragia intracerebral; el resumen disponible no muestra los resultados |
@@ -112,12 +118,32 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto, ya que
 **Justificación:**
 La angina de Prinzmetal tiene un puntaje alto (0.9998), pero solo es una predicción del modelo (L5), sin ensayos ni literatura. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación.
 
+<!-- review:begin co-lic-20261105-telmisartan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto no tiene registros vigentes en Colombia. Entre las alternativas, la hemorragia intracerebral (L2) es la mejor respaldada, aunque su ensayo de Fase 3 evaluó una combinación triple y no telmisartán solo; podría considerarse como pregunta de investigación." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-telmisartan-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y del prospecto (advertencias y contraindicaciones oficiales).
 - Revisión de la literatura sobre ARA-II en vasoespasmo coronario para generar evidencia específica de angina de Prinzmetal.
 - Para hemorragia intracerebral: resultados detallados de TRIDENT (PMID 42019018) y análisis del aporte individual de telmisartán.
 - Definir la vía regulatoria en Colombia, dado que el medicamento está comercializado y cuenta con 2 licencias vigentes.
 - Plan de monitoreo de seguridad (potasio, función renal y hepática, hipotensión).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros están cancelados; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

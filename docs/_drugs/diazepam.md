@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 217
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Diazepam"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
@@ -117,14 +117,40 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Justificación:**
 El mecanismo GABAérgico es coherente con el insomnio, pero no hay ensayos clínicos registrados ni estudios que demuestren eficacia específica de diazepam; la literatura se orienta más a reducir el uso de benzodiacepinas. Además, la indicación aprobada es inespecífica.
 
+<!-- review:begin co-lic-20261105-diazepam-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y la indicación aprobada es inespecífica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diazepam-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del registro INVIMA (advertencias y contraindicaciones oficiales), una brecha de datos bloqueante.
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de eficacia y seguridad de diazepam frente a los hipnóticos actuales en insomnio, con atención a adultos mayores.
 
+<!-- review:begin co-lic-20261031-diazepam-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Realizar una revisión sistemática de eficacia y seguridad de diazepam frente a los hipnóticos actuales en insomnio, con atención a adultos mayores. / Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de la vía de administración, ya que la única presentación conocida es inyectable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-diazepam-1 -->
+
 ---
 
 **Nota sobre otras predicciones:** las demás indicaciones predichas (síndrome de cauda equina, trastornos del inicio y mantenimiento del sueño, TDAH, abuso de alucinógenos, antidepresivos y barbitúricos, trastornos del desarrollo y vejiga neurogénica obsoleta) tienen evidencia L3 a L5 y recomendación Hold. No se recomienda avanzar con ninguna de ellas sin estudios clínicos directos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de la vía de administración, ya que la única presentación conocida" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

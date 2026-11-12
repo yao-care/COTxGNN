@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 168
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: CLOFARABINA"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -144,6 +144,12 @@ Consultar el prospecto para la información de seguridad completa.
 **Justificación:**
 Dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y múltiples estudios de Fase 2 respaldan la actividad de la clofarabina en leucemia mieloide, y el mecanismo es directamente relevante. Sin embargo, el perfil de toxicidad (mielosupresión, daño hepático y renal, fuga capilar) exige salvaguardas.
 
+<!-- review:begin co-lic-20261105-clofarabine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay registros sanitarios vigentes en Colombia y el perfil de toxicidad (mielosupresión, daño hepático y renal, fuga capilar) exige salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-clofarabine-1 -->
+
 **Para avanzar se necesita:**
 - Verificar los resultados publicados de los dos ensayos de Fase 3, ya que los datos compilados no incluyen desenlaces de eficacia ni supervivencia.
 - Obtener el prospecto actualizado en INVIMA para completar el análisis de advertencias y contraindicaciones (brecha crítica de datos).
@@ -151,9 +157,29 @@ Dos ensayos de Fase 3 completados (NCT02085408 y NCT00317642) y múltiples estud
 - Definir la vía regulatoria en Colombia.
 - Diseñar un plan de monitoreo hematológico, hepático y renal, con criterios de exclusión basados en las condiciones señaladas por el grafo de conocimiento.
 
+<!-- review:begin co-lic-20261105-clofarabine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la vía regulatoria en Colombia, dado que ambos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-clofarabine-2 -->
+
 ---
 
 **Nota sobre otras indicaciones predichas:** La leucemia linfoblástica aguda (nivel L2) y la crisis blástica de leucemia mieloide crónica (nivel L2) también cuentan con evidencia de Fase 2. Neuroblastoma (L4) y las demás predicciones, como ganglioneuroblastoma y los subtipos de leucemia linfocítica crónica (L5), carecen de evidencia específica y quedan en espera (Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

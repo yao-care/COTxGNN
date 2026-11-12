@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Levodopa e inhibidor de decarboxilasa"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -89,6 +89,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para neurodegenera
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
+<!-- review:begin co-lic-20261105-entacapone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-entacapone-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -121,6 +127,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La predicción principal tiene un puntaje alto en TxGNN, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, el vínculo mecanístico se limita a un posible efecto sintomático en el fenotipo parkinsoniano.
 
+<!-- review:begin co-lic-20261105-entacapone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el vínculo mecanístico se limita a un posible efecto sintomático en el fenotipo parkinsoniano. No hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-entacapone-2 -->
+
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción (por ejemplo, desde DrugBank).
 - Descargar y analizar el prospecto de INVIMA para completar el tamizaje de seguridad.
@@ -128,6 +140,20 @@ La predicción principal tiene un puntaje alto en TxGNN, pero no cuenta con ensa
 - Evaluar, como línea con mayor sustento biológico, la demencia con cuerpos de Lewy (L4) y el parkinsonismo juvenil, antes que las demás predicciones.
 - Si se avanza, diseñar estudios preclínicos o series de casos con un plan de monitoreo de seguridad (cardiovascular, hepático y psiquiátrico).
 - Confirmar la situación regulatoria: la ausencia de registros vigentes condiciona cualquier ruta de acceso local.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

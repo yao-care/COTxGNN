@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo indica \"T"
@@ -107,12 +107,38 @@ No se dispone de las advertencias del prospecto; se recomienda consultarlo.
 **Justificación:**
 La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, con un mecanismo especulativo y posible dirección de efecto contraria.
 
+<!-- review:begin co-lic-20261105-tadalafil-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, con un mecanismo especulativo y posible dirección de efecto contraria. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tadalafil-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para completar las advertencias y contraindicaciones.
 - Consultar el mecanismo de acción en DrugBank para analizar el vínculo mecanístico.
 - Aclarar la indicación aprobada original, ya que el registro solo muestra el nombre del principio activo.
 - Realizar estudios preclínicos que respalden un vínculo entre PDE5/cGMP y el crecimiento del vello en este trastorno.
 - Considerar otras predicciones con mayor plausibilidad, como la cardiopatía kifoescoliótica (por la hipertensión pulmonar asociada), aunque también carece de evidencia directa.
+
+<!-- review:begin co-lic-20261031-tadalafil-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar el estado regulatorio (registros cancelados) y la compatibilidad de vías de administración. / Considerar otras predicciones con mayor plausibilidad, como la cardiopatía kifoescoliótica (por la hipertensión pulmonar asociada), aunque también carece de evidencia directa." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-tadalafil-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Evaluar el estado regulatorio (registros cancelados) y la compatibilidad de vías de administración" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

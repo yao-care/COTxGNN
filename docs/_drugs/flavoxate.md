@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Flavoxate: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad, tipo inatento (nivel de evidencia L5). Indicación original: Flavoxato"
 monitor_inn: "flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 Flavoxato es un relajante del músculo liso urinario, autorizado en Colombia como BLADURIL® 200 MG (tableta recubierta).
 El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad, tipo inatento**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta predicción. Se trata de una predicción puramente computacional.
+
+<!-- review:begin co-lic-20261105-flavoxate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Flavoxato es un relajante del músculo liso urinario, autorizado en Colombia como BLADURIL® 200 MG (tableta recubierta), cuyo registro sanitario figura como cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flavoxate-1 -->
 
 ---
 
@@ -115,11 +121,38 @@ Las advertencias y contraindicaciones del prospecto del INVIMA no están disponi
 **Justificación:**
 La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico respaldado con el TDAH.
 
+<!-- review:begin co-lic-20261105-flavoxate-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya solo en el modelo (nivel L5), sin ensayos ni literatura, y no existe un vínculo mecanístico respaldado con el TDAH. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flavoxate-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto del INVIMA para completar el tamizaje de seguridad.
 - Si se desea continuar, priorizar el síndrome del intestino irritable (o la vejiga neurogénica, más cercana a la indicación original) como hipótesis de investigación, con revisión sistemática de la literatura.
 - Evaluar la viabilidad regulatoria.
+
+<!-- review:begin co-lic-20261105-flavoxate-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-flavoxate-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyo registro sanitario figura como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

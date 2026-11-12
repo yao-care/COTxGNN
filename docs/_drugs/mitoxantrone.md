@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Upper aerodigestive tract neoplasm (nivel de evidencia L5). Indicación original: MITOXANTRONA"
@@ -138,12 +138,38 @@ Hoy el interés se concentra en la formulación liposomal, con un estudio de fas
 **Justificación:**
 Existen estudios históricos de fase II con resultados mixtos y, sobre todo, ensayos modernos con formulación liposomal (fase Ib completada, fase II en curso y fase III planificada) en cáncer de cabeza y cuello, en especial carcinoma nasofaríngeo. La evidencia es suficiente para continuar la evaluación, pero la eficacia aún no está confirmada en ensayos controlados.
 
+<!-- review:begin co-lic-20261105-mitoxantrone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia es suficiente para continuar la evaluación, pero la eficacia aún no está confirmada en ensayos controlados, y el único registro local está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mitoxantrone-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), una brecha bloqueante para el tamizaje de seguridad.
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Esperar los resultados de los ensayos de fase II y III con mitoxantrona liposomal; la formulación liposomal no está registrada en Colombia, por lo que habría que evaluar su disponibilidad.
 - Definir un plan de monitoreo cardíaco (LVEF), hematológico y de interacciones farmacológicas.
 - Evaluar la vía regulatoria.
+
+<!-- review:begin co-lic-20261105-mitoxantrone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la vía regulatoria dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mitoxantrone-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el único registro local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

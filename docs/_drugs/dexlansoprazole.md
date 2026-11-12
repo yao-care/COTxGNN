@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: DEXLANSOPRAZOL"
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
@@ -115,13 +115,39 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Justificación:**
 El mecanismo es plausible, pero la evidencia es de nivel L4 y no incluye ningún ensayo que pruebe la cicatrización de úlcera péptica con dexlansoprazol; los ensayos de Fase 3 son de esofagitis. Además, faltan datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-dexlansoprazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los dos registros sanitarios en Colombia están cancelados, y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexlansoprazole-1 -->
+
 **Para avanzar se necesita:**
 - Esperar los resultados del ensayo [NCT07344506](https://clinicaltrials.gov/study/NCT07344506) (Fase 4, en reclutamiento, n=942), que compara dexlansoprazol, lansoprazol y vonoprazán en la erradicación de *H. pylori*. Es el ensayo más cercano a la indicación, aunque aún sin resultados.
 - Obtener del INVIMA el prospecto con advertencias y contraindicaciones, y verificar las señales de enfermedad hepática y salud ósea.
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Revisar con prioridad las interacciones de nivel Major (acalabrutinib, atazanavir).
 
+<!-- review:begin co-lic-20261105-dexlansoprazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: ambos registros están cancelados, por lo que sería necesario un nuevo registro o una reactivación. / Revisar con prioridad las interacciones de nivel Major (acalabrutinib, atazanavir)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexlansoprazole-2 -->
+
 **Otras predicciones del modelo (para referencia):** la úlcera gástrica y la úlcera duodenal también tienen nivel L4 con apoyo indirecto similar. Gastroyeyunal (úlcera marginal) tiene nivel L4, con un único ensayo retirado. Perforación ulcerosa, gastroduodenitis, obstrucción duodenal, reflujo duodenogástrico, aclorhidria y estómago en botella de cuero tienen solo predicción del modelo (L5). Algunas de ellas, como aclorhidria y estómago en botella de cuero, parecen artefactos del modelo y no se recomienda perseguirlas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados, por lo que sería necesario un nuevo registro o una reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

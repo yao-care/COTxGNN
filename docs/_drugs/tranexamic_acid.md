@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Ácido tranexámico\")"
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -113,12 +113,31 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto apr
 **Justificación:**
 No existen ensayos clínicos y la literatura disponible (dos revisiones narrativas) aborda el sangrado uterino, no la amenorrea. Además, el efecto antifibrinolítico del fármaco es opuesto al estado clínico que se pretende tratar, por lo que el puntaje alto del modelo parece un artefacto de proximidad en la red.
 
+<!-- review:begin co-lic-20261105-tranexamic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el efecto antifibrinolítico del fármaco es opuesto al estado clínico que se pretende tratar, por lo que el puntaje alto del modelo parece un artefacto de proximidad en la red. A esto se suma que los cuatro registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tranexamic_acid-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales (brecha bloqueante para el tamizaje de seguridad).
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Confirmar si existe una hipótesis clínica real para amenorrea o si la señal corresponde a otra indicación (p. ej., sangrado menstrual abundante).
 - Revisar la indicación aprobada en los registros y la razón de su cancelación.
 - Evaluar el riesgo trombótico y las interacciones con estrógenos y anticonceptivos antes de cualquier consideración clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "A esto se suma que los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

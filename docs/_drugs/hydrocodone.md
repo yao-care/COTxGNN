@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 predicted_indications: ["nasal cavity disease"]
@@ -105,11 +105,30 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Justificación:**
 El puntaje alto del modelo no está respaldado por un mecanismo terapéutico plausible, y la única publicación documenta daño nasal, no beneficio. Además, el perfil de riesgo de los opioides es desfavorable.
 
+<!-- review:begin co-lic-20261105-hydrocodone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el perfil de riesgo de los opioides es desfavorable y el producto registrado en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 registros sanitarios (vigentes: 18); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydrocodone-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank) para evaluar el vínculo mecanístico.
 - Advertencias y contraindicaciones oficiales del prospecto de INVIMA.
 - Evidencia clínica o preclínica que muestre un beneficio, y no un daño, en la cavidad nasal o en la laringofaringitis aguda.
 - Evaluación de la compatibilidad de vía de administración (la presentación registrada fue oral, en tabletas) y de la similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el producto registrado en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

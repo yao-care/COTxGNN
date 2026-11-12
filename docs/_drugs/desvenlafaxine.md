@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Desve…"
 monitor_inn: "desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -108,17 +108,43 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Justificación:**
 La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni estudios específicos de desvenlafaxina en TOC, y la evidencia de los ISRN en esta indicación es más débil que la de los ISRS.
 
+<!-- review:begin co-lic-20261105-desvenlafaxine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción tiene un puntaje alto, pero no hay ensayos clínicos ni estudios específicos de desvenlafaxina en TOC, y la evidencia de los ISRN en esta indicación es más débil que la de los ISRS. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-desvenlafaxine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto oficial (advertencias y contraindicaciones) del registro sanitario
 - Confirmar el mecanismo de acción desde DrugBank
 - Estudios preclínicos o clínicos pequeños de desvenlafaxina en TOC, con comparación frente a ISRS
 - Revisar el perfil de seguridad, en especial la hipertensión, las interacciones serotoninérgicas y los antecedentes de trastorno bipolar
 
+<!-- review:begin co-lic-20261031-desvenlafaxine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar la situación regulatoria (registro cancelado) y la disponibilidad real del producto en Colombia / Revisar el perfil de seguridad, en especial la hipertensión, las interacciones serotoninérgicas y los antecedentes de trastorno bipolar" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 9 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-desvenlafaxine-1 -->
+
 ---
 
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, la **distimia** (L3; dos ensayos pequeños completados, uno controlado con placebo con 59 participantes y otro abierto con 30) y la **melancolía** (L3; en esencia dentro de la indicación de depresión mayor) tienen más respaldo que el TOC. Las predicciones restantes (trastornos de personalidad esquizotípico, esquizoide, paranoide e histriónico, síndrome de Ohdo, tortícolis paroxística benigna de la infancia y agorafobia) son L5 y se basan solo en el modelo, sin ensayos ni literatura.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Evaluar la situación regulatoria (registro cancelado) y la disponibilidad real del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

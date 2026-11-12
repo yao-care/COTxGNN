@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 389
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: LENVATINIB"
@@ -110,6 +110,18 @@ Un estudio de fase Ib/II de un solo brazo (nivel de evidencia L3) sugiere activi
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Plan de monitoreo de seguridad, incluidas las interacciones farmacológicas de nivel mayor
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado)" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

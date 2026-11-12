@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 246
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L3). Indicación original: ELTROMBOPAG"
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
@@ -120,6 +120,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisiones, sin ensayos específicos en VIH. El único ensayo de Fase 3 no es específico de VIH y fue terminado. Además, el beneficio es de soporte (plaquetas), no antiviral.
 
+<!-- review:begin co-lic-20261105-eltrombopag-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros sanitarios vigentes en Colombia, y el beneficio es de soporte (plaquetas), no antiviral." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-eltrombopag-1 -->
+
 **Para avanzar se necesita:**
 - Aclarar la situación regulatoria: los 4 y el texto de indicación solo repite el nombre del principio activo.
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones.
@@ -128,6 +134,26 @@ La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisio
 - Generar evidencia clínica prospectiva (ensayo controlado) en trombocitopenia asociada al VIH.
 - Validar clínicamente el hallazgo in vitro sobre la transcripción proviral del VIH-1.
 - Evaluar el riesgo hepático y de trombosis, dado el perfil de contraindicaciones del grafo de conocimiento.
+
+<!-- review:begin co-lic-20261105-eltrombopag-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-eltrombopag-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 528
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: PRAVASTATINA Y FENOFIBRATO"
@@ -115,11 +115,37 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La única prueba clínica asociada evalúa alirocumab y no pravastatina, y la literatura es indirecta. Las estatinas ya son terapia de base en HoFH con eficacia limitada, de modo que no se trata de una señal nueva de reposicionamiento.
 
+<!-- review:begin co-lic-20261105-pravastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las estatinas ya son terapia de base en HoFH con eficacia limitada, de modo que no se trata de una señal nueva de reposicionamiento. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pravastatin-1 -->
+
 **Para avanzar se necesita:**
 - Datos directos de pravastatina en HoFH (estudios o series clínicas).
 - Datos de mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
 - Aclarar la situación regulatoria.
 - Evaluar si conviene priorizar otras indicaciones con mayor respaldo. La hipercolesterolemia familiar heterocigota (L2, con estudios pediátricos específicos de pravastatina) y la dislipidemia asociada a VIH (L2, con ensayos aleatorizados de pravastatina) tienen mejor sustento, ambas con salvaguardas por interacciones con antirretrovirales y dosificación pediátrica.
+
+<!-- review:begin co-lic-20261105-pravastatin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, ya que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pravastatin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

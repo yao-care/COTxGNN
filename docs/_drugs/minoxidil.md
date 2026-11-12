@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 448
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L4). Indicación original: Minoxidil"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
@@ -100,6 +100,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones señaladas en el grafo de conocimiento** (relaciones fármaco-enfermedad, no texto de prospecto): hipotensión ortostática, atrofia multisistémica, síndrome de taquicardia postural ortostática, enfermedad renal, accidente cerebrovascular y trastornos cerebrovasculares, infarto de miocardio, enfermedad cardiovascular y cardíaca, feocromocitoma y paraganglioma simpático, derrame pericárdico, taponamiento cardíaco y pericarditis, hemoglobinopatías, y dermatosis del cuero cabelludo.
 - **Interacciones farmacológicas** (se identificaron 100 en total; principales de nivel moderado): corticosteroides (hidrocortisona, triamcinolona, dexametasona, betametasona, budesonida, prednisolona, prednisona), bupropión, morfina, opio, inhibidores de SGLT2 (canagliflozina, dapagliflozina, empagliflozina, ertugliflozina), dronabinol, nabilona y sapropterina.
 
+<!-- review:begin co-lic-20261105-minoxidil-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 7 registros están cancelados; aquí se muestran los 5 principales." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minoxidil-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -109,12 +115,39 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 **Justificación:**
 La predicción tiene un puntaje muy alto, pero solo se apoya en tres reportes de caso con terapias combinadas y sin ensayos registrados. Además, no se dispone de información de seguridad de prospecto.
 
+<!-- review:begin co-lic-20261105-minoxidil-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los 7 registros sanitarios colombianos están cancelados y no se dispone de información de seguridad de prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minoxidil-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Estudios que aíslen el efecto del minoxidil (series más grandes o ensayos controlados).
 - Aclarar la situación regulatoria.
 - Evaluar la seguridad en población pediátrica, dado que los casos reportados incluyen niños y adolescentes, y tener en cuenta las contraindicaciones cardiovasculares señaladas.
+
+<!-- review:begin co-lic-20261105-minoxidil-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minoxidil-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 7 registros están cancelados; aquí se muestran los 5 principales" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "los 7 registros sanitarios colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

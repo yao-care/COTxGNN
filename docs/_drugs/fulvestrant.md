@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 304
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fulvestrant: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: FLUVESTRANT"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -117,12 +117,38 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 **Justificación:**
 La predicción para VIH tiene un puntaje alto en el modelo, pero solo cuenta con un estudio preclínico in vitro y sin ensayos clínicos, lo que corresponde a un nivel de evidencia L4. Además, la indicación registrada está mal transcrita.
 
+<!-- review:begin co-lic-20261105-fulvestrant-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los registros sanitarios en Colombia están cancelados y la indicación registrada está mal transcrita." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fulvestrant-1 -->
+
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción confirmados, por ejemplo mediante consulta a DrugBank.
 - Estudios preclínicos adicionales (in vitro e in vivo) sobre fulvestrant y la latencia del VIH, con replicación independiente.
 - Obtener y revisar el prospecto de INVIMA para completar las advertencias y contraindicaciones, ya que esta brecha impide avanzar al tamizaje de seguridad.
 - Aclarar la situación regulatoria en Colombia.
 - Evaluar si el posible efecto de reversión de latencia tiene sentido clínico, pues el bloqueo estrogénico podría tener efectos inmunológicos no deseados.
+
+<!-- review:begin co-lic-20261105-fulvestrant-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, dado que ambos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fulvestrant-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 99
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Benralizumab: nueva indicación predicha, Trombocitopenia por destrucción inmune (nivel de evidencia L5). Indicación original: Benralizumab"
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
@@ -102,14 +102,40 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe una vía mecanística plausible entre la depleción de eosinófilos y la trombocitopenia inmune.
 
+<!-- review:begin co-lic-20261105-benralizumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe una vía mecanística plausible entre la depleción de eosinófilos y la trombocitopenia inmune. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-benralizumab-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank
 - Prospecto de INVIMA con advertencias y contraindicaciones, necesario para el tamizaje de seguridad
 - Revisión mecanística y de literatura que justifique un vínculo con la trombocitopenia inmune
 
+<!-- review:begin co-lic-20261031-benralizumab-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Revisión mecanística y de literatura que justifique un vínculo con la trombocitopenia inmune / Aclarar la situación regulatoria (registro cancelado) y la disponibilidad del producto en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-benralizumab-1 -->
+
 ---
 
 **Nota sobre otras predicciones:** Entre las otras indicaciones predichas, la **dermatitis** (TxGNN 0.9916) es la que tiene más respaldo, con nivel L2 y recomendación de "pregunta de investigación". Incluye 3 ensayos de Fase 2: NCT03563066 (completado, n=20, estudio mecanístico en dermatitis atópica), NCT04605094 (terminado, n=194, controlado con placebo; debe verificarse el motivo de terminación) y NCT06734884 (aún no reclutando, n=96, DRESS). La literatura asociada consiste mayormente en revisiones y no en datos directos de eficacia. Las predicciones de acné queloide y dermatomiositis (neonatal y amiopática) carecen de evidencia (L5, Hold).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la disponibilidad del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 167
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). Indicación original: CLOBAZAM"
@@ -41,6 +41,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 Clobazam es una benzodiazepina (1,5-benzodiazepina); el texto de indicación registrado se limita al nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para el **síndrome de epilepsia relacionada con infección febril (FIRES)**,
 pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre otros fármacos) y **0 ensayos clínicos** que se relacionan con esta dirección.
+
+<!-- review:begin co-lic-20261105-clobazam-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Clobazam es una benzodiazepina (1,5-benzodiazepina) que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico; el texto de indicación registrado se limita al nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-clobazam-2 -->
 
 ---
 
@@ -112,6 +118,12 @@ No se dispone de advertencias ni contraindicaciones de prospecto; consultar el p
 **Justificación:**
 La predicción del modelo es muy alta (0.9982), pero no hay ensayos clínicos y la literatura disponible es indirecta (otros fármacos, series y reportes de caso). Además, faltan datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-clobazam-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, clobazam no tiene registros vigentes en Colombia y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-clobazam-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), lo que actualmente bloquea el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -124,6 +136,20 @@ La predicción del modelo es muy alta (0.9982), pero no hay ensayos clínicos y 
 ### Nota sobre otras indicaciones predichas
 
 Entre las otras nueve predicciones, la de mayor soporte es la de **encefalopatía epiléptica de inicio en la infancia** (puntaje 0.9959, L4), con abundante literatura que incluye clobazam en el síndrome de Lennox-Gastaut. Como clobazam ya está aprobado para ese síndrome en varios mercados, podría no ser un reposicionamiento real; conviene verificarlo con ensayos primarios. Las demás (síndrome de piernas inquietas, polimicrogiria con hipoplasia del nervio óptico, entre otras) solo tienen respaldo predictivo (L5) o evidencia indirecta (L4).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "clobazam no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

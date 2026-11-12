@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -112,12 +112,31 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La predicción principal (enfermedad de la cavidad nasal) es mecanísticamente plausible, pero corresponde en esencia a un uso ya conocido de la pseudoefedrina, no a un reposicionamiento nuevo. La evidencia es de nivel L4 (estudios farmacológicos y modelos animales, sin ensayos clínicos). Las otras predicciones (laringofaringitis aguda, urticaria alérgica) están en nivel L5 y no tienen respaldo directo; en la urticaria la literatura trata de antihistamínicos, no de pseudoefedrina.
 
+<!-- review:begin co-lic-20261105-pseudoephedrine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia es de nivel L4 (estudios farmacológicos y modelos animales, sin ensayos clínicos) y ambos registros sanitarios colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pseudoephedrine-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), una brecha que bloquea el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
 - Aclarar el motivo de la cancelación de los registros sanitarios y la situación regulatoria vigente de la pseudoefedrina en Colombia.
 - Definir si el objetivo es una indicación nueva o la confirmación de una existente, y buscar ensayos clínicos en humanos para la indicación nasal.
 - Evaluar el perfil cardiovascular y de interacciones (hipertensión, diabetes, enfermedad coronaria) antes de cualquier uso ampliado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y ambos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

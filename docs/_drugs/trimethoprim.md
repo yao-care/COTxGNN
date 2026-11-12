@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -88,6 +88,12 @@ Actualmente no hay literatura relacionada disponible.
 
 Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles.
 
+<!-- review:begin co-lic-20261105-trimethoprim-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "No hay registros vigentes. Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trimethoprim-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -117,10 +123,30 @@ Estas interacciones corresponden al uso sistémico. Para una formulación oftál
 **Justificación:**
 La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5), y el vínculo mecanístico con una enfermedad frecuentemente viral es débil.
 
+<!-- review:begin co-lic-20261105-trimethoprim-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5), y el vínculo mecanístico con una enfermedad frecuentemente viral es débil. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trimethoprim-2 -->
+
 **Para avanzar se necesita:**
 - Revisar la literatura sobre la etiología de la queratoconjuntivitis epitelial punteada y determinar si existe un subtipo bacteriano tratable con trimetoprima.
 - Obtener datos del mecanismo de acción y las advertencias y contraindicaciones del prospecto (INVIMA), que no están disponibles actualmente.
 - Evaluar la viabilidad de una formulación oftálmica y su vía de administración, ya que en Colombia solo se registró la forma oral.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

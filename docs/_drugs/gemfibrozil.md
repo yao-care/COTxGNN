@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: GEMFIBROZIL"
 monitor_inn: "gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -113,11 +113,23 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Justificación:**
 La predicción de artritis reumatoide solo cuenta con respaldo preclínico y mecanístico, sin ensayos clínicos ni estudios en humanos. Además, existe un perfil amplio de interacciones y contraindicaciones.
 
+<!-- review:begin co-lic-20261105-gemfibrozil-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los dos registros sanitarios en Colombia están cancelados y existe un perfil amplio de interacciones y contraindicaciones." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-gemfibrozil-1 -->
+
 **Para avanzar se necesita:**
 - Estudios preclínicos que confirmen la eficacia de gemfibrozilo específicamente (no solo de otros fibratos) en modelos de artritis
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluación del riesgo de interacciones, en particular con estatinas y antidiabéticos, en pacientes con artritis reumatoide
 - Resolver la situación regulatoria
+
+<!-- review:begin co-lic-20261105-gemfibrozil-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Resolver la situación regulatoria, ya que no hay registro sanitario vigente en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-gemfibrozil-2 -->
 
 ---
 
@@ -127,6 +139,20 @@ Los datos compilados muestran candidatos con más respaldo que artritis reumatoi
 
 - **Infección por VIH (nivel L2):** el uso sería el manejo de la dislipidemia asociada a antirretrovirales, no el tratamiento de la infección. Incluye un ensayo aleatorizado doble ciego (PMID 12409741) en hipertrigliceridemia asociada a inhibidores de proteasa y un estudio de metformina o gemfibrozilo en lipodistrofia (PMID 14640387). Hay un ensayo clínico de Fase 1 completado (NCT00039663), solo de relevancia indirecta. Requiere atención por las interacciones con estatinas y antirretrovirales.
 - **Hipoalfalipoproteinemia (nivel L2):** hay varios ensayos cruzados pequeños y antiguos con gemfibrozilo frente a lovastatina o niacina (PMID 2810673, 10716466, 8267492), centrados en parámetros lipídicos. Esta indicación es cercana a su uso lipídico actual.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que no hay registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

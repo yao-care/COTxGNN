@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
@@ -125,12 +125,31 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto. Cons
 **Justificacion:**
 La prediccion tiene un puntaje alto, pero no cuenta con ensayos clinicos ni literatura que evalue el acido lactico como terapia, y no existe un vinculo mecanistico plausible con una malformacion vascular estructural.
 
+<!-- review:begin co-lic-20261105-lactic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La prediccion tiene un puntaje alto, pero no cuenta con ensayos clinicos ni literatura que evalue el acido lactico como terapia, y no existe un vinculo mecanistico plausible con una malformacion vascular estructural. Ademas, el unico registro sanitario en Colombia esta cancelado y corresponde a una combinacion distinta." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lactic_acid-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de accion (por ejemplo, desde DrugBank)
 - Prospecto con advertencias y contraindicaciones (INVIMA)
 - Aclarar la discrepancia entre el farmaco (acido lactico) y el producto registrado (acetaminofen + naproxeno)
 - Evidencia preclinica o mecanistica que sustente un papel del acido lactico en la indicacion predicha
 - Evaluar si alguna de las otras predicciones (por ejemplo, ojo seco) tiene una base biologica mas plausible, con revision previa de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ademas, el unico registro sanitario en Colombia esta cancelado y corresponde a una combinacion distinta" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

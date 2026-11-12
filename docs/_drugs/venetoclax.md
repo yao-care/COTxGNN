@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Venetoclax: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto apr…"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
@@ -146,6 +146,25 @@ En Colombia, venetoclax está comercializado y tiene 1 registro vigente de 1 en 
 - Aclarar la situación regulatoria: el texto de indicación no detalla el uso aprobado.
 - Reorientar el análisis hacia candidatos con evidencia clínica específica, como linfoma folicular (L2) o leucemia mieloide crónica BCR-ABL1 positiva (L2). La leucemia mieloide (L1) ya es un uso clínico establecido.
 - Diseñar un plan de monitoreo para síndrome de lisis tumoral, citopenias e interacciones con inhibidores de CYP3A.
+
+<!-- review:begin co-lic-20261105-venetoclax-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: el registro está cancelado y el texto de indicación no detalla el uso aprobado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-venetoclax-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el registro está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "TREPROSTINIL"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil: nueva indicación predicha, Pulmonary arteriovenous malformation (disease) (nivel de evidencia L5). Indicación original: TREPROSTINILO"
@@ -79,6 +79,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se muestran las publicaciones más relevantes (prioridad a estudios de cohorte sobre revisiones y casos).
 
+<!-- review:begin co-lic-20261105-treprostinil-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Ferrer Internacional S.A. y están cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-treprostinil-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [29436381](https://pubmed.ncbi.nlm.nih.gov/29436381/) | 2018 | Cohorte | Heart | Evalúa la eficacia y seguridad de treprostinil subcutáneo a 12 meses en adultos con HAP asociada a cardiopatía congénita |
@@ -118,12 +124,39 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Justificación:**
 La evidencia es de nivel L3, basada en estudios observacionales, revisiones y reportes de caso, sin ensayos clínicos registrados para este subgrupo. Además, faltan los datos de seguridad del prospecto, lo que impide avanzar a la evaluación de seguridad.
 
+<!-- review:begin co-lic-20261105-treprostinil-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros sanitarios vigentes en Colombia y faltan los datos de seguridad del prospecto, lo que impide avanzar a la evaluación de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-treprostinil-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la evidencia de los ensayos pivotales de treprostinil subcutáneo en HAP del Grupo 1, que incluyeron pacientes con cardiopatía congénita.
 - Evaluar el riesgo de agravar el cortocircuito en pacientes con cardiopatía congénita.
 - Definir la compatibilidad de vías de administración (inhalada, subcutánea, intravenosa) con la población objetivo.
+
+<!-- review:begin co-lic-20261105-treprostinil-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: ambos registros están cancelados, por lo que se requeriría una nueva solicitud o reactivación. / Definir la compatibilidad de vías de administración (inhalada, subcutánea, intravenosa) con la población objetivo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-treprostinil-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Ferrer Internacional S.A. y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados, por lo que se requeriría una nueva solicitud o reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: LISINOPRIL"
@@ -100,6 +100,12 @@ Actualmente no hay literatura relacionada disponible para infarto de miocardio p
 
 Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S.
 
+<!-- review:begin co-lic-20261105-lisinopril-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S. No hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lisinopril-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -121,6 +127,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 La predicción para infarto de miocardio posterolateral es solo del modelo (nivel L5), sin ensayos ni literatura específica. Además, faltan datos del prospecto y del mecanismo de acción.
 
+<!-- review:begin co-lic-20261105-lisinopril-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto no tiene registros vigentes en Colombia y faltan datos del prospecto y del mecanismo de acción." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lisinopril-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual es un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -128,6 +140,20 @@ La predicción para infarto de miocardio posterolateral es solo del modelo (nive
 - Revisar la evidencia clínica general de los IECA en infarto de miocardio y evaluar si la subclasificación (posterolateral) aporta algo distinto.
 - Considerar priorizar el cor pulmonale crónico, que tiene la mayor evidencia entre las candidatas (L3), verificando el diseño de los estudios disponibles.
 - Verificar la situación de comercialización: el medicamento está comercializado y cuenta con 2 licencias vigentes de 2; un reposicionamiento debería evaluarse en el marco de los registros existentes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el producto no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

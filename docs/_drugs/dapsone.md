@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 195
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dapsone: nueva indicación predicha, Neumocistosis (nivel de evidencia L1). Indicación original: DAPSONA"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **1**
 La dapsona es un fármaco de la clase de las sulfonas; la indicación registrada solo figura como "DAPSONA", sin detalle clínico.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis** (neumonía por *Pneumocystis*), con **10 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 Cabe señalar que la dapsona ya está establecida en guías clínicas como alternativa para la profilaxis y el tratamiento de esta infección, por lo que más que un reposicionamiento novedoso se trata de un uso respaldado por la práctica.
+
+<!-- review:begin co-lic-20261105-dapsone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La dapsona es un fármaco de la clase de las sulfonas, con registros sanitarios en Colombia que hoy están cancelados; la indicación registrada solo figura como "DAPSONA", sin detalle clínico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dapsone-1 -->
 
 ---
 
@@ -133,6 +139,26 @@ Hay varios ensayos de fase 3 completados (NCT00000802, NCT00000991, NCT00001028,
 - Obtener el prospecto vigente (por ejemplo, de INVIMA) para confirmar advertencias y contraindicaciones oficiales.
 - Completar los datos detallados del mecanismo de acción (por ejemplo, desde DrugBank).
 - Definir el papel de la dapsona frente a TMP-SMX (tratamiento de elección) como alternativa en pacientes intolerantes.
+
+<!-- review:begin co-lic-20261105-dapsone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en Colombia. / Completar los datos detallados del mecanismo de acción (por ejemplo, desde DrugBank)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dapsone-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "con registros sanitarios en Colombia que hoy están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

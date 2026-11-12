@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 539
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Propofol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Propofol"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -115,6 +115,12 @@ La relación entre la indicación original (anestesia/sedación) y la nueva es d
   - Moderadas: morfina (incluida liposomal), opio, ondansetrón, granisetrón, dolasetrón, claritromicina, levofloxacino, cisaprida, famotidina, loperamida, bisacodilo, aceite de ricino, glicerina, lactitol, lactulosa, citrato de magnesio, hidróxido de magnesio y aceite mineral.
   - Leve: metronidazol.
 
+<!-- review:begin co-lic-20261105-propofol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros están cancelados, por lo que actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-propofol-1 -->
+
 ---
 
 ## Conclusión y Próximos Pasos
@@ -123,6 +129,12 @@ La relación entre la indicación original (anestesia/sedación) y la nueva es d
 
 **Justificación:**
 Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (adultos y pediátrica) que respaldan la dirección, además de una base mecanística plausible. Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea.
+
+<!-- review:begin co-lic-20261105-propofol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea y los dos registros colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-propofol-2 -->
 
 **Para avanzar se necesita:**
 - Verificar el nivel L1 con los resultados publicados de los ensayos (NCT01604785 y PMID 33070469); si no se confirma, bajar a L2.
@@ -141,6 +153,19 @@ Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (
 | Angina de Prinzmetal | 0.9923 | L4 | Hold | Solo reportes de caso de espasmo coronario durante anestesia; señal de seguridad, no terapéutica |
 | Síndrome nefrogénico de antidiuresis inapropiada | 0.9920 | L5 | Hold | Sin ensayos ni literatura; no se identifica vía mecanística plausible |
 | Síndrome de Tourette | 0.9903 | L4 | Hold | Solo estudios de sedación durante cirugía de estimulación cerebral profunda; no evalúan eficacia terapéutica |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros están cancelados, por lo que actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y los dos registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

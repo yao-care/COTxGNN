@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L5). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
 monitor_inn: "trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -66,6 +66,12 @@ El bloqueo de D2 es el mecanismo compartido por los antipsicóticos que se usan 
 
 Sin embargo, esta predicción no es una señal genuina de reposicionamiento: la trifluoperazina ya es un antipsicótico y la nueva indicación está muy cerca de su uso psiquiátrico existente.
 
+<!-- review:begin co-lic-20261031-trifluoperazine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Sin embargo, esta predicción no es una señal genuina de reposicionamiento: la trifluoperazina ya es un antipsicótico y la nueva indicación está muy cerca de su uso psiquiátrico existente. No hay evidencia específica del fármaco a nivel de ensayos, y el estado de mercado (solo registros cancelados) limita el valor práctico del desarrollo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-trifluoperazine-1 -->
+
 ---
 
 ## Evidencia de Ensayos Clínicos
@@ -102,6 +108,12 @@ Se listan las publicaciones más relevantes con resumen disponible (prioridad: r
 
 Ambos registros pertenecen a Laboratorios Bagó de Colombia S.A.S.
 
+<!-- review:begin co-lic-20261105-trifluoperazine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Laboratorios Bagó de Colombia S.A.S. y están cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trifluoperazine-2 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -126,6 +138,27 @@ La predicción es plausible por el mecanismo de clase (antagonismo D2), pero no 
 - Revisión de ensayos o metaanálisis que comparen trifluoperazina con otros antipsicóticos en manía aguda
 - Evaluación de la viabilidad comercial
 - Plan de seguridad que considere el perfil de riesgo (discinesia tardía, síndrome neuroléptico maligno, alteraciones hematológicas) y las interacciones de nivel mayor
+
+<!-- review:begin co-lic-20261105-trifluoperazine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la viabilidad comercial dado que no hay registros vigentes en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trifluoperazine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "No hay evidencia específica del fármaco a nivel de ensayos, y el estado de mercado (solo registros cancelados) limita el valor práctico del " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

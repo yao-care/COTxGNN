@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 433
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
@@ -113,6 +113,12 @@ Para advertencias y contraindicaciones detalladas, consultar el prospecto.
 **Justificación:**
 No hay ensayos clínicos ni estudios de eficacia en artritis reumatoide; la literatura se limita a seguridad y patrones de uso. Además, el riesgo de agranulocitosis con metotrexato es relevante.
 
+<!-- review:begin co-lic-20261105-metamizole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y el riesgo de agranulocitosis con metotrexato es relevante." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-metamizole-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y evidencia de un efecto más allá del alivio sintomático
 - Estudios clínicos específicos en artritis reumatoide (por ejemplo, como analgésico adyuvante)
@@ -120,7 +126,27 @@ No hay ensayos clínicos ni estudios de eficacia en artritis reumatoide; la lite
 - Evaluación del perfil de seguridad hematológica en pacientes tratados con metotrexato
 - Aclarar la situación regulatoria
 
+<!-- review:begin co-lic-20261105-metamizole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que el registro está cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-metamizole-2 -->
+
 **Nota:** Entre las demás predicciones, la migraña (L3, estudio comparativo con clonixinato de lisina y revisiones) tiene mayor respaldo clínico que la artritis reumatoide y podría ser una línea de investigación más prometedora.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 39
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -66,6 +66,12 @@ El paquete de evidencia para Alopurinol presenta tres brechas estructurales que 
 
 2. **Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros.
 
+<!-- review:begin co-lic-20261105-alopurinol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "**Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros. Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectivamente no cuenta con registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-alopurinol-1 -->
+
 3. **Array de predicciones vacío:** `predicted_indications` está vacío, lo que indica que el pipeline TxGNN no emitió candidatos en este ciclo para este fármaco.
 
 ---
@@ -109,6 +115,19 @@ El pipeline no pudo completar el análisis de reposicionamiento porque faltan lo
 - **[DG002 – Alta]** Consultar DrugBank API con el INN "Alopurinol" para recuperar MOA, categorías farmacológicas y perfil de toxicidad.
 - **Verificación regulatoria manual:** Buscar en el portal de INVIMA bajo variantes ortográficas y nombres comerciales conocidos (ej. Zyloric, Lopurin) para confirmar estado de comercialización real en Colombia.
 - **Relanzar pipeline TxGNN** una vez resueltas las brechas anteriores, para obtener `predicted_indications` con puntaje y evidencia asociada.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectiv" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

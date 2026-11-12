@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Leflunomida"
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -80,6 +80,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-leflunomide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Todos los registros sanitarios de leflunomida en Colombia están cancelados; actualmente no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-leflunomide-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -115,12 +121,39 @@ No se dispone de las advertencias y contraindicaciones del prospecto del INVIMA;
 **Justificación:**
 La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico validado. Además, la teratogenicidad conocida de la leflunomida y la relación de DHODH con malformaciones de las extremidades argumentan en contra de un beneficio terapéutico.
 
+<!-- review:begin co-lic-20261105-leflunomide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, la teratogenicidad conocida de la leflunomida y la relación de DHODH con malformaciones de las extremidades argumentan en contra de un beneficio terapéutico. Los registros sanitarios en Colombia están todos cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-leflunomide-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Prospecto del INVIMA con advertencias y contraindicaciones para completar la evaluación de seguridad.
 - Evidencia biológica o preclínica que justifique un vínculo entre la inhibición de DHODH y el síndrome de braquidactilia-sindactilia.
 - Revisión de la plausibilidad de la predicción por expertos, dada la señal de teratogenicidad.
 - Aclaración del estado regulatorio.
+
+<!-- review:begin co-lic-20261105-leflunomide-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclaración del estado regulatorio, ya que no hay productos vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-leflunomide-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Todos los registros sanitarios de leflunomida en Colombia están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Los registros sanitarios en Colombia están todos cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que no hay productos vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

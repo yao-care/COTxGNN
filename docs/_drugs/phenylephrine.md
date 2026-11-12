@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
@@ -40,6 +40,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **2**
 
 La fenilefrina se comercializó en Colombia como componente de combinaciones para síntomas de resfriado (paracetamol y fenilefrina).
 El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad nasal**, con **0 ensayos clínicos** y **5 publicaciones** que actualmente respaldan esta dirección, todas de calidad limitada.
+
+<!-- review:begin co-lic-20261105-phenylephrine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La fenilefrina se comercializó en Colombia como componente de combinaciones para síntomas de resfriado (paracetamol y fenilefrina), con registros hoy cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-phenylephrine-1 -->
 
 ---
 
@@ -111,6 +117,12 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción coincide con la farmacología conocida de la fenilefrina como descongestionante nasal, por lo que es una extensión de un uso existente. Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado.
 
+<!-- review:begin co-lic-20261105-phenylephrine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-phenylephrine-2 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante)
 - Obtener datos del mecanismo de acción desde DrugBank
@@ -118,11 +130,32 @@ La predicción coincide con la farmacología conocida de la fenilefrina como des
 - Definir vía de administración (tópica nasal) y plan de monitoreo de presión arterial y de congestión de rebote
 - Verificar la situación regulatoria actual en Colombia
 
+<!-- review:begin co-lic-20261105-phenylephrine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria actual en Colombia, dado que no hay registros vigentes" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-phenylephrine-3 -->
+
 ---
 
 ### Nota sobre otras predicciones
 
 Las otras dos predicciones tienen evidencia más débil: **laringofaringitis aguda** (0.9997, L5, sin ensayos ni literatura; recomendación Hold) y **cefalea autonómica trigeminal** (0.9930, L4, solo estudios pupilométricos donde la fenilefrina se usa como sonda diagnóstica, sin evidencia terapéutica; pregunta de investigación).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "con registros hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y los registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 368
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ketorolac: nueva indicación predicha, Trastorno de Cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Ketorolaco"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **3**
 Ketorolaco es un antiinflamatorio no esteroideo (AINE) registrado en Colombia en solución oftálmica, inyectable y tableta sublingual.
 El modelo TxGNN predice que podría ser efectivo para **Trastorno de Cefalea (headache disorder)**,
 con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan esta dirección.
+
+<!-- review:begin co-lic-20261105-ketorolac-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ketorolaco es un antiinflamatorio no esteroideo (AINE) registrado en Colombia en solución oftálmica, inyectable y tableta sublingual, cuyos registros sanitarios figuran hoy como cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketorolac-1 -->
 
 ## Resumen Rápido
 
@@ -80,6 +86,12 @@ Se listan los ensayos más relevantes de los 17 identificados (prioridad a los q
 | [NCT03081416](https://clinicaltrials.gov/study/NCT03081416) | Fase 3 | Completado | 80 | Ketamina intranasal vs. tratamiento estándar en cefaleas primarias en urgencias |
 
 Otros ensayos identificados tienen poca relevancia directa (dispositivos de neuromodulación, fluidos IV, acupuntura) o fueron retirados sin participantes (NCT04353505, NCT01534806, NCT05983354).
+
+<!-- review:begin co-lic-20261105-ketorolac-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros sanitarios figuran como **cancelados**; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketorolac-2 -->
 
 ## Evidencia de Literatura
 
@@ -127,9 +139,30 @@ Para cefalea/migraña existen ensayos clínicos completados de Fase 3 y 4 que pr
 - Definir la ruta de administración y la forma farmacéutica adecuadas.
 - Establecer un plan de monitoreo de seguridad (función renal, riesgo gastrointestinal y cardiovascular, interacciones con litio y ácido acetilsalicílico) y criterios de precaución en pediatría.
 
+<!-- review:begin co-lic-20261105-ketorolac-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la ruta de administración y la forma farmacéutica adecuadas, y gestionar un registro sanitario, ya que todos los vigentes están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ketorolac-3 -->
+
 **Otras indicaciones predichas (menor prioridad):**
 - **Conjuntivitis por rosácea** (TxGNN 0.9940): sin ensayos ni literatura, nivel L5, decisión **Hold**. Solo existe una justificación plausible por la inhibición de COX en la inflamación de la superficie ocular.
 - **Cefalea autonómica trigeminal** (TxGNN 0.9939): nivel L4, **pregunta de investigación**. Solo hay un ensayo de Fase 1 retirado sin participantes y literatura antigua e indirecta.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran hoy como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Los cuatro registros sanitarios figuran como **cancelados**; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y gestionar un registro sanitario, ya que todos los vigentes están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

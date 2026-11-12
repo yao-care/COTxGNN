@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis en pacientes con alto riesgo de fractura"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -76,6 +76,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-teriparatide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-teriparatide-2 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -102,11 +108,38 @@ Las advertencias y contraindicaciones del prospecto de INVIMA no están disponib
 **Justificación:**
 La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible.
 
+<!-- review:begin co-lic-20261105-teriparatide-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos, no hay literatura y no existe un vínculo mecanístico plausible. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-teriparatide-3 -->
+
 **Para avanzar se necesita:**
 - Una hipótesis mecanística que justifique el papel de PTH1R/PTH2R en la mucosa duodenal, y estudios preclínicos que la respalden.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Datos detallados del mecanismo de acción (MOA).
 - Priorizar otras predicciones del mismo fármaco con mejor sustento. Por ejemplo, la osteoporosis asociada al embarazo y la lactancia tiene literatura observacional (nivel L3) y una relación biológica coherente con el mecanismo de la teriparatida. Esta evidencia debería verificarse en los textos completos.
+
+<!-- review:begin co-lic-20261031-teriparatide-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Confirmar la situación regulatoria (registro cancelado) y la disponibilidad de producto en Colombia. / Priorizar otras predicciones del mismo fármaco con mejor sustento." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-teriparatide-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Confirmar la situación regulatoria (registro cancelado) y la disponibilidad de producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

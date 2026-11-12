@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
 description: "Meclizine: nueva indicación predicha, Urticaria alérgica (allergic urticaria) (nivel de evidencia L5). Indicación original: MECLOZINA"
@@ -41,6 +41,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 Meclizina es un antihistamínico H1 de primera generación con actividad anticolinérgica; en Colombia sus registros sanitarios solo indican "MECLOZINA" como indicación aprobada.
 El modelo TxGNN predice que podría ser efectivo para **urticaria alérgica**, con un puntaje alto (0.9967).
 Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que se trata solo de una predicción computacional.
+
+<!-- review:begin co-lic-20261105-meclizine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Meclizina es un antihistamínico H1 de primera generación con actividad anticolinérgica; en Colombia sus registros sanitarios solo indican "MECLOZINA" como indicación aprobada, y actualmente están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-meclizine-1 -->
 
 ---
 
@@ -110,6 +116,12 @@ Actualmente no hay literatura relacionada disponible.
 **Justificación:**
 No existen ensayos clínicos ni literatura para meclizina en urticaria alérgica; el respaldo se limita a un puntaje de predicción y a una inferencia por clase farmacológica. Además, las alternativas de segunda generación son las preferidas por las guías.
 
+<!-- review:begin co-lic-20261105-meclizine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros vigentes en Colombia y las alternativas de segunda generación son las preferidas por las guías." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-meclizine-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA para conocer advertencias y contraindicaciones oficiales
 - Completar los datos del mecanismo de acción (consulta a DrugBank)
@@ -117,6 +129,27 @@ No existen ensayos clínicos ni literatura para meclizina en urticaria alérgica
 - Comparar con los antihistamínicos de segunda generación para definir el valor incremental
 - Evaluar la viabilidad regulatoria
 - Evaluar compatibilidad de vías de administración y similitud con la indicación original (actualmente pendientes)
+
+<!-- review:begin co-lic-20261105-meclizine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que ambos registros están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-meclizine-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y actualmente están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

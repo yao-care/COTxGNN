@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fluorescein: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Fluoresceína (uso diagnóstico)"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -103,11 +103,30 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Justificación:**
 La predicción para Angina de Prinzmetal se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible.
 
+<!-- review:begin co-lic-20261105-fluorescein-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para Angina de Prinzmetal se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Además, el producto no tiene registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fluorescein-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a DrugBank)
 - Advertencias y contraindicaciones del prospecto de INVIMA, necesarias para cualquier evaluación de seguridad
 - Un fundamento farmacológico o preclínico que justifique un uso terapéutico de la fluoresceína, hoy inexistente
 - Evaluar la compatibilidad de vía de administración (actualmente solo existe solución inyectable) y la situación regulatoria, dado que el medicamento está comercializado en este país con 2 licencias válidas de 2
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el producto no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

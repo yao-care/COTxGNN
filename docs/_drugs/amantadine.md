@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 44
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Amantadine: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: AMANTADINA"
 monitor_inn: "amantadine"
 predicted_indications: ["Rasmussen subacute encephalitis", "transaldolase deficiency", "myelitis", "PLA2G6-associated neurodegeneration"]
@@ -106,11 +106,23 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el grafo de conocimiento señala la epilepsia como posible contraindicación.
 
+<!-- review:begin co-lic-20261105-amantadine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el único registro sanitario está cancelado y el grafo de conocimiento señala la epilepsia como posible contraindicación." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-amantadine-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA (advertencias y contraindicaciones) y completar los datos del mecanismo de acción en DrugBank.
 - Revisión bibliográfica específica sobre amantadina y encefalitis de Rasmussen, así como estudios preclínicos que respalden el vínculo con la modulación glutamatérgica.
 - Evaluar el riesgo de la amantadina en pacientes con epilepsia.
 - Confirmar la situación regulatoria.
+
+<!-- review:begin co-lic-20261105-amantadine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-amantadine-2 -->
 
 ---
 
@@ -123,6 +135,19 @@ Las demás predicciones del modelo tienen también puntajes altos pero evidencia
 | Deficiencia de transaldolasa | 0.9927 | L5 | Hold | Sin evidencia ni vínculo mecanístico identificable |
 | Mielitis | 0.9924 | L4 | Pregunta de investigación | 8 publicaciones, todas sobre síndrome post-polio y fatiga (evidencia indirecta). Incluye un ECA doble ciego de 1995 sobre fatiga (PMID 7611638); las revisiones y guías no respaldan un beneficio claro |
 | Neurodegeneración asociada a PLA2G6 | 0.9923 | L4 | Pregunta de investigación | Una sola publicación (PMID 31366412), sobre otra enfermedad (PKAN); evidencia indirecta y solo sintomática |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "único registro sanitario está cancelado y el" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

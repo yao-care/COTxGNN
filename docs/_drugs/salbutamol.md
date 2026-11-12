@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: SALBUTAMOL"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -104,6 +104,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción de TxGNN para conjuntivitis papilar es de puntaje muy alto, pero no tiene ningún respaldo clínico ni bibliográfico (nivel L5). Además, el perfil de seguridad del grafo incluye contraindicaciones oculares relevantes.
 
+<!-- review:begin co-lic-20261105-salbutamol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y el perfil de seguridad del grafo incluye contraindicaciones oculares relevantes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-salbutamol-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (MOA) y revisión de la literatura preclínica sobre agonistas β2 en la conjuntiva.
 - Evaluación de la compatibilidad de vía de administración (formulación oftálmica tópica) y de la similitud con la indicación original.
@@ -116,6 +122,19 @@ La predicción de TxGNN para conjuntivitis papilar es de puntaje muy alto, pero 
 ### Nota sobre otras indicaciones predichas
 
 Entre las demás predicciones, la **enfermedad pulmonar obstructiva** muestra el mayor respaldo (nivel L1, incluido un ensayo de Fase 3 con 1118 participantes), pero coincide con el uso ya establecido del fármaco, por lo que es una confirmación y no un reposicionamiento. La **anafilaxia** (L4) cuenta con un ensayo de Fase 3 terminado prematuramente con solo 24 participantes, sin conclusiones fiables de eficacia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

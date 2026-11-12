@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Dienogest y etinilestradiol"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -103,12 +103,38 @@ Consultar el prospecto para la información completa de advertencias y contraind
 **Justificación:**
 La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos clínicos ni literatura, y la indicación predicha es un hallazgo de laboratorio sin dirección terapéutica definida.
 
+<!-- review:begin co-lic-20261105-ethinylestradiol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya solo en un puntaje alto del modelo (nivel L5), sin ensayos clínicos ni literatura, y la indicación predicha es un hallazgo de laboratorio sin dirección terapéutica definida. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ethinylestradiol-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el tamizaje de seguridad
 - Completar los datos del mecanismo de acción desde DrugBank
 - Definir si "zinc plasmático elevado" es un objetivo terapéutico válido y en qué dirección actuaría el fármaco
 - Revisión de literatura sobre estrógenos y homeostasis del zinc para evaluar plausibilidad biológica
 - Evaluar compatibilidad de vías de administración y similitud con la indicación original
+
+<!-- review:begin co-lic-20261031-ethinylestradiol-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar compatibilidad de vías de administración y similitud con la indicación original / Considerar la situación regulatoria (registro cancelado) antes de cualquier desarrollo local" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-ethinylestradiol-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Considerar la situación regulatoria (registro cancelado) antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

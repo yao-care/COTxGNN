@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 127
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Calcipotriol: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L3). Indicación original: Combinaciones de calcipotriol"
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
@@ -100,13 +100,39 @@ No se dispuso de advertencias ni contraindicaciones del prospecto de INVIMA; se 
 **Justificación:**
 Existe plausibilidad mecanística y estudios pequeños favorables (L3), pero no hay ensayos clínicos registrados ni estudios controlados. Además, faltan datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-calcipotriol-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros sanitarios vigentes en Colombia y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-calcipotriol-1 -->
+
 **Para avanzar se necesita:**
 - Ensayos clínicos controlados y aleatorizados de calcipotriol tópico en queratosis seborreica.
 - Obtención y análisis del prospecto de INVIMA (advertencias y contraindicaciones).
 - Datos detallados del mecanismo de acción del fármaco.
 - Revisión de las contraindicaciones del grafo de conocimiento (hipercalcemia, trastornos del metabolismo del calcio) y de las interacciones farmacológicas con relevancia clínica.
 
+<!-- review:begin co-lic-20261105-calcipotriol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la situación regulatoria: los dos registros están cancelados, por lo que se requeriría un nuevo registro o una vía de acceso alternativa. / Revisión de las contraindicaciones del grafo de conocimiento (hipercalcemia, trastornos del metabolismo del calcio) y de las interacciones farmacológicas con relevancia clínica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-calcipotriol-2 -->
+
 **Otras indicaciones predichas (todas con decisión Hold):** queratosis folicular invertida vulvar, vulvovaginitis, vulvitis (evidencia indirecta en psoriasis vulvar), neoplasia vulvar, úlcera vulvar, neoplasia escamosa vulvar, vaginitis atrófica posmenopáusica, enfermedad ósea de Paget y enfermedad fibroquística de mama. Todas tienen evidencia L4-L5, sin ensayos clínicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Evaluación de la situación regulatoria: los dos registros están cancelados, por lo que se requeriría un nuevo registro o una vía de acceso a" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

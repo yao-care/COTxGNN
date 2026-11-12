@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 599
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SUNITINIB"
@@ -128,11 +128,23 @@ Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
 **Justificación:**
 Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen liposarcoma, pero con cohortes pequeñas, respuestas modestas y sin confirmación en Fase 3. Además, faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad.
 
+<!-- review:begin co-lic-20261105-sunitinib-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los cuatro registros colombianos están cancelados y faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 19); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sunitinib-2 -->
+
 **Para avanzar se necesita:**
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Revisar los resultados por subtipo de liposarcoma de los ensayos NCT00474994 y NCT00400569.
 - Valorar un ensayo específico en liposarcoma, comparando con las opciones actuales (por ejemplo, trabectedina).
 - Plan de monitoreo de seguridad cardíaca, hepática y tiroidea, y revisión de interacciones relevantes (por ejemplo, fármacos que prolongan el intervalo QT).
+
+<!-- review:begin co-lic-20261031-sunitinib-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados). / Confirmar los datos del mecanismo de acción en DrugBank." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 20 registros sanitarios (vigentes: 19); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-sunitinib-1 -->
 
 ---
 
@@ -141,6 +153,20 @@ Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen
 - **Carcinoma renal** (nivel L1): es una indicación ya establecida para sunitinib, por lo que es una confirmación y no un reposicionamiento propiamente dicho.
 - **Dermatofibrosarcoma protuberans** (nivel L3): fundamento mecanístico sólido (fusión COL1A1-PDGFB) tras resistencia a imatinib, pero sustentado solo por series retrospectivas y reportes de caso.
 - **Liposarcoma mixoide ovárico, carcinoma renal asociado a neuroblastoma, angiolipoma y fibrosarcoma cardíaco** (niveles L4-L5): solo predicción computacional o evidencia indirecta; se recomienda *Hold*.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "los cuatro registros colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

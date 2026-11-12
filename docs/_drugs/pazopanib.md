@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -146,6 +146,25 @@ La evidencia disponible es retrospectiva y de brazo único (nivel L3), sin ensay
 - Verificar la fase y los resultados del estudio de brazo único (PMID 28546525) y revisar los estudios retrospectivos en detalle.
 - Evaluar la seguridad cardiovascular, hepática y las interacciones con inhibidores de la bomba de protones y antagonistas H2.
 - Para liposarcoma: definir subtipos elegibles y un plan de monitoreo antes de cualquier avance.
+
+<!-- review:begin co-lic-20261105-pazopanib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que gestionar un nuevo registro o una vía alternativa. / Evaluar la seguridad cardiovascular, hepática y las interacciones con inhibidores de la bomba de protones y antagonistas H2." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pazopanib-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que gestionar un nuevo registro o una vía alterna" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

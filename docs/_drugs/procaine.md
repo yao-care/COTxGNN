@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L4). Indicación original: Procaína"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -113,11 +113,37 @@ No se dispone de las advertencias y contraindicaciones del prospecto; se recomie
 **Justificación:**
 La literatura sobre metahemoglobinemia indica que la procaína es una causa de la condición y no un tratamiento, por lo que el puntaje del modelo no se traduce en beneficio terapéutico. Además, no existen ensayos clínicos, faltan datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-procaine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-procaine-1 -->
+
 **Para avanzar se necesita:**
 - Descartar formalmente esta predicción para metahemoglobinemia, anafilaxia y deficiencia de metahemoglobina reductasa, por riesgo de empeorar la condición.
 - Si se desea explorar la procaína, redirigir el análisis hacia indicaciones con plausibilidad mecanística (fibromialgia/dolor miofascial y tendinopatía). Para ello se requieren ensayos controlados modernos; el estudio de 2022 sobre terapia neural en tendinopatía del supraespinoso (PMID 35480510) es un punto de partida.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones).
 - Completar los datos del mecanismo de acción desde DrugBank.
+
+<!-- review:begin co-lic-20261105-procaine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Completar los datos del mecanismo de acción desde DrugBank. / Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o una vía alternativa." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-procaine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o una vía a" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 409
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Lopinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Lopinavir y ritonavir"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -111,11 +111,37 @@ No hay advertencias ni contraindicaciones de prospecto en los datos compilados. 
 **Justificación:**
 La evidencia se limita a tres estudios preclínicos en primates no humanos, sin ensayos clínicos. Además, el SIV es una enfermedad de modelo animal sin ruta de desarrollo clínico en humanos.
 
+<!-- review:begin co-lic-20261105-lopinavir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el SIV es una enfermedad de modelo animal sin ruta de desarrollo clínico en humanos, y el fármaco no tiene registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lopinavir-1 -->
+
 **Para avanzar se necesita:**
 - Definir si existe un objetivo de reposicionamiento relevante en humanos; el valor del SIV es como modelo traslacional del VIH, indicación ya aprobada.
 - Datos detallados del mecanismo de acción.
 - Advertencias y contraindicaciones del prospecto de INVIMA (actualmente un vacío bloqueante para el tamizaje de seguridad).
 - Revisar si las predicciones con puntajes casi idénticos (síndrome de inmunodeficiencia adquirida felino y trastorno del neurodesarrollo) son artefactos del modelo; la segunda carece de vínculo mecanístico identificable.
+
+<!-- review:begin co-lic-20261105-lopinavir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Revisar si las predicciones con puntajes casi idénticos (síndrome de inmunodeficiencia adquirida felino y trastorno del neurodesarrollo) son artefactos del modelo; la segunda carece de vínculo mecanístico identificable. / Aclarar la situación regulatoria: ambos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-lopinavir-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el fármaco no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

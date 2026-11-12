@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: Aminoácidos"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -116,12 +116,38 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 No existen ensayos clínicos y la literatura no evalúa el ácido glutámico como tratamiento de la osteoporosis posmenopáusica; el vínculo es indirecto (metabolismo de la vitamina K). Además, las contraindicaciones del grafo de conocimiento (renal, cardiovascular, metabolismo del calcio) plantean preocupaciones de seguridad. Las otras indicaciones predichas (osteoporosis asociada al embarazo, glaucoma hereditario primario y gastroparesia) tienen aún menos respaldo (nivel L5), y en el glaucoma la excitotoxicidad por glutamato argumenta en contra.
 
+<!-- review:begin co-lic-20261105-glutamic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y las contraindicaciones del grafo de conocimiento (renal, cardiovascular, metabolismo del calcio) plantean preocupaciones de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glutamic_acid-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del ácido glutámico
 - Estudios preclínicos específicos sobre metabolismo óseo con ácido glutámico (no vitamina K ni poliglutamato)
 - Obtención y análisis del prospecto oficial en INVIMA para advertencias y contraindicaciones
 - Verificación de las contraindicaciones del grafo de conocimiento frente a fuentes clínicas
 - Evaluación de la viabilidad regulatoria y de formulación
+
+<!-- review:begin co-lic-20261105-glutamic_acid-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la viabilidad regulatoria y de formulación, dado que no hay registros vigentes en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 13 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-glutamic_acid-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

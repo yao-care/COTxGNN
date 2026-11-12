@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: RISPERIDONA"
@@ -128,12 +128,38 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 Dos ensayos de Fase 3 completados (NCT00095134, n=630; NCT00044681, n=258) y varios metaanálisis respaldan la risperidona como potenciación en la depresión resistente al tratamiento, lo que corresponde a un nivel de evidencia L1.
 
+<!-- review:begin co-lic-20261105-risperidone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Dos ensayos de Fase 3 completados (NCT00095134, n=630; NCT00044681, n=258) y varios metaanálisis respaldan la risperidona como potenciación en la depresión resistente al tratamiento, lo que corresponde a un nivel de evidencia L1. Sin embargo, el estado de mercado en Colombia es "solo cancelados" y el perfil de seguridad exige límites claros de uso." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-risperidone-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones oficiales), ya que este vacío impide completar el tamizaje de seguridad.
 - Obtener datos detallados del mecanismo de acción desde DrugBank.
 - Limitar el uso adyuvante a casos resistentes al tratamiento y definir un plan de monitoreo de peso, glucosa, lípidos, prolactina y síntomas extrapiramidales.
 - Valorar con cautela las contraindicaciones del grafo de conocimiento (cardiovasculares, metabólicas, epilepsia, discrasias sanguíneas) en la selección de pacientes.
 - Las demás predicciones carecen de respaldo suficiente: rangos 1 a 3 (nivel L5, recomendación Hold), con ausencia de ensayos y literatura; Phelan-McDermid (L4) y tricotilomanía (L4, solo reportes de casos) se mantienen como preguntas de investigación.
+
+<!-- review:begin co-lic-20261105-risperidone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Confirmar la situación regulatoria: ambos registros sanitarios están cancelados, por lo que sería necesario un registro vigente para esta indicación. / Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones oficiales), ya que este vacío impide completar el tamizaje de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-risperidone-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Sin embargo, el estado de mercado en Colombia es "solo cancelados" y el perfil de seguridad exige límites claros de uso" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: ambos registros sanitarios están cancelados, por lo que sería necesario un registro vigente para esta in" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

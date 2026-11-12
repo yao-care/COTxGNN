@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
@@ -114,6 +114,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto ofici
 **Justificación:**
 La predicción de TxGNN es muy alta (0.9997), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales.
 
+<!-- review:begin co-lic-20261105-ampicillin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción de TxGNN es muy alta (0.9997), pero no hay ensayos clínicos y la literatura es indirecta (epiglotitis, abscesos y profilaxis), mientras que la mayoría de las laringitis son virales. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ampicillin-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
 - Advertencias y contraindicaciones del prospecto en INVIMA
@@ -137,6 +143,18 @@ Todas con recomendación **Hold**:
 | Artritis bacteriana | 0.9911 | L3 | Mecanismo coherente, pero sin ensayos y con resistencia en *S. aureus* |
 | Conjuntivitis | 0.9904 | L4 | Evidencia microbiológica; el estándar son agentes tópicos |
 | Pericoronitis | 0.9904 | L4 | Faltan datos específicos; el tratamiento principal es el desbridamiento local |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

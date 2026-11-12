@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -110,12 +110,38 @@ Para advertencias y contraindicaciones del prospecto, consultar el inserto aprob
 **Justificación:**
 La predicción se basa solo en el modelo computacional (L5), sin ensayos clínicos y sin literatura que evalúe cloroquina en esta indicación. Además, existen señales de toxicidad cardíaca y ocular relevantes en niños.
 
+<!-- review:begin co-lic-20261105-chloroquine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los registros en Colombia están cancelados y existen señales de toxicidad cardíaca y ocular relevantes en niños." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-chloroquine-1 -->
+
 **Para avanzar se necesita:**
 - Revisión de literatura dirigida a cloroquina/hidroxicloroquina en artritis idiopática juvenil (preferiblemente ensayos controlados).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
 - Evaluar la viabilidad regulatoria, comparar con la hidroxicloroquina, de perfil de seguridad más favorable.
 - Plan de seguridad pediátrica (monitoreo oftalmológico, cardíaco y hematológico).
+
+<!-- review:begin co-lic-20261105-chloroquine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-chloroquine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los registros en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

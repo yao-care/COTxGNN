@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -115,12 +115,38 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 **Justificación:**
 La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos registrados y la evidencia proviene de estudios antiguos, indirectos (tracoma, infección por clamidia) y de susceptibilidad microbiológica. Además, existen alternativas tópicas bien establecidas.
 
+<!-- review:begin co-lic-20261105-rifampicin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifampicin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que constituye un vacío bloqueante para el cribado de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Confirmar la indicación original aprobada, ya que los registros solo citan el nombre del principio activo.
 - Evaluar la rifampicina frente a las terapias tópicas actuales mediante revisión sistemática o estudio clínico moderno.
 - Considerar que otras indicaciones predichas con más evidencia (artritis reumatoide, nivel L3, o hidradenitis supurativa dentro de acné, nivel L4) también requieren estudios modernos antes de cualquier avance.
+
+<!-- review:begin co-lic-20261105-rifampicin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no existe actualmente en Colombia; solo hay cápsulas orales, ambas canceladas). / Evaluar la rifampicina frente a las terapias tópicas actuales mediante revisión sistemática o estudio clínico moderno." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rifampicin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

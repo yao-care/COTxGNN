@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 238
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Trastorno de accidente cerebrovascular (stroke disorder) (nivel de evidencia L4). Indicación original: DRONEDARONA"
@@ -105,6 +105,18 @@ El puntaje del modelo es alto, pero ningún estudio evalúa la dronedarona direc
 - Datos del mecanismo de acción detallado y confirmación del efecto antitrombótico
 - Revisión del prospecto del INVIMA (advertencias y contraindicaciones)
 - Evaluación de seguridad en poblaciones de riesgo (fibrilación auricular permanente, insuficiencia cardíaca, uso con anticoagulantes orales directos)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclaración de la situación regulatoria local (registro cancelado)" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

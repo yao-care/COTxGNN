@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 291
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fludarabine: nueva indicación predicha, Mieloma de células plasmáticas (plasma cell myeloma) (nivel de evidencia L1). Indicación original: No especificada en el registro sanitario (el texto solo indi…"
 monitor_inn: "fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **10**
 ## Resumen en Una Frase
 
 Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad. El modelo TxGNN predice que podría ser efectivo para **mieloma de células plasmáticas**, con **27 ensayos clínicos** y **20 publicaciones** compilados para esta predicción. Casi toda la evidencia corresponde a su uso como parte del acondicionamiento previo a trasplantes o de la linfodepleción antes de terapia CAR-T, y no como tratamiento antimieloma directo.
+
+<!-- review:begin co-lic-20261105-fludarabine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia, hoy cancelados; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fludarabine-1 -->
 
 ---
 
@@ -145,7 +151,27 @@ Existen ensayos de Fase 3 que incorporan fludarabina en la linfodepleción para 
 - Definir el papel específico de fludarabina (linfodepleción o acondicionamiento) y su dosificación, con vigilancia de toxicidad y función renal
 - Resultados de los ensayos de Fase 3 en curso (NCT06045806, NCT07764978)
 
+<!-- review:begin co-lic-20261105-fludarabine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vigente o una vía de importación / Definir el papel específico de fludarabina (linfodepleción o acondicionamiento) y su dosificación, con vigilancia de toxicidad y función renal" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fludarabine-2 -->
+
 **Nota sobre otras predicciones:** las demás indicaciones predichas con puntaje alto, como hipertiroidismo, nefropatía diabética y varios síndromes genéticos raros, no tienen un vínculo mecanístico plausible y quedan en espera (Hold). El síndrome mielodisplásico (L2) y el mieloma indolente (L1) muestran evidencia de acondicionamiento de trasplante y merecerían una evaluación independiente.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

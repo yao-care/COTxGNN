@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -77,6 +77,25 @@ El Evidence Pack para LEUCINA presenta brechas de datos bloqueantes: no se dispo
 - **Resolver DG002 (Alto):** Confirmar y extraer el `drugbank_id` — la consulta a DrugBank retornó 1 resultado (`result_count: 1`); se debe mapear el ID correcto y obtener el MOA
 - **Re-ejecutar pipeline TxGNN** con el `drugbank_id` validado para generar predicciones de indicaciones
 - **Verificar identidad del compuesto:** Confirmar si LEUCINA corresponde a L-Leucina (aminoácido esencial, DB00149 en DrugBank) u otro derivado o sal farmacéutica
+
+<!-- review:begin co-lic-20261105-leucina-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "**Verificar identidad del compuesto:** Confirmar si LEUCINA corresponde a L-Leucina (aminoácido esencial, DB00149 en DrugBank) u otro derivado o sal farmacéutica / **Revisar cobertura geográfica:** El farmaco no tiene registros sanitarios en Colombia; evaluar si existen antecedentes de uso como suplemento nutricional bajo otra categoría regulatoria (no medicamento)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-leucina-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "**Revisar cobertura geográfica:** El farmaco no tiene registros sanitarios en Colombia; evaluar si existen antecedentes de uso como suplemen" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

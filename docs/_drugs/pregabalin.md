@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: Pregabalina"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -112,6 +112,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 **Justificación:**
 Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, reportes de caso y un estudio preclínico) y no hay ensayos clínicos. Además, no se dispone de advertencias ni contraindicaciones del prospecto.
 
+<!-- review:begin co-lic-20261105-pregabalin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y no se dispone de advertencias ni contraindicaciones del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pregabalin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -119,6 +125,26 @@ Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, repor
 - Verificar la situación regulatoria actual de pregabalina en Colombia.
 - **Línea alternativa:** la **migraña** (puntaje TxGNN 0.9947, nivel L2) cuenta con ECA pediátricos frente a propranolol y valproato, una red de metaanálisis y evidencia preclínica de inhibición de la depresión cortical propagada. Su único ensayo de Fase 3 (NCT00447369) fue retirado, por lo que se recomienda tratarla como pregunta de investigación que requiere estudios controlados en adultos antes de cualquier recomendación.
 - Las demás predicciones (miositis granulomatosa idiopática, miositis fibrosa, miositis por cuerpos de inclusión y migraña con aura de tronco encefálico) carecen de respaldo clínico y deben mantenerse en Hold.
+
+<!-- review:begin co-lic-20261105-pregabalin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria actual de pregabalina en Colombia, dado que el único registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pregabalin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

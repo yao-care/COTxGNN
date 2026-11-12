@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Rasagilina"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -80,6 +80,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-rasagiline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El fabricante es GENEPHARM S.A. Actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasagiline-1 -->
+
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -100,6 +106,12 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción para neurodegeneración asociada a PLA2G6 tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura (nivel L5). Además, faltan datos de seguridad oficiales.
 
+<!-- review:begin co-lic-20261105-rasagiline-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, rasagilina no tiene registros sanitarios vigentes en Colombia y faltan datos de seguridad oficiales." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasagiline-2 -->
+
 **Para avanzar se necesita:**
 - Revisión de la literatura y de registros de ensayos sobre rasagilina en neurodegeneración asociada a PLA2G6 y parkinsonismos genéticos
 - Datos detallados del mecanismo de acción
@@ -107,6 +119,27 @@ La predicción para neurodegeneración asociada a PLA2G6 tiene un puntaje alto, 
 - Evaluación de la seguridad en población pediátrica, dado el inicio temprano de la enfermedad
 - Verificación de la situación regulatoria: y habría que solicitar uno nuevo o reactivar el existente
 - Estudios preclínicos en modelos de neurodegeneración asociada a PLA2G6 antes de considerar estudios clínicos
+
+<!-- review:begin co-lic-20261105-rasagiline-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 7 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rasagiline-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El fabricante es GENEPHARM S.A. Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "rasagilina no tiene registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

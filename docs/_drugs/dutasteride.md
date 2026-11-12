@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 243
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dutasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Dutasterida"
 monitor_inn: "DUTASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -79,6 +79,12 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 Como referencia, la octava predicción (alopecia areata difusa) tiene una única publicación, que corresponde a otra enfermedad y aporta solo contexto indirecto:
 
+<!-- review:begin co-lic-20261105-dutasteride-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros están cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dutasteride-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [41714473](https://pubmed.ncbi.nlm.nih.gov/41714473/) | 2026 | Revisión | American Journal of Clinical Dermatology | Revisión narrativa sobre fisiopatología, evaluación clínica y tratamientos de la alopecia androgenética en mujeres; no evalúa la alopecia areata |
@@ -112,12 +118,32 @@ Consultar el prospecto para el resto de la información de seguridad.
 **Justificación:**
 La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, con un vínculo mecanístico débil.
 
+<!-- review:begin co-lic-20261105-dutasteride-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, con un vínculo mecanístico débil y sin registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 13); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dutasteride-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank) y análisis de si existe un vínculo real entre la DHT y la hipertricosis de Ambras
 - Revisión bibliográfica dirigida y evidencia preclínica que respalde la hipótesis
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
 - Evaluar la situación regulatoria: el medicamento está comercializado y cuenta con 3 licencias vigentes
 - Priorizar otras predicciones con mayor plausibilidad, como la hipotricosis simple del cuero cabelludo, que tiene cercanía fenotípica con la alopecia androgenética
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y sin registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

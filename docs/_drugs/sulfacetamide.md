@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sulfacetamide: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Sulfacetamida"
 monitor_inn: "sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -79,6 +79,12 @@ Para la indicación principal (vasculitis postinfecciosa) actualmente no hay lit
 
 En predicciones secundarias se identificaron dos publicaciones, ninguna de las cuales demuestra eficacia:
 
+<!-- review:begin co-lic-20261105-sulfacetamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario existente (Laboratorios Blaskov SAS) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sulfacetamide-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [3157322](https://pubmed.ncbi.nlm.nih.gov/3157322/) | 1985 | Reporte de caso | American Journal of Ophthalmology | Niño de 8 años con eritema multiforme mayor tras uso tópico de sulfacetamida sódica por conjuntivitis. Es una señal de seguridad, no de eficacia (predicción: queratitis por exposición). |
@@ -110,11 +116,38 @@ En predicciones secundarias se identificaron dos publicaciones, ninguna de las c
 **Justificación:**
 La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y carece de plausibilidad mecanística, ya que un antibacteriano tópico no actúa sobre una vasculitis inmunomediada.
 
+<!-- review:begin co-lic-20261105-sulfacetamide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos ni literatura, y carece de plausibilidad mecanística, ya que un antibacteriano tópico no actúa sobre una vasculitis inmunomediada. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sulfacetamide-2 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA (advertencias y contraindicaciones), que constituye una brecha bloqueante para la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Si se desea continuar, priorizar indicaciones con mayor plausibilidad biológica (otitis externa, queratoconjuntivitis infecciosa) frente a vasculitis postinfecciosa, con revisión sistemática de la literatura y comparación con tratamientos estándar.
 - Evaluar la viabilidad regulatoria.
+
+<!-- review:begin co-lic-20261105-sulfacetamide-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no existe registro vigente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sulfacetamide-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario existente (Laboratorios Blaskov SAS) está cancelado, por lo que actualmente no hay producto vigente en el mercad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no existe registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

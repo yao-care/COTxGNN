@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Paliperidona"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -109,11 +109,30 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Justificación:**
 La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura (nivel L5). No existe un vínculo mecanístico plausible entre el antagonismo D2/5-HT2A y una distrofia retiniana genética.
 
+<!-- review:begin co-lic-20261105-paliperidone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "No existe un vínculo mecanístico plausible entre el antagonismo D2/5-HT2A y una distrofia retiniana genética. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 8 registros sanitarios (vigentes: 8); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-paliperidone-1 -->
+
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y un análisis de la plausibilidad biológica con la fisiopatología retiniana.
 - Estudios preclínicos o de mecanismo que justifiquen la hipótesis.
 - Obtener y analizar el prospecto (advertencias y contraindicaciones) y confirmar la situación regulatoria vigente del producto en Colombia.
 - Valorar priorizar la indicación *esquizofrenia resistente al tratamiento*, que tiene mayor respaldo mecanístico, antes de invertir recursos en esta predicción.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

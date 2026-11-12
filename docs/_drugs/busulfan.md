@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 123
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (nivel de evidencia L1). Indicación original: No especificada en los registros"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -70,6 +70,12 @@ Por ello, la predicción es razonable en términos mecanísticos, pero debe inte
 ## Evidencia de Ensayos Clínicos
 
 Se muestran los ensayos más relevantes (de un total superior a 40 registrados para esta indicación):
+
+<!-- review:begin co-lic-20261105-busulfan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-busulfan-1 -->
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
@@ -147,6 +153,12 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Justificación:**
 Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con busulfán en SMD (NCT00005866 y NCT00822393), además de ensayos de Fase 2/3 en curso y ECA publicados. La evidencia respalda su papel como agente de acondicionamiento previo al trasplante, no como terapia independiente.
 
+<!-- review:begin co-lic-20261105-busulfan-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia respalda su papel como agente de acondicionamiento previo al trasplante, no como terapia independiente, y los cuatro registros colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-busulfan-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -162,6 +174,20 @@ Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con b
 - **Anemia aregenerativa/aplásica** (L1, Proceed with Guardrails): evidencia indirecta; en anemia aplásica grave los regímenes con ciclofosfamida siguen siendo el estándar y el busulfán se usa sobre todo en contextos de donante alternativo o refractarios.
 - **SMD no clasificado** (L3, Research Question), **infección por VIH** (L3, Research Question; busulfán solo como acondicionamiento para terapia celular génica, sin acción antiviral): evidencia limitada.
 - **Deleción parcial del brazo largo del cromosoma 5, anemia sideroblástica congénita grave, trastorno del neurodesarrollo con marcha atáxica, queratosis seborreica y síndrome de inmunodeficiencia adquirida felina** (L5, Hold): solo predicción computacional, sin evidencia ni vínculo mecanístico plausible.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y los cuatro registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

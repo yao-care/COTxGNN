@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas más hierro"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 El ácido fólico (vitamina B9) se registró en Colombia como parte de un producto multivitamínico con hierro (P-NATAL®).
 El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólica de la biotina**, pero no hay ensayos clínicos y solo se identificaron **20 publicaciones** de apoyo indirecto (en su mayoría revisiones generales sobre vitaminas).
+
+<!-- review:begin co-lic-20261105-folic_acid-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El ácido fólico (vitamina B9) se registró en Colombia como parte de un producto multivitamínico con hierro (P-NATAL®), cuyo registro sanitario hoy está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-folic_acid-1 -->
 
 ## Resumen Rápido
 
@@ -108,6 +114,26 @@ La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; pu
 - Estudios que evalúen específicamente el ácido fólico en deficiencia de biotinidasa o de holocarboxilasa sintetasa
 - Comparación frente al tratamiento estándar (biotina) para determinar si existe algún valor adicional
 - Evaluación de la ruta de administración y de la vía regulatoria
+
+<!-- review:begin co-lic-20261105-folic_acid-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la ruta de administración y de la vía regulatoria, dado que no hay producto vigente en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-folic_acid-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyo registro sanitario hoy está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

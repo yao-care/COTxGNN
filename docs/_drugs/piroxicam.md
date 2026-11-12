@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: PIROXICAM"
@@ -78,6 +78,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-piroxicam-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-piroxicam-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -117,6 +123,12 @@ Las advertencias y contraindicaciones del prospecto no están disponibles; consu
 **Justificación:**
 La predicción para esta indicación (L5) carece de ensayos clínicos, literatura y vínculo mecanístico plausible.
 
+<!-- review:begin co-lic-20261105-piroxicam-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para esta indicación (L5) carece de ensayos clínicos, literatura y vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia, lo que limita cualquier desarrollo práctico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-piroxicam-2 -->
+
 **Nota:** entre las demás indicaciones predichas, la **artritis idiopática juvenil** es la única con respaldo bibliográfico. Incluye estudios pediátricos antiguos y pequeños de piroxicam, uno de ellos comparativo con naproxeno, y dos metaanálisis en red recientes de AINE. Alcanzaría un nivel L3 y tiene una justificación mecanística sólida, aunque sintomática. Podría evaluarse como pregunta de investigación separada.
 
 **Para avanzar se necesita:**
@@ -125,6 +137,20 @@ La predicción para esta indicación (L5) carece de ensayos clínicos, literatur
 - Completar los datos de mecanismo de acción desde DrugBank.
 - Confirmar la situación regulatoria actual del fármaco, que está comercializado y cuenta con 5 registros vigentes.
 - Si se prioriza la artritis idiopática juvenil, revisar el texto completo de los estudios para confirmar su diseño y resultados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia, lo que limita cualquier desarrollo práctico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

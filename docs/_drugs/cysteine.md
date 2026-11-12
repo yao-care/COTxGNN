@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 187
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cysteine: nueva indicación predicha, Síndrome de ojo seco (nivel de evidencia L4). Indicación original: Combinaciones"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **7**
 La cisteína es un aminoácido, cuya indicación aprobada figura solo como "combinaciones".
 El modelo TxGNN predice que podría ser efectiva para el **síndrome de ojo seco**, pero **no hay ensayos clínicos** y la literatura recuperada es casi toda preclínica o indirecta (formulaciones con derivados de cisteína, mecanismos de estrés oxidativo).
 La evidencia es débil y se considera una pregunta de investigación.
+
+<!-- review:begin co-lic-20261105-cysteine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La cisteína es un aminoácido que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición (NUMETA® G 19% E), cuya indicación aprobada figura solo como "combinaciones"." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cysteine-2 -->
 
 ---
 
@@ -115,12 +121,32 @@ No se encontraron interacciones farmacológicas registradas. Para el resto de la
 **Justificación:**
 La predicción de TxGNN es muy alta, pero no hay ensayos clínicos y la literatura es preclínica o indirecta, con la cisteína usada sobre todo como componente de formulación. Además, la vía de administración original (emulsión inyectable) no es compatible con un uso oftálmico.
 
+<!-- review:begin co-lic-20261105-cysteine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y la vía de administración original (emulsión inyectable) no es compatible con un uso oftálmico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cysteine-1 -->
+
 **Para avanzar se necesita:**
 - Estudios preclínicos que evalúen la cisteína (o un derivado) como agente activo en modelos de ojo seco
 - Datos del mecanismo de acción y de la relación con la indicación original
 - Definir la formulación y vía de administración (por ejemplo, tópica ocular) y su compatibilidad regulatoria
 - Revisar el prospecto de INVIMA para completar advertencias y contraindicaciones
 - Confirmar con el equipo de datos que las entradas duplicadas de glaucoma de ángulo cerrado se fusionen; ambas tienen evidencia L5 y no sustentan una justificación terapéutica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición (NUMETA® G 19% E)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

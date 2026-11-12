@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DAPOXETINA"
 monitor_inn: "dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
@@ -61,6 +61,12 @@ La disfunción serotoninérgica participa en la fisiopatología de la migraña, 
 
 Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña.
 
+<!-- review:begin co-lic-20261031-dapoxetine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña. Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-dapoxetine-1 -->
+
 ## Evidencia de Ensayos Clínicos
 
 Actualmente no hay ensayos clínicos relacionados registrados.
@@ -97,6 +103,26 @@ La predicción se apoya solo en un puntaje computacional y en evidencia indirect
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad.
 - Estudios preclínicos o clínicos específicos de dapoxetina en migraña.
 - Evaluar si el perfil farmacocinético de acción corta es compatible con un uso profiláctico o agudo en migraña.
+
+<!-- review:begin co-lic-20261031-dapoxetine-2 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar si el perfil farmacocinético de acción corta es compatible con un uso profiláctico o agudo en migraña. / Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-dapoxetine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

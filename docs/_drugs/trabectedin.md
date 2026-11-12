@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Trabectedina"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 ## Resumen en Una Frase
 
 Trabectedina es un agente antitumoral de origen marino, registrado en Colombia bajo el nombre Yondelis®. El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femenino**, con **1 ensayo clínico** registrado (de farmacología, no de eficacia) y **20 publicaciones** relacionadas, incluidos estudios de Fase 2 en cáncer de mama avanzado.
+
+<!-- review:begin co-lic-20261105-trabectedin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Trabectedina es un agente antitumoral de origen marino, registrado en Colombia bajo el nombre Yondelis®, cuyo registro sanitario actualmente figura como cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trabectedin-1 -->
 
 ---
 
@@ -126,12 +132,39 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 Existen estudios de Fase 2 en cáncer de mama avanzado (incluido BRCA1/2 mutado) y respaldo mecanístico, pero no hay ensayos de Fase 3 ni evidencia clínica de eficacia consolidada, y el único ensayo registrado es de seguridad cardíaca. Además, no se dispone de información de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-trabectedin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el registro sanitario en Colombia está cancelado y no se dispone de información de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trabectedin-2 -->
+
 **Para avanzar se necesita:**
 - Revisar los resultados de los estudios de Fase 2 (PMID 25239225, 27266804 y 24692579) para valorar eficacia y seguridad en cáncer de mama
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones
 - Confirmar el mecanismo de acción a partir de datos estructurados (por ejemplo, DrugBank)
 - Aclarar el estado regulatorio y la disponibilidad del producto en Colombia
 - Definir subpoblaciones candidatas (por ejemplo, BRCA1/2 mutado o triple negativo) y un plan de monitoreo de seguridad hematológica, hepática y cardíaca
+
+<!-- review:begin co-lic-20261105-trabectedin-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio y la disponibilidad del producto en Colombia, dado que el único registro está cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-trabectedin-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "cuyo registro sanitario actualmente figura como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

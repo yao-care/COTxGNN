@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Simvastatin: nueva indicación predicha, Infarto del tronco encefálico (nivel de evidencia L5). Indicación original: Simvastatina combinaciones paquetes"
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -127,11 +127,37 @@ No se dispone de advertencias ni contraindicaciones del prospecto de INVIMA; con
 **Justificación:**
 Varios ensayos de Fase 3 completados (ENHANCE, con 720 participantes, y el estudio en adolescentes, con 248) evalúan directamente simvastatina en hipercolesterolemia familiar, lo que corresponde a un nivel de evidencia L1. Sin embargo, es un uso ya establecido, existe una carga alta de interacciones y riesgo de miopatía.
 
+<!-- review:begin co-lic-20261105-simvastatin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, es un uso ya establecido, el único registro sanitario en Colombia está cancelado y existe una carga alta de interacciones y riesgo de miopatía." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-simvastatin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), una brecha que bloquea el tamizaje de seguridad.
 - Confirmar el mecanismo de acción en DrugBank.
 - Definir un plan de monitoreo de seguridad (función hepática, CK/miopatía, revisión de interacciones, uso pediátrico).
 - Aclarar que el resto de las predicciones (por ejemplo, infarto de tronco encefálico, VIH, amiloidosis ABri) carecen de respaldo clínico directo y deben mantenerse en espera. En VIH, la simvastatina suele evitarse con regímenes potenciados por la interacción farmacológica.
+
+<!-- review:begin co-lic-20261105-simvastatin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria: el único registro está cancelado, por lo que habría que confirmar la disponibilidad de productos vigentes con simvastatina en Colombia. / Definir un plan de monitoreo de seguridad (función hepática, CK/miopatía, revisión de interacciones, uso pediátrico)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-simvastatin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Verificar la situación regulatoria: el único registro está cancelado, por lo que habría que confirmar la disponibilidad de productos vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **10**
 Bupropión es un fármaco antidepresivo de liberación prolongada.
 El modelo TxGNN predice que podría ser efectivo para el **trastorno por déficit de atención e hiperactividad (TDAH)**,
 con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaciones** que actualmente respaldan esta dirección.
+
+<!-- review:begin co-lic-20261105-bupropion-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Bupropión es un fármaco antidepresivo de liberación prolongada que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®), actualmente todos cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bupropion-1 -->
 
 ---
 
@@ -132,6 +138,26 @@ Existe un ensayo de Fase 3 completado, otro de Fase 2/3 y uno de Fase 4, junto c
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones oficiales.
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Diseñar un plan de seguimiento de seguridad: riesgo de convulsiones, presión arterial y frecuencia cardíaca, interacciones (especialmente CYP2D6 y opioides) y poblaciones con comorbilidad por uso de sustancias.
+
+<!-- review:begin co-lic-20261105-bupropion-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación. / Diseñar un plan de seguimiento de seguridad: riesgo de convulsiones, presión arterial y frecuencia cardíaca, interacciones (especialmente CYP2D6 y opioides) y poblaciones con comorbilidad por uso de sustancias." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bupropion-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®), actualmente todos cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

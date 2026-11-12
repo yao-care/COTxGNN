@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Metronidazol / combinaciones de imidazol derivados"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Metronidazol es un antimicrobiano derivado del imidazol, con registros sanitarios en Colombia para metronidazol solo y en combinaciones de imidazoles.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no hay ensayos clínicos y la literatura disponible (10 publicaciones) es solo descriptiva (revisiones y reportes de caso), sin evidencia directa de eficacia.
+
+<!-- review:begin co-lic-20261105-metronidazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Metronidazol es un antimicrobiano derivado del imidazol, con registros sanitarios en Colombia para metronidazol solo y en combinaciones de imidazoles (hoy todos cancelados)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-metronidazole-2 -->
 
 ---
 
@@ -126,6 +132,26 @@ No existen ensayos clínicos, la literatura es solo descriptiva y no muestra efi
 - Estudios in vitro o en modelos animales de eficacia
 - Prospecto de INVIMA con advertencias y contraindicaciones (brecha de datos bloqueante para el tamizaje de seguridad)
 - Considerar priorizar otras indicaciones con mejor respaldo, como la poliposis en capuchón (L4) y otras candidatas de enfermedad inflamatoria intestinal o úlceras vulvares
+
+<!-- review:begin co-lic-20261031-metronidazole-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local / Considerar priorizar otras indicaciones con mejor respaldo, como la poliposis en capuchón (L4) y otras candidatas de enfermedad inflamatoria intestinal o úlceras vulvares" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-metronidazole-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(hoy todos cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

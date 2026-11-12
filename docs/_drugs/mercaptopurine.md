@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 430
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L3). Indicación original: MERCAPTOPURINA"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **8**
 ## Resumen en Una Frase
 
 Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colombia. El modelo TxGNN predice que podría ser efectiva para **leucemia mieloide**, con **15 ensayos clínicos** y **20 publicaciones** que se asocian a esta dirección, aunque casi todos son protocolos multifármaco en los que no se puede aislar el aporte de la mercaptopurina.
+
+<!-- review:begin co-lic-20261105-mercaptopurine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colombia con un registro sanitario hoy cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mercaptopurine-2 -->
 
 ## Resumen Rápido
 
@@ -121,6 +127,12 @@ Se muestran los ensayos más relevantes (de 15 registrados).
 **Justificación:**
 La predicción es biológicamente plausible y existen estudios de cohorte y piloto en LMA, pero los ensayos de Fase 3 son protocolos multifármaco (muchos en LPA) donde no se aísla el efecto de la mercaptopurina, y los ensayos más directos son de fase temprana y de muestra pequeña. Además, faltan datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-mercaptopurine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro en Colombia está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-mercaptopurine-3 -->
+
 **Para avanzar se necesita:**
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones).
@@ -128,7 +140,28 @@ La predicción es biológicamente plausible y existen estudios de cohorte y pilo
 - Esperar resultados de NCT06199557 y NCT05506332, o diseñar un estudio comparativo en LMA.
 - Definir un plan de seguridad con genotipificación de TPMT/NUDT15 y monitoreo hematológico.
 
+<!-- review:begin co-lic-20261031-mercaptopurine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Definir un plan de seguridad con genotipificación de TPMT/NUDT15 y monitoreo hematológico. / Evaluar la situación regulatoria (registro cancelado) para un posible uso en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-mercaptopurine-1 -->
+
 **Nota contextual:** otras predicciones del modelo (leucemia linfoblástica aguda y linfoma/leucemia linfoblástica precursora) tienen evidencia de nivel L1 con Fase 3, pero corresponden al uso estándar ya establecido de la mercaptopurina, no a un reposicionamiento nuevo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Evaluar la situación regulatoria (registro cancelado) para un posible uso en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "con un registro sanitario hoy cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

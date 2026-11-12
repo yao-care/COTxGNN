@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
 description: "Rimegepant: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: RIMEGEPANT"
@@ -114,15 +114,41 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 **Justificación:**
 Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña general, lo que respalda su uso potencial en el subtipo con aura del tronco encefálico. No obstante, no hay estudios específicos para este subtipo, por lo que se requiere cautela.
 
+<!-- review:begin co-lic-20261105-rimegepant-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "No obstante, no hay estudios específicos para este subtipo y el único registro sanitario en Colombia está cancelado, por lo que se requiere cautela." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rimegepant-2 -->
+
 **Para avanzar se necesita:**
 - Datos específicos de eficacia y seguridad en migraña con aura del tronco encefálico (ensayos o análisis de subgrupos)
 - Información detallada del mecanismo de acción
 - Prospecto del INVIMA con advertencias y contraindicaciones
 - Plan de manejo de interacciones farmacológicas y vigilancia de riesgo vascular
 
+<!-- review:begin co-lic-20261031-rimegepant-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar el estado regulatorio en Colombia (registro cancelado) y la posibilidad de un nuevo registro / Plan de manejo de interacciones farmacológicas y vigilancia de riesgo vascular" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-rimegepant-1 -->
+
 ---
 
 *Nota: las demás predicciones del modelo (atrodermia vermiculada, uleritema ofriógeno, deficiencia de cofactor II de heparina, deficiencia de antitrombina tipo 2 y exceso de factor 5 con trombosis espontánea) tienen puntajes altos (≥ 0.99) pero carecen de ensayos, literatura y fundamento mecanístico, por lo que se recomienda mantenerlas en **Hold**.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado) y la posibilidad de un nuevo registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

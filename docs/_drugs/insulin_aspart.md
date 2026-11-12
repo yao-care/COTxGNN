@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina aspartato"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -128,12 +128,38 @@ Como referencia general (no proveniente de los datos compilados), la lipodistrof
 **Justificación:**
 Varios ensayos de Fase 3 completados, además de revisiones sistemáticas y ECA recientes, respaldan directamente el uso de insulina aspart en diabetes tipo 1. Sin embargo, faltan los datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-insulin_aspart-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-insulin_aspart-1 -->
+
 **Para avanzar se necesita:**
 - Verificar la disponibilidad regulatoria actual en Colombia.
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), lo cual está pendiente.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Confirmar que la indicación aprobada especifique la enfermedad (diabetes mellitus) y no solo el nombre del principio activo.
 - Descartar las demás indicaciones predichas (rangos 2-10) como líneas de reposicionamiento, salvo diabetes neonatal permanente y agenesia pancreática, que podrían considerarse preguntas de investigación (nivel L4) por su racionalidad mecanística de reemplazo de insulina.
+
+<!-- review:begin co-lic-20261105-insulin_aspart-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad regulatoria actual en Colombia, ya que el registro 19910693 figura como cancelado (consultar el sitio web de INVIMA)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-insulin_aspart-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que el registro 19910693 figura como cancelado (consultar el sitio web de INVIMA)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

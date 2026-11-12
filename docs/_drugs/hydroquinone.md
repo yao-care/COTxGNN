@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L5). Indicación original: Hidroquinona"
 monitor_inn: "hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -106,11 +106,37 @@ Consultar el prospecto para obtener información completa sobre advertencias y c
 **Justificación:**
 La evidencia es de nivel L4: no hay ensayos clínicos y la única publicación trata de trastornos pigmentarios en general, no de queratosis seborreica. Además, el mecanismo solo respaldaría un efecto cosmético, no una acción sobre la enfermedad.
 
+<!-- review:begin co-lic-20261105-hydroquinone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y el mecanismo solo respaldaría un efecto cosmético, no una acción sobre la enfermedad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydroquinone-1 -->
+
 **Para avanzar se necesita:**
 - Estudios clínicos específicos de hidroquinona en queratosis seborreica que midan resultados clínicos y estéticos
 - Obtener y revisar el prospecto (advertencias y contraindicaciones), pues faltan datos de seguridad de la etiqueta
 - Datos detallados del mecanismo de acción
 - Evaluar la seguridad de uso prolongado y sobre piel con atrofia, dermatitis o telangiectasias, dadas las contraindicaciones señaladas en el grafo de conocimiento
+
+<!-- review:begin co-lic-20261105-hydroquinone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia (registro cancelado; evaluar un nuevo registro o alternativas vigentes) / Evaluar la seguridad de uso prolongado y sobre piel con atrofia, dermatitis o telangiectasias, dadas las contraindicaciones señaladas en el grafo de conocimiento" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-hydroquinone-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado; evaluar un nuevo registro o alternativas vigentes)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

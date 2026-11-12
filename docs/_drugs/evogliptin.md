@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Evogliptin: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Evogliptina tartrato"
 monitor_inn: "evogliptin"
 predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy"]
@@ -84,6 +84,12 @@ El puntaje alto de TxGNN (0.9935) proviene del modelo TxGNN (deep learning) y pu
 
 Fabricante: Eurofarma Colombia S.A.S.
 
+<!-- review:begin co-lic-20261105-evogliptin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fabricante: Eurofarma Colombia S.A.S. El único registro está cancelado, por lo que actualmente no hay producto vigente en el mercado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-evogliptin-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -99,12 +105,32 @@ Consultar el prospecto para información de seguridad. No se encontraron interac
 **Justificación:**
 La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y con un vínculo mecanístico especulativo.
 
+<!-- review:begin co-lic-20261105-evogliptin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura, y con un vínculo mecanístico especulativo. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-evogliptin-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad
 - Confirmar el mecanismo de acción en DrugBank y analizar su conexión con la vía INPPL1/SHIP2/PI3K
 - Realizar estudios preclínicos o de mecanismo que justifiquen la hipótesis en opsismodisplasia
 - Aclarar la situación regulatoria (cancelación del registro) y la viabilidad de comercialización en Colombia
 - Considerar la necesidad clínica real, dado que se trata de una enfermedad ultrarrara, y si existen alternativas con mejor respaldo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro está cancelado, por lo que actualmente no hay producto vigente en el mercado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

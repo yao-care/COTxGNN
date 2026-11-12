@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Filgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: FILGRASTIM"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -104,11 +104,37 @@ Para advertencias y contraindicaciones, consultar el prospecto del producto.
 **Justificación:**
 La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre el G-CSF y los defectos de la liberación plaquetaria.
 
+<!-- review:begin co-lic-20261105-filgrastim-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no existe un vínculo mecanístico plausible entre el G-CSF y los defectos de la liberación plaquetaria. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-filgrastim-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción del fármaco y una evaluación mecanística de su relación con la función plaquetaria
 - Estudios preclínicos o de mecanismo que justifiquen la hipótesis
 - Revisión de literatura dirigida a G-CSF en trastornos plaquetarios
 - Obtener el prospecto con advertencias y contraindicaciones para el análisis de seguridad
+
+<!-- review:begin co-lic-20261031-filgrastim-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Obtener el prospecto con advertencias y contraindicaciones para el análisis de seguridad / Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de productos con registro vigente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-filgrastim-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de productos con registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

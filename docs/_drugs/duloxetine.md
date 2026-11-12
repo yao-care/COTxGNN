@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Duloxetine: nueva indicación predicha, Tortícolis paroxístico benigno de la infancia (nivel de evidencia L5). Indicación original: DULOXETINA"
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
@@ -128,6 +128,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto ofi
 **Justificación:**
 La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínculo mecanístico plausible, y la duloxetina no está establecida en población infantil.
 
+<!-- review:begin co-lic-20261105-duloxetine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínculo mecanístico plausible, y la duloxetina no está establecida en población infantil. Además, los dos registros sanitarios colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 11 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-duloxetine-1 -->
+
 **Para avanzar se necesita:**
 - Reorientar la evaluación hacia el **TOC refractario** (nivel L2; ECA pequeño de potenciación, estudio abierto y ensayo de Fase 4), o hacia la agorafobia/trastorno de pánico como línea de investigación (L3), según prioridades.
 - Un ECA de Fase 3 con muestra adecuada para respaldar cualquier nueva indicación.
@@ -135,6 +141,19 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínc
 - Datos detallados del mecanismo de acción (consulta a DrugBank).
 - Aclarar la indicación original aprobada, ya que el registro solo indica "duloxetina".
 - Verificar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 2 registros vigentes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

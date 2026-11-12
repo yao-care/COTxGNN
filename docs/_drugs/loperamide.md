@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: LOPERAMIDA"
@@ -79,6 +79,12 @@ Actualmente no hay literatura relacionada disponible para conjuntivitis contagio
 
 Como referencia, para otras indicaciones predichas existe la siguiente literatura, que sugiere riesgos y no beneficios:
 
+<!-- review:begin co-lic-20261105-loperamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los 4 registros están cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-loperamide-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/) | 2007 | Reporte de caso | Journal of Travel Medicine | Colitis amebiana fulminante tras uso intenso de loperamida; el fármaco pudo influir en el curso de la enfermedad (megacolon tóxico). |
@@ -115,12 +121,32 @@ Como referencia, para otras indicaciones predichas existe la siguiente literatur
 **Justificación:**
 La predicción para conjuntivitis contagiosa aguda es solo del modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible. Todas las predicciones evaluadas quedan en Hold, y las señales disponibles en indicaciones gastrointestinales apuntan a riesgos de seguridad y no a oportunidades de reposicionamiento.
 
+<!-- review:begin co-lic-20261105-loperamide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Todas las predicciones evaluadas quedan en Hold, y las señales disponibles en indicaciones gastrointestinales apuntan a riesgos de seguridad y no a oportunidades de reposicionamiento. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-loperamide-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), requisito previo para cualquier evaluación de seguridad.
 - Una hipótesis biológica plausible que vincule la acción opioide periférica con la patología ocular, y estudios preclínicos que la respalden.
 - Confirmar si existe alguna vía de administración compatible (la única forma registrada es la tableta oral, no apta para uso ocular).
 - Revisar que el puntaje alto proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los 4 registros están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

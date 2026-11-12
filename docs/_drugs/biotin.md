@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Biotin: nueva indicación predicha, Dispepsia (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -98,6 +98,12 @@ Para información de seguridad completa, consultar el prospecto.
 **Justificación:**
 Aunque el puntaje de TxGNN es alto, no existen ensayos clínicos y la literatura disponible es indirecta o de baja relevancia (nivel de evidencia L5). Además, no hay información de seguridad de prospecto, por lo que no es posible avanzar a una evaluación de seguridad.
 
+<!-- review:begin co-lic-20261105-biotin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y no hay información de seguridad de prospecto, por lo que no es posible avanzar a una evaluación de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-biotin-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante para el cribado de seguridad
 - Completar los datos del mecanismo de acción desde DrugBank
@@ -105,6 +111,26 @@ Aunque el puntaje de TxGNN es alto, no existen ensayos clínicos y la literatura
 - Evaluar la plausibilidad de un beneficio más allá de la corrección de una deficiencia nutricional
 - Verificar las contraindicaciones del grafo de conocimiento (en particular las renales y del metabolismo del calcio y el fósforo) con fuentes clínicas
 - Aclarar la situación regulatoria y la disponibilidad de productos con biotina en Colombia
+
+<!-- review:begin co-lic-20261105-biotin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria y la disponibilidad de productos con biotina en Colombia, dado que el único registro está cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-biotin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

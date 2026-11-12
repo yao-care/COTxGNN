@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 655
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Velpatasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Sofosbuvir + velpatasvir"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -123,11 +123,37 @@ Consultar el prospecto para información sobre advertencias y contraindicaciones
 **Justificación:**
 Velpatasvir actúa sobre NS5A del VHC y no tiene actividad conocida contra el VHB. El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, y la evidencia disponible se limita a la hepatitis C, sin datos de eficacia contra el VHB.
 
+<!-- review:begin co-lic-20261105-velpatasvir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, y la evidencia disponible se limita a la hepatitis C, sin datos de eficacia contra el VHB. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-velpatasvir-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de velpatasvir, y estudios preclínicos in vitro que evalúen su actividad frente al VHB.
 - Información de seguridad completa (advertencias y contraindicaciones) del prospecto de INVIMA.
 - Aclarar el estado regulatorio local.
 - Los demás candidatos (hepatitis E, hepatitis A, VIH, fiebres hemorrágicas virales y otros) no cuentan con base mecanística ni evidencia directa; se recomienda mantenerlos en espera.
+
+<!-- review:begin co-lic-20261105-velpatasvir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio local, dado que el registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-velpatasvir-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

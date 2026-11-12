@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 600
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -118,11 +118,37 @@ Los diseños detallados y los resultados de estos ensayos no están en los datos
 **Justificación:**
 Existe un ensayo de Fase 3 completado y un estudio de Fase 4 completado específicamente en dermatitis seborreica con tacrolimus tópico, además de revisiones que respaldan el mecanismo. Sin embargo, solo hay un ensayo de Fase 3 (el nivel L1 asignado exige confirmar la solidez de los resultados).
 
+<!-- review:begin co-lic-20261105-tacrolimus-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, solo hay un ensayo de Fase 3 (el nivel L1 asignado exige confirmar la solidez de los resultados) y en Colombia no hay registros vigentes de tacrolimus tópico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 20); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tacrolimus-1 -->
+
 **Para avanzar se necesita:**
 - Verificar los diseños y resultados de los ensayos NCT02004860 y NCT01591070 (aleatorización, enmascaramiento, desenlaces).
 - Obtener el prospecto en INVIMA (advertencias y contraindicaciones) y confirmar la situación regulatoria de una formulación tópica.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir un plan de monitoreo de seguridad a largo plazo (riesgo de neoplasias, absorción sistémica, infecciones cutáneas).
+
+<!-- review:begin co-lic-20261105-tacrolimus-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Obtener el prospecto en INVIMA (advertencias y contraindicaciones) y confirmar la situación regulatoria de una formulación tópica, ya que los registros colombianos identificados son orales y están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 20); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tacrolimus-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes de tacrolimus tópico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los registros colombianos identificados son orales y están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

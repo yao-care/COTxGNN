@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: DASATINIB"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -134,6 +134,12 @@ No se dispone de texto de prospecto en los datos compilados. A continuación se 
 **Justificación:**
 Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclínico en sarcoma de Ewing, pero la evidencia clínica es débil: un ensayo de Fase 2 en sarcomas mixtos que no demostró eficacia como agente único en Ewing, y un ensayo pediátrico terminado con 7 pacientes. Además, no hay datos de prospecto.
 
+<!-- review:begin co-lic-20261105-dasatinib-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los tres registros sanitarios en Colombia están cancelados y no hay datos de prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 12 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dasatinib-1 -->
+
 **Para avanzar se necesita:**
 - Datos de eficacia específicos de sarcoma de Ewing, preferiblemente de combinaciones (por ejemplo, el régimen RIST) en estudios prospectivos.
 - Datos del mecanismo de acción confirmados desde DrugBank.
@@ -146,6 +152,19 @@ Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclíni
 ### Nota sobre otras indicaciones predichas
 
 Las demás predicciones (liposarcoma, dermatofibrosarcoma protuberans y otras) tienen evidencia nula o solo preclínica (L4-L5) y se mantienen en Hold.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "los tres registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

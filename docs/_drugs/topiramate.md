@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Topiramato"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -105,6 +105,12 @@ A modo de referencia, la indicación predicha con mayor respaldo bibliográfico 
 
 Conviene verificar si existen otros productos de topiramato (por ejemplo, genéricos) con registro vigente.
 
+<!-- review:begin co-lic-20261105-topiramate-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro encontrado (Janssen Cilag S.A.) está cancelado, por lo que no hay registro vigente en los datos compilados. Conviene verificar si existen otros productos de topiramato (por ejemplo, genéricos) con registro vigente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-topiramate-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -125,6 +131,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 - La predicción es solo del modelo (L5): no hay ensayos ni literatura, y topiramato no tiene un mecanismo antineoplásico conocido.
 - Si se desea avanzar con topiramato, las indicaciones con mejor soporte son subtipos de epilepsia (convulsiones inducidas por el pensamiento, epilepsia visual); sin embargo, la evidencia es indirecta y proviene de la epilepsia en general, un uso que ya es conocido del fármaco, por lo que aportan poco valor de reposicionamiento. Se consideran preguntas de investigación.
 
+<!-- review:begin co-lic-20261105-topiramate-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo del modelo (L5): no hay ensayos ni literatura, y topiramato no tiene un mecanismo antineoplásico conocido. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-topiramate-2 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank y análisis del vínculo mecanístico.
 - Descargar y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que constituye una brecha bloqueante para el tamizaje de seguridad.
@@ -132,6 +144,20 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 - Para neoplasia del nervio trigémino: revisión de literatura dirigida y evidencia preclínica antes de cualquier consideración clínica.
 - Para los subtipos de epilepsia refleja: series de casos o estudios específicos de cada subtipo.
 - Evaluar las contraindicaciones del grafo de conocimiento (enfermedad renal, litiasis, acidosis metabólica, enfermedad hepática) frente a la población objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro encontrado (Janssen Cilag S.A.) está cancelado, por lo que no hay registro vigente en los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

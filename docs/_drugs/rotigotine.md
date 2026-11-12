@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: Rotigotina"
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -109,6 +109,12 @@ Para información completa de advertencias y contraindicaciones, consultar el pr
 **Justificación:**
 La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no existen ensayos clínicos ni estudios de rotigotina en TDAH. Además, no se dispone de datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-rotigotine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y no se dispone de datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rotigotine-1 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto del INVIMA para obtener advertencias y contraindicaciones (brecha bloqueante para el tamizaje de seguridad)
 - Completar los datos del mecanismo de acción desde DrugBank
@@ -116,10 +122,30 @@ La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no exi
 - Evaluar la viabilidad regulatoria
 - Evaluar la seguridad en población pediátrica y los riesgos cardiovasculares (hipotensión ortostática)
 
+<!-- review:begin co-lic-20261105-rotigotine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no hay producto vigente en el mercado colombiano" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rotigotine-2 -->
+
 **Otras predicciones del modelo (todas en Hold):**
 - **Esquizofrenia** (L4, puntaje 1.0000): existe una revisión sistemática y metaanálisis sobre fármacos prodopaminérgicos para síntomas negativos, pero no es específica de rotigotina. Un agonista pleno de D1/D2/D3 podría empeorar los síntomas psicóticos positivos, lo que representa una preocupación de seguridad importante.
 - **Miopía ligada al X** y **miopía 26 ligada al X, limitada a mujeres** (L5): la dopamina retiniana participa en el crecimiento ocular en modelos preclínicos, lo que da una justificación débil e indirecta, sin datos específicos de rotigotina.
 - **Polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis, síndrome faciodigitogenital, trastorno congénito de la glicosilación con fucosilación defectuosa, distrofia retiniana, encefalopatía atípica por glicina y enfermedad de Charcot-Marie-Tooth desmielinizante tipo 1G** (L5): no se identificó un vínculo mecanístico plausible, y no hay ensayos ni literatura.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay producto vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

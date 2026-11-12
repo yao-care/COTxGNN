@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (según la predicción de mayor puntaje… (nivel de evidencia L5). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 Diclofenaco es un antiinflamatorio no esteroideo (AINE).
 El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juvenil**, con **0 ensayos clínicos** y **14 publicaciones** (en su mayoría estudios pequeños, antiguos y de baja calidad) que respaldan de forma limitada esta dirección.
+
+<!-- review:begin co-lic-20261105-diclofenac-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Diclofenaco es un antiinflamatorio no esteroideo (AINE) que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diclofenac-3 -->
 
 ---
 
@@ -117,12 +123,39 @@ Consultar el prospecto para información de seguridad adicional.
 **Justificación:**
 La única predicción con literatura (artritis idiopática juvenil) se apoya en estudios pequeños, antiguos y de bajo nivel (L3), sin ensayos registrados, y no representa un reposicionamiento novedoso.
 
+<!-- review:begin co-lic-20261105-diclofenac-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La única predicción con literatura (artritis idiopática juvenil) se apoya en estudios pequeños, antiguos y de bajo nivel (L3), sin ensayos registrados, y no representa un reposicionamiento novedoso. El único registro sanitario en Colombia está cancelado, y las demás predicciones del top 10 son solo del modelo (L5) sin vínculo mecanístico plausible." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diclofenac-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente ausente.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisión sistemática o comparación con el estándar actual (FAME y biológicos) en artritis idiopática juvenil.
 - Evaluar el estado regulatorio.
 - Evaluación de seguridad pediátrica (gastrointestinal, renal, cardiovascular) y de las contraindicaciones señaladas por el grafo de conocimiento.
+
+<!-- review:begin co-lic-20261105-diclofenac-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar el estado regulatorio, dado que el único registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diclofenac-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado, y las demás predicciones del top 10 son solo del modelo (L5) sin vínculo mecanístico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

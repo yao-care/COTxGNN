@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Primidone: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: PRIMIDONA"
 monitor_inn: "primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -99,6 +99,12 @@ La literatura es mayoritariamente sobre carbamazepina; **no se encontró ningún
 
 El producto estaba a cargo del Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social).
 
+<!-- review:begin co-lic-20261105-primidone-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El producto estaba a cargo del Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social). No hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-primidone-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -120,11 +126,38 @@ La información de advertencias del prospecto de INVIMA no estaba disponible; co
 **Justificación:**
 La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y plausibilidad mecanística, por lo que su puntaje alto es solo un artefacto del modelo. El perfil de seguridad es exigente (contraindicaciones hematológicas, hepáticas y renales, y numerosas interacciones).
 
+<!-- review:begin co-lic-20261105-primidone-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario en Colombia está cancelado y el perfil de seguridad es exigente (contraindicaciones hematológicas, hepáticas y renales, y numerosas interacciones)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-primidone-2 -->
+
 **Para avanzar se necesita:**
 - Replantear la prioridad: la **neuralgia del trigémino** (nivel L4, etapa S1, "pregunta de investigación") es la candidata más razonable, aunque la carbamazepina y la oxcarbazepina ya tienen eficacia establecida, lo que limita la necesidad no cubierta.
 - Revisión sistemática de primidona en neuralgia del trigémino y epilepsias reflejas, ya que la evidencia actual es indirecta (reportes de caso, revisiones generales y modelos animales).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y los datos del mecanismo de acción desde DrugBank.
 - Plan de monitoreo de seguridad (hemograma, función hepática y renal, interacciones) antes de cualquier estudio.
+
+<!-- review:begin co-lic-20261105-primidone-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o importación. / Plan de monitoreo de seguridad (hemograma, función hepática y renal, interacciones) antes de cualquier estudio." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-primidone-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

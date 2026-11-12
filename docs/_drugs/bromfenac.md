@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: Bromfenaco"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -92,6 +92,12 @@ Nota: el ensayo NCT05158699 (Fase 3, 628 participantes) fue terminado anticipada
 
 Se listan las publicaciones más relevantes, priorizando metaanálisis, revisiones sistemáticas y ensayos aleatorizados.
 
+<!-- review:begin co-lic-20261105-bromfenac-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bromfenac-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [39180057](https://pubmed.ncbi.nlm.nih.gov/39180057/) | 2024 | Metaanálisis | BMC Ophthalmology | Bromfenaco tópico como adyuvante de la terapia anti-VEGF en maculopatías (DMAE neovascular, edema macular diabético, oclusiones venosas) |
@@ -140,6 +146,12 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 Existen múltiples ensayos de Fase 3 completados (inflamación posoperatoria, edema macular, ojo seco, conjuntivitis alérgica) y metaanálisis que respaldan el uso de bromfenaco en enfermedades oculares inflamatorias. Sin embargo, la indicación predicha es muy amplia, existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.
 
+<!-- review:begin co-lic-20261105-bromfenac-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la indicación predicha es muy amplia, el único registro colombiano está cancelado y existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-bromfenac-2 -->
+
 **Para avanzar se necesita:**
 - Delimitar subindicaciones concretas (inflamación posoperatoria de catarata y edema macular quistoide pseudofáquico) en lugar de "enfermedad ocular".
 - Obtener y analizar el prospecto del INVIMA para completar advertencias y contraindicaciones.
@@ -152,6 +164,20 @@ Existen múltiples ensayos de Fase 3 completados (inflamación posoperatoria, ed
 ### Nota sobre otras predicciones
 
 Las demás indicaciones predichas (papilitis óptica, anomalía de von Hippel, síndrome de McPherson-Robertson-Cammarano, queratosis folicular invertida vulvar, lagoftalmos, síndrome de microblefaron-ablefaria, queratosis seborreica, degeneración conjuntival y luxación del globo ocular) tienen evidencia de nivel L4–L5 y decisión **Hold**. No cuentan con ensayos ni literatura que evalúen directamente bromfenaco en esas condiciones, o su relación mecanística es implausible.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

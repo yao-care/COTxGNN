@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L3** | Indicaciones predichas: **3**
 Parecoxib es un inhibidor selectivo de la COX-2 administrado por vía inyectable. Su registro sanitario en Colombia no detalla una indicación específica (solo repite el nombre del fármaco).
 El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**, con **0 ensayos clínicos registrados** y **1 publicación clínica** (un estudio piloto comparativo) que respaldan esta dirección.
 
+<!-- review:begin co-lic-20261105-parecoxib-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Su registro sanitario en Colombia no detalla una indicación específica (solo repite el nombre del fármaco), y actualmente está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-parecoxib-3 -->
+
 ---
 
 ## Resumen Rápido
@@ -64,6 +70,12 @@ Parecoxib es un profármaco de valdecoxib, un inhibidor selectivo de la COX-2. L
 La COX-2 impulsa la síntesis de prostaglandina E2 (PGE2), que sensibiliza los nociceptores del trigémino y favorece la liberación del péptido relacionado con el gen de la calcitonina (CGRP) y la inflamación neurogénica. Al inhibir la COX-2, es plausible reducir estos procesos durante una crisis aguda de migraña. Esto es coherente con el puntaje muy alto de TxGNN (0.9955).
 
 Existe apoyo mecanístico preclínico indirecto: en células de ganglio trigeminal de rata, la IL-1β estimula la síntesis de PGE2 dependiente de COX-2 y la liberación de CGRP (PMID 21394197), y parecoxib modifica la extravasación de proteínas plasmáticas y la expresión de c-fos en un modelo animal de activación trigeminovascular (PMID 16492237).
+
+<!-- review:begin co-lic-20261031-parecoxib-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Existe apoyo mecanístico preclínico indirecto: en células de ganglio trigeminal de rata, la IL-1β estimula la síntesis de PGE2 dependiente de COX-2 y la liberación de CGRP (PMID 21394197), y parecoxib modifica la extravasación de proteínas plasmáticas y la expresión de c-fos en un modelo animal de activación trigeminovascular (PMID 16492237). Sin embargo, al ser un fármaco solo inyectable y con registro cancelado, su aplicabilidad práctica es limitada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-parecoxib-1 -->
 
 ---
 
@@ -106,11 +118,23 @@ Como referencia general (no proviene de la etiqueta): los inhibidores selectivos
 **Justificación:**
 La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y tamaño no están verificados, sin ensayos registrados. Además, el producto es solo inyectable, lo que limita la aplicabilidad práctica.
 
+<!-- review:begin co-lic-20261105-parecoxib-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el producto es solo inyectable y su único registro sanitario en Colombia está cancelado, lo que limita la aplicabilidad práctica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-parecoxib-4 -->
+
 **Para avanzar se necesita:**
 - Verificar el diseño, tamaño y resultados del estudio PMID 21996647
 - Obtener el prospecto en INVIMA para conocer advertencias y contraindicaciones
 - Obtener datos detallados del mecanismo de acción desde DrugBank
 - Considerar ensayos clínicos controlados que confirmen la eficacia y seguridad en crisis agudas de migraña
+
+<!-- review:begin co-lic-20261031-parecoxib-2 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar la viabilidad de la vía inyectable para el tratamiento de la migraña y la situación regulatoria (registro cancelado) / Considerar ensayos clínicos controlados que confirmen la eficacia y seguridad en crisis agudas de migraña" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-parecoxib-2 -->
 
 ---
 
@@ -120,6 +144,21 @@ La evidencia clínica se limita a un estudio piloto comparativo cuyo diseño y t
 |------|------|------|------|
 | Migraña con aura de tronco encefálico | 0.9946 | L5 | Hold (solo predicción; evidencia extrapolada de migraña general) |
 | Hipertensión pulmonar | 0.9909 | L5 | Hold (solo un estudio animal en lechones; sugiere ausencia de beneficio o posible daño, no eficacia) |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Sin embargo, al ser un fármaco solo inyectable y con registro cancelado, su aplicabilidad práctica es limitada" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Evaluar la viabilidad de la vía inyectable para el tratamiento de la migraña y la situación regulatoria (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y actualmente está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y su único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

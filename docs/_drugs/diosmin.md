@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: DIOSMIN COMBINACIONES"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -100,12 +100,38 @@ Consultar el prospecto para información de seguridad.
 **Justificación:**
 La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con la amenorrea.
 
+<!-- review:begin co-lic-20261105-diosmin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el puntaje del modelo (nivel de evidencia L5), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con la amenorrea. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diosmin-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la diosmina (por ejemplo, desde DrugBank) para evaluar un posible vínculo con la amenorrea
 - Revisión de la literatura preclínica y clínica sobre diosmina y trastornos menstruales o del eje hormonal
 - Prospecto del INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad
 - Evaluación de la viabilidad regulatoria
 - Confirmar la compatibilidad de vías de administración y la similitud con la indicación original, hoy pendientes
+
+<!-- review:begin co-lic-20261105-diosmin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluación de la viabilidad regulatoria, dado que no hay registros vigentes en Colombia" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-diosmin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

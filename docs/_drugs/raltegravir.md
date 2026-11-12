@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: RALTEGRAVIR"
@@ -120,11 +120,37 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La evidencia es exclusivamente preclínica (L4) y la infección por SIV es un modelo animal, no una indicación humana. El valor de la predicción es como herramienta de investigación, no como nueva indicación clínica.
 
+<!-- review:begin co-lic-20261105-raltegravir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El valor de la predicción es como herramienta de investigación, no como nueva indicación clínica. Además, los dos registros sanitarios colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-raltegravir-1 -->
+
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones
 - Complementar los datos del mecanismo de acción desde DrugBank
 - Definir si el objetivo es una indicación humana o un uso como modelo de investigación en primates no humanos
 - Si hay interés en una indicación humana, priorizar otras predicciones con relevancia clínica, ya que las otras dos candidatas carecen de respaldo
+
+<!-- review:begin co-lic-20261105-raltegravir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado real de comercialización en Colombia, ya que los registros cancelados podrían reflejar un problema de datos / Obtener el prospecto de INVIMA con advertencias y contraindicaciones" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-raltegravir-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar el estado real de comercialización en Colombia, ya que los registros cancelados podrían reflejar un problema de datos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

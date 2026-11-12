@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -90,6 +90,12 @@ El único ensayo registrado usa la metoclopramida como premedicación antes de l
 
 Nota: la literatura recuperada consiste sobre todo en revisiones antiguas sobre motilidad gástrica, gastroparesia y reflujo; no hay ensayos clínicos que demuestren la cicatrización de úlceras con metoclopramida.
 
+<!-- review:begin co-lic-20261105-metoclopramide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros están cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 registros sanitarios (vigentes: 16); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-metoclopramide-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -125,6 +131,26 @@ La evidencia se limita al nivel L4: un único ensayo de uso procedimental y lite
 - Aclarar la indicación original aprobada, pues el registro solo repite el nombre del fármaco.
 - Valorar si el posible beneficio se limita a síntomas (náuseas, vaciamiento retardado) o a uso procedimental, en lugar de tratamiento de la úlcera.
 - Generar estudios clínicos específicos que evalúen la cicatrización de la úlcera, y resolver la contradicción con la contraindicación en úlcera péptica activa.
+
+<!-- review:begin co-lic-20261105-metoclopramide-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Generar estudios clínicos específicos que evalúen la cicatrización de la úlcera, y resolver la contradicción con la contraindicación en úlcera péptica activa. / Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso requeriría un nuevo trámite ante INVIMA." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 registros sanitarios (vigentes: 16); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-metoclopramide-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cuatro registros están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso requeriría un nuevo trámite ante INVIMA" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

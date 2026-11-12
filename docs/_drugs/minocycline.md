@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 447
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Minocycline: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "minocycline"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **2**
 
 Minociclina es un antibiótico de la familia de las tetraciclinas. El texto de la indicación aprobada solo repite el nombre del fármaco, por lo que no se conoce la indicación original específica.
 El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epitelial punteada**, aunque actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; se trata solo de una predicción del modelo.
+
+<!-- review:begin co-lic-20261105-minocycline-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero el texto de la indicación aprobada solo repite el nombre del fármaco, por lo que no se conoce la indicación original específica." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minocycline-3 -->
 
 ---
 
@@ -77,6 +83,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Actualmente no hay literatura relacionada disponible.
 
+<!-- review:begin co-lic-20261105-minocycline-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "No hay registros vigentes actualmente." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minocycline-1 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -106,6 +118,12 @@ Las advertencias del prospecto no están disponibles; consultar el prospecto par
 **Justificación:**
 La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publicaciones. Tampoco hay datos del prospecto ni del mecanismo de acción que permitan evaluar la seguridad o la plausibilidad con rigor.
 
+<!-- review:begin co-lic-20261105-minocycline-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publicaciones, y el único registro sanitario local está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-minocycline-2 -->
+
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre minociclina en queratoconjuntivitis y superficie ocular.
 - Datos del mecanismo de acción desde DrugBank.
@@ -113,6 +131,21 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publ
 - Evaluación de la vía de administración: la forma registrada es oral y no se ha determinado compatibilidad con una vía oftálmica.
 - Confirmar la situación regulatoria y la disponibilidad de producto en Colombia.
 - Evaluación de seguridad de las interacciones mayores y de las enfermedades de riesgo identificadas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "No hay registros vigentes actualmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro sanitario local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

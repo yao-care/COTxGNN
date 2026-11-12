@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sofosbuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Sofosbuvir + Velpatasvir (hepatitis C crónica)"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -130,12 +130,38 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 Aunque el puntaje de TxGNN es muy alto, la evidencia disponible es indirecta (coinfección VHC/VHB) y no respalda un efecto anti-VHB de sofosbuvir. No hay coincidencia mecanística directa con la polimerasa del VHB y existe riesgo documentado de reactivación. Además, no se dispone de datos de advertencias ni contraindicaciones del prospecto.
 
+<!-- review:begin co-lic-20261105-sofosbuvir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado, y no se dispone de datos de advertencias ni contraindicaciones del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sofosbuvir-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de información que bloquea el cribado de seguridad
 - Resultados completos y confirmatorios en monoinfección por VHB (el estudio de Fase 2 de ledipasvir/sofosbuvir es de un solo brazo y pequeño)
 - Considerar, como líneas de investigación con más respaldo mecanístico, la hepatitis E (el ensayo de Fase 2 SofE mostró reducción inicial de la carga viral pero sin respuesta virológica sostenida y con variantes asociadas a resistencia)
 - Aclarar la situación regulatoria en Colombia
+
+<!-- review:begin co-lic-20261105-sofosbuvir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, dado que el registro de Epclusa® figura como cancelado" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sofosbuvir-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que el registro de Epclusa® figura como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

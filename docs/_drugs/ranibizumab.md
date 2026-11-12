@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Tetanic cataract (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
@@ -116,13 +116,39 @@ Consultar el prospecto para el resto de la información de seguridad (advertenci
 **Justificación:**
 El vínculo mecanístico (inhibición de VEGF) es directo y la literatura incluye ensayos aleatorizados y análisis de estudios de Fase 3 en retinopatía diabética. Sin embargo, no hay ensayos registrados en los datos, faltan los datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-ranibizumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay ensayos registrados en los datos, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ranibizumab-2 -->
+
 **Para avanzar se necesita:**
 - Verificar los textos completos y los registros de ensayos (RIDE/RISE, Pavilion) para confirmar el nivel L1.
 - Obtener del sitio de INVIMA el prospecto con advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
 - Definir un plan de monitoreo de seguridad ocular (infecciones, inflamación, presión intraocular) para la vía intravítrea.
 
+<!-- review:begin co-lic-20261031-ranibizumab-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de otros productos con ranibizumab. / Definir un plan de monitoreo de seguridad ocular (infecciones, inflamación, presión intraocular) para la vía intravítrea." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-ranibizumab-1 -->
+
 **Otras predicciones del modelo (todas con decisión Hold):** las predicciones relativas a distintos tipos de catarata y a la enfermedad hemorrágica del recién nacido carecen de respaldo mecanístico o clínico y probablemente son artefactos del modelo TxGNN (aprendizaje profundo); no se recomienda avanzar con ellas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de otros productos con ranibizumab" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

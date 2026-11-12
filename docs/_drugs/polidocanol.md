@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 522
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "POLIDOCANOL"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Immunoerythromyeloid hypoplasia", "pigmented paravenous retinochoroidal atrophy", "progressive bifocal chorioretinal atrophy", "X-linked retinal dysplasia", "monosomy X", "cone dystrophy", "oligocone trichromacy", "retinoschisis of fovea"]
 description: "Polidocanol: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L1). Indicación original: POLIDOCANOL"
@@ -42,6 +42,12 @@ Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Col
 El modelo TxGNN predice que podría ser efectivo para **várices esofágicas con sangrado**,
 con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente respaldan esta dirección.
 
+<!-- review:begin co-lic-20261105-polidocanol-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia (actualmente cancelados), pero cuyo texto de indicación aprobada no detalla un uso clínico específico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polidocanol-2 -->
+
 ---
 
 ## Resumen Rápido
@@ -63,6 +69,12 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento establecido en la literatura, polidocanol es un esclerosante de tipo detergente que daña el endotelio vascular, provocando trombosis y fibrosis del vaso en el que se inyecta.
 
 La escleroterapia endoscópica de várices esofágicas aplica directamente este mecanismo para obliterar las várices que sangran. Por ello, la predicción del modelo es mecanísticamente coherente. Cabe señalar que no se trata de una señal novedosa de reposicionamiento: es un uso clínico ya establecido (incluido el uso fuera de indicación en algunas regiones) y descrito en publicaciones desde la década de 1980.
+
+<!-- review:begin co-lic-20261031-polidocanol-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualquier plan de uso." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-polidocanol-1 -->
 
 ---
 
@@ -117,12 +129,40 @@ No se dispone de datos de interacciones farmacológicas en la información compi
 **Justificación:**
 La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido.
 
+<!-- review:begin co-lic-20261105-polidocanol-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido. Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con bandas, por lo que se requieren salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polidocanol-3 -->
+
 **Para avanzar se necesita:**
 - Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Confirmar el mecanismo de acción en DrugBank
 - Definir un plan de monitoreo de eventos adversos (estenosis, ulceración, resangrado) y comparar frente a la ligadura con bandas
 - Otras indicaciones predichas (por ejemplo, várices sin sangrado) presentan evidencia indirecta (L3) y se consideran preguntas de investigación; las predichas de rango inferior (enfermedades retinianas, monosomía X, entre otras) carecen de evidencia y de plausibilidad mecanística, por lo que se recomienda mantenerlas en espera (Hold)
+
+<!-- review:begin co-lic-20261105-polidocanol-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia (ambos registros están cancelados)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-polidocanol-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualqu" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con b" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(ambos registros están cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

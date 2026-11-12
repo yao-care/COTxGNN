@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefalotin"
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "bronchitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital analbuminemia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Cefalotin: nueva indicación predicha, uretritis gonocócica (gonococcal urethritis) (nivel de evidencia L5). Indicación original: CEFALOTINA"
 ---
 
@@ -74,6 +74,12 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado registrado es "Comercializado". Los datos compilados indican 3 registros sanitarios de producto único, y la lista puede ser parcial.
 
+<!-- review:begin co-lic-20261105-cefalotin-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los datos compilados indican 3 registros sanitarios de producto único, y la lista puede ser parcial. Los registros disponibles figuran con estado cancelado:" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cefalotin-1 -->
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
 | 20170303 | CEFALOTINA SÓDICA 1G/VIAL | Polvo estéril para reconstituir a solución inyectable | CEFALOTINA |
@@ -100,6 +106,26 @@ No existen ensayos clínicos ni publicaciones sobre cefalotina en uretritis gono
 - Datos de sensibilidad *in vitro* de *N. gonorrhoeae* frente a cefalotina.
 - Estudios clínicos o literatura que evalúen directamente esta indicación.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones).
+
+<!-- review:begin co-lic-20261105-cefalotin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones). / Verificar la situación vigente de los registros sanitarios, dado que los registros disponibles figuran cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-cefalotin-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los registros disponibles figuran con estado cancelado:" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Verificar la situación vigente de los registros sanitarios, dado que los registros disponibles figuran cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

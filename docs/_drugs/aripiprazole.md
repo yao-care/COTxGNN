@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: ARIPIPRAZOL"
@@ -63,6 +63,12 @@ Aripiprazol es un agonista parcial de los receptores de dopamina D2/D3 y de sero
 La relación con la indicación original es estrecha: el aripiprazol ya se usa en trastornos del ánimo como el trastorno bipolar, y la depresión mayor comparte vías neurobiológicas con ellos. Como terapia adyuvante a ISRS/IRSN, el perfil de agonismo parcial puede potenciar la respuesta antidepresiva en pacientes con respuesta insuficiente.
 
 Cabe señalar que el uso adyuvante en depresión mayor ya es una indicación autorizada en varias jurisdicciones, por lo que se trata más de un uso en o cercano a la indicación aprobada que de un reposicionamiento propiamente dicho.
+
+<!-- review:begin co-lic-20261031-aripiprazole-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Cabe señalar que el uso adyuvante en depresión mayor ya es una indicación autorizada en varias jurisdicciones, por lo que se trata más de un uso en o cercano a la indicación aprobada que de un reposicionamiento propiamente dicho. Además, el estado de mercado en Colombia (solo registros cancelados) debe verificarse antes de sacar conclusiones regulatorias." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 16 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-aripiprazole-1 -->
 
 ---
 
@@ -133,11 +139,38 @@ Para advertencias, contraindicaciones oficiales e interacciones específicas, co
 **Justificación:**
 Existen múltiples ensayos de fase 3 completados, aleatorizados y controlados con placebo (más de 1000 participantes en varios), además de metaanálisis en red que respaldan el aripiprazol como adyuvante en depresión resistente (nivel L1). Sin embargo, faltan datos de seguridad del prospecto y del mecanismo de acción oficial, por lo que se recomienda avanzar con salvaguardas.
 
+<!-- review:begin co-lic-20261105-aripiprazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay registros vigentes en Colombia y faltan datos de seguridad del prospecto y del mecanismo de acción oficial, por lo que se recomienda avanzar con salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-aripiprazole-2 -->
+
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto aprobado por INVIMA para obtener advertencias y contraindicaciones oficiales (brecha bloqueante para el cribado de seguridad).
 - Confirmar el mecanismo de acción en DrugBank.
 - Definir un plan de monitoreo metabólico, cardiovascular y hematológico, y de conductas impulsivo-compulsivas, dados los riesgos señalados por la literatura y la información del medicamento.
 - Verificar que las indicaciones y dosis adyuvantes en depresión sean coherentes con las guías clínicas locales.
+
+<!-- review:begin co-lic-20261105-aripiprazole-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o una renovación, y precisar la indicación autorizada previamente. / Definir un plan de monitoreo metabólico, cardiovascular y hematológico, y de conductas impulsivo-compulsivas, dados los riesgos señalados por la literatura y la información del medicamento." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 16 registros sanitarios (vigentes: 11); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-aripiprazole-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Además, el estado de mercado en Colombia (solo registros cancelados) debe verificarse antes de sacar conclusiones regulatorias" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o una renova" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

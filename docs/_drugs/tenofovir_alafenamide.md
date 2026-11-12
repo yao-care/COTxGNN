@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 612
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: TENOFOVIR ALAFENAMIDA"
@@ -114,6 +114,12 @@ No se dispone de advertencias ni contraindicaciones del prospecto. Consultar el 
 **Justificación:**
 La evidencia es exclusivamente preclínica en primates no humanos (L4) y no representa una nueva indicación para humanos, ya que TAF ya se usa en VIH-1.
 
+<!-- review:begin co-lic-20261105-tenofovir_alafenamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia es exclusivamente preclínica en primates no humanos (L4) y no representa una nueva indicación para humanos, ya que TAF ya se usa en VIH-1. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tenofovir_alafenamide-1 -->
+
 **Para avanzar se necesita:**
 - Aclarar si existe un interés real de reposicionamiento, dado que la indicación predicha es un modelo animal del VIH
 - Obtener datos del mecanismo de acción (MOA) desde DrugBank
@@ -121,6 +127,19 @@ La evidencia es exclusivamente preclínica en primates no humanos (L4) y no repr
 - Verificar el estado regulatorio actual de TAF en Colombia (otros productos con TAF en combinación)
 
 **Nota sobre otras predicciones:** las otras dos predicciones (síndrome de inmunodeficiencia adquirida felino y un trastorno del neurodesarrollo con marcha atáxica) tienen puntajes altos (0.9989 y 0.9987), pero carecen de ensayos y literatura. La primera es una indicación veterinaria y la segunda no tiene vínculo mecanístico creíble, probablemente un artefacto del modelo TxGNN (aprendizaje profundo). Ambas se mantienen en **Hold**.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

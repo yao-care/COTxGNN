@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim"
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
@@ -98,6 +98,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
   - *Moderadas:* sulfonilureas (clorpropamida, glimepirida, acetohexamida, glipizida, glibenclamida), insulinas (humana, aspart, degludec, detemir, glargina, glulisina), balsalazida y ácido picosulfúrico (posible riesgo de hipoglucemia con antidiabéticos).
   - *Leves:* famotidina, claritromicina, dolasetrón, palonosetrón, cisaprida y granisetrón.
 
+<!-- review:begin co-lic-20261105-sulfamethoxazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros figuran como cancelados; no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sulfamethoxazole-1 -->
+
 Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ---
@@ -115,6 +121,26 @@ La predicción se apoya únicamente en el modelo y en un estudio de susceptibili
 - Evidencia clínica directa sobre la eficacia de sulfametoxazol (o su combinación) en conjuntivitis bacteriana
 - Evaluación de la compatibilidad de vías de administración (probable formulación oftálmica tópica frente a las formas orales registradas)
 - Análisis de viabilidad regulatoria y comercial
+
+<!-- review:begin co-lic-20261105-sulfamethoxazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Análisis de viabilidad regulatoria y comercial dado que no hay registros vigentes" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-sulfamethoxazole-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

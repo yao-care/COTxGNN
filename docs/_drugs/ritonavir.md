@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
@@ -108,6 +108,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones según el grafo de conocimiento (TxGNN/PrimeKG, no provienen del prospecto):** síndrome de QT largo (incluida la forma familiar), torsades de pointes, paro cardíaco súbito, enfermedades de la conducción cardíaca, bloqueo auriculoventricular, miocardiopatías, isquemia miocárdica y enfermedad coronaria; pancreatitis, hepatopatía, cirrosis, enfermedad de la vesícula biliar, hiperbilirrubinemia y síndrome de Gilbert; diabetes mellitus, hiperglucemia y cetoacidosis diabética; hipertrigliceridemia y dislipidemias familiares; gota e hiperuricemia; deficiencia de potasio; hepatitis B crónica y hemofilia.
 - **Interacciones farmacológicas:** se identificaron 100 interacciones en total. Entre las mostradas, las de nivel **mayor** son loperamida, triamcinolona y budesonida. Entre las de nivel moderado se incluyen corticoides (hidrocortisona, dexametasona, betametasona), antidiabéticos (acarbosa, metformina, alogliptina, canagliflozina, clorpropamida, albiglutida), claritromicina, metronidazol, bupropión, aprepitant, alosetrón y lorcaserina.
 
+<!-- review:begin co-lic-20261105-ritonavir-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ritonavir-1 -->
+
 Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que no se dispuso de ellas.
 
 ---
@@ -125,6 +131,26 @@ La predicción se apoya únicamente en estudios preclínicos y in vitro en model
 - Descargar y analizar el prospecto de INVIMA para advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
 - Aclarar el estado regulatorio.
 - Confirmar el papel específico de ritonavir en cada estudio de la literatura, pues varios evalúan regímenes combinados.
+
+<!-- review:begin co-lic-20261105-ritonavir-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio, dado que no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 15 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ritonavir-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

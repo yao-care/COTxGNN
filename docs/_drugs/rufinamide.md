@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: nueva indicación predicha, Perioral myoclonia with absences (nivel de evidencia L5). Indicación original: RUFINAMIDA"
@@ -109,12 +109,31 @@ El fabricante registrado es BIOTOSCANA FARMA S.A. Actualmente existe 1 registro 
 **Justificación:**
 La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensayos clínicos ni literatura de respaldo. Además, el mecanismo de acción no explica bien la fisiopatología inflamatoria del FIRES.
 
+<!-- review:begin co-lic-20261105-rufinamide-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el mecanismo de acción no explica bien la fisiopatología inflamatoria del FIRES, y el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-rufinamide-1 -->
+
 **Para avanzar se necesita:**
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha de seguridad bloqueante para el tamizaje de seguridad).
 - Realizar una revisión sistemática de la literatura sobre rufinamida en FIRES y otras epilepsias refractarias.
 - Evaluar la viabilidad de reactivar o tramitar un nuevo registro sanitario, y la compatibilidad de la vía de administración (oral) con la necesidad clínica.
 - Verificar las contraindicaciones hepáticas y hematológicas señaladas por el grafo de conocimiento.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

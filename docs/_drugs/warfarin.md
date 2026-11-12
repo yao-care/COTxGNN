@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: WARFARINA"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]
@@ -39,6 +39,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 ## Resumen en Una Frase
 
 El modelo TxGNN predice que podría ser efectiva para **deficiencia de cofactor 2 de la heparina**, con **0 ensayos clínicos** y **3 publicaciones** (solo reportes de casos) que respaldan esta dirección.
+
+<!-- review:begin co-lic-20261031-warfarin-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "La warfarina es un anticoagulante oral antagonista de la vitamina K; en Colombia solo consta un registro sanitario (hoy cancelado) cuyo texto de indicación se limita al nombre del principio activo, sin describir un uso específico. / El modelo TxGNN predice que podría ser efectiva para **deficiencia de cofactor 2 de la heparina**, con **0 ensayos clínicos** y **3 publicaciones** (solo reportes de casos) que respaldan esta dirección." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-warfarin-1 -->
 
 ---
 
@@ -118,12 +124,32 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La predicción principal se apoya únicamente en tres reportes de casos antiguos, sin ensayos clínicos ni evidencia comparativa de eficacia. Además, no hay datos de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad.
 
+<!-- review:begin co-lic-20261105-warfarin-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado y no hay datos de seguridad del prospecto, lo que impide avanzar al tamizaje de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-warfarin-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío de datos bloqueante.
 - Confirmar el mecanismo de acción desde DrugBank.
 - Aclarar la situación regulatoria: la warfarina está comercializada, con 1 registro vigente de 1 en los datos revisados, y la indicación registrada no es específica.
 - Considerar priorizar la **trombofilia** (nivel L3) como pregunta de investigación, apoyada en el ensayo Fase 3 NCT00895505 (estado desconocido, sin resultados) y en las revisiones, con salvaguardas: tamizaje de proteína C/S, evitar el uso en embarazo y monitorización del INR.
 - Para las demás indicaciones de TxGNN, buscar estudios clínicos específicos de eficacia; las asociaciones con artritis reumatoide y enfermedad fibroquística de la mama parecen reflejar coprescripción e interacciones, no beneficio terapéutico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "La warfarina es un anticoagulante oral antagonista de la vitamina K; en Colombia solo consta un registro sanitario (hoy cancelado) cuyo text" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 489
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: OXCARBAZEPINA"
@@ -39,6 +39,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **1**
 ## Resumen en Una Frase
 
 Oxcarbazepina es un antiepiléptico derivado de la carbamazepina. El modelo TxGNN predice que podría ser efectivo para **epilepsia visual**, pero actualmente **no hay ensayos clínicos** y solo existen **16 publicaciones** de carácter general (revisiones y guías sobre epilepsia), sin estudios específicos de esta indicación.
+
+<!-- review:begin co-lic-20261105-oxcarbazepine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Oxcarbazepina es un antiepiléptico derivado de la carbamazepina, registrado en Colombia bajo licencias hoy canceladas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-oxcarbazepine-1 -->
 
 ---
 
@@ -115,12 +121,32 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay ensayos clínicos y la literatura es indirecta (revisiones generales de epilepsia).
 
+<!-- review:begin co-lic-20261105-oxcarbazepine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay ensayos clínicos y la literatura es indirecta (revisiones generales de epilepsia). Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay producto vigente en el mercado local." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-oxcarbazepine-2 -->
+
 **Para avanzar se necesita:**
 - Estudios clínicos o series de casos específicos de oxcarbazepina en epilepsia visual (fotosensible).
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Prospecto oficial de INVIMA con advertencias y contraindicaciones.
 - Verificar la situación regulatoria: ver si existe un producto vigente o si se requiere un nuevo registro.
 - Evaluar el riesgo de agravamiento en síndromes epilépticos generalizados, donde los bloqueadores de canales de sodio pueden no ser adecuados.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "registrado en Colombia bajo licencias hoy canceladas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay producto vigente en el mercado local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

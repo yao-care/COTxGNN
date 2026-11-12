@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ibuprofeno"
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -107,11 +107,30 @@ Consultar el prospecto para información de seguridad completa.
 **Justificación:**
 La predicción es solo computacional (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP.
 
+<!-- review:begin co-lic-20261105-ibuprofen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción es solo computacional (L5), sin ensayos ni publicaciones, y no existe un vínculo mecanístico plausible entre la inhibición de COX y la señalización GDF5/BMP. Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-ibuprofen-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto aprobado (advertencias y contraindicaciones) para completar el análisis de seguridad
 - Estudios preclínicos que demuestren un vínculo biológico entre la inhibición de COX y la patogenia de la enfermedad
 - Verificar la situación regulatoria actual del ibuprofeno en Colombia (registros vigentes de otros productos)
 - Evaluación de la ruta de administración y de la población objetivo (pediátrica, con posible riesgo en etapas del desarrollo)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

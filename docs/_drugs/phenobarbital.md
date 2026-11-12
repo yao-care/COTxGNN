@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenobarbital"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -98,6 +98,12 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 - **Contraindicaciones según el grafo de conocimiento** (relaciones fármaco-enfermedad del grafo PrimeKG, no texto de prospecto): porfiria (hereditaria y del metabolismo de porfirinas), insuficiencia y enfermedad hepática, enfermedad renal, enfermedad pulmonar obstructiva crónica, trastornos de ansiedad y neuróticos, distimia, trastornos psicóticos y esquizoafectivos, lupus eritematoso sistémico, trombocitopenia, hipotiroidismo/mixedema, hiperglucemia, hipertensión, úlcera gástrica/péptica y gastritis, enfermedad de la vesícula biliar, insomnio y piouréter.
 - **Otras señales de la literatura recuperada**: posibles efectos cognitivos tras el tratamiento temprano (por ejemplo, descenso del CI en niños con convulsiones febriles) y preocupación por neurotoxicidad en el cerebro en desarrollo; síndrome de hipersensibilidad a anticonvulsivantes.
 
+<!-- review:begin co-lic-20261105-phenobarbital-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-phenobarbital-1 -->
+
 No se dispone de advertencias ni contraindicaciones del prospecto; consultar el prospecto para la información de seguridad oficial.
 
 ---
@@ -109,12 +115,32 @@ No se dispone de advertencias ni contraindicaciones del prospecto; consultar el 
 **Justificación:**
 La predicción para neoplasia del nervio trigémino solo cuenta con el modelo como respaldo (nivel L5): no hay ensayos clínicos, la única publicación no es pertinente y no existe un vínculo mecanístico plausible.
 
+<!-- review:begin co-lic-20261105-phenobarbital-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción para neoplasia del nervio trigémino solo cuenta con el modelo como respaldo (nivel L5): no hay ensayos clínicos, la única publicación no es pertinente y no existe un vínculo mecanístico plausible. Además, el fármaco no tiene registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-phenobarbital-2 -->
+
 **Para avanzar se necesita:**
 - Descartar esta indicación como candidata o, en su caso, hallar evidencia biológica que relacione el fenobarbital con tumores del nervio trigémino.
 - Priorizar, como preguntas de investigación, las indicaciones con respaldo mecanístico más coherente: epilepsias reflejas (audiogénicas, por sobresalto, por lectura, por alimentación, inducidas por micción o por pensamiento) y neuralgia del trigémino, donde la evidencia actual es indirecta, preclínica o de casos.
 - Obtener y revisar el prospecto de INVIMA para completar advertencias y contraindicaciones.
 - Complementar los datos del mecanismo de acción desde DrugBank.
 - Verificar la situación regulatoria actual en Colombia, donde el medicamento está comercializado y los 3 registros están vigentes.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 630
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -105,6 +105,12 @@ Sin embargo, el registro clínico es desfavorable. Los dos ensayos de Fase 3 con
 
 Los tres registros pertenecen a F. Hoffmann-La Roche Ltd.
 
+<!-- review:begin co-lic-20261105-tocilizumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Hoffmann-La Roche Ltd y se encuentran cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tocilizumab-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -126,11 +132,23 @@ No se dispone de advertencias ni contraindicaciones del prospecto en los datos c
 **Justificación:**
 Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados y no hay resultados de eficacia en los datos compilados. La literatura directa se limita a un reporte de caso y el bloqueo de IL-6 no forma parte del tratamiento estándar.
 
+<!-- review:begin co-lic-20261105-tocilizumab-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La literatura directa se limita a un reporte de caso y el bloqueo de IL-6 no forma parte del tratamiento estándar. Además, los registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tocilizumab-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar los resultados publicados de los estudios BUILDER-1 y BUILDER-2 (NCT01209689 y NCT01209702), incluidas las razones de la terminación.
 - Completar los datos de mecanismo de acción y las advertencias y contraindicaciones del prospecto de INVIMA (datos pendientes que bloquean el tamizaje de seguridad).
 - Aclarar la situación regulatoria en Colombia.
 - Comparar con las alternativas establecidas (inhibidores de TNF e IL-17) antes de reconsiderar la indicación.
+
+<!-- review:begin co-lic-20261105-tocilizumab-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, dado que los tres registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-tocilizumab-3 -->
 
 ---
 
@@ -140,6 +158,21 @@ Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados
 - **Artritis idiopática juvenil poliarticular factor reumatoide positivo**: nivel L3, extrapolado del anterior; "Proceed with Guardrails".
 - **Vasculitis reumatoide**: nivel L4, con un solo reporte de caso favorable y casos de vasculitis inducida por tocilizumab como contraseñal; pregunta de investigación.
 - **Enfermedad de Kümmell, hipermovilidad del cóccix y susceptibilidad mendeliana a enfermedades micobacterianas por deficiencia de IL12B**: solo predicción del modelo (L5), sin evidencia. La última es probablemente un falso positivo y potencialmente dañina por el riesgo infeccioso de tocilizumab.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y se encuentran cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

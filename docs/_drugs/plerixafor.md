@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
@@ -70,6 +70,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 Actualmente no hay literatura relacionada disponible para esta indicación.
 
+<!-- review:begin co-lic-20261105-plerixafor-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los tres registros están **cancelados**; actualmente no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-plerixafor-1 -->
+
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
@@ -92,6 +98,12 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayos ni literatura, y el uso actual de plerixafor en mieloma es de apoyo y no sobre la enfermedad.
 
+<!-- review:begin co-lic-20261105-plerixafor-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayos ni literatura, y el uso actual de plerixafor en mieloma es de apoyo y no sobre la enfermedad. Además, no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-plerixafor-2 -->
+
 **Nota sobre otras predicciones:** Entre las indicaciones predichas, la **leucemia mieloide** es la que tiene más respaldo (27 ensayos de fase 1 y 1/2, y revisiones sobre CXCR4 en leucemia mieloide aguda; nivel L2). Aun así, los ensayos son pequeños, de brazo único y varios terminaron antes de tiempo, por lo que no se ha demostrado superioridad frente al tratamiento estándar. Si se busca una línea de reposicionamiento, conviene evaluarla como pregunta de investigación.
 
 **Para avanzar se necesita:**
@@ -100,6 +112,27 @@ La indicación solo cuenta con una predicción del modelo (nivel L5), sin ensayo
 - Prospecto con advertencias y contraindicaciones oficiales
 - Aclarar la situación regulatoria en Colombia
 - Evaluación de seguridad dadas las contraindicaciones señaladas (trombocitopenia, alteración renal)
+
+<!-- review:begin co-lic-20261105-plerixafor-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria en Colombia, ya que los tres registros están cancelados" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-plerixafor-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los tres registros están **cancelados**; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

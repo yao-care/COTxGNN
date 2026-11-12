@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: Fibrinógeno humano"
 monitor_inn: "fibrinogen human"
 predicted_indications: ["hemoglobinopathy"]
@@ -110,6 +110,25 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni
 - Revisión de literatura sobre fibrinógeno y estados protrombóticos en hemoglobinopatías, con evaluación del riesgo trombótico.
 - Definir si existe una hipótesis clínica concreta (p. ej., manejo de sangrado perioperatorio) distinta del tratamiento de la hemoglobinopatía.
 - Aclarar la situación regulatoria.
+
+<!-- review:begin co-lic-20261105-fibrinogen_human-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria, dado que ambos registros están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-fibrinogen_human-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

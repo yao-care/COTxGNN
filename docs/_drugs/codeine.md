@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -111,6 +111,12 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Justificación:**
 La única evidencia es un reporte de caso que describe un efecto adverso (un rinolito formado alrededor de una mezcla de codeína y opio), sin ensayos clínicos ni datos de eficacia.
 
+<!-- review:begin co-lic-20261105-codeine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La única evidencia es un reporte de caso que describe un efecto adverso (un rinolito formado alrededor de una mezcla de codeína y opio), sin ensayos clínicos ni datos de eficacia. El único producto registrado en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 18 registros sanitarios (vigentes: 14); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-codeine-1 -->
+
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción que sustenten un vínculo con la patología de la cavidad nasal.
 - Estudios clínicos o preclínicos que muestren un beneficio terapéutico real.
@@ -125,6 +131,18 @@ La única evidencia es un reporte de caso que describe un efecto adverso (un rin
 |------|------|------|------|------|
 | Cefalea autonómica trigeminal | 0.9943 | L4 | Dos publicaciones (una experiencia clínica pediátrica y un reporte de caso por mal uso de cocaína) que no muestran eficacia de la codeína. Los opioides conllevan riesgo de cefalea por uso excesivo de medicación y dependencia. | Hold |
 | Urticaria alérgica | 0.9937 | L4 | La literatura señala a la codeína como **inductora** de urticaria (liberadora directa de histamina en mastocitos, usada como modelo de prueba cutánea), no como tratamiento. El reposicionamiento está desaconsejado por la evidencia disponible. | Hold |
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "El único producto registrado en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

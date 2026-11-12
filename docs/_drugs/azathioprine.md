@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: AZATIOPRINA"
@@ -124,6 +124,12 @@ Varios ensayos de Fase 3 fueron terminados antes de tiempo o tienen inscripción
 
 Aunque no es un antineoplásico clásico, la azatioprina es un antimetabolito de purinas con efecto citotóxico sobre células en proliferación; la información se resume por esta razón.
 
+<!-- review:begin co-lic-20261105-azathioprine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Los cuatro registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-azathioprine-1 -->
+
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Inmunosupresor antimetabolito (análogo de purinas, clase tiopurina) |
@@ -161,6 +167,26 @@ Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y 
 - Implementar un plan de seguridad: genotipificación TPMT/NUDT15, hemograma y pruebas hepáticas periódicas, y vigilancia de infecciones y neoplasias.
 - Nota sobre el nivel de evidencia: el L1 asignado se apoya en ensayos de Fase 3 con varios terminados antes de tiempo y en revisiones Cochrane; conviene confirmar que se cumpla el criterio de al menos 2 ECA de Fase 3 completados (los Fase 3 completados en los datos son NCT01235689, NCT01564823 y NCT00976690, de los cuales solo los dos últimos comparan directamente con azatioprina).
 - Descartar las demás predicciones de alto puntaje sin evidencia (por ejemplo, síndromes malformativos, displasias esqueléticas, síndrome WHIM y enfermedades granulomatosas crónicas), que carecen de plausibilidad biológica y, en algunos casos, podrían ser perjudiciales por el riesgo de inmunosupresión adicional.
+
+<!-- review:begin co-lic-20261105-azathioprine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad real del producto en Colombia, dado que no hay registros vigentes (renovar o tramitar un nuevo registro)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-azathioprine-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registros vigentes (renovar o tramitar un nuevo registro)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

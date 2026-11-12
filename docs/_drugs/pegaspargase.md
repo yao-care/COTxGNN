@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). Indicación original: PEGASPARGASA"
@@ -91,6 +91,12 @@ En la mayoría de estos ensayos pegaspargasa forma parte del esquema de base y n
 
 Se muestran las publicaciones más relevantes (priorizando ECA y revisiones):
 
+<!-- review:begin co-lic-20261105-pegaspargase-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a Les Laboratoires Servier y figuran como cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pegaspargase-1 -->
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
 | [35271306](https://pubmed.ncbi.nlm.nih.gov/35271306/) | 2022 | ECA | J Clin Oncol | COG AALL1231: bortezomib en LLA-T y linfoma linfoblástico recién diagnosticados |
@@ -143,11 +149,38 @@ No se dispone de datos de advertencias ni contraindicaciones del prospecto. Cons
 **Justificación:**
 La evidencia es sólida (múltiples ensayos de Fase 3 completados, con pegaspargasa en el esquema de base) para leucemia/linfoma linfoblástico, pero corresponde a un uso ya establecido y no a un reposicionamiento. Las toxicidades conocidas exigen medidas de control.
 
+<!-- review:begin co-lic-20261105-pegaspargase-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Las toxicidades conocidas exigen medidas de control, y el producto no tiene registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pegaspargase-2 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) y los datos del mecanismo de acción.
 - Establecer un plan de monitoreo de seguridad (hígado, páncreas, lípidos, glucosa, coagulación, hipersensibilidad), con atención a adultos mayores.
 - Evaluar por separado el linfoma NK/T extranodal como indicación independiente.
 - Mantener en espera (Hold) las demás predicciones sin evidencia (leucemia linfocítica crónica, linfoma folicular, deficiencia de metilcobalamina cblE, fase blástica de leucemia mieloide crónica).
+
+<!-- review:begin co-lic-20261105-pegaspargase-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria: ambos registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o importación. / Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) y los datos del mecanismo de acción." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pegaspargase-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Ambos registros pertenecen a Les Laboratoires Servier y figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el producto no tiene registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Verificar la situación regulatoria: ambos registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o impor" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

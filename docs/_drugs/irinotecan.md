@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: IRINOTECAN"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -145,6 +145,25 @@ La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fa
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar resultados del estudio PHENOMENAL (irinotecan liposomal) y otros datos de irinotecan en cáncer de mama.
 - Definir la población objetivo y un plan de monitoreo de seguridad (mielosupresión, diarrea, genotipo UGT1A1) antes de cualquier estudio.
+
+<!-- review:begin co-lic-20261105-irinotecan-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternativas). / Definir la población objetivo y un plan de monitoreo de seguridad (mielosupresión, diarrea, genotipo UGT1A1) antes de cualquier estudio." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 6 registros sanitarios (vigentes: 6); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-irinotecan-1 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternat" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

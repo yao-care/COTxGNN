@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Epinastine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Epinastina"
 monitor_inn: "epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
@@ -97,11 +97,30 @@ La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), s
 - Obtener las advertencias y contraindicaciones del prospecto del INVIMA
 - Comparación con los tratamientos habituales de la rosácea ocular (higiene palpebral, antibióticos tópicos u orales, entre otros)
 
+<!-- review:begin co-lic-20261031-epinastine-1 -->
+
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización / Comparación con los tratamientos habituales de la rosácea ocular (higiene palpebral, antibióticos tópicos u orales, entre otros)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 3 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261031-epinastine-1 -->
+
 ---
 
 ### Nota: Segunda indicación predicha (urticaria alérgica)
 
 Como referencia, el modelo predijo también **urticaria alérgica** (TxGNN 0.9928, nivel L4, recomendación: pregunta de investigación). La literatura incluye principalmente revisiones y estudios farmacodinámicos de supresión de roncha y eritema inducidos por histamina (por ejemplo, PMID [10442525](https://pubmed.ncbi.nlm.nih.gov/10442525/), [19558008](https://pubmed.ncbi.nlm.nih.gov/19558008/) y [29723372](https://pubmed.ncbi.nlm.nih.gov/29723372/)), sin ensayos en pacientes con urticaria ni ensayos clínicos registrados. Al ser una indicación ya cubierta por muchos antihistamínicos aprobados, su valor de reposicionamiento es limitado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

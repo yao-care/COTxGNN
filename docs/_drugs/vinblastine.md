@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 660
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (nivel de evidencia L4). Indicación original: Vinblastina"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
@@ -41,6 +41,12 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **10**
 Vinblastina es un alcaloide de la vinca, con registros sanitarios en Colombia como medicamento antineoplásico inyectable.
 El modelo TxGNN predice que podría ser efectivo para **rabdomiosarcoma**,
 con **0 ensayos clínicos** registrados y **7 publicaciones** (en su mayoría reportes de caso, estudios preclínicos y series antiguas) que respaldan esta dirección de forma indirecta.
+
+<!-- review:begin co-lic-20261105-vinblastine-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Vinblastina es un alcaloide de la vinca, con registros sanitarios en Colombia como medicamento antineoplásico inyectable, actualmente cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-vinblastine-1 -->
 
 ---
 
@@ -90,6 +96,12 @@ No se encontraron ensayos controlados aleatorizados para esta indicación.
 
 **Evidencia adicional en subtipos:** para el rabdomiosarcoma embrionario de próstata hay dos reportes de caso japoneses de los años 80 (PMID [2417460](https://pubmed.ncbi.nlm.nih.gov/2417460/) y [2444085](https://pubmed.ncbi.nlm.nih.gov/2444085/)), de los cuales solo el primero usó vinblastina (con cisplatino y bleomicina). Los demás subtipos no tienen literatura.
 
+<!-- review:begin co-lic-20261105-vinblastine-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Actualmente no hay registros vigentes en Colombia; un uso futuro requeriría un nuevo registro o importación bajo un trámite especial." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-vinblastine-2 -->
+
 ---
 
 ## Información de Mercado en Colombia
@@ -131,12 +143,40 @@ No se encontraron ensayos controlados aleatorizados para esta indicación.
 **Justificación:**
 La predicción tiene un puntaje alto del modelo, pero el respaldo se limita a reportes de caso, un estudio piloto con régimen multifármaco y trabajo preclínico, sin ensayos registrados. Además, faltan los datos de seguridad del prospecto.
 
+<!-- review:begin co-lic-20261105-vinblastine-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay registros vigentes en Colombia y faltan los datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-vinblastine-3 -->
+
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), cuya ausencia bloquea el cribado de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Revisar la evidencia clínica actual del rabdomiosarcoma (guías y ensayos de grupos cooperativos) para determinar el papel real de la vinblastina frente a los esquemas estándar.
 - Evaluar la vía regulatoria.
 - Analizar por separado el posible interés en otras indicaciones con más evidencia clínica en los datos (por ejemplo, leucemia monocítica, de nivel L3 pero con estudios antiguos y pequeños).
+
+<!-- review:begin co-lic-20261105-vinblastine-4 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la vía regulatoria (nuevo registro o importación) dado que los registros actuales están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-vinblastine-4 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "actualmente cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia; un uso futuro requeriría un nuevo registro o importación bajo un trámite especial" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(nuevo registro o importación) dado que los registros actuales están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

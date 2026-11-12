@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: ITRACONAZOL"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -40,6 +40,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral.
 El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un puntaje alto (0.9934), pero **sin ensayos clínicos** registrados y con **20 publicaciones** de apoyo indirecto, ninguna que demuestre eficacia contra *Pneumocystis*.
+
+<!-- review:begin co-lic-20261105-itraconazole-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Itraconazol es un antifúngico azólico, registrado en Colombia bajo el nombre ITRACONAZOL en solución oral (los dos registros sanitarios están cancelados)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-itraconazole-1 -->
 
 ---
 
@@ -122,12 +128,39 @@ La información de advertencias y contraindicaciones del prospecto no está disp
 **Justificación:**
 No hay ensayos clínicos ni estudios que respalden itraconazol contra la neumocistosis, y el fundamento mecanístico es débil porque *Pneumocystis* carece prácticamente de ergosterol. El puntaje alto del modelo parece reflejar una asociación de clase y de contexto clínico.
 
+<!-- review:begin co-lic-20261105-itraconazole-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "El puntaje alto del modelo parece reflejar una asociación de clase y de contexto clínico. Además, ambos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-itraconazole-2 -->
+
 **Para avanzar se necesita:**
 - Estudios preclínicos o in vitro que demuestren actividad de itraconazol contra *Pneumocystis jirovecii*
 - Datos del mecanismo de acción y comparación con la terapia estándar (trimetoprim-sulfametoxazol)
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para el cribado de seguridad
 - Evaluar el estado regulatorio local
 - Evaluar los riesgos cardiovasculares (QT largo) y las interacciones en la población objetivo (VIH, trasplante)
+
+<!-- review:begin co-lic-20261105-itraconazole-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar el estado regulatorio local, ya que no hay registros vigentes" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 5 registros sanitarios (vigentes: 5); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-itraconazole-3 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "(los dos registros sanitarios están cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, ambos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "ya que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

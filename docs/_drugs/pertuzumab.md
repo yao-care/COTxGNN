@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -131,12 +131,31 @@ Para advertencias y contraindicaciones detalladas, consultar el prospecto.
 **Justificación:**
 Existe un ensayo de Fase 3 completado y varios ECA publicados (NeoSphere, WSG-TP-II, TOUCH) en cáncer de mama HR+/HER2+, lo que sustenta el nivel L1. No obstante, el único ensayo registrado es un estudio de equivalencia de biosimilar en población ER/PR-negativa, por lo que la evidencia específica en PR-positivo proviene sobre todo de la literatura.
 
+<!-- review:begin co-lic-20261105-pertuzumab-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "No obstante, el único ensayo registrado es un estudio de equivalencia de biosimilar en población ER/PR-negativa, por lo que la evidencia específica en PR-positivo proviene sobre todo de la literatura. Además, los tres registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 3 registros sanitarios (vigentes: 3); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-pertuzumab-1 -->
+
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente sin datos.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Aclarar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 3 registros vigentes; habría que confirmar su situación regulatoria antes de cualquier uso.
 - Confirmar la positividad de HER2 y establecer un plan de monitoreo de FEVI.
 - Evaluar la coadministración de terapia endocrina en enfermedad HR+.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, los tres registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

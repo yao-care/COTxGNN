@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 441
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 monitor_inn: "Miconazole"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole: nueva indicación predicha, acné (acne (disease)) (nivel de evidencia L4). Indicación original: METRONIDAZOL"
@@ -102,6 +102,18 @@ La predicción tiene un puntaje alto (0,9954), pero la evidencia llega solo a L4
 - Datos detallados del mecanismo de acción
 - Información de seguridad del prospecto de INVIMA (advertencias y contraindicaciones)
 - Evaluación de la viabilidad de la vía de administración para uso en acné
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria actual (registro cancelado) y la disponibilidad de formulaciones tópicas" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 220
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dienogest: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Dienogest y Etinilestradiol"
 monitor_inn: "DIENOGEST"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -113,12 +113,38 @@ No se dispone del texto de advertencias y contraindicaciones del prospecto de IN
 **Justificación:**
 La amenorrea es un efecto esperado de dienogest y no una enfermedad tratable con él; no existen ensayos clínicos y la literatura es solo indirecta (nivel L4).
 
+<!-- review:begin co-lic-20261105-dienogest-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "La amenorrea es un efecto esperado de dienogest y no una enfermedad tratable con él; no existen ensayos clínicos y la literatura es solo indirecta (nivel L4). Además, el único registro sanitario en Colombia está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dienogest-1 -->
+
 **Para avanzar se necesita:**
 - Replantear la pregunta: definir si el interés real es el manejo del sangrado o la endometriosis, indicaciones donde la evidencia de dienogest es más sólida
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Complementar los datos del mecanismo de acción desde DrugBank
 - Evaluar la situación regulatoria actual en Colombia
 - Definir un plan de seguridad que tenga en cuenta las contraindicaciones del grafo de conocimiento y las interacciones de nivel mayor
+
+<!-- review:begin co-lic-20261105-dienogest-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la situación regulatoria actual en Colombia, dado que no hay registro vigente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dienogest-2 -->
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-12
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario"
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -91,6 +91,12 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S.
 
+<!-- review:begin co-lic-20261105-dexketoprofen-1 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S. y no hay registros vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexketoprofen-1 -->
+
 ---
 
 ## Consideraciones de Seguridad
@@ -108,13 +114,40 @@ No se encontraron interacciones farmacológicas registradas en los datos compila
 **Justificación:**
 La predicción para tendinitis tiene un puntaje alto del modelo y un mecanismo plausible. Sin embargo, no hay ensayos clínicos y la única publicación es indirecta.
 
+<!-- review:begin co-lic-20261105-dexketoprofen-2 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay ensayos clínicos y la única publicación es indirecta. Además, los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexketoprofen-2 -->
+
 **Para avanzar se necesita:**
 - Estudios clínicos o revisiones que evalúen dexketoprofeno específicamente en tendinitis.
 - Verificar la disponibilidad regulatoria.
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 
+<!-- review:begin co-lic-20261105-dexketoprofen-3 -->
+
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad regulatoria, porque no hay registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261105-dexketoprofen-3 -->
+
 **Nota adicional:** en los datos compilados, la indicación predicha con mayor respaldo es la **migraña** (puntaje TxGNN de 0.9987). Cuenta con 5 ensayos clínicos de Fase 4 y un metaanálisis de ECA, incluido un ensayo controlado con placebo (NCT02159547, n=224). Para ella la evidencia se clasificó como L1 con recomendación «Proceed with Guardrails», siempre que se verifique la disponibilidad regulatoria. Si se busca una línea de reposicionamiento con mayor sustento, conviene evaluarla como candidata prioritaria.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-05 | Eliminado: "y no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "porque no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
