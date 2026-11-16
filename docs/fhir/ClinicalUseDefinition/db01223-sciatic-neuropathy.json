@@ -1,0 +1,23 @@
+{
+  "resourceType": "ClinicalUseDefinition",
+  "id": "db01223-sciatic-neuropathy",
+  "type": "indication",
+  "subject": [
+    {
+      "reference": "MedicationKnowledge/db01223"
+    }
+  ],
+  "indication": {
+    "diseaseSymptomProcedure": {
+      "concept": {
+        "text": "sciatic neuropathy"
+      }
+    }
+  },
+  "extension": [
+    {
+      "url": "https://cotxgnn.yao.care/fhir/StructureDefinition/evidence-level",
+      "valueCode": "L5"
+    }
+  ]
+}

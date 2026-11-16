@@ -507,6 +507,7 @@
     "db00346": {
       "page": "alfuzosin",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "CHTxGNN",
         "CaTxGNN",
@@ -802,6 +803,7 @@
     "db00479": {
       "page": "amikacin",
       "sources": [
+        "ARTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "DETxGNN",
@@ -1505,6 +1507,7 @@
     "db00810": {
       "page": "biperiden",
       "sources": [
+        "ARTxGNN",
         "CHTxGNN",
         "ESTxGNN",
         "JpTxGNN",
@@ -1665,6 +1668,7 @@
     "db00915": {
       "page": "amantadine",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "BrTxGNN",
         "CHTxGNN",
@@ -1684,6 +1688,7 @@
     "db00924": {
       "page": "cyclobenzaprine",
       "sources": [
+        "ARTxGNN",
         "CaTxGNN"
       ]
     },
@@ -2094,6 +2099,7 @@
     "db01118": {
       "page": "amiodarone",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "CHTxGNN",
         "CaTxGNN",
@@ -2145,6 +2151,7 @@
     "db01156": {
       "page": "bupropion",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "BrTxGNN",
         "CHTxGNN",
@@ -2447,6 +2454,7 @@
     "db01597": {
       "page": "cilastatin",
       "sources": [
+        "ARTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "FITxGNN",
@@ -3252,6 +3260,7 @@
     "db09084": {
       "page": "benzydamine",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
@@ -3538,6 +3547,7 @@
     "db13919": {
       "page": "candesartan",
       "sources": [
+        "ARTxGNN",
         "AuTxGNN",
         "ZaTxGNN"
       ]
