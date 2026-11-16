@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Alopurinol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 39
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 10
+drugbank_id: DB00437
+monitor_inn: "Allopurinol"
+predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
+last_modified_at: 2026-11-16
+description: "Alopurinol: nueva indicación predicha, porfiria hepática (hepatic porphyria) (nivel de evidencia L5). Indicación original: ALOPURINOL"
 ---
 
 # Alopurinol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **10** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,88 +34,72 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Alopurinol: Evaluación de Reposicionamiento — Sin Predicciones Disponibles
+## Alopurinol: porfiria hepática (hepatic porphyria)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Alopurinol es un inhibidor de la xantina oxidasa, utilizado clásicamente para el tratamiento de la hiperuricemia y la gota.
-El modelo TxGNN **no generó indicaciones predichas** para este candidato en el ciclo de análisis actual,
-y la búsqueda en el registro sanitario de Colombia arrojó **0 registros**, lo que limita significativamente la evaluación.
-
----
+Alopurinol es un medicamento oral de uso consolidado en Colombia, con nueve registros sanitarios vigentes. El modelo TxGNN predice que podría ser efectivo para **porfiria hepática (hepatic porphyria)**, pero actualmente no hay ensayos clínicos y solo **2 publicaciones** preclínicas o de hipótesis, ninguna con datos en humanos que respalden esta dirección.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | Hiperuricemia / Gota (conocimiento general; no recuperado del sistema) |
-| Nueva Indicación Predicha | — (sin predicciones TxGNN disponibles) |
-| Puntaje de Predicción TxGNN | — |
-| Nivel de Evidencia | L5 (sin estudios reales recuperados en este ciclo) |
+| Indicación Original | ALOPURINOL |
+| Nueva Indicación Predicha | porfiria hepática (hepatic porphyria) |
+| Puntaje de Predicción TxGNN | 0.9995 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
 | Número de Registros Sanitarios | 9 (vigentes: 9) |
-| Decisión Recomendada | **Hold** |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No Se Generó una Predicción
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Alopurinol es un fármaco de administración oral, conocido como inhibidor de la xantina oxidasa, y su relación con la porfiria hepática es únicamente indirecta e hipotética.
 
-El paquete de evidencia para Alopurinol presenta tres brechas estructurales que impidieron completar el análisis:
+La literatura recuperada sugiere que el alopurinol puede interactuar con el metabolismo del hemo hepático. Un artículo de hipótesis de 2019 plantea que inhibir la utilización del hemo o modular la 5-aminolevulinato sintasa (ALAS1) podría ser una estrategia para las porfirias hepáticas agudas. Sin embargo, el efecto del alopurinol sobre los precursores de porfirinas en humanos no está establecido, y algunos reportes antiguos indican que incluso podría alterar la síntesis del hemo. La dirección del efecto es incierta.
 
-1. **Mecanismo de acción no recuperado (DG002 – Alta severidad):** El campo `original_moa` figura como dato faltante. Sin el perfil farmacodinámico, el modelo TxGNN no puede establecer relaciones mecanísticas con nuevas indicaciones diana.
-
-2. **Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros.
-
-<!-- review:begin co-lic-20261105-alopurinol-1 -->
-
-> **Corrección de revisión (2026-11-05)**: Texto original: "**Ausencia de registros regulatorios en Colombia:** La consulta a INVIMA retornó 0 registros. Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectivamente no cuenta con registro vigente en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 9); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261105-alopurinol-1 -->
-
-3. **Array de predicciones vacío:** `predicted_indications` está vacío, lo que indica que el pipeline TxGNN no emitió candidatos en este ciclo para este fármaco.
-
----
+El puntaje elevado (0.9995) es solo una predicción computacional. Ningún estudio citado evalúa directamente el alopurinol en porfiria hepática, por lo que el nivel de evidencia se limita a L5, aunque el análisis preliminar lo había clasificado como L4.
 
 ## Evidencia de Ensayos Clínicos
 
-Actualmente no hay ensayos clínicos relacionados recuperados en este ciclo de análisis.
-
----
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Actualmente no hay literatura relacionada disponible en este paquete de evidencia.
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [31443750](https://pubmed.ncbi.nlm.nih.gov/31443750/) | 2019 | Hipótesis/Revisión | Medical Hypotheses | Propone la modulación metabólica de la ALAS1 mediante triptófano o inhibidores de la utilización del hemo por la triptófano 2,3-dioxigenasa como posible terapia de las porfirias hepáticas agudas. No evalúa alopurinol directamente. |
+| [1567472](https://pubmed.ncbi.nlm.nih.gov/1567472/) | 1992 | Preclínico (rata) | Biochemical Pharmacology | Estudia el efecto de la carbamazepina sobre el metabolismo del hemo en hígado de rata, en relación con su capacidad de agravar las porfirias hepáticas. No evalúa alopurinol. |
 
 ## Información de Mercado en Colombia
 
-No se encontraron registros sanitarios para Alopurinol en la consulta realizada el 2026-03-29.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 11415 | ALOPURINOL 300 MG | Tableta | ALOPURINOL |
+| 18777 | UROCUAD® TABLETAS 100 MG. | Tableta | ALOPURINOL |
+| 19966240 | ALLO TABLETA | Tableta | ALOPURINOL |
+| 20049088 | ALOPURINOL 100 MG TABLETA | Tableta | ALOPURINOL |
+| 20222454 | ZYLOPRIM 100MG TABLETAS | Tableta | ALOPURINOL |
 
-> **Nota:** Alopurinol es un medicamento de uso ampliamente extendido a nivel mundial. La ausencia de registros puede reflejar una limitación de búsqueda por variante ortográfica (ej. "ALOPURINOL" vs "Alopurinol") o registro bajo nombre comercial distinto. Se recomienda verificar manualmente en el portal de INVIMA antes de asumir ausencia de comercialización.
-
----
+Se muestran 5 de los 9 registros vigentes.
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
----
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El pipeline no pudo completar el análisis de reposicionamiento porque faltan los datos mínimos requeridos: el mecanismo de acción (DG002) y las indicaciones predichas por TxGNN están ausentes, lo que impide emitir una recomendación fundamentada.
+No hay ensayos clínicos ni estudios que evalúen directamente el alopurinol en porfiria hepática. La literatura disponible es preclínica o de hipótesis, y la dirección del efecto es incierta, con indicios de que el fármaco podría incluso perturbar la síntesis del hemo. El puntaje del modelo es una predicción computacional únicamente.
 
 **Para avanzar se necesita:**
-
-- **[DG001 – Bloqueante]** Descargar e interpretar el prospecto oficial (PDF de INVIMA o AEMPS) para extraer advertencias clave y contraindicaciones.
-- **[DG002 – Alta]** Consultar DrugBank API con el INN "Alopurinol" para recuperar MOA, categorías farmacológicas y perfil de toxicidad.
-- **Verificación regulatoria manual:** Buscar en el portal de INVIMA bajo variantes ortográficas y nombres comerciales conocidos (ej. Zyloric, Lopurin) para confirmar estado de comercialización real en Colombia.
-- **Relanzar pipeline TxGNN** una vez resueltas las brechas anteriores, para obtener `predicted_indications` con puntaje y evidencia asociada.
+- Datos del mecanismo de acción del alopurinol y su efecto sobre ALAS1 y los precursores de porfirinas.
+- Estudios preclínicos que evalúen específicamente el alopurinol en modelos de porfiria hepática.
+- Revisión de las advertencias y contraindicaciones del prospecto aprobado por INVIMA.
+- Evaluación de seguridad en pacientes con porfiria, dado el riesgo potencial de empeorar el metabolismo del hemo.
 
 <!-- review:begin log -->
 
@@ -124,7 +109,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectiv" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN "ALOPURINOL", o bien a que efectiv" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

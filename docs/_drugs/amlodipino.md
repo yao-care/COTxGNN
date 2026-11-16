@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Amlodipino
 parent: Solo Predicción del Modelo (L5)
 nav_order: 52
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 9
+drugbank_id: DB00381
+monitor_inn: "Amlodipine"
+predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
+last_modified_at: 2026-11-16
+description: "Amlodipino: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: AMLODIPINO"
 ---
 
 # Amlodipino
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **9** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,66 +34,70 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## AMLODIPINO: Evaluación de Reposicionamiento — Datos Insuficientes para Predicción
+## Amlodipino: Infarto del tronco encefálico (brain stem infarction)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-AMLODIPINO es un fármaco de la clase de bloqueadores de canales de calcio, reconocido en la práctica clínica internacional para el manejo de hipertensión y angina. Sin embargo, el presente Evidence Pack **no contiene indicaciones predichas por TxGNN**, por lo que no es posible realizar una evaluación completa de reposicionamiento en este momento. Se identificaron brechas de datos críticas —incluyendo la ausencia de datos de mecanismo de acción y advertencias del prospecto— que impiden avanzar en el análisis.
-
----
+Amlodipino es un bloqueador de canales de calcio dihidropiridínico, comercializado en Colombia en múltiples registros sanitarios.
+El modelo TxGNN predice que podría ser efectivo para **infarto del tronco encefálico (brain stem infarction)**,
+pero para esta predicción no hay **ningún ensayo clínico ni publicación** que la respalde; se trata únicamente de una predicción del modelo.
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Sin datos disponibles en el sistema |
-| Nueva Indicación Predicha | Sin predicciones disponibles |
-| Puntaje de Predicción TxGNN | N/D |
-| Nivel de Evidencia | N/D |
+| Item | Contenido |
+|------|------|
+| Indicación Original | AMLODIPINO; HIDROCLOROTIAZIDA Y AGENTES AHORRADORES DE POTASIO; LOSARTAN Y AMLODIPINO; VALSARTÁN Y AMLODIPINO; PERINDOPRIL Y AMLODIPINO; VALSARTAN. AMLODIPINA E HIDROCLOROTIAZIDA. |
+| Nueva Indicación Predicha | Infarto del tronco encefálico (brain stem infarction) |
+| Puntaje de Predicción TxGNN | 0.9994 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
-| Decisión Recomendada | **Hold** |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No se Generaron Predicciones
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, amlodipino pertenece a la clase de los bloqueadores de canales de calcio de tipo L, que reducen la presión arterial mediante vasodilatación arterial.
 
-El modelo TxGNN no produjo indicaciones predichas para AMLODIPINO en este Evidence Pack. Las causas más probables son:
+Una vía indirecta plausible sería la reducción de la presión arterial para la prevención secundaria de eventos cerebrovasculares. Sin embargo, nada en los datos compilados respalda un efecto específico sobre el tronco encefálico, y la predicción no cuenta con estudios que la sustenten.
 
-**Brecha bloqueante en seguridad (DG001):** No se recuperaron las advertencias ni contraindicaciones del prospecto oficial. Este dato tiene severidad *Bloqueante*, lo que significa que el pipeline no puede completar la evaluación de seguridad inicial (S1) necesaria como insumo para el modelo.
+Es importante tener en cuenta que otras predicciones de la lista cuentan con más evidencia (por ejemplo, estudios en hemorragia intracerebral), pero este informe se centra en la predicción principal, que carece de evidencia directa.
 
-**Mecanismo de acción no disponible (DG002):** Aunque la consulta a DrugBank reportó 1 resultado en el log de consultas, el campo `original_moa` no fue poblado en el Evidence Pack. Sin este dato, el modelo carece de las relaciones mecanísticas necesarias para proyectar nuevas indicaciones con fundamento biológico.
+## Evidencia de Ensayos Clínicos
 
-<!-- review:begin co-lic-20261105-amlodipino-1 -->
+Actualmente no hay ensayos clínicos relacionados registrados.
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "**Ausencia de registros regulatorios locales:** AMLODIPINO no figura con ningún registro sanitario en el sistema consultado (0 licencias), lo que reduce adicionalmente la información de contexto disponible para el análisis." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+## Evidencia de Literatura
 
-<!-- review:end co-lic-20261105-amlodipino-1 -->
+Actualmente no hay literatura relacionada disponible.
 
----
+## Información de Mercado en Colombia
 
-## Brechas de Datos Identificadas
+A continuación se muestran los 5 principales:
 
-| ID | Ítem Faltante | Severidad | Fuente de Remediación |
-|----|--------------|-----------|----------------------|
-| DG001 | Advertencias y contraindicaciones del prospecto oficial | Bloqueante | Descarga e interpretación del prospecto en PDF desde la fuente regulatoria oficial |
-| DG002 | Mecanismo de acción (MOA) | Alta | Recuperación desde la API de DrugBank |
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 1980545 | NORVAS® 10 MG TABLETAS | Tableta | AMLODIPINO |
+| 19915210 | AMLODIPINO 5MG TABLETAS | Tableta | AMLODIPINO |
+| 19928328 | AMLODIPINO 10 MG TABLETAS | Tableta | AMLODIPINO |
+| 19977004 | AMLODIPINO 5 MG TABLETAS | Tableta | AMLODIPINO |
+| 20012876 | ABALPIN® | Tableta recubierta | AMLODIPINO |
 
----
+## Consideraciones de Seguridad
+
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El Evidence Pack no contiene indicaciones predichas por TxGNN ni registros regulatorios locales, lo que hace imposible completar la evaluación de reposicionamiento en esta etapa. Las brechas identificadas son remediables, pero deben resolverse antes de reanudar el análisis.
+La predicción principal (infarto del tronco encefálico) tiene un puntaje TxGNN muy alto (0,9994), pero no cuenta con ensayos clínicos ni literatura; es solo una predicción del modelo (nivel L5).
 
 **Para avanzar se necesita:**
-- **Resolver DG001:** Obtener y analizar el prospecto oficial para extraer advertencias, contraindicaciones e indicaciones aprobadas
-- **Resolver DG002:** Recuperar el mecanismo de acción completo desde DrugBank y validar que se popule correctamente en el Evidence Pack
-- **Re-ejecutar el pipeline TxGNN** con los datos completos para generar predicciones de nuevas indicaciones
-- **Verificar el estado regulatorio de AMLODIPINO** en el sistema INVIMA de Colombia, ya que se trata de un fármaco con amplia trayectoria clínica internacional cuya ausencia de registros locales podría deberse a un error de consulta o nombre alternativo
+- Estudios preclínicos o clínicos que evalúen directamente el efecto de amlodipino en el infarto del tronco encefálico
+- Datos del mecanismo de acción y de seguridad (advertencias y contraindicaciones del prospecto de INVIMA)
+- Revisión de las demás predicciones con evidencia, de forma separada, para priorizar líneas de investigación
 
 <!-- review:begin log -->
 
@@ -102,7 +107,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "**Ausencia de registros regulatorios locales:** AMLODIPINO no figura con ningún registro sanitario en el sistema consultado (0 licencias), l" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "**Ausencia de registros regulatorios locales:** AMLODIPINO no figura con ningún registro sanitario en el sistema consultado (0 licencias), l" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

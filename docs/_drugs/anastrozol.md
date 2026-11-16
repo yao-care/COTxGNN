@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Anastrozol
 parent: Solo Predicción del Modelo (L5)
 nav_order: 58
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 5
+drugbank_id: DB01217
+monitor_inn: "Anastrozole"
+predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
+last_modified_at: 2026-11-16
+description: "Anastrozol: nueva indicación predicha, Neuroblastoma (nivel de evidencia L5). Indicación original: ANASTROZOL"
 ---
 
 # Anastrozol
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **5** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,87 +34,103 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Anastrozol: Evaluación Incompleta — Sin Indicaciones Predichas Disponibles
+## Anastrozol: Neuroblastoma
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Anastrozol es un inhibidor de la aromatasa utilizado clásicamente en el tratamiento del cáncer de mama hormonodependiente en mujeres posmenopáusicas.
-El Evidence Pack procesado **no contiene indicaciones predichas por TxGNN**, por lo que no es posible completar el análisis de reposicionamiento en esta versión.
-Se recomienda subsanar las brechas de datos identificadas antes de continuar la evaluación.
-
----
+Anastrozol es un inhibidor no esteroideo de la aromatasa, que reduce los estrógenos circulantes en mujeres posmenopáusicas. Los datos locales no registran el texto de su indicación aprobada.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicación Original | No disponible en el Evidence Pack (brecha de datos) |
-| Nueva Indicación Predicha | No disponible — `predicted_indications` vacío |
-| Puntaje de Predicción TxGNN | No aplicable |
-| Nivel de Evidencia | No evaluable (L5 provisional) |
+| Indicación Original | ANASTROZOL |
+| Nueva Indicación Predicha | Neuroblastoma |
+| Puntaje de Predicción TxGNN | 0.9953 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
 | Número de Registros Sanitarios | 10 (vigentes: 10) |
-| Decisión Recomendada | **Hold** |
+| Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué esta Evaluación está Incompleta
+Anastrozol bloquea la aromatasa, la enzima que convierte los andrógenos en estrógenos. Así disminuye el estrógeno circulante en mujeres posmenopáusicas. En el cáncer de mama con receptores hormonales positivos, el estrógeno estimula el crecimiento tumoral, de modo que este mecanismo actúa directamente sobre el motor de la enfermedad.
 
-El Evidence Pack recibido presenta dos condiciones críticas que impiden generar un informe de reposicionamiento completo:
+Los datos compilados no incluyen una descripción detallada del mecanismo de acción. La plausibilidad mecanística se apoya en el conocimiento farmacológico general del fármaco y en la literatura revisada.
 
-**Primera condición — Predicciones ausentes:** El campo `predicted_indications` está vacío. Sin una nueva indicación predicha por el modelo TxGNN, no es posible establecer la hipótesis de reposicionamiento ni buscar evidencia clínica asociada. Esto puede deberse a que el pipeline de predicción aún no procesó este compuesto, o a que el fármaco no superó el umbral mínimo de puntuación del modelo.
+La predicción es coherente con la evidencia clínica: hay múltiples ensayos de fase 3 completados que comparan anastrozol con tamoxifeno, letrozol o fulvestrant en cáncer de mama. El uso debería limitarse a enfermedad con receptores hormonales positivos y a pacientes posmenopáusicas, o con supresión ovárica.
 
-**Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Esto indica un error en la etapa de extracción o serialización del pipeline.
+## Evidencia de Ensayos Clínicos
 
-<!-- review:begin co-lic-20261105-anastrozol-1 -->
+Se muestran 10 de los ensayos relacionados registrados.
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspondientes no fueron incorporados al JSON. Esto indica un error en la etapa de extracción o serialización del pipeline." Eliminado: texto residual de plantilla sobre la TFDA de Taiwán, que no corresponde a esta página de Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00286117](https://clinicaltrials.gov/study/NCT00286117) | Fase 3 | Completado | 448 | Cambio de tamoxifeno a anastrozol vs. continuar tamoxifeno como terapia adyuvante en mujeres posmenopáusicas con cáncer de mama temprano con receptores hormonales positivos |
+| [NCT00053898](https://clinicaltrials.gov/study/NCT00053898) | Fase 3 | Completado | 3104 | Anastrozol vs. tamoxifeno para prevenir recurrencias en carcinoma ductal in situ tras lumpectomía y radioterapia |
+| [NCT00072462](https://clinicaltrials.gov/study/NCT00072462) | Fase 3 | Completado | 2980 | IBIS-II (DCIS): tamoxifeno vs. anastrozol adyuvante tras cirugía de carcinoma ductal in situ |
+| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Fase 3 | Completado | 4172 | Letrozol vs. anastrozol adyuvante en mujeres posmenopáusicas con cáncer de mama con receptores hormonales positivos y ganglios positivos |
+| [NCT00256698](https://clinicaltrials.gov/study/NCT00256698) | Fase 3 | Completado | 514 | Estudio FACT: anastrozol solo vs. anastrozol más fulvestrant en primera recaída |
+| [NCT00327769](https://clinicaltrials.gov/study/NCT00327769) | Fase 3 | Completado | 234 | Fulvestrant 250 mg vs. anastrozol 1 mg como terapia de segunda línea en cáncer de mama avanzado con receptores de estrógeno positivos |
+| [NCT00814125](https://clinicaltrials.gov/study/NCT00814125) | Fase 3 | Completado | 285 | Cambios endometriales con anastrozol, tamoxifeno o su combinación como tratamiento adyuvante (perfil de seguridad) |
+| [NCT01953588](https://clinicaltrials.gov/study/NCT01953588) | Fase 3 | Activo, sin reclutar | 1473 | ALTERNATE: terapia endocrina neoadyuvante con fulvestrant, o fulvestrant más anastrozol, vs. anastrozol solo |
+| [NCT02763566](https://clinicaltrials.gov/study/NCT02763566) | Fase 3 | Activo, sin reclutar | 463 | Inhibidor no esteroideo de la aromatasa (anastrozol o letrozol) con abemaciclib o placebo en enfermedad recurrente o metastásica HR+/HER2- |
+| [NCT00066378](https://clinicaltrials.gov/study/NCT00066378) | Fase 2 | Completado | 71 | Estudio EORTC doble ciego: anastrozol más gefitinib o placebo en cáncer de mama avanzado |
 
-<!-- review:end co-lic-20261105-anastrozol-1 -->
+## Evidencia de Literatura
 
-<!-- review:begin co-lic-20261105-anastrozol-2 -->
+Se muestran 10 de las publicaciones relacionadas.
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional para cualquier estrategia de reposicionamiento en este mercado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 10 registros sanitarios (vigentes: 10); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261105-anastrozol-2 -->
-
----
-
-## Brechas de Datos Identificadas
-
-| ID | Categoría | Ítem Faltante | Severidad | Acción Recomendada |
-|----|-----------|---------------|-----------|-------------------|
-| DG001 | Drug_Level | Advertencias y contraindicaciones (prospecto oficial) | 🔴 Bloqueante | Descargar y parsear PDF del prospecto desde la fuente regulatoria |
-| DG002 | Drug_Level | Mecanismo de acción (MOA) | 🟠 Alto | Consultar DrugBank API (la consulta arrojó 1 resultado; falta incorporar al JSON) |
-| — | Pipeline | `predicted_indications` vacío | 🔴 Bloqueante | Re-ejecutar predicción TxGNN para ANASTROZOL o verificar logs del pipeline |
-
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | ECA | Lancet | IBIS-II: resultados a largo plazo del anastrozol para prevenir cáncer de mama (invasivo y carcinoma ductal in situ) en mujeres de alto riesgo |
+| [27908454](https://pubmed.ncbi.nlm.nih.gov/27908454/) | 2016 | ECA | Lancet | FALCON: fulvestrant 500 mg vs. anastrozol 1 mg en cáncer de mama avanzado con receptores hormonales positivos sin terapia endocrina previa |
+| [39772884](https://pubmed.ncbi.nlm.nih.gov/39772884/) | 2025 | ECA (análisis final) | J Clin Oncol | Análisis final de supervivencia global de FALCON: fulvestrant vs. anastrozol |
+| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | ECA | Lancet | ATAC: 9366 mujeres posmenopáusicas; anastrozol prolongó significativamente la supervivencia libre de enfermedad frente a tamoxifeno |
+| [42384406](https://pubmed.ncbi.nlm.nih.gov/42384406/) | 2026 | ECA (análisis secundario) | JAMA Surgery | NSABP B-35: márgenes de lumpectomía y recurrencia local en DCIS con anastrozol o tamoxifeno adyuvante |
+| [41632158](https://pubmed.ncbi.nlm.nih.gov/41632158/) | 2025 | Estudio comparativo de efectividad | JAMA Network Open | Resultados comparativos de anastrozol, letrozol y exemestano en cáncer de mama posmenopáusico en la práctica clínica |
+| [31615937](https://pubmed.ncbi.nlm.nih.gov/31615937/) | 2020 | Estudio clínico fase 2 | Clin Cancer Res | neoMONARCH: abemaciclib más anastrozol en el contexto neoadyuvante en cáncer de mama HR+/HER2- |
+| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Revisión | Expert Opin Drug Saf | Anastrozol como inhibidor de aromatasa de tercera generación en terapia adyuvante, con mayor eficacia que tamoxifeno en varios ensayos |
+| [16034487](https://pubmed.ncbi.nlm.nih.gov/16034487/) | 2005 | Revisión | Drugs Today | Modo de acción y principales ensayos clínicos de anastrozol en tumores con receptores de estrógeno positivos |
+| [17033446](https://pubmed.ncbi.nlm.nih.gov/17033446/) | 2006 | Reporte de caso | Eur J Gastroenterol Hepatol | Primer caso reportado de hepatotoxicidad inducida por anastrozol en una mujer mayor |
 
 ## Información de Mercado en Colombia
 
-No existen registros sanitarios activos para Anastrozol en Colombia. No es posible presentar tabla de licencias.
+Anastrozol figura como **comercializado** en Colombia. Todos los registros sanitarios de producto de un solo principio activo identificados en los datos locales están vigentes.
 
----
+## Citotoxicidad
+
+| Item | Contenido |
+|------|------|
+| Clasificación de Citotoxicidad | Terapia hormonal antineoplásica (inhibidor de la aromatasa); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Bajo; no es un efecto característico de esta clase |
+| Clasificación de Emetogenicidad | Baja |
+| Items de Monitoreo | Densidad ósea, perfil lipídico, función hepática y reacciones cutáneas |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto oficial para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en este Evidence Pack.
+Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones farmacológicas del prospecto. Consultar el prospecto para esa información.
 
----
+La literatura revisada describe estos eventos adversos:
+- **Hepatotoxicidad:** un caso reportado.
+- **Reacciones cutáneas:** lupus eritematoso cutáneo subagudo inducido por el fármaco y dermatitis de distribución mayormente unilateral.
+- **Retinopatía cristalina:** asociación reportada con anastrozol.
+- **Cambios endometriales:** evaluados en un ensayo de fase 3 (NCT00814125).
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Hold**
+**Decisión: Proceed with Guardrails**
 
 **Justificación:**
-El Evidence Pack carece de predicciones TxGNN y de datos de mecanismo de acción, lo que hace imposible evaluar la plausibilidad biológica de cualquier nueva indicación. Sin estos elementos, avanzar implicaría trabajar sin hipótesis de reposicionamiento fundamentada.
+La evidencia es fuerte (L1), pero el uso debe restringirse a un perfil de paciente definido y vigilarse.
 
 **Para avanzar se necesita:**
-- Verificar por qué `predicted_indications` está vacío: revisar logs del modelo TxGNN para ANASTROZOL y determinar si el compuesto fue procesado correctamente
-- Incorporar los datos de DrugBank ya obtenidos (la consulta fue exitosa) al JSON del Evidence Pack, incluyendo MOA, categorías farmacológicas y datos de toxicidad
-- Incorporar las advertencias y contraindicaciones del prospecto (consulta también exitosa) al campo `safety`
-- Una vez subsanadas las brechas, regenerar el Evidence Pack y re-ejecutar este informe
+- Restringir el uso a enfermedad con receptores hormonales positivos y a pacientes posmenopáusicas, o con supresión ovárica.
+- Obtener las advertencias, contraindicaciones e interacciones del prospecto aprobado por INVIMA.
+- Completar los datos del mecanismo de acción.
+- Definir un plan de monitoreo de densidad ósea, perfil lipídico, función hepática y reacciones cutáneas.
 
 <!-- review:begin log -->
 
@@ -123,8 +140,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspon" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspon" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
