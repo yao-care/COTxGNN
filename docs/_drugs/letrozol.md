@@ -1,21 +1,21 @@
 ---
 layout: default
 title: Letrozol
-parent: Evidencia Alta (L1-L2)
+parent: Solo Predicción del Modelo (L5)
 nav_order: 391
-evidence_level: L1
+evidence_level: L5
 indication_count: 4
 drugbank_id: DB01006
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 last_modified_at: 2026-11-16
-description: "Letrozol: nueva indicación predicha, Nipple carcinoma (nivel de evidencia L1). Indicación original: LETROZOL"
+description: "Letrozol: nueva indicación predicha, Carcinoma del pezón (nipple carcinoma) (nivel de evidencia L5). Indicación original: LETROZOL"
 ---
 
 # Letrozol
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -34,64 +34,53 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-## Letrozol: Nipple carcinoma
+## Letrozol: Carcinoma del pezón (nipple carcinoma)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Letrozol es un inhibidor no esteroideo de la aromatasa que reduce la síntesis de estrógenos.
+Letrozol es un inhibidor de la aromatasa que reduce la síntesis de estrógenos y que en Colombia cuenta con múltiples registros sanitarios vigentes.
+El modelo TxGNN predice que podría ser efectivo para **carcinoma del pezón (nipple carcinoma)**,
+pero actualmente no hay ensayos clínicos registrados y la literatura disponible se limita a **reportes de caso y revisiones** sobre cáncer de mama y de pezón, sin estudios que evalúen letrozol directamente en esta enfermedad.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | LETROZOL |
-| Nueva Indicación Predicha | Nipple carcinoma |
+| Nueva Indicación Predicha | Carcinoma del pezón (nipple carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9976 |
-| Nivel de Evidencia | L1 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
 | Número de Registros Sanitarios | 8 (vigentes: 8) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, letrozol es un inhibidor no esteroideo de la aromatasa: bloquea la conversión de andrógenos en estrógenos y reduce la señal de crecimiento que los estrógenos aportan a los tumores de mama con receptores hormonales positivos.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, letrozol es un inhibidor de la aromatasa: bloquea la conversión de andrógenos en estrógenos y, con ello, reduce los estrógenos circulantes. Es una terapia endocrina establecida en el cáncer de mama con receptores hormonales positivos.
 
-Este mecanismo encaja de forma directa con el carcinoma de mama dependiente de estrógenos. Por ello, la predicción es más una confirmación de un uso clínico establecido que un reposicionamiento nuevo. Los ensayos recopilados (adyuvante extendido, primera línea metastásica y combinaciones con inhibidores de CDK4/6) estudian letrozol precisamente en este contexto.
+Los carcinomas de la región del pezón (por ejemplo, el carcinoma papilar originado en el pezón o las lesiones tipo Paget) surgen del epitelio mamario y podrían expresar receptores de estrógeno o progesterona. Por ello, un mecanismo de privación estrogénica es biológicamente plausible.
 
-Como salvaguardas se sugiere confirmar el estado de receptores hormonales, la condición posmenopáusica (o supresión ovárica), y vigilar la densidad ósea y los lípidos.
+Sin embargo, esta relación es indirecta: se apoya en la cercanía con el cáncer de mama en general y no en datos específicos del pezón. El puntaje alto del modelo es una predicción computacional y no constituye evidencia clínica.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes de los datos compilados.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00003140](https://clinicaltrials.gov/study/NCT00003140) | Fase 3 | Completado | 5187 | Letrozol vs placebo, doble ciego, en cáncer de mama primario tras 5 o más años de tamoxifeno adyuvante |
-| [NCT03096847](https://clinicaltrials.gov/study/NCT03096847) | Fase 3 | Completado | 502 | Ribociclib + letrozol en cáncer de mama avanzado HR+/HER2-, en mujeres y hombres |
-| [NCT00083993](https://clinicaltrials.gov/study/NCT00083993) | Fase 3 | Terminado | 1236 | Temsirolimus + letrozol vs letrozol como primera línea hormonal; estudio terminado |
-| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Fase 3 | Completado | 4172 | Letrozol vs anastrozol adyuvante en cáncer de mama con receptores hormonales y ganglios positivos |
-| [NCT00949598](https://clinicaltrials.gov/study/NCT00949598) | Fase 3 | Completado | 177 | Letrozol vs tamoxifeno neoadyuvante en mujeres posmenopáusicas con cáncer ER+ |
-| [NCT02763566](https://clinicaltrials.gov/study/NCT02763566) | Fase 3 | Activo, sin reclutar | 463 | Inhibidor de aromatasa no esteroideo (anastrozol o letrozol) + abemaciclib vs placebo |
-| [NCT02246621](https://clinicaltrials.gov/study/NCT02246621) | Fase 3 | Activo, sin reclutar | 493 | Inhibidor de aromatasa no esteroideo + abemaciclib vs placebo en primera línea |
-| [NCT06507618](https://clinicaltrials.gov/study/NCT06507618) | Fase 3 | Reclutando | 354 | Ventana preoperatoria de terapia endocrina en mujeres mayores con cáncer temprano (POWER II) |
-| [NCT00634634](https://clinicaltrials.gov/study/NCT00634634) | Fase 1/2 | Completado | 52 | Letrozol + sorafenib en cáncer de mama avanzado o metastásico con receptores hormonales positivos |
-| [NCT02400567](https://clinicaltrials.gov/study/NCT02400567) | Fase 2 | Completado | 125 | Letrozol + palbociclib vs quimioterapia neoadyuvante en cáncer luminal de riesgo bajo/intermedio |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [35263519](https://pubmed.ncbi.nlm.nih.gov/35263519/) | 2022 | ECA | N Engl J Med | Supervivencia global con ribociclib + letrozol en cáncer de mama avanzado |
-| [29718092](https://pubmed.ncbi.nlm.nih.gov/29718092/) | 2018 | ECA | Ann Oncol | Resultados actualizados de MONALEESA-2: ribociclib + letrozol en primera línea HR+/HER2- |
-| [30632023](https://pubmed.ncbi.nlm.nih.gov/30632023/) | 2019 | ECA | Breast Cancer Res Treat | Palbociclib + letrozol en primera línea ER+/HER2- con seguimiento extendido |
-| [31838010](https://pubmed.ncbi.nlm.nih.gov/31838010/) | 2020 | ECA | Lancet Oncol | CORALLEEN: ribociclib + letrozol vs quimioterapia en cáncer luminal B posmenopáusico |
-| [36243120](https://pubmed.ncbi.nlm.nih.gov/36243120/) | 2022 | Revisión | Life Sci | Farmacología, toxicidad y efectos terapéuticos potenciales de letrozol |
-| [20095792](https://pubmed.ncbi.nlm.nih.gov/20095792/) | 2010 | Revisión | Expert Opin Drug Metab Toxicol | Farmacodinamia, farmacocinética, eficacia clínica y seguridad de letrozol |
-| [17544670](https://pubmed.ncbi.nlm.nih.gov/17544670/) | 2007 | Revisión | Breast | Uso de letrozol adyuvante extendido; ensayo MA-17 |
-| [12538503](https://pubmed.ncbi.nlm.nih.gov/12538503/) | 2003 | Revisión | Clin Cancer Res | Diferencias clínicas entre los inhibidores de aromatasa |
-| [12442345](https://pubmed.ncbi.nlm.nih.gov/12442345/) | 2002 | Revisión | Cancer Invest | Efectos antitumorales de letrozol; el más potente de su clase |
-| [30118901](https://pubmed.ncbi.nlm.nih.gov/30118901/) | 2018 | Reporte clínico | Breast | Ribociclib + letrozol con radioterapia paliativa concomitante en cáncer metastásico |
+| [41607681](https://pubmed.ncbi.nlm.nih.gov/41607681/) | 2026 | Reporte de caso y revisión | Clinical Case Reports | Carcinoma papilar sólido in situ originado en el pezón en una mujer de 73 años; hay poca evidencia sobre criterios diagnósticos y tratamiento óptimo |
+| [33120755](https://pubmed.ncbi.nlm.nih.gov/33120755/) | 2020 | Cohorte/Retrospectivo (reporte de caso) | Medicine | Eficacia de la terapia endocrina neoadyuvante en carcinoma neuroendocrino de mama poco diferenciado; no es específico del pezón |
+| [42040393](https://pubmed.ncbi.nlm.nih.gov/42040393/) | 2026 | Reporte de caso | Clinical Case Reports | Carcinoma de células altas de mama con polaridad invertida y mutación IDH1 R132, con secreción purulenta por el pezón |
+| [40395253](https://pubmed.ncbi.nlm.nih.gov/40395253/) | 2025 | Reporte de caso | Cureus | Recurrencia axilar inusual en cáncer de mama que se presentó con secreción sanguinolenta por el pezón |
+| [34495428](https://pubmed.ncbi.nlm.nih.gov/34495428/) | 2021 | Reporte de caso y revisión | Surgical Case Reports | Cáncer de mama accesorio en la región inframamaria |
+| [39682607](https://pubmed.ncbi.nlm.nih.gov/39682607/) | 2024 | Reporte de caso | Diagnostics (Basel) | Cáncer de mama accesorio metastásico sincrónico con cáncer de mama ipsilateral |
+| [42416948](https://pubmed.ncbi.nlm.nih.gov/42416948/) | 2026 | Reporte de caso | Cureus | Carcinoma lobulillar in situ florido: hallazgos ecográficos |
+| [42305961](https://pubmed.ncbi.nlm.nih.gov/42305961/) | 2026 | Reporte de caso | Frontiers in Medicine | Tríada de neoplasias sincrónicas: cáncer de mama accesorio, carcinoma papilar de tiroides y papiloma nasal inflamatorio |
+
+Ninguna de estas publicaciones estudia letrozol directamente en el carcinoma del pezón, por lo que el nivel de evidencia se mantiene en L5.
 
 ## Información de Mercado en Colombia
 
@@ -108,27 +97,27 @@ Se muestran los 10 ensayos más relevantes de los datos compilados.
 | Item | Contenido |
 |------|------|
 | Clasificación de Citotoxicidad | Terapia hormonal (inhibidor de la aromatasa); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Densidad mineral ósea, perfil lipídico, estado menopáusico, hemograma y función hepática según criterio clínico |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para informacion de seguridad.
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-Hay ensayos de Fase 3 completados que estudian letrozol directamente en cáncer de mama (por ejemplo, letrozol vs placebo tras tamoxifeno, con 5187 participantes), además de ECA publicados con combinaciones basadas en letrozol. La evidencia es sólida, pero faltan datos locales de seguridad y de mecanismo.
+La predicción se basa solo en el modelo y en un razonamiento mecanístico indirecto. No hay ensayos clínicos y la literatura son reportes de caso que no evalúan letrozol en el carcinoma del pezón.
 
 **Para avanzar se necesita:**
-- Obtener advertencias y contraindicaciones del prospecto de INVIMA
-- Completar los datos del mecanismo de acción
-- Definir criterios de selección: receptores hormonales positivos, estado posmenopáusico o supresión ovárica
-- Plan de monitoreo de densidad ósea y lípidos
+- Estudios que evalúen letrozol directamente en carcinoma del pezón o enfermedad de Paget (por ejemplo, series de casos con estado de receptores hormonales)
+- Datos de mecanismo de acción confirmados (por ejemplo, desde DrugBank)
+- Advertencias y contraindicaciones del prospecto de INVIMA para el análisis de seguridad
+- Evaluación del beneficio y riesgo de la privación estrogénica (pérdida ósea, síntomas menopáusicos) en esta población
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

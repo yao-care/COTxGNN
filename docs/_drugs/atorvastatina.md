@@ -3,19 +3,19 @@ layout: default
 title: Atorvastatina
 parent: Evidencia Alta (L1-L2)
 nav_order: 74
-evidence_level: L1
+evidence_level: L2
 indication_count: 4
 drugbank_id: DB01076
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 last_modified_at: 2026-11-16
-description: "Atorvastatina: nueva indicación predicha, HIV infectious disease (nivel de evidencia L1). Indicación original: ATORVASTATIN"
+description: "Atorvastatina: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). Indicación original: ATORVASTATIN"
 ---
 
 # Atorvastatina
 {: .fs-9 }
 
-Nivel de evidencia: **L1** | Indicaciones predichas: **4** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -34,95 +34,91 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **4**
 
 </div>
 
-## Atorvastatina: HIV infectious disease
+## Atorvastatina: Infección por VIH (HIV infectious disease)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Atorvastatina es una estatina que reduce el colesterol LDL y se comercializa en Colombia en múltiples presentaciones orales.
+Atorvastatina es una estatina, es decir, un inhibidor de la HMG-CoA reductasa, comercializada en Colombia en varias presentaciones orales. El modelo TxGNN predice que podría ser útil en la **infección por VIH (HIV infectious disease)**, con **14 ensayos clínicos** y **20 publicaciones** en los datos compilados. La evidencia apunta sobre todo a reducir la inflamación crónica y la activación inmune, y no hay evidencia de efecto antiviral directo.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ATORVASTATIN; ATORVASTATINA Y EZETIMIBE |
-| Nueva Indicación Predicha | HIV infectious disease |
+| Nueva Indicación Predicha | Infección por VIH (HIV infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9931 |
-| Nivel de Evidencia | L1 |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la atorvastatina inhibe la HMG-CoA reductasa, enzima clave de la síntesis de colesterol; esto aumenta los receptores hepáticos de LDL y reduce el colesterol LDL.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Se sabe que atorvastatina es una estatina que inhibe la HMG-CoA reductasa. Estos fármacos tienen efectos pleiotrópicos que van más allá de la reducción del colesterol LDL, como menor señalización dependiente de isoprenilación y menores marcadores inflamatorios.
 
-En la hipercolesterolemia familiar heterocigota persiste cierta función residual del receptor de LDL, por lo que las estatinas son eficaces. En la forma homocigota o con receptor nulo la respuesta es menor y suele requerir tratamiento adicional (ezetimiba, inhibidores de PCSK9 o evinacumab).
+En la infección por VIH persisten la inflamación crónica, la activación de monocitos y macrófagos y la activación de linfocitos T, incluso con la replicación viral suprimida. Estos procesos se asocian con comorbilidades cardiovasculares y neurocognitivas. Mecanísticamente, atorvastatina podría modularlos. Por eso la racionalidad más sólida es para la comorbilidad cardiovascular e inflamatoria asociada al VIH, y de forma posible para los trastornos neurocognitivos asociados al VIH (HAND).
 
-Se trata de un uso central de la clase terapéutica, por lo que la predicción funciona más como una validación del modelo que como un reposicionamiento en sentido estricto.
+**No hay evidencia de eficacia antiviral directa.** El ensayo que evaluó la replicación viral (NCT00355251) se terminó anticipadamente con solo 5 participantes. Los ensayos de Fase 2 completados son pequeños (24 a 53 participantes) y los datos compilados no incluyen resultados de eficacia. El único ensayo de Fase 3 con alto número de participantes (NCT03037372) tiene estado desconocido y parece ser un diseño de equivalencia entre estatinas.
 
 ## Evidencia de Ensayos Clínicos
 
-Se listan los ensayos más relevantes. Muchos prueban un fármaco añadido sobre atorvastatina de base, por lo que aportan evidencia indirecta.
+Se muestran los 10 ensayos más relevantes de los 14 registrados.
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00827606](https://clinicaltrials.gov/study/NCT00827606) | Fase 3 | Completado | 272 | Estudio abierto de 3 años sobre eficacia, seguridad, crecimiento y desarrollo de atorvastatina en niños y adolescentes con hipercolesterolemia familiar heterocigota |
-| [NCT00739999](https://clinicaltrials.gov/study/NCT00739999) | Fase 1 | Completado | 39 | Farmacocinética, farmacodinamia y seguridad de atorvastatina en niños y adolescentes con hipercolesterolemia familiar heterocigota (8 semanas) |
-| [NCT00136981](https://clinicaltrials.gov/study/NCT00136981) | Fase 3 | Completado | 800 | Torcetrapib/atorvastatina vs. atorvastatina sola, ecografía carotídea en hipercolesterolemia familiar heterocigota; el programa de torcetrapib se terminó por hallazgos de seguridad |
-| [NCT00134485](https://clinicaltrials.gov/study/NCT00134485) | Fase 3 | Completado | 400 | Torcetrapib/atorvastatina vs. atorvastatina sola en hipercolesterolemia familiar heterocigota |
-| [NCT00134511](https://clinicaltrials.gov/study/NCT00134511) | Fase 3 | Completado | 30 | Torcetrapib/atorvastatina en hipercolesterolemia familiar homocigota (estudio abierto) |
-| [NCT03884452](https://clinicaltrials.gov/study/NCT03884452) | Fase 3 | Completado | 50 | Ezetimiba añadida a atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
-| [NCT03885921](https://clinicaltrials.gov/study/NCT03885921) | Fase 3 | Completado | 44 | Extensión abierta de seguridad a largo plazo de ezetimiba con atorvastatina o simvastatina en hipercolesterolemia familiar homocigota |
-| [NCT01709500](https://clinicaltrials.gov/study/NCT01709500) | Fase 3 | Completado | 249 | Alirocumab vs. placebo en hipercolesterolemia familiar heterocigota con control insuficiente |
-| [NCT03510884](https://clinicaltrials.gov/study/NCT03510884) | Fase 3 | Completado | 153 | Alirocumab vs. placebo en niños y adolescentes con hipercolesterolemia familiar heterocigota, con tratamiento de estatina de base |
-| [NCT03510715](https://clinicaltrials.gov/study/NCT03510715) | Fase 3 | Completado | 18 | Alirocumab abierto en niños y adolescentes con hipercolesterolemia familiar homocigota |
+| [NCT03037372](https://clinicaltrials.gov/study/NCT03037372) | Fase 3 | Desconocido | 320 | Atorvastatina vs. rosuvastatina durante 36 meses como terapia adyuvante en adultos africanos con TAR; evalúa activación inmune, inflamación y envejecimiento inmune. Sin resultados |
+| [NCT01766076](https://clinicaltrials.gov/study/NCT01766076) | Fase 3 | Completado | 30 | ECA de atorvastatina adyuvante en respondedores subóptimos a la TAR (recuperación de CD4); evalúa cambios en la activación inmune |
+| [NCT00367458](https://clinicaltrials.gov/study/NCT00367458) | Fase 2 | Completado | 24 | ECA controlado con placebo en pacientes VIH+ sin TAR; evalúa carga viral y marcadores de activación inmune |
+| [NCT02081638](https://clinicaltrials.gov/study/NCT02081638) | Fase 2 | Completado | 53 | Estatina vs. aspirina en controladores de élite y pacientes VIH+ con TAR; evalúa inflamación y coagulación. Sin resultados en los datos |
+| [NCT00965185](https://clinicaltrials.gov/study/NCT00965185) | No aplica | Completado | 40 | Terapia con estatina para reducir inflamación de placas y aterosclerosis en pacientes con VIH |
+| [NCT01600170](https://clinicaltrials.gov/study/NCT01600170) | Fase 4 | Completado | 11 | Modulación de la activación de monocitos/macrófagos con estatina para trastornos neurocognitivos asociados al VIH; muestra pequeña |
+| [NCT01263938](https://clinicaltrials.gov/study/NCT01263938) | Fase 4 | Completado | 5 | Estudio piloto de atorvastatina sobre la activación de monocitos con TAR; muy pequeño |
+| [NCT00355251](https://clinicaltrials.gov/study/NCT00355251) | Fase 4 | Terminado | 5 | Efecto de atorvastatina sobre la replicación viral antes de interrumpir la TAR; terminado anticipadamente, no informativo |
+| [NCT00663234](https://clinicaltrials.gov/study/NCT00663234) | Fase 1/2 | Terminado | 28 | Seguridad y eficacia de dosis crecientes de atorvastatina para el LDL elevado por inhibidores de proteasa en niños y adolescentes con VIH |
+| [NCT00000941](https://clinicaltrials.gov/study/NCT00000941) | Fase 1 | Completado | 56 | Interacciones farmacocinéticas entre inhibidores de proteasa (ritonavir, saquinavir, nelfinavir) y fármacos hipolipemiantes, entre ellos atorvastatina |
 
 ## Evidencia de Literatura
 
+Se muestran 10 de las 20 publicaciones, priorizando ensayos aleatorizados.
+
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [25760954](https://pubmed.ncbi.nlm.nih.gov/25760954/) | 2015 | Revisión (Cochrane) | Cochrane Database Syst Rev | Eficacia de atorvastatina para reducir lípidos según la dosis |
-| [28437620](https://pubmed.ncbi.nlm.nih.gov/28437620/) | 2017 | Guía | Endocr Pract | Guías AACE/ACE para el manejo de dislipidemia y prevención cardiovascular |
-| [9301631](https://pubmed.ncbi.nlm.nih.gov/9301631/) | 1997 | Estudio abierto | Arterioscler Thromb Vasc Biol | Atorvastatina 80 mg, en una o dos tomas, fue eficaz y bien tolerada en hipercolesterolemia familiar (22 sujetos) |
-| [12883464](https://pubmed.ncbi.nlm.nih.gov/12883464/) | 2003 | Estudio clínico | Med Sci Monit | Atorvastatina redujo la microalbuminuria en pacientes con hipercolesterolemia familiar |
-| [15199433](https://pubmed.ncbi.nlm.nih.gov/15199433/) | 2004 | Revisión | Semin Vasc Med | Aspectos diagnósticos, clínicos y terapéuticos de la hipercolesterolemia familiar en niños |
-| [10582478](https://pubmed.ncbi.nlm.nih.gov/10582478/) | 1999 | Revisión | Rev Med Brux | Mecanismo y eficacia de atorvastatina como estatina de segunda generación |
-| [9793596](https://pubmed.ncbi.nlm.nih.gov/9793596/) | 1998 | Revisión | Ann Pharmacother | Eficacia y seguridad de atorvastatina en dislipidemias |
-| [35361995](https://pubmed.ncbi.nlm.nih.gov/35361995/) | 2022 | Cohorte | Pharmacogenomics J | Estrategia genética combinada de hipercolesterolemia familiar y farmacogenómica de estatinas |
-| [33976097](https://pubmed.ncbi.nlm.nih.gov/33976097/) | 2021 | Revisión | Med Lett Drugs Ther | Evinacumab para hipercolesterolemia familiar homocigota |
-| [14727947](https://pubmed.ncbi.nlm.nih.gov/14727947/) | 2003 | Revisión | Am J Cardiovasc Drugs | Ezetimiba como inhibidor de la absorción de colesterol |
+| [37450602](https://pubmed.ncbi.nlm.nih.gov/37450602/) | 2023 | ECA abierto | AIDS | Atorvastatina vs. aspirina en controladores de élite y personas con VIH en TAR, con el objetivo de reducir la inflamación residual. Los datos compilados no incluyen resultados |
+| [25441397](https://pubmed.ncbi.nlm.nih.gov/25441397/) | 2015 | ECA cruzado | Trop Med Int Health | En adultos de Uganda con respuesta inmune subóptima a la TAR, atorvastatina redujo la activación y el agotamiento de linfocitos T |
+| [37772075](https://pubmed.ncbi.nlm.nih.gov/37772075/) | 2021 | ECA | F1000Research | Atorvastatina frente a placebo sobre la aterosclerosis subclínica en pacientes con VIH suprimido y seropositivos a CMV. Los datos compilados no incluyen resultados |
+| [18991624](https://pubmed.ncbi.nlm.nih.gov/18991624/) | 2008 | Aleatorizado abierto | Curr HIV Res | Comparación de rosuvastatina, pravastatina y atorvastatina en 94 pacientes con hipercolesterolemia por inhibidores de proteasa |
+| [26658651](https://pubmed.ncbi.nlm.nih.gov/26658651/) | 2016 | Revisión | Curr Opin Infect Dis | Evalúa la evidencia de que las estatinas reducen el riesgo cardiovascular en personas con VIH |
+| [29804227](https://pubmed.ncbi.nlm.nih.gov/29804227/) | 2018 | Revisión | Curr Infect Dis Rep | Beneficios y riesgos de las estatinas en la población con VIH en TAR |
+| [41774493](https://pubmed.ncbi.nlm.nih.gov/41774493/) | 2026 | Preclínico (ratón) | JCI Insight | Atorvastatina suprimió la fibrosis y la disfunción cardíaca inducidas por VIH y antirretrovirales, al bloquear la señalización plaquetaria de TGF-β1 |
+| [28364370](https://pubmed.ncbi.nlm.nih.gov/28364370/) | 2017 | Recomendaciones | Am J Cardiovasc Drugs | Recomendaciones para manejar interacciones entre estatinas y antirretrovirales |
+| [32028327](https://pubmed.ncbi.nlm.nih.gov/32028327/) | 2020 | Ensayo farmacocinético | AIDS | La edad no modifica la magnitud de las interacciones entre atorvastatina y darunavir potenciado en personas mayores de 55 años con VIH |
+| [10449305](https://pubmed.ncbi.nlm.nih.gov/10449305/) | 1999 | Estudio clínico | AIDS | Uso de atorvastatina en la hiperlipidemia asociada a inhibidores de proteasa |
 
 ## Información de Mercado en Colombia
 
-Se muestran cinco de los registros sanitarios; la lista de registros es parcial (al menos 20 registros).
-
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19908144 | ATORVASTATINA 20 MG. | Tableta recubierta | ATORVASTATIN |
-| 19913750 | ATORVASTATINA 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | ATORVASTATIN |
-| 19919867 | LIPITOR® 40 MG. TABLETAS | Tableta | ATORVASTATIN |
-| 19935527 | LIPITOR® 80 MG TABLETAS | Tableta recubierta | ATORVASTATIN |
-| 19950621 | ATORVASTATINA 20 MG COMPRIMIDOS CON CUBIERTA PELICULAR | Tableta cubierta con película | ATORVASTATIN |
+Atorvastatina figura como **comercializada** en Colombia. La lista de registros puede ser parcial. Las presentaciones son orales: tabletas, tabletas recubiertas y tabletas cubiertas con película.
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad.
-
-Como referencia a considerar, los ensayos compilados para este informe muestran que la atorvastatina se usa a menudo junto con otros fármacos, y el programa de torcetrapib fue terminado por hallazgos de seguridad de ese compuesto, no de la atorvastatina.
+- **Advertencias y contraindicaciones del prospecto:** los datos compilados no incluyen esta información. Consultar el prospecto para la información de seguridad.
+- **Interacciones farmacológicas (según literatura y ensayos farmacocinéticos):**
+  - Los inhibidores de proteasa potenciados (ritonavir, cobicistat) y algunos no nucleósidos (por ejemplo, efavirenz) modifican la exposición a atorvastatina mediante CYP3A4.
+  - Se requieren límites de dosis, revisión de interacciones y vigilancia de miopatía.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen ensayos de Fase 3 completados en hipercolesterolemia familiar con atorvastatina como tratamiento de base o comparador, además de un ensayo pediátrico de 3 años de la propia atorvastatina y estudios publicados de eficacia. La plausibilidad mecanística es alta, pero faltan datos de seguridad locales.
+- Hay ensayos aleatorizados de Fase 2 y Fase 3 completados que estudian directamente atorvastatina en personas con VIH (nivel L2). Son pequeños, sin resultados de eficacia en los datos compilados y sin evidencia de efecto antiviral directo. La indicación debe plantearse como pregunta de investigación sobre inflamación y comorbilidad cardiovascular y neurocognitiva, no como tratamiento antiviral.
 
 **Para avanzar se necesita:**
-- Obtener del prospecto de INVIMA las advertencias y contraindicaciones, que no están disponibles en los datos compilados
-- Documentar el mecanismo de acción desde una fuente de referencia como DrugBank
-- Aclarar la evidencia de eficacia propia de la atorvastatina frente a la de los tratamientos añadidos
-- Definir esquemas para la forma homocigota o con receptor nulo, que normalmente requiere terapia adicional
+- Resultados publicados de NCT02081638, NCT00367458 y NCT01766076, y el estado actual de NCT03037372.
+- Un ensayo de Fase 3 controlado con placebo y desenlaces clínicos (eventos cardiovasculares o neurocognitivos).
+- Las advertencias y contraindicaciones del prospecto de INVIMA.
+- Datos detallados del mecanismo de acción (MOA).
+- Un plan de manejo de interacciones con antirretrovirales (límites de dosis y monitoreo de miopatía y de la función hepática).
 
 <!-- review:begin log -->
 

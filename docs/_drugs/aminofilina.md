@@ -39,9 +39,8 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Aminofilina es una metilxantina que actúa como antagonista no selectivo de los receptores de adenosina e inhibidor de la fosfodiesterasa.
-El modelo TxGNN predice que podría ser efectiva para **trastorno de migraña (migraine disorder)**,
-pero actualmente no hay ensayos clínicos registrados y solo una revisión narrativa reciente (2023) respalda esta dirección de forma indirecta.
+Aminofilina es una metilxantina (antagonista de los receptores de adenosina e inhibidor de la fosfodiesterasa) con registro sanitario vigente en Colombia en forma de solución inyectable.
+El modelo TxGNN predice que podría ser útil para el **trastorno de migraña (migraine disorder)**, pero actualmente no hay ensayos clínicos registrados y solo se dispone de **4 publicaciones** (una revisión narrativa de 2023, dos reportes de caso y una revisión antigua de 1964).
 
 ## Resumen Rápido
 
@@ -57,11 +56,11 @@ pero actualmente no hay ensayos clínicos registrados y solo una revisión narra
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la aminofilina es un antagonista no selectivo de los receptores de adenosina y un inhibidor de la fosfodiesterasa.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la aminofilina es una metilxantina que bloquea los receptores de adenosina e inhibe la fosfodiesterasa.
 
-La señalización de adenosina se ha vinculado con la activación trigeminovascular y la vasodilatación cerebral, por lo que antagonizarla es un mecanismo plausible para modular la cefalea y el dolor. Una revisión de 2023 plantea que la migraña podría asociarse con un metabolismo energético cerebral alterado y niveles elevados de adenosina, y describe un posible alivio con aminofilina, en particular en la cefalea pospunción dural.
+La señalización de adenosina participa en la activación trigeminovascular y en la vasodilatación cerebral, por lo que antagonizarla es mecanísticamente plausible en cefalea y migraña. Una revisión de 2023 (PMID 38059379) plantea que la migraña podría estar asociada a un metabolismo energético cerebral alterado con niveles elevados de adenosina, y que la aminofilina podría aliviar el dolor, en especial la cefalea pospunción dural. Un reporte de caso describe además un episodio de migraña hemipléjica desencadenado por regadenosón, un agonista de adenosina, lo que respalda el mecanismo de forma indirecta.
 
-Los reportes de caso sobre migraña hemipléjica desencadenada por regadenosón (agonista de adenosina) y sobre un síndrome X con "migraña miocárdica" por exceso de adenosina apoyan el mecanismo, pero no constituyen evidencia directa de eficacia. Ningún estudio citado evalúa de forma directa la aminofilina como tratamiento de la migraña en ensayos controlados; por ello el nivel de evidencia se mantiene en L5.
+Aun así, el respaldo es de tipo narrativo y de casos individuales. No hay ensayos clínicos controlados que evalúen la aminofilina en migraña.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -71,35 +70,34 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revisión | Pain Management | Propone que la migraña se asocia con metabolismo energético cerebral alterado y exceso de adenosina; la aminofilina podría aliviar el dolor, sobre todo la cefalea pospunción dural |
-| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Reporte de caso | J Nucl Cardiol | Episodio de migraña hemipléjica desencadenado por regadenosón, agonista de adenosina A2A |
-| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Reporte de caso | Can J Cardiol | Síndrome X por efecto excesivo de adenosina, descrito como "migraña miocárdica" sin isquemia |
-| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Revisión | Aggiornamenti Clinicoterapeutici | Revisión histórica sobre cefaleas, sin resumen disponible |
+| [38059379](https://pubmed.ncbi.nlm.nih.gov/38059379/) | 2023 | Revisión | Pain management | La migraña podría estar impulsada por un metabolismo energético cerebral alterado con adenosina elevada; la aminofilina, antagonista de adenosina, podría dar alivio en dolor, sobre todo en cefalea pospunción dural |
+| [34308528](https://pubmed.ncbi.nlm.nih.gov/34308528/) | 2022 | Reporte de caso | Journal of Nuclear Cardiology | Episodio de migraña hemipléjica desencadenado por regadenosón (agonista de adenosina A2A) |
+| [7728647](https://pubmed.ncbi.nlm.nih.gov/7728647/) | 1995 | Reporte de caso | Canadian Journal of Cardiology | Paciente con síndrome X por efecto excesivo de adenosina ("migraña miocárdica") |
+| [14168418](https://pubmed.ncbi.nlm.nih.gov/14168418/) | 1964 | Revisión | Aggiornamenti Clinicoterapeutici | Revisión antigua sobre cefaleas de origen médico, sin resumen disponible |
 
 ## Información de Mercado en Colombia
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19924459 | AMINOFILINA 250 MG / 10 ML SOLUCION INYECTABLE | Solución inyectable | AMINOFILINA |
+| 19924459 | AMINOFILINA 250 MG / 10 ML SOLUCION INYECTABLE | Solución inyectable | No se registra texto de indicación en los datos locales |
 
 ## Consideraciones de Seguridad
 
 Consultar el prospecto para información de seguridad.
-
-Como señal adicional de precaución, la literatura recuperada para otras predicciones describe que la aminofilina puede agravar la taquicardia y el temblor en la tirotoxicosis, y que la suspensión de la vasodilatación inducida por aminofilina se asoció con vasoespasmo coronario en angina variante. Estos hallazgos no se refieren a migraña, pero conviene tenerlos en cuenta en una evaluación de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0,9988), pero no existen ensayos clínicos ni estudios que evalúen directamente la aminofilina para migraña con datos controlados; la base es una revisión narrativa y reportes de caso mecanísticos.
+Ningún estudio citado evalúa directamente la aminofilina como tratamiento de la migraña en ensayos clínicos; la evidencia se limita a una revisión narrativa y reportes de caso, por lo que el nivel de evidencia es L5 y la predicción sigue siendo una pregunta de investigación.
 
 **Para avanzar se necesita:**
-- Ensayos clínicos controlados que evalúen aminofilina en migraña (por ejemplo, cefalea pospunción dural o migraña aguda)
 - Datos del mecanismo de acción confirmados desde fuentes farmacológicas
-- Información de seguridad del prospecto (advertencias y contraindicaciones), actualmente no disponible
-- Evaluación del perfil de riesgo cardiovascular y de arritmias en la población objetivo
+- Advertencias y contraindicaciones del prospecto aprobado por INVIMA
+- Estudios clínicos controlados (por ejemplo, fase 2) en migraña o cefalea
+- Evaluación de la vía de administración (solución inyectable) frente a las necesidades de la migraña
+- Revisión de seguridad, incluidos riesgos cardiovasculares y de interacción con otros fármacos
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

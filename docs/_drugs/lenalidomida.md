@@ -39,9 +39,7 @@ Nivel de evidencia: **L2** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Lenalidomida es un inmunomodulador oral que actúa sobre la proteína cereblón (CRBN) y cuenta con múltiples registros sanitarios vigentes en Colombia.
-El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide (myeloid leukemia)**,
-con **40 ensayos clínicos** y **19 publicaciones** recuperados en los datos compilados para este informe; sin embargo, ninguna de las publicaciones evalúa directamente esta enfermedad con lenalidomida como intervención principal de forma concluyente (son sobre todo revisiones de síndromes mielodisplásicos).
+Lenalidomida es un inmunomodulador oral con registro sanitario vigente en Colombia. El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide (myeloid leukemia)**, con **43 ensayos clínicos** registrados (varios de Fase 2 completados en leucemia mieloide aguda) y **20 publicaciones** recuperadas, de las cuales la mayoría son revisiones sobre síndromes mielodisplásicos que aplican de forma indirecta.
 
 ## Resumen Rápido
 
@@ -57,88 +55,82 @@ con **40 ensayos clínicos** y **19 publicaciones** recuperados en los datos com
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Lenalidomida se une a cereblón (CRBN) y redirige el complejo ubiquitina ligasa CRL4-CRBN para degradar los factores de transcripción IKZF1 e IKZF3 y la caseína quinasa 1 alfa (CK1α, codificada por CSNK1A1). La degradación de CK1α explica su actividad en el síndrome mielodisplásico con deleción 5q, y podría ejercer presión de letalidad sintética sobre clones mieloides con del(5q). Además, sus efectos inmunomoduladores (activación de linfocitos T y NK) podrían aportar actividad antileucémica, por ejemplo como mantenimiento tras trasplante.
+Lenalidomida es un modulador de la ligasa E3 cereblón. Promueve la degradación de las proteínas IKZF1 e IKZF3 y, en la enfermedad mieloide con deleción 5q, de la caseína cinasa 1 alfa (CK1α). Además tiene efectos inmunomoduladores (activación de linfocitos T y células NK) y antiangiogénicos.
 
-La relación con la leucemia mieloide aguda (LMA) es biológicamente plausible por la cercanía con los síndromes mielodisplásicos, que pueden evolucionar a LMA. No obstante, la evidencia en LMA es más débil y menos definida por biomarcadores que en el SMD con del(5q).
-
-Cabe señalar que los datos de mecanismo de acción no estaban disponibles en la ficha del fármaco; la explicación anterior proviene del análisis mecanístico de la predicción.
-
-**Nivel de evidencia:** Los ensayos de fase 2 completados (por ejemplo, NCT00546897 y NCT01301820) estudian directamente la LMA, pero son de un solo brazo o no definitivos, y no hay dos ensayos de fase 3 completados en LMA. Se asigna L2 según el análisis de la predicción principal; se recomienda interpretarlo con cautela, ya que el único fase 3 de la lista (NCT00843882) es en SMD, y el otro (NCT04490707) tiene estado desconocido.
+Estos mecanismos respaldan una actividad en neoplasias mieloides, sobre todo en síndromes mielodisplásicos con del(5q) y en leucemia mieloide aguda con biología relacionada. Los estudios en leucemia mieloide aguda son principalmente de fases tempranas y de brazo único, por lo que la evidencia de eficacia aún es limitada.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran los 10 ensayos más relevantes (de 40 recuperados):
+Se muestran los 10 ensayos más relevantes (de 43 registrados).
 
 | Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
 |---------|------|------|------|---------|
-| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Fase 2 | Completado | 48 | Lenalidomida en monoterapia en LMA no tratada, ≥60 años, sin anomalías del 5q |
-| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Fase 2 | Completado | 120 | Mantenimiento alternando lenalidomida y azacitidina tras inducción en LMA de mal pronóstico en adultos mayores |
-| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | Fase 2 | Completado | 88 | Lenalidomida, azacitidina secuencial + lenalidomida, o azacitidina sola en LMA de reciente diagnóstico (≥65 años) |
-| [NCT00352365](https://clinicaltrials.gov/study/NCT00352365) | Fase 2 | Completado | 41 | Lenalidomida en LMA con del(5q) en mayores de 60 años que rechazan quimioterapia |
-| [NCT03118466](https://clinicaltrials.gov/study/NCT03118466) | Fase 2 | Completado | 41 | MEC más lenalidomida en LMA recaída o refractaria |
-| [NCT02538965](https://clinicaltrials.gov/study/NCT02538965) | Fase 2 | Completado | 17 | Actividad y seguridad en pacientes pediátricos con LMA recaída/refractaria |
+| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Fase 2 | Completado | 48 | Lenalidomida en mayores de 60 años con LMA sin tratamiento previo y sin anomalías del 5q |
+| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Fase 2 | Completado | 120 | Mantenimiento con ciclos alternos de lenalidomida y azacitidina tras inducción en LMA de mal pronóstico en adultos mayores |
+| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | Fase 2 | Completado | 88 | Lenalidomida, azacitidina secuencial + lenalidomida o azacitidina sola en LMA recién diagnosticada, ≥65 años |
+| [NCT00352365](https://clinicaltrials.gov/study/NCT00352365) | Fase 2 | Completado | 41 | Lenalidomida en LMA con del(5q), ≥60 años que rechazan quimioterapia de inducción |
+| [NCT00360672](https://clinicaltrials.gov/study/NCT00360672) | Fase 2 | Completado | 27 | LMA recaída/refractaria o SMD de alto riesgo con anomalías del cromosoma 5 |
+| [NCT03118466](https://clinicaltrials.gov/study/NCT03118466) | Fase 2 | Completado | 41 | Lenalidomida con MEC en LMA recaída o refractaria |
+| [NCT02538965](https://clinicaltrials.gov/study/NCT02538965) | Fase 2 | Completado | 17 | Actividad en LMA pediátrica recaída/refractaria |
 | [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Fase 2 | Completado | 29 | Mantenimiento con lenalidomida en LMA de alto riesgo en remisión |
-| [NCT01038635](https://clinicaltrials.gov/study/NCT01038635) | Fase 1/2 | Completado | 94 | Azacitidina + lenalidomida en SMD de alto riesgo y LMA |
-| [NCT04490707](https://clinicaltrials.gov/study/NCT04490707) | Fase 3 | Desconocido | 60 | Azacitidina + lenalidomida como mantenimiento guiado por enfermedad residual medible en LMA de adultos mayores o no aptos |
-| [NCT01132586](https://clinicaltrials.gov/study/NCT01132586) | Fase 1 | Completado | 61 | Lenalidomida con citarabina e idarrubicina en LMA: seguridad y dosis |
+| [NCT01038635](https://clinicaltrials.gov/study/NCT01038635) | Fase 1/2 | Completado | 94 | Azacitidina más lenalidomida en SMD de alto riesgo y LMA |
+| [NCT04490707](https://clinicaltrials.gov/study/NCT04490707) | Fase 3 | Desconocido | 60 | Mantenimiento con azacitidina más lenalidomida guiado por EMR en LMA de adultos mayores o no aptos |
 
 ## Evidencia de Literatura
 
-Las publicaciones recuperadas son en su mayoría revisiones sobre síndromes mielodisplásicos y no estudian directamente la leucemia mieloide con lenalidomida:
+Se muestran las publicaciones más relevantes; casi todas son revisiones sobre síndromes mielodisplásicos, es decir, aplican de forma indirecta a la leucemia mieloide.
 
 | PMID | Año | Tipo | Revista | Hallazgos Principales |
 |------|-----|------|------|---------|
-| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Revisión | Am J Hematol | Actualización de diagnóstico, estratificación de riesgo y manejo de SMD |
-| [42400116](https://pubmed.ncbi.nlm.nih.gov/42400116/) | 2026 | Revisión | Am J Hematol | Actualización 2026 de SMD |
+| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Revisión | American Journal of Hematology | Actualización de diagnóstico, estratificación de riesgo y manejo de SMD, con riesgo de transformación a LMA |
+| [42400116](https://pubmed.ncbi.nlm.nih.gov/42400116/) | 2026 | Revisión | American Journal of Hematology | Actualización 2026 sobre SMD |
+| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Revisión | Lancet | Revisión de SMD: fisiopatología y progresión a LMA |
 | [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Revisión | Blood | Toma de decisiones clínicas y tratamiento de SMD |
-| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Revisión | Lancet | Revisión general de SMD y su progresión a leucemia mieloide aguda |
-| [41348013](https://pubmed.ncbi.nlm.nih.gov/41348013/) | 2025 | Revisión | Hematology ASH Educ Program | Novedades en SMD de riesgo bajo/intermedio |
-| [38066862](https://pubmed.ncbi.nlm.nih.gov/38066862/) | 2023 | Revisión | Hematology ASH Educ Program | Terapias de nueva generación en SMD de menor riesgo |
-| [39721469](https://pubmed.ncbi.nlm.nih.gov/39721469/) | 2025 | Revisión | Leuk Res | Terapias combinadas con azacitidina en LMA no elegible para quimioterapia intensiva |
-| [25644743](https://pubmed.ncbi.nlm.nih.gov/25644743/) | 2015 | Revisión | Leuk Lymphoma | Anemia hemolítica asociada a lenalidomida (señal de seguridad) |
-| [34864823](https://pubmed.ncbi.nlm.nih.gov/34864823/) | 2021 | Revisión | Blood Cancer J | Terapia de diferenciación en neoplasias mieloides |
-| [29795386](https://pubmed.ncbi.nlm.nih.gov/29795386/) | 2018 | Revisión | Blood Cancer J | Algoritmo de tratamiento de SMD 2018 |
+| [41348013](https://pubmed.ncbi.nlm.nih.gov/41348013/) | 2025 | Revisión | Hematology ASH Education Program | Novedades en SMD de riesgo bajo e intermedio |
+| [38066862](https://pubmed.ncbi.nlm.nih.gov/38066862/) | 2023 | Revisión | Hematology ASH Education Program | Terapias de nueva generación en SMD de menor riesgo |
+| [39721469](https://pubmed.ncbi.nlm.nih.gov/39721469/) | 2025 | Revisión | Leukemia Research | Combinaciones con azacitidina en LMA no elegible para quimioterapia intensiva |
+| [29795386](https://pubmed.ncbi.nlm.nih.gov/29795386/) | 2018 | Revisión | Blood Cancer Journal | Algoritmo de tratamiento actual de SMD |
+| [34864823](https://pubmed.ncbi.nlm.nih.gov/34864823/) | 2021 | Revisión | Blood Cancer Journal | Terapia de diferenciación en neoplasias mieloides |
+| [25644743](https://pubmed.ncbi.nlm.nih.gov/25644743/) | 2015 | Revisión | Leukemia & Lymphoma | Anemia hemolítica asociada a lenalidomida |
 
 ## Información de Mercado en Colombia
 
-Hay al menos 20 registros sanitarios de lenalidomida en Colombia, todos de producto único y vigentes; la lista puede ser parcial. Se muestran 5:
+La lista de registros puede ser parcial (al menos 20 registros, todos vigentes).
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 19999700 | REVLIMID® 10 MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
-| 19999701 | REVLIMID® 5MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
-| 20115046 | LADEVINA® 15 MG CÁPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
-| 20130202 | DOMIDE 25 MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
-| 20136207 | LENOSIDE 10 | Cápsulas duras y blandas | Indicación no registrada en los datos locales |
+| 19999700 | REVLIMID® 10 MG CAPSULAS | Cápsula dura | LENALIDOMIDA |
+| 20115046 | LADEVINA® 15 MG CÁPSULAS | Cápsula dura | LENALIDOMIDA |
+| 20130202 | DOMIDE 25 MG CAPSULAS | Cápsula dura | LENALIDOMIDA |
+| 20136207 | LENOSIDE 10 | Cápsulas duras y blandas | LENALIDOMIDA |
+| 20164374 | ALIDA® 25 MG | Cápsula dura | LENALIDOMIDA |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Agente antineoplásico inmunomodulador (degradador de proteínas vía cereblón); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto; los ensayos en LMA reportan toxicidad hematológica relevante en combinación con quimioterapia |
+| Clasificación de Citotoxicidad | Inmunomodulador / modulador de cereblón (no citotóxico convencional) |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto. La literatura recuperada describe anemia hemolítica asociada al fármaco |
 | Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
-| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Items de Monitoreo | Hemograma completo con diferencial, función hepática y renal |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-- **Advertencias de la literatura**: se describe anemia hemolítica asociada a lenalidomida (PMID 25644743) y un caso de miocarditis durante el tratamiento (PMID 20876827).
-
-Consultar el prospecto para información de seguridad adicional; no se dispone de datos de advertencias, contraindicaciones ni interacciones en los datos compilados.
+Consultar el prospecto para información de seguridad. No se dispone de datos de advertencias, contraindicaciones ni interacciones farmacológicas en la información compilada para este informe.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existen numerosos ensayos de fase 1 y 2 en LMA, algunos completados con inscripción moderada, que respaldan la plausibilidad clínica, y el mecanismo es sólido en SMD con del(5q). Sin embargo, la evidencia en LMA es heterogénea, mayormente no aleatorizada, sin ensayos de fase 3 completados en esta enfermedad y sin literatura directa; por ello se recomienda avanzar solo con salvaguardas.
+Existen varios estudios de Fase 2 completados que evalúan lenalidomida directamente en leucemia mieloide aguda, pero son de fases tempranas y mayormente de brazo único. La literatura recuperada es indirecta (revisiones de síndromes mielodisplásicos), por lo que se requiere cautela.
 
 **Para avanzar se necesita:**
-- Revisión de resultados publicados de los ensayos de fase 2 en LMA (NCT00546897, NCT01301820, NCT01358734) para valorar eficacia real.
-- Definir subpoblaciones con biomarcadores (por ejemplo, del(5q)) donde la actividad sea más probable.
-- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y datos del mecanismo de acción desde fuentes de referencia.
-- Plan de monitoreo de seguridad hematológica y de riesgo tromboembólico y teratogénico.
+- Resultados publicados de eficacia de los ensayos de Fase 2 en LMA, idealmente con estudios controlados de Fase 3
+- Revisión del prospecto de INVIMA para advertencias, contraindicaciones e interacciones
+- Datos detallados del mecanismo de acción desde fuentes farmacológicas
+- Plan de monitoreo hematológico y de seguridad, especialmente en adultos mayores
 
 <!-- review:begin log -->
 

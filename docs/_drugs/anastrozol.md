@@ -39,7 +39,9 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Anastrozol es un inhibidor no esteroideo de la aromatasa, que reduce los estrógenos circulantes en mujeres posmenopáusicas. Los datos locales no registran el texto de su indicación aprobada.
+Anastrozol es un inhibidor de la aromatasa que reduce la síntesis de estrógenos y se comercializa actualmente en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **neuroblastoma (neuroblastoma)**, con un puntaje de 0.9953.
+Actualmente **no hay ensayos clínicos ni publicaciones** que estudien directamente esta indicación, por lo que la predicción es solo computacional.
 
 ## Resumen Rápido
 
@@ -51,86 +53,62 @@ Anastrozol es un inhibidor no esteroideo de la aromatasa, que reduce los estróg
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
 | Número de Registros Sanitarios | 10 (vigentes: 10) |
-| Decisión Recomendada | Proceed with Guardrails |
+| Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Anastrozol bloquea la aromatasa, la enzima que convierte los andrógenos en estrógenos. Así disminuye el estrógeno circulante en mujeres posmenopáusicas. En el cáncer de mama con receptores hormonales positivos, el estrógeno estimula el crecimiento tumoral, de modo que este mecanismo actúa directamente sobre el motor de la enfermedad.
+Anastrozol es un inhibidor de la aromatasa: disminuye la producción de estrógenos. Los datos compilados para este informe no incluyen una descripción detallada del mecanismo de acción, por lo que no es posible validar un vínculo mecanístico específico.
 
-Los datos compilados no incluyen una descripción detallada del mecanismo de acción. La plausibilidad mecanística se apoya en el conocimiento farmacológico general del fármaco y en la literatura revisada.
+El neuroblastoma no es un tumor clásicamente dependiente de estrógenos, de modo que la justificación biológica es débil y no verificada. La predicción refleja únicamente un puntaje alto del modelo (0.9953), sin estudios que la respalden.
 
-La predicción es coherente con la evidencia clínica: hay múltiples ensayos de fase 3 completados que comparan anastrozol con tamoxifeno, letrozol o fulvestrant en cáncer de mama. El uso debería limitarse a enfermedad con receptores hormonales positivos y a pacientes posmenopáusicas, o con supresión ovárica.
+Otras entidades con puntajes altos (como el ganglioneuroblastoma, de la misma familia de tumores neuroblásticos) probablemente reflejan cercanía en el modelo y no evidencia independiente. Para el neuroblastoma, no hay ensayos ni literatura que lo estudien.
 
 ## Evidencia de Ensayos Clínicos
 
-Se muestran 10 de los ensayos relacionados registrados.
-
-| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
-|---------|------|------|------|---------|
-| [NCT00286117](https://clinicaltrials.gov/study/NCT00286117) | Fase 3 | Completado | 448 | Cambio de tamoxifeno a anastrozol vs. continuar tamoxifeno como terapia adyuvante en mujeres posmenopáusicas con cáncer de mama temprano con receptores hormonales positivos |
-| [NCT00053898](https://clinicaltrials.gov/study/NCT00053898) | Fase 3 | Completado | 3104 | Anastrozol vs. tamoxifeno para prevenir recurrencias en carcinoma ductal in situ tras lumpectomía y radioterapia |
-| [NCT00072462](https://clinicaltrials.gov/study/NCT00072462) | Fase 3 | Completado | 2980 | IBIS-II (DCIS): tamoxifeno vs. anastrozol adyuvante tras cirugía de carcinoma ductal in situ |
-| [NCT00248170](https://clinicaltrials.gov/study/NCT00248170) | Fase 3 | Completado | 4172 | Letrozol vs. anastrozol adyuvante en mujeres posmenopáusicas con cáncer de mama con receptores hormonales positivos y ganglios positivos |
-| [NCT00256698](https://clinicaltrials.gov/study/NCT00256698) | Fase 3 | Completado | 514 | Estudio FACT: anastrozol solo vs. anastrozol más fulvestrant en primera recaída |
-| [NCT00327769](https://clinicaltrials.gov/study/NCT00327769) | Fase 3 | Completado | 234 | Fulvestrant 250 mg vs. anastrozol 1 mg como terapia de segunda línea en cáncer de mama avanzado con receptores de estrógeno positivos |
-| [NCT00814125](https://clinicaltrials.gov/study/NCT00814125) | Fase 3 | Completado | 285 | Cambios endometriales con anastrozol, tamoxifeno o su combinación como tratamiento adyuvante (perfil de seguridad) |
-| [NCT01953588](https://clinicaltrials.gov/study/NCT01953588) | Fase 3 | Activo, sin reclutar | 1473 | ALTERNATE: terapia endocrina neoadyuvante con fulvestrant, o fulvestrant más anastrozol, vs. anastrozol solo |
-| [NCT02763566](https://clinicaltrials.gov/study/NCT02763566) | Fase 3 | Activo, sin reclutar | 463 | Inhibidor no esteroideo de la aromatasa (anastrozol o letrozol) con abemaciclib o placebo en enfermedad recurrente o metastásica HR+/HER2- |
-| [NCT00066378](https://clinicaltrials.gov/study/NCT00066378) | Fase 2 | Completado | 71 | Estudio EORTC doble ciego: anastrozol más gefitinib o placebo en cáncer de mama avanzado |
+Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Evidencia de Literatura
 
-Se muestran 10 de las publicaciones relacionadas.
-
-| PMID | Año | Tipo | Revista | Hallazgos Principales |
-|------|-----|------|------|---------|
-| [31839281](https://pubmed.ncbi.nlm.nih.gov/31839281/) | 2020 | ECA | Lancet | IBIS-II: resultados a largo plazo del anastrozol para prevenir cáncer de mama (invasivo y carcinoma ductal in situ) en mujeres de alto riesgo |
-| [27908454](https://pubmed.ncbi.nlm.nih.gov/27908454/) | 2016 | ECA | Lancet | FALCON: fulvestrant 500 mg vs. anastrozol 1 mg en cáncer de mama avanzado con receptores hormonales positivos sin terapia endocrina previa |
-| [39772884](https://pubmed.ncbi.nlm.nih.gov/39772884/) | 2025 | ECA (análisis final) | J Clin Oncol | Análisis final de supervivencia global de FALCON: fulvestrant vs. anastrozol |
-| [15639680](https://pubmed.ncbi.nlm.nih.gov/15639680/) | 2005 | ECA | Lancet | ATAC: 9366 mujeres posmenopáusicas; anastrozol prolongó significativamente la supervivencia libre de enfermedad frente a tamoxifeno |
-| [42384406](https://pubmed.ncbi.nlm.nih.gov/42384406/) | 2026 | ECA (análisis secundario) | JAMA Surgery | NSABP B-35: márgenes de lumpectomía y recurrencia local en DCIS con anastrozol o tamoxifeno adyuvante |
-| [41632158](https://pubmed.ncbi.nlm.nih.gov/41632158/) | 2025 | Estudio comparativo de efectividad | JAMA Network Open | Resultados comparativos de anastrozol, letrozol y exemestano en cáncer de mama posmenopáusico en la práctica clínica |
-| [31615937](https://pubmed.ncbi.nlm.nih.gov/31615937/) | 2020 | Estudio clínico fase 2 | Clin Cancer Res | neoMONARCH: abemaciclib más anastrozol en el contexto neoadyuvante en cáncer de mama HR+/HER2- |
-| [20923259](https://pubmed.ncbi.nlm.nih.gov/20923259/) | 2010 | Revisión | Expert Opin Drug Saf | Anastrozol como inhibidor de aromatasa de tercera generación en terapia adyuvante, con mayor eficacia que tamoxifeno en varios ensayos |
-| [16034487](https://pubmed.ncbi.nlm.nih.gov/16034487/) | 2005 | Revisión | Drugs Today | Modo de acción y principales ensayos clínicos de anastrozol en tumores con receptores de estrógeno positivos |
-| [17033446](https://pubmed.ncbi.nlm.nih.gov/17033446/) | 2006 | Reporte de caso | Eur J Gastroenterol Hepatol | Primer caso reportado de hepatotoxicidad inducida por anastrozol en una mujer mayor |
+Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Anastrozol figura como **comercializado** en Colombia. Todos los registros sanitarios de producto de un solo principio activo identificados en los datos locales están vigentes.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19910957 | TROZOLET 1 MG COMPRIMIDOS RECUBIERTOS | Tableta cubierta con película | No registrada en los datos locales |
+| 20038017 | ANANA® 1 MG | Tableta cubierta con película | No registrada en los datos locales |
+| 20039756 | ANASTROZOL 1 MG (Sandoz) | Tableta recubierta | No registrada en los datos locales |
+| 20060326 | HB ONCOCARE® | Tableta recubierta | No registrada en los datos locales |
+| 206742 | ARIMIDEX® 1 MG | Tableta recubierta | No registrada en los datos locales |
+
+Se muestran 5 de los 10 registros sanitarios vigentes.
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificación de Citotoxicidad | Terapia hormonal antineoplásica (inhibidor de la aromatasa); no es un citotóxico convencional |
-| Riesgo de Mielosupresión | Bajo; no es un efecto característico de esta clase |
-| Clasificación de Emetogenicidad | Baja |
-| Items de Monitoreo | Densidad ósea, perfil lipídico, función hepática y reacciones cutáneas |
+| Clasificación de Citotoxicidad | Terapia hormonal (inhibidor de la aromatasa); no es citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Consultar las advertencias y precauciones del prospecto |
 | Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Los datos compilados no incluyen advertencias, contraindicaciones ni interacciones farmacológicas del prospecto. Consultar el prospecto para esa información.
-
-La literatura revisada describe estos eventos adversos:
-- **Hepatotoxicidad:** un caso reportado.
-- **Reacciones cutáneas:** lupus eritematoso cutáneo subagudo inducido por el fármaco y dermatitis de distribución mayormente unilateral.
-- **Retinopatía cristalina:** asociación reportada con anastrozol.
-- **Cambios endometriales:** evaluados en un ensayo de fase 3 (NCT00814125).
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
-**Decisión: Proceed with Guardrails**
+**Decisión: Hold**
 
 **Justificación:**
-La evidencia es fuerte (L1), pero el uso debe restringirse a un perfil de paciente definido y vigilarse.
+La predicción para neuroblastoma se apoya solo en el puntaje del modelo, sin ensayos clínicos ni literatura, y sin un mecanismo biológico plausible establecido. El nivel de evidencia es L5.
 
 **Para avanzar se necesita:**
-- Restringir el uso a enfermedad con receptores hormonales positivos y a pacientes posmenopáusicas, o con supresión ovárica.
-- Obtener las advertencias, contraindicaciones e interacciones del prospecto aprobado por INVIMA.
-- Completar los datos del mecanismo de acción.
-- Definir un plan de monitoreo de densidad ósea, perfil lipídico, función hepática y reacciones cutáneas.
+- Datos del mecanismo de acción y análisis de un posible vínculo con la biología del neuroblastoma
+- Estudios preclínicos (por ejemplo, líneas celulares o modelos animales) que evalúen la inhibición de aromatasa en este tumor
+- Revisión de la información de seguridad del prospecto autorizado en INVIMA (advertencias y contraindicaciones)
+- Evaluación de la compatibilidad de vías de administración y de la población pediátrica
 
 <!-- review:begin log -->
 

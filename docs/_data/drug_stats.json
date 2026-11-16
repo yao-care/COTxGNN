@@ -2,11 +2,11 @@
   "generated": "2026-11-16",
   "total_drugs": 643,
   "level_counts": {
-    "L1": 17,
-    "L2": 23,
+    "L1": 15,
+    "L2": 24,
     "L3": 26,
     "L4": 45,
-    "L5": 515
+    "L5": 516
   },
   "all_drugs": [
     {
@@ -336,7 +336,7 @@
     {
       "name": "Atorvastatina",
       "slug": "atorvastatina",
-      "level": "L1",
+      "level": "L2",
       "indication_count": 4
     },
     {
@@ -2202,7 +2202,7 @@
     {
       "name": "Letrozol",
       "slug": "letrozol",
-      "level": "L1",
+      "level": "L5",
       "indication_count": 4
     },
     {

@@ -9,7 +9,7 @@ drugbank_id: DB06736
 monitor_inn: "Aceclofenac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
 last_modified_at: 2026-11-16
-description: "Aceclofenaco: nueva indicación predicha, síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) (nivel de evidencia L5). Indicación original: ACECLOFENAC"
+description: "Aceclofenaco: nueva indicación predicha, Síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) (nivel de evidencia L5). Indicación original: ACECLOFENAC"
 ---
 
 # Aceclofenaco
@@ -34,21 +34,21 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 </div>
 
-## Aceclofenaco: síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome)
+## Aceclofenaco: Síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Aceclofenaco es un antiinflamatorio no esteroideo (AINE) de uso oral, empleado para aliviar el dolor y la inflamación.
-El modelo TxGNN predice que podría ser efectivo para **síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome)**,
-pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicción; se trata únicamente de una predicción del modelo.
+Aceclofenaco es un antiinflamatorio no esteroideo (AINE) con inhibición preferente de la COX-2, comercializado en Colombia en tabletas orales.
+El modelo TxGNN predice que podría ser efectivo para el **síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome)**,
+pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esta dirección: se trata únicamente de una predicción computacional.
 
 ## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
 | Indicación Original | ACECLOFENAC; PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
-| Nueva Indicación Predicha | síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) |
+| Nueva Indicación Predicha | Síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
@@ -57,11 +57,11 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicció
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción detallado. Según la información conocida, el aceclofenaco es un AINE con inhibición preferente de COX-2, que reduce la producción de prostaglandinas y, con ello, la inflamación y el dolor.
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, aceclofenaco es un AINE que inhibe la síntesis de prostaglandinas, con preferencia por la COX-2, y se utiliza para el control del dolor y la inflamación.
 
-El síndrome de braquiolmia-amelogénesis imperfecta es un trastorno genético raro que afecta al esqueleto y a los dientes. Un AINE no actúa sobre el defecto subyacente de la enfermedad; a lo sumo podría aliviar síntomas como el dolor.
+El síndrome de braquiolmia-amelogénesis imperfecta es un trastorno genético raro que afecta el esqueleto y los dientes (asociado a LTBP3 y vías relacionadas). No se conoce un papel modificador de la enfermedad para la inhibición de la COX, de modo que no se ha establecido un vínculo mecanístico. En el mejor de los casos, cualquier beneficio sería sintomático (dolor), no sobre la causa de la enfermedad.
 
-Por ello, el puntaje elevado (0.9989) debe interpretarse como un resultado computacional basado en la estructura de relaciones del modelo, sin respaldo clínico ni mecanístico plausible. Esta predicción no debe considerarse una base para el reposicionamiento sin estudios adicionales.
+El puntaje alto (0,9989) es un resultado computacional basado en el modelo y no está respaldado por ensayos ni literatura. Por ello, la predicción debe considerarse una hipótesis sin validación.
 
 ## Evidencia de Ensayos Clínicos
 
@@ -73,28 +73,31 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+Los 4 registros sanitarios incluidos en los datos están vigentes.
+
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20042307 | ZERODOL® CR | Tableta de liberación prolongada | Aceclofenaco |
-| 20057217 | CYTOBLOC 100 MG TABLETA RECUBIERTA | Tableta recubierta | Aceclofenaco |
-| 20173922 | AINEDIX AC® 100 MG | Tableta recubierta | Aceclofenaco |
-| 20176016 | ZERODOL P | Tableta recubierta | Paracetamol combinaciones excluyendo sicolépticos |
+| 20042307 | ZERODOL® CR | Tableta de liberación prolongada | ACECLOFENAC |
+| 20057217 | CYTOBLOC 100 MG TABLETA RECUBIERTA | Tableta recubierta | ACECLOFENAC |
+| 20173922 | AINEDIX AC® 100 MG | Tableta recubierta | ACECLOFENAC |
+| 20176016 | ZERODOL P | Tableta recubierta | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos compilados para este informe no incluyen advertencias, contraindicaciones ni interacciones farmacológicas registradas.
+Consultar el prospecto para información de seguridad. En los datos compilados no se encontraron interacciones farmacológicas registradas.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no cuenta con ensayos clínicos ni publicaciones, y el mecanismo del aceclofenaco (inhibición de COX-2) no se relaciona con la causa de este trastorno genético esquelético y dental. La evidencia se limita a la predicción del modelo (L5).
+La predicción se basa solo en el modelo, sin ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible entre la inhibición de la COX y esta enfermedad genética rara (nivel de evidencia L5).
 
 **Para avanzar se necesita:**
-- Datos detallados del mecanismo de acción
-- Estudios preclínicos o series de casos que evalúen un efecto en esta enfermedad
-- Revisión del prospecto aprobado en Colombia para completar la información de seguridad (advertencias, contraindicaciones e interacciones)
+- Revisión sistemática de literatura que estudie directamente esta enfermedad y el uso de aceclofenaco o de AINE
+- Datos del mecanismo de acción del fármaco y análisis de su relación con la vía biológica de la enfermedad
+- Información de seguridad completa del prospecto (advertencias y contraindicaciones) para la revisión de seguridad
+- Evaluación de compatibilidad de vía de administración y de la población objetivo
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
