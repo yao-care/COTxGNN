@@ -441,7 +441,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Esto puede deberse a que el producto está comercializado bajo nombres comerciales no indexados con el INN \"ALOPURINOL\", o bien a que efectiv\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261031-alteplase-1",
@@ -663,7 +666,10 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"**Ausencia de registros regulatorios locales:** AMLODIPINO no figura con ningún registro sanitario en el sistema consultado (0 licencias), l\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
-   "anchor": "**Mecanismo de acción no disponible (DG002):** Aunque la consulta a DrugBank reportó 1 resultado en el log de consultas, el campo `original_moa` no fue poblado en el Evidence Pack. Sin este dato, el modelo carece de las relaciones mecanísticas necesarias para proyectar nuevas indicaciones con fundamento biológico."
+   "anchor": "**Mecanismo de acción no disponible (DG002):** Aunque la consulta a DrugBank reportó 1 resultado en el log de consultas, el campo `original_moa` no fue poblado en el Evidence Pack. Sin este dato, el modelo carece de las relaciones mecanísticas necesarias para proyectar nuevas indicaciones con fundamento biológico.",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261105-ampicillin-1",
@@ -743,7 +749,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspon\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261105-anastrozol-2",
@@ -764,7 +773,10 @@
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
-   "anchor": "**Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Esto indica un error en la etapa de extracción o serialización del pipeline."
+   "anchor": "**Segunda condición — Brechas de datos bloqueantes:** El mecanismo de acción (MOA) y las advertencias/contraindicaciones oficiales están marcados como `[Data Gap]`. Esto indica un error en la etapa de extracción o serialización del pipeline.",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261031-aprepitant-1",
@@ -904,7 +916,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"y el registro regulatorio colombiano muestra 0 licencias\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261105-atosiban-1",
@@ -7925,7 +7940,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261105-lenalidomide-1",
@@ -8109,7 +8127,10 @@
    ],
    "checked": "2026-11-05",
    "summary": "Eliminado: \"Este fármaco no cuenta con registros sanitarios activos en Colombia a la fecha de corte de datos (2026-04-20)\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "status": "resolved_by_regeneration",
+   "resolved_on": "2026-11-16",
+   "resolved_note": "el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación"
   },
   {
    "id": "co-lic-20261105-levetiracetam-1",

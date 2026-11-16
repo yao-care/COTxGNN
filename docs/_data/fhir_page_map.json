@@ -219,18 +219,6 @@
         "UsTxGNN"
       ]
     },
-    "db00181": {
-      "page": "baclofen",
-      "sources": [
-        "AuTxGNN",
-        "CaTxGNN",
-        "DkTxGNN",
-        "HkTxGNN",
-        "NlTxGNN",
-        "SgTxGNN",
-        "UkTxGNN"
-      ]
-    },
     "db00211": {
       "page": "midodrine",
       "sources": [
@@ -351,6 +339,7 @@
         "CaTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -525,6 +514,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "KrTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UkTxGNN",
@@ -723,6 +713,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "JpTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -1086,6 +1077,7 @@
       "sources": [
         "CaTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "ZaTxGNN"
       ]
@@ -1578,7 +1570,8 @@
       "page": "dobutamine",
       "sources": [
         "CaTxGNN",
-        "HkTxGNN"
+        "HkTxGNN",
+        "MyTxGNN"
       ]
     },
     "db00843": {
@@ -1673,12 +1666,14 @@
       "page": "amantadine",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "ESTxGNN",
         "HkTxGNN",
         "InTxGNN",
         "JpTxGNN",
+        "KrTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -1708,6 +1703,7 @@
       "page": "oxymetazoline",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "HkTxGNN",
@@ -1878,6 +1874,7 @@
     "db01002": {
       "page": "levobupivacaine",
       "sources": [
+        "BrTxGNN",
         "HkTxGNN",
         "SgTxGNN"
       ]
@@ -2032,6 +2029,7 @@
         "InTxGNN",
         "JpTxGNN",
         "KrTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UkTxGNN",
@@ -2105,6 +2103,8 @@
         "ITTxGNN",
         "InTxGNN",
         "JpTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -2146,6 +2146,7 @@
       "page": "bupropion",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "DETxGNN",
@@ -2429,6 +2430,7 @@
       "sources": [
         "CHTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "ZaTxGNN"
       ]
@@ -2456,7 +2458,9 @@
     "db01616": {
       "page": "alverine",
       "sources": [
-        "HkTxGNN"
+        "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN"
       ]
     },
     "db01627": {
@@ -2465,6 +2469,7 @@
         "AuTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -2685,15 +2690,6 @@
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
-      ]
-    },
-    "db05039": {
-      "page": "indacaterol",
-      "sources": [
-        "AuTxGNN",
-        "CaTxGNN",
-        "HkTxGNN",
-        "ZaTxGNN"
       ]
     },
     "db05109": {
@@ -2921,6 +2917,7 @@
     "db06697": {
       "page": "artemether",
       "sources": [
+        "SETxGNN",
         "ZaTxGNN"
       ]
     },
@@ -2957,6 +2954,8 @@
         "FRTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN"
       ]
@@ -3103,6 +3102,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "KrTxGNN",
         "NOTxGNN",
         "NZTxGNN",
         "SATxGNN",
@@ -3192,6 +3192,7 @@
         "DETxGNN",
         "FITxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NOTxGNN"
       ]
     },
@@ -3215,6 +3216,7 @@
       "page": "palbociclib",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CaTxGNN",
         "DkTxGNN",
         "HkTxGNN"
@@ -3253,6 +3255,7 @@
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -3401,6 +3404,7 @@
         "FRTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "UsTxGNN"
@@ -3411,6 +3415,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "DETxGNN",
         "DkTxGNN",
         "HkTxGNN"
       ]
@@ -3548,6 +3553,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "FITxGNN",
         "HkTxGNN"
       ]
     },

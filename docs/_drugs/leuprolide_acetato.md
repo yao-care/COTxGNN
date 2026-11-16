@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Leuprolide Acetato
 parent: Solo Predicción del Modelo (L5)
 nav_order: 394
 evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+indication_count: 2
+drugbank_id: DB00007
+monitor_inn: "Leuprolide"
+predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
+last_modified_at: 2026-11-16
+description: "Leuprolide Acetato: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: LEUPRORELINA ACETATO"
 ---
 
 # Leuprolide Acetato
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L5** | Indicaciones predichas: **2** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,73 +34,67 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## LEUPROLIDE ACETATO: Evaluación de Datos — Información Insuficiente para Análisis de Reposicionamiento
+## Leuprolide Acetato: Osteoartritis (osteoarthritis)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Leuprolide Acetato es un fármaco con registros parciales en las fuentes consultadas, sin indicaciones originales ni nuevas indicaciones predichas disponibles en este Evidence Pack. El modelo TxGNN no generó predicciones de nuevas indicaciones para este compuesto, y los datos regulatorios en Colombia son inexistentes, lo que impide realizar un análisis de reposicionamiento completo en esta versión del informe.
-
----
+Leuprolida acetato es un agonista del receptor de la hormona liberadora de gonadotropinas (GnRH) que, tras una estimulación inicial, suprime las hormonas sexuales.
+El modelo TxGNN predice que podría ser efectivo para **Osteoartritis (osteoarthritis)**, pero actualmente **no hay ensayos clínicos** y solo hay **1 publicación** recuperada, que no estudia esta enfermedad (es un reporte de caso sobre adenocarcinoma de próstata metastásico).
 
 ## Resumen Rápido
 
-| Ítem | Contenido |
-|------|-----------|
-| Indicación Original | Sin datos disponibles |
-| Nueva Indicación Predicha | Sin predicciones generadas |
-| Puntaje de Predicción TxGNN | No disponible |
-| Nivel de Evidencia | L5 — Sin estudios reales (predicción no generada) |
+| Item | Contenido |
+|------|------|
+| Indicación Original | LEUPRORELINA ACETATO |
+| Nueva Indicación Predicha | Osteoartritis (osteoarthritis) |
+| Puntaje de Predicción TxGNN | 0.9970 |
+| Nivel de Evidencia | L5 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
 | Número de Registros Sanitarios | 2 (vigentes: 2) |
-| Decisión Recomendada | **Hold** |
+| Decisión Recomendada | Hold |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por qué No es Posible Completar la Predicción
+Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la leuprolida es un agonista de GnRH: tras una estimulación inicial, suprime la producción gonadal de estrógenos y testosterona.
 
-El presente Evidence Pack presenta tres vacíos de datos críticos que impiden realizar el análisis de reposicionamiento:
+Un vínculo hipotético sería que las hormonas sexuales modulan el cartílago y la inflamación articular. Sin embargo, esta conexión es especulativa y ningún dato compilado la respalda.
 
-**1. Mecanismo de acción no disponible (DG002 — Severidad: Alta).** No se dispone de datos detallados sobre el mecanismo de acción de Leuprolide Acetato desde DrugBank en este paquete. Sin esta información, no es posible establecer la relación mecanística entre una indicación original y una nueva indicación candidata.
+El puntaje alto (0,9970) probablemente refleja la proximidad en la red de relaciones biológicas del modelo y no una validación biológica o clínica. Debe tomarse como una hipótesis para explorar, no como una evidencia de eficacia.
 
-**2. Advertencias y contraindicaciones no resueltas (DG001 — Severidad: Bloqueante).** La ausencia de datos del prospecto oficial impide completar la evaluación de seguridad inicial (S1), lo cual es requisito previo para avanzar en cualquier análisis de reposicionamiento responsable.
+## Evidencia de Ensayos Clínicos
 
-**3. Sin indicaciones predichas por TxGNN.** El campo `predicted_indications` está vacío, lo que indica que el pipeline de predicción no generó candidatos para este compuesto en la ejecución registrada. Esto puede deberse a que el nodo del fármaco no está correctamente mapeado en el grafo de conocimiento (Knowledge Graph), o a que el DrugBank ID es nulo (`null`), lo que impide la localización del nodo.
+Actualmente no hay ensayos clínicos relacionados registrados.
 
----
+## Evidencia de Literatura
+
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [20133250](https://pubmed.ncbi.nlm.nih.gov/20133250/) | 2010 | Reporte de caso | Clinical Breast Cancer | Adenocarcinoma prostático metastásico que simulaba un carcinoma mamario inflamatorio en un hombre de 78 años. No aborda la osteoartritis. |
 
 ## Información de Mercado en Colombia
 
-No se encontraron licencias en la consulta a fuentes regulatorias.
-
-<!-- review:begin co-lic-20261105-leuprolide_acetato-1 -->
-
-> **Corrección de revisión (2026-11-05)**: Texto original: "Este fármaco no cuenta con registros sanitarios activos en Colombia a la fecha de corte de datos (2026-04-20). No se encontraron licencias en la consulta a fuentes regulatorias." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261105-leuprolide_acetato-1 -->
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19956218 | ELIGARD® 22.5 MG | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato |
+| 20032905 | ELIGARD® 45 MG | Polvo estéril para reconstituir a suspensión inyectable | Leuprorelina acetato |
 
 ## Consideraciones de Seguridad
 
-Consultar el prospecto para información de seguridad. Los datos de advertencias, contraindicaciones e interacciones farmacológicas no están disponibles en este Evidence Pack.
-
----
+Consultar el prospecto para información de seguridad.
 
 ## Conclusión y Próximos Pasos
 
 **Decisión: Hold**
 
 **Justificación:**
-El análisis no puede completarse debido a la ausencia de predicciones de TxGNN y a vacíos de datos bloqueantes en seguridad y mecanismo de acción. Este caso requiere remediación de datos antes de poder emitir cualquier recomendación de reposicionamiento.
+La predicción para osteoartritis se apoya solo en el puntaje del modelo. No hay ensayos clínicos ni estudios que evalúen esta enfermedad, por lo que el nivel de evidencia es L5. Además, faltan datos de seguridad y de mecanismo de acción.
 
 **Para avanzar se necesita:**
-
-- **\[DG001 — Bloqueante\]** Descargar y parsear el prospecto oficial desde INVIMA o fuente regulatoria colombiana/internacional para obtener advertencias y contraindicaciones
-- **\[DG002 — Alta\]** Consultar DrugBank API con el nombre correcto del compuesto (`leuprolide`) para obtener DrugBank ID, mecanismo de acción y categorías farmacológicas
-- **\[Crítico\]** Verificar que el nodo de Leuprolide Acetato esté correctamente mapeado en el Knowledge Graph de TxGNN — el `drugbank_id: null` sugiere un problema de mapeo que puede estar bloqueando la generación de predicciones
-- **\[Crítico\]** Re-ejecutar el pipeline de predicción TxGNN una vez resuelto el mapeo del nodo
-- Verificar si existe algún registro de Leuprolide Acetato bajo nombres comerciales alternativos (p. ej., Lupron, Eligard, Enantone) en bases de datos regulatorias colombianas
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, para poder hacer el tamizaje de seguridad.
+- Completar los datos del mecanismo de acción y analizar su relación con la fisiopatología de la osteoartritis.
+- Realizar una búsqueda dirigida de literatura preclínica y clínica sobre agonistas de GnRH y osteoartritis.
+- Evaluar la compatibilidad de la vía de administración (formulaciones inyectables de depósito) con una indicación articular.
 
 <!-- review:begin log -->
 
@@ -109,7 +104,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Este fármaco no cuenta con registros sanitarios activos en Colombia a la fecha de corte de datos (2026-04-20)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Este fármaco no cuenta con registros sanitarios activos en Colombia a la fecha de corte de datos (2026-04-20)" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

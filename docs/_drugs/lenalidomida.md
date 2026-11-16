@@ -1,20 +1,21 @@
 ---
-noindex: true
-sitemap: false
 layout: default
 title: Lenalidomida
-parent: Solo Predicción del Modelo (L5)
+parent: Evidencia Alta (L1-L2)
 nav_order: 387
-evidence_level: L5
-indication_count: 0
-last_modified_at: 2026-11-12
-predicted_indications: []
+evidence_level: L2
+indication_count: 4
+drugbank_id: DB00480
+monitor_inn: "Lenalidomide"
+predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
+last_modified_at: 2026-11-16
+description: "Lenalidomida: nueva indicación predicha, Leucemia mieloide (myeloid leukemia) (nivel de evidencia L2). Indicación original: LENALIDOMIDA"
 ---
 
 # Lenalidomida
 {: .fs-9 }
 
-Nivel de evidencia: **L5** | Indicaciones predichas: **0** 
+Nivel de evidencia: **L2** | Indicaciones predichas: **4** 
 {: .fs-6 .fw-300 }
 
 ---
@@ -33,106 +34,111 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **0**
 
 </div>
 
-## Lenalidomida: Evaluacion Incompleta — Datos Insuficientes para Reposicionamiento
+## Lenalidomida: Leucemia mieloide (myeloid leukemia)
 {: .text-alpha }
 
 ## Resumen en Una Frase
 
-Lenalidomida (conocida comercialmente como Revlimid) es un farmaco inmunomodulador de la clase de los IMiD, utilizado principalmente para el tratamiento del mieloma multiple y sindromes mielodisplasicos.
-El Evidence Pack recibido **no contiene indicaciones predichas por TxGNN**, lo que impide completar el analisis de reposicionamiento.
-Los datos de seguridad, mecanismo de accion y registros sanitarios en Colombia presentan brechas criticas que deben resolverse antes de continuar.
+Lenalidomida es un inmunomodulador oral que actúa sobre la proteína cereblón (CRBN) y cuenta con múltiples registros sanitarios vigentes en Colombia.
+El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide (myeloid leukemia)**,
+con **40 ensayos clínicos** y **19 publicaciones** recuperados en los datos compilados para este informe; sin embargo, ninguna de las publicaciones evalúa directamente esta enfermedad con lenalidomida como intervención principal de forma concluyente (son sobre todo revisiones de síndromes mielodisplásicos).
 
----
-
-## Resumen Rapido
+## Resumen Rápido
 
 | Item | Contenido |
 |------|------|
-| Indicacion Original | No registrada en este Evidence Pack |
-| Nueva Indicacion Predicha | Sin datos (predicted_indications vacio) |
-| Puntaje de Prediccion TxGNN | No disponible |
-| Nivel de Evidencia | L5 — Sin prediccion ni estudios reales en este pack |
+| Indicación Original | LENALIDOMIDA |
+| Nueva Indicación Predicha | Leucemia mieloide (myeloid leukemia) |
+| Puntaje de Predicción TxGNN | 0.9949 |
+| Nivel de Evidencia | L2 |
 | Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
 | Número de Registros Sanitarios | al menos 20 |
-| Decision Recomendada | **Hold** |
+| Decisión Recomendada | Proceed with Guardrails |
 
----
+## ¿Por qué es Razonable esta Predicción?
 
-## Por que No es Posible Completar la Prediccion?
+Lenalidomida se une a cereblón (CRBN) y redirige el complejo ubiquitina ligasa CRL4-CRBN para degradar los factores de transcripción IKZF1 e IKZF3 y la caseína quinasa 1 alfa (CK1α, codificada por CSNK1A1). La degradación de CK1α explica su actividad en el síndrome mielodisplásico con deleción 5q, y podría ejercer presión de letalidad sintética sobre clones mieloides con del(5q). Además, sus efectos inmunomoduladores (activación de linfocitos T y NK) podrían aportar actividad antileucémica, por ejemplo como mantenimiento tras trasplante.
 
-El Evidence Pack version v4 para Lenalidomida fue generado el 2026-04-20 con **dos brechas de datos criticas** que bloquean el analisis:
+La relación con la leucemia mieloide aguda (LMA) es biológicamente plausible por la cercanía con los síndromes mielodisplásicos, que pueden evolucionar a LMA. No obstante, la evidencia en LMA es más débil y menos definida por biomarcadores que en el SMD con del(5q).
 
-**Brecha DG001 — Advertencias y contraindicaciones (Severidad: Bloqueante):** No se dispone de la informacion del prospecto oficial de INVIMA. Sin este dato, es imposible realizar la evaluacion de seguridad inicial (S1), lo cual bloquea cualquier recomendacion de reposicionamiento. La fuente de resolucion es el sitio web de INVIMA mediante descarga y analisis del PDF del prospecto.
+Cabe señalar que los datos de mecanismo de acción no estaban disponibles en la ficha del fármaco; la explicación anterior proviene del análisis mecanístico de la predicción.
 
-**Brecha DG002 — Mecanismo de accion (Severidad: Alta):** No se obtuvieron datos de MOA desde DrugBank (el `drugbank_id` es nulo en este pack). Esto impide el analisis de relacion mecanistica entre la indicacion original y posibles nuevas indicaciones. A pesar de que el log registra una consulta exitosa a DrugBank (`result_count: 1`), los datos no fueron integrados al pack.
+**Nivel de evidencia:** Los ensayos de fase 2 completados (por ejemplo, NCT00546897 y NCT01301820) estudian directamente la LMA, pero son de un solo brazo o no definitivos, y no hay dos ensayos de fase 3 completados en LMA. Se asigna L2 según el análisis de la predicción principal; se recomienda interpretarlo con cautela, ya que el único fase 3 de la lista (NCT00843882) es en SMD, y el otro (NCT04490707) tiene estado desconocido.
 
-Adicionalmente, el campo `predicted_indications` esta completamente vacio, lo que indica que el modelo TxGNN no fue ejecutado o los resultados no fueron incluidos en este pack. Sin una indicacion predicha, no es posible estructurar el informe de reposicionamiento.
+## Evidencia de Ensayos Clínicos
 
----
+Se muestran los 10 ensayos más relevantes (de 40 recuperados):
 
-## Brechas de Datos Identificadas
+| Número de Ensayo | Fase | Estado | Inscripción | Hallazgos Principales |
+|---------|------|------|------|---------|
+| [NCT00546897](https://clinicaltrials.gov/study/NCT00546897) | Fase 2 | Completado | 48 | Lenalidomida en monoterapia en LMA no tratada, ≥60 años, sin anomalías del 5q |
+| [NCT01301820](https://clinicaltrials.gov/study/NCT01301820) | Fase 2 | Completado | 120 | Mantenimiento alternando lenalidomida y azacitidina tras inducción en LMA de mal pronóstico en adultos mayores |
+| [NCT01358734](https://clinicaltrials.gov/study/NCT01358734) | Fase 2 | Completado | 88 | Lenalidomida, azacitidina secuencial + lenalidomida, o azacitidina sola en LMA de reciente diagnóstico (≥65 años) |
+| [NCT00352365](https://clinicaltrials.gov/study/NCT00352365) | Fase 2 | Completado | 41 | Lenalidomida en LMA con del(5q) en mayores de 60 años que rechazan quimioterapia |
+| [NCT03118466](https://clinicaltrials.gov/study/NCT03118466) | Fase 2 | Completado | 41 | MEC más lenalidomida en LMA recaída o refractaria |
+| [NCT02538965](https://clinicaltrials.gov/study/NCT02538965) | Fase 2 | Completado | 17 | Actividad y seguridad en pacientes pediátricos con LMA recaída/refractaria |
+| [NCT02126553](https://clinicaltrials.gov/study/NCT02126553) | Fase 2 | Completado | 29 | Mantenimiento con lenalidomida en LMA de alto riesgo en remisión |
+| [NCT01038635](https://clinicaltrials.gov/study/NCT01038635) | Fase 1/2 | Completado | 94 | Azacitidina + lenalidomida en SMD de alto riesgo y LMA |
+| [NCT04490707](https://clinicaltrials.gov/study/NCT04490707) | Fase 3 | Desconocido | 60 | Azacitidina + lenalidomida como mantenimiento guiado por enfermedad residual medible en LMA de adultos mayores o no aptos |
+| [NCT01132586](https://clinicaltrials.gov/study/NCT01132586) | Fase 1 | Completado | 61 | Lenalidomida con citarabina e idarrubicina en LMA: seguridad y dosis |
 
-| ID | Categoria | Item Faltante | Severidad | Impacto | Fuente de Resolucion |
-|----|-----------|---------------|-----------|---------|----------------------|
-| DG001 | Drug_Level | Advertencias/Contraindicaciones INVIMA | **Bloqueante** | Bloquea evaluacion de seguridad S1 | Prospecto PDF - sitio INVIMA |
-| DG002 | Drug_Level | Mecanismo de accion (MOA) | Alta | Impide analisis de relacion mecanistica | DrugBank API |
-| DG003* | Prediction | Resultados TxGNN | **Bloqueante** | Sin indicacion predicha, no hay informe posible | Pipeline TxGNN |
+## Evidencia de Literatura
 
-*DG003 inferido del pack: `predicted_indications: []`
+Las publicaciones recuperadas son en su mayoría revisiones sobre síndromes mielodisplásicos y no estudian directamente la leucemia mieloide con lenalidomida:
 
----
+| PMID | Año | Tipo | Revista | Hallazgos Principales |
+|------|-----|------|------|---------|
+| [37288607](https://pubmed.ncbi.nlm.nih.gov/37288607/) | 2023 | Revisión | Am J Hematol | Actualización de diagnóstico, estratificación de riesgo y manejo de SMD |
+| [42400116](https://pubmed.ncbi.nlm.nih.gov/42400116/) | 2026 | Revisión | Am J Hematol | Actualización 2026 de SMD |
+| [37874917](https://pubmed.ncbi.nlm.nih.gov/37874917/) | 2023 | Revisión | Blood | Toma de decisiones clínicas y tratamiento de SMD |
+| [24656536](https://pubmed.ncbi.nlm.nih.gov/24656536/) | 2014 | Revisión | Lancet | Revisión general de SMD y su progresión a leucemia mieloide aguda |
+| [41348013](https://pubmed.ncbi.nlm.nih.gov/41348013/) | 2025 | Revisión | Hematology ASH Educ Program | Novedades en SMD de riesgo bajo/intermedio |
+| [38066862](https://pubmed.ncbi.nlm.nih.gov/38066862/) | 2023 | Revisión | Hematology ASH Educ Program | Terapias de nueva generación en SMD de menor riesgo |
+| [39721469](https://pubmed.ncbi.nlm.nih.gov/39721469/) | 2025 | Revisión | Leuk Res | Terapias combinadas con azacitidina en LMA no elegible para quimioterapia intensiva |
+| [25644743](https://pubmed.ncbi.nlm.nih.gov/25644743/) | 2015 | Revisión | Leuk Lymphoma | Anemia hemolítica asociada a lenalidomida (señal de seguridad) |
+| [34864823](https://pubmed.ncbi.nlm.nih.gov/34864823/) | 2021 | Revisión | Blood Cancer J | Terapia de diferenciación en neoplasias mieloides |
+| [29795386](https://pubmed.ncbi.nlm.nih.gov/29795386/) | 2018 | Revisión | Blood Cancer J | Algoritmo de tratamiento de SMD 2018 |
 
-## Informacion de Mercado en Colombia
+## Información de Mercado en Colombia
 
-No hay licencias ni formas farmaceuticas registradas ante INVIMA.
+Hay al menos 20 registros sanitarios de lenalidomida en Colombia, todos de producto único y vigentes; la lista puede ser parcial. Se muestran 5:
 
-<!-- review:begin co-lic-20261105-lenalidomida-1 -->
-
-> **Corrección de revisión (2026-11-05)**: Texto original: "Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29. No hay licencias ni formas farmaceuticas registradas ante INVIMA." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261105-lenalidomida-1 -->
-
----
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
+|---------|------|------|-----------|
+| 19999700 | REVLIMID® 10 MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
+| 19999701 | REVLIMID® 5MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
+| 20115046 | LADEVINA® 15 MG CÁPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
+| 20130202 | DOMIDE 25 MG CAPSULAS | Cápsula dura | Indicación no registrada en los datos locales |
+| 20136207 | LENOSIDE 10 | Cápsulas duras y blandas | Indicación no registrada en los datos locales |
 
 ## Citotoxicidad
 
 | Item | Contenido |
 |------|------|
-| Clasificacion de Citotoxicidad | Inmunomodulador (IMiD) — agente antineoplasico no citotoxico clasico |
-| Riesgo de Mielosupresion | Alto (neutropenia y trombocitopenia son toxicidades dosis-limitantes conocidas de la clase IMiD) |
-| Clasificacion de Emetogenicidad | Baja a moderada |
-| Items de Monitoreo | Hemograma completo con diferencial, funcion renal (aclaramiento de creatinina), pruebas de embarazo (riesgo teratogenico clase X) |
-| Proteccion en Manejo | Requiere programa de prevencion de embarazo (REMS) y manejo bajo regulaciones de farmacos citotoxicos |
-
-> Nota: Esta informacion proviene del conocimiento de clase farmacologica. Confirmar con prospecto oficial de INVIMA una vez disponible.
-
----
+| Clasificación de Citotoxicidad | Agente antineoplásico inmunomodulador (degradador de proteínas vía cereblón); no es un citotóxico convencional |
+| Riesgo de Mielosupresión | Consultar las advertencias y precauciones del prospecto; los ensayos en LMA reportan toxicidad hematológica relevante en combinación con quimioterapia |
+| Clasificación de Emetogenicidad | Consultar las advertencias y precauciones del prospecto |
+| Items de Monitoreo | Hemograma con diferencial, función hepática y renal |
+| Protección en Manejo | Consultar las advertencias y precauciones del prospecto |
 
 ## Consideraciones de Seguridad
 
-Los datos de seguridad especificos del prospecto no estan disponibles en este Evidence Pack. Sin embargo, por tratarse de un analogo de talidomida, se anticipan las siguientes consideraciones criticas de clase:
+- **Advertencias de la literatura**: se describe anemia hemolítica asociada a lenalidomida (PMID 25644743) y un caso de miocarditis durante el tratamiento (PMID 20876827).
 
-- **Teratogenicidad:** Contraindicacion absoluta en embarazo (categoria X). Requiere programa obligatorio de control de riesgo (equivalente al programa REMS de FDA).
-- **Trombosis:** Riesgo aumentado de tromboembolismo venoso, especialmente en combinacion con dexametasona.
-- **Mielosupresion:** Neutropenia y trombocitopenia pueden requerir reduccion de dosis o profilaxis con G-CSF.
+Consultar el prospecto para información de seguridad adicional; no se dispone de datos de advertencias, contraindicaciones ni interacciones en los datos compilados.
 
-> Confirmar todas las advertencias con el prospecto oficial antes de avanzar.
+## Conclusión y Próximos Pasos
 
----
+**Decisión: Proceed with Guardrails**
 
-## Conclusion y Proximos Pasos
-
-**Decision: Hold**
-
-**Justificacion:**
-El Evidence Pack no contiene predicciones TxGNN ni datos de seguridad estructurados, lo que hace imposible generar un informe de reposicionamiento valido. Las brechas DG001 y DG002 son bloqueantes y deben resolverse antes de re-ejecutar el pipeline.
+**Justificación:**
+Existen numerosos ensayos de fase 1 y 2 en LMA, algunos completados con inscripción moderada, que respaldan la plausibilidad clínica, y el mecanismo es sólido en SMD con del(5q). Sin embargo, la evidencia en LMA es heterogénea, mayormente no aleatorizada, sin ensayos de fase 3 completados en esta enfermedad y sin literatura directa; por ello se recomienda avanzar solo con salvaguardas.
 
 **Para avanzar se necesita:**
-- [ ] Resolver DG001: Descargar y parsear el prospecto de Lenalidomida desde el sitio oficial de INVIMA (o FDA/EMA si no hay registro local) para extraer advertencias y contraindicaciones
-- [ ] Resolver DG002: Integrar los datos de DrugBank al pack — el log indica que la consulta fue exitosa (`result_count: 1`) pero los datos no se transfirieron al campo `drug.original_moa`
-- [ ] Re-ejecutar el modelo TxGNN para generar `predicted_indications` — sin este campo el informe no puede completarse
-- [ ] Verificar si existe registro de Lenalidomida bajo nombre comercial Revlimid u otros en INVIMA, ya que la busqueda por INN pudo no capturar todas las licencias
-- [ ] Con datos completos, re-generar el Evidence Pack v5 y volver a solicitar este informe
+- Revisión de resultados publicados de los ensayos de fase 2 en LMA (NCT00546897, NCT01301820, NCT01358734) para valorar eficacia real.
+- Definir subpoblaciones con biomarcadores (por ejemplo, del(5q)) donde la actividad sea más probable.
+- Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y datos del mecanismo de acción desde fuentes de referencia.
+- Plan de monitoreo de seguridad hematológica y de riesgo tromboembólico y teratogénico.
 
 <!-- review:begin log -->
 
@@ -142,7 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Lenalidomida **no cuenta con ningun registro sanitario activo en Colombia** segun los datos consultados el 2026-03-29" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
