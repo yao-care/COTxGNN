@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad ocular** (cat
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, bromfenaco es un AINE tópico que inhibe las ciclooxigenasas (COX-1 y COX-2) y reduce la síntesis de prostaglandina E2 (PGE2), mediador clave de la inflamación ocular, el dolor y el edema macular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bromfenac (traducción no oficial): «El bromfenaco es un antiinflamatorio no esteroideo (AINE) con actividad antiinflamatoria. Se cree que su mecanismo de acción se debe a su capacidad para bloquear la síntesis de prostaglandinas mediante la inhibición de la ciclooxigenasa (COX) 1 y 2.» Texto original en inglés: "Bromfenac is a nonsteroidal anti-inflammatory drug (NSAID) that has anti-inflammatory activity. The mechanism of its action is thought to be due to its ability to block prostaglandin synthesis by inhibiting cyclooxygenase (COX) 1 and 2." ([DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519), versión del 2026-06-15; consultado el 2026-11-19). Según la información conocida, bromfenaco es un AINE tópico que inhibe las ciclooxigenasas (COX-1 y COX-2) y reduce la síntesis de prostaglandina E2 (PGE2), mediador clave de la inflamación ocular, el dolor y el edema macular.
 
 Su uso original en solución oftálmica se relaciona con la inflamación y el dolor tras cirugía de catarata. Como la inflamación mediada por prostaglandinas participa en muchas patologías oculares, es coherente que el modelo prediga utilidad en "enfermedad ocular". Los ensayos que miden directamente la inhibición de PGE2 en humanos (por ejemplo, NCT01021761) apoyan este mecanismo.
 
@@ -169,12 +169,13 @@ Las demás indicaciones predichas (papilitis óptica, anomalía de von Hippel, s
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
 
 <!-- review:end log -->
 

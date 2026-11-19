@@ -66,7 +66,7 @@ La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en el registro compilado. Según el conocimiento farmacológico establecido, imiquimod es un agonista del receptor tipo Toll 7 (TLR7) que activa localmente la inmunidad innata y adaptativa (interferón alfa, TNF-alfa, IL-12). Esta activación favorece la eliminación de células epiteliales displásicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Imiquimod (traducción no oficial): «Se desconoce el mecanismo de acción de ZYCLARA en el tratamiento de la QA y las VGE.» Texto original en inglés: "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), versión del 2025-05-23; consultado el 2026-11-19). Según el conocimiento farmacológico establecido, imiquimod es un agonista del receptor tipo Toll 7 (TLR7) que activa localmente la inmunidad innata y adaptativa (interferón alfa, TNF-alfa, IL-12). Esta activación favorece la eliminación de células epiteliales displásicas.
 
 Este mecanismo es coherente con su uso establecido en queratosis actínica, una lesión premaligna cutánea, y con su empleo fuera de indicación en neoplasias intraepiteliales (cervical, vulvar, anal) y en papulosis bowenoide. Por ello, la predicción de TxGNN para neoplasia premaligna resulta biológicamente plausible.
 
@@ -157,7 +157,7 @@ Hay un ensayo de Fase 3 completado en queratosis actínica y literatura que resp
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -165,6 +165,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a MEGALABS COLOMBIA S.A.S y están cancelados, por lo que actualmente no hay productos vigentes con imiquimod como" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el producto no tiene registro vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que los registros actuales están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

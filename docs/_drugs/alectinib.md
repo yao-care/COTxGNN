@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, alectinib es un inhibidor selectivo de ALK, utilizado en el cáncer de pulmón de células no pequeñas con reordenamiento de ALK, donde ensayos de Fase 3 han demostrado su eficacia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alectinib (traducción no oficial): «El alectinib es un inhibidor de la tirosina cinasa dirigido contra ALK y RET. En estudios no clínicos, el alectinib inhibió la fosforilación de ALK y la activación mediada por ALK de las proteínas de señalización posteriores STAT3 y AKT, y disminuyó la viabilidad de las células tumorales en múltiples líneas celulares portadoras de fusiones, amplificaciones o mutaciones activadoras de ALK.» Texto original en inglés: "Alectinib is a tyrosine kinase inhibitor that targets ALK and RET. In nonclinical studies, alectinib inhibited ALK phosphorylation and ALK-mediated activation of the downstream signaling proteins STAT3 and AKT, and decreased tumor cell viability in multiple cell lines harboring ALK fusions, amplifications, or activating mutations." ([DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb), versión del 2026-08-21; consultado el 2026-11-19). Según la información conocida, alectinib es un inhibidor selectivo de ALK, utilizado en el cáncer de pulmón de células no pequeñas con reordenamiento de ALK, donde ensayos de Fase 3 han demostrado su eficacia.
 
 Para la fibromatosis gingival no se ha establecido ningún mecanismo relacionado con ALK. La puntuación elevada de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; tampoco está respaldada por ensayos ni literatura. La similitud con la indicación original no ha sido evaluada.
 
@@ -147,12 +147,13 @@ El mayor respaldo aparece en "neoplasia benigna de pulmón" (puesto 5; L1, con e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alecensa (alectinib hydrochloride) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42c49deb-713b-427a-9670-08af08adcffb) |
 
 <!-- review:end log -->
 

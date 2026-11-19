@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, denosumab es un anticuerpo monoclonal que inhibe RANKL (ligando del receptor activador del factor nuclear kappa-B), y se utiliza en osteoporosis y otras condiciones de pérdida ósea. Esta descripción del mecanismo proviene de conocimiento general y no de los datos compilados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Denosumab (traducción no oficial): «Los productos de denosumab se unen al RANKL, una proteína transmembrana o soluble esencial para la formación, la función y la supervivencia de los osteoclastos, las células responsables de la resorción ósea. Los productos de denosumab impiden que el RANKL active su receptor, RANK, en la superficie de los osteoclastos y sus precursores.» Texto original en inglés: "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), versión del 2026-11-04; consultado el 2026-11-19). Según el conocimiento general, denosumab es un anticuerpo monoclonal que inhibe RANKL (ligando del receptor activador del factor nuclear kappa-B), y se utiliza en osteoporosis y otras condiciones de pérdida ósea. Esta descripción del mecanismo proviene de conocimiento general y no de los datos compilados.
 
 Un vínculo hipotético con la retinopatía diabética podría pasar por la señalización RANKL/RANK/OPG, que se ha relacionado con calcificación vascular, inflamación y disfunción microvascular asociada a la diabetes. Sin embargo, este vínculo **no está establecido** por la evidencia disponible: es una predicción computacional sin datos clínicos ni mecanísticos de respaldo.
 
@@ -142,12 +142,13 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Además, el mercado colombiano solo muestra registros cancelados, lo que complica cualquier vía de acceso inmediata" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
 
 <!-- review:end log -->
 

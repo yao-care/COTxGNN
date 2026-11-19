@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil en **bronquitis (bronchitis)**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, omalizumab se une a la región constante de la IgE libre, reduce su concentración y disminuye la activación de mastocitos y basófilos a través del receptor de alta afinidad FcεRI. Su blanco es el gen de la cadena pesada épsilon de la inmunoglobulina (IGHE).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Omalizumab (traducción no oficial): «Asma, rinosinusitis crónica con pólipos nasales y alergia alimentaria mediada por IgE Los productos de omalizumab inhiben la unión de la IgE al receptor de IgE de alta afinidad (FcεRI) en la superficie de los mastocitos, los basófilos y las células dendríticas, lo que da lugar a la regulación a la baja del FcεRI en estas células. En los pacientes asmáticos alérgicos, el tratamiento con productos de omalizumab inhibe la inflamación mediada por IgE, como lo demuestran la reducción de los eosinófilos en sangre y tejidos y la reducción de los mediadores inflamatorios, incluidos IL-4, IL-5 e IL-13.» Texto original en inglés: "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), versión del 2026-10-06; consultado el 2026-11-19). Según la información conocida, omalizumab se une a la región constante de la IgE libre, reduce su concentración y disminuye la activación de mastocitos y basófilos a través del receptor de alta afinidad FcεRI. Su blanco es el gen de la cadena pesada épsilon de la inmunoglobulina (IGHE).
 
 La relación con la bronquitis es indirecta. Los datos describen una posible conexión a través de la inflamación de las vías respiratorias compartida con el asma, la enfermedad de las vías aéreas inducida por el tabaco y el solapamiento asma-EPOC. Ningún ensayo se dirige a la bronquitis como enfermedad en sí.
 
@@ -106,6 +106,18 @@ Ningún estudio publicado respalda directamente el uso de omalizumab en bronquit
 - Datos detallados del mecanismo de acción y su aplicabilidad a la bronquitis
 - Advertencias y contraindicaciones del prospecto aprobado en INVIMA
 - Definición del subgrupo de pacientes que podría beneficiarse
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

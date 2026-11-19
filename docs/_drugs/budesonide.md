@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **eccema atópico**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Se sabe que la budesonida es un glucocorticoide: actúa principalmente sobre el receptor de glucocorticoides (NR3C1) y, en menor medida, sobre los receptores de mineralocorticoides (NR3C2) y de progesterona (PGR). Su acción antiinflamatoria e inmunosupresora está bien establecida en asma, EPOC, enfermedad de Crohn, colitis ulcerosa y esofagitis eosinofílica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Budesonide (traducción no oficial): «La budesonida es un corticosteroide antiinflamatorio que presenta una potente actividad glucocorticoide y una débil actividad mineralocorticoide. En modelos estándar in vitro y en animales, la budesonida tiene una afinidad por el receptor de glucocorticoides aproximadamente 200 veces mayor y una potencia antiinflamatoria tópica 1000 veces mayor que el cortisol (ensayo de edema auricular inducido por aceite de crotón en ratas).» Texto original en inglés: "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), versión del 2026-06-10; consultado el 2026-11-19). Se sabe que la budesonida es un glucocorticoide: actúa principalmente sobre el receptor de glucocorticoides (NR3C1) y, en menor medida, sobre los receptores de mineralocorticoides (NR3C2) y de progesterona (PGR). Su acción antiinflamatoria e inmunosupresora está bien establecida en asma, EPOC, enfermedad de Crohn, colitis ulcerosa y esofagitis eosinofílica.
 
 El eccema atópico es una enfermedad inflamatoria de la piel dominada por la inflamación tipo 2. Su tratamiento habitual incluye corticosteroides tópicos. Por eso es plausible que un glucocorticoide con efecto antiinflamatorio local pueda ser útil, y las publicaciones describen la budesonida como usada en terapia local de dermatitis atópica pediátrica.
 
@@ -150,13 +150,14 @@ El puntaje de TxGNN es muy alto (0.9996), pero no hay ensayos clínicos y la lit
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; actualmente no hay productos de budesonida vigentes en este conjunto de datos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes de budesonida en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Análisis regulatorio: en Colombia no hay registros vigentes ni una formulación dérmica aprobada, por lo que se requeriría un nuevo registro " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **bronquitis**, pero la ev
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según la información conocida de la literatura recuperada, dupilumab bloquea la subunidad IL-4Rα, con lo que inhibe la señalización de IL-4 e IL-13, dos citocinas centrales de la inflamación tipo 2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dupilumab (traducción no oficial): «Dupilumab es un anticuerpo monoclonal humano IgG4 que inhibe la señalización de la interleucina-4 (IL-4) y la interleucina-13 (IL-13) al unirse específicamente a la subunidad IL-4Rα, compartida por los complejos de receptores de IL-4 e IL-13. Dupilumab inhibe la señalización de IL-4 a través del receptor de tipo I y la señalización tanto de IL-4 como de IL-13 a través del receptor de tipo II.» Texto original en inglés: "Dupilumab is a human monoclonal IgG4 antibody that inhibits interleukin-4 (IL-4) and interleukin-13 (IL-13) signaling by specifically binding to the IL-4Rα subunit shared by the IL-4 and IL-13 receptor complexes. Dupilumab inhibits IL-4 signaling via the Type I receptor and both IL-4 and IL-13 signaling through the Type II receptor." ([DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780), versión del 2026-04-22; consultado el 2026-11-19). Según la información conocida de la literatura recuperada, dupilumab bloquea la subunidad IL-4Rα, con lo que inhibe la señalización de IL-4 e IL-13, dos citocinas centrales de la inflamación tipo 2.
 
 Este mecanismo es relevante en enfermedades de la vía aérea con inflamación eosinofílica o tipo 2 alta, como el asma, la EPOC tipo 2 y la bronquitis plástica eosinofílica pediátrica. Dupilumab está bien establecido en asma (estudio de extensión TRAVERSE y metaanálisis de ECA) y existen datos emergentes de práctica real en EPOC, incluido un fenotipo con predominio de bronquitis crónica.
 
@@ -152,13 +152,14 @@ No hay ensayos clínicos que evalúen dupilumab en bronquitis. El único ensayo 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registros cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a Sanofi-Aventis de Colombia S.A. y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dupixent (dupilumab) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595f437d-2729-40bb-9c62-c8ece1f82780) |
 
 <!-- review:end log -->
 

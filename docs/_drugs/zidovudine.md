@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la zidovudina es un análogo de la timidina que, tras fosforilarse dentro de la célula, inhibe la transcriptasa inversa viral. Su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a otros lentivirus que dependen de la misma enzima.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zidovudine (traducción no oficial): «La zidovudina es un antirretroviral. […] La zidovudina es un análogo de nucleósido sintético. A nivel intracelular, la zidovudina se fosforila a su metabolito activo 5′-trifosfato, el trifosfato de zidovudina (ZDV-TP). El principal modo de acción del ZDV-TP es la inhibición de la transcriptasa inversa (RT) mediante la terminación de la cadena de ADN tras la incorporación del análogo de nucleótido.» Texto original en inglés: "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), versión del 2024-11-13; consultado el 2026-11-19). Según la información conocida, la zidovudina es un análogo de la timidina que, tras fosforilarse dentro de la célula, inhibe la transcriptasa inversa viral. Su eficacia en la infección por VIH está comprobada, y mecanísticamente podría ser aplicable a otros lentivirus que dependen de la misma enzima.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus que utiliza transcriptasa inversa, por lo que el mecanismo es plausible. Los estudios en gatos, incluidos un modelo de ratón SCID-felino y gatos infectados naturalmente, muestran reducciones de la carga viral plasmática y mejoras parciales en parámetros inmunológicos.
 
@@ -144,11 +144,12 @@ La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y estado de mercado cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

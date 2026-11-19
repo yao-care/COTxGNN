@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, deferasirox es un quelante de hierro, y mecanísticamente podría ser aplicable a la infección por VIH a través del control de la disponibilidad de hierro.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Deferasirox (traducción no oficial): «Exjade (deferasirox) es un quelante activo por vía oral que es selectivo para el hierro (como Fe 3+ ). Es un ligando tridentado que se une al hierro con alta afinidad en una proporción 2:1. Aunque el deferasirox tiene una afinidad muy baja por el zinc y el cobre, se producen disminuciones variables en la concentración sérica de estos oligoelementos tras la administración de deferasirox.» Texto original en inglés: "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), versión del 2026-01-28; consultado el 2026-11-19). Según la información conocida, deferasirox es un quelante de hierro, y mecanísticamente podría ser aplicable a la infección por VIH a través del control de la disponibilidad de hierro.
 
 Un estudio preclínico de 2021 (PMID 34550543) sugiere que el hierro en los endolisosomas restringe la transactivación del LTR del VIH-1 mediada por la proteína Tat, al aumentar su oligomerización y la expresión de β-catenina. Esto ofrece un fundamento plausible pero **indirecto**: se trata de un estudio in vitro que no evalúa deferasirox en pacientes con VIH.
 
@@ -126,11 +126,12 @@ La predicción para VIH tiene un puntaje alto del modelo, pero solo cuenta con u
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los registros en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

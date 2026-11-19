@@ -61,7 +61,7 @@ Esta predicción coincide con la práctica clínica actual, por lo que podría n
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura recuperada, levetiracetam se une a la proteína de vesículas sinápticas SV2A e inhibe la liberación de neurotransmisores. También se describe una posible inhibición de canales de calcio tipo L.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levetiracetam (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) el levetiracetam ejerce su efecto antiepiléptico. Se ha descrito para el levetiracetam un sitio de unión neuronal saturable y estereoselectivo en tejido cerebral de rata. Los datos experimentales indican que este sitio de unión es la proteína de las vesículas sinápticas SV2A, que se cree que participa en la regulación de la exocitosis de las vesículas.» Texto original en inglés: "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), versión del 2026-11-11; consultado el 2026-11-19). Según la literatura recuperada, levetiracetam se une a la proteína de vesículas sinápticas SV2A e inhibe la liberación de neurotransmisores. También se describe una posible inhibición de canales de calcio tipo L.
 
 La indicación original (epilepsia, crisis focales y generalizadas) y el estado epiléptico comparten la misma base fisiopatológica: hiperexcitabilidad neuronal con fallo de los mecanismos de terminación de las crisis. Reducir la liberación sináptica de neurotransmisores es una vía plausible para detener crisis prolongadas.
 
@@ -171,7 +171,7 @@ Dos ensayos de Fase 3 completados (NCT01960075 con 478 pacientes y NCT01150331 c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -179,6 +179,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los cuatro registros están cancelados, por lo que debe verificarse si existe algún producto vigente o si" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro inyectable (Keppra, concentrado para perfusión) está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

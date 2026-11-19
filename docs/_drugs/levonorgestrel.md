@@ -54,7 +54,7 @@ Levonorgestrel es un progestágeno sintético que se usa en anticoncepción horm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, levonorgestrel es un progestágeno derivado de la familia de las 19-nortestosteronas. Se emplea en el sistema intrauterino, en implantes y en píldoras anticonceptivas. Actúa inhibiendo la ovulación, espesando el moco cervical y alterando el endometrio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levonorgestrel (traducción no oficial): «No se ha demostrado de manera concluyente el mecanismo local por el cual el LNG liberado de forma continua contribuye a la eficacia anticonceptiva de Skyla. Los estudios de Skyla y de prototipos similares de SIU de LNG han sugerido varios mecanismos que previenen el embarazo: el espesamiento del moco cervical, que impide el paso de los espermatozoides al útero; la inhibición de la capacitación o de la supervivencia de los espermatozoides, y la alteración del endometrio.» Texto original en inglés: "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), versión del 2026-03-04; consultado el 2026-11-19). Según la información conocida, levonorgestrel es un progestágeno derivado de la familia de las 19-nortestosteronas. Se emplea en el sistema intrauterino, en implantes y en píldoras anticonceptivas. Actúa inhibiendo la ovulación, espesando el moco cervical y alterando el endometrio.
 
 El acné depende en buena parte de la acción de los andrógenos sobre la glándula sebácea. Por eso los anticonceptivos hormonales combinados se han estudiado en esta enfermedad. En el ensayo aleatorizado y controlado con placebo (PMID 12196750), una combinación de 20 µg de etinilestradiol con 100 µg de levonorgestrel se evaluó en acné moderado, con un marco biológico plausible: reducir los andrógenos biodisponibles podría mejorar el acné.
 
@@ -116,11 +116,12 @@ El único ensayo aleatorizado (L2) evaluó una combinación de levonorgestrel co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 2 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
 
 <!-- review:end log -->
 

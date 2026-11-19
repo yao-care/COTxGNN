@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por el conocimiento general, celecoxib inhibe la enzima COX-2 y reduce la producción de prostaglandinas que median la inflamación y el dolor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Celecoxib (traducción no oficial): «El celecoxib tiene propiedades analgésicas, antiinflamatorias y antipiréticas. Se cree que el mecanismo de acción del celecoxib se debe a la inhibición de la síntesis de prostaglandinas, principalmente mediante la inhibición de la COX-2. El celecoxib es un potente inhibidor de la síntesis de prostaglandinas in vitro.» Texto original en inglés: "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), versión del 2025-07-31; consultado el 2026-11-19). Por el conocimiento general, celecoxib inhibe la enzima COX-2 y reduce la producción de prostaglandinas que median la inflamación y el dolor.
 
 Sin embargo, la relación entre esa acción y la nueva indicación es débil. La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética rara causada por mutaciones de pérdida de función en el gen *CDMP1/GDF5*, que alteran la señalización de las proteínas morfogenéticas óseas (BMP). La inhibición de la COX-2 no corrige ese defecto genético.
 
@@ -132,12 +132,13 @@ La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profun
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 7 registros sanitarios de celecoxib en Colombia figuran como **cancelados**. Actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 7 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->
 

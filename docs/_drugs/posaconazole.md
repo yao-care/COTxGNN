@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, posaconazol es un antifúngico triazólico que inhibe la lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol en la membrana fúngica.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Posaconazole (traducción no oficial): «El posaconazol es un antifúngico azólico. […] El posaconazol bloquea la síntesis de ergosterol, un componente clave de la membrana celular fúngica, mediante la inhibición de la enzima lanosterol 14α-desmetilasa dependiente del citocromo P-450, responsable de la conversión del lanosterol en ergosterol en la membrana celular fúngica. Esto da lugar a una acumulación de precursores de esteroles metilados y a una depleción de ergosterol en la membrana celular, lo que debilita la estructura y la función de la membrana celular fúngica.» Texto original en inglés: "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), versión del 2026-02-13; consultado el 2026-11-19). Según el conocimiento farmacológico general, posaconazol es un antifúngico triazólico que inhibe la lanosterol 14-alfa-desmetilasa (CYP51), bloqueando la síntesis de ergosterol en la membrana fúngica.
 
 Sin embargo, la plausibilidad mecanística para neumocistosis es débil. *Pneumocystis jirovecii* carece de ergosterol en su membrana y utiliza colesterol y otros esteroles, por lo que el mecanismo de los azoles no tiene una diana clara en este organismo. El puntaje tan alto de TxGNN (0.9977) probablemente refleja la cercanía en la red de conocimiento con otros antifúngicos y enfermedades fúngicas invasivas, más que una verdadera afinidad mecanística.
 
@@ -133,12 +133,13 @@ La predicción de TxGNN es muy alta, pero no hay estudios que evalúen posaconaz
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la indicación aprobada originalmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
 
 <!-- review:end log -->
 

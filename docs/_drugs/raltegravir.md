@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por virus 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción registrado en la base de datos. Según la información conocida, raltegravir es un inhibidor de la integrasa del VIH-1 (INSTI): bloquea la integración del ADN viral en el genoma de la célula huésped, un paso esencial de la replicación de los retrovirus.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Raltegravir (traducción no oficial): «El raltegravir es un fármaco antiviral contra el VIH-1. […] El raltegravir inhibe la actividad catalítica de la integrasa del VIH-1, una enzima codificada por el VIH-1 que es necesaria para la replicación viral. La inhibición de la integrasa impide la inserción covalente, o integración, del ADN lineal no integrado del VIH-1 en el genoma de la célula huésped, lo que impide la formación del provirus del VIH-1.» Texto original en inglés: "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, raltegravir es un inhibidor de la integrasa del VIH-1 (INSTI): bloquea la integración del ADN viral en el genoma de la célula huésped, un paso esencial de la replicación de los retrovirus.
 
 La integrasa del SIV es estructural y funcionalmente muy similar a la del VIH-1, por lo que es plausible que el fármaco inhiba la replicación del SIV. La literatura preclínica lo respalda: la respuesta del SIVmac251 a raltegravir, el perfil de resistencia a los INSTI en SIV y varios estudios en macacos rhesus infectados.
 
@@ -142,12 +142,13 @@ La evidencia es exclusivamente preclínica (L4) y la infección por SIV es un mo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar el estado real de comercialización en Colombia, ya que los registros cancelados podrían reflejar un problema de datos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
 
 <!-- review:end log -->
 

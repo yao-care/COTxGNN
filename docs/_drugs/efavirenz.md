@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, efavirenz es un inhibidor no nucleósido de la transcriptasa inversa (ITINN) del VIH-1, y mecanísticamente podría ser aplicable a modelos de infección por virus emparentados que usen esa enzima.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Efavirenz (traducción no oficial): «El efavirenz es un fármaco antiviral. […] El efavirenz es un INNTI del VIH-1. La actividad del efavirenz está mediada predominantemente por la inhibición no competitiva de la transcriptasa inversa del VIH-1. El efavirenz no inhibe la transcriptasa inversa del VIH-2 ni las ADN polimerasas celulares humanas α, β, γ y δ.» Texto original en inglés: "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), versión del 2024-06-28; consultado el 2026-11-19). Según la información conocida, efavirenz es un inhibidor no nucleósido de la transcriptasa inversa (ITINN) del VIH-1, y mecanísticamente podría ser aplicable a modelos de infección por virus emparentados que usen esa enzima.
 
 Los estudios disponibles emplean RT-SHIV, un virus quimérico del virus de la inmunodeficiencia simia (SIV) que lleva la transcriptasa inversa del VIH-1 y, por ello, es sensible a los ITINN. En macacos rhesus infectados con RT-SHIV, efavirenz (solo o en combinación con lamivudina y tenofovir) redujo la carga viral.
 
@@ -108,6 +108,19 @@ La evidencia proviene de estudios en animales y de laboratorio con un virus quim
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Definir si existe un interés real más allá de su uso como modelo preclínico del VIH
 - Confirmar el estado vigente de los registros sanitarios locales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

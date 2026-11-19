@@ -56,7 +56,7 @@ pero hasta ahora no hay ensayos clínicos registrados y solo **8 publicaciones**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Clorfeniramina actúa como antagonista del receptor H1 de histamina (gen HRH1). No se dispone de datos detallados sobre el mecanismo de acción en la información compilada, pero la farmacología conocida indica que el bloqueo H1 reduce la rinorrea, los estornudos, el picor y la permeabilidad vascular mediados por histamina en la mucosa nasal.
+Clorfeniramina actúa como antagonista del receptor H1 de histamina (gen HRH1). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para codeine phosphate and chlorpheniramine maleate (combinación que contiene Chlorpheniramine) (traducción no oficial): «Clorfeniramina La clorfeniramina es un antihistamínico (antagonista del receptor H 1) derivado de la propilamina, de la clase de las alquilaminas, que también posee actividad anticolinérgica y sedante.» Texto original en inglés: "Chlorpheniramine Chlorpheniramine is a propylamine derivative antihistamine (H 1 -receptor antagonist) of the alkylamine class that also possesses anticholinergic and sedative activity." ([DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180), versión del 2024-01-10; consultado el 2026-11-19).
 
 Este efecto es coherente con su presencia en productos combinados para el resfriado común y la rinitis alérgica. Mecanísticamente, por tanto, podría ser aplicable a enfermedades de la cavidad nasal.
 
@@ -106,6 +106,19 @@ La predicción se apoya únicamente en modelos animales y estudios de fisiopatol
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Verificación de la compatibilidad de vías de administración
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tuxarin (codeine phosphate and chlorpheniramine maleate) prescribing information, Mainpointe Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7cfab67-6087-4ab4-b7cd-4f9295413180) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **conjuntivitis papilar**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas. Según la información conocida, la prilocaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, lo que impide la conducción del impulso nervioso. Su eficacia como anestésico local está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prilocaine (traducción no oficial): «La prilocaína estabiliza la membrana neuronal al inhibir los flujos iónicos necesarios para el inicio y la conducción de los impulsos, con lo que produce la acción anestésica local.» Texto original en inglés: "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), versión del 2021-11-10; consultado el 2026-11-19). Según la información conocida, la prilocaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, lo que impide la conducción del impulso nervioso. Su eficacia como anestésico local está bien establecida.
 
 La relación con la conjuntivitis papilar, una enfermedad inflamatoria o alérgica de la superficie ocular, es débil. No se identificó un mecanismo plausible que conecte el bloqueo de canales de sodio con el control de la inflamación alérgica ocular, por lo que cualquier vínculo sería especulativo.
 
@@ -126,11 +126,12 @@ La predicción para conjuntivitis papilar (0.9978) proviene del modelo TxGNN (de
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes ni una vía de administración ocular compatible" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
 
 <!-- review:end log -->
 

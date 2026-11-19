@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **linfoma folicular**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, ofatumumab es un anticuerpo monoclonal humano dirigido contra CD20, una proteína de la superficie de los linfocitos B. Se une a un epítopo cercano a la membrana y puede destruir las células B mediante citotoxicidad dependiente del complemento y citotoxicidad celular dependiente de anticuerpos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ofatumumab (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el ofatumumab ejerce sus efectos terapéuticos en la esclerosis múltiple, pero se presume que implica la unión a CD20, un antígeno de superficie celular presente en los linfocitos pre-B y B maduros. Tras la unión a la superficie celular de los linfocitos B, el ofatumumab produce citólisis celular dependiente de anticuerpos y lisis mediada por complemento.» Texto original en inglés: "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), versión del 2026-04-01; consultado el 2026-11-19). Según la información conocida, ofatumumab es un anticuerpo monoclonal humano dirigido contra CD20, una proteína de la superficie de los linfocitos B. Se une a un epítopo cercano a la membrana y puede destruir las células B mediante citotoxicidad dependiente del complemento y citotoxicidad celular dependiente de anticuerpos.
 
 El linfoma folicular es un tumor de linfocitos B que expresa CD20, de modo que la diana es directamente relevante. Los datos compilados señalan actividad en enfermedad refractaria a rituximab, otro anticuerpo anti-CD20 que es parte del tratamiento estándar de esta enfermedad.
 
@@ -132,6 +132,19 @@ Varios ensayos de Fase 2 completados, incluidos aleatorizados, estudian directam
 - Comparar con rituximab y otros anti-CD20 ya establecidos en linfoma folicular.
 - Definir un plan de monitoreo de seguridad (infecciones, citopenias, interacciones inmunosupresoras y vacunas).
 - Evaluar la viabilidad de la vía de administración y la presentación frente al uso oncológico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

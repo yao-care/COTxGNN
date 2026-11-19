@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que estudien directamente est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la dactinomicina es un agente citotóxico que se intercala en el ADN e inhibe la transcripción, y se emplea en esquemas multiagente de quimioterapia pediátrica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dactinomycin (traducción no oficial): «Dactinomicina es una actinomicina citotóxica que se une al ADN e inhibe la síntesis de ARN. La actividad citotóxica de dactinomicina se ha demostrado en modelos animales de distintos tipos de cáncer humano.» Texto original en inglés: "Dactinomycin is a cytotoxic actinomycin that binds DNA and inhibits RNA synthesis. The cytotoxic activity of dactinomycin has been demonstrated in animal models of different human cancers." ([DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc), versión del 2024-06-18; consultado el 2026-11-19). Según la información conocida, la dactinomicina es un agente citotóxico que se intercala en el ADN e inhibe la transcripción, y se emplea en esquemas multiagente de quimioterapia pediátrica.
 
 Los datos compilados no respaldan un vínculo mecanístico con la esclerosis múltiple. El puntaje alto (0,9958) es únicamente una predicción del modelo. Además, la toxicidad citotóxica sistémica (mielosupresión, hepatotoxicidad) hace poco plausible su uso crónico en una enfermedad autoinmune sin evidencia de apoyo sólida.
 
@@ -104,6 +104,19 @@ No existe ningún ensayo ni publicación que estudie la esclerosis múltiple rem
 - Estudios preclínicos en modelos de enfermedad desmielinizante.
 - Información de seguridad del prospecto del INVIMA (advertencias y contraindicaciones).
 - Verificación del estado vigente del registro sanitario antes de cualquier planificación local.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

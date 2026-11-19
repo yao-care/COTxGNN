@@ -58,7 +58,7 @@ Enfortumab vedotina es un conjugado anticuerpo-fármaco dirigido contra Nectin-4
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, enfortumab vedotina es un conjugado anticuerpo-fármaco que se dirige a Nectin-4 y libera MMAE, un agente que altera los microtúbulos y es citotóxico. Su uso establecido es oncológico, en carcinoma urotelial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Enfortumab Vedotin (traducción no oficial): «El enfortumab vedotina-ejfv es un ADC. El anticuerpo es una IgG1 kappa humana dirigida contra la nectina-4, una proteína de adhesión ubicada en la superficie de las células. La molécula pequeña, MMAE, es un agente que altera los microtúbulos, unido al anticuerpo mediante un conector escindible por proteasas.» Texto original en inglés: "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), versión del 2026-08-04; consultado el 2026-11-19). Según la información conocida, enfortumab vedotina es un conjugado anticuerpo-fármaco que se dirige a Nectin-4 y libera MMAE, un agente que altera los microtúbulos y es citotóxico. Su uso establecido es oncológico, en carcinoma urotelial.
 
 **La predicción no es razonable desde el punto de vista mecanístico.** La lepra es una infección bacteriana, y no existe una justificación plausible para que un fármaco citotóxico dirigido a células tumorales con Nectin-4 la trate. El puntaje alto (0.9953) es una salida del modelo, sin ensayos ni literatura que lo respalden.
 
@@ -137,12 +137,13 @@ La predicción para lepra se basa solo en el puntaje del modelo (L5), sin ensayo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Revisar el estado del registro sanitario cancelado, o considerar otras indicaciones predichas con mayor plausibilidad antes de invertir recu" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
 
 <!-- review:end log -->
 

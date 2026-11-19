@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento de la clase, el dipropionato de beclometasona es un glucocorticoide sintético con actividad antiinflamatoria e inmunosupresora potente. Actúa mediante la activación del receptor de glucocorticoides, lo que reduce la transcripción de citocinas proinflamatorias (por ejemplo, las de tipo Th2) y disminuye la infiltración de células inflamatorias. Es un profármaco, por lo que su afinidad directa por el receptor es limitada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Beclomethasone Dipropionate (traducción no oficial): «El dipropionato de beclometasona es un profármaco que se convierte ampliamente en el metabolito activo, el 17-monopropionato de beclometasona. Se desconoce el mecanismo preciso por el cual el dipropionato de beclometasona actúa sobre los síntomas de la rinitis.» Texto original en inglés: "Beclomethasone dipropionate is a prodrug that is extensively converted to the active metabolite, beclomethasone-17-monopropionate. The precise mechanism through which beclomethasone dipropionate affects rhinitis symptoms is unknown." ([DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5), versión del 2020-02-29; consultado el 2026-11-19). Según el conocimiento de la clase, el dipropionato de beclometasona es un glucocorticoide sintético con actividad antiinflamatoria e inmunosupresora potente. Actúa mediante la activación del receptor de glucocorticoides, lo que reduce la transcripción de citocinas proinflamatorias (por ejemplo, las de tipo Th2) y disminuye la infiltración de células inflamatorias. Es un profármaco, por lo que su afinidad directa por el receptor es limitada.
 
 El eccema atópico (dermatitis atópica) es una enfermedad inflamatoria de la piel con predominio Th2, y los corticosteroides tópicos son una clase de tratamiento establecida para ella. Por ello, el puntaje alto del modelo es coherente con el razonamiento por clase farmacológica.
 
@@ -151,13 +151,14 @@ El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no existe actualmente un registro vigente ni dérmico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
 
 <!-- review:end log -->
 

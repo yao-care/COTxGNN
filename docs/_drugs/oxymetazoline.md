@@ -60,7 +60,7 @@ Esta indicación se solapa con el uso descongestionante ya establecido, por lo q
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, la oximetazolina es un agonista adrenérgico directo (receptores alfa-1 y alfa-2) que produce vasoconstricción de la mucosa, lo que reduce la congestión y el edema. Los datos farmacológicos compilados también muestran afinidad por los receptores adrenérgicos α1A, α1B, α1D, α2A, α2B y α2C, así como por los receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxymetazoline (traducción no oficial): «La oximetazolina es un agonista de los adrenorreceptores alfa 1A. La oximetazolina actúa como vasoconstrictor.» Texto original en inglés: "Oxymetazoline is an alpha 1A adrenoceptor agonist. Oxymetazoline acts as a vasoconstrictor." ([DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164), versión del 2026-07-13; consultado el 2026-11-19). Según la información conocida, la oximetazolina es un agonista adrenérgico directo (receptores alfa-1 y alfa-2) que produce vasoconstricción de la mucosa, lo que reduce la congestión y el edema. Los datos farmacológicos compilados también muestran afinidad por los receptores adrenérgicos α1A, α1B, α1D, α2A, α2B y α2C, así como por los receptores serotoninérgicos 5-HT1B, 5-HT1D y 5-HT2C.
 
 La enfermedad de la cavidad nasal engloba cuadros con congestión o edema de la mucosa, que son justamente el objetivo del uso descongestionante ya conocido del fármaco. El puntaje tan alto del modelo (0.9996) es coherente con ese uso establecido.
 
@@ -147,12 +147,13 @@ La predicción es mecanísticamente coherente, pero coincide con el uso desconge
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los cinco registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
 
 <!-- review:end log -->
 

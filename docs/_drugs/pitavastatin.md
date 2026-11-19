@@ -54,7 +54,7 @@ Pitavastatina es una estatina comercializada en Colombia, y el registro sanitari
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Pitavastatina pertenece a la clase de las estatinas, que reducen el colesterol LDL al inhibir la enzima HMG-CoA reductasa. Su uso en el control de lípidos está bien establecido, y mecanísticamente podría tener relación con trastornos del metabolismo de lipoproteínas como la deficiencia de CETP.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pitavastatin (traducción no oficial): «La pitavastatina es un inhibidor de la 3-hidroxi-3-metilglutaril-coenzima A (HMG-CoA) reductasa, la enzima que cataliza la conversión de HMG-CoA en mevalonato, un paso limitante de la velocidad en la vía biosintética del colesterol. En consecuencia, se acelera la expresión de los receptores de LDL, seguida de la captación de LDL desde la sangre hacia el hígado, y a continuación disminuye el CT plasmático.» Texto original en inglés: "Pitavastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, the enzyme that catalyzes the conversion of HMG-CoA to mevalonate, a rate-limiting step in the biosynthetic pathway for cholesterol. As a result, the expression of LDL-receptors followed by the uptake of LDL from blood to liver is accelerated and then the plasma TC decreases." ([DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2), versión del 2026-03-31; consultado el 2026-11-19). Pitavastatina pertenece a la clase de las estatinas, que reducen el colesterol LDL al inhibir la enzima HMG-CoA reductasa. Su uso en el control de lípidos está bien establecido, y mecanísticamente podría tener relación con trastornos del metabolismo de lipoproteínas como la deficiencia de CETP.
 
 La deficiencia de CETP es una condición genética que se caracteriza por niveles muy altos de colesterol HDL y un metabolismo alterado de las lipoproteínas. Existe un vínculo plausible a través de la vía de los lípidos. Sin embargo, esta condición normalmente no requiere tratamiento, y no está claro que una estatina aporte un beneficio clínico.
 
@@ -99,6 +99,19 @@ La predicción para la deficiencia de CETP se basa solo en el modelo, sin ensayo
 - Una justificación clínica de que esta condición requiere tratamiento.
 
 **Nota sobre otras predicciones:** la segunda indicación predicha, "enfermedad por VIH", tiene más respaldo (nivel L1, con la recomendación Proceed with Guardrails). Incluye el ensayo REPRIEVE (NEJM 2023, PMID 37486775), que mostró que pitavastatina reduce los eventos cardiovasculares mayores en personas con VIH. Se trata de prevención cardiovascular en personas con VIH, no de tratamiento de la infección viral. Si se quiere priorizar un reposicionamiento con evidencia, conviene evaluar esa línea por separado, con medidas de resguardo: población objetivo definida, vigilancia de diabetes y miopatía, y revisión de interacciones con los antirretrovirales.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

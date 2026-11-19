@@ -59,7 +59,7 @@ El modelo TxGNN predice su utilidad para la **diabetes mellitus tipo 1**, con **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina aspart es un análogo de insulina humana de acción rápida que reemplaza la insulina endógena deficiente y reduce la glucosa en sangre mediante la activación del receptor de insulina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Aspart (traducción no oficial): «La actividad principal de la insulina, incluida NOVOLOG MIX 70/30, es la regulación del metabolismo de la glucosa. La insulina y su análogo reducen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), versión del 2026-05-18; consultado el 2026-11-19). Según la información conocida, la insulina aspart es un análogo de insulina humana de acción rápida que reemplaza la insulina endógena deficiente y reduce la glucosa en sangre mediante la activación del receptor de insulina.
 
 La diabetes tipo 1 se caracteriza por una deficiencia casi absoluta de insulina, por lo que el reemplazo con insulina de acción rápida a la hora de las comidas (dentro de un esquema basal-bolo) es mecanísticamente directo. Por ello, la predicción del modelo coincide con el uso clínico establecido, y no representa una indicación nueva.
 
@@ -151,12 +151,13 @@ Varios ensayos de Fase 3 completados, además de revisiones sistemáticas y ECA 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que el registro 19910693 figura como cancelado (consultar el sitio web de INVIMA)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->
 

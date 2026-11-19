@@ -63,7 +63,7 @@ El modelo TxGNN predice que podría ser efectiva para la **enfermedad inflamator
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, la azatioprina se metaboliza a 6-mercaptopurina y luego a nucleótidos de 6-tioguanina, que inhiben la síntesis de purinas e inducen apoptosis de linfocitos T (incluso mediante inhibición de Rac1). Esto reduce la activación inmune de la mucosa intestinal.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Azathioprine es (traducción no oficial): «Inhibidor de la amidofosforribosiltransferasa; inhibidor del ADN» Texto original en inglés: "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la azatioprina se metaboliza a 6-mercaptopurina y luego a nucleótidos de 6-tioguanina, que inhiben la síntesis de purinas e inducen apoptosis de linfocitos T (incluso mediante inhibición de Rac1). Esto reduce la activación inmune de la mucosa intestinal.
 
 La indicación original no está detallada en los registros colombianos, pero la azatioprina es un inmunosupresor de uso clásico. La EII (enfermedad de Crohn y colitis ulcerosa) es un trastorno inflamatorio crónico mediado por el sistema inmune, por lo que la supresión de la proliferación linfocitaria es mecanísticamente coherente. La literatura describe a las tiopurinas como inmunomoduladores de primera línea para mantener la remisión libre de corticoides.
 
@@ -178,12 +178,13 @@ Existe una base amplia de ensayos clínicos (Fase 2 a 4), revisiones Cochrane y 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes (renovar o tramitar un nuevo registro)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ciclopentolato es un fármaco antimuscarínico (anticolinérgico) de uso tópico oftálmico, empleado para producir midriasis y cicloplejía. Mecanísticamente, el bloqueo de los receptores muscarínicos podría reducir la hiperactividad del detrusor, lo que se vincularía con la disfunción vesical asociada al síndrome de la cola de caballo.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyclopentolate (traducción no oficial): «Este preparado anticolinérgico bloquea las respuestas del músculo esfínter del iris y del músculo acomodativo del cuerpo ciliar a la estimulación colinérgica, lo que produce dilatación pupilar (midriasis) y parálisis de la acomodación (cicloplejía). Actúa rápidamente, pero su duración es menor que la de la atropina.» Texto original en inglés: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), versión del 2024-06-25; consultado el 2026-11-19). Según la información conocida, el ciclopentolato es un fármaco antimuscarínico (anticolinérgico) de uso tópico oftálmico, empleado para producir midriasis y cicloplejía. Mecanísticamente, el bloqueo de los receptores muscarínicos podría reducir la hiperactividad del detrusor, lo que se vincularía con la disfunción vesical asociada al síndrome de la cola de caballo.
 
 Este vínculo es **especulativo**. El fármaco está formulado para uso oftálmico, su exposición sistémica es mínima y no hay evidencia clínica ni bibliográfica. Además, el síndrome de la cola de caballo es principalmente una urgencia quirúrgica (descompresión); un papel farmacológico sería, como máximo, sintomático.
 
@@ -100,6 +100,19 @@ La predicción se basa únicamente en el modelo TxGNN (nivel L5), sin ensayos ni
 - Evaluación de viabilidad de una vía de administración sistémica o intravesical (hoy solo existe la vía oftálmica)
 - Conciliar el término obsoleto de vejiga neurogénica con la terminología vigente
 - Valorar el beneficio frente a antimuscarínicos ya aprobados para estas indicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Hurler**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, la imiglucerasa es una glucocerebrosidasa (beta-glucosidasa) recombinante que reemplaza la enzima deficiente en la enfermedad de Gaucher.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Imiglucerase (traducción no oficial): «La enfermedad de Gaucher se caracteriza por una deficiencia de la actividad de la β-glucocerebrosidasa, que provoca la acumulación de glucocerebrósido en diversos tejidos, entre ellos el hígado, el bazo y la médula ósea. Los azúcares de manosa de la imiglucerasa median su unión a las células, incluidos los macrófagos, y su internalización por estas.» Texto original en inglés: "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), versión del 2026-08-27; consultado el 2026-11-19). Según el conocimiento general, la imiglucerasa es una glucocerebrosidasa (beta-glucosidasa) recombinante que reemplaza la enzima deficiente en la enfermedad de Gaucher.
 
 El síndrome de Hurler (MPS I) es causado por la deficiencia de alfa-L-iduronidasa, lo que produce acumulación de glicosaminoglicanos. Ambas son enfermedades de depósito lisosomal tratadas con terapia de reemplazo enzimático, por lo que la relación es solo conceptual, a nivel de clase de enfermedad.
 
@@ -115,6 +115,19 @@ La predicción se apoya únicamente en el modelo y en una revisión general, sin
 ---
 
 *Nota: las demás predicciones del modelo (síndrome de Scheie, neoplasia benigna de glándula suprarrenal, síndrome autosómico de ictiosis con curso fatal y enfermedad por almacenamiento de ésteres de colesterilo) tienen nivel de evidencia L4–L5 y también recomendación Hold, por carecer de ensayos clínicos y de un mecanismo plausible.*
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

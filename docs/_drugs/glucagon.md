@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para el **síndrome del intestino 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del glucagón en los datos compilados para este informe. Se sabe que el glucagón y el GLP-1 derivan del mismo precursor, el proglucagón, y que el glucagón se emplea como relajante del músculo liso gastrointestinal (por ejemplo, en endoscopia y radiología).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Glucagon (traducción no oficial): «El glucagón aumenta la concentración de glucosa en sangre mediante la activación de los receptores hepáticos de glucagón, lo que estimula la degradación del glucógeno y la liberación de glucosa desde el hígado. Las reservas hepáticas de glucógeno son necesarias para que el glucagón produzca un efecto antihipoglucemiante.» Texto original en inglés: "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), versión del 2020-09-16; consultado el 2026-11-19). Se sabe que el glucagón y el GLP-1 derivan del mismo precursor, el proglucagón, y que el glucagón se emplea como relajante del músculo liso gastrointestinal (por ejemplo, en endoscopia y radiología).
 
 Los estudios citados se centran en el GLP-1 y sus análogos (como ROSE-010), que inhiben la motilidad antro-duodeno-yeyunal y podrían reducir el dolor abdominal en el síndrome del intestino irritable con estreñimiento. Esto es evidencia de una clase relacionada, no del glucagón. El vínculo mecanístico con el glucagón es plausible pero indirecto.
 
@@ -107,6 +107,18 @@ Ningún estudio evalúa el glucagón en el síndrome del intestino irritable; la
 - Datos del mecanismo de acción del glucagón en el tracto gastrointestinal
 - Advertencias y contraindicaciones del prospecto del registro sanitario
 - Evaluación de la vía de administración y la posología adecuadas para un uso crónico o episódico en esta condición
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

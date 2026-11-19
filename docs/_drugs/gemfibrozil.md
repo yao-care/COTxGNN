@@ -58,7 +58,7 @@ Gemfibrozilo es un fibrato (agonista de PPAR-alfa) registrado en Colombia bajo e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, gemfibrozilo es un agonista de PPAR-alfa de la clase de los fibratos, y su eficacia en la regulación de lípidos (reducción de triglicéridos y aumento de HDL) está bien establecida.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gemfibrozil (traducción no oficial): «El gemfibrozilo es un agente regulador de los lípidos que disminuye los triglicéridos séricos y el colesterol de las lipoproteínas de muy baja densidad (VLDL), y aumenta el colesterol de las lipoproteínas de alta densidad (HDL). Si bien pueden observarse disminuciones moderadas del colesterol total y del colesterol de las lipoproteínas de baja densidad (LDL) con el tratamiento con gemfibrozilo, el tratamiento de pacientes con triglicéridos elevados debido a hiperlipoproteinemia de tipo IV a menudo produce un aumento del colesterol LDL.» Texto original en inglés: "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, gemfibrozilo es un agonista de PPAR-alfa de la clase de los fibratos, y su eficacia en la regulación de lípidos (reducción de triglicéridos y aumento de HDL) está bien establecida.
 
 La relación con la artritis reumatoide es indirecta. La activación de PPAR tiene efectos antiinflamatorios e inmunomoduladores, incluida la modulación de respuestas de linfocitos T y de la producción de citocinas, lo que es plausible en una artritis autoinmune. Sin embargo, la indicación original (trastornos lipídicos) y la artritis reumatoide son enfermedades muy distintas, y el vínculo se apoya únicamente en el mecanismo.
 
@@ -144,12 +144,13 @@ Los datos compilados muestran candidatos con más respaldo que artritis reumatoi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que no hay registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
 
 <!-- review:end log -->
 

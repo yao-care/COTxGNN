@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **vasculitis postinfeccios
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la sulfacetamida es una sulfonamida tópica que inhibe la dihidropteroato sintasa bacteriana, bloqueando la síntesis de ácido fólico en las bacterias, y su uso establecido es en infecciones oculares bacterianas, como la conjuntivitis.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sulfacetamide (traducción no oficial): «El mecanismo de acción de las sulfonamidas más ampliamente aceptado es la teoría de Woods-Fildes, basada en que las sulfonamidas actúan como inhibidores competitivos de la utilización del ácido para-aminobenzoico (PABA), un componente esencial para el crecimiento bacteriano.» Texto original en inglés: "The most widely accepted mechanism of action of sulfonamides is the Woods-Fildes theory, based on sulfonamides acting as a competitive inhibitor of para-aminobenzoic acid (PABA) utilization, an essential component for bacterial growth." ([DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0), versión del 2020-08-31; consultado el 2026-11-19). Según la información conocida, la sulfacetamida es una sulfonamida tópica que inhibe la dihidropteroato sintasa bacteriana, bloqueando la síntesis de ácido fólico en las bacterias, y su uso establecido es en infecciones oculares bacterianas, como la conjuntivitis.
 
 La vasculitis postinfecciosa es un proceso mediado por el sistema inmune que aparece después de una infección. Un antibacteriano actúa sobre la bacteria activa, no sobre la respuesta inmunitaria secuelar. Por ello, **no se ha establecido un vínculo mecanístico plausible**: el puntaje alto de TxGNN (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica ni una razón farmacológica sólida.
 
@@ -138,13 +138,14 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario existente (Laboratorios Blaskov SAS) está cancelado, por lo que actualmente no hay producto vigente en el mercad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no existe registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Klaron (sulfacetamide sodium) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66ab38ea-5cea-47be-97f2-486517999fb0) |
 
 <!-- review:end log -->
 

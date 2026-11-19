@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **analbuminemia congénita
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nifurtimox es un antiprotozoario nitrofurano cuya actividad depende de la nitrorreducción y la generación de especies reactivas de oxígeno y nitrógeno en los tripanosomas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nifurtimox (traducción no oficial): «El nifurtimox es un fármaco antiprotozoario. […] El mecanismo de acción del nifurtimox no se comprende por completo. Los estudios sugieren que el nifurtimox es metabolizado/activado por nitrorreductasas (NTR) de tipo I (insensibles al oxígeno) y de tipo II (sensibles al oxígeno), lo que da lugar a la producción de metabolitos intermedios tóxicos y/o especies reactivas de oxígeno que inducen daño en el ADN y muerte celular tanto de las formas intracelulares como de las extracelulares de T. cruzi.» Texto original en inglés: "Nifurtimox is an antiprotozoal drug. […] The mechanism of action of nifurtimox is not fully understood. Studies suggest that nifurtimox is metabolized/activated, by Type I (oxygen insensitive) and Type II (oxygen sensitive) nitoreductases (NTR) leading to production of toxic intermediate metabolites and/or reactive oxygen species that induce DNA damage and cell death of both intracellular and extracellular forms of T. cruzi." ([DailyMed: Lampit (nifurtimox) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90d09714-a8b1-4696-8ada-f99dc54d0721), versión del 2026-03-03; consultado el 2026-11-19). Según la información conocida, nifurtimox es un antiprotozoario nitrofurano cuya actividad depende de la nitrorreducción y la generación de especies reactivas de oxígeno y nitrógeno en los tripanosomas.
 
 La analbuminemia congénita es un trastorno genético raro de la síntesis de albúmina, causado por variantes del gen ALB. **No se identifica ninguna vía plausible** que conecte el mecanismo del fármaco con la corrección de la deficiencia de albúmina. La puntuación alta de TxGNN (0.9958) es solo una predicción del modelo TxGNN (aprendizaje profundo) y no está respaldada por datos clínicos ni de literatura.
 
@@ -149,13 +149,14 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Evaluar la situación regulatoria (registros cancelados) y la compatibilidad de vías de administración" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a BAYER AG y están cancelados; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el fármaco no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lampit (nifurtimox) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=90d09714-a8b1-4696-8ada-f99dc54d0721) |
 
 <!-- review:end log -->
 

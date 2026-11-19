@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **gastroduodenitis**, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mepivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, y su uso está establecido para la anestesia local (en este caso, en presentación odontológica inyectable).
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mepivacaine (traducción no oficial): «Los anestésicos locales bloquean la generación y la conducción de los impulsos nerviosos, presumiblemente al aumentar el umbral de excitación eléctrica en el nervio, al ralentizar la propagación del impulso nervioso y al reducir la velocidad de ascenso del potencial de acción. En general, la progresión de la anestesia está relacionada con el diámetro, la mielinización y la velocidad de conducción de las fibras nerviosas afectadas.» Texto original en inglés: "Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814), versión del 2022-10-01; consultado el 2026-11-19). Según la información conocida, la mepivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje, y su uso está establecido para la anestesia local (en este caso, en presentación odontológica inyectable).
 
 La relación con la gastroduodenitis es débil. De manera especulativa, un anestésico local podría aliviar el dolor de la mucosa, pero esto no está respaldado por ningún ensayo ni publicación. El bloqueo de canales de sodio no tiene un papel reconocido en la cicatrización de la mucosa gastroduodenal ni en la supresión ácida, y el uso sistémico u oral para inflamación gastroduodenal no está establecido.
 
@@ -136,13 +136,14 @@ La predicción es solo computacional (L5), sin ensayos clínicos ni literatura p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El fabricante es Productora y Comercializadora Odontológica New Stetic S.A. Actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Polocaine-Mpf (mepivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a27d0815-ae6b-4a21-a8f5-564c01e83814) |
 
 <!-- review:end log -->
 

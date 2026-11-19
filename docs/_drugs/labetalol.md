@@ -56,7 +56,7 @@ Hasta ahora no hay **ensayos clínicos** ni **publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, labetalol bloquea los receptores alfa-1 y beta adrenérgicos. Esto reduce la resistencia vascular periférica y la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Labetalol (traducción no oficial): «El labetalol tiene actividad bloqueante alfa1-adrenérgica competitiva y actividad bloqueante beta-adrenérgica competitiva. En el ser humano, se ha estimado que la relación entre el bloqueo alfa y el bloqueo beta es de aproximadamente 1:7 tras la administración intravenosa.» Texto original en inglés: "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), versión del 2025-12-19; consultado el 2026-11-19). Según la información conocida, labetalol bloquea los receptores alfa-1 y beta adrenérgicos. Esto reduce la resistencia vascular periférica y la presión arterial.
 
 La enfermedad renal hipertensiva maligna es un daño renal causado por elevaciones graves y sostenidas de la presión arterial. Mecanísticamente, un fármaco que reduce la presión arterial de forma rápida y controlada podría ser relevante para este daño de órgano blanco. Cualquier uso real se apoyaría en el efecto antihipertensivo general, no en un efecto renal específico demostrado.
 
@@ -96,6 +96,19 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 - Datos del mecanismo de acción y de seguridad del prospecto (advertencias y contraindicaciones), hoy no disponibles en los datos compilados.
 - Evaluación de la compatibilidad de vía de administración y de la similitud con el uso aprobado.
 - Evidencia de desenlaces renales (función renal, proteinuria, progresión) antes de considerar un estudio clínico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

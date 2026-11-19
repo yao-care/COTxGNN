@@ -54,7 +54,7 @@ Ezetimiba es un fármaco que, según el registro sanitario local, se comercializ
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, ezetimiba inhibe la absorción intestinal de colesterol al bloquear la proteína NPC1L1, lo que reduce el colesterol LDL (LDL-C).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ezetimibe (traducción no oficial): «La ezetimiba reduce el colesterol en sangre al inhibir la absorción del colesterol en el intestino delgado. Se ha demostrado que la diana molecular de la ezetimiba es el transportador de esteroles Niemann-Pick C1-Like 1 (NPC1L1), que participa en la captación intestinal del colesterol y de los fitoesteroles.» Texto original en inglés: "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), versión del 2026-10-08; consultado el 2026-11-19). Según el conocimiento general, ezetimiba inhibe la absorción intestinal de colesterol al bloquear la proteína NPC1L1, lo que reduce el colesterol LDL (LDL-C).
 
 La deficiencia de CETP es una condición genética caracterizada por HDL-C marcadamente elevado y un metabolismo lipoproteico alterado. Existe un vínculo conceptual por las vías compartidas del metabolismo de lípidos, y el puntaje alto de TxGNN (0.9909) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -99,6 +99,19 @@ La predicción se apoya solo en el modelo (L5): no hay ensayos clínicos ni estu
 - Justificación clínica de que esta población se beneficiaría de una terapia reductora de LDL.
 - Advertencias y contraindicaciones del prospecto del INVIMA para la evaluación de seguridad.
 - Revisión de las relaciones de contraindicación del grafo de conocimiento (hígado, músculo, páncreas) frente a la población objetivo.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

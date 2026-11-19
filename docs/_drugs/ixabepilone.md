@@ -58,7 +58,7 @@ Ixabepilona es un análogo de la epotilona B, un agente antineoplásico que esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ixabepilona es un análogo semisintético de la epotilona B que estabiliza los microtúbulos, provoca detención mitótica y apoptosis en células tumorales de rápida división. A diferencia de los taxanos, no es sustrato de la glicoproteína P, por lo que podría conservar actividad en tumores resistentes a taxanos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ixabepilone (traducción no oficial): «La ixabepilona es un análogo semisintético de la epotilona B. La ixabepilona se une directamente a las subunidades de β-tubulina de los microtúbulos, lo que conduce a la supresión de la dinámica de los microtúbulos. La ixabepilona suprime la inestabilidad dinámica de los microtúbulos αβ-II y αβ-III.» Texto original en inglés: "Ixabepilone is a semi-synthetic analog of epothilone B. Ixabepilone binds directly to β-tubulin subunits on microtubules, leading to suppression of microtubule dynamics. Ixabepilone suppresses the dynamic instability of αβ-II and αβ-III microtubules." ([DailyMed: Ixempra (ixabepilone) prescribing information, R-Pharm US Operating, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=241f0b1e-8b95-470d-876f-bf1804daaf18), versión del 2025-12-04; consultado el 2026-11-19). Según la información conocida, ixabepilona es un análogo semisintético de la epotilona B que estabiliza los microtúbulos, provoca detención mitótica y apoptosis en células tumorales de rápida división. A diferencia de los taxanos, no es sustrato de la glicoproteína P, por lo que podría conservar actividad en tumores resistentes a taxanos.
 
 El Sarcoma de Ewing es un sarcoma pediátrico y de adultos jóvenes altamente proliferativo, por lo que un agente antimitótico es mecanísticamente plausible. Existen datos clínicos de ixabepilona en poblaciones pediátricas y de adultos jóvenes con tumores sólidos refractarios que incluyen Sarcoma de Ewing.
 
@@ -144,12 +144,13 @@ Existe un ensayo de Fase 2 completado en tumores sólidos pediátricos refractar
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados, el perfil de toxicidad es considerable (mielosupresión y neuropatía) y no se " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ixempra (ixabepilone) prescribing information, R-Pharm US Operating, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=241f0b1e-8b95-470d-876f-bf1804daaf18) |
 
 <!-- review:end log -->
 

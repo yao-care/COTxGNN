@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, la doxazosina es un bloqueador selectivo de receptores adrenérgicos alfa-1, y su uso establecido se relaciona con el control del tono vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doxazosin (traducción no oficial): «Hiperplasia prostática benigna (HPB) Los síntomas asociados a la hiperplasia prostática benigna (HPB), como la polaquiuria, la nicturia, el chorro débil, la dificultad para iniciar la micción y el vaciado incompleto, están relacionados con dos componentes, uno anatómico (estático) y otro funcional (dinámico). El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] Los estudios en sujetos humanos sanos han demostrado que la doxazosina antagonizó de forma competitiva los efectos presores de la fenilefrina (un agonista alfa 1) y el efecto presor sistólico de la norepinefrina.» Texto original en inglés: "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), versión del 2023-10-15; consultado el 2026-11-19). Según el conocimiento general, la doxazosina es un bloqueador selectivo de receptores adrenérgicos alfa-1, y su uso establecido se relaciona con el control del tono vascular.
 
 Una posible conexión con la profilaxis de la migraña es la modulación del tono noradrenérgico y vascular: la señalización simpática y adrenérgica puede influir en la reactividad vascular cerebral y en los circuitos centrales de procesamiento del dolor. Esto es **solo una hipótesis**.
 
@@ -132,12 +132,13 @@ La evidencia se limita a una publicación de 1997 de carácter descriptivo, sin 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la indicación original aprobada y la situación del registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
 
 <!-- review:end log -->
 

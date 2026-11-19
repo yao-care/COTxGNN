@@ -58,7 +58,7 @@ Canakinumab es un anticuerpo monoclonal que bloquea la interleucina-1β (IL-1β)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, canakinumab neutraliza la IL-1β, una citocina clave en las enfermedades autoinflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Canakinumab (traducción no oficial): «Canakinumab es un anticuerpo monoclonal humano anti-IL-1β humana del isotipo IgG1/κ. Canakinumab se une a la IL-1β humana y neutraliza su actividad al bloquear su interacción con los receptores de IL-1, pero no se une a la IL-1α ni al antagonista del receptor de IL-1 (IL-1ra).» Texto original en inglés: "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), versión del 2026-06-08; consultado el 2026-11-19). Según la información conocida, canakinumab neutraliza la IL-1β, una citocina clave en las enfermedades autoinflamatorias.
 
 El infarto hepático es una necrosis isquémica del hígado causada por un evento vascular, es decir, una interrupción del flujo sanguíneo. No existe un fundamento mecanístico establecido que relacione el bloqueo de la IL-1β con esta condición. La relación entre la indicación original y la nueva no ha sido evaluada.
 
@@ -136,13 +136,14 @@ La predicción para infarto hepático es solo del modelo (L5): no hay ensayos ni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Este registro se encuentra **cancelado**, por lo que actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
 
 <!-- review:end log -->
 

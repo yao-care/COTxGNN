@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **fiebre mediterránea 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Eribulina es un inhibidor de la dinámica de los microtúbulos, análogo de la halicondrina. Bloquea el crecimiento de los microtúbulos, lo que detiene el ciclo celular en G2/M y provoca apoptosis. Los datos de mecanismo de acción no están disponibles en el campo estructurado, por lo que esta descripción proviene del análisis de la relación mecanística.
+Eribulina es un inhibidor de la dinámica de los microtúbulos, análogo de la halicondrina. Bloquea el crecimiento de los microtúbulos, lo que detiene el ciclo celular en G2/M y provoca apoptosis. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eribulin (traducción no oficial): «La eribulina inhibe la fase de crecimiento de los microtúbulos sin afectar la fase de acortamiento y secuestra la tubulina en agregados no productivos. La eribulina ejerce sus efectos mediante un mecanismo antimitótico basado en la tubulina que conduce al bloqueo del ciclo celular en G 2 /M, a la desorganización de los husos mitóticos y, en última instancia, a la muerte celular por apoptosis tras un bloqueo mitótico prolongado.» Texto original en inglés: "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), versión del 2025-11-07; consultado el 2026-11-19).
 
 **La plausibilidad mecanística es débil.** La fiebre mediterránea familiar es una enfermedad autoinflamatoria causada por la desregulación del inflamasoma pirina (gen MEFV). Su tratamiento estándar es la colchicina, que también actúa sobre los microtúbulos. El puntaje alto del modelo probablemente refleja esa asociación de clase (agentes dirigidos a microtúbulos) y no una utilidad terapéutica real.
 
@@ -138,12 +138,13 @@ La predicción no tiene ensayos clínicos ni literatura, y el mecanismo no es cr
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Fabricante: BIOTOSCANA FARMA S.A. No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y además el producto no tiene registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
 
 <!-- review:end log -->
 

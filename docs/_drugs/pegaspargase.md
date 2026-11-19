@@ -58,7 +58,7 @@ Pegaspargasa es una forma pegilada de la L-asparaginasa, registrada en Colombia 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la fuente de fármacos consultada. Según la información compilada para este informe, pegaspargasa es una L-asparaginasa pegilada que depleta la asparagina circulante. Los linfoblastos tienen poca expresión de asparagina sintetasa y dependen de la asparagina exógena. Su depleción produce inhibición selectiva de la síntesis de proteínas y apoptosis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pegaspargase (traducción no oficial): «La L-asparaginasa es una enzima que cataliza la conversión del aminoácido L-asparagina en ácido aspártico y amoníaco. Se cree que el efecto farmacológico de ONCASPAR se basa en la destrucción de las células leucémicas debido a la depleción de la asparagina plasmática.» Texto original en inglés: "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), versión del 2024-10-07; consultado el 2026-11-19). Según la información compilada para este informe, pegaspargasa es una L-asparaginasa pegilada que depleta la asparagina circulante. Los linfoblastos tienen poca expresión de asparagina sintetasa y dependen de la asparagina exógena. Su depleción produce inhibición selectiva de la síntesis de proteínas y apoptosis.
 
 La indicación original no está descrita en el registro, pero la predicción coincide con el uso clínico establecido del fármaco: componente de esquemas de quimioterapia multiagente en leucemia linfoblástica aguda (LLA) y linfoma linfoblástico. Por ello, la predicción refleja una indicación ya conocida y no un hallazgo nuevo.
 
@@ -171,13 +171,14 @@ La evidencia es sólida (múltiples ensayos de Fase 3 completados, con pegasparg
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a Les Laboratoires Servier y figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el producto no tiene registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Verificar la situación regulatoria: ambos registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o impor" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

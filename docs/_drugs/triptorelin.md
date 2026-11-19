@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **Hipertricosis (hypertrichos
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, la triptorelina es un agonista de la GnRH que, con el uso continuado, suprime la liberación de gonadotropinas y reduce las hormonas sexuales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Triptorelin (traducción no oficial): «La triptorelina es un análogo decapeptídico sintético agonista de la hormona liberadora de gonadotropina (GnRH). Estudios comparativos in vitro demostraron que la triptorelina era 100 veces más activa que la GnRH nativa en la estimulación de la liberación de hormona luteinizante a partir de monocapas de células hipofisarias de rata dispersas en cultivo, y 20 veces más activa que la GnRH nativa en el desplazamiento de la 125 I-GnRH de los sitios receptores hipofisarios.» Texto original en inglés: "Triptorelin is a synthetic decapeptide agonist analog of gonadotropin releasing hormone (GnRH). Comparative in vitro studies showed that triptorelin was 100-fold more active than native GnRH in stimulating luteinizing hormone release from monolayers of dispersed rat pituitary cells in culture and 20-fold more active than native GnRH in displacing 125 I-GnRH from pituitary receptor sites." ([DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3), versión del 2026-06-30; consultado el 2026-11-19). Por su clase, la triptorelina es un agonista de la GnRH que, con el uso continuado, suprime la liberación de gonadotropinas y reduce las hormonas sexuales.
 
 En teoría, la supresión androgénica podría influir en el crecimiento del vello dependiente de andrógenos (hirsutismo). Sin embargo, la hipertricosis generalizada es una condición distinta, por lo que no se identifica un vínculo mecanístico creíble entre la triptorelina y su tratamiento.
 
@@ -97,6 +97,18 @@ La predicción se apoya solo en el modelo (nivel de evidencia L5): no hay ensayo
 - Datos del mecanismo de acción de la triptorelina y un fundamento biológico plausible para la hipertricosis
 - Estudios preclínicos o clínicos que evalúen directamente la triptorelina en esta condición
 - Revisión del prospecto aprobado en Colombia para completar advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

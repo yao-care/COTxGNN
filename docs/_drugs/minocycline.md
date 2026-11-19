@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, minociclina es una tetraciclina con propiedades antibacterianas, antiinflamatorias e inhibidoras de metaloproteinasas de matriz (MMP). Su eficacia antibacteriana está bien establecida, y mecanísticamente podría ser aplicable a enfermedades inflamatorias de la superficie ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Minocycline (traducción no oficial): «Se desconoce el mecanismo de acción de ARESTIN como complemento de los procedimientos de raspado y alisado radicular para la reducción de la profundidad de las bolsas en pacientes con periodontitis del adulto.» Texto original en inglés: "The mechanism of action of ARESTIN as an adjunct to scaling and root planing procedures for reduction of pocket depth in patients with adult periodontitis is unknown." ([DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb), versión del 2024-05-31; consultado el 2026-11-19). Según la información conocida, minociclina es una tetraciclina con propiedades antibacterianas, antiinflamatorias e inhibidoras de metaloproteinasas de matriz (MMP). Su eficacia antibacteriana está bien establecida, y mecanísticamente podría ser aplicable a enfermedades inflamatorias de la superficie ocular.
 
 La queratoconjuntivitis epitelial punteada implica daño e inflamación del epitelio corneal y conjuntival. Un fármaco que reduce la inflamación y la actividad de las MMP podría, en teoría, atenuar ese daño. Este razonamiento es solo una hipótesis: no se verificó con ningún ensayo ni publicación en los datos compilados para este informe.
 
@@ -136,13 +136,14 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos ni publ
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes actualmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
 
 <!-- review:end log -->
 

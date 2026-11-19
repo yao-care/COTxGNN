@@ -58,7 +58,7 @@ Vilanterol es un agonista beta2 de acción prolongada (LABA), registrado en Colo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, vilanterol es un agonista beta2-adrenérgico de acción prolongada que relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida, con actividad de aproximadamente 24 horas que permite una sola dosis diaria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para fluticasone furoate and vilanterol (combinación que contiene Vilanterol) (traducción no oficial): «Los efectos farmacológicos de los fármacos agonistas beta 2 -adrenérgicos, incluido el vilanterol, se atribuyen, al menos en parte, a la estimulación de la adenilciclasa intracelular, la enzima que cataliza la conversión del trifosfato de adenosina (ATP) en 3′,5′-adenosín monofosfato cíclico (AMP cíclico).» Texto original en inglés: "The pharmacologic effects of beta 2 -adrenergic agonist drugs, including vilanterol, are at least in part attributable to stimulation of intracellular adenyl cyclase, the enzyme that catalyzes the conversion of adenosine triphosphate (ATP) to cyclic-3′,5′-adenosine monophosphate (cyclic AMP)." ([DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5), versión del 2024-11-21; consultado el 2026-11-19). Según la información conocida, vilanterol es un agonista beta2-adrenérgico de acción prolongada que relaja el músculo liso de las vías respiratorias y produce broncodilatación sostenida, con actividad de aproximadamente 24 horas que permite una sola dosis diaria.
 
 La indicación original (combinación con umeclidinio, un antagonista muscarínico de acción prolongada) ya corresponde al tratamiento de mantenimiento de la EPOC. Vilanterol también se ha estudiado combinado con furoato de fluticasona (FF/VI) y en terapia triple (FF/UMEC/VI).
 
@@ -149,12 +149,13 @@ Existen múltiples ensayos de fase 3 completados y ECA publicados que respaldan 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
 
 <!-- review:end log -->
 

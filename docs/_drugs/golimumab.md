@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, golimumab es un anticuerpo que neutraliza el TNF, una citocina clave en procesos inflamatorios inmunomediados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Golimumab (traducción no oficial): «El golimumab es un anticuerpo monoclonal humano que se une tanto a la forma bioactiva soluble como a la transmembrana del TNFα humano. Esta interacción impide la unión del TNFα a sus receptores, con lo que inhibe la actividad biológica del TNFα (una proteína de tipo citocina).» Texto original en inglés: "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), versión del 2026-11-02; consultado el 2026-11-19). Por su clase, golimumab es un anticuerpo que neutraliza el TNF, una citocina clave en procesos inflamatorios inmunomediados.
 
 La hipermovilidad del coxis es una condición mecánica o estructural, y no hay un mecanismo claramente dependiente del TNF que la vincule con golimumab. La similitud con el uso original aún no ha sido evaluada.
 
@@ -99,6 +99,19 @@ La predicción se basa solo en el puntaje del modelo (0,9967), sin ensayos clín
 - Búsqueda de estudios preclínicos o clínicos que aborden directamente esta condición
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Evaluación de la compatibilidad de vía de administración y de la similitud con el uso original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

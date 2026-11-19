@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para **anomalías vertebrales c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de este fármaco. Según la farmacología conocida, la vincristina se une a la tubulina beta (gen TUBB) e inhibe la polimerización de los microtúbulos, lo que provoca detención mitótica. Es un mecanismo citotóxico antiproliferativo, y su eficacia está comprobada en neoplasias hematológicas y tumores pediátricos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vincristine (traducción no oficial): «Los mecanismos de acción del sulfato de vincristina siguen en investigación. El mecanismo de acción del sulfato de vincristina se ha relacionado con la inhibición de la formación de microtúbulos en el huso mitótico, lo que provoca la detención de las células en división en la fase de metafase.» Texto original en inglés: "The mechanisms of action of vincristine sulfate remain under investigation. The mechanism of action of vincristine sulfate has been related to the inhibition of microtubule formation in mitotic spindle, resulting in an arrest of dividing cells at the metaphase stage." ([DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c), versión del 2026-02-17; consultado el 2026-11-19). Según la farmacología conocida, la vincristina se une a la tubulina beta (gen TUBB) e inhibe la polimerización de los microtúbulos, lo que provoca detención mitótica. Es un mecanismo citotóxico antiproliferativo, y su eficacia está comprobada en neoplasias hematológicas y tumores pediátricos.
 
 Con los datos disponibles **no se identifica un vínculo mecanístico** entre este mecanismo y un síndrome raro que combina anomalías vertebrales con disfunción endocrina y de células T. Se trata de una condición del desarrollo y del sistema inmune, no de una proliferación tumoral. Además, un agente citotóxico e inmunosupresor sería una opción cuestionable cuando ya existe disfunción de células T.
 
@@ -106,6 +106,19 @@ No existen ensayos clínicos ni publicaciones que estudien esta enfermedad con v
 - Evaluación del perfil de seguridad frente a una enfermedad con disfunción inmune.
 
 **Nota:** el modelo también predice, con un puntaje similar (0.9923), **neoplasia retroperitoneal**, con 20 publicaciones recuperadas. La mayoría son reportes de caso y series pequeñas, de las cuales solo 10 se alcanzaron a listar, sobre rabdomiosarcoma paratesticular, paraganglioma maligno y otros tumores tratados con regímenes que incluyen vincristina. Esa dirección es biológicamente más plausible y merece evaluarse por separado como pregunta de investigación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: vincristine sulfate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b22e4c8e-dbe1-4d4b-a026-e1812974071c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

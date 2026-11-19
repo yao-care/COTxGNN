@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **hipertensión arteria
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, treprostinil es un análogo estable de la prostaciclina que activa los receptores IP, con efecto vasodilatador pulmonar, inhibición de la agregación plaquetaria y acción antiproliferativa sobre el músculo liso vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Treprostinil (traducción no oficial): «El treprostinil es un análogo de la prostaciclina. Las principales acciones farmacológicas del treprostinil son la vasodilatación directa de los lechos vasculares arteriales pulmonar y sistémico y la inhibición de la agregación plaquetaria.» Texto original en inglés: "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), versión del 2026-04-14; consultado el 2026-11-19). Según la información conocida, treprostinil es un análogo estable de la prostaciclina que activa los receptores IP, con efecto vasodilatador pulmonar, inhibición de la agregación plaquetaria y acción antiproliferativa sobre el músculo liso vascular.
 
 La indicación original registrada (TREPROSTINILO) no especifica la enfermedad, pero el fármaco es una terapia establecida para la hipertensión arterial pulmonar (HAP) del Grupo 1. La HAP asociada a cardiopatía congénita pertenece a ese mismo grupo y comparte la patología vascular pulmonar (remodelado y vasoconstricción) sobre la que actúa el fármaco.
 
@@ -147,13 +147,14 @@ La evidencia es de nivel L3, basada en estudios observacionales, revisiones y re
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a Ferrer Internacional S.A. y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados, por lo que se requeriría una nueva solicitud o reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->
 

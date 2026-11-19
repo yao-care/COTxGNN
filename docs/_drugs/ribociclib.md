@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **leucemia mieloide**, per
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ribociclib es un inhibidor selectivo de las quinasas dependientes de ciclina 4 y 6 (CDK4/6), cuya eficacia se ha documentado en cáncer de mama HR+/HER2-, y mecanísticamente podría ser aplicable a neoplasias en las que el ciclo celular esté desregulado, como las mieloides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ribociclib (traducción no oficial): «El ribociclib es un inhibidor de las cinasas dependientes de ciclinas (CDK) 4 y 6. Estas cinasas se activan al unirse a las ciclinas D y se encuentran aguas abajo de vías de señalización que conducen a la progresión del ciclo celular y a la proliferación celular.» Texto original en inglés: "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), versión del 2026-07-01; consultado el 2026-11-19). Según la información conocida, ribociclib es un inhibidor selectivo de las quinasas dependientes de ciclina 4 y 6 (CDK4/6), cuya eficacia se ha documentado en cáncer de mama HR+/HER2-, y mecanísticamente podría ser aplicable a neoplasias en las que el ciclo celular esté desregulado, como las mieloides.
 
 La inhibición de CDK4/6 es biológicamente plausible en neoplasias mieloides, donde la desregulación del ciclo celular es frecuente. Un estudio preclínico de 2020 (PMID 32560251) sugiere que los inhibidores de CDK4/6 pueden actuar sobre la resistencia farmacocinética en células de leucemia mieloide aguda (LMA), asociada a la sobreexpresión de los transportadores ABCB1 y ABCG2.
 
@@ -150,13 +150,14 @@ Las otras tres predicciones del modelo (trombocitopenia, macrotrombocitopenia co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro sanitario (titular: Novartis Pharma A.G.) figura como cancelado, por lo que actualmente no hay registro vigente en Colombi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el producto no tiene registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->
 

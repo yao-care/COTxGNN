@@ -60,7 +60,7 @@ La predicción se apoya únicamente en el puntaje del modelo.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido acético tiene propiedades antibacterianas y antisépticas (acidificación del medio), pero no hay datos que expliquen su acción frente a un trastorno post-bacteriano.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetic Acid (traducción no oficial): «El ácido acético es antibacteriano y antifúngico; el propilenglicol es hidrófilo y proporciona una baja tensión superficial; el cloruro de bencetonio es un agente tensioactivo que favorece el contacto de la solución con los tejidos.» Texto original en inglés: "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), versión del 2026-03-18; consultado el 2026-11-19). Según la información conocida, el ácido acético tiene propiedades antibacterianas y antisépticas (acidificación del medio), pero no hay datos que expliquen su acción frente a un trastorno post-bacteriano.
 
 La relación entre la indicación original (uso tópico antiséptico/acidificante) y la nueva indicación es especulativa. Un trastorno post-bacteriano se refiere a secuelas posteriores a una infección, y no existe un vínculo mecanístico documentado entre el ácido acético y ese tipo de secuelas.
 
@@ -127,11 +127,12 @@ La predicción para trastorno post-bacteriano se basa únicamente en el puntaje 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
 
 <!-- review:end log -->
 

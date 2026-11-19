@@ -54,7 +54,7 @@ Alprostadil es la prostaglandina E1 (PGE1), un vasodilatador que relaja el músc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura, alprostadil (PGE1) relaja el músculo liso del conducto arterioso y mantiene su permeabilidad. Con ello mantiene el flujo sanguíneo en recién nacidos cuya circulación depende de ese conducto.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alprostadil (traducción no oficial): «Alprostadil (PGE1) es una prostaglandina con una amplia variedad de acciones farmacológicas, entre ellas vasodilatación e inhibición de la agregación plaquetaria. Alprostadil induce la erección mediante la relajación del músculo liso trabecular y la dilatación de las arterias cavernosas, al unirse a sus receptores y aumentar los niveles intracelulares de monofosfato de adenosina cíclico (cAMP) mediante la modulación de la adenilato ciclasa.» Texto original en inglés: "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), versión del 2024-05-13; consultado el 2026-11-19). Según la literatura, alprostadil (PGE1) relaja el músculo liso del conducto arterioso y mantiene su permeabilidad. Con ello mantiene el flujo sanguíneo en recién nacidos cuya circulación depende de ese conducto.
 
 Esto se relaciona con las malformaciones aórticas congénitas. En lesiones como el arco aórtico interrumpido, la coartación o la transposición de grandes arterias, el conducto permeable sostiene la circulación hasta la reparación quirúrgica. La literatura lo describe como un puente hacia la cirugía: **no corrige la malformación** en sí.
 
@@ -119,11 +119,12 @@ Para advertencias y contraindicaciones formales, consultar el prospecto.
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 4 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 
 <!-- review:end log -->
 

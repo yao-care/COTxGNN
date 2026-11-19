@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, pegfilgrastim es un análogo de G-CSF de acción prolongada que estimula la producción de neutrófilos y moviliza células progenitoras hematopoyéticas. Su uso establecido se relaciona con la recuperación de neutrófilos, y mecanísticamente podría ser aplicable a la retinopatía diabética por vías indirectas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pegfilgrastim (traducción no oficial): «Los productos de pegfilgrastim son un factor estimulante de colonias que actúa sobre las células hematopoyéticas mediante la unión a receptores específicos de la superficie celular, con lo que estimula la proliferación, la diferenciación, el compromiso y la activación funcional de las células terminales.» Texto original en inglés: "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), versión del 2026-10-29; consultado el 2026-11-19). Según la información conocida, pegfilgrastim es un análogo de G-CSF de acción prolongada que estimula la producción de neutrófilos y moviliza células progenitoras hematopoyéticas. Su uso establecido se relaciona con la recuperación de neutrófilos, y mecanísticamente podría ser aplicable a la retinopatía diabética por vías indirectas.
 
 Una hipótesis posible es que la movilización de células progenitoras derivadas de la médula ósea favorezca la reparación vascular, o que module la inflamación. Además, la diabetes se asocia con una movilización deficiente de progenitores. Sin embargo, esta relación es especulativa y no ha sido verificada con los datos compilados para este informe.
 
@@ -128,12 +128,13 @@ La predicción se sustenta solo en el puntaje del modelo (nivel L5), sin ensayos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (s
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, palbociclib es un inhibidor de las quinasas dependientes de ciclina 4 y 6 (CDK4/6), utilizado en cáncer de mama con receptores hormonales positivos y HER2 negativo. Su eficacia en esa indicación está bien establecida en la literatura, aunque el registro colombiano no la detalla.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Palbociclib (traducción no oficial): «El palbociclib es un inhibidor de las cinasas dependientes de ciclinas (CDK) 4 y 6. La ciclina D1 y las CDK4/6 se encuentran corriente abajo de vías de señalización que conducen a la proliferación celular. In vitro, el palbociclib redujo la proliferación celular de líneas celulares de cáncer de mama positivas para el receptor de estrógeno (RE) al bloquear la progresión de la célula de la fase G1 a la fase S del ciclo celular.» Texto original en inglés: "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), versión del 2026-07-06; consultado el 2026-11-19). Según la información conocida, palbociclib es un inhibidor de las quinasas dependientes de ciclina 4 y 6 (CDK4/6), utilizado en cáncer de mama con receptores hormonales positivos y HER2 negativo. Su eficacia en esa indicación está bien establecida en la literatura, aunque el registro colombiano no la detalla.
 
 La relación con la artritis reumatoide es plausible desde lo biológico: la inhibición de CDK4/6 frena la proliferación celular, y en la artritis reumatoide los fibroblastos sinoviales proliferan en exceso y contribuyen al daño articular. Un estudio preclínico (PMID 39940918) señala que la hiperplasia sinovial en ratones con artritis depende de CDK6 y no de CDK4, y otro (PMID 25165034) indica que regular el ciclo celular junto con el bloqueo de citocinas potencia el efecto antiartrítico sin aumentar la inmunosupresión.
 
@@ -157,12 +157,13 @@ La evidencia para artritis reumatoide se limita a estudios preclínicos, un repo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ La evidencia es limitada: **0 ensayos clínicos** y **1 publicación** directame
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el tenofovir disoproxil es un profármaco del tenofovir, que tras convertirse dentro de la célula en tenofovir difosfato inhibe la transcriptasa inversa de retrovirus. Su eficacia en la infección por VIH está establecida, y mecanísticamente podría ser aplicable a otros lentivirus.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tenofovir Disoproxil (traducción no oficial): «El fumarato de disoproxilo de tenofovir es un fármaco antiviral. […] El fumarato de disoproxilo de tenofovir es un análogo diéster de fosfonato de nucleósido acíclico del monofosfato de adenosina. El fumarato de disoproxilo de tenofovir requiere una hidrólisis inicial del diéster para su conversión en tenofovir y fosforilaciones posteriores por enzimas celulares para formar difosfato de tenofovir (TFV-DP), un terminador de cadena obligado.» Texto original en inglés: "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), versión del 2025-02-18; consultado el 2026-11-19). Según la información farmacológica conocida, el tenofovir disoproxil es un profármaco del tenofovir, que tras convertirse dentro de la célula en tenofovir difosfato inhibe la transcriptasa inversa de retrovirus. Su eficacia en la infección por VIH está establecida, y mecanísticamente podría ser aplicable a otros lentivirus.
 
 El virus de inmunodeficiencia felina (FIV) es un lentivirus muy cercano al VIH y codifica su propia transcriptasa inversa, por lo que existe un vínculo mecanístico plausible. Sin embargo, el único estudio disponible (PMID 37112803, 2023) evaluó una terapia antirretroviral combinada (dolutegravir, tenofovir y emtricitabina) en gatos infectados. Al ser una combinación, no es posible aislar la contribución específica del tenofovir, y el resumen disponible está incompleto.
 
@@ -148,12 +148,13 @@ La indicación predicha es veterinaria (FIV), con un único estudio animal de co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

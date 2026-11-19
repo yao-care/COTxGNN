@@ -62,7 +62,7 @@ La predicción con mayor puntaje, "neoplasia del nervio trigémino", no tiene re
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, lamotrigina bloquea los canales de sodio dependientes de voltaje de forma dependiente del uso y reduce la liberación de glutamato. La base de datos farmacológica consultada la asocia con el canal Nav1.2 (en rata) y la describe como anticonvulsivo para epilepsia y trastorno bipolar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lamotrigine (traducción no oficial): «Se desconoce(n) el(los) mecanismo(s) preciso(s) mediante el(los) cual(es) la lamotrigina ejerce su acción anticonvulsiva. En modelos animales diseñados para detectar actividad anticonvulsiva, la lamotrigina fue eficaz para prevenir la propagación de las convulsiones en las pruebas de electrochoque máximo (MES) y de pentilentetrazol (scMet), y previno las convulsiones en las pruebas de posdescarga evocada visual y eléctricamente (EEAD) para la actividad antiepiléptica.» Texto original en inglés: "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), versión del 2026-10-12; consultado el 2026-11-19). Según la información farmacológica conocida, lamotrigina bloquea los canales de sodio dependientes de voltaje de forma dependiente del uso y reduce la liberación de glutamato. La base de datos farmacológica consultada la asocia con el canal Nav1.2 (en rata) y la describe como anticonvulsivo para epilepsia y trastorno bipolar.
 
 La neuralgia del trigémino se caracteriza por descargas ectópicas de alta frecuencia en las aferencias del nervio, a menudo por compresión vascular y desmielinización focal. Bloquear los canales de sodio y reducir el glutamato puede suprimir esas descargas. Es el mismo mecanismo general de la carbamazepina, tratamiento de primera línea.
 
@@ -141,12 +141,13 @@ Para neuralgia del trigémino existe un ensayo completado de Fase 2/3 frente a c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario local está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

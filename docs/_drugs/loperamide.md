@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis contagiosa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, loperamida es un agonista de receptores opioides mu de acción periférica que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal, lo que explica su uso en la diarrea.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Loperamide (traducción no oficial): «Los estudios in vitro y en animales muestran que las cápsulas de clorhidrato de loperamida actúan al enlentecer la motilidad intestinal y al afectar el movimiento de agua y electrolitos a través del intestino. La loperamida se une al receptor de opiáceos en la pared intestinal.» Texto original en inglés: "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), versión del 2026-07-09; consultado el 2026-11-19). Según la información conocida, loperamida es un agonista de receptores opioides mu de acción periférica que actúa sobre las neuronas del plexo mientérico intestinal y reduce la motilidad gastrointestinal, lo que explica su uso en la diarrea.
 
 **La predicción no resulta razonable desde el punto de vista mecanístico.** No existe un vínculo plausible entre la reducción de la motilidad intestinal y la inflamación infecciosa de la conjuntiva. El puntaje alto de TxGNN (0.9997) es solo una predicción del modelo y probablemente es un artefacto del modelo TxGNN (aprendizaje profundo). Además, varias predicciones del mismo grupo (conjuntivitis, conjuntivitis pseudomembranosa, conjuntivitis folicular crónica, foliculosis conjuntival, conjuntivitis serosa, conjuntivitis parasitaria) comparten puntajes idénticos o casi idénticos, lo que sugiere una propagación por ontología y no una señal independiente.
 
@@ -138,12 +138,13 @@ La predicción para conjuntivitis contagiosa aguda es solo del modelo (L5), sin 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 4 registros están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

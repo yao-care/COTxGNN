@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según el conocimiento farmacológico general, la tamsulosina bloquea los receptores adrenérgicos alfa-1A/1D del músculo liso de la próstata y el cuello vesical, lo que mejora el flujo urinario. Es un tratamiento sintomático, sin efecto conocido sobre el folículo piloso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tamsulosin (traducción no oficial): «Los síntomas asociados a la hiperplasia prostática benigna (HPB) están relacionados con la obstrucción del tracto de salida vesical, que consta de dos componentes subyacentes: estático y dinámico. El componente estático está relacionado con un aumento del tamaño de la próstata causado, en parte, por una proliferación de células de músculo liso en el estroma prostático. […] La tamsulosina, un agente bloqueante de los adrenorreceptores alfa 1, presenta selectividad por los receptores alfa 1 de la próstata humana.» Texto original en inglés: "The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Tamsulosin, an alpha 1 adrenoceptor blocking agent, exhibits selectivity for alpha 1 receptors in the human prostate." ([DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f), versión del 2026-11-12; consultado el 2026-11-19). Según el conocimiento farmacológico general, la tamsulosina bloquea los receptores adrenérgicos alfa-1A/1D del músculo liso de la próstata y el cuello vesical, lo que mejora el flujo urinario. Es un tratamiento sintomático, sin efecto conocido sobre el folículo piloso.
 
 Con los datos compilados, **no se identifica un vínculo mecanístico creíble**. El síndrome de Ambras es un trastorno genético raro (reordenamientos cromosómicos que afectan la regulación de TRPS1) y no hay evidencia de que el bloqueo alfa-1 influya en el crecimiento del cabello o del vello. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas con el pelo, no evidencia biológica ni una base farmacológica.
 
@@ -132,12 +132,13 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina en monoterapia en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tamsulosin hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6b6aeab-bedd-4254-8811-4f65cf8a351f) |
 
 <!-- review:end log -->
 

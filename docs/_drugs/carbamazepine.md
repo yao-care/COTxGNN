@@ -60,7 +60,7 @@ La relación es sintomática e indirecta: el fármaco alivia el dolor neuropáti
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, carbamazepina bloquea los canales de sodio dependientes de voltaje, lo que reduce las descargas neuronales repetitivas. Es tratamiento de primera línea en la neuralgia del trigémino y se usa en epilepsia focal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carbamazepine (traducción no oficial): «Tegretol ha demostrado propiedades anticonvulsivas en ratas y ratones con convulsiones inducidas eléctrica y químicamente. Parece actuar reduciendo las respuestas polisinápticas y bloqueando la potenciación postetánica. […] El metabolito principal de Tegretol, la carbamazepina-10,11-epóxido, tiene actividad anticonvulsiva, según se ha demostrado en varios modelos animales in vivo de convulsiones.» Texto original en inglés: "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), versión del 2026-08-20; consultado el 2026-11-19). Según el conocimiento farmacológico general, carbamazepina bloquea los canales de sodio dependientes de voltaje, lo que reduce las descargas neuronales repetitivas. Es tratamiento de primera línea en la neuralgia del trigémino y se usa en epilepsia focal.
 
 La literatura recuperada trata de neuralgia del trigémino causada por tumores o lesiones compresivas (schwannoma, meningioma, lipoma, quiste dermoide, linfoma, melanoma). En esos casos carbamazepina se usa para controlar el dolor, y en varios reportes el control fue insuficiente o el tumor siguió progresando. No hay evidencia de que actúe sobre el tumor.
 
@@ -146,13 +146,14 @@ La evidencia es de nivel L4: no hay ensayos clínicos y la literatura consiste e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Además, el mercado colombiano solo tiene registros cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a Novartis Pharma AG y están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
 
 <!-- review:end log -->
 

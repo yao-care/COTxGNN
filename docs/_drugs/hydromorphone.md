@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **faringitis (pharyngitis)**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la hidromorfona es un agonista del receptor opioide mu con acción analgésica central y periférica, por lo que podría aliviar el dolor faríngeo de forma sintomática.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydromorphone (traducción no oficial): «La hidromorfona es un agonista opioide completo y es relativamente selectiva para el receptor opioide mu, aunque puede unirse a otros receptores opioides a dosis más altas. La principal acción terapéutica de la hidromorfona es la analgesia.» Texto original en inglés: "Hydromorphone is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of hydromorphone is analgesia." ([DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d), versión del 2026-07-15; consultado el 2026-11-19). Según la información conocida, la hidromorfona es un agonista del receptor opioide mu con acción analgésica central y periférica, por lo que podría aliviar el dolor faríngeo de forma sintomática.
 
 Los ensayos recuperados estudian el dolor posoperatorio tras amigdalectomía, un modelo de dolor quirúrgico, y no la faringitis infecciosa o inflamatoria. Solo uno de ellos (NCT04230681) involucra a la hidromorfona, como comparador de fentanilo; los otros dos evalúan metadona. Ningún estudio citado aborda directamente la faringitis, por lo que el nivel de evidencia se limita a L5.
 
@@ -92,6 +92,19 @@ No existe ningún estudio que evalúe la hidromorfona en la faringitis; los ensa
 - Estudios clínicos que evalúen directamente la hidromorfona en faringitis, si hubiera una justificación clínica
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Evaluación comparativa frente a analgésicos no opioides estándar y análisis de riesgo-beneficio, especialmente en población pediátrica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dilaudid (hydromorphone hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9eebd88a-5632-460f-b7b6-26c8a180540d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

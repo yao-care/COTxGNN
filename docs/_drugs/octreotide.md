@@ -70,7 +70,7 @@ Octreotida es un análogo de la somatostatina que cuenta con dos registros sanit
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, octreotida es un péptido análogo de la somatostatina que se une a los receptores de somatostatina SST2, SST3 y SST5. Su uso clínico conocido incluye tumores productores de hormona de crecimiento (acromegalia), tumores hipofisarios secretores de TSH y la obtención de imágenes de medicina nuclear de tumores neuroendocrinos que expresan receptores de somatostatina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Octreotide (traducción no oficial): «Sandostatin Inyectable ejerce acciones farmacológicas similares a las de la hormona natural somatostatina. Es un inhibidor aún más potente de la GH, el glucagón y la insulina que la somatostatina. […] En virtud de estas acciones farmacológicas, la octreotida se ha utilizado para tratar los síntomas asociados con los tumores carcinoides metastásicos (rubefacción y diarrea) y los adenomas secretores de VIP (diarrea acuosa).» Texto original en inglés: "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), versión del 2026-07-22; consultado el 2026-11-19). Según la información farmacológica disponible, octreotida es un péptido análogo de la somatostatina que se une a los receptores de somatostatina SST2, SST3 y SST5. Su uso clínico conocido incluye tumores productores de hormona de crecimiento (acromegalia), tumores hipofisarios secretores de TSH y la obtención de imágenes de medicina nuclear de tumores neuroendocrinos que expresan receptores de somatostatina.
 
 La relación entre estas indicaciones y la queratosis folicular invertida vulvar, una lesión epidérmica benigna, **no está respaldada por los datos disponibles**. Un papel de la señalización de receptores de somatostatina en la proliferación de queratinocitos benignos es meramente especulativo.
 
@@ -159,7 +159,7 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -168,6 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro, a nombre de Novartis Pharma AG, está cancelado, por lo que actualmente no hay producto vigente en Colombia con este princ" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y con el único registro sanitario colombiano cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros sanitarios: 1 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
 
 <!-- review:end log -->
 

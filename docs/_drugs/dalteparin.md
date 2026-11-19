@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **trombofilia por deficien
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la dalteparina es una heparina de bajo peso molecular que potencia la antitrombina e inhibe el factor Xa, por lo que su eficacia antitrombótica es conocida y, mecanísticamente, podría ser aplicable a estados de hipercoagulabilidad como la deficiencia de proteína C.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dalteparin (traducción no oficial): «La dalteparina es una heparina de bajo peso molecular con propiedades antitrombóticas. Actúa potenciando la inhibición del Factor Xa y de la trombina por la antitrombina. En los seres humanos, la dalteparina potencia preferentemente la inhibición del Factor Xa de la coagulación, y solo afecta levemente al tiempo de tromboplastina parcial activada (TTPA).» Texto original en inglés: "Dalteparin is a low molecular weight heparin with antithrombotic properties. It acts by enhancing the inhibition of Factor Xa and thrombin by antithrombin. In humans, dalteparin potentiates preferentially the inhibition of coagulation Factor Xa, while only slightly affecting the activated partial thromboplastin time (APTT)." ([DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7), versión del 2025-09-30; consultado el 2026-11-19). Según la información conocida, la dalteparina es una heparina de bajo peso molecular que potencia la antitrombina e inhibe el factor Xa, por lo que su eficacia antitrombótica es conocida y, mecanísticamente, podría ser aplicable a estados de hipercoagulabilidad como la deficiencia de proteína C.
 
 La deficiencia de proteína C es un trastorno trombofílico: la falta de este anticoagulante natural favorece la formación de trombos. Un anticoagulante como la dalteparina es biológicamente plausible para prevenir la trombosis en este contexto. De hecho, la anticoagulación (heparinas, antagonistas de vitamina K y concentrado de proteína C) ya se utiliza en esta condición, aunque los datos disponibles no contienen evidencia específica de dalteparina.
 
@@ -136,12 +136,13 @@ La predicción principal es biológicamente plausible, pero se apoya únicamente
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Evaluar la situación regulatoria (registro cancelado) y la disponibilidad de otros productos de dalteparina en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7) |
 
 <!-- review:end log -->
 

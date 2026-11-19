@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda eq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Bleomicina es un agente citotóxico que induce rupturas en las cadenas del ADN. Se emplea en tumores de células germinales y en otros esquemas de quimioterapia combinada. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, por lo que el análisis mecanístico es limitado.
+Bleomicina es un agente citotóxico que induce rupturas en las cadenas del ADN. Se emplea en tumores de células germinales y en otros esquemas de quimioterapia combinada. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bleomycin (traducción no oficial): «Aunque se desconoce el mecanismo de acción exacto de la bleomicina, la evidencia disponible indica que el principal modo de acción es la inhibición de la síntesis de ADN, con cierta evidencia de una inhibición menor de la síntesis de ARN y de proteínas. Se sabe que la bleomicina provoca roturas de cadena sencilla y, en menor medida, de doble cadena en el ADN.» Texto original en inglés: "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), versión del 2026-04-17; consultado el 2026-11-19).
 
 La única publicación vinculada trata de radioterapia en germinoma del sistema nervioso central en recaída, tras quimioterapia primaria con carboplatino, etopósido y bleomicina. Este estudio guarda solo una relación tangencial con una neoplasia de la cauda equina: no estudia directamente esta enfermedad ni evalúa la eficacia de bleomicina en ella.
 
@@ -107,6 +107,18 @@ La predicción se basa solo en el modelo: no hay ensayos clínicos y la única p
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evaluación de la penetración en el sistema nervioso central y de la toxicidad pulmonar
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

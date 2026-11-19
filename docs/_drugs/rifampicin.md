@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la rifampicina es un inhibidor de la ARN polimerasa dependiente de ADN bacteriana, con actividad contra bacterias Gram positivas, micobacterias, *Chlamydia* y otros patógenos oculares. Su eficacia como antibiótico está bien establecida en otras indicaciones infecciosas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rifampicin (traducción no oficial): «La rifampicina inhibe la actividad de la ARN polimerasa dependiente de ADN en los microorganismos sensibles de Mycobacterium tuberculosis. En concreto, interactúa con la ARN polimerasa bacteriana, pero no inhibe la enzima de los mamíferos.» Texto original en inglés: "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), versión del 2026-05-05; consultado el 2026-11-19). Según la información conocida, la rifampicina es un inhibidor de la ARN polimerasa dependiente de ADN bacteriana, con actividad contra bacterias Gram positivas, micobacterias, *Chlamydia* y otros patógenos oculares. Su eficacia como antibiótico está bien establecida en otras indicaciones infecciosas.
 
 Mecanísticamente, un antibacteriano con actividad contra *Staphylococcus aureus* y *Chlamydia trachomatis* podría ser aplicable a conjuntivitis infecciosa, ya que estos microorganismos están entre sus causas. La literatura incluye un ensayo controlado de 1975 en tracoma (pomada de rifampicina al 1% frente a tetraciclina y ácido bórico) y un ensayo abierto de 1977 con 63 pacientes con infección ocular por clamidia, donde un curso de 6-7 semanas de pomada de rifampicina logró cerca de un 90% de curación clínica y microbiológica.
 
@@ -138,12 +138,13 @@ La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos reg
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

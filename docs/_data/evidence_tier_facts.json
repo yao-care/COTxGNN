@@ -9,7 +9,7 @@
   "with_current": 35,
   "none_current": 1,
   "without_data": 6,
-  "with_reviews": 29,
+  "with_reviews": 33,
   "rows": [
    {
     "t": "Acetylcysteine",
@@ -18,7 +18,7 @@
     "i": "thrombotic disease",
     "lt": 15,
     "lv": 15,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -29,7 +29,7 @@
     "i": "mantle cell lymphoma",
     "lt": 14,
     "lv": 11,
-    "r": 4,
+    "r": 5,
     "rs": "Número de registros sanitarios: 1 → 14",
     "x": 0
    },
@@ -40,7 +40,7 @@
     "i": "Enfermedad ocular",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el único registro colombiano está cancelado y\"",
     "x": 0
    },
@@ -51,7 +51,7 @@
     "i": "myelodysplastic syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y los cuatro registros colombianos están cancelados\"",
     "x": 0
    },
@@ -73,8 +73,8 @@
     "i": "anxiety disorder",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -84,7 +84,7 @@
     "i": "pneumocystosis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en…",
     "x": 0
    },
@@ -106,7 +106,7 @@
     "i": "Mieloma de células plasmáticas",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo…",
     "x": 0
    },
@@ -117,7 +117,7 @@
     "i": "Trastorno de cefalea",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registro vigente\"",
     "x": 0
    },
@@ -128,7 +128,7 @@
     "i": "Trastorno de Cefalea",
     "lt": 6,
     "lv": 6,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"y gestionar un registro sanitario, ya que todos los vigentes están cancelados\"",
     "x": 0
    },
@@ -139,8 +139,8 @@
     "i": "follicular lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -150,7 +150,7 @@
     "i": "esophageal varices with bleeding",
     "lt": 2,
     "lv": 2,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"(ambos registros están cancelados)\"",
     "x": 0
    },
@@ -172,7 +172,7 @@
     "i": "seborrheic dermatitis",
     "lt": 20,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que los registros colombianos identificados son orales y están cancelados\"",
     "x": 0
    },
@@ -183,7 +183,7 @@
     "i": "Infección por VIH",
     "lt": 0,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el registro regulatorio colombiano muestra 0 licencias\"",
     "x": 0
    },
@@ -194,7 +194,7 @@
     "i": "follicular lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el registro en Colombia está cancelado y\"",
     "x": 0
    },
@@ -205,7 +205,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría…",
     "x": 0
    },
@@ -238,7 +238,7 @@
     "i": "Ewing sarcoma",
     "lt": 12,
     "lv": 12,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 12",
     "x": 0
    },
@@ -260,8 +260,8 @@
     "i": "liposarcoma",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -271,7 +271,7 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 20,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que los cinco registros están cancelados\"",
     "x": 0
    },
@@ -282,7 +282,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 15,
     "lv": 15,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está…",
     "x": 0
    },
@@ -304,7 +304,7 @@
     "i": "Acné",
     "lt": 0,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros vigentes: 2 → al menos 19",
     "x": 0
    },
@@ -315,8 +315,8 @@
     "i": "Trastorno de cefalea",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -326,7 +326,7 @@
     "i": "bronchitis",
     "lt": 0,
     "lv": 19,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: no hay registro vigente en Colombia\"",
     "x": 0
    },
@@ -337,7 +337,7 @@
     "i": "malignant pleural mesothelioma",
     "lt": 9,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 8",
     "x": 0
    },
@@ -348,7 +348,7 @@
     "i": "alopecia areata",
     "lt": 0,
     "lv": 16,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → al menos 16",
     "x": 0
    },
@@ -381,7 +381,7 @@
     "i": "duodenogastric reflux",
     "lt": 7,
     "lv": 7,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 7",
     "x": 0
    },
@@ -403,7 +403,7 @@
     "i": "dermatitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y aclarar por qué están cancelados\"",
     "x": 0
    }
@@ -432,7 +432,7 @@
   "with_current": 70,
   "none_current": 0,
   "without_data": 6,
-  "with_reviews": 57,
+  "with_reviews": 69,
   "rows": [
    {
     "t": "Abatacept",
@@ -441,8 +441,8 @@
     "i": "espondilitis anquilosante",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -452,7 +452,7 @@
     "i": "atopic eczema",
     "lt": 14,
     "lv": 14,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 5 → 14",
     "x": 0
    },
@@ -474,8 +474,8 @@
     "i": "Infección por Staphylococcus aureus",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -485,7 +485,7 @@
     "i": "restless legs syndrome",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"en Colombia ambos registros sanitarios están cancelados, y\"",
     "x": 0
    },
@@ -496,8 +496,8 @@
     "i": "Carcinoma pulmonar de células pequeñas",
     "lt": 10,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -529,7 +529,7 @@
     "i": "bronchitis",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -540,7 +540,7 @@
     "i": "HIV infectious disease",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"registros están cancelados\"",
     "x": 0
    },
@@ -551,7 +551,7 @@
     "i": "amenorrhea (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
     "x": 0
    },
@@ -562,8 +562,8 @@
     "i": "Trastorno de personalidad esquizotípica",
     "lt": 14,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -573,7 +573,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 2 → 4",
     "x": 0
    },
@@ -595,7 +595,7 @@
     "i": "Enfermedad fibroquística de la mama",
     "lt": 6,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay…",
     "x": 0
    },
@@ -606,7 +606,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"el único registro en Colombia está cancelado y\"",
     "x": 0
    },
@@ -617,7 +617,7 @@
     "i": "insomnia (disease)",
     "lt": 0,
     "lv": 18,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes y\"",
     "x": 0
    },
@@ -639,7 +639,7 @@
     "i": "liposarcoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que…",
     "x": 0
    },
@@ -650,7 +650,7 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 17,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -661,8 +661,8 @@
     "i": "alopecia areata",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -683,7 +683,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el registro de Epclusa® figura como cancelado\"",
     "x": 0
    },
@@ -694,7 +694,7 @@
     "i": "ankylosing spondylitis",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que los tres registros están cancelados\"",
     "x": 0
    },
@@ -705,7 +705,7 @@
     "i": "obsessive-compulsive disorder",
     "lt": 10,
     "lv": 10,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que los dos registros están cancelados\"",
     "x": 0
    },
@@ -716,7 +716,7 @@
     "i": "Laringitis",
     "lt": 7,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -727,8 +727,8 @@
     "i": "liposarcoma",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -738,8 +738,8 @@
     "i": "alopecia mucinosa",
     "lt": 18,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -749,7 +749,7 @@
     "i": "rheumatoid arthritis",
     "lt": 14,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -760,7 +760,7 @@
     "i": "acute intermittent porphyria",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que ambos registros están cancelados\"",
     "x": 0
    },
@@ -771,7 +771,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 5,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que los dos registros están cancelados\"",
     "x": 0
    },
@@ -782,7 +782,7 @@
     "i": "febrile infection-related epilepsy syndrome",
     "lt": 6,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico\"",
     "x": 0
    },
@@ -793,7 +793,7 @@
     "i": "granulomatous disease, chronic, autosomal recessive",
     "lt": 8,
     "lv": 8,
-    "r": 4,
+    "r": 5,
     "rs": "Número de registros vigentes: 6 → 8",
     "x": 0
    },
@@ -804,7 +804,7 @@
     "i": "dry eye syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición…",
     "x": 0
    },
@@ -815,7 +815,7 @@
     "i": "HIV infectious disease",
     "lt": 13,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"los registros en Colombia están cancelados y\"",
     "x": 0
    },
@@ -826,7 +826,7 @@
     "i": "Porfiria hepática",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: no hay registro vigente en Colombia\"",
     "x": 0
    },
@@ -848,8 +848,8 @@
     "i": "Infección por virus de la inmunodeficiencia simia",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -859,7 +859,7 @@
     "i": "migraine disorder",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la indicación original aprobada y la situación del registro cancelado\"",
     "x": 0
    },
@@ -870,7 +870,7 @@
     "i": "Trastorno de accidente cerebrovascular",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclaración de la situación regulatoria local (registro cancelado)\"",
     "x": 0
    },
@@ -881,8 +881,8 @@
     "i": "Infección por el virus de la inmunodeficiencia simia",
     "lt": 9,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -892,8 +892,8 @@
     "i": "infección por virus de la inmunodeficiencia simia",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -903,8 +903,8 @@
     "i": "Infección por el virus de la inmunodeficiencia de los simios",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -914,8 +914,8 @@
     "i": "hypouricemia, renal",
     "lt": 6,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -925,7 +925,7 @@
     "i": "Infección por VIH",
     "lt": 10,
     "lv": 9,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -936,7 +936,7 @@
     "i": "rheumatoid arthritis",
     "lt": 10,
     "lv": 10,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que no hay registro sanitario vigente en Colombia\"",
     "x": 0
    },
@@ -958,7 +958,7 @@
     "i": "nasal cavity disease",
     "lt": 18,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el producto registrado en Colombia está cancelado\"",
     "x": 0
    },
@@ -969,7 +969,7 @@
     "i": "acne (disease)",
     "lt": 0,
     "lv": 18,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 3 → al menos 18",
     "x": 0
    },
@@ -980,7 +980,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 14,
     "lv": 9,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, lamivudina no tiene registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -991,7 +991,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados\"",
     "x": 0
    },
@@ -1013,7 +1013,7 @@
     "i": "acné",
     "lt": 2,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria actual (registro cancelado) y la disponibilidad de formulaciones…",
     "x": 0
    },
@@ -1035,7 +1035,7 @@
     "i": "obstructive lung disease",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -1046,7 +1046,7 @@
     "i": "restless legs syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay…",
     "x": 0
    },
@@ -1057,7 +1057,7 @@
     "i": "ischemic disease",
     "lt": 2,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -1068,7 +1068,7 @@
     "i": "HIV infectious disease",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que el registro está cancelado\"",
     "x": 0
    },
@@ -1101,7 +1101,7 @@
     "i": "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria (registros cancelados) y la disponibilidad real del producto en…",
     "x": 0
    },
@@ -1112,7 +1112,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 5,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar el estado real de comercialización en Colombia, ya que los registros cancelados podrían…",
     "x": 0
    },
@@ -1123,7 +1123,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"y el producto no tiene registro sanitario vigente en Colombia\"",
     "x": 0
    },
@@ -1134,7 +1134,7 @@
     "i": "conjunctivitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de…",
     "x": 0
    },
@@ -1156,7 +1156,7 @@
     "i": "simian immunodeficiency virus infection",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -1167,7 +1167,7 @@
     "i": "exposure keratitis",
     "lt": 13,
     "lv": 12,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay productos vigentes en Colombia\"",
     "x": 0
    },
@@ -1178,7 +1178,7 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 0,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -1189,7 +1189,7 @@
     "i": "hepatitis B virus infection",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -1223,7 +1223,7 @@
   "with_current": 493,
   "none_current": 6,
   "without_data": 62,
-  "with_reviews": 348,
+  "with_reviews": 449,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1232,7 +1232,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y ambos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -1243,8 +1243,8 @@
     "i": "Cenurosis",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1265,7 +1265,7 @@
     "i": "atopic eczema",
     "lt": 0,
     "lv": 20,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Análisis regulatorio: en Colombia no hay registros vigentes ni una formulación dérmica aprobada…",
     "x": 0
    },
@@ -1276,7 +1276,7 @@
     "i": "Acné",
     "lt": 0,
     "lv": 20,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que los registros están cancelados\"",
     "x": 0
    },
@@ -1287,8 +1287,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1298,8 +1298,8 @@
     "i": "obstrucción duodenal",
     "lt": 0,
     "lv": 20,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1309,7 +1309,7 @@
     "i": "Trastorno de migraña",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -1320,7 +1320,7 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros vigentes: 1 → al menos 20",
     "x": 0
    },
@@ -1331,7 +1331,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -1342,7 +1342,7 @@
     "i": "classic stiff person syndrome",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -1353,7 +1353,7 @@
     "i": "primary cutaneous T-cell lymphoma",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 6 → al menos 20",
     "x": 0
    },
@@ -1364,7 +1364,7 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y los cinco registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -1375,7 +1375,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 0,
     "lv": 20,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 5 → al menos 20",
     "x": 0
    },
@@ -1386,7 +1386,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Confirmar la situación regulatoria: ambos registros sanitarios están cancelados, por lo que sería…",
     "x": 0
    },
@@ -1397,7 +1397,7 @@
     "i": "Trastorno esquizotípico de la personalidad",
     "lt": 0,
     "lv": 20,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria local (registro cancelado) y valorar si otros registros de…",
     "x": 0
    },
@@ -1408,7 +1408,7 @@
     "i": "acute contagious conjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 2 → al menos 20",
     "x": 0
    },
@@ -1419,7 +1419,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -1430,7 +1430,7 @@
     "i": "Infarto del tronco encefálico",
     "lt": 0,
     "lv": 19,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que ambos registros están cancelados y\"",
     "x": 0
    },
@@ -1452,7 +1452,7 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros vigentes: 3 → al menos 19",
     "x": 0
    },
@@ -1463,7 +1463,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 0,
     "lv": 19,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50)\"",
     "x": 0
    },
@@ -1474,8 +1474,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 0,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1507,7 +1507,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 19,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -1518,8 +1518,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 0,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1529,8 +1529,8 @@
     "i": "Queratoconjuntivitis epitelial punteada",
     "lt": 0,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1551,7 +1551,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 19,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → al menos 19",
     "x": 0
    },
@@ -1562,7 +1562,7 @@
     "i": "tendinitis",
     "lt": 0,
     "lv": 19,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
@@ -1573,7 +1573,7 @@
     "i": "rheumatoid arthritis",
     "lt": 0,
     "lv": 19,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 5 → al menos 19",
     "x": 0
    },
@@ -1584,8 +1584,8 @@
     "i": "malformación respiratoria",
     "lt": 20,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1606,7 +1606,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 0,
     "lv": 19,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -1628,8 +1628,8 @@
     "i": "Trastorno de migraña",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1639,8 +1639,8 @@
     "i": "enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1650,8 +1650,8 @@
     "i": "Síndrome de hiperviscosidad policlonal",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1661,8 +1661,8 @@
     "i": "Pólipo de cuerda vocal",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1672,7 +1672,7 @@
     "i": "amenorrhea (disease)",
     "lt": 0,
     "lv": 18,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registro vigente\"",
     "x": 0
    },
@@ -1705,7 +1705,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 0,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: los 3 registros sanitarios están cancelados, por lo que no hay…",
     "x": 0
    },
@@ -1716,7 +1716,7 @@
     "i": "pneumocystosis",
     "lt": 0,
     "lv": 18,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 3 → al menos 18",
     "x": 0
    },
@@ -1727,8 +1727,8 @@
     "i": "Enfermedad de la región orbitaria",
     "lt": 19,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1760,7 +1760,7 @@
     "i": "oral candidiasis",
     "lt": 0,
     "lv": 18,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -1782,7 +1782,7 @@
     "i": "Prinzmetal angina",
     "lt": 0,
     "lv": 18,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 2 → al menos 18",
     "x": 0
    },
@@ -1793,7 +1793,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 18,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que los 3 registros están cancelados\"",
     "x": 0
    },
@@ -1804,8 +1804,8 @@
     "i": "Síndrome de hiperviscosidad policlonal",
     "lt": 19,
     "lv": 17,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1815,8 +1815,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 18,
     "lv": 17,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1837,7 +1837,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 0,
     "lv": 17,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, todos los registros sanitarios del naproxeno en Colombia están cancelados\"",
     "x": 0
    },
@@ -1848,7 +1848,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 18,
     "lv": 17,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 8 → 17",
     "x": 0
    },
@@ -1859,7 +1859,7 @@
     "i": "duodenal obstruction",
     "lt": 0,
     "lv": 17,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que los dos registros sanitarios están cancelados\"",
     "x": 0
    },
@@ -1870,7 +1870,7 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 0,
     "lv": 17,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que el único registro está cancelado\"",
     "x": 0
    },
@@ -1881,7 +1881,7 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 0,
     "lv": 17,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que ambos registros sanitarios están cancelados (posible nueva solicitud o confirmación de…",
     "x": 0
    },
@@ -1892,7 +1892,7 @@
     "i": "Vaginitis atrófica posmenopáusica",
     "lt": 0,
     "lv": 17,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → al menos 17",
     "x": 0
    },
@@ -1914,7 +1914,7 @@
     "i": "gastroduodenitis",
     "lt": 16,
     "lv": 16,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso…",
     "x": 0
    },
@@ -1925,7 +1925,7 @@
     "i": "polyclonal hyperviscosity syndrome",
     "lt": 18,
     "lv": 16,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Confirmar la situación regulatoria (registros cancelados) antes de cualquier desarrollo en…",
     "x": 0
    },
@@ -1936,7 +1936,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 18,
     "lv": 16,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 16",
     "x": 0
    },
@@ -1958,8 +1958,8 @@
     "i": "glaucoma hereditario primario",
     "lt": 16,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1969,8 +1969,8 @@
     "i": "esclerodermia difusa",
     "lt": 0,
     "lv": 15,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -1980,7 +1980,7 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -1991,7 +1991,7 @@
     "i": "beta-ketothiolase deficiency",
     "lt": 0,
     "lv": 15,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"y el único registro inyectable (Keppra, concentrado para perfusión) está cancelado\"",
     "x": 0
    },
@@ -2013,7 +2013,7 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 15,
     "lv": 15,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros vigentes: 4 → 15",
     "x": 0
    },
@@ -2024,7 +2024,7 @@
     "i": "parameningeal embryonal rhabdomyosarcoma",
     "lt": 16,
     "lv": 15,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 15",
     "x": 0
    },
@@ -2035,7 +2035,7 @@
     "i": "focal stiff limb syndrome",
     "lt": 17,
     "lv": 15,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el registro sanitario está cancelado\"",
     "x": 0
    },
@@ -2046,7 +2046,7 @@
     "i": "gastrin secretion abnormality",
     "lt": 18,
     "lv": 14,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -2057,8 +2057,8 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 0,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2068,7 +2068,7 @@
     "i": "nasal cavity disease",
     "lt": 18,
     "lv": 14,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"El único producto registrado en Colombia está cancelado\"",
     "x": 0
    },
@@ -2079,7 +2079,7 @@
     "i": "biotin metabolic disease",
     "lt": 0,
     "lv": 14,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -2090,7 +2090,7 @@
     "i": "seborrheic keratosis",
     "lt": 14,
     "lv": 14,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria en Colombia (registro cancelado; evaluar un nuevo registro o…",
     "x": 0
    },
@@ -2101,7 +2101,7 @@
     "i": "congenital hypotrichosis with juvenile macular dystrophy",
     "lt": 17,
     "lv": 14,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"que en Colombia contó con registros sanitarios bajo el nombre del principio activo\"",
     "x": 0
    },
@@ -2123,7 +2123,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 17,
     "lv": 14,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina…",
     "x": 0
    },
@@ -2134,8 +2134,8 @@
     "i": "cauda equina neoplasm",
     "lt": 16,
     "lv": 14,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2167,7 +2167,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 15,
     "lv": 13,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 3 → 13",
     "x": 0
    },
@@ -2178,7 +2178,7 @@
     "i": "exposure keratitis",
     "lt": 14,
     "lv": 13,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 7 → 13",
     "x": 0
    },
@@ -2189,7 +2189,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 13,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que no hay registros vigentes\"",
     "x": 0
    },
@@ -2211,7 +2211,7 @@
     "i": "intracranial arteriosclerosis",
     "lt": 17,
     "lv": 13,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Confirmar la situación regulatoria: los tres registros están cancelados\"",
     "x": 0
    },
@@ -2222,7 +2222,7 @@
     "i": "amenorrhea (disease)",
     "lt": 14,
     "lv": 13,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"A esto se suma que los cuatro registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -2255,7 +2255,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 13,
     "lv": 12,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 7 → 12",
     "x": 0
    },
@@ -2288,7 +2288,7 @@
     "i": "obstructive lung disease",
     "lt": 14,
     "lv": 12,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros sanitarios: 1 → 14",
     "x": 0
    },
@@ -2299,7 +2299,7 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 13,
     "lv": 12,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -2310,7 +2310,7 @@
     "i": "postmenopausal atrophic vaginitis",
     "lt": 15,
     "lv": 12,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 12",
     "x": 0
    },
@@ -2321,8 +2321,8 @@
     "i": "hipermovilidad del coxis",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2332,7 +2332,7 @@
     "i": "zinc, elevated plasma",
     "lt": 13,
     "lv": 11,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -2343,8 +2343,8 @@
     "i": "Malformación arteriovenosa pulmonar",
     "lt": 11,
     "lv": 11,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2354,7 +2354,7 @@
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
     "lt": 16,
     "lv": 11,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si…",
     "x": 0
    },
@@ -2365,7 +2365,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 11,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 11",
     "x": 0
    },
@@ -2387,7 +2387,7 @@
     "i": "allergic urticaria",
     "lt": 11,
     "lv": 11,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -2398,7 +2398,7 @@
     "i": "biotin metabolic disease",
     "lt": 0,
     "lv": 11,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 1 → al menos 11",
     "x": 0
    },
@@ -2409,7 +2409,7 @@
     "i": "vulvovaginal candidiasis",
     "lt": 14,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 5 → 11",
     "x": 0
    },
@@ -2420,7 +2420,7 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 12,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -2431,7 +2431,7 @@
     "i": "hyperamylasemia",
     "lt": 11,
     "lv": 11,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 4 → 11",
     "x": 0
    },
@@ -2453,7 +2453,7 @@
     "i": "malignant cutaneous granular cell skin tumor",
     "lt": 12,
     "lv": 11,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en…",
     "x": 0
    },
@@ -2464,7 +2464,7 @@
     "i": "pulmonary arteriovenous malformation (disease)",
     "lt": 11,
     "lv": 11,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados, por lo que se requeriría una…",
     "x": 0
    },
@@ -2486,8 +2486,8 @@
     "i": "migraña con aura del tronco encefálico",
     "lt": 11,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2497,8 +2497,8 @@
     "i": "Conjuntivitis rosácea",
     "lt": 12,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2508,7 +2508,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 11,
     "lv": 10,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 2 → 10",
     "x": 0
    },
@@ -2519,7 +2519,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 14,
     "lv": 10,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -2530,8 +2530,8 @@
     "i": "malformación respiratoria",
     "lt": 10,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2574,7 +2574,7 @@
     "i": "papillary conjunctivitis",
     "lt": 12,
     "lv": 10,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -2585,7 +2585,7 @@
     "i": "hepatic porphyria",
     "lt": 9,
     "lv": 9,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 9",
     "x": 0
    },
@@ -2607,8 +2607,8 @@
     "i": "Adenocarcinoma gástrico y poliposis proximal del estómago",
     "lt": 10,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2618,7 +2618,7 @@
     "i": "tendinitis",
     "lt": 9,
     "lv": 9,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"porque no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -2629,8 +2629,8 @@
     "i": "Adenocarcinoma mucinoso del recto",
     "lt": 9,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2640,8 +2640,8 @@
     "i": "Síndrome de la extremidad rígida focal",
     "lt": 10,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2651,8 +2651,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 12,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2662,7 +2662,7 @@
     "i": "pulmonary blastoma",
     "lt": 12,
     "lv": 9,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"registros están cancelados\"",
     "x": 0
    },
@@ -2673,8 +2673,8 @@
     "i": "Síndrome de hiperviscosidad policlonal",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2684,7 +2684,7 @@
     "i": "infectious otitis media",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el único registro sanitario está cancelado\"",
     "x": 0
    },
@@ -2706,8 +2706,8 @@
     "i": "leiomioma de próstata",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2717,8 +2717,8 @@
     "i": "Carcinoma del pezón",
     "lt": 8,
     "lv": 8,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2739,7 +2739,7 @@
     "i": "Ohdo syndrome and variants",
     "lt": 9,
     "lv": 8,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -2750,7 +2750,7 @@
     "i": "hyperthyroidism",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 4 → 8",
     "x": 0
    },
@@ -2783,7 +2783,7 @@
     "i": "extracutaneous mastocytoma",
     "lt": 13,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 8",
     "x": 0
    },
@@ -2794,7 +2794,7 @@
     "i": "glaucoma",
     "lt": 11,
     "lv": 8,
-    "r": 4,
+    "r": 5,
     "rs": "Número de registros sanitarios: 2 → 11",
     "x": 0
    },
@@ -2805,7 +2805,7 @@
     "i": "Trastorno de migraña",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -2827,7 +2827,7 @@
     "i": "Trastorno neurótico",
     "lt": 8,
     "lv": 8,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -2838,8 +2838,8 @@
     "i": "Carcinoma de mama femenino",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2849,7 +2849,7 @@
     "i": "CMM7",
     "lt": 7,
     "lv": 7,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 4 → 7",
     "x": 0
    },
@@ -2860,8 +2860,8 @@
     "i": "hiperamilasemia",
     "lt": 9,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2871,8 +2871,8 @@
     "i": "Síndrome de la persona rígida clásico",
     "lt": 8,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2882,7 +2882,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 7,
     "lv": 7,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"ya que los cuatro están cancelados y no hay producto vigente en Colombia\"",
     "x": 0
    },
@@ -2893,8 +2893,8 @@
     "i": "Rabdomiosarcoma embrionario de tipo botrioide de la vagina",
     "lt": 7,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2904,7 +2904,7 @@
     "i": "Fibrosarcoma cardíaco",
     "lt": 9,
     "lv": 7,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras…",
     "x": 0
    },
@@ -2915,7 +2915,7 @@
     "i": "female breast carcinoma",
     "lt": 7,
     "lv": 7,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"hoy no hay ningún registro sanitario vigente en Colombia y\"",
     "x": 0
    },
@@ -2926,7 +2926,7 @@
     "i": "faciodigitogenital syndrome",
     "lt": 7,
     "lv": 7,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 4 → 7",
     "x": 0
    },
@@ -2937,8 +2937,8 @@
     "i": "alopecia mucinosa",
     "lt": 8,
     "lv": 7,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2959,8 +2959,8 @@
     "i": "Síndrome de inmunodeficiencia adquirida felina",
     "lt": 7,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -2981,7 +2981,7 @@
     "i": "Síndrome de inmunodeficiencia adquirida felina",
     "lt": 7,
     "lv": 6,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros sanitarios: 1 → 7 (6 vigentes)",
     "x": 0
    },
@@ -3014,8 +3014,8 @@
     "i": "Malaria por Plasmodium falciparum",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3025,8 +3025,8 @@
     "i": "síndrome de braquidactilia-sindactilia",
     "lt": 7,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3058,7 +3058,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 6",
     "x": 0
    },
@@ -3069,7 +3069,7 @@
     "i": "female breast carcinoma",
     "lt": 6,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 2 → 6",
     "x": 0
    },
@@ -3080,8 +3080,8 @@
     "i": "Obstrucción duodenal",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3124,7 +3124,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 7,
     "lv": 6,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 1 → 6",
     "x": 0
    },
@@ -3146,7 +3146,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 9,
     "lv": 6,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -3168,7 +3168,7 @@
     "i": "Malformación aórtica",
     "lt": 6,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros vigentes: 4 → 5",
     "x": 0
    },
@@ -3201,7 +3201,7 @@
     "i": "paratyphoid fever",
     "lt": 5,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria en Colombia (registros cancelados) y la viabilidad de una nueva…",
     "x": 0
    },
@@ -3223,8 +3223,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3234,8 +3234,8 @@
     "i": "Enfermedad del estómago",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3256,8 +3256,8 @@
     "i": "Síndrome faciodigitogenital",
     "lt": 6,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3267,7 +3267,7 @@
     "i": "amenorrhea (disease)",
     "lt": 6,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -3278,7 +3278,7 @@
     "i": "psychogenic movement disorders",
     "lt": 9,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el donepezilo no tiene registros vigentes en Colombia y\"",
     "x": 0
    },
@@ -3289,7 +3289,7 @@
     "i": "bacterial arthritis",
     "lt": 5,
     "lv": 5,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 2 → 5",
     "x": 0
    },
@@ -3300,8 +3300,8 @@
     "i": "Hipermovilidad del coxis",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3311,7 +3311,7 @@
     "i": "Amenorrea",
     "lt": 5,
     "lv": 5,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"que en Colombia contó con un registro sanitario como sistema de liberación (anillo), clasificado…",
     "x": 0
    },
@@ -3333,7 +3333,7 @@
     "i": "nasal cavity disease",
     "lt": 5,
     "lv": 5,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -3344,7 +3344,7 @@
     "i": "autoimmune oophoritis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que los tres registros están cancelados\"",
     "x": 0
    },
@@ -3355,7 +3355,7 @@
     "i": "conjunctivitis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que los tres registros están cancelados\"",
     "x": 0
    },
@@ -3366,7 +3366,7 @@
     "i": "pneumocystosis",
     "lt": 5,
     "lv": 5,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que no hay registros vigentes\"",
     "x": 0
    },
@@ -3377,8 +3377,8 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3388,7 +3388,7 @@
     "i": "visceral calciphylaxis",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"(actualmente no hay registros vigentes)\"",
     "x": 0
    },
@@ -3399,7 +3399,7 @@
     "i": "Conjuntivitis contagiosa aguda",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -3410,7 +3410,7 @@
     "i": "conjunctival folliculosis",
     "lt": 8,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: los 5 registros están cancelados, por lo que habría que evaluar…",
     "x": 0
    },
@@ -3421,7 +3421,7 @@
     "i": "homozygous familial hypercholesterolemia",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -3432,7 +3432,7 @@
     "i": "restless legs syndrome",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -3443,7 +3443,7 @@
     "i": "Ohdo syndrome and variants",
     "lt": 6,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -3454,8 +3454,8 @@
     "i": "Polimicrogiria parieto-occipital parasagital bilateral",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3465,8 +3465,8 @@
     "i": "Enfermedad infecciosa ectotrix",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3476,7 +3476,7 @@
     "i": "Hipertricosis universal congénita tipo Ambras",
     "lt": 7,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registro vigente en Colombia\"",
     "x": 0
    },
@@ -3487,7 +3487,7 @@
     "i": "bacterial arthritis",
     "lt": 7,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"los registros sanitarios locales están cancelados y\"",
     "x": 0
    },
@@ -3498,7 +3498,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 5,
     "lv": 5,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que no hay registros vigentes\"",
     "x": 0
    },
@@ -3509,7 +3509,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 6,
     "lv": 5,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"todas actualmente canceladas\"",
     "x": 0
    },
@@ -3531,7 +3531,7 @@
     "i": "obsolete bundle branch block",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Evaluar la situación regulatoria: confirmar por qué los registros fueron cancelados y si existe…",
     "x": 0
    },
@@ -3542,8 +3542,8 @@
     "i": "fiebre paratifoidea",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3553,7 +3553,7 @@
     "i": "primary hereditary glaucoma",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
     "x": 0
    },
@@ -3564,7 +3564,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes (renovar o tramitar un nuevo registro)\"",
     "x": 0
    },
@@ -3575,8 +3575,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 6,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3597,8 +3597,8 @@
     "i": "Adenocarcinoma mucinoso del recto",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3608,8 +3608,8 @@
     "i": "Osteoartritis",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3619,8 +3619,8 @@
     "i": "Enfermedad infecciosa ectotrix",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3641,7 +3641,7 @@
     "i": "upper aerodigestive tract neoplasm",
     "lt": 6,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 6 → 4",
     "x": 0
    },
@@ -3652,7 +3652,7 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
     "x": 0
    },
@@ -3674,7 +3674,7 @@
     "i": "alopecia",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 4",
     "x": 0
    },
@@ -3685,8 +3685,8 @@
     "i": "enfermedad de la cavidad nasal",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3707,8 +3707,8 @@
     "i": "carcinoma adenomatoso fetal bien diferenciado del pulmón",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3729,8 +3729,8 @@
     "i": "Displasia acromesomélica tipo Hunter-Thompson",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3740,8 +3740,8 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 5,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3773,8 +3773,8 @@
     "i": "esclerodermia difusa",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3784,7 +3784,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, ya no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -3795,7 +3795,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 6,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que no hay productos vigentes en Colombia\"",
     "x": 0
    },
@@ -3806,8 +3806,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 5,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3817,7 +3817,7 @@
     "i": "primary release disorder of platelets",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad…",
     "x": 0
    },
@@ -3828,7 +3828,7 @@
     "i": "pleural empyema (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -3839,7 +3839,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 5,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -3850,7 +3850,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 3 → 4",
     "x": 0
    },
@@ -3861,7 +3861,7 @@
     "i": "distal myopathy, Tateyama type",
     "lt": 4,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que…",
     "x": 0
    },
@@ -3883,7 +3883,7 @@
     "i": "duodenal ulcer (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -3894,7 +3894,7 @@
     "i": "cauda equina syndrome",
     "lt": 5,
     "lv": 4,
-    "r": 2,
+    "r": 3,
     "rs": "Número de registros vigentes: 3 → 4",
     "x": 0
    },
@@ -3905,7 +3905,7 @@
     "i": "primary release disorder of platelets",
     "lt": 4,
     "lv": 4,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, los cuatro registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -3916,7 +3916,7 @@
     "i": "obsolete bundle branch block",
     "lt": 4,
     "lv": 4,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el único registro identificado está cancelado\"",
     "x": 0
    },
@@ -3938,8 +3938,8 @@
     "i": "hiperamilasemia",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3949,7 +3949,7 @@
     "i": "fibromatosis, gingival",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, los registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -3960,7 +3960,7 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia y\"",
     "x": 0
    },
@@ -3982,7 +3982,7 @@
     "i": "amenorrhea (disease)",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: los dos registros están cancelados, por lo que sería necesaria…",
     "x": 0
    },
@@ -3993,7 +3993,7 @@
     "i": "cyclic hematopoiesis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, los tres registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -4048,8 +4048,8 @@
     "i": "Vasculitis postinfecciosa",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4059,8 +4059,8 @@
     "i": "Hurler syndrome",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4070,7 +4070,7 @@
     "i": "acute urate nephropathy",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -4092,7 +4092,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 4,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Número de registros vigentes: 2 → 3",
     "x": 0
    },
@@ -4103,7 +4103,7 @@
     "i": "alopecia",
     "lt": 3,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que los dos registros están cancelados\"",
     "x": 0
    },
@@ -4114,7 +4114,7 @@
     "i": "alopecia",
     "lt": 4,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, actualmente no hay ningún registro sanitario vigente en Colombia\"",
     "x": 0
    },
@@ -4136,7 +4136,7 @@
     "i": "ectomesenchymoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, los tres registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -4147,8 +4147,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4169,7 +4169,7 @@
     "i": "papillary conjunctivitis",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"dado que no hay registros vigentes ni una vía de administración ocular compatible\"",
     "x": 0
    },
@@ -4180,7 +4180,7 @@
     "i": "manic bipolar affective disorder",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado, y\"",
     "x": 0
    },
@@ -4202,7 +4202,7 @@
     "i": "brain small vessel disease 1 with or without ocular anomalies",
     "lt": 3,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -4224,7 +4224,7 @@
     "i": "brachydactyly-syndactyly syndrome",
     "lt": 4,
     "lv": 3,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados, por lo que habría que evaluar…",
     "x": 0
    },
@@ -4235,7 +4235,7 @@
     "i": "mammary Paget disease",
     "lt": 4,
     "lv": 3,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que los tres registros están cancelados\"",
     "x": 0
    },
@@ -4246,8 +4246,8 @@
     "i": "Vulvovaginitis tricomonásica",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4257,7 +4257,7 @@
     "i": "Nódulos reumatoides",
     "lt": 3,
     "lv": 3,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"no hay registros vigentes en Colombia, y\"",
     "x": 0
    },
@@ -4268,8 +4268,8 @@
     "i": "Hipertricosis",
     "lt": 4,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4279,7 +4279,7 @@
     "i": "esotropia",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®)\"",
     "x": 0
    },
@@ -4290,7 +4290,7 @@
     "i": "ichthyosis, X-linked, without steroid sulfatase deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -4312,7 +4312,7 @@
     "i": "angioedema adquirido",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Número de registros sanitarios: 1 → 2",
     "x": 0
    },
@@ -4345,8 +4345,8 @@
     "i": "neoplasia de la cauda equina",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4356,7 +4356,7 @@
     "i": "obsolete vitamin D deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay productos vigentes\"",
     "x": 0
    },
@@ -4367,8 +4367,8 @@
     "i": "hiperamilasemia",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4378,7 +4378,7 @@
     "i": "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia, y\"",
     "x": 0
    },
@@ -4400,8 +4400,8 @@
     "i": "Rabdomiosarcoma embrionario parameníngeo",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4411,8 +4411,8 @@
     "i": "síndrome de inmunodeficiencia adquirida felina",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4422,7 +4422,7 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -4433,8 +4433,8 @@
     "i": "cauda equina syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4444,7 +4444,7 @@
     "i": "sclerosing cholangitis",
     "lt": 3,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -4477,8 +4477,8 @@
     "i": "citopenia refractaria de la infancia",
     "lt": 3,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4488,7 +4488,7 @@
     "i": "severe nonproliferative diabetic retinopathy",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -4499,7 +4499,7 @@
     "i": "congenital prothrombin deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -4521,8 +4521,8 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4532,8 +4532,8 @@
     "i": "Síndrome de inmunodeficiencia adquirida felina",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4554,7 +4554,7 @@
     "i": "rosacea conjunctivitis",
     "lt": 3,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva…",
     "x": 0
    },
@@ -4565,7 +4565,7 @@
     "i": "primary release disorder of platelets",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -4598,7 +4598,7 @@
     "i": "Prinzmetal angina",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el producto no tiene registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -4620,7 +4620,7 @@
     "i": "fibromatosis, gingival",
     "lt": 4,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"no hay registros sanitarios vigentes en Colombia y\"",
     "x": 0
    },
@@ -4631,8 +4631,8 @@
     "i": "Hipermovilidad del coxis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4642,8 +4642,8 @@
     "i": "faringitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4664,8 +4664,8 @@
     "i": "Síndrome de disfunción sensible a la tiamina",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4686,7 +4686,7 @@
     "i": "Ewing sarcoma",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados, y\"",
     "x": 0
    },
@@ -4708,7 +4708,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, no hay registro vigente en Colombia\"",
     "x": 0
    },
@@ -4719,7 +4719,7 @@
     "i": "Osteoartritis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que los registros están cancelados\"",
     "x": 0
    },
@@ -4730,7 +4730,7 @@
     "i": "Hiperamilasemia",
     "lt": 3,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -4741,7 +4741,7 @@
     "i": "pulmonary hypertension owing to lung disease and/or hypoxia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el producto no tiene registros vigentes en Colombia y\"",
     "x": 0
    },
@@ -4752,7 +4752,7 @@
     "i": "pseudoachondroplasia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"El carbonato de litio contaba en Colombia con registros sanitarios para su uso como litio (la…",
     "x": 0
    },
@@ -4763,7 +4763,7 @@
     "i": "fibromatosis, gingival",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, los registros sanitarios en Colombia están cancelados, lo que limita la viabilidad local\"",
     "x": 0
    },
@@ -4774,7 +4774,7 @@
     "i": "multiple endocrine neoplasia",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que los registros están cancelados\"",
     "x": 0
    },
@@ -4785,7 +4785,7 @@
     "i": "acne (disease)",
     "lt": 2,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
@@ -4796,7 +4796,7 @@
     "i": "Urticaria alérgica",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -4807,7 +4807,7 @@
     "i": "gastroduodenitis",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
@@ -4840,8 +4840,8 @@
     "i": "Enfermedad infecciosa por Echinococcus granulosus",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4851,8 +4851,8 @@
     "i": "insomnio",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4862,8 +4862,8 @@
     "i": "Síndrome de dolor miofascial",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4884,7 +4884,7 @@
     "i": "congenital analbuminemia",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"el fármaco no tiene registros vigentes en Colombia y\"",
     "x": 0
    },
@@ -4895,7 +4895,7 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 2,
     "lv": 2,
-    "r": 5,
+    "r": 6,
     "rs": "Número de registros sanitarios: 1 → 2",
     "x": 0
    },
@@ -4906,8 +4906,8 @@
     "i": "bronquitis",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4917,7 +4917,7 @@
     "i": "tipo Hunter-Thompson",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el fármaco no tiene registros vigentes en Colombia\"",
     "x": 0
    },
@@ -4928,7 +4928,7 @@
     "i": "benign neoplasm of tongue",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el fármaco no tiene registros vigentes en Colombia\"",
     "x": 0
    },
@@ -4939,7 +4939,7 @@
     "i": "Trastorno de migraña",
     "lt": 3,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado, y\"",
     "x": 0
    },
@@ -4950,7 +4950,7 @@
     "i": "duodenal obstruction",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Confirmar la situación regulatoria en Colombia: no hay registro vigente, por lo que habría que…",
     "x": 0
    },
@@ -4961,7 +4961,7 @@
     "i": "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Verificar la situación regulatoria: ambos registros están cancelados, por lo que habría que…",
     "x": 0
    },
@@ -4972,7 +4972,7 @@
     "i": "pneumocystosis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el fármaco no tiene registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -4994,7 +4994,7 @@
     "i": "vulvar inverted follicular keratosis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -5005,8 +5005,8 @@
     "i": "Perforación de úlcera péptica",
     "lt": 3,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5027,7 +5027,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -5038,7 +5038,7 @@
     "i": "attention deficit-hyperactivity disorder",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay producto vigente en el mercado colombiano\"",
     "x": 0
    },
@@ -5071,7 +5071,7 @@
     "i": "seborrheic dermatitis",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el producto no tiene registros vigentes en Colombia y\"",
     "x": 0
    },
@@ -5082,7 +5082,7 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -5093,7 +5093,7 @@
     "i": "polycystic kidney disease 3 with or without polycystic liver disease",
     "lt": 2,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
     "x": 0
    },
@@ -5104,7 +5104,7 @@
     "i": "visceral calciphylaxis",
     "lt": 4,
     "lv": 2,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Revisar la situación regulatoria: los cuatro registros están cancelados\"",
     "x": 0
    },
@@ -5126,7 +5126,7 @@
     "i": "congenital prothrombin deficiency",
     "lt": 2,
     "lv": 2,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
@@ -5137,8 +5137,8 @@
     "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 3,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5148,7 +5148,7 @@
     "i": "feline acquired immunodeficiency syndrome",
     "lt": 4,
     "lv": 2,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y estado de mercado cancelado\"",
     "x": 0
    },
@@ -5159,7 +5159,7 @@
     "i": "exercise-induced malignant hyperthermia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5170,7 +5170,7 @@
     "i": "Trastorno post-bacteriano",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5181,7 +5181,7 @@
     "i": "benign paroxysmal torticollis of infancy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5192,7 +5192,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el producto no tiene registro vigente en Colombia\"",
     "x": 0
    },
@@ -5203,7 +5203,7 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"ya que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -5214,7 +5214,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"El único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5225,7 +5225,7 @@
     "i": "Rasmussen subacute encephalitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -5236,8 +5236,8 @@
     "i": "Trastorno de migraña",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5258,8 +5258,8 @@
     "i": "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5269,7 +5269,7 @@
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el producto no tiene registro sanitario vigente en Colombia\"",
     "x": 0
    },
@@ -5280,8 +5280,8 @@
     "i": "uterine ligament adenocarcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5291,8 +5291,8 @@
     "i": "Tumor relacionado con el herpesvirus humano 8",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5313,7 +5313,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -5324,7 +5324,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5335,7 +5335,7 @@
     "i": "thrombocytopenia due to immune destruction",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5346,7 +5346,7 @@
     "i": "benign prostatic hyperplasia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y su único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5368,7 +5368,7 @@
     "i": "migraine disorder",
     "lt": 2,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
     "x": 0
    },
@@ -5379,7 +5379,7 @@
     "i": "liposarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -5390,7 +5390,7 @@
     "i": "hepatic infarction",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -5401,8 +5401,8 @@
     "i": "trastorno primario de liberación plaquetaria",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5412,7 +5412,7 @@
     "i": "isotretinoin-like syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
@@ -5423,7 +5423,7 @@
     "i": "hypertrichosis (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el producto está cancelado\"",
     "x": 0
    },
@@ -5445,8 +5445,8 @@
     "i": "ALK-positive large B-cell lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5456,8 +5456,8 @@
     "i": "Esclerodermia difusa",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5467,7 +5467,7 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5478,8 +5478,8 @@
     "i": "46,XY disorder of sex development due to testicular steroidogenesis defect",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5500,8 +5500,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5511,8 +5511,8 @@
     "i": "Esclerosis múltiple remitente-recurrente",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5522,8 +5522,8 @@
     "i": "amenorrea",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5555,7 +5555,7 @@
     "i": "Plummer-Vinson syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Considerar que el fármaco no tiene registros vigentes en Colombia, lo que implicaría un nuevo…",
     "x": 0
    },
@@ -5566,7 +5566,7 @@
     "i": "variably protease-sensitive prionopathy",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5577,8 +5577,8 @@
     "i": "uterine ligament adenocarcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5588,7 +5588,7 @@
     "i": "leprosy",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Revisar el estado del registro sanitario cancelado, o considerar otras indicaciones predichas con…",
     "x": 0
    },
@@ -5610,8 +5610,8 @@
     "i": "Displasia acromesomélica tipo Campailla-Martinelli",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5621,7 +5621,7 @@
     "i": "autosomal recessive familial Mediterranean fever",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y además el producto no tiene registro vigente en Colombia\"",
     "x": 0
    },
@@ -5654,7 +5654,7 @@
     "i": "opsismodysplasia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5665,7 +5665,7 @@
     "i": "symptomatic form of hemophilia in female carriers",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5698,7 +5698,7 @@
     "i": "bone Paget disease",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura…",
     "x": 0
    },
@@ -5731,7 +5731,7 @@
     "i": "Deficiencia del cofactor 2 de la heparina",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5742,7 +5742,7 @@
     "i": "bulbar polio",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5764,8 +5764,8 @@
     "i": "Síndrome del intestino irritable",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5797,8 +5797,8 @@
     "i": "conjuntivitis por rosácea",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5808,7 +5808,7 @@
     "i": "pre-malignant neoplasm",
     "lt": 2,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"ya que los registros actuales están cancelados\"",
     "x": 0
    },
@@ -5819,7 +5819,7 @@
     "i": "Deficiencia de potasio",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5863,7 +5863,7 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"ya que el registro 19910693 figura como cancelado (consultar el sitio web de INVIMA)\"",
     "x": 0
    },
@@ -5874,7 +5874,7 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5885,7 +5885,7 @@
     "i": "autoimmune oophoritis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
@@ -5896,7 +5896,7 @@
     "i": "Leucemia de células pilosas",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -5907,8 +5907,8 @@
     "i": "Osteoartritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5918,7 +5918,7 @@
     "i": "insomnia (disease)",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"No hay registros vigentes\"",
     "x": 0
    },
@@ -5929,8 +5929,8 @@
     "i": "osteoarthritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5951,8 +5951,8 @@
     "i": "alopecia",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -5984,7 +5984,7 @@
     "i": "Síndrome de Sanfilippo",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"Situación regulatoria vigente en Colombia (registro cancelado)\"",
     "x": 0
    },
@@ -5995,7 +5995,7 @@
     "i": "vulvovaginal candidiasis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6017,7 +6017,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -6028,7 +6028,7 @@
     "i": "monosomy X",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Mecasermina (IGF-1 recombinante) se comercializó en Colombia bajo la marca Increlex®, con un…",
     "x": 0
    },
@@ -6039,7 +6039,7 @@
     "i": "hereditary breast ovarian cancer syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que…",
     "x": 0
    },
@@ -6050,7 +6050,7 @@
     "i": "Tourette syndrome",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"Evaluar alternativas con mejor perfil de seguridad y disponibilidad, dado el estado cancelado del…",
     "x": 0
    },
@@ -6072,7 +6072,7 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"En Colombia contó con un registro sanitario en cápsulas de 100 mg, pero\"",
     "x": 0
    },
@@ -6083,7 +6083,7 @@
     "i": "upper aerodigestive tract neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
@@ -6127,7 +6127,7 @@
     "i": "epiglottis neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -6138,7 +6138,7 @@
     "i": "HER2 positive breast carcinoma",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
@@ -6149,7 +6149,7 @@
     "i": "Osteoporosis inducida por fármacos",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6182,7 +6182,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6215,7 +6215,7 @@
     "i": "fibromatosis, gingival",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6226,7 +6226,7 @@
     "i": "pleural adenomatoid tumor",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no hay registro vigente\"",
     "x": 0
    },
@@ -6237,7 +6237,7 @@
     "i": "pulmonary hypertension",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación del registro cancelado (EFFIENT® 10 MG) y la disponibilidad real del fármaco…",
     "x": 0
    },
@@ -6248,7 +6248,7 @@
     "i": "Miasis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
@@ -6259,7 +6259,7 @@
     "i": "trigeminal nerve neoplasm",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso…",
     "x": 0
    },
@@ -6270,7 +6270,7 @@
     "i": "hypoalphalipoproteinemia",
     "lt": 2,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el registro de Resolor® está cancelado\"",
     "x": 0
    },
@@ -6292,7 +6292,7 @@
     "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 1,
     "lv": 1,
-    "r": 4,
+    "r": 5,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -6314,7 +6314,7 @@
     "i": "tetanic cataract",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
     "x": 0
    },
@@ -6325,7 +6325,7 @@
     "i": "hypouricemia, renal",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -6336,7 +6336,7 @@
     "i": "autosomal recessive severe congenital neutropenia due to G6PC3 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la indicación aprobada original y la situación regulatoria del registro cancelado\"",
     "x": 0
    },
@@ -6347,7 +6347,7 @@
     "i": "hyperamylasemia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6358,8 +6358,8 @@
     "i": "Infección por VIH",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -6369,7 +6369,7 @@
     "i": "atrophoderma vermiculata",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6391,7 +6391,7 @@
     "i": "primary release disorder of platelets",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: el registro está cancelado, por lo que se requeriría un nuevo…",
     "x": 0
    },
@@ -6402,7 +6402,7 @@
     "i": "perioral myoclonia with absences",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6413,7 +6413,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6435,7 +6435,7 @@
     "i": "postinfectious vasculitis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que no existe registro vigente\"",
     "x": 0
    },
@@ -6446,7 +6446,7 @@
     "i": "pneumocystosis",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Evaluar la viabilidad comercial dado el registro cancelado y la ausencia de ventaja sobre el…",
     "x": 0
    },
@@ -6457,7 +6457,7 @@
     "i": "thrombotic disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"(cuyo registro está cancelado)\"",
     "x": 0
    },
@@ -6468,7 +6468,7 @@
     "i": "congenital coronary artery anomaly",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6479,7 +6479,7 @@
     "i": "monosomy X",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"El único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6490,7 +6490,7 @@
     "i": "acrodermatitis chronica atrophicans",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -6501,8 +6501,8 @@
     "i": "thrombotic disease",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -6545,7 +6545,7 @@
     "i": "Carcinoma de mama femenino",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -6567,7 +6567,7 @@
     "i": "malignant hypertensive renal disease",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"y fue comercializado en Colombia en combinación con un bloqueador de canales de calcio\"",
     "x": 0
    },
@@ -6578,7 +6578,7 @@
     "i": "drug-induced osteoporosis",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Aclarar la situación regulatoria del registro cancelado y la indicación aprobada real\"",
     "x": 0
    },
@@ -6589,7 +6589,7 @@
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 2,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"Además, el producto no tiene registros vigentes en Colombia\"",
     "x": 0
    },
@@ -6600,7 +6600,7 @@
     "i": "Hodgkins lymphoma",
     "lt": 1,
     "lv": 1,
-    "r": 1,
+    "r": 2,
     "rs": "Eliminado: \"el registro está cancelado y\"",
     "x": 0
    },
@@ -6611,7 +6611,7 @@
     "i": "hyperlucent lung",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6622,7 +6622,7 @@
     "i": "medulloblastoma with extensive nodularity",
     "lt": 1,
     "lv": 1,
-    "r": 3,
+    "r": 4,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
     "x": 0
    },
@@ -6633,7 +6633,7 @@
     "i": "heparin cofactor 2 deficiency",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
     "x": 0
    },
@@ -6644,7 +6644,7 @@
     "i": "myeloid leukemia",
     "lt": 1,
     "lv": 1,
-    "r": 2,
+    "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
@@ -6699,8 +6699,8 @@
     "i": "Mastocitosis sistémica indolente",
     "lt": 1,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {

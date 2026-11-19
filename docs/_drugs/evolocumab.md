@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **forma sintomática de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción dentro de los datos compilados para este reporte. Según la información farmacológica conocida, evolocumab es un anticuerpo monoclonal dirigido contra la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9). Al bloquearla, preserva los receptores hepáticos de LDL y reduce el colesterol LDL.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Evolocumab (traducción no oficial): «El evolocumab es una IgG2 monoclonal humana dirigida contra la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9) humana. La PCSK9 se une al receptor de lipoproteínas de baja densidad (LDLR) en la superficie de los hepatocitos para promover la degradación del LDLR en el hígado.» Texto original en inglés: "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), versión del 2026-10-12; consultado el 2026-11-19). Según la información farmacológica conocida, evolocumab es un anticuerpo monoclonal dirigido contra la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9). Al bloquearla, preserva los receptores hepáticos de LDL y reduce el colesterol LDL.
 
 La relación con la nueva indicación es débil. La hemofilia en mujeres portadoras es un trastorno ligado al cromosoma X causado por deficiencia de factor VIII o IX, y no tiene un vínculo mecanístico plausible con la inhibición de PCSK9. El alto puntaje de TxGNN (0.9982) parece ser un artefacto del modelo TxGNN (aprendizaje profundo), sin sustento biológico.
 
@@ -140,13 +140,14 @@ Las seis indicaciones predichas carecen de ensayos clínicos y de literatura (ni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Confirmar la situación de comercialización en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro sanitario (fabricante: Amgen Manufacturing Limited LLC) está cancelado, por lo que actualmente no hay producto vigente en " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
 
 <!-- review:end log -->
 

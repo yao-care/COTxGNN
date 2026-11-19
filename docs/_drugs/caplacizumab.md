@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que estudien dire
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, caplacizumab es un nanocuerpo que se une al dominio A1 del vWF e impide su unión a la glicoproteína Ib (GPIb) plaquetaria, bloqueando así la adhesión plaquetaria mediada por vWF.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Caplacizumab (traducción no oficial): «Caplacizumab-yhdp se dirige al dominio A1 del vWF e inhibe la interacción entre el vWF y las plaquetas, con lo que reduce tanto la adhesión plaquetaria mediada por el vWF como el consumo de plaquetas.» Texto original en inglés: "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), versión del 2026-04-24; consultado el 2026-11-19). Según la información conocida, caplacizumab es un nanocuerpo que se une al dominio A1 del vWF e impide su unión a la glicoproteína Ib (GPIb) plaquetaria, bloqueando así la adhesión plaquetaria mediada por vWF.
 
 Los trastornos de liberación plaquetaria son defectos intrínsecos de los gránulos o de la secreción plaquetaria, que no dependen principalmente del dominio A1 del vWF. Por ello, el vínculo mecanístico es débil: la predicción proviene únicamente del modelo (puntaje 1,0000 con cuatro decimales, 0,9999983 en el valor original) y no tiene respaldo experimental o clínico.
 
@@ -94,6 +94,19 @@ La predicción carece de ensayos clínicos y de literatura que estudien esta enf
 - Estudios preclínicos que evalúen el efecto del bloqueo vWF-GPIb en modelos de disfunción plaquetaria
 - Revisión del prospecto del INVIMA (advertencias y contraindicaciones) para evaluar la seguridad
 - Evaluación del riesgo hemorrágico antes de considerar cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

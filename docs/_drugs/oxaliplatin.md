@@ -58,7 +58,7 @@ Oxaliplatino es un agente citotóxico derivado del platino, registrado en Colomb
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos de fármacos. Según la información conocida, oxaliplatino es un derivado del platino de tercera generación que forma aductos en el ADN, bloquea la replicación y la transcripción, e induce apoptosis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxaliplatin (traducción no oficial): «La oxaliplatino experimenta una conversión no enzimática en soluciones fisiológicas a derivados activos mediante el desplazamiento del ligando oxalato lábil. Se forman varias especies reactivas transitorias, entre ellas el monoacuo y el diacuo DACH platino, que se unen covalentemente a macromoléculas.» Texto original en inglés: "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, oxaliplatino es un derivado del platino de tercera generación que forma aductos en el ADN, bloquea la replicación y la transcripción, e induce apoptosis.
 
 Pertenece a la misma clase citotóxica que cisplatino y carboplatino, que son la base de la quimioterapia del mesotelioma. Por ello, la similitud mecanística con la indicación predicha es sólida.
 
@@ -157,12 +157,13 @@ Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente en Colombia, por lo que se requeriría un nuevo registro o una vía de importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

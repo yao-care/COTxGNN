@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser útil para el **trastorno de migraña (m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la aminofilina es una metilxantina que bloquea los receptores de adenosina e inhibe la fosfodiesterasa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aminofilina (traducción no oficial): «La teofilina tiene dos acciones distintas en las vías respiratorias de los pacientes con obstrucción reversible: la relajación del músculo liso (es decir, broncodilatación) y la supresión de la respuesta de las vías respiratorias a los estímulos (es decir, efectos profilácticos no broncodilatadores).» Texto original en inglés: "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), versión del 2026-05-26; consultado el 2026-11-19). Según la información conocida, la aminofilina es una metilxantina que bloquea los receptores de adenosina e inhibe la fosfodiesterasa.
 
 La señalización de adenosina participa en la activación trigeminovascular y en la vasodilatación cerebral, por lo que antagonizarla es mecanísticamente plausible en cefalea y migraña. Una revisión de 2023 (PMID 38059379) plantea que la migraña podría estar asociada a un metabolismo energético cerebral alterado con niveles elevados de adenosina, y que la aminofilina podría aliviar el dolor, en especial la cefalea pospunción dural. Un reporte de caso describe además un episodio de migraña hemipléjica desencadenado por regadenosón, un agonista de adenosina, lo que respalda el mecanismo de forma indirecta.
 
@@ -98,6 +98,19 @@ Ningún estudio citado evalúa directamente la aminofilina como tratamiento de l
 - Estudios clínicos controlados (por ejemplo, fase 2) en migraña o cefalea
 - Evaluación de la vía de administración (solución inyectable) frente a las necesidades de la migraña
 - Revisión de seguridad, incluidos riesgos cardiovasculares y de interacción con otros fármacos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

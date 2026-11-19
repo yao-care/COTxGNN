@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, meloxicam es un AINE con preferencia por la inhibición de COX-2, que reduce la inflamación y el dolor mediada por prostaglandinas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Meloxicam (traducción no oficial): «El meloxicam tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción de Zybic™, al igual que el de otros AINE, no se conoce por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), versión del 2026-09-25; consultado el 2026-11-19). Según la información conocida, meloxicam es un AINE con preferencia por la inhibición de COX-2, que reduce la inflamación y el dolor mediada por prostaglandinas.
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético genético raro, causado por mutaciones en CDMP1/GDF5, que afecta el crecimiento óseo. No se identifica un vínculo mecanístico plausible entre la inhibición de COX y los defectos de la señalización de GDF5. El puntaje alto del modelo parece reflejar cercanía en la red de conocimiento y no una justificación biológica.
 
@@ -138,12 +138,13 @@ La predicción principal no cuenta con ensayos clínicos ni literatura, carece d
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 3 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

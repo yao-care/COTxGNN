@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **alopecia**, pero actualm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La milrinona inhibe principalmente la PDE3 (isoformas 3A y 3B), con interacción registrada también con PDE2A y PDE5A. Al inhibir la PDE3 aumenta el AMPc en el músculo cardiaco y en el músculo liso vascular, lo que produce efecto inotrópico positivo y vasodilatación (efecto "inodilatador"). No se dispone de una descripción detallada del mecanismo de acción original en los datos compilados, por lo que este análisis se basa en sus dianas farmacológicas conocidas.
+La milrinona inhibe principalmente la PDE3 (isoformas 3A y 3B), con interacción registrada también con PDE2A y PDE5A. Al inhibir la PDE3 aumenta el AMPc en el músculo cardiaco y en el músculo liso vascular, lo que produce efecto inotrópico positivo y vasodilatación (efecto "inodilatador"). Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Milrinone (traducción no oficial): «La milrinona es un inotrópico positivo y vasodilatador, con escasa actividad cronotrópica, de estructura y modo de acción diferentes de los de los glucósidos digitálicos o de las catecolaminas.» Texto original en inglés: "Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines." ([DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964), versión del 2021-08-25; consultado el 2026-11-19).
 
 La relación entre la indicación original y la alopecia es indirecta. Una hipótesis teórica es que la vasodilatación podría aumentar la perfusión del cuero cabelludo, de forma conceptualmente similar al minoxidil. Sin embargo, esta hipótesis no cuenta con ningún estudio que la respalde, y el puntaje alto del modelo no equivale a evidencia clínica.
 
@@ -129,12 +129,13 @@ La predicción para alopecia es solo computacional (nivel L5): no hay ensayos cl
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; actualmente no hay presentaciones vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, actualmente no hay ningún registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
 
 <!-- review:end log -->
 

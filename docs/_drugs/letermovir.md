@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según el conocimiento farmacológico general, letermovir es un antiviral específico contra el CMV que inhibe el complejo terminasa viral (subunidades pUL56/pUL51/pUL89), bloqueando el corte y empaquetamiento del ADN viral.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Letermovir (traducción no oficial): «PREVYMIS es un fármaco antiviral contra el CMV. […] El letermovir inhibe el complejo de la terminasa del ADN del CMV (pUL51, pUL56 y pUL89), que es necesario para el procesamiento y el empaquetamiento del ADN viral. La caracterización bioquímica y la microscopía electrónica demostraron que el letermovir afecta la producción de genomas de longitud unitaria adecuada e interfiere con la maduración de los viriones.» Texto original en inglés: "PREVYMIS is an antiviral drug against CMV. […] Letermovir inhibits the CMV DNA terminase complex (pUL51, pUL56, and pUL89) which is required for viral DNA processing and packaging. Biochemical characterization and electron microscopy demonstrated that letermovir affects the production of proper unit length genomes and interferes with virion maturation." ([DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b), versión del 2026-01-14; consultado el 2026-11-19). Según el conocimiento farmacológico general, letermovir es un antiviral específico contra el CMV que inhibe el complejo terminasa viral (subunidades pUL56/pUL51/pUL89), bloqueando el corte y empaquetamiento del ADN viral.
 
 La candidiasis vulvovaginal es una infección fúngica. Los hongos del género *Candida* no tienen un blanco equivalente al complejo terminasa del CMV, por lo que no se esperaría actividad antifúngica. **No se identifica un vínculo mecanístico creíble** entre la indicación original y la nueva.
 
@@ -133,12 +133,13 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Dado que el único registro está cancelado, actualmente no hay presentación vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prevymis (letermovir) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1b49df80-be4f-47e0-a0b7-123f3e69395b) |
 
 <!-- review:end log -->
 

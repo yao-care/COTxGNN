@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Clonazepam es un modulador alostérico positivo del receptor GABA-A. En el síndrome de piernas inquietas (SPI) se considera que reduce la molestia sensorial y la fragmentación del sueño mediante efectos inhibitorios y sedantes centrales, y que disminuye los movimientos periódicos de las piernas durante el sueño. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada, por lo que esta explicación se basa en el conocimiento farmacológico general.
+Clonazepam es un modulador alostérico positivo del receptor GABA-A. En el síndrome de piernas inquietas (SPI) se considera que reduce la molestia sensorial y la fragmentación del sueño mediante efectos inhibitorios y sedantes centrales, y que disminuye los movimientos periódicos de las piernas durante el sueño. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonazepam (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el clonazepam ejerce sus efectos anticonvulsivos y antipánico, aunque se cree que está relacionado con su capacidad para potenciar la actividad del ácido gamma-aminobutírico (GABA), el principal neurotransmisor inhibidor del sistema nervioso central.» Texto original en inglés: "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), versión del 2025-12-01; consultado el 2026-11-19).
 
 La relación con la indicación original es indirecta, ya que el registro colombiano no detalla la indicación aprobada. El vínculo mecanístico es sintomático y no modificador de la enfermedad: clonazepam no actúa sobre las vías dopaminérgicas ni del hierro, que son centrales en la fisiopatología del SPI.
 
@@ -147,12 +147,13 @@ Aunque el puntaje del modelo es alto y existe literatura directa (revisión Coch
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la indicación aprobada original y la situación regulatoria (registros cancelados) en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "en Colombia ambos registros sanitarios están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
 
 <!-- review:end log -->
 

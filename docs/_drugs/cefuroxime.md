@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, cefuroxima es un antibiótico betalactámico que actúa contra bacterias inhibiendo la síntesis de su pared celular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cefuroxime (traducción no oficial): «La cefuroxima es un agente bactericida que actúa mediante la inhibición de la síntesis de la pared celular bacteriana. La cefuroxima tiene actividad en presencia de algunas betalactamasas, tanto penicilinasas como cefalosporinasas, de bacterias gramnegativas y grampositivas.» Texto original en inglés: "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), versión del 2025-03-27; consultado el 2026-11-19). Según la información conocida, cefuroxima es un antibiótico betalactámico que actúa contra bacterias inhibiendo la síntesis de su pared celular.
 
 La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre) y no una infección, por lo que no existe un blanco antibacteriano que la relacione con el fármaco. No se identificó un vínculo mecanístico plausible.
 
@@ -95,6 +95,19 @@ No existen ensayos clínicos ni publicaciones que estudien la hiperamilasemia co
 - Evidencia directa (preclínica o clínica) que vincule cefuroxima con la hiperamilasemia
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Revisión de la plausibilidad biológica antes de cualquier inversión adicional
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

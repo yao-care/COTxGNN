@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el docusato es un tensioactivo aniónico que permite que el agua y las grasas penetren en las heces, y su uso establecido es como ablandador fecal. No existe evidencia en los datos compilados de que este mecanismo sea aplicable al síndrome de Plummer-Vinson.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Docusate es (traducción no oficial): «Laxante surfactante» Texto original en inglés: "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el docusato es un tensioactivo aniónico que permite que el agua y las grasas penetren en las heces, y su uso establecido es como ablandador fecal. No existe evidencia en los datos compilados de que este mecanismo sea aplicable al síndrome de Plummer-Vinson.
 
 El síndrome de Plummer-Vinson se caracteriza por anemia ferropénica, membranas esofágicas y disfagia, y se trata con reposición de hierro y dilatación esofágica. El docusato no tiene un papel conocido en la absorción de hierro ni en la fisiopatología de las membranas esofágicas. La relación entre la indicación original (estreñimiento) y la nueva indicación es, por tanto, muy débil.
 
@@ -114,12 +114,13 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y con el único registro sanitario colombiano cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Considerar que el fármaco no tiene registros vigentes en Colombia, lo que implicaría un nuevo trámite regulatorio" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

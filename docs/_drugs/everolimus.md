@@ -56,7 +56,7 @@ con **1 ensayo clínico** de Fase 2 en combinación con ribociclib y **4 publica
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, everolimus inhibe mTORC1, una vía situada aguas abajo de la señalización PI3K/AKT que regula la proliferación celular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Everolimus (traducción no oficial): «El everolimus inhibe la activación y la proliferación de los linfocitos T y B estimuladas por antígenos y por interleucinas (IL-2 e IL-15). En las células, el everolimus se une a una proteína citoplasmática, la proteína de unión a FK506-12 (FKBP-12), para formar un complejo inmunosupresor (everolimus: FKBP-12) que se une a la diana de la rapamicina en mamíferos (mTOR), una cinasa reguladora clave, y la inhibe.» Texto original en inglés: "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), versión del 2026-09-16; consultado el 2026-11-19). Por conocimiento general, everolimus inhibe mTORC1, una vía situada aguas abajo de la señalización PI3K/AKT que regula la proliferación celular.
 
 En el liposarcoma desdiferenciado, los tumores suelen presentar amplificación de CDK4/MDM2. Combinar un inhibidor de CDK4/6 (ribociclib) con un inhibidor de mTOR (everolimus) apunta a dos vías proliferativas complementarias, y en modelos tumorales se ha descrito inhibición sinérgica del crecimiento con esta combinación.
 
@@ -114,6 +114,19 @@ La predicción tiene un puntaje TxGNN muy alto, pero la evidencia clínica se li
 - Datos del mecanismo de acción confirmados desde fuentes farmacológicas.
 - Advertencias y contraindicaciones del prospecto aprobado en Colombia.
 - Plan de monitoreo de seguridad hematológica, metabólica y pulmonar.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

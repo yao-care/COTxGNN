@@ -66,7 +66,7 @@ La evidencia es débil y se considera una pregunta de investigación.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la cisteína es un aminoácido con grupo tiol y precursor del glutatión, y en Colombia se registró como parte de una emulsión de nutrición parenteral. Su uso aprobado no guarda relación directa con enfermedades oculares.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cysteine (traducción no oficial): «La cisteína endógena se sintetiza a partir de la metionina por acción de la enzima cistationasa, a través de la vía de transulfuración, y actúa como sustrato precursor tanto del glutatión como de la taurina. ELCYS ® aporta cisteína a la circulación sistémica de los pacientes que requieren NP y que no pueden sintetizar cantidades adecuadas de cisteína debido a una actividad de la cistationasa insuficiente o deficiente.» Texto original en inglés: "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), versión del 2026-04-09; consultado el 2026-11-19). Según la información conocida, la cisteína es un aminoácido con grupo tiol y precursor del glutatión, y en Colombia se registró como parte de una emulsión de nutrición parenteral. Su uso aprobado no guarda relación directa con enfermedades oculares.
 
 El vínculo mecanístico propuesto es el siguiente: en el ojo seco, el exceso de especies reactivas de oxígeno (ROS) y la inflamación mediada por el inflamasoma NLRP3 contribuyen a la enfermedad. El grupo tiol de la cisteína podría aportar capacidad antioxidante y de amortiguación redox en la superficie ocular. Además, los polímeros tiolados (tiómeros) construidos con conjugados de cisteína tienen buena mucoadhesión, lo que podría prolongar el tiempo de permanencia del fármaco en el ojo.
 
@@ -138,12 +138,13 @@ La predicción de TxGNN es muy alta, pero no hay ensayos clínicos y la literatu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición (NUMETA® G 19% E)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
 
 <!-- review:end log -->
 

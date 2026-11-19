@@ -60,7 +60,7 @@ Esta predicción proviene del modelo TxGNN (aprendizaje profundo) y puede reflej
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, el fenobarbital potencia la inhibición mediada por el receptor GABA-A y se usa en todos los tipos de convulsiones, salvo las crisis de ausencia. También se registra como ligando del receptor X de pregnano (PXR, gen NR1I2), lo que explica su efecto inductor enzimático.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenobarbital (traducción no oficial): «El mecanismo de acción preciso del fenobarbital para el tratamiento de las crisis convulsivas neonatales no se conoce por completo, pero se cree que implica la potenciación de la inhibición sináptica mediante una acción sobre el receptor GABA A.» Texto original en inglés: "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), versión del 2026-10-23; consultado el 2026-11-19). Según la información farmacológica conocida, el fenobarbital potencia la inhibición mediada por el receptor GABA-A y se usa en todos los tipos de convulsiones, salvo las crisis de ausencia. También se registra como ligando del receptor X de pregnano (PXR, gen NR1I2), lo que explica su efecto inductor enzimático.
 
 En este caso la predicción **no tiene un vínculo mecanístico plausible** con la biología tumoral. El único artículo asociado es una serie de casos de síndrome de Sturge-Weber, un trastorno neurocutáneo en el que el fenobarbital se usa para controlar las crisis, no para tratar una neoplasia. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (el fármaco se relaciona con enfermedades del nervio trigémino y neurológicas), no evidencia biológica ni una señal terapéutica.
 
@@ -138,13 +138,14 @@ La predicción para neoplasia del nervio trigémino solo cuenta con el modelo co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros pertenecen al Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social) y están cancelados; actualmente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
 
 <!-- review:end log -->
 

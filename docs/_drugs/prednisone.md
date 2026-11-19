@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 ## Por qué es Razonable esta Predicción
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la prednisona actúa sobre el receptor de glucocorticoides (NR3C1), con uso clínico en una amplia variedad de condiciones inflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prednisone (traducción no oficial): «Los corticosteroides de origen natural (hidrocortisona y cortisona), que también tienen propiedades retenedoras de sal, se utilizan como terapia de reemplazo en los estados de insuficiencia corticosuprarrenal. Sus análogos sintéticos, como la prednisona, se utilizan principalmente por sus potentes efectos antiinflamatorios en trastornos de muchos sistemas orgánicos.» Texto original en inglés: "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), versión del 2026-09-23; consultado el 2026-11-19). Según la información conocida, la prednisona actúa sobre el receptor de glucocorticoides (NR3C1), con uso clínico en una amplia variedad de condiciones inflamatorias.
 
 La alopecia areata es un ataque autoinmune mediado por linfocitos T contra el folículo piloso, con pérdida del privilegio inmunológico. Un glucocorticoide sistémico suprime la activación de los linfocitos T y la producción de citocinas inflamatorias, lo que aborda directamente este mecanismo.
 
@@ -104,6 +104,18 @@ Existe plausibilidad mecanística y literatura clínica directa en alopecia area
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) que hoy no están disponibles
 - Ensayos controlados de prednisona sola o como puente, con seguimiento de recaídas
 - Esquema de pulsos cortos con monitoreo de seguridad (presión arterial, glucemia, efectos oculares y óseos)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

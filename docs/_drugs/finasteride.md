@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, con **0
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, finasterida es un inhibidor de la 5-alfa-reductasa tipo II que reduce la dihidrotestosterona (DHT), y se usa en patologías dependientes de andrógenos, incluida la pérdida de cabello de patrón masculino.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Finasteride (traducción no oficial): «El desarrollo y el agrandamiento de la glándula prostática dependen del potente andrógeno 5α-dihidrotestosterona (DHT). La 5α-reductasa de tipo II metaboliza la testosterona a DHT en la glándula prostática, el hígado y la piel. […] La finasterida es un inhibidor competitivo y específico de la 5α-reductasa de tipo II, con la que forma lentamente un complejo enzimático estable.» Texto original en inglés: "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), versión del 2026-03-18; consultado el 2026-11-19). Según la información conocida, finasterida es un inhibidor de la 5-alfa-reductasa tipo II que reduce la dihidrotestosterona (DHT), y se usa en patologías dependientes de andrógenos, incluida la pérdida de cabello de patrón masculino.
 
 La conexión con la hipertricosis es débil. La hipertricosis se define como un aumento del crecimiento del vello en zonas **no dependientes de andrógenos**, a diferencia del hirsutismo, que sí es dependiente de andrógenos y puede responder a la inhibición de la 5-alfa-reductasa. Por eso, un mecanismo antiandrogénico no es, en principio, el más adecuado. Las cuatro publicaciones encontradas (1999-2003) tratan de forma conjunta alopecia androgenética, hirsutismo e hipertricosis, y mencionan a finasterida en el contexto de enfermedades del cabello, pero los títulos y resúmenes no demuestran que se haya evaluado específicamente para hipertricosis.
 
@@ -133,11 +133,12 @@ La predicción tiene un puntaje alto en TxGNN, pero no existen ensayos clínicos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "ya que los cuatro están cancelados y no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

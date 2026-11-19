@@ -66,7 +66,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad ósea de P
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la flucitosina es un profármaco antimicótico: la citosina desaminasa fúngica la convierte en 5-fluorouracilo, que inhibe la síntesis de ADN y ARN del hongo. Su eficacia se asocia a infecciones fúngicas, no a enfermedades óseas.
+Según las secciones «Clinical Pharmacology» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Flucytosine (traducción no oficial): «La flucitosina es captada por los organismos fúngicos a través de la enzima citosina permeasa. Dentro de la célula fúngica, la enzima citosina desaminasa convierte rápidamente la flucitosina en fluorouracilo. El fluorouracilo ejerce su actividad antifúngica mediante su conversión posterior en varios metabolitos activos, que inhiben la síntesis de proteínas al incorporarse de forma falsa al ARN fúngico o interfieren con la biosíntesis del ADN fúngico mediante la inhibición de la enzima timidilato sintetasa.» Texto original en inglés: "Flucytosine is taken up by fungal organisms via the enzyme cytosine permease. Inside the fungal cell, flucytosine is rapidly converted to fluorouracil by the enzyme cytosine deaminase. Fluorouracil exerts its antifungal activity through the subsequent conversion into several active metabolites, which inhibit protein synthesis by being falsely incorporated into fungal RNA or interfere with the biosynthesis of fungal DNA through the inhibition of the enzyme thymidylate synthetase." ([DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e), versión del 2022-02-02; consultado el 2026-11-19). Según la información conocida, la flucitosina es un profármaco antimicótico: la citosina desaminasa fúngica la convierte en 5-fluorouracilo, que inhibe la síntesis de ADN y ARN del hongo. Su eficacia se asocia a infecciones fúngicas, no a enfermedades óseas.
 
 La enfermedad ósea de Paget se caracteriza por una actividad osteoclástica desregulada y un recambio óseo aumentado, con factores genéticos como variantes de SQSTM1. Nada en los datos disponibles conecta la flucitosina con estas vías. No se identificó un vínculo mecanístico establecido entre la indicación original y la nueva.
 
@@ -139,7 +139,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -147,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario local está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura únicamente como "FLUCITOSINA"" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ La predicción se considera un artefacto del modelo, sin evidencia real que la s
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, iohexol es un medio de contraste yodado no iónico, farmacológicamente inerte, que se utiliza para visualizar estructuras en estudios radiológicos y no actúa sobre dianas del sistema nervioso central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Iohexol (traducción no oficial): «Los átomos de yodo del iohexol atenúan los rayos X en proporción directa a la concentración de iohexol. Dado que la concentración varía con el tiempo, el iohexol proporciona un contraste de imagen dependiente del tiempo que puede ayudar a visualizar las estructuras corporales.» Texto original en inglés: "The iodine atoms in iohexol provide attenuation of X-rays in direct proportion to the concentration of iohexol. Since concentration changes over time, iohexol provides time-dependent image contrast which may assist in visualizing body structures." ([DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f), versión del 2026-04-28; consultado el 2026-11-19). Según la información conocida, iohexol es un medio de contraste yodado no iónico, farmacológicamente inerte, que se utiliza para visualizar estructuras en estudios radiológicos y no actúa sobre dianas del sistema nervioso central.
 
 No se identifica una relación plausible entre su uso original (imagenología diagnóstica) y el tratamiento del insomnio. No existe un mecanismo conocido por el cual un agente de contraste pueda intervenir en la regulación del sueño.
 
@@ -129,11 +129,12 @@ No existe evidencia clínica ni literatura que respalde el uso de iohexol en ins
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
 
 <!-- review:end log -->
 

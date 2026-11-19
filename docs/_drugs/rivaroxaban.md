@@ -58,7 +58,7 @@ Rivaroxabán es un anticoagulante oral que inhibe el factor Xa y se usa para pre
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rivaroxabán es un inhibidor directo del factor Xa, y su eficacia en la prevención y el tratamiento del tromboembolismo venoso y de eventos embólicos asociados a fibrilación auricular está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rivaroxaban (traducción no oficial): «XARELTO es un inhibidor selectivo del FXa. No requiere un cofactor (como la antitrombina III) para su actividad. El rivaroxabán inhibe el FXa libre y la actividad de la protrombinasa. El rivaroxabán no tiene un efecto directo sobre la agregación plaquetaria, pero inhibe indirectamente la agregación plaquetaria inducida por la trombina.» Texto original en inglés: "XARELTO is a selective inhibitor of FXa. It does not require a cofactor (such as Anti-thrombin III) for activity. Rivaroxaban inhibits free FXa and prothrombinase activity. Rivaroxaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610), versión del 2026-09-10; consultado el 2026-11-19). Según la información conocida, rivaroxabán es un inhibidor directo del factor Xa, y su eficacia en la prevención y el tratamiento del tromboembolismo venoso y de eventos embólicos asociados a fibrilación auricular está bien establecida.
 
 La conexión con la artritis reumatoide es solo una hipótesis indirecta: la **trombo-inflamación**. Las enfermedades autoinmunes se asocian con un estado de hipercoagulabilidad (la generación de trombina está alterada), y la señalización del factor Xa y la trombina puede favorecer la inflamación.
 
@@ -147,13 +147,14 @@ Pese al puntaje alto de TxGNN, no existen ensayos clínicos ni estudios que eval
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros sanitarios están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xarelto (rivaroxaban) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10db92f9-2300-4a80-836b-673e1ae91610) |
 
 <!-- review:end log -->
 

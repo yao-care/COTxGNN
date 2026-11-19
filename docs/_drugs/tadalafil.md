@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tadalafilo es un inhibidor de PDE5 que aumenta el GMP cíclico (cGMP) y produce vasodilatación. Esta clase de fármacos se utiliza en disfunción eréctil e hipertensión arterial pulmonar, aunque la indicación aprobada en los registros colombianos no está detallada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tadalafil (traducción no oficial): «La erección del pene durante la estimulación sexual se produce por el aumento del flujo sanguíneo peniano resultante de la relajación de las arterias del pene y del músculo liso de los cuerpos cavernosos. Esta respuesta está mediada por la liberación de óxido nítrico (NO) desde las terminaciones nerviosas y las células endoteliales, que estimula la síntesis de cGMP en las células del músculo liso. […] El tadalafilo inhibe la PDE5.» Texto original en inglés: "Penile erection during sexual stimulation is caused by increased penile blood flow resulting from the relaxation of penile arteries and corpus cavernosal smooth muscle. This response is mediated by the release of nitric oxide (NO) from nerve terminals and endothelial cells, which stimulates the synthesis of cGMP in smooth muscle cells. […] Tadalafil inhibits PDE5." ([DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895), versión del 2026-06-03; consultado el 2026-11-19). Según la información conocida, tadalafilo es un inhibidor de PDE5 que aumenta el GMP cíclico (cGMP) y produce vasodilatación. Esta clase de fármacos se utiliza en disfunción eréctil e hipertensión arterial pulmonar, aunque la indicación aprobada en los registros colombianos no está detallada.
 
 La relación con la nueva indicación es débil. La hipertricosis tipo Ambras es un trastorno congénito del crecimiento del vello, asociado a reordenamientos genómicos que producen un efecto de posición sobre el locus TRPS1. Una conexión indirecta podría pasar por cambios en el flujo sanguíneo folicular o en la señalización de cGMP, pero esto es especulativo y no está establecido.
 
@@ -130,12 +130,13 @@ La predicción es solo del modelo (nivel L5), sin ensayos ni literatura, con un 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Evaluar el estado regulatorio (registros cancelados) y la compatibilidad de vías de administración" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cialis (tadalafil) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd8f8ab-81a2-4891-83db-24a0b0e25895) |
 
 <!-- review:end log -->
 

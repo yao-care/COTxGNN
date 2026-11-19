@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, bosentan es un antagonista dual de los receptores de endotelina ETA/ETB. La endotelina-1 participa en la inflamación sinovial, la disfunción vascular y la liberación de citocinas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bosentan (traducción no oficial): «Bosentán es un antagonista específico y competitivo de los receptores de endotelina de tipo ET A y ET B. Bosentán tiene una afinidad ligeramente mayor por los receptores ET A que por los receptores ET B. Se desconoce el impacto clínico del bloqueo dual de la endotelina.» Texto original en inglés: "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), versión del 2025-11-17; consultado el 2026-11-19). Según el conocimiento general, bosentan es un antagonista dual de los receptores de endotelina ETA/ETB. La endotelina-1 participa en la inflamación sinovial, la disfunción vascular y la liberación de citocinas.
 
 En modelos animales hay respaldo preclínico: bosentan redujo la inflamación en artritis inducida por colágeno en ratones, con participación del TNF-α (PMID 22249931). Además, las endotelinas modularon la artritis inducida por zimosán a través de LTB4, TNF-α y CXCL-1 (PMID 18515326).
 
@@ -139,12 +139,13 @@ Las predicciones restantes (síndrome de braquidactilia-sindactilia, gota, hiper
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

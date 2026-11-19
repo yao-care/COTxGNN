@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome del seno enfer
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, el dipiridamol eleva la adenosina extracelular, lo que le confiere su efecto antiagregante y vasodilatador.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dipyridamole (traducción no oficial): «El dipiridamol inhibe la captación de adenosina en las plaquetas, las células endoteliales y los eritrocitos in vitro e in vivo; la inhibición se produce de manera dependiente de la dosis a concentraciones terapéuticas (0.5 a 1.9 mcg/mL). Esta inhibición da lugar a un aumento de las concentraciones locales de adenosina, que actúa sobre el receptor A 2 plaquetario, estimulando así la adenilato ciclasa plaquetaria y aumentando las concentraciones plaquetarias de 3',5'-monofosfato cíclico de adenosina (cAMP).» Texto original en inglés: "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5), versión del 2026-04-29; consultado el 2026-11-19). Según la información conocida, el dipiridamol eleva la adenosina extracelular, lo que le confiere su efecto antiagregante y vasodilatador.
 
 La relación con la nueva indicación es, por ahora, solo computacional. Un vínculo plausible pero no verificado es la modulación de la adenosina: esta puede enlentecer la conducción en el nodo sinusal y en el nodo auriculoventricular, por lo que en una bradiarritmia podría ser perjudicial en lugar de beneficiosa.
 
@@ -95,6 +95,18 @@ No existen ensayos clínicos ni publicaciones sobre esta indicación, y el punta
 - Datos del mecanismo de acción y evaluación de la plausibilidad electrofisiológica en esta enfermedad
 - Revisión del prospecto con advertencias y contraindicaciones
 - Estudios preclínicos o series de casos que evalúen la seguridad en el nodo sinusal antes de considerar cualquier ensayo clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

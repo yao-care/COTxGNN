@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad infecciosa ec
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, clioquinol es un compuesto con actividad antifúngica y antibacteriana asociada a la quelación de metales, lo que podría explicar un efecto sobre hongos dermatofitos.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Clioquinol es (traducción no oficial): «Agente quelante del zinc; agente quelante del cobre; agente quelante del hierro» Texto original en inglés: "Zinc chelating agent; Copper chelating agent; Iron chelating agent" ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, clioquinol es un compuesto con actividad antifúngica y antibacteriana asociada a la quelación de metales, lo que podría explicar un efecto sobre hongos dermatofitos.
 
 La infección ectotrix es una infección del pelo causada por dermatofitos (por ejemplo, *Microsporum* y *Trichophyton*), en la que el hongo crece sobre la superficie externa del tallo piloso. Mecanísticamente, una actividad antifúngica de amplio espectro sería compatible con esta condición, aunque el vínculo es plausible pero no verificado.
 
@@ -98,6 +98,19 @@ La predicción (puntaje 0,9926) no cuenta con ensayos clínicos ni literatura, p
 - Estudios in vitro de actividad frente a dermatofitos causantes de infección ectotrix
 - Evaluación de la compatibilidad de la vía de administración tópica con la infección del tallo piloso
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

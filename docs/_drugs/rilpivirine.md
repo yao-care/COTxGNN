@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, rilpivirina es un ITINN que inhibe la transcriptasa inversa del VIH-1. Su eficacia en la infección por VIH está establecida, y se usa en combinaciones de dosis fija con emtricitabina y tenofovir.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rilpivirine (traducción no oficial): «La rilpivirina es un fármaco antiviral. […] La rilpivirina es un inhibidor no nucleosídico de la transcriptasa inversa (INNTI) del virus de la inmunodeficiencia humana de tipo 1 (VIH-1), del grupo de las diarilpirimidinas, e inhibe la replicación del VIH-1 mediante la inhibición no competitiva de la transcriptasa inversa (TI) del VIH-1. La rilpivirina no inhibe las ADN polimerasas celulares humanas α, β y γ.» Texto original en inglés: "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), versión del 2025-08-28; consultado el 2026-11-19). Según la información conocida, rilpivirina es un ITINN que inhibe la transcriptasa inversa del VIH-1. Su eficacia en la infección por VIH está establecida, y se usa en combinaciones de dosis fija con emtricitabina y tenofovir.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus emparentado con el VIH, con una transcriptasa inversa relacionada. Por ello, mecanísticamente es plausible que rilpivirina tenga actividad contra FIV. La única publicación disponible (2023) compara bioquímica y estructuralmente varios ITINN (nevirapina, efavirenz y rilpivirina) frente a las transcriptasas inversas de FIV y VIH.
 
@@ -149,12 +149,13 @@ La única evidencia es un estudio bioquímico y estructural *in vitro*, sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

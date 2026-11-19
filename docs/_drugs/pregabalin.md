@@ -60,7 +60,7 @@ Cabe destacar que la indicación con mayor respaldo entre las predichas es la **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos principal. Según la información conocida, pregabalina se une a la subunidad alfa2-delta de los canales de calcio dependientes de voltaje, lo que reduce la liberación de neurotransmisores excitadores y atenúa la señalización del dolor neuropático y de la sensibilización central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pregabalin (traducción no oficial): «La pregabalina se une con alta afinidad al sitio alfa 2 ‑delta (una subunidad auxiliar de los canales de calcio dependientes de voltaje) en los tejidos del sistema nervioso central. Aunque el mecanismo de acción de la pregabalina no se ha dilucidado por completo, los resultados obtenidos con ratones modificados genéticamente y con compuestos estructuralmente relacionados con la pregabalina (como la gabapentina) sugieren que la unión a la subunidad alfa 2 ‑delta podría estar implicada en los efectos antinociceptivos y anticonvulsivos de la pregabalina en animales.» Texto original en inglés: "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), versión del 2026-03-12; consultado el 2026-11-19). Según la información conocida, pregabalina se une a la subunidad alfa2-delta de los canales de calcio dependientes de voltaje, lo que reduce la liberación de neurotransmisores excitadores y atenúa la señalización del dolor neuropático y de la sensibilización central.
 
 Este mecanismo podría aliviar el dolor asociado a la tendinopatía, pero no hay evidencia de que actúe sobre la patología tendinosa de fondo. La literatura disponible es indirecta: analgesia perioperatoria tras reparación artroscópica del manguito rotador, reportes de caso y un reporte de discapacidad asociada a fluoroquinolonas. El puntaje TxGNN, muy alto, no está respaldado por datos clínicos directos.
 
@@ -136,12 +136,13 @@ Para tendinitis, la evidencia es solo indirecta (analgesia perioperatoria, repor
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

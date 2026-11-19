@@ -54,7 +54,7 @@ Inclisirán es un ARN interferente pequeño (siRNA) que actúa sobre el ARNm de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, inclisirán es un siRNA que silencia el ARNm de PCSK9 en los hepatocitos, lo que aumenta los receptores de LDL y reduce el LDL-C.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Inclisiran (traducción no oficial): «El inclisirán es un ácido ribonucleico interferente pequeño (ARNip) bicatenario, conjugado en la cadena sentido con N-acetilgalactosamina (GalNAc) triantenaria para facilitar su captación por los hepatocitos. En los hepatocitos, el inclisirán utiliza el mecanismo de interferencia por ARN y dirige la degradación catalítica del ARNm de PCSK9.» Texto original en inglés: "Inclisiran is a double-stranded small interfering ribonucleic acid (siRNA), conjugated on the sense strand with triantennary N-Acetylgalactosamine (GalNAc) to facilitate uptake by hepatocytes. In hepatocytes, inclisiran utilizes the RNA interference mechanism and directs catalytic breakdown of mRNA for PCSK9." ([DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44), versión del 2026-08-19; consultado el 2026-11-19). Según la información conocida, inclisirán es un siRNA que silencia el ARNm de PCSK9 en los hepatocitos, lo que aumenta los receptores de LDL y reduce el LDL-C.
 
 No se identifica un vínculo mecanístico plausible con la deficiencia de potasio: inclisirán no tiene un papel conocido en la homeostasis del potasio. El puntaje alto del modelo es solo una predicción computacional, sin ensayos ni literatura que la sustenten, por lo que debe interpretarse con mucha cautela.
 
@@ -107,12 +107,13 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos, literatura ni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) si se considera una vía local de desarrollo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Leqvio (inclisiran) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fc0afca-4513-4c35-b594-6544aee29a44) |
 
 <!-- review:end log -->
 

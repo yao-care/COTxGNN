@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la silodosina se une de forma selectiva a los receptores adrenérgicos alfa-1A (con interacciones también registradas con los subtipos alfa-1B y alfa-1D), y su eficacia se ha establecido en el alivio de los síntomas urinarios de la HPB.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Silodosin (traducción no oficial): «La silodosina es un antagonista selectivo de los adrenorreceptores alfa-1 postsinápticos, que se localizan en la próstata, la base de la vejiga, el cuello vesical, la cápsula prostática y la uretra prostática humanas. El bloqueo de estos adrenorreceptores alfa-1 puede provocar la relajación del músculo liso de estos tejidos, lo que da lugar a una mejoría del flujo urinario y a una reducción de los síntomas de la HPB.» Texto original en inglés: "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), versión del 2026-10-30; consultado el 2026-11-19). Según la información farmacológica conocida, la silodosina se une de forma selectiva a los receptores adrenérgicos alfa-1A (con interacciones también registradas con los subtipos alfa-1B y alfa-1D), y su eficacia se ha establecido en el alivio de los síntomas urinarios de la HPB.
 
 Sin embargo, no existe un mecanismo establecido que relacione el bloqueo alfa-1A con el síndrome de Ambras, un trastorno genético causado por reordenamientos cromosómicos que afectan regiones reguladoras del gen TRPS1. La relación entre la indicación original (síntomas del tracto urinario inferior) y la nueva indicación (alteración genética del crecimiento del vello) es débil.
 
@@ -128,12 +128,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos, sin 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Latanoprost (traducción no oficial): «El latanoprost es un análogo de la prostaglandina F 2α que se cree que reduce la presión intraocular (PIO) al aumentar el drenaje del humor acuoso. Los estudios en animales y en seres humanos sugieren que el principal mecanismo de acción es el aumento del drenaje uveoescleral.» Texto original en inglés: "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), versión del 2025-12-18; consultado el 2026-11-19). Según la información conocida, latanoprost es un análogo de la prostaglandina F2-alfa que reduce la presión intraocular al aumentar el drenaje uveoescleral del humor acuoso.
 
 Además, las formas congénitas o hereditarias primarias de glaucoma suelen manejarse quirúrgicamente, lo que limita el papel potencial de un tratamiento tópico como terapia principal.
 
@@ -126,12 +126,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura. 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y ambos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(actualmente no hay registros vigentes)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
 
 <!-- review:end log -->
 

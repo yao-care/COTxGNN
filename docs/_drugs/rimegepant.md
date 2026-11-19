@@ -58,7 +58,7 @@ Rimegepant (NURTEC® ODT) es un antagonista del receptor del péptido relacionad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, rimegepant es un antagonista del receptor de CGRP, aprobado en otros países (por ejemplo, Estados Unidos y la Unión Europea) para el tratamiento agudo de la migraña con o sin aura y para la prevención de la migraña episódica en adultos. Su mecanismo se basa en bloquear la vía trigeminovascular mediada por CGRP.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rimegepant (traducción no oficial): «Rimegepant es un antagonista del receptor del péptido relacionado con el gen de la calcitonina.» Texto original en inglés: "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), versión del 2026-06-04; consultado el 2026-11-19). Según la información conocida, rimegepant es un antagonista del receptor de CGRP, aprobado en otros países (por ejemplo, Estados Unidos y la Unión Europea) para el tratamiento agudo de la migraña con o sin aura y para la prevención de la migraña episódica en adultos. Su mecanismo se basa en bloquear la vía trigeminovascular mediada por CGRP.
 
 La migraña con aura del tronco encefálico es un subtipo de migraña. Por ello, el mecanismo mediado por CGRP es plausible en esta condición. Se trata más de una extensión dentro de la indicación de migraña ya conocida que de un reposicionamiento en sentido estricto.
 
@@ -140,12 +140,13 @@ Rimegepant tiene un mecanismo plausible y abundante evidencia en migraña genera
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado) y la posibilidad de un nuevo registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
 
 <!-- review:end log -->
 

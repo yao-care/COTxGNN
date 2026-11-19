@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **acute urate nephropathy 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la lactulosa es un disacárido no absorbible que actúa como laxante osmótico, acidifica el colon y reduce la absorción de amoníaco; su uso en estreñimiento y encefalopatía hepática está bien establecido.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lactulose (traducción no oficial): «La lactulosa causa una disminución de la concentración de amoníaco en sangre y reduce el grado de encefalopatía portosistémica. Se considera que estas acciones son resultado de lo siguiente: la degradación bacteriana de la lactulosa en el colon acidifica el contenido colónico.» Texto original en inglés: "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), versión del 2024-12-18; consultado el 2026-11-19). Según la información conocida, la lactulosa es un disacárido no absorbible que actúa como laxante osmótico, acidifica el colon y reduce la absorción de amoníaco; su uso en estreñimiento y encefalopatía hepática está bien establecido.
 
 **Nefropatía aguda por uratos (predicción n.º 1):** no hay un vínculo mecanístico respaldado por los datos. Cualquier relación con el manejo del ácido úrico o la protección renal sería especulativa; el puntaje alto es únicamente una predicción computacional sin ensayos ni literatura.
 
@@ -136,12 +136,13 @@ Literatura seleccionada para **ictericia obstructiva** (las demás predicciones 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el mercado colombiano no tiene registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
 
 <!-- review:end log -->
 

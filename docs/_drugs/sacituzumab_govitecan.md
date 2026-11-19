@@ -60,7 +60,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I, y pertenece al grupo de agentes antineoplásicos citotóxicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sacituzumab Govitecan (traducción no oficial): «El sacituzumab govitecán-hziy es un conjugado anticuerpo-fármaco dirigido contra Trop-2. El sacituzumab es un anticuerpo humanizado que reconoce Trop-2. La molécula pequeña, SN-38, es un inhibidor de la topoisomerasa I, que está unida covalentemente al anticuerpo mediante un enlazador.» Texto original en inglés: "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), versión del 2026-06-24; consultado el 2026-11-19). Según la información conocida, sacituzumab govitecan es un conjugado anticuerpo-fármaco dirigido a Trop-2 que libera SN-38, un inhibidor de la topoisomerasa I, y pertenece al grupo de agentes antineoplásicos citotóxicos.
 
 Con los datos disponibles, **no se identifica un vínculo mecanístico que respalde esta predicción**. La quimioterapia citotóxica se asocia más frecuentemente con pérdida ósea que con protección ósea, de modo que la relación entre el uso oncológico del fármaco y la osteoporosis inducida por fármacos es, en el mejor de los casos, indirecta (el puntaje del modelo TxGNN (aprendizaje profundo) podría reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, y no una utilidad terapéutica).
 
@@ -137,12 +137,13 @@ No existen ensayos clínicos ni publicaciones que respalden la predicción, no h
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar el estado regulatorio actual en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
 
 <!-- review:end log -->
 

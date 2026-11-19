@@ -60,7 +60,7 @@ La predicción se basa únicamente en el modelo, y existen argumentos biológico
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la leflunomida (a través de su metabolito activo, la teriflunomida) inhibe la enzima dihidroorotato deshidrogenasa (DHODH). Esto reduce la síntesis de pirimidinas y frena la proliferación de linfocitos activados, lo que explica su uso en enfermedades autoinmunes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Leflunomide (traducción no oficial): «La leflunomida es un agente inmunomodulador isoxazólico que inhibe la dihidroorotato deshidrogenasa (una enzima mitocondrial que participa en la síntesis de novo de pirimidinas) y tiene actividad antiproliferativa. Varios modelos experimentales in vivo e in vitro han demostrado un efecto antiinflamatorio.» Texto original en inglés: "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), versión del 2025-06-04; consultado el 2026-11-19). Según el conocimiento farmacológico general, la leflunomida (a través de su metabolito activo, la teriflunomida) inhibe la enzima dihidroorotato deshidrogenasa (DHODH). Esto reduce la síntesis de pirimidinas y frena la proliferación de linfocitos activados, lo que explica su uso en enfermedades autoinmunes.
 
 El síndrome de braquidactilia-sindactilia es una malformación congénita de las extremidades, de origen genético y del desarrollo, que no depende de la proliferación linfocitaria. Por ello, **no se identifica un vínculo mecanístico validado** entre la indicación original y la nueva. El puntaje alto de TxGNN (0.9993) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -144,13 +144,14 @@ La predicción es solo del modelo (nivel L5), sin ensayos clínicos ni literatur
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Todos los registros sanitarios de leflunomida en Colombia están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Los registros sanitarios en Colombia están todos cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que no hay productos vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

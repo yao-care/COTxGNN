@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la leuprolida es un agonista del receptor GnRH1 (gen GNRHR). Tras una estimulación inicial, desensibiliza la hipófisis y suprime la producción de hormonas sexuales (testosterona y estrógenos).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Leuprolide (traducción no oficial): «El acetato de leuprolida, un agonista de la hormona liberadora de gonadotropina (GnRH), actúa como inhibidor de la secreción de gonadotropinas cuando se administra de forma continua en dosis terapéuticas. Los estudios en animales y en seres humanos indican que, tras una estimulación inicial, la administración crónica de acetato de leuprolida produce la supresión de la esteroidogénesis testicular y ovárica.» Texto original en inglés: "Leuprolide acetate, a gonadotropin releasing hormone (GnRH) agonist, acts as an inhibitor of gonadotropin secretion when given continuously in therapeutic doses. Animal and human studies indicate that after an initial stimulation, chronic administration of leuprolide acetate results in suppression of testicular and ovarian steroidogenesis." ([DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f), versión del 2026-04-30; consultado el 2026-11-19). Según la información conocida, la leuprolida es un agonista del receptor GnRH1 (gen GNRHR). Tras una estimulación inicial, desensibiliza la hipófisis y suprime la producción de hormonas sexuales (testosterona y estrógenos).
 
 Una relación con la osteoartritis es concebible, ya que las hormonas sexuales modulan el metabolismo del cartílago y del hueso subcondral. Sin embargo, esta vinculación es especulativa. La privación de hormonas sexuales se asocia en general con pérdida ósea y efectos musculoesqueléticos adversos, lo que apunta en contra de un beneficio.
 
@@ -136,12 +136,13 @@ La predicción para osteoartritis se basa solo en el modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y actualmente no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vabrinty (leuprolide acetate) prescribing information, URONOVA PHARMACEUTICALS, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=008776cc-83f1-4f8c-819b-6471425da15f) |
 
 <!-- review:end log -->
 

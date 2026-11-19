@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **9 publicaciones** recuperadas, en su mayoría an
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la medroxiprogesterona acetato es un progestágeno, es decir, un compuesto que imita la acción de la progesterona. Mecanísticamente podría ser aplicable a la enfermedad fibroquística de la mama.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Medroxyprogesterone Acetate (traducción no oficial): «Depo-Provera CI (acetato de medroxiprogesterona [MPA]) inhibe la secreción de gonadotropinas, lo que principalmente impide la maduración folicular y la ovulación y causa el espesamiento del moco cervical. Estas acciones contribuyen a su efecto anticonceptivo.» Texto original en inglés: "Depo-Provera CI (medroxyprogesterone acetate [MPA]) inhibits the secretion of gonadotropins which primarily prevents follicular maturation and ovulation and causes thickening of cervical mucus. These actions contribute to its contraceptive effect." ([DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049), versión del 2026-08-25; consultado el 2026-11-19). Según la información conocida, la medroxiprogesterona acetato es un progestágeno, es decir, un compuesto que imita la acción de la progesterona. Mecanísticamente podría ser aplicable a la enfermedad fibroquística de la mama.
 
 La fisiopatología de esta enfermedad se describe como un predominio de estrógenos con déficit relativo de progesterona, que favorece la proliferación del tejido conectivo y del epitelio mamario. Un progestágeno podría, en teoría, contrarrestar esa proliferación impulsada por estrógenos, y las alteraciones fibroquísticas responden a las hormonas.
 
@@ -116,12 +116,13 @@ La predicción tiene un puntaje alto (0,9995), pero la evidencia consiste en est
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "La falta de datos de mecanismo y el estado de mercado (solo registros cancelados) limitan la confirmación" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-10-31 | Eliminado: "Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay registros cancelados" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Depo-Provera (medroxyprogesterone acetate) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=199cf13e-0859-4a73-9b45-e700d0cd1049) |
 
 <!-- review:end log -->
 

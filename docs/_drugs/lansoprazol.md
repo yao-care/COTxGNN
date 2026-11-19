@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos ni publicaciones que respalden esta di
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el lansoprazol es un inhibidor de la bomba de protones (H+/K+-ATPasa) que reduce la producción de ácido gástrico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lansoprazol (traducción no oficial): «El lansoprazol pertenece a una clase de compuestos antisecretores, los bencimidazoles sustituidos, que suprimen la secreción de ácido gástrico mediante la inhibición específica del sistema enzimático (H +, K + )-ATPasa en la superficie secretora de la célula parietal gástrica. Dado que este sistema enzimático se considera la bomba de ácido (de protones) dentro de la célula parietal, el lansoprazol se ha caracterizado como un inhibidor de la bomba de ácido gástrico, ya que bloquea el paso final de la producción de ácido.» Texto original en inglés: "Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84), versión del 2025-07-08; consultado el 2026-11-19). Según la información conocida, el lansoprazol es un inhibidor de la bomba de protones (H+/K+-ATPasa) que reduce la producción de ácido gástrico.
 
 Un vínculo indirecto plausible es que la supresión del ácido podría ayudar en la enfermedad ulcerosa péptica o en la inflamación duodenal, que son causas frecuentes de obstrucción duodenal (por ejemplo, estenosis o edema asociados a úlcera). En cambio, no aliviaría una obstrucción mecánica fija, como las de origen maligno, el páncreas anular o el síndrome de la arteria mesentérica superior.
 
@@ -99,6 +99,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos ni
 - Revisión de las advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Búsqueda de estudios clínicos o de literatura que evalúen lansoprazol en obstrucción duodenal, precisando qué causas (ulcerosa, inflamatoria o mecánica) podrían beneficiarse
 - Análisis de interacciones farmacológicas y de compatibilidad de vías de administración
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

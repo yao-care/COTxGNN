@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trastuzumab es un anticuerpo dirigido contra el receptor HER2. Su eficacia en cáncer de mama HER2 positivo está bien establecida, y mecanísticamente podría ser aplicable a otros tumores de mama solo si estos dependen de HER2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trastuzumab (traducción no oficial): «El protooncogén HER2 (o c-erbB2) codifica una proteína receptora transmembrana de 185 kDa, que está relacionada estructuralmente con el receptor del factor de crecimiento epidérmico. Se ha demostrado, tanto en ensayos in vitro como en animales, que los productos de trastuzumab inhiben la proliferación de células tumorales humanas que sobreexpresan HER2.» Texto original en inglés: "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), versión del 2026-06-26; consultado el 2026-11-19). Según la información conocida, trastuzumab es un anticuerpo dirigido contra el receptor HER2. Su eficacia en cáncer de mama HER2 positivo está bien establecida, y mecanísticamente podría ser aplicable a otros tumores de mama solo si estos dependen de HER2.
 
 La relación con la nueva indicación es débil. El beneficio de trastuzumab depende del estado de HER2, no del subtipo molecular intrínseco. El subtipo "normal-like" es mayormente HER2 negativo y no es un grupo reconocido como sensible a trastuzumab. Por eso la predicción del modelo, aunque con puntaje alto, no cuenta con un respaldo mecanístico claro.
 
@@ -146,12 +146,13 @@ El respaldo para este subtipo es solo indirecto: un ensayo sin iniciar sobre otr
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los registros sanitarios locales están todos cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en combinación con pertuzumab" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

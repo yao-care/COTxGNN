@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que disminuye la formación de ácido úrico, y se utiliza en trastornos asociados a hiperuricemia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Febuxostat (traducción no oficial): «ULORIC, un inhibidor de la xantina oxidasa, logra su efecto terapéutico al disminuir el ácido úrico sérico. No se espera que ULORIC inhiba otras enzimas implicadas en la síntesis y el metabolismo de las purinas y las pirimidinas a concentraciones terapéuticas.» Texto original en inglés: "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), versión del 2025-12-24; consultado el 2026-11-19). Según la información conocida, febuxostat es un inhibidor selectivo no purínico de la xantina oxidasa que disminuye la formación de ácido úrico, y se utiliza en trastornos asociados a hiperuricemia.
 
 En el caso de la hipouricemia renal, la lógica es **contraria**: se trata de una condición con ácido úrico ya bajo, causada por una reabsorción renal deficiente de urato (por ejemplo, pérdida de función de URAT1/GLUT9). Reducir aún más el urato no tiene sentido terapéutico, por lo que el puntaje elevado de TxGNN probablemente es un artefacto de la asociación entre el fármaco y el urato, y no un vínculo terapéutico real.
 
@@ -122,6 +122,19 @@ La hipouricemia renal es una condición de urato ya bajo, por lo que reducirlo m
 - Considerar las otras indicaciones predichas, más coherentes mecanísticamente, como líneas de investigación alternativas:
   - **Deficiencia parcial de HPRT** (puntaje 0.9998, L4): racional biológico coherente, con evidencia solo de reportes de caso. Requiere monitorear el riesgo de nefropatía o litiasis por xantina.
   - **Síndrome de Lesch-Nyhan** (puntaje 0.9968, L4): posible alternativa en pacientes intolerantes a alopurinol; no actúa sobre las manifestaciones neuroconductuales, y existe poca información pediátrica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

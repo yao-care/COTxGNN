@@ -54,7 +54,7 @@ Albendazol es un antiparasitario que actúa inhibiendo la beta-tubulina de los h
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El mecanismo de acción detallado no figura en los datos compilados. Según lo conocido, albendazol inhibe la beta-tubulina y actúa contra larvas de cestodos, entre ellas los cisticercos de *Taenia solium* y los cenuros de *Taenia multiceps*, que son metacestodos emparentados.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Albendazole (traducción no oficial): «ALBENZA (albendazol) es un fármaco antihelmíntico sintético de la clase de los bencimidazoles. […] ALBENZA se une al sitio sensible a la colchicina de la β-tubulina e inhibe su polimerización en microtúbulos. La disminución de los microtúbulos en las células intestinales de los parásitos reduce su función de absorción, en especial la captación de glucosa por las formas adultas y larvarias de los parásitos, y también agota las reservas de glucógeno.» Texto original en inglés: "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5), versión del 2019-09-23; consultado el 2026-11-19). Según lo conocido, albendazol inhibe la beta-tubulina y actúa contra larvas de cestodos, entre ellas los cisticercos de *Taenia solium* y los cenuros de *Taenia multiceps*, que son metacestodos emparentados.
 
 La cenurosis es una infección causada por larvas de cestodos, y la neurocisticercosis, que concentra los estudios clínicos disponibles, es una enfermedad de la misma familia biológica. Por ello la similitud mecanística hace plausible la predicción.
 
@@ -122,6 +122,18 @@ Ningún ensayo ni publicación estudia directamente la cenurosis. La evidencia d
 - Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto
 - Plan de seguridad con vigilancia hepática y hematológica, uso de corticoides y confirmación por imagen de la localización de los quistes (especialmente lesiones oculares y ventriculares)
 - Revisión de las interacciones farmacológicas relevantes
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

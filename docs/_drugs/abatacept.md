@@ -56,7 +56,7 @@ con **3 ensayos clínicos** registrados (solo uno estudia directamente esta enfe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, abatacept bloquea la coestimulación de las células T, un mecanismo que modula la respuesta inmunitaria adaptativa.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Abatacept (traducción no oficial): «Abatacept, un modulador selectivo de la coestimulación, inhibe la activación de los linfocitos T (células T) al unirse a CD80 y CD86, con lo que bloquea la interacción con CD28. Esta interacción proporciona una señal coestimuladora necesaria para la activación completa de los linfocitos T.» Texto original en inglés: "Abatacept, a selective costimulation modulator, inhibits T-cell (T lymphocyte) activation by binding to CD80 and CD86, thereby blocking interaction with CD28. This interaction provides a costimulatory signal necessary for full activation of T lymphocytes." ([DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb), versión del 2025-11-13; consultado el 2026-11-19). Según la información conocida, abatacept bloquea la coestimulación de las células T, un mecanismo que modula la respuesta inmunitaria adaptativa.
 
 Mecanísticamente, la espondilitis anquilosante es una enfermedad inflamatoria inmunomediada, por lo que bloquear la activación de células T es plausible. Sin embargo, la enfermedad axial está impulsada principalmente por las vías de TNF e IL-17/IL-23. Varias revisiones sobre tratamientos más allá del bloqueo de TNF señalan que los agentes dirigidos a las células T, como abatacept, tienen un beneficio limitado.
 
@@ -107,6 +107,19 @@ La única evidencia directa es un piloto abierto pequeño, sin control y de esta
 - Resultados publicados o actualización del estado del piloto NCT00558506
 - Datos detallados del mecanismo de acción y de las advertencias y contraindicaciones del prospecto
 - Comparación frente a terapias ya establecidas (anti-TNF, inhibidores de IL-17)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orencia (abatacept) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0836c6ac-ee37-5640-2fed-a3185a0b16eb) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

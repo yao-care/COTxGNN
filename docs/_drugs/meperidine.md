@@ -64,7 +64,7 @@ La meperidina (petidina) es un analgésico opioide. El modelo TxGNN predice que 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la meperidina es un agonista sintético del receptor opioide mu, con cierta inhibición de la recaptación de serotonina y una actividad anticolinérgica débil.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Meperidine (traducción no oficial): «El clorhidrato de meperidina es un agonista opioide con múltiples acciones cualitativamente similares a las de la morfina; las más destacadas de ellas afectan al sistema nervioso central y a los órganos compuestos de músculo liso. Las principales acciones de valor terapéutico son la analgesia y la sedación.» Texto original en inglés: "Meperidine hydrochloride is an opioid agonist with multiple actions qualitatively similar to those of morphine; the most prominent of these involve the central nervous system and organs composed of smooth muscle. The principal actions of therapeutic value are analgesia and sedation." ([DailyMed: Demerol (meperidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b31d1308-28c3-43f4-e0a6-2f3ed76b8975), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, la meperidina es un agonista sintético del receptor opioide mu, con cierta inhibición de la recaptación de serotonina y una actividad anticolinérgica débil.
 
 Sin embargo, los datos disponibles **no respaldan un vínculo mecanístico** con la supresión de tics. El síndrome de Tourette se asocia a una disregulación de los circuitos cortico-estriato-tálamo-corticales y a hiperactividad dopaminérgica, y no se ha establecido una justificación para usar un agonista opioide en este contexto.
 
@@ -140,7 +140,7 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -148,6 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "No hay registros vigentes, lo que limita la disponibilidad práctica del fármaco" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y sin registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Evaluar alternativas con mejor perfil de seguridad y disponibilidad, dado el estado cancelado del registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Demerol (meperidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b31d1308-28c3-43f4-e0a6-2f3ed76b8975) |
 
 <!-- review:end log -->
 

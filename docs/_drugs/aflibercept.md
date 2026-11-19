@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **esotropía**, pero **no 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología general, aflibercept es una proteína de fusión recombinante que funciona como trampa de VEGF: se une a VEGF-A, VEGF-B y al factor de crecimiento placentario (PlGF), con lo que reduce la angiogénesis y la permeabilidad vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aflibercept (traducción no oficial): «El factor de crecimiento endotelial vascular A (VEGF-A) y el factor de crecimiento placentario (PlGF) son miembros de la familia VEGF de factores angiogénicos que pueden actuar como factores mitogénicos, quimiotácticos y de permeabilidad vascular para las células endoteliales. El VEGF actúa a través de dos receptores con actividad tirosina cinasa, VEGFR-1 y VEGFR-2, presentes en la superficie de las células endoteliales. […] Los productos de aflibercept actúan como un receptor señuelo soluble que se une al VEGF - A y al PlGF y, de este modo, pueden inhibir la unión y la activación de estos receptores afines del VEGF.» Texto original en inglés: "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), versión del 2026-10-29; consultado el 2026-11-19). Según la farmacología general, aflibercept es una proteína de fusión recombinante que funciona como trampa de VEGF: se une a VEGF-A, VEGF-B y al factor de crecimiento placentario (PlGF), con lo que reduce la angiogénesis y la permeabilidad vascular.
 
 La esotropía es un trastorno de la alineación ocular, generalmente causado por factores neuromusculares, refractivos o acomodativos. No tiene una patología bien establecida dependiente de VEGF, por lo que el vínculo mecanístico directo es débil.
 
@@ -132,13 +132,14 @@ La predicción se apoya solo en el modelo (nivel L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria actual del producto en Colombia (registro cancelado) y la vía de administración requerida" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y que en Colombia estuvo registrada como solución inyectable intravítrea (Eylia®)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
 
 <!-- review:end log -->
 

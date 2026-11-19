@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la clortalidona es un diurético de tipo tiazídico que reduce la presión arterial y el volumen de líquidos. Los datos farmacológicos compilados indican que también interactúa con varias anhidrasas carbónicas (CA1, CA4, CA7, CA12 y CA14), así como con la enzima NAPEPLD.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlorthalidone (traducción no oficial): «La clortalidona es un diurético oral de acción prolongada con actividad antihipertensiva. Los efectos diuréticos de la clortalidona y de los diuréticos benzotiadiazínicos (tiazídicos) parecen surgir de mecanismos similares, y el efecto máximo de la clortalidona y el de las tiazidas parecen ser similares.» Texto original en inglés: "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), versión del 2026-06-25; consultado el 2026-11-19). Según la información conocida, la clortalidona es un diurético de tipo tiazídico que reduce la presión arterial y el volumen de líquidos. Los datos farmacológicos compilados indican que también interactúa con varias anhidrasas carbónicas (CA1, CA4, CA7, CA12 y CA14), así como con la enzima NAPEPLD.
 
 El único vínculo mecanístico plausible con el glaucoma es la inhibición débil de la anhidrasa carbónica, que teóricamente podría reducir la producción de humor acuoso y la presión intraocular. Sin embargo, esto es especulativo: no se aportaron datos que lo respalden.
 
@@ -97,6 +97,19 @@ La predicción tiene un puntaje alto, pero no existe ningún ensayo clínico ni 
 - Datos de mecanismo de acción y estudios preclínicos sobre los efectos de la clortalidona en la presión intraocular y la dinámica del humor acuoso
 - Revisión de las advertencias y contraindicaciones del prospecto aprobado
 - Evidencia clínica o de literatura que estudie directamente esta enfermedad antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

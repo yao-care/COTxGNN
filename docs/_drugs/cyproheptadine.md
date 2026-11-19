@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la ciproheptadina es un antagonista del receptor de histamina H1 con efecto anticolinérgico, y mecanísticamente podría ser aplicable a la enfermedad de la cavidad nasal.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cyproheptadine (traducción no oficial): «Ciproheptadina es un antagonista de la serotonina y de la histamina con efectos anticolinérgicos y sedantes. Los fármacos antiserotoninérgicos y antihistamínicos parecen competir con la serotonina y la histamina, respectivamente, por los sitios receptores.» Texto original en inglés: "Cyproheptadine is a serotonin and histamine antagonist with anticholinergic and sedative effects. Antiserotonin and antihistamine drugs appear to compete with serotonin and histamine, respectively, for receptor sites." ([DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8), versión del 2025-10-21; consultado el 2026-11-19). Según la información conocida, la ciproheptadina es un antagonista del receptor de histamina H1 con efecto anticolinérgico, y mecanísticamente podría ser aplicable a la enfermedad de la cavidad nasal.
 
 El bloqueo H1 y el efecto secante anticolinérgico podrían aliviar la rinorrea y la congestión, como ocurre en la rinitis alérgica. Sin embargo, "enfermedad de la cavidad nasal" es una categoría muy amplia: sin una condición específica definida no es posible precisar el mecanismo ni el grupo de pacientes que se beneficiaría.
 
@@ -96,6 +96,19 @@ La predicción tiene un puntaje alto (0,9921), pero no hay ensayos clínicos ni 
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evaluación de la compatibilidad de vía y forma farmacéutica (el registro actual es solo jarabe oral)
 - Evaluación de seguridad en población susceptible, dado el perfil anticolinérgico y las interacciones identificadas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyproheptadine Hydrochloride Solution (cyproheptadine hydrochloride) prescribing information, Method Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1acfd050-6c07-a269-e063-6394a90a77e8) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

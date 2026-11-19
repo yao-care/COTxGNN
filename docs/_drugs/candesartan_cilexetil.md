@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, candesartán cilexetilo bloquea el receptor de angiotensina II, una vía que participa en la regulación de la presión arterial y del tono vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Candesartan Cilexetil (traducción no oficial): «La angiotensina II se forma a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II). La angiotensina II es el principal agente presor del sistema renina-angiotensina, con efectos que incluyen vasoconstricción, estimulación de la síntesis y liberación de aldosterona, estimulación cardíaca y reabsorción renal de sodio. […] El candesartán bloquea los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al bloquear selectivamente la unión de la angiotensina II al receptor AT 1 en muchos tejidos, como el músculo liso vascular y la glándula suprarrenal.» Texto original en inglés: "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), versión del 2025-12-22; consultado el 2026-11-19). Por su clase, candesartán cilexetilo bloquea el receptor de angiotensina II, una vía que participa en la regulación de la presión arterial y del tono vascular.
 
 En la nefroesclerosis maligna, la angiotensina II favorece el daño vascular y la hipertensión glomerular. Los ARA-II tienen un papel renoprotector establecido en otras enfermedades renales crónicas, lo que hace mecanísticamente plausible la predicción.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones que estudien dir
 - Datos del mecanismo de acción del fármaco
 - Obtención y análisis del prospecto aprobado (advertencias y contraindicaciones)
 - Evaluación de seguridad renal (hiperpotasemia, lesión renal aguda) en hipertensión maligna
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

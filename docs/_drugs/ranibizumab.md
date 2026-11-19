@@ -60,7 +60,7 @@ con **20 publicaciones** identificadas (incluidos ensayos aleatorizados y análi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, ranibizumab es un fragmento de anticuerpo que inhibe el factor de crecimiento endotelial vascular A (VEGF-A). Su uso está bien establecido en enfermedades oculares con componente vascular y de permeabilidad.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ranibizumab (traducción no oficial): «Los productos de ranibizumab se unen al sitio de unión al receptor de las formas activas del VEGF-A, incluida la forma escindida biológicamente activa de esta molécula, el VEGF110. Se ha demostrado que el VEGF-A provoca neovascularización y extravasación en modelos de angiogénesis ocular y de oclusión vascular, y se cree que contribuye a la fisiopatología de la DMAE neovascular, la NVC miópica, la RD, el EMD y el edema macular tras una OVR.» Texto original en inglés: "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), versión del 2026-11-05; consultado el 2026-11-19). Según la información conocida, ranibizumab es un fragmento de anticuerpo que inhibe el factor de crecimiento endotelial vascular A (VEGF-A). Su uso está bien establecido en enfermedades oculares con componente vascular y de permeabilidad.
 
 En la retinopatía diabética, el VEGF impulsa la fuga vascular y la neovascularización de la retina, y los niveles de VEGF en suero y vítreo están elevados en los ojos afectados. Por ello, bloquear esta vía tiene una base mecanística directa. La indicación original no está detallada en el registro colombiano, pero ranibizumab es un fármaco oftalmológico y la nueva indicación pertenece al mismo ámbito de enfermedad retiniana.
 
@@ -140,12 +140,13 @@ El vínculo mecanístico (inhibición de VEGF) es directo y la literatura incluy
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de otros productos con ranibizumab" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
 
 <!-- review:end log -->
 

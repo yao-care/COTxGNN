@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **resistencia a la hormona
 
 ## ¿Por qué es Razonable esta Predicción?
 
-El propiltiouracilo inhibe la tiroperoxidasa y reduce la síntesis de hormonas tiroideas. Además bloquea la conversión periférica de T4 a T3 mediante la desyodasa tipo 1. Estos datos de mecanismo provienen del análisis de la predicción, ya que no se dispone de datos detallados de mecanismo de acción en la ficha del fármaco.
+El propiltiouracilo inhibe la tiroperoxidasa y reduce la síntesis de hormonas tiroideas. Además bloquea la conversión periférica de T4 a T3 mediante la desyodasa tipo 1. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propylthiouracil (traducción no oficial): «El propiltiouracilo inhibe la síntesis de las hormonas tiroideas y, por lo tanto, es eficaz en el tratamiento del hipertiroidismo. El fármaco no inactiva la tiroxina ni la triyodotironina existentes que están almacenadas en la tiroides o que circulan en la sangre, ni interfiere con la eficacia de las hormonas tiroideas administradas por vía oral o por inyección.» Texto original en inglés: "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), versión del 2026-08-27; consultado el 2026-11-19).
 
 En la resistencia a la hormona tiroidea beta (RTH-beta) las hormonas circulantes (T4/T3) están elevadas y la TSH es normal o alta de forma inapropiada. En teoría, reducir la producción hormonal podría disminuir los efectos impulsados por la TSH.
 
@@ -141,11 +141,12 @@ La predicción principal se apoya únicamente en el puntaje del modelo y en lite
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la disponibilidad real del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

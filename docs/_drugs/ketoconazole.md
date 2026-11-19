@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidenc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el ketoconazol es un antifúngico azólico que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-demetilasa), y también tiene actividad antiinflamatoria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketoconazole (traducción no oficial): «El ketoconazol bloquea la síntesis de ergosterol, un componente clave de la membrana celular fúngica, mediante la inhibición de la enzima dependiente del citocromo P-450 lanosterol 14α-desmetilasa, responsable de la conversión del lanosterol en ergosterol en la membrana celular fúngica. Esto da lugar a una acumulación de precursores de esteroles metilados y a una depleción de ergosterol en la membrana celular, lo que debilita la estructura y la función de la membrana celular fúngica.» Texto original en inglés: "Ketoconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371), versión del 2025-11-18; consultado el 2026-11-19). Según la información conocida, el ketoconazol es un antifúngico azólico que inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-demetilasa), y también tiene actividad antiinflamatoria.
 
 Para el acné existen dos vías plausibles, ambas con evidencia indirecta. La primera: el ketoconazol suprime la levadura *Malassezia* (*Pityrosporum*), implicada en erupciones foliculares y acneiformes como la foliculitis por *Malassezia* y la pustulosis cefálica neonatal. Además, estudios de laboratorio indican que inhibe el crecimiento y la actividad de la lipasa de *Propionibacterium acnes*, una bacteria asociada al acné vulgar. La segunda: inhibe la enzima humana CYP17A1 y otras enzimas de la esteroidogénesis, lo que reduce la síntesis de andrógenos y, en teoría, la producción de sebo en acné hiperandrogénico (por ejemplo, en síndrome de ovario poliquístico).
 
@@ -151,13 +151,14 @@ La predicción se apoya sobre todo en el puntaje computacional y en evidencia in
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos tres registros sanitarios están hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los tres registros colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->
 

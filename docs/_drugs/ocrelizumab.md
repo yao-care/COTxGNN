@@ -58,7 +58,7 @@ Ocrelizumab es un anticuerpo monoclonal anti-CD20 que depleta linfocitos B, util
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado en los datos compilados. Según la información conocida, ocrelizumab es un anticuerpo monoclonal humanizado dirigido contra CD20 que depleta los linfocitos B, y su eficacia está establecida en esclerosis múltiple.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ocrelizumab (traducción no oficial): «Se desconoce el mecanismo preciso por el cual el ocrelizumab ejerce sus efectos terapéuticos en la esclerosis múltiple, pero se presume que implica la unión a CD20, un antígeno de superficie celular presente en los linfocitos pre-B y B maduros. Tras la unión a la superficie celular de los linfocitos B, el ocrelizumab produce citólisis celular dependiente de anticuerpos y lisis mediada por el complemento.» Texto original en inglés: "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), versión del 2026-05-14; consultado el 2026-11-19). Según la información conocida, ocrelizumab es un anticuerpo monoclonal humanizado dirigido contra CD20 que depleta los linfocitos B, y su eficacia está establecida en esclerosis múltiple.
 
 Los datos compilados **no respaldan un vínculo mecanístico** entre la depleción de linfocitos B CD20+ y la biología tumoral dependiente de HER2. No existen ensayos ni literatura que conecten ambos conceptos. El puntaje alto de TxGNN (0.9989) es una predicción del modelo y no constituye evidencia clínica.
 
@@ -127,12 +127,13 @@ La predicción para carcinoma de mama HER2 positivo está respaldada solo por el
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

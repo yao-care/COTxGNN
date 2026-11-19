@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, el ácido tranexámico es un antifibrinolítico, análogo de la lisina, que bloquea la unión del plasminógeno a la fibrina y así reduce la degradación de los coágulos. Está establecido para disminuir el sangrado menstrual abundante.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tranexamic Acid (traducción no oficial): «El ácido tranexámico es un derivado sintético del aminoácido lisina que disminuye la disolución de la fibrina hemostática por la plasmina. En presencia de ácido tranexámico, los sitios de unión del receptor de lisina de la plasmina para la fibrina están ocupados, lo que impide la unión a los monómeros de fibrina y, de este modo, preserva y estabiliza la estructura de la matriz de fibrina.» Texto original en inglés: "Tranexamic acid is a synthetic lysine amino acid derivative, which diminishes the dissolution of hemostatic fibrin by plasmin. In the presence of tranexamic acid, the lysine receptor binding sites of plasmin for fibrin are occupied, preventing binding to fibrin monomers, thus preserving and stabilizing fibrin's matrix structure." ([DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5), versión del 2025-09-03; consultado el 2026-11-19). Según el conocimiento farmacológico general, el ácido tranexámico es un antifibrinolítico, análogo de la lisina, que bloquea la unión del plasminógeno a la fibrina y así reduce la degradación de los coágulos. Está establecido para disminuir el sangrado menstrual abundante.
 
 La amenorrea es el estado clínico opuesto: ausencia de menstruación. Por ello, el puntaje alto de TxGNN (0.9919) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas (por ejemplo, trastornos menstruales como el sangrado uterino anormal), no evidencia biológica de un efecto terapéutico real sobre la amenorrea.
 
@@ -130,11 +130,12 @@ No existen ensayos clínicos y la literatura disponible (dos revisiones narrativ
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "A esto se suma que los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cyklokapron (tranexamic acid) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e89a7d9-4da4-42aa-b7f8-c602c24eefe5) |
 
 <!-- review:end log -->
 

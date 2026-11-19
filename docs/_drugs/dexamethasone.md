@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia mucinosa (alope
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la dexametasona se une al receptor de glucocorticoides (NR3C1) y también interactúa con el receptor de mineralocorticoides y el receptor X de pregnano (en ratón). Es un antiinflamatorio e inmunosupresor de amplio uso en condiciones inflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dexamethasone (traducción no oficial): «La dexametasona es un corticosteroide con efectos antiinflamatorios y baja actividad mineralocorticoide. Se desconoce el mecanismo de acción preciso en el mieloma múltiple. La dexametasona induce la apoptosis de las células del mieloma múltiple.» Texto original en inglés: "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), versión del 2026-01-09; consultado el 2026-11-19). Según la información farmacológica conocida, la dexametasona se une al receptor de glucocorticoides (NR3C1) y también interactúa con el receptor de mineralocorticoides y el receptor X de pregnano (en ratón). Es un antiinflamatorio e inmunosupresor de amplio uso en condiciones inflamatorias.
 
 La mucinosis folicular (alopecia mucinosa) cursa con infiltrados inflamatorios alrededor de los folículos pilosos, por lo que un efecto antiinflamatorio corticoide es plausible. Sin embargo, esta relación es solo una hipótesis: no hay ensayos ni literatura en los datos compilados, y el puntaje alto del modelo es únicamente una predicción computacional.
 
@@ -108,11 +108,12 @@ La predicción tiene un puntaje alto (0,9999), pero no existe ningún ensayo cl�
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 3 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
 
 <!-- review:end log -->
 

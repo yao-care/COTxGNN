@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, gemcitabina es un análogo de nucleósidos con acción antimetabolito: interfiere con la síntesis de ADN en células tumorales en división.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gemcitabine (traducción no oficial): «La gemcitabina destruye las células que están sintetizando ADN y bloquea el paso de las células a través del límite entre las fases G1 y S. La gemcitabina se metaboliza por acción de nucleósido cinasas a nucleósidos difosfato (dFdCDP) y trifosfato (dFdCTP).» Texto original en inglés: "Gemcitabine kills cells undergoing DNA synthesis and blocks the progression of cells through the G1/S-phase boundary. Gemcitabine is metabolized by nucleoside kinases to diphosphate (dFdCDP) and triphosphate (dFdCTP) nucleosides." ([DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84), versión del 2026-07-27; consultado el 2026-11-19). Según la información conocida, gemcitabina es un análogo de nucleósidos con acción antimetabolito: interfiere con la síntesis de ADN en células tumorales en división.
 
 Mecanísticamente, esta acción citotóxica podría ser aplicable a adenocarcinomas del tracto gastrointestinal, entre ellos el de recto. Es una extrapolación plausible, pero no está respaldada por estudios que analicen directamente esta enfermedad ni este subtipo mucinoso.
 
@@ -110,6 +110,19 @@ La predicción para adenocarcinoma mucinoso del recto no cuenta con ensayos clí
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto del INVIMA
 - Plan de monitoreo hematológico y de seguridad
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avgemsi (gemcitabine) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e11eeff7-bcaf-4bf1-8da8-88138e01af84) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

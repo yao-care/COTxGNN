@@ -60,7 +60,7 @@ La predicción se apoya únicamente en el puntaje del modelo.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados en los datos compilados para este informe. Según la información conocida, la clofazimina es una riminofenazina antimicobacteriana, con actividad de alteración de membranas y ciclo redox, y se emplea junto con otros antibacterianos en la terapia multifármaco de la lepra y en esquemas para tuberculosis resistente.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clofazimine (traducción no oficial): «LAMPRENE es un fármaco antimicobacteriano. […] Clofazimina ejerce un efecto bactericida lento sobre Mycobacterium leprae (bacilo de Hansen). Clofazimina inhibe el crecimiento de las micobacterias y se une preferentemente al ADN micobacteriano. Clofazimina también ejerce propiedades antiinflamatorias en el tratamiento de las reacciones de eritema nudoso leproso.» Texto original en inglés: "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250), versión del 2026-08-17; consultado el 2026-11-19). Según la información conocida, la clofazimina es una riminofenazina antimicobacteriana, con actividad de alteración de membranas y ciclo redox, y se emplea junto con otros antibacterianos en la terapia multifármaco de la lepra y en esquemas para tuberculosis resistente.
 
 La relación con la nueva indicación es débil. *Pneumocystis* es un hongo, y no se reconoce actividad de la clofazimina contra este organismo. No se identificó un vínculo mecanístico directo. El puntaje del modelo es alto (0.999), pero no está respaldado por datos clínicos ni preclínicos.
 
@@ -135,12 +135,13 @@ El puntaje del modelo es alto, pero no hay ensayos clínicos, ni estudios precl�
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad del fármaco" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
 
 <!-- review:end log -->
 

@@ -68,7 +68,7 @@ con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, la bendamustina es un agente alquilante con una estructura similar a la de los análogos de purinas: provoca entrecruzamiento del ADN y roturas de cadena, con actividad tanto en células en división como en células quiescentes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bendamustine (traducción no oficial): «La bendamustina es un derivado bifuncional de la mecloretamina que contiene un anillo de bencimidazol de tipo purínico. La mecloretamina y sus derivados forman grupos alquilo electrofílicos. Estos grupos forman enlaces covalentes con fracciones nucleofílicas ricas en electrones, lo que da lugar a entrecruzamientos entre las cadenas del ADN.» Texto original en inglés: "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la bendamustina es un agente alquilante con una estructura similar a la de los análogos de purinas: provoca entrecruzamiento del ADN y roturas de cadena, con actividad tanto en células en división como en células quiescentes.
 
 Este mecanismo es coherente con su actividad en neoplasias de células B como el linfoma de células del manto (LCM). La combinación de bendamustina con rituximab (BR) es un esquema base establecido en LCM, y los programas de fase 3 más recientes la combinan con inhibidores de BTK (ibrutinib, acalabrutinib, orelabrutinib, zanubrutinib).
 
@@ -160,7 +160,7 @@ Existen múltiples ensayos de fase 3 completados (incluidos NCT00991211 y NCT008
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -168,6 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: el registro 20154170 está cancelado y no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros sanitarios: 1 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
 
 <!-- review:end log -->
 

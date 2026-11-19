@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero hoy esta d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base consultada. Según la información conocida, clotrimazol es un antifúngico imidazólico que inhibe la enzima CYP51 (lanosterol 14-alfa-desmetilasa). Con ello bloquea la síntesis de ergosterol y daña la membrana del hongo. También se han descrito efectos antimicrobianos y antiinflamatorios.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clotrimazole (traducción no oficial): «El clotrimazol es un agente antifúngico de amplio espectro que inhibe el crecimiento de levaduras patógenas al alterar la permeabilidad de las membranas celulares. La acción del clotrimazol es fungistática a concentraciones del fármaco de hasta 20 mcg/mL y puede ser fungicida in vitro contra Candida albicans y otras especies del género Candida a concentraciones más altas.» Texto original en inglés: "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), versión del 2025-03-27; consultado el 2026-11-19). Según la información conocida, clotrimazol es un antifúngico imidazólico que inhibe la enzima CYP51 (lanosterol 14-alfa-desmetilasa). Con ello bloquea la síntesis de ergosterol y daña la membrana del hongo. También se han descrito efectos antimicrobianos y antiinflamatorios.
 
 El vínculo con el acné es plausible, pero no está demostrado. Podría pasar por la inflamación asociada a *Malassezia* o *Cutibacterium*. La relación entre la indicación original (infecciones cutáneas) y el acné es que ambos son trastornos de la piel con componente microbiano e inflamatorio. Sin embargo, el acné no es una infección fúngica, por lo que la base mecanística es débil.
 
@@ -136,13 +136,14 @@ Se trata de un uso ya establecido y no de un reposicionamiento propiamente dicho
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros están cancelados, por lo que actualmente no hay productos vigentes en Colombia con este principio activo según los datos com" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
 
 <!-- review:end log -->
 

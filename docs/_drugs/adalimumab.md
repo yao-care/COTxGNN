@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general, adalimumab bloquea el TNF, una citocina clave en procesos inflamatorios mediados por el sistema inmune.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Adalimumab (traducción no oficial): «Los productos de adalimumab se unen específicamente al TNF-alfa y bloquean su interacción con los receptores de TNF p55 y p75 de la superficie celular. Los productos de adalimumab también lisan in vitro las células que expresan TNF en su superficie en presencia del complemento.» Texto original en inglés: "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), versión del 2026-11-11; consultado el 2026-11-19). Por conocimiento general, adalimumab bloquea el TNF, una citocina clave en procesos inflamatorios mediados por el sistema inmune.
 
 La hipermovilidad del coxis es una condición mecánica o estructural. No se ha identificado un mecanismo inflamatorio dependiente de TNF que justifique el uso de adalimumab en ella. El puntaje alto del modelo (0,9977) es únicamente una señal computacional y no constituye evidencia clínica.
 
@@ -101,6 +101,19 @@ La predicción se basa solo en el puntaje del modelo, sin ensayos clínicos ni l
 - Estudios preclínicos o series de casos que evalúen la señal
 - Datos del prospecto (advertencias y contraindicaciones) de los productos con registro en Colombia
 - Datos detallados del mecanismo de acción
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

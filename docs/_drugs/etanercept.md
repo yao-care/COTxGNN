@@ -54,7 +54,7 @@ Etanercept es un fármaco biológico que bloquea el TNF, una molécula inflamato
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Etanercept se conoce como una proteína de fusión que actúa como receptor soluble de TNF y, por tanto, bloquea la inflamación mediada por esta molécula.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etanercept (traducción no oficial): «El TNF es una citocina de origen natural que participa en las respuestas inflamatorias e inmunitarias normales. Desempeña un papel importante en los procesos inflamatorios de la AR, la AIJ poliarticular, la APs y la EA, y en la patología articular resultante. […] El etanercept es una forma soluble dimérica del receptor p75 del TNF que puede unirse a moléculas de TNF.» Texto original en inglés: "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), versión del 2026-05-11; consultado el 2026-11-19). Etanercept se conoce como una proteína de fusión que actúa como receptor soluble de TNF y, por tanto, bloquea la inflamación mediada por esta molécula.
 
 La hipermovilidad del coxis es principalmente una condición mecánica o traumática, no una enfermedad inflamatoria impulsada por TNF. Por eso el alto puntaje de predicción no tiene, por ahora, un fundamento mecanístico claro. Tampoco hay estudios que conecten el bloqueo del TNF con esta condición.
 
@@ -91,6 +91,19 @@ No existen ensayos clínicos ni publicaciones que estudien directamente la hiper
 - Estudios preclínicos o series de casos que exploren el uso en esta condición
 - Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto local
 - Revisión del perfil de interacciones, en especial con corticosteroides, si se continúa la evaluación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, con 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, dasatinib es un inhibidor multicinasa que bloquea BCR-ABL y las cinasas de la familia SRC, además de c-KIT y PDGFR. Su eficacia está comprobada en leucemia mieloide crónica y en leucemia linfoblástica aguda Ph+.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dasatinib (traducción no oficial): «El dasatinib, a concentraciones nanomolares, inhibe las siguientes cinasas: BCR-ABL, familia SRC (SRC, LCK, YES, FYN), c-KIT, EPHA2 y PDGFRβ. Según estudios de modelización, se prevé que el dasatinib se una a múltiples conformaciones de la cinasa ABL.» Texto original en inglés: "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, dasatinib es un inhibidor multicinasa que bloquea BCR-ABL y las cinasas de la familia SRC, además de c-KIT y PDGFR. Su eficacia está comprobada en leucemia mieloide crónica y en leucemia linfoblástica aguda Ph+.
 
 En el sarcoma de Ewing, estudios preclínicos indican que la señalización Src/FAK impulsa la invasión, la migración y la formación de invadopodios. Dasatinib mostró actividad antiproliferativa y antimigratoria en líneas celulares de sarcoma de Ewing in vitro. Esto aporta un vínculo mecanístico plausible entre su acción sobre SRC y esta neoplasia.
 
@@ -163,12 +163,13 @@ Las demás predicciones (liposarcoma, dermatofibrosarcoma protuberans y otras) t
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los tres registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

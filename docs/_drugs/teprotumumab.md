@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **monosomía X** (síndrom
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento similar a la insulina tipo 1 (IGF-1R). No se dispone de datos detallados del mecanismo de acción en los datos compilados, pero este perfil farmacológico es el conocido para el fármaco, aprobado internacionalmente para la enfermedad ocular tiroidea.
+Teprotumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento similar a la insulina tipo 1 (IGF-1R). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Teprotumumab (traducción no oficial): «El mecanismo de acción del teprotumumab-trbw en pacientes con enfermedad ocular tiroidea no se ha caracterizado completamente. El teprotumumab-trbw se une al IGF-1R y bloquea su activación y señalización.» Texto original en inglés: "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), versión del 2026-09-28; consultado el 2026-11-19).
 
 **En este caso la razonabilidad biológica es débil.** No se identificó un vínculo mecanístico plausible entre el bloqueo de IGF-1R y la monosomía X. El tratamiento del síndrome de Turner se basa en hormona de crecimiento y reemplazo estrogénico, y el eje IGF-1/IGF-1R favorece el crecimiento; por ello, bloquear IGF-1R sería esperablemente contraproducente frente a la terapia de crecimiento.
 
@@ -115,13 +115,14 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la disponibilidad del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que contó con un registro sanitario en Colombia (TEPEZZA®), actualmente cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
 
 <!-- review:end log -->
 

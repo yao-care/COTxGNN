@@ -56,7 +56,7 @@ Hasta ahora no hay **ensayos clínicos** registrados para esta indicación y sol
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la citarabina es un análogo de nucleósido de pirimidina. Se incorpora al ADN durante la replicación e interfiere con su síntesis en las células que se dividen activamente.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cytarabine (traducción no oficial): «Aunque el mecanismo de acción no se comprende por completo, parece que la citarabina actúa mediante la inhibición de la ADN polimerasa. También se ha notificado una incorporación limitada, pero significativa, de la citarabina tanto en el ADN como en el ARN.» Texto original en inglés: "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), versión del 2026-10-19; consultado el 2026-11-19). Según la información conocida, la citarabina es un análogo de nucleósido de pirimidina. Se incorpora al ADN durante la replicación e interfiere con su síntesis en las células que se dividen activamente.
 
 El carcinoma pulmonar de células pequeñas se caracteriza por una proliferación muy rápida. Por eso, en principio, podría ser sensible a un fármaco que actúa sobre la fase S del ciclo celular. Esta es la base mecanística de la predicción.
 
@@ -117,6 +117,18 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA.
 - Revisión de estudios recientes en cáncer pulmonar de células pequeñas frente a los tratamientos estándar actuales.
 - Un plan de monitoreo hematológico y de seguridad antes de considerar un estudio clínico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

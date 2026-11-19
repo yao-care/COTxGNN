@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, esomeprazol actúa sobre la bomba de protones gástrica (ATP4A) y reduce la secreción de ácido en el estómago.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Esomeprazole (traducción no oficial): «El esomeprazol pertenece a una clase de compuestos antisecretores, los bencimidazoles sustituidos, que suprimen la secreción de ácido gástrico mediante la inhibición específica del sistema enzimático H+/K+ ATPasa en la superficie secretora de la célula parietal gástrica. El esomeprazol se protona y se convierte en el compartimento ácido de la célula parietal, formando el inhibidor activo, la sulfenamida aquiral.» Texto original en inglés: "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), versión del 2025-12-19; consultado el 2026-11-19). Según la información conocida, esomeprazol actúa sobre la bomba de protones gástrica (ATP4A) y reduce la secreción de ácido en el estómago.
 
 La obstrucción duodenal es una condición principalmente mecánica, por lo que la supresión de ácido no tiene un papel plausible como tratamiento modificador de la enfermedad. A lo sumo, podría ayudar con la enfermedad péptica secundaria. Es probable que la predicción se deba a la cercanía del modelo con la úlcera duodenal, que puede causar obstrucción como complicación.
 
@@ -97,6 +97,19 @@ No existen ensayos clínicos ni publicaciones sobre esomeprazol en obstrucción 
 - Revisión de la literatura para confirmar si existe algún estudio en obstrucción duodenal o sus complicaciones pépticas
 - Advertencias y contraindicaciones del prospecto aprobado en Colombia
 - Evaluación de la compatibilidad de vías de administración para esta condición
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

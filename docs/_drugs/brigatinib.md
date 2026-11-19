@@ -60,7 +60,7 @@ Se trata de una predicción del modelo TxGNN (aprendizaje profundo), sin evidenc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura conocida, brigatinib es un inhibidor de tirosina quinasas de nueva generación, con actividad principal frente a ALK y, según el análisis del modelo, también frente a EGFR y FAK. Su eficacia en CPNM ALK positivo está respaldada por el ensayo de fase 3 ALTA-1L.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Brigatinib (traducción no oficial): «El brigatinib es un inhibidor de la tirosina cinasa (ITC) con actividad in vitro, a concentraciones clínicamente alcanzables, contra múltiples cinasas, incluidas ALK, ROS1, el receptor del factor de crecimiento insulínico tipo 1 (IGF-1R) y FLT-3, así como contra deleciones y mutaciones puntuales de EGFR. El brigatinib inhibió la autofosforilación de ALK y la fosforilación mediada por ALK de las proteínas de señalización posteriores STAT3, AKT, ERK1/2 y S6 en ensayos in vitro e in vivo.» Texto original en inglés: "Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays." ([DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db), versión del 2026-01-12; consultado el 2026-11-19). Según la literatura conocida, brigatinib es un inhibidor de tirosina quinasas de nueva generación, con actividad principal frente a ALK y, según el análisis del modelo, también frente a EGFR y FAK. Su eficacia en CPNM ALK positivo está respaldada por el ensayo de fase 3 ALTA-1L.
 
 Sin embargo, el análisis de los datos compilados **no identificó un vínculo mecanístico plausible** entre la inhibición de estas quinasas y la fibromatosis gingival, una condición de crecimiento excesivo del tejido gingival, generalmente benigno. La alta puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no una relación biológica demostrada.
 
@@ -144,12 +144,13 @@ La predicción para fibromatosis gingival es solo una puntuación del modelo (ni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
 
 <!-- review:end log -->
 

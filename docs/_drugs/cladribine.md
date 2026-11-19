@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, cladribina es un análogo de nucleósido de purina resistente a la adenosina desaminasa. Una vez fosforilada por la desoxicitidina cinasa, se acumula como trifosfato e interfiere con la síntesis y la reparación del ADN.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cladribine (traducción no oficial): «El mecanismo por el cual la cladribina ejerce sus efectos terapéuticos en los pacientes con esclerosis múltiple no se ha dilucidado por completo, pero se cree que implica efectos citotóxicos sobre los linfocitos B y T mediante la alteración de la síntesis del ADN, lo que da lugar a una depleción de linfocitos.» Texto original en inglés: "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), versión del 2026-05-27; consultado el 2026-11-19). Según la información conocida, cladribina es un análogo de nucleósido de purina resistente a la adenosina desaminasa. Una vez fosforilada por la desoxicitidina cinasa, se acumula como trifosfato e interfiere con la síntesis y la reparación del ADN.
 
 Este es un mecanismo citotóxico general. Su actividad principal se da en células linfoides, que tienen alta actividad de desoxicitidina cinasa y baja actividad de 5'-nucleotidasa. No se identificó un vínculo específico con la biología del rabdomiosarcoma embrionario, un tumor sólido de origen mesenquimal.
 
@@ -106,6 +106,19 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Datos del mecanismo de acción y su relevancia en tumores sólidos mesenquimales.
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones.
 - Evaluación de la relación riesgo-beneficio frente a los tratamientos estándar de rabdomiosarcoma.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

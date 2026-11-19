@@ -60,7 +60,7 @@ con **1 ensayo clínico** y **20 publicaciones** que actualmente respaldan esta 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, pertuzumab se une al dominio extracelular de dimerización de HER2 (subdominio II) y bloquea la heterodimerización HER2/HER3, lo que suprime las vías de señalización PI3K/AKT y MAPK. Es complementario a trastuzumab y su eficacia en cáncer de mama HER2-positivo está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pertuzumab (traducción no oficial): «El pertuzumab se dirige al dominio de dimerización extracelular (subdominio II) de la proteína del receptor 2 del factor de crecimiento epidérmico humano (HER2) y, de este modo, bloquea la heterodimerización dependiente de ligando de HER2 con otros miembros de la familia HER, incluidos EGFR, HER3 y HER4. Como resultado, el pertuzumab inhibe la señalización intracelular iniciada por ligando a través de dos vías de señalización principales: la de la proteína cinasa activada por mitógenos (MAP) y la de la fosfoinositida 3-cinasa (PI3K).» Texto original en inglés: "Pertuzumab targets the extracellular dimerization domain (Subdomain II) of the human epidermal growth factor receptor 2 protein (HER2) and, thereby, blocks ligand-dependent heterodimerization of HER2 with other HER family members, including EGFR, HER3, and HER4. As a result, pertuzumab inhibits ligand-initiated intracellular signaling through two major signal pathways, mitogen-activated protein (MAP) kinase, and phosphoinositide 3-kinase (PI3K)." ([DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff), versión del 2026-04-30; consultado el 2026-11-19). Según la información conocida, pertuzumab se une al dominio extracelular de dimerización de HER2 (subdominio II) y bloquea la heterodimerización HER2/HER3, lo que suprime las vías de señalización PI3K/AKT y MAPK. Es complementario a trastuzumab y su eficacia en cáncer de mama HER2-positivo está comprobada.
 
 La nueva indicación predicha corresponde a tumores HER2-positivos que además expresan receptor de progesterona (HR+/HER2+). En este subgrupo existe interacción cruzada entre la señalización de HER2 y la vía endocrina, por lo que el bloqueo dual de HER2, a veces combinado con terapia endocrina, resulta mecanísticamente coherente.
 
@@ -148,11 +148,12 @@ Existe un ensayo de Fase 3 completado y varios ECA publicados (NeoSphere, WSG-TP
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los tres registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Perjeta (pertuzumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=17f85d17-ab71-4f5b-9fe3-0b8c822f69ff) |
 
 <!-- review:end log -->
 

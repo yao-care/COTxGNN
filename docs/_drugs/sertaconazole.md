@@ -56,7 +56,7 @@ pero actualmente no hay **ensayos clínicos** ni **publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Sertaconazol pertenece a la clase de los antifúngicos azólicos, que tienen actividad in vitro frente a dermatofitos, por lo que mecanísticamente podría ser aplicable a esta infección.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sertaconazole (traducción no oficial): «El nitrato de sertaconazol es un antifúngico azólico. […] El sertaconazol, un agente antifúngico azólico, inhibe la enzima 14 alfa-lanosterol desmetilasa fúngica mediada por el citocromo P-450. Esta enzima actúa convirtiendo el lanosterol en ergosterol. El ergosterol es un componente clave de las membranas celulares fúngicas y la falta de este componente provoca lesión celular fúngica por la fuga de constituyentes clave del citoplasma desde la célula.» Texto original en inglés: "Sertaconazole nitrate is an azole antifungal. […] Sertaconazole, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. Ergosterol is a key component of fungal cell membranes and lack of this component leads to fungal cell injury by leakage of key constituents in the cytoplasm from the cell." ([DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96), versión del 2026-04-07; consultado el 2026-11-19). Sertaconazol pertenece a la clase de los antifúngicos azólicos, que tienen actividad in vitro frente a dermatofitos, por lo que mecanísticamente podría ser aplicable a esta infección.
 
 La infección ectotrix es una infección del tallo del pelo causada por dermatofitos (por ejemplo, *Microsporum* y algunas especies de *Trichophyton*). La actividad antifúngica es plausible, pero los fármacos de uso tópico suelen penetrar poco en el folículo piloso, por lo que en este tipo de infecciones normalmente se requiere tratamiento sistémico.
 
@@ -95,6 +95,18 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Datos del mecanismo de acción
 - Evaluación de la compatibilidad de la vía de administración (tópica frente a sistémica)
 - Información de seguridad del prospecto autorizado en INVIMA
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ertaczo (sertaconazole nitrate) prescribing information, Coral Way Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6fa8dc4-2620-474e-a9b4-6657d9cbfa96) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

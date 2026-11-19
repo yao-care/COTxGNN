@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, irinotecan es un profármaco de SN-38, un inhibidor de la topoisomerasa I que causa daño al ADN en células que se dividen rápidamente. Este mecanismo citotóxico es coherente con un puntaje alto del modelo (0.9908).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Irinotecan (traducción no oficial): «El irinotecán es un derivado de la camptotecina. Las camptotecinas interactúan específicamente con la enzima topoisomerasa I, que alivia la tensión torsional del ADN al inducir roturas monocatenarias reversibles. El irinotecán y su metabolito activo SN-38 se unen al complejo topoisomerasa I-ADN e impiden la religación de estas roturas monocatenarias.» Texto original en inglés: "Irinotecan is a derivative of camptothecin. Camptothecins interact specifically with the enzyme topoisomerase I, which relieves torsional strain in DNA by inducing reversible single-strand breaks. Irinotecan and its active metabolite SN-38 bind to the topoisomerase I-DNA complex and prevent religation of these single-strand breaks." ([DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056), versión del 2026-05-12; consultado el 2026-11-19). Según la información conocida, irinotecan es un profármaco de SN-38, un inhibidor de la topoisomerasa I que causa daño al ADN en células que se dividen rápidamente. Este mecanismo citotóxico es coherente con un puntaje alto del modelo (0.9908).
 
 La relación con la nueva indicación se apoya sobre todo en un fármaco derivado: sacituzumab govitecan, un conjugado anticuerpo-fármaco dirigido a Trop-2 cuya carga útil es SN-38. Ha mostrado eficacia en cáncer de mama metastásico HR+/HER2- y triple negativo (diseño del estudio de fase III TROPiCS-02, PMID 32223649). Esto respalda la inhibición de la topoisomerasa I como mecanismo válido en cáncer de mama.
 
@@ -162,12 +162,13 @@ La evidencia directa de irinotecan en cáncer de mama es escasa (un ensayo de fa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria y la disponibilidad de producto en Colombia (registros cancelados, nueva solicitud o formulaciones alternat" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 2 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Camptosar (irinotecan hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e518dfc6-7e93-4fee-a66c-51e1ab71c056) |
 
 <!-- review:end log -->
 

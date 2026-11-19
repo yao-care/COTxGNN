@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **síndrome de inmunode
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Cobicistat inhibe la enzima CYP3A (y en cierta medida transportadores como P-gp y BCRP). Por ello se emplea para elevar la exposición de otros antirretrovirales administrados a la vez, como inhibidores de proteasa o de integrasa. No tiene actividad antiviral propia conocida. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe.
+Cobicistat inhibe la enzima CYP3A (y en cierta medida transportadores como P-gp y BCRP). Por ello se emplea para elevar la exposición de otros antirretrovirales administrados a la vez, como inhibidores de proteasa o de integrasa. No tiene actividad antiviral propia conocida. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cobicistat (traducción no oficial): «Cobicistat es un inhibidor basado en el mecanismo del citocromo P450 3A (CYP3A). La inhibición del metabolismo mediado por CYP3A por parte de cobicistat aumenta la exposición sistémica a atazanavir y darunavir, sustratos de CYP3A.» Texto original en inglés: "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), versión del 2026-02-10; consultado el 2026-11-19).
 
 El puntaje alto del modelo probablemente refleja la cercanía de cobicistat con nodos relacionados con el VIH y otros lentivirus a través de sus combinaciones antirretrovirales, y no un efecto directo sobre el virus de la inmunodeficiencia felina (FIV). Cualquier beneficio dependería de administrarlo junto con un antiviral activo contra el FIV, y no hay datos que demuestren que tal combinación funcione en gatos.
 
@@ -93,6 +93,19 @@ Actualmente no hay literatura relacionada disponible.
 - Datos del mecanismo de acción y estudios preclínicos o veterinarios sobre el FIV.
 - Evidencia de que exista un antiviral activo contra el FIV que justifique su uso como potenciador.
 - Revisión del prospecto del producto registrado para advertencias y contraindicaciones.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

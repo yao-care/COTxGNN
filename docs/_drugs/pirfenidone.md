@@ -66,7 +66,7 @@ Pirfenidona es un fármaco antifibrótico registrado en Colombia bajo el nombre 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la pirfenidona es un agente antifibrótico y antiinflamatorio oral no citotóxico. Los estudios compilados indican que inhibe la acción de factores de crecimiento como TGF-β1, PDGF, EGF y FGF, lo que reduce la activación de fibroblastos y la síntesis de colágeno.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pirfenidone (traducción no oficial): «No se ha establecido el mecanismo de acción de la pirfenidona en el tratamiento de la FPI.» Texto original en inglés: "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), versión del 2025-12-05; consultado el 2026-11-19). Según la información conocida, la pirfenidona es un agente antifibrótico y antiinflamatorio oral no citotóxico. Los estudios compilados indican que inhibe la acción de factores de crecimiento como TGF-β1, PDGF, EGF y FGF, lo que reduce la activación de fibroblastos y la síntesis de colágeno.
 
 La relación con la nueva indicación se basa en esa biología compartida: las neoplasias fibroblásticas implican proliferación de fibroblastos, y la pirfenidona frena la transformación de fibroblastos en miofibroblastos inducida por TGF-β1. En fibroblastos derivados de la enfermedad de Dupuytren (un trastorno fibroproliferativo benigno) se observó esta inhibición, incluida la de vías de señalización no-SMAD.
 
@@ -139,12 +139,13 @@ La predicción se apoya solo en evidencia preclínica indirecta y en reportes de
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran actualmente como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

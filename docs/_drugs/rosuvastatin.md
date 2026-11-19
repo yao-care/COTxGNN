@@ -60,7 +60,7 @@ Cabe aclarar que esta es en gran medida una indicación ya establecida de las es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, rosuvastatina inhibe de forma competitiva la HMG-CoA reductasa, enzima clave en la síntesis hepática de colesterol. Esto reduce el colesterol intracelular en el hígado y aumenta la expresión de receptores de LDL, con la consiguiente disminución del colesterol LDL (LDL-C) y del colesterol total.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rosuvastatin (traducción no oficial): «CRESTOR es un inhibidor de la HMG‑CoA reductasa, la enzima limitante de la velocidad que convierte la 3‑hidroxi‑3‑metilglutaril coenzima A en mevalonato, un precursor del colesterol.» Texto original en inglés: "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), versión del 2026-09-23; consultado el 2026-11-19). Según el conocimiento farmacológico general, rosuvastatina inhibe de forma competitiva la HMG-CoA reductasa, enzima clave en la síntesis hepática de colesterol. Esto reduce el colesterol intracelular en el hígado y aumenta la expresión de receptores de LDL, con la consiguiente disminución del colesterol LDL (LDL-C) y del colesterol total.
 
 La indicación original (alteraciones lipídicas) y la hipercolesterolemia familiar comparten el mismo problema de fondo: niveles elevados de LDL-C. En la forma familiar, el defecto genético (típicamente en el receptor de LDL) agrava ese cuadro. Los datos de farmacología también señalan que la rosuvastatina se usa en hiperlipidemia primaria, dislipidemia mixta e hipertrigliceridemia.
 
@@ -163,13 +163,14 @@ Hay varios ensayos de Fase 3 completados con rosuvastatina en hipercolesterolemi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados, por lo que actualmente no hay registros vigentes en Colombia para estos productos" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes de los productos con rosuvastatina" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que ambos registros sanitarios están cancelados (posible nueva solicitud o confirmación de otros registros)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

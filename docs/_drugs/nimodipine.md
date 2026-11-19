@@ -60,7 +60,7 @@ Se trata de una predicción puramente computacional.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, nimodipino es una dihidropiridina que bloquea los canales de calcio tipo L, con actividad preferente en los vasos cerebrales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nimodipine (traducción no oficial): «El nimodipino es un bloqueante de los canales de calcio del grupo de las dihidropiridinas. Los procesos contráctiles de las células del músculo liso dependen de los iones de calcio, que entran en estas células durante la despolarización como corrientes iónicas transmembrana lentas.» Texto original en inglés: "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), versión del 2024-08-30; consultado el 2026-11-19). Según la información conocida, nimodipino es una dihidropiridina que bloquea los canales de calcio tipo L, con actividad preferente en los vasos cerebrales.
 
 La hipercolesterolemia familiar homocigota, en cambio, se origina por defectos en la vía del receptor de LDL (genes LDLR, APOB, PCSK9, LDLRAP1), que producen niveles muy elevados de colesterol LDL. **No existe un vínculo mecanístico clínicamente establecido** entre ambas condiciones. Algunos bloqueadores de los canales de calcio han mostrado efectos menores e inconsistentes sobre el metabolismo lipídico o la progresión de la aterosclerosis en contextos preclínicos u observacionales, pero esto no corrige el defecto genético de fondo.
 
@@ -134,12 +134,13 @@ La predicción solo cuenta con respaldo computacional (nivel L5), sin ensayos cl
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "ambos registros sanitarios en Colombia están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
 
 <!-- review:end log -->
 

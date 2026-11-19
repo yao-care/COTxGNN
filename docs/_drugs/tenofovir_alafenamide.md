@@ -60,7 +60,7 @@ con **0 ensayos clínicos** y **8 publicaciones** (todas preclínicas en modelos
 
 ## ¿Por qué es Razonable esta Predicción?
 
-TAF es un inhibidor nucleotídico de la transcriptasa inversa. Su metabolito activo, el difosfato de tenofovir, termina la elongación del ADN viral. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe, pero esta descripción corresponde a su farmacología conocida.
+TAF es un inhibidor nucleotídico de la transcriptasa inversa. Su metabolito activo, el difosfato de tenofovir, termina la elongación del ADN viral. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tenofovir Alafenamide (traducción no oficial): «El tenofovir alafenamida es un fármaco antiviral contra el virus de la hepatitis B. […] El tenofovir alafenamida es un profármaco fosfonamidato del tenofovir (análogo del monofosfato de 2'-desoxiadenosina). El tenofovir alafenamida, como compuesto lipofílico permeable a las células, entra en los hepatocitos primarios por difusión pasiva y mediante los transportadores de captación hepática OATP1B1 y OATP1B3.» Texto original en inglés: "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), versión del 2025-07-14; consultado el 2026-11-19).
 
 El SIV y el SHIV son lentivirus estrechamente relacionados con el VIH y comparten la misma diana (la transcriptasa inversa), por lo que la predicción es biológicamente plausible. Los estudios en macacos muestran protección preclínica: profilaxis preexposición oral con emtricitabina/TAF, implantes de TAF, insertos tópicos y profilaxis posexposición.
 
@@ -132,11 +132,12 @@ La evidencia es exclusivamente preclínica en primates no humanos (L4) y no repr
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

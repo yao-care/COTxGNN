@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **carcinoma de células
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, pazopanib inhibe VEGFR-1/2/3, PDGFR y c-KIT, bloqueando la angiogénesis tumoral. Su eficacia está establecida en carcinoma renal de células claras avanzado.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pazopanib (traducción no oficial): «El pazopanib es un inhibidor multitirosina cinasa del receptor del factor de crecimiento endotelial vascular (VEGFR)-1, VEGFR-2, VEGFR-3, el receptor del factor de crecimiento derivado de plaquetas (PDGFR)-α y -β, el receptor del factor de crecimiento de fibroblastos (FGFR)-1 y -3, el receptor de citocinas (Kit), la cinasa de células T inducible por el receptor de interleucina-2 (Itk), la proteína tirosina cinasa específica de linfocitos (Lck) y la tirosina cinasa del receptor glucoproteico transmembrana (c-Fms). In vitro, el pazopanib inhibió la autofosforilación inducida por ligando de los receptores VEGFR-2, Kit y PDGFR-β.» Texto original en inglés: "Pazopanib is a multi-tyrosine kinase inhibitor of vascular endothelial growth factor receptor (VEGFR)-1, VEGFR-2, VEGFR-3, platelet-derived growth factor receptor (PDGFR)-α and -β, fibroblast growth factor receptor (FGFR)-1 and -3, cytokine receptor (Kit), interleukin-2 receptor-inducible T-cell kinase (Itk), lymphocyte-specific protein tyrosine kinase (Lck), and transmembrane glycoprotein receptor tyrosine kinase (c-Fms). In vitro, pazopanib inhibited ligand-induced autophosphorylation of VEGFR-2, Kit, and PDGFR-β receptors." ([DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7), versión del 2025-12-16; consultado el 2026-11-19). Según el conocimiento general, pazopanib inhibe VEGFR-1/2/3, PDGFR y c-KIT, bloqueando la angiogénesis tumoral. Su eficacia está establecida en carcinoma renal de células claras avanzado.
 
 El carcinoma renal no clasificado pertenece al grupo de carcinomas renales de células no claras. Estos tumores comparten, en parte, una biología dependiente de la angiogénesis con el subtipo de células claras, por lo que la inhibición de la vía VEGF/PDGF es mecanísticamente plausible.
 
@@ -157,11 +157,12 @@ La evidencia disponible es retrospectiva y de brazo único (nivel L3), sin ensay
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que gestionar un nuevo registro o una vía alterna" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Votrient (pazopanib hydrochloride) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eeaaaf38-fb86-4d9f-a19d-0f61daac2fd7) |
 
 <!-- review:end log -->
 

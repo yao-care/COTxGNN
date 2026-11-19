@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **miopatía distal tipo Ta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, propranolol es un betabloqueante no selectivo, usado ampliamente en hipertensión, arritmias, angina, temblor y prevención de hemorragia por várices, entre otros usos. Sin embargo, no hay respaldo en los datos para vincular este mecanismo con la miopatía distal tipo Tateyama.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propranolol (traducción no oficial): «No se ha establecido el mecanismo del efecto antihipertensivo del propranolol. Entre los factores que contribuyen a la acción antihipertensiva se encuentran: la disminución del gasto cardíaco, la inhibición de la liberación de renina por los riñones y la disminución del flujo simpático tónico desde los centros vasomotores del cerebro.» Texto original en inglés: "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), versión del 2026-08-27; consultado el 2026-11-19). Según la información conocida, propranolol es un betabloqueante no selectivo, usado ampliamente en hipertensión, arritmias, angina, temblor y prevención de hemorragia por várices, entre otros usos. Sin embargo, no hay respaldo en los datos para vincular este mecanismo con la miopatía distal tipo Tateyama.
 
 El análisis de la relación mecanística concluye que no existe un vínculo respaldado: el puntaje del modelo es alto, pero no hay ensayos ni literatura, y plantear un bloqueo betaadrenérgico como racional para esta miopatía distal rara es especulativo.
 
@@ -143,12 +143,13 @@ La predicción para miopatía distal tipo Tateyama se basa únicamente en el pun
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes del producto" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializ" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

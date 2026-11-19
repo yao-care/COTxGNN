@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **angioedema adquirido (ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por conocimiento general, artemeter pertenece a las artemisininas, cuyo puente endoperóxido genera radicales libres que actúan contra el parásito del paludismo.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Artemether es (traducción no oficial): «Inhibidor de la ferriprotoporfirina IX» Texto original en inglés: "Ferriprotoporphyrin IX inhibitor" ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, artemeter pertenece a las artemisininas, cuyo puente endoperóxido genera radicales libres que actúan contra el parásito del paludismo.
 
 No se ha identificado un vínculo mecanístico entre ese mecanismo antiparasitario y el angioedema adquirido, que está mediado por bradicinina o por el sistema del complemento. El puntaje alto (0.9990) es solo una predicción del modelo y no equivale a evidencia clínica.
 
@@ -107,11 +107,12 @@ La predicción no cuenta con ensayos clínicos ni publicaciones, no hay un vínc
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros sanitarios: 1 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

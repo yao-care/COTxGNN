@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento farmacológico general, la capecitabina es un profármaco oral que se convierte en 5-fluorouracilo, un inhibidor de la timidilato sintasa (TYMS) que además se incorpora al ARN y ADN como antimetabolito. La base de datos de farmacología consultada registra a TYMS como su diana humana.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Capecitabine (traducción no oficial): «La capecitabina se metaboliza a fluorouracilo in vivo. Tanto las células normales como las tumorales metabolizan el fluorouracilo a monofosfato de 5-fluoro-2'-desoxiuridina (FdUMP) y trifosfato de 5-fluorouridina (FUTP). Estos metabolitos causan daño celular mediante dos mecanismos diferentes.» Texto original en inglés: "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), versión del 2026-02-05; consultado el 2026-11-19). Según el conocimiento farmacológico general, la capecitabina es un profármaco oral que se convierte en 5-fluorouracilo, un inhibidor de la timidilato sintasa (TYMS) que además se incorpora al ARN y ADN como antimetabolito. La base de datos de farmacología consultada registra a TYMS como su diana humana.
 
 El puntaje alto (0,9994) podría reflejar en parte la asociación ya conocida de las fluoropirimidinas con tumores gástricos en general, y no necesariamente una señal novedosa reposicionamiento. La enfermedad predicha corresponde a un síndrome raro (GAPPS) con predisposición al adenocarcinoma gástrico y poliposis proximal del estómago. Los datos compilados no muestran que la capecitabina actúe sobre la biología subyacente del síndrome ni sobre la poliposis, por lo que el vínculo mecanístico específico no está respaldado.
 
@@ -106,6 +106,19 @@ La predicción se apoya solo en el modelo computacional (nivel L5), sin ensayos 
 - Búsqueda de estudios clínicos o de literatura que aborden directamente esta enfermedad.
 - Obtención y revisión del prospecto del INVIMA (advertencias y contraindicaciones oficiales).
 - Evaluación de compatibilidad de vía de administración y similitud con la indicación original.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

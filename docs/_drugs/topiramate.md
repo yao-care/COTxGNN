@@ -60,7 +60,7 @@ Entre las demás predicciones, las que tienen más respaldo son subtipos de epil
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, topiramato bloquea los canales de sodio dependientes de voltaje, potencia la actividad GABA-A, antagoniza receptores glutamatérgicos AMPA/kainato e inhibe la anhidrasa carbónica. Los datos compilados confirman su interacción con las isoformas CA1, CA4, CA7 y CA12.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Topiramate (traducción no oficial): «Se desconocen los mecanismos precisos por los cuales el topiramato ejerce sus efectos anticonvulsivos y preventivos de la migraña; sin embargo, los estudios preclínicos han revelado cuatro propiedades que podrían contribuir a la eficacia del topiramato en la epilepsia y en el tratamiento preventivo de la migraña.» Texto original en inglés: "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), versión del 2026-10-05; consultado el 2026-11-19). Según la información farmacológica conocida, topiramato bloquea los canales de sodio dependientes de voltaje, potencia la actividad GABA-A, antagoniza receptores glutamatérgicos AMPA/kainato e inhibe la anhidrasa carbónica. Los datos compilados confirman su interacción con las isoformas CA1, CA4, CA7 y CA12.
 
 Estos mecanismos explican su eficacia antiepiléptica, pero **no corresponden a un mecanismo antineoplásico establecido**. Cualquier vínculo con una neoplasia del nervio trigémino sería, como mucho, sintomático (por ejemplo, alivio de dolor de tipo neuralgia del trigémino) y no dirigido contra el tumor. El puntaje alto de TxGNN (0.9970) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -149,12 +149,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro encontrado (Janssen Cilag S.A.) está cancelado, por lo que no hay registro vigente en los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

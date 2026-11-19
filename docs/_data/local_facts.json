@@ -21,11 +21,12 @@
   "items_current": 2439
  },
  "reviews": {
-  "records": 965,
-  "pages": 443,
-  "public_pages_with_records": 435,
+  "records": 1407,
+  "pages": 560,
+  "public_pages_with_records": 552,
   "by_action": {
-   "correct": 965
+   "correct": 965,
+   "mechanism": 442
   }
  },
  "fhir": {
@@ -39,7 +40,7 @@
    "l": "L1",
    "lt": 20,
    "lv": 20,
-   "r": 2,
+   "r": 3,
    "i": "seborrheic dermatitis"
   },
   {
@@ -48,7 +49,7 @@
    "l": "L5",
    "lt": 20,
    "lv": 19,
-   "r": 0,
+   "r": 1,
    "i": "malformación respiratoria"
   },
   {
@@ -66,7 +67,7 @@
    "l": "L4",
    "lt": 18,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "alopecia mucinosa"
   },
   {
@@ -75,7 +76,7 @@
    "l": "L4",
    "lt": 18,
    "lv": 18,
-   "r": 1,
+   "r": 2,
    "i": "nasal cavity disease"
   },
   {
@@ -84,7 +85,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 18,
-   "r": 0,
+   "r": 1,
    "i": "Enfermedad de la región orbitaria"
   },
   {
@@ -102,7 +103,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 17,
-   "r": 0,
+   "r": 1,
    "i": "Síndrome de hiperviscosidad policlonal"
   }
  ],
@@ -113,7 +114,7 @@
    "l": "L1",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "anxiety disorder"
   },
   {
@@ -158,7 +159,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "Mastocitosis sistémica indolente"
   },
   {
@@ -179,7 +180,7 @@
    "l": "L5",
    "lt": 2,
    "lv": 2,
-   "r": 5,
+   "r": 6,
    "i": "vulvar inverted follicular keratosis"
   },
   {
@@ -188,17 +189,8 @@
    "l": "L1",
    "lt": 14,
    "lv": 11,
-   "r": 4,
+   "r": 5,
    "i": "mantle cell lymphoma"
-  },
-  {
-   "t": "Ciclesonide",
-   "u": "/drugs/ciclesonide/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 2,
-   "r": 4,
-   "i": "atopic eczema"
   },
   {
    "t": "Cyclosporine",
@@ -206,17 +198,8 @@
    "l": "L4",
    "lt": 8,
    "lv": 8,
-   "r": 4,
+   "r": 5,
    "i": "granulomatous disease, chronic, autosomal recessive"
-  },
-  {
-   "t": "Daunorubicin",
-   "u": "/drugs/daunorubicin/",
-   "l": "L3",
-   "lt": 1,
-   "lv": 1,
-   "r": 4,
-   "i": "Hodgkins lymphoma"
   },
   {
    "t": "Flucytosine",
@@ -224,8 +207,26 @@
    "l": "L5",
    "lt": 1,
    "lv": 1,
-   "r": 4,
+   "r": 5,
    "i": "bone Paget disease"
+  },
+  {
+   "t": "Imiquimod",
+   "u": "/drugs/imiquimod/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 1,
+   "r": 5,
+   "i": "pre-malignant neoplasm"
+  },
+  {
+   "t": "Levetiracetam",
+   "u": "/drugs/levetiracetam/",
+   "l": "L5",
+   "lt": 0,
+   "lv": 15,
+   "r": 5,
+   "i": "beta-ketothiolase deficiency"
   }
  ],
  "example": {
@@ -234,7 +235,7 @@
   "l": "L1",
   "lt": 20,
   "lv": 20,
-  "r": 2,
+  "r": 3,
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [

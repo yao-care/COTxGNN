@@ -67,7 +67,7 @@ El modelo TxGNN predice que podría ser efectivo para **tumor adenomatoide pleur
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, pralatrexato es un análogo del folato que inhibe la DHFR, se internaliza eficientemente a través del transportador RFC-1 y bloquea la síntesis de ADN en células de división rápida. Su eficacia está comprobada en linfoma periférico de células T.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pralatrexate (traducción no oficial): «El pralatrexato es un inhibidor metabólico análogo del folato que inhibe de forma competitiva la dihidrofolato reductasa. También es un inhibidor competitivo de la poliglutamilación por la enzima folilpoliglutamil sintetasa. Esta inhibición produce la depleción de timidina y de otras moléculas biológicas cuya síntesis depende de la transferencia de un carbono.» Texto original en inglés: "Pralatrexate is a folate analog metabolic inhibitor that competitively inhibits dihydrofolate reductase. It is also a competitive inhibitor for polyglutamylation by the enzyme folylpolyglutamyl synthetase. This inhibition results in the depletion of thymidine and other biological molecules the synthesis of which depends on single carbon transfer." ([DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, pralatrexato es un análogo del folato que inhibe la DHFR, se internaliza eficientemente a través del transportador RFC-1 y bloquea la síntesis de ADN en células de división rápida. Su eficacia está comprobada en linfoma periférico de células T.
 
 Para el **tumor adenomatoide pleural**, no hay evidencia directa. Se trata de una lesión benigna de origen mesotelial, y la terapia citotóxica no es racional en un tumor benigno. El puntaje alto del modelo probablemente se debe a la proximidad en la red con el mesotelioma, no a una señal terapéutica verdadera.
 
@@ -151,13 +151,14 @@ La predicción principal (tumor adenomatoide pleural) carece de evidencia y es p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO"" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f) |
 
 <!-- review:end log -->
 

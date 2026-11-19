@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis rosácea (
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Difenhidramina es un antihistamínico H1 de primera generación (agonista inverso del receptor H1) con efecto anticolinérgico. Actualmente no se dispone de datos detallados curados sobre su mecanismo de acción, por lo que no fue posible contrastarlo con anotaciones farmacológicas.
+Difenhidramina es un antihistamínico H1 de primera generación (agonista inverso del receptor H1) con efecto anticolinérgico. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diphenhydramine (traducción no oficial): «El clorhidrato de difenhidramina es un antihistamínico con efectos secundarios anticolinérgicos (secantes) y sedantes. Los antihistamínicos parecen competir con la histamina por los sitios receptores celulares en las células efectoras. El clorhidrato de difenhidramina en forma inyectable tiene un inicio de acción rápido.» Texto original en inglés: "Diphenhydramine hydrochloride is an antihistamine with anticholinergic (drying) and sedative side effects. Antihistamines appear to compete with histamine for cell receptor sites on effector cells. Diphenhydramine hydrochloride in the injectable form has a rapid onset of action." ([DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4), versión del 2026-10-28; consultado el 2026-11-19).
 
 Un vínculo plausible con la conjuntivitis rosácea (rosácea ocular) sería el alivio sintomático del picor, enrojecimiento e irritación ocular mediados por histamina.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones que estudien dir
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evaluación de la compatibilidad de vías de administración (por ejemplo, formulación oftálmica)
 - Estudios preclínicos o clínicos que evalúen directamente la conjuntivitis rosácea
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: diphenhydramine hydrochloride prescribing information, Henry Schein, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af972e71-62ab-40c6-925a-cbcb4d6720a4) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

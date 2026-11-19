@@ -58,7 +58,7 @@ La teofilina es una xantina utilizada clínicamente para la obstrucción reversi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados del mecanismo de acción registrado. Los datos farmacológicos compilados indican que la teofilina se une a los receptores de adenosina A1, A2A, A2B y A3. En la literatura general, la teofilina se describe además como inhibidor no selectivo de fosfodiesterasas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Theophylline (traducción no oficial): «La teofilina tiene dos acciones diferenciadas en las vías respiratorias de los pacientes con obstrucción reversible: la relajación del músculo liso (es decir, broncodilatación) y la supresión de la respuesta de las vías respiratorias a los estímulos (es decir, efectos profilácticos no broncodilatadores).» Texto original en inglés: "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), versión del 2024-07-08; consultado el 2026-11-19). Los datos farmacológicos compilados indican que la teofilina se une a los receptores de adenosina A1, A2A, A2B y A3. En la literatura general, la teofilina se describe además como inhibidor no selectivo de fosfodiesterasas.
 
 Desde el punto de vista teórico, esas acciones podrían modular los niveles de AMP cíclico en las plaquetas y, con ello, su activación. Este es el único puente mecanístico plausible hacia la trombosis. Sin embargo, es una hipótesis y no un hallazgo demostrado: la relación entre una indicación respiratoria y una indicación vascular/hematológica no es directa.
 
@@ -124,6 +124,19 @@ La predicción tiene un puntaje alto, pero no existe ningún ensayo ni estudio p
 - Revisión del prospecto aprobado en Colombia (advertencias, contraindicaciones, interacciones) y aclaración de la composición del producto registrado.
 - Evaluación comparativa frente a los antitrombóticos y antiagregantes ya establecidos.
 - Si hay respaldo preclínico, diseñar un ensayo exploratorio con monitoreo de niveles séricos de teofilina y parámetros hematológicos.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

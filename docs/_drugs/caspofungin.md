@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **anomalía de la secreci�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, caspofungina es una equinocandina que inhibe la enzima beta-(1,3)-D-glucano sintasa, necesaria para la pared celular de los hongos. Por eso se utiliza en infecciones fúngicas.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Caspofungin (traducción no oficial): «La caspofungina es un fármaco antifúngico de la clase de las equinocandinas. […] La caspofungina, una equinocandina, inhibe la síntesis del beta (1,3)-D-glucano, un componente esencial de la pared celular de las especies sensibles de Aspergillus y de Candida. El beta (1,3)-D-glucano no está presente en las células de los mamíferos.» Texto original en inglés: "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), versión del 2024-10-11; consultado el 2026-11-19). Según el conocimiento general, caspofungina es una equinocandina que inhibe la enzima beta-(1,3)-D-glucano sintasa, necesaria para la pared celular de los hongos. Por eso se utiliza en infecciones fúngicas.
 
 La secreción de gastrina depende de las células G, del pH gástrico y de señales vagales y peptídicas. Ninguno de estos elementos es una diana conocida de caspofungina. Por lo tanto, no se identifica un vínculo mecanístico establecido entre la indicación original y la nueva indicación.
 
@@ -107,12 +107,13 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
 
 <!-- review:end log -->
 

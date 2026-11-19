@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **encefalitis subaguda de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, la amantadina es un antagonista del receptor NMDA con acción dopaminérgica, y podría modular la excitotoxicidad mediada por glutamato.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amantadine (traducción no oficial): «Se desconoce el mecanismo por el cual la amantadina ejerce su eficacia en el tratamiento de la discinesia en pacientes con enfermedad de Parkinson o como tratamiento complementario de levodopa/carbidopa en pacientes con enfermedad de Parkinson que presentan episodios 'off'. La amantadina es un antagonista no competitivo débil del receptor NMDA.» Texto original en inglés: "The mechanism by which amantadine exerts efficacy in the treatment of dyskinesia in patients with Parkinson's disease or as adjunctive treatment to levodopa/carbidopa in patients with Parkinson's disease experiencing 'off' episodes is unknown. Amantadine is a weak uncompetitive antagonist of the NMDA receptor." ([DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28), versión del 2026-10-05; consultado el 2026-11-19). Según el conocimiento general, la amantadina es un antagonista del receptor NMDA con acción dopaminérgica, y podría modular la excitotoxicidad mediada por glutamato.
 
 La encefalitis de Rasmussen es un síndrome epiléptico neuroinflamatorio. Una hipótesis plausible es que la modulación glutamatérgica podría ser relevante, pero es **especulativa** y no está confirmada por los datos disponibles. Tampoco se ha establecido la similitud con la indicación original.
 
@@ -140,12 +140,13 @@ Las demás predicciones del modelo tienen también puntajes altos pero evidencia
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "único registro sanitario está cancelado y el" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gocovri (amantadine) prescribing information, Adamas Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82ff865f-78f3-4c94-b6a9-727a54944b28) |
 
 <!-- review:end log -->
 

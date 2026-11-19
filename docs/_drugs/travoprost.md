@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **calcifilaxis visceral**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, travoprost es un agonista del receptor FP (análogo de la prostaglandina F2-alfa), con efecto vasodilatador propio de su clase. En el ojo reduce la presión intraocular al aumentar el drenaje uveoescleral.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Travoprost (traducción no oficial): «El ácido libre de travoprost, un análogo de prostaglandina, es un agonista selectivo del receptor prostanoide FP que, según se cree, reduce la PIO al aumentar el flujo de salida uveoescleral. En este momento se desconoce el mecanismo de acción exacto.» Texto original en inglés: "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), versión del 2026-09-28; consultado el 2026-11-19). Según la información conocida, travoprost es un agonista del receptor FP (análogo de la prostaglandina F2-alfa), con efecto vasodilatador propio de su clase. En el ojo reduce la presión intraocular al aumentar el drenaje uveoescleral.
 
 La relación con la nueva indicación es débil. No se ha establecido un vínculo plausible entre la activación del receptor FP y la calcificación vascular o la patología de la calcifilaxis. Además, la aplicación ocular tópica produce una exposición sistémica mínima, lo que hace aún menos probable un efecto en una enfermedad visceral o sistémica.
 
@@ -151,12 +151,13 @@ La predicción para calcifilaxis visceral se basa solo en el modelo, sin ensayos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el mercado colombiano no tiene registros vigentes de travoprost" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Revisar la situación regulatoria: los cuatro registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

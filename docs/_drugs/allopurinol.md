@@ -60,7 +60,7 @@ La predicción es, por ahora, una señal del modelo sin respaldo clínico.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el alopurinol inhibe la xantina deshidrogenasa/oxidasa (gen XDH), la enzima que produce ácido úrico, y su eficacia en hiperuricemia y gota crónica está comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Allopurinol (traducción no oficial): «El alopurinol es un análogo estructural de la base púrica natural hipoxantina. El alopurinol y su metabolito oxipurinol inhiben la xantina oxidasa, la enzima responsable de la conversión de hipoxantina en xantina y de xantina en ácido úrico, el producto final del metabolismo de las purinas en los seres humanos.» Texto original en inglés: "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), versión del 2022-02-18; consultado el 2026-11-19). Según la información conocida, el alopurinol inhibe la xantina deshidrogenasa/oxidasa (gen XDH), la enzima que produce ácido úrico, y su eficacia en hiperuricemia y gota crónica está comprobada.
 
 El vínculo con la porfiria hepática es **indirecto y especulativo**. Un artículo de hipótesis de 2019 (PMID 31443750) propone actuar sobre la 5-aminolevulinato sintasa (ALAS1), enzima limitante de la síntesis del hemo, mediante triptófano e inhibidores del uso de hemo por la triptófano 2,3-dioxigenasa. El alopurinol no es un modulador establecido de ALAS1. El segundo artículo (PMID 1567472) trata sobre carbamazepina en hígado de rata, no sobre alopurinol.
 
@@ -133,12 +133,13 @@ No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 9 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->
 

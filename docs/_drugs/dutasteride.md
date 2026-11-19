@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertricosis universal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la dutasterida inhibe la 5-alfa-reductasa tipo 1 y tipo 2, con lo que reduce la dihidrotestosterona (DHT). Su eficacia está establecida en afecciones dependientes de andrógenos, como la hiperplasia prostática benigna y la alopecia androgenética.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dutasteride (traducción no oficial): «La dutasterida inhibe la conversión de testosterona en DHT. La DHT es el andrógeno principalmente responsable del desarrollo inicial y del posterior agrandamiento de la glándula prostática. La testosterona se convierte en DHT por acción de la enzima 5 alfa-reductasa, que existe en 2 isoformas, tipo 1 y tipo 2.» Texto original en inglés: "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), versión del 2026-08-27; consultado el 2026-11-19). Según la información conocida, la dutasterida inhibe la 5-alfa-reductasa tipo 1 y tipo 2, con lo que reduce la dihidrotestosterona (DHT). Su eficacia está establecida en afecciones dependientes de andrógenos, como la hiperplasia prostática benigna y la alopecia androgenética.
 
 El síndrome de Ambras es un trastorno congénito del crecimiento del cabello con base genética (reordenamientos cromosómicos que afectan la regulación de TRPS1). No se sabe que la hipertricosis de esta condición dependa de andrógenos, por lo que el vínculo mecanístico es **especulativo**.
 
@@ -141,13 +141,14 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni literatura, 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y sin registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->
 

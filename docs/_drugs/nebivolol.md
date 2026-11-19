@@ -66,7 +66,7 @@ La predicción se apoya únicamente en el modelo computacional (nivel de evidenc
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, nebivolol es un betabloqueante selectivo beta-1 que además activa la óxido nítrico sintasa endotelial (eNOS), lo que produce vasodilatación. Esto da un fundamento plausible para un efecto hipotensor y, de forma teórica, renoprotector.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Nebivolol (traducción no oficial): «El mecanismo de acción de la respuesta antihipertensiva de BYSTOLIC no se ha establecido de forma definitiva. Entre los posibles factores que pueden estar implicados se incluyen: disminución de la frecuencia cardíaca, disminución de la contractilidad miocárdica, disminución del flujo simpático tónico hacia la periferia desde los centros vasomotores cerebrales, supresión de la actividad de la renina y vasodilatación y disminución de la resistencia vascular periférica.» Texto original en inglés: "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), versión del 2024-08-01; consultado el 2026-11-19). Según la información conocida, nebivolol es un betabloqueante selectivo beta-1 que además activa la óxido nítrico sintasa endotelial (eNOS), lo que produce vasodilatación. Esto da un fundamento plausible para un efecto hipotensor y, de forma teórica, renoprotector.
 
 La relación con la indicación original es indirecta: el registro local solo menciona el nombre del principio activo, sin texto de indicación. Por su clase farmacológica, el uso esperado es en enfermedades cardiovasculares como la hipertensión, por lo que una enfermedad hipertensiva con compromiso renal es cercana en lo conceptual.
 
@@ -142,7 +142,7 @@ La predicción solo se sustenta en el modelo TxGNN, sin ensayos clínicos ni lit
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -150,6 +150,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El fabricante es MONTE VERDE S.A. No hay registros vigentes en el país" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->
 

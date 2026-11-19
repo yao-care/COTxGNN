@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome mielodispl�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según el conocimiento farmacológico general, el busulfán es un agente alquilante bifuncional que genera enlaces cruzados en el ADN y produce mieloablación. Su eficacia como agente citotóxico sobre las células hematopoyéticas está ampliamente comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Busulfan (traducción no oficial): «El busulfano es un agente alquilante bifuncional en el que dos grupos metanosulfonato lábiles están unidos a los extremos opuestos de una cadena alquílica de cuatro carbonos. En medios acuosos, el busulfano se hidroliza y libera los grupos metanosulfonato.» Texto original en inglés: "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), versión del 2026-07-29; consultado el 2026-11-19). Según el conocimiento farmacológico general, el busulfán es un agente alquilante bifuncional que genera enlaces cruzados en el ADN y produce mieloablación. Su eficacia como agente citotóxico sobre las células hematopoyéticas está ampliamente comprobada.
 
 En el síndrome mielodisplásico, el busulfán no se usa como tratamiento modificador de la enfermedad por sí solo. Es la base de muchos regímenes de acondicionamiento previos al trasplante alogénico de células madre hematopoyéticas (alo-TCMH), que es la única opción potencialmente curativa. El fármaco erradica el clon maligno y crea espacio en la médula ósea para que prospere el injerto del donante.
 
@@ -179,12 +179,13 @@ Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con b
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los cuatro registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 
 <!-- review:end log -->
 

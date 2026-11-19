@@ -60,7 +60,7 @@ La evidencia más sólida de todo el análisis corresponde a otra indicación pr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, amlodipino es un bloqueador de canales de calcio dihidropiridínico que modula los canales de calcio dependientes de voltaje (Ca<sub>v</sub>1.2 y Ca<sub>v</sub>1.3) y también aparece asociado al receptor P2X4. Reduce la resistencia vascular sistémica y la presión arterial.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amlodipine (traducción no oficial): «La amlodipina es un antagonista del calcio de tipo dihidropiridínico (antagonista de los iones calcio o bloqueante de los canales lentos) que inhibe el flujo transmembrana de entrada de iones calcio al músculo liso vascular y al músculo cardíaco. Los datos experimentales sugieren que la amlodipina se une tanto a los sitios de unión dihidropiridínicos como a los no dihidropiridínicos.» Texto original en inglés: "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), versión del 2026-09-28; consultado el 2026-11-19). Según la información farmacológica conocida, amlodipino es un bloqueador de canales de calcio dihidropiridínico que modula los canales de calcio dependientes de voltaje (Ca<sub>v</sub>1.2 y Ca<sub>v</sub>1.3) y también aparece asociado al receptor P2X4. Reduce la resistencia vascular sistémica y la presión arterial.
 
 La relación con el infarto del tronco encefálico es plausible de forma indirecta: el control de la presión arterial y los efectos vasoprotectores de este tipo de fármacos podrían influir en el riesgo de enfermedad cerebrovascular. Sin embargo, esta hipótesis no cuenta con respaldo de ningún estudio recuperado y debe considerarse solo una predicción del modelo.
 
@@ -147,12 +147,13 @@ Para infarto del tronco encefálico solo existe la predicción del modelo (L5), 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, en Colombia no hay registros vigentes de amlodipino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que ambos registros están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

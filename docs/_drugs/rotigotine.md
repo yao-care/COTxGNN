@@ -60,7 +60,7 @@ pero **no hay ensayos clínicos** y solo hay **3 publicaciones** indirectas (rev
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica disponible, rotigotina es un agonista dopaminérgico no ergolínico que actúa sobre los receptores D1 a D5 (con mayor afinidad por D3) y tiene además actividad sobre receptores 5-HT1A y alfa2B.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rotigotine (traducción no oficial): «La rotigotina es un agonista dopaminérgico no ergolínico. Se desconoce el mecanismo de acción preciso de la rotigotina como tratamiento de la enfermedad de Parkinson, aunque se cree que está relacionado con su capacidad de estimular los receptores de dopamina en el caudado-putamen del cerebro.» Texto original en inglés: "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), versión del 2026-11-11; consultado el 2026-11-19). Según la información farmacológica disponible, rotigotina es un agonista dopaminérgico no ergolínico que actúa sobre los receptores D1 a D5 (con mayor afinidad por D3) y tiene además actividad sobre receptores 5-HT1A y alfa2B.
 
 La desregulación dopaminérgica y noradrenérgica es un componente central del TDAH, por lo que existe una justificación mecanística plausible. Además, variantes polimórficas del receptor D4 (DRD4) se han asociado con el TDAH, y rotigotina interactúa con este receptor. Un estudio preclínico (2021) sobre heterómeros entre receptores α2A y D4 respalda esta conexión biológica.
 
@@ -137,12 +137,13 @@ La predicción solo cuenta con soporte mecanístico indirecto (nivel L4): no exi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay producto vigente en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
 
 <!-- review:end log -->
 

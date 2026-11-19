@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna indu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, acetazolamida inhibe varias isoenzimas de la anhidrasa carbónica (CA1, CA4, CA7, CA12, CA14 en humanos), lo que explica su uso como diurético y para reducir la presión intraocular, y su efecto antiepiléptico se atribuye a la inhibición de esta enzima en el cerebro.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetazolamide (traducción no oficial): «La acetazolamida es un potente inhibidor de la anhidrasa carbónica, eficaz en el control de la secreción de líquidos (p. ej., algunos tipos de glaucoma), en el tratamiento de ciertos trastornos convulsivos (p. ej., epilepsia) y en la promoción de la diuresis en casos de retención anormal de líquidos (p. ej., edema cardíaco). La acetazolamida no es un diurético mercurial.» Texto original en inglés: "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, acetazolamida inhibe varias isoenzimas de la anhidrasa carbónica (CA1, CA4, CA7, CA12, CA14 en humanos), lo que explica su uso como diurético y para reducir la presión intraocular, y su efecto antiepiléptico se atribuye a la inhibición de esta enzima en el cerebro.
 
 La relación con la nueva indicación es solo teórica: al modificar el equilibrio ácido-base y el manejo de iones, el fármaco podría influir en la fisiología muscular. Sin embargo, no hay un vínculo mecanístico directo establecido en los datos; el puntaje alto proviene únicamente de la predicción computacional del modelo.
 
@@ -121,11 +121,12 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
 
 <!-- review:end log -->
 

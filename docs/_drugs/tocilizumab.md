@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, tocilizumab es un antagonista del receptor de IL-6 (anti-IL-6R). Su eficacia está bien establecida en artritis reumatoide, artritis idiopática juvenil, arteritis de células gigantes y otras enfermedades inflamatorias inmunomediadas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tocilizumab (traducción no oficial): «Los productos de tocilizumab se unen a los receptores de IL-6 tanto solubles como unidos a membrana (sIL-6R y mIL-6R), y se ha demostrado que inhiben la señalización mediada por IL-6 a través de estos receptores. La IL-6 es una citocina proinflamatoria pleiotrópica producida por diversos tipos celulares, incluidos los linfocitos T y B, los linfocitos, los monocitos y los fibroblastos.» Texto original en inglés: "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), versión del 2026-10-20; consultado el 2026-11-19). Según la información conocida, tocilizumab es un antagonista del receptor de IL-6 (anti-IL-6R). Su eficacia está bien establecida en artritis reumatoide, artritis idiopática juvenil, arteritis de células gigantes y otras enfermedades inflamatorias inmunomediadas.
 
 La IL-6 participa en la inflamación de las enfermedades reumáticas, y la espondilitis anquilosante es una enfermedad inflamatoria axial en la que esta citoquina se ha implicado junto con el TNF. Por ello, el bloqueo de IL-6 es biológicamente plausible.
 
@@ -163,13 +163,14 @@ Los únicos dos ensayos de Fase 3 en espondilitis anquilosante fueron terminados
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y se encuentran cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
 
 <!-- review:end log -->
 

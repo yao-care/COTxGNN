@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, el ergocalciferol es una forma nutricional de vitamina D que, tras su activación en hígado y riñón, regula la absorción de calcio y fósforo y la mineralización del hueso.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ergocalciferol (traducción no oficial): «La síntesis in vivo de los principales metabolitos biológicamente activos de la vitamina D se produce en dos pasos. La primera hidroxilación del ergocalciferol tiene lugar en el hígado (a 25-hidroxivitamina D) y la segunda en los riñones (a 1, 25-dihidroxivitamina D).» Texto original en inglés: "The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)." ([DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210), versión del 2026-11-02; consultado el 2026-11-19). Por conocimiento general, el ergocalciferol es una forma nutricional de vitamina D que, tras su activación en hígado y riñón, regula la absorción de calcio y fósforo y la mineralización del hueso.
 
 La displasia acromesomélica es una displasia esquelética rara. Un vínculo con el metabolismo óseo y mineral mediado por la vitamina D es posible en teoría, pero es especulativo y no está respaldado por datos.
 
@@ -96,6 +96,18 @@ La predicción no cuenta con ensayos clínicos ni literatura que estudien direct
 - Revisión de literatura y de series de casos sobre vitamina D en displasias esqueléticas raras
 - Información de seguridad del prospecto (advertencias y contraindicaciones), en particular el riesgo de hipercalcemia
 - Evaluación de la compatibilidad de vías de administración y formas farmacéuticas con la población objetivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

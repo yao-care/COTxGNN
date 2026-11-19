@@ -66,7 +66,7 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, zolpidem actúa como modulador alostérico positivo del receptor GABA-A, con afinidad preferente por la subunidad alfa-1. Esto favorece la sedación y acorta la latencia del sueño.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Zolpidem (traducción no oficial): «El zolpidem es un modulador positivo del receptor GABA A que, según se presume, ejerce sus efectos terapéuticos en el tratamiento a corto plazo del insomnio mediante su unión al sitio de las benzodiazepinas de los receptores GABA A que contienen la subunidad α1, lo que aumenta la frecuencia de apertura del canal de cloruro y da lugar a la inhibición de la excitación neuronal.» Texto original en inglés: "Zolpidem is a GABA A receptor positive modulator presumed to exert its therapeutic effects in the short-term treatment of insomnia through binding to the benzodiazepine site of α1 subunit containing GABA A receptors, increasing the frequency of chloride channel opening resulting in the inhibition of neuronal excitation." ([DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97), versión del 2025-02-07; consultado el 2026-11-19). Según la información conocida, zolpidem actúa como modulador alostérico positivo del receptor GABA-A, con afinidad preferente por la subunidad alfa-1. Esto favorece la sedación y acorta la latencia del sueño.
 
 Esta acción coincide directamente con la fisiopatología de la dificultad para iniciar y mantener el sueño. La literatura revisada describe a zolpidem como hipnótico de uso muy extendido, incluido en guías clínicas para el tratamiento farmacológico del insomnio crónico.
 
@@ -141,11 +141,12 @@ La literatura aporta guías, metaanálisis y un ECA de Fase 3 que respaldan el u
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "todas actualmente canceladas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97) |
 
 <!-- review:end log -->
 

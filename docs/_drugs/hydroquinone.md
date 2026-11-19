@@ -60,7 +60,7 @@ pero hasta ahora solo hay **0 ensayos clínicos** y **1 publicación** (un estud
 
 ## ¿Por qué es Razonable esta Predicción?
 
-La hidroquinona es un inhibidor de la tirosinasa que reduce la síntesis de melanina. No se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada, pero este mecanismo es ampliamente conocido en dermatología para el tratamiento de la hiperpigmentación.
+La hidroquinona es un inhibidor de la tirosinasa que reduce la síntesis de melanina. Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydroquinone (traducción no oficial): «La aplicación tópica de hidroquinona produce una despigmentación reversible de la piel mediante la inhibición de la oxidación enzimática de la tirosina a 3,4-dihidroxifenilalanina (dopa) (Denton, C. et al., 1952)1 y la supresión de otros procesos metabólicos de los melanocitos (Jimbow, K. et al., 1974)2. La exposición a la luz solar o a la luz ultravioleta causará la repigmentación de las zonas despigmentadas (Parrish, L.A. et al., 1978)3.» Texto original en inglés: "Topical application of hydroquinone produces a reversible depigmentation of the skin by inhibition of the enzymatic oxidation of tyrosine to 3,4-dihydroxyphenylalanine (dopa) (Denton, C. et al., 1952)1 and suppression of other melanocyte metabolic processes (Jimbow, K. et al., 1974)2. Exposure to sunlight or ultraviolet light will cause repigmentation of bleached areas (Parrish, L.A. et al., 1978)3." ([DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b), versión del 2026-07-10; consultado el 2026-11-19).
 
 Las lesiones de queratosis seborreica suelen estar hiperpigmentadas, por lo que un agente despigmentante podría aclararlas con fines cosméticos. Sin embargo, esto no trataría la proliferación subyacente de los queratinocitos. El puntaje elevado de TxGNN probablemente refleja características de red compartidas relacionadas con la pigmentación, y no un mecanismo que modifique la enfermedad.
 
@@ -128,12 +128,13 @@ La evidencia es de nivel L4: no hay ensayos clínicos y la única publicación t
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado; evaluar un nuevo registro o alternativas vigentes)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hydroquinone 4% (hydroquinone) prescribing information, Acella Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=595dfc50-ee6f-41b5-ab5b-4c293aee342b) |
 
 <!-- review:end log -->
 

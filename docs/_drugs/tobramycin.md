@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **queratitis por exposici�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la tobramicina es un aminoglucósido con actividad contra bacterias Gram negativas y *Staphylococcus*, y se usa por vía tópica en la queratitis bacteriana y la conjuntivitis. Su eficacia en infecciones oculares superficiales es conocida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tobramycin (traducción no oficial): «La tobramicina es un antibacteriano aminoglucósido. […] La tobramicina es un antibacteriano aminoglucósido producido por Streptomyces tenebrarius. Actúa principalmente alterando la síntesis de proteínas, lo que provoca una alteración de la permeabilidad de la membrana celular, la disrupción progresiva de la envoltura celular y, finalmente, la muerte celular.» Texto original en inglés: "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), versión del 2026-04-15; consultado el 2026-11-19). Según la información conocida, la tobramicina es un aminoglucósido con actividad contra bacterias Gram negativas y *Staphylococcus*, y se usa por vía tópica en la queratitis bacteriana y la conjuntivitis. Su eficacia en infecciones oculares superficiales es conocida.
 
 La queratitis por exposición es un daño de la superficie corneal por cierre ocular insuficiente. Sobre ese epitelio dañado pueden aparecer infecciones bacterianas secundarias, de modo que la tobramicina podría servir de forma indirecta como profilaxis o tratamiento de la sobreinfección. El vínculo es plausible, pero indirecto: la literatura recuperada trata la queratitis bacteriana y no la queratitis por exposición en sí.
 
@@ -139,12 +139,13 @@ La predicción tiene un puntaje alto, pero no hay ensayos clínicos y la literat
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los tres registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay productos vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

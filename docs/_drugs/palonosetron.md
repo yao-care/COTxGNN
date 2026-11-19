@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, palonosetrón es un antagonista del receptor de serotonina 5-HT3, utilizado clásicamente para prevenir las náuseas y vómitos asociados a la quimioterapia y al periodo posoperatorio. Las vías serotoninérgicas participan en la fisiopatología de la migraña, lo cual podría explicar la asociación detectada por el modelo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Palonosetron (traducción no oficial): «El palonosetrón es un antagonista del receptor 5-HT 3 con una fuerte afinidad de unión por este receptor y escasa o nula afinidad por otros receptores. La quimioterapia oncológica puede asociarse con una incidencia elevada de náuseas y vómitos, en particular cuando se utilizan ciertos agentes, como el cisplatino.» Texto original en inglés: "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), versión del 2025-04-29; consultado el 2026-11-19). Según la información conocida, palonosetrón es un antagonista del receptor de serotonina 5-HT3, utilizado clásicamente para prevenir las náuseas y vómitos asociados a la quimioterapia y al periodo posoperatorio. Las vías serotoninérgicas participan en la fisiopatología de la migraña, lo cual podría explicar la asociación detectada por el modelo.
 
 Sin embargo, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. La única publicación asociada (PMID 21132477) reporta que palonosetrón **provocó** cefalea tipo migraña, lo que va en dirección opuesta a un efecto terapéutico. Por ello, el vínculo mecanístico es especulativo y la dirección clínica del efecto es desfavorable.
 
@@ -137,12 +137,13 @@ La predicción es solo del modelo (nivel L5): no existen ensayos clínicos y la 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vías de administración antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Lovastatina es una estatina con registro sanitario vigente en Colombia en tablet
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en el registro de origen. Según la información farmacológica compilada, lovastatina inhibe la enzima HMG-CoA reductasa (HMGCR) y también aparece asociada al receptor X de pregnano (NR1I2). Reduce el colesterol LDL y se utiliza en hipercolesterolemia y dislipidemia mixta.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lovastatin (traducción no oficial): «El mecanismo del efecto reductor del LDL de la lovastatina puede implicar tanto la reducción de la concentración de VLDL-C como la inducción del receptor de LDL, lo que conduce a una menor producción y/o un mayor catabolismo del LDL-C. La apolipoproteína B también disminuye durante el tratamiento con lovastatina. La lovastatina es un inhibidor específico de la HMG-CoA reductasa, la enzima que cataliza la conversión de HMG-CoA en mevalonato.» Texto original en inglés: "The mechanism of the LDL-lowering effect of lovastatin may involve both reduction of VLDL-C concentration, and induction of the LDL receptor, leading to reduced production and/or increased catabolism of LDL-C. Apolipoprotein B also falls during treatment with lovastatin. Lovastatin is a specific inhibitor of HMG-CoA reductase, the enzyme which catalyzes the conversion of HMG-CoA to mevalonate." ([DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34), versión del 2026-11-13; consultado el 2026-11-19). Según la información farmacológica compilada, lovastatina inhibe la enzima HMG-CoA reductasa (HMGCR) y también aparece asociada al receptor X de pregnano (NR1I2). Reduce el colesterol LDL y se utiliza en hipercolesterolemia y dislipidemia mixta.
 
 La deficiencia de CETP es una condición genética que eleva el colesterol HDL y altera la remodelación de lipoproteínas. Existe un vínculo plausible por compartir vías del metabolismo lipídico, pero es **indirecto**. No se conoce que las estatinas traten esta deficiencia, que tiene un fenotipo en gran medida benigno o de alteración lipídica.
 
@@ -100,6 +100,19 @@ La puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar
 - Prospecto oficial de INVIMA con advertencias y contraindicaciones
 - Texto de indicación aprobada de los registros sanitarios, que solo muestran el nombre del principio activo
 - Perfil de seguridad, en especial riesgos musculares y hepáticos, para esta población
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: lovastatin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac86821f-d741-4ab1-bd03-ce8797dd4f34) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Pólipo de cuerda vocal 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de desonida en los datos compilados para este informe. Por su clase, es un glucocorticoide tópico de baja potencia con efecto antiinflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desonide (traducción no oficial): «Se desconoce el mecanismo de acción de la desonida.» Texto original en inglés: "The mechanism of action of desonide is unknown." ([DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96), versión del 2020-07-31; consultado el 2026-11-19). Por su clase, es un glucocorticoide tópico de baja potencia con efecto antiinflamatorio.
 
 Los corticosteroides sistémicos o inyectados se emplean a veces en lesiones inflamatorias de las cuerdas vocales, lo que ofrece una plausibilidad teórica a nivel de clase. Sin embargo, una formulación tópica dermatológica de desonida no es adecuada para la laringe, y no existen datos de administración ni de seguridad en ese sitio.
 
@@ -100,6 +100,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, el mecanismo de ac
 - Evaluación de viabilidad de una vía de administración y formulación adecuadas para la laringe
 - Prospecto con advertencias y contraindicaciones del INVIMA
 - Datos de seguridad para el sitio de aplicación propuesto
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: desonide prescribing information, Cintex Services, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6192416-09b4-47fa-e053-2a95a90add96) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la epinastina es un antagonista del receptor de histamina H1 con actividad estabilizadora de mastocitos, y su uso en conjuntivitis alérgica oftálmica está establecido. Mecanísticamente, podría ser aplicable a la inflamación de la superficie ocular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Epinastine (traducción no oficial): «La epinastina es un antagonista directo del receptor H 1, de acción tópica, y un inhibidor de la liberación de histamina desde el mastocito. La epinastina es selectiva para el receptor H 1 de la histamina y tiene afinidad por el receptor H 2 de la histamina.» Texto original en inglés: "Epinastine is a topically active, direct H 1 -receptor antagonist and an inhibitor of the release of histamine from the mast cell. Epinastine is selective for the histamine H 1 -receptor and has affinity for the histamine H 2 -receptor." ([DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d), versión del 2025-03-22; consultado el 2026-11-19). Según la información conocida, la epinastina es un antagonista del receptor de histamina H1 con actividad estabilizadora de mastocitos, y su uso en conjuntivitis alérgica oftálmica está establecido. Mecanísticamente, podría ser aplicable a la inflamación de la superficie ocular.
 
 Existe un vínculo plausible: la histamina y los mediadores de los mastocitos pueden contribuir a la irritación ocular en la rosácea. Sin embargo, la conjuntivitis por rosácea (rosácea ocular) depende principalmente de la disfunción de las glándulas de Meibomio, la inestabilidad de la película lagrimal y factores inmunes innatos y microbianos. Por ello, el mecanismo H1/mastocitos probablemente contribuye solo de forma menor.
 
@@ -113,11 +113,12 @@ Como referencia, el modelo predijo también **urticaria alérgica** (TxGNN 0.992
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
 
 <!-- review:end log -->
 

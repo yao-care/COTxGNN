@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trombofilia por deficien
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Según el conocimiento general, la enoxaparina es una heparina de bajo peso molecular que potencia la acción de la antitrombina III e inhibe principalmente el factor Xa y, en menor grado, la trombina. Su eficacia como anticoagulante está bien establecida, aunque los registros colombianos no detallan la indicación aprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Enoxaparin (traducción no oficial): «La enoxaparina es una heparina de bajo peso molecular con propiedades antitrombóticas.» Texto original en inglés: "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), versión del 2026-05-28; consultado el 2026-11-19). Según el conocimiento general, la enoxaparina es una heparina de bajo peso molecular que potencia la acción de la antitrombina III e inhibe principalmente el factor Xa y, en menor grado, la trombina. Su eficacia como anticoagulante está bien establecida, aunque los registros colombianos no detallan la indicación aprobada.
 
 En la deficiencia de proteína C se pierde la inactivación de los factores Va y VIIIa mediada por la proteína C activada, lo que genera un estado protrombótico. Por ello existe una lógica mecanística para usar un anticoagulante: la enoxaparina bloquea la cascada de coagulación por una vía distinta a la que está deficiente.
 
@@ -140,12 +140,13 @@ La predicción se apoya únicamente en el modelo (nivel L5) y en un razonamiento
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros están cancelados, por lo que actualmente no hay productos vigentes con estos registros" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->
 

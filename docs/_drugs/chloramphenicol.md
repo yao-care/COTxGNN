@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **esclerodermia difusa (di
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el cloranfenicol es un antibiótico que inhibe la síntesis de proteínas bacterianas, y su uso se ha centrado en infecciones bacterianas.
+Según las secciones «Clinical Pharmacology» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chloramphenicol (traducción no oficial): «El cloranfenicol es un antibiótico de amplio espectro aislado originalmente de Streptomyces venezuelae. Inhibe la síntesis de proteínas bacterianas al interferir en la transferencia de aminoácidos activados desde el ARN soluble a los ribosomas.» Texto original en inglés: "Chloramphenicol is a broad-spectrum antibiotic originally isolated from Streptomyces venezuelae. It inhibits bacterial protein synthesis by interfering with the transfer of activated amino acids from soluble RNA to ribosomes." ([DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3), versión del 2024-10-10; consultado el 2026-11-19). Según la información conocida, el cloranfenicol es un antibiótico que inhibe la síntesis de proteínas bacterianas, y su uso se ha centrado en infecciones bacterianas.
 
 Las publicaciones recuperadas describen la transcripción del gen del procolágeno α1(I) y la señalización TGF-beta/Smad3 en fibroblastos de esclerodermia. No muestran que el cloranfenicol actúe sobre estas vías. Al parecer, la relación aparece por el uso del ensayo reportero CAT (cloranfenicol acetiltransferasa) en estudios de promotores, y no por un efecto terapéutico.
 
@@ -100,6 +100,18 @@ La predicción se basa solo en el puntaje del modelo. No hay ensayos clínicos y
 - Estudios preclínicos que muestren un efecto del fármaco en modelos de esclerodermia
 - Revisión del prospecto del INVIMA para advertencias y contraindicaciones
 - Evaluación de la relación riesgo-beneficio frente a la toxicidad hematológica antes de cualquier estudio clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloramphenicol sodium succinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aed29594-211d-49ef-813f-131975a8d0e3) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

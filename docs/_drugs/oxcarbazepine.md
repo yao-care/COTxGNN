@@ -64,7 +64,7 @@ Oxcarbazepina es un antiepiléptico derivado de la carbamazepina. El modelo TxGN
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la oxcarbazepina actúa a través de su metabolito activo (monohidroxi-derivado, MHD) bloqueando los canales de sodio dependientes de voltaje, y es un antiepiléptico establecido para la epilepsia focal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxcarbazepine (traducción no oficial): «La actividad farmacológica de TRILEPTAL se ejerce principalmente a través del metabolito 10-monohidroxi (MHD) de la oxcarbazepina. Se desconoce el mecanismo exacto por el cual la oxcarbazepina y el MHD ejercen su efecto anticonvulsivo; sin embargo, estudios electrofisiológicos in vitro indican que producen el bloqueo de los canales de sodio sensibles al voltaje, lo que da lugar a la estabilización de las membranas neuronales hiperexcitadas, la inhibición de las descargas neuronales repetitivas y la disminución de la propagación de los impulsos sinápticos.» Texto original en inglés: "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la oxcarbazepina actúa a través de su metabolito activo (monohidroxi-derivado, MHD) bloqueando los canales de sodio dependientes de voltaje, y es un antiepiléptico establecido para la epilepsia focal.
 
 La epilepsia visual (fotosensible) es un tipo de crisis refleja, desencadenada por estímulos visuales. Es plausible que responda a fármacos antiepilépticos que bloquean canales de sodio. Sin embargo, la literatura recuperada consiste en revisiones generales y guías sobre epilepsia, y no aborda específicamente las crisis desencadenadas por estímulos visuales.
 
@@ -138,12 +138,13 @@ La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "registrado en Colombia bajo licencias hoy canceladas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay producto vigente en el mercado local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->
 

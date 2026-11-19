@@ -58,7 +58,7 @@ Aripiprazol es un antipsicótico atípico, registrado en Colombia bajo el nombre
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aripiprazol es un agonista parcial de los receptores de dopamina D2/D3 y de serotonina 5-HT1A, con antagonismo del receptor 5-HT2A. Los datos compilados muestran además interacción con otros receptores serotoninérgicos (5-HT1B, 1D, 2C, 6, 7), con D4 y con H1. Este perfil modula simultáneamente los sistemas dopaminérgico y serotoninérgico, ambos implicados en la regulación del estado de ánimo. (Los datos oficiales de mecanismo de acción no estaban disponibles; esta descripción proviene del análisis de la predicción y de los datos farmacológicos.)
+Aripiprazol es un agonista parcial de los receptores de dopamina D2/D3 y de serotonina 5-HT1A, con antagonismo del receptor 5-HT2A. Los datos compilados muestran además interacción con otros receptores serotoninérgicos (5-HT1B, 1D, 2C, 6, 7), con D4 y con H1. Este perfil modula simultáneamente los sistemas dopaminérgico y serotoninérgico, ambos implicados en la regulación del estado de ánimo. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aripiprazole (traducción no oficial): «Se desconoce el mecanismo de acción del aripiprazol en el tratamiento de la esquizofrenia y del trastorno bipolar I. La eficacia del aripiprazol podría estar mediada por una combinación de actividad agonista parcial en los receptores de dopamina D 2 y de serotonina 5-HT 1A y actividad antagonista en los receptores 5-HT 2A.» Texto original en inglés: "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), versión del 2025-04-04; consultado el 2026-11-19).
 
 La relación con la indicación original es estrecha: el aripiprazol ya se usa en trastornos del ánimo como el trastorno bipolar, y la depresión mayor comparte vías neurobiológicas con ellos. Como terapia adyuvante a ISRS/IRSN, el perfil de agonismo parcial puede potenciar la respuesta antidepresiva en pacientes con respuesta insuficiente.
 
@@ -161,13 +161,14 @@ Existen múltiples ensayos de fase 3 completados, aleatorizados y controlados co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Además, el estado de mercado en Colombia (solo registros cancelados) debe verificarse antes de sacar conclusiones regulatorias" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si se requiere un nuevo registro o una renova" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
 
 <!-- review:end log -->
 

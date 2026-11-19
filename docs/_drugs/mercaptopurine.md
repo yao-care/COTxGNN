@@ -60,7 +60,7 @@ Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colom
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos de fármacos. Según la información conocida, la mercaptopurina es un antimetabolito de las purinas: sus metabolitos, los nucleótidos de tioguanina, se incorporan al ADN e inhiben la síntesis de novo de purinas. Esto es citotóxico para células que se dividen rápidamente, como los blastos mieloides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mercaptopurine (traducción no oficial): «La mercaptopurina es un análogo de las purinas que experimenta transporte y activación intracelulares para formar metabolitos, entre ellos los nucleótidos de tioguanina (TGN). La incorporación de los TGN al ADN o al ARN da lugar a la detención del ciclo celular y a la muerte celular.» Texto original en inglés: "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), versión del 2026-07-22; consultado el 2026-11-19). Según la información conocida, la mercaptopurina es un antimetabolito de las purinas: sus metabolitos, los nucleótidos de tioguanina, se incorporan al ADN e inhiben la síntesis de novo de purinas. Esto es citotóxico para células que se dividen rápidamente, como los blastos mieloides.
 
 Su eficacia en leucemia linfoblástica aguda (LLA) está bien establecida como terapia de mantenimiento junto con metotrexato. La leucemia mieloide es otra neoplasia hematológica con células de proliferación rápida, por lo que la extensión es mecanísticamente plausible. Un estudio de cohorte sobre mantenimiento oral con 6-MP y metotrexato en LMA no elegible para trasplante (PMID 26425037) respalda esta plausibilidad biológica.
 
@@ -152,13 +152,14 @@ La predicción es biológicamente plausible y existen estudios de cohorte y pilo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Evaluar la situación regulatoria (registro cancelado) para un posible uso en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "con un registro sanitario hoy cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
 
 <!-- review:end log -->
 

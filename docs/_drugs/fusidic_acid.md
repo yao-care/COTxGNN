@@ -60,7 +60,7 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (una ser
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, el ácido fusídico inhibe la síntesis proteica bacteriana al bloquear el factor de elongación G (EF-G), lo que le da actividad contra bacterias Gram-positivas como *Staphylococcus*.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Fusidic Acid es (traducción no oficial): «Inhibidor del factor de elongación G» Texto original en inglés: "Elongation factor G inhibitor" ([ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, el ácido fusídico inhibe la síntesis proteica bacteriana al bloquear el factor de elongación G (EF-G), lo que le da actividad contra bacterias Gram-positivas como *Staphylococcus*.
 
 La relación con la queratitis por exposición es **indirecta**. Esta enfermedad es principalmente un trastorno mecánico o por desecación de la córnea, no infeccioso. El ácido fusídico podría ayudar, a lo sumo, en una infección bacteriana secundaria de una córnea expuesta.
 
@@ -143,13 +143,14 @@ No existen ensayos clínicos y la única publicación vinculada no evalúa el á
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 7 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 7 → 13 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL374975 (fusidic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL374975) |
 
 <!-- review:end log -->
 

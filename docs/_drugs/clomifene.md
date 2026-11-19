@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el clomifeno actúa sobre el receptor de estrógeno alfa (ESR1), bloqueando la retroalimentación negativa de los estrógenos en el hipotálamo. Esto eleva la señal de GnRH y, con ella, las gonadotropinas LH y FSH.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clomifene (traducción no oficial): «El citrato de clomifeno puede interactuar con tejidos que contienen receptores de estrógenos, como el hipotálamo, la hipófisis, el ovario, el endometrio, la vagina y el cuello uterino. Puede competir con el estrógeno por los sitios de unión a los receptores de estrógenos y puede retrasar la reposición de los receptores de estrógenos intracelulares.» Texto original en inglés: "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), versión del 2025-10-07; consultado el 2026-11-19). Según la información conocida, el clomifeno actúa sobre el receptor de estrógeno alfa (ESR1), bloqueando la retroalimentación negativa de los estrógenos en el hipotálamo. Esto eleva la señal de GnRH y, con ella, las gonadotropinas LH y FSH.
 
 En el defecto de esteroidogénesis testicular, el bloqueo es intratesticular y se debe a una deficiencia enzimática. Por ello, aumentar el estímulo gonadotrópico difícilmente restauraría la síntesis de andrógenos. El vínculo mecanístico es, por tanto, débil y especulativo.
 
@@ -96,6 +96,18 @@ La predicción se basa únicamente en la puntuación del modelo (nivel L5), sin 
 - Datos detallados del mecanismo de acción y su relación con la esteroidogénesis testicular.
 - Advertencias y contraindicaciones del prospecto aprobado en Colombia.
 - Evaluación de la viabilidad de la vía de administración oral para esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

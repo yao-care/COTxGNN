@@ -56,7 +56,7 @@ con **1 ensayo clínico** pequeño (8 participantes) y **ninguna publicación** 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sertralina inhibe el transportador de serotonina (SERT, gen SLC6A4), lo que aumenta la disponibilidad de serotonina en la sinapsis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sertraline (traducción no oficial): «La sertralina potencia la actividad serotoninérgica en el sistema nervioso central mediante la inhibición de la recaptación neuronal de serotonina (5-HT).» Texto original en inglés: "Sertraline potentiates serotonergic activity in the central nervous system through inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7), versión del 2023-08-08; consultado el 2026-11-19). Según la información conocida, la sertralina inhibe el transportador de serotonina (SERT, gen SLC6A4), lo que aumenta la disponibilidad de serotonina en la sinapsis.
 
 La hipótesis es que esta modulación serotoninérgica podría influir en síntomas positivos y negativos atenuados, así como en rasgos afectivos u obsesivos asociados. Es un vínculo indirecto y especulativo.
 
@@ -104,11 +104,12 @@ No existe ningún ensayo ni publicación que estudie directamente el trastorno e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria local (registro cancelado) y valorar si otros registros de sertralina vigentes permitirían el acceso" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zoloft (sertraline hydrochloride) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda754f6-d0f3-4dce-a17a-927d64f912f7) |
 
 <!-- review:end log -->
 

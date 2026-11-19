@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, elvitegravir es un inhibidor de la transferencia de cadena de la integrasa del VIH-1. Esta enzima es esencial para integrar el ADN viral en el genoma de la célula huésped.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (combinación que contiene Elvitegravir) (traducción no oficial): «STRIBILD es una combinación de dosis fija de los fármacos antirretrovirales elvitegravir (potenciado por el inhibidor de CYP3A cobicistat), emtricitabina y TDF.» Texto original en inglés: "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), versión del 2025-02-04; consultado el 2026-11-19). Según la información conocida, elvitegravir es un inhibidor de la transferencia de cadena de la integrasa del VIH-1. Esta enzima es esencial para integrar el ADN viral en el genoma de la célula huésped.
 
 La integrasa del virus de la inmunodeficiencia simia (SIV) está estructuralmente emparentada con la del VIH-1. Estudios in vitro muestran que el SIVmac239 y los virus VIH/SIV recombinantes son sensibles a esta clase de fármacos, y que las mutaciones de resistencia siguen patrones similares en ambos virus.
 
@@ -106,6 +106,19 @@ La evidencia sobre esta indicación es solo preclínica (modelos en primates, ra
 - Definir si el interés real es como modelo preclínico del VIH o como indicación veterinaria o clínica.
 - Datos del mecanismo de acción y de la seguridad (advertencias y contraindicaciones) obtenidos del prospecto de INVIMA.
 - Confirmar la situación vigente de los registros sanitarios con la autoridad regulatoria.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

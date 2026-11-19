@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos** y solo hay **2 publicaciones** gen
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Terconazol es un antifúngico triazólico que inhibe la CYP51 fúngica (lanosterol 14-alfa-desmetilasa) y, con ello, la síntesis de ergosterol. No se dispone en los datos compilados de una descripción más detallada de su mecanismo de acción.
+Terconazol es un antifúngico triazólico que inhibe la CYP51 fúngica (lanosterol 14-alfa-desmetilasa) y, con ello, la síntesis de ergosterol. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Terconazole (traducción no oficial): «El terconazol es un agente antifúngico. […] El terconazol inhibe la enzima citocromo P450 14α-desmetilasa, lo que conduce a la inhibición de la síntesis de ergosterol, un componente esencial de la membrana celular fúngica Actividad in vitro El terconazol presenta actividad fungicida in vitro frente a Candida albicans.» Texto original en inglés: "Terconazole is an antifungal agent. […] Terconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane Activity in vitro Terconazole exhibits fungicidal activity in vitro against Candida albicans." ([DailyMed: Terconazole Vaginal Cream 0.8% (terconazole) prescribing information, E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f59448bd-f730-46d2-a785-c2d6205579ff), versión del 2026-01-28; consultado el 2026-11-19).
 
 *Trichomonas vaginalis* es un protozoo y este tipo de blanco dependiente de ergosterol no le aplica de la misma manera, por lo que el vínculo mecanístico es débil. El puntaje elevado probablemente refleja cercanía en la red de relaciones del modelo con cuadros vaginales infecciosos, más que un efecto antiprotozoario real.
 
@@ -97,6 +97,18 @@ El puntaje del modelo es alto, pero no existen ensayos clínicos ni literatura e
 - Datos detallados del mecanismo de acción
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Comparación con los tratamientos antiprotozoarios habituales antes de considerar cualquier ensayo clínico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Terconazole Vaginal Cream 0.8% (terconazole) prescribing information, E. Fougera & Co. a division of Fougera Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f59448bd-f730-46d2-a785-c2d6205579ff) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

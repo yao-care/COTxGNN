@@ -60,7 +60,7 @@ con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Según la información conocida, la acetilcisteína es un tiol con acción mucolítica y antioxidante, y su uso en patología respiratoria está bien establecido.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acetylcysteine (traducción no oficial): «Se ha demostrado que la acetilcisteína reduce la extensión de la lesión hepática tras una sobredosis de paracetamol. Las dosis de paracetamol de 150 mg/kg o superiores se han asociado con hepatotoxicidad. Probablemente, la acetilcisteína protege el hígado al mantener o restablecer los niveles de glutatión, o al actuar como sustrato alternativo para la conjugación con el metabolito reactivo del paracetamol y, por tanto, para su destoxificación.» Texto original en inglés: "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), versión del 2025-04-30; consultado el 2026-11-19). Según la información conocida, la acetilcisteína es un tiol con acción mucolítica y antioxidante, y su uso en patología respiratoria está bien establecido.
 
 Mecanísticamente, el NAC puede reducir los puentes disulfuro del factor de von Willebrand (VWF), disminuyendo el tamaño de sus multímeros y su capacidad de unirse a las plaquetas. Esto está respaldado por modelos preclínicos en ratón y babuino de púrpura trombótica trombocitopénica (PTT). Además, su efecto antioxidante podría atenuar la lesión endotelial, relevante en la microangiopatía trombótica asociada a trasplante (TA-TMA).
 
@@ -166,12 +166,13 @@ Existe un ensayo de Fase 3 completado (NCT03252925) y otro de Fase 2/3 en curso 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los tres registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
 
 <!-- review:end log -->
 

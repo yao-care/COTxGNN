@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por conocimiento general, el ketoprofeno es un AINE que inhibe de forma no selectiva la COX-1 y la COX-2, reduciendo la síntesis de prostaglandinas, con efecto analgésico y antiinflamatorio.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketoprofen (traducción no oficial): «En modelos antiinflamatorios, se ha demostrado que el ketoprofeno tiene efectos inhibidores sobre la síntesis de prostaglandinas y leucotrienos, actividad antibradicinina y acción estabilizadora de las membranas lisosómicas. Sin embargo, su modo de acción, al igual que el de otros antiinflamatorios no esteroideos, no se conoce por completo.» Texto original en inglés: "In anti-inflammatory models ketoprofen has been shown to have inhibitory effects on prostaglandin and leukotriene synthesis, to have antibradykinin activity, as well as to have lysosomal membrane-stabilizing action. However, its mode of action, like that of other non-steroidal anti-inflammatory drugs, is not fully understood." ([DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d), versión del 2026-01-07; consultado el 2026-11-19). Por conocimiento general, el ketoprofeno es un AINE que inhibe de forma no selectiva la COX-1 y la COX-2, reduciendo la síntesis de prostaglandinas, con efecto analgésico y antiinflamatorio.
 
 La displasia acromesomélica tipo Hunter-Thompson es un trastorno esquelético causado por mutaciones de pérdida de función en CDMP1/GDF5, que alteran la condrogénesis. La inhibición de la COX no corrige de forma plausible el defecto subyacente en la señalización BMP/GDF.
 
@@ -126,12 +126,13 @@ La predicción carece de ensayos, literatura y plausibilidad mecanística (nivel
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "(AINE) registrado en Colombia bajo la indicación genérica "ketoprofeno" en su único registro sanitario, hoy cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orudis (ketoprofen) prescribing information, Allegis Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=47d0b808-7142-c7a9-e063-6394a90a6e0d) |
 
 <!-- review:end log -->
 

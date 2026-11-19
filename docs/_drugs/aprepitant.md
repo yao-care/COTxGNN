@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Aprepitant es un antagonista del receptor NK1 de la sustancia P. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos compilada, pero la clase farmacológica es conocida: el bloqueo de la señalización de la sustancia P/NK1.
+Aprepitant es un antagonista del receptor NK1 de la sustancia P. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Aprepitant (traducción no oficial): «El aprepitant es un antagonista selectivo y de alta afinidad de los receptores de la sustancia P/neurocinina 1 (NK 1 ) humanos. El aprepitant tiene poca o ninguna afinidad por los receptores de serotonina (5-HT 3 ), de dopamina y de corticosteroides. Se ha demostrado en modelos animales que el aprepitant inhibe la emesis inducida por agentes quimioterápicos citotóxicos, como el cisplatino, mediante acciones centrales.» Texto original en inglés: "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), versión del 2026-04-01; consultado el 2026-11-19).
 
 Existen reportes de que la señalización sustancia P/NK1 puede modular vías relacionadas con la vasopresina y el manejo renal del agua, lo que ofrece un vínculo mecanístico débil con el NSIAD. Sin embargo, no existe una relación establecida con las mutaciones activadoras del receptor V2 que causan esta enfermedad.
 
@@ -136,12 +136,13 @@ Las demás predicciones del modelo (hipertricosis, hipertensión pulmonar, lepra
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la compatibilidad de vía de administración" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
 
 <!-- review:end log -->
 

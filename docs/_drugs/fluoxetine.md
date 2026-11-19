@@ -56,7 +56,7 @@ pero no hay ensayos clínicos registrados y la literatura disponible (10 publica
 
 ## Por qué es Razonable esta Predicción?
 
-Fluoxetina es un ISRS: aumenta la disponibilidad de serotonina en la sinapsis al bloquear su recaptación. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe, pero el mecanismo de clase es bien conocido.
+Fluoxetina es un ISRS: aumenta la disponibilidad de serotonina en la sinapsis al bloquear su recaptación. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluoxetine (traducción no oficial): «Aunque se desconoce el mecanismo exacto de PROZAC, se presume que está relacionado con su inhibición de la captación neuronal de serotonina en el SNC.» Texto original en inglés: "Although the exact mechanism of PROZAC is unknown, it is presumed to be linked to its inhibition of CNS neuronal uptake of serotonin." ([DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299), versión del 2026-01-08; consultado el 2026-11-19).
 
 La disfunción serotoninérgica se ha vinculado con la impulsividad, la inestabilidad afectiva y síntomas obsesivos o de tipo psicótico en los trastornos de personalidad de los grupos A y B. Esto ofrece un vínculo mecanístico plausible con el trastorno de personalidad esquizotípica.
 
@@ -106,6 +106,19 @@ No hay ensayos clínicos registrados para el trastorno de personalidad esquizot�
 - Datos del mecanismo de acción en los registros locales
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Plan de vigilancia de eventos psiquiátricos adversos (psicosis, activación)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prozac (fluoxetine hydrochloride) prescribing information, Dista Products Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c88f33ed-6dfb-4c5e-bc01-d8e36dd97299) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

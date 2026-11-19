@@ -67,7 +67,7 @@ El modelo TxGNN predice que podría ser efectivo para **artritis idiopática juv
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, el diclofenaco es un inhibidor no selectivo de COX-1 y COX-2, que reduce la inflamación y el dolor mediada por prostaglandinas. Los datos farmacológicos compilados también lo asocian con otros blancos (TRPM3, PPARG, ASIC3 y el transportador SLC36A1).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Diclofenac (traducción no oficial): «El diclofenaco tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del diclofenaco, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Diclofenac has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of diclofenac, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970), versión del 2026-09-24; consultado el 2026-11-19). Según lo conocido, el diclofenaco es un inhibidor no selectivo de COX-1 y COX-2, que reduce la inflamación y el dolor mediada por prostaglandinas. Los datos farmacológicos compilados también lo asocian con otros blancos (TRPM3, PPARG, ASIC3 y el transportador SLC36A1).
 
 La indicación original (analgesia con tramadol + diclofenaco) y la artritis idiopática juvenil comparten un componente de dolor e inflamación articular, que es precisamente donde actúan los AINE. Por eso el ajuste mecanístico para el control sintomático es directo y plausible.
 
@@ -146,13 +146,14 @@ La única predicción con literatura (artritis idiopática juvenil) se apoya en 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado, y las demás predicciones del top 10 son solo del modelo (L5) sin vínculo mecanístico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que, en Colombia, estuvo registrado en una combinación con tramadol (producto DICASEN® 50/50)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Diclofenac Sodium Delayed Release (diclofenac sodium) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc99e6af-7050-4653-a681-5b252305a970) |
 
 <!-- review:end log -->
 

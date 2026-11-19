@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **malformación respiratoria 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase farmacológica, salmeterol es un agonista beta2 de acción prolongada que produce broncodilatación sostenida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Salmeterol (traducción no oficial): «El salmeterol es un LABA selectivo. Los estudios in vitro muestran que el salmeterol es al menos 50 veces más selectivo por los adrenorreceptores beta 2 que el albuterol. Aunque los adrenorreceptores beta 2 son los receptores adrenérgicos predominantes en el músculo liso bronquial y los adrenorreceptores beta 1 son los receptores predominantes en el corazón, también existen adrenorreceptores beta 2 en el corazón humano, que constituyen entre el 10% y el 50% del total de adrenorreceptores beta.» Texto original en inglés: "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), versión del 2022-10-10; consultado el 2026-11-19). Por su clase farmacológica, salmeterol es un agonista beta2 de acción prolongada que produce broncodilatación sostenida.
 
 "Malformación respiratoria" es una categoría muy amplia, sin un vínculo mecanístico específico. Se podrían plantear posibles efectos sobre la función ciliar o el alivio de la obstrucción de la vía aérea en condiciones como la fibrosis quística o la discinesia ciliar, pero la evidencia es indirecta.
 
@@ -113,6 +113,18 @@ No existe ningún estudio que evalúe directamente la malformación respiratoria
 - Definir un subtipo concreto de malformación respiratoria con una hipótesis mecanística clara.
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad.
 - Información de seguridad completa del prospecto (advertencias y contraindicaciones).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

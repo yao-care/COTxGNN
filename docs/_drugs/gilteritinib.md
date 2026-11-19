@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **poliomielitis bulbar**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, gilteritinib es un inhibidor de FLT3 y AXL, con eficacia comprobada en la LMA con mutación FLT3 recidivante o refractaria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Gilteritinib (traducción no oficial): «El gilteritinib es una molécula pequeña que inhibe múltiples receptores con actividad de tirosina cinasa, incluida la tirosina cinasa 3 similar a FMS (FLT3). El gilteritinib demostró la capacidad de inhibir la señalización del receptor FLT3 y la proliferación en células que expresaban FLT3 de forma exógena, incluidas FLT3-ITD, las mutaciones del dominio tirosina cinasa (TKD) FLT3-D835Y y FLT3-ITD-D835Y, e indujo la apoptosis en células leucémicas que expresaban FLT3-ITD.» Texto original en inglés: "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), versión del 2026-10-01; consultado el 2026-11-19). Según la información conocida, gilteritinib es un inhibidor de FLT3 y AXL, con eficacia comprobada en la LMA con mutación FLT3 recidivante o refractaria.
 
 Sin embargo, **no se identifica un vínculo mecanístico establecido** con la poliomielitis bulbar. Esta es una infección aguda por poliovirus que afecta las neuronas motoras del tronco encefálico, y no se conoce una vía que conecte la inhibición de FLT3/AXL con la replicación del poliovirus o con la neuroprotección. Se ha descrito que AXL participa en la entrada o la evasión inmune de algunos virus, pero para el poliovirus esto es especulativo y no está respaldado por ningún dato aquí.
 
@@ -145,13 +145,14 @@ La predicción se basa solo en el modelo (L5), sin ensayos clínicos ni literatu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Evaluación de la compatibilidad de vías de administración y de la situación regulatoria (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro existente está cancelado; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
 
 <!-- review:end log -->
 

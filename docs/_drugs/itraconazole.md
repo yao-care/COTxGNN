@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, itraconazol inhibe la lanosterol 14-alfa-desmetilasa fúngica (CYP51), bloqueando la síntesis de ergosterol de la membrana celular. Su eficacia en infecciones fúngicas sistémicas está bien establecida, aunque el registro local no detalla la indicación aprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Itraconazole (traducción no oficial): «Los estudios in vitro han demostrado que el itraconazol inhibe la síntesis de ergosterol dependiente del citocromo P450; el ergosterol es un componente vital de las membranas celulares de los hongos.» Texto original en inglés: "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), versión del 2026-07-13; consultado el 2026-11-19). Según el conocimiento farmacológico general, itraconazol inhibe la lanosterol 14-alfa-desmetilasa fúngica (CYP51), bloqueando la síntesis de ergosterol de la membrana celular. Su eficacia en infecciones fúngicas sistémicas está bien establecida, aunque el registro local no detalla la indicación aprobada.
 
 La relación con la neumocistosis es **débil**. *Pneumocystis jirovecii* es taxonómicamente un hongo, pero su membrana contiene muy poco ergosterol y depende sobre todo de colesterol y esteroles relacionados. Esto limita la plausibilidad de un mecanismo azólico, y los azoles no están establecidos como eficaces contra *Pneumocystis*.
 
@@ -151,13 +151,14 @@ No hay ensayos clínicos ni estudios que respalden itraconazol contra la neumoci
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "(los dos registros sanitarios están cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, ambos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
 
 <!-- review:end log -->
 

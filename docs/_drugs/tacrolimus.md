@@ -60,7 +60,7 @@ con **2 ensayos clínicos** (uno de Fase 3 completado) y **20 publicaciones** qu
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tacrolimus inhibe la calcineurina, lo que bloquea la activación de los linfocitos T dependiente de NFAT y reduce la liberación de citocinas proinflamatorias como la IL-2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tacrolimus (traducción no oficial): «El tacrolimus se une a una proteína intracelular, FKBP-12. A continuación, se forma un complejo de tacrolimus-FKBP-12, calcio, calmodulina y calcineurina (una enzima intracelular ubicua en los mamíferos) y se inhibe la actividad fosfatasa de la calcineurina.» Texto original en inglés: "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), versión del 2025-02-26; consultado el 2026-11-19). Según el conocimiento farmacológico general, tacrolimus inhibe la calcineurina, lo que bloquea la activación de los linfocitos T dependiente de NFAT y reduce la liberación de citocinas proinflamatorias como la IL-2.
 
 La dermatitis seborreica es una enfermedad inflamatoria crónica de la piel, con recaídas frecuentes, en la que interviene una respuesta inmunitaria frente a la levadura *Malassezia*. Al calmar el componente inflamatorio, un inhibidor de la calcineurina tópico es una alternativa plausible a los corticoides, cuyo uso prolongado tiene efectos adversos. El mismo mecanismo sustenta su uso establecido en la dermatitis atópica.
 
@@ -140,12 +140,13 @@ Existe un ensayo de Fase 3 completado y un estudio de Fase 4 completado específ
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes de tacrolimus tópico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que los registros colombianos identificados son orales y están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

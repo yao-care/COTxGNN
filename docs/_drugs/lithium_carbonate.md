@@ -64,7 +64,7 @@ El modelo TxGNN predice que podría ser efectivo para **pseudoacondroplasia**, p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el litio inhibe la enzima GSK-3β y modula la vía de señalización Wnt/β-catenina, que participa en la biología del condrocito y de la placa de crecimiento.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lithium Carbonate (traducción no oficial): «Se desconoce el mecanismo de acción del litio como agente estabilizador del estado de ánimo.» Texto original en inglés: "The mechanism of action of lithium as a mood stabilizing agent is unknown." ([DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544), versión del 2022-11-03; consultado el 2026-11-19). Según el conocimiento general, el litio inhibe la enzima GSK-3β y modula la vía de señalización Wnt/β-catenina, que participa en la biología del condrocito y de la placa de crecimiento.
 
 La pseudoacondroplasia es causada por mutaciones en el gen COMP, que provocan estrés del retículo endoplásmico y muerte de los condrocitos. El vínculo con el litio es **puramente especulativo**: no existe evidencia directa que relacione el fármaco con esta enfermedad. El puntaje alto de TxGNN (0.9998) es solo una predicción computacional y no sustituye la evidencia clínica.
 
@@ -127,12 +127,13 @@ La predicción se apoya únicamente en el puntaje del modelo, sin ensayos clíni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El carbonato de litio contaba en Colombia con registros sanitarios para su uso como litio (la indicación aprobada se registra solo como "LIT" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lithium Carbonate Lithium Carbonate (lithium carbonate) prescribing information, Alembic Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ca2b977-b94c-4232-9b7e-835db97c9544) |
 
 <!-- review:end log -->
 

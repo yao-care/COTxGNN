@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, vildagliptina inhibe la enzima DPP-4, lo que aumenta las hormonas incretinas (GLP-1 y GIP) y mejora el control de la glucosa en la diabetes tipo 2. Su eficacia en esa indicación está comprobada, pero no existe un vínculo mecanístico reconocido con la nueva indicación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Vildagliptin es (traducción no oficial): «Inhibidor de la dipeptidil peptidasa IV» Texto original en inglés: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, vildagliptina inhibe la enzima DPP-4, lo que aumenta las hormonas incretinas (GLP-1 y GIP) y mejora el control de la glucosa en la diabetes tipo 2. Su eficacia en esa indicación está comprobada, pero no existe un vínculo mecanístico reconocido con la nueva indicación.
 
 El síndrome de rigidez focal de extremidad es un trastorno neuromuscular emparentado con el síndrome de la persona rígida. Este último se asocia con autoinmunidad (anticuerpos anti-GAD) y con la diabetes tipo 1. Es probable que el puntaje alto refleje la cercanía en la red de conocimiento con nodos de diabetes o autoinmunidad, y no un efecto farmacológico real.
 
@@ -127,12 +127,13 @@ La predicción tiene un puntaje alto (0.9988), pero no cuenta con ensayos clíni
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro sanitario está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

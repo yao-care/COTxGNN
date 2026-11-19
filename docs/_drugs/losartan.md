@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, losartán es un bloqueador del receptor AT1 de la angiotensina II. Su eficacia en hipertensión y su efecto protector sobre el riñón están bien establecidos, y mecanísticamente podría ser aplicable a la enfermedad renal hipertensiva maligna.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Losartan (traducción no oficial): «La angiotensina II [formada a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II)] es un potente vasoconstrictor, la principal hormona vasoactiva del sistema renina-angiotensina y un componente importante en la fisiopatología de la hipertensión. También estimula la secreción de aldosterona por la corteza suprarrenal. […] El losartán y su principal metabolito activo bloquean los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al bloquear selectivamente la unión de la angiotensina II al receptor AT 1 presente en muchos tejidos (p. ej., músculo liso vascular, glándula suprarrenal).» Texto original en inglés: "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), versión del 2026-09-15; consultado el 2026-11-19). Según la información conocida, losartán es un bloqueador del receptor AT1 de la angiotensina II. Su eficacia en hipertensión y su efecto protector sobre el riñón están bien establecidos, y mecanísticamente podría ser aplicable a la enfermedad renal hipertensiva maligna.
 
 La única publicación disponible (PMID 30809002) describe, en un modelo de rata, que la angiotensina II y la vía NF-κB participan en la nefroesclerosis hipertensiva maligna. Esto es coherente con bloquear el receptor AT1, pero el respaldo es solo preclínico.
 
@@ -130,12 +130,13 @@ La predicción tiene un puntaje alto, pero solo la respalda un estudio en animal
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
 
 <!-- review:end log -->
 

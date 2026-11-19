@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la levodopa es un precursor de la dopamina: se convierte en dopamina por acción de la descarboxilasa de L-aminoácidos aromáticos y se utiliza junto con un inhibidor de la decarboxilasa (y a veces un inhibidor de la COMT) para reponer la dopamina estriatal en la enfermedad de Parkinson.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Levodopa (traducción no oficial): «La levodopa, el precursor metabólico de la dopamina, atraviesa la barrera hematoencefálica y presumiblemente se convierte en dopamina en el cerebro. Se cree que este es el mecanismo por el cual la levodopa alivia los síntomas de la enfermedad de Parkinson.» Texto original en inglés: "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), versión del 2026-07-20; consultado el 2026-11-19). Según la información conocida, la levodopa es un precursor de la dopamina: se convierte en dopamina por acción de la descarboxilasa de L-aminoácidos aromáticos y se utiliza junto con un inhibidor de la decarboxilasa (y a veces un inhibidor de la COMT) para reponer la dopamina estriatal en la enfermedad de Parkinson.
 
 La encefalitis de Rasmussen es un trastorno cerebral inflamatorio raro, crónico y generalmente unilateral, con convulsiones focales refractarias, atrofia progresiva del hemisferio afectado y deterioro neurológico. Se cree que está impulsada por citotoxicidad mediada por linfocitos T y activación microglial.
 
@@ -135,12 +135,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

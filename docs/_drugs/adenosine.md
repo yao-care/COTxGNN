@@ -60,7 +60,7 @@ Como alternativa más plausible aparece la **taquicardia ventricular polimórfic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la adenosina actúa sobre los receptores de adenosina A1, A2A, A2B y A3, además de interactuar con TRPM4 y con las fosfatidilinositol 4-quinasas tipo 2 alfa y beta. Su uso clínico reconocido es el tratamiento de taquicardias, y actúa como bloqueador del nodo auriculoventricular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Adenosine (traducción no oficial): «Adenosina Inyectable enlentece el tiempo de conducción a través del nódulo A-V, puede interrumpir las vías de reentrada a través del nódulo A-V y puede restablecer el ritmo sinusal normal en pacientes con taquicardia supraventricular paroxística (TSVP), incluida la TSVP asociada al síndrome de Wolff-Parkinson-White. Adenosina Inyectable es antagonizada de forma competitiva por las metilxantinas, como la cafeína y la teofilina, y potenciada por los bloqueantes del transporte de nucleósidos, como el dipiridamol.» Texto original en inglés: "Adenosine Injection slows conduction time through the A-V node, can interrupt the reentry pathways through the A-V node, and can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardia (PSVT), including PSVT associated with Wolff-Parkinson-White Syndrome. Adenosine Injection is antagonized competitively by methylxanthines such as caffeine and theophylline, and potentiated by blockers of nucleoside transport such as dipyridamole." ([DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30), versión del 2026-08-31; consultado el 2026-11-19). Según la información farmacológica conocida, la adenosina actúa sobre los receptores de adenosina A1, A2A, A2B y A3, además de interactuar con TRPM4 y con las fosfatidilinositol 4-quinasas tipo 2 alfa y beta. Su uso clínico reconocido es el tratamiento de taquicardias, y actúa como bloqueador del nodo auriculoventricular.
 
 **Bloqueo de rama del haz:** la única base de esta predicción es el puntaje del modelo. No se recuperaron ensayos ni literatura, y el término está marcado como obsoleto en la ontología, por lo que probablemente es un nodo heredado o duplicado y no una entidad clínica distinta. La adenosina se usa de forma diagnóstica en trastornos de conducción, pero los datos no respaldan una justificación para tratar este trastorno.
 
@@ -148,12 +148,13 @@ La indicación principal predicha (bloqueo de rama del haz) se sostiene solo en 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Evaluar la situación regulatoria: confirmar por qué los registros fueron cancelados y si existe alternativa de acceso al producto en Colombi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
 
 <!-- review:end log -->
 

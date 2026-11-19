@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia areata**, con *
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la prednisolona actúa sobre el receptor de glucocorticoides (NR3C1) y el receptor de mineralocorticoides (NR3C2), y se usa como antiinflamatorio e inmunosupresor en asma, colitis ulcerosa, enfermedad de Crohn, artritis reumatoide, lupus eritematoso sistémico y EPOC, entre otras.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prednisolone (traducción no oficial): «La prednisolona es un fármaco esteroide corticosuprarrenal sintético con propiedades predominantemente glucocorticoides. Algunas de estas propiedades reproducen las acciones fisiológicas de los glucocorticosteroides endógenos, pero otras no reflejan necesariamente ninguna de las funciones normales de las hormonas suprarrenales; solo se observan tras la administración de dosis terapéuticas elevadas del fármaco.» Texto original en inglés: "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), versión del 2025-06-03; consultado el 2026-11-19). Según la información conocida, la prednisolona actúa sobre el receptor de glucocorticoides (NR3C1) y el receptor de mineralocorticoides (NR3C2), y se usa como antiinflamatorio e inmunosupresor en asma, colitis ulcerosa, enfermedad de Crohn, artritis reumatoide, lupus eritematoso sistémico y EPOC, entre otras.
 
 La alopecia areata es una enfermedad autoinmune mediada por linfocitos T, en la que se pierde el privilegio inmune del folículo piloso. Los glucocorticoides suprimen el infiltrado de linfocitos T citotóxicos alrededor del folículo, lo que ofrece una justificación mecanística directa. El uso de corticosteroides orales en pulsos ya está establecido en la práctica clínica, aunque las recaídas tras suspender el tratamiento y los efectos adversos sistémicos limitan su uso prolongado.
 
@@ -138,12 +138,13 @@ Existe un ECA controlado con placebo, varias revisiones sistemáticas y revision
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → al menos 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para el **trastorno de migraña (m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, apixabán bloquea el factor Xa y reduce la formación de trombina y de coágulos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Apixaban (traducción no oficial): «El apixabán es un inhibidor selectivo del FXa. No requiere antitrombina III para ejercer su actividad antitrombótica. El apixabán inhibe el FXa libre y el unido al coágulo, así como la actividad de la protrombinasa. El apixabán no tiene ningún efecto directo sobre la agregación plaquetaria, pero inhibe indirectamente la agregación plaquetaria inducida por la trombina.» Texto original en inglés: "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), versión del 2026-09-24; consultado el 2026-11-19). Por su clase, apixabán bloquea el factor Xa y reduce la formación de trombina y de coágulos.
 
 La hipótesis que podría vincularlo con la migraña es que, en la migraña con aura, sobre todo en personas con foramen oval permeable o anticuerpos antifosfolípidos, microtrombos o embolias paradójicas contribuirían a las crisis. En teoría, anticoagular podría reducir los episodios.
 
@@ -103,6 +103,18 @@ Ningún estudio respalda el uso de apixabán en migraña (nivel de evidencia L5)
 - Datos del mecanismo de acción para analizar el vínculo mecanístico
 - Revisión del prospecto con advertencias y contraindicaciones
 - Evaluación del riesgo de sangrado frente a un beneficio no demostrado
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

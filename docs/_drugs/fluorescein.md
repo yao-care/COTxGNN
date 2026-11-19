@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Angina de Prinzmetal**, 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la fluoresceína es un colorante diagnóstico fluorescente, usado sobre todo en angiografía y tinción de la superficie ocular, y no un fármaco terapéutico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorescein (traducción no oficial): «La fluoresceína sódica responde a la radiación electromagnética y a la luz de longitudes de onda de 465 a 490 nm y emite fluorescencia, es decir, emite luz de longitudes de onda de 520 a 530 nm. Así, el hidrocarburo es excitado por la luz azul y emite una luz que se percibe de color verde amarillento.» Texto original en inglés: "Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green." ([DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0), versión del 2026-02-26; consultado el 2026-11-19). Según la información conocida, la fluoresceína es un colorante diagnóstico fluorescente, usado sobre todo en angiografía y tinción de la superficie ocular, y no un fármaco terapéutico.
 
 El análisis de los datos compilados no identificó ningún vínculo mecanístico: la fluoresceína no tiene actividad vasodilatadora ni antiespasmódica vascular conocida, que sería lo esperable para tratar la angina vasoespástica. El puntaje alto de TxGNN (0.9981) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -119,11 +119,12 @@ La predicción para Angina de Prinzmetal se basa solo en el modelo (L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
 
 <!-- review:end log -->
 

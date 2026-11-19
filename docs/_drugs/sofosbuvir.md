@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sofosbuvir es un análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN (NS5B) del virus de la hepatitis C, y su eficacia en hepatitis C está bien establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sofosbuvir (traducción no oficial): «El sofosbuvir es un antiviral de acción directa contra el virus de la hepatitis C. […] El sofosbuvir es un inhibidor de la ARN polimerasa dependiente de ARN NS5B del VHC, que es esencial para la replicación viral. El sofosbuvir es un profármaco nucleotídico que se metaboliza a nivel intracelular para formar el trifosfato análogo de uridina farmacológicamente activo (GS-461203), que puede ser incorporado al ARN del VHC por la polimerasa NS5B y actúa como terminador de cadena.» Texto original en inglés: "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), versión del 2024-12-26; consultado el 2026-11-19). Según la información conocida, sofosbuvir es un análogo de nucleótido que inhibe la ARN polimerasa dependiente de ARN (NS5B) del virus de la hepatitis C, y su eficacia en hepatitis C está bien establecida.
 
 La relación con la hepatitis B es débil desde el punto de vista mecanístico. El VHB se replica mediante una ADN polimerasa/transcriptasa inversa, por lo que no hay una coincidencia directa con el blanco de sofosbuvir. Los datos clínicos en VHB provienen sobre todo de pacientes coinfectados VHC/VHB, en los que el tratamiento con antivirales de acción directa no suprime el VHB y puede desencadenar su reactivación. Por ello, no se espera que sofosbuvir tenga actividad anti-VHB intrínseca, y el puntaje tan alto del modelo (0.9977) no está respaldado por este razonamiento.
 
@@ -153,12 +153,13 @@ Aunque el puntaje de TxGNN es muy alto, la evidencia disponible es indirecta (co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro de Epclusa® figura como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Esta predicción no cuenta con respaldo terapéutico; la evidencia disponible ap
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la propafenona es un antiarrítmico de clase IC que bloquea los canales de sodio, y su eficacia en arritmias está comprobada. Sin embargo, no existe un vínculo mecanístico plausible con el manejo de la manía bipolar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Propafenone (traducción no oficial): «La propafenona es un fármaco antiarrítmico de clase 1C con efectos anestésicos locales y una acción estabilizadora directa sobre las membranas miocárdicas. El efecto electrofisiológico de la propafenona se manifiesta en una reducción de la velocidad de ascenso (fase 0) del potencial de acción monofásico.» Texto original en inglés: "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), versión del 2026-06-04; consultado el 2026-11-19). Según la información conocida, la propafenona es un antiarrítmico de clase IC que bloquea los canales de sodio, y su eficacia en arritmias está comprobada. Sin embargo, no existe un vínculo mecanístico plausible con el manejo de la manía bipolar.
 
 La literatura disponible va en dirección contraria a la predicción: un reporte de caso de 1985 describe un episodio de manía secundario a la propafenona (los autores especulan que, por su parecido químico con el bupropión, podría tener efectos afectivos), un reporte de 2001 describe una psicosis orgánica por interacción venlafaxina-propafenona en un paciente bipolar, y una revisión de 2020 aborda las interacciones adversas entre antipsicóticos y fármacos cardiovasculares.
 
@@ -125,11 +125,12 @@ No hay ensayos clínicos y la literatura disponible describe a la propafenona co
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta indicació
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la clindamicina es un antibiótico del grupo de las lincosamidas que inhibe la síntesis de proteínas bacterianas y es activo principalmente frente a bacterias Gram positivas. Su eficacia en infecciones ginecológicas locales es la base de su uso original.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clindamycin (traducción no oficial): «La clindamicina inhibe la síntesis de proteínas bacterianas mediante su unión al ARN 23S de la subunidad 50S del ribosoma. La clindamicina es bacteriostática.» Texto original en inglés: "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), versión del 2026-09-16; consultado el 2026-11-19). Según la información conocida, la clindamicina es un antibiótico del grupo de las lincosamidas que inhibe la síntesis de proteínas bacterianas y es activo principalmente frente a bacterias Gram positivas. Su eficacia en infecciones ginecológicas locales es la base de su uso original.
 
 La relación con la nueva indicación es débil. La queratopatía epitelial punteada suele ser de origen no infeccioso (ojo seco, toxicidad o infección viral), por lo que un mecanismo antibacteriano no resulta claramente relevante. Además, la clindamicina sistémica difícilmente alcanzaría la superficie ocular en concentraciones útiles.
 
@@ -132,12 +132,13 @@ La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->
 

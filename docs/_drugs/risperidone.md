@@ -60,7 +60,7 @@ Nota: el modelo generó varias predicciones. La primera por puntaje (parálisis 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, risperidona es un antipsicótico atípico con acción antagonista sobre los receptores de dopamina D2 y de serotonina 5-HT2A. Los datos farmacológicos muestran además afinidad por otros receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 1F, 2C, 6 y 7), adrenérgicos (α1A, α1B, α1D, α2A), dopaminérgico D3 e histaminérgico H1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Risperidone (traducción no oficial): «Se desconoce el mecanismo de acción de la risperidona en la esquizofrenia. La actividad terapéutica del fármaco en la esquizofrenia podría estar mediada por una combinación de antagonismo de los receptores de dopamina tipo 2 (D 2 ) y de serotonina tipo 2 (5HT 2 ).» Texto original en inglés: "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), versión del 2026-10-23; consultado el 2026-11-19). Según la información conocida, risperidona es un antipsicótico atípico con acción antagonista sobre los receptores de dopamina D2 y de serotonina 5-HT2A. Los datos farmacológicos muestran además afinidad por otros receptores serotoninérgicos (5-HT1A, 1B, 1D, 1E, 1F, 2C, 6 y 7), adrenérgicos (α1A, α1B, α1D, α2A), dopaminérgico D3 e histaminérgico H1.
 
 Los trastornos afectivos (depresión mayor y trastorno bipolar) comparten con las indicaciones originales una base neuroquímica monoaminérgica. El bloqueo 5-HT2A y D2 respalda su uso como terapia adyuvante a los antidepresivos en la depresión resistente al tratamiento y como monoterapia en síntomas de manía o depresión bipolar.
 
@@ -151,12 +151,13 @@ Dos ensayos de Fase 3 completados (NCT00095134, n=630; NCT00044681, n=258) y var
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Sin embargo, el estado de mercado en Colombia es "solo cancelados" y el perfil de seguridad exige límites claros de uso" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: ambos registros sanitarios están cancelados, por lo que sería necesario un registro vigente para esta in" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
 
 <!-- review:end log -->
 

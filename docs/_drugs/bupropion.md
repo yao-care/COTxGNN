@@ -68,7 +68,7 @@ con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la literatura revisada, bupropión inhibe la recaptación de noradrenalina y dopamina, sin actividad serotoninérgica relevante, y se usa como antidepresivo y para la cesación tabáquica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bupropion (traducción no oficial): «Se desconoce el mecanismo exacto por el cual los comprimidos de liberación prolongada de clorhidrato de bupropión (SR) potencian la capacidad de los pacientes para abstenerse de fumar, pero se presume que está relacionado con mecanismos noradrenérgicos y/o dopaminérgicos. El bupropión es un inhibidor relativamente débil de la recaptación neuronal de noradrenalina y dopamina, y no inhibe la recaptación de serotonina.» Texto original en inglés: "The exact mechanism by which bupropion hydrochloride extended-release tablets (SR) enhances the ability of patients to abstain from smoking is not known but is presumed to be related to noradrenergic and/or dopaminergic mechanisms. Bupropion is a relatively weak inhibitor of the neuronal reuptake of norepinephrine and dopamine, and does not inhibit the reuptake of serotonin." ([DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119), versión del 2026-11-11; consultado el 2026-11-19). Según la literatura revisada, bupropión inhibe la recaptación de noradrenalina y dopamina, sin actividad serotoninérgica relevante, y se usa como antidepresivo y para la cesación tabáquica.
 
 Los tratamientos establecidos para el TDAH actúan sobre las mismas vías catecolaminérgicas (dopamina y noradrenalina). Esto ofrece un mecanismo plausible para mejorar la atención y el control de impulsos. Las revisiones sobre farmacoterapia del TDAH incluyen a bupropión entre los fármacos usados como alternativa a los estimulantes, y existe una revisión Cochrane específica sobre bupropión en adultos con TDAH.
 
@@ -149,12 +149,13 @@ Existe un ensayo de Fase 3 completado, otro de Fase 2/3 y uno de Fase 4, junto c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®), actualmente todos cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
 
 <!-- review:end log -->
 

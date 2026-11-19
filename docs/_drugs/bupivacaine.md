@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje. Los datos farmacológicos compilados también la vinculan con otros canales iónicos (Nav1.5, Kv1.5, Kv4.3 y Kir3.2), aunque sin datos públicos de afinidad que lo confirmen.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Bupivacaine (traducción no oficial): «Los anestésicos locales bloquean la generación y la conducción de los impulsos nerviosos, presumiblemente al aumentar el umbral de excitación eléctrica del nervio, al ralentizar la propagación del impulso nervioso y al reducir la velocidad de ascenso del potencial de acción. En general, la progresión de la anestesia está relacionada con el diámetro, la mielinización y la velocidad de conducción de las fibras nerviosas afectadas.» Texto original en inglés: "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), versión del 2026-11-09; consultado el 2026-11-19). Según la información conocida, la bupivacaína es un anestésico local de tipo amida que bloquea los canales de sodio dependientes de voltaje. Los datos farmacológicos compilados también la vinculan con otros canales iónicos (Nav1.5, Kv1.5, Kv4.3 y Kir3.2), aunque sin datos públicos de afinidad que lo confirmen.
 
 **La predicción no es mecanísticamente plausible.** La acrodermatitis crónica atrófica es la manifestación cutánea tardía de la infección por *Borrelia* (enfermedad de Lyme) y se trata con antibióticos. Un bloqueador de canales de sodio no tiene un papel antiinfeccioso ni antiatrófico razonable. El puntaje alto (0.9923) es solo una predicción derivada del modelo, sin respaldo de ensayos ni literatura, y la ausencia de datos de mecanismo limita aún más la evaluación.
 
@@ -144,13 +144,14 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Este es el único registro y se encuentra cancelado, por lo que actualmente no hay productos vigentes con bupivacaína en los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

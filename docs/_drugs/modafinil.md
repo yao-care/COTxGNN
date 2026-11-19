@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio (insomnia (dise
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Modafinilo se conoce como un agente que promueve la vigilia, y en general se entiende que actúa mediante la inhibición del transportador de dopamina y la modulación de circuitos que favorecen la vigilia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Modafinil (traducción no oficial): «Se desconoce el mecanismo o los mecanismos mediante los cuales el modafinilo promueve la vigilia. El modafinilo tiene acciones promotoras de la vigilia similares a las de los agentes simpaticomiméticos, incluidos la anfetamina y el metilfenidato, aunque el perfil farmacológico no es idéntico al de las aminas simpaticomiméticas.» Texto original en inglés: "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), versión del 2026-09-16; consultado el 2026-11-19). Modafinilo se conoce como un agente que promueve la vigilia, y en general se entiende que actúa mediante la inhibición del transportador de dopamina y la modulación de circuitos que favorecen la vigilia.
 
 Este mecanismo es farmacológicamente opuesto al tratamiento del insomnio, ya que el fármaco favorece la vigilia y no el sueño. El puntaje alto del modelo (0,9985) probablemente refleja la cercanía en la red con trastornos del ciclo sueño-vigilia (narcolepsia, trastorno del sueño por trabajo en turnos, somnolencia en enfermedades neurológicas) más que un vínculo terapéutico real con el insomnio.
 
@@ -111,6 +111,18 @@ No hay estudios que demuestren eficacia de modafinilo en el insomnio (el único 
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evaluación de seguridad cardiovascular y psiquiátrica, dadas las contraindicaciones registradas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

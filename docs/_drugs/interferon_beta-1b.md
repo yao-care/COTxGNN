@@ -56,7 +56,7 @@ Interferón beta-1b es un inmunomodulador registrado en Colombia bajo el product
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el interferón beta-1b es un interferón tipo I con efectos inmunomoduladores y antiproliferativos, y su eficacia en esclerosis múltiple ha sido ampliamente estudiada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Interferon Beta-1B (traducción no oficial): «Se desconoce el mecanismo de acción de BETASERON (interferón beta-1b) en pacientes con esclerosis múltiple.» Texto original en inglés: "The mechanism of action of BETASERON (interferon beta-1b) in patients with multiple sclerosis is unknown." ([DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5), versión del 2026-03-03; consultado el 2026-11-19). Según la información conocida, el interferón beta-1b es un interferón tipo I con efectos inmunomoduladores y antiproliferativos, y su eficacia en esclerosis múltiple ha sido ampliamente estudiada.
 
 Para la leucemia de células pilosas, el vínculo es indirecto: el interferón alfa, otro interferón tipo I, tiene uso histórico en esta enfermedad. El modelo podría estar captando la señalización compartida de los interferones tipo I (efecto antiproliferativo e inmunomodulador). Es una inferencia a partir de un fármaco relacionado y **no constituye evidencia directa** para el interferón beta-1b.
 
@@ -138,12 +138,13 @@ La predicción para leucemia de células pilosas tiene un puntaje alto (0.9916),
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Verificar el estado regulatorio actual en INVIMA, ya que solo consta un registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Betaseron (interferon beta-1b) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66311f74-0472-4fa3-848a-06002ca0def5) |
 
 <!-- review:end log -->
 

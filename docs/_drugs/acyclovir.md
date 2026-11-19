@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **queratoconjuntivitis epi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, aciclovir es un análogo de la guanosina que inhibe la ADN polimerasa de los herpesvirus, y su eficacia en infecciones herpéticas está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Acyclovir (traducción no oficial): «El aciclovir es un análogo sintético de nucleósido de purina con actividad inhibitoria in vitro e in vivo contra los virus del herpes simple tipo 1 (VHS-1) y tipo 2 (VHS-2) y el virus de la varicela-zóster (VVZ). La actividad inhibitoria del aciclovir es altamente selectiva debido a su afinidad por la enzima timidina cinasa (TK) codificada por el VHS y el VVZ.» Texto original en inglés: "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), versión del 2026-06-26; consultado el 2026-11-19). Según la información conocida, aciclovir es un análogo de la guanosina que inhibe la ADN polimerasa de los herpesvirus, y su eficacia en infecciones herpéticas está bien establecida.
 
 La queratitis epitelial punteada puede tener causa herpética o adenoviral, lo que explicaría en parte la predicción. Sin embargo, la literatura recuperada trata de queratoconjuntivitis por microsporidios y de lipidosis corneal en pacientes con SIDA, y aciclovir no tiene actividad contra esos agentes. El vínculo mecanístico es débil y el puntaje alto del modelo no está respaldado por la evidencia.
 
@@ -109,11 +109,12 @@ La predicción tiene un puntaje alto (0.9967), pero no existen ensayos clínicos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y ambos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
 
 <!-- review:end log -->
 

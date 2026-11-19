@@ -60,7 +60,7 @@ con **9 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la ketamina es un antagonista del receptor NMDA de glutamato. Este razonamiento se infiere del conocimiento farmacológico general y no del registro proporcionado.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketamine (traducción no oficial): «KETALAR, una mezcla racémica de ketamina, es un antagonista no selectivo y no competitivo del receptor de N-metil-D-aspartato (NMDA), un receptor ionotrópico de glutamato. El principal metabolito circulante de la ketamina (norketamina) demostró actividad sobre el mismo receptor con menor afinidad.» Texto original en inglés: "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), versión del 2026-03-27; consultado el 2026-11-19). Según la farmacología conocida, la ketamina es un antagonista del receptor NMDA de glutamato. Este razonamiento se infiere del conocimiento farmacológico general y no del registro proporcionado.
 
 La sensibilización central y la señalización glutamatérgica contribuyen a la migraña, la cefalea en racimos y el dolor de cabeza crónico. El bloqueo de los receptores NMDA podría atenuar la depresión cortical propagada, la transmisión nociceptiva trigeminovascular y el fenómeno de "wind-up" (amplificación progresiva del dolor). Esto ofrece un mecanismo plausible para un efecto analgésico en los trastornos de cefalea.
 
@@ -156,13 +156,14 @@ Existen varios ensayos clínicos directamente relacionados con cefalea (incluido
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

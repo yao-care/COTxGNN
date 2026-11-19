@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea (amenorrhea)**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la literatura revisada, danazol es un esteroide sintético con efectos androgénicos que inhibe las gonadotropinas (LH/FSH), suprime la esteroidogénesis ovárica y suprarrenal, y produce atrofia endometrial y amenorrea.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Danazol (traducción no oficial): «El danazol suprime el eje hipófiso-ovárico.» Texto original en inglés: "Danazol suppresses the pituitary-ovarian axis." ([DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b), versión del 2024-10-10; consultado el 2026-11-19). Según la literatura revisada, danazol es un esteroide sintético con efectos androgénicos que inhibe las gonadotropinas (LH/FSH), suprime la esteroidogénesis ovárica y suprarrenal, y produce atrofia endometrial y amenorrea.
 
 Esa es precisamente la razón de la señal del modelo: danazol **induce** amenorrea. De hecho, se usa para supresión menstrual en endometriosis, sangrado uterino anormal y atención de personas transgénero. Sin embargo, tratar una amenorrea patológica ya existente es un problema distinto, porque el fármaco no la revierte sino que la provoca. Por ello, el puntaje probablemente refleja el efecto inductor de amenorrea del fármaco y no un beneficio terapéutico para pacientes que ya tienen la condición.
 
@@ -107,6 +107,18 @@ No hay ensayos clínicos ni estudios que evalúen a danazol como tratamiento de 
 - Estudios clínicos que evalúen directamente a danazol en la condición predicha.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones).
 - Evaluación de seguridad androgénica y hepática para el uso prolongado.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

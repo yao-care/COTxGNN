@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **nefropatía diabética**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, sacubitrilo es un profármaco inhibidor de la neprilisina que se usa combinado con valsartán (bloqueador del receptor de angiotensina II tipo 1). Al inhibir la neprilisina, aumentan los péptidos natriuréticos; valsartán, por su parte, bloquea el sistema renina-angiotensina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para sacubitril and valsartan (combinación que contiene Sacubitril) (traducción no oficial): «Sacubitrilo y valsartán contiene un inhibidor de la neprilisina, el sacubitrilo, y un antagonista del receptor de angiotensina, el valsartán. Sacubitrilo y valsartán inhibe la neprilisina (endopeptidasa neutra; NEP) a través de LBQ657, el metabolito activo del profármaco sacubitrilo, y bloquea el receptor de angiotensina II de tipo 1 (AT 1 ) a través del valsartán.» Texto original en inglés: "Sacubitril and valsartan contains a neprilysin inhibitor, sacubitril, and an angiotensin receptor blocker, valsartan. Sacubitril and valsartan inhibits neprilysin (neutral endopeptidase; NEP) via LBQ657, the active metabolite of the prodrug sacubitril, and blocks the angiotensin II type-1 (AT 1 ) receptor via valsartan." ([DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, sacubitrilo es un profármaco inhibidor de la neprilisina que se usa combinado con valsartán (bloqueador del receptor de angiotensina II tipo 1). Al inhibir la neprilisina, aumentan los péptidos natriuréticos; valsartán, por su parte, bloquea el sistema renina-angiotensina.
 
 El bloqueo del sistema renina-angiotensina es ya un pilar del tratamiento de la enfermedad renal diabética, por lo que el componente valsartán tiene un respaldo mecanístico establecido. La inhibición de la neprilisina podría aportar un beneficio adicional mediante efectos hemodinámicos y antiinflamatorios.
 
@@ -140,12 +140,13 @@ La predicción tiene un puntaje alto (0.9950) y plausibilidad biológica, con re
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: sacubitril and valsartan prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44db8114-622e-41f6-96a1-447d47b0267c) |
 
 <!-- review:end log -->
 

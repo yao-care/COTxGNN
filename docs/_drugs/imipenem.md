@@ -55,7 +55,7 @@ El modelo TxGNN lo propone para **esclerodermia difusa (diffuse scleroderma)** c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-En los datos compilados para este informe no se dispone de información detallada sobre el mecanismo de acción. Por conocimiento general, imipenem es un carbapenémico que inhibe la síntesis de la pared celular bacteriana.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Imipenem es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina» Texto original en inglés: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0; consultado el 2026-11-19). Por conocimiento general, imipenem es un carbapenémico que inhibe la síntesis de la pared celular bacteriana.
 
 La esclerodermia difusa es una enfermedad autoinmune con fibrosis de la piel y de órganos internos. No tiene un componente infeccioso bacteriano que un antibiótico pueda tratar, y no se identificó un vínculo mecanístico plausible entre ambos.
 
@@ -91,6 +91,19 @@ La predicción no tiene ensayos clínicos ni publicaciones que la respalden y ca
 - Estudios preclínicos o mecanísticos que muestren un efecto de imipenem en procesos inflamatorios o fibróticos relevantes para la esclerodermia.
 - Datos del mecanismo de acción y de las advertencias y contraindicaciones del prospecto.
 - Evidencia clínica directa en esclerodermia difusa antes de reconsiderar la decisión.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

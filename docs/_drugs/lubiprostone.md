@@ -66,7 +66,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero actualm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información farmacológica conocida, lubiprostona es un activador del canal de cloruro ClC-2 (gen CLCN2), derivado de un metabolito de la prostaglandina E1, y se usa en estreñimiento crónico y síndrome de intestino irritable.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lubiprostone (traducción no oficial): «La lubiprostona es un activador de los canales de cloruro de acción local que potencia la secreción de un líquido intestinal rico en cloruro sin alterar las concentraciones séricas de sodio y potasio. La lubiprostona actúa mediante la activación específica de ClC-2, que es un componente normal de la membrana apical del intestino humano, de manera independiente de la proteína cinasa A.» Texto original en inglés: "Lubiprostone is a locally acting chloride channel activator that enhances a chloride-rich intestinal fluid secretion without altering sodium and potassium concentrations in the serum. Lubiprostone acts by specifically activating ClC-2, which is a normal constituent of the apical membrane of the human intestine, in a protein kinase A–independent fashion." ([DailyMed: Amitiza (lubiprostone) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=164a2b47-0a52-4bb4-9e71-5342c2e951f4), versión del 2026-07-10; consultado el 2026-11-19). Según la información farmacológica conocida, lubiprostona es un activador del canal de cloruro ClC-2 (gen CLCN2), derivado de un metabolito de la prostaglandina E1, y se usa en estreñimiento crónico y síndrome de intestino irritable.
 
 La relación con la alopecia es especulativa. La señalización de las prostaglandinas influye en el ciclo del cabello (los análogos de PGF2α favorecen el crecimiento y la PGD2 lo inhibe), pero no existe evidencia directa que vincule la activación de ClC-2 con la biología del folículo piloso. El puntaje alto de TxGNN refleja únicamente proximidad en la red de conocimiento.
 
@@ -133,13 +133,14 @@ La predicción para alopecia se basa solo en el modelo (nivel L5), sin ensayos c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Amitiza (lubiprostone) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=164a2b47-0a52-4bb4-9e71-5342c2e951f4) |
 
 <!-- review:end log -->
 

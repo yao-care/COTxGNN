@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **fiebre paratifoidea (paraty
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase, amikacina inhibe la síntesis de proteínas bacterianas y tiene actividad amplia contra bacilos Gram negativos. *Salmonella paratyphi*, causante de la fiebre paratifoidea, es un bacilo Gram negativo, así que una actividad in vitro es biológicamente plausible.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Amikacin (traducción no oficial): «La amikacina, un aminoglucósido, se une al ribosoma procariota e inhibe la síntesis de proteínas en las bacterias sensibles. Es bactericida in vitro frente a bacterias grampositivas y gramnegativas.» Texto original en inglés: "Amikacin, an aminoglycoside, binds to the prokaryotic ribosome, inhibiting protein synthesis in susceptible bacteria. It is bactericidal in vitro against Gram-positive and Gram-negative bacteria." ([DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890), versión del 2026-07-27; consultado el 2026-11-19). Por su clase, amikacina inhibe la síntesis de proteínas bacterianas y tiene actividad amplia contra bacilos Gram negativos. *Salmonella paratyphi*, causante de la fiebre paratifoidea, es un bacilo Gram negativo, así que una actividad in vitro es biológicamente plausible.
 
 Sin embargo, el vínculo clínico es débil. *Salmonella* vive dentro de los macrófagos y los aminoglucósidos penetran mal en las células, por lo que no son fiables en la fiebre entérica. Los tratamientos preferidos son las fluoroquinolonas, la azitromicina y las cefalosporinas de tercera generación.
 
@@ -102,6 +102,19 @@ No hay ensayos clínicos, la literatura es principalmente epidemiológica o de a
 - Datos de actividad intracelular y farmacocinética en tejidos relevantes.
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para el análisis de seguridad.
 - Análisis del perfil de riesgo (nefrotoxicidad y ototoxicidad) y de las interacciones antes de cualquier consideración clínica.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: amikacin sulfate prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f260ff2a-76a0-4672-9516-91c344b67890) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ con **8 ensayos clínicos** (la mayoría en trastorno obsesivo-compulsivo) y **2
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, clomipramina es un inhibidor potente de la recaptación de serotonina, con actividad noradrenérgica a través de su metabolito activo, la desmetilclomipramina. Esta modulación serotoninérgica es la base de su eficacia en el trastorno obsesivo-compulsivo (TOC) y el trastorno de pánico.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clomipramine (traducción no oficial): «Se presume que la clomipramina (CMI) influye en las conductas obsesivas y compulsivas a través de sus efectos sobre la transmisión neuronal serotoninérgica. Se desconoce el mecanismo neuroquímico real, pero se cree que la capacidad de la CMI para inhibir la recaptación de serotonina (5-HT) es importante.» Texto original en inglés: "Clomipramine (CMI) is presumed to influence obsessive and compulsive behaviors through its effects on serotonergic neuronal transmission. The actual neurochemical mechanism is unknown, but CMI's capacity to inhibit the reuptake of serotonin (5-HT) is thought to be important." ([DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059), versión del 2024-11-26; consultado el 2026-11-19). Según la información conocida, clomipramina es un inhibidor potente de la recaptación de serotonina, con actividad noradrenérgica a través de su metabolito activo, la desmetilclomipramina. Esta modulación serotoninérgica es la base de su eficacia en el trastorno obsesivo-compulsivo (TOC) y el trastorno de pánico.
 
 La relación entre la indicación original y la nueva es estrecha: tanto la depresión como los trastornos de ansiedad comparten vías serotoninérgicas y noradrenérgicas. El TOC y el pánico se consideran dentro del espectro ansioso, y las guías de la WFSBP y los metaanálisis en red respaldan su uso, en especial en pánico y TOC.
 
@@ -117,6 +117,19 @@ La evidencia es sólida en TOC y trastorno de pánico (metaanálisis en red, gu�
 - Definir la subindicación de ansiedad objetivo (TOC, pánico, agorafobia) y comparar con los ISRS, mejor tolerados.
 - Evaluar la vía regulatoria, dado que no hay registro vigente en Colombia.
 - Establecer un plan de monitoreo de seguridad (ECG, riesgo convulsivo, interacciones, farmacogenética de CYP2D6) y restricciones en adultos mayores y niños.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

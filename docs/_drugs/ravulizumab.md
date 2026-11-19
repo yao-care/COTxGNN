@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neutropenia congénita g
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ravulizumab es un anticuerpo monoclonal que inhibe el componente C5 del complemento, bloqueando la vía terminal del complemento.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ravulizumab (traducción no oficial): «Ravulizumab-cwvz es un inhibidor del complemento terminal que se une específicamente y con alta afinidad a la proteína del complemento C5, con lo que inhibe su escisión en C5a (la anafilatoxina proinflamatoria) y C5b (la subunidad iniciadora del complejo de ataque a la membrana [MAC o C5b-9]) y, de este modo, impide la formación del MAC. ULTOMIRIS inhibe la hemólisis intravascular mediada por el complemento terminal en pacientes con HPN y la microangiopatía trombótica (MAT) mediada por el complemento en pacientes con SHUa.» Texto original en inglés: "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), versión del 2026-10-29; consultado el 2026-11-19). Según la información conocida, ravulizumab es un anticuerpo monoclonal que inhibe el componente C5 del complemento, bloqueando la vía terminal del complemento.
 
 La neutropenia congénita por deficiencia de G6PC3 es un trastorno del metabolismo y la supervivencia de los neutrófilos. No se ha establecido un mecanismo mediado por el complemento en esta enfermedad, por lo que no es posible verificar un vínculo mecanístico entre la inhibición de C5 y la nueva indicación.
 
@@ -113,12 +113,13 @@ La predicción es solo computacional (nivel L5), sin ensayos clínicos ni litera
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la indicación aprobada original y la situación regulatoria del registro cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
 
 <!-- review:end log -->
 

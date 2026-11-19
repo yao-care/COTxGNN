@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la vasopresina y su análogo desmopresina (DDAVP) actúan sobre los receptores V2, lo que libera factor von Willebrand y factor VIII desde los depósitos endoteliales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vasopressin (traducción no oficial): «La vasopresina causa vasoconstricción al unirse a los receptores V 1 del músculo liso vascular acoplados a la vía Gq/11-fosfolipasa C-fosfatidilinositol-trifosfato, lo que produce la liberación de calcio intracelular. Además, la vasopresina estimula la antidiuresis mediante la estimulación de los receptores V 2, que están acoplados a la adenilato ciclasa.» Texto original en inglés: "Vasopressin causes vasoconstriction by binding to V 1 receptors on vascular smooth muscle coupled to the Gq/11-phospholipase C-phosphatidyl-inositol-triphosphate pathway, resulting in the release of intracellular calcium. In addition, vasopressin stimulates antidiuresis via stimulation of V 2 receptors which are coupled to adenyl cyclase." ([DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8), versión del 2026-04-21; consultado el 2026-11-19). Según la información conocida, la vasopresina y su análogo desmopresina (DDAVP) actúan sobre los receptores V2, lo que libera factor von Willebrand y factor VIII desde los depósitos endoteliales.
 
 Este mecanismo es relevante para las deficiencias de factor VIII y de von Willebrand, pero **no tiene un vínculo establecido con la deficiencia de protrombina (factor II)**. El puntaje alto de TxGNN (0.9963) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas dentro del grupo de trastornos de la coagulación, no evidencia biológica de un efecto mecanístico real sobre la protrombina.
 
@@ -138,13 +138,14 @@ La predicción se apoya únicamente en la proximidad computacional dentro de la 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vasostrict (vasopressin) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1147beb-743e-4c62-8927-91192447f8b8) |
 
 <!-- review:end log -->
 

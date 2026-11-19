@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Por conocimiento general, el carboplatino es un compuesto de platino que daña el ADN de las células tumorales mediante enlaces cruzados e impide su división.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carboplatin (traducción no oficial): «El carboplatino es un fármaco a base de platino que se une al ADN y forma entrecruzamientos del ADN. Estos entrecruzamientos inhiben la replicación y la transcripción del ADN y desencadenan procesos citotóxicos que conducen a la muerte celular.» Texto original en inglés: "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b), versión del 2026-11-09; consultado el 2026-11-19). Por conocimiento general, el carboplatino es un compuesto de platino que daña el ADN de las células tumorales mediante enlaces cruzados e impide su división.
 
 La predicción parece reflejar características compartidas entre los adenocarcinomas y las redes de respuesta al daño del ADN. Sin embargo, esta es una inferencia computacional: no existen ensayos ni literatura específicos para el adenocarcinoma mucinoso del recto, por lo que la plausibilidad mecanística no ha sido verificada con evidencia clínica.
 
@@ -106,6 +106,19 @@ La predicción para el adenocarcinoma mucinoso del recto se basa únicamente en 
 - Datos del mecanismo de acción y análisis del vínculo mecanístico
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Evaluación de seguridad (mielosupresión, nefrotoxicidad, neurotoxicidad, ototoxicidad) en la población objetivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

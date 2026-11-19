@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **vaginitis atrófica p
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, tinidazol es un 5-nitroimidazol con actividad contra bacterias anaerobias y protozoos. Su eficacia en infecciones como la tricomoniasis, la amebiasis y la giardiasis está bien establecida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tinidazole (traducción no oficial): «El tinidazol es un agente antiprotozoario y antibacteriano.. […] El tinidazol es un agente antiprotozoario y antibacteriano. El grupo nitro del tinidazol es reducido por extractos celulares de Trichomonas. El radical nitro libre generado como resultado de esta reducción puede ser responsable de la actividad antiprotozoaria.» Texto original en inglés: "Tinidazole is an antiprotozoal, antibacterial agent.. […] Tinidazole is an antiprotozoal, antibacterial agent. The nitro- group of tinidazole is reduced by cell extracts of Trichomonas. The free nitro radical generated as a result of this reduction may be responsible for the antiprotozoal activity." ([DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7), versión del 2026-08-18; consultado el 2026-11-19). Según la información conocida, tinidazol es un 5-nitroimidazol con actividad contra bacterias anaerobias y protozoos. Su eficacia en infecciones como la tricomoniasis, la amebiasis y la giardiasis está bien establecida.
 
 La relación con la nueva indicación es débil. La vaginitis atrófica se debe principalmente a la deficiencia de estrógenos, no a una infección. El puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento con enfermedades vaginales infecciosas, como la tricomoniasis o la vaginosis bacteriana, y no una justificación terapéutica validada.
 
@@ -138,12 +138,13 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mec
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están **cancelados**; actualmente no hay productos de tinidazol vigentes en el país según los datos compilad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
 
 <!-- review:end log -->
 

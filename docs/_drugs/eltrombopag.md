@@ -60,7 +60,7 @@ El posible beneficio sería de apoyo (elevar plaquetas en trombocitopenia asocia
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Eltrombopag es un agonista del receptor de trombopoyetina (TPO-R). Estimula la diferenciación de megacariocitos y la producción de plaquetas. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe; la descripción anterior proviene del análisis de la relación mecanística asociada a la predicción.
+Eltrombopag es un agonista del receptor de trombopoyetina (TPO-R). Estimula la diferenciación de megacariocitos y la producción de plaquetas. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Eltrombopag (traducción no oficial): «El eltrombopag es un agonista del receptor de TPO que interactúa con el dominio transmembrana del receptor de TPO humano (también conocido como cMpl) e inicia cascadas de señalización que inducen la proliferación y la diferenciación de los megacariocitos, lo que conduce a un aumento de la producción de plaquetas.» Texto original en inglés: "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), versión del 2026-05-20; consultado el 2026-11-19).
 
 Su vínculo con el VIH es principalmente indirecto. Eltrombopag se ha usado en trombocitopenia inmune (PTI) asociada al VIH y en trombocitopenia por reconstitución inmune relacionada con el VIH, como muestran una serie de casos (2015) y reportes de caso (2012, 2014). Un reporte describe además una respuesta en anemia aplásica asociada al VIH, con indicios de efecto inmunomodulador.
 
@@ -145,12 +145,13 @@ La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisio
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
 
 <!-- review:end log -->
 

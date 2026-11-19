@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **cáncer de cabeza y cuel
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Según la información conocida, mitoxantrona es un inhibidor de la topoisomerasa II e intercalador del ADN con actividad citotóxica contra tumores sólidos y hematológicos, con un mecanismo similar al de las antraciclinas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mitoxantrone (traducción no oficial): «La mitoxantrona, un agente reactivo con el ADN que se intercala en el ácido desoxirribonucleico (ADN) mediante puentes de hidrógeno, provoca entrecruzamientos y roturas de las cadenas. La mitoxantrona también interfiere con el ácido ribonucleico (ARN) y es un potente inhibidor de la topoisomerasa II, una enzima responsable de desenrollar y reparar el ADN dañado.» Texto original en inglés: "Mitoxantrone, a DNA-reactive agent that intercalates into deoxyribonucleic acid (DNA) through hydrogen bonding, causes crosslinks and strand breaks. Mitoxantrone also interferes with ribonucleic acid (RNA) and is a potent inhibitor of topoisomerase II, an enzyme responsible for uncoiling and repairing damaged DNA." ([DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae), versión del 2026-09-01; consultado el 2026-11-19). Según la información conocida, mitoxantrona es un inhibidor de la topoisomerasa II e intercalador del ADN con actividad citotóxica contra tumores sólidos y hematológicos, con un mecanismo similar al de las antraciclinas.
 
 La indicación original no puede determinarse a partir del registro colombiano. Aun así, el uso de mitoxantrona como antineoplásico es bien conocido y, en la literatura, la actividad contra tumores de cabeza y cuello ya había sido explorada desde los años 80 en ensayos de fase II (por ejemplo, PMID 6511239 y 1650529) y en carcinoma adenoide quístico (EORTC, PMID 8922205). Los resultados históricos fueron modestos: algunos estudios reportaron respuestas parciales aisladas y otros no hallaron actividad antitumoral significativa.
 
@@ -161,12 +161,13 @@ Existen estudios históricos de fase II con resultados mixtos y, sobre todo, ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro local está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: mitoxantrone prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1634528a-30c5-4309-acc8-4c0293ae14ae) |
 
 <!-- review:end log -->
 

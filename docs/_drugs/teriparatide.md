@@ -58,7 +58,7 @@ La teriparatida es un fragmento activo de la hormona paratiroidea (PTH 1-34), ut
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica conocida, la teriparatida es un péptido que actúa sobre los receptores PTH1R y PTH2R. En el hueso y el riñón estimula la formación ósea mediada por osteoblastos, y su eficacia en osteoporosis ha sido comprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Teriparatide (traducción no oficial): «La hormona paratiroidea (PTH) endógena de 84 aminoácidos es el principal regulador del metabolismo del calcio y del fosfato en el hueso y el riñón. Las acciones fisiológicas de la PTH incluyen la regulación del metabolismo óseo, la reabsorción tubular renal de calcio y fosfato, y la absorción intestinal de calcio. […] Las acciones biológicas de la PTH y de la teriparatida están mediadas por la unión a receptores específicos de alta afinidad de la superficie celular.» Texto original en inglés: "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), versión del 2026-08-31; consultado el 2026-11-19). Según la información farmacológica conocida, la teriparatida es un péptido que actúa sobre los receptores PTH1R y PTH2R. En el hueso y el riñón estimula la formación ósea mediada por osteoblastos, y su eficacia en osteoporosis ha sido comprobada.
 
 **No se identifica una relación mecanística plausible con la úlcera duodenal.** La indicación original (fragilidad ósea) y la nueva (lesión de la mucosa duodenal) pertenecen a sistemas distintos, y los datos disponibles no respaldan ningún papel de la señalización de PTH1R en la cicatrización de la mucosa duodenal.
 
@@ -130,13 +130,14 @@ La predicción para úlcera duodenal tiene evidencia de nivel L5: no hay ensayos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Confirmar la situación regulatoria (registro cancelado) y la disponibilidad de producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro sanitario está cancelado, por lo que actualmente no hay un producto de teriparatida vigente con este registro en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

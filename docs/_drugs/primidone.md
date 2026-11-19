@@ -60,7 +60,7 @@ Entre las demás predicciones, la **neuralgia del trigémino** es la más veros�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la primidona es un antiepiléptico que se metaboliza a fenobarbital y feniletilmalonamida (PEMA). El fenobarbital potencia la inhibición mediada por el receptor GABA-A, y la primidona también modula canales de sodio. Su eficacia en epilepsia está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Primidone (traducción no oficial): «MYSOLINE eleva los umbrales convulsivos por electrochoque o por choque químico, o altera los patrones de las convulsiones, en animales de experimentación. Se desconoce el mecanismo o los mecanismos de la acción antiepiléptica de la primidona. La primidona per se tiene actividad anticonvulsiva, al igual que sus dos metabolitos, el fenobarbital y la feniletilmalonamida (PEMA).» Texto original en inglés: "MYSOLINE raises electro- or chemoshock seizure thresholds or alters seizure patterns in experimental animals. The mechanism(s) of primidone’s antiepileptic action is not known. Primidone per se has anticonvulsant activity as do its two metabolites, phenobarbital and phenylethylmalonamide (PEMA)." ([DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46), versión del 2026-09-10; consultado el 2026-11-19). Según la información conocida, la primidona es un antiepiléptico que se metaboliza a fenobarbital y feniletilmalonamida (PEMA). El fenobarbital potencia la inhibición mediada por el receptor GABA-A, y la primidona también modula canales de sodio. Su eficacia en epilepsia está bien establecida.
 
 Para la neoplasia del nervio trigémino **no existe un vínculo mecanístico plausible**: no hay un mecanismo antineoplásico conocido para la primidona. El puntaje (0.9999) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neuralgia del trigémino, y no evidencia biológica. Este puntaje tan alto debe interpretarse con cautela.
 
@@ -148,13 +148,14 @@ La indicación principal (neoplasia del nervio trigémino) carece de ensayos, li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mysoline (primidone) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=af593171-dabb-4ea3-b44c-89ed457b2c46) |
 
 <!-- review:end log -->
 

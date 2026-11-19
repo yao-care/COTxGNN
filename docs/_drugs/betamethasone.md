@@ -59,7 +59,7 @@ Betametasona activa el receptor de glucocorticoides (NR3C1), lo que le confiere 
 
 En la alopecia mucinosa (mucinosis folicular) existe inflamación perifolicular con depósito de mucina. Los efectos antiinflamatorios de un corticosteroide podrían, en teoría, reducir ese componente inflamatorio.
 
-Sin embargo, el vínculo es indirecto: la única publicación disponible es una serie de tres casos con revisión de terapias (1964), que no evalúa específicamente la betametasona. Los datos detallados del mecanismo de acción no están disponibles en la información compilada para este informe.
+Sin embargo, el vínculo es indirecto: la única publicación disponible es una serie de tres casos con revisión de terapias (1964), que no evalúa específicamente la betametasona. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Betamethasone (traducción no oficial): «Los corticosteroides desempeñan un papel en la señalización celular, la función inmunitaria, la inflamación y la regulación de las proteínas; sin embargo, se desconoce el mecanismo de acción exacto de SERNIVO Spray en la psoriasis.» Texto original en inglés: "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), versión del 2026-04-22; consultado el 2026-11-19).
 
 ## Evidencia de Ensayos Clínicos
 
@@ -100,6 +100,18 @@ La predicción se apoya solo en una serie de casos antigua (1964) y no hay ensay
 - Datos detallados del mecanismo de acción
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones
 - Evaluación de la compatibilidad de la vía de administración para la nueva indicación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

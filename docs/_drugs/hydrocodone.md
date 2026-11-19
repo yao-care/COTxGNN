@@ -60,7 +60,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la hidrocodona es un agonista de los receptores opioides mu, con efectos analgésicos y antitusivos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydrocodone (traducción no oficial): «La hidrocodona es un agonista opioide completo con selectividad relativa por el receptor opioide mu, aunque puede interactuar con otros receptores opioides a dosis más altas. La principal acción terapéutica de la hidrocodona es la analgesia.» Texto original en inglés: "Hydrocodone is a full opioid agonist with relative selectivity for the mu-opioid receptor, although it can interact with other opioid receptors at higher doses. The principal therapeutic action of hydrocodone is analgesia." ([DailyMed: Hysingla Er (hydrocodone bitartrate) prescribing information, Knoa Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d23ac2-e776-9f62-3290-c64c2d6eb353), versión del 2026-05-29; consultado el 2026-11-19). Según la información conocida, la hidrocodona es un agonista de los receptores opioides mu, con efectos analgésicos y antitusivos.
 
 En este caso, la predicción **no resulta mecanísticamente razonable**. No se conoce ningún mecanismo por el cual un opioide trate una enfermedad estructural o inflamatoria de la cavidad nasal. La única publicación disponible describe necrosis de la cavidad nasal y la faringe por abuso intranasal de hidrocodona-paracetamol, es decir, evidencia de daño y no de beneficio.
 
@@ -122,11 +122,12 @@ El puntaje alto del modelo no está respaldado por un mecanismo terapéutico pla
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el producto registrado en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hysingla Er (hydrocodone bitartrate) prescribing information, Knoa Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7d23ac2-e776-9f62-3290-c64c2d6eb353) |
 
 <!-- review:end log -->
 

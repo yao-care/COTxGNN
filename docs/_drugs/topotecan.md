@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, topotecan es un inhibidor de la topoisomerasa I que causa daño al ADN y muerte celular asociada a la replicación en células tumorales en proliferación. Su eficacia como quimioterapia en otros tumores sólidos está documentada, y mecanísticamente podría ser aplicable al cáncer de mama.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Topotecan (traducción no oficial): «La topoisomerasa I alivia la tensión torsional del ADN induciendo roturas reversibles de cadena sencilla. El topotecán se une al complejo topoisomerasa I-ADN e impide la religación de estas roturas de cadena sencilla. Se cree que la citotoxicidad del topotecán se debe al daño del ADN de doble cadena producido durante la síntesis de ADN, cuando las enzimas de replicación interactúan con el complejo ternario formado por el topotecán, la topoisomerasa I y el ADN.» Texto original en inglés: "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), versión del 2023-09-18; consultado el 2026-11-19). Según la información conocida, topotecan es un inhibidor de la topoisomerasa I que causa daño al ADN y muerte celular asociada a la replicación en células tumorales en proliferación. Su eficacia como quimioterapia en otros tumores sólidos está documentada, y mecanísticamente podría ser aplicable al cáncer de mama.
 
 Hay algunos indicios preclínicos que apoyan la hipótesis. Un estudio de 2023 (PMID 37987734) sugiere que inhibir la topoisomerasa 1 es letal sintético en cánceres impulsados por MYC, por acumulación aberrante de R-loops. Esto sería relevante para subgrupos de cáncer de mama con amplificación de MYC, como el triple negativo. Además, la proteína de resistencia BCRP/ABCG2 expulsa topotecan de las células y su expresión está regulada por estradiol en células de mama ER-positivas (PMID 17878748, 25236865), lo que influye en la resistencia y la farmacocinética.
 
@@ -151,11 +151,12 @@ La evidencia para cáncer de mama es de nivel L3: los ensayos son de fase tempra
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->
 

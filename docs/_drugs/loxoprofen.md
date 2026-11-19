@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de microfta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, loxoprofeno es un profármaco AINE cuyo metabolito activo (trans-alcohol) inhibe la ciclooxigenasa 1 y 2 (COX-1 y COX-2), con efecto analgésico y antiinflamatorio.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Loxoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL19299 (loxoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19299), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, loxoprofeno es un profármaco AINE cuyo metabolito activo (trans-alcohol) inhibe la ciclooxigenasa 1 y 2 (COX-1 y COX-2), con efecto analgésico y antiinflamatorio.
 
 La nueva indicación es un síndrome congénito extremadamente raro, con malformaciones oculares y esqueléticas. La inhibición de COX no tiene un papel establecido en su patogenia, por lo que **los datos compilados no respaldan un vínculo mecanístico**. El puntaje de TxGNN (0.998) proviene únicamente de una predicción del modelo TxGNN (aprendizaje profundo), sin respaldo clínico ni bibliográfico.
 
@@ -137,7 +137,7 @@ La predicción se basa únicamente en el modelo computacional, sin ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -145,6 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "cuyo registro sanitario se encuentra cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL19299 (loxoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19299) |
 
 <!-- review:end log -->
 

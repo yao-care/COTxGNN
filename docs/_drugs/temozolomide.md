@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia de la cauda eq
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general del fármaco, la temozolomida es un agente alquilante oral que metila el ADN (posiciones O6-guanina, N7-guanina y N3-adenina), lo que causa daño citotóxico y apoptosis en células tumorales en división. Esta descripción proviene de conocimiento general y no de los datos compilados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Temozolomide (traducción no oficial): «La temozolomida no es directamente activa, sino que experimenta una rápida conversión no enzimática a pH fisiológico en el compuesto reactivo 5-(3-metiltriazen-1-il)-imidazol-4-carboxamida (MTIC). Se cree que la citotoxicidad del MTIC se debe principalmente a la alquilación del ADN, sobre todo en las posiciones O 6 y N 7 de la guanina, lo que provoca roturas de doble cadena del ADN y da lugar a muerte celular programada.» Texto original en inglés: "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), versión del 2026-02-20; consultado el 2026-11-19). Según el conocimiento general del fármaco, la temozolomida es un agente alquilante oral que metila el ADN (posiciones O6-guanina, N7-guanina y N3-adenina), lo que causa daño citotóxico y apoptosis en células tumorales en división. Esta descripción proviene de conocimiento general y no de los datos compilados.
 
 Las neoplasias de la cauda equina son, con mayor frecuencia, ependimomas mixopapilares, tumores del sistema nervioso central de linaje glial. Esto establece un vínculo plausible con el uso conocido de la temozolomida en gliomas. La sensibilidad probablemente depende del estado de metilación del promotor de MGMT (baja expresión favorece la respuesta), dato que no está disponible aquí.
 
@@ -113,6 +113,19 @@ La evidencia directa es un único reporte de caso sobre un ependimoma mixopapila
 - Revisar sistemáticamente la literatura sobre ependimomas mixopapilares y neoplasias de la cauda equina tratados con temozolomida.
 - Evaluar el estado de metilación de MGMT como posible biomarcador de respuesta.
 - Definir un plan de monitoreo hematológico y hepático.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

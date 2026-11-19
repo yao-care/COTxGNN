@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **hipouricemia renal**, pe
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la rasburicasa es una urato oxidasa recombinante que convierte el ácido úrico en alantoína, lo que reduce el nivel de urato en sangre. Se usa en situaciones de hiperuricemia aguda.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rasburicase (traducción no oficial): «En los seres humanos, el ácido úrico es el paso final de la vía catabólica de las purinas. La rasburicasa cataliza la oxidación enzimática del ácido úrico, poco soluble, a un metabolito inactivo y más soluble (alantoína).» Texto original en inglés: "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), versión del 2026-07-30; consultado el 2026-11-19). Según la información conocida, la rasburicasa es una urato oxidasa recombinante que convierte el ácido úrico en alantoína, lo que reduce el nivel de urato en sangre. Se usa en situaciones de hiperuricemia aguda.
 
 En el caso de la hipouricemia renal, la relación con la indicación original es **inversa**. Esta condición se caracteriza por niveles anormalmente bajos de ácido úrico en suero (por ejemplo, por pérdida de función de URAT1 o GLUT9). Reducir aún más el urato sería mecanísticamente contraproducente y podría empeorar el fenotipo.
 
@@ -148,13 +148,14 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), y el mecanis
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El producto fue fabricado por Sanofi-Aventis de Colombia S.A. y su registro está cancelado, por lo que actualmente no hay presentaciones vig" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

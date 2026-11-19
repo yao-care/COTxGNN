@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **vaginitis atrófica posm
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Por su clase, secnidazol es un 5-nitroimidazol: su grupo nitro se reduce dentro de organismos anaerobios y protozoarios, y genera radicales que dañan el ADN del microorganismo. Por eso se usa contra infecciones anaerobias y protozoarias, como la vaginosis bacteriana y la tricomoniasis.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Secnidazole (traducción no oficial): «SOLOSEC es un fármaco antimicrobiano del grupo de los nitroimidazoles. […] El secnidazol, al igual que otros 5-nitroimidazoles, penetra en las células bacterianas y de Trichomonas, donde el grupo nitro es reducido por una o varias enzimas nitrorreductasas, lo que da lugar a la producción de aniones radicales y de una serie de intermediarios, a la depleción de tioles, al daño del ADN y a la muerte de los aislados sensibles de bacterias grampositivas, bacterias gramnegativas y T. vaginalis.» Texto original en inglés: "SOLOSEC is a nitroimidazole antimicrobial drug. […] Secnidazole, like other 5-nitroimidazoles, enters the bacterial and Trichomonas cells where the nitro group is reduced by nitroreductase enzyme(s) leading to the production of radical anions and a series of intermediates, depletion of thiols, DNA damage, and death of susceptible isolates of Gram positive bacteria, Gram negative bacteria and T. vaginalis." ([DailyMed: Solosec (secnidazole) prescribing information, Evofem Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa), versión del 2026-10-30; consultado el 2026-11-19). Por su clase, secnidazol es un 5-nitroimidazol: su grupo nitro se reduce dentro de organismos anaerobios y protozoarios, y genera radicales que dañan el ADN del microorganismo. Por eso se usa contra infecciones anaerobias y protozoarias, como la vaginosis bacteriana y la tricomoniasis.
 
 La vaginitis atrófica posmenopáusica tiene un origen distinto. Se debe a la deficiencia de estrógenos y al adelgazamiento del epitelio vaginal, no a una infección por anaerobios o protozoarios, que es el terreno de acción de secnidazol. **No se identifica un vínculo mecanístico claro** entre el fármaco y esta enfermedad.
 
@@ -135,12 +135,13 @@ En los datos compilados, otras indicaciones tienen más respaldo que la de este 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 4 → al menos 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → al menos 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Solosec (secnidazole) prescribing information, Evofem Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ La evidencia directa para esta nueva indicación es muy limitada.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la sulfadiazina es una sulfonamida que inhibe la enzima dihidropteroato sintasa en la vía de síntesis del folato. Esta vía es esencial para muchos microorganismos, por lo que su eficacia antiinfecciosa está establecida de forma general.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sulfadiazine (traducción no oficial): «Las sulfonamidas sistémicas son agentes bacteriostáticos que tienen un espectro de actividad similar. Las sulfonamidas inhiben de forma competitiva la síntesis bacteriana de ácido fólico (ácido pteroilglutámico) a partir del ácido aminobenzoico. Las cepas resistentes son capaces de utilizar precursores del ácido fólico o ácido fólico preformado.» Texto original en inglés: "The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid." ([DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91), versión del 2024-09-24; consultado el 2026-11-19). Según la información conocida, la sulfadiazina es una sulfonamida que inhibe la enzima dihidropteroato sintasa en la vía de síntesis del folato. Esta vía es esencial para muchos microorganismos, por lo que su eficacia antiinfecciosa está establecida de forma general.
 
 *Pneumocystis jirovecii* se trata con una sulfonamida relacionada, el sulfametoxazol (combinado con trimetoprima), por lo que existe una justificación mecanística a nivel de clase. Además, la literatura recopilada describe que la combinación pirimetamina-sulfadiazina se ha usado en pacientes con SIDA para tratar neumonía por *Pneumocystis* y toxoplasmosis, y que mutaciones en el gen DHPS de *P. jirovecii* generan resistencia cruzada a las sulfas, lo que confirma que esta enzima es la diana relevante.
 
@@ -139,12 +139,13 @@ La predicción se apoya solo en la similitud de clase de las sulfonamidas y en l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Evaluar la viabilidad comercial dado el registro cancelado y la ausencia de ventaja sobre el tratamiento estándar" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
 
 <!-- review:end log -->
 

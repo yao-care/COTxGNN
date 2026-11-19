@@ -56,7 +56,7 @@ Sin embargo, actualmente hay **0 ensayos clínicos** y **0 publicaciones** que r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, baricitinib es un inhibidor de las quinasas JAK1 y JAK2, que modulan la señalización inflamatoria JAK-STAT.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Baricitinib (traducción no oficial): «El baricitinib es un inhibidor de las cinasas Janus (JAK). Las JAK son enzimas intracelulares que transmiten señales derivadas de las interacciones de citocinas o factores de crecimiento con sus receptores en la membrana celular para influir en los procesos celulares de la hematopoyesis y la función de las células inmunitarias.» Texto original en inglés: "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), versión del 2026-10-09; consultado el 2026-11-19). Según la información conocida, baricitinib es un inhibidor de las quinasas JAK1 y JAK2, que modulan la señalización inflamatoria JAK-STAT.
 
 No se identificó un vínculo biológico plausible entre esa inhibición y este síndrome raro del desarrollo. Este tipo de síndromes suele originarse en defectos genéticos del desarrollo o estructurales, y no en inflamación mediada por JAK-STAT. Por ello, la puntuación proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -108,12 +108,13 @@ La predicción se apoya solo en la puntuación del modelo (nivel L5), sin ensayo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la indicación aprobada original" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
 
 <!-- review:end log -->
 

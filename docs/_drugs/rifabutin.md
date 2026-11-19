@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **Infección por VIH (HIV inf
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la rifabutina es una rifamicina que inhibe la ARN polimerasa dependiente de ADN de las bacterias (rpoB). No es un fármaco antiviral y no actúa sobre el VIH.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rifabutin (traducción no oficial): «La rifabutina inhibe la ARN polimerasa dependiente de ADN en cepas sensibles de Escherichia coli y Bacillus subtilis, pero no en células de mamíferos. En cepas resistentes de E. coli, la rifabutina, al igual que la rifampicina, no inhibió esta enzima.» Texto original en inglés: "Rifabutin inhibits DNA-dependent RNA polymerase in susceptible strains of Escherichia coli and Bacillus subtilis but not in mammalian cells. In resistant strains of E. coli, rifabutin, like rifampin, did not inhibit this enzyme." ([DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589), versión del 2026-09-01; consultado el 2026-11-19). Según la información conocida, la rifabutina es una rifamicina que inhibe la ARN polimerasa dependiente de ADN de las bacterias (rpoB). No es un fármaco antiviral y no actúa sobre el VIH.
 
 Su relevancia en este contexto es indirecta: se usa en infecciones oportunistas asociadas al VIH, como la profilaxis y el tratamiento del complejo *Mycobacterium avium* y la coinfección tuberculosis/VIH. Allí se prefiere a la rifampicina porque induce menos la CYP3A y es más compatible con los inhibidores de proteasa.
 
@@ -114,6 +114,18 @@ Aunque el puntaje del modelo es alto, ningún estudio evalúa la rifabutina como
 - Datos del prospecto sobre advertencias y contraindicaciones, que no están disponibles en los datos compilados.
 - Información detallada del mecanismo de acción.
 - Plan de manejo de interacciones con antirretrovirales y de monitoreo hematológico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

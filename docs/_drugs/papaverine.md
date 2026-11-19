@@ -58,7 +58,7 @@ Papaverina es un vasodilatador (ESPAFLAT®) registrado en Colombia en combinacio
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, la papaverina es un inhibidor no selectivo de fosfodiesterasas que eleva el AMPc y el GMPc en el músculo liso vascular y produce vasodilatación. Esto es biológicamente plausible en condiciones isquémicas.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Papaverine (traducción no oficial): «Aparentemente, el clorhidrato de papaverina actúa directamente sobre el propio músculo. Esta relajación se observa en el sistema vascular y en la musculatura bronquial, así como en los tractos gastrointestinal, biliar y urinario. Las principales acciones de la papaverina se ejercen sobre el músculo cardíaco y el músculo liso.» Texto original en inglés: "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e), versión del 2026-07-27; consultado el 2026-11-19). Según el conocimiento farmacológico general, la papaverina es un inhibidor no selectivo de fosfodiesterasas que eleva el AMPc y el GMPc en el músculo liso vascular y produce vasodilatación. Esto es biológicamente plausible en condiciones isquémicas.
 
 En la práctica clínica, la papaverina intraarterial o intracoronaria se usa en isquemia mesentérica no oclusiva, en vasoespasmo (incluido el cerebral tras hemorragia subaracnoidea) y para medir la reserva de flujo coronario. Estos usos son procedimentales o diagnósticos, no una indicación terapéutica demostrada por ensayos controlados.
 
@@ -141,12 +141,13 @@ La plausibilidad mecanística es razonable, pero la evidencia es de nivel L4: un
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los dos registros sanitarios colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->
 

@@ -66,7 +66,7 @@ La predicción debe considerarse con mucha cautela: el puntaje proviene del mode
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la fenitoína es un anticonvulsivante que bloquea los canales de sodio dependientes de voltaje, lo que reduce la descarga neuronal repetitiva y la propagación de las crisis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenytoin (traducción no oficial): «No se ha establecido el mecanismo preciso por el cual la fenitoína ejerce su efecto terapéutico, pero se cree que implica el bloqueo dependiente del voltaje de los canales de sodio de la membrana, lo que produce una reducción de las descargas neuronales sostenidas de alta frecuencia.» Texto original en inglés: "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), versión del 2026-06-25; consultado el 2026-11-19). Según la información conocida, la fenitoína es un anticonvulsivante que bloquea los canales de sodio dependientes de voltaje, lo que reduce la descarga neuronal repetitiva y la propagación de las crisis.
 
 La relación con la nueva indicación es débil. La fenitoína se usa en dolor del nervio trigémino (neuralgia), pero no hay evidencia de que actúe sobre tejido tumoral. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como la neoplasia del nervio trigémino y la neuralgia del trigémino, no evidencia biológica de un efecto antineoplásico. Las dos publicaciones recuperadas tratan sobre neuralgia del trigémino y síndrome de Sturge-Weber, no sobre el tratamiento de neoplasias.
 
@@ -135,13 +135,14 @@ No existen ensayos clínicos y la literatura recuperada no aborda el tratamiento
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyo registro sanitario figura actualmente como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente de fenitoína inyectable en los datos compilados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 1 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

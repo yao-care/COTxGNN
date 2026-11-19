@@ -60,7 +60,7 @@ La predicción se considera un artefacto del modelo TxGNN (aprendizaje profundo)
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la dobutamina es un inotrópico agonista beta-1 adrenérgico que se administra por infusión intravenosa y se usa en el soporte hemodinámico de la insuficiencia cardíaca aguda.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dobutamine (traducción no oficial): «El clorhidrato de dobutamina es un agente inotrópico de acción directa cuya actividad principal resulta de la estimulación de los receptores beta del corazón, a la vez que produce efectos cronotrópicos, hipertensivos, arritmogénicos y vasodilatadores comparativamente leves. No provoca la liberación de norepinefrina endógena, como sí lo hace la dopamina.» Texto original en inglés: "Dobutamine hydrochloride is a direct-acting inotropic agent whose primary activity results from stimulation of the beta-receptors of the heart while producing comparatively mild chronotropic, hypertensive, arrhythmogenic, and vasodilative effects. It does not cause the release of endogenous norepinephrine, as does dopamine." ([DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead), versión del 2023-09-08; consultado el 2026-11-19). Según la información farmacológica conocida, la dobutamina es un inotrópico agonista beta-1 adrenérgico que se administra por infusión intravenosa y se usa en el soporte hemodinámico de la insuficiencia cardíaca aguda.
 
 El análisis de los datos compilados **no encuentra un vínculo mecanístico creíble** entre la dobutamina y la alopecia. La dobutamina no tiene efecto conocido sobre la biología del folículo piloso. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -134,12 +134,13 @@ La predicción para alopecia se basa solo en el puntaje del modelo (L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el producto no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
 
 <!-- review:end log -->
 

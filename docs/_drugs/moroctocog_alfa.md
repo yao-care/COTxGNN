@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno primario de li
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, moroctocog alfa es un factor VIII recombinante que sustituye al factor VIII en la vía intrínseca de la coagulación, y su uso en la deficiencia de factor VIII está respaldado por su registro sanitario en Colombia.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Moroctocog Alfa es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, moroctocog alfa es un factor VIII recombinante que sustituye al factor VIII en la vía intrínseca de la coagulación, y su uso en la deficiencia de factor VIII está respaldado por su registro sanitario en Colombia.
 
 Los trastornos de liberación plaquetaria son defectos de la función de los gránulos plaquetarios, no una deficiencia de factor VIII. Por ello, **no existe una justificación mecanística clara**. El puntaje muy alto de TxGNN (0.9997) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -131,13 +131,14 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
 
 <!-- review:end log -->
 

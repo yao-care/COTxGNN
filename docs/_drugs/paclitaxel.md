@@ -58,7 +58,7 @@ Paclitaxel es un citotóxico de la familia de los taxanos, registrado en Colombi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, paclitaxel es un taxano que estabiliza los microtúbulos, bloqueando la división celular (arresto mitótico) e induciendo apoptosis en células que se dividen rápidamente.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paclitaxel (traducción no oficial): «Las partículas de paclitaxel unido a proteínas para suspensión inyectable (unido a albúmina) son un inhibidor de los microtúbulos que promueve el ensamblaje de los microtúbulos a partir de dímeros de tubulina y estabiliza los microtúbulos al impedir su despolimerización. Esta estabilidad produce la inhibición de la reorganización dinámica normal de la red de microtúbulos, que es esencial para las funciones celulares vitales de la interfase y de la mitosis.» Texto original en inglés: "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), versión del 2025-09-17; consultado el 2026-11-19). Según la información conocida, paclitaxel es un taxano que estabiliza los microtúbulos, bloqueando la división celular (arresto mitótico) e induciendo apoptosis en células que se dividen rápidamente.
 
 El cáncer de mama es una de las indicaciones clásicas de los taxanos: la literatura recuperada describe a paclitaxel y docetaxel como componentes basados en evidencia del tratamiento de carcinomas de mama, pulmón y ovario avanzados, y paclitaxel fue aprobado en EE. UU. para el tratamiento adyuvante del cáncer de mama temprano con ganglios positivos. Por ello, la predicción del modelo coincide con la práctica clínica vigente.
 
@@ -168,12 +168,13 @@ Paclitaxel tiene evidencia clínica amplia en cáncer de mama, incluidos múltip
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->
 

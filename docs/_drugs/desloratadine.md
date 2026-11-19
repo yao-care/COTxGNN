@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, desloratadina actúa sobre el receptor H1 de histamina (gen HRH1) y se utiliza para aliviar síntomas de condiciones alérgicas como la rinitis y la urticaria.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desloratadine (traducción no oficial): «La desloratadina es un antagonista tricíclico de la histamina de acción prolongada con actividad antagonista selectiva de la histamina en los receptores H1. Los datos de unión a receptores indican que, a una concentración de 2-3 ng/mL (7 nanomolar), la desloratadina muestra una interacción significativa con el receptor H1 de la histamina humano.» Texto original en inglés: "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), versión del 2025-10-23; consultado el 2026-11-19). Según la información farmacológica conocida, desloratadina actúa sobre el receptor H1 de histamina (gen HRH1) y se utiliza para aliviar síntomas de condiciones alérgicas como la rinitis y la urticaria.
 
 Mecanísticamente, el bloqueo H1 es plausible para enfermedades nasales de origen alérgico, ya que la histamina contribuye a la congestión, el prurito y la rinorrea. Sin embargo, "enfermedad de la cavidad nasal" es una categoría amplia e inespecífica, por lo que la plausibilidad depende del subtipo concreto de enfermedad.
 
@@ -104,6 +104,19 @@ El puntaje del modelo es alto (0.9987), pero la única evidencia son dos estudio
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones
 - Datos detallados del mecanismo de acción (MOA)
 - Verificar las contraindicaciones señaladas por el modelo frente al prospecto oficial
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

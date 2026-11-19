@@ -62,7 +62,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mesalazina es un antiinflamatorio aminosalicilato cuya eficacia en la colitis ulcerosa está comprobada. Se le atribuye inhibición de la síntesis de prostaglandinas y leucotrienos, modulación de NF-kB y activación de PPAR-gamma (este último es la única interacción farmacológica registrada).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mesalazine (traducción no oficial): «El mecanismo de acción de la mesalamina no se conoce por completo, pero parece tener un efecto antiinflamatorio tópico sobre las células epiteliales del colon. La producción mucosa de metabolitos del ácido araquidónico, tanto por la vía de la ciclooxigenasa como por la de la lipooxigenasa, está aumentada en los pacientes con colitis ulcerosa, y es posible que la mesalamina disminuya la inflamación al bloquear la ciclooxigenasa e inhibir la producción de prostaglandinas en el colon.» Texto original en inglés: "The mechanism of action of mesalamine is not fully understood, but it appears to have a topical anti-inflammatory effect on the colonic epithelial cells. Mucosal production of arachidonic acid metabolites, both through the cyclooxygenase and lipoxygenase pathways, is increased in patients with ulcerative colitis, and it is possible that mesalamine diminishes inflammation by blocking cyclooxygenase and inhibiting prostaglandin production in the colon." ([DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7), versión del 2026-10-26; consultado el 2026-11-19). Según la información conocida, la mesalazina es un antiinflamatorio aminosalicilato cuya eficacia en la colitis ulcerosa está comprobada. Se le atribuye inhibición de la síntesis de prostaglandinas y leucotrienos, modulación de NF-kB y activación de PPAR-gamma (este último es la única interacción farmacológica registrada).
 
 La hipotricosis congénita con distrofia macular juvenil es un trastorno genético raro, asociado a mutaciones en CDH3 que afectan la adhesión celular. El análisis realizado no identificó un vínculo mecanístico plausible: la acción antiinflamatoria de la mesalazina no tiene relevancia conocida para esta enfermedad.
 
@@ -128,7 +128,7 @@ La predicción no tiene ensayos clínicos ni literatura, carece de vínculo meca
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -136,6 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "y el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los cuatro registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que en Colombia contó con registros sanitarios bajo el nombre del principio activo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lialda (mesalamine) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3098a080-be86-4265-9818-7fc4beab77b7) |
 
 <!-- review:end log -->
 

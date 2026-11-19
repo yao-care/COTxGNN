@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la ivermectina actúa sobre los canales de cloruro activados por glutamato de los invertebrados, lo que explica su eficacia antiparasitaria. En humanos, los datos farmacológicos compilados la vinculan con el receptor de glicina, el receptor nicotínico de acetilcolina α7 y los receptores purinérgicos P2X4 y P2X7.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ivermectin (traducción no oficial): «Los estudios in vitro con microsomas hepáticos humanos y enzimas CYP450 recombinantes han demostrado que la ivermectina se metaboliza principalmente por CYP3A4.» Texto original en inglés: "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), versión del 2024-09-20; consultado el 2026-11-19). Según la información conocida, la ivermectina actúa sobre los canales de cloruro activados por glutamato de los invertebrados, lo que explica su eficacia antiparasitaria. En humanos, los datos farmacológicos compilados la vinculan con el receptor de glicina, el receptor nicotínico de acetilcolina α7 y los receptores purinérgicos P2X4 y P2X7.
 
 Los hongos carecen de los canales de cloruro activados por glutamato, por lo que no existe un mecanismo antifúngico establecido contra *Candida*. La relación entre la indicación original (infecciones parasitarias) y la nueva (candidiasis vulvovaginal) es débil: ambas son infecciones, pero con agentes y dianas muy distintos.
 
@@ -138,12 +138,13 @@ La predicción corresponde únicamente a un modelo computacional (nivel L5), sin
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que los 5 registros están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 
 <!-- review:end log -->
 

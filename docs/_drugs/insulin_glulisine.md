@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por su naturaleza, la insulina glulisina es un análogo de insulina que actúa como agonista del receptor de insulina para controlar la glucemia.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Glulisine (traducción no oficial): «La regulación del metabolismo de la glucosa es la actividad principal de las insulinas y los análogos de insulina, incluida la insulina glulisina. Las insulinas disminuyen la glucemia al estimular la captación periférica de glucosa por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), versión del 2025-11-25; consultado el 2026-11-19). Por su naturaleza, la insulina glulisina es un análogo de insulina que actúa como agonista del receptor de insulina para controlar la glucemia.
 
 El síndrome de anemia megaloblástica sensible a la tiamina incluye diabetes mellitus entre sus manifestaciones. Esa es la vía plausible por la que el modelo asocia el fármaco con esta enfermedad. Sin embargo, no hay evidencia directa de que la insulina glulisina actúe sobre el defecto subyacente del transportador de tiamina.
 
@@ -102,6 +102,19 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni publicaciones, y e
 - Advertencias y contraindicaciones del prospecto de INVIMA.
 - Revisión de literatura que estudie directamente esta enfermedad con insulina.
 - Confirmar el estado vigente de los registros sanitarios.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

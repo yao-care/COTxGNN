@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información farmacológica compilada, la carbetocina es un péptido agonista del receptor de oxitocina (OXTR), con efecto uterotónico de acción prolongada. Su uso establecido es la prevención de la hemorragia posparto. También se menciona una formulación intranasal en desarrollo para el síndrome de Prader-Willi, dirigida a reducir el hambre extrema.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Carbetocin es (traducción no oficial): «Agonista del receptor de oxitocina» Texto original en inglés: "Oxytocin receptor agonist" ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica compilada, la carbetocina es un péptido agonista del receptor de oxitocina (OXTR), con efecto uterotónico de acción prolongada. Su uso establecido es la prevención de la hemorragia posparto. También se menciona una formulación intranasal en desarrollo para el síndrome de Prader-Willi, dirigida a reducir el hambre extrema.
 
 El síndrome similar a la isotretinoína (malformaciones por embriopatía por ácido retinoico) es un trastorno del desarrollo sin una vía conocida que involucre al receptor de oxitocina. Los datos compilados **no sustentan ningún vínculo mecanístico** entre ambas condiciones.
 
@@ -114,12 +114,13 @@ La predicción se basa solo en el modelo TxGNN (nivel L5), sin ensayos ni litera
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
 
 <!-- review:end log -->
 

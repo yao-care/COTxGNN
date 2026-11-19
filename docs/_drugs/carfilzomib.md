@@ -60,7 +60,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** directamente asoci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, carfilzomib es un inhibidor irreversible de la actividad tipo quimotripsina del proteasoma 20S, usado en oncología (principalmente mieloma múltiple). Al bloquear el proteasoma se acumulan proteínas mal plegadas y reguladoras, lo que genera estrés del retículo endoplásmico y apoptosis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Carfilzomib (traducción no oficial): «Carfilzomib es un inhibidor del proteasoma de tipo tetrapéptido epoxicetona que se une de forma irreversible a los sitios activos que contienen treonina N-terminal del proteasoma 20S, la partícula central proteolítica del proteasoma 26S. In vitro, carfilzomib mostró actividad antiproliferativa y proapoptótica en células de tumores sólidos y hematológicos.» Texto original en inglés: "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), versión del 2025-06-18; consultado el 2026-11-19). Según la información conocida, carfilzomib es un inhibidor irreversible de la actividad tipo quimotripsina del proteasoma 20S, usado en oncología (principalmente mieloma múltiple). Al bloquear el proteasoma se acumulan proteínas mal plegadas y reguladoras, lo que genera estrés del retículo endoplásmico y apoptosis.
 
 CMM7 parece corresponder a un subtipo o locus de susceptibilidad de melanoma maligno cutáneo. Un vínculo plausible es que la inhibición del proteasoma cause estrés proteotóxico y muerte celular en las células de melanoma. Sin embargo, esta relación se infiere del contexto general del melanoma y no está respaldada por datos directos sobre CMM7.
 
@@ -169,13 +169,14 @@ La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->
 

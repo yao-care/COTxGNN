@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **linfoma folicular**, con
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, brentuximab vedotina es un conjugado anticuerpo-fármaco que se une a CD30 y libera MMAE, un agente que destruye la célula tumoral. Su eficacia está establecida en linfomas CD30 positivos, como el linfoma de Hodgkin y el linfoma anaplásico de células grandes.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Brentuximab Vedotin (traducción no oficial): «CD30 es un miembro de la familia de receptores del factor de necrosis tumoral y se expresa en la superficie de las células del sALCL y en las células de Hodgkin y Reed-Sternberg (HRS) en el cHL. CD30 se expresa de forma variable en otros linfomas de células T. […] El brentuximab vedotina es un conjugado anticuerpo-fármaco (ADC).» Texto original en inglés: "CD30 is a member of the tumor necrosis factor receptor family and is expressed on the surface of sALCL cells and on Hodgkin Reed-Sternberg (HRS) cells in cHL. CD30 is variably expressed in other T-cell lymphomas. […] Brentuximab vedotin is an antibody-drug conjugate (ADC)." ([DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f), versión del 2025-11-11; consultado el 2026-11-19). Según la información conocida, brentuximab vedotina es un conjugado anticuerpo-fármaco que se une a CD30 y libera MMAE, un agente que destruye la célula tumoral. Su eficacia está establecida en linfomas CD30 positivos, como el linfoma de Hodgkin y el linfoma anaplásico de células grandes.
 
 El linfoma folicular solo expresa CD30 de forma variable. Por ello, el beneficio probablemente se limitaría a los casos CD30 positivos o a un posible efecto "bystander" (daño a células vecinas por difusión del agente citotóxico).
 
@@ -163,11 +163,12 @@ Nota: la neoplasia de células B muestra la evidencia más sólida del conjunto,
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el registro en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Adcetris (brentuximab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3904f8dd-1aef-3490-e48f-bd55f32ed67f) |
 
 <!-- review:end log -->
 

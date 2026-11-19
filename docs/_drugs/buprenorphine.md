@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **porfiria aguda intermite
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información farmacológica conocida, la buprenorfina actúa sobre el receptor opioide mu (OPRM1) y el receptor kappa (OPRK1), y se emplea en dolor intenso y dependencia de opioides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Buprenorphine (traducción no oficial): «SUBLOCADE inyectable contiene buprenorfina. La buprenorfina es un agonista parcial del receptor opioide mu y un antagonista del receptor opioide kappa.» Texto original en inglés: "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), versión del 2026-07-27; consultado el 2026-11-19). Según la información farmacológica conocida, la buprenorfina actúa sobre el receptor opioide mu (OPRM1) y el receptor kappa (OPRK1), y se emplea en dolor intenso y dependencia de opioides.
 
 No se identificó un vínculo mecanístico claro con la porfiria aguda intermitente. La única publicación recuperada describe el manejo anestésico de una paciente con esta enfermedad, es decir, un tema de seguridad perioperatoria de fármacos anestésicos y analgésicos, no un beneficio terapéutico. El dolor abdominal es una manifestación frecuente de los ataques, pero esto no respalda por sí solo que la buprenorfina trate la enfermedad de fondo.
 
@@ -125,12 +125,13 @@ La predicción de TxGNN para porfiria aguda intermitente carece de ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
 
 <!-- review:end log -->
 

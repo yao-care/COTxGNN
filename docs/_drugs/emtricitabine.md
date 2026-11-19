@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría estudios en a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, la emtricitabina es un análogo nucleosídico que termina la elongación del ADN viral al actuar sobre la transcriptasa inversa. El virus de la inmunodeficiencia de los simios (SIV) y el virus quimérico SHIV usan una transcriptasa inversa muy similar a la del VIH-1, por lo que el mecanismo antirretroviral conocido podría aplicarse de forma plausible.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Emtricitabine (traducción no oficial): «La emtricitabina es un fármaco antirretroviral. […] La FTC, un análogo nucleosídico sintético de la citidina, es fosforilada por enzimas celulares para formar 5'-trifosfato de emtricitabina (FTC-TP), que inhibe la actividad de la transcriptasa inversa (RT) del VIH-1 al competir con el sustrato natural 5'-trifosfato de desoxicitidina y al incorporarse al ADN viral naciente, lo que produce la terminación de la cadena. El FTC-TP es un inhibidor débil de las ADN polimerasas α, β y ε de mamíferos y de la ADN polimerasa γ mitocondrial.» Texto original en inglés: "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), versión del 2026-11-06; consultado el 2026-11-19). Según la información conocida, la emtricitabina es un análogo nucleosídico que termina la elongación del ADN viral al actuar sobre la transcriptasa inversa. El virus de la inmunodeficiencia de los simios (SIV) y el virus quimérico SHIV usan una transcriptasa inversa muy similar a la del VIH-1, por lo que el mecanismo antirretroviral conocido podría aplicarse de forma plausible.
 
 Los estudios en macacos muestran que la emtricitabina combinada con tenofovir (en forma de disoproxilo o alafenamida) protege frente a exposiciones rectales y vaginales repetidas a SHIV. Son datos preclínicos de modelos animales, no evidencia clínica en humanos. La infección por SIV es principalmente un modelo de investigación del VIH, por lo que el valor traslacional está en la prevención y el tratamiento del VIH, un uso ya cubierto por esta clase de fármacos.
 
@@ -115,6 +115,19 @@ La predicción se apoya solo en estudios preclínicos en macacos, sin ensayos cl
 - Datos detallados del mecanismo de acción.
 - Revisión de las advertencias y contraindicaciones del prospecto de INVIMA.
 - Verificar la vigencia de los registros sanitarios en INVIMA.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

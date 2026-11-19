@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia endocrina múl
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, larotrectinib es un inhibidor selectivo de las quinasas TRK (NTRK1/2/3) y no es un inhibidor primario de RET. Su eficacia está establecida en tumores con fusiones NTRK, y mecanísticamente podría ser aplicable a la neoplasia endocrina múltiple solo de forma indirecta.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Larotrectinib (traducción no oficial): «El larotrectinib es un inhibidor de las tropomiosina receptor cinasas (TRK), TRKA, TRKB y TRKC. En un amplio panel de ensayos con enzimas purificadas, el larotrectinib inhibió TRKA, TRKB y TRKC con valores de IC 50 de entre 5-11 nM. Otra cinasa, TNK2, fue inhibida a una concentración aproximadamente 100 veces mayor.» Texto original en inglés: "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), versión del 2026-05-22; consultado el 2026-11-19). Según la información conocida, larotrectinib es un inhibidor selectivo de las quinasas TRK (NTRK1/2/3) y no es un inhibidor primario de RET. Su eficacia está establecida en tumores con fusiones NTRK, y mecanísticamente podría ser aplicable a la neoplasia endocrina múltiple solo de forma indirecta.
 
 La neoplasia endocrina múltiple tipo 2 (MEN2) está causada por mutaciones germinales activadoras de RET, que también sustentan el carcinoma medular de tiroides. TRK y RET son ambas tirosina quinasas receptoras que señalizan a través de vías MAPK/PI3K que se solapan. La literatura de 2024 sobre resistencia fuera de la diana a la inhibición selectiva de RET sugiere comunicación cruzada entre vías de escape en cánceres dependientes de RET.
 
@@ -151,13 +151,14 @@ La evidencia es solo indirecta: un ensayo de cesta no específico, una revisión
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registros cancelados) y la disponibilidad real del fármaco" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a BAYER AG y se encuentran cancelados; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
 
 <!-- review:end log -->
 

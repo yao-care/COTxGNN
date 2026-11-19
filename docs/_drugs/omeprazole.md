@@ -58,7 +58,7 @@ Omeprazol es un inhibidor de la bomba de protones que suprime la secreción de �
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, omeprazol inhibe la bomba de protones gástrica (H+/K+ ATPasa, codificada por el gen ATP4A), y su eficacia en enfermedades relacionadas con el exceso de ácido, como el reflujo gastroesofágico, está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Omeprazole (traducción no oficial): «El omeprazol pertenece a una clase de compuestos antisecretores, los bencimidazoles sustituidos, que suprimen la secreción de ácido gástrico mediante la inhibición específica del sistema enzimático H + /K + ATPasa en la superficie secretora de la célula parietal gástrica. Dado que este sistema enzimático se considera la bomba de ácido (protones) de la mucosa gástrica, el omeprazol se ha caracterizado como un inhibidor de la bomba de ácido gástrico, en el sentido de que bloquea el paso final de la producción de ácido.» Texto original en inglés: "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), versión del 2024-03-19; consultado el 2026-11-19). Según la información conocida, omeprazol inhibe la bomba de protones gástrica (H+/K+ ATPasa, codificada por el gen ATP4A), y su eficacia en enfermedades relacionadas con el exceso de ácido, como el reflujo gastroesofágico, está bien establecida.
 
 El reflujo duodenogástrico consiste en el paso de bilis y jugo pancreático del duodeno al estómago. Su causa principal no es el ácido, por lo que suprimir el ácido no ataca directamente el origen del problema. Aun así, omeprazol podría aliviar síntomas y lesiones de la mucosa asociados al ácido en cuadros de reflujo mixto, como el esófago de Barrett. Algunos estudios clínicos pequeños evaluaron su efecto sobre el reflujo biliar en ese contexto.
 
@@ -139,12 +139,13 @@ No hay ensayos que prueben omeprazol en reflujo duodenogástrico. La evidencia s
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y actualmente no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que los dos registros sanitarios están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
 
 <!-- review:end log -->
 

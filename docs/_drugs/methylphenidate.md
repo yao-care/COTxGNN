@@ -62,7 +62,7 @@ La evidencia es débil: se trata más de una cuestión de clasificación de la e
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el metilfenidato bloquea los transportadores de dopamina y noradrenalina, y es un tratamiento de primera línea para el trastorno por déficit de atención e hiperactividad (TDAH). La literatura recuperada respalda este mecanismo, por ejemplo un estudio PET en adultos con TDAH que midió el efecto del metilfenidato de liberación prolongada sobre ambos transportadores (PMID 41128391).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Methylphenidate (traducción no oficial): «El clorhidrato de metilfenidato es un estimulante del sistema nervioso central (SNC). Se desconoce el modo de acción terapéutica de METADATE CD en el tratamiento del TDAH en pacientes pediátricos de 6 años de edad o más. El metilfenidato bloquea la recaptación de noradrenalina y dopamina en la neurona presináptica y aumenta la liberación de estas monoaminas al espacio extraneuronal.» Texto original en inglés: "Methylphenidate hydrochloride is a central nervous system (CNS) stimulant. The mode of therapeutic action of METADATE CD in the treatment of ADHD in pediatric patients 6 years of age and older is not known. Methylphenidate blocks the reuptake of norepinephrine and dopamine into the presynaptic neuron and increases the release of these monoamines into the extraneuronal space." ([DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4), versión del 2026-10-21; consultado el 2026-11-19). Según la información conocida, el metilfenidato bloquea los transportadores de dopamina y noradrenalina, y es un tratamiento de primera línea para el trastorno por déficit de atención e hiperactividad (TDAH). La literatura recuperada respalda este mecanismo, por ejemplo un estudio PET en adultos con TDAH que midió el efecto del metilfenidato de liberación prolongada sobre ambos transportadores (PMID 41128391).
 
 La relación entre la indicación original y la nueva es indirecta. El TDAH es un trastorno del neurodesarrollo, y la etiqueta "trastorno del desarrollo específico" es amplia. Casi todos los artículos recuperados tratan sobre TDAH, que ya es una indicación establecida del metilfenidato. La evidencia sobre trastornos específicos del aprendizaje es solo indirecta (por ejemplo, un estudio de EEG cuantitativo en TDAH con dificultades de aprendizaje, PMID 33012168).
 
@@ -159,13 +159,14 @@ Para trastorno del desarrollo específico no hay ensayos clínicos, y la literat
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->
 

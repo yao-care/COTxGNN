@@ -60,7 +60,7 @@ pero hasta ahora **no hay ensayos clínicos registrados** y solo se dispone de *
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes compiladas. Según la información conocida, deferiprona es un quelante oral de hierro; su uso principal se relaciona con la sobrecarga de hierro, y mecanísticamente podría ser aplicable a enfermedades en las que el hierro agrava el daño.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Deferiprone (traducción no oficial): «La deferiprona es un agente quelante con afinidad por los iones férricos (hierro III). La deferiprona se une a los iones férricos para formar complejos neutros 3:1 (deferiprona:hierro) que son estables a pH fisiológico.» Texto original en inglés: "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), versión del 2026-01-28; consultado el 2026-11-19). Según la información conocida, deferiprona es un quelante oral de hierro; su uso principal se relaciona con la sobrecarga de hierro, y mecanísticamente podría ser aplicable a enfermedades en las que el hierro agrava el daño.
 
 En la porfiria cutánea tardía, el exceso de hierro hepático y el estrés oxidativo dependiente del hierro empeoran la uroporfiria e inhiben la enzima uroporfirinógeno descarboxilasa. Por ello, reducir el hierro es una estrategia terapéutica plausible (la flebotomía ya se usa con este fin). Un estudio en ratones Hfe-/- (PMID 17854053) mostró que la quelación con deferiprona o las dietas deficientes en hierro reducen la acumulación de uroporfirina.
 
@@ -137,12 +137,13 @@ La evidencia es solo preclínica (L4), sin ensayos clínicos, y una de las dos p
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ La evidencia actual se limita a la predicción del modelo (nivel L5).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, donepezilo es un inhibidor de la acetilcolinesterasa que aumenta el tono colinérgico central, y su uso en el deterioro cognitivo es ampliamente conocido. Mecanísticamente, la modulación colinérgica podría ser relevante en algunos trastornos del movimiento.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Donepezil (traducción no oficial): «Las teorías actuales sobre la patogenia de los signos y síntomas cognitivos de la enfermedad de Alzheimer atribuyen algunos de ellos a una deficiencia de la neurotransmisión colinérgica. Se postula que el clorhidrato de donepezilo ejerce su efecto terapéutico al potenciar la función colinérgica.» Texto original en inglés: "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), versión del 2021-12-30; consultado el 2026-11-19). Según la información conocida, donepezilo es un inhibidor de la acetilcolinesterasa que aumenta el tono colinérgico central, y su uso en el deterioro cognitivo es ampliamente conocido. Mecanísticamente, la modulación colinérgica podría ser relevante en algunos trastornos del movimiento.
 
 Sin embargo, para los trastornos psicógenos (funcionales) del movimiento no se identificó un vínculo mecanístico específico. La predicción se basa únicamente en la puntuación del modelo TxGNN (deep learning), 0.9923, que puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, y no cuenta con ensayos ni literatura que la sustenten. Debe considerarse una hipótesis exploratoria.
 
@@ -130,12 +130,13 @@ La predicción principal (trastornos psicógenos del movimiento) se basa solo en
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 4 registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el donepezilo no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Iodixanol es un medio de contraste yodado, no iónico e iso-osmolar, registrado 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, iodixanol es un medio de contraste radiográfico yodado, no iónico e iso-osmolar, sin actividad conocida de modificación de la enfermedad en la osteoartritis.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Iodixanol (traducción no oficial): «La inyección intravascular de iodixanol opacifica los vasos en el trayecto del flujo del medio de contraste, lo que permite la visualización de las estructuras internas. En las imágenes del cuerpo, los medios de contraste yodados difunden desde el espacio vascular hacia el espacio extravascular.» Texto original en inglés: "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, iodixanol es un medio de contraste radiográfico yodado, no iónico e iso-osmolar, sin actividad conocida de modificación de la enfermedad en la osteoartritis.
 
 La literatura recuperada describe su uso como agente de diagnóstico: tomografía computarizada con contraste del cartílago, y estudios de difusión y transporte de solutos a través del cartílago y la interfase osteocondral. Ninguno evalúa un efecto terapéutico. Un estudio in vitro halló que los contrastes yodados no afectan la función del plasma rico en plaquetas, lo cual es un hallazgo de compatibilidad y no de eficacia.
 
@@ -102,6 +102,19 @@ No hay ensayos clínicos ni estudios que evalúen a iodixanol como tratamiento d
 - Datos del mecanismo de acción.
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones.
 - Evaluación de la vía de administración y su compatibilidad, dado que el producto registrado es una solución inyectable diseñada para uso diagnóstico.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH** (en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, fulvestrant es un antagonista del receptor de estrógenos alfa (ERα) que además favorece su degradación, y su eficacia en cáncer de mama con receptores hormonales positivos está bien establecida. Esta descripción proviene del conocimiento general del fármaco y no de los datos compilados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fulvestrant (traducción no oficial): «Muchos cánceres de mama tienen receptores de estrógeno (ER) y el crecimiento de estos tumores puede ser estimulado por el estrógeno. El fulvestrant es un antagonista del receptor de estrógeno que se une al receptor de estrógeno de manera competitiva con una afinidad comparable a la del estradiol y regula a la baja la proteína ER en las células de cáncer de mama humano.» Texto original en inglés: "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, fulvestrant es un antagonista del receptor de estrógenos alfa (ERα) que además favorece su degradación, y su eficacia en cáncer de mama con receptores hormonales positivos está bien establecida. Esta descripción proviene del conocimiento general del fármaco y no de los datos compilados.
 
 El vínculo con el VIH es indirecto. El ERα se expresa en los linfocitos T CD4+ y se ha planteado que podría influir en la transcripción y la latencia del VIH. Un estudio de 2026 evaluó cómo interactúan los ligandos del ERα (incluido fulvestrant) y los agentes reversores de latencia en estas células. Esto sugiere que fulvestrant podría modular la reversión de la latencia viral, pero se trata de evidencia preclínica in vitro, sin datos en humanos.
 
@@ -140,12 +140,13 @@ La predicción para VIH tiene un puntaje alto en el modelo, pero solo cuenta con
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

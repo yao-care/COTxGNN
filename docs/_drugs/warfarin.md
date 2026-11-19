@@ -64,7 +64,7 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia de cofactor 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la warfarina inhibe la enzima vitamina K epóxido reductasa, lo que reduce la síntesis de los factores de coagulación funcionales II, VII, IX y X.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Warfarin (traducción no oficial): «La warfarina actúa inhibiendo la síntesis de los factores de la coagulación dependientes de la vitamina K, que incluyen los factores II, VII, IX y X, y las proteínas anticoagulantes C y S. La vitamina K es un cofactor esencial para la síntesis posribosómica de los factores de la coagulación dependientes de la vitamina K. La vitamina K promueve la biosíntesis de residuos de ácido γ-carboxiglutámico en las proteínas, que son esenciales para la actividad biológica.» Texto original en inglés: "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), versión del 2026-10-28; consultado el 2026-11-19). Según la información conocida, la warfarina inhibe la enzima vitamina K epóxido reductasa, lo que reduce la síntesis de los factores de coagulación funcionales II, VII, IX y X.
 
 La deficiencia de cofactor 2 de la heparina altera la inhibición de la trombina y favorece la trombosis. Reducir los factores dependientes de vitamina K es una vía plausible para controlar ese riesgo trombótico, y por eso la predicción tiene coherencia mecanística.
 
@@ -141,12 +141,13 @@ La predicción principal se apoya únicamente en tres reportes de casos antiguos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "La warfarina es un anticoagulante oral antagonista de la vitamina K; en Colombia solo consta un registro sanitario (hoy cancelado) cuyo text" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por conocimiento general de la clase, la oxaprozina es un AINE que inhibe las enzimas COX-1 y COX-2 y reduce la síntesis de prostaglandinas, con efecto analgésico y antiinflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Oxaprozin (traducción no oficial): «La oxaprozina tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción de COXANTO, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Oxaprozin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of COXANTO, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Coxanto (oxaprozin) prescribing information, SOLA Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=918127f0-9f2a-4edf-a2f7-07c01aa52bb5), versión del 2025-10-20; consultado el 2026-11-19). Por conocimiento general de la clase, la oxaprozina es un AINE que inhibe las enzimas COX-1 y COX-2 y reduce la síntesis de prostaglandinas, con efecto analgésico y antiinflamatorio.
 
 La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética causada por pérdida de función en GDF5 (CDMP1). **No existe un vínculo mecanístico creíble**: la inhibición de COX no corrige el defecto de señalización de GDF5. El puntaje elevado probablemente refleja cercanía en la red de conocimiento con términos musculoesqueléticos y no un mecanismo terapéutico real. El único beneficio plausible sería el alivio sintomático del dolor articular.
 
@@ -120,12 +120,13 @@ La predicción principal carece de ensayos, literatura y vínculo mecanístico c
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos registros sanitarios están actualmente cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Coxanto (oxaprozin) prescribing information, SOLA Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=918127f0-9f2a-4edf-a2f7-07c01aa52bb5) |
 
 <!-- review:end log -->
 

@@ -66,7 +66,7 @@ Sin embargo, hay **0 ensayos clínicos** y **0 publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la meclizina es una piperazina antagonista de los receptores H1 de primera generación, con actividad anticolinérgica. Su indicación original en los registros colombianos solo aparece como "MECLOZINA", sin una enfermedad especificada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Meclizine (traducción no oficial): «Se desconoce el mecanismo preciso por el cual la meclizina ejerce su efecto terapéutico, pero se presume que implica el antagonismo del receptor H1 de la histamina.» Texto original en inglés: "The precise mechanism by which meclizine exerts its therapeutic effect is unknown but is presumed to involve antagonism of the histamine H1 receptor." ([DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588), versión del 2026-10-06; consultado el 2026-11-19). Según la información conocida, la meclizina es una piperazina antagonista de los receptores H1 de primera generación, con actividad anticolinérgica. Su indicación original en los registros colombianos solo aparece como "MECLOZINA", sin una enfermedad especificada.
 
 La urticaria alérgica está mediada por histamina, y los antihistamínicos H1 son una clase farmacológica establecida para esta condición. Por ello, el bloqueo H1 ofrece un vínculo mecanístico plausible, aunque inferido a nivel de clase y no demostrado para la meclizina.
 
@@ -140,13 +140,14 @@ No existen ensayos clínicos ni literatura para meclizina en urticaria alérgica
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y actualmente están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588) |
 
 <!-- review:end log -->
 

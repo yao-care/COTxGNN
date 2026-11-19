@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad infecciosa
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los registros compilados. Según la información conocida, la miltefosina es un alquilfosfocolina con actividad antiparasitaria de amplio espectro; se utiliza en leishmaniasis y en infecciones por amebas de vida libre. Se describe que altera el metabolismo lipídico, la señalización de membrana (por ejemplo, la vía PI3K/Akt) y la homeostasis del calcio en los parásitos. En las bases farmacológicas consultadas, su diana humana registrada es AKT1.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Miltefosine (traducción no oficial): «La miltefosina es un agente antileishmaniásico. […] Se desconoce el modo de acción específico de la miltefosina contra las especies de Leishmania. Es probable que el mecanismo de acción de la miltefosina implique la interacción con lípidos (fosfolípidos y esteroles), incluidos los lípidos de membrana, la inhibición de la citocromo c oxidasa (función mitocondrial) y una muerte celular similar a la apoptosis.» Texto original en inglés: "Miltefosine is an anti-leishmanial agent. […] The specific mode of action of miltefosine against Leishmania species is unknown. The mechanism of action of miltefosine is likely to involve interaction with lipids (phospholipids and sterols), including membrane lipids, inhibition of cytochrome c oxidase (mitochondrial function), and apoptosis-like cell death." ([DailyMed: Impavido (miltefosine) prescribing information, Profounda, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcb387ac-2e90-4f5e-94b2-d3635190678e), versión del 2026-10-08; consultado el 2026-11-19). Según la información conocida, la miltefosina es un alquilfosfocolina con actividad antiparasitaria de amplio espectro; se utiliza en leishmaniasis y en infecciones por amebas de vida libre. Se describe que altera el metabolismo lipídico, la señalización de membrana (por ejemplo, la vía PI3K/Akt) y la homeostasis del calcio en los parásitos. En las bases farmacológicas consultadas, su diana humana registrada es AKT1.
 
 La relación con la nueva indicación es de plausibilidad biológica: una extensión de esta actividad antiparasitaria a las fases larvarias de los cestodos (protoescólices) es posible. Sin embargo, esto es solo una hipótesis. Ningún estudio aportado evalúa la miltefosina frente a *E. granulosus*, y el alto puntaje de TxGNN es una predicción computacional sin validación clínica.
 
@@ -110,6 +110,19 @@ La predicción (0.9941) es solo computacional: no hay ensayos clínicos ni liter
 - Confirmar el mecanismo de acción desde fuentes como DrugBank
 - Aclarar la indicación autorizada en Colombia, ya que el texto del registro solo menciona el nombre del principio activo
 - Comparar con los tratamientos actuales (benzimidazoles, como albendazol) para justificar el valor añadido
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Impavido (miltefosine) prescribing information, Profounda, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcb387ac-2e90-4f5e-94b2-d3635190678e) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

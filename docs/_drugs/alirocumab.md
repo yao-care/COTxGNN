@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **ictiosis ligada al X sin
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, alirocumab es un anticuerpo monoclonal humano que se une a PCSK9 (proproteína convertasa subtilisina/kexina tipo 9). Con ello aumenta la disponibilidad de receptores de LDL en el hígado y reduce el colesterol LDL circulante. Su eficacia en hipercolesterolemia y en la reducción de eventos cardiovasculares está bien documentada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Alirocumab (traducción no oficial): «Alirocumab es un anticuerpo monoclonal humano que se une a la proproteína convertasa subtilisina/kexina tipo 9 (PCSK9). PCSK9 se une a los receptores de lipoproteínas de baja densidad (LDL) (LDLR) en la superficie de los hepatocitos para promover la degradación de los LDLR en el hígado.» Texto original en inglés: "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), versión del 2026-07-16; consultado el 2026-11-19). Según la información conocida, alirocumab es un anticuerpo monoclonal humano que se une a PCSK9 (proproteína convertasa subtilisina/kexina tipo 9). Con ello aumenta la disponibilidad de receptores de LDL en el hígado y reduce el colesterol LDL circulante. Su eficacia en hipercolesterolemia y en la reducción de eventos cardiovasculares está bien documentada.
 
 Para la ictiosis ligada al X, **no se identifica un vínculo mecanístico claro**. Esta enfermedad se relaciona con una alteración en la vía del sulfato de colesterol y la esteroide sulfatasa en los lípidos de la barrera cutánea. La inhibición de PCSK9 reduce el LDL-C circulante, pero no tiene un papel establecido en el manejo epidérmico del sulfato de colesterol.
 
@@ -132,12 +132,13 @@ Entre las demás predicciones, la que cuenta con más respaldo es **"enfermedad 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la literatura revisada, vortioxetina es un antidepresivo con actividad multimodal: inhibe el transportador de serotonina (SERT) y modula los receptores 5-HT1A (agonista), 5-HT1B (agonista parcial), 5-HT1D, 5-HT3 y 5-HT7 (antagonistas). Esto aumenta la neurotransmisión serotoninérgica, noradrenérgica, dopaminérgica, colinérgica, histaminérgica y glutamatérgica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vortioxetine (traducción no oficial): «El mecanismo del efecto antidepresivo de la vortioxetina no se comprende completamente, pero se cree que está relacionado con su potenciación de la actividad serotoninérgica en el SNC mediante la inhibición de la recaptación de serotonina (5-HT). También tiene otras actividades, entre ellas el antagonismo del receptor 5-HT3 y el agonismo del receptor 5-HT1A.» Texto original en inglés: "The mechanism of the antidepressant effect of vortioxetine is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS through inhibition of the reuptake of serotonin (5-HT). It also has several other activities including 5-HT3 receptor antagonism and 5-HT1A receptor agonism." ([DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e), versión del 2026-04-23; consultado el 2026-11-19). Según la literatura revisada, vortioxetina es un antidepresivo con actividad multimodal: inhibe el transportador de serotonina (SERT) y modula los receptores 5-HT1A (agonista), 5-HT1B (agonista parcial), 5-HT1D, 5-HT3 y 5-HT7 (antagonistas). Esto aumenta la neurotransmisión serotoninérgica, noradrenérgica, dopaminérgica, colinérgica, histaminérgica y glutamatérgica.
 
 "Trastorno neurótico" es una categoría diagnóstica antigua y amplia que se solapa con los trastornos depresivos y de ansiedad. El puntaje alto del modelo probablemente refleja ese solapamiento con la indicación aprobada (depresión mayor), y no existe evidencia mecanística directa para esta etiqueta específica.
 
@@ -170,12 +170,13 @@ La predicción principal (trastorno neurótico) tiene nivel de evidencia L5: sol
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro (titular: MEGALABS COLOMBIA S.A.S) está cancelado; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
 
 <!-- review:end log -->
 

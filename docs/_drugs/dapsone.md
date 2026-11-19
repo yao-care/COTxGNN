@@ -66,7 +66,7 @@ Cabe señalar que la dapsona ya está establecida en guías clínicas como alter
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la farmacología conocida, la dapsona es una sulfona antibacteriana que inhibe la dihidropteroato sintasa en la vía de síntesis de folato, el mismo blanco del componente sulfonamida del trimetoprim-sulfametoxazol (TMP-SMX). Esta interpretación proviene de la farmacología establecida y no del registro suministrado. Además, los datos de farmacología señalan que inhibe la actividad de la dihidrofolato reductasa en *Pneumocystis carinii* in vitro (CI50 de 1,5 µM).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dapsone (traducción no oficial): «No se ha establecido el mecanismo de acción en la dermatitis herpetiforme. Según el método cinético en ratones, la dapsona es bactericida, además de bacteriostática, contra Mycobacterium leprae.» Texto original en inglés: "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), versión del 2026-10-01; consultado el 2026-11-19). Según la farmacología conocida, la dapsona es una sulfona antibacteriana que inhibe la dihidropteroato sintasa en la vía de síntesis de folato, el mismo blanco del componente sulfonamida del trimetoprim-sulfametoxazol (TMP-SMX). Esta interpretación proviene de la farmacología establecida y no del registro suministrado. Además, los datos de farmacología señalan que inhibe la actividad de la dihidrofolato reductasa en *Pneumocystis carinii* in vitro (CI50 de 1,5 µM).
 
 *Pneumocystis jirovecii* depende de la vía del folato, por lo que su inhibición es biológicamente plausible. Esto es coherente con el puntaje muy alto del modelo (0,9973). Los usos clínicos conocidos de la dapsona incluyen lepra (como parte de un régimen múltiple), dermatitis herpetiforme y profilaxis de la neumonía por *Pneumocystis* en personas inmunodeprimidas, en particular con sida.
 
@@ -150,12 +150,13 @@ Hay varios ensayos de fase 3 completados (NCT00000802, NCT00000991, NCT00001028,
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "con registros sanitarios en Colombia que hoy están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->
 

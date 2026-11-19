@@ -57,7 +57,7 @@ pero actualmente no hay ensayos clínicos registrados y la literatura disponible
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, letrozol es un inhibidor de la aromatasa: bloquea la conversión de andrógenos en estrógenos y, con ello, reduce los estrógenos circulantes. Es una terapia endocrina establecida en el cáncer de mama con receptores hormonales positivos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Letrozol (traducción no oficial): «El crecimiento de algunos cánceres de mama es estimulado o mantenido por los estrógenos. El tratamiento del cáncer de mama que se considera hormonosensible (es decir, positivo para receptores de estrógeno y/o de progesterona o con estado de receptores desconocido) ha incluido diversos intentos de disminuir los niveles de estrógeno (ovariectomía, adrenalectomía, hipofisectomía) o de inhibir los efectos estrogénicos (antiestrógenos y agentes progestacionales). […] El letrozol es un inhibidor competitivo no esteroideo del sistema enzimático de la aromatasa; inhibe la conversión de andrógenos en estrógenos.» Texto original en inglés: "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406), versión del 2026-06-11; consultado el 2026-11-19). Según la información conocida, letrozol es un inhibidor de la aromatasa: bloquea la conversión de andrógenos en estrógenos y, con ello, reduce los estrógenos circulantes. Es una terapia endocrina establecida en el cáncer de mama con receptores hormonales positivos.
 
 Los carcinomas de la región del pezón (por ejemplo, el carcinoma papilar originado en el pezón o las lesiones tipo Paget) surgen del epitelio mamario y podrían expresar receptores de estrógeno o progesterona. Por ello, un mecanismo de privación estrogénica es biológicamente plausible.
 
@@ -118,6 +118,19 @@ La predicción se basa solo en el modelo y en un razonamiento mecanístico indir
 - Datos de mecanismo de acción confirmados (por ejemplo, desde DrugBank)
 - Advertencias y contraindicaciones del prospecto de INVIMA para el análisis de seguridad
 - Evaluación del beneficio y riesgo de la privación estrogénica (pérdida ósea, síntomas menopáusicos) en esta población
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

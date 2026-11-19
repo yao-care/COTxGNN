@@ -54,7 +54,7 @@ Ambrisentan es un antagonista del receptor de endotelina tipo A (ETA). El modelo
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ambrisentan es un antagonista selectivo del receptor de endotelina tipo A. La endotelina favorece la vasoconstricción y la remodelación vascular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ambrisentan (traducción no oficial): «La endotelina-1 (ET-1) es un péptido autocrino y paracrino potente. Dos subtipos de receptores, ET A y ET B, median los efectos de la ET-1 en el músculo liso vascular y el endotelio. […] Ambrisentán es un antagonista del receptor ET A de alta afinidad (K i =0.011 nM) con una alta selectividad por el receptor ET A frente al receptor ET B (>4000 veces).» Texto original en inglés: "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), versión del 2026-06-22; consultado el 2026-11-19). Según la información conocida, ambrisentan es un antagonista selectivo del receptor de endotelina tipo A. La endotelina favorece la vasoconstricción y la remodelación vascular.
 
 Esa vía podría contribuir a la enfermedad vascular pulmonar en la telangiectasia hemorrágica hereditaria (THH), condición en la que aparecen las malformaciones arteriovenosas pulmonares. Por eso existe un vínculo mecanístico plausible, pero indirecto.
 
@@ -103,6 +103,19 @@ La predicción se apoya solo en el puntaje del modelo y en un reporte de caso qu
 - Revisión del prospecto aprobado (advertencias y contraindicaciones), incluida la toxicidad embriofetal
 - Evaluación de la seguridad en pacientes con THH (anemia, insuficiencia cardíaca) y de las interacciones relevantes
 - Verificación de la vigencia de los registros sanitarios y de la ruta de administración oral
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

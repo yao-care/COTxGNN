@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **2 publicaciones** (una cohorte retrospectiva y u
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, decitabina es un agente hipometilante que inhibe la ADN metiltransferasa y se emplea en síndromes mielodisplásicos (SMD).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Decitabine (traducción no oficial): «Se cree que decitabina ejerce sus efectos antineoplásicos tras su fosforilación e incorporación directa en el ADN y la inhibición de la ADN metiltransferasa, lo que provoca hipometilación del ADN y diferenciación celular o apoptosis. Decitabina inhibe la metilación del ADN in vitro, lo cual se logra a concentraciones que no provocan una supresión importante de la síntesis de ADN.» Texto original en inglés: "Decitabine is believed to exert its antineoplastic effects after phosphorylation and direct incorporation into DNA and inhibition of DNA methyltransferase, causing hypomethylation of DNA and cellular differentiation or apoptosis. Decitabine inhibits DNA methylation in vitro, which is achieved at concentrations that do not cause major suppression of DNA synthesis." ([DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5), versión del 2026-11-03; consultado el 2026-11-19). Según el conocimiento farmacológico general, decitabina es un agente hipometilante que inhibe la ADN metiltransferasa y se emplea en síndromes mielodisplásicos (SMD).
 
 La citopenia refractaria de la infancia es el subtipo más frecuente de SMD pediátrico. Comparte con los SMD del adulto una biología de hematopoyesis clonal con metilación aberrante del ADN, lo que ofrece una justificación plausible para que un hipometilante pueda ser aplicable.
 
@@ -107,6 +107,19 @@ La predicción se apoya solo en una cohorte retrospectiva y un reporte de caso, 
 - Ensayos clínicos prospectivos en citopenia refractaria de la infancia
 - Revisión de la literatura con diagnóstico confirmado de este subtipo
 - Plan de monitoreo hematológico y de interacciones farmacológicas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: decitabine prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5975fa81-1e29-4d56-e063-6394a90a9cd5) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos** y las **9 publicaciones** recuperadas tratan d
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, formoterol es un agonista de los receptores beta2-adrenérgicos (ADRB2) que produce broncodilatación y reduce la obstrucción del flujo aéreo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Formoterol (traducción no oficial): «El fumarato de formoterol es un agonista de los receptores beta 2 -adrenérgicos de acción prolongada (agonista beta 2 ). El fumarato de formoterol inhalado actúa localmente en el pulmón como broncodilatador. Los estudios in vitro han demostrado que el formoterol tiene una actividad agonista más de 200 veces mayor en los receptores beta 2 que en los receptores beta 1 .» Texto original en inglés: "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), versión del 2025-12-10; consultado el 2026-11-19). Según la información conocida, formoterol es un agonista de los receptores beta2-adrenérgicos (ADRB2) que produce broncodilatación y reduce la obstrucción del flujo aéreo.
 
 Una malformación respiratoria es un defecto estructural congénito. Un broncodilatador no puede corregir ese defecto; en el mejor de los casos podría aliviar de forma sintomática una obstrucción secundaria de la vía aérea. El puntaje alto probablemente refleja la cercanía del fármaco con enfermedades obstructivas de las vías respiratorias en el modelo, más que un vínculo terapéutico genuino.
 
@@ -106,6 +106,19 @@ No existen ensayos clínicos ni estudios que evalúen formoterol en malformacion
 - Definir qué tipo de malformación respiratoria se pretende tratar y si existe una obstrucción secundaria que justifique un beneficio sintomático
 - Estudios preclínicos o series de casos que evalúen directamente esta población
 - Datos del mecanismo de acción y de advertencias y contraindicaciones del prospecto local
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

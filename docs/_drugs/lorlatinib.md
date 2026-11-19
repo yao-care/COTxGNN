@@ -58,7 +58,7 @@ Lorlatinib es un inhibidor de tirosina quinasa de tercera generación dirigido a
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, lorlatinib es un inhibidor de ALK y ROS1 de tercera generación, con penetración en el sistema nervioso central, cuya eficacia en el cáncer de pulmón ALK-positivo está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lorlatinib (traducción no oficial): «El lorlatinib es un inhibidor de cinasas con actividad in vitro contra ALK y ROS1, así como contra TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 y ACK. El lorlatinib demostró actividad in vitro contra múltiples formas mutantes de la enzima ALK, incluidas algunas mutaciones detectadas en tumores en el momento de la progresión de la enfermedad durante el tratamiento con crizotinib y otros inhibidores de ALK.» Texto original en inglés: "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), versión del 2026-06-26; consultado el 2026-11-19). Según la información conocida, lorlatinib es un inhibidor de ALK y ROS1 de tercera generación, con penetración en el sistema nervioso central, cuya eficacia en el cáncer de pulmón ALK-positivo está bien establecida.
 
 **No se identificó un vínculo mecanístico** entre la inhibición de ALK/ROS1 y la fibromatosis gingival. No se conoce una patología impulsada por ALK en esta enfermedad. El puntaje alto de TxGNN refleja una asociación calculada sobre una red de conocimiento, no una evidencia biológica o clínica.
 
@@ -137,12 +137,13 @@ La predicción para fibromatosis gingival carece de ensayos clínicos, literatur
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros, de Pfizer S.A.S., están cancelados; actualmente no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están cancelados, lo que limita la viabilidad local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
 
 <!-- review:end log -->
 

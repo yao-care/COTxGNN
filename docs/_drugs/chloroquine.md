@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y solo **1 publicación** relaciona
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la cloroquina es un antimalárico con efectos inmunomoduladores: inhibe la acidificación lisosomal y la autofagia, reduce la presentación de antígenos, disminuye la señalización de los receptores TLR y la producción de citocinas proinflamatorias.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chloroquine (traducción no oficial): «La cloroquina, una 4-aminoquinolina, es un agente antiprotozoario. Se desconoce el mecanismo preciso por el cual la cloroquina ejerce su actividad. La cloroquina puede ejercer su efecto contra las especies de Plasmodium concentrándose en las vesículas ácidas del parásito e inhibiendo la polimerización del hemo.» Texto original en inglés: "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), versión del 2026-10-21; consultado el 2026-11-19). Según la información conocida, la cloroquina es un antimalárico con efectos inmunomoduladores: inhibe la acidificación lisosomal y la autofagia, reduce la presentación de antígenos, disminuye la señalización de los receptores TLR y la producción de citocinas proinflamatorias.
 
 Estas acciones son plausibles en la artritis autoinmune. Los antimaláricos (cloroquina e hidroxicloroquina) se han usado históricamente como antirreumáticos de acción lenta, incluida la artritis juvenil. Por ello, mecanísticamente podría ser aplicable a esta indicación.
 
@@ -133,12 +133,13 @@ La predicción se basa solo en el modelo computacional (L5), sin ensayos clínic
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los registros en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 
 <!-- review:end log -->
 

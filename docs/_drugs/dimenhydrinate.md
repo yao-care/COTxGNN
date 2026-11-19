@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** (un estudio farmacocinético en
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el dimenhidrinato es una sal de difenhidramina y 8-cloroteofilina. La difenhidramina es un antihistamínico H1 de primera generación que bloquea la roncha y el eritema mediados por histamina, por lo que mecanísticamente podría ser aplicable a la urticaria alérgica.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dimenhydrinate (traducción no oficial): «Aunque se desconoce el modo de acción preciso del dimenhidrinato, este tiene una acción depresora sobre la función laberíntica hiperestimulada.» Texto original en inglés: "While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function." ([DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c), versión del 2025-01-15; consultado el 2026-11-19). Según la información conocida, el dimenhidrinato es una sal de difenhidramina y 8-cloroteofilina. La difenhidramina es un antihistamínico H1 de primera generación que bloquea la roncha y el eritema mediados por histamina, por lo que mecanísticamente podría ser aplicable a la urticaria alérgica.
 
 La difenhidramina ya se utiliza clínicamente en reacciones alérgicas agudas y urticaria, y el dimenhidrinato actuaría a través del mismo componente. El puntaje de TxGNN (0.9974) es una predicción computacional y no constituye evidencia clínica.
 
@@ -128,13 +128,14 @@ La evidencia se limita a plausibilidad mecanística y a un estudio farmacocinét
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Hay limitaciones prácticas importantes: las guías actuales prefieren antihistamínicos H1 de segunda generación, no sedantes, y la carga seda" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->
 

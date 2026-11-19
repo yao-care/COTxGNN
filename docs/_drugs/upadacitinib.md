@@ -60,7 +60,7 @@ La predicción se basa únicamente en el puntaje del modelo, sin estudios reales
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, upadacitinib es un inhibidor de JAK1, que bloquea la señalización inflamatoria JAK-STAT.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Upadacitinib (traducción no oficial): «El upadacitinib es un inhibidor de las cinasas Janus (JAK). Las JAK son enzimas intracelulares que transmiten señales derivadas de las interacciones entre citocinas o factores de crecimiento y sus receptores en la membrana celular para influir en los procesos celulares de la hematopoyesis y la función de las células inmunitarias.» Texto original en inglés: "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), versión del 2026-06-30; consultado el 2026-11-19). Según la información conocida, upadacitinib es un inhibidor de JAK1, que bloquea la señalización inflamatoria JAK-STAT.
 
 La nueva indicación predicha es un síndrome congénito raro que afecta el desarrollo ocular y esquelético. Estos trastornos suelen tener origen genético y no depender de la señalización inflamatoria mediada por JAK-STAT, que es el blanco de upadacitinib. No se puede establecer un vínculo mecanístico plausible a partir de los datos disponibles.
 
@@ -140,13 +140,14 @@ La única base es un puntaje alto del modelo, sin ensayos clínicos ni literatur
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la indicación original aprobada y la situación regulatoria (registros cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

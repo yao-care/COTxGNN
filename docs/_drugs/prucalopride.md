@@ -66,7 +66,7 @@ Se trata de una predicción puramente computacional (nivel L5).
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, prucaloprida es un agonista selectivo del receptor 5-HT4 que estimula la motilidad del tracto gastrointestinal, y se utiliza en trastornos de la motilidad como el estreñimiento crónico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prucalopride (traducción no oficial): «La prucaloprida, un agonista selectivo del receptor de serotonina de tipo 4 (5-HT 4 ), es un agente procinético gastrointestinal (GI) que estimula el peristaltismo colónico (contracciones propagadas de alta amplitud [HAPC]), lo que aumenta la motilidad intestinal. La prucaloprida careció de efectos mediados por los receptores 5-HT 2A, 5-HT 2B, 5-HT 3, de motilina o CCK-A in vitro a concentraciones que superaban en 150 veces o más la afinidad por el receptor 5-HT 4.» Texto original en inglés: "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), versión del 2025-07-17; consultado el 2026-11-19). Según la información conocida, prucaloprida es un agonista selectivo del receptor 5-HT4 que estimula la motilidad del tracto gastrointestinal, y se utiliza en trastornos de la motilidad como el estreñimiento crónico.
 
 Sin embargo, la evaluación no identifica un vínculo mecanístico plausible con la hipoalfalipoproteinemia: no existe una conexión conocida entre la agonía 5-HT4 en el sistema nervioso entérico y el metabolismo de las HDL. El puntaje alto (0.9982) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica; no está respaldado por ensayos ni literatura.
 
@@ -135,13 +135,14 @@ La predicción para hipoalfalipoproteinemia carece de ensayos clínicos, literat
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "en Colombia su único registro sanitario (Resolor®) figura como cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro de Resolor® está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
 
 <!-- review:end log -->
 

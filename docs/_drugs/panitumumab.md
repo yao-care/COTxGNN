@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis inducida po
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, panitumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento epidérmico (EGFR), usado en oncología.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Panitumumab (traducción no oficial): «El EGFR es una glucoproteína transmembrana que pertenece a una subfamilia de receptores tirosina-cinasa de tipo I, que incluye EGFR, HER2, HER3 y HER4. El EGFR se expresa de forma constitutiva en los tejidos epiteliales normales, incluidos la piel y el folículo piloso. […] El panitumumab se une específicamente al EGFR tanto en las células normales como en las tumorales, e inhibe de forma competitiva la unión de los ligandos del EGFR.» Texto original en inglés: "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), versión del 2026-06-23; consultado el 2026-11-19). Según la información conocida, panitumumab es un anticuerpo monoclonal que bloquea el receptor del factor de crecimiento epidérmico (EGFR), usado en oncología.
 
 La señalización de EGFR participa en la diferenciación de los osteoblastos y en la remodelación ósea, por lo que bloquearla podría afectar el metabolismo óseo. Sin embargo, este vínculo sugiere más bien un **posible efecto adverso** (por ejemplo, efectos óseos asociados a hipomagnesemia) que un beneficio terapéutico. La dirección del efecto (beneficio o daño) no está resuelta.
 
@@ -129,12 +129,13 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y actualmente está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
 
 <!-- review:end log -->
 

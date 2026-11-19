@@ -56,7 +56,7 @@ pero solo se dispone de **0 ensayos clínicos** y **1 publicación** (un reporte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el etopósido es un inhibidor de la topoisomerasa II que causa daño en el ADN de las células en división, y se usa en neoplasias pulmonares como el cáncer de pulmón de células pequeñas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Etoposide (traducción no oficial): «El etopósido provoca la inducción de roturas de las cadenas de ADN mediante una interacción con la ADN-topoisomerasa II o la formación de radicales libres, lo que conduce a la detención del ciclo celular, principalmente en la fase G2 del ciclo celular, y a la muerte celular.» Texto original en inglés: "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), versión del 2026-10-07; consultado el 2026-11-19). Según la información conocida, el etopósido es un inhibidor de la topoisomerasa II que causa daño en el ADN de las células en división, y se usa en neoplasias pulmonares como el cáncer de pulmón de células pequeñas.
 
 La nueva indicación predicha es un tumor pulmonar raro, componente del espectro del blastoma pulmonar. Mecanísticamente, un fármaco citotóxico con actividad en tumores pulmonares podría ser aplicable, pero el vínculo es indirecto.
 
@@ -109,6 +109,19 @@ No hay ensayos clínicos y la única publicación vinculada es un reporte de cas
 - Literatura o ensayos que estudien directamente esta enfermedad con etopósido
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales)
 - Evaluación de seguridad hematológica y de interacciones en la población objetivo
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

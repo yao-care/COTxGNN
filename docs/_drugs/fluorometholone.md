@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, la fluorometolona es un glucocorticoide sintético que actúa sobre el receptor de glucocorticoides (NR3C1), con efecto antiinflamatorio e inmunosupresor. En la práctica se usa por vía oftálmica para la inflamación de la superficie ocular.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fluorometholone (traducción no oficial): «Los corticosteroides inhiben la respuesta inflamatoria a diversos agentes desencadenantes y probablemente retrasan o enlentecen la cicatrización. Inhiben el edema, el depósito de fibrina, la dilatación capilar, la migración de leucocitos, la proliferación capilar, la proliferación de fibroblastos, el depósito de colágeno y la formación de cicatrices asociados con la inflamación. […] En estudios clínicos de pacientes con respuesta documentada a los esteroides, la fluorometolona demostró un tiempo promedio significativamente más largo para producir un aumento de la presión intraocular que el fosfato de dexametasona; sin embargo, en un pequeño porcentaje de individuos, se produjo un aumento significativo de la presión intraocular en el plazo de una semana.» Texto original en inglés: "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and probably delay or slow healing. They inhibit the edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] In clinical studies of documented steroid-responders, fluorometholone demonstrated a significantly longer average time to produce a rise in intraocular pressure than dexamethasone phosphate; however, in a small percentage of individuals, a significant rise in intraocular pressure occurred within one week." ([DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01), versión del 2026-08-12; consultado el 2026-11-19). Según la información conocida, la fluorometolona es un glucocorticoide sintético que actúa sobre el receptor de glucocorticoides (NR3C1), con efecto antiinflamatorio e inmunosupresor. En la práctica se usa por vía oftálmica para la inflamación de la superficie ocular.
 
 Los corticosteroides se emplean en vasculitis de origen inmunomediado, por lo que existe un vínculo teórico entre la acción antiinflamatoria del fármaco y esta predicción.
 
@@ -95,6 +95,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos ni publicaci
 - Estudios preclínicos o clínicos que evalúen directamente esta enfermedad
 - Evaluación de la viabilidad de la vía de administración y de la formulación
 - Advertencias y contraindicaciones del prospecto de INVIMA
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fluorometholone Ophthalmic Suspension (fluorometholone) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7988a3b-e432-4d42-a8d2-63ca017e6a01) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

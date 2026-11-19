@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el ácido mefenámico es un AINE que inhibe tanto la síntesis como las acciones de las prostaglandinas, lo que lo hace relevante para el dolor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mefenamic Acid (traducción no oficial): «El ácido mefenámico tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del ácido mefenámico, al igual que el de otros AINE, no se comprende por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Mefenamic acid has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of mefenamic acid, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f), versión del 2026-04-20; consultado el 2026-11-19). Según la información conocida, el ácido mefenámico es un AINE que inhibe tanto la síntesis como las acciones de las prostaglandinas, lo que lo hace relevante para el dolor.
 
 Las prostaglandinas participan en la fisiopatología de la cefalea, en especial de la cefalea relacionada con la menstruación. Por eso, inhibir su síntesis es una vía biológicamente plausible para aliviar o prevenir las cefaleas.
 
@@ -107,6 +107,18 @@ Existen varios ensayos doble ciego pequeños y antiguos en migraña que respalda
 - Datos del prospecto sobre advertencias y contraindicaciones
 - Datos detallados del mecanismo de acción
 - Plan de limitación de duración de uso y monitoreo gastrointestinal y renal
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: mefenamic acid prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d15733a9-d5fd-4d5f-86ce-e7ed8c706c7f) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de Sanfilip
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la literatura consultada, laronidasa es una enzima alfa-L-iduronidasa recombinante que se administra por vía intravenosa para reemplazar la enzima deficiente en la enfermedad para la que se desarrolló.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Laronidase (traducción no oficial): «Los trastornos por depósito de mucopolisacáridos se deben a la deficiencia de enzimas lisosómicas específicas necesarias para el catabolismo de los glucosaminoglucanos (GAG). La mucopolisacaridosis I (MPS I) se caracteriza por la deficiencia de α-L-iduronidasa, una hidrolasa lisosómica que cataliza la hidrólisis de los residuos terminales de ácido α-L-idurónico del dermatán sulfato y del heparán sulfato. […] La captación de ALDURAZYME por las células hacia los lisosomas está mediada, muy probablemente, por la unión de las cadenas de oligosacáridos con manosa-6-fosfato terminal de la laronidasa a receptores específicos de manosa-6-fosfato.» Texto original en inglés: "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), versión del 2026-09-11; consultado el 2026-11-19). Según la literatura consultada, laronidasa es una enzima alfa-L-iduronidasa recombinante que se administra por vía intravenosa para reemplazar la enzima deficiente en la enfermedad para la que se desarrolló.
 
 El síndrome de Sanfilippo (mucopolisacaridosis tipo III) y esa enfermedad comparten la acumulación de heparán sulfato. Esto probablemente explica el puntaje alto del modelo.
 
@@ -120,11 +120,12 @@ Todas las publicaciones disponibles se refieren a otra mucopolisacaridosis (tipo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Situación regulatoria vigente en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según el conocimiento farmacológico general, la desmopresina actúa sobre el receptor V2 y libera el factor VIII y el factor de von Willebrand (VWF) desde los depósitos del endotelio. Por eso se usa como agente hemostático en trastornos hemorrágicos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Desmopressin (traducción no oficial): «El acetato de desmopresina aumenta los niveles plasmáticos de actividad del factor VIII en pacientes con hemofilia y enfermedad de von Willebrand tipo I. Los efectos antidiuréticos del acetato de desmopresina están mediados por la estimulación de los receptores de vasopresina 2 (V2), lo que aumenta la reabsorción de agua en el riñón y, por lo tanto, reduce la producción de orina. El acetato de desmopresina es una hormona de reemplazo de la hormona antidiurética en el tratamiento de la diabetes insípida central.» Texto original en inglés: "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), versión del 2022-09-28; consultado el 2026-11-19). Según el conocimiento farmacológico general, la desmopresina actúa sobre el receptor V2 y libera el factor VIII y el factor de von Willebrand (VWF) desde los depósitos del endotelio. Por eso se usa como agente hemostático en trastornos hemorrágicos.
 
 La protrombina (factor II) no se libera por esta vía, de modo que **no existe un fundamento mecanístico claro** para usar desmopresina en su deficiencia congénita. El puntaje del modelo es muy alto (0.9970), pero proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -139,13 +139,14 @@ La predicción solo cuenta con el puntaje del modelo, sin ensayos clínicos ni e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros están cancelados y no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
 
 <!-- review:end log -->
 

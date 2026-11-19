@@ -61,7 +61,7 @@ El registro sanitario colombiano asociado a este candidato corresponde a un prod
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del talco en los datos compilados para este informe. Además, el único registro sanitario local corresponde a clindamicina, un antibiótico, y no guarda relación evidente con el talco ni con la enfermedad trombótica.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Talc (traducción no oficial): «Se considera que el talco instilado en la cavidad pleural provoca una reacción inflamatoria. Esta reacción favorece la adherencia de la pleura visceral y la parietal para impedir la reacumulación de aire o líquido pleural.» Texto original en inglés: "Talc instilled into the pleural cavity is thought to result in an inflammatory reaction. This reaction promotes adherence of the visceral and parietal pleura to prevent reaccumulation of pleural air or fluid." ([DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a), versión del 2025-06-25; consultado el 2026-11-19). Además, el único registro sanitario local corresponde a clindamicina, un antibiótico, y no guarda relación evidente con el talco ni con la enfermedad trombótica.
 
 La literatura recuperada indica que el talco **causa** enfermedad trombótica y embólica, no que la trate. El talco inyectado por vía intravenosa (por ejemplo, en tabletas trituradas usadas por personas que consumen drogas) produce granulomatosis pulmonar, hipertensión pulmonar angiotrombótica y microembolización retiniana y cerebral. La dirección del efecto es dañina.
 
@@ -115,11 +115,12 @@ No existen ensayos clínicos y la literatura disponible muestra que el talco es 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "(cuyo registro está cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a) |
 
 <!-- review:end log -->
 

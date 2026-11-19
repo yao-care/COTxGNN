@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Imatinib inhibe las quinasas PDGFR, KIT y ABL. Los tumores de tipo fibrosarcoma, en particular el dermatofibrosarcoma protuberans (DFSP) con fusión COL1A1-PDGFB, dependen de la señalización PDGFB/PDGFR, lo que ofrece una justificación plausible a nivel de clase farmacológica. Actualmente no se dispone de datos detallados del mecanismo de acción en la información compilada, por lo que este razonamiento proviene de la literatura general sobre imatinib.
+Imatinib inhibe las quinasas PDGFR, KIT y ABL. Los tumores de tipo fibrosarcoma, en particular el dermatofibrosarcoma protuberans (DFSP) con fusión COL1A1-PDGFB, dependen de la señalización PDGFB/PDGFR, lo que ofrece una justificación plausible a nivel de clase farmacológica. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Imatinib (traducción no oficial): «El mesilato de imatinib es un inhibidor de la proteína tirosina cinasa que inhibe la tirosina cinasa BCR-ABL, la tirosina cinasa anómala constitutiva generada por la anomalía del cromosoma Filadelfia en la CML. El imatinib inhibe la proliferación e induce la apoptosis en líneas celulares BCR-ABL positivas, así como en células leucémicas frescas de leucemia mieloide crónica con cromosoma Filadelfia positivo.» Texto original en inglés: "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), versión del 2026-07-13; consultado el 2026-11-19).
 
 La relación con la indicación original es limitada: el registro colombiano solo menciona "IMATINIB" sin especificar enfermedades. No hay datos específicos de tumores cardíacos. El único documento citado es un comentario sobre la indicación aprobada de DFSP (un boletín farmacéutico que señala "evidencia no robusta"), no evidencia en tumores cardíacos.
 
@@ -158,12 +158,13 @@ Para fibrosarcoma cardíaco no hay ensayos clínicos y la única publicación ci
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, en Colombia el único registro de Glivec está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

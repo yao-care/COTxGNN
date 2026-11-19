@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **opsismodisplasia**, pero
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, evogliptina pertenece a la clase de los inhibidores de la DPP-4 (gliptinas), que prolongan la acción de las incretinas y mejoran el control de la glucosa. Mecanísticamente, su aplicación a la nueva indicación es solo especulativa.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Evogliptin es (traducción no oficial): «Inhibidor de la dipeptidil peptidasa IV» Texto original en inglés: "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL1779710 (evogliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1779710), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, evogliptina pertenece a la clase de los inhibidores de la DPP-4 (gliptinas), que prolongan la acción de las incretinas y mejoran el control de la glucosa. Mecanísticamente, su aplicación a la nueva indicación es solo especulativa.
 
 La opsismodisplasia es una displasia esquelética rara causada por mutaciones en el gen *INPPL1*, que afectan a SHIP2 y a la señalización de PI3K/insulina. El único vínculo posible con la inhibición de DPP-4 sería indirecto, a través del eje incretina/insulina. No se encontró respaldo mecanístico ni clínico directo.
 
@@ -122,12 +122,13 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro está cancelado, por lo que actualmente no hay producto vigente en el mercado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1779710 (evogliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1779710) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trombocitopenia por dest
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Benralizumab es un anticuerpo anti-IL-5Rα que depleta eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos (ADCC). Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe; la descripción anterior proviene del análisis mecanístico general del fármaco.
+Benralizumab es un anticuerpo anti-IL-5Rα que depleta eosinófilos y basófilos mediante citotoxicidad celular dependiente de anticuerpos (ADCC). Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Benralizumab (traducción no oficial): «El benralizumab es un anticuerpo monoclonal (IgG1, kappa) humanizado y afucosilado que se une directamente a la subunidad alfa del receptor de la interleucina-5 humana (IL-5Rα) con una constante de disociación de 11 pM. El receptor de la IL-5 se expresa en la superficie de los eosinófilos y los basófilos.» Texto original en inglés: "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), versión del 2026-05-13; consultado el 2026-11-19).
 
 Los datos compilados no respaldan una ruta mecanística clara entre la depleción de eosinófilos y la trombocitopenia inmune. Solo en casos raros de citopenias autoinmunes asociadas a eosinófilos podría existir alguna relevancia, y esto es especulativo.
 
@@ -127,12 +127,13 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registro cancelado) y la disponibilidad del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
 
 <!-- review:end log -->
 

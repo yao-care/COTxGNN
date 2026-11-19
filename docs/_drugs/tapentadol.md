@@ -60,7 +60,7 @@ La predicción se basa únicamente en el modelo computacional.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento farmacológico general, tapentadol es un agonista del receptor opioide mu y un inhibidor de la recaptación de noradrenalina. Su eficacia se ha establecido en dolor, y mecanísticamente podría relacionarse con la migraña mediante la modulación central del dolor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tapentadol (traducción no oficial): «El tapentadol es un analgésico sintético de acción central. Se desconoce el mecanismo de acción exacto. Aunque la relevancia clínica no está clara, los estudios preclínicos han demostrado que el tapentadol es un agonista del receptor opioide mu (MOR) y un inhibidor de la recaptación de noradrenalina (NRI).» Texto original en inglés: "Tapentadol is a centrally-acting synthetic analgesic. The exact mechanism of action is unknown. Although the clinical relevance is unclear, preclinical studies have shown that tapentadol is a mu-opioid receptor (MOR) agonist and a norepinephrine reuptake inhibitor (NRI)." ([DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d), versión del 2025-12-30; consultado el 2026-11-19). Según el conocimiento farmacológico general, tapentadol es un agonista del receptor opioide mu y un inhibidor de la recaptación de noradrenalina. Su eficacia se ha establecido en dolor, y mecanísticamente podría relacionarse con la migraña mediante la modulación central del dolor.
 
 Sin embargo, este vínculo es solo teórico. Los opioides generalmente **no se recomiendan** para la migraña por el riesgo de cefalea por sobreuso de medicación, cronificación y su menor eficacia frente a triptanes, gepantes y AINE. El puntaje alto de TxGNN (0.9967) es una predicción computacional que no cuenta con respaldo clínico.
 
@@ -142,12 +142,13 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros, de GRÜNENTHAL GMBH, están cancelados, por lo que actualmente no hay productos vigentes con este principio activo en los dat" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nucynta (tapentadol hydrochloride) prescribing information, Collegium Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80938c30-9fe3-4c7d-9d9c-5476638cfb2d) |
 
 <!-- review:end log -->
 

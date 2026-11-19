@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por su clase farmacológica, apomorfina es un agonista dopaminérgico no selectivo de la familia de receptores D1/D2.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Apomorphine (traducción no oficial): «ONAPGO es un agonista dopaminérgico no ergolínico con alta afinidad de unión in vitro por el receptor dopaminérgico D4 y afinidad moderada por los receptores dopaminérgicos D2, D3 y D5, y por los receptores adrenérgicos α1D, α2B y α2C. Se desconoce el mecanismo de acción preciso de ONAPGO como tratamiento de la enfermedad de Parkinson, aunque se cree que se debe a la estimulación de los receptores dopaminérgicos postsinápticos de tipo D2 en el núcleo caudado-putamen del cerebro.» Texto original en inglés: "ONAPGO is a non-ergoline dopamine agonist with high in vitro binding affinity for the dopamine D4 receptor, and moderate affinity for the dopamine D2, D3, and D5, and adrenergic α1D, α2B, α2C receptors. The precise mechanism of action of ONAPGO as a treatment for Parkinson's disease is unknown, although it is believed to be due to stimulation of post-synaptic dopamine D2-type receptors within the caudate-putamen in the brain." ([DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a), versión del 2026-10-05; consultado el 2026-11-19). Por su clase farmacológica, apomorfina es un agonista dopaminérgico no selectivo de la familia de receptores D1/D2.
 
 No se identifica un vínculo mecanístico plausible entre la agonía dopaminérgica y esta malformación congénita rara del neurodesarrollo. El puntaje elevado (0,9975) es solo una predicción del modelo, sin respaldo de estudios reales, por lo que la razonabilidad de esta predicción es baja con los datos disponibles.
 
@@ -91,6 +91,19 @@ La predicción se basa únicamente en el puntaje del modelo (0,9975), sin ensayo
 - Datos del mecanismo de acción de la apomorfina.
 - Información de seguridad del prospecto aprobado por INVIMA (advertencias y contraindicaciones).
 - Evaluación de la viabilidad de la vía de administración para la población con esta enfermedad rara.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onapgo (apomorphine hydrochloride) prescribing information, MDD US Operations, LLC, a subsidiary of Supernus Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f3552b6e-5ae7-4993-aa1a-e399c4a7080a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

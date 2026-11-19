@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, metoprolol es un bloqueador selectivo de receptores beta-1 que reduce la presión arterial, la frecuencia cardíaca y la liberación de renina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metoprolol (traducción no oficial): «El metoprolol es un agente bloqueante de los receptores adrenérgicos beta 1 -selectivo (cardioselectivo). Sin embargo, este efecto preferente no es absoluto y, a concentraciones plasmáticas más altas, el metoprolol también inhibe los adrenorreceptores beta 2, ubicados principalmente en la musculatura bronquial y vascular.» Texto original en inglés: "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a), versión del 2026-03-03; consultado el 2026-11-19). Según la información conocida, metoprolol es un bloqueador selectivo de receptores beta-1 que reduce la presión arterial, la frecuencia cardíaca y la liberación de renina.
 
 Mecanísticamente, la reducción de renina y de la presión arterial podría ser relevante en hipertensión grave con afectación renal. Sin embargo, esto es una hipótesis: no existen ensayos ni literatura sobre esta indicación específica, y los betabloqueantes no son tratamiento de primera línea en la nefropatía hipertensiva.
 
@@ -119,11 +119,12 @@ La predicción para enfermedad renal hipertensiva maligna no tiene ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
 
 <!-- review:end log -->
 

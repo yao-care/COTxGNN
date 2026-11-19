@@ -54,7 +54,7 @@ Clorambucilo es un agente alquilante del ADN (mostaza nitrogenada) con uso hist�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone actualmente de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el clorambucilo es una mostaza nitrogenada que alquila el ADN e impide la replicación de células en proliferación, lo que lo hace activo en neoplasias linfoides.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Chlorambucil (traducción no oficial): «El clorambucilo, un derivado aromático de la mostaza nitrogenada, es un agente alquilante. El clorambucilo interfiere en la replicación del ADN e induce la apoptosis celular mediante la acumulación de p53 citosólica y la posterior activación de Bax, un promotor de la apoptosis.» Texto original en inglés: "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), versión del 2025-01-08; consultado el 2026-11-19). Según la información conocida, el clorambucilo es una mostaza nitrogenada que alquila el ADN e impide la replicación de células en proliferación, lo que lo hace activo en neoplasias linfoides.
 
 Este subtipo (CLL/SLL con genes IGHV sin mutar, de origen pregerminal) forma parte de la categoría más amplia de la leucemia linfocítica crónica. Por proximidad biológica, la actividad del fármaco es plausible por extensión. El puntaje elevado probablemente refleja esa cercanía entre enfermedades.
 
@@ -108,6 +108,19 @@ Además, los tratamientos modernos han desplazado al fármaco en la enfermedad c
 - Datos del mecanismo de acción detallados
 - Advertencias y contraindicaciones del prospecto aprobado en Colombia
 - Plan de monitoreo hematológico y de seguridad, incluido el riesgo de segundas neoplasias
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

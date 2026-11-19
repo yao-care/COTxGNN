@@ -64,7 +64,7 @@ Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, fludarabina es un análogo de nucleósidos de purina con efecto citotóxico y linfodepletor. Su uso en neoplasias linfoides (como la leucemia linfocítica crónica y los linfomas indolentes) está bien establecido en la práctica clínica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Fludarabine (traducción no oficial): «El fosfato de fludarabina se convierte rápidamente en 2-fluoro-ara-ATP activo, que parece inhibir la síntesis de ADN mediante la inhibición de la ADN polimerasa alfa, la ribonucleótido reductasa y la ADN primasa.» Texto original en inglés: "Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase." ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), versión del 2026-09-20; consultado el 2026-11-19). Según lo conocido, fludarabina es un análogo de nucleósidos de purina con efecto citotóxico y linfodepletor. Su uso en neoplasias linfoides (como la leucemia linfocítica crónica y los linfomas indolentes) está bien establecido en la práctica clínica.
 
 El mieloma múltiple y la leucemia linfocítica crónica son cánceres de linfocitos B estrechamente relacionados. La relación más sólida con el mieloma no es la de un tratamiento directo: fludarabina forma parte del acondicionamiento de trasplante alogénico (con efecto injerto contra mieloma) y de la linfodepleción, junto con ciclofosfamida, previa a la terapia CAR-T anti-BCMA. Existen además datos preclínicos de actividad antimieloma directa in vitro e in vivo (PMID 17976186), aunque su beneficio clínico proviene sobre todo de hacer posible la terapia celular.
 
@@ -163,12 +163,13 @@ Existen ensayos de Fase 3 que incorporan fludarabina en la linfodepleción para 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ La predicción es, por ahora, una hipótesis computacional sin respaldo clínico
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la norepinefrina es una catecolamina que activa los receptores adrenérgicos alfa y beta-1, con efecto vasopresor sistémico.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Norepinephrine (traducción no oficial): «La norepinefrina es un vasoconstrictor periférico (acción alfaadrenérgica) y un estimulante inotrópico del corazón y dilatador de las arterias coronarias (acción betaadrenérgica).» Texto original en inglés: "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), versión del 2026-10-27; consultado el 2026-11-19). Según la información conocida, la norepinefrina es una catecolamina que activa los receptores adrenérgicos alfa y beta-1, con efecto vasopresor sistémico.
 
 La literatura recuperada indica que la señalización adrenérgica y neuroinmune participa en el tono de la vía aérea, la inflamación y la fisiopatología del asma y la EPOC (por ejemplo, PMID 29696025, 41601146 y 21271508). Esto aporta un vínculo biológico plausible con la enfermedad pulmonar obstructiva.
 
@@ -140,11 +140,12 @@ La predicción se apoya solo en el puntaje del modelo y en literatura mecanísti
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
 
 <!-- review:end log -->
 

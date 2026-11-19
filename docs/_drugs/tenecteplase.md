@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, tenecteplasa es un activador del plasminógeno tisular específico de la fibrina que disuelve los trombos en arterias coronarias ocluidas, por lo que mecanísticamente podría ser aplicable al infarto de miocardio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tenecteplase (traducción no oficial): «El tenecteplase es una forma modificada del activador tisular del plasminógeno (tPA) humano que se une a la fibrina y convierte el plasminógeno en plasmina. En presencia de fibrina, los estudios in vitro demuestran que la conversión de plasminógeno en plasmina mediada por tenecteplase aumenta en relación con su conversión en ausencia de fibrina.» Texto original en inglés: "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), versión del 2025-12-15; consultado el 2026-11-19). Según la información conocida, tenecteplasa es un activador del plasminógeno tisular específico de la fibrina que disuelve los trombos en arterias coronarias ocluidas, por lo que mecanísticamente podría ser aplicable al infarto de miocardio.
 
 El infarto posteroinferior es un subtipo anatómico del infarto de miocardio. El uso establecido de tenecteplasa en infarto con elevación del ST es general y no específico de un subtipo. Por ello, esta predicción debe entenderse como un subconjunto de una indicación ya existente, y no como un reposicionamiento realmente novedoso.
 
@@ -133,12 +133,13 @@ No hay ensayos clínicos ni literatura específica para infarto de miocardio pos
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la indicación aprobada de tenecteplasa en el registro sanitario y su situación regulatoria actual (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
 
 <!-- review:end log -->
 

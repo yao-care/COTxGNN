@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **Síndrome de Ohdo y v
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la paroxetina es un ISRS usado clásicamente en trastornos depresivos y de ansiedad. No obstante, el registro sanitario colombiano no detalla la indicación aprobada.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Paroxetine (traducción no oficial): «Se desconoce el mecanismo de acción de PAXIL CR en el tratamiento del trastorno depresivo mayor (TDM), el trastorno de pánico (TP), el trastorno de ansiedad social (TAS) y el trastorno disfórico premenstrual (TDPM), pero se presume que está relacionado con la potenciación de la actividad serotoninérgica en el sistema nervioso central como resultado de la inhibición de la recaptación neuronal de serotonina (5-HT).» Texto original en inglés: "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), versión del 2026-09-30; consultado el 2026-11-19). Según la información conocida, la paroxetina es un ISRS usado clásicamente en trastornos depresivos y de ansiedad. No obstante, el registro sanitario colombiano no detalla la indicación aprobada.
 
 El síndrome de Ohdo y sus variantes (por ejemplo, el síndrome de Say-Barber-Biesecker-Young-Simpson, asociado a variantes del gen KAT6B) son trastornos congénitos raros que cursan con discapacidad intelectual, blefarofimosis y anomalías del desarrollo. Su base es epigenética y del desarrollo, y no se identifica una vía plausible que conecte la actividad serotoninérgica de un ISRS con esa causa.
 
@@ -104,12 +104,13 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->
 

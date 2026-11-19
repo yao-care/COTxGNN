@@ -56,7 +56,7 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta predicció
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, el flurbiprofeno es un inhibidor no selectivo de la COX-1 y la COX-2, que reduce la síntesis de prostaglandinas y, con ello, la inflamación y el dolor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Flurbiprofen (traducción no oficial): «El flurbiprofeno tiene propiedades analgésicas, antiinflamatorias y antipiréticas. El mecanismo de acción del flurbiprofeno, al igual que el de otros AINE, no se conoce por completo, pero implica la inhibición de la ciclooxigenasa (COX-1 y COX-2).» Texto original en inglés: "Flurbiprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of flurbiprofen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763), versión del 2026-10-05; consultado el 2026-11-19). Según la información conocida, el flurbiprofeno es un inhibidor no selectivo de la COX-1 y la COX-2, que reduce la síntesis de prostaglandinas y, con ello, la inflamación y el dolor.
 
 La displasia acromesomélica tipo Hunter-Thompson es una displasia esquelética genética, asociada a mutaciones en el gen *CDMP1/GDF5*. Su origen no guarda una relación farmacológica conocida con la inhibición de la COX. El puntaje alto del modelo (0,9999) probablemente refleja cercanía en las relaciones de datos del modelo y no una base farmacológica.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínc
 - Datos de mecanismo de acción que justifiquen una relación biológica entre la inhibición de la COX y la vía de *GDF5*
 - Estudios preclínicos que evalúen el efecto del flurbiprofeno en modelos de esta displasia
 - Revisión del prospecto aprobado para completar la información de advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

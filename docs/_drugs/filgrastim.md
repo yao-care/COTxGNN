@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno primario de
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, filgrastim es un análogo del G-CSF que se une al receptor de G-CSF y estimula la producción, maduración y función de los neutrófilos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Filgrastim (traducción no oficial): «Los factores estimulantes de colonias son glucoproteínas que actúan sobre las células hematopoyéticas uniéndose a receptores específicos de la superficie celular y estimulando la proliferación, el compromiso de diferenciación y cierta activación funcional de las células terminales. El G-CSF endógeno es un factor estimulante de colonias específico de linaje que producen los monocitos, los fibroblastos y las células endoteliales.» Texto original en inglés: "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), versión del 2026-11-10; consultado el 2026-11-19). Según la información conocida, filgrastim es un análogo del G-CSF que se une al receptor de G-CSF y estimula la producción, maduración y función de los neutrófilos.
 
 Los trastornos de liberación plaquetaria primaria son defectos funcionales de las plaquetas (alteración de la secreción de gránulos), sin una relación evidente con la señalización del G-CSF. El puntaje alto de TxGNN proviene de relaciones en la red de conocimiento y no de un respaldo mecanístico o clínico.
 
@@ -126,12 +126,13 @@ La predicción se basa solo en el modelo (L5), sin ensayos ni literatura, y no e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la disponibilidad de productos con registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
 
 <!-- review:end log -->
 

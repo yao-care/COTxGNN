@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, el adapaleno es un retinoide tópico que se une selectivamente a los receptores RAR-beta y RAR-gamma, y modula la diferenciación de los queratinocitos y la inflamación cutánea.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Adapalene (traducción no oficial): «El adapaleno se une a receptores nucleares específicos del ácido retinoico, pero no se une a la proteína receptora citosólica. Los estudios de perfil bioquímico y farmacológico han demostrado que el adapaleno es un modulador de la diferenciación celular, la queratinización y los procesos inflamatorios.» Texto original en inglés: "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), versión del 2023-12-27; consultado el 2026-11-19). Según la información conocida, el adapaleno es un retinoide tópico que se une selectivamente a los receptores RAR-beta y RAR-gamma, y modula la diferenciación de los queratinocitos y la inflamación cutánea.
 
 La relación con la nueva indicación es débil. El zinc plasmático elevado es un hallazgo sistémico (por ejemplo, por suplementación excesiva, hemoconcentración o alteraciones renales o del transporte de zinc) y no una enfermedad con una vía evidente que responda a retinoides. Una posible conexión indirecta, como la interacción entre el retinol, su proteína transportadora y el zinc, es especulativa y no tiene respaldo en los datos disponibles.
 
@@ -115,11 +115,12 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
 
 <!-- review:end log -->
 

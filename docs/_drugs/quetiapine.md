@@ -60,7 +60,7 @@ Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofi
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información farmacológica compilada, quetiapina actúa como antagonista de varios receptores: dopaminérgico D2, serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), histaminérgico H1, y también interactúa con el transportador de noradrenalina (NET). Su uso clínico conocido incluye esquizofrenia, trastorno bipolar y depresión mayor.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Quetiapine (traducción no oficial): «El mecanismo de acción de la quetiapina en las indicaciones enumeradas no está claro. Sin embargo, la eficacia de la quetiapina en estas indicaciones podría estar mediada por una combinación de antagonismo de los receptores de dopamina de tipo 2 (D 2 ) y de serotonina de tipo 2A (5HT 2A ).» Texto original en inglés: "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), versión del 2026-10-08; consultado el 2026-11-19). Según la información farmacológica compilada, quetiapina actúa como antagonista de varios receptores: dopaminérgico D2, serotoninérgicos (5-HT1A, 5-HT1D, 5-HT1E, 5-HT1F, 5-HT2A), histaminérgico H1, y también interactúa con el transportador de noradrenalina (NET). Su uso clínico conocido incluye esquizofrenia, trastorno bipolar y depresión mayor.
 
 La tricotilomanía es un trastorno de conducta repetitiva centrada en el cuerpo (arrancarse el cabello), dentro del espectro obsesivo-compulsivo. Los antipsicóticos atípicos con antagonismo 5-HT2A y D2 se emplean como tratamiento de aumento en condiciones de este espectro, lo que da un vínculo mecanístico plausible, aunque no demostrado.
 
@@ -141,12 +141,13 @@ La evidencia disponible para tricotilomanía se limita a reportes de caso y revi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

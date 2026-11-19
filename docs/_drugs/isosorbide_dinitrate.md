@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero **no ha
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico y relaja el músculo liso vascular. Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para hydralazine hydrochloride and isosorbide dinitrate (combinación que contiene Isosorbide Dinitrate) (traducción no oficial): «El dinitrato de isosorbida es un vasodilatador que actúa tanto sobre las arterias como sobre las venas.» Texto original en inglés: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), versión del 2025-11-30; consultado el 2026-11-19). Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico y relaja el músculo liso vascular. Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo.
 
 La única hipótesis que vincula el fármaco con la alopecia es especulativa: la vasodilación mediada por óxido nítrico podría mejorar la perfusión del cuero cabelludo. Esta inferencia no tiene respaldo en estudios clínicos ni en literatura recuperada.
 
@@ -96,6 +96,19 @@ No existe ningún ensayo clínico ni publicación que estudie el dinitrato de is
 - Estudios preclínicos o exploratorios que evalúen la perfusión folicular y el efecto del fármaco en alopecia.
 - Evaluar la viabilidad de una vía de administración adecuada, ya que la única forma registrada es sublingual.
 - Considerar otras indicaciones predichas en los mismos datos que cuentan con más estudios, como la hipertensión pulmonar y la enfermedad vascular, antes de priorizar la alopecia.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

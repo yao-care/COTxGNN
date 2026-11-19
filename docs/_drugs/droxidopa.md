@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **prionopatía variable
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, droxidopa es un aminoácido sintético precursor de la noradrenalina, que se convierte en esta por acción de la enzima descarboxilasa de L-aminoácidos aromáticos. Se usa en la hipotensión ortostática neurogénica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Droxidopa (traducción no oficial): «Se desconoce el mecanismo de acción exacto de NORTHERA en el tratamiento de la hipotensión ortostática neurogénica. NORTHERA es un análogo sintético de aminoácido que se metaboliza directamente a norepinefrina por acción de la dopa-descarboxilasa, la cual está ampliamente distribuida por todo el organismo.» Texto original en inglés: "The exact mechanism of action of NORTHERA in the treatment of neurogenic orthostatic hypotension is unknown. NORTHERA is a synthetic amino acid analog that is directly metabolized to norepinephrine by dopa­-decarboxylase, which is extensively distributed throughout the body." ([DailyMed: Northera (droxidopa) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2179f02c-48d7-48eb-8007-5ae43d8d16bc), versión del 2019-07-01; consultado el 2026-11-19). Según la información conocida, droxidopa es un aminoácido sintético precursor de la noradrenalina, que se convierte en esta por acción de la enzima descarboxilasa de L-aminoácidos aromáticos. Se usa en la hipotensión ortostática neurogénica.
 
 La VPSPr es una enfermedad priónica esporádica y rara, caracterizada por la acumulación de proteína priónica mal plegada y por neurodegeneración. La acción noradrenérgica de droxidopa no actúa sobre el mal plegamiento, la propagación del prión ni la pérdida neuronal. **Con los datos disponibles no se sustenta un vínculo mecanístico directo.**
 
@@ -121,11 +121,12 @@ La predicción se apoya solo en el modelo (L5), sin ensayos ni publicaciones, y 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Northera (droxidopa) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2179f02c-48d7-48eb-8007-5ae43d8d16bc) |
 
 <!-- review:end log -->
 

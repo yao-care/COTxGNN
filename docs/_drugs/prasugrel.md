@@ -60,7 +60,7 @@ La predicción con mayor respaldo indirecto entre las 10 candidatas es **migrañ
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, prasugrel es una tienopiridina que inhibe el receptor plaquetario P2Y12 y, con ello, la agregación plaquetaria. Su eficacia se ha establecido en el contexto cardiovascular, y mecanísticamente podría ser aplicable a la hipertensión pulmonar.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Prasugrel (traducción no oficial): «El prasugrel es un inhibidor de la activación y la agregación plaquetarias mediante la unión irreversible de su metabolito activo a la clase P2Y 12 de receptores de ADP en las plaquetas.» Texto original en inglés: "Prasugrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e), versión del 2022-09-07; consultado el 2026-11-19). Según la información conocida, prasugrel es una tienopiridina que inhibe el receptor plaquetario P2Y12 y, con ello, la agregación plaquetaria. Su eficacia se ha establecido en el contexto cardiovascular, y mecanísticamente podría ser aplicable a la hipertensión pulmonar.
 
 La relación con la nueva indicación es teórica: la activación plaquetaria y la trombosis in situ participan en el remodelado vascular pulmonar. Sin embargo, no hay datos directos que respalden el uso de prasugrel en esta enfermedad.
 
@@ -130,12 +130,13 @@ Para hipertensión pulmonar solo existe una predicción del modelo (L5), sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registro sanitario vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación del registro cancelado (EFFIENT® 10 MG) y la disponibilidad real del fármaco en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
 
 <!-- review:end log -->
 

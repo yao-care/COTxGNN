@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, la isoniazida es un fármaco antituberculoso con actividad bactericida contra *Mycobacterium tuberculosis*, y su eficacia en tuberculosis está bien establecida.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Isoniazid (traducción no oficial): «La isoniazida inhibe la síntesis de los ácidos micólicos, un componente esencial de la pared celular bacteriana. En concentraciones terapéuticas, la isoniazida es bactericida contra los microorganismos de Mycobacterium tuberculosis intracelulares y extracelulares en crecimiento activo.» Texto original en inglés: "Isoniazid inhibits the synthesis of mycoloic acids, an essential component of the bacterial cell wall. At therapeutic levels isoniazid is bactericidal against actively growing intracellular and extracellular Mycobacterium tuberculosis organisms." ([DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b), versión del 2026-09-04; consultado el 2026-11-19). Según la información conocida, la isoniazida es un fármaco antituberculoso con actividad bactericida contra *Mycobacterium tuberculosis*, y su eficacia en tuberculosis está bien establecida.
 
 El vínculo con la conjuntivitis es indirecto y limitado a una etiología específica: la queratoconjuntivitis flictenular, una reacción de hipersensibilidad a antígenos tuberculosos (y otros antígenos microbianos), y la rara tuberculosis conjuntival primaria. En estos casos, la isoniazida trata o previene la infección micobacteriana subyacente, no actúa directamente sobre la inflamación conjuntival.
 
@@ -142,12 +142,13 @@ La predicción se basa solo en el modelo (L4), sin ensayos clínicos, y la liter
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, en Colombia no hay registros vigentes de isoniazida de componente único" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
 
 <!-- review:end log -->
 

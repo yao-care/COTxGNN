@@ -56,7 +56,7 @@ La predicción se basa únicamente en el puntaje del modelo y, según el anális
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, el verapamilo es un antiarrítmico de clase IV que bloquea los canales de calcio tipo L y enlentece la conducción del nodo auriculoventricular. En Colombia se registró en combinación con trandolapril (un inhibidor de la ECA) como tratamiento antihipertensivo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Verapamil (traducción no oficial): «Angina: El mecanismo de acción preciso del clorhidrato de verapamilo como agente antianginoso aún no se ha determinado por completo, pero incluye los dos mecanismos siguientes: 1. Relajación y prevención del espasmo de las arterias coronarias: El clorhidrato de verapamilo dilata las arterias coronarias principales y las arteriolas coronarias, tanto en las regiones normales como en las isquémicas, y es un potente inhibidor del espasmo de las arterias coronarias, ya sea espontáneo o inducido por ergonovina.» Texto original en inglés: "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), versión del 2026-10-30; consultado el 2026-11-19). Según la información conocida, el verapamilo es un antiarrítmico de clase IV que bloquea los canales de calcio tipo L y enlentece la conducción del nodo auriculoventricular. En Colombia se registró en combinación con trandolapril (un inhibidor de la ECA) como tratamiento antihipertensivo.
 
 La relación con la nueva indicación es débil. El bloqueo de rama es un defecto de conducción del sistema His-Purkinje que depende en gran medida de los canales de sodio, y enlentecer la conducción podría empeorarlo. Además, la etiqueta de la enfermedad está marcada como "obsoleta", lo que sugiere un artefacto de la ontología más que una indicación clínica real.
 
@@ -132,13 +132,14 @@ La predicción principal carece de ensayos clínicos y literatura, tiene nivel d
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario está cancelado, por lo que actualmente no hay producto vigente con verapamilo en este registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el producto registrado en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el único registro identificado está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
 
 <!-- review:end log -->
 

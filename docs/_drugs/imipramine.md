@@ -60,7 +60,7 @@ sin **ensayos clínicos** registrados y con **20 publicaciones** asociadas, la m
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la imipramina inhibe la recaptación de noradrenalina y serotonina. Este mecanismo es plausible para el TDAH, ya que la potenciación noradrenérgica es la base de tratamientos no estimulantes como la atomoxetina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Imipramine (traducción no oficial): «El mecanismo de acción del clorhidrato de imipramina no se conoce con certeza. Sin embargo, no actúa principalmente mediante la estimulación del sistema nervioso central. Se postula que el efecto clínico se debe a la potenciación de las sinapsis adrenérgicas mediante el bloqueo de la recaptación de noradrenalina en las terminaciones nerviosas.» Texto original en inglés: "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), versión del 2026-11-04; consultado el 2026-11-19). Según la información conocida, la imipramina inhibe la recaptación de noradrenalina y serotonina. Este mecanismo es plausible para el TDAH, ya que la potenciación noradrenérgica es la base de tratamientos no estimulantes como la atomoxetina.
 
 La literatura incluye un reporte específico ("Imipramine for attention deficit disorder", 1983) y revisiones generales de tratamiento del TDAH que mencionan a la imipramina y la desipramina como alternativas cuando los estimulantes fallan. Sin embargo, los antidepresivos tricíclicos se consideran de segunda línea por preocupaciones de seguridad cardiovascular y anticolinérgica.
 
@@ -141,12 +141,13 @@ La evidencia es de nivel L3, sin ensayos clínicos registrados y con estudios de
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 2 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
 
 <!-- review:end log -->
 

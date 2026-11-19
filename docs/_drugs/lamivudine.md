@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento general, lamivudina es un inhibidor nucleósido de la transcriptasa inversa (NRTI) con actividad contra la transcriptasa inversa del VIH, y su eficacia en la infección por VIH está establecida como parte de regímenes combinados.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lamivudine (traducción no oficial): «La lamivudina es un agente antirretroviral. […] La lamivudina es un análogo nucleosídico sintético. A nivel intracelular, la lamivudina se fosforila a su metabolito activo 5′-trifosfato, el trifosfato de lamivudina (3TC-TP). El principal modo de acción del 3TC-TP es la inhibición de la transcriptasa inversa (RT) del VIH-1 mediante la terminación de la cadena de ADN tras la incorporación del análogo nucleotídico.» Texto original en inglés: "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), versión del 2024-08-15; consultado el 2026-11-19). Según el conocimiento general, lamivudina es un inhibidor nucleósido de la transcriptasa inversa (NRTI) con actividad contra la transcriptasa inversa del VIH, y su eficacia en la infección por VIH está establecida como parte de regímenes combinados.
 
 El SIV es un lentivirus muy cercano al VIH y posee una transcriptasa inversa homóloga, por lo que la actividad de lamivudina es mecanísticamente plausible. Los estudios en macacos describen la mutación de resistencia M184V en la transcriptasa inversa del SIV (la mutación clásica de resistencia a lamivudina) y muestran supresión viral con regímenes antirretrovirales combinados.
 
@@ -144,13 +144,14 @@ La predicción se apoya únicamente en estudios preclínicos en macacos, sin ens
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) si se considerara cualquier uso en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, lamivudina no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

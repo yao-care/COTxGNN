@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero actualment
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, mebendazol es un antihelmíntico benzimidazólico que se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Su eficacia en infecciones parasitarias intestinales es conocida.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mebendazole (traducción no oficial): «El mebendazol, un bencimidazol, es un antihelmíntico. […] El mebendazol interfiere con la formación de tubulina celular en el helminto y causa cambios degenerativos ultraestructurales en su intestino. Como resultado, se alteran su captación de glucosa y sus funciones digestivas y reproductivas, lo que conduce a la inmovilización, la inhibición de la producción de huevos y la muerte del helminto.» Texto original en inglés: "Mebendazole, a benzimidazole, is an anthelmintic. […] Mebendazole interferes with cellular tubulin formation in the helminth and causes ultrastructural degenerative changes in its intestine. As a result, its glucose uptake and the digestive and reproductive functions are disrupted, leading to immobilization, inhibition of egg production and death of the helminth." ([DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f), versión del 2021-10-05; consultado el 2026-11-19). Según la información conocida, mebendazol es un antihelmíntico benzimidazólico que se une a la beta-tubulina del parásito e inhibe la polimerización de los microtúbulos. Su eficacia en infecciones parasitarias intestinales es conocida.
 
 El acné vulgar depende de la producción excesiva de sebo, la hiperqueratinización folicular, la colonización por *Cutibacterium acnes* y la inflamación. No se identificó un vínculo mecanístico creíble con la alteración de los microtúbulos. Un posible efecto antiproliferativo o antiinflamatorio sobre sebocitos o queratinocitos es puramente especulativo.
 
@@ -111,11 +111,12 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos y sin
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vermox (mebendazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a720c424-517a-461b-8e13-6c37caf8aa3f) |
 
 <!-- review:end log -->
 

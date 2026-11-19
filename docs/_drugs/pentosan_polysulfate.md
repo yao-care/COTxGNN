@@ -60,7 +60,7 @@ La predicción se basa únicamente en el modelo y, desde el punto de vista farma
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, el pentosano polisulfato es un polisacárido sulfatado semisintético con actividad anticoagulante similar a la heparina y una débil actividad antitrombótica. Puede interferir con la coagulación y con la función plaquetaria.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pentosan Polysulfate (traducción no oficial): «Se desconoce el mecanismo de acción del pentosano polisulfato sódico en la cistitis intersticial.» Texto original en inglés: "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), versión del 2024-09-18; consultado el 2026-11-19). Según la información conocida, el pentosano polisulfato es un polisacárido sulfatado semisintético con actividad anticoagulante similar a la heparina y una débil actividad antitrombótica. Puede interferir con la coagulación y con la función plaquetaria.
 
 En un trastorno de liberación (secreción) plaquetaria, el problema de fondo es que las plaquetas no funcionan adecuadamente y el paciente tiene tendencia al sangrado. Un fármaco que interfiere con la coagulación y la función plaquetaria actúa en sentido contrario a lo que se necesitaría, por lo que no se identificó un vínculo mecanístico terapéutico plausible.
 
@@ -149,12 +149,13 @@ La predicción se apoya solo en el modelo (L5), sin ensayos clínicos ni literat
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

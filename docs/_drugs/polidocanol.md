@@ -66,7 +66,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento establecido en la literatura, polidocanol es un esclerosante de tipo detergente que daña el endotelio vascular, provocando trombosis y fibrosis del vaso en el que se inyecta.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Polidocanol (traducción no oficial): «El principio activo de Asclera es el polidocanol. El polidocanol es un agente esclerosante que daña localmente el endotelio de los vasos sanguíneos. Cuando se inyecta por vía intravenosa, el polidocanol induce daño endotelial. A continuación, las plaquetas se agregan en el sitio del daño y se adhieren a la pared venosa.» Texto original en inglés: "The active ingredient of Asclera is polidocanol. Polidocanol is a sclerosing agent that locally damages the endothelium of blood vessels. When injected intravenously, polidocanol induces endothelial damage. Platelets then aggregate at the site of damage and attach to the venous wall." ([DailyMed: Asclera (polidocanol) prescribing information, Methapharm, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb1f342b-5352-4059-a0b2-e60fd652fd28), versión del 2025-07-16; consultado el 2026-11-19). Según el conocimiento establecido en la literatura, polidocanol es un esclerosante de tipo detergente que daña el endotelio vascular, provocando trombosis y fibrosis del vaso en el que se inyecta.
 
 La escleroterapia endoscópica de várices esofágicas aplica directamente este mecanismo para obliterar las várices que sangran. Por ello, la predicción del modelo es mecanísticamente coherente. Cabe señalar que no se trata de una señal novedosa de reposicionamiento: es un uso clínico ya establecido (incluido el uso fuera de indicación en algunas regiones) y descrito en publicaciones desde la década de 1980.
 
@@ -152,7 +152,7 @@ La escleroterapia con polidocanol para várices esofágicas con sangrado tiene r
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -160,6 +160,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con b" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(ambos registros están cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Asclera (polidocanol) prescribing information, Methapharm, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb1f342b-5352-4059-a0b2-e60fd652fd28) |
 
 <!-- review:end log -->
 

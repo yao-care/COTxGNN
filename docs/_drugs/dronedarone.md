@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser útil para **trastorno de accidente cere
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Según la información conocida, la dronedarona es un antiarrítmico que bloquea varios canales iónicos cardíacos y reduce la frecuencia y el ritmo en la fibrilación auricular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dronedarone (traducción no oficial): «Se desconoce el mecanismo de acción de dronedarona. Dronedarona tiene propiedades antiarrítmicas pertenecientes a las cuatro clases de Vaughan-Williams, pero se desconoce la contribución de cada una de estas actividades al efecto clínico.» Texto original en inglés: "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), versión del 2026-01-27; consultado el 2026-11-19). Según la información conocida, la dronedarona es un antiarrítmico que bloquea varios canales iónicos cardíacos y reduce la frecuencia y el ritmo en la fibrilación auricular.
 
 La fibrilación auricular es una causa importante de ictus cardioembólico. Por ello, controlar el ritmo podría reducir de forma indirecta el riesgo de ictus. Además, se ha descrito que la dronedarona tiene efectos anticoagulantes y antiplaquetarios independientes de su acción antiarrítmica (PMID 28992468), y una revisión sobre protección frente a la lesión por isquemia/reperfusión en corazón y cerebro (PMID 22366819).
 
@@ -110,11 +110,12 @@ El puntaje del modelo es alto, pero ningún estudio evalúa la dronedarona direc
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclaración de la situación regulatoria local (registro cancelado)" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

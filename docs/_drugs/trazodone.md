@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la literatura revisada, trazodona es un antagonista y recaptador de serotonina (antagonismo 5-HT2A/2C y débil inhibición del transportador SERT). Su metabolito activo, la m-clorofenilpiperazina (m-CPP), actúa sobre vías serotoninérgicas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trazodone (traducción no oficial): «El mecanismo de la acción antidepresiva de la trazodona no se comprende por completo, pero se cree que está relacionado con su potenciación de la actividad serotoninérgica en el SNC. La trazodona es a la vez un inhibidor selectivo de la recaptación de serotonina (ISRS) y un antagonista del receptor 5HT2, y se desconoce el resultado neto de esta acción sobre la transmisión serotoninérgica y su papel en el efecto antidepresivo de la trazodona.» Texto original en inglés: "The mechanism of trazodone’s antidepressant action is not fully understood, but is thought to be related to its enhancement of serotonergic activity in the CNS. Trazodone is both a selective serotonin reuptake inhibitor (SSRI) and a 5HT2 receptor antagonist and the net result of this action on serotonergic transmission and its role in trazodone’s antidepressant effect is unknown." ([DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768), versión del 2026-11-13; consultado el 2026-11-19). Según la literatura revisada, trazodona es un antagonista y recaptador de serotonina (antagonismo 5-HT2A/2C y débil inhibición del transportador SERT). Su metabolito activo, la m-clorofenilpiperazina (m-CPP), actúa sobre vías serotoninérgicas.
 
 La serotonina tiene un papel central en la fisiopatología del TOC, y los inhibidores de la recaptación de serotonina son el tratamiento farmacológico de referencia. Por ello, la predicción es biológicamente plausible: un fármaco con actividad serotoninérgica, usado en depresión, podría aplicarse a un trastorno que responde a esa misma vía.
 
@@ -151,13 +151,14 @@ La plausibilidad serotoninérgica es razonable, pero la evidencia clínica es an
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "con registros sanitarios que hoy están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trazodone hydrochloride prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e861818-6e7b-fe6d-e063-6294a90a7768) |
 
 <!-- review:end log -->
 

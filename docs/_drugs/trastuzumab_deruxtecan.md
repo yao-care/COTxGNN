@@ -60,7 +60,7 @@ La predicción se basa únicamente en el modelo computacional.
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, trastuzumab deruxtecan es un conjugado anticuerpo-fármaco: la parte de anticuerpo (trastuzumab) se dirige a HER2 y la carga útil (deruxtecan) inhibe la topoisomerasa I, lo que produce citotoxicidad en células tumorales.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trastuzumab Deruxtecan (traducción no oficial): «El fam-trastuzumab deruxtecán-nxki es un conjugado anticuerpo-fármaco dirigido contra HER2. El anticuerpo es una IgG1 anti-HER2 humanizada. La molécula pequeña, DXd, es un inhibidor de la topoisomerasa I unido al anticuerpo mediante un conector escindible.» Texto original en inglés: "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), versión del 2026-05-15; consultado el 2026-11-19). Según la información conocida, trastuzumab deruxtecan es un conjugado anticuerpo-fármaco: la parte de anticuerpo (trastuzumab) se dirige a HER2 y la carga útil (deruxtecan) inhibe la topoisomerasa I, lo que produce citotoxicidad en células tumorales.
 
 **Con los datos disponibles, no se identifica un vínculo mecanístico sólido.** No se conoce una vía que conecte la señalización de HER2 o la inhibición de la topoisomerasa I con la remodelación ósea ni con la prevención o el tratamiento de la osteoporosis inducida por fármacos. Los tratamientos habituales en este contexto (por ejemplo, bisfosfonatos y denosumab) actúan inhibiendo los osteoclastos, un mecanismo distinto.
 
@@ -135,13 +135,14 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos clínico
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro (ASTRAZENECA COLOMBIA S.A.S.) figura como cancelado, por lo que actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria del registro cancelado y la indicación aprobada real" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
 
 <!-- review:end log -->
 

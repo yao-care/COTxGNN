@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **Malaria por Plasmodium f
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la colchicina se une a la tubulina (se identificó la tubulina beta clase I como diana) y altera la polimerización de los microtúbulos. Este mecanismo explica su efecto antiinflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Colchicine (traducción no oficial): «Se ha postulado que la eficacia de la colchicina como tratamiento de la gota se debe a su capacidad para bloquear las respuestas inflamatorias mediadas por neutrófilos inducidas por los cristales de urato monosódico en el líquido sinovial. La colchicina altera la polimerización de la β-tubulina en microtúbulos, lo que impide la activación, la desgranulación y la migración de los neutrófilos a los sitios de inflamación.» Texto original en inglés: "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), versión del 2026-10-16; consultado el 2026-11-19). Según la información conocida, la colchicina se une a la tubulina (se identificó la tubulina beta clase I como diana) y altera la polimerización de los microtúbulos. Este mecanismo explica su efecto antiinflamatorio.
 
 Plasmodium depende de los microtúbulos para dividirse e invadir las células, de modo que existe un vínculo teórico antiparasitario. Sin embargo, es solo una hipótesis mecanística.
 
@@ -103,6 +103,19 @@ No existen ensayos clínicos y la literatura disponible es indirecta y preclíni
 - Datos detallados del mecanismo de acción
 - Análisis de la relación entre dosis antiparasitaria, concentraciones tolerables y toxicidad en el huésped
 - Revisión del prospecto aprobado para completar los datos de advertencias y contraindicaciones
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

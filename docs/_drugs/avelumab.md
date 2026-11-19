@@ -56,7 +56,7 @@ pero en los datos compilados para este informe **no hay ensayos clínicos ni pub
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Avelumab bloquea la proteína PD-L1, con lo que se libera la respuesta inmunitaria contra las células tumorales. Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados; la descripción anterior se basa en la clase conocida del fármaco.
+Avelumab bloquea la proteína PD-L1, con lo que se libera la respuesta inmunitaria contra las células tumorales. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Avelumab (traducción no oficial): «PD-L1 puede expresarse en las células tumorales y en las células inmunitarias infiltrantes del tumor, y puede contribuir a la inhibición de la respuesta inmunitaria antitumoral en el microambiente tumoral. La unión de PD-L1 a los receptores PD-1 y B7.1 presentes en los linfocitos T y en las células presentadoras de antígenos suprime la actividad de los linfocitos T citotóxicos, la proliferación de los linfocitos T y la producción de citocinas. […] El avelumab se une a PD-L1 y bloquea la interacción entre PD-L1 y sus receptores PD-1 y B7.1.» Texto original en inglés: "PD-L1 may be expressed on tumor cells and tumor-infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD-L1 to the PD-1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation, and cytokine production. […] Avelumab binds PD-L1 and blocks the interaction between PD-L1 and its receptors PD-1 and B7.1." ([DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118), versión del 2026-09-22; consultado el 2026-11-19).
 
 Los tumores asociados al herpesvirus humano 8 (por ejemplo, el sarcoma de Kaposi) muestran expresión de PD-L1 y evasión inmunitaria impulsada por el virus, por lo que el bloqueo de puntos de control es biológicamente plausible.
 
@@ -97,6 +97,19 @@ La predicción no cuenta con ensayos clínicos ni publicaciones en los datos com
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Evaluación de la seguridad de la combinación con inmunomoduladores (lenalidomida, pomalidomida, talidomida)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bavencio (avelumab) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd725a1-2fa4-408a-a651-57a7b84b2118) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

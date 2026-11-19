@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Doravirina inhibe la transcriptasa inversa del VIH-1 uniéndose a un sitio alostérico de la enzima, sin ser un análogo de nucleósido. Los datos detallados de mecanismo de acción no están disponibles en la información compilada para este informe; la descripción anterior se basa en la clase farmacológica conocida.
+Doravirina inhibe la transcriptasa inversa del VIH-1 uniéndose a un sitio alostérico de la enzima, sin ser un análogo de nucleósido. Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Doravirine (traducción no oficial): «La doravirina es un fármaco antirretroviral. […] La doravirina es un inhibidor no nucleosídico de la transcriptasa inversa del VIH-1 de tipo piridinona, e inhibe la replicación del VIH-1 mediante la inhibición no competitiva de la transcriptasa inversa (RT) del VIH-1. La concentración inhibitoria al 50 % (IC 50 ) de la doravirina para la polimerización del ADN dependiente de ARN de la RT recombinante del VIH-1 de tipo salvaje en un ensayo bioquímico fue de 12,2±2,0 nM (n=3).» Texto original en inglés: "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), versión del 2026-07-09; consultado el 2026-11-19).
 
 El virus de inmunodeficiencia felina (VIF) es un lentivirus emparentado con el VIH, lo que explica en parte la predicción. Sin embargo, su transcriptasa inversa difiere de la del VIH-1, y los ITINN en general tienen poca actividad frente al VIF. La plausibilidad biológica es de baja a moderada y no ha sido verificada para esta clase.
 
@@ -93,6 +93,19 @@ La predicción principal no cuenta con ensayos clínicos ni literatura que estud
 - Datos detallados del mecanismo de acción
 - Advertencias y contraindicaciones del prospecto de INVIMA
 - Evaluación de relevancia y viabilidad en medicina veterinaria, dado que la indicación predicha es una enfermedad felina
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

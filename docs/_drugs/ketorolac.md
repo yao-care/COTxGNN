@@ -62,7 +62,7 @@ con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en las fuentes consultadas. Según la farmacología conocida de la clase, ketorolaco es un inhibidor no selectivo de COX-1 y COX-2 que reduce la síntesis de prostaglandinas. Esta explicación es una inferencia a partir de la clase farmacológica y no un dato confirmado para este informe.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ketorolac (traducción no oficial): «El ketorolaco trometamina es un antiinflamatorio no esteroideo (AINE) que presenta actividad analgésica en modelos animales. El mecanismo de acción del ketorolaco, al igual que el de otros AINE, no se conoce por completo, pero puede estar relacionado con la inhibición de la prostaglandina sintetasa.» Texto original en inglés: "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), versión del 2026-11-13; consultado el 2026-11-19). Según la farmacología conocida de la clase, ketorolaco es un inhibidor no selectivo de COX-1 y COX-2 que reduce la síntesis de prostaglandinas. Esta explicación es una inferencia a partir de la clase farmacológica y no un dato confirmado para este informe.
 
 Las prostaglandinas participan en la inflamación neurogénica, la sensibilización trigeminovascular y la señalización del dolor en la migraña y la cefalea tensional. Por eso, un efecto antiinflamatorio y analgésico periférico y central podría explicar un beneficio en los ataques agudos de cefalea.
 
@@ -153,13 +153,14 @@ Para cefalea/migraña existen ensayos clínicos completados de Fase 3 y 4 que pr
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran hoy como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios figuran como **cancelados**; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y gestionar un registro sanitario, ya que todos los vigentes están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

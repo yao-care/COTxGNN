@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **úlcera gástrica**, con
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información de las fuentes consultadas, la metoclopramida es un antagonista del receptor de dopamina D2 y agonista del receptor 5-HT4 que mejora el vaciamiento gástrico y la motilidad antroduodenal. Mecanísticamente, podría ser útil en cuadros ulcerosos acompañados de vaciamiento gástrico retardado o reflujo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metoclopramide (traducción no oficial): «La metoclopramida estimula la motilidad del tracto gastrointestinal superior sin estimular las secreciones gástricas, biliares ni pancreáticas. El mecanismo de acción exacto de la metoclopramida en el tratamiento del reflujo gastroesofágico y de la gastroparesia diabética aguda y recurrente no se ha establecido por completo.» Texto original en inglés: "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), versión del 2026-02-09; consultado el 2026-11-19). Según la información de las fuentes consultadas, la metoclopramida es un antagonista del receptor de dopamina D2 y agonista del receptor 5-HT4 que mejora el vaciamiento gástrico y la motilidad antroduodenal. Mecanísticamente, podría ser útil en cuadros ulcerosos acompañados de vaciamiento gástrico retardado o reflujo.
 
 La relación con la nueva indicación es indirecta. La metoclopramida no tiene acción cicatrizante de la úlcera ni antisecretora; de hecho, un estudio doble ciego en voluntarios sanos (PMID 6782467) no halló cambios significativos en la gastrina ni en la secreción ácida. Un estudio preclínico en ratas (PMID 2730234, indexado en otra predicción) sugirió un efecto protector frente a úlceras inducidas, pero no hay confirmación clínica.
 
@@ -142,12 +142,13 @@ La evidencia se limita al nivel L4: un único ensayo de uso procedimental y lite
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso requeriría un nuevo trámite ante INVIMA" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

@@ -66,7 +66,7 @@ Como alternativa, la segunda predicción (liposarcoma) cuenta con **1 publicaci�
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ponatinib es un inhibidor de tirosina quinasas de acción múltiple (BCR-ABL, FGFR, PDGFR, VEGFR, SRC), y mecanísticamente podría ser aplicable a procesos de proliferación de fibroblastos, aunque esto no está confirmado por los datos disponibles.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ponatinib (traducción no oficial): «El ponatinib es un inhibidor de cinasas. El ponatinib inhibió in vitro la actividad tirosina cinasa de ABL y de ABL con la mutación T315I con concentraciones de IC 50 de 0,4 nM y 2,0 nM, respectivamente. El ponatinib inhibió in vitro la actividad de otras cinasas con concentraciones de IC 50 de entre 0,1 nM y 20 nM, incluidos miembros de las familias de cinasas VEGFR, PDGFR, FGFR, receptores EPH y SRC, así como KIT, RET, TIE2 y FLT3.» Texto original en inglés: "Ponatinib is a kinase inhibitor. Ponatinib inhibited the in vitro tyrosine kinase activity of ABL and T315I mutant ABL with IC 50 concentrations of 0.4 nM and 2.0 nM, respectively. Ponatinib inhibited the in vitro activity of additional kinases with IC 50 concentrations between 0.1 nM and 20 nM, including members of the VEGFR, PDGFR, FGFR, EPH receptors and SRC families of kinases, and KIT, RET, TIE2, and FLT3." ([DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac), versión del 2026-08-14; consultado el 2026-11-19). Según la información conocida, ponatinib es un inhibidor de tirosina quinasas de acción múltiple (BCR-ABL, FGFR, PDGFR, VEGFR, SRC), y mecanísticamente podría ser aplicable a procesos de proliferación de fibroblastos, aunque esto no está confirmado por los datos disponibles.
 
 La relación con la indicación original no puede evaluarse con precisión, porque el registro sanitario no detalla las indicaciones aprobadas. La vía de proliferación fibroblástica y depósito de matriz extracelular es una hipótesis especulativa que **no está respaldada por ninguna evidencia** en los datos compilados.
 
@@ -155,13 +155,14 @@ La predicción para fibromatosis gingival se basa únicamente en el modelo (L5),
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "actualmente cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Iclusig (ponatinib hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=16d804b6-4957-43ee-b18c-3b36ec37c5ac) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ El modelo TxGNN predice que podría ser efectivo para **migraña** (puntaje 0.99
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados del mecanismo de acción en la información compilada. Según la literatura recuperada, lacosamida potencia la inactivación lenta de los canales de sodio dependientes de voltaje y modula la proteína CRMP2, lo que puede estabilizar la hiperexcitabilidad neuronal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lacosamide (traducción no oficial): «Aún no se ha dilucidado por completo el mecanismo preciso por el cual la solución oral de lacosamida ejerce sus efectos antiepilépticos en los seres humanos. Los estudios electrofisiológicos in vitro han demostrado que la lacosamida potencia de forma selectiva la inactivación lenta de los canales de sodio dependientes de voltaje, lo que da lugar a la estabilización de las membranas neuronales hiperexcitables y a la inhibición de las descargas neuronales repetitivas.» Texto original en inglés: "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), versión del 2026-09-09; consultado el 2026-11-19). Según la literatura recuperada, lacosamida potencia la inactivación lenta de los canales de sodio dependientes de voltaje y modula la proteína CRMP2, lo que puede estabilizar la hiperexcitabilidad neuronal.
 
 La migraña y la epilepsia comparten la hiperexcitabilidad neuronal como base fisiopatológica. Otros antiepilépticos, como topiramato y valproato, están establecidos para la prevención de la migraña. Además, hay datos preclínicos en ratones que muestran que lacosamida afecta la depresión cortical propagada, un mecanismo clave de la migraña. También se ha postulado que inhibe la liberación del péptido relacionado con el gen de la calcitonina (CGRP) en el sistema trigeminal.
 
@@ -129,11 +129,12 @@ Existen dos ensayos de Fase 3 completados y un ECA doble ciego publicado en 2026
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los 3 registros sanitarios están cancelados, por lo que no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

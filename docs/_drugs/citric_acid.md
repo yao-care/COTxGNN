@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad del estómago
 
 ## ¿Por qué es razonable esta predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, el ácido cítrico es un ácido orgánico que acidifica el medio y se usa en soluciones orales con electrolitos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para sodium picosulfate, magnesium oxide, and anhydrous citric acid (combinación que contiene Citric Acid) (traducción no oficial): «El óxido de magnesio y el ácido cítrico reaccionan para formar citrato de magnesio en solución, que es un agente osmótico que provoca la retención de agua en el tubo digestivo.» Texto original en inglés: "Magnesium oxide and citric acid react to create magnesium citrate in solution, which is an osmotic agent that causes water to be retained within the gastrointestinal tract." ([DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5), versión del 2026-04-15; consultado el 2026-11-19). Según la información conocida, el ácido cítrico es un ácido orgánico que acidifica el medio y se usa en soluciones orales con electrolitos.
 
 La literatura recuperada lo menciona sobre todo en contextos diagnósticos: una comida de prueba con ácido cítrico se ha estudiado para mejorar la exactitud de la prueba de aliento con urea 13C en la detección de *Helicobacter pylori*. Esto es un uso diagnóstico, no un tratamiento. Se plantea que acidifica el entorno gástrico y retrasa el vaciamiento gástrico, lo que podría explicar ese papel.
 
@@ -106,6 +106,18 @@ La predicción se apoya solo en el modelo: no hay ensayos clínicos y ningún es
 - Estudios preclínicos o clínicos que evalúen directamente el ácido cítrico en enfermedad gástrica.
 - Revisión del prospecto aprobado para advertencias y contraindicaciones.
 - Evaluación de las interacciones con antiácidos de aluminio y quinolonas.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Clenpiq (sodium picosulfate, magnesium oxide, and anhydrous citric acid) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e95fff66-4ec0-4001-a727-33e66a5ec7d5) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

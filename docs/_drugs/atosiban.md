@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, atosiban es un péptido que se une a los receptores de oxitocina (OXTR) y a los receptores de vasopresina V1A, V1B y V2. Se aprueba como tocolítico en la Unión Europea y otros países para retrasar el parto en mujeres embarazadas de 24 a 33 semanas con signos de parto prematuro.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Atosiban es (traducción no oficial): «Antagonista del receptor de oxitocina» Texto original en inglés: "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0; consultado el 2026-11-19). Según la información farmacológica conocida, atosiban es un péptido que se une a los receptores de oxitocina (OXTR) y a los receptores de vasopresina V1A, V1B y V2. Se aprueba como tocolítico en la Unión Europea y otros países para retrasar el parto en mujeres embarazadas de 24 a 33 semanas con signos de parto prematuro.
 
 No se ha establecido un vínculo mecanístico entre el antagonismo de los receptores de oxitocina/vasopresina y la dinámica del humor acuoso o la función de la malla trabecular. Cualquier papel en la regulación de la presión intraocular es hipotético. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica, experimental o clínica.
 
@@ -146,12 +146,13 @@ La predicción para glaucoma hereditario primario se basa únicamente en el mode
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a Ever Valinject GmbH y están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

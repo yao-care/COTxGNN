@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero no
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según el conocimiento farmacológico general, metronidazol es un nitroimidazol activo contra bacterias anaerobias y protozoos (Trichomonas, Giardia, Entamoeba), mediante la activación reductora de su grupo nitro.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Metronidazole (traducción no oficial): «El metronidazol, un nitroimidazol, ejerce efectos antibacterianos en un entorno anaerobio contra la mayoría de los anaerobios obligados. Una vez que el metronidazol ingresa en el microorganismo por difusión pasiva y se activa en el citoplasma de las bacterias anaerobias sensibles, se reduce; este proceso incluye donantes intracelulares de transporte de electrones, como la ferredoxina, y la transferencia de un electrón al grupo nitro del metronidazol, lo que conduce a la formación de un radical libre nitroso de vida corta.» Texto original en inglés: "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), versión del 2026-11-02; consultado el 2026-11-19). Según el conocimiento farmacológico general, metronidazol es un nitroimidazol activo contra bacterias anaerobias y protozoos (Trichomonas, Giardia, Entamoeba), mediante la activación reductora de su grupo nitro.
 
 La relación con la nueva indicación es débil. *Pneumocystis jirovecii* es un hongo que carece de la vía de activación dependiente de nitrorreductasa, por lo que **no existe una justificación mecanística establecida**. El puntaje alto de TxGNN probablemente refleja la cercanía en la red del conocimiento con fármacos antiparasitarios, y no una actividad real. El tratamiento estándar es trimetoprima-sulfametoxazol.
 
@@ -149,13 +149,14 @@ No existen ensayos clínicos, la literatura es solo descriptiva y no muestra efi
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(hoy todos cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

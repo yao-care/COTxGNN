@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, riluzol modula la transmisión glutamatérgica y reduce la excitotoxicidad.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Riluzole (traducción no oficial): «Se desconoce el mecanismo por el cual el riluzol ejerce sus efectos terapéuticos en pacientes con ELA.» Texto original en inglés: "The mechanism by which riluzole exerts its therapeutic effects in patients with ALS is unknown." ([DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857), versión del 2026-07-27; consultado el 2026-11-19). Según la información conocida, riluzol modula la transmisión glutamatérgica y reduce la excitotoxicidad.
 
 Sin embargo, la polimicrogiria es un trastorno estructural del desarrollo cortical, y no se ha demostrado un vínculo mecanístico con la acción neuroprotectora sintomática del fármaco. El puntaje alto probablemente refleja cercanía en la red de relaciones del modelo y no una base biológica sólida.
 
@@ -99,6 +99,18 @@ La predicción se basa únicamente en el modelo, sin ensayos ni publicaciones, y
 - Estudios preclínicos que respalden la hipótesis
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones
 - Evaluación de la relevancia de una población pediátrica y de la vía de administración
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

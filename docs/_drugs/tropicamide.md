@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de la cola 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la tropicamida es un antagonista muscarínico (anticolinérgico). Los datos farmacológicos la vinculan con los receptores muscarínicos M2, M3, M4 y M5, y se usa como midriático de acción corta para examinar el cristalino, el humor vítreo y la retina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tropicamide (traducción no oficial): «Esta preparación anticolinérgica bloquea las respuestas del músculo esfínter del iris y del músculo ciliar a la estimulación colinérgica, lo que dilata la pupila (midriasis). La preparación más concentrada (1%) también paraliza la acomodación.» Texto original en inglés: "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), versión del 2023-02-15; consultado el 2026-11-19). Según la información conocida, la tropicamida es un antagonista muscarínico (anticolinérgico). Los datos farmacológicos la vinculan con los receptores muscarínicos M2, M3, M4 y M5, y se usa como midriático de acción corta para examinar el cristalino, el humor vítreo y la retina.
 
 El síndrome de la cola de caballo se produce por la compresión de las raíces nerviosas y causa disfunción de vejiga, intestino y sensibilidad. Un anticolinérgico podría, en teoría, actuar sobre la hiperactividad del detrusor, pero no trata la causa de fondo, que requiere descompresión quirúrgica. El puntaje alto (0.9953) proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, como los síntomas vesicales o intestinales neurogénicos compartidos, no evidencia biológica ni un efecto terapéutico demostrado.
 
@@ -141,12 +141,13 @@ La predicción se basa únicamente en el modelo computacional (L5), sin ensayos 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
 
 <!-- review:end log -->
 

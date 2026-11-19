@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este fármaco. Según la información conocida, el ácido fólico es una vitamina hidrosoluble del complejo B que actúa como cofactor en el metabolismo de un carbono (síntesis de nucleótidos y metionina). Su uso en Colombia se limitó a un producto multivitamínico con hierro.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Folic Acid (traducción no oficial): «El ácido fólico actúa sobre la médula ósea megaloblástica para producir una médula normoblástica. En el ser humano, se requiere una fuente exógena de folato para la síntesis de nucleoproteínas y el mantenimiento de la eritropoyesis normal. El ácido fólico es el precursor del ácido tetrahidrofólico, que participa como cofactor en las reacciones de transformilación en la biosíntesis de las purinas y los timidilatos de los ácidos nucleicos.» Texto original en inglés: "Folic acid acts on megaloblastic bone marrow to produce a normoblastic marrow. In man, an exogenous source of folate is required for nucleoprotein synthesis and the maintenance of normal erythropoiesis. Folic acid is the precursor of tetrahydrofolic acid, which is involved as a cofactor for transformylation reactions in the biosynthesis of purines and thymidylates of nucleic acids." ([DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1), versión del 2026-10-05; consultado el 2026-11-19). Según la información conocida, el ácido fólico es una vitamina hidrosoluble del complejo B que actúa como cofactor en el metabolismo de un carbono (síntesis de nucleótidos y metionina). Su uso en Colombia se limitó a un producto multivitamínico con hierro.
 
 La biotina (vitamina B7) también es una vitamina hidrosoluble que actúa como cofactor en reacciones de carboxilación. Existe, por tanto, una conexión biológica general entre ambas: comparten la naturaleza de vitaminas del grupo B y rutas metabólicas cercanas.
 
@@ -131,13 +131,14 @@ La predicción se apoya únicamente en el modelo TxGNN (aprendizaje profundo; pu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyo registro sanitario hoy está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay producto vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 1 → al menos 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quiofic (folic acid) prescribing information, Solubiomix, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b868b314-591d-458b-be82-2bcd0b73cce1) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, la trimetoprima inhibe la enzima bacteriana dihidrofolato reductasa y bloquea la síntesis de folato, por lo que tiene actividad contra bacterias comunes de la superficie ocular. Su eficacia como antibacteriano está bien establecida, sobre todo en combinación con sulfametoxazol.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Trimethoprim (traducción no oficial): «La trimetoprima bloquea la producción de ácido tetrahidrofólico a partir de ácido dihidrofólico al unirse a la enzima necesaria, la dihidrofolato reductasa, e inhibirla de forma reversible. Esta unión es mucho más fuerte para la enzima bacteriana que para la enzima correspondiente de los mamíferos.» Texto original en inglés: "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), versión del 2026-11-15; consultado el 2026-11-19). Según el conocimiento general, la trimetoprima inhibe la enzima bacteriana dihidrofolato reductasa y bloquea la síntesis de folato, por lo que tiene actividad contra bacterias comunes de la superficie ocular. Su eficacia como antibacteriano está bien establecida, sobre todo en combinación con sulfametoxazol.
 
 La relación con la nueva indicación es débil. La trimetoprima oftálmica, normalmente combinada con polimixina B, ya se usa en infecciones bacterianas de la superficie ocular. Sin embargo, la queratoconjuntivitis epitelial punteada suele ser de origen viral (por ejemplo, adenoviral) o inflamatorio. Un mecanismo antibacteriano no tiene un vínculo directo claro con esa causa, salvo que exista un componente bacteriano.
 
@@ -138,12 +138,13 @@ La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

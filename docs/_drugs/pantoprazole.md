@@ -60,7 +60,7 @@ Se trata de una indicación dentro de la clase terapéutica ya establecida, por 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Pantoprazol inhibe de forma irreversible la H+/K+ ATPasa (bomba de protones) de la célula parietal gástrica. Esto reduce la secreción de ácido y permite la cicatrización de las úlceras. No se dispone de un campo de mecanismo de acción en los datos de fármaco compilados, pero este mecanismo está ampliamente descrito en la literatura recuperada.
+Pantoprazol inhibe de forma irreversible la H+/K+ ATPasa (bomba de protones) de la célula parietal gástrica. Esto reduce la secreción de ácido y permite la cicatrización de las úlceras. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Pantoprazole (traducción no oficial): «El pantoprazol es un IBP que suprime el paso final de la producción de ácido gástrico mediante su unión covalente al sistema enzimático (H +, K + )-ATPasa en la superficie secretora de la célula parietal gástrica. Este efecto conduce a la inhibición de la secreción de ácido gástrico tanto basal como estimulada, independientemente del estímulo.» Texto original en inglés: "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), versión del 2026-11-06; consultado el 2026-11-19).
 
 La indicación original registrada ("pantoprazol") es genérica, pero la clase de los IBP se usa de forma establecida en enfermedades ácido-pépticas. Por ello, la predicción de úlcera péptica activa es coherente con el mecanismo y con el uso clínico conocido. Es una confirmación de uso dentro de la clase más que un hallazgo novedoso.
 
@@ -151,12 +151,13 @@ Otras predicciones del modelo tienen respaldo menor y no se desarrollan en este 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria en Colombia: no hay registro vigente, por lo que habría que gestionar uno nuevo o identificar otros produ" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

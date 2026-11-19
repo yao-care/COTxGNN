@@ -54,7 +54,7 @@ La metilprednisolona es un glucocorticoide sintético de uso sistémico, con reg
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Los datos compilados indican que la metilprednisolona actúa sobre el receptor de glucocorticoides (NR3C1) y que se emplea en múltiples cuadros inflamatorios, alérgicos e inmunomediados. Esto concuerda con su perfil de corticosteroide antiinflamatorio.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Methylprednisolone (traducción no oficial): «Los glucocorticoides de origen natural (hidrocortisona y cortisona), que también tienen propiedades de retención de sal, se utilizan como tratamiento de reemplazo en los estados de insuficiencia corticosuprarrenal. Sus análogos sintéticos se utilizan principalmente por sus potentes efectos antiinflamatorios en trastornos de muchos sistemas orgánicos.» Texto original en inglés: "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), versión del 2026-07-01; consultado el 2026-11-19). Los datos compilados indican que la metilprednisolona actúa sobre el receptor de glucocorticoides (NR3C1) y que se emplea en múltiples cuadros inflamatorios, alérgicos e inmunomediados. Esto concuerda con su perfil de corticosteroide antiinflamatorio.
 
 Los corticosteroides se usan a veces en trastornos foliculares inflamatorios, y eso explicaría de forma teórica la señal del modelo para la alopecia mucinosa. Sin embargo, no hay estudios, ensayos ni reportes que evalúen este uso específico. El vínculo mecanístico sigue siendo una hipótesis sin respaldo clínico.
 
@@ -94,6 +94,18 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos cl�
 - Información de seguridad completa tomada de los prospectos de los productos registrados.
 - Evaluación de la vía de administración adecuada (por ejemplo, oral frente a tópica o intralesional) y de su compatibilidad con los productos disponibles.
 - Si hay indicios clínicos favorables, un estudio exploratorio pequeño con un plan de monitoreo de seguridad.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

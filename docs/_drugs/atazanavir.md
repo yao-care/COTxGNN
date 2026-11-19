@@ -61,7 +61,7 @@ El modelo TxGNN predice que podría ser útil para la **síndrome de inmunodefic
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, atazanavir inhibe la proteasa del VIH-1, una enzima necesaria para que el virus madure y se vuelva infeccioso.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Atazanavir (traducción no oficial): «Atazanavir es un fármaco antirretroviral contra el VIH-1. […] Atazanavir (ATV) es un inhibidor de la proteasa (IP) del VIH-1 de tipo azapéptido. El compuesto inhibe de forma selectiva el procesamiento específico del virus de las poliproteínas virales Gag y Gag-Pol en las células infectadas por el VIH-1, lo que impide la formación de viriones maduros.» Texto original en inglés: "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), versión del 2024-12-05; consultado el 2026-11-19). Según la información conocida, atazanavir inhibe la proteasa del VIH-1, una enzima necesaria para que el virus madure y se vuelva infeccioso.
 
 El virus de la inmunodeficiencia felina (FIV) es un lentivirus con una proteasa emparentada con la del VIH-1, por lo que existe un fundamento mecanístico teórico. Sin embargo, la proteasa del FIV difiere en la especificidad por el sustrato y en la sensibilidad a los inhibidores, y no hay datos que respalden el efecto de atazanavir en ella.
 
@@ -109,11 +109,12 @@ No existen ensayos clínicos ni publicaciones que estudien directamente esta enf
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-12 | Número de registros sanitarios: 1 → 7 (6 vigentes) | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
 
 <!-- review:end log -->
 

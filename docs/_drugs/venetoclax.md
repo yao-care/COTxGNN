@@ -58,7 +58,7 @@ Venetoclax es un inhibidor oral de BCL-2. Su registro sanitario en Colombia solo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada para este informe. Venetoclax se conoce como un inhibidor selectivo de la proteína antiapoptótica BCL-2. Al bloquearla, restablece la muerte celular programada en células malignas que dependen de BCL-2 para sobrevivir.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Venetoclax (traducción no oficial): «El venetoclax es un inhibidor de molécula pequeña, selectivo y con biodisponibilidad oral, de BCL-2, una proteína antiapoptótica. Se ha demostrado la sobreexpresión de BCL-2 en células de LLC y LMA, donde media la supervivencia de las células tumorales y se ha asociado con resistencia a los quimioterápicos.» Texto original en inglés: "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), versión del 2026-05-20; consultado el 2026-11-19). Venetoclax se conoce como un inhibidor selectivo de la proteína antiapoptótica BCL-2. Al bloquearla, restablece la muerte celular programada en células malignas que dependen de BCL-2 para sobrevivir.
 
 La LLC/LLCP es una neoplasia de linfocitos B con marcada dependencia de BCL-2, por lo que el encaje mecanístico es fuerte. El subtipo predicho corresponde a la LLC con genes IGHV no mutados, de origen pregerminal y pronóstico desfavorable. Según el análisis de los datos, este subtipo forma parte de una indicación ya establecida de venetoclax (LLC/LLCP). Por eso la predicción es biológicamente plausible, pero más una confirmación que un hallazgo nuevo.
 
@@ -157,11 +157,12 @@ En Colombia, venetoclax está comercializado y tiene 1 registro vigente de 1 en 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el registro está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
 
 <!-- review:end log -->
 

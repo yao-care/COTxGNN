@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la ficha del fármaco. Sin embargo, los datos farmacológicos compilados muestran que la fenilefrina actúa sobre los receptores adrenérgicos alfa-1A, alfa-1B y alfa-1D. Es un agonista alfa-1 que produce vasoconstricción de la mucosa, y por eso se usa como descongestionante nasal.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Phenylephrine (traducción no oficial): «El clorhidrato de fenilefrina es un agonista de los receptores adrenérgicos α-1.» Texto original en inglés: "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), versión del 2026-03-31; consultado el 2026-11-19). Sin embargo, los datos farmacológicos compilados muestran que la fenilefrina actúa sobre los receptores adrenérgicos alfa-1A, alfa-1B y alfa-1D. Es un agonista alfa-1 que produce vasoconstricción de la mucosa, y por eso se usa como descongestionante nasal.
 
 La indicación original (combinaciones para síntomas de resfriado y gripe) ya incluye el alivio de la congestión nasal. Por ello, la enfermedad de la cavidad nasal es más una extensión del uso existente que un reposicionamiento novedoso. El puntaje alto del modelo (0.9997) es coherente con esta farmacología conocida.
 
@@ -146,13 +146,14 @@ Las otras dos predicciones tienen evidencia más débil: **laringofaringitis agu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "con registros hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

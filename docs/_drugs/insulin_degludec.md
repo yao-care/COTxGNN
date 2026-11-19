@@ -60,7 +60,7 @@ Cabe señalar que esta indicación corresponde esencialmente a un uso ya estable
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la insulina degludec es un análogo de insulina basal de acción ultra larga que se une al receptor de insulina y reemplaza la insulina endógena deficiente, con una duración de acción superior a 42 horas y menor variabilidad día a día que la insulina glargina.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Insulin Degludec (traducción no oficial): «La actividad principal de la insulina, incluida TRESIBA, es la regulación del metabolismo de la glucosa. La insulina y sus análogos reducen la glucemia al estimular la captación periférica de glucosa, especialmente por el músculo esquelético y el tejido adiposo, y al inhibir la producción hepática de glucosa.» Texto original en inglés: "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), versión del 2024-02-22; consultado el 2026-11-19). Según la información conocida, la insulina degludec es un análogo de insulina basal de acción ultra larga que se une al receptor de insulina y reemplaza la insulina endógena deficiente, con una duración de acción superior a 42 horas y menor variabilidad día a día que la insulina glargina.
 
 En la diabetes tipo 1 existe una deficiencia absoluta de insulina, por lo que el reemplazo con insulina basal es la base del tratamiento. El mecanismo es el mismo que el de su uso aprobado (control glucémico en diabetes), por lo que la predicción del modelo es coherente y no constituye un reposicionamiento propiamente dicho.
 
@@ -154,11 +154,12 @@ Existen múltiples ensayos de fase 3 completados y metaanálisis que respaldan e
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

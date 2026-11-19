@@ -58,7 +58,7 @@ Vismodegib es un inhibidor de la vía Hedgehog (bloquea la proteína Smoothened,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Vismodegib inhibe la proteína Smoothened (SMO) de la vía de señalización Hedgehog. En el carcinoma basocelular, las mutaciones en PTCH1 o SMO activan esta vía de forma aberrante, y vismodegib la bloquea directamente. No se dispone de datos detallados de mecanismo de acción en la ficha del fármaco, pero esta descripción procede del análisis mecanístico de los datos compilados.
+Vismodegib inhibe la proteína Smoothened (SMO) de la vía de señalización Hedgehog. En el carcinoma basocelular, las mutaciones en PTCH1 o SMO activan esta vía de forma aberrante, y vismodegib la bloquea directamente. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Vismodegib (traducción no oficial): «El vismodegib es un inhibidor de la vía Hedgehog. El vismodegib se une a Smoothened, una proteína transmembrana que participa en la transducción de señales de Hedgehog, y la inhibe.» Texto original en inglés: "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), versión del 2024-12-02; consultado el 2026-11-19).
 
 El meduloblastoma del subgrupo SHH, que incluye la variante desmoplásica/nodular, también depende de la señalización Hedgehog. Por eso el mecanismo es biológicamente plausible: el mismo blanco molecular que explica el efecto en el carcinoma basocelular podría ser relevante en este tumor.
 
@@ -147,13 +147,14 @@ La predicción para meduloblastoma con nodularidad extensa tiene un puntaje alto
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y que el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
 
 <!-- review:end log -->
 

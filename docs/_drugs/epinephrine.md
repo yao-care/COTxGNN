@@ -66,7 +66,7 @@ con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la farmacología conocida, la epinefrina es un agonista adrenérgico no selectivo (alfa y beta). La activación de los receptores beta-2 relaja el músculo liso bronquial y produce broncodilatación, lo que es coherente con el alivio de la obstrucción reversible de la vía aérea en el asma.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Epinephrine (traducción no oficial): «La epinefrina actúa sobre los receptores alfa y beta-adrenérgicos. Mediante su acción sobre los receptores alfa-adrenérgicos, la epinefrina reduce la vasodilatación y el aumento de la permeabilidad vascular que se producen durante la anafilaxia, los cuales pueden provocar una pérdida de volumen de líquido intravascular e hipotensión.» Texto original en inglés: "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), versión del 2026-09-18; consultado el 2026-11-19). Según la farmacología conocida, la epinefrina es un agonista adrenérgico no selectivo (alfa y beta). La activación de los receptores beta-2 relaja el músculo liso bronquial y produce broncodilatación, lo que es coherente con el alivio de la obstrucción reversible de la vía aérea en el asma.
 
 Además, la vasoconstricción mucosa mediada por receptores alfa-1 puede reducir el edema de la vía aérea, algo relevante en la bronquiolitis y el crup. El puntaje alto de TxGNN (0.9971) es consistente con esta farmacología.
 
@@ -168,13 +168,14 @@ Para enfermedad pulmonar obstructiva existen tres ensayos de Fase 3 completados 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro colombiano (solución inyectable) está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros sanitarios: 1 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->
 

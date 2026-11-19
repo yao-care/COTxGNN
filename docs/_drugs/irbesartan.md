@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden dir
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Según la información conocida, irbesartán es un bloqueador del receptor AT1 de angiotensina II, con efectos antihipertensivos y renoprotectores establecidos.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Irbesartan (traducción no oficial): «La angiotensina II es un potente vasoconstrictor que se forma a partir de la angiotensina I en una reacción catalizada por la enzima convertidora de angiotensina (ECA, cininasa II). La angiotensina II es la principal hormona vasoactiva del sistema renina-angiotensina y un componente importante de la fisiopatología de la hipertensión. […] El irbesartán bloquea los efectos vasoconstrictores y secretores de aldosterona de la angiotensina II al unirse selectivamente al receptor AT 1 de la angiotensina II, presente en muchos tejidos (p. ej., músculo liso vascular, glándula suprarrenal).» Texto original en inglés: "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), versión del 2026-08-24; consultado el 2026-11-19). Según la información conocida, irbesartán es un bloqueador del receptor AT1 de angiotensina II, con efectos antihipertensivos y renoprotectores establecidos.
 
 El bloqueo del sistema renina-angiotensina es biológicamente plausible en la lesión renal de origen hipertensivo, y el puntaje elevado del modelo (0,9931) refleja esa cercanía con el uso conocido del fármaco.
 
@@ -97,6 +97,19 @@ La predicción tiene un puntaje alto, pero no existe ningún estudio clínico ni
 - Revisión de literatura clínica específica sobre ARA-II en nefroesclerosis hipertensiva maligna.
 - Evaluación de la viabilidad de la vía oral frente al manejo habitual de la emergencia hipertensiva.
 - Estudios observacionales o ensayos que evalúen directamente esta indicación.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -66,7 +66,7 @@ Se trata de una predicción del modelo TxGNN (deep learning), cuyo puntaje puede
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, crizotinib inhibe las quinasas ALK, ROS1 y MET, y su eficacia está comprobada en el cáncer de pulmón de células no pequeñas con reordenamientos de ALK o ROS1.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Crizotinib (traducción no oficial): «El crizotinib es un inhibidor de receptores con actividad tirosina cinasa, incluidos ALK, el receptor del factor de crecimiento de hepatocitos (HGFR, c-Met), ROS1 (c-ros) y el Recepteur d'Origine Nantais (RON). Las translocaciones pueden afectar al gen ALK y dar lugar a la expresión de proteínas de fusión oncogénicas.» Texto original en inglés: "Crizotinib is an inhibitor of receptor tyrosine kinases including ALK, Hepatocyte Growth Factor Receptor (HGFR, c-Met), ROS1 (c-ros), and Recepteur d'Origine Nantais (RON). Translocations can affect the ALK gene resulting in the expression of oncogenic fusion proteins." ([DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7), versión del 2026-10-29; consultado el 2026-11-19). Según la información conocida, crizotinib inhibe las quinasas ALK, ROS1 y MET, y su eficacia está comprobada en el cáncer de pulmón de células no pequeñas con reordenamientos de ALK o ROS1.
 
 La relación entre la indicación original (un cáncer impulsado por oncogenes quinasa) y la fibromatosis gingival (un sobrecrecimiento fibroso benigno de la encía) **no es evidente**. No se identificó ninguna vía de ALK, ROS1 o MET vinculada con la patología de la fibromatosis gingival, y no hay ensayos ni literatura que apoyen un vínculo.
 
@@ -142,13 +142,14 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos ni publicacione
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado) y la viabilidad de acceso al producto" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "cuyo único registro sanitario en Colombia (Xalkori®, Pfizer) figura hoy como cancelado, y el texto de indicación registrado solo repite el n" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xalkori (crizotinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a51b0de-47d6-455e-a94c-d2c737b04ff7) |
 
 <!-- review:end log -->
 

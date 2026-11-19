@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** preclínica que actualmente res
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Por la información conocida sobre su clase, axitinib es un inhibidor de tirosina quinasa con actividad antiangiogénica, y mecanísticamente podría ser aplicable al liposarcoma.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Axitinib (traducción no oficial): «Se ha demostrado que axitinib inhibe receptores con actividad tirosina cinasa, incluidos los receptores del factor de crecimiento endotelial vascular (VEGFR)-1, VEGFR-2 y VEGFR-3, a concentraciones plasmáticas terapéuticas. Estos receptores están implicados en la angiogénesis patológica, el crecimiento tumoral y la progresión del cáncer.» Texto original en inglés: "Axitinib has been shown to inhibit receptor tyrosine kinases including vascular endothelial growth factor receptors (VEGFR)-1, VEGFR-2, and VEGFR-3 at therapeutic plasma concentrations. These receptors are implicated in pathologic angiogenesis, tumor growth, and cancer progression." ([DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338), versión del 2026-03-12; consultado el 2026-11-19). Por la información conocida sobre su clase, axitinib es un inhibidor de tirosina quinasa con actividad antiangiogénica, y mecanísticamente podría ser aplicable al liposarcoma.
 
 Un estudio preclínico (Sarcoma, 2016) mostró que axitinib tiene actividad antiangiogénica y antitumoral en modelos de liposarcoma mixoide, tras explorar diversos tratamientos dirigidos y quimioterápicos en líneas celulares. Esto es un vínculo plausible, pero proviene solo de modelos de laboratorio y no de pacientes.
 
@@ -112,6 +112,19 @@ La predicción (0.9987) solo cuenta con un estudio preclínico en liposarcoma mi
 - Estudios preclínicos adicionales en otros subtipos de liposarcoma y, de ser favorables, ensayos clínicos tempranos
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones
 - Evaluación de las interacciones de gravedad mayor (claritromicina, dexametasona) antes de cualquier uso en nuevos contextos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inlyta (axitinib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8a903e31-936e-4ed7-8a59-59f32374f338) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

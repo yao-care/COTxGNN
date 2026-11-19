@@ -60,7 +60,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción. Según la información conocida, tafenoquina es una 8-aminoquinolina antipalúdica, y mecanísticamente podría ser aplicable a la mastocitosis solo a través de hipótesis no verificadas, como efectos sobre vías de señalización o efectos redox relevantes para la biología del mastocito.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tafenoquine (traducción no oficial): «La tafenoquina es un fármaco antipalúdico del grupo de las 8-aminoquinolinas. […] La tafenoquina, un antipalúdico del grupo de las 8-aminoquinolinas, es activa contra todos los estadios de las especies de Plasmodium, incluido el hipnozoíto (estadio latente) en el hígado. Los estudios in vitro con las formas eritrocíticas de Plasmodium falciparum sugieren que la tafenoquina podría ejercer su efecto mediante la inhibición de la polimerización de la hematina y la inducción de una muerte del parásito similar a la apoptosis.» Texto original en inglés: "Tafenoquine is an 8-aminoquinoline antimalarial drug. […] Tafenoquine, an 8-aminoquinoline antimalarial, is active against all the stages of Plasmodium species that include the hypnozoite (dormant stage) in the liver. Studies in vitro with the erythrocytic forms of Plasmodium falciparum suggest that tafenoquine may exert its effect by inhibiting hematin polymerization and inducing apoptotic like death of the parasite." ([DailyMed: Arakoda (tafenoquine) prescribing information, 60 Degrees Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=299e49d8-470f-4779-a010-4a1ee0e0c6cd), versión del 2025-01-10; consultado el 2026-11-19). Según la información conocida, tafenoquina es una 8-aminoquinolina antipalúdica, y mecanísticamente podría ser aplicable a la mastocitosis solo a través de hipótesis no verificadas, como efectos sobre vías de señalización o efectos redox relevantes para la biología del mastocito.
 
 La mastocitosis sistémica indolente suele estar impulsada por la mutación KIT D816V. En los datos compilados para este informe no existe ninguna conexión documentada entre tafenoquina y la señalización de KIT o la proliferación de mastocitos. Tampoco hay ensayos ni literatura que sustenten el vínculo.
 
@@ -117,6 +117,19 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos, li
 - Obtener y revisar el prospecto (advertencias y contraindicaciones) para el cribado de seguridad
 - Evaluar la viabilidad regulatoria, dado que no hay registro vigente en Colombia
 - Revisar el significado de la advertencia de interacciones mayores antes de cualquier consideración clínica
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arakoda (tafenoquine) prescribing information, 60 Degrees Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=299e49d8-470f-4779-a010-4a1ee0e0c6cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

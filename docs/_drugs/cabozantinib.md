@@ -67,7 +67,7 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 e
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Cabozantinib inhibe varias cinasas, entre ellas MET, VEGFR2, AXL y RET. Estas vías participan en la angiogénesis y en la progresión tumoral de los sarcomas. Actualmente no se dispone de datos detallados de mecanismo de acción en la fuente principal del fármaco, por lo que esta descripción se apoya en el análisis mecanístico compilado para este informe.
+Cabozantinib inhibe varias cinasas, entre ellas MET, VEGFR2, AXL y RET. Estas vías participan en la angiogénesis y en la progresión tumoral de los sarcomas. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cabozantinib (traducción no oficial): «Los ensayos bioquímicos o celulares in vitro, o ambos, han demostrado que el cabozantinib inhibe la actividad tirosina cinasa de MET, VEGFR-1, -2 y -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3 y TIE-2. Estos receptores con actividad tirosina cinasa intervienen tanto en la función celular normal como en procesos patológicos, como la oncogénesis, la metástasis, la angiogénesis tumoral, la farmacorresistencia y el mantenimiento del microentorno tumoral.» Texto original en inglés: "In vitro biochemical and/or cellular assays have shown that cabozantinib inhibits the tyrosine kinase activity of MET, VEGFR-1, -2 and -3, AXL, RET, ROS1, TYRO3, MER, KIT, TRKB, FLT-3, and TIE-2. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, drug resistance, and maintenance of the tumor microenvironment." ([DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5), versión del 2025-10-19; consultado el 2026-11-19).
 
 La relación con la indicación original es indirecta: el registro colombiano no detalla una indicación, pero cabozantinib es un antineoplásico dirigido. Los sarcomas de tejidos blandos, entre ellos el liposarcoma, comparten dependencia de la angiogénesis y de la señalización por cinasas, lo que haría plausible su actividad. Además, su combinación con inhibidores de puntos de control inmunitario podría modular el microambiente tumoral.
 
@@ -156,13 +156,14 @@ Para liposarcoma solo existe un ensayo de fase 2 no específico y un estudio de 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la compatibilidad de la vía de administración" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "aunque su único registro sanitario está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
 
 <!-- review:end log -->
 

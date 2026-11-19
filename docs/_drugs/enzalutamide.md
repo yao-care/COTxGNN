@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Enzalutamida actúa sobre el receptor de andrógenos (AR), según los datos farmacológicos compilados para este informe. No se dispone de datos detallados sobre el mecanismo de acción más allá de esta diana. Se conoce su uso en cáncer de próstata, incluidas las formas resistentes a la castración y sensibles a la castración con metástasis.
+Enzalutamida actúa sobre el receptor de andrógenos (AR), según los datos farmacológicos compilados para este informe. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Enzalutamide (traducción no oficial): «La enzalutamida es un inhibidor del receptor de andrógenos que actúa en distintos pasos de la vía de señalización del receptor de andrógenos. Se ha demostrado que la enzalutamida inhibe de forma competitiva la unión de los andrógenos a los receptores de andrógenos y, en consecuencia, inhibe la translocación nuclear de los receptores de andrógenos y su interacción con el ADN.» Texto original en inglés: "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), versión del 2026-07-28; consultado el 2026-11-19). Se conoce su uso en cáncer de próstata, incluidas las formas resistentes a la castración y sensibles a la castración con metástasis.
 
 Un tumor mesenquimal benigno de la próstata podría, en teoría, expresar el receptor de andrógenos, lo que haría plausible su bloqueo. Sin embargo, esta hipótesis no está respaldada por ninguna evidencia recuperada. Además, la afección es rara y habitualmente se maneja con cirugía, por lo que la demanda clínica es limitada.
 
@@ -106,6 +106,19 @@ La predicción se basa solo en el modelo, sin ensayos clínicos ni publicaciones
 - Estudios preclínicos o series de casos que evalúen el bloqueo del receptor de andrógenos en este tumor
 - Prospecto con advertencias y contraindicaciones para completar la evaluación de seguridad
 - Evaluación de la demanda clínica real frente al tratamiento quirúrgico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

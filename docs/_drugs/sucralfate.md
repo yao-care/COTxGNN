@@ -56,7 +56,7 @@ con **0 ensayos clínicos registrados** y **11 publicaciones** que actualmente r
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, el sucralfato es un protector de la mucosa: se adhiere a la mucosa dañada y forma una barrera protectora, además de adsorber sales biliares y pepsina.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Sucralfate (traducción no oficial): «Aunque el mecanismo por el cual el sucralfato es capaz de acelerar la cicatrización de las úlceras duodenales aún no se ha definido por completo, se sabe que ejerce su efecto mediante una acción local, y no sistémica. Las siguientes observaciones también parecen pertinentes: 1.» Texto original en inglés: "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), versión del 2026-01-06; consultado el 2026-11-19). Según la información conocida, el sucralfato es un protector de la mucosa: se adhiere a la mucosa dañada y forma una barrera protectora, además de adsorber sales biliares y pepsina.
 
 En el reflujo duodenogástrico, el contenido duodenal (bilis y secreciones alcalinas) retorna al estómago y puede lesionar la mucosa, causando gastritis o esofagitis por reflujo alcalino. La capacidad del sucralfato de proteger la mucosa y fijar sales biliares es mecanísticamente coherente con contrarrestar ese daño.
 
@@ -129,12 +129,13 @@ Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguo
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->
 

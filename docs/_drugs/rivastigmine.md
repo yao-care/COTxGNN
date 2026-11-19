@@ -66,7 +66,7 @@ con **0 ensayos clínicos** y **3 publicaciones** (una de ellas un estudio precl
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en DrugBank. Según la información farmacológica compilada, la rivastigmina inhibe la acetilcolinesterasa (ACHE) y la butirilcolinesterasa (BCHE), lo que aumenta los niveles de acetilcolina. Su uso conocido es la enfermedad de Alzheimer, y también se ha explorado en deterioro cognitivo vascular y en disfunción de la marcha en enfermedad de Parkinson (ensayo de Fase 2).
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Rivastigmine (traducción no oficial): «Aunque se desconoce el mecanismo de acción exacto de la rivastigmina, se cree que ejerce su efecto terapéutico potenciando la función colinérgica. Esto se logra aumentando la concentración de acetilcolina mediante la inhibición reversible de su hidrólisis por la colinesterasa.» Texto original en inglés: "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), versión del 2025-11-11; consultado el 2026-11-19). Según la información farmacológica compilada, la rivastigmina inhibe la acetilcolinesterasa (ACHE) y la butirilcolinesterasa (BCHE), lo que aumenta los niveles de acetilcolina. Su uso conocido es la enfermedad de Alzheimer, y también se ha explorado en deterioro cognitivo vascular y en disfunción de la marcha en enfermedad de Parkinson (ensayo de Fase 2).
 
 En el ojo, más acetilcolina sobre los receptores muscarínicos puede contraer el músculo ciliar y aumentar el drenaje por la malla trabecular, lo que reduciría la presión intraocular (PIO), principal factor de riesgo modificable del glaucoma. Un estudio en conejos con rivastigmina tópica reportó descenso de la PIO, y una revisión de 2024 respalda el papel de los agentes colinérgicos en la reducción de la PIO.
 
@@ -145,7 +145,7 @@ La evidencia es solo preclínica e indirecta (nivel L4), sin ensayos en humanos 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
@@ -153,6 +153,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "no hay producto vigente en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros sanitarios: 2 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

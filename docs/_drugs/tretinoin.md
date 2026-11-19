@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **nódulos reumatoides (rh
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según la información conocida, tretinoína es un retinoide que actúa como agonista de los receptores de ácido retinoico (RARα, RARβ y RARγ). También muestra interacción farmacológica con otros receptores nucleares como PPARβ/δ, RORβ, TR4 y TLX. Se usa en trastornos cutáneos (acné, daño por radiación UV, trastornos de queratinización) y como agente diferenciador en leucemia promielocítica aguda.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Tretinoin (traducción no oficial): «La tretinoína induce la citodiferenciación y la disminución de la proliferación de las células de LPA en cultivo e in vivo. En los pacientes con LPA, el tratamiento con tretinoína produce una maduración inicial de los promielocitos primitivos derivados del clon leucémico, seguida de una repoblación de la médula ósea y de la sangre periférica por células hematopoyéticas normales y policlonales en los pacientes que alcanzan la remisión completa (RC).» Texto original en inglés: "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9), versión del 2026-08-20; consultado el 2026-11-19). Según la información conocida, tretinoína es un retinoide que actúa como agonista de los receptores de ácido retinoico (RARα, RARβ y RARγ). También muestra interacción farmacológica con otros receptores nucleares como PPARβ/δ, RORβ, TR4 y TLX. Se usa en trastornos cutáneos (acné, daño por radiación UV, trastornos de queratinización) y como agente diferenciador en leucemia promielocítica aguda.
 
 La relación con los nódulos reumatoides es indirecta. Los retinoides tienen efectos inmunomoduladores (por ejemplo, sobre el equilibrio Th17/Treg), lo que podría relacionarse con la inflamación reumatoide. Sin embargo, esto es una hipótesis teórica: no hay ensayos ni literatura que evalúen tretinoína en esta enfermedad, y la similitud con la indicación original aún no se ha analizado.
 
@@ -135,11 +135,12 @@ La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clín
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->
 

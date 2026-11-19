@@ -56,7 +56,7 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis**, pero ac
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, la cefpodoxima es una cefalosporina oral de tercera generación que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas de unión a penicilina.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cefpodoxime es (traducción no oficial): «Inhibidor de las proteínas bacterianas de unión a penicilina» Texto original en inglés: "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la cefpodoxima es una cefalosporina oral de tercera generación que inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas de unión a penicilina.
 
 La osteoartritis es una enfermedad degenerativa de la articulación, asociada a degradación del cartílago, estrés mecánico e inflamación de bajo grado. Ningún mecanismo antibacteriano explica de forma plausible un efecto sobre ella, por lo que no se establece un vínculo mecanístico.
 
@@ -102,6 +102,19 @@ La predicción se basa solo en el modelo TxGNN, sin ensayos clínicos, literatur
 - Datos del mecanismo de acción y una hipótesis mecanística justificada.
 - Advertencias y contraindicaciones del prospecto de INVIMA.
 - Revisión de las interacciones farmacológicas si se considerara su uso junto con tratamientos habituales (por ejemplo, antiácidos o inhibidores de bomba de protones).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -58,7 +58,7 @@ Ertapenem es un antibiótico carbapenémico inyectable. Sus registros sanitarios
 
 ## ¿Por qué es Razonable esta Predicción?
 
-No se dispone de datos detallados sobre el mecanismo de acción en la base de datos consultada. Por conocimiento general, ertapenem es un carbapenémico de amplio espectro. Inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina, y actúa contra bacterias grampositivas, gramnegativas y anaerobias. Además, alcanza una penetración en hueso y articulaciones suficiente para su uso en terapia parenteral ambulatoria.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ertapenem (traducción no oficial): «El ertapenem sódico es un antibiótico carbapenémico. […] El ertapenem tiene actividad in vitro contra bacterias aerobias y anaerobias grampositivas y gramnegativas. La actividad bactericida del ertapenem se debe a la inhibición de la síntesis de la pared celular y está mediada por la unión del ertapenem a las proteínas de unión a penicilina (PBP).» Texto original en inglés: "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), versión del 2026-02-04; consultado el 2026-11-19). Por conocimiento general, ertapenem es un carbapenémico de amplio espectro. Inhibe la síntesis de la pared celular bacteriana al unirse a las proteínas fijadoras de penicilina, y actúa contra bacterias grampositivas, gramnegativas y anaerobias. Además, alcanza una penetración en hueso y articulaciones suficiente para su uso en terapia parenteral ambulatoria.
 
 La artritis bacteriana (séptica) la causan microorganismos como *Klebsiella pneumoniae*, *Prevotella*, *Citrobacter* y enterobacterias productoras de BLEE, que están dentro del espectro de ertapenem. Por eso la predicción es plausible desde el punto de vista mecanístico. Sin embargo, se trata de una extensión de su actividad antibacteriana ya conocida y no de un mecanismo nuevo de reposicionamiento.
 
@@ -149,13 +149,14 @@ Como nota adicional, la segunda indicación predicha (infección por *Staphyloco
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los dos registros figuran como **cancelados**, por lo que actualmente no hay registros vigentes de ertapenem en Colombia en los datos compil" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "pues no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 2 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->
 

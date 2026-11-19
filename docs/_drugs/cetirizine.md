@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad de la cavidad
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, la cetirizina es un antagonista del receptor H1 (gen HRH1) con muy baja penetración cerebral, por lo que no produce la somnolencia asociada a otros antihistamínicos. Se usa para controlar síntomas de rinitis alérgica, urticaria crónica y asma inducida por polen.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Cetirizine (traducción no oficial): «El clorhidrato de cetirizina, un metabolito humano de la hidroxizina, es un antihistamínico; sus efectos principales están mediados por la inhibición selectiva de los receptores H 1 periféricos. La actividad antihistamínica del clorhidrato de cetirizina se ha documentado claramente en diversos modelos animales y humanos.» Texto original en inglés: "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), versión del 2026-09-22; consultado el 2026-11-19). Según la información farmacológica conocida, la cetirizina es un antagonista del receptor H1 (gen HRH1) con muy baja penetración cerebral, por lo que no produce la somnolencia asociada a otros antihistamínicos. Se usa para controlar síntomas de rinitis alérgica, urticaria crónica y asma inducida por polen.
 
 El término "enfermedad de la cavidad nasal" es muy amplio. El bloqueo H1 es relevante en cuadros nasales con un componente mediado por histamina, como la rinitis alérgica. Para otras enfermedades inflamatorias nasales o sinusales, el vínculo es indirecto y depende de que exista dicho componente histamínico. Por ello, antes de cualquier evaluación convendría acotar la indicación a entidades específicas.
 
@@ -104,6 +104,19 @@ La predicción es amplia y no está respaldada por ensayos clínicos ni por estu
 - Datos detallados del mecanismo de acción.
 - Estudios clínicos o literatura que evalúen directamente cetirizina en la entidad elegida.
 - Revisión del prospecto aprobado por INVIMA (advertencias y contraindicaciones).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

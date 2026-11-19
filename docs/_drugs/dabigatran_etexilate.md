@@ -58,7 +58,7 @@ Dabigatrán etexilato es un anticoagulante oral inhibidor directo de la trombina
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, dabigatrán es un inhibidor directo de la trombina, y su eficacia como anticoagulante está establecida en sus usos aprobados.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dabigatran Etexilate (traducción no oficial): «Dabigatrán y sus acilglucurónidos son inhibidores directos y competitivos de la trombina. Debido a que la trombina (serina proteasa) permite la conversión del fibrinógeno en fibrina durante la cascada de la coagulación, su inhibición impide la formación de un trombo.» Texto original en inglés: "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), versión del 2026-11-02; consultado el 2026-11-19). Según la información conocida, dabigatrán es un inhibidor directo de la trombina, y su eficacia como anticoagulante está establecida en sus usos aprobados.
 
 Mecanísticamente existe un vínculo plausible pero hipotético: la trombina y la señalización de PAR-1 contribuyen a la inflamación y la fibrosis hepática, por lo que inhibir la trombina podría influir en la fibrosis colestásica propia de la colangitis esclerosante. Sin embargo, no hay estudios que lo confirmen.
 
@@ -131,12 +131,13 @@ La predicción para colangitis esclerosante se basa solo en el modelo (nivel L5)
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
 
 <!-- review:end log -->
 

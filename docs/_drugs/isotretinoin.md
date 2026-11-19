@@ -56,7 +56,7 @@ pero actualmente no hay ensayos clínicos ni publicaciones que respalden esta di
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la isotretinoína es un retinoide que actúa a través de los receptores del ácido retinoico, los cuales regulan la diferenciación celular.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Isotretinoin (traducción no oficial): «Se desconoce el mecanismo de acción exacto de Zenatane en el tratamiento del acné nodular grave y resistente en pacientes no embarazadas de 12 años de edad o más con múltiples nódulos inflamatorios de un diámetro de 5 mm o más que no responden al tratamiento convencional, incluidos los antibióticos sistémicos. La isotretinoína, un retinoide, inhibe la función de las glándulas sebáceas y la queratinización.» Texto original en inglés: "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), versión del 2026-09-20; consultado el 2026-11-19). Según la información conocida, la isotretinoína es un retinoide que actúa a través de los receptores del ácido retinoico, los cuales regulan la diferenciación celular.
 
 Hay descripciones preclínicas de que la señalización del ácido retinoico podría influir en la biología renal y vascular (por ejemplo, en el sistema renina-angiotensina y en la lesión glomerular o de los podocitos). Esto es solo una hipótesis: ningún dato aportado en este informe la respalda, y el puntaje del modelo (0,9901) es únicamente una predicción computacional.
 
@@ -116,6 +116,19 @@ La predicción se basa solo en el modelo (nivel L5): no hay ensayos clínicos ni
 - Prospecto de INVIMA con advertencias y contraindicaciones, para el tamizaje de seguridad
 - Estudios preclínicos o clínicos que evalúen directamente la isotretinoína en esta enfermedad renal
 - Evaluación de la compatibilidad de la vía de administración y de la similitud con la indicación original
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

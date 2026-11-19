@@ -56,7 +56,7 @@ pero actualmente solo existen **0 ensayos clínicos** y **2 publicaciones** (amb
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en la información compilada. Según lo conocido, mometasona es un corticosteroide potente que actúa sobre el receptor de glucocorticoides (NR3C1), con efectos antiinflamatorios e inmunosupresores. Se utiliza por vía intranasal en asma, rinitis alérgica y pólipos nasales, y por vía tópica en trastornos alérgicos de la piel.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mometasone (traducción no oficial): «El furoato de mometasona es un corticosteroide que demuestra una potente actividad antiinflamatoria. Se desconoce el mecanismo preciso de la acción de los corticosteroides sobre el asma. La inflamación es un componente importante de la patogénesis del asma.» Texto original en inglés: "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), versión del 2026-07-07; consultado el 2026-11-19). Según lo conocido, mometasona es un corticosteroide potente que actúa sobre el receptor de glucocorticoides (NR3C1), con efectos antiinflamatorios e inmunosupresores. Se utiliza por vía intranasal en asma, rinitis alérgica y pólipos nasales, y por vía tópica en trastornos alérgicos de la piel.
 
 Los corticosteroides tópicos son una terapia dirigida a la piel establecida para el micosis fungoide en etapa temprana, la forma más común de linfoma cutáneo primario de células T. Al suprimir la activación de los linfocitos T y la señalización de citocinas, mecanísticamente podría ser aplicable a esta enfermedad, lo que es coherente con el alto puntaje del modelo.
 
@@ -120,12 +120,13 @@ La predicción tiene un puntaje alto y un fundamento mecanístico plausible (los
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Nota: los 6 registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 6 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

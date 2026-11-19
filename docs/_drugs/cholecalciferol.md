@@ -56,7 +56,7 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción del fármaco en los datos compilados para este informe. Según la información general conocida, el colecalciferol es un precursor de la vitamina D que el organismo convierte en metabolitos activos. Estos participan en la absorción de calcio y fósforo y en la homeostasis ósea. Su uso en productos con calcio y multivitaminas es coherente con ese papel.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cholecalciferol es (traducción no oficial): «Agonista del receptor de la vitamina D» Texto original en inglés: "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0; consultado el 2026-11-19). Según la información general conocida, el colecalciferol es un precursor de la vitamina D que el organismo convierte en metabolitos activos. Estos participan en la absorción de calcio y fósforo y en la homeostasis ósea. Su uso en productos con calcio y multivitaminas es coherente con ese papel.
 
 La displasia acromesomélica es un trastorno genético del desarrollo del esqueleto. Suele estar asociada a la vía NPR2/CNP-GMPc, que regula la osificación endocondral. El colecalciferol apoya el metabolismo mineral y óseo, pero los datos disponibles no sustentan un mecanismo directo por el cual pueda corregir el defecto genético de fondo.
 
@@ -101,6 +101,19 @@ La predicción tiene un puntaje muy alto, pero no existe ningún ensayo clínico
 - Revisión del prospecto aprobado por INVIMA para advertencias y contraindicaciones.
 - Evaluación del riesgo de hipercalcemia y nefrocalcinosis ante cualquier uso en dosis altas.
 - Si el interés es la salud ósea, valorar otras indicaciones predichas con más respaldo clínico, como la osteodistrofia renal, que cuenta con ensayos y literatura.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

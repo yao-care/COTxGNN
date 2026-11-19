@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **empiema pleural**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, la mupirocina es un antibacteriano tópico que inhibe la isoleucil-tRNA sintetasa bacteriana y es activo sobre todo contra cocos grampositivos, como *Staphylococcus aureus* (incluido el SARM) y estreptococos.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Mupirocin (traducción no oficial): «La mupirocina es un antibacteriano inhibidor de la ARN sintetasa. […] La mupirocina inhibe la síntesis de proteínas bacterianas mediante la unión reversible y específica a la isoleucil-ARN de transferencia (ARNt) sintetasa bacteriana. La mupirocina es bactericida a las concentraciones alcanzadas mediante la administración tópica.» Texto original en inglés: "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), versión del 2020-03-20; consultado el 2026-11-19). Según la información conocida, la mupirocina es un antibacteriano tópico que inhibe la isoleucil-tRNA sintetasa bacteriana y es activo sobre todo contra cocos grampositivos, como *Staphylococcus aureus* (incluido el SARM) y estreptococos.
 
 Estos microorganismos pueden causar empiema pleural, por lo que existe un vínculo antibacteriano teórico entre la indicación original y la nueva.
 
@@ -123,11 +123,12 @@ La predicción no cuenta con ensayos clínicos ni literatura (nivel L5), y la mu
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
 
 <!-- review:end log -->
 

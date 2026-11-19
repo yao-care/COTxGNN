@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 ## Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información farmacológica conocida, romiplostim es un péptido agonista del receptor de trombopoyetina (MPL) que estimula la producción de plaquetas, y su uso establecido es la PTI crónica.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Romiplostim (traducción no oficial): «Nplate aumenta la producción de plaquetas mediante la unión al receptor de TPO y su activación, un mecanismo análogo al de la TPO endógena.» Texto original en inglés: "Nplate increases platelet production through binding and activation of the TPO receptor, a mechanism analogous to endogenous TPO." ([DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037), versión del 2026-06-23; consultado el 2026-11-19). Según la información farmacológica conocida, romiplostim es un péptido agonista del receptor de trombopoyetina (MPL) que estimula la producción de plaquetas, y su uso establecido es la PTI crónica.
 
 Sin embargo, el trastorno de liberación primaria de plaquetas es un defecto **cualitativo** de la función plaquetaria, que normalmente cursa con recuento de plaquetas normal. Aumentar el número de plaquetas difícilmente corregiría el defecto. La única publicación recuperada (PMID 25682608) trata de autoanticuerpos antiplaquetarios en PTI, no de este trastorno. El vínculo mecanístico es indirecto y el puntaje tan alto del modelo no está respaldado por evidencia clínica.
 
@@ -125,12 +125,13 @@ La predicción se basa solo en el modelo (L5): no hay ensayos clínicos y la ún
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: el registro está cancelado, por lo que se requeriría un nuevo registro o una vía de importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Nplate (romiplostim) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c45f9a58-37c1-4f76-8e36-97d38c577037) |
 
 <!-- review:end log -->
 

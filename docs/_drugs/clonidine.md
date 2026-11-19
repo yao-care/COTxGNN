@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrados para este informe. Por conocimiento general, la clonidina actúa como agonista alfa-2 adrenérgico y disminuye la liberación de noradrenalina a nivel central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Clonidine (traducción no oficial): «La clonidina estimula los adrenorreceptores alfa en el tronco encefálico. Esta acción produce una reducción de la eferencia simpática desde el sistema nervioso central y disminuciones de la resistencia periférica, la resistencia vascular renal, la frecuencia cardíaca y la presión arterial.» Texto original en inglés: "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), versión del 2026-08-12; consultado el 2026-11-19). Por conocimiento general, la clonidina actúa como agonista alfa-2 adrenérgico y disminuye la liberación de noradrenalina a nivel central.
 
 El síndrome faciodigitogenital es un trastorno genético raro del desarrollo. Con los datos compilados no se identifica un vínculo mecanístico plausible entre la agonía alfa-2 y este síndrome. El puntaje elevado del modelo (0,9999) es una señal computacional que no está respaldada por estudios reales.
 
@@ -96,6 +96,19 @@ No existen ensayos clínicos ni literatura sobre clonidina en el síndrome facio
 - Datos del mecanismo de acción y una hipótesis biológica que vincule la agonía alfa-2 con este síndrome
 - Estudios preclínicos o series de casos que sustenten la hipótesis
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

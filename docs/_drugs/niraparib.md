@@ -67,7 +67,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia quística**, c
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados. Según la información conocida, niraparib inhibe PARP1/2 y causa letalidad sintética en tumores con deficiencia de recombinación homóloga (HRD), como el carcinoma seroso de ovario de alto grado con mutación de BRCA o HRD positivo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Niraparib (traducción no oficial): «El niraparib es un inhibidor de las enzimas PARP, incluidas PARP-1 y PARP-2, que desempeñan un papel en la reparación del ADN. Los estudios in vitro han demostrado que la citotoxicidad inducida por niraparib puede implicar la inhibición de la actividad enzimática de PARP y un aumento de la formación de complejos PARP-ADN, lo que da lugar a daño del ADN, apoptosis y muerte celular.» Texto original en inglés: "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), versión del 2026-07-28; consultado el 2026-11-19). Según la información conocida, niraparib inhibe PARP1/2 y causa letalidad sintética en tumores con deficiencia de recombinación homóloga (HRD), como el carcinoma seroso de ovario de alto grado con mutación de BRCA o HRD positivo.
 
 La literatura recuperada se centra en carcinomas serosos de ovario y endometrio (pruebas de HRD, resistencia a inhibidores de PARP por metilación de RAD51C, mantenimiento con niraparib). Estos tumores son de tipo seroso o quístico, por lo que el vínculo con la etiqueta amplia "neoplasia quística" es **indirecto** y pasa por la histología serosa.
 
@@ -163,13 +163,14 @@ La evidencia es indirecta: los ensayos son de Fase 2 (uno reclutando, uno termin
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y evaluar la viabilidad de un nuevo registro" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que contó con un registro sanitario en Colombia (hoy cancelado), cuyo texto de indicación solo consigna el nombre del principio activo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

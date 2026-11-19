@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **arteriosclerosis intracr
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, ticagrelor es un inhibidor reversible del receptor plaquetario P2Y12, que reduce la agregación plaquetaria y la formación de trombos sobre placas ateroscleróticas.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Ticagrelor (traducción no oficial): «El ticagrelor y su metabolito principal interactúan de forma reversible con el receptor plaquetario de ADP P2Y 12 para impedir la transducción de señales y la activación plaquetaria. El ticagrelor y su metabolito activo tienen una potencia aproximadamente equivalente.» Texto original en inglés: "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), versión del 2026-05-07; consultado el 2026-11-19). Según la información conocida, ticagrelor es un inhibidor reversible del receptor plaquetario P2Y12, que reduce la agregación plaquetaria y la formación de trombos sobre placas ateroscleróticas.
 
 La arteriosclerosis intracraneal sintomática provoca ictus por embolia arterio-arterial y trombosis in situ, procesos en los que participan las plaquetas. Por ello, la inhibición de P2Y12 tiene una base mecanística directa. El tratamiento habitual actual combina clopidogrel y aspirina durante 90 días, seguido de aspirina sola, pero el riesgo de ictus recurrente sigue siendo alto durante los primeros 12 meses.
 
@@ -135,12 +135,13 @@ Aunque el puntaje de TxGNN es muy alto y existe un ensayo de Fase 3 en curso en 
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, no existe actualmente un registro sanitario vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los tres registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

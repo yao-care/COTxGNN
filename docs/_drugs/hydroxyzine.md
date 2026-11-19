@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado para este informe. Por su clase, la hidroxizina es un antihistamínico H1, con efectos antipruriginosos y sedantes conocidos.
+Según la sección «Clinical Pharmacology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Hydroxyzine (traducción no oficial): «La hidroxizina no es un depresor cortical, pero su acción puede deberse a una supresión de la actividad en ciertas regiones clave del área subcortical del sistema nervioso central. Se ha demostrado experimentalmente una relajación primaria del músculo esquelético.» Texto original en inglés: "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), versión del 2026-11-12; consultado el 2026-11-19). Por su clase, la hidroxizina es un antihistamínico H1, con efectos antipruriginosos y sedantes conocidos.
 
 La posible relación con la conjuntivitis por rosácea sería a través de un efecto antiinflamatorio o antipruriginoso general del bloqueo H1. Sin embargo, la rosácea ocular depende sobre todo de la disfunción de las glándulas de Meibomio y de factores microbianos e inflamatorios, por lo que el fundamento basado en la vía de la histamina es débil y no está verificado.
 
@@ -100,6 +100,19 @@ La predicción tiene un puntaje alto (0,9970), pero no cuenta con ensayos clíni
 - Prospecto del INVIMA con advertencias y contraindicaciones
 - Evaluación de compatibilidad de vía de administración (la presentación local es inyectable; una indicación ocular probablemente requeriría otra vía)
 - Estudios preclínicos o exploratorios que respalden la hipótesis
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

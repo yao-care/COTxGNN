@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infarto de miocardio pos
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según la información conocida, lisinopril es un inhibidor de la ECA, una clase que bloquea el sistema renina-angiotensina-aldosterona (RAAS). Esta clase tiene un papel establecido en la atención posterior a un infarto de miocardio, al reducir el remodelado ventricular adverso.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Lisinopril (traducción no oficial): «El lisinopril inhibe la enzima convertidora de angiotensina (ECA) en seres humanos y en animales. La ECA es una peptidil dipeptidasa que cataliza la conversión de la angiotensina I en la sustancia vasoconstrictora angiotensina II. La angiotensina II también estimula la secreción de aldosterona por la corteza suprarrenal.» Texto original en inglés: "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), versión del 2025-12-16; consultado el 2026-11-19). Según la información conocida, lisinopril es un inhibidor de la ECA, una clase que bloquea el sistema renina-angiotensina-aldosterona (RAAS). Esta clase tiene un papel establecido en la atención posterior a un infarto de miocardio, al reducir el remodelado ventricular adverso.
 
 La relación con la indicación original es solo de clase: el registro colombiano no especifica una indicación clínica, por lo que la similitud con la nueva indicación no pudo evaluarse formalmente. Existe un racional general para el infarto de miocardio, pero no hay ensayos ni literatura específicos del subtipo posterolateral. La evidencia general de la clase (por ejemplo, estudios como GISSI-3) no forma parte de los datos suministrados y no se acredita aquí.
 
@@ -145,12 +145,13 @@ La predicción para infarto de miocardio posterolateral es solo del modelo (nive
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el producto no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

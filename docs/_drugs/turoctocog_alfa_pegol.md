@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno de liberaci
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción registrado. Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante pegilado, cuya función es reponer el factor VIII deficiente en la cascada de coagulación. Su eficacia se ha establecido en la indicación original de reposición de factor VIII.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Turoctocog Alfa Pegol es (traducción no oficial): «Proteína exógena del factor VIII de la coagulación» Texto original en inglés: "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, turoctocog alfa pegol es un factor VIII recombinante pegilado, cuya función es reponer el factor VIII deficiente en la cascada de coagulación. Su eficacia se ha establecido en la indicación original de reposición de factor VIII.
 
 La relación con la nueva indicación es débil. El trastorno de liberación primaria de las plaquetas es un defecto intrínseco de la función plaquetaria (secreción de gránulos), por lo que la reposición de factor VIII no corrige el problema de fondo. El puntaje alto de TxGNN refleja cercanía en la red de conocimiento dentro del espacio de los trastornos hemorrágicos, y no un fundamento biológico validado.
 
@@ -98,11 +98,12 @@ No existe ningún ensayo clínico ni publicación que respalde el uso de turocto
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los cuatro registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
 
 <!-- review:end log -->
 

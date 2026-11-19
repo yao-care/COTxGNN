@@ -56,7 +56,7 @@ pero la evidencia es limitada: **0 ensayos clínicos** y **4 publicaciones** (un
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este informe. Según el conocimiento general, el miconazol inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa), bloqueando la síntesis de ergosterol. Esta descripción proviene de conocimiento general y no de los datos suministrados.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Miconazole (traducción no oficial): «El miconazol es un fármaco antifúngico. […] El miconazol inhibe la enzima citocromo P450 14α-desmetilasa, lo que conduce a la inhibición de la síntesis de ergosterol, un componente esencial de la membrana celular fúngica. El miconazol también afecta la síntesis de triglicéridos y ácidos grasos e inhibe las enzimas oxidativas y peroxidativas, lo que aumenta la cantidad de especies reactivas de oxígeno dentro de la célula.» Texto original en inglés: "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), versión del 2026-01-08; consultado el 2026-11-19). Según el conocimiento general, el miconazol inhibe la enzima fúngica CYP51 (lanosterol 14-alfa-desmetilasa), bloqueando la síntesis de ergosterol. Esta descripción proviene de conocimiento general y no de los datos suministrados.
 
 En el acné se plantean varios vínculos posibles: (1) actividad in vitro de los azoles contra *Cutibacterium (Propionibacterium) acnes* (PMID 20045949); (2) actividad contra *Malassezia*, causante de la foliculitis por *Malassezia*, una afección que imita el acné (PMID 8593718); y (3) efectos antibacterianos y antiinflamatorios descritos en la piel (PMID 18627330). Un estudio dividido en hemicara en acné inflamatorio leve catamenial (PMID 15536660) aporta datos humanos a pequeña escala.
 
@@ -107,11 +107,12 @@ La predicción tiene un puntaje alto (0,9954), pero la evidencia llega solo a L4
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria actual (registro cancelado) y la disponibilidad de formulaciones tópicas" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
 
 <!-- review:end log -->
 

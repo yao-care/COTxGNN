@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción de azitromicina en los datos compilados para este informe. Por conocimiento general, es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, pero esto no se ha vinculado a la hiperviscosidad policlonal.
+Según las secciones «Mechanism of Action» y «Microbiology» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Azithromycin (traducción no oficial): «La azitromicina es un fármaco antibacteriano macrólido. […] La azitromicina actúa uniéndose al ARNr 23S de la subunidad ribosómica 50S de los microorganismos sensibles, lo que inhibe la síntesis de proteínas bacterianas e impide el ensamblaje de la subunidad ribosómica 50S.» Texto original en inglés: "Azithromycin is a macrolide antibacterial drug. […] Azithromycin acts by binding to the 23S rRNA of the 50S ribosomal subunit of susceptible microorganisms inhibiting bacterial protein synthesis and impeding the assembly of the 50S ribosomal subunit." ([DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a), versión del 2026-09-09; consultado el 2026-11-19). Por conocimiento general, es un macrólido con actividad antibacteriana y propiedades antiinflamatorias, pero esto no se ha vinculado a la hiperviscosidad policlonal.
 
 Los datos compilados no sustentan ningún vínculo mecanístico entre el fármaco y esta enfermedad. El puntaje alto (0.9981) proviene únicamente del modelo de predicción y no está respaldado por ensayos ni literatura. La similitud con la indicación original aún está pendiente de evaluación.
 
@@ -99,6 +99,19 @@ No existe ningún estudio que evalúe azitromicina en el síndrome de hipervisco
 - Revisión de literatura biomédica y registros de ensayos específicos para esta enfermedad
 - Evidencia preclínica que respalde una hipótesis mecanística
 - Información de seguridad del prospecto, incluida la evaluación de las contraindicaciones señaladas (especialmente riesgo de prolongación del QT)
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zithromax (azithromycin dihydrate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d24bacb-feff-4c6a-b8df-625e1435387a) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

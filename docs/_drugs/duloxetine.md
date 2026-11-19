@@ -60,7 +60,7 @@ Entre las predicciones evaluadas, la mejor respaldada es el **trastorno obsesivo
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de acción en los datos compilados para este reporte. Según la información conocida, la duloxetina es un IRSN: aumenta la disponibilidad de serotonina y noradrenalina en el sistema nervioso central.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Duloxetine (traducción no oficial): «Aunque se desconocen los mecanismos exactos de las acciones antidepresiva, inhibidora central del dolor y ansiolítica de la duloxetina en los seres humanos, se cree que estas acciones están relacionadas con su potenciación de la actividad serotoninérgica y noradrenérgica en el SNC.» Texto original en inglés: "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), versión del 2026-08-20; consultado el 2026-11-19). Según la información conocida, la duloxetina es un IRSN: aumenta la disponibilidad de serotonina y noradrenalina en el sistema nervioso central.
 
 Para la primera predicción (tortícolis paroxístico benigno de la infancia) **no hay respaldo clínico ni bibliográfico**. Se trata de un trastorno pediátrico relacionado con la migraña, a menudo vinculado al gen CACNA1A, y la plausibilidad de la inhibición de recaptación de serotonina-noradrenalina es débil. Además, la duloxetina no está establecida para uso en lactantes. El puntaje elevado proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -152,12 +152,13 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínc
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 2 → 10 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 
