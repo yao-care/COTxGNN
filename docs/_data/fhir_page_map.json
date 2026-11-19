@@ -219,6 +219,19 @@
         "UsTxGNN"
       ]
     },
+    "db00181": {
+      "page": "baclofen",
+      "sources": [
+        "ARTxGNN",
+        "AuTxGNN",
+        "CaTxGNN",
+        "DkTxGNN",
+        "HkTxGNN",
+        "NlTxGNN",
+        "SgTxGNN",
+        "UkTxGNN"
+      ]
+    },
     "db00211": {
       "page": "midodrine",
       "sources": [
@@ -2698,6 +2711,15 @@
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
+      ]
+    },
+    "db05039": {
+      "page": "indacaterol",
+      "sources": [
+        "AuTxGNN",
+        "CaTxGNN",
+        "HkTxGNN",
+        "ZaTxGNN"
       ]
     },
     "db05109": {

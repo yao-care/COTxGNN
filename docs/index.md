@@ -42,7 +42,7 @@ Informes por nivel de evidencia:
 | L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
 {% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
 
-75 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+27 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
 
 ### Medicamentos con mayor nivel de evidencia en este sitio
 
@@ -63,18 +63,10 @@ Informes por nivel de evidencia:
 
 | Medicamento | Nivel de evidencia |
 |---|---|
-| [Acetato De Hidrocortisona](/drugs/acetato-de-hidrocortisona/) | L2 |
 | [Atorvastatina](/drugs/atorvastatina/) | L2 |
-| [Acetato De Indacaterol](/drugs/acetato-de-indacaterol/) | L5 |
-| [Alopurinol](/drugs/alopurinol/) | L5 |
 | [Thimerosal](/drugs/thimerosal/) | L5 |
 | [Aminofilina](/drugs/aminofilina/) | L5 |
-| [Azatioprina](/drugs/azatioprina/) | L5 |
-| [Lamivudina](/drugs/lamivudina/) | L5 |
 | [Articaina](/drugs/articaina/) | L5 |
-| [Atazanavir Sulfato](/drugs/atazanavir-sulfato/) | L5 |
-| [Leuprolide Acetato](/drugs/leuprolide-acetato/) | L5 |
-| [Beclometasona Dipropionato](/drugs/beclometasona-dipropionato/) | L5 |
 
 <!-- local-home:end -->
 

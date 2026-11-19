@@ -37,3 +37,12 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-10-31～11-06 依成分重建後直接刪掉的矛盾子句，2026-11-12 已用 `scripts/reviews_from_edits.py --git` 轉成 896 筆紀錄（429 頁；其中 8 筆因報告在 11 月經 AI 重產、原句已不在頁面，標 resolved_by_regeneration）。
 `scripts/sync_notes_to_docs.py` 依 notes 重寫整頁時，會重套紀錄（有程式許可證表的站也保留舊頁的程式區塊），notes 裡的舊錯句會被紀錄再更正一次。
 2026-11-12 正文許可證張數對事實層掃描：62 頁 66 筆 correct 紀錄（`co-lic-20261112-*`）把 AI 正文裡依 10-31 前舊證據包寫的「N registros vigentes」等張數改成事實層（vigentes＝程式狀態列的有效張數；資料只收到 20 筆上限的頁寫「al menos N」）。正文數字＝有效＋暫時未上市（Temp. no comerc - Vigente，法律上仍有效）的不改；artemether、rivastigmine、octreotide 的「一／兩張註冊」2026-11-12 依事實層與證據包逐句改寫（`co-lic-20261112-{artemether,rivastigmine,octreotide}-1`：2、11、2 張；下文的單一產品說法查過仍成立），錨在 octreotide 那句的 co-lic-20261105-octreotide-2 改錨、前版存 history。
+
+## 同一 DrugBank ID 的重複公開頁改轉址（2026-11-19）
+
+用戶 2026-11-19 決定（照 ARTxGNN 同日做法）：公開藥物頁同一 DrugBank ID（front matter drugbank_id，沒有的用證據包 drug.drugbank_id 與 dbXXXXX 轉址頁推斷）、預測相同的，留一頁、另一頁改轉址（layout: id_redirect、permalink 不變、sitemap: false、search_exclude、nav_exclude）。
+20 組 21 頁，各組許可證號完全相同；保留順序：查核紀錄數→字數（差 5% 內算平手）→西文 INN 名，保留頁等級不低於被轉址頁。
+轉址：leuprolide_acetato→leuprolide、baclofeno→baclofen、azitromicina→azithromycin、amlodipino→amlodipine、beclometasona、beclometasona_dipropionato→beclomethasone_dipropionate、ampicilina→ampicillin、alopurinol→allopurinol、lansoprazole→lansoprazol（平手）、lenalidomida→lenalidomide、lamotrigina→lamotrigine、lamivudina→lamivudine、acetato_de_hidrocortisona→hydrocortisone、azatioprina→azathioprine、amoxicillin→amoxicilina（平手）、atazanavir_sulfato→atazanavir、atorvastatin→atorvastatina、leflunomida→leflunomide、aripiprazol→aripiprazole、acetato_de_indacaterol→indacaterol、aceclofenac→aceclofenaco。
+dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db06736）改成直接指保留頁，沒有轉址鏈；db00381 仍指 amlodipine（保留頁）。llms.txt／llms-full.txt 的範例藥 Atorvastatin 換成 Atorvastatina。
+被轉址頁的查核紀錄（leuprolide_acetato、amlodipino、alopurinol、lenalidomida 各 1 筆，全是 resolved_by_regeneration）留在 drug_reviews.json 當歷史（apply_drug_reviews 跳過轉址頁）。
+公開藥物頁 643→622；FHIR 的 MK 以 DrugBank ID 命名，不變（608）；衍生檔、hreflang 照重產。
