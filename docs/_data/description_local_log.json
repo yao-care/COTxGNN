@@ -1,0 +1,31 @@
+{
+  "_note": "藥物頁 front matter description 句尾「原適應症：本地資料未記載」換成本站許可證快照事實層品項數的紀錄（母目錄 .claude/drug_meta_description.py --apply，2026-11-19 起）。pages＝目前產生的句尾（tail）與被換掉的原字樣（original）；entries＝每次改動的前後整行（from／to，可還原：把第一筆的 from 寫回該頁 description）。",
+  "pages": {
+    "dronabinol": {
+      "tail": "En Colombia, registros sanitarios del INVIMA: 4 (vigentes: 0; además, temporalmente no comercializados: 4)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    },
+    "ziprasidone": {
+      "tail": "En Colombia, registros sanitarios del INVIMA: 1 (vigentes: 0; además, temporalmente no comercializados: 1)",
+      "original": "Indicación original: No consta en los datos locales",
+      "date": "2026-11-19"
+    }
+  },
+  "entries": [
+    {
+      "page": "docs/_drugs/dronabinol.md",
+      "date": "2026-11-19",
+      "from": "\"Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Colombia, registros sanitarios del INVIMA: 4 (vigentes: 0; además, temporalmente no comercializados: 4)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    },
+    {
+      "page": "docs/_drugs/ziprasidone.md",
+      "date": "2026-11-19",
+      "from": "\"Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). Indicación original: No consta en los datos locales\"",
+      "to": "\"Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). En Colombia, registros sanitarios del INVIMA: 1 (vigentes: 0; además, temporalmente no comercializados: 1)\"",
+      "tool": ".claude/drug_meta_description.py --apply"
+    }
+  ]
+}
