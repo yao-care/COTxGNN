@@ -6,6 +6,7 @@ nav_order: 141
 evidence_level: L5
 indication_count: 8
 monitor_inn: "cefalotin"
+drugbank_id: DB00456
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "bronchitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital analbuminemia"]
 last_modified_at: 2026-11-12
 description: "Cefalotin: nueva indicación predicha, uretritis gonocócica (gonococcal urethritis) (nivel de evidencia L5). Indicación original: CEFALOTINA"

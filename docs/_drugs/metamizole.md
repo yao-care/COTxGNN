@@ -8,6 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
+drugbank_id: DB04817
 predicted_indications: ["rheumatoid arthritis", "migraine disorder", "exostosis", "migraine with brainstem aura", "gout", "antithrombin deficiency type 2", "brachydactyly-syndactyly syndrome", "tendinitis", "factor 5 excess with spontaneous thrombosis"]
 ---
 

@@ -5,9 +5,9 @@
   "version": "1.0.0",
   "name": "COTxGNNFHIRServer",
   "title": "COTxGNN FHIR Server - Colombia Drug Repurposing",
-  "description": "FHIR R4 server for Colombia TxGNN drug repurposing predictions. Contains 608 drugs and 3412 predicted indications.",
+  "description": "FHIR R4 server for Colombia TxGNN drug repurposing predictions. Contains 622 drugs and 3499 predicted indications.",
   "status": "active",
-  "date": "2026-11-16",
+  "date": "2026-11-19",
   "publisher": "TxGNN Project",
   "kind": "instance",
   "fhirVersion": "4.0.1",
@@ -43,15 +43,15 @@
       "extension": [
         {
           "url": "MedicationKnowledge",
-          "valueInteger": 608
+          "valueInteger": 622
         },
         {
           "url": "ClinicalUseDefinition",
-          "valueInteger": 3412
+          "valueInteger": 3499
         },
         {
           "url": "countedAt",
-          "valueDate": "2026-11-16"
+          "valueDate": "2026-11-19"
         }
       ]
     }

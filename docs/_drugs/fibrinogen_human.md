@@ -8,6 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: Fibrinógeno humano"
 monitor_inn: "fibrinogen human"
+drugbank_id: DB09222
 predicted_indications: ["hemoglobinopathy"]
 ---
 

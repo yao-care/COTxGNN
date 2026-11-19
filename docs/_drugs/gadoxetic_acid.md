@@ -8,6 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 description: "Gadoxetic Acid: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: Medios de contraste paramagnético (gadolinio)"
 monitor_inn: "gadoxetic acid"
+drugbank_id: DB08884
 predicted_indications: ["hyperthyroidism", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia", "Prinzmetal angina", "infectious bovine rhinotracheitis", "malignant catarrh", "conjunctivitis", "cytomegalovirus infection", "conjunctivitis (disease)", "thrombotic disease"]
 ---
 

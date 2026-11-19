@@ -8,6 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "thiocolchicoside"
+drugbank_id: DB11582
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
 ---
 

@@ -24,7 +24,7 @@ Predicciones de reposicionamiento de medicamentos para medicamentos aprobados po
 | **Medicamentos unicos** | 910 |
 | **Indicaciones unicas** | 17,041 |
 | **Datos DDI** | 160,235 |
-| **Recursos FHIR** | 608 MK / 3,412 CUD |
+| **Recursos FHIR** | 622 MK / 3,499 CUD |
 
 ### Distribucion de niveles de evidencia
 
