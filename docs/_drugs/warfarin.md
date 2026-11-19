@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 666
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Warfarin: nueva indicación predicha, Deficiencia de cofactor 2 de la heparina (nivel de evidencia L5). Indicación original: WARFARINA"
 monitor_inn: "warfarin"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "rheumatoid arthritis", "breast fibrocystic disease", "benign mammary dysplasia"]

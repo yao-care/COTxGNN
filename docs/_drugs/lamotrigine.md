@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 376
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Lamotrigine: nueva indicación predicha, Neoplasia del nervio trigémino (la predicción de rango 1… (nivel de evidencia L2). Indicación original: LAMOTRIGINA"
 monitor_inn: "Lamotrigine"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]

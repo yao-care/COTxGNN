@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 647
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
 description: "Triptorelin: nueva indicación predicha, Hipertricosis (hypertrichosis (disease)) (nivel de evidencia L5). Indicación original: TRIPTORELIN"

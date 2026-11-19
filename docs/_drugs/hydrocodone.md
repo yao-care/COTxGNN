@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 drugbank_id: DB00956

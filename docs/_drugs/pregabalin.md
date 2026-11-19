@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: Pregabalina"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]

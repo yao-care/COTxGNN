@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 422
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). Indicación original: MEDROXIPROGESTERONA"

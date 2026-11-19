@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: PROGESTÁGENO+ESTRÓGENO"

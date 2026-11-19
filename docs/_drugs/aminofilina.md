@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01223
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Aminofilina: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: AMINOFILINA"
 ---
 

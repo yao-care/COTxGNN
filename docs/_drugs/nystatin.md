@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: nueva indicación predicha, Enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: COMBINACIONES DE IMIDAZOL DERIVADOS"

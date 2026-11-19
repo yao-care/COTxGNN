@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Isotretinoin: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: ISOTETRINOINA"
 ---
 

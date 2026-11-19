@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01006
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-20
 description: "Letrozol: nueva indicación predicha, Carcinoma del pezón (nipple carcinoma) (nivel de evidencia L5). Indicación original: LETROZOL"
 ---
 

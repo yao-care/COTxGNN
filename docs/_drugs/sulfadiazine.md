@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Sulfadiazine: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: SULFADIAZINA"
 monitor_inn: "Sulfadiazine"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 104
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: BETAMETASONA Y ANTIBIOTICOS"

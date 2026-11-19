@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: ITRACONAZOL"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]

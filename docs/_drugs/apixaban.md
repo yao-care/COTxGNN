@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: INHIBIDORES DIRECTOS DEL FACTOR XA"

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "DANAZOL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "breast abscess", "fat necrosis of breast", "lactation disease", "breast adenosis", "vulvovaginitis", "vulvitis"]
 description: "Danazol: nueva indicación predicha, amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: DANAZOL"

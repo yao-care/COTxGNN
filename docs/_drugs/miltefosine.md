@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Miltefosine"
 predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Miltefosine: nueva indicación predicha, Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) (nivel de evidencia L5). Indicación original: MILTEFOSINA"
 ---
 

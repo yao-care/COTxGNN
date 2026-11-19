@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Bromazepam"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]

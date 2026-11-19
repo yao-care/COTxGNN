@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 566
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: RISPERIDONA"

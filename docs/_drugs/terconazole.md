@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "terconazole"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
 description: "Terconazole: nueva indicación predicha, Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: TERCONAZOL - DEXAMETASONA"

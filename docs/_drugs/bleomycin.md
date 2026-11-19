@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: nueva indicación predicha, neoplasia de la cauda equina (cauda equina neoplasm) (nivel de evidencia L5). Indicación original: BLEOMICINA"

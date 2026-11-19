@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 drugbank_id: DB09511

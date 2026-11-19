@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: LEUPRORELINA ACETATO"

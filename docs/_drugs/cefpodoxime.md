@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-20
 description: "Cefpodoxime: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: CEFPODOXIMA"
 ---
 

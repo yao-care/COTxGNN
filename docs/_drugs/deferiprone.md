@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 201
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). Indicación original: DEFERIPRONA"

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Dimenhidrinato"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]

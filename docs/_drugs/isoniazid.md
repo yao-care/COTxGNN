@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L5). Indicación original: ISONIAZIDA"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
