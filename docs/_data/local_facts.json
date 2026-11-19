@@ -1,0 +1,472 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 622,
+ "level_counts": {
+  "L1": 15,
+  "L2": 21,
+  "L3": 25,
+  "L4": 45,
+  "L5": 499
+ },
+ "level_na": 17,
+ "public_pages": 622,
+ "licence_snapshot": "co_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 547,
+  "drugs_with_current": 540,
+  "drugs_none_current": 7,
+  "drugs_without_data": 75,
+  "drugs_partial": 0,
+  "items_total": 2702,
+  "items_current": 2439
+ },
+ "reviews": {
+  "records": 965,
+  "pages": 443,
+  "public_pages_with_records": 435,
+  "by_action": {
+   "correct": 965
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 622,
+  "clinical_use_definition": 3499
+ },
+ "top_licensed": [
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "l": "L1",
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
+   "i": "seborrheic dermatitis"
+  },
+  {
+   "t": "Salmeterol",
+   "u": "/drugs/salmeterol/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 19,
+   "r": 0,
+   "i": "malformación respiratoria"
+  },
+  {
+   "t": "Sunitinib",
+   "u": "/drugs/sunitinib/",
+   "l": "L2",
+   "lt": 20,
+   "lv": 19,
+   "r": 2,
+   "i": "liposarcoma"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "l": "L4",
+   "lt": 18,
+   "lv": 18,
+   "r": 0,
+   "i": "alopecia mucinosa"
+  },
+  {
+   "t": "Hydrocodone",
+   "u": "/drugs/hydrocodone/",
+   "l": "L4",
+   "lt": 18,
+   "lv": 18,
+   "r": 1,
+   "i": "nasal cavity disease"
+  },
+  {
+   "t": "Nystatin",
+   "u": "/drugs/nystatin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 18,
+   "r": 0,
+   "i": "Enfermedad de la región orbitaria"
+  },
+  {
+   "t": "Olanzapine",
+   "u": "/drugs/olanzapine/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 18,
+   "r": 2,
+   "i": "benign paroxysmal torticollis of infancy"
+  },
+  {
+   "t": "Amoxicilina",
+   "u": "/drugs/amoxicilina/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 17,
+   "r": 0,
+   "i": "Síndrome de hiperviscosidad policlonal"
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Clomipramine",
+   "u": "/drugs/clomipramine/",
+   "l": "L1",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "anxiety disorder"
+  },
+  {
+   "t": "Dronabinol",
+   "u": "/drugs/dronabinol/",
+   "l": "L5",
+   "lt": 4,
+   "lv": 0,
+   "r": 0,
+   "i": "Trastorno de migraña"
+  },
+  {
+   "t": "Ethambutol",
+   "u": "/drugs/ethambutol/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "epiglottitis"
+  },
+  {
+   "t": "Ganirelix",
+   "u": "/drugs/ganirelix/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "hypertrichosis (disease)"
+  },
+  {
+   "t": "Rutin",
+   "u": "/drugs/rutin/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 0,
+   "i": "breast fibrocystic disease"
+  },
+  {
+   "t": "Tafenoquine",
+   "u": "/drugs/tafenoquine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Mastocitosis sistémica indolente"
+  },
+  {
+   "t": "Ziprasidone",
+   "u": "/drugs/ziprasidone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Tricotilomanía"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Octreotide",
+   "u": "/drugs/octreotide/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 5,
+   "i": "vulvar inverted follicular keratosis"
+  },
+  {
+   "t": "Bendamustine",
+   "u": "/drugs/bendamustine/",
+   "l": "L1",
+   "lt": 14,
+   "lv": 11,
+   "r": 4,
+   "i": "mantle cell lymphoma"
+  },
+  {
+   "t": "Ciclesonide",
+   "u": "/drugs/ciclesonide/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "atopic eczema"
+  },
+  {
+   "t": "Cyclosporine",
+   "u": "/drugs/cyclosporine/",
+   "l": "L4",
+   "lt": 8,
+   "lv": 8,
+   "r": 4,
+   "i": "granulomatous disease, chronic, autosomal recessive"
+  },
+  {
+   "t": "Daunorubicin",
+   "u": "/drugs/daunorubicin/",
+   "l": "L3",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "Hodgkins lymphoma"
+  },
+  {
+   "t": "Flucytosine",
+   "u": "/drugs/flucytosine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 1,
+   "r": 4,
+   "i": "bone Paget disease"
+  }
+ ],
+ "example": {
+  "t": "Tacrolimus",
+  "u": "/drugs/tacrolimus/",
+  "l": "L1",
+  "lt": 20,
+  "lv": 20,
+  "r": 2,
+  "i": "seborrheic dermatitis"
+ },
+ "recent_reviews": [
+  {
+   "t": "Tropicamide",
+   "u": "/drugs/tropicamide/",
+   "s": "Número de registros vigentes: 3 → 4",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tinidazole",
+   "u": "/drugs/tinidazole/",
+   "s": "Número de registros vigentes: 4 → 12",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "s": "Número de registros vigentes: 4 → 16",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Número de registros vigentes: 2 → al menos 18",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sulfamethoxazole",
+   "u": "/drugs/sulfamethoxazole/",
+   "s": "Número de registros vigentes: 2 → al menos 20",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sucralfate",
+   "u": "/drugs/sucralfate/",
+   "s": "Número de registros vigentes: 4 → 7",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Secnidazole",
+   "u": "/drugs/secnidazole/",
+   "s": "Número de registros vigentes: 4 → al menos 17",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Rivastigmine",
+   "u": "/drugs/rivastigmine/",
+   "s": "Número de registros sanitarios: 2 → 11",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Rivaroxaban",
+   "u": "/drugs/rivaroxaban/",
+   "s": "Número de registros vigentes: 5 → al menos 19",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Ritonavir",
+   "u": "/drugs/ritonavir/",
+   "s": "Número de registros vigentes: 5 → 14",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Prednisolone",
+   "u": "/drugs/prednisolone/",
+   "s": "Número de registros vigentes: 4 → al menos 16",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Piroxicam",
+   "u": "/drugs/piroxicam/",
+   "s": "Número de registros vigentes: 5 → al menos 20",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Pirfenidone",
+   "u": "/drugs/pirfenidone/",
+   "s": "Número de registros vigentes: 3 → 8",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Phenytoin",
+   "u": "/drugs/phenytoin/",
+   "s": "Número de registros vigentes: 1 → 6",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Phenol",
+   "u": "/drugs/phenol/",
+   "s": "Número de registros vigentes: 3 → 7",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Phenobarbital",
+   "u": "/drugs/phenobarbital/",
+   "s": "Número de registros vigentes: 3 → 4",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Palbociclib",
+   "u": "/drugs/palbociclib/",
+   "s": "Número de registros vigentes: 4 → 8",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Paclitaxel",
+   "u": "/drugs/paclitaxel/",
+   "s": "Número de registros vigentes: 4 → 15",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Oxaliplatin",
+   "u": "/drugs/oxaliplatin/",
+   "s": "Número de registros vigentes: 4 → 8",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Orlistat",
+   "u": "/drugs/orlistat/",
+   "s": "Número de registros vigentes: 3 → 14",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "Número de registros vigentes: 8 → 17",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Olanzapine",
+   "u": "/drugs/olanzapine/",
+   "s": "Número de registros vigentes: 3 → 18",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Octreotide",
+   "u": "/drugs/octreotide/",
+   "s": "Número de registros sanitarios: 1 → 2",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Norfloxacin",
+   "u": "/drugs/norfloxacin/",
+   "s": "Número de registros vigentes: 4 → 11",
+   "d": "2026-11-12"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Tropicamide",
+   "u": "/drugs/tropicamide/",
+   "s": "Número de registros vigentes: 3 → 4",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tinidazole",
+   "u": "/drugs/tinidazole/",
+   "s": "Número de registros vigentes: 4 → 12",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Tenofovir Disoproxil",
+   "u": "/drugs/tenofovir-disoproxil/",
+   "s": "Número de registros vigentes: 4 → 16",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Número de registros vigentes: 2 → al menos 18",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sulfamethoxazole",
+   "u": "/drugs/sulfamethoxazole/",
+   "s": "Número de registros vigentes: 2 → al menos 20",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Sucralfate",
+   "u": "/drugs/sucralfate/",
+   "s": "Número de registros vigentes: 4 → 7",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Secnidazole",
+   "u": "/drugs/secnidazole/",
+   "s": "Número de registros vigentes: 4 → al menos 17",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Rivastigmine",
+   "u": "/drugs/rivastigmine/",
+   "s": "Número de registros sanitarios: 2 → 11",
+   "d": "2026-11-12"
+  }
+ ],
+ "files": {
+  "search_index": 622,
+  "drugs_json": 622
+ },
+ "by_level": {
+  "L1": {
+   "n": 15,
+   "current": 14
+  },
+  "L2": {
+   "n": 21,
+   "current": 21
+  },
+  "L3": {
+   "n": 25,
+   "current": 25
+  },
+  "L4": {
+   "n": 45,
+   "current": 45
+  },
+  "L5": {
+   "n": 499,
+   "current": 493
+  }
+ },
+ "cross": {
+  "unique_pairs": 10,
+  "unique_examples": [
+   {
+    "t": "Thimerosal",
+    "u": "/drugs/thimerosal/",
+    "i": "hypotrichosis simplex of the scalp"
+   }
+  ]
+ }
+}

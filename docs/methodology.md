@@ -14,6 +14,23 @@ De la predicción con IA a la clasificación de evidencia: cada candidato tiene 
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Colombia: cómo se aplica el método en este sitio
+
+Datos locales: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json). Los datos locales son los registros del Código Único de Medicamentos (CUM) del INVIMA publicados en datos.gov.co. Los registros en estado «Temporalmente no comercializado – Vigente» se cuentan aparte, no como vigentes comercializados.
+
+| Nivel | Informes | …con registro local vigentes |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+El registro de revisiones tiene **{{ site.data.local_facts.reviews.records }}** entradas en **{{ site.data.local_facts.reviews.public_pages_with_records }}** páginas; las correcciones solo cambian datos regulatorios, nunca las predicciones del modelo.
+
+<!-- local-facts:end -->
+
 ## Flujo general
 
 <p class="key-answer" data-question="¿Cómo genera COTxGNN sus predicciones?">

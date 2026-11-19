@@ -14,27 +14,19 @@ Revise primero el nivel de evidencia, luego la recomendación y después lea la 
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Colombia: datos de este sitio
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Colombia: un ejemplo de este sitio
 
-Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [INVIMA](https://www.invima.gov.co/) (Colombia).
+Leer un informe de este sitio supone tres comprobaciones, en este orden: nivel de evidencia, datos locales de mercado y registro de revisiones.
 
-Conjunto de datos: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json); se descarga y se compara automáticamente cada semana (los lunes). Detalles: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+{% assign gx = site.data.local_facts.example %}
+{% if gx %}Abra [{{ gx.t }}]({{ gx.u | relative_url }}): la cabecera muestra el nivel de evidencia **{{ gx.l }}**; la nueva indicación principal predicha es **{{ gx.i }}**; los datos locales tienen **{{ gx.lt }}** registros sanitarios del INVIMA (CUM), **{{ gx.lv }}** de ellos vigentes; el registro de revisiones de la página tiene **{{ gx.r }}** entradas.{% endif %}
 
-Informes por nivel de evidencia:
+{% if site.data.local_facts.most_reviewed.size > 0 %}Medicamentos con más entradas en el registro de revisiones: {% for r in site.data.local_facts.most_reviewed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.r }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Nivel de evidencia | Informes | Proporción |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Últimas correcciones del registro de revisiones: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-75 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
-
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Cómo consultar un medicamento
 
@@ -46,53 +38,13 @@ Informes por nivel de evidencia:
 
 ---
 
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
 ## Cómo leer un informe
 
 <p class="key-answer" data-question="¿Qué significan los niveles de evidencia L1 a L5?">
-Cada informe de medicamento lista las nuevas indicaciones predichas, y cada indicación tiene un
-nivel de evidencia L1&ndash;L5. <strong>L1 significa que ya existen múltiples ensayos clínicos
-aleatorizados de fase 3 que la respaldan; L5 significa solo predicción del modelo, sin evidencia
-en humanos.</strong> Los criterios completos están en la página de
-<a href="{{ '/methodology/' | relative_url }}">Metodología</a>.
+Cada indicación predicha lleva un nivel de <strong>L1</strong> (varios ensayos de fase 3) a <strong>L5</strong> (solo predicción del modelo). Cada evidencia cita un número NCT o PMID que se puede abrir; las predicciones son pistas de investigación, no consejo clínico. Definiciones y reglas: <a href="{{ '/methodology/' | relative_url }}">Metodología</a>.
 </p>
-
-| Si usted ve | Significa | Acción sugerida |
-|-----------|----------|------------------|
-| L1 / L2 | Existe evidencia de ensayos clínicos | Revise los registros NCT y PMID de origen |
-| L3 / L4 | Evidencia observacional o preclínica | Tómelo como una pista de investigación |
-| L5 | Solo predicción del modelo | Solo para generar hipótesis; no sirve de referencia clínica |
-
----
-
-## Citación y trazabilidad
-
-Cada pieza de evidencia de un informe tiene un identificador rastreable:
-
-- **Número NCT**: enlaza al registro en ClinicalTrials.gov
-- **PMID**: enlaza al registro en PubMed
-- **DrugBank ID**: enlaza a los datos del medicamento y sus blancos terapéuticos
-
-Por favor lea la literatura de origen para confirmar el contexto antes de citar cualquier conclusión de esta plataforma.
-
----
-
-## Preguntas frecuentes
-
-<p class="key-answer" data-question="¿Qué medicamentos con registro INVIMA ya tienen ensayos clínicos para una indicación nueva?">
-En el listado de <a href="{{ '/drugs/' | relative_url }}">Todos los Medicamentos</a> puede filtrar por nivel de evidencia. Los medicamentos marcados como <a href="{{ '/evidence-high/' | relative_url }}">evidencia alta</a> o <a href="{{ '/evidence-medium/' | relative_url }}">moderada</a> (L1&ndash;L4) ya cuentan con ensayos clínicos u otra evidencia en humanos para la nueva indicación predicha; revise los registros NCT y PMID citados en cada informe para confirmar el estado del ensayo.
-</p>
-
-<p class="key-answer" data-question="¿Se pueden usar las predicciones en la práctica clínica?">
-<strong>No.</strong> Las predicciones de esta plataforma son pistas de investigación, no consejo
-clínico. Toda aplicación clínica de reposicionamiento de medicamentos debe pasar por una validación
-completa mediante ensayos clínicos y por revisión regulatoria.
-</p>
-
-<p class="key-answer" data-question="¿Por qué no encuentro un medicamento en particular?">
-Un principio activo debe poder mapearse al vocabulario de DrugBank para ser incluido en la predicción.
-Los extractos de plantas, las vacunas, los excipientes y otros elementos no catalogados por DrugBank
-no aparecen en esta plataforma.
-</p>
+<!-- local-condensed:end -->
 
 ---
 

@@ -14,55 +14,29 @@ Las predicciones se publican en formato FHIR R4, listas para integrarse con sist
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Colombia: datos de este sitio
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Colombia: qué contienen hoy los archivos
 
-Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [INVIMA](https://www.invima.gov.co/) (Colombia).
+| Archivo | Contenido actual |
+|---|---|
+| `/data/search-index.json` | {{ site.data.local_facts.files.search_index }} medicamentos con sus indicaciones predichas |
+| `/data/drugs.json` | {{ site.data.local_facts.files.drugs_json }} medicamentos con nivel de evidencia e indicación original |
+| `/fhir/MedicationKnowledge/` | {{ site.data.local_facts.fhir.medication_knowledge }} recursos MedicationKnowledge (uno por medicamento) |
+| `/fhir/ClinicalUseDefinition/` | {{ site.data.local_facts.fhir.clinical_use_definition }} recursos ClinicalUseDefinition (uno por indicación predicha) |
 
-Conjunto de datos: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json); se descarga y se compara automáticamente cada semana (los lunes). Detalles: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+Reutilización del conjunto de datos local: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json): Creative Commons Atribución-CompartirIgual 4.0 (CC BY-SA 4.0), según datos.gov.co (https://www.datos.gov.co/resource/i7cb-raxc.json).
 
-Informes por nivel de evidencia:
+{% if site.data.local_facts.top_licensed.size > 0 %}Medicamentos con más registros sanitarios del INVIMA (CUM) vigentes: {% for r in site.data.local_facts.top_licensed limit: 5 offset: 3 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Nivel de evidencia | Informes | Proporción |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Últimas correcciones del registro de revisiones: {% for r in site.data.local_facts.recent_reviews limit: 8 offset: 16 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-75 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+<!-- local-facts:end -->
 
-<!-- site-data:end -->
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
+## FHIR, índice de búsqueda y reutilización
 
-## Recursos FHIR
-
-Este sitio publica las predicciones como recursos FHIR R4, consumibles directamente por aplicaciones SMART on FHIR:
-
-| Recurso | Ruta | Descripción |
-|----------|------|-------------|
-| CapabilityStatement | `/fhir/metadata` | Declaración de capacidades del servidor FHIR |
-| MedicationKnowledge | `/fhir/MedicationKnowledge/` | Recursos de medicamentos |
-| ClinicalUseDefinition | `/fhir/ClinicalUseDefinition/` | Indicaciones predichas |
-| Bundle | `/fhir/Bundle/all-predictions.json` | Todas las predicciones agrupadas |
-
----
-
-## Índice de búsqueda
-
-`/data/search-index.json` proporciona un índice de búsqueda de medicamentos e indicaciones para que
-construya su propia interfaz de consulta.
-
----
-
-## Términos de uso
-
-<ol class="actionable-steps">
-<li>Los datos de este sitio son <strong>solo para referencia de investigación</strong> y no deben usarse como base para decisiones médicas.</li>
-<li>Al citar, dé crédito a COTxGNN (藥提醒科技有限公司) y cite el artículo original de TxGNN.</li>
-<li>Los datos derivados siguen sujetos a los términos de licencia de cada fuente original (vea <a href="{{ '/sources/' | relative_url }}">Fuentes de Datos</a>).</li>
-</ol>
+La declaración de capacidades FHIR R4 está en `/fhir/metadata`, todas las predicciones se agrupan en `/fhir/Bundle/all-predictions.json` y `/data/search-index.json` contiene los medicamentos e indicaciones del buscador del sitio. Los datos son solo de referencia para investigación; cite el sitio y el artículo de TxGNN, y revise la licencia de cada fuente en [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+<!-- local-condensed:end -->
 
 ---
 

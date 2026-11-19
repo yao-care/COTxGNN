@@ -14,27 +14,31 @@ Aceleramos la validación de evidencia del reposicionamiento de medicamentos con
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## Colombia: datos de este sitio
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## Colombia: los datos de este sitio en cifras
 
-Este sitio publica informes de **{{ site.data.drug_stats.total_drugs }}** medicamentos que figuran en los datos de registro de [INVIMA](https://www.invima.gov.co/) (Colombia).
+Datos locales: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json). Los datos locales son los registros del Código Único de Medicamentos (CUM) del INVIMA publicados en datos.gov.co. Los registros en estado «Temporalmente no comercializado – Vigente» se cuentan aparte, no como vigentes comercializados.
 
-Conjunto de datos: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json); se descarga y se compara automáticamente cada semana (los lunes). Detalles: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+| Concepto | Valor |
+|---|---|
+| Medicamentos con informe publicado | {{ site.data.local_facts.drugs_total }} |
+| Medicamentos presentes en los datos locales | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …con al menos un registro vigentes | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …con registros pero ninguno vigentes | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Medicamentos ausentes de los datos locales | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Registros locales (registros sanitarios del INVIMA (CUM)) | {{ site.data.local_facts.licence.items_total }} |
+| …de ellos vigentes | {{ site.data.local_facts.licence.items_current }} |
+| Entradas del registro de revisiones | {{ site.data.local_facts.reviews.records }} |
+| Páginas con entradas de revisión | {{ site.data.local_facts.reviews.public_pages_with_records }} |
+| Pares medicamento–enfermedad predichos que no figuran en ningún otro sitio TxGNN | {{ site.data.local_facts.cross.unique_pairs }} |
 
-Informes por nivel de evidencia:
+{% if site.data.local_facts.top_licensed.size > 0 %}Medicamentos con más registros sanitarios del INVIMA (CUM) vigentes: {% for r in site.data.local_facts.top_licensed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Nivel de evidencia | Informes | Proporción |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Últimas correcciones del registro de revisiones: {% for r in site.data.local_facts.recent_reviews limit: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-75 pares medicamento–enfermedad predichos en este sitio no aparecen en ningún otro de los 30 sitios TxGNN.
+Ejemplos de predicciones que ningún otro sitio TxGNN incluye para el mismo medicamento: [Thimerosal]({{ '/drugs/thimerosal/' | relative_url }}) → hypotrichosis simplex of the scalp.
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Antecedentes
 
@@ -49,87 +53,17 @@ evaluar rápidamente qué tan creíble es cada predicción.
 
 ---
 
+<!-- local-condensed:start（母目錄 .claude/gen_local_pages_20261119.py；原共用段落縮寫，勿手改）-->
 ## Acerca del Desarrollador
 
-Esta plataforma es desarrollada y operada por **藥提醒科技有限公司** (yao.care, número de registro
-mercantil 83620786, 12F, No. 220, Sec. 2, Taiwan Blvd., West Dist., Taichung City, Taiwan).
-
-COTxGNN es el sitio de Colombia de la línea de productos "TxGNN Drug Repurposing" de la compañía.
-El mismo sistema está desplegado en 30 países y regiones, cada uno con el nombre `{CC}TxGNN`
-(JpTxGNN, UsTxGNN, DETxGNN, etc.) en `{cc}txgnn.yao.care`.
-Descripción del producto: <https://www.yao.care/medical/txgnn/>.
-
-El modelo TxGNN fue desarrollado por el Zitnik Lab de Harvard Medical School y publicado en
-*Nature Medicine*. Esta plataforma es el sistema de producción que 藥提醒科技有限公司 construyó sobre ese
-modelo, y abarca la integración de datos nacionales de registro sanitario, la predicción por aprendizaje profundo que excluye los usos ya registrados en el grafo de conocimiento, la clasificación de evidencia de PubMed /
-ClinicalTrials y la integración con historias clínicas electrónicas mediante SMART on FHIR.
+Esta plataforma la desarrolla y opera **藥提醒科技有限公司** (yao.care, registro 83620786, Taichung, Taiwán) como uno de los 30 sitios por país y región de su línea de productos TxGNN ([presentación del producto](https://www.yao.care/medical/txgnn/)).
 
 ---
 
-## ¿Qué es el reposicionamiento de medicamentos?
+## El método en breve
 
-<p class="key-answer" data-question="¿Qué es el reposicionamiento de medicamentos?">
-El <strong>reposicionamiento de medicamentos</strong> consiste en encontrar nuevos usos terapéuticos
-para medicamentos ya existentes. Frente al desarrollo de un medicamento nuevo desde cero —de 10 a
-15 años y entre USD 1.000&ndash;2.000 millones—, el reposicionamiento toma de 3 a 5 años y entre
-USD 100&ndash;300 millones, y ya existen datos de seguridad en humanos, por lo que el riesgo de
-fracaso es menor.
-</p>
-
-<table class="comparison-table">
-<thead>
-<tr><th>Aspecto</th><th>Desarrollo de un medicamento nuevo</th><th>Reposicionamiento de medicamentos</th></tr>
-</thead>
-<tbody>
-<tr><td>Tiempo</td><td>10&ndash;15 años</td><td>3&ndash;5 años</td></tr>
-<tr><td>Costo</td><td>USD 1.000&ndash;2.000 millones</td><td>USD 100&ndash;300 millones</td></tr>
-<tr><td>Datos de seguridad</td><td>Deben generarse desde cero</td><td>Ya existen datos en humanos</td></tr>
-<tr><td>Riesgo de fracaso</td><td>Muy alto (&gt;90%)</td><td>Menor</td></tr>
-</tbody>
-</table>
-
----
-
-## ¿Qué es TxGNN?
-
-<p class="key-answer" data-question="¿Qué es TxGNN?">
-<a href="https://www.nature.com/articles/s41591-024-03233-x">TxGNN</a> es un modelo de aprendizaje
-profundo desarrollado por el Zitnik Lab de Harvard Medical School y publicado en <em>Nature Medicine</em>.
-Predice nuevas asociaciones entre medicamentos y enfermedades, y es el primer modelo fundacional para
-reposicionamiento de medicamentos diseñado específicamente para el personal clínico.
-</p>
-
-<blockquote class="expert-quote">
-"TxGNN integra un grafo de conocimiento que abarca 17.080 enfermedades y utiliza redes neuronales de
-grafos para aprender relaciones complejas entre nodos, prediciendo la eficacia potencial de los
-medicamentos frente a enfermedades raras."
-<cite>&mdash; Huang et al., Nature Medicine (2024)</cite>
-</blockquote>
-
----
-
-## Fuentes de datos
-
-Las fuentes de datos de esta plataforma (predicción TxGNN, ensayos clínicos, literatura, DrugBank y el
-listado local de medicamentos), sus licencias y su frecuencia de actualización se detallan en
-<a href="{{ '/sources/' | relative_url }}">Fuentes de Datos</a>.
-
----
-
-## Base académica
-
-> Huang, K., et al. (2024). A foundation model for clinician-centered drug repurposing. *Nature Medicine*.
-> [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)
-
----
-
-## Alcance
-
-| Ítem | Valor |
-|------|-------|
-| Informes de medicamentos | {{ site.data.drug_stats.total_drugs }} |
-| Autoridad regulatoria | INVIMA |
-| Sitios desplegados | 30 países / regiones |
+Las predicciones provienen de TxGNN, un modelo de redes neuronales de grafos del Zitnik Lab de la Facultad de Medicina de Harvard (Huang et al., *Nature Medicine* 2024, [DOI: 10.1038/s41591-024-03233-x](https://doi.org/10.1038/s41591-024-03233-x)); cada indicación predicha se clasifica de L1 a L5 con ClinicalTrials.gov y PubMed. Modelo, niveles y reglas: [Metodología]({{ '/methodology/' | relative_url }}). Conjuntos de datos, descargas y licencias: [Fuentes de Datos]({{ '/sources/' | relative_url }}).
+<!-- local-condensed:end -->
 
 ---
 

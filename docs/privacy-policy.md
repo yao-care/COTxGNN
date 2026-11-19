@@ -48,11 +48,32 @@ envían a ClinicalTrials.gov los nombres del medicamento y de la indicación.
 
 ---
 
-## Derechos del titular de los datos
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Legislación aplicable
 
-Este sitio no tiene cuentas y no guarda registros personales en servidores propios (no los tiene). Las estadísticas
-de uso las recolecta Google Analytics 4; puede bloquear o eliminar sus cookies en la configuración de su navegador.
-Para preguntas sobre esta política, escriba a service@yao.care.
+Para visitantes en Colombia, la norma aplicable es la [Ley Estatutaria 1581 de 2012](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49981) de protección de datos personales, reglamentada por el Decreto 1377 de 2013 (hoy en el Decreto 1074 de 2015); la autoridad de vigilancia es la [Superintendencia de Industria y Comercio (SIC)](https://www.sic.gov.co/). El sitio solo trata los datos de uso que recoge Google Analytics 4 mediante cookies.
+
+## Sus derechos y cómo ejercerlos
+
+- Conocer, actualizar y rectificar sus datos (art. 8, literal a).
+- Ser informado del uso que se da a sus datos (art. 8, literal c).
+- Revocar la autorización o pedir la supresión del dato (art. 8, literal e).
+- Presentar quejas ante la SIC, una vez agotado el trámite de consulta o reclamo con nosotros (art. 16).
+
+Solicitudes: service@yao.care (no hay cuentas: indique la fecha y las páginas de su visita). Puede bloquear o borrar las cookies de análisis en su navegador.
+
+## Derechos de autor y fuentes de datos
+
+Los textos del sitio están protegidos por la [Ley 23 de 1982 sobre derechos de autor](https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=3431). El código del sitio se publica con licencia MIT en el [repositorio de GitHub](https://github.com/yao-care/COTxGNN); los textos de los informes son © 藥提醒科技有限公司 (yao.care).
+
+Fuentes de datos de este sitio y sus condiciones:
+
+- Datos de **TxGNN** (Harvard Dataverse): CC0 1.0; cite Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov**, **PubMed**: [condiciones de ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions), [políticas del NCBI](https://www.ncbi.nlm.nih.gov/home/about/policies/).
+- **DrugBank**: términos de licencia de [DrugBank](https://go.drugbank.com/), uso no comercial.
+- **Conjunto de datos local**: [INVIMA: Código Único de Medicamentos (CUM)](https://www.datos.gov.co/resource/i7cb-raxc.json): Creative Commons Atribución-CompartirIgual 4.0 (CC BY-SA 4.0), según datos.gov.co (https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- privacy-law:end -->
 
 ---
 
