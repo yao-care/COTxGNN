@@ -56,7 +56,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bacitracin es (traducción no oficial): «Inhibidor del pirofosfato de C55-isoprenilo» Texto original en inglés: "C55-isoprenyl pyrophosphate inhibitor" ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la bacitracina es un antibiótico polipeptídico tópico con actividad contra bacterias Gram-positivas y se utiliza en formulaciones oftálmicas.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bacitracin es (traducción no oficial): «Inhibidor del pirofosfato de C55-isoprenilo». Texto original en inglés: "C55-isoprenyl pyrophosphate inhibitor" ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la bacitracina es un antibiótico polipeptídico tópico con actividad contra bacterias Gram-positivas y se utiliza en formulaciones oftálmicas.
 
 La queratoconjuntivitis epitelial punteada suele tener origen viral o tóxico, por lo que un mecanismo antibacteriano tiene una relevancia mecanística débil. La relación con la indicación original (una pomada oftálmica con corticoide y antiinfecciosos) es únicamente la localización ocular, y no existe un vínculo mecanístico sólido.
 
@@ -117,7 +117,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
 
 <!-- review:end log -->
 

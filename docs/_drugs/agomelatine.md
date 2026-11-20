@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **tortícolis paroxística
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Agomelatine es (traducción no oficial): «Agonista de los receptores de melatonina; antagonista del receptor de serotonina 2c (5-HT2c)» Texto original en inglés: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, agomelatina es agonista de los receptores de melatonina MT1 y MT2 y antagonista del receptor serotoninérgico 5-HT2C. Estos blancos también aparecen en los datos farmacológicos de interacciones (5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Agomelatine es (traducción no oficial): «Agonista de los receptores de melatonina; antagonista del receptor de serotonina 2c (5-HT2c)». Texto original en inglés: "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, agomelatina es agonista de los receptores de melatonina MT1 y MT2 y antagonista del receptor serotoninérgico 5-HT2C. Estos blancos también aparecen en los datos farmacológicos de interacciones (5-HT2A, 5-HT2B, 5-HT2C, MT1 y MT2).
 
 **La predicción tiene una plausibilidad mecanística muy baja.** La tortícolis paroxística benigna de la infancia es un trastorno pediátrico autolimitado, a menudo asociado a variantes genéticas de canales iónicos (frecuentemente CACNA1A). No se identificó ninguna superposición con las vías melatoninérgicas o serotoninérgicas.
 
@@ -135,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

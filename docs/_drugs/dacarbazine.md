@@ -60,7 +60,7 @@ pero actualmente no hay ensayos clínicos registrados y la literatura recuperada
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dacarbazine es (traducción no oficial): «Inhibidor del ADN» Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dacarbazina es un agente alquilante: un profármaco que se activa a MTIC y metila el ADN. Su eficacia está establecida en melanoma y linfoma de Hodgkin (esquema ABVD), y hay reportes en tumores neuroendocrinos como el carcinoma medular de tiroides y el paraganglioma.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dacarbazine es (traducción no oficial): «Inhibidor del ADN». Texto original en inglés: "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dacarbazina es un agente alquilante: un profármaco que se activa a MTIC y metila el ADN. Su eficacia está establecida en melanoma y linfoma de Hodgkin (esquema ABVD), y hay reportes en tumores neuroendocrinos como el carcinoma medular de tiroides y el paraganglioma.
 
 La relación con la nueva indicación es **indirecta y dependiente de la histología**. La literatura recuperada describe tumores sensibles a dacarbazina que pueden surgir o comprometer la cabeza y el cuello: melanoma mucoso, linfoma de Hodgkin de cabeza y cuello y paraganglioma de cabeza y cuello. No hay evidencia de un efecto directo sobre el carcinoma escamocelular, el cáncer dominante del tracto aerodigestivo superior.
 
@@ -169,7 +169,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 6 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

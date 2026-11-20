@@ -56,7 +56,7 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Prednicarbate es (traducción no oficial): «Agonista del receptor de glucocorticoides» Texto original en inglés: "Glucocorticoid receptor agonist" ([ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, prednicarbato es un corticoide tópico de potencia media con efectos antiinflamatorios y antiproliferativos. Mecanísticamente, estos efectos podrían actuar sobre una lesión benigna queratinocítica con inflamación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Prednicarbate es (traducción no oficial): «Agonista del receptor de glucocorticoides». Texto original en inglés: "Glucocorticoid receptor agonist" ([ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, prednicarbato es un corticoide tópico de potencia media con efectos antiinflamatorios y antiproliferativos. Mecanísticamente, estos efectos podrían actuar sobre una lesión benigna queratinocítica con inflamación.
 
 Sin embargo, la queratosis folicular invertida se trata habitualmente mediante escisión, y no existe evidencia clínica ni bibliográfica que respalde el uso de corticoides tópicos en esta condición. El puntaje alto de TxGNN (0.9988) es únicamente una predicción del modelo.
 
@@ -129,7 +129,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, ambos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1200386 (prednicarbate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200386) |
 
 <!-- review:end log -->
 

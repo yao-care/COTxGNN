@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por Staphy
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Cilastatina inhibe la dehidropeptidasa-1 en el túbulo renal, con lo que evita que el imipenem se degrade y prolonga su exposición. Por sí sola no tiene efecto antibacteriano. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cilastatin es (traducción no oficial): «Inhibidor de la dipeptidasa renal» Texto original en inglés: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; consultado el 2026-11-19).
+Cilastatina inhibe la dehidropeptidasa-1 en el túbulo renal, con lo que evita que el imipenem se degrade y prolonga su exposición. Por sí sola no tiene efecto antibacteriano. Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Cilastatin es (traducción no oficial): «Inhibidor de la dipeptidasa renal». Texto original en inglés: "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0; consultado el 2026-11-19).
 
 Cualquier efecto contra *S. aureus* proviene del imipenem, no de la cilastatina. Existen estudios de imipenem/cilastatina en infecciones por *S. aureus* sensible y resistente a meticilina (MSSA/MRSA), y se ha descrito su uso combinado con fosfomicina, arbekacina o vancomicina en casos refractarios. Esto respalda la plausibilidad clínica de la combinación, pero no constituye un reposicionamiento de la cilastatina en sí.
 
@@ -119,7 +119,7 @@ A continuación, el registro de verificación de esta página. La frase que indi
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

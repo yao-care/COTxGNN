@@ -60,7 +60,7 @@ pero hoy solo hay **0 ensayos clínicos** y **1 publicación** indirecta que res
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19). Según lo conocido de la clase, dexketoprofeno es un AINE que inhibe las enzimas COX-1 y COX-2. Esto reduce la síntesis de prostaglandinas, mediadoras del dolor y la inflamación.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dexketoprofen es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0; consultado el 2026-11-19). Según lo conocido de la clase, dexketoprofeno es un AINE que inhibe las enzimas COX-1 y COX-2. Esto reduce la síntesis de prostaglandinas, mediadoras del dolor y la inflamación.
 
 La tendinitis es una inflamación del tendón con dolor asociado, por lo que un efecto antiinflamatorio y analgésico por inhibición de COX es mecanísticamente plausible. Por eso la predicción tiene sentido biológico.
 
@@ -145,7 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "y no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "porque no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
 
 <!-- review:end log -->
 

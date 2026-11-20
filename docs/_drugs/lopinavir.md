@@ -58,7 +58,7 @@ Lopinavir es un inhibidor de la proteasa del VIH-1, registrado en Colombia en co
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lopinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1» Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lopinavir es un inhibidor de la proteasa del VIH-1 que se administra junto con ritonavir (que potencia sus niveles en sangre). Su eficacia frente al VIH-1 está establecida, y mecanísticamente podría ser aplicable al SIV.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lopinavir es (traducción no oficial): «Inhibidor de la proteasa del virus de la inmunodeficiencia humana de tipo 1». Texto original en inglés: "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, lopinavir es un inhibidor de la proteasa del VIH-1 que se administra junto con ritonavir (que potencia sus niveles en sangre). Su eficacia frente al VIH-1 está establecida, y mecanísticamente podría ser aplicable al SIV.
 
 El SIV es un lentivirus muy cercano al VIH, y su proteasa es estructuralmente similar. Por ello, es plausible que el mecanismo antiviral se traslade. Los tres estudios disponibles se realizaron en macacos: terapia antirretroviral cuádruple en macacos infectados con SIV, un virus quimérico SHIV con proteasa del VIH-1 en macacos rhesus, y terapia antirretroviral oral (incluido lopinavir/ritonavir) en monos infectados con SHIV.
 
@@ -139,7 +139,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el fármaco no tiene registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

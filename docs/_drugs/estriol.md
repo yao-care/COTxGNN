@@ -65,7 +65,7 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, con **0 ens
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Estriol es (traducción no oficial): «Modulador de los receptores de estrógenos» Texto original en inglés: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el estriol es un agonista débil de los receptores de estrógeno alfa (ESR1) y beta (ESR2), y se comercializa desde hace décadas en Europa y Asia para los sofocos de la menopausia posmenopáusica.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Estriol es (traducción no oficial): «Modulador de los receptores de estrógenos». Texto original en inglés: "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el estriol es un agonista débil de los receptores de estrógeno alfa (ESR1) y beta (ESR2), y se comercializa desde hace décadas en Europa y Asia para los sofocos de la menopausia posmenopáusica.
 
 La amenorrea hipotalámica funcional (AHF) se caracteriza por una secreción alterada y pulsátil de GnRH, lo que reduce LH y FSH y produce un estado de hipoestrogenismo. Un estrógeno en dosis bajas podría actuar como modulador neuroendocrino: restablecer la retroalimentación sobre el eje hipotálamo-hipófisis, normalizar parcialmente la secreción de LH y compensar los efectos de la deficiencia de estrógenos (por ejemplo, la pérdida ósea).
 
@@ -133,7 +133,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "registrado en Colombia en óvulos vaginales cuyos registros sanitarios hoy figuran cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
 
 <!-- review:end log -->
 

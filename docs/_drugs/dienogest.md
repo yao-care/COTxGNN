@@ -58,7 +58,7 @@ Dienogest es un progestágeno que, según el registro sanitario de INVIMA, figur
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dienogest es un progestágeno de cuarta generación con actividad antiovulatoria y supresora del endometrio. Reduce la producción ovárica de estradiol y provoca atrofia endometrial.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Dienogest es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, dienogest es un progestágeno de cuarta generación con actividad antiovulatoria y supresora del endometrio. Reduce la producción ovárica de estradiol y provoca atrofia endometrial.
 
 Aquí hay un punto importante: la amenorrea es un **efecto farmacológico esperado** de dienogest, sobre todo en el tratamiento de la endometriosis, y no una enfermedad que el fármaco cure. En la amenorrea hipoestrogénica o anovulatoria, un progestágeno solo podría usarse para provocar sangrado por deprivación o proteger el endometrio, lo cual no trata la causa de fondo.
 
@@ -142,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

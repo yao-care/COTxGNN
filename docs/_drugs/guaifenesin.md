@@ -56,7 +56,7 @@ con **0 ensayos clínicos** y **1 publicación** (una revisión de 2002) que act
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Guaifenesin es (traducción no oficial): «Desconocido» Texto original en inglés: "Unknown" ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la guaifenesina es un expectorante que se piensa que diluye y moviliza el moco de las vías respiratorias. Su uso en tos y expectoración en Colombia está documentado en los registros sanitarios.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Guaifenesin es (traducción no oficial): «Desconocido». Texto original en inglés: "Unknown" ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la guaifenesina es un expectorante que se piensa que diluye y moviliza el moco de las vías respiratorias. Su uso en tos y expectoración en Colombia está documentado en los registros sanitarios.
 
 La enfermedad de la cavidad nasal comprende cuadros como la rinitis o la congestión sinusal, que a menudo implican secreciones espesas. Por ello, mecanísticamente podría ser aplicable: un fármaco que fluidifica el moco podría aliviar síntomas en la vía aérea superior. Esta relación se infiere de la farmacología general y no de los datos compilados para este informe.
 
@@ -134,7 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cinco registros figuran como cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los cinco registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
 
 <!-- review:end log -->
 

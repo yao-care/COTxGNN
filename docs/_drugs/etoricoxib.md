@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2» Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, etoricoxib es un inhibidor selectivo de la COX-2 (gen PTGS2), por lo que reduce la producción de prostaglandinas. Su eficacia en dolor e inflamación musculoesquelética está documentada en la literatura.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Etoricoxib es (traducción no oficial): «Inhibidor de la ciclooxigenasa-2». Texto original en inglés: "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, etoricoxib es un inhibidor selectivo de la COX-2 (gen PTGS2), por lo que reduce la producción de prostaglandinas. Su eficacia en dolor e inflamación musculoesquelética está documentada en la literatura.
 
 En la migraña, la prostaglandina E2 dependiente de COX-2 contribuye a la inflamación neurogénica y a la sensibilización trigeminovascular, por lo que la actividad de clase AINE es mecanísticamente plausible. Un estudio preclínico de 2017 en ganglios trigéminos de rata mostró que AINE, incluido etoricoxib, modifican la liberación de CGRP y PGE2; sin embargo, ese estudio está vinculado a otra entidad (susceptibilidad a migraña) y no constituye evidencia clínica.
 
@@ -158,7 +158,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los 3 registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

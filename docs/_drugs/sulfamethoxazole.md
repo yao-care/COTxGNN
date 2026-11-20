@@ -60,7 +60,7 @@ con **0 ensayos clínicos** y **1 publicación** que actualmente respaldan esta 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfamethoxazole es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana» Texto original en inglés: "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, sulfametoxazol es una sulfonamida que inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato. Su uso como antibacteriano (habitualmente combinado con trimetoprim) está bien establecido, y mecanísticamente podría ser aplicable a infecciones bacterianas oculares.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Sulfamethoxazole es (traducción no oficial): «Inhibidor de la dihidropteroato sintasa bacteriana». Texto original en inglés: "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, sulfametoxazol es una sulfonamida que inhibe la enzima bacteriana dihidropteroato sintetasa, bloqueando la síntesis de folato. Su uso como antibacteriano (habitualmente combinado con trimetoprim) está bien establecido, y mecanísticamente podría ser aplicable a infecciones bacterianas oculares.
 
 La conjuntivitis aguda contagiosa es con frecuencia de origen bacteriano (por ejemplo, *Haemophilus influenzae*, *Streptococcus pneumoniae* y *Staphylococcus aureus*), por lo que un mecanismo antibacteriano es biológicamente plausible. Además, las sulfonamidas se han usado históricamente por vía tópica en infecciones oculares (por ejemplo, sulfacetamida), lo que respalda la verosimilitud de la predicción.
 
@@ -145,7 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Ambos registros figuran como cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 2 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

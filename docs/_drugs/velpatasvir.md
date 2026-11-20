@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Velpatasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A» Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, velpatasvir es un inhibidor de la proteína NS5A del virus de la hepatitis C (VHC) y se usa junto con sofosbuvir, un inhibidor de la polimerasa NS5B, en un régimen pangenotípico de una tableta diaria.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Velpatasvir es (traducción no oficial): «Inhibidor de la proteína no estructural 5A». Texto original en inglés: "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0; consultado el 2026-11-19). Según el conocimiento general, velpatasvir es un inhibidor de la proteína NS5A del virus de la hepatitis C (VHC) y se usa junto con sofosbuvir, un inhibidor de la polimerasa NS5B, en un régimen pangenotípico de una tableta diaria.
 
 La relación entre ambas indicaciones es débil. Las dos son hepatitis virales, pero el virus de la hepatitis B (VHB) se replica con una maquinaria distinta (transcriptasa inversa/polimerasa) y no tiene un blanco equivalente a NS5A. El puntaje alto del modelo probablemente refleja la cercanía en la red de conocimiento entre enfermedades de "hepatitis viral" y no una base mecanística real.
 
@@ -151,7 +151,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

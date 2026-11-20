@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **paratifoidea (fiebre par
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bismuth Subsalicylate es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el subsalicilato de bismuto es una sal de bismuto poco soluble en agua, usada para trastornos gastrointestinales, con actividad antisecretora y antibacteriana frente a patógenos entéricos. Mecanísticamente, esto podría relacionarse con infecciones entéricas por *Salmonella*.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Bismuth Subsalicylate es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, el subsalicilato de bismuto es una sal de bismuto poco soluble en agua, usada para trastornos gastrointestinales, con actividad antisecretora y antibacteriana frente a patógenos entéricos. Mecanísticamente, esto podría relacionarse con infecciones entéricas por *Salmonella*.
 
 La paratifoidea es una infección sistémica por *Salmonella*. Un agente de acción local en el intestino difícilmente sería suficiente, ya que el tratamiento requiere antibióticos sistémicos. El alto puntaje del modelo no está respaldado por evidencia en los datos compilados y debe interpretarse con cautela.
 
@@ -149,7 +149,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registros cancelados) y la viabilidad de una nueva comercialización" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1120 (bismuth subsalicylate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1120) |
 
 <!-- review:end log -->
 

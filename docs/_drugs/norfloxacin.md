@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para **hiperamilasemia**, pero 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacin es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana» Texto original en inglés: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, norfloxacino es una fluoroquinolona antibacteriana que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su uso establecido está en infecciones bacterianas (principalmente urinarias).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Norfloxacin es (traducción no oficial): «Inhibidor de la topoisomerasa IV; inhibidor de la ADN girasa bacteriana». Texto original en inglés: "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, norfloxacino es una fluoroquinolona antibacteriana que inhibe la ADN girasa y la topoisomerasa IV bacterianas, y su uso establecido está en infecciones bacterianas (principalmente urinarias).
 
 La hiperamilasemia es un hallazgo de laboratorio (elevación de la amilasa en sangre), no una enfermedad infecciosa. No se identifica un vínculo mecanístico claro entre la inhibición de la ADN girasa y la corrección de este hallazgo. El puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica.
 
@@ -127,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; actualmente no hay productos vigentes con norfloxacino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el fármaco no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

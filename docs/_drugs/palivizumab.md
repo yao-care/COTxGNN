@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **neoplasia benigna de la 
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Palivizumab es (traducción no oficial): «Inhibidor de la glucoproteína de fusión F0» Texto original en inglés: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que neutraliza el VSR al unirse a su proteína F, y se utiliza para prevenir la infección grave por este virus.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Palivizumab es (traducción no oficial): «Inhibidor de la glucoproteína de fusión F0». Texto original en inglés: "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, palivizumab es un anticuerpo monoclonal humanizado que neutraliza el VSR al unirse a su proteína F, y se utiliza para prevenir la infección grave por este virus.
 
 **No se identificó un vínculo mecanístico plausible** con la neoplasia benigna de la lengua. Palivizumab no tiene una diana conocida en este tejido ni actividad antitumoral o moduladora del crecimiento descrita. El puntaje de 0.9994 es solo una salida computacional del modelo, sin validación por ensayos ni literatura.
 
@@ -133,7 +133,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y están cancelados, por lo que actualmente no hay productos vigentes con este principio activo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el fármaco no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

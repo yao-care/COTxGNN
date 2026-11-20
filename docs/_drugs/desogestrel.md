@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, con **1 ens
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona» Texto original en inglés: "Progesterone receptor agonist" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, desogestrel es un progestágeno de baja androgenicidad que suprime el eje hipotálamo-hipófisis-ovario. Su eficacia como anticonceptivo está bien establecida, y mecanísticamente podría ser aplicable a la amenorrea.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Desogestrel es (traducción no oficial): «Agonista del receptor de progesterona». Texto original en inglés: "Progesterone receptor agonist" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, desogestrel es un progestágeno de baja androgenicidad que suprime el eje hipotálamo-hipófisis-ovario. Su eficacia como anticonceptivo está bien establecida, y mecanísticamente podría ser aplicable a la amenorrea.
 
 La relación con la nueva indicación es de apoyo endocrino, no curativa. En la amenorrea hipotalámica (por ejemplo, en atletas o mujeres con bajo peso), los esteroides sexuales exógenos, generalmente combinados con etinilestradiol, pueden aportar la reposición hormonal y proteger la densidad ósea. Esto no trata la causa de fondo ni restablece la ovulación.
 
@@ -144,7 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Colombia no tiene actualmente registros vigentes de desogestrel, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los dos registros están cancelados, por lo que sería necesaria una nueva solicitud o reactivación ante INV" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

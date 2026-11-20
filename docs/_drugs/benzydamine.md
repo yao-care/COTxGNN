@@ -60,7 +60,7 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Benzydamine es (traducción no oficial): «Inhibidor de la ciclooxigenasa» Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la benzidamina es un agente de acción local de tipo antiinflamatorio no esteroideo, con efectos analgésicos y anestésicos locales. Se le atribuye la inhibición de citocinas proinflamatorias (como TNF-alfa e IL-1beta) y un efecto estabilizador de membrana.
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Benzydamine es (traducción no oficial): «Inhibidor de la ciclooxigenasa». Texto original en inglés: "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0; consultado el 2026-11-19). Según la información conocida, la benzidamina es un agente de acción local de tipo antiinflamatorio no esteroideo, con efectos analgésicos y anestésicos locales. Se le atribuye la inhibición de citocinas proinflamatorias (como TNF-alfa e IL-1beta) y un efecto estabilizador de membrana.
 
 Una posible relación, todavía no verificada, es que la inflamación prostática crónica contribuye a la patogénesis de la HPB y a los síntomas del tracto urinario inferior. Por ello, una actividad antiinflamatoria podría ser teóricamente relevante.
 
@@ -118,7 +118,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro existente, fabricado por Laboratorios Remo S.A.S., está cancelado; no hay productos vigentes en el mercado colombiano" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y su único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+| 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
 
 <!-- review:end log -->
 
