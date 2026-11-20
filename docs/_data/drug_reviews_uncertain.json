@@ -732,6 +732,19 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'vitamin e' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL3989727 has no mechanism entry"
+  },
+  {
+   "file": "glycine.md",
+   "drug": "glycine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-20",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glycine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL773 has no mechanism entry"
   }
  ]
 }

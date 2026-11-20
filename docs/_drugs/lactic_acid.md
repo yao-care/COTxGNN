@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
@@ -60,7 +60,7 @@ Se trata de una prediccion puramente computacional (nivel de evidencia L5).
 
 ## Por que es Razonable esta Prediccion?
 
-Actualmente no se dispone de datos detallados sobre el mecanismo de accion. El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lactic Acid es (traducción no oficial): «Agente reductor del pH». Texto original en inglés: "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; consultado el 2026-11-20). El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH).
 
 Los datos compilados para este informe no respaldan un vinculo mecanistico. La coartacion de la aorta es un defecto vascular estructural y no hay indicios de que el acido lactico pueda corregirlo. El puntaje del modelo es muy alto (0.9959), pero es solo una prediccion computacional sin ensayos ni literatura que la sustenten.
 
@@ -142,11 +142,12 @@ La prediccion tiene un puntaje alto, pero no cuenta con ensayos clinicos ni lite
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ademas, el unico registro sanitario en Colombia esta cancelado y corresponde a una combinacion distinta" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 
 <!-- review:end log -->
 

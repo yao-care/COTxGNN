@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dexmedetomidine: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Dexmedetomidina"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -59,7 +59,7 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Dexmedetomidina es un agonista alfa-2 adrenérgico. Puede suprimir la liberación de vasopresina y favorecer la diuresis, y esa es la base teórica de la predicción del modelo. No se dispone de una descripción detallada del mecanismo de acción, más allá de esta caracterización general.
+Dexmedetomidina es un agonista alfa-2 adrenérgico. Puede suprimir la liberación de vasopresina y favorecer la diuresis, y esa es la base teórica de la predicción del modelo. Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para Dexmedetomidine (traducción no oficial): «PRECEDEX es un agonista alfa 2-adrenérgico de acción central relativamente selectivo con propiedades sedantes. La selectividad alfa 2 se observa en animales tras la infusión intravenosa lenta de dosis bajas y medias (10-300 mcg/kg).» Texto original en inglés: "PRECEDEX is a relatively selective centrally acting alpha 2 -adrenergic agonist with sedative properties. Alpha 2 selectivity is observed in animals following slow intravenous infusion of low and medium doses (10-300 mcg/kg)." ([DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6), versión del 2026-06-17; consultado el 2026-11-20).
 
 Sin embargo, el síndrome nefrogénico de antidiuresis inapropiada se origina por mutaciones con ganancia de función en el receptor V2 de vasopresina (AVPR2). Ese defecto actúa por debajo del punto de secreción de la hormona. Un efecto simpaticolítico central sobre la liberación de vasopresina no corregiría una alteración a nivel del receptor.
 
@@ -136,13 +136,14 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 ## Registro de revisión
 
-A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria de los registros cancelados antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
 
 <!-- review:end log -->
 
