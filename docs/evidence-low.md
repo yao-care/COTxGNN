@@ -3,7 +3,7 @@ layout: default
 title: Solo Predicción del Modelo (L5)
 nav_order: 23
 permalink: /evidence-low/
-description: "499 medicamentos con nivel de evidencia L5 en este sitio (Colombia), p. ej. Acyclovir, Albendazole, Bisoprolol, con la nueva indicación principal predicha, los registros sanitarios del INVIMA (CUM) y las revisiones de cada uno."
+description: "499 medicamentos con nivel de evidencia L5 en este sitio (Colombia), p. ej. Acyclovir, Albendazole, Budesonide, con la nueva indicación principal predicha, los registros sanitarios del INVIMA (CUM) y las revisiones de cada uno."
 ---
 
 # Solo Predicción del Modelo (L5)

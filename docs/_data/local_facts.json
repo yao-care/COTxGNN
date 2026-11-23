@@ -13,19 +13,19 @@
  "licence_snapshot": "co_licenses.json.gz",
  "licence": {
   "drugs_with_data": 547,
-  "drugs_with_current": 540,
-  "drugs_none_current": 7,
+  "drugs_with_current": 536,
+  "drugs_none_current": 11,
   "drugs_without_data": 75,
   "drugs_partial": 0,
   "items_total": 2702,
-  "items_current": 2439
+  "items_current": 2397
  },
  "reviews": {
-  "records": 1409,
-  "pages": 560,
-  "public_pages_with_records": 552,
+  "records": 1415,
+  "pages": 561,
+  "public_pages_with_records": 553,
   "by_action": {
-   "correct": 965,
+   "correct": 971,
    "mechanism": 444
   }
  },
@@ -62,6 +62,15 @@
    "i": "liposarcoma"
   },
   {
+   "t": "Amoxicilina",
+   "u": "/drugs/amoxicilina/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 18,
+   "r": 1,
+   "i": "Síndrome de hiperviscosidad policlonal"
+  },
+  {
    "t": "Betamethasone",
    "u": "/drugs/betamethasone/",
    "l": "L4",
@@ -96,18 +105,18 @@
    "lv": 18,
    "r": 2,
    "i": "benign paroxysmal torticollis of infancy"
-  },
-  {
-   "t": "Amoxicilina",
-   "u": "/drugs/amoxicilina/",
-   "l": "L5",
-   "lt": 19,
-   "lv": 17,
-   "r": 1,
-   "i": "Síndrome de hiperviscosidad policlonal"
   }
  ],
  "no_current": [
+  {
+   "t": "Acetazolamide",
+   "u": "/drugs/acetazolamide/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 2,
+   "i": "exercise-induced malignant hyperthermia"
+  },
   {
    "t": "Clomipramine",
    "u": "/drugs/clomipramine/",
@@ -127,6 +136,15 @@
    "i": "Trastorno de migraña"
   },
   {
+   "t": "Epirubicin",
+   "u": "/drugs/epirubicin/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "linfoma pulmonar primario"
+  },
+  {
    "t": "Ethambutol",
    "u": "/drugs/ethambutol/",
    "l": "L5",
@@ -143,6 +161,24 @@
    "lv": 0,
    "r": 1,
    "i": "hypertrichosis (disease)"
+  },
+  {
+   "t": "Hydroxyzine",
+   "u": "/drugs/hydroxyzine/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "conjuntivitis por rosácea"
+  },
+  {
+   "t": "Parecoxib",
+   "u": "/drugs/parecoxib/",
+   "l": "L3",
+   "lt": 1,
+   "lv": 0,
+   "r": 4,
+   "i": "Trastorno de migraña"
   },
   {
    "t": "Rutin",
@@ -239,6 +275,36 @@
   "i": "seborrheic dermatitis"
  },
  "recent_reviews": [
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Registro 20219978: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Paroxetine",
+   "u": "/drugs/paroxetine/",
+   "s": "Registro 20065995: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fluconazole",
+   "u": "/drugs/fluconazole/",
+   "s": "Registro 20053245: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Epinastine",
+   "u": "/drugs/epinastine/",
+   "s": "Registro 19977977: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Bepotastine",
+   "u": "/drugs/bepotastine/",
+   "s": "Registro 20067043: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
   {
    "t": "Tropicamide",
    "u": "/drugs/tropicamide/",
@@ -352,39 +418,39 @@
    "u": "/drugs/oxaliplatin/",
    "s": "Número de registros vigentes: 4 → 8",
    "d": "2026-11-12"
-  },
-  {
-   "t": "Orlistat",
-   "u": "/drugs/orlistat/",
-   "s": "Número de registros vigentes: 3 → 14",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Olopatadine",
-   "u": "/drugs/olopatadine/",
-   "s": "Número de registros vigentes: 8 → 17",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Olanzapine",
-   "u": "/drugs/olanzapine/",
-   "s": "Número de registros vigentes: 3 → 18",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Octreotide",
-   "u": "/drugs/octreotide/",
-   "s": "Número de registros sanitarios: 1 → 2",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Norfloxacin",
-   "u": "/drugs/norfloxacin/",
-   "s": "Número de registros vigentes: 4 → 11",
-   "d": "2026-11-12"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Travoprost",
+   "u": "/drugs/travoprost/",
+   "s": "Registro 20219978: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Paroxetine",
+   "u": "/drugs/paroxetine/",
+   "s": "Registro 20065995: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fluconazole",
+   "u": "/drugs/fluconazole/",
+   "s": "Registro 20053245: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Epinastine",
+   "u": "/drugs/epinastine/",
+   "s": "Registro 19977977: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Bepotastine",
+   "u": "/drugs/bepotastine/",
+   "s": "Registro 20067043: estado vigente → vencido",
+   "d": "2026-11-24"
+  },
   {
    "t": "Tropicamide",
    "u": "/drugs/tropicamide/",
@@ -401,36 +467,6 @@
    "t": "Tenofovir Disoproxil",
    "u": "/drugs/tenofovir-disoproxil/",
    "s": "Número de registros vigentes: 4 → 16",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Número de registros vigentes: 2 → al menos 18",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Sulfamethoxazole",
-   "u": "/drugs/sulfamethoxazole/",
-   "s": "Número de registros vigentes: 2 → al menos 20",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Sucralfate",
-   "u": "/drugs/sucralfate/",
-   "s": "Número de registros vigentes: 4 → 7",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Secnidazole",
-   "u": "/drugs/secnidazole/",
-   "s": "Número de registros vigentes: 4 → al menos 17",
-   "d": "2026-11-12"
-  },
-  {
-   "t": "Rivastigmine",
-   "u": "/drugs/rivastigmine/",
-   "s": "Número de registros sanitarios: 2 → 11",
    "d": "2026-11-12"
   }
  ],
@@ -449,7 +485,7 @@
   },
   "L3": {
    "n": 25,
-   "current": 25
+   "current": 24
   },
   "L4": {
    "n": 45,
@@ -457,7 +493,7 @@
   },
   "L5": {
    "n": 499,
-   "current": 493
+   "current": 490
   }
  },
  "cross": {

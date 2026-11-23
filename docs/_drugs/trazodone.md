@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 641
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trazodone: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L3). Indicación original: TRAZODONA"
 monitor_inn: "trazodone"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "agoraphobia", "phobic disorder", "Ohdo syndrome and variants"]
@@ -57,8 +57,8 @@ El modelo TxGNN predice que podría ser efectivo para el **trastorno obsesivo-co
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Emtricitabine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: EMTRICIT…"
 ---
 
@@ -50,7 +50,7 @@ con **0 ensayos clínicos** y **20 publicaciones** (en su mayoría estudios en a
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 20) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

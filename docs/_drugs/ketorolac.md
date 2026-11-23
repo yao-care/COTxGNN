@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 368
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketorolac: nueva indicación predicha, Trastorno de Cefalea (headache disorder) (nivel de evidencia L1). Indicación original: Ketorolaco"
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
@@ -56,8 +56,8 @@ con **17 ensayos clínicos** y **19 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Trastorno de Cefalea (headache disorder) |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 4) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?

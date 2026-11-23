@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "hydroxyzine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroxyzine: nueva indicación predicha, conjuntivitis por rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: HIDROXIZINA"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | conjuntivitis por rosácea (rosacea conjunctivitis) |
 | Puntaje de Predicción TxGNN | 0,9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

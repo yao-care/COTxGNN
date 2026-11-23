@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 258
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
 description: "Epirubicin: nueva indicación predicha, linfoma pulmonar primario (primary pulmonary lymphoma) (nivel de evidencia L5). Indicación original: EPIRRUBICINA"
@@ -50,8 +50,8 @@ pero actualmente no hay ensayos clínicos ni estudios que evalúen epirubicina e
 | Nueva Indicación Predicha | linfoma pulmonar primario (primary pulmonary lymphoma) |
 | Puntaje de Predicción TxGNN | 0.9971 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | No comercializado (registros anulados: 1 de 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?

@@ -5,7 +5,7 @@ layout: default
 title: Acetaminofem
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 18
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,7 +41,7 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | PARACETAMOL |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
 | Número de Registros Sanitarios | al menos 20 |
 
 ---

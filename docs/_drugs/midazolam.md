@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 442
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Midazolam"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -51,7 +51,7 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, con **2 ensa
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

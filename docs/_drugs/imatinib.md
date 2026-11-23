@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L5). Indicación original: IMATINIB"
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**
 | Nueva Indicación Predicha | Fibrosarcoma cardíaco (heart fibrosarcoma) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---

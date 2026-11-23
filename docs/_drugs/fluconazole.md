@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fluconazole: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: FLUCONAZOL"
 monitor_inn: "Fluconazole"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -74,8 +74,14 @@ Actualmente no hay literatura relacionada disponible.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
 |---------|------|------|-----------|
-| 20053245 | HONGIZOL® CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |
+| 20053245 | HONGIZOL® CÁPSULAS (vencido) | Cápsula dura | FLUCONAZOL |
 | 48561 | BATEN® 150 MG CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |
+
+<!-- review:begin co-row-20261124-fluconazole-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "20053245 / HONGIZOL® CÁPSULAS (vigente) / Cápsula dura / FLUCONAZOL" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20053245 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-row-20261124-fluconazole-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -124,6 +130,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 20053245: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

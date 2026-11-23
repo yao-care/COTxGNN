@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 302
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Folic Acid: nueva indicación predicha, Enfermedad metabólica de la biotina (nivel de evidencia L5). Indicación original: Multivitaminas más hierro"
 monitor_inn: "Folic acid"
 predicted_indications: ["biotin metabolic disease"]
@@ -55,7 +55,7 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad metabólic
 | Nueva Indicación Predicha | Enfermedad metabólica de la biotina |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 (solo predicción del modelo; la literatura es indirecta y no evalúa esta indicación) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 10) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

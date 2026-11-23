@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Retinol (vitamina A)"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -49,7 +49,7 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad congénita po
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina (rank 1 del modelo) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 (para la indicación principal); la candidata con más soporte, enfermedad perinatal, alcanza L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 12) |
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 

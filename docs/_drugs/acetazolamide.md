@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 23
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamide: nueva indicación predicha, Hipertermia maligna inducida por ejercicio (nivel de evidencia L5). Indicación original: Acetazolamida"
 monitor_inn: "Acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "myopathic intestinal pseudoobstruction"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipertermia maligna indu
 | Nueva Indicación Predicha | Hipertermia maligna inducida por ejercicio |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
+| Número de Registros Sanitarios | 1 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible para hipertermia maligna in
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
-| 19973358 | VICLEAR® | Tableta | ACETAZOLAMIDA | Vigente |
+| 19973358 | VICLEAR® | Tableta | ACETAZOLAMIDA | Temp. no comerc - Vigente |
 
 ---
 

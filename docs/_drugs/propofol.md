@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 539
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Propofol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L1). Indicación original: Propofol"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -52,8 +52,8 @@ con **3 ensayos clínicos** y **19 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L1 (a verificar, ver nota abajo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 12) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---

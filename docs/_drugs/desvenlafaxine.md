@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 207
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Desvenlafaxine: nueva indicación predicha, Trastorno obsesivo-compulsivo (nivel de evidencia L4). Indicación original: No especificada en el registro sanitario (el texto solo indica \"Desve…"
 monitor_inn: "desvenlafaxine"
 predicted_indications: ["obsessive-compulsive disorder", "schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "Ohdo syndrome and variants", "benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -52,8 +52,8 @@ pero actualmente hay **0 ensayos clínicos** y solo **3 publicaciones** indirect
 | Nueva Indicación Predicha | Trastorno obsesivo-compulsivo |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---

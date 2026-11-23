@@ -31709,6 +31709,126 @@
    ],
    "checked": "2026-11-20",
    "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+  },
+  {
+   "id": "co-row-20261124-bepotastine-1",
+   "drug": "bepotastine",
+   "file": "bepotastine.md",
+   "action": "correct",
+   "claim": "| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Temp. no comerc - Vigente |",
+   "replacement": "| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Vencido |",
+   "summary": "Registro 20067043: estado vigente → vencido",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20067043 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "許可證表把 20067043 寫成有效；2026-11-23 每週排程下載的 INVIMA CUM（36,180 筆）與更新後證據包為 Vencido（license_status cancelled），本站 issue #918 擋下的頁",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+  },
+  {
+   "id": "co-row-20261124-epinastine-1",
+   "drug": "epinastine",
+   "file": "epinastine.md",
+   "action": "correct",
+   "claim": "| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Temp. no comerc - Vigente |",
+   "replacement": "| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vencido |",
+   "summary": "Registro 19977977: estado vigente → vencido",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 19977977 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "許可證表把 19977977 寫成有效；2026-11-23 每週排程下載的 INVIMA CUM（36,180 筆）與更新後證據包為 Vencido（license_status cancelled），本站 issue #918 擋下的頁",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+  },
+  {
+   "id": "co-row-20261124-travoprost-1",
+   "drug": "travoprost",
+   "file": "travoprost.md",
+   "action": "correct",
+   "claim": "| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Temp. no comerc - Vigente |",
+   "replacement": "| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Vencido |",
+   "summary": "Registro 20219978: estado vigente → vencido",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20219978 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "許可證表把 20219978 寫成有效；2026-11-23 每週排程下載的 INVIMA CUM（36,180 筆）與更新後證據包為 Vencido（license_status cancelled），本站 issue #918 擋下的頁",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+  },
+  {
+   "id": "co-row-20261124-fluconazole-1",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "| 20053245 | HONGIZOL® CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |",
+   "replacement": "| 20053245 | HONGIZOL® CÁPSULAS (vencido) | Cápsula dura | FLUCONAZOL |",
+   "summary": "Registro 20053245: estado vigente → vencido",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20053245 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "許可證表把 20053245 寫成有效；2026-11-23 每週排程下載的 INVIMA CUM（36,180 筆）與更新後證據包為 Vencido（license_status cancelled），本站 issue #918 擋下的頁",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+  },
+  {
+   "id": "co-row-20261124-paroxetine-1",
+   "drug": "paroxetine",
+   "file": "paroxetine.md",
+   "action": "correct",
+   "claim": "| 20065995 | NATH 7.5 MG CAPSULAS (vigente) | Cápsula dura | PAROXETINA |",
+   "replacement": "| 20065995 | NATH 7.5 MG CAPSULAS (vencido) | Cápsula dura | PAROXETINA |",
+   "summary": "Registro 20065995: estado vigente → vencido",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20065995 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "許可證表把 20065995 寫成有效；2026-11-23 每週排程下載的 INVIMA CUM（36,180 筆）與更新後證據包為 Vencido（license_status cancelled），本站 issue #918 擋下的頁",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+  },
+  {
+   "id": "co-lic-20261124-epinastine-1",
+   "drug": "epinastine",
+   "file": "epinastine.md",
+   "action": "correct",
+   "claim": "y cuenta con 3 registros sanitarios vigentes",
+   "replacement": "y cuenta con 2 registros sanitarios vigentes (de 3 registros; el 19977977 figura como vencido)",
+   "summary": "Registros vigentes: 3 → 2",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): de los 3 registros sanitarios, 2 están vigentes (20218995 y 19964592) y el 19977977 figura como «Vencido». Las cifras actuales están en el Resumen rápido.",
+   "finding": "正文寫 3 張有效；事實層有效 2／註銷 1（19977977 Vencido，2026-11-23 排程下載的 INVIMA CUM）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，checker M3c）"
   }
  ]
 }

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Topiramato"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -52,8 +52,8 @@ Entre las demás predicciones, las que tienen más respaldo son subtipos de epil
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9970 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---

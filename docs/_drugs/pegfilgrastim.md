@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim: nueva indicación predicha, Retinopatía diabética no proliferativa grave (nivel de evidencia L5). Indicación original: PEGFILGRASTIM"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **retinopatía diabética 
 | Nueva Indicación Predicha | Retinopatía diabética no proliferativa grave |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -74,7 +74,7 @@ Cabe señalar que la "retinopatía diabética" (puntaje 0.9973) es la categoría
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
 |---------|------|------|-----------|------|
 | 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Vigente |
-| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Vigente |
+| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Temp. no comerc - Vigente |
 | 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Vigente |
 | 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Temp. no comerc - Vigente |
 

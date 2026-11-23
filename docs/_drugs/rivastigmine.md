@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivastigmine: nueva indicación predicha, Glaucoma (nivel de evidencia L5). Indicación original: RIVASTIGMINA"
 monitor_inn: "Rivastigmine"
 predicted_indications: ["glaucoma"]
@@ -58,8 +58,8 @@ con **0 ensayos clínicos** y **3 publicaciones** (una de ellas un estudio precl
 | Nueva Indicación Predicha | Glaucoma |
 | Puntaje de Predicción TxGNN | 0.9927 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 11) |
-| Número de Registros Sanitarios | 11 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 487
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Oxaliplatino"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -50,8 +50,8 @@ Oxaliplatino es un agente citotóxico derivado del platino, registrado en Colomb
 | Nueva Indicación Predicha | Mesotelioma pleural maligno |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---

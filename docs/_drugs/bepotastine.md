@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 103
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bepotastine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -74,10 +74,16 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotasti
 
 | Registro | Producto | Forma farmacéutica | Estado |
 |------|------|------|------|
-| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
+| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Vencido |
 | 20215922 | BEPOTASTINA BESILATO EQUIVALENTE A 10.7 MG DE BEPOTASTINA | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
 | 20201515 | BEPOTASTINA BESILATO 15.00 MG EQUIVALENTE A BEPOTASTINA | SOLUCION OFTALMICA | Vigente |
 | 20079303 | BEPOTASTINA BESILATO | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
+
+<!-- review:begin co-row-20261124-bepotastine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "20067043 / BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) / SOLUCION OFTALMICA / Temp. no comerc - Vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20067043 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-row-20261124-bepotastine-1 -->
 
 Los datos solo contienen parte de los registros; la lista puede estar incompleta.
 
@@ -90,6 +96,18 @@ Los datos solo contienen parte de los registros; la lista puede estar incompleta
 Para advertencias y contraindicaciones, consultar el prospecto.
 
 ---
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Registro 20067043: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

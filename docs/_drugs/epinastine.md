@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epinastine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Epinastina"
 monitor_inn: "epinastine"
 predicted_indications: ["rosacea conjunctivitis", "allergic urticaria"]
@@ -76,7 +76,13 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 |---------|------|------|-----------|------|
 | 20218995 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
 | 19964592 | RELESTAT® | Solución oftálmica | Epinastina | Vigente |
-| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Temp. no comerc - Vigente |
+| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vencido |
+
+<!-- review:begin co-row-20261124-epinastine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "19977977 / ATERGIT® Solución Oftálmica Estéril / Solución oftálmica / Epinastina / Temp. no comerc - Vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 19977977 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-row-20261124-epinastine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -89,7 +95,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), sin ensayos ni literatura, y la fisiopatología de la rosácea ocular se relaciona poco con el mecanismo antihistamínico. Además, en Colombia el medicamento está comercializado y cuenta con 3 registros sanitarios vigentes.
+La predicción de conjuntivitis por rosácea es solo computacional (nivel L5), sin ensayos ni literatura, y la fisiopatología de la rosácea ocular se relaciona poco con el mecanismo antihistamínico. Además, en Colombia el medicamento está comercializado y cuenta con 2 registros sanitarios vigentes (de 3 registros; el 19977977 figura como vencido).
+
+<!-- review:begin co-lic-20261124-epinastine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "y cuenta con 3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): de los 3 registros sanitarios, 2 están vigentes (20218995 y 19964592) y el 19977977 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124-epinastine-1 -->
 
 **Para avanzar se necesita:**
 - Revisión de literatura y estudios preclínicos o piloto sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular
@@ -119,6 +131,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
+| 2026-11-24 | Registro 19977977: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registros vigentes: 3 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
